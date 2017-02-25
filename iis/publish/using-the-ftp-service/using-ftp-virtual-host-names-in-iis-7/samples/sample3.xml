@@ -1,0 +1,18 @@
+<location path="www.example.com">
+    <system.ftpServer>
+        <security>
+            <authorization>
+                <add accessType="Allow" users="MyUser" permissions="Read, Write" />
+            </authorization>
+        </security>
+    </system.ftpServer>
+</location>
+<location path="www.contoso.com">
+    <system.ftpServer>
+        <security>
+            <authorization>
+                <add accessType="Allow" users="MyUser" permissions="Read, Write" />
+            </authorization>
+        </security>
+    </system.ftpServer>
+</location>

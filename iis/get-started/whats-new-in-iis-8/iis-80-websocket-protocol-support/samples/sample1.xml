@@ -1,0 +1,4 @@
+<system.webServer>
+    ...
+    <webSocket enabled="false"/>
+</system.webServer>

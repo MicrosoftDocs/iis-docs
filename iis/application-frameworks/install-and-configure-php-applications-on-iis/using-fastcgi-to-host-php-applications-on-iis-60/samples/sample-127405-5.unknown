@@ -1,0 +1,1 @@
+> cscript fcgiconfig.js -set -section:"PHP" -EnvironmentVars:PHP_FCGI_MAX_REQUESTS:10000

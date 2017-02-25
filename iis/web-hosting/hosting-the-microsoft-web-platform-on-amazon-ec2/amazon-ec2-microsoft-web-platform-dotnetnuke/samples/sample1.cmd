@@ -1,0 +1,1 @@
+reg add "HKCU\Software\Microsoft\Internet Explorer\Styles" /v MaxScriptStatements /t REG_DWORD /d 0x5F5E100

@@ -1,0 +1,1 @@
+%systemroot%\iis7.log

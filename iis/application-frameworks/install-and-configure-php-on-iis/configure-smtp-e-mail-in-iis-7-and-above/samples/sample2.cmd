@@ -1,0 +1,1 @@
+C:\%windir%\system32\inetsrv\appcmd set config /commit:WEBROOT /section:smtp /from: string /deliveryMethod:PickupDirectoryFromIis|SpecifiedPickupDirectory /SpecifiedPickupDirectory:string

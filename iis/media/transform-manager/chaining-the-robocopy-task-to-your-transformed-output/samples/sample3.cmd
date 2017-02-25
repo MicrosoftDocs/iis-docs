@@ -1,0 +1,1 @@
+Robocopy.exe "EE4Output" "\\ServerName\inetpub\wwwroot\" *.ismv /R:3 /W:30

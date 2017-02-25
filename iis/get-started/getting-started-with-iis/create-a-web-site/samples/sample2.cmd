@@ -1,0 +1,1 @@
+appcmd add site /name: contoso /id:2 /physicalPath: c:\contoso /bindings:http/*:85: marketing.contoso.com

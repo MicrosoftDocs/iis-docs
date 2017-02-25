@@ -1,0 +1,1 @@
+netstat -ano" or "netstat -anob

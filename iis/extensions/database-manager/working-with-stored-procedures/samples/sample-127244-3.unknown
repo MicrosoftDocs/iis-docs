@@ -1,0 +1,1 @@
+@Username VARCHAR(50), @IsUserAllowed BIT

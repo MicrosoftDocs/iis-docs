@@ -1,0 +1,1 @@
+%systemroot%\Microsoft.NET\Framework\v2.0.50727\csc.exe /target:library /out:IIS_MOD_REQDATA.dll /debug /d:TRACE /R:System.Web.dll IIS_MOD_REQDATA.cs

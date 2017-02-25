@@ -1,0 +1,13 @@
+<!-- "windowsAuthentcation" is a section which is an element -->
+<!-- "enabled" is a property -->
+<windowsAuthentication enabled="true">
+  
+  <!-- "providers" is a collection which is an element -->
+  <providers>
+  
+    <!-- the collection contains two elements -->
+    <!-- "add" is the collection directive; "value" is the property -->
+    <add value="Negotiate"/>
+    <add value=""NTLM/>
+  </providers>
+</windowsAuthentication>

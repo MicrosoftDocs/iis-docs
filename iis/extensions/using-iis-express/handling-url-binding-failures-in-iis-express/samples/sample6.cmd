@@ -1,0 +1,1 @@
+netsh http add urlacl url=http://myhostname:8080/ user=everyone

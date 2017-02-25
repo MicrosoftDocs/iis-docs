@@ -1,0 +1,1 @@
+Backup-WDSqlDatabase "server=.\sqlexpress;integrated security=SSPI;database=customers" "C:\dbbackup.zip"

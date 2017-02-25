@@ -1,0 +1,1 @@
+<add name="UrlAuthorizationModule" image="%windir%\System32\inetsrv\urlauthz.dll" />

@@ -1,0 +1,1 @@
+PS IIS:\ >Remove-Item IIS:\Sites\TestSite

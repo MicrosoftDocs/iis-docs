@@ -1,0 +1,2 @@
+[RequestLimits]
+MaxUrl=100

@@ -1,0 +1,1 @@
+upload_tmp_dir="C:\php\upload"

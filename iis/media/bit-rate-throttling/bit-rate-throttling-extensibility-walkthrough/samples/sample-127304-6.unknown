@@ -1,0 +1,84 @@
+<element name="mediaFormats"> 
+      <collection addElement="add" clearElement="clear" removeElement="remove"> 
+          <attribute name="fileExtension" required="true" isUniqueKey="true" type="string" /> 
+          <element name="bitrateRules"> 
+              <attribute name="enabled" type="bool" defaultValue="false" /> 
+              <collection addElement="add">                                        <attribute name="searchPattern" type="string" /> 
+                  <attribute name="searchPatternType" type="enum"> 
+                      <enum name="hexValue" value="0" /> 
+                          <enum name="stringValue" value="1" /> 
+                  </attribute> 
+                  <attribute name="searchRangeStart" type="int64" defaultValue="0" /> 
+                  <attribute name="searchRangeEnd" type="int64" defaultValue="4096" /> 
+                  <attribute name="searchFrom" type="enum" defaultValue="beginning"> 
+                      <enum name="beginning" value="0" /> 
+                          <enum name="end" value="1" /> 
+                      <enum name="both" value="2" /> 
+                  </attribute> 
+                  <attribute name="dataOffset" type="uint" defaultValue="0" /> 
+                  <attribute name="dataType" type="enum" required="true" > 
+                      <enum name="uint16" value="0" /> 
+                          <enum name="uint32" value="1" /> 
+                      <enum name="float" value="2" /> 
+                      <enum name="double" value="3" /> 
+                  </attribute> 
+                  <attribute name="endianness" type="enum" defaultValue="bigEndian"> 
+                      <enum name="bigEndian" value="0" /> 
+                          <enum name="littleEndian" value="1" /> 
+                  </attribute> 
+                  <attribute name="unitBitPerSecond" type="uint" defaultValue="1" />                    </collection> 
+          </element> 
+          <element name="durationRule"> 
+              <attribute name="enabled" type="bool" defaultValue="false" /> 
+              <element name="duration">                                    <attribute name="searchPattern" type="string" /> 
+                  <attribute name="searchPatternType" type="enum"> 
+                      <enum name="hexValue" value="0" /> 
+                          <enum name="stringValue" value="1" /> 
+                  </attribute> 
+                  <attribute name="searchRangeStart" type="int64" defaultValue="0" /> 
+                  <attribute name="searchRangeEnd" type="int64" defaultValue="4096" /> 
+                  <attribute name="dataOffset" type="uint" defaultValue="0" /> 
+                  <attribute name="searchFrom" type="enum" defaultValue="beginning"> 
+                      <enum name="beginning" value="0" /> 
+                          <enum name="end" value="1" /> 
+                      <enum name="both" value="2" /> 
+                  </attribute> 
+                  <attribute name="dataType" type="enum" > 
+                      <enum name="uint16" value="0" /> 
+                          <enum name="uint32" value="1" /> 
+                      <enum name="float" value="2" /> 
+                      <enum name="double" value="3" /> 
+                  </attribute> 
+                  <attribute name="endianness" type="enum" defaultValue="bigEndian"> 
+                      <enum name="bigEndian" value="0" /> 
+                          <enum name="littleEndian" value="1" /> 
+                  </attribute> 
+              </element>                <element name="timeScale"> 
+                  <attribute name="constScale" type="uint" defaultValue="0"/> 
+                  <attribute name="searchPattern" type="string" /> 
+                  <attribute name="searchPatternType" type="enum"> 
+                      <enum name="hexValue" value="0" /> 
+                          <enum name="stringValue" value="1" /> 
+                  </attribute> 
+                  <attribute name="searchRangeStart" type="int64" defaultValue="0" /> 
+                  <attribute name="searchRangeEnd" type="int64" defaultValue="4096" /> 
+                  <attribute name="searchFrom" type="enum" defaultValue="beginning"> 
+                      <enum name="beginning" value="0" /> 
+                          <enum name="end" value="1" /> 
+                      <enum name="both" value="2" /> 
+                  </attribute> 
+                  <attribute name="dataOffset" type="uint" defaultValue="0" /> 
+                  <attribute name="dataType" type="enum" > 
+                      <enum name="uint16" value="0" /> 
+                          <enum name="uint32" value="1" /> 
+                      <enum name="float" value="2" /> 
+                      <enum name="double" value="3" /> 
+                  </attribute> 
+                  <attribute name="endianness" type="enum" defaultValue="bigEndian"> 
+                      <enum name="bigEndian" value="0" /> 
+                          <enum name="littleEndian" value="1" /> 
+                  </attribute>  
+              </element>
+          </element>
+      </collection>
+  </element>

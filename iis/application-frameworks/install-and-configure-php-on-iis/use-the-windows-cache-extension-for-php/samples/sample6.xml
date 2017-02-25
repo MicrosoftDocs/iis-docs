@@ -1,0 +1,5 @@
+<fastCgi>
+  <application fullPath="C:\PHP\php-cgi.exe" maxInstances="32"> 
+    <!-- Some other settings may go here--> 
+  </application>
+</fastCgi>

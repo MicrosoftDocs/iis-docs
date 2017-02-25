@@ -1,0 +1,17 @@
+USE [master]
+GO
+
+CREATE DATABASE gallery2
+GO
+
+CREATE LOGIN [gallery2] 
+WITH PASSWORD=N'pass@word1',
+     DEFAULT_DATABASE=[gallery2],
+     CHECK_EXPIRATION=OFF,
+     CHECK_POLICY=OFF
+GO
+
+USE [gallery2]
+GO
+
+CREATE USER [gallery2] FOR LOGIN [gallery2] WITH DEFAULT_SCHEMA=[dbo]

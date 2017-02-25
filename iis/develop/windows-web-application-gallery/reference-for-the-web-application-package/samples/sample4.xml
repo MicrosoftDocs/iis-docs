@@ -1,0 +1,4 @@
+<parameter name="dbUsername" defaultValue="appUser" tags="MySQL">
+    <parameterEntry type="TextFile" scope="install.sql" match="PlaceholderForDbUsername" />
+    <parameterEntry type="TextFilePosition" scope="application\\config.php" match="22;20;12" />
+  </parameter>

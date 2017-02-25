@@ -1,0 +1,5 @@
+<requestFiltering>
+   <hiddenSegments applyToWebDAV="false">
+      <add segment="include" />
+   </hiddenSegments>
+</requestFiltering>

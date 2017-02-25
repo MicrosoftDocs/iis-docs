@@ -1,0 +1,5 @@
+<parameter name="DbName" defaultValue="app_db" tags="MySQL,dbName">
+  <parameterValidation type="RegularExpression" validationString="^\w{1,16}$"/>
+  <parameterEntrytype="TextFile" scope="install.sql" match="PlaceholderForDbName"/>
+  <parameterEntry type="TextFile" scope="app\\config\.php" match="putyourdbnamehere"/>
+</parameter>

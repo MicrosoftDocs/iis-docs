@@ -1,0 +1,8 @@
+<!-- SQL Server Custom parameter for Dtabase type -->
+<parameter defaultValue="public $dbtype = 'sqlsrv';" name="Database Type SQL" tags="Hidden, SQL,NoStore" >
+    <parameterEntry match="public[\s]*\$dbtype[\s]*=[\s]*'([^']*)';" scope="configuration.php" type="TextFile"/> 
+</parameter> 
+<!-- MySQL Custom parameter for Database type -->
+<parameter defaultValue="public $dbtype = 'mysql';" name="Database Type MySQL" tags="Hidden, MySQL,NoStore" >
+    <parameterEntry match="public[\s]*\$dbtype[\s]*=[\s]*'([^']*)';" scope="configuration.php" type="TextFile"/>
+</parameter>

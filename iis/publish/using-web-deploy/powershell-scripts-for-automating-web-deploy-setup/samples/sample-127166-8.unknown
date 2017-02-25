@@ -1,0 +1,1 @@
+.\CreateMySqlDatabase.ps1 -databaseName UserADb -databaseUsername UserADbUser -databaseUserPassword Passw0rd -databaseAdminUser root -databaseAdminPassword iis6!dfu -publishSettingSavePath C:\profiles -publishSettingFileName UserA.PublishSettings

@@ -1,0 +1,1 @@
+PS IIS:\Sites\MyNewWebSite> notepad (Get-WebConfigFile)

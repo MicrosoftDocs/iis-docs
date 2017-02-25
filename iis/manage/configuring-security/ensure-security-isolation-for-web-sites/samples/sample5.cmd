@@ -1,0 +1,1 @@
+icacls.exe %systemdrive%\inetpub\temp\appPools\appPool.config /save output.txt

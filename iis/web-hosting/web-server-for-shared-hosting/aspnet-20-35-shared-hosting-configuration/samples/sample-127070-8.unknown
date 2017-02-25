@@ -1,0 +1,1 @@
+%windir%\Microsoft.NET\Framework\v2.0.50727\caspol -m -ag 1.  -url "file://\\remotefileserver\content$\*" FullTrust

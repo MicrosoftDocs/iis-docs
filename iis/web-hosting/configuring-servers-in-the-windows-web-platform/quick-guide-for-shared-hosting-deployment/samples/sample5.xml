@@ -1,0 +1,5 @@
+<configuration> 
+   <runtime> 
+     <gcServer enabled="false"/> 
+   </runtime> 
+</configuration>

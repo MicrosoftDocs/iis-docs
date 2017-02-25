@@ -1,0 +1,2 @@
+User-Agent: iisbot
+Disallow: /

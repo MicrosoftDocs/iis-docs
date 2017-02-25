@@ -1,0 +1,1 @@
+net user MySiteUser PasswordHere /add

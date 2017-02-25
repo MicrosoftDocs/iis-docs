@@ -1,0 +1,1 @@
+APPCMD (command) (object-type) <identifier> < /parameter1:value1 ... >*

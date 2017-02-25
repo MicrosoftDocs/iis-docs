@@ -1,0 +1,2 @@
+appcmd.exe set config "Default Web Site" -section:system.webServer/asp /scriptErrorMessage:"An error occurred."
+appcmd.exe set config "Default Web Site" -section:system.webServer/asp /scriptErrorSentToBrowser:"False"

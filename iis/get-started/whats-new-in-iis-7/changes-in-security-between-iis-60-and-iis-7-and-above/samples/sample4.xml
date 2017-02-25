@@ -1,0 +1,5 @@
+<authorization>
+        <add accessType="allow" users="Vik_Malhotra" />
+        <add accessType="deny" roles="administrators" />
+        <add accessType="deny" users="*" />
+    </authorization>

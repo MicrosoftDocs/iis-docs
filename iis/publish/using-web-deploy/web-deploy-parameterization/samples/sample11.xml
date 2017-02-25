@@ -1,0 +1,86 @@
+<parameters>
+  
+  <parameter 
+    name="Application Path" 
+    description="Full site path where you would like to install your application (i.e., Default Web Site/PhotoGallery)" 
+    tags="iisapp">
+    <parameterValidation kind="AllowEmpty" />
+    <parameterEntry kind="ProviderPath" scope="iisapp" match="Vacation Pictures" />
+  </parameter>
+
+  <parameter 
+    name="SetAclParameter1" 
+    description="Hidden - automatically sets write access for the app" 
+    defaultValue="{Application Path}/App_Data" 
+    tags="Hidden">
+    <parameterValidation kind="AllowEmpty" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="Vacation Pictures/App_Data" />
+  </parameter>
+
+  <parameter 
+    name="Database Server" 
+    description="Location of your database server." 
+    defaultValue=".\sqlexpress" 
+    tags="DBServer, SQL">
+  </parameter>
+
+  <parameter 
+    name="Database Name" 
+    description="Name of the database for your application." 
+    defaultValue="VacPicDB" tags="DBName, SQL">
+    <parameterEntry type="TextFile" scope="CreateDBAndUser.sql" match="PlaceHolderForDb" />
+  </parameter>
+
+  <parameter 
+    name="Database Username" 
+    description="User name to access you application database." 
+    defaultValue="VacPicDBUser" 
+    tags="SQL, DbUsername">
+    <parameterEntry type="TextFile" scope="CreateDBAndUser.sql" match="PlaceHolderForUser" />
+  </parameter>
+
+  <parameter 
+    name="Database Password" 
+    description="Password for the Database Username." 
+    tags="New, Password, SQL, DbUserPassword">
+    <parameterEntry type="TextFile" scope="CreateDBAndUser.sql" match="PlaceHolderForPassword" />
+  </parameter>
+
+  <parameter 
+    name="Database Administrator" 
+    description="Administrator username for your database." 
+    defaultValue="sa" 
+    tags="SQL, DbAdminUsername">
+  </parameter>
+
+  <parameter 
+    name="Database Administrator Password" 
+    description="Password that is associated with the database administrator account." 
+    tags="Password, SQL, DbAdminPassword">
+  </parameter>
+
+  <parameter 
+    name="Create DB and DB User Connection String" 
+    description="Automatically sets the connection string for the connection request." 
+    defaultValue="Server={Database Server};Database={Database Name};uid={Database Administrator};Pwd={Database Administrator Password};" 
+    tags="Hidden,SQLConnectionString,Validate">
+    <parameterEntry type="ProviderPath" scope="dbfullsql" match="CreateDBAndUser.sql" />
+  </parameter>
+
+  <parameter 
+    name="Populate DB Connection String" 
+    description="Automatically sets the connection string for the connection request." 
+    defaultValue="Server={Database Server};Database={Database Name};uid={Database Administrator};Pwd={Database Administrator Password};" 
+    tags="Hidden,SQLConnectionString,Validate">
+    <parameterEntry type="ProviderPath" scope="dbfullsql" match="VacPicDBSchema.sql" />
+  </parameter>
+
+  <parameter 
+    name="Connection String for Config" 
+    description="Connection string to enter into config" 
+    defaultValue="Data Source={Database Server};database={Database Name};user id={Database Username};password={Database Password}" 
+    tags="Hidden, SQL">
+    <parameterEntry kind="XmlFile" scope="\\web\.config$" match="//*[local-name()='connectionStrings']/*[local-name()='add'][@name='PhotoGallery']/@connectionString" tags="Sql, SqlConnectionString, Hidden" />
+  </parameter>
+
+</parameters>

@@ -1,0 +1,1 @@
+<add name="imageCopyrightUI" type="IIS7Demos.imageCopyrightUIProvider, IIS7Demos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3fd9bd5e992ee757"/>

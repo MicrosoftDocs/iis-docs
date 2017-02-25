@@ -1,0 +1,9 @@
+<location path="Developer Site"> 
+        <defaultDocument enabled="true" > 
+            <files lockElements="clear,remove"> 
+                <add value="Developer.htm" /> 
+            </files> 
+        </defaultDocument> 
+</location> 
+ 
+Besides lockAttribute and lockElement, there are negative counterparts: lockAllAttributesExcept, and lockAllElementsExcept. These attributes achieve  the inverse action of the previous ones in which the comma-separated list declares the attributes and elements to be unlocked while the rest are not  available to be edited in child paths.

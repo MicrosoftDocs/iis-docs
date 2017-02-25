@@ -1,0 +1,2 @@
+%windir%\system32\inetsrv\appcmd add module /name:"SimpleLoggingModule" 
+/type:"ConfigurationExtensibility.SimpleLoggingModule, SimpleLoggingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=652a8d02f48e4288"

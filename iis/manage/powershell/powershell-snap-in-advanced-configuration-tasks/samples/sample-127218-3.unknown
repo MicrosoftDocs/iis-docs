@@ -1,0 +1,1 @@
+PS IIS:\Sites\DemoSite\DemoApp> set-webconfiguration "/system.webServer/handlers/add[@path='*.aspx']/@path" -value "*.mspx"

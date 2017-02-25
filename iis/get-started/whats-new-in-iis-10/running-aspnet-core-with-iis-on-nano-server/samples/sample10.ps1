@@ -1,0 +1,1 @@
+New-NetFirewallRule -Name "AspNetCore" -DisplayName "HTTP on TCP/8000" -Protocol tcp -LocalPort 8000 -Action Allow -Enabled True

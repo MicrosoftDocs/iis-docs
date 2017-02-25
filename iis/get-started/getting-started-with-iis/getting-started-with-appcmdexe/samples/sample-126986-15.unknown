@@ -1,0 +1,1 @@
+%systemroot%\system32\inetsrv\APPCMD add site /name:MyNewSite /bindings:"http/*:81:" /physicalPath:"C:\MyNewSite"

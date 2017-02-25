@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.1//EN" "http://www.w3.org/2005/SMIL21/SMIL21.dtd"[]>
+<smil xmlns="http://www.w3.org/2005/SMIL21/Language">
+    <head>
+        <meta name="extraParam" content="&lt;AUTHOR&gt;IIS Team&lt;/AUTHOR&gt;" />
+        <meta name="title" content="Hello Playlist!" />
+        <meta name="description" content="This is just a description" />
+    </head>
+    <body>
+        <seq>
+            <ref src="ad.wmv">
+                <param name="srcType" value="relativeURI" />
+                <param name="canSkipForward" value="False" />
+                <param name="canSkipBack" value="True" />
+                <param name="canSeek" value="True" />
+                <param name="extraParam" value="&lt;DURATION VALUE=&quot;00:00:05&quot; /&gt;" />
+                <param name="title" value="Advertisement" />
+            </ref>
+            <ref src="C:\inetpub\wwwroot\DieHard.wmv">
+                <param name="srcType" value="physicalPath" />
+                <param name="canSkipForward" value="True" />
+                <param name="canSkipBack" value="True" />
+                <param name="canSeek" value="True" />
+                <param name="extraParam" value="&lt;COPYRIGHT&gt;IIS Media Services&lt;/COPYRIGHT&gt;" />
+                <param name="title" value="Die Hard Preview" />
+            </ref>
+            <ref src="George.wmv">
+                <param name="srcType" value="relativeURI" />
+                <param name="canSkipForward" value="True" />
+                <param name="canSkipBack" value="True" />
+                <param name="canSeek" value="True" />
+                <param name="extraParam" value="" />
+                <param name="title" value="George Preview" />
+            </ref>
+            <ref src="http://iismp-demo/George.wmv">
+                <param name="srcType" value="remoteURL" />
+                <param name="canSkipForward" value="True" />
+                <param name="canSkipBack" value="True" />
+                <param name="canSeek" value="True" />
+                <param name="extraParam" value="" />
+                <param name="title" value="Remote Preview" />
+            </ref>
+        </seq>
+    </body>
+</smil>

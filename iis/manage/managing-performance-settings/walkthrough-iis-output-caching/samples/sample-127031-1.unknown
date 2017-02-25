@@ -1,0 +1,1 @@
+md %systemdrive%\inetpub\wwwroot\pictures

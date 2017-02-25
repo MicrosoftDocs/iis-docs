@@ -1,0 +1,1 @@
+get-iissite –computer somecomputer –name somesite –credential $(get-credential)

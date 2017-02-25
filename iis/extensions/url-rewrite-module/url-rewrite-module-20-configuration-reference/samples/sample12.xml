@@ -1,0 +1,5 @@
+<rewrite>
+    <allowedServerVariables>
+        <add name="X_REQUESTED_URL_PATH" />
+    </allowedServerVariables>
+</rewrite>

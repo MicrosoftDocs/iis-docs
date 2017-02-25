@@ -1,0 +1,1 @@
+Remove-WDSite -Site NonWorkingSite

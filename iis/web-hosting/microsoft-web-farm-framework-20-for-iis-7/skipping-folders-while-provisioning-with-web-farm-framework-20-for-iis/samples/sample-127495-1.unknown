@@ -1,0 +1,1 @@
+%windir%\System\inetsrv\config

@@ -1,0 +1,6 @@
+<rule name="ARR_CacheControl_b5aec65d-6327-407f-a28c-b34e48c5cda2" enabled="true" patternSyntax="Wildcard"> 
+     <match url="*" />     
+       <serverVariables>        
+         <set name="ARR_CACHE_CONTROL_OVERRIDE" value="0,max-age=3600" />         
+       </serverVariables>
+</rule>

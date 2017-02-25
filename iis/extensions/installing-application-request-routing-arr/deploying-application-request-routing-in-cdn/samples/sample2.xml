@@ -1,0 +1,15 @@
+<rewrite>
+   <globalRules>
+      <rule name="ARR_myParentCacheNodes_loadbalance" patternSyntax="Wildcard" stopProcessing="true">
+         <match url="*" />
+         <conditions trackAllCaptures="true">
+            <add input="{OrigServers:{HTTP_HOST}}" pattern="*" />
+            <add input="{C:1}" negate="true"  pattern="#" />
+         </conditions>
+         <serverVariables>
+            <set name="HTTP_HOST" value="{C:1}" replace="true" />
+         </serverVariables>
+         <action type="Rewrite" url="http://myParentCacheNodes/{R:0}" />
+      </rule>
+   </globalRules>
+</rewrite>

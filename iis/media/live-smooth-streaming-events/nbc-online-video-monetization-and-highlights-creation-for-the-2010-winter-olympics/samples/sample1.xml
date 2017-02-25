@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Templates>
+<Template TemplateType="A" StreamType="Live">
+<Items>
+     <Item Duration="150000000" KeyValuePairs="slot=a;dur=15" /> 
+</Items>
+</Template>
+<Template TemplateType="A" StreamType="VOD">
+<Items>
+     <Item Duration="150000000" KeyValuePairs="slot=a;dur=15" /> 
+</Items>
+</Template>
+<Template TemplateType="F" StreamType="Live">
+<Items>
+     <Item Duration="150000000" KeyValuePairs="slot=f;dur=15" /> 
+     <Item Duration="300000000" KeyValuePairs="slot=f;dur=30" /> 
+     <Item Duration="150000000" KeyValuePairs="slot=f;dur=15" /> 
+     <Item Duration="300000000" KeyValuePairs="slot=f;dur=30" /> 
+     <Item Duration="150000000" KeyValuePairs="slot=f;dur=15" /> 
+     <Item Duration="300000000" KeyValuePairs="slot=f;dur=30" /> 
+     <Item Duration="150000000" KeyValuePairs="slot=f;dur=15" /> 
+</Items>
+</Template>
+<Template TemplateType="F" StreamType="VOD">
+<Items>
+     <Item Duration="150000000" KeyValuePairs="slot=f;dur=15" /> 
+     <Item Duration="300000000" KeyValuePairs="slot=f;dur=30" /> 
+     <Item Duration="150000000" KeyValuePairs="slot=f;dur=15" /> 
+     <Item Duration="300000000" KeyValuePairs="slot=f;dur=30" /> 
+     <Item Duration="150000000" KeyValuePairs="slot=f;dur=15" /> 
+     <Item Duration="300000000" KeyValuePairs="slot=f;dur=30" /> 
+     <Item Duration="150000000" KeyValuePairs="slot=f;dur=15" /> 
+</Items>
+</Template>
+</Templates>

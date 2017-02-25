@@ -1,0 +1,1 @@
+%windir%\system32\inetsrv\APPCMD.EXE migrate config <Application Path>

@@ -1,0 +1,127 @@
+<parameters >   
+
+   <!-- General Note - If you are using MySQL, you will need to change 
+  the "SQL" tag to "MySQL" for all of the parameters below.-->   
+
+   <!-- The Database Server parameter is used to identify the database 
+  server that the Web Deployment Tool will connect to for execution of 
+  the SQL script(s) required for installation. For SQL (Express or 
+  Server) this field points to the server and database instance being 
+  used. Typically, this will be './SQLEXPRESS' or './SQLSERVER', where 
+  the '.' specifies the local machine, and 'SQLEXPRESS' and 
+  'SQLSERVER' are the default instance names. For MySQL Databases, the 
+  Database Server will be a host name for the system that the database 
+  is running on. In many cases, this will be 'localhost' to specify 
+  that MySQL is running on the local machine. -->   
+
+   <parameter   
+     name = "dbServer"   
+     defaultValue = ".\SQLEXPRESS"   
+     tags = "SQL, dbServer" >   
+   </parameter>   
+
+   <!-- The Database Name parameter specifies the name of the database 
+  on the server that will be used by the application. If this database 
+  doesn't exist, the Web Deployment Tool will attempt to create it 
+  using the specified credentials. This parameter can also be applied 
+  to configuration files or SQL scripts as needed.-->   
+
+   <parameter   
+     name = "dbName"   
+     defaultValue = "Application"   
+     tags = "SQL, dbName" >   
+     <parameterEntry   
+       type = "TextFile"   
+       scope = "install.sql"   
+       match = "PlaceholderForDbName"  />   
+   </parameter>   
+
+   <!-- Prompts for the database username and fills it into the 
+  database scripts. The SQL tag indicates it is a parameter required 
+  for SQL, the DbUsername tag indicates this is a Db username Note 
+  that this is the User Name that the application uses to communicate 
+  with the database. If the user does not exist prior to the 
+  installation, this user will be created by the install.sql scripts. 
+  -->   
+
+   <parameter   
+     name = "dbUsername"   
+     defaultValue = "ApplicationUser"   
+     tags = "SQL, dbUsername" >   
+     <parameterEntry   
+       type = "TextFile"   
+       scope = "install.sql"   
+       match = "PlaceholderForDbUsername"  />   
+   </parameter>   
+
+   <!-- Prompts for the database password and fills it into the 
+  database scripts. The SQL tag indicates it is a parameter required 
+  for SQL, the DbUserPassword tag indicates this is a Db password. 
+  Since this is a new password being set for SQL or SQL Express, we 
+  use a Regular Expression validationString to make sure that the 
+  password meets the minimum complexity requirements. This Regular 
+  Expression ensures that Passwords will contain at least (1) upper 
+  case letter, at least (1) lower case letter, at least (1) number or 
+  special character, and be least (8) characters in length. While 
+  MySQL does not have password strength restrictions by default, it is 
+  considered a good security practice to enforce this minimum level of 
+  password complexity for MySQL as well. -->   
+
+   <parameter   
+     name = "dbUserPassword"   
+     tags = "New, Password, SQL, dbUserPassword" >   
+     <parameterValidation   
+       type = "RegularExpression"   
+       validationString = "(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"  />   
+     <parameterEntry   
+       type = "TextFile"   
+       scope = "install.sql"   
+       match = "PlaceholderForDbUserPassword"  />   
+   </parameter>   
+
+   <!-- Prompts for the Database Administrator's user name. This is 
+  'sa' by default for SQL, and 'root' by default for MySQL. When using 
+  the Web PI, the user will only be prompted for this information if 
+  the user is creating a new database for the application. If the user 
+  is specifying an existing database to use, then the Database 
+  Username and Password are substituted for the Administrator's 
+  credentials to run the SQL scripts. -->   
+
+   <parameter   
+     name = "dbAdminUsername"   
+     defaultValue = "sa"   
+     tags = "SQL, dbAdminUsername" >   
+   </parameter>   
+
+   <!-- Prompts for the Database Administrator's password. This is used 
+  in conjunction with the Database Administrator's user name under the 
+  same circumstances. The SQL tag indicates it is a parameter required 
+  for SQL. The DbAdminPassword tag indicates it should be used when 
+  the user is creating a new database. -->   
+
+   <parameter   
+     name = "dbAdminPassword"   
+     tags = "Password, SQL, dbAdminPassword" >   
+   </parameter>   
+
+   <!-- This is the hidden database connection string used to run the 
+  database scripts. The SQLConnectionString tag identifies this as a 
+  connection string for SQL or SQL Express to the UI. The Validate tag 
+  tells the UI to validate that this connection string works before 
+  proceeding with the rest of the installation. The credentials used 
+  for this connection string are the Administrative credentials if the 
+  user is creating a new database, and the application user's 
+  credentials if the user is not. Note that when using any 
+  installation mechanism other than the WebPI, this connection string 
+  will use the Administrative credentials only.-->   
+
+   <parameter   
+     name = "ConString"   
+     defaultValue = "Server={dbServer};Database={dbName};uid={dbAdminUsername};Pwd={dbAdminPassword};"   
+     tags = "SQL, Hidden, SQLConnectionString, Validate" >   
+     <parameterEntry   
+       type = "ProviderPath"   
+       scope = "dbfullsql"   
+       match = "install.sql"  />   
+   </parameter>   
+</parameters>

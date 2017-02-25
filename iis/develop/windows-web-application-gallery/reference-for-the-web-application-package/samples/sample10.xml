@@ -1,0 +1,17 @@
+<parameters>
+  <parameter 
+    name="AppPath" 
+    friendlyName="Application Path" 
+    description="Full site path where you want to install your application (for example, Default Web Site/Application)."
+    tags="iisApp"
+    >
+    <description 
+      culture="en">Full site path where you want to install your application (for example, Default Web Site/Application).</description>
+    <description 
+      culture="de">Vollständiger Pfad, unter dem Sie Ihre Anwendung installieren möchten (z.B. Standardwebsite/Anwendung).</description>
+    <friendlyName
+      culture="en">Application Path</friendlyName>
+    <friendlyName
+      culture="de">Anwendungs Pfad</friendlyName>
+  </parameter>
+</parameters>

@@ -1,0 +1,2 @@
+[RequestLimits]
+MaxQueryString=100

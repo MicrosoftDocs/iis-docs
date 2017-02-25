@@ -1,0 +1,9 @@
+<element name="cpu">
+ ...
+ <attribute name="smpAffinitized" type="bool" defaultValue="false"/>
+ <attribute name="smpProcessorAffinityMask" type="uint" defaultValue="4294967295"/>
+ <attribute name="smpProcessorAffinityMask2" type="uint" defaultValue="4294967295"/>
+ <attribute name="processorGroup" type="int" defaultValue="0" validationType="integerRange"
+ validationParameter="0,2147483647"/>
+ ...
+</element>

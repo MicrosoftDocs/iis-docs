@@ -1,0 +1,1 @@
+Cscript %windir%\system32\SCRegEdit.wsf /cs 0

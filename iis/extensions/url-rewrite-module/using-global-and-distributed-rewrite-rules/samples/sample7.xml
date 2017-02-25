@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <system.webServer>
+    <rewrite>
+      <rules>
+        <rule name="Rewrite to forum.aspx">
+          <match url="^topic/([0-9]+)/([_0-9a-z-]+)"/>
+          <action type="Rewrite" url="forum.aspx?topic={R:2}&amp;id={R:1}"/>
+        </rule>
+      </rules>
+    </rewrite>
+  </system.webServer>
+</configuration>

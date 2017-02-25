@@ -1,0 +1,1 @@
+//ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };

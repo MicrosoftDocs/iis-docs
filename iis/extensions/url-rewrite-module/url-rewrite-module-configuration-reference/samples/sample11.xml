@@ -1,0 +1,5 @@
+<rewriteMap name="MyRewriteMap" defaultValue="">
+  <add key="a.html" value="b.html" />
+  <add key="c.aspx" value="d.aspx" />
+  <add key="e.php" value="f.php" />
+</rewriteMap>

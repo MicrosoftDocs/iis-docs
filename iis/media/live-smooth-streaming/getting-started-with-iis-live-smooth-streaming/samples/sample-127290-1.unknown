@@ -1,0 +1,1 @@
+http://IISMedia-Server/LiveSmoothStream.isml/manifest

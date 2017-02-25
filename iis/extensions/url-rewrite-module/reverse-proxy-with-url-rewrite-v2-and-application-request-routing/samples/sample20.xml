@@ -1,0 +1,26 @@
+<rewrite>
+    <rules>
+        <rule name="Reverse Proxy to webmail" stopProcessing="true">
+            <match url="^webmail/(.*)" />
+            <action type="Rewrite" url="http://localhost:8081/{R:1}" />
+        </rule>
+        <rule name="Reverse Proxy to payroll" stopProcessing="true">
+            <match url="^payroll/(.*)" />
+            <action type="Rewrite" url="http://localhost:8082/{R:1}" />
+        </rule>
+    </rules>
+    <outboundRules>
+        <rule name="Add application prefix" preCondition="IsHTML">
+            <match filterByTags="A" pattern="^/(.*)" />
+            <conditions>
+                <add input="{URL}" pattern="^/(webmail|payroll)/.*" />
+            </conditions>
+            <action type="Rewrite" value="/{C:1}/{R:1}" />
+        </rule>
+        <preConditions>
+            <preCondition name="IsHTML">
+                <add input="{RESPONSE_CONTENT_TYPE}" pattern="^text/html" />
+            </preCondition>
+        </preConditions>
+    </outboundRules>
+</rewrite>

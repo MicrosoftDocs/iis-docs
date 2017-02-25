@@ -1,0 +1,1 @@
+adsutil.vbs get w3svc/filters/compression/gzip/HcFileExtensions

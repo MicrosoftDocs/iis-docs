@@ -1,0 +1,1 @@
+%windir%\Microsoft.NET\Framework\v2.0.50727\csc /t:library /r:c:\sdk\system.management.automation.dll IISDemoCmd.cs

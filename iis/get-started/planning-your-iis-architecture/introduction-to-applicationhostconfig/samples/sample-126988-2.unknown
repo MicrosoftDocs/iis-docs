@@ -1,0 +1,4 @@
+<sectionSchema name=""  <!-- [String, Required] [XML full path of the section] --> >
+    <!-- sub-elements here describing rest of schema; -->
+    <!-- their description is right below in the doc. --> 
+</sectionSchema>

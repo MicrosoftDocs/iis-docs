@@ -1,0 +1,1 @@
+<add name="CanonicalDomainName" type="CanonicalDomainTemplate.CanonicalDomainModuleProvider, CanonicalDomainTemplate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e4e6d0bc8fe7a06a" />

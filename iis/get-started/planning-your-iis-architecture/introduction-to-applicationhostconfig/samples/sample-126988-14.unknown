@@ -1,0 +1,2 @@
+validationType="siteName"
+validationParameter=""

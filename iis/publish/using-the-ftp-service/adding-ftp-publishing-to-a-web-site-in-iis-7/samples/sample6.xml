@@ -1,0 +1,9 @@
+<location path="Default Web Site">
+    <system.ftpServer>
+        <security>
+            <authorization>
+                <add accessType="Allow" users="administrator" permissions="Read, Write" />
+            </authorization>
+        </security>
+    </system.ftpServer>
+</location>

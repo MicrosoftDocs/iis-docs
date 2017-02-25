@@ -1,0 +1,1 @@
+PS C:\Data> get-content HelloCopy.txt

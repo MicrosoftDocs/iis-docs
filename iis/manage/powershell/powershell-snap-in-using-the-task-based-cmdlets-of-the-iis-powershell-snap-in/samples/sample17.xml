@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <tracing>
+            <traceFailedRequests>
+                <add path="*">
+                    <traceAreas>
+                        <add provider="ASPNET" areas="Infrastructure,Module,Page,AppServices" verbosity="Verbose" />
+                    </traceAreas>
+                    <failureDefinitions timeTaken="00:00:30" statusCodes="200-500" verbosity="Warning" />
+                </add>
+            </traceFailedRequests>
+        </tracing>
+    </system.webServer>
+</configuration>

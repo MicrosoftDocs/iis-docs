@@ -1,0 +1,1 @@
+PS C:\inetpub\logs\FailedReqLogFiles\W3SVC2>&"$env:programfiles\Internet Explorer\iexplore.exe" "$env:systemdrive\inetpub\logs\failedReqLogfiles\w3svc2\fr000001.xml"

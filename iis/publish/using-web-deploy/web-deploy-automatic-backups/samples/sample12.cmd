@@ -1,0 +1,1 @@
+msdeploy.exe -verb:sync -source:backupSettings -dest:backupSettings=<siteName>,addExcludedProviders="dbFullSql;dbMySql"

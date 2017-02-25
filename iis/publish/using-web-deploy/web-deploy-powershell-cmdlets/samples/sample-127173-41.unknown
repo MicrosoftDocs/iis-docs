@@ -1,0 +1,1 @@
+Sync-WDSQLDatabase "server=.\sqlexpress;uid=sa;pwd=********;database=umbracodb" "server=.\sqlexpress;uid=sa;pwd=************;database=sometestdb"

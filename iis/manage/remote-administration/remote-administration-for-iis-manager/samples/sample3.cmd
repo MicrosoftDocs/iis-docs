@@ -1,0 +1,1 @@
+sc config WMSVC start= auto

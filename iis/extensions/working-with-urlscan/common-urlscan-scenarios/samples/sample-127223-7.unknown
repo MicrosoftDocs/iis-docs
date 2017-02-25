@@ -1,0 +1,2 @@
+[AlwaysAllowedQueryStrings]
+session<1

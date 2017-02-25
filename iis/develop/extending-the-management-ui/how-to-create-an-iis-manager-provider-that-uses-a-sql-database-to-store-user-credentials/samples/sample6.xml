@@ -1,0 +1,7 @@
+<authentication defaultProvider="SqlIisManagerDemo">
+   <providers>
+      <add name="SqlIisManagerDemo"
+         type="SqlIisManagerDemo.IisManagerProvider, SqlIisManagerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=426f62526f636b73"
+         connectionString="Data Source=localhost;Initial Catalog=DemoDB;Trusted_Connection=yes" />
+   </providers>
+</authentication>

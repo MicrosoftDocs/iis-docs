@@ -1,0 +1,3 @@
+</msdeploy.iisapp> 
+<dbfullsql path="install.sql" /> 
+</msdeploy.iisapp>

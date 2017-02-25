@@ -1,0 +1,4 @@
+<MSDeploy.iisApp>
+       <iisApp path="mediawiki-1.15.1"/>
+       <setAcl path="mediawiki-1.15.1/config" setAclAccess="Modify" setAclUser="anonymousAuthenticationUser" />
+</MSDeploy.iisApp>

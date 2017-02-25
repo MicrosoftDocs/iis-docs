@@ -1,0 +1,1 @@
+msdeploy -verb:sync  -source:metakey=lm/w3svc/1 -dest:package=c:\Site1.zip > WebDeployPackage.log

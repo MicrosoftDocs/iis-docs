@@ -1,0 +1,7 @@
+<location path="Developer Site" overrideMode="Allow"> 
+        <defaultDocument enabled="true"> 
+            <files> 
+                <add value="Developer.htm" /> 
+            </files> 
+        </defaultDocument> 
+</location>

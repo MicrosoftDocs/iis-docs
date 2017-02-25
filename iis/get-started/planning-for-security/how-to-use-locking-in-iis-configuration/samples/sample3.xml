@@ -1,0 +1,9 @@
+<location overrideMode="Allow">
+  <system.webServer>
+     <security>
+        <authentication>
+          <!-- the content of windowsAuthentication section is here -->
+        </authentication>
+     </security>
+  </system.webServer>
+</location>

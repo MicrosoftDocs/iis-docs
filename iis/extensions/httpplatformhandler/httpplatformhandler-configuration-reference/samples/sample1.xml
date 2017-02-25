@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <system.webServer>
+    <handlers>
+      <add name="httpplatformhandler" path="*" verb="*" modules="httpPlatformHandler" resourceType="Unspecified"/>
+    </handlers>
+    <httpPlatform processPath="c:\dev\javasites\bin\apache-tomcat-8.0.15\bin\startup.bat" 
+                  arguments="" 
+                  stdoutLogEnabled="true" 
+                  stdoutLogFile="\\?c:\dev\javasites\log.txt">
+      <environmentVariables>
+        <environmentVariable name="JRE_HOME" value="%programfiles%\java\jdk1.8.0_25" />
+        <environmentVariable name="CATALINA_OPTS" value="-Dport.http=%HTTP_PLATFORM_PORT% -Dsomeotherconfig=value"/>
+        <environmentVariable name="CATALINA_HOME" value="c:\dev\javasites\bin\apache-tomcat-8.0.15" />
+      </environmentVariables>
+    </httpPlatform>
+  </system.webServer>
+</configuration>

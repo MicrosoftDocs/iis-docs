@@ -1,0 +1,7 @@
+<ROW>
+<EventNumber>446</EventNumber> 
+<EventName>IISGeneral</EventName> 
+<EventTypeName>GENERAL_REQUEST_END</EventTypeName> 
+<Timestamp>2005-08-23 20:25:47</Timestamp> 
+<UserData>ContextId={00000000-0000-0000-4c06-0060000000ef}|BytesSent=370|BytesReceived=105906875|HttpStatus=502|HttpSubStatus=2</UserData> 
+</ROW>

@@ -1,0 +1,1 @@
+public class NotificationModel : Microsoft.WindowsAzure.StorageClient.TableServiceEntity

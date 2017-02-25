@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<configuration>
+    <system.webServer>
+      <handlers>
+        <add name="httpplatformhandler" path="*" verb="*" modules ="httpPlatformHandler" resourceType="Unspecified"/>
+      </handlers>
+      <httpPlatform processPath="c:\Program Files\Java\jdk1.8.0_25\bin\java.exe" 
+                    arguments="-Djava.net.preferIPv4Stack=true -Djetty.port=%HTTP_PLATFORM_PORT% -Djetty.base=&quot;c:\dev\javasites\bin\jetty-distribution-9.2.6.v20141205&quot; -jar &quot;c:\dev\javasites\bin\jetty-distribution-9.2.6.v20141205\start.jar&quot;" 
+                    startupTimeLimit="20" 
+                    startupRetryCount="20" 
+                    stdoutLogEnabled="true"></httpPlatform>
+    </system.webServer>
+</configuration>

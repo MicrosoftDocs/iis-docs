@@ -1,0 +1,11 @@
+<Users>    
+    <User>        
+        <UserName>Bob</UserName>        
+        <Email>bob@contoso.com</Email>        
+    </User>    
+    <User>        
+        <UserName>Alice</UserName>        
+        <Password>contoso!</Password>        
+        <Email>alice@contoso.com</Email>        
+    </User>    
+</Users>

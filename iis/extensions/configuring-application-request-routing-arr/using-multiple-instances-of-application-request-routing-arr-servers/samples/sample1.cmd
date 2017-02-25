@@ -1,0 +1,1 @@
+appcmd.exe set config  -section:webFarms /[name='myServerFarm'].applicationRequestRouting.affinity.useHostName:"True"  /commit:apphost

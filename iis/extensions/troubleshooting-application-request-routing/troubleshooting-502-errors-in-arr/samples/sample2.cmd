@@ -1,0 +1,1 @@
+netsh trace start scenario=internetclient capture=yes persistent=no level=verbose tracefile=c:\temp\net.etl

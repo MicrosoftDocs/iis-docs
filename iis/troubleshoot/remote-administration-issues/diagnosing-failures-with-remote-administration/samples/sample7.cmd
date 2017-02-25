@@ -1,0 +1,1 @@
+netsh http add urlacl url=https://*:8172/ User="NT SERVICE\wmsvc"

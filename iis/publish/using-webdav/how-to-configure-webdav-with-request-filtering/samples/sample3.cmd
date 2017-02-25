@@ -1,0 +1,1 @@
+AppCmd set config "Default Web Site/" /section:system.webServer/security/requestFiltering /+fileExtensions.[fileExtension='.txt',allowed='false'] /commit:apphost

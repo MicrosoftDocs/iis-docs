@@ -1,0 +1,16 @@
+<site name="www.contoso.com" id="3">
+    <application path="/">
+        <virtualDirectory path="/" physicalPath="%SystemDrive%\inetpub\www.contoso.com" />
+    </application>
+    <bindings>
+        <binding protocol="ftp" bindingInformation="127.0.0.1:21:www.contoso.com" />
+    </bindings>
+    <ftpServer>
+        <security>
+            <ssl controlChannelPolicy="SslAllow" dataChannelPolicy="SslAllow" />
+            <authentication>
+                <basicAuthentication enabled="true" />
+            </authentication>
+        </security>
+    </ftpServer>
+</site>

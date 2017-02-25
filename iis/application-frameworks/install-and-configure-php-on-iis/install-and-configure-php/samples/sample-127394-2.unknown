@@ -1,0 +1,1 @@
+session.save_path = "C:\php\session"

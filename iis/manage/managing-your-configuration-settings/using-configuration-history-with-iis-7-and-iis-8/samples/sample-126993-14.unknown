@@ -1,0 +1,1 @@
+Findstr /S /I /C:"directoryBrowse enabled=\"false\"" *.config

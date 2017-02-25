@@ -1,0 +1,1 @@
+Cscript.exe AppEnumerate.vbs

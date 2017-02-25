@@ -1,0 +1,8 @@
+<rule name="Image Handler Remapping" stopProcessing="true">
+  <match url="ImageHandler.ashx" />
+  <conditions>
+    <add input="{APP_WARMING_UP}" pattern="1" /> 
+    <add input="{QUERY_STRING}" pattern="image=([A-Za-z]+)&amp;?" /> 
+  </conditions>
+  <action type="Rewrite" url="Images/{C:1}_static.jpg" appendQueryString="false" />
+</rule>

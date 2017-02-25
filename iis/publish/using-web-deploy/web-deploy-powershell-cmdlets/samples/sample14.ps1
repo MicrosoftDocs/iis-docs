@@ -1,0 +1,1 @@
+New-WDPublishSettings -ComputerName serverName -MySqlConnectionString "Data Source=localhost;database=MyDb;Uid=MyDbUser;pwd=MyPassword" -FileName d:\MySQLdb.PublishSettings -Credential serverName\Administrator

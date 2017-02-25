@@ -1,0 +1,1 @@
+<parameter name="Replacement Param" defaultValue="\\myshare\share\web.config:://connectionStrings" >"<parameterEntry kind="XMLFILE" scope="web\.config$" match="//connectionStrings" /></parameter>

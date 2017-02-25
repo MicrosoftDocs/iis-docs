@@ -1,0 +1,6 @@
+<defaultDocument>
+            <files>
+                <remove value="index.php" />
+                <add value="index.php" />
+            </files>
+        </defaultDocument>

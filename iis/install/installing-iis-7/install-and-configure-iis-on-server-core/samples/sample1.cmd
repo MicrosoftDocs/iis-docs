@@ -1,0 +1,1 @@
+netsh interface ipv4 set address name="Local Area Connection" source=static address=<IPADDRESS> mask=<255.255.255.0> gateway=<GatewayIP>

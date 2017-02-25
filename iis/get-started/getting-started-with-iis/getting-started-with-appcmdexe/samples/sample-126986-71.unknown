@@ -1,0 +1,1 @@
+%systemroot%\system32\inetsrv\APPCMD list config "Default Web Site/" /section:asp /config:*

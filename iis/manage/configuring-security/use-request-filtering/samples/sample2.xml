@@ -1,0 +1,10 @@
+<configuration>
+ <system.webServer>
+  <security>
+   <requestFiltering
+                  allowHighBitCharacters="true"
+            >
+   </requestFiltering>
+  </security>
+ </system.webServer>
+</configuration>

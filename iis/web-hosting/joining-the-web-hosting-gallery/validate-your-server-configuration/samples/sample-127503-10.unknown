@@ -1,0 +1,9 @@
+<Validation
+              id="CheckExtensionlessHotfixInstalled"
+              type="WindowsInstalledComponentValidator"
+              name="980368"
+              category="update"
+              description="Check if hotfix for enabling extensionless URLs on IIS7 is installed"
+              detailsUrlBase="http://go.microsoft.com/fwlink/?LinkId=206559"
+              tags="spotlight"
+              />

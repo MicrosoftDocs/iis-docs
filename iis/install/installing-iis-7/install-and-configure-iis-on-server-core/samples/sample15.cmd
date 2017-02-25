@@ -1,0 +1,1 @@
+start /w pkgmgr /l:log.etw /iu:IIS-WebServerRole;WAS-WindowsActivationService;WAS-ProcessModel;WAS-NetFxEnvironment;WAS-ConfigurationAPI</samp>

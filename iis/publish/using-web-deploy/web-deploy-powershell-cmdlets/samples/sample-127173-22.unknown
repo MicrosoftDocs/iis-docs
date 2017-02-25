@@ -1,0 +1,1 @@
+Restore-WDSite C:\defaultsite.zip -SitePhysicalPath c:\site1 -SiteName site1

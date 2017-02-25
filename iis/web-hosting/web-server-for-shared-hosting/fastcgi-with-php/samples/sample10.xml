@@ -1,0 +1,5 @@
+<system.webServer>
+    <handlers accessPolicy="Read, Script"> 
+        <add name="PHP via FastCGI" path="*.php" verb="*" modules="FastCgiModule" scriptProcessor="C:\PHP\php-cgi.exe|-d my.website=website2" resourceType="Unspecified" requireAccess="Script" />
+    </handlers>
+</system.webServer>

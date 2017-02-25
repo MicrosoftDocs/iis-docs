@@ -1,0 +1,1 @@
+BACKUP object "IIS7_WMI_CIMStudioLab" added
