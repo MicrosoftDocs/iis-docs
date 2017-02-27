@@ -33,7 +33,7 @@ IIS 7 provides the same Web site activity or traffic logging as IIS 6.0, but inc
 
 Problems, such as poor performance or authenticated failures, or even the Server Error 500 from ASP or ASP.NET, can be difficult to troubleshoot. Failed Request Tracing buffers the trace events for a request and writes them to disk when a failure occurs. The server administrator defines a failure by using the tracing rules. The tracing rules can be as broad as all content and status codes, or as specific as a single status and sub-status code such as 404.2.
 
-For shared hosting, it is recommend that you delegate Failed Request Tracing to site owners, enabling site owners to determine problems with their sites, which helps to prevent support calls. You can store the tracing logs in the logs\FailedRequestLogFiles folder as discussed in the topic [Configuring Share and NTFS Permissions](../../web-hosting/configuring-servers-in-the-windows-web-platform/configuring-share-and-ntfs-permissions.md) in the [Setting Up a Remote File Server for Content Storage](../../web-hosting/configuring-servers-in-the-windows-web-platform.md) section.
+For shared hosting, it is recommend that you delegate Failed Request Tracing to site owners, enabling site owners to determine problems with their sites, which helps to prevent support calls. You can store the tracing logs in the logs\FailedRequestLogFiles folder as discussed in the topic [Configuring Share and NTFS Permissions](../../web-hosting/configuring-servers-in-the-windows-web-platform/configuring-share-and-ntfs-permissions.md) in the [Setting Up a Remote File Server for Content Storage](../../web-hosting/configuring-servers-in-the-windows-web-platform/index.md) section.
 
 ### Configuring Procedures
 
@@ -57,7 +57,7 @@ To configure the W3SVC log file location by using the command line, use the foll
 
 [!code-unknown[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample-127143-2.unknown)]
 
-For more information about diagnostics, see [Troubleshooting a Web Server Error.](../../troubleshoot.md)
+For more information about diagnostics, see [Troubleshooting a Web Server Error.](../../troubleshoot/index.md)
 
 <a id="Enabling"></a>
 

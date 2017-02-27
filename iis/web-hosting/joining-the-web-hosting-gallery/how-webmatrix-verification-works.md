@@ -37,8 +37,8 @@ The following web applications (mostly from the [Web Application Gallery](https:
 - [Joomla!](https://www.microsoft.com/web/webmatrix/)\*
 - [Drupal](https://www.microsoft.com/web/webmatrix/)\*
 - [BlogEngine.NET](https://www.microsoft.com/web/webmatrix/)
-- [ResourceBlender](https://www.microsoft.com/web/webmatrix/)
-- [KenticoCMS](../../develop/installingpublishing-apps-with-webmatrix/kentico-cms-faq.md)
+- [ResourceBlender](../../develop/installingpublishing-apps-with-webmatrix/resourceblendernet-faq.md)
+- [KenticoCMS](https://www.microsoft.com/web/webmatrix/)
 - [Atomsite](https://www.microsoft.com/web/webmatrix/)
 - [DasBlog](https://www.microsoft.com/web/webmatrix/) (requires Full Trust, not recommended for Shared Hosting)
 - [PHPBB](https://www.microsoft.com/web/webmatrix/)\* [using MySQL database]

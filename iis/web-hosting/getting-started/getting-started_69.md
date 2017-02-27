@@ -25,9 +25,9 @@ The Hosting Guidance is a set of best practices and script (PowerShell and C#) s
 The content is organized in six major subject areas:
 
 - [Planning the Web Hosting Architecture](../planning-the-web-hosting-architecture.md): Describes the reference architecture, its individual components (IIS, ASP.NET, SQL, AD, WDS, etc), and key resources available to hosting professionals interested in providing Windows Hosting.
-- [Deploying the Windows Server 2008 Platform](../): Provides the information needed to deploy each server component mentioned in the architecture.
+- [Deploying the Windows Server 2008 Platform](../index.md): Provides the information needed to deploy each server component mentioned in the architecture.
 - [Configuring Components](../configuring-components.md): Describes configuration details for key server component.
-- [Provisioning and Managing](../../manage/provisioning-and-managing-iis.md): Describes the various tasks needed to provision sites, users, databases, etc.
+- [Provisioning and Managing](../../manage/provisioning-and-managing-iis/index.md): Describes the various tasks needed to provision sites, users, databases, etc.
 - [Migrating](../migrate-to-the-microsoft-web-platform.md): Provides the information needed to migrate each server component from previous versions.
 - [FAQ](../frequently-asked-questions-faq.md): Presents a collection of questions from Hosting Companies that have deployed Windows Server® 2008 Hosting to their customers.
 

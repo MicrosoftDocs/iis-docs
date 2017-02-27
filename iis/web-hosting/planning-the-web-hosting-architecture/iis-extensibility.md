@@ -18,7 +18,7 @@ by Walter Oliver
 
 ## Introduction
 
-One of the key features of IIS is its extensible modular architecture. That is, you can build and deploy your own modules and integrate them with IIS. This extensibility, along with [remote administration](../../manage/remote-administration.md "remote administration"), allows hosting companies to extend the out-of-the-box administration functionality. Users benefit by gaining more control over hosting services, and hosting companies can simplify administration by consolidating control panel-like functionality into the IIS Manager solution.
+One of the key features of IIS is its extensible modular architecture. That is, you can build and deploy your own modules and integrate them with IIS. This extensibility, along with [remote administration](../../manage/remote-administration/index.md "remote administration"), allows hosting companies to extend the out-of-the-box administration functionality. Users benefit by gaining more control over hosting services, and hosting companies can simplify administration by consolidating control panel-like functionality into the IIS Manager solution.
 
 ## Extensibility Videos
 

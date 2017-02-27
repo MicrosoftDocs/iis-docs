@@ -93,7 +93,7 @@ Using a specified account for the configuration COM object might expose addition
 
 ### Option 2: Using a Hosting Services Sample Approach
 
-An alternative option is not using OpenRemote via DCOM call and instead creating a service like the  Hosting Services Code Sample, which is a set of web services built on top of WCF (Windows Communication Foundation), on one of the web server in the web farm as illustrated in the following diagram:  
+An alternative option is not using OpenRemote via DCOM call and instead creating a service like the [Hosting Services Code Sample](index.md), which is a set of web services built on top of WCF (Windows Communication Foundation), on one of the web server in the web farm as illustrated in the following diagram:  
 [![](shared-configuration-and-remote-provisioning/_static/image34.jpg)](shared-configuration-and-remote-provisioning/_static/image33.jpg)  
 You can use Windows Service to hosting the services if you have concerns hosting in IIS 7. The web service is built on top of Microsoft.Web.Administration APIs and provides better integration option, and furthermore there is no needs to open the firewall as OpenRemote required.
 

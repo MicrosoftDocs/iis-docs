@@ -33,7 +33,7 @@ IIS 8.5 includes several new features not found in IIS 8.0 or lower:
 - Dynamic Website activation. If there are a large number of configured sites (100 or greater, by default), the service will not activate any of the sites when the service is started.
 - Idle Worker Process Page-Out. An administrator can enable an idle worker process to be suspended rather than terminated.
 
-For more information on these features, see [What's New in IIS 8.5](../../get-started.md).
+For more information on these features, see [What's New in IIS 8.5](../../get-started/index.md).
 
 For information on new features in IIS 8.0, see [What's New in IIS 8.0](../../get-started/whats-new-in-iis-8.md).
 
@@ -449,9 +449,9 @@ When you remove a role service or feature, make sure that you do not remove a se
 
 [Install or Uninstall Roles, Role Services, or Features](https://technet.microsoft.com/en-us/library/hh831809.aspx)
 
-[IIS.NET Install](../)
+[IIS.NET Install](../index.md)
 
-[What's New in IIS 8.5](../../get-started.md)
+[What's New in IIS 8.5](../../get-started/index.md)
 
 [What is DISM?](https://technet.microsoft.com/en-us/library/dd744566(v=WS.10).aspx)
 

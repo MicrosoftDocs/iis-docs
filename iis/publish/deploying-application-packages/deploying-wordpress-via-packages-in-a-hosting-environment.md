@@ -428,4 +428,4 @@ This table provides additional information about the products that are installed
 
 - [*Web Deployment Tool (MS Deploy) Forum*](https://forums.iis.net/1144.aspx)
 - [*PHP Manager for IIS 7 Community*](https://www.iis.net/downloads/community)
-- [*Configure and Optimize the Microsoft Web Platform for PHP Applications*](../../application-frameworks/install-and-configure-php-on-iis.md)
+- [*Configure and Optimize the Microsoft Web Platform for PHP Applications*](../../application-frameworks/install-and-configure-php-on-iis/index.md)

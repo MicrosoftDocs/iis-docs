@@ -32,6 +32,6 @@ While there are a number of ways that these capabilities can be implemented into
 
 [Web Site Deployment Made Easy](../../get-started/introduction-to-iis/web-site-deployment-made-easy.md).
 
-[Hosting Services Code Sample](../../manage/provisioning-and-managing-iis.md).
+[Hosting Services Code Sample](../../manage/provisioning-and-managing-iis/index.md).
 
-[Code Samples and Scripts](../../manage/provisioning-and-managing-iis.md).
+[Code Samples and Scripts](../../manage/provisioning-and-managing-iis/index.md).

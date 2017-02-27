@@ -24,4 +24,4 @@ The following [video](https://mediadl.microsoft.com/mediadl/IISNET/Media/HDA20-I
 
 ## Link to Guide
 
-For a complete set of deployment and configuration information on FTP 7.0, WebDAV, and FrontPage Server Extensions for IIS 7.0 and above, see [Publishing Content to Web Sites](../../publish.md).
+For a complete set of deployment and configuration information on FTP 7.0, WebDAV, and FrontPage Server Extensions for IIS 7.0 and above, see [Publishing Content to Web Sites](../../publish/index.md).

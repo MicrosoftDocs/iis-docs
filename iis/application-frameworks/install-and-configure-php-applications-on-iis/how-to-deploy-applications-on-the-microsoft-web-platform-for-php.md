@@ -25,7 +25,7 @@ You can use the [Web Platform Installer (Web PI)](https://www.microsoft.com/web/
 
 You can also visit the [Windows Web App Gallery](https://www.microsoft.com/web/gallery/) for one-click installation of applications such as Gallery (Web-based photo gallery), Umbraco (content management system), mojoPortal (content management system and web application framework for ASP.NET 3.5), DotNetNuke (content management system and application development framework), and Kentico CMS for ASP.NET (content management system).
 
-[Using FastCGI to Host PHP Applications on IIS 7.0 and Above](using-fastcgi-to-host-php-applications-on-iis.md) and [Using FastCGI to Host PHP Applications on IIS 6.0](using-fastcgi-to-host-php-applications-on-iis-60.md) provide instructions for setting up FastCGI and PHP to host applications; this information is also detailed in a number of articles in [Install the Microsoft Web Platform](../install-and-configure-php-on-iis.md).
+[Using FastCGI to Host PHP Applications on IIS 7.0 and Above](using-fastcgi-to-host-php-applications-on-iis.md) and [Using FastCGI to Host PHP Applications on IIS 6.0](using-fastcgi-to-host-php-applications-on-iis-60.md) provide instructions for setting up FastCGI and PHP to host applications; this information is also detailed in a number of articles in [Install the Microsoft Web Platform](../install-and-configure-php-on-iis/index.md).
 
 For guidance in manually deploying specific applications, see:
 

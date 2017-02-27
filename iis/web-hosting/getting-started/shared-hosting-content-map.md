@@ -57,14 +57,14 @@ Here are shortcuts to key areas in the content map below:
 
 <a id="deploying"></a>
 
-### [Deploying the Windows Web Platform in Shared Hosting Environments](../configuring-servers-in-the-windows-web-platform.md)
+### [Deploying the Windows Web Platform in Shared Hosting Environments](../configuring-servers-in-the-windows-web-platform/index.md)
 
 - [Quick Guide for Shared Hosting Deployment](../configuring-servers-in-the-windows-web-platform/quick-guide-for-shared-hosting-deployment.md)
-- [Web Server for Shared Hosting](../web-server-for-shared-hosting.md)
+- [Web Server for Shared Hosting](../web-server-for-shared-hosting/index.md)
 
     - [IIS Components for Shared Hosting](../web-server-for-shared-hosting/iis-components-for-shared-hosting.md)
     - [Installing the Web Server Role](../web-server-for-shared-hosting/installing-the-web-server-role.md)
-    - [Configuring IIS for Shared Hosting](../web-server-for-shared-hosting.md)
+    - [Configuring IIS for Shared Hosting](../web-server-for-shared-hosting/index.md)
 
         - [32-bit Mode Worker Processes](../web-server-for-shared-hosting/32-bit-mode-worker-processes.md)
         - [Application Pool Identity as Anonymous User](../web-server-for-shared-hosting/application-pool-identity-as-anonymous-user.md)
@@ -83,19 +83,19 @@ Here are shortcuts to key areas in the content map below:
     - [Configuring IIS for Silverlight Applications](../web-server-for-shared-hosting/configuring-iis-for-silverlight-applications.md)
     - [SMB Commands Registry Keys](../web-server-for-shared-hosting/smb-commands-registry-keys_198.md)
     - [Backup](../web-server-for-shared-hosting/create-a-backup-with-appcmd.md)
-- [File Server For Content Storage](../configuring-servers-in-the-windows-web-platform.md)
+- [File Server For Content Storage](../configuring-servers-in-the-windows-web-platform/index.md)
 
     - [Separate Partitions for Improved Performance](../configuring-servers-in-the-windows-web-platform/preparing-the-file-serve-deployment.md)
     - [Share and NTFS Permissions](../configuring-servers-in-the-windows-web-platform/configuring-share-and-ntfs-permissions.md)
     - [Directory Quotas and FSRM](../configuring-servers-in-the-windows-web-platform/enabling-directory-quotas.md)
     - [SMB Command Registry Keys](../configuring-servers-in-the-windows-web-platform/smb-commands-registry-keys_196.md)
-- [Web Farm Support](../configuring-servers-in-the-windows-web-platform.md)
+- [Web Farm Support](../configuring-servers-in-the-windows-web-platform/index.md)
 
     - [Application Request Routing for Shared Hosting](../configuring-servers-in-the-windows-web-platform/application-request-routing-arr-20-for-shared-hosting.md)
     - [Shared Configuration](../configuring-servers-in-the-windows-web-platform/shared-configuration_211.md)
     - [Offline Files for Shared Configuration](../configuring-servers-in-the-windows-web-platform/offline-files-for-shared-configuration.md)
     - [Network Load Balancing](../configuring-servers-in-the-windows-web-platform/network-load-balancing.md)
-- [Database Servers](../configuring-servers-in-the-windows-web-platform.md)
+- [Database Servers](../configuring-servers-in-the-windows-web-platform/index.md)
 
     - [SQL 2008 for Hosters](../configuring-servers-in-the-windows-web-platform/sql-2008-for-hosters.md)
     - [SQL Server 2005](../configuring-servers-in-the-windows-web-platform/sql-server-2005.md)
@@ -141,27 +141,27 @@ Here are shortcuts to key areas in the content map below:
 
 <a id="provision"></a>
 
-### [Provisioning and Managing](../../manage/provisioning-and-managing-iis.md)
+### [Provisioning and Managing](../../manage/provisioning-and-managing-iis/index.md)
 
 - [IIS Management and Administration](../../manage/provisioning-and-managing-iis/iis-management-and-administration.md)
 - [Hosted Services Control Panels](../../manage/provisioning-and-managing-iis/hosted-services-control-panels.md)
 - [WebsitePanel](../../manage/provisioning-and-managing-iis/websitepanel.md)
-- [Provisioning IIS](../../manage/provisioning-and-managing-iis.md)
+- [Provisioning IIS](../../manage/provisioning-and-managing-iis/index.md)
 
     - [Provisioning IIS Sites](../../manage/creating-websites/provisioning-iis-7-sites.md)
     - [Provisioning Options in IIS](../../manage/provisioning-and-managing-iis/provisioning-options-in-iis-7.md)
     - [Using Managed APIs in IIS](../../manage/provisioning-and-managing-iis/using-managed-apis-in-iis-7.md)
     - [Shared Configuration and Remote Provisioning](../../manage/provisioning-and-managing-iis/shared-configuration-and-remote-provisioning.md)
     - [Provisioning IIS Sites for Shared Hosting](../../manage/creating-websites/provisioning-iis-7-sites-for-shared-hosting.md)
-- [Provisioning and Managing Samples](../../manage/provisioning-and-managing-iis.md)
+- [Provisioning and Managing Samples](../../manage/provisioning-and-managing-iis/index.md)
 
     - [Provisioning Sample in C#](../../manage/provisioning-and-managing-iis/provisioning-sample-in-c.md)
-    - [Hosting Services Code Sample](../../manage/provisioning-and-managing-iis.md)
+    - [Hosting Services Code Sample](../../manage/provisioning-and-managing-iis/index.md)
 
         - [Services Overview](../../manage/provisioning-and-managing-iis/services-overview.md)
         - [Services Implementation](../../manage/provisioning-and-managing-iis/setting-up-components.md)
         - [Consuming the Services](../../manage/provisioning-and-managing-iis/consuming-the-services.md)
-    - [Code Samples and Scripts](../../manage/provisioning-and-managing-iis.md)
+    - [Code Samples and Scripts](../../manage/provisioning-and-managing-iis/index.md)
 
         - [Microsoft.Web.Administration](../../manage/provisioning-and-managing-iis/microsoftwebadministration.md)
         - [IIS WMI Provider](../../manage/provisioning-and-managing-iis/iis-7-wmi-provider.md)
@@ -175,7 +175,7 @@ Here are shortcuts to key areas in the content map below:
 - [Managing IIS with the IIS PowerShell Snap-in](../../manage/powershell.md)
 - [C# and PowerShell Scripts Samples](../configuring-components/powershell-scripts.md)
 - [Provisioning Sample in C#](../../manage/provisioning-and-managing-iis/provisioning-sample-in-c.md)
-- [Code Samples and Scripts](../../manage/provisioning-and-managing-iis.md)
+- [Code Samples and Scripts](../../manage/provisioning-and-managing-iis/index.md)
 
 <a id="using"></a>
 

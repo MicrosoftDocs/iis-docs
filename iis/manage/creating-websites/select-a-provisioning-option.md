@@ -135,7 +135,7 @@ Use ABO to programmatically configure IIS in a compiled program written in C, C+
 
 
 > [!NOTE]
-> *This article updates the articles in: "[Code Samples and Scripts](../provisioning-and-managing-iis.md)" by Walter Oliver, published on December 2, 2007.*
+> *This article updates the articles in: "[Code Samples and Scripts](../provisioning-and-managing-iis/index.md)" by Walter Oliver, published on December 2, 2007.*
 
 
 ## Links for Further Information

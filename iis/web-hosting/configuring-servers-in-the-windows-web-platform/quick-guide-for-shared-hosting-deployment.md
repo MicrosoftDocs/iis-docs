@@ -18,7 +18,7 @@ by Walter Oliver
 
 ## Introduction
 
-This article provides a basic overview of the manual steps to deploy a front-end Web server running IIS 7.5 or above for the Shared Hosting scenario. It also includes key per-site configuration settings. These steps are described in more detail in the [Web Server For Shared Hosting](../web-server-for-shared-hosting.md) and  File Server For Content Storage articles of this guide.
+This article provides a basic overview of the manual steps to deploy a front-end Web server running IIS 7.5 or above for the Shared Hosting scenario. It also includes key per-site configuration settings. These steps are described in more detail in the [Web Server For Shared Hosting](../web-server-for-shared-hosting/index.md) and [File Server For Content Storage](index.md) articles of this guide.
 
 ## Web Server Pre-Setup
 
