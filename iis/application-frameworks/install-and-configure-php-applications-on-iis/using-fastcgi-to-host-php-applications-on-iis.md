@@ -71,8 +71,8 @@ The update for the IIS FastCGI module fixes several known compatibility issues w
 
 Among other useful features, the Administration Pack for IIS has a convenient user interface for configuring FastCGI settings. The Administration Pack can be installed from the following locations:
 
-- [Administration Pack for IIS 7 and Above - x86](../../../downloads?tabid=34&amp;i=1682&amp;g=6.md)
-- [Administration Pack for IIS 7 and Above - x64](../../../downloads?tabid=34&amp;i=1683&amp;g=6.md)
+- [Administration Pack for IIS 7 and Above - x86](https://www.iis.net/downloads?tabid=34&amp;i=1682&amp;g=6)
+- [Administration Pack for IIS 7 and Above - x64](https://www.iis.net/downloads?tabid=34&amp;i=1683&amp;g=6)
 
 <a id="InstallPHP"></a>
 

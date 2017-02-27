@@ -147,7 +147,7 @@ This error clearly lists the lock file as the cause of the failure. To resolve t
 
 For additional information about the loadUserProfile and other application pool attributes, see the following pages on the Microsoft Support and [IIS.net](https://www.iis.net/) Web sites:
 
-- [https://www.iis.net/ConfigReference/system.applicationHost/applicationPools/add/processModel](../../../configreference/system.applicationhost/applicationpools/add/processmodel.md)
+- [https://www.iis.net/ConfigReference/system.applicationHost/applicationPools/add/processModel](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/processmodel)
 
 - [Error message when you request an ASP page that connects to an Access database in IIS 7.0: "Microsoft JET Database Engine error '80004005'"](https://support.microsoft.com/kb/926939/)
   

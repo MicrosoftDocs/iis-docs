@@ -81,7 +81,7 @@ You can also configure this setting by using the command-line tool AppCmd.exe wi
 
 For additional information about the options that are available for classic ASP, see the following page in the IIS configuration reference on the Microsoft [IIS.net](https://www.iis.net/) Web site:
 
-> [https://www.iis.net/ConfigReference/system.webServer/asp](../../../configreference/system.webserver/asp.md)
+> [https://www.iis.net/ConfigReference/system.webServer/asp](https://www.iis.net/configreference/system.webserver/asp)
 
 
 For additional detail on parent paths in IIS, see the following page in the Microsoft Knowledge Base:

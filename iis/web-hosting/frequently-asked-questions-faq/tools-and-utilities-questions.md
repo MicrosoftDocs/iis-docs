@@ -38,7 +38,7 @@ Appcmd set config -section:anonymousAuthentication -userName:poolUser1 -password
 
 There is a tool available for download on IIS.NET:
 
-[https://www.iis.net/downloads/files/inetmgr/mswebmgr.msi](../../../community/files/inetmgr/mswebmgr.msi.md)
+[https://www.iis.net/downloads/files/inetmgr/mswebmgr.msi](https://www.iis.net/community/files/inetmgr/mswebmgr.msi)
 
 #### Is Sysprep fully supported by IIS 7.0?
 
@@ -74,7 +74,7 @@ WCAT is the tool that is being used now. It is part of IIS 6.0 Resource Kit whic
 
 Yes, it is available for XP, Win2k3, and Vista/Windows Server® 2008. There is a specific version that corresponds to the server build that is deployed. It is available for download from the following link:
 
-[https://www.iis.net/downloads/files/inetmgr/mswebmgr.msi](../../../community/files/inetmgr/mswebmgr.msi.md)
+[https://www.iis.net/downloads/files/inetmgr/mswebmgr.msi](https://www.iis.net/community/files/inetmgr/mswebmgr.msi)
 
 #### What migration tools are available?
 
@@ -84,7 +84,7 @@ There is no migration tool available yet, but we are working on it and hope to h
 
 Yes, it is available for XP, Win2k3, and Vista/Windows Server® 2008. There is a specific version that corresponds to the server build that is deployed. It is available for download from the following link:
 
-[https://www.iis.net/downloads/files/inetmgr/mswebmgr.msi](../../../community/files/inetmgr/mswebmgr.msi.md)
+[https://www.iis.net/downloads/files/inetmgr/mswebmgr.msi](https://www.iis.net/community/files/inetmgr/mswebmgr.msi)
 
 #### Is there a way to tell where a particular URL path is in the www hierarchy using request monitoring if you have multiply default.htm files?
 

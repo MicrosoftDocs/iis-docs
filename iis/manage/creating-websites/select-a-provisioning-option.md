@@ -140,7 +140,7 @@ Use ABO to programmatically configure IIS in a compiled program written in C, C+
 
 ## Links for Further Information
 
-[IIS Configuration Reference](../../../configreference.md). 
+[IIS Configuration Reference](https://www.iis.net/configreference). 
 
 [Managing IIS with the IIS PowerShell Snap-in](../powershell.md).
 

@@ -379,7 +379,7 @@ Note: A site with many applications that each run in different Application Pools
 
 Congratulations! You have just gotten hands-on practice configuring the IIS Media Services - Bit Rate Throttling module on your server! At this point, you should be able to adjust Bit Rate Throttle properties at the Server, Site, Virtual Directory, and File levels.
 
-Check for other articles on the [IIS Media Services Web site](/media) that describe how to extend the functionality provided in this module, such as the [Bit Rate Throttling Extensibility Walkthrough](https://go.microsoft.com/?linkid=7439974).
+Check for other articles on the [IIS Media Services Web site](https://www.iis.net/media) that describe how to extend the functionality provided in this module, such as the [Bit Rate Throttling Extensibility Walkthrough](https://go.microsoft.com/?linkid=7439974).
   
   
 [Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

@@ -193,7 +193,7 @@ Installs extensions, explaining the server and client experience.
 
 ### PowerShell Scripts and C# Code Samples
 
-- [IIS 7.0 Configuration Reference with Code Samples](../../../configreference.md)
+- [IIS 7.0 Configuration Reference with Code Samples](https://www.iis.net/configreference)
 - [Managing IIS with the IIS PowerShell Snap-in](../../manage/powershell.md)
 - [C# and PowerShell Scripts Samples](../configuring-components/powershell-scripts.md)
 - [Provisioning Sample in C#](../../manage/provisioning-and-managing-iis/provisioning-sample-in-c.md)

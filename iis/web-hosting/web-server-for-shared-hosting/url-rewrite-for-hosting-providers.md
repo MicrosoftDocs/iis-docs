@@ -54,8 +54,8 @@ As seen in the image above, the URL Rewrite module is found in:
 
 URL Rewrite can be downloaded from:
 
-• [Download the x86 version for IIS 7.0](../../../downloads?tabid=34&amp;g=6&amp;i=1691.md)   
-• [Download the x64 version for IIS 7.0](../../../downloads?tabid=34&amp;g=6&amp;i=1692.md)
+• [Download the x86 version for IIS 7.0](https://www.iis.net/downloads?tabid=34&amp;g=6&amp;i=1691)   
+• [Download the x64 version for IIS 7.0](https://www.iis.net/downloads?tabid=34&amp;g=6&amp;i=1692)
 
 For detailed steps about the installer, see the section "Where to get the module" in [Using the URL Rewrite Module](../../extensions/url-rewrite-module/using-the-url-rewrite-module.md).
 
@@ -63,7 +63,7 @@ Once the URL Rewrite module is installed, its functionality is available to user
 
 ## Common URL Manipulation Tasks
 
-The following [video](../../../community/files/URLRewriter/URLRewriteModule.wmv.md) provides demonstrations for:
+The following [video](https://www.iis.net/community/files/URLRewriter/URLRewriteModule.wmv) provides demonstrations for:
 
 - Enabling user and search engine friendly URLs for dynamic Web pages.
 - Enforcing canonical host names for Web sites.

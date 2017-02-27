@@ -54,7 +54,7 @@ Answer: By default the log files are in %windir%\System32\Inetsrv\UrlScan\Logs f
 
 **Question: I have UrlScan v3.0 Beta or RTM right now. What will happen if I install v3.1?**
 
-Answer: The UrlScan v3.1 MSI will upgrade the UrlScan v3.0 Beta or RTM filters in the inetsrv directory. It will leave your .ini configuration and log files intact and the RTW version will work against your previous configuration. Since new sections have been added to the UrlScan v3.1, you can download the new default .ini file from [here](../../../community/files/UrlScan/UrlScan-ini_v3.zipdownloads/files/UrlScan/UrlScan-ini_v31.zip.md) to see what more it has to offer and add those to your existing configuration.
+Answer: The UrlScan v3.1 MSI will upgrade the UrlScan v3.0 Beta or RTM filters in the inetsrv directory. It will leave your .ini configuration and log files intact and the RTW version will work against your previous configuration. Since new sections have been added to the UrlScan v3.1, you can download the new default .ini file from [here](https://www.iis.net/community/files/UrlScan/UrlScan-ini_v3.zipdownloads/files/UrlScan/UrlScan-ini_v31.zip) to see what more it has to offer and add those to your existing configuration.
 
 **Question: I have UrlScan v2.5 right now. What will happen if I install v3.1?**
 

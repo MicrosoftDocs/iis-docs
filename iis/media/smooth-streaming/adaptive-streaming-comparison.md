@@ -18,7 +18,7 @@ by Chris Knowlton
 
 [IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming) provides users with a truly compelling way to watch the best-possible-quality streaming video. First proven in production at the Summer 2008 Olympics in Beijing, this live and on-demand adaptive streaming technology from Microsoft represents the latest generation in video streaming technologies.
 
-Part of [IIS Media Services](/media), IIS Smooth Streaming delivers up to true HD (1080p) video experiences that increase user engagement times. With integrated media delivery in [IIS](../../../overview.md), you no longer need separate Web and streaming infrastructures to deliver compelling Web and rich media content to three screens (computer, TV, mobile). Using a single platform saves the cost of managing separate server infrastructures, and reduces the time to market and cost for deploying new applications, Web sites, and rich media experiences.
+Part of [IIS Media Services](https://www.iis.net/media), IIS Smooth Streaming delivers up to true HD (1080p) video experiences that increase user engagement times. With integrated media delivery in [IIS](../../../overview.md), you no longer need separate Web and streaming infrastructures to deliver compelling Web and rich media content to three screens (computer, TV, mobile). Using a single platform saves the cost of managing separate server infrastructures, and reduces the time to market and cost for deploying new applications, Web sites, and rich media experiences.
 
 IIS Smooth Streaming is based on standard protocols, scales out using existing HTTP delivery and caching infrastructures, and ensures simplified file management by using as few as one contiguous video file to deliver multiple video quality levels. Combined with the [Silverlight Media Framework](http://smf.codeplex.com/) and the upcoming Smooth Streaming client porting kit, IIS Smooth Streaming provides built-in sophisticated stream-switching, full DVR controls, and support for multiple camera angles. In addition, IIS Smooth Streaming 4.0 will also provide an option for [streaming to iPhone](../../../overview/choice/integratedmediaplatform.md) and QuickTime X players.
 
@@ -56,7 +56,7 @@ In the table below, we compare the latest adaptive streaming technologies from M
 
 | Footnotes... |
 | --- |
-| <a id="1"></a>1 | IIS Smooth Streaming is part of the free [IIS Media Services](/media) download for Windows Server 2008 and Windows Server 2008 R2 . |
+| <a id="1"></a>1 | IIS Smooth Streaming is part of the free [IIS Media Services](https://www.iis.net/media) download for Windows Server 2008 and Windows Server 2008 R2 . |
 | <a id="2"></a>2 | Runs on any edition of Windows Server® 2008 or Windows Server 2008 R2 including Windows® Web Server, which has a list price of $469. |
 | <a id="3"></a>3 | Assumes use of Adobe Flash Media Interactive Server to support Pause, Seek, Authentication, and higher scalability |
 | <a id="4"></a>4 | Requires Windows Server 2003 SP2, Windows Server 2008, Red Hat® Enterprise Linux® 4, or Red Hat Enterprise Linux 5.2. |

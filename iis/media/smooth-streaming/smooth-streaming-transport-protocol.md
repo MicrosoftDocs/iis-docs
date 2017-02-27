@@ -16,7 +16,7 @@ Smooth Streaming Transport Protocol
 ====================
 by John A. Bocharov
 
-IIS Smooth Streaming, part of [IIS Media Services](/media), is Microsoft's adaptive streaming technology, based on the HTTP and MP4 file format standards. It delivers the highest quality, reliable online video experience for both on-demand content and live events. By utilizing standards-based HTTP to take advantage of massive existing HTTP caching resources, Smooth Streaming takes advantage of the scale of HTTP to provide full HD (up to 1080p) experiences to [Silverlight](https://www.microsoft.com/silverlight)-based media players.
+IIS Smooth Streaming, part of [IIS Media Services](https://www.iis.net/media), is Microsoft's adaptive streaming technology, based on the HTTP and MP4 file format standards. It delivers the highest quality, reliable online video experience for both on-demand content and live events. By utilizing standards-based HTTP to take advantage of massive existing HTTP caching resources, Smooth Streaming takes advantage of the scale of HTTP to provide full HD (up to 1080p) experiences to [Silverlight](https://www.microsoft.com/silverlight)-based media players.
 
 The [IIS Smooth Streaming Transport Protocol Specification](https://go.microsoft.com/?linkid=9682896 "IIS Smooth Streaming Transport Protocol Specification") describes how live and on-demand Smooth Streaming audio/video content is distributed and cached over an HTTP network. This specification is being released under the Community Promise Initiative, so as to enable third parties who wish to build their own client implementations that interoperate with IIS Media Services.
 

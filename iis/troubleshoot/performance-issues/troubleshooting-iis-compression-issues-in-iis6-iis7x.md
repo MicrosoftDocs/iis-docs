@@ -234,7 +234,7 @@ Fiddelr output when compression is not working:
 - [Enabling Compression in IIS6](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/502ef631-3695-4616-b268-cbe7cf1351ce.mspx?mfr=true)
 - [Enable Compression in IIS7-I](https://technet.microsoft.com/en-us/library/cc771003(WS.10).aspx)
 - [Enable Compression in IIS7-II](https://technet.microsoft.com/en-us/library/cc730629%28v=ws.10%29.aspx)
-- [HTTP Compression &lt;httpCompression&gt; in IIS7](../../../configreference/system.webserver/httpcompression.md)
+- [HTTP Compression &lt;httpCompression&gt; in IIS7](https://www.iis.net/configreference/system.webserver/httpcompression)
 - [Troubleshooting IIS6 compression](https://blogs.msdn.com/b/mike/archive/2007/12/06/troubleshooting-http-compression-in-iis6.aspx)
 - [Troubleshooting IIS7 compression](https://blogs.msdn.com/b/amol/archive/2010/10/29/troubleshooting-dynamic-compression-in-iis-7.aspx)
   

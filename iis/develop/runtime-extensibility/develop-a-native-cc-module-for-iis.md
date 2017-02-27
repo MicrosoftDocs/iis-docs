@@ -36,7 +36,7 @@ In order to compile the module, you must install the Platform SDK that contains 
 
 In order to use the Platform SDK with Visual Studio 2005, you must register the SDK. After you have installed the SDK, do this via **Start &gt; Programs &gt; Microsoft Windows SDK &gt; Visual Studio Registration &gt; Register Windows SDK Directories with Visual Studio**.
 
-The source code for this module is available in the [Visual Studio IIS7 Native Module Sample](../../../downloads?tabid=34&amp;g=6&amp;i=1301.md).
+The source code for this module is available in the [Visual Studio IIS7 Native Module Sample](https://www.iis.net/downloads?tabid=34&amp;g=6&amp;i=1301).
 
 ## Develop a Native Module
 
@@ -66,7 +66,7 @@ Your native module has the following life cycle:
 
 Now, to build it.
 
-The full source code for the module is available in the [Visual Studio IIS7 Native Module Sample](../../../downloads?tabid=34&amp;g=6&amp;i=1301.md). The steps below are the most important for developing the module, and do not include supporting code and error handling.
+The full source code for the module is available in the [Visual Studio IIS7 Native Module Sample](https://www.iis.net/downloads?tabid=34&amp;g=6&amp;i=1301). The steps below are the most important for developing the module, and do not include supporting code and error handling.
 
 Implement the **RegisterModule** function that the server invokes when the module DLL is loaded. Its signature and the rest of the native API is defined in the **httpserv.h** header file, which is part of the Platform SDK (if you do not have the Platform SDK, please see the [Introduction](https://www.iis.net/overview) for information on obtaining it):
 

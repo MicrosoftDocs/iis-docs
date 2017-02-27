@@ -19,7 +19,7 @@ by Tobin Titus
 ## Introduction to ApplicationHost.config
 
 *> [!NOTE]
-> A detailed configuration reference for IIS is available at*[`https://www.iis.net/configreference`](../../../configreference.md).
+> A detailed configuration reference for IIS is available at*[`https://www.iis.net/configreference`](https://www.iis.net/configreference).
 
 ApplicationHost.config is the root file of the configuration system when your are using IIS 7 and above. It includes definitions of all sites, applications, virtual directories and application pools, as well as global defaults for the web server settings (similar to machine.config and the root web.config for .NET Framework settings).
 

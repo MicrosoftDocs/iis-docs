@@ -38,7 +38,7 @@ This walkthrough uses the following terms to distinguish the servers involved:
 - This walkthrough requires that you install the the IIS Live Smooth Streaming extension in IIS Media Services 4.0 on a Web server running [Internet Information Services (IIS)](https://go.microsoft.com/?linkid=9656601). For more information about setting up this configuration, see [Getting Started with IIS Live Smooth Streaming](getting-started-with-iis-live-smooth-streaming.md).
 - [Microsoft Silverlight](https://go.microsoft.com/?linkid=9656602) is required to view the playback experience in a Web browser.
 - The URL Authorization module for IIS is required on the upstream server. For more information about setting up this configuration, see [Understanding IIS URL Authorization](../../manage/configuring-security/understanding-iis-url-authorization.md).
-- The Windows Authentication module for IIS is required on the upstream server. For more information about setting up this configuration, see [Windows Authentication &lt;windowsAuthentication&gt;](../../../configreference/system.webserver/security/authentication/windowsauthentication.md).
+- The Windows Authentication module for IIS is required on the upstream server. For more information about setting up this configuration, see [Windows Authentication &lt;windowsAuthentication&gt;](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication).
 
 <a id="scenarios"></a>
 

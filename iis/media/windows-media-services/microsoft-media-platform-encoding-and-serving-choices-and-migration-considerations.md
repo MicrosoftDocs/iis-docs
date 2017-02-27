@@ -60,7 +60,7 @@ Two Microsoft Media Platform Technologies are on-premises (that is, they run on 
 On-premises media technologies:
 
 - [Windows Media Services](https://www.microsoft.com/windows/windowsmedia/forpros/server/server.aspx) (with versions for [Windows Server 2008](https://www.microsoft.com/en-us/download/details.aspx?id=12442) and [Windows Server 2008 R2](https://www.iis.net/downloads/microsoft/windows-media-services))
-- [IIS Media Services 4.1](/media) (which runs on Windows Server 2008, Windows Server 2008 R2, and Windows Server 2012)
+- [IIS Media Services 4.1](https://www.iis.net/media) (which runs on Windows Server 2008, Windows Server 2008 R2, and Windows Server 2012)
 
 Cloud-based media technologies:
 
@@ -84,7 +84,7 @@ The following encoding and conversion technologies are available from Microsoft:
 - Windows Azure Media Encoding Services: Incorporates the technologies of Transform Manager and Expression Encoder into the Windows Azure cloud. Going forward, the latest versions of these technologies will continue to be developed in the Windows Azure Media Services cloud.
 
 > [!NOTE]
-> Third-party encoders are also available for IIS Media Services. For more information, see the Partners section of the [IIS Media Services](/media) page. For Windows Azure Media Services, third-party encoders will be available in the Azure Store sometime after Windows Azure Media Services releases.
+> Third-party encoders are also available for IIS Media Services. For more information, see the Partners section of the [IIS Media Services](https://www.iis.net/media) page. For Windows Azure Media Services, third-party encoders will be available in the Azure Store sometime after Windows Azure Media Services releases.
 
 
 <a id="Toc343780146"></a>
@@ -509,7 +509,7 @@ Expression Encoder 4 with Service Pack 2: [https://www.microsoft.com/en-us/downl
 
 Expression Encoder Pro: [https://go.microsoft.com/fwlink/?LinkID=149601](https://go.microsoft.com/fwlink/?LinkID=149601)
 
-IIS Media Services 4.1: [https://www.iis.net/media](/media)
+IIS Media Services 4.1: [https://www.iis.net/media](https://www.iis.net/media)
 
 IIS Smooth Streaming Technical Overview: [https://download.microsoft.com/download/4/2/4/4247C3AA-7105-4764-A8F9-321CB6C765EB/IIS\_Smooth\_Streaming\_Technical\_Overview.pdf](https://download.microsoft.com/download/4/2/4/4247C3AA-7105-4764-A8F9-321CB6C765EB/IIS_Smooth_Streaming_Technical_Overview.pdf)
 

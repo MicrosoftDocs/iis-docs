@@ -49,7 +49,7 @@ The Microsoft URL Rewrite module 2.0 includes the following key features:
 
 ## Where to get the URL Rewrite module
 
-For more information and to download the module, see [URL Rewrite](../../../downloads?tabid=34&amp;g=6&amp;i=1691.md).
+For more information and to download the module, see [URL Rewrite](https://www.iis.net/downloads?tabid=34&amp;g=6&amp;i=1691).
 
 [Download the x86 version of the URL Rewrite module](https://go.microsoft.com/?linkid=9722533)
 

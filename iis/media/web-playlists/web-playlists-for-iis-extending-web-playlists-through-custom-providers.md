@@ -171,7 +171,7 @@ For 64 bit systems, when you run as 32 bit through WOW layer, do the following t
 
 ## Resources
 
-**Web Playlists Interface**. [Download](../../../community/files/media/WebPlaylists-SDK.zip.md) this file and unzip the contents into a directory on your computer. The directory location will serve as your Web Playlists Include path.
+**Web Playlists Interface**. [Download](https://www.iis.net/community/files/media/WebPlaylists-SDK.zip) this file and unzip the contents into a directory on your computer. The directory location will serve as your Web Playlists Include path.
 
 **Web Playlists Extensibility Support**. View the Web Playlists Programming Reference and Programming Guide on the [Microsoft Developer Network (MSDN)](https://msdn.microsoft.com/en-us/library/dd146275.aspx).
 

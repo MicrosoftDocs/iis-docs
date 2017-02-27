@@ -18,9 +18,9 @@ by Dave Nelson
 
 Applies To: IIS Media Services 4, IIS Media Services 3.0
 
-To create Smooth Streaming presentations, source content is encoded at several quality levels (bit rates) using [Microsoft Expression Encoder](https://go.microsoft.com/?linkid=9737541) or a compression tool from one of our many [Encoding Partners](/media). [Microsoft Silverlight](https://go.microsoft.com/?linkid=9737580)-based clients host Smooth Streaming heuristic algorithms that make download bit rate decisions every few seconds, appropriate for the currently available bandwidth and video rendering capabilities. When the Smooth Streaming Web server receives a request for media at a specific bit rate from the client, it dynamically creates cacheable virtual fragments from the corresponding bit rate video file. The client optimizes playback of content in real-time by requesting a bit rate from the presentation that is most appropriate for current conditions, receiving the best content possible as conditions change.
+To create Smooth Streaming presentations, source content is encoded at several quality levels (bit rates) using [Microsoft Expression Encoder](https://go.microsoft.com/?linkid=9737541) or a compression tool from one of our many [Encoding Partners](https://www.iis.net/media). [Microsoft Silverlight](https://go.microsoft.com/?linkid=9737580)-based clients host Smooth Streaming heuristic algorithms that make download bit rate decisions every few seconds, appropriate for the currently available bandwidth and video rendering capabilities. When the Smooth Streaming Web server receives a request for media at a specific bit rate from the client, it dynamically creates cacheable virtual fragments from the corresponding bit rate video file. The client optimizes playback of content in real-time by requesting a bit rate from the presentation that is most appropriate for current conditions, receiving the best content possible as conditions change.
 
-This article describes how to simulate client experiences under varying conditions by simulating drops and recoveries in bandwidth in the [Smooth Streaming User Experience Simulator](/media/experiencesmoothstreaming).
+This article describes how to simulate client experiences under varying conditions by simulating drops and recoveries in bandwidth in the [Smooth Streaming User Experience Simulator](https://www.iis.net/media/experiencesmoothstreaming).
 
 - [Using the Smooth Streaming User Experience Simulator](exploring-bit-rate-changes.md#simulator)
 - [Simulating a Drop in Available Bandwidth](exploring-bit-rate-changes.md#drop)
@@ -31,7 +31,7 @@ This article describes how to simulate client experiences under varying conditio
 
 ## Using the Smooth Streaming User Experience Simulator
 
-The [Smooth Streaming User Experience Simulator](/media/experiencesmoothstreaming) displays a user interface similar to the following figure.  
+The [Smooth Streaming User Experience Simulator](https://www.iis.net/media/experiencesmoothstreaming) displays a user interface similar to the following figure.  
 ![](exploring-bit-rate-changes/_static/image1.png)
 
 The interface contains the following components that help simulate conditions and quantify the playback experience:

@@ -118,7 +118,7 @@ The following table lists and describes the configuration settings provided by t
 
 ## Configure FastCGI for Optimal Performance
 
-The FastCGI module in IIS has a configuration setting [maxInstances](../../../configreference/system.webserver/fastcgi/application.md) that controls the number of concurrently running Php-cgi.exe processes that IIS creates to process PHP requests. To achieve optimal performance, it is recommended that you fine tune this setting for your specific environment, starting with 8–10 instances per CPU core (for example, maxInstances=32 for a quad-core CPU).
+The FastCGI module in IIS has a configuration setting [maxInstances](https://www.iis.net/configreference/system.webserver/fastcgi/application) that controls the number of concurrently running Php-cgi.exe processes that IIS creates to process PHP requests. To achieve optimal performance, it is recommended that you fine tune this setting for your specific environment, starting with 8–10 instances per CPU core (for example, maxInstances=32 for a quad-core CPU).
 
 The Windows Cache Extension for PHP caches the compiled PHP opcode in the shared memory, which helps to avoid redoing of such CPU intensive operations as parsing and compiling of the PHP source code. This means that when Windows Cache Extension for PHP is enabled, fewer CPU cycles are required for a Web server to process PHP requests. Because of that, the previously configured value for the FastCGI maxInstances setting may not be adequate to load the server's CPU completely, and it may be necessary to increase the value further.
 

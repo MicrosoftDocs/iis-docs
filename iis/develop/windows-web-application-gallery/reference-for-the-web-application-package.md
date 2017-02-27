@@ -198,7 +198,7 @@ An application package can have any number of SQL scripts that will be executed 
 
 ## Web.config
 
-A Web.config file can be placed at any level in an application's directory tree. To learn more about the Web.config file, see the [IIS 7.0 Configuration Reference](../../../configreference.md).
+A Web.config file can be placed at any level in an application's directory tree. To learn more about the Web.config file, see the [IIS 7.0 Configuration Reference](https://www.iis.net/configreference).
 
 ## Integration Samples
 
@@ -219,7 +219,7 @@ Samples of Web App Gallery integration are available for reference.
 
 Web App Gallery Integration Samples.
 
-[IIS 7.0 Configuration Reference](../../../configreference.md).
+[IIS 7.0 Configuration Reference](https://www.iis.net/configreference).
 
 [Database Notes for packaging applications for use with the Web Application Gallery](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery.md).
 

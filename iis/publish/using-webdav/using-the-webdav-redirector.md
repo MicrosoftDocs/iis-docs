@@ -166,7 +166,7 @@ The following list of error conditions is designed to help troubleshoot situatio
 
     - The server that you are connecting to does not have any authentication methods enabled.
     - The WebDAV client is running into the problems that are described in [KB941050](https://support.microsoft.com/kb/941050) or [KB943280](https://support.microsoft.com/kb/943280).
-    - The logon type for content on a UNC share is incorrect; this setting is configured in the **Physical Path Credentials Logon Type** option in the **Advanced Settings** for a website or application, and is defined by the **logonMethod** attribute for the **[virtualDirectory](../../../configreference/system.applicationhost/sites/site/application/virtualdirectory.md)** settings for a website or virtual directory. For example: if the directory for your website's content is on a network share, you may need to change your settings from **Clear Text** to **Network** depending on your network configuration.
+    - The logon type for content on a UNC share is incorrect; this setting is configured in the **Physical Path Credentials Logon Type** option in the **Advanced Settings** for a website or application, and is defined by the **logonMethod** attribute for the **[virtualDirectory](https://www.iis.net/configreference/system.applicationhost/sites/site/application/virtualdirectory)** settings for a website or virtual directory. For example: if the directory for your website's content is on a network share, you may need to change your settings from **Clear Text** to **Network** depending on your network configuration.
 6. When attempting to map a drive to a WebDAV site, you receive the following error: 
 
     **System error 59 has occurred.  

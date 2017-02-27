@@ -147,7 +147,7 @@ IIS Media Services extensions are designed to add media delivery capabilities to
 - [Smooth Streaming](windows-media-server-or-web-server.md#ss)
 - [Bit Rate Throttling](windows-media-server-or-web-server.md#brt)
 
-IIS Media Services includes additional extensions that add Windows Media Services-like capabilitres, such as server-side playlists and rich client logging, to Web servers running IIS. For more information about these extensions, and additional extensions that may be developed to enhance delivery of digital media content from Web servers, see the [IIS Media Services Web site](/media).
+IIS Media Services includes additional extensions that add Windows Media Services-like capabilitres, such as server-side playlists and rich client logging, to Web servers running IIS. For more information about these extensions, and additional extensions that may be developed to enhance delivery of digital media content from Web servers, see the [IIS Media Services Web site](https://www.iis.net/media).
 
 <a id="ss"></a>
 
@@ -163,7 +163,7 @@ As a content producer, you can encode live and on-demand Smooth Streaming video 
 
 - [Smooth Streaming Technical Overview](../on-demand-smooth-streaming/smooth-streaming-technical-overview.md). Provides a comprehensive history, context, introduction, and technical description of Smooth Streaming.
 - [Smooth Streaming Deployment Guide](../smooth-streaming/smooth-streaming-deployment-guide.md). Describes the Microsoft implementation for delivering a full Smooth Streaming experience.
-- [Experience Smooth Streaming](/media/experiencesmoothstreaming). Go to this Web page to use a Silverlight browser plug-in to simulate different bandwidths and see Smooth Streaming in action.
+- [Experience Smooth Streaming](https://www.iis.net/media/experiencesmoothstreaming). Go to this Web page to use a Silverlight browser plug-in to simulate different bandwidths and see Smooth Streaming in action.
 
 <a id="brt"></a>
 

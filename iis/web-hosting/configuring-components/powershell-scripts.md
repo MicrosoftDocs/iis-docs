@@ -22,7 +22,7 @@ This article provides a summary of the PowerShell and C# Sample scripts mentione
 
 ## Deployment Scripts -Shared Hosting
 
-#### 1.[Web Server](../../../community/files/hosting/IISShareHostSetupScripts-v1.zip.md "Web Server Scripts")
+#### 1.[Web Server](https://www.iis.net/community/files/hosting/IISShareHostSetupScripts-v1.zip "Web Server Scripts")
 
 These PowerShell scripts will help deploy and configured the Web Server. Notice that these scripts were written and tested using PS 2.0:
 
@@ -42,7 +42,7 @@ These PowerShell scripts will help deploy and configured the Web Server. Notice 
 - **HTTPResponseCache.PS1**: shows the [HTTP Response Cache](../web-server-for-shared-hosting/http-response-cache.md).
 - Coming soon: Setting [ASP.NET](../web-server-for-shared-hosting/aspnet-20-35-shared-hosting-configuration.md) medium trust.
 
-#### 2.[File Server](../../../community/files/hosting/FileServerSetupScripts-v1.zip.md "File Server Scripts")
+#### 2.[File Server](https://www.iis.net/community/files/hosting/FileServerSetupScripts-v1.zip "File Server Scripts")
 
 These PowerShell scripts will help deploy and configured the File Server. Notice that these scripts were written and tested using PS 2.0:
 
@@ -61,7 +61,7 @@ These PowerShell scripts will help deploy and configured the File Server. Notice
 1. [Provisioning Sample in C#](powershell-scripts/_static/powershell-scripts-327-iis7provisioningsample1.zip) is a set of C# samples to perform several common provisioning tasks, See details in the [Provisioning Sample in C#](../../manage/provisioning-and-managing-iis/provisioning-sample-in-c.md) article.
 2. [Hosting Services Sample](powershell-scripts/_static/hssample_4-11.zip) is an extensive C# code sample for provisioning Sites, User accounts, SQL db, and others. See details in the [Hosting Services Code Sample](../../manage/provisioning-and-managing-iis.md) article.
 3. [Code Samples and Scripts](../../manage/provisioning-and-managing-iis.md) provides sample code snippets for creating IIS 7.0 Sites and Configuration tasks.
-4. [IIS Sites Provisioning PowerShell Scripts](../../../community/files/hosting/ProvisioningScripts 4-7-2008.zip.md "IIS Sites PowerShell Scripts"). These are 6 PowerShell Scripts to help you automate the provisioning of AppPools, Sites, Applications, Virtual Directories, and Bindings. They use the Microsoft.Web.Administration managed code namespace interfaces to provision these objects. Here is an example for each of them:
+4. [IIS Sites Provisioning PowerShell Scripts](https://www.iis.net/community/files/hosting/ProvisioningScripts 4-7-2008.zip "IIS Sites PowerShell Scripts"). These are 6 PowerShell Scripts to help you automate the provisioning of AppPools, Sites, Applications, Virtual Directories, and Bindings. They use the Microsoft.Web.Administration managed code namespace interfaces to provision these objects. Here is an example for each of them:
 
 > > 4.1. **To create any number of AppPools, Sites, Applications, Virtual Directories, and Bindings arranged in accordance to a configuration data file** use Sample\_AppPool\_Site\_AppCreation. This script calls all the others to create each object in accordance to the configuration data found in the ProvisioningConfig.xml XML file.
 > > 

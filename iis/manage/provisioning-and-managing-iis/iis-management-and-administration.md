@@ -67,7 +67,7 @@ The following download &lt;link: [https://download.microsoft.com/download/A/2/F/
 
 Guidance articles:
 
-- The Remote Administration tool is available at: [https://www.iis.net/downloads/default.aspx?tabid=34&amp;i=1524&amp;g=6](../../../downloads?tabid=34&amp;i=1524&amp;g=6.md) .
+- The Remote Administration tool is available at: [https://www.iis.net/downloads/default.aspx?tabid=34&amp;i=1524&amp;g=6](https://www.iis.net/downloads?tabid=34&amp;i=1524&amp;g=6) .
 - For more learning and guidance material, see Managing IIS 7.0 Remotely &lt;link: [https://www.iis.net/learn/manage/remote-administration](../remote-administration.md)&gt; .
 - This article &lt;link: [https://www.iis.net/learn/manage/remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7](../remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7.md)&gt; provides a step-by-step guide for configuring Remote Administration and Feature Delegation in IIS 7.0.
 - This article &lt;link: [https://www.iis.net/learn/web-hosting/web-server-for-shared-hosting/delegated-administration](../../web-hosting/web-server-for-shared-hosting/delegated-administration.md)&gt; has a list of feature delegation settings that are relevant to shared hosting, and instructions about how to configure them and how to enable remote connections (the latter is also covered in the article cited under the previous bullet).

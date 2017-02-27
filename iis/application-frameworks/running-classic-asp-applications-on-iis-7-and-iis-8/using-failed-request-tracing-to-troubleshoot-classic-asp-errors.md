@@ -53,7 +53,7 @@ Failed Request Tracing is not installed by default on IIS. To install Failed Req
 
 For additional information about installing Failed Request Tracing for IIS, see the following topic on the Microsoft [IIS.net](https://www.iis.net/) Web site:
 
-- [https://www.iis.net/ConfigReference/system.webServer/tracing](../../../configreference/system.webserver/tracing.md)
+- [https://www.iis.net/ConfigReference/system.webServer/tracing](https://www.iis.net/configreference/system.webserver/tracing)
 
 ## How to enable failed request tracing
 
@@ -176,7 +176,7 @@ An example is shown in the following illustration:
 For additional information about Failed Request Tracing in IIS, see the following pages on the Microsoft [IIS.net](https://www.iis.net/) Web site:
 
 - [Walkthrough: Troubleshooting Failed Requests Using Tracing in IIS 7.0 and Above](../../troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis.md)
-- [Configuration Reference: Trace Failed Requests](../../../configreference/system.webserver/tracing/tracefailedrequests.md)
+- [Configuration Reference: Trace Failed Requests](https://www.iis.net/configreference/system.webserver/tracing/tracefailedrequests)
   
   
 [Discuss in IIS Forums](https://forums.iis.net/1044.aspx)
