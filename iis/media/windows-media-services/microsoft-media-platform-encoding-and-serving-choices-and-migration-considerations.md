@@ -59,7 +59,7 @@ Two Microsoft Media Platform Technologies are on-premises (that is, they run on 
 
 On-premises media technologies:
 
-- [Windows Media Services](https://www.microsoft.com/windows/windowsmedia/forpros/server/server.aspx) (with versions for [Windows Server 2008](https://www.microsoft.com/en-us/download/details.aspx?id=12442) and [Windows Server 2008 R2](../../../downloads/microsoft/windows-media-services.md))
+- [Windows Media Services](https://www.microsoft.com/windows/windowsmedia/forpros/server/server.aspx) (with versions for [Windows Server 2008](https://www.microsoft.com/en-us/download/details.aspx?id=12442) and [Windows Server 2008 R2](https://www.iis.net/downloads/microsoft/windows-media-services))
 - [IIS Media Services 4.1](/media) (which runs on Windows Server 2008, Windows Server 2008 R2, and Windows Server 2012)
 
 Cloud-based media technologies:
@@ -473,7 +473,7 @@ To make direct REST API calls rather than using an SDK, or to use programming la
 <a id="Toc343780184"></a>
 #### Smooth Streaming Client SDKs
 
-Smooth Streaming Client SDKS are available for a wide variety of platforms, including [Windows 8](https://visualstudiogallery.msdn.microsoft.com/04423d13-3b3e-4741-a01c-1ae29e84fea6?SRC=Home), [Silverlight](https://www.microsoft.com/en-us/download/details.aspx?id=29940), [Windows Phone](../../../downloads/microsoft/smooth-streaming.md), iOS, and Android. Some are available from third parties. For more information, see [Media Services Client Development](https://social.msdn.microsoft.com/Forums/en-US/MediaServices/thread/e9092ec6-2dfc-44cb-adce-1dc935309d2a).
+Smooth Streaming Client SDKS are available for a wide variety of platforms, including [Windows 8](https://visualstudiogallery.msdn.microsoft.com/04423d13-3b3e-4741-a01c-1ae29e84fea6?SRC=Home), [Silverlight](https://www.microsoft.com/en-us/download/details.aspx?id=29940), [Windows Phone](https://www.iis.net/downloads/microsoft/smooth-streaming), iOS, and Android. Some are available from third parties. For more information, see [Media Services Client Development](https://social.msdn.microsoft.com/Forums/en-US/MediaServices/thread/e9092ec6-2dfc-44cb-adce-1dc935309d2a).
 
 <a id="Toc343780185"></a>
 #### Media Platform Player Framework
@@ -553,7 +553,7 @@ Task Preset for Windows Azure Media Encryptor: [https://msdn.microsoft.com/en-us
 
 Task Preset Strings for Windows Azure Media Encoder: [https://msdn.microsoft.com/en-us/library/windowsazure/jj129582.aspx](https://msdn.microsoft.com/en-us/library/windowsazure/jj129582.aspx)
 
-Transform Manager: [https://www.iis.net/downloads/microsoft/transform-manager](../../../downloads/microsoft/transform-manager.md)
+Transform Manager: [https://www.iis.net/downloads/microsoft/transform-manager](https://www.iis.net/downloads/microsoft/transform-manager)
 
 Transform Manager 1.1 download: [https://www.microsoft.com/en-us/download/details.aspx?id=29890](https://www.microsoft.com/en-us/download/details.aspx?id=29890)
 
@@ -583,4 +583,4 @@ Windows Media Services: [https://www.microsoft.com/windows/windowsmedia/forpros/
 
 Windows Media Services for Windows Server 2008: [https://www.microsoft.com/en-us/download/details.aspx?id=12442](https://www.microsoft.com/en-us/download/details.aspx?id=12442)
 
-Windows Media Services for Windows Server 2008 R2: [https://www.iis.net/downloads/microsoft/windows-media-services](../../../downloads/microsoft/windows-media-services.md)
+Windows Media Services for Windows Server 2008 R2: [https://www.iis.net/downloads/microsoft/windows-media-services](https://www.iis.net/downloads/microsoft/windows-media-services)

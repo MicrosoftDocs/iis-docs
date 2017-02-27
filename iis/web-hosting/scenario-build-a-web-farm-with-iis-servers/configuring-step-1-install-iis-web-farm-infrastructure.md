@@ -79,7 +79,7 @@ Once you have a default installation of IIS on a server, you can use [Web Platfo
 
 ### To install ARR load balancing and its dependencies
 
-1. Open a browser to the [Application Request Routing](../../../downloads/microsoft/application-request-routing.md) website, and click the **Install** button.
+1. Open a browser to the [Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing) website, and click the **Install** button.
 2. Click **Allow**, and then click **Yes**.
 3. In the **Web Platform Installer** window, click **Install**.
 4. Look over the components to be installed, and then click **I Accept**.

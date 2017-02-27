@@ -24,7 +24,7 @@ This walkthrough is aimed to demonstrate how to use Configuration Editor's Gener
 
 This walkthrough requires the following prerequisites:
 
-- [Administration Pack V1 for IIS](../../../downloads/microsoft/administration-pack.md "Install Administration Pack")
+- [Administration Pack V1 for IIS](https://www.iis.net/downloads/microsoft/administration-pack "Install Administration Pack")
 
 ## Part 1 – Create an application pool using the configuration editor
 

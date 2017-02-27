@@ -32,7 +32,7 @@ The purpose of this article is to provide hosters with the information that they
 
 ## Deploy the Administration Pack
 
-When deploying the Administration Pack in shared hosting environments &lt;link: to shared hosting config article&gt;, it must be installed on each Web server in the farm. When using prebuilt images, the Administration Pack should be part of the image used to build up the farm servers. Follow the instructions described in [this article](../../../downloads/microsoft/administration-pack.md) to download and install the Administration Pack.
+When deploying the Administration Pack in shared hosting environments &lt;link: to shared hosting config article&gt;, it must be installed on each Web server in the farm. When using prebuilt images, the Administration Pack should be part of the image used to build up the farm servers. Follow the instructions described in [this article](https://www.iis.net/downloads/microsoft/administration-pack) to download and install the Administration Pack.
 
 ## Learn about the Administration Pack
 

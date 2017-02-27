@@ -56,7 +56,7 @@ The following table contains links to resources related to this scenario.
 
 | Content type | References |
 | --- | --- |
-| **Deployment** | [Deployment to a Hosting Provider](https://www.asp.net/web-forms/tutorials/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12) | [Web Deploy 2.0](../../../downloads/microsoft/web-deploy.md) |
+| **Deployment** | [Deployment to a Hosting Provider](https://www.asp.net/web-forms/tutorials/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12) | [Web Deploy 2.0](https://www.iis.net/downloads/microsoft/web-deploy) |
 | **Operations** | [IIS.NET](https://www.iis.net/) | [IIS Learning Center](https://www.iis.net/learn) |
 | **Tools and Settings** | Microsoft.IIs.PowerShell.Provider namespace |
 | **Community Resources** | [IIS Blogs](https://blogs.iis.net/) | [IIS Forums](https://forums.iis.net/) | [Robert McMurray's Blog](https://blogs.msdn.com/b/robert_mcmurray/) | [Scott Forsyth's Blog](https://blogs.iis.net/owscott/default.aspx) | [Steve Schofield's Blog](https://blogs.iis.net/steveschofield/default.aspx) |

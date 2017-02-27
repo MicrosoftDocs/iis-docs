@@ -390,7 +390,7 @@ $hardwareTopology = Get-Numa; $hardwareTopology
 
 Web Capacity Analysis Tool (WCAT) is a lightweight HTTP load generation tool primarily designed to measure the performance of a Web server within a controlled environment. WCAT can simulate thousands of concurrent users making requests to a single Web site or to multiple Web sites.
 
-It can be found at [https://www.iis.net/downloads/community/2007/05/wcat-63-(x86)](../../../downloads/community/2007/05/wcat-63-x86.md)
+It can be found at [https://www.iis.net/downloads/community/2007/05/wcat-63-(x86)](https://www.iis.net/downloads/community/2007/05/wcat-63-x86)
 
 <a id="about"></a>
 ### About

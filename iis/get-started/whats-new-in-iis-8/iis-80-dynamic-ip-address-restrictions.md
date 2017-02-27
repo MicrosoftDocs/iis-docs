@@ -22,8 +22,8 @@ by [Robert McMurray](https://github.com/rmcmurray)
 | Version | Notes |
 | --- | --- |
 | IIS 8.0 | Dynamic IP Address Restrictions built-in for IIS 8.0. |
-| IIS 7.5 | Dynamic IP Address Restrictions were available as an [out-of-band module for IIS 7.5](../../../downloads/microsoft/dynamic-ip-restrictions.md). |
-| IIS 7.0 | Dynamic IP Address Restrictions were available as an [out-of-band module for IIS 7.0](../../../downloads/microsoft/dynamic-ip-restrictions.md). |
+| IIS 7.5 | Dynamic IP Address Restrictions were available as an [out-of-band module for IIS 7.5](https://www.iis.net/downloads/microsoft/dynamic-ip-restrictions). |
+| IIS 7.0 | Dynamic IP Address Restrictions were available as an [out-of-band module for IIS 7.0](https://www.iis.net/downloads/microsoft/dynamic-ip-restrictions). |
 
 
 <a id="TOC301258515"></a>

@@ -47,7 +47,7 @@ You can install any web platform components that are available in the Web Platfo
 
 Application Provisioning
 
-Application provisioning is similar to platform provisioning, but instead of synchronizing platform components and applications, you can specify additional Web Deploy providers to be synchronized to the servers in the farm. Application provisioning uses Microsoft Web Deploy technology. For more information see [Web Deploy](../../../downloads/microsoft/web-deploy.md).
+Application provisioning is similar to platform provisioning, but instead of synchronizing platform components and applications, you can specify additional Web Deploy providers to be synchronized to the servers in the farm. Application provisioning uses Microsoft Web Deploy technology. For more information see [Web Deploy](https://www.iis.net/downloads/microsoft/web-deploy).
 
 **To configure application provisioning**
 

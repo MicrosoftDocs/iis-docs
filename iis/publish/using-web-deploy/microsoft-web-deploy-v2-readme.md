@@ -66,7 +66,7 @@ The following prerequisites must be fulfilled in order to install the tool:
 
 There are two separate downloadable packages for the tool; you will need to download the appropriate package:
 
-[https://www.iis.net/download/WebDeploy](../../../downloads/microsoft/web-deploy.md)
+[https://www.iis.net/download/WebDeploy](https://www.iis.net/downloads/microsoft/web-deploy)
 
 You will need to run the installation package as an administrator. This can be accomplished by one of the following methods:
 
@@ -91,7 +91,7 @@ You can set the remote service URL to a custom URL by running setup from the com
 If an IIS 7+ server is using shared configuration, certain delegation rules with runAs identity set to SpecificUser will stop working. This is because the Web Deploy installer and the .\AddDelegationRules.ps1 script creates local machine user accounts and sets them as the runAs identity on certain delegation rules. These user accounts will not be recognized on other machines and thus the rules will not work in shared configuration.  
 **Workarounds:** 
 
-- Do not install Web Deploy 2.0 using the Web Platform Installer. Instead, install it [directly](../../../downloads/microsoft/web-deploy.md) from the MSI and de-select the Configure for Non-administrator Deployments component
+- Do not install Web Deploy 2.0 using the Web Platform Installer. Instead, install it [directly](https://www.iis.net/downloads/microsoft/web-deploy) from the MSI and de-select the Configure for Non-administrator Deployments component
 - If your delegation rules have already been overwritten, re-create them manually.
 
 ### Issue: Site created with .\SetupSite.ps1 PowerShell script is not browseable

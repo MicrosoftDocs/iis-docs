@@ -16,7 +16,7 @@ Adaptive Streaming Comparison
 ====================
 by Chris Knowlton
 
-[IIS Smooth Streaming](../../../downloads/microsoft/smooth-streaming.md) provides users with a truly compelling way to watch the best-possible-quality streaming video. First proven in production at the Summer 2008 Olympics in Beijing, this live and on-demand adaptive streaming technology from Microsoft represents the latest generation in video streaming technologies.
+[IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming) provides users with a truly compelling way to watch the best-possible-quality streaming video. First proven in production at the Summer 2008 Olympics in Beijing, this live and on-demand adaptive streaming technology from Microsoft represents the latest generation in video streaming technologies.
 
 Part of [IIS Media Services](/media), IIS Smooth Streaming delivers up to true HD (1080p) video experiences that increase user engagement times. With integrated media delivery in [IIS](../../../overview.md), you no longer need separate Web and streaming infrastructures to deliver compelling Web and rich media content to three screens (computer, TV, mobile). Using a single platform saves the cost of managing separate server infrastructures, and reduces the time to market and cost for deploying new applications, Web sites, and rich media experiences.
 
@@ -67,7 +67,7 @@ In the table below, we compare the latest adaptive streaming technologies from M
 | <a id="9"></a>9 | Support for adaptive streaming to the Apple iPhone from IIS Media Services 4 was [announced](https://blogs.iis.net/chriskno/archive/2009/12/01/faqs-on-using-iis-smooth-streaming-with-the-apple-iphone.aspx) on October 18th, 2009. |
 | <a id="10"></a>10 | Future support was [announced](http://www.adobe.com/products/flashmediastreaming/systemreqs/) Sept. 10, 2009. Proposed availability is H1 CY10 for delivery to a future version of Adobe® Flash® Player and Adobe AIR™. |
 | <a id="11"></a>11 | Digital Entertainment Content Ecosystem (DECE, LLC) is a consortium of major Hollywood studios, consumer electronics manufacturers and retailers, network hardware vendors, systems integrators and Digital Rights Management (DRM) vendors chartered to develop a set of standards for the digital distribution of premium Hollywood content. |
-| <a id="12"></a>12 | Real-time logging for Silverlight applications using the [IIS Advanced Logging](../../../downloads/microsoft/advanced-logging.md) extension. |
+| <a id="12"></a>12 | Real-time logging for Silverlight applications using the [IIS Advanced Logging](https://www.iis.net/downloads/microsoft/advanced-logging) extension. |
 | <a id="13"></a>13 | Encoded live streams are processed by the Apple stream segmenter. This intermediate step results in increased latency for live delivery. |
   
   

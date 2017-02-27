@@ -22,7 +22,7 @@ Geeklog is a PHP/MySQL based application for managing dynamic web content. It is
 
 For more information about Geeklog, see [http://www.geeklog.net](http://www.geeklog.net/).
 
-In this article, we go through the steps that would be required to install Geeklog to work with FastCGI extension on IIS6.0. To find out more about FastCGI support in IIS, see [https://www.iis.net/fastcgi](../../../downloads/microsoft/fastcgi-for-iis.md)
+In this article, we go through the steps that would be required to install Geeklog to work with FastCGI extension on IIS6.0. To find out more about FastCGI support in IIS, see [https://www.iis.net/fastcgi](https://www.iis.net/downloads/microsoft/fastcgi-for-iis)
 
 The following steps assume that you have completed the setup and configuration of FastCGI extension and PHP libraries as described in [https://www.iis.net/fastcgi/phpon60](using-fastcgi-to-host-php-applications-on-iis-60.md).
 

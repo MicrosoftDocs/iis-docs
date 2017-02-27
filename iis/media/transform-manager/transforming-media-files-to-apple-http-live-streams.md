@@ -16,7 +16,7 @@ Transforming Media Files to Apple HTTP Live Streams
 ====================
 by Dave Nelson
 
-This article describes how to configure the default **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** job template to transform Expression Encoder 4-supported media files to the MPEG-2 Transport Stream (MPEG-2 TS) container format in conformance with the [Apple HTTP Live Streaming Protocol Specification](https://developer.apple.com/library/ios/#documentation/NetworkingInternet/Conceptual/HTTPLiveStreaming/_index.html). As part of the transformation, an .m3u8 manifest file is created to form a complete Apple HTTP Live Streaming presentation that you can deliver to Apple mobile digital devices from a Web server that's running the [IIS Smooth Streaming](../../../downloads/microsoft/smooth-streaming.md) feature in IIS Media Services 4.
+This article describes how to configure the default **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** job template to transform Expression Encoder 4-supported media files to the MPEG-2 Transport Stream (MPEG-2 TS) container format in conformance with the [Apple HTTP Live Streaming Protocol Specification](https://developer.apple.com/library/ios/#documentation/NetworkingInternet/Conceptual/HTTPLiveStreaming/_index.html). As part of the transformation, an .m3u8 manifest file is created to form a complete Apple HTTP Live Streaming presentation that you can deliver to Apple mobile digital devices from a Web server that's running the [IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming) feature in IIS Media Services 4.
 
 This article applies to the following watch folder in IIS Transform Manager 1.0:
 

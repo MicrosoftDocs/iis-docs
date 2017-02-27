@@ -48,7 +48,7 @@ Note that you only need the remote service installed on either the source or the
 
 #### *To install the tool using the default remote service URL*
 
-1. Download the [Web Deployment Tool](../../../downloads/microsoft/web-deploy.md).
+1. Download the [Web Deployment Tool](https://www.iis.net/downloads/microsoft/web-deploy).
 
 2. Run the Windows®Installer file to install the tool.
 
@@ -68,7 +68,7 @@ Note that you only need the remote service installed on either the source or the
 
 #### *To install the tool with a custom remote service URL*
 
-1. Download the [Web Deployment Tool](../../../downloads/microsoft/web-deploy.md).
+1. Download the [Web Deployment Tool](https://www.iis.net/downloads/microsoft/web-deploy).
 
 2. Open an administrative command prompt on Windows Server® 2008, or a command prompt on Windows Server® 2003.
 

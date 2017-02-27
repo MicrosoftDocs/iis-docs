@@ -233,7 +233,7 @@ By default, IIS returns two types of errors when a problem occurs. The first typ
 URL rewriting is a way to modify the appearance of a Web URL. Web application users prefer short, neat URLs instead of raw query string parameters. A concise URL is easy to remember and less time-consuming to type in. If the URL can be made to relate clearly to the content of the page, then errors are less likely to happen.
 
 - For URL rewriting, Apache comes with a well-known module called mod\_rewrite. This module provides a rule-based rewriting engine to rewrite requested URLs on the fly. The mod\_rewrite module is enabled in the Apache.conf file by removing the # and restarting Apache. Rewrite rules can then be defined in the .htaccess file within any particular directory.
-- IIS now offers a URL Rewriting module (see: [URL Rewrite Module](../../../downloads/microsoft/url-rewrite.md)).
+- IIS now offers a URL Rewriting module (see: [URL Rewrite Module](https://www.iis.net/downloads/microsoft/url-rewrite)).
 
 ### Web Caching
 

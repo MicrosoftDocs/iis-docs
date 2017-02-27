@@ -16,7 +16,7 @@ Transforming On-Demand Smooth Streams to Apple HTTP Live Streams
 ====================
 by Dave Nelson
 
-This article describes how to configure the default **H.264 Smooth Streams to Apple HTTP Live Streams** job template in IIS Transform Manager 1.0 to transform H.264-encoded Smooth Streams to the MPEG-2 Transport Stream (MPEG-2 TS) container format in conformance with the [Apple HTTP Live Streaming Protocol Specification](https://developer.apple.com/library/ios/#documentation/NetworkingInternet/Conceptual/HTTPLiveStreaming/_index.html). As part of the transformation, an .m3u8 manifest file is created to form a complete Apple HTTP Live Streaming presentation that you can deliver to Apple mobile digital devices from a Web server that's running the [IIS Smooth Streaming](../../../downloads/microsoft/smooth-streaming.md) feature in IIS Media Services 4. This workflow is shown in the following diagram.  
+This article describes how to configure the default **H.264 Smooth Streams to Apple HTTP Live Streams** job template in IIS Transform Manager 1.0 to transform H.264-encoded Smooth Streams to the MPEG-2 Transport Stream (MPEG-2 TS) container format in conformance with the [Apple HTTP Live Streaming Protocol Specification](https://developer.apple.com/library/ios/#documentation/NetworkingInternet/Conceptual/HTTPLiveStreaming/_index.html). As part of the transformation, an .m3u8 manifest file is created to form a complete Apple HTTP Live Streaming presentation that you can deliver to Apple mobile digital devices from a Web server that's running the [IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming) feature in IIS Media Services 4. This workflow is shown in the following diagram.  
 [![](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image2.png)](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image1.png)
 
 This article applies to the following watch folder in IIS Transform Manager 1.0:
@@ -63,7 +63,7 @@ Create an account for the Transform Manager service and then start the service. 
 
 ### Production Notes
 
-- This article describes a way to transform legacy Smooth Streaming presentations to Apple HTTP Live Streams (HLS) that can be delivered by the [IIS Smooth Streaming](../../../downloads/microsoft/smooth-streaming.md) feature in IIS Media Services 4 to clients on Apple mobile digital devices. The following video and audio encoding profiles are supported:
+- This article describes a way to transform legacy Smooth Streaming presentations to Apple HTTP Live Streams (HLS) that can be delivered by the [IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming) feature in IIS Media Services 4 to clients on Apple mobile digital devices. The following video and audio encoding profiles are supported:
 
     - **Video**. H.264 Baseline Profile Level 3.0 (iPhone®/iPod®/iPod touch®), Main Profile Level 3.1 (iPad®)
     - **Audio**. AAC-LC up to 48 kHz, stereo audio

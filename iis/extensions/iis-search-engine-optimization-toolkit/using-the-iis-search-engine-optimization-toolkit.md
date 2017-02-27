@@ -46,7 +46,7 @@ The components of IIS Search Engine Optimization Toolkit include the following f
 
 ## Where to get the toolkit
 
-[Download the x86 and x64 version for IIS 7](../../../downloads/microsoft/search-engine-optimization-toolkit.md "Download the x86 and x64 version for IIS 7")
+[Download the x86 and x64 version for IIS 7](https://www.iis.net/downloads/microsoft/search-engine-optimization-toolkit "Download the x86 and x64 version for IIS 7")
 
 ## Using the toolkit
 

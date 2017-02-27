@@ -22,7 +22,7 @@ by [Robert McMurray](https://github.com/rmcmurray)
 
 Microsoft released a new WebDAV extension module that was completely rewritten for Internet Information Services 7.0 (IIS 7.0) on Windows Server® 2008. This new WebDAV extension module incorporated many new features that enable web authors to publish content better than before, and offers web administrators more security and configuration options. Microsoft has released an update to the WebDAV extension module for Windows Server® 2008 that provides shared and exclusive locks support to prevent lost updates due to overwrites.
 
-IIS 7.0 provides several great new security features, including the IIS 7.0 new Request Filtering. For IIS users who are familiar with [UrlScan](../../../downloads/microsoft/urlscan.md) from previous versions of IIS, the Request Filtering feature in IIS 7.0 is like having URLScan built-in.
+IIS 7.0 provides several great new security features, including the IIS 7.0 new Request Filtering. For IIS users who are familiar with [UrlScan](https://www.iis.net/downloads/microsoft/urlscan) from previous versions of IIS, the Request Filtering feature in IIS 7.0 is like having URLScan built-in.
 
 The new WebDAV module and Request Filtering were designed to work together, and this document walks you through configuring WebDAV-related Request Filtering settings together with WebDAV settings in order to set up a secure publishing environment. Note that if you use the IIS Manager UI to configure WebDAV then the request filtering settings are automatically updated and you do not need to follow the steps in this article.
 

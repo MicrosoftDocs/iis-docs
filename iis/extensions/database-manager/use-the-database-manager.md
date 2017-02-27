@@ -170,7 +170,7 @@ The connection string includes the database server, database name, and user cred
 
 [Database Manager for Hosters](../../web-hosting/web-server-for-shared-hosting/database-manager-for-hosters.md).
 
-[Videocast: Database Manager](../../../downloads/microsoft/database-manager.md).
+[Videocast: Database Manager](https://www.iis.net/downloads/microsoft/database-manager).
 
 Working with the Database Manager.
   

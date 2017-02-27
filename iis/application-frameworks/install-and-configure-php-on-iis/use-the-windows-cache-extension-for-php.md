@@ -214,7 +214,7 @@ To use W **incache.php**, copy it into a root folder of your Web site or into an
 
 [IIS7 Output Caching for Dynamic Content - Speed Up Your ASP and PHP Applications](https://blogs.iis.net/bills/archive/2007/05/02/iis7-output-caching-for-dynamic-content-dramatically-speed-up-your-asp-and-php-applications.aspx).
 
-[Windows Cache Extension for PHP](../../../downloads/microsoft/wincache-extension.md).
+[Windows Cache Extension for PHP](https://www.iis.net/downloads/microsoft/wincache-extension).
 
 [Windows Cache Extension 1.0 for PHP 5.2 - RC.](https://www.microsoft.com/downloads/details.aspx?FamilyID=6feb7f6a-7dcb-4083-bb7a-d8b22ba2d3d8&amp;displaylang=en)
 

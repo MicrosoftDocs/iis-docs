@@ -24,7 +24,7 @@ In addition, PostNuke's functionality can be increased by installing modules, bl
 
 For more information about PostNuke, see [http://www.postnuke.com/](http://www.postnuke.com/).
 
-In this section, we go through the steps required to install PostNuke to work with the FastCGI extension on IIS 6.0 and IIS 7.0 and above. To find out more about FastCGI support in IIS, see [https://www.iis.net/fastcgi](../../../downloads/microsoft/fastcgi-for-iis.md).
+In this section, we go through the steps required to install PostNuke to work with the FastCGI extension on IIS 6.0 and IIS 7.0 and above. To find out more about FastCGI support in IIS, see [https://www.iis.net/fastcgi](https://www.iis.net/downloads/microsoft/fastcgi-for-iis).
 
 The following steps assume that you have completed the setup and configuration of FastCGI extension and PHP libraries as described in [https://www.iis.net/fastcgi/phpon60](using-fastcgi-to-host-php-applications-on-iis-60.md).
 

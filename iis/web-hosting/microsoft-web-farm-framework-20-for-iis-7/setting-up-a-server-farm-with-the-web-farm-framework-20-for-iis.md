@@ -54,7 +54,7 @@ You can install Web Farm Framework 2.0 using Microsoft Web Platform Installer:
 Alternatively, you can download the .msi file appropriate for your computer architecture ([x86](https://go.microsoft.com/?linkid=9739155) or [x64](https://go.microsoft.com/?linkid=9739156)).
 
 > [!IMPORTANT]
-> WFF requires the Web Deploy module. If you install WFF using an .msi installer, you must also install the [Web Deploy](../../../downloads/microsoft/web-deploy.md) module version 1.1 or later on the controller server.
+> WFF requires the Web Deploy module. If you install WFF using an .msi installer, you must also install the [Web Deploy](https://www.iis.net/downloads/microsoft/web-deploy) module version 1.1 or later on the controller server.
 
 **To install Web Farm Framework 2.0 using Web Platform Installer**
 
@@ -130,7 +130,7 @@ These steps should be performed on the controller server after WFF is installed.
 
 1. When you are finished adding servers to the farm, click **Finish**. WFF creates the server farm.
 
-You can customize or define URL rewrite rules to configure load balancing. For more information, see [Using the URL Rewrite Module](../../extensions/url-rewrite-module/using-the-url-rewrite-module.md) and [Application Request Routing](../../../downloads/microsoft/application-request-routing.md).
+You can customize or define URL rewrite rules to configure load balancing. For more information, see [Using the URL Rewrite Module](../../extensions/url-rewrite-module/using-the-url-rewrite-module.md) and [Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing).
 
 When you create a server farm, WFF installs an agent service on each of the servers in the farm. WFF then synchronizes all of the platform components, the configuration, the applications, and content between the primary server and secondary servers. You can manage provisioning for a single server or for all servers in the farm using a single view.
 

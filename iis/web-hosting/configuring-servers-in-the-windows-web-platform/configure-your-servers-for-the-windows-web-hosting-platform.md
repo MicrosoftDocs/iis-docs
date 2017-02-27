@@ -143,14 +143,14 @@ ASP.NET
 
 IIS Modules
 
-- [Required] [Microsoft Web Deploy](../../../downloads/microsoft/web-deploy.md). Web Deploy is a client-server tool that simplifies the deployment of sites and applications to IIS servers. While WebMatrix supports web application publishing using both FTP and Web Deploy protocols, the latter providers a faster, more secure, and richer experience. It also lets the user deploy whole apps, including databases, ensuring they work both locally and remotely. It is the highlight of the WebMatrix publishing story.
-- [Required] [FTP Publishing Service](../../../downloads/microsoft/ftp.md). To ensure the option of FTP exists for maximum compatibility
+- [Required] [Microsoft Web Deploy](https://www.iis.net/downloads/microsoft/web-deploy). Web Deploy is a client-server tool that simplifies the deployment of sites and applications to IIS servers. While WebMatrix supports web application publishing using both FTP and Web Deploy protocols, the latter providers a faster, more secure, and richer experience. It also lets the user deploy whole apps, including databases, ensuring they work both locally and remotely. It is the highlight of the WebMatrix publishing story.
+- [Required] [FTP Publishing Service](https://www.iis.net/downloads/microsoft/ftp). To ensure the option of FTP exists for maximum compatibility
 - [Optional] [Media Services](../../../overview/choice/integratedmediaplatform.md). For IIS Smooth Streaming support
-- [Required] [IIS Remote Management Service](../../../downloads/microsoft/iis-manager.md). To allow your users to manage aspects of their accounts using the IIS console. Also a dependency for Web Deploy to function properly
-- [Required] [FastCGI for IIS](../../../downloads/microsoft/fastcgi-for-iis.md). Provides a much faster CGI implementation than the default
-- [Required] [URL Rewrite](../../../downloads/microsoft/url-rewrite.md). A dependency for many applications to function correctly
+- [Required] [IIS Remote Management Service](https://www.iis.net/downloads/microsoft/iis-manager). To allow your users to manage aspects of their accounts using the IIS console. Also a dependency for Web Deploy to function properly
+- [Required] [FastCGI for IIS](https://www.iis.net/downloads/microsoft/fastcgi-for-iis). Provides a much faster CGI implementation than the default
+- [Required] [URL Rewrite](https://www.iis.net/downloads/microsoft/url-rewrite). A dependency for many applications to function correctly
 - [Required] [SQL Server 2008 Management Objects](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=ceb4346f-657f-4d28-83f5-aae0c5c83d52). A dependency for many applications to function correctly, and for WebDeploy to manage SQL Server db's.
-- [Optional] [Windows Cache Extension 1.1 for PHP](../../../downloads/microsoft/wincache-extension.md). Highly recommended when running PHP on Windows.
+- [Optional] [Windows Cache Extension 1.1 for PHP](https://www.iis.net/downloads/microsoft/wincache-extension). Highly recommended when running PHP on Windows.
 - [Optional] [MySQL Connector/Net](http://dev.mysql.com/downloads/connector/net/) 6.2.3 or higher. Necessary for .NET applications using MySQL databases
 - [Optional] [Microsoft Drivers for PHP for SQL Server](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=80e44913-24b4-4113-8807-caae6cf2ca05) in IIS. Necessary for PHP applications using SQL Server
 - [Extensionless URL Hotfix](https://archive.msdn.microsoft.com/KB2522807). Needed only if you are not using Windows 2008 R2 **SP1**. Required for ASP.NET Web Pages to function correctly. It is discussed further in this blog post.

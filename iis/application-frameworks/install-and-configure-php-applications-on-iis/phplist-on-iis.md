@@ -22,7 +22,7 @@ PHPList is an open-source newsletter manager and one-way email announcement deli
 
 For more information and features about PHPList, see [http://www.phplist.com/](http://www.phplist.com/).  
   
-In this section, we go through the steps that would be required to install PHPList to work with FastCGI extension on IIS 7.0 and above, and Windows Server® 2008. To find out more about FastCGI support in IIS, see [https://www.iis.net/fastcgi](../../../downloads/microsoft/fastcgi-for-iis.md).
+In this section, we go through the steps that would be required to install PHPList to work with FastCGI extension on IIS 7.0 and above, and Windows Server® 2008. To find out more about FastCGI support in IIS, see [https://www.iis.net/fastcgi](https://www.iis.net/downloads/microsoft/fastcgi-for-iis).
 
 The following steps assume that you have completed the setup and configuration of FastCGI extension and PHP libraries as described in [https://www.iis.net/fastcgi/phpon60](using-fastcgi-to-host-php-applications-on-iis-60.md).
 

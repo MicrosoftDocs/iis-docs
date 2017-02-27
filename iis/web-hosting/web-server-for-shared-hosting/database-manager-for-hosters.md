@@ -20,7 +20,7 @@ by Walter Oliver
 
 Database Manager is a new IIS module specifically designed for the management of databases located in hosting environments. That is, it is designed for environments such as the one provided by Web hosters in which the database servers are intended to be accessible from the Web Application Server but not directly from the Internet. This article provides a guiding map that will help hosters learn about Database Manager and deploy it in hosting environments.
 
-Continue to download &lt;link: [https://www.iis.net/extensions/DatabaseManager](../../../downloads/microsoft/database-manager.md)&gt;.
+Continue to download &lt;link: [https://www.iis.net/extensions/DatabaseManager](https://www.iis.net/downloads/microsoft/database-manager)&gt;.
 
 ## Learn about Database Manager
 

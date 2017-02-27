@@ -37,7 +37,7 @@ First you need to install IIS on Nano, and the steps to do so are already covere
 
 ## Installing Reverse Forwarders
 
-Currently, both [HttpPlatformHandler](../../../downloads/microsoft/httpplatformhandler.md) and Asp.Net Core Kestrel host requires Reverse Forwarders package to be installed on the Nano machine.
+Currently, both [HttpPlatformHandler](https://www.iis.net/downloads/microsoft/httpplatformhandler) and Asp.Net Core Kestrel host requires Reverse Forwarders package to be installed on the Nano machine.
 
 Reverse Fowarders can be installed offline (machine turned off) or online (machine running).
 
@@ -67,7 +67,7 @@ At this time, the install for HttpPlatformHandler on Nano is manual.
 
 Understandably this is a pain…. so it's something that we're working on improving.
 
-Nano is 64 bit only (no WOW), so you'll need to install the latest x64 version of HttpPlatformHandler ([https://www.iis.net/downloads/microsoft/httpplatformhandler](../../../downloads/microsoft/httpplatformhandler.md)) on a regular (not Nano) machine.
+Nano is 64 bit only (no WOW), so you'll need to install the latest x64 version of HttpPlatformHandler ([https://www.iis.net/downloads/microsoft/httpplatformhandler](https://www.iis.net/downloads/microsoft/httpplatformhandler)) on a regular (not Nano) machine.
 
 Once you have x64 bit version of HttpPlatformHandler installed on your regular (not Nano) machine, there are 2 files which we'll need to copy to the Nano machine:
 

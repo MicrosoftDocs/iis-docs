@@ -177,7 +177,7 @@ On standard Web server networks that have lots of available bandwidth, a complet
 
 The Bit Rate Throttling extension offers advanced settings that allow you more control of the cumulative network throughput from your Web server. For example, you can specify global default and maximum throttle rates for all digital media files (regardless of their encoded bit rates) and specify a total bit rate throughput limit for a site so that the available bandwidth is dynamically allocated to connected clients. The Bit Rate Throttling extension also offers a useful secondary feature that throttles data file types at specified bit rates.
 
-For more information, see [Bit Rate Throttling](../../../downloads/microsoft/bit-rate-throttling.md).
+For more information, see [Bit Rate Throttling](https://www.iis.net/downloads/microsoft/bit-rate-throttling).
 
 <a id="checklist"></a>
 
@@ -213,11 +213,11 @@ Windows Media Services 2008 and IIS have additional features that are not descri
 | Available for [Windows Web Server 2008](https://www.microsoft.com/windowsserver2008/en/us/editions-overview.aspx) | ![](windows-media-server-or-web-server/_static/image37.gif) | ![](windows-media-server-or-web-server/_static/image38.gif) |
 
 
-**1**[IIS Bit Rate Throttling](../../../downloads/microsoft/bit-rate-throttling.md)**2**[IIS Live Smooth Streaming](../../../downloads/microsoft/live-smooth-streaming.md)  
-**3** Coming soon in IIS Smooth Multicast **4**[IIS Smooth Streaming](../../../downloads/microsoft/smooth-streaming.md)  
-**5**[IIS Application Request Routing](../../../downloads/microsoft/application-request-routing.md)  
-**6**[IIS Advanced Logging](../../../downloads/microsoft/advanced-logging.md)  
-**7**[IIS Web Playlists](../../../downloads/microsoft/web-playlists.md)
+**1**[IIS Bit Rate Throttling](https://www.iis.net/downloads/microsoft/bit-rate-throttling)**2**[IIS Live Smooth Streaming](https://www.iis.net/downloads/microsoft/live-smooth-streaming)  
+**3** Coming soon in IIS Smooth Multicast **4**[IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming)  
+**5**[IIS Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing)  
+**6**[IIS Advanced Logging](https://www.iis.net/downloads/microsoft/advanced-logging)  
+**7**[IIS Web Playlists](https://www.iis.net/downloads/microsoft/web-playlists)
   
   
 [Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

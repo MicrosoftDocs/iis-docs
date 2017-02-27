@@ -22,7 +22,7 @@ You can configure Internet Information Services 7 (IIS 7) and above to output sy
 
 [![](enable-php-syntax-highlighting-on-iis-7-and-above/_static/image2.gif)](enable-php-syntax-highlighting-on-iis-7-and-above/_static/image1.gif) Note that you should not attempt these procedures on any Internet-accessible Web site as this greatly compromises the security of your Web application.
 
-The HTTP requests for the PHP source code are usually identified by the .phps file extension (for example, http://localhost/index.phps). You must configure IIS to understand and handle the HTTP requests with this extension. There are two options for this: create an IIS handler mapping for \*.phps or use the [IIS URL Rewrite Module](../../../downloads/microsoft/url-rewrite.md "Download the IIS URL Rewrite Module").
+The HTTP requests for the PHP source code are usually identified by the .phps file extension (for example, http://localhost/index.phps). You must configure IIS to understand and handle the HTTP requests with this extension. There are two options for this: create an IIS handler mapping for \*.phps or use the [IIS URL Rewrite Module](https://www.iis.net/downloads/microsoft/url-rewrite "Download the IIS URL Rewrite Module").
 
 ## Configure IIS Handler Mapping
 

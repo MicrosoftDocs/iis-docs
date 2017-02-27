@@ -75,7 +75,7 @@ The update for the IIS FastCGI module fixes several known compatibility issues w
 > [!NOTE]
 > This step is optional.
 
-The [IIS 7.0 Administration Pack](../../../downloads/microsoft/administration-pack.md) adds to the set of management features that ship with IIS to include Administration UI support for ASP.NET authorization, custom errors, FastCGI configuration, request filtering, and much more. The Administration Pack also provides a generic configuration editor that is capable of setting any IIS configuration setting and automatically generating scripts to make the task easily repeatable.
+The [IIS 7.0 Administration Pack](https://www.iis.net/downloads/microsoft/administration-pack) adds to the set of management features that ship with IIS to include Administration UI support for ASP.NET authorization, custom errors, FastCGI configuration, request filtering, and much more. The Administration Pack also provides a generic configuration editor that is capable of setting any IIS configuration setting and automatically generating scripts to make the task easily repeatable.
 
 
 > [!NOTE]

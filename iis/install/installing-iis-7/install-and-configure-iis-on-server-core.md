@@ -224,7 +224,7 @@ The IIS Manager for Remote Administration:
 - Supports HTTP over Secure Sockets Layer (SSL) for more secure management.
 - Automatically downloads features to the local IIS Manager for Remote Administration console to match features newly installed on the remote Web server.
 
-For more information, see [IIS Manager for Remote Administration](../../../downloads/microsoft/iis-manager.md) and [Remote Administration for IIS Manager](../../manage/remote-administration/remote-administration-for-iis-manager.md#01).
+For more information, see [IIS Manager for Remote Administration](https://www.iis.net/downloads/microsoft/iis-manager) and [Remote Administration for IIS Manager](../../manage/remote-administration/remote-administration-for-iis-manager.md#01).
 
 1. By default, Remote Desktop is not enabled on the Server Core. Install the IIS remote management service by using the following command:
 

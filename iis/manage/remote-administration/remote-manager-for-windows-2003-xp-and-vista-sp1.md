@@ -40,8 +40,8 @@ This article contains:
 
 1. Ensure that you meet the installation requirements for Windows Vista®. Note that you must install the IIS Management Console (see how by clicking [here](https://blogs.iis.net/bdela/#InstallingMgtConsole)).
 2. Download the Remote Manager installer from:   
- 32 bit (x86) -     [https://www.iis.net/go/1626](../../../downloads/microsoft/iis-manager.md)  
- 64 bit (x64) -     [https://www.iis.net/go/1633](../../../downloads/microsoft/iis-manager.md)  
+ 32 bit (x86) -     [https://www.iis.net/go/1626](https://www.iis.net/downloads/microsoft/iis-manager)  
+ 64 bit (x64) -     [https://www.iis.net/go/1633](https://www.iis.net/downloads/microsoft/iis-manager)  
  If you are running the 64 bit version of Windows Vista, ensure that you download the 64 bit installer. The 32 bit installer will not work on 64 bit Windows Vista.
 3. After downloading the installer, simply double click on it to run it.   
     [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image2.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image1.jpg)
@@ -104,8 +104,8 @@ The following prerequisites must be fulfilled in order to install Remote Manager
 
 1. Ensure that you meet the installation requirements for Windows XP and Windows Server 2003 as discussed earlier.
 2. Download the Remote Manager installer from:   
- 32 bit (x86) -     [https://www.iis.net/go/1626](../../../downloads/microsoft/iis-manager.md)  
- 64 bit (x64) -     [https://www.iis.net/go/1633](../../../downloads/microsoft/iis-manager.md) .
+ 32 bit (x86) -     [https://www.iis.net/go/1626](https://www.iis.net/downloads/microsoft/iis-manager)  
+ 64 bit (x64) -     [https://www.iis.net/go/1633](https://www.iis.net/downloads/microsoft/iis-manager) .
 3. After downloading the installer, double click it to run.   
     [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image23.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image22.jpg)
 4. Click **Next** to display the License agreement page.

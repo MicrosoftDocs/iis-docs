@@ -40,7 +40,7 @@ To learn more about the FastCGI protocol, see [http://www.fastcgi.com/devkit/doc
 
 You can download the FastCGI extension for 32-bit and 64-bit Windows XP and Windows Server 2003 here:
 
-[https://www.iis.net/extensions/fastcgi](../../../downloads/microsoft/fastcgi-for-iis.md)
+[https://www.iis.net/extensions/fastcgi](https://www.iis.net/downloads/microsoft/fastcgi-for-iis)
 
 When you run the FastCGI installer, it copies FastCGI-specific files to the "%*windir*%\system32\inetsrv" folder, and then registers and enables the FastCGI Web server extension. Of the files that the installer copies, note the following:
 

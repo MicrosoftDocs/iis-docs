@@ -79,7 +79,7 @@ Using the Web Deploy Installer, Web Deploy can be installed on Windows 2012 Serv
 
 To install Web Deploy from the .msi file:
 
-1. Go to the [Web Deploy](../../../downloads/microsoft/web-deploy.md) download page.
+1. Go to the [Web Deploy](https://www.iis.net/downloads/microsoft/web-deploy) download page.
 2. On the Web Deploy download page, move to the **Download Web Deploy** section, and for the language you want, select **x86** or **x64**.
 3. Run the Web Deploy .msi, and move through the installer wizard, selecting the features that you want in the Custom Setup page.[![](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image8.jpg)](installing-and-configuring-web-deploy-on-iis-80-or-later/_static/image7.jpg)
 

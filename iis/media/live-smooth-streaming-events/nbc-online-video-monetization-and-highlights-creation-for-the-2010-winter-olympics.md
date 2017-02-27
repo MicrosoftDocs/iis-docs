@@ -149,7 +149,7 @@ Figure 4. The RCE user interface.
 
 ### How the Player Ingests Composite Manifests
 
-One part of the [Silverlight Media Framework](http://smf.codeplex.com/) is the [IIS Smooth Streaming Client](../../../downloads/microsoft/smooth-streaming.md), which includes the [SmoothStreamingMediaElement](https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement(v=VS.90).aspx) (SSME). This control is the core client-side component for making Smooth Streaming work in Silverlight, and it includes support for a manifest format called the Composite Manifest.
+One part of the [Silverlight Media Framework](http://smf.codeplex.com/) is the [IIS Smooth Streaming Client](https://www.iis.net/downloads/microsoft/smooth-streaming), which includes the [SmoothStreamingMediaElement](https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement(v=VS.90).aspx) (SSME). This control is the core client-side component for making Smooth Streaming work in Silverlight, and it includes support for a manifest format called the Composite Manifest.
 
 #### Composite Manifest for Clip Creation
 

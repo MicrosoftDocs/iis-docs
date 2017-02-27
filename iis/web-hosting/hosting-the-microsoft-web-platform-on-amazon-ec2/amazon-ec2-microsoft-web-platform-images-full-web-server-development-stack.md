@@ -127,7 +127,7 @@ Once the password is decrypted write it down or copy it to the clipboard and clo
 
 Let's now switch to Visual Studio 2010. If you don't have your copy yet you can download the Express Edition from [https://www.microsoft.com/visualstudio](https://www.microsoft.com/visualstudio).
 
-Visual Studio 2010 offers a completely new one-click deployment model for web applications based on the [Microsoft Web Deployment Tool](../../../downloads/microsoft/web-deploy.md "Web Deployment Tool"). We will take advantage of the Web Deployment Tool to deploy the web application we are about to create to our live EC2 server. Let's go!
+Visual Studio 2010 offers a completely new one-click deployment model for web applications based on the [Microsoft Web Deployment Tool](https://www.iis.net/downloads/microsoft/web-deploy "Web Deployment Tool"). We will take advantage of the Web Deployment Tool to deploy the web application we are about to create to our live EC2 server. Let's go!
 
 ### Creating a Web Application Project in Visual Studio 2010
 

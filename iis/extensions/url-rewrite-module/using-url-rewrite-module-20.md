@@ -48,7 +48,7 @@ URL Rewrite 2.0 includes the following key features:
 
 ## Installing the module
 
-Download the URL Rewrite 2.0 by using the links at the module's home page at [https://www.iis.net/extensions/urlrewrite](../../../downloads/microsoft/url-rewrite.md)
+Download the URL Rewrite 2.0 by using the links at the module's home page at [https://www.iis.net/extensions/urlrewrite](https://www.iis.net/downloads/microsoft/url-rewrite)
 
 > [!NOTE]
 >  

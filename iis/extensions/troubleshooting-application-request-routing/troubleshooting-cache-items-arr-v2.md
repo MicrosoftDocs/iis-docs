@@ -178,7 +178,7 @@ Arr will log events to the Application event log when disk failures occur and ma
 - [ARR Helper](https://blogs.iis.net/anilr/archive/2009/03/03/client-ip-not-logged-on-content-server-when-using-arr.aspx)
 - [Reasons content is not cached by HTTP.sys in kernel](https://support.microsoft.com/kb/817445)
 - [Network Monitor](https://support.microsoft.com/kb/933741)
-- [IIS Advance Logging](../../../downloads/microsoft/advanced-logging.md)
+- [IIS Advance Logging](https://www.iis.net/downloads/microsoft/advanced-logging)
   
   
 [Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

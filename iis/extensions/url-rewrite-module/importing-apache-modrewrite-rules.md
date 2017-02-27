@@ -18,7 +18,7 @@ by Ruslan Yakushev
 
 ## Introduction
 
-The URL Rewrite Module in IIS 7 and above provides an import feature that greatly simplifies the process of converting Apache mod\_rewrite rules to IIS URL rewrite rules. In this walkthrough, you use the Import Rules feature provided in the URL Rewrite Module to import several mod\_rewrite rules into an IIS configuration file. If you have not yet downloaded the URL Rewrite Module, you can do so at [https://www.iis.net/download/urlrewrite](../../../downloads/microsoft/url-rewrite.md).
+The URL Rewrite Module in IIS 7 and above provides an import feature that greatly simplifies the process of converting Apache mod\_rewrite rules to IIS URL rewrite rules. In this walkthrough, you use the Import Rules feature provided in the URL Rewrite Module to import several mod\_rewrite rules into an IIS configuration file. If you have not yet downloaded the URL Rewrite Module, you can do so at [https://www.iis.net/download/urlrewrite](https://www.iis.net/downloads/microsoft/url-rewrite).
 
 ## Set Up a Walkthrough Scenario
 

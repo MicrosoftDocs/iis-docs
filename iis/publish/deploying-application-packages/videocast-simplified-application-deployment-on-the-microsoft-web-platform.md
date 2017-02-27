@@ -31,8 +31,8 @@ Mai-lan Tomsen Bukovec has published a series of videos that target developers a
 
 ## Technologies discussed
 
-- [Web Deployment Tool](../../../downloads/microsoft/web-deploy.md)
+- [Web Deployment Tool](https://www.iis.net/downloads/microsoft/web-deploy)
 - [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx)
 - [Web Application Gallery](https://www.microsoft.com/web/gallery)
 
-These videos were encoded and are published using [IIS Smooth Streaming](../../../downloads/microsoft/smooth-streaming.md).
+These videos were encoded and are published using [IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming).

@@ -72,7 +72,7 @@ WebDAV stands for Web Distributed Authoring and Versioning, and it is an open-st
 
 ## Migrating Sites from FPSE to WebDAV
 
-When migrating an FPSE web site to WebDAV, there are several folders that must be secured from normal HTTP access. A detailed examination of all of the files and folders in an FPSE-based web site is available in the [Upgrade issues with FrontPage Server Extensions](../../../downloads/community.md) white paper on the Microsoft IIS.NET web site. We examine several of the relevant FPSE folders in order to create request filtering rules later.
+When migrating an FPSE web site to WebDAV, there are several folders that must be secured from normal HTTP access. A detailed examination of all of the files and folders in an FPSE-based web site is available in the [Upgrade issues with FrontPage Server Extensions](https://www.iis.net/downloads/community) white paper on the Microsoft IIS.NET web site. We examine several of the relevant FPSE folders in order to create request filtering rules later.
 
 > | Folder | Notes |
 > | --- | --- |

@@ -25,7 +25,7 @@ This topic is a guiding map for the information needed by hosters to:
 
 Microsoft Application Request Routing (ARR) 2.0 is a proxy-based routing module that forwards HTTP requests to content servers based on HTTP headers and server variables, and load balance algorithms. A key feature of ARR is called "host name affinity," which is designed specifically for shared hosters. It affinitizes (creates an affinity) the requests to a given number of servers behind the ARR server regardless of whether they are made from one client or multiple clients, ensuring that a given site is consuming resources only on a defined number of servers. This feature allows hosters to define new business models where customers can pay for a specific number of servers as their needs change over time.
 
-Continue to [download](../../../downloads/microsoft/application-request-routing.md) ARR 2.0.
+Continue to [download](https://www.iis.net/downloads/microsoft/application-request-routing) ARR 2.0.
 
 ## Learn about ARR 2.0
 

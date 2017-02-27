@@ -22,7 +22,7 @@ LimeSurvey is a fully functional online survey development and data entry system
 
 For more information about LimeSurvey, see [https://www.limesurvey.org/](http://www.limesurvey.org/).  
    
- In this section, we go through the steps required to install LimeSurvey to work with FastCGI extension on IIS 7.0 and above. To find out more about FastCGI support in IIS, see [https://www.iis.net/fastcgi](../../../downloads/microsoft/fastcgi-for-iis.md).
+ In this section, we go through the steps required to install LimeSurvey to work with FastCGI extension on IIS 7.0 and above. To find out more about FastCGI support in IIS, see [https://www.iis.net/fastcgi](https://www.iis.net/downloads/microsoft/fastcgi-for-iis).
 
 The following steps assume that you have completed the setup and configuration of FastCGI extension and PHP libraries as described in [this article](using-fastcgi-to-host-php-applications-on-iis-60.md).
 

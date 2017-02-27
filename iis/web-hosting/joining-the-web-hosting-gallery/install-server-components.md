@@ -98,29 +98,29 @@ Here is the full list of which components are installed by those links, so you c
 
 #### IIS Modules
 
-- [Required] [Microsoft Web Deploy](../../../downloads/microsoft/web-deploy.md "Web Deploy") 2.0
+- [Required] [Microsoft Web Deploy](https://www.iis.net/downloads/microsoft/web-deploy "Web Deploy") 2.0
 
     - Web Deploy is a client-server tool that simplifies the deployment of sites and applications to IIS servers. While WebMatrix supports web application publishing using both FTP and Web Deploy protocols, the latter providers a faster, more secure, and richer experience. It also lets the user deploy whole apps, including databases, ensuring they work both locally and remotely. It is the highlight of the WebMatrix publishing story.
-- [Required] [FTP Publishing Service](../../../downloads/microsoft/ftp.md "FTP Publishing Service")
+- [Required] [FTP Publishing Service](https://www.iis.net/downloads/microsoft/ftp "FTP Publishing Service")
 
     - To ensure the option of FTP exists for maximum compatibility
 - [Optional] [Media Services](../../../overview/choice/integratedmediaplatform.md "Media Services") 4.0
 
     - For IIS Smooth Streaming support
-- [Required] [IIS Remote Management](../../../downloads/microsoft/iis-manager.md "IIS Manager for Remote Administration") Service
+- [Required] [IIS Remote Management](https://www.iis.net/downloads/microsoft/iis-manager "IIS Manager for Remote Administration") Service
 
     - To allow your users to manage aspects of their accounts using the IIS console
     - Also a dependency for Web Deploy to function properly
-- [Required] [FastCGI for IIS](../../../downloads/microsoft/fastcgi-for-iis.md "FastCGI for IIS")
+- [Required] [FastCGI for IIS](https://www.iis.net/downloads/microsoft/fastcgi-for-iis "FastCGI for IIS")
 
     - Provides a much faster CGI implementation than the default
-- [Required] [URL Rewrite 2.0](../../../downloads/microsoft/url-rewrite.md "URL Rewrite")
+- [Required] [URL Rewrite 2.0](https://www.iis.net/downloads/microsoft/url-rewrite "URL Rewrite")
 
     - A dependency for many applications to function correctly
 - [Required] [SQL Server 2008 Management Objects](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=ceb4346f-657f-4d28-83f5-aae0c5c83d52 "SQL Server 2008 R2 feature pack")
 
     - A dependency for many applications to function correctly
-- [Optional] [Windows Cache Extension 1.1 for PHP](../../../downloads/microsoft/wincache-extension.md "Windows Cache Extension for PHP")
+- [Optional] [Windows Cache Extension 1.1 for PHP](https://www.iis.net/downloads/microsoft/wincache-extension "Windows Cache Extension for PHP")
 
     - Highly recommended when running PHP on Windows
 - [Optional] [MySQL Connector/Net](http://dev.mysql.com/downloads/connector/net/ "MySQL Connector/NET") 6.2.3 or higher

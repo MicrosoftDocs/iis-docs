@@ -239,7 +239,7 @@ When FTP clients connect to your FTP site, the FTP service will attempt to authe
 > [!NOTE]
 > This sample provider implements the authentication logic for the FTP service, but does not provide an admin module to manage the data in the database. For example, you cannot manage the list of FTP user accounts, banned IP addresses, or authentication failures using this provider. To manage the data using IIS Manager, you can use the IIS Database Manager. For more information, see the following topic:
 
-> [https://www.iis.net/extensions/DatabaseManager](../../../downloads/microsoft/database-manager.md)
+> [https://www.iis.net/extensions/DatabaseManager](https://www.iis.net/downloads/microsoft/database-manager)
 
 
 <a id="05"></a>

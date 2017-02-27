@@ -37,7 +37,7 @@ You can use the Web Platform Installer (Web PI) to install the Dynamic IP Restri
 
 ### Getting Dynamic IP Restrictions
 
-[Dynamic IP Restrictions download page](../../../downloads/microsoft/dynamic-ip-restrictions.md)   
+[Dynamic IP Restrictions download page](https://www.iis.net/downloads/microsoft/dynamic-ip-restrictions)   
   
 
 ### Prerequisites

@@ -87,7 +87,7 @@ Once the permissions have been specified, browse to [http://localhost/Mambo/inde
 
 When hosting Mambo on IIS 7.0 is is possible to configure it to enable search engine friendly URLs. To do that follow these steps:
 
-1. Install [Microsoft URL Rewrite Module for IIS 7.0](../../../downloads/microsoft/url-rewrite.md "URL rewrite module")
+1. Install [Microsoft URL Rewrite Module for IIS 7.0](https://www.iis.net/downloads/microsoft/url-rewrite "URL rewrite module")
 2. Open configuration.php file in the folder where Mambo is installed and set $mosConfig\_sef= "1"
 3. Create a web.config file in the same folder where Mambo is installed and paste into it the following:  
 

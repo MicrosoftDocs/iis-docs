@@ -16,7 +16,7 @@ Edge Caching for Media Delivery
 ====================
 by Chris Knowlton
 
-One of the advantages to using [IIS Media Services](/media "IIS Media Services") is how well it integrates with the rest of the IIS Web platform. Edge caching using [Application Request Routing](../../../downloads/microsoft/application-request-routing.md "Application Request Routing") is a great example of how the robust capabilities of IIS allow you to increase scalability, save money, and improve end user experiences when delivering audio and video.
+One of the advantages to using [IIS Media Services](/media "IIS Media Services") is how well it integrates with the rest of the IIS Web platform. Edge caching using [Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing "Application Request Routing") is a great example of how the robust capabilities of IIS allow you to increase scalability, save money, and improve end user experiences when delivering audio and video.
 
 ## Edge Caching
 
@@ -62,7 +62,7 @@ ARR and IIS Media Services provide a compelling Edge Caching solution that will 
 
 - [IIS Media Services](/media)
 - [Integrated Media Platform](../../../overview/choice/integratedmediaplatform.md)
-- [Application Request Routing](../../../downloads/microsoft/application-request-routing.md "Application Request Routing")
+- [Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing "Application Request Routing")
 - [Application Request Routing Version 2](../../extensions/planning-for-arr/application-request-routing-version-2-overview.md)
 - [Configure and enable disk cache in Application Request Routing](../../extensions/configuring-application-request-routing-arr/configure-and-enable-disk-cache-in-application-request-routing.md)
 

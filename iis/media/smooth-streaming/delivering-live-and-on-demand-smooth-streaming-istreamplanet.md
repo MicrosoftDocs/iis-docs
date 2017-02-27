@@ -16,7 +16,7 @@ Delivering Live and On-Demand Smooth Streaming (iStreamPlanet)
 ====================
 by iStreamPlanet
 
-[IIS Smooth Streaming](../../../downloads/microsoft/smooth-streaming.md) has been used for many high-visibility online video events. [Delivering Live and On-Demand Smooth Streaming](https://download.microsoft.com/download/4/E/5/4E599FBB-6E34-4A74-B3C5-1391CB0FD55F/Delivering_Live_and_On-Demand_Smooth_Streaming.pdf "Delivering Live and On-Demand Smooth Streaming") is a white paper, written by [iStreamPlanet](http://istreamplanet.com/), which provides an inside look at the infrastructure, tools, and workflow used to deliver some of these events.
+[IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming) has been used for many high-visibility online video events. [Delivering Live and On-Demand Smooth Streaming](https://download.microsoft.com/download/4/E/5/4E599FBB-6E34-4A74-B3C5-1391CB0FD55F/Delivering_Live_and_On-Demand_Smooth_Streaming.pdf "Delivering Live and On-Demand Smooth Streaming") is a white paper, written by [iStreamPlanet](http://istreamplanet.com/), which provides an inside look at the infrastructure, tools, and workflow used to deliver some of these events.
 
 Abstract:
 

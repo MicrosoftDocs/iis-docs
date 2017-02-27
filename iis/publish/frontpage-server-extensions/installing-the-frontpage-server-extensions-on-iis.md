@@ -22,8 +22,8 @@ by [Robert McMurray](https://github.com/rmcmurray)
 
 Windows Vista, Windows 7, Windows Server 2008 RTM, and Windows Server 2008 R2 do not provide built-in options to install the FrontPage Server Extensions (FPSE). Microsoft realizes that the FrontPage Server Extensions are essential to many Web hosting companies and developers, and has worked with Ready-to-Run Software, Inc., to release versions of the FrontPage 2002 Server Extensions (FPSE 2002) for IIS 7 and above. These versions of FPSE 2002 are available for x86 (32-bit) and x64 (64-bit) versions of Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2 as separate download packages, and you can download these versions of FPSE by clicking the following URLs:
 
-- [Microsoft FrontPage 2002 Server Extensions for IIS 7.0](../../../downloads/community/2011/07/frontpage-2002-server-extensions-for-iis-70-on-windows-server-2008-and-windows-vista.md)
-- [RTR FrontPage 2002 Server Extensions for IIS 7.5](../../../downloads/community/2011/07/rtr-frontpage-server-extensions-for-iis-75-on-windows-server-2008-r2-and-windows-7.md)
+- [Microsoft FrontPage 2002 Server Extensions for IIS 7.0](https://www.iis.net/downloads/community/2011/07/frontpage-2002-server-extensions-for-iis-70-on-windows-server-2008-and-windows-vista)
+- [RTR FrontPage 2002 Server Extensions for IIS 7.5](https://www.iis.net/downloads/community/2011/07/rtr-frontpage-server-extensions-for-iis-75-on-windows-server-2008-r2-and-windows-7)
 
 ### In This Walkthrough
 
@@ -130,7 +130,7 @@ The following role services and features are required to install the FrontPage 2
 
 To install the FrontPage 2002 Server Extensions (FPSE 2002) on Windows Vista or Windows Server 2008 RTM, begin by downloading the installation package from the following URL:
 
-- [Microsoft FrontPage 2002 Server Extensions for IIS 7.0](../../../downloads/community/2011/07/frontpage-2002-server-extensions-for-iis-70-on-windows-server-2008-and-windows-vista.md)
+- [Microsoft FrontPage 2002 Server Extensions for IIS 7.0](https://www.iis.net/downloads/community/2011/07/frontpage-2002-server-extensions-for-iis-70-on-windows-server-2008-and-windows-vista)
 
 > [!NOTE]
 > This version of the FrontPage Server Extensions is only supported on Windows Server 2008 and Windows Vista.
@@ -139,7 +139,7 @@ To install the FrontPage 2002 Server Extensions (FPSE 2002) on Windows Vista or 
 
 To install the FrontPage 2002 Server Extensions (FPSE 2002) on Windows 7 or Windows Server 2008 R2, begin by downloading the installation package from the following URL:
 
-- [RTR FrontPage 2002 Server Extensions for IIS 7.5](../../../downloads/community/2011/07/rtr-frontpage-server-extensions-for-iis-75-on-windows-server-2008-r2-and-windows-7.md)
+- [RTR FrontPage 2002 Server Extensions for IIS 7.5](https://www.iis.net/downloads/community/2011/07/rtr-frontpage-server-extensions-for-iis-75-on-windows-server-2008-r2-and-windows-7)
 
 > [!NOTE]
 > This version of the FrontPage Server Extensions is only supported on Windows Server 2008 R2 and Windows 7.

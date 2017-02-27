@@ -140,6 +140,6 @@ After the rewrite rule is saved to the Web.config file, open a Web browser, and 
 
 [Creating rewrite rules for the URL Rewrite Module](../../extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module.md).
 
-[Videocast about URL rewriting functionality](../../../downloads/microsoft/url-rewrite.md).
+[Videocast about URL rewriting functionality](https://www.iis.net/downloads/microsoft/url-rewrite).
 
 [URL Rewrite Module 1.1 configuration](../../extensions/url-rewrite-module/url-rewrite-module-configuration-reference.md).

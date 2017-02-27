@@ -84,7 +84,7 @@ To test your Web Deploy installation, use it to update your website.
 
 ### To install Web Deploy for your farm
 
-1. Open a browser to the [Web Deployment Tool](../../../downloads/microsoft/web-deploy.md) website, and click the **Install** button.
+1. Open a browser to the [Web Deployment Tool](https://www.iis.net/downloads/microsoft/web-deploy) website, and click the **Install** button.
 2. Click **Allow**, and then click **Yes**.
 3. In the **Web Platform Installer** window, click **Install**.
 4. Look over the components to be installed, and then click **I Accept**. When the installer completes the installation, it displays and summary showing what was installed.

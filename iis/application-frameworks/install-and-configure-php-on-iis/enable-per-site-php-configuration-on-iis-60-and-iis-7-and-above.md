@@ -196,7 +196,7 @@ Note also that when you enable the user-defined INI files, the settings in those
 
 [PHP Community Forum](https://forums.iis.net/1102.aspx).
 
-[IIS Administration Pack](../../../downloads/microsoft/administration-pack.md).
+[IIS Administration Pack](https://www.iis.net/downloads/microsoft/administration-pack).
   
   
 [Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

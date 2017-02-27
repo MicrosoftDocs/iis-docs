@@ -38,8 +38,8 @@ When UrlScan denies a request it will log the action and the reason for the deni
 
 To download and install UrlScan 3.1, click on the appropriate download link for your environment:
 
-- Download the x86 version from [Microsoft Download Center](../../../downloads/microsoft/urlscan.md).
-- Download the x64 version from [Microsoft Download Center](../../../downloads/microsoft/urlscan.md).
+- Download the x86 version from [Microsoft Download Center](https://www.iis.net/downloads/microsoft/urlscan).
+- Download the x64 version from [Microsoft Download Center](https://www.iis.net/downloads/microsoft/urlscan).
 
 UrlScan 3.1 works with the following IIS versions:
 

@@ -16,7 +16,7 @@ Delivering Transform Manager Output to Clients
 ====================
 by Dave Nelson
 
-If you want to serve the transformed on-demand output from [IIS Transform Manager 1.0](../../../downloads/microsoft/transform-manager.md) to clients, you must move or copy the transformed output files to a server that's running the [IIS Smooth Streaming](../../../downloads/microsoft/smooth-streaming.md) feature in IIS Media Services 4. The Smooth Streaming feature enables a handler that processes requests for on-demand Smooth Streaming presentation manifest files (files with .ism file name extensions), which are present in the Smooth Streaming and Apple HTTP Live Streaming presentations that are created by Transform Manager.
+If you want to serve the transformed on-demand output from [IIS Transform Manager 1.0](https://www.iis.net/downloads/microsoft/transform-manager) to clients, you must move or copy the transformed output files to a server that's running the [IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming) feature in IIS Media Services 4. The Smooth Streaming feature enables a handler that processes requests for on-demand Smooth Streaming presentation manifest files (files with .ism file name extensions), which are present in the Smooth Streaming and Apple HTTP Live Streaming presentations that are created by Transform Manager.
 
 This article describes how to deliver Transform Manager output to clients.
 

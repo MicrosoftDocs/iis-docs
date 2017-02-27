@@ -22,7 +22,7 @@ by Shaun Eagan
 | Version | Notes |
 | --- | --- |
 | IIS 8.0 | Application Initialization was built-in for IIS 8.0. |
-| IIS 7.5 | Application Initialization was released as an [out-of-band module for IIS 7.5](../../../downloads/microsoft/application-initialization.md). |
+| IIS 7.5 | Application Initialization was released as an [out-of-band module for IIS 7.5](https://www.iis.net/downloads/microsoft/application-initialization). |
 | IIS 7.0 | Application Initialization was not supported for IIS 7.0. |
 
 
@@ -330,7 +330,7 @@ After unzipping the "appinit" sample onto the file system, you need to configure
 
 ### Install the Url Rewrite Module
 
-The sample application makes use of the Url Rewrite module for advanced integration with the Application Initialization feature. You need to install the Url Rewrite module on your server; it can be downloaded from: [https://www.iis.net/download/URLRewrite](../../../downloads/microsoft/url-rewrite.md)
+The sample application makes use of the Url Rewrite module for advanced integration with the Application Initialization feature. You need to install the Url Rewrite module on your server; it can be downloaded from: [https://www.iis.net/download/URLRewrite](https://www.iis.net/downloads/microsoft/url-rewrite)
 
 <a id="TOC301259914"></a>
 

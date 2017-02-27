@@ -98,7 +98,7 @@ The default permalinks in b2evolution look something like:
 When hosting b2evolution on IIS you can change this structure to the one that does not use query string. In the blog administration console go to the Blog Settings &gt; URLs tab, where you can choose different link formats; for example:  
 `http://www.yoursite.com/blogs/2003/05/20/post_title`
 
-In order for this permalink structure to work you need to instal [Microsoft URL rewrite module for IIS 7.0](../../../downloads/microsoft/url-rewrite.md "URL rewrite module"). Once it is installed, create a web.config file in the same folder where b2evolution php scripts are and then paste the following into it:
+In order for this permalink structure to work you need to instal [Microsoft URL rewrite module for IIS 7.0](https://www.iis.net/downloads/microsoft/url-rewrite "URL rewrite module"). Once it is installed, create a web.config file in the same folder where b2evolution php scripts are and then paste the following into it:
 
 
 [!code-xml[Main](b2evolution-on-iis/samples/sample1.xml)]

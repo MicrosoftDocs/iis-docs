@@ -84,7 +84,7 @@ There are no known bugs for this feature at this time.
     1. **Limit**: 30000 (30% in 1000th of a percent)
     2. **LimitAction**: Throttle  
         ![](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image11.png)
-7. That's it. Using a load generating tool, send requests to the Default Web Site. A tool such as WCAT can be used ([https://www.iis.net/community/default.aspx?tabid=34&amp;g=6&amp;i=1467](../../../downloads/community.md)) to generate traffic.
+7. That's it. Using a load generating tool, send requests to the Default Web Site. A tool such as WCAT can be used ([https://www.iis.net/community/default.aspx?tabid=34&amp;g=6&amp;i=1467](https://www.iis.net/downloads/community)) to generate traffic.
 8. Note that the configuration settings in question can be set as default values so that they don't have to be configured individually per application pool. To configure the application pool defaults, select **Set Application Pool Defaults** under **Actions** pane:  
     ![](iis-80-cpu-throttling-sand-boxing-sites-and-applications/_static/image13.png)
 9. The same settings are exposed there to configure the application pool defaults:  
