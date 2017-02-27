@@ -18,7 +18,7 @@ by Mike Volodarsky
 
 ## Introduction
 
-ASP.NET 2.0 applications on IIS 7.0 and above are hosted using the ASP.NET Integrated mode by default. This new mode enables a myriad of exciting scenarios, including using valuable ASP.NET features such as Forms Authentication for your entire Web site, and developing new ASP.NET modules to do things such as URL rewriting, authorization, logging, and more at the IIS level. For more information about the ASP.NET Integration in IIS, see: [ASP.NET Integration with IIS7 and Above](../../../?i=928&amp;subtabid=25&amp;tabid=2.md).
+ASP.NET 2.0 applications on IIS 7.0 and above are hosted using the ASP.NET Integrated mode by default. This new mode enables a myriad of exciting scenarios, including using valuable ASP.NET features such as Forms Authentication for your entire Web site, and developing new ASP.NET modules to do things such as URL rewriting, authorization, logging, and more at the IIS level. For more information about the ASP.NET Integration in IIS, see: [ASP.NET Integration with IIS7 and Above](aspnet-integration-with-iis.md).
 
 While making ASP.NET applications more powerful in IIS 7.0 and above, we also worked diligently to ensure that existing ASP.NET applications continue to work when migrated to this new platform. This was a major challenge for us as we re-architected the entire core engine of ASP.NET, and in the end we were highly successful in meeting it. As a result, most ASP.NET applications should work without change.
 
@@ -26,7 +26,7 @@ This article lists the changes in behavior that you may encounter when deploying
 
 ## Using Classic ASP.NET mode
 
-IIS 7.0 and above also offers the ability to run ASP.NET applications using the legacy Classic ASP.NET Integration mode, which works the same way as ASP.NET has worked on previous versions of IIS. However, we strongly recommend that you use a workaround where available to change your application to work in Integrated mode instead. Moving to Classic mode will make your application unable to take advantage of ASP.NET improvements made possible in Integrated mode, leveraging future features from both Microsoft and third parties that may require the Integrated mode. Use Classic mode as a last resort if you cannot apply the specified workaround. For more information about moving to Classic mode, see: [Changing the ASP.NET integration mode](../../../?i=928&amp;subtabid=25&amp;tabid=2&amp;p=2.md#changemode).
+IIS 7.0 and above also offers the ability to run ASP.NET applications using the legacy Classic ASP.NET Integration mode, which works the same way as ASP.NET has worked on previous versions of IIS. However, we strongly recommend that you use a workaround where available to change your application to work in Integrated mode instead. Moving to Classic mode will make your application unable to take advantage of ASP.NET improvements made possible in Integrated mode, leveraging future features from both Microsoft and third parties that may require the Integrated mode. Use Classic mode as a last resort if you cannot apply the specified workaround. For more information about moving to Classic mode, see: [Changing the ASP.NET integration mode](aspnet-integration-with-iis.md#changemode).
 
 Below, I discuss some of the breaking changes in detail. Where available, I include links to blog posts that contain additional details and workaround information. If you require more information on a particular problem, please post a question on the [IIS.net forums](https://forums.iis.net/ "IIS.net Forums").
 

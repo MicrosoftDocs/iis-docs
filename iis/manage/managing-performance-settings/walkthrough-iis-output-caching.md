@@ -281,7 +281,7 @@ There are two significant differences between user mode and kernel mode output c
 
 Failed Request Event Buffering (FREB) is the best way to find out whether or not your request gets cached. FREB tells you why something does not get cached. Here is a sample of a FREB log. In this case, the HTTPSYS\_CACHEABLE event tells you that the request does not get cached because the kernel-mode cache is not enabled.
 
-For more detailed information on how to work with FREB, see [this IIS.NET article](../../../overview.md).
+For more detailed information on how to work with FREB, see [this IIS.NET article](../../troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis.md).
 
 Use the following command to find out which content is cached in kernel mode:
 

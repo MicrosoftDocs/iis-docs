@@ -145,7 +145,7 @@ IIS Modules
 
 - [Required] [Microsoft Web Deploy](https://www.iis.net/downloads/microsoft/web-deploy). Web Deploy is a client-server tool that simplifies the deployment of sites and applications to IIS servers. While WebMatrix supports web application publishing using both FTP and Web Deploy protocols, the latter providers a faster, more secure, and richer experience. It also lets the user deploy whole apps, including databases, ensuring they work both locally and remotely. It is the highlight of the WebMatrix publishing story.
 - [Required] [FTP Publishing Service](https://www.iis.net/downloads/microsoft/ftp). To ensure the option of FTP exists for maximum compatibility
-- [Optional] [Media Services](../../../overview/choice/integratedmediaplatform.md). For IIS Smooth Streaming support
+- [Optional] [Media Services](https://www.iis.net/overview/choice/integratedmediaplatform). For IIS Smooth Streaming support
 - [Required] [IIS Remote Management Service](https://www.iis.net/downloads/microsoft/iis-manager). To allow your users to manage aspects of their accounts using the IIS console. Also a dependency for Web Deploy to function properly
 - [Required] [FastCGI for IIS](https://www.iis.net/downloads/microsoft/fastcgi-for-iis). Provides a much faster CGI implementation than the default
 - [Required] [URL Rewrite](https://www.iis.net/downloads/microsoft/url-rewrite). A dependency for many applications to function correctly

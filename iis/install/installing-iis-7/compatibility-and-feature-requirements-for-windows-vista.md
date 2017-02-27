@@ -53,7 +53,7 @@ The default installation for IIS 7.0 and above have changed significantly. Autom
 
 IIS is not installed on Windows Vista by default. The default installation of IIS 7.0 and above provides a minimum-footprint Web server that supports Anonymous authentication and serves static files. Additional features and functionality, such as those that add support for Web development, for example, can explicitly be selected during setup.
 
-For more information about installing IIS on Windows Vista, see [Install IIS 7.0 and Above on Windows Vista](installing-iis-on-windows-vista-and-windows-7.md) at IIS.NET. For a complete list of features for each addition of Windows Vista, see the [IIS 7.0 and Above Features and Vista Editions](../../../overview.md) article on IIS.net.
+For more information about installing IIS on Windows Vista, see [Install IIS 7.0 and Above on Windows Vista](installing-iis-on-windows-vista-and-windows-7.md) at IIS.NET. For a complete list of features for each addition of Windows Vista, see the [IIS 7.0 and Above Features and Vista Editions](iis-features-and-vista-editions.md) article on IIS.net.
 
 ### Automated Installation of IIS
 
@@ -128,7 +128,7 @@ By default, IIS 7.0 and above uses an implementation of URL Authorization that a
 
 At this time, FrontPage Server Extensions (FPSE) are not supported on Windows Vista. If you use FPSE to upload files to a Web server, consider using FTP with IIS 7.0 or above.
 
-If you do upgrade from Microsoft Windows XP® to Windows Vista, and you already have FPSE installed, IIS 7.0 and above disables the World Wide Web Publishing Service (W3SVC). For more information, see [Upgrading Microsoft Windows XP to Windows Vista](../../../overview.md) later in this document.
+If you do upgrade from Microsoft Windows XP® to Windows Vista, and you already have FPSE installed, IIS 7.0 and above disables the World Wide Web Publishing Service (W3SVC). For more information, see [Upgrading Microsoft Windows XP to Windows Vista](../../manage/configuring-security/using-encryption-to-protect-passwords.md) later in this document.
 
 ## WebDAV Not Supported
 

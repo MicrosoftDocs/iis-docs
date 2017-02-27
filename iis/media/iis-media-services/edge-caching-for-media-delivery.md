@@ -61,7 +61,7 @@ ARR and IIS Media Services provide a compelling Edge Caching solution that will 
 ## Related Content
 
 - [IIS Media Services](https://www.iis.net/media)
-- [Integrated Media Platform](../../../overview/choice/integratedmediaplatform.md)
+- [Integrated Media Platform](https://www.iis.net/overview/choice/integratedmediaplatform)
 - [Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing "Application Request Routing")
 - [Application Request Routing Version 2](../../extensions/planning-for-arr/application-request-routing-version-2-overview.md)
 - [Configure and enable disk cache in Application Request Routing](../../extensions/configuring-application-request-routing-arr/configure-and-enable-disk-cache-in-application-request-routing.md)

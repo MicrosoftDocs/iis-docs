@@ -67,7 +67,7 @@ To do this, modify your configuration for anonymous authentication so it appears
 
 This configuration will tell IIS to run always under the context of the worker process identity.
 
-By default, the anonymous authentication identity in IIS 7.0 and above is the IUSR account. This account is a low privilege identity with minimal rights and privileges. To learn more about the new built-in account refer to the [Understanding the Built-in Account and Group in IIS 7 and Above](../../../overview.md) article.
+By default, the anonymous authentication identity in IIS 7.0 and above is the IUSR account. This account is a low privilege identity with minimal rights and privileges. To learn more about the new built-in account refer to the [Understanding the Built-in Account and Group in IIS 7 and Above](../planning-for-security/understanding-built-in-user-and-group-accounts-in-iis.md) article.
 
 ### Passport Changes
 

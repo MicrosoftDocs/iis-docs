@@ -143,7 +143,7 @@ To create a service for the rule template follow these steps:
 This code creates a rule for redirection to canonical domain.
 
 > [!TIP]
-> to quickly get the code for generating rewrite rules use the Configuration Editor for IIS 7.0 and above, which is included in [Administration Pack for IIS](https://www.iis.net/downloads?tabid=34&amp;i=1682&amp;g=6). Refer to [this article](http://ruslany.net/2008/07/scripting-url-rewrite-module-configuration/) for more information on how to generate code for creation of rewrite rules.
+> to quickly get the code for generating rewrite rules use the Configuration Editor for IIS 7.0 and above, which is included in [Administration Pack for IIS](https://www.iis.net/downloads?tabid=34&i=1682&g=6). Refer to [this article](http://ruslany.net/2008/07/scripting-url-rewrite-module-configuration/) for more information on how to generate code for creation of rewrite rules.
 
 
 ## Registering the rule template with IIS Manager

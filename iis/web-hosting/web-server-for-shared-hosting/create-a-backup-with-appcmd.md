@@ -24,4 +24,4 @@ After you install IIS 7.0, you can backup your configuration by using the built-
 
 2. At the command prompt, type *appcmd add backup "FirstBackup"* and then press **Enter**.
 
-This creates a backup with the name "FirstBackup". At a later date, if you need to restore the backup, use *appcmd restore backup "FirstBackup"*. For more information about AppCmd.exe, see [https://www.iis.net/default.aspx?tabid=2&amp;subtabid=25&amp;i=954](../../../overview.md)
+This creates a backup with the name "FirstBackup". At a later date, if you need to restore the backup, use *appcmd restore backup "FirstBackup"*. For more information about AppCmd.exe, see [https://www.iis.net/default.aspx?tabid=2&amp;subtabid=25&amp;i=954](../../get-started/getting-started-with-iis/getting-started-with-appcmdexe.md)

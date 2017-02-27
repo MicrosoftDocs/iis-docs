@@ -145,14 +145,14 @@ This now makes it easy for administrators to define rules and see what is happen
 **Start Learning**
 
 - [Security Changes in IIS 7.0 and Above](changes-in-security-between-iis-60-and-iis-7-and-above.md)
-- [Understanding the Built-In Anonymous Account and Groups in IIS 7.0 and Above](../../../overview.md)
-- [Using Encryption to Protect Passwords](../../../overview.md)
+- [Understanding the Built-In Anonymous Account and Groups in IIS 7.0 and Above](../planning-for-security/understanding-built-in-user-and-group-accounts-in-iis.md)
+- [Using Encryption to Protect Passwords](../../manage/configuring-security/using-encryption-to-protect-passwords.md)
 - [Understanding IIS 7.0 and Above URL Authorization](../../manage/configuring-security/understanding-iis-url-authorization.md)
 
 **Begin Using the IIS 7.0 and Above Security Features**
 
-- [How to Use Request Filtering](../../../overview.md)
-- [Delegating Administrative Tasks](../../../overview.md)
+- [How to Use Request Filtering](../../manage/configuring-security/use-request-filtering.md)
+- [Delegating Administrative Tasks](../../manage/managing-your-configuration-settings/an-overview-of-feature-delegation-in-iis.md)
 - [How to Setup SSL on IIS 7.0 and Above](../../manage/configuring-security/how-to-set-up-ssl-on-iis.md)
   
   

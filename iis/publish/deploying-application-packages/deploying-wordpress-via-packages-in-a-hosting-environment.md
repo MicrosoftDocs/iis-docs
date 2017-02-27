@@ -409,7 +409,7 @@ This table provides additional information about the products that are installed
 | ASP.NET Web Pages | The ASP.NET Web Forms page framework is a scalable common language runtime programming model that can be used on the server to dynamically generate Web pages. For more information, refer to the Microsoft .net Framework SDK link: [*Introduction to ASP.NET Pages*](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/pages/pages.aspx). |
 | Common Gateway Interface (CGI) | CGI is a standard for interfacing external programs with information servers on the Internet. For more information, refer to the link: [*CGI: Common Gateway Interface*](http://www.w3.org/CGI/). |
 | FTP Publishing Service | The FTP Publishing Service for IIS allows Web content creators to publish content more easily and securely to IIS Web servers using modern Internet publishing standards. For more information, refer to the link: [*FTP Publishing Service*](https://www.iis.net/downloads/microsoft/ftp). |
-| IIS 7 Web Server | Internet Information Services (IIS) for Windows Server is a flexible, secure and easy-to-manage Web server for hosting anything on the Web. For more information, refer to the link: [*IIS*](../../../overview.md). |
+| IIS 7 Web Server | Internet Information Services (IIS) for Windows Server is a flexible, secure and easy-to-manage Web server for hosting anything on the Web. For more information, refer to the link: [*IIS*](https://www.iis.net/overview). |
 | IIS Remote Management Service | Internet Information Services (IIS) Manager for Remote Administration provides end users and administrators with the ability to securely manage remote IIS servers from Windows 7, Windows Vista, Windows XP, and Windows Server 2003. For more information, refer to the link: [*IIS Manager for Remote Administration*](https://www.iis.net/downloads/microsoft/iis-manager). |
 | Media Services 3.0 | IIS Media Services, an integrated HTTP-based media delivery platform, delivers true HD (720p+) live and on-demand streaming, DVR functionality, and real-time analytics support to computers, TVs, and mobile devices. For more information, refer to the link: [*IIS Media Services*](https://www.iis.net/media). |
 | Microsoft Driver for PHP for SQL Server 2.0 in IIS | The Microsoft Drivers for PHP for SQL Server provide connectivity to Microsoft SQL Server from PHP applications. For more information, refer to the link: [*Microsoft Drivers for PHP for SQL Server*](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=80e44913-24b4-4113-8807-caae6cf2ca05&amp;displaylang=en). |
@@ -427,5 +427,5 @@ This table provides additional information about the products that are installed
 
 
 - [*Web Deployment Tool (MS Deploy) Forum*](https://forums.iis.net/1144.aspx)
-- [*PHP Manager for IIS 7 Community*](https://www.iis.net/downloads/community)
+- [*PHP Manager for IIS 7 Community*](https://www.iis.net/downloads/community/2010/09/php-manager-for-iis-7)
 - [*Configure and Optimize the Microsoft Web Platform for PHP Applications*](../../application-frameworks/install-and-configure-php-on-iis/index.md)

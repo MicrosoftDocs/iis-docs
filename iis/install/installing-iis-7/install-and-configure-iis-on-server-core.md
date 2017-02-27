@@ -238,7 +238,7 @@ For more information, see [IIS Manager for Remote Administration](https://www.ii
 
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample25.cmd)]
 
-4. Connect to the IIS on the Server Core from a remote machine by using [IIS Manager for Remote Administration](https://www.iis.net/downloads?tabid=34&amp;g=6&amp;i=1626 "IIS Remote Manager").
+4. Connect to the IIS on the Server Core from a remote machine by using [IIS Manager for Remote Administration](https://www.iis.net/downloads?tabid=34&g=6&i=1626 "IIS Remote Manager").
 
 To uninstall the Web Server (IIS) role, use the following command:
 

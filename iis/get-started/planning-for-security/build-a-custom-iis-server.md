@@ -50,7 +50,7 @@ The main server configuration is contained in the applicationHost.config file, l
 
 **&lt;handlers&gt;** section. This URL-level section contains the handler mappings that the server uses to map incoming requests to a particular module that will process it. This is similar to the IIS 6.0 scriptmaps or ASP.NET , and serves a unified mapping of requests to both native and managed content type handlers.
 
-The full description of all IIS modules is available in the [IIS 7.0 and Above Modules Overview.](../../../overview.md)
+The full description of all IIS modules is available in the [IIS 7.0 and Above Modules Overview.](../introduction-to-iis/iis-modules-overview.md)
 
 ### Create a Configuration Backup
 
@@ -85,7 +85,7 @@ Look through the names of the various modules in the default server configuratio
 Navigate to the &lt;system.webServer&gt;/&lt;modules&gt; section. This section, which can be configured at the server or application level, specifies which of the modules loaded in the &lt;globalModules&gt; section are enabled for a particular application. For the most part, we see that this section lists the names of the modules we saw in the section, enabling them by default for all applications.
 
 > [!NOTE]
-> There are a few extra items at the end of the list – these are managed modules developed using the ASP.NET extensibility model. Learn more about building managed modes in the [Develop a Module Using .NET](../../../overview.md) walkthrough.
+> There are a few extra items at the end of the list – these are managed modules developed using the ASP.NET extensibility model. Learn more about building managed modes in the [Develop a Module Using .NET](../../develop/runtime-extensibility/developing-a-module-using-net.md) walkthrough.
 
 Navigate to the &lt;system.webServer&gt;/&lt;handlers&gt; section. This section, which can be configured at the server, application, or URL-level, specifies how requests are handled. Modules typically participate in each and every request, whereas handlers only get requests for a particular URL.
 
@@ -321,4 +321,4 @@ Before using the server again, undo the changes to the server configuration perf
 
 See the following links for further information:
 
-- To learn more about the IIS Core Architecture, see [IIS 7.0 and Above Core Web Server section](../../manage/working-with-server-core/iis-70-on-server-core.md) on IIS.NET. - To learn more about IIS modules, see IIS[7.0 and Above Modules Overview.](../../../overview.md)- To learn more about building modules to extend or replace IIS functionality, see [Develop a Module Using .NET](../../../overview.md) and [Develop a Native (C/C++) Module](../../develop/runtime-extensibility/develop-a-native-cc-module-for-iis.md).
+- To learn more about the IIS Core Architecture, see [IIS 7.0 and Above Core Web Server section](../../manage/working-with-server-core/iis-70-on-server-core.md) on IIS.NET. - To learn more about IIS modules, see IIS[7.0 and Above Modules Overview.](../introduction-to-iis/iis-modules-overview.md)- To learn more about building modules to extend or replace IIS functionality, see [Develop a Module Using .NET](../../develop/runtime-extensibility/developing-a-module-using-net.md) and [Develop a Native (C/C++) Module](../../develop/runtime-extensibility/develop-a-native-cc-module-for-iis.md).

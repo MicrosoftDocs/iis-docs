@@ -36,8 +36,8 @@ Since the IIS Database Manager module uses HTTP/S for all its communication with
 
 To install the current version (CTP2) of Database Manager, go to:
 
-- (x86) [https://www.iis.net/downloads/default.aspx?tabid=34&amp;i=1684&amp;g=6](https://www.iis.net/downloads?tabid=34&amp;i=1684&amp;g=6)
-- (x64) [https://www.iis.net/downloads/default.aspx?tabid=34&amp;i=1685&amp;g=6](https://www.iis.net/downloads?tabid=34&amp;i=1685&amp;g=6)
+- (x86) [https://www.iis.net/downloads/default.aspx?tabid=34&amp;i=1684&amp;g=6](https://www.iis.net/downloads?tabid=34&i=1684&g=6)
+- (x64) [https://www.iis.net/downloads/default.aspx?tabid=34&amp;i=1685&amp;g=6](https://www.iis.net/downloads?tabid=34&i=1685&g=6)
 
 You should make sure that the image you plan to use for your Web server installation contains IIS Database Manager.
 
