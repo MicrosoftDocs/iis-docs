@@ -272,7 +272,7 @@ For example, you can create a new application pool from the PowerShell Provider.
 [!code-unknown[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample-127399-6.unknown)]
 
 
-For more information, see the article "[Managing IIS with the IIS 7.0 and Above PowerShell Snap-in](../../manage/powershell.md)."
+For more information, see the article "[Managing IIS with the IIS 7.0 and Above PowerShell Snap-in](../../manage/powershell/index.md)."
 
 ## Extend IIS 7 and Above
 

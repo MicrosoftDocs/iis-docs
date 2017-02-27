@@ -256,7 +256,7 @@ This document outlined the design and architecture of the IIS configuration syst
 
 The document also covered the organization of settings within configuration files, and explained the concepts of sections, section groups, elements, attributes, collections, enums and flags.
 
-Last, the document covered the schema system and how it works; this is useful to know when extending the system with custom settings. It is recommend to read the "[How To Extend Configuration](../../develop/extending-iis-configuration.md)" document for more details and specific instructions about adding custom configuration sections to the system, and producing code to consume them.
+Last, the document covered the schema system and how it works; this is useful to know when extending the system with custom settings. It is recommend to read the "[How To Extend Configuration](../../develop/extending-iis-configuration/index.md)" document for more details and specific instructions about adding custom configuration sections to the system, and producing code to consume them.
   
   
 [Discuss in IIS Forums](https://forums.iis.net/1046.aspx)

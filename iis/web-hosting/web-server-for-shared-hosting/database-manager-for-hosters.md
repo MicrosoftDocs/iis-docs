@@ -72,7 +72,7 @@ For a video demonstrating IIS Manager and Database Manager, see: [https://blogs.
 
 ## Extending Database Manager
 
-The current implementation of the IIS Database Manager module provides access only to Microsoft SQL Server. However, SQL Server does not have to be the only option; the Database Manager is extensible, and new database providers can be created. The Creating a Database Provider &lt;link: [https://www.iis.net/learn/extensions/database-manager](../../extensions/database-manager.md)&gt; article uses an XML DataSet provider as an example to describe the steps and source code needed to create a database provider.
+The current implementation of the IIS Database Manager module provides access only to Microsoft SQL Server. However, SQL Server does not have to be the only option; the Database Manager is extensible, and new database providers can be created. The Creating a Database Provider &lt;link: [https://www.iis.net/learn/extensions/database-manager](../../extensions/database-manager/index.md)&gt; article uses an XML DataSet provider as an example to describe the steps and source code needed to create a database provider.
 
 ## Conclusion
 

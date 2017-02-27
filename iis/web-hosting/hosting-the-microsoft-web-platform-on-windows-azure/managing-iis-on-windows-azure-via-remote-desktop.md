@@ -73,7 +73,7 @@ Here are the commands for looking at run-time data:
 
 #### Managing IIS via the IIS Powershell Snap-in
 
-The IIS Powershell Snap-in is only available if you are running your Windows Azure instance on an Windows Server 2008 R2 based image. If you do that you'll see a Powershell shortcut on the desktop. Double-click the short cut and refer to the following [articles](../../manage/powershell.md "Managing IIS with the Powershell Snap-in") on how to manage IIS with the Powershell Snap-in.
+The IIS Powershell Snap-in is only available if you are running your Windows Azure instance on an Windows Server 2008 R2 based image. If you do that you'll see a Powershell shortcut on the desktop. Double-click the short cut and refer to the following [articles](../../manage/powershell/index.md "Managing IIS with the Powershell Snap-in") on how to manage IIS with the Powershell Snap-in.
 
 #### Looking at run-time data
 

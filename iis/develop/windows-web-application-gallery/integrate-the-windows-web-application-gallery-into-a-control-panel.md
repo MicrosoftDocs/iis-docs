@@ -562,7 +562,7 @@ When the installation is complete, your control panel should provide a link to t
 
 [Best Practices: Running PHP Applications on IIS](introducing-the-windows-web-application-gallery.md)
 
-[Best Practices: Running ASP.NET Applications on IIS](../../application-frameworks/building-and-running-aspnet-applications.md)
+[Best Practices: Running ASP.NET Applications on IIS](../../application-frameworks/building-and-running-aspnet-applications/index.md)
 
 
 [Discuss in IIS Forums](https://forums.iis.net/1158.aspx)

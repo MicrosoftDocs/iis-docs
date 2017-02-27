@@ -203,7 +203,7 @@ You should see a PowerShell prompt.
 
 [!code-powershell[Main](install-and-configure-iis-on-server-core/samples/sample22.ps1)]
 
-Refer to [Managing IIS with IIS 7.0 PowerShell Snap-in](../../manage/powershell.md) and [Managing IIS with the IIS 7.0 PowerShell Snap-in](../../manage/powershell.md) for more information.
+Refer to [Managing IIS with IIS 7.0 PowerShell Snap-in](../../manage/powershell/index.md) and [Managing IIS with the IIS 7.0 PowerShell Snap-in](../../manage/powershell/index.md) for more information.
 
 For information about Windows PowerShell on Server Core, see [Dmitry's PowerBlog: PowerShell and Beyond](http://dmitrysotnikov.wordpress.com/2008/05/15/powershell-on-server-core/).
 

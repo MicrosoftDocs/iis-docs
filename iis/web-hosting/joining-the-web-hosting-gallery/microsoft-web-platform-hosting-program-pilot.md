@@ -72,7 +72,7 @@ Installs extensions, explaining the server and client experience.
 
 <a id="plan"></a>
 
-### [Planning the Web Hosting Architecture](../planning-the-web-hosting-architecture.md)
+### [Planning the Web Hosting Architecture](../planning-the-web-hosting-architecture/index.md)
 
 - [Shared Hosting Configuration](../planning-the-web-hosting-architecture/shared-hosting-configuration.md)
 - [IIS Extensibility](../planning-the-web-hosting-architecture/iis-extensibility.md)
@@ -128,7 +128,7 @@ Installs extensions, explaining the server and client experience.
 
 <a id="Verify"></a>
 
-### [Verifying the Deployment](../verifying-the-deployment.md)
+### [Verifying the Deployment](../verifying-the-deployment/index.md)
 
 - [Verifying Remote Administration](../verifying-the-deployment/verifying-remote-administration.md)
 - [Verifying the Developer Experience – ASP.NET](../verifying-the-deployment/verifying-the-developer-experience-aspnet.md)
@@ -146,7 +146,7 @@ Installs extensions, explaining the server and client experience.
 
 <a id="configiis"></a>
 
-### [Configuring IIS](../configuring-components.md)
+### [Configuring IIS](../configuring-components/index.md)
 
 - [The Configuration System in IIS](../../get-started/planning-your-iis-architecture/the-configuration-system-in-iis-7.md)
 - [C# and PowerShell Scripts Samples](../configuring-components/powershell-scripts.md)
@@ -156,7 +156,7 @@ Installs extensions, explaining the server and client experience.
 
 <a id="migrate"></a>
 
-### [Migrating](../migrate-to-the-microsoft-web-platform.md)
+### [Migrating](../migrate-to-the-microsoft-web-platform/index.md)
 
 - [Integrated vs Classic Mode](microsoft-web-platform-hosting-program-pilot/_static/microsoft-web-platform-hosting-program---pilot-238-iis7integratedpipelinemodevsclassicmode1.zip)
 - [Breaking Changes for ASP.NET 2.0 Apps Running on IIS Integrated Mode](../migrate-to-the-microsoft-web-platform/breaking-changes-for-aspnet-4-apps-running-on-iis-7-integrated-mode.md)
@@ -194,7 +194,7 @@ Installs extensions, explaining the server and client experience.
 ### PowerShell Scripts and C# Code Samples
 
 - [IIS 7.0 Configuration Reference with Code Samples](https://www.iis.net/configreference)
-- [Managing IIS with the IIS PowerShell Snap-in](../../manage/powershell.md)
+- [Managing IIS with the IIS PowerShell Snap-in](../../manage/powershell/index.md)
 - [C# and PowerShell Scripts Samples](../configuring-components/powershell-scripts.md)
 - [Provisioning Sample in C#](../../manage/provisioning-and-managing-iis/provisioning-sample-in-c.md)
 - [Code Samples and Scripts](../../manage/provisioning-and-managing-iis/index.md)

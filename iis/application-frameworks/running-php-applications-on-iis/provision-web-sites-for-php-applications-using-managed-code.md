@@ -28,7 +28,7 @@ While there are a number of ways that these capabilities can be implemented into
 
 [An Introduction to Windows PowerShell and IIS 7.0 and Above](../../manage/powershell/an-introduction-to-windows-powershell-and-iis.md).
 
-[Provisioning Web Sites on IIS 7.0 and Above](../../manage/creating-websites.md).
+[Provisioning Web Sites on IIS 7.0 and Above](../../manage/creating-websites/index.md).
 
 [Web Site Deployment Made Easy](../../get-started/introduction-to-iis/web-site-deployment-made-easy.md).
 

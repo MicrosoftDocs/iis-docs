@@ -63,7 +63,7 @@ Use the links below to start learning the aspects of IIS configuration, see a la
 - [ASP.NET Integration with IIS](../../application-frameworks/building-and-running-aspnet-applications/aspnet-integration-with-iis.md)
 - [How to Take Advantage of the IIS Integrated Pipeline](../../application-frameworks/building-and-running-aspnet-applications/how-to-take-advantage-of-the-iis-integrated-pipeline.md)
 - [End-to-End Extensibility Example](../../develop/runtime-extensibility/an-end-to-end-extensibility-example-for-iis-developers.md)
-- [Building a Customized Server](../planning-your-iis-architecture.md)
+- [Building a Customized Server](../planning-your-iis-architecture/index.md)
 - [Develop a Module Using .NET](../../develop/runtime-extensibility/developing-a-module-using-net.md)
 - [Develop a Native (C\C++) Module](../../develop/runtime-extensibility/develop-a-native-cc-module-for-iis.md)
 

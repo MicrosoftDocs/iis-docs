@@ -22,7 +22,7 @@ The file server permissions must be carefully implemented to provide appropriate
 
 ## Permissions
 
-The following table lists permissions that were used for the file server share and folders in the [Shared Hosting Setup](../planning-the-web-hosting-architecture/shared-hosting-configuration.md) mentioned in the [Planning the Web Hosting Architecture](../planning-the-web-hosting-architecture.md) section of the Hosting Guidance. Based on the shared hosting environment used, server administrators should develop their own custom permissions that meet their needs.
+The following table lists permissions that were used for the file server share and folders in the [Shared Hosting Setup](../planning-the-web-hosting-architecture/shared-hosting-configuration.md) mentioned in the [Planning the Web Hosting Architecture](../planning-the-web-hosting-architecture/index.md) section of the Hosting Guidance. Based on the shared hosting environment used, server administrators should develop their own custom permissions that meet their needs.
 
 | **Path** | **Permissions** | **Reason** |
 | --- | --- | --- |

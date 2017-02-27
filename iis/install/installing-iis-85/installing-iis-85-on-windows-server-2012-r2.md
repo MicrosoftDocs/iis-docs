@@ -35,7 +35,7 @@ IIS 8.5 includes several new features not found in IIS 8.0 or lower:
 
 For more information on these features, see [What's New in IIS 8.5](../../get-started/index.md).
 
-For information on new features in IIS 8.0, see [What's New in IIS 8.0](../../get-started/whats-new-in-iis-8.md).
+For information on new features in IIS 8.0, see [What's New in IIS 8.0](../../get-started/whats-new-in-iis-8/index.md).
 
 ## Before You Begin
 
