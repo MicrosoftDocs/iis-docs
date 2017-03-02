@@ -63,92 +63,68 @@ allow\_url\_fopen=on
 
 ## Set Up and Configure Siteframe
 
-> 1. Open the Siteframe application folder and copy the siteframe.ini-dist to siteframe.ini; edit it to suit your settings. For this installation, the following parameters below were edited.
+1. Open the Siteframe application folder and copy the siteframe.ini-dist to siteframe.ini; edit it to suit your settings. For this installation, the following parameters below were edited.  
 
+    - site\_url = [http://localhost/siteframe](http://localhost/siteframe)
+    - ite\_path = C:\Inetpub\wwwroot\siteframe
+    - db\_type = mysql
+    - db\_host = localhost
+    - db\_user = siteframeuser
+    - db\_password = siteframe
+    - db\_database = siteframe
+2. To ensure that the installation process can complete without errors, follow the instructions to set the file and directory permissions. For this walkthrough, we provide modify permissions to the local machine "IUSER" account for the following directories and files:  
 
-> site\_url = [http://localhost/siteframe](http://localhost/siteframe)  
-> site\_path = C:\Inetpub\wwwroot\siteframe  
-> db\_type = mysql  
-> db\_host = localhost  
-> db\_user = siteframeuser  
-> db\_password = siteframe  
-> db\_database = siteframe
+    - /siteframe
 
+    [![](siteframe-on-iis/_static/image2.jpg)](siteframe-on-iis/_static/image1.jpg)
+3. Copy \_htaccess file to .htaccess. Windows may not allow naming the file with only the extension (.htaccess). Open the file in the editor (notepad) and save as ".htaccess".
+4. Siteframe requires the Smarty templates. Download and install Smarty templates from   
+    [http://smarty.php.net/](http://smarty.php.net/) and copy to the local folder.   
 
-> 2. To ensure that the installation process can complete without errors, follow the instructions to set the file and directory permissions. For this walkthrough, we provide modify permissions to the local machine "IUSER" account for the following directories and files:
+    > [!NOTE]
+    > Smarty templates are available only in the .tar format and these .tar files must be extracted using gzip or other tools. We use the "izarc" tool downloaded from [http://www.izarc.org/download.html](http://www.izarc.org/download.html).
+5. After installing the extract tool, right click the filename and extract .tar to the folder c:\smarty. To avoid the security issues, keep this folder outside of the web root directory. There could be one other Smarty-2.6.18.tar file located inside the extracted files; if so, extract that file into the same folder as well.
+6. Edit PHP configuration file php.ini to add the installed Smarty include path.  
+ Include\_path = ".;c:\smarty\libs". Restart IIS to affect the changes.
+7. Set up these two folders inside your www root:  
 
+    - (wwwroot)/smarty/templates (This is where your templates will go.)
+    - (wwwroot)/smarty/configs
+8. Set up these two folders OUTSIDE of your www root:  
 
-• /siteframe
-
-[![](siteframe-on-iis/_static/image2.jpg)](siteframe-on-iis/_static/image1.jpg)
-
-> 3. Copy \_htaccess file to .htaccess. Windows may not allow naming the file with only the extension (.htaccess). Open the file in the editor (notepad) and save as ".htaccess".
-
-
-> 4. Siteframe requires the Smarty templates. Download and install Smarty templates from   
-> [http://smarty.php.net/](http://smarty.php.net/) and copy to the local folder.
-
-
-> [!NOTE]
-> Smarty templates are available only in the .tar format and these .tar files must be extracted using gzip or other tools. We use the "izarc" tool downloaded from [http://www.izarc.org/download.html](http://www.izarc.org/download.html).
-
-> 5. After installing the extract tool, right click the filename and extract .tar to the folder c:\smarty. To avoid the security issues, keep this folder outside of the web root directory. There could be one other Smarty-2.6.18.tar file located inside the extracted files; if so, extract that file into the same folder as well.
-
-
-> 6. Edit PHP configuration file php.ini to add the installed Smarty include path.  
-> Include\_path = ".;c:\smarty\libs". Restart IIS to affect the changes.
-
-
-> 7. Set up these two folders inside your www root:  
-> (wwwroot)/smarty/templates (This is where your templates will go.)  
-> (wwwroot)/smarty/configs
-
-
-> 8. Set up these two folders OUTSIDE of your www root:  
-> c:/smarty/templates\_c  
-> c:/smarty/cache
-
-
-> 9. Set up security settings for the Web server to write to these four folders. For more information on installing smarty templates, see [http://news.php.net/php.smarty.dev/2703](http://news.php.net/php.smarty.dev/2703) .
-
+    - c:/smarty/templates\_c
+    - c:/smarty/cache
+9. Set up security settings for the Web server to write to these four folders. For more information on installing smarty templates, see [http://news.php.net/php.smarty.dev/2703](http://news.php.net/php.smarty.dev/2703) .
 
 ## Run the Setup
 
-> 1. After installing the Smarty templates, creating the siteframe database and providing the configuration, run the installation script by calling [http://localhost/setup.php](http://localhost/setup.php).
+1. After installing the Smarty templates, creating the siteframe database and providing the configuration, run the installation script by calling [http://localhost/setup.php](http://localhost/setup.php).  
 
+    [![](siteframe-on-iis/_static/image4.jpg)](siteframe-on-iis/_static/image3.jpg)
+2. Provide the details to create the admin user. Click "Continue with setup" to: go to register admin user, confirm the database setup and create the required tables. Creating the tables is the end of the Siteframe installation.  
 
-[![](siteframe-on-iis/_static/image4.jpg)](siteframe-on-iis/_static/image3.jpg)
-
-> 2. Provide the details to create the admin user. Click "Continue with setup" to: go to register admin user, confirm the database setup and create the required tables. Creating the tables is the end of the Siteframe installation.
-
-
-[![](siteframe-on-iis/_static/image6.jpg)](siteframe-on-iis/_static/image5.jpg)
+    [![](siteframe-on-iis/_static/image6.jpg)](siteframe-on-iis/_static/image5.jpg)
 
 ## Test the SiteFrame Application
 
 To test that SiteFrame has been installed successfully, create a blog postings and view it as a site visitor would. Follow these steps:
 
-> 1. Navigate to [http://localhost/siteframe/index.php](http://localhost/siteframe/index.php).  
->   
-> 2. Enter the administrator username and password created in the last installation step.
+1. Navigate to [http://localhost/siteframe/index.php](http://localhost/siteframe/index.php).
+2. Enter the administrator username and password created in the last installation step.  
 
+    [![](siteframe-on-iis/_static/image8.jpg)](siteframe-on-iis/_static/image7.jpg)
+3. Once logged in, click New Page to create an entry.  
 
-[![](siteframe-on-iis/_static/image8.jpg)](siteframe-on-iis/_static/image7.jpg)
-
-> 3. Once logged in, click New Page to create an entry.
-
-
-[![](siteframe-on-iis/_static/image10.jpg)](siteframe-on-iis/_static/image9.jpg)
-
-> 4. Click Save to publish the content.
-
+    [![](siteframe-on-iis/_static/image10.jpg)](siteframe-on-iis/_static/image9.jpg)
+4. Click Save to publish the content.
 
 ## Getting More Information
 
-To discuss the FastCGI Extension for IIS 6.0, or file bug reports, please use the FastCGI forums:   
-• [IIS.NET / IIS 6 FastCGI forums](https://forums.iis.net/1103.aspx).
+To discuss the FastCGI Extension for IIS 6.0, or file bug reports, please use the FastCGI forums:
+
+- [IIS.NET / IIS 6 FastCGI forums](https://forums.iis.net/1103.aspx).
 
 To get more information regarding running various PHP applications on IIS, refer to:
 
-• [PHP on IIS portal](https://php.iis.net/)  
-• [PHP community forum](https://forums.iis.net/1102.aspx)
+- [PHP on IIS portal](https://php.iis.net/)
+- [PHP community forum](https://forums.iis.net/1102.aspx)

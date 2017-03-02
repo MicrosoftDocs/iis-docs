@@ -40,32 +40,28 @@ The easiest way to install the rest of the Microsoft Web Platform is by using th
 
 It is also possible to install IIS, PHP, and a database manually.
 
-1. **Install and configure IIS.** IIS is the Web server role in the Windows Server operating systems. The following articles provide guidance in installing IIS:
+1. **Install and configure IIS.** IIS is the Web server role in the Windows Server operating systems. The following articles provide guidance in installing IIS:  
 
-- [Install IIS 7 and Above on Windows Server 2008 or Windows Server 2008 R2](../../install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2.md).
-- [Install IIS 7 and Above on Windows Vista® and Windows® 7](../../install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7.md).
-- [Install and Configure IIS 7 and Above on Server Core](../../install/installing-iis-7/install-and-configure-iis-on-server-core.md).
+    - [Install IIS 7 and Above on Windows Server 2008 or Windows Server 2008 R2](../../install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2.md).
+    - [Install IIS 7 and Above on Windows Vista® and Windows® 7](../../install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7.md).
+    - [Install and Configure IIS 7 and Above on Server Core](../../install/installing-iis-7/install-and-configure-iis-on-server-core.md).
+2. **Install and configure PHP.**  
 
-2. **Install and configure PHP.**
+    The following articles provide guidance on installing PHP:
 
-The following articles provide guidance on installing PHP:
+    - [Install and Configure PHP](install-and-configure-php.md).
+    - [Install PHP and FastCGI Support on Server Core](install-php-and-fastcgi-support-on-server-core.md).
+3. Enable FastCGI support. FastCGI is an open protocol supported by many open-source application frameworks that otherwise may not support stable and high-performance native integration with IIS. The following articles provide guidance in enabling FastCGI:  
 
-- [Install and Configure PHP](install-and-configure-php.md).
-- [Install PHP and FastCGI Support on Server Core](install-php-and-fastcgi-support-on-server-core.md).
+    - [Enable FastCGI Support in IIS 7 and Above on Windows Server 2008, Windows Server 2008 R2. Windows Vista, or Windows 7](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7.md).
+    - [Install PHP and FastCGI Support on Server Core](install-php-and-fastcgi-support-on-server-core.md).
+    - [Configure the FastCGI Extension for IIS 6.0](configuring-the-fastcgi-extension-for-iis-60.md).
+    - [Videocast: Set Up FastCGI for PHP](../running-php-applications-on-iis/set-up-fastcgi-for-php.md).
+4. **Install a database.** You can use either MySQL or SQL Server in the Microsoft Web Platform.  
 
-3. **Enable FastCGI support.** FastCGI is an open protocol supported by many open-source application frameworks that otherwise may not support stable and high-performance native integration with IIS. The following articles provide guidance in enabling FastCGI:
-
-- [Enable FastCGI Support in IIS 7 and Above on Windows Server 2008, Windows Server 2008 R2. Windows Vista, or Windows 7](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7.md).
-- [Install PHP and FastCGI Support on Server Core](install-php-and-fastcgi-support-on-server-core.md).
-- [Configure the FastCGI Extension for IIS 6.0](configuring-the-fastcgi-extension-for-iis-60.md).
-- [Videocast: Set Up FastCGI for PHP](../running-php-applications-on-iis/set-up-fastcgi-for-php.md).
-
-4. **Install a database.** You can use either MySQL or SQL Server in the Microsoft Web Platform.
-
-- [Install and Configure MySQL for PHP Applications on IIS 7 and Above](install-and-configure-mysql-for-php-applications-on-iis-7-and-above.md).
-- [Install and Configure SQL Server for PHP Applications on IIS 7 and Above](install-and-configure-sql-server-2008-for-php-applications-on-iis-7-and-above.md).
+    - [Install and Configure MySQL for PHP Applications on IIS 7 and Above](install-and-configure-mysql-for-php-applications-on-iis-7-and-above.md).
+    - [Install and Configure SQL Server for PHP Applications on IIS 7 and Above](install-and-configure-sql-server-2008-for-php-applications-on-iis-7-and-above.md).
 
 You are now ready to configure and optimize the Microsoft Web Platform.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

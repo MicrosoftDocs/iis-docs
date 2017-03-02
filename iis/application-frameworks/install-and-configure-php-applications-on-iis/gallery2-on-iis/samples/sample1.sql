@@ -4,7 +4,7 @@ GO
 CREATE DATABASE gallery2
 GO
 
-CREATE LOGIN [gallery2] 
+CREATE LOGIN [gallery2]
 WITH PASSWORD=N'pass@word1',
      DEFAULT_DATABASE=[gallery2],
      CHECK_EXPIRATION=OFF,

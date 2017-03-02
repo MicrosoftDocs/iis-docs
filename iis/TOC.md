@@ -599,7 +599,6 @@
 ### [Use the Windows Cache Extension for PHP](application-frameworks/install-and-configure-php-on-iis/use-the-windows-cache-extension-for-php.md)
 ### [Enable Per-Site PHP Configuration on IIS 7 and IIS 6.0](application-frameworks/install-and-configure-php-on-iis/enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above.md)
 ### [Create a Separate Site or Virtual Directory for PHP Content](application-frameworks/install-and-configure-php-on-iis/create-a-separate-site-or-virtual-directory-for-php-content.md)
-### [Configure SMTP E-Mail in IIS 7](application-frameworks/install-and-configure-php-on-iis/configure-smtp-e-mail-in-iis-7-and-above.md)
 ### [How to Configure and Optimize the Microsoft Web Platform for PHP](application-frameworks/install-and-configure-php-on-iis/how-to-configure-and-optimize-the-microsoft-web-platform-for-php.md)
 ### [Run Multiple Versions of PHP on IIS](application-frameworks/install-and-configure-php-on-iis/run-multiple-versions-of-php-on-iis.md)
 ### [Improve PHP Error Messages in IIS 7](application-frameworks/install-and-configure-php-on-iis/improve-php-error-messages-in-iis-7-and-above.md)

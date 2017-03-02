@@ -44,34 +44,20 @@ First, download the latest stable release of [Drupal](http://www.drupal.org/). F
 Before running the Drupal installer, create the configuration file **Settings.php**, which Drupal uses to store key configuration settings. Assign write permissions to it with the command (from the installation directory):
 
 1. Copy the **.\sites\default\default.settings.php** file to **.\sites\default\settings.php**.
+2. Grant "write" permissions to the file.  
 
-2. Grant "write" permissions to the file.
-
-
-[!code-console[Main](install-drupal-on-iis/samples/sample1.cmd)]
-
-
+    [!code-console[Main](install-drupal-on-iis/samples/sample1.cmd)]
 3. The installer will modify the Settings.php file with information provided during the installation process.
+4. Check to ensure that the file permissions are set back to "read only" once the installation is complete. If the file permissions did not change back, you must change them manually with the command:  
 
-4. Check to ensure that the file permissions are set back to "read only" once the installation is complete. If the file permissions did not change back, you must change them manually with the command:
-
-
-[!code-console[Main](install-drupal-on-iis/samples/sample2.cmd)]
-
-
+    [!code-console[Main](install-drupal-on-iis/samples/sample2.cmd)]
 5. Drupal uses the Sites\Default\Files directory to store temporary files and therefore must be able to write and modify files in this folder.
+6. Create the folder:  
 
-6. Create the folder:
+    [!code-console[Main](install-drupal-on-iis/samples/sample3.cmd)]
+7. Grant "modify" permissions to the folder:  
 
-
-[!code-console[Main](install-drupal-on-iis/samples/sample3.cmd)]
-
-
-7. Grant "modify" permissions to the folder:
-
-
-[!code-console[Main](install-drupal-on-iis/samples/sample4.cmd)]
-
+    [!code-console[Main](install-drupal-on-iis/samples/sample4.cmd)]
 
 ## Set Up the Database
 
@@ -83,29 +69,24 @@ Before starting the installation procedure for Drupal, you must create a databas
 
 ### Run the Installation Script
 
-1. Open a Web browser, and go to `http://localhost/drupal/`. The first page of the installation script appears. Click **Install Drupal in English**. The Verify requirements step should proceed automatically unless you are missing requirements.
+1. Open a Web browser, and go to `http://localhost/drupal/`. The first page of the installation script appears. Click **Install Drupal in English**. The Verify requirements step should proceed automatically unless you are missing requirements.  
 
-[![](install-drupal-on-iis/_static/image3.jpg)](install-drupal-on-iis/_static/image2.jpg)
+    [![Choose language page](install-drupal-on-iis/_static/image2.jpg)](install-drupal-on-iis/_static/image1.jpg)  
+*Figure 1: Choose language page*
+2. On the **Database configuration page**, type the following information:  
 
-###### Figure 1: Choose language page
+    - Database name: **drupal**
+    - User name: **drupal**
+    - Password: **drupal**
 
-2. On the **Database configuration page**, type the following information:
+    Click **Save and continue**. The required database tables are created, and the configuration is saved into the Sites\Default\Settings.php file. Remove the "modify" permissions on this file.
 
-- Database name: **drupal**
-- User name: **drupal**
-- Password: **drupal**
+    [![Database configuration page](install-drupal-on-iis/_static/image4.jpg)](install-drupal-on-iis/_static/image3.jpg)  
+*Figure 2: Database configuration page*
+3. On the **Configure site** page, enter the required configuration information.  
 
-Click **Save and continue**. The required database tables are created, and the configuration is saved into the Sites\Default\Settings.php file. Remove the "modify" permissions on this file.
-
-[[![](install-drupal-on-iis/_static/image5.jpg)](install-drupal-on-iis/_static/image4.jpg)](install-drupal-on-iis/_static/image1.png)
-
-###### Figure 2: Database configuration page
-
-3. On the **Configure site** page, enter the required configuration information.
-
-[[![](install-drupal-on-iis/_static/image7.jpg)](install-drupal-on-iis/_static/image6.jpg)](install-drupal-on-iis/_static/image3.png)
-
-###### Figure 3: Configure site page
+    [![](install-drupal-on-iis/_static/image6.jpg)](install-drupal-on-iis/_static/image5.jpg)  
+*Figure 3: Configure site page*
 
 ## Enable Clean URLs
 
@@ -118,27 +99,17 @@ IIS 7 and above have URL rewriting support, which can be enabled by installing t
 The following instructions describe how the URL Rewrite Module for IIS 7 and above can be used to enable clean URLs in Drupal.
 
 1. Open the **Web.config** file located in **C:\inetpub\wwwroot\drupal** folder. If you do not have a Web.config file in the WordPress directory, create it.
+2. Copy and paste the following XML code into this file.  
 
-2. Copy and paste the following XML code into this file.
-
-
-[!code-xml[Main](install-drupal-on-iis/samples/sample5.xml)]
-
-
+    [!code-xml[Main](install-drupal-on-iis/samples/sample5.xml)]
 3. Save the **web.config** file.
-
-4. Open a Web browser, and go to `http://localhost/Drupal/index.php?q=admin/settings/clean-urls`.
-
-[[![](install-drupal-on-iis/_static/image9.jpg)](install-drupal-on-iis/_static/image8.jpg)](install-drupal-on-iis/_static/image5.png)
-
-###### Figure 4: Clean URLs page
-
-5. Under **Clean URLs**,select the **Enabled** option button, and then click **Save configuration**. If you successfully changed the URL format, all the URLs are represented in a hierarchical form that does not use query string parameters (for example, [http://localhost/Drupal/admin/settings/clean-urls](http://localhost/Drupal/admin/settings/clean-urls)).
-
+4. Open a Web browser, and go to `http://localhost/Drupal/index.php?q=admin/settings/clean-urls`.  
+    [![](install-drupal-on-iis/_static/image8.jpg)](install-drupal-on-iis/_static/image7.jpg)  
+    *Figure 4: Clean URLs page*
+5. Under **Clean URLs**, select the **Enabled** option button, and then click **Save configuration**. If you successfully changed the URL format, all the URLs are represented in a hierarchical form that does not use query string parameters (for example, [http://localhost/Drupal/admin/settings/clean-urls](http://localhost/Drupal/admin/settings/clean-urls)).
 
 > [!NOTE]
 > *This article updates: " Drupal on IIS" by Ruslan Yakushev, published on September 19, 2008.*
-
 
 ## Links for Further Information
 

@@ -206,7 +206,7 @@ Workaround: From the Programs Control Panel, run Repair on Web Deploy 2.0. Alter
 
 **Diagnosis**: A SQL script execution failure occurred. This can happen for a va
 
-**Resolution**: This can happen for a number of reasons. Please read more [here](https://www.microsoft.com/web/webmatrix/).
+**Resolution**: This can happen for a number of reasons. Please read more [here](../../develop/troubleshooting-webmatrix/microsoft-webmatrix-database-errors-while-publishing-and-downloading-sites.md).
 
 <a id="ERROR_TYPE_NOT_FOUND_IN_ASSEMBLY"></a>
 

@@ -47,68 +47,49 @@ Before starting the installation procedure for PHPList, create a database on you
 
 Some of PHPList source files use only "&lt;?" tag instead of "&lt;?php" script tag.
 
-> 1. Configure the PHP to allow the "&lt;?" tag. Set short\_open\_tag tag to on.
+1. Configure the PHP to allow the "&lt;?" tag. Set short\_open\_tag tag to on.
+2. Set magic quotes to on by setting the magic\_quotes\_gpc on in the PHP.ini file.
+3. Open the configuration file \lists\config\config.php in your editor and edit for the required database fields and folder details. We use the default details to create the folders like default folders.
 
+### Running the Installation Script
 
-> 2. Set magic quotes to on by setting the magic\_quotes\_gpc on in the PHP.ini file.
+1. After editing the configuration file, run the installation file by browsing to the index page located in the admin folder.
+2. Open [http://localhost/lists/admin/index.php](http://localhost/lists/admin/index.php) in the browser. The system informs about database availability based on the configuration file and prompts for the table creation for the new installation.  
 
+    [![](phplist-on-iis/_static/image2.jpg)](phplist-on-iis/_static/image1.jpg)
 
-> 3. Open the configuration file \lists\config\config.php in your editor and edit for the required database fields and folder details. We use the default details to create the folders like default folders.
+    [![](phplist-on-iis/_static/image4.jpg)](phplist-on-iis/_static/image3.jpg)
+3. Click Continue with PHPList setup after creating the default tables.  
 
+    [![](phplist-on-iis/_static/image6.jpg)](phplist-on-iis/_static/image5.jpg)
+4. Login using the default user id "admin" and password "phplist".  
 
-**Running the Installation Script**
+    [![](phplist-on-iis/_static/image8.jpg)](phplist-on-iis/_static/image7.jpg)
+5. Change administration password and configure the general values by clicking on the specified links.  
 
-> 1. After editing the configuration file, run the installation file by browsing to the index page located in the admin folder.
-> 
-> 2. Open [http://localhost/lists/admin/index.php](http://localhost/lists/admin/index.php) in the browser. The system informs about database availability based on the configuration file and prompts for the table creation for the new installation.
+    [![](phplist-on-iis/_static/image10.jpg)](phplist-on-iis/_static/image9.jpg)
+6. There several configuration parameters. Edit those parameters according to the application requirements. We use the default setup for testing.  
+  
+ 7. Click the "main page" link shown on the right side menu to access the admin main page.  
 
+    [![](phplist-on-iis/_static/image12.jpg)](phplist-on-iis/_static/image11.jpg)
+7. Access the PHPLists administration page by clicking on the "lists" link shown on the right side menu. Here you can add, delete, or edit the list.  
 
-[![](phplist-on-iis/_static/image3.jpg)](phplist-on-iis/_static/image2.jpg)
+    [![](phplist-on-iis/_static/image14.jpg)](phplist-on-iis/_static/image13.jpg)
+8. Click "add a list" as shown below to add a new list.  
 
-[![](phplist-on-iis/_static/image5.jpg)](phplist-on-iis/_static/image4.jpg)
+    [![](phplist-on-iis/_static/image16.jpg)](phplist-on-iis/_static/image15.jpg)
+9. Access the user admin index page by browsing to the application default folder [http://localhost/lists/index.php](http://localhost/lists/index.php) . The installation is finished and you can access the application based on the settings provided by the admin user.  
 
-> 3. Click Continue with PHPList setup after creating the default tables.
-
-
-[![](phplist-on-iis/_static/image7.jpg)](phplist-on-iis/_static/image6.jpg)
-
-> 4. Login using the default user id "admin" and password "phplist".
-
-
-[![](phplist-on-iis/_static/image9.jpg)](phplist-on-iis/_static/image8.jpg)
-
-> 5. Change administration password and configure the general values by clicking on the specified links.
-
-
-[![](phplist-on-iis/_static/image11.jpg)](phplist-on-iis/_static/image10.jpg)
-
-> 6. There several configuration parameters. Edit those parameters according to the application requirements. We use the default setup for testing.  
->   
-> 7. Click the "main page" link shown on the right side menu to access the admin main page.
-
-
-[![](phplist-on-iis/_static/image13.jpg)](phplist-on-iis/_static/image12.jpg)
-
-> 8. Access the PHPLists administration page by clicking on the "lists" link shown on the right side menu. Here you can add, delete, or edit the list.
-
-
-[![](phplist-on-iis/_static/image15.jpg)](phplist-on-iis/_static/image14.jpg)
-
-> 9. Click "add a list" as shown below to add a new list.
-
-
-[![](phplist-on-iis/_static/image17.jpg)](phplist-on-iis/_static/image16.jpg)
-
-> 10. Access the user admin index page by browsing to the application default folder [http://localhost/lists/index.php](http://localhost/lists/index.php) . The installation is finished and you can access the application based on the settings provided by the admin user.
-
-
-[![](phplist-on-iis/_static/image19.jpg)](phplist-on-iis/_static/image18.jpg)
+    [![](phplist-on-iis/_static/image18.jpg)](phplist-on-iis/_static/image17.jpg)
 
 ## Getting More Information
 
-To discuss the FastCGI Extension for IIS 6.0, or file bug reports, use the FastCGI forums:   
-• [IIS.NET / IIS 6.0 FastCGI forums](https://forums.iis.net/1103.aspx).
+To discuss the FastCGI Extension for IIS 6.0, or file bug reports, use the FastCGI forums:
 
-To get more information regarding running various PHP applications on IIS, refer to:   
-• [PHP on IIS portal](https://php.iis.net/)  
-• [PHP community forum](https://forums.iis.net/1102.aspx).
+- [IIS.NET / IIS 6.0 FastCGI forums](https://forums.iis.net/1103.aspx)
+
+To get more information regarding running various PHP applications on IIS, refer to:
+
+- [PHP on IIS portal](https://php.iis.net/)
+- [PHP community forum](https://forums.iis.net/1102.aspx)

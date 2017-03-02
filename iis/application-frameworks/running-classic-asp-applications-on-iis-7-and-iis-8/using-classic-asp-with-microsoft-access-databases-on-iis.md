@@ -16,8 +16,8 @@ Using Classic ASP with Microsoft Access Databases on IIS
 ====================
 by [Robert McMurray](https://github.com/rmcmurray)
 
-*> [!NOTE]
-> Microsoft Access databases have been popular for many years with developers who use Active Server Pages (ASP) for small-scale applications, but Microsoft Access databases are not designed for scalability, therefore Access databases should only be used where performance is not a factor, and it is best not to host large-scale data-driven applications with Microsoft Access databases.*
+> [!NOTE]
+> Microsoft Access databases have been popular for many years with developers who use Active Server Pages (ASP) for small-scale applications, but Microsoft Access databases are not designed for scalability, therefore Access databases should only be used where performance is not a factor, and it is best not to host large-scale data-driven applications with Microsoft Access databases.
 
 In IIS 7.0, IIS 7.5, and above, several security changes were made that may affect how classic ASP applications will function. For example, if you were to copy a classic ASP application that uses an Access database that is within the Web site's content area to a server that uses IIS 7.0 or above, you may receive the following error message:
 

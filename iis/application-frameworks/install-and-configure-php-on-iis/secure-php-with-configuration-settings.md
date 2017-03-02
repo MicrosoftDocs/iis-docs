@@ -90,24 +90,15 @@ This setting is not in the "recommended Php.ini" file. It restricts the permissi
 
 You can get a complete report of all your PHP settings.
 
-1. Create a text file with a **.php** extension:
+1. Create a text file with a **.php** extension:  
 
-
-[!code-unknown[Main](secure-php-with-configuration-settings/samples/sample-127419-8.unknown)]
-
-
+    [!code-unknown[Main](secure-php-with-configuration-settings/samples/sample-127419-8.unknown)]
 2. Upload it to your server into (preferably) a password-protected folder.
+3. Open your Web browser, and type the *path* into the address bar:  
 
-3. Open your Web browser, and type the *path* into the address bar:
-
-
-[!code-unknown[Main](secure-php-with-configuration-settings/samples/sample-127419-9.unknown)]
-
-
+    [!code-unknown[Main](secure-php-with-configuration-settings/samples/sample-127419-9.unknown)]
 4. Enter your *user name* and *password* to access the protected folder and view the result page.
-
 5. Save or print the result page to your local computer for reference.
-
 6. Delete the **.php** file from your server.
 
 ## Links for Further Information
@@ -115,6 +106,5 @@ You can get a complete report of all your PHP settings.
 [How to change configuration settings](http://ie.php.net/configuration.changes).
 
 [Using FastCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md#PHP_Security_Recommendations).
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

@@ -30,46 +30,34 @@ For example, suppose you have two Web sites in IIS 6.0, website1.com and website
 
 1. Create script mappings and FastCGI configuration sections for each Web site. You can use the helper script fcgiconfig.js, located in the %WINDIR%\system32\inetsrv\ folder.
 
-Execute the following commands to create PHP script mappings for website1.com and website2.com. Make sure you replace &lt;php\_path&gt; with the correct path to PHP executable and &lt;site\_id&gt; with the correct site ID.
+    Execute the following commands to create PHP script mappings for website1.com and website2.com. Make sure you replace &lt;php\_path&gt; with the correct path to PHP executable and &lt;site\_id&gt; with the correct site ID.
 
+    [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample1.cmd)]
+2. Open the fcgiext.ini file located in %WINDIR%\system32\inetsrv. It should contain the following sections:  
 
-[!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample1.cmd)]
+    [!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-2.unknown)]
 
+    The [PHP website1.com] and [PHP website2.com] sections can be used to specify some site specific FastCGI configuration settings, such as the path to php.ini file for each of the Web sites.
 
-2. Open the fcgiext.ini file located in %WINDIR%\system32\inetsrv. It should contain the following sections:
-
-
-[!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-2.unknown)]
-
-The [PHP website1.com] and [PHP website2.com] sections can be used to specify some site specific FastCGI configuration settings, such as the path to php.ini file for each of the Web sites.&lt;.p&gt; 
-
-When it begins, the PHP process determines the location of configuration php.ini file by using various settings, such as the PHPRC environment variable. (For a detailed description of the PHP startup process, see the [PHP documentation](http://www.php.net/manual/en/configuration.php).) If the PHP process finds a php.ini file in the path specified in the PHPRC environment variable, it will use it; otherwise, the PHP process will revert to default location of php.ini.
-
+    When it begins, the PHP process determines the location of configuration php.ini file by using various settings, such as the PHPRC environment variable. (For a detailed description of the PHP startup process, see the [PHP documentation](http://www.php.net/manual/en/configuration.php).) If the PHP process finds a php.ini file in the path specified in the PHPRC environment variable, it will use it; otherwise, the PHP process will revert to default location of php.ini.
 3. Configure FastCGI to set this PHPRC environment variable to point to site-specific php.ini file with the following commands:
 
-
 [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample3.cmd)]
+4. If you examine the fcgiext.ini file, you will see that the configuration sections have been updated:  
 
+    [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample4.cmd)]
+5. You can now verify that PHP loads its configuration from site specific location:  
 
-4. If you examine the fcgiext.ini file, you will see that the configuration sections have been updated:
+    - Copy php.ini into C:\Inetpub\website1.com
+    - Create a phpinfo.php file in C:\Inetpub\website1.com
+    - Place this code inside of phpinfo.php: &lt;?php phpinfo(); ?&gt;
+    - Open web browser and make a request to http://website1.com/phpinfo.php.  
 
-[!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample4.cmd)]
+        The output of phpinfo.php file will show the location from where php.ini file was loaded:
 
-5.You can now verify that PHP loads its configuration from site specific location:
+        [![](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image2.gif)](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image1.gif)
 
-a. Copy php.ini into C:\Inetpub\website1.com
-
-b. Create a phpinfo.php file in C:\Inetpub\website1.com
-
-c. Place this code inside of phpinfo.php: &lt;?php phpinfo(); ?&gt;
-
-d. Open web browser and make a request to http://website1.com/phpinfo.php.
-
-The output of phpinfo.php file will show the location from where php.ini file was loaded:
-
-[[![](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image2.gif)](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image1.gif)](http://ruslany.net/wp-content/uploads/2008/07/persitephp.png)
-
-###### Figure 1 website1
+        *Figure 1 website1*
 
 ## Enable per-Site PHP Configuration with PHP 5.2 on IIS 7 and Above
 
@@ -120,75 +108,54 @@ To enable this scenario on IIS, you first need to install PHP 5.3 and configure 
 There are now two options:
 
 1. Define the per-site PHP settings in the main php.ini file.
-
 2. Let Web application owners define those settings in user-defined INI files.
 
 ## Define in the Main PHP.INI File
 
 1. Open the main **php.ini** file (If you used the PHP installer, then this file will most probably be located at C:\Program Files\PHP\ folder. If you installed from a compressed [ZIP] file archive, then the file will be at the same directory where the php-cgi.exe file is located).
+2. Add the following at the end of the file:  
 
-2. Add the following at the end of the file:
-
-[!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-9.unknown)]
-
+    [!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-9.unknown)]
 3. Save the php.ini file, and then recycle the application pools for these Web sites for the PHP.INI changes to take effect.
+4. Use **phpinfo()** or **ini\_get("max\_execution\_time")** to check that the new settings have overwritten the default settings. Create a PHP file with the following text and save it in the Web root folder:  
 
-4. Use **phpinfo()** or **ini\_get("max\_execution\_time")** to check that the new settings have overwritten the default settings. Create a PHP file with the following text and save it in the Web root folder:
+    [!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-10.unknown)]
+5. Open the PHP script on the Web site http://localhost/phpinfo.php.  
 
+    [![](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image4.gif)](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image3.gif)
 
-[!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-10.unknown)]
+    *Figure 2: phpinfo() page*
 
-
-5. Open the PHP script on the Web site http://localhost/phpinfo.php.
-
-[[![](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image4.gif)](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image3.gif)](http://ruslany.net/wp-content/uploads/2009/07/phpinfo1.png)
-
-###### Figure 2: phpinfo() page
-
-This output shows that the local value of the max\_execution\_time setting (in the second column) is 300, while the master value, or default, is 30.
+    This output shows that the local value of the max\_execution\_time setting (in the second column) is 300, while the master value, or default, is 30.
 
 ## Enable the User-Defined INI files
 
 If you want to allow Web application owners to control PHP settings themselves, you can enable a user-defined PHP configuration.
 
-1. Add the following setting, which specifies the name to be used for user-specific INI files, to the main **php.ini** file. Setting this to an empty value disables the user-defined PHP configuration.
+1. Add the following setting, which specifies the name to be used for user-specific INI files, to the main **php.ini** file. Setting this to an empty value disables the user-defined PHP configuration.  
 
+    [!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-11.unknown)]
+2. Create a file called **.user.ini** in **C:\inetpub\website1.com\** folder, and add the following:  
 
-[!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-11.unknown)]
+    [!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-12.unknown)]
+3. Add the following to the file **.user.ini** in **C:\inetpub\website2.com\** folder:  
 
+    [!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-13.unknown)]
 
-2. Create a file called **.user.ini** in **C:\inetpub\website1.com\** folder, and add the following:
+    Note that if your main php.ini file has [PATH] sections that point to the root folders of these sites, then you need to remove those sections; if you do not remove those sections, the user-defined settings will not take effect.
+4. Use **phpinfo()** or **ini\_get("max\_execution\_time")** to check that the new settings have overwritten the default settings. Create a PHP file with the following text and save it in the Web root folder:  
 
+    [!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-14.unknown)]
+5. Open the PHP script on the Web site http://localhost/phpinfo.php.  
 
-[!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-12.unknown)]
+    [![](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image6.gif)](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image5.gif)
 
+    *Figure 3: phpinfo() page*
 
-3. Add the following to the file **.user.ini** in **C:\inetpub\website2.com\** folder:
-
-
-[!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-13.unknown)]
-
-
-Note that if your main php.ini file has [PATH] sections that point to the root folders of these sites, then you need to remove those sections; if you do not remove those sections, the user-defined settings will not take effect.
-
-4. Use **phpinfo()** or **ini\_get("max\_execution\_time")** to check that the new settings have overwritten the default settings. Create a PHP file with the following text and save it in the Web root folder:
-
-
-[!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-14.unknown)]
-
-
-5. Open the PHP script on the Web site http://localhost/phpinfo.php.
-
-[[![](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image6.gif)](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image5.gif)](http://ruslany.net/wp-content/uploads/2009/07/phpinfo2.png)
-
-###### Figure 3: phpinfo() page
-
-Note also that when you enable the user-defined INI files, the settings in those files are cached by the PHP engine to avoid re-reading those files for every request. This means that if the user makes a change to .user.ini file, then that change may not take effect right away. Instead it may take effect after the cache time to live (TTL) has expired. The cache TTL value is controlled by the php.ini setting user\_ini.cache\_ttl, which is set to 300 seconds (5 minutes) by default.
-
+    Note also that when you enable the user-defined INI files, the settings in those files are cached by the PHP engine to avoid re-reading those files for every request. This means that if the user makes a change to .user.ini file, then that change may not take effect right away. Instead it may take effect after the cache time to live (TTL) has expired. The cache TTL value is controlled by the php.ini setting user\_ini.cache\_ttl, which is set to 300 seconds (5 minutes) by default.
 
 <a id="_Related_Content"></a>> [!NOTE]
 >> *This article combines information from "*[*Per-site PHP configuration with PHP 5.3 and IIS*](https://blogs.iis.net/ruslany/archive/2009/07/11/per-site-php-configuration-with-php-5-3-and-iis.aspx)*" published on July 11, 2009, "*[*Per-site PHP configuration with IIS FastCGI*](http://ruslany.net/2008/07/per-site-php-configuration-with-iis-fastcgi/)*" published on July 12, 2008, and "*[*Using FastCGI to Host PHP Applications on IIS 7.0*](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md#PHP_Versioning)*" published on June 26, 2009, all by Ruslan Yakushev.*
-
 
 ## Links for Further Information
 

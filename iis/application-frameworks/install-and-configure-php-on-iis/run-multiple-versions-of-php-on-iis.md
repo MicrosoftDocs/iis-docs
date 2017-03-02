@@ -27,20 +27,14 @@ The IIS FastCGI handler fully supports running multiple versions of PHP on the s
 To run multiple versions of PHP on IIS, start by configuring the environment variables. For example, to use PHP 4 you must ensure that both the path to the PHP 4 root directory and the path to the dynamic-link libraries (DLLs) directory are included in your Path environment variable:
 
 1. Right-click on **My Computer**.
-
 2. Select **Properties**.
-
 3. Click on the **Advanced** tab.
-
 4. Click on the **Environment Variables** button.
-
 5. In the **System Variables** pane, scroll down until you see the **Path** variable.
-
 6. Select the **Path** variable, and then click the **Edit** button.
+7. At the beginning of the **Variable Value** field, type the names of the full paths to the PHP 4 root directory and to the DLLs directory. The path names must be separated by a semicolon.  
 
-7. At the beginning of the **Variable Value** field, type the names of the full paths to the PHP 4 root directory and to the DLLs directory. The path names must be separated by a semicolon.
-
-You must remove the PHPRC environment variable, because it tells PHP where to look for the Php.ini configuration file. If you have already set the PHPRC variable, follow the procedure above, but instead of editing the **Path** variable, select the **PHPRC** variable, and then press **Delete**.
+    You must remove the PHPRC environment variable, because it tells PHP where to look for the Php.ini configuration file. If you have already set the PHPRC variable, follow the procedure above, but instead of editing the **Path** variable, select the **PHPRC** variable, and then press **Delete**.
 
 ## Create FastCGI Application Process Pools
 
@@ -59,9 +53,8 @@ If you have three Web sites (site1, site2, and site3) and each site must use a d
 > [!NOTE]
 > *This article uses material from "[Using FastCGI to Host PHP Applications on IIS 7.0](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md)" published on June 26, 2009.*
 
-
 ## Links for Further Information
 
-[Using FastCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md).  
-  
+[Using FastCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md). 
+
 [Another reason that IIS ROCKS and PHP is better on Microsoft Windows!](https://blogs.msdn.com/joestagner/archive/2005/10/30/487051.aspx)

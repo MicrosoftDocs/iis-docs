@@ -18,23 +18,7 @@ by Tali Smith
 
 ## Introduction
 
-There are various steps you can take to optimize Windows Server 2008 R2 or Windows Server 2008, IIS 7 and above, and FastCGI performance for your Web workloads and PHP applications, including:
-
-- [Configure PHP process recycling behavior](#_Configure_PHP_Process)
-- [Disable unneeded services and processes](#_Disable_Unneeded_Services)
-- [Optimize server performance](#_Optimize_Server_Performance)
-- [Enable bandwidth throttling](#_Enable_Bandwidth_Throttling)
-- [Use HTTP Keep-Alives](#_Use_HTTP_Keep-Alives)
-- [Use HTTP compression](#_Use_HTTP_Compression)
-- [Use Forms Authentication](#_Use_Forms_Authentication)
-- [Manage IIS 7 and Above with the PowerShell Provider](#_Manage_IIS_7.0)
-- [Extend IIS 7 and Above](#_Extend_IIS_7)
-- [Use a non-thread-safe build of PHP](#_Use_a_Non-Thread-Safe)
-- [Set the default document](#_Set_the_Default)
-- [Use the URL Rewrite Module](#_Set_the_Default)
-- [Use the Request Filtering Module](#_Use_the_Request)
-
-These procedures can be generally be performed from the UI by running Appcmd.exe commands in a command-line window and editing configuration files directly or by writing Windows® Management Instrumentation (WMI) scripts.
+There are various steps you can take to optimize Windows Server 2008 R2 or Windows Server 2008, IIS 7 and above, and FastCGI performance for your Web workloads and PHP applications. These procedures can be generally be performed from the UI by running Appcmd.exe commands in a command-line window and editing configuration files directly or by writing Windows® Management Instrumentation (WMI) scripts.
 
 ## Configure PHP Process Recycling Behavior
 
@@ -42,38 +26,31 @@ Make sure that FastCGI always recycles the php-cgi.exe processes before the nati
 
 The FastCGI settings can be configured either by using IIS Manager or by using the command-line tool **AppCmd**.
 
-### 
-
 ### Use IIS Manager
 
-1. To configure FastCGI recycling settings by using IIS Manager, you need to install Administration Pack for IIS, and then select **FastCGI Settings** at the server level.
+1. To configure FastCGI recycling settings by using IIS Manager, you need to install Administration Pack for IIS, and then select **FastCGI Settings** at the server level.  
 
-[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image3.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image2.jpg)
+    [![](best-practices-for-php-on-the-microsoft-web-platform/_static/image2.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image1.jpg)
 
-###### Figure 1 IIS Manager, FastCGI Settings
+    *Figure 1 IIS Manager, FastCGI Settings*
+2. Next, select the FastCGI application that you want to configure, and then click **Edit** in the **Actions** pane on right-hand side.  
 
-2. Next, select the FastCGI application that you want to configure, and then click **Edit** in the **Actions** pane on right-hand side.
+    [![](best-practices-for-php-on-the-microsoft-web-platform/_static/image4.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image3.jpg)
 
-[[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image5.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image4.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image1.png)
+    *Figure 2 FastCGI Settings page*
+3. In the **Edit FastCGI** **Application** dialog box, set **InstanceMaxRequest** to **10000**, and then click on the **browse** button next to the **EnvironmentVariables** setting.  
 
-###### Figure 2 FastCGI Settings page
+    [![](best-practices-for-php-on-the-microsoft-web-platform/_static/image6.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image5.jpg)
 
-3. In the **Edit FastCGI** **Application** dialog box, set **InstanceMaxRequest** to **10000**, and then click on the **browse** button next to the **EnvironmentVariables** setting.
+    *Figure 3 Edit FastCGI Application dialog box*
+4. Add the **PHP\_FCGI\_MAX\_REQUESTS** environment variable and set its value to **10000**.  
 
-[[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image7.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image6.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image3.png)
+    > [!NOTE]
+    > If you do not configure these settings, then the following default settings are used: **InstanceMaxRequests** of 200, **PHP\_FCGI\_MAX\_REQUESTS** of 500 (on most PHP builds).
 
-###### Figure 3 Edit FastCGI Application dialog box
+    [![](best-practices-for-php-on-the-microsoft-web-platform/_static/image8.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image7.jpg)
 
-4. Add the **PHP\_FCGI\_MAX\_REQUESTS** environment variable and set its value to **10000**.
-
-> [!NOTE]
-> If you do not configure these settings, then the following default settings are used: **InstanceMaxRequests** of 200, **PHP\_FCGI\_MAX\_REQUESTS** of 500 (on most PHP builds).
-
-[[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image9.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image8.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image5.png)
-
-###### Figure 4 Environment Variables Collection Editor
-
-### 
+    *Figure 4 Environment Variables Collection Editor*
 
 ### Use the Command Line
 
@@ -110,8 +87,6 @@ To optimize Windows Server 2008 or Windows Server 2008 R2 performance, you can:
 - Run the IIS process (Inetinfo.exe) as a background service.
 - Disable IIS logging.
 
-### 
-
 ### Minimize IIS logging
 
 Unless required, disable logging on Web sites, virtual directories, files, and folders. You can use the UI or the command line. When logging is switched on, there is a constant appending of text files on the server that details everything about the Web sites. This is necessary if you are monitoring bandwidth though; switch on logging periodically to keep an eye on sites and the bandwidth they use, then switch off logging at all other times. There is generally no need to keep logging on permanently, unless you do want to constantly monitor bandwidth.
@@ -130,44 +105,31 @@ With increasing numbers of sites offering media content, the bandwidth costs for
 
 For example, if your videos on average only get 5 seconds of viewing time but deliver (buffer) 30 seconds worth of video data in those 5 seconds, you are potentially wasting more than 80 percent of your bandwidth.
 
-### 
-
 ### Use the Bit Rate Throttling Module
 
 IIS includes a Bit Rate Throttling Module, which automatically detects the encoding rate of the most popular video types. You can control how much data you would like to pre-send to the client in order to eliminate initial buffering delays (fast start) and at what percentage of the encoded rate you would like to deliver the content. You can also configure many other options, such as maximum bandwidth and concurrent connections, and control the module programmatically.
 
-**[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image11.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image10.jpg)**
+[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image10.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image9.jpg)
 
-###### Figure 5 Bandwidth throttling
-
-### 
+*Figure 5 Bandwidth throttling*
 
 ### Limit the number of connections to site
 
 You can also limit the number of connections available to individual Web sites.
 
 1. From the IIS Manager, expand the Web server and click to select the Web site.
-
 2. Click **Limits…** in the Actions pane
-
 3. Check the box for Limit number of connections
-
 4. Enter the number of connections that you want to allow. Note that each connected client uses approximately four concurrent connections.
-
 5. Click **OK.**
-
-### 
 
 ### Enable CPU monitoring
 
 You can also enable CPU monitoring to monitor and to automatically shut down worker processes that consume large amounts of CPU time.
 
 1. From the IIS Manager, expand the Web server and select an Application Pool.
-
 2. Click Advanced Settings from the Actions tab.
-
 3. In the **Limit** box in the **CPU** section, and type the value that you want.
-
 4. Click **OK**.
 
 ## Use HTTP Keep-Alives
@@ -175,11 +137,8 @@ You can also enable CPU monitoring to monitor and to automatically shut down wor
 The HTTP keep-alive response header improves Web server performance by keeping a client/server connection open across multiple requests to the server. The open connection improves performance when a client makes multiple requests for Web page content, because the server can return the content for each request more quickly. Otherwise, the server has to open a new connection for every request. By default, the HTTP keep-alive response header is enabled in IIS.
 
 1. From the IIS Manager and navigate to the level you want to manage.
-
 2. In **Features View**, double-click **HTTP Response Headers**.
-
 3. On the **HTTP Response Headers** page, in the **Actions** pane, click **Set Common Headers**.
-
 4. In the **Set Common HTTP Response Headers** dialog box, select the **Enable HTTP keep-alive** check box, and then click **OK**.
 
 To enable the HTTP keep-alive header from the command line, use the following syntax:
@@ -213,9 +172,9 @@ For example, to enable dynamic content compression from the command line, type t
 
 To enable compression on a particular site from the UI, select the site, and then, from the Work pane, select the Compression management tool. Choose whether you want to compress static content, dynamic content, or both.
 
-[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image13.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image12.jpg)
+[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image12.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image11.jpg)
 
-###### Figure 6 HTTP compression
+*Figure 6 HTTP compression*
 
 ## Use Forms Authentication
 
@@ -228,16 +187,13 @@ With IIS, you can configure Forms Authentication and URL Authorization rules onc
 You can enable Forms Authentication by using the UI, running Appcmd.exe in a command-line window, by editing configuration files directly, or by writing WMI scripts.
 
 1. From the IIS Manager, navigate to the level you want to manage.
-
 2. In **Features View**, double-click **Authentication**.
-
 3. On the **Authentication** page, select **Forms Authentication**.
+4. In the **Actions** pane, click **Enable** to use Forms Authentication with the default settings.  
 
-4. In the **Actions** pane, click **Enable** to use Forms Authentication with the default settings.
+    [![](best-practices-for-php-on-the-microsoft-web-platform/_static/image14.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image13.jpg)
 
-[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image15.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image14.jpg)
-
-###### Figure 7 Forms Authentication
+    *Figure 7 Forms Authentication*
 
 To enable or disable Forms Authentication from the command line, use the following syntax:
 
@@ -253,9 +209,9 @@ Microsoft Windows PowerShell command-line shell and scripting language helps IT 
 
 Figure 8 shows how to use the PowerShell Provider to create a new IIS application.
 
-[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image17.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image16.jpg)
+[![](best-practices-for-php-on-the-microsoft-web-platform/_static/image16.jpg)](best-practices-for-php-on-the-microsoft-web-platform/_static/image15.jpg)
 
-###### Figure 8 PowerShell Management Console
+*Figure 8 PowerShell Management Console*
 
 The IIS PowerShell Provider allows you to:
 
@@ -280,8 +236,6 @@ The IIS architecture is designed to be extensible from top to bottom, allowing y
 
 Often, the desired Web workload requires additional functionality that may not be part of the built-in IIS feature set. Or, in some cases, the application may require a customized set of functionality for which the built-in features are not flexible enough. Because all of the IIS features are built on public extensibility APIs, you can replace any of them with a custom implementation that best fits your needs.
 
-### 
-
 ### Extend the IIS Manager
 
 Developers can extend the IIS Manager by providing a UI for their custom components and having that UI fully integrated into IIS Manager in the same way as any out-of-the-box IIS component. By using the IIS Manager extensibility, API developers can take advantage of remote management capabilities for their components for free.
@@ -291,8 +245,6 @@ IIS Manager has built-in remote administration capabilities. Using HTTPS between
 Unlike other tools that also support remote administration, the IIS Manager remote administration architecture offers several key advantages. First, it allows users who are not administrators on the server to manage sites and applications over which they have control. Second, the IIS Manager remoting mechanism uses HTTPS, instead of DCOM, which is easier to expose through corporate firewalls. Together, these two capabilities make the IIS Manager attractive for delegated remote management of IIS Web sites, especially in shared Web-hosting environments.
 
 The IIS Manager provides an extensible architecture on which most of the built-in IIS Manager features are based. To facilitate the remote management scenario, each management feature consists of two parts: the client-side components that provide the UI experience inside IIS Manager, and the server-side component that provides the actual management services. The server-side service is loaded inside IIS Manager for local management scenarios or inside the Web Management Service in remote management scenarios. In the latter case, IIS Manager handles the required communication between the components in IIS Manager on the client machine and the service running inside WmSvc on the target server machine.
-
-### 
 
 ### Extend the configuration schema
 
@@ -373,6 +325,5 @@ Earlier versions of IIS do not have the URL Rewriter module. One of the major us
 [Importing Apache mod\_rewrite Rules](../../extensions/url-rewrite-module/importing-apache-modrewrite-rules.md).
 
 [Translating .htaccess Content to IIS web.config](../install-and-configure-php-applications-on-iis/translate-htaccess-content-to-iis-webconfig.md).
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

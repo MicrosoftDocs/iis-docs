@@ -47,34 +47,23 @@ Before starting the installation procedure for Crafty Syntax Live Help, create a
 
 Browse to the [http://localhost/cslh/setup.php](http://localhost/cslh/setup.php) page for detailed setup instructions.
 
-> 1. Click the Install link on the top of the page to redirect to the Install Wizard.   
-> 2. Enter the required database information using the database name and user name created earlier.
-
-
-[![](crafty-syntax-live-help-on-iis/_static/image2.png)](crafty-syntax-live-help-on-iis/_static/image1.png)
-
-> 3. All the tables are created and the config.php code is created. Copy the generated code and paste into config.php file:
-
-
-[![](crafty-syntax-live-help-on-iis/_static/image4.png)](crafty-syntax-live-help-on-iis/_static/image3.png)
-
-> 4. Go to the next page to learn how to verify the installation of Crafty Syntax Live Help.
-
+1. Click the Install link on the top of the page to redirect to the Install Wizard.
+2. Enter the required database information using the database name and user name created earlier.  
+    [![](crafty-syntax-live-help-on-iis/_static/image2.png)](crafty-syntax-live-help-on-iis/_static/image1.png)
+3. All the tables are created and the config.php code is created. Copy the generated code and paste into config.php file:  
+    [![](crafty-syntax-live-help-on-iis/_static/image4.png)](crafty-syntax-live-help-on-iis/_static/image3.png)
+4. Go to the next page to learn how to verify the installation of Crafty Syntax Live Help.
 
 ## Test the Application
 
 To test that Crafty Syntax has been installed successfully, chat with an operator to obtain support. Follow these steps:
 
-> 1. Navigate to [http://localhost/cslh/livehelp.php](http://localhost/cslh/livehelp.php).   
-> 2. Select the default department.
+1. Navigate to [http://localhost/cslh/livehelp.php](http://localhost/cslh/livehelp.php).
+2. Select the default department.  
+    [![](crafty-syntax-live-help-on-iis/_static/image6.png)](crafty-syntax-live-help-on-iis/_static/image5.png)
+3. Enter the question:  
+    [![](crafty-syntax-live-help-on-iis/_static/image8.png)](crafty-syntax-live-help-on-iis/_static/image7.png)
 
-
-[![](crafty-syntax-live-help-on-iis/_static/image6.png)](crafty-syntax-live-help-on-iis/_static/image5.png)  
-
-> 3. Enter the question:
-
-
-[![](crafty-syntax-live-help-on-iis/_static/image8.png)](crafty-syntax-live-help-on-iis/_static/image7.png)   
 The operator responds to the question and starts the chat to provide live help.
 
 [![](crafty-syntax-live-help-on-iis/_static/image10.png)](crafty-syntax-live-help-on-iis/_static/image9.png)

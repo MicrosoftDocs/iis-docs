@@ -53,12 +53,12 @@ This release of the SDK includes support for the following:
 - When you navigate from a Smooth Streaming application, Windows will suspend the application. This might cause unexpected behavior. To overcome this, have the application listen to the Suspend/Resume event and call (Pause)/(Play) accordingly.
 - On Windows 8 apps, screen saver isn't disabled automatically when there is video playback, This might cause issues. To avoid this, disable the screen saver for Smooth Streaming applications by using [DisplayRequest.RequestActive](https://msdn.microsoft.com/en-us/library/windows/apps/windows.system.display.displayrequest.requestactive.aspx).
 - You must change the build platform from **Any Cpu** to the targeted architecture (x64/x86/ARM) before compiling the project in Visual Studio. Otherwise, you might get compilation errors and warnings such as the following:  
-    ![](http://beta-www2-iis-dit.neudesic.com/media/7234039/smooth-streaming-client-sdk-for-windows-store-apps-release-notes-anycpuerrorlist2012.png)  
+    ![](smooth-streaming-client-sdk-for-windows-8-release-notes/_static/image1.png)  
   
  Leaving the     **Any CPU** option selected will display the following warning in the References section in Visual Studio:  
-    ![](http://beta-www2-iis-dit.neudesic.com/media/7234045/smooth-streaming-client-sdk-for-windows-store-apps-release-notes-anycpureferenceserror2012.png)
+    ![](smooth-streaming-client-sdk-for-windows-8-release-notes/_static/image2.png)
 - The SDK depends on the Microsoft Visual C++ Runtime Package. Failing to add this dependency to the project references will cause Visual Studio to generate compilation errors and warnings, such as the following:  
-    ![](http://beta-www2-iis-dit.neudesic.com/media/7234051/smooth-streaming-client-sdk-for-windows-store-apps-release-notes-1279-sswinrefresh4.png)
+    ![](smooth-streaming-client-sdk-for-windows-8-release-notes/_static/image3.png)
 - To support PlayReady-protected content playback, build version 1678 or later of the Microsoft PlayReady Client SDK for Windows 8 Apps is required.
 
 ## Building Player Applications

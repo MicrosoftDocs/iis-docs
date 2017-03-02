@@ -60,53 +60,47 @@ In order to use Gallery, you must have access to some kind of a database. For th
 
 Before starting the install, create a database on your server. Also create a database user and grant this user db ownership permission to the database.
 
-> 1. If you are using MS SQL Server 2005, then open Microsoft SQL Server Management Studio and click the "New Query" button.   
-> 2. Enter the following script into the query window (this script creates the database and user that are necessary for the Gallery application).
+1. If you are using MS SQL Server 2005, then open Microsoft SQL Server Management Studio and click the "New Query" button.
+2. Enter the following script into the query window (this script creates the database and user that are necessary for the Gallery application).  
 
+    [!code-sql[Main](gallery2-on-iis/samples/sample1.sql)]
+3. Grant the newly created user the db\_owner permissions to Gallery2 database:  
 
-[!code-sql[Main](gallery2-on-iis/samples/sample1.sql)]
-
-> 3. Grant the newly created user the db\_owner permissions to Gallery2 database:
-
-
-[![](gallery2-on-iis/_static/image4.png)](gallery2-on-iis/_static/image3.png)
+    [![](gallery2-on-iis/_static/image4.png)](gallery2-on-iis/_static/image3.png)
 
 ## Set Up and Configure the Application
 
 Open your web browser and browse to [http://localhost/gallery2/install/index.php](http://localhost/gallery2/install/index.php).
 
-> 1. Click "Begin installation" to go to the authenticate page.
+1. Click "Begin installation" to go to the authenticate page.  
+    [![](gallery2-on-iis/_static/image6.png)](gallery2-on-iis/_static/image5.png)
+2. Follow the instructions and save the login.txt file into the Gallery2 directory.
+3. Click "Authenticate Me".   
+ 4. Proceed to the next steps to perform a system check and choose the installation type. For this walkthrough, we use "Standard Installation" option.
+4. Specify the path to the data directory that you have created earlier. If you have configured permissions for g2data correctly, you can proceed to the next step after clicking "Save".  
+    [![](gallery2-on-iis/_static/image8.png)](gallery2-on-iis/_static/image7.png)
 
+    In Step 5 in the "Install Steps" pane, enter the required database information. If you have setup the database and user correctly, clicking "Save" takes you to the subsequent installation steps.
 
-[![](gallery2-on-iis/_static/image6.png)](gallery2-on-iis/_static/image5.png)
+    [![](gallery2-on-iis/_static/image10.png)](gallery2-on-iis/_static/image9.png)
 
-> 2. Follow the instructions and save the login.txt file into the Gallery2 directory.   
-> 3. Click "Authenticate Me".   
-> 4. Proceed to the next steps to perform a system check and choose the installation type. For this walkthrough, we use "Standard Installation" option.  
-> 5. Specify the path to the data directory that you have created earlier. If you have configured permissions for g2data correctly, you can proceed to the next step after clicking "Save".
+    In Step 7 in the "Install Steps" pane, you are asked to create an empty config.php file in Gallery2 folder:
 
+    [![](gallery2-on-iis/_static/image12.png)](gallery2-on-iis/_static/image11.png)
 
-[![](gallery2-on-iis/_static/image8.png)](gallery2-on-iis/_static/image7.png)
+    Make sure that the web server has write permissions to this file. For this walkthrough, we allowed write permissions to this file for "Internet Guest Account".
 
-In Step 5 in the "Install Steps" pane, enter the required database information. If you have setup the database and user correctly, clicking "Save" takes you to the subsequent installation steps.
+    After that, proceed through the remaining installation steps. Once you have completed the installation, you can login to the newly created Gallery using the administrator user name and password which you specified during installation.
 
-[![](gallery2-on-iis/_static/image10.png)](gallery2-on-iis/_static/image9.png)
+    [![](gallery2-on-iis/_static/image14.png)](gallery2-on-iis/_static/image13.png)
 
-In Step 7 in the "Install Steps" pane, you are asked to create an empty config.php file in Gallery2 folder:
+    ## Getting More Information
 
-[![](gallery2-on-iis/_static/image12.png)](gallery2-on-iis/_static/image11.png)
+    To discuss the FastCGI Extension for IIS 6.0, or file bug reports, use the FastCGI forums:
 
-Make sure that the web server has write permissions to this file. For this walkthrough, we allowed write permissions to this file for "Internet Guest Account".
+    - [IIS.NET / IIS 6.0 FastCGI forums](https://forums.iis.net/1103.aspx).
 
-After that, proceed through the remaining installation steps. Once you have completed the installation, you can login to the newly created Gallery using the administrator user name and password which you specified during installation.
+    To get more information regarding running various PHP applications on IIS, refer to:
 
-[![](gallery2-on-iis/_static/image14.png)](gallery2-on-iis/_static/image13.png)
-
-## Getting More Information
-
-To discuss the FastCGI Extension for IIS 6.0, or file bug reports, use the FastCGI forums:   
-• [IIS.NET / IIS 6.0 FastCGI forums](https://forums.iis.net/1103.aspx).   
-  
-To get more information regarding running various PHP applications on IIS, refer to:   
-• [PHP on IIS portal](https://php.iis.net/)  
-• [PHP community forum](https://forums.iis.net/1102.aspx).
+    - [PHP on IIS portal](https://php.iis.net/)
+    - [PHP community forum](https://forums.iis.net/1102.aspx).

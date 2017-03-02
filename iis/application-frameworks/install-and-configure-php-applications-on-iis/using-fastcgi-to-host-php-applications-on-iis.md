@@ -111,45 +111,35 @@ For IIS to host PHP applications, you must add a handler mapping that tells IIS 
 
 ### Configure IIS to handle PHP requests by using IIS Manager
 
-1. Open IIS Manager. At the server level, double-click **Handler Mappings**.
+1. Open IIS Manager. At the server level, double-click **Handler Mappings**.  
 
-[![](using-fastcgi-to-host-php-applications-on-iis/_static/image2.jpg)](using-fastcgi-to-host-php-applications-on-iis/_static/image1.jpg)
+    [![](using-fastcgi-to-host-php-applications-on-iis/_static/image2.jpg)](using-fastcgi-to-host-php-applications-on-iis/_static/image1.jpg)
+2. In the **Actions** pane, click **Add Module Mapping...**. In the **Add Module Mapping** dialog box, specify the configuration settings as follows:  
 
-2. In the **Actions** pane, click **Add Module Mapping...**. In the **Add Module Mapping** dialog box, specify the configuration settings as follows:
+    - Request path: **\*.php**
+    - Module: **FastCgiModule**
+    - Executable: **"C:\[Path to your PHP installation]\php-cgi.exe"**
+    - Name: **PHP via FastCGI**
+3. Click **OK**.  
 
-- Request path: **\*.php**
-- Module: **FastCgiModule**
-- Executable: **"C:\[Path to your PHP installation]\php-cgi.exe"**
-- Name: **PHP via FastCGI**
+    [![](using-fastcgi-to-host-php-applications-on-iis/_static/image7.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image6.png)
+4. In the **Add Module Mapping** confirmation dialog box that asks if you want to create a FastCGI application for this executable, click **Yes**.  
 
-3. Click **OK**.
+    [![](using-fastcgi-to-host-php-applications-on-iis/_static/image4.jpg)](using-fastcgi-to-host-php-applications-on-iis/_static/image3.jpg)
+5. Test that the handler mapping works correctly by creating a phpinfo.php file in the C:\inetpub\wwwroot folder that contains the following code:  
 
-[![](using-fastcgi-to-host-php-applications-on-iis/_static/image7.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image6.png)
+    [!code-unknown[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample-127404-2.unknown)]
+6. Open a browser and navigate to http://localhost/phpinfo.php. If everything was setup correctly, you will see the standard PHP information page.  
 
-4. In the **Add Module Mapping** confirmation dialog box that asks if you want to create a FastCGI application for this executable, click **Yes**.
+    [![](using-fastcgi-to-host-php-applications-on-iis/_static/image9.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image8.png)
 
-[![](using-fastcgi-to-host-php-applications-on-iis/_static/image4.jpg)](using-fastcgi-to-host-php-applications-on-iis/_static/image3.jpg)
+    **NOTE**: If you do not see **FastCgiModule** in the **Modules:** list, the module is either not registered or not enabled. To check if the FastCGI module is registered, open the IIS configuration file that is located at %*windir*%\windows\system32\config\applicationHost.config and check that the following line is present in the &lt;globalModules&gt; section:
 
-5. Test that the handler mapping works correctly by creating a phpinfo.php file in the C:\inetpub\wwwroot folder that contains the following code:
+    [!code-xml[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample3.xml)]
 
+    In the same file, also check that the FastCGI module is added to the &lt;modules&gt; section:
 
-[!code-unknown[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample-127404-2.unknown)]
-
-
-6. Open a browser and navigate to http://localhost/phpinfo.php. If everything was setup correctly, you will see the standard PHP information page.
-
-[![](using-fastcgi-to-host-php-applications-on-iis/_static/image9.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image8.png)
-
-**NOTE**: If you do not see **FastCgiModule** in the **Modules:** list, the module is either not registered or not enabled. To check if the FastCGI module is registered, open the IIS configuration file that is located at %*windir*%\windows\system32\config\applicationHost.config and check that the following line is present in the &lt;globalModules&gt; section:
-
-
-[!code-xml[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample3.xml)]
-
-
-In the same file, also check that the FastCGI module is added to the &lt;modules&gt; section:
-
-
-[!code-xml[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample4.xml)]
+    [!code-xml[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample4.xml)]
 
 <a id="Using_command_line"></a>
 
@@ -157,20 +147,15 @@ In the same file, also check that the FastCGI module is added to the &lt;modules
 
 Alternatively, you can complete the steps above by using the command line tool A **ppCmd**.
 
-1. Create the FastCGI application process pool by running the following command:
+1. Create the FastCGI application process pool by running the following command:  
 
+    [!code-console[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample5.cmd)]
+2. Create the handler mapping by running the following command:  
 
-[!code-console[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample5.cmd)]
+    [!code-console[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample6.cmd)]
 
-
-2. Create the handler mapping by running the following command:
-
-
-[!code-console[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample6.cmd)]
-
-
-> [!NOTE]
-> If you are using PHP version 4.X, you can use php.exe instead of php-cgi.exe.
+    > [!NOTE]
+    > If you are using PHP version 4.X, you can use php.exe instead of php-cgi.exe.
 
 <a id="BestPractices"></a>
 
@@ -201,24 +186,21 @@ The FastCGI settings can be configured either by using IIS Manager or by using t
 
 #### Configure FastCGI recycling settings by using IIS Manager
 
-1. Ensure that the [Administration Pack for IIS](using-fastcgi-to-host-php-applications-on-iis.md#Install_Administration_Pack_for_IIS_7.0) is installed on your server. Open IIS Manager. On the server level, double-click **FastCGI Settings**.
+1. Ensure that the [Administration Pack for IIS](using-fastcgi-to-host-php-applications-on-iis.md#Install_Administration_Pack_for_IIS_7.0) is installed on your server. Open IIS Manager. On the server level, double-click **FastCGI Settings**.  
 
-[![](using-fastcgi-to-host-php-applications-on-iis/_static/image11.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image10.png)
+    [![](using-fastcgi-to-host-php-applications-on-iis/_static/image11.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image10.png)
+2. Select the FastCGI application that you want to configure. In the **Actions** pane, click **Edit...**.  
 
-2. Select the FastCGI application that you want to configure. In the **Actions** pane, click **Edit...**.
+    [![](using-fastcgi-to-host-php-applications-on-iis/_static/image13.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image12.png)
+3. In the **Edit FastCGI Application** dialog box, set the **InstanceMaxRequests** to **10000**. Next to the **EnvironmentVariables** setting, click the Browse (**...**) button.  
 
-[![](using-fastcgi-to-host-php-applications-on-iis/_static/image13.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image12.png)
+    [![](using-fastcgi-to-host-php-applications-on-iis/_static/image15.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image14.png)
+4. In the **EnvironmentVariables Collection Editor** dialog box, add the **PHP\_FCGI\_MAX\_REQUESTS** environment variable and set its value to **10000**.  
 
-3. In the **Edit FastCGI Application** dialog box, set the **InstanceMaxRequests** to **10000**. Next to the **EnvironmentVariables** setting, click the Browse (**...**) button.
+    [![](using-fastcgi-to-host-php-applications-on-iis/_static/image17.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image16.png)
 
-[![](using-fastcgi-to-host-php-applications-on-iis/_static/image15.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image14.png)
-
-4. In the **EnvironmentVariables Collection Editor** dialog box, add the **PHP\_FCGI\_MAX\_REQUESTS** environment variable and set its value to **10000**.
-
-[![](using-fastcgi-to-host-php-applications-on-iis/_static/image17.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image16.png)
-
-> [!NOTE]
-> If you do not configure these settings, the following default settings will be used: **instanceMaxRequests** = 200, **PHP\_FCGI\_MAX\_REQUESTS** = 500 (on most PHP builds).
+    > [!NOTE]
+    > If you do not configure these settings, the following default settings will be used: **instanceMaxRequests** = 200, **PHP\_FCGI\_MAX\_REQUESTS** = 500 (on most PHP builds).
 
 #### Configure FastCGI recycling settings by using the command line
 

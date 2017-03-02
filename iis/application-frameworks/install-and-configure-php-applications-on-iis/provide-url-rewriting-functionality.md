@@ -94,31 +94,23 @@ Typically, WordPress users must use "almost pretty" URLs (for example, `http://c
 The steps that follow assume that WordPress is installed in a Web site root directory. If WordPress is installed in a subdirectory, then the rewrite rules must be included in the Web.config file located within the same subdirectory as the WordPress files.
 
 1. Install **URL Rewrite Go Live** release.
-
 2. Log on to **WordPress** as an administrator.
-
 3. Click the **Settings** button.
+4. Click the **Permalinks** tab for the **Customize Permalink Structure** page.  
 
-4. Click the **Permalinks** tab for the **Customize Permalink Structure** page.
+    [![](provide-url-rewriting-functionality/_static/image2.jpg)](provide-url-rewriting-functionality/_static/image1.jpg)
 
-[![](provide-url-rewriting-functionality/_static/image2.jpg)](provide-url-rewriting-functionality/_static/image1.jpg)
-
-###### Figure 1: Customize permalink structure page
-
+    *Figure 1: Customize permalink structure page*
 5. Select **Custom Structure**, and then type  
-**/%year%/%monthnum%/%day%/%postname%/** in the **Custom Structure** text box.
-
+    **/%year%/%monthnum%/%day%/%postname%/** in the     **Custom Structure** text box.
 6. Click **Save Changes**. You will see that all the blog post links have URLs that follow the format you have specified; however, if you click any link, the Web server returns a 404 - File Not Found error, because WordPress relies on a URL rewriting capability within a server to rewrite requests that have "pretty permalinks" to an Index.php file.
 
 ## Create Rewrite Rule
 
 1. Open the **Web.config** file (located in the same directory as the WordPress files). If you do not have a Web.config file in the WordPress directory, create it.
+2. Copy and paste the following XML section into the system.webServer element:  
 
-2. Copy and paste the following XML section into the system.webServer element:
-
-
-[!code-xml[Main](provide-url-rewriting-functionality/samples/sample1.xml)]
-
+    [!code-xml[Main](provide-url-rewriting-functionality/samples/sample1.xml)]
 
 This rule matches any requested URL; if the URL does not correspond to a file or a folder on a file system, then the rule rewrites the URL to Index.php and determines which content to serve based on the REQUEST\_URI server variable that contains the original URL before it was modified by the rule.
 
@@ -126,13 +118,11 @@ This rule matches any requested URL; if the URL does not correspond to a file or
 
 After the rewrite rule is saved to the Web.config file, open a Web browser, and click any one of the permalinks in WordPress blog. You should see the correct content returned by the Web server for every permalink.
 
-[[![](provide-url-rewriting-functionality/_static/image4.jpg)](provide-url-rewriting-functionality/_static/image3.jpg)](provide-url-rewriting-functionality/_static/image1.png)
+[![](provide-url-rewriting-functionality/_static/image4.jpg)](provide-url-rewriting-functionality/_static/image3.jpg)
 
-###### Figure 2: Blog welcome page
-
+*Figure 2: Blog welcome page*
 
 *This article updates the*[*Enabling Pretty Permalinks in WordPress*](../../extensions/url-rewrite-module/enabling-pretty-permalinks-in-wordpress.md)*and*[*IIS 7 URL Rewrite Module support in WordPress 2.8*](https://blogs.iis.net/ruslany/archive/2009/05/16/iis-7-url-rewrite-module-support-in-wordpress-2-8.aspx)*articles written by Ruslan Yakushev.*
-
 
 ## Links for Further Information
 

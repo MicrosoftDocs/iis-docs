@@ -48,8 +48,8 @@ The download locations for UrlScan are listed in the "Getting UrlScan" section o
 
 [https://www.iis.net/learn/extensions/working-with-urlscan](index.md)
 
-*> [!NOTE]
-> There are separate downloads for 32-bit and 64-bit Windows.*
+> [!NOTE]
+> There are separate downloads for 32-bit and 64-bit Windows.
 
 
 LogParser is available from the following URL:
@@ -57,8 +57,8 @@ LogParser is available from the following URL:
 
 [https://www.iis.net/go/1287](https://www.microsoft.com/en-us/download/details.aspx?id=24659)
 
-*> [!NOTE]
-> LogParser is a 32-bit application, but you can use it on a 64-bit Windows system.*
+> [!NOTE]
+> LogParser is a 32-bit application, but you can use it on a 64-bit Windows system.
 
 
 While it's not essential, copying LogParser.exe to a folder in your PATH will allow you to run LogParser from any folder on your system.

@@ -65,21 +65,16 @@ Before starting the installation procedure for XOOPS, create a database on your 
 
 Begin the graphical XOOPS installation procedure by pointing your browser at [http://localhost/xoops](http://localhost/xoops) . You see the following page.
 
-> 1. Click 'Next' to go to the next screen.
+1. Click 'Next' to go to the next screen.  
 
+    [![](xoops-on-iis/_static/image2.png)](xoops-on-iis/_static/image1.png)
+2. Proceed through the installation screens until you get to the most important page-- the setup for configuring the database connection. Fill in the information as appropriate:  
 
-[![](xoops-on-iis/_static/image2.png)](xoops-on-iis/_static/image1.png)
+    [![](xoops-on-iis/_static/image4.png)](xoops-on-iis/_static/image3.png)
 
-> 2. Proceed through the installation screens until you get to the most important page-- the setup for configuring the database connection. Fill in the information as appropriate:
-
-
-[![](xoops-on-iis/_static/image4.png)](xoops-on-iis/_static/image3.png)
-
-> [!NOTE]
-> The XOOPS root path is shown with the wrong slashes, but the install still works.
-
-> 3. Now that the database connection is configured, proceed to the following screens that verify the connection and set up the database tables. Keep clicking "Next" and several screens later XOOPS will be successfully installed.
-
+    > [!NOTE]
+    > The XOOPS root path is shown with the wrong slashes, but the install still works.
+3. Now that the database connection is configured, proceed to the following screens that verify the connection and set up the database tables. Keep clicking "Next" and several screens later XOOPS will be successfully installed.
 
 ## Getting More Information
 

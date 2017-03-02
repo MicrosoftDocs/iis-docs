@@ -30,14 +30,11 @@ The SQL Server Driver for PHP application programming interface (API) includes s
 
 You need to ensure that the following are installed:
 
-- Supported operating systems:
+- Supported operating systems:  
 
-Windows Server® 2008 R2 or Windows Server® 2008
-
-Windows® 7, Windows Vista® Service Pack 1 (SP1), Windows® XP SP3
-
-Windows Server® 2003 SP2, Windows® 2000 SP4
-
+    - Windows Server® 2008 R2 or Windows Server® 2008
+    - Windows® 7, Windows Vista® Service Pack 1 (SP1), Windows® XP SP3
+    - Windows Server® 2003 SP2, Windows® 2000 SP4
 - PHP 5.X.X. Microsoft SQL Server 2008 Native Client. You can download SQL Server Native Client from a Microsoft® SQL Server® 2008 Feature Pack, at: [https://www.microsoft.com/downloads/details.aspx?familyid=B33D2C78-1059-4CE2-B80D-2343C099BCB4&amp;displaylang=en%20](https://www.microsoft.com/downloads/details.aspx?familyid=B33D2C78-1059-4CE2-B80D-2343C099BCB4&amp;displaylang=en%20)
 - Any edition of SQL Server 2005 or SQL Server 2008.
 - A Web server configured to run PHP.
@@ -47,46 +44,33 @@ Windows Server® 2003 SP2, Windows® 2000 SP4
 Perform the following steps to download and install the SQL Server Driver for PHP.
 
 1. Download %SQLServerDriverForPHP.EXE to a temporary directory.
-
 2. Double-click to run %SQLServerDriverForPHP.EXE.
-
 3. Enter an installation directory when prompted. It is recommended that you extract the file to **%ProgramFiles%** with the default directory **Microsoft SQL Server Driver for PHP**.
-
 4. Double-click to open the **SQLServerDriverForPHP.chm** help file.
-
 5. Install the **Microsoft SQL Server Native Client** from the link provided.
-
 6. Copy the **php\_sqlsrv.dll** and **php\_sqlsrv\_ts.dll** files to the **C:\PHP\ext\** directory.
+7. Open the **C:\PHP\php.ini** file, and add the following line in the **Extensions** section:  
 
-7. Open the **C:\PHP\php.ini** file, and add the following line in the **Extensions** section:
-
-[!code-unknown[Main](install-the-sql-server-driver-for-php/samples/sample-127390-1.unknown)]
-
+    [!code-unknown[Main](install-the-sql-server-driver-for-php/samples/sample-127390-1.unknown)]
 8. Click **Start**, and select the *search field*.
-
 9. Type **iisreset**, and then press ENTER.
 
 ## Configure the Driver
 
 1. Retrieve the driver's current configuration settings using the sqlsrv\_get\_config function.
-
 2. Change the configuration settings using the sqlsrv\_configure function, or set values for the configuration settings in the php.ini file.
+3. Ensure that the driver is loaded and verify the configuration settings by running a script that calls the phpinfo( ) function:  
 
-3. Ensure that the driver is loaded and verify the configuration settings by running a script that calls the phpinfo( ) function:
+    1. Open a text file, and copy the following code into it:  
 
-a. Open a text file, and copy the following code into it:
+        [!code-unknown[Main](install-the-sql-server-driver-for-php/samples/sample-127390-2.unknown)]
+    2. Save the file as **info.php** in your Web server's root directory.
+    3. Open a browser, and go to [http://localhost/info.php](http://localhost/info.php).
+    4. Scroll down the resulting page to find the **sqlsrv** section. Confirm that the driver is loaded and the configuration settings are set to the default values (see Figure 1).  
 
-[!code-unknown[Main](install-the-sql-server-driver-for-php/samples/sample-127390-2.unknown)]
+        [![](install-the-sql-server-driver-for-php/_static/image2.jpg)](install-the-sql-server-driver-for-php/_static/image1.jpg)
 
-b. Save the file as **info.php** in your Web server's root directory.
-
-c. Open a browser, and go to [http://localhost/info.php](http://localhost/info.php).
-
-d. Scroll down the resulting page to find the **sqlsrv** section. Confirm that the driver is loaded and the configuration settings are set to the default values (see Figure 1).
-
-[![](install-the-sql-server-driver-for-php/_static/image3.jpg)](install-the-sql-server-driver-for-php/_static/image2.jpg)
-
-###### Figure 1: SQL Server configuration settings page
+        *Figure 1: SQL Server configuration settings page*
 
 ## Create a Connection to the Database
 
@@ -102,7 +86,7 @@ For more details on sqlsrv\_connect, see: [SQL Server Developer Center](https://
 
 [Microsoft SQL Server Driver for PHP](http://www.codeplex.com/SQLSRVPHP).
 
-<a id="bp___ctl00___bth___BlogTitle"></a>[SQL Azure Team Blog](https://blogs.msdn.com/ssds/default.aspx).
+[SQL Azure Team Blog](https://blogs.msdn.com/ssds/default.aspx).
 
 [SQL Server Driver for PHP 1.1 - October 2009](https://www.microsoft.com/downloads/details.aspx?FamilyID=ccdf728b-1ea0-48a8-a84a-5052214caad9&amp;displaylang=en).
 

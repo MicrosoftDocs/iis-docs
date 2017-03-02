@@ -26,10 +26,10 @@ The following sections describe how to install and configure pMachinePro for use
 
 ## Notes on PHP Setup
 
-pMachine Pro does not require many modifications beyond the default configuration provided by PHP. From the base configuration file provided by PHP, you only need to modify the following lines in your php.ini configuration file to get pMachine Pro working:  
-  
-• Define 'extension\_dir' as 'c:\php\ext' (i.e., the location of your PHP extensions directory)  
-• Uncomment 'extension=php\_mysql.dll' in the extensions list to enable MySQL support
+pMachine Pro does not require many modifications beyond the default configuration provided by PHP. From the base configuration file provided by PHP, you only need to modify the following lines in your php.ini configuration file to get pMachine Pro working:
+
+- Define 'extension\_dir' as 'c:\php\ext' (i.e., the location of your PHP extensions directory)
+- Uncomment 'extension=php\_mysql.dll' in the extensions list to enable MySQL support
 
 ## Download and Unpack pMachinePro
 
@@ -45,10 +45,11 @@ Before starting the installation procedure for pMachinePro, create a database on
 
 ## Set Up and Configure pMachinePro
 
-To ensure that the Installation process can complete without errors, follow the instructions to set the file and directory permissions described in the installation document contained in the package. For this walkthrough, we provide modify permissions to the local machine "Internet Guest Account" for the following directories and file:  
-• /images/uploads  
-• /images/captchas  
-• /pm/config.php
+To ensure that the Installation process can complete without errors, follow the instructions to set the file and directory permissions described in the installation document contained in the package. For this walkthrough, we provide modify permissions to the local machine "Internet Guest Account" for the following directories and file:
+
+- /images/uploads
+- /images/captchas
+- /pm/config.php
 
 Change the database connection setting in the config.php file to point to your installed MySQL instance.
 
@@ -63,24 +64,18 @@ This results in creating all the tables and you see the registration form to reg
 
 To test that pMachine has been installed successfully, create a blog postings and view it as a site visitor would. Follow these steps:
 
-> 1. Navigate to [http://localhost/pMachine/pm/index.php](http://localhost/pMachine/pm/index.php).   
-> 2. Enter the administrator username and password created in the last installation step.
+1. Navigate to [http://localhost/pMachine/pm/index.php](http://localhost/pMachine/pm/index.php).
+2. Enter the administrator username and password created in the last installation step.  
+    [![](pmachinepro-on-iis/_static/image4.jpg)](pmachinepro-on-iis/_static/image3.jpg)
+3. Once logged in, enter a title for your post and some content and click Preview. This displays what the post looks like.  
 
+    [![](pmachinepro-on-iis/_static/image6.jpg)](pmachinepro-on-iis/_static/image5.jpg)
 
-[![](pmachinepro-on-iis/_static/image4.jpg)](pmachinepro-on-iis/_static/image3.jpg)
+    [![](pmachinepro-on-iis/_static/image8.jpg)](pmachinepro-on-iis/_static/image7.jpg)
+4. Click Submit to publish this content to the Blog selected (Blog A in the case above).
+5. Navigate to [http://localhost/pmachine/weblog.php](http://localhost/pmachine/weblog.php) to browse to the actual blog site. See the actual blog as seen by site visitors.  
 
-> 3. Once logged in, enter a title for your post and some content and click Preview. This displays what the post looks like.
-
-
-[![](pmachinepro-on-iis/_static/image6.jpg)](pmachinepro-on-iis/_static/image5.jpg)
-
-> [![](pmachinepro-on-iis/_static/image8.jpg)](pmachinepro-on-iis/_static/image7.jpg)  
->    
-> 4. Click Submit to publish this content to the Blog selected (Blog A in the case above).  
-> 5. Navigate to [http://localhost/pmachine/weblog.php](http://localhost/pmachine/weblog.php) to browse to the actual blog site. See the actual blog as seen by site visitors.
-
-
-[![](pmachinepro-on-iis/_static/image10.jpg)](pmachinepro-on-iis/_static/image9.jpg)
+    [![](pmachinepro-on-iis/_static/image10.jpg)](pmachinepro-on-iis/_static/image9.jpg)
 
 ## Getting More Information
 

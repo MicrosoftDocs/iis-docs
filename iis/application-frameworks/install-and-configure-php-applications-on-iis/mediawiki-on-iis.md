@@ -30,97 +30,78 @@ The instructions have been tested and found to work in the following configurati
 
 ## Notes on PHP Setup
 
-> 1. Change the default session, upload folders and grant access to the built-in IIS\_IUSRS group.   
-> 2. Open a Command Prompt window with administrator privileges and run the following commands:
+1. Change the default session, upload folders and grant access to the built-in IIS\_IUSRS group.
+2. Open a Command Prompt window with administrator privileges and run the following commands:  
 
+    [!code-console[Main](mediawiki-on-iis/samples/sample1.cmd)]
 
-[!code-console[Main](mediawiki-on-iis/samples/sample1.cmd)]
+    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-2.unknown)]
 
-[!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-2.unknown)]
+    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-3.unknown)]
 
-[!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-3.unknown)]
+    From the base configuration file provided by PHP, you will need to modify your php.ini to have the following definitions:
 
-From the base configuration file provided by PHP, you will need to modify your php.ini to have the following definitions:
+    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-4.unknown)]
 
-[!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-4.unknown)]
+    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-5.unknown)]
+3. Enable PHP support for MySQL. Modify your php.ini to define the extensions directory and uncomment the PHP MySQL extension definition:  
 
-[!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-5.unknown)]
-
-> 3. Enable PHP support for MySQL. Modify your php.ini to define the extensions directory and uncomment the PHP MySQL extension definition:
-
-
-[!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-6.unknown)]
+    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-6.unknown)]
 
 ## Download and Unpack MediaWiki
 
 The latest release of MediaWiki is found at [http://www.mediawiki.org/wiki/Download/](http://www.mediawiki.org/wiki/Download/). The instructions in this document are based on version 1.11.0, but future versions are likely to be very similar as far as installation is concerned.
 
-> 1. After downloading the GNU zip package, extract its contents to %SystemDrive%\Inetpub\wwwroot\MediaWiki or another directory of your choosing.   
-> 2. Modify the permissions for the MediaWiki config folder and grant Write permissions for the built-in IIS\_IUSRS group.   
-> 3. Open a Command Prompt window with administrator privileges and run the following command:
+1. After downloading the GNU zip package, extract its contents to %SystemDrive%\Inetpub\wwwroot\MediaWiki or another directory of your choosing.
+2. Modify the permissions for the MediaWiki config folder and grant Write permissions for the built-in IIS\_IUSRS group.
+3. Open a Command Prompt window with administrator privileges and run the following command:  
 
-
-[!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-7.unknown)]
+    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-7.unknown)]
 
 ## Configure MediaWiki
 
-> 1. Begin the graphical MediaWiki installation procedure by pointing your browser at [http://localhost/mediawiki/config/index.php](http://localhost/mediawiki/config/index.php). You see the following screen.
+1. Begin the graphical MediaWiki installation procedure by pointing your browser at [http://localhost/mediawiki/config/index.php](http://localhost/mediawiki/config/index.php). You see the following screen.  
 
+    [![](mediawiki-on-iis/_static/image2.jpg)](mediawiki-on-iis/_static/image1.jpg)
+2. Scroll down the window and configure your Wiki name and all the required fields. In the Database config section, enable the 'Use superuser account' checkbox and enter the database superuser password.  
 
-[![](mediawiki-on-iis/_static/image3.jpg)](mediawiki-on-iis/_static/image2.jpg) 
+    [![](mediawiki-on-iis/_static/image4.jpg)](mediawiki-on-iis/_static/image3.jpg)
+3. Once you enter all the required information, click "Install MediaWiki!". The configuration page creates the database wikidb and saves your settings in the %SystemDrive%\Inetpub\wwwroot\MediaWiki\config\LocalSettings.php file.  
 
+    [![](mediawiki-on-iis/_static/image6.jpg)](mediawiki-on-iis/_static/image5.jpg)
+4. Move the LocalSetting.php file to the %SystemDrive%\Inetpub\wwwroot\MediaWiki\ folder and delete the folder %SystemDrive%\Inetpub\wwwroot\MediaWiki\config from your system.
+5. LocalSetting.php contains sensitive information, so secure it by revoking access to unnecessary identities. Open a Command Prompt window with administrator privileges and run the following command:  
 
-> 2. Scroll down the window and configure your Wiki name and all the required fields. In the Database config section, enable the 'Use superuser account' checkbox and enter the database superuser password.
+    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-8.unknown)]
 
+ The previous command grants access only to the following identities:  
 
-[![](mediawiki-on-iis/_static/image5.jpg)](mediawiki-on-iis/_static/image4.jpg)
+    - SYSTEM
+    - BUILTIN\Administrators group
+    - Network Service
+6. The installation is complete. Point your browser to [http://localhost/mediawiki/config/index.php](http://localhost/mediawiki/config/index.php).  
 
-> 3. Once you enter all the required information, click "Install MediaWiki!". The configuration page creates the database wikidb and saves your settings in the %SystemDrive%\Inetpub\wwwroot\MediaWiki\config\LocalSettings.php file.
-
-
-[![](mediawiki-on-iis/_static/image7.jpg)](mediawiki-on-iis/_static/image6.jpg)
-
-> 4. Move the LocalSetting.php file to the %SystemDrive%\Inetpub\wwwroot\MediaWiki\ folder and delete the folder %SystemDrive%\Inetpub\wwwroot\MediaWiki\config from your system.  
-> 5. LocalSetting.php contains sensitive information, so secure it by revoking access to unnecessary identities. Open a Command Prompt window with administrator privileges and run the following command:
-
-
-[!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-8.unknown)]
-
-The previous command grants access only to the following identities:  
-  
-SYSTEM
-
-BUILTIN\Administrators group
-
-Network Service
-
-> 6. The installation is complete. Point your browser to [http://localhost/mediawiki/config/index.php](http://localhost/mediawiki/config/index.php).
-
-
- [![](mediawiki-on-iis/_static/image9.jpg)](mediawiki-on-iis/_static/image8.jpg) 
+    [![](mediawiki-on-iis/_static/image8.jpg)](mediawiki-on-iis/_static/image7.jpg)
 
 ## Testing the Application
 
 For testing MediaWiki, create a user and modify the Main Page content.
 
-
 1. Navigate to [http://localhost/MediaWiki/index.php](http://localhost/MediaWiki/index.php).
-
 2. Click the Log in / create account link in the top right corner.
-
 3. Click the "Create an account" link.
+4. Enter the username and password and click "Create account".  
 
-4. Enter the username and password and click "Create account".
+    [![](mediawiki-on-iis/_static/image10.jpg)](mediawiki-on-iis/_static/image9.jpg)
 
-[![](mediawiki-on-iis/_static/image11.jpg)](mediawiki-on-iis/_static/image10.jpg) [![](mediawiki-on-iis/_static/image13.jpg)](mediawiki-on-iis/_static/image12.jpg)
+    [![](mediawiki-on-iis/_static/image12.jpg)](mediawiki-on-iis/_static/image11.jpg)
+5. Go to the main page and click the Edit link. An Editor displays in which you can make your changes. When done with changes, click "Save Page".  
 
-> 5. Go to the main page and click the Edit link. An Editor displays in which you can make your changes. When done with changes, click "Save Page".
+    [![](mediawiki-on-iis/_static/image14.jpg)](mediawiki-on-iis/_static/image13.jpg)
 
+Here is the modified page.
 
- [![](mediawiki-on-iis/_static/image15.jpg)](mediawiki-on-iis/_static/image14.jpg)  
-Here is the modified page. 
-
-[![](mediawiki-on-iis/_static/image17.jpg)](mediawiki-on-iis/_static/image16.jpg)
+[![](mediawiki-on-iis/_static/image16.jpg)](mediawiki-on-iis/_static/image15.jpg)
 
 ## Enabling clean URLs with URL Rewrite Module
 

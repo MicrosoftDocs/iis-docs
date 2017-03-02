@@ -45,14 +45,11 @@ Before starting the installation procedure for AdvancedPoll, you must create a d
 
 ## Set Up and Configure the Application
 
-> 1. Open the configuration file **Configu.inc.php** with a text editor, and set your database settings:
-> 
-> [!code-powershell[Main](advanced-poll-on-iis/samples/sample1.ps1)]
-> 
-> 2. Call the install script from your browser `http://localhost/advancedpoll/install.php`, and follow the setup instructions.
+1. Open the configuration file **Configu.inc.php** with a text editor, and set your database settings:  
 
-
-[![](advanced-poll-on-iis/_static/image2.png)](advanced-poll-on-iis/_static/image1.png)
+    [!code-powershell[Main](advanced-poll-on-iis/samples/sample1.ps1)]
+2. Call the install script from your browser `http://localhost/advancedpoll/install.php`, and follow the setup instructions.  
+    [![](advanced-poll-on-iis/_static/image2.png)](advanced-poll-on-iis/_static/image1.png)
 
 All the necessary database tables are created.
 
@@ -64,22 +61,14 @@ To test that Advanced Poll has been installed successfully, use the built-in dem
 
 Create a poll and view it as a site visitor would. Follow these steps:
 
-> 1. Navigate to `http://localhost/advancedpoll/admin`.   
-> 2. Enter the *administrator user name* and *password* created in the last installation step.
-
-
-[![](advanced-poll-on-iis/_static/image6.png)](advanced-poll-on-iis/_static/image5.png)
-
-> 3. Once logged in, click **Create a new poll**. A form displays:
-
-
-[![](advanced-poll-on-iis/_static/image8.png)](advanced-poll-on-iis/_static/image7.png)
-
-> 4. Click **Save** to publish this poll.   
-> 5. Here you see the actual poll as site visitors see it.
-
-
-[![](advanced-poll-on-iis/_static/image10.png)](advanced-poll-on-iis/_static/image9.png)
+1. Navigate to `http://localhost/advancedpoll/admin`.
+2. Enter the *administrator user name* and *password* created in the last installation step.  
+    [![](advanced-poll-on-iis/_static/image6.png)](advanced-poll-on-iis/_static/image5.png)
+3. Once logged in, click **Create a new poll**. A form displays:  
+    [![](advanced-poll-on-iis/_static/image8.png)](advanced-poll-on-iis/_static/image7.png)
+4. Click **Save** to publish this poll.
+5. Here you see the actual poll as site visitors see it.  
+    [![](advanced-poll-on-iis/_static/image10.png)](advanced-poll-on-iis/_static/image9.png)
 
 ## Getting More Information
 

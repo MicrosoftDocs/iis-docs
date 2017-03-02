@@ -83,108 +83,85 @@ Before starting the installation procedure for Joomla, you must create a databas
 ## Run the Installation Script
 
 1. Start the configuration procedure in a Web browser. Go to `http://localhost/joomla/`. (If the Index.php file is not in the browser default document, then add it.)
+2. Select the *language*, and then click **Next**.  
 
-2. Select the*language*, and then click **Next**.
+    [![](install-joomla-on-iis/_static/image2.jpg)](install-joomla-on-iis/_static/image1.jpg)
 
-[![](install-joomla-on-iis/_static/image4.jpg)](install-joomla-on-iis/_static/image3.jpg)
+    *Figure 1: Choose Language page*
+3. Verify that all pre-installation checks are successful, and then click **Next**.  
 
-###### Figure 1: Choose Language page
+    [![](install-joomla-on-iis/_static/image4.jpg)](install-joomla-on-iis/_static/image3.jpg)
 
-3. Verify that all pre-installation checks are successful, and then click **Next**.
+    *Figure 2: Pre-installation Check page*
+4. Review the GNU General Public License, and then click **Next**.  
 
-[![](install-joomla-on-iis/_static/image6.jpg)](install-joomla-on-iis/_static/image5.jpg)
+    [![](install-joomla-on-iis/_static/image6.jpg)](install-joomla-on-iis/_static/image5.jpg)
 
-###### Figure 2: Pre-installation Check page
+    *Figure 3: License page*
+5. On this page enter the following information, and then click **Next**. 
 
-4. Review the GNU General Public License, and then click **Next**.
+    - Host Name: **localhost**
+    - Username: **joomla**
+    - Password: **joomla**
+    - Database: **joomla**
 
-[![](install-joomla-on-iis/_static/image8.jpg)](install-joomla-on-iis/_static/image7.jpg)
+    [![](install-joomla-on-iis/_static/image8.jpg)](install-joomla-on-iis/_static/image7.jpg)
 
-###### Figure 3: License page
+    *Figure 4: Database Configuration page*
+6. On the **FTP Configuration** page, select the **No** option button (not to enable FTP file system layer), and then click **Next**.  
 
-5. On this page enter the following information, and then click **Next**.
+    [![](install-joomla-on-iis/_static/image10.jpg)](install-joomla-on-iis/_static/image9.jpg)
 
-a. Host Name: **localhost**   
- b. Username: **joomla**  
- c. Password: **joomla**   
- d. Database: **joomla**
+    *Figure 5: FTP Configuration page*
+7. Specify the *site name* and the *administrator password*. Click **Next** to complete the installation.  
 
-[[![](install-joomla-on-iis/_static/image10.jpg)](install-joomla-on-iis/_static/image9.jpg)](install-joomla-on-iis/_static/image1.png)
+    Note: You may scroll down and install sample data if you prefer.
 
-###### Figure 4: Database Configuration page
+    [![](install-joomla-on-iis/_static/image12.jpg)](install-joomla-on-iis/_static/image11.jpg)
 
-6. On the **FTP Configuration** page, select the **No** option button (not to enable FTP file system layer), and then click **Next**.
+    *Figure 6: Main Configuration page*
+8. The Finish page appears, and you are instructed to delete the **C:\inetpub\wwwroot\joomla\installation** directory.  
 
-[[![](install-joomla-on-iis/_static/image12.jpg)](install-joomla-on-iis/_static/image11.jpg)](install-joomla-on-iis/_static/image3.png)
+    [![](install-joomla-on-iis/_static/image14.jpg)](install-joomla-on-iis/_static/image13.jpg)
 
-###### Figure 5: FTP Configuration page
+    *Figure 7: Finish page*
+9. You can now go to the Joomla site.  
 
-7. Specify the *site name* and the *administrator password*. Click **Next** to complete the installation.
+    [![](install-joomla-on-iis/_static/image16.jpg)](install-joomla-on-iis/_static/image15.jpg)
 
-Note: You may scroll down and install sample data if you prefer.
-
-[[![](install-joomla-on-iis/_static/image14.jpg)](install-joomla-on-iis/_static/image13.jpg)](install-joomla-on-iis/_static/image5.png)
-
-###### Figure 6: Main Configuration page
-
-8. The Finish page appears, and you are instructed to delete the **C:\inetpub\wwwroot\joomla\installation** directory.
-
-[![](install-joomla-on-iis/_static/image16.jpg)](install-joomla-on-iis/_static/image15.jpg)
-
-###### Figure 7: Finish page
-
-9. You can now go to the Joomla site.
-
-[[![](install-joomla-on-iis/_static/image18.jpg)](install-joomla-on-iis/_static/image17.jpg)](install-joomla-on-iis/_static/image7.png)
-
-###### Figure 8: Joomla site
+    *Figure 8: Joomla site*
 
 ## Enable Search Engine Friendly URLs
 
 By default, Joomla uses query string parameters for all the URLs it generates for your Web site. You change this by by enabling search engine friendly URLs, a feature which relies on the URL rewriting functionality.
 
-IIS 6.0 does not include URL rewriting capabilities; you can use a third-party URL rewriting product such as [ISAPI\_Rewrite](https://www.iis.net/downloads?tabid=34&g=6&i=1599)or [Ionics ISAPI Rewrite Filter](http://www.codeplex.com/IIRF).
+IIS 6.0 does not include URL rewriting capabilities; you can use a third-party URL rewriting product such as [ISAPI\_Rewrite](https://www.iis.net/downloads?tabid=34&g=6&i=1599) or [Ionics ISAPI Rewrite Filter](http://www.codeplex.com/IIRF).
 
 IIS 7 and above includes URL rewriting support, which can be enabled by installing [Microsoft URL Rewrite Module for IIS 7](https://www.microsoft.com/downloads/details.aspx?familyid=836778EA-B2F2-4907-B2DC-A152EC0A4BC4&amp;displaylang=en).
 
 1. Download and install the **Microsoft URL Rewrite Module**.
-
 2. If it does not already exist; create and open a **Web.config** file located in the **C:\inetpub\wwwroot\joomla** directory.
+3. Paste the following XML code into this file.  
 
-3. Paste the following XML code into this file.
-
-
-[!code-xml[Main](install-joomla-on-iis/samples/sample4.xml)]
-
-
+    [!code-xml[Main](install-joomla-on-iis/samples/sample4.xml)]
 4. Save the **web.config** file.
-
 5. Open a Web browser, and log on to the Joomla administrator console at `http://localhost/joomla/administrator/`.
+6. Click on **Site** --&gt; **Global Configuration** menu to configure SEO Settings:  
 
-6. Click on **Site** --&gt; **Global Configuration** menu to configure SEO Settings:
+    - Search Engine Friendly URLs - **Yes**
+    - Add suffix to URLs - **No**  
+        [![](install-joomla-on-iis/_static/image18.jpg)](install-joomla-on-iis/_static/image17.jpg)  
+        *Figure 9: Global Configuration page*
+- Click **Apply** to save the configuration.
+- Restart **Windows® Internet Explorer®**.
+- Go to `http://localhost/joomla/`. All links in Joomla pages now have URLs without query string parameters. If you click on any of these links, the server returns a correct response:  
 
-1. Search Engine Friendly URLs - **Yes**
+    [![](install-joomla-on-iis/_static/image20.jpg)](install-joomla-on-iis/_static/image19.jpg)
 
-2. Add suffix to URLs - **No**
-
-[[![](install-joomla-on-iis/_static/image20.jpg)](install-joomla-on-iis/_static/image19.jpg)](install-joomla-on-iis/_static/image9.png)
-
-###### Figure 9: Global Configuration page
-
-3. Click **Apply** to save the configuration.
-
-4. Restart **Windows® Internet Explorer®**.
-
-5. Go to `http://localhost/joomla/`. All links in Joomla pages now have URLs without query string parameters. If you click on any of these links, the server returns a correct response:
-
-[[![](install-joomla-on-iis/_static/image22.jpg)](install-joomla-on-iis/_static/image21.jpg)](install-joomla-on-iis/_static/image11.png)
-
-###### Figure 10: Links in Joomla page
-
+    *Figure 10: Links in Joomla page*
 
 > [!NOTE]
 > *This article updates " Joomla! on IIS" by Ruslan Yakushev, published on December 12, 2008.*
-
 
 ## Links for Further Information
 

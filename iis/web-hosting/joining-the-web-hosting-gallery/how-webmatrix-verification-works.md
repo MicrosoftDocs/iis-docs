@@ -39,7 +39,7 @@ The following web applications (mostly from the [Web Application Gallery](https:
 - [BlogEngine.NET](https://www.microsoft.com/web/webmatrix/)
 - [ResourceBlender](https://www.microsoft.com/web/webmatrix/)
 - [KenticoCMS](https://www.microsoft.com/web/webmatrix/)
-- [Atomsite](../../develop/installingpublishing-apps-with-webmatrix/atomsite-faq.md)
+- [Atomsite](https://www.microsoft.com/web/webmatrix/)
 - [DasBlog](https://www.microsoft.com/web/webmatrix/) (requires Full Trust, not recommended for Shared Hosting)
 - [PHPBB](https://www.microsoft.com/web/webmatrix/)\* [using MySQL database]
 - [SugarCRM](https://www.microsoft.com/web/webmatrix/)\*

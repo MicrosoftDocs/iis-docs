@@ -25,17 +25,7 @@ This walkthrough will lead you through the steps to use managed code to an FTP a
 > [!IMPORTANT]
 > The latest version of the FTP 7.5 service ***must be*** installed in order to use the provider in this walkthrough. A version FTP 7.5 was released on August 3, 2009 that addressed an issue where the local and remote IP addresses in the **IFtpLogProvider.Log()** method were incorrect. Because of this, using an earlier version of the FTP service will prevent this provider from working.
 
-### In This Walkthrough
-
-- [Provider Description](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions.md#00)
-- [Step 1: Set up the Project Environment](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions.md#01)
-- [Step 2: Create the Extensibility Class](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions.md#02)
-- [Step 3: Add the Demo Provider to FTP](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions.md#03)
-- [Step 4: Using the provider with FTP 7.5](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions.md#04)
-- [Additional Information](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions.md#05)
-- [Summary](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions.md#06)
-
-### Prerequisites
+## Prerequisites
 
 The following items are required to complete the procedures in this article:
 

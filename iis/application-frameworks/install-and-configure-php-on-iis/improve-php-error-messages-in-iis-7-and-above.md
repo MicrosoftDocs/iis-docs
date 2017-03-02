@@ -38,7 +38,7 @@ If you request the page http://localhost:84/notfound.php from Windows® Internet
 
 [![](improve-php-error-messages-in-iis-7-and-above/_static/image2.jpg)](improve-php-error-messages-in-iis-7-and-above/_static/image1.jpg)
 
-###### Figure 1: A non-descriptive 404 error message
+*Figure 1: A non-descriptive 404 error message*
 
 The default IIS "Not Found" error message provides useful information to help diagnose the error condition; it correctly identifies the error and suggests solutions for most common error conditions by providing information such as the source (module, notification) of the error and background information such as the URL, mapped physical path, and the authentication method being used. For example:
 
@@ -50,39 +50,29 @@ The default IIS "Not Found" error message provides useful information to help di
 
 [![](improve-php-error-messages-in-iis-7-and-above/_static/image4.jpg)](improve-php-error-messages-in-iis-7-and-above/_static/image3.jpg)
 
-###### Figure 2: Detailed 404 error message
+*Figure 2: Detailed 404 error message*
 
 You can also get IIS detailed errors for some PHP errors by configuring IIS to perform some additional validation of PHP requests.
 
 To configure IIS to provide additional validation of PHP requests, use the following steps:
 
 1. Switch to the **IIS Manager**. If it is closed, click **Start**,and then select **Internet Information Services (IIS) Manager**.
-
 2. In the tree view on the left, click the server node.
-
 3. Under **IIS**, double-click **Handler Mappings** to edit the PHP handler mapping.
-
 4. Right-click the **PHP via FastCGI** entry, and then click **Edit**.
-
 5. Click **Request Restrictions**.
-
 6. Select the **Invoke handler only if request is mapped to** check box.
-
 7. Leave the **File** option button selected.
-
 8. Click **OK** twice.
-
 9. Click **Yes** in the **Edit Module Mapping** dialog box.
-
 10. To test, trigger a "Not Found" condition again to verify that the PHP 404 error is now handled by IIS, providing more detail. Using **Internet Explorer**, request `http://localhost:84/notfound.php` (this page does not exist).
+11. You receive an IIS detailed error indicating that the Notfound.php page was not found on the server.  
 
-11. You receive an IIS detailed error indicating that the Notfound.php page was not found on the server.
+    An IIS 401.3 Unauthorized detailed error also provides information; it indicates that the request does not have the permission to view the page due to access control list (ACL) configuration and provides an extensive explanation of how to resolve this issue.
 
-An IIS 401.3 Unauthorized detailed error also provides information; it indicates that the request does not have the permission to view the page due to access control list (ACL) configuration and provides an extensive explanation of how to resolve this issue.
+    [![](improve-php-error-messages-in-iis-7-and-above/_static/image6.jpg)](improve-php-error-messages-in-iis-7-and-above/_static/image5.jpg)
 
-[![](improve-php-error-messages-in-iis-7-and-above/_static/image6.jpg)](improve-php-error-messages-in-iis-7-and-above/_static/image5.jpg)
-
-###### Figure 3: An Access Denied error
+    *Figure 3: An Access Denied error*
 
 ## Enable PHP Error Messages to Diagnose Application-Level Errors
 
@@ -104,21 +94,13 @@ If you request a page with a script error, you receive the IIS detailed error me
 You can configure PHP to display errors in responses.
 
 1. Using **Windows® Explorer**, browse to **C:\PHP**.
-
 2. Open the **Php.ini** filein the PHP installation directory.
+3. Find and set the **display\_errors = On** directive:  
 
-3. Find and set the **display\_errors = On** directive:
-
-
-[!code-unknown[Main](improve-php-error-messages-in-iis-7-and-above/samples/sample-127414-1.unknown)]
-
-
+    [!code-unknown[Main](improve-php-error-messages-in-iis-7-and-above/samples/sample-127414-1.unknown)]
 4. Save and close the file.
-
 5. Reset IIS. Click **Start**,and then select **Command Prompt**, right click and select **Run** **as administrator** to open a command-line window.
-
 6. Type **iisreset.exe**
-
 7. Press **Enter**.
 
 If you request a page with a script error now, you get a PHP parse error:
@@ -131,9 +113,7 @@ If you see only the default Internet Explorer HTTP 500 Internal Server Error pag
 
 Note that PHP also provides options for customizing default error handling or completely overriding it.
 
-
-*Note: This article uses material from the [PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb&amp;DisplayLang=en), published on August 25, 2009**.*
-
+*Note: This article uses material from the [PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb&amp;DisplayLang=en), published on August 25, 2009.*
 
 ## Links for Further Information
 

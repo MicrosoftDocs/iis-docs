@@ -45,25 +45,17 @@ IIS access control features help create flexible and manageable access control s
 ## Configure Basic Authentication
 
 1. Start **IIS Manager** (Inetmgr.exe).
-
 2. Expand the server node, and then expand the **Sites** node.
-
 3. In the tree view on the left, click on the Web site that hosts the application you want to secure.
-
 4. Under the **IIS** feature group, double-click **Authentication**. Here you can see the available authentication methods, which correspond to the installed authentication modules. By default, Anonymous Authentication is enabled
-
 5. Right-click **Anonymous Authentication**, and then click **Disable**.
+6. Right-click **Basic Authentication**, and then click **Enable**.  
 
-6. Right-click **Basic Authentication**, and then click **Enable**.
+    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image2.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image1.jpg)
 
-[![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image2.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image1.jpg)
-
-###### Figure 1: Authentication page
-
+    *Figure 1: Authentication page*
 7. In the tree view on the left, click the same Web site that you clicked in Step 3.
-
 8. In the **Actions** pane, click **Restart**.
-
 9. Close IIS Manager. Note that only the built-in authentication schemes are visible in the Authentication feature. Third-party custom authentication schemes need to be configured separately, but the Authentication feature may still be used to disable the built-in authentication methods.
 
 ## Configure Forms Authentication
@@ -79,33 +71,23 @@ Forms Authentication is a Microsoft® ASP.NET authentication feature that can be
 To configure Forms Authentication:
 
 1. Start **IIS Manager** (Inetmgr.exe).
-
 2. Expand the server node, and then expand the **Sites** node.
-
 3. In the tree view on the left, click on the Web site that hosts the application you want to secure.
-
 4. Under the **IIS** feature group, double-click **Authentication**.
-
 5. Right-click **Forms Authentication**, and then click **Enable**.
-
 6. Right-click **Anonymous Authentication**, and then click **Enable**.
+7. Disable all other authentication methods. Anonymous authentication is required for Forms Authentication to authenticate users requesting the login page.  
 
-7. Disable all other authentication methods. Anonymous authentication is required for Forms Authentication to authenticate users requesting the login page.
+    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image4.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image3.jpg)
 
-[![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image4.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image3.jpg)
-
-###### Figure 2: Forms Authentication and Anonymous Authentication enabled
-
+    *Figure 2: Forms Authentication and Anonymous Authentication enabled*
 8. In the tree view on the left, click on the Web site that hosts the application you want to secure.
-
 9. Under the **IIS** feature group, double-click **Modules**.
+10. Double-click the **FormsAuthentication** module, and then clear the **Invoke only for requests to ASP.NET applications or managed handlers** check box.  
 
-10. Double-click the **FormsAuthentication** module, and then clear the **Invoke only for requests to ASP.NET applications or managed handlers** check box.
+    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image6.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image5.jpg)
 
-[![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image6.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image5.jpg)
-
-###### Figure 3: Enabling Forms Authentication for all requests
-
+    *Figure 3: Enabling Forms Authentication for all requests*
 11. Click **OK**. This allows the Forms Authentication module to provide authentication services for all requests, regardless of the application content being requested. This enables your PHP application to take advantage of Forms Authentication.
 
 You can edit a number of configuration options that control the behavior of the Forms Authentication module (see docs at [https://msdn.microsoft.com/en-us/library/1d3t3c61.aspx](https://msdn.microsoft.com/en-us/library/1d3t3c61.aspx)):
@@ -125,25 +107,17 @@ IIS URL Authorization is a new authorization mechanism that enables the applicat
 ### Configure URL Authorization
 
 1. Start **IIS Manager** (Inetmgr.exe).
-
 2. Expand the server node, and then expand the **Sites** node.
-
 3. In the tree view on the left, click on the click on the Web site that hosts the application you want to secure.
-
 4. Double-click **Authorization Rules**.
+5. Click **Add Deny Rule**, and then select **All anonymous users**.  
 
-5. Click **Add Deny Rule**, and then select **All anonymous users**.
+    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image8.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image7.jpg)
 
-[![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image8.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image7.jpg)
-
-###### Figure 4: Add an authorization rule to deny anonymous users
-
+    *Figure 4: Add an authorization rule to deny anonymous users*
 6. Click **OK**.
-
 7. In the tree view on the left, click the click on the Web site that hosts the application you want to secure name.
-
 8. In the **Actions** pane, click **Restart**.
-
 9. Close IIS Manager. This denies access to the application for anonymous users. This causes requests to the application to be rejected, and it allows Forms Authentication to redirect users to the login page so that they may log in.
 
 ### Configure Role-Based Authorization
@@ -159,65 +133,41 @@ Role-based rules can be a great way to manage permissions for a large group of u
 When using roles, the role membership information is provided by the Roles module. The Roles module uses a provider model for obtaining roles for a particular user, similar to the Membership provider model.
 
 1. Start **IIS Manager** (Inetmgr.exe).
-
 2. Expand the server node, and then expand the **Sites** node.
-
 3. In the tree view on the left, click the click on the Web site that hosts the application you want to secure.
-
 4. Under **ASP.NET**, double-click **.NET Roles**.
+5. In the **Actions** pane, click **Enable**.  
 
-5. In the **Actions** pane, click **Enable**.
+    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image10.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image9.jpg)
 
-[![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image10.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image9.jpg)
-
-###### Figure 5: Enable .NET roles
-
+    *Figure 5: Enable .NET roles*
 6. In the **Actions** pane, click **Add**.
+7. In the **Name** box, type **Admin**  
 
-7. In the **Name** box, type **Admin**
+    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image12.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image11.jpg)
 
-[![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image12.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image11.jpg)
-
-###### Figure 6: Add a .NET role
-
+    *Figure 6: Add a .NET role*
 8. Click **OK**.
-
 9. In the tree view on the left, click the click on the Web site that hosts the application you want to secure.
-
 10. Under **ASP.NET**, double-click **.NET Users**.
-
 11. In the **Actions** pane, click **Add**.
-
 12. Type the *user credentials*, and then click **Next**.
-
 13. Select the **Admin** role check box to add the new user to that role.
-
 14. Click **Finish**.
-
 15. In the tree view on the left, click the Web click on the Web site that hosts the application you want to secure, used in step 9.
-
 16. Under the **IIS** feature group, double-click **Modules**.
-
 17. Double-click the **RoleManager** module, clear the **Invoke only for requests to ASP.NET applications or managed handlers** check box, and then click **OK**.
-
 18. Double-click the **DefaultAuthentication** module, clear the **Invoke only for requests to ASP.NET applications or managed handlers** check box, and then click **OK**.
-
 19. In the tree view on the left, click the **Admin** sub-directory under the click on the Web site that hosts the application you want to secure, used in steps 9 and 15.
-
 20. Double-click **Authorization Rules**.
-
 21. Remove all existing rules by clicking each rule and then clicking **Remove**.
-
 22. In the **Confirm Remove** dialog box, click **Yes**.
-
 23. Click **Add Allow Rule**, and then select **Specified roles or user groups**.
+24. Type **admin** in the associated textbox, and then click **OK**.  
 
-24. Type **admin** in the associated textbox, and then click **OK**.
+    [![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image14.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image13.jpg)
 
-[![](enable-php-applications-to-make-application-level-access-control-decisions/_static/image14.jpg)](enable-php-applications-to-make-application-level-access-control-decisions/_static/image13.jpg)
-
-###### Figure 7: Add allow rule for administrator role
-
+    *Figure 7: Add allow rule for administrator role*
 25. Close IIS Manager.
 
 ## Integrating PHP with IIS 7.0 and Above
@@ -232,6 +182,5 @@ You can use the following server variables to inspect the authenticated user and
 ## Links for Further Information
 
 [PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb&amp;DisplayLang=en)
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

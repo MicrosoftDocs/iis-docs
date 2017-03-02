@@ -20,8 +20,8 @@ by Eric Woersching
 
 PHProjekt is a modular application for coordinating group activities and sharing information and documents via the web. Components of PHProjekt include group calendar, project management, time card system, file management, contact manager, mail client and many other modules.
 
-For more information about PHProjekt, see [http://www.phprojekt.com/](http://www.phprojekt.com/).  
-  
+For more information about PHProjekt, see [http://www.phprojekt.com/](http://www.phprojekt.com/).
+
 In this section, we go through the steps required to install PHProjekt to work with the FastCGI extension on IIS 7.0 and above. To find out more about FastCGI support in IIS, see [https://www.iis.net/fastcgi](https://www.iis.net/downloads/microsoft/fastcgi-for-iis).
 
 The following steps assume that you have completed the setup and configuration of FastCGI extension and PHP libraries as described here [https://www.iis.net/fastcgi/phpon60](using-fastcgi-to-host-php-applications-on-iis-60.md).
@@ -46,40 +46,36 @@ Test the environment setup by browsing the env\_test.php file, which is located 
 
 ## Run Configuration Script
 
-> 1. Call the setup.php script to start the PHProjekt setup after creating the database for the project.
+1. Call the setup.php script to start the PHProjekt setup after creating the database for the project.  
 
+    [![](phprojekt-on-iis/_static/image2.jpg)](phprojekt-on-iis/_static/image1.jpg)
+2. Provide the created database details and click Continue. We use the following details for our application.  
 
-[![](phprojekt-on-iis/_static/image2.jpg)](phprojekt-on-iis/_static/image1.jpg)
+    - Database Type: MySql
+    - Host Name: localhost
+    - Username: phprojektuser
+    - Password: phprojekt
+    - Database: phprojekt
+    - Table prefix: phpr\_
+    - Administrator root password: admin
+    - User test: activate
+    - Test user password: testpwd
+3. After providing details, click the "Default Install" button. The Default installation completes and accesses the application by browsing the index.php file using the path [http://localhost/phprojekt/index.php](http://localhost/phprojekt/index.php).  
 
-> 2. Provide the created database details and click Continue. We use the following details for our application.  
-> • Database Type: MySql  
-> • Host Name: localhost  
-> • Username: phprojektuser  
-> • Password: phprojekt  
-> • Database: phprojekt  
-> • Table prefix: phpr\_  
-> • Administrator root password: admin  
-> • User test: activate  
-> • Test user password: testpwd
+    [![](phprojekt-on-iis/_static/image4.jpg)](phprojekt-on-iis/_static/image3.jpg)
+4. Login using the admin test user login details. It displays the events for the day as the system starts. It does not display any events for the default installation.  
 
+    [![](phprojekt-on-iis/_static/image6.jpg)](phprojekt-on-iis/_static/image5.jpg)
 
-> 3. After providing details, click the "Default Install" button. The Default installation completes and accesses the application by browsing the index.php file using the path [http://localhost/phprojekt/index.php](http://localhost/phprojekt/index.php).
-
-
-[![](phprojekt-on-iis/_static/image4.jpg)](phprojekt-on-iis/_static/image3.jpg)
-
-> 4. Login using the admin test user login details. It displays the events for the day as the system starts. It does not display any events for the default installation.
-
-
-[![](phprojekt-on-iis/_static/image6.jpg)](phprojekt-on-iis/_static/image5.jpg)
-
-[![](phprojekt-on-iis/_static/image8.jpg)](phprojekt-on-iis/_static/image7.jpg)
+    [![](phprojekt-on-iis/_static/image8.jpg)](phprojekt-on-iis/_static/image7.jpg)
 
 ## Getting More Information
 
-To discuss the FastCGI Extension for IIS 6.0, or file bug reports, use the FastCGI forums:   
-• [IIS.NET / IIS 6.0 FastCGI forums](https://forums.iis.net/1103.aspx).   
-   
-To get more information regarding running various PHP applications on IIS, refer to:   
-• [PHP on IIS portal](https://php.iis.net/)  
-• [PHP community forum](https://forums.iis.net/1102.aspx)
+To discuss the FastCGI Extension for IIS 6.0, or file bug reports, use the FastCGI forums:
+
+- [IIS.NET / IIS 6.0 FastCGI forums](https://forums.iis.net/1103.aspx).
+
+To get more information regarding running various PHP applications on IIS, refer to:
+
+- [PHP on IIS portal](https://php.iis.net/)
+- [PHP community forum](https://forums.iis.net/1102.aspx)
