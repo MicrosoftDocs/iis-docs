@@ -30,4 +30,4 @@ The PHP:1 and PHP:2 means that the extension applies to Web Site #1 and #2 respe
 
 #### Is there a list of PHP applications that have been tested on Windows Server® 2008?
 
-These [applications](../../application-frameworks/install-and-configure-php-applications-on-iis.md "PHP Applications") have been used on Windows Server 2008 and have no known issues.
+These [applications](../../application-frameworks/install-and-configure-php-applications-on-iis/index.md "PHP Applications") have been used on Windows Server 2008 and have no known issues.

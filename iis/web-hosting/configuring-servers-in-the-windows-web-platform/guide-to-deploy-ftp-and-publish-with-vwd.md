@@ -20,7 +20,7 @@ by Walter Oliver
 
 ## Introduction
 
-The FTP service for IIS is a key component of the Windows Web Platform. It provides a robust, secure solution for FTP in a Windows environment. [Shared hosting](../planning-the-web-hosting-architecture/shared-hosting-configuration.md "Shared hosting") environment administrators can use [FTP for IIS](../../publish/using-the-ftp-service.md "FTP for IIS 7.0") to enable their customers to upload and synchronize their content. The article [What Is New for Microsoft and FTP?](../../get-started/whats-new-in-iis-7/what39s-new-for-microsoft-and-ftp-in-iis-7.md "What is New for Microsoft and FTP?") introduces the new FTP features. Here are the highlights:
+The FTP service for IIS is a key component of the Windows Web Platform. It provides a robust, secure solution for FTP in a Windows environment. [Shared hosting](../planning-the-web-hosting-architecture/shared-hosting-configuration.md "Shared hosting") environment administrators can use [FTP for IIS](../../publish/using-the-ftp-service/index.md "FTP for IIS 7.0") to enable their customers to upload and synchronize their content. The article [What Is New for Microsoft and FTP?](../../get-started/whats-new-in-iis-7/what39s-new-for-microsoft-and-ftp-in-iis-7.md "What is New for Microsoft and FTP?") introduces the new FTP features. Here are the highlights:
 
 - **Integration with IIS:** 
 

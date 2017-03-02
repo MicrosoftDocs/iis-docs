@@ -18,7 +18,7 @@ by Walter Oliver
 
 The IIS 7 and above administrative user interface, called the IIS Manager, offers a more efficient tool for managing the Web server. It provides support for IIS and ASP.NET configuration settings. It also lets those who host or administer Web sites delegate administrative control to developers or content owners, thus reducing cost of ownership and administrative burden for the server administrator. It supports remote connections over HTTP, and you can use it through a firewall.
 
-For more information about the administration features in IIS, see [Delegating Administration](../../manage/managing-your-configuration-settings.md).
+For more information about the administration features in IIS, see [Delegating Administration](../../manage/managing-your-configuration-settings/index.md).
 
 Before enabling remote delegation, you should consider what features and properties you want to delegate to site owners.
 

@@ -73,7 +73,7 @@ Note that you can choose to perform a Server Core installation—a minimal serve
 
 ###### Figure 2: Server Core option
 
-With the Server Core installation option, the traditional Windows interface is not installed, so you must configure the server from the command prompt. Note that if you use a Server Core installation, you cannot install some modules that rely on the .NET Framework or managed code. For more information, see [Using Server Core](../../manage/working-with-server-core.md).
+With the Server Core installation option, the traditional Windows interface is not installed, so you must configure the server from the command prompt. Note that if you use a Server Core installation, you cannot install some modules that rely on the .NET Framework or managed code. For more information, see [Using Server Core](../../manage/working-with-server-core/index.md).
 
 ## Configure Windows Server 2008 R2 or Windows Server 2008
 

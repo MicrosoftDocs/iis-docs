@@ -114,7 +114,7 @@ Here are shortcuts to key areas in the content map below:
 
 <a id="infra"></a>
 
-### [Installing Infrastructure Components](../installing-infrastructure-components.md)
+### [Installing Infrastructure Components](../installing-infrastructure-components/index.md)
 
 - [Hyper-V Guides](../installing-infrastructure-components/hyper-v-guides.md)
 - [System Center Solutions (VMM &amp; SCOM)](../installing-infrastructure-components/system-center-solutions-vmm-amp-scom.md)
@@ -179,7 +179,7 @@ Here are shortcuts to key areas in the content map below:
 
 <a id="using"></a>
 
-### [Using Shared Hosting Environments](../using-shared-hosting-environments.md)
+### [Using Shared Hosting Environments](../using-shared-hosting-environments/index.md)
 
 - [Creating, Updating, and Publishing Web applications with Visual Web Developer](../using-shared-hosting-environments/creating-and-publishing-web-applications-with-visual-web-developer.md)
 - [Setting up Delegated Administration, Server and Client Experiences](../using-shared-hosting-environments/setting-up-delegated-administration-server-and-client-experiences.md)

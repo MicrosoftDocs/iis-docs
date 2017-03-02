@@ -331,7 +331,7 @@ For more information about how to use the URL Rewrite module, see the following 
 
 For more information regarding hosting PHP applications on IIS refer to the following resources:
 
-- Popular PHP applications on IIS
+- [Popular PHP applications on IIS](index.md)
 - [Configuring FastCGI extension for IIS 6.0](../install-and-configure-php-on-iis/configuring-the-fastcgi-extension-for-iis-60.md)
 - [Using FastCGI extension to host PHP on IIS 6.0](using-fastcgi-to-host-php-applications-on-iis-60.md)
 - [Installing FastCGI support on Windows Server 2008 Core](../install-and-configure-php-on-iis/install-php-and-fastcgi-support-on-server-core.md)
