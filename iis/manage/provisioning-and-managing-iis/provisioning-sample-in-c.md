@@ -61,6 +61,7 @@ An application pool also provides isolation, which in turn provides security. Ea
 
 [!code-csharp[Main](provisioning-sample-in-c/samples/sample5.cs)]
 
+<a id="CreateWebsite"></a>
 
 ## Create a Site
 
@@ -97,6 +98,7 @@ A virtual directory maps a part of the application URL namespace to a physical l
 
 [!code-csharp[Main](provisioning-sample-in-c/samples/sample9.cs)]
 
+<a id="CreateFTPsite"></a>
 
 ## Create an FTP Site
 

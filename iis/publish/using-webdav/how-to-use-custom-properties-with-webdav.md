@@ -26,11 +26,6 @@ One of the great features of WebDAV is the ability to store custom properties fo
 
 This document walks you through configuring the new WebDAV module to store custom properties, which are used by some WebDAV clients.
 
-### In This Walkthrough
-
-- [Enabling Custom Properties using IIS Manager](how-to-use-custom-properties-with-webdav.md#01)
-- [Enabling Custom Properties using AppCmd](how-to-use-custom-properties-with-webdav.md#02)
-
 ### Prerequisites
 
 The following items are required to complete the procedures in this article:
@@ -154,11 +149,6 @@ To remove the property provider for a web site, use syntax as in the following:
 [!code-console[Main](how-to-use-custom-properties-with-webdav/samples/sample9.cmd)]
 
 ## Summary
-
-This document has shown you how to configure your WebDAV property settings using the following methods:
-
-- [Using IIS Manager](how-to-use-custom-properties-with-webdav.md#01)
-- [Using AppCmd](how-to-use-custom-properties-with-webdav.md#02)
 
 ### More Information
 

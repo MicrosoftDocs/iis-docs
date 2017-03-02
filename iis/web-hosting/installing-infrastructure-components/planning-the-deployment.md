@@ -20,18 +20,6 @@ by Walter Oliver
 
 The primary focus in this phase is on selecting the appropriate deployment scenarios and methods, ensuring that the required infrastructure exists, determining the appropriate configuration settings and/or scripts, the monitoring plan, and training team members. Table 1 shows the high-level steps in the Planning Phase.
 
-This article contains:
-
-- [Checklist](planning-the-deployment.md#Checklist)
-- [Select Deployment Scenarios](planning-the-deployment.md#SelectScenarios)
-- [Select Deployment Tools and Methods](planning-the-deployment.md#SelectTools)
-- [Understand the Benefits of WDS](planning-the-deployment.md#Understand)
-- [Contrast LTI (MD Toolkit) and ZTI (SCCM)](planning-the-deployment.md#ContrastLTI)
-- [Ensure That the Required Infrastructure Exists](planning-the-deployment.md#Ensure)
-- [Determine the Appropriate Processing Rules (MD and SCCM only)](planning-the-deployment.md#DetermineRules)
-- [Determine the Monitoring Plan](planning-the-deployment.md#DeterminePlan)
-- [Train Team Members](planning-the-deployment.md#TrainTeam)
-
 <a id="Checklist"></a>
 
 ## Checklist

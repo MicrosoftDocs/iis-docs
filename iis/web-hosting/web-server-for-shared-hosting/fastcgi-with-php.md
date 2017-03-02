@@ -24,15 +24,6 @@ CGI programs are executables launched by the web server for each request in orde
 
 FastCGI addresses the performance issues inherent to CGI by providing a mechanism to reuse a single process over and over again for many requests. Additionally, FastCGI maintains compatibility with non-thread-safe libraries by providing a pool of reusable processes and ensuring that each process will only handle one request at a time.
 
-This article contains:
-
-- [Enabling FastCGI Support in IIS 7.0](fastcgi-with-php.md#Enabling)
-- [Install and Configure PHP](fastcgi-with-php.md#Install)
-- [Configure IIS 7.0 to Handle PHP Requests](fastcgi-with-php.md#Configure)
-- [Best Practices for Configuring FastCGI and PHP](fastcgi-with-php.md#Best)
-- [Enabling per-site PHP configuration](fastcgi-with-php.md#Per-site)
-- [Providing URL rewriting functionality for PHP applicaitons](fastcgi-with-php.md#Rewrite "URL rewriting for IIS7")
-
 <a id="Enabling"></a>
 
 ## Enabling FastCGI Support in IIS 7.0

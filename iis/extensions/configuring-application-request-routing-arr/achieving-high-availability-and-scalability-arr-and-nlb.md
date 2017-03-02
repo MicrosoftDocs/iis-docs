@@ -76,7 +76,7 @@ Although the above example shows a routing rule that differentiates the static c
 
 In Active/Passive mode, typically there are two ARR servers in which one server processes the requests while the other server stands by as a failover server. As noted above, while this configuration achieves high availability by removing the single point of failure, it is not a scale out solution since the aggregate capacity of the content servers is limited by the maximum capacity of one ARR server.
 
-In this setup, since two ARR servers are configured the same way, a shared configuration is used. First, install ARR on both servers, then create the NLB cluster. The NLB cluster is configured to accept traffic on only one of the cluster nodes. This is achieved by configuring the cluster port rules with single host filtering mode. The node accepting the traffic is determined by the host priority setting of the NLB cluster nodes. Refer to [NLB configuration](achieving-high-availability-and-scalability-arr-and-nlb#3 tier config: NLB config) for more details.
+In this setup, since two ARR servers are configured the same way, a shared configuration is used. First, install ARR on both servers, then create the NLB cluster. The NLB cluster is configured to accept traffic on only one of the cluster nodes. This is achieved by configuring the cluster port rules with single host filtering mode. The node accepting the traffic is determined by the host priority setting of the NLB cluster nodes. Refer to [NLB configuration](achieving-high-availability-and-scalability-arr-and-nlb.md#nlb-config) for more details.
 
 With the exception of the host name affinity feature in ARR, there is no runtime state information that must be shared between the two ARR servers. Therefore, for this scenario, no special configuration is needed on either ARR or NLB. Even if you use the server affinity feature in ARR, the affinitized state information will be made available to the passive server through a cookie in the request header.
 
@@ -99,7 +99,7 @@ This scenario is fully supported in the ARR Version 1 release.
     - How to write URL rewrite rules for static content so that they are served directly from the ARR server.
     - How to write URL rewrite rules for dynamic content so that they are forwarded to the application servers.
 
-<a id="3 tier config: NLB config"></a>
+<a id="nlb-config"></a><a id="3 tier config: NLB config"></a>
 
 #### NLB configuration
 
@@ -199,7 +199,7 @@ The NLB configuration is divided into the following steps:
 2. Create NLB cluster for ARR.
 3. Configure NLB for active/active deployment.
 
-**Install the NLB feature on all ARR servers**: Documented [here](achieving-high-availability-and-scalability-arr-and-nlb.md#install nlb).
+**Install the NLB feature on all ARR servers**: Documented [here](achieving-high-availability-and-scalability-arr-and-nlb.md#install NLB).
 
 **Create NLB cluster for ARR**: Documented [here](achieving-high-availability-and-scalability-arr-and-nlb.md#create nlb).
 
@@ -231,7 +231,7 @@ The following diagram illustrates the shared hosting environment using ARR:
 
 As noted previously, in Active/Passive mode, typically there are two ARR servers in which one server processes the requests while the other server stands by as a failover server. While this configuration achieves high availability by removing the single point of failure, it is not a scale out solution since the aggregate capacity of the content servers is limited by the maximum capacity of one ARR server.
 
-In this setup, since two ARR servers are configured the same way, a shared configuration is used. The NLB cluster is configured to accept traffic only on one of the cluster nodes. This is achieved by configuring the cluster rules with single host filtering mode. The node accepting the traffic is determined by the host priority setting of the NLB cluster nodes. Refer to [NLB configuration](achieving-high-availability-and-scalability-arr-and-nlb#3 tier config: NLB config) for more details.
+In this setup, since two ARR servers are configured the same way, a shared configuration is used. The NLB cluster is configured to accept traffic only on one of the cluster nodes. This is achieved by configuring the cluster rules with single host filtering mode. The node accepting the traffic is determined by the host priority setting of the NLB cluster nodes. Refer to [NLB configuration](achieving-high-availability-and-scalability-arr-and-nlb.md#nlb-config) for more details.
 
 The host name affinity feature in ARR affinitizes the requests to a particular server (or a group of servers in RC) based on the host name. The runtime state information of affinitized mapping between the host names and the content servers is stored in memory within an instance of an ARR server. In the ARR Version 1 release, ARR leverages Microsoft External Cache Version 1 for IIS to share and maintain this runtime state between multiple ARR servers. More information about this scenario is available in [this](using-multiple-instances-of-application-request-routing-arr-servers.md) document.
 

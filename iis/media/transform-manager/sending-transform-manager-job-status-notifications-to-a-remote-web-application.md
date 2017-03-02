@@ -400,6 +400,8 @@ One very important detail to note is the port value. When the Azure Development 
 
 On a cleaner machine, the port value is usually **81** and increases from there. Check the port value whenever you run the project. If it has changed, you will need to update the notifications URI setting in Transform Manager with the new port value (for example to `http://127.0.0.1:92/JobMon/Post`). To minimize the number of port changes, wait until Transform Manager is idle (not running any jobs and posting any updates). Otherwise, if Transform Manager is actively using that port, the Azure Development Fabric will determine that the port is in use and try the next one.
 
+<a id="transformmanager"></a>
+
 ### Testing the Web Application in Transform Manager
 
 To test all of the XML elements, including the &lt;log /&gt;, we can configure a new watch folder in Transform Manager in which all jobs will fail. First we will create a new job template with a command-line task that calls a non-existent executable file, and then we will bind the job template to a new watch folder.

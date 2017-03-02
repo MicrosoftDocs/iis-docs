@@ -18,17 +18,6 @@ by Vishal Sood
 
 Web Playlists for Internet Information Services (IIS) 7 provides the ability to control media delivery to clients and limit a client's ability to seek or skip individual entries in the playlist. Server administrators can enable or disable seek/skip behavior through fields in the playlist entry. This article describes how to create a playlist by using the Web Playlists module in IIS Manager.
 
-This article includes:
-
-- [Prerequisites](web-playlists-for-iis-7-creating-a-simple-playlist.md#prereqs)
-- [Creating a Simple Playlist](web-playlists-for-iis-7-creating-a-simple-playlist.md#simple)
-- [Nested Playlists](web-playlists-for-iis-7-creating-a-simple-playlist.md#nesting)
-- [Adding HTTPD Media Entries](web-playlists-for-iis-7-creating-a-simple-playlist.md#httpd)
-- [Playlist XML Format](web-playlists-for-iis-7-creating-a-simple-playlist.md#xml)
-- [Adding Entries Protected by Credentials](web-playlists-for-iis-7-creating-a-simple-playlist.md#credentials)
-- [Playing the Playlist](web-playlists-for-iis-7-creating-a-simple-playlist.md#client)
-- [For More Information](web-playlists-for-iis-7-creating-a-simple-playlist.md#info)
-
 <a id="prereqs"></a>
 
 ## Prerequisites

@@ -26,11 +26,6 @@ One of the features of WebDAV 7.5 is the ability to create WebDAV locks for cont
 
 This document walks you through how to configure the new WebDAV module to enable WebDAV locks on your Web server, which are used by some WebDAV clients.
 
-### In This Walkthrough
-
-- [Enabling Locks using IIS Manager](how-to-use-webdav-locks.md#01)
-- [Enabling Locks using AppCmd](how-to-use-webdav-locks.md#02)
-
 ### Prerequisites
 
 The following items are required to complete the procedures in this article:
@@ -122,11 +117,6 @@ To remove the lock provider for a Web site, use the following syntax:
 [!code-console[Main](how-to-use-webdav-locks/samples/sample6.cmd)]
 
 ## Summary
-
-This document has shown you how to configure your WebDAV lock settings by using the following methods:
-
-- [Using IIS Manager](how-to-use-webdav-locks.md#01)
-- [Using AppCmd](how-to-use-webdav-locks.md#02)
 
 ### More Information
 

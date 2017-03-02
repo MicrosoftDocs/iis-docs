@@ -16,13 +16,7 @@ Web Playlists for IIS 7 - Configuration
 ====================
 by Vishal Sood
 
-Web Playlists for Internet Information Services (IIS) provides the ability to control media delivery to clients and limit a client's ability to seek or skip individual entries in the playlist. This article provides information about the settings possible through the Web Playlists configuration files. This article contains:
-
-- [Prerequisites](web-playlists-for-iis-configuration.md#prerequisites)
-- [Configuration](web-playlists-for-iis-configuration.md#configuration)
-- [Schema](web-playlists-for-iis-configuration.md#schema)
-- [Configuration Scenarios](web-playlists-for-iis-configuration.md#scenarios)
-- [More Information](web-playlists-for-iis-configuration.md#MoreInfo)
+Web Playlists for Internet Information Services (IIS) provides the ability to control media delivery to clients and limit a client's ability to seek or skip individual entries in the playlist. This article provides information about the settings possible through the Web Playlists configuration files.
 
 <a id="prerequisites"></a>
 

@@ -16,17 +16,9 @@ Using HTTP for Streaming and Downloading from the Same Computer
 ====================
 by Dave Nelson
 
-You can use Microsoft Windows Media Services 2008 and Internet Information Services (IIS) 7. on the same computer for digital content delivery. For example, you may want to use Windows Media Services to [stream](windows-media-server-or-web-server.md#wms_streaming) a live broadcast to clients and use IIS to [download](windows-media-server-or-web-server.md#web_download) digital media files to clients. If a firewall separates clients from your server, it is advantageous to use HTTP through port 80 for digital media content delivery, as most firewalls leave this port open.
+You can use Microsoft Windows Media Services 2008 and Internet Information Services (IIS) 7. on the same computer for digital content delivery. For example, you may want to use Windows Media Services to [stream](windows-media-server-or-web-server.md#wms) a live broadcast to clients and use IIS to [download](windows-media-server-or-web-server.md#download) digital media files to clients. If a firewall separates clients from your server, it is advantageous to use HTTP through port 80 for digital media content delivery, as most firewalls leave this port open.
 
 Windows Media Services and IIS can coexist on a computer when you use their default values. By default, HTTP streaming is not enabled in Windows Media Services; therefore, IIS can bind to port 80 for delivery of Web-based content. However, if you decide that you want to use HTTP streaming in Windows Media Services, additional configuration is required because both programs cannot bind to port 80 on the same Internet Protocol (IP) address. This article describes the configuration alternatives.
-
-**In this article**
-
-[Change the port that Windows Media Services uses for HTTP streaming](using-http-for-streaming-and-downloading-from-the-same-computer.md#port)
-
-[Change the IP address that Windows Media Services uses for HTTP streaming](using-http-for-streaming-and-downloading-from-the-same-computer.md#ipaddress)
-
-[Related articles](using-http-for-streaming-and-downloading-from-the-same-computer.md#related)
 
 ## Change the port that Windows Media Services uses for HTTP streaming
 

@@ -16,14 +16,6 @@ IIS7 Security Improvements
 ====================
 by Saad Ladki
 
-## Introduction
-
-This article contains the following:
-
-- [Reduced Surface Area](iis7-and-above-security-improvements.md#Reduced)
-- [Simplified Security Management](iis7-and-above-security-improvements.md#Simplified)
-- [Security Enhancements](iis7-and-above-security-improvements.md#New)
-
 <a id="Reduced"></a>
 
 ## Reduced Surface Area

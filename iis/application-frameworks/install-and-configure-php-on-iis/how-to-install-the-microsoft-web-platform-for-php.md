@@ -22,7 +22,7 @@ Microsoft embraces hosting PHP applications on the Windows® operating system, b
 
 The Microsoft® Web Platform provides advantages for PHP hosters, Web farm managers, self-hosters, server administrators, PHP application developers, and many others. PHP hosters can refer to the [Shared Hosting Guidance Content Map](../../web-hosting/getting-started/shared-hosting-content-map.md) for a wealth of articles and videos, including [Shared Hoster Configuration](../../web-hosting/planning-the-web-hosting-architecture/shared-hosting-configuration.md) and [Configuring a Web Farm Using IIS Shared Configuration](../../manage/managing-your-configuration-settings/configuring-a-web-farm-using-iis-shared-configuration.md).
 
-To host PHP applications on the Microsoft® Web Platform, you must first set up the platform component. Refer to [Get Started with IIS](../../), or see the following links for guidance.
+To host PHP applications on the Microsoft® Web Platform, you must first set up the platform component.
 
 ## Install the Operating System
 

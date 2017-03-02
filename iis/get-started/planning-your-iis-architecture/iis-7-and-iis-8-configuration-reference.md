@@ -18,29 +18,14 @@ by Tobin Titus
 
 ## Introduction to ApplicationHost.config
 
-> [!NOTE]
-> A detailed configuration reference for IIS is available at [`https://www.iis.net/configreference`](https://www.iis.net/configreference).
+*> [!NOTE]
+> A detailed configuration reference for IIS is available at*[`https://www.iis.net/configreference`](https://www.iis.net/configreference).
 
 ApplicationHost.config is the root file of the configuration system when your are using IIS 7 and above. It includes definitions of all sites, applications, virtual directories and application pools, as well as global defaults for the web server settings (similar to machine.config and the root web.config for .NET Framework settings).
 
 It is also special in that it is the only IIS configuration file available when the web server is installed (however, users can still add web.config files if they want to). It includes a special section (called configSections) for registering all IIS and Windows Activation System (WAS) sections (machine.config has the same concept for .NET Framework sections). It has definitions for locking-down most IIS sections to the global level, so that by default they cannot be overridden by lower-level web.config files in the hierarchy.
 
-The location of the file is currently in the system32\inetsrv directory, but this is expected to change after beta2 to system32\inetsrv\config. This document walks through all the sections in the order they appear in the file, and explains them one by one. The most complex section is &lt;`system.webServer`&gt;,so it is recommended that the reader not skip that section in particular.
-
-This article contains:
-
-- [How to Read Configuration Schema](iis-7-and-iis-8-configuration-reference.md#HowTo)
-- [Section Schema](iis-7-and-iis-8-configuration-reference.md#Selection)
-- [Attribute Schema](iis-7-and-iis-8-configuration-reference.md#Attribute)
-- [Element Schema](iis-7-and-iis-8-configuration-reference.md#Element)
-- [Collection Schema](iis-7-and-iis-8-configuration-reference.md#Collection)
-- [Enum Schema](iis-7-and-iis-8-configuration-reference.md#Enum)
-- [Flags Schema](iis-7-and-iis-8-configuration-reference.md#Flags)
-- [Attribute Validation](iis-7-and-iis-8-configuration-reference.md#AttributeVal)
-- [&lt;configSections&gt; Section](iis-7-and-iis-8-configuration-reference.md#ConfigSec)
-- [Schema](iis-7-and-iis-8-configuration-reference.md#JustSchema)
-- [Locking](iis-7-and-iis-8-configuration-reference.md#Locking)
-- [Summary](iis-7-and-iis-8-configuration-reference.md#Summary)
+The location of the file is currently in the system32\inetsrv directory, but this is expected to change after beta2 to system32\inetsrv\config. This document walks through all the sections in the order they appear in the file, and explains them one by one. The most complex section is &lt;*system.webServer*&gt;,so it is recommended that the reader not skip that section in particular.
 
 <a id="HowTo"></a>
 

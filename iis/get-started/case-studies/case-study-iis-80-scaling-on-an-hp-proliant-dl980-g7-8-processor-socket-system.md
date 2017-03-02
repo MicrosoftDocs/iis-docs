@@ -141,7 +141,7 @@ The DL980 G7 has three IO boards:
 [![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image6.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image5.png)
 
 1. Main PCI board - Directly connected to **Processors 0-1,** this board provides 5x PCIe Gen 2 IO slots [ 2 (x8) and 3 (x4) electrical connectors] suitable for high bandwidth PCI devices such as full height HBA, NIC and FusionIO/SSD cards It also connects the embedded devices like the LAN On Motherboard (LOM -NC375i), video, internal disk controller (Smart array P410i), SATA DVD, USB ports, ...
-2. Sub IO PCI board (optional) - Directly connected to **Processors 2-3,** this board provides 5 PCIe Gen2 slots [4 (x8) and 1 (x4) electrical connectors] and 1 PCIe Gen 1 (x4) [slot ID 1] (optionally a PCI-X slot - not recommended) suitable for full height high bandwidth devices.
+2. Sub IO PCI board (optional) - Directly connected to **Processors 2-3,** this board provides 5 PCIe Gen2 slots [4 (x8) and 1 (x4) electrical connectors] and 1 PCIe Gen 1 (x4) - slot ID 1 - (optionally a PCI-X slot - not recommended) suitable for full height high bandwidth devices.
 3. Low Profile (LP) IO board - Directly connected to **Processors 4-5,** this board provides 4 x PCIe x8 and 1 x PCIe x4 slots. These slots are half height only, most recent network and HBA cards ship with a low-profile bracket which can replace the standard one in order to fit in half height slots.
 
 <a id="recommended-configuration-and-settings"></a>
@@ -375,11 +375,11 @@ The module currently exposes the following cmdlets:
 
 ##### Listing Devices &amp; NUMA Topology Information
 
- Get-Device | Sort-Object -Property Name | ft Name, NumaNode, UINumber -AutoSize 
+Get-Device | Sort-Object -Property Name | ft Name, NumaNode, UINumber -AutoSize 
 
 ##### Logical Processor and NUMA Information
 
- Get-Numa
+Get-Numa
 
 ##### Firmware Tables
 

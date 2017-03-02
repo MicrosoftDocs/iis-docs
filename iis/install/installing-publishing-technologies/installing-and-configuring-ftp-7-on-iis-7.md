@@ -39,11 +39,6 @@ Additional information about new features in FTP 7.5 is available in the "[What'
 
 This document will walk you through installing the new FTP service and troubleshooting installation issues.
 
-- [Installing FTP for IIS 7.5](installing-and-configuring-ftp-7-on-iis-7.md#01)
-- [Installing FTP for IIS 7.0](installing-and-configuring-ftp-7-on-iis-7.md#02)
-- [Known Issues in This Release](installing-and-configuring-ftp-7-on-iis-7.md#04)
-- [Getting Started with FTP 7.5](installing-and-configuring-ftp-7-on-iis-7.md#05)
-
 <a id="01"></a>
 
 ## Installing FTP for IIS 7.5

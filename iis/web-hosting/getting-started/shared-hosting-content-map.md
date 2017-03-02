@@ -34,18 +34,6 @@ At the core of the Microsoft Hosting Deployment Accelerator is the latest versio
 
 You can find additional resources for understanding Windows Server 2008 R2 with Hyper-V technology, Microsoft System Center, Microsoft Dynamic Datacenter Toolkit for Hosting, and other related shared hosting topics on this portal.
 
-Here are shortcuts to key areas in the content map below:
-
-- [Planning the Web Hosting Architecture](shared-hosting-content-map.md#plan)
-- [Deploying the Windows Web Platform in Shared Hosting Environments](shared-hosting-content-map.md#deploying)
-- [Verifying the Deployment](shared-hosting-content-map.md#verify)
-- [Installing Infrastructure Components](shared-hosting-content-map.md#infra)
-- [Configuring IIS](shared-hosting-content-map.md#configiis)
-- [Migrating](shared-hosting-content-map.md#migrate)
-- [Provisioning and Managing](shared-hosting-content-map.md#provision)
-- [PowerShell Scripts and C# Code Samples](shared-hosting-content-map.md#scripts)
-- [Using Shared Hosting Environments](shared-hosting-content-map.md#using)
-
 ## Content Map
 
 <a id="plan"></a>
