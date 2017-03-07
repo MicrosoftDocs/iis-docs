@@ -129,7 +129,7 @@ The recommendation for isolating PHP web sites in a shared hosting environment i
 - Configure anonymous user identity to use the application pool identity
 - Ensure that FastCGI impersonation is enabled in php.ini file (fastcgi.impersonate=1)
 
-For more details about security isolation in shared hosting environment, refer to [Isolating Sites with Application Pools](../../manage/creating-websites/provisioning-iis-7-sites-for-shared-hosting.md#isolating "Isolating Sites with Application Pools").
+For more details about security isolation in shared hosting environment, refer to [Isolating Sites with Application Pools](../../manage/creating-websites/provisioning-iis-7-sites-for-shared-hosting.md#Isolating "Isolating Sites with Application Pools").
 
 ### PHP Process Recycling Behavior
 

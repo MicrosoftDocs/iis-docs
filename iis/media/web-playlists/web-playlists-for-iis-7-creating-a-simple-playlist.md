@@ -243,7 +243,7 @@ The following procedure add credentials for a specific path:
 
 [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image19.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image18.jpg)
 
-3. In the **Add Impersonation Setting** dialog box, enter the path that you want to provide credentials for and chose a Logon method. This path can be a UNC path or a simple local path. The Logon methods are identical to those used for Virtual Directories. See [More Information](web-playlists-for-iis-7-creating-a-simple-playlist.md#AdditionalInfo) later in this article for more details.
+3. In the **Add Impersonation Setting** dialog box, enter the path that you want to provide credentials for and chose a Logon method. This path can be a UNC path or a simple local path. The Logon methods are identical to those used for Virtual Directories. See [More Information](web-playlists-for-iis-7-creating-a-simple-playlist.md#info) later in this article for more details.
 
 4. Click **Set**.
 
