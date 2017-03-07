@@ -56,7 +56,7 @@ To create your application package, start with a simple Manifest.xml file that d
 [!code-unknown[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample-127266-1.unknown)]
 
 
-This manifest will copy the contents of "application" and make it an application in IIS. Include this file in the root directory of your distribution package and your application can be installed by Web PI. In this example, the value of the *path*is used both as the name of the directory in the package where the application files are stored and as the name of the Web site where the application is installed.
+This manifest will copy the contents of "application" and make it an application in IIS. Include this file in the root directory of your distribution package and your application can be installed by Web PI. In this example, the value of the *path* is used both as the name of the directory in the package where the application files are stored and as the name of the Web site where the application is installed.
 
 The next step would be to ask the user where they would like to install the application. For this, you use parameters.
 

@@ -91,8 +91,8 @@ Just like in OPML, each &lt;d:Outline&gt; node can have the following attributes
 
 | Attribute | Details |
 | --- | --- |
-| type | *Required*for all nodes without children. Must be one of the following: - *article* - *video* - *series* Describes the kind of content this node represents. This in turn informs WebMatrix on how to label the node in the learning panel (with an icon). If this attribute is missing, the node **must** have children and this node will be interpreted as a header for those children. |
-| uri | *Required*for all nodes without children. Must be a full URL, including a valid protocol. In the case of *article* or *video* types, this should be the URL to a web page containing the content. In the case of *series* types, this should be a URL to a page that describes the series more in-depth (like the website hosting the series). If this attribute is missing, the node **must** have children and this node will be interpreted as a header for those children. |
+| type | *Required* for all nodes without children. Must be one of the following: - *article* - *video* - *series* Describes the kind of content this node represents. This in turn informs WebMatrix on how to label the node in the learning panel (with an icon). If this attribute is missing, the node **must** have children and this node will be interpreted as a header for those children. |
+| uri | *Required* for all nodes without children. Must be a full URL, including a valid protocol. In the case of *article* or *video* types, this should be the URL to a web page containing the content. In the case of *series* types, this should be a URL to a page that describes the series more in-depth (like the website hosting the series). If this attribute is missing, the node **must** have children and this node will be interpreted as a header for those children. |
 
 ### Sample Files
 

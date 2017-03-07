@@ -54,7 +54,7 @@ The application has 4 connection strings, but only 1 will be updated when publis
     1. Go to the **Files** workspace.
     2. Copy and paste the *web.config* to create a copy.
     3. Rename *Web - Copy.config* to *web.config.local*.
-    4. Open *web.config*and make sure all connection strings use the same remote database server.
+    4. Open *web.config* and make sure all connection strings use the same remote database server.
     5. Click **Save** on the **Quick Access Toolbar** or press Ctrl + S.
     6. Publish again.
     7. After publishing, browse to your remote web site to verify that the application works.

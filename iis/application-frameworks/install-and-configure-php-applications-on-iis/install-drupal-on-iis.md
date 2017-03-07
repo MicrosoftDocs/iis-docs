@@ -92,7 +92,7 @@ Before starting the installation procedure for Drupal, you must create a databas
 
 By default, Drupal uses query string parameters for all the URLs it generates for your Web site. With the URL Rewrite Module, however, you can create "clean URLs."
 
-IIS 6.0 does not have URL rewriting capabilities, so you can use a third-party URL rewriting product such as [ISAPI Rewrite](https://www.iis.net/downloads?tabid=34&g=6&i=1599)or [Ionics ISAPI Rewrite Filter](http://www.codeplex.com/IIRF).
+IIS 6.0 does not have URL rewriting capabilities, so you can use a third-party URL rewriting product such as [ISAPI Rewrite](https://www.iis.net/downloads?tabid=34&g=6&i=1599) or [Ionics ISAPI Rewrite Filter](http://www.codeplex.com/IIRF).
 
 IIS 7 and above have URL rewriting support, which can be enabled by installing the [URL Rewrite Module](../../extensions/url-rewrite-module/using-the-url-rewrite-module.md).
 

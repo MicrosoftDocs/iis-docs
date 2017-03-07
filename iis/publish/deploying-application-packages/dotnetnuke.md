@@ -18,7 +18,7 @@ by Simon Tan
 
 ## Introduction
 
-DotNetNuke is an open source content management system (CMS) and application development framework for Microsoft .NET. For more information about DotNetNuke, refer to the [DotNetNuke](http://www.dotnetnuke.com/) Web site. For step-by-step instructions on installing this application in an IIS environment, see the *Procedure*section of this document.
+DotNetNuke is an open source content management system (CMS) and application development framework for Microsoft .NET. For more information about DotNetNuke, refer to the [DotNetNuke](http://www.dotnetnuke.com/) Web site. For step-by-step instructions on installing this application in an IIS environment, see the *Procedure* section of this document.
 
 ## Requirements
 

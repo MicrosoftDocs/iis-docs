@@ -58,7 +58,7 @@ This article contains:
 
 After installing Remote Manager on Windows Vista, start the IIS Management Console as you did before. For example:
 
-1. Click the Windows **Start** button [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image9.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image8.jpg)to display the start menu.
+1. Click the Windows **Start** button [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image9.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image8.jpg) to display the start menu.
 2. Type "inetmgr.exe" into the search box and press **Enter**.   
     [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image11.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image10.jpg)  
  If you are prompted by "User Access Control", click     **Continue** .
@@ -78,7 +78,7 @@ The following issue is known for Remote Manager:
 
 To install the Internet Information Services (IIS) Management Console on Windows Vista, follow the steps below:
 
-1. 1. Click the Windows Start button [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image15.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image14.jpg)to display the start menu.
+1. 1. Click the Windows Start button [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image15.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image14.jpg) to display the start menu.
     2. Type "optionalfeatures.exe" into the search box and press enter.   
  (If you are prompted by "User Account Control," click         **Continue.** )   
         [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image17.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image16.jpg)

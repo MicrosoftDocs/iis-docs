@@ -60,7 +60,7 @@ Please report any issues to [appgal@microsoft.com](mailto:appgal@microsoft.com).
 - *Testing a Web Application Zip Package for Inclusion with the Web Application Gallery*  
     [https://www.iis.net/learn/develop/windows-web-application-gallery/testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery.md)
 
-You can use also the [Web PI command line tool](https://blogs.iis.net/satishl/archive/2011/01/26/webpi-command-line.aspx)to test the application. We recommend that you test your application with Web PI and WebMatrix for the following :
+You can use also the [Web PI command line tool](https://blogs.iis.net/satishl/archive/2011/01/26/webpi-command-line.aspx) to test the application. We recommend that you test your application with Web PI and WebMatrix for the following :
 
 1. The application must install successfully onto IIS
 2. The application must install successfully onto WebMatrix (IIS Express)

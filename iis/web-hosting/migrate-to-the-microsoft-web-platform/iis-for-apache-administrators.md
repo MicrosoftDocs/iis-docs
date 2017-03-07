@@ -90,7 +90,7 @@ In Apache, configuration starts with a directive entry in the Httpd.config file.
 This method is similar for IIS configuration, in which most settings can be configured either locally in the Web.config file or globally in the ApplicationHost.config file. IIS provides a few methods for editing the .config files. These methods include:
 
 - Graphically editing through the IIS Manager console.
-- Editing from the command prompt by using Appcmd.exe along with the *set config / commit*argument/.
+- Editing from the command prompt by using Appcmd.exe along with the *set config / commit* argument/.
 - Editing within a Windows Management Instrumentation script, using *Application class*.
 - Manually editing the configuration files, which are based on a strongly typed schema written in clear-text XML. Microsoft® Visual Web Developer 2005 Express Edition can be used to edit the IIS configuration files in a neat-looking code editor environment.
 

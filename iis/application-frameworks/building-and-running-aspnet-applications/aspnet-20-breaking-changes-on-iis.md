@@ -118,11 +118,11 @@ A. Disable kernel-mode authentication by setting the userKernelMode to "false" i
 
 #### 6. Passport authentication is not supported
 
-You will receive an ASP.NET 500 – Server Error: *The PassportManager object could not be initialized. Please ensure that Microsoft Passport is correctly installed on the server.*Passport authentication is no longer supported on Windows Vista and Windows Server 2008. ***NOTE***: This breaking change applies to both Classic and Integrated modes.
+You will receive an ASP.NET 500 – Server Error: *The PassportManager object could not be initialized. Please ensure that Microsoft Passport is correctly installed on the server.* Passport authentication is no longer supported on Windows Vista and Windows Server 2008. ***NOTE***: This breaking change applies to both Classic and Integrated modes.
 
 #### 7. HttpRequest.LogonUserIdentity throws an InvalidOperationException when accessed in a module before PostAuthenticateRequest
 
-You will receive an ASP.NET 500 – Server Error: *This method can only be called after the authentication event.*HttpRequest.LogonUserIdentity throws an InvalidOperationException when accessed before PostAuthenticateRequest, because the value of this property is unknown until after the client has been authenticated.
+You will receive an ASP.NET 500 – Server Error: *This method can only be called after the authentication event.* HttpRequest.LogonUserIdentity throws an InvalidOperationException when accessed before PostAuthenticateRequest, because the value of this property is unknown until after the client has been authenticated.
 
 ##### Workaround
 
@@ -162,7 +162,7 @@ You will receive HTTP Error 404.11 – Not Found: *The request filtering module 
 
 ##### Workaround
 
-A. Applications that require the use of the "+" character in the URL path can disable this validation by setting the *allowDoubleEscaping*attribute in the *system.webServer/security/requestFiltering*configuration section in the application's web.config. However, this may make your application more vulnerable to malicious URLs:
+A. Applications that require the use of the "+" character in the URL path can disable this validation by setting the *allowDoubleEscaping* attribute in the *system.webServer/security/requestFiltering* configuration section in the application's web.config. However, this may make your application more vulnerable to malicious URLs:
 
 [!code-xml[Main](aspnet-20-breaking-changes-on-iis/samples/sample7.xml)]
 
@@ -210,7 +210,7 @@ These changes affect how the application and module event processing takes place
 
 #### 16. It is not possible to access the request through the HttpContext.Current property in Application\_Start in global.asax
 
-If your application accesses the current request context in the Application\_Start method in global.asax as part of application initialization, you will receive an ASP.NET 500 – Server Error: *Request is not available in this context.*This error occurs because ASP.NET application initialization has been decoupled from the request that triggers it. In Classic mode, it was possible to indirectly access the request context by accessing the HttpContext.Current property. In Integrated mode, this context no longer represents the actual request and therefore attempts to access the Request and Response objects will generate an exception.
+If your application accesses the current request context in the Application\_Start method in global.asax as part of application initialization, you will receive an ASP.NET 500 – Server Error: *Request is not available in this context.* This error occurs because ASP.NET application initialization has been decoupled from the request that triggers it. In Classic mode, it was possible to indirectly access the request context by accessing the HttpContext.Current property. In Integrated mode, this context no longer represents the actual request and therefore attempts to access the Request and Response objects will generate an exception.
 
 ##### Workaround
 
@@ -276,7 +276,7 @@ Other changes.
 
 #### 23. ASP.NET threading settings are not used to control the request concurrency in Integrated mode
 
-The *minFreeThreads*, *minLocalRequestFreeThreads* settings in the *system.web/httpRuntime*configuration section and the *maxWorkerThreads* setting in the *processModel* configuration section no longer control the threading mechanism used by ASP.NET. Instead, ASP.NET relies on the IIS thread pool and allows you to control the maximum number of concurrently executing requests by setting the *MaxConcurrentRequestsPerCPU* DWORD value (default is 12) located in the HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\ASP.NET\2.0.50727.0 key. This setting is global and cannot be changed for individual application pools or applications.
+The *minFreeThreads*, *minLocalRequestFreeThreads* settings in the *system.web/httpRuntime* configuration section and the *maxWorkerThreads* setting in the *processModel* configuration section no longer control the threading mechanism used by ASP.NET. Instead, ASP.NET relies on the IIS thread pool and allows you to control the maximum number of concurrently executing requests by setting the *MaxConcurrentRequestsPerCPU* DWORD value (default is 12) located in the HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\ASP.NET\2.0.50727.0 key. This setting is global and cannot be changed for individual application pools or applications.
 
 ##### Workaround
 

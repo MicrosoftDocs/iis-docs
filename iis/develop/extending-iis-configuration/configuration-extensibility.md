@@ -37,7 +37,7 @@ There are a number of prerequisites for this article. They include:
 
 ### Overview
 
-In order to demonstrate some of the basic configuration extensibility features, we use the contrived example of a custom logging module. The module itself is not all that special and simply handles a built in IIS logging event*- LogRequest* - and writes a log entry to a file on disk; think of it as a basic version of IIS logging.
+In order to demonstrate some of the basic configuration extensibility features, we use the contrived example of a custom logging module. The module itself is not all that special and simply handles a built in IIS logging event *- LogRequest* - and writes a log entry to a file on disk; think of it as a basic version of IIS logging.
 
 Configuration extensibility comes into play because the module needs to know where to log information. The module must have a custom configuration section that stores its configuration - in this case, the logfile location.
 

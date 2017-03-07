@@ -274,7 +274,7 @@ The bold **remove** entry in this example is required. If there is a previous de
 
 IIS includes a URL Rewriter module comprising a complete, expression-based engine for rewriting rules. These rules can be configured manually or by using the IIS Manager. The URL Rewriter module can import and convert mod\_rewrite rules.
 
-A typical simple rewrite rule, which converts all requests that come in to *http.example.com*into `http://www.example.com`, is shown in the following code:
+A typical simple rewrite rule, which converts all requests that come in to *http.example.com* into `http://www.example.com`, is shown in the following code:
 
 
 [!code-xml[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample8.xml)]

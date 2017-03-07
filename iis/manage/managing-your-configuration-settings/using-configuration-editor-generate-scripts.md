@@ -41,7 +41,7 @@ This walkthrough requires the following prerequisites:
     4. Set password to "PoolId1Pwd"
     5. Change identityType to "SpecificUser"
     6. You can optionally change other settings here
-7. [optional] To commit the changes to the configuration system, click *Apply*on the *Actions* pane. However, for the purpose of our walkthrough, please do not do so.
+7. [optional] To commit the changes to the configuration system, click *Apply* on the *Actions* pane. However, for the purpose of our walkthrough, please do not do so.
 
 ## Part 2 – Generate script
 

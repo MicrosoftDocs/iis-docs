@@ -28,7 +28,7 @@ This article focuses on getting started with developing IIS 7.0 and above Web se
 
 To see some real-world managed IIS modules and handlers, and download them for your application, visit [Redirect requests to your application with the HttpRedirection module](http://mvolo.com/blogs/serverside/pages/Redirect-requests-to-your-application-with-the-HttpRedirection-module.aspx), [Get nice looking directory listings for your IIS website with DirectoryListingModule](http://mvolo.com/blogs/serverside/archive/2007/01/21/Get-nice-looking-directory-listings-for-your-IIS-website-with-DirectoryListingModule.aspx), [Display pretty file icons in your ASP.NET applications with IconHandler](http://mvolo.com/blogs/serverside/archive/2007/01/11/Display-pretty-file-icons-in-your-ASP.NET-applications-with-IconHandler.aspx), and [Stopping hot-linking with IIS and ASP.NET](http://mvolo.com/blogs/serverside/archive/2006/11/10/Stopping-hot_2D00_linking-with-IIS-and-ASP.NET.aspx).
 
-You can also download the [source code project](http://mvolo.com/blogs/serverside/attachment/5050.ashx)for the module and handler described in this article.
+You can also download the [source code project](http://mvolo.com/blogs/serverside/attachment/5050.ashx) for the module and handler described in this article.
 
 ## Introduction: Developing IIS features with ASP.NET
 
@@ -213,7 +213,7 @@ We have deployed and configured the module / handler. Now to test them:
 
 In this article, we illustrated the basic steps for developing an IIS module and handler with the familiar ASP.NET APIs, and deploying them to your application. We also discussed the choices you have for your development environment, and how to decide when to build a module vs. a handler. The information in this article should enable you to build your first modules and handlers to empower your IIS applications.
 
-Download the [source code project](http://mvolo.com/blogs/serverside/attachment/5050.ashx)for the module and handler described in this article. You can also review an example module that enables basic authentication against ASP.NET's Membership providers in [Developing a Module using .NET](developing-a-module-using-net.md).
+Download the [source code project](http://mvolo.com/blogs/serverside/attachment/5050.ashx) for the module and handler described in this article. You can also review an example module that enables basic authentication against ASP.NET's Membership providers in [Developing a Module using .NET](developing-a-module-using-net.md).
 
 Be sure to check out more examples of how managed IIS modules and handlers can add value to your applications, and download them for your application by visiting [Redirect requests to your application with the HttpRedirection module](http://mvolo.com/blogs/serverside/pages/Redirect-requests-to-your-application-with-the-HttpRedirection-module.aspx), [Get nice looking directory listings for your IIS website with DirectoryListingModule](http://mvolo.com/blogs/serverside/archive/2007/01/21/Get-nice-looking-directory-listings-for-your-IIS-website-with-DirectoryListingModule.aspx), [Display pretty file icons in your ASP.NET applications with IconHandler](http://mvolo.com/blogs/serverside/archive/2007/01/11/Display-pretty-file-icons-in-your-ASP.NET-applications-with-IconHandler.aspx), and [Stopping hot-linking with IIS and ASP.NET](http://mvolo.com/blogs/serverside/archive/2006/11/10/Stopping-hot_2D00_linking-with-IIS-and-ASP.NET.aspx).
   

@@ -31,7 +31,7 @@ Continue to [download](https://www.iis.net/downloads/microsoft/application-reque
 
 ARR is a key component of the Windows Web Platform &lt;link: to the Shared Hosting config article&gt;. To understand how hosters can take advantage of ARR in shared hosting scenarios, you can:
 
-- Watch this[video](http://www.msteched.com/2010/NorthAmerica/WSV324).
+- Watch this [video](http://www.msteched.com/2010/NorthAmerica/WSV324).
 - Read this [overview article](../../extensions/planning-for-arr/overview-of-shared-hosting-deployment-using-application-request-routing-20.md). It explains the difference between the current approach to shared hosting and the new approach enabled by ARR.
 
 The following image depicts the logical flow of requests between the client and the target Web site server:

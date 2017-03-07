@@ -80,7 +80,7 @@ Now select "Community Images" in the resulting dialog.
 [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image14.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image13.png)
 
 By typing "microsoft/" in the "Community AMIs" dialog you will reduce the selection to the four Microsoft images:  
-[![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image16.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image15.png)Press "Select" in the "Microsoft Web Platform – Wordpress …" row.
+[![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image16.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image15.png) Press "Select" in the "Microsoft Web Platform – Wordpress …" row.
 
 In the next dialog page (Instance Details) you can select how much computing power you want to have for your Wordpress instance. It's probably prudent to start with type small. Click the "Continue" button. Nothing to worry about on the next page either. Just click "Continue" at the bottom of the "Advanced Instance Options" dialog. Now we are getting to the "Create Key Pair" dialog.   
 [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image18.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image17.png)

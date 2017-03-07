@@ -34,7 +34,7 @@ IIS decided early on to make IIS configuration available as an hierarchy of Site
 
 The IIS configuration system was completely revised in version 7. The new configuration system is fully XML-based, schema-driven and completely extensible. The new IIS FTP Server (FTP7) and many other IIS modules like the URL Rewriter, WebDAV etc. leverage this extensibilty to plug into the IIS configuration system.
 
-This extensibilty makes it hard to ship cmdlets with static arguments. Imagine the case where somebody extends an existing configuration section, for example somebody adds a *myFancyNewBehavior*property to the virtualDirectory configuration section. Without revising the IIS cmdlets fancyNewBehavior setting wouldn't be settable via the PowerShell Snap-in cmdlets.
+This extensibilty makes it hard to ship cmdlets with static arguments. Imagine the case where somebody extends an existing configuration section, for example somebody adds a *myFancyNewBehavior* property to the virtualDirectory configuration section. Without revising the IIS cmdlets fancyNewBehavior setting wouldn't be settable via the PowerShell Snap-in cmdlets.
 
 Technical Preview 1 of the IIS PowerShell Snap-in included only low-level cmdlets that took the total configuration extensibility in account. Every IIS configuration setting (more than 100 configuration sections with collections, enumerations etc.) can be configured using these cmdlets. These low-level cmdlets also work against custom configuration, for example if you extended IIS configuration with your own configuration section.
 

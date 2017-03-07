@@ -55,7 +55,7 @@ Follow the steps outlined in [this](../installing-application-request-routing-ar
 
 ## Step 1 - Configure disk cache.
 
-If you have not done so already, configure disk cache by following [this](configure-and-enable-disk-cache-in-application-request-routing.md)article.
+If you have not done so already, configure disk cache by following [this](configure-and-enable-disk-cache-in-application-request-routing.md) article.
 
 ## Step 2 - Define cache hierarchy.
 

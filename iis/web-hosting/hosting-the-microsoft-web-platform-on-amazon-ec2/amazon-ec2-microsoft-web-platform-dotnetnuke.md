@@ -18,7 +18,7 @@ by Thomas Deml
 
 ## Introduction
 
-One thing we often hear from Web developers, especially those who offer Web site design and consulting services, is the need to get a Web site up quickly, which runs fast and gives them total control of the server for maximum flexibility and scalability. Today's post offers a quick walkthrough on how to run [DotNetNuke](http://www.dotnetnuke.com/ "DotNetNuke")on Amazon's [EC2](http://aws.amazon.com/ec2/) Cloud and the [Microsoft Web Platform](https://www.microsoft.com/web). After you followed the steps in this walkthrough you will have a live production DotNetNuke site on the Internet.
+One thing we often hear from Web developers, especially those who offer Web site design and consulting services, is the need to get a Web site up quickly, which runs fast and gives them total control of the server for maximum flexibility and scalability. Today's post offers a quick walkthrough on how to run [DotNetNuke](http://www.dotnetnuke.com/ "DotNetNuke") on Amazon's [EC2](http://aws.amazon.com/ec2/) Cloud and the [Microsoft Web Platform](https://www.microsoft.com/web). After you followed the steps in this walkthrough you will have a live production DotNetNuke site on the Internet.
 
 Here are quick summary of the steps you have to follow:
 
@@ -80,7 +80,7 @@ Now select "Community Images" in the resulting dialog.
 [![](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image15.png)](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image14.png)
 
 By typing "microsoft/" in the "Community AMIs" dialog you will reduce the selection to the four Microsoft images:  
-[![](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image17.png)](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image16.png)Press "Select" in the "Microsoft Web Platform – DotNetNuke…" row.
+[![](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image17.png)](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image16.png) Press "Select" in the "Microsoft Web Platform – DotNetNuke…" row.
 
 In the next dialog page (Instance Details) you can select how much computing power you want to have for your DotNetNuke instance. It's probably prudent to start with type small. Click the "Continue" button. Nothing to worry about on the next page either. Just click "Continue" at the bottom of the "Advanced Instance Options" dialog. Now we are getting to the "Create Key Pair" dialog.   
 [![](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image19.png)](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image18.png)

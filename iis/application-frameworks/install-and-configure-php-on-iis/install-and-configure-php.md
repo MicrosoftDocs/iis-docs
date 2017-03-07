@@ -89,7 +89,7 @@ To use the Zip file installation, follow the instructions in [Using FastCGI to H
 17. From the **Actions** panel on the right, click **Add**.
 18. Enter **index.php** as the new default document name, and then click **OK**.
 19. Enter **default.php** as the new default document name, and then click **OK**.
-20. In the left panel, click on your server's*hostname*.
+20. In the left panel, click on your server's *hostname*.
 21. In the **Actions** panel on the right, click **Restart**.
 22. Create a new text document, and save it as **c:\inetpub\wwwroot\phpinfo.php** with the following content:  
 

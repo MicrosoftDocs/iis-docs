@@ -63,4 +63,4 @@ As you can see, once you have access to the server manager, the sky is the limit
 
 By enclosing your operations between these commands, you can make sure that your changes are committed at the same time.
 
-These are only a handful of examples of what you can do with the new provider. Visit [TechNet](https://technet.microsoft.com/en-us/library/mt270166.aspx "IISAdministration")for the complete documentation and more examples.
+These are only a handful of examples of what you can do with the new provider. Visit [TechNet](https://technet.microsoft.com/en-us/library/mt270166.aspx "IISAdministration") for the complete documentation and more examples.

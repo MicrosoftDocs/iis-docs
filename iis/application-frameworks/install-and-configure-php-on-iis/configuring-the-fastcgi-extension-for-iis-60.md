@@ -111,7 +111,7 @@ The FastCGI extension has a set of configuration settings that controls the beha
 
 - *ExePath* - The physical path to the process executable to use in the pool.
 - *Arguments* - Arguments to pass to each process in the pool at start time. This setting is optional.
-- *EnvironmentVars –*Environment variables that are set for the process executable associated with this pool. This setting uses the following format:
+- *EnvironmentVars –* Environment variables that are set for the process executable associated with this pool. This setting uses the following format:
 
 > EnvironmentVars=Name:Value,Name:Value,…,Name:Value
 
@@ -126,14 +126,14 @@ Example:
 
 [!code-unknown[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample-127384-3.unknown)]
 
-- *Protocol –*This setting specifies the protocol to use to communicate with the FastCGI process. The allowed values are 'NamedPipe' and 'Tcp'. If not specified, the default value is 'NamedPipe'.
+- *Protocol –* This setting specifies the protocol to use to communicate with the FastCGI process. The allowed values are 'NamedPipe' and 'Tcp'. If not specified, the default value is 'NamedPipe'.
 - *QueueLength* – This setting specifies the maximum number of requests to this application's process pool that are queued before the FastCGI handler starts returning errors to clients, indicating that the application is too busy. If not specified, the default value is 1000.
 - *MaxInstances* – This is the highest number of process instances allowed in the process pool. Note that the FastCGI handler will not create this number of processes unless they are needed. If your application never receives more than two concurrent requests, your application only creates two processes. The default is 0, which means that the number of process instances will be adjusted automatically based on available memory and current CPU usage .
 - *InstanceMaxRequests* – This is the number of requests that are sent to a process in the pool before it is shut down and recycled. The default value is 1000.
 - *IdleTimeout* – This is the number of seconds that a process can remain idle without working on a request before it shuts down. The default is 300 seconds.
 - *ActivityTimeout* – This is the number of seconds that the FastCGI handler waits for I/O activity from a process before it is terminated. The default is 30 seconds.
 - *RequestTimeout* – This is the maximum amount of time that a FastCGI process is allowed to handle a request before it is terminated. The default value is 90 seconds.
-- *ResponseBufferLimit –*Data from FastCGI processes is buffered before being returned to the client as responses. This property specifies the amount of response data, in bytes, that is buffered for requests to this application. This buffer is flushed to the client once it is full, or when the response is complete, whichever occurs first. If not specified, the default value is 4194304 (4MB).
+- *ResponseBufferLimit –* Data from FastCGI processes is buffered before being returned to the client as responses. This property specifies the amount of response data, in bytes, that is buffered for requests to this application. This buffer is flushed to the client once it is full, or when the response is complete, whichever occurs first. If not specified, the default value is 4194304 (4MB).
 - *FlushNamedPipe* – There are some cases where a FastCGI application might not read all of the data from the named pipe that communicates with the Web server. If this happens, the Web server waits for a read that is not coming, causing a deadlock on that member of the process pool. This most often happens in the case where the FastCGI process abnormally exits. For instance, the process may have an internal notion of the maximum number of requests that it can handle that is less than the *InstanceMaxRequests* setting. Setting *FlushNamedPipe* to 1 will cause FastCGI to flush data that might lead to this condition. The default value is 0.
 - *UnhealthyOnQueueFull* – If the value is 1, the worker process that is hosting is flagged to IIS as unhealthy any time that the application's request queue is filled. IIS checks health whenever it does a ping to the worker process. If that worker process has been flagged as unhealthy, it (along with everything it is hosting) will be recycled. If not specified, the default value is 0.
 - *MonitorChangesTo* - This property specifies the path to a file, changes to which will trigger a recycle of FastCGI executables that are running for this FastCGI process pool. If the value of this property is blank, file change monitoring is disabled. The path to a file can be absolute or relative to the folder in which the FastCGI process (as specified by ExePath) is present. If not specified, the default value is blank.

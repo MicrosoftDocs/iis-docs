@@ -32,7 +32,7 @@ These are the prerequisites needed for this walkthrough. I won't be covering how
 
 1. Installed IIS Client Certificate Mapping module
 2. A Web Site with an HTTPS binding, properly configured
-3. A Base-64 certificate (.cer file). [*Note:*This can be any valid 64-bit certificate, but it must be in file form]
+3. A Base-64 certificate (.cer file). [*Note:* This can be any valid 64-bit certificate, but it must be in file form]
 4. Installed a client certificate on a client
 5. Installation of [IIS 7 Administration Pack Technical Preview 2](https://blogs.iis.net/rlucero/archive/2008/05/13/iis7-administration-pack-and-database-manager-technical-preview-2.aspx)
 
@@ -65,7 +65,7 @@ The next steps will cover how to enable the Client Certificate Mapping Authentic
 9. Set the **userName** and **password** that clients will be authenticated as.
 10. Set the **enabled** field to **true**
 11. Close **Collection Editor**
-12. Click **Apply** in the Actions Task Pane [*Note:*Click **Script Generation** prior to clicking **Apply** to get scripts for this process]
+12. Click **Apply** in the Actions Task Pane [*Note:* Click **Script Generation** prior to clicking **Apply** to get scripts for this process]
 
 Once this is complete the server will be configured to handle IIS Client Certificate Mapping authentication with a single one to one certificate mapping entry.
 

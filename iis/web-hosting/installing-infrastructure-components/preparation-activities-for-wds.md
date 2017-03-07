@@ -20,7 +20,7 @@ by Walter Oliver
 
 This article provides an overview of the preparation activities needed when deploying with Windows Deployment Services. The Deployment preparations activities may involve writing and testing the PowerShell scripts used in configuration and backup / restore tasks, preparing the servers used to back up computers, create and store operating system images, install applications, and migrate existing user data if needed. This article concentrates o using WDS and the PowerShell scripts provided in this guide.
 
-For detailed information on the preparation activities for Microsoft Deployment [download and install MD](https://www.microsoft.com/downloads/details.aspx?familyid=3bd8561f-77ac-4400-a0c1-fe871c461a89&amp;displaylang=en&amp;tm), within the Deployment Workbench documentation find the section, "Prepare the Deployment Environment," in the *Preparing for LTI Tools*document.
+For detailed information on the preparation activities for Microsoft Deployment [download and install MD](https://www.microsoft.com/downloads/details.aspx?familyid=3bd8561f-77ac-4400-a0c1-fe871c461a89&amp;displaylang=en&amp;tm), within the Deployment Workbench documentation find the section, "Prepare the Deployment Environment," in the *Preparing for LTI Tools* document.
 
 This article contains:
 

@@ -31,7 +31,7 @@ The following web applications (mostly from the [Web Application Gallery](https:
 - [WordPress](https://www.microsoft.com/web/webmatrix/)\*
 - [nopCommerce](https://www.microsoft.com/web/webmatrix/)
 - [Moodle](https://www.microsoft.com/web/webmatrix/)\*
-- [Umbraco](../../develop/installingpublishing-apps-with-webmatrix/umbraco-cms-faq.md) (requires Full Trust, not recommended for Shared Hosting)
+- [Umbraco](https://www.microsoft.com/web/webmatrix/) (requires Full Trust, not recommended for Shared Hosting)
 - [mojoPortal](https://www.microsoft.com/web/webmatrix/)
 - [Gallery](https://www.microsoft.com/web/webmatrix/)\* [using MySQL database]
 - [Joomla!](https://www.microsoft.com/web/webmatrix/)\*

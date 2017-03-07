@@ -65,7 +65,7 @@ Comments are allowed in the input XML using standard comment tags.
 
 - Each validation is specified by a &lt;Validation&gt;&lt;/Validation&gt; tag, and is handles by a specific Validator in the ServerValidator.Validators namespace. 
 
-    - *Type*is a required attribute
+    - *Type* is a required attribute
 
         - The value for this attribute specifies a .NET type in the ServerValidator.Validators namespace that implements the IValidator interface. For example, let's say type ="MyValidator". ServerValidator ships with a number of built-in Validators – it first searches the ServerValidator.dll assembly for "ServerValidator.Validators.MyValidator". If one is not found, it tries to load the "MyValidator.dll" assembly from disk and looks for the "ServerValidator.Validators.MyValidator" type in it.
     - *description* attribute is required. It should be a simple description of the Validation.

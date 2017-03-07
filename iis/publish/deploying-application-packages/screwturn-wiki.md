@@ -18,7 +18,7 @@ by Simon Tan
 
 ## Introduction
 
-ScrewTurn Wiki is a free, open source wiki application that is based on Microsoft ASP.NET 3.5 and allows you to create, manage and share wikis. For more information about ScrewTurn Wiki, refer to the [ScrewTurn Wiki](http://www.screwturn.eu/) Web site. For step-by-step instructions on installing this application in an IIS environment, see the *Procedure*section of this document. 
+ScrewTurn Wiki is a free, open source wiki application that is based on Microsoft ASP.NET 3.5 and allows you to create, manage and share wikis. For more information about ScrewTurn Wiki, refer to the [ScrewTurn Wiki](http://www.screwturn.eu/) Web site. For step-by-step instructions on installing this application in an IIS environment, see the *Procedure* section of this document. 
 
 ## Requirements
 

@@ -26,7 +26,7 @@ IIS Transform Manager is designed to work with other programs, such as programs 
 
 ## Expression Encoder 4 Task
 
-The Expression Encoder 4 task can only be used on a computer that has Microsoft Expression Encoder 4 installed. This task enables batch-encoding and transcoding using the free[Expression Encoder 4 Trial](https://www.microsoft.com/expression/products/EncoderPro_Overview.aspx)version if you are targeting Smooth Streams with VC-1 encoded content. If you require H.264 (AVC) video and AAC audio encoding, the low-cost [Expression Encoder 4 Pro license](https://www.microsoft.com/expression/products/Purchase.aspx) can be purchased and installed on the computer to enable encoding to Smooth Streaming format using these codecs. This task is provided in the installation of Transform Manager.
+The Expression Encoder 4 task can only be used on a computer that has Microsoft Expression Encoder 4 installed. This task enables batch-encoding and transcoding using the free [Expression Encoder 4 Trial](https://www.microsoft.com/expression/products/EncoderPro_Overview.aspx) version if you are targeting Smooth Streams with VC-1 encoded content. If you require H.264 (AVC) video and AAC audio encoding, the low-cost [Expression Encoder 4 Pro license](https://www.microsoft.com/expression/products/Purchase.aspx) can be purchased and installed on the computer to enable encoding to Smooth Streaming format using these codecs. This task is provided in the installation of Transform Manager.
 
 ## Smooth Streaming to MPEG-2 Transport Stream Task
 

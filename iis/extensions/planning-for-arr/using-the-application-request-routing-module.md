@@ -27,7 +27,7 @@ Microsoft Application Request Routing (ARR) for IIS 7 and above is a proxy-based
 
 ARR relies on the [URL rewrite module](../url-rewrite-module/using-the-url-rewrite-module.md) to inspect incoming HTTP requests to make the routing decisions. Therefore, the URL rewrite module is required to enable ARR features.
 
-ARR support is provided by [Microsoft Help and Support](https://support.microsoft.com/). The [forum](https://forums.iis.net/1154.aspx)will remain active.
+ARR support is provided by [Microsoft Help and Support](https://support.microsoft.com/). The [forum](https://forums.iis.net/1154.aspx) will remain active.
 
 ## Features
 

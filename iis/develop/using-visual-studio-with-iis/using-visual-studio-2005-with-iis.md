@@ -198,7 +198,7 @@ To quickly enable a remote Web site to be used with the "Remote Site" option in 
 3. Enable either Basic Authentication or Windows Authentication methods for the Web site. This is required for FPSE to be able to manage the site.
 
 > [!NOTE]
-> If you use Basic authentication, the username and password are transmitted in clear text so you should not use it for connecting to web sites over public networks unless you also use SSL to protect the communication*.*
+> If you use Basic authentication, the username and password are transmitted in clear text so you should not use it for connecting to web sites over public networks unless you also use SSL to protect the communication *.*
 
 4. Enable the web site to be managed with FPSE. You can do this by executing the following from the command line:
 
@@ -221,7 +221,7 @@ If you are using Windows authentication for your FPSE-enabled Web site, Visual S
 If you are using Basic authentication, Visual Studio immediately prompts you for credentials.
 
 > [!NOTE]
-> Basic authentication sends credentials in clear text, so it can lead to unintended disclosure of your username and password if the site is not protected with SSL. For this reason, we recommend using Windows authentication for intranet environments, and using Basic authentication over SSL for internet environments*.*
+> Basic authentication sends credentials in clear text, so it can lead to unintended disclosure of your username and password if the site is not protected with SSL. For this reason, we recommend using Windows authentication for intranet environments, and using Basic authentication over SSL for internet environments *.*
 
 If you have not enabled a suitable authentication method (Windows Authentication, Basic Authentication, or Digest Authentication), you receive the following error dialog when connecting. Turn on one of the above authentication methods to fix this problem.
 
@@ -311,7 +311,7 @@ How you run the Remote Debugging monitor (msvsmon.exe) and configure your permis
 This is important – otherwise the Remote Debugging monitor receives a UAC-filtered token and cannot debug IIS worker processes.
 
 > [!NOTE]
-> Do not use the RunAs.exe command to run the msvsmon.exe process, as this always results in a UAC-filtered token and prevents debugging from working*.*
+> Do not use the RunAs.exe command to run the msvsmon.exe process, as this always results in a UAC-filtered token and prevents debugging from working *.*
 
 You also have an option to run the Remote Debugging monitor as a service by opening the Visual Studio 2005 Remote Debugger Configuration Wizard from the Start menu. If using this option, you must configure the Remote Debugging monitor to log on using the account created in Step 1. You then also must grant the corresponding account the "Log On As A Service" right in the computer's Local Security Policy console.
 

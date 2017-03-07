@@ -99,7 +99,7 @@ The **tsStatus** member is initialized during the IHttpModule's Init() method:
 
 The name of the TraceSource ("**tsStatus**") is important, as this name is later referenced in the web.config file later. The module is now setup to emit events if needed.
 
-To add a new trace event, use **tsStatus.TraceEvent(&lt;type&gt;, 0, &lt;somestring&gt;)** to write out events. Add the recommended Start &amp; End events to the *Application\_EndRequest()*method:
+To add a new trace event, use **tsStatus.TraceEvent(&lt;type&gt;, 0, &lt;somestring&gt;)** to write out events. Add the recommended Start &amp; End events to the *Application\_EndRequest()* method:
 
 [!code-csharp[Main](how-to-add-tracing-to-iis-managed-modules/samples/sample8.cs)]
 

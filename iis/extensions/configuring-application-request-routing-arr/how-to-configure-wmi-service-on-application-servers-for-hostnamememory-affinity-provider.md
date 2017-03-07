@@ -53,7 +53,7 @@ Follow the steps outlined in [this](../installing-application-request-routing-ar
 
 ## Note
 
-The following steps are to be performed on ***all the application servers in the server farm.***More explicitly, these changes are not needed on the ARR server(s).
+The following steps are to be performed on ***all the application servers in the server farm.*** More explicitly, these changes are not needed on the ARR server(s).
 
 ## Step 1 - Enable COM Security
 

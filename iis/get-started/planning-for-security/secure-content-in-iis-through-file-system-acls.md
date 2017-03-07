@@ -87,7 +87,7 @@ To grant Read access to the MyApp\Data folder for the application pool identity,
 
 [!code-unknown[Main](secure-content-in-iis-through-file-system-acls/samples/sample-127017-3.unknown)]
 
-Note that the *setAclUse*r is not used here (the default value for this is Application Pool Identity).
+Note that the *setAclUse* r is not used here (the default value for this is Application Pool Identity).
 
 ## Links for Further Information
 

@@ -74,7 +74,7 @@ To add a new connection using a connection string:
 
 8. In the **Database** text box, type the name of the database to which you would like to connect.
 
-9. If your database uses Windows® Authentication, click on the **Use Windows Integrated Security** option button. Otherwise, click on the **Specify Credentials** option button, and then enter the *credentials*to use to connect to the database.
+9. If your database uses Windows® Authentication, click on the **Use Windows Integrated Security** option button. Otherwise, click on the **Specify Credentials** option button, and then enter the *credentials* to use to connect to the database.
 
 Note: If you would like to specify advanced settings for your connection string, you can alternatively click on the **Custom** option button, and then type in the *connection string*.
 

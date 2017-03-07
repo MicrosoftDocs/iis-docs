@@ -58,14 +58,14 @@ This will load the following functions into the session that you can use to conf
 
 **TurnOn-Backups Function:** 
 
-Allows a server administrator to turn backups on or off at a *SERVER*scope, without overwritting site specific settings. By default, backups are turned off. Even after turning backups on, backups must still be "enabled" at the server or site level in order for backups to be taken.
+Allows a server administrator to turn backups on or off at a *SERVER* scope, without overwritting site specific settings. By default, backups are turned off. Even after turning backups on, backups must still be "enabled" at the server or site level in order for backups to be taken.
 
 > [!code-powershell[Main](web-deploy-automatic-backups/samples/sample3.ps1)]
 
 
 **Configure-Backups:** 
 
-Allows a server administrator to configure the default backup behavior at the *SERVER*or *SITE* specific scope. If an administrator specifies a setting at the server scope and a site has already specified a site specific setting, Web Deploy will prefer the site specific settings over the server settings. If a server administrator would like for the server settings to take preference, he/she should reset the site backup settings which would cause the site to automatically inherit its settings from the server.
+Allows a server administrator to configure the default backup behavior at the *SERVER* or *SITE* specific scope. If an administrator specifies a setting at the server scope and a site has already specified a site specific setting, Web Deploy will prefer the site specific settings over the server settings. If a server administrator would like for the server settings to take preference, he/she should reset the site backup settings which would cause the site to automatically inherit its settings from the server.
 
 > [!code-powershell[Main](web-deploy-automatic-backups/samples/sample4.ps1)]
 

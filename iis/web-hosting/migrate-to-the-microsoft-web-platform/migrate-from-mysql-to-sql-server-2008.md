@@ -18,7 +18,7 @@ by Tali Smith
 
 ## Introduction
 
-PHP, a powerful server-side scripting language used for creating dynamic Web sites and applications, is one of the most widely used Web programming languages in use today. More than 4.5 million PHP developers and more than 22 million Internet domains use PHP<a id="_ftnref1"></a>[[1]](#_ftn1 "_ftnref1"). PHP has been widely deployed on Linux systems via the "LAMP" (Linux-Apache-MySQL-PHP) stack; this open-source Web development platform uses the Linux operating system, an Apache Web server, and a MySQL database with the PHP development language.
+PHP, a powerful server-side scripting language used for creating dynamic Web sites and applications, is one of the most widely used Web programming languages in use today. More than 4.5 million PHP developers and more than 22 million Internet domains use PHP <a id="_ftnref1"></a>[[1]](#_ftn1 "_ftnref1"). PHP has been widely deployed on Linux systems via the "LAMP" (Linux-Apache-MySQL-PHP) stack; this open-source Web development platform uses the Linux operating system, an Apache Web server, and a MySQL database with the PHP development language.
 
 However, PHP can also be implemented on the Windows® operating system, bringing a familiar user interface and legendary ease of use to the server platform. Windows Server® 2008, with the Internet Information Services (IIS) role, supports and improves the interoperability of PHP on Windows Server®, providing a solid, hardened, scalable Web server platform.
 

@@ -43,7 +43,7 @@ Under, select thecheck box. This enables both the CGI and FastCGI services (sele
 
 ## Enable FastCGI Support in Windows 7 and Windows Vista SP1
 
-IIS 7.0 for Windows Vista® Service Pack 1 (SP1) includes a built-in FastCGI component. (Note that IIS 7.0 included in Windows Vista without SP1 does *not*include FastCGI component.) To get FastCGI support on IIS 7.0 in Windows Vista, you must upgrade to Windows Vista SP1.
+IIS 7.0 for Windows Vista® Service Pack 1 (SP1) includes a built-in FastCGI component. (Note that IIS 7.0 included in Windows Vista without SP1 does *not* include FastCGI component.) To get FastCGI support on IIS 7.0 in Windows Vista, you must upgrade to Windows Vista SP1.
 
 The steps to enable FastCGI in Windows 7 are similar.
 

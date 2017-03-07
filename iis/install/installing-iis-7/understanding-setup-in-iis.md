@@ -337,7 +337,7 @@ Every IIS update has an implicit dependency on its parent group update. For exam
 - IIS-CommonHttpFeatures depends on IIS-WebServer.
 - IIS-WebServer depends on IIS-WebServerRole.
 
-Again, setup UI tools such as Server Manager handle this automatically, but when using command-line tools to install an update, you must also explicitly install all of the parent updates and any additional dependencies. Additional information about update dependencies is in the *Custom Installations*section*.*
+Again, setup UI tools such as Server Manager handle this automatically, but when using command-line tools to install an update, you must also explicitly install all of the parent updates and any additional dependencies. Additional information about update dependencies is in the *Custom Installations* section *.*
 
 <a id="Default"></a>
 
@@ -521,7 +521,7 @@ Here, things become more interesting: the IIS Web Server feature has the highest
 - IIS-Security – Provides additional authentication and authorization facilities beyond anonymous authentication.
 - IIS-Performance – Provides static and dynamic content compression.
 
-The IIS features within each of these groups were discussed above in the *IIS Package Updates*section*.* You should review your server application needs and choose only those Web Server features that you must have.
+The IIS features within each of these groups were discussed above in the *IIS Package Updates* section *.* You should review your server application needs and choose only those Web Server features that you must have.
 
 ### Custom Installation Example
 
@@ -562,7 +562,7 @@ For items 5, we need the IIS-WindowsAuthentication update.
 
 And finally, for item 6, we need the IIS-HttpCompressionStatic and IIS-HttpCompressionDynamic updates.
 
-At this point, we have the information we need in order to use the setup user interface tools and to check the components we need and uncheck the wones we do not require. But since we intend to deploy this Web server configuration to multiple servers, we must create a script that gives us the required package configuration. As discussed in the *IIS Package Updates*section*,* our scripts must explicitly declare any parent and/or feature updates dependencies for feature updates we wish to install.
+At this point, we have the information we need in order to use the setup user interface tools and to check the components we need and uncheck the wones we do not require. But since we intend to deploy this Web server configuration to multiple servers, we must create a script that gives us the required package configuration. As discussed in the *IIS Package Updates* section *,* our scripts must explicitly declare any parent and/or feature updates dependencies for feature updates we wish to install.
 
 Taking dependencies one item at a time, the following section describes requred actions for this process.
 
@@ -596,7 +596,7 @@ For item 3, the parent update is: IIS-ApplicationDevelopment. Both of the above 
 - IIS-ISAPIFilter
 - IIS-RequestFiltering
 
-For item 4, the parent update is: IIS-WebServerManagementTools. (Neither of the notes above apply here.) The *IIS Intra-Dependencies*section further explains that IIS-ManagementService depends on the following updates.
+For item 4, the parent update is: IIS-WebServerManagementTools. (Neither of the notes above apply here.) The *IIS Intra-Dependencies* section further explains that IIS-ManagementService depends on the following updates.
 
 - IIS-ManagementConsole
 - WAS-NetFxEnvironment

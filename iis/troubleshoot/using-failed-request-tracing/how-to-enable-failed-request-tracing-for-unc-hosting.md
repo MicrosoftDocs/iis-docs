@@ -48,7 +48,7 @@ After installation of the Failed Request Tracing Module (see the [Troubleshootin
 
 To verify that &lt;traceFailedRequests&gt; has been setup for delegation from the IIS Manager UI, do the following:
 
-1. Click Start and type in *inetmgr.*Enter administrator credentials if you are not already administrator.
+1. Click Start and type in *inetmgr.* Enter administrator credentials if you are not already administrator.
 2. Click the Machine name, then *Feature Delegation.*
 3. Verify that *Failed Request Tracing Rules* is set to **Read/Write**.
 
@@ -99,10 +99,10 @@ These directions should be repeated on both the UNC server as well as the web se
 
 Make sure to create the **PoolId1** user on both the front-end IIS Web Server &amp; the back end UNC server.
 
-You also need to add the*PoolId1*to the IIS\_IUSRS group on the Front End Web Server. To do so:
+You also need to add the *PoolId1* to the IIS\_IUSRS group on the Front End Web Server. To do so:
 
 1. Click the **Groups** folder on the *lusrmgr* MMC snapin.
-2. Right-click on *IIS\_IUSRS*and select **Add to Group**.
+2. Right-click on *IIS\_IUSRS* and select **Add to Group**.
 3. Click **Add...**, then put *&lt;servername&gt;\PoolId1* in as the identity to add.
 
 ### CMD: Creating the New Local Account on the UNC Server and Front End Web Server

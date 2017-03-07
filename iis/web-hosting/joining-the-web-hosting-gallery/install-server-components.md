@@ -89,7 +89,7 @@ Here is the full list of which components are installed by those links, so you c
     - A handful of applications in the App Gallery depend on this installed centrally
 - [Optional]  
   
- Note that you can also optionally install     [ASP.NET MVC3](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=MVC3) and     [ASP.NET Web Pages](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=Plan9) , which gives you the ability to host applications written in the new "Razor" syntax of ASP.NET. However, note that the binaries required for these kinds of applications are     **automatically published** by WebMatrix. That is, each end user who publishes applications of this type will automatically end up with the required binaries in a    */bin/* folder within their site root directory, so it is not really necessary to install them centrally.  
+ Note that you can also optionally install     [ASP.NET MVC3](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=MVC3) and     [ASP.NET Web Pages](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=Plan9) , which gives you the ability to host applications written in the new "Razor" syntax of ASP.NET. However, note that the binaries required for these kinds of applications are     **automatically published** by WebMatrix. That is, each end user who publishes applications of this type will automatically end up with the required binaries in a     */bin/*  folder within their site root directory, so it is not really necessary to install them centrally.  
   
  In fact, we actually recommend that you do     **not** install anything except     **MVC 1** .  
   

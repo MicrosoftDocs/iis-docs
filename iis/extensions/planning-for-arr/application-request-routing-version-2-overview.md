@@ -52,7 +52,7 @@ Because ARR is a proxy-based HTTP request routing module with support for disk c
     [gzip compresses objects](../configuring-application-request-routing-arr/using-compression-in-application-request-routing.md)
 Disk-based cache stores compressed objects so that the objects do not have to be compressed in real time for every request. In addition, ARReven if the content server does not respond with gzip content-encoding.- **[Configure Caching with Query String Support](../configuring-application-request-routing-arr/configure-caching-with-query-string-support-in-application-request-routing.md) in Application Request Routing**- **Browsing cached contents using IIS Manager**  
     [Browse through cached contents](../configuring-application-request-routing-arr/browse-cached-contents-on-disk-on-application-request-routing.md) across multiple drives in one consolidated graphical view in IIS Manager. - **Removing cached contents**  
-    [Delete cached contents](../configuring-application-request-routing-arr/delete-cached-objects.md) by matching URL patterns. - Running Scavenger.exe to delete cached content in the secondary drive as a [standalone](../configuring-application-request-routing-arr/use-scavengeexe-tool-to-delete-cached-content-from-secondary-cache-drive.md)utility. - **Overriding cache-control directives**  
+    [Delete cached contents](../configuring-application-request-routing-arr/delete-cached-objects.md) by matching URL patterns. - Running Scavenger.exe to delete cached content in the secondary drive as a [standalone](../configuring-application-request-routing-arr/use-scavengeexe-tool-to-delete-cached-content-from-secondary-cache-drive.md) utility. - **Overriding cache-control directives**  
  Manually     [override the cache-control directives](../configuring-application-request-routing-arr/manually-override-cache-control-directives-using-application-request-routing.md) in the response header to change the cache behavior. - **Warming up cache node**  
     [Proactively warm up your cache node](../configuring-application-request-routing-arr/warm-up-cache-nodes-on-application-request-routing.md) with contents that     **will** be in demand before they are requested. In addition, the contents can be pre-cached selectively only at the parent cache tier. - **Intelligent byte-range support**  
  ARR converts the     [byte-range request into manageable segments](../configuring-application-request-routing-arr/configure-byte-range-request-segment-size-in-application-request-routing.md) to increase cache hit/miss ratio without sacrificing response time. - **Intelligent live request support**
@@ -65,7 +65,7 @@ Disk-based cache stores compressed objects so that the objects do not have to be
 
 ## Support
 
-ARR Version 2 is a Released to Web (RTW) product and support is provided by [Microsoft Help and Support](https://support.microsoft.com/). The [forum](https://forums.iis.net/1154.aspx)will remain active.
+ARR Version 2 is a Released to Web (RTW) product and support is provided by [Microsoft Help and Support](https://support.microsoft.com/). The [forum](https://forums.iis.net/1154.aspx) will remain active.
 
 ## Get the module
 
@@ -89,7 +89,7 @@ Steps through how ARR can be deployed as an edge/child cache node as well as a p
 View cached contents using IIS Manager across multiple primary cache drives.
 - [**Remove cached contents**](../configuring-application-request-routing-arr/delete-cached-objects.md)**from ARR.**  
 Delete one or more cached contents while browsing or by matching URL patterns.
-- Running Scavenger.exe to delete cached content in the secondary drive as a [standalone](../configuring-application-request-routing-arr/use-scavengeexe-tool-to-delete-cached-content-from-secondary-cache-drive.md)utility.
+- Running Scavenger.exe to delete cached content in the secondary drive as a [standalone](../configuring-application-request-routing-arr/use-scavengeexe-tool-to-delete-cached-content-from-secondary-cache-drive.md) utility.
 - [**Override cache-control directives**](../configuring-application-request-routing-arr/manually-override-cache-control-directives-using-application-request-routing.md)**in an HTTP response.**  
 Control what to cache or for how long to cache, irrespective of cache-control directives.
 - [**Warm up cache nodes**](../configuring-application-request-routing-arr/warm-up-cache-nodes-on-application-request-routing.md)**on ARR with anticipated contents.**   

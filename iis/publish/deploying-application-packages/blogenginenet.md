@@ -18,7 +18,7 @@ by Simon Tan
 
 ## Introduction
 
-BlogEngine.NET is an open source .NET blogging platform for Microsoft .NET. For more information about BlogEngine.Net, refer to the [BlogEngine.NET](http://www.dotnetblogengine.net/) Web site. For step-by-step instructions on installing this application in an IIS environment, see the *Procedure*section of this document.
+BlogEngine.NET is an open source .NET blogging platform for Microsoft .NET. For more information about BlogEngine.Net, refer to the [BlogEngine.NET](http://www.dotnetblogengine.net/) Web site. For step-by-step instructions on installing this application in an IIS environment, see the *Procedure* section of this document.
 
 ## Requirements
 

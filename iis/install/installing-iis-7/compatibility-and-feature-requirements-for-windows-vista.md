@@ -30,7 +30,7 @@ This section describes the known breaking changes in IIS 7.0 and above.
 
 Previous versions of IIS used the metabase to configure Web servers and sites, whereas IIS 7.0 and above use an XML configuration file to configure these settings. Although the metabase is no longer used to configure IIS 7.0 and above, a metabase compatibility feature is available to make IIS 7.0 and above compatible with APIs that relied on the metabase. This feature supports the Admin Base Objects (ABO) interface (also known as IMSAdminBase), Active Directory Service Interfaces (ADSI), and the WMI providers that were built on top of ABO in IIS 6.0.
 
-By default, IIS 7.0 and above does not install the metabase compatibility feature. For more information on how to install the metabase compatibility feature, see[Configuration Compatibility](https://go.microsoft.com/fwlink/?LinkId=78483) on IIS.NET.
+By default, IIS 7.0 and above does not install the metabase compatibility feature. For more information on how to install the metabase compatibility feature, see [Configuration Compatibility](https://go.microsoft.com/fwlink/?LinkId=78483) on IIS.NET.
 
 ### Metabase Compatibility Considerations
 
@@ -120,7 +120,7 @@ IIS 6.0 URL authorization was implemented as an ISAPI extension. IIS 7.0 and abo
 
 By default, ASP.NET uses an implementation of URL Authorization that applies only to managed content. By removing the managedHandler precondition from the urlauthorization module, you can make it apply for all content, but there may be a performance penalty. Read more about [ASP.NET URL Authorization](https://go.microsoft.com/fwlink/?LinkId=78512) on the MSDN site.
 
-By default, IIS 7.0 and above uses an implementation of URL Authorization that applies to all content. This is the recommended URL Authorization implementation in IIS 7.0 and above. Read more about [configuring IIS URL Authorization rules](https://go.microsoft.com/fwlink/?LinkId=78496)on the Microsoft TechNet site.
+By default, IIS 7.0 and above uses an implementation of URL Authorization that applies to all content. This is the recommended URL Authorization implementation in IIS 7.0 and above. Read more about [configuring IIS URL Authorization rules](https://go.microsoft.com/fwlink/?LinkId=78496) on the Microsoft TechNet site.
 
 <a id="FrontPageNot"></a>
 

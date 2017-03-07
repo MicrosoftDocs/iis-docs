@@ -20,7 +20,7 @@ This walkthrough will guide you through how to use custom rewrite providers with
 
 ## Install URL Rewrite Extensibility Samples
 
-In order to complete this walkthrough, download and install[URL Rewrite Extensibility Samples](https://code.msdn.microsoft.com/Project/Download/FileDownload.aspx?ProjectName=rewriteextensibility&amp;DownloadId=9257). The Extensibility Samples installation package includes .NET assemblies and the source code with full implementation of rewrite providers for the three most common use cases:
+In order to complete this walkthrough, download and install [URL Rewrite Extensibility Samples](https://code.msdn.microsoft.com/Project/Download/FileDownload.aspx?ProjectName=rewriteextensibility&amp;DownloadId=9257). The Extensibility Samples installation package includes .NET assemblies and the source code with full implementation of rewrite providers for the three most common use cases:
 
 - Storing of the rewrite or redirect mappings in a SQL database;
 - Storing of the rewrite or redirect mappings in a text file;

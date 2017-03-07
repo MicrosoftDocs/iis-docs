@@ -74,7 +74,7 @@ A server is shared by multiple sites. Each site has its own administrator and th
 
 **Important** This is the most important step. If this is not done, any lower level site administrator can add any file on the server to his/her playlist and that, in turn, would be downloaded for them. This can be a security issue. By default, this setting is set to False in the handler config.
 
-All other settings could have the default values*.*
+All other settings could have the default values *.*
 
 1. In the **Actions** pane, click **Edit Feature Settings**.
 
@@ -92,7 +92,7 @@ A server is used for an enterprise. Enterprise users cannot create playlists, on
 
 This is needed, as otherwise Web Playlists fails when it tries to access local paths (for example, C:\mydir) or remote UNC paths (for example, [file:///\\myServer\media](file://myserver/media)). Because the super administrator is the only one who can create playlists, the risk of making this setting true is minimal. By default, this setting is set to False in the playlist handler configuration.
 
-All other settings could have the default values*.*
+All other settings could have the default values *.*
 
 Refer to screen shots in the previous scenario.
 

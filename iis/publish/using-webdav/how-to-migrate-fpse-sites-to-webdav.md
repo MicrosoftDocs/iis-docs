@@ -58,7 +58,7 @@ The above condition is required because the User Account Control (UAC) security 
 
 ## A Brief Description of FPSE and WebDAV
 
-One of the great things about the FrontPage Server Extensions from their original concept was their*vision*. When the FrontPage development team first envisioned a client-independent way of publishing content between disparate servers, technologies like WebDAV were still unheard of. By installing FPSE and using the FrontPage client, it became possible to seamlessly publish content from a Windows web server to a UNIX web server (or vice-versa) with full feature parity between the two systems. In its original presentation FPSE was implemented using the Common Gateway Interface (CGI), although it was later implemented for IIS through ISAPI.
+One of the great things about the FrontPage Server Extensions from their original concept was their *vision*. When the FrontPage development team first envisioned a client-independent way of publishing content between disparate servers, technologies like WebDAV were still unheard of. By installing FPSE and using the FrontPage client, it became possible to seamlessly publish content from a Windows web server to a UNIX web server (or vice-versa) with full feature parity between the two systems. In its original presentation FPSE was implemented using the Common Gateway Interface (CGI), although it was later implemented for IIS through ISAPI.
 
 [![](how-to-migrate-fpse-sites-to-webdav/_static/image3.jpg)](how-to-migrate-fpse-sites-to-webdav/_static/image1.jpg)
 
