@@ -33,17 +33,6 @@ A module is either a Win32 DLL (native module) or a .NET 2.0 type contained with
 
 This article describes common IIS module management tasks, and details each module including its configuration settings and the potential effect a module removal has on the Web server. The management examples are given using both the graphical IIS Manager and the **AppCmd** command line tool.
 
-This article contains:
-
-- [Prerequisites](#Prerequisites)
-- [Getting Started with Modules](#Getting)
-- [Enabling a Module for an Application](#Enable_mod)
-- [Disabling a Module in an Application](#Disabling)
-- [Preconditions](#Precondition)
-- [Querying, Adding and Removing Modules Using the IIS Manager](#Querying)
-- [Managing Modules from the Command Line](#Managing)
-- [Module Reference](#Reference)
-
 <a id="Prerequisites"></a>
 
 ## Prerequisites
@@ -298,162 +287,162 @@ The IIS server is ready for customizing. Read the following list carefully to av
 These modules do not provide request services, but instead assist the server engine with its internal operation.
 
 
-| Module Name: | UriCacheModule |
+| **Module Name:** | **UriCacheModule** |
 | --- | --- |
 | Description: | Implements a generic cache for URL-specific server state, such as configuration. With this module, the server only reads configuration for the first request for a particular URL, and reuse it on subsequent requests until it changes. |
 | Configuration sections: | None. |
 | Dependencies: | None. |
 | Potential issues when removing this module | Performance loss due to state cached for each URL retrieval for every request. |
-| Module Name: | FileCacheModule |
+| **Module Name:** | **FileCacheModule** |
 | Description: | Caches file handles for files opened by the server engine and modules. |
 | Configuration sections: | None. |
 | Dependencies: | None. |
 | Potential issues when removing this module | Performance loss. If file handles are not cached, the files have to be opened for every request. |
-| Module Name: | TokenCacheModule |
+| **Module Name:** | **TokenCacheModule** |
 | Description: | Caches windows security tokens for password based authentication schemes (anonymous authentication, basic authentication, IIS client certificate authentication). |
 | Configuration sections: | None. |
 | Dependencies: | None. |
 | Potential issues when removing this module | Performance loss. The users must be logged on for every request if the token is not cached. A major performance impact may result. For example, if a password protected html page references 50 images that are also protected, 51 logonUser calls to the local account database, or worse, to an off-box domain controller, result in a performance issue. |
-| Module Name: | ManagedEngine |
+| **Module Name:** | **ManagedEngine** |
 | Description: | Managed Engine has a special place within all the other modules. It is responsible for providing the IIS integration to hook up with the ASP.NET runtime. |
 | Configuration sections: |  |
 | Dependencies: | None. |
 | Potential issues when removing this module | ASP.NET integration will be disabled. None of the managed modules declared in the &lt;modules&gt; or ASP.NET handlers declared in the &lt;handlers&gt; section are called when the Application Pool runs in Integrated Mode. |
-| Module Name: | HttpCacheModule |
+| **Module Name:** | **HttpCacheModule** |
 | Description: | The HttpCacheModule implements the IIS output cache and also the logic for caching items in the http.sys cache. Set the cache size, output cache profiles etc. via configuration. |
 | Configuration sections: | System.webServer/caching |
 | Dependencies: | None. |
 | Potential issues when removing this module | Content will no longer be cached in kernel mode. Cache profiles are ignored. Removing the HttpCacheModule will probably have adverse effects on performance and resource usage. |
-| Module Name: | DynamicCompressionModule |
+| **Module Name:** | **DynamicCompressionModule** |
 | Description: | Implements in-memory compression of dynamic content. |
 | Configuration sections: | system.webServer/httpCompression and system.webServer/urlCompression. |
 | Dependencies: | There will not be any dependencies because Dynamic compression is turned off by default. |
-| Module Name: | StaticCompressionModule |
+| **Module Name:** | **StaticCompressionModule** |
 | Description: | Implements compression (in memory as well as persistent in the file system) of static content. |
 | Configuration sections: | system.webServer/httpCompression and system.webServer/urlCompression |
 | Dependencies: | None. |
 | Potential issues when removing this module | Potential Bandwidth saturation due to uncompressed content being sent back to the client. |
-| Module Name: | DefaultDocumentModule |
+| **Module Name:** | **DefaultDocumentModule** |
 | Description: | Implements default document functionality. Requests that come in with a trailing / will be rerouted to a document in the default document list. |
 | Configuration sections: | system.webServer/defaultDocument |
 | Dependencies: | None. |
 | Potential issues when removing this module | Requests to /, for example [http://localhost/](http://localhost/), return a 404 error. If a directoryBrowsing is enabled, a directory listing is generated. |
-| Module Name: | DirectoryListingModule |
+| **Module Name:** | **DirectoryListingModule** |
 | Description: | Implements directory browsing functionality. |
 | Configuration sections: | system.webServer/directoryBrowse |
 | Dependencies: | None. |
 | Potential issues when removing this module | If the neither the default document module nor the directoryListing Module handle a request for a /, an empty response returns. |
-| Module Name: | ProtocolSupportModule |
+| **Module Name:** | **ProtocolSupportModule** |
 | Description: | Implements custom and redirect response headers. Implements the trace and Options HTTP verbs. Implements the supports which allow or turn off keep-alive support via configuration. |
 | Configuration sections: | system.webServer/httpProtocol |
 | Dependencies: | None. |
 | Potential issues when removing this module | TRACE or OPTIONS requests return a &quot;405 Method not allowed&quot; error message. |
-| Module Name: | HttpRedirectionModule |
+| **Module Name:** | **HttpRedirectionModule** |
 | Description: | Implements redirect functionality. |
 | Configuration sections: | system.webServer/httpRedirect |
 | Dependencies: | None. |
 | Potential issues when removing this module | Potential security issue if resources were protected by redirection. When the Redirection module is removed, the content becomes accessible again. |
-| Module Name: | ServerSideIncludeModule |
+| **Module Name:** | **ServerSideIncludeModule** |
 | Description: | Implements server side includes. This module is mapped as a handler, only executing for requests ending in .stm, .shtm and .shtml. |
 | Configuration sections: | system.webServer/serverSideInclude |
 | Dependencies: | None. |
 | Potential issues when removing this module | The static file module handles.stm, .shtm and .shtml files. If this module has a mimeMap for these extensions the files become served as text. Note, however, that this is not the default. |
-| Module Name: | StaticFileModule |
+| **Module Name:** | **StaticFileModule** |
 | Description: | Sends out static files with the file extension .html, .jpg, as well as many others. The staticContent/mimeMap configuration collection determines the list of file extensions. |
 | Configuration sections: | system.webServer/staticContent |
 | Dependencies: | None. |
 | Potential issues when removing this module | Static files no longer become served. Requests for files return a 404 Not Found error indicating that no handler was matched. |
-| Module Name: | AnonymousAuthenticationModule |
+| **Module Name:** | **AnonymousAuthenticationModule** |
 | Description: | Implements anonymous authentication. This module generates the HttpUser object if a URL is configured to allow anonymous authentication. |
 | Configuration sections: | system.webServer/security/authentication/anonymousAuthentication |
 | Dependencies: | None. |
 | Potential issues when removing this module | At least one authentication module must be configured. The IIS server core checks after the authentication phase if the HttpUser object is populated. The HttpUser object is an IIS data structure. A 401.2 error generates if there is no authentication populating the HttpUser object. |
-| Module Name: | CertificateMappingAuthenticationModule |
+| **Module Name:** | **CertificateMappingAuthenticationModule** |
 | Description: | Maps SSL client certificates to an Active Directory account (Active Directory Certificate Mapping). |
 | Configuration sections: | system.webServer/security/authentication/clientCertificateMappingAuthentication |
 | Dependencies: | SSL must be configured for this module to work. The IIS machine must also be a member of an Active Directory domain. |
 | Potential issues when removing this module | Requests are normally allowed if Active Directory Certificate Mapping is used to protect a directory; in this case, the module is removed. |
-| Module Name: | BasicAuthenticationModule |
+| **Module Name:** | **BasicAuthenticationModule** |
 | Description: | implements HTTP Basic authentication described in RFC 2617. |
 | Configuration sections: | system.webServer/security/authentication/basicAuthentication |
 | Dependencies: | None. |
 | Potential issues when removing this module | At least one authentication module has must be configured. The IIS server core checks after the authentication phase if the HttpUser object is populated. The HttpUser object is an IIS data structure. A 401.2 error generates if there is no authentication populating the HttpUser object. |
-| Module Name: | WindowsAuthenticationModule |
+| **Module Name:** | **WindowsAuthenticationModule** |
 | Description: | Implements Windows authentication (NTLM or Negotiate (Kerberos)). |
 | Configuration sections: | system.webServer/security/authentication/windowsAuthentication |
 | Dependencies: | None. |
 | Potential issues when removing this module | At least one authentication module must be configured. The IIS server core checks after the authentication phase if the HttpUser object is populated. The HttpUser object is an IIS data structure. A 401.2 error is generates if there is no authentication populating the HttpUser object. |
-| Module Name: | DigestAuthenticationModule |
+| **Module Name:** | **DigestAuthenticationModule** |
 | Description: | Implements digest authentication described in RFC 2617. |
 | Configuration sections: | system.webServer/security/authentication/digestAuthentication |
 | Dependencies: | IIS server must be part of an Active Directory domain. |
 | Potential issues when removing this module | At least one authentication module must be configured. The IIS server core checks after the authentication phase if the HttpUser object is populated. The HttpUser object is an IIS data structure. A 401.2 error is generates if there is no authentication populating the HttpUser object. |
-| Module Name: | IISCertificateMappingAuthenticationModule |
+| **Module Name:** | **IISCertificateMappingAuthenticationModule** |
 | Description: | Implements IIS certificate mapping. Maps SSL client certificates to a Windows account. Contrary to Active Directory Certificate mapping, user credentials and mapping rules are stored within the IIS configuration store |
 | Configuration sections: | system.webServer/iisClientCertificateMappingAuthentication |
 | Dependencies: | SSL with the requirement to receive client certificates has to be configured for this module to work. |
 | Potential issues when removing this module | At least one authentication module must be configured. The IIS server core checks after the authentication phase if the HttpUser object is populated. The HttpUser object is an IIS data structure. A 401.2 error generates if there is no authentication populating the HttpUser object. |
-| Module Name: | UrlAuthorizationModule |
+| **Module Name:** | **UrlAuthorizationModule** |
 | Description: | Implements authorization based on configuration rules. |
 | Configuration sections: | system.webServer/security/authorization |
 | Dependencies: | None. |
 | Potential issues when removing this module | Authorization rules which protected content are no longer evaluated. Content that was supposed to be protected might be served. |
-| Module Name: | IsapiModule |
+| **Module Name:** | **IsapiModule** |
 | Description: | Implements ISAPI Extension functionality. |
 | Configuration sections: | system.webServer/isapiCgiRestriction |
 | Dependencies: | None. |
 | Potential issues when removing this module | ISAPI Extensions mapped in the &lt;handlers&gt; section (modules=&quot;IsapiModule&quot;) or explicitely called ISAPI Extensions will no longer work. |
-| Module Name: | IsapiFilterModule |
+| **Module Name:** | **IsapiFilterModule** |
 | Description: | Implements ISAPI filter functionality. |
 | Configuration sections: | system.webServer/isapiFilters |
 | Dependencies: | None. |
 | Potential issues when removing this module | ISAPI filters often implement functionality applications rely on. Examples are ASP.NET or SharePoint. ASP.NET for example needs the aspnet\_filter.dll to protect sensitive content and to rewrite URLs. Removing this module prevents IIS from loading ISAPI filters. Applications might stop working or sensitive content may be exposed. |
-| Module Name: | IpRestrictionModule |
+| **Module Name:** | **IpRestrictionModule** |
 | Description: | Implements an authorization scheme based on the IPv4 address of the client request. |
 | Configuration sections: | system.webServer/security/ipSecurity |
 | Dependencies: | IPv4 stack must be installed. |
 | Potential issues when removing this module | Clients with IP addresses on the ipSecurity list will be allowed. |
-| Module Name: | RequestFilteringModule |
+| **Module Name:** | **RequestFilteringModule** |
 | Description: | Implements a powerful set of security rules which reject suspicious request at a very early stage. This module is the successor to the ISAPI filter UrlScan.DLL that was shipped for IIS 5.0 and 6.0. |
 | Configuration sections: | system.webServer/security/requestFiltering |
 | Dependencies: | None. |
 | Potential issues when removing this module | If this module is removed, the rules specified in the requestFiltering section no longer apply. Potential security issues may result. |
-| Module Name: | CustomLoggingModule |
+| **Module Name:** | **CustomLoggingModule** |
 | Description: | Implements the ILogPlugin interface on top of IIS. ILogPlugin is a previous COM implmentation that allowed customers to extend IIS logging. We do not not recommend extending IIS using this interface. Instead, customers should write a module and subscribe to the RQ\_LOG\_REQUEST notification. |
 | Configuration sections: | system.webServer/httpLogging and system.applicationhost/sites/site/logFile/customLogPluginClsid |
 | Dependencies: | None. |
 | Potential issues when removing this module | A custom log plug-in will no longer be called. For example, ODBC Logging is implemented as ILogPlugin. |
-| Module Name: | CustomErrorModule |
+| **Module Name:** | **CustomErrorModule** |
 | Description: | Implements custom errors and the IIS detailed error feature. |
 | Configuration sections: | system.webServer/httpErrors |
 | Dependencies: | None. |
 | Potential issues when removing this module | IIS returns blank pages with minimal information when errors within the core server occur. Remote users may see detailed error information coming from server components which can result in disclosing information. |
-| Module Name: | HttpLoggingModule |
+| **Module Name:** | **HttpLoggingModule** |
 | Description: | Implements standard IIS logging by telling HTTP.SYS what to log. |
 | Configuration sections: | system.applicationHost/log and system.webServer/httpLogging |
 | Dependencies: | None. |
 | Potential issues when removing this module | Standard IIS logging will no longer work. |
-| Module Name: | FailedRequestsTracingModule |
+| **Module Name:** | **FailedRequestsTracingModule** |
 | Description: | Implements tracing of failed requests. Define and set rules for failed requests via configuration. |
 | Configuration sections: | system.webServer/tracing and system.webServer/httpTracing |
 | Dependencies: | None. |
 | Potential issues when removing this module | Tracing http requests will no longer work. |
-| Module Name: | RequestMonitorModule |
+| **Module Name:** | **RequestMonitorModule** |
 | Description: | Implements the IIS Run-time State and Control Interface (RSCA). RSCA allows users to query for run-time information such as currently executing request, start/stop state of a web-site, or currently executing application domains. |
 | Configuration sections: | None. |
 | Dependencies: | None. |
 | Potential issues when removing this module | Tools will be unable to enumerate currently executing requests. |
-| Module Name: | CgiModule |
+| **Module Name:** | **CgiModule** |
 | Description: | Implements CGI on top of IIS. |
 | Configuration sections: | system.webServer/cgi and system.webServer/isapiCgiRestriction |
 | Dependencies: | None. |
 | Potential issues when removing this module | CGI programs will stop working. |
-| Module Name: | TracingModule |
+| **Module Name:** | **TracingModule** |
 | Description: | Implements ETW tracing. |
 | Configuration sections: | system.webServer/httpTracing |
 | Dependencies: | None. |
 | Potential issues when removing this module | ETW tracing will not work if this module is removed. |
-| Module Name: | ConfigurationValidationModule |
+| **Module Name:** | **ConfigurationValidationModule** |
 | Description: | Validates that ASP.NET application configuration has been migrated to work in Integrated mode. |
 | Configuration sections: | system.webServer/Validation |
 | Dependencies: | None. |
@@ -465,53 +454,53 @@ These modules do not provide request services, but instead assist the server eng
 ### Managed Modules:
 
 
-| Module Name: | OutputCache |
+| **Module Name:** | **OutputCache** |
 | --- | --- |
 | Description: | Implements the ASP.NET Output Caching feature. |
 | Configuration sections: | system.web/caching/outputCache |
 | Dependencies: | ManagedEngine module has to be installed. |
 | Potential issues when removing this module | ASP.NET will be unable to output cache responses to pages configured to be output cached. |
-| Module Name: | Session |
+| **Module Name:** | **Session** |
 | Description: | See ASP.NET 2.0 documentation for details |
 | Configuration sections: | system.web/sessionState |
 | Dependencies: | ManagedEngine module must be installed |
 | Potential issues when removing this module | Managed session state is not available. |
-| Module Name: | WindowsAuthentication |
+| **Module Name:** | **WindowsAuthentication** |
 | Description: | See ASP.NET 2.0 documentation for details. |
 | Configuration sections: | system.web/authentication |
 | Dependencies: | ManagedEngine module has to be installed |
 | Potential issues when removing this module | WindowsAuthentication.OnAuthenticate event will not be raised, which may prevent some custom ASP.NET authentication code from running. Also, the authenticated user will not be replaced with the UNC user when on UNC share (legacy ASP.NET behavior). This module does not affect NTLM/Kerberos authentication for ASP.NET applications in Integrated mode, and is not required outside of the WindowsAuthentication.OnAuthenticate event and the legacy UNC behavior. |
-| Module Name: | FormsAuthentication |
+| **Module Name:** | **FormsAuthentication** |
 | Description: | See ASP.NET 2.0 documentation for details. |
 | Configuration sections: | system.web/authentication |
 | Dependencies: | ManagedEngine module has to be installed |
 | Potential issues when removing this module | ASP.NET forms-based authentication feature will not be available, resulting in clients with forms authentication tickets not being able to access protected resources. |
-| Module Name: | DefaultAuthentication |
+| **Module Name:** | **DefaultAuthentication** |
 | Description: | See ASP.NET 2.0 documentation for details. |
 | Configuration sections: | system.web/authentication |
 | Dependencies: | ManagedEngine module has to be installed |
 | Potential issues when removing this module | Some ASP.NET features may not work for anonymous requests if ASP.NET authentication mode is Forms. Also, DefaultAuthentication.OnAuthenticate event will not be raised. |
-| Module Name: | RoleManager |
+| **Module Name:** | **RoleManager** |
 | Description: | See ASP.NET 2.0 documentation for details. |
 | Configuration sections: | None. |
 | Dependencies: | ManagedEngine module must be installed. |
 | Potential issues when removing this module | Role Manager functionality not available. |
-| Module Name: | UrlAuthorization |
+| **Module Name:** | **UrlAuthorization** |
 | Description: | See ASP.NET 2.0 documentation for details. The native UrlAuthorization module implements URL authorization functionality in native code. This provides a scalable and fast native alternative for the managed URL authorization module. |
 | Configuration sections: | system.web/authorization. |
 | Dependencies: | ManagedEngine module must be installed. |
 | Potential issues when removing this module | ASP.NET authorization rules will be ignored, possibly resulting in information disclosure and other security compromises. |
-| Module Name: | AnonymousIdentification |
+| **Module Name:** | **AnonymousIdentification** |
 | Description: | See ASP.NET 2.0 documentation for details. |
 | Configuration sections: |  |
 | Dependencies: | ManagedEngine module has to be installed. |
 | Potential issues when removing this module | The anonymous identification feature used by the ASP.NET Profile will not work. |
-| Module Name: | Profile |
+| **Module Name:** | **Profile** |
 | Description: | See ASP.NET 2.0 documentation for details. |
 | Configuration sections: |  |
 | Dependencies: | ManagedEngine module must be installed. |
 | Potential issues when removing this module | The ASP.NET Profile feature will not work. |
-| Module Name: | UrlMappingsModule |
+| **Module Name:** | **UrlMappingsModule** |
 | Description: | See ASP.NET 2.0 documentation for details. |
 | Configuration sections: |  |
 | Dependencies: | ManagedEngine module must be installed. |

@@ -28,27 +28,9 @@ Note the following:
 
 1. This document specifies the content of each configuration section, as appears in applicationHost.config. By design, many of the sections are empty or not complete (only some of their content appears in the XML). The rest of the values are taken from the schema defaults. This is done to avoid too much information and cluttering of the file, and in order to keep it reasonably readable.
 
-> For full schema reference, including default values for all properties in every section, their valid ranges, etc., refer to %windir%\system32\inetsrv\config\schema\IIS\_Schema.xml (for IIS settings), or ASPNET\_Schema.xml (for ASP.NET settings), or FX\_Schema.xml (for other .NET Framework settings).
-> 
-> For convenience, chunks of these files are included in this document in the appropriate sections so the reader can understand which properties are available, what the default values are, etc., for each section. See the additional note below about how to read schema information.
-
-
+    - For full schema reference, including default values for all properties in every section, their valid ranges, etc., refer to %windir%\system32\inetsrv\config\schema\IIS\_Schema.xml (for IIS settings), or ASPNET\_Schema.xml (for ASP.NET settings), or FX\_Schema.xml (for other .NET Framework settings).
+    - For convenience, chunks of these files are included in this document in the appropriate sections so the reader can understand which properties are available, what the default values are, etc., for each section. See the additional note below about how to read schema information.
 2. Make a backup of the file before making any changes to it.
-
-This document contains:
-
-- [How To Read Config Schema](introduction-to-applicationhostconfig.md#HowTo)
-- [Section Schema](introduction-to-applicationhostconfig.md#Section)
-- [Attribute Schema](introduction-to-applicationhostconfig.md#Attribute)
-- [Element Schema](introduction-to-applicationhostconfig.md#Element)
-- [Collection Schema](introduction-to-applicationhostconfig.md#Collection)
-- [Enum Schema](introduction-to-applicationhostconfig.md#Enum)
-- [Flags Schema](introduction-to-applicationhostconfig.md#Flags)
-- [Attribute Validation](introduction-to-applicationhostconfig.md#Attribute)
-- [XML Header](introduction-to-applicationhostconfig.md#XML)
-- [&lt;configSections&gt; Section](introduction-to-applicationhostconfig.md#ConfigSection)
-- [Schema](introduction-to-applicationhostconfig.md#Schema)
-- [Locking](introduction-to-applicationhostconfig.md#Locking)
 
 <a id="HowTo"></a>
 
@@ -251,6 +233,5 @@ The above location tag unlocks the section for the default web site only. To unl
 
 > [!NOTE]
 > path="." and path="" have the same effect. They refer to the current level in the hierarchy.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1046.aspx)

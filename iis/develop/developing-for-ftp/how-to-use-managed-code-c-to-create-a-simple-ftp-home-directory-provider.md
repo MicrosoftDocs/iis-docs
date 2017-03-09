@@ -22,11 +22,11 @@ The new FTP 7.5 service supports extensibility that lets you extend the built-in
 
 This walkthrough will lead you through the steps to use managed code to create a simple FTP home directory provider.
 
-### Prerequisites
+## Prerequisites
 
 The following items are required to complete the procedures in this article:
 
-1. 1. IIS 7.0 or above must be installed on your Windows Server 2008 server, and the Internet Information Services (IIS) Manager must also be installed.
+1. IIS 7.0 or above must be installed on your Windows Server 2008 server, and the Internet Information Services (IIS) Manager must also be installed.
 2. The new FTP 7.5 service must be installed. You can download and install the FTP 7.5 service from the [https://www.iis.net/](https://www.iis.net/) web site using one of the following links: 
 
     - [FTP 7.5 for IIS (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
@@ -105,8 +105,7 @@ In this step, you will implement the extensibility interface for the demo provid
 > [!NOTE]
 > If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see the following topic on Microsoft the MSDN Web site:
 
-> [Global Assembly Cache Tool (Gacutil.exe)](https://msdn.microsoft.com/en-us/library/ex0ss12c(VS.80).aspx)
-
+[Global Assembly Cache Tool (Gacutil.exe)](https://msdn.microsoft.com/en-us/library/ex0ss12c(VS.80).aspx)
 
 ## Step 3: Add the Home Directory Provider to FTP
 
@@ -156,6 +155,5 @@ In this walkthrough you learned how to:
 - Add a custom home directory provider to your FTP service.
 
 When users connect to your FTP site, the FTP service will set each user's home directory to the path that you specified in the demo provider.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

@@ -349,6 +349,7 @@
 ### [Configure FTP with IIS Manager Authentication in IIS 7](publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7.md)
 ### [Configuring FTP with .NET Membership Authentication in IIS 7](publish/using-the-ftp-service/configuring-ftp-with-net-membership-authentication-in-iis-7.md)
 ### [Scenario: Build an FTP Site on IIS](publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis.md)
+### [How Do I Configure FTP Security in IIS?](publish/using-the-ftp-service/cse-curated-view-ftp-security-settings.md)
 ## [FrontPage Server Extensions](publish/frontpage-server-extensions/index.md)
 ### [Upgrade Issues with FrontPage Server Extensions](publish/frontpage-server-extensions/upgrade-issues-with-frontpage-server-extensions.md)
 ### [Installing the FrontPage Server Extensions on IIS 7](publish/frontpage-server-extensions/installing-the-frontpage-server-extensions-on-iis.md)

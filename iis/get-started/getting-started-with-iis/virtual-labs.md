@@ -18,5 +18,5 @@ by [Erez Ben-Ari](https://twitter.com/erezbenari)
 
 The following are a set of Virtual Labs to help you with your IIS training. They allow you to get hands on experience on key features, a practical guide to help you make the most of Windows Server and IIS.
 
-- [Introduction to Windows Azure Virtual Machines](https://go.microsoft.com/?linkid=9816783)
+- [Introduction to Azure Virtual Machines](https://vlabs.holsystems.com/vlabs/msdn?eng=VLabs&auth=none&src=microsoft.holsystems.com&altadd=true&labid=9705)
 - [Configuring a Web Farm for Multitenant Applications](https://go.microsoft.com/?linkid=9838460)
