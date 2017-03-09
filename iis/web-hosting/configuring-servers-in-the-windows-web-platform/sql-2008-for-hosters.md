@@ -1,6 +1,6 @@
 ---
 title: "SQL 2008 for Hosters | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "The purpose of this article is to provide information about deploying and optimizing SQL Server 2008 for shared and dedicated hosting environments. It provid..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 SQL 2008 for Hosters
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

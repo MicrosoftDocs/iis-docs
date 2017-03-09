@@ -1,6 +1,6 @@
 ---
 title: "Using Visual Studio 2008 with IIS 7 | Microsoft Docs"
-author: rick-anderson
+author: leanserver
 description: "Visual Studio ® provides several options for working with IIS when developing Web sites and applications. These include the Web application and Web site proj..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using Visual Studio 2008 with IIS 7
 ====================
-by Mike Volodarsky
+by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Introduction
 

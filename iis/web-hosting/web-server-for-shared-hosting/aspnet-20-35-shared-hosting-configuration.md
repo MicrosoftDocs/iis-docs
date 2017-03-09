@@ -1,6 +1,6 @@
 ---
 title: "ASP.NET 2.0/3.5 Shared Hosting Configuration | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "IIS offers enhancements for dynamic content, especially ASP.NET. In IIS 7 and above, the ASP.NET runtime extensibility model is integrated into the core serv..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 ASP.NET 2.0/3.5 Shared Hosting Configuration
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

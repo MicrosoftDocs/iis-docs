@@ -1,6 +1,6 @@
 ---
 title: "Using Managed APIs in IIS 7 | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "IIS 7 provides a comprehensive managed-code management application programming interface (API) that allows complete manipulation of the XML configuration fil..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using Managed APIs in IIS 7
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

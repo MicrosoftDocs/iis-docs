@@ -1,6 +1,6 @@
 ---
 title: "Logging to Event Tracing for Windows in IIS 8.5 | Microsoft Docs"
-author: rick-anderson
+author: garyericson
 description: "In IIS 8.5, the administrator has the option of sending logging information to Event Tracing for Windows (ETW)."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Logging to Event Tracing for Windows in IIS 8.5
 ====================
-by Gary Ericson
+by [Gary Ericson](https://github.com/garyericson)
 
 > In IIS 8.5, the administrator has the option of sending logging information to Event Tracing for Windows (ETW).
 

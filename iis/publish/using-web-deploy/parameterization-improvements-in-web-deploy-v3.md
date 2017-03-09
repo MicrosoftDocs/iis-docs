@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Parameterization improvements in Web Deploy V3
 ====================
-by Harsh Mittal
+by [Harsh Mittal](https://twitter.com/harshmittal)
 
 Earlier versions of Web Deploy only supported replacing attribute values which already existed as part of the package. In Web Deploy V3 we have added support for
 

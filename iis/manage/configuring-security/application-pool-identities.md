@@ -1,6 +1,6 @@
 ---
 title: "Application Pool Identities | Microsoft Docs"
-author: rick-anderson
+author: thomasdeml
 description: "Introduction IIS introduces a new security feature in Service Pack 2 (SP2) of Windows Server 2008 and Windows Vista. It's called Application Pool Identities...."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Application Pool Identities
 ====================
-by Thomas Deml
+by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction
 

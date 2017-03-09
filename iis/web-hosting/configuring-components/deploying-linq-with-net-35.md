@@ -1,6 +1,6 @@
 ---
 title: "Enabling LINQ with ASP.NET | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "ASP.NET is a unified Web development model that includes the services necessary to build Web applications with a minimum of coding. ASP.NET is part of the .N..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Enabling LINQ with ASP.NET
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 

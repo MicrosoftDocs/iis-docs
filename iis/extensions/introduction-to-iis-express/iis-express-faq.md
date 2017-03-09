@@ -1,6 +1,6 @@
 ---
 title: "IIS Express FAQ | Microsoft Docs"
-author: rick-anderson
+author: vaidy4github
 description: "This FAQ contains information about IIS Express support and other common questions. Q: What is IIS Express? A: IIS Express is a lightweight, self-contained v..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 IIS Express FAQ
 ====================
-by Vaidy Gopalakrishnan
+by [Vaidy Gopalakrishnan](https://github.com/vaidy4github)
 
 This FAQ contains information about IIS Express support and other common questions.
 

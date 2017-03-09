@@ -1,6 +1,6 @@
 ---
 title: "Verifying the Developer Experience - ASP.NET | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Introduction This walkthrough is intended to help hosters verify that their customers can use the Windows Web Platform tools and services to download, custom..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Verifying the Developer Experience - ASP.NET
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

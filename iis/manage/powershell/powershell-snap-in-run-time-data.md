@@ -1,6 +1,6 @@
 ---
 title: "PowerShell Snap-in: Run-time Data | Microsoft Docs"
-author: rick-anderson
+author: thomasdeml
 description: "The previous walkthroughs showed you how to query and change IIS configuration settings. There is one unexplored area left however: run-time data. Introducti..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 PowerShell Snap-in: Run-time Data
 ====================
-by Thomas Deml
+by [Thomas Deml](https://github.com/thomasdeml)
 
 The previous walkthroughs showed you how to query and change IIS configuration settings. There is one unexplored area left however: run-time data.
 

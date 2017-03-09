@@ -1,6 +1,6 @@
 ---
 title: "URL Rewrite Module 2.0 Configuration Reference | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "This section of the documentation applies to the URL Rewrite Module Version 2.0 for IIS 7 This article provides an overview of the URL Rewrite Module 2.0 fun..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 URL Rewrite Module 2.0 Configuration Reference
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 This section of the documentation applies to the **URL Rewrite Module Version 2.0 for IIS 7**
 

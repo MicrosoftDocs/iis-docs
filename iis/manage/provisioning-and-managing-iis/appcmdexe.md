@@ -1,6 +1,6 @@
 ---
 title: "AppCmd.exe | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "AppCmd.exe can be used to provision Web sites and run many commands to edit configuration. Creating and Configuring Use the following code samples for implem..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 AppCmd.exe
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "SMB Command Registry Keys | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "On Windows servers, each connection uses the identity of a unique user to connect to another server by using an SMB (Server Message Block) connection. A conn..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 SMB Command Registry Keys
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

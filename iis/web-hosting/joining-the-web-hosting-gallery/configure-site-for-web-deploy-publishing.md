@@ -1,6 +1,6 @@
 ---
 title: "Configure Site for Web Deploy Publishing | Microsoft Docs"
-author: rick-anderson
+author: bilalaslam
 description: "Configure Sites for Web Deploy Publishing At this point, your server is configured with all the software required to support WebMatrix publishing. The Web De..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configure Site for Web Deploy Publishing
 ====================
-by Bilal Aslam
+by [Bilal Aslam](https://github.com/bilalaslam)
 
 ## Configure Sites for Web Deploy Publishing
 

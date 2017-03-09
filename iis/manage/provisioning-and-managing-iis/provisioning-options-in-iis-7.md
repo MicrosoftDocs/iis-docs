@@ -1,6 +1,6 @@
 ---
 title: "Provisioning Options in IIS 7 | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "There are a number of ways to create and manage web sites. The following table lists the options that are currently available along with the advantages and d..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Provisioning Options in IIS 7
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Options Table
 

@@ -1,6 +1,6 @@
 ---
 title: "Windows SharePoint Services for Shared Hosting | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "This draft white paper provides information about using Microsoft Windows SharePoint Services to host sites. It explains: Recommended hardware architecture s..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Windows SharePoint Services for Shared Hosting
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 

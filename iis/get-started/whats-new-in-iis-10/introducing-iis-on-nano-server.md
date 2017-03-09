@@ -1,6 +1,6 @@
 ---
 title: "Introducing IIS on Nano Server | Microsoft Docs"
-author: rick-anderson
+author: davidso
 description: ""
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Introducing IIS on Nano Server
 ====================
-by David So
+by [David So](https://github.com/davidso)
 
 ### Compatibility
 

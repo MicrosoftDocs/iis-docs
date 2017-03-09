@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Pilot program management using Application Request Routing
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 ## Overview
 

@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 How to Add Tracing to IIS 7.0 Managed Modules
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 

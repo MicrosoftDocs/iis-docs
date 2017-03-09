@@ -1,6 +1,6 @@
 ---
 title: "Using Unattended Setup to Install IIS 7.0 | Microsoft Docs"
-author: rick-anderson
+author: tobint
 description: "Pkgmgr.exe is a new command tool in Windows Vista/Windows Server ® 2008 for installing Windows Optional Features: Replaces sysocmgr.exe for installing Window..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using Unattended Setup to Install IIS 7.0
 ====================
-by Tobin Titus
+by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction
 

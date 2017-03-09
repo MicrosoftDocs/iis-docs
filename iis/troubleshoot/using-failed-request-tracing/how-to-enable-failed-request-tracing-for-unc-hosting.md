@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 How to Enable Failed Request Tracing for UNC Hosting
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Configuring Failed Request Tracing and Logging for a Hosting Scenario
 

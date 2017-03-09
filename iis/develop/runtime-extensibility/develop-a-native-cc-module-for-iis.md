@@ -1,6 +1,6 @@
 ---
 title: "Develop a Native C\C++ Module for IIS 7.0 | Microsoft Docs"
-author: rick-anderson
+author: leanserver
 description: "IIS 7.0 and above allows for extending the server by modules which are developed in two ways: Using managed code, and the ASP.NET server extensibility APIs U..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Develop a Native C\C++ Module for IIS 7.0
 ====================
-by Mike Volodarsky
+by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "IIS 7.5 Express Readme | Microsoft Docs"
-author: rick-anderson
+author: vaidy4github
 description: "Overview Installation Using IIS 7.5 Express Supported Platforms and Architectures Changes to IIS 7.5 Express Known Issues and Limitations For More Informatio..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 IIS 7.5 Express Readme
 ====================
-by Vaidy Gopalakrishnan
+by [Vaidy Gopalakrishnan](https://github.com/vaidy4github)
 
 <a id="Overview"></a>
 

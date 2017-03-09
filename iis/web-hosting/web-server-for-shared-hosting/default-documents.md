@@ -1,6 +1,6 @@
 ---
 title: "Default Documents | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "The default document is for client requests to a Web site that do not specify a document name, such as www.microsoft.com. The default document specifies what..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Default Documents
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 The default document is for client requests to a Web site that do not specify a document name, such as www.microsoft.com. The default document specifies what file to serve. You can configure multiple default documents for a Web site, but there is a performance benefit to using fewer documents.
 

@@ -1,6 +1,6 @@
 ---
 title: "Quick Guide for Shared Hosting Deployment | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "This article provides a basic overview of the manual steps to deploy a front-end Web server running IIS 7.5 or above for the Shared Hosting scenario. It also..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Quick Guide for Shared Hosting Deployment
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

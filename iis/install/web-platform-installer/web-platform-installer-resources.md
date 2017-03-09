@@ -1,6 +1,6 @@
 ---
 title: "Web Platform Installer Resources | Microsoft Docs"
-author: rick-anderson
+author: chrissfanos
 description: "Welcome to Web Platform Installer Resources! This article provides a list of resources to help you find answers and help when using the Web Platform Installe..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Web Platform Installer Resources
 ====================
-by Chris Sfanos
+by [Chris Sfanos](https://github.com/chrissfanos)
 
 Welcome to Web Platform Installer Resources! This article provides a list of resources to help you find answers and help when using the Web Platform Installer.
 

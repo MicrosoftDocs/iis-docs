@@ -1,6 +1,6 @@
 ---
 title: "Developing IIS 7.0 Modules and Handlers with the .NET Framework | Microsoft Docs"
-author: rick-anderson
+author: leanserver
 description: "This article focuses on getting started with developing IIS 7.0 and above Web server features based on the .NET Framework. This article demonstrates: How to..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Developing IIS 7.0 Modules and Handlers with the .NET Framework
 ====================
-by Mike Volodarsky
+by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Overview
 

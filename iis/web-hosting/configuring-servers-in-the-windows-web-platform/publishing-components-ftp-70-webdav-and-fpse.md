@@ -1,6 +1,6 @@
 ---
 title: "Publishing Components: FTP 7.0, WebDAV, and FPSE | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "The following video and presentation IIS Publishing will provide you with an overview of the IIS Publishing Features and step-by-step demonstrations on how t..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Publishing Components: FTP 7.0, WebDAV, and FPSE
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 

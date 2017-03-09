@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using the Windows System Tray to Manage Websites and Applications
 ====================
-by Diana Nguyen
+by [Diana Nguyen](https://twitter.com/dianaaanguyen)
 
 ## Overview
 

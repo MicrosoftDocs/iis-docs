@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Advanced Logging for IIS - Custom Logging
 ====================
-by Vishal Sood
+by [Vishal Sood](https://twitter.com/vishalsood)
 
 IIS Advanced Logging provides tremendous flexibility in logging user requests and client data. Advanced Logging doesn't assume what's important to you. Instead, it provides enough control for you to specify what fields are important, add additional fields with ease, and provide policies around log file rollover and request filtering. You can log any of the HTTP request/response headers, IIS server variables, and client-side fields with simple configuration in IIS Manager.
 

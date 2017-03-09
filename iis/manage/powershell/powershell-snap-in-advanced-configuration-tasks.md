@@ -1,6 +1,6 @@
 ---
 title: "PowerShell Snap-in: Advanced Configuration Tasks | Microsoft Docs"
-author: rick-anderson
+author: thomasdeml
 description: "In this walkthrough you will learn how to accomplish some advanced configuration tasks using XPath queries and wildcards. Introduction The previous walkthrou..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 PowerShell Snap-in: Advanced Configuration Tasks
 ====================
-by Thomas Deml
+by [Thomas Deml](https://github.com/thomasdeml)
 
 In this walkthrough you will learn how to accomplish some advanced configuration tasks using XPath queries and wildcards.
 

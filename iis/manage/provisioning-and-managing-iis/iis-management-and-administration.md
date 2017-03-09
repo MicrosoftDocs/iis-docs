@@ -1,6 +1,6 @@
 ---
 title: "IIS Management and Administration | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "This article provides a map to download locations for presentations, videos, and links to existing articles about IIS management and administration: Web farm..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 IIS Management and Administration
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

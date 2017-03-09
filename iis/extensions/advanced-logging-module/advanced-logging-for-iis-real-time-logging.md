@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Advanced Logging for IIS - Real-Time Logging
 ====================
-by Vishal Sood
+by [Vishal Sood](https://twitter.com/vishalsood)
 
 IIS Advanced Logging can extend the web platform to support real-time analytics, helping you to provide real-time reports to customers or work with partners to do the same. The Advanced Logging feature contains an option that enables consumption of log entries in real-time. It aggregates all of the events sent to it during each request and the log definition property ***publishLogEvent*** controls whether real-time events are raised for consumption by other applications.
 

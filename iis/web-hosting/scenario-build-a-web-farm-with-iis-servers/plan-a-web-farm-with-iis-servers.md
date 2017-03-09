@@ -1,6 +1,6 @@
 ---
 title: "Plan a Web Farm with IIS Servers | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "To develop a plan for installing and configuring an IIS web farm, follow these steps: Plan IIS Web Farm Infrastructure, Plan IIS Web Farm Configuration, Plan..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Plan a Web Farm with IIS Servers
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 ## Overview
 

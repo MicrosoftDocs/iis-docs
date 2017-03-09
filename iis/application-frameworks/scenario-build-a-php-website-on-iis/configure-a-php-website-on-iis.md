@@ -1,6 +1,6 @@
 ---
 title: "Configure a PHP Website on IIS | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "To install an IIS web server and configure it for PHP web applications, follow these steps: Install IIS and PHP, Configure PHP Settings, and Configure PHP Ap..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configure a PHP Website on IIS
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 ## Overview
 

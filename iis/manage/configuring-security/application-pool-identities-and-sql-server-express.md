@@ -1,6 +1,6 @@
 ---
 title: "Application Pool Identities and SQL Server Express | Microsoft Docs"
-author: rick-anderson
+author: thomasdeml
 description: "Introduction IIS 7.5 on Windows 7 or Windows Server 2008 R2 supports a new feature called 'Application Pool Identity'. It allows the effective isolation of A..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Application Pool Identities and SQL Server Express
 ====================
-by Thomas Deml
+by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "Testing the Deployment | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Before deployment into production, tests must be executed for each server component, in addition to testing the Windows PE media to assure proper operation...."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Testing the Deployment
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Prerequisites
 

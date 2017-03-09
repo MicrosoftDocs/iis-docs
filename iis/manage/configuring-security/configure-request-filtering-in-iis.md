@@ -1,6 +1,6 @@
 ---
 title: "Configure Request Filtering in IIS | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "This document shows you how to use common request-filter settings to improve the security of your IIS 8 web server. Request filters restrict the types of HTT..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configure Request Filtering in IIS
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 This document shows you how to use common request-filter settings to improve the security of your IIS 8 web server.
 

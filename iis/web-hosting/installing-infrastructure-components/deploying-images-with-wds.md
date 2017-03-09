@@ -1,6 +1,6 @@
 ---
 title: "Deploying Images with WDS | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Once the environment is setup with Windows Deployment Services, a reference machine has been created, and an image of it is available for deployment, you are..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Deploying Images with WDS
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 Once the environment is setup with Windows Deployment Services, a reference machine has been created, and an image of it is available for deployment, you are ready to start deploying it to other machines. There are three basic methods to accomplish this through WDS:
 

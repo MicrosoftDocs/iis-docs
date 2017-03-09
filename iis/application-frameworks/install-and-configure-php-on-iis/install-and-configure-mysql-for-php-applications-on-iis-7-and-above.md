@@ -1,6 +1,6 @@
 ---
 title: "Install and Configure MySQL for PHP Applications on IIS 7 | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "While Microsoft ® SQL Server ® 2008 is the recommended database to use when hosting PHP applications on an Internet Information Services 7 (IIS 7) and above..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Install and Configure MySQL for PHP Applications on IIS 7
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction
 

@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Web Playlists for IIS 7 - Creating a Simple Playlist
 ====================
-by Vishal Sood
+by [Vishal Sood](https://twitter.com/vishalsood)
 
 Web Playlists for Internet Information Services (IIS) 7 provides the ability to control media delivery to clients and limit a client's ability to seek or skip individual entries in the playlist. Server administrators can enable or disable seek/skip behavior through fields in the playlist entry. This article describes how to create a playlist by using the Web Playlists module in IIS Manager.
 

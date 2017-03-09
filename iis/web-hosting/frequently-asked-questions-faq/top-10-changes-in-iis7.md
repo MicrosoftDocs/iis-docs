@@ -1,6 +1,6 @@
 ---
 title: "Top 10 Changes in IIS 7.0 | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "You can find the original Top 10 Changes in IIS 7.0 post on Technet . 1. Simple, configurable command line setup Install only the IIS components needed to ru..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Top 10 Changes in IIS 7.0
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 You can find the original [Top 10 Changes in IIS 7.0 post on Technet](http://blogs.technet.com/mscom/archive/2007/09/07/the-tasty-morsels-found-in-dogfood-mscom-ops-top-10-changes-in-iis7-0.aspx).
 

@@ -1,6 +1,6 @@
 ---
 title: "Configuring Step 4: Configure Application Security | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "In this phase of building your ASP.NET website, you configure the security settings that are available in IIS."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configuring Step 4: Configure Application Security
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your ASP.NET website, you configure the security settings that are available in IIS. The following sections discuss common security settings for ASP.NET applications:
 

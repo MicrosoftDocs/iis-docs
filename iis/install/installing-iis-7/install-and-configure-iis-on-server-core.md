@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Install and Configure IIS 7 on Server Core
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 ## Introduction
 

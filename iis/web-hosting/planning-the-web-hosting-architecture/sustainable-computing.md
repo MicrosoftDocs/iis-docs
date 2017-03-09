@@ -1,6 +1,6 @@
 ---
 title: "Sustainable Computing | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "This article provides a map to the various sources of information on Sustainable Computing relevant to Web Hosting Organizations. From Best Practices employe..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Sustainable Computing
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 

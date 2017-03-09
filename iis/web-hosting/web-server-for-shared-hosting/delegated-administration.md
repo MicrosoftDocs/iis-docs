@@ -1,6 +1,6 @@
 ---
 title: "Delegated Administration | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "The IIS 7 and above administrative user interface, called the IIS Manager, offers a more efficient tool for managing the Web server. It provides support for..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Delegated Administration
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 The IIS 7 and above administrative user interface, called the IIS Manager, offers a more efficient tool for managing the Web server. It provides support for IIS and ASP.NET configuration settings. It also lets those who host or administer Web sites delegate administrative control to developers or content owners, thus reducing cost of ownership and administrative burden for the server administrator. It supports remote connections over HTTP, and you can use it through a firewall.
 

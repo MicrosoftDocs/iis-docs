@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Web Deploy v2: Readme | Microsoft Docs"
-author: rick-anderson
+author: bilalaslam
 description: "Web Deploy v2 Readme Overview The Web Deploy is a tool for simplifying migration, management and deployment of Web applications, sites and servers. It can be..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Microsoft Web Deploy v2: Readme
 ====================
-by Bilal Aslam
+by [Bilal Aslam](https://github.com/bilalaslam)
 
 <a id="Overview"></a>
 

@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Use the Database Manager
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 

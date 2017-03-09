@@ -1,6 +1,6 @@
 ---
 title: "Security Questions | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "For certain workloads, Full trust may be required (e.g., making unmanaged calls, using reflection, etc.). For most web apps, it is typically not necessary. M..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Security Questions
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 #### Should Full Trust be allowed?
 

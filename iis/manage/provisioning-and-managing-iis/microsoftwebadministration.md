@@ -1,6 +1,6 @@
 ---
 title: "Microsoft.Web.Administration | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Managed code can be used to provision Web sites and edit configuration. Using the Script Use the following to create a site and an application pool , and to..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Microsoft.Web.Administration
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

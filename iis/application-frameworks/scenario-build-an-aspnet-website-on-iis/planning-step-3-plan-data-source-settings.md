@@ -1,6 +1,6 @@
 ---
 title: "Planning Step 3: Plan Data Source Settings | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "In this phase of building your website, consider the data storage needs of your ASP.NET application."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Planning Step 3: Plan Data Source Settings
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your website, consider the data storage needs of your ASP.NET application. The following sections describe various data-source settings available in IIS:
 

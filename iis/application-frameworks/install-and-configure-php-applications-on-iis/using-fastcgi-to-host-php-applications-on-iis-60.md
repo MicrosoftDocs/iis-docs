@@ -1,6 +1,6 @@
 ---
 title: "Using FastCGI to Host PHP Applications on IIS 6.0 | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "This article explains how to use the Microsoft IIS FastCGI extension to set up and run PHP applications on Windows XP and Windows Server ® 2003 operating sys..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using FastCGI to Host PHP Applications on IIS 6.0
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction
 

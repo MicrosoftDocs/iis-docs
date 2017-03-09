@@ -1,6 +1,6 @@
 ---
 title: "Install Drupal on IIS | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "Introduction Drupal is a free, open-source content management system (CMS) software that lets individuals or communities of users easily publish, manage, and..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Install Drupal on IIS
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction
 

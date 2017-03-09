@@ -1,6 +1,6 @@
 ---
 title: "Amazon EC2: Microsoft Web Platform Images - Full Web Server Development Stack | Microsoft Docs"
-author: rick-anderson
+author: thomasdeml
 description: "Introduction Visual Studio 2010 enables web developers to use their existing skillset to write great applications for the Microsoft Web Platform. But one thi..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Amazon EC2: Microsoft Web Platform Images - Full Web Server Development Stack
 ====================
-by Thomas Deml
+by [Thomas Deml](https://github.com/thomasdeml)
 
 ### Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "IIS 8.0 CPU Throttling: Sand-boxing Sites and Applications | Microsoft Docs"
-author: rick-anderson
+author: shauneagan
 description: "Version Notes IIS 8.0 CPU throttling was updated in IIS 8.0 to include additional throttling options. IIS 7.5 CPU throttling was not modified in IIS 7.5. IIS..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 IIS 8.0 CPU Throttling: Sand-boxing Sites and Applications
 ====================
-by Shaun Eagan
+by [Shaun Eagan](https://github.com/shauneagan)
 
 ### Compatibility
 

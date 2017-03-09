@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Analyze Requests to Your Website
 ====================
-by Diana Nguyen
+by [Diana Nguyen](https://twitter.com/dianaaanguyen)
 
 [This is preliminary documentation and is subject to change.]
 

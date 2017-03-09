@@ -1,6 +1,6 @@
 ---
 title: "Preparation Activities for WDS | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "This article provides an overview of the preparation activities needed when deploying with Windows Deployment Services. The Deployment preparations activitie..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Preparation Activities for WDS
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

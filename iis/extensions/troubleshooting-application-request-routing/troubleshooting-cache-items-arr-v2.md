@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting Cache Items ARR V2 | Microsoft Docs"
-author: rick-anderson
+author: apurvajo
 description: "Tools Used in this Troubleshooter: ARR Helper Failed Request Tracing (FREB) IIS Advanced Logging Network Monitor This material is provided for informational..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Troubleshooting Cache Items ARR V2
 ====================
-by Apurva Joshi
+by [Apurva Joshi](https://github.com/apurvajo)
 
 #### Tools Used in this Troubleshooter:
 

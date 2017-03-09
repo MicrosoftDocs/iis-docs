@@ -1,6 +1,6 @@
 ---
 title: "Share and NTFS Permissions | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "The file server permissions must be carefully implemented to provide appropriate access to content. This involves locking down permissions on the share and p..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Share and NTFS Permissions
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

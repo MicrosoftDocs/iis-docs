@@ -1,6 +1,6 @@
 ---
 title: "Enabling Pretty Permalinks in WordPress | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "This walkthrough describes how to enable “ Pretty Permalinks ” for blog posts in the WordPress blog engine that is installed on IIS 7 and above. Typically, w..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Enabling Pretty Permalinks in WordPress
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 This walkthrough describes how to enable "[Pretty Permalinks](http://codex.wordpress.org/Using_Permalinks "Pretty Permalinks")" for blog posts in the [WordPress](http://www.wordpress.org/ "WordPress") blog engine that is installed on IIS 7 and above. Typically, without URL rewriting functionality on a Web server, WordPress users must use "Almost Pretty" URLs, for example, **[http://contoso.com/index.php/yyyy/mm/dd/post-name/](http://contoso.com/index.php/yyyy/mm/dd/post-name/)**. By using the URL Rewrite module, you can use "Pretty Permalinks," for example, [`http://example.com/year/month/day/post-name/`](http://example.com/year/month/day/post-name/), for WordPress blogs that are hosted on IIS.
 

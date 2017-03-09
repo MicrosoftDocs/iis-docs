@@ -1,6 +1,6 @@
 ---
 title: "URL Rewrite for Hosting Providers | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "The purpose of this article is to provide a guiding map to the various resources available for hosters who are learning about and deploying the IIS URL Rewri..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 URL Rewrite for Hosting Providers
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "Planning Step 2: Plan ASP.NET Settings | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "In this phase of building your website, consider the following IIS server and website settings that support ASP.NET: Session State Settings, Pages and Contro..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Planning Step 2: Plan ASP.NET Settings
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your website, consider the following IIS server and website settings that support ASP.NET:
 

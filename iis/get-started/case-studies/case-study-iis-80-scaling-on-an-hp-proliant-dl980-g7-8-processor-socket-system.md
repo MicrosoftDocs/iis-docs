@@ -1,6 +1,6 @@
 ---
 title: "Case Study: IIS 8.0 Scaling On An HP Proliant DL980 G7 8-Processor Socket System | Microsoft Docs"
-author: microsoft
+author: Microsoft
 description: "This Whitepaper compiles the findings from a joint effort between HP and the IIS product team to assess the performance capabilities of IIS running on HP's 8..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Case Study: IIS 8.0 Scaling On An HP Proliant DL980 G7 8-Processor Socket System
 ====================
-by [Microsoft](https://github.com/microsoft)
+by [Microsoft](https://github.com/Microsoft)
 
 > This Whitepaper compiles the findings from a joint effort between HP and the IIS product team to assess the performance capabilities of IIS running on HP's 8-way systems. This whitepaper also serves as a deployment guide that can be used by customers to configure IIS on such systems.
 

@@ -1,6 +1,6 @@
 ---
 title: "Configuring Step 3: Configure Data Source Settings | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "In this phase of building your ASP.NET website, you configure the data source settings that are available in IIS."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configuring Step 3: Configure Data Source Settings
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your ASP.NET website, you configure the data source settings that are available in IIS.
 

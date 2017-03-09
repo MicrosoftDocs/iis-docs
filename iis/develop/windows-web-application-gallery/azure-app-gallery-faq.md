@@ -1,6 +1,6 @@
 ---
 title: "Azure App Gallery FAQ | Microsoft Docs"
-author: rick-anderson
+author: SunBuild
 description: "With just a few mouse clicks the Windows Web Application Gallery lets you select, download and install popular web applications like blogs, content managemen..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Azure App Gallery FAQ
 ====================
-by Sunitha Muthukrishna
+by [Sunitha Muthukrishna](https://github.com/SunBuild)
 
 ## Introduction
 

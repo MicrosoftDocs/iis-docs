@@ -1,6 +1,6 @@
 ---
 title: "Web Platform Installer v5 Command Line (WebPICMD.exe) - RTW release | Microsoft Docs"
-author: rick-anderson
+author: chrissfanos
 description: "The Web Platform Installer v5 (WebPI) command line tool is now available as part of the WebPI MSI! We've added a bunch of new features and fix several issues..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Web Platform Installer v5 Command Line (WebPICMD.exe) - RTW release
 ====================
-by Chris Sfanos
+by [Chris Sfanos](https://github.com/chrissfanos)
 
 ## WebPI Command line
 

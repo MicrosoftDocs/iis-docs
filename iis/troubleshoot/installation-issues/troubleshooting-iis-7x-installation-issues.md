@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting IIS 7.x Installation Issues | Microsoft Docs"
-author: rick-anderson
+author: puneet-gupta
 description: "System Update Readiness Tool MSConfig.exe This material is provided for informational purposes only. Microsoft makes no warranties, express or implied. Overv..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Troubleshooting IIS 7.x Installation Issues
 ====================
-by Puneet Gupta
+by [Puneet Gupta](https://github.com/puneet-gupta)
 
 #### Tools Used in this Troubleshooter:
 

@@ -1,6 +1,6 @@
 ---
 title: "Deploying Drupal via Packages in a Hosting Environment | Microsoft Docs"
-author: rick-anderson
+author: simtan
 description: "Introduction Drupal is an open source content management system (CMS) often used as a back-end system for Web sites. This document provides step-by-step inst..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Deploying Drupal via Packages in a Hosting Environment
 ====================
-by Simon Tan
+by [Simon Tan](https://github.com/simtan)
 
 ## Introduction
 

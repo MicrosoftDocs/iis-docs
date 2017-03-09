@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Windows Web Application Gallery: Known Issues
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 ## Introduction
 

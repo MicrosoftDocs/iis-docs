@@ -1,6 +1,6 @@
 ---
 title: "IIS Web Server Overview | Microsoft Docs"
-author: rick-anderson
+author: leanserver
 description: "The IIS 7 and later Web server have a completely modular architecture that offers three key benefits: Componentization, Extensibility, and ASP.NET Integratio..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 IIS Web Server Overview
 ====================
-by IIS Team, Mike Volodarsky
+by [IIS Team](https://twitter.com/inetsrv), [Mike Volodarsky](https://github.com/leanserver)
 
 ### Compatibility
 

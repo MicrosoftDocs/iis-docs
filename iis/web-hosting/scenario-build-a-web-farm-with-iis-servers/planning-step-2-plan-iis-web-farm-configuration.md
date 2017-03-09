@@ -1,6 +1,6 @@
 ---
 title: "Planning Step 2: Plan IIS Web Farm Configuration | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "In the second phase of planning a web farm, determine what is needed to configure shared content and shared configuration. In addition, learn how to add web..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Planning Step 2: Plan IIS Web Farm Configuration
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In the second phase of planning a web farm, determine what is needed to configure shared content and shared configuration. In addition, learn how to add web servers to your farm.
 

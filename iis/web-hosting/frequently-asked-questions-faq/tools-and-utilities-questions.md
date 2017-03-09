@@ -1,6 +1,6 @@
 ---
 title: "Tools and Utilities Questions | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "The recommendation for IIS 7.0 is to NOT use shared application pools. Is there a tool that validates configuration files before loading in IIS 7.0? No, the..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Tools and Utilities Questions
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 #### What tools are available to be able to see which site is using memory in an application pool?
 

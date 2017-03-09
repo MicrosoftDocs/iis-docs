@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 ApplicationHost Helper Service
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 

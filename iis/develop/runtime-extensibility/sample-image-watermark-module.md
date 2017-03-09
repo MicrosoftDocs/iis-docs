@@ -1,6 +1,6 @@
 ---
 title: "Sample: Image Watermark Module | Microsoft Docs"
-author: rick-anderson
+author: fabioy
 description: "This is a sample of how to write a native (C++) module that will dynamically insert an user-configured watermark into an image being served, as well as how t..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Sample: Image Watermark Module
 ====================
-by Fabio Yeon
+by [Fabio Yeon](https://github.com/fabioy)
 
 This is a sample of how to write a native (C++) module that will dynamically insert an user-configured watermark into an image being served, as well as how to extend the configuration and the inetmgr UI tool to provide easy administration of the new module.
 

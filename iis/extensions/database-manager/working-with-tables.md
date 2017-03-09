@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Working with Tables
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Prerequisites
 

@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 How to Use Locking in IIS 7.0 Configuration
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Abstract
 

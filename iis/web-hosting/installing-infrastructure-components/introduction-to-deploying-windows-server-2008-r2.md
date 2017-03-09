@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Deploying Windows Server 2008 R2 | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "This article provides a road map for the various Windows Server ® 2008 deployment technologies. There are three main technologies available: Windows Deployme..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Introduction to Deploying Windows Server 2008 R2
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

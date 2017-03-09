@@ -1,6 +1,6 @@
 ---
 title: "Wildcard script mapping and IIS 7 integrated pipeline | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "The big benefit of the IIS 7 and above integrated request processing pipeline is the fact that all the nice and useful ASP.NET features can be used for any t..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Wildcard script mapping and IIS 7 integrated pipeline
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 The big benefit of the IIS 7 and above integrated request processing pipeline is the fact that all the nice and useful ASP.NET features can be used for any type of content on your web site; not just for ASP.NET-specific content. For example, ASP.NET SQL-based membership can be used to protect static files and folders. Also, ASP.NET extensibility API's, such as **IHttpHandler** and **IHttpModule** can be used to add custom modules and handlers that would be executed even for non-ASP.NET content.
 

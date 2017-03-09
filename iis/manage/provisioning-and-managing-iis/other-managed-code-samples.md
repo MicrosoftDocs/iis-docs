@@ -1,6 +1,6 @@
 ---
 title: "Other Managed Code Samples | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Use the following managed code samples to set permissions and to create a user account. Using the Code Set Permissions Use the following to set permissions o..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Other Managed Code Samples
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Package an Application for the Windows Web Application Gallery
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 ## Introduction
 

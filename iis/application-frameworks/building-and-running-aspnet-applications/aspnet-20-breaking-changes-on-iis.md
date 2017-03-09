@@ -1,6 +1,6 @@
 ---
 title: "ASP.NET 2.0 Breaking Changes on IIS 7.0 | Microsoft Docs"
-author: rick-anderson
+author: leanserver
 description: "ASP.NET 2.0 applications on IIS 7.0 and above are hosted using the ASP.NET Integrated mode by default. This new mode enables a myriad of exciting scenarios,..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 ASP.NET 2.0 Breaking Changes on IIS 7.0
 ====================
-by Mike Volodarsky
+by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Introduction
 

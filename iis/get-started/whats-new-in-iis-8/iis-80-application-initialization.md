@@ -1,6 +1,6 @@
 ---
 title: "IIS 8.0 Application Initialization | Microsoft Docs"
-author: rick-anderson
+author: shauneagan
 description: "IIS Application Initialization for IIS 7.5 enables website administrators to improve the responsiveness of their Web sites by loading the Web applications be..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 IIS 8.0 Application Initialization
 ====================
-by Shaun Eagan
+by [Shaun Eagan](https://github.com/shauneagan)
 
 ### Compatibility
 

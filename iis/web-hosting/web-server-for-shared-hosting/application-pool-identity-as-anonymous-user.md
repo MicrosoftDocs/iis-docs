@@ -1,6 +1,6 @@
 ---
 title: "Application Pool Identity as Anonymous User | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "In prior versions of IIS, the anonymous user allowed classic ASP content to be isolated by using a different anonymous user for each site. Isolation was acco..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Application Pool Identity as Anonymous User
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 In prior versions of IIS, the anonymous user allowed classic ASP content to be isolated by using a different anonymous user for each site. Isolation was accomplished by preventing ASP scripts from reverting back to the process identity, called the "impersonation sandbox". In mixed environments where you use classic ASP, ASP.NET and other dynamic content, the impersonation sandbox is not as helpful. For instance, ASP.NET uses a different isolation technique called Trust Levels and always runs as the process identity, unless you use a different type of impersonation.
 

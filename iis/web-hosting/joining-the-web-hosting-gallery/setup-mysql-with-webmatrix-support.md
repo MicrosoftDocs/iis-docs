@@ -1,6 +1,6 @@
 ---
 title: "Setup MySQL with WebMatrix Support | Microsoft Docs"
-author: rick-anderson
+author: bilalaslam
 description: "MySQL Installation WebPI supports installing MySQL in developer mode, but this is not suitable for a shared hosting environment. Instead, you should download..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Setup MySQL with WebMatrix Support
 ====================
-by Bilal Aslam
+by [Bilal Aslam](https://github.com/bilalaslam)
 
 ## MySQL Installation
 

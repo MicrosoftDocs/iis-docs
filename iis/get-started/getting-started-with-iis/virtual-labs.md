@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Virtual Labs
 ====================
-by Erez Ben-Ari
+by [Erez Ben-Ari](https://twitter.com/erezbenari)
 
 The following are a set of Virtual Labs to help you with your IIS training. They allow you to get hands on experience on key features, a practical guide to help you make the most of Windows Server and IIS.
 

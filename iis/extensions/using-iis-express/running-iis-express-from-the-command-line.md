@@ -1,6 +1,6 @@
 ---
 title: "Running IIS Express from the Command Line | Microsoft Docs"
-author: rick-anderson
+author: vaidy4github
 description: "IIS Express is a simple and self-contained version of IIS that is optimized for developers. This walkthrough describes how to run a site using the IIS Expres..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Running IIS Express from the Command Line
 ====================
-by Vaidy Gopalakrishnan
+by [Vaidy Gopalakrishnan](https://github.com/vaidy4github)
 
 ## Overview
 

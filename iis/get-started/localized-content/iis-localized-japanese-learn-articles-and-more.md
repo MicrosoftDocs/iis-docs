@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Localized Japanese LEARN articles and more
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 ## 本サイトと IIS TechCenter (日本語版ポータル) について
 

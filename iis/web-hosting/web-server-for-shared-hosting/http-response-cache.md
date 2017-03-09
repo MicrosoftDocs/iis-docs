@@ -1,6 +1,6 @@
 ---
 title: "HTTP Response Cache | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "The IIS output cache is a feature that makes it possible to cache entire responses in memory, even from dynamic content. Unlike the caches in IIS 6.0, IIS 7...."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 HTTP Response Cache
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 The IIS output cache is a feature that makes it possible to cache entire responses in memory, even from dynamic content. Unlike the caches in IIS 6.0, IIS 7.0 and above have a "smart" cache, which lets site owners and developers configure the output cache to cache separate copies of responses based on query string value. The output cache is also integrated with the HTTP.sys kernel cache that helps with fast performance. Kernel caching is unlocked by default. Developers can take advantage of this feature by configuring caching profiles within their application. You can run a command line tool that shows what content is in the HTTP.sys cache.
 

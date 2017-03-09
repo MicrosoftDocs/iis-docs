@@ -1,6 +1,6 @@
 ---
 title: "Planning Step 5: Plan Application Deployment | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "When your web farm is up and working, you will want to update your website or add new websites to your server. File Transfer Protocol (FTP) has existed since..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Planning Step 5: Plan Application Deployment
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 When your web farm is up and working, you will want to update your website or add new websites to your server. File Transfer Protocol (FTP) has existed since the early days of the internet for this purpose. Microsoft's Web Deployment Tool (Web Deploy) simplifies deployment of the complex web applications of today.
 

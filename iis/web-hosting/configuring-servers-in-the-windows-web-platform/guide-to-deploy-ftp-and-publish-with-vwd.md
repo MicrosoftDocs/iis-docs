@@ -1,6 +1,6 @@
 ---
 title: "Guide to Deploy FTP and Publish with VWD | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Introduction The FTP service for IIS is a key component of the Windows Web Platform. It provides a robust, secure solution for FTP in a Windows environment...."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Guide to Deploy FTP and Publish with VWD
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 <a id="_Toc216253264"></a>
 

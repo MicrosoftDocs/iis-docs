@@ -1,6 +1,6 @@
 ---
 title: "General IIS 7.0 Questions | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "This must be done manually. What is the impact of turning off kernel mode cache? The impact will depend on the server load. If you are doing 10,000 requests/..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 General IIS 7.0 Questions
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 #### If a module keeps crashing, does IIS 7.0 have ability to remove the "erring" module and recycle the app-pool without that module?
 

@@ -1,6 +1,6 @@
 ---
 title: "SMTP Questions | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Not out of the box. How does the SMTP module work with IIS? Can the source site of the SMTP message be determined? There are no SMTP changes in Windows Serve..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 SMTP Questions
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 #### Can SMTP logging be integrated with IIS logs?
 

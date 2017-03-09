@@ -1,6 +1,6 @@
 ---
 title: "UrlScan FAQ | Microsoft Docs"
-author: rick-anderson
+author: naziml
 description: "The following section provides answers to frequently asked questions about UrlScan. Question: What is UrlScan? Answer: UrlScan is a security tool that screen..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 UrlScan FAQ
 ====================
-by Nazim Lala
+by [Nazim Lala](https://github.com/naziml)
 
 The following section provides answers to frequently asked questions about UrlScan.
 

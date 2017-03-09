@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Delete Cached Objects
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 This section of the documentation applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above**.
 

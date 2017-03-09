@@ -1,6 +1,6 @@
 ---
 title: "PowerShell Snap-in: Using the PowerShell Help System | Microsoft Docs"
-author: rick-anderson
+author: thomasdeml
 description: "In this walkthrough you will learn how you can get help on how to use the IIS PowerShell Snap-in. Introduction The IIS PowerShell Snap-in uses two types of c..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 PowerShell Snap-in: Using the PowerShell Help System
 ====================
-by Thomas Deml
+by [Thomas Deml](https://github.com/thomasdeml)
 
 In this walkthrough you will learn how you can get help on how to use the IIS PowerShell Snap-in.
 

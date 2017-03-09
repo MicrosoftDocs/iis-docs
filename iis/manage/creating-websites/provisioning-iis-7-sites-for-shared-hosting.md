@@ -1,6 +1,6 @@
 ---
 title: "Provisioning IIS 7 Sites for Shared Hosting | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "The following articles contain recommendations for provisioning sites in shared hosting environments. Configuring Logging and Diagnostics Enabling a Delegate..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Provisioning IIS 7 Sites for Shared Hosting
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 The following articles contain recommendations for provisioning sites in shared hosting environments.
 

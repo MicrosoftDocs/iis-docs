@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Getting Started with the SEO Toolkit
 ====================
-by Mai-lan Tomsen Bukovec
+by [Mai-lan Tomsen Bukovec](https://twitter.com/mailant)
 
 The free IIS SEO Toolkit gives you an easy way to improve discoverability and user experience for your Web sites. Using the robots exclusion, sitemaps and site analysis tools in the Toolkit, you can increase Web site traffic and revenue by optimizing your site for search engine discoverability and enhancing the quality of your site.
 

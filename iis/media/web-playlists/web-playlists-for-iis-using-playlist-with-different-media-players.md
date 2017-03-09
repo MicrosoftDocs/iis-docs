@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Web Playlists for IIS 7 - Using Playlist With Different Media Players
 ====================
-by Vishal Sood
+by [Vishal Sood](https://twitter.com/vishalsood)
 
 This article describes how various clients can interact with Web Playlists to display the playlist content. Web Playlists works with the clients mentioned in this article; however, any client that supports ASX natively or through extensions can use this feature.
 

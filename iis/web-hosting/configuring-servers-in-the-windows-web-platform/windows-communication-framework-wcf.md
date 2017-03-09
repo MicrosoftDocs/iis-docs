@@ -1,6 +1,6 @@
 ---
 title: "Windows Communication Framework (WCF) | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Windows Communication Foundation (WCF) is a feature of Windows Server ® 2008. It can be activated by using the Server Manager's 'Add Features Wizard'. The Se..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Windows Communication Framework (WCF)
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 Windows Communication Foundation (WCF) is a feature of Windows Server® 2008.
 

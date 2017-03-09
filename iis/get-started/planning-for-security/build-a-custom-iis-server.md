@@ -1,6 +1,6 @@
 ---
 title: "Build a Custom IIS 7.0 Server | Microsoft Docs"
-author: rick-anderson
+author: leanserver
 description: "IIS 6.0 and previous versions implemented most of the widely used server functionality inside the server itself. In contrast, IIS 7.0 and above web server en..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Build a Custom IIS 7.0 Server
 ====================
-by Mike Volodarsky
+by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Introduction
 

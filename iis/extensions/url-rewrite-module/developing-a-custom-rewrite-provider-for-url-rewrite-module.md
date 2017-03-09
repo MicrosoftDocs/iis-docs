@@ -1,6 +1,6 @@
 ---
 title: "Developing a Custom Rewrite Provider for URL Rewrite Module | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "This walkthrough will guide you through how to develop a rewrite provider for URL Rewrite Module 2.0. You will create a ReplaceProvider that replaces all occ..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Developing a Custom Rewrite Provider for URL Rewrite Module
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 This walkthrough will guide you through how to develop a rewrite provider for URL Rewrite Module 2.0. You will create a ReplaceProvider that replaces all occurrences of a particular character in the URL with another character. This kind of logic is really hard and sometime impossible to express in terms of regular expressions, hence the need to create a custom rewrite provider.
 

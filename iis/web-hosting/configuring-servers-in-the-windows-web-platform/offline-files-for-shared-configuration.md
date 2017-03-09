@@ -1,6 +1,6 @@
 ---
 title: "Offline Files for Shared Configuration | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Once you have enabled shared configuration, a common question is what happens when the network share that serves those files becomes unavailable. When the sh..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Offline Files for Shared Configuration
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "Web Platform Installer Direct Downloads | Microsoft Docs"
-author: rick-anderson
+author: chrissfanos
 description: "Direct download links for Web Platform Installer (WebPI)"
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Web Platform Installer Direct Downloads
 ====================
-by Chris Sfanos
+by [Chris Sfanos](https://github.com/chrissfanos)
 
 **WebPI Direct Download Links**  
   

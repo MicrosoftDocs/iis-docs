@@ -1,6 +1,6 @@
 ---
 title: "Dynamic Compression | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Dynamic compression can save a significant amount of bandwidth with a tradeoff in using extra CPU. If bandwidth savings are more important than additional CP..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Dynamic Compression
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 Dynamic compression can save a significant amount of bandwidth with a tradeoff in using extra CPU. If bandwidth savings are more important than additional CPU, and the server is not currently bound by CPU, enable dynamic compression.
 

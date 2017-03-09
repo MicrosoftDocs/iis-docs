@@ -1,6 +1,6 @@
 ---
 title: "System Center Solutions (VMM &amp; SCOM) | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "System Center solutions help hosting companies manage physical and virtual hosting environments across data centers. Using these integrated and automated man..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 System Center Solutions (VMM &amp; SCOM)
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "Installing IIS Modules in Shared Configuration Environments | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "This article describes the steps to install an IIS Module in machines that are part of the Shared Configuration environment. The following process assumes n..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Installing IIS Modules in Shared Configuration Environments
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 

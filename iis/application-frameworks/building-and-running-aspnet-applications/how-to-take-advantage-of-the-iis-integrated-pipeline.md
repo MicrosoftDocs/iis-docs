@@ -1,6 +1,6 @@
 ---
 title: "How to Take Advantage of the IIS 7.0 Integrated Pipeline | Microsoft Docs"
-author: rick-anderson
+author: leanserver
 description: "IIS 6.0 and previous versions allowed the development of .NET application components via the ASP.NET platform. ASP.NET integrated with IIS via an ISAPI exten..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 How to Take Advantage of the IIS 7.0 Integrated Pipeline
 ====================
-by Mike Volodarsky
+by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Introduction
 

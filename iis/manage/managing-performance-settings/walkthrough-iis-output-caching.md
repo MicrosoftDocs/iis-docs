@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Walkthrough: IIS 7.0 Output Caching
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "Provisioning Sample in C# | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Over the years, it has become simple for advanced Web users to create their own Web site. Once an end-user has registered their domain name, there are variou..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Provisioning Sample in C#
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 

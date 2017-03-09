@@ -1,6 +1,6 @@
 ---
 title: "Provisioning FTP 7.5 Sites | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "The following articles point to recommended guides for Provisioning FTP 7.0 Sites: Creating a New Site Adding FTP to a Web Site Administering Using Configura..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Provisioning FTP 7.5 Sites
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 The following articles point to recommended guides for Provisioning FTP 7.0 Sites:
 

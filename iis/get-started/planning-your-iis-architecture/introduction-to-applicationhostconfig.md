@@ -1,6 +1,6 @@
 ---
 title: "Introduction to ApplicationHost.config | Microsoft Docs"
-author: rick-anderson
+author: tobint
 description: "ApplicationHost.config is the root file of the configuration system when you are using IIS 7 and above. It includes definitions of all sites, applications, v..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Introduction to ApplicationHost.config
 ====================
-by Tobin Titus
+by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction
 

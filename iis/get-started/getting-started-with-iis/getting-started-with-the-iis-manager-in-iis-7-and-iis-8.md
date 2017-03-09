@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with the IIS Manager in IIS | Microsoft Docs"
-author: rick-anderson
+author: tobint
 description: "This IIS Manager overview explains why IIS 7 and later have a new user interface from previous versions of IIS, and then goes on to describe the look and fee..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Getting Started with the IIS Manager in IIS
 ====================
-by IIS Team, Tobin Titus
+by [IIS Team](https://twitter.com/inetsrv), [Tobin Titus](https://github.com/tobint)
 
 ### Compatibility
 

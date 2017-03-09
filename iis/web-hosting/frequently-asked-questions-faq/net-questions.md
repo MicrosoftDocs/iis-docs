@@ -1,6 +1,6 @@
 ---
 title: ".NET Questions | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "No. When a user uses Visual Studio 2008 Beta 2 to build a new ASP.NET 3.5 website, or migrates an existing ASP.NET website to .NET Framework 3.5, the applica..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 .NET Questions
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Can ASP.NET websites built with Visual Studio 2008 Beta 2 be used in partial trust configurations?
 

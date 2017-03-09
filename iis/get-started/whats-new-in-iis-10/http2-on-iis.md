@@ -1,6 +1,6 @@
 ---
 title: "HTTP/2 on IIS | Microsoft Docs"
-author: rick-anderson
+author: davidso
 description: ""
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 HTTP/2 on IIS
 ====================
-by David So
+by [David So](https://github.com/davidso)
 
 ### Compatibility
 

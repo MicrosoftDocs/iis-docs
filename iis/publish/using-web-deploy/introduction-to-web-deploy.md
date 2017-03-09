@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Introduction to Web Deploy
 ====================
-by Harsh Mittal
+by [Harsh Mittal](https://twitter.com/harshmittal)
 
 ## What is Web Deploy?
 

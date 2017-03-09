@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Feature to Configuration Reference
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## IIS Manager Feature to Configuration Mapping
 

@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Testing a Web Application Zip Package for Inclusion with the Web Application Gallery
 ====================
-by Mai-lan Tomsen Bukovec
+by [Mai-lan Tomsen Bukovec](https://twitter.com/mailant)
 
 The [Web Application Gallery](https://www.microsoft.com/web/gallery) makes it easy for Windows users to find and deploy a free open source, community application onto a computer running Windows XP or later. To learn more about how to build Web Deploy support for a zip package so that the application can be included in the Web Application Gallery, read the [Package An Application for the Web Application Gallery](package-an-application-for-the-windows-web-application-gallery.md) guide or view the [Adding Web Deployment Tool Support to Community Application ZIP Packages videocast](https://blogs.iis.net/mailant/archive/2009/05/04/real-world-iis-adding-web-deployment-tool.aspx). Once you have build Web Application Gallery integration for your zip package, you can test the Web Application Integration using [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx).
 

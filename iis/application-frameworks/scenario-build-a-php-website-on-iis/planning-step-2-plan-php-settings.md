@@ -1,6 +1,6 @@
 ---
 title: "Planning Step 2: Plan PHP Settings | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "In this phase of building your PHP website, plan to set up the WinCache PHP extension, determine what configuration settings you require for PHP, and what PH..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Planning Step 2: Plan PHP Settings
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your PHP website, plan to set up the WinCache PHP extension, determine what configuration settings you require for PHP, and what PHP extensions your application requires.
 

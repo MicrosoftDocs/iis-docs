@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Understanding IIS 7.0 Configuration Delegation
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 

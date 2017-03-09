@@ -1,6 +1,6 @@
 ---
 title: "Shared Configuration | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "In IIS 6.0, synchronizing and replicating configuration between servers was difficult because no built-in functionality existed. Although the server administ..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Shared Configuration
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

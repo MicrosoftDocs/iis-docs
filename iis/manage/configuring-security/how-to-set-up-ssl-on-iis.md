@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 How to Set Up SSL on IIS 7
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "Hyper-V Guides | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "This article provides you with a set of guides, including tools, videos, and presentations to help you: Learn about Microsoft virtualization technologies. Ma..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Hyper-V Guides
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "ScrewTurn Wiki | Microsoft Docs"
-author: rick-anderson
+author: simtan
 description: "ScrewTurn Wiki is a free, open source wiki application that is based on Microsoft ASP.NET 3.5 and allows you to create, manage and share wikis. For more info..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 ScrewTurn Wiki
 ====================
-by Simon Tan
+by [Simon Tan](https://github.com/simtan)
 
 ## Introduction
 

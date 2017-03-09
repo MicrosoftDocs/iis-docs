@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Managing IIS Log File Storage
 ====================
-by Jim van de Erve
+by [Jim van de Erve](https://twitter.com/jimvde)
 
 You can manage the amount of server disk space that Internet Information Services (IIS) log files consume by using compression, remote storage, scripted deletion, and an IIS Log Cleaner Tool.
 

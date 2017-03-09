@@ -1,6 +1,6 @@
 ---
 title: "Diagnosing Failures with Remote Administration | Microsoft Docs"
-author: rick-anderson
+author: NitashaV
 description: "This article will help you diagnose and fix issues found while using RemoteMgr. This is based on frequently asked questions on the iis.net forums. Cannot con..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Diagnosing Failures with Remote Administration
 ====================
-by Nitasha Verma
+by [Nitasha Verma](https://github.com/NitashaV)
 
 ## Introduction
 

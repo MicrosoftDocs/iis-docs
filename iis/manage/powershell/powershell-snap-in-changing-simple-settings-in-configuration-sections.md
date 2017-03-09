@@ -1,6 +1,6 @@
 ---
 title: "PowerShell Snap-in: Changing Simple Settings in Configuration Sections | Microsoft Docs"
-author: rick-anderson
+author: thomasdeml
 description: "In the previous walkthrough you learned how to manage IIS namespace containers like Sites, Application Pools, Applications and Virtual Directories. In this w..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 PowerShell Snap-in: Changing Simple Settings in Configuration Sections
 ====================
-by Thomas Deml
+by [Thomas Deml](https://github.com/thomasdeml)
 
 In the previous walkthrough you learned how to manage IIS namespace containers like Sites, Application Pools, Applications and Virtual Directories.
 

@@ -1,6 +1,6 @@
 ---
 title: "Delegating errorMode in httpErrors | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Warning : This functionality is not currently working as expected in IIS 7.0. It is being addressed for the next release. In IIS 7.0 you can lock and unlock..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Delegating errorMode in httpErrors
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 *Warning*: *This functionality is not currently working as expected in IIS 7.0. It is being addressed for the next release. In IIS 7.0 you can lock and unlock HTTP errors for particular sites or for the entire server; but, currently, "lockAllAttributesExcept="errorMode" is not working for httpErrors. Yet you can use the ideas in this article about unlocking particular attributes in other IIS configuration sections*.
 

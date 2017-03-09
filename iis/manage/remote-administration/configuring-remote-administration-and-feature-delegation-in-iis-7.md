@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configuring Remote Administration and Feature Delegation in IIS 7
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 

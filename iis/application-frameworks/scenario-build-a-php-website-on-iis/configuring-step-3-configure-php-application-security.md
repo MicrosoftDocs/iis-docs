@@ -1,6 +1,6 @@
 ---
 title: "Configuring Step 3: Configure PHP Application Security | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "In this last step in building a PHP website on IIS, you configure PHP settings, web server settings, and PHP application settings that improve your website s..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configuring Step 3: Configure PHP Application Security
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this last step in building a PHP website on IIS, you configure PHP settings, web server settings, and PHP application settings that improve your website security.
 

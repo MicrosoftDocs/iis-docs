@@ -1,6 +1,6 @@
 ---
 title: "Live Broadcasting with Silverlight and Windows Media - Streaming Media West 2009 | Microsoft Docs"
-author: microsoft
+author: Microsoft
 description: "This video is from the 'Live Broadcasting with Silverlight and Windows Media' pre-conference workshop conducted by Chris Knowlton at Streaming Media West in..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: video
 ---
 Live Broadcasting with Silverlight and Windows Media - Streaming Media West 2009
 ====================
-by [Microsoft](https://github.com/microsoft)
+by [Microsoft](https://github.com/Microsoft)
 
 This video is from the "Live Broadcasting with Silverlight and Windows Media" pre-conference workshop conducted by Chris Knowlton at Streaming Media West in November 2009. The workshop covers end-to-end technologies and steps required to encode, manage, and deliver live streaming broadcasts with Silverlight. Learn how to plan the production workflow and organize your Windows Server infrastructure, as well as when to target Silverlight or Windows Media Player. Also addressed: using cache/proxy servers for intranet scalability, distributing your live broadcast via a CDN, options for archiving and distributing the event on-demand, and live DVR capabilities.
 

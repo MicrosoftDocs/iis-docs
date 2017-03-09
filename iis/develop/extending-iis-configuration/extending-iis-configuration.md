@@ -1,6 +1,6 @@
 ---
 title: "Extending IIS Configuration | Microsoft Docs"
-author: rick-anderson
+author: tobint
 description: "This video demonstrates how to extend configuration. You’ll learn how to use the XML configuration in IIS 7.0 and above to store your own custom configuratio..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: video
 ---
 Extending IIS Configuration
 ====================
-by Tobin Titus
+by [Tobin Titus](https://github.com/tobint)
 
 This video demonstrates how to extend configuration. You'll learn how to use the XML configuration in IIS 7.0 and above to store your own custom configuration elements. You'll also learn how to extend existing configuration objects with your own metadata. Then, you'll learn how to use existing IIS tools and Powershell to access and modify your custom configuration.
 

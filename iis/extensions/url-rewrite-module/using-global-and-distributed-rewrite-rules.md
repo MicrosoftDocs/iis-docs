@@ -1,6 +1,6 @@
 ---
 title: "Using Global and Distributed Rewrite Rules | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "This walkthrough will explain the different types of rules supported by URL rewrite module and will guide you through how to configure global and distributed..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using Global and Distributed Rewrite Rules
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 This walkthrough will explain the different types of rules supported by URL rewrite module and will guide you through how to configure global and distributed rewrite rules.
 

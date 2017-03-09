@@ -1,6 +1,6 @@
 ---
 title: "IIS 7 Components for Shared Hosting | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "IIS 7 and above makes it easier for system administrators to help secure and manage shared hosting environments. To deploy a Web server and host thousands of..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 IIS 7 Components for Shared Hosting
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

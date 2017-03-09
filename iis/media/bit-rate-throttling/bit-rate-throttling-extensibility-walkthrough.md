@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Bit Rate Throttling Extensibility Walkthrough
 ====================
-by Vishal Sood
+by [Vishal Sood](https://twitter.com/vishalsood)
 
 Bit Rate Throttling for Internet Information Services (IIS) provides the ability to throttle progressive downloads of media files (in which audio/video playback starts as soon as sufficient data has been buffered on the client) based on the content bit rate. For sites that deliver audio and video files that may not be watched in their entirety, this module can significantly reduce your media-related bandwidth costs. A secondary feature of Bit Rate Throttling is that it can also be used to throttle non-media ("data") file types at specified bit rates.
 

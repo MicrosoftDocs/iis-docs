@@ -1,6 +1,6 @@
 ---
 title: "Using Custom Rewrite Providers with URL Rewrite Module | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "This walkthrough will guide you through how to use custom rewrite providers with URL Rewrite Module 2.0. The walkthrough uses the URL Rewrite 2.0 Extensibili..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using Custom Rewrite Providers with URL Rewrite Module
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 This walkthrough will guide you through how to use custom rewrite providers with URL Rewrite Module 2.0. The walkthrough uses the URL Rewrite 2.0 Extensibility Samples, which can be downloaded from URL Rewrite Extensibility Samples at MSDN Code Gallery.
 

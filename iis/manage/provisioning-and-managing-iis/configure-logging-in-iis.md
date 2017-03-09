@@ -1,6 +1,6 @@
 ---
 title: "Configure Logging in IIS | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "You can configure logging on your web server or website that records information about HTTP requests and errors. The information in your log can help you tro..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configure Logging in IIS
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 You can configure logging on your web server or website that records information about HTTP requests and errors. The information in your log can help you troubleshoot or optimize your website.
 

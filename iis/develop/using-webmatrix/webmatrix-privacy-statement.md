@@ -1,6 +1,6 @@
 ---
 title: "WebMatrix Privacy Statement | Microsoft Docs"
-author: rick-anderson
+author: bilalaslam
 description: "Microsoft is committed to protecting your privacy, while delivering software that brings you the performance, power, and convenience you desire in your perso..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 WebMatrix Privacy Statement
 ====================
-by Bilal Aslam
+by [Bilal Aslam](https://github.com/bilalaslam)
 
 ## Microsoft WebMatrix 2.0 Privacy Statement
 

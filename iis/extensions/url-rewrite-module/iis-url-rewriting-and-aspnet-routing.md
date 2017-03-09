@@ -1,6 +1,6 @@
 ---
 title: "IIS URL Rewriting and ASP.NET Routing | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "With the release of the URL Rewrite Module for IIS and the inclusion of ASP.NET routing into the .NET Framework 4, there have been a lot of questions from AS..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 IIS URL Rewriting and ASP.NET Routing
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 With the release of the [URL Rewrite Module for IIS](using-the-url-rewrite-module.md) and the inclusion of ASP.NET routing into the .NET Framework 4, there have been a lot of questions from ASP.NET developers about how these two features relate to each other and when you should use one or the other. This document describes the differences between these two technologies and provides guidance for Web developers about when to use IIS URL rewriting and when to use ASP.NET routing.
 

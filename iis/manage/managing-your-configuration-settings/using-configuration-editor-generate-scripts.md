@@ -1,6 +1,6 @@
 ---
 title: "Using Configuration Editor: Generate Scripts | Microsoft Docs"
-author: rick-anderson
+author: crystalhoyer
 description: "This walkthrough is aimed to demonstrate how to use Configuration Editor's Generate Script functionality through the example of Application Pool generation...."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using Configuration Editor: Generate Scripts
 ====================
-by Crystal Hoyer
+by [Crystal Hoyer](https://github.com/crystalhoyer)
 
 ## Walkthrough Goal
 

@@ -1,6 +1,6 @@
 ---
 title: "Windows Web Application Gallery Principles | Microsoft Docs"
-author: rick-anderson
+author: chrissfanos
 description: "The Windows Web Application Gallery makes it easy to explore, discover and install popular community ASP.Net and PHP applications on Windows. Users can brows..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Windows Web Application Gallery Principles
 ====================
-by Chris Sfanos
+by [Chris Sfanos](https://github.com/chrissfanos)
 
 The [Windows Web Application Gallery](https://www.microsoft.com/web/gallery) makes it easy to explore, discover and install popular community ASP.Net and PHP applications on Windows. Users can browse and view applications for different types of Web sites, ranging from photo galleries to blogs to ecommerce sites. When an application is accepted by the Web Application Gallery, the application is added to the Web Application Gallery ATOM feed. The ATOM feed is consumed by the Web Application Gallery itself, Web Platform Installer, IIS Manager, and participating Hosting Control Panels.
 

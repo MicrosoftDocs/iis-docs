@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Use Request Filtering
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 ## Introduction
 

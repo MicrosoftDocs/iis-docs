@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Advanced Logging for IIS - Client Logging
 ====================
-by Vishal Sood
+by [Vishal Sood](https://twitter.com/vishalsood)
 
 IIS Advanced Logging can accept information about client-consumption of media and other content. Clients (for example, Microsoft Silverlight) can send useful data about their interaction with media content. This information forms the basis of analytic reporting, which can help businesses improve their content placement and return on investment (ROI).
 

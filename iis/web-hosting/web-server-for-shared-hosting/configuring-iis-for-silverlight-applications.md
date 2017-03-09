@@ -1,6 +1,6 @@
 ---
 title: "Configuring IIS for Silverlight Applications | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Introduction Microsoft® Silverlight TM is a cross-browser, cross-platform plug-in for delivering the next generation of .NET-based media experiences and rich..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configuring IIS for Silverlight Applications
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

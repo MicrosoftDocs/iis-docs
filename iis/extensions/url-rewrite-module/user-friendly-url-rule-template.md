@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 User Friendly URL - rule template
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL rewriter module includes several rule templates for some common usage scenarios. In addition to that URL rewrite module UI provides a framework for plugging in custom rule templates. This walkthrough will guide you through how to use "User Friendly URL" rule template that is included with URL rewrite module.
 

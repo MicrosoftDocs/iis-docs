@@ -1,6 +1,6 @@
 ---
 title: "Provisioning IIS 7 Sites | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Provisioning IIS 7 sites is a straight forward operation. You can accomplish it: Through the IIS Manager UI Programmatically in C# Through PowerShell Scripts..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Provisioning IIS 7 Sites
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 

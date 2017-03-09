@@ -1,6 +1,6 @@
 ---
 title: "ServerValidator Demo | Microsoft Docs"
-author: rick-anderson
+author: bilalaslam
 description: "ServerValidator Demo"
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: video
 ---
 ServerValidator Demo
 ====================
-by Bilal Aslam
+by [Bilal Aslam](https://github.com/bilalaslam)
 
 ServerValidator Demo
 

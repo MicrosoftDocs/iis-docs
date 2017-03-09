@@ -1,6 +1,6 @@
 ---
 title: "UrlScan Overview | Microsoft Docs"
-author: rick-anderson
+author: naziml
 description: "UrlScan is a security tool that restricts the types of HTTP requests that Microsoft Internet Information Services (IIS) will process. By blocking specific HT..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 UrlScan Overview
 ====================
-by Nazim Lala
+by [Nazim Lala](https://github.com/naziml)
 
 ## Introduction
 

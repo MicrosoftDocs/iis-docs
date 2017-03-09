@@ -1,6 +1,6 @@
 ---
 title: "Protected Interoperable File Format | Microsoft Docs"
-author: microsoft
+author: Microsoft
 description: "The Protected Interoperable File Format (PIFF) specification defines a standard multimedia file format for delivery and playback of multimedia content. It in..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Protected Interoperable File Format
 ====================
-by [Microsoft](https://github.com/microsoft)
+by [Microsoft](https://github.com/Microsoft)
 
 The [Protected Interoperable File Format (PIFF) specification](https://go.microsoft.com/?linkid=9682897 "Protected Interoperable File Format") defines a standard multimedia file format for delivery and playback of multimedia content. It includes the audio-video container, stream encryption, and metadata to support content delivery for multiple bit rate adaptive streaming, optionally using a standard encryption scheme capable of supporting multiple DRM systems.
 

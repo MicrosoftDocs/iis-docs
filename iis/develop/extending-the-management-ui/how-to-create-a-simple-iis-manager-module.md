@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 How to Create a Simple IIS Manager Module
 ====================
-by Carlos Aguilar Mares
+by [Carlos Aguilar Mares](https://twitter.com/CarlosAguilarM)
 
 ## Introduction
 

@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using Encryption to Protect Passwords
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 

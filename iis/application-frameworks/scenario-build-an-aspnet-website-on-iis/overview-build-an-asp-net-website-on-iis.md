@@ -1,6 +1,6 @@
 ---
 title: "Overview: Build an ASP.NET Website on IIS | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "This scenario shows how to plan and configure an ASP.NET website on an IIS 8 webserver. It is divided into two phases: a plan and design phase, and an instal..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Overview: Build an ASP.NET Website on IIS
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 This document contains an overview of the **Build an ASP.NET Website on IIS** scenario. It also contains links to additional information and community resources related to the scenario.
 

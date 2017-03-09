@@ -1,6 +1,6 @@
 ---
 title: "Web Platform Installer 2.0 Walkthrough | Microsoft Docs"
-author: rick-anderson
+author: crystalhoyer
 description: "The Microsoft Web Platform Installer (Web PI) is a free tool that makes it simple to download and install the latest components of the Microsoft Web Platform..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Web Platform Installer 2.0 Walkthrough
 ====================
-by Crystal Hoyer
+by [Crystal Hoyer](https://github.com/crystalhoyer)
 
 The Microsoft Web Platform Installer (Web PI) is a free tool that makes it simple to download and install the latest components of the Microsoft Web Platform, including the IIS, SQL Server Express, .NET Framework, and Visual Web Developer. To help you stay up-to-date with product releases, the Web Platform Installer tool always installs the latest version of Web Platform components as well as new additions to the Microsoft Web Platform.
 

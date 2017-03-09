@@ -1,6 +1,6 @@
 ---
 title: "Using Dynamic IP Restrictions | Microsoft Docs"
-author: rick-anderson
+author: naziml
 description: "The Dynamic IP Restrictions (DIPR) module for IIS 7.0 and above provides protection against denial of service and brute force attacks on web servers and web..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using Dynamic IP Restrictions
 ====================
-by Nazim Lala
+by [Nazim Lala](https://github.com/naziml)
 
 ## Introduction
 

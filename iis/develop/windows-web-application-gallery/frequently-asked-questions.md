@@ -1,6 +1,6 @@
 ---
 title: "Windows Web App Gallery FAQ | Microsoft Docs"
-author: rick-anderson
+author: SunBuild
 description: ""
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Windows Web App Gallery FAQ
 ====================
-by Sunitha Muthukrishna
+by [Sunitha Muthukrishna](https://github.com/SunBuild)
 
 ## Frequently Asked Questions
 

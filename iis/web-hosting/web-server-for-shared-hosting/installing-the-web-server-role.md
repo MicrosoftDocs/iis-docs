@@ -1,6 +1,6 @@
 ---
 title: "Installing the Web Server Role | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "To install the Web Server role on a machine that already is running Windows Server ® 2008 R2 (as is the case when building a reference machine for deployment..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Installing the Web Server Role
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 To install the Web Server role on a machine that already is running Windows Server® 2008 R2 (as is the case when building a reference machine for deployment in a data center), follow these steps:
 

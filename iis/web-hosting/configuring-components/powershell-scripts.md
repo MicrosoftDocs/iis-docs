@@ -1,6 +1,6 @@
 ---
 title: "C# and PowerShell Scripts Samples | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "This article provides a summary of the PowerShell and C# Sample scripts mentioned throughout the Hosting Guidance. They can be used for deployment, configura..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 C# and PowerShell Scripts Samples
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

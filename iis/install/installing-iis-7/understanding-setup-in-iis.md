@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Understanding Setup in IIS 7
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## About This Article
 

@@ -1,6 +1,6 @@
 ---
 title: "Creating Rewrite Rules for the URL Rewrite Module | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "This walkthrough will guide you through how to create and test a set of rewrite rules for the URL Rewrite Module. Prerequisites This walkthrough requires the..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Creating Rewrite Rules for the URL Rewrite Module
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 The URL rewrite module is an extension to IIS which is available as a download for your stand-alone IIS Server, and is also pre-installed on any website on [Windows Azure Web Sites (WAWS)](https://www.windowsazure.com/en-us/documentation/services/web-sites/) and available [for your use](https://blogs.msdn.com/b/davidlem/archive/2010/04/26/wcf-rest-and-url-rewriting-with-windows-azure.aspx). This walkthrough will guide you through how to create and test a set of rewrite rules for the URL Rewrite Module.
 

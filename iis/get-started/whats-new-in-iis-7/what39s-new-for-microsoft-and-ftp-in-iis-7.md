@@ -1,6 +1,6 @@
 ---
 title: "What's New for Microsoft and FTP in IIS 7? | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "Version Notes IIS 7.5 The FTP 7.5 service ships as a feature for IIS 7.5 in Windows 7 and Windows Server 2008 R2. IIS 7.0 The FTP 7.0 and FTP 7.5 services we..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 What's New for Microsoft and FTP in IIS 7?
 ====================
-by Tim Elhajj and R McMurray
+by [Tim Elhajj and R McMurray](https://github.com/rmcmurray)
 
 ## Compatibility
 

@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Web Playlists for IIS 7.0 - Extending Output Formats using XSLT
 ====================
-by Vishal Sood
+by [Vishal Sood](https://twitter.com/vishalsood)
 
 Web Playlists for Internet Information Services (IIS) 7.0 and above supports Extensible Stylesheet Language Transformations (XSLT) style sheets that filter or customize the XML data in the Web Playlists HTTP response to clients. For example, you can create an XSLT style sheet that transforms the Web Playlists response so that the data is rendered by players that do not support the ASX format. Another example is where you can create an XSLT style sheet that transforms the Web Playlists response to a Web feed format, such as Atom or RSS. You can create and manage XSL Transformations on the **Output Formats** feature page in Web Playlists.
 

@@ -14,7 +14,7 @@ msc.type: video
 ---
 Live Smooth Streaming Tutorial - Fundamentals
 ====================
-by Chris Knowlton
+by [Chris Knowlton](https://twitter.com/chris_knowlton)
 
 Part 2: Fundamentals. This is the second of a five-part series of videos that describes the process for creating, deploying, and managing an IIS Smooth Streaming experience for a live broadcast-quality event. Chris Knowlton, Senior Product Manager on the Web Platform and Tools team at Microsoft, takes you through the fundamentals of IIS Smooth Streaming, shows you how to set up IIS Media Services 3.0 with the Web Platform Installer and how to configure it for Live Smooth Streaming.
 

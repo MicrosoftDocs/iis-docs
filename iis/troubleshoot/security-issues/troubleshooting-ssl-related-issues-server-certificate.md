@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting SSL related issues (Server Certificate) | Microsoft Docs"
-author: rick-anderson
+author: kaushalp
 description: "Tools Used in this Troubleshooter: SSLDiag Network Monitor 3.4/Wireshark This material is provided for informational purposes only. Microsoft makes no warran..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Troubleshooting SSL related issues (Server Certificate)
 ====================
-by Kaushal Kumar Panday
+by [Kaushal Kumar Panday](https://github.com/kaushalp)
 
 #### Tools Used in this Troubleshooter:
 

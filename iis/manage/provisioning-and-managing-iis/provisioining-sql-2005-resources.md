@@ -1,6 +1,6 @@
 ---
 title: "Provisioning SQL 2005 Resources | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "SQL Server ® 2005 is an ideal database platform for use in shared and dedicated Web hosting environments. Deployment Guide The SQL Server 2005 Deployment Gui..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Provisioning SQL 2005 Resources
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 

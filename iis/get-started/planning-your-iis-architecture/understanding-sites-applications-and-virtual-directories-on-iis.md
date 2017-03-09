@@ -1,6 +1,6 @@
 ---
 title: "Understanding Sites, Applications, and Virtual Directories on IIS 7 | Microsoft Docs"
-author: rick-anderson
+author: arkaytee
 description: "In IIS, you can create sites, applications, and virtual directories to share information with users over the Internet, an intranet, or an extranet. Although..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Understanding Sites, Applications, and Virtual Directories on IIS 7
 ====================
-by Reagan Templin
+by [Reagan Templin](https://github.com/arkaytee)
 
 ## Introduction
 

@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Microsoft Web Deploy v3 Readme
 ====================
-by Harsh Mittal
+by [Harsh Mittal](https://twitter.com/harshmittal)
 
 ## Overview
 

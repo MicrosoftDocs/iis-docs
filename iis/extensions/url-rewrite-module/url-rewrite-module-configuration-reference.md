@@ -1,6 +1,6 @@
 ---
 title: "URL Rewrite Module Configuration Reference | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "This article provides an overview of the URL Rewrite Module and explains the configuration concepts that are used by the module. Table Of Contents Functional..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 URL Rewrite Module Configuration Reference
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 This article provides an overview of the URL Rewrite Module and explains the configuration concepts that are used by the module.
 

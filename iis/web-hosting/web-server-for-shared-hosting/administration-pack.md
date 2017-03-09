@@ -1,6 +1,6 @@
 ---
 title: "Administration Pack | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "The Administration Pack provides hosters and their customers with a set of IIS Manager modules that will help them to do the following: Edit server configura..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Administration Pack
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

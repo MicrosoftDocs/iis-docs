@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Define and Configure an Application Request Routing Server Farm
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 ## Overview
 

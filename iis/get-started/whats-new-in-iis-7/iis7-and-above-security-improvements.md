@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 IIS7 Security Improvements
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 <a id="Reduced"></a>
 

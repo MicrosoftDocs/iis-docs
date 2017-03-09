@@ -1,6 +1,6 @@
 ---
 title: "Install Joomla! on IIS | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "Introduction Joomla is an open-source content management system (CMS) that lets you build Web sites and powerful online applications, such as: Corporate Web..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Install Joomla! on IIS
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction
 

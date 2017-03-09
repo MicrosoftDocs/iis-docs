@@ -1,6 +1,6 @@
 ---
 title: "Using Configuration History with IIS 7 and IIS 8 | Microsoft Docs"
-author: rick-anderson
+author: tobint
 description: "In IIS 6.0, administrators had a safety net that allowed them to easily ascertain what changed in the IIS configuration. It was implemented as a history file..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using Configuration History with IIS 7 and IIS 8
 ====================
-by Tobin Titus
+by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction
 

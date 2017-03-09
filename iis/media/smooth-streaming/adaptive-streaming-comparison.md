@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Adaptive Streaming Comparison
 ====================
-by Chris Knowlton
+by [Chris Knowlton](https://twitter.com/chris_knowlton)
 
 [IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming) provides users with a truly compelling way to watch the best-possible-quality streaming video. First proven in production at the Summer 2008 Olympics in Beijing, this live and on-demand adaptive streaming technology from Microsoft represents the latest generation in video streaming technologies.
 

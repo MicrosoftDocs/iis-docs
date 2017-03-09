@@ -1,6 +1,6 @@
 ---
 title: "Configuring the FastCGI Extension for IIS 6.0 | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "From its first version, Internet Information Services (IIS) has supported Common Gateway Interface (CGI), which is a standards-based protocol that allows inf..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configuring the FastCGI Extension for IIS 6.0
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction
 

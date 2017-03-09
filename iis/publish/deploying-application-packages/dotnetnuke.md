@@ -1,6 +1,6 @@
 ---
 title: "DotNetNuke | Microsoft Docs"
-author: rick-anderson
+author: simtan
 description: "DotNetNuke is an open source content management system (CMS) and application development framework for Microsoft .NET. For more information about DotNetNuke,..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 DotNetNuke
 ====================
-by Simon Tan
+by [Simon Tan](https://github.com/simtan)
 
 ## Introduction
 

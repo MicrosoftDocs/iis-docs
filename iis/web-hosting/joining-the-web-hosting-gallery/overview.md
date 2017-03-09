@@ -1,6 +1,6 @@
 ---
 title: "Overview | Microsoft Docs"
-author: rick-anderson
+author: simtan
 description: "This set of documentation describes how hosting providers can prepare to join the Microsoft Web Hosting Gallery —a comprehensive marketplace of hosting provi..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Overview
 ====================
-by Simon Tan
+by [Simon Tan](https://github.com/simtan)
 
 ## Overview
 

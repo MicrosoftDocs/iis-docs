@@ -1,6 +1,6 @@
 ---
 title: "Remote Administration Behavior Matrix | Microsoft Docs"
-author: rick-anderson
+author: NitashaV
 description: "This document contains the matrix of scenarios for remote administration for IIS Manager and the runtime behavior for each one. It helps understand the diffe..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Remote Administration Behavior Matrix
 ====================
-by Nitasha Verma
+by [Nitasha Verma](https://github.com/NitashaV)
 
 ## Introduction
 

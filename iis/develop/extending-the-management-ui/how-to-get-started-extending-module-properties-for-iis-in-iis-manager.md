@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 How to Get Started Extending Module Properties for IIS 7.0 in IIS Manager
 ====================
-by Janani Ravi
+by [Janani Ravi](https://twitter.com/LoonyJanani)
 
 ## Abstract
 

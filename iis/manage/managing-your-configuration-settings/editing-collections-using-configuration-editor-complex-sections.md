@@ -1,6 +1,6 @@
 ---
 title: "Editing Collections using Configuration Editor: Complex Sections | Microsoft Docs"
-author: rick-anderson
+author: crystalhoyer
 description: "Use the Collection Editor within the Configuration Editor module to add a new failed request tracing rule for an aspx request that either returns a status co..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Editing Collections using Configuration Editor: Complex Sections
 ====================
-by Crystal Hoyer
+by [Crystal Hoyer](https://github.com/crystalhoyer)
 
 ## Walkthrough Goal
 

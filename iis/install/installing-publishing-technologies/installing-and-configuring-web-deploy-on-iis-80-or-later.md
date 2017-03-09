@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Installing and Configuring Web Deploy on IIS 8.0 or Later
 ====================
-by Jim van de Erve
+by [Jim van de Erve](https://twitter.com/jimvde)
 
 ## Summary
 

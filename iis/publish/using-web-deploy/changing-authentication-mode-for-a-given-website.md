@@ -1,6 +1,6 @@
 ---
 title: "Changing authentication mode for a given website | Microsoft Docs"
-author: rick-anderson
+author: Tuesdaysgreen
 description: "This is a new Web Deploy provider which will provide support for changing authentication mode for a given website. Many a times in enterprise environments ap..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Changing authentication mode for a given website
 ====================
-by Elliott Hamai
+by [Elliott Hamai](https://github.com/Tuesdaysgreen)
 
 ## ApphostAuthOverride Provider
 

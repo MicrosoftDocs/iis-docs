@@ -1,6 +1,6 @@
 ---
 title: "Using Visual Studio 2005 with IIS 7.0 | Microsoft Docs"
-author: rick-anderson
+author: leanserver
 description: "Visual Studio ® provides several options for working with IIS when developing web sites and applications. This article covers using Visual Studio 2005 to wor..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using Visual Studio 2005 with IIS 7.0
 ====================
-by Mike Volodarsky
+by [Mike Volodarsky](https://github.com/leanserver)
 
 ## Introduction
 

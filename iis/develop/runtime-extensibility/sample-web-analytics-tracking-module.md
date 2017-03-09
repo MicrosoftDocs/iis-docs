@@ -1,6 +1,6 @@
 ---
 title: "Sample: Web Analytics Tracking Module | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "The Web Analytics is a popular technology space today. Its purpose is to provide web site owners with statistical information about visitors to their sites,..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Sample: Web Analytics Tracking Module
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 The Web Analytics is a popular technology space today. Its purpose is to provide web site owners with statistical information about visitors to their sites, so that site publisher can optimize the content, advertisement and service offering to increate the customer satisfaction and ROI.
 

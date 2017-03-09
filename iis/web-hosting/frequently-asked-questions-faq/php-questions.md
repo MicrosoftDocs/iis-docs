@@ -1,6 +1,6 @@
 ---
 title: "PHP Questions | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Microsoft does not support PHP. We started integration testing with 5.2.1. Most of the testing seen shows PHP working well, without specific integration issu..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 PHP Questions
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 #### What support is available for PHP running with FastCGI?
 

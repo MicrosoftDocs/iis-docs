@@ -1,6 +1,6 @@
 ---
 title: "Introduction to IIS Architectures | Microsoft Docs"
-author: rick-anderson
+author: arkaytee
 description: "Internet Information Services (IIS) 7 and later provide a request-processing architecture that includes: The Windows Process Activation Service (WAS), which..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Introduction to IIS Architectures
 ====================
-by IIS Team, Reagan Templin
+by [IIS Team](https://twitter.com/inetsrv), [Reagan Templin](https://github.com/arkaytee)
 
 ### Compatibility
 

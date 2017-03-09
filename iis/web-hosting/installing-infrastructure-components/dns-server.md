@@ -1,6 +1,6 @@
 ---
 title: "DNS Server | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "You must have a working Dynamic Name Services (DNS) server on the network to run Windows Deployment Services. Administrators may choose to dedicate an entire..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 DNS Server
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Prerequisites
 

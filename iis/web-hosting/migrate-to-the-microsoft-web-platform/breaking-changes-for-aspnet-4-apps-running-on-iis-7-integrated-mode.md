@@ -1,6 +1,6 @@
 ---
 title: "Breaking Changes for ASP.NET 4 Apps Running on IIS 7 Integrated Mode | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Find information about this topic in ASP.NET Breaking Changes on IIS 7."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,6 +14,6 @@ msc.type: authoredcontent
 ---
 Breaking Changes for ASP.NET 4 Apps Running on IIS 7 Integrated Mode
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 Find information about this topic in ASP.NET Breaking Changes on IIS 7.

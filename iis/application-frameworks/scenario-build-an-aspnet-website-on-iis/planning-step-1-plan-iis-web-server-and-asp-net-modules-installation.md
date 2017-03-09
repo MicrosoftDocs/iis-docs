@@ -1,6 +1,6 @@
 ---
 title: "Planning Step 1: Plan IIS Web Server and ASP.NET Modules Installation | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "The first step in planning to build an ASP.NET website on IIS 8 is to install IIS along with the ASP.NET modules and to add your application files to IIS."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Planning Step 1: Plan IIS Web Server and ASP.NET Modules Installation
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 The first step in planning to build an ASP.NET website on IIS 8 is to install IIS along with the ASP.NET modules and to add your application files to IIS.
 

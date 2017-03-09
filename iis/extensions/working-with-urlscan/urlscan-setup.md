@@ -1,6 +1,6 @@
 ---
 title: "UrlScan Setup | Microsoft Docs"
-author: rick-anderson
+author: naziml
 description: "Windows XP, Windows Server 2003, Windows Vista or Windows Server 2008. IIS version 5.1, 6.0 or 7.0 or above (depending on the platform). Installation Steps R..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 UrlScan Setup
 ====================
-by Nazim Lala
+by [Nazim Lala](https://github.com/naziml)
 
 ## Prerequisites
 

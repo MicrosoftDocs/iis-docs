@@ -1,6 +1,6 @@
 ---
 title: "Active Directory DS Forest | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "A Windows Deployment Services server must be either a member of an Active Directory Domain Services domain or a domain controller for an Active Directory Dom..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Active Directory DS Forest
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

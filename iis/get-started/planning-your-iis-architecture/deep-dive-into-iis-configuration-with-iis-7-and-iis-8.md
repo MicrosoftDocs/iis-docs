@@ -1,6 +1,6 @@
 ---
 title: "Deep Dive into IIS Configuration with IIS 7 and IIS 8 | Microsoft Docs"
-author: rick-anderson
+author: tobint
 description: "The configuration system in IIS 7 and above is significantly different than in previous versions of IIS, and builds on top of some (but not all) of the conce..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Deep Dive into IIS Configuration with IIS 7 and IIS 8
 ====================
-by Tobin Titus
+by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "Developing Rule Template for URL Rewrite Module | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "This walkthrough will guide you through how to develop a rule template for URL Rewrite module. You will create a rule template that can be used to generate a..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Developing Rule Template for URL Rewrite Module
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 This walkthrough will guide you through how to develop a rule template for URL Rewrite module. You will create a rule template that can be used to generate a rewrite rule that enforces usage of a particular domain for a web site.
 

@@ -1,6 +1,6 @@
 ---
 title: "Running IIS Express without Administrative Privileges | Microsoft Docs"
-author: rick-anderson
+author: vaidy4github
 description: "IIS Express was designed to allow the most common web development and testing tasks to be performed without administrative privileges. This is very helpful i..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Running IIS Express without Administrative Privileges
 ====================
-by Vaidy Gopalakrishnan
+by [Vaidy Gopalakrishnan](https://github.com/vaidy4github)
 
 ## Overview
 

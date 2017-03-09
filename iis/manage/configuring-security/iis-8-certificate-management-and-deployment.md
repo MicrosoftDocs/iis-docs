@@ -1,6 +1,6 @@
 ---
 title: "IIS 8 - Certificate Management and Deployment | Microsoft Docs"
-author: rick-anderson
+author: shauneagan
 description: "Shaun Eagan describes the performance and management improvement for certificates in IIS 8."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: video
 ---
 IIS 8 - Certificate Management and Deployment
 ====================
-by Shaun Eagan
+by [Shaun Eagan](https://github.com/shauneagan)
 
 Shaun Eagan describes the performance and management improvement for certificates in IIS 8.
 

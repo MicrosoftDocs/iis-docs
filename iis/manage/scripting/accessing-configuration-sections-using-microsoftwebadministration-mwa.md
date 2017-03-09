@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Accessing Configuration Sections Using Microsoft.Web.Administration (MWA)
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Abstract
 

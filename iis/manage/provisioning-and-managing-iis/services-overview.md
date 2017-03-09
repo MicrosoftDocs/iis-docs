@@ -1,6 +1,6 @@
 ---
 title: "Services Overview | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Introduction The Hosting Services Sample is a set of services implemented in C# provided to help developers in web hosting organizations developing and/or in..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Services Overview
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

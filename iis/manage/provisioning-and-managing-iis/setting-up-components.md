@@ -1,6 +1,6 @@
 ---
 title: "Services Implementation | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "From an implementation standpoint, the solution follows recommended patterns and practices for building Web Services using the Windows Communication Foundati..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Services Implementation
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 

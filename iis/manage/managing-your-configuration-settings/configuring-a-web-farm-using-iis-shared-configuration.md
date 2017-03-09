@@ -14,7 +14,7 @@ msc.type: video
 ---
 Configuring a Web Farm Using IIS Shared Configuration
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 Managing large web farms with IIS and Windows Server 2008 has become simpler than ever. In this tutorial we will cover how to setup IIS 7.0's new shared configuration features. 
 

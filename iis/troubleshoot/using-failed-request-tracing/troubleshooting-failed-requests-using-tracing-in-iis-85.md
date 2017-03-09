@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Troubleshooting Failed Requests Using Tracing in IIS 8.5
 ====================
-by Jim van de Erve
+by [Jim van de Erve](https://twitter.com/jimvde)
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "The Configuration System in IIS 7 | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "IIS 7 introduces a brand-new configuration system, at the core of all the new administration-related features. The configuration system is based on distribut..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 The Configuration System in IIS 7
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 

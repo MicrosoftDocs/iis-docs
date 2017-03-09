@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 An End-to-End Extensibility Example for IIS 7.0 Developers
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 

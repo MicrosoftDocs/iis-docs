@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using Failed Request Tracing Rules to Troubleshoot Application Request Routing (ARR)
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 ## Overview
 

@@ -1,6 +1,6 @@
 ---
 title: "Getting Started | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "The Hosting Guidance is a set of best practices and script (PowerShell and C#) samples to guide in the planning, deployment, configuration, migration, and pr..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Getting Started
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 

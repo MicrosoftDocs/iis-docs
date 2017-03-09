@@ -1,6 +1,6 @@
 ---
 title: "Planning Step 3: Plan IIS Web Farm Load Balancing | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "In this phase of planning a web farm with IIS servers, you learn about load balancing. You also learn how to configure load balancing by using Application Re..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Planning Step 3: Plan IIS Web Farm Load Balancing
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of planning a web farm with IIS servers, you learn about load balancing. You also learn how to configure load balancing by using Application Request Routing (ARR). ARR is a proxy-based request routing and load balancing module for IIS.
 

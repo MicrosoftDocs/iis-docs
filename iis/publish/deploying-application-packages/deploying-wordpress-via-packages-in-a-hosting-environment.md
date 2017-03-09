@@ -1,6 +1,6 @@
 ---
 title: "Deploying WordPress via Packages in a Hosting Environment | Microsoft Docs"
-author: rick-anderson
+author: simtan
 description: "Introduction WordPress is a personal publishing platform that focuses on aesthetics, web standards, and usability. This document provides step-by-step instru..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Deploying WordPress via Packages in a Hosting Environment
 ====================
-by Simon Tan
+by [Simon Tan](https://github.com/simtan)
 
 ## Introduction
 

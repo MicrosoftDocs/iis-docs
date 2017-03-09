@@ -1,6 +1,6 @@
 ---
 title: "Provision an IIS Web Site in a Hosting Environment | Microsoft Docs"
-author: rick-anderson
+author: simtan
 description: "When provisioning a site, most hosters have some sort of control panel that allows them to capture the information required for provisioning. This informatio..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Provision an IIS Web Site in a Hosting Environment
 ====================
-by Simon Tan
+by [Simon Tan](https://github.com/simtan)
 
 When provisioning a site, most hosters have some sort of control panel that allows them to capture the information required for provisioning. This information can then be passed to simple scripts to create the user, configure it for hosting, create a database, and import the application package.
 

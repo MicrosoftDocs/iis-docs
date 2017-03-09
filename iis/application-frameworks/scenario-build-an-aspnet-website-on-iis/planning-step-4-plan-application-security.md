@@ -1,6 +1,6 @@
 ---
 title: "Planning Step 4: Plan Application Security | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "In this phase of building your website, consider the security needs of your ASP.NET application."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Planning Step 4: Plan Application Security
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your website, consider the security needs of your ASP.NET application. The following sections describe application security settings available in IIS 8:
 

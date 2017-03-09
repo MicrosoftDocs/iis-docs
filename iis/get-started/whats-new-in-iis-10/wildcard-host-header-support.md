@@ -1,6 +1,6 @@
 ---
 title: "Wildcard Host Header Support | Microsoft Docs"
-author: rick-anderson
+author: apwestgarth
 description: ""
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Wildcard Host Header Support
 ====================
-by Andrew Westgarth
+by [Andrew Westgarth](https://github.com/apwestgarth)
 
 ### Compatibility
 

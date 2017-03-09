@@ -1,6 +1,6 @@
 ---
 title: "Consuming the Services | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Since Hosting Services Code Sample is implemented using Windows Communication Foundation, consuming it is fairly straightforward. Here, a few key points are..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Consuming the Services
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "WordPress Sample files | Microsoft Docs"
-author: rick-anderson
+author: SunBuild
 description: "This is a set of sample files you could use with Wordpress and the Web Deployment tool for deploying Wordpress onto IIS. The files are annotated with comment..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 WordPress Sample files
 ====================
-by Sunitha Muthukrishna
+by [Sunitha Muthukrishna](https://github.com/SunBuild)
 
 This is a set of sample files you could use with Wordpress and the Web Deployment tool for deploying Wordpress onto IIS. The files are annotated with comments that explain specific lines in the files you'll need to customize for your configuration.
 

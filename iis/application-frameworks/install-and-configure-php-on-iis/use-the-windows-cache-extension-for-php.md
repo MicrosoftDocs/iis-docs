@@ -1,6 +1,6 @@
 ---
 title: "Use the Windows Cache Extension for PHP | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "Introduction The Windows Cache Extension for PHP is a PHP accelerator that is used to significantly increase the speed of PHP applications running on the Win..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Use the Windows Cache Extension for PHP
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Introduction
 

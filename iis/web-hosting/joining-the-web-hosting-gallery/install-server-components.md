@@ -1,6 +1,6 @@
 ---
 title: "Install Server Components | Microsoft Docs"
-author: rick-anderson
+author: simtan
 description: "Introduction This article will walk you through installing the required server components to be WebMatrix compatible and fulfill the Spotlight requirements f..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Install Server Components
 ====================
-by Simon Tan
+by [Simon Tan](https://github.com/simtan)
 
 ## Introduction
 

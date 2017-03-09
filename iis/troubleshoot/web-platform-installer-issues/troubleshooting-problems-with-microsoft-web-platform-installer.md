@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Troubleshooting Problems with Microsoft Web Platform Installer
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "Testing Rewrite Rule Patterns | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "URL Rewrite Module UI for IIS 7 and above includes a tool that can be used to test the regular expression and wildcard patterns used within rewrite rules and..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Testing Rewrite Rule Patterns
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 URL Rewrite Module UI for IIS 7 and above includes a tool that can be used to test the regular expression and wildcard patterns used within rewrite rules and conditions. With this tool you can very quickly verify the correctness of the pattern; you can check how the pattern is applied to various input strings and what values are stored in back-references. Also, this tool can be used as a first step in troubleshooting of rewrite rules, by checking if the problematic URL matches the rule patterns correctly. This article explains how to use the "Test Pattern" tool.
 

@@ -1,6 +1,6 @@
 ---
 title: "DHCP Server | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "You must have a working Dynamic Host Configuration Protocol (DHCP) server with an active scope on the network because Windows Deployment Services uses Pre-Bo..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 DHCP Server
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Prerequisites
 

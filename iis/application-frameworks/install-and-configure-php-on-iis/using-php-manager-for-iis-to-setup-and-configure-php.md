@@ -1,6 +1,6 @@
 ---
 title: "Using PHP Manager for IIS to setup and configure PHP | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "From the Downloads page select the installation package that is appropriate for your target machine. Download and run the installer, which will install and r..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using PHP Manager for IIS to setup and configure PHP
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 ### Installation
 

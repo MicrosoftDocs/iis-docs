@@ -1,6 +1,6 @@
 ---
 title: "URL Rewrite Module - Video Walkthrough | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "This video demonstrates how Microsoft URL Rewrite Module for IIS 7.0 and above can be used to accomplish common URL manipulation tasks: Enabling user friendl..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: video
 ---
 URL Rewrite Module - Video Walkthrough
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 This video demonstrates how Microsoft URL Rewrite Module for IIS 7.0 and above can be used to accomplish common URL manipulation tasks: Enabling user friendly and search engine friendly URLs for dynamic web pages Enforcing canonical host names for web sites Using rewrite maps Blocking unwanted requests
 

@@ -1,6 +1,6 @@
 ---
 title: "Planning the Deployment | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "The primary focus in this phase is on selecting the appropriate deployment scenarios and methods, ensuring that the required infrastructure exists, determini..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Planning the Deployment
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

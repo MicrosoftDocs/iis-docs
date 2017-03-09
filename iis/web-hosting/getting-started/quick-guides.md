@@ -1,6 +1,6 @@
 ---
 title: "Quick Guides | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "This article is intended to provide links to Quick Guides on deployment, configuration, provisioning and managing. Sample Scripts C# and PowerShell Scripts S..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Quick Guides
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 

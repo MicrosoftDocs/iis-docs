@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough - Set Up MySQL 5.1 for PHP applications | Microsoft Docs"
-author: rick-anderson
+author: ruslany
 description: "Overview This article provides a basic step by step guide on how to install and configure MySQL on the Windows Operating System. For more detailed instructio..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Walkthrough - Set Up MySQL 5.1 for PHP applications
 ====================
-by Ruslan Yakushev
+by [Ruslan Yakushev](https://github.com/ruslany)
 
 ## Overview
 

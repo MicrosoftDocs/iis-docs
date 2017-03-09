@@ -1,6 +1,6 @@
 ---
 title: "Plan a PHP Website on IIS | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "To develop a plan for installing an IIS web server and configuring it for PHP web applications, follow these steps listed: Plan IIS Web Server and PHP Instal..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Plan a PHP Website on IIS
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 ## Overview
 

@@ -1,6 +1,6 @@
 ---
 title: "IIS 8.0 WebSocket Protocol Support | Microsoft Docs"
-author: microsoft
+author: Microsoft
 description: ""
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 IIS 8.0 WebSocket Protocol Support
 ====================
-by [Microsoft](https://github.com/microsoft)
+by [Microsoft](https://github.com/Microsoft)
 
 ## Compatibility
 

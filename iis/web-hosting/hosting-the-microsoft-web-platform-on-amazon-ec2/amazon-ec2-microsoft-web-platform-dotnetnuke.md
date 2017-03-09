@@ -1,6 +1,6 @@
 ---
 title: "Amazon EC2: Microsoft Web Platform - DotNetNuke | Microsoft Docs"
-author: rick-anderson
+author: thomasdeml
 description: "Introduction One thing we often hear from Web developers, especially those who offer Web site design and consulting services, is the need to get a Web site u..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Amazon EC2: Microsoft Web Platform - DotNetNuke
 ====================
-by Thomas Deml
+by [Thomas Deml](https://github.com/thomasdeml)
 
 ## Introduction
 

@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 ARR: Support Added for WINHTTP_OPTION_SECURITY_FLAGS
 ====================
-by Harsh Mittal
+by [Harsh Mittal](https://twitter.com/harshmittal)
 
 The ARR update KB 2693489 adds support for WINHTTP\_OPTION\_SECURITY\_FLAGS .
 

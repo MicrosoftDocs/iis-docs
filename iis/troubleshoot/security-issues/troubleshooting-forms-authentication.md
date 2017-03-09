@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting Forms Authentication | Microsoft Docs"
-author: rick-anderson
+author: apurvajo
 description: "Tools Used in this Troubleshooter: LogParser 2.2 Fiddler Microsoft Network Monitor 3.4 This material is provided for informational purposes only. Microsoft m..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Troubleshooting Forms Authentication
 ====================
-by Apurva Joshi
+by [Apurva Joshi](https://github.com/apurvajo)
 
 #### Tools Used in this Troubleshooter:
 

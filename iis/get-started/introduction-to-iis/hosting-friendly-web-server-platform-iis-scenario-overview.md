@@ -1,6 +1,6 @@
 ---
 title: "Hosting-Friendly Web Server Platform (IIS): Scenario Overview | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "The IIS web server provides a secure, easy-to-manage, modular and extensible platform for reliably hosting websites, services, and applications. The web serv..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Hosting-Friendly Web Server Platform (IIS): Scenario Overview
 ====================
-by IIS Team, Keith Newman and Robert McMurray
+by [IIS Team](https://twitter.com/inetsrv), [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 ### Compatibility
 

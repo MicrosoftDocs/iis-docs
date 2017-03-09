@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 How to Use HTTP Detailed Errors in IIS 7.0
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 ## Introduction
 

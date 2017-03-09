@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Managing Sites with IIS 7.0's WMI Provider
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 

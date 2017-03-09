@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Discover Installed Components
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 ## Introduction
 

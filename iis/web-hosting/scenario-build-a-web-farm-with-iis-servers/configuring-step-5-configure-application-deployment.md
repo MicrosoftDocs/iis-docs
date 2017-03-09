@@ -1,6 +1,6 @@
 ---
 title: "Configuring Step 5: Configure Application Deployment | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "n this step of building a web farm, you install and configure FTP for deploying website updates and new websites. You also install and configure Web Deploy f..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configuring Step 5: Configure Application Deployment
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this step of building a web farm, you install and configure FTP for deploying website updates and new websites. You also install and configure Web Deploy for deploying web applications.
 

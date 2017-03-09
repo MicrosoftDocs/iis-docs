@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Metabase Compatibility with IIS 7 and Above
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 

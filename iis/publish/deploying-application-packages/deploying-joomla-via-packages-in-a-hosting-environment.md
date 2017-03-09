@@ -1,6 +1,6 @@
 ---
 title: "Deploying Joomla! via Packages in a Hosting Environment | Microsoft Docs"
-author: rick-anderson
+author: simtan
 description: "Introduction Joomla! is an open source content management system (CMS) for publishing content to the World Wide Web and intranets. This document provides ste..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Deploying Joomla! via Packages in a Hosting Environment
 ====================
-by Simon Tan
+by [Simon Tan](https://github.com/simtan)
 
 ## Introduction
 

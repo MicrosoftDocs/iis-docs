@@ -1,6 +1,6 @@
 ---
 title: "Create Welcome E-mails | Microsoft Docs"
-author: rick-anderson
+author: crystalhoyer
 description: "As customers sign up for your hosting service, you need to provision sites/users for them on your server and then send them their server credentials. One way..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Create Welcome E-mails
 ====================
-by Crystal Hoyer
+by [Crystal Hoyer](https://github.com/crystalhoyer)
 
 ## Welcome E-mail Structure
 

@@ -1,6 +1,6 @@
 ---
 title: "Shared Hosting Configuration | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "Hosting multiple Web sites or databases on a single computer is challenging. Hosters may struggle with quality of service, site density, security, and perfor..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Shared Hosting Configuration
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 

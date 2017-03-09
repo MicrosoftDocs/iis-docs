@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting Common Problems with Web Deploy | Microsoft Docs"
-author: rick-anderson
+author: Tuesdaysgreen
 description: "This walkthrough shows how to diagnose and fix common problems with Web Deploy, including common errors seen while publishing from Visual Studio 2010. Loggin..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Troubleshooting Common Problems with Web Deploy
 ====================
-by Elliott Hamai
+by [Elliott Hamai](https://github.com/Tuesdaysgreen)
 
 This walkthrough shows how to diagnose and fix common problems with Web Deploy, including common errors seen while publishing from Visual Studio 2010.
 

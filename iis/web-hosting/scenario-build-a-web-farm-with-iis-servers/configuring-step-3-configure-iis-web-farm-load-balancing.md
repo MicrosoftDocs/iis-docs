@@ -1,6 +1,6 @@
 ---
 title: "Configuring Step 3: Configure IIS Web Farm Load Balancing | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "Now that IIS is installed all web servers. All web servers share both contend and configuration. And IIS and ARR are installed on your load balancing server...."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configuring Step 3: Configure IIS Web Farm Load Balancing
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 Now that IIS is installed all web servers. All web servers share both contend and configuration. And IIS and ARR are installed on your load balancing server. It is time to configure ARR and turn your servers into a functioning web farm.
 

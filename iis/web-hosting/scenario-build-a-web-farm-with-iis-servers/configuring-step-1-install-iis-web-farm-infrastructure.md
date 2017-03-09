@@ -1,6 +1,6 @@
 ---
 title: "Configuring Step 1: Install IIS Web Farm Infrastructure | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "The first step in installing and configuring an IIS 8 web farm is to install IIS on the web servers and load balancing server. Then install Application Reque..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configuring Step 1: Install IIS Web Farm Infrastructure
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 The first step in installing and configuring an IIS 8 web farm is to install IIS on the web servers and load balancing server. Then install Application Request Routing (ARR) on the load balancing server. Finally, set up your website on one of the web servers. The goal of this step is to get the software you need installed on your servers. You configure your web farm later in the process.
 

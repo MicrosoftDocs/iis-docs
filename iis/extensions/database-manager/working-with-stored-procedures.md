@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Working with Stored Procedures
 ====================
-by IIS Team
+by [IIS Team](https://twitter.com/inetsrv)
 
 ## Prerequisites
 

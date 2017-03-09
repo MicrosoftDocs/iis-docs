@@ -1,6 +1,6 @@
 ---
 title: "New Features Introduced in IIS 10.0 | Microsoft Docs"
-author: rick-anderson
+author: shirhatti
 description: "This article discusses several of the new features which were introduced in Internet Information Services (IIS) which shipped with Windows 10 and Windows Ser..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 New Features Introduced in IIS 10.0
 ====================
-by Sourabh Shirhatti
+by [Sourabh Shirhatti](https://github.com/shirhatti)
 
 > IIS 10.0 is the latest version of Internet Information Services (IIS) which shipped with Windows 10 and Windows Server 2016. This article describes the new functionality of IIS on Windows 10 and Windows Server 2016 and provides links to resources to learn more about these features.
 

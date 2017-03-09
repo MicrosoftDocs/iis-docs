@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Troubleshooting IIS Performance Issues or Application Errors using LogParser
 ====================
-by Benjamin Perkins
+by [Benjamin Perkins](https://twitter.com/csharpguitar)
 
 ### Tools and knowledge used in this Troubleshooter:
 

@@ -1,6 +1,6 @@
 ---
 title: "Logging and Auditing Questions | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "No. It is in the site section and only machine administrators can modify this section. You can only delegate whether to log or not. What kind of load does a..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Logging and Auditing Questions
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 #### Can you delegate "logging" to remote administrators?
 

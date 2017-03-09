@@ -1,6 +1,6 @@
 ---
 title: "Automating server setup | Microsoft Docs"
-author: rick-anderson
+author: bilalaslam
 description: "This article explains how to provision an IIS frontend server with full WebMatrix compatibility in an automated manner. It fully automates all steps describe..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Automating server setup
 ====================
-by Bilal Aslam
+by [Bilal Aslam](https://github.com/bilalaslam)
 
 ## Introduction
 

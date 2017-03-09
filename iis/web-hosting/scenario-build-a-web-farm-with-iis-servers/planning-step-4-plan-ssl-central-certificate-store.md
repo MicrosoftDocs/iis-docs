@@ -1,6 +1,6 @@
 ---
 title: "Planning Step 4: Plan SSL Central Certificate Store | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "In this phase of planning for a web farm, you add support for SSL-secured websites by configuring a central certificate store. Centralized SSL certificate su..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Planning Step 4: Plan SSL Central Certificate Store
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of planning for a web farm, you add support for SSL-secured websites by configuring a central certificate store. Centralized SSL certificate support is a new feature on IIS 8.
 

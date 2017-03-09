@@ -1,6 +1,6 @@
 ---
 title: "Separate Partitions for Improved Performance | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "On the file server, performance may be improved by separating the system and content partitions and physical hard drives. Setup The following setup is recomm..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Separate Partitions for Improved Performance
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

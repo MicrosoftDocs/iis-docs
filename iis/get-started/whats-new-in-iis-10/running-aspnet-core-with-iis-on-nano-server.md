@@ -1,6 +1,6 @@
 ---
 title: "Running Asp.Net Core with IIS on Nano Server | Microsoft Docs"
-author: rick-anderson
+author: davidso
 description: ""
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Running Asp.Net Core with IIS on Nano Server
 ====================
-by David So
+by [David So](https://github.com/davidso)
 
 This article outlines the steps required to get an ASP.Net Core application running with IIS on Nano.
 

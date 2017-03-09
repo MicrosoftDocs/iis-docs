@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 An Overview of Feature Delegation in IIS 7.0
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 

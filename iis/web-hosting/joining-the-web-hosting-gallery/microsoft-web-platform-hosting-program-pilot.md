@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Web Platform Hosting Program -Pilot | Microsoft Docs"
-author: rick-anderson
+author: walterov
 description: "As part of the Microsoft Web Platform Hosting Program, Microsoft created the Shared Hosting Guidance Content Map ; it references a set of guides, step-by-ste..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Microsoft Web Platform Hosting Program -Pilot
 ====================
-by Walter Oliver
+by [Walter Oliver](https://github.com/walterov)
 
 ## Introduction
 

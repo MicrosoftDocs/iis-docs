@@ -1,6 +1,6 @@
 ---
 title: "BlogEngine.NET | Microsoft Docs"
-author: rick-anderson
+author: simtan
 description: "Introduction BlogEngine.NET is an open source .NET blogging platform for Microsoft .NET. For more information about BlogEngine.Net, refer to the BlogEngine.N..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 BlogEngine.NET
 ====================
-by Simon Tan
+by [Simon Tan](https://github.com/simtan)
 
 ## Introduction
 

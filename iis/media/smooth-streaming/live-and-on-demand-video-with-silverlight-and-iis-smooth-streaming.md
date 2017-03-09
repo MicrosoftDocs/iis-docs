@@ -1,6 +1,6 @@
 ---
 title: "Live and On-Demand Video with Silverlight and IIS Smooth Streaming | Microsoft Docs"
-author: microsoft
+author: Microsoft
 description: "The Live and On-Demand Video with Silverlight and IIS Smooth Streaming white paper provides a high-level overview of the challenges of traditional video deli..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Live and On-Demand Video with Silverlight and IIS Smooth Streaming
 ====================
-by [Microsoft](https://github.com/microsoft)
+by [Microsoft](https://github.com/Microsoft)
 
 The [Live and On-Demand Video with Silverlight and IIS Smooth Streaming](https://download.microsoft.com/download/3/A/4/3A4A066C-6543-4BC1-A8BA-965D0E55F296/Live_and_On_Demand_Video_with_Silverlight_and%20IIS_Smooth_Streaming_FINAL.pdf "Live and On-Demand Video with Silverlight and IIS Smooth Streaming") white paper provides a high-level overview of the challenges of traditional video delivery technologies, what adaptive streaming is, and how IIS Smooth Streaming allows you to deliver a compelling, uninterrupted streaming experience to viewers regardless of their network connectivity and computer capabilities.
 

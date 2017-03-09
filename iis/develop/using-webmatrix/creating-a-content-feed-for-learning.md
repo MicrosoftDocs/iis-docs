@@ -1,6 +1,6 @@
 ---
 title: "Creating a Content Feed for Learning | Microsoft Docs"
-author: rick-anderson
+author: simtan
 description: "If you are a content/documentation provider that writes articles or creates video to help others learn web development, you can have your learning content sy..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Creating a Content Feed for Learning
 ====================
-by Simon Tan
+by [Simon Tan](https://github.com/simtan)
 
 ## Creating a Content Feed for Learning
 

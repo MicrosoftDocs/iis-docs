@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Configuration in IIS 7 and Above | Microsoft Docs"
-author: rick-anderson
+author: tobint
 description: "The configuration system in IIS 7 and above is based on distributed, clear-text, XML files that hold the configuration settings for the entire web server pla..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Getting Started with Configuration in IIS 7 and Above
 ====================
-by Tobin Titus
+by [Tobin Titus](https://github.com/tobint)
 
 ## Abstract
 

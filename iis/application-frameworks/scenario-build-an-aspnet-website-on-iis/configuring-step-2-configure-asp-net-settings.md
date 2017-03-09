@@ -1,6 +1,6 @@
 ---
 title: "Configuring Step 2: Configure ASP.NET Settings | Microsoft Docs"
-author: rick-anderson
+author: rmcmurray
 description: "In this phase of building your website, you configure the IIS server and website settings that support ASP.NET."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configuring Step 2: Configure ASP.NET Settings
 ====================
-by Keith Newman and Robert McMurray
+by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your website, you configure the following IIS server and website settings that support ASP.NET:
 

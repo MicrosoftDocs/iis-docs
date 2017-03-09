@@ -1,6 +1,6 @@
 ---
 title: "Introducing the Windows Web Application Gallery | Microsoft Docs"
-author: rick-anderson
+author: chrissfanos
 description: "The Windows Web Application Gallery makes it easy to explore, discover and install popular community ASP.Net and PHP applications on Windows. Users can brows..."
 ms.author: aspnetcontent
 manager: wpickett
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Introducing the Windows Web Application Gallery
 ====================
-by Chris Sfanos
+by [Chris Sfanos](https://github.com/chrissfanos)
 
 The [Windows Web Application Gallery](https://www.microsoft.com/web/gallery) makes it easy to explore, discover and install popular community ASP.Net and PHP applications on Windows. Users can browse and view applications for different types of Web sites, ranging from photo galleries to blogs to ecommerce sites.
 

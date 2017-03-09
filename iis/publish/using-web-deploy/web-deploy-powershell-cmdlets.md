@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Web Deploy PowerShell Cmdlets
 ====================
-by Owais Shaikh
+by [Owais Shaikh](https://twitter.com/shmparvez)
 
 Web Deploy V3.0 ships with PowerShell cmdlets for carrying out most of the tasks supported by the Web Deploy API [Microsoft.Web.Deployment]. You can read more about this API [here](https://msdn.microsoft.com/en-us/library/microsoft.web.deployment(v=VS.90).aspx). These cmdlets are in the snapin named WDeploySnapin3.0 which is installed and registered as a snapin on a typical or higher install of web deploy. To use these cmdlets either add the snapin every time the PowerShell console is started or add the snapin to the PowerShell profile which will make all consoles automatically load the snapin.
 

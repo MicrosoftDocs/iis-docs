@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Installing IIS 7.0 from the Command Line
 ====================
-by Saad Ladki
+by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
 
