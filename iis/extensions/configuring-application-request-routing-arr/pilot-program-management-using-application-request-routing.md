@@ -49,67 +49,51 @@ In this step, URL rewrite rules are changed so that only the users who have inst
 **To change the URL rewrite rules using the UI:** 
 
 1. Launch IIS Manager.
-
 2. Select the server farm, **pilotSiteServers**.
-
 3. The following icons are shown:
 
-![](pilot-program-management-using-application-request-routing/_static/image1.jpg)
-
+    ![](pilot-program-management-using-application-request-routing/_static/image1.jpg)
 4. Double-click **Routing Rules**.
-
 5. Since this scenario involves multiple server farms with conditional matching of HTTP request headers, the changes are made using the URL rewrite UI that exposes additional options. Click **URL Rewrite** under **Advanced Routing**.
 
-[![](pilot-program-management-using-application-request-routing/_static/image3.jpg)](pilot-program-management-using-application-request-routing/_static/image2.jpg)
-
-
+    [![](pilot-program-management-using-application-request-routing/_static/image3.jpg)](pilot-program-management-using-application-request-routing/_static/image2.jpg)
 6. Note that two rules have already been created, but they must be changed.
 
-[![](pilot-program-management-using-application-request-routing/_static/image6.jpg)](pilot-program-management-using-application-request-routing/_static/image5.jpg)
-
+    [![](pilot-program-management-using-application-request-routing/_static/image5.jpg)](pilot-program-management-using-application-request-routing/_static/image4.jpg)
 7. The order of the rules matter in this walkthrough. If **ARR\_productionSiteServers\_loadbalance** is above **ARR\_pilotServers\_loadbalance**, you can change the order of the rules by using **Move Up** or **Move Down** after selecting the rule.
-
 8. Select **ARR\_pilotSite\_Servers\_loadbalance**, and then click **Edit...** in the **Actions** pane.
 
-[[![](pilot-program-management-using-application-request-routing/_static/image9.jpg)](pilot-program-management-using-application-request-routing/_static/image8.jpg)](pilot-program-management-using-application-request-routing/_static/image7.jpg)
-
+    [![](pilot-program-management-using-application-request-routing/_static/image7.jpg)](pilot-program-management-using-application-request-routing/_static/image6.jpg)
 9. Clients with IE with .NET 3.5 should be specified to go to the **pilotSiteServers** server farm. Do this by adding conditions. Click **Add Conditions**, and thenclick **Add...**.
 
-[![](pilot-program-management-using-application-request-routing/_static/image11.jpg)](pilot-program-management-using-application-request-routing/_static/image10.jpg)
-
+    [![](pilot-program-management-using-application-request-routing/_static/image9.jpg)](pilot-program-management-using-application-request-routing/_static/image8.jpg)
 10. Enter **{HTTP\_USER\_AGENT}** as **Condition input** and **\*MSIE\*** as **Pattern**. This condition checks to see if the client is using IE.
 
-[![](pilot-program-management-using-application-request-routing/_static/image13.jpg)](pilot-program-management-using-application-request-routing/_static/image12.jpg)
-
+    [![](pilot-program-management-using-application-request-routing/_static/image11.jpg)](pilot-program-management-using-application-request-routing/_static/image10.jpg)
 11. Add another condition to check for the .NET version. Click **Add...**, and then enter **{HTTP\_USER\_AGENT}** as **Condition input** and **\*.NET CLR 3.5\*** as **Pattern**.
 
-[![](pilot-program-management-using-application-request-routing/_static/image15.jpg)](pilot-program-management-using-application-request-routing/_static/image14.jpg)
-
+    [![](pilot-program-management-using-application-request-routing/_static/image13.jpg)](pilot-program-management-using-application-request-routing/_static/image12.jpg)
 12. Finally, uncheck the **Stop processing of subsequent rules** checkbox, and then click **Apply** to save the changes.
 
-[![](pilot-program-management-using-application-request-routing/_static/image17.jpg)](pilot-program-management-using-application-request-routing/_static/image16.jpg)
+    [![](pilot-program-management-using-application-request-routing/_static/image15.jpg)](pilot-program-management-using-application-request-routing/_static/image14.jpg)
 
 As noted above, the order of the rules matters. This is because URL rewrite processes the rules in order when **Stop processing of subsequent rules** is unselected. So in this case, the first rule, **ARR\_pilotSiteServers\_loadbalance**, will be considered first. This rule tries to match whether the client is using IE and has .NET 3.5 installed. If so, the requests are forwarded to the **pilotSiteServers** server farm. Since the **Stop processing of subsequent rules** checkbox is unchecked, it will process the second rule, **ARR\_productionSiteServers\_loadbalance**, which will route all remaining requests to the **productionSiteServers** server farm.
 
 **To change the URL rewrite rules using the command-line:** 
 
 1. Open a command prompt with **administrator** privileges.
-
 2. Navigate to **%windir%\system32\inetsrv**.
-
 3. To change the **ARR\_pilotSiteServers\_loadbalance** rule to check for IE and .NET 3.5 in HTTP\_USER\_AGENT, enter:
 
-[!code-console[Main](pilot-program-management-using-application-request-routing/samples/sample1.cmd)]
+    [!code-console[Main](pilot-program-management-using-application-request-routing/samples/sample1.cmd)]
 
-[!code-console[Main](pilot-program-management-using-application-request-routing/samples/sample2.cmd)]
-
+    [!code-console[Main](pilot-program-management-using-application-request-routing/samples/sample2.cmd)]
 4. To unselect **Stop processing of subsequent rules** for **ARR\_pilotSiteServers\_loadbalance**, enter:
 
-[!code-console[Main](pilot-program-management-using-application-request-routing/samples/sample3.cmd)]
+    [!code-console[Main](pilot-program-management-using-application-request-routing/samples/sample3.cmd)]
 
 ## Summary
 
 You have now successfully changed the rules in URL rewrite and leveraged Application Request Routing to route only a subset of your users to the pilot site. For additional Application Request Routing properties and capabilities, refer to other Application Request Routing [walkthroughs](../planning-for-arr/using-the-application-request-routing-module.md).
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

@@ -18,8 +18,8 @@ by [Bilal Aslam](https://github.com/bilalaslam)
 
 Microsoft WebMatrix includes a feature called Publish Compatibility, which can help determine if your site is compatible with a web hosting provider. To check your site's compatibility with a web hosting provider:
 
-1. Create or open a site in WebMatrix2. Provide publish settings in the Publish Settings dialog 
-
+1. Create or open a site in WebMatrix
+2. Provide publish settings in the Publish Settings dialog
 3. Click Publish &gt; Check Compatibility... in the ribbon dropdown menu.
 
 Publish Compatibility will find out what components your site depends on, and then check if they are available on the web hosting provider. For example, if your site includes a Microsoft SQL Server database, then Publish Compatibility will verify that a Microsoft SQL Server database is available on the web hosting provider using the connection string you provided in the Publish Settings Dialog.

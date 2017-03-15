@@ -58,50 +58,37 @@ As another prerequisite, you must have defined and configured a server farm usin
 **To enable External Cache using the UI:** 
 
 1. Launch IIS Manager.
-
 2. Select the server farm that has been created for this walkthrough.
-
 3. The following icons are shown:
 
-![](using-multiple-instances-of-application-request-routing-arr-servers/_static/image3.jpg)
+    ![](using-multiple-instances-of-application-request-routing-arr-servers/_static/image3.jpg)
+- Double-click **Server Affinity**.
+- As mentioned above, External Cache is needed only if host name affinity is used and there are multiple instances of ARR. Therefore, ensure that the **Use host name** checkbox is selected.
 
-4. Double-click **Server Affinity**.
+    [![](using-multiple-instances-of-application-request-routing-arr-servers/_static/image5.jpg)](using-multiple-instances-of-application-request-routing-arr-servers/_static/image4.jpg)
+- Select the **Use external cache** checkbox to enable External Cache. The **File share path** text box is a required field, and specifies where the ARR servers will access to maintain the host name affinity state between the ARR servers.
 
-5. As mentioned above, External Cache is needed only if host name affinity is used and there are multiple instances of ARR. Therefore, ensure that the **Use host name** checkbox is selected.
-
-[![](using-multiple-instances-of-application-request-routing-arr-servers/_static/image5.jpg)](using-multiple-instances-of-application-request-routing-arr-servers/_static/image4.jpg)
-
-6. Select the **Use external cache** checkbox to enable External Cache. The **File share path** text box is a required field, and specifies where the ARR servers will access to maintain the host name affinity state between the ARR servers.
-
-[![](using-multiple-instances-of-application-request-routing-arr-servers/_static/image7.jpg)](using-multiple-instances-of-application-request-routing-arr-servers/_static/image6.jpg)
-
-7. Repeat the steps above on all ARR servers.
-
-8. To verify that the feature works, send a request with a specific host name to one of the ARR servers. Make a note of which application server this host name is affinitized to. Send the same request to the remaining ARR servers. Regardless of which ARR server is handling the requests with this host name, they all should be routed to the same application server.
-
-9. You may also want to verify the file share where the data is being written.
+    [![](using-multiple-instances-of-application-request-routing-arr-servers/_static/image7.jpg)](using-multiple-instances-of-application-request-routing-arr-servers/_static/image6.jpg)
+- Repeat the steps above on all ARR servers.
+- To verify that the feature works, send a request with a specific host name to one of the ARR servers. Make a note of which application server this host name is affinitized to. Send the same request to the remaining ARR servers. Regardless of which ARR server is handling the requests with this host name, they all should be routed to the same application server.
+- You may also want to verify the file share where the data is being written.
 
 **To enable External Cache using the command-line:** 
 
 1. Open a command prompt with administrator privileges.
-
 2. Navigate to **%windir%\system32\inetsrv**.
-
 3. To enable host name affinity, enter (the example below uses **myServerFarm** as the name of the server farm):
 
-[!code-console[Main](using-multiple-instances-of-application-request-routing-arr-servers/samples/sample1.cmd)]
-
+    [!code-console[Main](using-multiple-instances-of-application-request-routing-arr-servers/samples/sample1.cmd)]
 4. To enable and configure External Cache, enter the following script (the example below uses the same values as the ones used in the UI steps above). Enter your password in place of \*\*\*\*\*\*\*\*:
 
-[!code-console[Main](using-multiple-instances-of-application-request-routing-arr-servers/samples/sample2.cmd)]
+    [!code-console[Main](using-multiple-instances-of-application-request-routing-arr-servers/samples/sample2.cmd)]
 
+    ## Summary
 
-## Summary
+    You have now successfully enabled and configured Microsoft External Cache for IIS to be used with the host name affinity feature in Application Request Routing. For more information about achieving high availability at the ARR tier, refer to:
 
-You have now successfully enabled and configured Microsoft External Cache for IIS to be used with the host name affinity feature in Application Request Routing. For more information about achieving high availability at the ARR tier, refer to:
+    - [Achieving high availability and scalability: ARR and hardware load balancer.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer.md)
+    - [Achieving high availability and scalability: ARR and NLB.](achieving-high-availability-and-scalability-arr-and-nlb.md)
 
-- [Achieving high availability and scalability: ARR and hardware load balancer.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer.md)
-- [Achieving high availability and scalability: ARR and NLB.](achieving-high-availability-and-scalability-arr-and-nlb.md)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)
+    [Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

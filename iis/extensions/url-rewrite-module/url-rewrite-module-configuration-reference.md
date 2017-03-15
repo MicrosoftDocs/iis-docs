@@ -18,36 +18,6 @@ by [Ruslan Yakushev](https://github.com/ruslany)
 
 This article provides an overview of the URL Rewrite Module and explains the configuration concepts that are used by the module.
 
-## Table Of Contents
-
-- [Functionality Overview](url-rewrite-module-configuration-reference.md#Functionality_Overview)
-- [Rewrite Rules Overview](url-rewrite-module-configuration-reference.md#Rewrite_Rules_Overview)
-
-    - [Rewrite Rules Scope](url-rewrite-module-configuration-reference.md#Rewrite_Rules_Scope)
-    - [Rules Evaluation](url-rewrite-module-configuration-reference.md#Rules_Evaluation)
-    - [Rules Inheritance](url-rewrite-module-configuration-reference.md#Rules_Inheritance)
-    - [Preserving Original URL](url-rewrite-module-configuration-reference.md#Preserving_Original_URL)
-- [Accessing URL Parts from a Rewrite Rule](url-rewrite-module-configuration-reference.md#Accessing_URL_Parts_from_a_Rewrite_Rule)
-- [Rewrite Rule Configuration](url-rewrite-module-configuration-reference.md#Rewrite_Rule_Configuration)
-
-    - [Rule Pattern](url-rewrite-module-configuration-reference.md#Rule_Pattern)
-
-        - [Rule Pattern Syntax](url-rewrite-module-configuration-reference.md#Rule_pattern_syntax)
-        - [Rule Pattern Properties](url-rewrite-module-configuration-reference.md#Rule_pattern_properties)
-    - [Rule Conditions](url-rewrite-module-configuration-reference.md#Rule_conditions)
-    - [Rule Action](url-rewrite-module-configuration-reference.md#Rule_action)
-
-        - [Rewrite Action](url-rewrite-module-configuration-reference.md#Rewrite_action)
-        - [Redirect Action](url-rewrite-module-configuration-reference.md#Redirect_action)
-        - [CustomResponse Action](url-rewrite-module-configuration-reference.md#CustomResponse_action)
-        - [AbortRequest Action](url-rewrite-module-configuration-reference.md#AbortRequest_action)
-        - [None Action](url-rewrite-module-configuration-reference.md#None_action)
-- [Using Server Variables in Rewrite Rules](url-rewrite-module-configuration-reference.md#UsingServerVars)
-- [Using Back-references in Rewrite Rules](url-rewrite-module-configuration-reference.md#Using_back-references_in_rewrite_rules)
-- [Interaction with IIS Output Caching](url-rewrite-module-configuration-reference.md#Interaction_with_IIS_Output_Caching)
-- [String Functions](url-rewrite-module-configuration-reference.md#String_functions)
-- [Rewrite Maps](url-rewrite-module-configuration-reference.md#Rewrite_maps)
-
 <a id="Functionality_Overview"></a>
 
 ## Functionality Overview
@@ -342,13 +312,12 @@ The URL Rewrite Module controls the IIS output cache behavior in order to:
 
 The module controls output caching either by altering certain caching properties or by disabling the caching altogether. The module cannot enable output caching if it has been disabled by IIS configuration or by any other module in the IIS pipeline. The output caching is controlled as follows:
 
-**1.** The module always sets the user mode cache setting **varyByHeader**="HTTP\_X\_ORIGINAL\_URL". This ensures that when user mode caching is enabled the module takes into account the original URL to construct a key for the cache entry.
+1. The module always sets the user mode cache setting **varyByHeader**="HTTP\_X\_ORIGINAL\_URL". This ensures that when user mode caching is enabled the module takes into account the original URL to construct a key for the cache entry.
+2. If a rewrite rule set uses server variables with values that are either constant throughout the life of the process or are derived from the requested URL, the rule set is considered safe for output caching. This means that the URL Rewrite Module will not alter existing caching policy in any way other than setting **varyByHeader** as described in step 1.
 
-**2.** If a rewrite rule set uses server variables with values that are either constant throughout the life of the process or are derived from the requested URL, the rule set is considered safe for output caching. This means that the URL Rewrite Module will not alter existing caching policy in any way other than setting **varyByHeader** as described in step 1.
+    The following server variables, when used in rewrite rules, do not cause any effect on output caching policy:
 
-The following server variables, when used in rewrite rules, do not cause any effect on output caching policy:
-
-"CACHE\_URL",  
+    "CACHE\_URL",  
 "DOCUMENT\_ROOT",  
 "HTTP\_URL",  
 "HTTP\_HOST",  
@@ -369,8 +338,7 @@ The following server variables, when used in rewrite rules, do not cause any eff
 "GATEWAY\_INTERFACE",  
 "SERVER\_SOFTWARE",  
 "SSI\_EXEC\_DISABLED"
-
-**3.** If a rewrite rule set uses any server variable not mentioned in the above list, the rule set is considered unsafe for output caching. This means that the URL Rewrite Module will disable kernel mode caching for all requests whether the request URLs were rewritten or not. In addition, the module will alter the caching policy for user-mode cache by setting the caching property **varyByValue** to contain the concatenated string of all server variables values used in the rule set.
+3. If a rewrite rule set uses any server variable not mentioned in the above list, the rule set is considered unsafe for output caching. This means that the URL Rewrite Module will disable kernel mode caching for all requests whether the request URLs were rewritten or not. In addition, the module will alter the caching policy for user-mode cache by setting the caching property **varyByValue** to contain the concatenated string of all server variables values used in the rule set.
 
 <a id="String_functions"></a>
 
@@ -397,7 +365,7 @@ Where "function\_name" can be on eof the following: "ToLower", "UrlEncode", "Url
 The string functions can be used in the following locations within rewrite rules:
 
 - In condition input strings
-- In rule substitution strings, specifically:
+- In rule substitution strings, specifically: 
 
     - **url** attribute of **Rewrite** and **Redirect** actions
     - **statusLine** and **responseLine** attributes of a **CustomResponse** action
@@ -452,7 +420,7 @@ A reference to a rewrite map gets substituted with the value that was looked up 
 A Rewrite map can be referenced in the following locations within rewrite rules:
 
 - In condition input string
-- In rule substitution strings, specifically:
+- In rule substitution strings, specifically: 
 
     - **url** attribute of **Rewrite** and **Redirect** actions
     - **statusLine** and **responseLine** of **CustomResponse** actions
@@ -490,6 +458,5 @@ The requested URL **/default.aspx?tabid=2&amp;subtabid=29** will be redirected t
 The requested URL **/default.aspx?tabid=2&amp;subtabid=24** will be redirected to `http://www.contoso.com/webcasts`.  
 The requested URL **/default.aspx?tabid=7116** will be redirected to `http://www.contoso.com/php`.  
 The requested URL /**default.aspx** will not be redirected because rewrite map does not contain an element with key="/default.aspx"; therefore the rewrite map will return an empty string which will not match the condition pattern, hence rule action will not be performed.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

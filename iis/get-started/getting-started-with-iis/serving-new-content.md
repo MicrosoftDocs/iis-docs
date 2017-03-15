@@ -18,4 +18,4 @@ by [IIS Team](https://twitter.com/inetsrv)
 
 More flexible deployment options let you decide exactly how you want your Web content served by IIS. This tutorial covers creating your first Web site, Web application and Virtual Directory through the new IIS Manager user interface.
 
-[&#9654; Watch video (10 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/serving-new-content)
+[&#9654; Watch video (10 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/serving-new-content)

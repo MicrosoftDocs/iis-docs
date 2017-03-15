@@ -35,95 +35,67 @@ Note that you can run runas /user:administrator cmd.exe so that every applicatio
 
 If you are logged on to an account other than the built-in local administrator account, you may see the following security alert dialog box.
 
+[![](installing-iis-on-windows-vista-and-windows-7/_static/image2.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image1.jpg)
 
-[![](installing-iis-on-windows-vista-and-windows-7/_static/image16.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image15.jpg)
-
-###### 
-
-###### Figure 1: Windows Security (User Account Control)
+*Figure 1: Windows Security (User Account Control)*
 
 ## Install IIS 7 or Above
 
 1. To open the **Windows Features** dialog box, click **Start**, and then click **Control Panel**.
 
-[![](installing-iis-on-windows-vista-and-windows-7/_static/image20.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image19.jpg)
+    [![](installing-iis-on-windows-vista-and-windows-7/_static/image4.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image3.jpg)
 
-###### Figure 2: Windows Vista Start menu
-
+    *Figure 2: Windows Vista Start menu*
 2. In the **Control Panel**, click **Programs**.
 
+    [![](installing-iis-on-windows-vista-and-windows-7/_static/image6.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image5.jpg)
 
-[![](installing-iis-on-windows-vista-and-windows-7/_static/image24.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image23.jpg)
-
-###### 
-
-###### Figure 3: Control Panel Home
-
+    *Figure 3: Control Panel Home*
 3. Click **Turn Windows features on or off**.
 
-[![](installing-iis-on-windows-vista-and-windows-7/_static/image26.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image25.jpg)
+    [![](installing-iis-on-windows-vista-and-windows-7/_static/image8.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image7.jpg)
 
-###### Figure 4: Control Panel install options
-
+    *Figure 4: Control Panel install options*
 4. You may receive the Windows Security warning. Click **Allow** to continue. The **Windows Features** dialog box is displayed.
 
+    [![](installing-iis-on-windows-vista-and-windows-7/_static/image10.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image9.jpg)
 
-[![](installing-iis-on-windows-vista-and-windows-7/_static/image32.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image31.jpg)
-
-###### 
-
-###### Figure 5: Windows Security dialog box
-
+    *Figure 5: Windows Security dialog box*
 5. Expand **Internet Information Services**.Additional categories of IIS features are displayed. Select **Internet Information Services** to choose the default features for installation.
 
-[![](installing-iis-on-windows-vista-and-windows-7/_static/image34.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image33.jpg)
+    [![](installing-iis-on-windows-vista-and-windows-7/_static/image12.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image11.jpg)
 
-###### Figure 6: Windows Features dialog box - IIS
+    *Figure 6: Windows Features dialog box - IIS*
+6. Expand the additional categories displayed, and select any additional features you want to install, such as **Web Management Tools.** 
 
-6. Expand the additional categories displayed, and select any additional features you want to install, such as **Web Management Tools.**
+    [![](installing-iis-on-windows-vista-and-windows-7/_static/image14.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image13.jpg)
 
+    *Figure 7: Windows Features dialog box - IIS feature selection*
+7. If you are installing IIS for evaluation purposes, you may want to select additional features to install. Select the check boxes for all IIS features you want to install, and then click **OK** to start installation. 
 
-[![](installing-iis-on-windows-vista-and-windows-7/_static/image40.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image39.jpg)
+    [![](installing-iis-on-windows-vista-and-windows-7/_static/image16.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image15.jpg)
 
-###### 
-
-###### Figure 7: Windows Features dialog box - IIS feature selection
-
-7. If you are installing IIS for evaluation purposes, you may want to select additional features to install. Select the check boxes for all IIS features you want to install, and then click **OK** to start installation.
-
-
-[![](installing-iis-on-windows-vista-and-windows-7/_static/image44.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image43.jpg)
-
-###### 
-
-###### Figure 8: Windows Features dialog box - Installation selection
-
+    *Figure 8: Windows Features dialog box - Installation selection*
 8. The progress indicator appears.
 
-[![](installing-iis-on-windows-vista-and-windows-7/_static/image48.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image47.jpg)
+    [![](installing-iis-on-windows-vista-and-windows-7/_static/image18.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image17.jpg)
 
-###### Figure 9: Progress indicator
-
+    *Figure 9: Progress indicator*
 9. When the installation completes, the **Windows Features** dialog box closes, and the **Control Panel** is displayed.
 
+    [![](installing-iis-on-windows-vista-and-windows-7/_static/image20.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image19.jpg)
 
-[![](installing-iis-on-windows-vista-and-windows-7/_static/image52.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image51.jpg)
-
-###### 
-
-###### Figure 10: Control Panel Home page
-
+    *Figure 10: Control Panel Home page*
 10. IIS is now installed with a default configuration on Windows Vista or Windows 7. To confirm that the installation succeeded, type the following URL into your browser, [http://localhost](http://localhost/).
 
-[![](installing-iis-on-windows-vista-and-windows-7/_static/image54.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image53.jpg)
+    [![](installing-iis-on-windows-vista-and-windows-7/_static/image22.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image21.jpg)
 
-###### Figure 11: Default Web site
-
+    *Figure 11: Default Web site*
 11. Next, you can use Internet Information Services Manager to manage and configure IIS. To open IIS Manager, click **Start**, type *inetmgr* in the **Search Programs and Files** box, and then press ENTER.
 
-[![](installing-iis-on-windows-vista-and-windows-7/_static/image56.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image55.jpg)  
+    [![](installing-iis-on-windows-vista-and-windows-7/_static/image24.jpg)](installing-iis-on-windows-vista-and-windows-7/_static/image23.jpg)
 
-###### Figure 12: Default Web Site Home page
+    *Figure 12: Default Web Site Home page*
 
 If you want to use ASP, Microsoft® ASP.NET, or PHP, install the modules needed to host these pages; this can be done during the installation of IIS or after the installation is complete.
 
@@ -138,6 +110,5 @@ IIS can also be installed unattended on Windows Vista. For detailed instructions
 [How to install ASP.NET 1.1 with IIS7 and Abobe on Vista and Windows 2008](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008.md).
 
 [Installing IIS 7 on Vista](https://channel9.msdn.com/posts/iisguy/Installing-IIS-7-on-Vista/).
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

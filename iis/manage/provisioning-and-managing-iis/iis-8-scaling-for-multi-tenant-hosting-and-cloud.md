@@ -18,4 +18,4 @@ by Won Yoo
 
 Won Yoo reviews features in Windows Server 2012 regarding scalability, including cloud and hosting providers, multi-tenancy, and using modern hardware.
 
-[&#9654; Watch video (8 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/iis-8-scaling-for-multi-tenant-hosting-and-cloud)
+[&#9654; Watch video (8 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/iis-8-scaling-for-multi-tenant-hosting-and-cloud)

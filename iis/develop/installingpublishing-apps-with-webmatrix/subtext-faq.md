@@ -20,7 +20,7 @@ WebMatrix supports installing open source community applications from the Web Ap
 
 ## Installing and Publishing Subtext
 
-#### Q: How do I install Subtext?
+### Q: How do I install Subtext?
 
 A: To install Subtext, use the following steps:
 
@@ -30,7 +30,7 @@ A: To install Subtext, use the following steps:
 4. In any workspace, on the **Home** tab, in the **Site** group, click **Run** or press F12 to open the site in your default web browser.
 5. Follow the instructions to complete installation.
 
-#### Q: How do I publish my Subtext website?
+### Q: How do I publish my Subtext website?
 
 A: To publish a Subtext website, use the following steps:
 
@@ -43,12 +43,14 @@ A: To publish a Subtext website, use the following steps:
 
 ## Known Issues
 
-**Issue:** Subtext gives a "Server Error in '/' Application" when you download a published site  
-**Workaround #1:** Open up the site's web.config file and replace the user ID and password in the database connection string with the SQL Server administrator credentials (i.e. "sa" credentials).  
-**Workaround #2:** Give the user account you are logged in with db\_owner permissions.   
-1. Install SQL Server Management Studio using the Web Platform Installer  
-2. Connect to your local SQL server (.\SQLEXPRESS by default)  
+**Issue**: Subtext gives a "Server Error in '/' Application" when you download a published site
+
+**Workaround #1**: Open up the site's web.config file and replace the user ID and password in the database connection string with the SQL Server administrator credentials (i.e. "sa" credentials).
+
+**Workaround #2**: Give the user account you are logged in with db\_owner permissions.
+
+1. Install SQL Server Management Studio using the Web Platform Installer
+2. Connect to your local SQL server (.\SQLEXPRESS by default)
 3. Click Databases &gt; [localSubtextDatabase] &gt; Security &gt; Users &gt; [localSubtextuser - default is "subtextuser"] and right-click for properties. Check the box for "db\_owner" in the role membership section.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

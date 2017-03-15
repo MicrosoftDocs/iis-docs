@@ -57,28 +57,22 @@ Before proceeding, make sure that the static content is available on the ARR ser
 **To change URL rewrite rules using the UI:** 
 
 1. Launch IIS Manager.
-
 2. Select the server farm, **myServerFarm**, which was created in [**Define and Configure an Application Request Routing (ARR) Server Group**](define-and-configure-an-application-request-routing-server-farm.md).
-
 3. The following icons are shown:
 
-![](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image3.jpg)
-
+    ![](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image3.jpg)
 4. Double click **Routing Rules**. Type **\*.jpg** and **\*.css** in the **Requests with the following extensions are not forwarded** text box. The multiple extensions are comma (,) separated. To match the path in URL, type **\*/image/\*** in the **Requests with the following patterns are not forwarded** text box. The wildcard character (\*) is used to match any character before and after the path /image/.
 
-[![](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image6.jpg)](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image5.jpg)
-
-5 To verify that the static images are being served from the ARR server, inspect the logs. By default, the logs are in **c:\inetpub\logs\LogFiles\**. On application servers behind the ARR server, there should not be any requests that reference \*.jpg, \*.css or \*/images/\* in the log file.
+    [![](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image5.jpg)](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image4.jpg)
+5. To verify that the static images are being served from the ARR server, inspect the logs. By default, the logs are in **c:\inetpub\logs\LogFiles\**. On application servers behind the ARR server, there should not be any requests that reference \*.jpg, \*.css or \*/images/\* in the log file.
 
 **To change URL rewrite rules using the command-line:** 
 
 1. Open a command prompt with administrator privileges.
-
 2. Navigate to **%windir%\system32\inetsrv**.
+3. Clear all URL rewrite rules by entering: 
 
-3. Clear all URL rewrite rules by entering:
-
-- [!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample1.cmd)]
+    [!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample1.cmd)]
 
 To change the routing rules so that requests for resources with extensions \*.jpg and \*.css and a path that matches \*/images/\* are not forwarded to the application servers, enter:
 
@@ -94,6 +88,5 @@ To change the routing rules so that requests for resources with extensions \*.jp
 You have now successfully changed URL rewrite rules using the Application Request Routing UI to enable a 3-tier deployment architecture scenario. For additional Application Request Routing properties and capabilities, refer to the [HTTP Load Balancing using Application Request Routing (ARR)](http-load-balancing-using-application-request-routing.md) walkthrough.
 
 When ARR is used as a reverse proxy, the scenario can be further enhanced when used with URL Rewrite Version 2 which has the feature to [rewrite the response headers and entity body](../url-rewrite-module/reverse-proxy-with-url-rewrite-v2-and-application-request-routing.md).
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

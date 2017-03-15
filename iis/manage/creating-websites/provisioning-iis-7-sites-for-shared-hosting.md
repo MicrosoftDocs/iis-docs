@@ -18,11 +18,6 @@ by [Walter Oliver](https://github.com/walterov)
 
 The following articles contain recommendations for provisioning sites in shared hosting environments.
 
-- [Configuring Logging and Diagnostics](provisioning-iis-7-sites-for-shared-hosting.md#ConfigLog)
-- [Enabling a Delegated Administration User](provisioning-iis-7-sites-for-shared-hosting.md#Enabling)
-- [Isolating Sites with Application Pools](provisioning-iis-7-sites-for-shared-hosting.md#Isolating)
-- [Configuring ASP.NET Temporary Compilation Directories](provisioning-iis-7-sites-for-shared-hosting.md#ConfigASP)
-
 <a id="ConfigLog"></a>
 
 ## Configuring Logging and Diagnostics
@@ -110,7 +105,6 @@ To create and set a unique temporary compilation directory, use the following:
 1. Open a command prompt and run the following command to create a folder and set permissions:
 
 [!code-unknown[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample-127143-4.unknown)]
+2. Run the following command to set the temporary compilation directory to a site:  
 
-2. Run the following command to set the temporary compilation directory to a site:
-
-[!code-console[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample5.cmd)]
+    [!code-console[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample5.cmd)]

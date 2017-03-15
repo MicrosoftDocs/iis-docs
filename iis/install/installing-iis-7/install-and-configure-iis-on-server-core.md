@@ -35,72 +35,53 @@ With the addition of the Microsoft® .NET Framework to Server Core in Windows Se
 
 To install IIS on an installed and configured Server Core installation of Windows Server 2008, you must have an administrator user account and password for the server running the Server Core installation.
 
-1. Server Core is set up like a typical Windows Server 2008 server, except the "Server Core Installation" option is selected. The Server Core then forces a change in the administrator password.
+1. Server Core is set up like a typical Windows Server 2008 server, except the "Server Core Installation" option is selected. The Server Core then forces a change in the administrator password. 
 
-[![](install-and-configure-iis-on-server-core/_static/image3.jpg)](install-and-configure-iis-on-server-core/_static/image2.jpg)
+    [![](install-and-configure-iis-on-server-core/_static/image2.jpg)](install-and-configure-iis-on-server-core/_static/image1.jpg)
 
-###### Figure 1: Select Server Core option
-
+    *Figure 1: Select Server Core option*
 2. Next, verify the NIC and IPConfig (not necessary if there is a Dynamic Host Configuration Protocol [DHCP] server running on the network). To fix an IP address, type the following:
 
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample1.cmd)]
-
 3. To add a Domain Name System (DNS) server entry, type:
 
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample2.cmd)]
-
 4. To find the computer name, type:
 
-
 [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-3.unknown)]
-
-
-5. To change the computer name type:
+5. To change the computer name type: 
 
 [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-4.unknown)]
-
 6. Reboot with the command:
 
-
 [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-5.unknown)]
-
-
 7. To join the domain, type:
 
 [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-6.unknown)]
-
 8. Reboot with the command:
 
 [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-7.unknown)]
-
 9. To prevent a later setup error in MySQL, open an exception for MySQL:
 
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample8.cmd)]
-
 10. Reboot with the command:
 
 [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-9.unknown)]
+11. Next, activate Server Core.  
 
-11. Next, activate Server Core.
+    - Use the following command if connected to the Internet:  
 
-a. Use the following command if connected to the Internet:
+        [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-10.unknown)]
+    - If not connected to the Internet, use phone activation.   
+ Type one of the following:
 
-[!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-10.unknown)]
+        [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-11.unknown)]
 
-b. If not connected to the Internet, use phone activation.   
-Type one of the following:
+        (This displays the installation identification to be given to Microsoft.)
 
+        [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-12.unknown)]
 
-[!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-11.unknown)]
-
-
-(This displays the installation identification to be given to Microsoft.)
-
-
-[!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-12.unknown)]
-
-
-(This activates the server using the confirmation ID given by Microsoft.)
+        (This activates the server using the confirmation ID given by Microsoft.)
 
 For more information on the initial setup tasks such as managing the Windows® Firewall and configuring for automatic updates, see [Making Sense of Server Core](https://technet.microsoft.com/en-us/magazine/2009.02.geekofalltrades.aspx?pr=blog). Also see the [Server Core Installation Option Getting Started Guide](https://technet.microsoft.com/en-us/library/cc753802(WS.10).aspx).
 
@@ -143,19 +124,15 @@ See [IIS 7.0 on Server Core](../../manage/working-with-server-core/iis-70-on-ser
 
 ## Install Roles and Services
 
-1. Use the command **oclist** to list the available and installed roles and services on the server. The oclist command also renders component dependencies.
+1. Use the command **oclist** to list the available and installed roles and services on the server. The oclist command also renders component dependencies. 
 
-[![](install-and-configure-iis-on-server-core/_static/image3.gif)](install-and-configure-iis-on-server-core/_static/image2.gif)
+    [![](install-and-configure-iis-on-server-core/_static/image2.gif)](install-and-configure-iis-on-server-core/_static/image1.gif)
 
-###### Figure 2: Output of oclist command
+    *Figure 2: Output of oclist command*
 
-In the figure above, the oclist output shows that IIS-FTPExtensibility is dependent on IIS-FTPSvc. To install IIS-FTPExtensibility, it is first necessary to install IIS-FTPSvc.
-
+    In the figure above, the oclist output shows that IIS-FTPExtensibility is dependent on IIS-FTPSvc. To install IIS-FTPExtensibility, it is first necessary to install IIS-FTPSvc.
 2. Use the **ocsetup** command to install and uninstall individual roles and services.
-
 3. Next,run **oclist | more** to verify which IIS components have been installed.
-
-### 
 
 ### Install the .NET Framework
 
@@ -165,49 +142,35 @@ If you plan to use ASP.NET or IIS Remote Management then it is necessary to inst
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample16.cmd)]
 
 
-### 
-
 ### Install ASP.NET
 
 1. Install ASP.NET by running the following commands (in order):
 
-
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample17.cmd)]
-
-
-### 
 
 ### Install Windows PowerShell and IIS Snap-In
 
-1. Install Windows PowerShell by running the following command:
+1. Install Windows PowerShell by running the following command:  
 
-[!code-console[Main](install-and-configure-iis-on-server-core/samples/sample18.cmd)]
-
+    [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample18.cmd)]
 2. Next, start Windows PowerShell with the following command:
 
-[!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-19.unknown)]
+    [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-19.unknown)]
 
-You should see a PowerShell prompt.
-
+    You should see a PowerShell prompt.
 3. In order to enable the IIS snap-in, you must change the script execution policy by running this command:
 
-
 [!code-powershell[Main](install-and-configure-iis-on-server-core/samples/sample20.ps1)]
-
-
 4. Restart PowerShell for the policy changes to take effect. After restarting PowerShell, import the IIS snap-in:
 
-[!code-powershell[Main](install-and-configure-iis-on-server-core/samples/sample21.ps1)]
-
+    [!code-powershell[Main](install-and-configure-iis-on-server-core/samples/sample21.ps1)]
 5. You can obtain the list of available IIS cmdlets by typing:
 
-[!code-powershell[Main](install-and-configure-iis-on-server-core/samples/sample22.ps1)]
+    [!code-powershell[Main](install-and-configure-iis-on-server-core/samples/sample22.ps1)]
 
 Refer to [Managing IIS with IIS 7.0 PowerShell Snap-in](../../manage/powershell/index.md) and [Managing IIS with the IIS 7.0 PowerShell Snap-in](../../manage/powershell/index.md) for more information.
 
 For information about Windows PowerShell on Server Core, see [Dmitry's PowerBlog: PowerShell and Beyond](http://dmitrysotnikov.wordpress.com/2008/05/15/powershell-on-server-core/).
-
-### 
 
 ### Enable IIS Remote Management
 
@@ -229,15 +192,12 @@ For more information, see [IIS Manager for Remote Administration](https://www.ii
 1. By default, Remote Desktop is not enabled on the Server Core. Install the IIS remote management service by using the following command:
 
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample23.cmd)]
-
 2. Enable remote management with the following command:
 
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample24.cmd)]
-
 3. Start the management service by typing:
 
 [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample25.cmd)]
-
 4. Connect to the IIS on the Server Core from a remote machine by using [IIS Manager for Remote Administration](https://www.iis.net/downloads?tabid=34&g=6&i=1626 "IIS Remote Manager").
 
 To uninstall the Web Server (IIS) role, use the following command:
@@ -255,6 +215,5 @@ To uninstall the Web Server (IIS) role, use the following command:
 [Server Core Installation Option Getting Started Guide](https://technet.microsoft.com/en-us/library/cc753802(WS.10).aspx).
 
 [Administering IIS7 on Server Core Installations of Windows Server 2008](https://blogs.iis.net/metegokt/archive/2007/06/26/administering-iis7-on-server-core-installations-of-windows-server-2008.aspx).
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

@@ -26,9 +26,7 @@ The database providers for the Web Deployment Tool (WebDeploy) give application 
 The WebDeploy database providers give the application developer the ability to perform whatever database functions are required prior to the application's first run. There are three WebDeploy components involved in specifying database installation directives.
 
 1. The provider directive in the manifest.xml file. This directive tells WebDeploy which database provider to use, and what file to use for the script.
-
 2. The connection string in the parameters.xml file. This tells Web Deploy what credentials to use, and what database and server to connect to.
-
 3. The SQL Script. This is a standalone file that can contain any valid database commands for the specific database engine you are using. We recommend using separate script files for different SQL transactions to isolate any SQL script errors.
 
 A minimal provider directive identifies the provider to use and the SQL file for the provide to use :
@@ -53,15 +51,11 @@ The SQL Script can be any valid SQL or commands that the database engine will ac
 The providers will follow these steps in communicating with a database:
 
 1. Connect to the database server.
-
 2. Authenticate as the database user.
+3. Check to see if the database exists, and if the user has access to it. 
 
-3. Check to see if the database exists, and if the user has access to it.
-
-1. If the database does not exist, WebDeploy will attempt to create it using the provided credentials.
-
-2. If the database creation fails, then WebDeploy will exit with a message telling the user that the user does not have sufficient privileges for the required tasks.
-
+    - If the database does not exist, WebDeploy will attempt to create it using the provided credentials.
+    - If the database creation fails, then WebDeploy will exit with a message telling the user that the user does not have sufficient privileges for the required tasks.
 4. Execute the contents of all the database scripts in the package.
 
 **Common Scenarios**
@@ -85,9 +79,7 @@ In a dev environment, the user can be expected to have full control over the dat
 WebDeploy packages which are part of the Application Gallery can be installed by one of the methods below, each of which will provide a slightly different experience for users. As you design your package, you should keep each of these methods in mind such that your package will work with any of them.
 
 1. Using the [Web Platform Installer (WebPI)](https://www.microsoft.com/web/downloads/platform.aspx). When a package is installed with the WebPI, the WebPI's user interface adapts to the database requirements of the package. The WebPI will look at the tags on database oriented parameters, and the providers specified in the manifest.xml file. If more than one database engine is available for the application, the WebPI will ask the user to specify which database to use. The parameter setting screen will then only show the parameters that are relevant for that database. The WebPI will ask the user if the user wants to use an existing database, or create one. The user will only be asked for database administrative credentials if they are needed to create a new database.
-
 2. Using WebDeploy locally. You may choose to make your WebDeploy package available to users outside of the WebPI. Users could then download the package and use the IIS Manager to install the application. The WebDeploy UI will ask the user to select from multiple databases if relevant. The user will be asked to provide all parameters specified for that database, including the administrative credentials. When designing your script, you should think about how the script would run if run by a regular user instead of an administrative user.
-
 3. Using a third-party control panel. We have provided documentation on the way we use the parameter tags to all of our partners who are working on control panels to integrate with the Gallery. How they choose to implement their user interfaces is up to their discretion, and is dependent on their existing models. In some cases, the UI will behave like either of the examples above. Control panel vendors may choose to expose or hide any portion of the parameterization they want. It is important to make sure you use the specified tags, as these control panel vendors will be looking for them to help them build their UIs.
 
 **SQL Specifics**
@@ -142,6 +134,5 @@ The create user script we use can be parameterized as well. We do recommend para
 - [SQL Azure Limitations](https://msdn.microsoft.com/en-us/library/windowsazure/ff394102.aspx)
 - [Migrating to SQL Azure](https://blogs.msdn.com/b/ssdt/archive/2012/04/19/migrating-a-database-to-sql-azure-using-ssdt.aspx)
 - [MySQL documentation](http://dev.mysql.com/doc/refman/5.1/en/stored-programs-defining.html)
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1158.aspx)

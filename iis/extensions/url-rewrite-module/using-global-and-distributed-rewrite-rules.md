@@ -40,20 +40,17 @@ To demonstrate how to use global and local rules, we will implement a common sce
 To set up the scenario perform the following steps:
 
 1. Create two folders called "blog" and "forum" in %SystemDrive%\inetpub\wwwroot\ folder.
+2. Copy the following asp.net code and put it in the %SystemDrive%\inetpub\wwwroot\blog folder in a file called article.aspx:  
 
-2. Copy the following asp.net code and put it in the %SystemDrive%\inetpub\wwwroot\blog folder in a file called article.aspx:
+    [!code-aspx[Main](using-global-and-distributed-rewrite-rules/samples/sample1.aspx)]
+3. Copy the following asp.net code and place it in the %SystemDrive%\inetpub\wwwroot\forum folder in a file called forum.aspx:  
 
-[!code-aspx[Main](using-global-and-distributed-rewrite-rules/samples/sample1.aspx)]
+    [!code-aspx[Main](using-global-and-distributed-rewrite-rules/samples/sample2.aspx)]
+4. Open the file called "hosts", located at %SystemDrive%\windows\system32\drivers\etc\ and add the following two lines at the of it:  
 
-3. Copy the following asp.net code and place it in the %SystemDrive%\inetpub\wwwroot\forum folder in a file called forum.aspx:
+    [!code-unknown[Main](using-global-and-distributed-rewrite-rules/samples/sample-127325-3.unknown)]
 
-[!code-aspx[Main](using-global-and-distributed-rewrite-rules/samples/sample2.aspx)]
-
-4. Open the file called "hosts", located at %SystemDrive%\windows\system32\drivers\etc\ and add the following two lines at the of it:
-
-[!code-unknown[Main](using-global-and-distributed-rewrite-rules/samples/sample-127325-3.unknown)]
-
-After adding these lines open a web browser and brows to http://blog\_localhost/blog/article.aspx and to http://forum\_localhost/forum/forum.aspx and verify that the pages were rendered correctly in a browser.
+    After adding these lines open a web browser and brows to http://blog\_localhost/blog/article.aspx and to http://forum\_localhost/forum/forum.aspx and verify that the pages were rendered correctly in a browser.
 
 ## Creating a global rewrite rule
 
@@ -124,8 +121,7 @@ Leave default values for all other settings. The "Edit Rule" UI should look as t
    
 Save the rule by clicking "Apply" action on the right hand side.
 
-To understand how this rule will be applied let's walk through the steps that are performed by URL rewrite module when HTTP client requests this URL:   
-`http://blog_localhost/article.aspx?id=323`:
+To understand how this rule will be applied let's walk through the steps that are performed by URL rewrite module when HTTP client requests this URL: `http://blog_localhost/article.aspx?id=323`:
 
 1. URL rewrite module passes "article.aspx?id=323" as an input URL to the rule, successfully matches it against the rule pattern and captures it in a rule back-reference {R:1}
 2. The host header value ("blog\_localhost") is successfully matched with regular expression "^([^\_]+)\_[^\_]+" and as a result "blog" is captured in a condition back-reference {C:1}
@@ -153,13 +149,12 @@ Local rules can be created by using either IIS Manager or by editing web.config 
 
 To create distributed rewrite rules:
 
-1. Create an empty web.config file in %SystemDrive%\inetpub\wwwroot\**blog** folder. Open it in text editor and then paste the following XML code into it:
+1. Create an empty web.config file in %SystemDrive%\inetpub\wwwroot\**blog** folder. Open it in text editor and then paste the following XML code into it:  
 
-[!code-xml[Main](using-global-and-distributed-rewrite-rules/samples/sample6.xml)]
+    [!code-xml[Main](using-global-and-distributed-rewrite-rules/samples/sample6.xml)]
+2. Create an empty web.config file in %SystemDrive%\inetpub\wwwroot\**forum** folder. Open it in text editor and then paste the following XML code into it:  
 
-2. Create an empty web.config file in %SystemDrive%\inetpub\wwwroot\**forum** folder. Open it in text editor and then paste the following XML code into it:
-
-[!code-xml[Main](using-global-and-distributed-rewrite-rules/samples/sample7.xml)]
+    [!code-xml[Main](using-global-and-distributed-rewrite-rules/samples/sample7.xml)]
 
 ## Testing both global and distributed rules
 
@@ -172,6 +167,5 @@ Similarly, if you request `http://forum_localhost/topic/123/some-topic-title`, y
 ## Summary
 
 In this tutorial you have implemented a sub-domain mapping scenario by using global rule, and then used distributed rules to enable user friendly URL's for web pages in those folders.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

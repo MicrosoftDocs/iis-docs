@@ -27,31 +27,23 @@ The recommendation for isolating Web sites in a shared hosting environment is co
 
 An architectural view of application pools appears in the figure that follows.
 
+[![](ensure-security-isolation-for-web-sites/_static/image2.jpg)](ensure-security-isolation-for-web-sites/_static/image1.jpg)
 
-[![](ensure-security-isolation-for-web-sites/_static/image3.jpg)](ensure-security-isolation-for-web-sites/_static/image2.jpg)
-
-###### 
-
-###### Figure 1: Application pools
+*Figure 1: Application pools*
 
 ## Create Application Pools
 
 You can create application pools from the UI or the command line.
 
 1. From the **IIS Manager**, navigate to the **Connections** pane.
-
-2. Choose the **Application Pools** option, and then choose **Add Application Pool** to open the Add Application Pooldialog box.
-
+2. Choose the **Application Pools** option, and then choose **Add Application Pool** to open the Add Application Pool dialog box.
 3. Enter a unique name for the application pool.
-
 4. Choose the version, if any, of the Microsoft® .NET Framework for the application pool to use, and then choose your pipeline mode.
 
 Once a pool is created, you can change its settings whenever necessary.
 
 1. From the **Connections** pane, choose **Application Pools**.
-
 2. In the **Work** pane, choose the application pool you would like to configure.
-
 3. From the **Actions** pane, choose **Basic Settings**. Note that with the exception of the dialog box title, the Basic Settingsdialog box and the Add Application Pooldialog boxes look identical.
 
 You can also use the command line. Use:
@@ -62,19 +54,19 @@ You can also use the command line. Use:
 
 Note that string is the name of the application pool.
 
-The Edit Application Pooldialog box lets you configure how IIS 7 and above handles worker process recycling for the application pool.
+The Edit Application Pool dialog box lets you configure how IIS 7 and above handles worker process recycling for the application pool.
 
-[![](ensure-security-isolation-for-web-sites/_static/image5.jpg)](ensure-security-isolation-for-web-sites/_static/image4.jpg)
+[![](ensure-security-isolation-for-web-sites/_static/image4.jpg)](ensure-security-isolation-for-web-sites/_static/image3.jpg)
 
-###### Figure 2: Edit Application Pool
+*Figure 2: Edit Application Pool*
 
 ## Application Pool Identities
 
 Application Pool Identities is a new security features that lets you run application pools under a unique account without having to create and manage domain or local accounts. The name of the application pool account corresponds to the name of the application pool. The figure that follows shows an IIS worker process (w3wp.exe) running as the DefaultAppPool identity.
 
-[[![](ensure-security-isolation-for-web-sites/_static/image4.gif)](ensure-security-isolation-for-web-sites/_static/image3.gif)](ensure-security-isolation-for-web-sites/_static/image1.png)
+[![](ensure-security-isolation-for-web-sites/_static/image2.gif)](ensure-security-isolation-for-web-sites/_static/image1.gif)
 
-###### Figure 3: Application Pool Identity Accounts
+*Figure 3: Application Pool Identity Accounts*
 
 ## Application Pool Identity Accounts
 
@@ -87,26 +79,19 @@ Whenever a new application pool is created, the IIS management process creates a
 Try selecting a file in Windows Explorer® and adding the "DefaultAppPool" identity to its Access Control List (ACL):
 
 1. Start **Windows Explorer**.
-
 2. Select a *file* or *directory*.
-
 3. Right-click on the *file name*, and then click **Properties**.
-
 4. Click the **Security** tab.
-
 5. Click **Edit**, and then click **Add**.
-
 6. Click **Locations**, and select *your computer*.
-
 7. In the **Enter the object names to select** text box, type **iis apppool\defaultapppool**
-
 8. Click **Check Names**, and then click **OK**.
 
 The file or directory you selected now also allows the DefaultAppPool identity access.
 
-[[![](ensure-security-isolation-for-web-sites/_static/image7.jpg)](ensure-security-isolation-for-web-sites/_static/image6.jpg)](ensure-security-isolation-for-web-sites/_static/image3.png)
+[![](ensure-security-isolation-for-web-sites/_static/image6.jpg)](ensure-security-isolation-for-web-sites/_static/image5.jpg)
 
-###### Figure 4: Select Users or Groups
+*Figure 4: Select Users or Groups*
 
 You can also use the command line with the Icacls.exe tool. The following gives full access to the DefaultAppPool identity:
 
@@ -157,19 +142,14 @@ You can use the Icacls.exe tool to identify the SID applied to any given applica
 A user can use the application pool SID to ACL their contents and secure their Web site. This is useful for Web hosters who need to accept content from various external sources.
 
 1. Configure each Web site (or Web application) to run in its own Web application pool.
-
 2. Configure anonymous authentication to use the application pool identity, rather than the Industry Usability Reporting (IUSR) account by editing the Anonymous Authentication properties.
-
 3. Remove NTFS permissions for the IUSRS group and the IUSR account from the Web site's files and folders.
-
 4. Use the Icacls.exe tool to give the application pool's SID "read" (and optionally "execute" and "write") access to the Web site's files and folders. You can use IIS APPPOOL\ApplicationPoolName as the user to grant read permissions.
 
 After configuring the NTFS permissions, only the SID that has been injected into a particular w3wp.exe process will be able to read the contents of the Web site. All code running in other w3wp.exe processes (even if running with the same identity) will not be able to access this Web site's content.
 
-
 > [!NOTE]
 > *This article is based on material from "*[Application Pool Identities](application-pool-identities.md)"*written by the IIS Team and published on May 27, 2009**.*
-
 
 ## Links for Further Information
 
@@ -178,6 +158,5 @@ After configuring the NTFS permissions, only the SID that has been injected into
 [Create an Application Pool (IIS 7)](https://technet.microsoft.com/en-us/library/cc731784.aspx).
 
 [Managing Application Pools in IIS 7](https://technet.microsoft.com/en-us/library/cc753449(WS.10).aspx).
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

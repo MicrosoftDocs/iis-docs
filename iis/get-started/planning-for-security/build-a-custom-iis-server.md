@@ -97,27 +97,19 @@ A good example of a module is the compression module. The compression module loo
 
 ## Examination of the Server Footprint
 
-> 1. Open Internet Explorer, and make a request to the server by specifying the following URL and pressing Enter:
-
+1. Open Internet Explorer, and make a request to the server by specifying the following URL and pressing Enter:
 
 [!code-console[Main](build-a-custom-iis-server/samples/sample8.cmd)]
 
+    This starts the server application pool, and serves the iisstart.htm document.
+- Start Task Manager, and go to the Processes tab. Because the IIS worker process runs under a different user account, you must check "Show processes for all users". Note the size of the w3wp.exe server worker process.[![](build-a-custom-iis-server/_static/image2.jpg)](build-a-custom-iis-server/_static/image1.jpg)
 
-This starts the server application pool, and serves the iisstart.htm document.
+    *Figure 1: Task Manager showing the IIS Worker Process*
+- Now execute the following command-line:
 
-> 2. Start Task Manager, and go to the Processes tab. Because the IIS worker process runs under a different user account, you must check "Show processes for all users". Note the size of the w3wp.exe server worker process.
+    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-9.unknown)]
 
-
-[![](build-a-custom-iis-server/_static/image2.jpg)](build-a-custom-iis-server/_static/image1.jpg)
-
-**Figure 1: Task Manager showing the IIS Worker Process**
-
-> 3. Now execute the following command-line:
-
-
-[!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-9.unknown)]
-
-We see that more than 90 DLLs are loaded by the worker process. Most of them are located in the …\intersrv\ directory – many of these are module DLLs that we saw in the first task when looking at the &lt;globalModules&gt; section, and a few others that support the .NET framework and the server runtime itself.
+    We see that more than 90 DLLs are loaded by the worker process. Most of them are located in the …\intersrv\ directory – many of these are module DLLs that we saw in the first task when looking at the &lt;globalModules&gt; section, and a few others that support the .NET framework and the server runtime itself.
 
 <a id="Stripping"></a>
 
@@ -131,45 +123,31 @@ If we changed the applicationHost.config file during the previous task, we can r
 
 Now to strip down the server.
 
-> 1. Use a text editor to open **%windir%\system32\inetsrv\config\applicationHost.config**.
+1. Use a text editor to open **%windir%\system32\inetsrv\config\applicationHost.config**.
+2. Navigate to the **&lt;system.webServer&gt;/&lt;globalModules&gt;** section.
+3. Remove all of the entries in the collection, so that only an empty section definition remains:  
 
-
-> 2. Navigate to the **&lt;system.webServer&gt;/&lt;globalModules&gt;** section.
-> 
-> 3. Remove all of the entries in the collection, so that only an empty section definition remains:
-
-
-> [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-10.unknown)]
->   
-> 4. Paste the items into a scratch notepad window for use later. Repeat the same with the &lt;system.webServer&gt;/&lt;modules&gt; section. Remove all of the entries under this section and paste them into a scratch notepad for later use. This ensures we are not enabling any modules we no longer load. Paste these cut items into a scratch notepad window for use later.
-
-
-> 5. Repeat the same with the **&lt;system.webServer&gt;/&lt;handlers&gt;** section. Remove all of the entries under this section, to make sure we are not specifying any handler mappings with modules we disabled. Paste the items into a scratch notepad for later use. Save the applicationHost.config file to effect the changes.
-
+    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-10.unknown)]
+4. Paste the items into a scratch notepad window for use later. Repeat the same with the &lt;system.webServer&gt;/&lt;modules&gt; section. Remove all of the entries under this section and paste them into a scratch notepad for later use. This ensures we are not enabling any modules we no longer load. Paste these cut items into a scratch notepad window for use later.
+5. Repeat the same with the **&lt;system.webServer&gt;/&lt;handlers&gt;** section. Remove all of the entries under this section, to make sure we are not specifying any handler mappings with modules we disabled. Paste the items into a scratch notepad for later use. Save the applicationHost.config file to effect the changes.
 
 ### Examine the Stripped Down Server Footprint
 
 At this point, we are ready to load our stripped down server – we will repeat the previous steps to examine the new footprint of the server.
 
-> 1. Open Internet Explorer, and make a request to the server by specifying the following URL and pressing Enter:
+1. Open Internet Explorer, and make a request to the server by specifying the following URL and pressing Enter:  
 
+    [!code-console[Main](build-a-custom-iis-server/samples/sample11.cmd)]
 
-[!code-console[Main](build-a-custom-iis-server/samples/sample11.cmd)]
+    This should start the server application pool, and return an error to the browser because no handler is registered to serve the resource you requested.
+2. Run Task Manager, and go to the Processes tab. Note the size of the w3wp.exe server worker process.
+3. Execute the following command-line:  
 
+    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-12.unknown)]
 
-This should start the server application pool, and return an error to the browser because no handler is registered to serve the resource you requested.
+    Observe that the footprint of the server has been reduced to about 8Mb. In the server timeframe, the footprint of the empty server will be further reduced.
 
-> 2. Run Task Manager, and go to the Processes tab. Note the size of the w3wp.exe server worker process.
-
-
-> 3. Execute the following command-line:
-
-
-[!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-12.unknown)]
-
-Observe that the footprint of the server has been reduced to about 8Mb. In the server timeframe, the footprint of the empty server will be further reduced.
-
-Only 50 DLLs are loaded, as compared to 90 or more – this indicates that the server did not load any of the module DLLs, which directly and indirectly accounted for the DLL count difference. Not only are the services disabled on the server, but also no code for these features is even loaded in the process. After optimization, the DLL count of the empty server will be significantly lower.
+    Only 50 DLLs are loaded, as compared to 90 or more – this indicates that the server did not load any of the module DLLs, which directly and indirectly accounted for the DLL count difference. Not only are the services disabled on the server, but also no code for these features is even loaded in the process. After optimization, the DLL count of the empty server will be significantly lower.
 
 In the next task, we will build the custom server with only the features we want.
 
@@ -187,70 +165,43 @@ In the previous task, we stripped down the server to the minimal configuration, 
 
 To perform this task, it is assumed that we have followed the previous task and stripped down the server by removing all of the modules it was running. In this state, the server always returns empty 401 error responses to all requests, as no modules are loaded to provide any kind of request processing at all.
 
-> 1. Use a text editor to open **%windir%\system32\inetsrv\config\applicationHost.config.**
+1. Use a text editor to open **%windir%\system32\inetsrv\config\applicationHost.config.**
+2. Navigate to the &lt;system.webServer&gt;/&lt;globalModules&gt; section. Add the 2 lines in bold below inside the collection – copy it from the scratch pad used earlier to save the default collection items. This loads the static file handler module, which is responsible for serving requests for static files, and the anonymous authentication module, which produces a default authentication token for the request:  
 
+    [!code-xml[Main](build-a-custom-iis-server/samples/sample13.xml)]
+3. Navigate to the &lt;system.webServer&gt;/&lt;modules&gt; section. Enable the static file handler and anonymous authentication modes by adding the line in bold below:  
 
-> 2. Navigate to the &lt;system.webServer&gt;/&lt;globalModules&gt; section. Add the 2 lines in bold below inside the collection – copy it from the scratch pad used earlier to save the default collection items. This loads the static file handler module, which is responsible for serving requests for static files, and the anonymous authentication module, which produces a default authentication token for the request:
+    [!code-xml[Main](build-a-custom-iis-server/samples/sample14.xml)]
+4. Navigate to the &lt;system.webServer&gt;/&lt;handlers&gt; section. Map the static file handler to all file requests by adding the line in bold below:  
 
+    [!code-xml[Main](build-a-custom-iis-server/samples/sample15.xml)]
+5. Save the applicationHost.config file.
+6. Open Internet Explorer, and make a request to the following URL:  
 
-[!code-xml[Main](build-a-custom-iis-server/samples/sample13.xml)]
+    [!code-console[Main](build-a-custom-iis-server/samples/sample16.cmd)]
 
-> 3. Navigate to the &lt;system.webServer&gt;/&lt;modules&gt; section. Enable the static file handler and anonymous authentication modes by adding the line in bold below:
+    This serves the requested document. We have successfully enabled the static file serving capability on the server.
+7. Next, request the directory listing by making a request to the following URL:  
 
+    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-17.unknown)]
 
-[!code-xml[Main](build-a-custom-iis-server/samples/sample14.xml)]
-
-> 4. Navigate to the &lt;system.webServer&gt;/&lt;handlers&gt; section. Map the static file handler to all file requests by adding the line in bold below:
-
-
-[!code-xml[Main](build-a-custom-iis-server/samples/sample15.xml)]
-
-> 5. Save the applicationHost.config file.
-
-
-> 6. Open Internet Explorer, and make a request to the following URL:
-
-
-[!code-console[Main](build-a-custom-iis-server/samples/sample16.cmd)]
-
-
-This serves the requested document. We have successfully enabled the static file serving capability on the server.
-
-> 6. Next, request the directory listing by making a request to the following URL:
-
-
-[!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-17.unknown)]
-
-
-We get an empty response because no handler is currently loaded, enabled, and mapped to process directory listings--an empty response is sent (200 OK). In the next task, we will add the handler.
+    We get an empty response because no handler is currently loaded, enabled, and mapped to process directory listings--an empty response is sent (200 OK). In the next task, we will add the handler.
 
 ### Enable the Server to Provide Directory Listings
 
 To perform this task, it is assumed that we have performed the previous tasks, stripped the server down to nothing, and added the file serving capability.
 
-> 1. Use a text editor to open %windir%\system32\inetsrv\config\applicationHost.config.
+1. Use a text editor to open %windir%\system32\inetsrv\config\applicationHost.config.
+2. As before, add the configuration below to enable the directory browsing module, and map it to serve directory requests (the cumulative configuration will look exactly as specified below after this step, building on top of the previous step):  
 
+    [!code-xml[Main](build-a-custom-iis-server/samples/sample18.xml)]
 
-> 2. As before, add the configuration below to enable the directory browsing module, and map it to serve directory requests (the cumulative configuration will look exactly as specified below after this step, building on top of the previous step):
-
-
-[!code-xml[Main](build-a-custom-iis-server/samples/sample18.xml)]
-
-At this point, we have enabled the directory listing feature on the server. However, the feature exposes additional configuration for security reasons that controls whether or not directory listing is allowed. This configuration is specified in the &lt;system.webServer&gt;/&lt;directoryBrowse&gt; section.
-
-> 3. Change the entry to
-
-
-&lt;directoryBrowse enabled="true" /&gt;
-
-> 4. Save the applicationHost.config file.
-
-
-> 5. Open Internet Explorer, and repeat the request to the directory by requesting the following URL:
-
+    At this point, we have enabled the directory listing feature on the server. However, the feature exposes additional configuration for security reasons that controls whether or not directory listing is allowed. This configuration is specified in the &lt;system.webServer&gt;/&lt;directoryBrowse&gt; section.
+3. Change the entry to &lt;directoryBrowse enabled="true" /&gt;
+4. Save the applicationHost.config file.
+5. Open Internet Explorer, and repeat the request to the directory by requesting the following URL: 
 
 [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-19.unknown)]
-
 
 This serves the listing of the requested directory. We have successfully enabled the directory listing capability on the server.
 
@@ -260,54 +211,35 @@ Next, we add the authentication and authorization services to protect the conten
 
 To perform this task, it is assumed that we have followed the previous tasks, stripped the server down to nothing, and added the file serving and directory listing capability.
 
-> 1. Use a text editor to open %windir%\system32\inetsrv\config\applicationHost.config.
+1. Use a text editor to open %windir%\system32\inetsrv\config\applicationHost.config.
+2. This time, we add two modules:  
 
-
-> 2. This time, we add two modules:
-
-
-- - The basic authentication module, which supports the basic authentication scheme over http1.1 against the server Windows credentials
+    - The basic authentication module, which supports the basic authentication scheme over http1.1 against the server Windows credentials
     - The URL authorization module, which supports user and role rule based access control
+3. To add these modules, add the module load entries to the &lt;system.webServer&gt;/&lt;globalModules&gt; section, and then enable the modules in the &lt;system.webServer&gt;/&lt;modules&gt; section, as we did earlier for the static file handler and directory browser.  
 
-> 3. To add these modules, add the module load entries to the &lt;system.webServer&gt;/&lt;globalModules&gt; section, and then enable the modules in the &lt;system.webServer&gt;/&lt;modules&gt; section, as we did earlier for the static file handler and directory browser.
-> 
-> [!NOTE]
-> This time we do not need to add anything to the &lt;system.webServer&gt;/&lt;handlers&gt; section, because these modules do not provide request handling – they only provide request services to all requests. Your final configuration after adding the below items in bold will look like this:
+    > [!NOTE]
+    > This time we do not need to add anything to the &lt;system.webServer&gt;/&lt;handlers&gt; section, because these modules do not provide request handling – they only provide request services to all requests. Your final configuration after adding the below items in bold will look like this:
 
+    [!code-xml[Main](build-a-custom-iis-server/samples/sample20.xml)]
 
-[!code-xml[Main](build-a-custom-iis-server/samples/sample20.xml)]
+    In order to use the added features, we need to configure them.
+4. Enable the Basic Authentication service. Navigate to the &lt;basicAuthentication&gt; element, and set the enabled attribute to true:  
 
+    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-21.unknown)]
+5. Disable anonymous authentication. Navigate to the &lt;anonymousAuthentication&gt; element, and set the enabled attribute to false:  
 
-In order to use the added features, we need to configure them.
+    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-22.unknown)]
 
-> 4. Enable the Basic Authentication service. Navigate to the &lt;basicAuthentication&gt; element, and set the enabled attribute to true:
+    This disables anonymous authentication, and requires the basic authentication module to successfully authenticate the user before access will be granted.
+6. Save the applicationHost.config file.
+7. Open Internet Explorer, and repeat the request to the directory by requesting the following URL:  
 
+    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-23.unknown)]
 
-[!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-21.unknown)]
-
-> 5. Disable anonymous authentication. Navigate to the &lt;anonymousAuthentication&gt; element, and set the enabled attribute to false:
-
-
-[!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-22.unknown)]
-
-This disables anonymous authentication, and requires the basic authentication module to successfully authenticate the user before access will be granted.
-
-> 7. Save the applicationHost.config file.
-
-
-> 8. Open Internet Explorer, and repeat the request to the directory by requesting the following URL:
-
-
-[!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-23.unknown)]
-
-
-This requests a directory listing. Because the browser has not authenticated us, the URL authorization module rejects the request. The basic authentication module intercepts the rejection, and triggers a basic authentication challenge back to the browser, causing the browser to display the basic authentication login dialog.
-
-> 9. Log in with invalid credentials. The request is rejected, with a request prompting for credentials again.
-
-
-> 10. Log in with the Administrator account that you used to log into the machine. The directory listing displays, indicating that you have successfully added authentication and authorization capabilities to the server.
-
+    This requests a directory listing. Because the browser has not authenticated us, the URL authorization module rejects the request. The basic authentication module intercepts the rejection, and triggers a basic authentication challenge back to the browser, causing the browser to display the basic authentication login dialog.
+8. Log in with invalid credentials. The request is rejected, with a request prompting for credentials again.
+9. Log in with the Administrator account that you used to log into the machine. The directory listing displays, indicating that you have successfully added authentication and authorization capabilities to the server.
 
 <a id="Summary"></a>
 
@@ -321,4 +253,6 @@ Before using the server again, undo the changes to the server configuration perf
 
 See the following links for further information:
 
-- To learn more about the IIS Core Architecture, see [IIS 7.0 and Above Core Web Server section](../../manage/working-with-server-core/iis-70-on-server-core.md) on IIS.NET. - To learn more about IIS modules, see IIS [7.0 and Above Modules Overview.](../introduction-to-iis/iis-modules-overview.md)- To learn more about building modules to extend or replace IIS functionality, see [Develop a Module Using .NET](../../develop/runtime-extensibility/developing-a-module-using-net.md) and [Develop a Native (C/C++) Module](../../develop/runtime-extensibility/develop-a-native-cc-module-for-iis.md).
+- To learn more about the IIS Core Architecture, see [IIS 7.0 and Above Core Web Server section](../../manage/working-with-server-core/iis-70-on-server-core.md) on IIS.NET.
+- To learn more about IIS modules, see IIS [7.0 and Above Modules Overview.](../introduction-to-iis/iis-modules-overview.md)
+- To learn more about building modules to extend or replace IIS functionality, see [Develop a Module Using .NET](../../develop/runtime-extensibility/developing-a-module-using-net.md) and [Develop a Native (C/C++) Module](../../develop/runtime-extensibility/develop-a-native-cc-module-for-iis.md).

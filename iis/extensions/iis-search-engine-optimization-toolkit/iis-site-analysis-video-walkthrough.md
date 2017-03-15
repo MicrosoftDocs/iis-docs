@@ -18,4 +18,4 @@ by [Carlos Aguilar Mares](https://twitter.com/CarlosAguilarM)
 
 IIS Site Analysis - Video Walkthrough
 
-[&#9654; Watch video (14 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/iis-site-analysis-video-walkthrough)
+[&#9654; Watch video (14 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/iis-site-analysis-video-walkthrough)

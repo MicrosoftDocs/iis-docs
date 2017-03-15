@@ -20,15 +20,6 @@ by [Saad Ladki](https://twitter.com/saadladki)
 
 This document provides an overview of the steps required for setting both application pool and worker process isolation for IIS 7.0 and above servers. Application pool isolation entails protecting data that WAS (the IIS local system process) needs to access. An example of this data is the application pool passwords. Worker process isolation, on the other hand, entails protecting data that the application pool identity needs to access. An example of this data is the anonymous user account password.
 
-This article contains:
-
-- [Prerequisites](using-encryption-to-protect-passwords.md#Prerequisites)
-- [Creating a New RSA Encryption Provider Application](using-encryption-to-protect-passwords.md#CreatingNew)
-- [Creating User Accounts](using-encryption-to-protect-passwords.md#CreatingUser)
-- [Application Pool Isolation](using-encryption-to-protect-passwords.md#Application)
-- [Worker Process Isolation](using-encryption-to-protect-passwords.md#Worker)
-- [Summary](using-encryption-to-protect-passwords.md#Summary)
-
 <a id="Prerequisites"></a>
 
 ## Prerequisites
@@ -44,43 +35,31 @@ The final prerequisite section guides you in setting up four User accounts that 
 
 ## Creating a New RSA Encryption Provider Application
 
-> 1. Open Windows Notepad and create a file in a directory of your choosing named **createProvider.cs** that contains the following C# code:
+1. Open Windows Notepad and create a file in a directory of your choosing named **createProvider.cs** that contains the following C# code: 
 
+    [!code-csharp[Main](using-encryption-to-protect-passwords/samples/sample1.cs)]
+2. Next, launch an elevated command prompt:
 
-[!code-csharp[Main](using-encryption-to-protect-passwords/samples/sample1.cs)]
-
-> 2. Next, launch an elevated command prompt:
-
-
-> a. Click the **Start** menu.   
-> b. Right-click **Command Prompt.**   
-> c. Select **Run as administrator.**
-
-
-> 3. In the command prompt Window, navigate to the where location you saved the **createProvider.cs** file and run the following command to compile your code:  
-> **%SystemRoot%\Microsoft.NET\Framework\v2.0.50727\csc.exe /reference:%SystemRoot%\System32\inetsrv\Microsoft.Web.Administration.dll createProvider.cs**
-
+    - Click the **Start** menu.
+    - Right-click **Command Prompt.**
+    - Select **Run as administrator.**
+3. In the command prompt Window, navigate to the where location you saved the **createProvider.cs** file and run the following command to compile your code:  
+    **%SystemRoot%\Microsoft.NET\Framework\v2.0.50727\csc.exe /reference:%SystemRoot%\System32\inetsrv\Microsoft.Web.Administration.dll createProvider.cs**
 
 This step is now complete.
 
 ### Creating an Application to Change the Default Provider
 
-> 1. Open Windows Notepad and create a file in a directory of your choosing named **setProvider.cs** that contains the following C# code:
+1. Open Windows Notepad and create a file in a directory of your choosing named **setProvider.cs** that contains the following C# code:
 
+    [!code-csharp[Main](using-encryption-to-protect-passwords/samples/sample2.cs)]
+2. Next, launch an elevated command prompt:
 
-[!code-csharp[Main](using-encryption-to-protect-passwords/samples/sample2.cs)]
-
-> 2. Next, launch an elevated command prompt:
-
-
-> a. Click the **Start** menu.   
-> b. Right-click **Command Prompt.**   
-> c. Select **Run as administrator.**
-
-
-> 3. In the command prompt Window navigate to the location you saved the **setProvider.cs** file and run the following command to compile your code:  
-> **%SystemRoot%\Microsoft.NET\Framework\v2.0.50727\csc.exe /reference:%SystemRoot%\System32\inetsrv\Microsoft.Web.Administration.dll setProvider.cs**
-
+    - Click the **Start** menu.
+    - Right-click **Command Prompt.**
+    - Select **Run as administrator.**
+3. In the command prompt Window navigate to the location you saved the **setProvider.cs** file and run the following command to compile your code:  
+    **%SystemRoot%\Microsoft.NET\Framework\v2.0.50727\csc.exe /reference:%SystemRoot%\System32\inetsrv\Microsoft.Web.Administration.dll setProvider.cs**
 
 This step is now complete.
 
@@ -93,7 +72,7 @@ In this step, we create four new user accounts that will be used throughout this
 To begin, open a command shell Window running under administrative rights using the following steps:
 
 1. Click the **Start** menu.
-2. Right-click **Command Prompt** .
+2. Right-click **Command Prompt**.
 3. Select **Run as administrator.**
 4. In the command window, execute the following commands:
 
@@ -157,34 +136,28 @@ In this step, we create two new application pools that we isolate from one anoth
 6. Repeat previous steps but this time use the name **AppPool2**.
 7. You now see the following screen within the IIS Manager:  
   
-    [![](using-encryption-to-protect-passwords/_static/image6.jpg)](using-encryption-to-protect-passwords/_static/image5.jpg)
+    [![](using-encryption-to-protect-passwords/_static/image4.jpg)](using-encryption-to-protect-passwords/_static/image3.jpg)
 8. Notice how the identity for both **AppPool1** and **AppPool2** are **NetworkService**. We will change this to be the accounts we created earlier by right clicking **AppPool1** and then selecting **Advanced Settings**
-9. Under the title **Process Model**:   
-a. Click the button to the right of the words **Identity**.  
-b. In the **Application Pool Identiy** window select the "**Custom account**" radio button and click the "Set..." button.  
-c. Input the following user name and password in the **Set Credentials** dialog.  
+9. Under the title **Process Model**:  
+
+    - Click the button to the right of the words **Identity**.
+    - In the **Application Pool Identiy** window select the "**Custom account**" radio button and click the "Set..." button.
+    - Input the following user name and password in the **Set Credentials** dialog.  
   
-user name: **AppPoolIdentity1**  
-password: **password1  
+ user name:         **AppPoolIdentity1**  
+ password:         **password1**  
+        [![](using-encryption-to-protect-passwords/_static/image6.jpg)](using-encryption-to-protect-passwords/_static/image5.jpg)
+10. Now the **Identity** value should appear as shown below:  
   
-[![](using-encryption-to-protect-passwords/_static/image9.jpg)](using-encryption-to-protect-passwords/_static/image7.jpg)**
+    [![](using-encryption-to-protect-passwords/_static/image8.jpg)](using-encryption-to-protect-passwords/_static/image7.jpg)
+11. Click **OK** to save your changes.
+12. Repeat the previous step for **AppPool2** and user the user name "**AppPoolIdentity2**" and the password "**password2**".
+13. You see the following displayed in the IIS Manager (mainly the Identities for the application pools have changed):  
+  
+    [![](using-encryption-to-protect-passwords/_static/image10.jpg)](using-encryption-to-protect-passwords/_static/image9.jpg)
+14. Verify the changes by using Windows Notepad and opening the **%SystemRoot%\System32\Inetsrv\applicationHost.config file**. Navigate to the **applicationPools** section and you see that we encrypted the application pool passwords using the Rsa\_WAS key as intended: 
 
-> 10. Now the **Identity** value should appear as shown below:  
->   
-> [![](using-encryption-to-protect-passwords/_static/image12.jpg)](using-encryption-to-protect-passwords/_static/image11.jpg)
-
-
-> 11. Click **OK** to save your changes.  
-> 12. Repeat the previous step for **AppPool2** and user the user name "**AppPoolIdentity2**" and the password "**password2**".   
-> 13. You see the following displayed in the IIS Manager (mainly the Identities for the application pools have changed):  
->   
-> [![](using-encryption-to-protect-passwords/_static/image17.jpg)](using-encryption-to-protect-passwords/_static/image16.jpg)
-
-
-> 14. Verify the changes by using Windows Notepad and opening the **%SystemRoot%\System32\Inetsrv\applicationHost.config file**. Navigate to the **applicationPools** section and you see that we encrypted the application pool passwords using the Rsa\_WAS key as intended:
-
-
-[!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-7.unknown)]
+    [!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-7.unknown)]
 
 ### Locking Down the Encryption Providers
 
@@ -207,23 +180,20 @@ In this section, we create two new sites and add each site to an application poo
 1. Click the **Start** menu.
 2. Right-click **Command Prompt.**
 3. Select **Run as administrator.**
-4. In the command window, navigate to your **wwwroot** directory using the following command:
+4. In the command window, navigate to your **wwwroot** directory using the following command:  
 
+    [!code-console[Main](using-encryption-to-protect-passwords/samples/sample9.cmd)]
+5. Create a new directory named "**one**" and a directory "**two**" using the following commands: 
 
-[!code-console[Main](using-encryption-to-protect-passwords/samples/sample9.cmd)]
+    [!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-10.unknown)]
 
-5. Create a new directory named "**one**" and a directory "**two**" using the following commands:
+    [!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-11.unknown)]
+6. Create a basic **Default.htm** file in both the "**one**" and "**two**" directories that contain following HTML code: 
 
-[!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-10.unknown)]
+    [!code-html[Main](using-encryption-to-protect-passwords/samples/sample12.html)]
 
-[!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-11.unknown)]
-
-6. Create a basic **Default.htm** file in both the "**one**" and "**two**" directories that contain following HTML code:
-
-[!code-html[Main](using-encryption-to-protect-passwords/samples/sample12.html)]
-
-> [!NOTE]
-> Replace 'X' with either 'one' or 'two' depending on the directory location of the file.
+    > [!NOTE]
+    > Replace 'X' with either 'one' or 'two' depending on the directory location of the file.
 
 Now use the IIS manager to create two sites:
 
@@ -232,10 +202,12 @@ Now use the IIS manager to create two sites:
 3. Right click **Site** in the tree view under **Connections** and then select **Add Web Site**.
 4. Use the following information to create your site:   
   
-***Web Site Name: One   
+    ***Web Site Name: One   
 Application Pool: AppPool1   
 Physical Path: {location of your inetpub directory}\wwwroot\one   
-Port: 81*** This should like the following when completed:[***![](using-encryption-to-protect-passwords/_static/image19.jpg)***](using-encryption-to-protect-passwords/_static/image18.jpg)
+Port: 81***  This should like the following when completed:  
+  
+    [![](using-encryption-to-protect-passwords/_static/image12.jpg)](using-encryption-to-protect-passwords/_static/image11.jpg)
 5. Click **OK** to save the changes.
 6. Repeat the previous two steps but this time use the following information for the second site:   
   
@@ -258,10 +230,9 @@ In this section, we create a new RSA provider for each of the application pools:
 1. Click the **Start menu.**
 2. Right-click **Command Prompt.**
 3. Select **Run as administrator.**
-4. In the command window execute, navigate to where you saved your **createProvider.exe** and run the following command:
+4. In the command window execute, navigate to where you saved your **createProvider.exe** and run the following command:  
 
-
-[!code-console[Main](using-encryption-to-protect-passwords/samples/sample13.cmd)]
+    [!code-console[Main](using-encryption-to-protect-passwords/samples/sample13.cmd)]
 
 ### Set the Anonymous Account for Site One
 
@@ -276,7 +247,7 @@ In your elevated command prompt Window, run the following command:
 5. Input the username **AnonymousAccount1** and password **password3** and select **OK.**
 6. This brings up the following dialog box:  
   
-    [![](using-encryption-to-protect-passwords/_static/image22.jpg)](using-encryption-to-protect-passwords/_static/image21.jpg)
+    [![](using-encryption-to-protect-passwords/_static/image14.jpg)](using-encryption-to-protect-passwords/_static/image13.jpg)
 7. Press **OK** to save your changes.
 
 ### Set the Anonymous Account for Site Two
@@ -307,15 +278,12 @@ In your elevated command prompt Window, run the following command:
 Verify that what we wanted did happen. Using Windows Notepad, open the **%SystemRoot%\System32\Inetsrv\applicationHost.config** file:
 
 - Notice that the password for **AppPool1** and **AppPool2** are both still protected with the **Rsa\_Was** key
-- Notice that the password for **AnonymousAccount1** is also protected with the **Rsa\_app1** key:
+- Notice that the password for **AnonymousAccount1** is also protected with the **Rsa\_app1** key:  
 
+    [!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-17.unknown)]
+- Finally, note that the **AnonymousAccount2** password is also protected with the **Rsa\_app2** key:  
 
-[!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-17.unknown)]
-
-- Finally, note that the **AnonymousAccount2** password is also protected with the **Rsa\_app2** key:
-
-
-[!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-18.unknown)]
+    [!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-18.unknown)]
 
 ### Locking Down the Encryption Providers
 
@@ -355,6 +323,5 @@ To isolate the worker process settings, we:
 - We removed access to the anonymous authentication provider for IIS\_IUSRS and granted access to just the application pool identity
 
 This effectively ensured that the application pool identity can decrypt the anonymous password it belongs too and no one else.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

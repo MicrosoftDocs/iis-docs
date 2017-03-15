@@ -35,16 +35,10 @@ When users find an application in the Gallery, they want to be able to see that 
 The following procedure is a summary of the most common process for preparing a working application for inclusion in the Windows Web App Gallery. The steps are described in more detail in the sections that follow.
 
 1. Review the [Web Application Gallery Principles](windows-web-application-gallery-principles.md). All applications in the Windows Web App Gallery must follow these principles.
-
-2. Read and use this article to create and test a Web Deploy application package.
-
-3. Refer to the article "[Best Practices for PHP on Windows](../../application-frameworks/running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform.md)" for guidance in running your PHP application.
-
-4. Submit the package to the Gallery for testing using the [submission form](https://www.microsoft.com/web/gallery/myapps.aspx "submission form").
-
-5. Resolve any issues with the Application Gallery team.
-
-6. See your application on the [Windows Web Application Gallery](http://www.microsoft.con/web/gallery).
+2. Read and use this article to create and test a Web Deploy application package.[Best Practices for PHP on Windows](../../application-frameworks/running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform.md)
+3. Refer to the article "" for guidance in running your PHP application.3. Submit the package to the Gallery for testing using the [submission form](https://www.microsoft.com/web/gallery/myapps.aspx "submission form").
+4. Resolve any issues with the Application Gallery team.
+5. See your application on the [Windows Web Application Gallery](http://www.microsoft.con/web/gallery).
 
 ## Create a Basic Package
 
@@ -74,45 +68,41 @@ The **scope** here identifies the type of directive in the Manifest.xml file bei
 
 Here are some tips for creating parameters.xml: 
 
-1. Use regular expressions for TextFile matches:
+1. Use regular expressions for TextFile matches:  
 
-Consider this entry in your application package's parameters.xml file:
+    Consider this entry in your application package's parameters.xml file:
 
-[!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample3.xml)]
+    [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample3.xml)]
 
-This parameter effectively treats config.php as a text file, looks for "putyourdbnamehere" inside the file and replaces it with what the user specifies on install time of the application. Hence in your app's config.php, it replaces the text in the following line:define('DB\_NAME', 'putyourdbnamehere');This prevents config.php from ever being updated again through parametrization, because the string ‘putyourdbnamehere' is no longer present, so the parameter match will no longer work. One downside is that the application will install correctly in Microsoft WebMatrix, but will not be parameterized correctly when the user tries to publish it to a remote location.Instead, you should use regular expressions so config.php can be updated at a future date: 
+    This parameter effectively treats config.php as a text file, looks for "putyourdbnamehere" inside the file and replaces it with what the user specifies on install time of the application. Hence in your app's config.php, it replaces the text in the following line:define('DB\_NAME', 'putyourdbnamehere');This prevents config.php from ever being updated again through parametrization, because the string ‘putyourdbnamehere' is no longer present, so the parameter match will no longer work. One downside is that the application will install correctly in Microsoft WebMatrix, but will not be parameterized correctly when the user tries to publish it to a remote location.Instead, you should use regular expressions so config.php can be updated at a future date:
 
-[!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample4.xml)]
+    [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample4.xml)]
 
-Notice that the parameter match will continue to work because of the regular expression.
-
+    Notice that the parameter match will continue to work because of the regular expression.
 2. Never use parameter type TextFilePosition:
 
-This is a deprecated parameter type. TextFilePosition allows you to specify matches at specific character positions. This is an inherently fragile approach, you should use TextFile parameter type with regular expression scope.
-
+    This is a deprecated parameter type. TextFilePosition allows you to specify matches at specific character positions. This is an inherently fragile approach, you should use TextFile parameter type with regular expression scope.
 3. Constraint parameter scopes as much as possible:
 
-Consider this entry in your application package's parameters.xml file: 
+    Consider this entry in your application package's parameters.xml file:
 
-[!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample5.xml)]
+    [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample5.xml)]
 
-The $ at the end of the scope regular expression is important - it indicates that we only want to match files names web.config and not, for example, files named web.config.bak. Constraining parameter scopes in this manner can help avoid unintentional changes to files which are difficult to diagnose.
-
+    The $ at the end of the scope regular expression is important - it indicates that we only want to match files names web.config and not, for example, files named web.config.bak. Constraining parameter scopes in this manner can help avoid unintentional changes to files which are difficult to diagnose.
 4. If you store the local application URL in a file or database, parameterize it appropriately
 
-Some applications store a base URL aka Local Application URL in a file or database. For example, a blog application may store "http://localhost:80" in the database and used this as a base URL to generate application-wide URLs. If your application does this, you need to create a parameter and tag it as "AppURL".
+    Some applications store a base URL aka Local Application URL in a file or database. For example, a blog application may store "http://localhost:80" in the database and used this as a base URL to generate application-wide URLs. If your application does this, you need to create a parameter and tag it as "AppURL".
 
-[!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample6.xml)]
+    [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample6.xml)]
 
-The above parameter will let the user specify a value for Local Application URL for the destination so the application works correctly on the remote server. It works by matching two different regular expressions in database scripts generated by the dbFullSql and dbMySql providers.
-
+    The above parameter will let the user specify a value for Local Application URL for the destination so the application works correctly on the remote server. It works by matching two different regular expressions in database scripts generated by the dbFullSql and dbMySql providers.
 5. Tag one-time parameters with "NoStore"
 
-Some parameters that are only required to be filled in once e.g. a salt value for generating strong passwords. Such parameters should be tagged as ‘noStore'. Parameters tagged in this manner are not stored in Web Deploy's application definition store and the user will be not be prompted for them when the application is published to a remote server. 
+    Some parameters that are only required to be filled in once e.g. a salt value for generating strong passwords. Such parameters should be tagged as ‘noStore'. Parameters tagged in this manner are not stored in Web Deploy's application definition store and the user will be not be prompted for them when the application is published to a remote server.
 
-[!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample7.xml)]
+    [!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample7.xml)]
 
-Note that it's okay to use a flat text replace with noStore parameters. 
+ Note that it's okay to use a flat text replace with noStore parameters.
 
 **Add a Database**
 
@@ -209,28 +199,18 @@ You can test your package by using Web Platform Installer . You can refer to thi
 
 If you are running on Windows Vista®, Windows® 7, Windows Server® 2008, or Windows Server® 2008 R2, you can use the Web Deployment Tool from within IIS Manager to test your package. For all other versions of Windows, you must use the command-line version for testing.
 
-1. Always make a backup prior to changing your system. Run the following command to backup an IIS server:   
-  
+1. Always make a backup prior to changing your system. Run the following command to backup an IIS server:
 
 [!code-console[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample14.cmd)]
 
-
-This creates a backup of the %windir%\system32\inetsrv\config directory, which contains the main IIS configuration files. If you are testing your package on a server that also has other applications or Web sites running, back up those applications and Web sites prior to starting your testing.
-
+    This creates a backup of the %windir%\system32\inetsrv\config directory, which contains the main IIS configuration files. If you are testing your package on a server that also has other applications or Web sites running, back up those applications and Web sites prior to starting your testing.
 2. Open the IIS Manager by clicking **Start** &gt; **Run**, and then typing: **inetmgr**
-
 3. In **IIS Manager**, expand the **Server** node, expand the **Sites** node, and then select the **Default Web Site**.
-
 4. In the **Actions** pane on the right, click the **Import Application** link to launch the packaging wizard.
-
 5. Select the package that you created.
-
 6. In the Install an Application Package dialog box, you see the application and the database.
-
 7. On the **Parameters** page, review the parameters and their descriptions to make sure that they match your intent and provide enough information for a user to be able to fill them all in.
-
 8. Click **Next** to install the package.
-
 9. The Summarypage provides a high-level overview of some items that were installed from the package. The Detailstab provides details of exactly what was added.
 
 ### Use the Web Deployment Tool Command Line
@@ -281,23 +261,18 @@ You can learn more about these links and the graphics that are available to use 
 When you release an update to your application, please follow this procedure:
 
 1. Advise the Windows Web App Gallery in advance of the new package, if your schedule allows.
-
 2. Do not remove the old version until you receive a confirmation that all links are pointing to the new version.
-
 3. Create and test your new application package.
-
 4. Ensure that the new package has a different name than the previous package.
-
 5. Generate a SHA-1 hash for the new package.
+6. Click [here](https://www.microsoft.com/web/gallery/myapps.aspx) to update your existing submission with the following information for the new package: 
 
-6. Click [here](https://www.microsoft.com/web/gallery/myapps.aspx) to update your existing submission with the following information for the new package:
+    - App Version
+    - URL
+    - SHA-1 hash
+    - A link to any Release Notes or Changelog for the update (optional)
 
-- App Version
-- URL
-- SHA-1 hash
-- A link to any Release Notes or Changelog for the update (optional)
-
-Note that it takes up to a week to test and roll out the new package. You will be informed when all testing has been completed and the new package is live; you may then remove the old package (optional).
+    Note that it takes up to a week to test and roll out the new package. You will be informed when all testing has been completed and the new package is live; you may then remove the old package (optional).
 
 For more information, see the [Reference for the Web Application Guide](reference-for-the-web-application-package.md).
 
@@ -314,6 +289,5 @@ For more information, see the [Reference for the Web Application Guide](referenc
 [Web Platform Installer](https://www.microsoft.com/web/downloads/).
 
 [CodePlex.](http://www.codeplex.com/)
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1158.aspx)

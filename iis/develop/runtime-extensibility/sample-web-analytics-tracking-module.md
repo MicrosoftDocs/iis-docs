@@ -28,8 +28,7 @@ The source code for the sample is available [here](sample-web-analytics-tracking
 
 The basic purpose of Web Analytics Service is to collect data about web site visitors, then process this data and present it to site owners in a nice, easy to digest form. In order to collect the data, web site owner has to instrument all the pages on his web site with the tracking script issued by the web analytics service provider:
 
-
-![](sample-web-analytics-tracking-module/_static/image3.png)
+[![](sample-web-analytics-tracking-module/_static/image2.png)](sample-web-analytics-tracking-module/_static/image1.png)
 
 The main pain point with asking user to do this is that it may potentially require considerable amount of work to modify all the web pages. In some cases this can be mitigated by using templates and master pages, but in many cases user would still need to go through his html pages and add the tracking script at the end of every document.
 
@@ -48,41 +47,36 @@ To start using the module, first compile it from this Visual Studio solution. Yo
 
 To install the module follow these steps:
 
-1. Copy the WebAnalyticsModule.dll to a bin folder within your web site or application  
-2. Copy the WebAnalytics\_schema.xml to "%windir%\system32\inetsrv\config\schema" folder.  
-3. Add the following to the "%windir%\system32\inetsrv\config\applicationhost.config" file:
+1. Copy the WebAnalyticsModule.dll to a bin folder within your web site or application
+2. Copy the WebAnalytics\_schema.xml to "%windir%\system32\inetsrv\config\schema" folder.
+3. Add the following to the "%windir%\system32\inetsrv\config\applicationhost.config" file:  
 
-In the sectionGroup for "system.webServer", add the section definition: &lt;section name="webAnalytics" overrideModeDefault="Allow"&gt;
+    In the sectionGroup for "system.webServer", add the section definition: &lt;section name="webAnalytics" overrideModeDefault="Allow"&gt;
+4. Add module to a web site or an application by opening corresponding web.config file and adding the following section to the &lt;system.webServer&gt; element:  
 
-4. Add module to a web site or an application by opening corresponding web.config file and adding the following section to the &lt;system.webServer&gt; element:
+    [!code-xml[Main](sample-web-analytics-tracking-module/samples/sample1.xml)]
+5. Next, use the gacutil tool to put the module to the Global Assembly Cache so that IIS Manager can use them:  
 
-[!code-xml[Main](sample-web-analytics-tracking-module/samples/sample1.xml)]
-
-5. Next, use the gacutil tool to put the module to the Global Assembly Cache so that IIS Manager can use them:
-
-[!code-console[Main](sample-web-analytics-tracking-module/samples/sample2.cmd)]
-
+    [!code-console[Main](sample-web-analytics-tracking-module/samples/sample2.cmd)]
 6. Add the module to the IIS Manager configuration in the "%windir%\system32\inetsrv\config\administration.config" file:
 
-In the &lt;moduleProviders&gt; collection, add the following entry:
+    In the &lt;moduleProviders&gt; collection, add the following entry:
 
-[!code-xml[Main](sample-web-analytics-tracking-module/samples/sample3.xml)]
+    [!code-xml[Main](sample-web-analytics-tracking-module/samples/sample3.xml)]
 
- And add the following line to the &lt;modules&gt; collection: 
+    And add the following line to the &lt;modules&gt; collection:
 
-[!code-xml[Main](sample-web-analytics-tracking-module/samples/sample4.xml)]
-
+    [!code-xml[Main](sample-web-analytics-tracking-module/samples/sample4.xml)]
 7. Open the IIS Manager. You should see the "Web Analytics Tracking" icon in the feature view for your web site or application.
 
 ## Module walkthrough
 
-After module is installed you will see Web Analytics configuration in the main IIS control panel. This will be available on site and application level.![](sample-web-analytics-tracking-module/_static/image4.png)
+After module is installed you will see Web Analytics configuration in the main IIS control panel. This will be available on site and application level.[![](sample-web-analytics-tracking-module/_static/image4.png)](sample-web-analytics-tracking-module/_static/image3.png)
 
 The configuration UI for the Web Analytics module looks as below:
 
-![](sample-web-analytics-tracking-module/_static/image7.png)
+![](sample-web-analytics-tracking-module/_static/image5.png)
 
-After the module has been configured, we can see how it works by requesting the web page from the server by using [WFetch](https://www.microsoft.com/downloads/details.aspx?FamilyID=b134a806-d50e-4664-8348-da5c17129210&amp;displaylang=en). The output from web server contains the tracking script before the closing &lt;body /&gt; tag:![](sample-web-analytics-tracking-module/_static/image8.png)
-
+After the module has been configured, we can see how it works by requesting the web page from the server by using [WFetch](https://www.microsoft.com/downloads/details.aspx?FamilyID=b134a806-d50e-4664-8348-da5c17129210&amp;displaylang=en). The output from web server contains the tracking script before the closing &lt;body /&gt; tag:![](sample-web-analytics-tracking-module/_static/image6.png)
 
 [Discuss in IIS Forums](https://forums.iis.net/1042.aspx)

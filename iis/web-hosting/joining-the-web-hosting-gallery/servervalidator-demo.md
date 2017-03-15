@@ -18,4 +18,4 @@ by [Bilal Aslam](https://github.com/bilalaslam)
 
 ServerValidator Demo
 
-[&#9654; Watch video (234 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/servervalidator-demo)
+[&#9654; Watch video (234 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/servervalidator-demo)

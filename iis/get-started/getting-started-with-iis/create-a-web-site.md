@@ -33,27 +33,16 @@ You can perform this procedure by using the IIS Manager user interface (UI), by 
 ### Use the UI
 
 1. Start **IIS Manager**. For information about starting IIS Manager, see [Open IIS Manager (IIS 7)](https://technet.microsoft.com/en-us/library/cc770472(WS.10).aspx). For information about navigating to locations in the UI, see [Navigation in IIS Manager (IIS 7)](https://technet.microsoft.com/en-us/library/cc732920(WS.10).aspx).
-
 2. In the **Connections** pane, right-click the **Sites** node in the tree view, and then click **Add Web Site**.
-
 3. In the **Add Web Site** dialog box, type a *friendly name* for your Web site in the **Web site name** box.
-
 4. If you want to select a different application pool than the one listed in the Application Pool box. In the **Select Application Pool** dialog box, select an application pool from the **Application Pool** list, and then click **OK**.
-
 5. In the **Physical path** box, type the *physical path* of the Web site's folder, or click the browse button **(...)** to browse the file system to find the folder.
-
 6. If the physical path that you entered in step 5 is to a remote share, click **Connect as** to specify credentials that have permission to access the path. If you do not use specific credentials, select the **Application user (pass-thru authentication)** option in the **Connect As** dialog box.
-
 7. Select the protocol for the Web site from the **Type** list.
-
 8. The default value in the **IP address** box is **All Unassigned**. If you must specify a static IP address for the Web site, type the *IP address* in the **IP address** box.
-
 9. Type a *port number* in the **Port** text box.
-
 10. Optionally, type a *host header name* for the Web site in the **Host Header** box.
-
 11. If you do not have to make any changes to the site, and you want the Web site to be immediately available, select the **Start Web site immediately** check box.
-
 12. Click **OK**.
 
 ### Use the Command Prompt

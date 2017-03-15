@@ -20,7 +20,7 @@ WebMatrix supports installing open source community applications from the Web Ap
 
 ## Installing and Publishing DotNetNuke Community Edition
 
-#### Q: How do I install DotNetNuke Community Edition?
+### Q: How do I install DotNetNuke Community Edition?
 
 A: To install DotNetNuke Community Edition, use the following steps:
 
@@ -30,7 +30,7 @@ A: To install DotNetNuke Community Edition, use the following steps:
 4. In any workspace, on the **Home** tab, in the **Site** group, click **Run** or press F12 to open the site in your default web browser.
 5. Follow the instructions to complete installation.
 
-#### Q: How do I publish my DotNetNuke Community Edition website?
+### Q: How do I publish my DotNetNuke Community Edition website?
 
 A: To publish a DotNetNuke Community Edition website, use the following steps:
 
@@ -43,19 +43,24 @@ A: To publish a DotNetNuke Community Edition website, use the following steps:
 
 ## Known Issues
 
-**Issue:** Some links are not visible in DotNetNuke after publishing or downloading the site. If you publish or download a DotNetNuke site, you may need to clear the cache to get the new links to appear on the site.  
-**Workaround:** 1. Log in as Host.  
-2. Go to the host menu and select "Host Settings"  
-3. Scroll down and expand the "Performance Settings" under "Advanced Settings"  
-4. Click the "Clear Cache" Link for pages.  
+**Issue**: Some links are not visible in DotNetNuke after publishing or downloading the site. If you publish or download a DotNetNuke site, you may need to clear the cache to get the new links to appear on the site.
+
+**Workaround:
+
+1. Log in as Host.
+2. Go to the host menu and select "Host Settings"
+3. Scroll down and expand the "Performance Settings" under "Advanced Settings"
+4. Click the "Clear Cache" Link for pages.
 5. Go to the bottom of the page and restart the application.
 
-**Issue:** "Download published site…" fails with a database error  
-If you try to download an application from a server and you have administrator credentials in the database connection string in the Publish Settings dialog, you may see this error in the publish log:  
-1:28:29 PM: An error occurred during execution of the database script. The approximate location of the error was between lines '3260' and '3262' of the script. The verbose log may have more information about the error. The command started with :  
-1:28:29 PM: CREATE LOGIN [MACHINE\Administrator] FROM WINDOW  
-1:28:29 PM: [https://go.microsoft.com/fwlink/?LinkId=178587](https://go.microsoft.com/fwlink/?LinkId=178587)  
-**Workaround:** Publish the site in the first place using non-administrator credentials for the database in Publish Settings.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)
+Issue: "Download published site…" fails with a database error  
+ If you try to download an application from a server and you have administrator credentials in the database connection string in the Publish Settings dialog, you may see this error in the publish log:  
+ 1:28:29 PM: An error occurred during execution of the database script. The approximate location of the error was between lines '3260' and '3262' of the script. The verbose log may have more information about the error. The command started with :  
+ 1:28:29 PM: CREATE LOGIN [MACHINE\Administrator] FROM WINDOW  
+ 1:28:29 PM: [https://go.microsoft.com/fwlink/?LinkId=178587](https://go.microsoft.com/fwlink/?LinkId=178587)
+
+Workaround:
+
+Publish the site in the first place using non-administrator credentials for the database in Publish Settings.
+
+[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)**

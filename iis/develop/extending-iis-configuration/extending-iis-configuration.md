@@ -18,4 +18,4 @@ by [Tobin Titus](https://github.com/tobint)
 
 This video demonstrates how to extend configuration. You'll learn how to use the XML configuration in IIS 7.0 and above to store your own custom configuration elements. You'll also learn how to extend existing configuration objects with your own metadata. Then, you'll learn how to use existing IIS tools and Powershell to access and modify your custom configuration.
 
-[&#9654; Watch video (6 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/extending-iis-configuration)
+[&#9654; Watch video (6 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/extending-iis-configuration)

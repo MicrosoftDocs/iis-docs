@@ -18,4 +18,4 @@ by [Drew Robbins](https://github.com/drewby)
 
 This video is from the MIX08 conference. http://visitmix.com Discover the advantages of running PHP applications on Microsoft Internet Information Services. Learn how to take advantage of the integrated pipeline and .NET functionality, and use the new remote management tools.
 
-[&#9654; Watch video (70 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/mix08-partying-with-php-on-microsoft-internet-information-services-7-and-above)
+[&#9654; Watch video (70 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/mix08-partying-with-php-on-microsoft-internet-information-services-7-and-above)

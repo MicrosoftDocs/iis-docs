@@ -18,4 +18,4 @@ by [Ruslan Yakushev](https://github.com/ruslany)
 
 This video demonstrates how Microsoft URL Rewrite Module for IIS 7.0 and above can be used to accomplish common URL manipulation tasks: Enabling user friendly and search engine friendly URLs for dynamic web pages Enforcing canonical host names for web sites Using rewrite maps Blocking unwanted requests
 
-[&#9654; Watch video (28 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/url-rewrite-module-video-walkthrough)
+[&#9654; Watch video (28 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/url-rewrite-module-video-walkthrough)

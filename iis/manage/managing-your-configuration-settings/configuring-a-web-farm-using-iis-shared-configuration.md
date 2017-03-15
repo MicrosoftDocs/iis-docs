@@ -18,4 +18,4 @@ by [IIS Team](https://twitter.com/inetsrv)
 
 Managing large web farms with IIS and Windows Server 2008 has become simpler than ever. In this tutorial we will cover how to setup IIS 7.0's new shared configuration features. 
 
-[&#9654; Watch video (13 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/configuring-a-web-farm-using-iis-shared-configuration)
+[&#9654; Watch video (13 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/configuring-a-web-farm-using-iis-shared-configuration)

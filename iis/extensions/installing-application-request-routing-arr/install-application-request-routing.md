@@ -56,43 +56,35 @@ Download the Microsoft Application Request Routing release from the following lo
 
 **To install Application Request Routing:** 
 
-1. As an **administrator**, open a command prompt window.
+1. - As an **administrator**, open a command prompt window.
+- Stop **WAS** and **WMSVC** processes by typing. This step is necessary because ARR installs a Hotfix ([KB 954438](https://support.microsoft.com/kb/954438)).  
 
-2. Stop **WAS** and **WMSVC** processes by typing. This step is necessary because ARR installs a Hotfix ([KB 954438](https://support.microsoft.com/kb/954438)).
+    [!code-console[Main](install-application-request-routing/samples/sample1.cmd)]
 
-[!code-console[Main](install-application-request-routing/samples/sample1.cmd)]
+    [!code-console[Main](install-application-request-routing/samples/sample2.cmd)]
+- run ARR\_&lt;architecture&gt;\_exe:  
 
-[!code-console[Main](install-application-request-routing/samples/sample2.cmd)]
+    [!code-unknown[Main](install-application-request-routing/samples/sample-127371-3.unknown)]
 
-3. run ARR\_&lt;architecture&gt;\_exe:
+ or
 
-[!code-unknown[Main](install-application-request-routing/samples/sample-127371-3.unknown)]
+    [!code-unknown[Main](install-application-request-routing/samples/sample-127371-4.unknown)]
+- Accept the End User License Agreement (EULA).
+- The installers for the four components are launched one after another.
+- Complete the installation.
+- To check on the installation status, refer to %TEMP%\arr\_setup.log. If all packages have been installed successfully, you should see the following:  
 
-or
+    [!code-unknown[Main](install-application-request-routing/samples/sample-127371-5.unknown)]
+- ***Optional***) For troubleshooting purposes, the downloaded executable can be unpackaged. Launch the executable file with /T:&lt;full path&gt; and /C options. This command will unpackage just the four MSIs, which can be launched manually one at a time. If the MSIs are being installed manually, they must be installed in the following order:  
 
-[!code-unknown[Main](install-application-request-routing/samples/sample-127371-4.unknown)]
+    [!code-unknown[Main](install-application-request-routing/samples/sample-127371-6.unknown)]
 
-4. Accept the End User License Agreement (EULA).
+    For more information, launch the executable file with the /? option.
+- Start **WAS** and **WMSVC** processes by typing:  
 
-5. The installers for the four components are launched one after another.
+    [!code-console[Main](install-application-request-routing/samples/sample7.cmd)]
 
-6. Complete the installation.
-
-7. To check on the installation status, refer to %TEMP%\arr\_setup.log. If all packages have been installed successfully, you should see the following:
-
-[!code-unknown[Main](install-application-request-routing/samples/sample-127371-5.unknown)]
-
-8. (***Optional***) For troubleshooting purposes, the downloaded executable can be unpackaged. Launch the executable file with /T:&lt;full path&gt; and /C options. This command will unpackage just the four MSIs, which can be launched manually one at a time. If the MSIs are being installed manually, they must be installed in the following order:
-
-[!code-unknown[Main](install-application-request-routing/samples/sample-127371-6.unknown)]
-
-For more information, launch the executable file with the /? option.
-
-9. Start **WAS** and **WMSVC** processes by typing:
-
-[!code-console[Main](install-application-request-routing/samples/sample7.cmd)]
-
-[!code-console[Main](install-application-request-routing/samples/sample8.cmd)]
+    [!code-console[Main](install-application-request-routing/samples/sample8.cmd)]
 
 ## Step 3 – Change application pool process model for Application Request Routing
 
@@ -103,22 +95,18 @@ In this step, you will disable the Idle Time-Out under application pool process 
 **To change the application pool process model using the UI:** 
 
 1. Launch IIS Manager.  
-2. Select **Application Pools**.
+ 2. Select     **Application Pools** .
 
-[![](install-application-request-routing/_static/image2.jpg)](install-application-request-routing/_static/image1.jpg)
+    [![](install-application-request-routing/_static/image2.jpg)](install-application-request-routing/_static/image1.jpg)
+2. By default, **DefaultAppPool** is the corresponding application pool for **Default Web Site**. Select **DefaultAppPool**. Under **Actions**, under **Edit Application Pool**, select **Advanced Settings…**.
 
-3. By default, **DefaultAppPool** is the corresponding application pool for **Default Web Site**. Select **DefaultAppPool**. Under **Actions**, under **Edit Application Pool**, select **Advanced Settings…**.
-
-[![](install-application-request-routing/_static/image4.jpg)](install-application-request-routing/_static/image3.jpg)
-
-4. Change the **Idle Time-out (minutes)** to 0 to disable the setting. Click **OK** to save the changes.
+    [![](install-application-request-routing/_static/image4.jpg)](install-application-request-routing/_static/image3.jpg)
+3. Change the **Idle Time-out (minutes)** to 0 to disable the setting. Click **OK** to save the changes.
 
 **To change the application pool process model using the command-line:** 
 
 1. Open a command prompt with **administrator** privileges.
-
 2. Navigate to **%windir%\system32\inetsrv**.
-
 3. Using appcmd, enter **appcmd.exe set apppool "DefaultAppPool" -processModel.idleTimeout:"00:00:00" /commit:apphost**.
 
 ## Repair
@@ -129,13 +117,11 @@ Reparing Application Request Routing involves re-running the downloaded package.
 
 To remove Application Request Routing completely, the 4 packaged components must be removed individually.
 
-1. Open **Control Panel**.
+- Open **Control Panel**.
+- Select **Program and Features**.
+- Locate the following 4 components and uninstall one at a time:  
 
-2. Select **Program and Features**.
-
-3. Locate the following 4 components and uninstall one at a time:
-
-1. 1. Microsoft Application Request Routing Version 1 for IIS
+    1. Microsoft Application Request Routing Version 1 for IIS
     2. Microsoft External Cache Version 1 for IIS
     3. Microsoft URL Rewrite Module for IIS
     4. Microsoft Web Farm Framework Version 1 for IIS
@@ -143,6 +129,5 @@ To remove Application Request Routing completely, the 4 packaged components must
 ## Summary
 
 You have now successfully installed Application Request Routing and the dependent modules, and are ready to configure and use the features. You may also want to read a quick overview at %PROGRAMFILES%\IIS\Application Request Routing\ARR\_ReadMe.htm for more information.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

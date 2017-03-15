@@ -18,4 +18,4 @@ by [Shaun Eagan](https://github.com/shauneagan)
 
 Shaun Eagan describes the performance and management improvement for certificates in IIS 8.
 
-[&#9654; Watch video (10 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/iis-8-certificate-management-and-deployment)
+[&#9654; Watch video (10 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/iis-8-certificate-management-and-deployment)

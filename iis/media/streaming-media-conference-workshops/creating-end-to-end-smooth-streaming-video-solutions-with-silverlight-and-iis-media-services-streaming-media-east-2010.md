@@ -16,4 +16,4 @@ Creating End-to-End Smooth Streaming Video Solutions with Silverlight and IIS Me
 ====================
 by [Microsoft](https://github.com/Microsoft)
 
-[&#9654; Watch video (178 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/creating-end-to-end-smooth-streaming-video-solutions-with-silverlight-and-iis-media-services-streaming-media-east-2010)
+[&#9654; Watch video (178 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/creating-end-to-end-smooth-streaming-video-solutions-with-silverlight-and-iis-media-services-streaming-media-east-2010)

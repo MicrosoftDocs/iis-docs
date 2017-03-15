@@ -66,188 +66,122 @@ The sample application illustrates some techniques that you may want to use with
 
 The sample application includes instructions for configuring your environment for its use. Those instructions should be used as your general guide for setting up the users and privileges needed for running a control-panel style application with MS Deploy.
 
-### Set Up the Web Management Service (WMSVC)
+## Set Up the Web Management Service (WMSVC)
 
 Install and configure WMSVC. This service is used both to host the deployment handler that installs applications and to authorize site owners to install in their Web sites.
 
 1. In the **Start** menu, click **Server Manager**.
-
 2. In the tree view on the left, select the **Roles** node.
-
 3. Scroll down to find and select the **Web Server (IIS)** role.
-
 4. Click **Add Role Services**, and select the **Management Service** component.
-
 5. Once the Management Service is installed, start **IIS Manager**.
-
 6. Select the **Server** node.
-
 7. Scroll down and locate the **Management Service** icon, and double-click on it.
-
 8. Select the **Enable Remote Connections** check box.
-
 9. In the **Task** pane, click **Start** to start the service.
 
-### Set Up the Web Deployment Handler
+## Set Up the Web Deployment Handler
 
 Install and configure the deployment handler.
 
 1. Use the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx) to download and install Web Deployment Tool 1.0. under the **What's New** tab in the **New** **Web Platform Extensions** section.
-
 2. During installation, select either **Custom** or **Complete**.
-
 3. If you selected Custom, be sure that you select the **Web Management Service Integration** component.
-
 4. The deployment handler uses rules to authorize users to perform actions during installation. For example, a common action is running a database script. This action should run as the low-privileged database account that the user already has. Some actions require higher privileges than the site owner has, such as marking a folder as an application. For this task, the handler can be configured to elevate to a higher privileged account. You should create an account that has access just to perform this action.
+5. Allow a user to write to **ApplicationHost.config**, the IIS configuration file, to mark folders as applications. 
 
-5. Allow a user to write to **ApplicationHost.config**, the IIS configuration file, to mark folders as applications.
+    - Create a custom user to mark folders as applications.  
 
-a. Create a custom user to mark folders as applications.
+        [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample1.cmd)]
+    - Grant the user read permission to   
 
-[!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample1.cmd)]
+        [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-2.unknown)]
+    - Grant the user modify permission to  
 
-b. Grant the user read permission to
+        [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-3.unknown)]
 
-[!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-2.unknown)]
+        [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-4.unknown)]
+- Add a set of rules to allow customers to deploy content, applications, and databases by opening the **Administration.config** file and navigating to this section:  
 
-c. Grant the user modify permission to
+    [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample5.xml)]
+- To allow site owners to create applications, set access control lists (ACLs), and deploy database data, you must add the following rules to the **Administration.config** file within the **&lt;management&gt;** section. Make sure to change the **&lt;runAs&gt;** element to contain the user credentials you created in step 5 above. Notice that you can add these rules [programmatically using MWA](../../publish/using-web-deploy/configure-the-web-deployment-handler.md).  
 
-
-[!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-3.unknown)]
-
-
-[!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-4.unknown)]
-
-
-6. Add a set of rules to allow customers to deploy content, applications, and databases by opening the **Administration.config** file and navigating to this section:
-
-
-[!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample5.xml)]
-
-
-7. To allow site owners to create applications, set access control lists (ACLs), and deploy database data, you must add the following rules to the **Administration.config** file within the **&lt;management&gt;** section. Make sure to change the **&lt;runAs&gt;** element to contain the user credentials you created in step 5 above. Notice that you can add these rules [programmatically using MWA](../../publish/using-web-deploy/configure-the-web-deployment-handler.md).
-
-
-[!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample6.xml)]
-
-
-8. In the **Administration.config** file, find the element **"&lt;sectionGroup name="management"&gt;"** inside **"&lt;sectionGroup name="system.webServer"&gt;"**, verify that the following element is listed in it: **"&lt;section name="delegation" overrideModeDefault="Deny" allowDefinition="MachineToWebRoot" /&gt;"**. If not, add it.
-
-9. Restart **WMSVC**.
-
-10. If you are using a remote Universal Naming Convention (UNC) share for content, follow the permission specified in [Configuring Share and NTFS Permissions](../../web-hosting/configuring-servers-in-the-windows-web-platform/configuring-share-and-ntfs-permissions.md), with the following exception: for the path \\server\share$ (share), set "Domain Users" to "Full Control" instead of "Change." If you are using shared configuration, apply the [update](https://support.microsoft.com/kb/969912) to ensure that WMSVC allows connections when Shared Configuration is enabled in Windows Server® 2008.
+    [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample6.xml)]
+- In the **Administration.config** file, find the element **"&lt;sectionGroup name="management"&gt;"** inside **"&lt;sectionGroup name="system.webServer"&gt;"**, verify that the following element is listed in it: **"&lt;section name="delegation" overrideModeDefault="Deny" allowDefinition="MachineToWebRoot" /&gt;"**. If not, add it.
+- Restart **WMSVC**.
+- If you are using a remote Universal Naming Convention (UNC) share for content, follow the permission specified in [Configuring Share and NTFS Permissions](../../web-hosting/configuring-servers-in-the-windows-web-platform/configuring-share-and-ntfs-permissions.md), with the following exception: for the path \\server\share$ (share), set "Domain Users" to "Full Control" instead of "Change." If you are using shared configuration, apply the [update](https://support.microsoft.com/kb/969912) to ensure that WMSVC allows connections when Shared Configuration is enabled in Windows Server® 2008.
 
 <a id="03"></a>
 ## Set Up the Sample Application
 
 Create a Web site, application pool, and custom identity to host the code for the sample application.
 
-### Set Up the Site
+## Set Up the Site
 
 1. Create a physical directory for the sample application Web site with the following command:
 
-
 [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-7.unknown)]
-
-
 2. Create a new user account that will be used to run the sample application and install the applications. Run the following from an elevated command prompt:
 
-
 [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample8.cmd)]
+3. Grant access to the user account:  
 
-
-3. Grant access to the user account:
-
-[!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-9.unknown)]
-
+    [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-9.unknown)]
 4. Create a new Web site to host the sample application.
-
 5. Start **IIS Manager**, and browse to the **Web Sites** node.
-
 6. Right-click on the **Web Sites** node, and then select **Add Web Site**.
-
 7. Create a new Web site called **ControlPanel**. This automatically creates an associated application pool called ControlPanel.
-
 8. Open **IIS Manager**, and browse to the **Application Pools** node.
-
 9. Right-click on the application pool **ControlPanel**, and then select **Advanced Settings**.
-
 10. Under the **Process Model** header, click on the **Identity Network Service**.
+11. Set the identity network service to a custom account, and then enter the *credentials* for the user created in step 2, ControlPanelAppId.  
 
-11. Set the identity network service to a custom account, and then enter the *credentials* for the user created in step 2, ControlPanelAppId.
-
-For dependency checking in the sample application to work correctly, you must use an account that has administration privilege on the computer because dependency checking requires access to the registry and directories that is only available to administrators. Alternately, you can comment out the dependency checking code.
-
+    For dependency checking in the sample application to work correctly, you must use an account that has administration privilege on the computer because dependency checking requires access to the registry and directories that is only available to administrators. Alternately, you can comment out the dependency checking code.
 12. Copy the contents of the sample application into the physical path you selected when creating the Web site.
-
 13. Make sure the application is running under [Full Trust](https://msdn.microsoft.com/en-us/library/tkscy493.aspx). [You can enable it in the App Web.config](https://msdn.microsoft.com/en-us/library/wyts434y.aspx) file or, if not allowed, the administrator can add it to the root Web.config file.
 
-### Use the Default SSL Certificate for WMSVC
+## Use the Default SSL Certificate for WMSVC
 
 By default, the WMSVC service installs a self-signed Secure Sockets Layer (SSL) certificate. Ideally, a fully trusted certificate is installed for the WMSVC, but for testing purposes, use this default certificate with the sample application.
 
 1. In the sample application, open the file **Global.asax**.
+2. Look for the **Application\_Start** function, and uncomment the line:  
 
-2. Look for the **Application\_Start** function, and uncomment the line:
+    [!code-csharp[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample10.cs)]
 
+    to
 
-[!code-csharp[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample10.cs)]
-
-
-to
-
-
-[!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-11.unknown)]
-
-
+    [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-11.unknown)]
 3. Save the file.
 
-### Create a Customer Site and Authorize the Site Owner
+## Create a Customer Site and Authorize the Site Owner
 
 Create a Web site for a site owner and authorize the site owner to both connect using remote management in IIS Manager and install application packages using the sample application.
 
 1. Start **IIS Manager**.
-
 2. Browse to the **Web Sites** node.
-
 3. Create a new Web site called **MySite**, or use one that has already been provisioned.
+4. Create a new site owner account called **MySiteUser**, or use one that has already been provisioned.  
 
-4. Create a new site owner account called **MySiteUser**, or use one that has already been provisioned.
-
-
-[!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample12.cmd)]
-
-
+    [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample12.cmd)]
 5. Select the Web site called **MySite**.
-
-6. In the **Features View**, double-click **IIS Manager Permissions**. 
-
+6. In the **Features View**, double-click **IIS Manager Permissions**.
 7. On the **IIS Manager Permissions** page, in the **Actions** pane, click **Allow User**.
-
 8. In the **Allow User** dialog box, add a Windows user.
-
 9. Click **Select** to open the **Users** dialog box.
-
 10. Type **mysiteuser**, and then click **OK**.
+11. Click **OK** to close the **Allow User** dialog box.  
 
-11. Click **OK** to close the **Allow User** dialog box.
+    See [Allow an IIS Manager User Account to Connect to a Site or an Application (IIS 7)](https://technet.microsoft.com/en-us/library/cc770968.aspx) for additional information.
 
-See [Allow an IIS Manager User Account to Connect to a Site or an Application (IIS 7)](https://technet.microsoft.com/en-us/library/cc770968.aspx) for additional information.
+## Test the Installation of an Application Package
 
-### Test the Installation of an Application Package
-
-1.Start **IIS Manager**.
-
+1. Start **IIS Manager**.
 2. Browse to the **Web Sites** node.
-
 3. Select the Web site **ControlPanel**.
-
 4. In the **Task** pane, click **Browse**.
-
 5. Click on the application package that you want to install.
-
 6. Type **mysite** for the site name, type **mysiteuser** for the username, and type the *password* for this account.
-
 7. Supply other information requested, and click **Install**.
 
 <a id="04"></a>
@@ -259,15 +193,15 @@ The Gallery feed is provided as an extended ATOM feed. The [product list](https:
 - Get the download information for a package.
 - Get dependency information on any of the applications.
 
-### Download the Application List Feed
+## Download the Application List Feed
 
 Before you can parse the feed, you must download it locally. The sample application uses the [WebClient.DownloadFile](https://msdn.microsoft.com/en-us/library/ez801hhe(VS.80).aspx) method to download the feed (see the application list URL above) and save it in a temporary file obtained through [Path.GetTempFileName](https://msdn.microsoft.com/en-us/library/system.io.path.gettempfilename.aspx). These calls are made in **GetXmlLocationFromFeed** (see **Reload** method in the file "ControlPanelAppRtwAPI\App\_Code\Packges.cs").
 
-### Use the WebPI API to Parse the Application Feed
+## Use the WebPI API to Parse the Application Feed
 
 Also in **Reload**, you find calls to the [Microsoft.Web.PlatformInstaller.ProductManager](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.productmanager.aspx) class. This class provides the functionality for managing the data in the feeds (application and product lists).
 
-#### Initialize the ProductManager Object
+### Initialize the ProductManager Object
 
 The following code initatiates and intializes a ProductManager object:
 
@@ -275,7 +209,7 @@ The following code initatiates and intializes a ProductManager object:
 [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-13.unknown)]
 
 
-#### Extract the Installer Information for Each Application
+### Extract the Installer Information for Each Application
 
 When building your user interface, you have the choice of which fields from the ATOM feed you want to display. A minimalist approach would be to just display the applications' names, taken from the title element. You can also create a much richer UI by taking advantage of the graphic elements, such as the icon and screenshot, and incorporating other metadata from the feed.
 
@@ -283,31 +217,25 @@ To display the application information and to create the links to each installat
 
 1. Within a foreach loop, examine each [Microsoft.Web.PlatformInstaller.Product](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.product.aspx) object contained in the Microsoft.Web.PlatformInstaller.ProductManager.Products collection. Identify those that are marked as applications:
 
-
 [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-14.unknown)]
-
-
 2. Still within the foreach loop, get the installer for the application and access the particular object properties needed for the user interface and installation process. The most important of them all is the [InstallerFile.InstallerUrl.AbsoluteUri](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.installerfile.installerurl.aspx), which contains the location for downloading the Web Deploy package for the application:
 
-
 [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-15.unknown)]
-
-
 3. You can then add each of the package objects to your own packages collections and display them in your UI.
 
-### The Application Entry XML
+## The Application Entry XML
 
 Applications are listed as entries within the feed identified with the attribute **type="application"**. A sample application entry from the feed looks like:
 
 [!code-html[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample16.html)]
 
-### Reading the List of Applications Directly from the XML Feed
+## Reading the List of Applications Directly from the XML Feed
 
 You can access the XML from the feed directly, but this is not the recommended approach. The following example illustrates how you could access key application elements:
 
 [!code-csharp[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample17.cs)]
 
-### Identifying Missing Dependencies Using the WebPI API
+## Identifying Missing Dependencies Using the WebPI API
 
 An important step within the sample application is to identify all the missing dependencies in the target server where the application will be installed. The sample apllication collects this information and displays it as an error if the user tries to install an application package for which dependencies are missing. For this purpose, the Web.PlatformInstaller provides the [Microsoft.Web.PlatformInstaller.Product.GetMissingDependencies](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.product.getmissingdependencies.aspx) method, which returns a collection of missing products.
 
@@ -323,7 +251,7 @@ Control panel applications should ensure that the corresponding dependencies for
 
 Note that the GetMissingDependencies method looks for dependencies within the scope of the bit size of the running process. If it is a 32-bit process, it looks for 32-bit dependencies, and for 64-bit process, it looks for 64-bit dependencies. This is important if you are running on a 64-bit computer under 32-bit mode application pools.
 
-### Tracking Application/Product Dependencies
+## Tracking Application/Product Dependencies
 
 The best approach to identifying missing dependencies within your solution is to use WebPI API. However, you can use the following steps if you wish to review the feed XML and identify which dependencies are needed for each application.
 
@@ -331,45 +259,32 @@ One of the most important elements within the **WebApplicationList.xml** feed fi
 
 The product list feed **WebProductList.xml** is the root feed. It not only contains references to the product information (Web Platform components) but also points to a child feed **WebApplicationList.xml**. The **WebApplicationList.xml** contains the references to the applications packages, and each application package entry contains a set of dependency references to product packages defined in **WebProductList.xml**. The following example shows how this relationship is implemented:
 
-1. The WebProductList.xml contains a link to the WebApplicationList.xml:
+1. The WebProductList.xml contains a link to the WebApplicationList.xml:  
 
+    [!code-html[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample19.html)]
+2. The WebApplicationList.xml contains references to application packages contained within &lt;entry&gt; elements. Each package entry contains a list of dependencies.  
 
-[!code-html[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample19.html)]
+    For example, the dependency element for a PHP application that also uses MySQL such as WordPress is:
 
+    [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-20.unknown)]
 
-2. The WebApplicationList.xml contains references to application packages contained within &lt;entry&gt; elements. Each package entry contains a list of dependencies.
+    The &lt;dependency&gt; element means the beginning of the dependency list. The &lt;and&gt; element means that all the dependency elements listed inside are required by the application.
+3. Note the idref="PHPApp" and idref="MySQLApp" properties. They refer to another &lt;dependency&gt; element with corresponding "id" value that defines the actual dependencies.   
 
-For example, the dependency element for a PHP application that also uses MySQL such as WordPress is:
+    For example, if you examine the WebApplicationList.xml file for the "PHPApp" dependency element, you find the set of PHPApp dependencies:
 
-
-[!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-20.unknown)]
-
-
-The &lt;dependency&gt; element means the beginning of the dependency list. The &lt;and&gt; element means that all the dependency elements listed inside are required by the application.
-
-3. Note the idref="PHPApp" and idref="MySQLApp" properties. They refer to another &lt;dependency&gt; element with corresponding "id" value that defines the actual dependencies.
-
-For example, if you examine the WebApplicationList.xml file for the "PHPApp" dependency element, you find the set of PHPApp dependencies:
-
-
-[!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-21.unknown)]
-
-
+    [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-21.unknown)]
 4. The **&lt;** productId&gt; element contains the reference to the corresponding product in the parent feed WebProductList.xml. For example:
 
-- ID = WDeployNoSMO, corresponds to Web Deploy without SMO
-- ID= PHP, corresponds to the PHP engine (currently: 5.2.11)
+    - ID = WDeployNoSMO, corresponds to Web Deploy without SMO
+    - ID= PHP, corresponds to the PHP engine (currently: 5.2.11)
 
-Notice that the &lt;or&gt; entry means that the dependency is for one or the other or both.
+    Notice that the &lt;or&gt; entry means that the dependency is for one or the other or both.
+5. The product entries in the WebProductList.xml contain a &lt;discoveryHint&gt; element that shows what to look for to find out if the product already exist in the target machine or not. 
 
-5. The product entries in the WebProductList.xml contain a &lt;discoveryHint&gt; element that shows what to look for to find out if the product already exist in the target machine or not.
+    For example, in the case of product id "MySQLConnector":
 
-For example, in the case of product id "MySQLConnector":
-
-
-[!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-22.unknown)]
-
-
+    [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-22.unknown)]
 6. The &lt;or&gt; element means that at least one of &lt;discoveryHint&gt; elements must be satisfied.
 
 <a id="05"></a>
@@ -408,7 +323,7 @@ When the user selects an application, you need to download the Web Deploy packag
 
 The sample applications use the WebClient.DownloadFile method to download the package file; after downloading the sample applications, verify the hash and display the parameters required by the package.
 
-### Use the SHA1 Hash to Verify the Package
+## Use the SHA1 Hash to Verify the Package
 
 The **&lt;sha1&gt;** element in the example contains the SHA1 hash of the package to download and acts as a signature for the package. You can use this hash to verify that the downloaded package is indeed the one you expect. The sample application collects this value for every application in the feed XML file and uses the value to verify the hash of the downloaded package.
 
@@ -423,7 +338,7 @@ The following code snippet from the sample application illustrates this verifica
 
 Most packages contain parameters that are required to install them in a given environment. As part of the control panel design, you can choose what types of parameters you can compute and set and which ones require input from the user.
 
-### Collecting the Parameters Defined in the Package
+## Collecting the Parameters Defined in the Package
 
 The Web Deployment API allows you to retrieve the parameters from a package by accessing a collection within the Web Deploy [**DeploymentObject**](https://msdn.microsoft.com/en-us/library/microsoft.web.deployment.deploymentobject.aspx).
 
@@ -439,7 +354,7 @@ The sample applications use a "ReadOnlyCollection" called "Parameters" to bind t
 [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-29.unknown)]
 
 
-### Using the Parameter Names and Tags
+## Using the Parameter Names and Tags
 
 A typical package requests the following parameter names:
 
@@ -470,7 +385,7 @@ You can retrieve these tags through the **DeploymentSyncParameter.Tags** propert
 
 Some parameters have default values that can be retrieved from the **syncParameters** collection. You have the choice of using those defaults, prompting the user for new values with the defaults in the forms, or ignoring them, as appropriate for your environment.
 
-### Using the Parameter Validation Data
+## Using the Parameter Validation Data
 
 There is validation data you can use to help you build the appropriate UI. Each [DeploymentSyncParameter](https://msdn.microsoft.com/en-us/library/microsoft.web.deployment.deploymentsyncparameter.aspx) has a DeploymentSyncParameterValidation object that identifies the parameter as having one or more of the following types of data:
 
@@ -490,7 +405,7 @@ The sample application uses this data to setup the UI input controls appropriate
 
 Once you have gathered all of the data for the parameters, it is time to install the application. Working with your DeploymentObject, you can apply the set parameters and install the application. The API steps to do this are outlined below.
 
-### Initialize the DeploymentObject
+## Initialize the DeploymentObject
 
 You must tell the DeploymentObject how to install the application. For example:
 
@@ -500,7 +415,7 @@ You must tell the DeploymentObject how to install the application. For example:
 
 In the example, the ComputerName is the Universal Resource Identifier (URI) for the MS Deploy agent. The UserName and Password are the credentials for the ID that has the authority to use the agent.
 
-### Set the Parameters
+## Set the Parameters
 
 Each of the parameters in the original application package must have a value. If a parameter has a DefaultValue, you do not need to specify a new value at this point. All other parameters require values.
 
@@ -510,7 +425,7 @@ Each of the parameters in the original application package must have a value. If
 
 The Web site and application that MS Deploy uses to install the application is specified with the Application Path parameter.
 
-### Installing the Application
+## Installing the Application
 
 The application is installed using the DeploymentObject.SyncTo() method. The sample application call to SyncTo follows:
 
@@ -523,7 +438,7 @@ In the code snippet:
 - **DeploymentWellKnownProvider.Auto** specifies that the MS Deploy auto provider be used to install the application. This provider examines the package manifest, contents, and parameter values to decide which resources need to be deployed.
 - **destinationOptions** specifies the target computer, the credentials, and type of authentication to be used during the installation.
 
-### Change the Target Server
+## Change the Target Server
 
 The sample application assumes that the target server is the "localhost." Note that inside the Package.cs file, in the installation method, the code specifies localhost, the SiteName that you enter in the corresponding UI field:
 
@@ -563,6 +478,5 @@ When the installation is complete, your control panel should provide a link to t
 [Best Practices: Running PHP Applications on IIS](introducing-the-windows-web-application-gallery.md)
 
 [Best Practices: Running ASP.NET Applications on IIS](../../application-frameworks/building-and-running-aspnet-applications/index.md)
-
 
 [Discuss in IIS Forums](https://forums.iis.net/1158.aspx)

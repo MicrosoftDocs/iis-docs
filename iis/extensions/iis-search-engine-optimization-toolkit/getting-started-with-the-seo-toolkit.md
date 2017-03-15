@@ -52,8 +52,9 @@ You can post questions and get free help in the [SEO Toolkit Forum](https://foru
 
 ## Extending the IIS SEO Toolkit
 
-The IIS SEO Toolkit gives you many built-in reports (as well as a query generator for new reports) to analyze the discoverability and quality of your Web site. You also have the ability to customize the IIS SEO Toolkit in two ways:  
-1. Create your own definitions of violations and warnings, so that when the IIS SEO Toolkit crawls your Web site, the reports include the new information that you want to collect.  
+The IIS SEO Toolkit gives you many built-in reports (as well as a query generator for new reports) to analyze the discoverability and quality of your Web site. You also have the ability to customize the IIS SEO Toolkit in two ways:
+
+1. Create your own definitions of violations and warnings, so that when the IIS SEO Toolkit crawls your Web site, the reports include the new information that you want to collect.
 2. Extend the user console of the IIS SEO Toolkit for new tasks in the Site Analysis, Robots, and Sitemaps management tools.
 
 For more information, you can review a series of [blog postings](https://blogs.iis.net/carlosag/default.aspx "blog postings"), starting with an overview of the [IIS SEO Toolkit extensibility](https://blogs.iis.net/carlosag/archive/2009/11/23/iis-seo-toolkit-extensibility.aspx) and [how to define your own violations and warnings](https://blogs.iis.net/carlosag/archive/2009/11/23/iis-seo-toolkit-crawler-module-extensibility.aspx) for the IIS SEO Toolkit to capture.
@@ -61,6 +62,5 @@ For more information, you can review a series of [blog postings](https://blogs.i
 ## Summary
 
 You can [download](https://www.microsoft.com/web/page.aspx?templang=en-us&amp;chunkfile=seo.html) the IIS SEO Toolkit today to simplify how you improve the discoverability and quality of your Web site. The IIS SEO Toolkit is free, easy-to-use, and highly extensible, making it a powerful tool for any Web site administrator and developer.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1162.aspx)
