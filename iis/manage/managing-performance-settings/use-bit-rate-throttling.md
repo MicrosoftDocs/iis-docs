@@ -49,14 +49,9 @@ IIS Bit Rate Throttling is included in IIS Media Services 3.0, which can be inst
 ### Install Using Web Platform Installer
 
 1. Go to the **[Microsoft Web Platform Installer 2.0 Web page](https://go.microsoft.com/?linkid=9656457)**, and then click **Download It Now** to download and run Web Platform Installer 2.0.
-
 2. In the lower-left corner of the **Web Platform Installer 2.0** dialog box, click **Options**.
-
-3. In the **Change Options** dialog box, under **Display additional scenarios**, make sure that the **Media** check box is selected, and then click **OK**.
-
-4. In the **Web Platform Installer 2.0** dialog box, on the **Media Platform** tab, under **Host and Deliver Media Content**, click **Customize**.
-
-5. Select **IIS Media Services 3.0**, and then click **Install**.
+3. In the **Change Options** dialog box, under **Display additional scenarios**, make sure that the **Media** check box is selected, and then click **OK**.**Web Platform Installer 2.0****Media Platform****Host and Deliver Media Content****Customize**
+In thedialog box, on thetab, under, click.4. Select **IIS Media Services 3.0**, and then click **Install**.
 
 ## Install Using Windows Installer
 
@@ -72,9 +67,7 @@ To run the Windows Installer file that you downloaded, do the following:
 -or-
 
 1. Open an elevated Command Prompt window (click **Start**, click **All Programs**, click **Accessories**, right-click **Command Prompt**, and then click **Run as administrator**).
-
 2. In the **Administrator: Command Prompt** window, navigate the command prompt to the folder where the Windows Installer file is stored.
-
 3. Type one of the following commands to run the installation: **msiexec /I IISMedia32.msi** (for the 32-bit edition of the operating system) or **msiexec /I IISMedia64.msi** (for the 64-bit edition of the operating system).
 
 If you encounter any problems during installation, type one of the following commands at the command prompt to create a log file that contains information about the installation process: **msiexec /L IISMedia.log /I IISMedia32.msi** (for the 32-bit edition of the operating system) or **msiexec /L IISMedia.log /I IISMedia64.msi** (for the 64-bit edition of the operating system). Analyze this log file after a failed installation to help determine the cause of the failure.
@@ -86,6 +79,5 @@ You can then configure throttling at the server level, the site level (using Web
 [TechNet Virtual Lab: Using IIS 7.0 Media Features in a PHP Application](http://msevents.microsoft.com/CUI/WebCastEventDetails.aspx?EventID=1032413789&amp;EventCategory=3&amp;culture=en-US&amp;CountryCode=US).
 
 [Bit Rate Throttling](https://www.iis.net/downloads/microsoft/bit-rate-throttling)
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1050.aspx)

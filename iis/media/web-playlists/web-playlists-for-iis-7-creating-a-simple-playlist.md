@@ -35,10 +35,10 @@ A playlist is a list of media entries. Each entry has a list of possible client 
 The first step is to create a list of media entries and optionally apply properties to media entries that limit a clients ability to seek, skip forward or skip backward. The steps involved are:
 
 1. Create an empty playlist.
-2. Add media entries to the playlist.
+2. Add media entries to the playlist. 
 
-    1. Select media entries (either one at a time or in bulk) for the playlist.
-    2. Set the properties for the element(s) and add them to the playlist.
+    - Select media entries (either one at a time or in bulk) for the playlist.
+    - Set the properties for the element(s) and add them to the playlist.
 3. Ensure that the order of media entries in the playlist is correct.
 4. Set properties for the playlist.
 5. Click Apply.
@@ -48,13 +48,11 @@ The first step is to create a list of media entries and optionally apply propert
 #### Create an Empty Playlist
 
 1. In IIS Manager, go the Web site that you want to create a playlist for and open the **Playlists** feature in the **Media Services** category.[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image2.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image1.jpg)
-
-
 2. In the **Actions** pane, click **Add Playlist**.
 
-[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image2.bmp)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image1.bmp)
+    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image2.bmp)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image1.bmp)
 
-[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image5.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image4.jpg)
+    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image4.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image3.jpg)
 
 ##### Set Playlist Properties
 
@@ -70,43 +68,38 @@ The following properties are available to be set:
 #### Add Media Entries to the Playlist
 
 1. In the **Add/Edit Playlist** page, in the **Media entries** area, click **Add** to open the **Add Media Entry** dialog box. The details in this dialog box apply to all the media entries that you select.
-
 2. In the **Add Media Entry** dialog box, add the following details to add media entries:
 
-- **Location type**. In the dropdown list, select whether the media content referenced by the playlist is local or remote. 
+    - **Location type**. In the dropdown list, select whether the media content referenced by the playlist is local or remote. 
 
-    - Local content can be on the local disk (**Relative URI**/**Physical path**) or on a UNC share (**Physical path**) that is accessible to the playlist handler.
-    - Remote content is a URL to a media file (for example, http://&lt;myServer&gt;/myfile.wmv) or to another playlist file. Web Playlists cannot control seek/skip behavior for remote content.
+        - Local content can be on the local disk (**Relative URI**/**Physical path**) or on a UNC share (**Physical path**) that is accessible to the playlist handler.
+        - Remote content is a URL to a media file (for example, http://&lt;myServer&gt;/myfile.wmv) or to another playlist file. Web Playlists cannot control seek/skip behavior for remote content.
 
-> See the sections later in this article that describe how to add nested playlists and integrate with Web applications to obtain content location.
+    See the sections later in this article that describe how to add nested playlists and integrate with Web applications to obtain content location.
 
+    - **Content location**. Use the **Browse** button to populate a comma-delimited list of content items. You can select multiple items to add to the playlist at once. To select adjacent items, press and hold the SHIFT key while selecting. To select nonadjacent items, press and hold the CTRL key while selecting.
 
-- **Content location**. Use the **Browse** button to populate a comma-delimited list of content items. You can select multiple items to add to the playlist at once. To select adjacent items, press and hold the SHIFT key while selecting. To select nonadjacent items, press and hold the CTRL key while selecting.
+    > [!NOTE]
+    > If you are using IIS Manager to connect to a remote server, ensure that the paths correspond to the remote computer. The **Browse** button is disabled in this case.
 
-> [!NOTE]
-> If you are using IIS Manager to connect to a remote server, ensure that the paths correspond to the remote computer. The **Browse** button is disabled in this case.
+    - **Title** (optional). The playlist title.
+    - **Disable skip forward** (optional). Disallows the content to be skipped so that the next entry is played before the current entry is played. (For example, a particular site may want to disable skip on all advertisements on the site.)
 
+    > [!NOTE]
+    > Disable skip forward has a dependency on the playlist handler attribute **allowSkipAfterMinPercent**, which specifies when skip forward is enabled. For example, If this attribute value is set to **80**, it means that after 80 percent of the content has been viewed, **Skip Forward** will be enabled (if disabled) in the player and the user will be able to skip to the next item in the playlist. If you want to disallow this, ensure that this value is set to 100.
 
-- **Title** (optional). The playlist title.
-- **Disable skip forward** (optional). Disallows the content to be skipped so that the next entry is played before the current entry is played. (For example, a particular site may want to disable skip on all advertisements on the site.)
+    - **Disable skip backward** (optional). Disallows the content to be skipped so that it can be played again from the beginning. This is very helpful in the cases where you want to disallow viewing/listening to a media item repeatedly (for example, with online radio stations).
+    - **Disable seek** (optional). Disallows seeking within the content. In most players, the **Seek** bar will be disabled. However, in cases where it is enabled, the Web server disallows seek.
 
-> [!NOTE]
-> Disable skip forward has a dependency on the playlist handler attribute **allowSkipAfterMinPercent**, which specifies when skip forward is enabled. For example, If this attribute value is set to **80**, it means that after 80 percent of the content has been viewed, **Skip Forward** will be enabled (if disabled) in the player and the user will be able to skip to the next item in the playlist. If you want to disallow this, ensure that this value is set to 100.
+    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image6.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image5.jpg)
 
-
-- **Disable skip backward** (optional). Disallows the content to be skipped so that it can be played again from the beginning. This is very helpful in the cases where you want to disallow viewing/listening to a media item repeatedly (for example, with online radio stations).
-- **Disable seek** (optional). Disallows seeking within the content. In most players, the **Seek** bar will be disabled. However, in cases where it is enabled, the Web server disallows seek.
-
-[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image7.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image6.jpg)
-
-[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image9.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image8.jpg)
-
+    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image8.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image7.jpg)
 
 #### Ensure that the Order of Entries in the Playlist is Correct
 
 The presentation order of media entries in a playlist is very important, as the playlist is played in that order. The order goes from top to bottom. This means that content on top will be played before content below. Therefore, it is important to ensure that you have the correct order in the playlist. For example, if you want users of your content to be able to get to the content only after playing an advertisement, you must ensure that the advertisement is placed above the content in the playlist. (You may additionally want to disable skip forward if you want to enforce viewing the advertisements.)
 
-After media entries are added, you can re-order them in the playlist by selecting an entry and using the **Move Up** and **Move Down** buttons to reposition media entries in the playlist.[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image13.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image12.jpg)
+After media entries are added, you can re-order them in the playlist by selecting an entry and using the **Move Up** and **Move Down** buttons to reposition media entries in the playlist.[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image10.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image9.jpg)
 
 <a id="nesting"></a>
 
@@ -121,38 +114,33 @@ A nested playlist entry can be added by using the Playlists feature the same way
 
 ### Configuration Settings for Nested Playlists
 
-
 The following configuration entries are used for nested playlist functionality:
-
 
 - **maximumPlaylistDepth**. Defines how many levels of nested playlists are supported. The default value is **5**, which means that 5 levels are possible. This entry is not configurable through the feature in IIS Manager.
 
-
 ### Playlist Settings for Nested Playlists
-
 
 In case of nesting, the settings in the master playlist are used. This is done because the master playlist has the best idea of what it takes to go through the entire set of media entries (including other playlists). The settings in the nested playlists are ignored.
 
 - **Enable playlist lifetime timeout**. The lifetime of the playlist. The value of this attribute in the outermost playlist applies to the entire session. Attribute values in nested playlists are ignored. This value sets the session lifespan for the playlist.
 - **Enable playlist inactivity timeout**. The time after which the session information for the playlist is invalid. The value of this attribute in the outermost playlist applies to the entire session. Attribute values in nested playlists are ignored. This value sets the Inactive session timeout for the playlist.
 
-
 ### Controlling Nested Playlist Playback
-
 
 A general rule of thumb for player playback controls is that they are applicable only to the media entry they are associated with.
 
 When the media entry is a nested playlist, the media entry flags determine if the nested playlist media entry can be skipped. After a client begins playing the nested playlist, the skip/seek logic is then governed by the media entries in the nested playlist. At this point, the parent playlist flags are still in force because the parent entry is not yet completed. The nested media entry is marked as completed only after the entire playlist has been played.
 
 The **Seek** control in players is ignored when a media entry is a nested playlist.
+
 <a id="httpd"></a>
 
 ## Adding HTTPD Media Entries
 
 Web Playlists can use media entries that begin with the httpd:// URL prefix to request that an external application, such as an ASP page, ASP.NET, or PHP application computes the correct content path/URL to serve. Server variables can be included in the URL while requesting these applications using the {var\_name} syntax (for example, httpd://{SERVER\_NAME}:{SERVER\_PORT}/pre.aspx). Remote applications can use this information to to determine the correct content to serve. The call flow is best captured by the following figure:
 
-[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image15.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image14.jpg)  
-   
+[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image12.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image11.jpg)
+
 In the Web Playlists feature in IIS Manager, you can use any location type with an httpd:// media entry. Set the **Location type** to match the content location returned by the remote application that served the request. For example, if the remote application returns a physical path such as C:\media\file.asf, then **Location type** should be set to **Physical path**.
 
 In the Web Playlists feature in IIS Manager, simply add a media entry that uses the httpd:// syntax in the **Content location** field.
@@ -177,7 +165,6 @@ The ASPX page returns a path to advertisement.wmv. However, you can include any 
 
 > [!NOTE]
 > It is really important to set **ContentType** to **text/plain** as that is required by Web Playlists.
-
 
 <a id="xml"></a>
 
@@ -222,7 +209,6 @@ Web Playlists has limited support for following SMIL elements:
 
 
 [!code-html[Main](web-playlists-for-iis-7-creating-a-simple-playlist/samples/sample3.html)]
- 
 
 <a id="credentials"></a>
 
@@ -236,24 +222,23 @@ The following procedure add credentials for a specific path:
 
 1. In the **Actions** pane, click **Edit Impersonation Settings**.
 
-[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image4.bmp)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image3.bmp)
-
-
+    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image4.bmp)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image3.bmp)
 2. Click **Add**.
 
-[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image19.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image18.jpg)
-
+    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image14.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image13.jpg)
 3. In the **Add Impersonation Setting** dialog box, enter the path that you want to provide credentials for and chose a Logon method. This path can be a UNC path or a simple local path. The Logon methods are identical to those used for Virtual Directories. See [More Information](web-playlists-for-iis-7-creating-a-simple-playlist.md#info) later in this article for more details.
-
 4. Click **Set**.
 
-[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image21.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image20.jpg)
+    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image16.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image15.jpg)
+5. In the **Set Credentials** dialog box, provide the user name and password for the path given earlier.
 
-5. In the **Set Credentials** dialog box, provide the user name and password for the path given earlier.[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image23.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image22.jpg)
+    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image18.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image17.jpg)
+6. The path impersonation setting is now set.
 
-6. The path impersonation setting is now set.[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image25.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image24.jpg)
+    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image20.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image19.jpg)
+7. The Playlist handler uses the path to determine the correct credentials to use. See the following figure.
 
-7. The Playlist handler uses the path to determine the correct credentials to use. See the following figure.[![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image27.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image26.jpg)
+    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image22.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image21.jpg)
 
 <a id="client"></a>
 
@@ -276,7 +261,7 @@ The playlist in the example above results in the following ASX when accessed by 
 
 
 [!code-unknown[Main](web-playlists-for-iis-7-creating-a-simple-playlist/samples/sample-127296-4.unknown)]
- 
+
 
 When the player tries to play the playlist, The param tags above act as hints to player / developer writing the player. If there is an attempt to ignore the hints, then the server-side logic ensures the sanctity of the media controls: **Disable Skip Forward**, **Disable Skip Backward**, and **Disable Seek**.
 
@@ -290,6 +275,5 @@ In addition to supporting client-side playlist format asx, the Release Candidate
 - PARAM Tags in ASX - [https://msdn.microsoft.com/en-us/library/bb249281(VS.85).aspx](https://msdn.microsoft.com/en-us/library/bb249281(VS.85).aspx)
 - ClientSkip Attribute for ENTRY - [https://msdn.microsoft.com/en-us/library/ms910279.aspx](https://msdn.microsoft.com/en-us/library/ms910279.aspx)
 - Logon Type - [https://msdn.microsoft.com/en-us/library/ms691229(VS.85).aspx](https://msdn.microsoft.com/en-us/library/ms691229(VS.85).aspx)
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

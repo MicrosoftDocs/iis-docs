@@ -16,13 +16,7 @@ Web Playlists for IIS 7.0 - Extending Web Playlists through Custom Providers
 ====================
 by [Vishal Sood](https://twitter.com/vishalsood)
 
-Web Playlists allows you to extend its default behavior by writing custom providers. It provides a COM interface that can be implemented in either a .NET-based or native custom provider. This document contains the following sections:
-
-- [Writing custom providers](web-playlists-for-iis-extending-web-playlists-through-custom-providers.md#Write)
-- [Building a custom provider](web-playlists-for-iis-extending-web-playlists-through-custom-providers.md#Build)
-- [Installing and running custom providers](web-playlists-for-iis-extending-web-playlists-through-custom-providers.md#Install)
-- [Manually registering custom providers](web-playlists-for-iis-extending-web-playlists-through-custom-providers.md#Register)
-- [Resources](web-playlists-for-iis-extending-web-playlists-through-custom-providers.md#Resources) - This includes the interface and header files needed to write custom providers
+Web Playlists allows you to extend its default behavior by writing custom providers. It provides a COM interface that can be implemented in either a .NET-based or native custom provider.
 
 <a id="Write"></a>
 
@@ -47,7 +41,6 @@ The code sample in this section shows how to add an advertisment in front of the
 
 
 [!code-csharp[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample1.cs)]
-
 
 <a id="Build"></a>
 
@@ -91,95 +84,89 @@ In the [Resources](web-playlists-for-iis-extending-web-playlists-through-custom-
 
 1. In Internet Information Services (IIS) Manager, at the site level, click **Playlists**. (Ref: Figure 1)
 
-[![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image5.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image3.jpg)
+    [![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image4.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image3.jpg)
 
-### 
-
- Figure 1. IIS 7.0 Manager - Open the Playlists page 
-
+    *Figure 1. IIS 7.0 Manager - Open the Playlists page*
 2. In the **Actions** pane, click **Configure Providers**. You will see the list of providers that are registered for the site. (Ref. Figure 2)
 
-[![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image8.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image7.jpg)
+    [![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image6.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image5.jpg)
 
-Figure 2. IIS 7.0 Manager - Open the Playlist providers page
-
+    *Figure 2. IIS 7.0 Manager - Open the Playlist providers page*
 3. In the **Actions** pane, click **Add**. (Ref. Figure 3)
 
-[![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image15.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image13.jpg)
+    [![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image8.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image7.jpg)
 
-Figure 3. Open the Add Playlist Provider dialog box
-
+    *Figure 3. Open the Add Playlist Provider dialog box*
 4. In the **Add Playlist Provider** dialog box, fill in the following details. Click **OK** when you are done. (Ref. Figure 4, 5)
 
-- **Provider name**. Enter a friendly name for the provider. It is only used to identify the provider in the Playlist providers page.
-- **Description**. Enter a description for the provider. You could use this field to briefly describe what the provider does. It is only used by the administrator to help identify the provider.
-- **Program ID**. Enter the COM ProgID that is used in the provider code. It is used to detect and load the provider at runtime.
-- **File extension**. Enter the file name extension that will be used for playlists that the provider will work with. The Playlists feature already handles Web playlists (file with .isx file name extensions). This field adds the handler mapping to the IIS config so that the Playlists feature can handle requests for this extension.
-- **File-based handler** (optional). As explained previously, this is an optional field. If your provider stores the playlist in a file, checking this option allows the IIS pipeline provide the needed file details and a stream to access file contents.
-- **Bitness** (64-bit systems only). Select whether the provider works as 32-bit through WOW layer, 64-bit, or both. The relevant configuration entries are added to the IIS config to handle the requests.
+    - **Provider name**. Enter a friendly name for the provider. It is only used to identify the provider in the Playlist providers page.
+    - **Description**. Enter a description for the provider. You could use this field to briefly describe what the provider does. It is only used by the administrator to help identify the provider.
+    - **Program ID**. Enter the COM ProgID that is used in the provider code. It is used to detect and load the provider at runtime.
+    - **File extension**. Enter the file name extension that will be used for playlists that the provider will work with. The Playlists feature already handles Web playlists (file with .isx file name extensions). This field adds the handler mapping to the IIS config so that the Playlists feature can handle requests for this extension.
+    - **File-based handler** (optional). As explained previously, this is an optional field. If your provider stores the playlist in a file, checking this option allows the IIS pipeline provide the needed file details and a stream to access file contents.
+    - **Bitness** (64-bit systems only). Select whether the provider works as 32-bit through WOW layer, 64-bit, or both. The relevant configuration entries are added to the IIS config to handle the requests.
 
-[![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image18.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image17.jpg)
+    [![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image10.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image9.jpg)
 
-Figure 4. Add Playlist Provider dialog box
+    *Figure 4. Add Playlist Provider dialog box*
 
-[![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image22.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image21.jpg)
+    [![](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image12.jpg)](web-playlists-for-iis-extending-web-playlists-through-custom-providers/_static/image11.jpg)
 
-Figure 5. Bitness options for custom provider configuration
+    *Figure 5. Bitness options for custom provider configuration*
 
 <a id="Register"></a>
 
-## Manually registering custom providers
+    ## Manually registering custom providers
 
-After you have added the relevant configuration entries by following the steps in the previous section, you must register the provider.
+    After you have added the relevant configuration entries by following the steps in the previous section, you must register the provider.
 
-#### Registering a native custom provider
+    #### Registering a native custom provider
 
-For 32-bit systems, do the following to register a native custom provider:
+    For 32-bit systems, do the following to register a native custom provider:
 
-1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
-2. Type the following command: **%WINDIR%\system32\regsvr32.exe &lt;*providerdllname*.dll&gt;** where *providerdllname*.dll is the provider dll.
+    1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
+    2. Type the following command: **%WINDIR%\system32\regsvr32.exe &lt;*providerdllname*.dll&gt;** where *providerdllname*.dll is the provider dll.
 
-For 64-bit systems, do the following to register a native custom provider:
+    For 64-bit systems, do the following to register a native custom provider:
 
-1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
-2. Type the following command:
+    1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
+    2. Type the following command: 
 
-    - For native 64 bit **- %WINDIR%\system32\regsvr32.exe &lt;*providerdllname*.dll&gt;** where *providerdllname*.dll is the provider dll.
-    - For 32 bit supported through WOW layer - **%WINDIR%\syswow64\regsvr32.exe &lt;*providerdllname*.dll&gt;** where *providerdllname*.dll is the provider dll.
+        - For native 64 bit **- %WINDIR%\system32\regsvr32.exe &lt;*providerdllname*.dll&gt;** where *providerdllname*.dll is the provider dll.
+        - For 32 bit supported through WOW layer - **%WINDIR%\syswow64\regsvr32.exe &lt;*providerdllname*.dll&gt;** where *providerdllname*.dll is the provider dll.
 
-#### Registering a .NET-based custom provider
+    #### Registering a .NET-based custom provider
 
-For 32-bit systems, do the following to register a .NET-based custom provider:
+    For 32-bit systems, do the following to register a .NET-based custom provider:
 
-1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
-2. In Command Prompt, navigate to the .NET Framework directory (for example, C:\Windows\Microsoft.NET\Framework\v2.0.50727).
-3. Type the following command: **RegAsm.exe &lt;*providerdllname*.dll&gt;** where *providerdllname*.dll is the provider dll.
+    1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
+    2. In Command Prompt, navigate to the .NET Framework directory (for example, C:\Windows\Microsoft.NET\Framework\v2.0.50727).
+    3. Type the following command: **RegAsm.exe &lt;*providerdllname*.dll&gt;** where *providerdllname*.dll is the provider dll.
 
-For 64-bit systems, do the following to register a .NET-based custom provider:
+    For 64-bit systems, do the following to register a .NET-based custom provider:
 
-1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
-2. In Command Prompt, navigate to the .NET Framework directory (for example, C:\Windows\Microsoft.NET\Framework64\v2.0.50727).
-3. Type the following command: **RegAsm.exe &lt;*providerdllname*.*dll*&gt;** where *providerdllname*.dll is the provider dll.
+    1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
+    2. In Command Prompt, navigate to the .NET Framework directory (for example, C:\Windows\Microsoft.NET\Framework64\v2.0.50727).
+    3. Type the following command: **RegAsm.exe &lt;*providerdllname*.*dll*&gt;** where *providerdllname*.dll is the provider dll.
 
-For 64 bit systems, when you run as 32 bit through WOW layer, do the following to register a .NET-based custom provider
+    For 64 bit systems, when you run as 32 bit through WOW layer, do the following to register a .NET-based custom provider
 
-1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
-2. In Command Prompt, navigate to the .NET Framework directory (for example, C:\Windows\Microsoft.NET\Framework\v2.0.50727).
-3. Type the following command: **RegAsm.exe &lt;*providerdllname*.dll&gt;** where *providerdllname*.dll is the provider dll.
+    1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
+    2. In Command Prompt, navigate to the .NET Framework directory (for example, C:\Windows\Microsoft.NET\Framework\v2.0.50727).
+    3. Type the following command: **RegAsm.exe &lt;*providerdllname*.dll&gt;** where *providerdllname*.dll is the provider dll.
 
 <a id="Resources"></a>
 
-## Resources
+    ## Resources
 
-**Web Playlists Interface**. [Download](https://www.iis.net/community/files/media/WebPlaylists-SDK.zip) this file and unzip the contents into a directory on your computer. The directory location will serve as your Web Playlists Include path.
+    **Web Playlists Interface**. [Download](https://www.iis.net/community/files/media/WebPlaylists-SDK.zip) this file and unzip the contents into a directory on your computer. The directory location will serve as your Web Playlists Include path.
 
-**Web Playlists Extensibility Support**. View the Web Playlists Programming Reference and Programming Guide on the [Microsoft Developer Network (MSDN)](https://msdn.microsoft.com/en-us/library/dd146275.aspx).
+    **Web Playlists Extensibility Support**. View the Web Playlists Programming Reference and Programming Guide on the [Microsoft Developer Network (MSDN)](https://msdn.microsoft.com/en-us/library/dd146275.aspx).
 
-## Summary
+    ## Summary
 
-In this walkthrough we learned how to write a custom provider and install it on the system. The writing portion should serve as a starting point; We recommend that you check out the Software Development Kit (SDK) for more detailed information.
+    In this walkthrough we learned how to write a custom provider and install it on the system. The writing portion should serve as a starting point; We recommend that you check out the Software Development Kit (SDK) for more detailed information.
 
-The code sample in this document is just for tutorial purposes and to serve as an example. It is not supported and confers no rights.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)
+    The code sample in this document is just for tutorial purposes and to serve as an example. It is not supported and confers no rights.
+
+    [Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

@@ -33,13 +33,6 @@ There are three main components in the sample. Each has a corresponding Visual S
 > [!NOTE]
 > This is a sample application and should not be used in a production environment. It is provided for learning purposes only.
 
-This article contains the following:
-
-- [Getting Started with the Services](services-overview.md#Getting)
-- [Hosting Environment](services-overview.md#Hosting)
-- [Management Services for Hosters](services-overview.md#Management)
-- [Sample Services Architecture](services-overview.md#Sample)
-
 <a id="Getting"></a>
 
 ## Getting Started with the Services
@@ -67,14 +60,11 @@ Validate the installation using the following steps.
 
 1. Browse to the following url: http://&lt;hostheader&gt;/webmanagementservice.svc . The following page appears if the installation was successful, which indicates that the service is now hosted.
 
-[![](services-overview/_static/image3.jpg)](services-overview/_static/image1.jpg)
+    [![](services-overview/_static/image2.jpg)](services-overview/_static/image1.jpg)
 
-> [!NOTE]
-> You must configure an account with admin rights for running either Windows Service or an application pool for the IIS hosted web site, since the services require admin level permissions to manage IIS configurations, as well as other functions.
-
+    > [!NOTE]
+    > You must configure an account with admin rights for running either Windows Service or an application pool for the IIS hosted web site, since the services require admin level permissions to manage IIS configurations, as well as other functions.
 2. Download and install the solution with the **SolutionSetup.msi** installation package. Open the solution (IIS7GoLive.sln) in Visual Studio and you find the following structure in Solution Explorer.
-
-[![](services-overview/_static/image6.jpg)](services-overview/_static/image5.jpg)
 
 <a id="Hosting"></a>
 
@@ -82,9 +72,9 @@ Validate the installation using the following steps.
 
 A typical hosting environment is a heterogeneous environment (as shown in figure below). Most hosters use Web Services to manage the disparate set of servers and the different roles each server plays.
 
-[![](services-overview/_static/image9.jpg)](services-overview/_static/image7.jpg)
+[![](services-overview/_static/image4.jpg)](services-overview/_static/image3.jpg)
 
-Figure 1: A Heterogeneous Hosting Environment
+*Figure 1: A Heterogeneous Hosting Environment*
 
 ### Different Servers
 
@@ -132,9 +122,9 @@ The Query operations view information specific to each subsystem. A hoster's sup
 
 The sample is implemented as Windows Communication Framework (WCF) services, which are then exposed to customers as Web Services using the WSHttpBinding. The following is an architectural diagram:
 
-[![](services-overview/_static/image13.jpg)](services-overview/_static/image11.jpg)
+[![](services-overview/_static/image6.jpg)](services-overview/_static/image5.jpg)
 
-Figure 1: Hosting Services Sample Architecture
+*Figure 1: Hosting Services Sample Architecture*
 
 In the diagram, notice the consistency of the framework. All subsystems are developed with the same pattern of contracts and operations. This framework can be followed by future subsystems.
 
@@ -143,11 +133,7 @@ In the diagram, notice the consistency of the framework. All subsystems are deve
 The following subsystems are provided in the sample:
 
 1. **Web Service** - This subsystem is for IIS 7.0 web site provisioning, management, and query. Aside from the basic site creation, added functionality pertains to managing and querying of sites, Application Pools, default documents, bindings, authentication, and others. The goal of this subsystem is to create web services for all functionality that exists in IIS manager. The data contract for this subsystem is based on the IIS 7.0 xml schema found at c:\windows\system32\inetsrv\config. Services are written using the Microsoft.Web.Administration APIs.
-
 2. **FTP Service** - This subsystem is built for the new FTP7 Server that only runs on Windows Server® 2008 and IIS 7.0. The FTP7 Server add-on is available as a free download. The new FTP contains feature improvements for the shared hosting scenario. For instance, an FTP binding can be added to a web site so that the same content can be hosted on both sites. Like the subsystem for the web, this subsystem's data contracts are also based on the Config files schema.
-
 3. **Content Storage Service** - This subsystem is for provisioning, managing, and querying of storage that an end user may need. This is used in conjunction with site creation and managing the storage a user has for a site. Quotas can be set and permissions and security applied at both directory and file levels.
-
 4. **Active Directory Service** - This subsystem is for provisioning, managing and querying of Active Directory membership stores. This would be used in situations where a customer might want to create an Organization Unit, groups within that OU, and users to be added to the groups.
-
 5. **SQL service** - This subsystem is for SQL Server Database provisioning, management and query. This is used in situations in which a customer develops an application that requires a database. They need to create the database, run scripts to create stored procedures, create tables, and populate tables with data.

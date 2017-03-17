@@ -16,7 +16,7 @@ How Do I Configure FTP Security in IIS?
 ====================
 by [Robert McMurray](https://github.com/rmcmurray)
 
-> This page is an experiment in a new approach to presenting annotated lists of links on specific subjects of interest to developers. Please [send me an email with your comments](&#109;a&#105;l&#116;o&#58;a&#115;p&#110;e&#116;u&#101;&#64;&#109;i&#99;r&#111;s&#111;f&#116;.&#99;o&#109;?&#115;u&#98;j&#101;c&#116;=&#78;e&#119;&#32;&#99;u&#114;a&#116;e&#100;&#32;&#99;o&#110;t&#101;n&#116;&#32;&#118;i&#101;w&#32;f&#111;r&#32;F&#84;P&#32;S&#101;t&#116;i&#110;g&#115;.md) indicating what you think of the content and the way it is presented.
+> This page is an experiment in a new approach to presenting annotated lists of links on specific subjects of interest to developers. Please [send me an email with your comments](mailto:aspnetue@microsoft.com?subject=New curated content view for FTP Settings) indicating what you think of the content and the way it is presented.
 
 
 The Internet presents a formidable set of security challenges for today's server administrators; hackers, malware, and other cyber-threats require administrators to keep up-to-date with the growing number of threats. To help counter these challenges, Microsoft's FTP service provides a variety of security features to help administrators keep their FTP sites secure.

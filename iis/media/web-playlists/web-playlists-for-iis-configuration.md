@@ -32,7 +32,6 @@ To install the Web Playlists extension for IIS 7 and above, see the **Installati
 
 Before creating a playlist, be aware of the following playlist handler attributes. These attributes are defined in the playlist handler schema and can be set through the applicationHost.config file.
 
-
 | **Rule Attribute** | **Required** | **Type** | **Permissible Values** | **Default Value** | **Description** |
 | --- | --- | --- | --- | --- | --- |
 | **enabled** | No | Bool | True/False | True | Determines if Web Playlists is enabled on the node. |
@@ -52,7 +51,6 @@ Before creating a playlist, be aware of the following playlist handler attribute
 | **accessOptions** | Sets impersonation settings for a particular path that can then be used inside a playlist. |
 | **playlistProviders** | Web Playlists provides a mechanism to write custom providers.This element stores the configuration for the available providers. |
 | **ouputFormts** | A collection to specify an output format extension to web Playlists. This allows you to specify format name, XSLT path and the content type related to the format |
-
 
 <a id="schema"></a>
 
@@ -74,15 +72,14 @@ A server is shared by multiple sites. Each site has its own administrator and th
 
 **Important** This is the most important step. If this is not done, any lower level site administrator can add any file on the server to his/her playlist and that, in turn, would be downloaded for them. This can be a security issue. By default, this setting is set to False in the handler config.
 
-All other settings could have the default values *.*
+All other settings could have the default values.
 
 1. In the **Actions** pane, click **Edit Feature Settings**.
 
-[![](web-playlists-for-iis-configuration/_static/image2.bmp)](web-playlists-for-iis-configuration/_static/image1.bmp)
-
+    [![](web-playlists-for-iis-configuration/_static/image2.bmp)](web-playlists-for-iis-configuration/_static/image1.bmp)
 2. In the **Edit Feature Settings** dialog box, clear the **Allow absolute/UNC paths** check box.
 
-[![](web-playlists-for-iis-configuration/_static/image5.bmp)](web-playlists-for-iis-configuration/_static/image4.bmp)
+    [![](web-playlists-for-iis-configuration/_static/image4.bmp)](web-playlists-for-iis-configuration/_static/image3.bmp)
 
 ### Enterprise
 
@@ -117,11 +114,10 @@ This will use ASP.NET session state persistence to store the session data.
 > [!NOTE]
 > ASP.NET session state persistence can be configured in IIS Manager by configuring settings on the **Session State** feature page. A detailed discussion is beyond the scope of this article. Web Playlists supports all variations of ASP.NET session state persistence.
 
-[![](web-playlists-for-iis-configuration/_static/image7.bmp)](web-playlists-for-iis-configuration/_static/image6.bmp)
+[![](web-playlists-for-iis-configuration/_static/image6.bmp)](web-playlists-for-iis-configuration/_static/image5.bmp)
 
 ## More Information
 
 - ASP.NET State Management Overview ([https://support.microsoft.com/kb/307598](https://support.microsoft.com/kb/307598))
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

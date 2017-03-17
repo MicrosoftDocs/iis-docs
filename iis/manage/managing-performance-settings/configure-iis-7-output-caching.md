@@ -68,22 +68,16 @@ A request is only cached if more than &lt;frequentHitThreshold&gt; requests for 
 The cache is fairly easy to configure using the user interface feature in the new IIS administration tool.
 
 1. From the **Start** menu, click **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-
 2. In the tree view on the left side, find your application.
-
-3.Select the **Output Caching** menu item.
-
+3. Select the **Output Caching** menu item.
 4. In the right column, click **Add** inthe **Action** menu. You can add your output caching rule here.
-
 5. In the **File name extension** field, for example, type **.php**, and then select **User-mode caching**.
-
 6. Click **Advanced**, andthen select the **Query string variable(s)** check box.
-
 7. Enter the appropriate variable(s) in the **Query string variable(s)** text box.
 
-[![](configure-iis-7-output-caching/_static/image2.jpg)](configure-iis-7-output-caching/_static/image1.jpg)
+    [![](configure-iis-7-output-caching/_static/image2.jpg)](configure-iis-7-output-caching/_static/image1.jpg)
 
-###### Figure 1: Output caching example
+    *Figure 1: Output caching example*
 
 ## Configure Output Caching Through the Web.config File
 
@@ -101,11 +95,8 @@ If you want to cache this data in kernel for even faster performance, you just n
 To see performance in the output cache, you can look at output cache counters in the reliability and performance monitor.
 
 1. From the **Start** menu, click **Administrative Tools**, and then click **Reliability and Performance Monitor**. (On Windows Vista® or Windows® 7, Administrative Tools is found in the Control Panel.)
-
 2. Select **Performance Monitor** in the tree view on the right, and then click **+** in the toolbar.
-
-3. Navigate to the **Web Service Cache** counter, and then click on it to open it. 
-
+3. Navigate to the **Web Service Cache** counter, and then click on it to open it.
 4. Add the **Total URIs Cached** counter.
 
 If you run a performance test, you can see that the number of cached URIs increases with the number if items you request.
@@ -130,7 +121,9 @@ Failed Request Event Buffering (FREB) is the best way to find out whether or not
 
 The following command can be used to find out which content is cached in kernel mode:
 
+
 [!code-console[Main](configure-iis-7-output-caching/samples/sample2.cmd)]
+
 
 ## Cache Your Most Popular Pages
 
@@ -138,38 +131,24 @@ You can set the output cache to cache only your default page (the most frequentl
 
 1. Create a file called **default.aspx** in the **%ystemdrive%\inetpub\wwwroot\&lt;your application&gt;** directory and add the following code:
 
-
 [!code-aspx[Main](configure-iis-7-output-caching/samples/sample3.aspx)]
-
-
 2. From the **Start** menu, click **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
-
 3. Use the tree view on the left side to navigate to your application.
-
 4. Click **Content View** at the bottom of the page.
-
 5. Select your default document (for example, Default.aspx page).
-
 6. In the **Actions** menu on the right, click **Switch to feature** view. Every setting that you configure is now only applied to the default document.
-
 7. Open the **Output Caching Rules** setting.
-
 8. Add **.****aspx** as a file extension.
-
 9. Select **Kernel-mode caching**, select **At time intervals**, enable **Monitor cached files,** and then type a time interval, such as **00:00:30**.
-
 10. Browse to http://localhost/&lt;your **application&gt;** with Windows® Internet Explorer®. By constantly refreshing the page (press **Ctrl**+**F5** to make sure you are not using the browser cache), you see that the time does not change for 30 seconds.
-
 
 > [!NOTE]
 > *This article is based on information from the article "[IIS 7 Output Caching for Dynamic Content - Speed Up Your ASP and PHP Applications](https://blogs.iis.net/bills/archive/2007/05/02/iis7-output-caching-for-dynamic-content-dramatically-speed-up-your-asp-and-php-applications.aspx)" by Bill Staples, published on May 2, 2007.*
-
 
 ## Links for Further Information
 
 [IIS Output Caching](walkthrough-iis-output-caching.md).
 
 [PHP on IIS7 w/FastCGI](https://blogs.iis.net/bills/archive/2006/10/31/PHP-on-IIS.aspx).
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1050.aspx)

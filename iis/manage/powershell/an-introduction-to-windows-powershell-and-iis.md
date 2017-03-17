@@ -22,14 +22,6 @@ Windows PowerShell is Microsoft's shell and scripting language. This short artic
 
 The information presented here is useful to IT administrators, software developers, software testers, and managers. Even the skeptical will be convinced that Windows PowerShell is a must-have tool.
 
-The five sections of this article provide:
-
-- [A brief overview of Windows PowerShell](an-introduction-to-windows-powershell-and-iis.md#01)
-- [A few examples of how Windows PowerShell works in a typical environment where IIS is running](an-introduction-to-windows-powershell-and-iis.md#02)
-- [Some examples of using Windows PowerShell directly with IIS](an-introduction-to-windows-powershell-and-iis.md#03)
-- [A section with a list of a few of the advantages of using Windows PowerShell to manage and interact with IIS](an-introduction-to-windows-powershell-and-iis.md#04)
-- [A short description of how to take the information presented here and expand upon it to improve your personal skill set](an-introduction-to-windows-powershell-and-iis.md#05)
-
 <a id="01"></a>
 
 ## About Windows PowerShell
@@ -46,9 +38,9 @@ This section provides concrete examples and highlights a few of Windows PowerShe
 
 To get a feel for Windows PowerShell, look at an example. Consider the screen shot in Figure 1.
 
-[![](an-introduction-to-windows-powershell-and-iis/_static/image3.jpg)](an-introduction-to-windows-powershell-and-iis/_static/image1.jpg)
+[![](an-introduction-to-windows-powershell-and-iis/_static/image2.jpg)](an-introduction-to-windows-powershell-and-iis/_static/image1.jpg)
 
-Figure 1 - Windows PowerShell Basics
+*Figure 1 - Windows PowerShell Basics*
 
 First, notice that the shell in Windows PowerShell looks like a traditional Windows command prompt. Using Windows PowerShell will quickly feel quite natural after a brief ramp-up period.
 
@@ -110,9 +102,9 @@ The following are some Windows PowerShell examples based on a Web cast featuring
 
 Suppose you want to examine IIS-related services running on your computer -- a very common task. One "GUI approach" to do this is to launch MMC and then expand the Services and Application category, and then select the Services category. The result looks like the screenshot in Figure 2.
 
-[![](an-introduction-to-windows-powershell-and-iis/_static/image7.jpg)](an-introduction-to-windows-powershell-and-iis/_static/image5.jpg)
+[![](an-introduction-to-windows-powershell-and-iis/_static/image4.jpg)](an-introduction-to-windows-powershell-and-iis/_static/image3.jpg)
 
-Figure 2 - Using MMC to Get Service Information
+*Figure 2 - Using MMC to Get Service Information*
 
 Listing Windows services using Windows PowerShell is easy. For example, from the Windows PowerShell prompt, use the get-service cmdlet:
 
@@ -124,9 +116,9 @@ This is not very compelling, but suppose you want to list only services that beg
 
 You can interpret this command as meaning fetch all Windows service information but then filter to include just those services that have a name beginning with the letter 'W'; then, sort those results according to the service status (running, stopped, paused). The result looks like the screenshot in Figure 3.
 
-[![](an-introduction-to-windows-powershell-and-iis/_static/image11.jpg)](an-introduction-to-windows-powershell-and-iis/_static/image9.jpg)
+[![](an-introduction-to-windows-powershell-and-iis/_static/image6.jpg)](an-introduction-to-windows-powershell-and-iis/_static/image5.jpg)
 
-Figure 3 - Using Windows PowerShell to Get Service Information
+*Figure 3 - Using Windows PowerShell to Get Service Information*
 
 As pointed out in the previous section, you can type terse PowerShell commands; the previous command can be shortened to:
 
@@ -247,15 +239,10 @@ The second section of this article demonstrated how to use Windows PowerShell in
 Here are six comments on such advantages from early Windows PowerShell adopters. They also include advantages that the IIS Team has experienced.
 
 1. Because Windows PowerShell commands can be stored as scripts, they can be saved and executed unattended. This advantage is true of any scripting-based technique, but Windows PowerShell is significantly easier to use than other existing scripting languages.
-
 2. Because Windows PowerShell commands can be stored and used as scripts, they create a self-documenting record of IIS management activity. How often have you tried to remember how you modified some registry key using the regedit.exe GUI?
-
 3. Compared with using GUI-based management interfaces, Windows PowerShell commands "remove the magic" and let you see exactly what is going on. GUI-based tools are good for lighter management activity. However, using GUI-based tools can lead to thoughts like, "I'm not sure exactly why it works, but when I double-click on this, it usually fixes the problem."
-
 4. Because many other Microsoft server products will be based on Windows PowerShell, every time you use Windows PowerShell commands and scripts to manage IIS, you indirectly get training on other systems.
-
 5. Using Windows PowerShell creates a common management paradigm and means of communication: Windows PowerShell communities are growing quickly and it is much easier to understand documentation or blog entries which are in the form of Windows PowerShell commands than it is to understand documentation which reads like, "Open MMC then click here, then click there, then double-click up there . . ."
-
 6. Because Windows PowerShell is a comprehensive environment, you can perform the majority of your work in Windows PowerShell. There is no need to constantly jump from a GUI-based program, to a cmd.exe shell, to another GUI-based program. This is similar to the way in which software development activities have evolved from using separate compilers, linkers, debuggers, and so on, to using an integrated environment like Visual Studio.
 
 The second section of this paper also showed an example of a Windows PowerShell script which showcases the ability of IIS to deploy Web servers across multiple machines using simple file-copy operations.
@@ -276,11 +263,10 @@ See [https://blogs.msdn.com/PowerShell/](https://blogs.msdn.com/PowerShell/) to 
 
 See [http://www.powergadgets.com](http://www.powergadgets.com/) to learn more about the visualization tools based on Windows PowerShell.
 
-See [https://www.iis.net](https://www.iis.net/) for information about the Microsoft IIS.
+See [https://www.iis.net](https://www.iis.net/) for information about Microsoft IIS.
 
 ## About the Author
 
 Dr. James McCaffrey works for Volt Information Sciences, Inc., where he manages technical training for software engineers working at Microsoft's Redmond, Washington campus. He has worked as a lead engineer on several key Microsoft products including Internet Explorer and MSN Search, and is the author of ".NET Test Automation: A Problem-Solution Approach", Apress, 2006.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

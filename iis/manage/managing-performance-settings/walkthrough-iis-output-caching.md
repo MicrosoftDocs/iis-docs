@@ -26,16 +26,6 @@ There is a big range between these two categories which includes semi-dynamic co
 
 The IIS Output Caching feature targets semi-dynamic content. It allows you to cache static responses for dynamic requests and to gain tremendous scalability.
 
-This article contains:
-
-- [Prerequisites](walkthrough-iis-output-caching.md#01)
-- [Walkthrough Overview](walkthrough-iis-output-caching.md#02)
-- [Part I – Writing and Configuring the Copyright Handler](walkthrough-iis-output-caching.md#03)
-- [Part II - Performance Test of the imageCopyrightHandler](walkthrough-iis-output-caching.md#04)
-- [Adding Output Caching](walkthrough-iis-output-caching.md#05)
-- [Output Caching Advanced Topics](walkthrough-iis-output-caching.md#06)
-- [Summary](walkthrough-iis-output-caching.md#07)
-
 <a id="01"></a>
 
 ## Prerequisites
@@ -61,47 +51,37 @@ Then we add Output Caching to regain performance degradation incurred by adding 
 1. Create a directory called 'pictures' under the %systemroot%\inetpub\wwwroot directory. Execute the following command in an elevated command shell:
 
 [!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-1.unknown)]
-
 2. Copy some digital pictures - this walkthrough assumes them to be JPG files - to the new pictures directory. Use the following picture if you don't have any JPG files handy: [http://wallpaper.iis7.org/gallery/iis7-highlight.jpg](http://wallpaper.iis7.org/gallery/iis7-highlight.jpg)
 
-> [!NOTE]
-> Due to the high Internet Explorer security settings on Windows Server 2008, you might get a security dialog box telling you that the web site is blocked. To download the IIS wallpaper, add wallpaper.iis7.org to the list of trusted sites.
-
+    > [!NOTE]
+    > Due to the high Internet Explorer security settings on Windows Server 2008, you might get a security dialog box telling you that the web site is blocked. To download the IIS wallpaper, add wallpaper.iis7.org to the list of trusted sites.
 3. Create an application with the appcmd command-line tool
 
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample2.cmd)]
+4. Create the directory App\_Code underneath the pictures directory:  
 
-4. Create the directory App\_Code underneath the pictures directory:   
-
-[!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-3.unknown)]
-
+    [!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-3.unknown)]
 5. Open Notepad and paste the following code into it.
-
 
 [!code-csharp[Main](walkthrough-iis-output-caching/samples/sample4.cs)]
 
-
-Save the file as %systemdrive%\inetpub\wwwroot\pictures\App\_Code\imageCopyrightHandler.cs
-
+    Save the file as %systemdrive%\inetpub\wwwroot\pictures\App\_Code\imageCopyrightHandler.cs
 6. Create the handler that executes this code when a JPG file is requested:
 
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample5.cmd)]
-
 7. We must also enable directory browsing because there is not yet a default document:
 
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample6.cmd)]
-
 8. Browse to the pictures application by typing in the Internet Explorer address bar: [http://localhost/picures](http://localhost/picures). Click the link to your JPG file in the IIS directory listing. You should see the JPG image with the inserted Copyright message.
-
 9. Look at the code. You see that the Copyright Message depends on the "Accept-Language" header that the browser sends. If you have a German version of Microsoft Server 2008 installed, you see the copyright message "IIS 7.0 Team - Alle Rechte vorbehalten"; if you have a Spanish language version, you see "Marca Registrada IIS 7.0 Team". In all other cases the copyright message will be "Copyright © IIS 7.0 Team". A way to test this code is to change the "Accept-Language" header Internet Explorer sends:
 
-> a. Open "Internet Explorer".&gt;b. Open the "Tools" Menu and click "Internet Options" .  
-> c. Click the "Languages" button.   
-> d. Click the "Add…" button and add "es" for Spanish or "de" for German.   
-> d. Move the new language to the top of the list via the "Move Up" button.   
-> e. Browse to [http://localhost/pictures/%3cyour\_jpg\_file%3e.jpg](http://localhost/pictures/%3cyour_jpg_file%3e.jpg). The Copyright message has changed to the language you configured.   
-> f. Do not forget to go back into the "Languages" dialog box and reset-- otherwise you might wonder later why you get Spanish or German web pages.
-
+    - Open "Internet Explorer".
+    - Open the "Tools" Menu and click "Internet Options".
+    - Click the "Languages" button.
+    - Click the "Add…" button and add "es" for Spanish or "de" for German.
+    - Move the new language to the top of the list via the "Move Up" button.
+    - Browse to [http://localhost/pictures/%3cyour\_jpg\_file%3e.jpg](http://localhost/pictures/%3cyour_jpg_file%3e.jpg). The Copyright message has changed to the language you configured.
+    - Do not forget to go back into the "Languages" dialog box and reset-- otherwise you might wonder later why you get Spanish or German web pages.
 
 <a id="04"></a>
 
@@ -111,83 +91,68 @@ Once the JPG Copyright Handler works, we must determine how fast our code is. In
 
 1. Download the [IIS 6.0 Resource Kit Tools](https://www.microsoft.com/downloads/details.aspx?FamilyID=56fc92ee-a71a-4c73-b628-ade629c89499&amp;DisplayLang=en) and install them. Do a custom install and install only the Web Capacity Analysis Tool (WCAT). WCAT is the only feature of the IIS 6.0 Resource Kit Tools we need to do our performance tests.
 
-> [!NOTE]
-> Due to the high Internet Explorer security settings on Windows Server 2008, you might get a security dialog box telling you that the web-site is blocked. To download the IIS 6.0 Resource Kit, add \*.microsoft.com to the list of trusted sites.
-
+    > [!NOTE]
+    > Due to the high Internet Explorer security settings on Windows Server 2008, you might get a security dialog box telling you that the web-site is blocked. To download the IIS 6.0 Resource Kit, add \*.microsoft.com to the list of trusted sites.
 2. Create a directory called PERFTEST, for example:
 
 [!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-7.unknown)]
-
 3. The WCAT controller requires three input files:
 
-- A script file that tells WCAT which URLs to request. Each URL gets a unique ClassID
-- A distribution file that tells WCAT how the requests should be distributed across the URLs specified in the script file
-- A configuration file that configures the parameters of a particular performance run, e.g. the duration of the tests, how many HTTP clients to simulate, etc.
+    - A script file that tells WCAT which URLs to request. Each URL gets a unique ClassID
+    - A distribution file that tells WCAT how the requests should be distributed across the URLs specified in the script file
+    - A configuration file that configures the parameters of a particular performance run, e.g. the duration of the tests, how many HTTP clients to simulate, etc.
 
-**The Script File**
+    **The Script File**
 
-Create a new file called script.cfg in the perftest directory and paste the following content into it:
+    Create a new file called script.cfg in the perftest directory and paste the following content into it:
 
-[!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-8.unknown)]
+    [!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-8.unknown)]
 
-> [!NOTE]
-> Replace the &lt;your image name&gt; entry with the names of your JPG files. If you have more JPG files, you can add a new transaction. Make sure you give each transaction a new ClassID.
+    > [!NOTE]
+    > Replace the &lt;your image name&gt; entry with the names of your JPG files. If you have more JPG files, you can add a new transaction. Make sure you give each transaction a new ClassID.
 
-**The Distribution File**
+    **The Distribution File**
 
-The distribution file tells WCAT how it should weigh requests. With the two URLs above, we do an even 50/50 distribution. Each ClassID gets requested 50% of the time.
+    The distribution file tells WCAT how it should weigh requests. With the two URLs above, we do an even 50/50 distribution. Each ClassID gets requested 50% of the time.
 
-Create a file called *%systemdrive%\perftest\distribution.cfg* in the perftest directory and paste the following content into it:
+    Create a file called *%systemdrive%\perftest\distribution.cfg* in the perftest directory and paste the following content into it:
 
+    [!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-9.unknown)]
 
-[!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-9.unknown)]
+    **The Configuration File**
 
+    Here are recommended parameters for the test:
 
-**The Configuration File**
+    - Duration: 30 seconds
+    - Warm-up: 5 seconds
+    - Cooldown: 5 seconds
+    - Simulated Http Clients: 20
 
-Here are recommended parameters for the test:
+    Create a file called config.cfg in the perftest directory and paste the following content into it:
 
-- Duration: 30 seconds
-- Warm-up: 5 seconds
-- Cooldown: 5 seconds
-- Simulated Http Clients: 20
-
-Create a file called config.cfg in the perftest directory and paste the following content into it:
-
-
-[!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-10.unknown)]
-
-
+    [!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-10.unknown)]
 4. Start the controller by executing the following commands:
-
 
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample11.cmd)]
 
-
-As soon as all clients are connected, the perf test will start.
-
+    As soon as all clients are connected, the perf test will start.
 5. Because we only have one client, open another elevated command-shell and run the following:
-
 
 [!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-12.unknown)]
 
-
-To do this with more clients, set NumClientMachines in config.cfg to a higher number, and connect clients to the controller via the wcclient command by specifying the name of the controller machine.   
+    To do this with more clients, set NumClientMachines in config.cfg to a higher number, and connect clients to the controller via the wcclient command by specifying the name of the controller machine.   
   
 Example: wcclient MyPerfTestControllerMachine
 
-> [!NOTE]
-> If you do this on a 64-Bit version of Windows, WCAT is installed in the "program files (x86)" directory and you must use %programfiles(x86)% to start WCAT.
-
-5. Here are the results from the first run:
-
+    > [!NOTE]
+    > If you do this on a 64-Bit version of Windows, WCAT is installed in the "program files (x86)" directory and you must use %programfiles(x86)% to start WCAT.
+6. Here are the results from the first run:
 
 [!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-13.unknown)]
 
+    The important number to look at is the requests per second. In this case, we get 14 requests per second.
 
-The important number to look at is the requests per second. In this case, we get 14 requests per second.
-
-A word of caution - the bigger your JPG files, the fewer requests you will see. It is likely that your machine is network-bound: IIS will not be able to handle more requests because the network is saturated with the data you are sending. You see the best results with JPG files in the 200-300 KB range.
+    A word of caution - the bigger your JPG files, the fewer requests you will see. It is likely that your machine is network-bound: IIS will not be able to handle more requests because the network is saturated with the data you are sending. You see the best results with JPG files in the 200-300 KB range.
 
 <a id="05"></a>
 
@@ -197,7 +162,13 @@ The code to dynamically insert the copyright message is fairly slow. Fourteen re
 
 ### Adding a Cache Policy via the IIS Management Tool
 
-1. Navigate to "Administrative Tools" and select "Internet Information Services (IIS) Manager". - Use the tree view on the left side to navigate to the "pictures" application. - Select the "Ouput Caching Rules" menu item. - Click "Add…" in the "Actions" menu. - Add JPG as the "File extension" to cache. - Select "At time intervals" in the "Monitor cached files" section and enter 00:00:10 as the time interval. - Check the "Headers" check-box and enter "Accept-Language".
+1. Navigate to "Administrative Tools" and select "Internet Information Services (IIS) Manager".
+2. Use the tree view on the left side to navigate to the "pictures" application.
+3. Select the "Ouput Caching Rules" menu item.
+4. Click "Add…" in the "Actions" menu.
+5. Add JPG as the "File extension" to cache.
+6. Select "At time intervals" in the "Monitor cached files" section and enter 00:00:10 as the time interval.
+7. Check the "Headers" check-box and enter "Accept-Language".
 
 > [!NOTE]
 > The Output Cache User Interface is not available in versions before Windows Vista Service Pack 1.
@@ -214,18 +185,13 @@ Repeat the performance run to see what and how the configuration settings change
 
 1. Start the controller by executing the following commands:
 
-
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample15.cmd)]
-
-
 2. Start the client with:
-
 
 [!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-16.unknown)]
 
-
-> [!NOTE]
-> If you do this on a 64-Bit version of Windows, WCAT is installed in the "program files (x86)" directory and you must use %programfiles(x86)% to start WCAT.
+    > [!NOTE]
+    > If you do this on a 64-Bit version of Windows, WCAT is installed in the "program files (x86)" directory and you must use %programfiles(x86)% to start WCAT.
 
 ### Sample Output
 
@@ -240,8 +206,11 @@ Repeat the performance run to see what and how the configuration settings change
 
 To ascertain the performance in the output cache, look at output cache counters in the "Reliability and Performance Monitor". There are many interesting counters. Here is one example of how to use the "Reliability and Performance Monitor" together with the output cache.
 
-1. On Windows Server 2008, start PERFMON via the Start menu. Go to "Administrative Tools" and click "Reliability and Performance Monitor". On Vista, you find "Administrative Tools" in the Control Panel. - Select "Performance Monitor" in the tree view on the right and click the big "+" sign in the toolbar. - Navigate to the "Web Service Cache" counter and click it to open. 
-- Add the "Total URIs Cached" counter. - Rerun the WCAT test.
+1. On Windows Server 2008, start PERFMON via the Start menu. Go to "Administrative Tools" and click "Reliability and Performance Monitor". On Vista, you find "Administrative Tools" in the Control Panel.
+2. Select "Performance Monitor" in the tree view on the right and click the big "+" sign in the toolbar.
+3. Navigate to the "Web Service Cache" counter and click it to open.
+4. Add the "Total URIs Cached" counter.
+5. Rerun the WCAT test.
 
 You see that the number of cached URIs increases depending on how many items you request during the performance test.
 
@@ -257,7 +226,8 @@ Caching your content in kernel-mode allows your web site to go faster. Modify th
 
 Now change it to use kernel-mode caching:
 
-1. Open %systemdrive%\inetpub\wwwroot\pictures\web.config. - Change the setting.
+1. Open %systemdrive%\inetpub\wwwroot\pictures\web.config.
+2. Change the setting.
 
 
 [!code-xml[Main](walkthrough-iis-output-caching/samples/sample19.xml)]
@@ -275,7 +245,8 @@ You see that we do not use the varyByHeaders attribute anymore. This is because 
 
 There are two significant differences between user mode and kernel mode output cache.
 
-- Kernel Mode Output cache does not support modules and features that must run in user mode, such as authentication or authorization. Example: If authentication schemes like Basic or Windows authentication are enabled, the cache policy will not work. The content is served but not cached. See "Troubleshoot Caching" on how to find out if the content gets cached. More details on why responses might not get cached in kernel-mode [is found in this Knowledge Base article](https://support.microsoft.com/kb/817445). - The Kernel Mode Output Cache supports the varyByHeaders attribute but not varyByQuerystring.
+- Kernel Mode Output cache does not support modules and features that must run in user mode, such as authentication or authorization. Example: If authentication schemes like Basic or Windows authentication are enabled, the cache policy will not work. The content is served but not cached. See "Troubleshoot Caching" on how to find out if the content gets cached. More details on why responses might not get cached in kernel-mode [is found in this Knowledge Base article](https://support.microsoft.com/kb/817445).
+- The Kernel Mode Output Cache supports the varyByHeaders attribute but not varyByQuerystring.
 
 ### Troubleshoot Caching
 
@@ -303,27 +274,23 @@ The default setting for frequentHitThreshold is 2.
 
 In the example above, we put all files with the extension JPG into the output cache. This does not always work because sometimes you want to be more selective and only put a particular document into the output cache. Here is how you do this with your most frequently requested page, your default document:
 
-> 1. Create a file called default.aspx in the %systemdrive%\inetpub\wwwroot\pictures directory and add the following code:   
->   
-> &lt;%=DateTime.Now%&gt;
+1. Create a file called default.aspx in the %systemdrive%\inetpub\wwwroot\pictures directory and add the following code:  
 
-
-> 2. Navigate to "Administrative Tools" and select "Internet Information Services (IIS) Manager".   
-> 3. Use the tree view on the left side to navigate to the "pictures" application.   
-> 4. Click "Content View" at the bottom of the page.   
-> 5. Select your default document, e.g. default.aspx page.   
-> 6. Click "Switch to feature view" in the "Actions" menu on the right. Every setting that you configure will now only be applied to the default document.   
-> 7. Open the "Output Caching Rules" setting.   
-> 8. Add ".aspx" as a file extension.   
-> 9. Select "kernel-mode caching" then we can select "At time intervals" and enable "Monitor cached files" and enter 00:00:30 as the time interval.   
-> 10. Browse to [http://localhost/pictures](http://localhost/pictures) with "Internet Explorer". By constantly refreshing the page (press Ctrl+F5 to make sure it does not come from the Browser cache), you see that the time will not change for 30 seconds.
-
+    [!code-aspx[Main](walkthrough-iis-output-caching/samples/sample22.aspx)]
+2. Navigate to "Administrative Tools" and select "Internet Information Services (IIS) Manager".
+3. Use the tree view on the left side to navigate to the "pictures" application.
+4. Click "Content View" at the bottom of the page.
+5. Select your default document, e.g. default.aspx page.
+6. Click "Switch to feature view" in the "Actions" menu on the right. Every setting that you configure will now only be applied to the default document.
+7. Open the "Output Caching Rules" setting.
+8. Add ".aspx" as a file extension.
+9. Select "kernel-mode caching" then we can select "At time intervals" and enable "Monitor cached files" and enter 00:00:30 as the time interval.
+10. Browse to [http://localhost/pictures](http://localhost/pictures) with "Internet Explorer". By constantly refreshing the page (press Ctrl+F5 to make sure it does not come from the Browser cache), you see that the time will not change for 30 seconds.
 
 <a id="07"></a>
 
 ## Summary
 
 Using the IIS Output Cache feature for semi-dynamic content can improve your web site. You see a substantial improvement in performance and throughput capacity. A simple configuration change is enough to take advantage of this feature.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1050.aspx)

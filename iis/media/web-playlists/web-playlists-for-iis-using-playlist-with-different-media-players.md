@@ -18,13 +18,6 @@ by [Vishal Sood](https://twitter.com/vishalsood)
 
 This article describes how various clients can interact with Web Playlists to display the playlist content. Web Playlists works with the clients mentioned in this article; however, any client that supports ASX natively or through extensions can use this feature.
 
-This article contains:
-
-- [Prerequisites](web-playlists-for-iis-using-playlist-with-different-media-players.md#Prerequisites)
-- [Windows Media Player](web-playlists-for-iis-using-playlist-with-different-media-players.md#Windows)
-- [Silverlight](web-playlists-for-iis-using-playlist-with-different-media-players.md#Silverlight)
-- [Flash Player](web-playlists-for-iis-using-playlist-with-different-media-players.md#Flash)
-
 <a id="Prerequisites"></a>
 
 ## Prerequisites
@@ -38,14 +31,12 @@ To install the Web Playlists extension for IIS 7 and above, see the **Installati
 Follow the steps below to consume an ISX (Web Playlist) file in Windows Media Player 11 (WMP)
 
 1. Open Windows Media Player 11.
-
 2. Click File. Select Open URL.
 
-[![](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image2.jpg)](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image1.jpg)
-
+    [![](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image2.jpg)](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image1.jpg)
 3. Type in the URL to the .isx file and click OK.
 
-[![](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image4.jpg)](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image3.jpg)
+    [![](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image4.jpg)](web-playlists-for-iis-using-playlist-with-different-media-players/_static/image3.jpg)
 
 <a id="Silverlight"></a>
 
@@ -96,9 +87,8 @@ The **Playlist** class above helps parse an ASX file to get the playlist entries
 
 The classes above should be used together with NetConnection, NetStream and Video classes provided by Flash. Below is a sample piece of code that shows how these could be used. The actual implementation is left to the reader.
 
+
 [!code-unknown[Main](web-playlists-for-iis-using-playlist-with-different-media-players/samples/sample-127297-4.unknown)]
 
-## 
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1145.aspx)
