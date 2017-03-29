@@ -33,52 +33,35 @@ Trust levels let you define security rules for ASP.NET. They define what types o
 **To configure a custom trust level and configure additional permissions**
 
 1. Navigate to the %windir%\Microsoft.NET\Framework \{version}\ CONFIG directory.
-
 2. Copy the Medium trust policy file, web\_mediumtrust.config, to create a new policy file in the same directory (%windir%\Microsoft.NET\Framework\{version}\ CONFIG\).
-
 3. Rename the file to indicate that it is a custom trust level, for example, web\_CustomTrust.config.
+4. Open the new file, web\_CustomTrust.config, and locate the **WebPermission** section.  
 
-4. Open the new file, web\_CustomTrust.config, and locate the **WebPermission** section.
+    ...
 
-...
+    [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-1.unknown)]
 
+    [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-2.unknown)]
 
-[!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-1.unknown)]
+    ...
+5. Edit **WebPermission** so that the **ConnectAccess** element is removed and **Unrestricted** is set to **true**.  
 
+    ...
 
-[!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-2.unknown)]
+    [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-3.unknown)]
 
+    [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-4.unknown)]
 
-...
-
-5. Edit **WebPermission** so that the **ConnectAccess** element is removed and **Unrestricted** is set to **true**.
-
-...
-
-
-[!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-3.unknown)]
-
-
-[!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-4.unknown)]
-
-
-...
-
+    ...
 6. Comment out **PrintingPermission** and **EnvironmentPermission**, unless it is known that they are needed for the shared hosting  environment.
+7. Add the new **&lt;trustLevel&gt;** element to the **&lt;securityPolicy&gt;** section of the Web.config file, as shown below:  
 
-7. Add the new **&lt;trustLevel&gt;** element to the **&lt;securityPolicy&gt;** section of the Web.config file, as shown below:
+    [!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample5.xml)]
 
+    [!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample6.xml)]
+8. Lock the trust level so that it cannot be changed by applications on the server, by setting the location **allowOverride** element to **false**.  
 
-[!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample5.xml)]
-
-
-[!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample6.xml)]
-
-
-8. Lock the trust level so that it cannot be changed by applications on the server, by setting the location **allowOverride** element to **false**.
-
-
-[!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample7.xml)]
+    [!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample7.xml)]
 
 <a id="_Toc180824183"></a>
 
@@ -93,10 +76,9 @@ To run some ASP.NET applications from a remote file server, the impersonated use
 **To serve ASP.NET content from a file server share**
 
 1. Grant permission for all application pool identities to the %windir%\Temp directory by editing the ACLs for the folder.
+2. Add a Code Access Security (CAS) policy to allow ASP.NET appropriate access to the file server share. To do this, open a command prompt and run the following command:  
 
-2. Add a Code Access Security (CAS) policy to allow ASP.NET appropriate access to the file server share. To do this, open a command prompt and run the following command:
-
-[!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-8.unknown)]
+    [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-8.unknown)]
 
 <a id="_Toc180824185"></a>
 
@@ -123,24 +105,16 @@ Because the GC holds on to memory for future allocations, its committed space ca
 **To configure the GC settings**
 
 1. Navigate to the %windir%\Microsoft.NET\Framework\{version} directory.
+2. Open the aspnet.config file, and locate the **&lt;gcServer&gt;** element. If the element does not exist, create an entry using Step 3.  
 
-2. Open the aspnet.config file, and locate the **&lt;gcServer&gt;** element. If the element does not exist, create an entry using Step 3.
+    ...
 
-...
+    [!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample9.xml)]
+3. Add the following three elements within the **&lt;runtime&gt;** section:  
 
+    ...
 
-[!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample9.xml)]
+    [!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample10.xml)]
 
-
-3. Add the following three elements within the **&lt;runtime&gt;** section:
-
-...
-
-
-[!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample10.xml)]
-
-
-[!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-11.unknown)]
-
-
+    [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-11.unknown)]
 4. Save the file and close it.

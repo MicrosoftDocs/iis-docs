@@ -33,30 +33,21 @@ Note that a Web site already hosted in the Apache/Windows environment takes less
 
 ## Basic Steps in Server Migration
 
-The four basic steps for migration of a PHP application from Linux to Windows are:
+The basic steps for migration of a PHP application from Linux to Windows are:
 
 1. Plan your migration.
-
 2. Install the Windows environment. Articles on the learn.iis.net Web site can step you through these procedures.
+3. Migrate files. Migrating Web site files from one server to another can be done using the three different methods:  
 
-3. Migrate files. Migrating Web site files from one server to another can be done using the three different methods:
+    - Migrating files using Windows Sharing
+    - Migrating files using File Transfer Protocol (FTP)
+    - Migrating files using Hypertext Transfer Protocol (HTTP)
+4. Move databases. The two methods for migrating databases from one server to another include:  
 
-a. Migrating files using Windows Sharing
-
-b. Migrating files using File Transfer Protocol (FTP)
-
-c. Migrating files using Hypertext Transfer Protocol (HTTP)
-
-4. Move databases. The two methods for migrating databases from one server to another include:
-
-a. Migrating a database from MySQL on Windows Server 2003 to MySQL on Windows Server 2008 or Windows Server 2008 R2.
-
-b. Migrating a database from MySQL on Linux to Microsoft® SQL Server® 2005 or Microsoft® SQL Server® 2008 on Windows Server 2008.
-
+    - Migrating a database from MySQL on Windows Server 2003 to MySQL on Windows Server 2008 or Windows Server 2008 R2.
+    - Migrating a database from MySQL on Linux to Microsoft® SQL Server® 2005 or Microsoft® SQL Server® 2008 on Windows Server 2008.
 5. Update configurations.
-
 6. Migrate applications.
-
 7. Fine-tune any issues. See the [Troubleshoot](#_Troubleshoot) section below.
 
 <a id="_Toc221956169"></a>
@@ -99,7 +90,7 @@ Note that PHP has the following additional limitations:
 
 The following information may help you troubleshoot issues that you may encounter.
 
-- The file transfer may require some "helper" applications:
+- The file transfer may require some "helper" applications:  
 
     - Smbclient is required for the Server Message Block (SMB) transfer.
     - The Net::FTP Perl module is required for FTP.
@@ -109,10 +100,8 @@ The following information may help you troubleshoot issues that you may encounte
 - If your PHP applications are timing out, you may be reaching the execution limit. Increase the value of max\_execution\_time in Php.ini.
 - If your PHP applications are running out of memory, check the value of upload\_max\_filessize. Ensure that the value is adequate for your application.
 
-
 > [!NOTE]
-> *This article based on the white paper: "[Apache to IIS 7.0 Migration Guide](https://download.microsoft.com/download/2/D/8/2D863347-3AFF-48A6-9FCF-EC6554C18DCF/Apache%20to%20IIS%207%200%20Migration%20Guide.doc)" published in March, 2009.*
-
+> : This article based on the white paper: "[Apache to IIS 7.0 Migration Guide](https://download.microsoft.com/download/2/D/8/2D863347-3AFF-48A6-9FCF-EC6554C18DCF/Apache%20to%20IIS%207%200%20Migration%20Guide.doc)" published in March, 2009.*
 
 ## Links for Further Information
 

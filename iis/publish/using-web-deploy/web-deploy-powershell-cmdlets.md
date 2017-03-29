@@ -99,7 +99,6 @@ ConfigOnly can be used to create a backup with no content. If the site uses a no
 Auto generated Web Deploy parameters: Two types of parameters are created:
 
 1. A parameter to enable the user to change the name of the site where the site backup will be applied.
-
 2. Another parameter to enable the user to change the physical path of the site and every web application under that site.
 
 So if I have a site with three apps beneath I will get 4 physical path parameters apart and one site name parameter.

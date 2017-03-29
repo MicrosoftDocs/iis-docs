@@ -18,7 +18,7 @@ by Faith A
 
 This quick guide will show you how to create an package (compressed file) of a Web site, and then restore the site from the package.
 
-### Prerequisites
+## Prerequisites
 
 This guide requires the following prerequisites:
 
@@ -27,36 +27,33 @@ This guide requires the following prerequisites:
 
 Note: If you have not already installed the Web Deployment Tool, see [Installing Web Deploy](use-the-web-deployment-tool.md "Installing Web Deploy").
 
-#### To package and restore an IIS 6.0 Web site
+## To package and restore an IIS 6.0 Web site
 
-1. To create a package, run the following command:
+1. To create a package, run the following command:  
 
-[!code-console[Main](packaging-and-restoring-a-web-site/samples/sample1.cmd)]
+    [!code-console[Main](packaging-and-restoring-a-web-site/samples/sample1.cmd)]
+2. To restore the package, run the following command:  
 
-2. To restore the package, run the following command:
+    [!code-console[Main](packaging-and-restoring-a-web-site/samples/sample2.cmd)]
 
-[!code-console[Main](packaging-and-restoring-a-web-site/samples/sample2.cmd)]
+## To package and restore an IIS 7 or Above Web site
 
-#### To package and restore an IIS 7 or Above Web site
+1. To create a package, run the following command:  
 
-1. To create a package, run the following command:
+    [!code-console[Main](packaging-and-restoring-a-web-site/samples/sample3.cmd)]
+2. To restore the package, run the following command:  
 
-[!code-console[Main](packaging-and-restoring-a-web-site/samples/sample3.cmd)]
+    [!code-console[Main](packaging-and-restoring-a-web-site/samples/sample4.cmd)]
 
-2. To restore the package, run the following command:
-
-[!code-console[Main](packaging-and-restoring-a-web-site/samples/sample4.cmd)]
-
-### Options for packaging multiple sites or objects
+## Options for packaging multiple sites or objects
 
 If you need to package a second directory outside the scope of your Web site, or you want to include other sites or objects, you have two options:
 
 - Package each of them separately
 - Create a manifest file to package multiple paths (see [Using Custom Manifests](using-custom-manifests.md "Using Custom Manifests"))
 
-### Summary
+## Summary
 
 You have now created a package of a Web site, and restored the site from the package. This is useful if you need to revert to a prior version of the site, or if files have become corrupt or missing from the site's content directory.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

@@ -63,13 +63,11 @@ Windows Optional features in Vista/Windows Server 2008 can be installed using a 
 
 [!code-console[Main](installing-iis-from-the-command-line/samples/sample1.cmd)]
 
+Pkgmgr.exe Commands
 
-| Pkgmgr.exe Commands |
-| --- |
-| /iu:{update name}; | Specifies updates to install by update name. Takes a semicolon separated name of updates to install. |
-| /uu:{update name}; | Specifies the updates to uninstall. Takes a semicolon separated list of selectable updates to be uninstalled from the system. At least one update name must be specified. |
-| /n:{unattend XML} | Specifies file name of the unattend XML file. |
-
+- **/iu:{update name};** &mdash; Specifies updates to install by update name. Takes a semicolon separated name of updates to install.
+- **/uu:{update name};** &mdash; Specifies the updates to uninstall. Takes a semicolon separated list of selectable updates to be uninstalled from the system. At least one update name must be specified.
+- **/n:{unattend XML}** &mdash; Specifies file name of the unattend XML file.
 
 > [!NOTE]
 > If you run pkgmgr without the "start /w" prefix, the pkgmgr cmd will return immediately and you will not know when the optional feature install has completed.
@@ -132,6 +130,5 @@ See the following resources for further information:
 - [Install IIS 7.0 on Windows Vista](installing-iis-on-windows-vista-and-windows-7.md)
 - [Use Unattended Install with IIS 7 and Above](using-unattended-setup-to-install-iis.md)
 - [Install Typical IIS Workloads](install-typical-iis-workloads.md)
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

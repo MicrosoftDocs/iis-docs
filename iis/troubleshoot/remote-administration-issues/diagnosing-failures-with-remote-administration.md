@@ -64,25 +64,18 @@ Sample output:
 
 Use netsh commands in the previous paragraph to determine if the bindings are not correctly configured. The problem might be that the machine key does not have permissions for the administrator trying to adjust the WMSVC bindings. In that case, try the following:
 
-> 1. Take ownership of the machine key: 
-> 
-> [!code-unknown[Main](diagnosing-failures-with-remote-administration/samples/sample-127040-5.unknown)]
+1. Take ownership of the machine key:<br?
 
+    [!code-unknown[Main](diagnosing-failures-with-remote-administration/samples/sample-127040-5.unknown)]
+2. Configure the ACLs of the machine key such that the administrator group has read permissions:  
 
-> 2. Configure the ACLs of the machine key such that the administrator group has read permissions: 
-> 
-> [!code-unknown[Main](diagnosing-failures-with-remote-administration/samples/sample-127040-6.unknown)]
+    [!code-unknown[Main](diagnosing-failures-with-remote-administration/samples/sample-127040-6.unknown)]
+3. Reserve the port 8172 for WMSVC:  
 
+    [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample7.cmd)]
+4. Associate the cert with the port:  
 
-> 3. Reserve the port 8172 for WMSVC:
-
-
-> [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample7.cmd)]
-> 
-> 4. Associate the cert with the port: 
-> 
-> [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample8.cmd)]
-
+    [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample8.cmd)]
 
 ## Do not want to see the prompt on the client every time you connect to the remote server?
 
@@ -106,6 +99,5 @@ Here are details on how to get the exception and call stack:
 4. When it breaks, print the exception and the call stack and send it to iis.net/forums.
 
     [!code-unknown[Main](diagnosing-failures-with-remote-administration/samples/sample-127040-12.unknown)]
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1111.aspx)

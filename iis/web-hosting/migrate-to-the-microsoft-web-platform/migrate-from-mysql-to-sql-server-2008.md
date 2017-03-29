@@ -28,21 +28,16 @@ With the advent of the SQL Server Driver for PHP and with the inclusion of FastC
 
 You can migrate from the MySQL database to SQL Server 2008 using the following steps:
 
-1. Decide how you will map MySQL databases to SQL Server 2008. You have two main options:
+1. Decide how you will map MySQL databases to SQL Server 2008. You have two main options:  
 
-- Map each MySQL database to a separate SQL Server database.   
+    - Map each MySQL database to a separate SQL Server database.   
  For example, you could map the MyDB MySQL database to MyDB SQL Server database.
-- Map each MySQL database to a single SQL Server database but a separate schema.   
+    - Map each MySQL database to a single SQL Server database but a separate schema.   
  For example, you could map the MyDB MySQL database to MySQLDatabases SQL Server database, schema MyDB.
-
 2. In SQL Server, schemas are not necessarily linked to a specific user or a login, and one server contains multiple databases.
-
 3. Convert database objects; these are tables, tables constraints, indexes, view, procedures, functions, and triggers.
-
 4. Map data types from the MySQL data type to a SQL Server data type.
-
 5. Rewrite your views, procedures, and functions according to SQL Server syntax.
-
 6. Change your applications as necessary so that they can connect and work with SQL Server 2008.
 
 After a successful database conversion, migrate your data from the old MySQL database to the newly created SQL Server 2008 database. For this task, you could use Microsoft® SQL Server® Integration Services (SSIS), for example.
@@ -54,7 +49,7 @@ You will then need to convert database objects.
 ### Schema Object Names
 
 - In SQL Server 2008, an object name can be up to 128 characters long.
-- Nonquoted identifier names must follow these rules:
+- Nonquoted identifier names must follow these rules: 
 
     - The first character must be alphanumeric, an underscore (\_), an at sign (@), or a number sign (#).
     - Subsequent characters can include alphanumeric characters, an underscore, an at (@) sign, a number sign, or a dollar sign.
@@ -101,18 +96,12 @@ The following MySQL functions cannot be easily emulated in SQL Server because of
 
 BENCHMARK, CHARSET, COERCIBILITY, COLLATION, CRC32, DATE\_ADD with INTERVAL, DATE\_SUB with INTERVAL, GET\_FORMAT, PERIOD\_ADD, PERIOD\_DIFF, SUBTIME, TIMESTAMP, TIMESTAMPADD, TIMESTAMPDIFF, MATCH, EXTRACTVALUE, UPDATEXML, GET\_LOCK, IS\_FREE\_LOCK, MASTER\_POS\_WAIT, RELEASE\_LOCK.
 
-
 > [!NOTE]
-> *This article is summarizes material in: "[Guide to Migrating from MySQL to SQL Server 2008](http://tinyurl.com/yf9cfcg)" by Alexander Pavlov, Yuri Rusakov, and Yuri Turnakov, published in August of 2009.*
-
+> : This article is summarizes material in: "[Guide to Migrating from MySQL to SQL Server 2008](http://tinyurl.com/yf9cfcg)" by Alexander Pavlov, Yuri Rusakov, and Yuri Turnakov, published in August of 2009.*
 
 ## Links for Further Information:
 
 [Guide to Migrating from MySQL to SQL Server 2005](http://tinyurl.com/yg4v9e5).  
 [SQL Server Driver for PHP Documentation](https://msdn.microsoft.com/en-us/library/ee229551(SQL.10).aspx).
-
-
-* * *
-
 
 <a id="_ftn1"></a>[[1]](#_ftnref1 "_ftn1") [IBM Corporation](http://www.ibm.com/developerworks/systems/library/es-path2php/index.html). 14 November 2006. Use PHP on System i, Part 1: Introduction and examples.

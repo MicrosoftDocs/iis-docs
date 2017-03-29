@@ -30,27 +30,27 @@ Example:
 
 #### 2. Great compatibility story
 
-- Most (99%+) ASP and ASP.NET applications worked.
+- Most (99%+) ASP and ASP.NET applications worked. 
 
     - One application encountered breaking change
     - Handful of applications required config migration to run in Integrated
 
 (We have about 260 applications running on [www.microsoft.com](https://www.microsoft.com/) as defined by IIS. There are thousands of pages of code that could have broken but did not.)
 
-- [Integrated Pipeline](../../application-frameworks/building-and-running-aspnet-applications/how-to-take-advantage-of-the-iis-integrated-pipeline.md) is the new unified request processing pipeline. Benefits include:
+- [Integrated Pipeline](../../application-frameworks/building-and-running-aspnet-applications/how-to-take-advantage-of-the-iis-integrated-pipeline.md) is the new unified request processing pipeline. Benefits include: 
 
     - Allowing services provided by both native and managed modules to apply to all requests, regardless of handler. For example, managed Forms Authentication can be used for all content, including ASP pages, CGIs, and static files.
     - Empowering ASP.NET components to provide functionality that was previously unavailable to them due to their placement in the server pipeline. For example, a managed module providing request rewriting functionality can rewrite the request prior to any server processing, including authentication, takes place.
     - A single place to implement, configure, monitor and support server features. For example, single module and handler mapping configuration, single custom errors configuration, single URL authorization configuration.
-- Classic ASP mode allows for easy app migration
+- Classic ASP mode allows for easy app migration 
 
     - ASP.NET Setup provides a "Classic .NET AppPool"
     - For more information, see the article [ASP.Net Integration With IIS 7.0](../../application-frameworks/building-and-running-aspnet-applications/aspnet-integration-with-iis.md)
-- Use [AppCmd](../../get-started/getting-started-with-iis/getting-started-with-appcmdexe.md) to migrate apps to Integrated mode
+- Use [AppCmd](../../get-started/getting-started-with-iis/getting-started-with-appcmdexe.md) to migrate apps to Integrated mode 
 
     - %windir%\system32\inetsrv\APPCMD.EXE migrate config &lt;Application Path&gt;
     - For more information about AppCmd.exe, see [Getting Started With AppCmd.exe](../../get-started/getting-started-with-iis/getting-started-with-appcmdexe.md)
-- [IIS 6.0 Metabase compatibility](../../manage/managing-your-configuration-settings/metabase-compatibility-with-iis-7-and-above.md) layer
+- [IIS 6.0 Metabase compatibility](../../manage/managing-your-configuration-settings/metabase-compatibility-with-iis-7-and-above.md) layer 
 
     - Allows you the run old ADSI scripts
     - IIS 6.0 Metabase Compatibility module must be installed
@@ -80,7 +80,7 @@ Example:
 
 - Admin can now delegate IIS settings to application owner
 - Settings defined in web.config file in application directory
-- Example of setting to delegate include:
+- Example of setting to delegate include: 
 
     - System.webServer section of applicationHost.config
     - Caching, defaultDocument, httpErrors, security
@@ -89,17 +89,17 @@ For more information, see [Delegated Configuration](../../manage/managing-your-c
 
 #### 6. AppCmd and other new management options
 
-- Managing via the UI
+- Managing via the UI 
 
     - New modular, task-based look and feel
     - Moving away from the right-click/properties paradigm
-- Managing via the Command Line
+- Managing via the Command Line 
 
     - AppCmd
 - Command line utility which replaces adsutil.vbs, iisapp.vbs, and others
 - Allows command line management of sites, applications, vdirs, apppools, modules, tracing, and more Powershell
 - IIS community creating IIS-specific Powershell cmdlets
-- MSCOM Considerations
+- MSCOM Considerations 
 
     - AppCmd limitations - no remote
     - No IIS provider for Powershell
@@ -114,7 +114,7 @@ For more information, see [Delegated Configuration](../../manage/managing-your-c
 
     - appcmd list requests (for all request)
     - appcmd list requests /apppool.name:DefaultAppPool
-- New Task Scheduler
+- New Task Scheduler 
 
     - Trigger tasks on events
 
@@ -124,10 +124,10 @@ For more information, see [Failed Request Tracing](../../troubleshoot/using-fail
 
 - No more URLScan
 - &lt;/requestFiltering&gt; settings in applicationHost.config
-- Issue for Microsoft.com: If filename includes "+" then allowDoubleEscaping must be set to "true"
+- Issue for Microsoft.com: If filename includes "+" then allowDoubleEscaping must be set to "true" 
 
     - &lt;requestFiltering allowDoubleEscaping="true"&gt;
-- Allow or disallow specific file extensions and verbs
+- Allow or disallow specific file extensions and verbs 
 
     - &lt;add fileExtension=".exe" allowed="false" /&gt;
 - DenyURLSequences 
@@ -143,7 +143,7 @@ For more information, see [Failed Request Tracing](../../troubleshoot/using-fail
 #### 9. UNC content
 
 - Simplified content synchronization
-- Reduced H/W footprint (potentially less cost)
+- Reduced H/W footprint (potentially less cost) 
 
     - Common industry pain point
 

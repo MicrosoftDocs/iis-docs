@@ -25,19 +25,12 @@ Using the delegation functionality of IIS 7 and above, you can delegate this pro
 **To configure the default documents globally using IIS Manager**
 
 1. From the **Administrative Tools** menu, click **Internet Information Services (IIS) Manager**.
-
 2. In IIS Manager, click the server name node, and then scroll to locate the **Default Document** icon.
-
-3. Double click **Default Document**.
-
-[![](default-documents/_static/image4.jpg)](default-documents/_static/image3.jpg)
-
-4. In the Actions pane, click **Add**.
-
-[![](default-documents/_static/image6.jpg)](default-documents/_static/image5.jpg)
-
+3. Double click **Default Document**.  
+    [![](default-documents/_static/image2.jpg)](default-documents/_static/image1.jpg)
+4. In the Actions pane, click **Add**.  
+    [![](default-documents/_static/image4.jpg)](default-documents/_static/image3.jpg)
 5. In the **Add Default Document** dialog box, type the name of the default document.
-
 6. Click **OK**.
 
 > [!NOTE]
@@ -60,5 +53,3 @@ Using the delegation functionality of IIS 7 and above, you can delegate this pro
 Also see [C# and PowerShell Scripts Samples](../configuring-components/powershell-scripts.md) for a another sample script to configure default documents.
 
 To configure the default document or other properties for delegation, see the topic "*Configuring Delegating Administration*" later in this section.
-
-* * *

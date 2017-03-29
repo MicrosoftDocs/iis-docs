@@ -20,29 +20,7 @@ You can deliver digital media audio and video files and live streams either from
 
 With the broader availability of high-bandwidth networks and new media delivery features for IIS 7 and above, the differences that previously favored the use of a Windows Media server over a Web server for delivering digital media content have blurred. In non-multicast streaming scenarios, depending upon your business need, a Windows Media server or a Web server can both be viable options for digital media content delivery today.
 
-This article introduces the delivery methods and bandwidth-management capabilities of Windows Media servers and Web servers, two important aspects of media delivery to consider when you are trying to decide which server type to deploy for your delivery scenario. It includes the following topics:
-
-- [Introducing Windows Media Servers and Web servers](windows-media-server-or-web-server.md#intro)
-
-    - [Windows Media servers](windows-media-server-or-web-server.md#media)
-    - [Web servers](windows-media-server-or-web-server.md#web)
-- [Streaming vs. Downloading](windows-media-server-or-web-server.md#delivery)
-
-    - [Streaming](windows-media-server-or-web-server.md#stream)
-    - [Downloading](windows-media-server-or-web-server.md#download)
-- [Windows Media Services](windows-media-server-or-web-server.md#wms)
-
-    - [Intelligent Streaming](windows-media-server-or-web-server.md#intelligent)
-    - [Fast Streaming](windows-media-server-or-web-server.md#fast)
-- [IIS Media Services](windows-media-server-or-web-server.md#iis)
-
-    - [Smooth Streaming](windows-media-server-or-web-server.md#ss)
-    - [Bit Rate Throttling](windows-media-server-or-web-server.md#brt)
-- [Feature checklist](windows-media-server-or-web-server.md#checklist)
-
-<a id="intro"></a>
-
-## Introducing Windows Media servers and Web servers
+This article introduces the delivery methods and bandwidth-management capabilities of Windows Media servers and Web servers, two important aspects of media delivery to consider when you are trying to decide which server type to deploy for your delivery scenario. s
 
 This section introduces the two primary Windows Server roles that are used to deliver digital media to clients:
 
@@ -115,11 +93,8 @@ Unpredictability of bandwidth is taken for granted on the Internet. The actual b
 Intelligent streaming progresses through a series of strategies to modify the bit rate of the stream so that it plays continuously on the client regardless of the current bandwidth. As bandwidth fluctuates between server and client, the server detects the changes and adopts the best strategy. The strategies are as follows:
 
 1. The server and client automatically determine the current available bandwidth, and then the server selects and delivers the stream with the most appropriate bit rate. This requires that the content be encoded as a multiple-bit-rate (MBR) stream.
-
 2. During transmission, if the bandwidth decreases, the server automatically detects the change and switches to a stream with a lower bit rate. If bandwidth improves, the server switches to a stream with a higher bit rate, but never higher than the original bit rate. The process of selecting the appropriate stream is transparent to the user.
-
 3. If the bandwidth can no longer support streaming video, the client and server intelligently degrade image quality to avoid buffering. This method of decreasing the bit rate to accommodate the current bandwidth is called stream thinning. The server decreases the video frame rate first. If the bit rate is still too high, the server stops sending video frames.
-
 4. After the server stops sending video frames, it uses intelligent streaming to try to maintain a continuous audio stream. If audio quality starts to degrade, the client reconstructs parts of the stream to preserve quality.
 
 When bandwidth is at its best, the server uses the first strategy. As conditions worsen, the server tries each strategy in the previous list of options in succession until the bit rate is optimized for the current bandwidth.
@@ -187,8 +162,10 @@ A Windows Media server is designed to handle the special requirements of streami
 
 Windows Media Services 2008 and IIS have additional features that are not described in this article that might affect your choice for delivering digital media. For example, Windows Media Services is the only server role that can be used for multicast delivery of content on enterprise networks. Before you make a final decision about which server role to deploy to facilitate your business model, review the features for each server role in the following table.
 
-![](windows-media-server-or-web-server/_static/image1.gif)= This feature or function is supported.  
-![](windows-media-server-or-web-server/_static/image2.gif)= This feature or function is supported on a Web Server running IIS if the referenced extension is installed. The implementation on the Web server may differ from the Windows Media server.   
+![](windows-media-server-or-web-server/_static/image1.gif)= This feature or function is supported.
+
+![](windows-media-server-or-web-server/_static/image2.gif)= This feature or function is supported on a Web Server running IIS if the referenced extension is installed. The implementation on the Web server may differ from the Windows Media server.
+
 ![](windows-media-server-or-web-server/_static/image3.gif)= This feature or function is not supported.
 
 
@@ -218,6 +195,5 @@ Windows Media Services 2008 and IIS have additional features that are not descri
 **5**[IIS Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing)  
 **6**[IIS Advanced Logging](https://www.iis.net/downloads/microsoft/advanced-logging)  
 **7**[IIS Web Playlists](https://www.iis.net/downloads/microsoft/web-playlists)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)
+
+>[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

@@ -36,96 +36,70 @@ Note: If you have not already installed the Web Deployment Tool, see [Installing
 
 ### Part 1 - View your site's dependencies
 
-1. Get the dependencies of the Web site by running the following command:
+1. Get the dependencies of the Web site by running the following command:  
 
-> [!code-unknown[Main](synchronize-iis/samples/sample-127155-1.unknown)]
-
-
+    [!code-unknown[Main](synchronize-iis/samples/sample-127155-1.unknown)]
 2. Review the output of the dependencies and look for any script maps or installed components that are in use by the site. For example, if Windows Authentication is in use by the Web site, you will see &lt;dependency name="WindowsAuthentication" /&gt;.
-
 3. If your site is inheriting any script maps, these will not be listed in the dependencies and you should also review the script maps for your site manually.
-
 4. Compile a list of the components needed on the destination.
 
 For detailed steps on analyzing the output of getDependencies, see [Viewing Web Site Dependencies](viewing-web-site-dependencies.md "Viewing Web Site Dependencies").
 
 ### Part 2 - Configure the target (destination)
 
-1. Review the list of dependencies and install them on the destination server.
+Review the list of dependencies and install them on the destination server. For example, let's assume you had the following in use for your Web site:
 
-For example, let's assume you had the following in use for your Web site:
-
-> • ASP.NET
-
-
-> • Windows Authentication
-
-
-> • Anonymous Authentication
-
+- ASP.NET
+- Windows Authentication
+- Anonymous Authentication
 
 Based on analyzing your dependencies, you would install those components on the destination server before performing the synchronization.
 
 ### Part 3 – Synchronize your site to the target
 
-1. Always make a backup of the destination and source servers. Even if you are just testing, it allows you to easily restore the state of your server. Run the following command to backup an IIS 7 or above server:
+1. Always make a backup of the destination and source servers. Even if you are just testing, it allows you to easily restore the state of your server. Run the following command to backup an IIS 7 or above server:  
 
-[!code-console[Main](synchronize-iis/samples/sample2.cmd)]
-
+    [!code-console[Main](synchronize-iis/samples/sample2.cmd)]
 2. Install the remote agent service on the source or the destination depending on if you want to "pull" the data from a remote source or "push" the data to a remote destination.
+3. Start the service on the computer.  
 
-3. Start the service on the computer.
+    [!code-console[Main](synchronize-iis/samples/sample3.cmd)]
+4. Run the following command to validate what would happen if the synchronization were run. The **-whatif** flag will not show every change; it will just show an optimistic view of what might change if everything succeeds (for example, it won't catch errors where you can't write to the destination.)  
 
-[!code-console[Main](synchronize-iis/samples/sample3.cmd)]
+    - Pushing to remote destination, running on source computer (the computerName argument identifies the remote destination computer).  
 
-4. Run the following command to validate what would happen if the synchronization were run. The **-whatif** flag will not show every change; it will just show an optimistic view of what might change if everything succeeds (for example, it won't catch errors where you can't write to the destination.)
+        [!code-unknown[Main](synchronize-iis/samples/sample-127155-4.unknown)]
+    - Pulling from a remote source, running on destination machine (the computerName argument identifies the remote source computer).  
 
-> *Pushing to remote destination, running on source computer (the computerName argument identifies the remote destination computer).*
-> 
-> [!code-unknown[Main](synchronize-iis/samples/sample-127155-4.unknown)]
-> 
-> *Pulling from a remote source, running on destination machine (the computerName argument identifies the remote source computer).*
-> 
-> [!code-unknown[Main](synchronize-iis/samples/sample-127155-5.unknown)]
+        [!code-unknown[Main](synchronize-iis/samples/sample-127155-5.unknown)]
+5. After verifying the output, run the same command again without the **-whatif** flag:  
 
+    - Pushing to remote destination, running on source machine
 
-5. After verifying the output, run the same command again without the **-whatif** flag:
+        [!code-unknown[Main](synchronize-iis/samples/sample-127155-6.unknown)]
+6. Pulling from a remote source, running on destination machine  
 
-> *Pushing to remote destination, running on source machine*
-> 
-> [!code-unknown[Main](synchronize-iis/samples/sample-127155-6.unknown)]
-> 
-> *Pulling from a remote source, running on destination machine*
-> 
-> [!code-unknown[Main](synchronize-iis/samples/sample-127155-7.unknown)]
-
+    [!code-unknown[Main](synchronize-iis/samples/sample-127155-7.unknown)]
 
 ### {Optional - Synchronize your site to the target by using a package file}
 
 If you don't wish to use the remote service, you can use a package (compressed file) instead.
 
-1. Run the following command on the source server to create a package of the Web site for synchronization:
+1. Run the following command on the source server to create a package of the Web site for synchronization:  
 
-> [!code-unknown[Main](synchronize-iis/samples/sample-127155-8.unknown)]
-
-
+    [!code-unknown[Main](synchronize-iis/samples/sample-127155-8.unknown)]
 2. Copy the package file to the destination server.
+3. Run the following command on the destination server to validate what would happen if the synchronization were run:  
 
-3. Run the following command on the destination server to validate what would happen if the synchronization were run:
+    [!code-unknown[Main](synchronize-iis/samples/sample-127155-9.unknown)]
+4. After verifying the output, run the same command again without the -whatif flag:  
 
-> [!code-unknown[Main](synchronize-iis/samples/sample-127155-9.unknown)]
-
-
-4. After verifying the output, run the same command again without the -whatif flag:
-
-> [!code-unknown[Main](synchronize-iis/samples/sample-127155-10.unknown)]
-
+    [!code-unknown[Main](synchronize-iis/samples/sample-127155-10.unknown)]
 
 You are now done synchronizing your site. To verify, test browsing to the Web site on the destination server. For troubleshooting help, see [Troubleshooting Web Deploy](../troubleshooting-web-deploy/troubleshooting-web-deploy.md "Troubleshooting Web Deploy").
 
 ### Summary
 
 You have now synchronized a web site from a source IIS server to a destination IIS server, including viewing the dependencies, configuring the destination IIS server and performing the synchronization.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

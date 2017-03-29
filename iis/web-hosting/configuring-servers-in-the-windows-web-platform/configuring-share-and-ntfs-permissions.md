@@ -39,38 +39,25 @@ The following table lists permissions that were used for the file server share a
 **To configure permissions for the share**
 
 1. In Windows Explorer, right-click the folder you want to share, and then click **Properties**.
-
 2. On the **Sharing** tab, click **Advanced Sharing**.
-
 3. In User Account Control, click **Continue** to accept the prompt that Windows needs your permission to perform the action.
-
 4. In the **Advanced Sharing** dialog box, check **Share this folder**.
-
 5. Set the **Share name** and **Comments** as appropriate. To make the share hidden, add a $ to the end of the share name.   
   
-> [!NOTE]
-> Hiding a share means that when you connect to [\\server](file://server/) you will not see the share unless you specifically enter the path [\\server\share$](file://server/share$).
-
+    > [!NOTE]
+    > Hiding a share means that when you connect to     [\\server](file://server/) you will not see the share unless you specifically enter the path     [\\server\share$](file://server/share$) .
 6. Click **Permissions**.
-
 7. In the **Permissions** dialog box, remove the Everyone group, if it exists.
-
 8. Add the appropriate user or group that should have access to the share.
-
 9. Specify the permissions (Full Control, Change, Read) for the user or group.
-
 10. Click **OK** twice and then click **Close** to close the dialog boxes.
 
 **To configure permissions for the folder structure**
 
 1. In Windows Explorer, right-click the folder you want to share, and then click **Properties**.
-
 2. On the **Security** tab, click **Edit**.
-
 3. In the **Permissions** dialog box, add the appropriate users or groups that should have access at each level of the folder structure.
-
 4. Specify the permissions (Full control, Modify, Read &amp; execute, List folder contents, Read, Write Special permissions) for the users or groups.
-
 5. Click **OK** twice to close the dialog boxes.
 
 See [C# and PowerShell Scripts Samples](../configuring-components/powershell-scripts.md) for a sample script to configure default documents. as an example of creation of a share and setting of permissions.

@@ -62,30 +62,22 @@ If you copy and paste the code above into a VBS file and save it as ADDMIMETYPE.
 
 ### Using the IIS Manager User Interface in IIS 6.0 in Windows Server 2003
 
-1. Go to Start\Administrative Tools and run IIS Manager. See the figure below:
+1. Go to Start\Administrative Tools and run IIS Manager. See the figure below:  
+    [![](configuring-iis-for-silverlight-applications/_static/image4.jpg)](configuring-iis-for-silverlight-applications/_static/image3.jpg)
+2. Right click on the server name and select **Properties.** See the figure below:  
+    [![](configuring-iis-for-silverlight-applications/_static/image6.jpg)](configuring-iis-for-silverlight-applications/_static/image5.jpg)
+3. In the **Properties** dialog box, click **MIME Types.** See the figure below:  
+    [![](configuring-iis-for-silverlight-applications/_static/image8.jpg)](configuring-iis-for-silverlight-applications/_static/image7.jpg)
+4. In the **MIME Types** dialog box, click **New.** See the figure below:  
+    [![](configuring-iis-for-silverlight-applications/_static/image10.jpg)](configuring-iis-for-silverlight-applications/_static/image9.jpg)
+5. In the **MIME Types** dialog box, enter one of these MIME types:  
 
-[![](configuring-iis-for-silverlight-applications/_static/image4.jpg)](configuring-iis-for-silverlight-applications/_static/image3.jpg)
+    - .xap application/x-silverlight-app
+    - .xaml application/xaml+xml
+    - .xbap application/x-ms-xbap
 
-2. Right click on the server name and select **Properties.** See the figure below:
+    See the figure below:
 
-[![](configuring-iis-for-silverlight-applications/_static/image6.jpg)](configuring-iis-for-silverlight-applications/_static/image5.jpg)
-
-3. In the **Properties** dialog box, click **MIME Types.** See the figure below:
-
-[![](configuring-iis-for-silverlight-applications/_static/image8.jpg)](configuring-iis-for-silverlight-applications/_static/image7.jpg)
-
-4. In the **MIME Types** dialog box, click **New.** See the figure below:
-
-[![](configuring-iis-for-silverlight-applications/_static/image10.jpg)](configuring-iis-for-silverlight-applications/_static/image9.jpg)
-
-5. In the **MIME Types** dialog box, enter one of these MIME types:
-
-- .xap application/x-silverlight-app
-- .xaml application/xaml+xml
-- .xbap application/x-ms-xbap
-
-See the figure below:
-
-[![](configuring-iis-for-silverlight-applications/_static/image12.jpg)](configuring-iis-for-silverlight-applications/_static/image11.jpg)
+    [![](configuring-iis-for-silverlight-applications/_static/image12.jpg)](configuring-iis-for-silverlight-applications/_static/image11.jpg)
 
 For detailed information on Silverlight, visit [http://silverlight.net/](http://silverlight.net/).

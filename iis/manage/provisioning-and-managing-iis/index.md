@@ -35,5 +35,4 @@ Provisioning and Managing IIS
 - [Using Managed APIs in IIS 7](using-managed-apis-in-iis-7.md)
 - [Provisioning Sample in C#](provisioning-sample-in-c.md)
 - [Configure Logging in IIS](configure-logging-in-iis.md)
-- [IIS 8 - Scaling for Multi-Tenant Hosting and Cloud](iis-8-scaling-for-multi-tenant-hosting-and-cloud.md)
 - [Managing IIS Log File Storage](managing-iis-log-file-storage.md)

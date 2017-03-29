@@ -33,7 +33,7 @@ The first level of validation for an operation should be the **-whatif** flag. T
 
 ### To run with verbose output
 
-1. Let's say we were running a sync operation. Run the command again, with -verbose specified:
+Let's say we were running a sync operation. Run the command again, with -verbose specified:
 
 [!code-powershell[Main](troubleshooting-web-deploy/samples/sample1.ps1)]
 
@@ -62,6 +62,5 @@ The connection to the remote machine times out or returns a timeout error – ve
 ### Summary
 
 You have run operations with tracing or verbosity enabled as well as learned some errors that can occur. This guide will be updated to include additional error cases and troubleshooting tips.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

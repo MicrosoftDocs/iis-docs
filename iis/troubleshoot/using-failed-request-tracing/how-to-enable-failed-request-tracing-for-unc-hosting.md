@@ -20,13 +20,11 @@ by [Saad Ladki](https://twitter.com/saadladki)
 
 Placing application content and code on a UNC share for hosting scenarios is increasingly important on web application servers. In hosting scenarios, it is important to be able to keep the logs alongside the web application content and code. Logs include the Failed Request Tracing log files, as well as the hit logs that IIS logs for the web site. This document walks you through the creation of the appropriate directories, setting the right permissions on them, and then configuring IIS on how to use the directories for the various log files.
 
-The basic naming conventions for the log file directories, user accounts, and permissions settings are consistent with the "Shared Hosting Walkthrough" document also available on this site. This walkthrough also makes distinctions on how to do the various actions via :
-
+The basic naming conventions for the log file directories, user accounts, and permissions settings are consistent with the "Shared Hosting Walkthrough" document also available on this site. This walkthrough also makes distinctions on how to do the various actions via:
 
 - UI : Using the IIS Manager or Explorer to perform the action
 - CMD : Using command line (PowerShell, AppCmd, etc.) to perform the action
 - XML : Manually edit configuration to perform the action.
-
 
 ## Configuring Failed Requests Tracing for a Hosting Scenario
 
@@ -82,24 +80,17 @@ These directions should be repeated on both the UNC server as well as the web se
 
 1. From an Administrator-elevated command prompt, run **start lusrmgr.msc.**
 2. Right-click on the **Users** folder and select **New User...** .
-3. Fill in the **New User** dialog entries as follows:
+3. Fill in the **New User** dialog entries as follows:  
 
-> a. User name : **PoolId1**
-> 
-> b. Password (&amp; Confirm Password) : **!p4ssw0rd**
-> 
-> c. uncheck "User must change password at next logon"
-> 
-> d. check "user cannot change password"
-> 
-> e. Click **Create**, then **Close.**
+    - User name : **PoolId1**
+    - Password (&amp; Confirm Password) : **!p4ssw0rd**
+    - uncheck "User must change password at next logon"
+    - check "user cannot change password"
+    - Click **Create**, then **Close.**
 
+    [![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image6.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image5.png)
 
-[![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image7.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image5.png)
-
-Make sure to create the **PoolId1** user on both the front-end IIS Web Server &amp; the back end UNC server.
-
-You also need to add the *PoolId1* to the IIS\_IUSRS group on the Front End Web Server. To do so:
+Make sure to create the **PoolId1** user on both the front-end IIS Web Server &amp; the back end UNC server. You also need to add the *PoolId1* to the IIS\_IUSRS group on the Front End Web Server. To do so:
 
 1. Click the **Groups** folder on the *lusrmgr* MMC snapin.
 2. Right-click on *IIS\_IUSRS* and select **Add to Group**.
@@ -110,10 +101,9 @@ You also need to add the *PoolId1* to the IIS\_IUSRS group on the Front End Web 
 To add the new *PoolId1* identity from the command line, do the following:
 
 1. Run an administrator elevated command prompt.
-2. In the command prompt window, run the following commands:
+2. In the command prompt window, run the following commands:  
 
-
-[!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample2.cmd)]
+    [!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample2.cmd)]
 
 > [!NOTE]
 > The "net localgroup" command is only required on the Front End Web Server.
@@ -129,7 +119,7 @@ Part of the shared hosting guidance that the IIS team is creating is a new appli
 5. Under *Process Model*, select the *Identity* row and then on the **...** button.
 6. Click the **Set** button and configure the *Custom Identity* to match our user identity we just created - *PoolId1.* Click **OK** and **OK** again to change the identity of the application pool. You see:
 
-[![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image11.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image9.png)
+[![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image8.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image7.png)
 
 We must also drop a site into this application pool. Use Default Web Site for the purposes of this walkthrough. You can also create a new site for this (SITE1) via INETMGR.exe. Do the following:
 
@@ -142,16 +132,13 @@ We must also drop a site into this application pool. Use Default Web Site for th
 
 To do the above steps from the command line:
 
-1. Start an administrator-elevated command prompt .
-2. To add the new application pool run the following command:
-
-
-[!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample3.cmd)]
-
+1. Start an administrator-elevated command prompt.
+2. To add the new application pool run the following command:  
+< samp=""> %windir%\system32\inetsrv\appcmd add AppPool -name:Pool\_Site1 -processModel.username:ERICDE-DELL-W\PoolId1 -processModel.password:!p4ssw0rd -processModel.identityType:SpecificUser
 
 To set the root application of the Default Web Site to run in Pool\_Site1, run the following command:
 
-[!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample4.cmd)]
+[!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample3.cmd)]
 
 ## Creating and Locking Down the ACLs for the UNC Share
 
@@ -162,7 +149,7 @@ Now create and lock down the UNC share &amp; its file system directories.
 On the UNC server do the following:
 
 1. Create a filesystem path (call it **content**) where we will dump the content.
-2. Underneath that, create a new directory called **Site1**, and under that another directory called **Logs**, and the final directory called **failedReqLogFiles**. What you should see is: 
+2. Underneath that, create a new directory called **Site1**, and under that another directory called **Logs**, and the final directory called **failedReqLogFiles**. What you should see is:  
 
     - g:\content 
 
@@ -175,13 +162,13 @@ On the UNC server do the following:
 
     - Windows Server® 2003 Fileserver : 
 
-        [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-5.unknown)]
+        [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-4.unknown)]
     - Windows Server 2003 Fileserver : 
 
-        [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-6.unknown)]
+        [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-5.unknown)]
 4. Share the directory out. From the command line, do the following: 
 
-    [!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample7.cmd)]
+    [!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample6.cmd)]
 
 ## Setting Failed Request Tracing to Log to the UNC Path
 
@@ -196,34 +183,30 @@ To configure Failed Request Tracing to log to our UNC path, follow these directi
 3. Check the **Enabled** check box.
 4. Under *Directory*, type in the path to the UNC share -&gt; 
 
-    [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-8.unknown)]
+    [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-7.unknown)]
 
-[![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image15.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image13.png)
+[![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image11.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image9.png)
 
 ## Testing
 
 Configure a rule to catch all 200s for all URLs for **All Content** to run a test.
 
-1. In the INETMGR UI again, expand the *Sites* folder and click on *Default Web Site*.   
-2. Double-click on **Failed Request Tracing Rules**.   
-3. Under *Actions* on the right, click on **Add...**   
-  
-[![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image19.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image17.png)  
-4. Click **Next**, and set the status code to 200:
-
-[![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image23.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image21.png)
-
+1. In the INETMGR UI again, expand the *Sites* folder and click on *Default Web Site*.
+2. Double-click on **Failed Request Tracing Rules**.
+3. Under *Actions* on the right, click on **Add...**  
+    [![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image14.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image13.png)
+4. Click **Next**, and set the status code to 200:  
+    [![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image16.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image15.png)
 5. Click **Next**, and leave the default to collect everything, then click **Finish.**
 
 ### XML: Configuring the Failed Request Tracing Rule in web.config
 
 The actual XML looks like the following in the web.config file for the Default Web Site:
 
-[!code-xml[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample9.xml)]
+[!code-xml[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample8.xml)]
 
 ## Checking the UNC Back End
 
 Browse to the website that we set up in order to log Failed Request Tracing rules to the UNC path (say [http://uncsite/default.aspx](http://uncsite/default.aspx)) . Check the UNC back end server directory where you are logging. Notice that a new directory called W3SVC1 has been created within the configured Failed Request Log File Directory. Browse into that directory, and see the log file and the FREB.xsl file.
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1052.aspx)

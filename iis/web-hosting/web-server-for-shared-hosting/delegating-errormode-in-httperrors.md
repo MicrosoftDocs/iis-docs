@@ -22,28 +22,29 @@ There are cases when a hoster may need to delegate to its customers specific set
 
 ### To Delegate the errorMode setting:
 
-1. Allow the delegation of the &lt;httpErrors&gt; section in applicationhost.config via overrideModeDefault by opening "%windir%\system32\inetsrv\config\applicationhost.config" with a text editor and changing the &lt;section name="httpErrors" overrideModeDefault="Deny" /&gt; element as follows:
+1. Allow the delegation of the &lt;httpErrors&gt; section in applicationhost.config via overrideModeDefault by opening "%windir%\system32\inetsrv\config\applicationhost.config" with a text editor and changing the &lt;section name="httpErrors" overrideModeDefault="Deny" /&gt; element as follows:  
 
-[!code-xml[Main](delegating-errormode-in-httperrors/samples/sample1.xml)]
+    [!code-xml[Main](delegating-errormode-in-httperrors/samples/sample1.xml)]
+2. Use lockAllAttributesExcept and lockElements to only allow the delegation of the errorMode setting, locate the &lt;httpErrors&gt; element and change as follows:  
 
-2. Use lockAllAttributesExcept and lockElements to only allow the delegation of the errorMode setting, locate the &lt;httpErrors&gt; element and change as follows:
+    [!code-xml[Main](delegating-errormode-in-httperrors/samples/sample2.xml)]
 
-[!code-xml[Main](delegating-errormode-in-httperrors/samples/sample2.xml)]
+    Your httpErrors section might look like this after the change:
 
-Your httpErrors section might look like this after the change:
-
-[!code-xml[Main](delegating-errormode-in-httperrors/samples/sample3.xml)]
-
+    [!code-xml[Main](delegating-errormode-in-httperrors/samples/sample3.xml)]
 3. Now you as the hoster can use appcmd to set the errorMode setting to "Detailed" or "Custom" (see example below)
 
 [!code-console[Main](delegating-errormode-in-httperrors/samples/sample4.cmd)]
 
-or you could ask your customers to put the following statement in their web.config files:
+    or you could ask your customers to put the following statement in their web.config files:
 
-[!code-xml[Main](delegating-errormode-in-httperrors/samples/sample5.xml)]
+    [!code-xml[Main](delegating-errormode-in-httperrors/samples/sample5.xml)]
 
 ### Resources
 
 For more information see:
 
-- [Delegated Administration](delegated-administration.md)- [Introduction to ApplicationHost.config](../../get-started/planning-your-iis-architecture/introduction-to-applicationhostconfig.md)- [How to Use HTTP Detailed Errors in IIS](../../troubleshoot/diagnosing-http-errors/how-to-use-http-detailed-errors-in-iis.md)- [https://blogs.iis.net/thomad/archive/2008/03/14/delegating-iis7-settings-in-hosted-environments.aspx](https://blogs.iis.net/thomad/archive/2008/03/14/delegating-iis7-settings-in-hosted-environments.aspx)
+- [Delegated Administration](delegated-administration.md)
+- [Introduction to ApplicationHost.config](../../get-started/planning-your-iis-architecture/introduction-to-applicationhostconfig.md)
+- [How to Use HTTP Detailed Errors in IIS](../../troubleshoot/diagnosing-http-errors/how-to-use-http-detailed-errors-in-iis.md)
+- [https://blogs.iis.net/thomad/archive/2008/03/14/delegating-iis7-settings-in-hosted-environments.aspx](https://blogs.iis.net/thomad/archive/2008/03/14/delegating-iis7-settings-in-hosted-environments.aspx)

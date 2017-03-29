@@ -45,42 +45,26 @@ In IIS 7.0 and above, the shared configuration feature enables administrators to
 
 1. Create a user that will access the share containing the configuration. This can be a domain user or a local user, if the machine is not joined to a domain.   
   
-> [!NOTE]
-> If the machine is not joined to the domain, the account will need to be created on the Web server(s) and the file server.
-
+    > [!NOTE]
+    > If the machine is not joined to the domain, the account will need to be created on the Web server(s) and the file server.
 2. Create a share for storing the configuration files and set permissions. This can be done using the following commands:  
   
-md %SystemDrive%\centralconfig  
-net share centralconfig$=%SystemDrive%\centralconfig /grant:ConfigUser,Read /grant:Administrators,Full
-
+ md %SystemDrive%\centralconfig  
+ net share centralconfig$=%SystemDrive%\centralconfig /grant:ConfigUser,Read /grant:Administrators,Full
 3. Navigate to **Administrative Tools** and click **Internet Information Services (IIS) Manager**.
-
 4. Click the server name node.
-
 5. Double-click the **Shared Configuration** icon.
-
 6. On the **Shared Configuration** page, to export the configuration files from the local machine to another location, click **Export Configuration** in the **Actions** pane.
-
 7. In the **Export Configuration** dialog box, type a path in the **Physical path** text box.
-
 8. Click **Connect As...** and type a user account and password, and then click **OK**. This account will be used to access the share. You should use a restricted Active Directory account that is not the domain administrator.
-
 9. In the **Export Configuration** dialog box, type a password that will be used to protect the encryption keys, and then click **OK**.
-
 10. On the **Shared Configuration** page, check **Enable shared configuration**.
-
 11. Type the physical path, user account, and password that you entered previously, and then click **Apply** in the **Actions** pane.
-
 12. In the **Encryption Keys Password** dialog box, type the encryption key password that you set earlier, and then click **OK**.
-
 13. In the **Shared Configuration** dialog box, click **OK**.
-
 14. Click **OK**.
-
 15. Close and reopen IIS Manager.
-
 16. Double-click the **Management Service** icon.
-
 17. In the **Actions** pane, click **Restart**.
 
 By clicking the Export Configuration task, the UI exports the applicationHost.config and administration.config files to the path, as well as the encryption keys that IIS uses to encrypt properties like custom application pool identity passwords. By default, there are no encrypted properties in the applicationHost.config file, unless the server administrator has entered custom identities for an application pool or Web site.
@@ -89,6 +73,4 @@ Shared configuration works by using a new file named redirection.config, located
 
 While this task can be performed manually (or programmatically) by xcopying the files and updating the redirection.config file, the server administrator must export and import the encryption keys unless they intend not to use encryption. The UI handles all of these tasks seamlessly for the administrator.
 
-For more information, go to [Shared Configuration](../../manage/managing-your-configuration-settings/shared-configuration_264.md). 
-
-* * *
+For more information, go to [Shared Configuration](../../manage/managing-your-configuration-settings/shared-configuration_264.md).

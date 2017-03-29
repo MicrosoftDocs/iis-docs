@@ -22,20 +22,17 @@ The Microsoft® Web Deployment Tool simplifies the migration, management, and de
 
 With the Web Deployment Tool, you can:
 
-- **Migrate Web applications between IIS 6.0 and IIS 7 and above**.  
- Simplify the planning of your IIS 6.0 to IIS 7 and above migrations by determining incompatibilities and previewing the proposed changes before starting the process. Learning about any potential issues in advance gives you the chance to take corrective measures and simplifies migration.
-- **Synchronize your server farm**.  
- The Web Deployment Tool makes it possible for you to efficiently synchronize sites, applications, or servers across your IIS server farm by detecting differences between the source and destination content and transferring only those changes which need synchronization. The tool simplifies the synchronization process by automatically determining the configuration, content, and certificates to be synchronized for a specific site. In addition to the default behavior, you still have the option to specify additional providers for the synchronization, including databases, Component Object Model (COM) objects, Global Assembly Cache (GAC) assemblies, and registry settings.
-- **Package, archive, and deploy Web applications.**  
- You can use the Web Deployment Tool to package configuration and content of your installed Web applications, including databases, and use the packages for storage or redeployment. These packages can be deployed using IIS Manager without requiring administrative privileges. The tool integrates with Microsoft® Visual Studio® 2010 to help developers streamline the deployment of Web applications to the Web server. The tool also integrates with the Microsoft® Web Platform Installer (Web PI) so you can simply and easily install community Web applications. You can submit your own application to the Web Application Gallery.
+- **Migrate Web applications between IIS 6.0 and IIS 7 and above** - Simplify the planning of your IIS 6.0 to IIS 7 and above migrations by determining incompatibilities and previewing the proposed changes before starting the process. Learning about any potential issues in advance gives you the chance to take corrective measures and simplifies migration.
+- **Synchronize your server farm** - The Web Deployment Tool makes it possible for you to efficiently synchronize sites, applications, or servers across your IIS server farm by detecting differences between the source and destination content and transferring only those changes which need synchronization. The tool simplifies the synchronization process by automatically determining the configuration, content, and certificates to be synchronized for a specific site. In addition to the default behavior, you still have the option to specify additional providers for the synchronization, including databases, Component Object Model (COM) objects, Global Assembly Cache (GAC) assemblies, and registry settings.
+- **Package, archive, and deploy Web applications** - You can use the Web Deployment Tool to package configuration and content of your installed Web applications, including databases, and use the packages for storage or redeployment. These packages can be deployed using IIS Manager without requiring administrative privileges. The tool integrates with Microsoft® Visual Studio® 2010 to help developers streamline the deployment of Web applications to the Web server. The tool also integrates with the Microsoft® Web Platform Installer (Web PI) so you can simply and easily install community Web applications. You can submit your own application to the Web Application Gallery.
 
 ## Download and Install the Web Deployment Tool
 
 The Web Deployment Tool is a managed code framework that includes the public application programming interfaces (APIs) and underlying engine. (This is the top-level node and cannot be removed.)
 
-- **IIS Manager UI Module**– UI module makes it possible for users to perform a subset of deployment tasks, mainly packaging or deploying a Web site or app. This module requires the installation of IIS 7 or above, or IIS Remote Manager.
-- **Remote Agent Service**– An administrator-only service based on HTTP/HTTPS that allows server administrators to connect and perform remote operations.
-- **IIS Deployment Handler**– A handler that integrates with Web Management Service (WMSvc) and allows non-administrators or administrators to perform remote operations. This handler requires the installation of IIS with WMSvc.
+- **IIS Manager UI Module** – UI module makes it possible for users to perform a subset of deployment tasks, mainly packaging or deploying a Web site or app. This module requires the installation of IIS 7 or above, or IIS Remote Manager.
+- **Remote Agent Service** – An administrator-only service based on HTTP/HTTPS that allows server administrators to connect and perform remote operations.
+- **IIS Deployment Handler** – A handler that integrates with Web Management Service (WMSvc) and allows non-administrators or administrators to perform remote operations. This handler requires the installation of IIS with WMSvc.
 
 ### Choose Installation Options
 
@@ -46,51 +43,34 @@ Before you install the Web Deployment Tool, decide whether you want to use the r
 
 Note that you only need the remote service installed on either the source or the destination. For example, to "push" all content from a server to a client, you can install the remote service on all client computers so that the content can be pushed from the source. Alternatively, you could have each client "pull" from the server and only install the remote service on the source.
 
-#### *To install the tool using the default remote service URL*
+#### To install the tool using the default remote service URL
 
 1. Download the [Web Deployment Tool](https://www.iis.net/downloads/microsoft/web-deploy).
-
 2. Run the Windows®Installer file to install the tool.
-
 3. Select a Custom installation.
-
 4. Click on the remote service node to install the remote service.
-
 5. Complete the installation.
+6. Manually start the service by running the following command:  
 
-6. Manually start the service by running the following command:
-
-
-[!code-console[Main](use-the-web-deployment-tool/samples/sample1.cmd)]
-
-
+    [!code-console[Main](use-the-web-deployment-tool/samples/sample1.cmd)]
 7. Ensure that port 80 is open in the firewall.
 
-#### *To install the tool with a custom remote service URL*
+#### To install the tool with a custom remote service URL
 
 1. Download the [Web Deployment Tool](https://www.iis.net/downloads/microsoft/web-deploy).
-
 2. Open an administrative command prompt on Windows Server® 2008, or a command prompt on Windows Server® 2003.
-
 3. Go to the directory where the setup file is located.
+4. Run the following command (customize the port and URL specifications):  
 
-4. Run the following command (customize the port and URL specifications):
+    [!code-unknown[Main](use-the-web-deployment-tool/samples/sample-127161-2.unknown)]
+5. Manually start the service by running the following command:  
 
-
-[!code-unknown[Main](use-the-web-deployment-tool/samples/sample-127161-2.unknown)]
-
-
-5. Manually start the service by running the following command:
-
-
-[!code-console[Main](use-the-web-deployment-tool/samples/sample3.cmd)]
-
-
+    [!code-console[Main](use-the-web-deployment-tool/samples/sample3.cmd)]
 6. Ensure that the port you have chosen is open in the firewall.
 
 The tool will be installed to %programfiles%\IIS\Microsoft Web Deploy. This cannot be changed.
 
-#### *Starting the remote service after installation*
+#### Starting the remote service after installation
 
 The remote service listens on http://+/msdeployagentservice/ by default or at the URL that you specified if you performed a custom installation.
 
@@ -155,10 +135,8 @@ The following information is an extensive list of the features of the Web Deploy
     - Automatically gathers content, IIS configuration, Secure Sockets Layer (SSL) certificates, and ASP.NET configuration when you synchronize a Web site.
 - In addition to using IIS Manager and Visual Studio 10, tasks can be performed using the command-line, Windows PowerShell™ cmdlets, or public APIs.
 
-
 > [!NOTE]
 > *This article is based on material from: " Installing the Web Deployment Tool" by Faith Allington, published on September 1, 2009.*
-
 
 ## Links for Further Information
 
@@ -169,6 +147,5 @@ The following information is an extensive list of the features of the Web Deploy
 [Web Deployment Tool](https://forums.iis.net/1144.aspx).
 
 [Microsoft Web Deployment Team Blog](https://blogs.iis.net/msdeploy/).
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

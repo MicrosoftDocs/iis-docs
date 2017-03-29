@@ -34,9 +34,7 @@ When using a remote file server for content or configuration files, you must set
 To configure the registry key on the Web server, use the following:
 
 1. From the command prompt, run regedt32 to open the Registry Editor.
-
 2. Navigate to HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanworkstation\parameters.
-
 3. If it does not exist, create a DWORD "MaxCmds" and set the value to 800 hexadecimal. This specifies a value of 2,048.
 
 > [!NOTE]

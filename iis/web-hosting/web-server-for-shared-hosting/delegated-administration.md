@@ -77,24 +77,18 @@ The following table lists a sample set of features, their delegated settings, an
 
 **To enable the Remote Delegation Service using IIS Manager**
 
-1. Navigate to **Administrative Tools** and click **Internet Information Services (IIS) Manager**.  
-2. Click the server name node.  
-3. Double-click the **Feature Delegation** icon.
-
-[![](delegated-administration/_static/image3.png)](delegated-administration/_static/image2.png)
-
-4. On the **Feature Delegation** page, change any properties that should or should not be delegated.  
-5. Click the Back button or select the server name node to return to the server feature list.  
-6. Double-click the **Management Service** icon.
-
-[![](delegated-administration/_static/image5.png)](delegated-administration/_static/image4.png)
-
-7. On the **Management Service** page, in the **Actions** pane, start the service to enable configuration.  
-8. **Stop** the service to make changes.  
-9. Click **Enable remote connections**.
-
-[![](delegated-administration/_static/image7.png)](delegated-administration/_static/image6.png)
-
-10. Select whether you wish to allow only Windows users or both Windows and membership users.  
-11. Change the port or certificate if desired.  
+1. Navigate to **Administrative Tools** and click **Internet Information Services (IIS) Manager**.
+2. Click the server name node.
+3. Double-click the **Feature Delegation** icon.  
+    [![](delegated-administration/_static/image3.png)](delegated-administration/_static/image2.png)
+4. On the **Feature Delegation** page, change any properties that should or should not be delegated.
+5. Click the Back button or select the server name node to return to the server feature list.
+6. Double-click the **Management Service** icon.  
+    [![](delegated-administration/_static/image5.png)](delegated-administration/_static/image4.png)
+7. On the **Management Service** page, in the **Actions** pane, start the service to enable configuration.
+8. **Stop** the service to make changes.
+9. Click **Enable remote connections**.  
+    [![](delegated-administration/_static/image7.png)](delegated-administration/_static/image6.png)
+10. Select whether you wish to allow only Windows users or both Windows and membership users.
+11. Change the port or certificate if desired.
 12. In the **Actions** pane, click **Start** to enable the Remote Delegation service.
