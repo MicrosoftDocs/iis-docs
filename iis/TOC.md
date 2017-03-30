@@ -1,19 +1,24 @@
+# [Get Started]
+## [What’s New in IIS 10.0?]
 ### [New Features Introduced in IIS 10.0](get-started/whats-new-in-iis-10/new-features-introduced-in-iis-100.md)
 ### [Introducing IIS on Nano Server](get-started/whats-new-in-iis-10/introducing-iis-on-nano-server.md)
 ### [HTTP/2 on IIS](get-started/whats-new-in-iis-10/http2-on-iis.md)
 ### [IISAdministration PowerShell Cmdlets](get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets.md)
 ### [Running Asp.Net Core with IIS on Nano Server](get-started/whats-new-in-iis-10/running-aspnet-core-with-iis-on-nano-server.md)
 ### [Wildcard Host Header Support](get-started/whats-new-in-iis-10/wildcard-host-header-support.md)
+## [Introduction to IIS]
 ### [Introduction to IIS Architectures](get-started/introduction-to-iis/introduction-to-iis-architecture.md)
 ### [IIS Web Server Overview](get-started/introduction-to-iis/iis-web-server-overview.md)
 ### [IIS Modules Overview](get-started/introduction-to-iis/iis-modules-overview.md)
 ### [Web Site Deployment Made Easy](get-started/introduction-to-iis/web-site-deployment-made-easy.md)
 ### [Hosting-Friendly Web Server Platform (IIS): Scenario Overview](get-started/introduction-to-iis/hosting-friendly-web-server-platform-iis-scenario-overview.md)
+## [Getting Started with IIS]
 ### [Serving New Content](get-started/getting-started-with-iis/serving-new-content.md)
 ### [Virtual Labs](get-started/getting-started-with-iis/virtual-labs.md)
 ### [Getting Started with the IIS Manager in IIS](get-started/getting-started-with-iis/getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md)
 ### [Getting Started with AppCmd.exe](get-started/getting-started-with-iis/getting-started-with-appcmdexe.md)
 ### [Create a Web Site](get-started/getting-started-with-iis/create-a-web-site.md)
+## [Planning Your IIS Architecture]
 ### [Editing Configuration Files](get-started/planning-your-iis-architecture/editing-configuration-files.md)
 ### [The Configuration System in IIS 7](get-started/planning-your-iis-architecture/the-configuration-system-in-iis-7.md)
 ### [Getting Started with Configuration in IIS 7 and Above](get-started/planning-your-iis-architecture/getting-started-with-configuration-in-iis-7-and-above.md)
@@ -23,18 +28,23 @@
 ### [Feature to Configuration Reference](get-started/planning-your-iis-architecture/feature-to-configuration-reference.md)
 ### [Understanding Sites, Applications, and Virtual Directories on IIS 7](get-started/planning-your-iis-architecture/understanding-sites-applications-and-virtual-directories-on-iis.md)
 ### [Understanding Multicore Scaling on NUMA Hardware with IIS 8](get-started/planning-your-iis-architecture/understanding-multicore-scaling-on-numa-hardware-with-iis-8.md)
+## [Planning for Security]
 ### [Build a Custom IIS 7.0 Server](get-started/planning-for-security/build-a-custom-iis-server.md)
 ### [Understanding Built-In User and Group Accounts in IIS 7](get-started/planning-for-security/understanding-built-in-user-and-group-accounts-in-iis.md)
 ### [How to Use Locking in IIS 7.0 Configuration](get-started/planning-for-security/how-to-use-locking-in-iis-configuration.md)
 ### [Secure Content in IIS Through File System ACLs](get-started/planning-for-security/secure-content-in-iis-through-file-system-acls.md)
 ### [Set ACLs Through the Manifest.xml File](get-started/planning-for-security/set-acls-through-the-manifestxml-file.md)
+## [Localized Content]
 ### [Localized Japanese LEARN articles and more](get-started/localized-content/iis-localized-japanese-learn-articles-and-more.md)
+## [Case Studies]
 ### [Case Study: IIS 8.0 Scaling On An HP Proliant DL980 G7 8-Processor Socket System](get-started/case-studies/case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system.md)
+## [What's New in IIS 8.5?]
 ### [Enhanced Logging for IIS 8.5](get-started/whats-new-in-iis-85/enhanced-logging-for-iis85.md)
 ### [Logging to Event Tracing for Windows in IIS 8.5](get-started/whats-new-in-iis-85/logging-to-etw-in-iis-85.md)
 ### [Dynamic Website Activation in IIS 8.5](get-started/whats-new-in-iis-85/dynamic-site-activation-in-iis85.md)
 ### [Idle Worker Process Page-Out in IIS 8.5](get-started/whats-new-in-iis-85/idle-worker-process-page-out-in-iis85.md)
 ### [Certificate Rebind in IIS 8.5](get-started/whats-new-in-iis-85/certificate-rebind-in-iis85.md)
+## [What's New in IIS 8?]
 ### [Installing IIS 8 on Windows Server 2012](get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012.md)
 ### [IIS 8.0 ASP.NET Configuration Management](get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management.md)
 ### [IIS 8.0 Centralized SSL Certificate Support: SSL Scalability and Manageability](get-started/whats-new-in-iis-8/iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability.md)
@@ -46,10 +56,13 @@
 ### [IIS 8.0 WebSocket Protocol Support](get-started/whats-new-in-iis-8/iis-80-websocket-protocol-support.md)
 ### [IIS 8.0 Application Initialization](get-started/whats-new-in-iis-8/iis-80-application-initialization.md)
 ### [IIS 8.0 Dynamic IP Address Restrictions](get-started/whats-new-in-iis-8/iis-80-dynamic-ip-address-restrictions.md)
+## [What's New in IIS 7?]
 ### [Changes in Security Between IIS 6.0 and IIS 7 and Above](get-started/whats-new-in-iis-7/changes-in-security-between-iis-60-and-iis-7-and-above.md)
 ### [IIS7 Security Improvements](get-started/whats-new-in-iis-7/iis7-and-above-security-improvements.md)
 ### [What's New for Microsoft and FTP in IIS 7?](get-started/whats-new-in-iis-7/what39s-new-for-microsoft-and-ftp-in-iis-7.md)
 ### [What's New for WebDAV and IIS 7?](get-started/whats-new-in-iis-7/what39s-new-for-webdav-and-iis-7.md)
+# [Install]
+## [Installing IIS 7]
 ### [Installing Necessary IIS 7.0 Components on Windows Vista](install/installing-iis-7/installing-necessary-iis-components-on-windows-vista.md)
 ### [Upgrading to IIS 7.0 on Windows Server 2008](install/installing-iis-7/upgrading-to-iis-70-on-windows-server-2008.md)
 ### [Installing IIS 7 on Windows Vista and Windows 7](install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7.md)
@@ -65,22 +78,28 @@
 ### [How to install ASP.NET 1.1 with IIS7 on Vista and Windows 2008](install/installing-iis-7/how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008.md)
 ### [IIS 7.0 Features and Vista Editions](install/installing-iis-7/iis-features-and-vista-editions.md)
 ### [Install Windows Server 2008 and Windows Server 2008 R2](install/installing-iis-7/install-windows-server-2008-and-windows-server-2008-r2.md)
+## [Installing Publishing Technologies]
 ### [Installing and Configuring Web Deploy on IIS 7](install/installing-publishing-technologies/installing-and-configuring-web-deploy.md)
 ### [Installing and Configuring FTP 7 on IIS 7](install/installing-publishing-technologies/installing-and-configuring-ftp-7-on-iis-7.md)
 ### [Installing and Configuring WebDAV on IIS 7 and Later](install/installing-publishing-technologies/installing-and-configuring-webdav-on-iis.md)
 ### [Installing and Configuring Web Deploy on IIS 8.0 or Later](install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later.md)
+## [Web Platform Installer]
 ### [Web Platform Installer 2.0 Walkthrough](install/web-platform-installer/web-platform-installer-20-walkthrough.md)
 ### [Using the Microsoft Web Platform Installer](install/web-platform-installer/using-the-microsoft-web-platform-installer.md)
 ### [Web Platform Installer Resources](install/web-platform-installer/web-platform-installer-resources.md)
 ### [Web Platform Installer v5 Command Line (WebPICMD.exe) - RTW release](install/web-platform-installer/web-platform-installer-v4-command-line-webpicmdexe-rtw-release.md)
 ### [Web Platform Installer Direct Downloads](install/web-platform-installer/web-platform-installer-direct-downloads.md)
+## [Installing IIS 8.5]
 ### [Installing IIS 8.5 on Windows Server 2012 R2](install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2.md)
+# [Manage]
+## [Creating Websites]
 ### [Provisioning FTP 7.5 Sites](manage/creating-websites/provisioning-ftp-75-sites.md)
 ### [Select a Provisioning Option](manage/creating-websites/select-a-provisioning-option.md)
 ### [Provisioning IIS 7 Sites for Shared Hosting](manage/creating-websites/provisioning-iis-7-sites-for-shared-hosting.md)
 ### [Provisioning IIS 7 Sites](manage/creating-websites/provisioning-iis-7-sites.md)
 ### [Build a Static Website on IIS](manage/creating-websites/scenario-build-a-static-website-on-iis.md)
 ### [IIS 8 - New Features Overview](manage/creating-websites/iis-8-new-features-overview.md)
+## [Provisioning and Managing IIS]
 ### [Provisioning SQL 2005 Resources](manage/provisioning-and-managing-iis/provisioining-sql-2005-resources.md)
 ### [IIS Management and Administration](manage/provisioning-and-managing-iis/iis-management-and-administration.md)
 ### [Installing IIS Modules in Shared Configuration Environments](manage/provisioning-and-managing-iis/installing-iis-modules-in-shared-configuration-environments.md)
@@ -100,6 +119,7 @@
 ### [Provisioning Sample in C#](manage/provisioning-and-managing-iis/provisioning-sample-in-c.md)
 ### [Configure Logging in IIS](manage/provisioning-and-managing-iis/configure-logging-in-iis.md)
 ### [Managing IIS Log File Storage](manage/provisioning-and-managing-iis/managing-iis-log-file-storage.md)
+## [Configuring Security]
 ### [Configuring SSL in IIS Manager](manage/configuring-security/configuring-ssl-in-iis-manager.md)
 ### [Application Pool Identities and SQL Server Express](manage/configuring-security/application-pool-identities-and-sql-server-express.md)
 ### [Using Encryption to Protect Passwords](manage/configuring-security/using-encryption-to-protect-passwords.md)
@@ -115,11 +135,13 @@
 ### [Configure Request Filtering in IIS](manage/configuring-security/configure-request-filtering-in-iis.md)
 ### [IIS 8 - Certificate Management and Deployment](manage/configuring-security/iis-8-certificate-management-and-deployment.md)
 ### [IIS 8 - Sandboxing and Security](manage/configuring-security/iis-8-sandboxing-and-security.md)
+## [Managing Performance Settings]
 ### [Improving Performance with Native Output Caching](manage/managing-performance-settings/improving-performance-with-native-output-caching.md)
 ### [Using WSRM to manage IIS 7 AppPool CPU Utilization](manage/managing-performance-settings/using-wsrm-to-manage-iis-7-apppool-cpu-utilization.md)
 ### [Walkthrough: IIS 7.0 Output Caching](manage/managing-performance-settings/walkthrough-iis-output-caching.md)
 ### [Configure IIS 7 Output Caching](manage/managing-performance-settings/configure-iis-7-output-caching.md)
 ### [Use Bit Rate Throttling](manage/managing-performance-settings/use-bit-rate-throttling.md)
+## [Managing your Configuration Settings]
 ### [Delegating Configuration to web.config Files](manage/managing-your-configuration-settings/delegating-configuration-to-webconfig-files.md)
 ### [Configuring a Web Farm Using IIS Shared Configuration](manage/managing-your-configuration-settings/configuring-a-web-farm-using-iis-shared-configuration.md)
 ### [Adding IE 9 MIME Types to IIS 7](manage/managing-your-configuration-settings/adding-ie-9-mime-types-to-iis.md)
@@ -133,12 +155,14 @@
 ### [Using Configuration Editor: Generate Scripts](manage/managing-your-configuration-settings/using-configuration-editor-generate-scripts.md)
 ### [Editing Collections with Configuration Editor](manage/managing-your-configuration-settings/editing-collections-with-configuration-editor.md)
 ### [Editing Collections using Configuration Editor: Complex Sections](manage/managing-your-configuration-settings/editing-collections-using-configuration-editor-complex-sections.md)
+## [Scripting]
 ### [Managing Sites with IIS 7.0's WMI Provider](manage/scripting/managing-sites-with-the-iis-wmi-provider.md)
 ### [Managing Applications and Application Pools on IIS 7.0 with WMI](manage/scripting/managing-applications-and-application-pools-on-iis-with-wmi.md)
 ### [Managing Worker Processes and AppDomains in IIS 7 with WMI](manage/scripting/managing-worker-processes-and-appdomains-in-iis-with-wmi.md)
 ### [How to Use Microsoft.Web.Administration](manage/scripting/how-to-use-microsoftwebadministration.md)
 ### [Accessing Configuration Sections Using Microsoft.Web.Administration (MWA)](manage/scripting/accessing-configuration-sections-using-microsoftwebadministration-mwa.md)
 ### [Get to Know the IIS 7.0 WMI Provider Using CIM Studio](manage/scripting/get-to-know-the-iis-wmi-provider-using-cim-studio.md)
+## [PowerShell]
 ### [Writing PowerShell Commandlets for IIS 7.0](manage/powershell/writing-powershell-commandlets-for-iis.md)
 ### [An Introduction to Windows PowerShell and IIS 7.0](manage/powershell/an-introduction-to-windows-powershell-and-iis.md)
 ### [Getting Started with the IIS 7.0 PowerShell Snap-in](manage/powershell/getting-started-with-the-iis-powershell-snap-in.md)
@@ -152,12 +176,16 @@
 ### [PowerShell Snap-in: Run-time Data](manage/powershell/powershell-snap-in-run-time-data.md)
 ### [PowerShell Snap-in: Configuring SSL with the IIS PowerShell Snap-in](manage/powershell/powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in.md)
 ### [PowerShell Snap-in: Using the Task-based Cmdlets of the IIS PowerShell Snap-in](manage/powershell/powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in.md)
+## [Remote Administration]
 ### [Remote Administration for IIS Manager](manage/remote-administration/remote-administration-for-iis-manager.md)
 ### [Configuring Remote Administration and Feature Delegation in IIS 7](manage/remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7.md)
 ### [Remote Administration Behavior Matrix](manage/remote-administration/remote-administration-behavior-matrix.md)
 ### [Remote Manager for Windows 2003, XP and Vista SP1](manage/remote-administration/remote-manager-for-windows-2003-xp-and-vista-sp1.md)
+## [Working with Server Core]
 ### [Using IIS with Windows Server Core](manage/working-with-server-core/using-iis-with-windows-server-core.md)
 ### [IIS 7.0 on Server Core](manage/working-with-server-core/iis-70-on-server-core.md)
+# [Develop]
+## [Runtime Extensibility]
 ### [Extending Web Server Functionality in .NET](develop/runtime-extensibility/extending-web-server-functionality-in-net.md)
 ### [An End-to-End Extensibility Example for IIS 7.0 Developers](develop/runtime-extensibility/an-end-to-end-extensibility-example-for-iis-developers.md)
 ### [Develop a Native C\C++ Module for IIS 7.0](develop/runtime-extensibility/develop-a-native-cc-module-for-iis.md)
@@ -166,16 +194,20 @@
 ### [Developing IIS 7.0 Modules and Handlers with the .NET Framework](develop/runtime-extensibility/developing-iis-modules-and-handlers-with-the-net-framework.md)
 ### [Sample: Image Watermark Module](develop/runtime-extensibility/sample-image-watermark-module.md)
 ### [Sample: Web Analytics Tracking Module](develop/runtime-extensibility/sample-web-analytics-tracking-module.md)
+## [Extending IIS Configuration]
 ### [Extending IIS Configuration](develop/extending-iis-configuration/extending-iis-configuration.md)
 ### [Configuration Extensibility](develop/extending-iis-configuration/configuration-extensibility.md)
 ### [Extending IIS 7.0 Schema and Accessing the Custom Sections Using MWA](develop/extending-iis-configuration/extending-iis-schema-and-accessing-the-custom-sections-using-mwa.md)
+## [Extending the Management UI]
 ### [Overview of MWA and MWM for IIS 7.0](develop/extending-the-management-ui/overview-of-mwa-and-mwm-for-iis.md)
 ### [How to Get Started Extending Module Properties for IIS 7.0 in IIS Manager](develop/extending-the-management-ui/how-to-get-started-extending-module-properties-for-iis-in-iis-manager.md)
 ### [How to Create a Simple IIS Manager Module](develop/extending-the-management-ui/how-to-create-a-simple-iis-manager-module.md)
 ### [Understanding UI Extension Authoring](develop/extending-the-management-ui/understanding-ui-extension-authoring.md)
 ### [How to Create an IIS Manager Provider that uses a SQL Database to Store User Credentials](develop/extending-the-management-ui/how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials.md)
+## [Using Visual Studio with IIS]
 ### [Using Visual Studio 2008 with IIS 7](develop/using-visual-studio-with-iis/using-visual-studio-2008-with-iis.md)
 ### [Using Visual Studio 2005 with IIS 7.0](develop/using-visual-studio-with-iis/using-visual-studio-2005-with-iis.md)
+## [Windows Web Application Gallery]
 ### [Package an Application for the Windows Web Application Gallery](develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery.md)
 ### [Windows Web Application Gallery Link Addition Process Walkthrough](develop/windows-web-application-gallery/windows-web-application-gallery-link-addition-process-walkthrough.md)
 ### [Windows Web Application Gallery Principles](develop/windows-web-application-gallery/windows-web-application-gallery-principles.md)
@@ -195,6 +227,7 @@
 ### [MediaWiki Sample Files](develop/windows-web-application-gallery/mediawiki-sample-files.md)
 ### [Umbraco CMS Sample files](develop/windows-web-application-gallery/umbraco-cms-sample-files.md)
 ### [WordPress Sample files](develop/windows-web-application-gallery/wordpress-sample-files.md)
+## [Installing/Publishing Apps with WebMatrix]
 ### [Acquia Drupal FAQ](develop/installingpublishing-apps-with-webmatrix/acquia-drupal-faq.md)
 ### [AtomSite FAQ](develop/installingpublishing-apps-with-webmatrix/atomsite-faq.md)
 ### [BlogEngine.NET FAQ](develop/installingpublishing-apps-with-webmatrix/blogenginenet-faq.md)
@@ -220,6 +253,7 @@
 ### [SugarCRM FAQ](develop/installingpublishing-apps-with-webmatrix/sugarcrm-faq.md)
 ### [Umbraco CMS FAQ](develop/installingpublishing-apps-with-webmatrix/umbraco-cms-faq.md)
 ### [WordPress FAQ](develop/installingpublishing-apps-with-webmatrix/wordpress-faq.md)
+## [Using WebMatrix]
 ### [Create a Website from a Gallery Application](develop/using-webmatrix/create-a-website-from-a-gallery-application.md)
 ### [Download and Install an ASP.NET Application](develop/using-webmatrix/download-and-install-an-aspnet-application.md)
 ### [Download and Install a PHP Application](develop/using-webmatrix/download-and-install-a-php-application.md)
@@ -229,6 +263,7 @@
 ### [WebMatrix Overview](develop/using-webmatrix/webmatrix-overview.md)
 ### [WebMatrix Privacy Statement](develop/using-webmatrix/webmatrix-privacy-statement.md)
 ### [Creating a Content Feed for Learning](develop/using-webmatrix/creating-a-content-feed-for-learning.md)
+## [Troubleshooting WebMatrix]
 ### [Microsoft WebMatrix: Publish Compatibility](develop/troubleshooting-webmatrix/microsoft-webmatrix-publish-compatibility.md)
 ### [Microsoft WebMatrix: Certificate errors during publishing](develop/troubleshooting-webmatrix/microsoft-webmatrix-certificate-errors-during-publishing.md)
 ### [Microsoft WebMatrix: Database errors while publishing and downloading sites](develop/troubleshooting-webmatrix/microsoft-webmatrix-database-errors-while-publishing-and-downloading-sites.md)
@@ -237,6 +272,7 @@
 ### [WebMatrix Publish and Download Troubleshooting](develop/troubleshooting-webmatrix/webmatrix-publish-and-download-troubleshooting.md)
 ### [WebMatrix MDF Migration](develop/troubleshooting-webmatrix/webmatrix-mdf-migration.md)
 ### [Issues with SQL Server Express or MySQL when using WebMatrix or WebPI](develop/troubleshooting-webmatrix/issues-with-sql-server-express-or-mysql-when-using-webmatrix-or-webpi_1298.md)
+## [Developing for FTP]
 ### [How to Use Managed Code (C#) to Create a Simple FTP Authentication Provider](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-authentication-provider.md)
 ### [How to Use Native Code (C++) to Create a Simple FTP Authentication Provider](develop/developing-for-ftp/how-to-use-native-code-c-to-create-a-simple-ftp-authentication-provider.md)
 ### [How to Use Managed Code (C#) to Create a Simple FTP Home Directory Provider](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-home-directory-provider.md)
@@ -250,6 +286,8 @@
 ### [How to Use Managed Code (Visual Basic) to Create a Simple FTP Home Directory Provider](develop/developing-for-ftp/how-to-use-managed-code-visual-basic-to-create-a-simple-ftp-home-directory-provider.md)
 ### [How to Use Managed Code (C#) to Create an FTP Authentication and Authorization Provider using an XML Database](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database.md)
 ### [How to Use Managed Code (C#) to Create an FTP Provider that Prevents Leeching](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching.md)
+# [Publish]
+## [Deploying Application Packages]
 ### [Taking an Application Offline before Publishing](publish/deploying-application-packages/taking-an-application-offline-before-publishing.md)
 ### [Videocast: Simplified Application Deployment on the Microsoft Web Platform](publish/deploying-application-packages/videocast-simplified-application-deployment-on-the-microsoft-web-platform.md)
 ### [Provision an IIS Web Site in a Hosting Environment](publish/deploying-application-packages/provision-an-iis-web-site-in-a-hosting-environment.md)
@@ -260,6 +298,7 @@
 ### [Deploying WordPress via Packages in a Hosting Environment](publish/deploying-application-packages/deploying-wordpress-via-packages-in-a-hosting-environment.md)
 ### [Deploying Joomla! via Packages in a Hosting Environment](publish/deploying-application-packages/deploying-joomla-via-packages-in-a-hosting-environment.md)
 ### [Deploying Drupal via Packages in a Hosting Environment](publish/deploying-application-packages/deploying-drupal-via-packages-in-a-hosting-environment.md)
+## [Using Web Deploy]
 ### [Packaging and Restoring a Web site](publish/using-web-deploy/packaging-and-restoring-a-web-site.md)
 ### [Using Custom Manifests](publish/using-web-deploy/using-custom-manifests.md)
 ### [Viewing Web Site Dependencies](publish/using-web-deploy/viewing-web-site-dependencies.md)
@@ -284,10 +323,12 @@
 ### [Changing authentication mode for a given website](publish/using-web-deploy/changing-authentication-mode-for-a-given-website.md)
 ### [Parameterization improvements in Web Deploy V3](publish/using-web-deploy/parameterization-improvements-in-web-deploy-v3.md)
 ### [dbDacFx Provider for Incremental Database publishing](publish/using-web-deploy/dbdacfx-provider-for-incremental-database-publishing.md)
+## [Troubleshooting Web Deploy]
 ### [Troubleshooting Web Deploy](publish/troubleshooting-web-deploy/troubleshooting-web-deploy.md)
 ### [Web Deploy error codes](publish/troubleshooting-web-deploy/web-deploy-error-codes.md)
 ### [Troubleshooting Common Problems with Web Deploy](publish/troubleshooting-web-deploy/troubleshooting-common-problems-with-web-deploy.md)
 ### [Troubleshooting Web Deploy problems with Visual Studio](publish/troubleshooting-web-deploy/troubleshooting-web-deploy-problems-with-visual-studio.md)
+## [Using WebDAV]
 ### [WebDAV Extension - Video Walkthrough](publish/using-webdav/webdav-extension-video-walkthrough.md)
 ### [How to Use Custom Properties With WebDAV](publish/using-webdav/how-to-use-custom-properties-with-webdav.md)
 ### [How to Configure WebDAV Settings Using AppCmd](publish/using-webdav/how-to-configure-webdav-settings-using-appcmd.md)
@@ -295,6 +336,7 @@
 ### [How to Migrate FPSE Sites to WebDAV](publish/using-webdav/how-to-migrate-fpse-sites-to-webdav.md)
 ### [Using the WebDAV Redirector](publish/using-webdav/using-the-webdav-redirector.md)
 ### [How to Use WebDAV Locks](publish/using-webdav/how-to-use-webdav-locks.md)
+## [Using the FTP Service]
 ### [FTP Extension - Video Walkthrough](publish/using-the-ftp-service/ftp-extension-video-walkthrough.md)
 ### [Creating a New FTP Site in IIS 7](publish/using-the-ftp-service/creating-a-new-ftp-site-in-iis-7.md)
 ### [Adding FTP Publishing to a Web Site in IIS 7](publish/using-the-ftp-service/adding-ftp-publishing-to-a-web-site-in-iis-7.md)
@@ -307,35 +349,49 @@
 ### [Configuring FTP with .NET Membership Authentication in IIS 7](publish/using-the-ftp-service/configuring-ftp-with-net-membership-authentication-in-iis-7.md)
 ### [Scenario: Build an FTP Site on IIS](publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis.md)
 ### [How Do I Configure FTP Security in IIS?](publish/using-the-ftp-service/cse-curated-view-ftp-security-settings.md)
+## [FrontPage Server Extensions]
 ### [Upgrade Issues with FrontPage Server Extensions](publish/frontpage-server-extensions/upgrade-issues-with-frontpage-server-extensions.md)
 ### [Installing the FrontPage Server Extensions on IIS 7](publish/frontpage-server-extensions/installing-the-frontpage-server-extensions-on-iis.md)
+# [Troubleshoot]
+## [Installation Issues]
 ### [Troubleshooting IIS 7.x Installation Issues](troubleshoot/installation-issues/troubleshooting-iis-7x-installation-issues.md)
+## [Security Issues]
 ### [Troubleshooting SSL related issues (Server Certificate)](troubleshoot/security-issues/troubleshooting-ssl-related-issues-server-certificate.md)
 ### [Troubleshooting Forms Authentication](troubleshoot/security-issues/troubleshooting-forms-authentication.md)
+## [ASP.NET Issues]
 ### [Troubleshooting Invalid viewstate issues](troubleshoot/aspnet-issues/troubleshooting-invalid-viewstate-issues.md)
+## [Diagnosing HTTP Errors]
 ### [How to Use HTTP Detailed Errors in IIS 7.0](troubleshoot/diagnosing-http-errors/how-to-use-http-detailed-errors-in-iis.md)
 ### [Troubleshooting HTTP 502.2 Bad Gateway error in CGI applications](troubleshoot/diagnosing-http-errors/troubleshooting-http-5022-bad-gateway-error-in-cgi-applications.md)
 ### [Troubleshooting Unexpected Issues](troubleshoot/diagnosing-http-errors/troubleshooting-unexpected-issues.md)
 ### [Troubleshooting HTTP 400 Errors in IIS](troubleshoot/diagnosing-http-errors/troubleshooting-http-400-errors-in-iis.md)
+## [Using Failed Request Tracing]
 ### [How to Enable Failed Request Tracing for UNC Hosting](troubleshoot/using-failed-request-tracing/how-to-enable-failed-request-tracing-for-unc-hosting.md)
 ### [Troubleshooting Failed Requests Using Tracing in IIS 7](troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis.md)
 ### [Using Failed Request Tracing Rules to Troubleshoot Application Request Routing (ARR)](troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr.md)
 ### [Troubleshoot with Failed Request Tracing](troubleshoot/using-failed-request-tracing/troubleshoot-with-failed-request-tracing.md)
 ### [Troubleshooting Failed Requests Using Tracing in IIS 8.5](troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis-85.md)
+## [Performance Issues]
 ### [Troubleshooting SMB NetBIOS/FCN limit issues with Remote Content](troubleshoot/performance-issues/troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content.md)
 ### [Troubleshooting High CPU in an IIS 7.x Application Pool](troubleshoot/performance-issues/troubleshooting-high-cpu-in-an-iis-7x-application-pool.md)
 ### [Troubleshooting native memory leak in an IIS 7.x Application Pool](troubleshoot/performance-issues/troubleshooting-native-memory-leak-in-an-iis-7x-application-pool.md)
 ### [Troubleshooting IIS Compression issues in IIS6/IIS7.x](troubleshoot/performance-issues/troubleshooting-iis-compression-issues-in-iis6-iis7x.md)
 ### [Troubleshooting IIS Performance Issues or Application Errors using LogParser](troubleshoot/performance-issues/troubleshooting-iis-performance-issues-or-application-errors-using-logparser.md)
+## [Remote Administration Issues]
 ### [Diagnosing Failures with Remote Administration](troubleshoot/remote-administration-issues/diagnosing-failures-with-remote-administration.md)
+## [Web Platform Installer Issues]
 ### [Troubleshooting Problems with Microsoft Web Platform Installer](troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer.md)
+# [Extensions]
+## [Planning for ARR]
 ### [Application Request Routing Version 2 Overview](extensions/planning-for-arr/application-request-routing-version-2-overview.md)
 ### [Using the Application Request Routing Module](extensions/planning-for-arr/using-the-application-request-routing-module.md)
 ### [Overview of Shared Hosting Deployment Using Application Request Routing 2.0](extensions/planning-for-arr/overview-of-shared-hosting-deployment-using-application-request-routing-20.md)
+## [Installing Application Request Routing (ARR)]
 ### [Install Application Request Routing Version 2](extensions/installing-application-request-routing-arr/install-application-request-routing-version-2.md)
 ### [Deploying Application Request Routing in CDN](extensions/installing-application-request-routing-arr/deploying-application-request-routing-in-cdn.md)
 ### [Deployment Recommendations for Application Request Routing](extensions/installing-application-request-routing-arr/deployment-recommendations-for-application-request-routing.md)
 ### [Install Application Request Routing](extensions/installing-application-request-routing-arr/install-application-request-routing.md)
+## [Configuring Application Request Routing (ARR)]
 ### [Demonstration of Shared Hosting Deployment with ARR](extensions/configuring-application-request-routing-arr/demonstration-of-shared-hosting-deployment-with-arr.md)
 ### [Configure and Enable Disk Cache in Application Request Routing](extensions/configuring-application-request-routing-arr/configure-and-enable-disk-cache-in-application-request-routing.md)
 ### [Delete Cached Objects](extensions/configuring-application-request-routing-arr/delete-cached-objects.md)
@@ -361,8 +417,10 @@
 ### [Using Multiple Instances of Application Request Routing (ARR) Servers](extensions/configuring-application-request-routing-arr/using-multiple-instances-of-application-request-routing-arr-servers.md)
 ### [How to configure WMI service on application servers for HostNameMemory affinity provider](extensions/configuring-application-request-routing-arr/how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider.md)
 ### [Creating a Forward Proxy Using Application Request Routing](extensions/configuring-application-request-routing-arr/creating-a-forward-proxy-using-application-request-routing.md)
+## [Troubleshooting Application Request Routing]
 ### [Troubleshooting Cache Items ARR V2](extensions/troubleshooting-application-request-routing/troubleshooting-cache-items-arr-v2.md)
 ### [Troubleshooting 502 Errors in ARR](extensions/troubleshooting-application-request-routing/troubleshooting-502-errors-in-arr.md)
+## [URL Rewrite Module]
 ### [URL Rewrite Module - Video Walkthrough](extensions/url-rewrite-module/url-rewrite-module-video-walkthrough.md)
 ### [Using the URL Rewrite Module](extensions/url-rewrite-module/using-the-url-rewrite-module.md)
 ### [Creating Rewrite Rules for the URL Rewrite Module](extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module.md)
@@ -392,30 +450,36 @@
 ### [Modifying HTTP Response Headers](extensions/url-rewrite-module/modifying-http-response-headers.md)
 ### [Using Custom Rewrite Providers with URL Rewrite Module](extensions/url-rewrite-module/using-custom-rewrite-providers-with-url-rewrite-module.md)
 ### [Developing a Custom Rewrite Provider for URL Rewrite Module](extensions/url-rewrite-module/developing-a-custom-rewrite-provider-for-url-rewrite-module.md)
+## [Introduction to IIS Express]
 ### [IIS Express Overview](extensions/introduction-to-iis-express/iis-express-overview.md)
 ### [IIS Express FAQ](extensions/introduction-to-iis-express/iis-express-faq.md)
 ### [IIS 7.5 Express Readme](extensions/introduction-to-iis-express/iis-75-express-readme.md)
 ### [IIS 8.0 Express Readme](extensions/introduction-to-iis-express/iis-80-express-readme.md)
 ### [IIS 8 - IIS Express for Developers](extensions/introduction-to-iis-express/iis-8-iis-express-for-developers.md)
+## [Using IIS Express]
 ### [Using the Windows System Tray to Manage Websites and Applications](extensions/using-iis-express/using-the-windows-system-tray-to-manage-websites-and-applications.md)
 ### [Running IIS Express from the Command Line](extensions/using-iis-express/running-iis-express-from-the-command-line.md)
 ### [Running IIS Express without Administrative Privileges](extensions/using-iis-express/running-iis-express-without-administrative-privileges.md)
 ### [Handling URL Binding Failures in IIS Express](extensions/using-iis-express/handling-url-binding-failures-in-iis-express.md)
+## [IIS Search Engine Optimization Toolkit]
 ### [IIS Site Analysis - Video Walkthrough](extensions/iis-search-engine-optimization-toolkit/iis-site-analysis-video-walkthrough.md)
 ### [Managing Robots.txt and Sitemap Files](extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files.md)
 ### [Using the IIS Search Engine Optimization Toolkit](extensions/iis-search-engine-optimization-toolkit/using-the-iis-search-engine-optimization-toolkit.md)
 ### [Using Site Analysis to Crawl a Web Site](extensions/iis-search-engine-optimization-toolkit/using-site-analysis-to-crawl-a-web-site.md)
 ### [Understanding Site Analysis Reports](extensions/iis-search-engine-optimization-toolkit/understanding-site-analysis-reports.md)
 ### [Getting Started with the SEO Toolkit](extensions/iis-search-engine-optimization-toolkit/getting-started-with-the-seo-toolkit.md)
+## [Advanced Logging Module]
 ### [Advanced Logging for IIS - Custom Logging](extensions/advanced-logging-module/advanced-logging-for-iis-custom-logging.md)
 ### [Advanced Logging for IIS - Real-Time Logging](extensions/advanced-logging-module/advanced-logging-for-iis-real-time-logging.md)
 ### [Advanced Logging for IIS - Client Logging](extensions/advanced-logging-module/advanced-logging-for-iis-client-logging.md)
 ### [Advanced Logging for IIS - Log Filtering](extensions/advanced-logging-module/advanced-logging-for-iis-log-filtering.md)
 ### [Advanced Logging Readme](extensions/advanced-logging-module/advanced-logging-readme.md)
+## [Database Manager]
 ### [Use the Database Manager](extensions/database-manager/use-the-database-manager.md)
 ### [Working with Views](extensions/database-manager/working-with-views.md)
 ### [Working with Stored Procedures](extensions/database-manager/working-with-stored-procedures.md)
 ### [Working with Tables](extensions/database-manager/working-with-tables.md)
+## [Working with UrlScan]
 ### [UrlScan Setup](extensions/working-with-urlscan/urlscan-setup.md)
 ### [Common UrlScan Scenarios](extensions/working-with-urlscan/common-urlscan-scenarios.md)
 ### [UrlScan FAQ](extensions/working-with-urlscan/urlscan-faq.md)
@@ -425,15 +489,20 @@
 ### [UrlScan 2 Reference](extensions/working-with-urlscan/urlscan-2-reference.md)
 ### [UrlScan 3 Reference](extensions/working-with-urlscan/urlscan-3-reference.md)
 ### [Overview of UrlScan Versions](extensions/working-with-urlscan/overview-of-urlscan-versions.md)
+## [HttpPlatformHandler]
 ### [HttpPlatformHandler Configuration Reference](extensions/httpplatformhandler/httpplatformhandler-configuration-reference.md)
+# [Media]
+## [Windows Media Services]
 ### [Adding Windows Media Services 2008 on an IIS 7.0 Server](media/windows-media-services/adding-windows-media-services-2008-on-an-iis-server.md)
 ### [Windows Media Server or Web Server?](media/windows-media-services/windows-media-server-or-web-server.md)
 ### [Using HTTP for Streaming and Downloading from the Same Computer](media/windows-media-services/using-http-for-streaming-and-downloading-from-the-same-computer.md)
 ### [Microsoft Media Platform: Encoding and Serving Choices and Migration Considerations](media/windows-media-services/microsoft-media-platform-encoding-and-serving-choices-and-migration-considerations.md)
+## [IIS Media Services]
 ### [Edge Caching for Media Delivery](media/iis-media-services/edge-caching-for-media-delivery.md)
 ### [Content Protection in Silverlight](media/iis-media-services/content-protection-in-silverlight.md)
 ### [IIS Media Services 3.0 Overview](media/iis-media-services/iis-media-services-30-overview.md)
 ### [IIS Media Services Readme](media/iis-media-services/iis-media-services-readme.md)
+## [Smooth Streaming]
 ### [Smooth Streaming Deployment Guide](media/smooth-streaming/smooth-streaming-deployment-guide.md)
 ### [Delivering Live and On-Demand Smooth Streaming (iStreamPlanet)](media/smooth-streaming/delivering-live-and-on-demand-smooth-streaming-istreamplanet.md)
 ### [Adaptive Streaming Comparison](media/smooth-streaming/adaptive-streaming-comparison.md)
@@ -445,6 +514,7 @@
 ### [Smooth Streaming Client Readme](media/smooth-streaming/smooth-streaming-client-readme.md)
 ### [IIS Smooth Streaming Format SDK Readme](media/smooth-streaming/iis-smooth-streaming-format-sdk-readme.md)
 ### [Smooth Streaming Client SDK for Windows 8 - Release Notes](media/smooth-streaming/smooth-streaming-client-sdk-for-windows-8-release-notes.md)
+## [Live Smooth Streaming]
 ### [Live Smooth Streaming Tutorial - Introduction](media/live-smooth-streaming/live-smooth-streaming-tutorial-introduction.md)
 ### [Live Smooth Streaming Tutorial - Fundamentals](media/live-smooth-streaming/live-smooth-streaming-tutorial-fundamentals.md)
 ### [Live Smooth Streaming Tutorial - Encoding](media/live-smooth-streaming/live-smooth-streaming-tutorial-encoding.md)
@@ -456,19 +526,24 @@
 ### [Apple HTTP Live Streaming with IIS Media Services](media/live-smooth-streaming/apple-http-live-streaming-with-iis-media-services.md)
 ### [Encoding Live Smooth Streams with the Push Encoder Utility](media/live-smooth-streaming/encoding-live-smooth-streams-with-the-push-encoder-utility.md)
 ### [Troubleshooting Live Smooth Streaming Events in Event Viewer](media/live-smooth-streaming/troubleshooting-live-smooth-streaming-events-in-event-viewer.md)
+## [Live Smooth Streaming Events]
 ### [The World's First IIS Live Smooth Streaming Event - A Video Case Study](media/live-smooth-streaming-events/the-world39s-first-iis-live-smooth-streaming-event-a-video-case-study.md)
 ### [Behind the Scenes with Silverlight and IIS at the 2010 Winter Games in Vancouver - Highlights](media/live-smooth-streaming-events/behind-the-scenes-with-silverlight-and-iis-at-the-2010-winter-games-in-vancouver-highlights.md)
 ### [Behind the Scenes with Silverlight and IIS at the 2010 Winter Games in Vancouver - Editor's Cut](media/live-smooth-streaming-events/behind-the-scenes-with-silverlight-and-iis-at-the-2010-winter-games-in-vancouver-editor39s-cut.md)
 ### [Sunday Night Football Extra: Live in HD with Microsoft Silverlight and IIS Smooth Streaming](media/live-smooth-streaming-events/sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming.md)
 ### [NBC Online Video Monetization and Highlights Creation for the 2010 Winter Olympics](media/live-smooth-streaming-events/nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics.md)
+## [On-Demand Smooth Streaming]
 ### [Getting Started with IIS Smooth Streaming](media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming.md)
 ### [Exploring Bit Rate Changes](media/on-demand-smooth-streaming/exploring-bit-rate-changes.md)
 ### [Managing On-Demand Presentations](media/on-demand-smooth-streaming/managing-on-demand-presentations.md)
 ### [Smooth Streaming Technical Overview](media/on-demand-smooth-streaming/smooth-streaming-technical-overview.md)
+## [Streaming Media Conference Workshops]
 ### [Live Broadcasting with Silverlight and Windows Media - Streaming Media West 2009](media/streaming-media-conference-workshops/live-broadcasting-with-silverlight-and-windows-media-streaming-media-west-2009.md)
 ### [Creating End-to-End Smooth Streaming Video Solutions with Silverlight and IIS Media Services - Streaming Media East 2010](media/streaming-media-conference-workshops/creating-end-to-end-smooth-streaming-video-solutions-with-silverlight-and-iis-media-services-streaming-media-east-2010.md)
+## [Bit Rate Throttling]
 ### [Bit Rate Throttling Configuration Walkthrough](media/bit-rate-throttling/bit-rate-throttling-configuration-walkthrough.md)
 ### [Bit Rate Throttling Extensibility Walkthrough](media/bit-rate-throttling/bit-rate-throttling-extensibility-walkthrough.md)
+## [Transform Manager]
 ### [Transform Manager Tasks Gallery](media/transform-manager/transform-manager-tasks-gallery.md)
 ### [High-Performance Transcoding with IIS Transform Manager and Windows HPC Server](media/transform-manager/high-performance-transcoding-with-iis-transform-manager-and-windows-hpc-server.md)
 ### [Troubleshooting Transform Manager Events and Errors](media/transform-manager/troubleshooting-transform-manager-events-and-errors.md)
@@ -480,6 +555,7 @@
 ### [Chaining the Robocopy Task to your Transformed Output](media/transform-manager/chaining-the-robocopy-task-to-your-transformed-output.md)
 ### [Encrypting On-Demand Smooth Streams](media/transform-manager/encrypting-on-demand-smooth-streams.md)
 ### [IIS Transform Manager Readme](media/transform-manager/iis-transform-manager-readme.md)
+## [Web Playlists]
 ### [Web Playlists for IIS 7 - Creating a Simple Playlist](media/web-playlists/web-playlists-for-iis-7-creating-a-simple-playlist.md)
 ### [Web Playlists for IIS 7 - Using Playlist With Different Media Players](media/web-playlists/web-playlists-for-iis-using-playlist-with-different-media-players.md)
 ### [Web Playlists for IIS 7 - Configuration](media/web-playlists/web-playlists-for-iis-configuration.md)
@@ -487,6 +563,8 @@
 ### [Web Playlists for IIS 7.0 - Extending Output Formats using XSLT](media/web-playlists/web-playlists-for-iis-extending-output-formats-using-xslt.md)
 ### [Web Playlists for IIS 7 - Serving Media Content From User Folders](media/web-playlists/web-playlists-for-iis-serving-media-content-from-user-folders.md)
 ### [Using Windows Media Player Playlist Files in Web Playlists](media/web-playlists/using-windows-media-player-playlist-files-in-web-playlists.md)
+# [Application Frameworks]
+## [Building and Running ASP.NET Applications]
 ### [Using ASP.NET Forms Authentication](application-frameworks/building-and-running-aspnet-applications/using-aspnet-forms-authentication.md)
 ### [ASP.NET Integration with IIS 7](application-frameworks/building-and-running-aspnet-applications/aspnet-integration-with-iis.md)
 ### [How to Take Advantage of the IIS 7.0 Integrated Pipeline](application-frameworks/building-and-running-aspnet-applications/how-to-take-advantage-of-the-iis-integrated-pipeline.md)
@@ -496,6 +574,7 @@
 ### [Wildcard script mapping and IIS 7 integrated pipeline](application-frameworks/building-and-running-aspnet-applications/wildcard-script-mapping-and-iis-integrated-pipeline.md)
 ### [How to use the Sample Read-Only XML Membership and Role Providers with IIS 7.0](application-frameworks/building-and-running-aspnet-applications/how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis.md)
 ### [ASP.NET Technical Resources](application-frameworks/building-and-running-aspnet-applications/aspnet-technical-resources.md)
+## [Running Classic ASP Applications on IIS 7 and IIS 8]
 ### [Classic ASP Not Installed by Default on IIS 7.0 and above](application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-not-installed-by-default-on-iis.md)
 ### [Using Classic ASP with Microsoft Access Databases on IIS](application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/using-classic-asp-with-microsoft-access-databases-on-iis.md)
 ### [Classic ASP Script Error Messages No Longer Shown in Web Browser by Default](application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default.md)
@@ -504,6 +583,7 @@
 ### [APPL_PHYSICAL_PATH Server Variable on Windows Vista RTM](application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/applphysicalpath-server-variable-on-windows-vista-rtm.md)
 ### [Classic ASP Applications on IIS 7.0 and IIS 7.5 Overview](application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-applications-on-iis-overview.md)
 ### [Scenario: Build a Classic ASP Website on IIS](application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/scenario-build-a-classic-asp-website-on-iis.md)
+## [Install and Configure PHP on IIS]
 ### [Configuring the FastCGI Extension for IIS 6.0](application-frameworks/install-and-configure-php-on-iis/configuring-the-fastcgi-extension-for-iis-60.md)
 ### [Installing PHP on Windows Vista with FastCGI](application-frameworks/install-and-configure-php-on-iis/installing-php-on-windows-vista-with-fastcgi.md)
 ### [Setting Up a Database for a PHP Application on IIS](application-frameworks/install-and-configure-php-on-iis/setting-up-a-database-for-a-php-application-on-iis.md)
@@ -530,6 +610,7 @@
 ### [Secure Your Infrastructure and PHP Applications](application-frameworks/install-and-configure-php-on-iis/secure-your-infrastructure-and-php-applications.md)
 ### [How to Secure the Microsoft Web Platform](application-frameworks/install-and-configure-php-on-iis/how-to-secure-the-microsoft-web-platform.md)
 ### [Enable PHP Applications to Make Application-Level Access Control Decisions](application-frameworks/install-and-configure-php-on-iis/enable-php-applications-to-make-application-level-access-control-decisions.md)
+## [Install and Configure PHP Applications on IIS]
 ### [Advanced Poll on IIS](application-frameworks/install-and-configure-php-applications-on-iis/advanced-poll-on-iis.md)
 ### [b2Evolution on IIS](application-frameworks/install-and-configure-php-applications-on-iis/b2evolution-on-iis.md)
 ### [Coppermine on IIS](application-frameworks/install-and-configure-php-applications-on-iis/coppermine-on-iis.md)
@@ -559,6 +640,7 @@
 ### [Translate .htaccess Content to IIS web.config](application-frameworks/install-and-configure-php-applications-on-iis/translate-htaccess-content-to-iis-webconfig.md)
 ### [Provide URL Rewriting Functionality](application-frameworks/install-and-configure-php-applications-on-iis/provide-url-rewriting-functionality.md)
 ### [How to Deploy Applications on the Microsoft Web Platform for PHP](application-frameworks/install-and-configure-php-applications-on-iis/how-to-deploy-applications-on-the-microsoft-web-platform-for-php.md)
+## [Running PHP Applications on IIS]
 ### [MIX08: Partying with PHP on Microsoft Internet Information Services 7](application-frameworks/running-php-applications-on-iis/mix08-partying-with-php-on-microsoft-internet-information-services-7-and-above.md)
 ### [Set Up FastCGI for PHP](application-frameworks/running-php-applications-on-iis/set-up-fastcgi-for-php.md)
 ### [Build a High-Performance PHP Stack with Windows IIS and Zend Server](application-frameworks/running-php-applications-on-iis/build-a-high-performance-php-stack-with-windows-iis-and-zend-server.md)
@@ -568,6 +650,7 @@
 ### [Develop on IIS 7](application-frameworks/running-php-applications-on-iis/develop-on-iis-7-and-above.md)
 ### [Enable PHP Syntax Highlighting on IIS 7](application-frameworks/running-php-applications-on-iis/enable-php-syntax-highlighting-on-iis-7-and-above.md)
 ### [How to Develop on the Microsoft Web Platform](application-frameworks/running-php-applications-on-iis/how-to-develop-on-the-microsoft-web-platform.md)
+## [Scenario: Build an ASP.NET Website on IIS]
 ### [Overview: Build an ASP.NET Website on IIS](application-frameworks/scenario-build-an-aspnet-website-on-iis/overview-build-an-asp-net-website-on-iis.md)
 ### [Plan an ASP.NET Website on IIS](application-frameworks/scenario-build-an-aspnet-website-on-iis/plan-an-asp-net-website-on-iis.md)
 ### [Planning Step 1: Plan IIS Web Server and ASP.NET Modules Installation](application-frameworks/scenario-build-an-aspnet-website-on-iis/planning-step-1-plan-iis-web-server-and-asp-net-modules-installation.md)
@@ -579,6 +662,7 @@
 ### [Configuring Step 2: Configure ASP.NET Settings](application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-2-configure-asp-net-settings.md)
 ### [Configuring Step 3: Configure Data Source Settings](application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-3-configure-data-source-settings.md)
 ### [Configuring Step 4: Configure Application Security](application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-4-configure-application-security.md)
+## [Scenario: Build a PHP Website on IIS]
 ### [Overview: Build a PHP Website on IIS](application-frameworks/scenario-build-a-php-website-on-iis/overview-build-a-php-website-on-iis.md)
 ### [Plan a PHP Website on IIS](application-frameworks/scenario-build-a-php-website-on-iis/plan-a-php-website-on-iis.md)
 ### [Planning Step 1: Plan IIS Web Server and PHP Installation](application-frameworks/scenario-build-a-php-website-on-iis/planning-step-1-plan-iis-web-server-and-php-installation.md)
@@ -588,6 +672,8 @@
 ### [Configuring Step 1: Install IIS and PHP](application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-1-install-iis-and-php.md)
 ### [Configuring Step 2: Configure PHP Settings](application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-2-configure-php-settings.md)
 ### [Configuring Step 3: Configure PHP Application Security](application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-3-configure-php-application-security.md)
+# [Web Hosting]
+## [Getting Started]
 ### [Getting Started](web-hosting/getting-started/getting-started_69.md)
 ### [Quick Guides](web-hosting/getting-started/quick-guides.md)
 ### [Shared Hosting Content Map](web-hosting/getting-started/shared-hosting-content-map.md)
@@ -597,6 +683,7 @@
 ### [Deploying a Static Content Server](web-hosting/getting-started/deploying-a-static-content-server.md)
 ### [Using Windows SharePoint Services 3.0 on IIS 7.0](web-hosting/getting-started/using-windows-sharepoint-services-30-on-iis.md)
 ### [Microsoft Web Platform Privacy Statements](web-hosting/getting-started/microsoft-web-platform-privacy-statements.md)
+## [Frequently Asked Questions (FAQ)]
 ### [Tools and Utilities Questions](web-hosting/frequently-asked-questions-faq/tools-and-utilities-questions.md)
 ### [SMTP Questions](web-hosting/frequently-asked-questions-faq/smtp-questions.md)
 ### [Logging and Auditing Questions](web-hosting/frequently-asked-questions-faq/logging-and-auditing-questions.md)
@@ -606,17 +693,21 @@
 ### [PHP Questions](web-hosting/frequently-asked-questions-faq/php-questions.md)
 ### [Sales and Marketing Questions](web-hosting/frequently-asked-questions-faq/sales-and-marketing-questions.md)
 ### [Top 10 Changes in IIS 7.0](web-hosting/frequently-asked-questions-faq/top-10-changes-in-iis7.md)
+## [Migrate to the Microsoft Web Platform]
 ### [Breaking Changes for ASP.NET 4 Apps Running on IIS 7 Integrated Mode](web-hosting/migrate-to-the-microsoft-web-platform/breaking-changes-for-aspnet-4-apps-running-on-iis-7-integrated-mode.md)
 ### [IIS 7 for Apache Administrators](web-hosting/migrate-to-the-microsoft-web-platform/iis-for-apache-administrators.md)
 ### [Migrate to a Windows-Based Platform](web-hosting/migrate-to-the-microsoft-web-platform/migrate-to-a-windows-based-platform.md)
 ### [Migrate from MySQL to SQL Server 2008](web-hosting/migrate-to-the-microsoft-web-platform/migrate-from-mysql-to-sql-server-2008.md)
 ### [How to Migrate to the Microsoft Web Platform](web-hosting/migrate-to-the-microsoft-web-platform/how-to-migrate-to-the-microsoft-web-platform.md)
+## [Configuring Components]
 ### [Enabling LINQ with ASP.NET](web-hosting/configuring-components/deploying-linq-with-net-35.md)
 ### [C# and PowerShell Scripts Samples](web-hosting/configuring-components/powershell-scripts.md)
 ### [Configuring Server Components](web-hosting/configuring-components/configuring-server-components.md)
+## [Planning the Web Hosting Architecture]
 ### [Shared Hosting Configuration](web-hosting/planning-the-web-hosting-architecture/shared-hosting-configuration.md)
 ### [Sustainable Computing](web-hosting/planning-the-web-hosting-architecture/sustainable-computing.md)
 ### [IIS Extensibility](web-hosting/planning-the-web-hosting-architecture/iis-extensibility.md)
+## [Configuring Servers in the Windows Web Platform]
 ### [Separate Partitions for Improved Performance](web-hosting/configuring-servers-in-the-windows-web-platform/preparing-the-file-serve-deployment.md)
 ### [Share and NTFS Permissions](web-hosting/configuring-servers-in-the-windows-web-platform/configuring-share-and-ntfs-permissions.md)
 ### [Directory Quotas and FSRM](web-hosting/configuring-servers-in-the-windows-web-platform/enabling-directory-quotas.md)
@@ -635,6 +726,7 @@
 ### [SQL Server 2005](web-hosting/configuring-servers-in-the-windows-web-platform/sql-server-2005.md)
 ### [SQL 2008 for Hosters](web-hosting/configuring-servers-in-the-windows-web-platform/sql-2008-for-hosters.md)
 ### [Configure your Servers for the Windows Web Hosting Platform](web-hosting/configuring-servers-in-the-windows-web-platform/configure-your-servers-for-the-windows-web-hosting-platform.md)
+## [Installing Infrastructure Components]
 ### [Planning the Deployment](web-hosting/installing-infrastructure-components/planning-the-deployment.md)
 ### [Testing the Deployment](web-hosting/installing-infrastructure-components/testing-the-deployment.md)
 ### [Deploying Images with WDS](web-hosting/installing-infrastructure-components/deploying-images-with-wds.md)
@@ -646,9 +738,11 @@
 ### [Introduction to Deploying Windows Server 2008 R2](web-hosting/installing-infrastructure-components/introduction-to-deploying-windows-server-2008-r2.md)
 ### [System Center Solutions (VMM &amp; SCOM)](web-hosting/installing-infrastructure-components/system-center-solutions-vmm-amp-scom.md)
 ### [Hyper-V Guides](web-hosting/installing-infrastructure-components/hyper-v-guides.md)
+## [Verifying the Deployment]
 ### [Verifying Remote Administration](web-hosting/verifying-the-deployment/verifying-remote-administration.md)
 ### [Verifying the Developer Experience - ASP.NET](web-hosting/verifying-the-deployment/verifying-the-developer-experience-aspnet.md)
 ### [Verifying the Developer Experience - PHP](web-hosting/verifying-the-deployment/verifying-the-developer-experience-php.md)
+## [Web Server For Shared Hosting]
 ### [ASP.NET 2.0/3.5 Shared Hosting Configuration](web-hosting/web-server-for-shared-hosting/aspnet-20-35-shared-hosting-configuration.md)
 ### [IIS 7 Components for Shared Hosting](web-hosting/web-server-for-shared-hosting/iis-components-for-shared-hosting.md)
 ### [Installing the Web Server Role](web-hosting/web-server-for-shared-hosting/installing-the-web-server-role.md)
@@ -668,10 +762,12 @@
 ### [Dynamic Compression](web-hosting/web-server-for-shared-hosting/dynamic-compression.md)
 ### [Delegated Administration](web-hosting/web-server-for-shared-hosting/delegated-administration.md)
 ### [Delegating errorMode in httpErrors](web-hosting/web-server-for-shared-hosting/delegating-errormode-in-httperrors.md)
+## [Using Shared Hosting Environments]
 ### [MIX08: Bringing Hosters and Developers Together with IIS7](web-hosting/using-shared-hosting-environments/mix08-bringing-hosters-and-developers-together-with-iis7.md)
 ### [Creating and Publishing Web Applications with Visual Web Developer](web-hosting/using-shared-hosting-environments/creating-and-publishing-web-applications-with-visual-web-developer.md)
 ### [Setting up Delegated Administration, Server and Client Experiences](web-hosting/using-shared-hosting-environments/setting-up-delegated-administration-server-and-client-experiences.md)
 ### [Using Delegated Administration](web-hosting/using-shared-hosting-environments/using-delegated-administration.md)
+## [Microsoft Web Farm Framework 2.0 for IIS 7]
 ### [Overview of the Web Farm Framework 2.0 for IIS 7](web-hosting/microsoft-web-farm-framework-20-for-iis-7/overview-of-the-web-farm-framework-20-for-iis.md)
 ### [System and Platform Requirements for the Web Farm Framework 2.0 for IIS 7](web-hosting/microsoft-web-farm-framework-20-for-iis-7/system-and-platform-requirements-for-the-web-farm-framework-20-for-iis.md)
 ### [Setting up a Server Farm with the Web Farm Framework 2.0 for IIS 7](web-hosting/microsoft-web-farm-framework-20-for-iis-7/setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis.md)
@@ -681,11 +777,14 @@
 ### [Running Server Operations Using the Web Farm Framework 2.0 for IIS 7](web-hosting/microsoft-web-farm-framework-20-for-iis-7/running-server-operations-using-the-web-farm-framework-20-for-iis.md)
 ### [Skipping Folders while Provisioning with Web Farm Framework 2.0 for IIS 7](web-hosting/microsoft-web-farm-framework-20-for-iis-7/skipping-folders-while-provisioning-with-web-farm-framework-20-for-iis.md)
 ### [Building Workflows with Web Farm Framework 2.0 for IIS 7](web-hosting/microsoft-web-farm-framework-20-for-iis-7/building-workflows-with-web-farm-framework-20-for-iis.md)
+## [Hosting the Microsoft Web Platform on Amazon EC2]
 ### [Amazon EC2: Microsoft Web Platform Images - Wordpress](web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-wordpress.md)
 ### [Amazon EC2: Microsoft Web Platform - DotNetNuke](web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-dotnetnuke.md)
 ### [Amazon EC2: Microsoft Web Platform Images - Media Server](web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-media-server.md)
 ### [Amazon EC2: Microsoft Web Platform Images - Full Web Server Development Stack](web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack.md)
+## [Hosting the Microsoft Web Platform on Windows Azure]
 ### [Managing IIS on Windows Azure via Remote Desktop](web-hosting/hosting-the-microsoft-web-platform-on-windows-azure/managing-iis-on-windows-azure-via-remote-desktop.md)
+## [Joining the Web Hosting Gallery]
 ### [ServerValidator Demo](web-hosting/joining-the-web-hosting-gallery/servervalidator-demo.md)
 ### [Microsoft Web Platform Hosting Program -Pilot](web-hosting/joining-the-web-hosting-gallery/microsoft-web-platform-hosting-program-pilot.md)
 ### [Overview](web-hosting/joining-the-web-hosting-gallery/overview.md)
@@ -697,6 +796,7 @@
 ### [Automating server setup](web-hosting/joining-the-web-hosting-gallery/automating-server-setup.md)
 ### [Setup MySQL with WebMatrix Support](web-hosting/joining-the-web-hosting-gallery/setup-mysql-with-webmatrix-support.md)
 ### [How WebMatrix Verification Works](web-hosting/joining-the-web-hosting-gallery/how-webmatrix-verification-works.md)
+## [Scenario: Build a Web Farm with IIS Servers]
 ### [Overview: Build a Web Farm with IIS Servers](web-hosting/scenario-build-a-web-farm-with-iis-servers/overview-build-a-web-farm-with-iis-servers.md)
 ### [Plan a Web Farm with IIS Servers](web-hosting/scenario-build-a-web-farm-with-iis-servers/plan-a-web-farm-with-iis-servers.md)
 ### [Planning Step 1: Plan IIS Web Farm Infrastructure](web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-1-plan-iis-web-farm-infrastructure.md)
