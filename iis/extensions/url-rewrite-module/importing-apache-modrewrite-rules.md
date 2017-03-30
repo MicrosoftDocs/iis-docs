@@ -89,13 +89,15 @@ To convert these rules to IIS URL rewrite–specific format:
 
 To test that the rules imported from mod\_rewrite format work correctly, open a Web browser, and go to either one of the following URLs:
 
-`http://localhost/iisstart.htm http://mysite_com/iisstart.htm`
+- `http://localhost/iisstart.htm`
+- `http://mysite_com/iisstart.htm`
 
 In both cases, the Web browser is redirected to `http://www_mysite_com/iisstart.htm`.  
   
 Also, if you try either of these URLs:
 
-`http://localhost:8088/iisstart.htmhttp://mysite_com:8088/iisstart.htm`
+- `http://localhost:8088/iisstart.htm`
+- `http://mysite_com:8088/iisstart.htm`
 
 the Web browser gets redirected to `http://www_mysite_com:8088/iisstart.htm`.
 

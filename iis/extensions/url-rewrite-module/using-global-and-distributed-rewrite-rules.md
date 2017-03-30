@@ -121,7 +121,8 @@ Leave default values for all other settings. The "Edit Rule" UI should look as t
    
 Save the rule by clicking "Apply" action on the right hand side.
 
-To understand how this rule will be applied let's walk through the steps that are performed by URL rewrite module when HTTP client requests this URL: `http://blog_localhost/article.aspx?id=323`:
+To understand how this rule will be applied let's walk through the steps that are performed by URL rewrite module when HTTP client requests this URL:   
+`http://blog_localhost/article.aspx?id=323`:
 
 1. URL rewrite module passes "article.aspx?id=323" as an input URL to the rule, successfully matches it against the rule pattern and captures it in a rule back-reference {R:1}
 2. The host header value ("blog\_localhost") is successfully matched with regular expression "^([^\_]+)\_[^\_]+" and as a result "blog" is captured in a condition back-reference {C:1}

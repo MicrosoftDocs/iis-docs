@@ -36,9 +36,6 @@ The Smooth Streaming to MPEG-2 Transport Stream Task re-muxes existing Smooth St
 
 ## Write your own custom tasks with the Transform Manager Task API
 
-<transform tasks="" p=""></transform>< to="" location="" one="" from="" assets="" move="" used="" is="" command="" xcopy="" the="" templates,="" job="" sample="" manager="" transform="" in="" example,="" for="" template.="" job="" a="" as="" be="" also="" can="" applications="" line="" command="" framework.="" progress-reporting="" task="" and="" metadata,="" logging,="" manager,="" with="" integrated="" that="" custom="" build="" developers="" allows="" api="" task="" the="" (api).="" interface="" programming="" application="" iis="" using="" created="" been="" have="" run="" engine="" contains="">
-
 Transform Manager contains a Task Engine that can be used to run custom tasks that have been created using the [IIS Transform Manager Task Application Programming Interface (API)](https://go.microsoft.com/?linkid=9735626). The Task API allows developers to build custom tasks that can be integrated with the Transform Manager job manager, logging, metadata, and task progress-reporting framework. Command line applications can also be used as tasks in a job template. For example, in the Transform Manager sample Job Templates, the Xcopy command is used to move assets from one location to another.  
-  
   
 [Discuss in IIS Forums](https://forums.iis.net/1145.aspx)
