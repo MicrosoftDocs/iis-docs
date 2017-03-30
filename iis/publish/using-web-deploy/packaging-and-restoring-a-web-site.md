@@ -2,13 +2,13 @@
 title: "Packaging and Restoring a Web site | Microsoft Docs"
 author: rick-anderson
 description: "This quick guide will show you how to create an package (compressed file) of a Web site, and then restore the site from the package. Prerequisites This guide..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/23/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/packaging-and-restoring-a-web-site
 msc.type: authoredcontent
 ---

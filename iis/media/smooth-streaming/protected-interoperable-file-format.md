@@ -2,13 +2,13 @@
 title: "Protected Interoperable File Format | Microsoft Docs"
 author: Microsoft
 description: "The Protected Interoperable File Format (PIFF) specification defines a standard multimedia file format for delivery and playback of multimedia content. It in..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/08/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/protected-interoperable-file-format
 msc.type: authoredcontent
 ---

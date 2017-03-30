@@ -2,13 +2,13 @@
 title: "IIS 8.0 FTP Logon Attempt Restrictions | Microsoft Docs"
 author: rmcmurray
 description: "Version Notes IIS 8.0 FTP Logon Attempt Restrictions were introduced in IIS 8.0. IIS 7.5 FTP Logon Attempt Restrictions were not supported in IIS 7.0 or IIS..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/29/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-ftp-logon-attempt-restrictions
 msc.type: authoredcontent
 ---

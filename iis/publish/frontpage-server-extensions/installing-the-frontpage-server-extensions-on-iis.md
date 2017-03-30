@@ -2,13 +2,13 @@
 title: "Installing the FrontPage Server Extensions on IIS 7 | Microsoft Docs"
 author: rmcmurray
 description: "As of December 18, 2010, Microsoft FrontPage Server Extensions (FPSE) 2002 for Windows Vista and Windows Server 2008 RTM is supported by Ready-to-Run Softwar..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/frontpage-server-extensions/installing-the-frontpage-server-extensions-on-iis
 msc.type: authoredcontent
 ---

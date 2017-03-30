@@ -2,13 +2,13 @@
 title: "What's New for WebDAV and IIS 7? | Microsoft Docs"
 author: rmcmurray
 description: "What is WebDAV? WebDAV is short for Web Distributed Authoring and Versioning, and it is an open-standard extension to the HTTP protocol that enables file man..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/18/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-7/what39s-new-for-webdav-and-iis-7
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Default Documents | Microsoft Docs"
 author: walterov
 description: "The default document is for client requests to a Web site that do not specify a document name, such as www.microsoft.com. The default document specifies what..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/01/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/default-documents
 msc.type: authoredcontent
 ---

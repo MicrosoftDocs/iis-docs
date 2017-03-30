@@ -2,13 +2,13 @@
 title: "How to Create a Simple IIS Manager Module | Microsoft Docs"
 author: rick-anderson
 description: "The new IIS 7.0 and above Web Management tool is an extensible developer platform. Third parties can develop and install their own management features that a..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/18/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/extending-the-management-ui/how-to-create-a-simple-iis-manager-module
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "PowerShell Snap-in: Making Simple Configuration Changes to Web-Sites and Application Pools | Microsoft Docs"
 author: thomasdeml
 description: "In this walkthrough you will learn how to change simple properties of IIS namespace containers like Web-Sites, Web Applications, Virtual Directories and Appl..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Transform Manager Tasks Gallery | Microsoft Docs"
 author: johndeu
 description: "Transform Manager includes two integrated tasks: an Expression Encoder 4 task and a Smooth Streaming to MPEG-2 Transport Stream task. You can also create you..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 06/10/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/transform-manager-tasks-gallery
 msc.type: authoredcontent
 ---

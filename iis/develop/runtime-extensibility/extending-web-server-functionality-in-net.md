@@ -2,13 +2,13 @@
 title: "Extending Web Server Functionality in .NET | Microsoft Docs"
 author: rick-anderson
 description: "Building Web server add-ons and extensions is simpler and less time-consuming because IIS 7.0 supports .NET extensibility through the IHTTPModule and IHTTPHa..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/24/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/runtime-extensibility/extending-web-server-functionality-in-net
 msc.type: video
 ---

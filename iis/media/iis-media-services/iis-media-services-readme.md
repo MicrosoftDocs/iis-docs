@@ -2,13 +2,13 @@
 title: "IIS Media Services Readme | Microsoft Docs"
 author: rick-anderson
 description: "Applies To: IIS Media Services 4 (IIS Media Services 4.1 and IIS Media Services 4.0), IIS Media Services 3 Last Updated: June 27, 2012 IIS Media Services int..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 06/23/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/iis-media-services/iis-media-services-readme
 msc.type: authoredcontent
 ---

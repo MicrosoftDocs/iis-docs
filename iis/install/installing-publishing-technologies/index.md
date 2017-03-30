@@ -2,13 +2,13 @@
 title: "Installing Publishing Technologies | Microsoft Docs"
 author: rick-anderson
 description: "Installing Publishing Technologies"
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/01/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-install
+ms.prod: iis
 msc.legacyurl: /learn/install/installing-publishing-technologies
 msc.type: chapter
 ---

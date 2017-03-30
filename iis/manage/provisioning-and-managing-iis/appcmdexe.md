@@ -2,13 +2,13 @@
 title: "AppCmd.exe | Microsoft Docs"
 author: walterov
 description: "AppCmd.exe can be used to provision Web sites and run many commands to edit configuration. Creating and Configuring Use the following code samples for implem..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/02/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/appcmdexe
 msc.type: authoredcontent
 ---

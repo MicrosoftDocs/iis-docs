@@ -2,13 +2,13 @@
 title: "Common UrlScan Scenarios | Microsoft Docs"
 author: naziml
 description: "This article provides a list of common usage scenarios for UrlScan Version 3.1, and how to enable the scenarios using the UrlScan.ini configuration. Creating..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 06/24/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/working-with-urlscan/common-urlscan-scenarios
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Using IIS Express | Microsoft Docs"
 author: rick-anderson
 description: "Using IIS Express"
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/01/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/using-iis-express
 msc.type: chapter
 ---

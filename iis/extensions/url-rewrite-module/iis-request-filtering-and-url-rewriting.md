@@ -2,13 +2,13 @@
 title: "IIS 7.0 Request Filtering and URL Rewriting | Microsoft Docs"
 author: ruslany
 description: "IIS 7.0 and above includes a request filtering module that is based on the URLScan ISAPI Filter for IIS 6.0. The module helps you tighten security of your We..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/04/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/iis-request-filtering-and-url-rewriting
 msc.type: authoredcontent
 ---

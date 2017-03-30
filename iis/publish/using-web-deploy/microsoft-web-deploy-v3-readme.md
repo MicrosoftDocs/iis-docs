@@ -2,13 +2,13 @@
 title: "Microsoft Web Deploy v3 Readme | Microsoft Docs"
 author: rick-anderson
 description: "The Web Deploy is a tool for simplifying migration, management and deployment of Web applications, sites and servers. It can be used to package a Web site, a..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/19/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/microsoft-web-deploy-v3-readme
 msc.type: authoredcontent
 ---

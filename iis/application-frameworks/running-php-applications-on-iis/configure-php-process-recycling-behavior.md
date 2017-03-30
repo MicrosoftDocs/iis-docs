@@ -2,13 +2,13 @@
 title: "Configure PHP Process Recycling Behavior | Microsoft Docs"
 author: rick-anderson
 description: "Introduction Make sure that FastCGI always recycles the php-cgi.exe processes before the native PHP recycling kicks in. The FastCGI process recycling behavio..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/configure-php-process-recycling-behavior
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "IIS 8.0 Multicore Scaling on NUMA Hardware | Microsoft Docs"
 author: rmcmurray
 description: "Version Notes IIS 8.0 Multicore Scaling on NUMA was introduced in IIS 8.0. IIS 7.5 Multicore Scaling on NUMA was not supported in IIS 7.5. IIS 7.0 Multicore..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/29/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-multicore-scaling-on-numa-hardware
 msc.type: authoredcontent
 ---

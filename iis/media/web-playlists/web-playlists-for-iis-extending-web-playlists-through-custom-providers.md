@@ -2,13 +2,13 @@
 title: "Web Playlists for IIS 7.0 - Extending Web Playlists through Custom Providers | Microsoft Docs"
 author: rick-anderson
 description: "Web Playlists allows you to extend its default behavior by writing custom providers. It provides a COM interface that can be implemented in either a .NET-bas..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/21/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-extending-web-playlists-through-custom-providers
 msc.type: authoredcontent
 ---

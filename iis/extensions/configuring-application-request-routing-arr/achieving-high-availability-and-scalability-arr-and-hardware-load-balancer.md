@@ -2,13 +2,13 @@
 title: "Achieving High Availability and Scalability - ARR and Hardware Load Balancer | Microsoft Docs"
 author: rick-anderson
 description: "Achieving High Availability and Scalability: Microsoft Application Request Routing (ARR) for IIS 7.0 and above and Hardware Load Balancer. Microsoft Corporat..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/13/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-hardware-load-balancer
 msc.type: authoredcontent
 ---

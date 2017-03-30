@@ -2,13 +2,13 @@
 title: "Install and Configure SQL Server 2008 for PHP Applications on IIS 7 | Microsoft Docs"
 author: rick-anderson
 description: "PHP is a widely used, easy-to-learn, open-source scripting language. Microsoft ® SQL Server ® is a powerful and robust relational model database server that..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/install-and-configure-sql-server-2008-for-php-applications-on-iis-7-and-above
 msc.type: authoredcontent
 ---

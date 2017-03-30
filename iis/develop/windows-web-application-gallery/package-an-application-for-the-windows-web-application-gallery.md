@@ -2,13 +2,13 @@
 title: "Package an Application for the Windows Web Application Gallery | Microsoft Docs"
 author: rick-anderson
 description: "Introduction The Windows ® Web Application Gallery gives Web site builders an easy way to discover, learn about, and install freely available and community a..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/package-an-application-for-the-windows-web-application-gallery
 msc.type: authoredcontent
 ---

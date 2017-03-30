@@ -2,13 +2,13 @@
 title: "Advanced Logging for IIS - Real-Time Logging | Microsoft Docs"
 author: rick-anderson
 description: "IIS Advanced Logging can extend the web platform to support real-time analytics, helping you to provide real-time reports to customers or work with partners..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/advanced-logging-module/advanced-logging-for-iis-real-time-logging
 msc.type: authoredcontent
 ---

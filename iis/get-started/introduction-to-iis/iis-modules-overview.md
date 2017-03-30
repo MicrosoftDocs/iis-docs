@@ -2,13 +2,13 @@
 title: "IIS Modules Overview | Microsoft Docs"
 author: leanserver
 description: "The IIS 7 and later Web server feature set is componentized into more than thirty independent modules; a module is either a Win32 DLL (native module) or a .N..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/introduction-to-iis/iis-modules-overview
 msc.type: authoredcontent
 ---

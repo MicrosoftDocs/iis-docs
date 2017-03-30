@@ -2,13 +2,13 @@
 title: "Troubleshooting Unexpected Issues | Microsoft Docs"
 author: rick-anderson
 description: "Prescriptive detailed errors, automatic failure tracing and more exposed runtime information make IIS the simplest and quickest Web server to troubleshoot. T..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/24/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-troubleshoot
+ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/diagnosing-http-errors/troubleshooting-unexpected-issues
 msc.type: video
 ---

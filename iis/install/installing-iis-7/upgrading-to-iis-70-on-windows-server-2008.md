@@ -2,13 +2,13 @@
 title: "Upgrading to IIS 7.0 on Windows Server 2008 | Microsoft Docs"
 author: rick-anderson
 description: "You can move Web sites and applications to Internet Information Services (IIS) 7.0 and above in two ways: upgrading and installing. Upgrading is installing t..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/11/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-install
+ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/upgrading-to-iis-70-on-windows-server-2008
 msc.type: authoredcontent
 ---

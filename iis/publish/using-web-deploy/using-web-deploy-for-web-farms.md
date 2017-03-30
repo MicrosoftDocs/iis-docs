@@ -2,13 +2,13 @@
 title: "Using Web Deploy for Web Farms | Microsoft Docs"
 author: rick-anderson
 description: "Web Deploy (Web Deployment Tool) is an IIS Extension that simplifies the migration, management and deployment of IIS Web servers, Web applications and Web si..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/23/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/using-web-deploy-for-web-farms
 msc.type: authoredcontent
 ---

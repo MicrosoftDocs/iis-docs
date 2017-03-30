@@ -2,13 +2,13 @@
 title: "Web Playlists for IIS 7 - Configuration | Microsoft Docs"
 author: rick-anderson
 description: "Web Playlists for Internet Information Services (IIS) provides the ability to control media delivery to clients and limit a client’s ability to seek or skip..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/27/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-configuration
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "An End-to-End Extensibility Example for IIS 7.0 Developers | Microsoft Docs"
 author: rick-anderson
 description: "IIS 7 and above are built with a completely modular architecture, on top of rich extensibility APIs. This enables developers to easily add, remove and even r..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/24/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/runtime-extensibility/an-end-to-end-extensibility-example-for-iis-developers
 msc.type: authoredcontent
 ---

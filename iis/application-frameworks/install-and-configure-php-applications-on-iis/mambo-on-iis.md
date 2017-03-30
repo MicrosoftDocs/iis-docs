@@ -2,13 +2,13 @@
 title: "Mambo on IIS | Microsoft Docs"
 author: rick-anderson
 description: "Mambo is a free, open source content management system (CMS) that is developed in the PHP scripting language. It is a dynamic CMS and uses the free MySQL dat..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/18/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/mambo-on-iis
 msc.type: authoredcontent
 ---

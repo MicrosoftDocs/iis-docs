@@ -2,13 +2,13 @@
 title: "Overview | Microsoft Docs"
 author: simtan
 description: "This set of documentation describes how hosting providers can prepare to join the Microsoft Web Hosting Gallery —a comprehensive marketplace of hosting provi..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/04/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/overview
 msc.type: authoredcontent
 ---

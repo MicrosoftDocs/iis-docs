@@ -2,13 +2,13 @@
 title: "Configuring a Web Farm Using IIS Shared Configuration | Microsoft Docs"
 author: rick-anderson
 description: "Managing large web farms with IIS and Windows Server 2008 has become simpler than ever. In this tutorial we will cover how to setup IIS 7.0’s new shared conf..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/29/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/configuring-a-web-farm-using-iis-shared-configuration
 msc.type: video
 ---

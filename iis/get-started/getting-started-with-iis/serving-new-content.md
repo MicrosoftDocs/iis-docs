@@ -2,13 +2,13 @@
 title: "Serving New Content | Microsoft Docs"
 author: rick-anderson
 description: "More flexible deployment options let you decide exactly how you want your Web content served by IIS. This tutorial covers creating your first Web site, Web a..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/24/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/getting-started-with-iis/serving-new-content
 msc.type: video
 ---

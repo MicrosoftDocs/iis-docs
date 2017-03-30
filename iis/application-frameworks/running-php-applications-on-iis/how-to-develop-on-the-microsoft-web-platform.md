@@ -2,13 +2,13 @@
 title: "How to Develop on the Microsoft Web Platform | Microsoft Docs"
 author: rick-anderson
 description: "The Windows ® and Linux operating systems approach Web development in different ways. Linux is easily configured, and it lets enthusiasts get “under the hood..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/how-to-develop-on-the-microsoft-web-platform
 msc.type: authoredcontent
 ---

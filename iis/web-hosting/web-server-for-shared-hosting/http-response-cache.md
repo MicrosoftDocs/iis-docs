@@ -2,13 +2,13 @@
 title: "HTTP Response Cache | Microsoft Docs"
 author: walterov
 description: "The IIS output cache is a feature that makes it possible to cache entire responses in memory, even from dynamic content. Unlike the caches in IIS 6.0, IIS 7...."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/01/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/http-response-cache
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "PowerShell Snap-in: Navigating the IIS Snap-in Namespace | Microsoft Docs"
 author: thomasdeml
 description: "Everybody is familiar on how the file system is organized. File systems are hierarchical namespaces, comprised of directories that contain files and other di..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-navigating-the-iis-snap-in-namespace
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Quick Guide for Shared Hosting Deployment | Microsoft Docs"
 author: walterov
 description: "This article provides a basic overview of the manual steps to deploy a front-end Web server running IIS 7.5 or above for the Shared Hosting scenario. It also..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/01/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/quick-guide-for-shared-hosting-deployment
 msc.type: authoredcontent
 ---

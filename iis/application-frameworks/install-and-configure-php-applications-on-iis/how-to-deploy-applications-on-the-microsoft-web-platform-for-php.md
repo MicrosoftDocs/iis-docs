@@ -2,13 +2,13 @@
 title: "How to Deploy Applications on the Microsoft Web Platform for PHP | Microsoft Docs"
 author: rick-anderson
 description: "There are a couple of steps you can take to optimize deployment of your applications on the Microsoft Web Platform, including: Translate .htaccess Files to W..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/how-to-deploy-applications-on-the-microsoft-web-platform-for-php
 msc.type: authoredcontent
 ---

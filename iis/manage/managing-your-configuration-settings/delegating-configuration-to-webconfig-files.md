@@ -2,13 +2,13 @@
 title: "Delegating Configuration to web.config Files | Microsoft Docs"
 author: rick-anderson
 description: "Distributed, file-based configuration is a powerful feature of IIS that enables delegated management of Web application settings at a very granular level. Th..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/24/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/delegating-configuration-to-webconfig-files
 msc.type: video
 ---

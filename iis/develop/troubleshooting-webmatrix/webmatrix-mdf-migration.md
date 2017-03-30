@@ -2,13 +2,13 @@
 title: "WebMatrix MDF Migration | Microsoft Docs"
 author: rick-anderson
 description: "Symptom: You see a Database Migration Required message when you are trying to download a database from SQL Azure into a local MDF database. For example, when..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 06/06/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/webmatrix-mdf-migration
 msc.type: authoredcontent
 ---

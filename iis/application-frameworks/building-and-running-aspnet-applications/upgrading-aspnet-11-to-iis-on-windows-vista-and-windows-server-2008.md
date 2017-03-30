@@ -2,13 +2,13 @@
 title: "Upgrading ASP.NET 1.1 to IIS 7.0 on Windows Vista and Windows Server 2008 | Microsoft Docs"
 author: rick-anderson
 description: "For ASP.NET application developers who move to the Windows Vista™ or later Windows operating system, IIS 7.0 and above represent a significant advance over e..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/18/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/upgrading-aspnet-11-to-iis-on-windows-vista-and-windows-server-2008
 msc.type: authoredcontent
 ---

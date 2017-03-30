@@ -2,13 +2,13 @@
 title: "Create a Website from a Gallery Application | Microsoft Docs"
 author: rmcmurray
 description: "[This is preliminary documentation and is subject to change.] Microsoft has created a new authoring tool for the web named 'WebMatrix,' which is focused on c..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/create-a-website-from-a-gallery-application
 msc.type: authoredcontent
 ---

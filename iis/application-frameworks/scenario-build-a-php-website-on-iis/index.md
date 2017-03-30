@@ -2,13 +2,13 @@
 title: "Scenario: Build a PHP Website on IIS | Microsoft Docs"
 author: rick-anderson
 description: "This scenario shows how to plan and configure a PHP website on an IIS 8 webserver. It is divided into two phases: a plan and design phase, and an install and..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis
 msc.type: chapter
 ---

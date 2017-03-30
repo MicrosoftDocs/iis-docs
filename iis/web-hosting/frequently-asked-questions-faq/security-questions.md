@@ -2,13 +2,13 @@
 title: "Security Questions | Microsoft Docs"
 author: walterov
 description: "For certain workloads, Full trust may be required (e.g., making unmanaged calls, using reflection, etc.). For most web apps, it is typically not necessary. M..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/security-questions
 msc.type: authoredcontent
 ---

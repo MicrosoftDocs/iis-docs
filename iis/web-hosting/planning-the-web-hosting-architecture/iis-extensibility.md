@@ -2,13 +2,13 @@
 title: "IIS Extensibility | Microsoft Docs"
 author: walterov
 description: "One of the key features of IIS is its extensible modular architecture. That is, you can build and deploy your own modules and integrate them with IIS. This e..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/19/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/planning-the-web-hosting-architecture/iis-extensibility
 msc.type: authoredcontent
 ---

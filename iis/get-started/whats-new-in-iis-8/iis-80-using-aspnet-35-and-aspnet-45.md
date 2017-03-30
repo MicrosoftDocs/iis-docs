@@ -2,13 +2,13 @@
 title: "IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5 | Microsoft Docs"
 author: rick-anderson
 description: "Version Notes IIS 8.0 ASP.NET 3.5 and ASP.NET 4.5 are supported on IIS 8.0. IIS 7.5 ASP.NET 3.5 and ASP.NET 4.5 are supported on IIS 7.5. IIS 7.0 ASP.NET 3.5..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/29/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45
 msc.type: authoredcontent
 ---

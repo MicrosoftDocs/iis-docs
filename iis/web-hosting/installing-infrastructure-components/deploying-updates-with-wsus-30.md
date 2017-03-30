@@ -2,13 +2,13 @@
 title: "Deploying Updates with WSUS 3.0 | Microsoft Docs"
 author: walterov
 description: "Microsoft Windows Server® Update Services 3.0 (WSUS 3.0) enables IT administrators to deploy the latest Microsoft product updates to computers running Micros..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/04/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/deploying-updates-with-wsus-30
 msc.type: authoredcontent
 ---

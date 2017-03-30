@@ -2,13 +2,13 @@
 title: "Web Farm Framework 2.0 for IIS 7 Code Sample | Microsoft Docs"
 author: rick-anderson
 description: "This article shows how you can develop and run an application to set up and manage the Web Farm Framework using C# or any other .NET Framework language. The..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/21/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/web-farm-framework-20-for-iis-code-sample
 msc.type: authoredcontent
 ---

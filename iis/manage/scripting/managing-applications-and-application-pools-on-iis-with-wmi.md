@@ -2,13 +2,13 @@
 title: "Managing Applications and Application Pools on IIS 7.0 with WMI | Microsoft Docs"
 author: rick-anderson
 description: "Managing application and application pools on IIS 7.0 and above can be performed with relative ease by using WMI scripting. This article describes how to acc..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/scripting/managing-applications-and-application-pools-on-iis-with-wmi
 msc.type: authoredcontent
 ---

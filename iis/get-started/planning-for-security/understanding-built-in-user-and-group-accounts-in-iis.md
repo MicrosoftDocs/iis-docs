@@ -2,13 +2,13 @@
 title: "Understanding Built-In User and Group Accounts in IIS 7 | Microsoft Docs"
 author: rick-anderson
 description: "Introduction In earlier versions of IIS, a local account called IUSR_MachineName is created during installation. IIS used the IUSR_MachineName account by def..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-for-security/understanding-built-in-user-and-group-accounts-in-iis
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Case Studies | Microsoft Docs"
 author: rick-anderson
 description: "Case Studies"
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/18/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/case-studies
 msc.type: chapter
 ---

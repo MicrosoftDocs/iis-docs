@@ -2,13 +2,13 @@
 title: "Wildcard Host Header Support | Microsoft Docs"
 author: apwestgarth
 description: ""
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/01/2015
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/wildcard-host-header-support
 msc.type: authoredcontent
 ---

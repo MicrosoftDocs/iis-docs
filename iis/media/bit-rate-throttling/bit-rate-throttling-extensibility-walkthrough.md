@@ -2,13 +2,13 @@
 title: "Bit Rate Throttling Extensibility Walkthrough | Microsoft Docs"
 author: rick-anderson
 description: "Bit Rate Throttling for Internet Information Services (IIS) provides the ability to throttle progressive downloads of media files (in which audio/video playb..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/bit-rate-throttling/bit-rate-throttling-extensibility-walkthrough
 msc.type: authoredcontent
 ---

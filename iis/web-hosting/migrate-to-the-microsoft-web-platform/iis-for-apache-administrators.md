@@ -2,13 +2,13 @@
 title: "IIS 7 for Apache Administrators | Microsoft Docs"
 author: rick-anderson
 description: "Apache Hypertext Transfer Protocol (HTTP) Server and Internet Information Services are two of the world’s most popular Web servers. This article provides tec..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/migrate-to-the-microsoft-web-platform/iis-for-apache-administrators
 msc.type: authoredcontent
 ---

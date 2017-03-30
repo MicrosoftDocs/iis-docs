@@ -2,13 +2,13 @@
 title: "Smooth Streaming Technical Overview | Microsoft Docs"
 author: rick-anderson
 description: "The Smooth Streaming extension for Internet Information Services (IIS) dynamically detects local bandwidth and CPU conditions and seamlessly switches, in nea..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/31/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/on-demand-smooth-streaming/smooth-streaming-technical-overview
 msc.type: authoredcontent
 ---

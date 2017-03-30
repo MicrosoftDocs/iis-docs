@@ -2,13 +2,13 @@
 title: "IIS Transform Manager Readme | Microsoft Docs"
 author: rick-anderson
 description: "IIS Transform Manager 1.0 is an extensible media transform engine that enables 'watch folder' job submission, queuing, management, integrated media transcodi..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 06/23/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/iis-transform-manager-readme
 msc.type: authoredcontent
 ---

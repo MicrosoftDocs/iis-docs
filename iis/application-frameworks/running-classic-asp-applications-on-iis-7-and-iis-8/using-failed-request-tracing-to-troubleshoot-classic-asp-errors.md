@@ -2,13 +2,13 @@
 title: "Using Failed Request Tracing to troubleshoot Classic ASP errors | Microsoft Docs"
 author: rmcmurray
 description: "One of the great troubleshooting features that is built in to IIS 7.0 and above is Failed Request Tracing, which lets you configure tracing rules on your ser..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/19/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/using-failed-request-tracing-to-troubleshoot-classic-asp-errors
 msc.type: authoredcontent
 ---

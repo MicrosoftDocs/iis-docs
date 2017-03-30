@@ -2,13 +2,13 @@
 title: "SQL 2008 for Hosters | Microsoft Docs"
 author: walterov
 description: "The purpose of this article is to provide information about deploying and optimizing SQL Server 2008 for shared and dedicated hosting environments. It provid..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/13/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/sql-2008-for-hosters
 msc.type: authoredcontent
 ---

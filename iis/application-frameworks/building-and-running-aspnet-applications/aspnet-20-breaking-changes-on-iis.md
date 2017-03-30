@@ -2,13 +2,13 @@
 title: "ASP.NET 2.0 Breaking Changes on IIS 7.0 | Microsoft Docs"
 author: leanserver
 description: "ASP.NET 2.0 applications on IIS 7.0 and above are hosted using the ASP.NET Integrated mode by default. This new mode enables a myriad of exciting scenarios,..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/15/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/aspnet-20-breaking-changes-on-iis
 msc.type: authoredcontent
 ---

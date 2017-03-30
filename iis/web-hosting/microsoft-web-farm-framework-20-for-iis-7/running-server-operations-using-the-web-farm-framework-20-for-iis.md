@@ -2,13 +2,13 @@
 title: "Running Server Operations Using the Web Farm Framework 2.0 for IIS 7 | Microsoft Docs"
 author: rick-anderson
 description: "You can run an operation on all of the servers in the farm, or you can perform an operation on a single server.The types of operations you can perform on a s..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/21/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/running-server-operations-using-the-web-farm-framework-20-for-iis
 msc.type: authoredcontent
 ---

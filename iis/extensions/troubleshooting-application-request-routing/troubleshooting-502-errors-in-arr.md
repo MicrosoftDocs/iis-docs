@@ -2,13 +2,13 @@
 title: "Troubleshooting 502 Errors in ARR | Microsoft Docs"
 author: rick-anderson
 description: "IIS Failed Request Tracing Network Monitor Winhttp Tracing This material is provided for informational purposes only. Microsoft makes no warranties, express..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/troubleshooting-application-request-routing/troubleshooting-502-errors-in-arr
 msc.type: authoredcontent
 ---

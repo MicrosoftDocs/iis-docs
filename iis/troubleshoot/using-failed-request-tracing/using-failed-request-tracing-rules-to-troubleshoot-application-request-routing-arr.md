@@ -2,13 +2,13 @@
 title: "Using Failed Request Tracing Rules to Troubleshoot Application Request Routing (ARR) | Microsoft Docs"
 author: rick-anderson
 description: "Failed Request Tracing Rules is a powerful tool for troubleshooting request-processing failures in IIS 7.0 and above. This topic leads the reader through the..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/02/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-troubleshoot
+ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr
 msc.type: authoredcontent
 ---

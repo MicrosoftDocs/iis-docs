@@ -2,13 +2,13 @@
 title: "Install Server Components | Microsoft Docs"
 author: simtan
 description: "Introduction This article will walk you through installing the required server components to be WebMatrix compatible and fulfill the Spotlight requirements f..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/03/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/install-server-components
 msc.type: authoredcontent
 ---

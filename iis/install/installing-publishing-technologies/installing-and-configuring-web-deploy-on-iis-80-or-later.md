@@ -2,13 +2,13 @@
 title: "Installing and Configuring Web Deploy on IIS 8.0 or Later | Microsoft Docs"
 author: rick-anderson
 description: "In this walkthrough, we will show steps for installing and configuring Web Deploy for IIS 8.0 and later for administrator or non-administrator deployments."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/26/2014
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-install
+ms.prod: iis
 msc.legacyurl: /learn/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later
 msc.type: authoredcontent
 ---

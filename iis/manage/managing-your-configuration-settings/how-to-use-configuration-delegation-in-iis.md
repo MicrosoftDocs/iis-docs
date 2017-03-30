@@ -2,13 +2,13 @@
 title: "How to Use Configuration Delegation in IIS 7.0 | Microsoft Docs"
 author: rick-anderson
 description: "This article explains how to enable delegated configuration on the server. It discusses how to deploy configuration settings for the server and for your appl..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/how-to-use-configuration-delegation-in-iis
 msc.type: authoredcontent
 ---

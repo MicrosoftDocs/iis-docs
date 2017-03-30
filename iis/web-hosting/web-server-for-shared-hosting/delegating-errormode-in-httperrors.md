@@ -2,13 +2,13 @@
 title: "Delegating errorMode in httpErrors | Microsoft Docs"
 author: walterov
 description: "Warning : This functionality is not currently working as expected in IIS 7.0. It is being addressed for the next release. In IIS 7.0 you can lock and unlock..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/19/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/delegating-errormode-in-httperrors
 msc.type: authoredcontent
 ---

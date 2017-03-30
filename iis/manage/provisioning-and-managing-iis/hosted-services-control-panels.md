@@ -2,13 +2,13 @@
 title: "Hosted Services Control Panels | Microsoft Docs"
 author: rick-anderson
 description: "Hosted services control panels are customer-facing, web-based applications provided by hosting providers and WebVAPs for issuing and managing hosted services..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/09/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/hosted-services-control-panels
 msc.type: authoredcontent
 ---

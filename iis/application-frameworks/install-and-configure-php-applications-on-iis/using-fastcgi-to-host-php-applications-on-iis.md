@@ -2,13 +2,13 @@
 title: "Using FastCGI to Host PHP Applications on IIS 7 | Microsoft Docs"
 author: ruslany
 description: "This article describes how to configure the FastCGI module and PHP to host PHP applications on IIS 7 and above. IMPORTANT : This article provides instruction..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/05/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis
 msc.type: authoredcontent
 ---

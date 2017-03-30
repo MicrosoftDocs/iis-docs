@@ -2,13 +2,13 @@
 title: "Managing On-Demand Presentations | Microsoft Docs"
 author: rick-anderson
 description: "Applies To: IIS Media Services 4.0 You can clone your on-demand Smooth Streaming presentations in order to make different sets of bit rates available to your..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/23/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/on-demand-smooth-streaming/managing-on-demand-presentations
 msc.type: authoredcontent
 ---

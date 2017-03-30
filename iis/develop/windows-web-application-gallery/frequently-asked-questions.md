@@ -2,13 +2,13 @@
 title: "Windows Web App Gallery FAQ | Microsoft Docs"
 author: SunBuild
 description: ""
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/18/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/frequently-asked-questions
 msc.type: authoredcontent
 ---

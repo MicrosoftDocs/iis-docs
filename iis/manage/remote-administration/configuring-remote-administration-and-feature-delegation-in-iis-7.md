@@ -2,13 +2,13 @@
 title: "Configuring Remote Administration and Feature Delegation in IIS 7 | Microsoft Docs"
 author: rick-anderson
 description: "IIS provides administrators and developers with a new configuration system that is accessible, extensible and distributable. The new XML-based format allows..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7
 msc.type: authoredcontent
 ---

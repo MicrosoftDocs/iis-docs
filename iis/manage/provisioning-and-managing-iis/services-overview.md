@@ -2,13 +2,13 @@
 title: "Services Overview | Microsoft Docs"
 author: walterov
 description: "Introduction The Hosting Services Sample is a set of services implemented in C# provided to help developers in web hosting organizations developing and/or in..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/02/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/services-overview
 msc.type: authoredcontent
 ---

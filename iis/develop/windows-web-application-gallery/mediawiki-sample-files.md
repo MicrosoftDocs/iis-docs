@@ -2,13 +2,13 @@
 title: "MediaWiki Sample Files | Microsoft Docs"
 author: rick-anderson
 description: "This is a set of sample files you could use with MediaWiki and the Web Deployment tool for deploying MediaWiki on IIS. The files are annotated with comments..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/29/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/mediawiki-sample-files
 msc.type: authoredcontent
 ---

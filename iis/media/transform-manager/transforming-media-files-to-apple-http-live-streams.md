@@ -2,13 +2,13 @@
 title: "Transforming Media Files to Apple HTTP Live Streams | Microsoft Docs"
 author: rick-anderson
 description: "This article describes how to configure the default Video files to H.264 Smooth Streams and Apple HTTP Live Streams job template to transform Expression Enco..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/24/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/transforming-media-files-to-apple-http-live-streams
 msc.type: authoredcontent
 ---

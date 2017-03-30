@@ -2,13 +2,13 @@
 title: "Creating Outbound Rules for URL Rewrite Module | Microsoft Docs"
 author: ruslany
 description: "This section of the documentation applies to the URL Rewrite Module Version 2.0 for IIS 7 . This walkthrough will guide you through how to create and test an..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/16/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/creating-outbound-rules-for-url-rewrite-module
 msc.type: authoredcontent
 ---

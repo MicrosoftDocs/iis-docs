@@ -2,13 +2,13 @@
 title: "Demonstration of Shared Hosting Deployment with ARR | Microsoft Docs"
 author: rick-anderson
 description: "This demonstration will show how to use Application Request Routing (ARR) to deploy web sites in a shared hosting environment."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 10/13/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/demonstration-of-shared-hosting-deployment-with-arr
 msc.type: video
 ---

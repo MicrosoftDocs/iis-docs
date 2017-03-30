@@ -2,13 +2,13 @@
 title: "Advanced Logging Readme | Microsoft Docs"
 author: rick-anderson
 description: "IIS Advanced Logging is an extension for Internet Information Services (IIS) 7 that provides enhanced data collection and real-time server and client-side lo..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 06/22/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/advanced-logging-module/advanced-logging-readme
 msc.type: authoredcontent
 ---

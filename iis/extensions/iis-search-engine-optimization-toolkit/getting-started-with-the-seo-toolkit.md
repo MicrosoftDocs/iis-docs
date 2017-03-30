@@ -2,13 +2,13 @@
 title: "Getting Started with the SEO Toolkit | Microsoft Docs"
 author: rick-anderson
 description: "The free IIS SEO Toolkit gives you an easy way to improve discoverability and user experience for your Web sites. Using the robots exclusion, sitemaps and si..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/11/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/iis-search-engine-optimization-toolkit/getting-started-with-the-seo-toolkit
 msc.type: authoredcontent
 ---

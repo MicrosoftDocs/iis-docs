@@ -2,13 +2,13 @@
 title: "Improve PHP Error Messages in IIS 7 | Microsoft Docs"
 author: rick-anderson
 description: "PHP errors often do not provide sufficient detail to help diagnose errors that occur within the framework. These include basic errors such as 404 Not Found...."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/improve-php-error-messages-in-iis-7-and-above
 msc.type: authoredcontent
 ---

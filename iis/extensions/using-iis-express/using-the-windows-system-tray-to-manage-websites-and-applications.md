@@ -2,13 +2,13 @@
 title: "Using the Windows System Tray to Manage Websites and Applications | Microsoft Docs"
 author: rick-anderson
 description: "This walkthrough discusses how to manage your websites and applications in WebMatrix Beta using the system tray. This feature lets you manage all running sit..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/using-iis-express/using-the-windows-system-tray-to-manage-websites-and-applications
 msc.type: authoredcontent
 ---

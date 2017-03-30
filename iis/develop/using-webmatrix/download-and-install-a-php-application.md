@@ -2,13 +2,13 @@
 title: "Download and Install a PHP Application | Microsoft Docs"
 author: rmcmurray
 description: "[This is preliminary documentation and is subject to change.] Overview This walkthrough shows the steps to download and install a PHP application using WebMa..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/download-and-install-a-php-application
 msc.type: authoredcontent
 ---

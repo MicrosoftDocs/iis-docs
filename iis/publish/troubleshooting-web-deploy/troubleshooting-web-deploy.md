@@ -2,13 +2,13 @@
 title: "Troubleshooting Web Deploy | Microsoft Docs"
 author: rick-anderson
 description: "This quick guide will help you troubleshoot Web Deploy (Web Deployment Tool). Prerequisites This guide requires the following prerequisites: .NET Framework 2..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/23/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/troubleshooting-web-deploy/troubleshooting-web-deploy
 msc.type: authoredcontent
 ---

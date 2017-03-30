@@ -2,13 +2,13 @@
 title: "Using Multiple Instances of Application Request Routing (ARR) Servers | Microsoft Docs"
 author: rick-anderson
 description: "This topic leads you through the steps to configure Microsoft External Cache for IIS 7.0 and above, which can be used to manage the host name affinity data b..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/13/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/using-multiple-instances-of-application-request-routing-arr-servers
 msc.type: authoredcontent
 ---

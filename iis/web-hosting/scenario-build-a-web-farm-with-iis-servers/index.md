@@ -2,13 +2,13 @@
 title: "Scenario: Build a Web Farm with IIS Servers | Microsoft Docs"
 author: rick-anderson
 description: "This scenario shows how to plan and configure a web farm with servers that run the Windows Server® 2012 operating system. The scenario is divided into two ph..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers
 msc.type: chapter
 ---

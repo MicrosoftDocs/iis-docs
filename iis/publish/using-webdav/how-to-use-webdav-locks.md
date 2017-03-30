@@ -2,13 +2,13 @@
 title: "How to Use WebDAV Locks | Microsoft Docs"
 author: rmcmurray
 description: "Introduction Microsoft has created a new WebDAV extension module that has been completely rewritten for Internet Information Services 7.0 (IIS 7.0) on Window..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-webdav/how-to-use-webdav-locks
 msc.type: authoredcontent
 ---

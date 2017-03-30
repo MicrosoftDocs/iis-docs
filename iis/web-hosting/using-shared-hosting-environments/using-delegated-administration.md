@@ -2,13 +2,13 @@
 title: "Using Delegated Administration | Microsoft Docs"
 author: JoeStagner
 description: "The Microsoft Web Platform provides the functionality needed by hosters and their customers to remotely administer web applications in Shared Hosting environ..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/13/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/using-shared-hosting-environments/using-delegated-administration
 msc.type: video
 ---

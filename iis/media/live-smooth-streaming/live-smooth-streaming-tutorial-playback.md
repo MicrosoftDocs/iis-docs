@@ -2,13 +2,13 @@
 title: "Live Smooth Streaming Tutorial - Playback | Microsoft Docs"
 author: scottstanfield
 description: "Part 5: Playback. This is the fifth of a five-part series of videos that describes the process for creating, deploying, and managing an IIS Smooth Streaming..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/24/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/live-smooth-streaming-tutorial-playback
 msc.type: video
 ---

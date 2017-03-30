@@ -2,13 +2,13 @@
 title: "Using Visual Studio 2005 with IIS 7.0 | Microsoft Docs"
 author: leanserver
 description: "Visual Studio ® provides several options for working with IIS when developing web sites and applications. This article covers using Visual Studio 2005 to wor..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/01/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/using-visual-studio-with-iis/using-visual-studio-2005-with-iis
 msc.type: authoredcontent
 ---

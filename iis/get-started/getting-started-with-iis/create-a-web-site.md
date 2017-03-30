@@ -2,13 +2,13 @@
 title: "Create a Web Site | Microsoft Docs"
 author: rick-anderson
 description: "When you want to publish content for access over the Internet or an intranet connection, you can add a Web site to your Web server to hold the content. Durin..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/getting-started-with-iis/create-a-web-site
 msc.type: authoredcontent
 ---

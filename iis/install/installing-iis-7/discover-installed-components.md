@@ -2,13 +2,13 @@
 title: "Discover Installed Components | Microsoft Docs"
 author: rick-anderson
 description: "The modular architecture in IIS 7.0 and above allows you to limit the potential attack surface on your IIS installation, or to replace built-in features with..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-install
+ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/discover-installed-components
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "FrontPage Server Extensions | Microsoft Docs"
 author: rick-anderson
 description: "FrontPage Server Extensions"
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/01/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/frontpage-server-extensions
 msc.type: chapter
 ---

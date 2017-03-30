@@ -2,13 +2,13 @@
 title: "Install Joomla! on IIS | Microsoft Docs"
 author: ruslany
 description: "Introduction Joomla is an open-source content management system (CMS) that lets you build Web sites and powerful online applications, such as: Corporate Web..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/12/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-joomla-on-iis
 msc.type: authoredcontent
 ---

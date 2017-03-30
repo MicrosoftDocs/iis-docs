@@ -2,13 +2,13 @@
 title: "Create Welcome E-mails | Microsoft Docs"
 author: crystalhoyer
 description: "As customers sign up for your hosting service, you need to provision sites/users for them on your server and then send them their server credentials. One way..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/03/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/create-welcome-e-mails
 msc.type: authoredcontent
 ---

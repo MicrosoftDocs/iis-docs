@@ -2,13 +2,13 @@
 title: "Troubleshooting SMB NetBIOS/FCN limit issues with Remote Content | Microsoft Docs"
 author: rick-anderson
 description: "Tools Used in this Troubleshooter: Network Monitor This material is provided for informational purposes only. Microsoft makes no warranties, express or impli..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-troubleshoot
+ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/performance-issues/troubleshooting-smb-netbios-fcn-limit-issues-with-remote-content
 msc.type: authoredcontent
 ---

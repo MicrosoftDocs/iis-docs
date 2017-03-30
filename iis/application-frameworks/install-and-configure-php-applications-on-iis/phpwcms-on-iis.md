@@ -2,13 +2,13 @@
 title: "PHPWCMS on IIS | Microsoft Docs"
 author: rick-anderson
 description: "PHPWCMS is a web content management system optimized for fast and easy setup and works on any standard web server. PHPWCMS is perfect for professional, publi..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/18/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/phpwcms-on-iis
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Geeklog on IIS | Microsoft Docs"
 author: rick-anderson
 description: "Geeklog is a PHP/MySQL based application for managing dynamic web content. It is a blog engine, or a CMS with support for comments, track backs, multiple syn..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/18/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/geeklog-on-iis
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "PowerShell Snap-in: Advanced Configuration Tasks | Microsoft Docs"
 author: thomasdeml
 description: "In this walkthrough you will learn how to accomplish some advanced configuration tasks using XPath queries and wildcards. Introduction The previous walkthrou..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-advanced-configuration-tasks
 msc.type: authoredcontent
 ---

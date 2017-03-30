@@ -2,13 +2,13 @@
 title: "Using Compression in Application Request Routing | Microsoft Docs"
 author: rick-anderson
 description: "This section of the document applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To understand and configure the content enc..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/23/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/using-compression-in-application-request-routing
 msc.type: authoredcontent
 ---

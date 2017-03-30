@@ -2,13 +2,13 @@
 title: "Overview: Build a PHP Website on IIS | Microsoft Docs"
 author: rmcmurray
 description: "This document contains an overview of the Build a PHP website on IIS scenario. It also contains links to additional information and community resources relat..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/overview-build-a-php-website-on-iis
 msc.type: authoredcontent
 ---

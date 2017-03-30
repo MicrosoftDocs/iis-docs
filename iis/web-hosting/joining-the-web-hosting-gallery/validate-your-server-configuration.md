@@ -2,13 +2,13 @@
 title: "Validate Your Server Configuration | Microsoft Docs"
 author: bilalaslam
 description: "Introduction ServerValidator is an extensible, plugin-based tool which checks if your server is ready to support WebMatrix. Typically, ServerValidator is run..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/02/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/validate-your-server-configuration
 msc.type: authoredcontent
 ---

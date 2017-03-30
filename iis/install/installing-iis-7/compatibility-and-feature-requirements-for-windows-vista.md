@@ -2,13 +2,13 @@
 title: "Compatibility and Feature Requirements for Windows Vista | Microsoft Docs"
 author: tobint
 description: "Internet Information Services 7.0 (IIS 7.0) and above is the Web server platform for the Windows Vista™ operating system. IIS 7.0 and above introduces many c..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-install
+ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/compatibility-and-feature-requirements-for-windows-vista
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Walkthrough - Set Up MySQL 5.1 for PHP applications | Microsoft Docs"
 author: ruslany
 description: "Overview This article provides a basic step by step guide on how to install and configure MySQL on the Windows Operating System. For more detailed instructio..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/walkthrough-set-up-mysql-51-for-php-applications
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "How to Use Custom Properties With WebDAV | Microsoft Docs"
 author: rmcmurray
 description: "Introduction Microsoft released a new WebDAV extension module that was completely rewritten for Internet Information Services 7.0 (IIS 7.0) on Windows Server..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/14/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-webdav/how-to-use-custom-properties-with-webdav
 msc.type: authoredcontent
 ---

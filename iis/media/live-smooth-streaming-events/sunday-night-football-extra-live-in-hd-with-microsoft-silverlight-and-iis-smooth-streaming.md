@@ -2,13 +2,13 @@
 title: "Sunday Night Football Extra: Live in HD with Microsoft Silverlight and IIS Smooth Streaming | Microsoft Docs"
 author: rick-anderson
 description: "Shortly before the 2009 National Football League (NFL) season began, NBC, in partnership with the NFL, announced plans to offer live streaming of Sunday Nigh..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/02/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming-events/sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming
 msc.type: authoredcontent
 ---

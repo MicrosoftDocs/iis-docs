@@ -2,13 +2,13 @@
 title: "Using URL Rewrite Module 2.0 | Microsoft Docs"
 author: ruslany
 description: "This section of the documentation applies to the URL Rewrite 2.0 for IIS 7 . URL Rewrite 2.0 for IIS 7 and above is an incremental release that includes all..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/16/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-url-rewrite-module-20
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Configuring Step 4: Configure Application Security | Microsoft Docs"
 author: rmcmurray
 description: "In this phase of building your ASP.NET website, you configure the security settings that are available in IIS."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-4-configure-application-security
 msc.type: authoredcontent
 ---

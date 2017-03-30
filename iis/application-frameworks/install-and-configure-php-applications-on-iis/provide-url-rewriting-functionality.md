@@ -2,13 +2,13 @@
 title: "Provide URL Rewriting Functionality | Microsoft Docs"
 author: rick-anderson
 description: "The Microsoft ® URL Rewrite Module for Internet Information Services 7 (IIS 7) and above provides flexible rules-based rewrite engine that can be used to per..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/provide-url-rewriting-functionality
 msc.type: authoredcontent
 ---

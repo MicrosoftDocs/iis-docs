@@ -2,13 +2,13 @@
 title: "Deploying a Static Content Server | Microsoft Docs"
 author: rick-anderson
 description: "A static content Web server can be used to host internal or external Web sites. This topic describes the IIS modules that are required to support a static co..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/11/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/getting-started/deploying-a-static-content-server
 msc.type: authoredcontent
 ---

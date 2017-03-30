@@ -2,13 +2,13 @@
 title: "IIS 7 WMI Provider | Microsoft Docs"
 author: walterov
 description: "WMI scripts can be used to provision Web sites and run many commands to edit configuration. Using the Script Use the following to create a site and applicati..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/02/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/iis-7-wmi-provider
 msc.type: authoredcontent
 ---

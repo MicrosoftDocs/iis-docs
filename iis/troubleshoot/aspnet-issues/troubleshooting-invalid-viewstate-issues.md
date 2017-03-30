@@ -2,13 +2,13 @@
 title: "Troubleshooting Invalid viewstate issues | Microsoft Docs"
 author: apurvajo
 description: "NA This material is provided for informational purposes only. Microsoft makes no warranties, express or implied. Overview View state is a feature in ASP.NET..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-troubleshoot
+ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/aspnet-issues/troubleshooting-invalid-viewstate-issues
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Automating server setup | Microsoft Docs"
 author: bilalaslam
 description: "This article explains how to provision an IIS frontend server with full WebMatrix compatibility in an automated manner. It fully automates all steps describe..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/05/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/automating-server-setup
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Plan a Web Farm with IIS Servers | Microsoft Docs"
 author: rmcmurray
 description: "To develop a plan for installing and configuring an IIS web farm, follow these steps: Plan IIS Web Farm Infrastructure, Plan IIS Web Farm Configuration, Plan..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/plan-a-web-farm-with-iis-servers
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Overview of Shared Hosting Deployment Using Application Request Routing 2.0 | Microsoft Docs"
 author: rick-anderson
 description: "Microsoft Application Request Routing (ARR) 2.0 is a proxy-based routing module that forwards HTTP requests to content servers based on HTTP headers and serv..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/02/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/planning-for-arr/overview-of-shared-hosting-deployment-using-application-request-routing-20
 msc.type: authoredcontent
 ---

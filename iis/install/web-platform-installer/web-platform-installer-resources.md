@@ -2,13 +2,13 @@
 title: "Web Platform Installer Resources | Microsoft Docs"
 author: chrissfanos
 description: "Welcome to Web Platform Installer Resources! This article provides a list of resources to help you find answers and help when using the Web Platform Installe..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-install
+ms.prod: iis
 msc.legacyurl: /learn/install/web-platform-installer/web-platform-installer-resources
 msc.type: authoredcontent
 ---

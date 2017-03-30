@@ -2,13 +2,13 @@
 title: "How to Use HTTP Detailed Errors in IIS 7.0 | Microsoft Docs"
 author: rick-anderson
 description: "Every Web-Site Administrator or Web Developer has seen '404 - File not found' , '401 - Unauthorized' or '500 - Server Error' messages in his browser. This ar..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/12/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-troubleshoot
+ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/diagnosing-http-errors/how-to-use-http-detailed-errors-in-iis
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "URL Rewriting for ASP.NET Web Forms | Microsoft Docs"
 author: ruslany
 description: "When you use the IIS URL Rewrite module with ASP.NET applications, it is important to ensure the correct behavior of your Web application with rewritten URLs..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/10/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/url-rewriting-for-aspnet-web-forms
 msc.type: authoredcontent
 ---

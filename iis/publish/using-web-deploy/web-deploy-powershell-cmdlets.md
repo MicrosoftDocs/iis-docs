@@ -2,13 +2,13 @@
 title: "Web Deploy PowerShell Cmdlets | Microsoft Docs"
 author: rick-anderson
 description: "Web Deploy V3.0 ships with PowerShell cmdlets for carrying out most of the tasks supported by the Web Deploy API [Microsoft.Web.Deployment]. You can read mor..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/19/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/web-deploy-powershell-cmdlets
 msc.type: authoredcontent
 ---

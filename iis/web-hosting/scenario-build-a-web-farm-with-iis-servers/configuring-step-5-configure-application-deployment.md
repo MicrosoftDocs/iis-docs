@@ -2,13 +2,13 @@
 title: "Configuring Step 5: Configure Application Deployment | Microsoft Docs"
 author: rmcmurray
 description: "n this step of building a web farm, you install and configure FTP for deploying website updates and new websites. You also install and configure Web Deploy f..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-5-configure-application-deployment
 msc.type: authoredcontent
 ---

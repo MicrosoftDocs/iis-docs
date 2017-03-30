@@ -2,13 +2,13 @@
 title: "Troubleshooting Web Deploy problems with Visual Studio | Microsoft Docs"
 author: apurvajo
 description: "NA This material is provided for informational purposes only. Microsoft makes no warranties, express or implied. Overview The steps below walk through the se..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/troubleshooting-web-deploy/troubleshooting-web-deploy-problems-with-visual-studio
 msc.type: authoredcontent
 ---

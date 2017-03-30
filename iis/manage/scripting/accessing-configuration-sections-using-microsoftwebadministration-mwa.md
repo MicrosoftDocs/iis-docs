@@ -2,13 +2,13 @@
 title: "Accessing Configuration Sections Using Microsoft.Web.Administration (MWA) | Microsoft Docs"
 author: rick-anderson
 description: "Abstract This article shows how configuration sections in the IIS configuration files (applicationHost.config and web.config) can be accessed programmaticall..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/scripting/accessing-configuration-sections-using-microsoftwebadministration-mwa
 msc.type: authoredcontent
 ---

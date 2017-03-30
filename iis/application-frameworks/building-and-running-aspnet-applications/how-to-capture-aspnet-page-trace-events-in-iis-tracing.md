@@ -2,13 +2,13 @@
 title: "How to Capture ASP.NET Page Trace Events in IIS 7.0 Tracing | Microsoft Docs"
 author: rick-anderson
 description: "In ASP.Net today, developers can add trace events to ASPX pages using Trace.Write() & Trace.Warn() calls in the script sections of their page. Typically, you..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/05/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/how-to-capture-aspnet-page-trace-events-in-iis-tracing
 msc.type: authoredcontent
 ---

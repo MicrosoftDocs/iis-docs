@@ -2,13 +2,13 @@
 title: "Configuring Step 2: Configure IIS Web Farm Servers | Microsoft Docs"
 author: rmcmurray
 description: "In the second phase of building your web farm, you configure shared content and shared configuration on your first web server. Then you add more web servers..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-2-configure-iis-web-farm-servers
 msc.type: authoredcontent
 ---

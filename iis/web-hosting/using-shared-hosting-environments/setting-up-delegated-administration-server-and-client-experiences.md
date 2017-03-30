@@ -2,13 +2,13 @@
 title: "Setting up Delegated Administration, Server and Client Experiences | Microsoft Docs"
 author: JoeStagner
 description: "The Microsoft Web Platform provides the functionality needed by hosters and their customers to administer web applications in Shared Hosting environments. Th..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/13/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/using-shared-hosting-environments/setting-up-delegated-administration-server-and-client-experiences
 msc.type: video
 ---

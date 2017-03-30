@@ -2,13 +2,13 @@
 title: "Planning Step 1: Plan IIS Web Farm Infrastructure | Microsoft Docs"
 author: rmcmurray
 description: "The first step in planning your web farm is to decide its infrastructure. What server configuration do you want? What technologies do you employ? How do you..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-1-plan-iis-web-farm-infrastructure
 msc.type: authoredcontent
 ---

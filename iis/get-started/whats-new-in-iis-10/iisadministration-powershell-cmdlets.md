@@ -2,13 +2,13 @@
 title: "IISAdministration PowerShell Cmdlets | Microsoft Docs"
 author: rick-anderson
 description: ""
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/16/2016
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets
 msc.type: authoredcontent
 ---

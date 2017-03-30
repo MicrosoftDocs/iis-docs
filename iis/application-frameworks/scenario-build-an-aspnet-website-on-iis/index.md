@@ -2,13 +2,13 @@
 title: "Scenario: Build an ASP.NET Website on IIS | Microsoft Docs"
 author: rick-anderson
 description: "This scenario shows how to plan and configure an ASP.NET website on an IIS 8 webserver. It is divided into two phases: a plan and design phase, and an instal..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis
 msc.type: chapter
 ---

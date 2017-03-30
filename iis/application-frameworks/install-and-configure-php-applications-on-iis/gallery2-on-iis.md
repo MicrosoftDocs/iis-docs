@@ -2,13 +2,13 @@
 title: "Gallery2 on IIS | Microsoft Docs"
 author: rick-anderson
 description: "Gallery is a web application that lets you manage your photos on your own website. With Gallery, you can easily create and maintain photo albums via an intui..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/18/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/gallery2-on-iis
 msc.type: authoredcontent
 ---

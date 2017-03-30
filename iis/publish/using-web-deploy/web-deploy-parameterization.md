@@ -2,13 +2,13 @@
 title: "Web Deploy Parameterization | Microsoft Docs"
 author: rick-anderson
 description: "Introduction to Parameterization Web application development most often involves deploying code in different environments: development, staging, or productio..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/20/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/web-deploy-parameterization
 msc.type: authoredcontent
 ---

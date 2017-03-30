@@ -2,13 +2,13 @@
 title: "Using IIS with Windows Server Core | Microsoft Docs"
 author: rick-anderson
 description: "Discover how IIS and the Server Core installation option in Windows Server® 2008 can help reduce management and setup time. IIS on Server Core combines a pow..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/30/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/working-with-server-core/using-iis-with-windows-server-core
 msc.type: video
 ---

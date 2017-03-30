@@ -2,13 +2,13 @@
 title: "Enable FastCGI Support in IIS 7 on Windows Server 2008, Windows Server 2008 R2, Windows Vista, or Windows 7 | Microsoft Docs"
 author: rick-anderson
 description: "Introduction Internet Information Services 7 (IIS 7) and above comes with extended support for application frameworks through FastCGI, an open protocol suppo..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7
 msc.type: authoredcontent
 ---

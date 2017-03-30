@@ -2,13 +2,13 @@
 title: "How to Use Metabase Compatibility with IIS 7 and Above | Microsoft Docs"
 author: tobint
 description: "IIS 7 and and IIS 8 allow legacy configuration scripts and applications to continue running. There is an optional setup component that enables the Metabase s..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/how-to-use-metabase-compatibility-with-iis-7-and-above
 msc.type: authoredcontent
 ---

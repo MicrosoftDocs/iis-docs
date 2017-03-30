@@ -2,13 +2,13 @@
 title: "Secure Content in IIS Through File System ACLs | Microsoft Docs"
 author: naziml
 description: "The access control list (ACL) is a list of permissions associated with an object. Each of these permission entries is called an access control entry (ACE); a..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/17/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-for-security/secure-content-in-iis-through-file-system-acls
 msc.type: authoredcontent
 ---

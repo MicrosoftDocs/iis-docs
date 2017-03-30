@@ -2,13 +2,13 @@
 title: "32-bit Mode Worker Processes | Microsoft Docs"
 author: walterov
 description: "One of the performance benefits of the x64 platform is that it increases virtual address space, making more memory available. We recommend that you configure..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/01/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/32-bit-mode-worker-processes
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Understanding IIS 7.0 Configuration Delegation | Microsoft Docs"
 author: rick-anderson
 description: "IIS introduces a brand-new file-based configuration system for its seventh product release. This new system emphasizes a data-driven system suited for an ent..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/understanding-iis-configuration-delegation
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Secure Your SQL Server Database | Microsoft Docs"
 author: rick-anderson
 description: "If you use Microsoft ® SQL Server ® as your database, you must create and implement an effective security plan. There is a wealth of information about how to..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/secure-your-sql-server-database
 msc.type: authoredcontent
 ---

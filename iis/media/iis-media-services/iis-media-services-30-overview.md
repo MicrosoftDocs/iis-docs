@@ -2,13 +2,13 @@
 title: "IIS Media Services 3.0 Overview | Microsoft Docs"
 author: rick-anderson
 description: "The IIS Media Services 3.0 Overview describes the current set of IIS media extensions, the scenarios they address, and the business value you can achieve wit..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/07/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/iis-media-services/iis-media-services-30-overview
 msc.type: authoredcontent
 ---

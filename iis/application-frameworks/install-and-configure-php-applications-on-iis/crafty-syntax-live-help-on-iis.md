@@ -2,13 +2,13 @@
 title: "Crafty Syntax Live Help on IIS | Microsoft Docs"
 author: rick-anderson
 description: "Crafty Syntax Live Help is an open source, live support solution that helps customer support with live help functionality. It can pro-actively push visitors..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/18/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/crafty-syntax-live-help-on-iis
 msc.type: authoredcontent
 ---

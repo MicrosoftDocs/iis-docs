@@ -2,13 +2,13 @@
 title: "Planning Step 5: Plan Application Deployment | Microsoft Docs"
 author: rmcmurray
 description: "When your web farm is up and working, you will want to update your website or add new websites to your server. File Transfer Protocol (FTP) has existed since..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-5-plan-application-deployment
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Troubleshooting HTTP 400 Errors in IIS | Microsoft Docs"
 author: rick-anderson
 description: "This article describes the troubleshooting steps to identify the cause of various HTTP 400 errors when using IIS."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/27/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-troubleshoot
+ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/diagnosing-http-errors/troubleshooting-http-400-errors-in-iis
 msc.type: authoredcontent
 ---

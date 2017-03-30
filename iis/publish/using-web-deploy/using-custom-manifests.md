@@ -2,13 +2,13 @@
 title: "Using Custom Manifests | Microsoft Docs"
 author: rick-anderson
 description: "This quick guide will help you create a custom manifest and synchronize it. We will synchronize a Web site and include the application pool, an external dire..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/23/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/using-custom-manifests
 msc.type: authoredcontent
 ---

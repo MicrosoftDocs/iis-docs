@@ -2,13 +2,13 @@
 title: "Dynamic Data Center Toolkit for Hosting | Microsoft Docs"
 author: rick-anderson
 description: "Dynamic Data Center Toolkit for Hosting Microsoft is makes it possible for hosting providers to offer dedicated host services with the Dynamic Data Center To..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/09/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/dynamic-data-center-toolkit-for-hosting
 msc.type: authoredcontent
 ---

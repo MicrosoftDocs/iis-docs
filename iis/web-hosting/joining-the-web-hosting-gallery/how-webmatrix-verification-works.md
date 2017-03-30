@@ -2,13 +2,13 @@
 title: "How WebMatrix Verification Works | Microsoft Docs"
 author: simtan
 description: "After you install the required server components and have validated your server configuration , you supply a sample account to the Microsoft Web Hosting Gall..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/12/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/how-webmatrix-verification-works
 msc.type: authoredcontent
 ---

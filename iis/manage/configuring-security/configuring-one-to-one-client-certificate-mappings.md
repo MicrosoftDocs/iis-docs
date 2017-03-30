@@ -2,13 +2,13 @@
 title: "Configuring One-to-One Client Certificate Mappings | Microsoft Docs"
 author: rlucero
 description: "IIS 6 had a User Interface to configure and map one to one certificates for authentication. It allowed users to select the validation client certificate and..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 06/05/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/configuring-one-to-one-client-certificate-mappings
 msc.type: authoredcontent
 ---

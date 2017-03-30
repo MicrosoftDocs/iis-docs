@@ -2,13 +2,13 @@
 title: "Enable PHP Applications to Make Application-Level Access Control Decisions | Microsoft Docs"
 author: rick-anderson
 description: "You can expose key access control information to a PHP application to facilitate application-level access control, if desired. The Microsoft ® .NET extensibi..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/enable-php-applications-to-make-application-level-access-control-decisions
 msc.type: authoredcontent
 ---

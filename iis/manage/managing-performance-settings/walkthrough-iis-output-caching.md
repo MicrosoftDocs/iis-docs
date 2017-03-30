@@ -2,13 +2,13 @@
 title: "Walkthrough: IIS 7.0 Output Caching | Microsoft Docs"
 author: rick-anderson
 description: "Web content can be divided into two categories: static content and dynamic content. Static content does not change from request to request. The content that..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/managing-performance-settings/walkthrough-iis-output-caching
 msc.type: authoredcontent
 ---

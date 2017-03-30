@@ -2,13 +2,13 @@
 title: "Handling URL Binding Failures in IIS Express | Microsoft Docs"
 author: vaidy4github
 description: "Overview IIS Express was designed to allow the most common web development and testing tasks to be performed without administrative privileges. For example,..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/12/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/using-iis-express/handling-url-binding-failures-in-iis-express
 msc.type: authoredcontent
 ---

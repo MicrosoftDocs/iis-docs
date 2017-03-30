@@ -2,13 +2,13 @@
 title: "Reverse Proxy - Rule Template | Microsoft Docs"
 author: ruslany
 description: "Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL Rewrite Module 2 includes several rule temp..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/11/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/reverse-proxy-rule-template
 msc.type: authoredcontent
 ---

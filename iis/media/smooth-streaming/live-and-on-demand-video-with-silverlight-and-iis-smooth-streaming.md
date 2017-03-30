@@ -2,13 +2,13 @@
 title: "Live and On-Demand Video with Silverlight and IIS Smooth Streaming | Microsoft Docs"
 author: Microsoft
 description: "The Live and On-Demand Video with Silverlight and IIS Smooth Streaming white paper provides a high-level overview of the challenges of traditional video deli..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/07/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/live-and-on-demand-video-with-silverlight-and-iis-smooth-streaming
 msc.type: authoredcontent
 ---

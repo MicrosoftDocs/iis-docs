@@ -2,13 +2,13 @@
 title: "Creating a Forward Proxy Using Application Request Routing | Microsoft Docs"
 author: rick-anderson
 description: "Shows how to use the Application Request Routing (ARR) and URL Rewrite features of Internet Information Services (IIS) to implement a forward proxy server."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 06/11/2014
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/creating-a-forward-proxy-using-application-request-routing
 msc.type: authoredcontent
 ---

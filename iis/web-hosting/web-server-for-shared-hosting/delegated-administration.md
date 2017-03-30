@@ -2,13 +2,13 @@
 title: "Delegated Administration | Microsoft Docs"
 author: walterov
 description: "The IIS 7 and above administrative user interface, called the IIS Manager, offers a more efficient tool for managing the Web server. It provides support for..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/01/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/delegated-administration
 msc.type: authoredcontent
 ---

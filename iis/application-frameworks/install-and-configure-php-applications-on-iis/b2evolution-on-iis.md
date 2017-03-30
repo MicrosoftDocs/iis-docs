@@ -2,13 +2,13 @@
 title: "b2Evolution on IIS | Microsoft Docs"
 author: rick-anderson
 description: "A popular open source blogging solution, b2Evolution, includes all the features of traditional blog tools, and extends them with evolved features such as fil..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/18/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/b2evolution-on-iis
 msc.type: authoredcontent
 ---

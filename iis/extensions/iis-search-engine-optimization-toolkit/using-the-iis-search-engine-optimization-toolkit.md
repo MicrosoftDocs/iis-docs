@@ -2,13 +2,13 @@
 title: "Using the IIS Search Engine Optimization Toolkit | Microsoft Docs"
 author: ruslany
 description: "The IIS Search Engine Optimization (SEO) Toolkit provides a set of tools that can be used to improve a Web site’s relevance in search results by making the s..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 06/03/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/iis-search-engine-optimization-toolkit/using-the-iis-search-engine-optimization-toolkit
 msc.type: authoredcontent
 ---

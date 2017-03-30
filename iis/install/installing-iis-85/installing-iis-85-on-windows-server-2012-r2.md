@@ -2,13 +2,13 @@
 title: "Installing IIS 8.5 on Windows Server 2012 R2 | Microsoft Docs"
 author: rick-anderson
 description: "This content describes how to install Internet Information Services (IIS) 8.5 on Windows Server 2012 R2 using Server Manager, DISM, or PowerShell."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/09/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-install
+ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2
 msc.type: authoredcontent
 ---

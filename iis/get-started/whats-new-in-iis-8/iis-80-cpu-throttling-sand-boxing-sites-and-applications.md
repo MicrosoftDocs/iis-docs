@@ -2,13 +2,13 @@
 title: "IIS 8.0 CPU Throttling: Sand-boxing Sites and Applications | Microsoft Docs"
 author: shauneagan
 description: "Version Notes IIS 8.0 CPU throttling was updated in IIS 8.0 to include additional throttling options. IIS 7.5 CPU throttling was not modified in IIS 7.5. IIS..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/29/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-cpu-throttling-sand-boxing-sites-and-applications
 msc.type: authoredcontent
 ---

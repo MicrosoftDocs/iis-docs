@@ -2,13 +2,13 @@
 title: "Build a Static Website on IIS | Microsoft Docs"
 author: rmcmurray
 description: "This document guides you through the process of installing an IIS web server and configuring it to serve static content. Static content is a web page (HTML)..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/creating-websites/scenario-build-a-static-website-on-iis
 msc.type: authoredcontent
 ---

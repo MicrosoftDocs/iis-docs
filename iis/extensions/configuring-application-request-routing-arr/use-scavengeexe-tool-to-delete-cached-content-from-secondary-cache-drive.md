@@ -2,13 +2,13 @@
 title: "Use Scavenge.exe tool to delete cached content from secondary cache drive | Microsoft Docs"
 author: rick-anderson
 description: "This section of the document applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To understand scavenge.exe tool in Applicat..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/06/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/use-scavengeexe-tool-to-delete-cached-content-from-secondary-cache-drive
 msc.type: authoredcontent
 ---

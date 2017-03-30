@@ -2,13 +2,13 @@
 title: "Enabling LINQ with ASP.NET | Microsoft Docs"
 author: walterov
 description: "ASP.NET is a unified Web development model that includes the services necessary to build Web applications with a minimum of coding. ASP.NET is part of the .N..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/02/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-components/deploying-linq-with-net-35
 msc.type: authoredcontent
 ---

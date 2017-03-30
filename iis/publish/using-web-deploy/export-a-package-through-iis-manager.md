@@ -2,13 +2,13 @@
 title: "Export a Package through IIS Manager | Microsoft Docs"
 author: rick-anderson
 description: "This quick guide will help you create a package of your Web application using the IIS Manager, including a SQL database. Prerequisites This guide requires th..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 10/29/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/export-a-package-through-iis-manager
 msc.type: authoredcontent
 ---

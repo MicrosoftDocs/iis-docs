@@ -2,13 +2,13 @@
 title: "Consuming the Services | Microsoft Docs"
 author: walterov
 description: "Since Hosting Services Code Sample is implemented using Windows Communication Foundation, consuming it is fairly straightforward. Here, a few key points are..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/06/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/consuming-the-services
 msc.type: authoredcontent
 ---

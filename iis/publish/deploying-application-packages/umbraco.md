@@ -2,13 +2,13 @@
 title: "Umbraco | Microsoft Docs"
 author: simtan
 description: "Umbraco is an open source content management system (CMS) built on the Microsoft ASP.NET Framework. For more information about Umbraco, refer to the Umbraco..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/10/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/umbraco
 msc.type: authoredcontent
 ---

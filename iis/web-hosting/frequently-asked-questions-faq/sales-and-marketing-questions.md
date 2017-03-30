@@ -2,13 +2,13 @@
 title: "Sales and Marketing Questions | Microsoft Docs"
 author: walterov
 description: "Modular pipeline. Tight integration with ASP.NET. Better shared hosting performance. Better administration tools. Simpler diagnostics. Inexpensive, streamlin..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/sales-and-marketing-questions
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Troubleshooting SSL related issues (Server Certificate) | Microsoft Docs"
 author: kaushalp
 description: "Tools Used in this Troubleshooter: SSLDiag Network Monitor 3.4/Wireshark This material is provided for informational purposes only. Microsoft makes no warran..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-troubleshoot
+ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/security-issues/troubleshooting-ssl-related-issues-server-certificate
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Tools and Utilities Questions | Microsoft Docs"
 author: walterov
 description: "The recommendation for IIS 7.0 is to NOT use shared application pools. Is there a tool that validates configuration files before loading in IIS 7.0? No, the..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/tools-and-utilities-questions
 msc.type: authoredcontent
 ---

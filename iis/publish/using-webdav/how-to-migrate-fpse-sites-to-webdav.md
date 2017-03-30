@@ -2,13 +2,13 @@
 title: "How to Migrate FPSE Sites to WebDAV | Microsoft Docs"
 author: rmcmurray
 description: "Introduction Microsoft has created a new WebDAV extension module that has been completely rewritten for Internet Information Services 7.0 (IIS 7.0) on Window..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/18/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-webdav/how-to-migrate-fpse-sites-to-webdav
 msc.type: authoredcontent
 ---

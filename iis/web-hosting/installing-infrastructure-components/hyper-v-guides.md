@@ -2,13 +2,13 @@
 title: "Hyper-V Guides | Microsoft Docs"
 author: walterov
 description: "This article provides you with a set of guides, including tools, videos, and presentations to help you: Learn about Microsoft virtualization technologies. Ma..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/19/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/hyper-v-guides
 msc.type: authoredcontent
 ---

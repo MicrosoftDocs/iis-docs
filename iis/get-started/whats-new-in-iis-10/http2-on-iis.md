@@ -2,13 +2,13 @@
 title: "HTTP/2 on IIS | Microsoft Docs"
 author: davidso
 description: ""
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/16/2016
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/http2-on-iis
 msc.type: authoredcontent
 ---

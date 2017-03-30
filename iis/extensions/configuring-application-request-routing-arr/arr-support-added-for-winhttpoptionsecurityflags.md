@@ -2,13 +2,13 @@
 title: "ARR: Support Added for WINHTTP_OPTION_SECURITY_FLAGS | Microsoft Docs"
 author: rick-anderson
 description: "The ARR update KB 2693489 adds support for WINHTTP_OPTION_SECURITY_FLAGS . Default Behavior: This is the same prior to the updated where ARR will ignore Comm..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/13/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/arr-support-added-for-winhttpoptionsecurityflags
 msc.type: authoredcontent
 ---

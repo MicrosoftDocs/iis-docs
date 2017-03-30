@@ -2,13 +2,13 @@
 title: "Encrypting On-Demand Smooth Streams | Microsoft Docs"
 author: rick-anderson
 description: "In IIS Transform Manager 1.0, you can configure a built-in Smooth Streams to encrypted Smooth Streams job template to add Microsoft PlayReady protection to p..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/25/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/encrypting-on-demand-smooth-streams
 msc.type: authoredcontent
 ---

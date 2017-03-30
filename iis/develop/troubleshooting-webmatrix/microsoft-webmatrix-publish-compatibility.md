@@ -2,13 +2,13 @@
 title: "Microsoft WebMatrix: Publish Compatibility | Microsoft Docs"
 author: bilalaslam
 description: "Microsoft WebMatrix includes a feature called Publish Compatibility, which can help determine if your site is compatible with a web hosting provider. To chec..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/11/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/microsoft-webmatrix-publish-compatibility
 msc.type: authoredcontent
 ---

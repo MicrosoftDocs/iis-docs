@@ -2,13 +2,13 @@
 title: "New Features Introduced in IIS 10.0 | Microsoft Docs"
 author: shirhatti
 description: "This article discusses several of the new features which were introduced in Internet Information Services (IIS) which shipped with Windows 10 and Windows Ser..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/22/2016
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/new-features-introduced-in-iis-100
 msc.type: authoredcontent
 ---

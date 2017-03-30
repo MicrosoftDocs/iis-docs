@@ -2,13 +2,13 @@
 title: "Install Typical IIS Workloads | Microsoft Docs"
 author: rick-anderson
 description: "The IIS 7.0 and above modular architecture is designed to enable the IT professional to customize exactly which features are installed and running on the Web..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-install
+ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/install-typical-iis-workloads
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Bit Rate Throttling Configuration Walkthrough | Microsoft Docs"
 author: rick-anderson
 description: "The Bit Rate Throttling extension for Internet Information Services (IIS) provides the ability to throttle progressive downloads of media files (in which aud..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/bit-rate-throttling/bit-rate-throttling-configuration-walkthrough
 msc.type: authoredcontent
 ---

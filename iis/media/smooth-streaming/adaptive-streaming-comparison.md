@@ -2,13 +2,13 @@
 title: "Adaptive Streaming Comparison | Microsoft Docs"
 author: rick-anderson
 description: "IIS Smooth Streaming provides users with a truly compelling way to watch the best-possible-quality streaming video. First proven in production at the Summer..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/28/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/adaptive-streaming-comparison
 msc.type: authoredcontent
 ---

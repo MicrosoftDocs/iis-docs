@@ -2,13 +2,13 @@
 title: "Overview: Build a Web Farm with IIS Servers | Microsoft Docs"
 author: rmcmurray
 description: "This document contains an overview of the Build a web farm with IIS servers scenario. It also contains links to additional information and community resource..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/overview-build-a-web-farm-with-iis-servers
 msc.type: authoredcontent
 ---

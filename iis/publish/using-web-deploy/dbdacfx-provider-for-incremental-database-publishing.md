@@ -2,13 +2,13 @@
 title: "dbDacFx Provider for Incremental Database publishing | Microsoft Docs"
 author: ahmelsayed
 description: "Introduction In V3 we are adding a new database sync provider that is called dbDacFx. As the name suggests, this provider is making use of the new Data-Tier..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/26/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/dbdacfx-provider-for-incremental-database-publishing
 msc.type: authoredcontent
 ---

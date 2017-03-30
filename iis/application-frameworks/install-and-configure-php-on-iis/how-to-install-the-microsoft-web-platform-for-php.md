@@ -2,13 +2,13 @@
 title: "How to Install the Microsoft Web Platform for PHP | Microsoft Docs"
 author: rick-anderson
 description: "Introduction Microsoft embraces hosting PHP applications on the Windows ® operating system, both by building enabling technologies and by working with the PH..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/how-to-install-the-microsoft-web-platform-for-php
 msc.type: authoredcontent
 ---

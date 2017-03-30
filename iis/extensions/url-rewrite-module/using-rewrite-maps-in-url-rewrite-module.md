@@ -2,13 +2,13 @@
 title: "Using Rewrite Maps in URL Rewrite Module | Microsoft Docs"
 author: ruslany
 description: "This walkthrough will introduce you to the concept of rewrite maps in URL rewrite module and will guide you how to create rewrite rules that use rewrite maps..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/30/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-rewrite-maps-in-url-rewrite-module
 msc.type: authoredcontent
 ---

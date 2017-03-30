@@ -2,13 +2,13 @@
 title: "Planning the Deployment | Microsoft Docs"
 author: walterov
 description: "The primary focus in this phase is on selecting the appropriate deployment scenarios and methods, ensuring that the required infrastructure exists, determini..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/30/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/planning-the-deployment
 msc.type: authoredcontent
 ---

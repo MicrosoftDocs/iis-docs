@@ -2,13 +2,13 @@
 title: "Planning Step 2: Plan IIS Web Farm Configuration | Microsoft Docs"
 author: rmcmurray
 description: "In the second phase of planning a web farm, determine what is needed to configure shared content and shared configuration. In addition, learn how to add web..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-2-plan-iis-web-farm-configuration
 msc.type: authoredcontent
 ---

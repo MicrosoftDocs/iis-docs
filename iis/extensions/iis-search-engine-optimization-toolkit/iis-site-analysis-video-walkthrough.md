@@ -2,13 +2,13 @@
 title: "IIS Site Analysis - Video Walkthrough | Microsoft Docs"
 author: rick-anderson
 description: "IIS Site Analysis - Video Walkthrough"
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 06/04/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/iis-search-engine-optimization-toolkit/iis-site-analysis-video-walkthrough
 msc.type: video
 ---

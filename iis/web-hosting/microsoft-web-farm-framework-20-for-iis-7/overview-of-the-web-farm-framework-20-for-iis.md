@@ -2,13 +2,13 @@
 title: "Overview of the Web Farm Framework 2.0 for IIS 7 | Microsoft Docs"
 author: rick-anderson
 description: "In the past, setting up web farm servers, deploying content to them, and then managing them has been a tedious and error-prone process. It has required many..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/21/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/overview-of-the-web-farm-framework-20-for-iis
 msc.type: authoredcontent
 ---

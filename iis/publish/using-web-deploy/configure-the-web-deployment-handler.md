@@ -2,13 +2,13 @@
 title: "Configure the Web Deployment Handler | Microsoft Docs"
 author: rick-anderson
 description: "This guide provides a basic overview of the steps to configure the Web Deployment handler on your hosted server and test that a user can deploy applications..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 10/29/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/configure-the-web-deployment-handler
 msc.type: authoredcontent
 ---

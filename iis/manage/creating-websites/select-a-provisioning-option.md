@@ -2,13 +2,13 @@
 title: "Select a Provisioning Option | Microsoft Docs"
 author: rick-anderson
 description: "Both the IT administrator and the software developer need to consider the provisioning of Web sites in a hosting environment. The provisioning of Web sites i..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/creating-websites/select-a-provisioning-option
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Configure and Enable Disk Cache in Application Request Routing | Microsoft Docs"
 author: rick-anderson
 description: "This section of the documentation applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above . Goal To successfully configure and enable..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/configure-and-enable-disk-cache-in-application-request-routing
 msc.type: authoredcontent
 ---

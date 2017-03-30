@@ -2,13 +2,13 @@
 title: "Sustainable Computing | Microsoft Docs"
 author: walterov
 description: "This article provides a map to the various sources of information on Sustainable Computing relevant to Web Hosting Organizations. From Best Practices employe..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/17/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/planning-the-web-hosting-architecture/sustainable-computing
 msc.type: authoredcontent
 ---

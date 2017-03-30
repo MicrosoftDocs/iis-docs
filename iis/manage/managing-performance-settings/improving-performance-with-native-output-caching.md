@@ -2,13 +2,13 @@
 title: "Improving Performance with Native Output Caching | Microsoft Docs"
 author: rick-anderson
 description: "Dramatically reduce Web application response time by leveraging native HttpCacheModule in IIS that stores all application outputs in Kernel mode cache. This..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/24/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/managing-performance-settings/improving-performance-with-native-output-caching
 msc.type: video
 ---

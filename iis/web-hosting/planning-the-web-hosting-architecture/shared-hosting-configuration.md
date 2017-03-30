@@ -2,13 +2,13 @@
 title: "Shared Hosting Configuration | Microsoft Docs"
 author: walterov
 description: "Hosting multiple Web sites or databases on a single computer is challenging. Hosters may struggle with quality of service, site density, security, and perfor..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/21/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/planning-the-web-hosting-architecture/shared-hosting-configuration
 msc.type: authoredcontent
 ---

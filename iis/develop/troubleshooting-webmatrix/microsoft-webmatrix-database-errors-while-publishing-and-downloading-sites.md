@@ -2,13 +2,13 @@
 title: "Microsoft WebMatrix: Database errors while publishing and downloading sites | Microsoft Docs"
 author: bilalaslam
 description: "Microsoft WebMatrix includes the ability to transfer your site's database to and from a remote server. This article contains tips for when you encouter error..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/09/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/microsoft-webmatrix-database-errors-while-publishing-and-downloading-sites
 msc.type: authoredcontent
 ---

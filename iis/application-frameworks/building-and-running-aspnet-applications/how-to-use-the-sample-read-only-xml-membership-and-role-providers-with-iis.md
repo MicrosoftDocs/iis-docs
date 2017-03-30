@@ -2,13 +2,13 @@
 title: "How to use the Sample Read-Only XML Membership and Role Providers with IIS 7.0 | Microsoft Docs"
 author: rmcmurray
 description: "When ASP.NET 2.0 was released, the Microsoft Developer Network (MSDN) Web site provided two sample providers for ASP.NET Membership and Roles. These provider..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/03/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis
 msc.type: authoredcontent
 ---

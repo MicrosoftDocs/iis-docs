@@ -2,13 +2,13 @@
 title: "MIX08: Partying with PHP on Microsoft Internet Information Services 7 | Microsoft Docs"
 author: drewby
 description: "This video is from the MIX08 conference. http://visitmix.com Discover the advantages of running PHP applications on Microsoft Internet Information Services...."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/09/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/mix08-partying-with-php-on-microsoft-internet-information-services-7-and-above
 msc.type: video
 ---

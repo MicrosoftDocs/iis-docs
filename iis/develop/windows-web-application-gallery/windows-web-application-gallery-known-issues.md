@@ -2,13 +2,13 @@
 title: "Windows Web Application Gallery: Known Issues | Microsoft Docs"
 author: rick-anderson
 description: "Introduction With just a few mouse clicks the Windows Web Application Gallery lets you select, download and install popular web applications like blogs, cont..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/windows-web-application-gallery-known-issues
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Importing Apache mod_rewrite Rules | Microsoft Docs"
 author: ruslany
 description: "The URL Rewrite Module in IIS 7 and above provides an import feature that greatly simplifies the process of converting Apache mod_rewrite rules to IIS URL re..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/30/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules
 msc.type: authoredcontent
 ---

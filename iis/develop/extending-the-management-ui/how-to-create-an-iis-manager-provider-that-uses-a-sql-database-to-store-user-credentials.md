@@ -2,13 +2,13 @@
 title: "How to Create an IIS Manager Provider that uses a SQL Database to Store User Credentials | Microsoft Docs"
 author: rmcmurray
 description: "Microsoft's Internet Information Services (IIS) was built with extensibility in mind for a variety of management tasks. This extensibility allows developers..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/18/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/extending-the-management-ui/how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials
 msc.type: authoredcontent
 ---

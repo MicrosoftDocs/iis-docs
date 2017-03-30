@@ -2,13 +2,13 @@
 title: "Adding Windows Media Services 2008 on an IIS 7.0 Server | Microsoft Docs"
 author: rick-anderson
 description: "To learn the general steps required to add Windows Media Services ® 2008 to an existing Windows Server ® 2008 server, click here to see the article on Micros..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/11/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/windows-media-services/adding-windows-media-services-2008-on-an-iis-server
 msc.type: authoredcontent
 ---

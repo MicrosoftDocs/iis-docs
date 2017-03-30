@@ -2,13 +2,13 @@
 title: "Smooth Streaming Deployment Guide | Microsoft Docs"
 author: rick-anderson
 description: "Last Updated: August 16, 2010 Smooth Streaming is the Microsoft implementation of adaptive streaming technology, which is a form of Web-based media content d..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 10/08/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/smooth-streaming-deployment-guide
 msc.type: authoredcontent
 ---

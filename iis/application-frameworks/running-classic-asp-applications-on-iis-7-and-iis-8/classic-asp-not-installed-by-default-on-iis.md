@@ -2,13 +2,13 @@
 title: "Classic ASP Not Installed by Default on IIS 7.0 and above | Microsoft Docs"
 author: rmcmurray
 description: "In IIS the classic version of ASP is not installed by default. Because of this, you might see HTTP 404 errors when you try to browse to an ASP page on your s..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/19/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-not-installed-by-default-on-iis
 msc.type: authoredcontent
 ---

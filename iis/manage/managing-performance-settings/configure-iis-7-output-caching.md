@@ -2,13 +2,13 @@
 title: "Configure IIS 7 Output Caching | Microsoft Docs"
 author: rick-anderson
 description: "Internet Information Services (IIS) includes an output cache feature that can cache dynamic PHP content (or output from your Microsoft ® ASP.NET or classic A..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/managing-performance-settings/configure-iis-7-output-caching
 msc.type: authoredcontent
 ---

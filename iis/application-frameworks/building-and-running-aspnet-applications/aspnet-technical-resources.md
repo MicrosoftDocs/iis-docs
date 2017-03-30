@@ -2,13 +2,13 @@
 title: "ASP.NET Technical Resources | Microsoft Docs"
 author: rick-anderson
 description: "ASP.NET is a free powerful framework for building dynamic Web applications, whether it’s a small, personal Web site or a large, enterprise class Web applicat..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/aspnet-technical-resources
 msc.type: authoredcontent
 ---

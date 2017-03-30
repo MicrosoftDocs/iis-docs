@@ -2,13 +2,13 @@
 title: "Parameterization improvements in Web Deploy V3 | Microsoft Docs"
 author: rick-anderson
 description: "Earlier versions of Web Deploy only supported replacing attribute values which already existed as part of the package. In Web Deploy V3 we have added support..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/26/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/parameterization-improvements-in-web-deploy-v3
 msc.type: authoredcontent
 ---

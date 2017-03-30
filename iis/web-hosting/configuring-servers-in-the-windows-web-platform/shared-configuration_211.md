@@ -2,13 +2,13 @@
 title: "Shared Configuration | Microsoft Docs"
 author: walterov
 description: "In IIS 6.0, synchronizing and replicating configuration between servers was difficult because no built-in functionality existed. Although the server administ..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/02/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/shared-configuration_211
 msc.type: authoredcontent
 ---

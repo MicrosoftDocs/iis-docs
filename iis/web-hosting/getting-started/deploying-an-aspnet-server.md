@@ -2,13 +2,13 @@
 title: "Deploying an ASP.NET Server | Microsoft Docs"
 author: rick-anderson
 description: "An ASP.NET Web server is an extended IIS server that has the ASP.NET runtime extensibility model integrated into the core server. This topic describes how to..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/11/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/getting-started/deploying-an-aspnet-server
 msc.type: authoredcontent
 ---

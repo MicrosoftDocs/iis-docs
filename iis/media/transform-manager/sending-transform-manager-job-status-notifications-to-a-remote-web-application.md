@@ -2,13 +2,13 @@
 title: "Sending Transform Manager Job Status Notifications to a Remote Web Application | Microsoft Docs"
 author: doiron
 description: "You can configure a new notifications feature in IIS Transform Manager 1.0 to POST web requests with job status changes to a remote web application or servic..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/13/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/sending-transform-manager-job-status-notifications-to-a-remote-web-application
 msc.type: authoredcontent
 ---

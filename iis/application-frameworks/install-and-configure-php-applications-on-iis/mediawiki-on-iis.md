@@ -2,13 +2,13 @@
 title: "MediaWiki on IIS | Microsoft Docs"
 author: rick-anderson
 description: "Introduction The following sections describe how to install and configure MediaWiki for use with FastCGI on Windows Server ® 2008. This document assumes that..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/14/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/mediawiki-on-iis
 msc.type: authoredcontent
 ---

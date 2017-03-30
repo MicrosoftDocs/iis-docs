@@ -2,13 +2,13 @@
 title: "Using the Microsoft Web Platform Installer Badge | Microsoft Docs"
 author: rick-anderson
 description: "Developers of applications have the ability to provide a link on their sites which will be able to launch the Web Platform Installer with their application a..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/26/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/using-the-microsoft-web-platform-installer-badge
 msc.type: authoredcontent
 ---

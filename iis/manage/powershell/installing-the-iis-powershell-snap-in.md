@@ -2,13 +2,13 @@
 title: "Installing the IIS 7.0 PowerShell Snap-in | Microsoft Docs"
 author: thomasdeml
 description: "In the following walkthrough you will learn how to install the IIS PowerShell Snap-in and how to start the IIS PowerShell Management Console. Prerequisites T..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/installing-the-iis-powershell-snap-in
 msc.type: authoredcontent
 ---

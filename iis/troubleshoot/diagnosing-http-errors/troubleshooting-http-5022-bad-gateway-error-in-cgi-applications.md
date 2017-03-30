@@ -2,13 +2,13 @@
 title: "Troubleshooting HTTP 502.2 Bad Gateway error in CGI applications | Microsoft Docs"
 author: apurvajo
 description: "Tracing module on IIS 7.X ETW Tracing on IIS 6.0 Microsoft Network Monitor 3.4 This material is provided for informational purposes only. Microsoft makes no..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-troubleshoot
+ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/diagnosing-http-errors/troubleshooting-http-5022-bad-gateway-error-in-cgi-applications
 msc.type: authoredcontent
 ---

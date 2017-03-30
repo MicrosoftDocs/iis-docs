@@ -2,13 +2,13 @@
 title: "Install PHP and FastCGI Support on Server Core | Microsoft Docs"
 author: rick-anderson
 description: "FastCGI is a language-independent, scalable, open extension to Common Gateway Interface (CGI) that improves performance. The FastCGI extension is installable..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/30/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/install-php-and-fastcgi-support-on-server-core
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Use the Web Deployment Tool | Microsoft Docs"
 author: rick-anderson
 description: "The Microsoft® Web Deployment Tool simplifies the migration, management, and deployment of Internet Information Services (IIS) Web servers, Web applications,..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/use-the-web-deployment-tool
 msc.type: authoredcontent
 ---

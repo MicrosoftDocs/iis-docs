@@ -2,13 +2,13 @@
 title: "Publish Your Website | Microsoft Docs"
 author: tdykstra
 description: "[This is preliminary documentation and is subject to change.] Introduction After you create a website, you typically publish the site to a web hosting provid..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/publish-your-website
 msc.type: authoredcontent
 ---

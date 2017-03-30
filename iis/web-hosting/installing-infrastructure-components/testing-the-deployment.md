@@ -2,13 +2,13 @@
 title: "Testing the Deployment | Microsoft Docs"
 author: walterov
 description: "Before deployment into production, tests must be executed for each server component, in addition to testing the Windows PE media to assure proper operation...."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/01/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/testing-the-deployment
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Introduction to Deploying Windows Server 2008 R2 | Microsoft Docs"
 author: walterov
 description: "This article provides a road map for the various Windows Server ® 2008 deployment technologies. There are three main technologies available: Windows Deployme..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/12/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/introduction-to-deploying-windows-server-2008-r2
 msc.type: authoredcontent
 ---

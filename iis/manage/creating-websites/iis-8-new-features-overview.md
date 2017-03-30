@@ -2,13 +2,13 @@
 title: "IIS 8 - New Features Overview | Microsoft Docs"
 author: rick-anderson
 description: "Won Yoo gives an overview of web server features in Windows Server 2012."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/19/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/creating-websites/iis-8-new-features-overview
 msc.type: video
 ---

@@ -2,13 +2,13 @@
 title: "Apple HTTP Live Streaming with IIS Media Services | Microsoft Docs"
 author: johndeu
 description: "Applies To: IIS Media Services 4 IIS Live Smooth Streaming enables delivery of live Smooth Streaming presentations in multiple formats without re-encoding: S..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 06/10/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/apple-http-live-streaming-with-iis-media-services
 msc.type: authoredcontent
 ---

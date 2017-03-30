@@ -2,13 +2,13 @@
 title: "Troubleshooting IIS Compression issues in IIS6/IIS7.x | Microsoft Docs"
 author: rick-anderson
 description: "Fiddler Network Monitor Process Monitor Metabase ACL IIS 6 ETW trace IIS 7 FREB trace This material is provided for informational purposes only. Microsoft ma..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-troubleshoot
+ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/performance-issues/troubleshooting-iis-compression-issues-in-iis6-iis7x
 msc.type: authoredcontent
 ---

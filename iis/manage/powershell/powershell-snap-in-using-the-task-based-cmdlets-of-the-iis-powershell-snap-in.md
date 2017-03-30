@@ -2,13 +2,13 @@
 title: "PowerShell Snap-in: Using the Task-based Cmdlets of the IIS PowerShell Snap-in | Microsoft Docs"
 author: thomasdeml
 description: "IIS PowerShell Snap-in cmdlets can be grouped into three categories: Cmdlets required by the Provider Hierarchy low-level configuratioin cmdlets Task-based c..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/02/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in
 msc.type: authoredcontent
 ---

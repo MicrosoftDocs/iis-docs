@@ -2,13 +2,13 @@
 title: "How to Create an App Package Supporting both SQL Server and MySQL | Microsoft Docs"
 author: SunBuild
 description: "Applications that currently support MySQL as their main DBMS can also support Microsoft SQL Server. The SQL Server Driver for PHP is available to PHP develop..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/16/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/how-to-create-an-app-package-supporting-both-sql-server-and-mysql
 msc.type: authoredcontent
 ---

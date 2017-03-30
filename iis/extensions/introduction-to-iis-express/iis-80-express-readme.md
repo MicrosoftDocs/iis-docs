@@ -2,13 +2,13 @@
 title: "IIS 8.0 Express Readme | Microsoft Docs"
 author: rmcmurray
 description: "Overview Installation Supported Platforms and Architectures Changes to IIS 8.0 Express Known Issues and Limitations For More Information Overview Internet In..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/01/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/introduction-to-iis-express/iis-80-express-readme
 msc.type: authoredcontent
 ---

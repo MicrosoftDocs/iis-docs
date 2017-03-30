@@ -2,13 +2,13 @@
 title: "Using Windows Media Player Playlist Files in Web Playlists | Microsoft Docs"
 author: rick-anderson
 description: "By default, Windows Media Player 11 in Windows Server 2008 creates playlists in WPL format (files with .wpl file name extensions). This article describes how..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/04/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/using-windows-media-player-playlist-files-in-web-playlists
 msc.type: authoredcontent
 ---

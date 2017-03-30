@@ -2,13 +2,13 @@
 title: "Enabling Pretty Permalinks in WordPress | Microsoft Docs"
 author: ruslany
 description: "This walkthrough describes how to enable “ Pretty Permalinks ” for blog posts in the WordPress blog engine that is installed on IIS 7 and above. Typically, w..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/30/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/enabling-pretty-permalinks-in-wordpress
 msc.type: authoredcontent
 ---

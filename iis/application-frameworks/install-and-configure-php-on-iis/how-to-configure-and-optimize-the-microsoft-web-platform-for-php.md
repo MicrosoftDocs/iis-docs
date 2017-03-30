@@ -2,13 +2,13 @@
 title: "How to Configure and Optimize the Microsoft Web Platform for PHP | Microsoft Docs"
 author: rick-anderson
 description: "There are various steps you can take to optimize Windows Server ® 2008 R2 or Windows Server ® 2008, Internet Information Services 7 (IIS 7) and above, and Fa..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/how-to-configure-and-optimize-the-microsoft-web-platform-for-php
 msc.type: authoredcontent
 ---

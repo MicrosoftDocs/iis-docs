@@ -2,13 +2,13 @@
 title: "Live Smooth Streaming Tutorial - Encoding | Microsoft Docs"
 author: rick-anderson
 description: "Part 3: Encoding. This is the third of a five-part series of videos that describes the process for creating, deploying, and managing an IIS Smooth Streaming..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/24/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/live-smooth-streaming-tutorial-encoding
 msc.type: video
 ---

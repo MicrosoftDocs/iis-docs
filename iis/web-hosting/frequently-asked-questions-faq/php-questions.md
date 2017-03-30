@@ -2,13 +2,13 @@
 title: "PHP Questions | Microsoft Docs"
 author: walterov
 description: "Microsoft does not support PHP. We started integration testing with 5.2.1. Most of the testing seen shows PHP working well, without specific integration issu..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/php-questions
 msc.type: authoredcontent
 ---

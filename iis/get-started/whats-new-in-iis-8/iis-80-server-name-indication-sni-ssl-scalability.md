@@ -2,13 +2,13 @@
 title: "IIS 8.0 Server Name Indication (SNI): SSL Scalability | Microsoft Docs"
 author: shauneagan
 description: "Version Notes IIS 8.0 Server Name Indication was introduced in IIS 8.0. IIS 7.5 Server Name Indication was not supported in IIS 7.5. IIS 7.0 Server Name Indi..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/29/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-server-name-indication-sni-ssl-scalability
 msc.type: authoredcontent
 ---

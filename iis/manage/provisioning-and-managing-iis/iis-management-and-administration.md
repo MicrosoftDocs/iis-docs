@@ -2,13 +2,13 @@
 title: "IIS Management and Administration | Microsoft Docs"
 author: walterov
 description: "This article provides a map to download locations for presentations, videos, and links to existing articles about IIS management and administration: Web farm..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/18/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/iis-management-and-administration
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "IIS 7.0 Features and Vista Editions | Microsoft Docs"
 author: rick-anderson
 description: "With the release of Windows Vista and Windows Server 2008 IIS 7.0 became available on all mainstream Windows Editions for the first time. On Windows Vista Ed..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 06/24/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-install
+ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/iis-features-and-vista-editions
 msc.type: authoredcontent
 ---

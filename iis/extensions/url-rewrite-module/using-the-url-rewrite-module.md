@@ -2,13 +2,13 @@
 title: "Using the URL Rewrite Module | Microsoft Docs"
 author: ruslany
 description: "The Microsoft URL Rewrite Module 2.0 for IIS 7 and above enables IIS administrators to create powerful customized rules to map request URLs to friendly URLs..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/30/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-the-url-rewrite-module
 msc.type: authoredcontent
 ---

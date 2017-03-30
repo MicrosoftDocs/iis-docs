@@ -2,13 +2,13 @@
 title: "Working with Stored Procedures | Microsoft Docs"
 author: rick-anderson
 description: "This walkthrough assumes the following environment: The IIS Database Manager is installed on your Web Server. A database server (that could reside on the sam..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/database-manager/working-with-stored-procedures
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Troubleshooting Transform Manager Events and Errors | Microsoft Docs"
 author: rick-anderson
 description: "The Beta release of IIS Transform Manager 1.0 doesn't contain robust event and error reporting. This article provides troubleshooting guidance for the follow..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/26/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/troubleshooting-transform-manager-events-and-errors
 msc.type: authoredcontent
 ---

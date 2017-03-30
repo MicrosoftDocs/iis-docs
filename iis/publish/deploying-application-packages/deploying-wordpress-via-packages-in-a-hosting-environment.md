@@ -2,13 +2,13 @@
 title: "Deploying WordPress via Packages in a Hosting Environment | Microsoft Docs"
 author: simtan
 description: "Introduction WordPress is a personal publishing platform that focuses on aesthetics, web standards, and usability. This document provides step-by-step instru..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/10/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/deploying-wordpress-via-packages-in-a-hosting-environment
 msc.type: authoredcontent
 ---

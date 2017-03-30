@@ -2,13 +2,13 @@
 title: "Using the Microsoft Web Platform Installer | Microsoft Docs"
 author: chrissfanos
 description: "Introduction The Microsoft ® Web Platform Installer (Web PI) makes it easy for you to download, install, and keep up to date on the latest software component..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-install
+ms.prod: iis
 msc.legacyurl: /learn/install/web-platform-installer/using-the-microsoft-web-platform-installer
 msc.type: authoredcontent
 ---

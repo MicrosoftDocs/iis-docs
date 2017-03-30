@@ -2,13 +2,13 @@
 title: "Understanding Setup in IIS 7 | Microsoft Docs"
 author: rick-anderson
 description: "This article provides an overview of Microsoft Windows Vista ® and Microsoft Server ® 2008 setup technology and a detailed examination of IIS 7.0 and above c..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-install
+ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/understanding-setup-in-iis
 msc.type: authoredcontent
 ---

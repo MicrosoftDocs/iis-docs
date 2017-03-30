@@ -2,13 +2,13 @@
 title: "System Center Solutions (VMM &amp; SCOM) | Microsoft Docs"
 author: walterov
 description: "System Center solutions help hosting companies manage physical and virtual hosting environments across data centers. Using these integrated and automated man..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/17/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/system-center-solutions-vmm-amp-scom
 msc.type: authoredcontent
 ---

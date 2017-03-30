@@ -2,13 +2,13 @@
 title: "IIS Express Overview | Microsoft Docs"
 author: vaidy4github
 description: "IIS Express is a lightweight, self-contained version of IIS optimized for developers. IIS Express makes it easy to use the most current version of IIS to dev..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/introduction-to-iis-express/iis-express-overview
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Provisioning FTP 7.5 Sites | Microsoft Docs"
 author: walterov
 description: "The following articles point to recommended guides for Provisioning FTP 7.0 Sites: Creating a New Site Adding FTP to a Web Site Administering Using Configura..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 10/30/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/creating-websites/provisioning-ftp-75-sites
 msc.type: authoredcontent
 ---

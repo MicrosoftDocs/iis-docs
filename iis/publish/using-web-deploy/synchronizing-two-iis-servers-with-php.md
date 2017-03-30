@@ -2,13 +2,13 @@
 title: "Synchronizing Two IIS Servers with PHP | Microsoft Docs"
 author: rick-anderson
 description: "This article will guide you through the process of using Web Deploy to synchronize an entire IIS 7 or above Web server that has PHP installed to another IIS..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/26/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/synchronizing-two-iis-servers-with-php
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "PowerShell Snap-in: Configuring SSL with the IIS PowerShell Snap-in | Microsoft Docs"
 author: rick-anderson
 description: "To enable SSL three steps are involved: Acquiring and installing a certificate Creating an SSL binding in IIS Assigning the certificate to the IP:Port of the..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/02/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in
 msc.type: authoredcontent
 ---

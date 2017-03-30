@@ -2,13 +2,13 @@
 title: "Understanding IIS 7.0 URL Authorization | Microsoft Docs"
 author: rick-anderson
 description: "Authorization was difficult in previous versions of IIS. Because IIS only worked with Windows identities, you had to go to the file system and set Access Con..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/understanding-iis-url-authorization
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Creating and Publishing Web Applications with Visual Web Developer | Microsoft Docs"
 author: JoeStagner
 description: "The Microsoft Web Platform Tools provide the functionality needed by developers that want to deploy their applications in Shared Hosting environments. This v..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/02/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/using-shared-hosting-environments/creating-and-publishing-web-applications-with-visual-web-developer
 msc.type: video
 ---

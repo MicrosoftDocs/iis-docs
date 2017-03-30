@@ -2,13 +2,13 @@
 title: "Setting Up a Database for a PHP Application on IIS | Microsoft Docs"
 author: rick-anderson
 description: "SQL Server is a database built and supported by Microsoft. Many PHP applications support SQL Server as their back end data repository. These instructions ass..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/14/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/setting-up-a-database-for-a-php-application-on-iis
 msc.type: authoredcontent
 ---

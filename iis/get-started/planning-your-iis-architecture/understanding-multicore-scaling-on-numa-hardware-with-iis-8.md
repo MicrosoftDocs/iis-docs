@@ -2,13 +2,13 @@
 title: "Understanding Multicore Scaling on NUMA Hardware with IIS 8 | Microsoft Docs"
 author: rick-anderson
 description: "IIS 8 and above offers features to enhance performance on NUMA hardware."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 10/09/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/understanding-multicore-scaling-on-numa-hardware-with-iis-8
 msc.type: authoredcontent
 ---

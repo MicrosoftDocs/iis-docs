@@ -2,13 +2,13 @@
 title: "Encoding Live Smooth Streams with the Push Encoder Utility | Microsoft Docs"
 author: rmcmurray
 description: "Live Smooth Streaming encoders generate multiple streams, each containing MPEG-4 (MP4) fragments encoded at different bit rates. As in the encoded output for..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 08/24/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/encoding-live-smooth-streams-with-the-push-encoder-utility
 msc.type: authoredcontent
 ---

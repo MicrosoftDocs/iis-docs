@@ -2,13 +2,13 @@
 title: "An Introduction to Windows PowerShell and IIS 7.0 | Microsoft Docs"
 author: rick-anderson
 description: "Windows PowerShell is Microsoft's shell and scripting language. This short article provides a brief tour of Windows PowerShell and IIS. Reading this article,..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/an-introduction-to-windows-powershell-and-iis
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Configure Request Filtering in IIS | Microsoft Docs"
 author: rmcmurray
 description: "This document shows you how to use common request-filter settings to improve the security of your IIS 8 web server. Request filters restrict the types of HTT..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/configure-request-filtering-in-iis
 msc.type: authoredcontent
 ---

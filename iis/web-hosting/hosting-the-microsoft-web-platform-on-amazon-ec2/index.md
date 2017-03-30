@@ -2,13 +2,13 @@
 title: "Hosting the Microsoft Web Platform on Amazon EC2 | Microsoft Docs"
 author: rick-anderson
 description: "Hosting the Microsoft Web Platform on Amazon EC2"
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/01/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2
 msc.type: chapter
 ---

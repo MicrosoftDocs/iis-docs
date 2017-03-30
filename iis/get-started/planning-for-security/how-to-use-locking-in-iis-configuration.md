@@ -2,13 +2,13 @@
 title: "How to Use Locking in IIS 7.0 Configuration | Microsoft Docs"
 author: rick-anderson
 description: "This document explains how to lock and unlock configuration on the server. You will learn what settings the application-level configuration files can overrid..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-for-security/how-to-use-locking-in-iis-configuration
 msc.type: authoredcontent
 ---

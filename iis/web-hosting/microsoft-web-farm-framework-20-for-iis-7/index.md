@@ -2,13 +2,13 @@
 title: "Microsoft Web Farm Framework 2.0 for IIS 7 | Microsoft Docs"
 author: rick-anderson
 description: "Microsoft Web Farm Framework 2.0 for IIS 7"
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/01/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7
 msc.type: chapter
 ---

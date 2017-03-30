@@ -2,13 +2,13 @@
 title: "Building Workflows with Web Farm Framework 2.0 for IIS 7 | Microsoft Docs"
 author: rick-anderson
 description: "Web Farm Framework enables you to define and schedule custom tasks using Workflow Builder. These custom tasks can run on all servers in your web farm. Using..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/02/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/building-workflows-with-web-farm-framework-20-for-iis
 msc.type: authoredcontent
 ---

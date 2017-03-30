@@ -2,13 +2,13 @@
 title: "Web Platform Installer Direct Downloads | Microsoft Docs"
 author: chrissfanos
 description: "Direct download links for Web Platform Installer (WebPI)"
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/20/2015
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-install
+ms.prod: iis
 msc.legacyurl: /learn/install/web-platform-installer/web-platform-installer-direct-downloads
 msc.type: authoredcontent
 ---

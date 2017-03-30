@@ -2,13 +2,13 @@
 title: "Migrate from MySQL to SQL Server 2008 | Microsoft Docs"
 author: rick-anderson
 description: "PHP, a powerful server-side scripting language used for creating dynamic Web sites and applications, is one of the most widely used Web programming languages..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/migrate-to-the-microsoft-web-platform/migrate-from-mysql-to-sql-server-2008
 msc.type: authoredcontent
 ---

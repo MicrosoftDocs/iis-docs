@@ -2,13 +2,13 @@
 title: "Planning the Web Hosting Architecture | Microsoft Docs"
 author: rick-anderson
 description: "Planning the Web Hosting Architecture"
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/01/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/planning-the-web-hosting-architecture
 msc.type: chapter
 ---

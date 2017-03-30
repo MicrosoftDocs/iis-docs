@@ -2,13 +2,13 @@
 title: "Publishing Components: FTP 7.0, WebDAV, and FPSE | Microsoft Docs"
 author: walterov
 description: "The following video and presentation IIS Publishing will provide you with an overview of the IIS Publishing Features and step-by-step demonstrations on how t..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 10/30/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/publishing-components-ftp-70-webdav-and-fpse
 msc.type: authoredcontent
 ---

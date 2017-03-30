@@ -2,13 +2,13 @@
 title: "Microsoft Web Platform Privacy Statements | Microsoft Docs"
 author: bilalaslam
 description: "Below are the privacy statements for the various Microsoft products that are offered through the Web App Gallery, through the Web Platform Installer, and thr..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/08/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/getting-started/microsoft-web-platform-privacy-statements
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Offline Files for Shared Configuration | Microsoft Docs"
 author: walterov
 description: "Once you have enabled shared configuration, a common question is what happens when the network share that serves those files becomes unavailable. When the sh..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/02/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/offline-files-for-shared-configuration
 msc.type: authoredcontent
 ---

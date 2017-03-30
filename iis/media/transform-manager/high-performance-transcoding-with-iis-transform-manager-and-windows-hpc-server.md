@@ -2,13 +2,13 @@
 title: "High-Performance Transcoding with IIS Transform Manager and Windows HPC Server | Microsoft Docs"
 author: rick-anderson
 description: "Last Updated: April 27, 2011 You can use the IIS Transform Manager 1.0 extension for Internet Information Services (IIS) 7 to transcode media files to Smooth..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/27/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/high-performance-transcoding-with-iis-transform-manager-and-windows-hpc-server
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Content Protection in Silverlight | Microsoft Docs"
 author: rick-anderson
 description: "The Content Protection in Silverlight white paper provides an overview of how Microsoft® Silverlight™ not only enables you to offer a wide-range of digital c..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/07/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/iis-media-services/content-protection-in-silverlight
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Umbraco CMS Sample files | Microsoft Docs"
 author: SunBuild
 description: "This is a set of sample files you could use with Umbraco CMS 5 and the Web Deployment tool for deploying Umbraco against a SQL Express/SQL Azure database or..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/08/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/umbraco-cms-sample-files
 msc.type: authoredcontent
 ---

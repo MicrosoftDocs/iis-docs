@@ -2,13 +2,13 @@
 title: "Deploying a Classic ASP Server | Microsoft Docs"
 author: rick-anderson
 description: "A Classic ASP Web server is the common configuration used for serving server-side scripted ASP pages. This topic describes how to add IIS modules for ASP, Re..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/11/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/getting-started/deploying-a-classic-asp-server
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Chaining the Robocopy Task to your Transformed Output | Microsoft Docs"
 author: rick-anderson
 description: "The built-in Robocopy task in IIS Transform Manager 1.0 is a useful task that you can add to your job templates to copy the transformed output from tasks tha..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/24/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/chaining-the-robocopy-task-to-your-transformed-output
 msc.type: authoredcontent
 ---

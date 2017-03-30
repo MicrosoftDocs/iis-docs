@@ -2,13 +2,13 @@
 title: "Classic ASP parent paths are disabled by default | Microsoft Docs"
 author: rmcmurray
 description: "Classic ASP Parent Paths let developers use relative addresses that contain '..' in the paths to files or folders. For example, the following code excerpt il..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/19/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-parent-paths-are-disabled-by-default
 msc.type: authoredcontent
 ---

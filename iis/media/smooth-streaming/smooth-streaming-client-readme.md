@@ -2,13 +2,13 @@
 title: "Smooth Streaming Client Readme | Microsoft Docs"
 author: rick-anderson
 description: "Last Updated: May 31, 2012 Applies To: Microsoft Smooth Streaming Client 2.0 RTW IIS Smooth Streaming Client 1.1 RTW IIS Smooth Streaming Client 1.5 RTW Cont..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 06/23/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/smooth-streaming-client-readme
 msc.type: authoredcontent
 ---

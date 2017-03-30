@@ -2,13 +2,13 @@
 title: "Best Practices for PHP on the Microsoft Web Platform | Microsoft Docs"
 author: rick-anderson
 description: "Introduction There are various steps you can take to optimize Windows Server 2008 R2 or Windows Server 2008, IIS 7 and above, and FastCGI performance for you..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Shared Configuration | Microsoft Docs"
 author: rick-anderson
 description: "The Internet changes the ways in which companies handle their day-to-day business and how they compete in the marketplace. With the advent of new Web technol..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/10/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/shared-configuration_264
 msc.type: authoredcontent
 ---

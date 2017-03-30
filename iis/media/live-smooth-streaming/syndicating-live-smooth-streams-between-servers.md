@@ -2,13 +2,13 @@
 title: "Syndicating Live Smooth Streams between Servers | Microsoft Docs"
 author: jbocharov
 description: "This walkthrough describes how to configure Live Smooth Streaming server-to-server syndication. Requirements Usage Scenario Security Best Practices Configuri..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 10/08/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/syndicating-live-smooth-streams-between-servers
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Getting Started with the IIS Manager in IIS | Microsoft Docs"
 author: tobint
 description: "This IIS Manager overview explains why IIS 7 and later have a new user interface from previous versions of IIS, and then goes on to describe the look and fee..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/16/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/getting-started-with-iis/getting-started-with-the-iis-manager-in-iis-7-and-iis-8
 msc.type: authoredcontent
 ---

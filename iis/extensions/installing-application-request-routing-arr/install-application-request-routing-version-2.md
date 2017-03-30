@@ -2,13 +2,13 @@
 title: "Install Application Request Routing Version 2 | Microsoft Docs"
 author: rick-anderson
 description: "This topic leads the reader through the steps to install Microsoft Application Request Routing (ARR) Version 2 for IIS 7 and above . Goal To successfully ins..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/installing-application-request-routing-arr/install-application-request-routing-version-2
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Using the Application Request Routing Module | Microsoft Docs"
 author: rick-anderson
 description: "Microsoft Application Request Routing (ARR) for IIS 7 and above is a proxy-based routing module that forwards HTTP requests to content servers based on HTTP..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/02/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-extensions
+ms.prod: iis
 msc.legacyurl: /learn/extensions/planning-for-arr/using-the-application-request-routing-module
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Integrate the Windows Web Application Gallery into a Control Panel | Microsoft Docs"
 author: rick-anderson
 description: "The Windows ® Web Application Gallery (WAG) lets application developers reach a wide audience of users and gives Web site builders an easy way to discover an..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/integrate-the-windows-web-application-gallery-into-a-control-panel
 msc.type: authoredcontent
 ---

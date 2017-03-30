@@ -2,13 +2,13 @@
 title: "Running Asp.Net Core with IIS on Nano Server | Microsoft Docs"
 author: davidso
 description: ""
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/16/2016
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/running-aspnet-core-with-iis-on-nano-server
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "Install Windows Server 2008 and Windows Server 2008 R2 | Microsoft Docs"
 author: rick-anderson
 description: "Introduction The Microsoft ® Web Platform is a powerful set of tools, servers, and technologies optimized for building and hosting next-generation Web applic..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-install
+ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/install-windows-server-2008-and-windows-server-2008-r2
 msc.type: authoredcontent
 ---

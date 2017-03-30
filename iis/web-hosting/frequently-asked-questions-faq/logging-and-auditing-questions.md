@@ -2,13 +2,13 @@
 title: "Logging and Auditing Questions | Microsoft Docs"
 author: walterov
 description: "No. It is in the site section and only machine administrators can modify this section. You can only delegate whether to log or not. What kind of load does a..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 12/22/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/logging-and-auditing-questions
 msc.type: authoredcontent
 ---

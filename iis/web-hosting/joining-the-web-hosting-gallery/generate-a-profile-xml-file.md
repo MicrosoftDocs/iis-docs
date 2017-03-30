@@ -2,13 +2,13 @@
 title: "Generate a Profile XML File | Microsoft Docs"
 author: bilalaslam
 description: "Generate a Profile XML File When a user signs up for an account, your welcome email should contain an attachment containing account settings (also known as a..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/02/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/generate-a-profile-xml-file
 msc.type: authoredcontent
 ---

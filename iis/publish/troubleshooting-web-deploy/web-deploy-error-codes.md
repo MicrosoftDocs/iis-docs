@@ -2,13 +2,13 @@
 title: "Web Deploy error codes | Microsoft Docs"
 author: bilalaslam
 description: "For certain common error cases, Web Deploy will show an error code. This table explains why the error occurs and steps the user can take to avoid the error...."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/12/2011
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-publish
+ms.prod: iis
 msc.legacyurl: /learn/publish/troubleshooting-web-deploy/web-deploy-error-codes
 msc.type: authoredcontent
 ---

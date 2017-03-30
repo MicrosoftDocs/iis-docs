@@ -2,13 +2,13 @@
 title: "Running Classic ASP Applications on IIS 7 and IIS 8 | Microsoft Docs"
 author: rick-anderson
 description: "Running Classic ASP Applications on IIS 7 and IIS 8"
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/01/2012
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8
 msc.type: chapter
 ---

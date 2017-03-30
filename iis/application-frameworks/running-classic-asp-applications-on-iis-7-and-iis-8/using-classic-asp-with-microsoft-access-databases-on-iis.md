@@ -2,13 +2,13 @@
 title: "Using Classic ASP with Microsoft Access Databases on IIS | Microsoft Docs"
 author: rmcmurray
 description: "Note : Microsoft Access databases have been popular for many years with developers who use Active Server Pages (ASP) for small-scale applications, but Micros..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/19/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/using-classic-asp-with-microsoft-access-databases-on-iis
 msc.type: authoredcontent
 ---

@@ -2,13 +2,13 @@
 title: "How to Get Started Extending Module Properties for IIS 7.0 in IIS Manager | Microsoft Docs"
 author: rick-anderson
 description: "The administration tool for IIS 7 and above is an extensible platform which developers can use to plug in their own features and manage custom settings. Any..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 11/24/2007
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-develop
+ms.prod: iis
 msc.legacyurl: /learn/develop/extending-the-management-ui/how-to-get-started-extending-module-properties-for-iis-in-iis-manager
 msc.type: authoredcontent
 ---

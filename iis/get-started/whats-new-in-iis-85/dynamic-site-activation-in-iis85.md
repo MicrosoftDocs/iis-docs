@@ -2,13 +2,13 @@
 title: "Dynamic Website Activation in IIS 8.5 | Microsoft Docs"
 author: garyericson
 description: "In IIS 8.5, when there are a large number of configured sites (100 or greater, by default), the service will not activate any of the sites when the service i..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 07/11/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis
+ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-85/dynamic-site-activation-in-iis85
 msc.type: authoredcontent
 ---

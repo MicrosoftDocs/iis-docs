@@ -2,13 +2,13 @@
 title: "Configuring SSL in IIS Manager | Microsoft Docs"
 author: rick-anderson
 description: "Enabling powerful SSL security to protect your Web applications is simpler to setup with IIS Manager and easier to deploy with self-signed certificates in II..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 02/24/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-manage
+ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/configuring-ssl-in-iis-manager
 msc.type: video
 ---

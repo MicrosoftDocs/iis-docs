@@ -2,13 +2,13 @@
 title: "Microsoft Media Platform: Encoding and Serving Choices and Migration Considerations | Microsoft Docs"
 author: rick-anderson
 description: "This article offers guidance for choosing among the Microsoft Media Platform Technologies that deliver video content. It includes general guidance for migrat..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 04/04/2013
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/windows-media-services/microsoft-media-platform-encoding-and-serving-choices-and-migration-considerations
 msc.type: authoredcontent
 ---

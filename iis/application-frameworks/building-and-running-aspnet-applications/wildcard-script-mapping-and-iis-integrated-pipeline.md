@@ -2,13 +2,13 @@
 title: "Wildcard script mapping and IIS 7 integrated pipeline | Microsoft Docs"
 author: ruslany
 description: "The big benefit of the IIS 7 and above integrated request processing pipeline is the fact that all the nice and useful ASP.NET features can be used for any t..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 09/30/2008
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-appfx
+ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/wildcard-script-mapping-and-iis-integrated-pipeline
 msc.type: authoredcontent
 ---

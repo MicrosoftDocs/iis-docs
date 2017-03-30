@@ -2,13 +2,13 @@
 title: "Administration Pack | Microsoft Docs"
 author: walterov
 description: "The Administration Pack provides hosters and their customers with a set of IIS Manager modules that will help them to do the following: Edit server configura..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 01/19/2009
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-hosting
+ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/administration-pack
 msc.type: authoredcontent
 ---

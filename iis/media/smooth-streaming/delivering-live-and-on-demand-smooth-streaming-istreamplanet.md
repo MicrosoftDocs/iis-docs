@@ -2,13 +2,13 @@
 title: "Delivering Live and On-Demand Smooth Streaming (iStreamPlanet) | Microsoft Docs"
 author: iStreamPlanet
 description: "IIS Smooth Streaming has been used for many high-visibility online video events. Delivering Live and On-Demand Smooth Streaming is a white paper, written by..."
-ms.author: aspnetcontent
-manager: wpickett
+ms.author: iiscontent
+manager: soshir
 ms.date: 05/03/2010
 ms.topic: article
 ms.assetid: 
-ms.technology: dotnet-webforms
-ms.prod: .net-framework
+ms.technology: iis-media
+ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/delivering-live-and-on-demand-smooth-streaming-istreamplanet
 msc.type: authoredcontent
 ---
