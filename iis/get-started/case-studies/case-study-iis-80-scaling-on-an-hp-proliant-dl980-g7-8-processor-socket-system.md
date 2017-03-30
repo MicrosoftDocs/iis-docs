@@ -375,11 +375,11 @@ The module currently exposes the following cmdlets:
 
 ##### Listing Devices &amp; NUMA Topology Information
 
-Get-Device | Sort-Object -Property Name | ft Name, NumaNode, UINumber -AutoSize 
+ Get-Device | Sort-Object -Property Name | ft Name, NumaNode, UINumber -AutoSize 
 
 ##### Logical Processor and NUMA Information
 
-Get-Numa
+ Get-Numa
 
 ##### Firmware Tables
 

@@ -640,6 +640,7 @@
 ## [Running PHP Applications on IIS](application-frameworks/running-php-applications-on-iis/index.md)
 ### [MIX08: Partying with PHP on Microsoft Internet Information Services 7](application-frameworks/running-php-applications-on-iis/mix08-partying-with-php-on-microsoft-internet-information-services-7-and-above.md)
 ### [Set Up FastCGI for PHP](application-frameworks/running-php-applications-on-iis/set-up-fastcgi-for-php.md)
+### [Build a High-Performance PHP Stack with Windows IIS and Zend Server](application-frameworks/running-php-applications-on-iis/build-a-high-performance-php-stack-with-windows-iis-and-zend-server.md)
 ### [Configure PHP Process Recycling Behavior](application-frameworks/running-php-applications-on-iis/configure-php-process-recycling-behavior.md)
 ### [Best Practices for PHP on the Microsoft Web Platform](application-frameworks/running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform.md)
 ### [Provision Web Sites for PHP Applications Using Managed Code](application-frameworks/running-php-applications-on-iis/provision-web-sites-for-php-applications-using-managed-code.md)

@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <style type="text/css">
+    td {border: solid 1px black;}
+    </style>
+  </head>
+  <body>
+  <?php
+  // open connection to database server
+  $db = mysqli_connect("localhost", "library", "bookworm", "library");
+  
+  if (mysqli_connect_errno()) {
+    die('Unable to connect to database!');
+  }
+   
+  // execute SELECT query
+  $sql = 'SELECT * FROM books';
+  $result = mysqli_query($db, $sql);
+  
+  // iterate over result set
+  if(!mysqli_num_rows($result)) {
+    echo 'No records found';
+  } else {
+    echo '<table>';
+    while ($row = mysqli_fetch_object($result)) {
+      echo '<tr>';
+      echo '<td>' . $row->author . '</td>';
+      echo '<td>' . $row->title . '</td>';
+      echo '</tr>';
+    }
+    echo '</table>';
+  }
+  
+  // close connection
+  mysqli_close($db);
+  ?>
+  </body>
+</html>
