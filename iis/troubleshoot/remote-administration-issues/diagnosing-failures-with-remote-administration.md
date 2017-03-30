@@ -64,7 +64,7 @@ Sample output:
 
 Use netsh commands in the previous paragraph to determine if the bindings are not correctly configured. The problem might be that the machine key does not have permissions for the administrator trying to adjust the WMSVC bindings. In that case, try the following:
 
-1. Take ownership of the machine key:<br?
+1. Take ownership of the machine key:  
 
     [!code-unknown[Main](diagnosing-failures-with-remote-administration/samples/sample-127040-5.unknown)]
 2. Configure the ACLs of the machine key such that the administrator group has read permissions:  
