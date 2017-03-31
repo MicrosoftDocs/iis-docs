@@ -24,7 +24,7 @@ Learn how to use Configuration Editor to edit collections. For this example we w
 
 This walkthrough requires the following prerequisites:
 
-- [Administration Pack V1 for IIS](https://learn.iis.net/page.aspx/415/install-the-administration-pack/ "Install Administration Pack")
+- [Administration Pack V1 for IIS](https://www.iis.net/downloads/microsoft/administration-pack "Install Administration Pack")
 
 ## Accessing the system.webServer/caching Configuration Section
 
