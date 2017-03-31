@@ -42,14 +42,14 @@ For more information see [Overview of Windows System Resource Manager](http://te
 2. Start WSRM by clicking the Windows Start button, select "Administrative Tool", and select "Windows System Resource Manager" 
 
     [![](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image6.jpg)](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image5.jpg)
-3. Start the Equal\_Per\_IISAppPool built-in policy 
+3. Start the Equal\_Per\_IISAppPool built-in policy
 
-    1. Open the Resource Allocation Policies node in the left-hand pane 
+    1. Open the Resource Allocation Policies node in the left-hand pane
 
         [![](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image8.jpg)](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image7.jpg)
     2. Right click on Equal\_Per\_IISAppPool in the left-hand pane
     3. Select Set as Managing Policy
-    4. If prompted to disable the calendar, click OK 
+    4. If prompted to disable the calendar, click OK
 
         [![](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image10.jpg)](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image9.jpg)
     5. Observe the behavior of the system under an IIS load. You could use WCAT for simulating a load on the server. This tools is part of IIS 6.0 Resource Kit which can be downloaded from the following link: [https://www.microsoft.com/downloads/details.aspx?FamilyID=56fc92ee-a71a-4c73-b628-ade629c89499&amp;DisplayLang=en](https://www.microsoft.com/downloads/details.aspx?FamilyID=56fc92ee-a71a-4c73-b628-ade629c89499&amp;DisplayLang=en)

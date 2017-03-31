@@ -68,15 +68,12 @@ Follow these steps:
 Inside the root directory, you find a file called install.php. Browse to the install using [http://localhost/eecore/install.php](http://localhost/eecore/install.php). This runs a script which configures your database and sets up the default site. Be sure that you access the file through your webserver and not by loading the file into your web browser locally.
 
 1. Click Click Here to begin to start installation  
-
     [![](expressionengine-on-iis/_static/image4.jpg)](expressionengine-on-iis/_static/image3.jpg)
 2. Accept the agreement and click Submit.  
-
     [![](expressionengine-on-iis/_static/image6.jpg)](expressionengine-on-iis/_static/image5.jpg)
 3. Provide a name for the folder, which you renamed from System. Click Submit.  
-
     [![](expressionengine-on-iis/_static/image8.jpg)](expressionengine-on-iis/_static/image7.jpg)
-4. Provide the details of your database: Admin username, password, time zone, etc. Click install ExpressionEngine. 
+4. Provide the details of your database: Admin username, password, time zone, etc. Click install ExpressionEngine.  
 
     - MySQLUserName as: eemsuser
     - MySQLPassword as: eems
@@ -92,29 +89,27 @@ Inside the root directory, you find a file called install.php. Browse to the ins
 
     [![](expressionengine-on-iis/_static/image16.jpg)](expressionengine-on-iis/_static/image15.jpg)
 5. You see the confirmation screen for a successful installation.  
-
     [![](expressionengine-on-iis/_static/image18.jpg)](expressionengine-on-iis/_static/image17.jpg)
 6. Login to the Control Panel using the Admin username and password.  
-
     [![](expressionengine-on-iis/_static/image20.jpg)](expressionengine-on-iis/_static/image19.jpg)
 
-    The following are some screenshots of ExpressionEngine after it is up and running on IIS.
+The following are some screenshots of ExpressionEngine after it is up and running on IIS.
 
-    [![](expressionengine-on-iis/_static/image22.jpg)](expressionengine-on-iis/_static/image21.jpg)
+[![](expressionengine-on-iis/_static/image22.jpg)](expressionengine-on-iis/_static/image21.jpg)
 
-    [![](expressionengine-on-iis/_static/image24.jpg)](expressionengine-on-iis/_static/image23.jpg)
+[![](expressionengine-on-iis/_static/image24.jpg)](expressionengine-on-iis/_static/image23.jpg)
 
-    [![](expressionengine-on-iis/_static/image26.jpg)](expressionengine-on-iis/_static/image25.jpg)
+[![](expressionengine-on-iis/_static/image26.jpg)](expressionengine-on-iis/_static/image25.jpg)
 
-    [![](expressionengine-on-iis/_static/image28.jpg)](expressionengine-on-iis/_static/image27.jpg)
+[![](expressionengine-on-iis/_static/image28.jpg)](expressionengine-on-iis/_static/image27.jpg)
 
-    ## Getting More Information
+## Getting More Information
 
-    To discuss the FastCGI Extension for IIS 6.0, or file bug reports, please use the FastCGI forums:
+To discuss the FastCGI Extension for IIS 6.0, or file bug reports, please use the FastCGI forums:
 
-    - [IIS.NET / IIS 6.0 FastCGI forums](https://forums.iis.net/1103.aspx).
+- [IIS.NET / IIS 6.0 FastCGI forums](https://forums.iis.net/1103.aspx).
 
-    To get more information regarding running various PHP applications on IIS refer to:
+To get more information regarding running various PHP applications on IIS refer to:
 
-    - [PHP on IIS portal](https://php.iis.net/)
-    - [PHP community forum](https://forums.iis.net/1102.aspx).
+- [PHP on IIS portal](https://php.iis.net/)
+- [PHP community forum](https://forums.iis.net/1102.aspx).

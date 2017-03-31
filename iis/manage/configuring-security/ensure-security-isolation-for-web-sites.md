@@ -44,7 +44,7 @@ Once a pool is created, you can change its settings whenever necessary.
 
 1. From the **Connections** pane, choose **Application Pools**.
 2. In the **Work** pane, choose the application pool you would like to configure.
-3. From the **Actions** pane, choose **Basic Settings**. Note that with the exception of the dialog box title, the Basic Settingsdialog box and the Add Application Pooldialog boxes look identical.
+3. From the **Actions** pane, choose **Basic Settings**. Note that with the exception of the dialog box title, the Basic Settings dialog box and the Add Application Pool dialog boxes look identical.
 
 You can also use the command line. Use:
 

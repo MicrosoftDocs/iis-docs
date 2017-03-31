@@ -80,27 +80,27 @@ Open your web browser and browse to [http://localhost/gallery2/install/index.php
 4. Specify the path to the data directory that you have created earlier. If you have configured permissions for g2data correctly, you can proceed to the next step after clicking "Save".  
     [![](gallery2-on-iis/_static/image8.png)](gallery2-on-iis/_static/image7.png)
 
-    In Step 5 in the "Install Steps" pane, enter the required database information. If you have setup the database and user correctly, clicking "Save" takes you to the subsequent installation steps.
+In Step 5 in the "Install Steps" pane, enter the required database information. If you have setup the database and user correctly, clicking "Save" takes you to the subsequent installation steps.
 
-    [![](gallery2-on-iis/_static/image10.png)](gallery2-on-iis/_static/image9.png)
+[![](gallery2-on-iis/_static/image10.png)](gallery2-on-iis/_static/image9.png)
 
-    In Step 7 in the "Install Steps" pane, you are asked to create an empty config.php file in Gallery2 folder:
+In Step 7 in the "Install Steps" pane, you are asked to create an empty config.php file in Gallery2 folder:
 
-    [![](gallery2-on-iis/_static/image12.png)](gallery2-on-iis/_static/image11.png)
+[![](gallery2-on-iis/_static/image12.png)](gallery2-on-iis/_static/image11.png)
 
-    Make sure that the web server has write permissions to this file. For this walkthrough, we allowed write permissions to this file for "Internet Guest Account".
+Make sure that the web server has write permissions to this file. For this walkthrough, we allowed write permissions to this file for "Internet Guest Account".
 
-    After that, proceed through the remaining installation steps. Once you have completed the installation, you can login to the newly created Gallery using the administrator user name and password which you specified during installation.
+After that, proceed through the remaining installation steps. Once you have completed the installation, you can login to the newly created Gallery using the administrator user name and password which you specified during installation.
 
-    [![](gallery2-on-iis/_static/image14.png)](gallery2-on-iis/_static/image13.png)
+[![](gallery2-on-iis/_static/image14.png)](gallery2-on-iis/_static/image13.png)
 
-    ## Getting More Information
+## Getting More Information
 
-    To discuss the FastCGI Extension for IIS 6.0, or file bug reports, use the FastCGI forums:
+To discuss the FastCGI Extension for IIS 6.0, or file bug reports, use the FastCGI forums:
 
-    - [IIS.NET / IIS 6.0 FastCGI forums](https://forums.iis.net/1103.aspx).
+- [IIS.NET / IIS 6.0 FastCGI forums](https://forums.iis.net/1103.aspx).
 
-    To get more information regarding running various PHP applications on IIS, refer to:
+To get more information regarding running various PHP applications on IIS, refer to:
 
-    - [PHP on IIS portal](https://php.iis.net/)
-    - [PHP community forum](https://forums.iis.net/1102.aspx).
+- [PHP on IIS portal](https://php.iis.net/)
+- [PHP community forum](https://forums.iis.net/1102.aspx).

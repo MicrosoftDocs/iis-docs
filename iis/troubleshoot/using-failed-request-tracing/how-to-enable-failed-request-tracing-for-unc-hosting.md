@@ -134,11 +134,13 @@ To do the above steps from the command line:
 
 1. Start an administrator-elevated command prompt.
 2. To add the new application pool run the following command:  
-< samp=""> %windir%\system32\inetsrv\appcmd add AppPool -name:Pool\_Site1 -processModel.username:ERICDE-DELL-W\PoolId1 -processModel.password:!p4ssw0rd -processModel.identityType:SpecificUser
+<
+
+    [!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample3.cmd)]
 
 To set the root application of the Default Web Site to run in Pool\_Site1, run the following command:
 
-[!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample3.cmd)]
+[!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample4.cmd)]
 
 ## Creating and Locking Down the ACLs for the UNC Share
 
@@ -158,17 +160,17 @@ On the UNC server do the following:
             - Logs 
 
                 - failedReqLogFIles
-3. On g:\content\Site1\Logs\failedReqLogFiles, set the permissions on the filesystem path to give the **PoolId1** full control over the Logs directory. This is required, as the worker process identity must be able to list contents, write new files, create new directories, and delete old files. To do this from an administrator elevated command prompt, run the following command: 
+3. On g:\content\Site1\Logs\failedReqLogFiles, set the permissions on the filesystem path to give the **PoolId1** full control over the Logs directory. This is required, as the worker process identity must be able to list contents, write new files, create new directories, and delete old files. To do this from an administrator elevated command prompt, run the following command:  
 
-    - Windows Server® 2003 Fileserver : 
-
-        [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-4.unknown)]
-    - Windows Server 2003 Fileserver : 
+    - Windows Server® 2003 Fileserver:  
 
         [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-5.unknown)]
-4. Share the directory out. From the command line, do the following: 
+    - Windows Server 2003 Fileserver:  
 
-    [!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample6.cmd)]
+        [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-6.unknown)]
+4. Share the directory out. From the command line, do the following:  
+
+    [!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample7.cmd)]
 
 ## Setting Failed Request Tracing to Log to the UNC Path
 
@@ -183,7 +185,7 @@ To configure Failed Request Tracing to log to our UNC path, follow these directi
 3. Check the **Enabled** check box.
 4. Under *Directory*, type in the path to the UNC share -&gt; 
 
-    [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-7.unknown)]
+    [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-8.unknown)]
 
 [![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image11.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image9.png)
 
@@ -203,7 +205,7 @@ Configure a rule to catch all 200s for all URLs for **All Content** to run a tes
 
 The actual XML looks like the following in the web.config file for the Default Web Site:
 
-[!code-xml[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample8.xml)]
+[!code-xml[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample9.xml)]
 
 ## Checking the UNC Back End
 

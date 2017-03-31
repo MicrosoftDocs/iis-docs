@@ -77,7 +77,6 @@ Although Step 1 is complete in terms of our example, it is appropriate to discus
 | **element** | [!code-unknown[Main](configuration-extensibility/samples/sample-127068-6.unknown)] **Example:** [!code-unknown[Main](configuration-extensibility/samples/sample-127068-7.unknown)] |
 | **collection** | [!code-unknown[Main](configuration-extensibility/samples/sample-127068-8.unknown)] **Example:** [!code-unknown[Main](configuration-extensibility/samples/sample-127068-9.unknown)] |
 
-
 ### Step 2 – Registering the New Section
 
 Now that a new section has been defined, tell the configuration system about the section. Register the new section in the **%windir%\system32\inetsrv\config\applicationHost.config** file. Open the file and register the simpleLogging section as below:
@@ -260,9 +259,9 @@ Finally, this article examines extending configuration with a method. Configurat
 
     > [!NOTE]
     > We have implemented the **IappHostMethodExtension** interface. This interface has a single method called **ProvideMethod** which logically provides the method. When someone calls the method (see Step 3 for how to do this), the configuration system calls ProvideMethod and passes parameters, one of which has the name of the method being called; in the code above, we only handle a method called "deleteLogs".
-2. Build the project again using:
+2. Build the project again using:  
 
-[!code-console[Main](configuration-extensibility/samples/sample31.cmd)]
+    [!code-console[Main](configuration-extensibility/samples/sample31.cmd)]
 
 ### Step 2 - Updating the Schema
 
@@ -310,18 +309,20 @@ When extending the schema of an existing section, simply create a **&lt;sectionS
 
 Test our modifications by adding values for the "owner" and "ownerEmail" attributes and then check the configuration file to see the changes. Simply run the following command from the command line:
 
- SAMP>%windir%\system32\inetsrv\appcmd set site "Default Web Site" /owner:"John Contoso" /ownerEmail:"john@contoso.com"
+
+[!code-console[Main](configuration-extensibility/samples/sample36.cmd)]
+
 
 To see if the configuration was applied, run the following command and check the output:
 
 
-[!code-console[Main](configuration-extensibility/samples/sample36.cmd)]
+[!code-console[Main](configuration-extensibility/samples/sample37.cmd)]
 
 
 The output should be something like the following:
 
 
-[!code-unknown[Main](configuration-extensibility/samples/sample-127068-37.unknown)]
+[!code-unknown[Main](configuration-extensibility/samples/sample-127068-38.unknown)]
 
 
 > [!NOTE]

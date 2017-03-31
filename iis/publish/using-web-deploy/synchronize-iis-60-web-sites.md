@@ -61,7 +61,7 @@ For detailed steps on analyzing the output of getDependencies, see [Viewing Depe
 
     [!code-unknown[Main](synchronize-iis-60-web-sites/samples/sample-127154-2.unknown)]
 2. Install the remote service on the source or the destination depending on if you want to "pull" the data from a remote source or "push" the data to a remote destination.
-3. Start the service on the server.
+3. Start the service on the server.  
 
     [!code-console[Main](synchronize-iis-60-web-sites/samples/sample3.cmd)]
 4. Run the following command to validate what would happen if the synchronization were run. The **-whatif** flag will not show every change; it will just show an optimistic view of what might change if everything succeeds (for example, it won't catch errors where you can't write to the destination.)  
@@ -73,12 +73,13 @@ For detailed steps on analyzing the output of getDependencies, see [Viewing Depe
 
         [!code-unknown[Main](synchronize-iis-60-web-sites/samples/sample-127154-5.unknown)]
 5. After verifying the output, run the same command again without the **-whatif** flag:  
-- Pushing to remote destination, running on source machine  
 
-    [!code-unknown[Main](synchronize-iis-60-web-sites/samples/sample-127154-6.unknown)]
-- Pulling from a remote source, running on destination machine  
+    - Pushing to remote destination, running on source machine  
 
-    [!code-unknown[Main](synchronize-iis-60-web-sites/samples/sample-127154-7.unknown)]
+        [!code-unknown[Main](synchronize-iis-60-web-sites/samples/sample-127154-6.unknown)]
+    - Pulling from a remote source, running on destination machine  
+
+        [!code-unknown[Main](synchronize-iis-60-web-sites/samples/sample-127154-7.unknown)]
 
 ### {Optional - Synchronize your site to the target by using a package file}
 

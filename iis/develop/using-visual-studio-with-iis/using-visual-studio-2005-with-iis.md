@@ -260,63 +260,56 @@ In order to successfully debug a remote application, you must also meet the foll
 1. Install the Remote Debugging components on the server machine. For more information, see [How to: Set Up Remote Debugging](https://msdn.microsoft.com/en-us/library/bt727f1t.aspx).
 2. Run the Remote Debugging monitor (msvsmon.exe) on the server machine. See notes further about how to do this properly.
 3. Open the required firewall ports for remote debugging.  
-
-    When you run msvsmon.exe for the first time on the remote machine, it warns you if the ports are not open, and offers to open them automatically. If you want to configure the firewall manually or to see which ports are opened, see [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://msdn.microsoft.com/en-us/library/bb385831.aspx).
-
-    NOTE: msvsmon.exe may fail to open the firewall on Windows Vista and Windows Server 2008. In that case, you will receive the error dialog below after selecting one of the "Unblock remote debugging ..." options in the "Configure Firewall for Remote Debugging" dialog. If you receive this error, create the firewall rules manually using [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://msdn.microsoft.com/en-us/library/bb385831.aspx).
-
+ When you run msvsmon.exe for the first time on the remote machine, it warns you if the ports are not open, and offers to open them automatically. If you want to configure the firewall manually or to see which ports are opened, see     [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://msdn.microsoft.com/en-us/library/bb385831.aspx) .  
+  
+ NOTE: msvsmon.exe may fail to open the firewall on Windows Vista and Windows Server 2008. In that case, you will receive the error dialog below after selecting one of the "Unblock remote debugging ..." options in the "Configure Firewall for Remote Debugging" dialog. If you receive this error, create the firewall rules manually using     [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://msdn.microsoft.com/en-us/library/bb385831.aspx) .  
     [![](using-visual-studio-2005-with-iis/_static/image2.jpg)](using-visual-studio-2005-with-iis/_static/image1.jpg)
 4. If you are using a Web application project and publishing to a remote IIS server, or if you have opened the remote Web site project using the "File System" or "FTP Site" options, you must configure Visual Studio project start options to enable debugging.  
+ To do this for a Web site project, right-click on the Web site project node, chose "Start Options …". In the dialog, select "Use custom server" radio button and type in the base URL of your Web application on the remote server.  
+  
+ For a Web application project, right-click on the project node, chose "Properties …", and click the "Web" tab. In the "Web" tab, select the "Use IIS Web server" radio button and type in the base URL of your Web application on the remote server.  
+  
+ This process is described in detail earlier in the article.
+5. Configure permissions to allow debugging to take place. See notes further about how to do this properly.
 
-    To do this for a Web site project, right-click on the Web site project node, chose "Start Options …". In the dialog, select "Use custom server" radio button and type in the base URL of your Web application on the remote server.
+How you run the Remote Debugging monitor (msvsmon.exe) and configure your permissions depends on whether your are operating in a domain or workgroup environment.  
+  
+**To set up remote debugging in a workgroup environment**
 
-    For a Web application project, right-click on the project node, chose "Properties …", and click the "Web" tab. In the "Web" tab, select the "Use IIS Web server" radio button and type in the base URL of your Web application on the remote server.
+1. Create an account with the same username and password on both the Visual Studio 2005 client computer and the remote server computer. This account must have Administrative rights on the remote server computer.  
+    > [!NOTE]
+    > If you are using Windows Authentication in your application, this account must be the built-in Administrator account. This means that the built-in Administrator account must have the same password on both computers.
+2. Log on to the remote server computer using the account created in Step 1, and run the Visual Studio 2005 Remote Debugger from the Start menu by right-clicking it, and choosing "Run As Administrator".   
+ This is important – otherwise the Remote Debugging monitor receives a UAC-filtered token and cannot debug IIS worker processes.  
+  
+    > [!NOTE]
+    > Do not use the RunAs.exe command to run the msvsmon.exe process, as this always results in a UAC-filtered token and prevents debugging from working.
 
-    This process is described in detail earlier in the article.
-5. Configure permissions to allow debugging to take place. See notes further about how to do this properly.  
+You also have an option to run the Remote Debugging monitor as a service by opening the Visual Studio 2005 Remote Debugger Configuration Wizard from the Start menu. If using this option, you must configure the Remote Debugging monitor to log on using the account created in Step 1. You then also must grant the corresponding account the "Log On As A Service" right in the computer's Local Security Policy console.
 
-    How you run the Remote Debugging monitor (msvsmon.exe) and configure your permissions depends on whether your are operating in a domain or workgroup environment.
+1. Log on to the Visual Studio 2005 client computer with the account created in step #1. Run Visual Studio 2005 by right-clicking its icon in the Start menu, and choosing "Run As Administrator".  
+    > [!NOTE]
+    > It is very important to both log in using the account created in Step 1, and use the "Run As Administrator" option when running Visual Studio. As mentioned in Step 1, the account you are using MUST be an Administrative user on the remote server machine.
+2. Open the remote IIS Web site (using the File System, FTP Site or the Remote Site option).  
+ If you are using Windows Authentication in your IIS Web site, you must be running Visual Studio 2005 using the built-in Administrator account and therefore also running the Remote Debugging monitor on the remote computer using the built-in Administrator account. The password for the Administrator account must be the same on the client and remote server computers.  
+  
+ In addition, you can do the following:  
 
-    **To set up remote debugging in a workgroup environment**
+    - Use the FTP Site option to connect to the remote IIS Web site, and use Anonymous authentication. Then, you do not need to use the built-in Administrator account, as long as the account you are using is an Administrative user on the remote server computer.
+    - Use the Remote Site option to connect to the remote IIS Web site, and use Basic or Digest authentication. Then, you do not need to use the built-in Administrator account, as long as the account you are using is an Administrative user on the remote server computer.
 
-    1. Create an account with the same username and password on both the Visual Studio 2005 client computer and the remote server computer. This account must have Administrative rights on the remote server computer.  
+ If you need to use Windows Authentication in your IIS Web site, and you cannot use synchronized Administrator accounts, you must turn off UAC on the remote server computer and reboot prior to attempting to debug. This is not recommended for production servers as it may negatively affect the security of your server.
 
-        > [!NOTE]
-        > If you are using Windows Authentication in your application, this account must be the built-in Administrator account. This means that the built-in Administrator account must have the same password on both computers.
-    2. Log on to the remote server computer using the account created in Step 1, and run the Visual Studio 2005 Remote Debugger from the Start menu by right-clicking it, and choosing "Run As Administrator".   
+**To set up remote debugging in a domain environment**
 
-        This is important – otherwise the Remote Debugging monitor receives a UAC-filtered token and cannot debug IIS worker processes.
+Debugging in a domain environment is simpler to configure. To debug in a domain environment, you must:
 
-        > [!NOTE]
-        > Do not use the RunAs.exe command to run the msvsmon.exe process, as this always results in a UAC-filtered token and prevents debugging from working *.*
+1. Make the domain account you will be using to run Visual Studio 2005 a member of the Administrators group on the remote server computer.
+2. Log on to the remote server computer using the domain account, and run the Remote Debugging monitor (msvsmon.exe) using the "Run As Administrator" option.  
+ You also have an option to run the Remote Debugging monitor as a service by right clicking the Visual Studio 2005 Remote Debugger Configuration Wizard from the Start menu, and choosing "Run As Administrator". You can let the Remote Debugging monitor service run as LocalSystem.
+3. Log on to the Visual Studio 2005 client computer with the domain account. Run Visual Studio 2005 by right-clicking its icon in the Start menu, and choosing "Run As Administrator".
+4. Open the remote IIS Web site using the FTP Site or the Remote Site option.
 
-        You also have an option to run the Remote Debugging monitor as a service by opening the Visual Studio 2005 Remote Debugger Configuration Wizard from the Start menu. If using this option, you must configure the Remote Debugging monitor to log on using the account created in Step 1. You then also must grant the corresponding account the "Log On As A Service" right in the computer's Local Security Policy console.
-    3. Log on to the Visual Studio 2005 client computer with the account created in step #1. Run Visual Studio 2005 by right-clicking its icon in the Start menu, and choosing "Run As Administrator".  
+## Summary
 
-        > [!NOTE]
-        > It is very important to both log in using the account created in Step 1, and use the "Run As Administrator" option when running Visual Studio. As mentioned in Step 1, the account you are using MUST be an Administrative user on the remote server machine.
-    4. Open the remote IIS Web site (using the File System, FTP Site or the Remote Site option).  
-
-        If you are using Windows Authentication in your IIS Web site, you must be running Visual Studio 2005 using the built-in Administrator account and therefore also running the Remote Debugging monitor on the remote computer using the built-in Administrator account. The password for the Administrator account must be the same on the client and remote server computers.
-
-        In addition, you can do the following:
-
-        - Use the FTP Site option to connect to the remote IIS Web site, and use Anonymous authentication. Then, you do not need to use the built-in Administrator account, as long as the account you are using is an Administrative user on the remote server computer.
-        - Use the Remote Site option to connect to the remote IIS Web site, and use Basic or Digest authentication. Then, you do not need to use the built-in Administrator account, as long as the account you are using is an Administrative user on the remote server computer.
-
-        If you need to use Windows Authentication in your IIS Web site, and you cannot use synchronized Administrator accounts, you must turn off UAC on the remote server computer and reboot prior to attempting to debug. This is not recommended for production servers as it may negatively affect the security of your server.
-
-    **To set up remote debugging in a domain environment**
-
-    Debugging in a domain environment is simpler to configure. To debug in a domain environment, you must:
-
-    1. Make the domain account you will be using to run Visual Studio 2005 a member of the Administrators group on the remote server computer.
-    2. Log on to the remote server computer using the domain account, and run the Remote Debugging monitor (msvsmon.exe) using the "Run As Administrator" option.  
-
-        You also have an option to run the Remote Debugging monitor as a service by right clicking the Visual Studio 2005 Remote Debugger Configuration Wizard from the Start menu, and choosing "Run As Administrator". You can let the Remote Debugging monitor service run as LocalSystem.
-    3. Log on to the Visual Studio 2005 client computer with the domain account. Run Visual Studio 2005 by right-clicking its icon in the Start menu, and choosing "Run As Administrator".
-    4. Open the remote IIS Web site using the FTP Site or the Remote Site option.
-
-    ## Summary
-
-    This article provided information about using Visual Studio 2005 to work with IIS Web sites located on the local and remote computers, and how to debug web applications hosted in IIS.
+This article provided information about using Visual Studio 2005 to work with IIS Web sites located on the local and remote computers, and how to debug web applications hosted in IIS.

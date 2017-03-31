@@ -1,1 +1,1 @@
-%windir%\system32\inetsrv\appcmd set app -app.name:"Default Web Site/" -applicationPool:Pool_Site1
+%windir%\system32\inetsrv\appcmd add AppPool -name:Pool_Site1 -processModel.username:ERICDE-DELL-W\PoolId1 -processModel.password:!p4ssw0rd -processModel.identityType:SpecificUser

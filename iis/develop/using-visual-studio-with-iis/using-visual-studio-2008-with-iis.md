@@ -62,47 +62,35 @@ You can find the detailed explanation of the two models and their differences in
 
 1. In Visual Studio, on the **File** menu, select **New Project**, and then select the **ASP.NET Web Application** template.
 2. Click **OK**. Visual Studio opens to the **Source** view of the Default.aspx page so that you can edit it.  
-
     > [!NOTE]
-    > Unlike the Web site project option, you must place the application files on the local file system or a network share, and later use the **Publish** option to publish the contents of your application to an IIS Web site.
+    > Unlike the Web site project option, you must place the application files on the local file system or a network share, and later use the     **Publish** option to publish the contents of your application to an IIS Web site.
 
 **To publish the project to an IIS Web site:** 
 
-1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool.  
-
-    For more information, see [http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true). Alternatively, use an existing IIS Web site.
+1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool. For more information, see [http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true). Alternatively, use an existing IIS Web site.
 2. In Visual Studio, use the **Build** \ **Publish** option to publish the contents of your Web application to an IIS Web site.  
-
-    [![](using-visual-studio-2008-with-iis/_static/image4.png)](using-visual-studio-2008-with-iis/_static/image3.png)
-
+    [![](using-visual-studio-2008-with-iis/_static/image4.png)](using-visual-studio-2008-with-iis/_static/image3.png)   
     > [!NOTE]
-    > The **Publish Web** dialog by default publishes only the parts of your project that comprise your Web application - it does not publish the project file, obj directory, and other files. This is important because exposing these components to your Web users may be a security risk.
-
-    By clicking the "…" button, you can chose one of the four options for publishing your Web site:
+    > The     **Publish Web** dialog by default publishes only the parts of your project that comprise your Web application - it does not publish the project file, obj directory, and other files. This is important because exposing these components to your Web users may be a security risk.  
+  
+ By clicking the "…" button, you can chose one of the four options for publishing your Web site: 
 
     - **File System**. When using this option, Visual Studio opens / creates the Web application as a folder, and uses the built-in ASP.NET Development Server to host the Web site. This option may be sufficient for basic testing of ASP.NET applications – however, this mode does not support running ASP.NET applications in Integrated mode, and it does not support application technologies other than ASP.NET (such as PHP, ASP, CGI, etc).
     - **Local IIS**. When using this option, Visual Studio allows you to publish your application files to a local IIS Web site or application. You can also use the dialog to create new IIS applications or virtual directories to publish your files to.
     - **FTP Site**. When using this option, Visual Studio supports editing your application files if they are shared through FTP. You can still use Visual Studio to debug your applications by configuring the URL of your application in project start settings. For more information, see the section "Using Visual Studio 2008 with a Remote IIS Server" later in this article.
     - **Remote Site**. Using this option, Visual Studio can connect to a remote IIS server. To use this option, you need to have Front Page Server Extensions installed on the remote server and configure your Web site to use FPSE. For more information on this, see the "Using Visual Studio 2008 with a Remote IIS Server" section later in this article.
-3. Select **Local IIS**.  
-
-    You can also map the Web application project directory as a virtual directory on the local IIS installation by opening the project **Properties**, clicking the **Web** tab, and clicking the **Create Virtual Directory** button. You can use the **Create Virtual Directory** option as a quick way to host your Web application locally on IIS without going through the **Publish Web** option. However, this option is not generally recommended because it places all of the project files, source files, object files, and other temporary files in the servable namespace of the IIS virtual directory, which may result in a security risk. A better practice is to use the **Publish** options, which by default publish only the Web servable portions of the project.
-4. Configure debugging.  
-
-    By default, projects created using the Web application project model use the built-in ASP.NET Development Server ("Cassini") when testing or debugging your project.
-
-    This provides a convenient way to test your ASP.NET application without IIS – however, we recommend that you configure Visual Studio to test your application by using the IIS environment. The reasons for this are:
+3. Select **Local IIS**. You can also map the Web application project directory as a virtual directory on the local IIS installation by opening the project **Properties**, clicking the **Web** tab, and clicking the **Create Virtual Directory** button. You can use the **Create Virtual Directory** option as a quick way to host your Web application locally on IIS without going through the **Publish Web** option. However, this option is not generally recommended because it places all of the project files, source files, object files, and other temporary files in the servable namespace of the IIS virtual directory, which may result in a security risk. A better practice is to use the **Publish** options, which by default publish only the Web servable portions of the project.
+4. Configure debugging. By default, projects created using the Web application project model use the built-in ASP.NET Development Server ("Cassini") when testing or debugging your project. This provides a convenient way to test your ASP.NET application without IIS – however, we recommend that you configure Visual Studio to test your application by using the IIS environment. The reasons for this are:  
 
     - The ASP.NET Development Server does not support hosting ASP.NET applications in Integrated mode, which is the default mode of operation used by IIS. This may introduce differences in application behavior.
     - The ASP.NET Development Server does not support many of the IIS configuration features, so if your application relies on or uses them, its behavior may be different or incorrect when hosted under the ASP.NET Development Server.
     - The ASP.NET Development Server does not support hosting portions of your application that utilize application technologies other than ASP.NET, such as PHP, CGI, and other third party frameworks.
-
-    If you are developing on Windows Vista, you can easily take advantage of IIS to test your application locally by using the same environment it will be on when it is deployed - use the **Create Virtual Directory** option or the **Publish Web** dialog as discussed earlier in this article.
-
-    Alternatively, you can configure Visual Studio to connect to the a remote IIS server to which you publish your application.
-
-    In those cases, you can configure Visual Studio to debug your application in the IIS environment. To do this, right-click the project node, chose **Properties**, and click the **Web** tab. In the **Web** tab, select the **Use Local IIS Web server** option. The base URL of your Web application should populate automatically.
-
+  
+ If you are developing on Windows Vista, you can easily take advantage of IIS to test your application locally by using the same environment it will be on when it is deployed - use the     **Create Virtual Directory** option or the     **Publish Web** dialog as discussed earlier in this article.  
+  
+ Alternatively, you can configure Visual Studio to connect to the a remote IIS server to which you publish your application.  
+  
+ In those cases, you can configure Visual Studio to debug your application in the IIS environment. To do this, right-click the project node, chose     **Properties** , and click the     **Web** tab. In the     **Web** tab, select the     **Use Local IIS Web server** option. The base URL of your Web application should populate automatically.  
     [![](using-visual-studio-2008-with-iis/_static/image6.png)](using-visual-studio-2008-with-iis/_static/image5.png)
 
 For more information on configuring remote debugging, see "Debugging IIS Web Applications" later in this article.

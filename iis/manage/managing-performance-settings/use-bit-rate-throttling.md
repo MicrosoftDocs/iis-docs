@@ -50,8 +50,9 @@ IIS Bit Rate Throttling is included in IIS Media Services 3.0, which can be inst
 
 1. Go to the **[Microsoft Web Platform Installer 2.0 Web page](https://go.microsoft.com/?linkid=9656457)**, and then click **Download It Now** to download and run Web Platform Installer 2.0.
 2. In the lower-left corner of the **Web Platform Installer 2.0** dialog box, click **Options**.
-3. In the **Change Options** dialog box, under **Display additional scenarios**, make sure that the **Media** check box is selected, and then click **OK**.**Web Platform Installer 2.0****Media Platform****Host and Deliver Media Content****Customize**
-In thedialog box, on thetab, under, click.4. Select **IIS Media Services 3.0**, and then click **Install**.
+3. In the **Change Options** dialog box, under **Display additional scenarios**, make sure that the **Media** check box is selected, and then click **OK**.
+4. In the **Web Platform Installer 2.0** dialog box, on the **Media Platform** tab, under **Host and Deliver Media Content**, click **Customize**.
+5. Select **IIS Media Services 3.0**, and then click **Install**.
 
 ## Install Using Windows Installer
 

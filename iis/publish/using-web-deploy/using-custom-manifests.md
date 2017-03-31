@@ -33,7 +33,7 @@ A manifest is simply a grouping of providers into one definition file. It is a w
 
 Note: In this article, we show how to move an IIS 7 and above Web site and application pool, but you could also use the manifest on IIS 6.0 to specify an IIS 6.0 Web site and application pool.
 
-### Sample manifest
+## Sample manifest
 
 [!code-unknown[Main](using-custom-manifests/samples/sample-127150-1.unknown)]
 
@@ -53,11 +53,11 @@ Open the package. You should see the site itself and the extra directory specifi
 
 Later, you can use the package as the source and synchronize it to a destination that is specified by the manifest file (meaning you'll synchronize from the package to the providers that are specified in your manifest).
 
-You can also perform a sync operation with a manifest live, without using a package. In order to synchronize with a manifest, both the source and the destination arguments must specify a manifest file.
+You can also perform a **sync** operation with a manifest live, without using a package. In order to synchronize with a manifest, both the source and the destination arguments must specify a manifest file.
 
 ## To synchronize a site by using a custom manifest
 
-1. Run the following command to synchronize the manifest to a remote destination. The remote computer is specified by the computername argument.  
+1. Run the following command to synchronize the manifest to a remote destination. The remote computer is specified by the **computername** argument.  
 
     [!code-console[Main](using-custom-manifests/samples/sample3.cmd)]
 

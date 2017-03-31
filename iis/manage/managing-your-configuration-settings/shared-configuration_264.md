@@ -71,25 +71,21 @@ The IIS administration UI includes support for setting up configuration redirect
 
 1. Open IIS Manager.
 2. In the tree view, select the server connection for which you want to set up configuration redirection.
-3. Double-click **Shared Configuration**.
-
+3. Double-click **Shared Configuration**.  
     [![](shared-configuration_264/_static/image2.jpg)](shared-configuration_264/_static/image1.jpg)
-4. In the **Actions** pane, click **Export Configuration...** to export the necessary configuration files from the local server to another location (e.g., a UNC share).[![](shared-configuration_264/_static/image4.jpg)](shared-configuration_264/_static/image3.jpg)
+4. In the **Actions** pane, click **Export Configuration...** to export the necessary configuration files from the local server to another location (e.g., a UNC share).  
+    [![](shared-configuration_264/_static/image4.jpg)](shared-configuration_264/_static/image3.jpg)
 5. In the **Export Configuration** dialog box, enter the path to which you want to export the files. Enter a password to protect the encryption keys that are also exported. Click **OK** to export the configuration files and password-protected encryption keys.  
-
     [![](shared-configuration_264/_static/image6.jpg)](shared-configuration_264/_static/image5.jpg)
-6. Select the **Enable shared configuration** check box to enable configuration redirection.
-
+6. Select the **Enable shared configuration** check box to enable configuration redirection.  
     [![](shared-configuration_264/_static/image8.jpg)](shared-configuration_264/_static/image7.jpg)
-7. Specify the path where the configuration and encryption keys are located, and specify the credentials to use to access that path. Click **Connect As...** and enter the credentials.
-
+7. Specify the path where the configuration and encryption keys are located, and specify the credentials to use to access that path. Click **Connect As...** and enter the credentials.  
     [![](shared-configuration_264/_static/image10.jpg)](shared-configuration_264/_static/image9.jpg)
-8. Click **Apply** to save the settings. In the **Shared Configuration** dialog box, enter the password that you specified to protect the encryption keys.
-
+8. Click **Apply** to save the settings. In the **Shared Configuration** dialog box, enter the password that you specified to protect the encryption keys.  
     [![](shared-configuration_264/_static/image12.jpg)](shared-configuration_264/_static/image11.jpg)
 9. Click **OK** to finish setting up configuration redirection.
 
-    The steps above describe how to export the configuration and turn on centralized configuration. However, you only need to export the configuration once. Perform steps 6 to 9 on each subsequent server that will use the centralized configuration.
+The steps above describe how to export the configuration and turn on centralized configuration. However, you only need to export the configuration once. Perform steps 6 to 9 on each subsequent server that will use the centralized configuration.
 
 ### Notes About Using the UI
 
@@ -120,22 +116,22 @@ When trying new features or changing multiple configuration settings, it is good
 ### To back up the applicationHost.config file:
 
 1. Open a command prompt.
-2. Navigate to the IIS directory, which is located in %WINDIR%\System32\InetSrv by default. The configuration files are stored in the InetSrv\Config directory. Use the AppCmd tool to create a backup object and back up the applicationHost.config file by running the following command:
+2. Navigate to the IIS directory, which is located in %WINDIR%\System32\InetSrv by default. The configuration files are stored in the InetSrv\Config directory. Use the AppCmd tool to create a backup object and back up the applicationHost.config file by running the following command:  
 
-[!code-console[Main](shared-configuration_264/samples/sample1.cmd)]
+    [!code-console[Main](shared-configuration_264/samples/sample1.cmd)]
 
     > [!NOTE]
     > The AppCmd tool resides in the InetSrv directory. You must access the tool from this directory, unless the tool's path is added to the system's environment variables.
-3. Ensure that the backup object, which includes the applicationHost.config file and the legacy metabase file for SMTP and other non-Web server settings, is present by running the following command:
+3. Ensure that the backup object, which includes the applicationHost.config file and the legacy metabase file for SMTP and other non-Web server settings, is present by running the following command:  
 
-[!code-console[Main](shared-configuration_264/samples/sample2.cmd)]
+    [!code-console[Main](shared-configuration_264/samples/sample2.cmd)]
 
 **To replace the current configuration file with the backup file:** 
 
 1. Open a command prompt.
-2. Navigate to the IIS directory, which is located in the InetSrv directory by default. Restore the AppCmd backup file object by running the following command:
+2. Navigate to the IIS directory, which is located in the InetSrv directory by default. Restore the AppCmd backup file object by running the following command:  
 
-[!code-console[Main](shared-configuration_264/samples/sample3.cmd)]
+    [!code-console[Main](shared-configuration_264/samples/sample3.cmd)]
 
 <a id="05"></a>
 
@@ -290,10 +286,10 @@ These keys are in the iisConfigurationKey and iisWasKey key containers and are m
 
     [!code-console[Main](shared-configuration_264/samples/sample11.cmd)]
 3. Once exporting completes successfully, copy the XML file to the other machine in the cluster to prepare to import it there.
-4. Navigate to the Framework directory and use the aspnet\_regiis tool to import the key from the XML file. The command to finalize the transfer for the key is stated below.
-
-    The parameter after the **-pi** is the name of the key container to be imported. In this case, it is the "iisConfigurationKey" key container. The other key container that IIS uses is the "iisWasKey" key container.
+4. Navigate to the Framework directory and use the aspnet\_regiis tool to import the key from the XML file. The command to finalize the transfer for the key is stated below.  
+  
+ The parameter after the     **-pi** is the name of the key container to be imported. In this case, it is the "iisConfigurationKey" key container. The other key container that IIS uses is the "iisWasKey" key container. 
 
     [!code-console[Main](shared-configuration_264/samples/sample12.cmd)]
 
-    [Discuss in IIS Forums](https://forums.iis.net/1050.aspx)
+[Discuss in IIS Forums](https://forums.iis.net/1050.aspx)
