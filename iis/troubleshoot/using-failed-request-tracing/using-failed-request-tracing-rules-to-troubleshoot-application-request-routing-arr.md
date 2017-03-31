@@ -105,18 +105,18 @@ In this step, you will send requests to Application Request Routing and analyze 
     [![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image14.jpg)](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image13.jpg)
 6. Pay closer attention to the following sections:  
 
-    - **GENERAL\_REQUEST\_HEADERS:** 
+    - **GENERAL\_REQUEST\_HEADERS:**  
 
         - **Headers**: Shows the HTTP header that Application Request Routing has received.
 
-    - **ARR\_REQUEST\_ROUTED:** 
+    - **ARR\_REQUEST\_ROUTED:**  
 
         - **WebFarm**: Indicates the name of the server group to where the request is routed.
         - **Server**: Indicates the destination server to where the request is routed.
         - **Algorithm**: Indicates which load balance algorithm is used.
         - **RoutingReason**: Indicates the decision behind why the server is selected.
 
-    - **ARR\_SERVER\_STATS**: 
+    - **ARR\_SERVER\_STATS**:  
 
         - **State**: Availability of the destination server.
         - **TotalRequests**: Runtime statistic on how many requests have been sent to this server.
@@ -125,15 +125,15 @@ In this step, you will send requests to Application Request Routing and analyze 
         - **BytesReceived**: Runtime statistic on how much data in KB have been received from this server.
         - **ResponseTime**: Runtime statistic on the responsiveness in ms of this server.
 
-    - **GENERAL\_RESPONSE\_HEADERS**
+    - **GENERAL\_RESPONSE\_HEADERS**  
 
         - **Headers**: Shows the response HTTP header from the destination server.
 
-    - **GENERAL\_RESPONSE\_ENTITY\_BUFFER**
+    - **GENERAL\_RESPONSE\_ENTITY\_BUFFER**  
 
         - **Buffer**: Shows the response entity from the destination server.
 
-    - The following have been added with the timestamps to indicate the start and end times of corresponding events to profile the performance of Application Request Routing: 
+    - The following have been added with the timestamps to indicate the start and end times of corresponding events to profile the performance of Application Request Routing:  
 
         - **ARR\_REQUEST\_HEADERS\_START**
         - **ARR\_REQUEST\_HEADERS\_END**
@@ -144,10 +144,10 @@ In this step, you will send requests to Application Request Routing and analyze 
         - **ARR\_RESPONSE\_ENTITY\_START**
         - **ARR\_RESPONSE\_ENTITY\_END**
 
-    If you are collecting the Failed Request Tracing logs on server core, you must copy the logs with freb.xsl stylesheet to a computer where a browser is available.
+If you are collecting the Failed Request Tracing logs on server core, you must copy the logs with freb.xsl stylesheet to a computer where a browser is available.
 
-    ## Summary
+## Summary
 
-    You have now successfully configured Failed Request Tracing Rules for Application Request Routing. Failed Request Tracing Rules can be used to troubleshoot and debug Application Request Routing, as well as understand the routing decisions, including load balance algorithms, that it has made in selecting the destination server for a given request.
+You have now successfully configured Failed Request Tracing Rules for Application Request Routing. Failed Request Tracing Rules can be used to troubleshoot and debug Application Request Routing, as well as understand the routing decisions, including load balance algorithms, that it has made in selecting the destination server for a given request.
 
-    [Discuss in IIS Forums](https://forums.iis.net/1154.aspx)
+[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

@@ -74,12 +74,12 @@ Based on analyzing your dependencies, you would install those components on the 
         [!code-console[Main](synchronize-iis/samples/sample5.cmd)]
 5. After verifying the output, run the same command again without the **-whatif** flag:  
 
-    - Pushing to remote destination, running on source machine
+    - Pushing to remote destination, running on source machine  
 
         [!code-console[Main](synchronize-iis/samples/sample6.cmd)]
-6. Pulling from a remote source, running on destination machine  
+    - Pulling from a remote source, running on destination machine  
 
-    [!code-console[Main](synchronize-iis/samples/sample7.cmd)]
+        [!code-console[Main](synchronize-iis/samples/sample7.cmd)]
 
 ### {Optional - Synchronize your site to the target by using a package file}
 

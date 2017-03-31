@@ -109,66 +109,67 @@ To enable Failed Request Tracing for a site (for example, Troubleshooting.PHP), 
     - **GENERAL\_REQUEST\_HEADERS** event gives the complete list of headers, which in some cases may be significant when determining which user input may have lead to the error.
     - **GENERAL\_RESPONSE\_HEADERS** and **GENERAL\_RESPONSE\_ENTITY\_BUFFER** events provide the complete response headers and the response body that was sent to the client. In this case, the response body provides the additional information needed to diagnose the error, indicating an incorrect product ID.
 
-    These are other sections you should consider while inspecting the trace log:
+These are other sections you should consider while inspecting the trace log:
 
-    - The **Request Summary** panel provides a summary of the request, its result, and also highlights any warning or error events during the request execution.
-    - The **Request Details** panel provides a hierarchical view of the request execution, also allowing you to filter the events by various categories such as Module notifications, Authentication/Authorization, etc. It also offers the Performance View, which helps you understand which parts of execution took the longest time.
-    - The **Compact View** offers the complete list of events, including a wealth of information about the request execution. Many of the IIS modules produce information about their execution that can be used to understand various aspects of the request processing and the outcome. This information can be invaluable when troubleshooting complex interactions, such as URL rewriting or authentication.
+- The **Request Summary** panel provides a summary of the request, its result, and also highlights any warning or error events during the request execution.
+- The **Request Details** panel provides a hierarchical view of the request execution, also allowing you to filter the events by various categories such as Module notifications, Authentication/Authorization, etc. It also offers the Performance View, which helps you understand which parts of execution took the longest time.
+- The **Compact View** offers the complete list of events, including a wealth of information about the request execution. Many of the IIS modules produce information about their execution that can be used to understand various aspects of the request processing and the outcome. This information can be invaluable when troubleshooting complex interactions, such as URL rewriting or authentication.
 
-    ## Locate Hanging Requests by Inspecting Current Requests Execution
+## Locate Hanging Requests by Inspecting Current Requests Execution
 
-    This provides a quick way to determine which requests are hanging by inspecting the currently executing requests in IIS.
+This provides a quick way to determine which requests are hanging by inspecting the currently executing requests in IIS.
 
-    Suppose you request a page that enters into an endless loop due to a programming bug. In the steps that follow, this page is loop.php. In task manager, you may observe that the Php-cgi.exe is busy, consuming near 100 percent of the CPU (if you have multiple CPU cores, you will see the process consuming 1/# of cores of total CPU). You can determine which request is hanging:
+Suppose you request a page that enters into an endless loop due to a programming bug. In the steps that follow, this page is loop.php. In task manager, you may observe that the Php-cgi.exe is busy, consuming near 100 percent of the CPU (if you have multiple CPU cores, you will see the process consuming 1/# of cores of total CPU). You can determine which request is hanging:
 
-    1. Click **Start**, and then select **Internet Information Services (IIS) Manager**.
-    2. In the tree view on the left, click on the **Server** node.
-    3. Under **IIS**, double-click **Worker Processes**.
-    4. Under **Application Pool** Name, double-click on your *site name*. (In this example, the site is Troubleshooting.PHP.)  
-        [![](troubleshoot-with-failed-request-tracing/_static/image14.jpg)](troubleshoot-with-failed-request-tracing/_static/image13.jpg)  
-        *Figure 7: View the Application Pool in a worker process*
-    5. Switch over to a Web browser, and refresh the page if the page has timed out. This may need to be done throughout these steps. Switch back to **IIS Manager**, and then refresh the **Requests** view.  
-        [![](troubleshoot-with-failed-request-tracing/_static/image16.jpg)](troubleshoot-with-failed-request-tracing/_static/image15.jpg)  
-        *Figure 8: View the requests*
-    6. Observe the list of currently executing requests, showing the request to the problem page, in this case, /loop.php. The request entry shows:  
+1. Click **Start**, and then select **Internet Information Services (IIS) Manager**.
+2. In the tree view on the left, click on the **Server** node.
+3. Under **IIS**, double-click **Worker Processes**.
+4. Under **Application Pool** Name, double-click on your *site name*. (In this example, the site is Troubleshooting.PHP.)  
+    [![](troubleshoot-with-failed-request-tracing/_static/image14.jpg)](troubleshoot-with-failed-request-tracing/_static/image13.jpg)  
+    *Figure 7: View the Application Pool in a worker process*
+5. Switch over to a Web browser, and refresh the page if the page has timed out. This may need to be done throughout these steps. Switch back to **IIS Manager**, and then refresh the **Requests** view.  
+    [![](troubleshoot-with-failed-request-tracing/_static/image16.jpg)](troubleshoot-with-failed-request-tracing/_static/image15.jpg)  
+    *Figure 8: View the requests*
+6. Observe the list of currently executing requests, showing the request to the problem page, in this case, /loop.php. The request entry shows:  
 
-        - That the request has been executing for some time (Time Elapsed).
-        - The URL of the request (in this case, /loop.php).
-        - The module name (FastCGIModule).
-        - The execution stage (ExecuteRequestHandler).
+    - That the request has been executing for some time (Time Elapsed).
+    - The URL of the request (in this case, /loop.php).
+    - The module name (FastCGIModule).
+    - The execution stage (ExecuteRequestHandler).
 
-        You can refresh the view several times to observe that the same request continues to execute in the same stage, pointing out the hanging request.
-    7. Determine which request is hanging using the command prompt. With the command prompt, you can filter out the requests of interest, for example requests to a specific application or a specific URL. It can be used to automate scripts that monitor currently executing requests. Open the Command Prompt window by clicking **Start**, and then selecting **Command Prompt**.
-    8. Switch to a Web browser, and then refresh the http://localhost:84/loop.php page. (Note that loop.php is a sample name; the name of your page should be used.) You may need to continually refresh this page for the following steps. Switch to the **command prompt**.
-    9. Run the following command to list the requests that have been executing for more than one second:  
+You can refresh the view several times to observe that the same request continues to execute in the same stage, pointing out the hanging request.
 
-        [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample5.cmd)]
+- Determine which request is hanging using the command prompt. With the command prompt, you can filter out the requests of interest, for example requests to a specific application or a specific URL. It can be used to automate scripts that monitor currently executing requests. Open the Command Prompt window by clicking **Start**, and then selecting **Command Prompt**.
+- Switch to a Web browser, and then refresh the http://localhost:84/loop.php page. (Note that loop.php is a sample name; the name of your page should be used.) You may need to continually refresh this page for the following steps. Switch to the **command prompt**.
+- Run the following command to list the requests that have been executing for more than one second:  
+
+    [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample5.cmd)]
 
  This will produce output similar to the following, with your page name instead of loop.php:  
 
-        [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample6.cmd)]
-    10. Filter the requests returned by specifying any number of criteria based on the available request attributes. For example, to show only the requests to a specific URL:  
+    [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample6.cmd)]
+- Filter the requests returned by specifying any number of criteria based on the available request attributes. For example, to show only the requests to a specific URL:  
 
-        [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample7.cmd)]
-    11. You can also leverage **AppCmd** command linking to perform more complex queries, for example to determine all applications that have long-running requests:  
+    [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample7.cmd)]
+- You can also leverage **AppCmd** command linking to perform more complex queries, for example to determine all applications that have long-running requests:  
 
-        [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample8.cmd)]
+    [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample8.cmd)]
 
  This produces the list of applications, similar to the following:  
 
-        [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample9.cmd)]
-    12. Here is an example of taking an action based on the current request data: Recycling the application pools with requests that have been executing for more than five seconds:  
+    [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample9.cmd)]
+- Here is an example of taking an action based on the current request data: Recycling the application pools with requests that have been executing for more than five seconds:  
 
-        [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample10.cmd)]
+    [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample10.cmd)]
 
-        This will produce the following output, with the name of your application:
+    This will produce the following output, with the name of your application:
 
-        [!code-unknown[Main](troubleshoot-with-failed-request-tracing/samples/sample-127415-11.unknown)]
+    [!code-unknown[Main](troubleshoot-with-failed-request-tracing/samples/sample-127415-11.unknown)]
 
-        *Note: This article uses material from the [PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb&amp;DisplayLang=en), published on August 25, 2009.*
+*Note: This article uses material from the [PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb&amp;DisplayLang=en), published on August 25, 2009.*
 
-        ## Links for Further Information
+## Links for Further Information
 
-        [IIS 7.0 Server-Side](http://mvolo.com/blogs/serverside/archive/2007/06/19/Do-complex-IIS-management-tasks-easily-with-AppCmd-command-piping.aspx).
+[IIS 7.0 Server-Side](http://mvolo.com/blogs/serverside/archive/2007/06/19/Do-complex-IIS-management-tasks-easily-with-AppCmd-command-piping.aspx).
 
-        [Error Handling and Logging](http://www.php.net/errorfunc).
+[Error Handling and Logging](http://www.php.net/errorfunc).
