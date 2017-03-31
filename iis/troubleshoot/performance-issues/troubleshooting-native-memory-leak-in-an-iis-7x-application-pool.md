@@ -107,7 +107,7 @@ The command does not enable stack tracing for a process that is already running.
 
 Use the following commands to verify what settings have been set for a specific process:
 
-[!code-unknown[Main](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/samples/sample-127565-2.unknown)]
+[!code-console[Main](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/samples/sample2.cmd)]
 
 When you run DebugDiag, it will display the Select Rule Type dialog. Follow these steps to create a leak rule for your application pool.
 

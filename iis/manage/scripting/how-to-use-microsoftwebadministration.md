@@ -65,7 +65,7 @@ In order to update, the commit changes call executes the transaction to serializ
 Executing the code above generates the following output in applicationHost.config within the section. Instead of manipulating the XML directly and working at the element and attribute level, using the server manager objects provides a convenient way to manage the web server.
 
 
-[!code-unknown[Main](how-to-use-microsoftwebadministration/samples/sample-127046-7.unknown)]
+[!code-xml[Main](how-to-use-microsoftwebadministration/samples/sample7.xml)]
 
 
 ## Create a New Application Pool
@@ -105,7 +105,7 @@ Once the application pool configuration data is serialized to the file via the u
 Executing the code above generates the following output in applicationHost.config within the section. Instead of manipulating the XML directly and working at the element and attribute level, using the server manager objects provides a convenient way to manage the web server.
 
 
-[!code-unknown[Main](how-to-use-microsoftwebadministration/samples/sample-127046-13.unknown)]
+[!code-xml[Main](how-to-use-microsoftwebadministration/samples/sample13.xml)]
 
 
 Also, the following changes happen to the section:

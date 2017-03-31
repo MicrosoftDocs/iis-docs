@@ -152,11 +152,11 @@ To obtain optimal functionality and performance, configure your server as follow
 - Set the FastCGI process pool property **InstanceMaxRequests** to **10000**. This setting specifies that the FastCGI extension will recycle php-cgi.exe after it has processed 10000 requests successfully.
 
 
-[!code-unknown[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample-127405-4.unknown)]
+[!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample4.cmd)]
 
 3. Configure the FastCGI extension to set the **PHP\_FCGI\_MAX\_REQUESTS** environment variables for the PHP process to **10000**.This setting instructs php-cgi.exe to recycle itself after it has processed 10000 requests successfully.
 
-[!code-unknown[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample-127405-5.unknown)]
+[!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample5.cmd)]
 
 > [!NOTE]
 > You can configure **InstanceMaxRequests** and **PHP\_FCGI\_MAX\_REQUESTS** to use numbers other than 10000. As a general rule, ensure that the value of **InstanceMaxRequests** is less than or equal to the value of **PHP\_FCGI\_MAX\_REQUESTS**.
@@ -167,7 +167,7 @@ After installing the FastCGI extension and registering and configuring the PHP C
 
 To test the PHP application, create and request a **phpinfo.php** page in your site that contains the following:
 
-[!code-unknown[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample-127405-6.unknown)]
+[!code-xml[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample6.xml)]
 
 You should see something like the following:
 

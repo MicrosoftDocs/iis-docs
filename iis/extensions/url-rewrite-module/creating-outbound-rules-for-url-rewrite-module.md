@@ -35,7 +35,7 @@ To demonstrate how the URL rewrite module 2 works, you will use a simple ASP.NET
 
 1. Create a file named article.aspx in the following folder:  
 
-    [!code-unknown[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample-127339-1.unknown)]
+    [!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample1.cmd)]
 2. Copy the following ASP.NET markup, paste it into the file and save the file:  
 
     [!code-aspx[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample2.aspx)]
@@ -61,7 +61,7 @@ These URLs will be rewritten to have a format like the following:
 
 1. Open the **web.config** file located in the following location:   
 
-    [!code-unknown[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample-127339-6.unknown)]
+    [!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample6.cmd)]
 2. Under the **/configuration/system.webServer** element, add the following and then save the file:  
 
     [!code-xml[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample7.xml)]
@@ -205,7 +205,7 @@ Save the rule by clicking on "Apply" action on the right hand side.
 The rewrite rules are stored either in **aplicationHost.config** file or in **web.config** files. To check the configuration of the rule that you have just created, open a web.config file located in
 
 
-[!code-unknown[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample-127339-14.unknown)]
+[!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample14.cmd)]
 
 
 In this file you see the **&lt;rewrite&gt;** section that contains all the rules definitions, as in the following example:

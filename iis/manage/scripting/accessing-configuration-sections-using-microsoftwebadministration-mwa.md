@@ -31,7 +31,7 @@ This article provides examples of programmatic access to the IIS configuration s
 An example of a section that has nested elements is the system.webServer/asp section. The "session" element is defined within the "asp" section. The schema for this section is as shown below. There are other properties in the schema and other nested elements which are not shown in the example.
 
 
-[!code-unknown[Main](accessing-configuration-sections-using-microsoftwebadministration-mwa/samples/sample-127047-1.unknown)]
+[!code-xml[Main](accessing-configuration-sections-using-microsoftwebadministration-mwa/samples/sample1.xml)]
 
 
 ### Sections with a collection
@@ -39,7 +39,7 @@ An example of a section that has nested elements is the system.webServer/asp sec
 A section having a collection of elements indexed by a key is the system.webServer/security/isapiCgiRestriction section. The schema for the section is as shown.
 
 
-[!code-unknown[Main](accessing-configuration-sections-using-microsoftwebadministration-mwa/samples/sample-127047-2.unknown)]
+[!code-xml[Main](accessing-configuration-sections-using-microsoftwebadministration-mwa/samples/sample2.xml)]
 
 
 ## Generic Access to the Sections

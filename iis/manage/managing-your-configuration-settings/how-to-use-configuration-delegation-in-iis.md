@@ -58,10 +58,10 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 
 1. Using a text editor such as Notepad, open the ApplicationHost.config file in the following location:
 
-    [!code-unknown[Main](how-to-use-configuration-delegation-in-iis/samples/sample-127036-1.unknown)]
+    [!code-console[Main](how-to-use-configuration-delegation-in-iis/samples/sample1.cmd)]
 2. Navigate to the **&lt;sites&gt;** section, which looks similar to the following:
 
-    [!code-unknown[Main](how-to-use-configuration-delegation-in-iis/samples/sample-127036-2.unknown)]
+    [!code-xml[Main](how-to-use-configuration-delegation-in-iis/samples/sample2.xml)]
 3. Verify that the Web server is running and that you can access the default Web site. To do so, launch the browser and request [http://localhost/](http://localhost/)
 4. The request should return a Web page. If it does not, start the IIS server by typing "**net start w3svc**" from the command-box, or troubleshoot using the Windows Event Log viewer.
 5. In the browser, request [http://localhost/app](http://localhost/app)
@@ -71,7 +71,7 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 
     When you are finished, the **&lt;sites&gt;** sections looks similar to the following:
 
-    [!code-unknown[Main](how-to-use-configuration-delegation-in-iis/samples/sample-127036-3.unknown)]
+    [!code-xml[Main](how-to-use-configuration-delegation-in-iis/samples/sample3.xml)]
 
     You have just defined a new application in the configuration file.
 7. In the browser, request [http://localhost/app](http://localhost/app)

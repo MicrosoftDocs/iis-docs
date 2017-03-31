@@ -51,7 +51,7 @@ The following items are required to complete the procedures in this article:
     - Open a command prompt.
     - Type the following command:
 
-        [!code-unknown[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample-127188-1.unknown)]
+        [!code-console[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample1.cmd)]
     - Close the command prompt.
 
 <a id="001"></a>

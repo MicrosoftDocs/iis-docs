@@ -67,11 +67,11 @@ Fiddelr output when compression is not working:
     [Process Monitor](https://technet.microsoft.com/en-us/sysinternals/bb896645)
 3. **Check if compression is enabled in Metabase.xml:** Compression is not turned on in the metabase at the right locations. There are three metabase locations for Compression configuration:
 
-    [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-3.unknown)]
+    [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample3.cmd)]
 
-    [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-4.unknown)]
+    [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample4.cmd)]
 
-    [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-5.unknown)]
+    [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample5.cmd)]
 
     Configuring at the /parameters location is \*mandatory\*. Then, you need to configure at either /gzip \*or\* /deflate, \*or\* both. This means that configuring at just /gzip will not work, at just /deflate will not work, and just /parameters will not work. But, configuring at /parameters and /gzip will enable the Gzip compression scheme. And, configuring /parameters and /deflate will enable the Deflate compression scheme. Finally, configuring at all three will enable both GZip compression and Deflate compression.
 4. **Check the metabase permission for IIS 6:** By default, IIS\_WPG has Read, Unsecure Read, Enumerate Keys and Write permission to the /LM/W3SVC/Filters.
@@ -104,9 +104,9 @@ Fiddelr output when compression is not working:
 
     **For static files:** 
 
-    [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-10.unknown)]
+    [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample10.cmd)]
 
-    [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-11.unknown)]
+    [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample11.cmd)]
 
     This command will output:
 
@@ -114,7 +114,7 @@ Fiddelr output when compression is not working:
 
     **For dynamic files:** 
 
-    [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-13.unknown)]
+    [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample13.cmd)]
 
     This command will output:
 
@@ -167,16 +167,16 @@ Fiddelr output when compression is not working:
         "IIS: WWW Server" 0xFFFFFFFE 5 For more information, reference IIS Providers: [https://technet.microsoft.com/en-us/library/cc758221(v=ws.10).aspx](https://technet.microsoft.com/en-us/library/cc758221(v=ws.10).aspx)
     - Open a command window, and run follow command:
 
-        [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-16.unknown)]
+        [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample16.cmd)]
     - Reproduce the problem.
     - Run follow command to stop the trace.
 
-        [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-17.unknown)]
+        [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample17.cmd)]
     - Convert the trace to text file.
 
         Trace Report converts the binary trace data into text and produces two files in the directory where you executed the tracerpt command:
 
-        [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-18.unknown)]
+        [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample18.cmd)]
 
         **Summary.txt** contains general details about the trace session, including which providers were used.
 

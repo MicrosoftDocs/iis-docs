@@ -33,19 +33,19 @@ We're starting by querying the state of our web-sites.
 ### Site State
 
 
-[!code-unknown[Main](powershell-snap-in-run-time-data/samples/sample-127219-1.unknown)]
+[!code-powershell[Main](powershell-snap-in-run-time-data/samples/sample1.ps1)]
 
 
 Stopping DemoSite can be achieved with the Stop-WebItem cmdlet:
 
 
-[!code-unknown[Main](powershell-snap-in-run-time-data/samples/sample-127219-2.unknown)]
+[!code-powershell[Main](powershell-snap-in-run-time-data/samples/sample2.ps1)]
 
 
 Starting works the same of course:
 
 
-[!code-unknown[Main](powershell-snap-in-run-time-data/samples/sample-127219-3.unknown)]
+[!code-powershell[Main](powershell-snap-in-run-time-data/samples/sample3.ps1)]
 
 
 ### AppPool State
@@ -53,19 +53,19 @@ Starting works the same of course:
 We want to do the same for Application Pools
 
 
-[!code-unknown[Main](powershell-snap-in-run-time-data/samples/sample-127219-4.unknown)]
+[!code-powershell[Main](powershell-snap-in-run-time-data/samples/sample4.ps1)]
 
 
 But there is also the state property you can read on the AppPools node. Let's have some fun with the next example. Turn your speakers on and execute the following command:
 
 
-[!code-unknown[Main](powershell-snap-in-run-time-data/samples/sample-127219-5.unknown)]
+[!code-console[Main](powershell-snap-in-run-time-data/samples/sample5.cmd)]
 
 
 Now start DemoAppPool again:
 
 
-[!code-unknown[Main](powershell-snap-in-run-time-data/samples/sample-127219-6.unknown)]
+[!code-powershell[Main](powershell-snap-in-run-time-data/samples/sample6.ps1)]
 
 
 ### Recycling AppPools
@@ -82,7 +82,7 @@ The one difference with AppPools is that they can be recycled. The cmdlet to rec
 We use the Net.WebClient class to request [http://localhost/](http://localhost/). Instead of displaying the output on the screen we are just looking at the length of the response.
 
 
-[!code-unknown[Main](powershell-snap-in-run-time-data/samples/sample-127219-7.unknown)]
+[!code-powershell[Main](powershell-snap-in-run-time-data/samples/sample7.ps1)]
 
 
 #### 2. Querying the Worker Process PID
@@ -90,7 +90,7 @@ We use the Net.WebClient class to request [http://localhost/](http://localhost/)
 Assuming you have no other active web sites and applications on your machine the following command should return only one PID:
 
 
-[!code-unknown[Main](powershell-snap-in-run-time-data/samples/sample-127219-8.unknown)]
+[!code-powershell[Main](powershell-snap-in-run-time-data/samples/sample8.ps1)]
 
 
 There is a better way to get to worker processes, handled a little later in this walkthrough.
@@ -100,7 +100,7 @@ There is a better way to get to worker processes, handled a little later in this
 We recycle the Application Pool by using the Restart-WebItem cmdlet:
 
 
-[!code-unknown[Main](powershell-snap-in-run-time-data/samples/sample-127219-9.unknown)]
+[!code-powershell[Main](powershell-snap-in-run-time-data/samples/sample9.ps1)]
 
 
 4. Querying for the Worker Process PID
@@ -108,7 +108,7 @@ We recycle the Application Pool by using the Restart-WebItem cmdlet:
 If the AppPool was successfully recycled your Process ID should have been changed.
 
 
-[!code-unknown[Main](powershell-snap-in-run-time-data/samples/sample-127219-10.unknown)]
+[!code-powershell[Main](powershell-snap-in-run-time-data/samples/sample10.ps1)]
 
 
 ## Worker Processes and Requests
@@ -116,7 +116,7 @@ If the AppPool was successfully recycled your Process ID should have been change
 The get-process cmdlet doesn't help you figuring out which Application Pool a particular worker process is serving. This can be easily done however:
 
 
-[!code-unknown[Main](powershell-snap-in-run-time-data/samples/sample-127219-11.unknown)]
+[!code-powershell[Main](powershell-snap-in-run-time-data/samples/sample11.ps1)]
 
 
 ### Currently Executing Requests
@@ -130,13 +130,13 @@ If your machine is not a production machine you will have a hard time looking at
 If you want to look at the currently executing requests you can type the following command (NOTE: the process id you have to use for the get-item command will be different on your machine):
 
 
-[!code-unknown[Main](powershell-snap-in-run-time-data/samples/sample-127219-13.unknown)]
+[!code-powershell[Main](powershell-snap-in-run-time-data/samples/sample13.ps1)]
 
 
 Or if you want to see how much time already passed since you started the request:
 
 
-[!code-unknown[Main](powershell-snap-in-run-time-data/samples/sample-127219-14.unknown)]
+[!code-powershell[Main](powershell-snap-in-run-time-data/samples/sample14.ps1)]
 
 
 ## Summary

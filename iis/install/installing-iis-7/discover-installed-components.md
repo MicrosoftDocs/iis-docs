@@ -28,7 +28,7 @@ To work around these issues, we are publishing a list of registry keys that show
 
 These keys appear in the following registry hive:
 
-[!code-unknown[Main](discover-installed-components/samples/sample-127000-1.unknown)]
+[!code-console[Main](discover-installed-components/samples/sample1.cmd)]
 
 
 | Display Name | Registry Key |

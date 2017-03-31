@@ -242,7 +242,7 @@ The **&lt;location\_path&gt;** is the location path to the object being configur
 
 Compression is an IIS feature, and it appears under IIS if you group/filter the home page feature list by Area. If you've navigated to the server-level Compression page and you disable static compression, IIS Manager will write this configuration into %windir%\Windows\system32\inetsrv\applicationHost.config:
 
-[!code-unknown[Main](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/samples/sample-126985-3.unknown)]
+[!code-xml[Main](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/samples/sample3.xml)]
 
 .NET Compilation is .NET Framework configuration, and it appears under ASP.NET if you group/filter the home page feature list by Area. If you've navigated to the server-level .NET Compilation page and you set the default language to C#, IIS Manager will add the defaultLanguage attribute to the compilation section in the root web.config file, i.e. %windir%\Windows\\Microsoft.NET\Framework\v2.0.50727\CONFIG\web.config:
 

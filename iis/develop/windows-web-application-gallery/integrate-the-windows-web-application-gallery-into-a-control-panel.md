@@ -93,12 +93,12 @@ Install and configure the deployment handler.
         [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample1.cmd)]
     - Grant the user read permission to   
 
-        [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-2.unknown)]
+        [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample2.cmd)]
     - Grant the user modify permission to  
 
         [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-3.unknown)]
 
-        [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-4.unknown)]
+        [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample4.cmd)]
 6. Add a set of rules to allow customers to deploy content, applications, and databases by opening the **Administration.config** file and navigating to this section:  
 
     [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample5.xml)]
@@ -117,13 +117,13 @@ Create a Web site, application pool, and custom identity to host the code for th
 
 1. Create a physical directory for the sample application Web site with the following command:  
 
-    [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-7.unknown)]
+    [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample7.cmd)]
 2. Create a new user account that will be used to run the sample application and install the applications. Run the following from an elevated command prompt:  
 
     [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample8.cmd)]
 3. Grant access to the user account:  
 
-    [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-9.unknown)]
+    [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample9.cmd)]
 4. Create a new Web site to host the sample application.
 5. Start **IIS Manager**, and browse to the **Web Sites** node.
 6. Right-click on the **Web Sites** node, and then select **Add Web Site**.
@@ -260,12 +260,12 @@ The product list feed **WebProductList.xml** is the root feed. It not only conta
     [!code-html[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample19.html)]
 2. The WebApplicationList.xml contains references to application packages contained within &lt;entry&gt; elements. Each package entry contains a list of dependencies. For example, the dependency element for a PHP application that also uses MySQL such as WordPress is:  
 
-    [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-20.unknown)]
+    [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample20.xml)]
 
  The &lt;dependency&gt; element means the beginning of the dependency list. The &lt;and&gt; element means that all the dependency elements listed inside are required by the application.
 3. Note the idref="PHPApp" and idref="MySQLApp" properties. They refer to another &lt;dependency&gt; element with corresponding "id" value that defines the actual dependencies. For example, if you examine the WebApplicationList.xml file for the "PHPApp" dependency element, you find the set of PHPApp dependencies:  
 
-    [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-21.unknown)]
+    [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample21.xml)]
 4. The **&lt;** productId&gt; element contains the reference to the corresponding product in the parent feed WebProductList.xml. For example:  
 
     - ID = WDeployNoSMO, corresponds to Web Deploy without SMO
@@ -274,7 +274,7 @@ The product list feed **WebProductList.xml** is the root feed. It not only conta
  Notice that the &lt;or&gt; entry means that the dependency is for one or the other or both.
 5. The product entries in the WebProductList.xml contain a &lt;discoveryHint&gt; element that shows what to look for to find out if the product already exist in the target machine or not. For example, in the case of product id "MySQLConnector":  
 
-    [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-22.unknown)]
+    [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample22.xml)]
 6. The &lt;or&gt; element means that at least one of &lt;discoveryHint&gt; elements must be satisfied.
 
 ## Filter the List of Applications Using the Web PI API
@@ -284,7 +284,7 @@ You can provide your users with a UI that lets them sort the applications based 
 In the Application Entry example above, you can see:
 
 
-[!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-23.unknown)]
+[!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample23.xml)]
 
 
 The following code snippet illustrates how you can filter applications by their keywords:
@@ -306,7 +306,7 @@ The following example lists all applications that have the "PHP" keyword followe
 When the user selects an application, you need to download the Web Deploy package to a location on the server where the application will be installed. The package is available via HTTP. Its location is in the feed as the data within the &lt;installer&gt; element. For example:
 
 
-[!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-26.unknown)]
+[!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample26.xml)]
 
 
 The sample applications use the WebClient.DownloadFile method to download the package file; after downloading the sample applications, verify the hash and display the parameters required by the package.

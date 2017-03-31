@@ -75,17 +75,17 @@ There are several ways to set your ACLs through the shell, including command-lin
 
 To give Read, Execute, and Write permissions to *MyApp* file system directory for user *Foo*, add the following line to the Manifest.xml file:
 
-[!code-unknown[Main](secure-content-in-iis-through-file-system-acls/samples/sample-127017-1.unknown)]
+[!code-xml[Main](secure-content-in-iis-through-file-system-acls/samples/sample1.xml)]
 
 To set the ACL on the path *MyApp/Upload* to allow anonymous users to upload content, add the following line to your Manifest.xml file:
 
-[!code-unknown[Main](secure-content-in-iis-through-file-system-acls/samples/sample-127017-2.unknown)]
+[!code-xml[Main](secure-content-in-iis-through-file-system-acls/samples/sample2.xml)]
 
 Note that ***anonymousAuthenticationUser*** is a special token that will resolve to your configured anonymous authentication identity.
 
 To grant Read access to the MyApp\Data folder for the application pool identity, add the following line to the Manifest.xml file:
 
-[!code-unknown[Main](secure-content-in-iis-through-file-system-acls/samples/sample-127017-3.unknown)]
+[!code-xml[Main](secure-content-in-iis-through-file-system-acls/samples/sample3.xml)]
 
 Note that the *setAclUse* r is not used here (the default value for this is Application Pool Identity).
 

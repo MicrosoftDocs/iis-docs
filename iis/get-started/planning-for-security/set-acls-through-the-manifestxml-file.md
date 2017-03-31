@@ -23,7 +23,7 @@ There are several ways to set access control lists (ACLs), including command-lin
 By default, the WDT installs all files and directories without changing any of the existing permissions. In most cases, this means that the application only has read access to the installed files and directories. If your application needs to be able to write to any file or directory, you can specify which files or directories with a setAcl directive in the Manifest.xml file. The setAclResourceType element defines whether the path represents a file or a directory.
 
 
-[!code-unknown[Main](set-acls-through-the-manifestxml-file/samples/sample-127019-1.unknown)]
+[!code-xml[Main](set-acls-through-the-manifestxml-file/samples/sample1.xml)]
 
 
 To ensure that the ACL gets applied to the proper directory, you should also provide a hidden parameter to make sure the ACL gets applied to the named directory relative to the AppPath where it is installed.
@@ -37,13 +37,13 @@ If no ACL is set on a file or directory, the ACL is most likely set to allow rea
 To give read, execute, and write permissions to the **MyApp** file system directory for the user **Test**, add the following line to your **Manifest.xml** file:
 
 
-[!code-unknown[Main](set-acls-through-the-manifestxml-file/samples/sample-127019-3.unknown)]
+[!code-xml[Main](set-acls-through-the-manifestxml-file/samples/sample3.xml)]
 
 
 To set the ACL on the path **MyApp/Upload** to allow anonymous users to upload content, add the following line to your **Manifest.xml** file:
 
 
-[!code-unknown[Main](set-acls-through-the-manifestxml-file/samples/sample-127019-4.unknown)]
+[!code-xml[Main](set-acls-through-the-manifestxml-file/samples/sample4.xml)]
 
 
 Note that anonymousAuthenticationUser is a special token that resolves to your configured anonymous authentication identity.
@@ -51,7 +51,7 @@ Note that anonymousAuthenticationUser is a special token that resolves to your c
 To grant read access to the **MyApp\Data** folder for the application pool identity, add the following line to the **Manifest.xml** file:
 
 
-[!code-unknown[Main](set-acls-through-the-manifestxml-file/samples/sample-127019-5.unknown)]
+[!code-xml[Main](set-acls-through-the-manifestxml-file/samples/sample5.xml)]
 
 
 Note that the setAclUser is not used here. The default value for this is Application Pool Identity, so it is possible to skip that line.

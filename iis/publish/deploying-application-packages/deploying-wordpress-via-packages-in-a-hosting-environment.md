@@ -78,8 +78,8 @@ To install the required components on your Web server and database server using 
 
 To install MySQL, [click here on this link](http://dev.mysql.com/downloads/mysql/5.1.html) to download MySQL 5.1 and complete the steps described in the **Install MySQL on Your Database Server** in this document. **Next Steps:** 
 
-- If the Web Deploy 2.0 component is newly installed, you must configure it to allow delegated deployments. Refer to the link: [*Configure the Web Deploy Component on the Web Server*](../../web-hosting/joining-the-web-hosting-gallery/configure-site-for-web-deploy-publishing.md) for more information.
-- After you install and configure the server components, validate your server configuration by following the procedures described at the link: [*Validate Your Server Configuration*](../../web-hosting/joining-the-web-hosting-gallery/validate-your-server-configuration.md).
+- If the Web Deploy 2.0 component is newly installed, you must configure it to allow delegated deployments. Refer to the link: *[Configure the Web Deploy Component on the Web Server](../../web-hosting/joining-the-web-hosting-gallery/configure-site-for-web-deploy-publishing.md)* for more information.
+- After you install and configure the server components, validate your server configuration by following the procedures described at the link: *[Validate Your Server Configuration](../../web-hosting/joining-the-web-hosting-gallery/validate-your-server-configuration.md)*.
 
 <a id="_Ref279656890"></a>
 
@@ -151,7 +151,7 @@ D. Export the Package from the IIS Application Web Site
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image14.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image13.jpg)
 10. Once the Web PI process is complete, you can do one of the following:  
 
-    - Click **Finish** to complete the installation process.If you click Finish to complete the installation process, proceed to step C. Enable Permalinks (Optional) to continue creating an application package for deployment.
+    - Click **Finish** to complete the installation process. If you click Finish to complete the installation process, proceed to step C. Enable Permalinks (Optional) to continue creating an application package for deployment.
     - Click **Launch WordPress** to launch your WordPress application. If you click Launch WordPress, the WordPress application page appears:  
         [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image16.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image15.jpg)
 
@@ -174,44 +174,42 @@ To enable permalinks (search engine friendly URLs) in WordPress, complete these 
 
     [!code-xml[Main](deploying-wordpress-via-packages-in-a-hosting-environment/samples/sample1.xml)]
 
-    This rule attempts to match any requested URL. If the URL does not correspond to a file or a folder on the file system, it rewrites the URL to the Index.php file. At that point, WordPress determines which content to serve based on the REQUEST\_URI server variable that contains the original URL before it was modified by this rule.
+ This rule attempts to match any requested URL. If the URL does not correspond to a file or a folder on the file system, it rewrites the URL to the Index.php file. At that point, WordPress determines which content to serve based on the REQUEST\_URI server variable that contains the original URL before it was modified by this rule.
 
 <a id="_Ref279493252"></a>
 
 #### D. Export the Package from the IIS Application Web Site
 
-Open IIS Manager.The Internet Information Services (IIS) Manager application opens.1. In the Connections navigation pane, expand **Sites**, and select the Web site you just created.  
+1. Open IIS Manager. The Internet Information Services (IIS) Manager application opens.  
+    [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image18.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image17.jpg)
+2. In the Connections navigation pane, expand **Sites**, and select the Web site you just created.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image20.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image19.jpg)
-2. Click the **Export Application** link located in the Deploy section of the Actions pane.  
+3. Click the **Export Application** link located in the Deploy section of the Actions pane.  
  The Export Application Package (Select the Contents of the Package) dialog box appears.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image22.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image21.jpg)
-3. Click **Manage Components**. The Manage Components dialog box appears.  
+4. Click **Manage Components**. The Manage Components dialog box appears.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image24.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image23.jpg)
-4. Double-click the second row of the Provider Name column.  
+5. Double-click the second row of the Provider Name column.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image26.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image25.jpg)
-5. Select **dbMySql** from the drop-down list.  
+6. Select **dbMySql** from the drop-down list.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image28.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image27.jpg)
-6. Double-click the second row of the Path column, and enter the connection string for your package export.  
+7. Double-click the second row of the Path column, and enter the connection string for your package export.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image30.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image29.jpg)
-7. Click outside of the box in which you entered the connection string, and click **OK**. The newly created parameter now appears in the Export Application Package (Select Parameters) dialog box.  
+8. Click outside of the box in which you entered the connection string, and click **OK**. The newly created parameter now appears in the Export Application Package (Select Parameters) dialog box.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image32.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image31.jpg)
-8. Rename the parameters:  
+9. Rename the parameters:  
 
     - Select **Parameter 1**, and click **Edit**. The Edit Parameter dialog box appears.  
         [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image34.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image33.jpg)
     - Enter **SiteName** in the Name field, and click **OK**.
     - Repeat these steps to rename Parameter 2 to "ConnectionString". The parameters appear renamed in the Export Application Package (Select Parameters) dialog box.   
         [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image36.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image35.jpg)
-9. Click **Next**. The Export Application Package (Save Package) dialog box appears.  
+10. Click **Next**. The Export Application Package (Save Package) dialog box appears.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image38.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image37.jpg)
-10. Enter the path to the application package, or click Browse to locate the application file.
-11. Click **Next**. The Export Application Package (Export Progress and Summary) dialog box displays the progress of the export process. Once the process is complete, a summary report appears.  
+11. Enter the path to the application package, or click Browse to locate the application file.
+12. Click **Next**. The Export Application Package (Export Progress and Summary) dialog box displays the progress of the export process. Once the process is complete, a summary report appears.  
     [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image40.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image39.jpg)
-12. Click **Finish**. Use this application package to deploy to customer Web sites as described in Step 3. Deploy a Customer Site using IIS with Web Deploy.<a id="_Ref279656893"></a>
-13. 
-14. 
-15. 
-16. [![](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image18.jpg)](deploying-wordpress-via-packages-in-a-hosting-environment/_static/image17.jpg)
+13. Click **Finish**. Use this application package to deploy to customer Web sites as described in Step 3. Deploy a Customer Site using IIS with Web Deploy.
 
 <a id="_Ref279680466"></a>
 
@@ -221,17 +219,17 @@ Open IIS Manager.The Internet Information Services (IIS) Manager application ope
 
 When deploying a customer site, most Hosting Service Providers use a control panel that allows them to capture the information required for deployment. This information can then be passed to scripts that create the user, configure the site for hosting, create a database, and import the application package. Here are the basic steps required to deploy a customer site:
 
-A. Create a Customer Application Web Site  
-B. Create a Customer Application Database  
-C. Import the Application Package using a CLI Command or PowerShell Script
+1. Create a Customer Application Web Site
+2. Create a Customer Application Database
+3. Import the Application Package using a CLI Command or PowerShell Script
 
 <a id="_Ref281465620"></a>
 
 #### A. Create a Customer Application Web Site
 
-To create a customer application Web site, complete the steps described in A. Create an IIS Web Site for this Application.
+To create a customer application Web site, complete the steps described in A. Create an IIS Web Site for this Application.<a id="_Ref281465621"></a>
 
-<a id="_Ref281465621"></a> **Tips:** 
+**Tips:** 
 
 - When you create the Web site in IIS, give your application a user-friendly name by creating a fully qualified domain name (FQDN) for the host header and adding that FQDN to your Domain Name Service.
 - You can automate this process using a script similar to the one described in the section Automated Deployment Script.
@@ -327,10 +325,10 @@ This table provides additional information about the products that are installed
 | Common Gateway Interface (CGI) | CGI is a standard for interfacing external programs with information servers on the Internet. For more information, refer to the link: [*CGI: Common Gateway Interface*](http://www.w3.org/CGI/). |
 | FTP Publishing Service | The FTP Publishing Service for IIS allows Web content creators to publish content more easily and securely to IIS Web servers using modern Internet publishing standards. For more information, refer to the link: [*FTP Publishing Service*](https://www.iis.net/downloads/microsoft/ftp). |
 | IIS 7 Web Server | Internet Information Services (IIS) for Windows Server is a flexible, secure and easy-to-manage Web server for hosting anything on the Web. For more information, refer to the link: [*IIS*](https://www.iis.net/overview). |
-| IIS Remote Management Service | Internet Information Services (IIS) Manager for Remote Administration provides end users and administrators with the ability to securely manage remote IIS servers from Windows 7, Windows Vista, Windows XP, and Windows Server 2003. For more information, refer to the link: [*IIS Manager for Remote Administration*](https://www.iis.net/downloads/microsoft/iis-manager). |
+| IIS Remote Management Service | Internet Information Services (IIS) Manager for Remote Administration provides end users and administrators with the ability to securely manage remote IIS servers from Windows 7, Windows Vista, Windows XP, and Windows Server 2003. For more information, refer to the link: *[IIS Manager for Remote Administration](https://www.iis.net/downloads/microsoft/iis-manager)*. |
 | Media Services 3.0 | IIS Media Services, an integrated HTTP-based media delivery platform, delivers true HD (720p+) live and on-demand streaming, DVR functionality, and real-time analytics support to computers, TVs, and mobile devices. For more information, refer to the link: [*IIS Media Services*](https://www.iis.net/media). |
 | Microsoft Driver for PHP for SQL Server 2.0 in IIS | The Microsoft Drivers for PHP for SQL Server provide connectivity to Microsoft SQL Server from PHP applications. For more information, refer to the link: [*Microsoft Drivers for PHP for SQL Server*](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=80e44913-24b4-4113-8807-caae6cf2ca05&amp;displaylang=en). |
-| Microsoft SQL Server 2008 | SQL Server delivers on Microsoft's Data Platform vision by helping your organization manage your data by enabling you to store data from structured, semi-structured, and unstructured documents within the database. For more information, refer to the link: [*Microsoft SQL Server 2008*](https://www.microsoft.com/sqlserver/2008/en/us/default.aspx). |
+| Microsoft SQL Server 2008 | SQL Server delivers on Microsoft's Data Platform vision by helping your organization manage your data by enabling you to store data from structured, semi-structured, and unstructured documents within the database. For more information, refer to the link: *[Microsoft SQL Server 2008](https://www.microsoft.com/sqlserver/2008/en/us/default.aspx)*. |
 | Microsoft Web Deploy 2.0 | Web Deploy (Web Deployment Tool) simplifies the migration, management and deployment of IIS Web servers, Web applications and Web sites. For more information, refer to the link: [*Web Deploy*](https://www.iis.net/downloads/microsoft/web-deploy). |
 | MySQL Connector/Net 6.2.3 | Connector/Net is a fully-managed ADO.NET driver for MySQL. For more information, refer to the link: [MySQL Download Connector/Net](http://dev.mysql.com/downloads/connector/net/6.2.html). |
 | PHP Driver for SQL Server | The SQL Server Driver for PHP v1.1 is designed to enable reliable, scalable integration with SQL Server for PHP applications deployed on the Windows platform. For more information, refer to the link: [*SQL Server Driver for PHP*](https://www.microsoft.com/sqlserver/2005/en/us/php-driver.aspx). |

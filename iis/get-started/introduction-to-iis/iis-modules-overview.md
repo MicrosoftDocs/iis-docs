@@ -148,7 +148,7 @@ After the module is removed from the application, it will not be active in that 
 
 There is another attribute on a module entry called precondition. The IIS core engine uses preconditions to determine when to enable a particular module. Performance reasons, for example, might determine that you only want to execute managed modules for requests that also go to a managed handler. The precondition in the following example (precondition=&quot;managedHandler&quot;) only enables the forms authentication module for requests that are also handled by a managed handler, such as requests to .aspx or .asmx files:
 
-[!code-unknown[Main](iis-modules-overview/samples/sample-126980-3.unknown)]
+[!code-xml[Main](iis-modules-overview/samples/sample3.xml)]
 
 If you remove the attribute precondition=&quot;managedHandler&quot;, Forms Authentication also applies to content that is not served by managed handlers, such as .html, .jpg, .doc, but also for classic ASP (.asp) or PHP (.php) extensions. See &quot;[How to Take Advantage of IIS Integrated Pipeline](../../application-frameworks/building-and-running-aspnet-applications/how-to-take-advantage-of-the-iis-integrated-pipeline.md)&quot; for an example of enabling ASP.NET modules to run for all content.
 

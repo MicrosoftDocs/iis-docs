@@ -59,20 +59,20 @@ To create the example Web sites:
 
 1. Create two folders called "**webmail**" and "**payroll**" in the following folder:  
 
-    [!code-unknown[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample-127341-3.unknown)]
+    [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample3.cmd)]
 2. Create two IIS web sites called "**webmail**" and "**payroll**" that point to corresponding folders under %SystemDrive%\inetpub\. Use different IP ports for each site.  
  You can use the following commands to create the sites:  
 
     [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample4.cmd)]
 3. Create a file named default.aspx in the following folder:  
 
-    [!code-unknown[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample-127341-5.unknown)]
+    [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample5.cmd)]
 4. Copy the following ASP.NET markup, paste it into the file, and save the file:  
 
     [!code-aspx[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample6.aspx)]
 5. Create a file named default.aspx in the following folder:  
 
-    [!code-unknown[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample-127341-7.unknown)]
+    [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample7.cmd)]
 6. Copy the following ASP.NET markup, paste it into the file, and save the file:  
 
     [!code-aspx[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample8.aspx)]
@@ -107,7 +107,7 @@ You will create two rewrite rules:
 
 1. Open the **web.config** file located in the following location:   
 
-    [!code-unknown[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample-127341-11.unknown)]
+    [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample11.cmd)]
 2. Under the **/configuration/system.webServer** element, add the following and then save the file:  
 
     [!code-xml[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample12.xml)]

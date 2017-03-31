@@ -76,7 +76,7 @@ To configure SMTP e-mail to deliver e-mail messages immediately, use the followi
 [!code-console[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample1.cmd)]
 
 
-The variable from*string* is the e-mail address of the sender. The variable /deliveryMethod:network configures IIS to deliver e-mail messages immediately. The variable /network.port*int* sets the TCP port that is used by IIS to deliver e-mail messages. The variable /network.host*string* specifies the host used for SMTP transactions. The variable network.defaultCredentials:True|False enables or disables authentication using the default network credentials. If defaultCredentials is set to True, Kerberos or NTLM are used if the server supports these protocols. The variables network.userName:*string* and network. password:*string* set a basic authentication user name and password.
+The variable **from***string* is the e-mail address of the sender. The variable **/deliveryMethod:network** configures IIS to deliver e-mail messages immediately. The variable **/network.port***int* sets the TCP port that is used by IIS to deliver e-mail messages. The variable **/network.host***string* specifies the host used for SMTP transactions. The variable **network.defaultCredentials:True**|**False** enables or disables authentication using the default network credentials. If **defaultCredentials** is set to **True**, Kerberos or NTLM are used if the server supports these protocols. The variables **network.userName:** *string* and **network. password:** *string* set a basic authentication user name and password.
 
 #### Store e-mails for later delivery
 
@@ -88,44 +88,44 @@ To configure SMTP e-mail to store e-mails in a file location on disk for later d
 
 The variable from string is the e-mail address of the sender. The variable/deliveryMethod:PickupDirectoryFromIis|SpecifiedPickupDirectory string configures IIS to store e-mails in a file location on disk for later delivery. The variable /SpecifiedPickupDirectory string sets the file location on disk in which to store the e-mail messages for later delivery.
 
-Note that when you use Appcmd.exe to configure the &lt;mailSettings&gt; element at the global level in IIS, you must specify /commit:WEBROOT in the command so that configuration changes are made to the root Web.config file instead of the ApplicationHost.config file.
+Note that when you use Appcmd.exe to configure the **&lt;mailSettings&gt;** element at the global level in IIS, you must specify **/commit:WEBROOT** in the command so that configuration changes are made to the root Web.config file instead of the ApplicationHost.config file.
 
 ### Edit the Configuration Files
 
-1. First, configure the Php.ini file. Open the Php.ini file, and find the entry:
+1. First, configure the Php.ini file. Open the **Php.ini** file, and find the entry:  
 
-[!code-unknown[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample-127402-3.unknown)]
-2. Set the following values:
+    [!code-unknown[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample-127402-3.unknown)]
+2. Set the following values:  
 
-[!code-unknown[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample-127402-4.unknown)]
+    [!code-unknown[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample-127402-4.unknown)]
+  
+ Note that the default value is localhost, so there is no need to change this if SMTP is installed locally.  
 
-    Note that the default value is localhost, so there is no need to change this if SMTP is installed locally.
-
-    - Save and close the Php.ini file.
+    - Save and close the **Php.ini** file.
 3. Enable Relay for localhost:  
 
-    - Open the Internet Information Services (IIS) 6.0 Manager.
-    - Right-click on Default SMTP Virtual Server.
-4. On the Properties page, open the Access tab, and then click on Connection. You can see which server or IP addresses are allowed to connect to the server.
-5. If the IP address 127.0.0.1 is not listed, add it using the Add button. You may also add your server IP address to the list.  
+    - Open the **Internet Information Services (IIS) 6.0 Manager**.
+    - Right-click on **Default SMTP Virtual Server**.
+4. On the **Properties** page, open the **Access** tab, and then click on **Connection**. You can see which server or IP addresses are allowed to connect to the server.
+5. If the IP address 127.0.0.1 is not listed, add it using the **Add** button. You may also add your server IP address to the list.  
 
     [![](configure-smtp-e-mail-in-iis-7-and-above/_static/image4.jpg)](configure-smtp-e-mail-in-iis-7-and-above/_static/image3.jpg)
 
     *Figure 2: Enable Relay for localhost*
-6. Click OK to accept the information.
-7. Click the Relay button on the Access tab, and set up the relay options for the server. Ensure that localhost and the IP address 127.0.0.1 are granted permission to relay mail.
-8. Click OKto accept the options, and then click Apply and OK to return to the main page of the IIS Manager.
-9. Click Restart IIS.
+6. Click **OK** to accept the information.
+7. Click the **Relay** button on the **Access** tab, and set up the relay options for the server. Ensure that localhost and the IP address 127.0.0.1 are granted permission to relay mail.
+8. Click **OK** to accept the options, and then click **Apply** and **OK** to return to the main page of the IIS Manager.
+9. Click **Restart IIS**.
 
 ## Test E-Mail from PHP
 
-Create a test script to see whether you can send e-mail using PHP. Copy the following text and save it as email\_test.php at your server root.
+Create a test script to see whether you can send e-mail using PHP. Copy the following text and save it as **email\_test.php** at your server root.
 
 
-[!code-unknown[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample-127402-5.unknown)]
+[!code-xml[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample5.xml)]
 
 
-Run the file at mydomain.com/email\_test.php.
+Run the file at **mydomain.com/email\_test.php**.
 
 ## Links for Further Information
 

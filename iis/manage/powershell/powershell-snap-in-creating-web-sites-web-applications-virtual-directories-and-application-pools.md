@@ -30,9 +30,9 @@ If you are familiar with PowerShell you know that the New-Item cmdlet is used to
 
 Specifying the name of the directory is the only argument needed when you create a new file system directory. Unfortunately this is not enough when you create a Web-Site. Additional parameters like the file system path and network bindings are needed to create a Web-Site. Here is the command to create a new Web-Site followed by a dir command:
 
-[!code-unknown[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample-127215-1.unknown)]
+[!code-powershell[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample1.ps1)]
 
-[!code-unknown[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample-127215-2.unknown)]
+[!code-powershell[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample2.ps1)]
 
 [!code-unknown[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample-127215-3.unknown)]
 
@@ -41,7 +41,7 @@ Using the -physicalPath argument is pretty straightforward. But you might ask yo
 The construct used is a hashtable (go [here](https://www.microsoft.com/technet/scriptcenter/resources/pstips/sept07/pstip0914.mspx "PowerShell Hash Tables") to learn more about PowerShell hash tables). Within the hash table key=value pairs indicate the settings that reflect the attributes within the IIS site bindings section:
 
 
-[!code-unknown[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample-127215-4.unknown)]
+[!code-xml[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample4.xml)]
 
 
 Now here is the reason why we use a hash table: IIS configuration is completely extensible (see [here](../../develop/extending-iis-configuration/configuration-extensibility.md "Configuration Extensibility") for more details) with additional sections and attributes. You can imagine that somebody extending the &lt;binding&gt; element with additional attributes. Key value pairs within a hash table provide the flexibility to incorporate these new attributes without having to completely rewrite the IIS PowerShell Snap-in.
@@ -61,7 +61,7 @@ Here is how you delete the site you just created.
 Creating Web Applications is easier than creating sites. Here we go:
 
 
-[!code-unknown[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample-127215-6.unknown)]
+[!code-powershell[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample6.ps1)]
 
 
 [!code-unknown[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample-127215-7.unknown)]
@@ -76,7 +76,7 @@ To delete the application you can also use Remove-Item.
 To create a Virtual Directory you also use the New-Item cmdlet. Let's create a Virtual Directory underneath the 'Default Web Site' but and a second one underneath the Web Application we created in the previous step.
 
 
-[!code-unknown[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample-127215-8.unknown)]
+[!code-powershell[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample8.ps1)]
 
 
 ## Creating Application Pools
@@ -84,7 +84,7 @@ To create a Virtual Directory you also use the New-Item cmdlet. Let's create a V
 But it gets even simpler. Creating a new AppPool only requires the name to be specified.
 
 
-[!code-unknown[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample-127215-9.unknown)]
+[!code-powershell[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample9.ps1)]
 
 
 Simple, wasn't it? Now let's put this together to an end-to-end scenario.

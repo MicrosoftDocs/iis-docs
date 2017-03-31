@@ -102,13 +102,13 @@ The output file is named localhost\_&lt;timestamp&gt;.xml and is placed in the s
 
 Check if a specific COM component is installed:
 
-[!code-unknown[Main](validate-your-server-configuration/samples/sample-127503-3.unknown)]
+[!code-xml[Main](validate-your-server-configuration/samples/sample3.xml)]
 
 #### Example: DelegationRuleValidator
 
 Checks if the following delegation rules are set up correctly in administration.config: createApp, iisApp, contentPath, dbFullSql, dbMySql, recycleApp, setAcl. This Validator does not take any input:
 
-[!code-unknown[Main](validate-your-server-configuration/samples/sample-127503-4.unknown)]
+[!code-xml[Main](validate-your-server-configuration/samples/sample4.xml)]
 
 Note that this Validator does **NOT** check the following:
 
@@ -119,13 +119,13 @@ Note that this Validator does **NOT** check the following:
 
 Checks if the current operating system is in the comma-seperated list of valid operating systems specifed in the *validOperatingSystems* attribute:
 
-[!code-unknown[Main](validate-your-server-configuration/samples/sample-127503-5.unknown)]
+[!code-xml[Main](validate-your-server-configuration/samples/sample5.xml)]
 
 #### Example: RegistryValidator
 
 Checks the registry for the presence of a key and, optionally, a registry value, kind and data
 
-[!code-unknown[Main](validate-your-server-configuration/samples/sample-127503-6.unknown)]
+[!code-xml[Main](validate-your-server-configuration/samples/sample6.xml)]
 
 The regKey attribute is required, all other attributes are optional.
 
@@ -137,7 +137,7 @@ The regKey attribute is required, all other attributes are optional.
 
 Checks if a Windows service is installed and, optionally, in the correct state:
 
-[!code-unknown[Main](validate-your-server-configuration/samples/sample-127503-7.unknown)]
+[!code-xml[Main](validate-your-server-configuration/samples/sample7.xml)]
 
 The serviceName attribute is required. serviceState attribute is optional.
 
@@ -147,11 +147,11 @@ The serviceName attribute is required. serviceState attribute is optional.
 
 This Validator serves two purposes. First, it can be used to check if a product installed using the WebPI 3.0 feed is installed or not. This snippet checks if Microsoft ASP.NET is installed. Valid values for the productId are productIds in the WebPI feed.
 
-[!code-unknown[Main](validate-your-server-configuration/samples/sample-127503-8.unknown)]
+[!code-xml[Main](validate-your-server-configuration/samples/sample8.xml)]
 
  Second, it can be used to check if dependencies for all applications that can be installed using the Web Application Gallery are installed. This is valuable if you want to see if your server supports being a publishing target for Wordpress, Joomla! etc. It will highlight any missing components so you can install them: 
 
-[!code-unknown[Main](validate-your-server-configuration/samples/sample-127503-9.unknown)]
+[!code-xml[Main](validate-your-server-configuration/samples/sample9.xml)]
 
 #### Example: WindowsInstalledComponentValidator
 
@@ -159,7 +159,7 @@ This Validator uses WMI to check if a product is in Win32\_Products. It's an alt
 
 **Valid values for *category* attribute:** product and update. 
 
-[!code-unknown[Main](validate-your-server-configuration/samples/sample-127503-10.unknown)]
+[!code-xml[Main](validate-your-server-configuration/samples/sample10.xml)]
 
 ### Building your own Validator
 
@@ -188,7 +188,7 @@ Each Validator implements the IValidator interface. It *must* be in the ServerVa
 
 6. Add the following snippet to the input file: 
 
-[!code-unknown[Main](validate-your-server-configuration/samples/sample-127503-12.unknown)]
+[!code-xml[Main](validate-your-server-configuration/samples/sample12.xml)]
 
 7. Run ServerValidator
 

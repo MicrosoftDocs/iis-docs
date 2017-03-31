@@ -108,7 +108,7 @@ Let's have a closer look at each of these entries.
 
 The **iisApp** entry points to the folder where the application content is located. For example:
 
-[!code-unknown[Main](web-deploy-parameterization/samples/sample-127169-2.unknown)]
+[!code-xml[Main](web-deploy-parameterization/samples/sample2.xml)]
 
 The **path** value would be different if the application had a different name. 
 
@@ -116,7 +116,7 @@ The **path** value would be different if the application had a different name.
 
 The **setAcl** entry tells Web Deploy to grant read, write, and execute permissions to the "App\_Data" directory when the application is installed. For example:
 
-[!code-unknown[Main](web-deploy-parameterization/samples/sample-127169-3.unknown)]
+[!code-xml[Main](web-deploy-parameterization/samples/sample3.xml)]
 
 Different applications might require special permissions on other folders. In that case, you would create a different **setAcl** entry for each permission setting that was required. 
 
@@ -221,7 +221,7 @@ A feed that works with the application created in this demo can be [copied from 
 
 Two values need to be modified in order for the feed to work properly. First, in the middle of the feed is the path to where the "VacationPicsWPIInstaller.zip" is located on disk. It should look like:
 
-[!code-unknown[Main](web-deploy-parameterization/samples/sample-127169-6.unknown)]
+[!code-xml[Main](web-deploy-parameterization/samples/sample6.xml)]
 
 Change this value to point to wherever your application zip file lives.
 
@@ -237,7 +237,7 @@ This will output the hash of the file, which will look something like this:
 
 Copy the long number and use it to replace the value in the feed XML that looks like:
 
-[!code-unknown[Main](web-deploy-parameterization/samples/sample-127169-8.unknown)]
+[!code-xml[Main](web-deploy-parameterization/samples/sample8.xml)]
 
 ##### Add the Custom Feed to Web Platform Installer
 

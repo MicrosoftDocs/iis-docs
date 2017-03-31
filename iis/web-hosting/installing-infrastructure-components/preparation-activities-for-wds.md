@@ -113,5 +113,5 @@ The following is a summary of this process:
 
     1. [!code-unknown[Main](preparation-activities-for-wds/samples/sample-127128-1.unknown)]
 
-[!code-unknown[Main](preparation-activities-for-wds/samples/sample-127128-2.unknown)]
+[!code-console[Main](preparation-activities-for-wds/samples/sample2.cmd)]
 4. Once you have created the capture image, follow the instructions in the "Install Image" section to boot a client computer into the capture image and capture the operating system.

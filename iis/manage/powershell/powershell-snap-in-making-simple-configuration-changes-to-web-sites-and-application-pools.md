@@ -33,7 +33,7 @@ This walkthrough relies on the Web-Site 'Demosite' and its Web Applications and 
 Before we start changing settings we want to look at them first. Here is a command to look at the configuration settings of 'DemoSite'.
 
 
-[!code-unknown[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample-127216-1.unknown)]
+[!code-powershell[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample1.ps1)]
 
 
 This gives you a view of the most important properties of the site. There are more settings you might be interested though.
@@ -49,7 +49,7 @@ In the example above we are using parenthesis because the Get-ItemProperty call 
 You can use the same strategy with other properties or collections like the AppPools processModel section. The following command for example returns a nice DateTime object for the startupTimeLimit of our DemoAppPool:
 
 
-[!code-unknown[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample-127216-3.unknown)]
+[!code-powershell[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample3.ps1)]
 
 
 ## Changing Site and AppPool Settings
@@ -64,7 +64,7 @@ There are two basic ways to make changes.
 Let's begin by adding an additional binding to our DemoSite:
 
 
-[!code-unknown[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample-127216-4.unknown)]
+[!code-powershell[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample4.ps1)]
 
 
 As you can see DemoSite is now also listening on port 8081.
@@ -72,13 +72,13 @@ As you can see DemoSite is now also listening on port 8081.
 Use the Set-ItemProperty if you want to modify an existing property. Changing the name of the site for example:
 
 
-[!code-unknown[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample-127216-5.unknown)]
+[!code-powershell[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample5.ps1)]
 
 
 Let's change it back to the old name:
 
 
-[!code-unknown[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample-127216-6.unknown)]
+[!code-powershell[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample6.ps1)]
 
 
 We also want to change the identity our Application Pool runs as. First we have to create a user however. Let's use ADSI to do that
@@ -100,7 +100,7 @@ To be extensible we are using a good old hash table for property names and their
 Let's do the same, i.e. assigning a user to an Application Pool, with the set-item/get-item combo. You might like this variant a little better because it allows you to take advantage of command-line completion. To see how this works don't copy and paste the following commands. Enter a couple of characters and use the TAB key to enjoy the advantages of command-line completion:
 
 
-[!code-unknown[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample-127216-9.unknown)]
+[!code-powershell[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample9.ps1)]
 
 
 ## Summary

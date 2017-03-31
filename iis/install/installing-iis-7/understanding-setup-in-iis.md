@@ -644,7 +644,7 @@ Now we take the list of required updates with their parent and dependencies and 
 
 In this step, instead of installing all IIS features, we only install the ones we need for our exercise and set the tag attribute state="**false**" for those updates that are normally installed by default. The resulting Unattend.xml file is shown below.
 
-[!code-unknown[Main](understanding-setup-in-iis/samples/sample-126996-1.unknown)]
+[!code-xml[Main](understanding-setup-in-iis/samples/sample1.xml)]
 
 <a id="Summary"></a>
 

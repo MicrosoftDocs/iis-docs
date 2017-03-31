@@ -104,7 +104,7 @@ Optionally, when you need to specify credentials and a method to access the virt
 
 Take a look at the default **&lt;sites&gt;** section in IIS 7 and above. This is what is in the ApplicationHost.config file (located at *%windir%*\system32\inetsrv\config \) after installing IIS on Windows Server® 2008.
 
-[!code-unknown[Main](understanding-sites-applications-and-virtual-directories-on-iis/samples/sample-127052-1.unknown)]
+[!code-xml[Main](understanding-sites-applications-and-virtual-directories-on-iis/samples/sample1.xml)]
 
 When you see a single "/" in a path field, you know that this is a root object. Depending on whether it is in the application or virtual directory section, it is a root application or a root virtual directory.
 
@@ -112,7 +112,7 @@ When you see a single "/" in a path field, you know that this is a root object. 
 
 The following section lists the collections and elements in the **&lt;sites&gt;** section, and their hierarchical relationship within the **&lt;sites&gt;** section.
 
-[!code-unknown[Main](understanding-sites-applications-and-virtual-directories-on-iis/samples/sample-127052-2.unknown)]
+[!code-xml[Main](understanding-sites-applications-and-virtual-directories-on-iis/samples/sample2.xml)]
 
 Notice that there are two elements that appear in more than one place: the **&lt;applicationDefaults&gt;** element and the **&lt;virtualDirectoryDefaults&gt;** element. There is also a **&lt;siteDefaults&gt;** element, although it appears only once because it can be configured in only one location in the **&lt;sites&gt;** section. Default elements are special because they enable you to configure default values for attributes instead of having to repeat the same values in each collection.
 

@@ -91,13 +91,13 @@ The power of the task-based cmdlets shows when you use it for an end-to-end scen
 Enter the following commands:
 
 
-[!code-unknown[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample-127221-8.unknown)]
+[!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample8.ps1)]
 
 
 This creates a new physical directory for our new site.
 
 
-[!code-unknown[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample-127221-9.unknown)]
+[!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample9.ps1)]
 
 
 The line above creates a new web site pointing to the newly created directory and listening on port 81.
@@ -107,28 +107,28 @@ The line above creates a new web site pointing to the newly created directory an
 The following commands will navigate the IIS namespace and create a new content file.
 
 
-[!code-unknown[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample-127221-10.unknown)]
+[!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample10.ps1)]
 
 
 The command above navigates to the MyNewWebSite node in the IIS namespace.
 
 
-[!code-unknown[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample-127221-11.unknown)]
+[!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample11.ps1)]
 
 
 The above command lists all the contents of the new web site. It won't show anything because there is no content.
 
 
-[!code-unknown[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample-127221-12.unknown)]
+[!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample12.ps1)]
 
 
 The above command opens notepad and allows you to edit test.htm. Instead of having to remember where the physical path of your web site. Enter some text, e.g. "Hello World" and save the file in notepad.
 
-[!code-unknown[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample-127221-13.unknown)]
+[!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample13.ps1)]
 
 If you enter the dir command again it will show you the newly created file test.htm.
 
-[!code-unknown[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample-127221-14.unknown)]
+[!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample14.ps1)]
 
 The above command will make a HTTP request to the newly created web site and return the content you entered into notepad.
 
@@ -138,11 +138,11 @@ The above command will make a HTTP request to the newly created web site and ret
 
 As a last step we are enabling Request Tracing. Web Request Tracing is an IIS feature which allows you to get a detailed log of what happened during a request was executing. This feature is extrememly valuable for a lot of troubleshooting scenarios. To enable Web Request Tracing we just need to run another location-aware cmldet called Enable-WebRequestTracing.
 
-[!code-unknown[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample-127221-15.unknown)]
+[!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample15.ps1)]
 
 Now let's look into the web.config file what configuration got written by the Enable-WebRequestTracing cmdlet. We do this by using the Get-WebConfigFile cmdlet which is also location-aware:
 
-[!code-unknown[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample-127221-16.unknown)]
+[!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample16.ps1)]
 
 The configuration looks like this:
 
@@ -154,15 +154,15 @@ The configuration looks like this:
 
 The important configuration is the failureDefinitions rule. By default a trace file is generated when the error code is between 200 and 500 or when the request takes longer than 30 seconds. Let's issue a request that generates a response in the 200-500 error range by executing the following command:
 
-[!code-unknown[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample-127221-18.unknown)]
+[!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample18.ps1)]
 
 A request to a non-existing resource generates a 404 error. To look at the trace file you have to navigate to the following location:
 
-[!code-unknown[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample-127221-19.unknown)]
+[!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample19.ps1)]
 
 Now you can look at the trace file by opening the xml file in Internet Explorer:
 
-[!code-unknown[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample-127221-20.unknown)]
+[!code-powershell[Main](powershell-snap-in-using-the-task-based-cmdlets-of-the-iis-powershell-snap-in/samples/sample20.ps1)]
 
 ## Summary
 

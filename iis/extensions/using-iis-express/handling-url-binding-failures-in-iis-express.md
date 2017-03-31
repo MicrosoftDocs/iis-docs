@@ -48,11 +48,11 @@ This command will allow any user's application (including your own IIS Express i
 
 On Windows XP, you need to run the following command from an elevated command prompt:
 
-[!code-unknown[Main](handling-url-binding-failures-in-iis-express/samples/sample-127457-2.unknown)]
+[!code-console[Main](handling-url-binding-failures-in-iis-express/samples/sample2.cmd)]
 
 After configuring HTTP.sys, you can configure your website to use port 80. This is very straightforward using tools like WebMatrix and Visual Studio 2010 SP1 Beta. You can also manually edit the *applicationhost.config* file to include the following binding in the sites element.
 
-[!code-unknown[Main](handling-url-binding-failures-in-iis-express/samples/sample-127457-3.unknown)]
+[!code-xml[Main](handling-url-binding-failures-in-iis-express/samples/sample3.xml)]
 
 Your website will now run (locally) using port 80.
 
@@ -64,7 +64,7 @@ On Windows 7 or Windows Vista, run the following command from an elevated comman
 
 On Windows XP, run the following command from an elevated prompt:
 
-[!code-unknown[Main](handling-url-binding-failures-in-iis-express/samples/sample-127457-5.unknown)]
+[!code-console[Main](handling-url-binding-failures-in-iis-express/samples/sample5.cmd)]
 
 ## Serving External Traffic
 
@@ -76,11 +76,11 @@ The steps for configuring HTTP.sys for external traffic are similar to setting u
 
 On Windows XP, run the following command from an elevated command prompt:
 
-[!code-unknown[Main](handling-url-binding-failures-in-iis-express/samples/sample-127457-7.unknown)]
+[!code-console[Main](handling-url-binding-failures-in-iis-express/samples/sample7.cmd)]
 
 After configuring HTTP.sys, you can configure IIS Express to use port 80 by using WebMatrix or Visual Studio 2010 SP1 Beta, or by editing the *applicationhost.config* file to include the following binding in the sites element. (Replace *myhostname* with your computer's domain name).
 
-[!code-unknown[Main](handling-url-binding-failures-in-iis-express/samples/sample-127457-8.unknown)]
+[!code-xml[Main](handling-url-binding-failures-in-iis-express/samples/sample8.xml)]
 
 You will also need to configure the firewall to allow external traffic to flow through port 8080. The steps will vary depending on which firewall you are using and aren't described here.
 
@@ -92,7 +92,7 @@ On Windows 7 or Windows Vista, run the following command from an elevated comman
 
 On Windows XP, run the following command from an elevated prompt:
 
-[!code-unknown[Main](handling-url-binding-failures-in-iis-express/samples/sample-127457-10.unknown)]
+[!code-console[Main](handling-url-binding-failures-in-iis-express/samples/sample10.cmd)]
 
 ## Using a Custom SSL Port
 
@@ -114,7 +114,7 @@ For the appid parameter, pass the unique UUID you created earlier.
 
 On Windows XP, run the following command from an elevated prompt.
 
-[!code-unknown[Main](handling-url-binding-failures-in-iis-express/samples/sample-127457-13.unknown)]
+[!code-console[Main](handling-url-binding-failures-in-iis-express/samples/sample13.cmd)]
 
 Since 443 is a reserved port, you will additionally need to configure HTTP.sys to allow IIS Express to use it while running as a standard user. For details, see the Using a Reserved Port section. You won't need to perform this step if you use a non-reserved custom SSL port such as 44500.
 
@@ -124,11 +124,11 @@ On Windows 7 or Windows Vista, run the following command from an elevated prompt
 
 On Windows XP, run the following command from an elevated prompt.
 
-[!code-unknown[Main](handling-url-binding-failures-in-iis-express/samples/sample-127457-15.unknown)]
+[!code-console[Main](handling-url-binding-failures-in-iis-express/samples/sample15.cmd)]
 
 After configuring HTTP.sys, configure your website to use the custom SSL port using WebMatrix or Visual Studio 2010 SP1 Beta, or by adding the following binding in the sites element in the *applicationhost.config* file.
 
-[!code-unknown[Main](handling-url-binding-failures-in-iis-express/samples/sample-127457-16.unknown)]
+[!code-xml[Main](handling-url-binding-failures-in-iis-express/samples/sample16.xml)]
 
 When you are done testing your website, revert HTTP.sys to its earlier settings. On Windows 7 or Windows Vista, run the following commands from an elevated prompt:
 
@@ -138,9 +138,9 @@ When you are done testing your website, revert HTTP.sys to its earlier settings.
 
 On Windows XP, run the following commands from an elevated prompt:
 
-[!code-unknown[Main](handling-url-binding-failures-in-iis-express/samples/sample-127457-19.unknown)]
+[!code-console[Main](handling-url-binding-failures-in-iis-express/samples/sample19.cmd)]
 
-[!code-unknown[Main](handling-url-binding-failures-in-iis-express/samples/sample-127457-20.unknown)]
+[!code-console[Main](handling-url-binding-failures-in-iis-express/samples/sample20.cmd)]
 
 ## Using a Custom SSL Certificate
 
@@ -156,7 +156,7 @@ On Windows 7 or Windows Vista, run the following command from an elevated prompt
 
 On Windows XP, run the following command from an elevated prompt:
 
-[!code-unknown[Main](handling-url-binding-failures-in-iis-express/samples/sample-127457-22.unknown)]
+[!code-console[Main](handling-url-binding-failures-in-iis-express/samples/sample22.cmd)]
 
 The remaining steps are similar to those for configuring a custom SSL port. Create a unique UUID using uuidgen.exe or some other tool.
 
@@ -166,7 +166,7 @@ On Windows 7 or Windows Vista, run the following command from an elevated prompt
 
 On Windows XP, run the following command from an elevated prompt.
 
-[!code-unknown[Main](handling-url-binding-failures-in-iis-express/samples/sample-127457-24.unknown)]
+[!code-console[Main](handling-url-binding-failures-in-iis-express/samples/sample24.cmd)]
 
 ## Summary
 

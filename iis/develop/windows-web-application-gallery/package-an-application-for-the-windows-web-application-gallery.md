@@ -48,7 +48,7 @@ To create your application package, start with a simple Manifest.xml file that d
 ***Tip: A manifest is an XML file that says what your package contains and how to install it. [https://www.iis.net/learn/develop/windows-web-application-gallery/reference-for-the-web-application-package](reference-for-the-web-application-package.md) has more information about format of manifest.xml file.***
 
 
-[!code-unknown[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample-127266-1.unknown)]
+[!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample1.xml)]
 
 
 This manifest will copy the contents of "application" and make it an application in IIS. Include this file in the root directory of your distribution package and your application can be installed by Web PI. In this example, the value of the *path* is used both as the name of the directory in the package where the application files are stored and as the name of the Web site where the application is installed.
@@ -102,7 +102,7 @@ Here are some tips for creating parameters.xml:
 Most Web applications use a database to store information. Application packages installed through Web PI can support MS SQL or MySQL data stores and run a database script or create a database. To add a SQL database check to your Manifest.xml, add the dbfullsql directive. For MySQL, use dbmysql.
 
 
-[!code-unknown[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample-127266-8.unknown)]
+[!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample8.xml)]
 
 
 The Install.sql script would be in the root of the package, and it can contain any SQL script or be empty if all that you want to do is verify that the database is there. You may use as many scripts as your application needs for setup. If you use more than one SQL script, you must specify a database provider in the Manifest.xml file for each one. We require that you use a single set of database credentials for executing all of the scripts.
@@ -128,7 +128,7 @@ For additional information about adding the database, see the article "[Database
 If your application includes a configuration file that has to be copied to a new name or location before it is set up, you can do that with the **alias** directive in the Manifest.xml file. The paths are both relative to the locations of the files in the package. The destination file is specified as the location where the file would have come from if it was in the original package.
 
 
-[!code-unknown[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample-127266-10.unknown)]
+[!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample10.xml)]
 
 
 **Set File and Directory Permissions**
@@ -136,7 +136,7 @@ If your application includes a configuration file that has to be copied to a new
 By default, the WDT installs all files and directories without changing any of the existing permissions. In most cases, this means that the application only has read access to the installed files and directories. If your application needs to be able to write to any file or directory, you can specify which ones with a **setAcl** directive in the Manifest.xml file. The setAclResourceType element defines whether the path represents a file or a directory.
 
 
-[!code-unknown[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample-127266-11.unknown)]
+[!code-xml[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample11.xml)]
 
 
 To ensure that the ACL gets applied to the proper directory, you should also provide a hidden parameter so that the ACL gets applied to the named directory relative to the AppPath where it is installed.

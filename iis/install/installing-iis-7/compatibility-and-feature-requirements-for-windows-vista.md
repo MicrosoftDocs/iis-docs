@@ -100,7 +100,7 @@ This configuration forced the default behavior to be such that all application p
 
 To resolve this issue, change the discretionary access control list (DACL) on the NetworkService temporary directory to allow users access. This change gives you the benefit of loading a user profile while you separate temporary directories by application pool.
 
-[!code-unknown[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample-126997-1.unknown)]
+[!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample1.cmd)]
 
 These commands allow every user to create files and directories (WD = Write to Directory, AD = Add Directory, X = Execute, S = Synchronize). The user who creates these files and directories is the "CREATOR OWNER."
 
@@ -151,12 +151,12 @@ You cannot use the IIS 7.0 and above user interface to create a Certificate Trus
     [!code-unknown[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample-126997-3.unknown)]
 2. After you create the CTL, you must run AdsUtil.vbs to assign the CTL identifier to the name used in MakeCTL.exe.   
 
-    [!code-unknown[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample-126997-4.unknown)]
+    [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample4.cmd)]
 
  where     *&lt;Name of CTL&gt;* is the friendly name for the CTL used in MakeCTL.exe.
 3. Run adsUtil.vbs to set the SslCtlStoreName.  
 
-    [!code-unknown[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample-126997-5.unknown)]
+    [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample5.cmd)]
 4. After you have run AdsUtil.vbs, stop Web services by using the following command:  
 
     [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample6.cmd)]
@@ -284,9 +284,9 @@ When upgrading from Microsoft Windows XP to Windows Vista or from one Windows Vi
 
 Once the upgrade is complete, investigate the log files to determine whether there were any errors during setup. You can find the logs here: 
 
-[!code-unknown[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample-126997-8.unknown)]
+[!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample8.cmd)]
 
-[!code-unknown[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample-126997-9.unknown)]
+[!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample9.cmd)]
  
 
 ### IIS 7.0 and Above Web Services Disabled on Upgrade

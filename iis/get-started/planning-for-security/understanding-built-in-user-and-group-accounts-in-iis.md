@@ -41,7 +41,7 @@ The IUSR account replaces the IUSR\_MachineName account in IIS 7 and above. The 
 
 This built-in account does not need a password and will be the default identity that is used when anonymous authentication is enabled. If you look in the applicationHost.config file you will see the following definition:
 
-[!code-unknown[Main](understanding-built-in-user-and-group-accounts-in-iis/samples/sample-127008-1.unknown)]
+[!code-xml[Main](understanding-built-in-user-and-group-accounts-in-iis/samples/sample1.xml)]
 
 This tells IIS to use the new built-in account for all anonymous authentication requests. The biggest advantages are that you can:
 

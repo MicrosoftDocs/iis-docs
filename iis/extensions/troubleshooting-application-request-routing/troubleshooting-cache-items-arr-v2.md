@@ -44,7 +44,7 @@ For the purposes of this walkthrough we are going to use the following configura
 
 One local drive with 100GB maximum size configured.
 
-[!code-unknown[Main](troubleshooting-cache-items-arr-v2/samples/sample-127558-1.unknown)]
+[!code-xml[Main](troubleshooting-cache-items-arr-v2/samples/sample1.xml)]
 
 **Global Cache Control Rules:** 
 

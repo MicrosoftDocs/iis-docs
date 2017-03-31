@@ -56,7 +56,7 @@ Modify the WordPress configuration file to connect to the database.
 1. From **Windows® Explorer**, navigate to the installation directory (**C:\inetpub\wwwroot\wordpress**), and rename the file **wp-config-sample.php** to **wp-config.php**.
 2. Edit **wp-config.php**; change the **DB\_NAME**, **DB\_USER**, **DB\_PASSWORD**, and **DB\_HOST** values as follows:
 
-[!code-unknown[Main](install-wordpress-on-iis/samples/sample-127108-1.unknown)]
+[!code-xml[Main](install-wordpress-on-iis/samples/sample1.xml)]
 
 ## Setup and Configure the Application
 

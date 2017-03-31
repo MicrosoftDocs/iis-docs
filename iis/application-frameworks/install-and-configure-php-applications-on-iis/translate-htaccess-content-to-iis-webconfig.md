@@ -45,7 +45,7 @@ The following examples are two configuration files for a sample application: an 
 This application uses the *FilesMatch* directive in the .htacess file to limit browser access to files that are components of the application.
 
 
-[!code-unknown[Main](translate-htaccess-content-to-iis-webconfig/samples/sample-127406-3.unknown)]
+[!code-xml[Main](translate-htaccess-content-to-iis-webconfig/samples/sample3.xml)]
 
 
 IIS uses the Request Filtering module to limit browser access to files that are components of the application. For the sample application in a Web.config file, the section could look like:
@@ -87,7 +87,7 @@ For more information about importing Apache mod\_rewrite rules, see: [Importing 
 For the sample application, the relevant mod\_rewrite rules in the .htaccess file are:
 
 
-[!code-unknown[Main](translate-htaccess-content-to-iis-webconfig/samples/sample-127406-8.unknown)]
+[!code-console[Main](translate-htaccess-content-to-iis-webconfig/samples/sample8.cmd)]
 
 
 The IIS URL Rewriter module can read these rules and translate them. The translated URL Rewriter rules are:

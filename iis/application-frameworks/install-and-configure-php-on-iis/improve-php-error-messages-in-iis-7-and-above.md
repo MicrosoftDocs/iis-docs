@@ -97,7 +97,7 @@ You can configure PHP to display errors in responses.
 2. Open the **Php.ini** filein the PHP installation directory.
 3. Find and set the **display\_errors = On** directive:  
 
-    [!code-unknown[Main](improve-php-error-messages-in-iis-7-and-above/samples/sample-127414-1.unknown)]
+    [!code-xml[Main](improve-php-error-messages-in-iis-7-and-above/samples/sample1.xml)]
 4. Save and close the file.
 5. Reset IIS. Click **Start**,and then select **Command Prompt**, right click and select **Run** **as administrator** to open a command-line window.
 6. Type **iisreset.exe**
@@ -106,7 +106,7 @@ You can configure PHP to display errors in responses.
 If you request a page with a script error now, you get a PHP parse error:
 
 
-[!code-unknown[Main](improve-php-error-messages-in-iis-7-and-above/samples/sample-127414-2.unknown)]
+[!code-xml[Main](improve-php-error-messages-in-iis-7-and-above/samples/sample2.xml)]
 
 
 If you see only the default Internet Explorer HTTP 500 Internal Server Error page, you must disable friendly error messages. Within Internet Explorer Go to **Tools**, **Internet Options**, **Advanced** tab, and then clear the **Show friendly HTTP error messages** check box.

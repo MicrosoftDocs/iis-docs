@@ -130,7 +130,7 @@ The simplest way to use the LIST command is with no parameters, which simply lis
 
 For example, to list all sites on the machine, use this command-line:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-9.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample9.cmd)]
 
 The output will be similar to:
 
@@ -146,17 +146,17 @@ The LIST command can be used to find an instance of a specific, named object by 
 
 For example, use this command-line to find the site with a unique id of "Default Web Site":
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-12.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample12.cmd)]
 
 ### Listing Objects That Satisfy a Query
 
 To find all object instances that match particular criteria, specify one or more parameters that indicate property values of the objects to match. For example, use this command-line to find all sites that are stopped:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-13.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample13.cmd)]
 
 You can specify any number of property-value pairs, and the tool will make sure that the returned objects satisfy all of the specified criteria. For example, use this command-line to find sites that are both stopped and configured to not start automatically:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-14.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample14.cmd)]
 
 <a id="Manipulating"></a>
 
@@ -168,13 +168,13 @@ In addition to LIST, most objects also support ADD, SET, and DELETE commands.
 
 The ADD command creates a new instance of an object. For example, this command-line will create a new Site:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-15.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample15.cmd)]
 
 Depending on the object, some parameters will be required in order to set required properties on the new instance, and other properties may be optional. An error will be returned if a required parameter is not specified.
 
 The command help screen indicates which parameters are required. For example, use this command-line to see what parameters are required to add a Site:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-16.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample16.cmd)]
 
 Read on for more information on creating sites, applications, virtual directories and application pools with AppCmd.
 
@@ -182,17 +182,17 @@ Read on for more information on creating sites, applications, virtual directorie
 
 The SET command sets one or more properties on a specified object instance. This command requires the object-specific identifier to be specified. For example, to change the id property of the "Default Web Site", use this command-line:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-17.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample17.cmd)]
 
 Use a form of the command help syntax to see what properties can be set on a particular object. For example, to see the properties supported by the Default Web Site use:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-18.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample18.cmd)]
 
 ### Deleting Objects
 
 The DELETE command deletes an instance of an object. Like SET, this command also requires the object-specific identifier to be specified. For example, use this command-line to delete the site named "MyNewSite":
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-19.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample19.cmd)]
 
 <a id="Managing"></a>
 
@@ -202,7 +202,7 @@ AppCmd allows you to create and restore backups of global server configuration. 
 
 To create a backup, use the ADD command of the Backup object:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-20.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample20.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-21.unknown)]
 
@@ -210,13 +210,13 @@ This created a backup with an auto-generated name that represents the date and t
 
 A specific name for the backup can be specified like this:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-22.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample22.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-23.unknown)]
 
 You can display a list of available backups using the LIST command of the Backup object:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-24.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample24.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-25.unknown)]
 
@@ -224,7 +224,7 @@ You can display a list of available backups using the LIST command of the Backup
 
 Finally, to restore a backup use the RESTORE command with name of the backup:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-27.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample27.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-28.unknown)]
 
@@ -256,25 +256,25 @@ By default, IIS 7 and above are installed with a Web site named "Default Web Sit
 
 This command-line will list all Sites, including the Default Web Site:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-29.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample29.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-30.unknown)]
 
 Let's examine the applications that belong to the Default Web Site by specifying the site.name property when listing Apps:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-31.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample31.cmd)]
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-32.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample32.cmd)]
 
 A similar command will list the virtual directories inside the "Default Web Site/" application by specifying the app.name property when listing Vdirs:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-33.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample33.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-34.unknown)]
 
 Finally, let's examine the application pools:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-35.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample35.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-36.unknown)]
 
@@ -282,7 +282,7 @@ Finally, let's examine the application pools:
 
 Now, we will create a new Web site named "MySite", with site id of 2 that listens on port 81 for all IP addresses and host headers:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-37.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample37.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-38.unknown)]
 
@@ -296,15 +296,15 @@ If you do not specify a physical path, the Web site will be created with no appl
 
 Let's go ahead and add another application to the Web site:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-39.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample39.cmd)]
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-40.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample40.cmd)]
 
 This created a new application with virtual path "/app1" belonging to the site we created above, with a root virtual directory pointing to "C:\inetpub\mysite\app1". The required **path** parameter specifies the virtual path of the new application, and the required **site.name** parameter specifies the site to which the application will belong. The optional **physicalPath** parameter is a shortcut, much like in the Site case, that creates a root virtual directory together with the application.
 
 If you do not specify the **physicalPath** parameter, or would like to add another virtual directory to the application, use a command-line like this:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-41.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample41.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-42.unknown)]
 
@@ -312,7 +312,7 @@ This created a new virtual directory with virtual path "/vdir1" belonging to the
 
 Finally, let's create a new application pool:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-43.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample43.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-44.unknown)]
 
@@ -328,21 +328,21 @@ Previously, we added a new Web site, complete with a few applications and virtua
 
 First, let's display the applications available on the machine:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-46.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample46.cmd)]
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-47.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample47.cmd)]
 
 Notice the two applications we created earlier under the Web site "MySite". Both of these applications are set to use the DefaultAppPool application pool. Let's change the applicationPool property of the "MySite/" root application to use the new application pool we created earlier named "MyAppPool":
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-48.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample48.cmd)]
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-49.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample49.cmd)]
 
 This changed the value of the applicationPool property of the "MySite/" application to the new value, effectively moving the application to the new application pool.
 
 The reason we moved the application to the new application pool is so that we can change some of the runtime parameters of the worker process within which this application will run. To do that, we will change some of the properties on the "MyAppPool" application pool. Before changing property values, it if often useful to first display the available properties and their current values. We can do that by listing our application in detailed view:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-50.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample50.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-51.unknown)]
 
@@ -352,7 +352,7 @@ Notice the number of properties on the application pool object; the full output 
 
 We are interested in changing the **managedRuntimeVersion** property to "v1.1" in order to run our applications in this application pool with ASP.NET v1.1. Here is the command-line to do that:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-53.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample53.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-54.unknown)]
 
@@ -360,7 +360,7 @@ You can see from the List output above that there are numerous properties availa
 
 If you want to set a nested property, address it with element path notation like this:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-55.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample55.cmd)]
 
 <a id="Other"></a>
 
@@ -383,13 +383,13 @@ In addition, some objects provide commands that allow you to control their runti
 
 The state of sites and application pools is reported from the **state** property of each object. When listing sites or application pools, the state is displayed in the default output. For example:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-56.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample56.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-57.unknown)]
 
 The state property can also be used to search for sites or application pools that are in a specific state. For example, to find all started application pools:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-58.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample58.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-59.unknown)]
 
@@ -397,13 +397,13 @@ The state property can also be used to search for sites or application pools tha
 
 You can use the WP (worker process) object to list running worker processes:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-60.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample60.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-61.unknown)]
 
 Each WP object has an **apppool.name** property, which allows you to list all of the running worker processes for a particular application pool:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-62.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample62.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-63.unknown)]
 
@@ -411,13 +411,13 @@ Each WP object has an **apppool.name** property, which allows you to list all of
 
 The Request object allows you to inspect the currently executing requests on the server:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-64.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample64.cmd)]
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-65.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample65.cmd)]
 
 The list can be restricted to the requests of a particular site, application pool, worker process, or url by using the appropriate property to filter the results. Here are some examples:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-66.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample66.cmd)]
 
 <a id="WorkingConfig"></a>
 
@@ -435,7 +435,7 @@ Configuration can be set for an arbitrary url namespace, such as for a site, app
 
 To display effective configuration for particular url level, use the LIST command of the Config object as follows:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-67.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample67.cmd)]
 
 Where **&lt;URL&gt;** is the configuration path at which the effective configuration should be read, such as "Default Web Site/" or "Default Web Site/app1/hello.html". If not specified, it defaults to server level.
 
@@ -443,21 +443,21 @@ To learn more about the IIS configuration hierarchy and how to build IIS configu
 
 The **section** parameter specifies the configuration section you would like to read. If not specified, all configuration sections effective at the URL level will be displayed. For example, this command-line displays all effective configuration for the root application of the Default Web Site:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-68.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample68.cmd)]
 
 To list a specific section, use a command-line like this:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-69.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample69.cmd)]
 
 [!code-aspx[Main](getting-started-with-appcmdexe/samples/sample70.aspx)]
 
 By default, AppCmd displays only configuration that is explicitly set. If you would like to display the effective configuration including inherited or default values, specify the **/config:\*** parameter:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-71.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample71.cmd)]
 
 To display a list of available configuration sections, use this command-line:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-72.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample72.cmd)]
 
 ### Editing Configuration Properties
 
@@ -471,13 +471,13 @@ The **section** parameter is required; it indicates the section that is being ed
 
 For example, to set the **appAllowClientDebug** property of the **ASP** section for the http://localhost/app1 url:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-74.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample74.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-75.unknown)]
 
 To set configuration properties nested within sub-elements of the configuration section, use this element path notation:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-76.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample76.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-77.unknown)]
 
@@ -485,7 +485,7 @@ Specify more than one property in a single command-line to make multiple edits w
 
 To display all of the properties that can be set on a particular configuration section, use this command-line:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-78.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample78.cmd)]
 
 **NOTE** that the asp section is locked by default, so executing these commands will return a lock violation error. You can either unlock this section first, set the configuration at the server level by omitting the&lt;URL&gt;, or commit them to the server level location tag by using /commit:apphost. See **controlling location of configuration** further in the article.
 
@@ -501,13 +501,13 @@ The number of keys required to uniquely identify an element depends on the colle
 
 For example, in order to set the type property on the collection element with the key name property equal to "FormsAuthentication", use this command-line:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-80.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample80.cmd)]
 
 To add a new collection element, prefix the element path notation with a plus sign, **+**. Within the collection indexer expression, provide the values for each key property. Additional, non-key properties may also be included within the collection indexer expression. For example, this will add a new module collection element:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-81.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample81.cmd)]
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-82.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample82.cmd)]
 
 ### Controlling Location of Configuration
 
@@ -530,7 +530,7 @@ The commit parameter can be set to one of the following:
 
 For example, this command-line turns directory browsing off for an application, and writes that configuration within the Web.config file of the site root:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-83.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample83.cmd)]
 
 To learn more about IIS configuration paths and controlling the location of configuration, see [Anatomy of the IIS7 and above configuration path](http://mvolo.com/blogs/serverside/archive/2007/07/21/Anatomy-of-an-IIS7-configuration-path.aspx).
 
@@ -540,11 +540,11 @@ The configuration system allows configuration sections to be locked at a particu
 
 By default, most of the IIS configuration sections are locked at the server level. In order to configure these sections at lower levels, they need to be unlocked. AppCmd provides the UNLOCK command for this purpose:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-84.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample84.cmd)]
 
 Use the LOCK command to lock a section:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-85.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample85.cmd)]
 
 Note that if you lock a configuration section, all applications that may have already configured that section at a lower level will experience a lock violation error when they try to access the configuration section.
 
@@ -554,23 +554,23 @@ AppCmd can search the distributed configuration hierarchy for all locations that
 
 To search the server for all locations that define configuration, you can use the SEARCH command with no arguments:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-86.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample86.cmd)]
 
 To search all locations under a particular configuration path, such as all configuration locations for a particular site, include the path on the command-line:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-87.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample87.cmd)]
 
 To search for locations that configure a particular configuration section:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-88.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample88.cmd)]
 
 To search for locations that set a particular property, include the property name:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-89.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample89.cmd)]
 
 And finally, to search for locations that set a property to a specific value:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-90.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample90.cmd)]
 
 <a id="WorkingTool"></a>
 
@@ -582,7 +582,7 @@ Earlier, we mentioned that the output of the LIST command is a list of object in
 
 Let's take LIST Sites as an example. By default, AppCmd uses a compact output format:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-91.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample91.cmd)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-92.unknown)]
 
@@ -602,7 +602,7 @@ In the example above, the output has been abbreviated — the actual output incl
 
 AppCmd provides an output mode that displays only a specific property of each object instance. Specify the name of the property to display with the **text:&lt;PROPERTY&gt;** parameter. For example, this command will return all of the virtual directory instances available, displaying only the **physicalPath** property of each:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-95.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample95.cmd)]
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample96.cmd)]
 
@@ -620,9 +620,9 @@ Many of the objects contain configuration data that comes directly from the asso
 
 If you would like to display the configuration information for the returned objects in the raw XML format of the configuration system, you can use the **config** parameter. For example, to display the XML configuration information for the site object, use a command-line like this:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-98.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample98.cmd)]
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-99.unknown)]
+[!code-xml[Main](getting-started-with-appcmdexe/samples/sample99.xml)]
 
 [!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-100.unknown)]
 
@@ -636,7 +636,7 @@ The tool also supports its own XML output format, which generates well-formed XM
 
 For example, to output the list of sites in XML mode:
 
-[!code-unknown[Main](getting-started-with-appcmdexe/samples/sample-126986-101.unknown)]
+[!code-console[Main](getting-started-with-appcmdexe/samples/sample101.cmd)]
 
 To learn more about the piping feature, and how to leverage it for powerful command line management, see [http://mvolo.com/blogs/serverside/archive/2007/06/19/Do-complex-IIS-management-tasks-easily-with-AppCmd-command-piping.aspx](http://mvolo.com/blogs/serverside/archive/2007/06/19/Do-complex-IIS-management-tasks-easily-with-AppCmd-command-piping.aspx).
 

@@ -59,7 +59,7 @@ The "Network Service" account is used by the COM process that handles authentica
 1. Open a command prompt.
 2. Type the following command: 
 
-    [!code-unknown[Main](configure-ftp-with-iis-manager-authentication-in-iis-7/samples/sample-127187-1.unknown)]
+    [!code-console[Main](configure-ftp-with-iis-manager-authentication-in-iis-7/samples/sample1.cmd)]
 3. Close the command prompt.
 
 Create a root folder for FTP publishing:
@@ -70,7 +70,7 @@ Create a root folder for FTP publishing:
     - Open a command prompt.
     - Type the following command: 
 
-        [!code-unknown[Main](configure-ftp-with-iis-manager-authentication-in-iis-7/samples/sample-127187-2.unknown)]
+        [!code-console[Main](configure-ftp-with-iis-manager-authentication-in-iis-7/samples/sample2.cmd)]
     - Close the command prompt.
 
 > [!NOTE]

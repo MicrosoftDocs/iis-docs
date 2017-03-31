@@ -66,7 +66,7 @@ All IIS cmdlets will work against installed IIS version 7 or higher
 
 #### 1. Server
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-2.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample2.ps1)]
 
 Description: This without any arguments backs up the current server where this command is run. It uses the well-known webserver provider for this operation. Hence the package created contains all the artifacts that would be contained in a webserver package. You can read more about this provider [here](https://technet.microsoft.com/en-us/library/dd569021(v=WS.10).aspx).
 
@@ -76,7 +76,7 @@ Examples:
 
 This will back up everything of the web server except for the content:
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-3.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample3.ps1)]
 
 Create a list of the files that should be skipped. This is standard regular expressions.
 
@@ -88,7 +88,7 @@ You can also change this to skip all files under site2 by changing the list to $
 
 #### 2. Site
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-5.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample5.ps1)]
 
 Description: This will back up an IIS site along with its settings and content using apphostconfig provider. You can read more about this provider [here](https://technet.microsoft.com/es-ar/library/dd569080.aspx).
 
@@ -105,13 +105,13 @@ So if I have a site with three apps beneath I will get 4 physical path parameter
 
 Examples:
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-6.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample6.ps1)]
 
 <a id="_Toc322604010"></a>
 
 #### 3. Web Application
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-7.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample7.ps1)]
 
 Description: This will back up a web application using iisApp provider. Read more about this provider [here](https://technet.microsoft.com/en-us/library/dd569054(WS.10).aspx). Here is a good [article](http://msw/NewsEvents/ExecCommunications/TownHall/Pages/default.aspxhttp:/learn.iis.net/page.aspx/150/understanding-sites-applications-and-virtual-directories-on-iis/) that explains what a web application is and what is the difference between a site, an app and a virtual directory in IIS.
 
@@ -129,7 +129,7 @@ Auto generated Web Deploy parameters: A Parameter for changing the name of the a
 
 #### 1. MSSql
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-9.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample9.ps1)]
 
 Description: This will back up a Microsoft SQL Server Database using the dbfullsql provider. This provider uses SMO to script out the database and exposes more than 100 provider settings to control the way the database is scripted. This is covered in detail [here](https://technet.microsoft.com/en-us/library/dd569036(v=ws.10).aspx).
 
@@ -141,15 +141,15 @@ Examples:
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample10.ps1)]
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-11.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample11.ps1)]
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-12.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample12.ps1)]
 
 <a id="_Toc322604013"></a>
 
 #### 2. MySql
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-13.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample13.ps1)]
 
 Description: This will back up a MySql Server Database using the dbmysql provider. This provider uses mysqldump to script out the database. This is covered in detail [here](https://technet.microsoft.com/en-us/library/dd569017(v=ws.10).aspx).
 
@@ -159,9 +159,9 @@ Auto generated Web Deploy parameters: A parameter is created for changing the da
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample14.ps1)]
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-15.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample15.ps1)]
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-16.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample16.ps1)]
 
 <a id="_Toc322604014"></a>
 
@@ -193,25 +193,25 @@ All these cmdlets restore locally except when destination publish settings file 
 
 #### 1. Server
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-18.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample18.ps1)]
 
 Description: Restores a web server package. Common usage is to back up a server before making a change and in case of failure the server can be reverted by applying the Web Deploy backup package created before making the changes.
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample19.ps1)]
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-20.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample20.ps1)]
 
 <a id="_Toc322604017"></a>
 
 #### 2. Site
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-21.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample21.ps1)]
 
 Description: Restores an IIS Site package. If the package has two parameters named "Site Physical Path" and "Site Name" they will be exposed as SitePhysicalPath and SiteName dynamic powershell parameter. This command will create a new site site1 with physical path c:\site1. If no value is specified for these parameters, restore will apply to the same site and content, overwriting any changes you might have in the site.
 
 Parameters: You might want to use skipfolderlist and skipfilelist to exclude some folders and/or files from being copied in site contents.
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-22.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample22.ps1)]
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample23.ps1)]
 
@@ -219,31 +219,31 @@ Parameters: You might want to use skipfolderlist and skipfilelist to exclude som
 
 #### 3. App
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-24.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample24.ps1)]
 
 Description: This will restore a web application. Backup-WDApp creates package with one parameter to change the name of the app at install time. This can be used to restore the app to a different app during restore. The site must exist when deploying to an app under a site. App will be created by this package but site will not be created.
 
 Examples:
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-25.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample25.ps1)]
 
 <a id="_Toc322604019"></a>
 
 ### B. Database
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-26.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample26.ps1)]
 
 Description: If the database does not exist, this will create a new database called customers (as long as the current user has permissions for this operation) and execute the script on it. If this is run without any values for dynamic Web Deploy parameters the original database from which this package was created will be overwritten. Note that if scriptDropsFirst setting was not used when creating the package, then applying to a database with conflicting existing content will fail. This cmdlet may be used to restore either an MSSql or MySQL backup. You can only restore a MS SQL database with a backup created using Backup-WDSQLDatabase and My SQL database with a backup created using Backup-WDMySqlDatabase.
 
 Examples:
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-27.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample27.ps1)]
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-28.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample28.ps1)]
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-29.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample29.ps1)]
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-30.unknown)]
+[!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample30.ps1)]
 
 <a id="_Toc322604020"></a>
 
@@ -383,8 +383,8 @@ This cmdlet needs two manifests: One for the source and one for the destination.
 
 Source Manifest:
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-45.unknown)]
+[!code-xml[Main](web-deploy-powershell-cmdlets/samples/sample45.xml)]
 
 Destination Manifest:
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-46.unknown)]
+[!code-xml[Main](web-deploy-powershell-cmdlets/samples/sample46.xml)]

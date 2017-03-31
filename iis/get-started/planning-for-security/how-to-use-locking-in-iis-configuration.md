@@ -58,7 +58,7 @@ In this task, you learn how to use the **&lt;location&gt;** tag to lock (or unlo
 
 Using a text editor such as Notepad, open the applicationHost.config file in the following location:
 
-[!code-unknown[Main](how-to-use-locking-in-iis-configuration/samples/sample-127013-1.unknown)]
+[!code-console[Main](how-to-use-locking-in-iis-configuration/samples/sample1.cmd)]
 
 Review the &lt;configSections&gt; section at the very top of the file &acirc;&euro;&ldquo; it has metadata about the configuration sections in this file, like names for sections, containing section groups, and whether or not they are locked.
 

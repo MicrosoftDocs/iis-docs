@@ -36,7 +36,7 @@ All MIME types needed to support Silverlight are implemented by default in IIS 7
 
 Alternatively, you can add the following MIME types to your %*windir*%\system32\inetsrv\config\applicationHost.config file in the &lt;staticContent&gt; section.
 
-[!code-unknown[Main](configuring-iis-for-silverlight-applications/samples/sample-127077-1.unknown)]
+[!code-xml[Main](configuring-iis-for-silverlight-applications/samples/sample1.xml)]
 
 ### In Windows Server 2003 IIS 6.0
 

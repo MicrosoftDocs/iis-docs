@@ -71,7 +71,7 @@ For more information, see [Appcmd.exe](https://technet.microsoft.com/en-us/libra
 
 You can configure the following elements:
 
-[!code-unknown[Main](create-a-web-site/samples/sample-127055-3.unknown)]
+[!code-xml[Main](create-a-web-site/samples/sample3.xml)]
 
 For more information about configuration, see [IIS 7: IIS Settings Schema](https://go.microsoft.com/fwlink/?LinkId=88551) on Microsoft® Developer Network (MSDN®).
 

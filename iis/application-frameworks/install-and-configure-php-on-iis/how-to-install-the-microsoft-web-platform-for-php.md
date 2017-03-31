@@ -51,7 +51,7 @@ It is also possible to install IIS, PHP, and a database manually.
 
     - [Install and Configure PHP](install-and-configure-php.md).
     - [Install PHP and FastCGI Support on Server Core](install-php-and-fastcgi-support-on-server-core.md).
-3. Enable FastCGI support. FastCGI is an open protocol supported by many open-source application frameworks that otherwise may not support stable and high-performance native integration with IIS. The following articles provide guidance in enabling FastCGI:  
+3. **Enable FastCGI support.** FastCGI is an open protocol supported by many open-source application frameworks that otherwise may not support stable and high-performance native integration with IIS. The following articles provide guidance in enabling FastCGI:  
 
     - [Enable FastCGI Support in IIS 7 and Above on Windows Server 2008, Windows Server 2008 R2. Windows Vista, or Windows 7](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7.md).
     - [Install PHP and FastCGI Support on Server Core](install-php-and-fastcgi-support-on-server-core.md).

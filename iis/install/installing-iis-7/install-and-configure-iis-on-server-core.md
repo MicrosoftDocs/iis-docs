@@ -49,35 +49,35 @@ To install IIS on an installed and configured Server Core installation of Window
     [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-3.unknown)]
 5. To change the computer name type:  
 
-    [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-4.unknown)]
+    [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample4.cmd)]
 6. Reboot with the command:  
 
-    [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-5.unknown)]
+    [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample5.cmd)]
 7. To join the domain, type:  
 
-    [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-6.unknown)]
+    [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample6.cmd)]
 8. Reboot with the command:  
 
-    [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-7.unknown)]
+    [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample7.cmd)]
 9. To prevent a later setup error in MySQL, open an exception for MySQL:  
 
     [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample8.cmd)]
 10. Reboot with the command:  
 
-    [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-9.unknown)]
+    [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample9.cmd)]
 11. Next, activate Server Core.  
 
     - Use the following command if connected to the Internet:  
 
-        [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-10.unknown)]
+        [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample10.cmd)]
     - If not connected to the Internet, use phone activation.   
  Type one of the following:  
 
-        [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-11.unknown)]
+        [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample11.cmd)]
   
  (This displays the installation identification to be given to Microsoft.)  
 
-        [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-12.unknown)]
+        [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample12.cmd)]
   
  (This activates the server using the confirmation ID given by Microsoft.)
 

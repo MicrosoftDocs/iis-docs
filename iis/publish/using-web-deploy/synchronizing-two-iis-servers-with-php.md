@@ -22,7 +22,7 @@ This article will guide you through the process of using Web Deploy to synchroni
 
 1. Get the dependencies of the Web site by running the following command:  
 
-    [!code-unknown[Main](synchronizing-two-iis-servers-with-php/samples/sample-127156-1.unknown)]
+    [!code-console[Main](synchronizing-two-iis-servers-with-php/samples/sample1.cmd)]
 2. Review the output of the dependencies and look for any script maps or installed components that are in use by the site.  
 
     > [!NOTE]
@@ -43,7 +43,7 @@ Based this analysis of your dependencies, you would install those components on 
 
 Create the following manifest, assuming that your PHP install location is c:\php (replace with your actual install directory):
 
-[!code-unknown[Main](synchronizing-two-iis-servers-with-php/samples/sample-127156-2.unknown)]
+[!code-xml[Main](synchronizing-two-iis-servers-with-php/samples/sample2.xml)]
 
 Save this as **ServerManifest.xml**. For convenience, you can save it into the "%systemdrive%\program files\microsoft web deploy" directory, or to a directory of your choice. You should save it to both the source and destination computers.
 
@@ -56,13 +56,13 @@ Save this as **ServerManifest.xml**. For convenience, you can save it into the "
     [!code-console[Main](synchronizing-two-iis-servers-with-php/samples/sample3.cmd)]
 2. Run the following command on the source server to create a package (compressed file) of the server:  
 
-    [!code-unknown[Main](synchronizing-two-iis-servers-with-php/samples/sample-127156-4.unknown)]
+    [!code-console[Main](synchronizing-two-iis-servers-with-php/samples/sample4.cmd)]
 3. Run the following command on the destination server to validate what would happen if a synchronization were run:  
 
-    [!code-unknown[Main](synchronizing-two-iis-servers-with-php/samples/sample-127156-5.unknown)]
+    [!code-console[Main](synchronizing-two-iis-servers-with-php/samples/sample5.cmd)]
 4. After verifying the output, run the same command again without the -whatif flag:  
 
-    [!code-unknown[Main](synchronizing-two-iis-servers-with-php/samples/sample-127156-6.unknown)]
+    [!code-console[Main](synchronizing-two-iis-servers-with-php/samples/sample6.cmd)]
 
 #### Synchronize by using the remote service:
 
@@ -73,10 +73,10 @@ If you don't want to synchronize from a package, you can synchronize by using th
     [!code-console[Main](synchronizing-two-iis-servers-with-php/samples/sample7.cmd)]
 2. Run the following command on the source server. Use the **computerName** argument to specify the name of a remote server (for example, DestServer1). If the source is a remote server, you would change the source argument to source:manifest=servermanifest.xml,**computerName=Server1**.  
 
-    [!code-unknown[Main](synchronizing-two-iis-servers-with-php/samples/sample-127156-8.unknown)]
+    [!code-console[Main](synchronizing-two-iis-servers-with-php/samples/sample8.cmd)]
 3. After verifying the output, run the same command again without the whatif flag:  
 
-    [!code-unknown[Main](synchronizing-two-iis-servers-with-php/samples/sample-127156-9.unknown)]
+    [!code-console[Main](synchronizing-two-iis-servers-with-php/samples/sample9.cmd)]
 
 ### Summary
 

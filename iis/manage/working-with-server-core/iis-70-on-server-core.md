@@ -150,13 +150,13 @@ A. Type "Net user administrator \*" in the command-window. When prompted, please
 A. If machine is in a workgroup, then please type following in command window:
 
 
-[!code-unknown[Main](iis-70-on-server-core/samples/sample-126984-10.unknown)]
+[!code-console[Main](iis-70-on-server-core/samples/sample10.cmd)]
 
 
 Otherwise, if machine is a member of a domain then please type following in command window:
 
 
-[!code-unknown[Main](iis-70-on-server-core/samples/sample-126984-11.unknown)]
+[!code-console[Main](iis-70-on-server-core/samples/sample11.cmd)]
 
 
 **Q7. How do you join a machine to domain?**
@@ -164,14 +164,14 @@ Otherwise, if machine is a member of a domain then please type following in comm
 A. Type following on command-window:
 
 
-[!code-unknown[Main](iis-70-on-server-core/samples/sample-126984-12.unknown)]
+[!code-console[Main](iis-70-on-server-core/samples/sample12.cmd)]
 
 
 **Q8. How do you remove a machine from the domain?**
 
 A.
 
-[!code-unknown[Main](iis-70-on-server-core/samples/sample-126984-13.unknown)]
+[!code-console[Main](iis-70-on-server-core/samples/sample13.cmd)]
 
 **Q9. How do you disable the firewall?**
 
@@ -184,7 +184,7 @@ A.
 
 A.
 
-[!code-unknown[Main](iis-70-on-server-core/samples/sample-126984-15.unknown)]
+[!code-console[Main](iis-70-on-server-core/samples/sample15.cmd)]
 
 
 **Q11. How do you install an updates?**

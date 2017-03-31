@@ -128,7 +128,7 @@ For IIS to host PHP applications, you must add a handler mapping that tells IIS 
     [![](using-fastcgi-to-host-php-applications-on-iis/_static/image4.jpg)](using-fastcgi-to-host-php-applications-on-iis/_static/image3.jpg)
 5. Test that the handler mapping works correctly by creating a phpinfo.php file in the C:\inetpub\wwwroot folder that contains the following code:  
 
-    [!code-unknown[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample-127404-2.unknown)]
+    [!code-xml[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample2.xml)]
 6. Open a browser and navigate to http://localhost/phpinfo.php. If everything was setup correctly, you will see the standard PHP information page.  
 
     [![](using-fastcgi-to-host-php-applications-on-iis/_static/image9.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image8.png)

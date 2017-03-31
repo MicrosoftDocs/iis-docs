@@ -45,7 +45,7 @@ The IIS PowerShell Snap-in setup will create a new Program Menu shortcut. By sta
 If you want to use the IIS PowerShell Snap-in in an existing PowerShell command window you have to register the IIS snap-in manually. You can do this by simply executing the IISConsole.PSC1 file located in the "$env:programfiles\IIS\PowerShellProvider" directory:
 
 
-[!code-unknown[Main](installing-the-iis-powershell-snap-in/samples/sample-127212-1.unknown)]
+[!code-powershell[Main](installing-the-iis-powershell-snap-in/samples/sample1.ps1)]
 
 
 ## A Word About Security
@@ -69,13 +69,13 @@ Although the IIS PowerShell Provider files are all signed, PowerShell only trust
 If you see the error above your execution policy is probably set to "Restricted". To trust other code you can set the execution policy to "RemoteSigned" which allows local scripts to run without requiring a digital signature. Execute the following command in an elevated PowerShell window:
 
 
-[!code-unknown[Main](installing-the-iis-powershell-snap-in/samples/sample-127212-3.unknown)]
+[!code-powershell[Main](installing-the-iis-powershell-snap-in/samples/sample3.ps1)]
 
 
 Execute the following command if you want to know more about signing and execution policies.
 
 
-[!code-unknown[Main](installing-the-iis-powershell-snap-in/samples/sample-127212-4.unknown)]
+[!code-console[Main](installing-the-iis-powershell-snap-in/samples/sample4.cmd)]
 
 
 #### Trust Microsoft Code Signing Certficate to Trusted Publishers List
@@ -83,7 +83,7 @@ Execute the following command if you want to know more about signing and executi
 To trust the IIS Provider scripts and binaries you can hit "A" in the above dialog and it will add the code signing certificate used by the IIS Snap-in to the list of Trusted Publishers. You can get a list of "Trusted Publishers" with the following command:
 
 
-[!code-unknown[Main](installing-the-iis-powershell-snap-in/samples/sample-127212-5.unknown)]
+[!code-console[Main](installing-the-iis-powershell-snap-in/samples/sample5.cmd)]
 
 
 ## Summary

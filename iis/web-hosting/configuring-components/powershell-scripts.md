@@ -70,7 +70,7 @@ This article provides a summary of the PowerShell and C# Sample scripts mentione
 
     Example of a ProvisioningConfig.xml XML file:
 
-    [!code-unknown[Main](powershell-scripts/samples/sample-126956-2.unknown)]
+    [!code-xml[Main](powershell-scripts/samples/sample2.xml)]
 
     4.2. **To create AppPools** use CreateIISAppPool PoolName username password. If you do not provide username and password it will use the current user.
 
@@ -82,7 +82,7 @@ This article provides a summary of the PowerShell and C# Sample scripts mentione
 
     Example:
 
-    [!code-unknown[Main](powershell-scripts/samples/sample-126956-4.unknown)]
+    [!code-console[Main](powershell-scripts/samples/sample4.cmd)]
 
     4.4. **To create an Application** on a site use CreateIISApplicationOntoSite PhysicalPath RelativePath SiteName PoolName.
 

@@ -51,7 +51,7 @@ Configuring access over the secure sockets layer (SSL) requires administrative p
 
 Consequently, using SSL to test a website with IIS Express is as simple as adding a binding like the following to the site element in *applicationhost.config*:
 
-[!code-unknown[Main](running-iis-express-without-administrative-privileges/samples/sample-127456-1.unknown)]
+[!code-xml[Main](running-iis-express-without-administrative-privileges/samples/sample1.xml)]
 
 This works only for local traffic (localhost requests) and for the specified range of ports. Administrator privileges are required in order to configure a custom SSL certificate or to run SSL using a port outside the specified range.
 

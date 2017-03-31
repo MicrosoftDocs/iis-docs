@@ -78,7 +78,7 @@ The IIS configuration store can be extended by simply copying a schema file into
 
 Save the following schema definition as imagecopyright.xml in %windir%\system32\inetsrv\config\schema:
 
-[!code-unknown[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample-127056-1.unknown)]
+[!code-xml[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample1.xml)]
 
 If you get an "access denied" message, you did not do this from the elevated command prompt. Once the schema file is added, the schema needs to be declared in the applicationhost.config file. Add the following XML to %windir%\system32\inetsrv\config\applicationhost.config
 

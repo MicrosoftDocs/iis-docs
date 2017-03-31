@@ -36,8 +36,8 @@ For scenarios where you want to deliver a limited number of streams to clients o
 3. In **Category**, click **Control protocol**.
 4. In **Plug-in**, click **WMS HTTP Server Control Protocol**, and then click **Properties**.
 5. In **Port selection**, click **Use other port**, and then type the port number you want to use in the space provided. HTTP port numbers can range from **1** to **65535**.
-6. Click **OK** to apply the change.**Plug-in****WMS HTTP Server Control Protocol****Enable**
-7. In the details pane, in, click, and then clickto make the HTTP protocol available for streaming content from your Windows Media server.
+6. Click **OK** to apply the change.
+7. In the details pane, in **Plug-in**, click **WMS HTTP Server Control Protocol**, and then click **Enable** to make the HTTP protocol available for streaming content from your Windows Media server.
 
 <a id="ipaddress"></a>
 
@@ -64,12 +64,12 @@ By default, the HTTP Listener (HTTP.sys) for the default Web site in IIS 7 liste
 
 **To specify the IP address for HTTP downloading**
 
-1. From a command prompt, type the appropriate command to stop the following services:
+1. From a command prompt, type the appropriate command to stop the following services:  
 
     - For Windows Media Services, type **net stop wmserver**
     - For IIS, type **net stop w3svc**
 2. From a command prompt, type the following: **netsh http add iplisten ipaddress=x.x.x.x** where **x.x.x.x** is the static IP address that you want the Web server to monitor for HTTP requests on port 80. The static IP address that you do not specify will be reserved for Windows Media Services.
-3. From a command prompt, restart the services that you stopped in step 1:
+3. From a command prompt, restart the services that you stopped in step 1:  
 
     - For IIS, type **net start w3svc**
     - For Windows Media Services, type **net start wmserver**

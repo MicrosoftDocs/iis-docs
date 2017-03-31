@@ -190,7 +190,7 @@ Click the **OK** button. The Save button, shown below circled in red, has become
 
 To see this change in configuration, click **Start**, click **Run**, and type **notepad %windir%\system32\inetsrv\applicationHost.config**. Click the **Edit** menu, and select **Find**. Type "localTimeRollover" to find the newly added configuration. The configuration should appear similar to the XML below, and the localTimeRollover configuration property should be set to "true".
 
-[!code-unknown[Main](get-to-know-the-iis-wmi-provider-using-cim-studio/samples/sample-127048-3.unknown)]
+[!code-xml[Main](get-to-know-the-iis-wmi-provider-using-cim-studio/samples/sample3.xml)]
 
 Close the applicationHost.config file (click **No** if notepad asks if you would like to save changes). Now we execute one of the Site methods. Click the **Methods** tab, right click the **GetState** method, and select **Execute Method**. Click the **Execute** button.
 

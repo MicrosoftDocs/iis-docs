@@ -211,10 +211,10 @@ The following steps walk you through all of the required settings to add FTP pub
 1. Using a text editor such as Windows Notepad, open your applicationHost.config file, which is located in your %SystemRoot%\System32\inetsrv\config folder by default.
 2. Locate the section for your Default Web Site. It should resemble the following example: 
 
-    [!code-unknown[Main](using-ftp-over-ssl-in-iis-7/samples/sample-127181-1.unknown)]
+    [!code-xml[Main](using-ftp-over-ssl-in-iis-7/samples/sample1.xml)]
 3. Create a new binding element in the bindings collection. Set the value of the protocol attribute on the new binding element to contain "ftp", then change the port value of the bindingInformation attribute to contain "21". Your Default Web Site's settings should now resemble the following example: 
 
-    [!code-unknown[Main](using-ftp-over-ssl-in-iis-7/samples/sample-127181-2.unknown)]
+    [!code-xml[Main](using-ftp-over-ssl-in-iis-7/samples/sample2.xml)]
 4. Add an &lt;ftpServer&gt; section beneath the closing &lt;bindings&gt; tag that will contain your authentication and SSL settings. > [!NOTE]
  > The authentication settings for FTP sites are configured at the site-level, unlike authentication for Web sites, which can be configured per URL. 
 

@@ -189,7 +189,7 @@ Request Filtering allows for a customized list of allowed or denied HTTP verbs f
 
 After completing the above steps the resulting code in the **verbs** section of your applicationHost.config file should resemble the following example:
 
-> [!code-unknown[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample-127193-11.unknown)]
+> [!code-xml[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample11.xml)]
 
 
 <a id="02b3"></a>
@@ -207,7 +207,7 @@ Request Filtering will block certain file extensions like ".config" and ".asax" 
 
 After completing the above steps the resulting code in the **fileExtensions** section of your applicationHost.config file should resemble the following example:
 
-> [!code-unknown[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample-127193-14.unknown)]
+> [!code-xml[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample14.xml)]
 
 
 <a id="02c"></a>

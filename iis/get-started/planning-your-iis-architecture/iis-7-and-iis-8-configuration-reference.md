@@ -36,7 +36,7 @@ As noted earlier, this document contains snippets of schema information for each
 The schema for each configuration section is defined in an XML element. There is no schema definition for section groups. The following format is used here to explain how to read the schema:
 
 
-[!code-unknown[Main](iis-7-and-iis-8-configuration-reference/samples/sample-126992-1.unknown)]
+[!code-xml[Main](iis-7-and-iis-8-configuration-reference/samples/sample1.xml)]
 
 
 &lt;**attribute-name**&gt; is the name of the configuration attribute, as it appears in XML. Every attribute must have a name.
@@ -71,7 +71,7 @@ Every attribute is defined in a corresponding &lt;attribute&gt; XML element in t
 
 An attribute schema must specify a name and a runtime type for the attribute. It may mark the attribute as required. It may mark the attribute as the unique key (if inside a collection), or as part of a collection key (together with other attributes). It may specify a default value for the attribute. It may mark the attribute for automatic encryption on-disk. It may specify if the word "Infinite" is allowed as a value for the attribute (only for numeric types such as int and in64, and for timeSpan). It may specify the timespan format (seconds, minutes or formatted string) for timespan attributes. It may specify validation rules for the attributes (see Attribute Validation section below in this document).
 
-[!code-unknown[Main](iis-7-and-iis-8-configuration-reference/samples/sample-126992-2.unknown)]
+[!code-xml[Main](iis-7-and-iis-8-configuration-reference/samples/sample2.xml)]
 
 <a id="Element"></a>
 
@@ -79,7 +79,7 @@ An attribute schema must specify a name and a runtime type for the attribute. It
 
 Every element is defined in a corresponding &lt;element&gt; XML element in the schema. Elements can be nested. An element is simply a container for other attributes, or sub-elements. It must have a name and it may serve as a container of default values for collection elements (for example, siteDefaults holds the default values for sites in the &lt;sites&gt; collection).
 
-[!code-unknown[Main](iis-7-and-iis-8-configuration-reference/samples/sample-126992-3.unknown)]
+[!code-xml[Main](iis-7-and-iis-8-configuration-reference/samples/sample3.xml)]
 
 <a id="Collection"></a>
 
@@ -107,7 +107,7 @@ Some collections may allow duplicate entries by specifying allowDuplicates="true
 
 Some collections may allow additional attributes in them, beyond those specified in the schema. This is done by specifying allowUnrecognizedAttributes="true" in their schema. It is mostly done to support provider-based collections in the .NET framework.
 
-[!code-unknown[Main](iis-7-and-iis-8-configuration-reference/samples/sample-126992-8.unknown)]
+[!code-xml[Main](iis-7-and-iis-8-configuration-reference/samples/sample8.xml)]
 
 <a id="Enum"></a>
 
@@ -115,7 +115,7 @@ Some collections may allow additional attributes in them, beyond those specified
 
 Every attribute of type "enum" must define its enum values a corresponding &lt;enum&gt; XML element in the schema. Every value must have a friendly name and a numerical value.
 
-[!code-unknown[Main](iis-7-and-iis-8-configuration-reference/samples/sample-126992-9.unknown)]
+[!code-xml[Main](iis-7-and-iis-8-configuration-reference/samples/sample9.xml)]
 
 <a id="Flags"></a>
 
@@ -123,7 +123,7 @@ Every attribute of type "enum" must define its enum values a corresponding &lt;e
 
 Every attribute of type "flags" must define its flag values in a corresponding XML element in the schema. Every flag must have a friendly name and a numerical value that can be ORed together with other values, to form combinations; therefore it should be in multiples of 2.
 
-[!code-unknown[Main](iis-7-and-iis-8-configuration-reference/samples/sample-126992-10.unknown)]
+[!code-xml[Main](iis-7-and-iis-8-configuration-reference/samples/sample10.xml)]
 
 <a id="AttributeVal"></a>
 
@@ -188,7 +188,7 @@ The sections are structured by their hierarchy of containing section groups. Eac
 
 ## Schema
 
-[!code-unknown[Main](iis-7-and-iis-8-configuration-reference/samples/sample-126992-11.unknown)]
+[!code-xml[Main](iis-7-and-iis-8-configuration-reference/samples/sample11.xml)]
 
 <a id="Locking"></a>
 

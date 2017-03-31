@@ -20,7 +20,7 @@ This is a set of sample files you could use with Joomla! and the Web Deployment 
 
 ## Sample manifest.xml file
 
-[!code-unknown[Main](joomla-sample-files/samples/sample-127305-1.unknown)]
+[!code-xml[Main](joomla-sample-files/samples/sample1.xml)]
 
 ## Sample parameters.xml file
 

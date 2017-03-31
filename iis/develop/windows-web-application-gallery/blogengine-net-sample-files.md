@@ -22,7 +22,7 @@ The files are annotated with comments that explain specific lines in the files y
 
 ## Sample manifest.xml file
 
-[!code-unknown[Main](blogengine-net-sample-files/samples/sample-127306-1.unknown)]
+[!code-xml[Main](blogengine-net-sample-files/samples/sample1.xml)]
 
 ## Sample parameters.xml
 

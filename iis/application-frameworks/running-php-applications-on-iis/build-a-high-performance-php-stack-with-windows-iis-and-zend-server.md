@@ -89,7 +89,7 @@ Zend Server is fully configurable via its Web-based administration panel, which 
 Now that you know your way around Zend Server, let's put together a simple PHP script to check that everything's working as it should. Using a text editor, create a file containing the following PHP code:
 
 
-[!code-unknown[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample-126943-1.unknown)]
+[!code-xml[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample1.xml)]
 
 
 Save this file as whoami.php in the site root folder (typically, C:\inetpub\wwwroot\), and then browse to [http://localhost/whoami.php](http://localhost/whoami.php). You should see something like this:  

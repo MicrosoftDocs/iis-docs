@@ -31,7 +31,7 @@ The WebDeploy database providers give the application developer the ability to p
 
 A minimal provider directive identifies the provider to use and the SQL file for the provide to use :
 
-[!code-unknown[Main](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery/samples/sample-127274-1.unknown)]
+[!code-xml[Main](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery/samples/sample1.xml)]
 
 This example tells WebDeploy to use the MS SQL (dbfullsql) provider and to run a file called "install.sql".
 
@@ -121,7 +121,7 @@ In a shared hosting environment, the end user will probably not have the adminis
 
 In MySQL syntax, the normal command delimiter is a semi-colon (;). MySQL procedures require a different delimiter to be used for separating statements. This is explained in the [MySQL documentation](http://dev.mysql.com/doc/refman/5.1/en/stored-programs-defining.html). To specify the delimiter for WebDeploy, you should use attributes of the **dbMySQL** provider directive in the manifest.xml file:
 
-[!code-unknown[Main](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery/samples/sample-127274-4.unknown)]
+[!code-xml[Main](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery/samples/sample4.xml)]
 
 The create user script we use can be parameterized as well. We do recommend parameterizing the database server for the GRANT statement in the SQL Script below in the parameters.xml file and using a place-holder to represent the Database server, for example *‘PlaceHolderForServer'* . By doing so , the user will have the option to either install the application against a local MySQL server , usually ‘*localhost'* or install the application against a remote MySQL database .
 

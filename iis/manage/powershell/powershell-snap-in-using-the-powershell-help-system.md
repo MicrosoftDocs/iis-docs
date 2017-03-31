@@ -50,7 +50,7 @@ Examples:
 
 You can execute the following command to retrieve a list of the cmdlets IIS provides:
 
-[!code-unknown[Main](powershell-snap-in-using-the-powershell-help-system/samples/sample-127214-4.unknown)]
+[!code-powershell[Main](powershell-snap-in-using-the-powershell-help-system/samples/sample4.ps1)]
 
 
 ## Summary

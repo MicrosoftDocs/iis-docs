@@ -43,7 +43,7 @@ For information about how to download and install IIS Express, see [IIS Express 
     [!code-console[Main](running-iis-express-from-the-command-line/samples/sample2.cmd)]
 3. Run the following command to view the IIS Express usage string:
 
-    [!code-unknown[Main](running-iis-express-from-the-command-line/samples/sample-127454-3.unknown)]
+    [!code-console[Main](running-iis-express-from-the-command-line/samples/sample3.cmd)]
 4. Run your site using one of the following: 
 
     - Use /config to run a site from a configuration file.  
@@ -66,16 +66,16 @@ You can use the following commands:
 
 - To run the website *Website1* in the default configuration file, run: 
 
-    [!code-unknown[Main](running-iis-express-from-the-command-line/samples/sample-127454-5.unknown)]
+    [!code-console[Main](running-iis-express-from-the-command-line/samples/sample5.cmd)]
 - To run the first website in the default configuration file, run:
 
     [!code-unknown[Main](running-iis-express-from-the-command-line/samples/sample-127454-6.unknown)]
 - To run the first website in a custom configuration file, run:
 
-    [!code-unknown[Main](running-iis-express-from-the-command-line/samples/sample-127454-7.unknown)]
+    [!code-console[Main](running-iis-express-from-the-command-line/samples/sample7.cmd)]
 - To run a site called *MyBlog* from a custom configuration file, run:
 
-    [!code-unknown[Main](running-iis-express-from-the-command-line/samples/sample-127454-8.unknown)]
+    [!code-console[Main](running-iis-express-from-the-command-line/samples/sample8.cmd)]
 
 Note: The /config option specifies the full path of the configuration file. You can omit this option if you want to use the default configuration file. The /site option specifies a particular site in the configuration file. You can omit this option to run the first site in the configuration file.
 
@@ -85,7 +85,7 @@ You can also use the /path option to run a site directly from a folder. This opt
 
 For example, the following command runs the specified application, "myapp," on http://localhost:9090/ by using .NET 2.0:
 
-[!code-unknown[Main](running-iis-express-from-the-command-line/samples/sample-127454-9.unknown)]
+[!code-console[Main](running-iis-express-from-the-command-line/samples/sample9.cmd)]
   
   
 [Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

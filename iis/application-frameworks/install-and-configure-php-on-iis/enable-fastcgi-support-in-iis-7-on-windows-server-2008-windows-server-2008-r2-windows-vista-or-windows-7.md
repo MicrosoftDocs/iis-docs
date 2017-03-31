@@ -32,14 +32,13 @@ Windows Server® 2008 R2, Windows Server® 2008, Windows Vista®, or Windows® 7
 
 ## Enable FastCGI Support
 
-1. Add the CGI role service by going to **Server Manager** &gt; **Roles** &gt; **Add Role Services**.**Application Development****CGI**  
-
-    [![](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image1.jpg)](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image1.png)
-
+1. Add the CGI role service by going to **Server Manager** &gt; **Roles** &gt; **Add Role Services**.
+2. Under **Application Development**, select the **CGI** check box. This enables both the CGI and FastCGI services (selecting CGI enables both CGI and FastCGI).  
+    [![](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image1.jpg)](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image1.png)  
     *Figure 1: Select Role Services page*
-Under, select thecheck box. This enables both the CGI and FastCGI services (selecting CGI enables both CGI and FastCGI).2. Confirm the selections on the **Confirm Installation Selection** page, and then click **Install**.
-3. The **Installation Results** page shows that the installation succeeded. Click **Close**.
-4. The CGI role service appears under the IIS panel.
+3. Confirm the selections on the **Confirm Installation Selection** page, and then click **Install**.
+4. The **Installation Results** page shows that the installation succeeded. Click **Close**.
+5. The CGI role service appears under the IIS panel.
 
 ## Enable FastCGI Support in Windows 7 and Windows Vista SP1
 
@@ -48,9 +47,8 @@ IIS 7.0 for Windows Vista® Service Pack 1 (SP1) includes a built-in FastCGI com
 The steps to enable FastCGI in Windows 7 are similar.
 
 1. Add the CGI role service by going to **Control Panel** &gt; **Programs and Features** &gt; **Turn Windows features on or off.**  
-
-    [![](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image3.jpg)](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image2.jpg)
-
+    [![](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image3.jpg)](enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7/_static/image2.jpg)  
+  
     *Figure 2: Windows Features page*
 
 ## Install the Update for FastCGI Module
@@ -70,10 +68,8 @@ The update for the IIS FastCGI module fixes several known compatibility issues w
 
 The [IIS 7.0 Administration Pack](https://www.iis.net/downloads/microsoft/administration-pack) adds to the set of management features that ship with IIS to include Administration UI support for ASP.NET authorization, custom errors, FastCGI configuration, request filtering, and much more. The Administration Pack also provides a generic configuration editor that is capable of setting any IIS configuration setting and automatically generating scripts to make the task easily repeatable.
 
-
 > [!NOTE]
 > *This article uses information from: "[Using FasCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md#InstallPHP)" by Ruslan Yakushev, published on December 5, 2007**.*
-
 
 ## Links for Further Information
 

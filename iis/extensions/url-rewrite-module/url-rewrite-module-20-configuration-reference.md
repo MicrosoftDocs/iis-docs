@@ -183,7 +183,7 @@ If rewriting needs to be performed within an attribute of a tag that is not incl
 The following example shows a definition of a custom tags collection:
 
 
-[!code-unknown[Main](url-rewrite-module-20-configuration-reference/samples/sample-127343-6.unknown)]
+[!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample6.xml)]
 
 
 This custom tags collection can be referenced from an outbound rule as shown in the example below:
@@ -208,7 +208,7 @@ When **filterByTags** attribute is not specified in the match element of the rul
 
 - Use the IIS user mode caching and set the **rewriteBeforeCache** attribute of &lt;outboundRules&gt; element to true: 
 
-    [!code-unknown[Main](url-rewrite-module-20-configuration-reference/samples/sample-127343-8.unknown)]
+    [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample8.xml)]
 
  Note that this setting should not be used if the chunked transfer encoding is used for responses.
 - Use the **occurrences** attribute of the **match** element of the rule. For example, when you use a rule to insert some HTML fragment into the &lt;head&gt; element and that rule has a pattern that searches for the closing tag - &lt;/head&gt;, then you can set occurrences="1". This will tell the rewrite module to stop searching the remainder of the response after the &lt;/head&gt; tag was found.  
@@ -336,7 +336,7 @@ The request headers are set by using the same mechanism as for server variables,
 
 For example the following configuration is used to sets the custom **x-original-host** header on the request:
 
-[!code-unknown[Main](url-rewrite-module-20-configuration-reference/samples/sample-127343-13.unknown)]
+[!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample13.xml)]
 
 <a id="Setting_Response_Headers"></a>
 

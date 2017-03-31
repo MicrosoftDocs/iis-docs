@@ -26,21 +26,21 @@ Use the following code samples for implementing AppCmd.exe.
 
 **To create a site and an application pool (with failed request tracing and W3svc log file locations)**
 
-[!code-unknown[Main](appcmdexe/samples/sample-127098-1.unknown)]
+[!code-console[Main](appcmdexe/samples/sample1.cmd)]
 
-[!code-unknown[Main](appcmdexe/samples/sample-127098-2.unknown)]
+[!code-console[Main](appcmdexe/samples/sample2.cmd)]
 
 
-[!code-unknown[Main](appcmdexe/samples/sample-127098-3.unknown)]
+[!code-console[Main](appcmdexe/samples/sample3.cmd)]
 
 
 **To configure the Failed Request Tracing log file location**
 
 
-[!code-unknown[Main](appcmdexe/samples/sample-127098-4.unknown)]
+[!code-console[Main](appcmdexe/samples/sample4.cmd)]
 
 
 **To configure the W3SVC log file location**
 
 
-[!code-unknown[Main](appcmdexe/samples/sample-127098-5.unknown)]
+[!code-console[Main](appcmdexe/samples/sample5.cmd)]

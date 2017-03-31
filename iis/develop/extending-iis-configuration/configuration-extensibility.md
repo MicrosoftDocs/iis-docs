@@ -48,7 +48,7 @@ The first step in adding a new configuration section is defining the section. De
 Create an xml file called **simpleLogging\_Schema.xml** and put the following into it:
 
 
-[!code-unknown[Main](configuration-extensibility/samples/sample-127068-1.unknown)]
+[!code-xml[Main](configuration-extensibility/samples/sample1.xml)]
 
 
 The schema above does two things. First, it defines a new configuration section named "simpleLogging" using the &lt;sectionSchema&gt; element. Second, it defines an attribute of that new configuration section called "logfileDirectory".
@@ -58,13 +58,13 @@ You can see from the schema file that the attribute is a string and the configur
 Next, create the default directory specified for "logfileDirectory", as it probably does not exist on your machine. Run the following command from the command line to create the directory:
 
 
-[!code-unknown[Main](configuration-extensibility/samples/sample-127068-2.unknown)]
+[!code-console[Main](configuration-extensibility/samples/sample2.cmd)]
 
 
 The Windows group IIS\_IUSRS must have write permissions to the directory so that the SimpleLogging module we create in Step 4 can write log files to it. Run the following command at the command line:
 
 
-[!code-unknown[Main](configuration-extensibility/samples/sample-127068-3.unknown)]
+[!code-console[Main](configuration-extensibility/samples/sample3.cmd)]
 
 
 ### More About the Schema
@@ -73,9 +73,9 @@ Although Step 1 is complete in terms of our example, it is appropriate to discus
 
 | Type | Schema Info and Examples |
 | --- | --- |
-| **attribute** | &lt; [!code-unknown[Main](configuration-extensibility/samples/sample-127068-4.unknown)] **Example:** [!code-unknown[Main](configuration-extensibility/samples/sample-127068-5.unknown)] |
-| **element** | [!code-unknown[Main](configuration-extensibility/samples/sample-127068-6.unknown)] **Example:** [!code-unknown[Main](configuration-extensibility/samples/sample-127068-7.unknown)] |
-| **collection** | [!code-unknown[Main](configuration-extensibility/samples/sample-127068-8.unknown)] **Example:** [!code-unknown[Main](configuration-extensibility/samples/sample-127068-9.unknown)] |
+| **attribute** | &lt; [!code-unknown[Main](configuration-extensibility/samples/sample-127068-4.unknown)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample5.xml)] |
+| **element** | [!code-xml[Main](configuration-extensibility/samples/sample6.xml)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample7.xml)] |
+| **collection** | [!code-xml[Main](configuration-extensibility/samples/sample8.xml)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample9.xml)] |
 
 ### Step 2 – Registering the New Section
 
@@ -234,7 +234,7 @@ Here are the steps to create the .NET COM component:
 Next, modify the **simpleLogging\_Schema.xml** file created earlier. Open the file and change it to look like the following (the new attribute is bolded):
 
 
-[!code-unknown[Main](configuration-extensibility/samples/sample-127068-28.unknown)]
+[!code-xml[Main](configuration-extensibility/samples/sample28.xml)]
 
 
 ### Step 3 - Testing
@@ -268,7 +268,7 @@ Finally, this article examines extending configuration with a method. Configurat
 Next, tell the schema about our new method. At this stage, you should be fairly familiar with your **simpleLogging\_Schema.xml** file, so open it up again and change it to look like the following:
 
 
-[!code-unknown[Main](configuration-extensibility/samples/sample-127068-32.unknown)]
+[!code-xml[Main](configuration-extensibility/samples/sample32.xml)]
 
 
 The change defined a new method called "deleteLogs" and tells the configuration where to look for the method.
@@ -302,7 +302,7 @@ To better show how to extend an existing configuration section, we extend the **
 First, create a new schema file. Create a **siteExtension\_schema.xml** file in the **%windir%\system32\inetsrv\config\schema\** directory and enter the text below:
 
 
-[!code-unknown[Main](configuration-extensibility/samples/sample-127068-35.unknown)]
+[!code-xml[Main](configuration-extensibility/samples/sample35.xml)]
 
 
 When extending the schema of an existing section, simply create a **&lt;sectionSchema&gt;** element and set the **name** attribute to be the same as an existing section. In the schema file above, we have defined a &lt;sectionSchema&gt; with a name of "system.applicationHost/sites" - this is the same as the sectionSchema name in the IIS\_Schema.xml file in the Schema directory.
@@ -322,7 +322,7 @@ To see if the configuration was applied, run the following command and check the
 The output should be something like the following:
 
 
-[!code-unknown[Main](configuration-extensibility/samples/sample-127068-38.unknown)]
+[!code-xml[Main](configuration-extensibility/samples/sample38.xml)]
 
 
 > [!NOTE]

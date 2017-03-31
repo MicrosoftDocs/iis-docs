@@ -127,7 +127,7 @@ Now to strip down the server.
 2. Navigate to the **&lt;system.webServer&gt;/&lt;globalModules&gt;** section.
 3. Remove all of the entries in the collection, so that only an empty section definition remains:  
 
-    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-10.unknown)]
+    [!code-xml[Main](build-a-custom-iis-server/samples/sample10.xml)]
 4. Paste the items into a scratch notepad window for use later. Repeat the same with the &lt;system.webServer&gt;/&lt;modules&gt; section. Remove all of the entries under this section and paste them into a scratch notepad for later use. This ensures we are not enabling any modules we no longer load. Paste these cut items into a scratch notepad window for use later.
 5. Repeat the same with the **&lt;system.webServer&gt;/&lt;handlers&gt;** section. Remove all of the entries under this section, to make sure we are not specifying any handler mappings with modules we disabled. Paste the items into a scratch notepad for later use. Save the applicationHost.config file to effect the changes.
 
@@ -226,10 +226,10 @@ To perform this task, it is assumed that we have followed the previous tasks, st
     In order to use the added features, we need to configure them.
 4. Enable the Basic Authentication service. Navigate to the &lt;basicAuthentication&gt; element, and set the enabled attribute to true:  
 
-    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-21.unknown)]
+    [!code-xml[Main](build-a-custom-iis-server/samples/sample21.xml)]
 5. Disable anonymous authentication. Navigate to the &lt;anonymousAuthentication&gt; element, and set the enabled attribute to false:  
 
-    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-22.unknown)]
+    [!code-xml[Main](build-a-custom-iis-server/samples/sample22.xml)]
 
     This disables anonymous authentication, and requires the basic authentication module to successfully authenticate the user before access will be granted.
 6. Save the applicationHost.config file.

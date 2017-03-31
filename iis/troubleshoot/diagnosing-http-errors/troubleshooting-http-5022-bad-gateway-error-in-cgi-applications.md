@@ -65,17 +65,17 @@ This problem occurs when the CGI application does exactly what the error suggest
 
 The request to the CGI starts at line 391:
 
-[!code-unknown[Main](troubleshooting-http-5022-bad-gateway-error-in-cgi-applications/samples/sample-127561-4.unknown)]
+[!code-xml[Main](troubleshooting-http-5022-bad-gateway-error-in-cgi-applications/samples/sample4.xml)]
 
-[!code-unknown[Main](troubleshooting-http-5022-bad-gateway-error-in-cgi-applications/samples/sample-127561-5.unknown)]
+[!code-xml[Main](troubleshooting-http-5022-bad-gateway-error-in-cgi-applications/samples/sample5.xml)]
 
 Line 441 shows the problem in the CGI:
 
-[!code-unknown[Main](troubleshooting-http-5022-bad-gateway-error-in-cgi-applications/samples/sample-127561-6.unknown)]
+[!code-xml[Main](troubleshooting-http-5022-bad-gateway-error-in-cgi-applications/samples/sample6.xml)]
 
 Line 446 then shows the 502 that is sent to the client. It is in fact a 502.2 (substatus of 2):
 
-[!code-unknown[Main](troubleshooting-http-5022-bad-gateway-error-in-cgi-applications/samples/sample-127561-7.unknown)]
+[!code-xml[Main](troubleshooting-http-5022-bad-gateway-error-in-cgi-applications/samples/sample7.xml)]
 
 The request is processed by IIS, we see it is for a CGI, and we pass it along to the CGI. The CGI starts its processing at line 405:
 

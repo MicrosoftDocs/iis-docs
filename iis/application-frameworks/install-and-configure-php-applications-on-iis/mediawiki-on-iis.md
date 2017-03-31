@@ -35,9 +35,9 @@ The instructions have been tested and found to work in the following configurati
 
     [!code-console[Main](mediawiki-on-iis/samples/sample1.cmd)]
 
-    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-2.unknown)]
+    [!code-console[Main](mediawiki-on-iis/samples/sample2.cmd)]
 
-    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-3.unknown)]
+    [!code-console[Main](mediawiki-on-iis/samples/sample3.cmd)]
 
     From the base configuration file provided by PHP, you will need to modify your php.ini to have the following definitions:
 
@@ -56,7 +56,7 @@ The latest release of MediaWiki is found at [http://www.mediawiki.org/wiki/Downl
 2. Modify the permissions for the MediaWiki config folder and grant Write permissions for the built-in IIS\_IUSRS group.
 3. Open a Command Prompt window with administrator privileges and run the following command:  
 
-    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-7.unknown)]
+    [!code-console[Main](mediawiki-on-iis/samples/sample7.cmd)]
 
 ## Configure MediaWiki
 
@@ -72,7 +72,7 @@ The latest release of MediaWiki is found at [http://www.mediawiki.org/wiki/Downl
 4. Move the LocalSetting.php file to the %SystemDrive%\Inetpub\wwwroot\MediaWiki\ folder and delete the folder %SystemDrive%\Inetpub\wwwroot\MediaWiki\config from your system.
 5. LocalSetting.php contains sensitive information, so secure it by revoking access to unnecessary identities. Open a Command Prompt window with administrator privileges and run the following command:  
 
-    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-8.unknown)]
+    [!code-console[Main](mediawiki-on-iis/samples/sample8.cmd)]
 
  The previous command grants access only to the following identities:  
 

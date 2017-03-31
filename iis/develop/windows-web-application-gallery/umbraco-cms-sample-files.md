@@ -20,7 +20,7 @@ This is a set of sample files you could use with Umbraco CMS 5 and the Web Deplo
 
 ## Sample manifest.xml file
 
-[!code-unknown[Main](umbraco-cms-sample-files/samples/sample-127314-1.unknown)]
+[!code-xml[Main](umbraco-cms-sample-files/samples/sample1.xml)]
 
 ## Sample parameters.xml file
 

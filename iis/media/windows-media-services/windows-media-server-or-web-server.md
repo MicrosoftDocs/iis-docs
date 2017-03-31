@@ -20,7 +20,9 @@ You can deliver digital media audio and video files and live streams either from
 
 With the broader availability of high-bandwidth networks and new media delivery features for IIS 7 and above, the differences that previously favored the use of a Windows Media server over a Web server for delivering digital media content have blurred. In non-multicast streaming scenarios, depending upon your business need, a Windows Media server or a Web server can both be viable options for digital media content delivery today.
 
-This article introduces the delivery methods and bandwidth-management capabilities of Windows Media servers and Web servers, two important aspects of media delivery to consider when you are trying to decide which server type to deploy for your delivery scenario. s
+This article introduces the delivery methods and bandwidth-management capabilities of Windows Media servers and Web servers, two important aspects of media delivery to consider when you are trying to decide which server type to deploy for your delivery scenario.
+
+## Introducing Windows Media servers and Web servers
 
 This section introduces the two primary Windows Server roles that are used to deliver digital media to clients:
 
@@ -196,4 +198,4 @@ Windows Media Services 2008 and IIS have additional features that are not descri
 **6**[IIS Advanced Logging](https://www.iis.net/downloads/microsoft/advanced-logging)  
 **7**[IIS Web Playlists](https://www.iis.net/downloads/microsoft/web-playlists)
 
->[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)
+[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

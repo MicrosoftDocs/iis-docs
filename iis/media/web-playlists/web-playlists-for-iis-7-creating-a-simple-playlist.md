@@ -260,7 +260,7 @@ The smil playlist referred above is read by the server and send the client in th
 The playlist in the example above results in the following ASX when accessed by the client:
 
 
-[!code-unknown[Main](web-playlists-for-iis-7-creating-a-simple-playlist/samples/sample-127296-4.unknown)]
+[!code-xml[Main](web-playlists-for-iis-7-creating-a-simple-playlist/samples/sample4.xml)]
 
 
 When the player tries to play the playlist, The param tags above act as hints to player / developer writing the player. If there is an attempt to ignore the hints, then the server-side logic ensures the sanctity of the media controls: **Disable Skip Forward**, **Disable Skip Backward**, and **Disable Seek**.

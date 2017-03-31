@@ -75,7 +75,7 @@ The following snippet shows the settings for the *&lt;defaultDocument&gt;* secti
 
 This configuration section has an associated schema. The following snippet shows the schema for the &lt;defaultDocument&gt; section in the file IIS\_schema.xml. The schema defines the name of the section and the namespace it appears in (in this case, *system.webServer*). Also, the schema describes the attributes and elements and for each the name, type, default values and other interesting data.
 
-[!code-unknown[Main](understanding-iis-configuration-delegation/samples/sample-127035-2.unknown)]
+[!code-xml[Main](understanding-iis-configuration-delegation/samples/sample2.xml)]
 
 <a id="04"></a>
 

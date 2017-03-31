@@ -63,7 +63,7 @@ Perform the following steps to download and install the SQL Server Driver for PH
 
     1. Open a text file, and copy the following code into it:  
 
-        [!code-unknown[Main](install-the-sql-server-driver-for-php/samples/sample-127390-2.unknown)]
+        [!code-xml[Main](install-the-sql-server-driver-for-php/samples/sample2.xml)]
     2. Save the file as **info.php** in your Web server's root directory.
     3. Open a browser, and go to [http://localhost/info.php](http://localhost/info.php).
     4. Scroll down the resulting page to find the **sqlsrv** section. Confirm that the driver is loaded and the configuration settings are set to the default values (see Figure 1).  

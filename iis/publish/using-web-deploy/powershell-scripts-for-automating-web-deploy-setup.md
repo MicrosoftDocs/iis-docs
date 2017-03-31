@@ -136,7 +136,7 @@ Create a database with user using the defaults (local SQLExpress database):
 
 Create a new database and add the connection string information to existing publish settings file "c:\profiles\UserA.PublishSettings":
 
-[!code-unknown[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample-127166-4.unknown)]
+[!code-powershell[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample4.ps1)]
 
 [[![](powershell-scripts-for-automating-web-deploy-setup/_static/image15.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image14.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image13.png)
 

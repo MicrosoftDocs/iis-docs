@@ -76,7 +76,7 @@ Clients read the **LogUrl** element in a client-side manifest to determine the U
 The syntax for adding LogUrls to the manifest is:
 
 
-[!code-unknown[Main](advanced-logging-for-iis-client-logging/samples/sample-127283-1.unknown)]
+[!code-xml[Main](advanced-logging-for-iis-client-logging/samples/sample1.xml)]
 
 <a id="parameters"></a>
 

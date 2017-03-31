@@ -118,7 +118,7 @@ After you have completed the steps in the prerequisites section, you will have a
 If necessary, modify the **Change Frequency**, **Last Modified Date**, and **Priority** options, and then click **OK** to add the URLs to the sitemap. A sitemap.xml file will be updated (or created if it did not exist), and its content will look like the following:
 
 
-[!code-unknown[Main](managing-robotstxt-and-sitemap-files/samples/sample-127348-2.unknown)]
+[!code-xml[Main](managing-robotstxt-and-sitemap-files/samples/sample2.xml)]
 
 
 ### Adding the sitemap location to the Robots.txt file

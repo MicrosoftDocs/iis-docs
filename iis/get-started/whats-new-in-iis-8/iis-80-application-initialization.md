@@ -81,7 +81,7 @@ Modify the application pool entry so that the application pool is always running
 
 Scroll down a little more in applicationHost.config to the &lt;sites&gt; configuration element. Within that section there will be an &lt;application&gt; entry for the sample application (see the Appendix for instructions on creating the sample application on your machine). The application is called "appinit", and has a path attribute value of "/appinit". Modify the &lt;application&gt; entry by adding the bolded **preloadEnabled** attribute as shown in the configuration snippet and then save your changes.
 
-[!code-unknown[Main](iis-80-application-initialization/samples/sample-127549-2.unknown)]
+[!code-xml[Main](iis-80-application-initialization/samples/sample2.xml)]
 
 Setting **preloadEnabled** to "true" tells IIS 8.0 that it sends a "fake" request to the application when the associated application pool starts up. That is why in the previous step we set the application pool's **startMode** to "AlwaysRunning".
 
@@ -187,7 +187,7 @@ Application pool configuration entry:
 
 Application configuration entry:
 
-[!code-unknown[Main](iis-80-application-initialization/samples/sample-127549-9.unknown)]
+[!code-xml[Main](iis-80-application-initialization/samples/sample9.xml)]
 
 Remember to save your changes when you are done!
 

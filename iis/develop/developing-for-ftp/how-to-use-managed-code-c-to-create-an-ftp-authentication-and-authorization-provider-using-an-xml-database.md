@@ -152,7 +152,7 @@ Create an XML file for the membership users and roles:
 
 - Paste the following code into a text editor: 
 
-    [!code-unknown[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database/samples/sample-127264-4.unknown)]
+    [!code-xml[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database/samples/sample4.xml)]
 - Save the code as "Users.xml" to your computer. For example, you could use the path "C:\Inetpub\XmlSample\Users.xml".
 
 > [!NOTE]

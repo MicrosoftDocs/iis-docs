@@ -65,7 +65,7 @@ note: change drive if your system drive is not C:\
 You can also do by running the following command line:
 
 
-[!code-unknown[Main](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/samples/sample-127004-1.unknown)]
+[!code-console[Main](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/samples/sample1.cmd)]
 
 
 ### Step 4: Add IgnoreSection Handler to v1.1 machine.config

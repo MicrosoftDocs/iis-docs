@@ -97,7 +97,7 @@ In this step, you will send requests to Application Request Routing and analyze 
 2. Change directory to the folder that matches the **Default Web Site**. By default, this is **W3SVC1**. If you are unsure, select the **Default Web Site** in IIS Manager, and then select **Advanced Settings…** in the **Actions** pane. The value of the **ID** indicates the corresponding folder. (ie. ID 1 corresponds to W3SVC1).
 3. If there are any xml files, remove them by typing:  
 
-    [!code-unknown[Main](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/samples/sample-127377-5.unknown)]
+    [!code-console[Main](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/samples/sample5.cmd)]
 4. Send a request to Application Request Routing. If Application Request Routing is functioning correctly, it results in a 200 response, which falls within the 200 to 399 range that was specified in Step 1. Therefore, the logs are written to the location above.  
   
  5. List the files in the directory to confirm that new xml files are written.

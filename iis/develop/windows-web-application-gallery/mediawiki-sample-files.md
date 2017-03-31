@@ -24,7 +24,7 @@ In addition, the MediaWiki installation routine creates the configuration file "
 
 ## Sample manifest.xml file
 
-[!code-unknown[Main](mediawiki-sample-files/samples/sample-127311-1.unknown)]
+[!code-xml[Main](mediawiki-sample-files/samples/sample1.xml)]
 
 ## Sample parameters.xml file
 

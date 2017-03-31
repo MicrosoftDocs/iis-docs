@@ -164,10 +164,10 @@ On the UNC server do the following:
 
     - Windows Server® 2003 Fileserver:  
 
-        [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-5.unknown)]
+        [!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample5.cmd)]
     - Windows Server 2003 Fileserver:  
 
-        [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-6.unknown)]
+        [!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample6.cmd)]
 4. Share the directory out. From the command line, do the following:  
 
     [!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample7.cmd)]
@@ -185,7 +185,7 @@ To configure Failed Request Tracing to log to our UNC path, follow these directi
 3. Check the **Enabled** check box.
 4. Under *Directory*, type in the path to the UNC share -&gt; 
 
-    [!code-unknown[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample-127049-8.unknown)]
+    [!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample8.cmd)]
 
 [![](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image11.png)](how-to-enable-failed-request-tracing-for-unc-hosting/_static/image9.png)
 

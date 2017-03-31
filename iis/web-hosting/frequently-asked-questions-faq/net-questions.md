@@ -24,7 +24,7 @@ A workaround is available for users to modify their websites so they can run cor
 
 When a user builds a new ASP.NET website with Visual Studio 2008 Beta 2 or Visual Web Developer 2008 Express, these products insert a new entry in the applications web.config configuration file. This is done when the user creates a new project, or migrates an existing website to use .NET Framework 3.5. The configuration entry looks as follows:
 
-[!code-unknown[Main](net-questions/samples/sample-126974-1.unknown)]
+[!code-xml[Main](net-questions/samples/sample1.xml)]
 
 When this website is run in medium trust or any partial trust setting, ASP.NET will raise an error noting that "the current trust level does not allow use of the ‘compilerOptions' attribute". The compilerOptions setting specified in the above configuration is not allowed in medium trust or a partial trust configuration.
 
@@ -50,23 +50,23 @@ As a workaround, you can enable LINQ for medium trust by following these steps o
 
 1. Open a command prompt, and go to the directory that contains your ASP.NET 2.0 trust policy files. This is found under the Windows directory, at  
 
-    [!code-unknown[Main](net-questions/samples/sample-126974-2.unknown)]
+    [!code-console[Main](net-questions/samples/sample2.cmd)]
 2. Determine which CAS policy file to modify. If you are using medium trust, this file will be web\_mediumtrust.config.
 3. Make a backup of the existing file.
 4. Examine the &lt;SecurityClasses&gt; section of your CAS policy file. If the section does not contain an entry named ReflectionPermission, add a new entry as follows:  
 
-    [!code-unknown[Main](net-questions/samples/sample-126974-3.unknown)]
+    [!code-xml[Main](net-questions/samples/sample3.xml)]
 
  If you are using the default medium trust settings, you must add this entry. Depending upon your trust setting, your CAS policy file may already contain this entry.
 5. Examine the &lt;NamedPermissionSets&gt; section of your CAS policy file. If the section does not contain an entry named ReflectionPermission, add a new entry as follows:  
 
-    [!code-unknown[Main](net-questions/samples/sample-126974-4.unknown)]
+    [!code-xml[Main](net-questions/samples/sample4.xml)]
 
     If you are using the default medium trust settings, you will need to add this entry.
 
     If you are using another trust configuration, and the section already contains an entry named ReflectionPermission, you can modify the Flags setting to add RestrictedMemberAccess permission. Flags should be separated by a comma. For example, if you are using the default high trust settings, you can modify this section as follows:
 
-    [!code-unknown[Main](net-questions/samples/sample-126974-5.unknown)]
+    [!code-xml[Main](net-questions/samples/sample5.xml)]
 6. Save the file, and restart the Web server.
 
 To verify whether the changes have been made successfully, create a new ASP.NET website containing the files in the enclosed ZIP, and run it.

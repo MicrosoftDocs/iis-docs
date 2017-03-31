@@ -180,7 +180,7 @@ In this fourth step you will configure a Web site to use forms authentication wi
 
     - Paste the following code into a text editor: 
 
-        [!code-unknown[Main](how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis/samples/sample-126940-6.unknown)]
+        [!code-xml[Main](how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis/samples/sample6.xml)]
     - Save the code as "Users.xml" in the App\_Data folder of your Web site.
 2. Create a Login.aspx file for your Web site: 
 

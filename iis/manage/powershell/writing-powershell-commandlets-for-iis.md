@@ -111,7 +111,7 @@ To finish the command, you must add the implementation of the class, inherited f
 
 Build the cmdlet now and see how it works. You could do it from Visual Studio, but it is simple enough to build it from the command line. Suppose you placed PowerShell reference DLLs into a folder c:\sdk. The following command line builds the cmdlet into IISDemoCmd.dll and places it into the same folder, where the source file is located
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-5.unknown)]
+[!code-console[Main](writing-powershell-commandlets-for-iis/samples/sample5.cmd)]
 
 Now you must register the command and add it into PowerShell. This procedure is described in PowerShell Programming Reference. Start PowerShell and execute the following commands from the same folder where you built cmdlet DLL.
 

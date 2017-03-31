@@ -93,7 +93,7 @@ To use the Zip file installation, follow the instructions in [Using FastCGI to H
 21. In the **Actions** panel on the right, click **Restart**.
 22. Create a new text document, and save it as **c:\inetpub\wwwroot\phpinfo.php** with the following content:  
 
-    [!code-unknown[Main](install-and-configure-php/samples/sample-127394-1.unknown)]
+    [!code-xml[Main](install-and-configure-php/samples/sample1.xml)]
 23. You should now see the PHP information page at http://localhost/phpinfo.php.  
 
     [![](install-and-configure-php/_static/image10.jpg)](install-and-configure-php/_static/image9.jpg)
@@ -162,7 +162,7 @@ The Php.ini file provides PHP with configuration and environmental information. 
 15. Create **session.php** in the **phpapp** directory.
 16. Paste the following into it:  
 
-    [!code-unknown[Main](install-and-configure-php/samples/sample-127394-3.unknown)]
+    [!code-xml[Main](install-and-configure-php/samples/sample3.xml)]
 17. Save and close the file.
 18. Start **Internet Explorer**, and navigate to `http://localhost/phpapp/session.php`.  
 

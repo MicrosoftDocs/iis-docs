@@ -24,7 +24,7 @@ IIS 6 had a User Interface to configure and map one to one certificates for auth
 
 This is the schema for the IIS Client Certificate Mapping Authentication Feature in IIS 7 and above.
 
-[!code-unknown[Main](configuring-one-to-one-client-certificate-mappings/samples/sample-127014-1.unknown)]
+[!code-xml[Main](configuring-one-to-one-client-certificate-mappings/samples/sample1.xml)]
 
 ## Prerequisites
 

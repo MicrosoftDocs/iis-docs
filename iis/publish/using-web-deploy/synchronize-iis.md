@@ -38,7 +38,7 @@ Note: If you have not already installed the Web Deployment Tool, see [Installing
 
 1. Get the dependencies of the Web site by running the following command:  
 
-    [!code-unknown[Main](synchronize-iis/samples/sample-127155-1.unknown)]
+    [!code-console[Main](synchronize-iis/samples/sample1.cmd)]
 2. Review the output of the dependencies and look for any script maps or installed components that are in use by the site. For example, if Windows Authentication is in use by the Web site, you will see &lt;dependency name="WindowsAuthentication" /&gt;.
 3. If your site is inheriting any script maps, these will not be listed in the dependencies and you should also review the script maps for your site manually.
 4. Compile a list of the components needed on the destination.
@@ -68,18 +68,18 @@ Based on analyzing your dependencies, you would install those components on the 
 
     - Pushing to remote destination, running on source computer (the computerName argument identifies the remote destination computer).  
 
-        [!code-unknown[Main](synchronize-iis/samples/sample-127155-4.unknown)]
+        [!code-console[Main](synchronize-iis/samples/sample4.cmd)]
     - Pulling from a remote source, running on destination machine (the computerName argument identifies the remote source computer).  
 
-        [!code-unknown[Main](synchronize-iis/samples/sample-127155-5.unknown)]
+        [!code-console[Main](synchronize-iis/samples/sample5.cmd)]
 5. After verifying the output, run the same command again without the **-whatif** flag:  
 
     - Pushing to remote destination, running on source machine
 
-        [!code-unknown[Main](synchronize-iis/samples/sample-127155-6.unknown)]
+        [!code-console[Main](synchronize-iis/samples/sample6.cmd)]
 6. Pulling from a remote source, running on destination machine  
 
-    [!code-unknown[Main](synchronize-iis/samples/sample-127155-7.unknown)]
+    [!code-console[Main](synchronize-iis/samples/sample7.cmd)]
 
 ### {Optional - Synchronize your site to the target by using a package file}
 
@@ -87,14 +87,14 @@ If you don't wish to use the remote service, you can use a package (compressed f
 
 1. Run the following command on the source server to create a package of the Web site for synchronization:  
 
-    [!code-unknown[Main](synchronize-iis/samples/sample-127155-8.unknown)]
+    [!code-console[Main](synchronize-iis/samples/sample8.cmd)]
 2. Copy the package file to the destination server.
 3. Run the following command on the destination server to validate what would happen if the synchronization were run:  
 
-    [!code-unknown[Main](synchronize-iis/samples/sample-127155-9.unknown)]
+    [!code-console[Main](synchronize-iis/samples/sample9.cmd)]
 4. After verifying the output, run the same command again without the -whatif flag:  
 
-    [!code-unknown[Main](synchronize-iis/samples/sample-127155-10.unknown)]
+    [!code-console[Main](synchronize-iis/samples/sample10.cmd)]
 
 You are now done synchronizing your site. To verify, test browsing to the Web site on the destination server. For troubleshooting help, see [Troubleshooting Web Deploy](../troubleshooting-web-deploy/troubleshooting-web-deploy.md "Troubleshooting Web Deploy").
 

@@ -77,7 +77,7 @@ You cannnot request or create a certificate by using AppCmd.exe. You also cannot
 You can use AppCmd.exe to configure a site to accept only server HTTPS connections by modifying the **sslFlags** attribute in the Access section. For example, you can configure this setting for the "Default Web Site" in the ApplicationHost.config file (for example, commitPath:APPHOST) by using the following command:
 
 
-[!code-unknown[Main](how-to-set-up-ssl-on-iis/samples/sample-127012-2.unknown)]
+[!code-console[Main](how-to-set-up-ssl-on-iis/samples/sample2.cmd)]
 
 
 If successful, the following message is displayed:
@@ -91,7 +91,7 @@ If successful, the following message is displayed:
 
 The following example demonstrates how to view the &lt;access/&gt; section settings for the Default Web Site. The **sslFlags** attribute has been set successfully.
 
-[!code-unknown[Main](how-to-set-up-ssl-on-iis/samples/sample-127012-4.unknown)]
+[!code-console[Main](how-to-set-up-ssl-on-iis/samples/sample4.cmd)]
 
 Executing the command results in the following entry in the ApplicationHost.config file:
 

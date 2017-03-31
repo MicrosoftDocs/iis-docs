@@ -29,19 +29,19 @@ This walkthrough uses the sites, applications and virtual directories created in
 Here is a simple example that shows you how to use wilcards with the Get-WebConfigurationProperty cmdlet:
 
 
-[!code-unknown[Main](powershell-snap-in-advanced-configuration-tasks/samples/sample-127218-1.unknown)]
+[!code-powershell[Main](powershell-snap-in-advanced-configuration-tasks/samples/sample1.ps1)]
 
 
 And another one. Here all the handler mappings that will get executed by ASPNET\_ISAPI.DLL:
 
 
-[!code-unknown[Main](powershell-snap-in-advanced-configuration-tasks/samples/sample-127218-2.unknown)]
+[!code-powershell[Main](powershell-snap-in-advanced-configuration-tasks/samples/sample2.ps1)]
 
 
 Let's suppose you don't like the .aspx extension for your ASP.Net files too much and you want to change all IIS handler mappings from \*.aspx to \*.mspx. Can it be shorter than this?
 
 
-[!code-unknown[Main](powershell-snap-in-advanced-configuration-tasks/samples/sample-127218-3.unknown)]
+[!code-powershell[Main](powershell-snap-in-advanced-configuration-tasks/samples/sample3.ps1)]
 
 
 Let's look if the changes were set:
@@ -53,7 +53,7 @@ Let's look if the changes were set:
 Now how about looking at the configuration file itself. We can use the get-item cmdlet that we explored in a previous walkthrough.
 
 
-[!code-xml[Main](powershell-snap-in-advanced-configuration-tasks/samples/sample5.xml)]
+[!code-powershell[Main](powershell-snap-in-advanced-configuration-tasks/samples/sample5.ps1)]
 
 
 You can see that the configuration system removed the old handlers and replaced them with new handlers that are now mapped to \*.mspx.

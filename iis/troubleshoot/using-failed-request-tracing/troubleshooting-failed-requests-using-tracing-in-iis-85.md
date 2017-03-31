@@ -114,7 +114,7 @@ After you enable failed-request tracing, you need to configure where the log fil
 Failed-request tracing logging is now enabled for the Default Web Site. Check the %*windir*%\system32\inetsrv\config\applicationHost.config file to confirm that the configuration looks as follows:
 
 
-[!code-unknown[Main](troubleshooting-failed-requests-using-tracing-in-iis-85/samples/sample-133068-3.unknown)]
+[!code-xml[Main](troubleshooting-failed-requests-using-tracing-in-iis-85/samples/sample3.xml)]
 
 
 ### Step 2 : Configure Your Failure Definitions

@@ -55,7 +55,7 @@ Now, there are a few caveats in this sample and should be considered, especially
 The configuration of the watermark module is done via a new section in the "system.webServer" namespace. The schema file is as follow:
 
 
-[!code-unknown[Main](sample-image-watermark-module/samples/sample-127061-1.unknown)]
+[!code-xml[Main](sample-image-watermark-module/samples/sample1.xml)]
 
 
 The file "watermark.xml" should be dropped in the "%windir%\system32\inetsrv\config\schema" directory for it to take effect, as well as adding the section definition in the "applicationhost.config" file, under the "system.webServer" namespace:

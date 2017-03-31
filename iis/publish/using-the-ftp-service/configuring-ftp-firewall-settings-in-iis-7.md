@@ -50,7 +50,7 @@ The following items are required to be installed to complete the procedures in t
         - Open a command prompt.
         - Type the following command:
 
-            [!code-unknown[Main](configuring-ftp-firewall-settings-in-iis-7/samples/sample-127184-1.unknown)]
+            [!code-console[Main](configuring-ftp-firewall-settings-in-iis-7/samples/sample1.cmd)]
         - Close the command prompt.
 
 **Important Notes**:

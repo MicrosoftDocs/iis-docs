@@ -162,7 +162,7 @@ The UNC share for configuration hosts the applicationHost.config file for any se
 1. On the File Server, open a command prompt.
 2. Navigate to the root of the drive. Run the following command to create a directory for configuration and share this directory, making sure to grant users with the user rights to read and write to the directory:
 
-[!code-unknown[Main](shared-configuration_264/samples/sample-127037-6.unknown)]
+[!code-console[Main](shared-configuration_264/samples/sample6.cmd)]
 
     > [!NOTE]
     > This command automatically grants user rights to the users group to this share. The user created for the non-domain scenario is granted change rights automatically, which can be further restricted if needed. For the domain scenario, the user must either have user rights set explicitly to access the share or be added to the users group in the system.
@@ -187,7 +187,7 @@ You must ensure that the account that is used to access the configuration has th
 2. On the File Server, open a command prompt.
 3. Provide user rights to the domain account to read the directory where the configuration is stored by running the following command:
 
-[!code-unknown[Main](shared-configuration_264/samples/sample-127037-7.unknown)]
+[!code-console[Main](shared-configuration_264/samples/sample7.cmd)]
 
 ### To add the UNC user (non-domain and domain):
 

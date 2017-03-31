@@ -64,7 +64,7 @@ More triggers may be added in future versions of WebMatrix, or via WebMatrix ext
 Your feed just needs to be in the Atom format with an additional custom namespace that adds a place for trigger definitions and [OPML style](http://www.opml.org/ "OPML") outlining capabilities:
 
 
-[!code-unknown[Main](creating-a-content-feed-for-learning/samples/sample-127515-1.unknown)]
+[!code-xml[Main](creating-a-content-feed-for-learning/samples/sample1.xml)]
 
 
 The custom namespace allows you to create two new kinds of tags in each Atom **&lt;entry&gt;** block - **ConditionRef** tags that are used to identify which trigger the content should launch on and **Outline** tags that are used to lay out a hierarchy of content (if necessary).

@@ -130,7 +130,7 @@ Complete details about these settings and there allowed values can be found in B
 
 Below is a sample configuration that can be added under &lt;system.webServer&gt; (see the full schema for more details). *You do not have to specify all of the settings below as they all have default settings specified in the schema, but they are specified here to show as an example*.
 
-[!code-unknown[Main](web-deploy-automatic-backups/samples/sample-127171-8.unknown)]
+[!code-xml[Main](web-deploy-automatic-backups/samples/sample8.xml)]
 
 > Let us say that we have a site named "foo" that lives under "c:\foo\wwwroot" on the server. The configuration above tells Web Deploy to:
 

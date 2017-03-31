@@ -39,7 +39,7 @@ Trust levels let you define security rules for ASP.NET. They define what types o
 
     ...
 
-    [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-1.unknown)]
+    [!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample1.xml)]
 
     [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-2.unknown)]
 
@@ -48,7 +48,7 @@ Trust levels let you define security rules for ASP.NET. They define what types o
 
     ...
 
-    [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-3.unknown)]
+    [!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample3.xml)]
 
     [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-4.unknown)]
 
@@ -78,7 +78,7 @@ To run some ASP.NET applications from a remote file server, the impersonated use
 1. Grant permission for all application pool identities to the %windir%\Temp directory by editing the ACLs for the folder.
 2. Add a Code Access Security (CAS) policy to allow ASP.NET appropriate access to the file server share. To do this, open a command prompt and run the following command:  
 
-    [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-8.unknown)]
+    [!code-console[Main](aspnet-20-35-shared-hosting-configuration/samples/sample8.cmd)]
 
 <a id="_Toc180824185"></a>
 
@@ -116,5 +116,5 @@ Because the GC holds on to memory for future allocations, its committed space ca
 
     [!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample10.xml)]
 
-    [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-11.unknown)]
+    [!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample11.xml)]
 4. Save the file and close it.

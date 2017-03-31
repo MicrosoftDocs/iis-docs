@@ -103,7 +103,7 @@ When you install IIS 7.5 Express from your system, the registry key for IIS 7.5 
 1. Open the Windows **Registry Editor**.
 2. Locate the following registry key: 
 
-    [!code-unknown[Main](iis-75-express-readme/samples/sample-127511-1.unknown)]
+    [!code-console[Main](iis-75-express-readme/samples/sample1.cmd)]
 3. Right-click the `7.5` registry key and click **Delete**.
 4. Click **Yes** when prompted to delete the key.
 5. Close the Windows **Registry Editor**.

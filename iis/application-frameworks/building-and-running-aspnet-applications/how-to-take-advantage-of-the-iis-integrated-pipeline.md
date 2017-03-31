@@ -99,7 +99,7 @@ Add the following entry right after the initial &lt;configuration&gt;/&lt;system
 > If using Notepad, be sure to set Save As: All Files to prevent the file from being saved as MembershipUsers.xml.txt.
 
 
-[!code-unknown[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample-126935-4.unknown)]
+[!code-xml[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample4.xml)]
 
 
 If the App\_Data directory does not exist, you must create it.

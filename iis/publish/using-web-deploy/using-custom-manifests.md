@@ -35,7 +35,7 @@ Note: In this article, we show how to move an IIS 7 and above Web site and appli
 
 ## Sample manifest
 
-[!code-unknown[Main](using-custom-manifests/samples/sample-127150-1.unknown)]
+[!code-xml[Main](using-custom-manifests/samples/sample1.xml)]
 
 ## To create and use a custom manifest
 

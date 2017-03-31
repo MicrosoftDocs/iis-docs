@@ -192,11 +192,11 @@ By now we are sure that we have a proper working certificate installed on the we
 
     We need to remove this entry by running the command:
 
-    [!code-unknown[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample-127567-4.unknown)]
+    [!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample4.cmd)]
 
  For e.g. 
 
-    [!code-unknown[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample-127567-5.unknown)]
+    [!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample5.cmd)]
 - Delete any entries in the IP Listen list.
 
     To determine whether any IP addresses are listed, open a command prompt, and then run the following command:
@@ -211,7 +211,7 @@ By now we are sure that we have a proper working certificate installed on the we
 
     If the command returns a list of IP addresses, remove each IP address in the list by using the following command:
 
-    [!code-unknown[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample-127567-9.unknown)]
+    [!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample9.cmd)]
 
     > [!NOTE]
     > restart IIS after this via command "net stop http /y"
@@ -234,7 +234,7 @@ In the non-working scenario, the client was configured to use TLS 1.1 and TLS 1.
 
 Do check the registry keys to determine what protocols are enabled or disabled. Here's the path:
 
-[!code-unknown[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample-127567-10.unknown)]
+[!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample10.cmd)]
 
 The "Enabled" DWORD should be set to "1". If "0" then the protocol is disabled.
 

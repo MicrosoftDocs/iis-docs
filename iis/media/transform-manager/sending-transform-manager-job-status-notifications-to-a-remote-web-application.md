@@ -53,7 +53,7 @@ IIS Transform Manager is designed to work with other programs, such as programs 
 IIS Transform Manager sends job status information in the HTTP POST request body in a notification. The following is an example of the XML syntax in the POST message body:
 
 
-[!code-unknown[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample-127445-1.unknown)]
+[!code-xml[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample1.xml)]
 
 
 Let's take a closer look at each of the XML elements:

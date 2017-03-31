@@ -70,7 +70,7 @@ In this first step you will create a new FTP site that anonymous users can open.
         1. Open a command prompt.
         2. Type the following command:
 
-            [!code-unknown[Main](creating-a-new-ftp-site-in-iis-7/samples/sample-127179-1.unknown)]
+            [!code-console[Main](creating-a-new-ftp-site-in-iis-7/samples/sample1.cmd)]
         3. Close the command prompt.
 
     [![](creating-a-new-ftp-site-in-iis-7/_static/image3.jpg)](creating-a-new-ftp-site-in-iis-7/_static/image1.jpg)
@@ -190,7 +190,7 @@ The following steps walk you through all of the required settings to create a ne
 1. Using a text editor such as Windows Notepad, open your ApplicationHost.config file, which is located in your %SystemRoot%\System32\inetsrv\config folder by default.
 2. Locate the &lt;sites&gt; section. This section contains your Default Web Site and should begin with something like the following:  
 
-    [!code-unknown[Main](creating-a-new-ftp-site-in-iis-7/samples/sample-127179-4.unknown)]
+    [!code-xml[Main](creating-a-new-ftp-site-in-iis-7/samples/sample4.xml)]
 3. Copy the entire section for the Default Web Site and paste it on a new line just below the closing &lt;/site&gt; tag.
 4. Change the site's settings to create a unique FTP site: 
 

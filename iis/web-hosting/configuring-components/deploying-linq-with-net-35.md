@@ -35,13 +35,13 @@ To use LINQ in a Web application that is running under medium trust, you must in
 Within the **SecurityClasses** element, add a **SecurityClass** element with the following attributes:
 
 
-[!code-unknown[Main](deploying-linq-with-net-35/samples/sample-126954-1.unknown)]
+[!code-xml[Main](deploying-linq-with-net-35/samples/sample1.xml)]
 
 
 Within the **PermissionSet** element that has the **Name** attribute set to "ASP.Net", add an **IPermission** element that has the following attributes:
 
 
-[!code-unknown[Main](deploying-linq-with-net-35/samples/sample-126954-2.unknown)]
+[!code-xml[Main](deploying-linq-with-net-35/samples/sample2.xml)]
 
 
 ## Using LINQ with High Trust
@@ -51,4 +51,4 @@ To use LINQ in a Web application that is running under high trust, you must incl
 Within the **PermissionSet** element that has the **Name** attribute set to "ASP.Net", find the **IPermission** element for **ReflectionPermission** and set it as follows:
 
 
-[!code-unknown[Main](deploying-linq-with-net-35/samples/sample-126954-3.unknown)]
+[!code-xml[Main](deploying-linq-with-net-35/samples/sample3.xml)]

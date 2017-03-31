@@ -99,7 +99,7 @@ In the "Using:" drop down list, choose "**Exact match**" option.
 In the "Pattern" text box enter the following string:
 
 
-[!code-unknown[Main](using-outbound-rules-to-add-web-analytics-tracking-code/samples/sample-127340-3.unknown)]
+[!code-xml[Main](using-outbound-rules-to-add-web-analytics-tracking-code/samples/sample3.xml)]
 
 
 ### Defining an action

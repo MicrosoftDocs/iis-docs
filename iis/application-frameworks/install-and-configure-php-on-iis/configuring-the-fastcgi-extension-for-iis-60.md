@@ -183,19 +183,19 @@ To add a new FastCGI mapping, run the script fcgiconfig.js with the **â€“add** s
 
 Examples:
 
-[!code-unknown[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample-127384-5.unknown)]
+[!code-console[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample5.cmd)]
 
 The above example adds a script map for the .php extension and updates the fcgiext.ini file.
 
 As an option, you can specify to which site the script map is applied:
 
-[!code-unknown[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample-127384-6.unknown)]
+[!code-console[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample6.cmd)]
 
 This example adds a script map to the "Default Web Site" only.
 
 Also, you can specify to which application the script map is applied:
 
-[!code-unknown[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample-127384-7.unknown)]
+[!code-console[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample7.cmd)]
 
 ### Removing an Existing FastCGI Mapping
 
@@ -206,7 +206,7 @@ To remove an existing FastCGI mapping, run the script fcgiconfig.js with the **â
 
 This example removes the FastCGI mapping for PHP applications:
 
-[!code-unknown[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample-127384-8.unknown)]
+[!code-console[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample8.cmd)]
 
 ### Configuring an Existing FastCGI Mapping
 
@@ -218,7 +218,7 @@ You can use the configuration script to set all the FastCGI configuration proper
 
 This example sets the FastCGI process pool configuration property InstanceMaxRequests for the "PHP" section:
 
-[!code-unknown[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample-127384-9.unknown)]
+[!code-console[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample9.cmd)]
   
   
 [Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

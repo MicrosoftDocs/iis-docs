@@ -66,10 +66,10 @@ Use netsh commands in the previous paragraph to determine if the bindings are no
 
 1. Take ownership of the machine key:  
 
-    [!code-unknown[Main](diagnosing-failures-with-remote-administration/samples/sample-127040-5.unknown)]
+    [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample5.cmd)]
 2. Configure the ACLs of the machine key such that the administrator group has read permissions:  
 
-    [!code-unknown[Main](diagnosing-failures-with-remote-administration/samples/sample-127040-6.unknown)]
+    [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample6.cmd)]
 3. Reserve the port 8172 for WMSVC:  
 
     [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample7.cmd)]
@@ -89,7 +89,7 @@ Here are details on how to get the exception and call stack:
 
 1. Attach windbg to wmsvc.exe
 
-    [!code-unknown[Main](diagnosing-failures-with-remote-administration/samples/sample-127040-9.unknown)]
+    [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample9.cmd)]
 2. Load the sos.dll and set a break point if a managed exception happens
 
     [!code-unknown[Main](diagnosing-failures-with-remote-administration/samples/sample-127040-10.unknown)]

@@ -225,7 +225,7 @@ The IIS PowerShell Provider allows you to:
 For example, you can create a new application pool from the PowerShell Provider. This only requires the name to be specified.
 
 
-[!code-unknown[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample-127399-6.unknown)]
+[!code-powershell[Main](best-practices-for-php-on-the-microsoft-web-platform/samples/sample6.ps1)]
 
 
 For more information, see the article "[Managing IIS with the IIS 7.0 and Above PowerShell Snap-in](../../manage/powershell/index.md)."

@@ -59,7 +59,7 @@ The WorkerProcess.GetExecutingRequests method reports in a snapshot manner the r
 
 Use notepad to put the following text into a text file. Then, save the file by using the name Sleep.aspx.
 
-[!code-unknown[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample-127045-1.unknown)]
+[!code-xml[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample1.xml)]
 
 Put the Sleep.aspx file in the content directory of the default Web site: %systemdrive%\inetpub\wwwroot.
 

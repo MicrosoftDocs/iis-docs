@@ -135,7 +135,7 @@ Using IIS PowerShell:
 
 Creating the site manually (omit if you already created using PowerShell above) by editing `c:\windows\system32\inetsrv\applicationHost.config`:
 
-[!code-unknown[Main](running-aspnet-core-with-iis-on-nano-server/samples/sample-134412-9.unknown?highlight=10-17)]
+[!code-xml[Main](running-aspnet-core-with-iis-on-nano-server/samples/sample9.xml?highlight=10-17)]
 
 The next step is to open up port 8000 in the firewall.
 

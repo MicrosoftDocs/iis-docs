@@ -71,7 +71,7 @@ By doing this, the file or directory you selected will now also allow the **Defa
 You can do this via the command-line by using the ICACLS tool. The following example gives full access to the DefaultAppPool identity.
 
 
-[!code-unknown[Main](application-pool-identities/samples/sample-127018-2.unknown)]
+[!code-console[Main](application-pool-identities/samples/sample2.cmd)]
 
 For more information, see [ICACLS](https://technet.microsoft.com/en-us/library/cc753525.aspx). 
 
@@ -81,7 +81,7 @@ On Windows 7 and Windows Server 2008 R2, and later versions of Windows, the defa
 
 Using the Network Service account in a domain environment has a great benefit. Worker process running as Network Service access the network as the machine account. Machine accounts are generated when a machine is joined to a domain. They look like this:
 
-[!code-unknown[Main](application-pool-identities/samples/sample-127018-3.unknown)]
+[!code-xml[Main](application-pool-identities/samples/sample3.xml)]
 
 For example:
 

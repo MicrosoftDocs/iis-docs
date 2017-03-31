@@ -51,7 +51,7 @@ The following screen shot shows a fragment of the proxy codes generated:
 
 In the SampleWebClient, we provide the address and binding in the client's web.config file. Notice that there are binding and endpoint sections for each proxy class.
 
-[!code-unknown[Main](consuming-the-services/samples/sample-127095-2.unknown)]
+[!code-xml[Main](consuming-the-services/samples/sample2.xml)]
 
 When moving the client application from one environment to another, ensure that the endpoint address and userPrincipalName are modified to reflect the correct environment.
 

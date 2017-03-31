@@ -60,7 +60,7 @@ By default, Web Playlists returns an ASX XML output. Therefore, the atom.xslt fi
 **ASX Example**
 
 
-[!code-unknown[Main](web-playlists-for-iis-extending-output-formats-using-xslt/samples/sample-127300-1.unknown)]
+[!code-xml[Main](web-playlists-for-iis-extending-output-formats-using-xslt/samples/sample1.xml)]
 
 
 #### Step 3: Write the XSL transform for ATOM

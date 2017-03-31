@@ -33,7 +33,7 @@ To provide the administrator with a high degree of control, IIS 8 has the follow
 
 Processor affinity is not a new feature, but it has been enhanced in IIS 8. The **smpProcessorAffinityMask** and **smpProcessorAffinityMask2** attributes have been available since IIS 7, and allow the administrator to affinitize an Application Pool to a specific core. Their purpose remains the same with IIS 8, but the following new schema elements have been introduced in IIS 8 to support more than 64 logical processors (LPs):
 
-[!code-unknown[Main](understanding-multicore-scaling-on-numa-hardware-with-iis-8/samples/sample-131997-1.unknown?highlight=6-7)]
+[!code-xml[Main](understanding-multicore-scaling-on-numa-hardware-with-iis-8/samples/sample1.xml?highlight=6-7)]
 
 \* Changes for IIS 8 are highlighted
 
@@ -89,7 +89,7 @@ When it comes to affinitizing a process to a core or NUMA node, two affinity mod
 
 The following new schema element has been introduced in IIS 8 for configuring the affinity modes:
 
-[!code-unknown[Main](understanding-multicore-scaling-on-numa-hardware-with-iis-8/samples/sample-131997-3.unknown)]
+[!code-xml[Main](understanding-multicore-scaling-on-numa-hardware-with-iis-8/samples/sample3.xml)]
 
 The administrator can also configure the **numaNodeAffinityMode** attribute using the Internet Service Manager.
 
@@ -112,7 +112,7 @@ By default, Windows assigns each process to the next NUMA node in the system usi
 
 Configuring these options are done using new schema options:
 
-[!code-unknown[Main](understanding-multicore-scaling-on-numa-hardware-with-iis-8/samples/sample-131997-4.unknown)]
+[!code-xml[Main](understanding-multicore-scaling-on-numa-hardware-with-iis-8/samples/sample4.xml)]
 
 The administrator can configure the **numaNodeAssignment** attribute using the Internet Service Manager as well.
 
@@ -136,7 +136,7 @@ Similarly, if NUMA Node 6 is chosen for the first of the 4 processes, the subseq
 
 Web garden behavior on IIS 8 and later has changed a little as well. On IIS 7.5 (which shipped with Windows Server 2008 R2), the value for **maxProcesses** attribute started from 1, and with IIS 8, this value now starts at 0 (although the default value is still 1!). This is how it looks in the schema:
 
-[!code-unknown[Main](understanding-multicore-scaling-on-numa-hardware-with-iis-8/samples/sample-131997-5.unknown?highlight=3)]
+[!code-xml[Main](understanding-multicore-scaling-on-numa-hardware-with-iis-8/samples/sample5.xml?highlight=3)]
 
 Naturally, this is also configurable with the GUI:
 

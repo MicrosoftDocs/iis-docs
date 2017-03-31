@@ -58,7 +58,7 @@ The following items are required to complete the procedures in this article:
         - Open a command prompt.
         - Type the following command:
 
-            [!code-unknown[Main](configuring-ftp-user-isolation-in-iis-7/samples/sample-127182-1.unknown)]
+            [!code-console[Main](configuring-ftp-user-isolation-in-iis-7/samples/sample1.cmd)]
         - Close the command prompt.
 4. You will need to create additional content folders: 
 

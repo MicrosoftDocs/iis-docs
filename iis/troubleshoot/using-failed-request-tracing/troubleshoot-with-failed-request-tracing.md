@@ -84,7 +84,7 @@ To enable Failed Request Tracing for a site (for example, Troubleshooting.PHP), 
 
  This should produce an output similar to:  
 
-        [!code-unknown[Main](troubleshoot-with-failed-request-tracing/samples/sample-127415-2.unknown)]
+        [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample2.cmd)]
 
  This output indicates that a trace log was generated for a request to         **/products.php?product=5** , which resulted in an HTTP 500 error. This immediately tells you that:  
 
@@ -146,7 +146,7 @@ To enable Failed Request Tracing for a site (for example, Troubleshooting.PHP), 
 
  This will produce output similar to the following, with your page name instead of loop.php:  
 
-        [!code-unknown[Main](troubleshoot-with-failed-request-tracing/samples/sample-127415-6.unknown)]
+        [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample6.cmd)]
     10. Filter the requests returned by specifying any number of criteria based on the available request attributes. For example, to show only the requests to a specific URL:  
 
         [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample7.cmd)]
@@ -156,7 +156,7 @@ To enable Failed Request Tracing for a site (for example, Troubleshooting.PHP), 
 
  This produces the list of applications, similar to the following:  
 
-        [!code-unknown[Main](troubleshoot-with-failed-request-tracing/samples/sample-127415-9.unknown)]
+        [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample9.cmd)]
     12. Here is an example of taking an action based on the current request data: Recycling the application pools with requests that have been executing for more than five seconds:  
 
         [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample10.cmd)]

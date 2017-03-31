@@ -70,7 +70,7 @@ When you find &quot;&lt;productId&gt;SimilarApp&lt;/productId&gt;&quot;, you wil
 ##### Example
 
 
-[!code-unknown[Main](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/samples/sample-127278-2.unknown)]
+[!code-xml[Main](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/samples/sample2.xml)]
 
 
 Change the location within that element to point to your local application zip package.
@@ -78,7 +78,7 @@ Change the location within that element to point to your local application zip p
 ##### Example
 
 
-[!code-unknown[Main](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/samples/sample-127278-3.unknown)]
+[!code-xml[Main](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/samples/sample3.xml)]
 
 
 You will also need to find the &lt;sha1&gt; element and change it to the new hash value or remove it. If you forget this step, your application testing will fail based on mismatched hash values.   
@@ -136,7 +136,7 @@ In the custom feed file, locate the &lt;installerURL&gt; element and provide the
 
 ##### Example
 
-[!code-unknown[Main](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/samples/sample-127278-5.unknown)]
+[!code-xml[Main](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/samples/sample5.xml)]
 
 #### Step 3. Enter the new SHA-1 hash
 

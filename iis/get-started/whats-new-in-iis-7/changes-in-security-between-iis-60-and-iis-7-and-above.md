@@ -46,7 +46,7 @@ In IIS 7 and above, Anonymous Authentication behaves in a similar manner as it h
 It was very common for ASP.NET applications to turn off impersonation and run under the application pool identity by using the following code in their web.config files:
 
 
-[!code-unknown[Main](changes-in-security-between-iis-60-and-iis-7-and-above/samples/sample-126982-1.unknown)]
+[!code-xml[Main](changes-in-security-between-iis-60-and-iis-7-and-above/samples/sample1.xml)]
 
 
 There are several scenarios where applications would need to run under the context of the process identity:
@@ -63,7 +63,7 @@ As part of the redesign for IIS 7 and above, we wanted to make this scenario sec
 
 To do this, modify your configuration for anonymous authentication so it appears as follows:
 
-[!code-unknown[Main](changes-in-security-between-iis-60-and-iis-7-and-above/samples/sample-126982-2.unknown)]
+[!code-xml[Main](changes-in-security-between-iis-60-and-iis-7-and-above/samples/sample2.xml)]
 
 This configuration will tell IIS to run always under the context of the worker process identity.
 

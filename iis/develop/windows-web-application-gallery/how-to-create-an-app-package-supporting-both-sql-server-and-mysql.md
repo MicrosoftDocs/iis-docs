@@ -22,7 +22,7 @@ Applications that currently support MySQL as their main DBMS can also support Mi
 
 Add both directives dbfullsql and dbmysql to add a SQL Server database and a MySQL database within the Manifest.xml file.
 
-[!code-unknown[Main](how-to-create-an-app-package-supporting-both-sql-server-and-mysql/samples/sample-127279-1.unknown)]
+[!code-xml[Main](how-to-create-an-app-package-supporting-both-sql-server-and-mysql/samples/sample1.xml)]
 
 "path" attribute is used to set the path to the Sql scripts associated with the directive. You may add multiple dbfullsql/dbmysql directives within manifest file if you wish to use more than one Sql script for given database type.
 
@@ -34,7 +34,7 @@ You need to create two sets of parameters one for SQL Server database and anothe
 
 Here is an example for Database Server parameter.
 
-[!code-unknown[Main](how-to-create-an-app-package-supporting-both-sql-server-and-mysql/samples/sample-127279-2.unknown)]
+[!code-xml[Main](how-to-create-an-app-package-supporting-both-sql-server-and-mysql/samples/sample2.xml)]
 
 [!code-xml[Main](how-to-create-an-app-package-supporting-both-sql-server-and-mysql/samples/sample3.xml)]
 

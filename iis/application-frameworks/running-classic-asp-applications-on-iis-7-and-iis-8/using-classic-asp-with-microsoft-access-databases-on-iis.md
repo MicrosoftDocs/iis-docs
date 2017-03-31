@@ -44,7 +44,7 @@ Note: The 64-bit control panel applet for managing ODBC connections will not dis
 1. Click **Start** and then **Run**, or open a command prompt.
 2. Enter the following command:
 
-    [!code-unknown[Main](using-classic-asp-with-microsoft-access-databases-on-iis/samples/sample-127247-1.unknown)]
+    [!code-console[Main](using-classic-asp-with-microsoft-access-databases-on-iis/samples/sample1.cmd)]
 3. Press the enter key.
 
 #### Working with User Access Control

@@ -92,7 +92,7 @@ You can get a complete report of all your PHP settings.
 
 1. Create a text file with a **.php** extension:  
 
-    [!code-unknown[Main](secure-php-with-configuration-settings/samples/sample-127419-8.unknown)]
+    [!code-xml[Main](secure-php-with-configuration-settings/samples/sample8.xml)]
 2. Upload it to your server into (preferably) a password-protected folder.
 3. Open your Web browser, and type the *path* into the address bar:  
 

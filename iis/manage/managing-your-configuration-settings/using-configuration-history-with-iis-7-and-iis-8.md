@@ -141,7 +141,7 @@ The next step is to add the configuration section, and then add the attribute wi
     **Figure 12: Locating system.applicationHost Section Group**
 2. Now that you are in the right section, add the correct attribute and value for maxHistory. Type the following text into your system.applicationHost section group: 
 
-    [!code-unknown[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample-126993-2.unknown)]
+    [!code-xml[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample2.xml)]
 
 > [!NOTE]
 > To save time in your next step, leave notepad open after completing this task.
@@ -157,7 +157,7 @@ After we increase the maximum values kept by IIS, we need an easy method to trig
 
 After completing, the configHistory section looks like the following:
 
-[!code-unknown[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample-126993-3.unknown)]
+[!code-xml[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample3.xml)]
 
 ### Step 4: Execute Script to Cause History Creation
 
@@ -237,7 +237,7 @@ At this point, change the value for the path attribute to a value that is more a
 3. To validate the change, type the following and verify that maxHistories and period are set appropriately.
 
 
-[!code-unknown[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample-126993-11.unknown)]
+[!code-xml[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample11.xml)]
 
 You see the following:  
 [![](using-configuration-history-with-iis-7-and-iis-8/_static/image35.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image34.png)  

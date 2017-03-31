@@ -39,7 +39,7 @@ Strongly typed classes representing specific sections can be written by deriving
 Extending the schema involves adding a simple .xml file in the **%SystemRoot%\system32\inetsrv\config\schema** directory on the machine. The IIS\_schema.xml file is already present in this directory and can be used as an example in order to set up your own schema. Create a file named CUSTOM\_schema.xml and set it up as shown in the example below. In this case, the custom section (called "myCustomSection") has four properties of type boolean, string, integer and enum. The default values for these properties are specified in the schema as shown below:
 
 
-[!code-unknown[Main](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/samples/sample-127069-1.unknown)]
+[!code-xml[Main](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/samples/sample1.xml)]
 
 
 Register the section in the applicationHost.config. This involves adding just one line in the applicationHost.config as shown in the example below:
@@ -71,7 +71,7 @@ Use the generic classes present in the Microsoft.Web.Administration namespace to
 The applicationHost.config file is now updated with the changes.
 
 
-[!code-unknown[Main](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/samples/sample-127069-4.unknown)]
+[!code-xml[Main](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/samples/sample4.xml)]
 
 
 The code snippet to read and update all the properties in the section is:

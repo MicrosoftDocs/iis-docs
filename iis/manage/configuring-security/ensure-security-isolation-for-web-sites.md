@@ -96,7 +96,7 @@ The file or directory you selected now also allows the DefaultAppPool identity a
 You can also use the command line with the Icacls.exe tool. The following gives full access to the DefaultAppPool identity:
 
 
-[!code-unknown[Main](ensure-security-isolation-for-web-sites/samples/sample-127020-2.unknown)]
+[!code-console[Main](ensure-security-isolation-for-web-sites/samples/sample2.cmd)]
 
 
 On the Windows® 7 and Windows Server® 2008 R2 operating systems, the default is to run Application Pools as this security identifier (as the Application Pool Identity). A new identity type with the name "AppPoolIdentity" is available. If the "AppPoolIdentity" identity type is selected (this is the default on Windows 7 and Windows Server 2008 R2), IIS will run worker processes as the Application Pool identity. With every other identity type, the security identifier is only injected into the access token of the process. If the identifier is injected, content can still be ACLed for the AppPool identity, but the owner of the token is probably not unique. See the section [Isolate Application Pools](#_Isolate_Application_Pools) that follows.
@@ -106,7 +106,7 @@ On the Windows® 7 and Windows Server® 2008 R2 operating systems, the default i
 Using the NETWORKSERVICE account in a domain environment has a great benefit. Worker process running as NETWORKSERVICE can access the network as the machine account. Machine accounts are generated when a machine is joined to a domain:
 
 
-[!code-unknown[Main](ensure-security-isolation-for-web-sites/samples/sample-127020-3.unknown)]
+[!code-xml[Main](ensure-security-isolation-for-web-sites/samples/sample3.xml)]
 
 
 For example:

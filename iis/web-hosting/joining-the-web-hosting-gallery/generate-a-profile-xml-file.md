@@ -33,9 +33,9 @@ Example profile XML that describes two independent sets of publishing settings, 
 [!code-xml[Main](generate-a-profile-xml-file/samples/sample1.xml)]
 
 
-[!code-unknown[Main](generate-a-profile-xml-file/samples/sample-127505-2.unknown)]
+[!code-xml[Main](generate-a-profile-xml-file/samples/sample2.xml)]
 
-[!code-unknown[Main](generate-a-profile-xml-file/samples/sample-127505-3.unknown)]
+[!code-xml[Main](generate-a-profile-xml-file/samples/sample3.xml)]
 
 [!code-unknown[Main](generate-a-profile-xml-file/samples/sample-127505-4.unknown)]
 

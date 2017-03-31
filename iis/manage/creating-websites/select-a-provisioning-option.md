@@ -68,19 +68,19 @@ AppCmd.exe can be used to provision Web sites and run many commands to edit conf
 The following code sample is an example of code that can be used to create a site and an application pool (with failed request tracing and W3svc log file locations).
 
 
-[!code-unknown[Main](select-a-provisioning-option/samples/sample-127053-2.unknown)]
+[!code-console[Main](select-a-provisioning-option/samples/sample2.cmd)]
 
 
 You can use the following code to configure the Failed Request Tracing log file location:
 
 
-[!code-unknown[Main](select-a-provisioning-option/samples/sample-127053-3.unknown)]
+[!code-console[Main](select-a-provisioning-option/samples/sample3.cmd)]
 
 
 You can use the following code to configure the W3SVC log file location:
 
 
-[!code-unknown[Main](select-a-provisioning-option/samples/sample-127053-4.unknown)]
+[!code-console[Main](select-a-provisioning-option/samples/sample4.cmd)]
 
 
 ## Use a Managed API (Microsoft.Web.Administration)

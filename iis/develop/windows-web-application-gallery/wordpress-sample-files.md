@@ -20,7 +20,7 @@ This is a set of sample files you could use with Wordpress and the Web Deploymen
 
 ## Sample manifest.xml file
 
-[!code-unknown[Main](wordpress-sample-files/samples/sample-127315-1.unknown)]
+[!code-xml[Main](wordpress-sample-files/samples/sample1.xml)]
 
 ## Sample parameters.xml file
 

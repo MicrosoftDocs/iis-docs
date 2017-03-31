@@ -34,14 +34,14 @@ To create the example content Web site:
 
 1. Create a folder called "**contentsite**" in the following folder:  
 
-    [!code-unknown[Main](reverse-proxy-rule-template/samples/sample-127337-1.unknown)]
+    [!code-console[Main](reverse-proxy-rule-template/samples/sample1.cmd)]
 2. Create an IIS web site called "**contentsite**" that point to the corresponding folder under %SystemDrive%\inetpub\. Use port 8081 for the site.  
  You can use the following commands to create the sites:  
 
     [!code-console[Main](reverse-proxy-rule-template/samples/sample2.cmd)]
 3. Create a file named default.aspx in the following folder:  
 
-    [!code-unknown[Main](reverse-proxy-rule-template/samples/sample-127337-3.unknown)]
+    [!code-console[Main](reverse-proxy-rule-template/samples/sample3.cmd)]
 4. Copy the following ASP.NET markup, paste it into the file, and save the file as default.aspx:  
 
     [!code-aspx[Main](reverse-proxy-rule-template/samples/sample4.aspx)]

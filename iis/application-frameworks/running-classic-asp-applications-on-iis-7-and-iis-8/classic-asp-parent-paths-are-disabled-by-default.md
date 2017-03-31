@@ -18,11 +18,11 @@ by [Robert McMurray](https://github.com/rmcmurray)
 
 Classic ASP Parent Paths let developers use relative addresses that contain ".." in the paths to files or folders. For example, the following code excerpt illustrates an ASP page that maps a parent path:
 
-[!code-unknown[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample-127250-1.unknown)]
+[!code-xml[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample1.xml)]
 
 In addition, the following code except illustrates an ASP page that references an included file in a folder that uses a parent path:
 
-[!code-unknown[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample-127250-2.unknown)]
+[!code-xml[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample2.xml)]
 
 In several earlier versions of IIS, parent paths were enabled by default. In IIS 6.0 the default behavior changed to disable parent paths, and this was done for security and design reasons: by preventing the execution of parent paths, you are preventing the inclusion of content across security or application boundaries. By default, class ASP script error messages are not sent to the Web browser, and any attempts to use parent paths will return the following error message to a Web browser:
 
@@ -55,11 +55,11 @@ As an alternative to using parent paths in your ASP code, you can use virtual pa
 
 **Mapping paths**:
 
-[!code-unknown[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample-127250-6.unknown)]
+[!code-xml[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample6.xml)]
 
 **Including paths**:
 
-[!code-unknown[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample-127250-7.unknown)]
+[!code-xml[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample7.xml)]
 
 ### Enabling ASP Parent Paths
 

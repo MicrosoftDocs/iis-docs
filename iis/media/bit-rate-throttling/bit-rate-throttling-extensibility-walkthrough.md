@@ -236,7 +236,7 @@ For performance, using C++ is recommended, because this will likely save you som
 The following is the schema for specifying the Bit Rate Rules and Duration Rules:
 
 
-[!code-unknown[Main](bit-rate-throttling-extensibility-walkthrough/samples/sample-127304-6.unknown)]
+[!code-xml[Main](bit-rate-throttling-extensibility-walkthrough/samples/sample6.xml)]
 
 
 [Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

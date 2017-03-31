@@ -38,7 +38,7 @@ To configure the Failed Request Tracing log file location by using the command l
 
 - Open a command prompt and run the following:
 
-[!code-unknown[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample-127143-1.unknown)]
+[!code-console[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample1.cmd)]
 
 It is also recommend that you configure all logging fields for W3SVC logging. You may need the W3SVC logging information when a problem occurs.
 
@@ -50,7 +50,7 @@ To configure the W3SVC log file location by using the command line, use the foll
 
 - Open a command prompt and run the following:
 
-[!code-unknown[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample-127143-2.unknown)]
+[!code-console[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample2.cmd)]
 
 For more information about diagnostics, see [Troubleshooting a Web Server Error.](../../troubleshoot/index.md)
 
@@ -104,7 +104,7 @@ To create and set a unique temporary compilation directory, use the following:
 
 1. Open a command prompt and run the following command to create a folder and set permissions:
 
-[!code-unknown[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample-127143-4.unknown)]
+[!code-console[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample4.cmd)]
 2. Run the following command to set the temporary compilation directory to a site:  
 
     [!code-console[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample5.cmd)]

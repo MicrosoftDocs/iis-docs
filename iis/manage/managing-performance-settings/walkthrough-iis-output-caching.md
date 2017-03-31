@@ -50,7 +50,7 @@ Then we add Output Caching to regain performance degradation incurred by adding 
 
 1. Create a directory called 'pictures' under the %systemroot%\inetpub\wwwroot directory. Execute the following command in an elevated command shell:
 
-[!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-1.unknown)]
+[!code-console[Main](walkthrough-iis-output-caching/samples/sample1.cmd)]
 2. Copy some digital pictures - this walkthrough assumes them to be JPG files - to the new pictures directory. Use the following picture if you don't have any JPG files handy: [http://wallpaper.iis7.org/gallery/iis7-highlight.jpg](http://wallpaper.iis7.org/gallery/iis7-highlight.jpg)
 
     > [!NOTE]
@@ -60,7 +60,7 @@ Then we add Output Caching to regain performance degradation incurred by adding 
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample2.cmd)]
 4. Create the directory App\_Code underneath the pictures directory:  
 
-    [!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-3.unknown)]
+    [!code-console[Main](walkthrough-iis-output-caching/samples/sample3.cmd)]
 5. Open Notepad and paste the following code into it.
 
 [!code-csharp[Main](walkthrough-iis-output-caching/samples/sample4.cs)]
@@ -95,7 +95,7 @@ Once the JPG Copyright Handler works, we must determine how fast our code is. In
     > Due to the high Internet Explorer security settings on Windows Server 2008, you might get a security dialog box telling you that the web-site is blocked. To download the IIS 6.0 Resource Kit, add \*.microsoft.com to the list of trusted sites.
 2. Create a directory called PERFTEST, for example:
 
-[!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-7.unknown)]
+[!code-console[Main](walkthrough-iis-output-caching/samples/sample7.cmd)]
 3. The WCAT controller requires three input files:
 
     - A script file that tells WCAT which URLs to request. Each URL gets a unique ClassID

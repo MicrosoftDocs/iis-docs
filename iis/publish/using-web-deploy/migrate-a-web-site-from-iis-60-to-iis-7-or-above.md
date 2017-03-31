@@ -38,7 +38,7 @@ Note: If you have not already installed the Web Deployment Tool, see [Installing
 
 1. Get the dependencies of the Web site by running the following command:  
 
-    [!code-unknown[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample-127153-1.unknown)]
+    [!code-console[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample1.cmd)]
 2. Review the output of the dependencies and look for any script maps or installed components in use by the site. For example, if Windows Authentication is in use by the Web site, you will see &lt;dependency name="WindowsAuthentication" /&gt;.
 3. If your site is inheriting any script maps, these will not be listed in the dependencies and you should also review the script maps for your site manually.
 4. Compile a list of the components needed on the destination.
@@ -64,14 +64,14 @@ Based on this analysis of your dependencies, you would install the corresponding
     [!code-console[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample2.cmd)]
 2. Run the following command on the source server to create a package (compressed) file of the server:  
 
-    [!code-unknown[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample-127153-3.unknown)]
+    [!code-console[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample3.cmd)]
 3. Copy the package file to the destination server.
 4. Run the following command on the destination server to validate what would happen if a **sync** operation were run:  
 
-    [!code-unknown[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample-127153-4.unknown)]
+    [!code-console[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample4.cmd)]
 5. After verifying the output, run the same command again without the whatif flag:  
 
-    [!code-unknown[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample-127153-5.unknown)]
+    [!code-console[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample5.cmd)]
 
 ### {Optional - Migrate your site to the target by using the Web Deployment Agent Service}
 
@@ -83,10 +83,10 @@ If you don't want to use a package, you can use the Web Deployment Agent Service
     [!code-console[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample6.cmd)]
 3. Run the following command to do a "push" synchronization from the local source to a remote destination (replace Server1 with the name of the remote computer). Run the command first with the whatif flag, then without it once you have confirmed that the command will do what you want.  
 
-    [!code-unknown[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample-127153-7.unknown)]
+    [!code-console[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample7.cmd)]
 4. Alternatively, run the following command to do a "pull" synchronization from the remote source to the local destination (replace Server1 with the name of the remote computer). Run the command first with the whatif flag, then without it once you have confirmed that the command will do what you want.  
 
-    [!code-unknown[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample-127153-8.unknown)]
+    [!code-console[Main](migrate-a-web-site-from-iis-60-to-iis-7-or-above/samples/sample8.cmd)]
 
 You are now done migrating your site. To verify, test browsing to the web site on the destination server. For troubleshooting help, see [Troubleshooting Web Deploy](../troubleshooting-web-deploy/troubleshooting-web-deploy.md "Troubleshooting Web Deploy").
 

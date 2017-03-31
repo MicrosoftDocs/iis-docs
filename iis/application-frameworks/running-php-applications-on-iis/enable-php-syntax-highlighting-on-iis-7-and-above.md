@@ -38,7 +38,7 @@ Next, rename or copy the .php file to a .phps file, and then request the .phps f
 
 If you do not want to rename each .php file to .phps, you can use the IIS URL Rewrite rule and a simple PHP script. In the root directory of your Web site, create a file called **highlighter.phpb**, and then copy the following code into the file:
 
-[!code-unknown[Main](enable-php-syntax-highlighting-on-iis-7-and-above/samples/sample-127425-1.unknown)]
+[!code-xml[Main](enable-php-syntax-highlighting-on-iis-7-and-above/samples/sample1.xml)]
 
 After that, add the following rewrite rule to the **Web.config** file located at the root directory of your Web site:
 

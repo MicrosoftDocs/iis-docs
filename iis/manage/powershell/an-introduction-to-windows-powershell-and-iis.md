@@ -46,7 +46,7 @@ First, notice that the shell in Windows PowerShell looks like a traditional Wind
 
 The first command is:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-1.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample1.ps1)]
 
 This invokes a Windows PowerShell cmdlet (pronounced "command-let") to change the current working directory from C:\ to C:\Data. This is the functional equivalent of the old cd (change directory) command. You may note that having to type "set-location" every time you change the current directory is too much typing; this is correct.
 
@@ -54,29 +54,29 @@ Windows PowerShell has an extensive set of shortcut aliases you can use. The set
 
 The second command is:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-2.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample2.ps1)]
 
 This lists the contents in the current directory which start with "Pow". Windows PowerShell is not case sensitive, so you can type Get-ChildItem or GET-ChildItem. This article uses all lower-case. The get-childitem cmdlet is aliased to both dir (for Windows familiarity) and ls (for Unix users), and aliased to gci for ease of typing.
 
 Next, use the copy-item cmdlet to copy the Windows PowerShell directory, including all sub-directories, to a new directory named PSBackup:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-3.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample3.ps1)]
 
 Then immediately delete the newly created directory and all its contents using the remove-item cmdlet:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-4.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample4.ps1)]
 
 The next command uses the get-content cmdlet to fetch the contents of file Hello.txt and then save those contents to a new HelloCopy.txt file in the current directory by piping (with the '|' character) to the out-file cmdlet:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-5.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample5.ps1)]
 
 The next to last command uses get-content to display the contents of the new file:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-6.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample6.ps1)]
 
 The get-content cmdlet is roughly equivalent to the type (Windows) or cat (Unix) commands. Finish the mini-demo by using the sl alias to change the working directory to the root drive:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-7.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample7.ps1)]
 
 Now, if all there were to Windows PowerShell was performing common file system navigation and manipulation tasks using a new set of commands, there would be no point in reading further. A brief, one-paragraph introduction could lead to that incorrect assumption. However, Windows PowerShell has many advantages over many current shell environments.
 
@@ -108,11 +108,11 @@ Suppose you want to examine IIS-related services running on your computer -- a v
 
 Listing Windows services using Windows PowerShell is easy. For example, from the Windows PowerShell prompt, use the get-service cmdlet:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-8.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample8.ps1)]
 
 This is not very compelling, but suppose you want to list only services that begin with the letter 'w' and sort them by status. One way to do this is:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-9.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample9.ps1)]
 
 You can interpret this command as meaning fetch all Windows service information but then filter to include just those services that have a name beginning with the letter 'W'; then, sort those results according to the service status (running, stopped, paused). The result looks like the screenshot in Figure 3.
 
@@ -122,27 +122,27 @@ You can interpret this command as meaning fetch all Windows service information 
 
 As pointed out in the previous section, you can type terse PowerShell commands; the previous command can be shortened to:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-10.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample10.ps1)]
 
 Here, gsv is used, which is an alias for get-service; It takes advantage of the fact that the -include switch is in the first parameter position, using sort which is an alias for the sort-object cmdlet. The -property switch is in the first parameter position. Now suppose that you want to stop the World Wide Web Publishing service. Without PowerShell, you can right-click on the W3SVC service to get its context menu, and click the Stop item. Using Windows PowerShell you can issue the command:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-11.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample11.ps1)]
 
 or, in shortened form:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-12.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample12.ps1)]
 
 Another common task is examining the processes running on a machine. At this point, you can predict how to do this using Windows PowerShell -- Windows PowerShell's consistent and logical cmdlet naming scheme makes guessing commands easy rather than frustrating:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-13.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample13.ps1)]
 
 Suppose you want to view running processes sorted by the number of handles owned by each process:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-14.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample14.ps1)]
 
 You can get this information as easily using the GUI-based Windows Task Manager. But consider what these three Windows PowerShell commands do:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-15.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample15.ps1)]
 
 The first command, $p = get-process, fetches all the information about processes currently running on the host machine, and stores that information into variable $p.
 
@@ -159,13 +159,13 @@ Notice that in this example there are a total of 54 processes running, and a tot
 
 The third line, $results | out-file '.\ProcessHandleStats.txt', saves the results to a text file. Experienced Windows PowerShell users would likely combine the three commands just described into a single command like:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-16.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample16.ps1)]
 
 One characteristic of the Windows PowerShell architecture is that Windows PowerShell is easily extensible at all levels by both users and third party companies. Windows PowerShell extensibility is a topic in its own right, and here is but one example.
 
 In the Web cast demonstration referenced at the end of this article, Jeffrey Snover and Bill Staples demonstrate a remarkable Windows PowerShell visualization output cmdlet developed by a third party company. This cmdlet is named out-gauge. Notice the semantic similarity to the intrinsic out-file cmdlet. Instead of sending output to a file as out-file does, out-gauge sends output to a visually rich set of controls. For example, one of the commands demonstrated in the Web cast is:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-17.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample17.ps1)]
 
 This command produces a floating-on-the-screen, digital-style gauge which displays the total number of handles in use in real time, and updates the display every second. All this demonstrates that a wide range of useful, Windows PowerShell-based tools will be soon available.
 
@@ -175,7 +175,7 @@ Next, look at an example of IIS Web site deployment using Windows PowerShell. Be
 
 This script is complex but instructive. When saved as file Deploy-Application.ps1 and then executed from a Windows PowerShell command line, it looks like this:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-19.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample19.ps1)]
 
 The net effect is to copy all files listed in file AppManifest.txt, located on machine DemoServer1, to all the machines listed in file RestOfFarm.txt. One feature of Windows PowerShell is that well-written scripts are easy to understand, relative to the alternatives such as VBScript or Perl. The script uses the get-content cmdlet to read machine names from file RestOfFarm.txt and file names from file AppManifest.txt.
 
@@ -191,7 +191,7 @@ So far, this article has presented Windows PowerShell examples that apply to any
 
 IIS adds the powerful ability to cache dynamically created content. IIS has long had the ability to cache static pages. When the server receives new client requests for recently requested content, the following occurs: instead of having to retrieve that content from external storage, the requested content can be pulled immediately from cache memory and returned to the client. The result is big performance improvement. IIS extends this idea by enabling caching dynamically created pages as well. Consider this pre-release, IIS Windows PowerShell cmdlet:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-20.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample20.ps1)]
 
 Writing custom cmdlets is a topic outside the scope of this article, but this example givea an idea of the kinds of cmdlets you can write and which the IIS community will write. The cmdlet name is add-iiscaching. As mentioned earlier, Windows PowerShell has an extensible architecture that allows the IIS development team to create custom cmdlets which work directly with IIS. The net effect of this command is to enable dynamic caching for page requests with Qwd, Qif, Qiv, and Qis in the query string against a particular PHP application on all the IIS servers whose names are stored in variable $computerlist.
 
@@ -206,7 +206,7 @@ demo4server***
 
 then the command
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-21.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample21.ps1)]
 
 reads the list of servers into variable $computerlist.
 
@@ -214,7 +214,7 @@ The second argument, -path Demo, points to the root path of the application on w
 
 The third argument, -location index.php, points to the target application. The fourth argument, -credential $cred, holds authentication information in variable $cred. This is necessary because we will copy files to remote machines. This information can also be captured by the intrinsic get-credential cmdlet, like:
 
-[!code-unknown[Main](an-introduction-to-windows-powershell-and-iis/samples/sample-127210-22.unknown)]
+[!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample22.ps1)]
 
 This command launches a GUI control in which the user could specify a user name and password, and the results would be stored into the $cred variable.
 

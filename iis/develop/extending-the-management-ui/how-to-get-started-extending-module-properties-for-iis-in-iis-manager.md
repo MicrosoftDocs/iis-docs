@@ -39,7 +39,7 @@ This document contains:
 
 Extending the schema involves adding a simple .xml file in the %SystemRoot%\system32\inetsrv\config\schema directory on your machine. The IIS\_schema.xml file is already present in this directory and can be used as an example to set up your own schema. Create a file named CUSTOM\_schema.xml and set it up as shown in the example below. In this case, the custom section (called "myCustomSection") has three properties of type boolean, string, and integer. The default values for these properties are specified in the schema as shown.
 
-[!code-unknown[Main](how-to-get-started-extending-module-properties-for-iis-in-iis-manager/samples/sample-127064-1.unknown)]
+[!code-xml[Main](how-to-get-started-extending-module-properties-for-iis-in-iis-manager/samples/sample1.xml)]
 
 Register the section in the applicationHost.config. This involves adding just one line in the applicationHost.config as shown in the example below.
 

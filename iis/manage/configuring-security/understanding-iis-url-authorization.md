@@ -159,7 +159,7 @@ The IIS URL Authorization module evaluates deny rules first. Because you deny ac
 
 You must specify domain accounts and groups using the following:
 
-[!code-unknown[Main](understanding-iis-url-authorization/samples/sample-127010-8.unknown)]
+[!code-xml[Main](understanding-iis-url-authorization/samples/sample8.xml)]
 
 This example uses the machinename, assuming our accounts were created on machine iis7test:
 

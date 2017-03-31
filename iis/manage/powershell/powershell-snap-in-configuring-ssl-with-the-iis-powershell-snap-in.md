@@ -37,7 +37,7 @@ Acquiring certificates is a tricky business. The users of your web-site have to 
 You can look at the certificates in the certificate store using the certificate provider:
 
 
-[!code-unknown[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample-127220-2.unknown)]
+[!code-powershell[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample2.ps1)]
 
 
 > [!NOTE]
@@ -50,11 +50,11 @@ Now lets use the IIS PowerShell Snap-in to create an SSL binding and associate i
 We are adding the SSL binding to the Default Web Site using one of the task-based cmdlets called New-WebBinding:
 
 
-[!code-unknown[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample-127220-3.unknown)]
+[!code-powershell[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample3.ps1)]
 
 You can look at the binding collection using the following command: 
 
-[!code-unknown[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample-127220-4.unknown)]
+[!code-powershell[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample4.ps1)]
 
 
 [!code-unknown[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample-127220-5.unknown)]
@@ -70,13 +70,13 @@ Now it gets a bit tricky because SSL settings get stored in the HTTP.SYS configu
 You can CD into the IIS:\SslBindings directory and query the existing SSL bindings. The directory will be empty on an IIS default install:
 
 
-[!code-unknown[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample-127220-6.unknown)]
+[!code-powershell[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample6.ps1)]
 
 
 Now you can use the certificate hash we got in step one and associate it with all IP addresses (0.0.0.0) and the SSL port 443:
 
 
-[!code-unknown[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample-127220-7.unknown)]
+[!code-powershell[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample7.ps1)]
 
 
 The previous command generated the following SSL Binding:

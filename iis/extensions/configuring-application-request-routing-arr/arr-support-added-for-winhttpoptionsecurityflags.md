@@ -27,7 +27,7 @@ To change the settings add the following registry key.
 1. Click Start, type regedit.exe in the Start Search box, and then press ENTER.
 2. Expand the following registry key 
 
-    [!code-unknown[Main](arr-support-added-for-winhttpoptionsecurityflags/samples/sample-127369-1.unknown)]
+    [!code-console[Main](arr-support-added-for-winhttpoptionsecurityflags/samples/sample1.cmd)]
 3. Right-click Parameters, click New, and then click DWORD (32-bit) Value.
 4. In the **Value name** box, type SecureConnectionIgnoreFlags , and then press ENTER.
 5. Double-click the SecureConnectionIgnoreFlags registry value and Enter 0.

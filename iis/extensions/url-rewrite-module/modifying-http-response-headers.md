@@ -47,7 +47,7 @@ For this walkthrough you will need to add a redirection logic to the webmail app
 
 1. Create a file named web.confg in the following folder:  
 
-    [!code-unknown[Main](modifying-http-response-headers/samples/sample-127345-1.unknown)]
+    [!code-console[Main](modifying-http-response-headers/samples/sample1.cmd)]
 2. Open the file in a text editor, paste the following XML code inside and then save the file:  
 
     [!code-xml[Main](modifying-http-response-headers/samples/sample2.xml)]
