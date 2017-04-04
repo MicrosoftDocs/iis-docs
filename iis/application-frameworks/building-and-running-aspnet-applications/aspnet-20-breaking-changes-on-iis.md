@@ -42,8 +42,6 @@ You will receive a 500 - Internal Server Error. This can include HTTP Error 500.
 
 ##### Workaround
 
-<ul
-
 A. You must migrate the application configuration to work properly in Integrated mode. You can migrate the application configuration with AppCmd:
 
 [!code-unknown[Main](aspnet-20-breaking-changes-on-iis/samples/sample-126938-1.unknown)]
