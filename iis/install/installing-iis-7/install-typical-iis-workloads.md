@@ -116,7 +116,7 @@ To install IIS features for ASP.NET along with features for Static Content Web S
 To install IIS features for ASP.NET via ServerManagerCmd.exe, use the following command line:
 
 
-[!code-unknown[Main](install-typical-iis-workloads/samples/sample-127001-4.unknown)]
+[!code-powershell[Main](install-typical-iis-workloads/samples/sample4.ps1)]
 
 
 It is possible to install support for .NET Extensibility and managed modules without installing support for ASP.NET. Using the IIS .NET Extensibility feature, developers can build solutions that add value for all application components, such as custom authentication schemes, monitoring and logging, security filtering, load balancing, content redirection, and state management. Learn more in article [Developing a Module using .NET.](../../develop/runtime-extensibility/developing-a-module-using-net.md)
@@ -138,7 +138,7 @@ To install IIS features for Managed Modules along with features for Static Conte
 To install IIS features for Managed Modules via ServerManagerCmd.exe, use the following command line:
 
 
-[!code-unknown[Main](install-typical-iis-workloads/samples/sample-127001-6.unknown)]
+[!code-powershell[Main](install-typical-iis-workloads/samples/sample6.ps1)]
 
 <a id="InstallClassic"></a>
 
@@ -165,7 +165,7 @@ To install IIS features for Classic ASP along with features for Static Content W
 To install IIS features for Classic ASP via ServerManagerCmd.exe, use the following command line:
 
 
-[!code-unknown[Main](install-typical-iis-workloads/samples/sample-127001-8.unknown)]
+[!code-powershell[Main](install-typical-iis-workloads/samples/sample8.ps1)]
 
 <a id="InstallFastCGI"></a>
 
@@ -192,7 +192,7 @@ To install IIS features for CGI and FastCGI along with features for Static Conte
 To install IIS features for CGI and FastCGI via ServerManagerCmd.exe, use the following command line:
 
 
-[!code-unknown[Main](install-typical-iis-workloads/samples/sample-127001-10.unknown)]
+[!code-powershell[Main](install-typical-iis-workloads/samples/sample10.ps1)]
 
 <a id="FullInstall"></a>
 
@@ -209,7 +209,7 @@ To install all IIS features from the Vista/Windows Server 2008 setup user interf
 To install all IIS features via ServerManagerCmd.exe, use the following command line:
 
 
-[!code-unknown[Main](install-typical-iis-workloads/samples/sample-127001-12.unknown)]
+[!code-powershell[Main](install-typical-iis-workloads/samples/sample12.ps1)]
 
 <a id="Adding"></a>
 
@@ -240,7 +240,7 @@ To install IIS features for Tracing along with features for Static Content Web S
 To install IIS features for Tracing via ServerManagerCmd.exe, use the following command line:
 
 
-[!code-unknown[Main](install-typical-iis-workloads/samples/sample-127001-14.unknown)]
+[!code-powershell[Main](install-typical-iis-workloads/samples/sample14.ps1)]
 
 <a id="AddingSecurity"></a>
 
@@ -271,7 +271,7 @@ To install IIS features for authentication along with features for Static Conten
 To install IIS features for authentication via ServerManagerCmd.exe, use the following command line:
 
 
-[!code-unknown[Main](install-typical-iis-workloads/samples/sample-127001-16.unknown)]
+[!code-powershell[Main](install-typical-iis-workloads/samples/sample16.ps1)]
 
 
 ### IIS 7.0 and Above Authorization Features
@@ -298,7 +298,7 @@ To install IIS features for authorization along with features for Static Content
 To install IIS features for authorization via ServerManagerCmd.exe, use the following command line:
 
 
-[!code-unknown[Main](install-typical-iis-workloads/samples/sample-127001-18.unknown)]
+[!code-powershell[Main](install-typical-iis-workloads/samples/sample18.ps1)]
 
 <a id="Management"></a>
 
@@ -327,7 +327,7 @@ To install IIS features for Management Console along with features for Static Co
 To install IIS features for Management Console via ServerManagerCmd.exe, use the following command line:
 
 
-[!code-unknown[Main](install-typical-iis-workloads/samples/sample-127001-20.unknown)]
+[!code-powershell[Main](install-typical-iis-workloads/samples/sample20.ps1)]
 
 
 ### Remote Management Service
@@ -351,7 +351,7 @@ To install IIS Management Service along with features for Static Content Web Ser
 To install IIS Management Service via ServerManagerCmd.exe, use the following command line:
 
 
-[!code-unknown[Main](install-typical-iis-workloads/samples/sample-127001-22.unknown)]
+[!code-powershell[Main](install-typical-iis-workloads/samples/sample22.ps1)]
 
 
 ### IIS 6.0 Metabase Compatibility
@@ -377,7 +377,7 @@ To install IIS Metabase Compatibility along with features for Static Content Web
 To install IIS features for Metabase via ServerManagerCmd.exe, use the following command line:
 
 
-[!code-unknown[Main](install-typical-iis-workloads/samples/sample-127001-24.unknown)]
+[!code-powershell[Main](install-typical-iis-workloads/samples/sample24.ps1)]
 
 
 ### Managing IIS 6.0 and FTP Server
@@ -401,7 +401,7 @@ To install IIS 7.0 and above features for IIS 6.0 Management Console along with 
 To install IIS 7.0 and above features for IIS 6.0 management via ServerManagerCmd.exe, use the following command line:
 
 
-[!code-unknown[Main](install-typical-iis-workloads/samples/sample-127001-26.unknown)]
+[!code-powershell[Main](install-typical-iis-workloads/samples/sample26.ps1)]
 
 <a id="Summary"></a>
 

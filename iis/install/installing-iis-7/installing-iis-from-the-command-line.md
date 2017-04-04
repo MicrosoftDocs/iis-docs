@@ -107,7 +107,7 @@ If you are installing IIS 7.0 on Windows Vista Home Premium, copy and paste the 
 
 At the command prompt type:
 
-[!code-unknown[Main](installing-iis-from-the-command-line/samples/sample-126998-5.unknown)]
+[!code-console[Main](installing-iis-from-the-command-line/samples/sample5.cmd)]
 
 An error code of 0 indicates success.
 

@@ -291,7 +291,7 @@ Click **Start**, **Run**, and type **CMD** and Click **OK**.
 2. Use Windows findstr command to locate the change you are looking for. In this case, locate the configuration with directoryBrowse set to false.
 
 
-[!code-unknown[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample-126993-14.unknown)]
+[!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample14.cmd)]
 
 This searches the current directory and all sub-directories for the string directoryBrowse is equal to false. This returns only one item, for example CFGHISTORY\_0000000016, that indicates what we will restore.
 

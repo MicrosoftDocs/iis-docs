@@ -117,7 +117,7 @@ Once the script mapping has been added, modify the fcgiext.ini file.
 2. Add a **[PHP]** section with **ExePath=c:\php\php-cgi.exe** (assuming you installed PHP files to the C:\PHP folder).
 
 
-[!code-unknown[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample-127405-3.unknown)]
+[!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample3.cmd)]
 
 3. After you save the changes to the fcgiext.ini file, restart the application pool that is associated with the Web site that hosts your PHP applications.
 

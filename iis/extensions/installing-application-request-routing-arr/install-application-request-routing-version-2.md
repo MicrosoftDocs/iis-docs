@@ -60,9 +60,9 @@ Download the Microsoft Application Request Routing release from the following lo
  This step is necessary because ARR installs a Hotfix (    [KB 954438](https://support.microsoft.com/kb/954438) ).
 3. Run ARRv2\_setup\_&lt;architecture&gt;.exe; for example: 
 
-    [!code-unknown[Main](install-application-request-routing-version-2/samples/sample-127354-3.unknown)]
+    [!code-console[Main](install-application-request-routing-version-2/samples/sample3.cmd)]
 
-    [!code-unknown[Main](install-application-request-routing-version-2/samples/sample-127354-4.unknown)]
+    [!code-console[Main](install-application-request-routing-version-2/samples/sample4.cmd)]
 4. Accept the End User License Agreement (EULA).
 5. The installers for the four components are launched one after another.
 6. Complete the installation.

@@ -41,7 +41,7 @@ This gives you a view of the most important properties of the site. There are mo
 Here is a command that gives you more details:
 
 
-[!code-unknown[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample-127216-2.unknown)]
+[!code-powershell[Main](powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools/samples/sample2.ps1)]
 
 
 In the example above we are using parenthesis because the Get-ItemProperty call has to be evaluated first before we can print the collection entries. In this case kind of the same thing as in math: (5 + 4) \* 3 will evaluate the 5 + 4 first, then multiply by 3. In this case, the results of Get-ItemProperty command will be evaluated and the resulting IIS configuration object contains a collection that we output to the screen.

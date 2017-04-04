@@ -192,7 +192,7 @@ To quickly enable a remote Web site to be used with the "Remote Site" option in 
     > If you use Basic authentication, the username and password are transmitted in clear text so you should not use it for connecting to web sites over public networks unless you also use SSL to protect the communication *.*
 4. Enable the web site to be managed with FPSE. You can do this by executing the following from the command line:  
 
-    [!code-unknown[Main](using-visual-studio-2005-with-iis/samples/sample-127208-1.unknown)]
+    [!code-console[Main](using-visual-studio-2005-with-iis/samples/sample1.cmd)]
 
     Where &lt;SITEID&gt; is the site id of the Web site you want to enable for FPSE, and the &lt;USERNAME&gt; is the Windows account that can act as FPSE administrator.
 - Connect to the site Using the "Remote Site" option in the Open Web Site dialog or the New Site dialog. This allows you to connect to an existing Front Page Server Extensions – enabled web site, or create new Web applications and virtual directories.  

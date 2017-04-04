@@ -107,7 +107,7 @@ A good example of a module is the compression module. The compression module loo
     *Figure 1: Task Manager showing the IIS Worker Process*
 - Now execute the following command-line:
 
-    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-9.unknown)]
+    [!code-console[Main](build-a-custom-iis-server/samples/sample9.cmd)]
 
     We see that more than 90 DLLs are loaded by the worker process. Most of them are located in the …\intersrv\ directory – many of these are module DLLs that we saw in the first task when looking at the &lt;globalModules&gt; section, and a few others that support the .NET framework and the server runtime itself.
 
@@ -143,7 +143,7 @@ At this point, we are ready to load our stripped down server – we will repeat 
 2. Run Task Manager, and go to the Processes tab. Note the size of the w3wp.exe server worker process.
 3. Execute the following command-line:  
 
-    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-12.unknown)]
+    [!code-console[Main](build-a-custom-iis-server/samples/sample12.cmd)]
 
     Observe that the footprint of the server has been reduced to about 8Mb. In the server timeframe, the footprint of the empty server will be further reduced.
 

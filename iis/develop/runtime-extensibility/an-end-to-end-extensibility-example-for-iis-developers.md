@@ -406,7 +406,7 @@ The UI Module is built, but we still must tell the IIS Management Console to loa
 1. Open or use an existing elevated command shell and register the Visual Studio 8.0 environment variables by executing the following command:
 
 
-[!code-unknown[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample-127056-26.unknown)]
+[!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample26.cmd)]
 
 2. Run GacUtil
 

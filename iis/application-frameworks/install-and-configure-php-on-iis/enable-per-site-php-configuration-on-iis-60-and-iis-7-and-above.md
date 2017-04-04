@@ -34,7 +34,7 @@ For example, suppose you have two Web sites in IIS 6.0, website1.com and website
     [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample1.cmd)]
 3. Open the fcgiext.ini file located in %WINDIR%\system32\inetsrv. It should contain the following sections:  
 
-    [!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-2.unknown)]
+    [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample2.cmd)]
   
  The [PHP website1.com] and [PHP website2.com] sections can be used to specify some site specific FastCGI configuration settings, such as the path to php.ini file for each of the Web sites. When it begins, the PHP process determines the location of configuration php.ini file by using various settings, such as the PHPRC environment variable. (For a detailed description of the PHP startup process, see the     [PHP documentation](http://www.php.net/manual/en/configuration.php) .) If the PHP process finds a php.ini file in the path specified in the PHPRC environment variable, it will use it; otherwise, the PHP process will revert to default location of php.ini.
 4. Configure FastCGI to set this PHPRC environment variable to point to site-specific php.ini file with the following commands:  

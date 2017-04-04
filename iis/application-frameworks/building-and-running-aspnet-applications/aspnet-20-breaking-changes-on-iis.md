@@ -44,7 +44,7 @@ You will receive a 500 - Internal Server Error. This can include HTTP Error 500.
 
 A. You must migrate the application configuration to work properly in Integrated mode. You can migrate the application configuration with AppCmd:
 
-[!code-unknown[Main](aspnet-20-breaking-changes-on-iis/samples/sample-126938-1.unknown)]
+[!code-powershell[Main](aspnet-20-breaking-changes-on-iis/samples/sample1.ps1)]
 
 B. You can migrate manually by moving the custom entries in in the &lt;system.web&gt;/&lt;httpModules&gt; and &lt;system.web&gt;/&lt;httpHandlers&gt; configuration manually to the &lt;system.webServer&gt;/&lt;handlers&gt; and &lt;system.webServer&gt;/&lt;modules&gt; configuration sections, and either removing the &lt;httpHandlers&gt; and &lt;httpModules&gt; configuration OR adding the following to your application's web.config:
 
@@ -72,7 +72,7 @@ You will receive a 500 – Internal Server Error. This is HTTP Error 500.19: *Th
 A. If your application does not have the problem with request impersonation per breaking change #2, migrate your application configuration by using AppCmd as described in breaking change #1:
 
 
-[!code-unknown[Main](aspnet-20-breaking-changes-on-iis/samples/sample-126938-4.unknown)]
+[!code-powershell[Main](aspnet-20-breaking-changes-on-iis/samples/sample4.ps1)]
 
 
 This will insure that the rest of application configuration is migrated, and automatically add the following to your application's web.config to ignore the &lt;identity&gt; section:

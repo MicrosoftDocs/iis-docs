@@ -100,10 +100,10 @@ If you do not already have an ASP.NET database created, you need to build the AS
 
 - **32-bit Framework**: 
 
-    [!code-unknown[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample-127188-2.unknown)]
+    [!code-console[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample2.cmd)]
 - **64-bit Framework**: 
 
-    [!code-unknown[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample-127188-3.unknown)]
+    [!code-console[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample3.cmd)]
 
 > [!NOTE]
 > To use a remote SQL server instead of "localhost" as shown in the above example, see the "Deployment Considerations" section in the [How To: Use Forms Authentication with SQL Server in ASP.NET 2.0](https://msdn.microsoft.com/en-us/library/ms998317.aspx) topic on the MSDN web site.
@@ -123,10 +123,10 @@ The following steps describe the process for configuring ASP.NET to allow member
 
     - 32-bit Framework: 
 
-        [!code-unknown[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample-127188-4.unknown)]
+        [!code-console[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample4.cmd)]
     - 64-bit Framework: 
 
-        [!code-unknown[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample-127188-5.unknown)]
+        [!code-console[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample5.cmd)]
 2. Scroll to the bottom and paste the following code before the closing &lt;/configuration&gt; tag: 
 
     [!code-xml[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample6.xml)]

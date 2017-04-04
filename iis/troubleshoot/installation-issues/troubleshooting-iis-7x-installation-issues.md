@@ -37,7 +37,7 @@ Search for word "**FAIL**"
 
 Here is an example of an entry in IIS7.log
 
-[!code-unknown[Main](troubleshooting-iis-7x-installation-issues/samples/sample-127566-1.unknown)]
+[!code-console[Main](troubleshooting-iis-7x-installation-issues/samples/sample1.cmd)]
 
 You can see that it clearly tells you the EXE the setup ran and if that succeeded or not. With the error message and installation command line, search bing.com for the error found: **"InstallFtpMetabaseEntries result=0x800708c5"**
 

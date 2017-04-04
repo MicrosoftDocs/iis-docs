@@ -153,7 +153,7 @@ If you plan to use ASP.NET or IIS Remote Management then it is necessary to inst
     [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample18.cmd)]
 2. Next, start Windows PowerShell with the following command:  
 
-    [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-19.unknown)]
+    [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample19.cmd)]
 
  You should see a PowerShell prompt.
 3. In order to enable the IIS snap-in, you must change the script execution policy by running this command:  

@@ -64,11 +64,11 @@ Download the Microsoft Application Request Routing release from the following lo
     [!code-console[Main](install-application-request-routing/samples/sample2.cmd)]
 - run ARR\_&lt;architecture&gt;\_exe:  
 
-    [!code-unknown[Main](install-application-request-routing/samples/sample-127371-3.unknown)]
+    [!code-console[Main](install-application-request-routing/samples/sample3.cmd)]
 
  or
 
-    [!code-unknown[Main](install-application-request-routing/samples/sample-127371-4.unknown)]
+    [!code-console[Main](install-application-request-routing/samples/sample4.cmd)]
 - Accept the End User License Agreement (EULA).
 - The installers for the four components are launched one after another.
 - Complete the installation.

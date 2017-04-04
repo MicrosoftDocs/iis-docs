@@ -138,7 +138,7 @@ Once the JPG Copyright Handler works, we must determine how fast our code is. In
     As soon as all clients are connected, the perf test will start.
 5. Because we only have one client, open another elevated command-shell and run the following:
 
-[!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-12.unknown)]
+[!code-console[Main](walkthrough-iis-output-caching/samples/sample12.cmd)]
 
     To do this with more clients, set NumClientMachines in config.cfg to a higher number, and connect clients to the controller via the wcclient command by specifying the name of the controller machine.   
   
@@ -148,7 +148,7 @@ Example: wcclient MyPerfTestControllerMachine
     > If you do this on a 64-Bit version of Windows, WCAT is installed in the "program files (x86)" directory and you must use %programfiles(x86)% to start WCAT.
 6. Here are the results from the first run:
 
-[!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-13.unknown)]
+[!code-console[Main](walkthrough-iis-output-caching/samples/sample13.cmd)]
 
     The important number to look at is the requests per second. In this case, we get 14 requests per second.
 
@@ -188,7 +188,7 @@ Repeat the performance run to see what and how the configuration settings change
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample15.cmd)]
 2. Start the client with:
 
-[!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-16.unknown)]
+[!code-console[Main](walkthrough-iis-output-caching/samples/sample16.cmd)]
 
     > [!NOTE]
     > If you do this on a 64-Bit version of Windows, WCAT is installed in the "program files (x86)" directory and you must use %programfiles(x86)% to start WCAT.
@@ -196,7 +196,7 @@ Repeat the performance run to see what and how the configuration settings change
 ### Sample Output
 
 
-[!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-17.unknown)]
+[!code-console[Main](walkthrough-iis-output-caching/samples/sample17.cmd)]
 
 <a id="06"></a>
 

@@ -135,7 +135,7 @@ IIS 7.0 setup via pkgmgr.exe should take 1 to 5 minutes. When the command prompt
 At the command prompt type:
 
 
-[!code-unknown[Main](using-unattended-setup-to-install-iis/samples/sample-126999-9.unknown)]
+[!code-console[Main](using-unattended-setup-to-install-iis/samples/sample9.cmd)]
 
 
 A result of 0 indicates success.

@@ -213,7 +213,7 @@ You can also test your package by using the Web Deployment Tool at the command p
 *NEW* Following is the shorthand syntax.
 
 
-[!code-unknown[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample-127266-15.unknown)]
+[!code-console[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample15.cmd)]
 
 
 **Batch File Usage Notes**

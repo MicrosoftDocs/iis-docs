@@ -73,7 +73,7 @@ Finally, close the project Properties and select the option **Save All** in the 
 
 Note: If the command for setting vsvars32.bat does not work with an error code 9009, you can also replace the command added in the Post Build Events, by adding the full path to gacutil.exe, for example:
 
-[!code-unknown[Main](understanding-ui-extension-authoring/samples/sample-127066-2.unknown)]
+[!code-console[Main](understanding-ui-extension-authoring/samples/sample2.cmd)]
 
 ## Creating the ModuleServiceProxy
 
@@ -142,7 +142,7 @@ Finally, close the project Properties and select the option **Save All** in the 
 
 Note: If the command for setting vsvars32.bat does not work with an error code 9009, you can also replace the command added in the Post Build Events, by adding the full path to gacutil.exe, for example:
 
-[!code-unknown[Main](understanding-ui-extension-authoring/samples/sample-127066-6.unknown)]
+[!code-console[Main](understanding-ui-extension-authoring/samples/sample6.cmd)]
 
 ## Creating a Module Service
 

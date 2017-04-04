@@ -116,7 +116,7 @@ Build the cmdlet now and see how it works. You could do it from Visual Studio, b
 Now you must register the command and add it into PowerShell. This procedure is described in PowerShell Programming Reference. Start PowerShell and execute the following commands from the same folder where you built cmdlet DLL.
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-6.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample6.ps1)]
 
 
 This adds the cmdlet to the running instance of PowerShell. Save those command lines into a script file.You will use them again as you continue working on the cmdlets. You find this script in the file demo\_install.ps1.
@@ -124,19 +124,19 @@ This adds the cmdlet to the running instance of PowerShell. Save those command l
 See if the command is available:
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-7.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample7.ps1)]
 
 
 Now try it. Suppose you connect to computer test\_server, using the local administrator account.
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-8.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample8.ps1)]
 
 
 This command line receives the credential object from get-credential cmdlet, which will interact with user to get the password. It is also possible to produce the credential programmatically, but you must type the password in the script, which is not at all secure.
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-9.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample9.ps1)]
 
 
 This command stores the credential in the global variable $iiscredential, and the cmdlet will automatically use it. In real sitautions, however, it is better to store the credential into a variable using the get-credential command: $global:iiscredential = get-credential Administrator.
@@ -144,7 +144,7 @@ This command stores the credential in the global variable $iiscredential, and th
 Now that command again.
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-10.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample10.ps1)]
 
 
 All infrastructure is in place. Now to return to the command and add the rest of the data from the site.
@@ -172,13 +172,13 @@ Replace the site name that we returned to PowerShell with a whole object. Method
 When we repeat the build and the registration, and run the command again, we see more data about the site:
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-14.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample14.ps1)]
 
 
 If you compare this with WMI schema for the site, you see that all data are now available; plus, we have additional properties that we added in cmdlet. All properties are accessible from PowerShell through "dot" notation.
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-15.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample15.ps1)]
 
 
 We have made good progress, but not good enough. The WMI site also has methods, so try to add them as well. This is simple to do in PowerShell – you name the method and tell PowerShell where the code is located. We will add methods of the PSCodeMethod type. To keep the code for the methods, we add the class SiteMethods.
@@ -196,7 +196,7 @@ In addition to the methods added, there is one dynamic property-- "Status". It b
 The object now looks like:
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-18.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample18.ps1)]
 
 
 With the ability to add methods and dynamic properties to the objects, we can synthesize what we need for any situation. In addition to the methods and properties added in cmdlet, we can add more in the script, without any need to use C# code.
@@ -210,7 +210,7 @@ It is also possible to load the definition of the object from XML. A good candid
 Getting site objects is important, but we need more, like writing a command to add a new site. To create sites, we can use the abstract method Create() defined on the Site class in the WMI WebAdministration namespace. The cmdlet looks like this:
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-19.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample19.ps1)]
 
 
 We have the same parameters as defined in the Create method. In addition, the command should support –whatif and –passthru switches. The first shows the result of the command execution, but does not make any changes; the second instructs the command to output the result into the pipeline. These two switches are highly recommended to use in "destcructive" commands. To support the –whatif cmdlet, the class must be decorated by the attribute SupportsShouldProcess = true.
@@ -230,7 +230,7 @@ At the beginning of the method EndProcessing() we see the call to ShouldProcess(
 Test the new command with the following:
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-21.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample21.ps1)]
 
 
 This is how –whatif works. We get a rather cryptic message about what happens when this command executes. To make it more clear, we must format it properly. Parameter Bindings is entered in command line as a hash table, and gets passed into the cmdlet as Hashtable wrapped into PSObject. To produce meaningful text from it, we must add more smart code – the default ToString() simply returns the class name.
@@ -244,7 +244,7 @@ Insert this block of text in place of ShouldProcess() line:
 After the cmdlet is built and executed, we see the following output:
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-23.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample23.ps1)]
 
 
 This is much more understandable. From this new code, it is also clear why we must process Hashtable in the method ToManagementObject() – this is a common type in PowerShell for passing structured parameters.
@@ -252,7 +252,7 @@ This is much more understandable. From this new code, it is also clear why we mu
 Now run the command.
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-24.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample24.ps1)]
 
 
 The first command created the site on the remote server and then retrieved it and passed to the pipeline. To ensure it was done correctly, we got a list of the sites, and indeed, the new site is available. By default, the server will try to start the site, unless we add the parameter –AutoStart false. If there is some problem in the parameters-- for example, the server cannot find the home folder-- then the site will remain stopped.
@@ -268,7 +268,7 @@ For now we have two commands: get-iissite and add-iissite. We are missing cmdlet
 We also added a simple method CreateClassInstance() to the parent cmdlet. This method produces the object instance bound to the object path. Another change is that the Name parameter now cannot be empty – otherwise the user can delete all the sites by mistake. Finally, we added ShouldProcess() call to enable the –whatif and –confirm switches.
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-26.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample26.ps1)]
 
 
 We can implement the last command set-iissite as an exercise, modifying the add-iissite cmdlet and calling the Put() on ManagementObject.
@@ -288,31 +288,31 @@ Then add an extra loop over this array into each cmdlet to perform the same acti
 Now we can manipulate sites on the whole server farm.
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-29.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample29.ps1)]
 
 
 Save the server names from the farm into text file and use them as a parameter:
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-30.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample30.ps1)]
 
 
 We can do more advanced things using more PowerShell language. The following code enumerates sites on servers with names. Starting with "iissb", store the list into the variable and then stop all sites that are started.
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-31.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample31.ps1)]
 
 
 The variable $sitelist keeps the site list, but thanks to the dynamic nature of the property site.Status, we see the actual, not stored, status of each object.
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-32.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample32.ps1)]
 
 
 We can do the same without using any variables. Start any stopped site on any server on the server farm.
 
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-33.unknown)]
+[!code-powershell[Main](writing-powershell-commandlets-for-iis/samples/sample33.ps1)]
 
 
 In the accompanying source file iisdemocmd.cs, you find more commands for manipulating virtual directories and some properties in the configuration sections.

@@ -31,7 +31,7 @@ and optionally:
 Acquiring certificates is a tricky business. The users of your web-site have to trust the certificate and that's why you have to get it from a trusted Certificate Authority. For testing purposes you can make your own certificate however. For this walkthrough we will use a so-called self-signed certificate. The tool that helps us creating a self-signed certificate is called MAKECERT and is part of the Visual Studio SDK Tools. The following MAKECERT command will create a self-signed certificate and automatically install it in the "my" Windows Certificate Store:
 
 
-[!code-unknown[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample-127220-1.unknown)]
+[!code-console[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample1.cmd)]
 
 
 You can look at the certificates in the certificate store using the certificate provider:

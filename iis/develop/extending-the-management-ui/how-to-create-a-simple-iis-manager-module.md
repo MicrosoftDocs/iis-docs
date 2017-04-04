@@ -75,7 +75,7 @@ You can now **compile the project** using **Build Solution** under the Build men
 > [!NOTE]
 > If the command for setting vsvars32.bat does not work with an error code 9009, replace the command added in the Post Build events in step 8, by adding the full path to gacutil.exe, for example:
 
-[!code-unknown[Main](how-to-create-a-simple-iis-manager-module/samples/sample-127065-2.unknown)]
+[!code-console[Main](how-to-create-a-simple-iis-manager-module/samples/sample2.cmd)]
 
 ## Task 2: Creating a Module Provider
 
