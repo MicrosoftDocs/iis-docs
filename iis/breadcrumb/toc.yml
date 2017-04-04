@@ -1,0 +1,38 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: IIS
+    tocHref: /iis/
+    topicHref: /iis/index
+    items:
+    - name: IIS Get Started
+      tocHref: /iis/get-started/
+      topicHref: /iis/get-started/index
+    - name: IIS Install
+      tocHref: /iis/install/
+      topicHref: /iis/ainstall/index
+    - name: IIS Manage
+      tocHref: /iis/manage/
+      topicHref: /iis/manage/index
+    - name: IIS Develop
+      tocHref: /iis/develop/
+      topicHref: /iis/develop/index
+    - name: IIS Publish
+      tocHref: /iis/publish/
+      topicHref: /iis/publish/index
+    - name: IIS Troubleshoot
+      tocHref: /iis/troubleshoot/
+      topicHref: /iis/troubleshoot/index
+    - name: IIS Extensions
+      tocHref: /iis/extensions/
+      topicHref: /iis/extensions/index
+    - name: IIS Media
+      tocHref: /iis/media/
+      topicHref: /iis/media/index
+    - name: IIS Application Frameworks
+      tocHref: /iis/application-frameworks/
+      topicHref: /iis/application-frameworks/index
+    - name: IIS Web Hosting
+      tocHref: /iis/web-hosting/
+      topicHref: /iis/web-hosting/index
