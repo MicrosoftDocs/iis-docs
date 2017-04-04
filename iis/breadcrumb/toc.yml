@@ -6,33 +6,33 @@
     tocHref: /iis/
     topicHref: /iis/index
     items:
-    - name: IIS Get Started
+    - name: Get Started
       tocHref: /iis/get-started/
       topicHref: /iis/get-started/index
-    - name: IIS Install
+    - name: Install
       tocHref: /iis/install/
       topicHref: /iis/ainstall/index
-    - name: IIS Manage
+    - name: Manage
       tocHref: /iis/manage/
       topicHref: /iis/manage/index
-    - name: IIS Develop
+    - name: Develop
       tocHref: /iis/develop/
       topicHref: /iis/develop/index
-    - name: IIS Publish
+    - name: Publish
       tocHref: /iis/publish/
       topicHref: /iis/publish/index
-    - name: IIS Troubleshoot
+    - name: Troubleshoot
       tocHref: /iis/troubleshoot/
       topicHref: /iis/troubleshoot/index
-    - name: IIS Extensions
+    - name: Extensions
       tocHref: /iis/extensions/
       topicHref: /iis/extensions/index
-    - name: IIS Media
+    - name: Media
       tocHref: /iis/media/
       topicHref: /iis/media/index
-    - name: IIS Application Frameworks
+    - name: Application Frameworks
       tocHref: /iis/application-frameworks/
       topicHref: /iis/application-frameworks/index
-    - name: IIS Web Hosting
+    - name: Web Hosting
       tocHref: /iis/web-hosting/
       topicHref: /iis/web-hosting/index
