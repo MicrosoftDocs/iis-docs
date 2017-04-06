@@ -99,7 +99,7 @@ You can also use the command line with the Icacls.exe tool. The following gives 
 [!code-console[Main](ensure-security-isolation-for-web-sites/samples/sample2.cmd)]
 
 
-On the Windows® 7 and Windows Server® 2008 R2 operating systems, the default is to run Application Pools as this security identifier (as the Application Pool Identity). A new identity type with the name "AppPoolIdentity" is available. If the "AppPoolIdentity" identity type is selected (this is the default on Windows 7 and Windows Server 2008 R2), IIS will run worker processes as the Application Pool identity. With every other identity type, the security identifier is only injected into the access token of the process. If the identifier is injected, content can still be ACLed for the AppPool identity, but the owner of the token is probably not unique. See the section [Isolate Application Pools](#_Isolate_Application_Pools) that follows.
+On the Windows® 7 and Windows Server® 2008 R2 operating systems, the default is to run Application Pools as this security identifier (as the Application Pool Identity). A new identity type with the name "AppPoolIdentity" is available. If the "AppPoolIdentity" identity type is selected (this is the default on Windows 7 and Windows Server 2008 R2), IIS will run worker processes as the Application Pool identity. With every other identity type, the security identifier is only injected into the access token of the process. If the identifier is injected, content can still be ACLed for the AppPool identity, but the owner of the token is probably not unique. See the section [Isolate Application Pools](#Isolate_Application_Pools) that follows.
 
 ### Accessing the Network
 
@@ -125,6 +125,7 @@ IIS does not load the Windows user profile, but certain applications (such as Mi
 
 Note that IIS application pools can be configured to load the user profile however by setting the "LoadUserProfile" setting to "true".
 
+<a id="Isolate_Application_Pools"></a>
 ## Isolate Application Pools
 
 Separating applications into multiple application pools not only can improve performance but also improves server and site reliability. However, in previous versions of IIS, it has sometimes been difficult to isolate Web application pools from each other. If several application pools are configured to run with the same identity, then code running inside one application pool could use file system objects (FSOs) to access resources belonging to another.

@@ -20,12 +20,7 @@ by Tali Smith
 
 If you use Microsoft® SQL Server® as your database, you must create and implement an effective security plan. There is a wealth of information about how to secure a SQL Server database; this article touches on a few areas of particular interest to Web hosters and provides links for further information.
 
-Securing SQL Server can be viewed as a series of steps involving four areas: the platform, authentication, objects (including data), and applications that access the system. The following topics are discussed in the sections that follow:
-
-- [Platform and network security](#_Platform_and_Network)
-- [Principals and database object security](#_/Principals_and_Database)
-- [Application security](#_/Application_Security)
-- [SQL Server security tools, utilities, views, and functions](#_/_SQL_Server)
+Securing SQL Server can be viewed as a series of steps involving four areas: the platform, authentication, objects (including data), and applications that access the system.
 
 ## Platform and Network Security
 

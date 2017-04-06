@@ -24,16 +24,6 @@ The Gallery provides a dynamic feed that keeps your control panels up to date au
 
 This article describes how to integrate the Windows Web Application Gallery applications in your application. Post any questions about the Gallery or about working with the Gallery feed or the Microsoft®Web Deployment Tool (MS Deploy) API to the [Web Application Gallery: Developers &amp; Integrators Forum](https://forums.iis.net/1158.aspx "Web Application Gallery : Developers &amp; Integrators").
 
-- [Before You Begin](integrate-the-windows-web-application-gallery-into-a-control-panel.md#01)
-- [Set Up the Environment](integrate-the-windows-web-application-gallery-into-a-control-panel.md#02)
-- [Set Up the Sample Application](integrate-the-windows-web-application-gallery-into-a-control-panel.md#03)
-- [Manipulate the Feeds](integrate-the-windows-web-application-gallery-into-a-control-panel.md#04)
-- [Filter the List of Applications Using the WebPI API](integrate-the-windows-web-application-gallery-into-a-control-panel.md#05)
-- [Download a Web Deploy Package](integrate-the-windows-web-application-gallery-into-a-control-panel.md#06)
-- [Handle Package Parameters](integrate-the-windows-web-application-gallery-into-a-control-panel.md#07)
-- [Deploy an Application](integrate-the-windows-web-application-gallery-into-a-control-panel.md#08)
-- [Provide the User with the Application Location](integrate-the-windows-web-application-gallery-into-a-control-panel.md#09)
-
 ## Before You Begin
 
 To integrate the WAG into your control panel solution, you need the following:

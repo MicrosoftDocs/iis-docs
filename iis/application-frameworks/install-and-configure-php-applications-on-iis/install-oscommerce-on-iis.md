@@ -111,7 +111,7 @@ To test that osCommerce was successfully installed, try to chat with an operator
 
 [Setting up FastCGI for PHP](../running-php-applications-on-iis/set-up-fastcgi-for-php.md).
 
-[Using FastCGI to Host PHP Applications on IIS 7.0 and Above](file://office.prowesscorp.com@ssl/DavWWWRoot/IIS-PHP_Content_Management_and_Update/Shared%20Documents/Create%20a%20Separate%20Virtual%20Directory%20for%20PHP%20Content.docx).
+[Using FastCGI to Host PHP Applications on IIS 7.0 and Above](using-fastcgi-to-host-php-applications-on-iis.md).
 
 [Installing PHP on Windows Vista with FastCGI](../install-and-configure-php-on-iis/installing-php-on-windows-vista-with-fastcgi.md).
 

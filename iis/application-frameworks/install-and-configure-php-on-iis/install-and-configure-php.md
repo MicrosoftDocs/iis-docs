@@ -48,7 +48,7 @@ To use the Zip file installation, follow the instructions in [Using FastCGI to H
     - Set **extension\_dir** to point to a location where PHP extensions reside. For PHP 5.2.X, this is typically **extension\_dir = "./ext"**.
     - Set **error\_log="C:php\_errors.log"**  
  This can help with troubleshooting.
-    - Enable the required PHP extension by un-commenting corresponding lines. More information follows in the section, [Extensions](#_Extensions_1).  
+    - Enable the required PHP extension by un-commenting corresponding lines. More information follows in the section, [Extensions](#Extensions_1).  
 
         [![](install-and-configure-php/_static/image2.jpg)](install-and-configure-php/_static/image1.jpg)
 
@@ -100,6 +100,7 @@ To use the Zip file installation, follow the instructions in [Using FastCGI to H
 
     *Figure 6: PHP information page*
 
+<a id="Extensions_1"></a>
 ## Extensions
 
 It is important to determine which extensions are needed by the applications that will be running and then to limit the installed extensions to only those. For a typical open-source application installation, for example, the following extensions are installed:

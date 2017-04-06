@@ -150,34 +150,4 @@ After the MySQL install Web Platform Installer asks you some additional question
 [![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image35.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image34.png)
 
 You can leave everything as it is. Only one change you might want to consider:   
-If you want to install wordpress as the root of your site you might want to remove the string "wordpress" in the "Application name" textbox. If you don't do that you have to always enter [http://%3cname-of-your-site/wordpress](http://%3cname-of-your-site/wordpress). Leaving the field empty will put the wordpress files into the root of the Default Web Site, i.e. you can enter [http://%3cname-of-your-website/](http://%3cname-of-your-website/)&gt; to get to your Wordpress blog. If you install Wordpress in the root you will get a popup that warns you about overwriting content. That's ok though. It only overwrites IIS's default home page.
-
-[![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image37.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image36.png)  
-Click "Yes" and then "Continue".
-
-### Now the last few settings - Step 2 of 2
-
-To make the Wordpress install successful you need to configure Wordpress's MySQL connection and the credentials you want to use to administer Wordpress. Enter the MySQL password you picked previously as the Database Administrator Password. These credentials will be used to create the wordpress database within MySQL.
-
-[![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image39.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image38.png)
-
-Then pick some new credentials for the user account that Wordpress itself uses to connect to the Wordpress database in MySQL:
-
-[![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image41.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image40.png)
-
-Everything else can be left in place without impacting the installation.   
-Once the install finishes you can get started with Wordpress. Click the "Launch Wordpress" link on the final Web Platform Installer page:
-
-[![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image43.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image42.png)
-
-Now you are ready to go and you can customize Wordpress to your liking.
-
-One last tip: You can get to your blog from outside the Remote Desktop session. Your instance has a public DNS address you can use.
-
-[![](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image45.png)](amazon-ec2-microsoft-web-platform-images-wordpress/_static/image44.png)
-
-Copy the public DNS name shown in the AWS Management Console to the clipboard and enter it into the browser. If you need a more permanent DNS address you have to register a DNS name and also get an Elastic IP address from Amazon. But this is a story for another day.
-
-## Summary
-
-It's amazing how easy it now is to get a dedicated Web server on the internet and get started. With the help of Amazon EC2, the Microsoft Web Platform Installer and Wordpress we just deployed a working and fully configured blog application to the cloud. Let us know what you think about this:Questions or feedback? Send itto [ec2@microsoft.com](mailto:ec2@microsoft.com).
+If you want to install wordpress as the root of your site you might want to remove the string "wordpress" in the "Application name" textbox. If you don't do that you have to always enter `http://%3cname-of-your-site/wordpress`. Leaving the field empty will put the wordpress files into the root of the Default Web Site, i.e. you can enter `http://%3cname-of-your-website/> to get to your Wordpress blog. If you install Wordpress in the root you will get a popup that warns you about overwriting content. That's ok though. It only overwrites IIS's default home page. Click "Yes" and then "Continue". Now the last few settings - Step 2 of 2 To make the Wordpress install successful you need to configure Wordpress's MySQL connection and the credentials you want to use to administer Wordpress. Enter the MySQL password you picked previously as the Database Administrator Password. These credentials will be used to create the wordpress database within MySQL. Then pick some new credentials for the user account that Wordpress itself uses to connect to the Wordpress database in MySQL: Everything else can be left in place without impacting the installation. Once the install finishes you can get started with Wordpress. Click the "Launch Wordpress" link on the final Web Platform Installer page: Now you are ready to go and you can customize Wordpress to your liking. One last tip: You can get to your blog from outside the Remote Desktop session. Your instance has a public DNS address you can use. Copy the public DNS name shown in the AWS Management Console to the clipboard and enter it into the browser. If you need a more permanent DNS address you have to register a DNS name and also get an Elastic IP address from Amazon. But this is a story for another day. Summary It's amazing how easy it now is to get a dedicated Web server on the internet and get started. With the help of Amazon EC2, the Microsoft Web Platform Installer and Wordpress we just deployed a working and fully configured blog application to the cloud. Let us know what you think about this:Questions or feedback? Send it to ec2@microsoft.com.`

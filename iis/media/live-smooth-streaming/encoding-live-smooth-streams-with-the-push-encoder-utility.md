@@ -24,13 +24,6 @@ To encode media to the Live Smooth Streaming presentation format in production e
 
 If you do not have an encoder that can deliver live streams in the required format, you can use a Push Encoder test utility in test environments. The Push Encoder cannot accept input from a live source. Instead, it sources from on-demand Smooth Streaming presentation files and simulates the output that is required by Live Smooth Streaming publishing points. You can create the required input on-demand Smooth Streaming source files for the Push Encoder by using a Smooth Streaming-capable encoder. Again, see the list of our encoding partners ([https://www.iis.net/media/partners](https://www.iis.net/media)) to find companies that provide such an encoder. We also provide several on-demand Smooth Streaming presentations for testing purposes that you can download (see IIS Smooth Streaming HD Sample Content).
 
-This walkthrough contains the following sections that describe how to install and use the Push Encoder utility:
-
-- Deploying the Push Encoder utility
-- Simulating an encoded Live Smooth Streaming presentation
-- Using the advanced options
-- Enabling WebDAV publishing on the Web server
-
 ## Deploying the Push Encoder utility
 
 The Push Encoder sources from on-demand Smooth Streaming presentation files and simulates the output that is required by Live Smooth Streaming publishing points. Before you proceed, make sure that the following prerequisite conditions are fulfilled:
@@ -69,7 +62,7 @@ To simulate Live Smooth Streaming encoded output, do the following:
     | **pushencoder http://iismedia7/LiveSmoothStream.isml "Big Buck Bunny.ism"** | Same as above, except that the command wraps **Big Buck Bunny.ism** in quotation marks because there are spaces in the file name. |
     | **pushencoder http://iismedia7/LiveSmoothStream.isml BigBuckBunny\BigBuckBunny.ism** | The Push Encoder is sourcing the on-demand Smooth Streaming presentation files referenced in BigBuckBunny\BigBuckBunny.ism and pushing them to the Live Smooth Streaming publishing point LiveSmoothStream.isml. The utility is not located in the same directory as the .ism file and references it using the appropriate relative path. |
     | **pushencoder http://*UserName*:*Password*@iismedia7/LiveSmoothStream.isml BigBuckBunny.ism** | The Live Smooth Streaming publishing point requires authentication credentials (user name and password) before the Push Encoder can push streams to it. This example command shows how to insert the required credentials. |
-    | **Pushencoder /create http://*UserName*:*Password*@iismedia7/BBB.isml BigBuckBunny.ism** | The **/create** option creates a publishing point on the Web Server before pushing live streams to it. In the example, a publishing point named **BBB.isml** is created on the default Web site. This option requires that the Web server on which the publishing point is created be WebDAV-enabled. Because WebDAV publishing is used to create the publishing point, you must also supply the appropriate user name and password in the command. For more information, see [Enabling WebDAV publishing on the Web server](#_To_enable_WebDAV). > [!NOTE]
+    | **Pushencoder /create http://*UserName*:*Password*@iismedia7/BBB.isml BigBuckBunny.ism** | The **/create** option creates a publishing point on the Web Server before pushing live streams to it. In the example, a publishing point named **BBB.isml** is created on the default Web site. This option requires that the Web server on which the publishing point is created be WebDAV-enabled. Because WebDAV publishing is used to create the publishing point, you must also supply the appropriate user name and password in the command. For more information, see [Enabling WebDAV publishing on the Web server](#To_enable_WebDAV). > [!NOTE]
  > You must update the media reference in the Silverlight player template file so that clients can access the Live Smooth Streaming presentation from the new publishing point. For more information, see [Serving the Live Stream to Clients](getting-started-with-iis-live-smooth-streaming.md#client). |
     | **pushencoder /loop http://iismedia7/LiveSmoothStream.isml BigBuckBunny.ism** | The **/loop** option specifies that when the Push Encoder reaches the end of the presentation, it should return to the beginning of the presentation and continue the live streaming output. Use this option to simulate live streams that run indefinitely. |
 
@@ -92,6 +85,7 @@ The following advanced [options] are available:
 - **/rate:&lt;rate&gt;** Specifies the rate at which the Smooth Stream fragments are pushed relative to the local system clock (which is considered to have a value of 1.0) in order to simulate different encoder clock speeds. For example, to specify that the encoder is outputting fragments at 99.9% of the system clock rate, enter the option as /rate:0.999. You can also use rate values larger than 1.0 to indicate faster encoder output. This option is useful for simulating encoder clock drift, which can cause buffer overflow or underflow on the client.
 - **/skip:start,end** Specifies a range of fragments (inclusive) in the stream to skip during encoding.
 
+<a id="To_enable_WebDAV"></a>
 ## Enabling WebDAV publishing on the Web server
 
 WebDAV Publishing (Web Distributed Authoring and Versioning) enables you to publish files to and from a Web server by using the HTTP protocol. Because WebDAV uses HTTP, it works through most firewalls without modification. To configure WebDAV, do the following:

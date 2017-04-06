@@ -23,45 +23,6 @@ by [Microsoft](https://github.com/Microsoft)
 
 **Authors**: Hewlett-Packard (HP), IIS Product Group (IIS), Microsoft's Enterprise Engineering Center (EEC)
 
-## Contents
-
-- [Introduction](#introduction)
-- [The Customer Problem](#the-customer-problem)
-- [IIS 8.0](#iis-80)
-- [HP Platform](#hp-platform)
-
-    - [Background on HP DL980 G7](#background-on-hp-dl980-g7)
-    - [Recommended Configuration &amp; Settings](#recommended-configuration-and-settings)
-
-        - [RAM](#ram)
-        - [Network](#network)
-        - [HBA &amp; IO](#hba-and-io)
-        - [BIOS](#bios)
-- [Test Methodology](#test-methodology)
-
-    - [Test Scenario](#test-scenario)
-    - [Test Setup](#test-setup)
-- [Findings](#findings)
-
-    - [Comparison between 80 cores and 40 cores](#comparison-between-80-cores-and-40-cores)
-    - [Impact of Hyperthreading](#impact-of-hyperthreading)
-- [Summary](#summary)
-- [Appendix](#appendix)
-
-    - [PowerShell](#powershell)
-
-        - [Background](#background)
-        - [Configuring RSS Affinity](#configuring-rss-affinity)
-
-            - [Manually gathering the Topology Information](#manually-gathering-the-topology-information)
-            - [Gathering Hardware Topology thru PowerShell](#gathering-hardware-topology-thru-powershell)
-    - [WCAT](#wcat)
-    - [About](#about)
-
-        - [IIS Product Group](#iis-product-group)
-        - [Hewlett-Packard (HP)](#hewlett-packard-hp)
-        - [EEC](#eec)
-
 <a id="introduction"></a>
 ## Introduction
 
@@ -358,7 +319,7 @@ Currently, this process that comprises the following steps:
     [![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image14.png)](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image13.png)
 3. Invoke the properties dialog for the specified NIC. The &quot;General&quot; tab will show the slot, device and function numbers for a given NIC.  
     ![](case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system/_static/image15.png)
-4. With the bus information on hand, it's possible to identify in which NUMA node the NIC is connected to by correlating this information to the hardware topology diagram as provided in the &quot;[Hardware Section](#_HP_Platform)&quot; above.
+4. With the bus information on hand, it's possible to identify in which NUMA node the NIC is connected to by correlating this information to the hardware topology diagram as provided in the &quot;[Hardware Section](#hp-platform)&quot; above.
 
 <a id="gathering-hardware-topology-thru-powershell"></a>
 ##### Gathering Hardware Topology thru PowerShell

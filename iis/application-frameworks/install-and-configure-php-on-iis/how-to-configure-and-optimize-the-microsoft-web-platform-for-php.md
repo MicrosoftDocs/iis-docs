@@ -25,21 +25,6 @@ There are various steps you can take to optimize Windows Server® 2008 R2 or Win
 - [Configure SMTP E-Mail in IIS 7 and Above](configure-smtp-e-mail-in-iis-7-and-above.md). Configure Simple Mail Transfer Protocol (SMTP) e-mail in IIS when you want to deliver e-mail messages from your site. Mail can be delivered immediately or it can be delivered to a file location on disk where it can be retrieved for delivery later.
 - [Create a Separate Site or Virtual Directory for PHP Content](create-a-separate-site-or-virtual-directory-for-php-content.md). Self-hosters or very small hosters may need create a separate site or virtual directory to host their PHP content on a system that is also used for other workloads.
 
-[Best Practices for PHP on the Microsoft Web Platform](../running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform.md) provides a summary of additional steps you can take, including:
+[Best Practices for PHP on the Microsoft Web Platform](../running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform.md) provides a summary of additional steps you can take.
 
-- [Configure PHP process recycling behavior](#_Configure_PHP_Process)
-- [Disable unneeded services and processes](#_Disable_Unneeded_Services)
-- [Optimize server performance](#_Optimize_Server_Performance)
-- [Enable bandwidth throttling](#_Enable_Bandwidth_Throttling)
-- [Use HTTP Keep-Alives](#_Use_HTTP_Keep-Alives)
-- [Use HTTP compression](#_Use_HTTP_Compression)
-- [Use Forms Authentication](#_Use_Forms_Authentication)
-- [Manage IIS 7 and Above with the PowerShell Provider](#_Manage_IIS_7.0)
-- [Extend IIS 7 and Above](#_Extend_IIS_7)
-- [Use a non-thread-safe build of PHP](#_Use_a_Non-Thread-Safe)
-- [Set the default document](#_Set_the_Default)
-- [Use the URL Rewrite Module](#_Set_the_Default)
-- [Use the Request Filtering Module](#_Use_the_Request)
-  
-  
 [Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

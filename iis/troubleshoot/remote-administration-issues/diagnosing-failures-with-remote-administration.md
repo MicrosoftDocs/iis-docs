@@ -54,7 +54,7 @@ Sample output:
 [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample3.cmd)]
 
 
-Ensure that the URL [https://\*:8172/](https://*:8172/) (the port on which WMSVC is configured to run) appears in the list of reserved URLs.  
+Ensure that the URL `https://*:8172/` (the port on which WMSVC is configured to run) appears in the list of reserved URLs.  
   
 Sample output:
 
@@ -83,7 +83,7 @@ Make sure the server uses a trusted root certificate for WMSVC. Create a trusted
 
 ## If all else fails:
 
-Post the issue on the [iis.net forums](https://forums.iis.net/) with reproduced steps and details. Please include the eventvwr.msc log along with exception and call stack.
+Post the issue on the [IIS.NET forums](https://forums.iis.net/) with reproduced steps and details. Please include the eventvwr.msc log along with exception and call stack.
 
 Here are details on how to get the exception and call stack:
 

@@ -22,14 +22,6 @@ Security is always a consideration; it is critical to make careful security cons
 
 The following techniques are some additional ways to secure PHP on IIS.
 
-- [Secure File Access](#_Secure_File_Access)
-- [Use Per-Site PHP Configuration](#_Use_Per-Site_PHP)
-- [Separate IIS User Accounts and Application Pools](#_Separate_IIS_User)
-- [Limit NTFS Permissions](#_Limit_NTFS_Permissions)
-- [Use URL Rewriting](#_Use_URL_Rewriting)
-- [Modify Configuration Settings](#_Modify_Configuration_Settings)
-- [Restrict HTTP Verbs and Use Request Filtering](#_Use_Request_Filtering)
-
 ## Secure File Access
 
 You can secure your IIS sites through access control list (ACL)–based security measures:
@@ -76,6 +68,5 @@ All the core features of URLScan into the Request Filtering module, which also i
 [IIS Security Checklist](http://windows.stanford.edu/docs/IISsecchecklist.htm).
 
 [Secure Content Publishing](https://www.iis.net/overview/security/securecontentpublishing).
-  
-  
+
 [Discuss in IIS Forums](https://forums.iis.net/1102.aspx)
