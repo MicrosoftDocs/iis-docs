@@ -134,7 +134,6 @@ To do the above steps from the command line:
 
 1. Start an administrator-elevated command prompt.
 2. To add the new application pool run the following command:  
-<
 
     [!code-console[Main](how-to-enable-failed-request-tracing-for-unc-hosting/samples/sample3.cmd)]
 
