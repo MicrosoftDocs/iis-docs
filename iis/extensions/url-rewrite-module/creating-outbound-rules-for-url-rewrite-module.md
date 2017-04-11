@@ -173,7 +173,7 @@ This sets the rule to apply the pattern only to the value of the **href** attrib
 In the "Pattern" text box enter the following string:
 
 
-[!code-unknown[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample-127339-12.unknown)]
+[!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample12.cmd)]
 
 
 This string is a regular expression that specifies that the pattern will match any URL string that meets the following conditions:
@@ -189,7 +189,7 @@ Notice that certain parts of the regular expression are within parentheses. Thes
 Choose the "Rewrite" action type in the "Action" group box. In the "Value" text box, enter the following string:
 
 
-[!code-unknown[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample-127339-13.unknown)]
+[!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample13.cmd)]
 
 
 This string specifies the new value to which the link address should be rewritten. Notice that for the values of the query string parameters the expression uses {R:1} and {R:2}, which are the back-references to the capture groups that were defined in the rule pattern by using parentheses.

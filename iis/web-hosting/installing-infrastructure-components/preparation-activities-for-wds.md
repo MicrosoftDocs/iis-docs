@@ -111,7 +111,7 @@ The following is a summary of this process:
 2. Type the following where &lt;bootimage&gt; is the name of the boot image you want to use to create the capture image, and &lt;captureimage&gt; is the file path and file name of the new capture image: WDSUTIL /New-CaptureImage /Image:&lt;bootimage&gt; /Architecture:x86 /Filepath:&lt;captureimage&gt;
 3. Type the following where &lt;captureimage&gt; is the file path and file name of the capture image you want to add to the image store:
 
-    1. [!code-unknown[Main](preparation-activities-for-wds/samples/sample-127128-1.unknown)]
+    1. [!code-console[Main](preparation-activities-for-wds/samples/sample1.cmd)]
 
 [!code-console[Main](preparation-activities-for-wds/samples/sample2.cmd)]
 4. Once you have created the capture image, follow the instructions in the "Install Image" section to boot a client computer into the capture image and capture the operating system.

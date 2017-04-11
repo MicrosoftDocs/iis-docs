@@ -48,7 +48,7 @@ A: To publish a Acquia Drupal website, use the following steps:
 
 A: You will see this error if you are publishing to a database server where the database name, username or password contains the following special characters:
 
-[!code-unknown[Main](acquia-drupal-faq/samples/sample-127463-1.unknown)]
+[!code-console[Main](acquia-drupal-faq/samples/sample1.cmd)]
 
 This is because those characters are used by the application to parse the file, so it fails unless the characters are escaped properly.
 

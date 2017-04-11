@@ -104,7 +104,7 @@ IIS has a process called WAS that runs under the context of LOCALSYSTEM and is t
 
 Verify that these changes occurred correctly. Open your **%SystemRoot%\Microsoft.NET\Framework\v2.0.50727\config\machine.config** using Windows Notepad and verify the lines to the section are present for the new provider:
 
-[!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-5.unknown)]
+[!code-console[Main](using-encryption-to-protect-passwords/samples/sample5.cmd)]
 
 ### Encrypt the Application Pool Passwords
 
@@ -157,7 +157,7 @@ In this step, we create two new application pools that we isolate from one anoth
     [![](using-encryption-to-protect-passwords/_static/image10.jpg)](using-encryption-to-protect-passwords/_static/image9.jpg)
 14. Verify the changes by using Windows Notepad and opening the **%SystemRoot%\System32\Inetsrv\applicationHost.config file**. Navigate to the **applicationPools** section and you see that we encrypted the application pool passwords using the Rsa\_WAS key as intended: 
 
-    [!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-7.unknown)]
+    [!code-console[Main](using-encryption-to-protect-passwords/samples/sample7.cmd)]
 
 ### Locking Down the Encryption Providers
 
@@ -185,9 +185,9 @@ In this section, we create two new sites and add each site to an application poo
     [!code-console[Main](using-encryption-to-protect-passwords/samples/sample9.cmd)]
 5. Create a new directory named "**one**" and a directory "**two**" using the following commands: 
 
-    [!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-10.unknown)]
+    [!code-console[Main](using-encryption-to-protect-passwords/samples/sample10.cmd)]
 
-    [!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-11.unknown)]
+    [!code-console[Main](using-encryption-to-protect-passwords/samples/sample11.cmd)]
 6. Create a basic **Default.htm** file in both the "**one**" and "**two**" directories that contain following HTML code: 
 
     [!code-html[Main](using-encryption-to-protect-passwords/samples/sample12.html)]
@@ -280,10 +280,10 @@ Verify that what we wanted did happen. Using Windows Notepad, open the **%System
 - Notice that the password for **AppPool1** and **AppPool2** are both still protected with the **Rsa\_Was** key
 - Notice that the password for **AnonymousAccount1** is also protected with the **Rsa\_app1** key:  
 
-    [!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-17.unknown)]
+    [!code-console[Main](using-encryption-to-protect-passwords/samples/sample17.cmd)]
 - Finally, note that the **AnonymousAccount2** password is also protected with the **Rsa\_app2** key:  
 
-    [!code-unknown[Main](using-encryption-to-protect-passwords/samples/sample-127009-18.unknown)]
+    [!code-console[Main](using-encryption-to-protect-passwords/samples/sample18.cmd)]
 
 ### Locking Down the Encryption Providers
 

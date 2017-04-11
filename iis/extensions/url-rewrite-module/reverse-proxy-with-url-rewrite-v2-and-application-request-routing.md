@@ -78,9 +78,9 @@ To create the example Web sites:
     [!code-aspx[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample8.aspx)]
 7. To make sure that sites are working correctly, open a Web browse and request the following URLs:  
 
-    [!code-unknown[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample-127341-9.unknown)]
+    [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample9.cmd)]
 
-    [!code-unknown[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample-127341-10.unknown)]
+    [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample10.cmd)]
 
 ## Configuring Rules for the Reverse Proxy
 
@@ -214,7 +214,7 @@ This sets the rule to apply the pattern only to the value of the **href** attrib
 In the "Pattern" text box enter the following string:
 
 
-[!code-unknown[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample-127341-18.unknown)]
+[!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample18.cmd)]
 
 
 This string is a regular expression that specifies that the pattern will match any URL path string that starts with "/" symbol.
@@ -237,7 +237,7 @@ You need to change the links in the response HTML only if response is from the w
 Choose the "Rewrite" action type that is listed in the "Action" group box. In the "Value" text box, enter the following string:
 
 
-[!code-unknown[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample-127341-19.unknown)]
+[!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample19.cmd)]
 
 
 This string specifies the new value to which the link address should be rewritten. The {C:1} is a back-reference to the condition pattern capture group and it will be substituted with either "webmail" or "payroll" strings. The {R:1} is a back-reference to the rule pattern capture group and in this particular case it will be substituted with the original URL path that was used in the hyperlink.

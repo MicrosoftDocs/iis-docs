@@ -72,7 +72,7 @@ Run the command **sfc /scannow** from an elevated command prompt. This command c
 
 If this command reports errors and it cannot fix it, then engage Microsoft support for assistance. You may see something like this.
 
-[!code-unknown[Main](troubleshooting-iis-7x-installation-issues/samples/sample-127566-4.unknown)]
+[!code-console[Main](troubleshooting-iis-7x-installation-issues/samples/sample4.cmd)]
 
 Only when both the tools run successfully, you should proceed further with your troubleshooting. Chances are that running these steps could have fixed whatever corruption was present in CBS because that's essentially what these tools do. It wouldn't be a bad idea to run these tools anyway, as it may take about 20-30 minutes to run both the tools, but if these tools find problems in CBS engine, it can really save the long time that you may spend on an issue.
 

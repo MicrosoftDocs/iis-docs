@@ -64,7 +64,7 @@ Before starting the install, create a database on your server. Also create a dat
         [!code-powershell[Main](geeklog-on-iis/samples/sample4.ps1)]
     - Set $\_CONF['site\_url']  
 
-        [!code-unknown[Main](geeklog-on-iis/samples/sample-127106-5.unknown)]
+        [!code-console[Main](geeklog-on-iis/samples/sample5.cmd)]
 2. Edit lib-common.php and change the require\_once() at the top to point to the location of your config.php file.  
 
     For more information on how to install Geeklog, refer to [http://www.geeklog.net/docs/install.html](http://www.geeklog.net/docs/install.html).

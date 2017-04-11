@@ -78,20 +78,20 @@ It is recommended that you install MySQL on a dedicated server rather than insta
 
 1. To provision a new user, type the following command from the MySQL command prompt:  
 
-    [!code-unknown[Main](install-and-configure-mysql-for-php-applications-on-iis-7-and-above/samples/sample-127388-4.unknown)]
+    [!code-console[Main](install-and-configure-mysql-for-php-applications-on-iis-7-and-above/samples/sample4.cmd)]
 2. The newly created user does not have any privileges on the MySQL server by default. To create a new database, type the following command:  
 
-    [!code-unknown[Main](install-and-configure-mysql-for-php-applications-on-iis-7-and-above/samples/sample-127388-5.unknown)]
+    [!code-console[Main](install-and-configure-mysql-for-php-applications-on-iis-7-and-above/samples/sample5.cmd)]
 3. To grant access to this database for a particular user, type the following command:  
 
-    [!code-unknown[Main](install-and-configure-mysql-for-php-applications-on-iis-7-and-above/samples/sample-127388-6.unknown)]
+    [!code-console[Main](install-and-configure-mysql-for-php-applications-on-iis-7-and-above/samples/sample6.cmd)]
 
 ## Configure PHP to Access MySQL
 
 1. Open the **c:\php\php.ini** file with your favorite text editor.
 2. Uncomment the following lines by removing the semicolon:  
 
-    [!code-unknown[Main](install-and-configure-mysql-for-php-applications-on-iis-7-and-above/samples/sample-127388-7.unknown)]
+    [!code-console[Main](install-and-configure-mysql-for-php-applications-on-iis-7-and-above/samples/sample7.cmd)]
 3. Restart the IIS service by clicking on **Start**, selecting the **Search Field**, typing **iisreset**, and then pressing ENTER.
 4. If all went well, you should see the **mysqli** section on the PHP information page created earlier (http://localhost/phpinfo.php).  
 

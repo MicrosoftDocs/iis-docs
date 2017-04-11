@@ -41,12 +41,12 @@ The instructions have been tested and found to work in the following configurati
 
     From the base configuration file provided by PHP, you will need to modify your php.ini to have the following definitions:
 
-    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-4.unknown)]
+    [!code-console[Main](mediawiki-on-iis/samples/sample4.cmd)]
 
-    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-5.unknown)]
+    [!code-console[Main](mediawiki-on-iis/samples/sample5.cmd)]
 3. Enable PHP support for MySQL. Modify your php.ini to define the extensions directory and uncomment the PHP MySQL extension definition:  
 
-    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-6.unknown)]
+    [!code-console[Main](mediawiki-on-iis/samples/sample6.cmd)]
 
 ## Download and Unpack MediaWiki
 
@@ -113,7 +113,7 @@ When hosting MediaWiki on IIS 7.0, it is possible to configure MediaWiki to use 
     [!code-xml[Main](mediawiki-on-iis/samples/sample9.xml)]
 3. Update the LocalSettings.php file as follows:  
 
-    [!code-unknown[Main](mediawiki-on-iis/samples/sample-127110-10.unknown)]
+    [!code-console[Main](mediawiki-on-iis/samples/sample10.cmd)]
 
 ## Getting More Information
 

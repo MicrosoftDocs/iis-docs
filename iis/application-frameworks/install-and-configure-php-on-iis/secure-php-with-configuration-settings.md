@@ -39,7 +39,7 @@ You can configure PHP settings to tighten the security of a PHP installation and
 Table 1: Recommended Php.ini settings
 
 
-[!code-unknown[Main](secure-php-with-configuration-settings/samples/sample-127419-1.unknown)]
+[!code-console[Main](secure-php-with-configuration-settings/samples/sample1.cmd)]
 
 
 This setting is very important because it prevents URLs from being used in statements such as include(). Setting allow\_url\_fopen to "Off" means that only files that reside within your Web site can be included; you cannot include a file from a different server, but neither can other people through Remote File Inclusion (RFI) attacks. (In an RFI attack, someone embeds a URL in an HTTP request hoping that your script is tricked into running theirs.) A command such as include("http://website.com/page.php"), for example, is not allowed to execute.
@@ -47,7 +47,7 @@ This setting is very important because it prevents URLs from being used in state
 Include a file from your own site by specifying its path and filename. For example, if you have a URL include line, convert it to:
 
 
-[!code-unknown[Main](secure-php-with-configuration-settings/samples/sample-127419-2.unknown)]
+[!code-console[Main](secure-php-with-configuration-settings/samples/sample2.cmd)]
 
 
 $\_SERVER['DOCUMENT\_ROOT'] is a superglobal variable set to be the root folder of your site. (Note that there is no trailing "/"; you must provide a leading "/" in '/page.php'. )
@@ -57,31 +57,31 @@ If you want to include static content from another one of your Web sites, such a
 Note that if you must include content from a remote site using URLs and need to set allow\_url\_fopen = On, look for alternative ways to gain some protection from RFI attacks.
 
 
-[!code-unknown[Main](secure-php-with-configuration-settings/samples/sample-127419-3.unknown)]
+[!code-console[Main](secure-php-with-configuration-settings/samples/sample3.cmd)]
 
 
 These settings specify that all errors and warnings get logged to your error log text file and specify that none of the errors or warnings get displayed on any Web page that is sent out from your server. Errors should not be displayed publicly because they can help someone figure out how to attack your server. Always check your error log when you are testing new code.
 
 
-[!code-unknown[Main](secure-php-with-configuration-settings/samples/sample-127419-4.unknown)]
+[!code-console[Main](secure-php-with-configuration-settings/samples/sample4.cmd)]
 
 
 This defines the path and fie to which your PHP errors and warnings are logged. You should use a text file for error logging, but note that the text file will accumulate errors indefinitely until you empty it. Keep the error log file in an area of your Web site that is not publicly accessible.
 
 
-[!code-unknown[Main](secure-php-with-configuration-settings/samples/sample-127419-5.unknown)]
+[!code-console[Main](secure-php-with-configuration-settings/samples/sample5.cmd)]
 
 
 With this setting, the headers that accompany outgoing pages do not reveal that PHP is running or its version.
 
 
-[!code-unknown[Main](secure-php-with-configuration-settings/samples/sample-127419-6.unknown)]
+[!code-console[Main](secure-php-with-configuration-settings/samples/sample6.cmd)]
 
 
 For example, for the URL http://site.com/index.php?variable=***value***, the variable passes into your script with its value set to ***value*** when register\_globals is "On." When register\_globals is "Off," however, variables do not automatically pass into your script's variable list. This makes it much more difficult for an attacker to inject code into your script.
 
 
-[!code-unknown[Main](secure-php-with-configuration-settings/samples/sample-127419-7.unknown)]
+[!code-console[Main](secure-php-with-configuration-settings/samples/sample7.cmd)]
 
 
 This setting is not in the "recommended Php.ini" file. It restricts the permissions with which PHP scripts run. Some third-party scripts do not run properly when safe\_mode is set to "On." Note that beginning with PHP 6 safe\_mode does not exist.
@@ -96,7 +96,7 @@ You can get a complete report of all your PHP settings.
 2. Upload it to your server into (preferably) a password-protected folder.
 3. Open your Web browser, and type the *path* into the address bar:  
 
-    [!code-unknown[Main](secure-php-with-configuration-settings/samples/sample-127419-9.unknown)]
+    [!code-console[Main](secure-php-with-configuration-settings/samples/sample9.cmd)]
 4. Enter your *user name* and *password* to access the protected folder and view the result page.
 5. Save or print the result page to your local computer for reference.
 6. Delete the **.php** file from your server.

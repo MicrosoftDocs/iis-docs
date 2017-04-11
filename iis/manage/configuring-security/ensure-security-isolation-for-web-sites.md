@@ -112,7 +112,7 @@ Using the NETWORKSERVICE account in a domain environment has a great benefit. Wo
 For example:
 
 
-[!code-unknown[Main](ensure-security-isolation-for-web-sites/samples/sample-127020-4.unknown)]
+[!code-console[Main](ensure-security-isolation-for-web-sites/samples/sample4.cmd)]
 
 
 Network resources such as file shares or Microsoft® SQL Server® databases can be ACLed to allow access for this machine account. Application Pool identities also use the machine account to access network resources. No changes are required.

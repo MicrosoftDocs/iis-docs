@@ -102,7 +102,7 @@ It is possible to create a separate site with the desired port and domain name t
 - Click **OK** and close Site Bindings dialog.
 - Edit **C:\Windows\system32\drivers\etc\hosts** file in Notepad as administrator and add the following DNS entry:  
 
-    [!code-unknown[Main](create-a-separate-site-or-virtual-directory-for-php-content/samples/sample-127401-2.unknown)]
+    [!code-console[Main](create-a-separate-site-or-virtual-directory-for-php-content/samples/sample2.cmd)]
 - Save and close the hosts file.
 - Open **Internet Explorer**, and go to `http://phpsite/hello.php`.  
     [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image12.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image11.jpg)  

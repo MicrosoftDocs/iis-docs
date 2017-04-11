@@ -51,7 +51,7 @@ If your site has no ServerComment set on IIS 6.0, the ABO Mapper component will 
 
 If you do not have IIS installed on the source or destination machine when you are trying to access IIS-related providers such as metakey or apphostconfig, you may receive the following error message:
 
-[!code-unknown[Main](troubleshooting-web-deploy/samples/sample-127152-2.unknown)]
+[!code-console[Main](troubleshooting-web-deploy/samples/sample2.cmd)]
 
 ### Remote service errors
 

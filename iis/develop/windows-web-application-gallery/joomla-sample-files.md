@@ -28,7 +28,7 @@ This is a set of sample files you could use with Joomla! and the Web Deployment 
 
 ## Sample install.sql file
 
-[!code-unknown[Main](joomla-sample-files/samples/sample-127305-3.unknown)]
+[!code-console[Main](joomla-sample-files/samples/sample3.cmd)]
 
 ## Sample web.config file
 

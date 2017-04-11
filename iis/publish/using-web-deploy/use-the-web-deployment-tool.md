@@ -62,7 +62,7 @@ Note that you only need the remote service installed on either the source or the
 3. Go to the directory where the setup file is located.
 4. Run the following command (customize the port and URL specifications):  
 
-    [!code-unknown[Main](use-the-web-deployment-tool/samples/sample-127161-2.unknown)]
+    [!code-console[Main](use-the-web-deployment-tool/samples/sample2.cmd)]
 5. Manually start the service by running the following command:  
 
     [!code-console[Main](use-the-web-deployment-tool/samples/sample3.cmd)]

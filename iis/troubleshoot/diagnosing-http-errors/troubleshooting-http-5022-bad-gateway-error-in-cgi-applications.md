@@ -28,7 +28,7 @@ This material is provided for informational purposes only. Microsoft makes no wa
 
 You have a Web site that is hosted on Internet Information Services (IIS) 7.0. When you visit the Web site in a Web browser, you may receive an error message that resembles the following:
 
-[!code-unknown[Main](troubleshooting-http-5022-bad-gateway-error-in-cgi-applications/samples/sample-127561-1.unknown)]
+[!code-console[Main](troubleshooting-http-5022-bad-gateway-error-in-cgi-applications/samples/sample1.cmd)]
 
 This problem occurs because the CGI process terminates unexpectedly before the CGI process sends a response back to IIS 7.0
 
@@ -36,7 +36,7 @@ This problem occurs because the CGI process terminates unexpectedly before the C
 
 Scenario: When sending a request to a CGI application running via IIS, the user is presented with the following error instead of the expected response:
 
-[!code-unknown[Main](troubleshooting-http-5022-bad-gateway-error-in-cgi-applications/samples/sample-127561-2.unknown)]
+[!code-console[Main](troubleshooting-http-5022-bad-gateway-error-in-cgi-applications/samples/sample2.cmd)]
 
 Capturing a Netmon trace shows this sort of information:
 

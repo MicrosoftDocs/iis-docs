@@ -38,7 +38,7 @@ Copy the following ASP.NET code and put it in the %SystemDrive%\inetpub\wwwroot\
 Using Notepad, open **%SystemDrive%\windows\system32\drivers\etc\hosts** and add the two following lines at the end:
 
 
-[!code-unknown[Main](seo-rule-templates/samples/sample-127338-2.unknown)]
+[!code-console[Main](seo-rule-templates/samples/sample2.cmd)]
 
 
 Note: you are using "\_" instead of "." for domain separators. This is to prevent a Web browser from trying to resolve the domain name by using a Domain Name System (DNS) server.

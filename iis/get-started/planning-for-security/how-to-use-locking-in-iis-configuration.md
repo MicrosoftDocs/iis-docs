@@ -100,11 +100,11 @@ This prevents an application-level configuration file from changing the value of
 
 If you want to lock other attributes, add them to the **lockAtrtibutes** value separated by commas, as in the following example:
 
-[!code-unknown[Main](how-to-use-locking-in-iis-configuration/samples/sample-127013-5.unknown)]
+[!code-console[Main](how-to-use-locking-in-iis-configuration/samples/sample5.cmd)]
 
 You can also lock all attributes using "\*", as in this example:
 
-[!code-unknown[Main](how-to-use-locking-in-iis-configuration/samples/sample-127013-6.unknown)]
+[!code-console[Main](how-to-use-locking-in-iis-configuration/samples/sample6.cmd)]
 
 The section should now look like the following:
 
@@ -123,7 +123,7 @@ Set lockElements="providers" to lock the **&lt;providers&gt;** element within th
 
 If you have other elements to lock, you can add them separated by commas, like this:
 
-[!code-unknown[Main](how-to-use-locking-in-iis-configuration/samples/sample-127013-8.unknown)]
+[!code-console[Main](how-to-use-locking-in-iis-configuration/samples/sample8.cmd)]
 
 The section should now look like the following:
 

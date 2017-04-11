@@ -177,7 +177,7 @@ Figure 7 – Details on the module.
 
 The next step is to review the code of CFoo::crtheap method. When I do that, I find the following.
 
-[!code-unknown[Main](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/samples/sample-127565-3.unknown)]
+[!code-console[Main](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/samples/sample3.cmd)]
 
 Kind of the above code will definitely cause memory leak because allocated memory is not released.
 
@@ -185,7 +185,7 @@ Kind of the above code will definitely cause memory leak because allocated memor
 
 If you enable stack tracing (gflags -i w3wp.exe +ust), you can see the following call stack by analyzing dumps with WinDBG. You will never see the following call stack if you disable stack tracing by default.
 
-[!code-unknown[Main](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/samples/sample-127565-4.unknown)]
+[!code-console[Main](troubleshooting-native-memory-leak-in-an-iis-7x-application-pool/samples/sample4.cmd)]
 
 ## Conclusion
 

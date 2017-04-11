@@ -26,15 +26,15 @@ In addition, the following code except illustrates an ASP page that references a
 
 In several earlier versions of IIS, parent paths were enabled by default. In IIS 6.0 the default behavior changed to disable parent paths, and this was done for security and design reasons: by preventing the execution of parent paths, you are preventing the inclusion of content across security or application boundaries. By default, class ASP script error messages are not sent to the Web browser, and any attempts to use parent paths will return the following error message to a Web browser:
 
-[!code-unknown[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample-127250-3.unknown)]
+[!code-console[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample3.cmd)]
 
 If you enable sending ASP script error messages and your classic ASP scripts attempt to map a path in a parent folder, you receive the following error message in your Web browser:
 
-[!code-unknown[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample-127250-4.unknown)]
+[!code-console[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample4.cmd)]
 
 When your classic ASP scripts attempt to include a page that uses parent paths in IIS, you receive the following error message in your Web browser:
 
-[!code-unknown[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample-127250-5.unknown)]
+[!code-console[Main](classic-asp-parent-paths-are-disabled-by-default/samples/sample5.cmd)]
 
 #### Working with User Access Control
 

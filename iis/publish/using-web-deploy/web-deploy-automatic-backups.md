@@ -46,7 +46,7 @@ Backups can either be enabled globally on the server so that all sites can take 
 
 The PowerShell script to configure the Backup feature at the server level can be found under *"%programfiles%\IIS\Microsoft Web Deploy V3\scripts\BackupScripts.ps1"*. To load it, simply navigate to that directory in PowerShell and run:
 
-[!code-unknown[Main](web-deploy-automatic-backups/samples/sample-127171-2.unknown)]
+[!code-console[Main](web-deploy-automatic-backups/samples/sample2.cmd)]
 
 This will load the following functions into the session that you can use to configure backups.
 

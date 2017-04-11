@@ -84,7 +84,7 @@ While the browser is still waiting to render the page, run the script by typing 
 The output you see should resemble the following.
 
 
-[!code-unknown[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample-127045-4.unknown)]
+[!code-console[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample4.cmd)]
 
 
 ### Getting the State of a Worker Process
@@ -104,7 +104,7 @@ Open an elevated command prompt window and navigate to the directory in which yo
 Your output should resemble this:
 
 
-[!code-unknown[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample-127045-7.unknown)]
+[!code-console[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample7.cmd)]
 
 
 Now that you have learned to use WMI scripting to reveal the secrets of worker processes, do the same for application domains.
@@ -123,7 +123,7 @@ To unload a specific AppDomain, you must be able to uniquely identify it. AppDom
 Incidentally, the AppDomain ID property is not a number, but a path that looks like this:
 
 
-[!code-unknown[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample-127045-8.unknown)]
+[!code-console[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample8.cmd)]
 
 
 The "1" in the path listed is the Site ID (by default, 1 corresponds to the default Web site.) If you must generate a list of your server's AppDomains and their properties first, see the "Enumerating AppDomains" section later in this article.
@@ -151,7 +151,7 @@ Copy the code into notepad and save the file with the name AppDomainUnloadAll.vb
 As an alternative to the WQL query syntax, you can use the WMI InstancesOf method, just as you did earlier with WorkerProcess:
 
 
-[!code-unknown[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample-127045-13.unknown)]
+[!code-console[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample13.cmd)]
 
 
 ### Enumerating AppDomains
@@ -179,7 +179,7 @@ Copy the code into notepad and save the file with the name AppDomainProps.vbs. O
 Your output should look like the following:
 
 
-[!code-unknown[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample-127045-16.unknown)]
+[!code-console[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample16.cmd)]
 
 
 ## Conclusion

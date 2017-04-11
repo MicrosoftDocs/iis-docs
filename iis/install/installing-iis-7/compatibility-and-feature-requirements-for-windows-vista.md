@@ -148,7 +148,7 @@ You cannot use the IIS 7.0 and above user interface to create a Certificate Trus
   
  The MakeCTL.exe tool is part of the     [.NET Framework SDK Version 1.1](https://go.microsoft.com/fwlink/?LinkId=50870) . Once you install the SDK, MakeCTL.exe appears in the following location:   
 
-    [!code-unknown[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample-126997-3.unknown)]
+    [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample3.cmd)]
 2. After you create the CTL, you must run AdsUtil.vbs to assign the CTL identifier to the name used in MakeCTL.exe.   
 
     [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample4.cmd)]

@@ -149,42 +149,42 @@ The system supports these validators:
 
 This validator fails on these characters: |&lt;&gt;&amp;\" 
 
-[!code-unknown[Main](introduction-to-applicationhostconfig/samples/sample-126988-11.unknown)]
+[!code-console[Main](introduction-to-applicationhostconfig/samples/sample11.cmd)]
 
 
 ### IntegerRange validator
 
 This validator fails if value is outside [inside] range, in integers. 
 
-[!code-unknown[Main](introduction-to-applicationhostconfig/samples/sample-126988-12.unknown)]
+[!code-console[Main](introduction-to-applicationhostconfig/samples/sample12.cmd)]
 
 
 ### NonEmptyString validator
 
 This validator fails if string value is set. 
 
-[!code-unknown[Main](introduction-to-applicationhostconfig/samples/sample-126988-13.unknown)]
+[!code-console[Main](introduction-to-applicationhostconfig/samples/sample13.cmd)]
 
 
 ### SiteName validator
 
 This validator fails on these characters: /\.? 
 
-[!code-unknown[Main](introduction-to-applicationhostconfig/samples/sample-126988-14.unknown)]
+[!code-console[Main](introduction-to-applicationhostconfig/samples/sample14.cmd)]
 
 
 ### TimeSpanRange validator
 
 This validator fails if value is outside [inside] range, in seconds. 
 
-[!code-unknown[Main](introduction-to-applicationhostconfig/samples/sample-126988-15.unknown)]
+[!code-console[Main](introduction-to-applicationhostconfig/samples/sample15.cmd)]
 
 
 ### TrimWhiteSpace validator
 
 This validator fails if white space is set at start or end of value. 
 
-[!code-unknown[Main](introduction-to-applicationhostconfig/samples/sample-126988-16.unknown)]
+[!code-console[Main](introduction-to-applicationhostconfig/samples/sample16.cmd)]
 
 <a id="XML"></a>
 

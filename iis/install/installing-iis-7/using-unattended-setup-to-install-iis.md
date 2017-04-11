@@ -54,15 +54,15 @@ Windows Optional features in Vista/Windows Server 2008 is installed using a new 
 
 **Pkgmgr.exe Commands**
 
-[!code-unknown[Main](using-unattended-setup-to-install-iis/samples/sample-126999-2.unknown)]
+[!code-console[Main](using-unattended-setup-to-install-iis/samples/sample2.cmd)]
 
 This specifies updates to install by update name and takes a semicolon separated name of updates to install.
 
-[!code-unknown[Main](using-unattended-setup-to-install-iis/samples/sample-126999-3.unknown)]
+[!code-console[Main](using-unattended-setup-to-install-iis/samples/sample3.cmd)]
 
 This specifies the updates to uninstall and takes a semicolon separated list of selectable updates to be uninstalled from the system. At least one update name must be specified
 
-[!code-unknown[Main](using-unattended-setup-to-install-iis/samples/sample-126999-4.unknown)]
+[!code-console[Main](using-unattended-setup-to-install-iis/samples/sample4.cmd)]
 
 This specifies file name of the unattend XML file.
 

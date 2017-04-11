@@ -191,7 +191,7 @@ A.
 
 A. 
 
-[!code-unknown[Main](iis-70-on-server-core/samples/sample-126984-16.unknown)]
+[!code-console[Main](iis-70-on-server-core/samples/sample16.cmd)]
 
 
 **Q12. How do you access event logs?**

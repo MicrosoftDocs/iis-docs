@@ -59,7 +59,7 @@ To enable remote connections using IIS Manager, click the server node in the tre
 This configuration is stored in the dword registry value "EnableRemoteManagement" under the registry key HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\WebManagement\Server. The easiest way to enable remote management from the command line is to save this text in a file called EnableRemoteMgmt.reg and run it:
 
 
-[!code-unknown[Main](remote-administration-for-iis-manager/samples/sample-127038-1.unknown)]
+[!code-console[Main](remote-administration-for-iis-manager/samples/sample1.cmd)]
 
 <a id="02"></a>
 

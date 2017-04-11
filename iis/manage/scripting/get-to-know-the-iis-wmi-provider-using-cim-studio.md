@@ -68,13 +68,13 @@ Backup key IIS configuration files before beginning so that you can restore your
 
 *Expected output*:
 
-[!code-unknown[Main](get-to-know-the-iis-wmi-provider-using-cim-studio/samples/sample-127048-1.unknown)]
+[!code-console[Main](get-to-know-the-iis-wmi-provider-using-cim-studio/samples/sample1.cmd)]
 
 - After you have finished, restore IIS to its original state by opening the command prompt as administrator and typing **%windir%\system32\inetsrv\appcmd restore backup IIS7\_WMI\_CIMStudioLab**.
 
 *Expected output*:
 
-[!code-unknown[Main](get-to-know-the-iis-wmi-provider-using-cim-studio/samples/sample-127048-2.unknown)]
+[!code-console[Main](get-to-know-the-iis-wmi-provider-using-cim-studio/samples/sample2.cmd)]
 
 ## 1. Connect to the WebAdministration Namespace
 

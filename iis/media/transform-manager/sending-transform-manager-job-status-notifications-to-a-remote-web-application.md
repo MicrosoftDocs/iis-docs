@@ -211,7 +211,7 @@ In order for the MVC Web Role to launch correctly, we must include a new class i
 
     [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample2.cs)]
 
-    [!code-unknown[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample-127445-3.unknown)]
+    [!code-console[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample3.cmd)]
 
 <a id="step7"></a>
 
@@ -221,7 +221,7 @@ In order for the MVC Web Role to launch correctly, we must include a new class i
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image13.png)
 2. Locate the *RegisterRoutes* static function and update the Default MapRoute. In our sample application, we replace 'Home' with our own 'JobMon' controller:   
 
-    [!code-unknown[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample-127445-4.unknown)]
+    [!code-console[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample4.cmd)]
 3. In the *Application\_Start* function, add a call to *SetConfigurationSettingPublisher* by pasting in the following code:  
 
     [!code-csharp[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample5.cs)]
@@ -381,7 +381,7 @@ We now have a model that can be leveraged to parse new notifications, insert the
   
  The ASP.NET MVC 3 Web Application Project contains a file that hosts the Cascading Style Sheets (CSS) for the Views. We can make the report table borders a bit more distinct. If you know a great web designer, now is a good time to ask for the latest HTML 5 table mockups and CSS classes. For now, we can edit the project file \Content\Site.css and paste some extra style for adding table borders.  
 
-    [!code-unknown[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample-127445-27.unknown)]
+    [!code-console[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample27.cmd)]
 
     [!code-css[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample28.css)]
 

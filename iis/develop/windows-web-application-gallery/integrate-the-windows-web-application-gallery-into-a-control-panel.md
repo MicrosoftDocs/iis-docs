@@ -86,7 +86,7 @@ Install and configure the deployment handler.
         [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample2.cmd)]
     - Grant the user modify permission to  
 
-        [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-3.unknown)]
+        [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample3.cmd)]
 
         [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample4.cmd)]
 6. Add a set of rules to allow customers to deploy content, applications, and databases by opening the **Administration.config** file and navigating to this section:  
@@ -138,7 +138,7 @@ By default, the WMSVC service installs a self-signed Secure Sockets Layer (SSL) 
 
     to
 
-    [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-11.unknown)]
+    [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample11.cmd)]
 3. Save the file.
 
 ## Create a Customer Site and Authorize the Site Owner
@@ -192,7 +192,7 @@ Also in **Reload**, you find calls to the [Microsoft.Web.PlatformInstaller.Produ
 The following code initatiates and intializes a ProductManager object:
 
 
-[!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-13.unknown)]
+[!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample13.cmd)]
 
 
 ### Extract the Installer Information for Each Application
@@ -203,10 +203,10 @@ To display the application information and to create the links to each installat
 
 1. Within a foreach loop, examine each [Microsoft.Web.PlatformInstaller.Product](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.product.aspx) object contained in the Microsoft.Web.PlatformInstaller.ProductManager.Products collection. Identify those that are marked as applications:  
 
-    [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-14.unknown)]
+    [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample14.cmd)]
 2. Still within the foreach loop, get the installer for the application and access the particular object properties needed for the user interface and installation process. The most important of them all is the [InstallerFile.InstallerUrl.AbsoluteUri](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.installerfile.installerurl.aspx), which contains the location for downloading the Web Deploy package for the application:  
 
-    [!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-15.unknown)]
+    [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample15.cmd)]
 3. You can then add each of the package objects to your own packages collections and display them in your UI.
 
 ## The Application Entry XML
@@ -280,7 +280,7 @@ In the Application Entry example above, you can see:
 The following code snippet illustrates how you can filter applications by their keywords:
 
 
-[!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-24.unknown)]
+[!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample24.cmd)]
 
 
 This example uses the Web.PlatformInstaller API to load the Application List feed and then list each application ordered by keyword. The [ProductManager.Keywords](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.productmanager.keywords.aspx) collection lists all the available keywords from the loaded feed.
@@ -328,7 +328,7 @@ The code snippet below is taken from the sample applications and shows one metho
 The sample applications use a "ReadOnlyCollection" called "Parameters" to bind the "\_parameters" data list from the example above to the UI fields in a ListView control inside the Install.aspx file:
 
 
-[!code-unknown[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample-127270-29.unknown)]
+[!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample29.cmd)]
 
 
 ## Using the Parameter Names and Tags

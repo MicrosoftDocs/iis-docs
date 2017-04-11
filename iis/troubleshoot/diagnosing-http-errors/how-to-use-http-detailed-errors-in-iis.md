@@ -135,7 +135,7 @@ The file extension .yyy is not part of the IIS MimeMap and the static file handl
 
 Each more recent browser includes the language of the client as a request header. Here is an example of how this header might look:
 
-[!code-unknown[Main](how-to-use-http-detailed-errors-in-iis/samples/sample-127051-3.unknown)]
+[!code-console[Main](how-to-use-http-detailed-errors-in-iis/samples/sample3.cmd)]
 
 The syntax and registry of accepted languages is specified in [RFC1766](http://www.ietf.org/rfc/rfc1766.txt).
 

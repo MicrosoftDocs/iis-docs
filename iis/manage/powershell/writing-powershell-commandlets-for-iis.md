@@ -283,7 +283,7 @@ Change the property Computer on the parent command to represent an array of stri
 
 Then add an extra loop over this array into each cmdlet to perform the same action on each computer. Here is an example from get-iissite:
 
-[!code-unknown[Main](writing-powershell-commandlets-for-iis/samples/sample-127209-28.unknown)]
+[!code-console[Main](writing-powershell-commandlets-for-iis/samples/sample28.cmd)]
 
 Now we can manipulate sites on the whole server farm.
 

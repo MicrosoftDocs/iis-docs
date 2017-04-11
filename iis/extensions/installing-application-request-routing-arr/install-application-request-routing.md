@@ -74,10 +74,10 @@ Download the Microsoft Application Request Routing release from the following lo
 - Complete the installation.
 - To check on the installation status, refer to %TEMP%\arr\_setup.log. If all packages have been installed successfully, you should see the following:  
 
-    [!code-unknown[Main](install-application-request-routing/samples/sample-127371-5.unknown)]
+    [!code-console[Main](install-application-request-routing/samples/sample5.cmd)]
 - ***Optional***) For troubleshooting purposes, the downloaded executable can be unpackaged. Launch the executable file with /T:&lt;full path&gt; and /C options. This command will unpackage just the four MSIs, which can be launched manually one at a time. If the MSIs are being installed manually, they must be installed in the following order:  
 
-    [!code-unknown[Main](install-application-request-routing/samples/sample-127371-6.unknown)]
+    [!code-console[Main](install-application-request-routing/samples/sample6.cmd)]
 
     For more information, launch the executable file with the /? option.
 - Start **WAS** and **WMSVC** processes by typing:  

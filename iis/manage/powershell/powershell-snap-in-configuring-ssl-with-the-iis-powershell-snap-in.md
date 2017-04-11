@@ -57,7 +57,7 @@ You can look at the binding collection using the following command:
 [!code-powershell[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample4.ps1)]
 
 
-[!code-unknown[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample-127220-5.unknown)]
+[!code-console[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample5.cmd)]
 
 
 ## Assigning the Certificate to the IP:Port of the IIS Binding
@@ -82,7 +82,7 @@ Now you can use the certificate hash we got in step one and associate it with al
 The previous command generated the following SSL Binding:
 
 
-[!code-unknown[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample-127220-8.unknown)]
+[!code-console[Main](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in/samples/sample8.cmd)]
 
 SSL is ready to go now and you can browse to your site by entering [https://localhost](https://localhost/)
 

@@ -183,7 +183,7 @@ To perform this task, it is assumed that we have followed the previous task and 
     This serves the requested document. We have successfully enabled the static file serving capability on the server.
 7. Next, request the directory listing by making a request to the following URL:  
 
-    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-17.unknown)]
+    [!code-console[Main](build-a-custom-iis-server/samples/sample17.cmd)]
 
     We get an empty response because no handler is currently loaded, enabled, and mapped to process directory listings--an empty response is sent (200 OK). In the next task, we will add the handler.
 
@@ -201,7 +201,7 @@ To perform this task, it is assumed that we have performed the previous tasks, s
 4. Save the applicationHost.config file.
 5. Open Internet Explorer, and repeat the request to the directory by requesting the following URL: 
 
-[!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-19.unknown)]
+[!code-console[Main](build-a-custom-iis-server/samples/sample19.cmd)]
 
 This serves the listing of the requested directory. We have successfully enabled the directory listing capability on the server.
 
@@ -235,7 +235,7 @@ To perform this task, it is assumed that we have followed the previous tasks, st
 6. Save the applicationHost.config file.
 7. Open Internet Explorer, and repeat the request to the directory by requesting the following URL:  
 
-    [!code-unknown[Main](build-a-custom-iis-server/samples/sample-127006-23.unknown)]
+    [!code-console[Main](build-a-custom-iis-server/samples/sample23.cmd)]
 
     This requests a directory listing. Because the browser has not authenticated us, the URL authorization module rejects the request. The basic authentication module intercepts the rejection, and triggers a basic authentication challenge back to the browser, causing the browser to display the basic authentication login dialog.
 8. Log in with invalid credentials. The request is rejected, with a request prompting for credentials again.

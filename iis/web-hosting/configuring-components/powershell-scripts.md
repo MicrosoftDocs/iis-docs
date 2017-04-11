@@ -66,7 +66,7 @@ This article provides a summary of the PowerShell and C# Sample scripts mentione
 
     Example:
 
-    [!code-unknown[Main](powershell-scripts/samples/sample-126956-1.unknown)]
+    [!code-console[Main](powershell-scripts/samples/sample1.cmd)]
 
     Example of a ProvisioningConfig.xml XML file:
 
@@ -76,7 +76,7 @@ This article provides a summary of the PowerShell and C# Sample scripts mentione
 
     Example:
 
-    [!code-unknown[Main](powershell-scripts/samples/sample-126956-3.unknown)]
+    [!code-console[Main](powershell-scripts/samples/sample3.cmd)]
 
     4.3. **To create a Site** use CreateIISSite SiteName PhysicalPath PoolName ID.
 
@@ -88,16 +88,16 @@ This article provides a summary of the PowerShell and C# Sample scripts mentione
 
     Example:
 
-    [!code-unknown[Main](powershell-scripts/samples/sample-126956-5.unknown)]
+    [!code-console[Main](powershell-scripts/samples/sample5.cmd)]
 
     4.5. **To create a Virtual Directory** for an application use CreateIISVDirOntoApplication ApplicationPhysicalPath PhysicalPath SiteName RelativePath.
 
     Example:
 
-    [!code-unknown[Main](powershell-scripts/samples/sample-126956-6.unknown)]
+    [!code-console[Main](powershell-scripts/samples/sample6.cmd)]
 
     4.6. **To create a Binding for a Site** use CreateIISBindingOntoSite SiteName Port BindingInfo Protocol.
 
     Example:
 
-    [!code-unknown[Main](powershell-scripts/samples/sample-126956-7.unknown)]
+    [!code-console[Main](powershell-scripts/samples/sample7.cmd)]

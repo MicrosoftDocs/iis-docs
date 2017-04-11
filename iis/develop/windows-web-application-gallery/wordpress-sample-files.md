@@ -28,4 +28,4 @@ This is a set of sample files you could use with Wordpress and the Web Deploymen
 
 ## Sample install.sql file
 
-[!code-unknown[Main](wordpress-sample-files/samples/sample-127315-3.unknown)]
+[!code-console[Main](wordpress-sample-files/samples/sample3.cmd)]

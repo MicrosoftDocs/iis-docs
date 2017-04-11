@@ -284,7 +284,7 @@ If you are using Membership Roles, you may need to install the hotfix that is de
 
 When attempting to log in, you receive the following reply:
 
-[!code-unknown[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample-127188-7.unknown)]
+[!code-console[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample7.cmd)]
 
 This error is caused when you have not configured your SQL server to accept remote connections.
   

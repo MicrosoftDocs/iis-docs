@@ -147,7 +147,7 @@ The Php.ini file provides PHP with configuration and environmental information. 
 7. Click **OK** in the **Session Properties** window.
 8. Open **php.ini** in the PHP installation directory, and set the **session.save\_path** setting to the **session** subdirectory:  
 
-    [!code-unknown[Main](install-and-configure-php/samples/sample-127394-2.unknown)]
+    [!code-console[Main](install-and-configure-php/samples/sample2.cmd)]
 9. Save and close the file.
 10. Click **Start**, and then select **Command Prompt**.
 11. Type **runas /user:administrator cmd.exe** to enable elevated permissions.

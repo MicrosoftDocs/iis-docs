@@ -82,7 +82,7 @@ After making the changes, click on **Apply** under the **Actions** pane on the f
 
 Here is sample log file output with Protocol Version field enabled:
 
-[!code-unknown[Main](http2-on-iis/samples/sample-134413-1.unknown?highlight=5-6)]
+[!code-console[Main](http2-on-iis/samples/sample1.cmd?highlight=5-6)]
 
 ## IIS with HTTP/2 Demo Walkthrough
 

@@ -77,6 +77,6 @@ IISUAL.EXE will analyze the W3C log file named &quot;u\_ex130319.log&quot; for c
 
 When you use IISUAL.EXE to analyze a W3C log file, it will search through all of the log file entries and use the information in the &quot;cs-username&quot; and &quot;c-ip&quot; fields to generate statistics that will be written to an output file that resembles the following format:
 
-[!code-unknown[Main](analyzing-client-usage-data-with-iis-user-access-logging/samples/sample-131746-3.unknown)]
+[!code-console[Main](analyzing-client-usage-data-with-iis-user-access-logging/samples/sample3.cmd)]
 
 This User Access Logging information provides administrators with the statistics for authenticated versus anonymous users for the time period that is defined by the W3C log file. As mentioned earlier, this information is useful for small, medium, and enterprise scenarios where administrators are interested in tracking the number of users who are accessing an intranet website.

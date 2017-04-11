@@ -66,7 +66,7 @@ To make the cloned presentation available to clients, do the following:
 
 1. In a text editor, such as Notepad, open SmoothStreamingPlayer.html and update the **mediaurl** attribute value with the fully qualified URL of the cloned on-demand Smooth Streaming presentation server manifest (.ism) file. In our example, this value is:  
 
-    [!code-unknown[Main](managing-on-demand-presentations/samples/sample-127288-1.unknown)]
+    [!code-console[Main](managing-on-demand-presentations/samples/sample1.cmd)]
 2. Navigate your Web browser to `http://localhost`**/Big Buck Bunny H.264 720p/SmoothStreamingPlayer.html**.  
 
     > [!NOTE]

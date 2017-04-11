@@ -82,7 +82,7 @@ Backup key IIS configuration files before beginning so that you can restore the 
 Expected output:
 
 
-[!code-unknown[Main](managing-sites-with-the-iis-wmi-provider/samples/sample-127043-1.unknown)]
+[!code-console[Main](managing-sites-with-the-iis-wmi-provider/samples/sample1.cmd)]
 
 
 - After you have finished, restore IIS to its original state by opening the command prompt as administrator and typing **%windir%\system32\inetsrv\appcmd restore backup IIS7\_WMI\_CIMStudioLab**.
@@ -90,7 +90,7 @@ Expected output:
 Expected output:
 
 
-[!code-unknown[Main](managing-sites-with-the-iis-wmi-provider/samples/sample-127043-2.unknown)]
+[!code-console[Main](managing-sites-with-the-iis-wmi-provider/samples/sample2.cmd)]
 
 <a id="02"></a>
 
@@ -98,7 +98,7 @@ Expected output:
 
 To get a site instance, click **Start**, click the **Start Search** box, type **notepad.exe**, and then press **Enter**. Paste the following line of script into notepad:
 
-[!code-unknown[Main](managing-sites-with-the-iis-wmi-provider/samples/sample-127043-3.unknown)]
+[!code-console[Main](managing-sites-with-the-iis-wmi-provider/samples/sample3.cmd)]
 
 Click **File**, **Save As...** to open the Save dialog. Find the **Save as type:** textbox at the bottom of the dialog and change its value from "Text Documents (\*.txt)" to "All Files". Save the file to the Desktop as "GetSite.vbs".
 
@@ -108,7 +108,7 @@ Click **Start**, click the **Start Search** box, type **cmd.exe**, and then pres
 
 Type **GetSite.vbs**, and press **Enter**. If your script runs without error, it means you have successfully connected to the "WebAdministration" namespace. For more information on the "winmgmts:root\WebAdministration" string, read [Constructing a Moniker String](https://msdn.microsoft.com/library/default.asp?url=/library/en-us/wmisdk/wmi/constructing_a_moniker_string.asp). We will add four more lines to our GetSite.vbs script. These four lines of script will get the Default Web Site and then confirm success by printing two of its properties.
 
-[!code-unknown[Main](managing-sites-with-the-iis-wmi-provider/samples/sample-127043-4.unknown)]
+[!code-console[Main](managing-sites-with-the-iis-wmi-provider/samples/sample4.cmd)]
 
 Go back to your cmd prompt and run GetSite.vbs. You should see the following output:
 
@@ -134,7 +134,7 @@ To get an application instance, open CIM Studio and search for the Application c
 
 Click **Start**, click the **Start Search** box, type **notepad.exe**, and then press **Enter**. Paste the following lines of script into notepad. The second line of script specifies values for both of the Application key properties. Note that the format of this string is: &lt;object\_name&gt;.&lt;key\_property&gt;='&lt;value&gt;',&lt;key\_property&gt;='&lt;value&gt;' where the key properties and their values are separated by commas.
 
-[!code-unknown[Main](managing-sites-with-the-iis-wmi-provider/samples/sample-127043-5.unknown)]
+[!code-console[Main](managing-sites-with-the-iis-wmi-provider/samples/sample5.cmd)]
 
 Click **File**, **Save As...** to open the Save dialog. Find the **Save as type:** textbox at the bottom of the dialog and change its value from "Text Documents (\*.txt)" to "All Files". Save the file to the Desktop as "GetApp.vbs".
 
@@ -222,7 +222,7 @@ Run the EnumSites.vbs script. You see the following output, i.e. the Default Web
 
 You may ask where the InstancesOf method came from, and where you can read more about it. The first line of the script is the same line used many times before to connect to the WebAdministration WMI namespace:
 
-[!code-unknown[Main](managing-sites-with-the-iis-wmi-provider/samples/sample-127043-11.unknown)]
+[!code-console[Main](managing-sites-with-the-iis-wmi-provider/samples/sample11.cmd)]
 
 The GetObject call returns an SWbemServices object that can be used to perform operations against a namespace. This object has an InstancesOf method, as well as a number of other useful methods. To read more about InstancesOf or other available methods, see the [Platform SDK article on SWbemServices](https://msdn.microsoft.com/en-us/library/aa393854.aspx).
 

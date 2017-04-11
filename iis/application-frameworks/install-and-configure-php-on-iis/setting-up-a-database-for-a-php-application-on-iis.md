@@ -44,14 +44,14 @@ You then must provide the password to your root or admin account on the MySQL se
 
 Next, create a database for the your application at the MySQL prompt after logging in:
 
-[!code-unknown[Main](setting-up-a-database-for-a-php-application-on-iis/samples/sample-127386-3.unknown)]
+[!code-console[Main](setting-up-a-database-for-a-php-application-on-iis/samples/sample3.cmd)]
 
 To create the database, download the MySql GUI-Tools from: [http://dev.mysql.com/downloads/gui-tools/5.0.html](http://dev.mysql.com/downloads/gui-tools/5.0.html). Then you can create the database using a simple "**create database cslh**" command using the MySQL Query Browser. 
 
 Next, create the account that will be used with your PHP application to access this particular database:
 
 
-[!code-unknown[Main](setting-up-a-database-for-a-php-application-on-iis/samples/sample-127386-4.unknown)]
+[!code-console[Main](setting-up-a-database-for-a-php-application-on-iis/samples/sample4.cmd)]
 
 
 This command creates the account, sets the password, and sets the privileges all in one line:

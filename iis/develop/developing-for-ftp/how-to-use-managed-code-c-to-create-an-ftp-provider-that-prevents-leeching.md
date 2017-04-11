@@ -122,7 +122,7 @@ In this step, you will add the demo provider to your FTP service and an FTP site
         [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching/samples/sample3.cmd)]
     - Copy the information for the the **FtpLeechPrevention** assembly; for example: 
 
-        [!code-unknown[Main](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching/samples/sample-127265-4.unknown)]
+        [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching/samples/sample4.cmd)]
     - Close the .
 2. Add the extensibility provider to the global list of FTP providers: 
 

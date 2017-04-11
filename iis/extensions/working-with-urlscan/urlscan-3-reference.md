@@ -171,7 +171,7 @@ The [Options] section of a UrlScan.ini file contains a list of name/value pairs 
 
 The following example [Options] section configures several recommended settings for UrlScan:
 
-[!code-unknown[Main](urlscan-3-reference/samples/sample-127499-1.unknown)]
+[!code-console[Main](urlscan-3-reference/samples/sample1.cmd)]
 
 <a id="AllowVerbsSection"></a>
 
@@ -183,7 +183,7 @@ The [AllowVerbs] section contains a list of HTTP verbs or methods. If UseAllowVe
 
 The following example [AllowVerbs] section configures UrlScan to allow basic HTTP functionality:
 
-[!code-unknown[Main](urlscan-3-reference/samples/sample-127499-2.unknown)]
+[!code-console[Main](urlscan-3-reference/samples/sample2.cmd)]
 
 To use this example, you would need to set UseAllowVerbs to 1 in the [Options] section.
 
@@ -197,7 +197,7 @@ The [DenyVerbs] section contains a list of HTTP verbs or methods. If UseAllowVer
 
 The following example [DenyVerbs] section configures UrlScan to deny several of the HTTP methods that are not required for basic HTTP functionality, such as WebDAV methods:
 
-[!code-unknown[Main](urlscan-3-reference/samples/sample-127499-3.unknown)]
+[!code-console[Main](urlscan-3-reference/samples/sample3.cmd)]
 
 To use this example, you would need to set UseAllowVerbs to 0 in the [Options] section.
 
@@ -211,7 +211,7 @@ The [DenyHeaders] section contains a list of request headers in the form "header
 
 The following example [DenyHeaders] section configures UrlScan to deny several HTTP headers that are used with WebDAV requests:
 
-[!code-unknown[Main](urlscan-3-reference/samples/sample-127499-4.unknown)]
+[!code-console[Main](urlscan-3-reference/samples/sample4.cmd)]
 
 <a id="AllowExtensionsSection"></a>
 
@@ -223,7 +223,7 @@ The [AllowExtensions] section contains a list of file name extensions in the for
 
 The following example [AllowExtensions] section configures UrlScan to allow several static content types:
 
-[!code-unknown[Main](urlscan-3-reference/samples/sample-127499-5.unknown)]
+[!code-console[Main](urlscan-3-reference/samples/sample5.cmd)]
 
 To use this example, you would need to set UseAllowExtensions to 1 in the [Options] section.
 
@@ -251,7 +251,7 @@ The [DenyUrlSequences] section contains a list of character sequences that UrlSc
 
 The following example [DenyUrlSequences] section configures UrlScan to deny several URL sequences that could be used to attack your server:
 
-[!code-unknown[Main](urlscan-3-reference/samples/sample-127499-7.unknown)]
+[!code-console[Main](urlscan-3-reference/samples/sample7.cmd)]
 
 <a id="RequestLimitsSection"></a>
 
@@ -280,7 +280,7 @@ The [RequestLimits] section can contain the following three special-case limits:
 
 The following example [RequestLimits] section configures UrlScan to specify the maximum lengths for several HTTP headers and the maximum content length for a request:
 
-[!code-unknown[Main](urlscan-3-reference/samples/sample-127499-8.unknown)]
+[!code-console[Main](urlscan-3-reference/samples/sample8.cmd)]
 
 <a id="AlwaysAllowedUrlsSection"></a>
 
@@ -295,7 +295,7 @@ The [AlwaysAllowedUrls] section contains a list of URLs that UrlScan will always
 
 The following example [AlwaysAllowedUrls] section configures UrlScan to deny several URL sequences that could be used to attack your server:
 
-[!code-unknown[Main](urlscan-3-reference/samples/sample-127499-9.unknown)]
+[!code-console[Main](urlscan-3-reference/samples/sample9.cmd)]
 
 <a id="AlwaysAllowedQueryStringsSection"></a>
 
@@ -313,7 +313,7 @@ The [DenyQueryStringSequences] section contains a list of character sequences th
 
 The following example [DenyQueryStringSequences] section configures UrlScan to deny several query string sequences that could be used to attack your server:
 
-[!code-unknown[Main](urlscan-3-reference/samples/sample-127499-10.unknown)]
+[!code-console[Main](urlscan-3-reference/samples/sample10.cmd)]
 
 <a id="RuleSections"></a>
 
@@ -346,7 +346,7 @@ Each rule section can contain the following settings:
 
 The following example rule section configures UrlScan with two custom rules that will configure custom settings for \*.asp/\*.aspx and \*.php files. In this example, the two rules share a common data section for the DenyDataSection, but you can configure your rules to use separate data sections as well.
 
-[!code-unknown[Main](urlscan-3-reference/samples/sample-127499-11.unknown)]
+[!code-console[Main](urlscan-3-reference/samples/sample11.cmd)]
   
   
 [Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

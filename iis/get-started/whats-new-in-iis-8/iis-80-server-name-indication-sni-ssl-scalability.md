@@ -55,7 +55,7 @@ It should be noted that in order for this feature to be used, your client browse
 - Sample certificates.
 - \windows\system32\drivers\etc\hosts has been modified to be used for sample site and certificate. For example, if CN name of the certificate is TAPTesting, then the hosts file must contain: 
 
-    [!code-unknown[Main](iis-80-server-name-indication-sni-ssl-scalability/samples/sample-127556-1.unknown)]
+    [!code-console[Main](iis-80-server-name-indication-sni-ssl-scalability/samples/sample1.cmd)]
 
 #### Workarounds for known bugs:
 

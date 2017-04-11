@@ -285,7 +285,7 @@ Back-references to condition patterns are identified by {C:N} where N is from 0 
 For example, in this pattern:
 
 
-[!code-unknown[Main](url-rewrite-module-configuration-reference/samples/sample-127322-3.unknown)]
+[!code-console[Main](url-rewrite-module-configuration-reference/samples/sample3.cmd)]
 
 
 For the string: **www.foo.com** the back-references will be indexed as follows:

@@ -74,13 +74,13 @@ You will need to run the installation package as an administrator. This can be a
 - Logging on using an account with administrator privileges and opening a command-prompt by right-clicking the **Command Prompt** menu item that is located in the **Accessories** menu for Windows programs and selecting "Run as administrator", then typing the appropriate command listed below for your version of Windows to run the installation:
 
 
-[!code-unknown[Main](microsoft-web-deploy-v2-readme/samples/sample-127162-1.unknown)]
+[!code-console[Main](microsoft-web-deploy-v2-readme/samples/sample1.cmd)]
 
 **Important Note!** By default, setup will offer you the choice of installing the remote service and will use a default remote service URL, http://+:80/MSDEPLOY.
 
 You can set the remote service URL to a custom URL by running setup from the command-line: (where the port and URL are specified, please customize):
 
-[!code-unknown[Main](microsoft-web-deploy-v2-readme/samples/sample-127162-2.unknown)]
+[!code-console[Main](microsoft-web-deploy-v2-readme/samples/sample2.cmd)]
 
 <a id="Known_Issues"></a>
 
@@ -194,7 +194,7 @@ However, if the source is remote, the USN number doesn't get returned by the ope
 
 If you encounter any problems during installation, you can run appropriate command listed below for your version of Windows to create a log file that will contain information about the installation process:
 
-[!code-unknown[Main](microsoft-web-deploy-v2-readme/samples/sample-127162-3.unknown)]
+[!code-console[Main](microsoft-web-deploy-v2-readme/samples/sample3.cmd)]
 
 You can analyze this log file after a failed installation to help determine the cause of the failure.
 

@@ -86,7 +86,7 @@ The main section of the fcgiext.ini file is the **[types]** section. This sectio
 The general syntax is as follows:
 
 
-[!code-unknown[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample-127384-1.unknown)]
+[!code-console[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample1.cmd)]
 
 
 The above example consists of seven mappings that are mapped as follows:
@@ -118,13 +118,13 @@ The FastCGI extension has a set of configuration settings that controls the beha
 
 Example:
 
-[!code-unknown[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample-127384-2.unknown)]
+[!code-console[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample2.cmd)]
 
 If the environment variable value contains a space character, then enclose the value in quotes. If the environment variable value contains a comma character, then this character is escaped with "/". Similarly, if the environment variable value contains "/", then this character should be escaped as well.
 
 Example:
 
-[!code-unknown[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample-127384-3.unknown)]
+[!code-console[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample3.cmd)]
 
 - *Protocol –* This setting specifies the protocol to use to communicate with the FastCGI process. The allowed values are 'NamedPipe' and 'Tcp'. If not specified, the default value is 'NamedPipe'.
 - *QueueLength* – This setting specifies the maximum number of requests to this application's process pool that are queued before the FastCGI handler starts returning errors to clients, indicating that the application is too busy. If not specified, the default value is 1000.

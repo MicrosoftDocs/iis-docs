@@ -41,7 +41,7 @@ Trust levels let you define security rules for ASP.NET. They define what types o
 
     [!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample1.xml)]
 
-    [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-2.unknown)]
+    [!code-console[Main](aspnet-20-35-shared-hosting-configuration/samples/sample2.cmd)]
 
     ...
 5. Edit **WebPermission** so that the **ConnectAccess** element is removed and **Unrestricted** is set to **true**.  
@@ -50,7 +50,7 @@ Trust levels let you define security rules for ASP.NET. They define what types o
 
     [!code-xml[Main](aspnet-20-35-shared-hosting-configuration/samples/sample3.xml)]
 
-    [!code-unknown[Main](aspnet-20-35-shared-hosting-configuration/samples/sample-127070-4.unknown)]
+    [!code-console[Main](aspnet-20-35-shared-hosting-configuration/samples/sample4.cmd)]
 
     ...
 6. Comment out **PrintingPermission** and **EnvironmentPermission**, unless it is known that they are needed for the shared hosting  environment.

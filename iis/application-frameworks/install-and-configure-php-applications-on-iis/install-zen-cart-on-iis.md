@@ -45,7 +45,7 @@ Before starting the installation procedure for Zen Cart, you must create a datab
 Update the **Php.ini** file to add the **Php\_mysql.dll** module under the **Dynamic Extensions** section in the file, and ensure that the extension directory points to the correct location:
 
 
-[!code-unknown[Main](install-zen-cart-on-iis/samples/sample-127113-1.unknown)]
+[!code-console[Main](install-zen-cart-on-iis/samples/sample1.cmd)]
 
 
 Note that this article uses the "/zencart" folder as an example, but this is not required. You may use another folder, or you can install Zen Cart in the "root" directory (the base of your Web site).
@@ -100,7 +100,7 @@ When you enter the Catalog, you receive security warnings about the Configure.ph
 Change the permissions on the **Configure.php** files to read and execute:
 
 
-[!code-unknown[Main](install-zen-cart-on-iis/samples/sample-127113-2.unknown)]
+[!code-console[Main](install-zen-cart-on-iis/samples/sample2.cmd)]
 
 
 Note that "zencart" is used as an example in this article; your site may or may not include "zencart" as a folder name.

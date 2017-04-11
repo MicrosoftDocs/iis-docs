@@ -51,7 +51,7 @@ Perform the following steps to download and install the SQL Server Driver for PH
 6. Copy the **php\_sqlsrv.dll** and **php\_sqlsrv\_ts.dll** files to the **C:\PHP\ext\** directory.
 7. Open the **C:\PHP\php.ini** file, and add the following line in the **Extensions** section:  
 
-    [!code-unknown[Main](install-the-sql-server-driver-for-php/samples/sample-127390-1.unknown)]
+    [!code-console[Main](install-the-sql-server-driver-for-php/samples/sample1.cmd)]
 8. Click **Start**, and select the *search field*.
 9. Type **iisreset**, and then press ENTER.
 

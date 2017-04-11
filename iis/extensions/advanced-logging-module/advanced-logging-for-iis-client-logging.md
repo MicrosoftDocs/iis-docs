@@ -98,7 +98,7 @@ For IIS Advanced Logging to take advantage of client logging capabilities, relat
 The script syntax is:
 
 
-[!code-unknown[Main](advanced-logging-for-iis-client-logging/samples/sample-127283-3.unknown)]
+[!code-console[Main](advanced-logging-for-iis-client-logging/samples/sample3.cmd)]
 
 
 where fields.xml is the XML file included in the zipped folder and baseFileName is the name you want to give to your log definition. If you don't specify a baseFileName, IIS Advanced Logging will use the default log definition name: %COMPUTERNAME%-Client.

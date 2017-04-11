@@ -85,7 +85,7 @@ To install IIS features for Static Content Web Server via pkgmgr.exe use the fol
 To install IIS features for Static Content Web Server via ServerManagerCmd.exe use the following command line:
 
 
-[!code-unknown[Main](install-typical-iis-workloads/samples/sample-127001-2.unknown)]
+[!code-console[Main](install-typical-iis-workloads/samples/sample2.cmd)]
 
 <a id="ASP.NET"></a>
 

@@ -117,7 +117,7 @@ The IIS setup log file is called iis6.log or iis51.log. You can open it with the
 You can use the [Windows Installer technology](https://msdn.microsoft.com/en-us/library/aa371366(VS.85).aspx) for Web platform components such as Microsoft® SQL Server® and Visual Web Developer 2008 Express Edition. To look at the logs, open Internet Explorer and type the following into the address bar:
 
 
-[!code-unknown[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample-127229-5.unknown)]
+[!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample5.cmd)]
 
 
 Web PI also displays a link to the log file that failed in the summary screen; see the [detailed description of Windows Installer error codes](https://msdn.microsoft.com/en-us/library/aa372835(VS.85).aspx).
@@ -178,7 +178,7 @@ Web PI downloads its product catalog and the product packages through HTTP reque
 Windows has a central repository for errors, informational messages, and warnings called the Windows Event Log. Though sometimes overlooked, Event Log often provides the solution to many problems and is worth exploring. To open the Windows Event Log, type the following at the command prompt or in the Run menu:
 
 
-[!code-unknown[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample-127229-6.unknown)]
+[!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample6.cmd)]
 
 
 ### Web PI Tracing

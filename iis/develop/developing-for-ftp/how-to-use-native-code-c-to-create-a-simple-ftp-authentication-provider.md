@@ -134,7 +134,7 @@ In this step, you will implement the extensibility interfaces for the demo provi
         [!code-csharp[Main](how-to-use-native-code-c-to-create-a-simple-ftp-authentication-provider/samples/sample5.cs)]
 3. Add an include file reference for **atlstr.h** to the start of the **FtpAuthDemo.h** file:
 
-    [!code-unknown[Main](how-to-use-native-code-c-to-create-a-simple-ftp-authentication-provider/samples/sample-127254-6.unknown)]
+    [!code-console[Main](how-to-use-native-code-c-to-create-a-simple-ftp-authentication-provider/samples/sample6.cmd)]
 4. Save and compile the project.
 
 ## Step 3: Add the Authentication Provider to FTP

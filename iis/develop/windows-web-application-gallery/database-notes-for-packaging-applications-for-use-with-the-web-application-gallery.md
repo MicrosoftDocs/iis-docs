@@ -105,7 +105,7 @@ Please note that in order to work in both SQL Server and SQL Azure, these two sc
 
 ***Use a script for creating a login***
 
-[!code-unknown[Main](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery/samples/sample-127274-2.unknown)]
+[!code-console[Main](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery/samples/sample2.cmd)]
 
 ***Use a script to create a user and add database roles***
 
@@ -125,7 +125,7 @@ In MySQL syntax, the normal command delimiter is a semi-colon (;). MySQL procedu
 
 The create user script we use can be parameterized as well. We do recommend parameterizing the database server for the GRANT statement in the SQL Script below in the parameters.xml file and using a place-holder to represent the Database server, for example *‘PlaceHolderForServer'* . By doing so , the user will have the option to either install the application against a local MySQL server , usually ‘*localhost'* or install the application against a remote MySQL database .
 
-[!code-unknown[Main](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery/samples/sample-127274-5.unknown)]
+[!code-console[Main](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery/samples/sample5.cmd)]
 
 #### Related Articles
 

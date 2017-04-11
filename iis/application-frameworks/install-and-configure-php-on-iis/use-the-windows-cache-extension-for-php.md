@@ -42,18 +42,18 @@ The extension packages can be found at:
 1. Unpack the package that is appropriate for the PHP version you are using.
 2. Copy the **Php\_wincache.dll** file into the PHP extensions folder. Typically this folder is called "ext" and it is located in the same folder with all PHP binary files. For example:  
 
-    [!code-unknown[Main](use-the-windows-cache-extension-for-php/samples/sample-127397-1.unknown)]
+    [!code-console[Main](use-the-windows-cache-extension-for-php/samples/sample1.cmd)]
 3. Using a text editor, open the **Php.ini** file, which is usually located in the same folder where all PHP binary files are. For example:  
 
     [!code-console[Main](use-the-windows-cache-extension-for-php/samples/sample2.cmd)]
 4. Add the following line at the end of the **Php.ini** file:  
 
-    [!code-unknown[Main](use-the-windows-cache-extension-for-php/samples/sample-127397-3.unknown)]
+    [!code-console[Main](use-the-windows-cache-extension-for-php/samples/sample3.cmd)]
 5. Save and close the Php.ini file.
 6. Recycle your Internet Information Services (IIS) application pools for PHP to pick up the configuration changes.
 7. To check that the extension has been enabled, create a file called **phpinfo.php** with the following PHP code that calls phpinfo() function:  
 
-    [!code-unknown[Main](use-the-windows-cache-extension-for-php/samples/sample-127397-4.unknown)]
+    [!code-console[Main](use-the-windows-cache-extension-for-php/samples/sample4.cmd)]
 8. Save the Phpinfo.php file in the root folder of an IIS Web site that uses PHP.
 9. Open a browser and make a request to `http://yoursitename/phpinfo.php`.
 10. Search within the returned Web page for a section called "wincache". If the extension is enabled, then you should see the configuration settings provided by the Windows Cache Extension for PHP.
@@ -182,7 +182,7 @@ If the Windows Cache Extension for PHP was installed via Web Platform Installer,
 
 To use W **incache.php**, copy it into a root folder of your Web site or into any subfolder. To protect the script, open it in any text editor and change the values for the USERNAME and PASSWORD constants. If any other IIS authentication is enabled on the server then follow the instructions in the comments:
 
-[!code-unknown[Main](use-the-windows-cache-extension-for-php/samples/sample-127397-12.unknown)]
+[!code-console[Main](use-the-windows-cache-extension-for-php/samples/sample12.cmd)]
 
 ![](use-the-windows-cache-extension-for-php/_static/image3.gif)**IMPORTANT**: Always protect the **wincache.php** script by using either the built-in authentication or the server's authentication mechanism. Leaving this script unprotected may compromise the security of your web application and web server.
 

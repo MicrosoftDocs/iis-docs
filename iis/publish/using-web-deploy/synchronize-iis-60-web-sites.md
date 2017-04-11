@@ -59,7 +59,7 @@ For detailed steps on analyzing the output of getDependencies, see [Viewing Depe
 
 1. Always make a backup of the destination and source servers. Even if you are just testing, it allows you to easily restore the state of your server.  
 
-    [!code-unknown[Main](synchronize-iis-60-web-sites/samples/sample-127154-2.unknown)]
+    [!code-console[Main](synchronize-iis-60-web-sites/samples/sample2.cmd)]
 2. Install the remote service on the source or the destination depending on if you want to "pull" the data from a remote source or "push" the data to a remote destination.
 3. Start the service on the server.  
 

@@ -31,7 +31,7 @@ The following examples are two configuration files for a sample application: an 
 ### Sample Application .htaccess File
 
 
-[!code-unknown[Main](translate-htaccess-content-to-iis-webconfig/samples/sample-127406-1.unknown)]
+[!code-console[Main](translate-htaccess-content-to-iis-webconfig/samples/sample1.cmd)]
 
 
 ### Sample Application Web.config File

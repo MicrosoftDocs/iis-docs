@@ -47,7 +47,7 @@ Using the delegation functionality of IIS 7 and above, you can delegate this pro
 - To remove file name foo.html type:
 
 
-[!code-unknown[Main](default-documents/samples/sample-127083-2.unknown)]
+[!code-console[Main](default-documents/samples/sample2.cmd)]
 
 
 Also see [C# and PowerShell Scripts Samples](../configuring-components/powershell-scripts.md) for a another sample script to configure default documents.

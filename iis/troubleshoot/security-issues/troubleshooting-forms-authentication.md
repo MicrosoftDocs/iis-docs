@@ -48,7 +48,7 @@ You configure forms authentication by using the authentication configuration ele
 
 After successful authentication, the FormsAuthenticationModule module sets the value of the User property to a reference to the authenticated user. The following code example shows how to programmatically read the identity of the forms-authenticated user.
 
-[!code-unknown[Main](troubleshooting-forms-authentication/samples/sample-127568-3.unknown)]
+[!code-console[Main](troubleshooting-forms-authentication/samples/sample3.cmd)]
 
 A convenient way to work with forms authentication is to use ASP.NET membership and ASP.NET login controls. ASP.NET membership lets you store and manage user information and includes methods to authenticate users. ASP.NET login controls work with ASP.NET membership. They encapsulate the logic to prompt users for credentials, validate users, recover or replace passwords, and so on. In effect, ASP.NET membership and ASP.NET login controls provide a layer of abstraction over forms authentication. These features replace most or all the work that you would ordinarily have to do to use forms authentication
 
@@ -84,13 +84,13 @@ The forms authentication may time out before the timeout attribute value that is
 
 If the forms authentication ticket is manually generated, the time-out property of the ticket will override the value that is set in the configuration file. Therefore, if that value is less than the value in the configuration file, the forms authentication ticket will expire before the configuration file timeout attribute value and vice-versa. For example, let's assume that the &lt;FORMS&gt; timeout attribute is set to 30 in the Web.config file and the Expiration value of the ticket is set to 20 minutes. In this case, the forms authentication ticket will expire after 20 minutes and the user will have to log on again after that.
 
-[!code-unknown[Main](troubleshooting-forms-authentication/samples/sample-127568-5.unknown)]
+[!code-console[Main](troubleshooting-forms-authentication/samples/sample5.cmd)]
 
 **Scenario 5:** 
 
 In ASP.NET 4 web application using forms authentication, the event log message says:
 
-[!code-unknown[Main](troubleshooting-forms-authentication/samples/sample-127568-6.unknown)]
+[!code-console[Main](troubleshooting-forms-authentication/samples/sample6.cmd)]
 
 ## Data Collection and Troubleshooting
 
@@ -130,7 +130,7 @@ Use below article for further reference: [https://support.microsoft.com/kb/30607
 
 The forms authentication cookie can also be lost when the client's cookie limit is exceeded. In Microsoft Internet Explorer, there is a limit of 20 cookies. After the 20th cookie is created on the client, previous cookies are removed from the client's collection. If the .ASPXAUTH cookie is removed, the user will be redirected to the login page when the next request is processed. You can use fiddler to see the http request/ response headers and to see if you are receiving the cookie from the client or not. Download fiddler from below URL:
 
-[!code-unknown[Main](troubleshooting-forms-authentication/samples/sample-127568-7.unknown)]
+[!code-console[Main](troubleshooting-forms-authentication/samples/sample7.cmd)]
 
 Launch fiddler tool on the client machine, remove existing http traces, access your application implementing forms authentication and try to login into the application and observe the http traffic on the fiddler tool to see of you there is an exchange of forms authentication cookie happening between the client and server. After you capture the traffic, double-click a request, and then click Headers to see the Set-Cookie header. If you trace a successful login, you will see the Set-Cookie header in the response of a successful login.
 
@@ -148,7 +148,7 @@ After the request leaves the client, there are various layers that can affect th
 
 This is a GET request after the user has been authenticated. The forms authentication ticket information is highlighted in grey. This confirms that the cookie information left the client. When you use a network capture tool, like Netmon, you see the traffic that actually went through the adapter.
 
-[!code-unknown[Main](troubleshooting-forms-authentication/samples/sample-127568-8.unknown?highlight=7-18)]
+[!code-console[Main](troubleshooting-forms-authentication/samples/sample8.cmd?highlight=7-18)]
 
 **Server-side request**
 

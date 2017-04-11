@@ -111,7 +111,7 @@ FileMapProvider reads the URL mappings from a text file. It can be used instead 
 Create a new directory called **App\_Data** in the root directory of your web site. In that directory create a text file called **redirectmappings.txt**. Add the following lines to the file:
 
 
-[!code-unknown[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample-127346-4.unknown)]
+[!code-console[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample4.cmd)]
 
 
 ![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image1.gif) **WARNING:** Always make sure that the text file is not directly accessible from the Web. Use IIS Request Filtering module or place the file inside of App\_Data folder to prevent HTTP clients from directly accessing the content of this file.
@@ -153,7 +153,7 @@ FileContainsProvider reads the set of strings from a text file and then checks i
 Create a new directory called **App\_Data** in the root directory of your web site. In that directory create a text file called disalloweduseragents.txt. Add the following lines to the file:
 
 
-[!code-unknown[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample-127346-7.unknown)]
+[!code-console[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample7.cmd)]
 
 
 ![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image3.gif) **WARNING:** Always make sure that the text file is not directly accessible from the Web. Use IIS Request Filtering module or place the file inside of App\_Data folder to prevent HTTP clients from directly accessing the content of this file.
@@ -186,7 +186,7 @@ This rule aborts the HTTP connection if the user agent of the HTTP request match
 To test the rule open [WFetch](https://www.microsoft.com/downloads/details.aspx?FamilyID=b134a806-d50e-4664-8348-da5c17129210&amp;displaylang=en) and add a user-agent header to the request as below:
 
 
-[!code-unknown[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample-127346-10.unknown)]
+[!code-console[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample10.cmd)]
 
 
 From WFetch make a request to `http://localhost/test/`. You should see that the connection gets aborted because the user agent string has matched one of the strings in disalloweduseragents.txt file.

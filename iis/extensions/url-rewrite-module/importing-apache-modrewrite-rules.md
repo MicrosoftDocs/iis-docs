@@ -32,7 +32,7 @@ To see how you can convert mod\_rewrite rules and verify that the converted rule
     *Figure 1: Add a new binding*
 - Using Notepad, open **%SystemDrive%\windows\system32\drivers\etc\hosts** and add the two following lines at the end of the file:  
 
-    [!code-unknown[Main](importing-apache-modrewrite-rules/samples/sample-127327-1.unknown)]
+    [!code-console[Main](importing-apache-modrewrite-rules/samples/sample1.cmd)]
 
     Notice that you are using "\_" instead of "." for domain separators. This is to prevent the Web browser from trying to resolve the domain name by using a Domain Name System (DNS) server.
 - Save the hosts file.
@@ -42,7 +42,7 @@ To see how you can convert mod\_rewrite rules and verify that the converted rule
 
 The Apache mod\_rewrite rules to use for enforcing canonical host names are:
 
-[!code-unknown[Main](importing-apache-modrewrite-rules/samples/sample-127327-2.unknown)]
+[!code-console[Main](importing-apache-modrewrite-rules/samples/sample2.cmd)]
 
 To convert these rules to IIS URL rewrite–specific format:
 

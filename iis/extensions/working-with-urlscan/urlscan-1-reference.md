@@ -128,7 +128,7 @@ The [Options] section of a UrlScan.ini file contains a list of name/value pairs 
 
 The following example [Options] section configures several recommended settings for UrlScan:
 
-[!code-unknown[Main](urlscan-1-reference/samples/sample-127497-1.unknown)]
+[!code-console[Main](urlscan-1-reference/samples/sample1.cmd)]
 
 <a id="AllowVerbsSection"></a>
 
@@ -140,7 +140,7 @@ The [AllowVerbs] section contains a list of HTTP verbs or methods. If UseAllowVe
 
 The following example [AllowVerbs] section configures UrlScan to allow basic HTTP functionality:
 
-[!code-unknown[Main](urlscan-1-reference/samples/sample-127497-2.unknown)]
+[!code-console[Main](urlscan-1-reference/samples/sample2.cmd)]
 
 To use this example, you would need to set UseAllowVerbs to 1 in the [Options] section.
 
@@ -154,7 +154,7 @@ The [DenyVerbs] section contains a list of HTTP verbs or methods. If UseAllowVer
 
 The following example [DenyVerbs] section configures UrlScan to deny several of the HTTP methods that are not required for basic HTTP functionality, such as WebDAV methods:
 
-[!code-unknown[Main](urlscan-1-reference/samples/sample-127497-3.unknown)]
+[!code-console[Main](urlscan-1-reference/samples/sample3.cmd)]
 
 To use this example, you would need to set UseAllowVerbs to 0 in the [Options] section.
 
@@ -168,7 +168,7 @@ The [DenyHeaders] section contains a list of request headers in the form "header
 
 The following example [DenyHeaders] section configures UrlScan to deny several HTTP headers that are used with WebDAV requests:
 
-[!code-unknown[Main](urlscan-1-reference/samples/sample-127497-4.unknown)]
+[!code-console[Main](urlscan-1-reference/samples/sample4.cmd)]
 
 <a id="AllowExtensionsSection"></a>
 
@@ -180,7 +180,7 @@ The [AllowExtensions] section contains a list of file name extensions in the for
 
 The following example [AllowExtensions] section configures UrlScan to allow several static content types:
 
-[!code-unknown[Main](urlscan-1-reference/samples/sample-127497-5.unknown)]
+[!code-console[Main](urlscan-1-reference/samples/sample5.cmd)]
 
 To use this example, you would need to set UseAllowExtensions to 1 in the [Options] section.
 
@@ -208,7 +208,7 @@ The [DenyUrlSequences] section contains a list of character sequences that UrlSc
 
 The following example [DenyUrlSequences] section configures UrlScan to deny several URL sequences that could be used to attack your server:
 
-[!code-unknown[Main](urlscan-1-reference/samples/sample-127497-7.unknown)]
+[!code-console[Main](urlscan-1-reference/samples/sample7.cmd)]
   
   
 [Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

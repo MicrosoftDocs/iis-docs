@@ -114,7 +114,7 @@ Figure 2 *(Click image to expand)*
 
 The error 0x80072efe corresponds to ERROR\_INTERNET\_CONNECTION\_ABORTED. The request can be traced to the server that actually processed it using the same steps used earlier in this troubleshooter, with one exception; while Failed Request Tracing on the destination server shows the request was processed on the server, the associated log entry does not appear in the IIS logs. Instead, this request is logged in the HTTPERR log as follows:
 
-[!code-unknown[Main](troubleshooting-502-errors-in-arr/samples/sample-127559-1.unknown)]
+[!code-console[Main](troubleshooting-502-errors-in-arr/samples/sample1.cmd)]
 
 The built-in logs on the destination server do not provide any additional information about the problem, so the next step would be to gather a network trace from the ARR server. In the example above, the .aspx page called Response.Close() without returning any data. Viewing this in a network trace would show that a **Connection: close** HTTP header was coming from the destination server. With this information you could now start an investigation into why the **Connection: close** header was sent.
 

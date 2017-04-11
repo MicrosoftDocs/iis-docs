@@ -74,19 +74,19 @@ From the client application, add the System.ServiceModel namespace as well as th
 To call a service, you must first instantiate a proxy. The following line instantiates the proxy object for the Web subsystem's provisioning operation.
 
 
-[!code-unknown[Main](consuming-the-services/samples/sample-127095-6.unknown)]
+[!code-console[Main](consuming-the-services/samples/sample6.cmd)]
   
 
 Call the method to be executed, passing the appropriate parameter. In cases where the parameter consists of more complex data types, find the definition in the corresponding Data Contract class.
 
 
-[!code-unknown[Main](consuming-the-services/samples/sample-127095-7.unknown)]
+[!code-console[Main](consuming-the-services/samples/sample7.cmd)]
 
 
 Then close the proxy. Closing the proxy terminates the session with the service and closes the connection.
 
 
-[!code-unknown[Main](consuming-the-services/samples/sample-127095-8.unknown)]
+[!code-console[Main](consuming-the-services/samples/sample8.cmd)]
 
 <a id="Common"></a>
 
@@ -112,6 +112,6 @@ The following code sample demonstrates the creation of a website using the servi
 
 The fault contracts apply to all subsystems and can be implemented as shown in the code below.
 
-[!code-unknown[Main](consuming-the-services/samples/sample-127095-10.unknown)]
+[!code-console[Main](consuming-the-services/samples/sample10.cmd)]
 
 For more examples, refer to the sample web client application included with the Visual Studio Solution. 

@@ -40,7 +40,7 @@ Based on our earlier example, we will create a stored procedure that displays da
 4. Replace the 'Procedure\_Name' with 'GetUserResources'.
 5. Replace the parameters template text with the text of the only parameter we need:  
 
-    [!code-unknown[Main](working-with-stored-procedures/samples/sample-127244-1.unknown)]
+    [!code-console[Main](working-with-stored-procedures/samples/sample1.cmd)]
 6. In the body of the stored procedure, between the BEGIN and END, type the following query:   
 
     [!code-sql[Main](working-with-stored-procedures/samples/sample2.sql)]
@@ -64,7 +64,7 @@ The Database Manager allows you to alter a stored procedure after it has been cr
     [![](working-with-stored-procedures/_static/image15.png)](working-with-stored-procedures/_static/image13.png)
 6. Under the '@Username' parameter, add an extra parameter using the following text:   
 
-    [!code-unknown[Main](working-with-stored-procedures/samples/sample-127244-3.unknown)]
+    [!code-console[Main](working-with-stored-procedures/samples/sample3.cmd)]
 
     #### Note: Do not forget to add the comma after the first variable.
 7. In the body of the stored procedure, between the BEGIN and END, modify the query as follows:   

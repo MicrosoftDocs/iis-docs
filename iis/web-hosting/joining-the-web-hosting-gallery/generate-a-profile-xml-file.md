@@ -37,7 +37,7 @@ Example profile XML that describes two independent sets of publishing settings, 
 
 [!code-xml[Main](generate-a-profile-xml-file/samples/sample3.xml)]
 
-[!code-unknown[Main](generate-a-profile-xml-file/samples/sample-127505-4.unknown)]
+[!code-console[Main](generate-a-profile-xml-file/samples/sample4.cmd)]
 
 ### Schema Definition
 

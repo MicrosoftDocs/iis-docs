@@ -26,11 +26,11 @@ For example, the following ASP code computes the location of a Microsoft Access 
 
 If you were testing this code on a Windows XP computer that used IIS 5.1, this code would have worked successfully. However, if you upgraded your computer to the original release version of Windows Vista, the path of the database would be invalid and the connection to the database would fail. For example, if the ASP code was in a page in the root folder of the Default Web Site, the contents of the computed connection string might resemble the following:
 
-[!code-unknown[Main](applphysicalpath-server-variable-on-windows-vista-rtm/samples/sample-127251-2.unknown)]
+[!code-console[Main](applphysicalpath-server-variable-on-windows-vista-rtm/samples/sample2.cmd)]
 
 If you have [ASP configured to send errors to the browser](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default.md), you will see the following error:
 
-[!code-unknown[Main](applphysicalpath-server-variable-on-windows-vista-rtm/samples/sample-127251-3.unknown)]
+[!code-console[Main](applphysicalpath-server-variable-on-windows-vista-rtm/samples/sample3.cmd)]
 
 To resolve this issue for Windows Vista, you can install Windows Vista SP1, or you can have your ASP code manually check for the backslash character and add the backslash if it is required. For example:
 

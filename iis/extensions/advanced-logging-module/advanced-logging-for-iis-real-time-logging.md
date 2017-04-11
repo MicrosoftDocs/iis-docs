@@ -68,7 +68,7 @@ To consume the real-time events raised by Advanced Logging, the IIS module that 
 The **HTTP\_TRACE\_EVENT** structure forms the backbone of the real-time logging infrastructure. The real-time logging information is passed in the form of this structure.
 
 
-[!code-unknown[Main](advanced-logging-for-iis-real-time-logging/samples/sample-127282-1.unknown)]
+[!code-console[Main](advanced-logging-for-iis-real-time-logging/samples/sample1.cmd)]
 
 
 For more information about this structure, see [HTTP\_TRACE\_EVENT Structure](https://go.microsoft.com/?linkid=9656644).
@@ -78,7 +78,7 @@ For more information about this structure, see [HTTP\_TRACE\_EVENT Structure](ht
 The **HTTP\_TRACE\_EVENT** structure contains one or more **HTTP\_TRACE\_EVENT\_ITEM** structures, depending on the number of logging fields included in the log definition for which a log was generated.
 
 
-[!code-unknown[Main](advanced-logging-for-iis-real-time-logging/samples/sample-127282-2.unknown)]
+[!code-console[Main](advanced-logging-for-iis-real-time-logging/samples/sample2.cmd)]
 
 
 For more information about this structure, see [HTTP\_TRACE\_EVENT\_ITEM Structure](https://go.microsoft.com/?linkid=9656645).

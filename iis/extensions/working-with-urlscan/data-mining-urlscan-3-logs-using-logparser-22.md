@@ -76,7 +76,7 @@ By default UrlScan installs to %WinDir%\System32\Inetsrv\UrlScan, and this is wh
 UrlScan log files are named using the following syntax:
 
 
-[!code-unknown[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample-127225-1.unknown)]
+[!code-console[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample1.cmd)]
 
 
 Where:
@@ -207,7 +207,7 @@ Here's what this query does:
 You can filter the amount of data that you see by specifying which fields to return and grouping the data based on uniqueness. This is done by adding the DISTINCT clause as seen in the following syntax:
 
 
-[!code-unknown[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample-127225-8.unknown)]
+[!code-console[Main](data-mining-urlscan-3-logs-using-logparser-22/samples/sample8.cmd)]
 
 
 Here's what this query does:

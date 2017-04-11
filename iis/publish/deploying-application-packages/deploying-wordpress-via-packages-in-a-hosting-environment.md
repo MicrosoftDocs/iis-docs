@@ -268,7 +268,7 @@ The examples in this topic show how to import WordPress into an IIS Web site and
 
 ##### *PowerShell Script*
 
-[!code-unknown[Main](deploying-wordpress-via-packages-in-a-hosting-environment/samples/sample-127525-3.unknown)]
+[!code-console[Main](deploying-wordpress-via-packages-in-a-hosting-environment/samples/sample3.cmd)]
 
 ## Sample Powershell Scripts
 

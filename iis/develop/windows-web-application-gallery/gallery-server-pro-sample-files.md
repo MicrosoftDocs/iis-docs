@@ -30,4 +30,4 @@ The files are annotated with comments that explain specific lines in the files y
 
 ## Sample App\_Data\\_SqlMembership.txt file
 
-[!code-unknown[Main](gallery-server-pro-sample-files/samples/sample-127310-3.unknown)]
+[!code-console[Main](gallery-server-pro-sample-files/samples/sample3.cmd)]

@@ -33,7 +33,7 @@ Once you downloaded the package, uncompress it and copy all the files and folder
 
 Ensure that both GD2 and MySQL are enabled in PHP by uncommenting the modules in the php.ini file.
 
-[!code-unknown[Main](coppermine-on-iis/samples/sample-127103-1.unknown)]
+[!code-console[Main](coppermine-on-iis/samples/sample1.cmd)]
 
 ## Set Up the Database
 

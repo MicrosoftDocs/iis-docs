@@ -138,7 +138,7 @@ The schema declaration of WMI properties is very similar to the schema declarati
 
 Open a notepad instance and copy the following lines into it:
 
-[!code-unknown[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample-127056-8.unknown)]
+[!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample8.cmd)]
 
 The schema declaration contains the same entries as imageCopyright.xml in the previous step, namely the name and type of the configuration setting and its default value. Save the file as %windir%\system32\inetsrv\imageCopyright.mof.
 
@@ -146,7 +146,7 @@ The schema declaration contains the same entries as imageCopyright.xml in the pr
 
 Compile imageCopyright.mof by executing the following command
 
-[!code-unknown[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample-127056-9.unknown)]
+[!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample9.cmd)]
 
 ## The WMI Script
 
@@ -156,7 +156,7 @@ Mofcomp added the imageCopyright schema to the WMI repository. Set IIS configura
 
 Open an instance of NOTEPAD and copy the following lines into it. Save the file as SetCopyrightConfig.vbs:
 
-[!code-unknown[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample-127056-10.unknown)]
+[!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample10.cmd)]
 
 This is a standard WMI script that connects to the IIS WMI provider. It gets the configuration section at the specified location ("Default Web Site") and changes its values. The Put\_ call will save the changes to disk.
 
@@ -383,13 +383,13 @@ The ReadConfig function uses the same Microsoft.Web.Administration interfaces to
 
 Example:
 
-[!code-unknown[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample-127056-24.unknown)]
+[!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample24.cmd)]
 
 ## Saving Configuration
 
 The configuration is saved when the Apply button is clicked (applyClick function). The changes made in the UI transfer into the section attributes and the section saves to disk.
 
-[!code-unknown[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample-127056-25.unknown)]
+[!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample25.cmd)]
 
 At this point, you are ready to compile everything again using "Build Solution" from the Build Menu. This builds the assembly imageCopyrightUI and puts it into the Global Assembly Cache.
 

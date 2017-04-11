@@ -56,7 +56,7 @@ For information about how to download and install IIS Express, see [IIS Express 
     Note: The /path option and the /config option cannot be combined.
 5. Once your site is running, you can use the IIS Express system tray to manage it. For more information, see [Use the Windows System Tray to Manage Websites and Applications](using-the-windows-system-tray-to-manage-websites-and-applications.md). Alternatively, you can disable the system tray by running the following option:
 
-    [!code-unknown[Main](running-iis-express-from-the-command-line/samples/sample-127454-4.unknown)]
+    [!code-console[Main](running-iis-express-from-the-command-line/samples/sample4.cmd)]
 
 ### Running your site from a configuration file
 
@@ -69,7 +69,7 @@ You can use the following commands:
     [!code-console[Main](running-iis-express-from-the-command-line/samples/sample5.cmd)]
 - To run the first website in the default configuration file, run:
 
-    [!code-unknown[Main](running-iis-express-from-the-command-line/samples/sample-127454-6.unknown)]
+    [!code-console[Main](running-iis-express-from-the-command-line/samples/sample6.cmd)]
 - To run the first website in a custom configuration file, run:
 
     [!code-console[Main](running-iis-express-from-the-command-line/samples/sample7.cmd)]

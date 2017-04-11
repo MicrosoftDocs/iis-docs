@@ -104,7 +104,7 @@ This section describes how to use the Sample Content and Sample Client files to 
 
 1. In a text editor, such as Notepad, open SmoothStreamingPlayer.html and update the **mediaurl** attribute value with the fully qualified URL of the on-demand Smooth Streaming presentation server manifest (.ism) file. In our example, this value is:  
 
-    [!code-unknown[Main](getting-started-with-iis-smooth-streaming/samples/sample-127286-1.unknown)]
+    [!code-console[Main](getting-started-with-iis-smooth-streaming/samples/sample1.cmd)]
 
  If necessary, also update the     **width** and     **height** attributes to appropriate values for your website design. For complete instructions, see the Readme file (Smooth Streaming Player-ReadMe.doc).
 2. In a web browser on the client computer, download the sample webpage from the Web server and begin viewing the stream. In our example, in the web browser address bar, type `http://%ServerName%/Big Buck Bunny H.264 720p/`**SmoothStreamingPlayer.html**.  

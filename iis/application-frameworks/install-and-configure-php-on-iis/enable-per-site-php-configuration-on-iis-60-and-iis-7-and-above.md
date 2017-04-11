@@ -108,7 +108,7 @@ There are now two options:
 1. Open the main **php.ini** file (If you used the PHP installer, then this file will most probably be located at C:\Program Files\PHP\ folder. If you installed from a compressed [ZIP] file archive, then the file will be at the same directory where the php-cgi.exe file is located).
 2. Add the following at the end of the file:  
 
-    [!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-9.unknown)]
+    [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample9.cmd)]
 3. Save the php.ini file, and then recycle the application pools for these Web sites for the PHP.INI changes to take effect.
 4. Use **phpinfo()** or **ini\_get("max\_execution\_time")** to check that the new settings have overwritten the default settings. Create a PHP file with the following text and save it in the Web root folder:  
 
@@ -126,13 +126,13 @@ If you want to allow Web application owners to control PHP settings themselves, 
 
 1. Add the following setting, which specifies the name to be used for user-specific INI files, to the main **php.ini** file. Setting this to an empty value disables the user-defined PHP configuration.  
 
-    [!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-11.unknown)]
+    [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample11.cmd)]
 2. Create a file called **.user.ini** in **C:\inetpub\website1.com\** folder, and add the following:  
 
-    [!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-12.unknown)]
+    [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample12.cmd)]
 3. Add the following to the file **.user.ini** in **C:\inetpub\website2.com\** folder:  
 
-    [!code-unknown[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample-127400-13.unknown)]
+    [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample13.cmd)]
 
     Note that if your main php.ini file has [PATH] sections that point to the root folders of these sites, then you need to remove those sections; if you do not remove those sections, the user-defined settings will not take effect.
 4. Use **phpinfo()** or **ini\_get("max\_execution\_time")** to check that the new settings have overwritten the default settings. Create a PHP file with the following text and save it in the Web root folder:  

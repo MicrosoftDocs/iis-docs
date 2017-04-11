@@ -257,7 +257,7 @@ The examples in this topic show how to import Joomla! into an IIS Web site and i
 
 ##### *PowerShell MSDeploy Script*
 
-[!code-unknown[Main](deploying-joomla-via-packages-in-a-hosting-environment/samples/sample-127526-3.unknown)]
+[!code-console[Main](deploying-joomla-via-packages-in-a-hosting-environment/samples/sample3.cmd)]
 
 ## Sample Powershell Scripts
 

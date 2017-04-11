@@ -128,7 +128,7 @@ In this step, you will implement the extensibility interface for the demo provid
         [!code-csharp[Main](how-to-use-native-code-c-to-create-a-simple-ftp-home-directory-provider/samples/sample4.cs)]
 2. Add an include file reference for **strsafe.h** to the start of the **FtpHomeDirDemo.h** file:
 
-    [!code-unknown[Main](how-to-use-native-code-c-to-create-a-simple-ftp-home-directory-provider/samples/sample-127256-5.unknown)]
+    [!code-console[Main](how-to-use-native-code-c-to-create-a-simple-ftp-home-directory-provider/samples/sample5.cmd)]
 3. Save and compile the project.
 
 ## Step 3: Add the Home Directory Provider to FTP

@@ -85,7 +85,7 @@ Using the Network Service account in a domain environment has a great benefit. W
 
 For example:
 
-[!code-unknown[Main](application-pool-identities/samples/sample-127018-4.unknown)]
+[!code-console[Main](application-pool-identities/samples/sample4.cmd)]
 
 The nice thing about this is that network resources like file shares or SQL Server databases can be ACLed to allow this machine account access.
 

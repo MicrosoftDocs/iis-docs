@@ -88,13 +88,13 @@ The script creates a user and site for non-admin publishing and saves the publis
 
 Enable publishing for an existing user on an existing site (the password will not be saved in the settings file):
 
-[!code-unknown[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample-127166-1.unknown)]
+[!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample1.cmd)]
 
 [![](powershell-scripts-for-automating-web-deploy-setup/_static/image6.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image5.png)
 
 Enable publishing for a new user on a new site, with a custom name and location for the publish settings file:
 
-[!code-unknown[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample-127166-2.unknown)]
+[!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample2.cmd)]
 
 [[![](powershell-scripts-for-automating-web-deploy-setup/_static/image9.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image8.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image7.png)
 
@@ -177,13 +177,13 @@ Modified script permissions line:
 
 Create a database with user using the defaults:
 
-[!code-unknown[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample-127166-7.unknown)]
+[!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample7.cmd)]
 
 [[![](powershell-scripts-for-automating-web-deploy-setup/_static/image18.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image17.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image16.png)
 
 Create a new database and add the connection string information to existing publish settings file "c:\profiles\UserA.PublishSettings":
 
-[!code-unknown[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample-127166-8.unknown)]
+[!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample8.cmd)]
 
 [[![](powershell-scripts-for-automating-web-deploy-setup/_static/image21.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image20.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image19.png)
 

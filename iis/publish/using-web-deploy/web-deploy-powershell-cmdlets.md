@@ -249,19 +249,19 @@ Examples:
 
 ### C. Generic Package
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-31.unknown)]
+[!code-console[Main](web-deploy-powershell-cmdlets/samples/sample31.cmd)]
 
 Description: This cmdlet can be used to apply any Web Deploy package. There are several ways to create or obtain a Web Deploy package, such as by downloading an open source Application Gallery package, creating a package in Visual Studio, using the msdeploy.exe command-line tool ([more info](https://technet.microsoft.com/en-us/library/dd568996(WS.10).aspx)), or using the Backup-WD\* cmdlets noted earlier in the document. For e.g. for installing wordpress on an IIS Server Default web site as an app named wordpress download the wordpress package from [the app gallery](https://www.microsoft.com/web/gallery/wordpress.aspx) into a folder called packages. All the default values for the wordpress package parameters will work as is but just need to specify the values for two required parameters: admin and non admin mysql password.
 
 Parameters:
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-32.unknown)]
+[!code-console[Main](web-deploy-powershell-cmdlets/samples/sample32.cmd)]
 
 <a id="_Toc322604021"></a>
 
 ## IV. Remove
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-33.unknown)]
+[!code-console[Main](web-deploy-powershell-cmdlets/samples/sample33.cmd)]
 
 This command will delete the site named nonworkingsite's definition in applicationHost.config as well as the site's directory contents
 
@@ -329,7 +329,7 @@ I want to sync two IIS 7.5 servers, Owais-1 and Owais-2. I will first create a p
 
 In the following command, the site2 will get created if it did not exist and I have also changed the physical path (the contents will thus get copied to the new folder c:\site2) and the binding of the site.
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-38.unknown)]
+[!code-console[Main](web-deploy-powershell-cmdlets/samples/sample38.cmd)]
 
 <a id="_Toc322604031"></a>
 
@@ -337,11 +337,11 @@ In the following command, the site2 will get created if it did not exist and I h
 
 I have an application running under default web site. I want to move this under Site1. The following command will do it.
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-39.unknown)]
+[!code-console[Main](web-deploy-powershell-cmdlets/samples/sample39.cmd)]
 
 Now that I have tested my new drupal app works I will delete the original drupal app under default web site.
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-40.unknown)]
+[!code-console[Main](web-deploy-powershell-cmdlets/samples/sample40.cmd)]
 
 <a id="_Toc322604032"></a>
 
@@ -353,11 +353,11 @@ The previous cmdlets have shown how you can backup and restore a database using 
 
 #### 1. MSSql
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-41.unknown)]
+[!code-console[Main](web-deploy-powershell-cmdlets/samples/sample41.cmd)]
 
 This will create a new database called sometestdb (if it does not exist already) and synchronize schema and data.
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-42.unknown)]
+[!code-console[Main](web-deploy-powershell-cmdlets/samples/sample42.cmd)]
 
 This will script out the umbracodb database into umbraco.sql at the path given above.
 
@@ -365,11 +365,11 @@ This will script out the umbracodb database into umbraco.sql at the path given a
 
 #### 2. MySql
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-43.unknown)]
+[!code-console[Main](web-deploy-powershell-cmdlets/samples/sample43.cmd)]
 
 This will create a new database called wordpress265\_new (if it does not exist already) and synchronize schema and data.
 
-[!code-unknown[Main](web-deploy-powershell-cmdlets/samples/sample-127173-44.unknown)]
+[!code-console[Main](web-deploy-powershell-cmdlets/samples/sample44.cmd)]
 
 This will script out the wordpress265 database into wordpress.sql at the path given above.
 

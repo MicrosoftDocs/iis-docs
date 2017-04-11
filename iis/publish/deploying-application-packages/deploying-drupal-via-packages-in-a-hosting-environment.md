@@ -274,7 +274,7 @@ The examples in this topic show how to import Drupal into an IIS Web site and in
 
 ##### *PowerShell Script*
 
-[!code-unknown[Main](deploying-drupal-via-packages-in-a-hosting-environment/samples/sample-127527-3.unknown)]
+[!code-console[Main](deploying-drupal-via-packages-in-a-hosting-environment/samples/sample3.cmd)]
 
 ## Sample Powershell Scripts
 

@@ -247,7 +247,7 @@ The remote server returned an error: (404) Not Found.
 
 If you look in the Web Management Service log under %SystemDrive%\Inetpub\logs\WMSvc on the destination server, you will see an entry that looks like 
 
-[!code-unknown[Main](troubleshooting-common-problems-with-web-deploy/samples/sample-127172-1.unknown)]
+[!code-console[Main](troubleshooting-common-problems-with-web-deploy/samples/sample1.cmd)]
  
 
 **Is Web Deploy installed?** You can verify web deploy is installed by going to the "Programs and Features" control panel and looking for "Microsoft Web Deploy 2.0" in the list of installed programs. If it is not there, you can install it via the Web Platform Installer by going to the "Products" tab. It is listed as "Web Deployment Tool 2.1".
@@ -274,13 +274,13 @@ The remote server returned an error: (401) Unauthorized.
 
 In the Web Management Service log, you will see
 
-[!code-unknown[Main](troubleshooting-common-problems-with-web-deploy/samples/sample-127172-2.unknown)]
+[!code-console[Main](troubleshooting-common-problems-with-web-deploy/samples/sample2.cmd)]
 
-[!code-unknown[Main](troubleshooting-common-problems-with-web-deploy/samples/sample-127172-3.unknown)]
+[!code-console[Main](troubleshooting-common-problems-with-web-deploy/samples/sample3.cmd)]
 
 The highlighted HTTP status in the Visual Studio output is an Access Denied error. The highlighted Win32 status in the error log maps to "Logon failure: unknown user name or bad password". This is a simple logon failure. If the user is authenticated, but does not have the rights needed to publish, the log entry will look like
 
-[!code-unknown[Main](troubleshooting-common-problems-with-web-deploy/samples/sample-127172-4.unknown)]
+[!code-console[Main](troubleshooting-common-problems-with-web-deploy/samples/sample4.cmd)]
 
 You will need to setup delegation for this user per the instructions at [https://www.iis.net/learn/publish/using-web-deploy/configure-the-web-deployment-handler](../using-web-deploy/configure-the-web-deployment-handler.md)
 
@@ -296,7 +296,7 @@ The WMSvc log will show HTTP 200 responses for these requests. The most likely c
 
 For this particular error, the event log contains extra detail (truncated for brevity):
 
-[!code-unknown[Main](troubleshooting-common-problems-with-web-deploy/samples/sample-127172-5.unknown)]
+[!code-console[Main](troubleshooting-common-problems-with-web-deploy/samples/sample5.cmd)]
 
 This message tells you where permissions need to be granted for this particular error. Another permissions error you may see in Visual Studio is
 
@@ -309,7 +309,7 @@ The server experienced an issue processing the request. Contact the server admin
 
 This particular error does not give you much to go on, but the picture becomes much clearer if you look at the Web Deploy error log in Event Viewer.
 
-[!code-unknown[Main](troubleshooting-common-problems-with-web-deploy/samples/sample-127172-6.unknown)]
+[!code-console[Main](troubleshooting-common-problems-with-web-deploy/samples/sample6.cmd)]
 
 From this, we can see that User1 does not have rights to set security information. In this case, the user does not have Modify permissions on the content. Granting "Change Permissions" to the content resolves the problem.
 

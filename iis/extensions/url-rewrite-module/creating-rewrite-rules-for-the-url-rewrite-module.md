@@ -72,7 +72,7 @@ In the **Name** text box, enter a name that will uniquely identify the rule, for
 In the **Pattern** text box, enter the following string:
 
 
-[!code-unknown[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample-127321-2.unknown)]
+[!code-console[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample2.cmd)]
 
 
 This string is a regular expression that specifies that the pattern will match any URL string that meets the following conditions:
@@ -88,7 +88,7 @@ Notice that certain parts of the regular expression are within parentheses. Thes
 Since the rule that we are creating is supposed to rewrite the URL, choose the **Rewrite** action type that is listed in the **Action** group box. In the **Rewrite URL:** text box, enter the following string:
 
 
-[!code-unknown[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample-127321-3.unknown)]
+[!code-console[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample3.cmd)]
 
 
 This string specifies the new value to which the input URL should be rewritten. Notice that for the values of the query string parameters we used {R:1} and {R:2}, which are back-references to the capture groups that were defined in the rule pattern by using parentheses.

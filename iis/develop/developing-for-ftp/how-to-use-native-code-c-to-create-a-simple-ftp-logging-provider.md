@@ -128,7 +128,7 @@ In this step, you will implement the extensibility interface for the demo provid
         [!code-csharp[Main](how-to-use-native-code-c-to-create-a-simple-ftp-logging-provider/samples/sample4.cs)]
 2. Add an include file reference for **strsafe.h** to the start of the **FtpLogDemo.h** file:
 
-    [!code-unknown[Main](how-to-use-native-code-c-to-create-a-simple-ftp-logging-provider/samples/sample-127258-5.unknown)]
+    [!code-console[Main](how-to-use-native-code-c-to-create-a-simple-ftp-logging-provider/samples/sample5.cmd)]
 3. Save and compile the project.
 
 ## Step 3: Add the Logging Provider to FTP

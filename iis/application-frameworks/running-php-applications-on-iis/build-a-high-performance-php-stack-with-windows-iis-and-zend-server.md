@@ -174,13 +174,13 @@ Type 'help;' or '\h' for help. Type '\c' to clear the buffer.
 Import the raw data into this table from the CSV file using the LOAD DATA INFILE command.
 
 
-[!code-unknown[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample-126943-7.unknown)]
+[!code-console[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample7.cmd)]
 
 
 Create a MySQL user with privileges to access this database.
 
 
-[!code-unknown[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample-126943-8.unknown)]
+[!code-console[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample8.cmd)]
 
 
 Log in as the new user and check that the data has been imported with a quick SELECT.
@@ -192,7 +192,7 @@ Log in as the new user and check that the data has been imported with a quick SE
 Type 'help;' or '\h' for help. Type '\c' to clear the buffer.
 
 
-[!code-unknown[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample-126943-10.unknown)]
+[!code-console[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample10.cmd)]
 
 
 Now, all that's left is to do the same thing using PHP. Here's the code (mysql.php):

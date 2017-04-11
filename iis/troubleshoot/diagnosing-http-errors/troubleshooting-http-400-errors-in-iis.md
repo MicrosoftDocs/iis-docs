@@ -63,11 +63,11 @@ Capturing a network trace of the request and response, we see the following raw 
 
 REQUEST:
 
-[!code-unknown[Main](troubleshooting-http-400-errors-in-iis/samples/sample-131698-1.unknown)]
+[!code-console[Main](troubleshooting-http-400-errors-in-iis/samples/sample1.cmd)]
 
 RESPONSE:
 
-[!code-unknown[Main](troubleshooting-http-400-errors-in-iis/samples/sample-131698-2.unknown)]
+[!code-console[Main](troubleshooting-http-400-errors-in-iis/samples/sample2.cmd)]
 
 You'll notice that the response headers don't tell us as much as the error message in the browser. However if we look at the raw data in the response body, we'll see more:
 
@@ -92,11 +92,11 @@ You can see that the error message text displayed in the browser is also viewabl
 
 The next step is to look at the httperr.log file in the C:\Windows\System32\LogFiles\HTTPERR directory for the entry that corresponds to the bad request:
 
-[!code-unknown[Main](troubleshooting-http-400-errors-in-iis/samples/sample-131698-3.unknown)]
+[!code-console[Main](troubleshooting-http-400-errors-in-iis/samples/sample3.cmd)]
 
 In this scenario, the Reason field in the httperr.log file gives us the exact information we need to diagnose the problem. We see here that HTTP.sys logged FieldLength as the reason phrase for this request's failure. Once we know the reason phrase, we can use the Error Logging in HTTP API article mentioned above to get its description:
 
-[!code-unknown[Main](troubleshooting-http-400-errors-in-iis/samples/sample-131698-4.unknown)]
+[!code-console[Main](troubleshooting-http-400-errors-in-iis/samples/sample4.cmd)]
 
 So at this point we know from the browser error message and the HTTP API error logging that the request contained data in one of its HTTP headers that exceeded the allowable length limits. For the purpose of this example, the HTTP: Uniform Resource Identifier header is purposefully long: /1234567890123456789012345678901234567890/time.asp.
 

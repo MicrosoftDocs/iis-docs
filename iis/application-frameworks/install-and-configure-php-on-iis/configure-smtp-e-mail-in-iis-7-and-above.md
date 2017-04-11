@@ -94,10 +94,10 @@ Note that when you use Appcmd.exe to configure the **&lt;mailSettings&gt;** elem
 
 1. First, configure the Php.ini file. Open the **Php.ini** file, and find the entry:  
 
-    [!code-unknown[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample-127402-3.unknown)]
+    [!code-console[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample3.cmd)]
 2. Set the following values:  
 
-    [!code-unknown[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample-127402-4.unknown)]
+    [!code-console[Main](configure-smtp-e-mail-in-iis-7-and-above/samples/sample4.cmd)]
   
  Note that the default value is localhost, so there is no need to change this if SMTP is installed locally.  
 

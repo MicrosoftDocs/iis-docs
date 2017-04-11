@@ -63,7 +63,7 @@ In addition, the following generic settings can be configured for the Web crawle
 All HTTP requests made by the IIS Site Analysis Web crawler have an HTTP header "user-agent" set to:
 
 
-[!code-unknown[Main](using-site-analysis-to-crawl-a-web-site/samples/sample-127350-1.unknown)]
+[!code-console[Main](using-site-analysis-to-crawl-a-web-site/samples/sample1.cmd)]
 
 
 The IIS Site Analysis Web crawler is fully compliant with [the robots exclusion protocol](http://www.robotstxt.org/robotstxt.html). This means that you can use the Robots.txt file to prevent the IIS Site Analysis Web crawler from crawling your Web site. You may want to use it to prevent other people from running IIS Site Analyses against your Web sites.
@@ -71,7 +71,7 @@ The IIS Site Analysis Web crawler is fully compliant with [the robots exclusion 
 In order to prevent the IIS Site Analysis crawler from crawling a Web site, add the following lines at the end of the Robots.txt file that is located in the site's root directory:
 
 
-[!code-unknown[Main](using-site-analysis-to-crawl-a-web-site/samples/sample-127350-2.unknown)]
+[!code-console[Main](using-site-analysis-to-crawl-a-web-site/samples/sample2.cmd)]
 
 
 ## Summary

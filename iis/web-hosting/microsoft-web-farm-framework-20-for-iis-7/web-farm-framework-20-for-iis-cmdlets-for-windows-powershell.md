@@ -23,7 +23,7 @@ You can use the Web Farm Framework cmdlets for Windows PowerShell to configure a
 1. On the controller server, open a command prompt.
 2. To start the PowerShell console, enter the following command:
 
-[!code-unknown[Main](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/samples/sample-127493-1.unknown)]
+[!code-console[Main](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/samples/sample1.cmd)]
 3. At the PowerShell prompt, enter the following command:
 
 [!code-powershell[Main](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/samples/sample2.ps1)]

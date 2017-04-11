@@ -73,7 +73,7 @@ Implement the **RegisterModule** function that the server invokes when the modul
 **main.cpp**:
 
 
-[!code-unknown[Main](develop-a-native-cc-module-for-iis/samples/sample-127057-1.unknown)]
+[!code-console[Main](develop-a-native-cc-module-for-iis/samples/sample1.cmd)]
 
 
 ### The RegisterModule
@@ -95,13 +95,13 @@ The registration is done through the **SetRequestNotificatons** method, which in
 In this case, we are only interested in the RQ\_ACQUIRE\_REQUEST\_STATE stage. The complete list of the stages that comprise the request processing pipeline is defined in **httpserv.h**:
 
 
-[!code-unknown[Main](develop-a-native-cc-module-for-iis/samples/sample-127057-2.unknown)]
+[!code-console[Main](develop-a-native-cc-module-for-iis/samples/sample2.cmd)]
 
 
 In addition, you can subscribe to several non-deterministic events that may occur during request processing due to actions that other modules take, such as flushing the response to client:
 
 
-[!code-unknown[Main](develop-a-native-cc-module-for-iis/samples/sample-127057-3.unknown)]
+[!code-console[Main](develop-a-native-cc-module-for-iis/samples/sample3.cmd)]
 
 
 In order for our **RegisterModule** implementation to be accessible to the server, we must export it. Use a .DEF file that contains the EXPORTS keyword to export our RegisterModule function.
@@ -137,7 +137,7 @@ The module class inherits from the **CHttpModule** base class, which defines an 
 Each event handler method has the following signature:
 
 
-[!code-unknown[Main](develop-a-native-cc-module-for-iis/samples/sample-127057-6.unknown)]
+[!code-console[Main](develop-a-native-cc-module-for-iis/samples/sample6.cmd)]
 
 
 The **IHttpContext** interface provides access to the request context object, which can be used to perform request processing tasks such as inspecting the request, and manipulating the response.

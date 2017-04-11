@@ -26,7 +26,7 @@ This material is provided for informational purposes only. Microsoft makes no wa
 
 View state is a feature in ASP.NET that allows pages to automatically preserve state without relying on server state (for example, session state). However, issues relating to view state can be difficult to debug. In most cases, when problems with view state occur, you receive the following error message in the Web browser, with little indication of what might be causing the issue:
 
-[!code-unknown[Main](troubleshooting-invalid-viewstate-issues/samples/sample-127564-1.unknown)]
+[!code-console[Main](troubleshooting-invalid-viewstate-issues/samples/sample1.cmd)]
 
 This article describes some techniques that can be used for debugging and for resolving problems with view state.
 
@@ -56,17 +56,17 @@ An alternative fix to avoid this problem is to move the types that you are stori
 
 Note If you store complex data types in view state and experience this issue, the call stack information will contain stacks that are similar to the following:
 
-[!code-unknown[Main](troubleshooting-invalid-viewstate-issues/samples/sample-127564-2.unknown)]
+[!code-console[Main](troubleshooting-invalid-viewstate-issues/samples/sample2.cmd)]
 
 **Determine whether the problem is related to the view state MAC feature**
 
 The purpose of the view state machine authentication code (MAC) feature is to make it impossible for clients to send a request that contains a malicious view state. By default, this feature is enabled in the following flag in the Machine.config file.
 
-[!code-unknown[Main](troubleshooting-invalid-viewstate-issues/samples/sample-127564-3.unknown)]
+[!code-console[Main](troubleshooting-invalid-viewstate-issues/samples/sample3.cmd)]
 
 The simplest way to determine whether the issue you are dealing with is related to the MAC feature is to turn off the feature. To do this, change the flag in the Machine.config file to the following code.
 
-[!code-unknown[Main](troubleshooting-invalid-viewstate-issues/samples/sample-127564-4.unknown)]
+[!code-console[Main](troubleshooting-invalid-viewstate-issues/samples/sample4.cmd)]
 
 If you no longer get view state errors, the problem is related to the MAC feature.
 

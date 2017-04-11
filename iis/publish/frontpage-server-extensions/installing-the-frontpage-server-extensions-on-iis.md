@@ -151,7 +151,7 @@ After you have downloaded the correct FPSE 2002 installation package, you need t
 - Log in to your computer using the local "administrator" account, then double-click the installation package to being the installation process.
 - If you are logged in using an account with administrative permissions that is not the local "administrator" account, open a command prompt using the "Run as Administrator" option, then use the following command to start the installation process:
 
-    [!code-unknown[Main](installing-the-frontpage-server-extensions-on-iis/samples/sample-127197-1.unknown)]
+    [!code-console[Main](installing-the-frontpage-server-extensions-on-iis/samples/sample1.cmd)]
 
 > [!NOTE]
 > The above steps are required because the User Account Control (UAC) security component in the Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2 operating systems will prevent the FPSE 2002 installation package from installing correctly. For more information about UAC, please see the following documentation:

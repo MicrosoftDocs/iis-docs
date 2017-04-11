@@ -83,7 +83,7 @@ You can use AppCmd.exe to configure a site to accept only server HTTPS connectio
 If successful, the following message is displayed:
 
 
-[!code-unknown[Main](how-to-set-up-ssl-on-iis/samples/sample-127012-3.unknown)]
+[!code-console[Main](how-to-set-up-ssl-on-iis/samples/sample3.cmd)]
 
 
 > [!NOTE]
@@ -107,7 +107,7 @@ You cannot request or create a certificate by using the WebAdministration WMI na
 
 The following script demonstrates how to create a new SSL binding and how to add the appropriate configuration for both HTTP.sys and IIS:
 
-[!code-unknown[Main](how-to-set-up-ssl-on-iis/samples/sample-127012-6.unknown)]
+[!code-console[Main](how-to-set-up-ssl-on-iis/samples/sample6.cmd)]
 
 [!code-vb[Main](how-to-set-up-ssl-on-iis/samples/sample7.vb)]
 

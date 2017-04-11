@@ -179,7 +179,7 @@ Try deploying the following scenarios:
     2. Configure the new server to use the centralized SSL certificate support.
     3. Create the SSL binding. One an elevated command-line window, enter: 
 
-        [!code-unknown[Main](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/samples/sample-127551-2.unknown)]
+        [!code-console[Main](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/samples/sample2.cmd)]
 - Unlike previous versions of Windows Server, the certificates on Windows Server 2012 are loaded in memory on-demand. After configuring thousands of secure sites using Centralized SSL Certificate Support feature, send a GET request to one of the secure sites and observe the memory usage. It is negligible. On previous versions of Windows Server, if hundreds of secure sites have been configured, sending just one GET request causes the Windows Server to load ***all*** certificates, resulting in a high memory usage, and further limits the scalability.
 - Create secure sites with SNI, traditional and Centralized SSL Certificate Support. They are designed to co-exist.
 

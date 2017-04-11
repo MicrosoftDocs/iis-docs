@@ -145,7 +145,7 @@ In Step 1, you created an FTP site that anonymous users can access, and in Step 
 1. On your FTP server, open a command prompt session.
 2. Type the following command to connect to your FTP server: 
 
-    [!code-unknown[Main](creating-a-new-ftp-site-in-iis-7/samples/sample-127179-2.unknown)]
+    [!code-console[Main](creating-a-new-ftp-site-in-iis-7/samples/sample2.cmd)]
 3. When prompted for a user name, enter "anonymous".
 4. When prompted for a password, enter your email address.
 
@@ -156,7 +156,7 @@ You should now be logged in to your FTP site anonymously. Based on the authoriza
 1. On your FTP server, open a command prompt session.
 2. Type the following command to connect to your FTP server: 
 
-    [!code-unknown[Main](creating-a-new-ftp-site-in-iis-7/samples/sample-127179-3.unknown)]
+    [!code-console[Main](creating-a-new-ftp-site-in-iis-7/samples/sample3.cmd)]
 3. When prompted for a user name, enter "administrator".
 4. When prompted for a password, enter your administrator password.
 

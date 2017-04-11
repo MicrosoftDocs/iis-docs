@@ -221,7 +221,7 @@ After completing all of the steps in the **Configuring the IIS 7 Management Serv
     FTP localhost
 3. When prompted for your USER name, enter your user name and password. For example: 
 
-    [!code-unknown[Main](configure-ftp-with-iis-manager-authentication-in-iis-7/samples/sample-127187-3.unknown)]
+    [!code-console[Main](configure-ftp-with-iis-manager-authentication-in-iis-7/samples/sample3.cmd)]
 4. The FTP service should log you into the FTP site using the IIS 7 Manager account.
 
 For more information regarding the IIS Management Service, see [Remote Administration for IIS Manager](../../manage/remote-administration/remote-administration-for-iis-manager.md).

@@ -71,7 +71,7 @@ Make a backup of the configuration before executing the tasks in this article. R
 
 [!code-html[Main](how-to-add-tracing-to-iis-managed-modules/samples/sample2.html)]
 
-[!code-unknown[Main](how-to-add-tracing-to-iis-managed-modules/samples/sample-127059-3.unknown)]
+[!code-console[Main](how-to-add-tracing-to-iis-managed-modules/samples/sample3.cmd)]
 
 ## Creating &amp; Tracing a Simple Module
 

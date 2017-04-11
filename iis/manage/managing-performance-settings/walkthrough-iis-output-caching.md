@@ -106,7 +106,7 @@ Once the JPG Copyright Handler works, we must determine how fast our code is. In
 
     Create a new file called script.cfg in the perftest directory and paste the following content into it:
 
-    [!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-8.unknown)]
+    [!code-console[Main](walkthrough-iis-output-caching/samples/sample8.cmd)]
 
     > [!NOTE]
     > Replace the &lt;your image name&gt; entry with the names of your JPG files. If you have more JPG files, you can add a new transaction. Make sure you give each transaction a new ClassID.
@@ -117,7 +117,7 @@ Once the JPG Copyright Handler works, we must determine how fast our code is. In
 
     Create a file called *%systemdrive%\perftest\distribution.cfg* in the perftest directory and paste the following content into it:
 
-    [!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-9.unknown)]
+    [!code-console[Main](walkthrough-iis-output-caching/samples/sample9.cmd)]
 
     **The Configuration File**
 
@@ -130,7 +130,7 @@ Once the JPG Copyright Handler works, we must determine how fast our code is. In
 
     Create a file called config.cfg in the perftest directory and paste the following content into it:
 
-    [!code-unknown[Main](walkthrough-iis-output-caching/samples/sample-127031-10.unknown)]
+    [!code-console[Main](walkthrough-iis-output-caching/samples/sample10.cmd)]
 4. Start the controller by executing the following commands:
 
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample11.cmd)]

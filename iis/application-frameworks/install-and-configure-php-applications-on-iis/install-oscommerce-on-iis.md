@@ -49,7 +49,7 @@ Before starting the installation procedure for osCommerce, you must create a dat
 Update the **Php.ini** file to add the **Php\_mysql.dll** module under the **Dynamic Extensions** section in the file, and ensure that the extension directory points to the correct location:
 
 
-[!code-unknown[Main](install-oscommerce-on-iis/samples/sample-127111-2.unknown)]
+[!code-console[Main](install-oscommerce-on-iis/samples/sample2.cmd)]
 
 
 1. Start the configuration procedure in a Web browser. Go to `http://www.my-server.com/osCommerce/catalog`. (If the Index.php file is not in the browser default document, then add it.)

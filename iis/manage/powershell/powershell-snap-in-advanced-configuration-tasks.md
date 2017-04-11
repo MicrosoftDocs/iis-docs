@@ -47,7 +47,7 @@ Let's suppose you don't like the .aspx extension for your ASP.Net files too much
 Let's look if the changes were set:
 
 
-[!code-unknown[Main](powershell-snap-in-advanced-configuration-tasks/samples/sample-127218-4.unknown)]
+[!code-console[Main](powershell-snap-in-advanced-configuration-tasks/samples/sample4.cmd)]
 
 
 Now how about looking at the configuration file itself. We can use the get-item cmdlet that we explored in a previous walkthrough.

@@ -73,7 +73,7 @@ Although Step 1 is complete in terms of our example, it is appropriate to discus
 
 | Type | Schema Info and Examples |
 | --- | --- |
-| **attribute** | &lt; [!code-unknown[Main](configuration-extensibility/samples/sample-127068-4.unknown)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample5.xml)] |
+| **attribute** | &lt; [!code-console[Main](configuration-extensibility/samples/sample4.cmd)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample5.xml)] |
 | **element** | [!code-xml[Main](configuration-extensibility/samples/sample6.xml)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample7.xml)] |
 | **collection** | [!code-xml[Main](configuration-extensibility/samples/sample8.xml)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample9.xml)] |
 
@@ -159,7 +159,7 @@ The required steps include:
 
     This outputs something like this:
 
-    [!code-unknown[Main](configuration-extensibility/samples/sample-127068-22.unknown)]
+    [!code-console[Main](configuration-extensibility/samples/sample22.cmd)]
 - Add the module to the list of modules that IIS can use. Run the command below. However, ensure that you replace the variables with the output of the last command.  
 
     [!code-console[Main](configuration-extensibility/samples/sample23.cmd)]
@@ -209,7 +209,7 @@ Here are the steps to create the .NET COM component:
 
 1. Open a command line prompt and change to the directory you created to store the files. Make sure that the bin directory of the .NET Framework is in your path and then run the following command at the command line:  
 
-    [!code-unknown[Main](configuration-extensibility/samples/sample-127068-24.unknown)]
+    [!code-console[Main](configuration-extensibility/samples/sample24.cmd)]
 
     The tlbimp.exe tool will have created a file called AppHostAdminLibrary.dll – this is the interop dll that we need.
 2. Create a ConfigurationExtensibility.cs file in the directory you created earlier and copy the following C# code into the file using a text editor:  
@@ -284,7 +284,7 @@ Finally, check to see if the method is working. A quick and easy way to do this 
 Run the script from a command line and you get an output of:
 
 
-[!code-unknown[Main](configuration-extensibility/samples/sample-127068-34.unknown)]
+[!code-console[Main](configuration-extensibility/samples/sample34.cmd)]
 
 
 The above was a quick overview of how to provide new configuration and configuration methods backed by COM components. As you probably found, extending configuration using this method is very powerful.

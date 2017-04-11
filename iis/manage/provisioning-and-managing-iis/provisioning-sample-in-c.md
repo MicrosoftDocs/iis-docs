@@ -37,7 +37,7 @@ The site owner who manages and maintains the site needs a new user account. The 
 A Web site requires a location on the file systems to which users can upload content for the site. The Microsoft® .NET Directory Class provides the application programming interface (API) to create directories on the file system.
 
 
-[!code-unknown[Main](provisioning-sample-in-c/samples/sample-127148-2.unknown)]
+[!code-console[Main](provisioning-sample-in-c/samples/sample2.cmd)]
 
 
 The content storage requires specific permissions configured so that users can manage their own contents. The following code fragment demonstrates how to set directory permissions using managed code in C#:

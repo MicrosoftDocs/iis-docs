@@ -52,13 +52,13 @@ Here is a VBS script you could run to enable each of these types:
 
 If you copy and paste the code above into a VBS file and save it as ADDMIMETYPE.VBS, the syntax to add each type would be:
 
-[!code-unknown[Main](configuring-iis-for-silverlight-applications/samples/sample-127077-3.unknown)]
+[!code-console[Main](configuring-iis-for-silverlight-applications/samples/sample3.cmd)]
 
 
-[!code-unknown[Main](configuring-iis-for-silverlight-applications/samples/sample-127077-4.unknown)]
+[!code-console[Main](configuring-iis-for-silverlight-applications/samples/sample4.cmd)]
 
 
-[!code-unknown[Main](configuring-iis-for-silverlight-applications/samples/sample-127077-5.unknown)]
+[!code-console[Main](configuring-iis-for-silverlight-applications/samples/sample5.cmd)]
 
 ### Using the IIS Manager User Interface in IIS 6.0 in Windows Server 2003
 

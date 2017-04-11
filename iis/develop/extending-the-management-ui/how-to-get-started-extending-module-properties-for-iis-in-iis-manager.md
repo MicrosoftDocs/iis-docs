@@ -71,7 +71,7 @@ The ModifiedKeys property of the updatedSettings property bag contains those key
 
 The CustomGlobals class contains integers which act as keys to index into the property bag.
 
-[!code-unknown[Main](how-to-get-started-extending-module-properties-for-iis-in-iis-manager/samples/sample-127064-6.unknown)]
+[!code-console[Main](how-to-get-started-extending-module-properties-for-iis-in-iis-manager/samples/sample6.cmd)]
 
 ## Creating the Module and ModuleServiceProxy
 

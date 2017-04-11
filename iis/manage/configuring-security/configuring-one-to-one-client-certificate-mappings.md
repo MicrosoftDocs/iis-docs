@@ -45,7 +45,7 @@ The oneToOneMappings collection item has an attribute called certificate. The re
 3. Select Notepad from the list of Other Programs and click OK. [*Note: Notepad may be hidden beneath a drop down in the Vista/Windows 2008 list view]*
 4. This is what should be displayed in notepad:
 
-    [!code-unknown[Main](configuring-one-to-one-client-certificate-mappings/samples/sample-127014-2.unknown)]
+    [!code-console[Main](configuring-one-to-one-client-certificate-mappings/samples/sample2.cmd)]
 5. Remove -----BEGIN CERTIFICATE----- and -----END CERTIFICATE----
 6. Format the certificate blob to be a single line.
 7. Save this file as clientCertBlob.txt

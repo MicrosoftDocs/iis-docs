@@ -171,7 +171,7 @@ PHP applications are typically run as the anonymous user because the FastCGI set
 Create a compressed file (Zip) package of the application if you don't already have one. You can create the Zip file with Windows® Explorer, WinZip, or the Linux zip command . The Manifest.xml, Parameters.xml, and Install.sql files all go in the root directory of the package. The rest of your application goes in a sub folder of the root as in the diagram below.
 
 
-[!code-unknown[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample-127266-13.unknown)]
+[!code-console[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample13.cmd)]
 
 
 Note that the layout of the subdirectory tree is up to you. This example illustrates where the WDT XML files go for an application, and it is not prescriptive for how your sub tree should look.
@@ -238,7 +238,7 @@ When your package is ready, submit a form to the Windows Web Application Gallery
 If your application is being hosted on CodePlex, you must have a special URL for your package. This URL looks similar to:
 
 
-[!code-unknown[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample-127266-16.unknown)]
+[!code-console[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample16.cmd)]
 
 
 You must substitute the name of your application at the beginning of the URL and the DownloadID for your package in place of the "nnnnn."

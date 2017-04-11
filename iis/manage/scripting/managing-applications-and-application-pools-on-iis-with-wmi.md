@@ -182,7 +182,7 @@ Copy and paste the script below into notepad, save it with the filename ListAppP
 
 Your output should resemble this:
 
-[!code-unknown[Main](managing-applications-and-application-pools-on-iis-with-wmi/samples/sample-127044-16.unknown)]
+[!code-console[Main](managing-applications-and-application-pools-on-iis-with-wmi/samples/sample16.cmd)]
 
 ## Conclusion
 

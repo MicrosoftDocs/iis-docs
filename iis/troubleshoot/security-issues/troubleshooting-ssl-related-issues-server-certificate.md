@@ -147,7 +147,7 @@ This event/error indicates that there was a problem acquiring certificate's priv
 
 The first 2 steps check the integrity of the certificate. Once we have confirmed that there are no issues with the certificate, a big problem is solved. But, what if the website is still not accessible over https. Check the HTTPS bindings of the website and determine what port and IP it is listening on. You could run the following command to ensure no other process is listening on the SSL port used by the website.
 
-[!code-unknown[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample-127567-2.unknown)]
+[!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample2.cmd)]
 
 If there is another process listening on that port then check why that process is consuming that port. Try changing the IP-Port combination to check if the website is accessible or not.
 
@@ -201,13 +201,13 @@ By now we are sure that we have a proper working certificate installed on the we
 
     To determine whether any IP addresses are listed, open a command prompt, and then run the following command:
 
-    [!code-unknown[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample-127567-6.unknown)]
+    [!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample6.cmd)]
 
-    [!code-unknown[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample-127567-7.unknown)]
+    [!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample7.cmd)]
 
     If the IP Listen list is empty, the command returns the following string:
 
-    [!code-unknown[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample-127567-8.unknown)]
+    [!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample8.cmd)]
 
     If the command returns a list of IP addresses, remove each IP address in the list by using the following command:
 
@@ -246,7 +246,7 @@ If everything has been verified and if you are still running into issues accessi
 
 Microsoft has released an update to the implementation of SSL in Windows:
 
-[!code-unknown[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample-127567-11.unknown)]
+[!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample11.cmd)]
 
 There is potential for this update to impact customers using Internet Explorer, or using an application that uses Internet Explorer to perform HTTPS requests.
 

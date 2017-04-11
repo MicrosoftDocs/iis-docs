@@ -48,7 +48,7 @@ To set up the scenario perform the following steps:
     [!code-aspx[Main](using-global-and-distributed-rewrite-rules/samples/sample2.aspx)]
 4. Open the file called "hosts", located at %SystemDrive%\windows\system32\drivers\etc\ and add the following two lines at the of it:  
 
-    [!code-unknown[Main](using-global-and-distributed-rewrite-rules/samples/sample-127325-3.unknown)]
+    [!code-console[Main](using-global-and-distributed-rewrite-rules/samples/sample3.cmd)]
 
     After adding these lines open a web browser and brows to http://blog\_localhost/blog/article.aspx and to http://forum\_localhost/forum/forum.aspx and verify that the pages were rendered correctly in a browser.
 
@@ -82,7 +82,7 @@ In the "Name" text box enter a name that will uniquely identify the rule, for ex
 
 In the "Pattern" text box enter the following string:
 
-[!code-unknown[Main](using-global-and-distributed-rewrite-rules/samples/sample-127325-4.unknown)]
+[!code-console[Main](using-global-and-distributed-rewrite-rules/samples/sample4.cmd)]
 
 This string is a regular expression that specifies that pattern will match any URL string, including an empty string and it will capture the matched string in a back-reference.
 

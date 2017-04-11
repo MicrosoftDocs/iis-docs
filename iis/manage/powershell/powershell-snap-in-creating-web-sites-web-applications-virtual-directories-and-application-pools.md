@@ -34,7 +34,7 @@ Specifying the name of the directory is the only argument needed when you create
 
 [!code-powershell[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample2.ps1)]
 
-[!code-unknown[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample-127215-3.unknown)]
+[!code-console[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample3.cmd)]
 
 Using the -physicalPath argument is pretty straightforward. But you might ask yourself why the -bindings argument looks so complex.
 
@@ -64,7 +64,7 @@ Creating Web Applications is easier than creating sites. Here we go:
 [!code-powershell[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample6.ps1)]
 
 
-[!code-unknown[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample-127215-7.unknown)]
+[!code-console[Main](powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools/samples/sample7.cmd)]
 
 
 The only parameter you have to specify is the type (-type) because underneath a Web-Site you might want to create an Applications or a Virtual Directories. By specifying the -type parameter you tell the IIS Snap-in to create an application.

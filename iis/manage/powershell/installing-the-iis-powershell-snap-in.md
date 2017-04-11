@@ -59,7 +59,7 @@ You need Administrator privileges to manage IIS configuration. This means that y
 You might see the following error depending on the PowerShell Execution Permissions.
 
 
-[!code-unknown[Main](installing-the-iis-powershell-snap-in/samples/sample-127212-2.unknown)]
+[!code-console[Main](installing-the-iis-powershell-snap-in/samples/sample2.cmd)]
 
 
 Although the IIS PowerShell Provider files are all signed, PowerShell only trusts scripts that are signed by a 'Trusted Publisher' when it's execution policy is set to "Restricted". There are two ways you can fix this problem.

@@ -41,11 +41,11 @@ This troubleshooter will help you to configure compression &amp; identify common
 
 The only way of determining whether the IIS server sent a compressed response is by analyzing a network trace of the client request/server response. The request from the client needs to contain the following HTTP Request Header:
 
-[!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-1.unknown)]
+[!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample1.cmd)]
 
 This tells the server that the client supports compression and will accept a compressed response. In return, a compressed response from the server will contain the following HTTP Response header and a value:
 
-[!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-2.unknown)]
+[!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample2.cmd)]
 
 Fiddelr output when compression is not working:
 
@@ -86,7 +86,7 @@ Fiddelr output when compression is not working:
 
     ETW Trace:
 
-    [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-6.unknown)]
+    [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample6.cmd)]
 5. **Check if Dynamic or Static compression is turned off in Metabase.xml:** At each of the three configuration locations (/parameters, /gzip, and /deflate), you have the option of enabling Static and/or Dynamic compression. For static files like txt and html to be compressed, you need to set the HcDoStaticCompression key to 1 (or TRUE). To enable Dynamic compression (for things like asp, aspx, asmx, exe) you need to have HcDoDynamicCompression set to 1 (or TRUE).
 
     For example, to set dynamic compression at the /parameters node using adsutil.vbs, run this command:
@@ -95,7 +95,7 @@ Fiddelr output when compression is not working:
 
     The output to that command looks like this:
 
-    [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-8.unknown)]
+    [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample8.cmd)]
 
     **In IIS7:** 
 
@@ -110,7 +110,7 @@ Fiddelr output when compression is not working:
 
     This command will output:
 
-    [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-12.unknown)]
+    [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample12.cmd)]
 
     **For dynamic files:** 
 
@@ -118,7 +118,7 @@ Fiddelr output when compression is not working:
 
     This command will output:
 
-    [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-14.unknown)]
+    [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample14.cmd)]
 
     **IN IIS7:** 
 
@@ -183,7 +183,7 @@ Fiddelr output when compression is not working:
         **DumpFile.csv** contains the actual trace data in a text format.
     - Read the trace file to find useful information. Open the dumpfiles.csv, and find keyword like "COMPRESSION\_NOT\_SUCCESS". Here is an example:
 
-        [!code-unknown[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample-127569-19.unknown)]
+        [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample19.cmd)]
 
         This error NO\_MATCHING\_SCHEME means no compression scheme matches for this extension/Accept-Encoding. For a detailed list of compression errors, please reference the tables in appendix.
 17. **Using FREB trace to troubleshooting IIS compression issue**

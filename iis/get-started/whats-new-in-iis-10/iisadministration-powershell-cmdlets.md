@@ -39,11 +39,11 @@ Here are some examples on the usage of the new provider:
 
 ### Pipelining
 
-[!code-unknown[Main](iisadministration-powershell-cmdlets/samples/sample-134411-1.unknown)]
+[!code-console[Main](iisadministration-powershell-cmdlets/samples/sample1.cmd)]
 
 `Get-IISConfigSection` is at the beginning of most pipelines and in the specific example above, we are first getting the &quot;system.webServer/defaultDocument&quot; section (Case Sensitive!), then get the files collection, and finally get a collection element with the given attribute value.
 
-[!code-unknown[Main](iisadministration-powershell-cmdlets/samples/sample-134411-2.unknown)]
+[!code-console[Main](iisadministration-powershell-cmdlets/samples/sample2.cmd)]
 
 This one is more of a hybrid example where the section is first put into a variable, then used in the pipeline.
 
@@ -51,11 +51,11 @@ This one is more of a hybrid example where the section is first put into a varia
 
 The number of simple commands are greatly reduced to a few. The examples include Get-IISSite and Get-IISAppPool. Other simple operations for which the commands do not exist can be performed through pipeline operations.
 
-[!code-unknown[Main](iisadministration-powershell-cmdlets/samples/sample-134411-3.unknown)]
+[!code-console[Main](iisadministration-powershell-cmdlets/samples/sample3.cmd)]
 
 ### Get-IISServerManager
 
-[!code-unknown[Main](iisadministration-powershell-cmdlets/samples/sample-134411-4.unknown)]
+[!code-console[Main](iisadministration-powershell-cmdlets/samples/sample4.cmd)]
 
 As you can see, once you have access to the server manager, the sky is the limit.
 

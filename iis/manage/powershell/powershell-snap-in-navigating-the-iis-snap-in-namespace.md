@@ -54,7 +54,7 @@ Type "dir" and notice that Sites and AppPools are the only two directories under
 [!code-powershell[Main](powershell-snap-in-navigating-the-iis-snap-in-namespace/samples/sample1.ps1)]
 
 
-[!code-unknown[Main](powershell-snap-in-navigating-the-iis-snap-in-namespace/samples/sample-127213-2.unknown)]
+[!code-console[Main](powershell-snap-in-navigating-the-iis-snap-in-namespace/samples/sample2.cmd)]
 
 As the next step we want to change into the Sites directory. You can do that with the following commands:
 

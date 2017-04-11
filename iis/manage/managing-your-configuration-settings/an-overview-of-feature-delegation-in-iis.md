@@ -46,7 +46,7 @@ Configuration locks can be managed using either IIS Manager or appcmd. We start 
 > [!NOTE]
 > Run these commands in an elevated cmd window if you are not running as the built-in Administrator account:
 
-[!code-unknown[Main](an-overview-of-feature-delegation-in-iis/samples/sample-127034-1.unknown)]
+[!code-console[Main](an-overview-of-feature-delegation-in-iis/samples/sample1.cmd)]
 
 Appcmd does not show the current lock state for configuration sections (you must use IIS Manager for this) – it only allows you to manipulate the locking. Here is how to unlock the custom errors configuration for all sites:
 
@@ -145,7 +145,7 @@ The first step is installing the Web Management Service (WMSVC).
 
         At this point WMSVC is listening on port 8172, waiting for management requests.
 
-        [!code-unknown[Main](an-overview-of-feature-delegation-in-iis/samples/sample-127034-4.unknown)]
+        [!code-console[Main](an-overview-of-feature-delegation-in-iis/samples/sample4.cmd)]
 
 <a id="05"></a>
 

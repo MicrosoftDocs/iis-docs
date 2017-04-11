@@ -47,7 +47,7 @@ To create the example content Web site:
     [!code-aspx[Main](reverse-proxy-rule-template/samples/sample4.aspx)]
 5. To make sure that the site is working correctly, open a Web browse and request the following URLs:  
 
-    [!code-unknown[Main](reverse-proxy-rule-template/samples/sample-127337-5.unknown)]
+    [!code-console[Main](reverse-proxy-rule-template/samples/sample5.cmd)]
 
 ## Generate Inbound and Outbound Rules by Using Reverse Proxy Template
 

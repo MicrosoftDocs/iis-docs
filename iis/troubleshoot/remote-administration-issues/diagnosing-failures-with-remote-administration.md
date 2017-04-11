@@ -92,12 +92,12 @@ Here are details on how to get the exception and call stack:
     [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample9.cmd)]
 2. Load the sos.dll and set a break point if a managed exception happens
 
-    [!code-unknown[Main](diagnosing-failures-with-remote-administration/samples/sample-127040-10.unknown)]
+    [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample10.cmd)]
 3. Then hit go
 
-    [!code-unknown[Main](diagnosing-failures-with-remote-administration/samples/sample-127040-11.unknown)]
+    [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample11.cmd)]
 4. When it breaks, print the exception and the call stack and send it to iis.net/forums.
 
-    [!code-unknown[Main](diagnosing-failures-with-remote-administration/samples/sample-127040-12.unknown)]
+    [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample12.cmd)]
 
 [Discuss in IIS Forums](https://forums.iis.net/1111.aspx)

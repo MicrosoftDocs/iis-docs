@@ -82,13 +82,13 @@ Here we can identify a cache hit/miss in either the IIS Logs or Freb logs. The F
 
 **IIS Log Entry:** You will find the following entries in the **CS—uri-Query** field identifying the cache hit or miss and the guid for the request you which can be used to identify the request on down level servers.
 
-[!code-unknown[Main](troubleshooting-cache-items-arr-v2/samples/sample-127558-3.unknown)]
+[!code-console[Main](troubleshooting-cache-items-arr-v2/samples/sample3.cmd)]
 
-[!code-unknown[Main](troubleshooting-cache-items-arr-v2/samples/sample-127558-4.unknown)]
+[!code-console[Main](troubleshooting-cache-items-arr-v2/samples/sample4.cmd)]
 
-[!code-unknown[Main](troubleshooting-cache-items-arr-v2/samples/sample-127558-5.unknown)]
+[!code-console[Main](troubleshooting-cache-items-arr-v2/samples/sample5.cmd)]
 
-[!code-unknown[Main](troubleshooting-cache-items-arr-v2/samples/sample-127558-6.unknown)]
+[!code-console[Main](troubleshooting-cache-items-arr-v2/samples/sample6.cmd)]
 
 **FREB Log:** The cache miss is found by the entry **ARR\_DISK\_CACHE\_GET\_FAILED.**
 
@@ -120,9 +120,9 @@ In the previous step we identified this server as **W2K8WEBSERVER2** so we will 
 
 **IIS Advanced Logging Module:** Using Advanced logging we can add custom logging fields based on the headers X-Forwarded-For and X-ARR-LOG-ID and then used filtering to only log when these headers are present.
 
-[!code-unknown[Main](troubleshooting-cache-items-arr-v2/samples/sample-127558-7.unknown)]
+[!code-console[Main](troubleshooting-cache-items-arr-v2/samples/sample7.cmd)]
 
-[!code-unknown[Main](troubleshooting-cache-items-arr-v2/samples/sample-127558-8.unknown)]
+[!code-console[Main](troubleshooting-cache-items-arr-v2/samples/sample8.cmd)]
 
 **Network Monitor:** Again we could use the trace to identify the X-ARR-LOG-ID and X-Forwarded-For if we are tracing a particular request.
 

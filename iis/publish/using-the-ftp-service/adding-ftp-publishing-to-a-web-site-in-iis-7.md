@@ -108,7 +108,7 @@ In Step 1, you added FTP publishing to your Default Web Site and added an author
 1. On your FTP server, open a command prompt session.
 2. Type the following command to connect to your FTP server: 
 
-    [!code-unknown[Main](adding-ftp-publishing-to-a-web-site-in-iis-7/samples/sample-127180-1.unknown)]
+    [!code-console[Main](adding-ftp-publishing-to-a-web-site-in-iis-7/samples/sample1.cmd)]
 3. When prompted for a user name, enter "administrator".
 4. When prompted for a password, enter your administrator password.
 

@@ -131,7 +131,7 @@ In this step, you will add the demo provider to your FTP service and the default
     - Click **Managed Provider (.NET)**.
     - Enter the assembly information for the extensibility provider using the information that you copied earlier. For example: 
 
-        [!code-unknown[Main](how-to-use-managed-code-c-to-create-a-simple-ftp-home-directory-provider/samples/sample-127255-3.unknown)]
+        [!code-console[Main](how-to-use-managed-code-c-to-create-a-simple-ftp-home-directory-provider/samples/sample3.cmd)]
     - Click **OK**.
     - Clear the **FtpHomeDirectoryDemo** check box in the providers list.
     - Click **OK**.

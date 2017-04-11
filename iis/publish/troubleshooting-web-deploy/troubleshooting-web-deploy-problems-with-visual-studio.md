@@ -32,15 +32,15 @@ The first error you are likely to encounter will look something like the screens
 
 ![](troubleshooting-web-deploy-problems-with-visual-studio/_static/image1.png)
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-1.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample1.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-2.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample2.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-3.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample3.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-4.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample4.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-5.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample5.cmd)]
 
 The text highlighted in this error (and the other errors below) is the key to understanding the nature of the problem. Web Deploy did not get a reply from the server, so Visual Studio cannot distinguish between several possible causes. As a result, it gives a list of things to try.
 
@@ -58,17 +58,17 @@ By default, the Web Management Service listens on port 8172, but this can be cha
 
 ![](troubleshooting-web-deploy-problems-with-visual-studio/_static/troubleshooting-web-deploy-problems-with-visual-studio-1118-image31.jpeg)
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-6.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample6.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-7.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample7.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-8.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample8.cmd)]
 
 This message is somewhat misleading. It states that the server did not respond, but the 403 error indicates that Web Deploy could contact the server, but the request was actively refused. The HTTP log for the Web Management Service can help confirm the request reached the server, and provide details about the actual request that failed. This log can be found at %SystemDrive%\Inetpub\logs\WMSvc by default. Like other IIS logs, data is not written to the log immediately, so you may have to wait a couple minutes to see the request, or restart the Web Management Service to flush the log.
 
 In the WMSVC log, the error above looks like
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-9.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample9.cmd)]
 
 The "6" after the 403 in the log is the substatus code, and means "IP address rejected". (A complete list of the status and substatus codes for IIS can be found at [https://support.microsoft.com/kb/943891](https://support.microsoft.com/kb/943891)
 
@@ -84,17 +84,17 @@ The other common reason you could get a 403 error is if the management service h
 
 ![](troubleshooting-web-deploy-problems-with-visual-studio/_static/troubleshooting-web-deploy-problems-with-visual-studio-1118-image51.jpeg)
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-10.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample10.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-11.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample11.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-12.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample12.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-13.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample13.cmd)]
 
 The 404 error indicates that Web Deploy was able to contact the Web Mangement Service on the server, but couldn't find what it needed. The first thing to do is confirm what resource Web Deploy tried to connect to. You should see an entry in the WMSVC log that looks like
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-14.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample14.cmd)]
 
 Msdeploy.axd is the handler for Web Deploy requests.
 
@@ -116,21 +116,21 @@ Once Web Deploy and the Web Management Service are correctly configured, you wil
 
 ![](troubleshooting-web-deploy-problems-with-visual-studio/_static/image9.png)
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-15.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample15.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-16.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample16.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-17.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample17.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-18.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample18.cmd)]
 
 In the WMSvc log, you will see
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-19.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample19.cmd)]
 
 The highlighted http status in the Visual Studio output is an Access Denied error. The highlighted win32 status in the error log maps to "Logon failure: unknown user name or bad password", so this is a simple logon failure. If the user is authenticated, but does not have the rights needed to publish, the log entry will look like
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-20.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample20.cmd)]
 
 To allow this user to publish, you will need to set up delegation per the instructions at [https://www.iis.net/learn/publish/using-web-deploy/configure-the-web-deployment-handler](../using-web-deploy/configure-the-web-deployment-handler.md)
 
@@ -138,7 +138,7 @@ If the account is able to log in, but has not been granted the rights needed to 
 
 ![](troubleshooting-web-deploy-problems-with-visual-studio/_static/image11.png)
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-21.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample21.cmd)]
 
 The WMSvc log will show HTTP 200 responses for these requests. Fortunately, Web Deploy 2.1 also writes information to the Microsoft Web Deploy service log. To view it, open the event viewer and go to Applications and Services Logs -&gt;Microsoft Web Deploy.
 
@@ -146,21 +146,21 @@ The WMSvc log will show HTTP 200 responses for these requests. Fortunately, Web 
 
 For this particular error, the event log contains extra detail (truncated for brevity):
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-22.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample22.cmd)]
 
 This message tells you where permissions need to be granted for this particular error. Another permissions error you may see in Visual Studio is
 
 ![](troubleshooting-web-deploy-problems-with-visual-studio/_static/image15.png)
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-23.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample23.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-24.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample24.cmd)]
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-25.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample25.cmd)]
 
 This particular error does not give you much to go on, but the picture becomes much clearer if you look at the Web Deploy error log in Event Viewer.
 
-[!code-unknown[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample-127560-26.unknown)]
+[!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample26.cmd)]
 
 From this, we can see that User1 does not have rights to set security information. In this case, the user does not have Modify permissions on the content. Granting "Change Permissions" to the content resolves the problem.
 

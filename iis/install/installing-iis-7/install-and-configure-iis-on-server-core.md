@@ -46,7 +46,7 @@ To install IIS on an installed and configured Server Core installation of Window
     [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample2.cmd)]
 4. To find the computer name, type:  
 
-    [!code-unknown[Main](install-and-configure-iis-on-server-core/samples/sample-127003-3.unknown)]
+    [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample3.cmd)]
 5. To change the computer name type:  
 
     [!code-console[Main](install-and-configure-iis-on-server-core/samples/sample4.cmd)]

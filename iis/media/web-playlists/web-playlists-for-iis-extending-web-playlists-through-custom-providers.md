@@ -52,19 +52,19 @@ Building a .NET-based provider is a two step process.
 
 1. **Create a Type library (you can skip this step if you have access to released playlisthandler.dll)**
 
-    [!code-unknown[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample-127299-2.unknown)]
+    [!code-console[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample2.cmd)]
 
-    [!code-unknown[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample-127299-3.unknown)]
+    [!code-console[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample3.cmd)]
 
  where     `<Path to Web Playlist Include>` is the location where unzipped the Interface files too.
 2. **Import Types into as assemblly**
 
     1. **Use the .tlb created in step 1**
 
-        [!code-unknown[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample-127299-4.unknown)]
+        [!code-console[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample4.cmd)]
     2. **Use the released playlisthandler.dll**
 
-        [!code-unknown[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample-127299-5.unknown)]
+        [!code-console[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample5.cmd)]
 3. **Compile the custom provider with reference to assembly created in step 2**
 
     [!code-console[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample6.cmd)]
