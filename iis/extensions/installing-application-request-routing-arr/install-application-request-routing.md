@@ -41,9 +41,10 @@ This walkthrough requires the following prerequisites:
 
 > [!NOTE]
 >  
+> 
+> - **Upgrading from CTP1 to RTW release is *not* supported.** CTP1 release must be removed manually before proceeding. All configuration settings will be lost.
+> - **Upgrading from RC to RTW release is supported** and, therefore, RC release does not need to be removed. No configuration settings will be lost.
 
-- **Upgrading from CTP1 to RTW release is *not* supported.** CTP1 release must be removed manually before proceeding. All configuration settings will be lost.
-- **Upgrading from RC to RTW release is supported** and, therefore, RC release does not need to be removed. No configuration settings will be lost.
 
 ## Step 1 – Download Microsoft Application Request Routing Version 1
 

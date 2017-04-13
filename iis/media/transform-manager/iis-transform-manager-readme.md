@@ -44,18 +44,21 @@ After installing your edition of Expression Encoder 4, you must then install [Mi
 
 > [!NOTE]
 >  
+> 
+>  If you purchased Expression Studio 3 from a store, and it's installed on your computer, you can download the Trial version of Expression Studio 4 Ultimate or Expression Studio 4 Web Professional, and the full version of Expression Studio 4 (which includes Expression Encoder 4 Pro) will automatically be enabled. If you choose to not purchase Expression Studio 3, you can download a 60-day free Trial of Expression Studio 4. However, the trial version of Expression Encoder 4 Pro that's enabled doesn't support H.264-encoding and you can only run the **Expression Encoder 4 SP2** transcoding task with VC-1-encoding presets. For more information, see [How to Upgrade](https://go.microsoft.com/?linkid=9770534).
 
-- If you purchased Expression Studio 3 from a store, and it's installed on your computer, you can download the Trial version of Expression Studio 4 Ultimate or Expression Studio 4 Web Professional, and the full version of Expression Studio 4 (which includes Expression Encoder 4 Pro) will automatically be enabled. If you choose to not purchase Expression Studio 3, you can download a 60-day free Trial of Expression Studio 4. However, the trial version of Expression Encoder 4 Pro that's enabled doesn't support H.264-encoding and you can only run the **Expression Encoder 4 SP2** transcoding task with VC-1-encoding presets. For more information, see [How to Upgrade](https://go.microsoft.com/?linkid=9770534).
 
 The following software must be installed on the computer to use Expression Encoder 4:
 
 - [.NET Framework 4](https://go.microsoft.com/?linkid=9735195)
 - [Desktop Experience](https://go.microsoft.com/?linkid=9735196) (server operating systems only)
 
-**Notes**
+> [!NOTE]
+>  
+> 
+> - You can integrate Transform Manager with a High Performance Computing (HPC) cluster. These computers run the [Windows HPC Server](https://go.microsoft.com/?linkid=9770530) operating system, a solution built on Windows Server technology that provides a platform for clustering computers to perform computation-intensive tasks, such as encoding, without specialized hardware. You can configure a local watch folder to use the HPC Task Scheduler on the head node in the HPC cluster. The HPC Task Scheduler will assign the jobs to compute nodes in the cluster and the CPU resources on the compute nodes will be used for running jobs.
+> - If you plan to use the default **Expression Encoder 4 SP2** task in an HPC Cluster, you must run the HPC compute nodes on the Windows Server 2008 R2 operating system. The Windows HPC Server operating system doesn't include the Desktop Experience feature, which is required for encoding and transcoding tasks using Expression Encoder 4. For more information about how to configure Transform Manager to use an HPC cluster for transcoding media files to IIS Smooth Streaming format, using Expression Encoder presets, see [High-Performance Transcoding with IIS Transform Manager and Windows HPC Server](https://go.microsoft.com/?linkid=9770531).
 
-- You can integrate Transform Manager with a High Performance Computing (HPC) cluster. These computers run the [Windows HPC Server](https://go.microsoft.com/?linkid=9770530) operating system, a solution built on Windows Server technology that provides a platform for clustering computers to perform computation-intensive tasks, such as encoding, without specialized hardware. You can configure a local watch folder to use the HPC Task Scheduler on the head node in the HPC cluster. The HPC Task Scheduler will assign the jobs to compute nodes in the cluster and the CPU resources on the compute nodes will be used for running jobs.
-- If you plan to use the default **Expression Encoder 4 SP2** task in an HPC Cluster, you must run the HPC compute nodes on the Windows Server 2008 R2 operating system. The Windows HPC Server operating system doesn't include the Desktop Experience feature, which is required for encoding and transcoding tasks using Expression Encoder 4. For more information about how to configure Transform Manager to use an HPC cluster for transcoding media files to IIS Smooth Streaming format, using Expression Encoder presets, see [High-Performance Transcoding with IIS Transform Manager and Windows HPC Server](https://go.microsoft.com/?linkid=9770531).
 
 ### Downloading and Installing
 
@@ -121,10 +124,11 @@ This section describes the known issues for IIS Transform Manager 1.0.
 
  For more information about how to adjust these settings, see     [Configuring Watch Folders](https://go.microsoft.com/?linkid=9735221) . 
 
-    **Notes**
-
-    - To reliably run the encoding tasks, your system must have a minimum of 3 GB of memory. On a 64-bit version of Windows, Expression Encoder opportunistically uses all of the memory that's available on your system. On a 32-bit version of Windows, memory usage is limited to 2 GB. However, if you have more memory available, you can configure Expression Encoder to recognize up to 3 GB. Expression Encoder has been compiled with the /LARGEADDRESSAWARE option, which enables you to increase the amount of memory to 3 GB if it's available. To enable this option, run the following command from an elevated command prompt: **BCDEDIT /Set IncreaseUserVa 3072**.
-    - The default **Expression Encoder 4 SP2** task in Transform Manager supports [GPU-Encoding](https://go.microsoft.com/?linkid=9770703) scenarios.
+    > [!NOTE]
+    >  
+    > 
+    > - To reliably run the encoding tasks, your system must have a minimum of 3 GB of memory. On a 64-bit version of Windows, Expression Encoder opportunistically uses all of the memory that's available on your system. On a 32-bit version of Windows, memory usage is limited to 2 GB. However, if you have more memory available, you can configure Expression Encoder to recognize up to 3 GB. Expression Encoder has been compiled with the /LARGEADDRESSAWARE option, which enables you to increase the amount of memory to 3 GB if it's available. To enable this option, run the following command from an elevated command prompt: **BCDEDIT /Set IncreaseUserVa 3072**.
+    > - The default **Expression Encoder 4 SP2** task in Transform Manager supports [GPU-Encoding](https://go.microsoft.com/?linkid=9770703) scenarios.
 - **Running the Command Line task**. If you edit the default **Command Line** task in Transform Manager to run an executable program file, you must wrap the path to the executable program file name and the file-name extension in the command-line string in quotation marks if the path or file name contains spaces. For example, for an executable program file that is named My Program.exe, in the **Command line and arguments** box for the task, enter: "%DirectoryPath%\My Program.exe".
 - **Running the Maintenance command**. On a watch folder's **Maintenance** tab, you can use a Windows PowerShell cmdlet, an executable program file (.exe), a Windows command file (.cmd), or a batch file (.bat) that performs custom file maintenance actions. The file path that you enter in **Maintenance command** must also be wrapped in quotation marks if the path or file name contains spaces. For more information about how to configure Transform Manager to delete job and logs files from the computer when they're no longer needed, see [Running File Maintenance](https://go.microsoft.com/?linkid=9801074).
 - **Running the Command Line task on a network**. If you use the **Command Line** task to run an executable program file that is stored on a shared network, and you're using the local Task Scheduler to run jobs, the watch folder user account must have full permissions to the network share so that the task will run.  
@@ -159,8 +163,8 @@ This section describes the known issues for IIS Transform Manager 1.0.
 
     > [!NOTE]
     >  
-
-    - The watch folder XML configuration files are located in %ProgramData%\Microsoft\IIS\Transform Manager\Configuration\Job Definitions. You might need to turn on the **Folder views** option in Windows that shows hidden files, folders, and drives in order to view them.
+    > 
+    >  The watch folder XML configuration files are located in %ProgramData%\Microsoft\IIS\Transform Manager\Configuration\Job Definitions. You might need to turn on the **Folder views** option in Windows that shows hidden files, folders, and drives in order to view them.
 - **Specifying the watch folder root path**. When you configure watch folder settings, you can specify a watch folder location on the local Web server or on a network share in the **Watch folder path** list. Be aware of the following when specifying this value: 
 
     - You must use a unique root path for each watch folder. Different watch folders that have the same physical path won't start.

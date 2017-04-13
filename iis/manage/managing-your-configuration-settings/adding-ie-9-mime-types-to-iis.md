@@ -20,10 +20,11 @@ The preview release of Microsoft Internet Explorer (IE) version 9 includes suppo
 
 The following additonal MIME types are supported in IE 9:
 
-| File name extension | MIME type || .svg | image/svg+xml |
+| File name extension | MIME type |
+| --- | --- |
+| .svg | image/svg+xml |
 | .xht | application/xhtml+xml |
 | .xhtml | application/xhtml+xml |
-| --- | --- | --- | --- | --- | --- | --- | --- |
 
 To learn more about the preview release of IE 9, see [http://ie.microsoft.com/testdrive/](http://ie.microsoft.com/testdrive/). The [Release Notes](http://ie.microsoft.com/testdrive/info/ReleaseNotes/Default.html) contain information about the new features supported in IE 9.
 
@@ -43,15 +44,16 @@ You can also use the script included in this article to add the MIME Types on ve
 2. Copy the contents of the script file from the following section.
 3. Paste the contents of the script into your new script file.
 4. Save the script file as AddMimeTypes.vbs.
-5. At a Command Prompt, type the following command:  
-  
-cscript AddMimeTypes.vbs *[RemoteServerName]*  
- Replace     *[RemoteServerName]* with the name of the remote computer you want to add the MIME types to.  
-  
+5. At a Command Prompt, type the following command: 
+
+    [!code-console[Main](adding-ie-9-mime-types-to-iis/samples/sample1.cmd)]
+
+    Replace `[RemoteServerName]`> with the name of the remote computer you want to add the MIME types to.
+
     > [!NOTE]
-    > If the folder in which the script file is saved is not included in your     **Path** environment variable, you must specify the full path to the script in the command, or change directories to the folder before running the command.
+    > If the folder in which the script file is saved is not included in your **Path** environment variable, you must specify the full path to the script in the command, or change directories to the folder before running the command.
 6. Verify the MIME types were added either by using the IIS Manager.
 
 ## The AddMimeTypes.vbs Script
 
-[!code-vb[Main](adding-ie-9-mime-types-to-iis/samples/sample1.vb)]
+[!code-vb[Main](adding-ie-9-mime-types-to-iis/samples/sample2.vb)]

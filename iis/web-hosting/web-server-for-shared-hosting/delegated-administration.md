@@ -26,12 +26,13 @@ The following table lists a sample set of features, their delegated settings, an
 
 > [!NOTE]
 >  
+> 
+> 1. Some of these features may not appear in the list of features to manage if you have not installed them. For example, if you chose not to install Digest authentication, it will not appear in the list on your Web server.
+> 2. There will be cases when you want to delegate a particular setting in applicationhost.config without delegating an entire section, here are two key examples:
+> 
+>     1. [Delegating errorMode in httpErrors](delegating-errormode-in-httperrors.md)
+>     2. [Delegating scriptErrorSentToBrowser in ASP](asp.md)
 
-1. Some of these features may not appear in the list of features to manage if you have not installed them. For example, if you chose not to install Digest authentication, it will not appear in the list on your Web server.
-2. There will be cases when you want to delegate a particular setting in applicationhost.config without delegating an entire section, here are two key examples:
-
-    1. [Delegating errorMode in httpErrors](delegating-errormode-in-httperrors.md)
-    2. [Delegating scriptErrorSentToBrowser in ASP](asp.md)
 
 | **Feature** | **Delegated Setting** | **Reason** |
 | --- | --- | --- |

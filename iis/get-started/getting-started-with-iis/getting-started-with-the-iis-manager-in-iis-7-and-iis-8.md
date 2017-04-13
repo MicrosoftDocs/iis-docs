@@ -188,7 +188,7 @@ Additionally, server administrators can enable **non-administrators to use IIS M
 - **View locked configuration settings** without being able to modify them
 - **Add other site or application administrators** for their site or application
 
-For information on how to create site and application administrators, see the online documentation [Create Site and Application Administrators for Delegation](http://technet2.microsoft.com/WindowsServer/en/Library/c879386d-de23-4084-a81c-66d8a531c6c61033.mspx?mfr=true).
+For information on how to create site and application administrators, see the online documentation [Create Site and Application Administrators for Delegation](https://technet.microsoft.com/en-us/library/cc725632(v=ws.10).aspx).
 
 <a id="ServerSite"></a>
 
@@ -202,7 +202,7 @@ Machine administrators and designated Site Administrators can connect to web sit
 
 Machine administrators, designated Application Administrators, and Site Administrators for the application's parent site, can connect to an application. **Application connections can only write to web.config files under the application's root folder**. If a configuration section is locked in applicationHost.config or the site's web.config file, the corresponding feature will appear read-only in application connections.
 
-For information on how to connect to a server, site or application, see the online documentation on [Managing Connections in IIS 7.0](http://technet2.microsoft.com/WindowsServer/en/Library/1b1d39f4-a6e4-400e-81f0-4189d341ff591033.mspx).
+For information on how to connect to a server, site or application, see the online documentation on [Managing Connections in IIS 7.0](https://technet.microsoft.com/en-us/library/cc753400(v=ws.10).aspx).
 
 <a id="Configuration2"></a>
 

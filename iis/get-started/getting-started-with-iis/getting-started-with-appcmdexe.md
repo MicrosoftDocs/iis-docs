@@ -31,7 +31,7 @@ Some of the things you can do with AppCmd:
 
 AppCmd also allows server administrators to build advanced management tasks simply by combining multiple simpler AppCmd.exe commands, or reusing the output of the tool inside another program.
 
-You can also find more AppCmd topics and learn powerful ways to manage your server from command line on my blog, at [http://mvolo.com/blogs/serverside/archive/tags/AppCmd/default.aspx](http://mvolo.com/blogs/serverside/archive/tags/AppCmd/default.aspx).
+You can also find more AppCmd topics and learn powerful ways to manage your server from command line on my blog, at [http://mvolo.com/category/appcmd/](http://mvolo.com/category/appcmd/).
 
 <a id="HowToUse"></a>
 
@@ -232,7 +232,7 @@ Restoring a backup stops the server and restores global configuration to its sta
 
 In Windows Server® 2008 and Windows Vista SP1, AppCmd will also be capable of working with periodic configuration backups made by the configuration history service. These backups will show up in the AppCmd list of backups and will be available to restore the same way as backups you made manually through the tool.
 
-To learn more about managing configuration backups with AppCmd, see [http://mvolo.com/blogs/serverside/archive/2007/03/18/Most-Important-AppCmd-Commands\_3A00\_-Backing-up-and-restoring-IIS7-configuration.aspx](http://mvolo.com/blogs/serverside/archive/2007/03/18/Most-Important-AppCmd-Commands_3A00_-Backing-up-and-restoring-IIS7-configuration.aspx).
+To learn more about managing configuration backups with AppCmd, see [http://mvolo.com/most-important-appcmd-commands-backing-up-and-restoring-iis7-configuration/](http://mvolo.com/most-important-appcmd-commands-backing-up-and-restoring-iis7-configuration/).
 
 <a id="Working"></a>
 
@@ -318,7 +318,7 @@ Finally, let's create a new application pool:
 
 This created a new application pool named "MyAppPool".
 
-To learn more about sites, applications, and virtual directories in IIS 7 and above, and the options you have in creating them with AppCmd, see [Creating IIS7 and Above Sites, Applications and Virtual directories](http://mvolo.com/blogs/serverside/archive/2007/07/12/Creating-IIS7-sites_2C00_-applications_2C00_-and-virtual-directories.aspx).
+To learn more about sites, applications, and virtual directories in IIS 7 and above, and the options you have in creating them with AppCmd, see [Creating IIS7 and Above Sites, Applications and Virtual directories](http://mvolo.com/creating-iis7-sites-applications-and-virtual-directories/).
 
 ### Configuring Sites, Applications, Virtual Directories, and Application Pools
 
@@ -439,7 +439,7 @@ To display effective configuration for particular url level, use the LIST comman
 
 Where **&lt;URL&gt;** is the configuration path at which the effective configuration should be read, such as "Default Web Site/" or "Default Web Site/app1/hello.html". If not specified, it defaults to server level.
 
-To learn more about the IIS configuration hierarchy and how to build IIS configuration paths for use with AppCmd and other tools, see [Anatomy of an IIS7 and Above Configuration Path](http://mvolo.com/blogs/serverside/archive/2007/07/21/Anatomy-of-an-IIS7-configuration-path.aspx).
+To learn more about the IIS configuration hierarchy and how to build IIS configuration paths for use with AppCmd and other tools, see [Anatomy of an IIS7 and Above Configuration Path](http://mvolo.com/anatomy-of-an-iis7-configuration-path/).
 
 The **section** parameter specifies the configuration section you would like to read. If not specified, all configuration sections effective at the URL level will be displayed. For example, this command-line displays all effective configuration for the root application of the Default Web Site:
 
@@ -532,7 +532,7 @@ For example, this command-line turns directory browsing off for an application, 
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample83.cmd)]
 
-To learn more about IIS configuration paths and controlling the location of configuration, see [Anatomy of the IIS7 and above configuration path](http://mvolo.com/blogs/serverside/archive/2007/07/21/Anatomy-of-an-IIS7-configuration-path.aspx).
+To learn more about IIS configuration paths and controlling the location of configuration, see [Anatomy of the IIS7 and above configuration path](http://mvolo.com/anatomy-of-an-iis7-configuration-path/).
 
 ### Locking and Unlocking Configuration
 
@@ -638,7 +638,7 @@ For example, to output the list of sites in XML mode:
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample101.cmd)]
 
-To learn more about the piping feature, and how to leverage it for powerful command line management, see [http://mvolo.com/blogs/serverside/archive/2007/06/19/Do-complex-IIS-management-tasks-easily-with-AppCmd-command-piping.aspx](http://mvolo.com/blogs/serverside/archive/2007/06/19/Do-complex-IIS-management-tasks-easily-with-AppCmd-command-piping.aspx).
+To learn more about the piping feature, and how to leverage it for powerful command line management, see [http://mvolo.com/do-complex-iis-management-tasks-easily-with-appcmd-command-piping/](http://mvolo.com/do-complex-iis-management-tasks-easily-with-appcmd-command-piping/).
 
 <a id="Summary"></a>
 
@@ -646,4 +646,4 @@ To learn more about the piping feature, and how to leverage it for powerful comm
 
 In this overview, we familiarized you with all the different powerful commands available using the IIS 7 and above Command-Line utility, AppCmd.exe.
 
-You can also find more AppCmd topics and learn powerful ways to manage your server from command line on my blog, at [http://mvolo.com/blogs/serverside/archive/tags/AppCmd/default.aspx](http://mvolo.com/blogs/serverside/archive/tags/AppCmd/default.aspx).
+You can also find more AppCmd topics and learn powerful ways to manage your server from command line on my blog, at [http://mvolo.com/category/appcmd/](http://mvolo.com/category/appcmd/).

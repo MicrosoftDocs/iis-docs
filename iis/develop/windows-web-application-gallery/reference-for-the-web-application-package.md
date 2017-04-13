@@ -46,8 +46,16 @@ The parameters have a number of attributes, including:
 
 If your parameter is tagged with one of the ten well-known tags from the table below, the UI will automatically provide a friendlyName and description for the parameter. If you specify these elements, you override the defaults. Do not override the defaults unless there is a significant reason to do so. Common parameter tags include:
 
-| - MySqlConnectionString - SqlConnectionString - DbAdminPassword - DbAdminUsername - DbName | - DbServer - DbUsername - DbUserPassword - IisApp - SetAcl |
-| --- | --- |
+- MySqlConnectionString
+- SqlConnectionString
+- DbAdminPassword
+- DbAdminUsername
+- DbName
+- DbServer
+- DbUsername
+- DbUserPassword
+- IisApp
+- SetAcl
 
 In addition, each parameter can have sub elements that perform various functions.
 
@@ -139,14 +147,14 @@ There are several types of parameter validation that are available. If none of t
 - **Boolean**- Boolean parameters are simple True / False questions. Depending on the UI, the user might be presented with a check box or two option buttons to select their choice. Booleans replace values in the same way as other parameters. For Booleans, the replacement value is either "True" or "False". If you need to have Boolean values other than "True" or "False", use an enumeration with only two values. The syntax for Booleans is: 
 
 [!code-xml[Main](reference-for-the-web-application-package/samples/sample6.xml)]
-- **Enumeration**- Enumeration allows you to limit the user's input to a list of discrete possible values. Most UIs will implement this as a drop-down list box, where the user will have the ability to choose one value from the list. Any whitespace in the validationString will be included as part of the possible values. Therefore, there should be no whitespace on either side of a comma, unless you want that whitespace to be included in the parameter substitution. The syntax for Enumeration is: 
+- **Enumeration**- Enumeration allows you to limit the user's input to a list of discrete possible values. Most UIs will implement this as a drop-down list box, where the user will have the ability to choose one value from the list. Any whitespace in the validationString will be included as part of the possible values. Therefore, there should be no whitespace on either side of a comma, unless you want that whitespace to be included in the parameter substitution. The syntax for Enumeration is:
 
-[!code-xml[Main](reference-for-the-web-application-package/samples/sample7.xml)]
+    [!code-xml[Main](reference-for-the-web-application-package/samples/sample7.xml)]
 
     Currently, there is no way to escape a comma (,) so that it may be included as part of one of the values of an enumeration.
-- **Regular Expression**- With Regular Expression validation, the user is presented with a simple text box the way a non-validated parameter would be. Then, when the user goes to submit the form and move on to the next part of the installation, the entry in the text box will be compared to the validationString in the RegularExpression. For more information about specifying a regular expression, please refer to the Microsoft® Developer Network (MSDN®) [Regular Expression Language Elements](https://msdn.microsoft.com/en-us/library/az24scfc.aspx) or the [Regular Expressions Info Web site](http://www.regular-expressions.info/tutorial.html). The syntax for Regular Expression validation is: 
+- **Regular Expression**- With Regular Expression validation, the user is presented with a simple text box the way a non-validated parameter would be. Then, when the user goes to submit the form and move on to the next part of the installation, the entry in the text box will be compared to the validationString in the RegularExpression. For more information about specifying a regular expression, please refer to the Microsoft® Developer Network (MSDN®) [Regular Expression Language Elements](https://msdn.microsoft.com/en-us/library/az24scfc.aspx) or the [Regular Expressions Info Web site](http://www.regular-expressions.info/tutorial.html). The syntax for Regular Expression validation is:
 
-[!code-xml[Main](reference-for-the-web-application-package/samples/sample8.xml)]
+    [!code-xml[Main](reference-for-the-web-application-package/samples/sample8.xml)]
 
     For Regular Expressions, even if you specify a RegEx that allows for empty values, most UIs will require a value anyway. To specify that a value can be blank, or empty, add 'allowEmpty' to the type of the 'parameterValidation', as in the example below:
 
@@ -165,8 +173,15 @@ If your application package contains a SQL Server or MySQL database provider, yo
 
 Web PI and the Web Deployment Tool are available in versions localized for ten languages, including English and the following:
 
-| - Japanese - Spanish - German | - French - Italian - Korean | - Russian - Chinese (China) - Chinese (Taiwan) |
-| --- | --- | --- |
+- Japanese
+- Spanish
+- German
+- French
+- Italian
+- Korean
+- Russian
+- Chinese (China)
+- Chinese (Taiwan)
 
 If Web PI detects that the user's system default location is something other than "en", the user will be presented with parameters using the user's system locale, for every parameter that has a translation available.
 
@@ -174,8 +189,16 @@ The WDT has translations for the "friendlyName" for each parameter, which is use
 
 Certain parameters are translated automatically into one of those languages based on the user's system language. The parameters that are automatically translated are ones that have one of the tags in the table below. Note that if there is a "description" or "friendlyName" attribute present in the parameter, the translation of that parameter will not occur.
 
-| - MySqlConnectionString - SqlConnectionString - DbAdminPassword - DbAdminUsername - DbName | - DbServer - DbUsername - DbUserPassword - IisApp - SetAcl |
-| --- | --- |
+- MySqlConnectionString
+- SqlConnectionString
+- DbAdminPassword
+- DbAdminUsername
+- DbName
+- DbServer
+- DbUsername
+- DbUserPassword
+- IisApp
+- SetAcl
 
 For the ten well-known parameters above, best practice is to use the parameter descriptions and friendly names that the WDT automatically generates. This leads to a more consistent experience for users and lets your application take advantage of additional languages as they are added. If necessary, specify your own translations for any of those parameters or for any parameters that do not have a default translation. This is done by providing alternate descriptions and friendlyNames in the parameter elements of the Parameters.xml file. The default description for a parameter is provided as one of the attributes of the parameter element, while the translations are provided as distinct elements. For example:
 

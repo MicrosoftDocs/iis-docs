@@ -53,17 +53,17 @@ IIS Transform Manager is designed to work with other programs, such as programs 
         [!code-console[Main](chaining-the-robocopy-task-to-your-transformed-output/samples/sample3.cmd?highlight=1)]
     4. Specify the number of times that the task will try to copy a transformed output file if it fails the first time (`/R:3`) and how long it will wait between each attempt in seconds (`/W:30`). In the above example, if the task initially fails to copy the transformed output, it will try to copy the output up to 3 more times and wait for 30 seconds between each attempt.  
   
- For example, to configure the task to retry 5 times and wait for 1 minute between each attempt, enter: 
+For example, to configure the task to retry 5 times and wait for 1 minute between each attempt, enter:
 
         [!code-console[Main](chaining-the-robocopy-task-to-your-transformed-output/samples/sample4.cmd?highlight=1-2)]
     5. Finally, add a runtime substitution token after the `{Output Folder}` destination to specify what job-specific information should be used as the name of a folder that the task will create when it copies the transformed output files to the destination. For example: 
 
         [!code-console[Main](chaining-the-robocopy-task-to-your-transformed-output/samples/sample5.cmd?highlight=1)]
 
- The substitution token that you enter after the         `{Output Folder}` path is used to generate a new folder whose name will be expanded to include the job-specific information specified by the substitution token.   
-  
- To add a substitution token into the command-line string, right-click after the         `{Output Folder}`  in the string to create an insertion point. This will expose a list of the available substitution tokens from which you can select.  
-        [![](chaining-the-robocopy-task-to-your-transformed-output/_static/image12.png)](chaining-the-robocopy-task-to-your-transformed-output/_static/image11.png)  
+        The substitution token that you enter after the `{Output Folder}` path is used to generate a new folder whose name will be expanded to include the job-specific information specified by the substitution token.
+
+        To add a substitution token into the command-line string, right-click after the `{Output Folder}` in the string to create an insertion point. This will expose a list of the available substitution tokens from which you can select.  
+[![](chaining-the-robocopy-task-to-your-transformed-output/_static/image12.png)](chaining-the-robocopy-task-to-your-transformed-output/_static/image11.png)
 
         | Name | Description |
         | --- | --- |
@@ -89,8 +89,19 @@ IIS Transform Manager is designed to work with other programs, such as programs 
 8. In the **Success codes** box, specify which of the standard [Robocopy return codes](https://support.microsoft.com/kb/954404) should be recorded as successful operations in job instance logs by editing the comma-delimited string.
 9. Click **OK** to close the **Edit Robocopy Task** dialog box.
 
-| ![Note](chaining-the-robocopy-task-to-your-transformed-output/_static/image1.gif) **Notes** - If you used this procedure to edit a job template that was bound to a watch folder that was started, restart the watch folder to apply the changes: 1. Select the watch folder in the **Watch Folders** page. 2. In the **Actions** pane, click **Stop**. 3. In the **Actions** pane, click **Start**. - If you restart a watch folder to apply changes, and the watch folder is either running jobs or jobs are queued in the watch folder for processing, the following conditions apply: - If the watch folder was running jobs and you click **Stop** to stop the watch folder, the currently running jobs will finish before the watch folder stops. Queued jobs won't be submitted for processing. - If you want to apply the changes to currently running and queued jobs, you must cancel these jobs, restart the watch folder, and then drop the original media sources in the watch folder again so that they can be processed with the updated settings. For more information about how to manage jobs in watch folders, see Running and Monitoring Jobs. - If you used the Robocopy task to copy transformed output from a preceding task to a Smooth Streaming website, see [Delivering Transform Manager Output to Clients](delivering-transform-manager-output-to-clients.md) to learn how to create a webpage that Silverlight clients can use to play Smooth Streams, or an HTML5 webpage that clients on Apple mobile digital devices can use to play Apple HTTP Live Streams. |
-| --- |
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)
+> [!NOTE]
+>  
+> 
+> - If you used this procedure to edit a job template that was bound to a watch folder that was started, restart the watch folder to apply the changes:  
+> 
+>     1. Select the watch folder in the **Watch Folders** page.
+>     2. In the **Actions** pane, click **Stop**.
+>     3. In the **Actions** pane, click **Start**.
+> - If you restart a watch folder to apply changes, and the watch folder is either running jobs or jobs are queued in the watch folder for processing, the following conditions apply:  
+> 
+>     - If the watch folder was running jobs and you click **Stop** to stop the watch folder, the currently running jobs will finish before the watch folder stops. Queued jobs won't be submitted for processing.
+>     - If you want to apply the changes to currently running and queued jobs, you must cancel these jobs, restart the watch folder, and then drop the original media sources in the watch folder again so that they can be processed with the updated settings. For more information about how to manage jobs in watch folders, see Running and Monitoring Jobs.
+> - If you used the Robocopy task to copy transformed output from a preceding task to a Smooth Streaming website, see [Delivering Transform Manager Output to Clients](delivering-transform-manager-output-to-clients.md) to learn how to create a webpage that Silverlight clients can use to play Smooth Streams, or an HTML5 webpage that clients on Apple mobile digital devices can use to play Apple HTTP Live Streams.
+>   
+>   
+> [Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

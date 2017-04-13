@@ -192,8 +192,10 @@ Windows Media Services 2008 and IIS have additional features that are not descri
 | Available for [Windows Web Server 2008](https://www.microsoft.com/windowsserver2008/en/us/editions-overview.aspx) | ![](windows-media-server-or-web-server/_static/image37.gif) | ![](windows-media-server-or-web-server/_static/image38.gif) |
 
 
-**1**[IIS Bit Rate Throttling](https://www.iis.net/downloads/microsoft/bit-rate-throttling)**2**[IIS Live Smooth Streaming](https://www.iis.net/downloads/microsoft/live-smooth-streaming)  
-**3** Coming soon in IIS Smooth Multicast **4**[IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming)  
+**1**[IIS Bit Rate Throttling](https://www.iis.net/downloads/microsoft/bit-rate-throttling)  
+**2**[IIS Live Smooth Streaming](https://www.iis.net/downloads/microsoft/live-smooth-streaming)  
+**3** Coming soon in IIS Smooth Multicast  
+**4**[IIS Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming)  
 **5**[IIS Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing)  
 **6**[IIS Advanced Logging](https://www.iis.net/downloads/microsoft/advanced-logging)  
 **7**[IIS Web Playlists](https://www.iis.net/downloads/microsoft/web-playlists)

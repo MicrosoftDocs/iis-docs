@@ -28,4 +28,4 @@ There are no SMTP changes in Windows Server® 2008.
 
 Yes, SMTP requires the Metabase system, so it is configured in IIS 6.0 compatibility mode. See the link below for more information about installing and configuring Metabase Compatibility Mode. For more information, see the article on metabase compatibility code at:
 
-[https://www.iis.net/articles/view.aspx/IIS7/Use-IIS7-Administration-Tools/Using-XML-Configuration/Metabase-Compatibility-with-IIS7](../../manage/managing-your-configuration-settings/metabase-compatibility-with-iis-7-and-above.md) .
+[https://www.iis.net/articles/view.aspx/IIS7/Use-IIS7-Administration-Tools/Using-XML-Configuration/Metabase-Compatibility-with-IIS7](../../../articles/view.aspx/IIS7/Use-IIS7-Administration-Tools/Using-XML-Configuration/Metabase-Compatibility-with-IIS7.md) .

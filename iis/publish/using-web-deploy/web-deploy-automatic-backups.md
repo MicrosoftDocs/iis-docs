@@ -60,36 +60,31 @@ This will load the following functions into the session that you can use to conf
 
 Allows a server administrator to turn backups on or off at a *SERVER* scope, without overwritting site specific settings. By default, backups are turned off. Even after turning backups on, backups must still be "enabled" at the server or site level in order for backups to be taken.
 
-> [!code-powershell[Main](web-deploy-automatic-backups/samples/sample3.ps1)]
-
+[!code-powershell[Main](web-deploy-automatic-backups/samples/sample3.ps1)]
 
 **Configure-Backups:** 
 
 Allows a server administrator to configure the default backup behavior at the *SERVER* or *SITE* specific scope. If an administrator specifies a setting at the server scope and a site has already specified a site specific setting, Web Deploy will prefer the site specific settings over the server settings. If a server administrator would like for the server settings to take preference, he/she should reset the site backup settings which would cause the site to automatically inherit its settings from the server.
 
-> [!code-powershell[Main](web-deploy-automatic-backups/samples/sample4.ps1)]
-
+[!code-powershell[Main](web-deploy-automatic-backups/samples/sample4.ps1)]
 
 **Configure-BackupSettingsProvider**:
 
 Site administrators can modify their site specific backup settings by using the BackupSettingsProvider with Web Deploy. This function allows a server administrator to control exactly which settings a site administrator can configure.
 
-> [!code-powershell[Main](web-deploy-automatic-backups/samples/sample5.ps1)]
-
+[!code-powershell[Main](web-deploy-automatic-backups/samples/sample5.ps1)]
 
 **Get-BackupSettings**
 
 Queries the server or a sites specific backup settings.
 
-> [!code-powershell[Main](web-deploy-automatic-backups/samples/sample6.ps1)]
-
+[!code-powershell[Main](web-deploy-automatic-backups/samples/sample6.ps1)]
 
 **Reset-BackupSettings**
 
 Resets the server or a sites backup settings. If you reset a sites backup settings, it will automatically inherit from the servers backup settings.
 
-> [!code-powershell[Main](web-deploy-automatic-backups/samples/sample7.ps1)]
-
+[!code-powershell[Main](web-deploy-automatic-backups/samples/sample7.ps1)]
 
 ### Configuring Backup Settings on the Server for Global usage manually in IIS Config
 
@@ -103,9 +98,9 @@ The following global backup settings may be configured directly in the IIS Confi
     - sitePathParent - The physical file path of the parent of your sites content. For example, if your site's application lives under "c:\inetpub\wwwroot\siteName", then sitePathParent would be "c:\inetpub\wwwroot\".
     - siteName - The name of your site.
 
-> > **Example**: The default schema sets this path to "{sitePathParent}\{siteName}\_snapshots" so that each backup will be placed under a sibling folder of your site content instead of within it.
-> > 
-> > **WARNING:** Make sure that your backupPath does not live under your sites content path or your backups will be deleted on each publish.
+> **Example**: The default schema sets this path to "{sitePathParent}\{siteName}\_snapshots" so that each backup will be placed under a sibling folder of your site content instead of within it.
+> 
+> **WARNING:** Make sure that your backupPath does not live under your sites content path or your backups will be deleted on each publish.
 
 
 - **numberOfBackups** - (Default = "4") The number of backups per site that will be stored on the server. When the maximum number of backups has been created, the oldest backup will be deleted.
@@ -157,12 +152,13 @@ If you do not want to use the end users identity to create their backups, you ca
 
 > [!NOTE]
 >  
+> 
+> - Delegation rules only apply for non-administrative users connecting through WMSvc. For administrators (connecting through Web Deploy agent), their own identity is used.
+> - If you want to configure delegation rules manually, [run our AddDelegationRules.ps1 script](powershell-scripts-for-automating-web-deploy-setup.md).
+> - The Backup feature comes with 2 new provider delegation rules (BackupSettings and BackupManager) as shown below.
+> 
+> [![](web-deploy-automatic-backups/_static/image3.png)](web-deploy-automatic-backups/_static/image2.png)
 
-- Delegation rules only apply for non-administrative users connecting through WMSvc. For administrators (connecting through Web Deploy agent), their own identity is used.
-- If you want to configure delegation rules manually, [run our AddDelegationRules.ps1 script](powershell-scripts-for-automating-web-deploy-setup.md).
-- The Backup feature comes with 2 new provider delegation rules (BackupSettings and BackupManager) as shown below.
-
-[![](web-deploy-automatic-backups/_static/image3.png)](web-deploy-automatic-backups/_static/image2.png)
 
 ## Configuring Site-Level Backup Settings on the Server (For Site/server Administrators)
 
