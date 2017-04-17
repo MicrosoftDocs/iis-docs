@@ -1,0 +1,2 @@
+[DenyHeaders]
+Transfer-Encoding

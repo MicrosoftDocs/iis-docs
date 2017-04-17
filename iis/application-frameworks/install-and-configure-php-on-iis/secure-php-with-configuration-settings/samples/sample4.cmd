@@ -1,0 +1,1 @@
+error_log = /home/yourUserID/public_html/phperr.txt

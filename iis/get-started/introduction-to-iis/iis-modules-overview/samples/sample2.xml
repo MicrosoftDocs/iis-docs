@@ -1,0 +1,7 @@
+<modules>
+<addname="DefaultDocumentModule" />
+<addname="DirectoryListingModule" />
+<add name="StaticFileModule"/>
+ ...
+
+</modules>

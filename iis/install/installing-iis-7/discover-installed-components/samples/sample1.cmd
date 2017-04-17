@@ -1,0 +1,1 @@
+HKEY_LOCAL_MACHINE\Software\Microsoft\InetStp\Components\

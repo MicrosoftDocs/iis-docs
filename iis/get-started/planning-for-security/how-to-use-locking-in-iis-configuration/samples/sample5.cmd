@@ -1,0 +1,1 @@
+lockAttributes="enabled,attribute1,attribute2"

@@ -1,0 +1,1 @@
+msdeploy -verb:getDependencies -source:apphostconfig="Default Web Site"

@@ -1,0 +1,4 @@
+[AllowVerbs]
+GET
+HEAD
+POST

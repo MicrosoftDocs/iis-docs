@@ -1,6 +1,30 @@
 {
+  "build_entry_point": "docs",
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
+  "need_preview_pull_request": true,
+  "need_pr_comments": false,
+  "git_repository_branch_open_to_public_contributors": "master",
+  "need_generate_pdf_url_template": true,
+  "Targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  },
+  "branch_target_mapping": {
+    "live": [
+      "Publish",
+      "Pdf"
+    ],
+    "master": [
+      "Publish",
+      "Pdf"
+    ],
+    "neu": [
+      "Publish",
+      "Pdf"
+    ]
+  },
   "docsets_to_publish": [
     {
       "docset_name": "IIS",
@@ -8,7 +32,7 @@
       "build_output_subfolder": "IIS",
       "locale": "en-us",
       "version": 0,
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -21,7 +45,6 @@
   "notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
-  "need_preview_pull_request": false,
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -29,6 +52,5 @@
       "branch": "master",
       "branch_mapping": {}
     }
-  ],
-  "need_generate_pdf_url_template": false
+  ]
 }

@@ -1,0 +1,1 @@
+<add input="{QUERY_STRING}" pattern="id=([0-9]+)" />

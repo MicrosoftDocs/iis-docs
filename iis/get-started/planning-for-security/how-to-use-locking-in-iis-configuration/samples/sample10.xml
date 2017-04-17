@@ -1,0 +1,6 @@
+<windowsAuthentication enabled="true" lockAllElementsExcept="providers">
+     <providers>
+          <add value="Negotiate" />
+          <add value="NTLM" />
+     </providers>
+</windowsAuthentication>

@@ -1,0 +1,12 @@
+<parameters>  
+  <parameter  
+    name="AppPath" 
+    defaultValue="Default Web Site/application"  
+    tags="iisapp"  
+    >  
+    <parameterEntry  
+      type="ProviderPath"  
+      scope="iisapp"  
+      match="application"  
+    />  
+  </parameter>

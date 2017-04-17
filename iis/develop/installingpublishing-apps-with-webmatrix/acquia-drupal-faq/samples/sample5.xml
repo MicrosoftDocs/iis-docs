@@ -1,0 +1,3 @@
+<parameter name="db_url in default settings php" description="DB URL in default settings php" defaultValue="*/ $db_url = 'mysql://{Database Username}:{Database Password}@{Database Server}/{Database Name}';" tags="Hidden">
+<parameterEntry kind="TextFile" scope="\\sites\\default\\settings.php" match="\*/\n*\s*\$db_url[^;]*;" />
+</parameter>

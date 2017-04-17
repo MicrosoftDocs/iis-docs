@@ -1,0 +1,6 @@
+<applicationPools>
+   <add name="DefaultAppPool">
+      <cpu smpAffinitized="true" smpProcessorAffinityMask="82004080" 
+      smpProcessorAffinityMask2="8008080" processorGroup="1" />
+   </add>
+</appricationPools>

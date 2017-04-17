@@ -1,0 +1,1 @@
+Cscript.exe AppDomainUnloadAll.vbs

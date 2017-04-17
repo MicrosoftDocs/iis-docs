@@ -1,0 +1,23 @@
+<ASX VERSION="3.0">
+    <TITLE>Hello Playlist!</TITLE>
+    <PARAM NAME="LastModified" VALUE="2008-09-09T16:24:37Z" />
+    <AUTHOR>IIS Team</AUTHOR>
+    <ENTRY>
+        <PARAM NAME="CANSKIPFORWARD" VALUE="NO"/><TITLE>Advertisement</TITLE>
+        <REF href="http://iismp-demo/file.isx?sessionId=261276a9-99c2-4af6-b81d-47e88b7ce18c;entryId=1" />
+        <DURATION VALUE="00:00:05" />
+    </ENTRY>
+    <ENTRY>
+        <TITLE>Die Hard Preview</TITLE>
+        <REF href="http://iismp-demo/file.isx?sessionId=261276a9-99c2-4af6-b81d-47e88b7ce18c;entryId=2" />
+        <COPYRIGHT>IIS Media Services</COPYRIGHT>
+    </ENTRY>
+    <ENTRY>
+        <TITLE>George Preview</TITLE>
+        <REF href="http://iismp-demo/file.isx?sessionId=261276a9-99c2-4af6-b81d-47e88b7ce18c;entryId=3" />
+    </ENTRY>
+    <ENTRY>
+        <TITLE>Remote Preview</TITLE>
+        <REF href="http://iismp-demo/file.isx?sessionId=261276a9-99c2-4af6-b81d-47e88b7ce18c;entryId=4" />
+    </ENTRY>
+</ASX>

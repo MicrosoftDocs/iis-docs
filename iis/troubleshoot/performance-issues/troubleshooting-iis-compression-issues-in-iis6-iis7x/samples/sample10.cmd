@@ -1,0 +1,1 @@
+adsutil.vbs SET w3svc/filters/compression/gzip/HcFileExtensions "htm" "html" "txt"

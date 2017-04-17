@@ -1,0 +1,1 @@
+%windir%\system32\inetsrv\appcmd.exe add module /name:FormsAuthentication /type:System.Web.Security.FormsAuthenticationModule /app.name:"Default Web Site"

@@ -1,0 +1,8 @@
+<location path="" overrideMode="Allow">
+    <system.webServer>
+        <httpErrors>
+            ...
+            ...
+        </httpErrors>
+    </system.webServer>
+</location>

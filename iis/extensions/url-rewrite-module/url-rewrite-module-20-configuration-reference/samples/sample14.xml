@@ -1,0 +1,6 @@
+<outboundRules>
+    <rule name="Set Custom Header">
+        <match serverVariable="RESPONSE_X_Custom_Header" pattern="^$" />
+        <action type="Rewrite" value="Something" />
+    </rule>
+</outboundRules>

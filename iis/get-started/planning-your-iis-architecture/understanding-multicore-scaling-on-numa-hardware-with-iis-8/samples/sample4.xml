@@ -1,0 +1,8 @@
+<element name="cpu">
+ ... 
+ <attribute name="numaNodeAssignment" type="enum"   defaultValue="MostAvailableMemory">
+ <enum name="MostAvailableMemory" value="0"/>
+ <enum name="WindowsScheduling" value="1"/>
+ </attribute >
+ ... 
+</element>

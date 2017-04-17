@@ -1,0 +1,1 @@
+PS C:\Data> remove-item PSBackup –recurse

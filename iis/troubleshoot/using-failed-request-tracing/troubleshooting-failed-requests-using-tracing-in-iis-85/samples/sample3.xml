@@ -1,0 +1,12 @@
+<system.applicationHost>
+   <!-- other system configuration --> 
+   <sites> 
+      <site name="Default Web Site" id="1"> 
+         <!-- other site configuration --> 
+         <traceFailedRequestsLogging  enabled="true" /> 
+      </site> 
+      <! -- site & app defaults --> 
+      <!-- other sites configuration --> 
+   </sites> 
+   <!-- other system configuration --> 
+</system.applicationHost>

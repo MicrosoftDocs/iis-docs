@@ -1,0 +1,1 @@
+msdeloy.exe -Verb:Sync -Source:dbDacFx="Data Source=.\SQLEXPRESS; Database=OldDatabase; User ID=sa; Password=P@$$W0rd" -Dest:dbDacFx="C:\Users\Admininstrator\Documents\database.dacpac"

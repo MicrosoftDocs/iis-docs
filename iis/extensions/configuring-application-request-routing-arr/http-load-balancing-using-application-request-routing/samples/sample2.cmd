@@ -1,0 +1,1 @@
+appcmd.exe clear config -section:system.webServer/rewrite/globalRules

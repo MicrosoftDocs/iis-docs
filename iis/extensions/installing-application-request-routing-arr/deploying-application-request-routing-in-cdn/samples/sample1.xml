@@ -1,0 +1,8 @@
+<rewrite>
+   <globalRules>
+      <rule name="ARR_myParentCacheNodes_loadbalance" patternSyntax="Wildcard" stopProcessing="true">
+         <match url="*" />
+         <action type="Rewrite" url="http://myParentCacheNodes/{R:0}" />
+      </rule>
+   </globalRules>
+</rewrite>

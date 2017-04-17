@@ -1,0 +1,16 @@
+Add-WebConfiguration                                                                               
+Add-WebConfigurationProperty                                                                       
+Begin-WebCommitDelay                                                                                  
+Clear-WebConfiguration                                                                             
+End-WebCommitDelay                                                                                    
+Get-WebURL                                                                                            
+Get-WebConfiguration                                                                               
+Get-WebConfigurationProperty                                                                       
+Get-WebItemState                                                                                   
+Remove-WebConfigurationProperty                                                                    
+Restart-WebItem                                                                                    
+Set-WebConfiguration                                                                               
+Set-WebConfigurationProperty   
+Select-WebConfiguration                                                             
+Start-WebItem                                                                                      
+Stop-WebItem

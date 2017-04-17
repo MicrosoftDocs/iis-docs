@@ -1,0 +1,1 @@
+0 =  Cache miss, 1 = Cache hit

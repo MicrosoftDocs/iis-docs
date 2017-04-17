@@ -1,0 +1,1 @@
+msdeploy.exe -dest:ApphostAuthOverride="<siteName>;windowsAuthentication"

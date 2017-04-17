@@ -1,0 +1,3 @@
+<%
+   Response.Write Server.MapPath("../example.asp")
+   %>

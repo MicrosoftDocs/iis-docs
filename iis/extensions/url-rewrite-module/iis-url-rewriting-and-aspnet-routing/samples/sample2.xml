@@ -1,0 +1,8 @@
+<rewrite>
+    <rules>
+        <rule name="Forward to static file server">
+            <match url="^.+\.(?:jpg|bmp|gif)$" />
+            <action type="Rewrite" url="http://static_file_server/{R:0}" />
+        </rule>
+    </rules>
+</rewrite>

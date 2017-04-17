@@ -1,0 +1,1 @@
+<asp:Image runat="server" ImageUrl="~/Images/MyImage.gif" />

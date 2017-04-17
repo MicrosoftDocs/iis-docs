@@ -1,0 +1,1 @@
+Robocopy.exe "EE4Output" "\\ServerName\inetpub\wwwroot\{Watch Folder}\{File Name}" *.ismv /R:5 /W:60

@@ -1,0 +1,1 @@
+notepad %windir%\iis7.log

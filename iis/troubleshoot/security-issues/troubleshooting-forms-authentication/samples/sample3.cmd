@@ -1,0 +1,1 @@
+String authUser2 = User.Identity.Name;

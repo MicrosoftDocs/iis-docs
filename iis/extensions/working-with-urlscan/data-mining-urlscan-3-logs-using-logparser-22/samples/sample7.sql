@@ -1,0 +1,1 @@
+logparser.exe "SELECT * FROM UrlScan.*.log WHERE x-action='Rejected'" -i:w3c

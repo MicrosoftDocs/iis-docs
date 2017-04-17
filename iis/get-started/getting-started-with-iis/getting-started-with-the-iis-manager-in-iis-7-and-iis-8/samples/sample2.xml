@@ -1,0 +1,8 @@
+<configuration>
+   <system.webServer>
+      <httpErrors>
+         <remove statusCode="404" subStatusCode="-1" />
+         <error statusCode="404" path="/errors/404.aspx" responseMode="Redirect" />
+      </httpErrors>
+   </system.webServer>
+</configuration>

@@ -1,0 +1,14 @@
+<parameter 
+  name="Create DB and DB User Connection String" 
+  description="Automatically sets the connection string for the connection request."
+  defaultValue="Server={Database Server};Database={Database Name};uid={Database Administrator};Pwd={Database Administrator Password};"
+  tags="Hidden,SQLConnectionString,Validate">
+  <parameterEntry type="ProviderPath" scope="dbfullsql" match="CreateDBAndUser.sql" />
+</parameter>
+<parameter 
+  name="Populate DB Connection String" 
+  description="Automatically sets the connection string for the connection request." 
+  defaultValue="Server={Database Server};Database={Database Name};uid={Database Administrator};Pwd={Database Administrator Password};" 
+  tags="Hidden,SQLConnectionString,Validate">
+  <parameterEntry type="ProviderPath" scope="dbfullsql" match="VacPicDBSchema.sql" />
+</parameter>

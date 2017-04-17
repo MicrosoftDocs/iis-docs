@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <rewrite>
+            <rules>
+                <rule name="Rewrite content">
+                    <match url="^content/(.*)" />
+                    <conditions logicalGrouping="MatchAll">
+                        <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+                        <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+                    </conditions>
+                    <action type="Rewrite" url="index3.php" />
+                </rule>
+                <rule name="Rewrite component">
+                    <match url="^component/(.*)"  />
+                    <action type="Rewrite" url="index3.php" />
+                </rule>
+                <rule name="Rewrite mos">
+                    <match url="^mos/(.*)" />
+                    <action type="Rewrite" url="index3.php" />
+                </rule>
+            </rules>
+        </rewrite>
+    </system.webServer>
+</configuration>

@@ -1,0 +1,1 @@
+Install: wusa <update_package_name.msu> /quite

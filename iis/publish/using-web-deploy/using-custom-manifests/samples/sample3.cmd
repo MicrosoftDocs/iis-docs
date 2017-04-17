@@ -1,0 +1,1 @@
+msdeploy.exe -verb:sync -source:manifest=custom.xml -dest:manifest=custom.xml,computername=Server1 > webdeploysync.log

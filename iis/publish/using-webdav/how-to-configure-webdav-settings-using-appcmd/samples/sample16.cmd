@@ -1,0 +1,1 @@
+AppCmd set config "Default Web Site/" /section:system.webServer/webdav/authoring /requireSsl:false /commit:apphost

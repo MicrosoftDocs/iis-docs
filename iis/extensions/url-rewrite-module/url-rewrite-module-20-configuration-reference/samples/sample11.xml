@@ -1,0 +1,7 @@
+<rule name="Rewrite to index.php" stopProcessing="true">
+    <match url="(.*)\.htm$" />
+    <serverVariables>
+        <set name="X_REQUESTED_URL_PATH" value="{R:1}" />
+    </serverVariables>
+    <action type="Rewrite" url="index.php?path={R:1}" />
+</rule>

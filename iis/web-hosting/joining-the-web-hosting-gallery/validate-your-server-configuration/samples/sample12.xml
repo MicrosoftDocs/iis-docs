@@ -1,0 +1,7 @@
+<Validation
+             type="MyCustomValidator"
+             key1="value1"
+             key2="value2"
+             description="My custom validator"
+             detailsUrlBase="http://www.foosomerandomsite.com"
+    />

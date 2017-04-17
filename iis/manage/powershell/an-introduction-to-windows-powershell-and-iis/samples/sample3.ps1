@@ -1,0 +1,1 @@
+PS C:\Data> copy-item 'PowerShell' 'C:\Data\PSBackup' -recurse –force

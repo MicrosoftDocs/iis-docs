@@ -1,0 +1,10 @@
+<outboundRules>
+    <!-- This rule changes the domain in the HTTP location header for redirection responses -->
+    <rule name="Change Location Header">
+        <match serverVariable="RESPONSE_LOCATION" pattern="^http://[^/]+/(.*)" />
+        <conditions>
+            <add input="{RESPONSE_STATUS}" pattern="^301" />
+        </conditions>
+        <action type="Rewrite" value="http://{HTTP_HOST}/{R:1}"/>
+    </rule>
+</outboundRules>

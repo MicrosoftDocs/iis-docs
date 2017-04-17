@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <system.webServer>
+    <rewrite>
+      <rules>
+        <rule name="Security Rule" stopProcessing="true">
+          <match url="^(.*)$" ignoreCase="false" />
+          <conditions logicalGrouping="MatchAny">
+            <add input="{QUERY_STRING}" pattern="mosConfig_[a-zA-Z_]{1,21}(=|\%3D)" \
+                ignoreCase="false" />
+            <add input="{QUERY_STRING}" pattern="base64_encode.*\(.*\)" \
+                ignoreCase="false" />
+            <add input="{QUERY_STRING}" pattern="(\&lt;|%3C).*script.*(\>|%3E)" />
+            <add input="{QUERY_STRING}" pattern="GLOBALS(=|\[|\%[0-9A-Z]{0,2})" \
+                    ignoreCase="false" />
+            <add input="{QUERY_STRING}" pattern="_REQUEST(=|\[|\%[0-9A-Z]{0,2})"  \
+                    ignoreCase="false" />
+          </conditions>
+          <action type="CustomResponse" url="index.php" statusCode="403" \
+                 statusReason="Forbidden" statusDescription="Forbidden" />
+        </rule>
+        <rule name="SEO Rule">
+          <match url="(.*)" ignoreCase="false" />
+          <conditions logicalGrouping="MatchAll">
+            <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" pattern="" \
+                ignoreCase="false" />
+<add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" \      
+     pattern=""ignoreCase="false" />
+            <add input="{URL}" negate="true" pattern="^/index.php" ignoreCase="false" />
+            <add input="{URL}" \
+                pattern="(/|\.php|\.html|\.htm|\.feed|\.pdf|\.raw|/[^.]*)$" />
+          </conditions>
+          <action type="Rewrite" url="index.php" />
+        </rule>
+      </rules>
+    </rewrite>
+ </system.webServer>
+</configuration>

@@ -1,0 +1,21 @@
+<dependency id="PHPApp">
+      <and>
+        <!--msdeploy-->
+        <dependency>
+          <productId>WDeployNoSMO</productId>
+        </dependency>
+        <!--php-->
+        <dependency>
+          <or>
+            <dependency>
+              <productId>PHP</productId>
+            </dependency>
+            <dependency>
+              <productId>LegacyPHP</productId>
+            </dependency>
+          </or>
+        </dependency>
+        <!-- bring along IIS for PHP-->
+        <dependency idref="IISForPHP" />
+      </and>
+    </dependency>

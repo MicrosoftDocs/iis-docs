@@ -1,0 +1,1 @@
+windbg –pn wmsvc.exe

@@ -1,0 +1,1 @@
+%windir%\system32\inetsrv\appcmd list config "Default Web Site" –section:system.webServer/simpleLogging

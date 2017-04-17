@@ -1,0 +1,1 @@
+C:\windows\system32\inetsrv>appcmd set config /section:httpLogging /dontLog:True

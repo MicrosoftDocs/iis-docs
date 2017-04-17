@@ -1,0 +1,22 @@
+<configSections>
+  <sectionGroup name="system.applicationHost" type="">
+    <section name="applicationPools" type="" allowDefinition="MachineOnly" overrideModeDefault="Deny" />
+    <section name="customMetadata" type="" allowDefinition="MachineOnly" overrideModeDefault="Deny" />
+    <section name="listenerAdapters" type="" allowDefinition="MachineOnly" overrideModeDefault="Deny" />
+    <section name="log" type="" allowDefinition="MachineOnly" overrideModeDefault="Deny" />
+    <section name="sites" type="" allowDefinition="MachineOnly" overrideModeDefault="Deny" />
+    <section name="webLimits" type="" allowDefinition="MachineOnly" overrideModeDefault="Deny" />
+  </sectionGroup>
+  <sectionGroup name="system.webServer" type="">
+    <section name="asp" type="" overrideModeDefault="Deny" />
+    <section name="defaultDocument" type="" overrideModeDefault="Allow" />
+    <sectionGroup name="security" type="">
+      <section name="access" type="" overrideModeDefault="Deny" />
+      <section name="applicationDependencies" type="" overrideModeDefault="Deny" />
+      <sectionGroup name="authentication" type="">
+        <section name="anonymousAuthentication" type="" overrideModeDefault="Deny" />        
+
+      </sectionGroup>
+    </sectionGroup>
+  </sectionGroup>
+</configSections>

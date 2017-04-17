@@ -1,0 +1,24 @@
+<system.webServer>
+        <media>
+            <bitrateThrottling enabled="true" minSendSize="5840">
+                <throttleSettings>
+                    <add fileExtension=".asf" settingType="media" initialBufferTimeSeconds="20" throttleRatePercentage="100" connectionLimitGroup="VideoFiles" />
+                    <add fileExtension=".wmv" settingType="media" initialBufferTimeSeconds="20" throttleRatePercentage="100" connectionLimitGroup="VideoFiles" />
+                    <add fileExtension=".wma" settingType="media" initialBufferTimeSeconds="20" throttleRatePercentage="100" connectionLimitGroup="AudioFiles" />
+                    <add fileExtension=".avi" settingType="media" initialBufferTimeSeconds="20" throttleRatePercentage="100" connectionLimitGroup="VideoFiles" />
+                    <add fileExtension=".mp3" settingType="media" initialBufferTimeSeconds="10" throttleRatePercentage="100" connectionLimitGroup="AudioFiles" />
+                    <add fileExtension=".mp4" settingType="media" initialBufferTimeSeconds="10" throttleRatePercentage="100" connectionLimitGroup="VideoFiles" />
+                    <add fileExtension=".mov" settingType="media" initialBufferTimeSeconds="10" throttleRatePercentage="100" connectionLimitGroup="VideoFiles" />
+                    <add fileExtension=".flv" settingType="media" initialBufferTimeSeconds="10" throttleRatePercentage="100" connectionLimitGroup="VideoFiles" />
+                    <add fileExtension=".rm" settingType="media" initialBufferTimeSeconds="10" throttleRatePercentage="100" connectionLimitGroup="AudioFiles" />
+                    <add fileExtension=".rmvb" settingType="media" initialBufferTimeSeconds="10" throttleRatePercentage="100" connectionLimitGroup="VideoFiles" />
+                    <add fileExtension=".jpg" settingType="data" initialSendSizeKBytes="10" throttleRateKbps="5" />
+                </throttleSettings>
+                <connectionLimitGroups>
+                    <add name="VideoFiles" connectionLimit="0" />
+                    <add name="AudioFiles" connectionLimit="0" />
+                </connectionLimitGroups>
+                ...
+            </bitrateThrottling>
+        </media>
+    </system.webServer>

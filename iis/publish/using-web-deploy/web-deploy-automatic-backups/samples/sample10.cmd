@@ -1,0 +1,1 @@
+msdeploy.exe -verb:dump -source:backupSettings=<siteName> -xml

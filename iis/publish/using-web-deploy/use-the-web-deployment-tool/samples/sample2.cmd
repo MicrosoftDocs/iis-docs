@@ -1,0 +1,1 @@
+msiexec /i <msi_filename> /passive ADDLOCAL=ALL LISTENURL=http://+:8080/MSDEPLOY2/

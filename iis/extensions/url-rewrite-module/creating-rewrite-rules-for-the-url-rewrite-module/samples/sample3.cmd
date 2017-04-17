@@ -1,0 +1,1 @@
+article.aspx?id={R:1}&title={R:2}

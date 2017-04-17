@@ -1,0 +1,7 @@
+<add name=".NET v4.5"
+                startMode="AlwaysRunning"
+    managedRuntimeVersion="v4.0" >
+  <recycling logEventOnRecycle="Schedule">
+    <periodicRestart requests="30" />
+  </recycling>
+</add>

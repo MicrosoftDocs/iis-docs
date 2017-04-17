@@ -1,0 +1,6 @@
+<caching>
+    <profiles>
+            <add extension=".jpg" policy="CacheForTimePeriod" 
+                duration="00:00:10" varyByHeaders="Accept-Language" />
+        </profiles>
+</caching>

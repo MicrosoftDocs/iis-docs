@@ -1,0 +1,7 @@
+<configSchema> 
+    <sectionSchema name="system.webServer/simpleLogging"> 
+        <attribute name="logfileDirectory" type="string" 
+            defaultValue="%systemdrive%\inetpub\logs\simpleLogs" expanded="true" encrypted="false" />
+
+    </sectionSchema> 
+</configSchema>

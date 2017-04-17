@@ -1,0 +1,1 @@
+Appcmd.exe delete module MODULE_NAME [/app.name:APPLICATION_NAME]

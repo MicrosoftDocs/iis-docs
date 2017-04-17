@@ -1,0 +1,14 @@
+<requestFiltering>
+   <hiddenSegments applyToWebDAV="false">
+      <add segment="_fpclass" />
+      <add segment="_private" />
+      <add segment="_vti_cnf" />
+      <add segment="_vti_log" />
+      <add segment="_vti_pvt" />
+      <add segment="_vti_txt" />
+      <add segment="fpdb" />
+   </hiddenSegments>
+   <denyUrlSequences>
+      <add sequence="_vti_bin" />
+   </denyUrlSequences>
+</requestFiltering>

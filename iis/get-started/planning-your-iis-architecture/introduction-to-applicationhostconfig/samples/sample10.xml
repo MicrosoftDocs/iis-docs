@@ -1,0 +1,4 @@
+<flags            
+    name=""  [String, Required] [Friendly name of the flag]
+    value="" [int in power of 2, Required] [Numeric value]
+/>

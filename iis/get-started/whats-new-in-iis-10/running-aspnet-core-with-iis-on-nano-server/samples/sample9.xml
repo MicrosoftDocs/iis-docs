@@ -1,0 +1,19 @@
+<sites>
+<site name="Default Web Site" id="1">
+	<application path="/">
+		<virtualDirectory path="/" physicalPath="%SystemDrive%\inetpub\wwwroot" />
+	</application>
+	<bindings>
+		<binding protocol="http" bindingInformation="*:80:" />
+	</bindings>
+</site>
+<site name="AspNetCoreSite" id="2">
+	<application path="/">
+		<virtualDirectory path="/" physicalPath="C:\HelloAspNetCore\wwwroot" />
+	</application>
+	<bindings>
+		<binding protocol="http" bindingInformation="*:8000:" />
+	</bindings>
+</site>
+… rest of xml…
+</sites>

@@ -1,0 +1,1 @@
+http://localhost/article/342/some-article-title

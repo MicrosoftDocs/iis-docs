@@ -1,0 +1,9 @@
+<location path="siteName" overrideMode="Allow">
+<system.webServer>
+<security>
+<authentication>
+<windowsAuthentication />
+</authentication>
+</security>
+</system.webServer>
+</location>

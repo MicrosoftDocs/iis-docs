@@ -1,0 +1,1 @@
+set-webconfigurationproperty /system.webServer/caching iis:\sites\mysite -name enabled -value true

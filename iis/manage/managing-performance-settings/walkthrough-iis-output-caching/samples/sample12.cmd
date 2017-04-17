@@ -1,0 +1,1 @@
+"%programfiles%\IIS Resources\WCAT Client\wcclient.exe" localhost

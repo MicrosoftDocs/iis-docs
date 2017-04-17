@@ -1,0 +1,1 @@
+Configuration config = serverManager.GetApplicationHostConfiguration();

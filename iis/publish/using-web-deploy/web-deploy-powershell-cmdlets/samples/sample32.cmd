@@ -1,0 +1,1 @@
+Restore-WDPackage c:\Packages\wordpress.zip -DBAdminPassword mysecretserverpassword –DBPassword mysqllocalpassword

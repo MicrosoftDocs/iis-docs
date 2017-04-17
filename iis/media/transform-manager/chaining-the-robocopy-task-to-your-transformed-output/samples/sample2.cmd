@@ -1,0 +1,1 @@
+Robocopy.exe "EE4Output" "\\ServerName\inetpub\wwwroot\" * /R:3 /W:30

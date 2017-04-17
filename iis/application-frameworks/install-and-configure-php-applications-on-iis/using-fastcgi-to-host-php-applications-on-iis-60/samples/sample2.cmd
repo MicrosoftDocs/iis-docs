@@ -1,0 +1,1 @@
+cscript fcgiconfig.js -add -section:"PHP" -extension:php -path:"C:\PHP\php-cgi.exe" –site:1

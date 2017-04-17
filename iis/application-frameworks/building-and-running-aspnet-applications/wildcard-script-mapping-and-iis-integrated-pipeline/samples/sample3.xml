@@ -1,0 +1,8 @@
+<system.Web>
+  <httpModules>
+    ...
+    <add name="MyUrlRewrite" 
+         type="SomeNamespace.MyModules.UrlRewrite, SomeNamespace.MyModules" />
+    ...
+  </httpModules>
+</system.Web>

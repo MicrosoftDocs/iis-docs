@@ -1,0 +1,3 @@
+<enum name=""  [String, Required] [Friendly name of the enum]
+    value="" [int, Required] [Numeric value]
+/>

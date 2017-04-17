@@ -1,0 +1,1 @@
+remove-webconfigurationproperty /system.webServer/defaultDocument -name files -atElement @{value="foo.html"}

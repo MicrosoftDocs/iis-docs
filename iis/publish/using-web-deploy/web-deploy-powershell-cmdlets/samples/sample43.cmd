@@ -1,0 +1,1 @@
+Sync-WDMySQLDatabase "server=localhost;uid=root;pwd=********;database=wordpress265" "server=localhost;uid=root;pwd=************;database=wordpress265_new"

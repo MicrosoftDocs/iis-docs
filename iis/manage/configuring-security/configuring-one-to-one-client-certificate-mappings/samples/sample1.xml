@@ -1,0 +1,12 @@
+<sectionSchema name="system.webServer/security/authentication/iisClientCertificateMappingAuthentication">
+  <attribute name="enabled" type="bool" defaultValue="false" />
+  <attribute name="oneToOneCertificateMappingsEnabled" type="bool" defaultValue="true" />
+  <element name="oneToOneMappings">
+    <collection addElement="add" clearElement="clear">
+      <attribute name="enabled" type="bool" defaultValue="true" />
+      <attribute name="userName" type="string" />
+      <attribute name="password" type="string" encrypted="true" />
+      <attribute name="certificate" type="string" required="true" isUniqueKey="true" />
+    </collection>
+  </element>
+</sectionSchema>

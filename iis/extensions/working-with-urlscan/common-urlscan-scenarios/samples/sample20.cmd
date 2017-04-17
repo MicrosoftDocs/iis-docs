@@ -1,0 +1,1 @@
+LogParser –h –i:W3C <log filename>

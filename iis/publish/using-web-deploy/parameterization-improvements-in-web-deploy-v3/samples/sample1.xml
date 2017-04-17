@@ -1,0 +1,1 @@
+<parameters><parameter name="Additive" description="Add a node" defaultValue="&lt;newNode />" tags=""><parameterEntry kind="XmlFile" scope=".*" match="//*" /></parameter></parameters>

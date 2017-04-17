@@ -1,0 +1,12 @@
+<!-- the following will take effect on MyAdminSite -->
+<location path="MyAdminSite">
+  <system.webServer>
+    <security>
+      <authentication>
+        <basicAuthentication enabled="false"/>
+        <windowsAuthentication enabled="true"/>
+        <anonymousAuthentication enabled="false"/>
+      </authentication>
+    </security>
+  </system.webServer>
+</location>

@@ -1,0 +1,8 @@
+<site name="Default Web Site" id="1">
+    <application path="/">
+        <virtualDirectory path="/" physicalPath="%SystemDrive%\inetpub\wwwroot" />
+    </application>
+    <bindings>
+        <binding protocol="http" bindingInformation="*:80:" />
+    </bindings>
+</site>

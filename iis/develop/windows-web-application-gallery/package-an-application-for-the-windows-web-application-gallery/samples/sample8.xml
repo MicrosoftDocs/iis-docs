@@ -1,0 +1,4 @@
+<msdeploy.iisapp> 
+  <iisapp path="Application" /> 
+  <dbfullsql path="install.sql" /> 
+</msdeploy.iisapp>

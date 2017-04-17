@@ -1,0 +1,4 @@
+<parameter name="Local Application URL" description="The URL of the application on the target box such as http://www.myserver.com/myapp ." defaultValue="" tags="AppURL">
+  <parameterEntry kind="TextFile" scope="dbFullSql|dbMySql" match="http://localhost:?[0-9]*/?" />
+  <parameterEntry kind="TextFile" scope="dbFullSql|dbMySql" match="http://127.0.0.1:?[0-9]*/?" />
+</parameter>

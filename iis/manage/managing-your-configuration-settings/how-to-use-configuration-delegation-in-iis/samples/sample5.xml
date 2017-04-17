@@ -1,0 +1,10 @@
+<configuration>
+  <system.webServer>
+    <security>
+      <authentication>
+        <windowsAuthentication enabled="false" />
+        <anonymousAuthentication enabled="false" />
+      </authentication>
+    </security>
+  </system.webServer>
+</configuration>

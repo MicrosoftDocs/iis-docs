@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -18,7 +19,14 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.pdf",
+          "**/*.exe",
+          "**/*.wmv",
+          "**/*.zip",
+          "**/*.bmp",
+          "**/*.jpeg"
         ],
         "exclude": [
           "**/obj/**",
@@ -28,7 +36,12 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/iis/breadcrumb/toc.json",
+      "_navPath": "/foo",
+      "_navRel": "/foo",
+      "searchScope": ""
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "IIS"

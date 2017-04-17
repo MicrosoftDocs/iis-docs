@@ -1,0 +1,6 @@
+<configuration>
+  <connectionStrings>
+    <add name="CohoWineryConnectionString" 
+connectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\CohoWinery.mdf;Integrated Security=True;User Instance=True" providerName="System.Data.SqlClient" />
+  </connectionStrings>
+</configuration>

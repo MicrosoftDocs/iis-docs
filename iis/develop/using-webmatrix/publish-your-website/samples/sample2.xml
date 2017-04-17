@@ -1,0 +1,8 @@
+<configuration>
+  <connectionStrings>
+    <add name="CohoWineryConnectionString" 
+connectionString="Data Source=Server01;Initial Catalog=CohoWinery; Trusted_Connection=True" />
+    <add name="SmallBakeryConnectionString" 
+connectionString="Data Source=Server01;Initial Catalog=SmallBakery; User Id=username; Password=password" />
+  </connectionStrings>
+</configuration>

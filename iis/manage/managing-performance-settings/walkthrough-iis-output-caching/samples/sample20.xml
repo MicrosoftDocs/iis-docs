@@ -1,0 +1,6 @@
+<caching>
+    <profiles>
+            <add extension=".jpg" kernelCachePolicy="CacheForTimePeriod" 
+        duration="00:00:10" />
+        </profiles>
+</caching>

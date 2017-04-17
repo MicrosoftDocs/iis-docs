@@ -1,0 +1,1 @@
+C:\PHP>php –info

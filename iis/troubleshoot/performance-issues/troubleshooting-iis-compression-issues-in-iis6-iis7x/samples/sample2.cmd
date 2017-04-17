@@ -1,0 +1,1 @@
+HTTP: Content-Encoding = gzip

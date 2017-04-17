@@ -1,0 +1,1 @@
+%windir%\system32\inetsrv\appcmd set config -section:system.applicationHost/webLimits -dynamicIdleThreshold:130

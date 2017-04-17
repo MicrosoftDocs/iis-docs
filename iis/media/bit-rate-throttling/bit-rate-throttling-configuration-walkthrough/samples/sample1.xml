@@ -1,0 +1,3 @@
+<sectionGroup name="media">
+                <section name="Bit RateThrottling" overrideModeDefault="Deny" />
+            </sectionGroup>

@@ -1,0 +1,1 @@
+certmgr.exe /c /s /r localMachine MY

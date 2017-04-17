@@ -1,0 +1,12 @@
+<configuration> 
+  <system.webServer> 
+    <security> 
+      <requestFiltering> 
+        <denyUrlSequences> 
+          <add sequence=".inc"/> 
+          <add sequence=".log"/> 
+        </denyUrlSequences> 
+      </requestFiltering> 
+    </security> 
+  </system.webServer> 
+</configuration>

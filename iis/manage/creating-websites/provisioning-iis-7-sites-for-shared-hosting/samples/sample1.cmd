@@ -1,0 +1,1 @@
+%windir%\system32\inetsrv\AppCmd set config <sitename> -section:traceFailedRequestsLogging.directory:\\remotefileserver\content$\<sitename>\logs\failedRequestLogfiles

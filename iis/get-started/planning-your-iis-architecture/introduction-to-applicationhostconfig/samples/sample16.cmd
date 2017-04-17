@@ -1,0 +1,2 @@
+validationType="trimWhiteSpaceString"
+validationParameter=""

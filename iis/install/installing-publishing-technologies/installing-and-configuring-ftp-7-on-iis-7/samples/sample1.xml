@@ -1,0 +1,12 @@
+<ftpServer>
+   <security>
+      <authentication>
+         <customAuthentication>
+            <providers>
+               <clear />
+               <add name="IisManagerAuth" enabled="true" />
+            </providers>
+         </customAuthentication>
+      </authentication>
+   </security>
+</ftpServer>

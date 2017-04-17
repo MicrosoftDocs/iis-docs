@@ -1,0 +1,9 @@
+<rewrite>
+ <rule name="Redirect rule">
+  <match url=".*" />
+  <conditions>
+   <add input="{StaticRedirects:{REQUEST_URI}}" pattern="(.+)" />
+  </conditions>
+  <action type="Redirect" url="http://www.contoso.com{C:1}" redirectType="Found" />
+ </rule>
+</rewrite>

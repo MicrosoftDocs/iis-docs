@@ -1,0 +1,1 @@
+>cscript C:\windows\system32\inetsrv\fcgiconfig.js -set -section:"PHP" –MaxInstances:32

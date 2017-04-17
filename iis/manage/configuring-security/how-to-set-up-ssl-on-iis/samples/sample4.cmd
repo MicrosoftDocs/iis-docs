@@ -1,0 +1,1 @@
+%windir%\system32\inetsrv>AppCmd list config "Default Web Site" -section:access

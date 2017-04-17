@@ -1,0 +1,1 @@
+AddClientConfig.js [/f:<fields.xml>] [/b:<baseFileName>]

@@ -1,0 +1,1 @@
+"The specified CGI application misbehaved by not returning a complete set of HTTP headers"

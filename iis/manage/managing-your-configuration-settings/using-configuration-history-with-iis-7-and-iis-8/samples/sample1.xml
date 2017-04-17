@@ -1,0 +1,9 @@
+<sectionGroup name"system.applicationHost>
+    <section name="applictionPools" allowDefinition="AppHostOnly" overrideMode="Deny" />
+    <section name="configHistory" allowDefinition="AppHostOnly" overrideModeDefault="Deny" />
+       <section name="customMetadata" allowDefinition="AppHostOnly" overrideModeDefault="Deny" /> 
+       <section name="listenerAdapters" allowDefinition="AppHostOnly" overrideModeDefault="Deny" /> 
+       <section name="log" allowDefinition="AppHostOnly" overrideModeDefault="Deny" /> 
+       <section name="sites" allowDefinition="AppHostOnly" overrideModeDefault="Deny" /> 
+       <section name="webLimits" allowDefinition="AppHostOnly" overrideModeDefault="Deny" /> 
+</sectionGroup>

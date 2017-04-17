@@ -1,0 +1,4 @@
+<fastCgi>
+    <application fullPath="C:\PHP\php-cgi.exe" arguments="-d open_basedir=C:\Websites\Website1" />
+    <application fullPath="C:\PHP\php-cgi.exe" arguments="-d open_basedir=C:\Websites\Website2" />
+</fastCgi>

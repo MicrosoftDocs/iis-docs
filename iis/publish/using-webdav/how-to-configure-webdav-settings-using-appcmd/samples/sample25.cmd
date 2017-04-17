@@ -1,0 +1,1 @@
+AppCmd set config "Default Web Site/mypath" /section:system.webServer/webdav/authoringRules /+[roles='Authors',path='*.aspx',access='Read,Write,Source'] /commit:apphost

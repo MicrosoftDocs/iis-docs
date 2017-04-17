@@ -1,0 +1,1 @@
+slmgr.vbs –dti

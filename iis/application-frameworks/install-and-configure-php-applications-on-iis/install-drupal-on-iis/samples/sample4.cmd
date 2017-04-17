@@ -1,0 +1,1 @@
+C:\inetpub\wwwroot\Drupal>icacls sites\default\files /grant BUILTIN\IIS_IUSRS:(OI)(CI)(M)

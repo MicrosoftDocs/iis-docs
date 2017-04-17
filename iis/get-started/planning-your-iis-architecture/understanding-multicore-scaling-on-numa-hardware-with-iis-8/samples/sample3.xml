@@ -1,0 +1,7 @@
+<element name="cpu">
+ ...
+ <attribute name="numaNodeAffinityMode" type="enum" defaultValue="Soft">
+ <enum name="Soft" value="0" />
+ <enum name="Hard" value="1" />
+ </attribute>
+</element>

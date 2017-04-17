@@ -1,0 +1,7 @@
+<parameter 
+  name="Application Path" 
+  description="Full site path where you would like to install your application (i.e., Default Web Site/PhotoGallery)" 
+  tags="iisapp">
+  <parameterValidation kind="AllowEmpty" />
+  <parameterEntry kind="ProviderPath" scope="iisapp" match="Vacation Pictures" />
+</parameter>

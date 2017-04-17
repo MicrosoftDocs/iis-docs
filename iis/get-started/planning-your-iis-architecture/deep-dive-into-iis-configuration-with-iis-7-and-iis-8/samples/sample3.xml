@@ -1,0 +1,12 @@
+<!-- "windowsAuthentcation" is a configuration section (XML element). -->
+<!-- "enabled" is a configuration property (XML attribute).           -->
+<windowsAuthentication enabled="true">
+  <!-- "providers" is a configuration collection (XML element). -->
+  <providers>
+    <!-- Two configuration elements (XML elements).           -->
+    <!-- "add" is the collection directive.                   -->
+    <!-- "value" is a configuration property (XML attribute). -->
+    <add value="Negotiate"/>
+    <add value=""NTLM/>
+  </providers>
+</windowsAuthentication>

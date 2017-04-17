@@ -1,0 +1,1 @@
+<add name="RacingApplicationPool" managedPipelineMode="ISAPI" />

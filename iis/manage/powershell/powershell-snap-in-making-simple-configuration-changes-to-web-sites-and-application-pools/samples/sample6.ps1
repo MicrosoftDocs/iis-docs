@@ -1,0 +1,1 @@
+PS IIS:\> Set-ItemProperty IIS:\Sites\NewDemoSite -name name -value DemoSite

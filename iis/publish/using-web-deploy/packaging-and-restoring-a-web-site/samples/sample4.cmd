@@ -1,0 +1,1 @@
+msdeploy.exe -verb:sync -source:package=c:\dws.zip -dest:apphostconfig="Default Web Site" > DWSpackage7.log

@@ -1,0 +1,5 @@
+<system.webServer>
+  <security>
+    <access flags="Script, Read" sslFlags="Ssl" />
+  </security>
+</system.webServer>

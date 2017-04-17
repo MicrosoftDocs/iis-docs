@@ -1,0 +1,31 @@
+<Users>
+  <User>
+    <UserName>Alice</UserName>
+    <Password>P@ssw0rd</Password>
+    <EMail>alice@contoso.com</EMail>
+    <Roles>Members,Administrators</Roles>
+    <Rules>
+      <Rule path="/" permissions="Read,Write" />
+    </Rules>
+  </User>
+  <User>
+    <UserName>Bob</UserName>
+    <Password>P@ssw0rd</Password>
+    <EMail>bob@contoso.com</EMail>
+    <Roles>Members</Roles>
+    <Rules>
+      <Rule path="/" permissions="Read" />
+      <Rule path="/bob" permissions="Read,Write" />
+    </Rules>
+  </User>
+  <User>
+    <UserName>Carol</UserName>
+    <Password>P@ssw0rd</Password>
+    <EMail>carol@contoso.com</EMail>
+    <Roles>Members</Roles>
+    <Rules>
+      <Rule path="/" permissions="Write" />
+      <Rule path="/carol" permissions="Read,Write" />
+    </Rules>
+  </User>
+</Users>

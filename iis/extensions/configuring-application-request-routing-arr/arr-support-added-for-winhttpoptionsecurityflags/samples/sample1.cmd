@@ -1,0 +1,1 @@
+HKEY_LOCAL_MACHINE\ SOFTWARE\Microsoft\IIS Extensions\Application Request Routing\Parameters

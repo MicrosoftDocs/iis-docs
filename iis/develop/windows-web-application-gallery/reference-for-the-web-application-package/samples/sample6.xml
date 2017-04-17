@@ -1,0 +1,3 @@
+<parameter name="BooleanParameter"> 
+    <parameterValidation type="Boolean" /> 
+  </parameter>

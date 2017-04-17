@@ -1,0 +1,1 @@
+Sync-WDSite site1 Site2 -SitePhysicalPath c:\site2 -SiteBinding "*:8078:" -IncludeAppPool

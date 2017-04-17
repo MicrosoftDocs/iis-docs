@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <system.webServer>
+    <tracing>
+      <traceFailedRequests>
+        <add path="*">
+          <traceAreas>
+            <add provider="ASP" verbosity="Verbose" />
+            <add provider="ASPNET" areas="Infrastructure,Module,Page,AppServices" verbosity="Verbose" />
+            <add provider="ISAPI Extension" verbosity="Verbose" />
+            <add provider="WWW Server" areas="Authentication,Security,Filter,StaticFile,CGI,Compression,Cache,RequestNotifications" verbosity="Verbose" />
+           </traceAreas>
+          <failureDefinitions statusCodes="200" />
+        </add>
+      </traceFailedRequests>
+    </tracing>
+  </system.webServer>
+</configuration>

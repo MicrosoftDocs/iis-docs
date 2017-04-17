@@ -1,0 +1,1 @@
+WDSUTIL /Add-Image /Imagefile:<captureimage> /ImageType:boot

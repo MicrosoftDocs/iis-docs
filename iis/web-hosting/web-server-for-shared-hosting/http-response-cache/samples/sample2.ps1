@@ -1,0 +1,1 @@
+add-webconfigurationproperty /system.webServer/caching iis:\sites\mysite `-name profiles `-value @{extension='.tif'; policy='CacheForTimePeriod';duration='00:00:10'}

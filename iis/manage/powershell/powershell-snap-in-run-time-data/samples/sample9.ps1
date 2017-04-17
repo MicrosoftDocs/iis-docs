@@ -1,0 +1,1 @@
+PS IIS:\AppPools> Restart-WebItem DefaultAppPool

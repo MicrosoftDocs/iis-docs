@@ -1,0 +1,1 @@
+.\SetupSiteForPublish.ps1 -siteName NewSite -sitePhysicalPath C:\inetpub\NewSiteRoot -siteAppPoolName NewSitePool -sitePort 81 -deploymentUserName NewSiteUser -deploymentUserPassword Passw0rd -publishSettingSavePath C:\profiles -publishSettingFileName NewSite.PublishSettings

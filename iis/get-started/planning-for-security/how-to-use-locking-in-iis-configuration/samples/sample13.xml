@@ -1,0 +1,13 @@
+<configuration>
+  <system.webServer>
+    <security>
+      <authentication>
+        <windowsAuthentication>
+          <providers>
+            <remove value="NTLM" />
+          </providers>
+        </windowsAuthentication>
+      </authentication>
+    </security>
+  </system.webServer>
+</configuration>
