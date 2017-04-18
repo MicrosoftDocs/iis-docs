@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 HttpPlatformHandler Configuration Reference
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 > This article provides an overview of the HttpPlatformHandler and explains the configuration of the module.
 

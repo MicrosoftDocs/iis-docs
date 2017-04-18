@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Get to Know the IIS 7.0 WMI Provider Using CIM Studio
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 

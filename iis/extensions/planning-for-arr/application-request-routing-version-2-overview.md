@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Application Request Routing Version 2 Overview
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 

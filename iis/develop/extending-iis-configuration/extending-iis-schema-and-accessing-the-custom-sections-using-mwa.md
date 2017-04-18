@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Extending IIS 7.0 Schema and Accessing the Custom Sections Using MWA
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Abstract
 

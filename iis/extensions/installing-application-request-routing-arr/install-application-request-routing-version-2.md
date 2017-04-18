@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Install Application Request Routing Version 2
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 This topic leads the reader through the steps to install Microsoft Application Request Routing (ARR) **Version 2 for IIS 7 and above**.
 

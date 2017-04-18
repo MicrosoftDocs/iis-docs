@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 

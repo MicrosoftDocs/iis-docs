@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Shared Hosting Using Application Request Routing (ARR)
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Overview
 

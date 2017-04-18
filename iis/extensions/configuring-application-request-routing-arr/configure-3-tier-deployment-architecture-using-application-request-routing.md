@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configure 3-tier deployment architecture using Application Request Routing
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Overview
 

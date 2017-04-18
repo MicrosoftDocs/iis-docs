@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Install PHP and FastCGI Support on Server Core
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 

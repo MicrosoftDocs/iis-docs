@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Overview of Shared Hosting Deployment Using Application Request Routing 2.0
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 Microsoft Application Request Routing (ARR) 2.0 is a proxy-based routing module that forwards HTTP requests to content servers based on HTTP headers and server variables, and load balance algorithms. For more information, refer to [Using Application Request Routing](using-the-application-request-routing-module.md).
 

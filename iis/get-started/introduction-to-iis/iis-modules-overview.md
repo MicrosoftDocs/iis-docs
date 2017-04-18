@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 IIS Modules Overview
 ====================
-by [IIS Team](https://twitter.com/inetsrv), [Mike Volodarsky](https://github.com/leanserver)
+by IIS Team, [Mike Volodarsky](https://github.com/leanserver)
 
 ### Compatibility
 

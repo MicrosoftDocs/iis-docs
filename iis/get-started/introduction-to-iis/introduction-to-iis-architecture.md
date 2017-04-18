@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Introduction to IIS Architectures
 ====================
-by [IIS Team](https://twitter.com/inetsrv), [Reagan Templin](https://github.com/arkaytee)
+by IIS Team, [Reagan Templin](https://github.com/arkaytee)
 
 ### Compatibility
 

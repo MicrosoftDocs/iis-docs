@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 How to Capture ASP.NET Page Trace Events in IIS 7.0 Tracing
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 

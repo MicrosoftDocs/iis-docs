@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Windows Web Application Gallery Link Addition Process Walkthrough
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 This walkthrough will guide you through the process of submitting an application to the Windows Web Application Gallery.
 

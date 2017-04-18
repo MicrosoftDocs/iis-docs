@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Integrate the Windows Web Application Gallery into a Control Panel
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 

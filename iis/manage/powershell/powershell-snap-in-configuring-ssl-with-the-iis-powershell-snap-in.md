@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 PowerShell Snap-in: Configuring SSL with the IIS PowerShell Snap-in
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 To enable SSL three steps are involved:
 

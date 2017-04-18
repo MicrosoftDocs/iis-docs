@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configuration Extensibility
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 

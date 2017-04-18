@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using the Application Request Routing Module
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 

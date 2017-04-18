@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using Windows SharePoint Services 3.0 on IIS 7.0
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 This topic describes what steps to take to install Microsoft Windows SharePoint Services 3.0 on IIS 7.0 and above.
 
