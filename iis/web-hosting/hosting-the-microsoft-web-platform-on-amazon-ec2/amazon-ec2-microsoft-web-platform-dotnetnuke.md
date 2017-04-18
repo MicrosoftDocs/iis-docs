@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/05/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2e582d50-672d-4cbd-b360-4a0417279042
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-dotnetnuke

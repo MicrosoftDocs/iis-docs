@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 98902a0b-c6f3-420b-b7e5-23afb2b640e8
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/migrate-to-the-microsoft-web-platform/migrate-to-a-windows-based-platform

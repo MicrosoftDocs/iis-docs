@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 834203a5-cbeb-49af-a536-7d5ab91e5bfa
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/discover-installed-components

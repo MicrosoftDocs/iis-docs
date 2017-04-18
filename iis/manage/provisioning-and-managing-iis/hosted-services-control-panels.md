@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/09/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8f6956b6-44c4-48bd-96e4-19e7ec626824
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/hosted-services-control-panels

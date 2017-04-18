@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/29/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 50cb39ab-6067-45a1-9749-54c3692200dc
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45

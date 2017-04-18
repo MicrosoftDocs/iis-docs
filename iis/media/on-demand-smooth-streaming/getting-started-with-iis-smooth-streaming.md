@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/23/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6cffa94b-2a3e-479d-9488-449d52ea79fa
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming

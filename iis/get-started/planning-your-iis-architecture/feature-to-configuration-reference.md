@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 10755442-bb08-461e-b3c6-95cbdd0565d8
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/feature-to-configuration-reference

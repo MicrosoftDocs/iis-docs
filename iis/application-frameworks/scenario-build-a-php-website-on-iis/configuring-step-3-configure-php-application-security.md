@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: bfe133a7-7b27-48b0-acb1-30a1bf883426
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-3-configure-php-application-security

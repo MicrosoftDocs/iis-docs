@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/26/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 011d5bd7-aa56-4bab-9cb6-16a5b5977a98
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/parameterization-improvements-in-web-deploy-v3

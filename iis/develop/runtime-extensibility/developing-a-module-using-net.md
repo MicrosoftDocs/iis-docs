@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/24/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: d3c8271b-f860-43ca-b01a-85bfc35667f5
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/runtime-extensibility/developing-a-module-using-net

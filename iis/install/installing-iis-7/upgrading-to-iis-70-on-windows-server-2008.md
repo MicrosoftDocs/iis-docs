@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/11/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: c85152ef-d9ea-47b1-a705-46a9ce1c2edc
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/upgrading-to-iis-70-on-windows-server-2008

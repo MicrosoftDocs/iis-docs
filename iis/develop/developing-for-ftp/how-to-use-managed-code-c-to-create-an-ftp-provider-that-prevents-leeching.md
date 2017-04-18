@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/20/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: a734a198-37e6-419a-acb6-a601409ebc35
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching

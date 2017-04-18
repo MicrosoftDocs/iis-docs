@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/30/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: f65b5f14-9243-48fe-9071-c10dbfc73e2a
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/working-with-server-core/using-iis-with-windows-server-core

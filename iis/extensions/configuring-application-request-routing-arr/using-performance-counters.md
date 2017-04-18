@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/06/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: a50a36b9-89c3-4a7d-be6f-e88cf886ea05
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/using-performance-counters

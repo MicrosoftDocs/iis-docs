@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/04/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: 890c1d57-4dcd-45f7-b0b6-276fa474e3ad
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/windows-media-services/microsoft-media-platform-encoding-and-serving-choices-and-migration-considerations

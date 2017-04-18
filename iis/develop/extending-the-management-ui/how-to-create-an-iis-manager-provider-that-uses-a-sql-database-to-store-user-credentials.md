@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/18/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 80179bb5-19f6-4088-a17e-1d221efb7bd9
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/extending-the-management-ui/how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/02/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4e59e385-50fa-4ba5-afb2-b361a22fcefc
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/validate-your-server-configuration

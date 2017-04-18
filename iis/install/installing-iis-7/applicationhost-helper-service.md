@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: f348c96a-4b83-4111-af85-7d9697b824a5
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/applicationhost-helper-service

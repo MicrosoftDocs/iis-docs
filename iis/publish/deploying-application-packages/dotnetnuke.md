@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/10/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1f316db3-6a70-42c9-866f-168874c282d5
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/dotnetnuke

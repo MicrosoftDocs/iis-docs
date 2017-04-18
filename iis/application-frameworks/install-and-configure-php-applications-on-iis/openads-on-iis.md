@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/17/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 641d5740-dcfb-463d-96d7-3ac1d85b2352
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/openads-on-iis

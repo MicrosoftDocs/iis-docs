@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/19/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: 03067dff-c8e2-4be3-913b-627e391615ec
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/iis-8-sandboxing-and-security

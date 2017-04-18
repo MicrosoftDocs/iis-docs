@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/26/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 72f0477a-12bb-41c1-8163-ee9b30605b75
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/dbdacfx-provider-for-incremental-database-publishing

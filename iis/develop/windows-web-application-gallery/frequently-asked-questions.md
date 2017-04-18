@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/18/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0fda743d-d99e-4172-8e4e-ec1d448281b8
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/frequently-asked-questions

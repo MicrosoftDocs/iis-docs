@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 02003c66-968f-4d86-aae7-b827b84bd03f
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/understanding-sites-applications-and-virtual-directories-on-iis

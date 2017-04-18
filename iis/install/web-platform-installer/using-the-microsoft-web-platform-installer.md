@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 00175a11-b9d6-4173-8a17-9be6178d208a
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/web-platform-installer/using-the-microsoft-web-platform-installer

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/03/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 94fc82c2-2697-4bbc-99f0-435a12063638
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/24/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: f159ad3c-db09-4c37-b563-746d824b4cb1
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/working-with-urlscan/common-urlscan-scenarios

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/15/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 21bd94c3-1e1b-4fa4-9e90-6de4f62135e8
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/creating-a-new-ftp-site-in-iis-7

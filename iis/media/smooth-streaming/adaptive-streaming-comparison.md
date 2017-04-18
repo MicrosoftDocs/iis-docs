@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/28/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 30b7a23b-7d85-42f3-b1fc-75355de6e090
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/adaptive-streaming-comparison

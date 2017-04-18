@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/10/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: f9e04ce5-c2e2-406f-a61c-fc4b5a90fedf
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: d4dd559d-5b26-4da8-a639-184b8742b2d2
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/how-to-secure-the-microsoft-web-platform

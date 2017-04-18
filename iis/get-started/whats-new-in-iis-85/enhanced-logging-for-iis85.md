@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/11/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3cd66139-f22a-4f75-ae5f-cc00fef9c5d7
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/14/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 9a702fef-af50-4fb2-b393-93a9c3bba2c1
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/getting-started-with-the-iis-powershell-snap-in

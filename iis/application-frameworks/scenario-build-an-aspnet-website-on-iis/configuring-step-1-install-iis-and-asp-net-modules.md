@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: a7b92024-7976-4485-9140-11ded05a0829
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-1-install-iis-and-asp-net-modules

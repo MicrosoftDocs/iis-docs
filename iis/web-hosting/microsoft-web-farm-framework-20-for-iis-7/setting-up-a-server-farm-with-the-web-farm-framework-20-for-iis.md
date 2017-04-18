@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/21/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4b7f6ecf-7f19-4c78-81ac-7574fabc11e3
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis

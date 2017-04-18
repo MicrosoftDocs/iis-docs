@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/22/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 76f10eb5-8aa1-4aaf-885b-b250e1f185d3
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/dhcp-server

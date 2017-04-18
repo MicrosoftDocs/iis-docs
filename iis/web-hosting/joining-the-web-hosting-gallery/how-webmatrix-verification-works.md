@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/12/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4ed60479-9fb5-4abe-8f3f-649d8a8cdf06
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/how-webmatrix-verification-works

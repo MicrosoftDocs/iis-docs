@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: e4e4adc6-2b26-431a-aead-f7632ccc8f07
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-for-security/how-to-use-locking-in-iis-configuration

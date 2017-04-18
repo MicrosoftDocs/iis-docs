@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/23/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8b4378fa-89c7-44ea-9ffd-24d48e325076
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/viewing-web-site-dependencies

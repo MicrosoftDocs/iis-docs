@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/05/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: ad034229-6efb-40af-a3d7-afd234e62726
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/aspnet-integration-with-iis

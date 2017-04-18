@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/27/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: a3856239-50c7-449f-b536-67d1cadc4b80
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-configuration

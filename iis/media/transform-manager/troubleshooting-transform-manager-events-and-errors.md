@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/26/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 43d73528-51dc-4b40-b4d3-7fad417abdc3
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/troubleshooting-transform-manager-events-and-errors

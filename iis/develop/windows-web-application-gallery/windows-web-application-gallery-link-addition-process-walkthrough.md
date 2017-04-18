@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 218769b5-1bdf-49a2-97dc-a8e6c64bd724
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/windows-web-application-gallery-link-addition-process-walkthrough

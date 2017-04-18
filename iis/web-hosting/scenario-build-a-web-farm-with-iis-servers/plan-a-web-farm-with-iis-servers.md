@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: e24404ce-8309-4c5f-ba54-d5aef30f7ce2
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/plan-a-web-farm-with-iis-servers

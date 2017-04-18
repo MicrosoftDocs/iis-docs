@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 27de1efe-6137-4505-a6e9-e4dd5a681161
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-for-security/set-acls-through-the-manifestxml-file

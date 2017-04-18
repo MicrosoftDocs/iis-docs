@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/18/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0a84b2a8-5ac6-41f4-b631-c1345b2ddf33
 ms.technology: iis-troubleshoot
 ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/performance-issues/troubleshooting-iis-performance-issues-or-application-errors-using-logparser

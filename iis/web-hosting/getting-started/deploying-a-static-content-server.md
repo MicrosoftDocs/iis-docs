@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/11/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 652d6873-7ea0-43a4-a1f6-7e302d2ef38f
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/getting-started/deploying-a-static-content-server

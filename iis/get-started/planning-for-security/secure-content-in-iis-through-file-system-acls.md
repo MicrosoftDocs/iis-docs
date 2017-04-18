@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/17/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1adc180c-a714-41c1-b4ca-9a3f75e106d0
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-for-security/secure-content-in-iis-through-file-system-acls

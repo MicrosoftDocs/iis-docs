@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/07/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: bba532da-d627-4068-86fe-16efe12b562b
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/iis-media-services/iis-media-services-30-overview

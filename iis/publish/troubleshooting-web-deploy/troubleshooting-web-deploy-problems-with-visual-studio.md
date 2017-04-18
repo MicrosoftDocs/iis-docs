@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4faa04b3-fe9f-4e8f-bdf1-99db9df43a55
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/troubleshooting-web-deploy/troubleshooting-web-deploy-problems-with-visual-studio

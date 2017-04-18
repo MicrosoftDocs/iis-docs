@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/09/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 03955fbb-8a47-404f-8006-390be9d5f07e
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/dynamic-data-center-toolkit-for-hosting

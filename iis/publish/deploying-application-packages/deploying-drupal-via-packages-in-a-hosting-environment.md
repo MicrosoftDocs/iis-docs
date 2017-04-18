@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/10/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: aec5ac11-ffa8-4366-84ef-e5176633a2d4
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/deploying-drupal-via-packages-in-a-hosting-environment

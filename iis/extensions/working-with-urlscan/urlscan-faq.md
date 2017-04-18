@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/24/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: eba182f0-0428-474e-a87c-d478a631ce95
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/working-with-urlscan/urlscan-faq

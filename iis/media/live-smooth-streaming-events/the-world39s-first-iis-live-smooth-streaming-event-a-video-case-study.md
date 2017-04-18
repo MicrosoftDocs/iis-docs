@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/24/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: d3070c3c-53a2-4575-90e9-da748e20ab7c
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming-events/the-world39s-first-iis-live-smooth-streaming-event-a-video-case-study

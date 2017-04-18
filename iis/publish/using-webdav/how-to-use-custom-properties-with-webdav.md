@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/14/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 9cedd308-783d-4a43-92c7-606c2f51bb6d
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-webdav/how-to-use-custom-properties-with-webdav

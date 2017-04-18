@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/11/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 659e54a8-ffe8-4889-9554-a7fc752a9725
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/windows-media-services/adding-windows-media-services-2008-on-an-iis-server

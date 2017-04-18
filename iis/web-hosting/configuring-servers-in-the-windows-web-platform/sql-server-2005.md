@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/28/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8e020e8d-3e2f-421e-b343-e28c82287eb9
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/sql-server-2005

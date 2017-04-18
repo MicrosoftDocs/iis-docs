@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7d367f12-05e8-433f-9b96-816cbefa261f
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-4-configure-ssl-central-certificate-store

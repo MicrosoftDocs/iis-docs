@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: d0b0d1dc-ce47-409b-8dec-4153f08f483e
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/reference-for-the-web-application-package

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/16/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8dbd0cf4-0b10-4028-9ca4-86abba161b72
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/introduction-to-iis/iis-web-server-overview

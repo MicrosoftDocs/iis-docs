@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/24/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: b56a2513-8588-4a75-b6ad-e2d04a2b2030
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/getting-started-with-iis/serving-new-content

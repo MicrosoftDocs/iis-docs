@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/11/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 286d2079-bda3-4991-a6a0-bad280527dde
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/rule-with-rewrite-map-rule-template

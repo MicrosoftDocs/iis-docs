@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/30/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 5177e3be-c050-4330-bcad-0ac77b785254
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules

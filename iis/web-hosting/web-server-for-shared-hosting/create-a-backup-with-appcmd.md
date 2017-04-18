@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/01/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 01733732-e15e-4ae1-b412-9ec79f21e7e4
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/create-a-backup-with-appcmd

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/24/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: a4fa174e-fedb-425f-9b18-ff8a92160576
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/extending-the-management-ui/how-to-get-started-extending-module-properties-for-iis-in-iis-manager

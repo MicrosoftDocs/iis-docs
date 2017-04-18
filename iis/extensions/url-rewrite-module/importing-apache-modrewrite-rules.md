@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/30/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 80c1dd9c-0ee5-4911-bbd0-e94ccbc68480
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules

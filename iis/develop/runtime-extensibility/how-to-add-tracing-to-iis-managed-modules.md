@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/24/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 58e4be73-af7c-4c18-be73-959b33ecef7f
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/runtime-extensibility/how-to-add-tracing-to-iis-managed-modules

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/23/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: dbc43386-1a41-4514-a4e7-cf5bc0d1dc6b
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/using-compression-in-application-request-routing

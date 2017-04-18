@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/16/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 051c37db-5232-465d-8345-7231116974ea
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/creating-outbound-rules-for-url-rewrite-module

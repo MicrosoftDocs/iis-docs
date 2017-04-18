@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/08/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 70f095ff-6766-4535-885a-0aca7f2a7fbb
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/webmatrix-privacy-statement

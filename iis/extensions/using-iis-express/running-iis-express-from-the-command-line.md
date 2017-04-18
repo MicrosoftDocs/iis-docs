@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3bb32e3c-de23-4963-b4d3-9a43e7047981
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/using-iis-express/running-iis-express-from-the-command-line

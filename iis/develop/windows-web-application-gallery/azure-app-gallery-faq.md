@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/14/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: a4555019-dd6e-41b4-831c-1711760031f5
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/azure-app-gallery-faq

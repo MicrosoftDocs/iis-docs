@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/03/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: cf0a1d31-1926-4e35-8b34-544c414905f8
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/install-server-components

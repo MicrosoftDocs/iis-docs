@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0ce77d45-ca2c-4071-9385-fcdfcf958712
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/managing-performance-settings/configure-iis-7-output-caching

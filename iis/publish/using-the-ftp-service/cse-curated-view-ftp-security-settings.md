@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/23/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: b64a3952-9952-45f7-8a14-890506209dc2
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/cse-curated-view-ftp-security-settings

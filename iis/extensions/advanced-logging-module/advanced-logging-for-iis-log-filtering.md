@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0c6deba6-1d29-4965-84a1-405e45e323df
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/advanced-logging-module/advanced-logging-for-iis-log-filtering

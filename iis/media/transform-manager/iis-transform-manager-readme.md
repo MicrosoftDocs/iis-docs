@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/23/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: d2809ee8-0973-4be1-959a-42280c68f61b
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/iis-transform-manager-readme

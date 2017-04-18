@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/23/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3b569dcc-2860-4f9d-8f91-6b6ce9068248
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/troubleshooting-web-deploy/troubleshooting-web-deploy

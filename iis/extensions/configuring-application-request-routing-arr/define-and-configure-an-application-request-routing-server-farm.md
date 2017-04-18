@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/02/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: a83c6706-9210-41a2-94fc-53afdecbc9b6
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/define-and-configure-an-application-request-routing-server-farm

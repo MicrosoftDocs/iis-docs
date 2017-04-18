@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/15/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 437f03a2-abe5-4e33-81ad-5832c8211f62
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/using-ftp-over-ssl-in-iis-7

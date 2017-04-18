@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/14/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 84783e48-0072-4974-8a61-2ec1e8f5df3b
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/remote-administration/remote-administration-behavior-matrix

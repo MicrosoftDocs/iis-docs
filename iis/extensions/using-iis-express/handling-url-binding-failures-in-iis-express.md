@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/12/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: d810838e-8656-42dd-bc86-a636a0340561
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/using-iis-express/handling-url-binding-failures-in-iis-express

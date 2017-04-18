@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/28/2014
 ms.topic: article
-ms.assetid: 
+ms.assetid: 84e6322c-e1eb-4c45-afce-9c1ae04d7a90
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/application-pool-identities

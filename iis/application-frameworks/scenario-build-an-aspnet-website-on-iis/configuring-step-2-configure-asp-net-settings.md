@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2e778eb8-a1f8-4a3d-aa13-cfa2ca6fca92
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-2-configure-asp-net-settings

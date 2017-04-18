@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/15/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 5ac9a26d-f3f4-489e-a2c9-d7a6dd3fc95c
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/configuring-ftp-user-isolation-in-iis-7

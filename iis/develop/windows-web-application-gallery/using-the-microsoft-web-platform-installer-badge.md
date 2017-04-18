@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/26/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: e4113e68-c5a0-4cea-b4f2-ecb0397e78fa
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/using-the-microsoft-web-platform-installer-badge

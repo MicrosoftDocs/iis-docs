@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/20/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 582eff55-c99e-4eeb-8642-d8334a94c3c2
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/troubleshooting-web-deploy/troubleshooting-common-problems-with-web-deploy

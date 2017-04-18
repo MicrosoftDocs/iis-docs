@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 08/15/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2085d190-fd64-4d46-918f-fcc2483a44a4
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/features-of-the-windows-process-activation-service-was

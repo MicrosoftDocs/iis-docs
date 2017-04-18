@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0fc44a63-8c65-4d28-896f-dd6b573d9511
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/getting-started-with-iis/create-a-web-site

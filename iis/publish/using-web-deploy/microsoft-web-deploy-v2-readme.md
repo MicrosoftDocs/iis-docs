@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/11/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 06c8c5a4-4b1c-486f-8509-0882acccf9af
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/microsoft-web-deploy-v2-readme

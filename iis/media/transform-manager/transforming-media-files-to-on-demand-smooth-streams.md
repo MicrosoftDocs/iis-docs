@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/24/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: b019a9f2-a704-4032-bfa3-43714b9989ca
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/transforming-media-files-to-on-demand-smooth-streams

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/15/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: d92ee756-f427-4873-8248-46a174fc9ed0
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/windows-media-services/windows-media-server-or-web-server

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/14/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8b2eae57-5140-4691-a35b-ebcc926289b4
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-run-time-data

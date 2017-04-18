@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3c483e52-2bc4-4066-98d2-de7caaa3a240
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/analyze-requests-to-your-website

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/30/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8876b0e7-7cb1-4536-8607-ab8650ec3bdf
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-the-url-rewrite-module

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/16/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: ec979d77-5a26-4b9b-9da2-ab445e6bdf73
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-7/changes-in-security-between-iis-60-and-iis-7-and-above

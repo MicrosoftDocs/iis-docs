@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: f08aa19d-c2bf-44c4-af8d-6e7d862958cf
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/migrate-to-the-microsoft-web-platform/migrate-from-mysql-to-sql-server-2008

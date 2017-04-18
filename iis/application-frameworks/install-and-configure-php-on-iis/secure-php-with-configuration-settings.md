@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 60b399b7-e8d9-4f0a-8fd8-37899808f69b
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/secure-php-with-configuration-settings

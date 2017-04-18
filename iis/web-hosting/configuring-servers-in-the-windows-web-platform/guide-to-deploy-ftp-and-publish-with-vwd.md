@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/19/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1a66db14-06f8-452f-a5a3-817ce140f6cb
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/guide-to-deploy-ftp-and-publish-with-vwd

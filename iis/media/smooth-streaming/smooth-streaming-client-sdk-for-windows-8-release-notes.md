@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/26/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 9da8a3e4-1539-4a97-a020-9683d8b9ad2b
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/smooth-streaming-client-sdk-for-windows-8-release-notes

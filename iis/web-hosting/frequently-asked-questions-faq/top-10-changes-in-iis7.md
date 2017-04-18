@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 74c5bc26-6707-444b-a660-9009c1c85185
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/top-10-changes-in-iis7

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/21/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: e30f1d44-2a35-46ff-9425-90d56444033d
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/web-farm-framework-20-for-iis-code-sample

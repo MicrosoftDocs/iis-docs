@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/24/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2e6a2af3-a970-4b6b-bfb4-c77d957f1fbe
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/runtime-extensibility/sample-web-analytics-tracking-module

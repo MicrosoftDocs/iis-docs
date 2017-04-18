@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: 326bdb53-3977-4539-aa05-6c292146de36
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/creating-websites/scenario-build-a-static-website-on-iis

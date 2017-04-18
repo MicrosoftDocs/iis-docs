@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/11/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 28f041c0-a4ba-4478-800b-ad53be1b72cd
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/getting-started/deploying-a-classic-asp-server

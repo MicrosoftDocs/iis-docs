@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/12/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 33897393-97b8-4ee1-836f-25b1348dc3a3
 ms.technology: iis-troubleshoot
 ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/diagnosing-http-errors/how-to-use-http-detailed-errors-in-iis

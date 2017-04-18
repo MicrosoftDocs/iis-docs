@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6978145e-269b-459d-9562-327e9e4c92f6
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/aspnet-technical-resources

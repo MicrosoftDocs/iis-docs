@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: f419b76c-aea0-4b3c-b206-2ae31ee2436c
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/troubleshooting-application-request-routing/troubleshooting-502-errors-in-arr

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/30/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3a89b36f-8b6a-490e-b7fe-b34b26d24864
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/install-php-and-fastcgi-support-on-server-core

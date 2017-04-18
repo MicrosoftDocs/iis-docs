@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/11/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: c492a011-0841-4d3a-8641-2b7f26a749b0
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/developing-a-custom-rewrite-provider-for-url-rewrite-module

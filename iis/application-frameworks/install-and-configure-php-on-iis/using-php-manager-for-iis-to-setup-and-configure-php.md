@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/13/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 9e07564f-3c41-4d22-ba76-3daaf0847db9
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/using-php-manager-for-iis-to-setup-and-configure-php

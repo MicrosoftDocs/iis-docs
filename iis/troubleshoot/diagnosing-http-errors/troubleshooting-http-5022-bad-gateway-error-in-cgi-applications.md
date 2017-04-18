@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 863de5df-e94e-458e-bc47-693426917508
 ms.technology: iis-troubleshoot
 ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/diagnosing-http-errors/troubleshooting-http-5022-bad-gateway-error-in-cgi-applications

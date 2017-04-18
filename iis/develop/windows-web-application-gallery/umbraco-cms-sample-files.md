@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/08/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1114e4dc-e2ea-4932-a616-745230baa1a8
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/umbraco-cms-sample-files

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/01/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: b08212c6-af36-4506-9cb0-0502dfa81af5
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/enabling-directory-quotas

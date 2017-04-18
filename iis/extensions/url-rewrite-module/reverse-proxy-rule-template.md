@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/11/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 5c2ea207-8d14-47cf-bc81-6266e5b081e9
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/reverse-proxy-rule-template

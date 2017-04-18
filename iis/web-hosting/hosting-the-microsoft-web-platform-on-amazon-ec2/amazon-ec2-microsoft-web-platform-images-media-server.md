@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/09/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 9abe09f8-9e47-4f46-a054-f234676f3c1e
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-media-server

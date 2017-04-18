@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/12/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: fce8b5fe-9ba3-4ca1-aab1-51d877bb0b17
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-joomla-on-iis

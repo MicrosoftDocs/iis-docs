@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/02/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1c54f592-02a3-4992-aaf3-129790e4ab29
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/services-overview

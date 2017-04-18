@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4daa9338-786e-47ac-9674-fe355e8dcee9
 ms.technology: iis-troubleshoot
 ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/installation-issues/troubleshooting-iis-7x-installation-issues

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/13/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 68b31d24-2e79-44ca-9a24-8e0dcb554b22
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-nlb

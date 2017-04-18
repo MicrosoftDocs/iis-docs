@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/08/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 18e9b55a-025f-4053-a1ca-3a4a9fade24d
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/videocast-simplified-application-deployment-on-the-microsoft-web-platform

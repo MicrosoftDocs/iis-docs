@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/20/2015
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4003c4b8-ccd1-43d7-a5d5-45ab60e7ed91
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/web-platform-installer/web-platform-installer-direct-downloads

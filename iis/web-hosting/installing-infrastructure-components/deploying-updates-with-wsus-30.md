@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/04/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7fe15677-3d20-49ce-a46c-72f20b2b4c78
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/deploying-updates-with-wsus-30

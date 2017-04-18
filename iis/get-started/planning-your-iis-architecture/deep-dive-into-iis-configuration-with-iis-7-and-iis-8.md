@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: a41dfdbd-d0c5-498c-bea1-e35801834170
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/deep-dive-into-iis-configuration-with-iis-7-and-iis-8

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/12/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3898c37b-ef52-4a73-af40-564c410906d9
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-extending-output-formats-using-xslt

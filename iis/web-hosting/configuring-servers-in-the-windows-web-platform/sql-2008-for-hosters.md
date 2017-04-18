@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/13/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: f7e61547-5ac5-417b-979e-daf6e954f4f0
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/sql-2008-for-hosters

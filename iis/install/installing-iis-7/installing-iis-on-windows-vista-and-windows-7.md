@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/26/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0e9d9685-6391-48cd-8a57-d47f6592d16b
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7

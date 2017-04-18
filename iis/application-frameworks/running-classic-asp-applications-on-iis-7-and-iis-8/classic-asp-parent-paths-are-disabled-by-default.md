@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/19/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 01892c72-e41e-40b0-94a3-d80c2cced23e
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-parent-paths-are-disabled-by-default

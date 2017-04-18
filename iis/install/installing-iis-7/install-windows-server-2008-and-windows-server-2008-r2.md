@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7432a535-a72e-4792-8c8a-51fde740dcf8
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/install-windows-server-2008-and-windows-server-2008-r2

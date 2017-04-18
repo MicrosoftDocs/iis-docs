@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: 85e4ce42-5661-4f6e-ad3a-4d09a6aef0ae
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/plan-a-php-website-on-iis

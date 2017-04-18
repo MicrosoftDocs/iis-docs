@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/13/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3f0328f1-7d09-462c-a3f1-eee61c7bff2b
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/url-rewrite-for-hosting-providers

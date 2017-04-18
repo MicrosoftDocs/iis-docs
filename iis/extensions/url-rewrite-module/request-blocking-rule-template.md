@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/11/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: d209e10d-400a-4c2c-b4d6-0826554a8c62
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/request-blocking-rule-template

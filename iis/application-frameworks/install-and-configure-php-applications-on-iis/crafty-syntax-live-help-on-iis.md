@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/18/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: fefc3a42-2b99-4f14-a5e9-d38eccd08641
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/crafty-syntax-live-help-on-iis

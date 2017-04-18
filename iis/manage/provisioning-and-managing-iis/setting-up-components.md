@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/02/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 48825ae9-58ea-48ce-b408-fe8df6a82fbb
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/setting-up-components

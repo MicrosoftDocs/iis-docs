@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/03/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 93fffee2-fccf-4f51-9c3f-50ecf2bee871
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/30/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7d7afc06-8b24-4ee0-90a6-0a6ea9a2b89a
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/enabling-pretty-permalinks-in-wordpress

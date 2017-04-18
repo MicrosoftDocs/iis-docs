@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 75b33d8e-3c3e-472e-9973-b41ced1a7ebb
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform

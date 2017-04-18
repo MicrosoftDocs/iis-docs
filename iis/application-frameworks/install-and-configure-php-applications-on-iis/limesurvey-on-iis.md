@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 08/02/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: aa9490ce-563b-496d-bbd1-8d2ff2839073
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/limesurvey-on-iis

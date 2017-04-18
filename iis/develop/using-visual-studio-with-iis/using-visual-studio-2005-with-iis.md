@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/01/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0be877e5-57d6-4a5a-867e-0d0495dc3e0c
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/using-visual-studio-with-iis/using-visual-studio-2005-with-iis

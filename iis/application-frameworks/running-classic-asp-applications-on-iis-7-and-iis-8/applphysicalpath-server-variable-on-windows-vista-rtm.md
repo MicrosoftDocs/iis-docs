@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/19/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2359a956-fe32-40a8-8452-5a65c3898195
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/applphysicalpath-server-variable-on-windows-vista-rtm

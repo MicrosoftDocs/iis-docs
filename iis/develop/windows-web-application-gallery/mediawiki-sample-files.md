@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/29/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 052e4fa7-82d5-41f8-8c22-a37428f6de27
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/mediawiki-sample-files

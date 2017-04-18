@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/27/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 767eba96-0849-4f97-bd73-850362048d16
 ms.technology: iis-troubleshoot
 ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/diagnosing-http-errors/troubleshooting-http-400-errors-in-iis

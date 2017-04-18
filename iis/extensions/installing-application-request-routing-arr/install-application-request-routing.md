@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/02/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3447e132-fb7d-436e-9789-5cddc7044745
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/installing-application-request-routing-arr/install-application-request-routing

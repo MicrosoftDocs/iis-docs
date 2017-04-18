@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/18/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: f33913a6-0adf-4387-bb74-07fe35d3c177
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/case-studies/case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system

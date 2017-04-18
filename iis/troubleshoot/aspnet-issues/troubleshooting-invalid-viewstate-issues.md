@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 47e92ace-e368-4af1-b1ed-0a474172a160
 ms.technology: iis-troubleshoot
 ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/aspnet-issues/troubleshooting-invalid-viewstate-issues

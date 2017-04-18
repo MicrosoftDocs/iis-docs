@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6a66077a-b338-48bc-a336-90f43288401e
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/nservice-faq

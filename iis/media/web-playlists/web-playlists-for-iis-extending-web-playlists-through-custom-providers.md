@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/21/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 9c96a519-c025-4456-bcfb-2d2930cd884f
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-extending-web-playlists-through-custom-providers

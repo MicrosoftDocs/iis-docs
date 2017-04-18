@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/21/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: db3a140b-57d4-42f3-b061-8327f0df701e
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/windows-sharepoint-services-for-shared-hosting

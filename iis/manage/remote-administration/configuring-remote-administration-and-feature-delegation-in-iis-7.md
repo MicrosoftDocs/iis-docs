@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8f557c9a-ab59-4d1e-b9f1-fa62293b882b
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7

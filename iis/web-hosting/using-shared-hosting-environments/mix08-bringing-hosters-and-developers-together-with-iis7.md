@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/09/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 129792c7-0908-4b94-8103-5f3694e43b45
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/using-shared-hosting-environments/mix08-bringing-hosters-and-developers-together-with-iis7

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/01/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: bee41ab6-2d77-4e8e-bfd1-ec7c28cb9b43
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/asp

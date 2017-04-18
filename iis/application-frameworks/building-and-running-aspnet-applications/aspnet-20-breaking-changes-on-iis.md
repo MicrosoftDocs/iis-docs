@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/15/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: cdb50902-a5ee-4809-9446-169d325d4937
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/aspnet-20-breaking-changes-on-iis

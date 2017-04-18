@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/16/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: adb61044-9074-4961-9186-cf5e340cee5b
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets

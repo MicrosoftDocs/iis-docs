@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/01/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: cc346e62-1616-4fe5-a727-cb79308d3081
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/smb-commands-registry-keys_196

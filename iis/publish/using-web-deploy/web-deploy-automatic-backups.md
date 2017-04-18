@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/19/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6bbe7192-bb26-462a-9935-71a9a7d35682
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/web-deploy-automatic-backups

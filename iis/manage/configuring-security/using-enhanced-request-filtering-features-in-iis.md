@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/30/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: ed011e8b-e721-41b3-8e50-56cde29cfafa
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/using-enhanced-request-filtering-features-in-iis

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/03/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: e911ba80-4132-4e03-a67f-20c9d69a4201
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/delivering-live-and-on-demand-smooth-streaming-istreamplanet

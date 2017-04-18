@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 240d711d-011b-4419-8560-6af44b339ba2
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/use-request-filtering

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/07/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 693e4539-1261-4ad7-afa7-a876fdc4135e
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/when-publishing-a-site-from-webmatrix-using-the-ftp-protocol-some-files-are-not-listed-in-the-publish-preview-dialog

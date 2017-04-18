@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/29/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: d149191a-b70e-4d1a-a3fc-7d37c025d8e5
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-ftp-logon-attempt-restrictions

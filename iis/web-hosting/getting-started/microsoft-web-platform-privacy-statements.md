@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/08/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: fd92cc09-a9a7-408e-8a94-13204c157b96
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/getting-started/microsoft-web-platform-privacy-statements

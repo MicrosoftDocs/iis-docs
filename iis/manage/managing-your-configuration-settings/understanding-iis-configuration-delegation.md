@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 30473846-d74b-42b7-ab51-40b7849eb9cb
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/understanding-iis-configuration-delegation

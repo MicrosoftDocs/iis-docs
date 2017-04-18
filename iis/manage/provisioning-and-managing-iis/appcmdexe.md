@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/02/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: d8dee124-270e-4785-b476-eada2e6df862
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/appcmdexe

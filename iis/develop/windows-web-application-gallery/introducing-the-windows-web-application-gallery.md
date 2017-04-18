@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: a6fef702-77c2-4c2c-963b-c8c361c37fe0
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/introducing-the-windows-web-application-gallery

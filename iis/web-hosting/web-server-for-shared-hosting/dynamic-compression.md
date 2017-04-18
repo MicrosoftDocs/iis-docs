@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/01/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: c4482a67-804d-431f-8fb8-d81df610e295
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/dynamic-compression

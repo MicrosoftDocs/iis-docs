@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/24/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: a5f66443-ef14-4209-b427-54e156937ed9
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/editing-configuration-files

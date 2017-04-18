@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/21/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: ec5755cd-8a66-44c1-b94e-dbde807c3072
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/runtime-extensibility/sample-image-watermark-module

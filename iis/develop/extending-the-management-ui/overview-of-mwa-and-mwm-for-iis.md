@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/24/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 89085f26-d6cd-48d1-b455-29bff045e9f8
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/extending-the-management-ui/overview-of-mwa-and-mwm-for-iis

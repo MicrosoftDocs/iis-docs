@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: dbf635a5-921f-4488-99a2-bd1c2d1c0402
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/how-to-set-up-ssl-on-iis

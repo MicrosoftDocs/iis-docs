@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/05/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 82650174-4843-4df8-9163-fe444e1510dd
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming-events/behind-the-scenes-with-silverlight-and-iis-at-the-2010-winter-games-in-vancouver-highlights

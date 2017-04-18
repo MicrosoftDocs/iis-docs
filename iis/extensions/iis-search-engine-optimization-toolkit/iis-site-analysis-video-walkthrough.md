@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/04/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 208e7836-6a74-42ae-a7f4-2ede8a601eaa
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/iis-search-engine-optimization-toolkit/iis-site-analysis-video-walkthrough

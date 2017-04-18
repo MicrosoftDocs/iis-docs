@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/09/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 413b2878-30cf-403c-bba9-6a5dc2d2dc83
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/introduction-to-web-deploy

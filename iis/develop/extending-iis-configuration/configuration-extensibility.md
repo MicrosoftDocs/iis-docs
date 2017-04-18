@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/05/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: d4d6dc1f-ff81-44b9-ab0b-cf711da8f1e6
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/extending-iis-configuration/configuration-extensibility

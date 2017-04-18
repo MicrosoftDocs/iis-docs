@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/12/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2df260cf-dcde-46f3-abda-5d976b592b32
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/powershell-scripts-for-automating-web-deploy-setup

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4b7e6d87-95e2-48fa-b6d1-6d308696f3cf
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/windows-media-services/using-http-for-streaming-and-downloading-from-the-same-computer

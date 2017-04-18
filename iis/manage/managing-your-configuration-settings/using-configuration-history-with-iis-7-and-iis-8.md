@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 295e72df-9c33-4c28-96eb-abc6154dad83
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/using-configuration-history-with-iis-7-and-iis-8

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/01/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1bfcc610-f237-4fac-a6c8-7d62820a5b6a
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/getting-started/getting-started_69

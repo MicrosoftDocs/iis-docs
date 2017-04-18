@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/08/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6abdafc7-618a-410c-a5a9-b4020cec59e0
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/syndicating-live-smooth-streams-between-servers

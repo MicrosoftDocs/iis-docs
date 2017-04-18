@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/23/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 366320bb-f099-4f1d-9842-245c64c4ec58
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/on-demand-smooth-streaming/exploring-bit-rate-changes

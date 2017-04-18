@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/02/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: e0a83e33-4d4f-448b-a85b-caa7289ced0f
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/generate-a-profile-xml-file

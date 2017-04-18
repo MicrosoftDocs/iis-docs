@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/05/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: c9a924d7-5f0e-45f3-a4ad-2ebbc3fc619e
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis-60

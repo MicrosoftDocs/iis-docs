@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/02/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4c423bc4-1dac-4d0d-9be3-5c9b87b06e86
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/shared-configuration_211

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/15/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 17faa482-205e-44a0-8e97-384bac12282f
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-7/what39s-new-for-microsoft-and-ftp-in-iis-7

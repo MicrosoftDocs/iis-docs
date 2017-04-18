@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/12/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1715cb3f-5851-44b2-af04-5a2a1bac5dcb
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/installing-publishing-technologies/installing-and-configuring-web-deploy

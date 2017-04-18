@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6bbabad1-8ad9-4f64-893b-b375115cd7a9
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/new-features-introduced-in-iis-100

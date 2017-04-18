@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/20/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: e464de27-0e44-46f7-b928-6e07e0cf7a6c
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/creating-a-content-feed-for-learning

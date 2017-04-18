@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4aa9b606-324d-49da-bc2d-45927fe89698
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-logging-provider

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/24/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 5f16a2b2-62cd-45fa-b119-2cae3cc52735
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-serving-media-content-from-user-folders

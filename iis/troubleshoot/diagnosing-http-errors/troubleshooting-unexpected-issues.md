@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/24/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 5ad42273-cc2a-47dd-b52f-c7a62d5b75e4
 ms.technology: iis-troubleshoot
 ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/diagnosing-http-errors/troubleshooting-unexpected-issues

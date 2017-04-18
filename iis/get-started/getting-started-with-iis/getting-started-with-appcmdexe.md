@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/16/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: a604d569-d21e-46f8-a66a-4aa08ca97c13
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/getting-started-with-iis/getting-started-with-appcmdexe

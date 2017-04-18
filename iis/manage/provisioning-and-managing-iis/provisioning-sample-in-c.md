@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3f2893c1-46aa-4a2f-b8e7-e5d76d565daa
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/provisioning-sample-in-c

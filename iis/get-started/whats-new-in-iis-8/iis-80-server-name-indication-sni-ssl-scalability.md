@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/29/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: a87d4d6a-2f03-4e62-9aad-0ea6711a9e04
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-server-name-indication-sni-ssl-scalability

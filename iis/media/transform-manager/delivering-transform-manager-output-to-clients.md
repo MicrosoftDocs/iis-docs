@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/07/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: b0f6153a-8900-4664-8cb1-a85e51d6d602
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/delivering-transform-manager-output-to-clients

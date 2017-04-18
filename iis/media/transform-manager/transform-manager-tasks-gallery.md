@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/10/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 017f14b1-e083-49c5-a1c4-46f3eda076ee
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/transform-manager-tasks-gallery

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/06/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: ae66aca5-5d0b-4a61-a549-17cb05c6a319
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/windows-communication-framework-wcf

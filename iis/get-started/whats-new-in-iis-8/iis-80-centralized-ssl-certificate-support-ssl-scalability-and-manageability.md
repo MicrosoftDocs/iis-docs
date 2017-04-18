@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/29/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 62cdd54d-8bcd-4546-a720-11970a8f8666
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability

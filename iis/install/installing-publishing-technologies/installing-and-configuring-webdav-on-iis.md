@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/28/2014
 ms.topic: article
-ms.assetid: 
+ms.assetid: f06b1357-350b-4f53-8660-64a283e6b323
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/installing-publishing-technologies/installing-and-configuring-webdav-on-iis

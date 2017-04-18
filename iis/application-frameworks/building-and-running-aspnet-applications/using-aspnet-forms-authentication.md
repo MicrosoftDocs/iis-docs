@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/24/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: c0e984b5-c310-45c3-85a8-6f1273aa9302
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/using-aspnet-forms-authentication

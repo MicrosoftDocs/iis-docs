@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/26/2014
 ms.topic: article
-ms.assetid: 
+ms.assetid: 59cfeb03-dd3b-4933-bd69-e4363226dc24
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later

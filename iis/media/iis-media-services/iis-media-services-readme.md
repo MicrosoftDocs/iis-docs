@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/23/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 618ec076-9347-4dc0-b7b7-4f73cc069ac5
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/iis-media-services/iis-media-services-readme

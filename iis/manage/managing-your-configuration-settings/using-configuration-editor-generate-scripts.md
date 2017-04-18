@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/20/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8582b85c-9622-4e92-a08e-ae6d79faa0ac
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/using-configuration-editor-generate-scripts

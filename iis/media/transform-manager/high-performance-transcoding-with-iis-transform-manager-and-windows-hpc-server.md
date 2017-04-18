@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/27/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: c964eaba-99b0-4dca-bf52-3966366c3457
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/high-performance-transcoding-with-iis-transform-manager-and-windows-hpc-server

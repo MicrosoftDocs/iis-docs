@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2258ad69-e31f-4b0f-a1bc-58680b562ccb
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/introduction-to-iis/web-site-deployment-made-easy

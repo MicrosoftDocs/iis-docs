@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/29/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 52ab178f-2943-4752-ab28-6ab925fdbfdd
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/import-a-package-through-iis-manager

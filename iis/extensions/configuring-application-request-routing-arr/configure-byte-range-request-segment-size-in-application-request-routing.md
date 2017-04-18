@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/16/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: cb1641e4-53b0-491b-8a54-245997e25d18
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/configure-byte-range-request-segment-size-in-application-request-routing

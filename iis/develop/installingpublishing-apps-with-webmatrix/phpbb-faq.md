@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: ed03be9b-b0b1-4845-bb4e-b1355989af0d
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/phpbb-faq

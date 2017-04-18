@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/10/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 657219fc-c621-4bb9-9db8-67903e2fc297
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/url-rewriting-for-aspnet-web-forms

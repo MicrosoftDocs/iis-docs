@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/10/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: e8674783-6bdd-463e-a764-f1813ebf3364
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/remote-administration/remote-manager-for-windows-2003-xp-and-vista-sp1

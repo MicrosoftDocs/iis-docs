@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/02/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: aa95217f-08aa-4af9-a783-0b605ffe590c
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming-events/sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming

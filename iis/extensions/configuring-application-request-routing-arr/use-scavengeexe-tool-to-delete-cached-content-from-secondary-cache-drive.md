@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/06/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: a0a6069a-6484-4486-a885-a0133ade560e
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/use-scavengeexe-tool-to-delete-cached-content-from-secondary-cache-drive

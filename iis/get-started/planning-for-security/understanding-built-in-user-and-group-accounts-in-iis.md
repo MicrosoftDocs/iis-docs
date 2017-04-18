@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 08c4f998-bb43-4500-90f8-03e3d495683e
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-for-security/understanding-built-in-user-and-group-accounts-in-iis

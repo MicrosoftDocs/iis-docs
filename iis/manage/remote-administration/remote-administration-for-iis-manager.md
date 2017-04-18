@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 729e10ac-105a-4d4d-8992-81d8c82bffbf
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/remote-administration/remote-administration-for-iis-manager

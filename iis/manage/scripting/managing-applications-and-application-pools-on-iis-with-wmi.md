@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4d472865-8cb2-469d-903f-b246992706c9
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/scripting/managing-applications-and-application-pools-on-iis-with-wmi

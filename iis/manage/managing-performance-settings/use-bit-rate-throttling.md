@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0ff9896a-d51a-4020-92fa-d3c77aa74bb9
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/managing-performance-settings/use-bit-rate-throttling

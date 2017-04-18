@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/02/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 9e5f2ff1-7a54-45f0-8197-7dd783154e41
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/database-notes-for-packaging-applications-for-use-with-the-web-application-gallery

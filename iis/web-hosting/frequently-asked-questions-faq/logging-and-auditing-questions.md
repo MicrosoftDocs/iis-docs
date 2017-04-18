@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: fc398eec-07ee-4699-aa33-ea628195ab1c
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/logging-and-auditing-questions

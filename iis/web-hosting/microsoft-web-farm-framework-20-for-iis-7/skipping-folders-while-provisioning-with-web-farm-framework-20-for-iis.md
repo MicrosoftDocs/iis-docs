@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/02/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 5934bf1f-010f-420a-ac20-805a6342d593
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/skipping-folders-while-provisioning-with-web-farm-framework-20-for-iis

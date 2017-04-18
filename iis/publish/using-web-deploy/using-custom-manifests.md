@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/23/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 68c0a088-a45f-4ea6-8e3d-a5876f949f29
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/using-custom-manifests

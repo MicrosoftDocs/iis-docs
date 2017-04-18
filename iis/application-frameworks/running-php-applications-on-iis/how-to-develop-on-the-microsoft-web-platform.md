@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: b174c188-7477-4995-a6f1-a5ede62d6915
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/how-to-develop-on-the-microsoft-web-platform

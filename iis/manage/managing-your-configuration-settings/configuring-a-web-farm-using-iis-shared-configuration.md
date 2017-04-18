@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/29/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2f9e335f-a6ce-48f4-aa3c-be48022bf979
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/configuring-a-web-farm-using-iis-shared-configuration

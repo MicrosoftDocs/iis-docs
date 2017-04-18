@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/02/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3cf969b2-260d-4e54-91e7-e78b3453942d
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/network-load-balancing

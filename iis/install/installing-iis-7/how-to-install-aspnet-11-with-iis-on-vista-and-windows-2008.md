@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/03/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6b0e9ceb-a1b5-4d31-ae0b-2ddda487161a
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008

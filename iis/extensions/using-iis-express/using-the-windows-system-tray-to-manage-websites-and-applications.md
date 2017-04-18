@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: d3a5ae8c-d876-405b-b33a-73cfc91d0c04
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/using-iis-express/using-the-windows-system-tray-to-manage-websites-and-applications

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 08/27/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: d0440577-9e53-4202-9df3-199bc567e1c1
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/web-platform-installer/web-platform-installer-v4-command-line-webpicmdexe-rtw-release

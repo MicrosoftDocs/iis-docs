@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/26/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: d8ca581b-fa82-4fca-824f-3456f71799b7
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/synchronizing-two-iis-servers-with-php

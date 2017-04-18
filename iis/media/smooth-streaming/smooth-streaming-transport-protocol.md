@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/08/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 56e777e6-c38e-4b65-8a09-930105e2f94d
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/smooth-streaming-transport-protocol

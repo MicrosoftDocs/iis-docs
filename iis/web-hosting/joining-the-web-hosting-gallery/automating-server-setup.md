@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/05/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 75449e45-0fee-4250-99d0-34b10b3aa051
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/automating-server-setup

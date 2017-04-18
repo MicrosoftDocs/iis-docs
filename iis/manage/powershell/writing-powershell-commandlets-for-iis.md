@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1191ee63-76d6-4a73-9b56-1f103890cd49
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/writing-powershell-commandlets-for-iis

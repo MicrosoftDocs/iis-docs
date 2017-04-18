@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/10/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 63fcc706-7f61-40c0-bc17-8b57118ffd4f
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/blogenginenet

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/13/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: f3cb716e-c182-4975-afe0-d8c8b2172998
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/using-multiple-instances-of-application-request-routing-arr-servers

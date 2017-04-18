@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/14/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: c85c0160-ae3d-4fe9-a1c6-c1e24d3858aa
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis

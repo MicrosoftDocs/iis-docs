@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/10/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6bb2a86b-d812-413a-8802-91c36e398883
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/deploying-wordpress-via-packages-in-a-hosting-environment

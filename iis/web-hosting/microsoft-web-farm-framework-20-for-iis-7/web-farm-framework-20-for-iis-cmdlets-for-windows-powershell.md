@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/21/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 84a13b54-d243-47bd-b204-b82bbbbb0c43
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/web-farm-framework-20-for-iis-cmdlets-for-windows-powershell

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/04/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: cff3c49f-c758-4f28-ad2f-8c39e9edfd81
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/iis-url-rewriting-and-aspnet-routing

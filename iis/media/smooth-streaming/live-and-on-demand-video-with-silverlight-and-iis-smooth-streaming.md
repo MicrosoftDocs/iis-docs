@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/07/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2aefb93b-31a3-4fbe-bfb4-362c2465f734
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/live-and-on-demand-video-with-silverlight-and-iis-smooth-streaming

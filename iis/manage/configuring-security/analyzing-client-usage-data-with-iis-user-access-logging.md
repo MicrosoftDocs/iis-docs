@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/01/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2a1ef2b2-5e25-462c-bff5-0171490aca7a
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/analyzing-client-usage-data-with-iis-user-access-logging
