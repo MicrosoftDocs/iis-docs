@@ -23,13 +23,6 @@ The configuration system in IIS 7 and above is compatible with legacy configurat
 > [!NOTE]
 > By default, this component is not installed.
 
-This document contains:
-
-- [Installing Metabase Compatibility Support](metabase-compatibility-with-iis-7-and-above.md#Installing)
-- [How Metabase Compatability Works](metabase-compatibility-with-iis-7-and-above.md#How)
-- [Other Metabase Configuration Data](metabase-compatibility-with-iis-7-and-above.md#Other)
-- [Legacy Metabase Features](metabase-compatibility-with-iis-7-and-above.md#Legacy)
-
 <a id="Installing"></a>
 
 ## Installing Metabase Compatibility Support

@@ -24,14 +24,6 @@ Extending the IIS Manager tool to manage custom configuration (in the distribute
 
 If you are planning to add UI to the IIS Manager (InetMgr) to manage custom settings on the server configuration files, you will use APIs from Microsoft.Web.Administration.dll and Microsoft.Web.Management.dll. The functionality provided by APIs from these assemblies is fundamentally different and could be confusing for a developer using it for the very first time. This article will provide a brief overview of what each of these assemblies offers.
 
-This document contains:
-
-
-- What is Microsoft.Web.Administration and Microsoft.Web.Management?
-- Overview of Microsoft.Web.Administration
-- Overview of Microsoft.Web.Management
-
-
 ## What Are Microsoft.Web.Administration and Microsoft.Web.Management?
 
 This section provides a brief introduction to each of these.
