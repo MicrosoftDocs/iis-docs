@@ -18,16 +18,6 @@ by [Vishal Sood](https://twitter.com/vishalsood)
 
 IIS Advanced Logging provides tremendous flexibility in logging user requests and client data. Advanced Logging doesn't assume what's important to you. Instead, it provides enough control for you to specify what fields are important, add additional fields with ease, and provide policies around log file rollover and request filtering. You can log any of the HTTP request/response headers, IIS server variables, and client-side fields with simple configuration in IIS Manager.
 
-In this article:
-
-- [Installation](advanced-logging-for-iis-custom-logging.md#install)
-- [Concepts](advanced-logging-for-iis-custom-logging.md#concepts)
-- [About the Advanced Logging User Interface](advanced-logging-for-iis-custom-logging.md#using)
-- [Adding Custom Logging Fields](advanced-logging-for-iis-custom-logging.md#custom)
-- [Adding Log Definitions](advanced-logging-for-iis-custom-logging.md#adddef)
-- [Storing Log Files](advanced-logging-for-iis-custom-logging.md#store)
-- [Summary](advanced-logging-for-iis-custom-logging.md#summary)
-
 <a id="install"></a>
 
 ## Installation
@@ -164,7 +154,7 @@ This section describes how to use the custom logging field **Author** that we ad
     5. **Selected Fields**. Click the **Select Fields** button to open the **Select Logging Fields** dialog box, in which you can select the fields that you want to log for this log definition, including the custom logging field **Author** that you added to the global logging fields list in the [previous section](advanced-logging-for-iis-custom-logging.md#custom). To add the custom **Author** logging field, select it in the list.  
         [![](advanced-logging-for-iis-custom-logging/_static/image18.jpg)](advanced-logging-for-iis-custom-logging/_static/image17.jpg)  
   
- To add additional logging fields to the log definition, select additional logging fields by clicking the check boxes next to their names. Click         **OK** when you're done.
+ To add additional logging fields to the log definition, select additional logging fields by clicking the check boxes next to their names. Click **OK** when you're done.
     6. (Optional) Specify the order that the logging fields are written to the log file by selecting a logging field name in the list and then clicking one of the **Move** buttons to update its position in the list.  
         [![](advanced-logging-for-iis-custom-logging/_static/image20.jpg)](advanced-logging-for-iis-custom-logging/_static/image19.jpg)
     7. **Filter**. Log Filtering in IIS Advanced Logging allows administrators to collect only the website traffic information of interest instead of having to capture all website traffic and then sift through all of the data to find what they need. In this example, we don't create a log filter. For more information about log filtering, see [Advanced Logging for IIS - Log Filtering](advanced-logging-for-iis-log-filtering.md).
@@ -211,6 +201,3 @@ This section contains the following procedures:
 ## Summary
 
 In this walkthrough, we reviewed the Advanced Logging feature, learned how to add a custom logging field to the global logging fields list and how to use it to create a new log file, and learned how to specify the storage location for log files
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1160.aspx)

@@ -164,6 +164,3 @@ In some cases, there is no alternative for using location tags:
 This document provided an initial, high-level, overview of the configuration system in IIS 7.0 and above. It highlighted the cleaner schema format; the distributed nature of the configuration system and how it enables delegation of configuration settings to the site owner or application developer; the structured organization of settings in configuration files; and the integration between IIS and ASP.NET configuration systems.
 
 For more information, it is recommended to review the rest of the configuration documents, and in particular, the Configuration Intrinsics document, which goes into more low-level details about the system, including its design and architecture.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1046.aspx)

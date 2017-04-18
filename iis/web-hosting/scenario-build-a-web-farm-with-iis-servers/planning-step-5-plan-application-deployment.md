@@ -20,11 +20,6 @@ When your web farm is up and working, you will want to update your website or ad
 
 In this step of building a web farm, you plan the installation and configuration of FTP and Web Deploy for you web farm.
 
-The following list shows the tasks required to complete this step:
-
-- [5.1. Deploy Websites with FTP](#51)
-- [5.2. Deploy Web Applications with Web Deploy](#52)
-
 When you are done with these tasks, record your design decisions before going on to [Step 1: Install IIS Web Farm Infrastructure](configuring-step-1-install-iis-web-farm-infrastructure.md).
 
 <a id="51"></a>

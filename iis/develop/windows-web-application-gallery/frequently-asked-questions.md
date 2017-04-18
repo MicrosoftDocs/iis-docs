@@ -64,7 +64,7 @@ You can use also the [Web PI command line tool](https://blogs.iis.net/satishl/ar
 
 1. The application must install successfully onto IIS
 2. The application must install successfully onto WebMatrix (IIS Express)
-3. If you application has a database , you should be able to view the database in WebMatrix
+3. If you application has a database, you should be able to view the database in WebMatrix
 4. Publish your application to a remote site using WebMatrix
 5. Download your application to the local site created on WebMatrix
 

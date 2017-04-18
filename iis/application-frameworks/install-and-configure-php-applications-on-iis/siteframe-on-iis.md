@@ -94,7 +94,7 @@ allow\_url\_fopen=on
 
     - c:/smarty/templates\_c
     - c:/smarty/cache
-9. Set up security settings for the Web server to write to these four folders. For more information on installing smarty templates, see [http://news.php.net/php.smarty.dev/2703](http://news.php.net/php.smarty.dev/2703) .
+9. Set up security settings for the Web server to write to these four folders. For more information on installing smarty templates, see [http://news.php.net/php.smarty.dev/2703](http://news.php.net/php.smarty.dev/2703).
 
 ## Run the Setup
 

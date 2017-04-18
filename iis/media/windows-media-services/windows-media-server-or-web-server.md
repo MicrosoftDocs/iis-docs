@@ -199,5 +199,3 @@ Windows Media Services 2008 and IIS have additional features that are not descri
 **5**[IIS Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing)  
 **6**[IIS Advanced Logging](https://www.iis.net/downloads/microsoft/advanced-logging)  
 **7**[IIS Web Playlists](https://www.iis.net/downloads/microsoft/web-playlists)
-
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

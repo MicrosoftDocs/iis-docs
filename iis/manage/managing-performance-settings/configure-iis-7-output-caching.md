@@ -150,5 +150,3 @@ You can set the output cache to cache only your default page (the most frequentl
 [IIS Output Caching](walkthrough-iis-output-caching.md).
 
 [PHP on IIS7 w/FastCGI](https://blogs.iis.net/bills/archive/2006/10/31/PHP-on-IIS.aspx).
-
-[Discuss in IIS Forums](https://forums.iis.net/1050.aspx)

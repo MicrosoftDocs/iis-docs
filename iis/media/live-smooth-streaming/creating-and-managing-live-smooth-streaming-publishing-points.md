@@ -203,7 +203,7 @@ To specify a pull source URL, do the following:
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image8.png)  
   
     > [!NOTE]
-    > If the publishing point on the syndicating Web server (the upstream publishing point) requires that this publishing point (the downstream publishing point) provide credentials to access the content, select the credential with the appropriate user name and password in the     **Credential** dropdown list. For more information about creating and applying credentials, see     [Syndicating Live Smooth Streams between Servers](syndicating-live-smooth-streams-between-servers.md) . This example shows that credentials aren't required (    **Credential** =     **(None)** ).
+    > If the publishing point on the syndicating Web server (the upstream publishing point) requires that this publishing point (the downstream publishing point) provide credentials to access the content, select the credential with the appropriate user name and password in the **Credential** dropdown list. For more information about creating and applying credentials, see [Syndicating Live Smooth Streams between Servers](syndicating-live-smooth-streams-between-servers.md) . This example shows that credentials aren't required (**Credential** = **(None)**).
 3. Click **OK**. The pull source URL is added to the list of pull source publishing points.  
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image9.png)
 4. Click **OK**. The syndicating publishing point is added to the **Live Smooth Streaming Publishing Points** feature page.  
@@ -227,7 +227,7 @@ To automatically syndicate to other servers, do the following:
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image12.png)  
   
     > [!NOTE]
-    > If the publishing point on the syndicating Web server (the downstream publishing point) requires that this publishing point (the upstream publishing point) provide credentials to deliver the content, select the credential with the appropriate user name and password in the     **Credential** dropdown list. For more information about creating and applying credentials, see     [Syndicating Live Smooth Streams between Servers](syndicating-live-smooth-streams-between-servers.md) . This example shows that credentials aren't required (    **Credential** =     **(None)** ).
+    > If the publishing point on the syndicating Web server (the downstream publishing point) requires that this publishing point (the upstream publishing point) provide credentials to deliver the content, select the credential with the appropriate user name and password in the **Credential** dropdown list. For more information about creating and applying credentials, see [Syndicating Live Smooth Streams between Servers](syndicating-live-smooth-streams-between-servers.md) . This example shows that credentials aren't required (**Credential** = **(None)**).
 
 <a id="long"></a>
 
@@ -406,7 +406,7 @@ The connection details are updated every two seconds.
     - **IIS Smooth Streaming**. The publishing point is returning MPEG-4 (MP4) fragments from incoming live streams to Silverlight-based clients that request them.
     - **Apple HTTP Live Streaming**. The publishing point is converting MP4 fragments in incoming live streams to MPEG-2 Transport Stream (MPEG-2 TS) segments and delivering the segments to Apple mobile digital devices that request them.  
         > [!NOTE]
-        > For more information about how to configure a publishing point to deliver live streams to Apple devices, see         [Apple HTTP Live Streaming with IIS Media Services](apple-http-live-streaming-with-iis-media-services.md) .
+        > For more information about how to configure a publishing point to deliver live streams to Apple devices, see [Apple HTTP Live Streaming with IIS Media Services](apple-http-live-streaming-with-iis-media-services.md) .
     - **HTTP Push**. The publishing point is pushing the incoming live streams to another publishing point, either on the local server or on a remote Live Smooth Streaming server.
     - **HTTP Pull**. Another publishing point, either on the local server or on a remote Live Smooth Streaming server, is pulling the incoming live streams from this publishing point.
 3. Expand a node for an output type to display the names of the streams that the publishing point is delivering to clients.  
@@ -414,6 +414,3 @@ The connection details are updated every two seconds.
 
 > [!NOTE]
 > For an overview of how you can use track and connection details for server monitoring and troubleshooting, see Sam Zhang's blog post, [New Live Smooth Streaming UI Explained](https://go.microsoft.com/?linkid=9750580).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

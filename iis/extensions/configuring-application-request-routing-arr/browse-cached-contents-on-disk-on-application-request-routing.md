@@ -84,6 +84,3 @@ In the above example, selecting ***any*** one of the files will remove ***all***
 You have now successfully browsed through the cached contents on disk using IIS Manager. You can also select and delete cached content(s) while browsing.
 
 For other ARR Version 2 walkthroughs, see the documents in [this](../planning-for-arr/application-request-routing-version-2-overview.md) article.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

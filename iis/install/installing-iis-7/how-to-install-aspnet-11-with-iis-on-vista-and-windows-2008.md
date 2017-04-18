@@ -84,6 +84,3 @@ appcmd set app "Default Web Site/" /applicationPool:"ASP.NET 1.1"If you would li
 
 
 [!code-console[Main](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/samples/sample3.cmd)]
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

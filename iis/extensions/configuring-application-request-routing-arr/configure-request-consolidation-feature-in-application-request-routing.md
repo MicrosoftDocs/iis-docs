@@ -72,6 +72,3 @@ This walkthrough shows the proxy setting at the server farm level.
 You have successfully stepped through how ARR consolidates requests, which is especially useful for handling live streaming contents.
 
 For other ARR Version 2 walkthroughs, see the documents in [this](../planning-for-arr/application-request-routing-version-2-overview.md) article.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

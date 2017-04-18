@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 HTTP Load Balancing using Application Request Routing
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Overview
 
@@ -57,7 +57,7 @@ Provided that the server farm has been created using the steps outlined in **[De
 5. Verify that the **Use URL Rewrite to inspect incoming requests** checkbox is checked.  
     [![](http-load-balancing-using-application-request-routing/_static/image5.jpg)](http-load-balancing-using-application-request-routing/_static/image4.jpg)
 6. SSL offloading is enabled by default. When this feature is enabled, all communication between the ARR server and the application servers are done in clear text, even for HTTPS requests from clients to the ARR server. When both the ARR server and the application servers are deployed within a trusted network, such as within the same datacenter, enabling SSL offloading does not sacrifice security. Also, enabling this feature can further help to maximize the server resources on the application servers, since they do not have to spend cycles in encrypting and decrypting requests and responses.  
- To disable SSL offloading, uncheck the     **Enable SSL offloading** checkbox, and then click     **Apply** .
+ To disable SSL offloading, uncheck the **Enable SSL offloading** checkbox, and then click **Apply**.
 7. Open a browser and send several requests to the ARR server.
 8. To verify that the requests are being load balanced equally between the application servers, select **myServerFarm**. Double-click **Monitoring and Management**.  
     ![](http-load-balancing-using-application-request-routing/_static/image6.jpg)
@@ -136,7 +136,7 @@ Application Request Routing provides a client affinity feature that maps a clien
 4. Double-click **Server Affinity**.
 5. To enable client affinity, check the **Client affinity** checkbox, and then click **Apply**.  
     [![](http-load-balancing-using-application-request-routing/_static/image15.jpg)](http-load-balancing-using-application-request-routing/_static/image14.jpg)  
- Application Request Routing uses a cookie to enable client affinity. The     **Cookie name** will be used to set the cookie on the client. That said, the client must accept cookies for client affinity to work properly.
+ Application Request Routing uses a cookie to enable client affinity. The **Cookie name** will be used to set the cookie on the client. That said, the client must accept cookies for client affinity to work properly.
 6. To verify the functionality of client affinity, send several requests to the ARR server. Refresh the dashboard in IIS Manager (**Monitoring and Management**). Verify that the runtime statistics are changing for only one of the application servers to where the client is affinitized. You may want to send additional requests and refresh the dashboard, as needed.
 
 **To configure client affinity using the command-line:** 
@@ -168,5 +168,3 @@ Disallowing new connections on a server is a graceful way of taking the server o
 ## Summary
 
 You have now successfully configured a number of settings for Application Request Routing to scale out and distribute the load evenly. For more advanced routing capabilities using Application Request Routing, refer to [Using Application Request Routing](../planning-for-arr/using-the-application-request-routing-module.md).
-
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

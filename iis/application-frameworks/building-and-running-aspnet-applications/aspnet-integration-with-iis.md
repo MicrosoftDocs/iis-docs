@@ -148,7 +148,7 @@ If you manually disable the migration error message, you must make sure that you
 
 1. <a id="changemode"></a>**Find or create an application pool that is configured to use the desired mode.**   
  By default, all new application pools run in Integrated mode.  
- The ASP.NET set up provides an application pool named "    **Classic .NET AppPool** " that runs in the classic ASP.NET integration mode. You can use this application pool for applications that should not run in Integrated mode.  
+ The ASP.NET set up provides an application pool named "**Classic .NET AppPool**" that runs in the classic ASP.NET integration mode. You can use this application pool for applications that should not run in Integrated mode.  
  You can also change the ASP.NET mode of the existing application pool by using the IIS Administration Tool or the AppCmd.exe command line tool, or by manually editing the application pool configuration.
 2. <a id="changemode"></a>**Set the application to use that application pool.**   
  Each application is configured to use a particular application pool. By default, all applications use the default application pool named "    **DefaultAppPool** ", which runs in Integrated mode.  

@@ -1,7 +1,7 @@
 ---
 title: "How WebMatrix Verification Works | Microsoft Docs"
 author: simtan
-description: "After you install the required server components and have validated your server configuration , you supply a sample account to the Microsoft Web Hosting Gall..."
+description: "After you install the required server components and have validated your server configuration, you supply a sample account to the Microsoft Web Hosting Gall..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 12/12/2010
@@ -76,7 +76,7 @@ The following web applications (mostly from the [Web Application Gallery](https:
   
     [![](how-webmatrix-verification-works/_static/image16.png)](how-webmatrix-verification-works/_static/image15.png)  
   
- If any of the checks fail, we still     **continue through to publishing** .
+ If any of the checks fail, we still **continue through to publishing**.
 6. Click **Publish** from the Ribbon. On the Publish Preview screen, ensure that **all items are checked** – especially all **databases** whether they are just SDF files or full SQL databases.  
   
     [![](how-webmatrix-verification-works/_static/image18.png)](how-webmatrix-verification-works/_static/image17.png)  
@@ -155,6 +155,3 @@ That's it! That is the testing process for one application; we repeat this proce
 
 - **Default document handling** - Because Web Deploy cannot assign/create entries for Default Documents, the user (and the person testing these applications) may have to go into the control panel to add these entries manually. For example, Wordpress may seem to fail but may only need "index.php" to be added to the list of Default Documents via a control panel before operating fine.
 - **Application-specific bugs** - Some applications may require a trailing slash on your Destination URL to work, and some require it **not** to be there. Some applications require Full Trust on the server, while we recommend your accounts run in only Medium trust. These application bugs are not your concern; we continually work with applicaton owners to resolve these issues, with updates published regularly on the [Web Application Gallery](https://www.microsoft.com/web/gallery/ "Web Application Gallery").
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1157.aspx)

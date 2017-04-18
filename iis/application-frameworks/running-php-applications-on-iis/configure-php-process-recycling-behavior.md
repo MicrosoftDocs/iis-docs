@@ -38,7 +38,7 @@ The FastCGI settings can be configured either by using IIS Manager or by using t
 *Figure 3: Edit FastCGI Application dialog box*
 4. Add the **PHP\_FCGI\_MAX\_REQUESTS** environment variable, and set its value to **10000**.  
     > [!NOTE]
-    > If you do not configure these settings, then the following default settings are used:     **InstanceMaxRequests** of 200,     **PHP\_FCGI\_MAX\_REQUESTS** of 500 (on most PHP builds).  
+    > If you do not configure these settings, then the following default settings are used: **InstanceMaxRequests** of 200, **PHP\_FCGI\_MAX\_REQUESTS** of 500 (on most PHP builds).  
 
     [![](configure-php-process-recycling-behavior/_static/image8.jpg)](configure-php-process-recycling-behavior/_static/image7.jpg)  
 *Figure 4: Environment Variables Collection Editor dialog box*
@@ -57,5 +57,3 @@ To configure the recycling behavior of FastCGI and PHP via **appcmd**, use the f
 ## Links for Further Information
 
 [Using FastCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md).
-
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

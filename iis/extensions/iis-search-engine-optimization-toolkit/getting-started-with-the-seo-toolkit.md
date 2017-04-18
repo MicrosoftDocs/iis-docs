@@ -62,5 +62,3 @@ For more information, you can review a series of [blog postings](https://blogs.i
 ## Summary
 
 You can [download](https://www.microsoft.com/web/page.aspx?templang=en-us&amp;chunkfile=seo.html) the IIS SEO Toolkit today to simplify how you improve the discoverability and quality of your Web site. The IIS SEO Toolkit is free, easy-to-use, and highly extensible, making it a powerful tool for any Web site administrator and developer.
-
-[Discuss in IIS Forums](https://forums.iis.net/1162.aspx)

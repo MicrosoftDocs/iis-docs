@@ -48,7 +48,7 @@ The main server configuration is contained in the applicationHost.config file, l
 
 **&lt;modules&gt;** section. This application-level section contains the list of modules enabled for a particular application. This section serves to select the subset of loaded modules that should be active in an application, and also to load additional application level modules.
 
-**&lt;handlers&gt;** section. This URL-level section contains the handler mappings that the server uses to map incoming requests to a particular module that will process it. This is similar to the IIS 6.0 scriptmaps or ASP.NET , and serves a unified mapping of requests to both native and managed content type handlers.
+**&lt;handlers&gt;** section. This URL-level section contains the handler mappings that the server uses to map incoming requests to a particular module that will process it. This is similar to the IIS 6.0 scriptmaps or ASP.NET, and serves a unified mapping of requests to both native and managed content type handlers.
 
 The full description of all IIS modules is available in the [IIS 7.0 and Above Modules Overview.](../introduction-to-iis/iis-modules-overview.md)
 

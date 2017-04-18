@@ -53,5 +53,3 @@ Note: The second and third prerequisites will be installed if you install the We
 ### Summary
 
 Congratulations! You have now installed a package. It contains the content files, a SQL database and an IIS application.
-
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

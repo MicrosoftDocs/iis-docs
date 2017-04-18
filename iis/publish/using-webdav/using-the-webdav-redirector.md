@@ -23,13 +23,6 @@ Microsoft has created a new WebDAV extension module that has been completely rew
 
 This document walks you through using the WebDAV redirector to publish content to an existing web site that has the new WebDAV module installed.
 
-### In This Walkthrough
-
-- [Installing the WebDAV Redirector](#001)
-- [Mapping Drives using the WebDAV Redirector](#002)
-- [Troubleshooting the WebDAV Redirector](#003)
-- [WebDAV Redirector Registry Settings](#004)
-
 <a id="001"></a>
 ## Installing the WebDAV Redirector
 
@@ -41,7 +34,7 @@ This document walks you through using the WebDAV redirector to publish content t
     - Windows Server 2008, Windows Server 2008 R2, or Windows Server 2012
 - You must be connecting to a web server that already has the WebDAV module installed.  
     > [!NOTE]
-    > See the     [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146) topic for more information.
+    > See the [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146) topic for more information.
 
 ### Windows Vista, Windows 7, Windows 8, or Windows 8.1
 
@@ -205,7 +198,7 @@ The following list of error conditions is designed to help troubleshoot situatio
     - Click the **Trusted sites** icon.
     - Click the **Sites** button.
     - Type your website's URL in the **Add this website to the zone** text box, and then click the **Add** button.  
- (Note: You may need to uncheck the         **Require server verification (https:) for all sites in this zone** checkbox if your website uses an HTTP URL.)
+ (Note: You may need to uncheck the **Require server verification (https:) for all sites in this zone** checkbox if your website uses an HTTP URL.)
     - Click the **Close** button.
     - Click the **OK** button.
 
@@ -235,5 +228,3 @@ The following table details the various settings and values that are available. 
 | **ServerNotFoundCacheLifeTimeInSec** Specifies the period of time that a server is cached as non-WebDAV by the WebClient service. > [!NOTE]
  > The WebClient service maintains a list of non-WebDAV servers that have been contacted. If the server is found in this list, a fail is returned immediately without attempting to contact the server. | DWORD | Time in seconds | 60 decimal |
 | **SupportLocking** Specifies whether the WebClient service supports locking. | DWORD | | 0 | = | False | | --- | --- | --- | | 1 | = | True | | 1 |
-
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

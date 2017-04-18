@@ -1,7 +1,7 @@
 ---
 title: "How to Use Native Code (C++) to Create a Simple FTP Logging Provider | Microsoft Docs"
 author: rmcmurray
-description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008 . This new FTP service incorporates many new features tha..."
+description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
@@ -163,5 +163,3 @@ In this walkthrough you learned how to:
 - Add a custom logging provider to your FTP service.
 
 When users connect to your FTP site, the FTP service will create a log file in the path that you specified in the demo provider.
-
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

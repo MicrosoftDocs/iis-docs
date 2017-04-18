@@ -20,12 +20,6 @@ The first step in planning your web farm is to decide its infrastructure. What s
 
 This topic presents the information you need to create a high-level plan for your web farm. It selects a simple web farm configuration and shows the types of servers that are required. In addition, this topic explains how Application Request Routing (ARR) provides load balancing for the web farm.
 
-The following list shows the tasks required to complete this step:
-
-- [1.1. Decide on Web Farm Infrastructure](#11)
-- [1.2. Use ARR for Load Balancing](#12)
-- [1.3. Start with a Functional Website](#13)
-
 When you are done with these tasks, record your design decisions before going on to [Step 2: Plan IIS Web Farm Configuration](planning-step-2-plan-iis-web-farm-configuration.md).
 
 <a id="11"></a>

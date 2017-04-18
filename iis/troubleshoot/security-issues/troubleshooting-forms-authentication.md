@@ -172,6 +172,3 @@ When you look at the request that reached the server, you want make sure that th
 - [Troubleshoot Forms Authentication](https://support.microsoft.com/kb/910439)
 - [Forms-based Authentication](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/security/formsauth.aspx)
 - [Internet Explorer increases the per-domain cookie limit from 20 to 50](https://support.microsoft.com/kb/941495)
-  
-  
-[Discuss in IIS Forums](https://forums.asp.net/25.aspx/1?Security)

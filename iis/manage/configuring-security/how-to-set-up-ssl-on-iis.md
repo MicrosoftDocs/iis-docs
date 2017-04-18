@@ -175,6 +175,3 @@ Configure SSL settings if you want your site to require SSL, or to interact in a
 ## Summary
 
 In this walkthrough, we successfully used the command-line tool AppCmd.exe, the scripting provider WMI, and IIS Manager to set up SSL on IIS.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

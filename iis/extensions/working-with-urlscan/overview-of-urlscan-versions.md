@@ -45,6 +45,3 @@ Microsoft released UrlScan 3.1 and 3.0 as separate downloads, although administr
 The UrlScan Version 3 family added enhanced parsing of escape sequences in URLs and query strings, which added features to create filtering rules, to always allow specific URLs to bypass UrlScan filtering, and to allow or deny requests that contained user-defined query string elements. This feature helps prevent server attacks that use query strings, such as SQL injection attacks.
 
 For more information about UrlScan Version 3, see the [UrlScan 3 Reference](urlscan-3-reference.md) topic.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

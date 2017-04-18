@@ -223,6 +223,3 @@ By using Perfmon and DebugDiag, you can easily collect data that can be helpful 
 - [What to Gather to Troubleshoot High CPU or Hang](https://blogs.msdn.com/b/tom/archive/2008/05/02/8450990.aspx)
 - [.NET Debugging Demos](https://blogs.msdn.com/b/tess/archive/2008/02/04/net-debugging-demos-information-and-setup-instructions.aspx)
 - [IIS Worker Process Performance Monitoring Tips](https://blogs.msdn.com/b/lexli/archive/2010/02/26/iis-worker-process-performance-monitoring-tips.aspx)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1050.aspx)

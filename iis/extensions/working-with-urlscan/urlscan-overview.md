@@ -90,6 +90,3 @@ For additional information about using UrlScan:
     - [IIS 5.x and IIS 6.0](https://forums.iis.net/1031.aspx)
     - [IIS 7.0 and IIS 7.5](https://forums.iis.net/1043.aspx)
 - See blogs about UrlScan Version 3.1 from [Wade Hilmo](https://blogs.iis.net/wadeh/archive/2008/10/31/UrlScan-3-1.aspx).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

@@ -265,6 +265,3 @@ To test that the rule correctly rewrites URLs in the response, open a Web browse
 In this walkthrough you have learned how to configure URL Rewrite Module and Application Request Routing to implement a reverse proxy scenario. Also you have learned how to use new outbound rewriting feature of URL Rewrite Module 2.0 to fix up the links in the applications' responses before serving them to web client.
 
 Note that when using reverse proxy it often is also required to rewrite the HTTP response headers. To learn how to use URL Rewrite Module 2.0 to modify the response HTTP header refer to [Modifying HTTP Response Headers](modifying-http-response-headers.md).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

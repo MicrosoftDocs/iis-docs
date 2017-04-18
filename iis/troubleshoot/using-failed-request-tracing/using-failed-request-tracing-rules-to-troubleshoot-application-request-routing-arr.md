@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using Failed Request Tracing Rules to Troubleshoot Application Request Routing (ARR)
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Overview
 
@@ -49,7 +49,7 @@ In this step, the Failed Request Tracing Rules are defined for Application Reque
 
 1. Launch IIS Manager (inetmgr).  
   
- 2. Select the     **Default Web Site** .  
+ 2. Select the **Default Web Site**.  
     [![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image2.jpg)](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image1.jpg)
 2. In the **Actions** pane, under **Configure**, select **Failed Request Tracing…**.  
     [![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image4.jpg)](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image3.jpg)
@@ -57,17 +57,17 @@ In this step, the Failed Request Tracing Rules are defined for Application Reque
     [![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image6.jpg)](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image5.jpg)
 4. Click **OK** to save changes.  
   
- 6. Select the     **Default Web Site** .
+ 6. Select the **Default Web Site**.
 5. Double-click **Failed Request Tracing Rules**.
 6. In the **Actions** pane, click **Add…**.  
     [![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image8.jpg)](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image7.jpg)  
- Select     **All content (\*)** , and then click     **Next** .
+ Select **All content (\*)**, and then click **Next** .
 7. Select **Status code(s):** and enter 200-399.  
     [![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image10.jpg)](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image9.jpg)  
- Click     **Next** . The above configuration has created a Failed Request Tracing Rule that writes traces when the status code falls between 200 and 399.
-8. Deselect **ASP**,**ASPNET**, and **ISAPI Extension**. After selecting **WWW Server**, deselect everything under **Areas:** , except for **Rewrite** and **RequestRouting**. Since Application Request Routing relies on the URL Rewrite Module to inspect incoming requests, it is recommended that you enable the traces for both Application Request Routing (**RequestRouting**) and URL Rewrite Module (**Rewrite**).  
+ Click **Next** . The above configuration has created a Failed Request Tracing Rule that writes traces when the status code falls between 200 and 399.
+8. Deselect **ASP**,**ASPNET**, and **ISAPI Extension**. After selecting **WWW Server**, deselect everything under **Areas:**, except for **Rewrite** and **RequestRouting**. Since Application Request Routing relies on the URL Rewrite Module to inspect incoming requests, it is recommended that you enable the traces for both Application Request Routing (**RequestRouting**) and URL Rewrite Module (**Rewrite**).  
     [![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image12.jpg)](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image11.jpg)  
- For additional information about URL Rewrite Module traces, refer to     [https://www.iis.net/learn/extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules](../../extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules.md) .
+ For additional information about URL Rewrite Module traces, refer to [https://www.iis.net/learn/extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules](../../extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules.md) .
 9. Click **Finish.**
 
 **To configure Failed Request Tracing Rules using the command-line:** 
@@ -149,5 +149,3 @@ If you are collecting the Failed Request Tracing logs on server core, you must c
 ## Summary
 
 You have now successfully configured Failed Request Tracing Rules for Application Request Routing. Failed Request Tracing Rules can be used to troubleshoot and debug Application Request Routing, as well as understand the routing decisions, including load balance algorithms, that it has made in selecting the destination server for a given request.
-
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

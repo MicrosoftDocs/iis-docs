@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Discover Installed Components
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 
@@ -83,6 +83,3 @@ These keys appear in the following registry hive:
 | Process Model | ProcessModel |
 | .NET Environment | NetFxEnvironment |
 | Configuration APIs | WASConfigurationAPI |
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

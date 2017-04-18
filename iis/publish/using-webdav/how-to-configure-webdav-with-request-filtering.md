@@ -26,12 +26,6 @@ IIS 7.0 provides several great new security features, including the IIS 7.0 new 
 
 The new WebDAV module and Request Filtering were designed to work together, and this document walks you through configuring WebDAV-related Request Filtering settings together with WebDAV settings in order to set up a secure publishing environment. Note that if you use the IIS Manager UI to configure WebDAV then the request filtering settings are automatically updated and you do not need to follow the steps in this article.
 
-### In This Walkthrough
-
-- [Basic Request Filtering Concepts](how-to-configure-webdav-with-request-filtering.md#01)
-- [Configuring Request Filtering and WebDAV](how-to-configure-webdav-with-request-filtering.md#02)
-- [Summary](how-to-configure-webdav-with-request-filtering.md#03)
-
 ### Prerequisites
 
 The following items are required to complete the procedures in this article:
@@ -221,6 +215,3 @@ For additional information about using WebDAV, please see the following articles
 
 - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 - [How to manage WebDAV using AppCmd](https://go.microsoft.com/fwlink/?LinkId=108319)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

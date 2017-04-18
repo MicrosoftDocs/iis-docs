@@ -119,6 +119,3 @@ The module can be configured to perform the following actions when denying reque
 ### Support for web servers behind proxy
 
 If your web servers are behind a firewall or proxy machine, then the client IP for all requests might show up as the IP of the proxy or firewall server. This would hamper the ability for Dynamic IP Restriction module to be useful. Most of such servers however add an X-Forwarded-For header in the HTTP request that contains the original client's IP address. Selecting the "Proxy" mode checkbox in the main Dynamic IP Restrictions configuration page will check for client IP address in this header first.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Localized Japanese LEARN articles and more
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## 本サイトと IIS TechCenter (日本語版ポータル) について
 
@@ -120,4 +120,4 @@ by [IIS Team](https://twitter.com/inetsrv)
 
 #### IIS 設定リファレンス
 
-- [.configファイル（applicationHost.config , web.config）設定項目一覧](https://technet.microsoft.com/ja-jp/library/ee431610.aspx)
+- [.configファイル（applicationHost.config, web.config）設定項目一覧](https://technet.microsoft.com/ja-jp/library/ee431610.aspx)

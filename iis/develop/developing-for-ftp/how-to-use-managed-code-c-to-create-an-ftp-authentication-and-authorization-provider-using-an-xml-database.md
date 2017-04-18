@@ -37,13 +37,6 @@ This walkthrough will lead you through the steps to use managed code to an FTP a
 > [How to use the Sample Read-Only XML Membership and Role Providers with IIS](../../application-frameworks/building-and-running-aspnet-applications/how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis.md)
 
 
-### In This Walkthrough
-
-- [Step 1: Set up the Project Environment](how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database.md#01)
-- [Step 2: Create the Extensibility Class](how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database.md#02)
-- [Step 3: Add the Demo Provider to FTP](how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database.md#03)
-- [Summary](how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database.md#04)
-
 ### Prerequisites
 
 The following items are required to complete the procedures in this article:
@@ -203,6 +196,3 @@ In this walkthrough you learned how to:
 - Add a custom authentication and authorization provider to your FTP service.
 
 When users connect to your FTP site, the FTP service will attempt to authenticate users with your custom authentication provider. If this fails, the FTP service will use other built-in or authentication providers to authenticate users. After users have been authenticated, the FTP service will call the custom authorization provider to authorize users. If this succeeds, the users will be granted access to your server. If this fails, users will not be able to access your server.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

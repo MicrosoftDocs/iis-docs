@@ -101,5 +101,3 @@ You are now done synchronizing your site. To verify, test browsing to the Web si
 ### Summary
 
 You synchronized a Web site from a source IIS 6.0 server to a destination IIS 6.0 server by viewing the dependencies, configuring the destination IIS 6.0 server, and by using the Web Deployment Agent Service or a package file.
-
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

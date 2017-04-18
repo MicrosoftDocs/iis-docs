@@ -268,5 +268,3 @@ See [https://www.iis.net](https://www.iis.net/) for information about Microsoft 
 ## About the Author
 
 Dr. James McCaffrey works for Volt Information Sciences, Inc., where he manages technical training for software engineers working at Microsoft's Redmond, Washington campus. He has worked as a lead engineer on several key Microsoft products including Internet Explorer and MSN Search, and is the author of ".NET Test Automation: A Problem-Solution Approach", Apress, 2006.
-
-[Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

@@ -18,12 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 The first step in planning to build a PHP website on IIS 8 is to determine how to install IIS along with the CGI module, where to download and install the appropriate PHP version, and how to add your application files to IIS.
 
-The following list shows the tasks required to complete this step:
-
-- [1.1. Plan to Install IIS](#11)
-- [1.2. Plan to Download and Install PHP](#12)
-- [1.3. Plan to Add a PHP Application](#13)
-
 When you are done with these tasks, record your design decisions before going on to [Step 2: Plan PHP Settings](planning-step-2-plan-php-settings.md).
 
 <a id="11"></a>

@@ -18,12 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your website, consider the security needs of your ASP.NET application. The following sections describe application security settings available in IIS 8:
 
-- [4.1. Isolate Web Applications](#41)
-- [4.2. .NET Trust Levels](#42)
-- [4.3. .NET Authentication](#43)
-- [4.4. Machine Key Settings](#44)
-- [4.5. TLS/SSL Communication](#45)
-
 <a id="41"></a>
 ## 4.1. Isolate Web Applications
 

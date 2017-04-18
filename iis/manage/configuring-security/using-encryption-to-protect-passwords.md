@@ -144,8 +144,8 @@ In this step, we create two new application pools that we isolate from one anoth
     - In the **Application Pool Identiy** window select the "**Custom account**" radio button and click the "Set..." button.
     - Input the following user name and password in the **Set Credentials** dialog.  
   
- user name:         **AppPoolIdentity1**  
- password:         **password1**  
+ user name: **AppPoolIdentity1**  
+ password: **password1**  
         [![](using-encryption-to-protect-passwords/_static/image6.jpg)](using-encryption-to-protect-passwords/_static/image5.jpg)
 10. Now the **Identity** value should appear as shown below:  
   
@@ -323,5 +323,3 @@ To isolate the worker process settings, we:
 - We removed access to the anonymous authentication provider for IIS\_IUSRS and granted access to just the application pool identity
 
 This effectively ensured that the application pool identity can decrypt the anonymous password it belongs too and no one else.
-
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

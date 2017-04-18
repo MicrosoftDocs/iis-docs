@@ -117,6 +117,3 @@ The most often used words within a page will be displayed, which can give you an
 ## Summary
 
 The Site Analysis feature of the IIS Search Engine Optimization Toolkit is a powerful and flexible tool that enables you to perform deep analysis of various aspects of your Web site, from compliance with SEO best practices to content statistics, paths analysis, and selection of keywords.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1162.aspx)

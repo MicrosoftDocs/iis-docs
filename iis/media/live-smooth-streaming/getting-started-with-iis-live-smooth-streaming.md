@@ -61,15 +61,15 @@ This section describes how to create a publishing point that can accept a live b
     - **Live source type**. In our example, the Live Smooth Streaming server is an "origin server" that receives the content that's pushed to it from an encoder; therefore, we select the default **Push** option.  
   
         > [!NOTE]
-        > The         **Pull** option for         **Live source type** configures the publishing point to "pull" content from a publishing point on another Live Smooth Streaming server. This is a common configuration for content syndication. For more information, see         [Syndicating Live Smooth Streams between Servers](https://go.microsoft.com/?linkid=9656606) .
+        > The **Pull** option for **Live source type** configures the publishing point to "pull" content from a publishing point on another Live Smooth Streaming server. This is a common configuration for content syndication. For more information, see [Syndicating Live Smooth Streams between Servers](https://go.microsoft.com/?linkid=9656606).
 4. On the **Advanced Settings** tab, select the **Start publishing point automatically upon first client request** check box. This setting allows an encoder to connect to the publishing point when the broadcast starts. Connection errors might occur if you don't enable this setting.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image5.png)  
   
- For more information about the additional settings that you can configure on the     **Advanced Settings** tab, see     [Add/Edit Publishing Point Dialog Box](https://go.microsoft.com/?linkid=9750332) .
+ For more information about the additional settings that you can configure on the **Advanced Settings** tab, see [Add/Edit Publishing Point Dialog Box](https://go.microsoft.com/?linkid=9750332) .
 5. If you want to deliver live streams to Apple® mobile digital devices, on the **Mobile Devices** tab, select the **Enable output to Apple mobile digital devices** check box.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image6.png)  
   
-    **Important** Before proceeding, be sure to check out the the following walkthrough article for more information about the requirements and publishing point configuration for Apple HTTP Live Smooth Streaming:     [Apple HTTP Live Streaming with IIS Media Services](https://go.microsoft.com/?linkid=9750336) .
+    **Important** Before proceeding, be sure to check out the the following walkthrough article for more information about the requirements and publishing point configuration for Apple HTTP Live Smooth Streaming: [Apple HTTP Live Streaming with IIS Media Services](https://go.microsoft.com/?linkid=9750336) .
 6. In the **Add Publishing Point** dialog box, click **OK**. A new Live Smooth Streaming publishing point definition file named **LiveSmoothStream.isml** is added to the website root.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image7.png)
 7. On the **Live Smooth Streaming Publishing Points** page, select the publishing point, and then in the **Actions** pane, click **Start Publishing Point**.  
@@ -77,13 +77,13 @@ This section describes how to create a publishing point that can accept a live b
 8. The publishing point **State** value changes from **Idle** to **Starting**, which means it's waiting for external data (in this case, a live stream pushed to it from an encoder).  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image9.png)  
   
- Because we haven't configured an encoder to push live streams to the publishing point yet, the     **Publishing Point Summary** panel shows that there are no incoming streams.  
+ Because we haven't configured an encoder to push live streams to the publishing point yet, the **Publishing Point Summary** panel shows that there are no incoming streams.  
   
     > [!NOTE]
-    > The     **Summary** panel for Live Smooth Streaming publishing points in IIS Media Services 4 displays summary information about the live Smooth Streams that are received from all live sources (such as encoders or other Live Smooth Streaming publishing points) by the selected publishing point. You can also view details about the tracks within all of the live streams, and stream origin and destination information, in the     **Publishing Point Details** page. For more information, see     [Viewing Publishing Point Details](https://go.microsoft.com/?linkid=9750363) .  
+    > The **Summary** panel for Live Smooth Streaming publishing points in IIS Media Services 4 displays summary information about the live Smooth Streams that are received from all live sources (such as encoders or other Live Smooth Streaming publishing points) by the selected publishing point. You can also view details about the tracks within all of the live streams, and stream origin and destination information, in the **Publishing Point Details** page. For more information, see [Viewing Publishing Point Details](https://go.microsoft.com/?linkid=9750363) .  
   
     > [!NOTE]
-    > After the publishing point begins receiving data from an encoder, its     **State** value changes to     **Started** . However, due to a known issue, the change in the     **State** value isn't visible until after you refresh the     **Live Smooth Streaming Publishing Points** page in IIS Manager.
+    > After the publishing point begins receiving data from an encoder, its **State** value changes to **Started**. However, due to a known issue, the change in the **State** value isn't visible until after you refresh the **Live Smooth Streaming Publishing Points** page in IIS Manager.
 9. See the [next section](getting-started-with-iis-live-smooth-streaming.md#encoder), which describes how to configure Microsoft Expression Encoder to push data to this publishing point.
 
 <a id="encoder"></a>
@@ -107,37 +107,37 @@ This section describes how to create a Live Smooth Streaming broadcast in [Micro
  To find out more information about a preset, such as the numbers of streams in the output and the codecs used, hover your mouse pointer over a preset name. The preset information is displayed in a box.  
   
     > [!NOTE]
-    > Clicking the     **Apply** button automatically updates the     **Output Format** ,     **Video** , and     **Audio** settings on the     **Encode** tab with the values used by the selected preset.  
+    > Clicking the **Apply** button automatically updates the **Output Format**, **Video**, and **Audio** settings on the **Encode** tab with the values used by the selected preset.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image12.png)  
   
- You can choose to not select a preset and specify your own values for the     [Output Format](https://go.microsoft.com/?linkid=9656620) ,     [Video](https://go.microsoft.com/?linkid=9634174) , and     [Audio](https://go.microsoft.com/?linkid=9634175) options on the     **Encode** tab instead.
+ You can choose to not select a preset and specify your own values for the [Output Format](https://go.microsoft.com/?linkid=9656620), [Video](https://go.microsoft.com/?linkid=9634174), and [Audio](https://go.microsoft.com/?linkid=9634175) options on the **Encode** tab instead.
 5. On the **Output** tab, if the **Streaming** check box is present, select it to activate streaming.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image13.png)  
   
- To publish your content, select     **Publishing Point** , and then in the     **Location** box, type the URL of the Live Smooth Smooth Streaming publishing point that you want to publish your live broadcast to.  
+ To publish your content, select **Publishing Point**, and then in the **Location** box, type the URL of the Live Smooth Smooth Streaming publishing point that you want to publish your live broadcast to.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image14.png)  
   
- URL syntax: http://    *ServerName* /    *SiteName* /    *DirectoryName* /    *PublishingPointDefinitionFileName* .isml  
+ URL syntax: http://*ServerName*/*SiteName*/*DirectoryName*/*PublishingPointDefinitionFileName*.isml  
   
- For the example Live Smooth Streaming publishing point that we created in the     [previous section](getting-started-with-iis-live-smooth-streaming.md#pubpt) , the URL would be:  
+ For the example Live Smooth Streaming publishing point that we created in the [previous section](getting-started-with-iis-live-smooth-streaming.md#pubpt), the URL would be:  
   
     `http://IISMedia-Server/LiveSmoothStream.isml`  
   
     > [!NOTE]
-    > You can click the     **Connect** button to test the connection to the publishing point after you specify its URL in the     **Location** box. The publishing point must be started for the connection to be validated.
+    > You can click the **Connect** button to test the connection to the publishing point after you specify its URL in the **Location** box. The publishing point must be started for the connection to be validated.
 6. If you want to add Digital Rights Management (DRM) to your content, select **Digital Rights Management** on the **Output** tab, and then specify DRM options. For more information, see [Set DRM options](https://go.microsoft.com/?linkid=9689725).  
   
     > [!NOTE]
     > The license provided for a Live Smooth Streaming session is non-persistent, meaning that after the user closes the client application being used to view the web broadcast, the license expires.  
   
-    **Important** You shouldn't use the DRM setting if you want to stream the content to Apple devices. To provide protected content to Apple devices, you can configure the Live Smooth Streaming publishing point to encrypt the content by using the Advanced Encryption Standard (AES) with a 128-bit key. For more information about how to configure Apple AES-128 encryption, see     [Add/Edit Publishing Point Dialog Box](https://go.microsoft.com/?linkid=9750332) .
+    **Important** You shouldn't use the DRM setting if you want to stream the content to Apple devices. To provide protected content to Apple devices, you can configure the Live Smooth Streaming publishing point to encrypt the content by using the Advanced Encryption Standard (AES) with a 128-bit key. For more information about how to configure Apple AES-128 encryption, see [Add/Edit Publishing Point Dialog Box](https://go.microsoft.com/?linkid=9750332) .
 7. Click **Cue** to enable your source for broadcasting (a cued file source is shown in the following figure)...  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image15.png)  
   
- ...and then click     **Start** to begin your live broadcast.  
+ ...and then click **Start** to begin your live broadcast.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image16.png)  
   
- As the broadcast runs, you can monitor     [Statistics](https://go.microsoft.com/?linkid=9738257) and     [Connections](https://go.microsoft.com/?linkid=9738258) data in the corresponding panels.
+ As the broadcast runs, you can monitor [Statistics](https://go.microsoft.com/?linkid=9738257) and [Connections](https://go.microsoft.com/?linkid=9738258) data in the corresponding panels.
 
 <a id="client"></a>
 
@@ -153,7 +153,7 @@ This section describes how to use the Microsoft Silverlight Media Framework 2.0 
 1. On the web server, click the following link to download the sample player executable file: [SmoothStreamingPlayer.exe](https://go.microsoft.com/?linkid=9738294).
 2. To extract the sample player files immediately, click **Run**.  
  -or-  
- To copy the sample player files to your web server in order to extract them at a later time, click     **Save** , and then open the file from the saved location.
+ To copy the sample player files to your web server in order to extract them at a later time, click **Save**, and then open the file from the saved location.
 3. When you are prompted for a location to store the extracted sample player files, enter the directory path of a temporary folder on your desktop. For example:  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image17.png)
 4. Open the temporary desktop folder, review the terms in the End User License Agreement (EULA) file, and then right-click the zipped folder and click **Extract All** to extract the sample player files.  
@@ -172,13 +172,10 @@ This section describes how to use the Microsoft Silverlight Media Framework 2.0 
 
     [!code-console[Main](getting-started-with-iis-live-smooth-streaming/samples/sample1.cmd)]
 
- If necessary, also update the     **width** and     **height** attributes to appropriate values for your website design. For complete instructions, see the Readme file (Smooth Streaming Player-ReadMe.doc).
+ If necessary, also update the **width** and **height** attributes to appropriate values for your website design. For complete instructions, see the Readme file (Smooth Streaming Player-ReadMe.doc).
 8. In a web browser on the client computer, download the sample webpage from the web server and begin viewing the stream. In our example, in the web browser address bar, type `http://IISMedia-Server/SmoothStreamingPlayer.html`.  
   
  The Live Smooth Streaming broadcast opens in the web browser, using the Silverlight browser plug-in for Live Smooth Streaming.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image21.png)
 
 For more information about how to to build rich Silverlight user experiences that take full advantage of live and on-demand IIS Smooth Streaming capabilities, see [Smooth Streaming Client](https://go.microsoft.com/?linkid=9738295).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

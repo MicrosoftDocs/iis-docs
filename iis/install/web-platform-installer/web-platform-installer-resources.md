@@ -31,6 +31,3 @@ Welcome to Web Platform Installer Resources! This article provides a list of res
 - If you want to learn more about optimizing ASP.NET applications on IIS, see [Running ASP.NET Applications](../../application-frameworks/building-and-running-aspnet-applications/index.md). You can also start from the [ASP.NET Technical Resources](../../application-frameworks/building-and-running-aspnet-applications/aspnet-technical-resources.md) article.
 - If you want to learn more about Web Application Gallery integration, see the [Web Application Gallery Developer](https://www.microsoft.com/web/gallery/developer.aspx "Web Application Gallery Developer site") site to get started.
 - If you want to learn about extending control panels and other hosts with the Web Application Gallery, see [Integrating the Web Application Gallery](../../develop/windows-web-application-gallery/integrate-the-windows-web-application-gallery-into-a-control-panel.md).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1155.aspx)

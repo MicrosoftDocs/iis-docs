@@ -92,7 +92,7 @@ The following table lists the files that are located within the \_vti\_pvt folde
 | doctodep.btr | Medium | Delete | Document dependencies database - safe to delete. |
 | frontpg.lck | Low | Delete | Lock file - safe to delete. |
 | linkinfo.btr | Medium | Delete | Document dependencies database - safe to delete. |
-| service.cnf | High | Secure | Contains the metadata for a FrontPage web site. The potential threat is the revelation of domain/user names , local file paths, and other metadata. |
+| service.cnf | High | Secure | Contains the metadata for a FrontPage web site. The potential threat is the revelation of domain/user names, local file paths, and other metadata. |
 | service.lck | Low | Delete | Lock file - safe to delete. |
 | services.cnf | Low | N/A | Contains FrontPage subsite information. Note: If you delete this you will lose your FrontPage web site/subsite hierarchy and subsites will become part of the parent FrontPage web site. |
 | structure.cnf | Low | N/A | Contains the FrontPage web site structure. |

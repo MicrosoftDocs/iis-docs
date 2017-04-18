@@ -233,5 +233,3 @@ The above location tag unlocks the section for the default web site only. To unl
 
 > [!NOTE]
 > path="." and path="" have the same effect. They refer to the current level in the hierarchy.
-
-[Discuss in IIS Forums](https://forums.iis.net/1046.aspx)

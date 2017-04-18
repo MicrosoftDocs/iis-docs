@@ -239,6 +239,3 @@ There may be a time in which it is necessary to undo the changes that have been 
 2. To reset all feature delegation states, in the **Actions** pane click **Reset All Delegation**.
 
 To reset the delegation state of a specific feature, select the feature in the list, and in the **Actions** pane click **Reset to Inherited**.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1111.aspx)

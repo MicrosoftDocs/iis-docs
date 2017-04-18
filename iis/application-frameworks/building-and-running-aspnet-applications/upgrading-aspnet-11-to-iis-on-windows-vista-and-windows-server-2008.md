@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Upgrading ASP.NET 1.1 to IIS 7.0 on Windows Vista and Windows Server 2008
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 

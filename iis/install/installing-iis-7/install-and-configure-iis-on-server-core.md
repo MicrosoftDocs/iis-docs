@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Install and Configure IIS 7 on Server Core
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 
@@ -213,5 +213,3 @@ To uninstall the Web Server (IIS) role, use the following command:
 [Server Core Installation Option Getting Started Guide](https://technet.microsoft.com/en-us/library/cc753802(WS.10).aspx).
 
 [Administering IIS7 on Server Core Installations of Windows Server 2008](https://blogs.iis.net/metegokt/archive/2007/06/26/administering-iis7-on-server-core-installations-of-windows-server-2008.aspx).
-
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

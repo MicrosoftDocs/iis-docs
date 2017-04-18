@@ -429,6 +429,3 @@ A distributed inbound rewrite rule can be configured to log rewritten URLs into 
 
 
 [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample21.xml)]
-   
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

@@ -56,7 +56,7 @@ Building a .NET-based provider is a two step process.
 
     [!code-console[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample3.cmd)]
 
- where     `<Path to Web Playlist Include>` is the location where unzipped the Interface files too.
+ where `<Path to Web Playlist Include>` is the location where unzipped the Interface files too.
 2. **Import Types into as assemblly**
 
     1. **Use the .tlb created in step 1**
@@ -159,5 +159,3 @@ For 64 bit systems, when you run as 32 bit through WOW layer, do the following t
 In this walkthrough we learned how to write a custom provider and install it on the system. The writing portion should serve as a starting point; We recommend that you check out the Software Development Kit (SDK) for more detailed information.
 
 The code sample in this document is just for tutorial purposes and to serve as an example. It is not supported and confers no rights.
-
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

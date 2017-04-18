@@ -167,5 +167,3 @@ If that works, then try to connect from a remote machine.
     Also notice that a number of the site tasks are missing from the task pane – this is because site and application administrators are not permitted to take any administrator actions, for example, managing site bindings which are stored in the applicationHost.config file.
 
     [![](an-overview-of-feature-delegation-in-iis/_static/image6.png)](an-overview-of-feature-delegation-in-iis/_static/image5.png)
-
-[Discuss in IIS Forums](https://forums.iis.net/1111.aspx)

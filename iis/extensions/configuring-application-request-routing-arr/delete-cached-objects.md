@@ -1,7 +1,7 @@
 ---
 title: "Delete Cached Objects | Microsoft Docs"
 author: rick-anderson
-description: "This section of the documentation applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above . Goal To successfully remove cached content..."
+description: "This section of the documentation applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To successfully remove cached content..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Delete Cached Objects
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 This section of the documentation applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above**.
 
@@ -104,6 +104,3 @@ ARR allows the user to enter an absolute URL to delete one specific cached conte
 ## Summary
 
 You have now successfully deleted one or more cached contents from ARR. For other ARR Version 2 walkthroughs, see [this](../planning-for-arr/application-request-routing-version-2-overview.md) article.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

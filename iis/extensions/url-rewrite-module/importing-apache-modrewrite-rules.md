@@ -108,5 +108,3 @@ Note that the rules that were imported from mod\_rewrite enabled the enforcement
 [![](importing-apache-modrewrite-rules/_static/image2.gif)](importing-apache-modrewrite-rules/_static/image1.gif) IMPORTANT - The URL Rewrite Module tries to convert Apache mod\_rewrite rules to functionally equivalent IIS URL rewrite rules. However, not all mod\_rewrite rules can be converted because of architectural differences between Apache and IIS. It is highly recommended that you study a mod\_rewrite rule set until you understand its functionality before you begin the conversion process. Then, after converting to IIS URL rewrite rules, review and test the result of the conversion to make sure that the corresponding IIS rewrite rule set provides the same URL rewriting logic.
 
 Note that only rules that follow Apache mod\_rewrite syntax can be converted. Any other formats of rewrite rules (for example, ISAPI\_Rewrite, Ionic ISAPI Rewrite, IISRewrite, and others) are not recognized or will be converted incorrectly.
-
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

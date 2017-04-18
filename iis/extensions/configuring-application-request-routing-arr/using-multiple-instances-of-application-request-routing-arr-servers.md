@@ -87,5 +87,3 @@ You have now successfully enabled and configured Microsoft External Cache for II
 
 - [Achieving high availability and scalability: ARR and hardware load balancer.](achieving-high-availability-and-scalability-arr-and-hardware-load-balancer.md)
 - [Achieving high availability and scalability: ARR and NLB.](achieving-high-availability-and-scalability-arr-and-nlb.md)
-
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

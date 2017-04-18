@@ -61,6 +61,3 @@ The following chart outlines some of the major differences between IIS and IIS E
 | Management tools | IIS Manager, appcmd.exe | Appcmd.exe. Common IIS Express management tasks are also built into WebMatrix and Visual Studio 2010 SP1 and later. |
 | System tray support | None | Yes |
 | Includes built-in IIS modules for authentication, authorization, compression, etc. | Yes | Yes |
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

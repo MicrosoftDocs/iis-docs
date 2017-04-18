@@ -278,6 +278,3 @@ For Internet Explorer and for clients that consume IE components, there is a reg
 - [PRB: Cannot visit SSL sites after you enable FIPS compliant cryptography](https://support.microsoft.com/?id=811834)
 - [HTTP 1.1 host headers are not supported when you use SSL](https://support.microsoft.com/kb/187504/en-us)
 - [Configuring SSL Host Headers (IIS 6.0)](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/596b9108-b1a7-494d-885d-f8941b07554c.mspx?mfr=true)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

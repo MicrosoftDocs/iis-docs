@@ -56,6 +56,3 @@ You can execute the following command to retrieve a list of the cmdlets IIS prov
 ## Summary
 
 In this walkthrough you learned how to use the PowerShell help system to get more information on how to use built-in cmdlets in the IIS namespace, but also on how to use IIS-specific cmdlets.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

@@ -75,5 +75,3 @@ The configuration UI for the Web Analytics module looks as below:
 ![](sample-web-analytics-tracking-module/_static/image5.png)
 
 After the module has been configured, we can see how it works by requesting the web page from the server by using [WFetch](https://www.microsoft.com/downloads/details.aspx?FamilyID=b134a806-d50e-4664-8348-da5c17129210&amp;displaylang=en). The output from web server contains the tracking script before the closing &lt;body /&gt; tag:![](sample-web-analytics-tracking-module/_static/image6.png)
-
-[Discuss in IIS Forums](https://forums.iis.net/1042.aspx)

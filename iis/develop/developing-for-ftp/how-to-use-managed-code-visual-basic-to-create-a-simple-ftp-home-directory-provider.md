@@ -1,7 +1,7 @@
 ---
 title: "How to Use Managed Code (Visual Basic) to Create a Simple FTP Home Directory Provider | Microsoft Docs"
 author: rmcmurray
-description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008 . This new FTP service incorporates many new features tha..."
+description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 09/11/2009
@@ -162,6 +162,3 @@ In this walkthrough you learned how to:
 - Add a custom home directory provider to your FTP service.
 
 When users connect to your FTP site, the FTP service will set each user's home directory to the path that you specified in the demo provider.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

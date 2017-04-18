@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Use Request Filtering
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 
@@ -136,6 +136,3 @@ The following table is a summary of the error codes IIS logs:
 | **Request Filtering: Denied because content length too large** | 404.13 |
 | **Request Filtering: Denied because URL too long** | 404.14 |
 | **Request Filtering: Denied because query string too long** | 404.15 |
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

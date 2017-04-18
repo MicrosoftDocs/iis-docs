@@ -52,5 +52,3 @@ A: To publish a Subtext website, use the following steps:
 1. Install SQL Server Management Studio using the Web Platform Installer
 2. Connect to your local SQL server (.\SQLEXPRESS by default)
 3. Click Databases &gt; [localSubtextDatabase] &gt; Security &gt; Users &gt; [localSubtextuser - default is "subtextuser"] and right-click for properties. Check the box for "db\_owner" in the role membership section.
-
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

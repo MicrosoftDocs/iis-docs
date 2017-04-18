@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Introduction to IIS Architectures
 ====================
-by [IIS Team](https://twitter.com/inetsrv), [Reagan Templin](https://github.com/arkaytee)
+by IIS Team, [Reagan Templin](https://github.com/arkaytee)
 
 ### Compatibility
 
@@ -33,21 +33,6 @@ Internet Information Services (IIS) 7 and later provide a request-processing arc
 - The Windows Process Activation Service (WAS), which enables sites to use protocols other than HTTP and HTTPS.
 - A Web server engine that can be customized by adding or removing modules.
 - Integrated request-processing pipelines from IIS and ASP.NET.
-
-
-This article describes the components, modules, and request-processing architecture in the following sections:
-
-- [Components in IIS](#Components)
-- [Protocol Listeners](#Protocol)
-- [Hypertext Transfer Protocol Stack (HTTP.sys)](#Hypertext)
-- [World Wide Web Publishing Service (WWW service)](#WWW)
-- [Windows Process Activation Service (WAS)](#WAS)
-- [Modules in IIS](#IIS)
-- [Native Modules](#Native)
-- [Managed Modules](#Managed)
-- [Request Processing in IIS](#Request)
-- [Application Pools in IIS](#Application)
-- [HTTP Request Processing in IIS](#HTTP)
 
 <a id="Components"></a>
 
@@ -356,6 +341,3 @@ In a worker process, an HTTP request passes through several ordered steps, calle
 [![](introduction-to-iis-architecture/_static/image4.png)](introduction-to-iis-architecture/_static/image3.png)
 
 **Figure 2: Detail of a HTTP request inside the Worker Process**
-
-
-[Discuss in IIS Forums](https://forums.iis.net/default.aspx?GroupID=41)

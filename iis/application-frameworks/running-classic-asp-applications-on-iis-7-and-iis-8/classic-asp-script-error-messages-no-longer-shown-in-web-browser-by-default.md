@@ -63,6 +63,3 @@ For additional information about the options that are available for classic ASP 
 
 
 As an alternative to returning ASP script error messages to a Web browser, you can enable [Failed Request Tracing](using-failed-request-tracing-to-troubleshoot-classic-asp-errors.md) on your server. For example, you could add a rule to trace HTTP 500 errors automatically, which the ASP engine generates when an error occurs. By analyzing the output in the Failed Request Tracing logs on your server, you can pinpoint the source of classic ASP errors. As an additional security note, Failed Request Tracing logs are not available to Web browsers, so the troubleshooting information is only available on your server. If you use Failed Request Tracing, it will also let you troubleshoot unmonitored classic ASP errors in detail without having to reproduce the errors.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1044.aspx)

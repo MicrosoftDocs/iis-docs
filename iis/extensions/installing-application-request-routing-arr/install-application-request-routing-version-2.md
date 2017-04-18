@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Install Application Request Routing Version 2
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 This topic leads the reader through the steps to install Microsoft Application Request Routing (ARR) **Version 2 for IIS 7 and above**.
 
@@ -159,6 +159,3 @@ To remove Application Request Routing completely, you must remove the four packa
 ## Summary
 
 You have now successfully installed Application Request Routing and the dependent modules, and are ready to configure and use the features. For a quick overview and more information, see %PROGRAMFILES%\IIS\Application Request Routing\ARR\_ReadMe.htm.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

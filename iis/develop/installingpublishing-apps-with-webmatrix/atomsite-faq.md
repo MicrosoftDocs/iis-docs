@@ -44,6 +44,3 @@ A: To publish a AtomSite website, use the following steps:
 
 **Issue:** Some links in AtomSite are broken after you download a published site  
 **Workaround:** This is a known issue. A workaround is to perform a string replace for service.config, users.config, and all .xml files of the remote URL string (i.e. "[http://myhost.com/atomsite](http://myhost.com/atomsite)") to the local one (i.e. "[http://localhost:1239](http://localhost:1239/)").
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

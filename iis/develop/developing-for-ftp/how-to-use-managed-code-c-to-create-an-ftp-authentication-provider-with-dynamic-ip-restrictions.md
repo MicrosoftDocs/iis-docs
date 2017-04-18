@@ -1,7 +1,7 @@
 ---
 title: "How to Use Managed Code (C#) to Create an FTP Authentication Provider with Dynamic IP Restrictions | Microsoft Docs"
 author: rmcmurray
-description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008 . This new FTP service incorporates many new features tha..."
+description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 08/06/2009

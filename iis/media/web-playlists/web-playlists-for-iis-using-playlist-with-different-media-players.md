@@ -89,6 +89,3 @@ The classes above should be used together with NetConnection, NetStream and Vide
 
 
 [!code-console[Main](web-playlists-for-iis-using-playlist-with-different-media-players/samples/sample4.cmd)]
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

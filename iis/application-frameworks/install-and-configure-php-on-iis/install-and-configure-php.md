@@ -42,7 +42,7 @@ To use the Zip file installation, follow the instructions in [Using FastCGI to H
     - Set **fastcgi.impersonate = 1**.  
  FastCGI under IIS supports the ability to impersonate security tokens of the calling client. This allows IIS to define the security context that the request runs under.
     - Set **cgi.fix\_pathinfo = 0**  
- The         **cgi.fix\_pathinfo** provides         **PATH\_INFO/PATH\_TRANSLATED** support for Common Gateway Interface (CGI). Setting this to 1 will cause PHP CGI to fix its paths to conform to the specification.
+ The **cgi.fix\_pathinfo** provides **PATH\_INFO/PATH\_TRANSLATED** support for Common Gateway Interface (CGI). Setting this to 1 will cause PHP CGI to fix its paths to conform to the specification.
     - Set **cgi.force\_redirect = 0**.
     - Set **open\_basedir** to point to a folder or network path where the content of the Web site(s) is located.
     - Set **extension\_dir** to point to a location where PHP extensions reside. For PHP 5.2.X, this is typically **extension\_dir = "./ext"**.
@@ -191,5 +191,3 @@ The Php.ini file provides PHP with configuration and environmental information. 
 [PHP on IIS7](https://php.iis.net/).
 
 [Deploying IIS 7.5 + FASTCGI + PHP on Server Core](https://blogs.msdn.com/philpenn/archive/2009/07/19/deploying-iis-7-5-fastcgi-php-on-server-core.aspx).
-
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

@@ -162,6 +162,3 @@ Open administration.config file located at \Windows\System32\inetsrv\config and 
 
 
 After these steps are done, you should be able to see the "Canonical Domain Name" rule template in the Add Rule(s) dialog of URL Rewrite module.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

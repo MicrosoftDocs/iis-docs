@@ -74,7 +74,7 @@ After the rule has been generated open a Web browser and make a request to `http
 
 ## Enforce Lowercase URLs
 
-A problem similar to the trailing slash problem may happen when somebody links to your web page by using different casing, e.g. http://contoso\_com/Article/123/Some-Title vs. http://contoso\_com/article/123/some-title . In this case again the search crawlers will treat the same page as two different pages and two different statistics sets will show up in Web Analytics reports.
+A problem similar to the trailing slash problem may happen when somebody links to your web page by using different casing, e.g. http://contoso\_com/Article/123/Some-Title vs. http://contoso\_com/article/123/some-title. In this case again the search crawlers will treat the same page as two different pages and two different statistics sets will show up in Web Analytics reports.
 
 What you want to do is to ensure that if somebody comes to your web site by using a non-canonical link, then you redirect them to the canonical URL that uses only lowercase characters. The "Enforce lowercase URLs" rule template can be used to generate a redirect rule for that:
 
@@ -102,6 +102,3 @@ After the rule has been generated open a Web browser and make a request to `http
 ## Summary
 
 In this walkthrough you have learned how to use Search Engine Optimization rule templates to generate redirect rules that can help to improve search engine rankings and usability of your web site. To learn more about Search Engine Optimization tools available in IIS, refer to [Search Engine Optimization Toolkit](https://www.iis.net/downloads/microsoft/search-engine-optimization-toolkit).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

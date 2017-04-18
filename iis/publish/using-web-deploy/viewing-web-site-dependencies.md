@@ -21,6 +21,3 @@ This quick guide will help you run getDependencies and review the dependencies f
 ### How to View Dependencies
 
 Read our [View Dependencies guidance](https://technet.microsoft.com/en-us/library/dd569091.aspx "Viewing Dependencies") for more information.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

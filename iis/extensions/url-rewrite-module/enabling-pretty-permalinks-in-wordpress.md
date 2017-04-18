@@ -63,6 +63,3 @@ After you save the rewrite rule to the Web.config file, open a Web browser and c
 ## Summary
 
 In this walkthrough you learned how to use the URL Rewrite module to enable "pretty permalinks" in the WordPress blog engine. WordPress is just one example of the many popular PHP applications that can take advantage of the URL Rewrite module in IIS, a feature that enables user-friendly and search engine-friendly URLs.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

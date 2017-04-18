@@ -64,7 +64,7 @@ The "Network Service" account is used by the COM process that handles authentica
 
 Create a root folder for FTP publishing:
 
-1. Create a folder at "%SystemDrive%\inetpub\ftproot" .
+1. Create a folder at "%SystemDrive%\inetpub\ftproot".
 2. Set the permissions to allow access for the COM process that handles authentication extensibility: 
 
     - Open a command prompt.
@@ -225,6 +225,3 @@ After completing all of the steps in the **Configuring the IIS 7 Management Serv
 4. The FTP service should log you into the FTP site using the IIS 7 Manager account.
 
 For more information regarding the IIS Management Service, see [Remote Administration for IIS Manager](../../manage/remote-administration/remote-administration-for-iis-manager.md).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

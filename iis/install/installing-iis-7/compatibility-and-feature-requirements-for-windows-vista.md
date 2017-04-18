@@ -146,7 +146,7 @@ You cannot use the IIS 7.0 and above user interface to create a Certificate Trus
 
 1. Use MakeCTL.exe to create the CTL. For more information on MakeCTL.exe, see the [MakeCTL](https://msdn.microsoft.com/en-us/library/aa386969.aspx) page on the MSDN site.   
   
- The MakeCTL.exe tool is part of the     [.NET Framework SDK Version 1.1](https://go.microsoft.com/fwlink/?LinkId=50870) . Once you install the SDK, MakeCTL.exe appears in the following location:   
+ The MakeCTL.exe tool is part of the [.NET Framework SDK Version 1.1](https://go.microsoft.com/fwlink/?LinkId=50870). Once you install the SDK, MakeCTL.exe appears in the following location:   
 
     [!code-console[Main](compatibility-and-feature-requirements-for-windows-vista/samples/sample3.cmd)]
 2. After you create the CTL, you must run AdsUtil.vbs to assign the CTL identifier to the name used in MakeCTL.exe.   
@@ -340,6 +340,3 @@ The process identity used depends upon the level of isolation previously being u
 - **IIS 5.x Application Protection setting of Low**: Your migrated application would appear in an application pool named AppPool\_Low using the Network Service process identity. Previously this application ran as LocalSystem, a process identity with much higher privileges.
 - **IIS5.x Application Protection setting of Medium**: Your migrated application would appear in an application pool named AppPool\_Medium using the process identity of whatever account was stored in the WAMUserName for the first migrated application that ran with the setting of Medium. By default, the process identity was set to the IWAM\_*computername*, but users could change this account. Therefore, if the account was changed, the application pool used whatever account was being used.
 - **IIS5.x Application Protection setting of High**: Your migrated application would appear in an application pool named AppPool\_*applicationName*, where *applicationName* is the value for AppFriendlyName of your application. The process identity used for this application pool is whatever account was stored in the WAMUserName for the first migrated application that ran with the setting of High. By default, the process identity was set to the IWAM\_*computername*, but users could change this account. Therefore, if the account was changed, the application pool used whatever account was being used. Migrated applications with a setting of High are each migrated into their own application pool.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

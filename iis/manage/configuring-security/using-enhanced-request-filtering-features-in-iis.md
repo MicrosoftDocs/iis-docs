@@ -118,5 +118,3 @@ The request below would fail this rule since it has a &quot;..&quot; in its Quer
 [!code-xml[Main](using-enhanced-request-filtering-features-in-iis/samples/sample20.xml)]
 
 This will perform 2 passes when it checks for patterns in query string, one for raw query string and one for the un-escaped query string.
-
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

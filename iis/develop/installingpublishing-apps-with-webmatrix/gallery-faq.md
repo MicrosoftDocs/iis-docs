@@ -45,6 +45,3 @@ A: To publish a Gallery website, use the following steps:
 
 **Issue:** Gallery gives a "Service is unavailable" error after publishing  
 **Workound:** In WebMatrix, click Publish Settings and add a slash "\" after the server name. Publish the application again.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

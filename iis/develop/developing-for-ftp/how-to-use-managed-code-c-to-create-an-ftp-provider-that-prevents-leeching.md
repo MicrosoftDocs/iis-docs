@@ -34,13 +34,6 @@ Microsoft has created a new FTP 8.0 service for Windows Server® 2012 that build
 
 With that in mind, this walkthrough will lead you through the steps to use managed code to create a simple FTP provider that prevents users from downloading more files per-session than you want to allow, which is a behavior that is known that is known in Internet-speak as "[leeching](http://leeching.urbanup.com/392924)." The FTP provider in this walkthrough implements the `IFtpPreprocessProvider.HandlePreprocess()` and `IFtpPostprocessProvider.HandlePostprocess()` methods in order to restrict a user to a maximum number of downloads that you specify in your provider's entry in the ApplicationHost.config file.
 
-### In This Walkthrough
-
-- [Step 1: Set up the Project Environment](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching.md#01)
-- [Step 2: Create the Extensibility Class](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching.md#02)
-- [Step 3: Add the Demo Provider to FTP](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching.md#03)
-- [Summary](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching.md#04)
-
 ### Prerequisites
 
 The following items are required to complete the procedures in this article:
@@ -149,6 +142,3 @@ In this walkthrough you learned how to:
 - Add a custom provider to your FTP service.
 
 When an FTP client connects to the FTP service, the FTP provider will count the number of times that an FTP client downloads a file, and prevent the user from downloading more files per-session than you have allowed in your configuration settings.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

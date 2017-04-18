@@ -33,24 +33,6 @@ by Tim Ammann
 Microsoft offers a number of important feature-rich Media Platform Technologies that are useful in a wide variety of scenarios. Nevertheless, some of the technologies offer advantages over others for particular scenarios. This article offers guidance for choosing among them and considerations for migration, including a look at the revolutionary new Windows Azure Media Services platform.
 
 
-## Contents
-
-1 [Platform Technologies](#Toc343780144)
-
-2 [Encoding and Conversion Technologies](#Toc343780145)
-
-3 [Recent History of Media Formats](#Toc343780146)
-
-4 [Why migrate from Windows Media Services to IIS Media Services?](#Toc343780147)
-
-5 [Reasons to use IIS Media Services and Windows Media Services side-by-side](#Toc343780152)
-
-6 [Considerations when migrating to IIS Media Services](#Toc343780154)
-
-7 [The Advantages of Migrating to Windows Azure Media Services](#Toc343780167)
-
-8 [Resources](#Toc343780187)
-
 
 <a id="Toc343780144"></a>
 ## 1 Platform Technologies
@@ -464,7 +446,7 @@ If your existing on-premises infrastructure is sufficient for most cases but is 
 <a id="Toc343780183"></a>
 #### REST APIs
 
-All of Windows Azure Media Services is accessible through REST APIs, which are built on [OData 3.0](http://www.odata.org/documentation/overview) . Because it uses HTTP, the APIs will work with any platform and any device. You can program the REST APIs directly or through the .NET or Java SDKs.
+All of Windows Azure Media Services is accessible through REST APIs, which are built on [OData 3.0](http://www.odata.org/documentation/overview). Because it uses HTTP, the APIs will work with any platform and any device. You can program the REST APIs directly or through the .NET or Java SDKs.
 
 The .NET and Java SDKs conveniently wrap the REST APIs to make coding your solutions easier. For more information, see [Building Applications with the Media Services SDK for .NET](https://msdn.microsoft.com/en-us/library/hh973613.aspx). To download the .NET SDK for Windows Azure Media Services, see [Windows Azure Media Services .NET SDK (Preview)](https://nuget.org/packages/windowsazure.mediaservices).
 

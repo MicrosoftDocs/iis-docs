@@ -42,7 +42,7 @@ For information about how to install WebMatrix Beta, see [Microsoft Web Platform
     [![](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image9.png)](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image7.png)
 5. Repeat steps 1 – 3 to open a second site.   
     > [!NOTE]
-    > If you do not already have a second site, you can add a new one by choosing     **Site from Web Gallery** ,     **Site From Template** , or     **Site From Folder** .
+    > If you do not already have a second site, you can add a new one by choosing **Site from Web Gallery**, **Site From Template**, or **Site From Folder**.
 6. Right-click **WebMatrix** in the system tray. If you do not see the icon, click **Show hidden icons** to display the icon.  
     ![](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image11.png)  
  You will see the following:  
@@ -68,6 +68,3 @@ Click the notification for more information, including a detailed error message 
 ![](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image19.png)
 
 For more information about IIS Express, see [Use the Command Line to Run a WebMatrix Site](https://go.microsoft.com/fwlink/?LinkId=195514).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

@@ -168,5 +168,3 @@ Similarly, if you request `http://forum_localhost/topic/123/some-topic-title`, y
 ## Summary
 
 In this tutorial you have implemented a sub-domain mapping scenario by using global rule, and then used distributed rules to enable user friendly URL's for web pages in those folders.
-
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

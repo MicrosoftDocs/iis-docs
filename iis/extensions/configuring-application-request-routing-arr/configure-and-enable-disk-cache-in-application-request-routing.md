@@ -1,7 +1,7 @@
 ---
 title: "Configure and Enable Disk Cache in Application Request Routing | Microsoft Docs"
 author: rick-anderson
-description: "This section of the documentation applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above . Goal To successfully configure and enable..."
+description: "This section of the documentation applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To successfully configure and enable..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Configure and Enable Disk Cache in Application Request Routing
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 This section of the documentation applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above**.
 
@@ -140,6 +140,3 @@ In addition to verifying the disk cache functionality on the file system, ARR pr
 ## Summary
 
 You have now successfully configured and enabled a disk cache for ARR. For other ARR Version 2 walkthroughs, see the documents in [this](../planning-for-arr/application-request-routing-version-2-overview.md) article.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

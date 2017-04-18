@@ -332,7 +332,7 @@ If you are installing IIS Media Services for the first time, or if you are upgra
   
  -or-  
   
- If you used a Windows Installer file to install IIS Media Services, in     **Control Panel** &gt;     **Programs** &gt;     **Programs and Features** , under     **Uninstall or change a program** , click     **IIS Media Services** , and then click     **Change** .
+ If you used a Windows Installer file to install IIS Media Services, in **Control Panel** &gt; **Programs** &gt; **Programs and Features**, under **Uninstall or change a program**, click **IIS Media Services**, and then click **Change** .
 3. In **IIS Media Services Setup**, on the **Change, repair, or remove installation** page, click **Change**.
 4. In **IIS Media Services Setup**, on the **Custom Setup** page, mark the **Session Helper** feature under **Web Playlists** for installation.
 
@@ -364,6 +364,3 @@ To obtain support from Microsoft, go to [Microsoft Support](https://go.microsoft
 ## For More Information
 
 To keep up-to-date with the latest IIS Media Services feature news and developments, go to the [IIS Media Services home page](https://go.microsoft.com/?linkid=9735247) on IIS.net.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

@@ -61,6 +61,3 @@ The following articles cover the functionality of the IIS Search Engine Optimiza
 ### Video walkthrough
 
 - [IIS Site Analysis - Video Walkthrough](iis-site-analysis-video-walkthrough.md)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1162.aspx)

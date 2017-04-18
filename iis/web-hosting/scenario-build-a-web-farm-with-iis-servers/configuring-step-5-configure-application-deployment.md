@@ -18,12 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this step of building a web farm, you install and configure FTP for deploying website updates and new websites. You also install and configure Web Deploy for deploying web applications.
 
-The following list shows the tasks required to complete this step:
-
-- [5.1. Install and Configure FTP for Your Web Farm](#51)
-- [5.2. Install and Test Web Deploy for Your Web Farm](#52)
-- [5.3. Where do I go from here?](#53)
-
 <a id="51"></a>
 ## 5.1. Install and Configure FTP for Your Web Farm
 

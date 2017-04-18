@@ -294,6 +294,3 @@ The feed linked in this demo is missing a lot of information that Web Platform I
 ## VacationFeed.xml
 
 [!code-xml[Main](web-deploy-parameterization/samples/sample12.xml)]
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

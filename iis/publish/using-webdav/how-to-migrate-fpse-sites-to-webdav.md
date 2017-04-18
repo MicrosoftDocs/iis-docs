@@ -26,12 +26,6 @@ Some of Microsoft's new web authoring tools like Expression Web Designer have bu
 
 This document walks you through migrating web sites on IIS 7.0 from the FrontPage Server Extensions to WebDAV and configuring your request filtering settings to protect FPSE metadata from non-WebDAV requests.
 
-### In This Walkthrough
-
-- [A Brief Description of FPSE and WebDAV](how-to-migrate-fpse-sites-to-webdav.md#01)
-- [Migrating Sites from FPSE to WebDAV](how-to-migrate-fpse-sites-to-webdav.md#02)
-- [Summary](how-to-migrate-fpse-sites-to-webdav.md#03)
-
 ### Prerequisites
 
 The following items are required to complete the procedures in this article:
@@ -262,6 +256,3 @@ For additional information about using WebDAV, please see the following articles
 - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 - [How to manage WebDAV using AppCmd](https://go.microsoft.com/fwlink/?LinkId=108319)
 - [How to configure WebDAV and Request Filtering](https://go.microsoft.com/fwlink/?LinkId=108321)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

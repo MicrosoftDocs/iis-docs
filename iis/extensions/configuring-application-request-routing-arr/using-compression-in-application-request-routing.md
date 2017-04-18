@@ -72,6 +72,3 @@ This feature is enabled by default and can be found on the Cache Configuration p
 ## Summary
 
 You have now successfully configured and enabled a disk cache for ARR. For other ARR Version 2 walkthroughs, see the documents in [this](../planning-for-arr/application-request-routing-version-2-overview.md) article.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

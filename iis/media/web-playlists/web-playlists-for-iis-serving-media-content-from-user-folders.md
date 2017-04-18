@@ -48,6 +48,3 @@ The impersonation setting is added to the **Impersonation** feature page in Web 
 The example procedure in this article created impersonation credentials in the Web Playlists feature to enable Web Playlists to connect to media assets stored in the **Music** folder under the context of local Administrator account; however, you can use the local account credentials for any authenticated Windows client that has at least **Read** access to the folder.
 
 You can add media assets stored in the **Music** folder (or in another user folder) to a Web Playlist (.isx) file; however, Web Playlists cannot download these assets to clients until you complete the above procedure. For more information about adding media assets to Web playlist (.isx) files, see [IIS Media Services](https://www.iis.net/media) Help.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

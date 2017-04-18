@@ -82,6 +82,3 @@ Any one of the URLs above should cause the URL to be rewritten in accordance to 
 ## Summary
 
 In this walkthrough you have learned how to generate rewrite rules with rewrite maps by using "Rule with Rewrite Map" template included with URL rewrite module. This rule template can be used for creating a rule and a placeholder map that can contain large number of static rewriting and redirection mappings for your web application.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

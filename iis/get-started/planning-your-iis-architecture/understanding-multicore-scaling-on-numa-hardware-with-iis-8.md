@@ -104,11 +104,11 @@ By default, Windows assigns each process to the next NUMA node in the system usi
 1. **MostAvailableMemory.** The scheduling algorithm for worker processes started by WAS which will schedule the process on the node with the most available memory. This helps in minimizing access to memory on a remote NUMA node. The first worker process is selected based on which NUMA node has the most available (free) memory. The rest of the worker processes are affinitized in a round-robin fashion.  
   
     > [!NOTE]
-    >  The     **numaNodeAffinityMode** attribute is applicable only with     **MostAvailableMemory** .
+    >  The **numaNodeAffinityMode** attribute is applicable only with **MostAvailableMemory**.
 2. **WindowsScheduling.** The operating system, by default, assigns each process to the next NUMA node in the system using a "round-robin" algorithm on a NUMA system. The worker processes are spread out evenly because Windows chooses the NUMA node based on this "round-robin" algorithm and soft affinitizes the processes to NUMA nodes.  
   
     > [!NOTE]
-    >  The     **numaNodeAffinityMode** attribute is not applicable with     **WindowsScheduling** because this is not an IIS implementation but Windows implementation as itself.
+    >  The **numaNodeAffinityMode** attribute is not applicable with **WindowsScheduling** because this is not an IIS implementation but Windows implementation as itself.
 
 Configuring these options are done using new schema options:
 

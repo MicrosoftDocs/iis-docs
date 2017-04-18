@@ -16,14 +16,6 @@ Configuring Step 2: Configure ASP.NET Settings
 ====================
 by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
-In this phase of building your website, you configure the following IIS server and website settings that support ASP.NET:
-
-- [2.1. Session State Settings](#21)
-- [2.2. Pages and Controls Settings](#22)
-- [2.3. Application Settings](#23)
-- [2.4. .NET Compilation Settings](#24)
-- [2.5. .NET Globalization Settings](#25)
-
 <a id="21"></a>
 ## 2.1. Session State Settings
 

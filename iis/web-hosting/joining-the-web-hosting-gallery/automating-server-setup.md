@@ -119,6 +119,3 @@ Note: You can easily modify this script to assign an existing certificate (such 
 ## Debugging
 
 Scripts create a log file in the same folder they are run, starting with HostingLog.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1157.aspx)

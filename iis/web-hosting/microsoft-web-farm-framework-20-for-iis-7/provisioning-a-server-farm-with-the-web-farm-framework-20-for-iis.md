@@ -57,7 +57,7 @@ Application provisioning is similar to platform provisioning, but instead of syn
     [[![](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image14.png)](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image13.png)](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image12.png)  
   
     > [!NOTE]
-    > The icons for provisioning are not displayed when     **Content View** is selected. If you do not see the icons, click the     **Features View** tab at the bottom of the     **Content** pane.
+    > The icons for provisioning are not displayed when **Content View** is selected. If you do not see the icons, click the **Features View** tab at the bottom of the **Content** pane.
 3. In the **Application Provisioning** pane, expand the **Additional Providers** section.  
   
     [![](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image17.png)](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image16.png)

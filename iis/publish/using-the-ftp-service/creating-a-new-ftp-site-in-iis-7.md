@@ -229,6 +229,3 @@ In this task you created an FTP site by editing the IIS configuration files. To 
 
     - All users have Read permissions.
     - The administrator account had Read/Write permissions.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

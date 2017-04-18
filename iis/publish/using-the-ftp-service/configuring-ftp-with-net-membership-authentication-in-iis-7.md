@@ -287,6 +287,3 @@ When attempting to log in, you receive the following reply:
 [!code-console[Main](configuring-ftp-with-net-membership-authentication-in-iis-7/samples/sample7.cmd)]
 
 This error is caused when you have not configured your SQL server to accept remote connections.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

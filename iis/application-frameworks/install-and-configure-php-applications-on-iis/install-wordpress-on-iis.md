@@ -97,7 +97,7 @@ The steps that follow assume that WordPress is installed in a Web site root dire
 
     *Figure 5: Customize permalink structure page*
 5. Select **Custom Structure**, and then type  
-    **/%year%/%monthnum%/%day%/%postname%/** in the     **Custom Structure** text box.
+    **/%year%/%monthnum%/%day%/%postname%/** in the **Custom Structure** text box.
 6. Click **Save Changes**. You will see that all the blog post links have URLs that follow the format you have specified; however, if you click any link, the Web server returns a 404 - File Not Found error, because WordPress relies on a URL rewriting capability within a server to rewrite requests that have "pretty permalinks" to an Index.php file.
 
 ## Create Rewrite Rule

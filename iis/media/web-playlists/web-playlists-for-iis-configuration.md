@@ -119,5 +119,3 @@ This will use ASP.NET session state persistence to store the session data.
 ## More Information
 
 - ASP.NET State Management Overview ([https://support.microsoft.com/kb/307598](https://support.microsoft.com/kb/307598))
-
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

@@ -100,7 +100,7 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
     When you are finished, the web.config file looks like the following:
 
     [!code-xml[Main](how-to-use-configuration-delegation-in-iis/samples/sample5.xml)]
-4. In a browser, request [http://localhost/app](http://localhost/app) .
+4. In a browser, request [http://localhost/app](http://localhost/app).
 
     > [!NOTE]
     > You are not authorized to see the page, because you disabled all authentication methods to this page in your web.config file.
@@ -127,5 +127,3 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 This document explains how to define applications and virtual directories in the master configuration file, applicationHost.config. It also covers how to deploy application-specific configuration files that contain server settings in the **&lt;system.webServer&gt;** section. You can add settings to the web.config file in the **&lt;system.web&gt;** section group, such as ASP.NET settings.
 
 A good practice is to set access control lists (ACLs) on the web.config file or on the entire directory of your application so that non-administrative users cannot access the file.
-
-[Discuss in IIS Forums](https://forums.iis.net/1111.aspx)

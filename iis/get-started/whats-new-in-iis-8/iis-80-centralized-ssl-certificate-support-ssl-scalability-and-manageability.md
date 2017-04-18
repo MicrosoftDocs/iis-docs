@@ -188,6 +188,3 @@ Try deploying the following scenarios:
 ## Summary
 
 You have successfully explored Centralized SSL Certificate feature in Windows Server 2012.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

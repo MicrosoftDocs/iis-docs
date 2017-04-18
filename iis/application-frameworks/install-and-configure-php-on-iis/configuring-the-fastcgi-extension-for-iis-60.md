@@ -219,6 +219,3 @@ You can use the configuration script to set all the FastCGI configuration proper
 This example sets the FastCGI process pool configuration property InstanceMaxRequests for the "PHP" section:
 
 [!code-console[Main](configuring-the-fastcgi-extension-for-iis-60/samples/sample9.cmd)]
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

@@ -1,7 +1,7 @@
 ---
 title: "Data Mining UrlScan 3 Logs using LogParser 2.2 | Microsoft Docs"
 author: rmcmurray
-description: "Microsoft has released version 3.1 of UrlScan , and one of the great new features in this version is log files that conform to the W3C Extended Log File Form..."
+description: "Microsoft has released version 3.1 of UrlScan, and one of the great new features in this version is log files that conform to the W3C Extended Log File Form..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 10/22/2008
@@ -17,23 +17,6 @@ Data Mining UrlScan 3 Logs using LogParser 2.2
 by [Robert McMurray](https://github.com/rmcmurray)
 
 Microsoft has released version 3.1 of [UrlScan](index.md), and one of the great new features in this version is log files that conform to the [W3C Extended Log File Format](http://www.w3.org/TR/WD-logfile). What this means to administrators is that they can now parse their UrlScan activity using almost any common log utilities, including Microsoft's [LogParser 2.2](https://www.microsoft.com/en-us/download/details.aspx?id=24659) utility, which is a freeware utility from Microsoft that allows you to write SQL-style queries to extract useful information.
-
-### In this Walkthrough
-
-- [Getting Started](data-mining-urlscan-3-logs-using-logparser-22.md#001)
-
-    - [Downloading and Installing UrlScan and LogParser](data-mining-urlscan-3-logs-using-logparser-22.md#001a)
-    - [UrlScan Log Files](data-mining-urlscan-3-logs-using-logparser-22.md#001b)
-- [Querying Data](data-mining-urlscan-3-logs-using-logparser-22.md#002)
-
-    - [Simple Queries](data-mining-urlscan-3-logs-using-logparser-22.md#002a)
-    - [Filtering Queries](data-mining-urlscan-3-logs-using-logparser-22.md#002b)
-    - [Grouping, Tabulating, and Sorting Queries](data-mining-urlscan-3-logs-using-logparser-22.md#002c)
-- [Putting it All Together](data-mining-urlscan-3-logs-using-logparser-22.md#003)
-
-    - [Counting Requests by Client IP and Sorting Data by Request Count](data-mining-urlscan-3-logs-using-logparser-22.md#003a)
-    - [Counting Rejected Requests based on the Reason for Rejections](data-mining-urlscan-3-logs-using-logparser-22.md#003b)
-    - [Splitting Requests into Separate Log Files based on Site ID](data-mining-urlscan-3-logs-using-logparser-22.md#003c)
 
 <a id="001"></a>
 
@@ -307,6 +290,3 @@ Here's what this batch file does:
 1. Creates a tab-separated file that contains a list of unique site IDs
 2. Creates a loop to step through the tab-separated file containing the site IDs
 3. Selects all fields for the specific site ID and creates a new W3C format file for each site
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

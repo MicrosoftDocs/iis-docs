@@ -71,6 +71,3 @@ To support and configure ASP applications on your Web server, you must install t
 For more information about how to install classic ASP and how to configure classic ASP options, see the following page in the IIS configuration reference on the Microsoft [IIS.net](https://www.iis.net/) Web site:
 
 > [https://www.iis.net/ConfigReference/system.webServer/asp](https://www.iis.net/configreference/system.webserver/asp)
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1044.aspx)

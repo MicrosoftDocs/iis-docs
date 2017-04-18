@@ -18,15 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 You can configure logging on your web server or website that records information about HTTP requests and errors. The information in your log can help you troubleshoot or optimize your website.
 
-Choose one or more of the following procedures to set up logging appropriately for your needs:
-
-- [Prerequisites](#00)
-- [Configure Logging at the Site Level](#01)
-- [Configure Per-site Logging at the Server Level](#02)
-- [Configure Per-server Logging at the Server Level](#03)
-- [Select W3C Fields to Log](#04)
-- [Configure Log File Rollover Options](#05)
-
 <a id="00"></a>
 ## Prerequisites
 

@@ -157,7 +157,7 @@ In this walkthrough, the first example is used for demonstration. Similar rules 
     ![](deploying-application-request-routing-in-cdn/_static/image20.jpg)
 - **The child/edge cache node configuration is complete.**  
   
- To streamline the configuration of additional child cache nodes, a shared configuration can be used so that there is only one place to manage the configuration of the child cache node. Otherwise, the above configuration changes must be made individually on all child cache nodes in the CDN/ECN environment. To learn more about shared configuration, see the following     [article](../../manage/managing-your-configuration-settings/shared-configuration_264.md) .
+ To streamline the configuration of additional child cache nodes, a shared configuration can be used so that there is only one place to manage the configuration of the child cache node. Otherwise, the above configuration changes must be made individually on all child cache nodes in the CDN/ECN environment. To learn more about shared configuration, see the following [article](../../manage/managing-your-configuration-settings/shared-configuration_264.md) .
 
 ## Configuring Parent Cache Node
 
@@ -209,13 +209,10 @@ Configure and enable disk cache by following [this](../configuring-application-r
     ![](deploying-application-request-routing-in-cdn/_static/image29.jpg)
 11. **The parent cache node configuration is complete.**  
   
- To streamline the configuration of additional parent cache nodes, a shared configuration can be used so that there is only one place to manage the configuration of the parent cache node. Otherwise, the above configuration changes must be made individually on all parent cache nodes in the CDN/ECN environment. To learn more about the shared configuration, see the following     [article](../../manage/managing-your-configuration-settings/shared-configuration_264.md) .
+ To streamline the configuration of additional parent cache nodes, a shared configuration can be used so that there is only one place to manage the configuration of the parent cache node. Otherwise, the above configuration changes must be made individually on all parent cache nodes in the CDN/ECN environment. To learn more about the shared configuration, see the following [article](../../manage/managing-your-configuration-settings/shared-configuration_264.md) .
 
 ## Summary
 
 You have now successfully configured child cache node(s) and parent cache node(s) in a 2-tiered cache hierarchy CDN/ECN environment using advanced URL rewrite rules. To verify functionality, you can follow Step 4 and Step 5 in [this](../configuring-application-request-routing-arr/configure-and-enable-disk-cache-in-application-request-routing.md) article. If there are errors, enable Failed Request Tracing rules by following the steps in [this](../../troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr.md) article.
 
 For other ARR Version 2 walkthroughs, see the documents in [this](../planning-for-arr/application-request-routing-version-2-overview.md) article.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

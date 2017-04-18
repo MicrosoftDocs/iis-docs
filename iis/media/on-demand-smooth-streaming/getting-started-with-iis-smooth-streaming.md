@@ -60,7 +60,7 @@ The following [IIS Smooth Streaming HD Sample Content](https://go.microsoft.com/
 1. On your Smooth Streaming Web server, go to the [IIS Smooth Streaming HD Sample Content page](https://go.microsoft.com/?linkid=9652408) and click the **Download** button for the desired sample video.
 2. To extract the Smooth Streaming presentation folder immediately, click **Open**.  
  -or-  
- To copy the zipped folder to your Web server in order to extract the presentation folder at a later time, click     **Save** , and then open the zipped folder from the saved location.
+ To copy the zipped folder to your Web server in order to extract the presentation folder at a later time, click **Save**, and then open the zipped folder from the saved location.
 3. Extract the Smooth Streaming presentation folder to a website or virtual directory on the Web server. This walkthrough describes a Smooth Streaming Web server with the Big Buck Bunny H.264 720p sample content stored in the Default Web site. For example:  
     ![](getting-started-with-iis-smooth-streaming/_static/image2.png)  
   
@@ -78,7 +78,7 @@ The Microsoft Silverlight Media Framework 2.0 SmoothStreamingPlayer.XAP is a pre
 2. On the Web server, click the following link to download the Sample Client executable file: [SmoothStreamingPlayer.exe](https://go.microsoft.com/?linkid=9752687).
 3. To extract the Sample Client files immediately, click **Run**.  
  -or-  
- To copy the Sample Client files to your Web server in order to extract them at a later time, click     **Save** , and then open the file from the saved location.
+ To copy the Sample Client files to your Web server in order to extract them at a later time, click **Save**, and then open the file from the saved location.
 4. When you're prompted for a location to store the extracted Sample Client files, enter the directory path of a temporary folder on your desktop. For example:  
     ![](getting-started-with-iis-smooth-streaming/_static/image4.png)
 5. Open the temporary desktop folder, review the terms in the End User License Agreement (EULA) file, and then right-click the zipped folder and click **Extract All** to extract the Sample Client files.  
@@ -106,7 +106,7 @@ This section describes how to use the Sample Content and Sample Client files to 
 
     [!code-console[Main](getting-started-with-iis-smooth-streaming/samples/sample1.cmd)]
 
- If necessary, also update the     **width** and     **height** attributes to appropriate values for your website design. For complete instructions, see the Readme file (Smooth Streaming Player-ReadMe.doc).
+ If necessary, also update the **width** and **height** attributes to appropriate values for your website design. For complete instructions, see the Readme file (Smooth Streaming Player-ReadMe.doc).
 2. In a web browser on the client computer, download the sample webpage from the Web server and begin viewing the stream. In our example, in the web browser address bar, type `http://%ServerName%/Big Buck Bunny H.264 720p/`**SmoothStreamingPlayer.html**.  
   
  The on-demand Smooth Stream opens in the web browser, using the Silverlight browser plug-in for Smooth Streaming.  
@@ -134,6 +134,3 @@ When you encode Smooth Streaming video using Expression Encoder, the video is ou
 To publish directly from Expression Encoder to your Web server by using WebDAV, the free [WebDAV Extension for IIS](https://go.microsoft.com/?linkid=9652412) must be installed on the Web server.
 
 For step-by-step guidance about how to encode Smooth Streaming video using Expression Encoder and deliver it to clients from your Smooth Streaming Web server, see the [Smooth Streaming Deployment Guide](https://go.microsoft.com/?linkid=9689879).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

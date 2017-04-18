@@ -155,6 +155,3 @@ You can of course open the browser and enter [http://localhost:8080/](http://loc
 ## Summary
 
 In this walkthrough you learned how to create Web-Sites, Web Applications, Virtual Directories and Application Pools with PowerShell. Additional PowerShell features were used to build a functional end-to-end scenario.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

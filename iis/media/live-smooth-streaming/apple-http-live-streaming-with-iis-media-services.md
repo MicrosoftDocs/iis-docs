@@ -20,17 +20,6 @@ Applies To: [IIS Media Services 4](https://go.microsoft.com/?linkid=9734739)
 
 [IIS Live Smooth Streaming](https://go.microsoft.com/?linkid=9733029) enables delivery of live Smooth Streaming presentations in multiple formats without re-encoding: Smooth Streaming format for Microsoft® Silverlight® clients and Apple HTTP Live Streaming format for Apple® "iDevices." This walkthrough shows you how to configure the IIS Live Smooth Streaming feature to enable Apple HTTP Live Streaming.
 
-In this article:
-
-- [Introduction](apple-http-live-streaming-with-iis-media-services.md#intro)
-- [Requirements](apple-http-live-streaming-with-iis-media-services.md#reqs)
-- [Installation](apple-http-live-streaming-with-iis-media-services.md#install)
-- [Configuring the Live Smooth Streaming publishing point](apple-http-live-streaming-with-iis-media-services.md#configurepubpt)
-- [Configuring a Live Smooth Streaming broadcast using Expression Encoder 4](apple-http-live-streaming-with-iis-media-services.md#configureencoder)
-- [Verifying the Live Smooth Streaming publishing point](apple-http-live-streaming-with-iis-media-services.md#verifypubpt)
-- [Creating an HTML 5 page for use in Safari](apple-http-live-streaming-with-iis-media-services.md#html5)
-- [About the Microsoft Media Platform: Player Framework](apple-http-live-streaming-with-iis-media-services.md#smf)
-
 <a id="intro"></a>
 
 ### Introduction
@@ -104,7 +93,7 @@ To configure your first Live Smooth Streaming publishing point, do the following
     ![](apple-http-live-streaming-with-iis-media-services/_static/image1.jpg)
 5. In the **Add Publishing Point** dialog box, on the **Basic Settings** tab, in **File name**, enter a name for the Live Smooth Streaming publishing point definition file (.isml).  
     ![](apple-http-live-streaming-with-iis-media-services/_static/image2.png)  
- In this example and throughout the rest of this article, we'll use a publishing point definition file named     **SmoothApple** . If you specify a different file name, be sure to substitute it appropriately as you follow the steps in this article.
+ In this example and throughout the rest of this article, we'll use a publishing point definition file named **SmoothApple**. If you specify a different file name, be sure to substitute it appropriately as you follow the steps in this article.
 6. Use the default values for the rest of the fields on this tab. To learn more about the rest of the options that you can configure in the dialog box, see [IIS Media Services Help](https://go.microsoft.com/?linkid=9733032).
 7. On the **Advanced Settings** tab, select the **Start publishing point automatically upon first client request** check box. This option allows Expression Encoder 4 to connect to the publishing point when the broadcast starts. Connection errors might occur if you don't select this option.  
     ![](apple-http-live-streaming-with-iis-media-services/_static/image3.png)
@@ -139,7 +128,7 @@ To begin broadcasting from Expression Encoder 4, do the following:
 
     1. On the **Preview** tab, click **Add a File Source**...  
         ![](apple-http-live-streaming-with-iis-media-services/_static/image8.png)  
- ...and then select a video file in the         **Add File Source** dialog box.
+ ...and then select a video file in the **Add File Source** dialog box.
     2. On the **File Sources** tab, select the video file that you added in the previous step...  
         ![](apple-http-live-streaming-with-iis-media-services/_static/image9.png)
     3. ...and then, in the **Play then** dropdown list, select **Loop** to keep the file looping continuously.  
@@ -185,7 +174,7 @@ To verify that the Live Smooth Streaming publishing point is up and running prop
     ![](apple-http-live-streaming-with-iis-media-services/_static/image17.png)
 3. In the **Actions** pane, click **Details**.  
     ![](apple-http-live-streaming-with-iis-media-services/_static/image18.png)  
- The     **Publishing Point Details** page displays even more information about the individual incoming streams. Here you can inspect the incoming bitrates, stream names, states of the individual streams, and so on. This page updates the information every two seconds.  
+ The **Publishing Point Details** page displays even more information about the individual incoming streams. Here you can inspect the incoming bitrates, stream names, states of the individual streams, and so on. This page updates the information every two seconds.  
     ![](apple-http-live-streaming-with-iis-media-services/_static/image19.png)
 4. To verify that an archive is being created for the MPEG-2 TS files, in Windows Explorer, navigate to the IIS Media Services archives folder, which is set by default to %SystemDrive%\inetpub\media\archives. Or click the **Archive Path** shortcut link on the **Publishing Point Summary** panel for the publishing point.  
     ![](apple-http-live-streaming-with-iis-media-services/_static/image20.png)
@@ -238,6 +227,3 @@ If the video plays smoothly, you've successfully enabled Apple HTTP Live Streami
 You can use [Microsoft's open source media player framework (MMPPF)](https://go.microsoft.com/?linkid=9733035) to quickly deploy a robust, scalable, customizable media player for IIS Smooth Streaming delivery. Deploy the media player to the same website and point it to the same Live Smooth Streaming publishing point to enable playback to Silverlight clients on computers running Windows, Macintosh®, and Linux operating systems. IIS Media Services 4 can deliver media to more screens from a single set of live streams than other solutions available on the market today.  
 ![](apple-http-live-streaming-with-iis-media-services/_static/image2.jpg)  
 The MMPPF builds on the core functionality of the [IIS Smooth Streaming Client](https://go.microsoft.com/?linkid=9733034).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

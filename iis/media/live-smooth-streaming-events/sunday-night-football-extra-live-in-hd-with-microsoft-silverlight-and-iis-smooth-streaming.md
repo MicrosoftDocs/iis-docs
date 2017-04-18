@@ -211,6 +211,3 @@ Partners involved with the Sunday Night Football Extra program include:
 - **iStreamPlanet** has created a variety of managed and hosted services for getting content onto the web. Its nationwide footprint of webcast producers, each with many years of experience in producing the largest webcasts, makes the process of putting live events on the web painless. iStreamPlanet also has strategically located, specially equipped encoders and satellites and fiber-content acquisition facilities to reduce the costs of getting content to the web.
 - **Omniture** is the leader in web analytics. The Omniture Online Marketing Suite is the leading solution to optimize ad spend and conversion. It includes a comprehensive portfolio of applications for visitor acquisition, conversion, online analytics, and multichannel analytics built on an open business analytics platform.
 - **Vertigo** is a Microsoft Gold Certified Partner, providing design and development assistance by using the latest Microsoft technology to redefine the human and computer interface.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

@@ -42,6 +42,3 @@ A: To publish a Kentico CMS website, use the following steps:
 6. After previewing the changes, click **Continue**.
 
 **Once Kentico is published, you need to add a license and update the domain in the published site for the application to work correctly.**
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

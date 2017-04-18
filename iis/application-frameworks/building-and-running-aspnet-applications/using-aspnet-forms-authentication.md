@@ -14,7 +14,7 @@ msc.type: video
 ---
 Using ASP.NET Forms Authentication
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 HTTP request processing is more integrated in IIS 7.0 and above allowing ASP.NET features like Forms Authentication to process requests for non-ASP.NET content like ASP, PHP or media files. This tutorial covers configuring authentication settings in Web.config, adding users and roles to membership, and configuring authentication for all content types in Integrated Pipeline Mode.
 

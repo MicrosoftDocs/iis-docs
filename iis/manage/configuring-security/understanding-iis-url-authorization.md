@@ -176,5 +176,3 @@ URL Authorization is not only for Windows identities. It works well for non-Wind
 ## Summary
 
 URL Authorization is a powerful new way to specify authorization rules for web applications. Now you can specify rules in XML without using Windows Access Control Lists any longer.
-
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

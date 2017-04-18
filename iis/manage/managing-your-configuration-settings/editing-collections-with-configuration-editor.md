@@ -63,5 +63,3 @@ This walkthrough requires the following prerequisites:
 ## Summary
 
 You have now created three output caching rules using Configuration Editor's Collection Editor. Collection Editor exposes all of the configuration settings for a given collection, just as Configuration Editor does.
-
-[Discuss in IIS Forums](https://forums.iis.net/1149.aspx)

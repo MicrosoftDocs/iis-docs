@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Package an Application for the Windows Web Application Gallery
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 
@@ -168,7 +168,7 @@ PHP applications are typically run as the anonymous user because the FastCGI set
 
 ## Pack the Application
 
-Create a compressed file (Zip) package of the application if you don't already have one. You can create the Zip file with Windows® Explorer, WinZip, or the Linux zip command . The Manifest.xml, Parameters.xml, and Install.sql files all go in the root directory of the package. The rest of your application goes in a sub folder of the root as in the diagram below.
+Create a compressed file (Zip) package of the application if you don't already have one. You can create the Zip file with Windows® Explorer, WinZip, or the Linux zip command. The Manifest.xml, Parameters.xml, and Install.sql files all go in the root directory of the package. The rest of your application goes in a sub folder of the root as in the diagram below.
 
 
 [!code-console[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample13.cmd)]
@@ -186,7 +186,7 @@ You can test your package by using the Web Deployment Tool. You can get the late
 
 ### Use Web Platform Installer
 
-You can test your package by using Web Platform Installer . You can refer to this guide : [Testing a Web Application Zip Package for Inclusion with the Web Application Gallery](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery.md)
+You can test your package by using Web Platform Installer. You can refer to this guide : [Testing a Web Application Zip Package for Inclusion with the Web Application Gallery](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery.md)
 
 ### Use the Web Deployment Tool UI
 
@@ -282,5 +282,3 @@ For more information, see the [Reference for the Web Application Guide](referenc
 [Web Platform Installer](https://www.microsoft.com/web/downloads/).
 
 [CodePlex.](http://www.codeplex.com/)
-
-[Discuss in IIS Forums](https://forums.iis.net/1158.aspx)

@@ -74,6 +74,3 @@ The table below shows the IIS Manager feature name, followed by the configuratio
 | SMTP E-mail | system.net/mailSettings/smtp | [.NET Framework 2.0] |
 | SSL Settings | system.webServer/access | [IIS Server Core] |
 | Worker Processes |  |  |
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1111.aspx)

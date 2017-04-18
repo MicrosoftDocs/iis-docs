@@ -24,13 +24,6 @@ Microsoft released a new WebDAV extension module that was completely rewritten f
 
 This document will walk you through using the new AppCmd.exe utility in IIS 7.0 to configure WebDAV settings from a command-line or batch script.
 
-### In This Walkthrough
-
-- [Basic AppCmd Concepts](how-to-configure-webdav-settings-using-appcmd.md#01)
-- [Getting Started with WebDAV](how-to-configure-webdav-settings-using-appcmd.md#02)
-- [Working with WebDAV Authoring Rules](how-to-configure-webdav-settings-using-appcmd.md#03)
-- [Summary](how-to-configure-webdav-settings-using-appcmd.md#04)
-
 ### Prerequisites
 
 The following items are required to complete the procedures in this article:
@@ -314,6 +307,3 @@ For additional information about using WebDAV, please see the following articles
 
 > [!NOTE]
 > As mentioned earlier, your default request filtering settings may block several file types from WebDAV authoring. If you do not modify your request filtering settings, you may see various errors when you try to publish files that are blocked. For example, if you attempt to upload or download a web.config file you will see errors in your WebDAV client. For more information about configuring your request filtering settings, see the [How to Configure WebDAV with Request Filtering](how-to-configure-webdav-with-request-filtering.md) walkthrough.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

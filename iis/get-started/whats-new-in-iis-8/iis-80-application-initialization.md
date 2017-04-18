@@ -347,6 +347,3 @@ Type in the following Xml elements *before* the &lt;security&gt; element:
 [!code-xml[Main](iis-80-application-initialization/samples/sample17.xml)]
 
 Save the changes to the applicationHost.config file.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1051.aspx)

@@ -86,6 +86,3 @@ You can also use the /path option to run a site directly from a folder. This opt
 For example, the following command runs the specified application, "myapp," on http://localhost:9090/ by using .NET 2.0:
 
 [!code-console[Main](running-iis-express-from-the-command-line/samples/sample9.cmd)]
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

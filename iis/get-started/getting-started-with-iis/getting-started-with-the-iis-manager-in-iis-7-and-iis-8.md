@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Getting Started with the IIS Manager in IIS
 ====================
-by [IIS Team](https://twitter.com/inetsrv), [Tobin Titus](https://github.com/tobint)
+by IIS Team, [Tobin Titus](https://github.com/tobint)
 
 ### Compatibility
 

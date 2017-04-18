@@ -87,6 +87,3 @@ Both modules have been implemented to have as little impact as possible on the p
 ## Choosing Between Request Filtering and URL Rewriting
 
 If you are choosing between request filtering and URL rewriting for tightening the security of your Web server, the general rule is to start with request filtering. Request filtering is optimized for security scenarios and its feature set will most likely be sufficient for implementing your security requirements. If you have a requirement that cannot be addressed by the request filtering module, use the URL rewrite module to implement that requirement, and leave the rest of the security tasks to the request filtering module. That way you reduce the performance impact of the URL rewrite module by having the minimal amount of rewrite rules for the server to process.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

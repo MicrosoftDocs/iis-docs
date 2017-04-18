@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Install Application Request Routing
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 This topic leads the reader through the steps to install Microsoft Application Request Routing (ARR) Version 1 on IIS 7.0 and above.
 
@@ -96,7 +96,7 @@ In this step, you will disable the Idle Time-Out under application pool process 
 **To change the application pool process model using the UI:** 
 
 1. Launch IIS Manager.  
- 2. Select     **Application Pools** .
+ 2. Select **Application Pools**.
 
     [![](install-application-request-routing/_static/image2.jpg)](install-application-request-routing/_static/image1.jpg)
 2. By default, **DefaultAppPool** is the corresponding application pool for **Default Web Site**. Select **DefaultAppPool**. Under **Actions**, under **Edit Application Pool**, select **Advanced Settings…**.
@@ -130,5 +130,3 @@ To remove Application Request Routing completely, the 4 packaged components must
 ## Summary
 
 You have now successfully installed Application Request Routing and the dependent modules, and are ready to configure and use the features. You may also want to read a quick overview at %PROGRAMFILES%\IIS\Application Request Routing\ARR\_ReadMe.htm for more information.
-
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

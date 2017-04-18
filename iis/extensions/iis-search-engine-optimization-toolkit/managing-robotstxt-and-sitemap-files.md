@@ -145,6 +145,3 @@ In addition to adding the sitemap location to the Robots.txt file, it is recomme
 ## Summary
 
 In this walkthrough, you have learned how to use the Robots Exclusion and Sitemaps and Sitemap Indexes features of the IIS Search Engine Optimization Toolkit to manage the Robots.txt and sitemap files on your Web site. The IIS Search Engine Optimization Toolkit provides an integrated set of tools that work together to help you author and validate the correctness of the Robots.txt and sitemap files before search engines start using them.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1162.aspx)

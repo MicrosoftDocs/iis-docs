@@ -130,4 +130,4 @@ Run the file at **mydomain.com/email\_test.php**.
 ## Links for Further Information
 
 - [Configure SMTP e-mail in IIS 7](https://technet.microsoft.com/en-us/library/cc772058(WS.10).aspx).
-- [Discuss in IIS Forums](https://forums.iis.net/1102.aspx)
+-

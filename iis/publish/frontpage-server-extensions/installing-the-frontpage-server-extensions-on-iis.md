@@ -25,13 +25,6 @@ Windows Vista, Windows 7, Windows Server 2008 RTM, and Windows Server 2008 R2 do
 - [Microsoft FrontPage 2002 Server Extensions for IIS 7.0](https://www.iis.net/downloads/community/2011/07/frontpage-2002-server-extensions-for-iis-70-on-windows-server-2008-and-windows-vista)
 - [RTR FrontPage 2002 Server Extensions for IIS 7.5](https://www.iis.net/downloads/community/2011/07/rtr-frontpage-server-extensions-for-iis-75-on-windows-server-2008-r2-and-windows-7)
 
-### In This Walkthrough
-
-- [FPSE Prerequisites](installing-the-frontpage-server-extensions-on-iis.md#01)
-- [Downloading and Installing FPSE](installing-the-frontpage-server-extensions-on-iis.md#02)
-- [Extending websites with FPSE](installing-the-frontpage-server-extensions-on-iis.md#03)
-- [Removing FPSE from websites](installing-the-frontpage-server-extensions-on-iis.md#04)
-
 ### Notes:
 
 - There are two versions of FPSE available for IIS: 

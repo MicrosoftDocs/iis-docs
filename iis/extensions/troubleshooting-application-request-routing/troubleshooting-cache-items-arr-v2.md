@@ -33,7 +33,7 @@ In this walkthrough we will trace a request as it passes through ARR and is sent
 
 The first step is to understand the architecture of the environment including the following. Without knowledge of this it would be impossible to devise any sort of logical action plan when troubleshooting.
 
-- ARR Farm topology ( how many servers , how routing is configured , other devices)
+- ARR Farm topology ( how many servers, how routing is configured, other devices)
 - URL Rewrite rules in place
 
 For the purposes of this walkthrough we are going to use the following configuration.
@@ -179,6 +179,3 @@ Arr will log events to the Application event log when disk failures occur and ma
 - [Reasons content is not cached by HTTP.sys in kernel](https://support.microsoft.com/kb/817445)
 - [Network Monitor](https://support.microsoft.com/kb/933741)
 - [IIS Advance Logging](https://www.iis.net/downloads/microsoft/advanced-logging)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

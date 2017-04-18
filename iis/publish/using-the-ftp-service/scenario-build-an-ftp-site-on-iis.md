@@ -20,20 +20,6 @@ File Transfer Protocol (FTP) simple is a protocol for transferring files between
 
 The document shows how to install and configure the FTP server on an existing IIS 8 web server. The first two steps are required. All other steps are optional but recommended.
 
-### In this document
-
-- [Prerequisites](#00)
-- [Step 1: Install FTP on an Existing IIS Web Server](#01)
-- [Step 2: Add an FTP Site](#02)
-- [Step 3: Configure FTP Site Defaults](#03)
-- [Step 4: Configure Firewall Support](#04)
-- [Step 5: Configure User Isolation](#05)
-- [Step 6: Configure Directory Browsing Options](#06)
-- [Step 7: Configure Logon Attempt Restrictions](#07)
-- [Step 8: Configure Request Filtering](#08)
-- [Step 9: Configure FTP Logging](#09)
-- [Step 10: Configure FTP Messages](#10)
-
 <a id="00"></a>
 ## Prerequisites
 

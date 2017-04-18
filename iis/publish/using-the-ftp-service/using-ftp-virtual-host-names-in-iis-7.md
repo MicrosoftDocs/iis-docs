@@ -218,6 +218,3 @@ To recap the items that you completed in this step:
     - "%SystemDrive%\inetpub\www.contoso.com".
 - You bound both FTP sites to the local loopback IP address for your computer on port 21 using "www.example.com" and "www.contoso.com" as the virtual host names.
 - You enabled Basic Authentication and created an authorization rule for the local user account for Read and Write access for each site.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

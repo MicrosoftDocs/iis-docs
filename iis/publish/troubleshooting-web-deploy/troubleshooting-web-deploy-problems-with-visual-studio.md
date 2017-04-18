@@ -169,6 +169,3 @@ From this, we can see that User1 does not have rights to set security informatio
 - [Configure the Web Deployment Handler](../using-web-deploy/configure-the-web-deployment-handler.md)
 - [The HTTP status codes in IIS 7.0 and IIS 7.5](https://support.microsoft.com/kb/943891)
 - [Configuring Web Management Service Logging and Tracing](https://technet.microsoft.com/en-us/library/ee461173(WS.10).aspx)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

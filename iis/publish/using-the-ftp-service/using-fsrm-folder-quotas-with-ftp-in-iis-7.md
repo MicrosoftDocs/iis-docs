@@ -197,6 +197,3 @@ Once folder quotas have been enabled for a content path for an FTP site and the 
 ## More Information
 
 For more information, please see the [Step-by-Step Guide for File Server Resource Manager in Windows Server 2008](http://technet2.microsoft.com/windowsserver2008/en/library/08723815-8560-404b-9c9c-0abc636a5f241033.mspx) topic on Microsoft's web site.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

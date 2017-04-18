@@ -18,11 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of planning for a web farm, you add support for SSL-secured websites by configuring a central certificate store. Centralized SSL certificate support is a new feature on IIS 8.
 
-The following list shows the tasks required to complete this step:
-
-- [4.1. Introduction to Centralized Certificates](#41)
-- [4.2 Plan a Central Certificate Store](#42)
-
 When you are done with these tasks, record your design decisions before going on to [Step 5: Plan Application Deployment](planning-step-5-plan-application-deployment.md).
 
 <a id="41"></a>

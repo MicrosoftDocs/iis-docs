@@ -50,7 +50,7 @@ To set up web hosting, you must find a web hosting provider and set up an accoun
 
 1. In the **Home** tab, click the arrow below **Publish**, and then click **Find Web Hosting**.  
     ![](publish-your-website/_static/image1.jpg)  
- The     **Find Web Hosting** web page lists hosting providers.  
+ The **Find Web Hosting** web page lists hosting providers.  
     [![](publish-your-website/_static/image2.png)](publish-your-website/_static/image1.png)
 2. Select one of the hosting providers and click **Learn More**.
 3. Follow the directions provided by the hosting provider's site to set up a new account.  
@@ -143,6 +143,3 @@ The following example shows a connection string in a Web.config file for a SQL S
 The following example shows a connection string for a full SQL Server database named CohoWinery that is on a server named "Server01", using integrated Windows authentication. The connection string for the database named SmallBakery shows how to use SQL Server authentication (that is, how to specify a user name and password).
 
 [!code-xml[Main](publish-your-website/samples/sample2.xml)]
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

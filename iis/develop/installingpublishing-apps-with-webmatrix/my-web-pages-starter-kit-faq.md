@@ -40,6 +40,3 @@ A: To publish a My Web Pages Starter Kit website, use the following steps:
 4. Click **Publish**.
 5. If you have not published your database before, select the Database checkbox.
 6. After previewing the changes, click **Continue**.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

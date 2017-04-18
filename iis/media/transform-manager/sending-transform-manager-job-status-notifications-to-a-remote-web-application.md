@@ -26,19 +26,6 @@ You can configure a new notifications feature in [IIS Transform Manager 1.0](htt
 
 This article describes a sample ASP.NET MVC 3 web application on the Windows Azure platform that receives Transform Manager job status.
 
-In this article:
-
-> [Licensing](sending-transform-manager-job-status-notifications-to-a-remote-web-application.md#license)  
-> [About the POST Message Body](sending-transform-manager-job-status-notifications-to-a-remote-web-application.md#about_post_body)  
-> [Creating a Sample Web Application](sending-transform-manager-job-status-notifications-to-a-remote-web-application.md#create_web_app)  
-> [Requirements](sending-transform-manager-job-status-notifications-to-a-remote-web-application.md#requirements)  
-> [Creating the ASP.NET MVC 3 Web Application](sending-transform-manager-job-status-notifications-to-a-remote-web-application.md#create_app)  
-> [Modeling the Data](sending-transform-manager-job-status-notifications-to-a-remote-web-application.md#model_data)  
-> [Adding a Controller](sending-transform-manager-job-status-notifications-to-a-remote-web-application.md#add_controller)  
-> [Creating a View](sending-transform-manager-job-status-notifications-to-a-remote-web-application.md#create_view)  
-> [Testing the ASP.NET MVC 3 Web Application](sending-transform-manager-job-status-notifications-to-a-remote-web-application.md#test_app)  
-> [Closing Notes](sending-transform-manager-job-status-notifications-to-a-remote-web-application.md#conclusion)
-
 
 <a id="license"></a>
 
@@ -127,7 +114,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
 2. After you click **OK** in the **New Project** dialog box, the **New Windows Azure Project** dialog box is displayed.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image2.png)  
   
- Click     **OK** in this dialog box as the ASP.NET MVC 3 Web Role is not available to add to the Windows Azure solution.
+ Click **OK** in this dialog box as the ASP.NET MVC 3 Web Role is not available to add to the Windows Azure solution.
 
 <a id="step2"></a>
 
@@ -140,7 +127,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
 3. After you click **OK** in the **Add New Project** dialog box, the **New ASP.NET MVC 3 Project** dialog box is displayed.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image5.png)  
   
- In this dialog box, select the     **Empty** project template, and then click     **OK** .
+ In this dialog box, select the **Empty** project template, and then click **OK**.
 
 <a id="step3"></a>
 
@@ -165,7 +152,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
  To select multiple components at once, press the CTRL key on your keyboard and then click each of the component names.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image7.png)  
   
- After you've selected all of the components, click     **OK** .
+ After you've selected all of the components, click **OK**.
 
 <a id="step4"></a>
 
@@ -183,7 +170,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
     - System.Web.WebPages.Deployment
     - System.Web.WebPages.Razor
   
- To select multiple references at once, press the CTRL key on your keyboard and then click each of the reference names. After you've selected all of the references, right-click the selected references, and then click     **Properties** .  
+ To select multiple references at once, press the CTRL key on your keyboard and then click each of the reference names. After you've selected all of the references, right-click the selected references, and then click **Properties** .  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image8.png)
 2. In **Properties**, set the **Copy Local** property value to **True**.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image9.png)
@@ -430,11 +417,11 @@ You can install Transform Manager either on the local computer or on a remote co
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image25.png)  
   
     > [!NOTE]
-    > In     **Job template** , be sure to select the new job template we created in the previous section. For more information about how to configure watch folder settings, see     [Configuring Watch Folders](https://go.microsoft.com/?linkid=9772777) .
+    > In **Job template**, be sure to select the new job template we created in the previous section. For more information about how to configure watch folder settings, see [Configuring Watch Folders](https://go.microsoft.com/?linkid=9772777) .
 4. Click the **Notifications** tab and configure the URI and event options.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image26.png)  
   
- For testing purpose, we will enter the URI of the active running project and select all of the event check boxes. For more information about how to configure these settings, see     [Configuring Job Status Notifications](https://go.microsoft.com/?linkid=9772675) .
+ For testing purpose, we will enter the URI of the active running project and select all of the event check boxes. For more information about how to configure these settings, see [Configuring Job Status Notifications](https://go.microsoft.com/?linkid=9772675) .
 5. Click **OK** to close the **New Watch Folder** property sheet.
 6. Select the new watch folder in the **Watch Folders** page, and then in the **Actions** pane, **Enable** and then **Start** the watch folder.
 7. Make sure that the Azure Web Application is running and listening to incoming requests.
@@ -456,6 +443,3 @@ From this we can see that the job failed trying to run BadFailingCommandLine.exe
 ## Closing Notes
 
 During this walkthrough we saw the benefits of having an external facing web application hosting the IIS Transform Manager job status updates. We learned about the POST request message body that is sent to notify our web application of status updates. Then, we looked at how such a web application could be built using an ASP.NET MVC3 Web Application hosted within the Azure Fabric. Finally, we finished the walkthrough with a simple test to view a failed job's instance log entries.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

@@ -1,7 +1,7 @@
 ---
 title: "Smooth Streaming Primer | Microsoft Docs"
 author: johndeu
-description: "Last Updated: August 2010 IIS Media Services , an integrated HTTP-based media delivery platform, delivers true HD (720p+) live and on-demand streaming, DVR f..."
+description: "Last Updated: August 2010 IIS Media Services, an integrated HTTP-based media delivery platform, delivers true HD (720p+) live and on-demand streaming, DVR f..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 08/16/2010
@@ -258,6 +258,3 @@ Publishing points on IIS Media Services are simple XML files with the.isml exten
 ## FAQs
 
 We're preparing answers to our most frequently-asked questions and we'll publish the results in an FAQ article on IIS.net soon. Check back here for more information about the availability of this resource.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

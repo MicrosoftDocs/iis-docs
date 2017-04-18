@@ -237,6 +237,3 @@ Fiddelr output when compression is not working:
 - [HTTP Compression &lt;httpCompression&gt; in IIS7](https://www.iis.net/configreference/system.webserver/httpcompression)
 - [Troubleshooting IIS6 compression](https://blogs.msdn.com/b/mike/archive/2007/12/06/troubleshooting-http-compression-in-iis6.aspx)
 - [Troubleshooting IIS7 compression](https://blogs.msdn.com/b/amol/archive/2010/10/29/troubleshooting-dynamic-compression-in-iis-7.aspx)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1050.aspx)

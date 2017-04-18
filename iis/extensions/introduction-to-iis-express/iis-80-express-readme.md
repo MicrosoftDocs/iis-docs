@@ -132,6 +132,3 @@ You can learn more about IIS 8.0 Express and related products using the followin
 
 - IIS.net
 - [Microsoft.com/web](https://www.microsoft.com/web)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

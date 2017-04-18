@@ -1,7 +1,7 @@
 ---
 title: "ARR: Support Added for WINHTTP_OPTION_SECURITY_FLAGS | Microsoft Docs"
 author: rick-anderson
-description: "The ARR update KB 2693489 adds support for WINHTTP_OPTION_SECURITY_FLAGS . Default Behavior: This is the same prior to the updated where ARR will ignore Comm..."
+description: "The ARR update KB 2693489 adds support for WINHTTP_OPTION_SECURITY_FLAGS. Default Behavior: This is the same prior to the updated where ARR will ignore Comm..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 04/13/2012
@@ -16,7 +16,7 @@ ARR: Support Added for WINHTTP_OPTION_SECURITY_FLAGS
 ====================
 by [Harsh Mittal](https://twitter.com/harshmittal)
 
-The ARR update KB 2693489 adds support for WINHTTP\_OPTION\_SECURITY\_FLAGS .
+The ARR update KB 2693489 adds support for WINHTTP\_OPTION\_SECURITY\_FLAGS.
 
 **Default Behavior:** 
 
@@ -29,7 +29,7 @@ To change the settings add the following registry key.
 
     [!code-console[Main](arr-support-added-for-winhttpoptionsecurityflags/samples/sample1.cmd)]
 3. Right-click Parameters, click New, and then click DWORD (32-bit) Value.
-4. In the **Value name** box, type SecureConnectionIgnoreFlags , and then press ENTER.
+4. In the **Value name** box, type SecureConnectionIgnoreFlags, and then press ENTER.
 5. Double-click the SecureConnectionIgnoreFlags registry value and Enter 0.
 6. Close Registry Editor.
 

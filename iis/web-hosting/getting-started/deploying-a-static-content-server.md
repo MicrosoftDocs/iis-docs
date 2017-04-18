@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Deploying a Static Content Server
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 A static content Web server can be used to host internal or external Web sites. This topic describes the IIS modules that are required to support a static content Web server that includes the ability to serve static HTML files and support for directory browsing and logging.
 

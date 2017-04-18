@@ -162,6 +162,3 @@ There is also a *lockItem* attribute. This locks an attribute and works at the X
 This document outlined a basic overview on the configuration system, its files, schema and delegation capabilities. It also discussed the configuration hierarchy and effective configuration. The article also presented an introduction to configuration sections and its structure of elements and attributes. It exemplified the concept of location, locking and granular locking.
 
 Overall, IIS introduces and new file-based configuration system with capabilities for either having all configuration in a central configuration file or distributed via web.config files where site and application administrators are able to modify properties that apply to their applications and content. With the distributed configuration model the concept of *self-contained applications* where both content and configuration settings are housed in the site or application directory and can be *x-copy* *deployed* from one machine to another is enabled.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1111.aspx)

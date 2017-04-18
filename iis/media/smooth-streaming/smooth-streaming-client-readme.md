@@ -185,6 +185,3 @@ To obtain support from Microsoft, go to [Microsoft Support](https://support.micr
 - September 2, 2011. [IIS Smooth Streaming Client SDK 1.5 for Silverlight 4](https://go.microsoft.com/?linkid=9754194)
 - September 24, 2010. [IIS Smooth Streaming Client SDK 1.1 for Silverlight 4](https://go.microsoft.com/?linkid=9745648)
 - June 10, 2010. IIS Smooth Streaming Client 1.0
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

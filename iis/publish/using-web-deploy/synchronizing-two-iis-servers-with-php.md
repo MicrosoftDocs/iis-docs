@@ -81,5 +81,3 @@ If you don't want to synchronize from a package, you can synchronize by using th
 ### Summary
 
 You are now done synchronizing your site. To verify, test browsing to the Web site on the destination server. For troubleshooting help, see [Troubleshooting Web Deploy](../troubleshooting-web-deploy/troubleshooting-web-deploy.md "Troubleshooting MS Deploy"). You synchronized a Web site from a source IIS server to a destination IIS server by viewing the dependencies, configuring the destination IIS server, and by using a package file or the Web Deployment Agent Service.
-
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

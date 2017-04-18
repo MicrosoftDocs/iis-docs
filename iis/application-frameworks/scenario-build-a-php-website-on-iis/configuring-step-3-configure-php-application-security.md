@@ -18,9 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this last step in building a PHP website on IIS, you configure PHP settings, web server settings, and PHP application settings that improve your website security.
 
-- [3.1. Configure PHP Settings for Security](#31)
-- [3.2. Configure Web Server and PHP Application Security](#32)
-
 <a id="31"></a>
 ## 3.1. Configure PHP Settings for Security
 

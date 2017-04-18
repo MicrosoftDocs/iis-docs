@@ -40,7 +40,7 @@ To test your application package locally by modifying a copy of the live XML fee
 
 #### Step 1. Download the Web Platform Installer
 
-The Web Platform Installer orchestrates the installation of applications from the Web Application Gallery, and is the tool you use to validate local feeds with your modified zip package. You can down the Web Platform Installer from: [https://www.iis.net/extensions/webpi](https://www.microsoft.com/web/downloads/platform.aspx).If you already have Web Platform Installer installed , please make sure it is the latest version of Web Platform Installer.
+The Web Platform Installer orchestrates the installation of applications from the Web Application Gallery, and is the tool you use to validate local feeds with your modified zip package. You can down the Web Platform Installer from: [https://www.iis.net/extensions/webpi](https://www.microsoft.com/web/downloads/platform.aspx).If you already have Web Platform Installer installed, please make sure it is the latest version of Web Platform Installer.
 
 #### Step 2. Download Web Application Gallery feeds locally.
 
@@ -157,6 +157,3 @@ You should be able to click in the new tab and see your application in it.
 [![](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image8.png)](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image7.png)
 
 From here you can select your application and proceed with the installation.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1158.aspx)

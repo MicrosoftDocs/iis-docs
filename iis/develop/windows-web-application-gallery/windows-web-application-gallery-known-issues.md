@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Windows Web Application Gallery: Known Issues
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 
@@ -112,6 +112,3 @@ When you open Gallery the first time it will ask you to secure the g2data folder
 DasBlog asks you to enter an application URL in the WebPI parameters UI. DasBlog content will not display correctly if the URL you enter doesn't match the URL that is used for the actual site.
 
 [![](windows-web-application-gallery-known-issues/_static/image50.png)](windows-web-application-gallery-known-issues/_static/image49.png)
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1158.aspx)

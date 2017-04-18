@@ -113,6 +113,3 @@ Microsoft, MS-DOS, Windows, Windows NT, Windows Server, Windows Vista, Active Di
 The name of actual companies and products mentioned herein may be the trademarks of their respective owners.
 
 Some of the links in this document might let you leave the Microsoft site. The linked sites are not under the control of Microsoft and Microsoft is not responsible for the contents of any linked site or any link contained in a linked site, or any changes or updates to such sites. Microsoft is not responsible for webcasting or any other form of transmission received from any linked site. Microsoft is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement by Microsoft of the site.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

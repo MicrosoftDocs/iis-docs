@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Using the Application Request Routing Module
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 
@@ -67,6 +67,3 @@ These articles explain how to configure and achieve the core scenarios by using 
 
     - [ARR and NLB](../configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-nlb.md)
     - [ARR and Hardware Load Balancer](../configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-hardware-load-balancer.md)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

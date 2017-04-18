@@ -60,6 +60,3 @@ PIFF provides a simple, efficient solution to the problem of DRM interoperabilit
 
 
 Click on the link to download version 1.1 of the specification, updated March 9, 2010: [Protected Interoperable File Format specification](https://go.microsoft.com/?linkid=9682897 "Protected Interoperable File Format").
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

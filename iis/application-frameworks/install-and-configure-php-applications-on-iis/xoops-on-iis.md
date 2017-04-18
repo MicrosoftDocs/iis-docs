@@ -63,7 +63,7 @@ Before starting the installation procedure for XOOPS, create a database on your 
 
 ## Set Up and Configure the Application
 
-Begin the graphical XOOPS installation procedure by pointing your browser at [http://localhost/xoops](http://localhost/xoops) . You see the following page.
+Begin the graphical XOOPS installation procedure by pointing your browser at [http://localhost/xoops](http://localhost/xoops). You see the following page.
 
 1. Click 'Next' to go to the next screen.  
 

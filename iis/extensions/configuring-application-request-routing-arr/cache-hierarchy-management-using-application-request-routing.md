@@ -1,7 +1,7 @@
 ---
 title: "Cache Hierarchy Management Using Application Request Routing | Microsoft Docs"
 author: rick-anderson
-description: "This section of the documentation applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above . Goal To successfully explain and configure..."
+description: "This section of the documentation applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To successfully explain and configure..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Cache Hierarchy Management Using Application Request Routing
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 This section of the documentation applies to **Microsoft Application Request Routing Version 2 for IIS 7 and Above**.
 
@@ -95,6 +95,3 @@ ARR Version 2 includes support for CARP. CARP is used to determine which parent 
 ## Summary
 
 You have now successfully defined the cache hierarchy using ARR. For other ARR Version 2 walkthroughs, see the documents in [this](../planning-for-arr/application-request-routing-version-2-overview.md) article. Note that in a CDN environment, the URL rewrite rules are much more complex than what this walkthrough has demonstrated. For information about how to configure ARR in a typical 2-tier (child and parent) cache nodes in CDN/ECN environment, see the [following](../installing-application-request-routing-arr/deploying-application-request-routing-in-cdn.md) walkthrough.
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

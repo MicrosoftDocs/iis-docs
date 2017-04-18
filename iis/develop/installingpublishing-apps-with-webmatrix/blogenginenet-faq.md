@@ -35,7 +35,7 @@ A: To publish a BlogEngine.NET website, use the following steps:
 1. In any workspace, on the **Home** tab, in the **Site** group, click **Publish**.
 2. On the **Publishing Settings** dialog, enter the server info you received from your web host.
 3. Because BlogEngine.NET has a default connection string that is not used, you will need to enter a fake connection string.   
- For example:     `"Data Source=empty;database=empty;uid=empty;pwd=empty"`
+ For example: `"Data Source=empty;database=empty;uid=empty;pwd=empty"`
 4. Click **Validate Connection** to ensure that the settings are correct.
 5. Click **Publish**.
 6. After previewing the changes, click **Continue**. Make sure that you do not select the database to be published.
@@ -52,6 +52,3 @@ A: If you are publishing to a server where the web site is configured to run in 
 
 
 To resolve this issue, use your hosting control panel to set your .NET framework version to 2.0 or 3.5.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

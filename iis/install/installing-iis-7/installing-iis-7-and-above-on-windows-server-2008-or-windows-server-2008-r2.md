@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 
@@ -198,5 +198,3 @@ In the Windows Server 2008 and Windows Vista operating systems, Pkgmgr.exe is us
 [Editing Configuration Files](../../get-started/planning-your-iis-architecture/editing-configuration-files.md).
 
 [Extending IIS Configuration](../../develop/extending-iis-configuration/extending-iis-configuration.md).
-
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

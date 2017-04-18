@@ -99,5 +99,3 @@ Here are details on how to get the exception and call stack:
 4. When it breaks, print the exception and the call stack and send it to iis.net/forums.
 
     [!code-console[Main](diagnosing-failures-with-remote-administration/samples/sample12.cmd)]
-
-[Discuss in IIS Forums](https://forums.iis.net/1111.aspx)

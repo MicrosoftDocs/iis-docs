@@ -67,6 +67,3 @@ A: If your web site's application pool is configured to run in Classic mode, you
 
 
 To resolve this issue, use your hosting control panel to set your application pool to Integrated mode.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

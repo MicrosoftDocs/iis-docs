@@ -78,5 +78,3 @@ The [IIS 7.0 Administration Pack](https://www.iis.net/downloads/microsoft/admini
 [Setting up FastCGI for PHP](../running-php-applications-on-iis/set-up-fastcgi-for-php.md).
 
 [Installing FastCGI Support On Server Core](install-php-and-fastcgi-support-on-server-core.md).
-
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

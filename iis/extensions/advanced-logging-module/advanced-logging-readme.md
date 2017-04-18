@@ -122,6 +122,3 @@ To obtain support from Microsoft, go to [Microsoft Help and Support](https://go.
 ## For More Information
 
 To keep up-to-date with the latest Advanced Logging news and feature developments, go to the [IIS Advanced Logging Home page](https://go.microsoft.com/?linkid=9656147).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1160.aspx)

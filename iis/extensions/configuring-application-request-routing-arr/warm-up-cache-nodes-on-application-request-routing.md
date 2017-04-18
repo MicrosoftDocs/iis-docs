@@ -127,6 +127,3 @@ The steps for pre-caching only at the parent cache tier are similar to the steps
 You have now successfully warmed up the ARR cache node using a file that contains the list of URLs.
 
 For other ARR Version 2 walkthroughs, see the documents in [this](../planning-for-arr/application-request-routing-version-2-overview.md) article.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

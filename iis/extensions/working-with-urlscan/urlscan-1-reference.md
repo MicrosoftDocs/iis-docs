@@ -209,6 +209,3 @@ The [DenyUrlSequences] section contains a list of character sequences that UrlSc
 The following example [DenyUrlSequences] section configures UrlScan to deny several URL sequences that could be used to attack your server:
 
 [!code-console[Main](urlscan-1-reference/samples/sample7.cmd)]
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

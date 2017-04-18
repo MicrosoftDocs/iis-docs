@@ -147,5 +147,3 @@ The following information is an extensive list of the features of the Web Deploy
 [Web Deployment Tool](https://forums.iis.net/1144.aspx).
 
 [Microsoft Web Deployment Team Blog](https://blogs.iis.net/msdeploy/).
-
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

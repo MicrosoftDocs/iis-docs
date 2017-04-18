@@ -82,6 +82,3 @@ The Smooth Streaming heuristics algorithms ensure that the experience is extreme
 ## Legal Notice
 
 Big Buck Bunny images and content © copyright 2008, Blender Foundation | [http://www.bigbuckbunny.org/](http://www.bigbuckbunny.org/).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

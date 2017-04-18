@@ -343,6 +343,3 @@ In this whitepaper, two main ARR scenarios were reviewed to achieve high availab
     - [http://technet2.microsoft.com/windowsserver2008/en/library/cf7a20f6-fd77-44be-8db1-6590e3b711bb1033.mspx](http://technet2.microsoft.com/windowsserver2008/en/library/cf7a20f6-fd77-44be-8db1-6590e3b711bb1033.mspx)
     - [https://support.microsoft.com/kb/890159/en-us](https://support.microsoft.com/kb/890159/en-us)
     - [https://blogs.msdn.com/clustering](https://blogs.msdn.com/clustering)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

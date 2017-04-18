@@ -20,14 +20,6 @@ This document guides you through installing IIS and configuring a classic ASP we
 
 The Classic ASP server configuration adds IIS modules for ASP and ISAPI extensions to the default IIS installation.
 
-### In this document
-
-- [Prerequisites](#00)
-- [Step 1: Install the IIS Web Server](#01)
-- [Step 2: Add a Classic ASP Website](#02)
-- [Step 3: Edit ASP Application Settings](#03)
-- [Next Steps](#04)
-
 <a id="00"></a>
 ## Prerequisites
 

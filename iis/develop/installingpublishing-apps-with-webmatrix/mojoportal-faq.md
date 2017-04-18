@@ -78,6 +78,3 @@ To resolve this issue, use the following steps:
     7. Rename *web.net4.config* to *web.config*.
     8. Click **Run** or press F12 to verify that the application works.
     9. Publish again.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

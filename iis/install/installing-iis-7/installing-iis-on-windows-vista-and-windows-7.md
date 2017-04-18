@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Installing IIS 7 on Windows Vista and Windows 7
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 
@@ -110,5 +110,3 @@ IIS can also be installed unattended on Windows Vista. For detailed instructions
 [How to install ASP.NET 1.1 with IIS7 and Abobe on Vista and Windows 2008](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008.md).
 
 [Installing IIS 7 on Vista](https://channel9.msdn.com/posts/iisguy/Installing-IIS-7-on-Vista/).
-
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

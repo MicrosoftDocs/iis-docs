@@ -50,6 +50,3 @@ A: To publish a nopCommerce website, use the following steps:
 4) Click the "Log" option.   
 5) Click the "Clear Log" button.  
 6) Publish nopCommerce again.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

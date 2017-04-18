@@ -113,6 +113,3 @@ See the Feature Summary below for a detailed list of IIS 7 features available on
 ## Summary
 
 In this article we examined the differences in IIS 7.0 across the Windows Vista and Server 2008 Editions.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

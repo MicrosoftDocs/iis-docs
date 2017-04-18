@@ -195,6 +195,3 @@ By using Perfmon and DebugDiag, you can easily collect data that can be helpful 
 
 - [How to use the IIS Debug Diagnostics tool to troubleshoot a memory leak in an IIS process](https://support.microsoft.com/kb/919790/en-us)
 - [Why the low fragmentation heap (LFH) mechanism may be disabled on some computers that are running Windows Server 2003, Windows XP, or Windows 2000](https://support.microsoft.com/kb/929136/en-us)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1050.aspx)

@@ -108,6 +108,3 @@ However, if you want, you can configure IIS application pools to load the user p
 ## Summary
 
 Application pool identities are a powerful new isolation feature introduced for Windows Server 2008, Windows Vista, and later versions of Windows. It will make running IIS applications even more secure and reliable.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

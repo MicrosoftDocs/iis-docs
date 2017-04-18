@@ -40,6 +40,3 @@ The ApplicationHost Helper Service is a runtime-independent service. It does not
 ## Installation
 
 The ApplicationHost Helper Service is installed whenever IIS 7.0 or above is installed. Upon installation of the ApplicationHost Helper Service, the *%systemdrive%*\inetpub\history directory is created, by default, to store the configuration subdirectories. You can change this default location by changing the value of the **ConfigHistoryPath** attribute.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

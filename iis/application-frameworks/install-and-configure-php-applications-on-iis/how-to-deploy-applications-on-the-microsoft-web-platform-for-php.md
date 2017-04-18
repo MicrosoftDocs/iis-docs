@@ -34,6 +34,3 @@ For guidance in manually deploying specific applications, see:
 - Install [Drupal](install-drupal-on-iis.md) (open-source content management system)
 - Install [Joomla](install-joomla-on-iis.md) (open-source content management system)
 - Install [WordPress](install-wordpress-on-iis.md) (a blogging package)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

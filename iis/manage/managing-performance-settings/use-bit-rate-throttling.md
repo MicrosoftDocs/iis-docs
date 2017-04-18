@@ -80,5 +80,3 @@ You can then configure throttling at the server level, the site level (using Web
 [TechNet Virtual Lab: Using IIS 7.0 Media Features in a PHP Application](http://msevents.microsoft.com/CUI/WebCastEventDetails.aspx?EventID=1032413789&amp;EventCategory=3&amp;culture=en-US&amp;CountryCode=US).
 
 [Bit Rate Throttling](https://www.iis.net/downloads/microsoft/bit-rate-throttling)
-
-[Discuss in IIS Forums](https://forums.iis.net/1050.aspx)

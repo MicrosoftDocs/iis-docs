@@ -20,15 +20,6 @@ Log Filtering in IIS Advanced Logging allows administrators to collect only the 
 
 By employing filtering methods, administrators can manage their log data by creating different log definitions to collect different data. Going back to the previous example, an administrator can create a log definition to capture only '404 responses, another log definition to capture only '400' responses, and yet another log definition to capture only '500' responses, if these are the responses that they are interested in. The important thing to note is that they are not capturing data that they are not interested in, reducing the sheer volume of log data and making the log files easier to work with.
 
-In this article:
-
-- [Requirements](advanced-logging-for-iis-log-filtering.md#requirements)
-- [Cloning a log definition](advanced-logging-for-iis-log-filtering.md#clone)
-- [Creating a simple filter](advanced-logging-for-iis-log-filtering.md#simple)
-- [Creating a filter with multiple expressions](advanced-logging-for-iis-log-filtering.md#expressions)
-- [Creating a filter with multiple conditions](advanced-logging-for-iis-log-filtering.md#conditions)
-- [Summary](advanced-logging-for-iis-log-filtering.md#summary)
-
 <a id="requirements"></a>
 
 ## Requirements
@@ -99,7 +90,7 @@ To create this filter, do the following:
 4. In the **Edit Log Definition Filter** dialog box, select the root node (**Condition: AND**) in the hierarchical list, select **OR Condition** in the **Condition** area, and then click **Add Expression**.  
     ![](advanced-logging-for-iis-log-filtering/_static/image9.jpg)  
   
- Note that the original root node (    **Condition: AND** ) in the list changes to     **Condition: OR** when you select     **OR Condition** in the     **Condition** area.
+ Note that the original root node (**Condition: AND**) in the list changes to **Condition: OR** when you select **OR Condition** in the **Condition** area.
 5. In the **Expression** area of the dialog box, specify the following values for the expression:  
     ![](advanced-logging-for-iis-log-filtering/_static/image10.jpg)
 
@@ -200,6 +191,3 @@ To create a complex filter for a log definition that uses multiple conditions as
 In this walk-through, we learned how to create a simple filter with a single expression as well as more complex filters consisting of multiple expressions and multiple conditions. In the process, we also learned how to use regular expressions to perform a pattern match on string values and how to create a new log definition by cloning an existing one.
 
 Hopefully, this will help to make extracting the right information from your logs much more manageable.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1160.aspx)

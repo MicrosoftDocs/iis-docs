@@ -28,13 +28,6 @@ by [Jim van de Erve](https://twitter.com/jimvde)
 | IIS 8.0 and earlier | Certificate Rebind was not supported prior to IIS 8.5. |
 
 
-## Contents
-
-- [**Problem**](#TOC301258515)
-- [**Solution**](#TOC301258516)
-- [**Step by Step Instructions**](#TOC301258517)
-- [**Summary**](#TOC301258518)
-
 <a id="TOC301258515"></a>
 ## Problem
 

@@ -69,6 +69,3 @@ Some users will visit the Web Application Gallery user forum or Web Platform Ins
 Otherwise, for general application questions and issues, the Web Application Gallery team redirects the user to the application's free support forums. The application developer is also encouraged to use IIS.NET as a technical resource to answer any questions in forums that might stem from Web Application Gallery or Web Platform Installer, starting with the [Troubleshooting Web Platform Installer 3.0](../../troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer.md) article and [Known Issues with Web Application Gallery](windows-web-application-gallery-known-issues.md).
 
 Since the Web Platform Installer points to the application download URL, the application developer can collect download statistics on the app download server (which is owned by the application developer) by checking for the Web App Gallery user agent.
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1158.aspx)

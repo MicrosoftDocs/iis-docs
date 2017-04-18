@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Install PHP and FastCGI Support on Server Core
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 
@@ -72,5 +72,3 @@ FastCGI is a language-independent, scalable, open extension to Common Gateway In
 [Using FastCGI to Host PHP Applications on IIS 6.0](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis-60.md)
 
 [Configuring FastCGI Extension for IIS 6.0](configuring-the-fastcgi-extension-for-iis-60.md)
-
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

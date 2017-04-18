@@ -177,7 +177,7 @@ Example:
 
 ## Additional Schema Information in &lt;ConfigSections&gt;
 
-Not all the required schema information is in the schema XML files. Some of it is in a special section called &lt;ConfigSections&gt; , which resides in the configuration files themselves. This is consistent with the .NET framework configuration system. By default, &lt;ConfigSections&gt; exists in machine.config and applicationHost.config; but customers may add it to any web.config file, to define their custom sections. These sections will be defined for that level in the namespace and downward.
+Not all the required schema information is in the schema XML files. Some of it is in a special section called &lt;ConfigSections&gt;, which resides in the configuration files themselves. This is consistent with the .NET framework configuration system. By default, &lt;ConfigSections&gt; exists in machine.config and applicationHost.config; but customers may add it to any web.config file, to define their custom sections. These sections will be defined for that level in the namespace and downward.
 
 > [!NOTE]
 > Customers and third parties should not attempt to change schema information for the built-in sections, either in the inetsrv\config\schema\ folder or in in machine.config and applicationHost.config. This may yield to undesirable behavior for these sections.
@@ -257,6 +257,3 @@ This document outlined the design and architecture of the IIS configuration syst
 The document also covered the organization of settings within configuration files, and explained the concepts of sections, section groups, elements, attributes, collections, enums and flags.
 
 Last, the document covered the schema system and how it works; this is useful to know when extending the system with custom settings. It is recommend to read the "[How To Extend Configuration](../../develop/extending-iis-configuration/index.md)" document for more details and specific instructions about adding custom configuration sections to the system, and producing code to consume them.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1046.aspx)

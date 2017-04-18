@@ -93,6 +93,3 @@ You are now done migrating your site. To verify, test browsing to the web site o
 ### Summary
 
 You have now synchronized a Web site from a source IIS 6.0 server to a destination IIS 7 or above server by viewing the dependencies, configuring the destination IIS server, and by using a package file or the Web Deployment Agent Service.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

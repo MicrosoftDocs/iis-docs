@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Deploying an ASP.NET Server
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 An ASP.NET Web server is an extended IIS server that has the ASP.NET runtime extensibility model integrated into the core server. This topic describes how to add IIS modules for ASP.NET, .NET Extensibility, Request Filtering, ISAPI Filters, and ISAPI Extensions.
 

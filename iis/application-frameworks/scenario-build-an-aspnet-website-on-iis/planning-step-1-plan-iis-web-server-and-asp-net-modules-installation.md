@@ -18,11 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 The first step in planning to build an ASP.NET website on IIS 8 is to install IIS along with the ASP.NET modules and to add your application files to IIS.
 
-The following list shows the tasks required to complete this step:
-
-- [1.1. Plan to Install IIS and ASP.NET Modules](#11)
-- [1.2. Plan to Add the ASP.NET Application](#12)
-
 When you are done with these tasks, record your design decisions before going on to [Step 2: Plan ASP.NET Settings](planning-step-2-plan-asp-net-settings.md).
 
 <a id="11"></a>

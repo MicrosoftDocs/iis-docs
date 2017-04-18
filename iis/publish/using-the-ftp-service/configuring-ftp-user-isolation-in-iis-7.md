@@ -34,13 +34,6 @@ This document will walk you through the various FTP user isolation settings usin
 > [!NOTE]
 > This walk-through contains a series of steps where you will be logging in to your FTP site using the local administrator account. These steps should only be followed on the server itself using the loopback address or over SSL from a remote server. If you prefer to use a separate user account instead of the administrator account, you will need to create the appropriate folders and set the correct permissions for that user account when necessary.
 
-### In this walkthrough
-
-- [Using the FTP Site Wizard to Create an FTP site](configuring-ftp-user-isolation-in-iis-7.md#001)
-- [Examining the New FTP User Isolation Settings](configuring-ftp-user-isolation-in-iis-7.md#002)
-- [Configuring User Isolation Settings by Physical Directories](configuring-ftp-user-isolation-in-iis-7.md#003)
-- [Configuring User Isolation Settings for All Directories](configuring-ftp-user-isolation-in-iis-7.md#004)
-
 ### Prerequisites
 
 The following items are required to complete the procedures in this article:
@@ -246,6 +239,3 @@ To create home directories for each user, you first need to create a virtual or 
 
 
 Global virtual directories are ignored; all virtual directories that are configured at the root-level of your FTP site cannot be accessed by any FTP users. All virtual directories must be explicitly defined under a user's physical or virtual home directory path.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

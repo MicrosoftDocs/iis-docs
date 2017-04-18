@@ -1,7 +1,7 @@
 ---
 title: "Setting HTTP request headers and IIS server variables | Microsoft Docs"
 author: ruslany
-description: "This section of the documentation applies to the URL Rewrite Module Version 2.0 for IIS 7 . This walkthrough will guide you through how to use URL Rewrite Mo..."
+description: "This section of the documentation applies to the URL Rewrite Module Version 2.0 for IIS 7. This walkthrough will guide you through how to use URL Rewrite Mo..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 09/24/2009
@@ -145,6 +145,3 @@ To test that the rule correctly sets the cookie and a server variable, open a We
 **[![](setting-http-request-headers-and-iis-server-variables/_static/image35.png)](setting-http-request-headers-and-iis-server-variables/_static/image33.png)**
 
 You should see that the rewrite rule has set the "Language" cookie in accordance to the URL that was requested. Also, the original URL string has been made accessible for the ASP.NET page via "ORIGINAL\_URI" server variable.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

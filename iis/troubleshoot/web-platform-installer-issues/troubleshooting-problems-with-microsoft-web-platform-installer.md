@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Troubleshooting Problems with Microsoft Web Platform Installer
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 ## Introduction
 
@@ -145,12 +145,12 @@ If IIS is configured for "Shared Configuration," Web PI cannot install most addi
 - **Applications do not work without SQL****"****Mixed mode authentication**."   
  For most Web applications, SQL Server user accounts are required in order to access a database. If only integrated or Windows authentication for SQL Server are selected, you cannot install some of the applications in the gallery.
 - **SQL Server passwords are not accepted if they do not meet strength requirements**.   
- However, Web PI does not validate passwords for strength or for other criteria. The failure to create an account with a weak password occurs during application installation, and the installation fails. Use a     [strong password](https://msdn.microsoft.com/en-us/library/ms161959.aspx) according to the SQL Server policy.
+ However, Web PI does not validate passwords for strength or for other criteria. The failure to create an account with a weak password occurs during application installation, and the installation fails. Use a [strong password](https://msdn.microsoft.com/en-us/library/ms161959.aspx) according to the SQL Server policy.
 - **SQL Server user names cannot be longer than 16 characters**.   
  However, Web PI does not validate user fields for length or other criteria. The failure to create an account with a user name that is more than 16-characters long happens during application installation, and the installation fails. Use a user name that is no more than 16-characters long.
 - **Other Microsoft SQL Server issues.** Check the SQL Server log files in the following directory for more information:  
  %programfiles%\microsoft sql server\100\setup bootstrap\log   
- More details about how to trouble shoot SQL issues can be found at     [https://support.microsoft.com/kb/955396](https://support.microsoft.com/kb/955396)
+ More details about how to trouble shoot SQL issues can be found at [https://support.microsoft.com/kb/955396](https://support.microsoft.com/kb/955396)
 - **Custom Installation of SQL Server**For customers needing customization for their SQL Server install outside of Web PI, please check this guide [https://blogs.msdn.com/sqlexpress/archive/2009/06/15/installing-sql-server-2008-guidance.aspx](https://blogs.msdn.com/sqlexpress/archive/2009/06/15/installing-sql-server-2008-guidance.aspx)
 
 **Issues with Visual Web Developer installation:** 
@@ -202,6 +202,3 @@ Web PI is caching the product catalog and other files to optimize startup time. 
 ## Additional Help
 
 If you have exhausted the troubleshooting tips and tricks in this article and are still having problems, visit the Web Platform Installer forum at [https://forums.iis.net/1155.aspx](https://forums.iis.net/1155.aspx).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1155.aspx)

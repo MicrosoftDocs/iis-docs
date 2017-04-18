@@ -38,6 +38,3 @@ A: To publish a dasBlog website, use the following steps:
 3. Click **Validate Connection** to ensure that the settings are correct.
 4. Click **Publish**.
 5. After previewing the changes, click **Continue**.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

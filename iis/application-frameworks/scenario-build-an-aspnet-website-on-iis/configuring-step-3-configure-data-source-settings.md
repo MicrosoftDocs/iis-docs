@@ -18,12 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your ASP.NET website, you configure the data source settings that are available in IIS.
 
-- [3.1. Data Source Connection Strings](#31)
-- [3.2. ASP.NET Providers](#32)
-- [3.3. .NET Profiles](#33)
-- [3.4. .NET Roles](#34)
-- [3.5. .NET Users](#35)
-
 <a id="31"></a>
 ## 3.1. Data Source Connection Strings
 

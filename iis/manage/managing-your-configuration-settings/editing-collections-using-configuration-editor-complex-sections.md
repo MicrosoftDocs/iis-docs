@@ -76,5 +76,3 @@ This walkthrough requires the following prerequisites:
 ## Summary
 
 You have now created a new failed tracing request rule using Configuration Editor's Collection Editor tool. Collection Editor exposes all of the configuration settings for a given collection.
-
-[Discuss in IIS Forums](https://forums.iis.net/1149.aspx)

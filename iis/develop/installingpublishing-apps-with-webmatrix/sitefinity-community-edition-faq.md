@@ -65,6 +65,3 @@ A: If you are publishing to a server where the web site is configured to run in 
 
 
 To resolve this issue, use your hosting control panel to set your .NET framework version to 2.0 or 3.5.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

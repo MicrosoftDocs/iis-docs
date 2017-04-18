@@ -52,6 +52,3 @@ To test this rule, open a Web browser and make a request to `http://127.0.0.1/ii
 ## Summary
 
 In this walkthrough you have learned how to use "Rule with Rewrite Map" template to generate rules that can protect security of your web application by blocking unwanted requests.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

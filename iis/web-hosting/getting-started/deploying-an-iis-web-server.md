@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 Deploying an IIS 7.0 Web Server
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 This topic is the starting point for the various configuration scenarios and lists the common modules that you can install on your IIS 7.0 or above Web server for tasks related to troubleshooting, security, and performance
 

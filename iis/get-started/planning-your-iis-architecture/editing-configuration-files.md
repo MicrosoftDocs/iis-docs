@@ -14,7 +14,7 @@ msc.type: video
 ---
 Editing Configuration Files
 ====================
-by [IIS Team](https://twitter.com/inetsrv)
+by IIS Team
 
 Strongly typed schema written in clear-text XML makes IIS configuration files simple to read and edit. This tutorial covers reading and setting configuration in ApplicationHost.config at the server level and Web.config files at the site and application level.
 

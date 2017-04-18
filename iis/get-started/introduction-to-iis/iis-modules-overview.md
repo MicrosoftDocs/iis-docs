@@ -14,7 +14,7 @@ msc.type: authoredcontent
 ---
 IIS Modules Overview
 ====================
-by [IIS Team](https://twitter.com/inetsrv), [Mike Volodarsky](https://github.com/leanserver)
+by IIS Team, [Mike Volodarsky](https://github.com/leanserver)
 
 ### Compatibility
 
@@ -505,6 +505,3 @@ These modules do not provide request services, but instead assist the server eng
 | Configuration sections: |  |
 | Dependencies: | ManagedEngine module must be installed. |
 | Potential issues when removing this module | The ASP.NET URL mappings will not work. |
-
-
-[Discuss in IIS Forums](https://forums.iis.net/default.aspx?GroupID=41)

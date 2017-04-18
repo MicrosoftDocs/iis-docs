@@ -1,7 +1,7 @@
 ---
 title: "UrlScan 2 Reference | Microsoft Docs"
 author: rmcmurray
-description: "Note : UrlScan 2.x has been replaced by UrlScan 3.1 . If you are using UrlScan 2.x, you should download and install the latest version. The information on th..."
+description: "Note : UrlScan 2.x has been replaced by UrlScan 3.1. If you are using UrlScan 2.x, you should download and install the latest version. The information on th..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 07/15/2010
@@ -288,6 +288,3 @@ The [RequestLimits] section can contain the following three special-case limits:
 The following example [RequestLimits] section configures UrlScan to specify the maximum lengths for several HTTP headers and the maximum content length for a request:
 
 [!code-console[Main](urlscan-2-reference/samples/sample8.cmd)]
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

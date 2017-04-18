@@ -99,5 +99,3 @@ This article discussed how to configure both Windows Media Services and IIS to u
 
 - [How to set up Windows Media Services 9 Series to use HTTP streaming on port 80 with IIS 6.0 installed (KB328728)](https://technet.microsoft.com/en-us/network/bb545423.aspx). Applies to Windows Server 2003.
 - [How to Run IIS 5.0 and Windows Media Services with HTTP Streaming Enabled (KB268585)](https://support.microsoft.com/kb/268585/). Applies to Windows 2000 Server.
-
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

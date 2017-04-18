@@ -74,5 +74,3 @@ Note: If you have not already installed the Web Deployment Tool, see [Installing
 ### Summary
 
 Congratulations! You have now created a package based on the Default Web Site. It contains the application, which contains content files and an entry that will mark the folder as an application in IIS, and a SQL database.
-
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

@@ -116,7 +116,7 @@ The site creation script as well as the UI to configure Web Deploy for an existi
 **Workarounds:** 
 
 - From the script: The script does not warn about this error. Replace the URL with the correct one (as below) in the generated settings file.
-- From the UI: enter the public DNS name in the "Specify the URL for the publishing server connection" field e.g. instead of [https://myserver:8172/msdeploy.axd](https://myserver:8172/msdeploy.axd) , enter [https://some.publicDnsName.com:8172/msdeploy.axd](https://some.publicdnsname.com:8172/msdeploy.axd)
+- From the UI: enter the public DNS name in the "Specify the URL for the publishing server connection" field e.g. instead of [https://myserver:8172/msdeploy.axd](https://myserver:8172/msdeploy.axd), enter [https://some.publicDnsName.com:8172/msdeploy.axd](https://some.publicdnsname.com:8172/msdeploy.axd)
 
 **Issue**: Package created with Web Deploy V3 Does not work with WebDeploy V2. It results in System.NullReferenceException.
 

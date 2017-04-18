@@ -91,6 +91,3 @@ After the **Site from Web Gallery** wizard has closed, WebMatrix automatically o
 [![](download-and-install-an-aspnet-application/_static/image42.png)](download-and-install-an-aspnet-application/_static/image40.png)
 
 You can customize the ScrewTurn Wiki application for your use, test your website locally using the IIS Express Web server that comes with WebMatrix Beta, or publish it to a public website.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)
