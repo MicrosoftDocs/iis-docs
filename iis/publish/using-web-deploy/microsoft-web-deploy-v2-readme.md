@@ -153,7 +153,7 @@ However, if the source is remote, the USN number doesn't get returned by the ope
 **Issue:** If you change shared configuration settings (such as enable or disable shared config), you will need to restart the remote agent afterwards.  
 **Workaround:** Restart the agent after making a change to shared config.
 
-**Issue:** If you are syncing a Web site where the path is %systemdrive%\wwwroot to a destination Web site where the system drive is different (C: instead of D:), then your Web site's path will be expanded at the destination. This means if you have shared config means with different system drives and you rely on the %systemdrive% to ensure content works, you may break the site on a machine.  
+**Issue:** If you are syncing a Web site where the path is `%systemdrive%\wwwroot` to a destination Web site where the system drive is different (C: instead of D:), then your Web site's path will be expanded at the destination. This means if you have shared config means with different system drives and you rely on the `%systemdrive%` to ensure content works, you may break the site on a machine.  
 **Workaround:** Add a replace rule to change the path during the sync.
 
 **Issue:** If you are syncing an IIS 6.0 machine with lots of sites (causing the metabase to be over 500MB), then the tool may hang and stop responding.  

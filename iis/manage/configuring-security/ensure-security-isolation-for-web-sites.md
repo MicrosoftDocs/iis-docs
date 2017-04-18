@@ -130,7 +130,7 @@ Note that IIS application pools can be configured to load the user profile howev
 
 Separating applications into multiple application pools not only can improve performance but also improves server and site reliability. However, in previous versions of IIS, it has sometimes been difficult to isolate Web application pools from each other. If several application pools are configured to run with the same identity, then code running inside one application pool could use file system objects (FSOs) to access resources belonging to another.
 
-In IIS 7, each application pool has a configuration file that is generated when the application pool is started. These files are stored by default in the %systemdrive%\inetpub\temp\AppPools folder.
+In IIS 7, each application pool has a configuration file that is generated when the application pool is started. These files are stored by default in the `%systemdrive%\inetpub\temp\AppPools` folder.
 
 Each application pool also has a Security Identifier (SID) that is added to the relevant w3wp.exe process. The application pool's configuration file is access control listed (ACLed) to only allow access to that SID.
 

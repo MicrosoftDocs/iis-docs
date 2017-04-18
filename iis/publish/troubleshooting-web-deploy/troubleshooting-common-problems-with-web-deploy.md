@@ -245,7 +245,7 @@ Could not connect to the destination computer ("deployserver"). On the destinati
 
 The remote server returned an error: (404) Not Found.
 
-If you look in the Web Management Service log under %SystemDrive%\Inetpub\logs\WMSvc on the destination server, you will see an entry that looks like 
+If you look in the Web Management Service log under `%SystemDrive%\Inetpub\logs\WMSvc` on the destination server, you will see an entry that looks like 
 
 [!code-console[Main](troubleshooting-common-problems-with-web-deploy/samples/sample1.cmd)]
  

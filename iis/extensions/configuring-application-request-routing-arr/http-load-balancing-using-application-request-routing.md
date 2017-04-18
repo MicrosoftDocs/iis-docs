@@ -67,7 +67,7 @@ Provided that the server farm has been created using the steps outlined in **[De
 **To verify URL rewrite rules using the command-line:** 
 
 1. Open a command prompt with **administrator** privileges.
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 3. To verify that the URL rewrite rules have been created correctly, enter **appcmd.exe list config -section:system.webServer/rewrite/globalRules**. It returns the globalRules that looks like the following:  
 
     [!code-xml[Main](http-load-balancing-using-application-request-routing/samples/sample1.xml)]
@@ -118,7 +118,7 @@ The live traffic testing is performed automatically by default when the requests
 **To configure health check monitoring using the command-line:** 
 
 1. Open a command prompt with **administrator** privileges.
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 3. To set the URL to `http://(server name or FQDN of ARR server)/healthCheck.txt` with **I am healthy.** as the string to match, enter:  
 
     [!code-console[Main](http-load-balancing-using-application-request-routing/samples/sample6.cmd)]
@@ -142,7 +142,7 @@ Application Request Routing provides a client affinity feature that maps a clien
 **To configure client affinity using the command-line:** 
 
 1. Open a command prompt with **administrator** privileges.
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 3. To enable client affinity, enter:  
 
     [!code-console[Main](http-load-balancing-using-application-request-routing/samples/sample7.cmd)]

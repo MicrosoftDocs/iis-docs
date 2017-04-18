@@ -37,7 +37,7 @@ To deploy the Push Encoder, do the following:
 
     - SSFSDK\_32.msi. For 32-bit editions of the operating system.
     - SSFSDK\_64.msi. For 64-bit editions of the operating system.
-2. By default, the Push Encoder utility is installed to %SystemDrive%\Program Files\Microsoft SDKs\IIS Smooth Streaming Format SDK\v1.0\Tools\. After the installation finishes, locate the Push Encoder application (PushEncoder.exe) in this directory and copy it to the Web server that contains the on-demand Smooth Streaming presentation (for example, to C:\inetpub\wwwroot).
+2. By default, the Push Encoder utility is installed to `%SystemDrive%\Program Files\Microsoft SDKs\IIS Smooth Streaming Format SDK\v1.0\Tools\`. After the installation finishes, locate the Push Encoder application (PushEncoder.exe) in this directory and copy it to the Web server that contains the on-demand Smooth Streaming presentation (for example, to C:\inetpub\wwwroot).
 
 ## Simulating an encoded Live Smooth Streaming presentation
 
@@ -106,4 +106,4 @@ WebDAV Publishing (Web Distributed Authoring and Versioning) enables you to publ
 4. On the Home page, double-click the **Authentication** icon, and then enable and configure the **Security** role service that you installed.  
     [![](encoding-live-smooth-streams-with-the-push-encoder-utility/_static/image4.png)](encoding-live-smooth-streams-with-the-push-encoder-utility/_static/image3.png)  
   
- For more information, see Configuring Authentication in IIS 7 (    [https://go.microsoft.com/fwlink/?LinkId=165799](https://go.microsoft.com/fwlink/?LinkId=165799) ).
+ For more information, see Configuring Authentication in IIS 7 ([https://go.microsoft.com/fwlink/?LinkId=165799](https://go.microsoft.com/fwlink/?LinkId=165799)).

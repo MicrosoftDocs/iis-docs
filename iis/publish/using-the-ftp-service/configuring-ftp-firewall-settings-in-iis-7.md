@@ -44,7 +44,7 @@ The following items are required to be installed to complete the procedures in t
     - [FTP 7.5 for IIS 7 (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
 3. You must create a root folder for FTP publishing: 
 
-    - Create a folder at "%SystemDrive%\inetpub\ftproot"
+    - Create a folder at `%SystemDrive%\inetpub\ftproot`
     - Set the permissions to allow anonymous access: 
 
         - Open a command prompt.
@@ -55,7 +55,7 @@ The following items are required to be installed to complete the procedures in t
 
 **Important Notes**:
 
-- The settings listed in this walkthrough specify "%SystemDrive%\inetpub\ftproot" as the path to your FTP site. You are not required to use this path; however, if you change the location for your site you will have to change the site-related paths that are used throughout this walkthrough.
+- The settings listed in this walkthrough specify `%SystemDrive%\inetpub\ftproot` as the path to your FTP site. You are not required to use this path; however, if you change the location for your site you will have to change the site-related paths that are used throughout this walkthrough.
 - Once you have configured your firewall settings for the FTP service, you must configure your firewall software or hardware to allow connections through the firewall to your FTP server. 
 
     - If you are using the built-in Windows Firewall, see the ([Optional) Step 3: Configure Windows Firewall Settings](configuring-ftp-firewall-settings-in-iis-7.md#Step3) section of this walkthrough.
@@ -73,7 +73,7 @@ In this section you, create a new FTP site that can be opened for Read-only acce
     [![](configuring-ftp-firewall-settings-in-iis-7/_static/image3.png)](configuring-ftp-firewall-settings-in-iis-7/_static/image1.png)
 3. When the **Add FTP Site** wizard appears: 
 
-    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the "%SystemDrive%\inetpub\ftproot" folder that you created in the Prerequisites section. > [!NOTE]
+    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section. > [!NOTE]
  > If you choose to type in the path to your content folder, you can use environment variables in your paths.
     - Click **Next**.
 
@@ -102,7 +102,7 @@ In this section you, create a new FTP site that can be opened for Read-only acce
 
 To recap the items that you completed in this step:
 
-1. You created a new FTP site named "My New FTP Site", with the site's content root at "%SystemDrive%\inetpub\ftproot".
+1. You created a new FTP site named "My New FTP Site", with the site's content root at `%SystemDrive%\inetpub\ftproot`.
 2. You bound the FTP site to the local loopback address for your computer on port 21, choosing not to use Secure Sockets Layer (SSL) for the FTP site.
 3. You created a default rule for the FTP site to allow anonymous users "Read" access to the files.
 

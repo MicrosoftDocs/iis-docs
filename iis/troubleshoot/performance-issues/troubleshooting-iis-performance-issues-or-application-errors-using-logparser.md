@@ -46,8 +46,8 @@ Microsoft's LogParser is a good tool that is quick and easy to use. In many situ
 
 By default, IIS log files are located in the following directories:
 
-- IIS 7 and later: %SystemDrive%\inetpub\logs\LogFiles
-- IIS 6 and earlier: %WinDir%\System32\LogFiles
+- IIS 7 and later: `%SystemDrive%\inetpub\logs\LogFiles`
+- IIS 6 and earlier: `%WinDir%\System32\LogFiles`
 
 In this troubleshooter, I will be using IIS 8. Open the **IIS Manager** and select **Sites**, as shown in *Figure 1*. This will show you the ID of each website hosted on your server. You will need this ID to determine which W3SVC\* directory to analyze.
 

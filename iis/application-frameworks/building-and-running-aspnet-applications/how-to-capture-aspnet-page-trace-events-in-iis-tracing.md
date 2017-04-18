@@ -72,7 +72,7 @@ You must make a backup of the configuration before executing tasks in this artic
 
 In this task, you add Trace.Write() &amp; Warn() calls to a sample aspx page and view the resulting traces in your browser.
 
-1. Use the Administrator command prompt and navigate to your %systemdrive%\inetpub\wwwroot directory.
+1. Use the Administrator command prompt and navigate to your `%systemdrive%\inetpub\wwwroot` directory.
 2. Use your editor of choice and create an aspx page called trace.aspx, putting the following code in the page:
 
 

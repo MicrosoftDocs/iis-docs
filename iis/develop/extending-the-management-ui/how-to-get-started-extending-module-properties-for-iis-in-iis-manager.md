@@ -37,7 +37,7 @@ This document contains:
 
 ## Extending the IIS Schema
 
-Extending the schema involves adding a simple .xml file in the %SystemRoot%\system32\inetsrv\config\schema directory on your machine. The IIS\_schema.xml file is already present in this directory and can be used as an example to set up your own schema. Create a file named CUSTOM\_schema.xml and set it up as shown in the example below. In this case, the custom section (called "myCustomSection") has three properties of type boolean, string, and integer. The default values for these properties are specified in the schema as shown.
+Extending the schema involves adding a simple .xml file in the `%SystemRoot%\system32\inetsrv\config\schema` directory on your machine. The IIS\_schema.xml file is already present in this directory and can be used as an example to set up your own schema. Create a file named CUSTOM\_schema.xml and set it up as shown in the example below. In this case, the custom section (called "myCustomSection") has three properties of type boolean, string, and integer. The default values for these properties are specified in the schema as shown.
 
 [!code-xml[Main](how-to-get-started-extending-module-properties-for-iis-in-iis-manager/samples/sample1.xml)]
 
@@ -54,7 +54,7 @@ The CustomModuleProvider derived from the ModuleProvider class provides the entr
 
 [!code-csharp[Main](how-to-get-started-extending-module-properties-for-iis-in-iis-manager/samples/sample3.cs)]
 
-The CustomModuleProvider must be registered in the administration.config under %SystemRoot%\system32\inetsrv\config. Specify the complete assembly qualified type name of the ModuleProvider. The administration.config is a special file used by the InetMgr. On startup, InetMgr uses this file to determine what features must be displayed.
+The CustomModuleProvider must be registered in the administration.config under `%SystemRoot%\system32\inetsrv\config`. Specify the complete assembly qualified type name of the ModuleProvider. The administration.config is a special file used by the InetMgr. On startup, InetMgr uses this file to determine what features must be displayed.
 
 [!code-xml[Main](how-to-get-started-extending-module-properties-for-iis-in-iis-manager/samples/sample4.xml)]
 

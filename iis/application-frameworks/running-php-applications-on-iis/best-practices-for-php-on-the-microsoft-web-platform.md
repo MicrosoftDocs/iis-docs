@@ -248,7 +248,7 @@ The IIS Manager provides an extensible architecture on which most of the built-i
 
 ### Extend the configuration schema
 
-Extending the configuration schema can help manage your application. You can automate deployment of the application script to a virtual directory, or configure the role used to authorize users for caption editing, either system wide or for each Web site or application. Extending the schema involves adding a simple .xml file in the %SystemRoot%\system32\inetsrv\config\schema directory on your computer. The IIS\_schema.xml file is already present in this directory and can be used as an example to set up your own schema. Create a file named CUSTOM\_schema.xml and set it up, and then register the section in the applicationHost.config. This involves adding just one line in the applicationHost.config.
+Extending the configuration schema can help manage your application. You can automate deployment of the application script to a virtual directory, or configure the role used to authorize users for caption editing, either system wide or for each Web site or application. Extending the schema involves adding a simple .xml file in the `%SystemRoot%\system32\inetsrv\config\schema` directory on your computer. The IIS\_schema.xml file is already present in this directory and can be used as an example to set up your own schema. Create a file named CUSTOM\_schema.xml and set it up, and then register the section in the applicationHost.config. This involves adding just one line in the applicationHost.config.
 
 ## Use a Non-Thread-Safe Build of PHP
 

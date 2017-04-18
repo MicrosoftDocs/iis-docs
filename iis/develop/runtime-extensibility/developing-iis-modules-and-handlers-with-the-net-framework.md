@@ -159,7 +159,7 @@ If you are uploading your assembly to a production server, be sure to change the
 
 If you are not using Visual Studio, compile the project with the C# command line compiler included in the Framework runtime. To compile your project, open a command line prompt (be sure to run the command line prompt with the "Run as Administrator" option if you are on Windows Vista or Windows Server 2008):
 
-&gt; **%windir%\Microsoft.NET\Framework\v2.0.50727\csc.exe /t:library /out:MyIIS7Project.dll /debug \*.cs /r:System.Web.dll**
+`&gt; %windir%\Microsoft.NET\Framework\v2.0.50727\csc.exe /t:library /out:MyIIS7Project.dll /debug \*.cs /r:System.Web.dll`
 
 This produces the MyIIS7Project.DLL and MyIIS7Project.PDB files. If you want to build a release version of the assembly, omit the **/debug** switch, and include the **/o** switch to optimize the assembly.
 
@@ -167,7 +167,7 @@ This produces the MyIIS7Project.DLL and MyIIS7Project.PDB files. If you want to 
 
 Now that we have implemented the custom module and handler, we deploy them to our web application. There are a number of ways to deploy a module or handler to the application, and a number of configuration options you can use to tailor their deployment to your needs. We illustrate the most basic deployment steps below. For an advanced discussion of deployment and configuration options, including how to deploy a module/handler for the entire server, please see the next article in the series: **Deploying IIS Modules and Handlers (coming soon)**.
 
-The steps below assume that you are deploying the module and handler to an existing application on your IIS server. If you do not have an application created, use the root application of the "Default Web Site" typically located at %systemdrive%\inetpub\wwwroot. In the example below, we deploy the module and handler to an application called "myiis7project" located in the Default Web Site.
+The steps below assume that you are deploying the module and handler to an existing application on your IIS server. If you do not have an application created, use the root application of the "Default Web Site" typically located at `%systemdrive%\inetpub\wwwroot`. In the example below, we deploy the module and handler to an application called "myiis7project" located in the Default Web Site.
 
 To deploy the module and handler, first make the assembly containing their implementation available to your ASP.NET application:
 

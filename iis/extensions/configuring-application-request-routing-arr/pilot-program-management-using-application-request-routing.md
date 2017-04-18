@@ -82,7 +82,7 @@ As noted above, the order of the rules matters. This is because URL rewrite proc
 **To change the URL rewrite rules using the command-line:** 
 
 1. Open a command prompt with **administrator** privileges.
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 3. To change the **ARR\_pilotSiteServers\_loadbalance** rule to check for IE and .NET 3.5 in HTTP\_USER\_AGENT, enter:
 
     [!code-console[Main](pilot-program-management-using-application-request-routing/samples/sample1.cmd)]

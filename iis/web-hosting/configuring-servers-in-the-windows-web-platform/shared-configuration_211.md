@@ -49,8 +49,8 @@ In IIS 7.0 and above, the shared configuration feature enables administrators to
     > If the machine is not joined to the domain, the account will need to be created on the Web server(s) and the file server.
 2. Create a share for storing the configuration files and set permissions. This can be done using the following commands:  
   
- md %SystemDrive%\centralconfig  
- net share centralconfig$=%SystemDrive%\centralconfig /grant:ConfigUser,Read /grant:Administrators,Full
+		md %SystemDrive%\centralconfig  
+		net share centralconfig$=%SystemDrive%\centralconfig /grant:ConfigUser,Read /grant:Administrators,Full
 3. Navigate to **Administrative Tools** and click **Internet Information Services (IIS) Manager**.
 4. Click the server name node.
 5. Double-click the **Shared Configuration** icon.
@@ -69,7 +69,7 @@ In IIS 7.0 and above, the shared configuration feature enables administrators to
 
 By clicking the Export Configuration task, the UI exports the applicationHost.config and administration.config files to the path, as well as the encryption keys that IIS uses to encrypt properties like custom application pool identity passwords. By default, there are no encrypted properties in the applicationHost.config file, unless the server administrator has entered custom identities for an application pool or Web site.
 
-Shared configuration works by using a new file named redirection.config, located in the %windir%\system32\inetsrv\config folder, to specify a path and username for accessing the configuration files. When the shared configuration check box is enabled, the UI updates the redirection.config file with the path and username.
+Shared configuration works by using a new file named redirection.config, located in the `%windir%\system32\inetsrv\config` folder, to specify a path and username for accessing the configuration files. When the shared configuration check box is enabled, the UI updates the redirection.config file with the path and username.
 
 While this task can be performed manually (or programmatically) by xcopying the files and updating the redirection.config file, the server administrator must export and import the encryption keys unless they intend not to use encryption. The UI handles all of these tasks seamlessly for the administrator.
 

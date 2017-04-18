@@ -70,14 +70,14 @@ To open a command prompt as Administrator, click **Start**, click **All Programs
 To launch CIM Studio from an elevated command prompt:
 
 1. Open a command prompt as Administrator.
-2. Type **"%systemdrive%\Program Files\WMI Tools\studio.htm"** andpress Enter.
+2. Type `%systemdrive%\Program Files\WMI Tools\studio.htm` andpress Enter.
 
 ### Make a Backup
 
 Backup key IIS configuration files before beginning so that you can restore the system to its original state after you have finished.
 
 1. Open a command prompt.
-2. Type **%windir%\system32\inetsrv\appcmd add backup IIS7\_WMI\_CIMStudioLab.**
+2. Type `%windir%\system32\inetsrv\appcmd add backup IIS7\_WMI\_CIMStudioLab`.
 
 Expected output:
 
@@ -85,7 +85,7 @@ Expected output:
 [!code-console[Main](managing-sites-with-the-iis-wmi-provider/samples/sample1.cmd)]
 
 
-- After you have finished, restore IIS to its original state by opening the command prompt as administrator and typing **%windir%\system32\inetsrv\appcmd restore backup IIS7\_WMI\_CIMStudioLab**.
+- After you have finished, restore IIS to its original state by opening the command prompt as administrator and typing `%windir%\system32\inetsrv\appcmd restore backup IIS7\_WMI\_CIMStudioLab`.
 
 Expected output:
 
@@ -186,7 +186,7 @@ Go back to your cmd prompt and run CreateSite.vbs. You see the following output:
 
 ***Site created successfully!***
 
-To see proof that the site was created, type **notepad %windir%\system32\inetsrv\ApplicationHost.config**. Type **Ctrl+F** to bring up notepad's Find dialog. Type **NewSite** in the "Find what:" text box, and click the **Find Next** button. This brings you to the &lt;sites&gt; section where the new site has been defined:
+To see proof that the site was created, type `notepad %windir%\system32\inetsrv\ApplicationHost.config`. Type **Ctrl+F** to bring up notepad's Find dialog. Type **NewSite** in the "Find what:" text box, and click the **Find Next** button. This brings you to the &lt;sites&gt; section where the new site has been defined:
 
 [!code-xml[Main](managing-sites-with-the-iis-wmi-provider/samples/sample9.xml)]
 

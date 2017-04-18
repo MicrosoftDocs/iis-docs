@@ -125,7 +125,7 @@ Now to compile the module &amp; deploy it. In the Administrator command prompt, 
 [![](how-to-add-tracing-to-iis-managed-modules/_static/image2.png)](how-to-add-tracing-to-iis-managed-modules/_static/image1.png)
 
 > [!NOTE]
-> If you are running this on a 64bit system, compile using the 64bit c# compiler in %windir%\microsoft.net\framework64\v2.0.50727\csc.exe
+> If you are running this on a 64bit system, compile using the 64bit c# compiler in `%windir%\microsoft.net\framework64\v2.0.50727\csc.exe`
 
 Note the use of the **/debug** &amp; **/d:TRACE** switches. You *must* use these switches to compile the trace events into the binary. Failing to compile with these switches means that the module will not have any trace events in it.
 

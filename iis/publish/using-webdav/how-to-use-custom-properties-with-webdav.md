@@ -89,7 +89,7 @@ AppCmd.exe is a new command-line tool for administering IIS 7.0, and additional 
 The following steps will walk you through using the AppCmd utility to configure WebDAV's property settings.
 
 > [!NOTE]
-> The AppCmd.exe utility is located in the %WinDir%\System32\InetSrv folder.
+> The AppCmd.exe utility is located in the `%WinDir%\System32\InetSrv` folder.
 
 ### Configuring Property Behaviors
 

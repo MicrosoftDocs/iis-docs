@@ -29,7 +29,7 @@ This walkthrough requires the following prerequisites:
 
 To demonstrate how the URL rewrite module works, we will be using a simple test ASP.NET page. This page reads the Web server variables and outputs their values in the browser.
 
-Copy the following ASP.NET code and put it in the %SystemDrive%\inetpub\wwwroot\ folder in a file called article.aspx:
+Copy the following ASP.NET code and put it in the `%SystemDrive%\inetpub\wwwroot\` folder in a file called article.aspx:
 
 [!code-aspx[Main](using-failed-request-tracing-to-trace-rewrite-rules/samples/sample1.aspx)]
 
@@ -39,7 +39,7 @@ After copying this file, browse to `http://localhost/article.aspx` and check tha
 
 ## Configuring rewrite rules
 
-Locate a web.config file in %SystemDrive%\inetpub\wwwroot\ folder or create one if it does not exist. Open web.config file and add the following section inside of the &lt;system.webServer&gt; element:
+Locate a web.config file in `%SystemDrive%\inetpub\wwwroot\` folder or create one if it does not exist. Open web.config file and add the following section inside of the &lt;system.webServer&gt; element:
 
 
 [!code-xml[Main](using-failed-request-tracing-to-trace-rewrite-rules/samples/sample2.xml)]
@@ -71,7 +71,7 @@ To create an FRT rule in IIS Manager follow these steps:
 
 ## Analyzing Failed Request Tracing log file
 
-After the FRT rule has been created, make a request to `http://localhost/article/234/some-title`. This will create an FRT log in %SystemDrive%\inetpub\Logs\FaileReqLogFiles\. You can open this log by using Internet Explorer, and it will be rendered as an HTML document that can be easily browsed. Following is an example of the URL rewrite specific events that can be found in the trace log file:
+After the FRT rule has been created, make a request to `http://localhost/article/234/some-title`. This will create an FRT log in `%SystemDrive%\inetpub\Logs\FaileReqLogFiles\`. You can open this log by using Internet Explorer, and it will be rendered as an HTML document that can be easily browsed. Following is an example of the URL rewrite specific events that can be found in the trace log file:
 
 [![](using-failed-request-tracing-to-trace-rewrite-rules/_static/image27.png)](using-failed-request-tracing-to-trace-rewrite-rules/_static/image25.png)
 

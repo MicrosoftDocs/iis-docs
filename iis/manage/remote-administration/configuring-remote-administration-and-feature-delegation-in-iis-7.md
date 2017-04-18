@@ -86,7 +86,7 @@ In addition to the Management Service settings that were configured in the above
 | IP Address | Specifies the IP address to which the service is bound. | All Unassigned |
 | Port | Specifies the port number that the service uses for requests. | 8172 |
 | SSL Certificate | Specifies the SSL certificate used by the service. All requests to the service use HTTPS over the port specified in the **Port** field. This list contains the SSL certificates that are available to the server. If you want to add additional SSL certificates, use the **Server Certificates** feature at the server level. | Self-signed certificate that is installed during setup |
-| Log requests to | Specifies the path to the log files for the Management Service. | %SystemDrive%\Inetpub\logs\WMSVC |
+| Log requests to | Specifies the path to the log files for the Management Service. | `%SystemDrive%\Inetpub\logs\WMSVC` |
 
 
 ## Configure IP and Domain Restrictions for the Management Service

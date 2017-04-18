@@ -57,20 +57,20 @@ To open a command prompt as Administrator, click **Start**, click **All Programs
 To launch CIM Studio from an elevated command prompt:
 
 1. Open a command prompt as Administrator.
-2. Type **"%systemdrive%\Program Files\WMI Tools\studio.htm"** andpress Enter.
+2. Type `%systemdrive%\Program Files\WMI Tools\studio.htm` andpress Enter.
 
 ### Make a Backup
 
 Backup key IIS configuration files before beginning so that you can restore your system to its original state after you have finished.
 
 1. Open a command prompt.
-2. Type **%windir%\system32\inetsrv\appcmd add backup IIS7\_WMI\_CIMStudioLab.**
+2. Type `%windir%\system32\inetsrv\appcmd add backup IIS7\_WMI\_CIMStudioLab`.
 
 *Expected output*:
 
 [!code-console[Main](get-to-know-the-iis-wmi-provider-using-cim-studio/samples/sample1.cmd)]
 
-- After you have finished, restore IIS to its original state by opening the command prompt as administrator and typing **%windir%\system32\inetsrv\appcmd restore backup IIS7\_WMI\_CIMStudioLab**.
+- After you have finished, restore IIS to its original state by opening the command prompt as administrator and typing `%windir%\system32\inetsrv\appcmd restore backup IIS7\_WMI\_CIMStudioLab`.
 
 *Expected output*:
 
@@ -188,7 +188,7 @@ Click the **OK** button. The Save button, shown below circled in red, has become
 
 [![](get-to-know-the-iis-wmi-provider-using-cim-studio/_static/image45.jpg)](get-to-know-the-iis-wmi-provider-using-cim-studio/_static/image44.jpg)
 
-To see this change in configuration, click **Start**, click **Run**, and type **notepad %windir%\system32\inetsrv\applicationHost.config**. Click the **Edit** menu, and select **Find**. Type "localTimeRollover" to find the newly added configuration. The configuration should appear similar to the XML below, and the localTimeRollover configuration property should be set to "true".
+To see this change in configuration, click **Start**, click **Run**, and type `notepad %windir%\system32\inetsrv\applicationHost.config`. Click the **Edit** menu, and select **Find**. Type "localTimeRollover" to find the newly added configuration. The configuration should appear similar to the XML below, and the localTimeRollover configuration property should be set to "true".
 
 [!code-xml[Main](get-to-know-the-iis-wmi-provider-using-cim-studio/samples/sample3.xml)]
 

@@ -62,7 +62,7 @@ Run the SetupSiteForPublish.ps1 script with no arguments:
 
 What this does:
 
-The script creates a user and site for non-admin publishing and saves the publish profile information in a file on the desktop. More specifically, it creates a site called WDeploySite with physical site root at %systemdrive%\inetpub\WDeploySite. The site will have a matching application pool, WDeployAppPool, and will be assigned to port 8080 by default (or the next available port if another site is using 8080). The script also creates a non-administrator local Windows user called WDeploySiteuser and grants that user Full Control ACLs on the WDeploySite folder and IIS Manager Permissions to the site. The settings information is saved to the desktop in a file called WDeploy.PublishSettings - this file may be consumed by WebMatrix (or potentially Visual Studio) for publishing to the site. This profile does NOT contain any database publishing information at this point.
+The script creates a user and site for non-admin publishing and saves the publish profile information in a file on the desktop. More specifically, it creates a site called WDeploySite with physical site root at `%systemdrive%\inetpub\WDeploySite`. The site will have a matching application pool, WDeployAppPool, and will be assigned to port 8080 by default (or the next available port if another site is using 8080). The script also creates a non-administrator local Windows user called WDeploySiteuser and grants that user Full Control ACLs on the WDeploySite folder and IIS Manager Permissions to the site. The settings information is saved to the desktop in a file called WDeploy.PublishSettings - this file may be consumed by WebMatrix (or potentially Visual Studio) for publishing to the site. This profile does NOT contain any database publishing information at this point.
 
 #### Enable Web Deploy Publishing for any Site and User using the SetupSiteForPublish script:
 
@@ -75,7 +75,7 @@ The script creates a user and site for non-admin publishing and saves the publis
 | Name | Description | Default Value | Notes |
 | --- | --- | --- | --- |
 | siteName | Name of the site. If site does not exist, it will be created. | WDeploySite |  |
-| sitePhysicalPath | Physical file location for the site content. If the directory does not exist, it will be created. | %systemdrive%\inetpub\WDeploySite |  |
+| sitePhysicalPath | Physical file location for the site content. If the directory does not exist, it will be created. | `%systemdrive%\inetpub\WDeploySite` |  |
 | siteAppPoolName | Name of the application pool that will be associated with the site. If the application pool does not exist, it will be created. | WDeployAppPool | It is recommended to dedicate one application pool per site. |
 | sitePort | Port for the site bindings. | First port from 8080-8200 that is not in use by another site. | A firewall rule may be required to open the port for remote traffic. |
 | deploymentUserName | Name of the user to be given access to the site. If the user does not exist, a non-administrator user will be created. | WDeploySiteuser |  |

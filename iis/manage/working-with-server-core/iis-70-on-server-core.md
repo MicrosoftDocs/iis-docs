@@ -79,9 +79,9 @@ A. Steps to install and configure PHP on Server Core are as follows:
 > [!NOTE]
 > Since Server Core does not have browser support, it is recommended to download the PHP content on a file share where browser access is available.
 
-2. Create a %SystemDrive%\PHP directory on Server Core machine and xcopy the content of the folder from the file share above onto %SystemDrive%\PHP folder on local machine.
+2. Create a `%SystemDrive%\PHP` directory on Server Core machine and xcopy the content of the folder from the file share above onto `%SystemDrive%\PHP` folder on local machine.
 
-3. Copy the %SystemDrive%\PHP\PHP.INI-Recommended file as %SystemDrive%\PHP\PHP.INI.
+3. Copy the `%SystemDrive%\PHP\PHP.INI-Recommended` file as `%SystemDrive%\PHP\PHP.INI`.
 
 **Q5. How do you install and configure Fast-CGI support on the IIS Server?**
 
@@ -104,7 +104,7 @@ Step 2. Create the PHP/FastCGI handler mapping from command line by typing follo
 
 **Notes**:
 
-1. AppCmd.exe is a new command-line tool that ships with IIS 7.0. AppCmd.exe can be found at %WinDir%\System32\InetSrv directory. For more information on AppCmd command-line tool, please click the [link](../../get-started/getting-started-with-iis/getting-started-with-appcmdexe.md).
+1. AppCmd.exe is a new command-line tool that ships with IIS 7.0. AppCmd.exe can be found at `%WinDir%\System32\InetSrv` directory. For more information on AppCmd command-line tool, please click the [link](../../get-started/getting-started-with-iis/getting-started-with-appcmdexe.md).
 2. Depending on PHP installation location described in Q4, paths to executables on the hard disk may require updates. All appcmd example commands above assume that PHP installation is in D:\PHP folder.
 
 ## Server Core Administration Tips

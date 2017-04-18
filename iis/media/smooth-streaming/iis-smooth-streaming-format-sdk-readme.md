@@ -47,7 +47,7 @@ Updated documentation for the Smooth Streaming Format SDK is available on [MSDN>
 
 ## What's in the Package?
 
-When the package is installed, directories are created by default under "%ProgramFiles%\IIS\Media\Smooth Streaming Format SDK."
+When the package is installed, directories are created by default under `%ProgramFiles%\IIS\Media\Smooth Streaming Format SDK`.
 
 The root directory contains the following files:
 

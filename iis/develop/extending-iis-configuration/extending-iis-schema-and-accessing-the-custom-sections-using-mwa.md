@@ -36,7 +36,7 @@ Strongly typed classes representing specific sections can be written by deriving
 
 ## Extending the Schema
 
-Extending the schema involves adding a simple .xml file in the **%SystemRoot%\system32\inetsrv\config\schema** directory on the machine. The IIS\_schema.xml file is already present in this directory and can be used as an example in order to set up your own schema. Create a file named CUSTOM\_schema.xml and set it up as shown in the example below. In this case, the custom section (called "myCustomSection") has four properties of type boolean, string, integer and enum. The default values for these properties are specified in the schema as shown below:
+Extending the schema involves adding a simple .xml file in the `%SystemRoot%\system32\inetsrv\config\schema` directory on the machine. The IIS\_schema.xml file is already present in this directory and can be used as an example in order to set up your own schema. Create a file named CUSTOM\_schema.xml and set it up as shown in the example below. In this case, the custom section (called "myCustomSection") has four properties of type boolean, string, integer and enum. The default values for these properties are specified in the schema as shown below:
 
 
 [!code-xml[Main](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/samples/sample1.xml)]
@@ -54,7 +54,7 @@ Create a new console application using Visual Studio.
 
 [![](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/_static/image3.jpg)](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/_static/image1.jpg)
 
-Add a reference to the Microsoft.Web.Administration.dll located at **%SystemRoot%\system32\inetsrv**.
+Add a reference to the Microsoft.Web.Administration.dll located at `%SystemRoot%\system32\inetsrv`.
 
 [![](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/_static/image7.jpg)](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/_static/image5.jpg)
 

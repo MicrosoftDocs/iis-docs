@@ -48,7 +48,7 @@ Windows Media Player creates its playlists in WPL format by default. This sectio
 1. In the Windows Media Player Library, in the Contents pane, select the playlist that you want to add to the Web Playlists feature. Then, in the Details pane, click **Edit in List Pane**.  
     ![](using-windows-media-player-playlist-files-in-web-playlists/_static/image1.jpg)  
   
- This will add the playlist to the List pane in Windows Media Player. In the following example, we show in the List pane a simple playlist (named **playlist1** ) that contains two tracks (named **track1** and **track2** ).  
+ This will add the playlist to the List pane in Windows Media Player. In the following example, we show in the List pane a simple playlist (named **playlist1**) that contains two tracks (named **track1** and **track2**).  
     ![](using-windows-media-player-playlist-files-in-web-playlists/_static/image2.jpg)
 2. Click the down arrow next to the playlist name, and then click **Save Playlist As**.  
     [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image4.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image3.jpg)  
@@ -136,7 +136,7 @@ The following sections provide details on both approaches:
     **Tip** You can use the **Replace** feature in Notepad to make this change to all media entries at once.
 5. When you import the Windows Media Player ASX playlist file, the Web Playlists feature groups the unsupported playlist attributes as **extraParam** values in a **param** container in the ISX playlist file. You must remove (or comment-out) the **param** container with invalid **extraParam** attributes for each media entry in the ISX.  
   
- In the following example, we comment-out the **param** (beginning and ending comment marks shown in red ). Also, for brevity, we show only the first and last **extraParam** values (for the track length and number) in the example:  
+ In the following example, we comment-out the **param** (beginning and ending comment marks shown in red). Also, for brevity, we show only the first and last **extraParam** values (for the track length and number) in the example:  
   
 &lt;!--&lt;param name="extraParam" value="&amp;lt;Duration value=&amp;quot;00:04:36.532&amp;quot; /&amp;gt;  
   
@@ -170,7 +170,7 @@ Value=&amp;quot;4&amp;quot;" /&gt;--&gt;
     **Tip** You can use the **Replace** feature in Notepad to make this change to all media entries at once.
 3. When you import the Windows Media Player ASX playlist file, the Web Playlists feature groups the unsupported playlist attributes as **extraParam** values in a **param** container in the ISX playlist file. You must remove (or comment-out) the **param** container with invalid **extraParam** attributes for each media entry in the ISX.  
   
- In the following example, we comment-out the **param** (beginning and ending comment marks shown in red ). Also, for brevity, we show only the first and last **extraParam** values (for the track length and number) in the example:  
+ In the following example, we comment-out the **param** (beginning and ending comment marks shown in red). Also, for brevity, we show only the first and last **extraParam** values (for the track length and number) in the example:  
   
 &lt;!--&lt;param name="extraParam" value="&amp;lt;Duration value=&amp;quot;00:04:36.532&amp;quot; /&amp;gt;  
   

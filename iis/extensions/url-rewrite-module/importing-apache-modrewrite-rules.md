@@ -30,7 +30,7 @@ To see how you can convert mod\_rewrite rules and verify that the converted rule
     [![](importing-apache-modrewrite-rules/_static/image2.jpg)](importing-apache-modrewrite-rules/_static/image1.jpg)
 
     *Figure 1: Add a new binding*
-- Using Notepad, open **%SystemDrive%\windows\system32\drivers\etc\hosts** and add the two following lines at the end of the file:  
+- Using Notepad, open `%SystemDrive%\windows\system32\drivers\etc\hosts` and add the two following lines at the end of the file:  
 
     [!code-console[Main](importing-apache-modrewrite-rules/samples/sample1.cmd)]
 

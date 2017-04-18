@@ -76,7 +76,7 @@ For more information about IIS Manager user accounts, see [Allow an IIS Manager 
      [![](configure-the-web-deployment-handler/_static/image8.png)](configure-the-web-deployment-handler/_static/image7.png)  
  f. Click **OK** to open the template.  
  g. Click **OK** to create the rule.  
- h. In the **Add User to Rule** dialog box, type an asterisk ( \* ). This will allow each user to deploy applications to his or her user scope.
+ h. In the **Add User to Rule** dialog box, type an asterisk (\*). This will allow each user to deploy applications to his or her user scope.
 
 NOTE: If you want to perform admin-only synchronization, go to the **Management Service Delegation** page. In the **Actions** pane, click **Edit Feature Settings,** and then select **Allow administrators to bypass rules**.
 
@@ -89,9 +89,9 @@ NOTE: If you want to perform admin-only synchronization, go to the **Management 
  d. In the **RunAs** section, select **SpecificUser** for the **Identity Type** , and the click the **Set…** button to specify a user account that will perform this operation. In order for this rule to work, the rule must run as a user that has access to write to the applicationHost.config file. It is recommended that you create an account (for example, "CreateAppUser") that is not in the Administrators group and only grant it the minimum required permissions. To do this:
 
     - Create a user account.
-    - Grant read permission to %windir%\system32\inetsrv\config.
-    - Grant modify permission to %windir%\system32\inetsrv\config\applicationHost.config.
-2. In the **Add User to Rule** dialog box, type an asterisk ( \* ). This will allow each user to create applications within his or her Web site.
+    - Grant read permission to `%windir%\system32\inetsrv\config`.
+    - Grant modify permission to `%windir%\system32\inetsrv\config\applicationHost.config`.
+2. In the **Add User to Rule** dialog box, type an asterisk (\*). This will allow each user to create applications within his or her Web site.
 
 **Deploy Databases Rule**
 
@@ -101,7 +101,7 @@ NOTE: If you want to perform admin-only synchronization, go to the **Management 
  c. Click **OK** to open the template.  
  d. Add a path to authorize, such as Server=Server1 to allow anyone to deploy to this server using their SQL credentials, or Server=Server1;Database={userName}\_db1 to restrict to specific databases that match their username.  
  e. Click **OK** to create the rule.
-2. In the **Add User to Rule** dialog box, type an asterisk ( \* ). This will allow each user to deploy databases to his or her Web site.
+2. In the **Add User to Rule** dialog box, type an asterisk (\*). This will allow each user to deploy databases to his or her Web site.
 
 **Set Permissions Rule**
 
@@ -109,11 +109,11 @@ NOTE: If you want to perform admin-only synchronization, go to the **Management 
  a. Click **Select Rule Template…**  b. Select the **Set Permissions** rule template. This template allows any WMSVC authorized user to set ACLs on the file system.   
  c. Click **OK** to open the template.  
  d. Click **OK** to create the rule.
-2. In the **Add User to Rule** dialog box, type an asterisk ( \* ). This will allow each user to deploy applications and content within his or her Web site.
+2. In the **Add User to Rule** dialog box, type an asterisk (\*). This will allow each user to deploy applications and content within his or her Web site.
 
 **Optionally, Enable Tracing for WMSvc**
 
-If you want to enable tracing for WMSvc, see [Configuring Web Management Service Tracing](https://technet.microsoft.com/ru-ru/library/ee461173(WS.10).aspx "Configuring Web Management Service Tracing"). Tracing logs are stored in %systemdrive%\inetpub\logs\wmsvc\tracinglogfiles\w3svc1.
+If you want to enable tracing for WMSvc, see [Configuring Web Management Service Tracing](https://technet.microsoft.com/ru-ru/library/ee461173(WS.10).aspx "Configuring Web Management Service Tracing"). Tracing logs are stored in `%systemdrive%\inetpub\logs\wmsvc\tracinglogfiles\w3svc1`.
 
 ### Part 3 - Test the User's Connection to the Web site
 
@@ -146,7 +146,7 @@ There are some common issues that can occur during deployments:
 o Resolution(s): Verify the username/password and that the user has access to the Web site.
 
 **User receives a server error while trying to import or export an application.** o Cause(s): This error comes from the Web Deployment Handler and is usually a problem with the deployment rules. Since the user has connected successfully, it is not an issue with WMSVC. A deployment rule may have a typo, the user performing deployment may not be authorized or the runAs identity may not have access.  
-o Resolution(s): Open the tracing logs at %systemdrive%\inetpub\logs\wmsvc\tracinglogfiles\w3svc1 and see what rule is failing to authorize.
+o Resolution(s): Open the tracing logs at `%systemdrive%\inetpub\logs\wmsvc\tracinglogfiles\w3svc1` and see what rule is failing to authorize.
 
 - Look for logs that contain failures, such as "Details: No rule was found that could authorize user 'server1\siteowner', provider 'appPoolConfig', operation 'Read', path 'DefaultAppPool'". In this case, the provider appPoolConfig is not authorized and the user tried to add a provider they are not allowed to add.
 - Another common error is if the RunAs user that is being used to create apps does not have proper access to configuration. In this case, Procmon is a useful tool for determining where an access denied error may be coming from.

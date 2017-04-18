@@ -59,7 +59,7 @@ If its set = 0 then SM2.0 is disabled.
 
 You are typically going to see these in Pre IIS 7.0 -2008 scenarios or when either the client (IIS) or server (UNC share) does not support 2.0. In this case you need to go through the exercise of trying to limit the # of file change monitors that are created by the client (IIS or asp.net) and /or increasing the limits supported.
 
-**Increasing the Limits ( MaxCmds and MaxMpxCt)**
+**Increasing the Limits (MaxCmds and MaxMpxCt)**
 
 The limit is a negotiated limit between the client and the server, whenever the lower of **MaxCmds** and **MaxMpxCt** will take effect.
 

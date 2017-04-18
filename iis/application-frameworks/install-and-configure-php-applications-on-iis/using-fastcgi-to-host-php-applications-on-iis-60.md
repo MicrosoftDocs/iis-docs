@@ -42,7 +42,7 @@ You can download the FastCGI extension for 32-bit and 64-bit Windows XP and Wind
 
 [https://www.iis.net/extensions/fastcgi](https://www.iis.net/downloads/microsoft/fastcgi-for-iis)
 
-When you run the FastCGI installer, it copies FastCGI-specific files to the "%*windir*%\system32\inetsrv" folder, and then registers and enables the FastCGI Web server extension. Of the files that the installer copies, note the following:
+When you run the FastCGI installer, it copies FastCGI-specific files to the `%windir%\system32\inetsrv` folder, and then registers and enables the FastCGI Web server extension. Of the files that the installer copies, note the following:
 
 - **fcgiext.dll** – This is the actual FastCGI handler that communicates with FastCGI-enabled processes for processing requests.
 - **fcgiext.ini** – This is the configuration file that contains the mapping of file extensions to FastCGI processes. It also contains the configuration of FastCGI process pools.

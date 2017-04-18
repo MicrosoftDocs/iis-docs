@@ -30,7 +30,7 @@ Now, as you move your application to IIS 7 and above, you want to configure it t
 
 ### Wildcard script mapping in IIS 7 and above classic pipeline mode
 
-With classic pipeline mode the ASP.NET is plugged into the IIS request processing pipeline as an ISAPI extension - exactly the same way as it was in IIS 6. In fact, if you open %WINDIR%\system32\inetsrv\config\applicationHost.config file and locate the &lt;handlers&gt; section inside of it you can see how IIS is configured to map ASP.NET specific requests to the **aspnet\_isapi.dll**:
+With classic pipeline mode the ASP.NET is plugged into the IIS request processing pipeline as an ISAPI extension - exactly the same way as it was in IIS 6. In fact, if you open `%WINDIR%\system32\inetsrv\config\applicationHost.config` file and locate the &lt;handlers&gt; section inside of it you can see how IIS is configured to map ASP.NET specific requests to the **aspnet\_isapi.dll**:
 
 [!code-xml[Main](wildcard-script-mapping-and-iis-integrated-pipeline/samples/sample1.xml)]
 

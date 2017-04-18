@@ -59,12 +59,12 @@ The new FTP service makes it easy to create new FTP sites by providing you with 
 In this first step you will create a new FTP site that anonymous users can open.
 
 > [!NOTE]
-> The settings listed in this walkthrough specify "%SYSTEMDRIVE%\inetpub\ftproot" as the path to your FTP site. You are not required to use this path; however, if you change the location for your site you will have to change the site-related paths that are used throughout this walkthrough.
+> The settings listed in this walkthrough specify `%SYSTEMDRIVE%\inetpub\ftproot` as the path to your FTP site. You are not required to use this path; however, if you change the location for your site you will have to change the site-related paths that are used throughout this walkthrough.
 
 1. Open IIS Manager. In the **Connections** pane, click the **Sites** node in the tree.
 2. As shown in the image below, right-click the **Sites** node in the tree and click **Add FTP Site**, or click **Add FTP Site** in the **Actions** pane. 
 
-    - Create a folder at "%SystemDrive%\inetpub\ftproot"
+    - Create a folder at `%SystemDrive%\inetpub\ftproot`
     - Set the permissions to allow anonymous access: 
 
         1. Open a command prompt.
@@ -76,7 +76,7 @@ In this first step you will create a new FTP site that anonymous users can open.
     [![](creating-a-new-ftp-site-in-iis-7/_static/image3.jpg)](creating-a-new-ftp-site-in-iis-7/_static/image1.jpg)
 3. When the **Add FTP Site** wizard appears: 
 
-    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the %SystemDrive%\inetpub\ftproot folder that you created in the Prerequisites section. Note that if you choose to type in the path to your content folder, you can use environment variables in your paths.
+    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section. Note that if you choose to type in the path to your content folder, you can use environment variables in your paths.
     - When you have completed these items, click **Next**.
 
     [![](creating-a-new-ftp-site-in-iis-7/_static/image7.jpg)](creating-a-new-ftp-site-in-iis-7/_static/image5.jpg)
@@ -102,7 +102,7 @@ In this first step you will create a new FTP site that anonymous users can open.
 
 You have successfully created a new FTP site using the new FTP service. To recap the items that you completed in this step:
 
-1. You created a new FTP site named "My New FTP Site", with the site's content root at "%SystemDrive%\inetpub\ftproot".
+1. You created a new FTP site named "My New FTP Site", with the site's content root at `%SystemDrive%\inetpub\ftproot`.
 2. You bound the FTP site to the local loopback address for your computer on port 21, and you chose not to use Secure Sockets Layer (SSL) for the FTP site.
 3. You created a default rule for the FTP site to allow anonymous users "Read" access to the files.
 
@@ -187,7 +187,7 @@ You can also create FTP sites for the new FTP service by editing the IIS configu
 
 The following steps walk you through all of the required settings to create a new FTP site from scratch.
 
-1. Using a text editor such as Windows Notepad, open your ApplicationHost.config file, which is located in your %SystemRoot%\System32\inetsrv\config folder by default.
+1. Using a text editor such as Windows Notepad, open your ApplicationHost.config file, which is located in your `%SystemRoot%\System32\inetsrv\config` folder by default.
 2. Locate the &lt;sites&gt; section. This section contains your Default Web Site and should begin with something like the following:  
 
     [!code-xml[Main](creating-a-new-ftp-site-in-iis-7/samples/sample4.xml)]
@@ -198,7 +198,7 @@ The following steps walk you through all of the required settings to create a ne
         > [!NOTE]
         > You may need to choose a different number than "2" for the site ID if any site is currently using that site identifier.
     - Change the value of the **protocol** attribute on the binding element to contain "ftp".
-    - Change the **physicalPath** attribute to "%SystemDrive%\inetpub\ftproot".
+    - Change the **physicalPath** attribute to `%SystemDrive%\inetpub\ftproot`.
     - Change the **port** value of the **bindingInformation** attribute to contain "21".
 5. Add an &lt;ftpServer&gt; section beneath the closing bindings tag that will contain your authentication settings.  
 

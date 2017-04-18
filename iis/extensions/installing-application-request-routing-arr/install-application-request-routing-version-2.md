@@ -57,7 +57,7 @@ Download the Microsoft Application Request Routing release from the following lo
 
     [!code-console[Main](install-application-request-routing-version-2/samples/sample2.cmd)]
 
- This step is necessary because ARR installs a Hotfix (    [KB 954438](https://support.microsoft.com/kb/954438) ).
+ This step is necessary because ARR installs a Hotfix ([KB 954438](https://support.microsoft.com/kb/954438)).
 3. Run ARRv2\_setup\_&lt;architecture&gt;.exe; for example: 
 
     [!code-console[Main](install-application-request-routing-version-2/samples/sample3.cmd)]
@@ -111,7 +111,7 @@ In this step, you will disable the Idle Time-Out under the application pool proc
 **To change the application pool process model using the command-line:** 
 
 1. Open a command prompt with administrator user rights.
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 3. Using appcmd, enter 
 
     [!code-console[Main](install-application-request-routing-version-2/samples/sample8.cmd)]
@@ -134,7 +134,7 @@ Similarly, disable the application pool recycle setting so that the application 
 **To change the application pool recycle setting using the command-line:** 
 
 1. Open a command prompt with administrator user rights.
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 3. Using appcmd, enter 
 
     [!code-console[Main](install-application-request-routing-version-2/samples/sample9.cmd)]

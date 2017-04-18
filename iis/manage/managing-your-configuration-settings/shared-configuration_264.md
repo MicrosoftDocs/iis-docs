@@ -116,7 +116,7 @@ When trying new features or changing multiple configuration settings, it is good
 ### To back up the applicationHost.config file:
 
 1. Open a command prompt.
-2. Navigate to the IIS directory, which is located in %WINDIR%\System32\InetSrv by default. The configuration files are stored in the InetSrv\Config directory. Use the AppCmd tool to create a backup object and back up the applicationHost.config file by running the following command:  
+2. Navigate to the IIS directory, which is located in `%WINDIR%\System32\InetSrv` by default. The configuration files are stored in the InetSrv\Config directory. Use the AppCmd tool to create a backup object and back up the applicationHost.config file by running the following command:  
 
     [!code-console[Main](shared-configuration_264/samples/sample1.cmd)]
 
@@ -209,10 +209,10 @@ You can now move the configuration to a central location. This allows you to dec
 
 ### To store the configuration in a UNC share:
 
-1. Copy the **applicationHost.config** and **administration.config** files from the **%windir%\system32\inetsrv\config** directory on the front-end Web server to share on the back-end file server. If the user account that is currently logged in has write access to the back-end share, you can drop the file in the directory. If not, then you must authenticate the user account to the back-end to complete this step.
+1. Copy the **applicationHost.config** and **administration.config** files from the `%windir%\system32\inetsrv\config` directory on the front-end Web server to share on the back-end file server. If the user account that is currently logged in has write access to the back-end share, you can drop the file in the directory. If not, then you must authenticate the user account to the back-end to complete this step.
 2. Access the existing redirection.config XML file in the front-end server's configuration directory:
 
-    - Use Windows Explorer to navigate to %windir%\system32\inetsrv\config.
+    - Use Windows Explorer to navigate to `%windir%\system32\inetsrv\config`.
     - Open the redirection.config file. This file and its contents are created when the Web server is set up. Tools and APIs can access this file to determine whether or not this feature is enabled.
 3. Open the redirection.config file. Set the following configuration with the correct server name, user name, and password for your environment.
 
@@ -277,7 +277,7 @@ These keys are in the iisConfigurationKey and iisWasKey key containers and are m
 
 ### Steps
 
-1. Open a command-prompt. Navigate to the Framework directory, which is located in **%windir%\Microsoft.NET\Framework\v2.0.50727\** by default.   
+1. Open a command-prompt. Navigate to the Framework directory, which is located in `%windir%\Microsoft.NET\Framework\v2.0.50727\` by default.   
     > [!NOTE]
     > For reference, the machine keys for the system are located in **%ALLUSERSPROFILE%\Microsoft\Crypto\RSA\MachineKeys\**
 2. Use the aspnet\_regiis tool to export the key. The command to transfer the configuration key is stated below. The px switch identifies that you want to export an RSA key pair. The pri switch identifies that you also want to include both the private and public key.

@@ -26,7 +26,7 @@ It depends entirely on the application and the logging module implementation. If
 
 #### Is there logging of delegated administration? Can we do an audit of delegated administrators?
 
-The only logging currently available is located in %systemdrive%\inetpub\logs\wmsvc. However, it does not give any useful information about what was actually done or even which object they connected to, since those are part of the headers. We are looking into changing some of the remoting behavior to use QueryString for certain things so that they can query the log.
+The only logging currently available is located in `%systemdrive%\inetpub\logs\wmsvc` However, it does not give any useful information about what was actually done or even which object they connected to, since those are part of the headers. We are looking into changing some of the remoting behavior to use QueryString for certain things so that they can query the log.
 
 For example, moving the Module Service and the Method we are invoking as part of the query string would automatically place it in the log. That way you can figure out what is being done in their site. Also, the SiteName and the Application Path that you connected to should be there (connected to default web site), and potentially the current configuration path you are connecting to (now editing MyApp under my Default Web Site connection). One thing we should never include in the query string are arguments, since we do not want potentially sensitive information ending up in your log. This will also prevent the "email link" phishing attack.
 

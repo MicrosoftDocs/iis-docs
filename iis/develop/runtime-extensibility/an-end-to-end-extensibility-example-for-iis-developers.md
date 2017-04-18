@@ -76,11 +76,11 @@ The IIS configuration store can be extended by simply copying a schema file into
 
 ### Schema Declaration
 
-Save the following schema definition as imagecopyright.xml in %windir%\system32\inetsrv\config\schema:
+Save the following schema definition as imagecopyright.xml in `%windir%\system32\inetsrv\config\schema`:
 
 [!code-xml[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample1.xml)]
 
-If you get an "access denied" message, you did not do this from the elevated command prompt. Once the schema file is added, the schema needs to be declared in the applicationhost.config file. Add the following XML to %windir%\system32\inetsrv\config\applicationhost.config
+If you get an "access denied" message, you did not do this from the elevated command prompt. Once the schema file is added, the schema needs to be declared in the applicationhost.config file. Add the following XML to `%windir%\system32\inetsrv\config\applicationhost.config`
 
 [!code-xml[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample2.xml)]
 
@@ -140,7 +140,7 @@ Open a notepad instance and copy the following lines into it:
 
 [!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample8.cmd)]
 
-The schema declaration contains the same entries as imageCopyright.xml in the previous step, namely the name and type of the configuration setting and its default value. Save the file as %windir%\system32\inetsrv\imageCopyright.mof.
+The schema declaration contains the same entries as imageCopyright.xml in the previous step, namely the name and type of the configuration setting and its default value. Save the file as `%windir%\system32\inetsrv\imageCopyright.mof`.
 
 ## Compilation of WMI Schema Files
 
@@ -160,7 +160,7 @@ Open an instance of NOTEPAD and copy the following lines into it. Save the file 
 
 This is a standard WMI script that connects to the IIS WMI provider. It gets the configuration section at the specified location ("Default Web Site") and changes its values. The Put\_ call will save the changes to disk.
 
-If you execute the script, it adds the copyright message with the current date into %systemdrive%\inetpub\wwwroot\web.config. Have a look.
+If you execute the script, it adds the copyright message with the current date into `%systemdrive%\inetpub\wwwroot\web.config`. Have a look.
 
 Next, add the image copyright handler itself.
 
@@ -207,7 +207,7 @@ HandleImage does the following:
 - Creates a font object using the configured values
 - Draws the message into the bitmap
 
-To use the Microsoft.Web.Administration class, you must add the reference to the IIS Administration API assembly. To do this, open %systemdrive%\inetpub\mypictures\web.config and add the following entries:
+To use the Microsoft.Web.Administration class, you must add the reference to the IIS Administration API assembly. To do this, open `%systemdrive%\inetpub\mypictures\web.config` and add the following entries:
 
 [!code-xml[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample14.xml)]
 
@@ -323,7 +323,7 @@ Now compile the project using Build Solution under Build menu. This automaticall
 
 ## Creating the Module Provider
 
-The IIS user interface is as customizable and modular as the IIS core server and the IIS configuration system. The IIS user interface is a set of feature modules that can be removed or replaced. The entry point for each UI module is a module provider. A list of all module providers can be found in %windir%\system32\inetsrv\Administration.config in the &lt;modules&gt; section.
+The IIS user interface is as customizable and modular as the IIS core server and the IIS configuration system. The IIS user interface is a set of feature modules that can be removed or replaced. The entry point for each UI module is a module provider. A list of all module providers can be found in `%windir%\system32\inetsrv\Administration.config` in the `&lt;modules&gt;` section.
 
 As a first step, create the imageCopyrightUI module provider.
 
@@ -412,7 +412,7 @@ The UI Module is built, but we still must tell the IIS Management Console to loa
 
 [!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample27.cmd)]
 
-3. Open %windir%\system32\inetsrv\config\administration.config and add the following right after the &lt;moduleProviders&gt; entry:
+3. Open `%windir%\system32\inetsrv\config\administration.config` and add the following right after the `&lt;moduleProviders&gt;` entry:
 
 [!code-xml[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample28.xml)]
 
@@ -429,7 +429,7 @@ Double-click the "Image Copyright" entry. You see the following page:
 [![](an-end-to-end-extensibility-example-for-iis-developers/_static/image15.png)](an-end-to-end-extensibility-example-for-iis-developers/_static/image14.png)   
 **Figure 9: Image Copyright User Interface**
 
-Change the copyright message, click apply and refresh your browser. The copyright message changed. Look into the web.config file in the %systemdrive%\inetpub\mypictures directory to see the changed configuration.
+Change the copyright message, click apply and refresh your browser. The copyright message changed. Look into the web.config file in the `%systemdrive%\inetpub\mypictures` directory to see the changed configuration.
 
 
 ## Summary

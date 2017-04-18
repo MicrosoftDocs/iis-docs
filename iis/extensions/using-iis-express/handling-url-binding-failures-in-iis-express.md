@@ -106,7 +106,7 @@ First, determine the SHA1 thumbprint for the IIS Express self-signed certificate
 
 This command displays information about all the certificates in the Personal certificate store for the local computer. Search for "IIS Express Development Certificate" in the output to locate the IIS Express self-signed certificate and then note its SHA1 thumbprint.
 
-Next, configure HTTP.sys to associate the self-signed certificate with the URL. On Windows 7 or Windows Vista, start by creating a unique UUID using uuidgen.exe or some other tool. Then run the following command from an elevated prompt, passing the thumbprint to the certhash parameter. (Exclude the spaces when you specify the thumbprint. )
+Next, configure HTTP.sys to associate the self-signed certificate with the URL. On Windows 7 or Windows Vista, start by creating a unique UUID using uuidgen.exe or some other tool. Then run the following command from an elevated prompt, passing the thumbprint to the certhash parameter. (Exclude the spaces when you specify the thumbprint.)
 
 [!code-console[Main](handling-url-binding-failures-in-iis-express/samples/sample12.cmd)]
 

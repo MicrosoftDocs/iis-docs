@@ -92,7 +92,7 @@ Install and configure the deployment handler.
 6. Add a set of rules to allow customers to deploy content, applications, and databases by opening the **Administration.config** file and navigating to this section:  
 
     [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample5.xml)]
-7. To allow site owners to create applications, set access control lists (ACLs), and deploy database data, you must add the following rules to the **Administration.config** file within the **&lt;management&gt;** section. Make sure to change the **&lt;runAs&gt;** element to contain the user credentials you created in step 5 above. Notice that you can add these rules [programmatically using MWA](../../publish/using-web-deploy/configure-the-web-deployment-handler.md).  
+7. To allow site owners to create applications, set access control lists (ACLs), and deploy database data, you must add the following rules to the **Administration.config** file within the `&lt;management&gt;` section. Make sure to change the `&lt;runAs&gt;` element to contain the user credentials you created in step 5 above. Notice that you can add these rules [programmatically using MWA](../../publish/using-web-deploy/configure-the-web-deployment-handler.md).  
 
     [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample6.xml)]
 8. In the **Administration.config** file, find the element **"&lt;sectionGroup name="management"&gt;"** inside **"&lt;sectionGroup name="system.webServer"&gt;"**, verify that the following element is listed in it: **"&lt;section name="delegation" overrideModeDefault="Deny" allowDefinition="MachineToWebRoot" /&gt;"**. If not, add it.
@@ -256,7 +256,7 @@ The product list feed **WebProductList.xml** is the root feed. It not only conta
 3. Note the idref="PHPApp" and idref="MySQLApp" properties. They refer to another &lt;dependency&gt; element with corresponding "id" value that defines the actual dependencies. For example, if you examine the WebApplicationList.xml file for the "PHPApp" dependency element, you find the set of PHPApp dependencies:  
 
     [!code-xml[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample21.xml)]
-4. The **&lt;** productId&gt; element contains the reference to the corresponding product in the parent feed WebProductList.xml. For example:  
+4. The `&lt;productId&gt;` element contains the reference to the corresponding product in the parent feed WebProductList.xml. For example:  
 
     - ID = WDeployNoSMO, corresponds to Web Deploy without SMO
     - ID= PHP, corresponds to the PHP engine (currently: 5.2.11)
@@ -303,7 +303,7 @@ The sample applications use the WebClient.DownloadFile method to download the pa
 
 ## Use the SHA1 Hash to Verify the Package
 
-The **&lt;sha1&gt;** element in the example contains the SHA1 hash of the package to download and acts as a signature for the package. You can use this hash to verify that the downloaded package is indeed the one you expect. The sample application collects this value for every application in the feed XML file and uses the value to verify the hash of the downloaded package.
+The `&lt;sha1&gt;` element in the example contains the SHA1 hash of the package to download and acts as a signature for the package. You can use this hash to verify that the downloaded package is indeed the one you expect. The sample application collects this value for every application in the feed XML file and uses the value to verify the hash of the downloaded package.
 
 The following code snippet from the sample application illustrates this verification:
 

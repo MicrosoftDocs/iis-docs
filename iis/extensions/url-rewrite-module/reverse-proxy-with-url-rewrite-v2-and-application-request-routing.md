@@ -60,7 +60,7 @@ To create the example Web sites:
 1. Create two folders called "**webmail**" and "**payroll**" in the following folder:  
 
     [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample3.cmd)]
-2. Create two IIS web sites called "**webmail**" and "**payroll**" that point to corresponding folders under %SystemDrive%\inetpub\. Use different IP ports for each site.  
+2. Create two IIS web sites called "**webmail**" and "**payroll**" that point to corresponding folders under `%SystemDrive%\inetpub\`. Use different IP ports for each site.  
  You can use the following commands to create the sites:  
 
     [!code-console[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample4.cmd)]
@@ -248,7 +248,7 @@ Leave default values for all other settings. The "Edit Outbound Rule" property p
 
 Save the rule by clicking on "Apply" action on the right hand side.
 
-To check the configuration of the rules that we have just created, open a web.config file located in %SystemDrive%\inetput\wwwroot\. In this file you should see the **&lt;rewrite&gt;** section that contains this rule definition:
+To check the configuration of the rules that we have just created, open a web.config file located in `%SystemDrive%\inetput\wwwroot\`. In this file you should see the `&lt;rewrite&gt;` section that contains this rule definition:
 
 
 [!code-xml[Main](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/samples/sample20.xml)]

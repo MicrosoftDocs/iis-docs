@@ -85,7 +85,7 @@ For example, to configure the task to retry 5 times and wait for 1 minute betwee
 
     [!code-console[Main](chaining-the-robocopy-task-to-your-transformed-output/samples/sample6.cmd?highlight=1)]
 
- Substitution tokens that you add must be separated by the backslash (    `\` ) character.
+ Substitution tokens that you add must be separated by the backslash (`\`) character.
 8. In the **Success codes** box, specify which of the standard [Robocopy return codes](https://support.microsoft.com/kb/954404) should be recorded as successful operations in job instance logs by editing the comma-delimited string.
 9. Click **OK** to close the **Edit Robocopy Task** dialog box.
 

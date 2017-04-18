@@ -38,11 +38,9 @@ Managing application and application pools on IIS 7.0 and above can be performed
 
 > a. Open an elevated Command Prompt window.
 
+> b. Type cd `%Windir%\system32\inetsrv\`
 
-> b. Type cd %Windir%\system32\inetsrv\
-
-
-> c. Type appcmd add backup *backupName* to back up the ApplicationHost.config file, where *backupName* is the name that you specify for the backup. A directory with the backup name that you specify will be created under the %Windir%\system32\inetsrv\backup directory. If you do not specify a name, appcmd will generate a directory name automatically using the current date and time.
+> c. Type appcmd add backup *backupName* to back up the ApplicationHost.config file, where *backupName* is the name that you specify for the backup. A directory with the backup name that you specify will be created under the `%Windir%\system32\inetsrv\backup` directory. If you do not specify a name, appcmd will generate a directory name automatically using the current date and time.
 
 
 ## Creating and Enumerating Applications

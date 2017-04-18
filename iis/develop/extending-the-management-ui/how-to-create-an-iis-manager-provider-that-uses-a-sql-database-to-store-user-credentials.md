@@ -64,7 +64,7 @@ The first step is to create the SQL database that will store the usernames, pass
 
     - Click **Project**, then **Add Reference...**
     - Click the **Browse** tab.
-    - Navigate to your "%WinDir%\System32\Inetsrv" folder.
+    - Navigate to your `%WinDir%\System32\Inetsrv` folder.
     - Select the "Microsoft.Web.Management.dll" file.
     - Click **OK**.
 5. Add a strong name key to the project: 

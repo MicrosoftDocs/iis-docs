@@ -28,11 +28,11 @@ This article describes per-site configuration for both PHP 5.2 and PHP 5.3.
 
 For example, suppose you have two Web sites in IIS 6.0, website1.com and website2.com, and you want each Web site to use its own php.ini file. Assume that php.ini for Website1.com is located in the C:\Inetpub\website1.com folder, and php.ini for Website2.com is located in C:\Inetpub\website2.com folder.
 
-1. Create script mappings and FastCGI configuration sections for each Web site. You can use the helper script fcgiconfig.js, located in the %WINDIR%\system32\inetsrv\ folder.
-2. Execute the following commands to create PHP script mappings for website1.com and website2.com. Make sure you replace &lt;php\_path&gt; with the correct path to PHP executable and &lt;site\_id&gt; with the correct site ID.  
+1. Create script mappings and FastCGI configuration sections for each Web site. You can use the helper script fcgiconfig.js, located in the `%WINDIR%\system32\inetsrv\` folder.
+2. Execute the following commands to create PHP script mappings for website1.com and website2.com. Make sure you replace `&lt;php\_path&gt;` with the correct path to PHP executable and `&lt;site\_id&gt;` with the correct site ID.  
 
     [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample1.cmd)]
-3. Open the fcgiext.ini file located in %WINDIR%\system32\inetsrv. It should contain the following sections:  
+3. Open the fcgiext.ini file located in `%WINDIR%\system32\inetsrv`. It should contain the following sections:  
 
     [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample2.cmd)]
   

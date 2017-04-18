@@ -29,8 +29,8 @@ To configure shared content, you first set up the shared folder on the file serv
 
 If your web farm supports ASP.NET applications, use the Code Access Security Policy tool (Caspol.exe) to grant ASP.NET approval for the UNC path. With the Caspol tool, you can grant full trust to the UNC path on your web server. The tool resides on your server at one of the following locations:
 
-- 64-bit systems: %windir%\Microsoft.NET\Framework64\v4.030319
-- 32-bit systems: %windir%\Microsoft.NET\Framework\v4.030319
+- 64-bit systems: `%windir%\Microsoft.NET\Framework64\v4.030319`
+- 32-bit systems: `%windir%\Microsoft.NET\Framework\v4.030319`
 
 Run the tool by using either a system command prompt, a PowerShell command prompt, or a Visual Studio command prompt. For more information, see [Step 2: Configure IIS Web Farm Servers](configuring-step-2-configure-iis-web-farm-servers.md).
 

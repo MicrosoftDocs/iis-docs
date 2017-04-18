@@ -64,7 +64,7 @@ By default, the Web Management Service listens on port 8172, but this can be cha
 
 [!code-console[Main](troubleshooting-web-deploy-problems-with-visual-studio/samples/sample8.cmd)]
 
-This message is somewhat misleading. It states that the server did not respond, but the 403 error indicates that Web Deploy could contact the server, but the request was actively refused. The HTTP log for the Web Management Service can help confirm the request reached the server, and provide details about the actual request that failed. This log can be found at %SystemDrive%\Inetpub\logs\WMSvc by default. Like other IIS logs, data is not written to the log immediately, so you may have to wait a couple minutes to see the request, or restart the Web Management Service to flush the log.
+This message is somewhat misleading. It states that the server did not respond, but the 403 error indicates that Web Deploy could contact the server, but the request was actively refused. The HTTP log for the Web Management Service can help confirm the request reached the server, and provide details about the actual request that failed. This log can be found at `%SystemDrive%\Inetpub\logs\WMSvc` by default. Like other IIS logs, data is not written to the log immediately, so you may have to wait a couple minutes to see the request, or restart the Web Management Service to flush the log.
 
 In the WMSVC log, the error above looks like
 

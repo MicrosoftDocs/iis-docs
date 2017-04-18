@@ -1,7 +1,7 @@
 ---
 title: "Working with Tables | Microsoft Docs"
 author: rick-anderson
-description: "This walkthrough assumes the following environment: The IIS Database Manager is installed on your Web Server ( ). A database server (that could reside on the..."
+description: "This walkthrough assumes the following environment: The IIS Database Manager is installed on your Web Server (). A database server (that could reside on the..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 06/29/2009

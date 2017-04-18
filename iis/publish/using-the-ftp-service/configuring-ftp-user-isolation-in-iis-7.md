@@ -45,7 +45,7 @@ The following items are required to complete the procedures in this article:
     - [FTP for IIS 7 (x86)](https://go.microsoft.com/fwlink/?LinkID=143196)
 3. You will need to create a root folder for FTP publishing: 
 
-    - Create a folder at "%SystemDrive%\inetpub\ftproot"
+    - Create a folder at `%SystemDrive%\inetpub\ftproot`
     - Set the permissions to allow anonymous access: 
 
         - Open a command prompt.
@@ -55,8 +55,8 @@ The following items are required to complete the procedures in this article:
         - Close the command prompt.
 4. You will need to create additional content folders: 
 
-    - Create a folder at "%SystemDrive%\inetpub\ftproot\LocalUser\Public"
-    - Create a folder at "%SystemDrive%\inetpub\adminfiles"
+    - Create a folder at `%SystemDrive%\inetpub\ftproot\LocalUser\Public`
+    - Create a folder at `%SystemDrive%\inetpub\adminfiles`
 
 <a id="001"></a>
 
@@ -69,7 +69,7 @@ In this first section we will create a new FTP site that can be opened for Read-
     [![](configuring-ftp-user-isolation-in-iis-7/_static/image3.png)](configuring-ftp-user-isolation-in-iis-7/_static/image1.png)
 3. When the **Add FTP Site** wizard appears: 
 
-    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the "%SystemDrive%\inetpub\ftproot" folder that you created in the Prerequisites section. Note that if you choose to type in the path to your content folder, you can use environment variables in your paths.
+    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section. Note that if you choose to type in the path to your content folder, you can use environment variables in your paths.
     - When you have completed these items, click **Next**.  
         [![](configuring-ftp-user-isolation-in-iis-7/_static/image7.png)](configuring-ftp-user-isolation-in-iis-7/_static/image5.png)
 4. On the next page of the wizard: 
@@ -108,7 +108,7 @@ In this first section we will create a new FTP site that can be opened for Read-
 
 To recap the items that you completed in this section:
 
-1. You created a new FTP site named "My New FTP Site", with the site's content root at "%SystemDrive%\inetpub\ftproot".
+1. You created a new FTP site named "My New FTP Site", with the site's content root at `%SystemDrive%\inetpub\ftproot`.
 2. You bound the FTP site to the local loopback address for your computer on port 21, and we chose not to use Secure Sockets Layer (SSL) for the FTP site.
 3. You created a default rule for the FTP site to allow anonymous users "Read" access to the files.
 4. You added an authorization rule that allows the administrator account both "Read" and "Write" permissions for the FTP site.
@@ -172,7 +172,7 @@ When isolating users by physical directories only, all FTP user sessions are res
 You can now log in to your FTP site using user isolation, but the following information applies:
 
 1. If you log in to your FTP site anonymously, your session will be restricted to the "LocalUser\Public" folder that you created in the Prerequisites section.
-2. If you attempt to log in to your FTP site using the administrator account, your logon request will be denied because the administrator account does not have a home directory defined. To allow the administrator account to log in you would need to create a home directory for the administrator account at "%SystemDrive%\inetpub\ftproot\LocalUser\Administrator". After which, if you logged in to your FTP site using the administrator account, your session will be restricted to the "LocalUser\Administrator" folder that you just created.
+2. If you attempt to log in to your FTP site using the administrator account, your logon request will be denied because the administrator account does not have a home directory defined. To allow the administrator account to log in you would need to create a home directory for the administrator account at `%SystemDrive%\inetpub\ftproot\LocalUser\Administrator`. After which, if you logged in to your FTP site using the administrator account, your session will be restricted to the "LocalUser\Administrator" folder that you just created.
 
 ### Summary
 
@@ -210,7 +210,7 @@ When isolating users for all directories, all FTP user sessions are restricted t
 5. When the **Add Virtual Directory** dialog box appears: 
 
     - Enter "administrator" for the **Alias**.
-    - Enter "%SystemDrive%\inetpub\adminfiles" for the **Physical path**.
+    - Enter `%SystemDrive%\inetpub\adminfiles` for the **Physical path**.
     - When you have completed these items, click **OK**.  
         [![](configuring-ftp-user-isolation-in-iis-7/_static/image69.png)](configuring-ftp-user-isolation-in-iis-7/_static/image67.png)
 

@@ -70,7 +70,7 @@ You can also do by running the following command line:
 
 ### Step 4: Add IgnoreSection Handler to v1.1 machine.config
 
-ASP.NET v1.1 will throw runtime exceptions out of the box if you have IIS configuration in the web.config files that are read by your ASP.NET v1.1 applications. To make ASP.NET v1.1 ignore IIS configuration sections, open the Framework v1.1 machine.config file (%windir%\Microsoft.NET\Framework\v1.1.4322\config\machine.config) and add the following section entry just above the bottom tag for the &lt;configSections&gt; element:
+ASP.NET v1.1 will throw runtime exceptions out of the box if you have IIS configuration in the web.config files that are read by your ASP.NET v1.1 applications. To make ASP.NET v1.1 ignore IIS configuration sections, open the Framework v1.1 machine.config file `%windir%\Microsoft.NET\Framework\v1.1.4322\config\machine.config` and add the following section entry just above the bottom tag for the &lt;configSections&gt; element:
 
 
 [!code-xml[Main](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/samples/sample2.xml)]
@@ -78,9 +78,9 @@ ASP.NET v1.1 will throw runtime exceptions out of the box if you have IIS config
 
 ### Step 5: Move Site or Application to ASP.NET 1.1 Application Pool
 
-During installation, Framework v1.1 creates an application pool called "ASP.NET 1.1" that is configured to load Framework v1.1 upon startup. To move your site or application into this application pool using IIS Manager, please see our [online documentation](http://technet2.microsoft.com/WindowsServer2008/en/library/ad122434-505b-4fcc-8146-7b21cf10a57f1033.mspx). You can also do this from the command line by navigating to the %windir%\system32\inetsrv directory and running the following command line:
+During installation, Framework v1.1 creates an application pool called "ASP.NET 1.1" that is configured to load Framework v1.1 upon startup. To move your site or application into this application pool using IIS Manager, please see our [online documentation](http://technet2.microsoft.com/WindowsServer2008/en/library/ad122434-505b-4fcc-8146-7b21cf10a57f1033.mspx). You can also do this from the command line by navigating to the `%windir%\system32\inetsrv` directory and running the following command line:
 
-appcmd set app "Default Web Site/" /applicationPool:"ASP.NET 1.1"If you would like to create a new application pool that's configured to load Framework v1.1, please see our online documentation for [creating an application pool](http://technet2.microsoft.com/WindowsServer/en/Library/ad96956e-4207-4730-b03e-308e3f9e10751033.mspx?mfr=true). You can also do this from the command line by navigating to the %windir%\system32\inetsrv directory and running the following command line:
+appcmd set app "Default Web Site/" /applicationPool:"ASP.NET 1.1"If you would like to create a new application pool that's configured to load Framework v1.1, please see our online documentation for [creating an application pool](http://technet2.microsoft.com/WindowsServer/en/Library/ad96956e-4207-4730-b03e-308e3f9e10751033.mspx?mfr=true). You can also do this from the command line by navigating to the `%windir%\system32\inetsrv` directory and running the following command line:
 
 
 [!code-console[Main](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/samples/sample3.cmd)]

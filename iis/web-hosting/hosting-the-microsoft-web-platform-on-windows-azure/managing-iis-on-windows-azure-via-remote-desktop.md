@@ -68,8 +68,8 @@ Managing APPCMD via command-line is easy. Just open a n elevated command shell a
 
 Here are the commands for looking at run-time data:
 
-- Worker Process Resource Consumption: %windir%\system32\inetsrv\appcmd list wp
-- Currently Executing Requests: %windir%\system32\inetsrv\appcmd list requests
+- Worker Process Resource Consumption: `%windir%\system32\inetsrv\appcmd list wp`
+- Currently Executing Requests: `%windir%\system32\inetsrv\appcmd list requests`
 
 #### Managing IIS via the IIS Powershell Snap-in
 

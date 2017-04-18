@@ -64,7 +64,7 @@ The "Network Service" account is used by the COM process that handles authentica
 
 Create a root folder for FTP publishing:
 
-1. Create a folder at "%SystemDrive%\inetpub\ftproot".
+1. Create a folder at `%SystemDrive%\inetpub\ftproot`.
 2. Set the permissions to allow access for the COM process that handles authentication extensibility: 
 
     - Open a command prompt.
@@ -74,7 +74,7 @@ Create a root folder for FTP publishing:
     - Close the command prompt.
 
 > [!NOTE]
-> The settings listed in this walkthrough specify "%SystemDrive%\inetpub\ftproot" as the path to your FTP site. You are not required to use this path; however, if you change the location for your site you will have to change the site-related paths that are used throughout this walkthrough.
+> The settings listed in this walkthrough specify `%SystemDrive%\inetpub\ftproot` as the path to your FTP site. You are not required to use this path; however, if you change the location for your site you will have to change the site-related paths that are used throughout this walkthrough.
 
 <a id="02"></a>
 
@@ -138,8 +138,8 @@ In this first step, you create a new FTP site that can only be opened by the loc
     [![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image3.jpg)](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image1.jpg)
 3. When the **Add FTP Site** wizard appears: 
 
-    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the "%SystemDrive%\inetpub\ftproot" folder that you created in the Prerequisites section. > [!NOTE]
- > If you choose to type in the path to your content folder, you can use environment variables in your paths; for example: "%SystemDrive%\inetpub\ftproot"
+    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section. > [!NOTE]
+ > If you choose to type in the path to your content folder, you can use environment variables in your paths; for example: `%SystemDrive%\inetpub\ftproot`
     - Click **Next**.
 
     [![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image7.jpg)](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image5.jpg)
@@ -200,7 +200,7 @@ To recap the items that you completed in this section:
 
 1. You created a new FTP site named "My New FTP Site": 
 
-    - You specified the site's content root at "%SystemDrive%\inetpub\ftproot".
+    - You specified the site's content root at `%SystemDrive%\inetpub\ftproot`.
     - You bound the FTP site to the local loopback address for your computer on port 21, choosing not to use Secure Sockets Layer (SSL) for the FTP site.
     - You configured Basic Authentication to the FTP site, and created an authorization rule that allows the administrator account both "Read" and "Write" permissions for the FTP site.
 2. You configured the FTP site to use an IIS 7 Manager account: 

@@ -24,7 +24,7 @@ by [Nazim Lala](https://github.com/naziml)
 ## Installation Steps
 
 - Run UrlScan v3.1 MSI installer for either x86 or x64 version depending on your platform.
-- On successful installation you should have a "UrlScan" folder with UrlScan.dll under %windir%\system32\inetsrv and additionally under %windir%\syswow64\inetsrv as well for x64 installations.
+- On successful installation you should have a "UrlScan" folder with UrlScan.dll under `%windir%\system32\inetsrv` and additionally under `%windir%\syswow64\inetsrv` as well for x64 installations.
 - Folder above will also contain the configuration file, UrlScan.ini. In the x64 case, only the system32 directory will have the UrlScan.ini file since the filter will turn off redirection when attempting to access UrlScan.ini, so both versions of the filter will access the same configuration under system32 directory
 - Upgrading from UrlScan v2.5 or UrlScan v3.0 will leave your old UrlScan.ini file intact.
 - The default installation will install UrlScan as a global filter only. Please refer to the Setting Up UrlScan v3.1 section for details.

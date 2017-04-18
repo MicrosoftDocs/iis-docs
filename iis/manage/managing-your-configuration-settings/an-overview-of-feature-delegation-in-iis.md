@@ -52,7 +52,7 @@ Appcmd does not show the current lock state for configuration sections (you must
 
 appcmd unlock config –section:httpErrors
 
-Users new to IIS may ask how they know that httpErrors is the configuration section for custom errors. First, use this reference article that maps core server modules to their configuration. Second, find all IIS configuration settings in %windir%\system32\inetsrv\config\schema\IIS\_schema.xml.
+Users new to IIS may ask how they know that httpErrors is the configuration section for custom errors. First, use this reference article that maps core server modules to their configuration. Second, find all IIS configuration settings in `%windir%\system32\inetsrv\config\schema\IIS\_schema.xml`.
 
 Open the schema file in notepad, CTRL+F for Find, and type in a known config property or word that you associate with the feature. Try "customerror" first. If that does not find anything, try "errors" -- this finds the section "system.webServer\httpErrors" on the third try.
 
@@ -75,7 +75,7 @@ Now to do the same thing in IIS Manager.
 1. Open IIS Manager (Start, Run, type inetmgr.exe) and click the connection to the local server in the tree view on the left side. Scroll down the feature list, find **Feature Delegation**, and double-click to open.
 
     [![](an-overview-of-feature-delegation-in-iis/_static/image2.jpg)](an-overview-of-feature-delegation-in-iis/_static/image1.jpg)
-2. The Feature Delegation page shows all the features and their default delegation state for all sites ( "features" means all the items that appear in the home page feature list). Try Grouping by Delegation.
+2. The Feature Delegation page shows all the features and their default delegation state for all sites ("features" means all the items that appear in the home page feature list). Try Grouping by Delegation.
 
     [![](an-overview-of-feature-delegation-in-iis/_static/image4.jpg)](an-overview-of-feature-delegation-in-iis/_static/image3.jpg)
 3. Notice that most of the IIS features like Windows Authentication and IPv4 Address and Domain Restrictions are Read Only, while ASP.NET configuration like Forms Authentication, Machine Key, and Session State are Read/Write. 
@@ -117,7 +117,7 @@ Start with creating site and application administrators.
 2. Click **Allow User...** in the task pane to add a new user for the Default Web Site.[![](an-overview-of-feature-delegation-in-iis/_static/image14.jpg)](an-overview-of-feature-delegation-in-iis/_static/image13.jpg)
 3. You have two options here: Windows User or Group, or IIS Manager user.
 
-    An IIS Manager user is a username and password stored in %windir%\system32\inetsrv\config\administration.config. Most situations call for Windows Users. For example, a developer who publishes content directly to a web server through a file share or FTP already has read/write permission to the content folder. Since IIS Manager will impersonate that user when making configuration changes, the Windows user account has to have read/write access to the content folder where the web.config files will be written.
+    An IIS Manager user is a username and password stored in `%windir%\system32\inetsrv\config\administration.config`. Most situations call for Windows Users. For example, a developer who publishes content directly to a web server through a file share or FTP already has read/write permission to the content folder. Since IIS Manager will impersonate that user when making configuration changes, the Windows user account has to have read/write access to the content folder where the web.config files will be written.
 
     On the other hand, perhaps the content provider publishes to a staging server and the content is replicated from the staging server out to the server farm. In this case, the content provider does not have access to the production servers; i.e., there is no Windows account to add. In this case, creating an IIS Manager user by adding a username/password as a site administrator allows the end user to view configuration for their application without making them a Windows user on the server.
 

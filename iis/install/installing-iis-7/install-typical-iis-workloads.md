@@ -221,7 +221,7 @@ The default static content workload includes HTTP logging and Request Monitor fe
 - Custom Logging
 - ODBC Logging
 
-Of these features, Tracing provides a powerful way new to debug and diagnose IIS application issues in production environments as well as in development environment. (See article [Troubleshooting Failed Requests using Tracing in IIS7 and Above](../../troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis.md) ) The Custom Logging and ODBC Logging features exist for IIS 6.0 compatibility and you should only need to install them if you have existing IIS 6.0 that take advantage of these features.
+Of these features, Tracing provides a powerful way new to debug and diagnose IIS application issues in production environments as well as in development environment. (See article [Troubleshooting Failed Requests using Tracing in IIS7 and Above](../../troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis.md)) The Custom Logging and ODBC Logging features exist for IIS 6.0 compatibility and you should only need to install them if you have existing IIS 6.0 that take advantage of these features.
 
 To install the IIS Tracing feature from the Vista/Windows Server 2008 setup user interface, select the following IIS features by UI name (in addition to features for static content):
 

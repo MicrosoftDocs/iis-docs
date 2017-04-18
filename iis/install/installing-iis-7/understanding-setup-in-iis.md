@@ -323,7 +323,7 @@ Some IIS 7.0 and above features have dependencies on other versions of IIS. When
 | IIS-ASP | IIS-ISAPIExtensions IIS-RequestFiltering |
 | IIS-ASPNET | IIS-DefaultDocument IIS-NetFxExtensibility WAS-NetFxEnvironment IIS-ISAPIExtensions IIS-ISAPIFilter IIS-RequestFiltering |
 | IIS-NetFxExtensibility | WAS-NetFxEnvironment IIS-RequestFiltering |
-| IIS-ManagementService | IIS-WebServer ( Must have at least onechild selected) IIS-ManagementConsole WAS-NetFxEnvironment WAS-ConfigurationAPI |
+| IIS-ManagementService | IIS-WebServer (Must have at least onechild selected) IIS-ManagementConsole WAS-NetFxEnvironment WAS-ConfigurationAPI |
 | IIS-ManagementConsole | WAS-ConfigurationAPI |
 | IIS-ManagementScriptingTools | WAS-ConfigurationAPI |
 | IIS-LegacyScripts | IIS-Metabase IIS-WMICompatibility |

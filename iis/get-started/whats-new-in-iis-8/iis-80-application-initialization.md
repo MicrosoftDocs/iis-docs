@@ -71,7 +71,7 @@ In this walkthrough, you will configure a sample application to always be initia
 
 #### Modifications in applicationHost.config
 
-Open up the applicationHost.config file located at %WINDIR%\system32\inetsrv\config in Notepad. (Remember to run the text editor with the "Run as Administrator" option!)
+Open up the applicationHost.config file located at `%WINDIR%\system32\inetsrv\config` in Notepad. (Remember to run the text editor with the "Run as Administrator" option!)
 
 Find the &lt;applicationPools&gt; configuration section, and then look for the application pool entry with a name of ".NET v4.5".
 

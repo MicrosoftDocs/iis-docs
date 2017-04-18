@@ -184,7 +184,7 @@ To extend a website using HTML Administration pages on Windows, use the followin
 
 ### Using the Command Line to Extend a website
 
-You can extend a website by using the command-line tools, owsadm or owsrmadm. These tools are located in the "%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\50\bin" folder. To extend a website, use the install operation, which takes the following parameters.
+You can extend a website by using the command-line tools, owsadm or owsrmadm. These tools are located in the `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\50\bin` folder. To extend a website, use the install operation, which takes the following parameters.
 
 
 | Parameter | Short Form | Description |
@@ -224,7 +224,7 @@ You can use HTML Administration pages to uninstall FrontPage 2002 Server Extensi
 
 ### Using the Command Line to Remove
 
-You can remove the FrontPage 2002 Server Extensions from a website using the command-line tools, owsadm or owsrmadm. These tools are located in the "%CommonProgramFiles%\Microsoft Shared\Web Server Extensions\50\bin" folder. To remove FPSE 2002 from a website, you use the uninstall or fulluninstall operations. The uninstall operation removes FrontPage 2002 Server Extensions from your server. The full uninstall operation also removes the data about your site (excluding actual site content) from your virtual server.
+You can remove the FrontPage 2002 Server Extensions from a website using the command-line tools, owsadm or owsrmadm. These tools are located in the `%CommonProgramFiles%\Microsoft Shared\Web Server Extensions\50\bin` folder. To remove FPSE 2002 from a website, you use the uninstall or fulluninstall operations. The uninstall operation removes FrontPage 2002 Server Extensions from your server. The full uninstall operation also removes the data about your site (excluding actual site content) from your virtual server.
 
 The uninstall and fulluninstall operations take the port parameter. The following example shows the syntax for removing FPSE from a website:
 

@@ -41,7 +41,7 @@ For more information, see [Configuring Logging in IIS](configure-logging-in-iis.
 IIS log files compress to about 2% of their original size. Enable compression of a log file as follows. You must be an administrator to perform this procedure.
 
 1. Click the **File Manager** icon in the icon bar.
-2. Move to the folder containing IIS log files (by default, %SystemDrive%\inetpub\logs\LogFiles).
+2. Move to the folder containing IIS log files (by default, `%SystemDrive%\inetpub\logs\LogFiles`).
 3. Right-click on the folder and click **Properties**.
 4. On the **General** tab of the **Properties** page, click **Advanced**.
 5. Click **Compress contents to save disk space**, and then click **OK**.![Enabling compression](managing-iis-log-file-storage/_static/image1.jpg)
@@ -55,7 +55,7 @@ If the folder already contains a significant amount of data, it could take the c
 <a id="01"></a>
 ## Move the Log Folder to a Remote System
 
-IIS log files are stored by default in the %SystemDrive%\inetpub\logs\LogFiles folder of your IIS server. The folder is configured in the Directory property on the Logging page for either the server or an individual site. To lessen the problem of log disk usage, you can move your IIS log files to a folder on another server that has more space. This server can either be in the same domain as the local IIS server, or a different domain. You can save log files remotely either for the entire server or for individual Web sites.
+IIS log files are stored by default in the `%SystemDrive%\inetpub\logs\LogFiles` folder of your IIS server. The folder is configured in the Directory property on the Logging page for either the server or an individual site. To lessen the problem of log disk usage, you can move your IIS log files to a folder on another server that has more space. This server can either be in the same domain as the local IIS server, or a different domain. You can save log files remotely either for the entire server or for individual Web sites.
 
 This solution can help the security of the system, because if a local hard drive crashes, the log data is still available on remote storage. In addition, the log files can be consumed by analysis systems.
 

@@ -20,7 +20,7 @@ by IIS Team
 
 The configuration system in IIS 7.0 and above is based on distributed xml files that contain the configuration for IIS, ASP.NET and other components; flexibility in the configuration system also allows for configuration to be set at a a number of levels including at the server, the site and the application level. Configuration at the site and application level coexists alongside ASP.NET configuration in web.config files.
 
-One aspect of the new configuration system is the ease with which configuration can be extended. It is possible, with only a few simple changes, to integrate custom configuration sections directly into the configuration system and manipulate these settings using the existing administration APIs. Configuration is extended by simply defining a new configuration section in an XML schema file which is then dropped in the IIS schema directory (%windir%\system32\inetsrv\config\schema). Finally, the new configuration section has to be registered in the IIS global configuration file.
+One aspect of the new configuration system is the ease with which configuration can be extended. It is possible, with only a few simple changes, to integrate custom configuration sections directly into the configuration system and manipulate these settings using the existing administration APIs. Configuration is extended by simply defining a new configuration section in an XML schema file which is then dropped in the IIS schema directory `%windir%\system32\inetsrv\config\schema`. Finally, the new configuration section has to be registered in the IIS global configuration file.
 
 This article walks through an example which uses basic configuration extensibility and some of the more advanced scenarios. Though the example used is contrived, it should be sufficient to demonstrate the power of configuration extensibility.
 
@@ -30,7 +30,7 @@ There are a number of prerequisites for this article. They include:
 
 1. Having a default install of IIS 7.0 or above. If IIS is not installed, install it by opening the Server Manager and adding the Web Server (IIS) role.
 2. Making sure that you have the .NET Framework SDK installed. If you do not have the SDK installed, get it from [https://www.microsoft.com/downloads](https://www.microsoft.com/downloads)
-3. Using a number of tools in the bin directory of the SDK. Either use the SDK Command Prompt from your start menu or add the bin directory to your path (e.g. %systemdrive%\Program Files\Microsoft.NET\SDK\v2.0\Bin)
+3. Using a number of tools in the bin directory of the SDK. Either use the SDK Command Prompt from your start menu or add the bin directory to your path (e.g. `%systemdrive%\Program Files\Microsoft.NET\SDK\v2.0\Bin`)
 4. Running all the commands from a command prompt with elevated privileges. Right click on "SDK Command Prompt" (or "Command Prompt") in the start menu and then select "Run as administrator".
 
 ## Configuration Extensibility - The Basics
@@ -43,7 +43,7 @@ Configuration extensibility comes into play because the module needs to know whe
 
 ### Step 1 - The Schema File
 
-The first step in adding a new configuration section is defining the section. Define the section schema in xml and drop the file into the **%windir%\system32\inetsrv\config\schema** directory.
+The first step in adding a new configuration section is defining the section. Define the section schema in xml and drop the file into the `%windir%\system32\inetsrv\config\schema` directory.
 
 Create an xml file called **simpleLogging\_Schema.xml** and put the following into it:
 
@@ -53,7 +53,7 @@ Create an xml file called **simpleLogging\_Schema.xml** and put the following in
 
 The schema above does two things. First, it defines a new configuration section named "simpleLogging" using the &lt;sectionSchema&gt; element. Second, it defines an attribute of that new configuration section called "logfileDirectory".
 
-You can see from the schema file that the attribute is a string and the configuration system will not encrypt it. The *expanded="true"* tells the configuration system to automatically expand environment variables when used. If you did not create the file in the **%windir%\system32\inetsrv\config\schema** directory, move it there now.
+You can see from the schema file that the attribute is a string and the configuration system will not encrypt it. The *expanded="true"* tells the configuration system to automatically expand environment variables when used. If you did not create the file in the `%windir%\system32\inetsrv\config\schema` directory, move it there now.
 
 Next, create the default directory specified for "logfileDirectory", as it probably does not exist on your machine. Run the following command from the command line to create the directory:
 
@@ -69,7 +69,7 @@ The Windows group IIS\_IUSRS must have write permissions to the directory so tha
 
 ### More About the Schema
 
-Although Step 1 is complete in terms of our example, it is appropriate to discuss the schema files. In the schema above, we simply created a new configuration section **simpleLogging** that exists under **system.webServer** and specified a custom attribute. However, you can easily create more complex custom configuration with collections, elements and attributes. The table below shows some examples, but the best way to learn is to look at the schema file for the IIS configuration. Find it at **%windir%\system32\inetsrv\config\schema\IIS\_schema.xml**.
+Although Step 1 is complete in terms of our example, it is appropriate to discuss the schema files. In the schema above, we simply created a new configuration section **simpleLogging** that exists under **system.webServer** and specified a custom attribute. However, you can easily create more complex custom configuration with collections, elements and attributes. The table below shows some examples, but the best way to learn is to look at the schema file for the IIS configuration. Find it at `%windir%\system32\inetsrv\config\schema\IIS\_schema.xml`.
 
 | Type | Schema Info and Examples |
 | --- | --- |
@@ -79,7 +79,7 @@ Although Step 1 is complete in terms of our example, it is appropriate to discus
 
 ### Step 2 – Registering the New Section
 
-Now that a new section has been defined, tell the configuration system about the section. Register the new section in the **%windir%\system32\inetsrv\config\applicationHost.config** file. Open the file and register the simpleLogging section as below:
+Now that a new section has been defined, tell the configuration system about the section. Register the new section in the `%windir%\system32\inetsrv\config\applicationHost.config` file. Open the file and register the simpleLogging section as below:
 
 
 [!code-xml[Main](configuration-extensibility/samples/sample10.xml)]
@@ -101,9 +101,9 @@ If everything has gone well up to now, then the configuration section displays a
 
 ### Step 3 – Setting the Configuration
 
-Now that the section has been registered, set the configuration as you would any other configuration using a **web.config** file, or set it using the **appcmd.exe** tool in the **%windir%\system32\inetsrv\** directory. You can also set the configuration using any of the configuration APIs. One more option is to set the configuration via the new IIS administration UI by creating a UI module and calling the configuration APIs to set the configuration.
+Now that the section has been registered, set the configuration as you would any other configuration using a **web.config** file, or set it using the **appcmd.exe** tool in the `%windir%\system32\inetsrv\` directory. You can also set the configuration using any of the configuration APIs. One more option is to set the configuration via the new IIS administration UI by creating a UI module and calling the configuration APIs to set the configuration.
 
-For the time being, set the configuration by adding it to a new **web.config** file for the default IIS website (the one installed at **%systemdrive%\inetpub\wwwroot\** and named "Default Web Site" in the default IIS configuration). Create a file called web.config and add the following:
+For the time being, set the configuration by adding it to a new **web.config** file for the default IIS website (the one installed at `%systemdrive%\inetpub\wwwroot\` and named "Default Web Site" in the default IIS configuration). Create a file called web.config and add the following:
 
 
 [!code-xml[Main](configuration-extensibility/samples/sample13.xml)]
@@ -171,7 +171,7 @@ The required steps include:
 
 If you get an error, make sure that you have given the IIS\_IUSRS group permissions to write to the directory.
 
-Open **%systemdrive%\inetpub\logs\simpleLogs** (or whatever directory you used in the configuration) and you have a .log file named with today's date. Open the file and you see something like this:
+Open `%systemdrive%\inetpub\logs\simpleLogs` (or whatever directory you used in the configuration) and you have a .log file named with today's date. Open the file and you see something like this:
 
 [![](configuration-extensibility/_static/image4.jpg)](configuration-extensibility/_static/image3.jpg)
 
@@ -194,7 +194,7 @@ This section first looks at modifying the simpleLogging custom configuration fro
 
 ### Extending Configuration - An Attribute Backed by COM
 
-This section extends the schema to have an attribute called "logfileCount". This configuration attribute is backed by a .NET assembly (a managed dll - programmed in C# ), which counts the number of log files in the log directory; once again, this is a contrived scenario but one that some might find useful.
+This section extends the schema to have an attribute called "logfileCount". This configuration attribute is backed by a .NET assembly (a managed dll - programmed in C#), which counts the number of log files in the log directory; once again, this is a contrived scenario but one that some might find useful.
 
 > [!NOTE]
 > You do not have to create a .NET component - any valid COM component will do.
@@ -293,19 +293,19 @@ The above was a quick overview of how to provide new configuration and configura
 
 The final aspect of configuration extensibility is the ability to extend existing configuration sections such as the **system.webServer/sites** section, or to extend the **system.webServer/simpleLogging** section created in the previous two sections.
 
-Extending an existing configuration section is as easy as creating a new one. Simply define the schema as xml and place the schema file in the **%windir%\system32\inetsrv\config\schema\** directory. This should sound familiar, as we have done this previously mpre than once.
+Extending an existing configuration section is as easy as creating a new one. Simply define the schema as xml and place the schema file in the `%windir%\system32\inetsrv\config\schema\` directory. This should sound familiar, as we have done this previously mpre than once.
 
 ### Extending the "sites" configuration
 
 To better show how to extend an existing configuration section, we extend the **system.applicationHost/sites** section - the configuration section used to define sites. We extend the sites section by adding an "owner" attribute and an "ownerEmail" attribute. Attributes like these are useful when you host multiple sites on a single box and want to keep track of who owns the different sites.
 
-First, create a new schema file. Create a **siteExtension\_schema.xml** file in the **%windir%\system32\inetsrv\config\schema\** directory and enter the text below:
+First, create a new schema file. Create a **siteExtension\_schema.xml** file in the `%windir%\system32\inetsrv\config\schema\` directory and enter the text below:
 
 
 [!code-xml[Main](configuration-extensibility/samples/sample35.xml)]
 
 
-When extending the schema of an existing section, simply create a **&lt;sectionSchema&gt;** element and set the **name** attribute to be the same as an existing section. In the schema file above, we have defined a &lt;sectionSchema&gt; with a name of "system.applicationHost/sites" - this is the same as the sectionSchema name in the IIS\_Schema.xml file in the Schema directory.
+When extending the schema of an existing section, simply create a `&lt;sectionSchema&gt;` element and set the **name** attribute to be the same as an existing section. In the schema file above, we have defined a &lt;sectionSchema&gt; with a name of "system.applicationHost/sites" - this is the same as the sectionSchema name in the IIS\_Schema.xml file in the Schema directory.
 
 Test our modifications by adding values for the "owner" and "ownerEmail" attributes and then check the configuration file to see the changes. Simply run the following command from the command line:
 

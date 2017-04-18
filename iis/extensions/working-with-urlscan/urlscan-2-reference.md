@@ -81,9 +81,9 @@ UrlScan 2.5 installs as a clean install on a computer running IIS 5.1 or later. 
 
 When installing UrlScan 2.5, the UrlScan 2.5 installer does the following:
 
-- Installs the UrlScan.dll and UrlScan.ini files in the %windir%\system32\inetsrv\UrlScan directory. If UrlScan is already installed on the computer, the UrlScan.ini file is updated with any new settings that are not present in the current configuration file.
+- Installs the UrlScan.dll and UrlScan.ini files in the `%windir%\system32\inetsrv\UrlScan` directory. If UrlScan is already installed on the computer, the UrlScan.ini file is updated with any new settings that are not present in the current configuration file.
 - Adds UrlScan as a global filter to IIS.
-- Creates a %windir%\system32\inetsrv\UrlScan\Logs directory.
+- Creates a `%windir%\system32\inetsrv\UrlScan\Logs` directory.
 
 When installing UrlScan on a server running IIS 6.0, the UrlScan 2.5 installer makes some additional changes that enable UrlScan 2.5 to work with the new IIS 6.0 process model. These changes are as follows:
 

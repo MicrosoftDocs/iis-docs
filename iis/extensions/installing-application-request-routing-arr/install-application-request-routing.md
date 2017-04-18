@@ -107,7 +107,7 @@ In this step, you will disable the Idle Time-Out under application pool process 
 **To change the application pool process model using the command-line:** 
 
 1. Open a command prompt with **administrator** privileges.
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 3. Using appcmd, enter **appcmd.exe set apppool "DefaultAppPool" -processModel.idleTimeout:"00:00:00" /commit:apphost**.
 
 ## Repair

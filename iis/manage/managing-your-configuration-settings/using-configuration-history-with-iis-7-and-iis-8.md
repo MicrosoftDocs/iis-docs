@@ -35,7 +35,7 @@ In this task, you review the configuration options available after a default IIS
 1. Click **Start**, click **Run**, and in the **Open:** dialog box, type notepad and **Click** OK.  
     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image3.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image1.png)  
     **Figure 1: Opening Configuration with Notepad**
-2. **Click** File, then **Open**, and in the **File name:** dialog box, type %windir%\system32\inetsrv\config\applicationHost.config. **Click** Open.  
+2. **Click** File, then **Open**, and in the **File name:** dialog box, type `%windir%\system32\inetsrv\config\applicationHost.config`. **Click** Open.  
     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image7.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image5.png)  
     **Figure 2: ApplicationHost.config Path**
 3. To locate configHistory section, click **CTRL**-**F** and enter configHistory and Click **Find Next**.
@@ -50,7 +50,7 @@ Notice that there are no further settings for this feature in applicationHost.co
 ### Step 2: Locate configHistory Defaults in IIS Schema
 
 1. Click **Start**, click **Run**, and in the **Open:** dialog box, type notepad and Click **OK**.
-2. Click **File**, then **Open**, and in the **File name:** dialog box, type %windir%\system32\inetsrv\config\schema\iis\_schema.xml.  
+2. Click **File**, then **Open**, and in the **File name:** dialog box, type `%windir%\system32\inetsrv\config\schema\iis\_schema.xml`.  
     [![](using-configuration-history-with-iis-7-and-iis-8/_static/image10.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image9.png)  
     **Figure 3: IIS Schema**- To locate configHistory section, click **CTRL-F** and enter configHistory.
 - On Windows Server® 2008, you see the following:  
@@ -63,7 +63,7 @@ Notice that there are no further settings for this feature in applicationHost.co
     | Attribute | Default Setting | Definition |
     | --- | --- | --- |
     | **enabled** | True | This value indicates whether configuration history is enabled or disabled |
-    | **path** | %systemdrive%\inetpub\history | The path where history directories are created and stored |
+    | **path** | `%systemdrive%\inetpub\history` | The path where history directories are created and stored |
     | **maxHistories** | 10 | The maximum number of directories retained |
     | **period** | 00:02:00 | The time between each check made for changes |
 
@@ -102,7 +102,7 @@ Metabase history was a file-based, rather than directory-based, like the IIS 7.0
 > [!NOTE]
 > It is likely that your copy will not show immediately after following these steps. This is based on the default value of two minutes. If you find that no copy is created, check to make sure that you have waited two minutes.
 
-1. Click **Start**, **Run**, and open %systemdrive%\inetpub\history.    
+1. Click **Start**, **Run**, and open `%systemdrive%\inetpub\history`.    
 [![](using-configuration-history-with-iis-7-and-iis-8/_static/image21.png)](using-configuration-history-with-iis-7-and-iis-8/_static/image20.png)  
     **Figure 9: Configuration History Default Path**
 2. Double-click the history folder and locate the most recent change.  
@@ -117,7 +117,7 @@ Metabase history was a file-based, rather than directory-based, like the IIS 7.0
 
 ### Summary
 
-In this task, we took a few steps toward understanding how the IIS configuration history feature works. First, we made changes to ApplicationHost.config, triggering the Application Host Helper Service to create a copy at the next scheduled period. Further, we located the copy and validated that we successfully created the copy in %systemdrive%\inetpub\history.
+In this task, we took a few steps toward understanding how the IIS configuration history feature works. First, we made changes to ApplicationHost.config, triggering the Application Host Helper Service to create a copy at the next scheduled period. Further, we located the copy and validated that we successfully created the copy in `%systemdrive%\inetpub\history`.
 
 <a id="Modifying"></a>
 
@@ -130,7 +130,7 @@ In this task, use Notepad to modify this attribute to show the flexibility and s
 ### Step 1: Open applicationHost.config
 
 1. Click **Start**, click **Run**, and in the **Open:** dialog box, type notepad and Click **OK**.
-2. **Click** File, then **Open**, and in the **File name:** dialog box, type %windir%\system32\inetsrv\config\applicationHost.config and **Click** Open.
+2. **Click** File, then **Open**, and in the **File name:** dialog box, type `%windir%\system32\inetsrv\config\applicationHost.config` and **Click** Open.
 
 The next step is to add the configuration section, and then add the attribute with value.
 
@@ -172,7 +172,7 @@ After completing, the configHistory section looks like the following:
     [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample5.cmd)]
 
     This script makes calls to modify the configuration of IIS every 15 seconds. This is enough time for the configuration history to check for changes and create a backup. After completing this, we see a multitude of configuration backups in our backup directory.
-4. Next, open the default path for the configHistory by clicking **Start**, then **Run**, and typing %systemdrive%\inetpub\history
+4. Next, open the default path for the configHistory by clicking **Start**, then **Run**, and typing `%systemdrive%\inetpub\history`
 5. You see a backup folder such as CFGHISTORY\_0000001, CFGHISTORY\_0000002, and so on.
 
 After running this script, notice how this feature pushes the oldest out when hitting the maximum (i.e. maxHistories.) In our case, after reaching CFGHISTORY\_0000000015, the oldest item was deleted before creating the sixteenth directory.
@@ -190,7 +190,7 @@ In this task, we modified the maxHistories and period attributes for configHisto
 
 ## Task 4: Changing the Default Path for Saving configHistory Backups
 
-The number of history directories and associated files stored by IIS is configurable to be flexible depending on the environment. For many cases, storing the history files on the system path (i.e. %systemdrive%inetpub\history) is not desirable. Unlike history in IIS 6.0, which had no configurable mechanism for configuration history, the IIS 7.0 and above configuration history now offers the ability to change where IIS stores the history directories and files.
+The number of history directories and associated files stored by IIS is configurable to be flexible depending on the environment. For many cases, storing the history files on the system path (i.e. `%systemdrive%inetpub\history`) is not desirable. Unlike history in IIS 6.0, which had no configurable mechanism for configuration history, the IIS 7.0 and above configuration history now offers the ability to change where IIS stores the history directories and files.
 
 We use in this task a method to modify the configuration--in this case, the IIS command-line interface. The goal of this task is not only to learn about changing the path for configuration history directories, but also to become familiar with AppCmd.exe, the IIS command-line interface to configuration and runtime data.
 
@@ -215,7 +215,7 @@ This step is required because no directory is automatically created if it does n
 
     [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample7.cmd)]
 
-At this point, change the value for the path attribute to a value that is more appropriate in your environment. In this case, change it to a custom directory on the system partition – the %systemdrive%\MyWebHistory directory.
+At this point, change the value for the path attribute to a value that is more appropriate in your environment. In this case, change it to a custom directory on the system partition – the `%systemdrive%\MyWebHistory` directory.
 
 > [!NOTE]
 > Often you must move this data to a separate partition, or better, to a drive on a different controller, such as D:\, etc. Change the path value using AppCmd: -
@@ -231,7 +231,7 @@ At this point, change the value for the path attribute to a value that is more a
     [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample9.cmd)]
 
     This command help you understand what the currently set attributes and values are on our system.
-2. Now issue the following command to change the path attribute from the default of %systemdrive%inetpub\history to %systemdrive%MyWebHistory – 
+2. Now issue the following command to change the path attribute from the default of `%systemdrive%inetpub\history` to `%systemdrive%MyWebHistory` – 
 
     [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample10.cmd)]
 3. To validate the change, type the following and verify that maxHistories and period are set appropriately.
@@ -252,11 +252,11 @@ Last, we will produce changes to the configuration causing a backup to be trigge
 
 [!code-console[Main](using-configuration-history-with-iis-7-and-iis-8/samples/sample12.cmd)]
 
-If you check %systemdrive%\MyWebHistory, you see several directories with folder names similar to CFGHISTORY\_0000001, 2, and so on.
+If you check `%systemdrive%\MyWebHistory`, you see several directories with folder names similar to CFGHISTORY\_0000001, 2, and so on.
 
 ### Summary
 
-It is standard practice to move important, volatile data off the server system partition (%systemdrive% by default) to other partitions or drives. In this task, you successfully changed the target location for the IIS configuration history directories.
+It is standard practice to move important, volatile data off the server system partition (`%systemdrive%` by default) to other partitions or drives. In this task, you successfully changed the target location for the IIS configuration history directories.
 
 <a id="Restoring"></a>
 
@@ -267,7 +267,7 @@ It is not useful to have a history feature without offering a method for restori
 ### Step 1: List the available backups
 
 1. Click **Start**, **Run**, and type **CMD** and Click **OK**.
-2. Change to the inetsrv directory using the following command: cd %windir%\system32\inetsrv.
+2. Change to the inetsrv directory using the following command: `cd %windir%\system32\inetsrv`.
 3. To get the currently configured path for the configHistory section, type the following:
 
 

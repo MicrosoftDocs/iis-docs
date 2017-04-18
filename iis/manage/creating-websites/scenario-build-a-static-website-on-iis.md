@@ -101,7 +101,7 @@ This step tells you how to add a website to IIS by using the IIS Manager UI, or 
 
 Use the following syntax at an elevated command prompt or in a script:
 
-Note: For this syntax to work, you either must be in the following directory, or have the directory in your path: *%windir%\system32\inetsrv*
+Note: For this syntax to work, you either must be in the following directory, or have the directory in your path: `%windir%\system32\inetsrv`
 
 `appcmd add site /name:`*string* `/id:`*uint* `/physicalPath:`*string* `/bindings:`*string*
 
