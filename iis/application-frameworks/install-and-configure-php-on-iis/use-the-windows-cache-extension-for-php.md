@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/01/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 22a3d794-4052-4af9-ac04-43130bac2f35
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/use-the-windows-cache-extension-for-php

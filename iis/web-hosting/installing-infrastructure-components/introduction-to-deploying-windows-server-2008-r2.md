@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/12/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 153f2926-e078-4aa4-96a7-cb6f70bdb156
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/introduction-to-deploying-windows-server-2008-r2

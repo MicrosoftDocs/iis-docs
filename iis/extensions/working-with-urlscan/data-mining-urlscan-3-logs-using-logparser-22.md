@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/22/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 92f717d4-cf5a-4ba9-9e49-6d0062849958
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/working-with-urlscan/data-mining-urlscan-3-logs-using-logparser-22

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/18/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: f4b67492-0c6c-42b3-afa5-2963f9b25c98
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/advanced-poll-on-iis

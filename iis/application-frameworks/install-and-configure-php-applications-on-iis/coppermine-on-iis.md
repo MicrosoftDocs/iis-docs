@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/18/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4a6fdd0f-12c2-4a7d-8b8e-f8af5e0c0370
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/coppermine-on-iis

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6b1688f9-8478-49d1-8535-c3a032b94bd7
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-native-code-c-to-create-a-simple-ftp-home-directory-provider

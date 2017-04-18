@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/19/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: f44f9a33-1e49-4b41-a6e4-36822b742c8e
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/hyper-v-guides

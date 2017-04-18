@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/02/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 5097d6a0-2a9b-4782-a56f-b130a923f943
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/configure-3-tier-deployment-architecture-using-application-request-routing

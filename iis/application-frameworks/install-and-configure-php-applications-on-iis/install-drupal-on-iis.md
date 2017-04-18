@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/19/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: abceda1a-91b8-4d9d-820d-0dfc0128771a
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-drupal-on-iis

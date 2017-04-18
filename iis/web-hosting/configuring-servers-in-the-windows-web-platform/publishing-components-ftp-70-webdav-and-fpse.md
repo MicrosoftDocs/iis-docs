@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/30/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: f072b071-96e7-4628-966c-0c923efba170
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/publishing-components-ftp-70-webdav-and-fpse

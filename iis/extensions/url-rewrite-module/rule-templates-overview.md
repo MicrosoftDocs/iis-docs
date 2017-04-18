@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/10/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1cd83eb9-9b27-4f98-aba7-83b36390be8e
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/rule-templates-overview

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/17/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7f6dd0dd-96ba-4258-994c-ed58a0a73b14
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/verifying-the-deployment/verifying-remote-administration

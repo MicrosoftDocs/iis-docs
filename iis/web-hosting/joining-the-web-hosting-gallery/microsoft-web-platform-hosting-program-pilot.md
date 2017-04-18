@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: b9579222-51b6-4479-938c-732de2f491f9
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/microsoft-web-platform-hosting-program-pilot

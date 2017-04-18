@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 9a2a5b56-7848-4dc1-ad0a-faf1d35132cb
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/web-platform-installer/web-platform-installer-resources

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 038c309a-e1be-4bb1-871a-aa40e370c391
 ms.technology: iis-troubleshoot
 ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/performance-issues/troubleshooting-high-cpu-in-an-iis-7x-application-pool

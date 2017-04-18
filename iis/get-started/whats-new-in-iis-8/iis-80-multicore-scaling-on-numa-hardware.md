@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/29/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: df9d0267-fe2f-4d5c-a549-c3e7942f7296
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-multicore-scaling-on-numa-hardware

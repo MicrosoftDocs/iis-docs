@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/24/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: b4fdece1-389e-4093-bf6d-29e3b1ae3d6b
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/iis-features-and-vista-editions

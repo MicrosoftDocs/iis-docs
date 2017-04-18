@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7f4d0efd-48da-47d5-a6c4-9d3750bc38e9
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/an-introduction-to-windows-powershell-and-iis

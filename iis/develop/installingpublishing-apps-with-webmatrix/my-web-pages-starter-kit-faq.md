@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 65103c7d-909c-44fb-aa6e-934d2d97c67b
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/my-web-pages-starter-kit-faq

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/16/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 907f1ac8-e23e-4352-9683-a1a19af327f5
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/getting-started-with-iis/getting-started-with-the-iis-manager-in-iis-7-and-iis-8

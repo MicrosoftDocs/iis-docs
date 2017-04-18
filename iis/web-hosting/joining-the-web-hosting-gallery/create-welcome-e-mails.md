@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/03/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4b3b0288-37bf-44cd-9fc2-47b83ebe8ebc
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/create-welcome-e-mails

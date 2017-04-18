@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: fe44b363-6fef-4a09-b3b2-dbb0bc5c4b64
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-for-security/build-a-custom-iis-server

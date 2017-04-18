@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/05/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: fbc129f2-6935-4c72-a36e-be2a7e3ceff7
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/how-to-capture-aspnet-page-trace-events-in-iis-tracing

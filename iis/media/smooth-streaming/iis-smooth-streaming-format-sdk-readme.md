@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/23/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 52d02cba-d167-41fe-8a43-b7689d899f11
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/iis-smooth-streaming-format-sdk-readme

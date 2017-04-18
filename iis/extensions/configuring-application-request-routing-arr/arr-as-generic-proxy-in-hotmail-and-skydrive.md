@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/25/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: c3955f19-2e00-41a6-90d8-d9c5414525d6
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/arr-as-generic-proxy-in-hotmail-and-skydrive

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/22/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: d3e70ab0-0ce8-4a26-b017-e35de034f6d8
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 03d91b1a-9581-43bc-b960-7a66c18da397
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/umbraco-cms-faq

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 58bc054e-ca8e-49e1-97ca-e5c56c327327
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/dasblog-faq

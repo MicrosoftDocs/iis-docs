@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/28/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 07003dd0-3e50-4978-91a4-10bcffa4a6b8
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/provisioining-sql-2005-resources

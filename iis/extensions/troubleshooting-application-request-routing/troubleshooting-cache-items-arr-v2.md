@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/09/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: b0d9230c-a4dd-478b-97d6-dea3f2e6bcdd
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/troubleshooting-application-request-routing/troubleshooting-cache-items-arr-v2

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/19/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7c7ceaf8-b6a2-4285-8f7b-7ac58db5c0f3
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/using-failed-request-tracing-to-troubleshoot-classic-asp-errors

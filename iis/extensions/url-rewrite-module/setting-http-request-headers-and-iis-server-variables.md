@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/24/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1f409729-be56-43d6-87c7-a83cd7f7f1a2
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/setting-http-request-headers-and-iis-server-variables

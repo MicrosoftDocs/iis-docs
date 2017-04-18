@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0327dacb-9010-4179-b0ae-4dd33d07d370
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/database-manager-for-hosters

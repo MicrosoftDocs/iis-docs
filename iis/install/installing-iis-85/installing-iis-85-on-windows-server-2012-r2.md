@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/09/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0bdb99f5-43ee-4784-b7f4-d4f52b1949ad
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2

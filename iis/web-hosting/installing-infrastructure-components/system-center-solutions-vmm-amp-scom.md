@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/17/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 37166fa3-1b6b-48f2-9e15-8e9c1e0904bf
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/system-center-solutions-vmm-amp-scom

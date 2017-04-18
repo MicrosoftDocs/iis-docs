@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/13/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8539d91b-9d0c-4150-99f8-c320ca35454e
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/using-shared-hosting-environments/setting-up-delegated-administration-server-and-client-experiences

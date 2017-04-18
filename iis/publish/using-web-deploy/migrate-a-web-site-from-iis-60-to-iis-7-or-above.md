@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/23/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: d1dc9de0-b74e-4f1d-bb22-b259574d9387
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/migrate-a-web-site-from-iis-60-to-iis-7-or-above

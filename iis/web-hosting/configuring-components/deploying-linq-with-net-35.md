@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/02/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3c27cc93-a917-4764-a631-c541df21f852
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-components/deploying-linq-with-net-35

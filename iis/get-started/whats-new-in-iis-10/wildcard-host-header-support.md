@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/01/2015
 ms.topic: article
-ms.assetid: 
+ms.assetid: a4abd2b0-45b6-4dba-91c1-8c4c168ff24f
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/wildcard-host-header-support

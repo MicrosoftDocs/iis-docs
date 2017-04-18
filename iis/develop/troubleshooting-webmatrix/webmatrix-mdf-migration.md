@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/06/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4e53bfb5-2e62-4e7e-a2a9-b342f9b35594
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/webmatrix-mdf-migration

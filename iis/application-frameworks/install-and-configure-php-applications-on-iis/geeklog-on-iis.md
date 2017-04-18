@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/18/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: a65396b9-8c0d-4a8d-8ba0-518b1c3be28e
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/geeklog-on-iis

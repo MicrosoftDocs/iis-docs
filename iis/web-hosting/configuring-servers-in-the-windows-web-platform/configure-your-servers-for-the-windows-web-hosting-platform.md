@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 08/24/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1b984754-3cc1-4352-8d2f-7de6df40b10b
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/configure-your-servers-for-the-windows-web-hosting-platform

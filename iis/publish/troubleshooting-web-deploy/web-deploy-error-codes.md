@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/12/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0302eecb-0dcb-47ee-bde2-939b175980b8
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/troubleshooting-web-deploy/web-deploy-error-codes

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 350666dd-59df-4988-9b6c-8fcf6c508e2c
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/provisioning-options-in-iis-7

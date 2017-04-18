@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 962ccf05-344c-4435-9518-a9bd1e57f4bb
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/net-questions

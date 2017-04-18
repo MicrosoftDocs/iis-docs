@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/02/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: a5d3b0ff-8c95-4dd8-ad79-67ed492018c8
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/planning-for-arr/overview-of-shared-hosting-deployment-using-application-request-routing-20

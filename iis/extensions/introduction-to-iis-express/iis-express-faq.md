@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/06/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: a08df534-1da7-4dbe-8392-0d2630116174
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/introduction-to-iis-express/iis-express-faq

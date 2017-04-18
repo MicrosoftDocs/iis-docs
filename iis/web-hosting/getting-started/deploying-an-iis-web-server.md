@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/11/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1ee17b5a-2bae-4f1d-8581-43beea248ec1
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/getting-started/deploying-an-iis-web-server

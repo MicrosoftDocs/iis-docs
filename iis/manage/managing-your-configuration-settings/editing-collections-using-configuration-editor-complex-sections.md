@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/20/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: eb9a0bbe-a65e-483f-8951-5a4618133ba3
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/editing-collections-using-configuration-editor-complex-sections

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/24/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 36f84fbe-8f07-4edc-b7dd-14d256e2edd5
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/chaining-the-robocopy-task-to-your-transformed-output
@@ -102,6 +102,6 @@ For example, to configure the task to retry 5 times and wait for 1 minute betwee
 >     - If the watch folder was running jobs and you click **Stop** to stop the watch folder, the currently running jobs will finish before the watch folder stops. Queued jobs won't be submitted for processing.
 >     - If you want to apply the changes to currently running and queued jobs, you must cancel these jobs, restart the watch folder, and then drop the original media sources in the watch folder again so that they can be processed with the updated settings. For more information about how to manage jobs in watch folders, see Running and Monitoring Jobs.
 > - If you used the Robocopy task to copy transformed output from a preceding task to a Smooth Streaming website, see [Delivering Transform Manager Output to Clients](delivering-transform-manager-output-to-clients.md) to learn how to create a webpage that Silverlight clients can use to play Smooth Streams, or an HTML5 webpage that clients on Apple mobile digital devices can use to play Apple HTTP Live Streams.
->   
->   
-> [Discuss in IIS Forums](https://forums.iis.net/1145.aspx)
+
+
+[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/03/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6ffc7560-2292-4d2e-989a-adf635113d57
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/iis-search-engine-optimization-toolkit/understanding-site-analysis-reports

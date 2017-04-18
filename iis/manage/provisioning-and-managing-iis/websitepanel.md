@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/09/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 87bbe31c-f415-4c1a-b29d-5f87bf7c8ac6
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/websitepanel

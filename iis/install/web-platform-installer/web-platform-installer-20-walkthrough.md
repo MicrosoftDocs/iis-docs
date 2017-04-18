@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/09/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 033c92fb-3c1e-403c-8a96-0f4fed1369cb
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/web-platform-installer/web-platform-installer-20-walkthrough

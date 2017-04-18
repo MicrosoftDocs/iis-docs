@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/18/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 788066e2-c44d-4cea-b1fc-6ae6cab25454
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-wordpress-on-iis

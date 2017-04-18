@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/24/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: af9b2fb0-66ef-412a-8553-d29d62693ec3
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/runtime-extensibility/extending-web-server-functionality-in-net

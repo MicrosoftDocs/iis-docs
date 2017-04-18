@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/10/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: ed62768b-14c3-410d-9466-094e806e2348
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/apple-http-live-streaming-with-iis-media-services

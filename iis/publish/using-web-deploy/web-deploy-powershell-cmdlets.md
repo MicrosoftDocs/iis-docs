@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/19/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6dae383f-e79d-44f8-a63b-4695c28eec03
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/web-deploy-powershell-cmdlets

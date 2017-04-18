@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/20/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 35082892-5d98-4c19-bae8-22dc2414d9ef
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/creating-and-managing-live-smooth-streaming-publishing-points

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/16/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6b107283-291a-472f-8880-845d34cf5dab
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-outbound-rules-to-add-web-analytics-tracking-code

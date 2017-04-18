@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/07/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1c4381ba-9a99-4a0c-8f4f-6bd2a68efe4f
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/synchronize-iis

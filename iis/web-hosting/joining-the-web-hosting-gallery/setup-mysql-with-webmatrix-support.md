@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/03/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 29f4c760-525f-4c61-9e06-ab37014a7dc8
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/setup-mysql-with-webmatrix-support

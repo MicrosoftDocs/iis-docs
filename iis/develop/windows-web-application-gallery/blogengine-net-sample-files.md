@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/09/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1f41da75-1fde-433e-af1e-d29f8b187478
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/blogengine-net-sample-files

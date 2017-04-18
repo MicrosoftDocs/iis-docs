@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/08/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 45ffafee-6469-4be7-a648-da15d8ece438
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/getting-started/shared-hosting-content-map

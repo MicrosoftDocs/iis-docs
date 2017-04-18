@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0f1cf53c-5496-4b44-a80e-c7e513f23aaf
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/database-manager/use-the-database-manager

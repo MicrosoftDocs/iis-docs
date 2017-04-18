@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/13/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1055a94a-65ed-4cd7-ba58-c62d21128d3e
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/demonstration-of-shared-hosting-deployment-with-arr

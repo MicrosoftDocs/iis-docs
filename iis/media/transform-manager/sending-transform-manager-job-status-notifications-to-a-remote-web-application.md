@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/13/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 96de6fb0-96df-4f9f-bcdf-1c8ac58841c5
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/sending-transform-manager-job-status-notifications-to-a-remote-web-application

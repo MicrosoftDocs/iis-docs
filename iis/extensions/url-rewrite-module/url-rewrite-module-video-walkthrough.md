@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/19/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3c5fdd57-4b7a-4070-b58f-c775876815b4
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/url-rewrite-module-video-walkthrough

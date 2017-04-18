@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/29/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: e89cbaed-89c2-4fc5-bccb-c70f19f2761b
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/configure-the-web-deployment-handler

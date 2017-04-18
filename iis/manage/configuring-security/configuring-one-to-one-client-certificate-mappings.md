@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/05/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: b96eb6d7-f06c-4e1a-b2e4-4c37448e90e2
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/configuring-one-to-one-client-certificate-mappings

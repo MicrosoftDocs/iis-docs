@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/29/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2d660303-2c37-4535-8df9-515ce1d1b874
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/export-a-package-through-iis-manager

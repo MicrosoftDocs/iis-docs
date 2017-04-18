@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/05/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 044c461d-2c2d-4b10-9dab-573ac30d6802
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/ftp-extension-video-walkthrough

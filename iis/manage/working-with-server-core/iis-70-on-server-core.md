@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/16/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: f7b99d1e-868f-4bb7-8968-a93550f248f2
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/working-with-server-core/iis-70-on-server-core

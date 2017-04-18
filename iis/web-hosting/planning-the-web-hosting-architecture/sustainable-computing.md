@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/17/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: bccee04f-7e74-44af-92c1-cabf651f132f
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/planning-the-web-hosting-architecture/sustainable-computing

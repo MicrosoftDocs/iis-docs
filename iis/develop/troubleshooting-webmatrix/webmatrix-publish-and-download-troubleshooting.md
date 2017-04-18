@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/06/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 681f566a-7879-4df4-b3ae-6c4b825b82d2
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/webmatrix-publish-and-download-troubleshooting

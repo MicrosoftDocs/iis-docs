@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/11/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7ecaa7ab-e6d1-4b8b-8d74-6296e45b0d2d
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/microsoft-webmatrix-my-documents-on-network-shares

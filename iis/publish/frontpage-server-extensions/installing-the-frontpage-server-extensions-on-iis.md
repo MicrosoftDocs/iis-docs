@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8a9cf401-464f-4f0c-a4a2-22346a2faa23
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/frontpage-server-extensions/installing-the-frontpage-server-extensions-on-iis

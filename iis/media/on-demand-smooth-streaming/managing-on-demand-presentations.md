@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/23/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3faeeec3-76c2-4123-8758-93a9a1e8b30c
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/on-demand-smooth-streaming/managing-on-demand-presentations

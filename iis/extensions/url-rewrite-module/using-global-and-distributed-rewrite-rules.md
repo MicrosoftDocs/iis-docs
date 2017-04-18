@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/30/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 417ee70e-8dfd-4723-828d-ba144c8af739
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-global-and-distributed-rewrite-rules

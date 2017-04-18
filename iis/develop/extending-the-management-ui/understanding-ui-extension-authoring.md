@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/21/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 65a11a66-0246-4aa9-b532-a7832ab46401
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/extending-the-management-ui/understanding-ui-extension-authoring

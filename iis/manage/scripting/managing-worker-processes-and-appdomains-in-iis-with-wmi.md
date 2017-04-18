@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7fc41638-2270-4bbe-b8e3-a73cd7dd4641
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/scripting/managing-worker-processes-and-appdomains-in-iis-with-wmi

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/18/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1f1fa413-7296-46eb-8ff3-4bc335185776
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-webdav/how-to-migrate-fpse-sites-to-webdav

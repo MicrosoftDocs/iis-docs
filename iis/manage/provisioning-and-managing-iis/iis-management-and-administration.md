@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 50d4d6c3-200e-46bd-b080-666e3cab3fea
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/iis-management-and-administration

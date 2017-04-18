@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/08/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: e7587892-9223-4ab5-8b65-16a43b12d841
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/protected-interoperable-file-format

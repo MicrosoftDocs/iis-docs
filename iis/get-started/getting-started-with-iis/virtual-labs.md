@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/06/2014
 ms.topic: article
-ms.assetid: 
+ms.assetid: b1ba7b86-deb5-4614-9097-94a9c403ab66
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/getting-started-with-iis/virtual-labs

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/23/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6286e9ba-70b1-43ac-b0a4-d4750d98e5c1
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/runtime-extensibility/developing-iis-modules-and-handlers-with-the-net-framework

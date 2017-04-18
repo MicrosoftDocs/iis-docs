@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/14/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 46ae3bb1-3a75-4747-a646-6185b80a99e4
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/installing-the-iis-powershell-snap-in

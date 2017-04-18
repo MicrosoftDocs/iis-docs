@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/25/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: a7def7a2-f490-4a82-a19d-0868d93dd3b1
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/encrypting-on-demand-smooth-streams

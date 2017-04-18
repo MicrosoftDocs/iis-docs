@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/10/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4bf722a8-f6ee-4a3c-b92e-a86a115b43d5
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/live-smooth-streaming-tutorial-introduction

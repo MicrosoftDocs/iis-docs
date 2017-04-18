@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/11/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 5de2e3e1-779a-40cf-a346-ae62f3c7d3ef
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/using-iis-express/running-iis-express-without-administrative-privileges

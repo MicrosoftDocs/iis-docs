@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: b0c1dfad-6256-4c38-969d-88e5e4d2855a
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-your-iis-architecture/getting-started-with-configuration-in-iis-7-and-above

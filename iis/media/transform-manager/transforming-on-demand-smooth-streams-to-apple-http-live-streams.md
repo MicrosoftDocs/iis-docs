@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/24/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8e1ad197-b235-4866-8490-510caa2be43e
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/transforming-on-demand-smooth-streams-to-apple-http-live-streams

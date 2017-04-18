@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/14/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 215550c6-5de1-4c50-8923-03c66d448987
 ms.technology: iis-troubleshoot
 ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/remote-administration-issues/diagnosing-failures-with-remote-administration

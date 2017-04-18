@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/24/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: dc56d2a3-5097-4c93-977a-6e13f4caec76
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/runtime-extensibility/an-end-to-end-extensibility-example-for-iis-developers

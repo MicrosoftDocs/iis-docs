@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/18/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 24dcd427-0585-4afd-aa79-298f63a0d7f9
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/issues-with-sql-server-express-or-mysql-when-using-webmatrix-or-webpi_1298

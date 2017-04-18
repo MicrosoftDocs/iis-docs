@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/24/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: de0abdfd-dc95-4148-9233-985df6757847
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/streaming-media-conference-workshops/live-broadcasting-with-silverlight-and-windows-media-streaming-media-west-2009

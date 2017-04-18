@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/13/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2fc074bf-34cc-4c09-a607-f5d70d4eff4e
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-hardware-load-balancer

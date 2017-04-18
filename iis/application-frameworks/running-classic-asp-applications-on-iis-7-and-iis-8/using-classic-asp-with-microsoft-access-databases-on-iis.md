@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/19/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1edd05ef-e45c-4e79-ab3b-e29f668c7483
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/using-classic-asp-with-microsoft-access-databases-on-iis

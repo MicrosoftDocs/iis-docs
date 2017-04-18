@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/02/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 486dbbbc-ebcf-42b6-9e91-7707751c85a3
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/building-workflows-with-web-farm-framework-20-for-iis

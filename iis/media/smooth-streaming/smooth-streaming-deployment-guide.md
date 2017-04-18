@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/08/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 973bda81-4e3c-41ba-a1f2-1d594dd45309
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/smooth-streaming-deployment-guide

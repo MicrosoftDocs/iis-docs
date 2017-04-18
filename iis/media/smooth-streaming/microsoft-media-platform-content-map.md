@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/09/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2ab40450-4c0d-408b-bc62-73cf9f3fdbed
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/microsoft-media-platform-content-map

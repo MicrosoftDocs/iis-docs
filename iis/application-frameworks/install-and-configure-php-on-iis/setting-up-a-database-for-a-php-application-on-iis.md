@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/14/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: e307bd5a-a9da-4b89-ab4f-2e18acab3d55
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/setting-up-a-database-for-a-php-application-on-iis

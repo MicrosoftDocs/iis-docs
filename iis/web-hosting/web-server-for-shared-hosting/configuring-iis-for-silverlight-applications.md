@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/06/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: b4e289bd-faa9-4bd1-91d1-0fbab5a721ff
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/configuring-iis-for-silverlight-applications

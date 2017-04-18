@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/22/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 5cbadc78-6208-44ea-a71b-ec2bebd3e1a2
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/using-ftp-virtual-host-names-in-iis-7

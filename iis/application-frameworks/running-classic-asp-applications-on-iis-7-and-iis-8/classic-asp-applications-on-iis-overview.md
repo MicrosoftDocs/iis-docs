@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/04/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7f4e8f1d-56c4-4c6d-95be-b132cc3f6671
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/classic-asp-applications-on-iis-overview

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/14/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1585f0f4-af98-42f5-9e51-433aa1456be8
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/mediawiki-on-iis

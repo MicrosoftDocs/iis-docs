@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1f918a2e-868f-497c-941d-7281d7b8f2e1
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/creating-websites/select-a-provisioning-option

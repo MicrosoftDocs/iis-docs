@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/11/2014
 ms.topic: article
-ms.assetid: 
+ms.assetid: 69e33bd4-b543-404c-aeae-254e359e7709
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/creating-a-forward-proxy-using-application-request-routing

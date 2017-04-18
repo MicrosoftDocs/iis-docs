@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/16/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0b829117-69e4-4bea-80a4-3cd6787c6a50
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/configure-request-consolidation-feature-in-application-request-routing

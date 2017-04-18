@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/16/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3c63718d-6635-4846-9656-ea561ef01e63
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/frontpage-server-extensions/upgrade-issues-with-frontpage-server-extensions

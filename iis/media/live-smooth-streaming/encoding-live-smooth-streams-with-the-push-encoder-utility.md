@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 08/24/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0e8ac833-fe5a-43e3-80af-4f8674e6c276
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/encoding-live-smooth-streams-with-the-push-encoder-utility

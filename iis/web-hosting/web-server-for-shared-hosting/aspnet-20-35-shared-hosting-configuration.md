@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/30/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: cf9bd511-eb48-49e1-83bb-2848794cc7a4
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/aspnet-20-35-shared-hosting-configuration

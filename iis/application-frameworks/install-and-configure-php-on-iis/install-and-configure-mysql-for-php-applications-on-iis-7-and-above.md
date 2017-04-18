@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/14/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: c65623d5-5bf5-4bed-8dbc-87245bb621bc
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/install-and-configure-mysql-for-php-applications-on-iis-7-and-above

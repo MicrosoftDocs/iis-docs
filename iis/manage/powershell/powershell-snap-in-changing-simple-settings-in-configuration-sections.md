@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/14/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 02a930f1-b082-40c7-892f-0e0749e94de9
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-changing-simple-settings-in-configuration-sections

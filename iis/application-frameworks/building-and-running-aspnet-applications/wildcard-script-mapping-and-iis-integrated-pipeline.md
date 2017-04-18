@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/30/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: db6ba8ce-ca52-474a-96a0-909030784f86
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/wildcard-script-mapping-and-iis-integrated-pipeline

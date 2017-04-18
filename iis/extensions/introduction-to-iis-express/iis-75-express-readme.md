@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/26/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0bf2cd97-4f8d-4b4e-b291-1d9256032a3b
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/introduction-to-iis-express/iis-75-express-readme

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/05/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: b4cafb64-1175-4abd-ba6c-9bb5e0c472e9
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-webdav/webdav-extension-video-walkthrough

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/28/2014
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4f3eb821-77e9-42cf-bc69-5aa759f45d28
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-webdav/using-the-webdav-redirector

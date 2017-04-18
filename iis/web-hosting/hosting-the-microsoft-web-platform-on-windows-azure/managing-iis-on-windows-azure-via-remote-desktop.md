@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/29/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 815f95c5-2219-4ad3-9dee-14afd15adc5d
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-windows-azure/managing-iis-on-windows-azure-via-remote-desktop

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6dc63ae4-06dc-44b9-9504-580130a44c46
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/database-manager/working-with-stored-procedures

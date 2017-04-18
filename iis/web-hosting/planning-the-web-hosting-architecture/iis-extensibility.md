@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/19/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: a7ab8af9-5213-46db-a98b-f94cc98e495e
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/planning-the-web-hosting-architecture/iis-extensibility

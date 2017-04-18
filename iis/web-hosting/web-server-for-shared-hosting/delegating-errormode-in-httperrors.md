@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/19/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 716f3d38-a524-4ae4-b059-120f225a6458
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/delegating-errormode-in-httperrors

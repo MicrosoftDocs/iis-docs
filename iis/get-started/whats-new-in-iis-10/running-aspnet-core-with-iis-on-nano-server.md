@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/16/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8987c573-9b1e-414d-a8a5-3e6313340db7
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/running-aspnet-core-with-iis-on-nano-server

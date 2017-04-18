@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: bc52610c-38d1-425f-83ed-78e2e99ae33a
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/scripting/how-to-use-microsoftwebadministration

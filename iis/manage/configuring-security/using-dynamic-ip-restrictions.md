@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/16/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: a6881b7d-4080-440c-ab71-cb274ac6f128
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/using-dynamic-ip-restrictions

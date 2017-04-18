@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/17/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: f8593a22-c829-4cb3-b471-a6d2823aab5e
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/microsoft-web-platform-installer-20

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: cf9e7b8e-a97b-42f7-823b-a8bdff7afbc2
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/enable-php-syntax-highlighting-on-iis-7-and-above

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/14/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 375c1a34-4245-46de-a700-13def000bfc4
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-webdav/how-to-configure-webdav-settings-using-appcmd

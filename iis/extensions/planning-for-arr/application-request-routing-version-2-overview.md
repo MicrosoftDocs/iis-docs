@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: e3c34cfb-604c-4ef2-bf05-0ac975f9eeab
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/planning-for-arr/application-request-routing-version-2-overview
@@ -76,7 +76,7 @@ The following articles explain how to install and configure ARR Version 2. **It 
 - **[Configure Caching with Query String Support](../configuring-application-request-routing-arr/configure-caching-with-query-string-support-in-application-request-routing.md) in Application Request Routing**
 - **How to define** [cache hierarchy](../configuring-application-request-routing-arr/cache-hierarchy-management-using-application-request-routing.md) for ARR. &mdash; Explains how the cache relationship is managed in ARR.
 - **Configure [ARR as cache nodes in CDN/ECN](../installing-application-request-routing-arr/deploying-application-request-routing-in-cdn.md)** &mdash; Steps through how ARR can be deployed as an edge/child cache node as well as a parent cache node.
-- **[Browse cached contents](../configuring-application-request-routing-arr/browse-cached-contents-on-disk-on-application-request-routing.md)** on disk. &mdash; View cached contents using IIS Manager across multiple primary cache drives.
+- **[Browse cached contents](../configuring-application-request-routing-arr/browse-cached-contents-on-disk-on-application-request-routing.md) on disk.** &mdash; View cached contents using IIS Manager across multiple primary cache drives.
 - [**Remove cached contents**](../configuring-application-request-routing-arr/delete-cached-objects.md) **from ARR.** &mdash; Delete one or more cached contents while browsing or by matching URL patterns.
 - Running Scavenger.exe to delete cached content in the secondary drive as a [standalone](../configuring-application-request-routing-arr/use-scavengeexe-tool-to-delete-cached-content-from-secondary-cache-drive.md) utility.
 - [**Override cache-control directives**](../configuring-application-request-routing-arr/manually-override-cache-control-directives-using-application-request-routing.md) **in an HTTP response.** &mdash; Control what to cache or for how long to cache, irrespective of cache-control directives.

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 05/24/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: c82a9677-7f48-4cd0-ba2d-d2a2086b489d
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/transforming-media-files-to-apple-http-live-streams

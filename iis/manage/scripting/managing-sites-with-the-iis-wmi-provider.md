@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: b5e21e97-c157-447a-b1d9-96e6e7799392
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/scripting/managing-sites-with-the-iis-wmi-provider

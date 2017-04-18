@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/23/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: be6859fb-c6bb-4390-af19-18fcdc5f8bc3
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/bit-rate-throttling/bit-rate-throttling-extensibility-walkthrough

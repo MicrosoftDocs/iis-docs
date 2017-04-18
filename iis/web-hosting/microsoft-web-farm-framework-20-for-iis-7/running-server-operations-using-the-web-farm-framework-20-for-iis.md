@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/21/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: a4a66430-9c15-4795-a4c4-6a09f7bc9be3
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/running-server-operations-using-the-web-farm-framework-20-for-iis

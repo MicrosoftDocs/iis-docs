@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/03/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 5369bd7a-f788-4128-b448-508557be3d3e
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files

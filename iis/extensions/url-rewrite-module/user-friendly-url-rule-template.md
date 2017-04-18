@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/11/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: b78078fb-e762-4256-84eb-6d564f6475e0
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/user-friendly-url-rule-template

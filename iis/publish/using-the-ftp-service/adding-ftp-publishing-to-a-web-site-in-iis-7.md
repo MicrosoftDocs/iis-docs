@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/15/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 79091683-bda2-412e-9bd4-e2a148b0f343
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/adding-ftp-publishing-to-a-web-site-in-iis-7

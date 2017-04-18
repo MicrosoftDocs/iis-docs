@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/19/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 39459850-55e5-4abd-94ea-c01507907f6f
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/advanced-logging-module/advanced-logging-for-iis-client-logging

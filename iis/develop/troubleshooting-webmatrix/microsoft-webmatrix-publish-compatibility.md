@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/11/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: a0133dfc-265b-42b7-adc4-4f92421e2a8a
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/microsoft-webmatrix-publish-compatibility

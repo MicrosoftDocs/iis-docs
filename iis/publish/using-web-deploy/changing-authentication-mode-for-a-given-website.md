@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/26/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: e8edd332-702e-4de9-b839-28ff2ddf0739
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/changing-authentication-mode-for-a-given-website

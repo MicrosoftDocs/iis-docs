@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/30/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4df497d3-fdfc-4772-ae97-579f9aef1fc5
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-sends-an-email-when-files-are-uploaded

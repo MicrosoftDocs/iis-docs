@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/11/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8e6e3caf-c2a3-4bca-9879-229c3846c126
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/microsoft-webmatrix-certificate-errors-during-publishing

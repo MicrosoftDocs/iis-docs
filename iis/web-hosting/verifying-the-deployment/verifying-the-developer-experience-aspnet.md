@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2f417b96-4bdb-49c5-895a-5cb474a0863a
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/verifying-the-deployment/verifying-the-developer-experience-aspnet

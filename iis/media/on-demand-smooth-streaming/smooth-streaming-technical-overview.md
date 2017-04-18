@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/31/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 9e385533-cfb9-4e0a-a205-cd4bc9ff51aa
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/on-demand-smooth-streaming/smooth-streaming-technical-overview

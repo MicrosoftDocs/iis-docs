@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/06/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 389e9686-66fe-4839-b0c2-996388126023
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/consuming-the-services

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/05/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 21d4abf1-ed80-4c74-886b-509e9186801f
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/configuring-the-fastcgi-extension-for-iis-60

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/16/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 76946c02-3b19-43ad-b13d-3b914ab11c54
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/how-to-create-an-app-package-supporting-both-sql-server-and-mysql

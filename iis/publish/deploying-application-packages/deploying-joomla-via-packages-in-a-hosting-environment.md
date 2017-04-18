@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/10/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7816c14c-a519-4fd4-8313-1cbb0baea7f8
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/deploying-joomla-via-packages-in-a-hosting-environment

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/09/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: aae75692-8895-45f2-b3d4-027e22295a5a
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/configuring-ftp-with-net-membership-authentication-in-iis-7

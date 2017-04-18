@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/22/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: a0831f7f-21b0-4bbf-b29f-ec8c70b204d5
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/dns-server

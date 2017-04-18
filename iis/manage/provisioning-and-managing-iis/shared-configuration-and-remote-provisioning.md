@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/13/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4408306d-79cf-4666-87fe-a6bef6d05b68
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/shared-configuration-and-remote-provisioning

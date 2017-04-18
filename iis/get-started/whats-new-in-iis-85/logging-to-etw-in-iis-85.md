@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/11/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8f9a9d6b-d156-479e-8985-35c4c1b8c0ce
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-85/logging-to-etw-in-iis-85

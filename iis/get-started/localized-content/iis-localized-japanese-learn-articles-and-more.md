@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/12/2010
 ms.topic: article
-ms.assetid: 
+ms.assetid: 44acbe17-7840-4685-8aef-28906c32777d
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/localized-content/iis-localized-japanese-learn-articles-and-more

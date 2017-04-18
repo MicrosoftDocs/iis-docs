@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/13/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: d3e2c604-161e-4006-bd70-61860c9c4114
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/using-shared-hosting-environments/using-delegated-administration

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/14/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: d36d6d4f-c099-46a0-a869-18b01ed0e008
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-using-the-powershell-help-system

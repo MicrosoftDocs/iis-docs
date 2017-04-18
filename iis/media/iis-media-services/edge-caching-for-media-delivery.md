@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 81855ddc-e120-43e0-b2f4-8ac265261fec
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/iis-media-services/edge-caching-for-media-delivery

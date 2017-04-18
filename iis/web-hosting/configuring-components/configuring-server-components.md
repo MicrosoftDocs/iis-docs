@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/21/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 332d2652-c2be-4ec1-918d-72ce8c231bb8
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-components/configuring-server-components

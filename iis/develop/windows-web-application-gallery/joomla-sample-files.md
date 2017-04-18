@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/08/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: d9957c2a-8f3d-4a3b-b9e9-d42eabf54b7a
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/joomla-sample-files

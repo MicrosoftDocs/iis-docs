@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/15/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: b8afb8cb-304f-4e13-a40d-10424bea7a94
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/troubleshooting-live-smooth-streaming-events-in-event-viewer

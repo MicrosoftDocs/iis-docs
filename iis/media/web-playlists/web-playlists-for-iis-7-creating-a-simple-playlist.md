@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 02/27/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: b07830a3-2955-463e-a8b5-3ed8926f9a2f
 ms.technology: iis-media
 ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-7-creating-a-simple-playlist

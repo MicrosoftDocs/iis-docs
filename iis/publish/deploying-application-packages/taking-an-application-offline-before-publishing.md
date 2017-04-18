@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/26/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 116712ee-4e7c-4042-8c7d-12dccbff8254
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/taking-an-application-offline-before-publishing

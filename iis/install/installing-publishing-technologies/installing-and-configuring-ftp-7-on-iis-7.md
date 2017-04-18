@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 12/06/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1d813d22-e411-4a5a-a0f1-689421b498ae
 ms.technology: iis-install
 ms.prod: iis
 msc.legacyurl: /learn/install/installing-publishing-technologies/installing-and-configuring-ftp-7-on-iis-7

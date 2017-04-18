@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/23/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7ba4c586-84ea-4cf6-91bd-f6ff2e73757e
 ms.technology: iis-publish
 ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/packaging-and-restoring-a-web-site

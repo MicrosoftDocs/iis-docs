@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 446b9fd5-460a-4c7d-b13b-2964b682fa2d
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/introduction-to-iis/iis-modules-overview

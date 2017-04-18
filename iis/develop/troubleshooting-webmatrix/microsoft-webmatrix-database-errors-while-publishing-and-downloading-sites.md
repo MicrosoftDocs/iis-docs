@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/09/2011
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3498e1fb-f467-46f4-bf44-60e8e7615905
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/microsoft-webmatrix-database-errors-while-publishing-and-downloading-sites

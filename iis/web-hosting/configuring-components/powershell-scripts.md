@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/25/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 25568a97-1a8b-4569-a49b-20c752d83e07
 ms.technology: iis-hosting
 ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-components/powershell-scripts

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 01/17/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: c2cc7f6d-0cc3-4d4f-b081-51be1caa0eb6
 ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/phprojekt-on-iis

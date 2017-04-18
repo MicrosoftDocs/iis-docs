@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 04/13/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1262324d-f150-4a2f-9b5a-a439de7b718b
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/arr-support-added-for-winhttpoptionsecurityflags

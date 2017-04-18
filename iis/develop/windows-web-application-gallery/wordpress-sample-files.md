@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 03/07/2012
 ms.topic: article
-ms.assetid: 
+ms.assetid: 54c8b691-3b23-4af5-998e-93fc8484d262
 ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/wordpress-sample-files

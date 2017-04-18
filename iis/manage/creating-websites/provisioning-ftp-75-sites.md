@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 10/30/2007
 ms.topic: article
-ms.assetid: 
+ms.assetid: 4db62921-61fe-4dde-927c-e9c1a47d0321
 ms.technology: iis-manage
 ms.prod: iis
 msc.legacyurl: /learn/manage/creating-websites/provisioning-ftp-75-sites

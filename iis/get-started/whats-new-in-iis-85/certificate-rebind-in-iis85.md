@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 11/21/2013
 ms.topic: article
-ms.assetid: 
+ms.assetid: a3919320-bad9-42f0-a380-699734105449
 ms.technology: iis
 ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-85/certificate-rebind-in-iis85

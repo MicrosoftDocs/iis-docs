@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 06/29/2009
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0f5aacf1-07d3-4e11-b86b-c647beaeb6b2
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/database-manager/working-with-tables

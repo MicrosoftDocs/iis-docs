@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 07/02/2008
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7a5ef0c8-02c5-4595-8c82-3f284f4d6416
 ms.technology: iis-extensions
 ms.prod: iis
 msc.legacyurl: /learn/extensions/planning-for-arr/using-the-application-request-routing-module
