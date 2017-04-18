@@ -274,7 +274,7 @@ LogParser can be used as a starting point, because a system administrator who ha
 Here are the links which are referred to in this article, plus a few links with additional information.
 
 - **Microsoft LogParser**  
-    [http://www.bing.com/search?q=logparser](http://www.bing.com/search?q=logparser) or     [https://www.microsoft.com/en-us/download/details.aspx?id=24659](https://www.microsoft.com/en-us/download/details.aspx?id=24659)
+    [http://www.bing.com/search?q=logparser](http://www.bing.com/search?q=logparser) or [https://www.microsoft.com/en-us/download/details.aspx?id=24659](https://www.microsoft.com/en-us/download/details.aspx?id=24659)
 - **The HTTP status codes in IIS 7.0, IIS 7.5, and IIS 8.0**  
     [https://support.microsoft.com/kb/943891](https://support.microsoft.com/kb/943891)
 - **Modifying IIS 7 log data in Windows 2008**  

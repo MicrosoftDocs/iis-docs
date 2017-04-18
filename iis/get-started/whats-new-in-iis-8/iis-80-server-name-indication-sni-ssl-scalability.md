@@ -80,7 +80,7 @@ There are corner cases in which the IIS Manager may remove unintended SSL bindin
     [![](iis-80-server-name-indication-sni-ssl-scalability/_static/image13.png)](iis-80-server-name-indication-sni-ssl-scalability/_static/image11.png)
 7. Under the navigation pane, locate **Web Hosting** store:  
     ![](iis-80-server-name-indication-sni-ssl-scalability/_static/image15.png)  
- The     **Web Hosting** store works like the     **Personal** store, so all of the existing tools to import and export certificates work the same way. The key difference between     **Web Hosting** store and     **Personal** store is that     **Web Hosting** store is designed to scale to higher numbers of certificates.
+ The **Web Hosting** store works like the **Personal** store, so all of the existing tools to import and export certificates work the same way. The key difference between **Web Hosting** store and **Personal** store is that **Web Hosting** store is designed to scale to higher numbers of certificates.
 8. Import your sample certificates to the **Web Hosting** store.
 
 <a id="TOC301270284"></a>

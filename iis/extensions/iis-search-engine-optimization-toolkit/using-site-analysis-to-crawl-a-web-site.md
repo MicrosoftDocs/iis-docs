@@ -28,7 +28,7 @@ The first step in analyzing a Web site is to crawl all the resources and URLs th
     [![](using-site-analysis-to-crawl-a-web-site/_static/image4.png)](using-site-analysis-to-crawl-a-web-site/_static/image3.png)
 4. In the **New Analysis** dialog box, enter a name that will uniquely identify the analysis report. Also, enter the URL where the crawler should begin.  
     [![](using-site-analysis-to-crawl-a-web-site/_static/image6.png)](using-site-analysis-to-crawl-a-web-site/_static/image5.png)  
- Note that because the server node is selected in the     **Connections**  pane (we have not selected a specific Web site on the server), it is possible to crawl any Web site that is publicly accessible on the internet. Refer to the "    [Web Crawler Settings](using-site-analysis-to-crawl-a-web-site.md#Web_Crawler_Settings_) " section for more details about the "New Analysis" dialog box.
+ Note that because the server node is selected in the **Connections** pane (we have not selected a specific Web site on the server), it is possible to crawl any Web site that is publicly accessible on the internet. Refer to the "[Web Crawler Settings](using-site-analysis-to-crawl-a-web-site.md#Web_Crawler_Settings_) " section for more details about the "New Analysis" dialog box.
 5. Once all the parameters have been specified, click **OK** to start the analysis:  
     [![](using-site-analysis-to-crawl-a-web-site/_static/image8.png)](using-site-analysis-to-crawl-a-web-site/_static/image7.png)  
  The two numbers reported during analysis are:  

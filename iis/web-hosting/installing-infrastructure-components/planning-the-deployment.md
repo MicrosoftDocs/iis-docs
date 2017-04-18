@@ -116,7 +116,7 @@ The following are requirements for installing this role, depending on if you ins
 If you are planning to use Microsoft Deployment, see the detailed listing of required infrastructure:
 
 - Microsoft Deployment and LTI deployment: See "[System Requirements](https://technet.microsoft.com/en-us/library/bb891793.aspx)," in the *Getting Started Guide.*
-- ZTI: See "Ensure that the Required Infrastructure Exists for ZTI ," in *Infrastructure Remediation Feature Team Guide.*
+- ZTI: See "Ensure that the Required Infrastructure Exists for ZTI," in *Infrastructure Remediation Feature Team Guide.*
 
 <a id="DetermineRules"></a>
 

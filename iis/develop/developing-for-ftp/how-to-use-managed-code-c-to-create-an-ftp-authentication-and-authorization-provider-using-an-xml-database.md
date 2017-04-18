@@ -37,13 +37,6 @@ This walkthrough will lead you through the steps to use managed code to an FTP a
 > [How to use the Sample Read-Only XML Membership and Role Providers with IIS](../../application-frameworks/building-and-running-aspnet-applications/how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis.md)
 
 
-### In This Walkthrough
-
-- [Step 1: Set up the Project Environment](how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database.md#01)
-- [Step 2: Create the Extensibility Class](how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database.md#02)
-- [Step 3: Add the Demo Provider to FTP](how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database.md#03)
-- [Summary](how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database.md#04)
-
 ### Prerequisites
 
 The following items are required to complete the procedures in this article:

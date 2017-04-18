@@ -56,7 +56,7 @@ Building a .NET-based provider is a two step process.
 
     [!code-console[Main](web-playlists-for-iis-extending-web-playlists-through-custom-providers/samples/sample3.cmd)]
 
- where     `<Path to Web Playlist Include>` is the location where unzipped the Interface files too.
+ where `<Path to Web Playlist Include>` is the location where unzipped the Interface files too.
 2. **Import Types into as assemblly**
 
     1. **Use the .tlb created in step 1**

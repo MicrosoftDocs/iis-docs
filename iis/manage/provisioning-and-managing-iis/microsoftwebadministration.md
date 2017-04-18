@@ -1,7 +1,7 @@
 ---
 title: "Microsoft.Web.Administration | Microsoft Docs"
 author: walterov
-description: "Managed code can be used to provision Web sites and edit configuration. Using the Script Use the following to create a site and an application pool , and to..."
+description: "Managed code can be used to provision Web sites and edit configuration. Using the Script Use the following to create a site and an application pool, and to..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 12/02/2007

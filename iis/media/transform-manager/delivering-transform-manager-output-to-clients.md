@@ -20,14 +20,6 @@ If you want to serve the transformed on-demand output from [IIS Transform Manage
 
 This article describes how to deliver Transform Manager output to clients.
 
-In this article:
-
-- [Licensing](delivering-transform-manager-output-to-clients.md#license)
-- [Staging the Transformed Output for IIS Smooth Streaming](delivering-transform-manager-output-to-clients.md#stage)
-- [Installing IIS Smooth Streaming](delivering-transform-manager-output-to-clients.md#installss)
-- [Serving the On-Demand Smooth Streams](delivering-transform-manager-output-to-clients.md#servess)
-- [Serving the On-Demand Apple HTTP Live Streams](delivering-transform-manager-output-to-clients.md#servehls)
-
 <a id="license"></a>
 
 ## Licensing
@@ -105,12 +97,12 @@ To create the HTML5 page, do the following:
 
     [!code-html[Main](delivering-transform-manager-output-to-clients/samples/sample1.html)]
 
- Update the manifest request     `src` URL so that clients can access the .m3u8 file on the server by replacing the file name in     `manifest.ism` with the file name of the presentation ISM file. For example: 
+ Update the manifest request `src` URL so that clients can access the .m3u8 file on the server by replacing the file name in `manifest.ism` with the file name of the presentation ISM file. For example: 
 
     [!code-html[Main](delivering-transform-manager-output-to-clients/samples/sample2.html?highlight=10)]
 7. (Optional) As shown in the sample HTML, you can add additional HTML5 video attributes such as `poster`, `autoplay`, and `controls`.  
   
- The     `controls` attribute must be set for iPad devices to play the video. For more information about how to configure the HTML5     `video` element, see     **4.8.6 The video element** in the     [W3C HTML5 Specification](http://www.w3.org/TR/html5/spec.html) .
+ The `controls` attribute must be set for iPad devices to play the video. For more information about how to configure the HTML5 `video` element, see **4.8.6 The video element** in the [W3C HTML5 Specification](http://www.w3.org/TR/html5/spec.html) .
 8. On an Apple device, open the Safari® Web browser and enter the URL of the iphone.htm page in the browser, and then click **GO**. The page will load with the default HTML5 video element, which contains a simple **Play** button.  
     [![](delivering-transform-manager-output-to-clients/_static/image16.png)](delivering-transform-manager-output-to-clients/_static/image15.png)
 9. Click the **Play** button in the HTML5 video element. The device will open the QuickTime® player and begin loading the stream. You might need to wait a few seconds for the video to start.  

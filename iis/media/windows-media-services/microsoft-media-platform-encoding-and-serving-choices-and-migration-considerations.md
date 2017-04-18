@@ -446,7 +446,7 @@ If your existing on-premises infrastructure is sufficient for most cases but is 
 <a id="Toc343780183"></a>
 #### REST APIs
 
-All of Windows Azure Media Services is accessible through REST APIs, which are built on [OData 3.0](http://www.odata.org/documentation/overview) . Because it uses HTTP, the APIs will work with any platform and any device. You can program the REST APIs directly or through the .NET or Java SDKs.
+All of Windows Azure Media Services is accessible through REST APIs, which are built on [OData 3.0](http://www.odata.org/documentation/overview). Because it uses HTTP, the APIs will work with any platform and any device. You can program the REST APIs directly or through the .NET or Java SDKs.
 
 The .NET and Java SDKs conveniently wrap the REST APIs to make coding your solutions easier. For more information, see [Building Applications with the Media Services SDK for .NET](https://msdn.microsoft.com/en-us/library/hh973613.aspx). To download the .NET SDK for Windows Azure Media Services, see [Windows Azure Media Services .NET SDK (Preview)](https://nuget.org/packages/windowsazure.mediaservices).
 

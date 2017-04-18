@@ -79,7 +79,7 @@ If you use one of the built-in accounts (like IUSR or Network Service) as the ap
 These directions should be repeated on both the UNC server as well as the web server. Create a user called "PoolId1", whose password will be "!p4ssw0rd"
 
 1. From an Administrator-elevated command prompt, run **start lusrmgr.msc.**
-2. Right-click on the **Users** folder and select **New User...** .
+2. Right-click on the **Users** folder and select **New User...**.
 3. Fill in the **New User** dialog entries as follows:  
 
     - User name : **PoolId1**

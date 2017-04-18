@@ -16,17 +16,7 @@ Syndicating Live Smooth Streams between Servers
 ====================
 by [John A. Bocharov](https://github.com/jbocharov)
 
-This walkthrough describes how to configure Live Smooth Streaming server-to-server syndication.
-
-- [Requirements](syndicating-live-smooth-streams-between-servers.md#requirements)
-- [Usage Scenario](syndicating-live-smooth-streams-between-servers.md#scenarios)
-- [Security Best Practices](syndicating-live-smooth-streams-between-servers.md#security_best_practices)
-- [Configuring the Upstream Publishing Point](syndicating-live-smooth-streams-between-servers.md#configuring_upstream)
-- [Securing the Upstream Publishing Point](syndicating-live-smooth-streams-between-servers.md#securing_upstream)
-- [Configuring Credentials for the Downstream Publishing Point](syndicating-live-smooth-streams-between-servers.md#configuring_credentials)
-- [Configuring the Downstream Publishing Point](syndicating-live-smooth-streams-between-servers.md#configuring_downstream)
-
-This walkthrough uses the following terms to distinguish the servers involved:
+This walkthrough describes how to configure Live Smooth Streaming server-to-server syndication and uses the following terms to distinguish the servers involved:
 
 - **Downstream**. The server that is closer to the client in the delivery chain.
 - **Upstream**. The server that is closer to the encoder in the delivery chain.
@@ -151,7 +141,7 @@ To configure the publishing point on the downstream server, follow the steps in 
   
  -or-  
   
- If the downstream publishing point has already been created, in the     **Live Smooth Streaming Publishing Points** feature page, click the publishing point name, and then in the     **Actions** pane, click     **Edit** .  
+ If the downstream publishing point has already been created, in the **Live Smooth Streaming Publishing Points** feature page, click the publishing point name, and then in the **Actions** pane, click **Edit** .  
     [![](syndicating-live-smooth-streams-between-servers/_static/image7.png)](syndicating-live-smooth-streams-between-servers/_static/image6.png)
 2. In the **Add Publishing Point** (or **Edit Publishing Point** dialog box), on the **Basic Settings** tab, do the following:  
     [![](syndicating-live-smooth-streams-between-servers/_static/image9.png)](syndicating-live-smooth-streams-between-servers/_static/image8.png)

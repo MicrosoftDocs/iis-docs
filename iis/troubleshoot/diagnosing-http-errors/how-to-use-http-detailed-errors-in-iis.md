@@ -1,7 +1,7 @@
 ---
 title: "How to Use HTTP Detailed Errors in IIS 7.0 | Microsoft Docs"
 author: rick-anderson
-description: "Every Web-Site Administrator or Web Developer has seen '404 - File not found' , '401 - Unauthorized' or '500 - Server Error' messages in his browser. This ar..."
+description: "Every Web-Site Administrator or Web Developer has seen '404 - File not found', '401 - Unauthorized' or '500 - Server Error' messages in his browser. This ar..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 12/12/2007
@@ -18,7 +18,7 @@ by IIS Team
 
 ## Introduction
 
-Every Web-Site Administrator or Web Developer has seen "404 - File not found" , "401 - Unauthorized" or "500 - Server Error" messages in his browser. This article helps you understand how and why IIS generates these errors and how they can be configured.
+Every Web-Site Administrator or Web Developer has seen "404 - File not found", "401 - Unauthorized" or "500 - Server Error" messages in his browser. This article helps you understand how and why IIS generates these errors and how they can be configured.
 
 Many might think that generating error messages does not seem to justify a full article. But there is more to errors than meets the eye. Error messages are a sensitive topic, because every error reveals more about your web-site than you might want revealed. The more information someone can gather about your site, the likelier it is that you will be hacked. A search for "google hacking" or "cross-site scripting" reveals a wealth of information on this topic.
 

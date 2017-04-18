@@ -62,7 +62,7 @@ To unlock the entire section for all applications on the server, move its conten
 
 [!code-xml[Main](how-to-use-locking-in-iis-configuration/samples/sample3.xml)]
 
-The section is now unlocked for all applications. You can specify a path on the location tag, so that the section will be unlocked only for this path. The default path, if not specified (as in the previous step), is path="." (or path="" ,the same thing), which means "this current level". In this case, since this is applicationHost.config, the current level means the global level. You can also use location tags anywhere in the namespace hierarchy, e.g. in a web.config at the vdir level, to lock configuration from this point downwards.
+The section is now unlocked for all applications. You can specify a path on the location tag, so that the section will be unlocked only for this path. The default path, if not specified (as in the previous step), is path="." (or path="",the same thing), which means "this current level". In this case, since this is applicationHost.config, the current level means the global level. You can also use location tags anywhere in the namespace hierarchy, e.g. in a web.config at the vdir level, to lock configuration from this point downwards.
 
 Here is an example of how to unlock this section only for the "AdminSuperTrusted" site. That means that web.config files at that site can override the settings in this section; but, for all other sites on the box, it is locked at the global level and cannot be overridden.
 

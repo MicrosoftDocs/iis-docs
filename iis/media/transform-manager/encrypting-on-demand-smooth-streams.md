@@ -76,7 +76,7 @@ To configure job templates, do the following:
     | ![](encrypting-on-demand-smooth-streams/_static/image5.png) | ![](encrypting-on-demand-smooth-streams/_static/image6.png) |
     | *Click image to enlarge* | *Click image to enlarge* |
   
- Note the name of the watch folder that the job template is bound to in     **Watch folders that use this job template** . We'll configure this watch folder to run the transformation jobs later in this article.
+ Note the name of the watch folder that the job template is bound to in **Watch folders that use this job template**. We'll configure this watch folder to run the transformation jobs later in this article.
 3. In the **Actions** pane, click **Edit**.  
     [![](encrypting-on-demand-smooth-streams/_static/image9.png)](encrypting-on-demand-smooth-streams/_static/image7.png)
 4. In the **Edit Job Template** dialog box, on the **Basic Settings** tab, you can edit the job template **Name** and **Description** to give it more descriptive information for your environment.  
@@ -86,14 +86,14 @@ To configure job templates, do the following:
     | ![](encrypting-on-demand-smooth-streams/_static/image11.png) | ![](encrypting-on-demand-smooth-streams/_static/image12.png) |
     | *Click image to enlarge* | *Click image to enlarge* |
 
- The     **Task definitions** list shows the tasks that are used by the job template.  
+ The **Task definitions** list shows the tasks that are used by the job template.  
 
     | ![Note](encrypting-on-demand-smooth-streams/_static/image1.gif) > **Note:** - The **Edit Job Template** dialog box will display a task configuration error message on the **Messages** tab if a required property value for the **PlayReady Protection** task isn't specified. You can ignore this message for now as we'll configure the required task properties later in this article. |
     | --- |
 5. If you selected the **Smooth Streams to encrypted Smooth Streams** job template, select the **PlayReady Protection** task in the **Task definitions** list, click **Edit**, and then [configure the **PlayReady Protection** task properties](encrypting-on-demand-smooth-streams.md#config_task).  
     [![](encrypting-on-demand-smooth-streams/_static/image19.png)](encrypting-on-demand-smooth-streams/_static/image17.png)  
   
- If you selected another job template, you must add the     **PlayReady Protection** task to the proper location in the     **Task definitions** list before configuring its properties. For more information, see     [Chaining the PlayReady Protection Task to a Job Template](encrypting-on-demand-smooth-streams.md#chain_task) .
+ If you selected another job template, you must add the **PlayReady Protection** task to the proper location in the **Task definitions** list before configuring its properties. For more information, see [Chaining the PlayReady Protection Task to a Job Template](encrypting-on-demand-smooth-streams.md#chain_task) .
 
 <a id="chain_task"></a>
 
@@ -118,7 +118,7 @@ To add the **PlayReady Protection** task to the existing workflow, do the follow
 3. In the **Edit Job Template** dialog box, select the **PlayReady Protection** task in the **Task definitions** list, and then click the **Move Up** or **Move Down** buttons until it's displayed below the task that creates the Smooth Streaming output that you want to encrypt.  
     [![](encrypting-on-demand-smooth-streams/_static/image31.png)](encrypting-on-demand-smooth-streams/_static/image29.png)  
   
- In this example, both the     **Smooth Streams to Apple HTTP Live Streams** and     **PlayReady Protection** tasks will act on the Smooth Streaming output that the     **Expression Encoder 4.0 SP2** task creates.
+ In this example, both the **Smooth Streams to Apple HTTP Live Streams** and **PlayReady Protection** tasks will act on the Smooth Streaming output that the **Expression Encoder 4.0 SP2** task creates.
 4. Select the **Expression Encoder 4.0 SP2** task in the **Task definitions** list, and then click **Edit**. Note the value of **Output folder name** for this task, and then click **Cancel** to close the dialog box.  
     [![](encrypting-on-demand-smooth-streams/_static/image35.png)](encrypting-on-demand-smooth-streams/_static/image33.png)
 5. Select the **PlayReady Protection** task in the **Task definitions** list, and then click **Edit**. In the **Edit PlayReady Protection Task** dialog box, in **Input folder name**, select the **Expression Encoder 4.0 SP2** task output folder name.  

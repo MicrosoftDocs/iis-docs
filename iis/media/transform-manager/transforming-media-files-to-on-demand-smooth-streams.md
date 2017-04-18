@@ -25,20 +25,6 @@ This article applies to the following watch folder in IIS Transform Manager 1.0:
 
 - Video files to VC-1 Smooth Streams
 
-In this article:
-
-> [Licensing](transforming-media-files-to-on-demand-smooth-streams.md#license)  
-> [Getting Started](transforming-media-files-to-on-demand-smooth-streams.md#get_started)   
-> [Installing Transform Manager](transforming-media-files-to-on-demand-smooth-streams.md#install_tm)   
-> [Choosing your Edition of Expression Encoder](transforming-media-files-to-on-demand-smooth-streams.md#choose_ee)   
-> [Configuring the Transform Manager Service](transforming-media-files-to-on-demand-smooth-streams.md#configure_svc)   
-> [Production Notes](transforming-media-files-to-on-demand-smooth-streams.md#prod_notes)   
-> [Configuring the Video files to VC-1 Smooth Streams Job Template](transforming-media-files-to-on-demand-smooth-streams.md#configure_jt)   
-> [Configuring the Expression Encoder 4.0 SP2 Task](transforming-media-files-to-on-demand-smooth-streams.md#configure_task)   
-> [Configuring the Video files to VC-1 Smooth Streams Watch Folder](transforming-media-files-to-on-demand-smooth-streams.md#configure_wf)   
-> [Running your Transform Jobs](transforming-media-files-to-on-demand-smooth-streams.md#run_jobs)   
-> [Managing and Monitoring your Transform Jobs](transforming-media-files-to-on-demand-smooth-streams.md#manage_jobs)
-
 
 <a id="license"></a>
 
@@ -113,13 +99,13 @@ This section describes how to configure the default **Video files to VC-1 Smooth
 2. In the **Job Templates** page, select the **Video files to VC-1 Smooth Streams** job template.  
     [![](transforming-media-files-to-on-demand-smooth-streams/_static/image6.png)](transforming-media-files-to-on-demand-smooth-streams/_static/image5.png)  
   
- Note the name of the watch folder that this job template is bound to in     **Watch folders that use this job template** . We'll configure this watch folder to run the transcoding jobs later in this article.
+ Note the name of the watch folder that this job template is bound to in **Watch folders that use this job template**. We'll configure this watch folder to run the transcoding jobs later in this article.
 3. In the **Actions** pane, click **Edit**.  
     [![](transforming-media-files-to-on-demand-smooth-streams/_static/image8.png)](transforming-media-files-to-on-demand-smooth-streams/_static/image7.png)
 4. In the **Edit Job Template** dialog box, you can edit the job template **Name** and **Description** to give it a more descriptive information for your environment. For example, if you decide to change the default VC-1 IIS Smooth Streaming encoding preset to an H.264 IIS Smooth Streaming encoding preset in the next step, you can edit the **Name** and **Description** to reflect your choice.  
     [![](transforming-media-files-to-on-demand-smooth-streams/_static/image10.png)](transforming-media-files-to-on-demand-smooth-streams/_static/image9.png)  
   
- The     **Task definitions** list shows the task that's used by this job template.
+ The **Task definitions** list shows the task that's used by this job template.
 5. To change the preset used by this task to another Expression Encoder preset, select the **Expression Encoder 4.0 SP2** task, and then click **Edit**.  
     [![](transforming-media-files-to-on-demand-smooth-streams/_static/image12.png)](transforming-media-files-to-on-demand-smooth-streams/_static/image11.png)
 6. In the **Edit Expression Encoder 4.0 SP2 Task** dialog box, in **preset**, double-click the **Value** field, and then type the name of a new preset file that's included in the default installation of Transform Manager.  

@@ -32,7 +32,7 @@ IIS has many different management interfaces, for example the User Interface, th
 
 ## Common IIS Management Tasks with INETMGR
 
-When connecting to your Windows Azure instance you will see an INETMGR icon. By double-clicking it the IIS User Interface opens. INETMGR allows you to take a convenient and quick peak at the IIS configuration , for example to verify if changes you made in the Windows Azure service configuration file or in the RoleEntryPoint::OnStart method were successfully applied. Details on how to look at IIS configuration via the User Interface can be found in this [article](../../get-started/getting-started-with-iis/getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md "Managing IIS via INETMGR").
+When connecting to your Windows Azure instance you will see an INETMGR icon. By double-clicking it the IIS User Interface opens. INETMGR allows you to take a convenient and quick peak at the IIS configuration, for example to verify if changes you made in the Windows Azure service configuration file or in the RoleEntryPoint::OnStart method were successfully applied. Details on how to look at IIS configuration via the User Interface can be found in this [article](../../get-started/getting-started-with-iis/getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md "Managing IIS via INETMGR").
 
 As mentioned above it is not recommended to change configuration via the IIS User Interface. But there is also very interesting run-time data that's worth looking at in case you have to troubleshoot production issues.
 

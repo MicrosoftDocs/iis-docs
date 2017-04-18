@@ -195,7 +195,7 @@ In this fourth step you will configure a Web site to use forms authentication wi
         [!code-xml[Main](how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis/samples/sample8.xml)]
 
         > [!NOTE]
-        > The PublicKeyToken values in the         `<providers>` sections your web.config must match the PublicKeyToken values in the         `<trustedProviders>` section of your Administration.config file.
+        > The PublicKeyToken values in the `<providers>` sections your web.config must match the PublicKeyToken values in the `<trustedProviders>` section of your Administration.config file.
     - Save the code as "Web.config" in the root of your Web site.
 
 ## Summary

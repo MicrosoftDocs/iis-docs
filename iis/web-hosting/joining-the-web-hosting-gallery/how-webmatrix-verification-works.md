@@ -1,7 +1,7 @@
 ---
 title: "How WebMatrix Verification Works | Microsoft Docs"
 author: simtan
-description: "After you install the required server components and have validated your server configuration , you supply a sample account to the Microsoft Web Hosting Gall..."
+description: "After you install the required server components and have validated your server configuration, you supply a sample account to the Microsoft Web Hosting Gall..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 12/12/2010
@@ -76,7 +76,7 @@ The following web applications (mostly from the [Web Application Gallery](https:
   
     [![](how-webmatrix-verification-works/_static/image16.png)](how-webmatrix-verification-works/_static/image15.png)  
   
- If any of the checks fail, we still     **continue through to publishing** .
+ If any of the checks fail, we still **continue through to publishing**.
 6. Click **Publish** from the Ribbon. On the Publish Preview screen, ensure that **all items are checked** – especially all **databases** whether they are just SDF files or full SQL databases.  
   
     [![](how-webmatrix-verification-works/_static/image18.png)](how-webmatrix-verification-works/_static/image17.png)  

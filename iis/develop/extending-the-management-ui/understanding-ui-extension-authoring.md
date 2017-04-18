@@ -180,7 +180,7 @@ In this section, we will add the entry in administration.config in the modulePro
 
 [![](understanding-ui-extension-authoring/_static/image19.png)](understanding-ui-extension-authoring/_static/image18.png)
 
-The full name of the assembly can be determined from this window. So for example, the full name of the assembly in my case is **Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e788138af6131538.** The entry that should be added to administration.config , in moduleProviders would be
+The full name of the assembly can be determined from this window. So for example, the full name of the assembly in my case is **Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e788138af6131538.** The entry that should be added to administration.config, in moduleProviders would be
 
 [!code-xml[Main](understanding-ui-extension-authoring/samples/sample10.xml)]
   

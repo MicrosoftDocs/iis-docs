@@ -1,7 +1,7 @@
 ---
 title: "How to Manage and Administer the Microsoft Web Platform | Microsoft Docs"
 author: rick-anderson
-description: "The following articles provide guidance in managing and administering the Microsoft® Web Platform. Create a Web Site . This article provides guidance for cre..."
+description: "The following articles provide guidance in managing and administering the Microsoft® Web Platform. Create a Web Site. This article provides guidance for cre..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 11/15/2009

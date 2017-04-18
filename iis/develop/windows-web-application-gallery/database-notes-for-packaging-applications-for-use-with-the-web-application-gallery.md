@@ -123,7 +123,7 @@ In MySQL syntax, the normal command delimiter is a semi-colon (;). MySQL procedu
 
 [!code-xml[Main](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery/samples/sample4.xml)]
 
-The create user script we use can be parameterized as well. We do recommend parameterizing the database server for the GRANT statement in the SQL Script below in the parameters.xml file and using a place-holder to represent the Database server, for example *‘PlaceHolderForServer'* . By doing so , the user will have the option to either install the application against a local MySQL server , usually ‘*localhost'* or install the application against a remote MySQL database .
+The create user script we use can be parameterized as well. We do recommend parameterizing the database server for the GRANT statement in the SQL Script below in the parameters.xml file and using a place-holder to represent the Database server, for example *‘PlaceHolderForServer'* . By doing so, the user will have the option to either install the application against a local MySQL server, usually ‘*localhost'* or install the application against a remote MySQL database .
 
 [!code-console[Main](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery/samples/sample5.cmd)]
 

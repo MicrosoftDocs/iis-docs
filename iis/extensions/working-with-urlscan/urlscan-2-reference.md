@@ -1,7 +1,7 @@
 ---
 title: "UrlScan 2 Reference | Microsoft Docs"
 author: rmcmurray
-description: "Note : UrlScan 2.x has been replaced by UrlScan 3.1 . If you are using UrlScan 2.x, you should download and install the latest version. The information on th..."
+description: "Note : UrlScan 2.x has been replaced by UrlScan 3.1. If you are using UrlScan 2.x, you should download and install the latest version. The information on th..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 07/15/2010

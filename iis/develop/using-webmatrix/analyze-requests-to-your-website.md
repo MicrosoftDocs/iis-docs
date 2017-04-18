@@ -48,7 +48,7 @@ When you make requests, you can view the results in real-time so that you can id
 1. To start WebMatrix, in Windows, click **Start** &gt; **All Programs** &gt; **Microsoft WebMatrix Beta**.
 2. On the WebMatrix Beta **Quick Start** page, open your site by choosing it from **My Sites**.  
     > [!NOTE]
-    > If you do not already have a site, you can open the default site (Website1) or add a new one by choosing     **Site from Web Gallery** ,     **Site From Template** , or     **Site From Folder** .   
+    > If you do not already have a site, you can open the default site (Website1) or add a new one by choosing **Site from Web Gallery**, **Site From Template**, or **Site From Folder**.   
   
     [![](analyze-requests-to-your-website/_static/image3.png)](analyze-requests-to-your-website/_static/image1.png)
 
@@ -75,7 +75,7 @@ When you make requests, you can view the results in real-time so that you can id
   
     [![](analyze-requests-to-your-website/_static/image19.png)](analyze-requests-to-your-website/_static/image17.png)
 7. If the request is an error, click **Edit** in the subpane to open the file that contains the error and fix the file.   
- You can also click     **More Information** to get more information about the HTTP status code and possible solutions to the error from the Microsoft Support web page.
+ You can also click **More Information** to get more information about the HTTP status code and possible solutions to the error from the Microsoft Support web page.
 8. After you resolve the error, return to the **Site** workspace and open **Requests** again. Click **Clear All** to remove the cached requests.  
   
     [![](analyze-requests-to-your-website/_static/image23.png)](analyze-requests-to-your-website/_static/image21.png)

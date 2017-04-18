@@ -58,7 +58,7 @@ To start writing cmdlets, you need a client computer installed with PowerShell. 
  3. Enter connection parameters:
 
 a. Replace "root\default" by \\&lt;computer&gt;\root\webadministration, where "&lt;computer&gt;" has to be name of your server.   
- b. Enter the credentials of the account that has administrator rights on the server .   
+ b. Enter the credentials of the account that has administrator rights on the server.   
  c. Select "Packet Privacy" in Authentication level group.
 
 4. Click Connect. WMI on your client machine connects to the WMI service on your server machine. If it is not accessible, you get an error message dialog box.  

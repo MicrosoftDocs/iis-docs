@@ -34,7 +34,7 @@ This document walks you through using the WebDAV redirector to publish content t
     - Windows Server 2008, Windows Server 2008 R2, or Windows Server 2012
 - You must be connecting to a web server that already has the WebDAV module installed.  
     > [!NOTE]
-    > See the     [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146) topic for more information.
+    > See the [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146) topic for more information.
 
 ### Windows Vista, Windows 7, Windows 8, or Windows 8.1
 
@@ -198,7 +198,7 @@ The following list of error conditions is designed to help troubleshoot situatio
     - Click the **Trusted sites** icon.
     - Click the **Sites** button.
     - Type your website's URL in the **Add this website to the zone** text box, and then click the **Add** button.  
- (Note: You may need to uncheck the         **Require server verification (https:) for all sites in this zone** checkbox if your website uses an HTTP URL.)
+ (Note: You may need to uncheck the **Require server verification (https:) for all sites in this zone** checkbox if your website uses an HTTP URL.)
     - Click the **Close** button.
     - Click the **OK** button.
 

@@ -61,7 +61,7 @@ After installing Remote Manager on Windows Vista, start the IIS Management Conso
 1. Click the Windows **Start** button [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image9.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image8.jpg) to display the start menu.
 2. Type "inetmgr.exe" into the search box and press **Enter**.   
     [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image11.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image10.jpg)  
- If you are prompted by "User Access Control", click     **Continue** .
+ If you are prompted by "User Access Control", click **Continue**.
 3. When the Management Console starts, you may notice that it is different than before. There is now a Start Page and additional options such as "Connect to Server", "Connect to Site" and so on. You can also connect to a Server, Site or Application by going to the File menu and selecting the appropriate option.   
     [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image13.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image12.jpg)
 4. After you select which type of connection you want to make a wizard will be displayed. Follow the wizard and enter the request details to make a remote connection.
@@ -80,7 +80,7 @@ To install the Internet Information Services (IIS) Management Console on Windows
 
 1. 1. Click the Windows Start button [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image15.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image14.jpg) to display the start menu.
     2. Type "optionalfeatures.exe" into the search box and press enter.   
- (If you are prompted by "User Account Control," click         **Continue.** )   
+ (If you are prompted by "User Account Control," click **Continue.**)   
         [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image17.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image16.jpg)
     3. When the Windows Features dialog is finished loading, expand the "Internet Information Services" node.
     4. Next, expand the "Web Management Tools" node.
@@ -105,7 +105,7 @@ The following prerequisites must be fulfilled in order to install Remote Manager
 1. Ensure that you meet the installation requirements for Windows XP and Windows Server 2003 as discussed earlier.
 2. Download the Remote Manager installer from:   
  32 bit (x86) -     [https://www.iis.net/go/1626](https://www.iis.net/downloads/microsoft/iis-manager)  
- 64 bit (x64) -     [https://www.iis.net/go/1633](https://www.iis.net/downloads/microsoft/iis-manager) .
+ 64 bit (x64) -     [https://www.iis.net/go/1633](https://www.iis.net/downloads/microsoft/iis-manager).
 3. After downloading the installer, double click it to run.   
     [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image23.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image22.jpg)
 4. Click **Next** to display the License agreement page.

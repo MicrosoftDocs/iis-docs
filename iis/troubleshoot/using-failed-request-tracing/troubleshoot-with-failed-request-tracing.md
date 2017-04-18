@@ -86,7 +86,7 @@ To enable Failed Request Tracing for a site (for example, Troubleshooting.PHP), 
 
         [!code-console[Main](troubleshoot-with-failed-request-tracing/samples/sample2.cmd)]
 
- This output indicates that a trace log was generated for a request to         **/products.php?product=5** , which resulted in an HTTP 500 error. This immediately tells you that:  
+ This output indicates that a trace log was generated for a request to **/products.php?product=5**, which resulted in an HTTP 500 error. This immediately tells you that:  
 
         - The Products.php page caused an error.
         - The input that caused an error is most likely **product=5**, as you don't see failures for other querystrings (this conclusion would be more accurate if this page is accessed frequently; in that case you will see multiple errors only for this specific querystring).

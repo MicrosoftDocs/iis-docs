@@ -34,7 +34,7 @@ This article assumes you have a functioning web farm to work with. For informati
   
     [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image9.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image8.png)  
   
- For this simple example, you will create a workflow that runs a DIR command on a server. Enter the following information in the     **Specify workflog details**  dialog:  
+ For this simple example, you will create a workflow that runs a DIR command on a server. Enter the following information in the **Specify workflog details**  dialog:  
 
     1. In the **Name** box, enter `DirCommand` as the workflow name.
     2. In the **Operation Scrope** box, select **Server**. The means the workflow will run on a selected server. If you select **Webfarm**, the workflow would run on the entire web farm.
@@ -45,7 +45,7 @@ This article assumes you have a functioning web farm to work with. For informati
   
     [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image11.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image10.png)  
   
- Enter the following information in the     **Specify action details**  dialog:  
+ Enter the following information in the **Specify action details**  dialog:  
 
     1. In the **Type** box, select **Command**. This means the workflow action is defined using Windows shell commands. Alternatively, you could select **Powershell** to indicate you will use Powershell commands.
     2. In the **Program/Script Path** box, enter `dir {path}`. This box allows you to enter a command (as in this example) or the path to a program, a script, a batch file, or a Powershell file.
@@ -54,7 +54,7 @@ This article assumes you have a functioning web farm to work with. For informati
   
     [![](building-workflows-with-web-farm-framework-20-for-iis/_static/image13.png)](building-workflows-with-web-farm-framework-20-for-iis/_static/image12.png)  
   
- The     **Specify recurrence details** dialog enables you to select     **Dependencies** (other workflow providers that your new provider depends on) and     **Dependants** (other providers that depend on your new provider). It also enables you to set the     **Periodicity** (how often your new workflow provider will re-run).  
+ The **Specify recurrence details** dialog enables you to select **Dependencies** (other workflow providers that your new provider depends on) and **Dependants** (other providers that depend on your new provider). It also enables you to set the **Periodicity** (how often your new workflow provider will re-run).  
   
  For this simple example, none of these settings are needed.
 4. Click **Finish** and the new workload provider is added to the **Workflow Builder** page.  

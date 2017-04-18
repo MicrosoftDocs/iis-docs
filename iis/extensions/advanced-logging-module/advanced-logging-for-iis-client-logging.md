@@ -20,14 +20,6 @@ IIS Advanced Logging can accept information about client-consumption of media an
 
 IIS Advanced Logging accepts client logs by using standard HTTP POST messages and XML formatting, enabling most clients to use this capability.
 
-In this article:
-
-- [Requirements](advanced-logging-for-iis-client-logging.md#requirements)
-- [Enabling Client Logging](advanced-logging-for-iis-client-logging.md#enable)
-- [Using the Sample Logging Client](advanced-logging-for-iis-client-logging.md#sample)
-- [Summary](advanced-logging-for-iis-client-logging.md#summary)
-- [References](advanced-logging-for-iis-client-logging.md#references)
-
 <a id="requirements"></a>
 
 ## Requirements

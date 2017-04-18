@@ -23,18 +23,6 @@ This article applies to the following watch folder in IIS Transform Manager 1.0:
 
 - H.264 Smooth Streams to Apple HTTP Live Streams
 
-In this article:
-
-[Licensing](transforming-on-demand-smooth-streams-to-apple-http-live-streams.md#license)  
-[Getting Started](transforming-on-demand-smooth-streams-to-apple-http-live-streams.md#get_started)  
-[Installing Transform Manager](transforming-on-demand-smooth-streams-to-apple-http-live-streams.md#install_tm)  
-[Configuring the Transform Manager Service](transforming-on-demand-smooth-streams-to-apple-http-live-streams.md#config_svc)  
-[Production Notes](transforming-on-demand-smooth-streams-to-apple-http-live-streams.md#prod_notes)  
-[Configuring the H.264 Smooth Streams to Apple HTTP Live Streams Job Template](transforming-on-demand-smooth-streams-to-apple-http-live-streams.md#config_jt)  
-[Configuring the H.264 Smooth Streams to Apple HTTP Live Streams Watch Folder](transforming-on-demand-smooth-streams-to-apple-http-live-streams.md#config_wf)  
-[Running your Transform Jobs](transforming-on-demand-smooth-streams-to-apple-http-live-streams.md#run_jobs)  
-[Managing and Monitoring your Transform Jobs](transforming-on-demand-smooth-streams-to-apple-http-live-streams.md#manage_jobs)
-
 <a id="license"></a>
 
 ## Licensing
@@ -95,13 +83,13 @@ Job templates are modifiable definitions of the tasks that are run during the tr
 2. In the **Job Templates** page, select the **H.264 Smooth Streams to Apple HTTP Live Streams** job template.  
     [![](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image6.png)](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image5.png)  
   
- Note the name of the watch folder that this job template is bound to in     **Watch folders that use this job template** . We'll configure this watch folder to run the repackaging jobs later in this article.
+ Note the name of the watch folder that this job template is bound to in **Watch folders that use this job template** . We'll configure this watch folder to run the repackaging jobs later in this article.
 3. In the **Actions** pane, click **Edit**.  
     [![](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image8.png)](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image7.png)
 4. In the **Edit Job Template** dialog box, you can edit the job template **Name** and **Description** to give it a more descriptive information for your environment.  
     [![](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image10.png)](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image9.png)  
   
- The     **Task definitions** list shows the task that's used by this job template.
+ The **Task definitions** list shows the task that's used by this job template.
 5. To update the properties used by the **Smooth Streams to Apple HTTP Live Streams** task, select it, and then click **Edit**.  
     [![](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image12.png)](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image11.png)
 6. In the **Edit Smooth Streams to Apple HTTP Live Streams Task** dialog box, you can edit task properties in the **Properties** list. Select a property in the list, and then double-click the **Value** field to update the value.  

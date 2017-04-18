@@ -131,7 +131,7 @@ For certain common error cases, Web Deploy will show an error code. This table e
 
 **Resolution**: Verify that the specified site actually exists.
 
-In some cases you may get this error if you have specified "/" instead of "\" in site URL, . Try changing "/" to "\".
+In some cases you may get this error if you have specified "/" instead of "\" in site URL,. Try changing "/" to "\".
 
 <a id="ERROR_APP_DOES_NOT_EXIST"></a>
 

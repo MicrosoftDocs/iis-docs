@@ -16,7 +16,7 @@ Umbraco CMS Sample files
 ====================
 by [Sunitha Muthukrishna](https://github.com/SunBuild)
 
-This is a set of sample files you could use with Umbraco CMS 5 and the Web Deployment tool for deploying Umbraco against a SQL Express/SQL Azure database or SQL CE database .
+This is a set of sample files you could use with Umbraco CMS 5 and the Web Deployment tool for deploying Umbraco against a SQL Express/SQL Azure database or SQL CE database.
 
 ## Sample manifest.xml file
 

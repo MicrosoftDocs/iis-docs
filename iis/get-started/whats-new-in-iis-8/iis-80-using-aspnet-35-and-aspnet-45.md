@@ -111,7 +111,7 @@ With both IIS 8.0 and ASP.NET integration installed we can take a look at the ba
     ![](iis-80-using-aspnet-35-and-aspnet-45/_static/image37.png)
 7. The **Advanced Settings** dialog pops up, showing (amongst other things) the application pool used to run the "Default Web Site". As shown in the picture below, the "Default Web Site" runs in the application pool called "DefaultAppPool":  
     ![](iis-80-using-aspnet-35-and-aspnet-45/_static/image39.png)
-8. If you click the small ellipsis-button on the right-hand side of the application pool , an additional dialog pops up displaying more information about the "DefaultAppPool". As noted earlier the "DefaultAppPool" defaults to ASP.NET 4.5 for IIS 8.0, so ASP.NET 4.5 applications deployed in the "Default Web Site" will work without any further configuration.  
+8. If you click the small ellipsis-button on the right-hand side of the application pool, an additional dialog pops up displaying more information about the "DefaultAppPool". As noted earlier the "DefaultAppPool" defaults to ASP.NET 4.5 for IIS 8.0, so ASP.NET 4.5 applications deployed in the "Default Web Site" will work without any further configuration.  
     ![](iis-80-using-aspnet-35-and-aspnet-45/_static/image41.png)
 9. At this point, click **Cancel** to cancel both the **Select Application Pool** dialog, and the **Advanced Settings** dialog.
 

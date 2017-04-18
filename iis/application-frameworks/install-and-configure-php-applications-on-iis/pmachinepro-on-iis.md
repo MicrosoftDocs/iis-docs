@@ -20,7 +20,7 @@ by Eric Woersching
 
 The application pMachine Pro is a popular open source blogging solution. It includes all the features of traditional blog tools, and supports multiple languages. ExpressionEngine has replaced it. The existing pMachine Pro is still available for free download, but it is no longer supported.
 
-For more information about pMachine Pro, see [http://www.ellislab.com/](http://www.ellislab.com/) .
+For more information about pMachine Pro, see [http://www.ellislab.com/](http://www.ellislab.com/).
 
 The following sections describe how to install and configure pMachinePro for use with FastCGI on IIS 6.0. This document assumes that you have completed the setup and configuration of the FastCGI extension and PHP libraries as described in [https://www.iis.net/fastcgi/phpon60](using-fastcgi-to-host-php-applications-on-iis-60.md).
 

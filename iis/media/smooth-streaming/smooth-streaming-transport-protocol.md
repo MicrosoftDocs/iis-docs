@@ -1,7 +1,7 @@
 ---
 title: "Smooth Streaming Transport Protocol | Microsoft Docs"
 author: jbocharov
-description: "IIS Smooth Streaming , part of IIS Media Services , is Microsoft's adaptive streaming technology, based on the HTTP and MP4 file format standards. It deliver..."
+description: "IIS Smooth Streaming, part of IIS Media Services, is Microsoft's adaptive streaming technology, based on the HTTP and MP4 file format standards. It deliver..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 09/08/2009

@@ -27,15 +27,6 @@ This document walks you through adding WebDAV publishing to an existing Web site
 > [!NOTE]
 > This walkthrough contains a series of steps in which you log on to your Web site using the local loopback address and the local administrator account. When using an administrator account, these steps should only be followed on the server itself using the loopback address or over SSL from a remote server. If you prefer to use a separate user account instead of the administrator account, you must create the appropriate folders and set the correct permissions for that user account when necessary.
 
-### In This Walkthrough
-
-- [Prerequisites for Installing and Configuring WebDAV on IIS](installing-and-configuring-webdav-on-iis.md#006)
-- [Installing WebDAV on IIS 7.0](installing-and-configuring-webdav-on-iis.md#001)
-- [Installing WebDAV on IIS 7.5](installing-and-configuring-webdav-on-iis.md#002)
-- [Installing WebDAV on IIS 8.0 and IIS 8.5](installing-and-configuring-webdav-on-iis.md#005)
-- [Enabling WebDAV Publishing by using IIS Manager](installing-and-configuring-webdav-on-iis.md#003)
-- [Enabling WebDAV Publishing by editing the IIS configuration files](installing-and-configuring-webdav-on-iis.md#004)
-
 > [!NOTE]
 > This topic discusses using the WebDAV Redirector to connect to your web site. Please see the [Using the WebDAV Redirector](../../publish/using-webdav/using-the-webdav-redirector.md) topic for more information; specifically the &quot;Troubleshooting the WebDAV Redirector&quot; section if you have trouble using the WebDAV redirector.
 

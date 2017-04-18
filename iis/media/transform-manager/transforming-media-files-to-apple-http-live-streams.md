@@ -22,21 +22,6 @@ This article applies to the following watch folder in IIS Transform Manager 1.0:
 
 - Video files to H.264 Smooth Streams and Apple HTTP Live Streams
 
-In this article:
-
-[Licensing](transforming-media-files-to-apple-http-live-streams.md#license)  
-[Getting Started](transforming-media-files-to-apple-http-live-streams.md#get_started)  
-[Installing Transform Manager](transforming-media-files-to-apple-http-live-streams.md#install_tm)  
-[Choosing your Edition of Expression Encoder](transforming-media-files-to-apple-http-live-streams.md#choose_ee)  
-[Configuring the Transform Manager Service](transforming-media-files-to-apple-http-live-streams.md#configure_svc)  
-[Production Notes](transforming-media-files-to-apple-http-live-streams.md#prod_notes)  
-[Configuring the Video files to H.264 Smooth Streams and Apple HTTP Live Streams Job Template](transforming-media-files-to-apple-http-live-streams.md#configure_jt)  
-[Configuring the Expression Encoder 4.0 SP2 Task](transforming-media-files-to-apple-http-live-streams.md#configure_task1)  
-[Configuring the Smooth Streams to Apple HTTP Live Streams Task](transforming-media-files-to-apple-http-live-streams.md#configure_task2)  
-[Configuring the Video files to H.264 Smooth Streams and Apple HTTP Live Streams Watch Folder](transforming-media-files-to-apple-http-live-streams.md#configure_wf)  
-[Running your Transform Jobs](transforming-media-files-to-apple-http-live-streams.md#run_jobs)  
-[Managing and Monitoring your Transform Jobs](transforming-media-files-to-apple-http-live-streams.md#manage_jobs)
-
 <a id="license"></a>
 
 ## Licensing
@@ -102,13 +87,13 @@ Job templates are modifiable definitions of the tasks that are run during the tr
 2. In the **Job Templates** page, select the **Video files to H.264 Smooth Streams and Apple HTTP Live Streams** job template.  
     [![](transforming-media-files-to-apple-http-live-streams/_static/image4.png)](transforming-media-files-to-apple-http-live-streams/_static/image3.png)  
   
- Note the name of the watch folder that this job template is bound to in     **Watch folders that use this job template** . We'll configure this watch folder to run the transcoding/repackaging jobs later in this article.
+ Note the name of the watch folder that this job template is bound to in **Watch folders that use this job template**. We'll configure this watch folder to run the transcoding/repackaging jobs later in this article.
 3. In the **Actions** pane, click **Edit**.  
     [![](transforming-media-files-to-apple-http-live-streams/_static/image6.png)](transforming-media-files-to-apple-http-live-streams/_static/image5.png)
 4. In the **Edit Job Template** dialog box, you can edit the job template **Name** and **Description** to give it a more descriptive information for your environment. For example, if you decide to change the default H.264 IIS Smooth Streaming encoding preset to another H.264-encoding preset in the next step, you can edit the **Name** and **Description** to reflect your choice.  
     [![](transforming-media-files-to-apple-http-live-streams/_static/image8.png)](transforming-media-files-to-apple-http-live-streams/_static/image7.png)  
   
- The     **Task definitions** list shows the tasks that are used by this job template. The first task (    **Expression Encoder 4.0 SP2** ) transcodes media files to H.264-formatted Smooth Streams and provides the output to the second task (    **Smooth Streams to Apple HTTP Live Streams** ), which repackages the Smooth Streams to MPEG-2 TS container format. This is an example of a task-chaining workflow.
+ The **Task definitions** list shows the tasks that are used by this job template. The first task (    **Expression Encoder 4.0 SP2** ) transcodes media files to H.264-formatted Smooth Streams and provides the output to the second task (    **Smooth Streams to Apple HTTP Live Streams** ), which repackages the Smooth Streams to MPEG-2 TS container format. This is an example of a task-chaining workflow.
 5. To change the preset used by this task to another Expression Encoder preset, select the **Expression Encoder 4.0 SP2** task and then click **Edit**.  
     [![](transforming-media-files-to-apple-http-live-streams/_static/image10.png)](transforming-media-files-to-apple-http-live-streams/_static/image9.png)
 6. In the **Edit Expression Encoder 4.0 SP2 Task** dialog box, in **preset**, double-click the **Value** field, and then type the name of a new preset file that is included in the default installation of Transform Manager.  
@@ -123,7 +108,7 @@ Job templates are modifiable definitions of the tasks that are run during the tr
 8. Note the virtual folder name that's specified in **Output folder name**.  
     [![](transforming-media-files-to-apple-http-live-streams/_static/image16.png)](transforming-media-files-to-apple-http-live-streams/_static/image15.png)  
   
- The virtual output folder stores the transcoded output for the next task in the workflow, which you'll configure in the     [next section](transforming-media-files-to-apple-http-live-streams.md#configure_task2) .
+ The virtual output folder stores the transcoded output for the next task in the workflow, which you'll configure in the [next section](transforming-media-files-to-apple-http-live-streams.md#configure_task2) .
 9. After reviewing or modifying the settings in the **Edit Expression Encoder 4.0 SP2 Task** dialog box, click **OK**.
 10. Proceed to the [next section](transforming-media-files-to-apple-http-live-streams.md#configure_task2) to configure the next task in the workflow.
 

@@ -38,7 +38,7 @@ To integrate the WAG into your control panel solution, you need the following:
     - Easy detection of missing application dependencies.
 - **Web Deployment API.** The [Web Platform Installer tool](https://www.microsoft.com/web/downloads/platform.aspx) uses a new API to manage the application packages, you can find its documentation at: [Microsoft Web Deployment](https://msdn.microsoft.com/en-us/library/microsoft.web.deployment.aspx). It is a public API available to developers. It allows your application to read and set parameter values and deploy applications including their associated database to the target servers.
 - **Sample Application.**  
- A sample application,     [Sample App](integrate-the-windows-web-application-gallery-into-a-control-panel/_static/integrate-the-windows-web-application-gallery-into-a-control-panel-607-sample1.zip) , is provided. It uses the WebPI API to access and manipulate the WAG XML feed, and it uses the Web Deployment API to manage the application package, its parameters, and deployment.
+ A sample application, [Sample App](integrate-the-windows-web-application-gallery-into-a-control-panel/_static/integrate-the-windows-web-application-gallery-into-a-control-panel-607-sample1.zip), is provided. It uses the WebPI API to access and manipulate the WAG XML feed, and it uses the Web Deployment API to manage the application package, its parameters, and deployment.
 
 This link downloads a compressed (Zip) file. Extract the contents of the compressed file, browse to the ControlPanelAppRtwAPI folder, and copy the content into your project or site.
 

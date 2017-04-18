@@ -48,7 +48,7 @@ Locate a web.config file in %SystemDrive%\inetpub\wwwroot\ folder or create one 
 - The "Fail bad requests" rule aborts HTTP connection if the host header of HTTP request does not match "localhost"
 - The "Rewrite to article.aspx" rule rewrite urls from this format `http://localhost/article/234/some-title` to this format `http://localhost/article.aspx?id=234&title=some-title`.
 
-Check that the rules are configured correctly by opening a browser and making a request to `http://localhost/article/234/some-title` . If rules were setup correctly then you should see the following response in browser:
+Check that the rules are configured correctly by opening a browser and making a request to `http://localhost/article/234/some-title`. If rules were setup correctly then you should see the following response in browser:
 
 [![](using-failed-request-tracing-to-trace-rewrite-rules/_static/image7.png)](using-failed-request-tracing-to-trace-rewrite-rules/_static/image5.png)
 

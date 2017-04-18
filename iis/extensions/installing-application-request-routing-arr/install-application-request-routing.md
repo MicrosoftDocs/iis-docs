@@ -96,7 +96,7 @@ In this step, you will disable the Idle Time-Out under application pool process 
 **To change the application pool process model using the UI:** 
 
 1. Launch IIS Manager.  
- 2. Select     **Application Pools** .
+ 2. Select **Application Pools**.
 
     [![](install-application-request-routing/_static/image2.jpg)](install-application-request-routing/_static/image1.jpg)
 2. By default, **DefaultAppPool** is the corresponding application pool for **Default Web Site**. Select **DefaultAppPool**. Under **Actions**, under **Edit Application Pool**, select **Advanced Settings…**.

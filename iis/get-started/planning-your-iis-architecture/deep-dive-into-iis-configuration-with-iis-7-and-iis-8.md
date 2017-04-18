@@ -177,7 +177,7 @@ Example:
 
 ## Additional Schema Information in &lt;ConfigSections&gt;
 
-Not all the required schema information is in the schema XML files. Some of it is in a special section called &lt;ConfigSections&gt; , which resides in the configuration files themselves. This is consistent with the .NET framework configuration system. By default, &lt;ConfigSections&gt; exists in machine.config and applicationHost.config; but customers may add it to any web.config file, to define their custom sections. These sections will be defined for that level in the namespace and downward.
+Not all the required schema information is in the schema XML files. Some of it is in a special section called &lt;ConfigSections&gt;, which resides in the configuration files themselves. This is consistent with the .NET framework configuration system. By default, &lt;ConfigSections&gt; exists in machine.config and applicationHost.config; but customers may add it to any web.config file, to define their custom sections. These sections will be defined for that level in the namespace and downward.
 
 > [!NOTE]
 > Customers and third parties should not attempt to change schema information for the built-in sections, either in the inetsrv\config\schema\ folder or in in machine.config and applicationHost.config. This may yield to undesirable behavior for these sections.

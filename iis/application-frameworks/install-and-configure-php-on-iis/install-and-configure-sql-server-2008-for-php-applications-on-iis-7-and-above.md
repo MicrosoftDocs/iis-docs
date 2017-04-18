@@ -46,7 +46,7 @@ SQL Server 2008 can meet these needs by providing enterprise-class availability 
  Use     *SQL Agent* to reduce the amount of time spent on administrative tasks by scheduling and executing events like server backups.
 - **Streamline administration.**   
  Use the     *service broker* to distribute applications across your servers to help balance the load while the applications seamlessly functions as a whole for easier scale out.   
- Use     *Windows PowerShell™* to automate server administration and application development more easily, giving administrators a common scripting language across Windows® , IIS, and SQL Server to save time.
+ Use     *Windows PowerShell™* to automate server administration and application development more easily, giving administrators a common scripting language across Windows®, IIS, and SQL Server to save time.
 - **Use built-in business intelligence**. Use basic SQL Server 2008 Reporting Services features to create unique report layouts. The new visualization enhancements in Reporting Services further enrich the reports and provide greater insight.
 - **Take advantage of platform flexibility.**   
  Use     *ADO.NET Data Services* support to expose data through Web services using existing tools and processes. This helps hosters support customers with mixed applications like ASP and PHP.  

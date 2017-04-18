@@ -1,7 +1,7 @@
 ---
 title: "Delete Cached Objects | Microsoft Docs"
 author: rick-anderson
-description: "This section of the documentation applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above . Goal To successfully remove cached content..."
+description: "This section of the documentation applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To successfully remove cached content..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 03/18/2009

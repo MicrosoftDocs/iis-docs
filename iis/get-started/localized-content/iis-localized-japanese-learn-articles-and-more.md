@@ -120,4 +120,4 @@ by IIS Team
 
 #### IIS 設定リファレンス
 
-- [.configファイル（applicationHost.config , web.config）設定項目一覧](https://technet.microsoft.com/ja-jp/library/ee431610.aspx)
+- [.configファイル（applicationHost.config, web.config）設定項目一覧](https://technet.microsoft.com/ja-jp/library/ee431610.aspx)
