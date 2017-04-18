@@ -93,6 +93,3 @@ If this is not possible, you can workaround the issue by creating a copy of the 
     2. Rename *settings.php.local* to *settings.php*.
     3. Click **Run** or press F12 to open the site in your default web browser.
 10. You will need to switch these files every time you publish.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

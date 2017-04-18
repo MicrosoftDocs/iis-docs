@@ -24,17 +24,6 @@ By default, IIS rejects requests to browse critical code segments. It also rejec
 
 You can configure a request filter at the server-wide level and then override the configuration at a website level.
 
-- [Prerequisites](#00)
-- [General Request Filter Settings](#01)
-- [File Name Extensions](#02)
-- [Filtering Rules](#03)
-- [Hidden Segments](#04)
-- [URL Filtering](#05)
-- [HTTP Verbs](#06)
-- [Header Size Limits](#07)
-- [Query Strings](#08)
-- [Request Filter Logging](#09)
-
 <a id="00"></a>
 ## Prerequisites
 

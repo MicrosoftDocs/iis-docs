@@ -288,6 +288,3 @@ The [RequestLimits] section can contain the following three special-case limits:
 The following example [RequestLimits] section configures UrlScan to specify the maximum lengths for several HTTP headers and the maximum content length for a request:
 
 [!code-console[Main](urlscan-2-reference/samples/sample8.cmd)]
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

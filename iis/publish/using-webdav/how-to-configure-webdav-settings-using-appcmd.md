@@ -314,6 +314,3 @@ For additional information about using WebDAV, please see the following articles
 
 > [!NOTE]
 > As mentioned earlier, your default request filtering settings may block several file types from WebDAV authoring. If you do not modify your request filtering settings, you may see various errors when you try to publish files that are blocked. For example, if you attempt to upload or download a web.config file you will see errors in your WebDAV client. For more information about configuring your request filtering settings, see the [How to Configure WebDAV with Request Filtering](how-to-configure-webdav-with-request-filtering.md) walkthrough.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

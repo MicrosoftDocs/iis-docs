@@ -114,6 +114,3 @@ There are many feed validators available. I use [http://www.feedvalidator.com](h
 ## Summary
 
 In this walkthrough, we learned how to make Web Playlists respond to client requests in the form of an ATOM feed. Web Playlists has many interesting scenarios. I encourage you to share any XSLT style sheets you write with us and keep looking on [my blog](https://blogs.iis.net/vsood) for more samples.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

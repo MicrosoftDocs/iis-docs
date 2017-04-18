@@ -137,6 +137,3 @@ To learn more about WebMatrix Beta and the Microsoft Web Platform, see the follo
 [https://www.microsoft.com/web/webmatrix/learn.aspx](https://www.microsoft.com/web/webmatrix/learn.aspx)
 
 Once you go to this **Learn** page, you'll find more resources about all aspects of WebMatrix Beta. You'll be able to find help in forums, or file bugs and suggestions directly to the WebMatrix Beta product team!
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

@@ -25,21 +25,6 @@ This article applies to the following watch folders in IIS Transform Manager 1.0
 - Video files to H.264 Smooth Streams and Apple HTTP Live Streams (task-chaining)
 - Video files to VC-1 Smooth Streams (task-chaining)
 
-In this article:
-
-[Licensing](encrypting-on-demand-smooth-streams.md#license)  
-[Getting Started](encrypting-on-demand-smooth-streams.md#get_started)  
-[Installing Transform Manager](encrypting-on-demand-smooth-streams.md#install_tm)  
-[Configuring the Transform Manager Service](encrypting-on-demand-smooth-streams.md#config_svc)  
-[Production Notes](encrypting-on-demand-smooth-streams.md#prod_notes)  
-[Configuring Job Templates](encrypting-on-demand-smooth-streams.md#config_jt)  
-[Chaining the PlayReady Protection Task to a Job Template](encrypting-on-demand-smooth-streams.md#chain_task)  
-[Configuring PlayReady Protection Task Properties](encrypting-on-demand-smooth-streams.md#config_task)  
-[Configuring Watch Folders](encrypting-on-demand-smooth-streams.md#config_wf)  
-[Transforming Smooth Streams to Encrypted Smooth Streams](encrypting-on-demand-smooth-streams.md#tm1)  
-[Transforming Media Files to Encrypted Smooth Streams](encrypting-on-demand-smooth-streams.md#tm2)  
-[Managing and Monitoring your Transform Jobs](encrypting-on-demand-smooth-streams.md#tm_jobs)
-
 <a id="license"></a>
 
 ## Licensing
@@ -103,8 +88,7 @@ To configure job templates, do the following:
 
  The     **Task definitions** list shows the tasks that are used by the job template.  
 
-    | ![Note](encrypting-on-demand-smooth-streams/_static/image1.gif) > [!NOTE]
- > - The **Edit Job Template** dialog box will display a task configuration error message on the **Messages** tab if a required property value for the **PlayReady Protection** task isn't specified. You can ignore this message for now as we'll configure the required task properties later in this article. |
+    | ![Note](encrypting-on-demand-smooth-streams/_static/image1.gif) > **Note:** - The **Edit Job Template** dialog box will display a task configuration error message on the **Messages** tab if a required property value for the **PlayReady Protection** task isn't specified. You can ignore this message for now as we'll configure the required task properties later in this article. |
     | --- |
 5. If you selected the **Smooth Streams to encrypted Smooth Streams** job template, select the **PlayReady Protection** task in the **Task definitions** list, click **Edit**, and then [configure the **PlayReady Protection** task properties](encrypting-on-demand-smooth-streams.md#config_task).  
     [![](encrypting-on-demand-smooth-streams/_static/image19.png)](encrypting-on-demand-smooth-streams/_static/image17.png)  
@@ -173,8 +157,7 @@ In either case, the license server generates a license derived from the content 
 
 The Silverlight PlayReady DRM component on the local computer verifies the license, including any content policies such as the license expiration date, before the Silverlight client can play the Smooth Streaming presentation.
 
-| ![Note](encrypting-on-demand-smooth-streams/_static/image3.gif) > [!NOTE]
- > - You can specify **keyID** and **keySeedValue** values in the Smooth Streaming presentation server manifest (.ism) file content header to override the property values in the **PlayReady Protection** task definition. This provides another option to ensure that your Smooth Streaming presentations are uniquely identified for licensing purposes. For more information, see William Zhang's blog, [How to add PlayReady protection in a Transform Manager job template](https://blogs.msdn.com/b/playready4/archive/2011/09/02/how-to-add-playready-protection-in-a-transform-manager-job-template.aspx). |
+| ![Note](encrypting-on-demand-smooth-streams/_static/image3.gif) **Note:** - You can specify **keyID** and **keySeedValue** values in the Smooth Streaming presentation server manifest (.ism) file content header to override the property values in the **PlayReady Protection** task definition. This provides another option to ensure that your Smooth Streaming presentations are uniquely identified for licensing purposes. For more information, see William Zhang's blog, [How to add PlayReady protection in a Transform Manager job template](https://blogs.msdn.com/b/playready4/archive/2011/09/02/how-to-add-playready-protection-in-a-transform-manager-job-template.aspx). |
 | --- |
 
 <a id="config_wf"></a>
@@ -225,8 +208,7 @@ To configure the watch folder, do the following:
     | ![](encrypting-on-demand-smooth-streams/_static/image65.png) | ![](encrypting-on-demand-smooth-streams/_static/image66.png) |
     | *Click image to enlarge* | *Click image to enlarge* |
 
-    | ![Note](encrypting-on-demand-smooth-streams/_static/image5.gif) > [!NOTE]
- > - You can't start a watch folder if another active watch folder thread is already using the same watch folder root path. |
+    | ![Note](encrypting-on-demand-smooth-streams/_static/image5.gif) **Note:** - You can't start a watch folder if another active watch folder thread is already using the same watch folder root path. |
     | --- |
 
 <a id="tm1"></a>
@@ -241,8 +223,7 @@ To begin transforming content, copy-and-paste the ISM file, the Smooth Streaming
 The watch folder directory is specified in the **Watch folder path** setting on the **Basic Settings** tab of the watch folder property sheet.  
 [![](encrypting-on-demand-smooth-streams/_static/image73.png)](encrypting-on-demand-smooth-streams/_static/image71.png)
 
-| ![Note](encrypting-on-demand-smooth-streams/_static/image7.gif) > [!NOTE]
- > - Don't drop multiple ISM manifest files in the watch folder at the same time if they reference the same streams. The job manager will schedule jobs for media files that are referenced in one ISM manifest, and when all of the streams that are referenced in the manifest are present, move the manifest and streams as a group to the watch folder's WorkQueue directory. Another manifest that references the same streams then can't be processed because the streams were removed from the watch folder with the previous manifest. To schedule jobs for this manifest, you must drop the missing streams into the watch folder again. |
+| ![Note](encrypting-on-demand-smooth-streams/_static/image7.gif) **Note:** - Don't drop multiple ISM manifest files in the watch folder at the same time if they reference the same streams. The job manager will schedule jobs for media files that are referenced in one ISM manifest, and when all of the streams that are referenced in the manifest are present, move the manifest and streams as a group to the watch folder's WorkQueue directory. Another manifest that references the same streams then can't be processed because the streams were removed from the watch folder with the previous manifest. To schedule jobs for this manifest, you must drop the missing streams into the watch folder again. |
 | --- |
 
 <a id="tm2"></a>
@@ -269,6 +250,3 @@ The WorkQueue directory contains folders that store the jobs as they're being pr
 As jobs are processed through the WorkQueue folders, you can use the Job Monitor pages in IIS Manager to view the progress of and manage currently running and queued jobs. For more information, see [Running and Monitoring Jobs](https://technet.microsoft.com/en-us/library/ff730174(v=ws.10).aspx).
 
 As jobs are run, job files (which include the original media source files, job manifest files, and the transformed output for completed jobs) accumulate in the watch folder WorkQueue folders. They can eventually clutter the disk and potentially impact performance. For more information about how to configure settings to delete these files automatically from the WorkQueue after a specified amount of time, see [Running File Maintenance](https://technet.microsoft.com/library/hh147635.aspx).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

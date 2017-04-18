@@ -267,6 +267,3 @@ In this task, you added WebDAV publishing to your Default Web Site by editing th
 1. You enabled Windows Authentication for the Default Web Site.
 2. You enabled WebDAV for the Default Web Site.
 3. You added a WebDAV authoring rule for the administrator account with Read, Write, and Source access to the Default Web Site.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

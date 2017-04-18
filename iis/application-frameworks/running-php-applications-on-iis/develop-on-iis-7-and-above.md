@@ -84,6 +84,3 @@ For managed code (Microsoft® Visual Basic®), see:
 
 - [How to Use Managed Code (Visual Basic) to Create a Simple FTP Home Directory Provider](../../develop/developing-for-ftp/how-to-use-managed-code-visual-basic-to-create-a-simple-ftp-home-directory-provider.md).
 - [How to Use Managed Code (Visual Basic) to Create a Simple FTP Logging Provider.](../../develop/developing-for-ftp/how-to-use-managed-code-visual-basic-to-create-a-simple-ftp-logging-provider.md)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1030.aspx)

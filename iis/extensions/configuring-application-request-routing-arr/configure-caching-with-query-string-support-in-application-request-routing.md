@@ -98,6 +98,3 @@ As a cleanup, reset runtime statistics for the server farm by navigating to "Mon
 ## Summary
 
 You have now successfully configured caching with query string support in ARR. For other ARR Version 2 walkthroughs, see the documents in [this](../planning-for-arr/application-request-routing-version-2-overview.md) article.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

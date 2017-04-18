@@ -218,6 +218,3 @@ In this task, we generate the failed request and view the resulting trace log. R
 You finished adding a new trace event to a managed module, compiled and deployed that module, configured System.Diagnostics to route its events to IIS's tracing infrastructure, and finally, configured IIS's Failed Request Tracing feature to capture its events. You can now easily add new events to the module, then recompile the module &amp; deploy it to the \bin directory. Using Failed Request Tracing, you see the results of the events.
 
 Remember that using System.Diagnostics.TraceSource allows you to still use your module and its trace events down level, provided you hook it up to a different trace Listener.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1042.aspx)

@@ -246,6 +246,3 @@ To create home directories for each user, you first need to create a virtual or 
 
 
 Global virtual directories are ignored; all virtual directories that are configured at the root-level of your FTP site cannot be accessed by any FTP users. All virtual directories must be explicitly defined under a user's physical or virtual home directory path.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

@@ -77,6 +77,3 @@ On Windows Server 2008, the 8.3 name creation can only be disabled for the entir
 On Windows Server 2008 R2, this setting can be configured per volume.
 
 More information about 8.3 name creation on NTFS is documented in [KB121007](https://support.microsoft.com/kb/121007). To simply disable 8.3 name creation, at the command prompt type **fsutil.exe behavior set disable8dot3 1** and then press ENTER.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

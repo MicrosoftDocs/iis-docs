@@ -203,6 +203,3 @@ The successful display will be the following:
 ## Summary
 
 In this walkthrough, you have learned how to configure URL rewrite rules by using IIS manager or by manually editing Web.config files. The rules that were created in this walkthrough demonstrated some of the important features of the URL Rewrite Module, such as regular expressions support and the ability to use HTTP headers and server variables to make rewriting decisions.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

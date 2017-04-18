@@ -156,6 +156,3 @@ In this walkthrough you learned how to:
 - Add a custom logging provider to your FTP service.
 
 When users connect to your FTP site, the FTP service will create a log file in the path that you specified in the demo provider.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

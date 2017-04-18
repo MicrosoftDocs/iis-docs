@@ -64,5 +64,3 @@ You can also perform a **sync** operation with a manifest live, without using a 
 ## Summary
 
 You have now created a custom manifest and used it for synchronization. You can further extend the manifest by adding any provider paths that are important for your Web site or server, such as a registry key or an assembly in the GAC. For more information about the manifest provider, see [Web Deploy manifest Provider](https://technet.microsoft.com/en-us/library/dd569104.aspx "MS Deploy manifest Provider").
-
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

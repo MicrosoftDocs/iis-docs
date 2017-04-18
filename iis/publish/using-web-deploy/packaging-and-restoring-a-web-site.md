@@ -55,5 +55,3 @@ If you need to package a second directory outside the scope of your Web site, or
 ## Summary
 
 You have now created a package of a Web site, and restored the site from the package. This is useful if you need to revert to a prior version of the site, or if files have become corrupt or missing from the site's content directory.
-
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

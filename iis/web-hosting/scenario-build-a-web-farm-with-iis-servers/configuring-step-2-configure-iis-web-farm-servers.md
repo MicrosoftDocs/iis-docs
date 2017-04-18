@@ -18,13 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In the second phase of building your web farm, you configure shared content and shared configuration on your first web server. Then you add more web servers to your farm.
 
-The following list shows the tasks required to complete this step:
-
-- [2.1. Prepare Your Back-end File Server](#21)
-- [2.2. Configure Shared Content](#22)
-- [2.3. Set up Shared Configuration](#23)
-- [2.4. Add Web Servers to Your Farm](#24)
-
 When you are done with these tasks, record your design decisions before going on to [Step 3: Configure IIS Web Farm Load Balancing](configuring-step-3-configure-iis-web-farm-load-balancing.md).
 
 <a id="21"></a>

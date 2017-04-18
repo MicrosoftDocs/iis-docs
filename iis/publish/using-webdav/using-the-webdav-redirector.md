@@ -23,13 +23,6 @@ Microsoft has created a new WebDAV extension module that has been completely rew
 
 This document walks you through using the WebDAV redirector to publish content to an existing web site that has the new WebDAV module installed.
 
-### In This Walkthrough
-
-- [Installing the WebDAV Redirector](#001)
-- [Mapping Drives using the WebDAV Redirector](#002)
-- [Troubleshooting the WebDAV Redirector](#003)
-- [WebDAV Redirector Registry Settings](#004)
-
 <a id="001"></a>
 ## Installing the WebDAV Redirector
 
@@ -235,5 +228,3 @@ The following table details the various settings and values that are available. 
 | **ServerNotFoundCacheLifeTimeInSec** Specifies the period of time that a server is cached as non-WebDAV by the WebClient service. > [!NOTE]
  > The WebClient service maintains a list of non-WebDAV servers that have been contacted. If the server is found in this list, a fail is returned immediately without attempting to contact the server. | DWORD | Time in seconds | 60 decimal |
 | **SupportLocking** Specifies whether the WebClient service supports locking. | DWORD | | 0 | = | False | | --- | --- | --- | | 1 | = | True | | 1 |
-
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

@@ -82,6 +82,3 @@ Only when both the tools run successfully, you should proceed further with your 
 - [929833 How to use the System File Checker tool to troubleshoot missing or corrupted system files on Windows Vista or on Windows 7](https://support.microsoft.com/default.aspx?scid=kb;EN-US;929833)
 - [928228 How to analyze the log file entries that the Microsoft Windows Resource Checker (SFC.exe) program generates in Windows Vista](https://support.microsoft.com/default.aspx?scid=kb;EN-US;928228)
 - [2509997 Unable to install updates in Windows Vista, Windows 7, Windows Server 2008 and Windows Server 2008 R2](https://support.microsoft.com/default.aspx?scid=kb;EN-US;2509997)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1047.aspx)

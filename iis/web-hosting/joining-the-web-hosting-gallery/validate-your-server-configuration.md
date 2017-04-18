@@ -201,6 +201,3 @@ Once ServerValidator shows valid results, the logical next step is to try websit
 ## Next Steps
 
 Now that you have checked to make sure your server is set up correctly, it is time to start provisioning hosting user accounts. To make it easier for end users to consume your server credentials, we suggest giving out user accounts using our Profile XML format. Create a sample test account and [generate a Profile XML for it](generate-a-profile-xml-file.md).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1157.aspx)

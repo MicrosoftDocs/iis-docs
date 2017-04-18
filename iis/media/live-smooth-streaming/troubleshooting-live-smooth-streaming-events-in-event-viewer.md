@@ -25,6 +25,3 @@ This page will contain troubleshooting information for IIS Live Smooth Streaming
 For information about how to use Event Viewer, see [Monitoring Events](https://technet.microsoft.com/library/cc825761(WS.10).aspx).
 
 For Live Smooth Streaming resources related to events and errors, see [Troubleshooting](../smooth-streaming/microsoft-media-platform-content-map.md#fix).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

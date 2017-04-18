@@ -142,6 +142,3 @@ Or if you want to see how much time already passed since you started the request
 ## Summary
 
 Done. In this walkthrough you learned how to query the state of IIS Application Pools and Sites. You found out how to start and stop them. You also learned how to look at worker processes and currently executing requests.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

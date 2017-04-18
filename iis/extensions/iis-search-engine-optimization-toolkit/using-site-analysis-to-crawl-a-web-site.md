@@ -77,6 +77,3 @@ In order to prevent the IIS Site Analysis crawler from crawling a Web site, add 
 ## Summary
 
 You have now successfully configured the IIS Site Analysis tool to crawl a Web site and gather the data about site's content and structure. For information on how to analyze the gathered data by using Site Analysis reports, refer to "Using Site Analysis Reports".
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1162.aspx)

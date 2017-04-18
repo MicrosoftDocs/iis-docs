@@ -203,6 +203,3 @@ In this walkthrough you learned how to:
 - Add a custom authentication and authorization provider to your FTP service.
 
 When users connect to your FTP site, the FTP service will attempt to authenticate users with your custom authentication provider. If this fails, the FTP service will use other built-in or authentication providers to authenticate users. After users have been authenticated, the FTP service will call the custom authorization provider to authorize users. If this succeeds, the users will be granted access to your server. If this fails, users will not be able to access your server.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

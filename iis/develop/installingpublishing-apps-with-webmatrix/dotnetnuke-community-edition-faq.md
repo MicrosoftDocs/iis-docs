@@ -62,5 +62,3 @@ A: To publish a DotNetNuke Community Edition website, use the following steps:
 **Workaround**:
 
 Publish the site in the first place using non-administrator credentials for the database in Publish Settings.
-
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

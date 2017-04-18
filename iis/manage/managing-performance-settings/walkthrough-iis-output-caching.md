@@ -292,5 +292,3 @@ In the example above, we put all files with the extension JPG into the output ca
 ## Summary
 
 Using the IIS Output Cache feature for semi-dynamic content can improve your web site. You see a substantial improvement in performance and throughput capacity. A simple configuration change is enough to take advantage of this feature.
-
-[Discuss in IIS Forums](https://forums.iis.net/1050.aspx)

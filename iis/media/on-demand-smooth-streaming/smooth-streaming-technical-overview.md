@@ -40,6 +40,4 @@ The [Smooth Streaming](https://www.iis.net/downloads/microsoft/smooth-streaming 
     - Smooth Streaming Manifest Files
     - Smooth Streaming Playback
 
-To view the [Smooth Streaming Technical Overview](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=03d22583-3ed6-44da-8464-b1b4b5ca7520 "Smooth Streaming Technical Overview") as a Microsoft Word document, PDF file, or XPS file, visit [https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=03d22583-3ed6-44da-8464-b1b4b5ca7520](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=03d22583-3ed6-44da-8464-b1b4b5ca7520 "Smooth Streaming Technical Overview").  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)
+To view the [Smooth Streaming Technical Overview](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=03d22583-3ed6-44da-8464-b1b4b5ca7520 "Smooth Streaming Technical Overview") as a Microsoft Word document, PDF file, or XPS file, visit [https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=03d22583-3ed6-44da-8464-b1b4b5ca7520](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=03d22583-3ed6-44da-8464-b1b4b5ca7520 "Smooth Streaming Technical Overview").

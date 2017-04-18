@@ -291,5 +291,3 @@ These keys are in the iisConfigurationKey and iisWasKey key containers and are m
  The parameter after the     **-pi** is the name of the key container to be imported. In this case, it is the "iisConfigurationKey" key container. The other key container that IIS uses is the "iisWasKey" key container. 
 
     [!code-console[Main](shared-configuration_264/samples/sample12.cmd)]
-
-[Discuss in IIS Forums](https://forums.iis.net/1050.aspx)

@@ -93,6 +93,3 @@ And add the following line to the &lt;modules&gt; collection:
 
 
 Restart the tool and a new icon should be available in your site.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1042.aspx)

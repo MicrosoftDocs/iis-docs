@@ -18,10 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this step of building a PHP website on IIS, you configure the WinCache PHP extension, configure PHP settings, and download and configure any other PHP extensions that your application requires.
 
-- [2.1. Configure WinCache](#21)
-- [2.2. Configure Other PHP Settings](#22)
-- [2.3. Configure PHP Extensions](#23)
-
 When you complete these tasks, continue to [Step 3: Configure PHP Application Security](configuring-step-3-configure-php-application-security.md).
 
 <a id="21"></a>

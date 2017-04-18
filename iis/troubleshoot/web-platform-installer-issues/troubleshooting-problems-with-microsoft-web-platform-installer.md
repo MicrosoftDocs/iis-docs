@@ -202,6 +202,3 @@ Web PI is caching the product catalog and other files to optimize startup time. 
 ## Additional Help
 
 If you have exhausted the troubleshooting tips and tricks in this article and are still having problems, visit the Web Platform Installer forum at [https://forums.iis.net/1155.aspx](https://forums.iis.net/1155.aspx).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1155.aspx)

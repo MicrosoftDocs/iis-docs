@@ -198,6 +198,3 @@ You also learned how to collect meaningful information from a Smooth Streaming e
 ## References
 
 - [Getting Started with IIS Smooth Streaming](../../media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming.md)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1160.aspx)

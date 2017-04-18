@@ -18,12 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In the second phase of planning a web farm, determine what is needed to configure shared content and shared configuration. In addition, learn how to add web servers to your farm.
 
-The following list shows the tasks required to complete this step:
-
-- [2.1. Plan for Shared Content](#21)
-- [2.2. Plan for Shared Configuration](#22)
-- [2.3 Plan to Add Web Servers](#23)
-
 When you are done with these tasks, record your design decisions before going on to [Step 3: Plan IIS Web Farm Load Balancing](planning-step-3-plan-iis-web-farm-load-balancing.md).
 
 <a id="21"></a>

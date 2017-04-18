@@ -33,24 +33,6 @@ by Tim Ammann
 Microsoft offers a number of important feature-rich Media Platform Technologies that are useful in a wide variety of scenarios. Nevertheless, some of the technologies offer advantages over others for particular scenarios. This article offers guidance for choosing among them and considerations for migration, including a look at the revolutionary new Windows Azure Media Services platform.
 
 
-## Contents
-
-1 [Platform Technologies](#Toc343780144)
-
-2 [Encoding and Conversion Technologies](#Toc343780145)
-
-3 [Recent History of Media Formats](#Toc343780146)
-
-4 [Why migrate from Windows Media Services to IIS Media Services?](#Toc343780147)
-
-5 [Reasons to use IIS Media Services and Windows Media Services side-by-side](#Toc343780152)
-
-6 [Considerations when migrating to IIS Media Services](#Toc343780154)
-
-7 [The Advantages of Migrating to Windows Azure Media Services](#Toc343780167)
-
-8 [Resources](#Toc343780187)
-
 
 <a id="Toc343780144"></a>
 ## 1 Platform Technologies

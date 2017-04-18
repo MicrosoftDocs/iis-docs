@@ -329,5 +329,3 @@ The output should be something like the following:
 > If you now browse to [http://localhost/](http://localhost/), you may receive a server 500.19 error message. This is a known issue and will be resolved in a later build of IIS. To get around this issue, run "iisreset" from the command line.
 
 That concludes the look at configuration extensibility. Hopefully, you can use configuration extensibility in an interesting way after reading through the examples above.
-
-[Discuss in IIS Forums](https://forums.iis.net/1042.aspx)

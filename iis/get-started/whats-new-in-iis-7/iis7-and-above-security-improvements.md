@@ -146,6 +146,3 @@ This now makes it easy for administrators to define rules and see what is happen
 - [How to Use Request Filtering](../../manage/configuring-security/use-request-filtering.md)
 - [Delegating Administrative Tasks](../../manage/managing-your-configuration-settings/an-overview-of-feature-delegation-in-iis.md)
 - [How to Setup SSL on IIS 7.0 and Above](../../manage/configuring-security/how-to-set-up-ssl-on-iis.md)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

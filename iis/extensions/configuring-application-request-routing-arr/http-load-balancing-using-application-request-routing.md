@@ -168,5 +168,3 @@ Disallowing new connections on a server is a graceful way of taking the server o
 ## Summary
 
 You have now successfully configured a number of settings for Application Request Routing to scale out and distribute the load evenly. For more advanced routing capabilities using Application Request Routing, refer to [Using Application Request Routing](../planning-for-arr/using-the-application-request-routing-module.md).
-
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

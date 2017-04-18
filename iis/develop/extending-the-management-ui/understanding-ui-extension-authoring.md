@@ -195,6 +195,3 @@ Build the solution and run inetmgr and you will see following screenshots
 ## Summary
 
 You have learned how to use extensibility model of inetmgr and create your own custom page. In future articles, I will also talk about how to add taskItems and write to the configuration files.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1042.aspx)

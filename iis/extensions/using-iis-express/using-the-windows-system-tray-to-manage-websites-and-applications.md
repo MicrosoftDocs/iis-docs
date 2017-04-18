@@ -68,6 +68,3 @@ Click the notification for more information, including a detailed error message 
 ![](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image19.png)
 
 For more information about IIS Express, see [Use the Command Line to Run a WebMatrix Site](https://go.microsoft.com/fwlink/?LinkId=195514).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

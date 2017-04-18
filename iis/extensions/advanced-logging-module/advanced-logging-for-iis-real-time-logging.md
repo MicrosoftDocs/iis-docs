@@ -143,6 +143,3 @@ In this walkthrough, we reviewed how real-time logging works in the IIS Advanced
 - [CGlobalModule::OnGlobalTraceEvent Method](https://go.microsoft.com/?linkid=9656643)
 - [Develop a Native C\C++ Module for IIS](https://go.microsoft.com/?linkid=9656651)
 - [CAnalyticsGlobalModule.zip](advanced-logging-for-iis-real-time-logging/_static/advanced-logging-for-iis---real-time-logging-581-canalyticsglobalmodule2.zip) (copy of sample code)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1160.aspx)

@@ -101,5 +101,3 @@ You are now done synchronizing your site. To verify, test browsing to the Web si
 ### Summary
 
 You have now synchronized a web site from a source IIS server to a destination IIS server, including viewing the dependencies, configuring the destination IIS server and performing the synchronization.
-
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

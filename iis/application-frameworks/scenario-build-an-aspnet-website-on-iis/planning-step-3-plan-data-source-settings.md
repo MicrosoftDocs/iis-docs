@@ -18,12 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of building your website, consider the data storage needs of your ASP.NET application. The following sections describe various data-source settings available in IIS:
 
-- [3.1. Data source connection strings](#31)
-- [3.2. ASP.NET providers](#32)
-- [3.3. .NET profiles](#33)
-- [3.4. .NET roles](#34)
-- [3.5. .NET users](#35)
-
 <a id="31"></a>
 ## 3.1. Data source connection strings
 

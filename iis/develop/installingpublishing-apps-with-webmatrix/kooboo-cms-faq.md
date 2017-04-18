@@ -71,6 +71,3 @@ If you try to download an application from a server and you have administrator c
 1:28:29 PM: CREATE LOGIN [MACHINE\Administrator] FROM WINDOW  
 1:28:29 PM: [https://go.microsoft.com/fwlink/?LinkId=178587](https://go.microsoft.com/fwlink/?LinkId=178587)  
 **Workaround:** Publish the site in the first place using non-administrator credentials for the database in Publish Settings.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

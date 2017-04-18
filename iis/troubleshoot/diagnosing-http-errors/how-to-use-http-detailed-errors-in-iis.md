@@ -188,6 +188,3 @@ Second, go to the &lt;httpErrors&gt; section in applicationHost.config and chang
 ## Summary
 
 Custom and Detailed Errors are powerful IIS features. They help you to troubleshoot problems without compromising the security of your IIS Server. Many configuration options help you to custom tailor your users' experience. Most importantly: experimenting with it is fun.
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1052.aspx)

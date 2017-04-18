@@ -94,6 +94,3 @@ Here is the code to get and set values for this configuration section using the 
 
 
 [!code-csharp[Main](extending-iis-schema-and-accessing-the-custom-sections-using-mwa/samples/sample7.cs)]
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1042.aspx)

@@ -679,5 +679,3 @@ See the following resources for further information:
 - [Installing IIS 7.0 and Above on Windows Vista](installing-iis-on-windows-vista-and-windows-7.md)
 - [Installing IIS 7.0 and Above from the Command Line](installing-iis-from-the-command-line.md)
 - [Using Unattended Setup to Install with IIS 7.0 and Above](using-unattended-setup-to-install-iis.md)
-
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

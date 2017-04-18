@@ -18,9 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of Building a PHP website on IIS, consider what PHP configuration settings, web server settings, and PHP application settings you need to strengthen security.
 
-- [3.1. PHP Configuration Settings for Security](#31)
-- [3.2. Web Server and PHP Application Security](#32)
-
 When you are done with these tasks, record your design decisions before going on to [Step 1: Install IIS and PHP](configuring-step-1-install-iis-and-php.md).
 
 <a id="31"></a>

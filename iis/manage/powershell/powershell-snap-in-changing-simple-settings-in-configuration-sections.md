@@ -95,6 +95,3 @@ The example uses the additional parameter -at. This allows you to specify where 
 In this walkthrough you learned how to use the IIS provided web configuration cmdlets. You learned how to query for configuration settings, how to configure settings using location tags, how to take advantage of command-line completion and how to add entries to collections.
 
 In the next walkthrough you will learn how to accomplish some complex configuration tasks using advanced IIS Provider features like globbing and XPath.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

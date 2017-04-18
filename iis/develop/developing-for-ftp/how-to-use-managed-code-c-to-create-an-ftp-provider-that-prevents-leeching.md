@@ -149,6 +149,3 @@ In this walkthrough you learned how to:
 - Add a custom provider to your FTP service.
 
 When an FTP client connects to the FTP service, the FTP provider will count the number of times that an FTP client downloads a file, and prevent the user from downloading more files per-session than you have allowed in your configuration settings.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

@@ -456,6 +456,3 @@ From this we can see that the job failed trying to run BadFailingCommandLine.exe
 ## Closing Notes
 
 During this walkthrough we saw the benefits of having an external facing web application hosting the IIS Transform Manager job status updates. We learned about the POST request message body that is sent to notify our web application of status updates. Then, we looked at how such a web application could be built using an ASP.NET MVC3 Web Application hosted within the Azure Fabric. Finally, we finished the walkthrough with a simple test to view a failed job's instance log entries.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

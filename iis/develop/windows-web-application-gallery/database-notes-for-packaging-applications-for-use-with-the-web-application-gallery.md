@@ -134,5 +134,3 @@ The create user script we use can be parameterized as well. We do recommend para
 - [SQL Azure Limitations](https://msdn.microsoft.com/en-us/library/windowsazure/ff394102.aspx)
 - [Migrating to SQL Azure](https://blogs.msdn.com/b/ssdt/archive/2012/04/19/migrating-a-database-to-sql-azure-using-ssdt.aspx)
 - [MySQL documentation](http://dev.mysql.com/doc/refman/5.1/en/stored-programs-defining.html)
-
-[Discuss in IIS Forums](https://forums.iis.net/1158.aspx)

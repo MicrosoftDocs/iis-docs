@@ -149,6 +149,3 @@ In this walkthrough you learned how to:
 - Add a custom provider to your FTP service.
 
 When users attempt to upload files to your FTP site, the FTP service will send an email message with a success or failure message using the SMTP server settings that you specified in your provider definition.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

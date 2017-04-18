@@ -106,6 +106,3 @@ Let's do the same, i.e. assigning a user to an Application Pool, with the set-it
 ## Summary
 
 In this walkthrough you learned how to use PowerShell-provided cmdlets to manage IIS namespace containers like Sites and Application Pools. You learned how to use hash tables and how to take advantage of command-line completion. In the next walkthrough you will learn how to use IIS Snap-in cmdlets to make configuration changes to IIS configuration settings that are not exposed via the IIS Snap-in namespace.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

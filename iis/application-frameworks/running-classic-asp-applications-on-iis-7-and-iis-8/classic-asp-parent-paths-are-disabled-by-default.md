@@ -88,6 +88,3 @@ For additional detail on parent paths in IIS, see the following page in the Micr
 
 > **Enable Parent Paths Is Disabled by Default in IIS 6.0**  
 > [https://support.microsoft.com/kb/332117](https://support.microsoft.com/kb/332117)
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1044.aspx)

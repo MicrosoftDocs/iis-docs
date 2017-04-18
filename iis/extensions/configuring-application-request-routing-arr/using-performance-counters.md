@@ -101,6 +101,3 @@ Since ARR also provides the above statistics per server per server farm, the ins
 You have successfully located the Application Request Routing performance counters and objects, and they can now be used to aggregate and monitor statistics from one or more ARR servers.
 
 For other ARR Version 2 walkthroughs, see the documents in [this](../planning-for-arr/application-request-routing-version-2-overview.md) article.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

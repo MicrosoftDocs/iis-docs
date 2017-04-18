@@ -282,5 +282,3 @@ For more information, see the [Reference for the Web Application Guide](referenc
 [Web Platform Installer](https://www.microsoft.com/web/downloads/).
 
 [CodePlex.](http://www.codeplex.com/)
-
-[Discuss in IIS Forums](https://forums.iis.net/1158.aspx)

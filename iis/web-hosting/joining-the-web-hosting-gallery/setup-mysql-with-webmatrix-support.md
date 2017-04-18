@@ -52,6 +52,3 @@ Since MySQL is installed on the database server, which is different than the web
 If you happen to lose the credentials to your MySQL database, this article may help:
 
 [http://dev.mysql.com/doc/refman/5.1/en/resetting-permissions.html#resetting-permissions-windows](http://dev.mysql.com/doc/refman/5.1/en/resetting-permissions.html#resetting-permissions-windows)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1157.aspx)

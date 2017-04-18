@@ -89,6 +89,3 @@ SSL is ready to go now and you can browse to your site by entering [https://loca
 ## Summary
 
 It is fairly straightforward process to set up SSL with PowerShell. You need to get a certificate, create an SSL binding in IIS and then use the IP and Port of the IIS binding to create a SSL binding in HTTP.SYS.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

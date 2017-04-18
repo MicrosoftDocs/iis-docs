@@ -51,6 +51,3 @@ Scavenge.exe is a command line tool that can be used for managing the secondary 
 This will delete all files located in [\\ARR\SecondaryCache](file://arr/SecondaryCache) that are older than 4 days, 11 hours, 30 minutes and 15 seconds. Note that the tool must be run as a user with permissions to delete content on the specified share.
 
 Windows Task Scheduler can be used to run this tool at specified internval to delete old cached content from the secondary cache drive.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

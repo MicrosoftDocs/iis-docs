@@ -127,5 +127,3 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 This document explains how to define applications and virtual directories in the master configuration file, applicationHost.config. It also covers how to deploy application-specific configuration files that contain server settings in the **&lt;system.webServer&gt;** section. You can add settings to the web.config file in the **&lt;system.web&gt;** section group, such as ASP.NET settings.
 
 A good practice is to set access control lists (ACLs) on the web.config file or on the entire directory of your application so that non-administrative users cannot access the file.
-
-[Discuss in IIS Forums](https://forums.iis.net/1111.aspx)

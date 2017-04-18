@@ -130,5 +130,3 @@ To remove Application Request Routing completely, the 4 packaged components must
 ## Summary
 
 You have now successfully installed Application Request Routing and the dependent modules, and are ready to configure and use the features. You may also want to read a quick overview at %PROGRAMFILES%\IIS\Application Request Routing\ARR\_ReadMe.htm for more information.
-
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

@@ -216,6 +216,3 @@ Configure and enable disk cache by following [this](../configuring-application-r
 You have now successfully configured child cache node(s) and parent cache node(s) in a 2-tiered cache hierarchy CDN/ECN environment using advanced URL rewrite rules. To verify functionality, you can follow Step 4 and Step 5 in [this](../configuring-application-request-routing-arr/configure-and-enable-disk-cache-in-application-request-routing.md) article. If there are errors, enable Failed Request Tracing rules by following the steps in [this](../../troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr.md) article.
 
 For other ARR Version 2 walkthroughs, see the documents in [this](../planning-for-arr/application-request-routing-version-2-overview.md) article.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

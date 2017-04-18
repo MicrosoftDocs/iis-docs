@@ -18,12 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 Now that IIS is installed all web servers. All web servers share both contend and configuration. And IIS and ARR are installed on your load balancing server. It is time to configure ARR and turn your servers into a functioning web farm.
 
-The following list shows the tasks required to complete this step:
-
-- [3.1. Create a Server Farm with ARR](#31)
-- [3.2. Configure Load Balancing with ARR](#32)
-- [3.3. Change Application Pool Settings](#33)
-
 When you are done with these tasks, record your design decisions before going on to [Step 4: Configure SSL Central Certificate Store](configuring-step-4-configure-ssl-central-certificate-store.md).
 
 <a id="31"></a>

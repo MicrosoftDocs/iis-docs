@@ -59,6 +59,3 @@ After completing the above steps, you will then need to formally [submit an appl
 ## Next Steps
 
 First, you need to make sure you have the [necessary server components](install-server-components.md "Install required server components") to fully support WebMatrix and fulfill the Spotlight requirements of the Web Hosting Gallery.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1157.aspx)

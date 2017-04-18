@@ -127,6 +127,3 @@ To start Remote Manager after installation, follow these instructions:
 3. After Remote Manager starts you can connect to a server, site or application by going to the site menu and clicking the appropriate options.   
     [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image31.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image30.jpg)
 4. After you select which type of connection you want to make, a wizard displays. Follow the wizard and enter the request details to make a remote connection.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1111.aspx)

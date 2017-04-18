@@ -118,6 +118,3 @@ To create the HTML5 page, do the following:
 
 | ![Note](delivering-transform-manager-output-to-clients/_static/image1.gif) **Notes** - If the device displays a message box that says "Can't open Movie," it's likely that you're using a profile that's not supported by the device. This error message is typically seen when sending a Baseline Level 3.1 profile or Main Level 3.1 to a device that only supports Baseline Level 3.0 (older iPhone devices and iPod touch devices). - You might see an error message if you try to play the stream when there are fewer than 3 segments available in the playlist. This can happen if you don't wait for 3 times the segment length; for example, 30 seconds when the default segment length is set to 10 seconds. |
 | --- |
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

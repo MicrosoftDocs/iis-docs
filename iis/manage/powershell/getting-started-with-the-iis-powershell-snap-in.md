@@ -34,6 +34,3 @@ Follow the subsequent walkthroughs. They cover the comprehensive functionality o
 - [Querying and Changing Run-time Data (Web-Site State, Application Pool State, Currently Executing Requests)](powershell-snap-in-run-time-data.md "Run-Time Data")
 - [Advanced Configuration Tasks](powershell-snap-in-advanced-configuration-tasks.md "Advanced Configuration Tasks")
 - [Configuring SSL with the IIS PowerShell Snap-in](powershell-snap-in-configuring-ssl-with-the-iis-powershell-snap-in.md)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

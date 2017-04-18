@@ -149,5 +149,3 @@ If you are collecting the Failed Request Tracing logs on server core, you must c
 ## Summary
 
 You have now successfully configured Failed Request Tracing Rules for Application Request Routing. Failed Request Tracing Rules can be used to troubleshoot and debug Application Request Routing, as well as understand the routing decisions, including load balance algorithms, that it has made in selecting the destination server for a given request.
-
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

@@ -307,6 +307,3 @@ Here's what this batch file does:
 1. Creates a tab-separated file that contains a list of unique site IDs
 2. Creates a loop to step through the tab-separated file containing the site IDs
 3. Selects all fields for the specific site ID and creates a new W3C format file for each site
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

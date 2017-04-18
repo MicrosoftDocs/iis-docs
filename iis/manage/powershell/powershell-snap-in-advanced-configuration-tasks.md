@@ -85,6 +85,3 @@ We will probably pack these commands into some functions at a later Tech Preview
 ## Summary
 
 In this walkthrough you learned how to accomplish complex IIS configuration tasks by using wildcards and XPath queries. The next walkthrough will discuss how to discover state and run-time data.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

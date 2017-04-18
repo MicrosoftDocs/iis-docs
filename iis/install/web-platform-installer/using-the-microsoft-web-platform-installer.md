@@ -223,6 +223,3 @@ You can also refer to [Windows Web Application Gallery: Known Issues](../../deve
 [Web Platform Installer](https://technet.microsoft.com/en-us/library/ee506569(WS.10).aspx).
 
 [Microsoft.Web.PlatformInstaller Namespace](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.aspx).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1155.aspx)

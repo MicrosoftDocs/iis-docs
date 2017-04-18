@@ -75,6 +75,3 @@ IIS 7 and above also makes the process of configuring an application pool identi
 If you want to disable this feature and manually add accounts to the IIS\_IUSRS group, disable this new feature by setting the **manualGroupMembership** value to '**true**'. The following example shows how this can be done to the **defaultAppPool**:
 
 [!code-xml[Main](understanding-built-in-user-and-group-accounts-in-iis/samples/sample2.xml)]
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

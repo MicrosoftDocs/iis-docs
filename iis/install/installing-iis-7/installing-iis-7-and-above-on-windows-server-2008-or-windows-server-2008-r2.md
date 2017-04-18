@@ -198,5 +198,3 @@ In the Windows Server 2008 and Windows Vista operating systems, Pkgmgr.exe is us
 [Editing Configuration Files](../../get-started/planning-your-iis-architecture/editing-configuration-files.md).
 
 [Extending IIS Configuration](../../develop/extending-iis-configuration/extending-iis-configuration.md).
-
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

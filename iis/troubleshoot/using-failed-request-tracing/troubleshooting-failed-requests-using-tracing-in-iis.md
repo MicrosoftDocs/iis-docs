@@ -197,6 +197,3 @@ You have completed two tasks: configured failed request tracing to capture trace
 Now that you have completed the tasks in this article, you can restore the backup of the configuration. Run the following command with administrator user rights:
 
 [!code-console[Main](troubleshooting-failed-requests-using-tracing-in-iis/samples/sample5.cmd)]
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1052.aspx)

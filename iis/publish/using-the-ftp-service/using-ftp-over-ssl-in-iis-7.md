@@ -239,6 +239,3 @@ In this task you added SSL-based FTP publishing to your Default Web Site by edit
 - You enabled FTP basic authentication and disabled FTP anonymous authentication for the Default Web Site.
 - You configured the site to require SSL for all control channel and data channel activity.
 - You configured the administrator account for Read/Write permissions for the Default Web Site.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

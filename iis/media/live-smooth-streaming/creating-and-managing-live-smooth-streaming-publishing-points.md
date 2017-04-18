@@ -414,6 +414,3 @@ The connection details are updated every two seconds.
 
 > [!NOTE]
 > For an overview of how you can use track and connection details for server monitoring and troubleshooting, see Sam Zhang's blog post, [New Live Smooth Streaming UI Explained](https://go.microsoft.com/?linkid=9750580).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

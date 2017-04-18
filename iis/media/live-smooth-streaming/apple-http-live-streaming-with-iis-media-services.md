@@ -238,6 +238,3 @@ If the video plays smoothly, you've successfully enabled Apple HTTP Live Streami
 You can use [Microsoft's open source media player framework (MMPPF)](https://go.microsoft.com/?linkid=9733035) to quickly deploy a robust, scalable, customizable media player for IIS Smooth Streaming delivery. Deploy the media player to the same website and point it to the same Live Smooth Streaming publishing point to enable playback to Silverlight clients on computers running Windows, Macintosh®, and Linux operating systems. IIS Media Services 4 can deliver media to more screens from a single set of live streams than other solutions available on the market today.  
 ![](apple-http-live-streaming-with-iis-media-services/_static/image2.jpg)  
 The MMPPF builds on the core functionality of the [IIS Smooth Streaming Client](https://go.microsoft.com/?linkid=9733034).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

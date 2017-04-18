@@ -26,5 +26,3 @@ There are various steps you can take to optimize Windows Server® 2008 R2 or Win
 - [Create a Separate Site or Virtual Directory for PHP Content](create-a-separate-site-or-virtual-directory-for-php-content.md). Self-hosters or very small hosters may need create a separate site or virtual directory to host their PHP content on a system that is also used for other workloads.
 
 [Best Practices for PHP on the Microsoft Web Platform](../running-php-applications-on-iis/best-practices-for-php-on-the-microsoft-web-platform.md) provides a summary of additional steps you can take.
-
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

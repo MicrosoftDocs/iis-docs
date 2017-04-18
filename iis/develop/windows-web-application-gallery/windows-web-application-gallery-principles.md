@@ -30,6 +30,3 @@ To be part of the Windows Web Application Gallery, developers should follow thes
 - **Be Inclusive**: If your link is included in the Gallery, you should include a link on your application community's Web site to your application entry on the Windows Web Application Gallery.
 - **Be Safe**: The application to which you provide a link must not harm customers or be malicious, dishonest, destructive, invasive, or act in any manner restricted by the Web Gallery Application Submission agreement.
 - **Be a Web App**: The application to which you provide a link must be a Web application that can be used to generate a working, usable Web site after deployment *without* requiring code or customization. All submissions should adhere to the application categories currently available in the Windows Web Application Gallery.
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1158.aspx)

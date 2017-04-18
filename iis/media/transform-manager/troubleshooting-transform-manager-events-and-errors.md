@@ -57,6 +57,3 @@ Content for this section is coming soon!
 ## Troubleshooting Events
 
 Content for this section is coming soon!
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

@@ -170,6 +170,3 @@ To configure the publishing point on the downstream server, follow the steps in 
 
 On the **Advanced Settings** tab, clearing the **Allow server connections** check box is recommended unless the publishing point will be used for further syndication.  
 [![](syndicating-live-smooth-streams-between-servers/_static/image13.png)](syndicating-live-smooth-streams-between-servers/_static/image12.png)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

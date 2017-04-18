@@ -112,6 +112,3 @@ This problem can be easily prevented if you add one extra condition to the rewri
 
 
 [!code-xml[Main](url-rewriting-for-aspnet-web-forms/samples/sample6.xml)]
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

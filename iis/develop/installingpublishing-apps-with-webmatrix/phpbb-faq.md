@@ -49,6 +49,3 @@ A: To publish a phpBB website, use the following steps:
 
 **Issue:** phpBB gives a "Service is unavailable" error after publishing  
 **Workound:** In WebMatrix, click Publish Settings and add a slash "\" after the server name. Publish the application again.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

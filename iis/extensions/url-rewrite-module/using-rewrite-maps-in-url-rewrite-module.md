@@ -172,6 +172,3 @@ To test the rewrite rule that uses "**IDtoTitleMap**" map, open web browser and 
 In this walkthrough you have learned how to use rewrite maps to define URL mappings for rewrite and redirect rules. Also you have learned how to use rewrite maps to manipulate the query string parameters.
 
 The rewrite maps allow you to reduce the number of rewrite rules when rewrite and redirect URL's are static and rewriting logic cannot be expressed by using any pattern matching techniques.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

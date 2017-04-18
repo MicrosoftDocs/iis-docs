@@ -192,6 +192,3 @@ To obtain support from Microsoft, go to [Microsoft Support](https://go.microsoft
 ## For More Information
 
 To keep up-to-date with the latest Transform Manager feature news and developments, go to the [Transform Manager Home page](https://go.microsoft.com/?linkid=9735207) on IIS.net.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

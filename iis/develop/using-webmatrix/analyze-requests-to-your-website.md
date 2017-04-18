@@ -80,6 +80,3 @@ When you make requests, you can view the results in real-time so that you can id
   
     [![](analyze-requests-to-your-website/_static/image23.png)](analyze-requests-to-your-website/_static/image21.png)
 9. When you re-run the page, the resolved error will no longer appear in the results list.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

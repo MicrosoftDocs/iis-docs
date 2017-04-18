@@ -192,6 +192,3 @@ To test the rule open [WFetch](https://www.microsoft.com/downloads/details.aspx?
 From WFetch make a request to `http://localhost/test/`. You should see that the connection gets aborted because the user agent string has matched one of the strings in disalloweduseragents.txt file.
 
 [![](using-custom-rewrite-providers-with-url-rewrite-module/_static/image10.png)](using-custom-rewrite-providers-with-url-rewrite-module/_static/image9.png)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

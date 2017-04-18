@@ -81,6 +81,3 @@ Get-Item for example, is a command that allows you to get details about the item
 ## Summary
 
 This walkthrough gave you a quick introduction in how the IIS Snap-in namespace is organized. You also learned some basic command to find your way around in the IIS namespace.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

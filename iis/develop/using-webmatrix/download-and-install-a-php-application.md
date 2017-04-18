@@ -86,6 +86,3 @@ When the **Site from Web Gallery** wizard has closed, WebMatrix automatically op
 [![](download-and-install-a-php-application/_static/image39.png)](download-and-install-a-php-application/_static/image37.png)
 
 You can customize the WordPress application for your use, test your website locally using the IIS Express Web server that comes with WebMatrix, or publish it to a public website.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

@@ -302,6 +302,3 @@ In this whitepaper, two main ARR scenarios were reviewed to achieve high availab
 | SERVER\_ADDR | SERVER\_NAME | SERVER\_PORT |
 | SERVER\_PORT\_SECURE | SERVER\_PROTOCOL | SERVER\_SOFTWARE |
 | URL |  |  |
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

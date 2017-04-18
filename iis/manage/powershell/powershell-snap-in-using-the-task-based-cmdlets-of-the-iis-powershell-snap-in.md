@@ -169,6 +169,3 @@ Now you can look at the trace file by opening the xml file in Internet Explorer:
 The new task-based cmdlets will give Administrators an easy way to accomplish day-to-day IIS task with PowerShell. The cmdlets offer location-awareness and intuitive syntax and help.
 
 The low-level IIS cmdlets shipped since Tech Preview 1 will still allow more advanced IIS Administration tasks.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

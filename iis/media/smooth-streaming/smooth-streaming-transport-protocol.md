@@ -52,5 +52,3 @@ The IIS Smooth Streaming Transport Protocol Specification includes the following
 - 7 Change Tracking
 
 Click here to download the specification: [IIS Smooth Streaming Transport Protocol Specification](https://go.microsoft.com/?linkid=9682896 "IIS Smooth Streaming Transport Protocol Specification")
-
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

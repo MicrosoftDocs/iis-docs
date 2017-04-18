@@ -18,15 +18,6 @@ by IIS Team
 
 > This article provides an overview of the HttpPlatformHandler and explains the configuration of the module.
 
-
-[Functionality Overview](#_Functionality_Overview)
-
-[HttpPlatformHandler Configuration](#_HttpPlatformHandler_Configuration)
-
-[HttpPlatformHandler Configuration Examples](#_HttpPlatformHandler_Configuration_E)
-
-[Sample Code](#_Sample_Code)
-
 <a id="_Functionality_Overview"></a>
 ## Functionality Overview
 

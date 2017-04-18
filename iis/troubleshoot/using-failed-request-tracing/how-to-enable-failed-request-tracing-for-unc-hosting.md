@@ -209,5 +209,3 @@ The actual XML looks like the following in the web.config file for the Default W
 ## Checking the UNC Back End
 
 Browse to the website that we set up in order to log Failed Request Tracing rules to the UNC path (say [http://uncsite/default.aspx](http://uncsite/default.aspx)) . Check the UNC back end server directory where you are logging. Notice that a new directory called W3SVC1 has been created within the configured Failed Request Log File Directory. Browse into that directory, and see the log file and the FREB.xsl file.
-
-[Discuss in IIS Forums](https://forums.iis.net/1052.aspx)

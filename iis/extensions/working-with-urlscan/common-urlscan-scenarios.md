@@ -261,6 +261,3 @@ This query would yield results like those below and can be used to analyze malic
 
 
 [!code-console[Main](common-urlscan-scenarios/samples/sample27.cmd)]
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

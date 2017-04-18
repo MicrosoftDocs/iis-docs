@@ -101,6 +101,3 @@ These are the Code Snippets to perform walkthrough steps 2 and 3. All of this wa
 **C# Code:** 
 
 [!code-csharp[Main](configuring-one-to-one-client-certificate-mappings/samples/sample4.cs)]
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

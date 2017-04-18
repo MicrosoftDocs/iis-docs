@@ -56,6 +56,3 @@ If you have a site called "Site1" setup on the server under c:\site1 folder and 
 2. Modify c:\site1\UrlScan.ini with all the options that you want for your site filter. The default UrlScan.ini file that you can [download here](https://www.iis.net/community/files/UrlScan/UrlScan-ini_v3.zipdownloads/files/UrlScan/UrlScan-ini_v31.zip) has the options listed with comments on what they do.
 3. Register c:\site1\UrlScan.dll as a site filter. Run "inetmgr" and drill down to "Site1" in your left hand pane. For IIS 5.1 and 6.0, right-click on "Site1" and select "Properties" then go to the "ISAPI Filters" tab and add a new filter and point the executable to c:\site1\UrlScan.dll. For IIS 7.0 and above, you should see an ISAPI Filters icon under the IIS category and double-clicking this will bring up an "Add…" action which you can then point the executable to c:\site1\UrlScan.dll
 4. Using the up arrow key, move the UrlScan filter to the top to make it the highest priority filter. This step is essential for the filter to function correctly.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

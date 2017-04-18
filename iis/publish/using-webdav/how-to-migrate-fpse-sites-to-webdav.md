@@ -262,6 +262,3 @@ For additional information about using WebDAV, please see the following articles
 - [Installing and Configuring WebDAV on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=105146)
 - [How to manage WebDAV using AppCmd](https://go.microsoft.com/fwlink/?LinkId=108319)
 - [How to configure WebDAV and Request Filtering](https://go.microsoft.com/fwlink/?LinkId=108321)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

@@ -447,6 +447,3 @@ We added the image copyright handler configuration to the IIS configuration syst
 ### IIS User Interface Extensibility
 
 To give our feature the visibility it deserves, we added an IIS User Interface Module. Although not shown, the IIS User Interface is completely remotable via HTTPS.
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1042.aspx)

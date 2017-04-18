@@ -143,6 +143,3 @@ A result of 0 indicates success.
 ## Summary
 
 In this article, we examined how to use pckmgr.exe to install the Operating System and IIS 7.0.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

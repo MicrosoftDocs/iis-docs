@@ -18,13 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this step of building a PHP website, you install IIS and FastCGI, download and install PHP and the WinCache extension, and upload your PHP application.
 
-The following list shows the tasks required to complete this step:
-
-- [1.1. Install IIS](#11)
-- [1.2. Install PHP by using Web PI](#12)
-- [1.3. Download and Install PHP Manually](#13)
-- [1.4. Add Your PHP Application](#14)
-
 When you are done, make sure that IIS and the PHP are installed, and your PHP application has been added to your website. Then go on to [Step 2: Configure PHP Settings](configuring-step-2-configure-php-settings.md).
 
 <a id="11"></a>

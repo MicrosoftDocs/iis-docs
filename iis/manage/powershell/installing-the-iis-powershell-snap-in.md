@@ -89,6 +89,3 @@ To trust the IIS Provider scripts and binaries you can hit "A" in the above dial
 ## Summary
 
 In this walkthrough you learned how to automatically or manually install the IIS PowerShell Snap-in.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

@@ -92,6 +92,3 @@ These articles cover the functionality of the URL Rewrite v2.0 and explain how t
 ### Functionality reference
 
 - [URL Rewrite Module v2.0 configuration reference](url-rewrite-module-20-configuration-reference.md)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

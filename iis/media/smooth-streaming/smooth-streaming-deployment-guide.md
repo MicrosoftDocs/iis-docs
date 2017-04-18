@@ -25,6 +25,3 @@ Smooth Streaming provides media companies with a better way to make full-HD (108
 The Smooth Streaming Deployment Guide describes the Microsoft implementation for delivering a full Smooth Streaming experience. As a content producer, you can encode on-demand files and live broadcasts to Smooth Streaming format using Microsoft Expression Encoder 4. As a content provider, you can use IIS Media Services to serve the encoded Smooth Streams. And as a content consumer, you can play the Smooth Streams using a Smooth Streaming-compatible client, such as Microsoft Silverlight.
 
 You can **[download](https://go.microsoft.com/?linkid=9737462 "IIS Smooth Streaming Deployment Guide")** the Smooth Streaming Deployment Guide as a Microsoft Word document or PDF file.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

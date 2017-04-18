@@ -130,5 +130,3 @@ To learn more about the Web PI schema, see the [Web Platform Installer Schema Re
 To view the Web PI API documentation, see the [Microsoft.Web.PlatformInstaller Namespace](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.aspx) article on MSDN.
 
 For troubleshooting information, including a list of known issues with the Web PI, see [Troubleshooting Problems with Web Platform Installer 2.0](../../troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer.md) on IIS.net.
-
-[Discuss in IIS Forums](https://forums.iis.net/1155.aspx)

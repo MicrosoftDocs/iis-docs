@@ -74,6 +74,3 @@ Visual Studio 2010 SP1 does not consume this settings file, but WebMatrix can us
 6. Click **Save** to publish the application.
 
 If publishing to this server succeeds, we know that Web Deploy is set up correctly. If you are seeing issues, read Troubleshooting Common Web Deploy Problems.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

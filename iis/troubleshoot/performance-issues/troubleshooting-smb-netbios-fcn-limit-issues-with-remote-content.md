@@ -101,6 +101,3 @@ ASP.NET Content
 - [UNC-based Caching Considerations](https://technet.microsoft.com/en-us/library/cc778350(WS.10).aspx)
 - [IIS and File Server Configuration Scenarios for SMB Scaling (IIS 6.0)](https://technet.microsoft.com/en-us/library/dd296655(WS.10).aspx)
 - [Two Minute Drill: Overview of SMB 2.0](http://blogs.technet.com/b/askperf/archive/2008/05/30/two-minute-drill-overview-of-smb-2-0.aspx)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

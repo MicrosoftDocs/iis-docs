@@ -323,5 +323,3 @@ To isolate the worker process settings, we:
 - We removed access to the anonymous authentication provider for IIS\_IUSRS and granted access to just the application pool identity
 
 This effectively ensured that the application pool identity can decrypt the anonymous password it belongs too and no one else.
-
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

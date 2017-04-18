@@ -143,6 +143,3 @@ The following example shows a connection string in a Web.config file for a SQL S
 The following example shows a connection string for a full SQL Server database named CohoWinery that is on a server named "Server01", using integrated Windows authentication. The connection string for the database named SmallBakery shows how to use SQL Server authentication (that is, how to specify a user name and password).
 
 [!code-xml[Main](publish-your-website/samples/sample2.xml)]
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

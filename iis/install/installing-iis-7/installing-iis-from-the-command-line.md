@@ -130,5 +130,3 @@ See the following resources for further information:
 - [Install IIS 7.0 on Windows Vista](installing-iis-on-windows-vista-and-windows-7.md)
 - [Use Unattended Install with IIS 7 and Above](using-unattended-setup-to-install-iis.md)
 - [Install Typical IIS Workloads](install-typical-iis-workloads.md)
-
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

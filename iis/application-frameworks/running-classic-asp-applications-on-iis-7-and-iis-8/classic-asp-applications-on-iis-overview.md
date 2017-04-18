@@ -23,6 +23,3 @@ Microsoft introduced Active Server Pages (ASP) over a decade ago with the releas
 Beginning with IIS 6.0, ASP became an optional component in IIS as the popularity of .NET technologies and ASP.NET continued to gain strength with developers around the world. In IIS 7.0, IIS 7.5, and above, Microsoft's support for ASP.NET has reached new levels of maturity; likewise, by using FastCGI, so has support for non-Microsoft development Web technologies such as PHP and Ruby on Rails.
 
 Despite the popularity of ASP.NET and other development technologies, developers who continue to use applications that rely on the classic version of ASP will still find IIS to be a first-class development platform when they consider the deployment environment for their applications. The topics in this section provide developers and Web server administrators with information to consider when deploying classic ASP applications.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1044.aspx)

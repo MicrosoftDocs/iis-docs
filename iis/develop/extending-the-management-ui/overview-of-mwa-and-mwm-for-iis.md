@@ -147,6 +147,3 @@ The **WizardForm** forms the base classes of all dialogs. Developers can specify
 The classes in this namespace provide client-side extensibility using the IExtensibilityManager. For example, the AuthenticationFeature has the tasks for every entry in the Authentication feature in the InetMgr tool.
 
 This is a brief overview of the functionality that the Microsoft.Web.Administration and the Microsoft.Web.Management APIs offer a developer who wishes to extend the configuration and the UI to add his own features. For more in-depth descriptions of how configuration extensibility and UI extensibility work, see the individual articles which cover these topics.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1042.aspx)

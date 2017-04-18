@@ -152,5 +152,3 @@ The connection string includes the database server, database name, and user cred
 [Videocast: Database Manager](https://www.iis.net/downloads/microsoft/database-manager).
 
 [Working with the Database Manager](index.md).
-
-[Discuss in IIS Forums](https://forums.iis.net/1161.aspx)

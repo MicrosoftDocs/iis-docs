@@ -56,5 +56,3 @@ Web Deploy 2.0 also contains scripts which automates the above process, plus scr
 ## Next Steps
 
 After you have all your server components installed and configured, you should try [validating your setup](validate-your-server-configuration.md "Validate your server setup").
-
-[Discuss in IIS Forums](https://forums.iis.net/1157.aspx)

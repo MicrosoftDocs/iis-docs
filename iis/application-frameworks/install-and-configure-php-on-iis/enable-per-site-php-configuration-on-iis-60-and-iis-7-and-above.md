@@ -156,5 +156,3 @@ If you want to allow Web application owners to control PHP settings themselves, 
 [PHP Community Forum](https://forums.iis.net/1102.aspx).
 
 [IIS Administration Pack](https://www.iis.net/downloads/microsoft/administration-pack).
-
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

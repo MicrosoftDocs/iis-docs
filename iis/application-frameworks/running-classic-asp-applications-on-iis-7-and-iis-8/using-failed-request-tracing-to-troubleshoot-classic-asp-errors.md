@@ -177,6 +177,3 @@ For additional information about Failed Request Tracing in IIS, see the followin
 
 - [Walkthrough: Troubleshooting Failed Requests Using Tracing in IIS 7.0 and Above](../../troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis.md)
 - [Configuration Reference: Trace Failed Requests](https://www.iis.net/configreference/system.webserver/tracing/tracefailedrequests)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1044.aspx)

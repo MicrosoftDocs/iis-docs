@@ -114,6 +114,3 @@ The workaround for this scenario is to use an explicit validationKey attribute i
 - [Troubleshooting the "View state is invalid" error with ASP.NET](https://support.microsoft.com/kb/829743)
 - [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](https://msdn.microsoft.com/en-us/library/aa302388.aspx)
 - [How to create keys by using Visual C# .NET for use in Forms authentication](https://support.microsoft.com/kb/312906)
-  
-  
-[Discuss in IIS Forums](https://forums.asp.net/22.aspx/1?State+Management)

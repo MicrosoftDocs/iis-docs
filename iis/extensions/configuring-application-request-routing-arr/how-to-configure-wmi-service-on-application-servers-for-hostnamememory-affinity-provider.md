@@ -119,6 +119,3 @@ The following steps are to be performed on ***all the application servers in the
 6. Note that the **Test...** button appears only after the change is applied. This is because the test must impersonate the identity of the worker process. Ensure that the test passes:
 
     [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image23.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image22.jpg)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

@@ -317,6 +317,3 @@ For more information regarding hosting PHP applications on IIS refer to the foll
 - [Configuring FastCGI extension for IIS 6.0](../install-and-configure-php-on-iis/configuring-the-fastcgi-extension-for-iis-60.md)
 - [Using FastCGI extension to host PHP on IIS 6.0](using-fastcgi-to-host-php-applications-on-iis-60.md)
 - [Installing FastCGI support on Windows Server 2008 Core](../install-and-configure-php-on-iis/install-php-and-fastcgi-support-on-server-core.md)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

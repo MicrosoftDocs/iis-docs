@@ -408,6 +408,3 @@ To install IIS 7.0 and above features for IIS 6.0 management via ServerManagerCm
 ## Summary
 
 In this article we saw how to install IIS 7.0 and above to support specific workloads, and how these workloads can be combined and modified. We also looked at adding IIS 7.0 and above features for tracing, security, IIS 6.0 compatibility, local and remote management, and IIS 6.0 management. After installing IIS 7.0 and above with the Server Manager Tool you can then use the Web Server Role Page for quick view of IIS 7.0 and above status, and use the IIS 7.0 and above management Console to configure the IIS features you installed.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

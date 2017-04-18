@@ -210,5 +210,3 @@ The above location tag unlocks the section for the default web site only. To unl
 ## Summary
 
 This hopefully familiarizes you with the new, powerful structure of the new applicationhost.config. To drill-down into the different pieces, you should review the IIS Schema located in %windir%\system32\inetsrv\config\schema\iis\_schema.xml.
-
-[Discuss in IIS Forums](https://forums.iis.net/1046.aspx)

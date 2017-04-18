@@ -154,6 +154,3 @@ o Resolution(s): Open the tracing logs at %systemdrive%\inetpub\logs\wmsvc\traci
 ### Summary
 
 This guide shows how to configure the WMSVC and the deployment handler to allow users to manage their Web applications and describes steps to use IIS Manager to create and install a package to verify that the delegation rules are working.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

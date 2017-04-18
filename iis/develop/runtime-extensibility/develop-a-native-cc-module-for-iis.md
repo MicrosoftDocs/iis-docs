@@ -178,6 +178,3 @@ The task is complete--we have finished configuring the new native module.
 In this walkthrough, you learned how to develop and deploy a custom native module using the new native (C++) extensibility APIs. Please consult the [IIS 7.0 SDK documentation](https://msdn.microsoft.com/en-us/library/ms692515.aspx) to learn more about the native (C++) server APIs.
 
 To learn about extending IIS using managed code and the .NET framework, see [Developing an IIS module With .NET](developing-a-module-using-net.md). To learn more about managing IIS modules, see the [module overview white paper](../../get-started/introduction-to-iis/iis-modules-overview.md).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1042.aspx)

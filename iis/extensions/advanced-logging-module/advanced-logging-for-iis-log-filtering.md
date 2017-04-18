@@ -200,6 +200,3 @@ To create a complex filter for a log definition that uses multiple conditions as
 In this walk-through, we learned how to create a simple filter with a single expression as well as more complex filters consisting of multiple expressions and multiple conditions. In the process, we also learned how to use regular expressions to perform a pattern match on string values and how to create a new log definition by cloning an existing one.
 
 Hopefully, this will help to make extracting the right information from your logs much more manageable.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1160.aspx)

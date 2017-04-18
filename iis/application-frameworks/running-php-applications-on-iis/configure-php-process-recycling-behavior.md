@@ -57,5 +57,3 @@ To configure the recycling behavior of FastCGI and PHP via **appcmd**, use the f
 ## Links for Further Information
 
 [Using FastCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md).
-
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

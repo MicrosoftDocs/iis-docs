@@ -234,6 +234,3 @@ For information regarding Microsoft's Windows Firewall software, please see the 
 
 - [Windows Firewall FAQ](https://www.microsoft.com/protect/computer/firewall/faq.mspx)
 - [TechNet Webcast: Windows Firewall with Advanced Security (Level 200)](http://msevents.microsoft.com/CUI/WebCastEventDetails.aspx?EventID=1032313272)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

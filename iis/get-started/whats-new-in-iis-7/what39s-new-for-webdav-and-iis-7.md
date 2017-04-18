@@ -84,6 +84,3 @@ The following changes or issues are known for this release:
 - While many Web-based features can be delegated to remote managers and added to web.config files using the new IIS configuration infrastructure, WebDAV extension module features cannot be delegated or stored in web.config files.
 - Anonymous PROPFINDs are allowed for file listings, but file uploads and WebDAV-based GET requests require an authenticated user. This is a change from IIS 6.0, where anonymous WebDAV file uploads/downloads could be enabled by opening up your security. In WebDAV for IIS 7.0 and above we changed this behavior so that all WebDAV activity would require authentication, but we allow for the use of anonymous PROPFINDs for backward-compatibility with some WebDAV clients. (More specifically, the PUT, MKCOL, PROPPATCH, COPY, MOVE, DELETE, and WebDAV-based GET requests all require authentication.)
 - The new WebDAV module supports a simple property store that uses a separate file that allows you to easily copy your properties between servers. (In IIS 6.0, properties were stored in an NTFS alternate data stream, making it difficult to copy your properties between disparate file systems.)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

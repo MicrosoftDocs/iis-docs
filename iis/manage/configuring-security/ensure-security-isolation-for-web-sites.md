@@ -159,5 +159,3 @@ After configuring the NTFS permissions, only the SID that has been injected into
 [Create an Application Pool (IIS 7)](https://technet.microsoft.com/en-us/library/cc731784.aspx).
 
 [Managing Application Pools in IIS 7](https://technet.microsoft.com/en-us/library/cc753449(WS.10).aspx).
-
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

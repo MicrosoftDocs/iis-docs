@@ -95,5 +95,3 @@ As noted above, the order of the rules matters. This is because URL rewrite proc
 ## Summary
 
 You have now successfully changed the rules in URL rewrite and leveraged Application Request Routing to route only a subset of your users to the pilot site. For additional Application Request Routing properties and capabilities, refer to other Application Request Routing [walkthroughs](../planning-for-arr/using-the-application-request-routing-module.md).
-
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

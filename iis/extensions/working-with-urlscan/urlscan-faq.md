@@ -79,6 +79,3 @@ Answer: The installation packages for UrlScan Version 2.5 and later will only ad
 **Question: If UrlScan helps protect my server against certain vulnerabilities, is it still necessary to apply security updates?**
 
 Answer: Yes. To help protect your server from any new or existing security vulnerabilities, Microsoft strongly recommends that you evaluate and apply the latest security updates as soon as they are available.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

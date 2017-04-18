@@ -92,6 +92,3 @@ The items in the Publish Settings dialog should be filled out automatically acco
 ## Next Steps
 
 Once you are able to generate Profile XML files easily, you should [include them in the welcome e-mails](create-welcome-e-mails.md) that you send to users who create new accounts on your service.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1157.aspx)

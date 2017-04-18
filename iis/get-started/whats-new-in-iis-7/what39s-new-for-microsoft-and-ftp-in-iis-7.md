@@ -162,6 +162,3 @@ We now offer better logging support, including logging of all verbs and addition
 
 
 Finally, the new FTP server has provides detailed local error messages and Event Tracing for Windows (ETW). These features simplify troubleshooting and enable hosters to better support their customers.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

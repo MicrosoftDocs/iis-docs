@@ -153,6 +153,3 @@ For more information on configuring a MySQL installation for WebMatrix support, 
 ## Next Steps
 
 You should ensure that the Web Deploy 2.0 component is [configured to allow delegated deployments](configure-site-for-web-deploy-publishing.md "Configure Web Deploy for delegated deployments"). This is critical, as it is the primary method that allows your customers to publish to your servers with WebMatrix.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1157.aspx)

@@ -90,6 +90,3 @@ To create a rule that uses this rewrite provider add the following XML code insi
 
 
 Open a web browser and make a request to `http://localhost/some_blog_post/.` Notice that the browser got redirected to `http://localhost/some-blog-post/` because of the rule that you have added. The web server will return HTTP 404 error for the redirected URL because there is no such file or directory on the server, but that is not relevant for the purposes of this walkthrough. The important part is that the web server issued a redirect response based on the rule that used the custom rewrite provider.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

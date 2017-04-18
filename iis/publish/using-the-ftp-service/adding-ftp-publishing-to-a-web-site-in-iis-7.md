@@ -177,6 +177,3 @@ In this task you added FTP publishing to your Default Web Site by editing the II
 - You added an FTP binding to the Default Web Site.
 - You enabled FTP basic authentication and disabled FTP anonymous authentication for the Default Web Site.
 - You configured the administrator account for Read/Write permissions for the Default Web Site.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

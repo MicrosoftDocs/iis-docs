@@ -83,6 +83,3 @@ In this step, you will learn how to change a value under a virtual directory usi
 ## Summary
 
 In this document, you learned how to enable and use the compatibility feature of the configuration system. You used a legacy tool to change settings at the global, and virtual directory, levels and have them written through to applicationHost.config. You might want to use other tools, like adsutil.vbs, to perform the mapping and write-through. You might want to verify that your existing ABO/ADSI/WMI scripts and applications continue to work in this environment. You can also experiment with the reverse direction: change values in applicationHost.config, and verify that they are reflected in the ABO view in MBExplorer or any other tool or script.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1046.aspx)

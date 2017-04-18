@@ -97,6 +97,3 @@ The mapping algorithm needs to take care of differences between the IIS 6.0 and 
 ### Distributed Configuration
 
 Only applicationHost.config is supported by the Metabase Compatibility feature. Configuration in web.config files is not returned to the legacy user. Location tags are used in applicationHost.config to support per-URL configuration.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1046.aspx)

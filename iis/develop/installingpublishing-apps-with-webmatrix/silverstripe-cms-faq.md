@@ -45,6 +45,3 @@ A: To publish a SilverStripe CMS website, use the following steps:
 
 **Issue:** Silverstripe CMS gives a "HTTP 500 PHP FCGI Error" when you download a published site  
 **Workaround:** Skip the silverstripe-cache/manifest\_main in Publish Preview after you click on "Download published site …". This file is used for caching purposes and is specific to each computer.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

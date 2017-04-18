@@ -157,6 +157,3 @@ You should be able to click in the new tab and see your application in it.
 [![](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image8.png)](testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery/_static/image7.png)
 
 From here you can select your application and proceed with the installation.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1158.aspx)

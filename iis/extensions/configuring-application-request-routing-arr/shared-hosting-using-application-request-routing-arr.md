@@ -134,9 +134,6 @@ By default, all host names can use one application server. However, if the site 
 ## Summary
 
 You have now successfully configured the host name affinity feature in Application Request Routing for a shared hosting scenario. For additional Application Request Routing properties and capabilities, refer to other Application Request Routing [walkthroughs](../planning-for-arr/using-the-application-request-routing-module.md).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)
 
 ## Overview
 
@@ -238,5 +235,3 @@ By default, all host names can use one application server. However, if the site 
 ## Summary
 
 You have now successfully configured the host name affinity feature in Application Request Routing for a shared hosting scenario. For additional Application Request Routing properties and capabilities, refer to other Application Request Routing [walkthroughs](../planning-for-arr/using-the-application-request-routing-module.md).
-
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

@@ -145,6 +145,3 @@ To test that the rule correctly sets the cookie and a server variable, open a We
 **[![](setting-http-request-headers-and-iis-server-variables/_static/image35.png)](setting-http-request-headers-and-iis-server-variables/_static/image33.png)**
 
 You should see that the rewrite rule has set the "Language" cookie in accordance to the URL that was requested. Also, the original URL string has been made accessible for the ASP.NET page via "ORIGINAL\_URI" server variable.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

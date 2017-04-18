@@ -133,6 +133,3 @@ Override the OnException method to handle errors in any special way. In this exa
 Here is a snippet showing the framework of the entire class:
 
 [!code-csharp[Main](how-to-get-started-extending-module-properties-for-iis-in-iis-manager/samples/sample15.cs)]
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1042.aspx)

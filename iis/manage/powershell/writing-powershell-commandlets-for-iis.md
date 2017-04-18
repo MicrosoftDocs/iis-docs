@@ -323,6 +323,3 @@ In the accompanying source file iisdemocmd.cs, you find more commands for manipu
 As we can see, having only three commands allows us to cover most of the needs in the administration of IIS sites. Combined with the flexibility and richness of the shell language, each command adds a great deal of functionality. At the same time, writing a new command is not much more complicated than implementating similar script in VBScript or Jscript.
 
 The IIS team plans to add full scale support of PowerShell into IIS 7.0 and above. This includes implementing a navigation provider, a property provider and all the other pieces of functionality required to work with all aspects of administration. Follow the progress of these upcoming improvements and look for the announcement on [https://www.iis.net/](https://www.iis.net/) and on the PowerShell site.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1151.aspx)

@@ -95,5 +95,3 @@ ARR Version 2 includes the updated version of URL Rewrite Module 2.0, which has 
 
     [!code-xml[Main](application-request-routing-version-2-overview/samples/sample1.xml)]
 - The HTTP\_CONTENT\_TYPE server variable has been replaced with RESPONSE\_CONTENT\_TYPE. If an outbound rewrite rule uses a pre-condition that checks the HTTP\_CONTENT\_TYPE, then that rule will stop working. Change the pre-condition to use RESPONSE\_CONTENT\_TYPE instead.
-
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

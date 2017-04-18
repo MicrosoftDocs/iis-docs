@@ -104,6 +104,3 @@ ARR allows the user to enter an absolute URL to delete one specific cached conte
 ## Summary
 
 You have now successfully deleted one or more cached contents from ARR. For other ARR Version 2 walkthroughs, see [this](../planning-for-arr/application-request-routing-version-2-overview.md) article.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

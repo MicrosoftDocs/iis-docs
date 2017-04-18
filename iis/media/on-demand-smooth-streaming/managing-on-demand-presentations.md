@@ -88,6 +88,3 @@ You can save bandwidth by removing the highest available bit rate for the presen
     ![](managing-on-demand-presentations/_static/image11.png)
 
 You can repeat this process and remove additional high bit rate values, leaving only the lower bit rates available as a free sample. You can use the original presentation file, which includes all of the original bit rates, and make them available to clients through a premium channel.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

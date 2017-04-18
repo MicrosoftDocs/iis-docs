@@ -117,6 +117,3 @@ These events show how the rewrite rules were evaluated and how requested URL was
 ## Summary
 
 URL rewrite specific events logged by FRT provide very detailed information that can be used for troubleshooting and debugging of URL rewrite rules as well as just for understanding how rules evaluation logic is applied to a URL string.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

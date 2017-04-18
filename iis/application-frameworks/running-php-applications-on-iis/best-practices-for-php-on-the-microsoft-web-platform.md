@@ -325,5 +325,3 @@ Earlier versions of IIS do not have the URL Rewriter module. One of the major us
 [Importing Apache mod\_rewrite Rules](../../extensions/url-rewrite-module/importing-apache-modrewrite-rules.md).
 
 [Translating .htaccess Content to IIS web.config](../install-and-configure-php-applications-on-iis/translate-htaccess-content-to-iis-webconfig.md).
-
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

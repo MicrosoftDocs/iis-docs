@@ -298,6 +298,3 @@ This searches the current directory and all sub-directories for the string direc
 ### Summary
 
 In this task, we located a history copy and restored it. This task is the most important illustration of the configuration history feature, as it offers the ability to roll-back to a previously working configuration with ease.
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1046.aspx)

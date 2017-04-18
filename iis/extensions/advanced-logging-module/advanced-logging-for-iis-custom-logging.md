@@ -211,6 +211,3 @@ This section contains the following procedures:
 ## Summary
 
 In this walkthrough, we reviewed the Advanced Logging feature, learned how to add a custom logging field to the global logging fields list and how to use it to create a new log file, and learned how to specify the storage location for log files
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1160.aspx)

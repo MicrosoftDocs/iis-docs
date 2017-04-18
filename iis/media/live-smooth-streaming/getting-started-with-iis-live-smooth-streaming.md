@@ -179,6 +179,3 @@ This section describes how to use the Microsoft Silverlight Media Framework 2.0 
     ![](getting-started-with-iis-live-smooth-streaming/_static/image21.png)
 
 For more information about how to to build rich Silverlight user experiences that take full advantage of live and on-demand IIS Smooth Streaming capabilities, see [Smooth Streaming Client](https://go.microsoft.com/?linkid=9738295).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

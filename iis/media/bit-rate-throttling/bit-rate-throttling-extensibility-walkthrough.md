@@ -237,6 +237,3 @@ The following is the schema for specifying the Bit Rate Rules and Duration Rules
 
 
 [!code-xml[Main](bit-rate-throttling-extensibility-walkthrough/samples/sample6.xml)]
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

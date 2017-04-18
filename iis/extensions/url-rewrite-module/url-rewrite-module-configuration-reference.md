@@ -458,5 +458,3 @@ The requested URL **/default.aspx?tabid=2&amp;subtabid=29** will be redirected t
 The requested URL **/default.aspx?tabid=2&amp;subtabid=24** will be redirected to `http://www.contoso.com/webcasts`.  
 The requested URL **/default.aspx?tabid=7116** will be redirected to `http://www.contoso.com/php`.  
 The requested URL /**default.aspx** will not be redirected because rewrite map does not contain an element with key="/default.aspx"; therefore the rewrite map will return an empty string which will not match the condition pattern, hence rule action will not be performed.
-
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

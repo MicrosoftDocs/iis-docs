@@ -28,6 +28,3 @@ For information about getting started with WebMatrix, see the following topics:
 You can also refer to documentation for [getting started with WebMatrix and ASP.NET Web Pages](https://go.microsoft.com/fwlink/?LinkID=195072).
 
 For questions about specific gallery applications in WebMatrix, refer to the [Application Gallery FAQ](https://www.microsoft.com/web/webmatrix/).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

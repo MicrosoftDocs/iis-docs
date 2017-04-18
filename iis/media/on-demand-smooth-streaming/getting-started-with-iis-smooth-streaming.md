@@ -134,6 +134,3 @@ When you encode Smooth Streaming video using Expression Encoder, the video is ou
 To publish directly from Expression Encoder to your Web server by using WebDAV, the free [WebDAV Extension for IIS](https://go.microsoft.com/?linkid=9652412) must be installed on the Web server.
 
 For step-by-step guidance about how to encode Smooth Streaming video using Expression Encoder and deliver it to clients from your Smooth Streaming Web server, see the [Smooth Streaming Deployment Guide](https://go.microsoft.com/?linkid=9689879).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

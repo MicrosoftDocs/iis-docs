@@ -63,6 +63,3 @@ That's it! You're ready to [apply to the Web Hosting Gallery](https://www.micros
 Keep in mind that as you apply, you will need to provide a test account to the WebMatrix team using [Profile XML format](generate-a-profile-xml-file.md "Generating a Profile XML file"), as well as some **Control Panel access**. We'll be testing your servers by publishing our web applications to that test account, and will let you know if we encounter any problems.
 
 Good luck!
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1157.aspx)

@@ -29,6 +29,3 @@ URL rewriter module includes several rule templates for most common scenarios:
 ## Custom rule templates
 
 URL Rewrite module provides an extensible framework for plugging in custom rule templates. For example, you could create a rule template that simplifies creation of rewrite rules for search engine optimization of the web site or for preventing content hot-linking. For a step by step guidance on how to extend URL Rewrite module user interface with rule templates refer to the article "[Developing rule template for URL Rewrite module](developing-rule-template-for-url-rewrite-module.md)".
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

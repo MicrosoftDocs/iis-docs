@@ -18,11 +18,6 @@ by [Keith Newman and Robert McMurray](https://github.com/rmcmurray)
 
 In this phase of planning a web farm with IIS servers, you learn about load balancing. You also learn how to configure load balancing by using Application Request Routing (ARR). ARR is a proxy-based request routing and load balancing module for IIS.
 
-The following list shows the tasks required to complete this step:
-
-- [3.1. Plan Load Balancing with ARR](#31)
-- [3.2. Survey Other Features of ARR](#32)
-
 When you are done with these tasks, record your design decisions before going on to [Step 4: Plan SSL Central Certificate Store](planning-step-4-plan-ssl-central-certificate-store.md).
 
 <a id="31"></a>

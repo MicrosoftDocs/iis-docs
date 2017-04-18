@@ -83,6 +83,3 @@ These keys appear in the following registry hive:
 | Process Model | ProcessModel |
 | .NET Environment | NetFxEnvironment |
 | Configuration APIs | WASConfigurationAPI |
-
-
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

@@ -143,6 +143,3 @@ In this walkthrough you completed the following:
 3. Replaced the default IIS Management Provider with your custom IIS Management Provider.
 
 After completing all of these steps, when you configure IIS to allow remote management using IIS Manager credentials, those credentials will come from the SQL database instead of the built-in IIS Manager provider.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

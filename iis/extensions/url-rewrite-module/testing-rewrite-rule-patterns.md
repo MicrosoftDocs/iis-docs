@@ -47,6 +47,3 @@ Note that you can make changes to the pattern, while within "Test Pattern" dialo
 ## Summary
 
 The "Test pattern" tool provide a simple way for testing regular expression and wildcard patterns used in rewrite rules and conditions. The tool can be used to test and adjust patterns as well as to troubleshoot rewrite rules with incorrect patterns.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

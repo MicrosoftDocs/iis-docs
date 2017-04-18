@@ -191,5 +191,3 @@ The Php.ini file provides PHP with configuration and environmental information. 
 [PHP on IIS7](https://php.iis.net/).
 
 [Deploying IIS 7.5 + FASTCGI + PHP on Server Core](https://blogs.msdn.com/philpenn/archive/2009/07/19/deploying-iis-7-5-fastcgi-php-on-server-core.aspx).
-
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

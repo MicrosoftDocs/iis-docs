@@ -51,6 +51,3 @@ Click [here](https://go.microsoft.com/fwlink/?LinkId=111605) to see the article 
 These resources contain additional information about how to upgrade to IIS 7.0 on Microsoft Windows Server 2008.
 
 Click [here](https://go.microsoft.com/fwlink/?LinkId=111606) to see the article in TechNet.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1041.aspx)

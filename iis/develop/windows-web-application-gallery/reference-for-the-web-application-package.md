@@ -247,6 +247,3 @@ Web App Gallery Integration Samples.
 [Database Notes for packaging applications for use with the Web Application Gallery](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery.md).
 
 [Regular Expression Language Elements](https://msdn.microsoft.com/en-us/library/az24scfc.aspx).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1158.aspx)

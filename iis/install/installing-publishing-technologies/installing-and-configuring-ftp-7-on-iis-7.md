@@ -198,6 +198,3 @@ In order to help get started using the new FTP server, the following walkthrough
     - [Using FSRM Folder Quotas with FTP](https://go.microsoft.com/fwlink/?LinkId=100092)
 
 In addition to these documents, the help file for the new FTP server contains a great deal of information regarding the use and administration of the new FTP server. To open the help file, open one of the FTP features in the IIS manager and click the "Help" item in the "Actions" pane.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)

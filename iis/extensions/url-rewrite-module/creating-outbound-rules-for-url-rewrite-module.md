@@ -231,6 +231,3 @@ Now, if a site visitor clicks on this link, the clean URL format will be used an
 ## Summary
 
 In this walkthrough you have learned how to configure outbound rewrite rules in URL Rewrite Module 2.0 by using IIS Manager or by manually editing **web.config** file. The rules that were created in this walkthrough demonstrated some of the important features of URL Rewrite Module 2.0, such as outbound rewriting, preconditions and tag filters.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

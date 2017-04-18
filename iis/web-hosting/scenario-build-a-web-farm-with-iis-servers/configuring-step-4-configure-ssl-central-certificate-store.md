@@ -20,10 +20,6 @@ In the final phase of building a web farm with IIS servers, you add a central ce
 
 This article guides you through configuring a central certificate store and testing it on your web farm.
 
-The following list shows the tasks required to complete this step:
-
-- [4.1. Configure a Central Certificate Store](#41)
-
 When you are done with these tasks, record your design decisions before going on to [Step 5: Configure Application Deployment](configuring-step-5-configure-application-deployment.md).
 
 <a id="41"></a>

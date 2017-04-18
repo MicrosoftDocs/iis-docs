@@ -86,5 +86,3 @@ To change the routing rules so that requests for resources with extensions \*.jp
 You have now successfully changed URL rewrite rules using the Application Request Routing UI to enable a 3-tier deployment architecture scenario. For additional Application Request Routing properties and capabilities, refer to the [HTTP Load Balancing using Application Request Routing (ARR)](http-load-balancing-using-application-request-routing.md) walkthrough.
 
 When ARR is used as a reverse proxy, the scenario can be further enhanced when used with URL Rewrite Version 2 which has the feature to [rewrite the response headers and entity body](../url-rewrite-module/reverse-proxy-with-url-rewrite-v2-and-application-request-routing.md).
-
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

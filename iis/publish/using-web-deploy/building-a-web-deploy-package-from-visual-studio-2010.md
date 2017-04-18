@@ -172,6 +172,3 @@ To deploy the package using Internet Information Services manager (inetmgr):
     [![](building-a-web-deploy-package-from-visual-studio-2010/_static/image39.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image38.png)
 14. Now in inetmgr you can click the **Browse** link under **Manage Application** to view your site  
     [![](building-a-web-deploy-package-from-visual-studio-2010/_static/image41.png)](building-a-web-deploy-package-from-visual-studio-2010/_static/image40.png)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1144.aspx)

@@ -92,6 +92,3 @@ The cache control rule that you wrote in Step 1 will always cache .jpg files for
 You have now successfully written a cache control rule to define whether a content is cache-able and, if so, for how long it should be cached.
 
 For other ARR Version 2 walkthroughs, see the documents in [this](../planning-for-arr/application-request-routing-version-2-overview.md) article.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1154.aspx)

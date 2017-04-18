@@ -63,5 +63,3 @@ It is also possible to install IIS, PHP, and a database manually.
     - [Install and Configure SQL Server for PHP Applications on IIS 7 and Above](install-and-configure-sql-server-2008-for-php-applications-on-iis-7-and-above.md).
 
 You are now ready to configure and optimize the Microsoft Web Platform.
-
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

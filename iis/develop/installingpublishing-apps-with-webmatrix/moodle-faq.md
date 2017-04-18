@@ -45,6 +45,3 @@ A: To publish a Moodle website, use the following steps:
 
 **Issue:** Moodle website layout and links are broken after publishing  
 **Workaround:** Add a trailing slash ‘/' to the Site Name field in Publish Settings and publish again.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

@@ -69,6 +69,3 @@ In the table below, we compare the latest adaptive streaming technologies from M
 | <a id="11"></a>11 | Digital Entertainment Content Ecosystem (DECE, LLC) is a consortium of major Hollywood studios, consumer electronics manufacturers and retailers, network hardware vendors, systems integrators and Digital Rights Management (DRM) vendors chartered to develop a set of standards for the digital distribution of premium Hollywood content. |
 | <a id="12"></a>12 | Real-time logging for Silverlight applications using the [IIS Advanced Logging](https://www.iis.net/downloads/microsoft/advanced-logging) extension. |
 | <a id="13"></a>13 | Encoded live streams are processed by the Apple stream segmenter. This intermediate step results in increased latency for live delivery. |
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

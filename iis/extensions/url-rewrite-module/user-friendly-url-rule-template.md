@@ -76,6 +76,3 @@ Also, if you request `http://localhost/article.aspx?id=432&title=some-other-titl
 ## Summary
 
 In this walkthrough you have learned how to generate rewrite rules by using "User Friendly URL" rule template included in URL rewrite module. This rule template can be used as a starting point for designing rewrite rules for enabling user friendly and search engine friendly URLs for you existing web applications.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

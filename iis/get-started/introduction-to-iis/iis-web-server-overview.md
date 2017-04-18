@@ -75,6 +75,3 @@ Use the links below to start learning the aspects of IIS configuration, see a la
 
 - [Managed Module Starter Kit](https://www.iis.net/downloads/community)
 - [Native (C\C++) Module Starter Kit](https://www.iis.net/downloads/community)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/default.aspx?GroupID=41)

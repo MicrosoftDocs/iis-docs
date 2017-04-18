@@ -31,16 +31,6 @@ After reading this document, you will know how to manage different features of c
 
 This document focuses intentionally only on editing XML elements in the configuration files, instead of showing ways to accomplish the same tasks using the administration API, scripts, or the user interface (UI).
 
-This article contains:
-
-- [Introduction](#Introduction)
-- [Task 1: Locking a Section Using a &lt;location&gt; Tag](#Task1)
-- [Task 2: Locking Specific Elements and Attributes](#Task2)
-- [Task 3: Locking Everything Except Specific Attributes](#Task3)
-- [Task 4: Locking Some Collection Directives](#Task4)
-- [Task 5: Locking Specific Elements in a Collection](#Task5)
-- [Summary](#Summary)
-
 <a id="Introduction"></a>
 
 ## Introduction
@@ -202,6 +192,3 @@ In the browser, request [http://localhost/app](http://localhost/app) -- the requ
 ## Summary
 
 In this document, you learned how to lock configuration settings. You can lock an entire section, either by using a **&lt;location&gt;** element or by setting a tag's **lockItem** attribute to true. Locking can be more flexible and granular if you use the **lockAttributes**, **lockElements**, **lockAllAttributesExcept**, **lockAllElementsExcept**, or **lockItem** settings on collection elements, and if you use the **lockElements** settings on collections to specify particular collection directives (**&lt;add&gt;**, **&lt;remove&gt;**, or **&lt;clear&gt;**). Locking can occur at any level of the hierarchy, not only in ApplicationHost.config. Locking takes effect from that level downwards.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

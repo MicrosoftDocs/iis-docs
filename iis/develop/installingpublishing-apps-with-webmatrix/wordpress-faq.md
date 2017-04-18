@@ -48,6 +48,3 @@ WebMatrix installs MySQL with the UTF-8 character set by default. If you install
 **Workaround:** 1) Change the character set for MySQL to UTF-8. [More information](http://dev.mysql.com/doc/refman/5.0/en/charset-server.html).  
 2) Re-install the application  
 3) Re-publish the application
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1166.aspx)

@@ -42,6 +42,3 @@ For more information about IIS server variables, see the following page on the M
 
 **IIS Server Variables**  
 [https://msdn.microsoft.com/en-us/library/ms524602.aspx](https://msdn.microsoft.com/en-us/library/ms524602.aspx)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1044.aspx)

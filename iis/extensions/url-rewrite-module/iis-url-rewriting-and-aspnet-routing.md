@@ -114,6 +114,3 @@ Either IIS URL rewriting or ASP.NET routing can be used to implement URL manipul
 - [ASP.NET routing documentation](https://msdn.microsoft.com/en-us/library/cc668201.aspx)
 - [ASP.NET MVC](https://www.asp.net/mvc/)
 - [ASP.NET Dynamic Data](https://www.asp.net/DynamicData/)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1152.aspx)

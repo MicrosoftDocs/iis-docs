@@ -133,6 +133,3 @@ First, we must figure out the full name for the assembly we just created. It is 
 This article explained how to create a Visual Studio project to develop extensibility modules for the new IIS Management Tool. We created a simple ModuleProvider and its Module counterpart to display a message.
 
 Now that you understand the basics of creating IIS Management Tool Modules, you can explore more interesting features that are available for extensibility.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1042.aspx)

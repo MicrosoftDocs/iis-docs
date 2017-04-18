@@ -258,6 +258,3 @@ Publishing points on IIS Media Services are simple XML files with the.isml exten
 ## FAQs
 
 We're preparing answers to our most frequently-asked questions and we'll publish the results in an FAQ article on IIS.net soon. Check back here for more information about the availability of this resource.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

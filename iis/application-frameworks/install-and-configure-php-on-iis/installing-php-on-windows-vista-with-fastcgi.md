@@ -35,6 +35,3 @@ To get more information regarding running various PHP applications on IIS, see:
 
 - [PHP on IIS portal](https://php.iis.net/)
 - [PHP community forum](https://forums.iis.net/1102.aspx)
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1102.aspx)

@@ -275,5 +275,3 @@ In addition to supporting client-side playlist format asx, the Release Candidate
 - PARAM Tags in ASX - [https://msdn.microsoft.com/en-us/library/bb249281(VS.85).aspx](https://msdn.microsoft.com/en-us/library/bb249281(VS.85).aspx)
 - ClientSkip Attribute for ENTRY - [https://msdn.microsoft.com/en-us/library/ms910279.aspx](https://msdn.microsoft.com/en-us/library/ms910279.aspx)
 - Logon Type - [https://msdn.microsoft.com/en-us/library/ms691229(VS.85).aspx](https://msdn.microsoft.com/en-us/library/ms691229(VS.85).aspx)
-
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)

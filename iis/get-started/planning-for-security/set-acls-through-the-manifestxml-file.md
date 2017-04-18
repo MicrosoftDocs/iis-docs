@@ -81,6 +81,3 @@ PHP applications are typically run as the anonymous user because the FastCGI set
 ## Links for Further Information
 
 [Understanding the Built-In User and Group Accounts in IIS 7.0 and Above](understanding-built-in-user-and-group-accounts-in-iis.md).
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1043.aspx)

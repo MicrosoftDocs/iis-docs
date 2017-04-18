@@ -53,6 +53,4 @@ Table of Contents:
     - Player Development with the Silverlight Media Framework
 - Summary
 
-Click here to view the white paper: [IIS Media Services 3.0 Overview](https://download.microsoft.com/download/3/3/8/33899CAB-98AD-4A25-A1FF-4172734BF6F4/IIS_Media_Services_30_Overview_FINAL.pdf "IIS Media Services 3.0 Overview").  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1145.aspx)
+Click here to view the white paper: [IIS Media Services 3.0 Overview](https://download.microsoft.com/download/3/3/8/33899CAB-98AD-4A25-A1FF-4172734BF6F4/IIS_Media_Services_30_Overview_FINAL.pdf "IIS Media Services 3.0 Overview").

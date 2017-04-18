@@ -168,6 +168,3 @@ In this walkthrough you learned how to:
 - Add a custom home directory provider to your FTP service.
 
 When users connect to your FTP site, the FTP service will set each user's home directory to the path that you specified in the demo provider.
-  
-  
-[Discuss in IIS Forums](https://forums.iis.net/1045.aspx)
