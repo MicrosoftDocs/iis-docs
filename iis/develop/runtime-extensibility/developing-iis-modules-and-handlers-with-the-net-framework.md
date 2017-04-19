@@ -94,21 +94,21 @@ To create a **module**, define a class that implements the [**System.Web.IHttpMo
 2. Import the **System.Web** namespace so we can easily access the types therein.
 3. Make our MyModule class implement the **IHttpModule** interface, and define the interface members [**Dispose**](https://msdn.microsoft.com/en-us/library/system.web.ihttpmodule.dispose.aspx)() and [**Init**](https://msdn.microsoft.com/en-us/library/system.web.ihttpmodule.init.aspx)(). Do this quickly by right clicking IHttpModule interface and choosing "Implement interface" option:  
   
-     [![A simple IHttpModule class in Visual Studio](developing-iis-modules-and-handlers-with-the-net-framework/_static/image11.jpg "A simple IHttpModule class in Visual Studio")](developing-iis-modules-and-handlers-with-the-net-framework/_static/image9.jpg)   
+    [![A simple IHttpModule class in Visual Studio](developing-iis-modules-and-handlers-with-the-net-framework/_static/image11.jpg "A simple IHttpModule class in Visual Studio")](developing-iis-modules-and-handlers-with-the-net-framework/_static/image9.jpg)   
 
     The **Dispose**() method is intended to clean up any unmanaged resources deterministically when the module is being unloaded, so the resources can be released before the module instance is finalized by the garbage collector. You may leave this method blank most of the time.   
   
 The **Init**(**HttpApplication context**) method is the main method of interest. Its role is to perform the initialization of your module, and wire up your module to one or more of request processing events available on the [**HttpApplication**](https://msdn.microsoft.com/en-us/library/system.web.httpapplication(vs.71).aspx) class. During the request processing, your module will be invoked for each of the events that it subscribed for, allowing it to execute and perform its service. To do that:
 4. Subscribe to one or more of the request processing events by wiring up a method on your module class to one of the events on the HttpApplication instance provided. The method has to follow the [**System.EventHandler**](https://msdn.microsoft.com/en-us/library/system.eventhandler.aspx) delegate signature. We define a new method, called **OnPreExecuteRequestHandler**, and wire it up to the **HttpApplication**.[**PreRequestRequestHandlerExecute**](https://msdn.microsoft.com/en-us/library/system.web.httpapplication.prerequesthandlerexecute.aspx) event, which occurs right before the server is about to invoke the request handler for the request: 
 
-[!code-csharp[Main](developing-iis-modules-and-handlers-with-the-net-framework/samples/sample1.cs)]
+	[!code-csharp[Main](developing-iis-modules-and-handlers-with-the-net-framework/samples/sample1.cs)]
 
     [![Implement IHttpModule.Init() in Visual Studio](developing-iis-modules-and-handlers-with-the-net-framework/_static/image15.jpg "Implement IHttpModule.Init() in Visual Studio")](developing-iis-modules-and-handlers-with-the-net-framework/_static/image13.jpg)
 
     At this point, our module is set up to receive the PreRequestHandlerExecute event on each request. You can repeat this for all other events you would like to receive.
 5. Now we make our modules do something useful, something that illustrates using some of the ASP.NET APIs that a module could use. Check if the request specifies a referer header, and if it does, reject it, as a silly way to prevent people from linking to your website from other websites. We will do this in our OnPreRequestHandlerExecute method which is invoked right before the handler runs on every request: 
 
-[!code-csharp[Main](developing-iis-modules-and-handlers-with-the-net-framework/samples/sample2.cs)]
+	[!code-csharp[Main](developing-iis-modules-and-handlers-with-the-net-framework/samples/sample2.cs)]
 
     [![Implement IHttpModule](developing-iis-modules-and-handlers-with-the-net-framework/_static/image19.jpg "Implement IHttpModule")](developing-iis-modules-and-handlers-with-the-net-framework/_static/image17.jpg)
 
@@ -136,14 +136,14 @@ To create a **handler**, we must define a class that implements the [**System.We
  The **ProcessRequest** () method is the main entry point of the handler. Its role is to process the request specified by the **HttpRequest** instance available off the provided **HttpContext** instance, and generate the appropriate response using the **HttpResponse** instance also available off the HttpContext. The ProcessRequest() method will be invoked by the runtime during the ExecuteRequestHandler request processing stage, and ONLY IF the request mapped to your handler based on the configured handler mappings. This is different from a module which receives notifications for all requests to the application.
 4. Implement the **IsReusable** property first. Since our handler will not store any member state for the request and will be able to support multiple calls to ProcessRequest() with different requests, we will mark it as reusable by returning true. 
 
-[!code-csharp[Main](developing-iis-modules-and-handlers-with-the-net-framework/samples/sample3.cs)]
+	[!code-csharp[Main](developing-iis-modules-and-handlers-with-the-net-framework/samples/sample3.cs)]
 5. Finally, let's implement the **ProcessRequest**() method to make our handler actually do something useful. To keep things nice and simple, our handler will return the current time on the server, optionally allowing the timezone to be specified in the query string. Our goal is to be able to request a URL, like [http://myserver/time.tm](http://myserver/time.tm), and get the current time on the server. Also, we will be able to the universal coordinated time by requesting [http://myserver/time.tm?utc=true](http://myserver/time.tm?utc=true). Here is our implementation: 
 
-[!code-csharp[Main](developing-iis-modules-and-handlers-with-the-net-framework/samples/sample4.cs)]
+	[!code-csharp[Main](developing-iis-modules-and-handlers-with-the-net-framework/samples/sample4.cs)]
 
     We use the **HttpRequest.QueryString** collection to retrieve a QueryString variable, and write the current time to response using the **HttpResponse.Write** method. This is just a sample of the kinds of things you may choose to do in your handler - the HttpRequest class provides a lot more information about the request, and the HttpResponse class provides a number of different ways to shape the response returned to the client.  
   
-[![Implement IHttpHandler.ProcessRequest in Visual Studio](developing-iis-modules-and-handlers-with-the-net-framework/_static/image27.jpg "Implement IHttpHandler.ProcessRequest in Visual Studio")](developing-iis-modules-and-handlers-with-the-net-framework/_static/image25.jpg)
+	[![Implement IHttpHandler.ProcessRequest in Visual Studio](developing-iis-modules-and-handlers-with-the-net-framework/_static/image27.jpg "Implement IHttpHandler.ProcessRequest in Visual Studio")](developing-iis-modules-and-handlers-with-the-net-framework/_static/image25.jpg)
 
 The handler is finished.
 
