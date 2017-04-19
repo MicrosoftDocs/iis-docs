@@ -149,7 +149,7 @@ There are several types of parameter validation that are available. If none of t
 [!code-xml[Main](reference-for-the-web-application-package/samples/sample5.xml)]
 - **Boolean**- Boolean parameters are simple True / False questions. Depending on the UI, the user might be presented with a check box or two option buttons to select their choice. Booleans replace values in the same way as other parameters. For Booleans, the replacement value is either "True" or "False". If you need to have Boolean values other than "True" or "False", use an enumeration with only two values. The syntax for Booleans is: 
 
-[!code-xml[Main](reference-for-the-web-application-package/samples/sample6.xml)]
+	[!code-xml[Main](reference-for-the-web-application-package/samples/sample6.xml)]
 - **Enumeration**- Enumeration allows you to limit the user's input to a list of discrete possible values. Most UIs will implement this as a drop-down list box, where the user will have the ability to choose one value from the list. Any whitespace in the validationString will be included as part of the possible values. Therefore, there should be no whitespace on either side of a comma, unless you want that whitespace to be included in the parameter substitution. The syntax for Enumeration is:
 
     [!code-xml[Main](reference-for-the-web-application-package/samples/sample7.xml)]
