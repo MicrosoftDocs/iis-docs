@@ -29,24 +29,6 @@ IIS Media Services contains the following extensions for IIS 7:
 - [Bit Rate Throttling](https://go.microsoft.com/?linkid=9735227). Provides enhanced progressive downloading that can substantially reduce bandwidth costs.
 - [Web Playlists](https://go.microsoft.com/?linkid=9735228). Enables server-side control of content and advertising, ensuring that you can protect, personalize, and monetize your media assets.
 
-The IIS Media Services Readme contains the following sections:
-
-- [What's New](iis-media-services-readme.md#whatsnew)
-- [Installation Notes](iis-media-services-readme.md#installation)
-
-    - [Requirements](iis-media-services-readme.md#requirements)
-    - [Downloading and Installing](iis-media-services-readme.md#install)
-    - [Upgrading from a Previous Version of IIS Media Services](iis-media-services-readme.md#upgrade)
-    - [Uninstalling](iis-media-services-readme.md#uninstall)
-- [Known Issues](iis-media-services-readme.md#issues)
-
-    - [Live Smooth Streaming](iis-media-services-readme.md#issues_lss)
-    - [Smooth Streaming](iis-media-services-readme.md#issues_ss)
-    - [Bit Rate Throttling](iis-media-services-readme.md#issues_brt)
-    - [Web Playlists](iis-media-services-readme.md#issues_wp)
-- [Product Support](iis-media-services-readme.md#support)
-- [For More Information](iis-media-services-readme.md#resources)
-
 <a id="whatsnew"></a>
 
 ## What's New
