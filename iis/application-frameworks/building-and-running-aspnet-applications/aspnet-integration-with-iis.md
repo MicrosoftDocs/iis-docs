@@ -108,7 +108,6 @@ IIS migrates the application by using the AppCmd.exe command line tool to perfor
 
 The basic format of the migration command is as follows:
 
-
 [!code-console[Main](aspnet-integration-with-iis/samples/sample1.cmd)]
 
 

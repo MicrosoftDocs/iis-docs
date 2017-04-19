@@ -61,12 +61,11 @@ You must make a backup of the configuration before executing tasks in this artic
 
 1. Click the Start button -&gt; All Programs -&gt; Accessories -&gt; (r-click)Command Prompt -&gt; Run as Administrator.
 
-[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image2.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image1.jpg)  
+	[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image2.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image1.jpg)  
   
-
 2. Execute the following command in that command prompt:
 
-[!code-console[Main](how-to-capture-aspnet-page-trace-events-in-iis-tracing/samples/sample1.cmd)]
+	[!code-console[Main](how-to-capture-aspnet-page-trace-events-in-iis-tracing/samples/sample1.cmd)]
 
 ## Adding a New Trace.Write() &amp; Trace.Warn() Call to a Sample ASPX Page
 
@@ -75,12 +74,11 @@ In this task, you add Trace.Write() &amp; Warn() calls to a sample aspx page and
 1. Use the Administrator command prompt and navigate to your `%systemdrive%\inetpub\wwwroot` directory.
 2. Use your editor of choice and create an aspx page called trace.aspx, putting the following code in the page:
 
-
-[!code-aspx[Main](how-to-capture-aspnet-page-trace-events-in-iis-tracing/samples/sample2.aspx)]
+	[!code-aspx[Main](how-to-capture-aspnet-page-trace-events-in-iis-tracing/samples/sample2.aspx)]
 
 3. Browse to [http://localhost/trace.aspx](http://localhost/trace.aspx). You see the following:
 
-[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image4.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image3.jpg)
+	[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image4.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image3.jpg)
 
 Notice the events above: "Hey, there" and "Doh, a warning".
 
@@ -100,24 +98,24 @@ Failure Request Tracing first must be enabled for the site. Steps to enable are 
 
 1. From the Administrator command prompt, type **start inetmgr**. In the **Connections** panel, expand the machine name, then Sites folder, then click the **Default Web Site**. Under **IIS**, double-click **Failed Request Tracing Rules.**
 
-[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image6.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image5.jpg)
+	[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image6.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image5.jpg)
 
 2. In the **Actions** pane, click Add…. to launch the **Add Failed Request Tracing Rule** wizard. On the **Specify Content to Trace** page, click the **ASP.NET (\*.aspx)** option for what to trace and click **Next**.
 
-[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image9.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image8.jpg)
+	[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image9.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image8.jpg)
 
 3. In the **Define Trace Conditions** screen, check the **Status Codes** check box and enter "200" as the status code to trace.
 
-[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image12.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image11.jpg)
+	[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image12.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image11.jpg)	
 
 
 4. Click **Next**. The **Select Trace Providers** page appears. Select the **ASPNET** check box and the **Page** check box under "Areas" (uncheck all other areas that are checked except **Page**) Under Verbosity, select **Verbose**.
 
-[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image14.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image13.jpg)
+	[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image14.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image13.jpg)
 
 5. Click **Finish**. You see the following definition for the Default Web Site:
 
-[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image16.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image15.jpg)
+	[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image16.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image15.jpg)
 
 ## Step 3 : Test and View
 
@@ -130,7 +128,7 @@ To verify that it worked:
 3. We generated the traced request, so open an Administrator-elevated Internet Explorer window, enter **CTRL-O** to open a file, and navigate to inetpub\logs\FailedReqLogFiles\W3SVC1 folder. In the **HTML Files** dropdown list, select **All Files**.
 4. Select the most recent FR######.xml file. You see the following:
 
-[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image18.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image17.jpg)
+	[![](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image18.jpg)](how-to-capture-aspnet-page-trace-events-in-iis-tracing/_static/image17.jpg)
 
 The events display above in the trace log. Notice that the event "Doh, a warning"'s SubType Name is "***AspNetPageTraceWarnEvent***" - that is the Trace.Warn() event.
 
