@@ -64,7 +64,8 @@ Authentication answers the question "who" wants to have access. Authorization an
 4. Disable "Anonymous Authentication" and enable "Basic Authentication."
 5. Now request [http://localhost/secure](http://localhost/secure) and [http://localhost/secure/bobsSecret.aspx](http://localhost/secure/bobsSecret.aspx) again. You will get prompted for credentials. Enter "Alice" as username and her password. You will be authenticated as "Alice".
 
-    **Note: If you use Internet Explorer, you may to hit Ctrl+F5 so that Internet Explorer refreshes the cached version of the ASP.NET page.**
+    > [!NOTE]
+	> If you use Internet Explorer, you may to hit Ctrl+F5 so that Internet Explorer refreshes the cached version of the ASP.NET page.
 
 ### Configuring URL Authorization
 

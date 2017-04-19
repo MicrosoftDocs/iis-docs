@@ -65,7 +65,7 @@ Make a backup of the configuration before executing the tasks in this article. R
 
 ### Step 4 : Creating Sample Content
 
-1. Delete everything in the c:\inetpub\wwwroot folder.
+1. Delete everything in the `c:\inetpub\wwwroot` folder.
 2. From the Administrator command prompt started above, paste the attached code into a file in inetpub\wwwroot called *test.htm*:
 
 
@@ -165,7 +165,7 @@ This task hooks the Module's TraceSource up to IIS tracing so that its events ar
 
 The module is updated to include trace events. Configure System.Diagnostics and IIS to capture these trace events and route them into IIS's Failed Request Tracing module. Do this by configuring the &lt;system.diagnostics&gt; section in the web.config file to setup the TraceSource &amp; route its events accordingly.
 
-1. Using your Administrator command prompt, navigate to c:\inetpub\wwwroot, and use notepad to edit your web.config file.
+1. Using your Administrator command prompt, navigate to `c:\inetpub\wwwroot`, and use notepad to edit your web.config file.
 2. There are 3 parts of the configuration that must be completed to get the events emitted by the module to be routed to IIS's tracing infrastructure: 
 
     - Defining the IIS event traceListener as a shared Listener
@@ -209,7 +209,7 @@ In this task, we generate the failed request and view the resulting trace log. R
 
 1. Open a new Internet Explorer window. Type in the address [http://localhost/test.htm](http://localhost/test.htm). Again, you see the following:  
     [![](how-to-add-tracing-to-iis-managed-modules/_static/image22.png)](how-to-add-tracing-to-iis-managed-modules/_static/image21.png)
-2. To verify our module has generated traces that have been captured, use an Administrator-elevated Internet Explorer window and hit **CTRL-O**, then navigate to **c:\inetpub\logs\FailedReqLogFiles\W3SVC1**. In the dropdown list box that reads **HTML Files**, select **All Files**.
+2. To verify our module has generated traces that have been captured, use an Administrator-elevated Internet Explorer window and hit **CTRL-O**, then navigate to `c:\inetpub\logs\FailedReqLogFiles\W3SVC1`. In the dropdown list box that reads **HTML Files**, select **All Files**.
 3. Select the most recent fr######.xml file (today's date) and click **Open**. You see the events:  
     [![](how-to-add-tracing-to-iis-managed-modules/_static/image24.png)](how-to-add-tracing-to-iis-managed-modules/_static/image23.png)
 

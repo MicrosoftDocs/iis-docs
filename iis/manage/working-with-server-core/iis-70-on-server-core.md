@@ -38,11 +38,9 @@ For **Full IIS install** option, you can type following in command-line:
 [!code-console[Main](iis-70-on-server-core/samples/sample2.cmd)]
 
 
-**Notes**:
-
-
-1. To uninstall IIS, you can pass "/uu:" instead of "/iu:" for the commands mentioned above (Ex. Start /w pkgmgr **/uu:** IIS-WebServerRole….).
-2. For more information on pkgmgr.exe, click the [link](../../install/installing-iis-7/installing-iis-from-the-command-line.md).
+> [!NOTE]
+> 1. To uninstall IIS, you can pass "/uu:" instead of "/iu:" for the commands mentioned above (Ex. Start /w pkgmgr **/uu:** IIS-WebServerRole….).
+> 2. For more information on pkgmgr.exe, click the [link](../../install/installing-iis-7/installing-iis-from-the-command-line.md).
 
 
 **Q2. Which features of IIS 7.0 are not available on Server Core installation option of Windows Server 2008?**
@@ -102,10 +100,9 @@ Step 2. Create the PHP/FastCGI handler mapping from command line by typing follo
 
 &gt; AppCmd set config /section:system.webServer/handlers /+[name='PHP-FastCGI',path='\*.php',verb='\*',modules='FastCgiModule',scriptProcessor='d:\php\php-cgi.exe',resourceType='Either']
 
-**Notes**:
-
-1. AppCmd.exe is a new command-line tool that ships with IIS 7.0. AppCmd.exe can be found at `%WinDir%\System32\InetSrv` directory. For more information on AppCmd command-line tool, please click the [link](../../get-started/getting-started-with-iis/getting-started-with-appcmdexe.md).
-2. Depending on PHP installation location described in Q4, paths to executables on the hard disk may require updates. All appcmd example commands above assume that PHP installation is in D:\PHP folder.
+> [!NOTE]
+> 1. AppCmd.exe is a new command-line tool that ships with IIS 7.0. AppCmd.exe can be found at `%WinDir%\System32\InetSrv` directory. For more information on AppCmd command-line tool, please click the [link](../../get-started/getting-started-with-iis/getting-started-with-appcmdexe.md).
+> 2. Depending on PHP installation location described in Q4, paths to executables on the hard disk may require updates. All appcmd example commands above assume that PHP installation is in D:\PHP folder.
 
 ## Server Core Administration Tips
 

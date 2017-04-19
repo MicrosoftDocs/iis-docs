@@ -30,7 +30,7 @@ The following steps assume that you have completed the setup and configuration o
 
 First, download the latest stable release of the Siteframe application. For this article, we use siteframe-5.0.5-783 downloaded from the mirror [http://siteframe.org/p/siteframe-5-0-5](http://siteframe.org/p/siteframe-5-0-5).
 
-Once you download the package, uncompress it and copy all the files and folders to C:\Inetpub\wwwroot\siteframe.
+Once you download the package, uncompress it and copy all the files and folders to `C:\Inetpub\wwwroot\siteframe`.
 
 ## Set Up the Database
 
@@ -83,7 +83,7 @@ allow\_url\_fopen=on
 
     > [!NOTE]
     > Smarty templates are available only in the .tar format and these .tar files must be extracted using gzip or other tools. We use the "izarc" tool downloaded from [http://www.izarc.org/download.html](http://www.izarc.org/download.html).
-5. After installing the extract tool, right click the filename and extract .tar to the folder c:\smarty. To avoid the security issues, keep this folder outside of the web root directory. There could be one other Smarty-2.6.18.tar file located inside the extracted files; if so, extract that file into the same folder as well.
+5. After installing the extract tool, right click the filename and extract .tar to the folder `c:\smarty`. To avoid the security issues, keep this folder outside of the web root directory. There could be one other Smarty-2.6.18.tar file located inside the extracted files; if so, extract that file into the same folder as well.
 6. Edit PHP configuration file php.ini to add the installed Smarty include path.  
  Include\_path = ".;c:\smarty\libs". Restart IIS to affect the changes.
 7. Set up these two folders inside your www root:  

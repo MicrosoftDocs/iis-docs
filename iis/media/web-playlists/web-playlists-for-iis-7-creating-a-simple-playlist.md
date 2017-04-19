@@ -110,7 +110,7 @@ A nested playlist is a playlist that is added as a media entry to another playli
 > [!NOTE]
 > Since Web Playlists has a dynamic model, the number of levels cannot be known as playback starts. If the nesting level is more than 5, some content may not be delivered and the request will fail.
 
-A nested playlist entry can be added by using the Playlists feature the same way any other media entry is added. For example, in the **Content location** box, you can give the path/URL to a playlist (for example, C:\media\play.isx or http:\\media\play.isx).
+A nested playlist entry can be added by using the Playlists feature the same way any other media entry is added. For example, in the **Content location** box, you can give the path/URL to a playlist (for example, `C:\media\play.isx` or `http:\\media\play.isx`).
 
 ### Configuration Settings for Nested Playlists
 
@@ -141,7 +141,7 @@ Web Playlists can use media entries that begin with the httpd:// URL prefix to r
 
 [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image12.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image11.jpg)
 
-In the Web Playlists feature in IIS Manager, you can use any location type with an httpd:// media entry. Set the **Location type** to match the content location returned by the remote application that served the request. For example, if the remote application returns a physical path such as C:\media\file.asf, then **Location type** should be set to **Physical path**.
+In the Web Playlists feature in IIS Manager, you can use any location type with an httpd:// media entry. Set the **Location type** to match the content location returned by the remote application that served the request. For example, if the remote application returns a physical path such as `C:\media\file.asf`, then **Location type** should be set to **Physical path**.
 
 In the Web Playlists feature in IIS Manager, simply add a media entry that uses the httpd:// syntax in the **Content location** field.
 

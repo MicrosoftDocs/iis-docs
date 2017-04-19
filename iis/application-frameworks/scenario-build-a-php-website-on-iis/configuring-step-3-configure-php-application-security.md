@@ -25,7 +25,7 @@ The following procedure shows you how to configure PHP settings in the php.ini f
 
 ### To configure a PHP setting for security
 
-1. In Windows Explorer, open your PHP installation folder, for example **C:\PHP**.
+1. In Windows Explorer, open your PHP installation folder, for example `C:\PHP`.
 2. In a text editor, open the php.ini file.
 3. Search the file for the setting you want to change. 
 

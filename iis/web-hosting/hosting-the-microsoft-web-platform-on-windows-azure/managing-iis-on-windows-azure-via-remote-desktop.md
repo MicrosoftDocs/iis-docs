@@ -28,7 +28,8 @@ Before you can manage IIS on a Windows Azure Instance you have to connect to the
 
 IIS has many different management interfaces, for example the User Interface, the command-line and programmatic interfaces like AHAdmin, Microsoft.Web.Administration and WMI. In this walkthrough we focus on the User Interface and the command-line.
 
-**NOTE: Do not make changes to IIS configuration when managing Windows Azure images via RDP. Changes to a Windows Azure image are not persisted and the next time an image will be started it will have lost the changes you made. Changes should only be made via the Windows Azure service configuration files or in the RoleEntryPoint::OnStart method. Go to this [link](../../manage/managing-your-configuration-settings/using-configuration-editor-generate-scripts.md "Auto-generating scripts via the IIS Configuration Editor") if you want to auto-generate IIS configuration code for the RoleEntryPoint::OnStart method.**
+> [!NOTE]
+> Do not make changes to IIS configuration when managing Windows Azure images via RDP. Changes to a Windows Azure image are not persisted and the next time an image will be started it will have lost the changes you made. Changes should only be made via the Windows Azure service configuration files or in the RoleEntryPoint::OnStart method. Go to this [link](../../manage/managing-your-configuration-settings/using-configuration-editor-generate-scripts.md "Auto-generating scripts via the IIS Configuration Editor") if you want to auto-generate IIS configuration code for the RoleEntryPoint::OnStart method.
 
 ## Common IIS Management Tasks with INETMGR
 

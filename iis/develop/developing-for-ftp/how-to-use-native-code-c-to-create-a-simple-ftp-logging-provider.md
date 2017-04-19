@@ -34,11 +34,12 @@ The following items are required to complete the procedures in this article:
 3. You must create a root folder for FTP publishing.
 4. You must use Visual Studio 2008. 
 
-    - > [!NOTE]
- > If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.
-    - > [!NOTE]
- > If you plan to develop custom FTP providers for computers that use a 64-bit version of Windows, you will have to install the 64-bit tools and compilers for Visual Studio. You can find additional information about 64-bit development in the [Installing Visual Studio 64-bit Components](https://msdn.microsoft.com/en-us/library/ms246588.aspx) topic on the Microsoft MSDN Web site.
-5. A folder for logging must be created; the code sample uses C:\logfiles\myftpsite, but you can change that if necessary.
+    > [!NOTE]
+    > If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.
+    
+	> [!NOTE]
+    > If you plan to develop custom FTP providers for computers that use a 64-bit version of Windows, you will have to install the 64-bit tools and compilers for Visual Studio. You can find additional information about 64-bit development in the [Installing Visual Studio 64-bit Components](https://msdn.microsoft.com/en-us/library/ms246588.aspx) topic on the Microsoft MSDN Web site.
+5. A folder for logging must be created; the code sample uses `C:\logfiles\myftpsite`, but you can change that if necessary.
 
 ## Step 1: Set up the Project Environment
 
@@ -96,8 +97,12 @@ In this step, you will create a project in Visual Studio 2008 for the demo provi
     - Expand **Configuration Properties**, and then click **Linker**.
     - Select **Register Output**, and select **No** from the drop-down menu.
     - Click **OK**.
-9. Optional: If you are developing your custom provider on a 32-bit version of Windows, you can optionally add a custom build event to automatically deploy and register the DLL on your development computer. (> [!NOTE]
-> These steps will not work on a 64-bit version of Windows.) To add the custom build event, follow these steps: 
+9. Optional: If you are developing your custom provider on a 32-bit version of Windows, you can optionally add a custom build event to automatically deploy and register the DLL on your development computer.
+
+    > [!NOTE]
+    > These steps will not work on a 64-bit version of Windows.)
+	
+	To add the custom build event, follow these steps: 
 
     - Click **Project**, and then click **FtpLoggingDemo Properties**.
     - Expand **Configuration Properties**, then expand **Build Events**, then click **Post-build Event**.

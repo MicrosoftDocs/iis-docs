@@ -49,7 +49,7 @@ The following items are required to be installed to complete the procedures in t
     - [FTP 7.5 for IIS 7.0 (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
 - You must create a root folder for FTP publishing: 
 
-    - Create a folder at "C:\inetpub\ftproot"
+    - Create a folder at `C:\inetpub\ftproot`
     - Set the permissions to allow anonymous access: 
 
         - Open a command prompt.
@@ -59,7 +59,7 @@ The following items are required to be installed to complete the procedures in t
         - Close the command prompt.
 
 > [!NOTE]
-> The settings listed in this walkthrough specify "C:\inetpub\ftproot" as the path to your FTP site. You are not required to use this path; however, if you change the location for your site you will have to change the site-related paths that are used throughout this walkthrough.
+> The settings listed in this walkthrough specify `C:\inetpub\ftproot` as the path to your FTP site. You are not required to use this path; however, if you change the location for your site you will have to change the site-related paths that are used throughout this walkthrough.
 
 <a id="01"></a>
 
@@ -76,7 +76,7 @@ Create an FTP site where users will be able to access content anonymously. Use t
     [![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image2.png)](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image1.png)
 3. When the **Add FTP Site** wizard appears: 
 
-    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the "C:\inetpub\ftproot" folder that you created in the Prerequisites section.   
+    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `C:\inetpub\ftproot` folder that you created in the Prerequisites section.   
         > [!NOTE]
         > If you choose to type in the path to your content folder, you can use environment variables in your paths; for example: `%SystemDrive%\inetpub\ftproot`
     - Click **Next**.  
@@ -131,7 +131,7 @@ We must configure the FTP site so that users will be able to see the available b
 
 To recap the items that you completed in this step:
 
-1. You created a new FTP site named "My New FTP Site", with the site's content root at "C:\inetpub\ftproot".
+1. You created a new FTP site named "My New FTP Site", with the site's content root at `C:\inetpub\ftproot`.
 2. You bound the FTP site to the local loopback address for your computer on port 21, choosing not to use Secure Sockets Layer (SSL) for the FTP site.
 3. You created a default rule for the FTP site to allow anonymous users "Read" access to the files.
 4. You added an authorization rule that allows the administrator account both "Read" and "Write" permissions for the FTP site.
@@ -175,7 +175,7 @@ This section of the walkthrough leads you through the steps to install the File 
     [![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image25.png)](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image24.png)
 2. In the **File Server Resource Manager**, expand **Quota Management** in the tree view and click **Quotas**, then click **Create Quota** in the Actions pane.  
     [![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image27.png)](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image26.png)
-3. In the **Create Quota** dialog box, navigate to the "C:\inetpub\ftproot" folder that you created in the Prerequisites section. Choose a template from the list of available templates to apply to your folder. Click **Create**.  
+3. In the **Create Quota** dialog box, navigate to the `C:\inetpub\ftproot` folder that you created in the Prerequisites section. Choose a template from the list of available templates to apply to your folder. Click **Create**.  
     [![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image29.png)](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image28.png)
 4. The **File Server Resource Manager** should now display the quota settings for your FTP site.  
     [![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image31.png)](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image30.png)

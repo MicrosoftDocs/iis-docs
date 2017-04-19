@@ -43,8 +43,8 @@ Enable UTF-8 character set – ***this is very important***, because several app
 
 Since MySQL is installed on the database server, which is different than the web server which runs the Web Deploy web server component, you'll need to take a few extra steps to make sure Web Deploy can access the database server:
 
-1. Copy mysqldump.exe (typically from C:\Program Files\MySQL\MySQL Server 5.1\bin) to your **web server** in [c:\mysqldump\mysqldump.exe](file:///c:/mysqldump/mysqldump.exe)
-2. On the **web server**, set a registry key (HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\IIS Extensions\MSDeploy\2\mysqldumppath) to string value == "c:\mysqldump\mysqldump.exe")
+1. Copy mysqldump.exe (typically from `C:\Program Files\MySQL\MySQL Server 5.1\bin`) to your **web server** in `c:\mysqldump\mysqldump.exe`
+2. On the **web server**, set a registry key (`HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\IIS Extensions\MSDeploy\2\mysqldumppath`) to string value == "c:\mysqldump\mysqldump.exe")
 
 
 ## Resetting Permissions

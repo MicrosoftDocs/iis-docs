@@ -42,7 +42,7 @@ In these scenarios, IIS has rejected the client's HTTP request because the reque
 
 When troubleshooting an HTTP 400 condition, it is important to remember that the underlying problem is that the client has sent a request to IIS that breaks one or more rules that HTTP.sys is enforcing. With that in mind, you will want to see exactly what the client is sending to IIS; to do this, capture a network trace of the client sending the bad request. You can analyze the trace to see the raw data that the client sends to IIS, and to see the raw response data that IIS sends back to the client. You can also use an HTTP sniffer tool called Fiddler; this is a great tool as it allows you to see the HTTP headers even if the client and server are communicating over SSL.
 
-The next data item you will want to use is the C:\Windows\System32\LogFiles\HTTPERR\httperr.log file. Beginning in IIS 6.0, the HTTP.sys component handles incoming HTTP requests before they are passed along to IIS, and is the component responsible for blocking requests that don't meet the IIS requirements. When HTTP.sys blocks the request, it will log information to its httperr.log file concerning the bad request and why it was blocked.
+The next data item you will want to use is the `C:\Windows\System32\LogFiles\HTTPERR\httperr.log` file. Beginning in IIS 6.0, the HTTP.sys component handles incoming HTTP requests before they are passed along to IIS, and is the component responsible for blocking requests that don't meet the IIS requirements. When HTTP.sys blocks the request, it will log information to its httperr.log file concerning the bad request and why it was blocked.
 
 NOTE: For more information on the HTTP API error logging that HTTP.sys provides, see the following article:
 
@@ -75,7 +75,7 @@ You'll notice that the response headers don't tell us as much as the error messa
 
 You can see that the error message text displayed in the browser is also viewable in the raw response data in the network trace.
 
-The next step is to look at the httperr.log file in the C:\Windows\System32\LogFiles\HTTPERR directory for the entry that corresponds to the bad request:
+The next step is to look at the httperr.log file in the `C:\Windows\System32\LogFiles\HTTPERR` directory for the entry that corresponds to the bad request:
 
 [!code-console[Main](troubleshooting-http-400-errors-in-iis/samples/sample4.cmd)]
 

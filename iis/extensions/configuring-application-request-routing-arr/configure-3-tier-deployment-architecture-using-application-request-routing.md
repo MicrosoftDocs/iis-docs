@@ -62,7 +62,7 @@ Before proceeding, make sure that the static content is available on the ARR ser
     ![](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image3.jpg)
 4. Double click **Routing Rules**. Type **\*.jpg** and **\*.css** in the **Requests with the following extensions are not forwarded** text box. The multiple extensions are comma (,) separated. To match the path in URL, type **\*/image/\*** in the **Requests with the following patterns are not forwarded** text box. The wildcard character (\*) is used to match any character before and after the path /image/.  
     [![](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image5.jpg)](configure-3-tier-deployment-architecture-using-application-request-routing/_static/image4.jpg)
-5. To verify that the static images are being served from the ARR server, inspect the logs. By default, the logs are in **c:\inetpub\logs\LogFiles\**. On application servers behind the ARR server, there should not be any requests that reference \*.jpg, \*.css or \*/images/\* in the log file.
+5. To verify that the static images are being served from the ARR server, inspect the logs. By default, the logs are in `c:\inetpub\logs\LogFiles\`. On application servers behind the ARR server, there should not be any requests that reference \*.jpg, \*.css or \*/images/\* in the log file.
 
 **To change URL rewrite rules using the command-line:** 
 

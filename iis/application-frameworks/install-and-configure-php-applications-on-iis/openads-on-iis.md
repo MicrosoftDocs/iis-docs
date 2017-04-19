@@ -30,7 +30,7 @@ The following steps assume that you have completed the setup and configuration o
 
 First, download the latest stable release of the OpenAds application. For this article, we use openads-2.4.1 downloaded from the mirror [http://www.openads.org/products/openads/download?ext=zip&amp;utm\_source=openads&amp;utm\_medium=f&amp;utm\_campaign=upgrade241](http://www.openads.org/products/openads/download?ext=zip&amp;utm_source=openads&amp;utm_medium=f&amp;utm_campaign=upgrade241).
 
-Once you download the package, uncompress it and copy all the files and folders to C:\Inetpub\wwwroot\openads.
+Once you download the package, uncompress it and copy all the files and folders to `C:\Inetpub\wwwroot\openads`.
 
 ## Set Up the Database
 

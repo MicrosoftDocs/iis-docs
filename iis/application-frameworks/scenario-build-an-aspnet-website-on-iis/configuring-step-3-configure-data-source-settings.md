@@ -35,8 +35,9 @@ In [Plan an ASP.NET Website on IIS](plan-an-asp-net-website-on-iis.md), you made
 1. Open IIS Manager and navigate to the level you want to manage.
 2. In **Features View**, double-click **Connection Strings**.
 3. On the **Connection Strings** page, click **Add** in the **Actions** pane.
-4. In the **Add Connection String** dialog box, type a name for the connection string, such as MyConnection, in the **Name** text box. (> [!NOTE]
-> The name that you enter in IIS Manager is the same name that you reference in your application code to retrieve data by using this connection string.)
+4. In the **Add Connection String** dialog box, type a name for the connection string, such as MyConnection, in the **Name** text box.
+    > [!NOTE]
+    > The name that you enter in IIS Manager is the same name that you reference in your application code to retrieve data by using this connection string.
 5. With the **SQL Server** option selected, type the name of the server that hosts the database in the **Server** text box and type the name of the database in the **Database** text box.
 6. Under **Credentials**, choose one of the following:
 
@@ -89,7 +90,9 @@ In [Plan an ASP.NET Website on IIS](plan-an-asp-net-website-on-iis.md), you made
 7. If the **.NET Users** feature was selected in step #3, in the **Profile properties** section, under **Behavior**, set the value of one or more of the following behaviors to **True** to enable the behavior:
 
     - **EnablePasswordReset**: indicates whether passwords can be reset by using the provider *ResetPassword* method. The default setting is **False**.
-    - **EnablePasswordRetrieval**: indicates whether passwords can be retrieved by using the provider *GetPassword* method. The default setting is **False**. (**Important**: Some providers, such as the Active Directory provider, do not support the retrieval of passwords. For these providers, the value of the **enablePasswordRetrieval** attribute is always **False** and cannot be changed in configuration.)
+    - **EnablePasswordRetrieval**: indicates whether passwords can be retrieved by using the provider *GetPassword* method. The default setting is **False**. 
+	    > [!IMPORTANT]
+        > Some providers, such as the Active Directory provider, do not support the retrieval of passwords. For these providers, the value of the **enablePasswordRetrieval** attribute is always **False** and cannot be changed in configuration.
     - **RequiresQuestionAndAnswer**: indicates whether a password answer is supplied when the program calls the provider *GetPassword* and *ResetPassword* methods. The default setting is **False**.
     - **RequiresUniqueEmail**: indicates whether each registered user must have a unique e-mail address. The default setting is **False**.
     - **StorePasswordInSecureFormat**: indicates whether passwords are hashed. The default setting is **False**.

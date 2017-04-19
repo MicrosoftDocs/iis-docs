@@ -32,7 +32,7 @@ The following steps assume that you have completed the setup and configuration o
 
 First, download the latest stable release of the PostNuke application framework. For this article, we use PostNuke-0.764.zip downloaded from the mirror [http://noc.postnuke.com/frs/?group\_id=5&amp;release\_id=700](http://noc.postnuke.com/frs/?group_id=5&amp;release_id=700).
 
-Once you download the package, uncompress it and copy all the files and folders in the HTML directory to C:\Inetpub\wwwroot\postnuke folder.
+Once you download the package, uncompress it and copy all the files and folders in the HTML directory to `C:\Inetpub\wwwroot\postnuke` folder.
 
 ## Set Up the Database
 
@@ -46,7 +46,7 @@ Before starting the installation procedure for PostNuke, create a database on yo
 
 PostNuke is simple to install.
 
-1. To begin the install script, type the URL of the install.php file into your Web browser. If you installed PostNuke to your c:\inetpub\wwwroot\postnuke folder, the install file is located at [http://localhost/postnuke/install.php](http://localhost/postnuke/install.php).  
+1. To begin the install script, type the URL of the install.php file into your Web browser. If you installed PostNuke to your `c:\inetpub\wwwroot\postnuke` folder, the install file is located at [http://localhost/postnuke/install.php](http://localhost/postnuke/install.php).  
     [![](phpnuke-on-iis/_static/image2.jpg)](phpnuke-on-iis/_static/image1.jpg)
 2. From here, select the default language for your PostNuke site. The English language files are included with the distribution, so we select English.
 3. Read through the license agreement.  

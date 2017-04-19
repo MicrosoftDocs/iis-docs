@@ -114,7 +114,8 @@ You can now start the publishing process. Before WebMatrix Beta makes any change
     [![](publish-your-website/_static/image12.jpg)](publish-your-website/_static/image11.jpg)
 2. Review the list of files and databases and make changes if necessary. For example, you might want to clear check boxes under **Changed Files** to exclude some files. Or, if this is the first time you're publishing the site, you might want to select check boxes under **Databases** to publish databases. (Check boxes are selected by default in the **Files** section and cleared by default in the **Databases** section.) 
 
-    > **Important**: If you're publishing a database and the database already exists in at the hosting provider's site, whatever is in that database will be overwritten.
+    > [!IMPORTANT]
+    > If you're publishing a database and the database already exists in at the hosting provider's site, whatever is in that database will be overwritten.
 3. Click **Continue**.
 
     WebMatrix Beta publishes the website, showing status messages in the navigation bar at the bottom of the screen. The publishing process is done in the background, which means you can continue to work in WebMatrix Beta while it is publishing.

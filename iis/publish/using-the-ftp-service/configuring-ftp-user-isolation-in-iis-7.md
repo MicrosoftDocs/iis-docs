@@ -130,30 +130,30 @@ To recap the items that you completed in this section:
         - **FTP root directory**
 
             - This option specifies that all FTP sessions will start in the root directory for the FTP site.
-            - > [!NOTE]
- > This option is new in this FTP server, and simply disables all user isolation or starting folder logic.
+                > [!NOTE]
+                > This option is new in this FTP server, and simply disables all user isolation or starting folder logic.
         - **User name directory**
 
             - This option specifies that all FTP sessions will start in the physical or virtual directory with the same name of the currently logged on user if the folder exists; otherwise, the FTP session will start in the root directory for the FTP site.
-            - > [!NOTE]
- > This option is the same as choosing no user isolation in the IIS 6.0 FTP server. For additional information about using this option, see the "Do Not Isolate Users Mode" section in the [Hosting Multiple FTP Sites with FTP User Isolation (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=62833) topic.
+                > [!NOTE]
+                > This option is the same as choosing no user isolation in the IIS 6.0 FTP server. For additional information about using this option, see the "Do Not Isolate Users Mode" section in the [Hosting Multiple FTP Sites with FTP User Isolation (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=62833) topic.
     - **Isolate users. Restrict users to the following directory**: 
 
         - **User name directory (disable global virtual directories)**
 
             - This option specifies that you want to isolate FTP user sessions to the physical or virtual directory with the same name of the FTP user account. The user sees only their FTP root location and is, therefore, restricted from navigating higher up the physical or virtual directory tree. Any global virtual directories that are created will be ignored.
-            - > [!NOTE]
- > This option is new in this FTP server.
+                > [!NOTE]
+                > This option is new in this FTP server.
         - **User name physical directory (enable global virtual directories)**
 
             - This option specifies that you want to isolate FTP user sessions to the physical directory with the same name of the FTP user account. The user sees only their FTP root location and is, therefore, restricted from navigating higher up the physical directory tree. Any global virtual directories that are created will apply to all users.
-            - > [!NOTE]
- > This option is the same as choosing user isolation in the IIS 6.0 FTP server.
+                > [!NOTE]
+                > This option is the same as choosing user isolation in the IIS 6.0 FTP server.
         - **FTP home directory configured in Active Directory**
 
             - This option specifies that you want to isolate FTP user sessions to the home directory that is configured in the Active Directory account settings for each FTP user.
-            - > [!NOTE]
- > This option is the same as choosing Active Directory user isolation in the IIS 6.0 FTP server. For additional information about using this option, see the "Isolate Users Using Active Directory Mode" section in the [Hosting Multiple FTP Sites with FTP User Isolation (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=62833) topic.
+                > [!NOTE]
+                > This option is the same as choosing Active Directory user isolation in the IIS 6.0 FTP server. For additional information about using this option, see the "Isolate Users Using Active Directory Mode" section in the [Hosting Multiple FTP Sites with FTP User Isolation (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=62833) topic.
 
 <a id="003"></a>
 
@@ -180,16 +180,16 @@ To recap the items that you completed in this step, you configured FTP user isol
 
 To create home directories for each user, you first need to create a physical directory under your FTP server's root folder that is named after your domain or named LocalUser for local user accounts. Next, you need to create a physical directory for each user account that will access your FTP site. The following table lists the home directory syntax for the authentication providers that ship with the FTP service:
 
-> | User Account Types | Physical Home Directory Syntax |
-> | --- | --- |
-> | Anonymous users | %FtpRoot%\LocalUser\Public |
-> | Local Windows user accounts (requires basic authentication) | %FtpRoot%\LocalUser\%UserName% |
-> | Windows domain accounts (requires basic authentication) | %FtpRoot%\%UserDomain%\%UserName% |
-> | IIS Manager or ASP.NET custom authentication user accounts | %FtpRoot%\LocalUser\%UserName% |
-> 
-> (> [!NOTE]
-> In the above table, %FtpRoot% is the root directory for your FTP site; for example, C:\Inetpub\Ftproot.)
+| User Account Types | Physical Home Directory Syntax |
+| --- | --- |
+| Anonymous users | %FtpRoot%\LocalUser\Public |
+| Local Windows user accounts (requires basic authentication) | %FtpRoot%\LocalUser\%UserName% |
+| Windows domain accounts (requires basic authentication) | %FtpRoot%\%UserDomain%\%UserName% |
+| IIS Manager or ASP.NET custom authentication user accounts | %FtpRoot%\LocalUser\%UserName% |
 
+
+> [!NOTE]
+> In the above table, %FtpRoot% is the root directory for your FTP site; for example, `C:\Inetpub\Ftproot`.
 
 **Important Note**: Global virtual directories are enabled; all virtual directories that are configured at the root-level of your FTP site can be accessed by all FTP users, provided that they have sufficient permissions.
 
@@ -204,8 +204,9 @@ When isolating users for all directories, all FTP user sessions are restricted t
     [![](configuring-ftp-user-isolation-in-iis-7/_static/image57.png)](configuring-ftp-user-isolation-in-iis-7/_static/image55.png)
 3. When the **FTP User Isolation** feature page is displayed, select the **User name directory (disable global virtual directories)** option, then click **Apply** in the **Actions** pane.  
     [![](configuring-ftp-user-isolation-in-iis-7/_static/image61.png)](configuring-ftp-user-isolation-in-iis-7/_static/image59.png)
-4. Expand the tree node for your FTP site, then right-click the LocalUser folder and click **Add Virtual Directory**. (> [!NOTE]
-> In this example the "LocalUser" folder is a physical directory, but a virtual directory could also have been used.)  
+4. Expand the tree node for your FTP site, then right-click the LocalUser folder and click **Add Virtual Directory**.
+    > [!NOTE]
+    > In this example the "LocalUser" folder is a physical directory, but a virtual directory could also have been used.
     [![](configuring-ftp-user-isolation-in-iis-7/_static/image65.png)](configuring-ftp-user-isolation-in-iis-7/_static/image63.png)
 5. When the **Add Virtual Directory** dialog box appears: 
 
@@ -227,15 +228,16 @@ To recap the items that you completed in this step, you configured FTP user isol
 
 To create home directories for each user, you first need to create a virtual or physical directory under your FTP server's root folder that is named after your domain or named LocalUser for local user accounts. Next, you need to create a virtual or physical directory for each user account that will access your FTP site. The following table lists the home directory syntax for the authentication providers that ship with the FTP service:
 
-> | User Account Types | Physical Home Directory Syntax |
-> | --- | --- |
-> | Anonymous users | %FtpRoot%\LocalUser\Public |
-> | Local Windows user accounts (requires basic authentication) | %FtpRoot%\LocalUser\%UserName% |
-> | Windows domain accounts (requires basic authentication) | %FtpRoot%\%UserDomain%\%UserName% |
-> | IIS Manager or ASP.NET custom authentication user accounts | %FtpRoot%\LocalUser\%UserName% |
-> 
-> (> [!NOTE]
-> In the above table, %FtpRoot% is the root directory for your FTP site; for example, C:\Inetpub\Ftproot.)
+| User Account Types | Physical Home Directory Syntax |
+| --- | --- |
+| Anonymous users | %FtpRoot%\LocalUser\Public |
+| Local Windows user accounts (requires basic authentication) | %FtpRoot%\LocalUser\%UserName% |
+| Windows domain accounts (requires basic authentication) | %FtpRoot%\%UserDomain%\%UserName% |
+| IIS Manager or ASP.NET custom authentication user accounts | %FtpRoot%\LocalUser\%UserName% |
+
+
+> [!NOTE]
+> In the above table, %FtpRoot% is the root directory for your FTP site; for example, `C:\Inetpub\Ftproot`.
 
 
 Global virtual directories are ignored; all virtual directories that are configured at the root-level of your FTP site cannot be accessed by any FTP users. All virtual directories must be explicitly defined under a user's physical or virtual home directory path.

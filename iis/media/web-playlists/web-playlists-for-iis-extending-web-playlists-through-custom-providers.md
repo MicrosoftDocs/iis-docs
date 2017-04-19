@@ -131,19 +131,19 @@ For 64-bit systems, do the following to register a native custom provider:
 For 32-bit systems, do the following to register a .NET-based custom provider:
 
 1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
-2. In Command Prompt, navigate to the .NET Framework directory (for example, C:\Windows\Microsoft.NET\Framework\v2.0.50727).
+2. In Command Prompt, navigate to the .NET Framework directory (for example, `C:\Windows\Microsoft.NET\Framework\v2.0.50727`).
 3. Type the following command: **RegAsm.exe &lt;*providerdllname*.dll&gt;** where *providerdllname*.dll is the provider dll.
 
 For 64-bit systems, do the following to register a .NET-based custom provider:
 
 1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
-2. In Command Prompt, navigate to the .NET Framework directory (for example, C:\Windows\Microsoft.NET\Framework64\v2.0.50727).
+2. In Command Prompt, navigate to the .NET Framework directory (for example, `C:\Windows\Microsoft.NET\Framework64\v2.0.50727`).
 3. Type the following command: **RegAsm.exe &lt;*providerdllname*.*dll*&gt;** where *providerdllname*.dll is the provider dll.
 
 For 64 bit systems, when you run as 32 bit through WOW layer, do the following to register a .NET-based custom provider
 
 1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
-2. In Command Prompt, navigate to the .NET Framework directory (for example, C:\Windows\Microsoft.NET\Framework\v2.0.50727).
+2. In Command Prompt, navigate to the .NET Framework directory (for example, `C:\Windows\Microsoft.NET\Framework\v2.0.50727`).
 3. Type the following command: **RegAsm.exe &lt;*providerdllname*.dll&gt;** where *providerdllname*.dll is the provider dll.
 
 <a id="Resources"></a>

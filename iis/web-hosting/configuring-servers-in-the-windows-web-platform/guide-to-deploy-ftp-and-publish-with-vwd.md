@@ -99,8 +99,9 @@ In this section, you will create a new FTP site that can be opened by using any 
     [![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image8.jpg)](guide-to-deploy-ftp-and-publish-with-vwd/_static/image7.jpg)
 3. When the Add FTP Site Wizard appears:
 
-    - Enter "My New FTP Site" in the **FTP site name** text box, and then navigate to the root folder that you created for your FTP site (example: `%*SystemDrive*%\inetpub\ftproot`). > [!NOTE]
- > If you choose to type in the path to your content folder, you can use environment variables in your paths.
+    - Enter "My New FTP Site" in the **FTP site name** text box, and then navigate to the root folder that you created for your FTP site (example: `%*SystemDrive*%\inetpub\ftproot`).
+	    > [!NOTE]
+        > If you choose to type in the path to your content folder, you can use environment variables in your paths.
     - Click **Next**.  
         [![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image10.jpg)](guide-to-deploy-ftp-and-publish-with-vwd/_static/image9.jpg)
 4. On the next page of the wizard:
@@ -157,8 +158,10 @@ To create home directories for each user, you first need to create a virtual or 
 | Windows domain accounts (requires Basic authentication) | %*FtpRoot*%\%UserDomain%\%*UserName*% |
 | IIS Manager or ASP.NET custom authentication user accounts | %*FtpRoot*%\LocalUser\%*UserName*% |
 
-(> [!NOTE]
-> In the above table, %*FtpRoot*% is the root directory for your FTP site; for example, C:\Inetpub\Ftproot.) Global virtual directories are ignored; virtual directories that are configured at the root-level of your FTP site cannot be accessed by any FTP users. All virtual directories must be explicitly defined under a user's physical or virtual home directory path. 
+> [!NOTE]
+> In the above table, %*FtpRoot*% is the root directory for your FTP site; for example, `C:\Inetpub\Ftproot`.
+
+Global virtual directories are ignored; virtual directories that are configured at the root-level of your FTP site cannot be accessed by any FTP users. All virtual directories must be explicitly defined under a user's physical or virtual home directory path. 
 
 ## Configure the FTP Firewall Settings
 

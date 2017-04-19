@@ -55,9 +55,10 @@ Follow the steps outlined in [this](../installing-application-request-routing-ar
 4. Enter a name for the server farm. In the example below, **myServerFarm** is the name of the server farm. Click **Next**.
 
     [![](define-and-configure-an-application-request-routing-server-farm/_static/image11.jpg)](define-and-configure-an-application-request-routing-server-farm/_static/image10.jpg)
-5. The next step is to add servers to the server farm. On the Add Server page of the wizard, add as many application servers as needed. Click **Finish** to create the server farm with the entered application servers as the server farm members. (> [!NOTE]
-> *Advanced options...* allow you to configure the HTTP and HTTPS ports to non-standard (80 for HTTP and 443 for HTTPS) ports:
+5. The next step is to add servers to the server farm. On the Add Server page of the wizard, add as many application servers as needed. Click **Finish** to create the server farm with the entered application servers as the server farm members.
 
+    > [!NOTE]
+    > *Advanced options...* allow you to configure the HTTP and HTTPS ports to non-standard (80 for HTTP and 443 for HTTPS) ports:
     [![](define-and-configure-an-application-request-routing-server-farm/_static/image13.jpg)](define-and-configure-an-application-request-routing-server-farm/_static/image12.jpg)
 6. You have successfully created a server group with application servers as its members.
 

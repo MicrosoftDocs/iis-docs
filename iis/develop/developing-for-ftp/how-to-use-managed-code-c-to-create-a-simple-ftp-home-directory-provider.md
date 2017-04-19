@@ -32,9 +32,10 @@ The following items are required to complete the procedures in this article:
     - [FTP 7.5 for IIS (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
     - [FTP 7.5 for IIS (x64)](https://go.microsoft.com/fwlink/?LinkId=143197)
 3. You must create a root folder for FTP publishing.
-4. You must use Visual Studio 2008. (> [!NOTE]
-> If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.)
-5. A home directory for each user must be created; the code sample uses C:\Ftpusers\%*UserName*%, but you could change that as necessary.
+4. You must use Visual Studio 2008.
+    > [!NOTE]
+    > If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.
+5. A home directory for each user must be created; the code sample uses `C:\Ftpusers\%*UserName*%`, but you could change that as necessary.
 
 ## Step 1: Set up the Project Environment
 
@@ -54,12 +55,8 @@ In this step, you will create a project in Visual Studio 2008 for the demo provi
     - Click the **Reference Paths** tab.
     - Enter the path to the FTP extensibility assembly for your version of Windows, where C: is your operating system drive: 
 
-        - For Windows Server 2008 and Windows Vista: 
-
-            - C:\Windows\assembly\GAC\_MSIL\Microsoft.Web.FtpServer\7.5.0.0\_\_31bf3856ad364e35
-        - For Windows 7: 
-
-            - C:\Program Files\Reference Assemblies\Microsoft\IIS
+        - For Windows Server 2008 and Windows Vista: `C:\Windows\assembly\GAC\_MSIL\Microsoft.Web.FtpServer\7.5.0.0\_\_31bf3856ad364e35`
+        - For Windows 7: `C:\Program Files\Reference Assemblies\Microsoft\IIS`
     - Click **Add Folder**.
 5. Add a strong name key to the project: 
 
@@ -113,7 +110,7 @@ In this step, you will add the demo provider to your FTP service and the default
 
 1. Determine the assembly information for the extensibility provider: 
 
-    - In Windows Explorer, open your "C:\Windows\assembly" path, where C: is your operating system drive.
+    - In Windows Explorer, open your `C:\Windows\assembly` path, where C: is your operating system drive.
     - Locate the **FtpHomeDirectoryDemo** assembly.
     - Right-click the assembly, and then click **Properties**.
     - Copy the **Culture** value; for example: **Neutral**.

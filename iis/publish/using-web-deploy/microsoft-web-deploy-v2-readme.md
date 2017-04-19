@@ -131,8 +131,8 @@ If the destination computer has Web Deploy v1.1 installed and the source compute
 ### Issue: Web Deploy is unable to retrieve the USN number from remote server
 
 The "-incremental" switch, when used with the dirPath provider, returns a USN number to be used with future syncs to allow for incremental sync.   
-For example: msdeploy -verb:dump -source:dirpath=c:\Temp –incremental  
-Returns: c:\Temp  
+For example: `msdeploy -verb:dump -source:dirpath=c:\Temp –incremental`  
+Returns: `c:\Temp`  
 Info: The USN number for syncing source path 'c:\Temp' is '2140379512'.  
 However, if the source is remote, the USN number doesn't get returned by the operation. This is a known limitation as Web Deploy v2 does not support retrieving a USN number from a remote server.
 

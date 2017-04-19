@@ -63,7 +63,7 @@ To use this template follow these steps:
     | /some-title | /article.aspx?id=1&amp;title=some-title |
     | /post/some-title.html | /article.aspx?id=1&amp;title=some-title |
 
-After completing these steps you should see the following rewrite map and rewrite rule created in C:\inetpub\wwwroot\web.config file.
+After completing these steps you should see the following rewrite map and rewrite rule created in `C:\inetpub\wwwroot\web.config` file.
 
 [!code-xml[Main](rule-with-rewrite-map-rule-template/samples/sample2.xml)]
 

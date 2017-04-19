@@ -58,7 +58,10 @@ The extension packages can be found at:
 9. Open a browser and make a request to `http://yoursitename/phpinfo.php`.
 10. Search within the returned Web page for a section called "wincache". If the extension is enabled, then you should see the configuration settings provided by the Windows Cache Extension for PHP.
 
-![](use-the-windows-cache-extension-for-php/_static/image1.gif)**IMPORTANT**: Do not forget to remove the **Phpinfo.php** file from the Web site's root folder after you have confirmed that extension has been enabled.
+![](use-the-windows-cache-extension-for-php/_static/image1.gif)
+
+> [!IMPORTANT]
+> Do not forget to remove the **Phpinfo.php** file from the Web site's root folder after you have confirmed that extension has been enabled.
 
 ## Compatibility Notes
 
@@ -113,7 +116,7 @@ To increase the maxInstances value on IIS 7, run this command from an elevated c
 > [!NOTE]
 > Replace the fullPath with the path to **P****hp-cgi.exe** on your server.
 
-Alternatively, you can edit the &lt;fastCGI&gt; section of the **ApplicationHost.config** file located at **C:\Windows\System32\inetsrv\config\** folder:
+Alternatively, you can edit the &lt;fastCGI&gt; section of the **ApplicationHost.config** file located at `C:\Windows\System32\inetsrv\config\` folder:
 
 [!code-xml[Main](use-the-windows-cache-extension-for-php/samples/sample6.xml)]
 
@@ -126,7 +129,7 @@ To increase the maxInstances value on IIS 5.1 and IIS 6.0 run this command:
 > [!NOTE]
 > replace the section name if necessary.
 
-Alternatively, you can edit the **Fcgiext.ini** file located at **C:\Windows\System32\inetsrv\** folder:
+Alternatively, you can edit the **Fcgiext.ini** file located at `C:\Windows\System32\inetsrv\` folder:
 
 
 [!code-console[Main](use-the-windows-cache-extension-for-php/samples/sample8.cmd)]
@@ -184,10 +187,13 @@ To use W **incache.php**, copy it into a root folder of your Web site or into an
 
 [!code-console[Main](use-the-windows-cache-extension-for-php/samples/sample12.cmd)]
 
-![](use-the-windows-cache-extension-for-php/_static/image3.gif)**IMPORTANT**: Always protect the **wincache.php** script by using either the built-in authentication or the server's authentication mechanism. Leaving this script unprotected may compromise the security of your web application and web server.
+![](use-the-windows-cache-extension-for-php/_static/image3.gif)
+
+> [!IMPORTANT]
+> Always protect the **wincache.php** script by using either the built-in authentication or the server's authentication mechanism. Leaving this script unprotected may compromise the security of your web application and web server.
 
 > [!NOTE]
-> *This article updates: " Using Windows Cache Extension for PHP" by Ruslan Yakushev, published on October, 2009.*
+> This article updates: " Using Windows Cache Extension for PHP" by Ruslan Yakushev, published on October, 2009.
 
 ## Links for Further Information
 

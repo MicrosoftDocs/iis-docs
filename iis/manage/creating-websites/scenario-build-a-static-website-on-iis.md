@@ -45,8 +45,9 @@ You can also perform this procedure by using the Windows user interface (UI) or 
 6. On the **Select Server Roles** page, select **Web Server (IIS)**, and then click **Next**.
 7. On the **Select Features** page, notice the preselected features, and then click **Next**.
 8. On the **Web Server Role (IIS)** page, click **Next**.
-9. On the **Select Role Services** page, note the preselected role services, and then click **Next**. (> [!NOTE]
-> Install the IIS 8 default role services for a static-content web server.)
+9. On the **Select Role Services** page, note the preselected role services, and then click **Next**.
+    > [!NOTE]
+    > Install the IIS 8 default role services for a static-content web server.
 10. On the **Confirm Installation Selections** page, confirm your selections, and then click **Install**.
 11. On the **Installation Progress** page, confirm that your installation of the Web Server (IIS) role and required role services completed successfully, and then click **Close**.
 12. To verify that IIS installed successfully, enter the following into a web browser:
@@ -111,7 +112,7 @@ The variable `physicalPath` is the absolute path of the site content in the file
 
 The variable `bindings` contains information that is used to access the site. It must be in the form *`protocol/IP_Address:port:hostheader`*. For example, for a website, the binding `http/*:85:` configures the site to listen for HTTP requests on port **85** for all IP addresses and domain names (also known as host headers or host names). On the other hand, a binding of `http/*:85:marketing.contoso.com` configures a website to listen for HTTP requests on port **85** for all IP addresses and for the domain name **marketing.contoso.com**.
 
-To add a website named **contoso** with an ID of 2 that has content in **c:\contoso**, and that listens for HTTP requests on port 85 for all IP addresses and a domain name of **marketing.contoso.com**, enter the following at the command prompt:
+To add a website named **contoso** with an ID of 2 that has content in `c:\contoso`, and that listens for HTTP requests on port 85 for all IP addresses and a domain name of **marketing.contoso.com**, enter the following at the command prompt:
 
 `appcmd add site /name:contoso /id:2 /physicalPath:c:\contoso /bindings:http/*:85:marketing.contoso.com`
 
@@ -128,7 +129,10 @@ Anonymous authentication gives users access to the public areas of your website 
 4. In the **Edit Anonymous Authentication Credentials** dialog box, select one of the following options:
 
     - If you want to configure a specific user account that IIS uses to access your site or application, select **Specific user**. Then click **Set** to open the **Set Credentials** dialog box, and enter a user name and password for the identity. Then click **OK**.
-    - If you want IIS processes to run by using the account that is currently specified on the property page for the application pool, select **Application pool identity**. By default, this identity is the IUSR account. (**Important**: If you use the IUSR account, you grant anonymous users all the internal network access associated with that account.)
+    - If you want IIS processes to run by using the account that is currently specified on the property page for the application pool, select **Application pool identity**. By default, this identity is the IUSR account. 
+	
+	    > [!IMPORTANT]
+        > If you use the IUSR account, you grant anonymous users all the internal network access associated with that account.
 5. Click **OK** to close the **Edit Anonymous Authentication Credentials** dialog box.
 
 ### To configure anonymous authentication by using the command line

@@ -51,4 +51,5 @@ General rules of thumb which are valid for every item in the matrix:
 > [!NOTE]
 > If NT Service\WMSVC does not have permissions to the UNC share -- which will be the case for UNC shares on another machine -- (WMSVC means nothing outside the realm of a local machine), update the identity of Web Management Service (services.msc) to be a domain user that has access to the server as well as the UNC share.
 
-**IMPORTANT**: Do *not* use a Network Service identity – it is a possible security risk, since that is the identity under which ASP.NET applications run. If you use ACLs to this account, you will open your content/configuration up for anyone to access via an aspx page.
+> [!IMPORTANT]
+> Do *not* use a Network Service identity – it is a possible security risk, since that is the identity under which ASP.NET applications run. If you use ACLs to this account, you will open your content/configuration up for anyone to access via an aspx page.

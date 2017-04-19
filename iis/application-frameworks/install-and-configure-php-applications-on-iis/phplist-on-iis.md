@@ -33,7 +33,7 @@ First, download the latest stable release of the PHPList application. For this a
 Once you download the package, uncompress it and copy the files and folders to a local folder. In this directory there is a directory public\_html which contains the directory "lists". Upload the "lists" directory into a directory you can access via the web. The rest of the files are for reference only and are not required for PHPList to work.
 
 > [!NOTE]
-> The folder name for the PHPList application should be "lists," as it is hardcoded in some screens. If the folder name is not given as "lists," some of the admin screens may not work after the installation. The folder name can be changed if required in the configuration file. The folder structure we use for our application is C:\Inetpub\wwwroot\lists.
+> The folder name for the PHPList application should be "lists," as it is hardcoded in some screens. If the folder name is not given as "lists," some of the admin screens may not work after the installation. The folder name can be changed if required in the configuration file. The folder structure we use for our application is `C:\Inetpub\wwwroot\lists`.
 
 ## Set Up the Database
 

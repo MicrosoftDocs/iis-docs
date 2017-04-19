@@ -82,7 +82,8 @@ For this walkthrough, I am assuming the file is uploaded to the site root (for e
 
 In IIS Manager, click the **Playlists** icon on your site, and then click **Configure Output Formats**. Then, in the **Add Output Format** dialog box, add the entry for the new output format.
 
-**Important** In **XSLT path**, give the path to your XSLT file, relative to the site root (for example, starting with the "/" character); otherwise, Web Playlists will not accept the path.
+> [!IMPORTANT]
+> In **XSLT path**, give the path to your XSLT file, relative to the site root (for example, starting with the "/" character); otherwise, Web Playlists will not accept the path.
 
 [![](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image4.bmp)](web-playlists-for-iis-extending-output-formats-using-xslt/_static/image3.bmp)
 

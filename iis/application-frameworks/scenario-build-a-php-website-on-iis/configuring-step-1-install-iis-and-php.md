@@ -38,8 +38,9 @@ If you do not use Web PI to install IIS, you can install IIS manually. To instal
 7. On the **Select Features** page, note the preselected features that are installed by default, and then select **CGI**. This selection also installs FastCGI, which is recommended for PHP applications.
 8. Click **Next**.
 9. On the **Web Server Role (IIS)** page, click **Next**.
-10. On the **Select Role Services** page, note the preselected role services that are installed by default, and then click **Next**. (> [!NOTE]
-> You only have to install the IIS 8 default role services for a static-content web server.)
+10. On the **Select Role Services** page, note the preselected role services that are installed by default, and then click **Next**.
+    > [!NOTE]
+    > You only have to install the IIS 8 default role services for a static-content web server.
 11. On the **Confirm Installation Selections** page, confirm your selections, and then click **Install**.
 12. On the **Installation Progress** page, confirm that your installation of the Web Server (IIS) role and required role services completed successfully, and then click **Close**.
 13. To verify that IIS installed successfully, type the following into a web browser:
@@ -93,17 +94,17 @@ To keep this procedure simple, install the WinCache extension but do not configu
 
 1. Open your browser to [Windows for PHP Download Page](http://windows.php.net/download/) and download the PHP non-thread-safe zip package.
 2. Download the WinCache extension from the [List of Windows Extensions for PHP](http://downloads.php.net/pierre/).
-3. Extract all files in the PHP .zip package to a folder of your choice, for example C:\PHP\.
-4. Extract the WinCache .zip package to the PHP extensions folder (\ext), for example C:\PHP\ext. The WinCache .zip package contains one file (Php\_wincache.dll).
+3. Extract all files in the PHP .zip package to a folder of your choice, for example `C:\PHP\`.
+4. Extract the WinCache .zip package to the PHP extensions folder (\ext), for example `C:\PHP\ext`. The WinCache .zip package contains one file (Php\_wincache.dll).
 5. Open **Control Panel**, click **System and Security**, click **System**, and then click **Advanced system settings**.
 6. In the **System Properties** window, select the **Advanced** tab, and then click **Environment Variables**.
 7. Under **System variables**, select **Path**, and then click **Edit**.
-8. Add the path to your PHP installation folder to the end of the **Variable value**, for example **;C:\PHP**. Click **OK**.
+8. Add the path to your PHP installation folder to the end of the **Variable value**, for example `;C:\PHP`. Click **OK**.
 9. Open IIS Manager, select the hostname of your computer in the **Connections** panel, and then double-click **Handler Mappings**.
 10. In the **Action** panel, click **Add Module Mapping**.
 11. In **Request path**, type **\*.php**.
 12. From the **Module** menu, select FastCgiModule.
-13. In the **Executable** box, type the full path to Php-cgi.exe, for example **C:\PHP\Php-cgi.exe**.
+13. In the **Executable** box, type the full path to Php-cgi.exe, for example `C:\PHP\Php-cgi.exe`.
 14. In **Name**, type a name for the module mapping, for example **FastCGI**.
 15. Click **OK**.
 16. Select the hostname of your computer in the **Connections** panel, and double-click **Default Document**.
@@ -114,7 +115,7 @@ To keep this procedure simple, install the WinCache extension but do not configu
 
 1. Open a text editor, for example Notepad, as Administrator.
 2. In a new file, type the following text: `<?php phpinfo(); ?>`
-3. Save the file as **C:\inetpub\wwwroot\Phpinfo.php**.
+3. Save the file as `C:\inetpub\wwwroot\Phpinfo.php`.
 4. Open a browser and enter the following URL:
 
     `http://localhost/phpinfo.php`

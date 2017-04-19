@@ -34,12 +34,12 @@ The following article provides guidance for installing WordPress manually. The i
 
 From the base default configuration file provided by PHP, modify the following lines in your Php.ini configuration:
 
-- Define extension\_dir as c:\php\ext (for example, the location of your php extensions directory).
-- Uncomment extension=php\_mysql.dll in the extensions list to enable MySQL support.
+- Define `extension\_dir` as `c:\php\ext` (for example, the location of your php extensions directory).
+- Uncomment `extension=php\_mysql.dll` in the extensions list to enable MySQL support.
 
 ## Download and Unpack the Application
 
-First, download the latest stable release of [WordPress](http://wordpress.org/download/). For this article, WordPress version 2.8.5 was used. Uncompress the WordPress files and copy the files to **C:\Inetpub\wwwroot\wordpress** or another directory of your choosing. There is no need to modify permissions on the WordPress Web directory, because the default permissions suffice.
+First, download the latest stable release of [WordPress](http://wordpress.org/download/). For this article, WordPress version 2.8.5 was used. Uncompress the WordPress files and copy the files to `C:\Inetpub\wwwroot\wordpress` or another directory of your choosing. There is no need to modify permissions on the WordPress Web directory, because the default permissions suffice.
 
 ## Set Up the Database
 
@@ -53,7 +53,7 @@ Before starting the installation procedure for WordPress, you must create a data
 
 Modify the WordPress configuration file to connect to the database.
 
-1. From **Windows® Explorer**, navigate to the installation directory (**C:\inetpub\wwwroot\wordpress**), and rename the file **wp-config-sample.php** to **wp-config.php**.
+1. From **Windows® Explorer**, navigate to the installation directory `C:\inetpub\wwwroot\wordpress`, and rename the file **wp-config-sample.php** to **wp-config.php**.
 2. Edit **wp-config.php**; change the **DB\_NAME**, **DB\_USER**, **DB\_PASSWORD**, and **DB\_HOST** values as follows:
 
 [!code-xml[Main](install-wordpress-on-iis/samples/sample1.xml)]

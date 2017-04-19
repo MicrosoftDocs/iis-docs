@@ -316,7 +316,7 @@ The sample ASP.NET application is contained in the following .zip file:
 
 [![](iis-80-application-initialization/_static/image1.png)](iis-80-application-initialization/_static/iis-80-application-initialization-1089-appinit1.zip)
 
-Unzip the file to the wwwroot folder on your web server. For example if your web server installed the "Default Web Site" on the C:\ drive, unzip the contents of the file to "c:\inetpub\wwwroot\appinit".
+Unzip the file to the wwwroot folder on your web server. For example if your web server installed the "Default Web Site" on the C:\ drive, unzip the contents of the file to `c:\inetpub\wwwroot\appinit`.
 
 <a id="TOC301259912"></a>
 
@@ -338,7 +338,7 @@ The sample application makes use of the Url Rewrite module for advanced integrat
 
 Once the Url Rewrite module is installed on your web server, you need to modify the IIS applicationHost.config file to allow usage of the SKIP\_MANAGED\_MODULES server variable supported by the Application Initialization feature.
 
-Open up the machine-wide applicationHost.config file in a text editor such as notepad. For example if you installed the operating system on the C:\ drive, the applicationHost.config file is located at C:\Windows\System32\inetsrv\config.
+Open up the machine-wide applicationHost.config file in a text editor such as notepad. For example if you installed the operating system on the C:\ drive, the applicationHost.config file is located at `C:\Windows\System32\inetsrv\config`.
 
 Scroll down the file and locate the security section. This section starts with the Xml element: &lt;security&gt;.
 

@@ -16,7 +16,7 @@ PowerShell Snap-in: Navigating the IIS Snap-in Namespace
 ====================
 by [Thomas Deml](https://github.com/thomasdeml)
 
-Everybody is familiar on how the file system is organized. File systems are hierarchical namespaces, comprised of directories that contain files and other directories. PowerShell Snap-in leverage this familarity with the file system and allow other data stores to be exposed as an hierarchical namespace. Like the root of a file system drive is usually "C:\" the root of the IIS configuration system is "IIS:\".
+Everybody is familiar on how the file system is organized. File systems are hierarchical namespaces, comprised of directories that contain files and other directories. PowerShell Snap-in leverage this familarity with the file system and allow other data stores to be exposed as an hierarchical namespace. Like the root of a file system drive is usually `C:\` the root of the IIS configuration system is "IIS:\".
 
 Underneath the root "IIS:\" drive you will find "Sites" and Application Pools - "AppPools" in short.
 

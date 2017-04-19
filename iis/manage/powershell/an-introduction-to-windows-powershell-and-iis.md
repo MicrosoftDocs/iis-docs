@@ -48,7 +48,7 @@ The first command is:
 
 [!code-powershell[Main](an-introduction-to-windows-powershell-and-iis/samples/sample1.ps1)]
 
-This invokes a Windows PowerShell cmdlet (pronounced "command-let") to change the current working directory from C:\ to C:\Data. This is the functional equivalent of the old cd (change directory) command. You may note that having to type "set-location" every time you change the current directory is too much typing; this is correct.
+This invokes a Windows PowerShell cmdlet (pronounced "command-let") to change the current working directory from `C:\` to `C:\Data`. This is the functional equivalent of the old cd (change directory) command. You may note that having to type "set-location" every time you change the current directory is too much typing; this is correct.
 
 Windows PowerShell has an extensive set of shortcut aliases you can use. The set-location cmdlet is aliased to sl (a shortened version of the full cmdlet name), and to cd (the "old" way). This article uses the full version of cmdlet names for improved readability.
 

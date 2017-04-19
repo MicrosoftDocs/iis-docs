@@ -150,7 +150,7 @@ Once connected you will get logged on to the remote machine.
 
 #### Smooth Streaming Content
 
-Now open the c:\inetpub\wwwroot directory. You will see the following files:
+Now open the `c:\inetpub\wwwroot` directory. You will see the following files:
 
 [![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image37.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image36.png)
 

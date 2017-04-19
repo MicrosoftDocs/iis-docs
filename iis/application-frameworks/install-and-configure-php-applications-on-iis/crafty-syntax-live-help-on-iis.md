@@ -28,12 +28,12 @@ The following sections describe how to install and configure Crafty Syntax Live 
 
 Crafty Syntax Live Help does not need many modifications beyond the default configuration provided by PHP **.** From the base configuration file provided by PHP, you need modify only the following lines in your php.ini configuration file to get Crafty Syntax Live Help working:
 
-- Define 'extension\_dir' as 'c:\php\ext' (i.e. the location of your php extensions directory)
-- Uncomment 'extension=php\_mysql.dll' in the extensions list to enable MySQL support
+- Define `extension\_dir` as `c:\php\ext` (i.e. the location of your php extensions directory)
+- Uncomment `extension=php\_mysql.dll` in the extensions list to enable MySQL support
 
 ## Download and Unpack the Application
 
-First, download the latest stable release of Crafty Syntax Live Help. For this article, we use Crafty Syntax Live Help 2.14.5 downloaded from [here](http://www.craftysyntax.com/installation.php). Once you download the package, uncompress it and copy all the files and folders to C:\Inetpub\wwwroot\cslh.
+First, download the latest stable release of Crafty Syntax Live Help. For this article, we use Crafty Syntax Live Help 2.14.5 downloaded from [here](http://www.craftysyntax.com/installation.php). Once you download the package, uncompress it and copy all the files and folders to `C:\Inetpub\wwwroot\cslh`.
 
 ## Set Up the Database
 

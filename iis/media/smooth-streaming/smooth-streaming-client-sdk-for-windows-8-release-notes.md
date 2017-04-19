@@ -18,10 +18,10 @@ by [Cenk Dingiloglu](https://github.com/cenkdin)
 
 The Smooth Streaming Client SDK for Windows 8 Apps enables developers to build Windows 8 applications that can play on-demand and live Smooth Streaming content with or without Microsoft PlayReady protection. This document describes the important known issues that occur in this release of the SDK.
 
-**Notes**
-
-- Unless otherwise specified, these Release Notes apply to x64, x86, and ARM editions of the SDK.
-- This build was tested with the Windows 8 RTM and Visual Studio 2012 RTM releases. Unexpected results might occur if you run the SDK on different versions of this software.
+> [!NOTE]
+> 
+> - Unless otherwise specified, these Release Notes apply to x64, x86, and ARM editions of the SDK.
+> - This build was tested with the Windows 8 RTM and Visual Studio 2012 RTM releases. Unexpected results might occur if you run the SDK on different versions of this software.
 
 ## Supported Features
 

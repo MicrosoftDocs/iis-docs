@@ -156,13 +156,12 @@ This section describes the known issues for IIS Transform Manager 1.0.
 - **Performance bottleneck for watch folders on a network**. If you specify the UNC path of a network share to use as a watch folder, and encounter performance bottlenecks or timeout errors due to excessive reads from the network-attached storage (NAS), you can add a **workFolder** property to the watch folder XML configuration file (job definition file). This property defines a location on local computers, including the compute nodes in an HPC cluster, to which media assets are copied and processed, before they're returned to the watch folder's Finished folder on the network. To set up a local work folder and update the watch folder's job definition file to work with it, do the following:  
 
     1. Stop the watch folder if it's started.
-    2. Create a folder on each local Transform Manager computer (or on each HPC compute node if you've integrated Transform Manager with an HPC cluster). This folder will be the local work folder and should be created in the same location on all of the computers. For example: C:\%WorkFolderPath%.
+    2. Create a folder on each local Transform Manager computer (or on each HPC compute node if you've integrated Transform Manager with an HPC cluster). This folder will be the local work folder and should be created in the same location on all of the computers. For example: `C:\%WorkFolderPath%`.
     3. Ensure that the watch folder impersonation account has Full Control permissions on the local work folder.
-    4. Add the **workFolder** property to the configuration XML file for the watch folder's job definition. For example: &lt;workFolder&gt;C:\%WorkFolderPath%&lt;/wFolder&gt;
+    4. Add the **workFolder** property to the configuration XML file for the watch folder's job definition. For example: `&lt;workFolder&gt;C:\%WorkFolderPath%&lt;/wFolder&gt;`
     5. Start the watch folder.
 
     > [!NOTE]
-    >  
     > 
     >  The watch folder XML configuration files are located in `%ProgramData%\Microsoft\IIS\Transform Manager\Configuration\Job Definitions`. You might need to turn on the **Folder views** option in Windows that shows hidden files, folders, and drives in order to view them.
 - **Specifying the watch folder root path**. When you configure watch folder settings, you can specify a watch folder location on the local Web server or on a network share in the **Watch folder path** list. Be aware of the following when specifying this value: 

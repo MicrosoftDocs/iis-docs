@@ -45,5 +45,6 @@ There are two resolutions available:
 2. Click the Application Menu in the top-left corner of the window
 3. Click Options
 4. lick Publishing
-5. Uncheck "Make FTP faster by only publishing the files that have changed on this computer". > [!NOTE]
- > This will make FTP transfers significantly slower
+5. Uncheck "Make FTP faster by only publishing the files that have changed on this computer".
+    > [!NOTE]
+    > This will make FTP transfers significantly slower

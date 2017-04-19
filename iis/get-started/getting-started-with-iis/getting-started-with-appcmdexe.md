@@ -300,7 +300,7 @@ Let's go ahead and add another application to the Web site:
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample40.cmd)]
 
-This created a new application with virtual path "/app1" belonging to the site we created above, with a root virtual directory pointing to "C:\inetpub\mysite\app1". The required **path** parameter specifies the virtual path of the new application, and the required **site.name** parameter specifies the site to which the application will belong. The optional **physicalPath** parameter is a shortcut, much like in the Site case, that creates a root virtual directory together with the application.
+This created a new application with virtual path "/app1" belonging to the site we created above, with a root virtual directory pointing to `C:\inetpub\mysite\app1`. The required **path** parameter specifies the virtual path of the new application, and the required **site.name** parameter specifies the site to which the application will belong. The optional **physicalPath** parameter is a shortcut, much like in the Site case, that creates a root virtual directory together with the application.
 
 If you do not specify the **physicalPath** parameter, or would like to add another virtual directory to the application, use a command-line like this:
 
@@ -308,7 +308,7 @@ If you do not specify the **physicalPath** parameter, or would like to add anoth
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample42.cmd)]
 
-This created a new virtual directory with virtual path "/vdir1" belonging to the application we created above and pointing to "C:\inetpub\mysite\app1\vdir1". The required **path** parameter specifies the virtual path of the new virtual directory, and the required **app.name** parameter specifies the application to which the virtual directory will belong. The **physicalPath** parameter specifies the physical location of the virtual directory.
+This created a new virtual directory with virtual path "/vdir1" belonging to the application we created above and pointing to `C:\inetpub\mysite\app1\vdir1`. The required **path** parameter specifies the virtual path of the new virtual directory, and the required **app.name** parameter specifies the application to which the virtual directory will belong. The **physicalPath** parameter specifies the physical location of the virtual directory.
 
 Finally, let's create a new application pool:
 
@@ -487,7 +487,8 @@ To display all of the properties that can be set on a particular configuration s
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample78.cmd)]
 
-**NOTE** that the asp section is locked by default, so executing these commands will return a lock violation error. You can either unlock this section first, set the configuration at the server level by omitting the&lt;URL&gt;, or commit them to the server level location tag by using /commit:apphost. See **controlling location of configuration** further in the article.
+> [!NOTE]
+> Note that the asp section is locked by default, so executing these commands will return a lock violation error. You can either unlock this section first, set the configuration at the server level by omitting the `&lt;URL&gt;`, or commit them to the server level location tag by using /commit:apphost. See **controlling location of configuration** further in the article.
 
 ### Editing Configuration Collections
 

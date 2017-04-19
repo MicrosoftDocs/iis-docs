@@ -66,9 +66,8 @@ Create an account for the Transform Manager service and then start the service. 
 - You can add the default **Robocopy** task in Transform Manager to your job template in order to copy the transformed Apple HLS output to a Web server running IIS Smooth Streaming or to network-attached storage. For more information, see [Chaining the Robocopy Task to your Transformed Output](chaining-the-robocopy-task-to-your-transformed-output.md).
 - To learn how to create an HTML5 webpage that clients on Apple mobile digital devices can use to play the Apple HLS output, see [Delivering Transform Manager Output to Clients](delivering-transform-manager-output-to-clients.md).
 
-| ![Note](transforming-media-files-to-apple-http-live-streams/_static/image1.gif) > [!NOTE]
- > - Computation-intensive tasks, such as encoding and transcoding, can consume a large amount of memory and CPU resources and might affect Web server performance. You shouldn't run Transform Manager on the local Web server if it's also used in a production environment to fulfill HTTP requests. |
-| --- |
+> [!NOTE]
+> Computation-intensive tasks, such as encoding and transcoding, can consume a large amount of memory and CPU resources and might affect Web server performance. You shouldn't run Transform Manager on the local Web server if it's also used in a production environment to fulfill HTTP requests.
 
 <a id="configure_jt"></a>
 
@@ -177,9 +176,8 @@ To run transform jobs on media files, you must configure the default watch folde
  The watch folder is now active and ready to accept files.  
     [![](transforming-media-files-to-apple-http-live-streams/_static/image36.png)](transforming-media-files-to-apple-http-live-streams/_static/image35.png)   
 
-    | ![Note](transforming-media-files-to-apple-http-live-streams/_static/image2.gif) > [!NOTE]
- > - You can't start a watch folder if another active watch folder thread is already using the same watch folder root path. |
-    | --- |
+    > [!NOTE]
+    > You can't start a watch folder if another active watch folder thread is already using the same watch folder root path.
 
 <a id="run_jobs"></a>
 

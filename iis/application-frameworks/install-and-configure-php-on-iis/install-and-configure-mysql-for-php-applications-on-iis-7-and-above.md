@@ -88,7 +88,7 @@ It is recommended that you install MySQL on a dedicated server rather than insta
 
 ## Configure PHP to Access MySQL
 
-1. Open the **c:\php\php.ini** file with your favorite text editor.
+1. Open the `c:\php\php.ini` file with your favorite text editor.
 2. Uncomment the following lines by removing the semicolon:  
 
     [!code-console[Main](install-and-configure-mysql-for-php-applications-on-iis-7-and-above/samples/sample7.cmd)]

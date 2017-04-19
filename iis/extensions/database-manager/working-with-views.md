@@ -63,7 +63,8 @@ The Database Manager allows you to edit the query of a view after the view has b
 
     [!code-sql[Main](working-with-views/samples/sample2.sql)]
 
-    #### Note: In SQL Server, the use of the 'ORDER BY' command is not supported in a view unless 'TOP' is also specified.
+    > [!NOTE]
+	> In SQL Server, the use of the 'ORDER BY' command is not supported in a view unless 'TOP' is also specified.
 6. On the query editor's toolbar, click on 'Execute'. The results of the query will be displayed, this time in sorted order.  
     [![](working-with-views/_static/image27.png)](working-with-views/_static/image25.png)
 7. On the query editor's toolbar, click on 'Save'. The changes to your view are now saved. The Save button will be grayed out until you make further changes to the view. You can continue editing the view or close the editor.

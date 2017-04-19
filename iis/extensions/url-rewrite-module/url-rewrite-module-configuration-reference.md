@@ -175,7 +175,7 @@ A rewrite rule action is performed when the current URL matches the rule pattern
 
 #### Rewrite action
 
-A **Rewrite** action replaces the current URL string with a substitution string. A substitution string must always specify the URL path (for example, contoso/test/default.aspx). Note that substitutions that contain a physical path on a file system (for example, C:\inetpub\wwwroot) are not supported in IIS.
+A **Rewrite** action replaces the current URL string with a substitution string. A substitution string must always specify the URL path (for example, contoso/test/default.aspx). Note that substitutions that contain a physical path on a file system (for example, `C:\inetpub\wwwroot`) are not supported in IIS.
 
 A **Rewrite** action has the following configuration options:
 

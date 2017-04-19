@@ -233,7 +233,8 @@ F5 debugging provides the most convenient way to debug your Web application with
 3. Set the desired breakpoints in your application source code (optional, you can also set them during debugging).
 4. Press F5 to begin debugging. Visual Studio will make an initial request to the IIS web application, attach to the hosting IIS worker process, and open a new browser window where you can interact with your application.
 
-**NOTE: If you using Visual Studio 2005 to debug a local IIS application on Windows Vista Home Basic or Home Premium editions, you may encounter an authentication error when attempting to debug. This issue and the hotfix are provided in [KB 937523](https://support.microsoft.com/kb/937523). This issue does not occur when debugging IIS applications on Windows Server 2008 or other Windows Vista editions.**
+> [!NOTE]
+> If you using Visual Studio 2005 to debug a local IIS application on Windows Vista Home Basic or Home Premium editions, you may encounter an authentication error when attempting to debug. This issue and the hotfix are provided in [KB 937523](https://support.microsoft.com/kb/937523). This issue does not occur when debugging IIS applications on Windows Server 2008 or other Windows Vista editions.
 
 In order to successfully debug a local IIS Web application, you must meet the following requirements:
 

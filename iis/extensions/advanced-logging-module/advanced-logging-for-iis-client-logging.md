@@ -53,7 +53,7 @@ To set up the Sample Logging Client for IIS Smooth Streaming, do the following:
 1. [Download the Sample Logging Client for IIS Smooth Streaming](https://go.microsoft.com/?linkid=9657323).
 2. When you're prompted to extract the sample, click **Yes**.
 3. When you're prompted to accept the License Agreement, click **Yes**.
-4. When you're asked to specify a location in which to place the extracted files, enter a directory path (for example, **C:\LoggingSampleClient**). If prompted to create the directory, click **Yes** (this prompt will appear only if the directory doesn't exist).
+4. When you're asked to specify a location in which to place the extracted files, enter a directory path (for example, `C:\LoggingSampleClient`). If prompted to create the directory, click **Yes** (this prompt will appear only if the directory doesn't exist).
 
 When you navigate to the directory to which you extracted the sample, you'll see a file named SampleClient.xap. This is the Sample Logging Client. See the [Smooth Streaming documentation](../../media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming.md) to see how a similar sample client is deployed and used. You can replace the .xap file in existing content with this file (rename if necessary or update the html that references it).
 

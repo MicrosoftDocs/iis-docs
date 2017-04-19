@@ -149,7 +149,7 @@ For information about setting up your Joomla! site, refer to the link: [*Joomla!
 
 By default, Joomla uses query string parameters for all the URLs it generates for your Web site. You can change this default behavior by enabling Search Engine Friendly URLs, a feature which relies on the URL rewriting functionality. To enable permalinks in Joomla, complete these steps:
 
-1. If it does not already exist, create and open a Web.config file located in the root of the Joomla! install directory; for example: C:\inetpub\wwwroot\joomla
+1. If it does not already exist, create and open a Web.config file located in the root of the Joomla! install directory; for example: `C:\inetpub\wwwroot\joomla`
 2. Paste the following XML code into the file:  
 
     [!code-xml[Main](deploying-joomla-via-packages-in-a-hosting-environment/samples/sample1.xml)]
@@ -231,7 +231,7 @@ To create a customer application Web site, complete the steps described in A. Cr
 
 To create a customer application database, complete these steps:
 
-1. Open a command-line prompt (or MySQL Manager) at the MySQL bin directory. If you used the default installation path, the bin directory path will be similar to the following: C:\Program Files\MySQL\MySQL Server 5.1\bin
+1. Open a command-line prompt (or MySQL Manager) at the MySQL bin directory. If you used the default installation path, the bin directory path will be similar to the following: `C:\Program Files\MySQL\MySQL Server 5.1\bin`
 2. Enter the administrator password, and press **Enter**.
 3. Type the following command to create the database, and press **Enter**.  
  mysql&gt; create database Joomla;
@@ -291,8 +291,8 @@ The examples in this topic show how to import Joomla! into an IIS Web site and i
 9. Click the **Include Bin Directory in Windows PATH** check box, and click **Next**.
 10. Since MySQL is installed on the database server (which is different than the Web server that runs the Web Deploy web server component), you must complete these steps to ensure Web Deploy can access the database server:  
 
-    - Copy mysqldump.exe (typically located in C:\Program Files\MySQL\MySQL Server 5.1\bin) to your **Web server** in C:\mysqldump\mysqldump.exe.
-    - On the **Web server**, set a registry key (HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\IIS Extensions\MSDeploy\1\mysqldumppath) to string value == "c:\mysqldump\mysqldump.exe"
+    - Copy mysqldump.exe (typically located in `C:\Program Files\MySQL\MySQL Server 5.1\bin`) to your **Web server** in `C:\mysqldump\mysqldump.exe`.
+    - On the **Web server**, set a registry key (`HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\IIS Extensions\MSDeploy\1\mysqldumppath`) to string value == "c:\mysqldump\mysqldump.exe"
 
 > [!NOTE]
 > If you lose the credentials to your MySQL database, refer to the link: [*Resetting the Root Password: Windows Systems*](http://dev.mysql.com/doc/refman/5.1/en/resetting-permissions.html#resetting-permissions-windows) to reset your password.

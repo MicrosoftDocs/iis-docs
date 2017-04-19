@@ -52,7 +52,7 @@ The scripts that you will use are:
     1. For more information on execution policy settings see [Using the Set-ExecutionPolicy Cmdlet](https://technet.microsoft.com/en-us/library/ee176961.aspx).
 3. Change to the Web Deploy scripts directory 
 
-    1. Type "cd '%programfiles%\IIS\Microsoft Web Deploy v2\Scripts'" (but replace %programfiles% with the actual path, such as C:\Program Files).
+    1. Type `cd '%programfiles%\IIS\Microsoft Web Deploy v2\Scripts'` (but replace `%programfiles%` with the actual path, such as `C:\Program Files`).
 
 #### Use the SetupSiteForPublish script to create a default publishing web site (no databases):
 
@@ -134,7 +134,7 @@ Create a database with user using the defaults (local SQLExpress database):
 
 [![](powershell-scripts-for-automating-web-deploy-setup/_static/image12.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image11.png)
 
-Create a new database and add the connection string information to existing publish settings file "c:\profiles\UserA.PublishSettings":
+Create a new database and add the connection string information to existing publish settings file `c:\profiles\UserA.PublishSettings`:
 
 [!code-powershell[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample4.ps1)]
 
@@ -181,7 +181,7 @@ Create a database with user using the defaults:
 
 [[![](powershell-scripts-for-automating-web-deploy-setup/_static/image18.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image17.png)](powershell-scripts-for-automating-web-deploy-setup/_static/image16.png)
 
-Create a new database and add the connection string information to existing publish settings file "c:\profiles\UserA.PublishSettings":
+Create a new database and add the connection string information to existing publish settings file `c:\profiles\UserA.PublishSettings`:
 
 [!code-console[Main](powershell-scripts-for-automating-web-deploy-setup/samples/sample8.cmd)]
 

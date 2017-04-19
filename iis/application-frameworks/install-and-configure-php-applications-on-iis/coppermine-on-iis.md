@@ -26,10 +26,10 @@ The following sections describe how to install and configure Coppermine for use 
 
 First, download the latest stable release of Coppermine. For this article, we use Coppermine 1.4.13 downloaded from [here](http://downloads.sourceforge.net/coppermine/cpg1.4.13.zip).
 
-Once you downloaded the package, uncompress it and copy all the files and folders to C:\Inetpub\wwwroot\Coppermine. Add permissions to IIS\_WPG to have Write access for the following folders:
+Once you downloaded the package, uncompress it and copy all the files and folders to `C:\Inetpub\wwwroot\Coppermine`. Add permissions to IIS\_WPG to have Write access for the following folders:
 
-- C:\inetpub\wwwroot\Coppermine\include
-- C:\inetpub\wwwroot\Coppermine\albums
+- `C:\inetpub\wwwroot\Coppermine\include`
+- `C:\inetpub\wwwroot\Coppermine\albums`
 
 Ensure that both GD2 and MySQL are enabled in PHP by uncommenting the modules in the php.ini file.
 
@@ -51,7 +51,7 @@ Open your web browser and browse to [http://localhost/Coppermine/install.php](ht
     [![](coppermine-on-iis/_static/image2.png)](coppermine-on-iis/_static/image1.png)
 2. Click "Let's Continue" to complete the setup.  
     [![](coppermine-on-iis/_static/image4.png)](coppermine-on-iis/_static/image3.png)
-3. After the installation is complete, delete the file install.php from c:\inetpub\wwwroot\Coppermine to ensure that no one can reconfigure the gallery.
+3. After the installation is complete, delete the file install.php from `c:\inetpub\wwwroot\Coppermine` to ensure that no one can reconfigure the gallery.
 
 You must change the access permissions on the include folder now that the installation is finished. Ensure that the folder is NOT writable by the service account that is used for the application pool associated with the "Default Web Site". Once the permissions have been specified, you can browse to [http://localhost/Coppermine/index.php](http://localhost/Coppermine/index.php) and log on using the administrative username and password that you have specified earlier.
 

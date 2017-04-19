@@ -49,8 +49,9 @@ This document will walk you through installing the new FTP service and troublesh
 2. In the **Server Manager** hierarchy pane, expand **Roles**, and then click **Web Server (IIS)**.
 3. In the **Web Server (IIS)** pane, scroll to the **Role Services** section, and then click **Add Role Services**.
 4. On the **Select Role Services** page of the **Add Role Services Wizard**, expand **FTP Server**.
-5. Select **FTP Service**. (> [!NOTE]
-> To support ASP.NET Membership or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.)
+5. Select **FTP Service**.
+    > [!NOTE]
+    > To support ASP.NET Membership or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
 6. Click **Next**.
 7. On the **Confirm Installation Selections** page, click **Install**.
 8. On the **Results** page, click **Close**.
@@ -60,8 +61,9 @@ This document will walk you through installing the new FTP service and troublesh
 1. On the taskbar, click **Start**, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows Features on or off**.
 3. Expand **Internet Information Services**, then **FTP Server**.
-4. Select **FTP Service**. (> [!NOTE]
-> To support ASP.NET Membership or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.)
+4. Select **FTP Service**.
+    > [!NOTE]
+    > To support ASP.NET Membership or IIS Manager authentication for the FTP service, you will also need to select **FTP Extensibility**.
 5. Click **OK**.
 
 <a id="02"></a>
@@ -76,8 +78,7 @@ The following items are required to complete the procedures in this section:
 2. Internet Information Services 7.0 must be installed.
 3. If you are going to manage the new FTP server by using the IIS 7.0 user interface, the administration tool will need to be installed.
 4. You must install the new FTP server as an administrator. (See the **Downloading and Installing** section for more.)
-5. IIS 7.0 supports a shared configuration environment, which must be disabled on each server in a web farm before installing the new FTP server for each node. > [!NOTE]
- > Shared configuration can be re-enabled after the FTP server had been installed.
+5. IIS 7.0 supports a shared configuration environment, which must be disabled on each server in a web farm before installing the new FTP server for each node. **Note:** Shared configuration can be re-enabled after the FTP server had been installed.
 6. The FTP server that is shipped on the Windows Server 2008 DVD must be uninstalled before installing the new FTP server.
 
 ### Downloading the right version for your server
@@ -122,10 +123,8 @@ The following steps walk you through all of the required settings to add FTP pub
 
     - **Common files**: this option includes the schema file. When installing in a shared server environment, each server in the web farm will need to have this option installed.
     - **FTP Publishing Service**: this option includes the core components of the FTP service. This option is required for the FTP service to be installed on the server.
-    - **Managed Code Support**: this is an optional component, but features that use managed extensibility require this option before using them, such as ASP.NET and IIS manager authentication. > [!NOTE]
- > This feature cannot be installed on Windows Server 2008 Core.
-    - **Administration Features**: this option installs the FTP 7 management user interface. This requires the IIS 7.0 manager and .NET framework 2.0 to be installed. > [!NOTE]
- > This feature cannot be installed on Windows Server 2008 Core.  
+    - **Managed Code Support**: this is an optional component, but features that use managed extensibility require this option before using them, such as ASP.NET and IIS manager authentication. **Note:** This feature cannot be installed on Windows Server 2008 Core.
+    - **Administration Features**: this option installs the FTP 7 management user interface. This requires the IIS 7.0 manager and .NET framework 2.0 to be installed. **Note:** This feature cannot be installed on Windows Server 2008 Core.  
         [![](installing-and-configuring-ftp-7-on-iis-7/_static/image11.jpg)](installing-and-configuring-ftp-7-on-iis-7/_static/image9.jpg)
 4. On the following screen, click **Install** to begin installing the options that you chose on the previous screen.   
     [![](installing-and-configuring-ftp-7-on-iis-7/_static/image15.jpg)](installing-and-configuring-ftp-7-on-iis-7/_static/image13.jpg)

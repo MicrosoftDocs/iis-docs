@@ -32,14 +32,14 @@ This article describes how to install and configure Drupal for use with the Fast
 
 From the base default configuration file provided by PHP, modify the following lines in your **Php.ini** configuration:
 
-- Define **extension\_dir** as **c:\php\ext** (for example, the location of your PHP extensions directory).
-- Uncomment **extension=php\_mysql.dll** in the extensions list to enable MySQL support.
+- Define `extension\_dir` as `c:\php\ext` (for example, the location of your PHP extensions directory).
+- Uncomment `extension=php\_mysql.dll` in the extensions list to enable MySQL support.
 
 In order for Drupal to work correctly with IIS 7 and above, it is necessary to install an [update for the IIS FastCGI module for IIS 7](https://blogs.iis.net/ruslany/archive/2008/08/27/update-for-iis-7-0-fastcgi-module.aspx).
 
 ## Download and Unpack the Application
 
-First, download the latest stable release of [Drupal](http://www.drupal.org/). For this article, Drupal version 6.14 was used (future versions are likely to be similar to install). Uncompress the Drupal files and copy them to **C:\Inetpub\wwwroot\drupal** (or another directory of your choosing).
+First, download the latest stable release of [Drupal](http://www.drupal.org/). For this article, Drupal version 6.14 was used (future versions are likely to be similar to install). Uncompress the Drupal files and copy them to `C:\Inetpub\wwwroot\drupal` (or another directory of your choosing).
 
 Before running the Drupal installer, create the configuration file **Settings.php**, which Drupal uses to store key configuration settings. Assign write permissions to it with the command (from the installation directory):
 
@@ -98,7 +98,7 @@ IIS 7 and above have URL rewriting support, which can be enabled by installing t
 
 The following instructions describe how the URL Rewrite Module for IIS 7 and above can be used to enable clean URLs in Drupal.
 
-1. Open the **Web.config** file located in **C:\inetpub\wwwroot\drupal** folder. If you do not have a Web.config file in the WordPress directory, create it.
+1. Open the **Web.config** file located in `C:\inetpub\wwwroot\drupal` folder. If you do not have a Web.config file in the WordPress directory, create it.
 2. Copy and paste the following XML code into this file.  
 
     [!code-xml[Main](install-drupal-on-iis/samples/sample5.xml)]

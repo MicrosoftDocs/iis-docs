@@ -95,7 +95,7 @@ There are corner cases in which the IIS Manager may remove unintended SSL bindin
 4. Fill in the information, as you would create any site: 
 
     - **Site name**: Test
-    - **Physical path**: c:\inetpub\wwwroot
+    - **Physical path**: `c:\inetpub\wwwroot`
     - **Type**: https
     - **Hostname**: TAPTesting 
 

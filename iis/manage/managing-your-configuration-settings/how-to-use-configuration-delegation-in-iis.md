@@ -67,7 +67,7 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 5. In the browser, request [http://localhost/app](http://localhost/app)
 
     This request does not return a page (you see an error page), because the virtual path is not yet defined in the configuration—this is the next procedure.
-6. In the ApplicationHost.config file, add an `&lt;application&gt;` element with path "**/app**" that includes a top-level `&lt;virtualDirectory&gt;` element. Top-level virtual directory is one with path "**/**". For the physical path of the virtual directory, specify **C:\tmp**(or something similar that you will later work with).
+6. In the ApplicationHost.config file, add an `&lt;application&gt;` element with path "**/app**" that includes a top-level `&lt;virtualDirectory&gt;` element. Top-level virtual directory is one with path "**/**". For the physical path of the virtual directory, specify `C:\tmp`(or something similar that you will later work with).
 
     When you are finished, the `&lt;sites&gt;` sections looks similar to the following:
 
@@ -76,7 +76,7 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
     You have just defined a new application in the configuration file.
 7. In the browser, request [http://localhost/app](http://localhost/app)
 
-    The Web server returns an error page, saying that directory browsing is not enabled. This happens because you do not have content yet in c:\tmp, so the server is handling the request as a request to browse the directory. Copy iisstart.htm from the \inetpub\wwwroot directory into c:\tmp and refresh the browser. Now you see the Under Construction page.
+    The Web server returns an error page, saying that directory browsing is not enabled. This happens because you do not have content yet in `c:\tmp`, so the server is handling the request as a request to browse the directory. Copy iisstart.htm from the `\inetpub\wwwroot` directory into `c:\tmp` and refresh the browser. Now you see the Under Construction page.
 
 <a id="Step2"></a>
 
@@ -93,7 +93,7 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 
 ## Step 3: Override Settings at the Application Level
 
-1. Using a text editor such as Notepad, create a new text file in the application folder (e.g. c:\tmp) named **web.config**.
+1. Using a text editor such as Notepad, create a new text file in the application folder (e.g. `c:\tmp`) named **web.config**.
 2. In the web.config file, create a `&lt;configuration&gt;` element and a `&lt;system.webServer&gt;` element as its child. Within the `&lt;system.webServer&gt;` element, create a `&lt;security&gt;` element that contains an `&lt;authentication&gt;` element.
 3. Enter the settings to disable the Windows authentication and anonymous authentication schemes, which are turned on by default at the global level. 
 

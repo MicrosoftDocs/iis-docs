@@ -26,8 +26,8 @@ For certain common error cases, Web Deploy will show an error code. This table e
 
 **Resolution**: There are two workarounds:
 
-1. Place the executable in C:\Program Files\MySQL\MySQL Server 5.1\bin
-2. Set a REG\_SZ registry key to point to the executable: e.g. (HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\IIS Extensions\MSDeploy\2\MySqlDumpPath is set to "c:\mysqldump\mysqldump.exe"
+1. Place the executable in `C:\Program Files\MySQL\MySQL Server 5.1\bin`
+2. Set a REG\_SZ registry key to point to the executable: e.g. (`HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\IIS Extensions\MSDeploy\2\MySqlDumpPath` is set to "c:\mysqldump\mysqldump.exe"
 
 <a id="RemoteAppNotFound"></a>
 

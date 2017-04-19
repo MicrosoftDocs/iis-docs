@@ -57,7 +57,7 @@ This walkthrough assumes that the server farm has already been created. If not, 
     [![](configure-caching-with-query-string-support-in-application-request-routing/_static/image3.jpg)](configure-caching-with-query-string-support-in-application-request-routing/_static/image2.jpg)
 - Double-click **Caching**.
 
-> [![](configure-caching-with-query-string-support-in-application-request-routing/_static/image5.jpg)](configure-caching-with-query-string-support-in-application-request-routing/_static/image4.jpg)
+	[![](configure-caching-with-query-string-support-in-application-request-routing/_static/image5.jpg)](configure-caching-with-query-string-support-in-application-request-routing/_static/image4.jpg)
 
 
 7. Verify that **Query String Support** drop down is set to **Ignore query string**. This is the default setting.

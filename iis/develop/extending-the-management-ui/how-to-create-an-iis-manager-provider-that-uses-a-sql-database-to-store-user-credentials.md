@@ -39,7 +39,7 @@ The following items are required to complete the procedures in this article:
 
 The first step is to create the SQL database that will store the usernames, passwords, and statuses for IIS Managers. To do so, use the following steps:
 
-1. Modify the highlighted sections in the following TSQL script for your environment. For example, the script as-written will create the physical database files in "C:\databases", which is probably not a valid path on your system.
+1. Modify the highlighted sections in the following TSQL script for your environment. For example, the script as-written will create the physical database files in `C:\databases`, which is probably not a valid path on your system.
 
     [!code-sql[Main](how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials/samples/sample1.sql)]
 2. Open your SQL Server management studio and execute the script as a new query. This will create the "DemoDB" database and the "Authentication" table that the provider will use.
@@ -109,7 +109,7 @@ The first step is to create the SQL database that will store the usernames, pass
 
 1. Determine the assembly information for the provider: 
 
-    - In Windows Explorer, open your "C:\Windows\assembly" path, where C: is your operating system drive.
+    - In Windows Explorer, open your `C:\Windows\assembly` path, where C: is your operating system drive.
     - Locate the **SqlIisManagerDemo** assembly.
     - Right-click the assembly and click **Properties**.
     - Copy the **Culture** value; for example: **Neutral**.

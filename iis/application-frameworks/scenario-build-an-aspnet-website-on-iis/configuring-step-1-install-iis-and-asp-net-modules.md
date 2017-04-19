@@ -29,7 +29,8 @@ This section describes how to install IIS and the modules that support ASP.NET a
 - Install IIS on Windows® 8 using the IIS Manager UI.
 - Install IIS using the command line.
 
-**Important**: To install IIS on either Windows Server 2012 or Windows 8, you must sign on as a member of the Administrators group.
+> [!IMPORTANT]
+> To install IIS on either Windows Server 2012 or Windows 8, you must sign on as a member of the Administrators group.
 
 If you prefer, you could use the Web Platform Installer (Web PI) to install IIS and third-party applications that run on IIS. Because the Web PI installs the latest versions of available Web Platform offerings, with just a few simple clicks you can download and install any new tools or updates. To learn more about the Web PI, see [Learn more and install the Web PI](https://go.microsoft.com/fwlink/?LinkID=145510).
 
@@ -130,7 +131,7 @@ To add an application to a site, use the following syntax:
 
 The variable `site.name:string` is the name of the website to which you want to add the application. The variable `path:string` is the virtual path of the application, such as `/application`, and `physicalPath:string` is the physical path of the application content in the file system.
 
-For example, to add an application named **marketing** to a site named **contoso**, with content at **c:\application**, type the following at the command prompt, and then press ENTER:
+For example, to add an application named **marketing** to a site named **contoso**, with content at `c:\application`, type the following at the command prompt, and then press ENTER:
 
 `appcmd add app /site.name:contoso /path:/marketing /physicalPath:c:\application`
 

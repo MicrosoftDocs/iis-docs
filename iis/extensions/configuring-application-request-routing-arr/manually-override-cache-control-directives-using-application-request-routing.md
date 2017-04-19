@@ -75,7 +75,7 @@ The cache control rule that you wrote in Step 1 will always cache .jpg files for
 
 1. Send a .jpg request to the ARR server with the rule that you wrote in Step 1.
 2. Open a command prompt and navigate to the cached location.
-3. Locate the file with the name **full**. (In the example below, the file is located in c:\cache\localhost\pix\)
+3. Locate the file with the name **full**. (In the example below, the file is located in `c:\cache\localhost\pix\`)
 
     ![](manually-override-cache-control-directives-using-application-request-routing/_static/image4.jpg)
 4. Open the **full** file to see the header.

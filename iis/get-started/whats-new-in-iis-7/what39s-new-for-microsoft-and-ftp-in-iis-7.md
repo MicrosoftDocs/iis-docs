@@ -75,12 +75,12 @@ This version of the FTP service streamlines content publishing by allowing admin
 
 On the first screen of the publishing wizard (pictured below), you configure your SSL settings and binding options, which consist of the IP address, port, and virtual host name.
 
-> [![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image4.jpg)](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image3.jpg)
+[![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image4.jpg)](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image3.jpg)
 
 
 On the second screen of the publishing wizard (pictured below), you configure your authentication and authorization settings. (Additional authentication and authorization settings can be added later.)
 
-> ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image5.jpg)
+![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image5.jpg)
 
 
 Of course, you do not have to bind the FTP protocol to your Web site. If you want only an FTP site, you can still set up a site that has only FTP bindings.

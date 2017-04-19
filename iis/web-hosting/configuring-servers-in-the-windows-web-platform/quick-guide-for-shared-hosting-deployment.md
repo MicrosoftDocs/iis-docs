@@ -51,12 +51,12 @@ Before configuring permissions on the file server, you must join the Web server 
 8. Configure [Dynamic Compression](../web-server-for-shared-hosting/dynamic-compression.md).
 9. Enable [Remote Web Service Management](../../manage/remote-administration/remote-administration-for-iis-manager.md) in IIS Manager. 
 
-    - > [!NOTE]
- > If you are using IIS Manager Users and the content is stored in a file share (UNC), set WMSVC to run as a custom identity that has read/write access to the share. For details on WMSVC's read/write access actions see [Remote Administration Behavior Matrix](../../manage/remote-administration/remote-administration-behavior-matrix.md).
+    > [!NOTE]
+    > If you are using IIS Manager Users and the content is stored in a file share (UNC), set WMSVC to run as a custom identity that has read/write access to the share. For details on WMSVC's read/write access actions see [Remote Administration Behavior Matrix](../../manage/remote-administration/remote-administration-behavior-matrix.md).
 10. Enable the WMSVC port within the local firewall on your Web server by opening the Control Panel and double-clicking the Windows Firewall icon. Then select "Change firewall settings" and add the port for the service.
 
-    - > [!NOTE]
- > The firewall is enabled by default and you must add the default port (8172) or custom port if you chose one.
+    > [!NOTE]
+    > The firewall is enabled by default and you must add the default port (8172) or custom port if you chose one.
 11. Create a custom [trust level based on Medium trust](../web-server-for-shared-hosting/aspnet-20-35-shared-hosting-configuration.md). 
 
     - Set unrestricted true for WebPermission.

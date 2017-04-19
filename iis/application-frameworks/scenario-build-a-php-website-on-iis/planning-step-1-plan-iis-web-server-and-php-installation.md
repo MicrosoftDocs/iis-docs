@@ -25,7 +25,8 @@ When you are done with these tasks, record your design decisions before going on
 
 To support PHP applications on an IIS web server, install the default configuration of IIS and the CGI module. The CGI module contains both CGI (Common Gateway Interface protocol) and FastCGI. FastCGI is a high-performance extension to CGI and is recommended for PHP applications. Once your machine has this IIS configuration installed, you can download and install PHP.
 
-**Important**: To install IIS 8 on either Windows Server® 2012 or Windows® 8, you must sign on as a member of the Administrators group.
+> [!IMPORTANT]
+> To install IIS 8 on either Windows Server® 2012 or Windows® 8, you must sign on as a member of the Administrators group.
 
 <a id="12"></a>
 ## 1.2. Plan to Download and Install PHP

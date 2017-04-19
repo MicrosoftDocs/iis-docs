@@ -31,7 +31,7 @@ The following steps assume that you have completed the setup and configuration o
 First you will need to download latest stable release of CubeCart application. For this article we used CubeCart\_3.0.17 Full Package that can be downloaded from the mirror   
 [https://www.cubecart.com/site/helpdesk/index.php?\_m=downloads&amp;\_a=view&amp;parentcategoryid=1&amp;pcid=5&amp;nav=0,5](https://www.cubecart.com/site/helpdesk/index.php?_m=downloads&amp;_a=view&amp;parentcategoryid=1&amp;pcid=5&amp;nav=0,5)
 
-Once you downloaded the package, uncompress it and copy files and folders to C:\Inetpub\wwwroot\cubecart.
+Once you downloaded the package, uncompress it and copy files and folders to `C:\Inetpub\wwwroot\cubecart`.
 
 ## Set Up the Database
 

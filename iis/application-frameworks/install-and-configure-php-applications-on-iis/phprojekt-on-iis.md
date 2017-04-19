@@ -30,7 +30,7 @@ The following steps assume that you have completed the setup and configuration o
 
 First, download the latest stable release of the PHProjekt application. For this article, we use the PHProjekt 5.2 Full Package downloaded from the mirror [http://www.phprojekt.com/index.php?name=Downloads&amp;req=viewdownload&amp;cid=1](http://www.phprojekt.com/index.php?name=Downloads&amp;req=viewdownload&amp;cid=1).
 
-Once you download the package, uncompress it and copy files and folders to C:\Inetpub\wwwroot\phprojekt.
+Once you download the package, uncompress it and copy files and folders to `C:\Inetpub\wwwroot\phprojekt`.
 
 ## Set Up the Database
 

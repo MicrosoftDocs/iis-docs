@@ -121,8 +121,8 @@ The following steps configure publishing on an existing site for an existing use
     The following log lines will appear:
 
 - Publish enabled for 'NonAdminUser'
-- Granted 'NonAdminUser' full control on 'C:\inetpub\wwwroot\test'
-- Successfully created settings file 'C:\Users\janedoe\Desktop\CONTOSO\_johndoe\_Default Web Site.PublishSettings'
+- Granted 'NonAdminUser' full control on `C:\inetpub\wwwroot\test`
+- Successfully created settings file `C:\Users\janedoe\Desktop\CONTOSO\_johndoe\_Default Web Site.PublishSettings`
 
 The non-administrator Windows user (NonAdminUser) may now publish to the site.
 

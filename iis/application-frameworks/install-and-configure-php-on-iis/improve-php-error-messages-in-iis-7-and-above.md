@@ -44,7 +44,7 @@ The default IIS "Not Found" error message provides useful information to help di
 
 - Response information: HTTP 404 Not Found.
 - Detailed error information: The module (IIS Web Core), the Notification (MapRequestHandler), the handler (StaticFileHandler), and the error code (0x80070002 – File Not Found).
-- Request information: The requested URL and the physical path (C:\inetpub\troubleshootingPhp\notfound.txt).
+- Request information: The requested URL and the physical path `C:\inetpub\troubleshootingPhp\notfound.txt`.
 - The "Most likely causes" section correctly suggests the most likely error cause to be: "The directory or file specified does not exist on the Web server".
 - The "Things you can try" section suggests the corresponding solution: "Create the content on the Web server".
 
@@ -93,7 +93,7 @@ If you request a page with a script error, you receive the IIS detailed error me
 
 You can configure PHP to display errors in responses.
 
-1. Using **Windows® Explorer**, browse to **C:\PHP**.
+1. Using **Windows® Explorer**, browse to `C:\PHP`.
 2. Open the **Php.ini** filein the PHP installation directory.
 3. Find and set the **display\_errors = On** directive:  
 

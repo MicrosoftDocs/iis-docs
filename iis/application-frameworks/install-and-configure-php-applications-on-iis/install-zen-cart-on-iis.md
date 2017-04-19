@@ -30,7 +30,7 @@ This article describes how to install and configure Zen Cart for use with the Fa
 
 ## Download and Unpack the Application
 
-First, download the latest stable release of [Zen Cart](http://www.zen-cart.com/). For this article, zen-cart-v1.3.8 was used (future versions are likely to be similar to install). Uncompress and copy all the files and folders to **C:\Inetpub\wwwroot\zencart** (or another directory of your choosing).
+First, download the latest stable release of [Zen Cart](http://www.zen-cart.com/). For this article, zen-cart-v1.3.8 was used (future versions are likely to be similar to install). Uncompress and copy all the files and folders to `C:\Inetpub\wwwroot\zencart` (or another directory of your choosing).
 
 ## Set Up the Database
 
@@ -59,7 +59,7 @@ You must create files to identify the settings of your particular server and the
 3. On the server, locate the file **/zencart/admin/includes/dist-configure.php**.
 4. Rename this file to **configure.php**.
 5. Change the permissions for these two files to read, execute, and write by opening a command prompt.
-6. Browse to the **C:\inetpub\wwwroot\zencart** directory.
+6. Browse to the `C:\inetpub\wwwroot\zencart` directory.
 7. Type **icacls includes\configure.php /grant BUILTIN\IIS\_IUSRS:W**
 8. Type **icacls admin\includes\configure.php /grant BUILTIN\IIS\_IUSRS:W**
 9. Type **icacls cache /grant BUILTIN\IIS\_IUSRS:W**
@@ -68,7 +68,7 @@ You must create files to identify the settings of your particular server and the
 
 The installer automatically supplies information during installation, but you must confirm that the auto-detected answers are correct (they may differ on some servers):
 
-1. Confirm the *physical path* to your Zen Cart directory (for example, C:\Inetpub\wwwroot\zencart).
+1. Confirm the *physical path* to your Zen Cart directory (for example, `C:\Inetpub\wwwroot\zencart`).
 2. Go to the http://localhost/zc\_install/zencart/install.php page for detailed setup instructions.
 3. On the **Welcome** screen, click **Continue.**
 4. At the **license page**, read and confirm acceptance of the GPL licensing agreement.
@@ -106,7 +106,7 @@ Change the permissions on the **Configure.php** files to read and execute:
 Note that "zencart" is used as an example in this article; your site may or may not include "zencart" as a folder name.
 
 1. Open a command prompt.
-2. Browse to **c:\inetpub\wwwroot\zencart**.
+2. Browse to `c:\inetpub\wwwroot\zencart`.
 3. Type **icacls includes\configure.php /reset**
 4. Type **icacls admin\includes\configure.php /reset**
 5. Download a copy of these files to your computer from the server; they have been set up and configured to your server specifications based on the installation process. Most errors or problems can be corrected with minor adjustments to these two files.

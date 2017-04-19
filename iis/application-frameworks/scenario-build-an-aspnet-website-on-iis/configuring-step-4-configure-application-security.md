@@ -284,8 +284,9 @@ This section describes how to require SSL for your website by using the IIS Mana
 
 #### To require SSL using the UI
 
-1. Open IIS Manager and navigate to the level you want to manage. Make sure that you are at the site, application, or directory level; **SSL Settings** are not available at the server level. (> [!NOTE]
-> If you want to configure SSL at the file level, navigate to the file in **Content View** and then click **Switch to Features View** in the **Actions** pane.)
+1. Open IIS Manager and navigate to the level you want to manage. Make sure that you are at the site, application, or directory level; **SSL Settings** are not available at the server level.
+    > [!NOTE]
+    > If you want to configure SSL at the file level, navigate to the file in **Content View** and then click **Switch to Features View** in the **Actions** pane.
 2. In **Features View**, double-click **SSL Settings**.
 3. On the **SSL Settings** page, select **Require SSL**.
 4. In the **Actions** pane, click **Apply**.
@@ -309,8 +310,9 @@ To require SSL for the file iisstart.htm on the Default Web Site, type the follo
 
 #### To specify client certificates by using the UI
 
-1. Open IIS Manager and navigate to the level you want to manage. Make sure that you are at the site, application, or directory level; **SSL Settings** are not available at the server level. (> [!NOTE]
-> If you want to configure SSL at the file level, navigate to the file in **Content View** and then click **Switch to Features View** in the **Actions** pane.)
+1. Open IIS Manager and navigate to the level you want to manage. Make sure that you are at the site, application, or directory level; **SSL Settings** are not available at the server level.
+    > [!NOTE]
+    > If you want to configure SSL at the file level, navigate to the file in **Content View** and then click **Switch to Features View** in the **Actions** pane.
 2. In **Features View**, double-click **SSL Settings**.
 3. On the **SSL Settings** page, optionally select **Require SSL**. You do not need SSL to **Ignore** or **Accept** client certificates.
 4. On the **SSL Settings** page, in the **Client certificates** area, use one of the following procedures:

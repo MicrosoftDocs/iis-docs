@@ -156,7 +156,7 @@ In this third step you will determine the assembly information for the membershi
 
 1. Determine the assembly information for both providers: 
 
-    - In Windows Explorer, open your "C:\Windows\assembly" path, where C: is your operating system drive.
+    - In Windows Explorer, open your `C:\Windows\assembly` path, where C: is your operating system drive.
     - Locate the **ReadOnlyXmlMembershipProvider** and **ReadOnlyXmlRoleProvider** assemblies.
     - Right-click each assembly and click **Properties**.
     - Copy the **Culture** values; for example: **Neutral**.
@@ -165,8 +165,10 @@ In this third step you will determine the assembly information for the membershi
     - Click **Cancel**.
 2. Add the XML providers to the list of trusted providers for IIS: 
 
-    - Open the Administration.config file for editing. (> [!NOTE]
-> This file is located in your `%WinDir%\System32\Inetsrv\Config` folder.)
+    - Open the Administration.config file for editing. 
+	
+	    > [!NOTE]
+        > This file is located in your `%WinDir%\System32\Inetsrv\Config` folder.
     - Add the providers with the assembly properties from the previous steps to the `<trustedProviders>` section using the following syntax: 
 
         [!code-xml[Main](how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis/samples/sample5.xml)]

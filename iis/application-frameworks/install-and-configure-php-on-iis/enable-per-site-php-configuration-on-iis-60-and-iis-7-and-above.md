@@ -26,7 +26,7 @@ This article describes per-site configuration for both PHP 5.2 and PHP 5.3.
 
 ## Enable Per-Site PHP Configuration with PHP 5.2 on IIS 6.0
 
-For example, suppose you have two Web sites in IIS 6.0, website1.com and website2.com, and you want each Web site to use its own php.ini file. Assume that php.ini for Website1.com is located in the C:\Inetpub\website1.com folder, and php.ini for Website2.com is located in C:\Inetpub\website2.com folder.
+For example, suppose you have two Web sites in IIS 6.0, website1.com and website2.com, and you want each Web site to use its own php.ini file. Assume that php.ini for Website1.com is located in the `C:\Inetpub\website1.com` folder, and php.ini for Website2.com is located in `C:\Inetpub\website2.com` folder.
 
 1. Create script mappings and FastCGI configuration sections for each Web site. You can use the helper script fcgiconfig.js, located in the `%WINDIR%\system32\inetsrv\` folder.
 2. Execute the following commands to create PHP script mappings for website1.com and website2.com. Make sure you replace `&lt;php\_path&gt;` with the correct path to PHP executable and `&lt;site\_id&gt;` with the correct site ID.  
@@ -45,8 +45,8 @@ For example, suppose you have two Web sites in IIS 6.0, website1.com and website
     [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample4.cmd)]
 6. You can now verify that PHP loads its configuration from site specific location:  
 
-    - Copy php.ini into C:\Inetpub\website1.com
-    - Create a phpinfo.php file in C:\Inetpub\website1.com
+    - Copy php.ini into `C:\Inetpub\website1.com`
+    - Create a phpinfo.php file in `C:\Inetpub\website1.com`
     - Place this code inside of phpinfo.php: &lt;?php phpinfo(); ?&gt;
     - Open web browser and make a request to http://website1.com/phpinfo.php. The output of phpinfo.php file will show the location from where php.ini file was loaded:  
         [![](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image2.gif)](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/_static/image1.gif)  
@@ -84,13 +84,13 @@ PHP handler mapping for website2 is:
 
 When it begins, the PHP process determines the location of configuration php.ini file by using various settings, such as the PHPRC environment variable. (For a detailed description of the PHP startup process, see the [PHP documentation](http://www.php.net/manual/en/configuration.php).) If the PHP process finds a php.ini file in the path specified in the PHPRC environment variable, it will use it; otherwise, the PHP process will revert to default location of php.ini. The PHPRC environment variable can be used to allow hosting customers to use their own versions of php.ini files.
 
-If website1 and website2 are located at C:\WebSites\website1 and C:\WebSites\website2, then the php-cgi.exe process pools in the &lt;fastCgi&gt; section of applicationHost.config can be configured as follows:
+If website1 and website2 are located at `C:\WebSites\website1` and `C:\WebSites\website2`, then the php-cgi.exe process pools in the `&lt;fastCgi&gt;` section of applicationHost.config can be configured as follows:
 
 
 [!code-xml[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample8.xml)]
 
 
-Now website1 has its own version of php.ini in C:\WebSites\website1, while website2 has its own version of php.ini in C:\WebSites\website2. This configuration also ensures that if there is no php.ini found in location specified by PHPRC environment variable, then PHP will fall back to using the default php.ini file located in the folder where php-cgi.exe is located.
+Now website1 has its own version of php.ini in `C:\WebSites\website1`, while website2 has its own version of php.ini in `C:\WebSites\website2`. This configuration also ensures that if there is no php.ini found in location specified by PHPRC environment variable, then PHP will fall back to using the default php.ini file located in the folder where php-cgi.exe is located.
 
 ## Enable Per-Site PHP Configuration with PHP 5.3 on IIS 6.0 or IIS 7 and Above
 
@@ -105,7 +105,7 @@ There are now two options:
 
 ## Define in the Main PHP.INI File
 
-1. Open the main **php.ini** file (If you used the PHP installer, then this file will most probably be located at C:\Program Files\PHP\ folder. If you installed from a compressed [ZIP] file archive, then the file will be at the same directory where the php-cgi.exe file is located).
+1. Open the main **php.ini** file (If you used the PHP installer, then this file will most probably be located at `C:\Program Files\PHP\` folder. If you installed from a compressed [ZIP] file archive, then the file will be at the same directory where the php-cgi.exe file is located).
 2. Add the following at the end of the file:  
 
     [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample9.cmd)]
@@ -127,10 +127,10 @@ If you want to allow Web application owners to control PHP settings themselves, 
 1. Add the following setting, which specifies the name to be used for user-specific INI files, to the main **php.ini** file. Setting this to an empty value disables the user-defined PHP configuration.  
 
     [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample11.cmd)]
-2. Create a file called **.user.ini** in **C:\inetpub\website1.com\** folder, and add the following:  
+2. Create a file called **.user.ini** in `C:\inetpub\website1.com\` folder, and add the following:  
 
     [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample12.cmd)]
-3. Add the following to the file **.user.ini** in **C:\inetpub\website2.com\** folder:  
+3. Add the following to the file **.user.ini** in `C:\inetpub\website2.com\` folder:  
 
     [!code-console[Main](enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above/samples/sample13.cmd)]
 

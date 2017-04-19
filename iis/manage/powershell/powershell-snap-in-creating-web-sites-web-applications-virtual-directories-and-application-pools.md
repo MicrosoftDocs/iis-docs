@@ -24,7 +24,7 @@ The IIS PowerShell namespace consists of items like Web-Sites, Apps, Virtual Dir
 
 ## Creating Web-Sites
 
-If you are familiar with PowerShell you know that the New-Item cmdlet is used to create new items in the various PowerShell namespaces. The command "New-Item c:\TestDirectory" creates a new filesystem directory for example (most people use the "MD" or "MKDIR" alias for New-Item however). New-Item is also used to create new Web-Sites within the IIS PowerShell namespace.
+If you are familiar with PowerShell you know that the New-Item cmdlet is used to create new items in the various PowerShell namespaces. The command `New-Item c:\TestDirectory` creates a new filesystem directory for example (most people use the `MD` or `MKDIR` alias for `New-Item` however). `New-Item` is also used to create new Web-Sites within the IIS PowerShell namespace.
 
 ### Parameters
 

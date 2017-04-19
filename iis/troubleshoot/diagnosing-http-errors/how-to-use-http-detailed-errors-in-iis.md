@@ -125,8 +125,8 @@ You can configure the httpErrors section to show a Custom Error for particular s
 Here is how to make the example work:
 
 1. Add the entry above to your httpErrors configuration section.
-2. Create a file named 404\_3.htm in your c:\inetpub\custerr\en-us directory.
-3. Create a file named test.yyy in you c:\inetpub\wwwroot directory.
+2. Create a file named 404\_3.htm in your `c:\inetpub\custerr\en-us` directory.
+3. Create a file named test.yyy in you `c:\inetpub\wwwroot` directory.
 4. Now request [http://localhost/test.yyy](http://localhost/test.yyy)
 
 The file extension .yyy is not part of the IIS MimeMap and the static file handler will not serve it.
@@ -141,15 +141,15 @@ The syntax and registry of accepted languages is specified in [RFC1766](http://w
 
 When generating an error, IIS takes this header into account when it looks for the custom error file it returns. It generates the path for the custom error using the following logic:
 
-prefixLanguageFilePath configuration setting (for example c:\inetpub\custerr)+   
+prefixLanguageFilePath configuration setting (for example `c:\inetpub\custerr`)+   
 Accept-Language header sent by the client (for example en-us) +   
 Path configuration setting (for example 404.htm)
 
 Example:
 
-If the browser sends a request for an non-existing resource and the "Accept-Language" header has the value of "en-us," the file that gets returned will be "c:\inetpub\custerr\en-us\404.htm".
+If the browser sends a request for an non-existing resource and the "Accept-Language" header has the value of "en-us," the file that gets returned will be `c:\inetpub\custerr\en-us\404.htm`.
 
-For example, if you are from Germany, you want your error messages in German. To do this, you must install the Windows Vista Language Pack for German. This creates the c:\inetpub\custerr\de-DE directory with custom error files in it. Now if the browser sends the "Accept-Language" header with the value of "de-DE, the file that gets returned will be "c:\inetpub\custerr\de-DE\404.htm".
+For example, if you are from Germany, you want your error messages in German. To do this, you must install the Windows Vista Language Pack for German. This creates the `c:\inetpub\custerr\de-DE` directory with custom error files in it. Now if the browser sends the "Accept-Language" header with the value of "de-DE, the file that gets returned will be `c:\inetpub\custerr\de-DE\404.htm`.
 
 IIS will always fall back to the system language if the directory "de-DE" does not exist.
 

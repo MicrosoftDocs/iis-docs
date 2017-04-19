@@ -24,12 +24,12 @@ Mambo is a free, open source content management system (CMS) that is developed i
 
 Mambo does not require many modifications beyond the default configuration provided by PHP **.** From the base configuration file provided by PHP, you only need to modify the following lines in your php.ini configuration file to get Mambo working:
 
-- Define 'extension\_dir' as 'c:\php\ext' (i.e. the location of your php extensions directory)
-- Uncomment 'extension=php\_mysql.dll' in the extensions list to enable MySQL support
+- Define `extension\_dir` as `c:\php\ext` (i.e. the location of your php extensions directory)
+- Uncomment `extension=php\_mysql.dll` in the extensions list to enable MySQL support
 
 ## Download and Unpack the Application
 
-Download the latest stable release of Mambo. For this article we, use Mambo 4.6.2 downloaded from [here](http://www.source.mambo-foundation.org/content/view/90/63/). After downloading the zip package, extract its contents to C:\Inetpub\wwwroot\mambo or another directory of your choosing.
+Download the latest stable release of Mambo. For this article we, use Mambo 4.6.2 downloaded from [here](http://www.source.mambo-foundation.org/content/view/90/63/). After downloading the zip package, extract its contents to `C:\Inetpub\wwwroot\mambo` or another directory of your choosing.
 
 ## Set Up the Database
 
@@ -60,7 +60,7 @@ Enable write permission on the Mambo directory for the account that your web ser
     [![](mambo-on-iis/_static/image8.png)](mambo-on-iis/_static/image7.png)
 5. In the next step, enter details for your site. The URL should be set to the external sitename to ensure proper configuration. In a local test setup, the URL may have an extra Mambo at the end (ex: [http://localhost/Mambo/Mambo](http://localhost/Mambo/Mambo)). Enter your administrator email and password. The final two options should be left in the default choices. Press "Next &gt;&gt;"  
     [![](mambo-on-iis/_static/image10.png)](mambo-on-iis/_static/image9.png)
-6. You are now finished setting up Mambo. Record your admin password. Delete the "installation" folder from C:\Inetpub\wwwroot\Mambo  
+6. You are now finished setting up Mambo. Record your admin password. Delete the "installation" folder from `C:\Inetpub\wwwroot\Mambo`  
     > [!NOTE]
     > You must change the access permissions on the Mambo folder. Now that installation is complete, write access is not needed.
 

@@ -66,7 +66,7 @@ At least one primary disk cache location must be specified.
     1. Read
     2. List folder contents
     3. Write
-6. Enter the appropriate values, and then click **OK** to save the changes. For the purposes of this walkthrough, **c:\cache\** is used as the drive location and a maximum size of **10GB** has been set. You can enter any value up to your maximum drive size or use the entire drive. 
+6. Enter the appropriate values, and then click **OK** to save the changes. For the purposes of this walkthrough, `c:\cache\` is used as the drive location and a maximum size of **10GB** has been set. You can enter any value up to your maximum drive size or use the entire drive. 
 
     [![](configure-and-enable-disk-cache-in-application-request-routing/_static/image10.jpg)](configure-and-enable-disk-cache-in-application-request-routing/_static/image9.jpg)
 

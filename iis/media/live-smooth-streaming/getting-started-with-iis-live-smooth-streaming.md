@@ -69,7 +69,8 @@ This section describes how to create a publishing point that can accept a live b
 5. If you want to deliver live streams to Apple® mobile digital devices, on the **Mobile Devices** tab, select the **Enable output to Apple mobile digital devices** check box.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image6.png)  
   
-    **Important** Before proceeding, be sure to check out the the following walkthrough article for more information about the requirements and publishing point configuration for Apple HTTP Live Smooth Streaming: [Apple HTTP Live Streaming with IIS Media Services](https://go.microsoft.com/?linkid=9750336) .
+    > [!IMPORTANT]
+    > Before proceeding, be sure to check out the the following walkthrough article for more information about the requirements and publishing point configuration for Apple HTTP Live Smooth Streaming: [Apple HTTP Live Streaming with IIS Media Services](https://go.microsoft.com/?linkid=9750336) .
 6. In the **Add Publishing Point** dialog box, click **OK**. A new Live Smooth Streaming publishing point definition file named **LiveSmoothStream.isml** is added to the website root.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image7.png)
 7. On the **Live Smooth Streaming Publishing Points** page, select the publishing point, and then in the **Actions** pane, click **Start Publishing Point**.  
@@ -92,7 +93,8 @@ This section describes how to create a publishing point that can accept a live b
 
 This section describes how to create a Live Smooth Streaming broadcast in [Microsoft Expression Encoder 4](https://go.microsoft.com/?linkid=9656607) and push it to the Live Smooth Streaming publishing point that you configured in the [previous section](getting-started-with-iis-live-smooth-streaming.md#pubpt). The steps in this section outline a general workflow, with details only on the specific tasks that you need to create Live Smooth Streaming output. For detailed information about how to create a live broadcast from various live and file-based sources in Expression Encoder 4, including how to assemble a complete program, encode it, encrypt it with Digital Rights Management (DRM), and instantly distribute it to your audience using Smooth Streaming technology, see [Creating a Live Broadcasting Project](https://go.microsoft.com/?linkid=9656611).
 
-**Important** If you enabled the publishing point to stream content to Apple devices, such as iPhone® and iPad™ devices, be sure to review the encoding requirements and settings outlined in [Apple HTTP Live Streaming with IIS Media Services](https://go.microsoft.com/?linkid=9750336).
+> [!IMPORTANT]
+> If you enabled the publishing point to stream content to Apple devices, such as iPhone® and iPad™ devices, be sure to review the encoding requirements and settings outlined in [Apple HTTP Live Streaming with IIS Media Services](https://go.microsoft.com/?linkid=9750336).
 
 > [!NOTE]
 > Live Smooth Streaming is available only in Microsoft Expression Encoder Pro.
@@ -130,7 +132,8 @@ This section describes how to create a Live Smooth Streaming broadcast in [Micro
     > [!NOTE]
     > The license provided for a Live Smooth Streaming session is non-persistent, meaning that after the user closes the client application being used to view the web broadcast, the license expires.  
   
-    **Important** You shouldn't use the DRM setting if you want to stream the content to Apple devices. To provide protected content to Apple devices, you can configure the Live Smooth Streaming publishing point to encrypt the content by using the Advanced Encryption Standard (AES) with a 128-bit key. For more information about how to configure Apple AES-128 encryption, see [Add/Edit Publishing Point Dialog Box](https://go.microsoft.com/?linkid=9750332) .
+    > [!IMPORTANT]
+    > You shouldn't use the DRM setting if you want to stream the content to Apple devices. To provide protected content to Apple devices, you can configure the Live Smooth Streaming publishing point to encrypt the content by using the Advanced Encryption Standard (AES) with a 128-bit key. For more information about how to configure Apple AES-128 encryption, see [Add/Edit Publishing Point Dialog Box](https://go.microsoft.com/?linkid=9750332).
 7. Click **Cue** to enable your source for broadcasting (a cued file source is shown in the following figure)...  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image15.png)  
   
@@ -145,7 +148,8 @@ This section describes how to create a Live Smooth Streaming broadcast in [Micro
 
 This section describes how to use the Microsoft Silverlight Media Framework 2.0 SmoothStreamingPlayer.XAP, a sample player that can easily be embedded in your website to enable client playback of Smooth Streaming media.
 
-**Important** Apple devices use an HTML 5 webpage to play the Live Smooth Streaming presentation. If you enabled the publishing point to stream content to Apple devices, see [Creating an HTML 5 page for use in Safari](https://go.microsoft.com/?linkid=9750364).
+> [!IMPORTANT]
+> Apple devices use an HTML 5 webpage to play the Live Smooth Streaming presentation. If you enabled the publishing point to stream content to Apple devices, see [Creating an HTML 5 page for use in Safari](https://go.microsoft.com/?linkid=9750364).
 
 > [!NOTE]
 > The latest version of [Microsoft Silverlight](https://go.microsoft.com/?linkid=9656602) must be installed on the client computer that you want to use to observe Live Smooth Streaming.
