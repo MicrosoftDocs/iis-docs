@@ -1,4 +1,5 @@
-notifications = data.Select();
+		notifications = data.Select();
+		
         //Azure doesn't support Distinct() so we must convert this to a list<T>
         foreach (Models.NotificationModel nm in notifications)
         {

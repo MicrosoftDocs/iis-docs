@@ -1,4 +1,4 @@
 <configSections> 
-         <sectionGroup name="system.webServer" /> 
-                    <section name="defaultDocument" overrideModeDefault="Allow" /> 
+	<sectionGroup name="system.webServer" /> 
+		<section name="defaultDocument" overrideModeDefault="Allow" /> 
 </configSections>

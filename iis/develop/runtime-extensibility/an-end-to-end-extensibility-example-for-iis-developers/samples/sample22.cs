@@ -2,8 +2,8 @@ using System;
 using System.Windows.Forms;
 using Microsoft.Web.Management.Client;
 using Microsoft.Web.Management.Server;
-namespace IIS7Demos
 
+namespace IIS7Demos
 {
     internal class imageCopyrightUI : Module
     {

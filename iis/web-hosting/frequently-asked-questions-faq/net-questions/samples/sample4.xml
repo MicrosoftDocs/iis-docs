@@ -1,5 +1,5 @@
 <IPermission
-        class="ReflectionPermission"
-        version="1"
-        Flags="RestrictedMemberAccess"
+	class="ReflectionPermission"
+	version="1"
+	Flags="RestrictedMemberAccess"
 />

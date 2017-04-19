@@ -1,16 +1,16 @@
 <sites> 
-<site name="Default Web Site" id="1"> 
-<application path="/"> 
-<virtualDirectory path="/" physicalPath="%SystemDrive%\inetpub\wwwroot" /> 
-</application> 
-<bindings> 
-<binding protocol="http" bindingInformation="*:80:" /> 
-</bindings> 
-</site> 
-<siteDefaults> 
-<logFile logFormat="W3C" directory="%SystemDrive%\inetpub\logs\LogFiles" /> 
-<traceFailedRequestsLogging directory="%SystemDrive%\inetpub\logs\FailedReqLogFiles" /> 
-</siteDefaults> 
-<applicationDefaults applicationPool="DefaultAppPool" /> 
-<virtualDirectoryDefaults allowSubDirConfig="true" /> 
+	<site name="Default Web Site" id="1"> 
+		<application path="/"> 
+			<virtualDirectory path="/" physicalPath="%SystemDrive%\inetpub\wwwroot" /> 
+		</application> 
+		<bindings> 
+			<binding protocol="http" bindingInformation="*:80:" /> 
+		</bindings> 
+	</site> 
+	<siteDefaults> 
+		<logFile logFormat="W3C" directory="%SystemDrive%\inetpub\logs\LogFiles" /> 
+		<traceFailedRequestsLogging directory="%SystemDrive%\inetpub\logs\FailedReqLogFiles" /> 
+	</siteDefaults> 
+	<applicationDefaults applicationPool="DefaultAppPool" /> 
+	<virtualDirectoryDefaults allowSubDirConfig="true" /> 
 </sites>

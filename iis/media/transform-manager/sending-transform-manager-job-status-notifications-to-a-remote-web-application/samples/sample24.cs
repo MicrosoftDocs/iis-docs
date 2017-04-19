@@ -1,4 +1,4 @@
-if (ValidIPs.Contains(Ip.Split(',')[0]))
+		if (ValidIPs.Contains(Ip.Split(',')[0]))
         {
             // Get the XML data from the request
             byte[] bArr = this.Request.BinaryRead(this.Request.TotalBytes);

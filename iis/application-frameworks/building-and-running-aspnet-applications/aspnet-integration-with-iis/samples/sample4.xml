@@ -1,5 +1,5 @@
 <modules> 
     <remove name="FormsAuthentication" /> 
-     <add name="FormsAuthentication" type="System.Web.Security.FormsAuthenticationModule" /> 
+    <add name="FormsAuthentication" type="System.Web.Security.FormsAuthenticationModule" /> 
     …
 </modules>

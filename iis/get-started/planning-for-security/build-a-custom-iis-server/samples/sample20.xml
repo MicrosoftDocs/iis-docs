@@ -2,7 +2,8 @@
     <add name="AnonymousAuthenticationModule" image="%windir%\system32\inetsrv\authanon.dll" /> 
     <add name="StaticFileModule" image="%windir%\system32\inetsrv\static.dll" /> 
     <add name="DirectoryListingModule" image="%windir%\system32\inetsrv\dirlist.dll" /> 
-    <add name="UrlAuthorizationModule" image="%windir%\System32\inetsrv\urlauthz.dll" />      <add name="BasicAuthenticationModule" image="%windir%\System32\inetsrv\authbas.dll" /> 
+    <add name="UrlAuthorizationModule" image="%windir%\System32\inetsrv\urlauthz.dll" />      
+	<add name="BasicAuthenticationModule" image="%windir%\System32\inetsrv\authbas.dll" /> 
 </globalModules> 
 
 <modules> 

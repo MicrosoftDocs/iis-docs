@@ -1,7 +1,7 @@
 <Validation
-            id="CheckOsWindowServer2008R2"
-            type="OsValidator"
-            validOperatingSystems="Microsoft Windows Server 2008 R2"
-            description="Check if operating system is Windows Server 2008 R2"
-            detailsUrlBase="http://go.microsoft.com/fwlink/?LinkId=206559"
-    />
+	id="CheckOsWindowServer2008R2"
+	type="OsValidator"
+	validOperatingSystems="Microsoft Windows Server 2008 R2"
+	description="Check if operating system is Windows Server 2008 R2"
+	detailsUrlBase="http://go.microsoft.com/fwlink/?LinkId=206559"
+/>

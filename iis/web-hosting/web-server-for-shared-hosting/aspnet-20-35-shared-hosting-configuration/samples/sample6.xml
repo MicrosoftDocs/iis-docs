@@ -1,4 +1,4 @@
-<system.web>
+	<system.web>
       <securityPolicy>
        <trustLevel name="Full" policyFile="internal" />
        <trustLevel name="High" policyFile="web_hightrust.config" />

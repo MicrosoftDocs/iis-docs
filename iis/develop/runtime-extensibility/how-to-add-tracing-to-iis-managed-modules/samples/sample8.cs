@@ -1,8 +1,8 @@
 private void Application_EndRequest(Object source, EventArgs e)        
-        {    
-            tsStatus.TraceEvent(TraceEventType.Start, 0, "[REQDATA MODULE] START EndRequest");
+{    
+	tsStatus.TraceEvent(TraceEventType.Start, 0, "[REQDATA MODULE] START EndRequest");
 
-            // other code
+	// other code
 
-            tsStatus.TraceEvent(TraceEventType.Stop, 0, "[REQDATA MODULE] END EndRequest");    
-        }
+	tsStatus.TraceEvent(TraceEventType.Stop, 0, "[REQDATA MODULE] END EndRequest");    
+}

@@ -1,10 +1,10 @@
 <sectionSchema name="system.webServer/security/isapiCgiRestriction"> 
-      <collection addElement="add" clearElement="clear" removeElement="remove"> 
-        <attribute name="path" type="string" expanded="true" required="true" isUniqueKey="true" validationType="nonEmptyString" /> 
-          <attribute name="allowed" type="bool" required="true" defaultValue="false" /> 
-          <attribute name="groupId" type="string" required="false" /> 
-          <attribute name="description" type="string" /> 
-      </collection> 
-      <attribute name="notListedIsapisAllowed" type="bool" defaultValue="false" /> 
-      <attribute name="notListedCgisAllowed" type="bool" defaultValue="false" /> 
-    </sectionSchema>
+  <collection addElement="add" clearElement="clear" removeElement="remove"> 
+	<attribute name="path" type="string" expanded="true" required="true" isUniqueKey="true" validationType="nonEmptyString" /> 
+	  <attribute name="allowed" type="bool" required="true" defaultValue="false" /> 
+	  <attribute name="groupId" type="string" required="false" /> 
+	  <attribute name="description" type="string" /> 
+  </collection> 
+  <attribute name="notListedIsapisAllowed" type="bool" defaultValue="false" /> 
+  <attribute name="notListedCgisAllowed" type="bool" defaultValue="false" /> 
+</sectionSchema>

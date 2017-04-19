@@ -1,12 +1,12 @@
 <webFarms>
-        <webFarm serverAutoStart="false" name="Farm" enabled="true" adminUserName="{0}\administrator" adminPassword="pwd"  primaryServer="demo-primary">
-            <server address="demo-primary" enabled="true" />
-            <server address="demo-secondary" enabled="true" />
-            <platformProvision syncPlatformFromPrimary="true" />
-            <applicationProvision syncWebServerFromPrimary="true">
-                <skipDirectives>
-                    <skip name="folder1" skipDirective="objectName=dirPath,absolutePath=.*folder1.*" />
-                </skipDirectives>
-            </applicationProvision>
-        </webFarm>
-    </webFarms>
+	<webFarm serverAutoStart="false" name="Farm" enabled="true" adminUserName="{0}\administrator" adminPassword="pwd"  primaryServer="demo-primary">
+		<server address="demo-primary" enabled="true" />
+		<server address="demo-secondary" enabled="true" />
+		<platformProvision syncPlatformFromPrimary="true" />
+		<applicationProvision syncWebServerFromPrimary="true">
+			<skipDirectives>
+				<skip name="folder1" skipDirective="objectName=dirPath,absolutePath=.*folder1.*" />
+			</skipDirectives>
+		</applicationProvision>
+	</webFarm>
+</webFarms>
