@@ -42,7 +42,7 @@ To configure the Failed Request Tracing log file location by using the command l
 
 It is also recommend that you configure all logging fields for W3SVC logging. You may need the W3SVC logging information when a problem occurs.
 
-For more information about failed request tracing, see the Failed Request Tracing walkthrough at [https://www.iis.net/articles/view.aspx/IIS7/Managing-IIS7/Diagnostics-in-IIS7/Using-Failed-Request-Tracing/How-to-Enable-Failed-Request-Tracing-for-UNC-Hosti](../../troubleshoot/using-failed-request-tracing/how-to-enable-failed-request-tracing-for-unc-hosting.md).
+For more information about failed request tracing, see the [Failed Request Tracing walkthrough](../../troubleshoot/using-failed-request-tracing/how-to-enable-failed-request-tracing-for-unc-hosting.md).
 
 #### Log File Location
 
@@ -56,7 +56,7 @@ For more information about diagnostics, see [Troubleshooting a Web Server Error.
 
 <a id="Enabling"></a>
 
-## Enabling a Delegated Administration User
+# Enabling a Delegated Administration User
 
 IIS Manager allows those who host or administer Web sites to delegate administrative control to developers or content owners, thus reducing cost of ownership and the administrative burden for the server administrator.
 
@@ -72,7 +72,7 @@ To enable a delegated user for a Web site using IIS  Manager, use the following 
 6. In the **Actions** pane, click **Allow User...**.
 7. In the **Allow User** dialog box, choose whether to use a Windows user or an IIS Manager user. In this case, select a Windows user, type the name, and then click **OK**.
 
-For more information about delegation, go to the *Configuring Remote Administration and Feature Delegation* overview at [https://www.iis.net/articles/view.aspx/IIS7/Managing-IIS7/Delegation-in-IIS7/Delegating-permissions-in-IIS-Manager/Configuring-Remote-Administration-and-Feature-Dele?Page=4](../remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7.md)
+For more information about delegation, go to the [Configuring Remote Administration and Feature Delegation](../remote-administration/configuring-remote-administration-and-feature-delegation-in-iis-7.md) overview.
 
 <a id="Isolating"></a>
 
@@ -104,7 +104,7 @@ To create and set a unique temporary compilation directory, use the following:
 
 1. Open a command prompt and run the following command to create a folder and set permissions:
 
-[!code-console[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample4.cmd)]
+    [!code-console[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample4.cmd)]
 2. Run the following command to set the temporary compilation directory to a site:  
 
     [!code-console[Main](provisioning-iis-7-sites-for-shared-hosting/samples/sample5.cmd)]
