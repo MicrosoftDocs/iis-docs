@@ -164,7 +164,7 @@ In order to install a native module, you have several options:
 
 - **Use APPCMD.EXE command line tool**  
  APPCMD makes module installation simple. Go to Start&gt;Programs&gt;Accessories, Right click on the Command Line Prompt, and choose Run As Administrator. In the command line window, execute the following:  
-    **%systemroot%\system32\inetsrv\appcmd.exe install module /name:MyModule /image:[FULL\_PATH\_TO\_DLL]**  
+    `%systemroot%\system32\inetsrv\appcmd.exe install module /name:MyModule /image:[FULL\_PATH\_TO\_DLL]`  
  Where [FULL\_PATH\_TO\_DLL] is the full path to the compiled DLL containing module you just built.
 - **Use the IIS Administration Tool**  
  This enables you to add a module by using a GUI. Go to Start&gt;Run, type in inetmgr, and press Enter. Connect to localhost, locate the Modules task, and double-click to open it. Then, click the **Add a Native Module** task on the right pane.

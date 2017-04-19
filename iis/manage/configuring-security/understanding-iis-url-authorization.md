@@ -43,7 +43,7 @@ For this scenario we need three users: Alice, Bob and Fred. We also need a new g
 
 [!code-console[Main](understanding-iis-url-authorization/samples/sample1.cmd)]
 
-1. Open Explorer and go into the %systemdrive%\inetpub\wwwroot directory.
+1. Open Explorer and go into the `%systemdrive%\inetpub\wwwroot` directory.
 2. Create a directory called "secure".
 3. Change into the "secure" directory and create a new file called "default.aspx". You can do this with notepad or any other text editor.
 4. Paste the following code into the default.aspx page: 
@@ -104,7 +104,7 @@ The next paragraphs show some advanced URL Authorization topics.
 
 ### Configuration
 
-You do not have to use the User Interface to specify URL Authorization settings. You can specify URL Authorization rules directly in your web.config file. The IIS &lt;authorization&gt; configuration section is delegated by default--you can distribute authorization rules together with web content. Below, see how the %systemdrive%\inetpub\wwwroot\secure\web.config file looks after following this walkthrough:
+You do not have to use the User Interface to specify URL Authorization settings. You can specify URL Authorization rules directly in your web.config file. The IIS &lt;authorization&gt; configuration section is delegated by default--you can distribute authorization rules together with web content. Below, see how the `%systemdrive%\inetpub\wwwroot\secure\web.config` file looks after following this walkthrough:
 
 [!code-xml[Main](understanding-iis-url-authorization/samples/sample4.xml)]
 
@@ -150,7 +150,7 @@ The IIS URL Authorization module evaluates deny rules first. Because you deny ac
 | **Rule evaluation** | Order: a) Lower level first going up to the parent b) Order of appearance in rule collection | Order: a) Deny rules get evaluated first starting at the parent b) Allow rules starting at the parent. c) Order of appearance in rule collection |
 | **IIS****User Interface** | No IIS User Interface | "Authorization Rules" User Interface |
 | **Configuration section** | system.web/authorization | system.webServer/security/authorization |
-| **Module** | System.Web.Security.UrlAuthorization | %windir%\system32\inetsrv\urlauthz.dll |
+| **Module** | System.Web.Security.UrlAuthorization | `%windir%\system32\inetsrv\urlauthz.dll` |
 | **Content** | Applies only to content that is mapped to a managed handler (can be turned off via managedHandler precondition) | Applies to all content |
 
 <a id="UsingDomain"></a>

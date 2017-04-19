@@ -50,7 +50,7 @@ Include a file from your own site by specifying its path and filename. For examp
 [!code-console[Main](secure-php-with-configuration-settings/samples/sample2.cmd)]
 
 
-$\_SERVER['DOCUMENT\_ROOT'] is a superglobal variable set to be the root folder of your site. (Note that there is no trailing "/"; you must provide a leading "/" in '/page.php'. )
+$\_SERVER['DOCUMENT\_ROOT'] is a superglobal variable set to be the root folder of your site. (Note that there is no trailing "/"; you must provide a leading "/" in '/page.php'.)
 
 If you want to include static content from another one of your Web sites, such as include('http://myothersite.com/includes/footer.php'), make a copy of that content in the current site and then include it locally.
 

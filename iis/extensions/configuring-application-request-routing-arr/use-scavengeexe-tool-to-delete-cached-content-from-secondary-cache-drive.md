@@ -39,7 +39,7 @@ This walkthrough also assumes that secondary cache drive has been added to ARR f
 
 ## Scavenge.exe tool in ARR
 
-Scavenge.exe is a command line tool that can be used for managing the secondary drive by the administrators. The exe is installed with ARR and can be found in "%ProgramFiles%\IIS\Application Request Routing" folder.
+Scavenge.exe is a command line tool that can be used for managing the secondary drive by the administrators. The exe is installed with ARR and can be found in `%ProgramFiles%\IIS\Application Request Routing` folder.
 
 **Usage:** scavenge.exe &lt;share&gt; dd:[hh[:mm[:ss]]] 
 

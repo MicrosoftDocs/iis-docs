@@ -35,7 +35,7 @@ To create the example content Web site:
 1. Create a folder called "**contentsite**" in the following folder:  
 
     [!code-console[Main](reverse-proxy-rule-template/samples/sample1.cmd)]
-2. Create an IIS web site called "**contentsite**" that point to the corresponding folder under %SystemDrive%\inetpub\. Use port 8081 for the site.  
+2. Create an IIS web site called "**contentsite**" that point to the corresponding folder under `%SystemDrive%\inetpub\`. Use port 8081 for the site.  
  You can use the following commands to create the sites:  
 
     [!code-console[Main](reverse-proxy-rule-template/samples/sample2.cmd)]
@@ -61,7 +61,7 @@ To create the rules by using the rule template follow these steps:
     [![](reverse-proxy-rule-template/_static/image11.png)](reverse-proxy-rule-template/_static/image10.png)
 4. In the "Add Reverse Proxy Rules" dialog enter the following:  
     **Server name or IP address where HTTP requests will be forwarded:** localhost:8081  
- Check the "    **Rewrite the domain names of the links in HTTP responses** " check box and enter:  
+ Check the "**Rewrite the domain names of the links in HTTP responses**" check box and enter:  
     **From:** localhost:8081  
     **To:** localhost  
     [![](reverse-proxy-rule-template/_static/image16.png)](reverse-proxy-rule-template/_static/image14.png)

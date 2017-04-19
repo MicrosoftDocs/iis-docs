@@ -60,7 +60,7 @@ First, configure forms authentication as you would for a normal ASP.NET applicat
 
 ### Creating a Sample Page
 
-To illustrate the feature, we add a default.aspx page to the web root directory. Open notepad (to make sure you have access to the wwwroot directory below, you must run as administrator--right click on Programs\Accessories\Notepad icon, and click "Run as administrator"), and create the following file: %systemdrive%\inetpub\wwwroot\default.aspx. Paste the following lines into it:
+To illustrate the feature, we add a default.aspx page to the web root directory. Open notepad (to make sure you have access to the wwwroot directory below, you must run as administrator--right click on Programs\Accessories\Notepad icon, and click "Run as administrator"), and create the following file: `%systemdrive%\inetpub\wwwroot\default.aspx`. Paste the following lines into it:
 
 
 [!code-aspx[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample1.aspx)]
@@ -70,7 +70,7 @@ All default.aspx does is display the current time and the name of the logged in 
 
 ### Configuring Forms Authentication and Access Control Rules
 
-Now, to protect default.aspx with forms authentication. Create a web.config file in the %systemdrive%\inetpub\wwwroot directory and add the configuration shown below:
+Now, to protect default.aspx with forms authentication. Create a web.config file in the `%systemdrive%\inetpub\wwwroot` directory and add the configuration shown below:
 
 
 [!code-xml[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample2.xml)]
@@ -88,12 +88,12 @@ Add the following entry right after the initial &lt;configuration&gt;/&lt;system
 [!code-xml[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample3.xml)]
 
 
-**Step 2:** After the configuration entry is added, you must save the Membership provider code provided in Appendix as **XmlMembershipProvider.cs in your %systemdrive%\inetpub\wwwroot\App\_Code directory**. If this directory does not exist, you must create it.
+**Step 2:** After the configuration entry is added, you must save the Membership provider code provided in Appendix as **XmlMembershipProvider.cs in your `%systemdrive%\inetpub\wwwroot\App\_Code` directory**. If this directory does not exist, you must create it.
 
 > [!NOTE]
 > If using Notepad, be sure to set Save As: All Files to prevent the file from being saved as XmlMembershipProvider.cs.txt.
 
-**Step 3:** All that remains is the actual credential store. Save the xml snippet below as MembershipUsers.xml file in the %systemdrive%\inetpub\wwwroot\App\_Data directory.
+**Step 3:** All that remains is the actual credential store. Save the xml snippet below as MembershipUsers.xml file in the `%systemdrive%\inetpub\wwwroot\App\_Data` directory.
 
 > [!NOTE]
 > If using Notepad, be sure to set Save As: All Files to prevent the file from being saved as MembershipUsers.xml.txt.
@@ -113,7 +113,7 @@ Look in MembershipUsers.xml to find the newly created users.
 
 ### Creating a Login Page
 
-In order to use forms authentication, we must to create a login page. Open notepad (To make sure you have access to the wwwroot directory below, you need to run as administrator by right clicking on Programs\Accessories\Notepad icon, and clicking "Run as administrator"), and create the login.aspx file in the %systemdrive%\inetpub\wwwroot directory. Note - be sure to set Save As: All Files to prevent the file from being saved as login.aspx.txt. Paste the following lines into it:
+In order to use forms authentication, we must to create a login page. Open notepad (To make sure you have access to the wwwroot directory below, you need to run as administrator by right clicking on Programs\Accessories\Notepad icon, and clicking "Run as administrator"), and create the login.aspx file in the `%systemdrive%\inetpub\wwwroot` directory. Note - be sure to set Save As: All Files to prevent the file from being saved as login.aspx.txt. Paste the following lines into it:
 
 
 [!code-aspx[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample5.aspx)]
@@ -146,7 +146,7 @@ The default configuration for all managed modules shipped with IIS 7.0 and above
 
 By removing the precondition, we make the desired managed module execute for all requests to the application, regardless of content. This is necessary in order to protect our static files, and any other application content with Forms-based authentication.
 
-To do this, open the application's web.config file located in the %systemdrive%\inetpub\wwwroot directory, and paste the following lines immediately below the first &lt;configuration&gt; element:
+To do this, open the application's web.config file located in the `%systemdrive%\inetpub\wwwroot` directory, and paste the following lines immediately below the first &lt;configuration&gt; element:
 
 
 [!code-xml[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample6.xml)]
@@ -171,7 +171,7 @@ Log in with a username/password pair used previously. When you successfully log 
 
 To illustrate this even further, we add a classic ASP page and protect it with Forms Authentication.
 
-Open notepad (to make sure you have access to the wwwroot directory below, you must run as administrator--right click on Programs\Accessories\Notepad icon, and click "Run as administrator"), and create a **page.asp** file in your %systemdrive%\inetpub\wwwroot directory.
+Open notepad (to make sure you have access to the wwwroot directory below, you must run as administrator--right click on Programs\Accessories\Notepad icon, and click "Run as administrator"), and create a **page.asp** file in your `%systemdrive%\inetpub\wwwroot` directory.
 
 > [!NOTE]
 > If using Notepad, be sure to set Save As: All Files to prevent the file from being saved as page.asp.txt. Paste the lines below into it:
@@ -198,7 +198,7 @@ Feel free to check out the blog, [http://www.mvolo.com/](http://www.mvolo.com/),
 
 This Membership provider is based on the sample XML membership provider found in this [MSDN article](https://msdn.microsoft.com/en-us/library/aa479031.aspx).
 
-To use this Membership provider, save the code as **XmlMembershipProvider.cs** in your %systemdrive%\inetpub\wwwroot\App\_Code directory. If this directory doesn't exist you will have to create it. Note - be sure to set Save As: All Files if using Notepad to prevent the file from being saved as XmlMembershipProvider.cs.txt.
+To use this Membership provider, save the code as **XmlMembershipProvider.cs** in your `%systemdrive%\inetpub\wwwroot\App\_Code` directory. If this directory doesn't exist you will have to create it. Note - be sure to set Save As: All Files if using Notepad to prevent the file from being saved as XmlMembershipProvider.cs.txt.
 
 > [!NOTE]
 > This membership provider sample is for the purposes of this demo only. It does not conform to the best practices and security requirements for a production Membership provider, including storing passwords securely and auditing user actions. Do not use this membership provider in your application!

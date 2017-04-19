@@ -64,7 +64,7 @@ Follow the steps outlined in [this](../installing-application-request-routing-ar
 **To create and define a server farm using the command-line:** 
 
 1. Open a command prompt with **administrator** privileges.
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 3. To create the server farm named myServerFarm, enter: 
 
     [!code-console[Main](define-and-configure-an-application-request-routing-server-farm/samples/sample1.cmd)]

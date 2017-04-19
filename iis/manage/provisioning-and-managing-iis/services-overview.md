@@ -52,7 +52,7 @@ Because the hosting extensions require high permissions to perform operations su
 
 ### Windows Service
 
-The second scenario deploys the services to run as a Windows Service. This deployment allows the services to be hosted on a server that is not running IIS. It also requires additional code to be written so that the WCF services inherit from **ServiceBase** class and implements the **OnStart** (to create and open an instance of ServiceHost ) and **OnStop** (to close the instance of ServiceHost). An installation package (HostingWindowsService.msi) has automated this deployment.
+The second scenario deploys the services to run as a Windows Service. This deployment allows the services to be hosted on a server that is not running IIS. It also requires additional code to be written so that the WCF services inherit from **ServiceBase** class and implements the **OnStart** (to create and open an instance of ServiceHost) and **OnStop** (to close the instance of ServiceHost). An installation package (HostingWindowsService.msi) has automated this deployment.
 
 ### Validating the Installation
 

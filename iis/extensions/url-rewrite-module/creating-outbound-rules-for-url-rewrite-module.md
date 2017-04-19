@@ -208,7 +208,7 @@ The rewrite rules are stored either in **aplicationHost.config** file or in **we
 [!code-console[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample14.cmd)]
 
 
-In this file you see the **&lt;rewrite&gt;** section that contains all the rules definitions, as in the following example:
+In this file you see the `&lt;rewrite&gt;` section that contains all the rules definitions, as in the following example:
 
 
 [!code-xml[Main](creating-outbound-rules-for-url-rewrite-module/samples/sample15.xml)]

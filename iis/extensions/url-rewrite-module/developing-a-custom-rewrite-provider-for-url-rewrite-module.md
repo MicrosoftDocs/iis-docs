@@ -27,7 +27,7 @@ To create a Visual Studio project for rewrite provider follow these steps:
 3. In the "New Project" dialog select the "Class Library" project template and name the project **ReplaceProvider**.  
     [![](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image4.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image2.png)
 4. Remove the file **Class1.cs** added by default (since you will not be using that file) using the context menu **Delete** option in the Solution Explorer;
-5. Select "Add References..." from the Project menu and add references to **Microsoft.Web.Iis.Rewrite.dll** located in "%ProgramFiles%\Reference Assemblies\Microsoft\IIS".
+5. Select "Add References..." from the Project menu and add references to **Microsoft.Web.Iis.Rewrite.dll** located in `%ProgramFiles%\Reference Assemblies\Microsoft\IIS`.
 6. Rewrite providers must be placed in the .NET Global Assembly Cache (GAC) in order to be visible for URL Rewrite Module. This requires the provider assembly DLL to be strongly named (signed). To sign the assembly, select the option "ReplaceProvider Properties..." from the "Project" menu.
 7. In the Signing tab check "Sign the assembly" check box.
 8. In the combo box, select the option &lt;New…&gt; to create a new key. In the "Create Strong Name Key" dialog, type DemoKey.snk as the name for the key and uncheck the Protect my key file with a password check box. Click OK.  
@@ -36,7 +36,7 @@ To create a Visual Studio project for rewrite provider follow these steps:
     [![](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image12.png)](developing-a-custom-rewrite-provider-for-url-rewrite-module/_static/image10.png)
 9. Select the "Build Events" tab and add the following "Post-build event" command line:  
   
- CALL "%VS90COMNTOOLS%\vsvars32.bat" &gt; NULL   
+ CALL `%VS90COMNTOOLS%\vsvars32.bat` &gt; NULL   
  gacutil.exe /if "$(TargetPath)"   
   
  Note: if you use Visual Studio 2010 then replace %VS90COMNTOOLS% with %VS100COMNTOOLS%.

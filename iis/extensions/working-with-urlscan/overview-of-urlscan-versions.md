@@ -1,7 +1,7 @@
 ---
 title: "Overview of UrlScan Versions | Microsoft Docs"
 author: rmcmurray
-description: "UrlScan primarily consists of two parts: the UrlScan ISAPI filter named UrlScan.dll, and a configuration file named UrlScan.ini. ( Note : Some of the earlier..."
+description: "UrlScan primarily consists of two parts: the UrlScan ISAPI filter named UrlScan.dll, and a configuration file named UrlScan.ini. (Note : Some of the earlier..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 07/15/2010

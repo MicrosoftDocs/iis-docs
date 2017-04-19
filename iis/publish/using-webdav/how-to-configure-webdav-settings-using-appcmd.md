@@ -52,7 +52,7 @@ The above condition is required because the User Account Control (UAC) security 
 
 ## Basic AppCmd Concepts
 
-AppCmd.exe is a new command-line tool for administering IIS 7.0. In many ways, think of it as a replacement for the adsutil.vbs script from previous IIS versions. AppCmd.exe supports a wide range of command switches for various objects, making it easily scriptable in batch files to configure a myriad of IIS settings. (Note: The AppCmd.exe utility is located in the %WinDir%\System32\InetSrv folder.)
+AppCmd.exe is a new command-line tool for administering IIS 7.0. In many ways, think of it as a replacement for the adsutil.vbs script from previous IIS versions. AppCmd.exe supports a wide range of command switches for various objects, making it easily scriptable in batch files to configure a myriad of IIS settings. (Note: The AppCmd.exe utility is located in the `%WinDir%\System32\InetSrv folder`.)
 
 The general syntax for AppCmd.exe is:
 

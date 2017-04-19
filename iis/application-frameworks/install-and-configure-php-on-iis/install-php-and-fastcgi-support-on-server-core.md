@@ -28,7 +28,7 @@ FastCGI is a language-independent, scalable, open extension to Common Gateway In
 2. Type the following text into the Server Core system's command line and press ENTER:  
 
     [!code-console[Main](install-php-and-fastcgi-support-on-server-core/samples/sample2.cmd)]
-3. AppCmd.exe is the command-line tool included with IIS. AppCmd.exe can be found in the %WinDir%\System32\InetSrv directory. Use AppCmd.exe commands to create the PHP/FastCGI handler mapping from the Server Core's command line (note that this is case sensitive):  
+3. AppCmd.exe is the command-line tool included with IIS. AppCmd.exe can be found in the `%WinDir%\System32\InetSrv` directory. Use AppCmd.exe commands to create the PHP/FastCGI handler mapping from the Server Core's command line (note that this is case sensitive):  
 
     [!code-console[Main](install-php-and-fastcgi-support-on-server-core/samples/sample3.cmd)]
 4. Depending on the PHP installation location, paths to executables on the hard disk may require updates. Note that the AppCmd.exe example commands above assume that PHP installation is in the D:\PHP directory.
@@ -41,7 +41,7 @@ FastCGI is a language-independent, scalable, open extension to Common Gateway In
 - Create a directory in which to copy the uncompressed files, for example:  
 
     [!code-console[Main](install-php-and-fastcgi-support-on-server-core/samples/sample4.cmd)]
-- Copy the entire contents of the PHP archive you uncompressed previously into the **%SystemDrive%\PHP** directory.
+- Copy the entire contents of the PHP archive you uncompressed previously into the `%SystemDrive%\PHP` directory.
 - Execute the following command:  
 
     [!code-console[Main](install-php-and-fastcgi-support-on-server-core/samples/sample5.cmd)]

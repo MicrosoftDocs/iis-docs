@@ -22,7 +22,7 @@ This is a new Web Deploy provider which will provide support for changing authen
 
 [!code-xml[Main](changing-authentication-mode-for-a-given-website/samples/sample1.xml)]
 
-Here is a few command line examples of how this could be done *(msdeploy.exe is located under "%programfiles%\IIS\Microsoft Web Deploy V3")*:
+Here is a few command line examples of how this could be done *(msdeploy.exe is located under `%programfiles%\IIS\Microsoft Web Deploy V3`)*:
 
 · **Allow Windows Authentication on Destination at site = SiteName:** 
 

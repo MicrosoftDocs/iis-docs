@@ -84,7 +84,7 @@ Operating system components, such as IIS, are installed with Windows setup techn
 
 **Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2**
 
-Operating system components on Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2 use component-based setup. The log file for operating system components is stored in the %windir%\logs\cbs directory. You can open it with the command:
+Operating system components on Windows Vista, Windows 7, Windows Server 2008, and Windows Server 2008 R2 use component-based setup. The log file for operating system components is stored in the `%windir%\logs\cbs` directory. You can open it with the command:
 
 
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample1.cmd)]
@@ -92,7 +92,7 @@ Operating system components on Windows Vista, Windows 7, Windows Server 2008, an
 
 For more information, see [Optional Component Setup Log Diagnoser](https://technet.microsoft.com/en-us/library/cc732334.aspx).
 
-IIS 7.0 (Windows Vista and Windows Server 2008) and IIS 7.5 (Windows 7 and Windows Server 2008 R2) setup generates a separate setup log file, located in the %windir% directory. You can open this log file with the command:
+IIS 7.0 (Windows Vista and Windows Server 2008) and IIS 7.5 (Windows 7 and Windows Server 2008 R2) setup generates a separate setup log file, located in the `%windir%` directory. You can open this log file with the command:
 
 
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample2.cmd)]
@@ -100,7 +100,7 @@ IIS 7.0 (Windows Vista and Windows Server 2008) and IIS 7.5 (Windows 7 and Windo
 
 **Windows XP and Windows Server 2003**
 
-Windows XP and Windows Server 2003 setup log files are stored in the %systemroot% directory. You can open the Windows setup log file with the name setuperr.log with the command:
+Windows XP and Windows Server 2003 setup log files are stored in the `%systemroot%` directory. You can open the Windows setup log file with the name setuperr.log with the command:
 
 
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample3.cmd)]

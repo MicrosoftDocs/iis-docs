@@ -86,7 +86,7 @@ When a SQL server runs on the same web server that has the applications for whic
 
 **Important**: The Windows state service (Aspnet\_state.exe) must be running for out-of-process session state to take effect. By default, this service is installed when Windows Server 2012 is installed and is configured for manual start. Change the start behavior to Automatic.
 
-**Important**: Before you configure a SQL server for session state, run the InstallSqlState.sql script on the server. By default, this script is stored in %systemroot%\Microsoft.NET\Framework\V4.0.30319.
+**Important**: Before you configure a SQL server for session state, run the InstallSqlState.sql script on the server. By default, this script is stored in `%systemroot%\Microsoft.NET\Framework\V4.0.30319`.
 
 If you decide to store session state in a SQL Server database, make the following design decisions:
 

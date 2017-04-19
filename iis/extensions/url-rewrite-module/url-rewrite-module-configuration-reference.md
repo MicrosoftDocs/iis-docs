@@ -42,8 +42,8 @@ Rewrite rules consists of the following parts:
 
 Rewrite rules can be defined in two different collections:
 
-- **&lt;globalRules&gt;** – Rules in this collection can be defined only on the server level. Global rules are used to define server-wide URL rewriting logic. These rules are defined within the ApplicationHost.config file, and they cannot be overridden or disabled on any lower configuration levels. Global rules always operate on the absolute URL's path (that is, the requested URI without the server name). These rules are evaluated early in the IIS request-processing pipeline (**PreBeginRequest** event).
-- **&lt;rules&gt;** – Rules in this collection are called distributed rules, and they can be defined on any level in the configuration hierarchy. Distributed rules are used to define URL rewriting logic specific to a particular configuration scope. This type of rule can be added on any configuration level by using Web.config files or by using &lt;location&gt; tags within ApplicationHost.config or Web.config files. Distributed rules operate on the URL path, relative to the location of the Web.config file where they are defined. In cases where distributed rules are defined inside of a &lt;location&gt; tag, they operate on the URL path, relative to the path specified for that &lt;location&gt; tag. These rules are evaluated on the BeginRequest event in the IIS pipeline.
+- `&lt;globalRules&gt;` – Rules in this collection can be defined only on the server level. Global rules are used to define server-wide URL rewriting logic. These rules are defined within the ApplicationHost.config file, and they cannot be overridden or disabled on any lower configuration levels. Global rules always operate on the absolute URL's path (that is, the requested URI without the server name). These rules are evaluated early in the IIS request-processing pipeline (**PreBeginRequest** event).
+- `&lt;rules&gt;` – Rules in this collection are called distributed rules, and they can be defined on any level in the configuration hierarchy. Distributed rules are used to define URL rewriting logic specific to a particular configuration scope. This type of rule can be added on any configuration level by using Web.config files or by using &lt;location&gt; tags within ApplicationHost.config or Web.config files. Distributed rules operate on the URL path, relative to the location of the Web.config file where they are defined. In cases where distributed rules are defined inside of a &lt;location&gt; tag, they operate on the URL path, relative to the path specified for that &lt;location&gt; tag. These rules are evaluated on the BeginRequest event in the IIS pipeline.
 
 <a id="Rules_Evaluation"></a>
 
@@ -169,7 +169,7 @@ In addition, the result of the condition evaluation can be negated by using the 
 
 ### Rule action
 
-A rewrite rule action is performed when the current URL matches the rule pattern and the condition evaluation succeeded ( depending on the rule configuration, either all conditions matched or any one or more of the conditions matched). There are several types of actions available, and the **type** attribute of the &lt;action&gt; configuration element can be used to specify which action the rule performs. The following sections describe different action types and the configuration options related to specific action types.
+A rewrite rule action is performed when the current URL matches the rule pattern and the condition evaluation succeeded (depending on the rule configuration, either all conditions matched or any one or more of the conditions matched). There are several types of actions available, and the **type** attribute of the &lt;action&gt; configuration element can be used to specify which action the rule performs. The following sections describe different action types and the configuration options related to specific action types.
 
 <a id="Rewrite_action"></a>
 

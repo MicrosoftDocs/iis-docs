@@ -122,7 +122,7 @@ The following script demonstrates how to set SSL settings by using the IIS WMI p
 
 CONST SSL = 8  
 Set oIIS = GetObject("winmgmts:root\WebAdministration")  
-Set oSection = oIIS.Get( \_  
+Set oSection = oIIS.Get(\_  
  "AccessSection.Path='MACHINE/WEBROOT/APPHOST',Location='Default Web Site'")  
 oSection.SslFlags = oSection.SslFlags OR SSL  
 oSection.Put\_ <a id="IISManager"></a>

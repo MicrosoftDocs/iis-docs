@@ -51,7 +51,7 @@ The first thing you should do when you encounter the high memory usage is to det
 
 **TIP**
 
-If you need to identify which application pool is associated with a particular w3wp.exe process, open an Administrative Command Prompt, switch into the %windir%\System32\inetsrv folder (cd %windir%\System32\inetsrv) and run appcmd list wp. This will show the process identifier (PID) of the w3wp.exe process in quotes. You can match that PID with the PID available in Task Manager.
+If you need to identify which application pool is associated with a particular w3wp.exe process, open an Administrative Command Prompt, switch into the `%windir%\System32\inetsrv` folder (`cd %windir%\System32\inetsrv`) and run appcmd list wp. This will show the process identifier (PID) of the w3wp.exe process in quotes. You can match that PID with the PID available in Task Manager.
 
 Once you have confirmed that a w3wp.exe process is experiencing high memory usage, you will need to two pieces of information in order to determine what is causing the problem.
 

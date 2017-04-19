@@ -48,15 +48,15 @@ To start using the module, first compile it from this Visual Studio solution. Yo
 To install the module follow these steps:
 
 1. Copy the WebAnalyticsModule.dll to a bin folder within your web site or application
-2. Copy the WebAnalytics\_schema.xml to "%windir%\system32\inetsrv\config\schema" folder.
-3. Add the following to the "%windir%\system32\inetsrv\config\applicationhost.config" file: In the sectionGroup for "system.webServer", add the section definition: &lt;section name="webAnalytics" overrideModeDefault="Allow"&gt;
+2. Copy the WebAnalytics\_schema.xml to `%windir%\system32\inetsrv\config\schema` folder.
+3. Add the following to the `%windir%\system32\inetsrv\config\applicationhost.config` file: In the sectionGroup for "system.webServer", add the section definition: &lt;section name="webAnalytics" overrideModeDefault="Allow"&gt;
 4. Add module to a web site or an application by opening corresponding web.config file and adding the following section to the &lt;system.webServer&gt; element:  
 
     [!code-xml[Main](sample-web-analytics-tracking-module/samples/sample1.xml)]
 5. Next, use the gacutil tool to put the module to the Global Assembly Cache so that IIS Manager can use them:  
 
     [!code-console[Main](sample-web-analytics-tracking-module/samples/sample2.cmd)]
-6. Add the module to the IIS Manager configuration in the "%windir%\system32\inetsrv\config\administration.config" file:  
+6. Add the module to the IIS Manager configuration in the `%windir%\system32\inetsrv\config\administration.config` file:  
 
     - In the &lt;moduleProviders&gt; collection, add the following entry:  
 

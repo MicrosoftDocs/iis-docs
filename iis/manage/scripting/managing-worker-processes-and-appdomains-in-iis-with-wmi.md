@@ -43,9 +43,9 @@ This article describes how to accomplish, with just a few lines of VBScript, the
 
 4. Before you start, make a backup of the System32\inetsrv\config\applicationhost.config file with the AppCmd tool. The backup copy will enable you to restore IIS to its original state by just copying the original version over the later one. To make a backup, follow these steps:
 
-a. Open an elevated Command Prompt window.  
- b. Type cd %Windir%\system32\inetsrv\  
- c.Type appcmd add backup *backupName* to back up the ApplicationHost.config file, where *backupName* is the name that you specify for the backup. A directory with the backup name that you specify will be created under the %Windir%\system32\inetsrv\backup directory. If you do not specify a name, appcmd will generate a directory name automatically using the current date and time.
+    a. Open an elevated Command Prompt window.  
+    b. Type `cd %Windir%\system32\inetsrv\`
+    c.Type appcmd add backup *backupName* to back up the ApplicationHost.config file, where *backupName* is the name that you specify for the backup. A directory with the backup name that you specify will be created under the `%Windir%\system32\inetsrv\backup` directory. If you do not specify a name, appcmd will generate a directory name automatically using the current date and time.
 
 ## Worker Processes
 
@@ -61,7 +61,7 @@ Use notepad to put the following text into a text file. Then, save the file by u
 
 [!code-xml[Main](managing-worker-processes-and-appdomains-in-iis-with-wmi/samples/sample1.xml)]
 
-Put the Sleep.aspx file in the content directory of the default Web site: %systemdrive%\inetpub\wwwroot.
+Put the Sleep.aspx file in the content directory of the default Web site: `%systemdrive%\inetpub\wwwroot`.
 
 The Sleep.aspx file that you created forces the request for the Web page to take 30 seconds to execute. This will give you time to run a script that will show GetExecutingRequests in action.
 

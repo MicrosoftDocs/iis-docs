@@ -91,7 +91,7 @@ The time-out value is used to determine how long after the last request with the
 
 1. Open a command prompt with administrator privileges.
 
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 
 3. To enable host name affinity, enter (the below example uses **myServerFarm** as the name of the server farm):
 
@@ -125,7 +125,7 @@ By default, all host names can use one application server. However, if the site 
 
 1. Open a command prompt with administrator privileges.
 
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 
 3. To specify the number of servers per host name, enter (the below example uses **myServerFarm** as the name of the server farm, and sets the number of servers to 2 for the www.contoso.com host name):
 
@@ -201,7 +201,7 @@ Before proceeding, ensure that the server farm was created with the application 
 **To enable host name affinity using the command-line:** 
 
 1. Open a command prompt with administrator privileges.
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 3. To enable host name affinity, enter (the below example uses **myServerFarm** as the name of the server farm):
 
     [!code-console[Main](shared-hosting-using-application-request-routing-arr/samples/sample3.cmd)]
@@ -227,7 +227,7 @@ By default, all host names can use one application server. However, if the site 
 **To specify the number of servers to use using the command-line:** 
 
 1. Open a command prompt with administrator privileges.
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 3. To specify the number of servers per host name, enter (the below example uses **myServerFarm** as the name of the server farm, and sets the number of servers to 2 for the www.contoso.com host name):
 
     [!code-console[Main](shared-hosting-using-application-request-routing-arr/samples/sample4.cmd)]

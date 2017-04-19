@@ -104,8 +104,8 @@ The following prerequisites must be fulfilled in order to install Remote Manager
 
 1. Ensure that you meet the installation requirements for Windows XP and Windows Server 2003 as discussed earlier.
 2. Download the Remote Manager installer from:   
- 32 bit (x86) -     [https://www.iis.net/go/1626](https://www.iis.net/downloads/microsoft/iis-manager)  
- 64 bit (x64) -     [https://www.iis.net/go/1633](https://www.iis.net/downloads/microsoft/iis-manager).
+ 32 bit (x86) - [https://www.iis.net/go/1626](https://www.iis.net/downloads/microsoft/iis-manager)  
+ 64 bit (x64) - [https://www.iis.net/go/1633](https://www.iis.net/downloads/microsoft/iis-manager).
 3. After downloading the installer, double click it to run.   
     [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image23.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image22.jpg)
 4. Click **Next** to display the License agreement page.

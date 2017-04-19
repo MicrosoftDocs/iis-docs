@@ -48,7 +48,7 @@ Then we add Output Caching to regain performance degradation incurred by adding 
 
 ## Part I – Writing and Configuring the Copyright Handler
 
-1. Create a directory called 'pictures' under the %systemroot%\inetpub\wwwroot directory. Execute the following command in an elevated command shell:
+1. Create a directory called 'pictures' under the `%systemroot%\inetpub\wwwroot` directory. Execute the following command in an elevated command shell:
 
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample1.cmd)]
 2. Copy some digital pictures - this walkthrough assumes them to be JPG files - to the new pictures directory. Use the following picture if you don't have any JPG files handy: [http://wallpaper.iis7.org/gallery/iis7-highlight.jpg](http://wallpaper.iis7.org/gallery/iis7-highlight.jpg)
@@ -65,7 +65,7 @@ Then we add Output Caching to regain performance degradation incurred by adding 
 
 [!code-csharp[Main](walkthrough-iis-output-caching/samples/sample4.cs)]
 
-    Save the file as %systemdrive%\inetpub\wwwroot\pictures\App\_Code\imageCopyrightHandler.cs
+    Save the file as `%systemdrive%\inetpub\wwwroot\pictures\App\_Code\imageCopyrightHandler.cs`
 6. Create the handler that executes this code when a JPG file is requested:
 
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample5.cmd)]
@@ -115,7 +115,7 @@ Once the JPG Copyright Handler works, we must determine how fast our code is. In
 
     The distribution file tells WCAT how it should weigh requests. With the two URLs above, we do an even 50/50 distribution. Each ClassID gets requested 50% of the time.
 
-    Create a file called *%systemdrive%\perftest\distribution.cfg* in the perftest directory and paste the following content into it:
+    Create a file called `%systemdrive%\perftest\distribution.cfg` in the perftest directory and paste the following content into it:
 
     [!code-console[Main](walkthrough-iis-output-caching/samples/sample9.cmd)]
 
@@ -218,7 +218,7 @@ You see that the number of cached URIs increases depending on how many items you
 
 The IIS output cache supports two cache policies. The regular output cache policy takes advantage of a cache that resides in an IIS worker process. The other cache policy is a kernel mode cache policy, in which case the cache resides in HTTP.SYS, a kernel-mode driver.
 
-Caching your content in kernel-mode allows your web site to go faster. Modify the configuration of the pictures application to use the kernel-mode cache. Here is how the current configuration looks (%systemdrive%\inetpub\wwwroot\pictures\web.config):
+Caching your content in kernel-mode allows your web site to go faster. Modify the configuration of the pictures application to use the kernel-mode cache. Here is how the current configuration looks (`%systemdrive%\inetpub\wwwroot\pictures\web.config`):
 
 
 [!code-xml[Main](walkthrough-iis-output-caching/samples/sample18.xml)]
@@ -226,7 +226,7 @@ Caching your content in kernel-mode allows your web site to go faster. Modify th
 
 Now change it to use kernel-mode caching:
 
-1. Open %systemdrive%\inetpub\wwwroot\pictures\web.config.
+1. Open `%systemdrive%\inetpub\wwwroot\pictures\web.config`.
 2. Change the setting.
 
 
@@ -274,7 +274,7 @@ The default setting for frequentHitThreshold is 2.
 
 In the example above, we put all files with the extension JPG into the output cache. This does not always work because sometimes you want to be more selective and only put a particular document into the output cache. Here is how you do this with your most frequently requested page, your default document:
 
-1. Create a file called default.aspx in the %systemdrive%\inetpub\wwwroot\pictures directory and add the following code:  
+1. Create a file called default.aspx in the `%systemdrive%\inetpub\wwwroot\pictures` directory and add the following code:  
 
     [!code-aspx[Main](walkthrough-iis-output-caching/samples/sample22.aspx)]
 2. Navigate to "Administrative Tools" and select "Internet Information Services (IIS) Manager".

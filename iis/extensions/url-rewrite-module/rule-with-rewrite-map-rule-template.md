@@ -29,7 +29,7 @@ This walkthrough requires the following prerequisites:
 
 We will be using a simple test asp.net page to verify that the rule created by the template works correctly. The test page simply reads the web server variables and outputs their values in browser.
 
-Copy the following ASP.NET code and put it in the %SystemDrive%\inetpub\wwwroot\ folder in a file called article.aspx:
+Copy the following ASP.NET code and put it in the `%SystemDrive%\inetpub\wwwroot\` folder in a file called article.aspx:
 
 [!code-aspx[Main](rule-with-rewrite-map-rule-template/samples/sample1.aspx)]
 

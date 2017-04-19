@@ -221,18 +221,18 @@ The status bar shows where IIS Manager will write configuration:
 
 Configuration: '**&lt;config\_file\_object\_path&gt;**' **&lt;config\_file\_name&gt;**, &lt;location path="**&lt;path&gt;**"&gt;
 
-The **&lt;config\_file\_object\_path&gt;** is the path to the configuration file object, for example:
+The `&lt;config\_file\_object\_path&gt;` is the path to the configuration file object, for example:
 
 - "localhost": server-level configuration; applicationHost.config for IIS features, root web.config for ASP.NET features.
 - "localhost/Default Web Site": the web.config file in the Default Web Site's physical folder
 - "localhost/Default Web Site/careers/technical": the web.config file in the physical folder that maps to the URL "/careers/technical" under the Default Web Site
 
-The **&lt;config\_file\_name&gt;** is the name of the target configuration file, for example:
+The `&lt;config\_file\_name&gt;` is the name of the target configuration file, for example:
 
 - "applicationHost.config or root Web.config": applicationHost.config for IIS features, root web.config for ASP.NET features
 - "web.config": a web.config file in the web namespace
 
-The **&lt;location\_path&gt;** is the location path to the object being configured (for more information on location paths, see [Configuration Overview](../planning-your-iis-architecture/getting-started-with-configuration-in-iis-7-and-above.md)). This portion of the text only appears if the feature's configuration section is locked at a higher level.
+The `&lt;location\_path&gt;` is the location path to the object being configured (for more information on location paths, see [Configuration Overview](../planning-your-iis-architecture/getting-started-with-configuration-in-iis-7-and-above.md)). This portion of the text only appears if the feature's configuration section is locked at a higher level.
 
 [![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image17.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image16.jpg)
 
@@ -240,11 +240,11 @@ The **&lt;location\_path&gt;** is the location path to the object being configur
 
 ## Example: Writing to ApplicationHost.config vs. root Web.config
 
-Compression is an IIS feature, and it appears under IIS if you group/filter the home page feature list by Area. If you've navigated to the server-level Compression page and you disable static compression, IIS Manager will write this configuration into %windir%\Windows\system32\inetsrv\applicationHost.config:
+Compression is an IIS feature, and it appears under IIS if you group/filter the home page feature list by Area. If you've navigated to the server-level Compression page and you disable static compression, IIS Manager will write this configuration into `%windir%\Windows\system32\inetsrv\applicationHost.config`:
 
 [!code-xml[Main](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/samples/sample3.xml)]
 
-.NET Compilation is .NET Framework configuration, and it appears under ASP.NET if you group/filter the home page feature list by Area. If you've navigated to the server-level .NET Compilation page and you set the default language to C#, IIS Manager will add the defaultLanguage attribute to the compilation section in the root web.config file, i.e. %windir%\Windows\\Microsoft.NET\Framework\v2.0.50727\CONFIG\web.config:
+.NET Compilation is .NET Framework configuration, and it appears under ASP.NET if you group/filter the home page feature list by Area. If you've navigated to the server-level .NET Compilation page and you set the default language to C#, IIS Manager will add the defaultLanguage attribute to the compilation section in the root web.config file, i.e. `%windir%\Windows\\Microsoft.NET\Framework\v2.0.50727\CONFIG\web.config`:
 
 [!code-xml[Main](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/samples/sample4.xml)]
 
@@ -254,13 +254,13 @@ The status bar for both these situations will read: Configuration: 'localhost' a
 
 ## Example: Writing to Locked vs. Unlocked Configuration
 
-The IIS "defaultDocument" configuration section is unlocked by default. If you configure the default document for the Default Web Site, IIS Manager will write this configuration to %windir%\inetpub\wwwroot\web.config:
+The IIS "defaultDocument" configuration section is unlocked by default. If you configure the default document for the Default Web Site, IIS Manager will write this configuration to `%windir%\inetpub\wwwroot\web.config`:
 
 [!code-xml[Main](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/samples/sample5.xml)]
 
 The status bar will read: Configuration: 'Default Web Site' web.config
 
-The IIS "httpErrors" configuration section is unlocked by default. If you customize the HTTP 404 response for the Default Web Site, IIS Manager will write this configuration to %windir%\Windows\system32\inetsrv\applicationHost.config:
+The IIS "httpErrors" configuration section is unlocked by default. If you customize the HTTP 404 response for the Default Web Site, IIS Manager will write this configuration to `%windir%\Windows\system32\inetsrv\applicationHost.config`:
 
 [!code-xml[Main](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/samples/sample6.xml)]
 
@@ -300,7 +300,7 @@ After the connection is established, the end user interacts with IIS Manager cau
 Ping requests are made from within the WMSVC service to the web server (HWC) it hosts. Ping requests are a simple mechanism to ensure the hostable web core continues to be responsive.
 
 **Service Configuration**  
-WMSVC has very small set of editable configuration stored in the registry. Each time the service is started, the web configuration files are regenerated in %windir%\ServiceProfiles\LocalService\AppData\Local\Temp\WMSvc&lt;GUID&gt;\. The web configuration files cannot be edited, even by administrators.
+WMSVC has very small set of editable configuration stored in the registry. Each time the service is started, the web configuration files are regenerated in `%windir%\ServiceProfiles\LocalService\AppData\Local\Temp\WMSvc&lt;GUID&gt;\`. The web configuration files cannot be edited, even by administrators.
 
 [![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image21.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image20.jpg)
 

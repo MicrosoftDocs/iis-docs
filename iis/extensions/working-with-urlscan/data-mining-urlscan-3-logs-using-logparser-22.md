@@ -52,7 +52,7 @@ While it's not essential, copying LogParser.exe to a folder in your PATH will al
 
 #### Locating your UrlScan Log Files
 
-By default UrlScan installs to %WinDir%\System32\Inetsrv\UrlScan, and this is where your UrlScan.ini file should be located. (If you installed to a different location, you would need to locate your installation by searching for your UrlScan.ini file.) In the **[Options]** section of the UrlScan.ini file you should see an entry for **LoggingDirectory** that is set "Logs" by default, which means that your default directory for UrlScan log files is %WinDir%\System32\Inetsrv\UrlScan\Logs.
+By default UrlScan installs to `%WinDir%\System32\Inetsrv\UrlScan`, and this is where your UrlScan.ini file should be located. (If you installed to a different location, you would need to locate your installation by searching for your UrlScan.ini file.) In the **[Options]** section of the UrlScan.ini file you should see an entry for **LoggingDirectory** that is set "Logs" by default, which means that your default directory for UrlScan log files is `%WinDir%\System32\Inetsrv\UrlScan\Logs`.
 
 #### Log File Names
 

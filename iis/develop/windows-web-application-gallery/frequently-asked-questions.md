@@ -76,7 +76,7 @@ You can use also the [Web PI command line tool](https://blogs.iis.net/satishl/ar
 
 You can update the custom feed sample for your applications, and make sure that the following changes have been made so that you application is shown in Web PI:
 
-- Update &lt;productId&gt; ( This must be unique)
+- Update &lt;productId&gt; (This must be unique)
 - Update &lt;Title&gt;
 - Update &lt;Version&gt;
 - Update the &lt;installerURL&gt;

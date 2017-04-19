@@ -44,7 +44,7 @@ Backups can either be enabled globally on the server so that all sites can take 
 
 ### Configuring Backup Settings on the Server for Global usage automatically using PowerShell
 
-The PowerShell script to configure the Backup feature at the server level can be found under *"%programfiles%\IIS\Microsoft Web Deploy V3\scripts\BackupScripts.ps1"*. To load it, simply navigate to that directory in PowerShell and run:
+The PowerShell script to configure the Backup feature at the server level can be found under `%programfiles%\IIS\Microsoft Web Deploy V3\scripts\BackupScripts.ps1`. To load it, simply navigate to that directory in PowerShell and run:
 
 [!code-console[Main](web-deploy-automatic-backups/samples/sample2.cmd)]
 
@@ -90,7 +90,7 @@ Resets the server or a sites backup settings. If you reset a sites backup settin
 
 **Global Backup Settings**
 
-The following global backup settings may be configured directly in the IIS Configuration system under %windir%\system32\inetsrv\config\applicationhost.config.
+The following global backup settings may be configured directly in the IIS Configuration system under `%windir%\system32\inetsrv\config\applicationhost.config`.
 
 - **enabled** - (Default = "false") Controls whether backups are turned on or not.
 - **backupPath** - (Default = "{sitePathParent}\{siteName}\_snapshots") Where on the server a backups will be stored. It also upports path replacement variables for "{sitePathParent}" and "{siteName}" which are determined at run-time. 
@@ -121,7 +121,7 @@ The following global backup settings may be configured directly in the IIS Confi
 
 - **backupSettingsProvider** - (Default: All attribute settings are "false") Gives a system administrator control over which backup settings can be set by a web site administrator. You can allow web site administrators to control any of the above settings "enabled", "numberOfBackups", "continueOnBackupFailure", and "excludedProviders" for their site. This can be done by setting properties "canSetEnabled", "canSetNumberOfBackups" etc to true as specified in following example.
 
-Complete details about these settings and there allowed values can be found in BackupManagerSchema (%windir%\system32\inetsrv\config\schema\BackupManagerSchema.xml) in the IIS Configuration system.
+Complete details about these settings and there allowed values can be found in BackupManagerSchema `%windir%\system32\inetsrv\config\schema\BackupManagerSchema.xml` in the IIS Configuration system.
 
 Below is a sample configuration that can be added under &lt;system.webServer&gt; (see the full schema for more details). *You do not have to specify all of the settings below as they all have default settings specified in the schema, but they are specified here to show as an example*.
 
@@ -165,7 +165,7 @@ If you do not want to use the end users identity to create their backups, you ca
 Server administrators can choose to delegate some of the backup administration to site administrators. If allowed, site administrators can configure the backup behavior for their own sites.
 
 > [!NOTE]
-> msdeploy.exe is located under "%programfiles%\IIS\Microsoft Web Deploy V3
+> msdeploy.exe is located under `%programfiles%\IIS\Microsoft Web Deploy V3`
 
 **Listing site backup settings:** Perform a "dump" operation while passing the name of your site into the backupSettings provider. The -xml flag will also list out whether the setting is writeable or not.
 
@@ -255,4 +255,4 @@ There are several scenarios in which Web Deploy will not automatically take a ba
 
 Other known issues:
 
-1. **Installing Web Deploy V2 Breaks BackupSettings Delegation Rule** - If you install V2 after V3, the BackupSettings delegation rule will no longer work if it was configured to run with the default WDeployConfigWriter user. To get around this, simply run the V3 AddDelegationRule.ps1 (located under "%programfiles%\IIS\Microsoft Web Deploy\Scripts") script from PowerShell.
+1. **Installing Web Deploy V2 Breaks BackupSettings Delegation Rule** - If you install V2 after V3, the BackupSettings delegation rule will no longer work if it was configured to run with the default WDeployConfigWriter user. To get around this, simply run the V3 AddDelegationRule.ps1 (located under `%programfiles%\IIS\Microsoft Web Deploy\Scripts`) script from PowerShell.

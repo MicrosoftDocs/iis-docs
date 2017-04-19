@@ -35,7 +35,7 @@ There are several ways to delete the cached contents on ARR.
     - example.jpg.0-1023
     - example.jpg.1024-2047
 
-    ***any***    ***all***
+    ***any*** ***all***
 In the above example, selectingone of the files will removeof the files that are associated with example.jpg.This action deletes the selected content from both the primary cache drive location(s) and the secondary drive, if specified.3. **Delete specific cached object(s)**: ARR allows the user to enter a specific/absolute URL or a partial URL with wildchar (\*) to delete all contents that match the pattern. This action deletes the content(s) from both the primary cache drive location(s) and the secondary drive, if specified.
 
 ## Prerequisites

@@ -44,7 +44,7 @@ The final prerequisite section guides you in setting up four User accounts that 
     - Right-click **Command Prompt.**
     - Select **Run as administrator.**
 3. In the command prompt Window, navigate to the where location you saved the **createProvider.cs** file and run the following command to compile your code:  
-    **%SystemRoot%\Microsoft.NET\Framework\v2.0.50727\csc.exe /reference:%SystemRoot%\System32\inetsrv\Microsoft.Web.Administration.dll createProvider.cs**
+    `%SystemRoot%\Microsoft.NET\Framework\v2.0.50727\csc.exe /reference:%SystemRoot%\System32\inetsrv\Microsoft.Web.Administration.dll createProvider.cs`
 
 This step is now complete.
 
@@ -59,7 +59,7 @@ This step is now complete.
     - Right-click **Command Prompt.**
     - Select **Run as administrator.**
 3. In the command prompt Window navigate to the location you saved the **setProvider.cs** file and run the following command to compile your code:  
-    **%SystemRoot%\Microsoft.NET\Framework\v2.0.50727\csc.exe /reference:%SystemRoot%\System32\inetsrv\Microsoft.Web.Administration.dll setProvider.cs**
+    `%SystemRoot%\Microsoft.NET\Framework\v2.0.50727\csc.exe /reference:%SystemRoot%\System32\inetsrv\Microsoft.Web.Administration.dll setProvider.cs`
 
 This step is now complete.
 
@@ -102,7 +102,7 @@ IIS has a process called WAS that runs under the context of LOCALSYSTEM and is t
 
 [!code-console[Main](using-encryption-to-protect-passwords/samples/sample4.cmd)]
 
-Verify that these changes occurred correctly. Open your **%SystemRoot%\Microsoft.NET\Framework\v2.0.50727\config\machine.config** using Windows Notepad and verify the lines to the section are present for the new provider:
+Verify that these changes occurred correctly. Open your `%SystemRoot%\Microsoft.NET\Framework\v2.0.50727\config\machine.config` using Windows Notepad and verify the lines to the section are present for the new provider:
 
 [!code-console[Main](using-encryption-to-protect-passwords/samples/sample5.cmd)]
 
@@ -155,7 +155,7 @@ In this step, we create two new application pools that we isolate from one anoth
 13. You see the following displayed in the IIS Manager (mainly the Identities for the application pools have changed):  
   
     [![](using-encryption-to-protect-passwords/_static/image10.jpg)](using-encryption-to-protect-passwords/_static/image9.jpg)
-14. Verify the changes by using Windows Notepad and opening the **%SystemRoot%\System32\Inetsrv\applicationHost.config file**. Navigate to the **applicationPools** section and you see that we encrypted the application pool passwords using the Rsa\_WAS key as intended: 
+14. Verify the changes by using Windows Notepad and opening the `%SystemRoot%\System32\Inetsrv\applicationHost.config` file. Navigate to the **applicationPools** section and you see that we encrypted the application pool passwords using the Rsa\_WAS key as intended: 
 
     [!code-console[Main](using-encryption-to-protect-passwords/samples/sample7.cmd)]
 
@@ -275,7 +275,7 @@ In your elevated command prompt Window, run the following command:
 
 ### Verify the Changes
 
-Verify that what we wanted did happen. Using Windows Notepad, open the **%SystemRoot%\System32\Inetsrv\applicationHost.config** file:
+Verify that what we wanted did happen. Using Windows Notepad, open the `%SystemRoot%\System32\Inetsrv\applicationHost.config` file:
 
 - Notice that the password for **AppPool1** and **AppPool2** are both still protected with the **Rsa\_Was** key
 - Notice that the password for **AnonymousAccount1** is also protected with the **Rsa\_app1** key:  

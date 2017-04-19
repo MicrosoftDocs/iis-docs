@@ -31,7 +31,7 @@ The location of the file is currently in the system32\inetsrv directory, but thi
 
 ## How to Read Configuration Schema
 
-As noted earlier, this document contains snippets of schema information for each section, so the reader can discover what properties are available and what their default values and valid ranges are. The snippets are taken directly from the configuration schema file for IIS settings: %windir%\system32\inetsrv\config\schema\IIS\_Schema.xml. This section explains how to read schema information.
+As noted earlier, this document contains snippets of schema information for each section, so the reader can discover what properties are available and what their default values and valid ranges are. The snippets are taken directly from the configuration schema file for IIS settings: `%windir%\system32\inetsrv\config\schema\IIS\_Schema.xml`. This section explains how to read schema information.
 
 The schema for each configuration section is defined in an XML element. There is no schema definition for section groups. The following format is used here to explain how to read the schema:
 
@@ -39,11 +39,11 @@ The schema for each configuration section is defined in an XML element. There is
 [!code-xml[Main](iis-7-and-iis-8-configuration-reference/samples/sample1.xml)]
 
 
-&lt;**attribute-name**&gt; is the name of the configuration attribute, as it appears in XML. Every attribute must have a name.
+`&lt;attribute-name&gt;` is the name of the configuration attribute, as it appears in XML. Every attribute must have a name.
 
-**&lt;default-value&gt;** is the value used by default, if no other value is specified in the XML for the attribute. Not all attributes have default values (for example, site name). In this case, the syntax will be "".
+`&lt;default-value&gt;` is the value used by default, if no other value is specified in the XML for the attribute. Not all attributes have default values (for example, site name). In this case, the syntax will be "".
 
-**&lt;metadata&gt;** contains several items:
+`&lt;metadata&gt;` contains several items:
 
 - The runtime type of the attribute. This is one of "bool", "enum", "flags", "int", "int64", "String", "timeSpan". Every attribute must have a type.
 - "bool" is "true" or "false".
@@ -55,7 +55,7 @@ The schema for each configuration section is defined in an XML element. There is
 - "timeSpan" is a representation of a time unit, similar to the managed-code type TimeSpan. It can be persisted as a number (representing seconds, or minutes); or as a formatted string in the form of "[dd:]hh:mm:ss". The "[dd:]" element represents an optional number of days. The other elements represent numbers of hours, minutes and seconds, respectively. The "timeSpanFormat" attribute specifies which format should be used: number of seconds, number of minutes, or a formatted string.
 - Required attributes are marked "Required". It means that a value for them must be set in the XML. For example, site name is a required attribute (every site must have a name in IIS).
 
-**&lt;description&gt;** is a short description of the attribute.
+`&lt;description&gt;` is a short description of the attribute.
 
 <a id="Selection"></a>
 
@@ -209,4 +209,4 @@ The above location tag unlocks the section for the default web site only. To unl
 
 ## Summary
 
-This hopefully familiarizes you with the new, powerful structure of the new applicationhost.config. To drill-down into the different pieces, you should review the IIS Schema located in %windir%\system32\inetsrv\config\schema\iis\_schema.xml.
+This hopefully familiarizes you with the new, powerful structure of the new applicationhost.config. To drill-down into the different pieces, you should review the IIS Schema located in `%windir%\system32\inetsrv\config\schema\iis\_schema.xml`.

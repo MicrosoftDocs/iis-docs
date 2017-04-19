@@ -20,7 +20,7 @@ by [Saad Ladki](https://twitter.com/saadladki)
 
 This article explains how to enable delegated configuration on the server. It discusses how to deploy configuration settings for the server and for your applications, together with the content pages and application code.
 
-Once the machine administrator has defined the application or virtual directory for your use in the master configuration file (%windir%\system32\inetsrv\config\applicationHost.config), and allowed specific sections to be delegated, you can control the settings at the application level: by making settings in the application's web.config file, you override global defaults. This is possible if you have access to the application's directory, even if you are not a local administrator on the machine.
+Once the machine administrator has defined the application or virtual directory for your use in the master configuration file `%windir%\system32\inetsrv\config\applicationHost.config`, and allowed specific sections to be delegated, you can control the settings at the application level: by making settings in the application's web.config file, you override global defaults. This is possible if you have access to the application's directory, even if you are not a local administrator on the machine.
 
 After reading this document, you will know how to define applications and virtual directories at the global level, unlock configuration sections for delegation, and override configuration settings for individual applications at a lower level of the configuration hierarchy.
 
@@ -59,7 +59,7 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 1. Using a text editor such as Notepad, open the ApplicationHost.config file in the following location:
 
     [!code-console[Main](how-to-use-configuration-delegation-in-iis/samples/sample1.cmd)]
-2. Navigate to the **&lt;sites&gt;** section, which looks similar to the following:
+2. Navigate to the `&lt;sites&gt;` section, which looks similar to the following:
 
     [!code-xml[Main](how-to-use-configuration-delegation-in-iis/samples/sample2.xml)]
 3. Verify that the Web server is running and that you can access the default Web site. To do so, launch the browser and request [http://localhost/](http://localhost/)
@@ -67,9 +67,9 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 5. In the browser, request [http://localhost/app](http://localhost/app)
 
     This request does not return a page (you see an error page), because the virtual path is not yet defined in the configuration—this is the next procedure.
-6. In the ApplicationHost.config file, add an **&lt;application&gt;** element with path "**/app**" that includes a top-level **&lt;virtualDirectory&gt;** element. Top-level virtual directory is one with path "**/**". For the physical path of the virtual directory, specify **C:\tmp**(or something similar that you will later work with).
+6. In the ApplicationHost.config file, add an `&lt;application&gt;` element with path "**/app**" that includes a top-level `&lt;virtualDirectory&gt;` element. Top-level virtual directory is one with path "**/**". For the physical path of the virtual directory, specify **C:\tmp**(or something similar that you will later work with).
 
-    When you are finished, the **&lt;sites&gt;** sections looks similar to the following:
+    When you are finished, the `&lt;sites&gt;` sections looks similar to the following:
 
     [!code-xml[Main](how-to-use-configuration-delegation-in-iis/samples/sample3.xml)]
 
@@ -94,7 +94,7 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 ## Step 3: Override Settings at the Application Level
 
 1. Using a text editor such as Notepad, create a new text file in the application folder (e.g. c:\tmp) named **web.config**.
-2. In the web.config file, create a **&lt;configuration&gt;** element and a **&lt;system.webServer&gt;** element as its child. Within the **&lt;system.webServer&gt;** element, create a **&lt;security&gt;** element that contains an **&lt;authentication&gt;** element.
+2. In the web.config file, create a `&lt;configuration&gt;` element and a `&lt;system.webServer&gt;` element as its child. Within the `&lt;system.webServer&gt;` element, create a `&lt;security&gt;` element that contains an `&lt;authentication&gt;` element.
 3. Enter the settings to disable the Windows authentication and anonymous authentication schemes, which are turned on by default at the global level. 
 
     When you are finished, the web.config file looks like the following:
@@ -105,7 +105,7 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
     > [!NOTE]
     > You are not authorized to see the page, because you disabled all authentication methods to this page in your web.config file.
 5. In the browser, request [http://localhost/](http://localhost/) and confirm that you can access the page. The configuration in the web.config file applies only at the application level.
-6. In the web.config file, enable basic authentication by adding a **&lt;basicAuthentication&gt;** element with its **enabled** attribute set to true.
+6. In the web.config file, enable basic authentication by adding a `&lt;basicAuthentication&gt;` element with its **enabled** attribute set to true.
 
     When you are finished, the web.config file looks like the following:
 
@@ -124,6 +124,6 @@ For example, to launch notepad.exe, run this command: "runas /user:administrator
 
 ## Summary
 
-This document explains how to define applications and virtual directories in the master configuration file, applicationHost.config. It also covers how to deploy application-specific configuration files that contain server settings in the **&lt;system.webServer&gt;** section. You can add settings to the web.config file in the **&lt;system.web&gt;** section group, such as ASP.NET settings.
+This document explains how to define applications and virtual directories in the master configuration file, applicationHost.config. It also covers how to deploy application-specific configuration files that contain server settings in the `&lt;system.webServer&gt;` section. You can add settings to the web.config file in the `&lt;system.web&gt;` section group, such as ASP.NET settings.
 
 A good practice is to set access control lists (ACLs) on the web.config file or on the entire directory of your application so that non-administrative users cannot access the file.

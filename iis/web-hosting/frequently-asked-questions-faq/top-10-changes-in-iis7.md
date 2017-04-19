@@ -48,7 +48,7 @@ Example:
     - For more information, see the article [ASP.Net Integration With IIS 7.0](../../application-frameworks/building-and-running-aspnet-applications/aspnet-integration-with-iis.md)
 - Use [AppCmd](../../get-started/getting-started-with-iis/getting-started-with-appcmdexe.md) to migrate apps to Integrated mode 
 
-    - %windir%\system32\inetsrv\APPCMD.EXE migrate config &lt;Application Path&gt;
+    - %windir%\system32\inetsrv\APPCMD.EXE migrate config &lt;Application Path&gt;`
     - For more information about AppCmd.exe, see [Getting Started With AppCmd.exe](../../get-started/getting-started-with-iis/getting-started-with-appcmdexe.md)
 - [IIS 6.0 Metabase compatibility](../../manage/managing-your-configuration-settings/metabase-compatibility-with-iis-7-and-above.md) layer 
 

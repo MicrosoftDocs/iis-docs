@@ -178,7 +178,7 @@ The installation package for Windows Cache Extension 1.0 for PHP includes a PHP 
 
 ###### 
 
-If the Windows Cache Extension for PHP was installed via Web Platform Installer, then this script is located in %SystemDrive%\Program Files\IIS\Windows Cache for PHP\. On a 64-bit version of the Windows Server operating system, the script is located in %SystemDrive%\Program Files (x86)\IIS\Windows Cache for PHP. If the extension was installed manually, then the **Wincache.php** will be located in the same folder from which the content of the installation package was extracted.
+If the Windows Cache Extension for PHP was installed via Web Platform Installer, then this script is located in `%SystemDrive%\Program Files\IIS\Windows Cache for PHP\`. On a 64-bit version of the Windows Server operating system, the script is located in `%SystemDrive%\Program Files (x86)\IIS\Windows Cache` for PHP. If the extension was installed manually, then the **Wincache.php** will be located in the same folder from which the content of the installation package was extracted.
 
 To use W **incache.php**, copy it into a root folder of your Web site or into any subfolder. To protect the script, open it in any text editor and change the values for the USERNAME and PASSWORD constants. If any other IIS authentication is enabled on the server then follow the instructions in the comments:
 

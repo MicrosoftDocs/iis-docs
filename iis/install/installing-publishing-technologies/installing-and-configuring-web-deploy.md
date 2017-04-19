@@ -47,7 +47,7 @@ The server must have an operating system that comes with IIS7— this means eith
             [![](installing-and-configuring-web-deploy/_static/image4.png)](installing-and-configuring-web-deploy/_static/image3.png)
         3. Add the "Web Deployment Tool 2.1 for Hosting Servers" product and click **Install**.  
             ![](installing-and-configuring-web-deploy/_static/image5.png)
-    2. Download the Web Deploy installer directly from the [IIS.net Web Deploy page](https://www.iis.net/downloads/microsoft/web-deploy)[https://www.iis.net/download/webdeploy](https://www.iis.net/downloads/microsoft/web-deploy) ( [x86](https://go.microsoft.com/fwlink/?LinkId=209115) | [x64](https://go.microsoft.com/fwlink/?LinkId=209116) )
+    2. Download the Web Deploy installer directly from the [IIS.net Web Deploy page](https://www.iis.net/downloads/microsoft/web-deploy)[https://www.iis.net/download/webdeploy](https://www.iis.net/downloads/microsoft/web-deploy) ([x86](https://go.microsoft.com/fwlink/?LinkId=209115) | [x64](https://go.microsoft.com/fwlink/?LinkId=209116))
 
     1. 1. In the Setup wizard choose the "Complete" setup option.  
              [![](installing-and-configuring-web-deploy/_static/image7.png)](installing-and-configuring-web-deploy/_static/image6.png)
@@ -102,4 +102,4 @@ Install Web Deploy using method (1) or (2a) described above. If you are using a 
 
     **Cause:** Your machine had .NET 4.0 installed on it before IIS was installed.
 
-    **Solution:** Run the following command to register .NET 4.0 with IIS: %systemdrive%\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet\_regiis.exe -iru
+    **Solution:** Run the following command to register .NET 4.0 with IIS: `%systemdrive%\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet\_regiis.exe -iru`

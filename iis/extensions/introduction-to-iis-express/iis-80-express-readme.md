@@ -38,7 +38,7 @@ You can install IIS 8.0 Express through the [Microsoft Download Center](https://
 
 If you already have IIS 7.5 Express installed when you install IIS 8.0 Express, the setup program will replace your IIS 7.5 Express installation with IIS 8.0 Express. Having IIS 7.5 Express and IIS 8.0 Express installed at the same time is not supported.
 
-When you install IIS 8.0 Express on a 64-bit system, both the 32-bit and 64-bit versions of IIS 8.0 Express will be installed respectively in the "%ProgramFiles(x86)%\IIS Express" and "%ProgramFiles%\IIS Express" folders.
+When you install IIS 8.0 Express on a 64-bit system, both the 32-bit and 64-bit versions of IIS 8.0 Express will be installed respectively in the `%ProgramFiles(x86)%\IIS Express` and `%ProgramFiles%\IIS Express` folders.
 
 <a id="SupportedPlatforms"></a>
 

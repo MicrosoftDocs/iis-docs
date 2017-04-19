@@ -196,7 +196,7 @@ If you are running on Windows Vista®, Windows® 7, Windows Server® 2008, or Wi
 
     [!code-console[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample14.cmd)]
 
- This creates a backup of the %windir%\system32\inetsrv\config directory, which contains the main IIS configuration files. If you are testing your package on a server that also has other applications or Web sites running, back up those applications and Web sites prior to starting your testing.
+ This creates a backup of the `%windir%\system32\inetsrv\config` directory, which contains the main IIS configuration files. If you are testing your package on a server that also has other applications or Web sites running, back up those applications and Web sites prior to starting your testing.
 2. Open the IIS Manager by clicking **Start** &gt; **Run**, and then typing: **inetmgr**
 3. In **IIS Manager**, expand the **Server** node, expand the **Sites** node, and then select the **Default Web Site**.
 4. In the **Actions** pane on the right, click the **Import Application** link to launch the packaging wizard.

@@ -78,7 +78,7 @@ Create an FTP site where users will be able to access content anonymously. Use t
 
     - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the "C:\inetpub\ftproot" folder that you created in the Prerequisites section.   
         > [!NOTE]
-        > If you choose to type in the path to your content folder, you can use environment variables in your paths; for example: "%SystemDrive%\inetpub\ftproot"
+        > If you choose to type in the path to your content folder, you can use environment variables in your paths; for example: `%SystemDrive%\inetpub\ftproot`
     - Click **Next**.  
         [![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image2.jpg)](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image1.jpg)
 4. On the next page of the wizard: 

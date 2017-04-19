@@ -98,7 +98,7 @@ The complete usage options of Appcmd.exe can be found [here](../../get-started/g
 
 ## Using Modules to Control and Customize IIS
 
-Modules in IIS control and customize its functionality, resulting in greater flexibility and efficiency of the server platform. By default, these modules are dynamic link library (DLL) files stored in the %WINDIR%\System32\inetsrv\ folder. They can be classified into two types, as follows.
+Modules in IIS control and customize its functionality, resulting in greater flexibility and efficiency of the server platform. By default, these modules are dynamic link library (DLL) files stored in the `%WINDIR%\System32\inetsrv\` folder. They can be classified into two types, as follows.
 
 - **Native.** A native module has unrestricted access to any resource available to the server worker process, just like an ISAPI filter or extension in previous versions.
 - **Managed.** Managed modules can be configured separately for each site or application. They are loaded for processing only when required by the particular site or application.
@@ -211,9 +211,9 @@ IIS uses a configuration scheme that provides ASP.NET integration, including sha
 
 IIS uses three main XML files that maintain server deployments:
 
-- Machine.config holds .NET Framework settings for the server. These settings are inherited by all other .NET Framework configuration files and can be located by default at %windir%\Microsoft.net\Framework\ &lt;*framework\_version*&gt;\Config\Machine.config.
-- The ApplicationHost.config file contains settings for IIS and its services. By default, it is located at %windir%\System32\inetsrv\config\applicationHost.config.
-- The Root Web.config file holds the global settings for ASP.NET Web applications, and it is located at %windir%\Microsoft.NET\Framework\&lt;*framework\_version*&gt;\Config\Root Web.config. This file gives each application a Web.config file that overrides global settings and also allows the IIS configuration settings to be stored in these Web.config files, making copying applications across multiple Web servers much easier, and avoids costly and error-prone replication, manual synchronization, and additional configuration tasks.
+- Machine.config holds .NET Framework settings for the server. These settings are inherited by all other .NET Framework configuration files and can be located by default at `%windir%\Microsoft.net\Framework\ &lt;*framework\_version*&gt;\Config\Machine.config`.
+- The ApplicationHost.config file contains settings for IIS and its services. By default, it is located at `%windir%\System32\inetsrv\config\applicationHost.config`.
+- The Root Web.config file holds the global settings for ASP.NET Web applications, and it is located at `%windir%\Microsoft.NET\Framework\&lt;*framework\_version*&gt;\Config\Root Web.config`. This file gives each application a Web.config file that overrides global settings and also allows the IIS configuration settings to be stored in these Web.config files, making copying applications across multiple Web servers much easier, and avoids costly and error-prone replication, manual synchronization, and additional configuration tasks.
 
 ## Administration Using IIS 7 and Above
 

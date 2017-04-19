@@ -73,7 +73,7 @@ In this step, the Failed Request Tracing Rules are defined for Application Reque
 **To configure Failed Request Tracing Rules using the command-line:** 
 
 1. Open a command prompt with **administrator** privileges.
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 3. To enable Failed Request Tracing on the Default Web Site, enter: 
 
     [!code-console[Main](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/samples/sample1.cmd)]
@@ -93,7 +93,7 @@ In this step, you will send requests to Application Request Routing and analyze 
 
 **To view Failed Request Tracing logs:** 
 
-1. Navigate to the directory where the Failed Request Tracing logs are written. By default, the location is %SystemDrive%\inetpub\Logs\FailedReqLogFiles\.
+1. Navigate to the directory where the Failed Request Tracing logs are written. By default, the location is `%SystemDrive%\inetpub\Logs\FailedReqLogFiles\`.
 2. Change directory to the folder that matches the **Default Web Site**. By default, this is **W3SVC1**. If you are unsure, select the **Default Web Site** in IIS Manager, and then select **Advanced Settings…** in the **Actions** pane. The value of the **ID** indicates the corresponding folder. (ie. ID 1 corresponds to W3SVC1).
 3. If there are any xml files, remove them by typing:  
 

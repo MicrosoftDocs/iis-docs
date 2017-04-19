@@ -147,4 +147,4 @@ Install Web Deploy using one of the procedures described above.
 
     **Cause**: Your machine had .NET 4.0 installed on it before IIS was installed.
 
-    **Solution**: Run the following command to register .NET 4.0 with IIS: %systemdrive%\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet\_regiis.exe -iru
+    **Solution**: Run the following command to register .NET 4.0 with IIS: `%systemdrive%\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet\_regiis.exe -iru`

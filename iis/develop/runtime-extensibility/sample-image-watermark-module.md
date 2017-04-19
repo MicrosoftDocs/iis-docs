@@ -58,7 +58,7 @@ The configuration of the watermark module is done via a new section in the "syst
 [!code-xml[Main](sample-image-watermark-module/samples/sample1.xml)]
 
 
-The file "watermark.xml" should be dropped in the "%windir%\system32\inetsrv\config\schema" directory for it to take effect, as well as adding the section definition in the "applicationhost.config" file, under the "system.webServer" namespace:
+The file "watermark.xml" should be dropped in the `%windir%\system32\inetsrv\config\schema` directory for it to take effect, as well as adding the section definition in the "applicationhost.config" file, under the "system.webServer" namespace:
 
 
 [!code-xml[Main](sample-image-watermark-module/samples/sample2.xml)]
@@ -78,7 +78,7 @@ And to the module list for the application, "system.webServer\modules":
 
 ## Inetmgr
 
-Along with the module sample, is a set of managed classes that are management plug ins to the new "Inetmgr" UI administration tool. There are various other documentations on how to write and extend the new "Inetmgr", which are available here. In short, to use them, one needs to build, add the dlls to the GAC (Global Assembly Cache), and add the following configuration to the "%windir%\system32\inetsrv\config\administration.config" file:
+Along with the module sample, is a set of managed classes that are management plug ins to the new "Inetmgr" UI administration tool. There are various other documentations on how to write and extend the new "Inetmgr", which are available here. In short, to use them, one needs to build, add the dlls to the GAC (Global Assembly Cache), and add the following configuration to the `%windir%\system32\inetsrv\config\administration.config` file:
 
 In the &lt;moduleProviders&gt; collection, add the following entry:
 

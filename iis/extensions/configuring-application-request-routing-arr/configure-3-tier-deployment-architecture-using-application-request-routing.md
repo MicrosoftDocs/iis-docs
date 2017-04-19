@@ -67,7 +67,7 @@ Before proceeding, make sure that the static content is available on the ARR ser
 **To change URL rewrite rules using the command-line:** 
 
 1. Open a command prompt with administrator privileges.
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 3. Clear all URL rewrite rules by entering: 
 
     [!code-console[Main](configure-3-tier-deployment-architecture-using-application-request-routing/samples/sample1.cmd)]

@@ -77,7 +77,7 @@ The FTP for IIS server has several features that make it ideal for shared hostin
 #### Steps:
 
 1. Select the FTP computer and install the new FTP for IIS service. Follow the instructions found in [Installing and Troubleshooting FTP](../../install/installing-publishing-technologies/installing-and-configuring-ftp-7-on-iis-7.md "Installing and Troubleshooting FTP 7.0").
-2. Create a root folder to be used for your FTP site, for example: "%*SystemDrive*%\inetpub\ftproot".
+2. Create a root folder to be used for your FTP site, for example: `%*SystemDrive*%\inetpub\ftproot`.
 3. Optionally, if there are FTP high availability and/or load balancing requirements, Microsoft provides solutions such as [Network Load Balance](https://technet.microsoft.com/en-us/library/cc732855.aspx "Network Load Balance") or [Failover Clusters](https://technet.microsoft.com/en-us/library/cc732488.aspx "Failover Clusters"), DNS round-robin might be sufficient.
 4. Create a site that allows SSL connections and Basic authentication. Follow the steps in the Create SSL Enabled Site section &lt;link to section below&gt;.
 5. Enable the User Isolation feature. Follow the steps in the Configure User Isolation for All Directories section &lt;link to section below&gt;.
@@ -99,7 +99,7 @@ In this section, you will create a new FTP site that can be opened by using any 
     [![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image8.jpg)](guide-to-deploy-ftp-and-publish-with-vwd/_static/image7.jpg)
 3. When the Add FTP Site Wizard appears:
 
-    - Enter "My New FTP Site" in the **FTP site name** text box, and then navigate to the root folder that you created for your FTP site (example: "%*SystemDrive*%\inetpub\ftproot"). > [!NOTE]
+    - Enter "My New FTP Site" in the **FTP site name** text box, and then navigate to the root folder that you created for your FTP site (example: `%*SystemDrive*%\inetpub\ftproot`). > [!NOTE]
  > If you choose to type in the path to your content folder, you can use environment variables in your paths.
     - Click **Next**.  
         [![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image10.jpg)](guide-to-deploy-ftp-and-publish-with-vwd/_static/image9.jpg)
@@ -126,7 +126,7 @@ In this section, you will create a new FTP site that can be opened by using any 
 
 You have now created a new SSL-based FTP site using the new FTP service. Review the items that you completed in this procedure:
 
-- You created a new FTP site named "My New FTP Site" that puts the site's content root at "%*SystemDrive*%\inetpub\ftproot".
+- You created a new FTP site named "My New FTP Site" that puts the site's content root at `%*SystemDrive*%\inetpub\ftproot`.
 - You bound the FTP site to the IP address for your computer on port 21.
 - You chose to allow Secure Sockets Layer (SSL) for the FTP site, and selected your certificate.
 - You enabled Basic authentication and created an authorization rule for all user accounts for Read and Write access.
@@ -137,7 +137,7 @@ For direct editing of the XML configuration files, see [Adding SSL-based FTP Pub
 
 When isolating users for all directories, all FTP user sessions are restricted to the physical or virtual directory that has the same name of the FTP user account. In addition, all global virtual directories that are created will be ignored. In this step you will configure user isolation for all directories.
 
-1. Create a folder at "%*SystemDrive*%\inetpub\ftproot\LocalUser\". This folder will contain all local user account directories. You may create this folder on your File Share server (NAS). When you provision user accounts, you must also assign read and write access to the users' content folders.
+1. Create a folder at `%*SystemDrive*%\inetpub\ftproot\LocalUser\`. This folder will contain all local user account directories. You may create this folder on your File Share server (NAS). When you provision user accounts, you must also assign read and write access to the users' content folders.
 2. In IIS Manager, click the node for the FTP site that you have just created. This will display the icons for all of the FTP features.
 3. Double-click the FTP User Isolation icon to open the FTP user isolation feature.  
     [![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image16.jpg)](guide-to-deploy-ftp-and-publish-with-vwd/_static/image15.jpg)

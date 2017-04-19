@@ -53,7 +53,7 @@ As mentioned earlier, the new distributed configuration hierarchy is made up of 
 
 ### ApplicationHost.config
 
-This is the main configuration file for IIS 7.0 and later. The ApplicationHost.config file stores global or computer-wide configuration settings and is located at the root level of the Web server in the *%windir%*\system32\inetsrv\config directory. There are two major configuration sections in this file:
+This is the main configuration file for IIS 7.0 and later. The ApplicationHost.config file stores global or computer-wide configuration settings and is located at the root level of the Web server in the `%windir%\system32\inetsrv\config` directory. There are two major configuration sections in this file:
 
 - **system.applicationHost** - Contains configuration settings for sites, applications, virtual directories, and application pools. These are centralized settings that cannot be distributed.
 - **system.webServer** - Contains configuration for all other settings, including global defaults. These settings can be delegated and distributed.
@@ -63,7 +63,7 @@ This is the main configuration file for IIS 7.0 and later. The ApplicationHost.c
 URL-specific configuration settings can either be stored directly within the code or in the content directories of a Web site using Web.config files. These are the same Web.config files that are used by the ASP.NET application framework to store application settings.
 
 > [!NOTE]
-> You can also store URL-specific configuration settings in the ApplicationHost.config file using **&lt;location&gt;** tags.
+> You can also store URL-specific configuration settings in the ApplicationHost.config file using `&lt;location&gt;` tags.
 
 ### Redirection.config
 

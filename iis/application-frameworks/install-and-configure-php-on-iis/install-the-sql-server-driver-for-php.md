@@ -59,7 +59,7 @@ Perform the following steps to download and install the SQL Server Driver for PH
 
 1. Retrieve the driver's current configuration settings using the sqlsrv\_get\_config function.
 2. Change the configuration settings using the sqlsrv\_configure function, or set values for the configuration settings in the php.ini file.
-3. Ensure that the driver is loaded and verify the configuration settings by running a script that calls the phpinfo( ) function:  
+3. Ensure that the driver is loaded and verify the configuration settings by running a script that calls the phpinfo() function:  
 
     1. Open a text file, and copy the following code into it:  
 

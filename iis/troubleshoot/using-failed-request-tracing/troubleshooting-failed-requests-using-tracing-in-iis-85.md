@@ -61,11 +61,11 @@ You must make a backup of the configuration before doing the following tasks.
 
 [!code-console[Main](troubleshooting-failed-requests-using-tracing-in-iis-85/samples/sample1.cmd)]
 
-The above command creates a cleanInstall folder containing backup configuration files in %windir%\system32\inetsrv\backup.
+The above command creates a cleanInstall folder containing backup configuration files in `%windir%\system32\inetsrv\backup`.
 
 ### Create Sample Content
 
-1. Navigate to %systemdrive%\inetpub\wwwroot.
+1. Navigate to `%systemdrive%\inetpub\wwwroot`.
 2. Move the content to a secure location (in case you want to restore the existing content) or delete it.
 3. Create a blank file and name it test.asp.
 4. In the command prompt, navigate to the test.asp file in \inetpub\wwwroot.
@@ -95,7 +95,7 @@ After you enable failed-request tracing, you need to configure where the log fil
 
 ### Step 1: Enable Failed-Request Tracing for the Site and Configure the Log File Directory
 
-1. Open a command prompt with administrator user rights, and navigate to %systemdrive%\windows\system32\inetsrv.
+1. Open a command prompt with administrator user rights, and navigate to `%systemdrive%\windows\system32\inetsrv`.
 2. Launch **inetmgr**.
 3. In the **Connections** pane, expand the machine name, expand **Sites**, and then click **Default Web Site**.
 4. In the **Actions** pane, under **Configure**, click **Failed Request Tracing…**.
@@ -149,7 +149,7 @@ You should see the following definition for the **Default Web Site**:
 
 [![](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image21.jpg)](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image20.jpg)
 
-IIS Manager writes the configuration to the %systemdrive%\config inetpub\wwwroot\web.config file by using a &lt;location&gt; tag. The configuration should look as follows:
+IIS Manager writes the configuration to the `%systemdrive%\config inetpub\wwwroot\web.config` file by using a &lt;location&gt; tag. The configuration should look as follows:
 
 
 [!code-xml[Main](troubleshooting-failed-requests-using-tracing-in-iis-85/samples/sample4.xml)]
@@ -170,7 +170,7 @@ In this task, you will generate a failed request and view the resulting trace lo
 
 ### Step 2: View the Failure Request Log File
 
-1. Now that you have generated a failed request, open Windows Explorer and navigate to %systemdrive%\inetpub\logs\FailedReqLogFiles\W3SVC1.  
+1. Now that you have generated a failed request, open Windows Explorer and navigate to `%systemdrive%\inetpub\logs\FailedReqLogFiles\W3SVC1`.  
 
     [![](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image25.jpg)](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image24.jpg)
 
@@ -182,7 +182,7 @@ In this task, you will generate a failed request and view the resulting trace lo
 
     [![](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image29.jpg)](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image28.jpg)
 
-    A summary of the failed request is logged at the top, with the **Errors &amp; Warnings** table identifying any events that are WARNING, ERROR, or CRITICAL ERROR in severity. In this example, the WARNING severity level is due to ISAPI RESTRICTION. The image that you tried to load was %windir%\system32\inetsrv\asp.dll.
+    A summary of the failed request is logged at the top, with the **Errors &amp; Warnings** table identifying any events that are WARNING, ERROR, or CRITICAL ERROR in severity. In this example, the WARNING severity level is due to ISAPI RESTRICTION. The image that you tried to load was `%windir%\system32\inetsrv\asp.dll`.
 4. Open the raw XML file directly by using a text editor, and look at the contents of the event.
 
 ## Summary

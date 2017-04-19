@@ -28,7 +28,7 @@ Note the following:
 
 1. This document specifies the content of each configuration section, as appears in applicationHost.config. By design, many of the sections are empty or not complete (only some of their content appears in the XML). The rest of the values are taken from the schema defaults. This is done to avoid too much information and cluttering of the file, and in order to keep it reasonably readable.
 
-    - For full schema reference, including default values for all properties in every section, their valid ranges, etc., refer to %windir%\system32\inetsrv\config\schema\IIS\_Schema.xml (for IIS settings), or ASPNET\_Schema.xml (for ASP.NET settings), or FX\_Schema.xml (for other .NET Framework settings).
+    - For full schema reference, including default values for all properties in every section, their valid ranges, etc., refer to `%windir%\system32\inetsrv\config\schema\IIS\_Schema.xml` (for IIS settings), or `ASPNET\_Schema.xml` (for ASP.NET settings), or FX\_Schema.xml (for other .NET Framework settings).
     - For convenience, chunks of these files are included in this document in the appropriate sections so the reader can understand which properties are available, what the default values are, etc., for each section. See the additional note below about how to read schema information.
 2. Make a backup of the file before making any changes to it.
 
@@ -36,17 +36,17 @@ Note the following:
 
 ## How to Read Config Schema
 
-As noted above, this document contains snippets of schema information for each section, so the reader can discover what properties are available and what their default values and valid ranges are. The snippets are taken directly from the configuration schema file for IIS settings: %windir%\system32\inetsrv\config\schema\IIS\_Schema.xml. This section explains how to read schema information.
+As noted above, this document contains snippets of schema information for each section, so the reader can discover what properties are available and what their default values and valid ranges are. The snippets are taken directly from the configuration schema file for IIS settings: `%windir%\system32\inetsrv\config\schema\IIS\_Schema.xml`. This section explains how to read schema information.
 
 The schema for each configuration section is defined in a XML element. There is no schema definition for section groups. The following format is used here to explain how to read the schema:
 
 [!code-xml[Main](introduction-to-applicationhostconfig/samples/sample1.xml)]
 
-**&lt;attribute-name&gt;** is the name of the configuration attribute, as appears in XML. Every attribute must have a name.
+`&lt;attribute-name&gt;` is the name of the configuration attribute, as appears in XML. Every attribute must have a name.
 
-**&lt;default-value&gt;** is the value used by default, if no other value is specified in the XML for the attribute. Not all attributes have default values (for example, site name). In this case, the syntax will be "".
+`&lt;default-value&gt;` is the value used by default, if no other value is specified in the XML for the attribute. Not all attributes have default values (for example, site name). In this case, the syntax will be "".
 
-**&lt;metadata&gt;** contains several items:
+`&lt;metadata&gt;` contains several items:
 
 - The runtime type of the attribute. This is one of "bool", "enum", "flags", "int", "int64", "String", "timeSpan". Every attribute must have a type.
 - "bool" is "true" or "false".
@@ -58,7 +58,7 @@ The schema for each configuration section is defined in a XML element. There is 
 - "timeSpan" is a representation of a time unit, similar to the managed-code type TimeSpan. It can be persisted as a number (representing seconds, or minutes); or as a formatted string in the form of "[dd:]hh:mm:ss". The "[dd:]" element represents an optional number of days. The other elements represent numbers of hours, minutes and seconds, respectively. The "timeSpanFormat" attribute specifies which format should be used: number of seconds, number of minutes, or a formatted string.
 - Required attributes are marked "Required". It means that a value for them must be set in the XML. For example, site name is a required attribute (every site must have a name in IIS 7.0 and above).
 
-**&lt;description&gt;** is a short description of the attribute.
+`&lt;description&gt;` is a short description of the attribute.
 
 <a id="Section"></a>
 

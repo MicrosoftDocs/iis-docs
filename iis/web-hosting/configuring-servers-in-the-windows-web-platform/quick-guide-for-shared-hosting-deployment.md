@@ -64,7 +64,7 @@ Before configuring permissions on the file server, you must join the Web server 
 12. Enable Full trust to the remote file share. See [Share and NTFS Permissions](configuring-share-and-ntfs-permissions.md) for more details.
 
     [!code-console[Main](quick-guide-for-shared-hosting-deployment/samples/sample4.cmd)]
-13. Open %windir%\Microsoft.NET\Framework\{version}\aspnet.config and set the gcServer enabled to false instead of true.
+13. Open `%windir%\Microsoft.NET\Framework\{version}\aspnet.config` and set the gcServer enabled to false instead of true.
 
     [!code-xml[Main](quick-guide-for-shared-hosting-deployment/samples/sample5.xml)]
 14. Disable ASP template cache.

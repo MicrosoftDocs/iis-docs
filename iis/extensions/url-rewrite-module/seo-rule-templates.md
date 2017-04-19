@@ -29,13 +29,13 @@ This walkthrough requires the following prerequisites:
 
 You will be using a simple test asp.net page to verify that the rules created by the template work correctly. The test page simply reads the web server variables and outputs their values in browser.
 
-Copy the following ASP.NET code and put it in the %SystemDrive%\inetpub\wwwroot\ folder in a file called article.aspx:
+Copy the following ASP.NET code and put it in the `%SystemDrive%\inetpub\wwwroot\` folder in a file called article.aspx:
 
 
 [!code-aspx[Main](seo-rule-templates/samples/sample1.aspx)]
 
 
-Using Notepad, open **%SystemDrive%\windows\system32\drivers\etc\hosts** and add the two following lines at the end:
+Using Notepad, open `%SystemDrive%\windows\system32\drivers\etc\hosts` and add the two following lines at the end:
 
 
 [!code-console[Main](seo-rule-templates/samples/sample2.cmd)]

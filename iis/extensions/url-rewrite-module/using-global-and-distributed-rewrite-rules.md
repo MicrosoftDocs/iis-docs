@@ -39,14 +39,14 @@ To demonstrate how to use global and local rules, we will implement a common sce
 
 To set up the scenario perform the following steps:
 
-1. Create two folders called "blog" and "forum" in %SystemDrive%\inetpub\wwwroot\ folder.
-2. Copy the following asp.net code and put it in the %SystemDrive%\inetpub\wwwroot\blog folder in a file called article.aspx:  
+1. Create two folders called "blog" and "forum" in `%SystemDrive%\inetpub\wwwroot\` folder.
+2. Copy the following asp.net code and put it in the `%SystemDrive%\inetpub\wwwroot\blog` folder in a file called article.aspx:  
 
     [!code-aspx[Main](using-global-and-distributed-rewrite-rules/samples/sample1.aspx)]
-3. Copy the following asp.net code and place it in the %SystemDrive%\inetpub\wwwroot\forum folder in a file called forum.aspx:  
+3. Copy the following asp.net code and place it in the `%SystemDrive%\inetpub\wwwroot\forum` folder in a file called forum.aspx:  
 
     [!code-aspx[Main](using-global-and-distributed-rewrite-rules/samples/sample2.aspx)]
-4. Open the file called "hosts", located at %SystemDrive%\windows\system32\drivers\etc\ and add the following two lines at the of it:  
+4. Open the file called "hosts", located at `%SystemDrive%\windows\system32\drivers\etc\` and add the following two lines at the of it:  
 
     [!code-console[Main](using-global-and-distributed-rewrite-rules/samples/sample3.cmd)]
 
@@ -150,10 +150,10 @@ Local rules can be created by using either IIS Manager or by editing web.config 
 
 To create distributed rewrite rules:
 
-1. Create an empty web.config file in %SystemDrive%\inetpub\wwwroot\**blog** folder. Open it in text editor and then paste the following XML code into it:  
+1. Create an empty web.config file in `%SystemDrive%\inetpub\wwwroot\**blog**` folder. Open it in text editor and then paste the following XML code into it:  
 
     [!code-xml[Main](using-global-and-distributed-rewrite-rules/samples/sample6.xml)]
-2. Create an empty web.config file in %SystemDrive%\inetpub\wwwroot\**forum** folder. Open it in text editor and then paste the following XML code into it:  
+2. Create an empty web.config file in `%SystemDrive%\inetpub\wwwroot\**forum**` folder. Open it in text editor and then paste the following XML code into it:  
 
     [!code-xml[Main](using-global-and-distributed-rewrite-rules/samples/sample7.xml)]
 

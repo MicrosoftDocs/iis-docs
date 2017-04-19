@@ -65,7 +65,7 @@ Define a server farm and add parent cache nodes by following [this](../configuri
 
 ## Step 3 - Make additional URL rewrite rules for child/edge cache node.
 
-At this point, using **myParentCacheNodes** as the name of the server farm, the following URL rewrite rule has been written in the applicationHost.config file, located at %windir%\system32\inetsrv\config\:
+At this point, using **myParentCacheNodes** as the name of the server farm, the following URL rewrite rule has been written in the applicationHost.config file, located at `%windir%\system32\inetsrv\config\`:
 
 
 [!code-xml[Main](deploying-application-request-routing-in-cdn/samples/sample1.xml)]
@@ -126,7 +126,7 @@ In this walkthrough, the first example is used for demonstration. Similar rules 
 20. Enter the following values to reset HTTP\_HOST: ![](deploying-application-request-routing-in-cdn/_static/image15.jpg)
 21. Click **OK** to save the changes.
 22. In the **Actions** pane, click **Apply** to save the changes.
-23. To verify that the correct rules have been written, open the applicationHost.config file using Notepad. The configuration file is located at **%windir%\system32\inetsrv\config\**.
+23. To verify that the correct rules have been written, open the applicationHost.config file using Notepad. The configuration file is located at `%windir%\system32\inetsrv\config\`.
 24. Locate the URL rewrite rule for the server farm, **myParentCacheNodes**. It should look like the following:
 
 [!code-xml[Main](deploying-application-request-routing-in-cdn/samples/sample2.xml)]

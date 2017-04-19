@@ -27,7 +27,7 @@ The ApplicationHost Helper Service in IIS 7.0 and above hosts IIS functionality 
 
 In earlier versions of IIS, you could back up your metabase settings and restore these settings whenever you needed to. IIS 7.0 and above has equivalent functionality for backing up configuration settings.
 
-IIS 7.0 and above provides a configuration history feature that lets you go back to an earlier version of the configuration any time you want. The ApplicationHost Helper Service enables this functionality by saving the ApplicationHost.config file to separate configuration history subdirectories at intervals that you specify. If you make a mistake when you modify the ApplicationHost.config file, for example, you can restore an earlier version of the file from a configuration history subdirectory by copying the earlier version into the *%windir%*\system32\inetsrv\config directory.
+IIS 7.0 and above provides a configuration history feature that lets you go back to an earlier version of the configuration any time you want. The ApplicationHost Helper Service enables this functionality by saving the ApplicationHost.config file to separate configuration history subdirectories at intervals that you specify. If you make a mistake when you modify the ApplicationHost.config file, for example, you can restore an earlier version of the file from a configuration history subdirectory by copying the earlier version into the `%windir%\system32\inetsrv\config` directory.
 
 ## Application Pool Account Mapping
 
@@ -39,4 +39,4 @@ The ApplicationHost Helper Service is a runtime-independent service. It does not
 
 ## Installation
 
-The ApplicationHost Helper Service is installed whenever IIS 7.0 or above is installed. Upon installation of the ApplicationHost Helper Service, the *%systemdrive%*\inetpub\history directory is created, by default, to store the configuration subdirectories. You can change this default location by changing the value of the **ConfigHistoryPath** attribute.
+The ApplicationHost Helper Service is installed whenever IIS 7.0 or above is installed. Upon installation of the ApplicationHost Helper Service, the `%systemdrive%\inetpub\history` directory is created, by default, to store the configuration subdirectories. You can change this default location by changing the value of the **ConfigHistoryPath** attribute.

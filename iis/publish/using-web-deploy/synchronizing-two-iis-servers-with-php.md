@@ -45,7 +45,7 @@ Create the following manifest, assuming that your PHP install location is c:\php
 
 [!code-xml[Main](synchronizing-two-iis-servers-with-php/samples/sample2.xml)]
 
-Save this as **ServerManifest.xml**. For convenience, you can save it into the "%systemdrive%\program files\microsoft web deploy" directory, or to a directory of your choice. You should save it to both the source and destination computers.
+Save this as **ServerManifest.xml**. For convenience, you can save it into the `%systemdrive%\program files\microsoft web deploy` directory, or to a directory of your choice. You should save it to both the source and destination computers.
 
 ### Part 4 – Synchronize the source server to the destination server
 

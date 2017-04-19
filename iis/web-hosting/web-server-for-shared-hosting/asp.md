@@ -25,11 +25,11 @@ Classic ASP is included in IIS 7.0 and above, and can be used in Shared Hosting 
 
 Open a command prompt and run the following:
 
-%windir%\system32\inetsrv\appcmd set config -section:asp -cache.maxDiskTemplateCacheFiles:0
+`%windir%\system32\inetsrv\appcmd set config -section:asp -cache.maxDiskTemplateCacheFiles:0`
 
 ### To Delegate the scriptErrorSentToBrowser setting:
 
-1. Allow the delegation of the &lt;asp&gt; section in applicationhost.config via overrideModeDefault by opening "%windir%\system32\inetsrv\config\applicationhost.config" with a text editor and changing the &lt;section name="asp" overrideModeDefault="Deny" /&gt; element as follows:  
+1. Allow the delegation of the &lt;asp&gt; section in applicationhost.config via overrideModeDefault by opening `%windir%\system32\inetsrv\config\applicationhost.config` with a text editor and changing the &lt;section name="asp" overrideModeDefault="Deny" /&gt; element as follows:  
 
     [!code-xml[Main](asp/samples/sample1.xml)]
 2. Use lockAllAttributesExcept and lockElements to only allow the delegation of the scriptErrorSentToBrowser setting, locate the &lt;asp&gt; element and change as follows:  

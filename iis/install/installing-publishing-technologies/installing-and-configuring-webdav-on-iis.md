@@ -236,7 +236,7 @@ You can also add WebDAV publishing to an existing Web site by editing the IIS co
 
 The following steps will walk you through all of the required settings to add WebDAV publishing for the Default Web Site.
 
-1. Using a text editor such as Windows Notepad, open your applicationHost.config file, which is located in your %SystemRoot%\System32\inetsrv\config folder by default.
+1. Using a text editor such as Windows Notepad, open your applicationHost.config file, which is located in your `%SystemRoot%\System32\inetsrv\config` folder by default.
 2. Scroll to the bottom of your applicationHost.config file and locate the &lt;location&gt; section for your Default Web Site that contains your authentication settings. If this section does not exist, you must add it. This should resemble the following example:  
 
     [!code-xml[Main](installing-and-configuring-webdav-on-iis/samples/sample1.xml)]

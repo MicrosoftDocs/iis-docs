@@ -62,7 +62,7 @@ You must make a backup of the configuration before doing the following tasks.
 
 ### Create Sample Content
 
-1. Navigate to %systemdrive%\inetpub\wwwroot.
+1. Navigate to `%systemdrive%\inetpub\wwwroot`.
 2. Move the content to a secure location (in case you want to restore the existing content) or delete it.
 3. Create a blank file and name it test.asp.
 4. In the command prompt, navigate to the test.asp file in \inetpub\wwwroot.
@@ -149,7 +149,7 @@ Under **Verbosity**, select **Verbose**.
 
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image24.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image23.jpg)
 
-IIS Manager writes the configuration to the %windir%\system32\inetsrv\config\applicationHost.config file by using a &lt;location&gt; tag. The configuration should look as follows:
+IIS Manager writes the configuration to the `%windir%\system32\inetsrv\config\applicationHost.config` file by using a &lt;location&gt; tag. The configuration should look as follows:
 
 
 [!code-xml[Main](troubleshooting-failed-requests-using-tracing-in-iis/samples/sample4.xml)]
@@ -169,7 +169,7 @@ In this task, you will generate a failed request and view the resulting trace lo
 
 ### Step 2 : View the Failure Request Log File
 
-1. Now that you have generated a failed request, open a command prompt with administrator user rights and navigate to %systemdrive%\inetpub\logs\FailedReqLogFiles\W3SVC1.
+1. Now that you have generated a failed request, open a command prompt with administrator user rights and navigate to `%systemdrive%\inetpub\logs\FailedReqLogFiles\W3SVC1`.
 2. Run **start** to start an Internet Explorer window from the directory.
 
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image26.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image25.jpg)
@@ -184,7 +184,7 @@ In this task, you will generate a failed request and view the resulting trace lo
 
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image6.png)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image5.png)
 
-A summary of the failed request is logged at the top, with the **Errors &amp; Warnings** table identifying any events that are WARNING, ERROR, or CRITICAL ERROR in severity. In this example, the WARNING severity level is due to ISAPI RESTRICTION. The image that you tried to load was %windir%\system32\inetsrv\asp.dll.
+A summary of the failed request is logged at the top, with the **Errors &amp; Warnings** table identifying any events that are WARNING, ERROR, or CRITICAL ERROR in severity. In this example, the WARNING severity level is due to ISAPI RESTRICTION. The image that you tried to load was `%windir%\system32\inetsrv\asp.dll`.
 
 6. Open the raw XML file directly by using a text editor, and look at the contents of each event.
 

@@ -51,8 +51,8 @@ You must install the following items to complete the procedures in this article:
     - [FTP 7.5 for IIS 7.0 (x86)](https://go.microsoft.com/fwlink/?LinkID=143196)
 3. You will need to create root folders for the FTP sites: 
 
-    - "%SystemDrive%\inetpub\www.example.com"
-    - "%SystemDrive%\inetpub\www.contoso.com"
+    - `%SystemDrive%\inetpub\www.example.com`
+    - `%SystemDrive%\inetpub\www.contoso.com`
 
 <a id="02"></a>
 
@@ -68,7 +68,7 @@ In this first step, we create a new FTP site using a unique virtual host name.
 3. When the **Add FTP Site** wizard displays: 
 
     - Enter "www.example.com" in the **FTP site name** box.
-    - Navigate to the "%SystemDrive%\inetpub\www.example.com" folder that you created in the Prerequisites section. > [!NOTE]
+    - Navigate to the `%SystemDrive%\inetpub\www.example.com` folder that you created in the Prerequisites section. > [!NOTE]
  > If you choose to type in the path to your content folder, you can use environment variables in your paths.
     - Click **Next**.  
         [![](using-ftp-virtual-host-names-in-iis-7/_static/image7.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image5.jpg)
@@ -95,7 +95,7 @@ In this first step, we create a new FTP site using a unique virtual host name.
 
 You have successfully created a new FTP site using the new FTP service. To recap the items that you completed in this step:
 
-- You created a new FTP site named "www.example.com", with the site's content root at "%SystemDrive%\inetpub\www.example.com".
+- You created a new FTP site named "www.example.com", with the site's content root at `%SystemDrive%\inetpub\www.example.com`.
 - You bound the FTP site to "www.example.com" as the virtual host name.
 - You enabled Basic Authentication and created an authorization rule for the a local user account for Read and Write access.
 
@@ -109,7 +109,7 @@ In this second step, we create another new FTP site using a unique virtual host 
 3. When the **Add FTP Site** wizard appears: 
 
     - Enter "www.contoso.com" in the **FTP site name** box.
-    - Navigate to the "%SystemDrive%\inetpub\www.contoso.com" folder that you created in the Prerequisites section. > [!NOTE]
+    - Navigate to the `%SystemDrive%\inetpub\www.contoso.com` folder that you created in the Prerequisites section. > [!NOTE]
  > If you choose to type in the path to your content folder, you can use environment variables in your paths.
     - Click **Next**.  
         [![](using-ftp-virtual-host-names-in-iis-7/_static/image25.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image23.jpg)
@@ -136,7 +136,7 @@ In this second step, we create another new FTP site using a unique virtual host 
 
 You have successfully created a new FTP site using the new FTP service. To recap the items that you completed in this step:
 
-1. You created a new FTP site named "www.contoso.com", with the site's content root at "%SystemDrive%\inetpub\www.contoso.com".
+1. You created a new FTP site named "www.contoso.com", with the site's content root at `%SystemDrive%\inetpub\www.contoso.com`.
 2. You bound the FTP site to "www.contoso.com" as the virtual host name.
 3. You enabled Basic Authentication and created an authorization rule for a local user account for Read and Write access.
 
@@ -191,7 +191,7 @@ Or
 
 The following steps walk you through all of the required settings to create a new FTP site from scratch.
 
-1. Using a text editor such as Windows Notepad, open your applicationHost.config file, which is located in your %SystemRoot%\System32\inetsrv\config folder by default.
+1. Using a text editor such as Windows Notepad, open your applicationHost.config file, which is located in your `%SystemRoot%\System32\inetsrv\config` folder by default.
 2. Locate the &lt;sites&gt; section. Add the first FTP site inside the &lt;sites&gt; using syntax similar to the following. > [!NOTE]
  > You may need to choose a different number than "2" for the site ID if any site is currently using that site identifier. 
 
@@ -214,7 +214,7 @@ To recap the items that you completed in this step:
 
 - You created two FTP sites named "www.example.com" and "www.contoso.com", with the sites' respective content roots at: 
 
-    - "%SystemDrive%\inetpub\www.example.com"
-    - "%SystemDrive%\inetpub\www.contoso.com".
+    - `%SystemDrive%\inetpub\www.example.com`
+    - `%SystemDrive%\inetpub\www.contoso.com`.
 - You bound both FTP sites to the local loopback IP address for your computer on port 21 using "www.example.com" and "www.contoso.com" as the virtual host names.
 - You enabled Basic Authentication and created an authorization rule for the local user account for Read and Write access for each site.

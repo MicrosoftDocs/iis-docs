@@ -86,7 +86,7 @@ In order to install a native module, it must be registered with the server using
 - Using the IIS Manager
 - Using the **AppCmd.exe** command line tool
 
-All three of these options result in the module entry being added to the &lt;globalModules&gt; IIS configuration section, which can be set only at the server level. To examine the contents of this section, open the root configuration file located in (%windir%\system32\inetsrv\config\applicationhost.config), and search for the string &quot;&lt;globalModules&gt;&quot;.
+All three of these options result in the module entry being added to the &lt;globalModules&gt; IIS configuration section, which can be set only at the server level. To examine the contents of this section, open the root configuration file located in `%windir%\system32\inetsrv\config\applicationhost.config`, and search for the string &quot;&lt;globalModules&gt;&quot;.
 
 After a full IIS installation, this section contains an entry for each of the native modules shipped with IIS, specifying a name and the path to the module DLL:
 
@@ -119,7 +119,7 @@ To enable a module, do one of the following:
 - Use the IIS Manager
 - Use the **AppCmd.exe** command line tool
 
-All three of these options add the module entry to the &lt;modules&gt; IIS configuration section, which is can be set at both the server level and application level. Examine the contents of this section by opening the root configuration file located in (%windir%\system32\inetsrv\config\applicationhost.config), and searching for the string &quot;&lt;modules&gt;&quot;.
+All three of these options add the module entry to the &lt;modules&gt; IIS configuration section, which is can be set at both the server level and application level. Examine the contents of this section by opening the root configuration file located in `%windir%\system32\inetsrv\config\applicationhost.config`, and searching for the string &quot;&lt;modules&gt;&quot;.
 
 Unlike native modules, a managed module does not require adding an entry to the &lt;globalModules&gt; configuration section.
 
@@ -209,7 +209,7 @@ For example, the following command installs the Default Document module.
 
 If you run the command on a computer where the module is already loaded, you wil get an error message similar to the following:
 
-ERROR ( message:Failed to add duplicate collection element &quot;DefaultDocumentModule&quot;. )
+ERROR (message:Failed to add duplicate collection element &quot;DefaultDocumentModule&quot;.)
 
 ### To uninstall a module using AppCmd.exe
 

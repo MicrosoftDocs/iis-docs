@@ -37,7 +37,7 @@ Microsoft offers a number of important feature-rich Media Platform Technologies 
 <a id="Toc343780144"></a>
 ## 1 Platform Technologies
 
-Two Microsoft Media Platform Technologies are on-premises (that is, they run on servers placed directly in an enterprise), while the latest, Windows Azure Media Services, is cloud-based as part of Microsoft's Windows Azure cloud computing platform ( [https://www.windowsazure.com/](https://www.windowsazure.com/)).
+Two Microsoft Media Platform Technologies are on-premises (that is, they run on servers placed directly in an enterprise), while the latest, Windows Azure Media Services, is cloud-based as part of Microsoft's Windows Azure cloud computing platform ([https://www.windowsazure.com/](https://www.windowsazure.com/)).
 
 On-premises media technologies:
 

@@ -20,7 +20,7 @@ In Web Deploy V3, we added support to automatically take an ASP.Net application 
 
 ## Enabling Application Offline
 
-Web Deploy takes an application offline by using the "AppOffline" rule, which is off by default. If a client wishes to turn it on during a publish operation, it simply needs to enable the rule. Here is an example of how to do this from the command line (executable lives under "%programfiles%\IIS\Microsoft Web Deploy V3"):
+Web Deploy takes an application offline by using the "AppOffline" rule, which is off by default. If a client wishes to turn it on during a publish operation, it simply needs to enable the rule. Here is an example of how to do this from the command line (executable lives under `%programfiles%\IIS\Microsoft Web Deploy V3`):
 
 > [!code-console[Main](taking-an-application-offline-before-publishing/samples/sample1.cmd)]
 

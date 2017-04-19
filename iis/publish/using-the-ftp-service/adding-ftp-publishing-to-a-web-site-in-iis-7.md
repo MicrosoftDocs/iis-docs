@@ -139,7 +139,7 @@ You can also add FTP publishing to an existing Web site by editing the IIS confi
 
 The following steps walk you through all of the required settings to add FTP publishing for the Default Web Site.
 
-1. Using a text editor such as Windows Notepad, open your applicationHost.config file, which is located in your %SystemRoot%\System32\inetsrv\config folder by default.
+1. Using a text editor such as Windows Notepad, open your applicationHost.config file, which is located in your `%SystemRoot%\System32\inetsrv\config` folder by default.
 2. Locate the section for your Default Web Site. This should resemble the following example: 
 
     [!code-xml[Main](adding-ftp-publishing-to-a-web-site-in-iis-7/samples/sample2.xml)]

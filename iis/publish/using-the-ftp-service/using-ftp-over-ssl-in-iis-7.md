@@ -52,16 +52,15 @@ The following items are required to be installed to complete the procedures in t
     - [FTP 7.5 for IIS 7.0 (x86)](https://go.microsoft.com/fwlink/?LinkID=143196)
 3. You will need to create a root folder for FTP publishing: 
 
-    - Create a folder at "%SystemDrive%\inetpub\ftproot"
+    - Create a folder at `%SystemDrive%\inetpub\ftproot`
     - Set the permissions to allow access for the administrators group: 
 
         - Open a command prompt.
-        - Type the following command:  
- ICACLS "%SystemDrive%\inetpub\ftproot" /Grant administrators:F /T
+        - Type the following command: `ICACLS "%SystemDrive%\inetpub\ftproot" /Grant administrators:F /T`
         - Close the command prompt.
 
 > [!NOTE]
-> The settings listed in this walkthrough specify "%SystemDrive%\inetpub\ftproot" as the path to your FTP site. You are not required to use this path; however, if you change the location for your site you must change the site-related paths that are used throughout this walkthrough.
+> The settings listed in this walkthrough specify `%SystemDrive%\inetpub\ftproot` as the path to your FTP site. You are not required to use this path; however, if you change the location for your site you must change the site-related paths that are used throughout this walkthrough.
 
 <a id="02"></a>
 
@@ -95,7 +94,7 @@ In this first step, you create a new FTP site that can only be opened using your
     [![](using-ftp-over-ssl-in-iis-7/_static/image15.png)](using-ftp-over-ssl-in-iis-7/_static/image13.png)
 3. When the **Add FTP Site** wizard appears: 
 
-    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the "%SystemDrive%\inetpub\ftproot" folder that you created in the Prerequisites section.> [!NOTE]
+    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.> [!NOTE]
 > If you choose to type in the path to your content folder, you can use environment variables in your paths.
     - Click **Next**.
 
@@ -128,7 +127,7 @@ You have successfully created a new SSL-based FTP site using the new FTP service
 
 To recap the items that you completed in this step:
 
-- You created a new FTP site named "My New FTP Site", with the site's content root at "%SystemDrive%\inetpub\ftproot".
+- You created a new FTP site named "My New FTP Site", with the site's content root at `%SystemDrive%\inetpub\ftproot`.
 - You bound the FTP site to the local loopback address for your computer on port 21.
 - You chose to require Secure Sockets Layer (SSL) for the FTP site, and selected your SSL certificate.
 - You enabled Basic Authentication and created an authorization rule for the local administrator account for Read and Write access.
@@ -208,7 +207,7 @@ The following steps walk you through all of the required settings to add FTP pub
 
 ### Step 2: Add FTP to your Default Web Site
 
-1. Using a text editor such as Windows Notepad, open your applicationHost.config file, which is located in your %SystemRoot%\System32\inetsrv\config folder by default.
+1. Using a text editor such as Windows Notepad, open your applicationHost.config file, which is located in your `%SystemRoot%\System32\inetsrv\config` folder by default.
 2. Locate the section for your Default Web Site. It should resemble the following example: 
 
     [!code-xml[Main](using-ftp-over-ssl-in-iis-7/samples/sample1.xml)]

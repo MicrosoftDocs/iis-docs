@@ -37,10 +37,10 @@ Failed Request Tracing is a powerful diagnostics feature helps developers and ad
 
 Remember that there are two different sections of configuration for Failed Request Tracing:
 
-- **&lt;traceFailedRequestsLogging&gt;** : This section is always restricted to IIS administrators. This section allows administrators to enable or disable the Failed Request Tracing feature for a site, configure the maximum # of log files, size of the log files, and the directory where the log files are to live. For these reasons, (i.e. controlling the ability to fill the disk with log files) administrators must maintain control over this section.
-- **&lt;traceFailedRequests&gt;**: This section is where you create your failure definitions - what URLs to capture traces for and under what conditions to save those traces to disk as XML. *This* is the section that we will allow to be unlocked.
+- `&lt;traceFailedRequestsLogging&gt;` : This section is always restricted to IIS administrators. This section allows administrators to enable or disable the Failed Request Tracing feature for a site, configure the maximum # of log files, size of the log files, and the directory where the log files are to live. For these reasons, (i.e. controlling the ability to fill the disk with log files) administrators must maintain control over this section.
+- `&lt;traceFailedRequests&gt;`: This section is where you create your failure definitions - what URLs to capture traces for and under what conditions to save those traces to disk as XML. *This* is the section that we will allow to be unlocked.
 
-After installation of the Failed Request Tracing Module (see the [Troubleshooting Failed Requests Using Tracing](troubleshooting-failed-requests-using-tracing-in-iis.md) on IIS.net for information regarding the installation and basic usage of Failed Request Tracing), the **&lt;traceFailedRequests&gt;** section is already set for Read/Write permissions. This allows application owners to define their own Failed Request Tracing rules, without the administrator defining these rules for them.
+After installation of the Failed Request Tracing Module (see the [Troubleshooting Failed Requests Using Tracing](troubleshooting-failed-requests-using-tracing-in-iis.md) on IIS.net for information regarding the installation and basic usage of Failed Request Tracing), the `&lt;traceFailedRequests&gt;` section is already set for Read/Write permissions. This allows application owners to define their own Failed Request Tracing rules, without the administrator defining these rules for them.
 
 ### UI: Verifying &lt;traceFailedRequests&gt; Delegation From the IIS Manager
 
@@ -59,7 +59,7 @@ This allows developers who do not have access to ApplicationHost.config to creat
 To verify that &lt;traceFailedRequests&gt; has been setup for delegation via ApplicationHost.config, do the following:
 
 1. Start an administrator-elevated command prompt.
-2. Change directories to *%windir%\system32\inetsrv\config*, and run *notepad applicationHost.config.*
+2. Change directories to `%windir%\system32\inetsrv\config`, and run `notepad applicationHost.config`.
 3. In applicationHost.config, search for the string *&lt;section name="traceFailedRequests"* - this section is delegated if it is *overrideModeDefault="Allow"*.
 
 

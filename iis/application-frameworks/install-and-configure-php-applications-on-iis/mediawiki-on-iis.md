@@ -52,7 +52,7 @@ The instructions have been tested and found to work in the following configurati
 
 The latest release of MediaWiki is found at [http://www.mediawiki.org/wiki/Download/](http://www.mediawiki.org/wiki/Download/). The instructions in this document are based on version 1.11.0, but future versions are likely to be very similar as far as installation is concerned.
 
-1. After downloading the GNU zip package, extract its contents to %SystemDrive%\Inetpub\wwwroot\MediaWiki or another directory of your choosing.
+1. After downloading the GNU zip package, extract its contents to `%SystemDrive%\Inetpub\wwwroot\MediaWiki` or another directory of your choosing.
 2. Modify the permissions for the MediaWiki config folder and grant Write permissions for the built-in IIS\_IUSRS group.
 3. Open a Command Prompt window with administrator privileges and run the following command:  
 
@@ -66,10 +66,10 @@ The latest release of MediaWiki is found at [http://www.mediawiki.org/wiki/Downl
 2. Scroll down the window and configure your Wiki name and all the required fields. In the Database config section, enable the 'Use superuser account' checkbox and enter the database superuser password.  
 
     [![](mediawiki-on-iis/_static/image4.jpg)](mediawiki-on-iis/_static/image3.jpg)
-3. Once you enter all the required information, click "Install MediaWiki!". The configuration page creates the database wikidb and saves your settings in the %SystemDrive%\Inetpub\wwwroot\MediaWiki\config\LocalSettings.php file.  
+3. Once you enter all the required information, click "Install MediaWiki!". The configuration page creates the database wikidb and saves your settings in the `%SystemDrive%\Inetpub\wwwroot\MediaWiki\config\LocalSettings.php` file.  
 
     [![](mediawiki-on-iis/_static/image6.jpg)](mediawiki-on-iis/_static/image5.jpg)
-4. Move the LocalSetting.php file to the %SystemDrive%\Inetpub\wwwroot\MediaWiki\ folder and delete the folder %SystemDrive%\Inetpub\wwwroot\MediaWiki\config from your system.
+4. Move the LocalSetting.php file to the `%SystemDrive%\Inetpub\wwwroot\MediaWiki\` folder and delete the folder `%SystemDrive%\Inetpub\wwwroot\MediaWiki\config` from your system.
 5. LocalSetting.php contains sensitive information, so secure it by revoking access to unnecessary identities. Open a Command Prompt window with administrator privileges and run the following command:  
 
     [!code-console[Main](mediawiki-on-iis/samples/sample8.cmd)]

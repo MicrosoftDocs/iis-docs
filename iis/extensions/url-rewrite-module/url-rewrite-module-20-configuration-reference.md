@@ -257,7 +257,7 @@ A condition is defined by specifying the following properties:
 
 ### Rule Action
 
-A rewrite rule action is performed when the input string matches the rule pattern and the condition evaluation has succeeded ( depending on rule configuration, either all conditions matched or any one or more of the conditions matched). There are two types of actions available and the "type" attribute of the &lt;action&gt; configuration element can be used to specify which action the rule has to perform. The following sections describe different action types and the configuration options related to specific action types.
+A rewrite rule action is performed when the input string matches the rule pattern and the condition evaluation has succeeded (depending on rule configuration, either all conditions matched or any one or more of the conditions matched). There are two types of actions available and the "type" attribute of the &lt;action&gt; configuration element can be used to specify which action the rule has to perform. The following sections describe different action types and the configuration options related to specific action types.
 
 <a id="Rewrite_action"></a>
 

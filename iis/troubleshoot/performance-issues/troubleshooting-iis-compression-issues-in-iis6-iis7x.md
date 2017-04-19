@@ -60,7 +60,7 @@ Fiddelr output when compression is not working:
     ![](troubleshooting-iis-compression-issues-in-iis6-iis7x/_static/image5.png)
 
     ![](troubleshooting-iis-compression-issues-in-iis6-iis7x/_static/image7.png)
-2. **Compression folder and permissions on it:** IIS stores compressed files in a folder which can be configured. By default, it is "%windir%\IIS Temporary Compressed Files" for IIS 6, and "%SystemDrive%\inetpub\temp\IIS Temporary Compressed Files" for IIS 7.
+2. **Compression folder and permissions on it:** IIS stores compressed files in a folder which can be configured. By default, it is `%windir%\IIS Temporary Compressed Files` for IIS 6, and `%SystemDrive%\inetpub\temp\IIS Temporary Compressed Files` for IIS 7.
 
     IIS\_WPG(IIS\_IURS for IIS 7) must have full control permission for this folder. Process Monitor is a great tool to troubleshooting this type of permission issue.
 

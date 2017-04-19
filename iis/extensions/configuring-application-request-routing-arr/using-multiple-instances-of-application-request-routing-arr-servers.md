@@ -73,7 +73,7 @@ As another prerequisite, you must have defined and configured a server farm usin
 **To enable External Cache using the command-line:** 
 
 1. Open a command prompt with administrator privileges.
-2. Navigate to **%windir%\system32\inetsrv**.
+2. Navigate to `%windir%\system32\inetsrv`.
 3. To enable host name affinity, enter (the example below uses **myServerFarm** as the name of the server farm):  
 
     [!code-console[Main](using-multiple-instances-of-application-request-routing-arr-servers/samples/sample1.cmd)]

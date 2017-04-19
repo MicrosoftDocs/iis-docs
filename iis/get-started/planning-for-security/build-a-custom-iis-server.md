@@ -42,13 +42,13 @@ Tasks illustrated in this article include:
 
 ## Review of the Default Module Configuration
 
-The main server configuration is contained in the applicationHost.config file, located in the IIS configuration directory (%windir%\system32\inetsrv\config\). We look at the following configuration contained in the &lt;system.webServer&gt; section group:
+The main server configuration is contained in the applicationHost.config file, located in the IIS configuration directory `%windir%\system32\inetsrv\config\`. We look at the following configuration contained in the &lt;system.webServer&gt; section group:
 
-**&lt;globalModules&gt;** section. This server-level section contains the list of modules loaded by the server worker process, and the associated native DLLs that implement their functionality.
+`&lt;globalModules&gt;` section. This server-level section contains the list of modules loaded by the server worker process, and the associated native DLLs that implement their functionality.
 
-**&lt;modules&gt;** section. This application-level section contains the list of modules enabled for a particular application. This section serves to select the subset of loaded modules that should be active in an application, and also to load additional application level modules.
+`&lt;modules&gt;` section. This application-level section contains the list of modules enabled for a particular application. This section serves to select the subset of loaded modules that should be active in an application, and also to load additional application level modules.
 
-**&lt;handlers&gt;** section. This URL-level section contains the handler mappings that the server uses to map incoming requests to a particular module that will process it. This is similar to the IIS 6.0 scriptmaps or ASP.NET, and serves a unified mapping of requests to both native and managed content type handlers.
+`&lt;handlers&gt;` section. This URL-level section contains the handler mappings that the server uses to map incoming requests to a particular module that will process it. This is similar to the IIS 6.0 scriptmaps or ASP.NET, and serves a unified mapping of requests to both native and managed content type handlers.
 
 The full description of all IIS modules is available in the [IIS 7.0 and Above Modules Overview.](../introduction-to-iis/iis-modules-overview.md)
 
@@ -119,17 +119,17 @@ In the previous task, we examined the default list of components loaded by the s
 
 Before we build our own custom server with only the functionality required in the next task, we build a fast, small, and secure web server by removing all the modules and running the empty server.
 
-If we changed the applicationHost.config file during the previous task, we can restore it to the original state by running **%windir%\system32\inetsrv\appcmd restore backup initial** from command line.
+If we changed the applicationHost.config file during the previous task, we can restore it to the original state by running `%windir%\system32\inetsrv\appcmd restore backup initial` from command line.
 
 Now to strip down the server.
 
-1. Use a text editor to open **%windir%\system32\inetsrv\config\applicationHost.config**.
-2. Navigate to the **&lt;system.webServer&gt;/&lt;globalModules&gt;** section.
+1. Use a text editor to open `%windir%\system32\inetsrv\config\applicationHost.config`.
+2. Navigate to the `&lt;system.webServer&gt;/&lt;globalModules&gt;` section.
 3. Remove all of the entries in the collection, so that only an empty section definition remains:  
 
     [!code-xml[Main](build-a-custom-iis-server/samples/sample10.xml)]
 4. Paste the items into a scratch notepad window for use later. Repeat the same with the &lt;system.webServer&gt;/&lt;modules&gt; section. Remove all of the entries under this section and paste them into a scratch notepad for later use. This ensures we are not enabling any modules we no longer load. Paste these cut items into a scratch notepad window for use later.
-5. Repeat the same with the **&lt;system.webServer&gt;/&lt;handlers&gt;** section. Remove all of the entries under this section, to make sure we are not specifying any handler mappings with modules we disabled. Paste the items into a scratch notepad for later use. Save the applicationHost.config file to effect the changes.
+5. Repeat the same with the `&lt;system.webServer&gt;/&lt;handlers&gt;` section. Remove all of the entries under this section, to make sure we are not specifying any handler mappings with modules we disabled. Paste the items into a scratch notepad for later use. Save the applicationHost.config file to effect the changes.
 
 ### Examine the Stripped Down Server Footprint
 
@@ -165,7 +165,7 @@ In the previous task, we stripped down the server to the minimal configuration, 
 
 To perform this task, it is assumed that we have followed the previous task and stripped down the server by removing all of the modules it was running. In this state, the server always returns empty 401 error responses to all requests, as no modules are loaded to provide any kind of request processing at all.
 
-1. Use a text editor to open **%windir%\system32\inetsrv\config\applicationHost.config.**
+1. Use a text editor to open `%windir%\system32\inetsrv\config\applicationHost.config`.
 2. Navigate to the &lt;system.webServer&gt;/&lt;globalModules&gt; section. Add the 2 lines in bold below inside the collection – copy it from the scratch pad used earlier to save the default collection items. This loads the static file handler module, which is responsible for serving requests for static files, and the anonymous authentication module, which produces a default authentication token for the request:  
 
     [!code-xml[Main](build-a-custom-iis-server/samples/sample13.xml)]
@@ -191,7 +191,7 @@ To perform this task, it is assumed that we have followed the previous task and 
 
 To perform this task, it is assumed that we have performed the previous tasks, stripped the server down to nothing, and added the file serving capability.
 
-1. Use a text editor to open %windir%\system32\inetsrv\config\applicationHost.config.
+1. Use a text editor to open `%windir%\system32\inetsrv\config\applicationHost.config`.
 2. As before, add the configuration below to enable the directory browsing module, and map it to serve directory requests (the cumulative configuration will look exactly as specified below after this step, building on top of the previous step):  
 
     [!code-xml[Main](build-a-custom-iis-server/samples/sample18.xml)]
@@ -211,7 +211,7 @@ Next, we add the authentication and authorization services to protect the conten
 
 To perform this task, it is assumed that we have followed the previous tasks, stripped the server down to nothing, and added the file serving and directory listing capability.
 
-1. Use a text editor to open %windir%\system32\inetsrv\config\applicationHost.config.
+1. Use a text editor to open `%windir%\system32\inetsrv\config\applicationHost.config`.
 2. This time, we add two modules:  
 
     - The basic authentication module, which supports the basic authentication scheme over http1.1 against the server Windows credentials
@@ -247,7 +247,7 @@ To perform this task, it is assumed that we have followed the previous tasks, st
 
 This article covered the componentized nature of the server, examined the IIS features that are provided, and explained how to build a custom web server with only the services a user may require.
 
-Before using the server again, undo the changes to the server configuration performed as part of this walkthrough. If you created a backup earlier, restore it by running **%windir%\system32\inetsrv\appcmd restore backup initial** from command line.
+Before using the server again, undo the changes to the server configuration performed as part of this walkthrough. If you created a backup earlier, restore it by running `%windir%\system32\inetsrv\appcmd restore backup initial` from command line.
 
 ## Related Links
 
