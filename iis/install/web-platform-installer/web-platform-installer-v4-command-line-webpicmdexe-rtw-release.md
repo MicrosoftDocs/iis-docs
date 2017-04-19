@@ -42,11 +42,9 @@ WebPICMD.exe has three main modes of operation that you can use - you specify th
 
 The three modes are:
 
-/List: Used to display the list of products available, installed and return information about the various XML feeds
-
-/Install: Used to install products or applications to your machine
-
-/Offline [NEW!] Creates an offline cached copy of a specified set of products and applications so you can install while offline
+1. /List: Used to display the list of products available, installed and return information about the various XML feeds
+2. /Install: Used to install products or applications to your machine
+3. /Offline [NEW!] Creates an offline cached copy of a specified set of products and applications so you can install while offline
 
 Let's walk through each mode and describe the command line options in more detail and give a few examples to help you get started!
 
