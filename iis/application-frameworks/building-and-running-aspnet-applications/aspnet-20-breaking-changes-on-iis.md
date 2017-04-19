@@ -36,7 +36,7 @@ Below, I discuss some of the breaking changes in detail. Where available, I incl
 
 These errors occur due to changes in how some ASP.NET configuration is applied in Integrated mode. IIS will automatically detect this configuration and issue an error asking you to migrate your application, or move it to Classic Mode if migration is not acceptable (see breaking change #3 below).
 
-#### 1. ASP.NET applications require migration when specifying configuration in &lt;httpModules&gt; or &lt;httpHandlers&gt;
+#### 1. ASP.NET applications require migration when specifying configuration in `&lt;httpModules&gt;` or `&lt;httpHandlers&gt;`
 
 You will receive a 500 - Internal Server Error. This can include HTTP Error 500.22, and HTTP Error 500.23: *An ASP.NET setting has been detected that does not apply in Integrated managed pipeline mode*. This occurs because ASP.NET modules and handlers should be specified in the IIS &lt;handlers&gt; and &lt;modules&gt; configuration sections in Integrated mode.
 
@@ -46,12 +46,12 @@ A. You must migrate the application configuration to work properly in Integrated
 
 [!code-powershell[Main](aspnet-20-breaking-changes-on-iis/samples/sample1.ps1)]
 
-B. You can migrate manually by moving the custom entries in in the &lt;system.web&gt;/&lt;httpModules&gt; and &lt;system.web&gt;/&lt;httpHandlers&gt; configuration manually to the &lt;system.webServer&gt;/&lt;handlers&gt; and &lt;system.webServer&gt;/&lt;modules&gt; configuration sections, and either removing the &lt;httpHandlers&gt; and &lt;httpModules&gt; configuration OR adding the following to your application's web.config:
+B. You can migrate manually by moving the custom entries in in the `&lt;system.web&gt;/&lt;httpModules&gt;` and `&lt;system.web&gt;/&lt;httpHandlers&gt;` configuration manually to the `&lt;system.webServer&gt;/&lt;handlers&gt;` and `&lt;system.webServer&gt;/&lt;modules&gt;` configuration sections, and either removing the `&lt;httpHandlers&gt;` and `&lt;httpModules&gt;` configuration OR adding the following to your application's web.config:
 
 [!code-xml[Main](aspnet-20-breaking-changes-on-iis/samples/sample2.xml)]
   
 
-#### 2. ASP.NET applications produce a warning when the application enables request impersonation by specifying &lt;identity impersonate="true"&gt; in configuration
+#### 2. ASP.NET applications produce a warning when the application enables request impersonation by specifying `&lt;identity impersonate="true"&gt;` in configuration
 
 You will receive a 500 - Internal Server Error. This is HTTP Error 500.24: *An ASP.NET setting has been detected that does not apply in Integrated managed pipeline mode*. This occurs because ASP.NET Integrated mode is unable to impersonate the request identity in the BeginRequest and AuthenticateRequest pipeline stages.
 
@@ -63,9 +63,9 @@ A. If your application does not rely on impersonating the requesting user in the
 
 B. If your application does rely on impersonation in BeginRequest and AuthenticateRequest, or you are not sure, move to Classic mode.
 
-#### 3. You receive a configuration error when your application configuration includes an encrypted &lt;identity&gt; section
+#### 3. You receive a configuration error when your application configuration includes an encrypted `&lt;identity&gt;` section
 
-You will receive a 500 – Internal Server Error. This is HTTP Error 500.19: *The requested page cannot be accessed because the related configuration data for the page is invalid*. The detailed error information indicates that "***Configuration section encryption is not supported***". This occurs because IIS attempts to validate the &lt;identity&gt; section and fails to read section-level encryption.
+You will receive a 500 – Internal Server Error. This is HTTP Error 500.19: *The requested page cannot be accessed because the related configuration data for the page is invalid*. The detailed error information indicates that "***Configuration section encryption is not supported***". This occurs because IIS attempts to validate the `&lt;identity&gt;` section and fails to read section-level encryption.
 
 ##### Workaround
 
@@ -110,13 +110,13 @@ IIS 7.0 and above Kernel-mode authentication is enabled by default. This improve
 
 A. Disable kernel-mode authentication by setting the userKernelMode to "false" in the system.webServer/security/authentication/windowsAuthentication section. You can also do it by AppCmd as follows:
 
-
 [!code-console[Main](aspnet-20-breaking-changes-on-iis/samples/sample6.cmd)]
-
 
 #### 6. Passport authentication is not supported
 
-You will receive an ASP.NET 500 – Server Error: *The PassportManager object could not be initialized. Please ensure that Microsoft Passport is correctly installed on the server.* Passport authentication is no longer supported on Windows Vista and Windows Server 2008. ***NOTE***: This breaking change applies to both Classic and Integrated modes.
+You will receive an ASP.NET 500 – Server Error: *The PassportManager object could not be initialized. Please ensure that Microsoft Passport is correctly installed on the server.* Passport authentication is no longer supported on Windows Vista and Windows Server 2008.
+
+**NOTE**: This breaking change applies to both Classic and Integrated modes.
 
 #### 7. HttpRequest.LogonUserIdentity throws an InvalidOperationException when accessed in a module before PostAuthenticateRequest
 

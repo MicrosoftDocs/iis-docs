@@ -34,7 +34,7 @@ WebPI v4 x64: [https://download.microsoft.com/download/C/F/F/CFF3A0B8-99D4-41A2-
 
 ## Setting up WebPICMD.exe
 
-Just run the installer and that's it - you'll find WebPICMD.exe in the %programfiles%\microsoft\web platform installer directory
+Just run the installer and that's it - you'll find WebPICMD.exe in the `%programfiles%\microsoft\web platform installer` directory
 
 ## Using WebPICMD.exe
 

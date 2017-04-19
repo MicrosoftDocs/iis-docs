@@ -164,7 +164,7 @@ This section describes the known issues for IIS Transform Manager 1.0.
     > [!NOTE]
     >  
     > 
-    >  The watch folder XML configuration files are located in %ProgramData%\Microsoft\IIS\Transform Manager\Configuration\Job Definitions. You might need to turn on the **Folder views** option in Windows that shows hidden files, folders, and drives in order to view them.
+    >  The watch folder XML configuration files are located in `%ProgramData%\Microsoft\IIS\Transform Manager\Configuration\Job Definitions`. You might need to turn on the **Folder views** option in Windows that shows hidden files, folders, and drives in order to view them.
 - **Specifying the watch folder root path**. When you configure watch folder settings, you can specify a watch folder location on the local Web server or on a network share in the **Watch folder path** list. Be aware of the following when specifying this value: 
 
     - You must use a unique root path for each watch folder. Different watch folders that have the same physical path won't start.

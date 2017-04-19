@@ -45,7 +45,7 @@ Perform the following steps to download and install the SQL Server Driver for PH
 
 1. Download %SQLServerDriverForPHP.EXE to a temporary directory.
 2. Double-click to run %SQLServerDriverForPHP.EXE.
-3. Enter an installation directory when prompted. It is recommended that you extract the file to **%ProgramFiles%** with the default directory **Microsoft SQL Server Driver for PHP**.
+3. Enter an installation directory when prompted. It is recommended that you extract the file to `%ProgramFiles%` with the default directory **Microsoft SQL Server Driver for PHP**.
 4. Double-click to open the **SQLServerDriverForPHP.chm** help file.
 5. Install the **Microsoft SQL Server Native Client** from the link provided.
 6. Copy the **php\_sqlsrv.dll** and **php\_sqlsrv\_ts.dll** files to the **C:\PHP\ext\** directory.

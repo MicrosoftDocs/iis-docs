@@ -158,4 +158,4 @@ To remove Application Request Routing completely, you must remove the four packa
 
 ## Summary
 
-You have now successfully installed Application Request Routing and the dependent modules, and are ready to configure and use the features. For a quick overview and more information, see %PROGRAMFILES%\IIS\Application Request Routing\ARR\_ReadMe.htm.
+You have now successfully installed Application Request Routing and the dependent modules, and are ready to configure and use the features. For a quick overview and more information, see `%PROGRAMFILES%\IIS\Application Request Routing\ARR\_ReadMe.htm`.
