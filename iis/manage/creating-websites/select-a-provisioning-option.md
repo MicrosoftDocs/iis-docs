@@ -140,10 +140,7 @@ Use ABO to programmatically configure IIS in a compiled program written in C, C+
 
 ## Links for Further Information
 
-[IIS Configuration Reference](https://www.iis.net/configreference). 
-
-[Managing IIS with the IIS PowerShell Snap-in](../powershell/index.md).
-
-[C# and PowerShell Scripts Samples](../../web-hosting/configuring-components/powershell-scripts.md).
-
-[Provisioning Sample in C#.](../provisioning-and-managing-iis/provisioning-sample-in-c.md)
+- [IIS Configuration Reference](https://www.iis.net/configreference). 
+- [Managing IIS with the IIS PowerShell Snap-in](../powershell/index.md).
+- [C# and PowerShell Scripts Samples](../../web-hosting/configuring-components/powershell-scripts.md).
+- [Provisioning Sample in C#.](../provisioning-and-managing-iis/provisioning-sample-in-c.md)

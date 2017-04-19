@@ -210,16 +210,10 @@ You can also refer to [Windows Web Application Gallery: Known Issues](../../deve
 
 ## Links for Further Information
 
-[Web Platform Installer Resources](web-platform-installer-resources.md).
-
-[Videocast: Simplified Application Deployment on the Microsoft Web Platform](../../publish/deploying-application-packages/videocast-simplified-application-deployment-on-the-microsoft-web-platform.md).
-
-[Real World IIS: Staying Current with the Latest Microsoft Web Platform with Web Platform Installer (videocast)](https://blogs.iis.net/mailant/archive/2009/05/02/real-world-iis-staying-current-with-the-latest-microsoft-web-platform-with-web-platform-installer-videocast.aspx).
-
-[Microsoft Web Platform](https://www.microsoft.com/web/platform/).
-
-[Windows Web Application Gallery Principles](../../develop/windows-web-application-gallery/windows-web-application-gallery-principles.md).
-
-[Web Platform Installer](https://technet.microsoft.com/en-us/library/ee506569(WS.10).aspx).
-
-[Microsoft.Web.PlatformInstaller Namespace](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.aspx).
+- [Web Platform Installer Resources](web-platform-installer-resources.md).
+- [Videocast: Simplified Application Deployment on the Microsoft Web Platform](../../publish/deploying-application-packages/videocast-simplified-application-deployment-on-the-microsoft-web-platform.md).
+- [Real World IIS: Staying Current with the Latest Microsoft Web Platform with Web Platform Installer (videocast)](https://blogs.iis.net/mailant/archive/2009/05/02/real-world-iis-staying-current-with-the-latest-microsoft-web-platform-with-web-platform-installer-videocast.aspx).
+- [Microsoft Web Platform](https://www.microsoft.com/web/platform/).
+- [Windows Web Application Gallery Principles](../../develop/windows-web-application-gallery/windows-web-application-gallery-principles.md).
+- [Web Platform Installer](https://technet.microsoft.com/en-us/library/ee506569(WS.10).aspx).
+- [Microsoft.Web.PlatformInstaller Namespace](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.aspx).

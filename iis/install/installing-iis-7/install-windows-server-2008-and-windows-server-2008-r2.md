@@ -83,12 +83,8 @@ The configuration tasks include setting the administrator password (the default 
 
 ## Links for Further Information
 
-[Windows Server 2008 R2](https://www.microsoft.com/windowsserver2008/en/us/default.aspx).
-
-[Optimizing Your Core Infrastructure](https://www.microsoft.com/windowsserver2008/en/us/optimize-infrastructure.aspx).
-
-[Introduction to Deploying Windows Server 2008.](../../web-hosting/installing-infrastructure-components/introduction-to-deploying-windows-server-2008-r2.md)
-
-[Installing Windows Server 2008](https://download.microsoft.com/download/e/6/3/e63cf2f6-7f71-450b-8e4a-dace88e99456/readme.htm).
-
-[Edition Comparison by Server Core Installation Option](https://www.microsoft.com/windowsserver2008/en/us/r2-compare-core-installation.aspx).
+- [Windows Server 2008 R2](https://www.microsoft.com/windowsserver2008/en/us/default.aspx).
+- [Optimizing Your Core Infrastructure](https://www.microsoft.com/windowsserver2008/en/us/optimize-infrastructure.aspx).
+- [Introduction to Deploying Windows Server 2008.](../../web-hosting/installing-infrastructure-components/introduction-to-deploying-windows-server-2008-r2.md)
+- [Installing Windows Server 2008](https://download.microsoft.com/download/e/6/3/e63cf2f6-7f71-450b-8e4a-dace88e99456/readme.htm).
+- [Edition Comparison by Server Core Installation Option](https://www.microsoft.com/windowsserver2008/en/us/r2-compare-core-installation.aspx).

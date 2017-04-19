@@ -184,10 +184,7 @@ The Php.ini file provides PHP with configuration and environmental information. 
 
 ## Links for Further Information
 
-[PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb).
-
-[Installing PHP on Windows Server 2008](https://www.microsoft.com/video/en/us/details/7293e003-91c5-4e50-a3c9-ff47b3c62bbc).
-
-[PHP on IIS7](https://php.iis.net/).
-
-[Deploying IIS 7.5 + FASTCGI + PHP on Server Core](https://blogs.msdn.com/philpenn/archive/2009/07/19/deploying-iis-7-5-fastcgi-php-on-server-core.aspx).
+- [PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb).
+- [Installing PHP on Windows Server 2008](https://www.microsoft.com/video/en/us/details/7293e003-91c5-4e50-a3c9-ff47b3c62bbc).
+- [PHP on IIS7](https://php.iis.net/).
+- [Deploying IIS 7.5 + FASTCGI + PHP on Server Core](https://blogs.msdn.com/philpenn/archive/2009/07/19/deploying-iis-7-5-fastcgi-php-on-server-core.aspx).

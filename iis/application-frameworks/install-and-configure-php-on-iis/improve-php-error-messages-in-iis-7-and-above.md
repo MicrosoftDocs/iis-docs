@@ -117,4 +117,4 @@ Note that PHP also provides options for customizing default error handling or co
 
 ## Links for Further Information
 
-[Error Handling and Logging](http://www.php.net/errorfunc).
+- [Error Handling and Logging](http://www.php.net/errorfunc).

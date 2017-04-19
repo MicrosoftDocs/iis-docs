@@ -146,13 +146,13 @@ If you want to allow Web application owners to control PHP settings themselves, 
 
     Note also that when you enable the user-defined INI files, the settings in those files are cached by the PHP engine to avoid re-reading those files for every request. This means that if the user makes a change to .user.ini file, then that change may not take effect right away. Instead it may take effect after the cache time to live (TTL) has expired. The cache TTL value is controlled by the php.ini setting user\_ini.cache\_ttl, which is set to 300 seconds (5 minutes) by default.
 
-<a id="_Related_Content"></a>> [!NOTE]
->> *This article combines information from "*[*Per-site PHP configuration with PHP 5.3 and IIS*](https://blogs.iis.net/ruslany/archive/2009/07/11/per-site-php-configuration-with-php-5-3-and-iis.aspx)*" published on July 11, 2009, "*[*Per-site PHP configuration with IIS FastCGI*](http://ruslany.net/2008/07/per-site-php-configuration-with-iis-fastcgi/)*" published on July 12, 2008, and "*[*Using FastCGI to Host PHP Applications on IIS 7.0*](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md#PHP_Versioning)*" published on June 26, 2009, all by Ruslan Yakushev.*
+<a id="_Related_Content"></a>
+
+> [!NOTE]
+> *This article combines information from "*[*Per-site PHP configuration with PHP 5.3 and IIS*](https://blogs.iis.net/ruslany/archive/2009/07/11/per-site-php-configuration-with-php-5-3-and-iis.aspx)*" published on July 11, 2009, "*[*Per-site PHP configuration with IIS FastCGI*](http://ruslany.net/2008/07/per-site-php-configuration-with-iis-fastcgi/)*" published on July 12, 2008, and "*[*Using FastCGI to Host PHP Applications on IIS 7.0*](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md#PHP_Versioning)*" published on June 26, 2009, all by Ruslan Yakushev.*
 
 ## Links for Further Information
 
-[IIS 7 FastCGI Module Forum](https://forums.iis.net/1104.aspx).
-
-[PHP Community Forum](https://forums.iis.net/1102.aspx).
-
-[IIS Administration Pack](https://www.iis.net/downloads/microsoft/administration-pack).
+- [IIS 7 FastCGI Module Forum](https://forums.iis.net/1104.aspx).
+- [PHP Community Forum](https://forums.iis.net/1102.aspx).
+- [IIS Administration Pack](https://www.iis.net/downloads/microsoft/administration-pack).

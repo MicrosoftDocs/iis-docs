@@ -142,6 +142,5 @@ In the Web.config file, IIS uses the Output Caching module and the caching direc
 
 ## Links for Further Information
 
-[IIS URL Rewriting and Microsoft® ASP.NET routing](../../extensions/url-rewrite-module/iis-url-rewriting-and-aspnet-routing.md).
-
-[IIS forum](https://forums.iis.net/).
+- [IIS URL Rewriting and Microsoft® ASP.NET routing](../../extensions/url-rewrite-module/iis-url-rewriting-and-aspnet-routing.md).
+- [IIS forum](https://forums.iis.net/).

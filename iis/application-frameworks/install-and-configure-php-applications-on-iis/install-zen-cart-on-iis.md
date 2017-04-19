@@ -124,14 +124,9 @@ For security reasons, do not leave a zc\_install folder on the server of a live 
 
 ## Links for Further Information
 
-[Setting up FastCGI for PHP](../running-php-applications-on-iis/set-up-fastcgi-for-php.md).
-
-[Using FastCGI to Host PHP Applications on IIS 7.0 and Above](using-fastcgi-to-host-php-applications-on-iis.md).
-
-[Installing PHP on Windows Vista with FastCGI](../install-and-configure-php-on-iis/installing-php-on-windows-vista-with-fastcgi.md).
-
-[Installing FastCGI Support On Server Core](../install-and-configure-php-on-iis/install-php-and-fastcgi-support-on-server-core.md).
-
-[FastCGI forum](https://forums.iis.net/1104.aspx).
-
-For more information about running PHP applications on IIS, see the [PHP community forum](https://forums.iis.net/1102.aspx).
+- [Setting up FastCGI for PHP](../running-php-applications-on-iis/set-up-fastcgi-for-php.md).
+- [Using FastCGI to Host PHP Applications on IIS 7.0 and Above](using-fastcgi-to-host-php-applications-on-iis.md).
+- [Installing PHP on Windows Vista with FastCGI](../install-and-configure-php-on-iis/installing-php-on-windows-vista-with-fastcgi.md).
+- [Installing FastCGI Support On Server Core](../install-and-configure-php-on-iis/install-php-and-fastcgi-support-on-server-core.md).
+- [FastCGI forum](https://forums.iis.net/1104.aspx).
+- For more information about running PHP applications on IIS, see the [PHP community forum](https://forums.iis.net/1102.aspx).

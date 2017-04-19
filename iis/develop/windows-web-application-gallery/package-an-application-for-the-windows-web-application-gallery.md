@@ -271,14 +271,9 @@ For more information, see the [Reference for the Web Application Guide](referenc
 
 ## Links for Further Information
 
-[Windows Web App Gallery](https://www.microsoft.com/web/gallery/).
-
-[Web App Gallery principles](windows-web-application-gallery-principles.md).
-
-[Web App Gallery submission form](https://login.iis.net/login/signin.aspx?ReturnUrl=TODO%20-%20get%20the%20URL%20for%20%20%20%20the%20new%20form).
-
-[Using the Microsoft Web Platform Installer Badge](using-the-microsoft-web-platform-installer-badge.md).
-
-[Web Platform Installer](https://www.microsoft.com/web/downloads/).
-
-[CodePlex.](http://www.codeplex.com/)
+- [Windows Web App Gallery](https://www.microsoft.com/web/gallery/).
+- [Web App Gallery principles](windows-web-application-gallery-principles.md).
+- [Web App Gallery submission form](https://login.iis.net/login/signin.aspx?ReturnUrl=TODO%20-%20get%20the%20URL%20for%20%20%20%20the%20new%20form).
+- [Using the Microsoft Web Platform Installer Badge](using-the-microsoft-web-platform-installer-badge.md).
+- [Web Platform Installer](https://www.microsoft.com/web/downloads/).
+- [CodePlex.](http://www.codeplex.com/)

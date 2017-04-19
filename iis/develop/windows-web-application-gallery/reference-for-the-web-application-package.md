@@ -237,16 +237,12 @@ Samples of Web App Gallery integration are available for reference.
 
 ## Links for Further Information
 
-[Regular Expression Language Elements](https://msdn.microsoft.com/en-us/library/az24scfc.aspx).
-
-[XPath syntax](https://msdn.microsoft.com/en-us/library/ms256471.aspx).
-
-[Table of Language Culture Names, Codes, and ISO Values Method [C++]](https://msdn.microsoft.com/en-us/library/ms866170.aspx).
+- [Regular Expression Language Elements](https://msdn.microsoft.com/en-us/library/az24scfc.aspx).
+- [XPath syntax](https://msdn.microsoft.com/en-us/library/ms256471.aspx).
+- [Table of Language Culture Names, Codes, and ISO Values Method [C++]](https://msdn.microsoft.com/en-us/library/ms866170.aspx).
 
 Web App Gallery Integration Samples.
 
-[IIS 7.0 Configuration Reference](https://www.iis.net/configreference).
-
-[Database Notes for packaging applications for use with the Web Application Gallery](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery.md).
-
-[Regular Expression Language Elements](https://msdn.microsoft.com/en-us/library/az24scfc.aspx).
+- [IIS 7.0 Configuration Reference](https://www.iis.net/configreference).
+- [Database Notes for packaging applications for use with the Web Application Gallery](database-notes-for-packaging-applications-for-use-with-the-web-application-gallery.md).
+- [Regular Expression Language Elements](https://msdn.microsoft.com/en-us/library/az24scfc.aspx).

@@ -154,8 +154,6 @@ After configuring the NTFS permissions, only the SID that has been injected into
 
 ## Links for Further Information
 
-[New in IIS 7 - App Pool Isolation](http://www.adopenstatic.com/cs/blogs/ken/archive/2008/01/29/15759.aspx).
-
-[Create an Application Pool (IIS 7)](https://technet.microsoft.com/en-us/library/cc731784.aspx).
-
-[Managing Application Pools in IIS 7](https://technet.microsoft.com/en-us/library/cc753449(WS.10).aspx).
+- [New in IIS 7 - App Pool Isolation](http://www.adopenstatic.com/cs/blogs/ken/archive/2008/01/29/15759.aspx).
+- [Create an Application Pool (IIS 7)](https://technet.microsoft.com/en-us/library/cc731784.aspx).
+- [Managing Application Pools in IIS 7](https://technet.microsoft.com/en-us/library/cc753449(WS.10).aspx).

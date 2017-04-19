@@ -79,4 +79,4 @@ For more information about WMI and IIS, see [Windows Management Instrumentation 
 
 ## Links for Further Information
 
-[Managing Sites in IIS 7](https://technet.microsoft.com/en-us/library/cc771341(WS.10).aspx).
+- [Managing Sites in IIS 7](https://technet.microsoft.com/en-us/library/cc771341(WS.10).aspx).

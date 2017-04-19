@@ -145,10 +145,7 @@ The connection string includes the database server, database name, and user cred
 
 ## Links for Further Information
 
-[Videocast: IIS Manager and Database Manager](https://blogs.msdn.com/carlosag/archive/2008/07/07/IIS70RemoteAdministrationAndDatabaseManagerVideo.aspx).
-
-[Database Manager for Hosters](../../web-hosting/web-server-for-shared-hosting/database-manager-for-hosters.md).
-
-[Videocast: Database Manager](https://www.iis.net/downloads/microsoft/database-manager).
-
-[Working with the Database Manager](index.md).
+- [Videocast: IIS Manager and Database Manager](https://blogs.msdn.com/carlosag/archive/2008/07/07/IIS70RemoteAdministrationAndDatabaseManagerVideo.aspx).
+- [Database Manager for Hosters](../../web-hosting/web-server-for-shared-hosting/database-manager-for-hosters.md).
+- [Videocast: Database Manager](https://www.iis.net/downloads/microsoft/database-manager).
+- [Working with the Database Manager](index.md).

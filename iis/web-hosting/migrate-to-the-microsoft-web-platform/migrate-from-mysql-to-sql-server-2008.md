@@ -101,7 +101,7 @@ BENCHMARK, CHARSET, COERCIBILITY, COLLATION, CRC32, DATE\_ADD with INTERVAL, DAT
 
 ## Links for Further Information:
 
-[Guide to Migrating from MySQL to SQL Server 2005](http://tinyurl.com/yg4v9e5).  
-[SQL Server Driver for PHP Documentation](https://msdn.microsoft.com/en-us/library/ee229551(SQL.10).aspx).
+- [Guide to Migrating from MySQL to SQL Server 2005](http://tinyurl.com/yg4v9e5).  
+- [SQL Server Driver for PHP Documentation](https://msdn.microsoft.com/en-us/library/ee229551(SQL.10).aspx).
 
 <a id="_ftn1"></a>[[1]](#_ftnref1 "_ftn1") [IBM Corporation](http://www.ibm.com/developerworks/systems/library/es-path2php/index.html). 14 November 2006. Use PHP on System i, Part 1: Introduction and examples.

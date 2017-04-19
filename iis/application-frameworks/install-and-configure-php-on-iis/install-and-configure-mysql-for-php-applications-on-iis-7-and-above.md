@@ -107,10 +107,7 @@ It is recommended that you install MySQL on a dedicated server rather than insta
 
 ## Links for Further Information
 
-[MySQL Server Web site](http://dev.mysql.com/doc/).
-
-[Using the MySQL Installation Wizard](http://dev.mysql.com/doc/refman/5.0/en/windows-install-wizard.html).
-
-[Installing MySQL from a Noinstall Zip Archive](http://dev.mysql.com/doc/refman/5.0/en/windows-install-archive.html).
-
-[MySQL Windows Installation](http://dev.mysql.com/doc/refman/5.0/en/windows-installation.html).
+- [MySQL Server Web site](http://dev.mysql.com/doc/).
+- [Using the MySQL Installation Wizard](http://dev.mysql.com/doc/refman/5.0/en/windows-install-wizard.html).
+- [Installing MySQL from a Noinstall Zip Archive](http://dev.mysql.com/doc/refman/5.0/en/windows-install-archive.html).
+- [MySQL Windows Installation](http://dev.mysql.com/doc/refman/5.0/en/windows-installation.html).

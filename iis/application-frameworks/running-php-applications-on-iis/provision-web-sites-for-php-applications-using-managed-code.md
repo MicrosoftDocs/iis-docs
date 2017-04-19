@@ -22,16 +22,10 @@ While there are a number of ways that these capabilities can be implemented into
 
 ## Links for Further Information
 
-[Create a Web Site (IIS 7).](https://technet.microsoft.com/en-us/library/cc772350(WS.10).aspx)
-
-[Managing Applications in IIS 7](https://office.prowesscorp.com/IIS-PHP_Content_Management_and_Update/Shared%20Documents/Managing%20Applications%20in%20IIS%207).
-
-[An Introduction to Windows PowerShell and IIS 7.0 and Above](../../manage/powershell/an-introduction-to-windows-powershell-and-iis.md).
-
-[Provisioning Web Sites on IIS 7.0 and Above](../../manage/creating-websites/index.md).
-
-[Web Site Deployment Made Easy](../../get-started/introduction-to-iis/web-site-deployment-made-easy.md).
-
-[Hosting Services Code Sample](../../manage/provisioning-and-managing-iis/index.md).
-
-[Code Samples and Scripts](../../manage/provisioning-and-managing-iis/index.md).
+- [Create a Web Site (IIS 7).](https://technet.microsoft.com/en-us/library/cc772350(WS.10).aspx)
+- [Managing Applications in IIS 7](https://office.prowesscorp.com/IIS-PHP_Content_Management_and_Update/Shared%20Documents/Managing%20Applications%20in%20IIS%207).
+- [An Introduction to Windows PowerShell and IIS 7.0 and Above](../../manage/powershell/an-introduction-to-windows-powershell-and-iis.md).
+- [Provisioning Web Sites on IIS 7.0 and Above](../../manage/creating-websites/index.md).
+- [Web Site Deployment Made Easy](../../get-started/introduction-to-iis/web-site-deployment-made-easy.md).
+- [Hosting Services Code Sample](../../manage/provisioning-and-managing-iis/index.md).
+- [Code Samples and Scripts](../../manage/provisioning-and-managing-iis/index.md).

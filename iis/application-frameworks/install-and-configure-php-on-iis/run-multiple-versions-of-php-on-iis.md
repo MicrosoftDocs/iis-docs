@@ -55,6 +55,5 @@ If you have three Web sites (site1, site2, and site3) and each site must use a d
 
 ## Links for Further Information
 
-[Using FastCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md). 
-
-[Another reason that IIS ROCKS and PHP is better on Microsoft Windows!](https://blogs.msdn.com/joestagner/archive/2005/10/30/487051.aspx)
+- [Using FastCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md). 
+- [Another reason that IIS ROCKS and PHP is better on Microsoft Windows!](https://blogs.msdn.com/joestagner/archive/2005/10/30/487051.aspx)

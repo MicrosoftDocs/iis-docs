@@ -82,24 +82,14 @@ For more details on sqlsrv\_connect, see: [SQL Server Developer Center](https://
 
 ## Links for Further Information
 
-[PHP on Windows Training Kit (August 2009).](https://www.microsoft.com/downloads/details.aspx?familyid=C8498C9B-A85A-4AFA-90C0-593D0E4850CB&amp;displaylang=en)
-
-[Microsoft SQL Server Driver for PHP](http://www.codeplex.com/SQLSRVPHP).
-
-[SQL Azure Team Blog](https://blogs.msdn.com/ssds/default.aspx).
-
-[SQL Server Driver for PHP 1.1 - October 2009](https://www.microsoft.com/downloads/details.aspx?FamilyID=ccdf728b-1ea0-48a8-a84a-5052214caad9&amp;displaylang=en).
-
-[Microsoft SQL Server Driver for PHP team blog](https://blogs.msdn.com/sqlphp/default.aspx).
-
-[New SQL Server Driver for PHP Whitepaper](https://blogs.msdn.com/sqlphp/archive/2008/08/29/new-sql-server-driver-for-php-whitepaper-available.aspx).
-
-[SQL Server Driver for PHP example application](https://msdn.microsoft.com/en-us/library/cc296196(SQL.90).aspx).
-
-[php.net](http://php.net/).
-
-[Accessing SQL Server Databases with PHP](https://msdn.microsoft.com/en-us/library/cc793139(SQL.90).aspx)
-
-[Programming Tasks](https://technet.microsoft.com/en-us/library/cc644935(SQL.90).aspx).
-
-[Introducing the SQL Server Driver for PHP](https://msdn.microsoft.com/en-us/library/cc296172(SQL.90).aspx).
+- [PHP on Windows Training Kit (August 2009).](https://www.microsoft.com/downloads/details.aspx?familyid=C8498C9B-A85A-4AFA-90C0-593D0E4850CB&amp;displaylang=en)
+- [Microsoft SQL Server Driver for PHP](http://www.codeplex.com/SQLSRVPHP).
+- [SQL Azure Team Blog](https://blogs.msdn.com/ssds/default.aspx).
+- [SQL Server Driver for PHP 1.1 - October 2009](https://www.microsoft.com/downloads/details.aspx?FamilyID=ccdf728b-1ea0-48a8-a84a-5052214caad9&amp;displaylang=en).
+- [Microsoft SQL Server Driver for PHP team blog](https://blogs.msdn.com/sqlphp/default.aspx).
+- [New SQL Server Driver for PHP Whitepaper](https://blogs.msdn.com/sqlphp/archive/2008/08/29/new-sql-server-driver-for-php-whitepaper-available.aspx).
+- [SQL Server Driver for PHP example application](https://msdn.microsoft.com/en-us/library/cc296196(SQL.90).aspx).
+- [php.net](http://php.net/).
+- [Accessing SQL Server Databases with PHP](https://msdn.microsoft.com/en-us/library/cc793139(SQL.90).aspx)
+- [Programming Tasks](https://technet.microsoft.com/en-us/library/cc644935(SQL.90).aspx).
+- [Introducing the SQL Server Driver for PHP](https://msdn.microsoft.com/en-us/library/cc296172(SQL.90).aspx).
