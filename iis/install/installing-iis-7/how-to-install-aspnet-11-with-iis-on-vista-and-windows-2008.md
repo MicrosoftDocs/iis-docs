@@ -48,7 +48,8 @@ When you install .NET Framework Version 1.1, and SP1 for .NET Framework Version 
 
 [![](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image4.jpg)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image3.jpg)
 
-***note***: If you do not install Framework v1.1 SP1, you may run into Data Execution Prevention errors with messages like "IIS Worker Process has stopped working". This is expected. Installing .NET Framework v1.1 SP1 will fix this.
+> [!NOTE]
+> If you do not install Framework v1.1 SP1, you may run into Data Execution Prevention errors with messages like "IIS Worker Process has stopped working". This is expected. Installing .NET Framework v1.1 SP1 will fix this.
 
 [![](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image6.jpg)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image5.jpg)
 
@@ -56,8 +57,7 @@ When you install .NET Framework Version 1.1, and SP1 for .NET Framework Version 
 
 Enable ASP.NET v1.1 ISAPI as an allowed ISAPI extension. To do this, open "IIS Manager" administration tool. In the features view, click on the "ISAPI and CGI Restrictions" feature. In the actions pane, click "add"
 
-**Extension**: C:\Windows\Microsoft.NET\Framework\v1.1.4322\aspnet\_isapi.dll   
-note: change drive if your system drive is not C:\   
+**Extension**: `C:\Windows\Microsoft.NET\Framework\v1.1.4322\aspnet\_isapi.dll` (**Note:** change drive if your system drive is not C:\)
 **Description**: ASP.NET v1.1
 
 [![](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image6.png)](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/_static/image5.png)

@@ -66,12 +66,12 @@ The following Apple mobile digital devices/iOS mobile operating systems are curr
 - iPhone, iPod touch: iOS 3.0, iOS 3.0.1, iOS 3.1, iOS 3.1.2, iOS 3.1.3, iOS 4.0, iOS 4.1, iOS 5.0
 - iPad: iOS 3.2, iOS 4.2.1, iOS 5.0
 
-**Notes**
-
-- The Apple HTTP Live Streaming feature can't transmux a video-only stream. The encoded live stream received by the publishing point must contain both audio and video.
-- Apple recommends that you not use B-frames when targeting iPhone and iPod devices.
-- While the iPhone 3GS or later can play content that is at a level higher than Baseline 3.0, it's not recommended if you plan to target older iPhone devices and iPod touch devices.
-- It's not recommended to use AAC-LC audio at bitrates higher than 64 Kbps when targeting iPhone/iPod devices.
+> [!NOTE]
+> 
+> - The Apple HTTP Live Streaming feature can't transmux a video-only stream. The encoded live stream received by the publishing point must contain both audio and video.
+> - Apple recommends that you not use B-frames when targeting iPhone and iPod devices.
+> - While the iPhone 3GS or later can play content that is at a level higher than Baseline 3.0, it's not recommended if you plan to target older iPhone devices and iPod touch devices.
+> - It's not recommended to use AAC-LC audio at bitrates higher than 64 Kbps when targeting iPhone/iPod devices.
 
 <a id="install"></a>
 
@@ -102,7 +102,8 @@ To configure your first Live Smooth Streaming publishing point, do the following
 9. Set **Segment length** to **10** seconds. This sets the size of the MPEG-2 TS "chunks" that are delivered to the device. Lowering this value will decrease the amount of buffering latency on the client. The Apple-recommended setting is **10** seconds and you shouldn't set this lower than **2** seconds.
 10. Set the **Maximum bit rate** to the value of the highest bitrate stream for which you want to enable MPEG-2 TS conversion. The maximum recommended bitrate for delivery to Apple iPhone® and Apple iPad® is 1600 kilobits per second (Kbps). Lowering this value reduces the number of streams that are transmuxed to MPEG-2 TS. Raising it allows more streams to be converted. For example, you might have the following typical spectrum of bitrates targeting Smooth Streaming clients: 200 Kbps, 400 Kbps, 800 Kbps, 1,600 Kbps, 3200 Kbps, and 4000 Kbps. To filter out the top two bandwidths (3200 Kbps and 4000 Kbps), which aren't supported by the iPhone, you would set **Maximum bit rate (Kbps)** to **1600**. This prevents the two highest bitrates from being transmuxed on the server. 
 
-    > **Important** In IIS Media Services 4.0, the default value was set to **3000** Kbps to account for a known issue in Microsoft Expression Encoder 4 where the audio bitrate wasn't reported correctly. Lowering this value to **1600** Kbps removed all video tracks, leaving an audio-only stream.  
+    > [!IMPORTANT]
+    > In IIS Media Services 4.0, the default value was set to **3000** Kbps to account for a known issue in Microsoft Expression Encoder 4 where the audio bitrate wasn't reported correctly. Lowering this value to **1600** Kbps removed all video tracks, leaving an audio-only stream.  
     >   
     > This issue is fixed in [Expression Encoder 4 with Service Pack 1](https://go.microsoft.com/?linkid=9734740). If you're using this version of Expression Encoder to encode live Smooth Streams, lower the **Maximum bit rate** value to **1600** Kbps to filter the bitrates correctly.
 11. Click **OK** to create the publishing point.
