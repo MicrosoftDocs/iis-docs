@@ -65,11 +65,11 @@ If this is not possible, you can workaround the issue by creating a copy of the 
     [!code-powershell[Main](acquia-drupal-faq/samples/sample2.ps1)]
 6. Change the line to escape special characters, you will find the hex replacements listed in *settings.php*.  
   
- For example, change the following line:
+	For example, change the following line:
 
     [!code-powershell[Main](acquia-drupal-faq/samples/sample3.ps1)]
 
- to:
+	to:
 
     [!code-powershell[Main](acquia-drupal-faq/samples/sample4.ps1)]
 7. Click **Save** on the **Quick Access Toolbar** or press Ctrl + S.

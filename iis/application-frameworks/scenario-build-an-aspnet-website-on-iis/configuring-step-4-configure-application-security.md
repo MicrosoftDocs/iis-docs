@@ -83,10 +83,7 @@ The level attribute uses one of five values that correspond to preconfigured CAS
 <a id="43"></a>
 ## 4.3. .NET Authentication
 
-In [Plan an ASP.NET Website on IIS](plan-an-asp-net-website-on-iis.md), you made design decisions about what authentication mode was right for your application. The following sections decide how to configure authentication for your ASP.NET application:
-
-1. [ASP.NET Forms Authentication](#431)
-2. [ASP.NET Impersonation Authentication](#432)
+In [Plan an ASP.NET Website on IIS](plan-an-asp-net-website-on-iis.md), you made design decisions about what authentication mode was right for your application.
 
 <a id="431"></a>
 ### ASP.NET Forms Authentication

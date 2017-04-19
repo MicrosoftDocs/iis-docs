@@ -70,10 +70,11 @@ The following steps and articles constitute a complete guide for setting up an A
 9. Configure the ARR server to forward customer site error details. The ARR server must be configured to forward any error details that customers want their Web sites to send back to Web clients. After this step has been completed, customers will be able to control error page content. By default, the ARR server will forward errors but will omit the error details. Follow these steps to allow error details to be forwarded:
 
     1. Using IIS Manager to manage the ARR server, select the Error Pages module.[![](application-request-routing-arr-20-for-shared-hosting/_static/image8.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image7.jpg)
-    2. In the Actions pane (on the right side), click Edit Feature Settings.![](application-request-routing-arr-20-for-shared-hosting/_static/image9.jpg)
+    2. In the Actions pane (on the right side), click Edit Feature Settings.
+	    ![](application-request-routing-arr-20-for-shared-hosting/_static/image9.jpg)
     3. In the Edit Error Pages Settings dialog box, select Detailed errors, and then click OK
 
-> [![](application-request-routing-arr-20-for-shared-hosting/_static/image11.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image10.jpg)
+[![](application-request-routing-arr-20-for-shared-hosting/_static/image11.jpg)](application-request-routing-arr-20-for-shared-hosting/_static/image10.jpg)
 
 
 ## Conclusion

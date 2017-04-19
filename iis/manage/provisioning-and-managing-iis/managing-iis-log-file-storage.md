@@ -44,7 +44,8 @@ IIS log files compress to about 2% of their original size. Enable compression of
 2. Move to the folder containing IIS log files (by default, `%SystemDrive%\inetpub\logs\LogFiles`).
 3. Right-click on the folder and click **Properties**.
 4. On the **General** tab of the **Properties** page, click **Advanced**.
-5. Click **Compress contents to save disk space**, and then click **OK**.![Enabling compression](managing-iis-log-file-storage/_static/image1.jpg)
+5. Click **Compress contents to save disk space**, and then click **OK**.
+    ![Enabling compression](managing-iis-log-file-storage/_static/image1.jpg)
 6. Click **Apply**, and then select whether to compress the folder only, or the folder, its subfolders, and its files.
 7. Click **OK**. Verify that the folder contents are compressed. The name of the folder and the name of each file should be colored blue, and the size of a compression file should be smaller.
 
@@ -62,15 +63,18 @@ This solution can help the security of the system, because if a local hard drive
 Change the location of an IIS log file to a remote share as follows:
 
 1. Create a log-file directory on a remote server that is in the same domain as your local Web server running IIS.
-2. In the folder's **Properties** page, on the **Sharing** tab, click **Share** so that the directory is shared. On the **Security** tab, assign groups and users with the appropriate permissions. Ensure that the appropriate groups and users are able to read and write to the log files.![Log Folder Properties](managing-iis-log-file-storage/_static/image2.jpg)
+2. In the folder's **Properties** page, on the **Sharing** tab, click **Share** so that the directory is shared. On the **Security** tab, assign groups and users with the appropriate permissions. Ensure that the appropriate groups and users are able to read and write to the log files.
+    ![Log Folder Properties](managing-iis-log-file-storage/_static/image2.jpg)
 
     For more information, see [Configuring Permissions for Remote Logging](https://technet.microsoft.com/en-us/library/cc779701(v=ws.10).aspx).
 
     Note: If you want to write log files to a remote server in a different domain, see [Setting Up a Null Session for Cross-Domain Logging](https://technet.microsoft.com/en-us/library/cc728059(v=ws.10).aspx).
 3. Open **IIS Manager** on your local Web server.
 4. In **IIS Manager**, in the **Connections** pane, click the server or a Web site.
-5. Double-click **Logging**.![Logging Icon](managing-iis-log-file-storage/_static/image3.jpg)
-6. In the **Directory** text box, enter the full UNC path of the directory that you created on the remote server. For example, type \\servername\Logs, where "servername" represents the name of the remote server, and "Logs" represents the name of the share where the log files are stored.![Logging Page](managing-iis-log-file-storage/_static/image4.jpg)
+5. Double-click **Logging**.
+    ![Logging Icon](managing-iis-log-file-storage/_static/image3.jpg)
+6. In the **Directory** text box, enter the full UNC path of the directory that you created on the remote server. For example, type \\servername\Logs, where "servername" represents the name of the remote server, and "Logs" represents the name of the share where the log files are stored.
+    ![Logging Page](managing-iis-log-file-storage/_static/image4.jpg)
 7. In the **Actions** pane, click **Apply**, and then click **OK**. All Web sites within the directory should begin logging data to the remote share.
 
     For more information, see [Remote Logging](https://technet.microsoft.com/en-us/library/cc786172(v=ws.10).aspx).
@@ -95,13 +99,18 @@ Using a script to delete log files is a long-term, reliable solution to the prob
 You can automate the task of deleting log files by script by creating a Windows task schedule to run the script periodically. You can schedule the script to run at any time using the Windows Task Scheduler. How you configure the scheduled task should be coordinated with the configuration of the log file rollover options.
 
 1. Open **Server Manager**, click the **Tools** menu, and then click **Task Scheduler**.
-2. In the **Actions** pane of the **Task Scheduler** dialog box, click **Create Task**.![Create Task control](managing-iis-log-file-storage/_static/image5.jpg)
-3. On the **General** tab of the **Create Task** dialog box, enter a name for the task, such as "Delete Log Files". Set the security properties, selecting a user account with sufficient privileges to run the script.![Create Task dialog box](managing-iis-log-file-storage/_static/image6.jpg)
-4. Click the **Triggers** tab, and then click **New**. In the **New Trigger** dialog box, set **Begin the task** to **On a schedule**. Select the periodicity, for example, **Daily**. Enter the **Start** date, select more advanced settings, and ensure that **Enabled** is selected if you are ready to initiate the schedule. Click **OK**.![New Trigger dialog box](managing-iis-log-file-storage/_static/image7.jpg)
-5. Click the **Actions** tab, and then click **New**. In the **New Action** dialog box, select a value for **Action**, in this case, **Start a program**. In **Program/script**, enter **cscript**, and in **Add arguments (optional)**, enter the path and name of the script file, for example, `C:\iis\Log\_File\_Deletion.vbs`. Click **OK**.![New Action dialog box](managing-iis-log-file-storage/_static/image8.jpg)
+2. In the **Actions** pane of the **Task Scheduler** dialog box, click **Create Task**.
+    ![Create Task control](managing-iis-log-file-storage/_static/image5.jpg)
+3. On the **General** tab of the **Create Task** dialog box, enter a name for the task, such as "Delete Log Files". Set the security properties, selecting a user account with sufficient privileges to run the script.
+    ![Create Task dialog box](managing-iis-log-file-storage/_static/image6.jpg)
+4. Click the **Triggers** tab, and then click **New**. In the **New Trigger** dialog box, set **Begin the task** to **On a schedule**. Select the periodicity, for example, **Daily**. Enter the **Start** date, select more advanced settings, and ensure that **Enabled** is selected if you are ready to initiate the schedule. Click **OK**.
+    ![New Trigger dialog box](managing-iis-log-file-storage/_static/image7.jpg)
+5. Click the **Actions** tab, and then click **New**. In the **New Action** dialog box, select a value for **Action**, in this case, **Start a program**. In **Program/script**, enter **cscript**, and in **Add arguments (optional)**, enter the path and name of the script file, for example, `C:\iis\Log\_File\_Deletion.vbs`. Click **OK**.
+    ![New Action dialog box](managing-iis-log-file-storage/_static/image8.jpg)
 6. Click **OK**.
 7. Verify that the task has been added to the **Active Tasks** pane.
-8. Right-click on the new task, and select **Run**.![Task Scheduler dialog box](managing-iis-log-file-storage/_static/image9.jpg)
+8. Right-click on the new task, and select **Run**.
+    ![Task Scheduler dialog box](managing-iis-log-file-storage/_static/image9.jpg)
 9. Navigate to the folder that the script ran on, and verify that the appropriate log files were deleted.
 10. Navigate back to the Task Scheduler, right-click on the task, and click **End** so the status returns to **Ready** and the task is ready for scheduled runs.
 
@@ -134,7 +143,8 @@ To download, configure, and run the IIS Log Cleaner tool, proceed as follows:
 3. Execute IISLogCleaner.exe in the folder. This creates the settings.txt file in the same folder.
 4. To make changes to the settings.txt file, open the file with a text editor, or right-click the **IIS** icon in the notification area, and then click **Settings**.
 5. If you change the settings file, exit the tool by right-clicking the IIS notification icon and then clicking **Exit**, and then launch the tool again.
-6. Right-click the **IIS** icon in the notifications area, and then click **Paused** to un-pause the application.![IIS Cleaner Tool](managing-iis-log-file-storage/_static/image10.jpg)
+6. Right-click the **IIS** icon in the notifications area, and then click **Paused** to un-pause the application.
+    ![IIS Cleaner Tool](managing-iis-log-file-storage/_static/image10.jpg)
 7. The application will run once an hour and move log files older than the specified period to the recycle bin. To run the cleaning tool manually, right-click the **IIS** icon in the notifications area, and then click **Clean Now**.
 8. Optionally, adjust the recycle bin size to control how much log data is kept before being purged from the recycle bin by the operating system.
 

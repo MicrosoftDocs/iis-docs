@@ -177,7 +177,7 @@ The Php.ini file provides PHP with configuration and environmental information. 
 
     *Figure 10: Using session state*
 
-    21. Observe that the counter is 2.
+21. Observe that the counter is 2.
 
 > [!NOTE]
 > *This article uses information from "*[*Using FastCGI to Host PHP Applications on IIS 7.0 and Above*](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md#InstallPHP)*" by Ruslan Yakushev, published on December 5, 2007.*

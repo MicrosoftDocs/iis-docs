@@ -74,21 +74,29 @@ To enable ARR as a proxy, and to create a URL Rewrite rule to enable ARR as a fo
 
 1. Open Internet Information Services (IIS) Manager.
 2. In the **Connections** pane, select the server.
-3. In the server pane, double-click **Application Request Routing Cache**.![ARR Cache icon](creating-a-forward-proxy-using-application-request-routing/_static/image3.jpg)
-4. In the **Actions** pane, click **Server Proxy Settings**.![Server Proxy Settings](creating-a-forward-proxy-using-application-request-routing/_static/image4.jpg)
-5. On the **Application Request Routing** page, select **Enable proxy**.![Enable proxy](creating-a-forward-proxy-using-application-request-routing/_static/image5.jpg)
-6. In the **Actions** pane, click **Apply**. This enables ARR as a proxy at the server level.![Enable ARR as a proxy](creating-a-forward-proxy-using-application-request-routing/_static/image6.jpg)
+3. In the server pane, double-click **Application Request Routing Cache**.
+    ![ARR Cache icon](creating-a-forward-proxy-using-application-request-routing/_static/image3.jpg)
+4. In the **Actions** pane, click **Server Proxy Settings**.
+    ![Server Proxy Settings](creating-a-forward-proxy-using-application-request-routing/_static/image4.jpg)
+5. On the **Application Request Routing** page, select **Enable proxy**.
+    ![Enable proxy](creating-a-forward-proxy-using-application-request-routing/_static/image5.jpg)
+6. In the **Actions** pane, click **Apply**. This enables ARR as a proxy at the server level.
+    ![Enable ARR as a proxy](creating-a-forward-proxy-using-application-request-routing/_static/image6.jpg)
 7. To start the process of turning ARR into a forward proxy, click on the server node in the **Connections** pane.
-8. In the server pane, double-click **URL Rewrite**.![URL Rewrite](creating-a-forward-proxy-using-application-request-routing/_static/image7.jpg)
-9. In the **Actions** pane, click **Add Rule(s)**.![Add Rule](creating-a-forward-proxy-using-application-request-routing/_static/image8.jpg)
-10. In the **Add Rule** dialog box, double-click **Blank Rule**.![Blank Rule](creating-a-forward-proxy-using-application-request-routing/_static/image9.jpg)
+8. In the server pane, double-click **URL Rewrite**.
+    ![URL Rewrite](creating-a-forward-proxy-using-application-request-routing/_static/image7.jpg)
+9. In the **Actions** pane, click **Add Rule(s)**.
+    ![Add Rule](creating-a-forward-proxy-using-application-request-routing/_static/image8.jpg)
+10. In the **Add Rule** dialog box, double-click **Blank Rule**.
+    ![Blank Rule](creating-a-forward-proxy-using-application-request-routing/_static/image9.jpg)
 11. In the **Edit Inbound Rule** dialog box, enter "Forward Proxy" for **Name**. In the **Match URL** area, enter the following: 
 
     - Using: Wildcards
     - Pattern: \*
 
     ![Edit Inbound Rule](creating-a-forward-proxy-using-application-request-routing/_static/image10.jpg)
-12. Scroll down to the **Conditions** area of the **Edit Inbound Rule** dialog box, and then click **Add…**.![Add Condition](creating-a-forward-proxy-using-application-request-routing/_static/image11.jpg)
+12. Scroll down to the **Conditions** area of the **Edit Inbound Rule** dialog box, and then click **Add…**.
+    ![Add Condition](creating-a-forward-proxy-using-application-request-routing/_static/image11.jpg)
 13. In the **Add Condition** dialog box, select or enter the following: 
 
     - Condition Input: {HTTP\_HOST}

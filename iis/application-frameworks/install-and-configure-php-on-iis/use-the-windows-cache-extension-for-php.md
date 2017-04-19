@@ -58,7 +58,7 @@ The extension packages can be found at:
 9. Open a browser and make a request to `http://yoursitename/phpinfo.php`.
 10. Search within the returned Web page for a section called "wincache". If the extension is enabled, then you should see the configuration settings provided by the Windows Cache Extension for PHP.
 
-![](use-the-windows-cache-extension-for-php/_static/image1.gif)
+	![](use-the-windows-cache-extension-for-php/_static/image1.gif)
 
 > [!IMPORTANT]
 > Do not forget to remove the **Phpinfo.php** file from the Web site's root folder after you have confirmed that extension has been enabled.
