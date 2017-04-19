@@ -53,15 +53,15 @@ Your native module has the following life cycle:
 
 1. When the server worker process starts, it will load the DLL containing your module, and invoke its exported **RegisterModule** function. In this function, you:
 
-> a. Create the module factory.   
-> b. Register the module factory for the request pipeline events your module implements.
+    a. Create the module factory.   
+    b. Register the module factory for the request pipeline events your module implements.
 
 
 2. When a request arrives, the server:
 
-> a. Creates an instance of your module class using the factory you provided.   
-> b. Calls the appropriate event handler method on the module instance for each of the request events you registered for.   
-> c. Disposes the instance of the module at the end of request processing.
+    a. Creates an instance of your module class using the factory you provided.   
+    b. Calls the appropriate event handler method on the module instance for each of the request events you registered for.   
+    c. Disposes the instance of the module at the end of request processing.
 
 
 Now, to build it.
@@ -71,7 +71,6 @@ The full source code for the module is available in the [Visual Studio IIS7 Nati
 Implement the **RegisterModule** function that the server invokes when the module DLL is loaded. Its signature and the rest of the native API is defined in the **httpserv.h** header file, which is part of the Platform SDK (if you do not have the Platform SDK, please see the [Introduction](https://www.iis.net/overview) for information on obtaining it):
 
 **main.cpp**:
-
 
 [!code-console[Main](develop-a-native-cc-module-for-iis/samples/sample1.cmd)]
 
