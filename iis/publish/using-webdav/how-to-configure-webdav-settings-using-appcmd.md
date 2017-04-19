@@ -68,18 +68,18 @@ AppCmd.exe also provides extensive command-line help support, which can be acces
 
 The list of commands depends on the object, and the following objects are supported:
 
-> | Object | Description |
-> | --- | --- |
-> | SITE | Administration of virtual sites |
-> | APP | Administration of applications |
-> | VDIR | Administration of virtual directories |
-> | APPPOOL | Administration of application pools |
-> | CONFIG | Administration of general configuration sections |
-> | WP | Administration of worker processes |
-> | REQUEST | Administration of HTTP requests |
-> | MODULE | Administration of server modules |
-> | BACKUP | Administration of server configuration backups |
-> | TRACE | Working with failed request trace logs |
+| Object | Description |
+| --- | --- |
+| SITE | Administration of virtual sites |
+| APP | Administration of applications |
+| VDIR | Administration of virtual directories |
+| APPPOOL | Administration of application pools |
+| CONFIG | Administration of general configuration sections |
+| WP | Administration of worker processes |
+| REQUEST | Administration of HTTP requests |
+| MODULE | Administration of server modules |
+| BACKUP | Administration of server configuration backups |
+| TRACE | Working with failed request trace logs |
 
 
 For example, you can list which web sites are configured on your server using the SITE object with the following syntax:
@@ -172,14 +172,14 @@ To disable listing hidden files, set the "allowHiddenFiles" attribute to "false"
 
 In order to be compatible with previous versions of WebDAV for IIS, some optional features are exposed through compatibility settings. Currently the list of options is as follows:
 
-> | Compatibility Setting | Description |
-> | --- | --- |
-> | None | Specifies that no compatibility features should be supported. |
-> | MsAuthorVia | Specifies that the "MS-Author-Via" header should be returned. (Note: Several of Microsoft's web authoring tools use this header.) |
-> | MultiProp | Specifies that multiple &lt;prop&gt; statements should be allowed in client requests. |
-> | CompactXml | Defines whether the XML returned by the WebDAV module will terminate each line with a CRLF sequence. |
-> | IsHidden | Specifies that the IsHidden pseudo-live property should be supported. |
-> | IsCollection | Specifies that the IsCollection pseudo-live property should be supported. |
+| Compatibility Setting | Description |
+| --- | --- |
+| None | Specifies that no compatibility features should be supported. |
+| MsAuthorVia | Specifies that the "MS-Author-Via" header should be returned. (Note: Several of Microsoft's web authoring tools use this header.) |
+| MultiProp | Specifies that multiple &lt;prop&gt; statements should be allowed in client requests. |
+| CompactXml | Defines whether the XML returned by the WebDAV module will terminate each line with a CRLF sequence. |
+| IsHidden | Specifies that the IsHidden pseudo-live property should be supported. |
+| IsCollection | Specifies that the IsCollection pseudo-live property should be supported. |
 
 
 To set any of these features, you will need to set the value of "compatFlags" attribute on the "authoring" section using syntax like the following:
@@ -224,12 +224,12 @@ To reset the default MIME type, use the following syntax:
 
 Authoring rules are kept in a collection, and each rule can contain the following attributes:
 
-> | Attribute | Description |
-> | --- | --- |
-> | path | Specifies the content type for the rule. (See below) |
-> | users | Specifies the user name for the rule. (See below) |
-> | roles | Specifies a group/role for the rule. |
-> | access | Specifies the access type for the rule. (See below) |
+| Attribute | Description |
+| --- | --- |
+| path | Specifies the content type for the rule. (See below) |
+| users | Specifies the user name for the rule. (See below) |
+| roles | Specifies a group/role for the rule. |
+| access | Specifies the access type for the rule. (See below) |
 
 
 **Notes**:

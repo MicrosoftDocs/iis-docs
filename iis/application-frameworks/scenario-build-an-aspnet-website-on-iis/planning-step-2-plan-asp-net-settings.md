@@ -48,7 +48,8 @@ The advantage of using in-process session state is that it provides the fastest 
 
 Before you configure in-process session state, consider the effect of worker process recycling on session state data. If the worker process recycles, all session state data is lost. If your ASP.NET applications must preserve session-state data, and if speed of access to the data is not your primary objective, consider using an out-of-process session state mode for storing this data.
 
-**Important**: The Windows state service (Aspnet\_state.exe) must be running for in-process session state to take effect. By default, this service is installed when Windows Server® 2012 is installed and is configured for manual start. It is recommended that you change the start behavior to Automatic.
+> [!IMPORTANT]
+> The Windows state service (Aspnet\_state.exe) must be running for in-process session state to take effect. By default, this service is installed when Windows Server® 2012 is installed and is configured for manual start. It is recommended that you change the start behavior to Automatic.
 
 By default, the session expires when the user has not requested or refreshed a page in the ASP.NET application for 20 minutes. Because Session objects consume memory on the web server, consider decreasing the time-out value to conserve resources.
 
@@ -84,9 +85,11 @@ One type of out-of-process session state uses a SQL server to store session stat
 
 When a SQL server runs on the same web server that has the applications for which it maintains state, it supports a web garden configuration, which increases web server scalability. When the SQL server runs on another server, it supports a web farm configuration, which greatly increases scalability across a group of servers.
 
-**Important**: The Windows state service (Aspnet\_state.exe) must be running for out-of-process session state to take effect. By default, this service is installed when Windows Server 2012 is installed and is configured for manual start. Change the start behavior to Automatic.
+> [!IMPORTANT]
+> The Windows state service (Aspnet\_state.exe) must be running for out-of-process session state to take effect. By default, this service is installed when Windows Server 2012 is installed and is configured for manual start. Change the start behavior to Automatic.
 
-**Important**: Before you configure a SQL server for session state, run the InstallSqlState.sql script on the server. By default, this script is stored in `%systemroot%\Microsoft.NET\Framework\V4.0.30319`.
+> [!IMPORTANT]
+> Before you configure a SQL server for session state, run the InstallSqlState.sql script on the server. By default, this script is stored in `%systemroot%\Microsoft.NET\Framework\V4.0.30319`.
 
 If you decide to store session state in a SQL Server database, make the following design decisions:
 
@@ -108,15 +111,18 @@ Using cookies to track session state is more efficient than any other method tha
 
 The *Use Device Profile* cookie mode causes the browser to use cookies if the browser supports cookies; otherwise, no cookies are used. If the device profile indicates support for cookies, they are used regardless of whether the user has disabled cookie support.
 
-**Important**: When you use the Use Device Profile cookie mode, set expired session IDs be regenerated. Doing so allows a web server to expire and regenerate tokens, which gives a potential attacker less time to capture a cookie and gain access to web server content.
+> [!IMPORTANT]
+> When you use the Use Device Profile cookie mode, set expired session IDs be regenerated. Doing so allows a web server to expire and regenerate tokens, which gives a potential attacker less time to capture a cookie and gain access to web server content.
 
 The *Auto-Detect* cookie mode causes the mobile device to use cookies if its profile supports cookies; otherwise, no cookies are used. For desktop browsers that are known to support cookies, ASP.NET tries to use cookies when cookie support is enabled in the browser. If cookie support is disabled, session state is stored in the URL.
 
-**Important**: When you use the Auto-Detect cookie mode, set expired session IDs be regenerated. Doing so enables a web server to expire and regenerate tokens, which gives a potential attacker less time to capture a cookie and gain access to web server content. Consider changing the time-out value to less than the 20-minute default.
+> [!IMPORTANT]
+> When you use the Auto-Detect cookie mode, set expired session IDs be regenerated. Doing so enables a web server to expire and regenerate tokens, which gives a potential attacker less time to capture a cookie and gain access to web server content. Consider changing the time-out value to less than the 20-minute default.
 
 You can configure session state without using cookies. When you use a Uniform Resource Identifier (URI) to handle session state, the session ID is embedded as a query string in the URI request, and then the URI is redirected to the originally requested URL. The changed URI request is used for the duration of the session, so that no cookie is necessary.
 
-**Important**: When you use a URI, set expired session IDs be regenerated. Doing so enables a web server to expire and regenerate tokens, which gives a potential attacker less time to capture a cookie and gain access to web server content.
+> [!IMPORTANT]
+> When you use a URI, set expired session IDs be regenerated. Doing so enables a web server to expire and regenerate tokens, which gives a potential attacker less time to capture a cookie and gain access to web server content.
 
 Using a URI to track session state can help you avoid the disadvantages of cookies, including browser support problems and the possibility that users disable cookies. However, using a URI has the following disadvantages:
 

@@ -184,7 +184,8 @@ The full name of the assembly can be determined from this window. So for example
 
 [!code-xml[Main](understanding-ui-extension-authoring/samples/sample10.xml)]
   
-**Note: By adding this entry, this module is only registered for server connections.**
+> [!NOTE]
+> By adding this entry, this module is only registered for server connections.
 
 Build the solution and run inetmgr and you will see following screenshots
 

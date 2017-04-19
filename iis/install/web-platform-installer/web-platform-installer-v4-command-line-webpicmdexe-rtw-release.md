@@ -34,7 +34,7 @@ WebPI v4 x64: [https://download.microsoft.com/download/C/F/F/CFF3A0B8-99D4-41A2-
 
 ## Setting up WebPICMD.exe
 
-Just run the installer and that's it - you'll find WebPICMD.exe in the %programfiles%\microsoft\web platform installer directory
+Just run the installer and that's it - you'll find WebPICMD.exe in the `%programfiles%\microsoft\web platform installer` directory
 
 ## Using WebPICMD.exe
 
@@ -190,11 +190,10 @@ Here's the full set of offline mode parameters:
 
 Now let's see it in action:
 
+Ex: `&gt;WebPICMD.exe /Offline /Products:WebMatrix,SQLExpress /Path:c:\OfflineCache`
 
-Ex: &gt;WebPICMD.exe /Offline /Products:WebMatrix,SQLExpress /Path:c:\OfflineCache
 
-
-The above will create an offline cache at "c:\offlineCache" that contains WebMatrix and all it's possible dependencies!
+The above will create an offline cache at `c:\offlineCache` that contains WebMatrix and all it's possible dependencies!
 
 ##### Optional Parameters for /Offline
 
@@ -221,7 +220,7 @@ In the above example, we created our offline cache on a public server that we ca
 ##### Setting up the offline cache that includes your own products
 
 
-Ex: &gt;WebPICMD.exe /Offline /Products:SQLExpress,MyCompanyProduct /Feeds:c:\myproductfeed.xml /Path:c:\MyOfflineCache
+Ex: `&gt;WebPICMD.exe /Offline /Products:SQLExpress,MyCompanyProduct /Feeds:c:\myproductfeed.xml /Path:c:\MyOfflineCache`
 
 
 Now I can add my own products to the cache for use offline

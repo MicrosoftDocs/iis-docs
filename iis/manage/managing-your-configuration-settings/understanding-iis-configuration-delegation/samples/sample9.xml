@@ -1,7 +1,7 @@
 <location path="Developer Site"> 
-        <defaultDocument enabled="true" lockElements="files" > 
-            <files> 
-                <add value="Developer.htm" /> 
-            </files> 
-        </defaultDocument> 
+	<defaultDocument enabled="true" lockElements="files" > 
+		<files> 
+			<add value="Developer.htm" /> 
+		</files> 
+	</defaultDocument> 
 </location>

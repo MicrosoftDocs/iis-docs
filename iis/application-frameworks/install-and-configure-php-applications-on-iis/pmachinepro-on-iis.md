@@ -28,12 +28,12 @@ The following sections describe how to install and configure pMachinePro for use
 
 pMachine Pro does not require many modifications beyond the default configuration provided by PHP. From the base configuration file provided by PHP, you only need to modify the following lines in your php.ini configuration file to get pMachine Pro working:
 
-- Define 'extension\_dir' as 'c:\php\ext' (i.e., the location of your PHP extensions directory)
-- Uncomment 'extension=php\_mysql.dll' in the extensions list to enable MySQL support
+- Define `extension\_dir` as `c:\php\ext` (i.e., the location of your PHP extensions directory)
+- Uncomment `extension=php\_mysql.dll` in the extensions list to enable MySQL support
 
 ## Download and Unpack pMachinePro
 
-First, download the latest stable release of pMachine Pro. For this article, we use pMachine Pro 2.4.1 downloaded from here **&lt;ISSUE: Missing link&gt;.** Once you download the package, uncompress it and copy all the files and folders to C:\Inetpub\wwwroot\pMachine.
+First, download the latest stable release of pMachine Pro. For this article, we use pMachine Pro 2.4.1 downloaded from here **&lt;ISSUE: Missing link&gt;.** Once you download the package, uncompress it and copy all the files and folders to `C:\Inetpub\wwwroot\pMachine`.
 
 ## Set Up the Database
 

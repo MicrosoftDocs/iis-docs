@@ -32,12 +32,12 @@ The instructions have been tested and found to work in the following configurati
 
 XOOPS does not require many modifications beyond the default configuration provided by PHP **.** From the base configuration file provided by PHP, you only need to modify the following lines in your php.ini configuration file to get XOOPS working:
 
-- Define 'extension\_dir' as 'c:\php\ext' (i.e., the location of your php extensions directory)
-- Uncomment 'extension=php\_mysql.dll' in the extensions list to enable MySQL support
+- Define `extension\_dir` as `c:\php\ext` (i.e., the location of your php extensions directory)
+- Uncomment `extension=php\_mysql.dll` in the extensions list to enable MySQL support
 
 ## Download and Unzip XOOPS
 
-The latest release of XOOPS is at [http://www.xoops.org/](http://www.xoops.org/). The instructions in this document are based on version 2.0.17, but future versions are likely to be very similar as far as installation is concerned. After downloading the zip package, extract the contents of the 'htdocs' folder from the archive into C:\Inetpub\wwwroot\xoops or another directory of your choosing.
+The latest release of XOOPS is at [http://www.xoops.org/](http://www.xoops.org/). The instructions in this document are based on version 2.0.17, but future versions are likely to be very similar as far as installation is concerned. After downloading the zip package, extract the contents of the 'htdocs' folder from the archive into `C:\Inetpub\wwwroot\xoops` or another directory of your choosing.
 
 ## Access Permissions
 

@@ -77,8 +77,8 @@ After installing Web Deploy using method (1) or (2a), described above, all serve
 > 2. When you click **Setup**, the following log will lines will appear:
 > 
 > - Publish enabled for 'NonAdminUser'
-> - Granted 'NonAdminUser' full control on 'C:\inetpub\wwwroot\test'
-> - Successfully created settings file 'C:\Users\JohnDoe\Desktop\NonAdminUser\_Default Web Site.PublishSettings'
+> - Granted 'NonAdminUser' full control on `C:\inetpub\wwwroot\test`
+> - Successfully created settings file `C:\Users\JohnDoe\Desktop\NonAdminUser\_Default Web Site.PublishSettings`
 > 
 > 1. The non-administrator Windows user (NonAdminUser) may now publish to the site (test).
 

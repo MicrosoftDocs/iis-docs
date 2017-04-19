@@ -207,7 +207,7 @@ Description: Restores a web server package. Common usage is to back up a server 
 
 [!code-powershell[Main](web-deploy-powershell-cmdlets/samples/sample21.ps1)]
 
-Description: Restores an IIS Site package. If the package has two parameters named "Site Physical Path" and "Site Name" they will be exposed as SitePhysicalPath and SiteName dynamic powershell parameter. This command will create a new site site1 with physical path c:\site1. If no value is specified for these parameters, restore will apply to the same site and content, overwriting any changes you might have in the site.
+Description: Restores an IIS Site package. If the package has two parameters named "Site Physical Path" and "Site Name" they will be exposed as SitePhysicalPath and SiteName dynamic powershell parameter. This command will create a new site site1 with physical path `c:\site1`. If no value is specified for these parameters, restore will apply to the same site and content, overwriting any changes you might have in the site.
 
 Parameters: You might want to use skipfolderlist and skipfilelist to exclude some folders and/or files from being copied in site contents.
 
@@ -293,7 +293,7 @@ You can invoke commands or scripts on a remote system using destinationpublishse
 
 ### A. Script
 
-Invoke-WDScript C:\my.cmd –Verbose
+`Invoke-WDScript C:\my.cmd –Verbose`
 
 This will execute the script and you will be able to see the output of the command if you run it with verbose.
 
@@ -327,7 +327,7 @@ I want to sync two IIS 7.5 servers, Owais-1 and Owais-2. I will first create a p
 
 #### 2. Site
 
-In the following command, the site2 will get created if it did not exist and I have also changed the physical path (the contents will thus get copied to the new folder c:\site2) and the binding of the site.
+In the following command, the site2 will get created if it did not exist and I have also changed the physical path (the contents will thus get copied to the new folder `c:\site2`) and the binding of the site.
 
 [!code-console[Main](web-deploy-powershell-cmdlets/samples/sample38.cmd)]
 

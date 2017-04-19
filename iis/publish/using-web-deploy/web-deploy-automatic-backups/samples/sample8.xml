@@ -1,15 +1,15 @@
 <wdeploy>
-        <backup enabled="true"
-                numberOfBackups="2"
-                backupPath="{sitePathParent}\{siteName}_siteBackups"
-                continueSyncOnBackupFailure="false">
-         <excludedProviders>
-            <provider name="dbFullSql" />
-         </excludedProviders>
-         <backupSettingsProvider
-                canSetEnabled="true"
-                canSetNumberOfBackups="true"
-                canSetContinueSyncOnBackupFailure="true"
-                canSetExcludedProviders="true" />
-        </backup>
-      </wdeploy>
+	<backup enabled="true"
+			numberOfBackups="2"
+			backupPath="{sitePathParent}\{siteName}_siteBackups"
+			continueSyncOnBackupFailure="false">
+	 <excludedProviders>
+		<provider name="dbFullSql" />
+	 </excludedProviders>
+	 <backupSettingsProvider
+			canSetEnabled="true"
+			canSetNumberOfBackups="true"
+			canSetContinueSyncOnBackupFailure="true"
+			canSetExcludedProviders="true" />
+	</backup>
+</wdeploy>

@@ -1,12 +1,12 @@
 <location path="siteName">
-        <system.webServer>
-            <wdeploy>
-                <backup enabled="true" numberOfBackups="4">
-                    <excludedProviders>
-                        <clear />
-                        <provider name="dbfullsql" />
-                    </excludedProviders>
-                </backup>
-            </wdeploy>
-        </system.webServer>
-    </location>
+	<system.webServer>
+		<wdeploy>
+			<backup enabled="true" numberOfBackups="4">
+				<excludedProviders>
+					<clear />
+					<provider name="dbfullsql" />
+				</excludedProviders>
+			</backup>
+		</wdeploy>
+	</system.webServer>
+</location>

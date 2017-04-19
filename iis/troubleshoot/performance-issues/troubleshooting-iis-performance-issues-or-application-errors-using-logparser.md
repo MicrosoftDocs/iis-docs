@@ -243,7 +243,7 @@ There are so many options and possibilities for analyzing and presenting the res
 
 ## Help
 
-When you install LogParser 2.2 onto your machine, it installs by default into the C:\Program Files (x86)\Log Parser 2.2 directory. Navigate to that location and review the Samples\Queries and Samples\Scripts directories for an abundant supply of prewritten code that will get you moving fast.
+When you install LogParser 2.2 onto your machine, it installs by default into the `C:\Program Files (x86)\Log Parser 2.2` directory. Navigate to that location and review the Samples\Queries and Samples\Scripts directories for an abundant supply of prewritten code that will get you moving fast.
 
 You will also realize a great benefit by reading through the contents within the LogParser.chm file.
 

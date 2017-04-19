@@ -66,7 +66,7 @@ Note: If you have not already installed the Web Deployment Tool, see [Installing
     [![](export-a-package-through-iis-manager/_static/image20.jpg)](export-a-package-through-iis-manager/_static/image19.jpg)
 14. You now have parameters that will allow a user installing this package to set the application path (site and app name where they want this app to be installed) and change the connection string (which will be updated in 2 places, first when running the SQL script and second inside the Web.config file). Click **Next** to continue.  
     [![](export-a-package-through-iis-manager/_static/image22.jpg)](export-a-package-through-iis-manager/_static/image21.jpg)
-15. Finally, choose a location to save your package. For this example, we chose C:\MyApplication.zip.  
+15. Finally, choose a location to save your package. For this example, we chose `C:\MyApplication.zip`.  
     [![](export-a-package-through-iis-manager/_static/image24.jpg)](export-a-package-through-iis-manager/_static/image23.jpg)
 16. The wizard will now complete the packaging process and save the package to disk. When it is complete, you will see a Summary page that gives you an overview of what actions were performed.  
     [![](export-a-package-through-iis-manager/_static/image26.jpg)](export-a-package-through-iis-manager/_static/image25.jpg)

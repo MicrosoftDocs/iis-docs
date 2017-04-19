@@ -109,7 +109,7 @@ In the first cut, the command returns only site names. If the user wants some sp
 
 To finish the command, you must add the implementation of the class, inherited from PSSnapin. This class is used to register our commands. It has nothing specific to IIS; see the complete code in the source file IISDemoCmd.cs.
 
-Build the cmdlet now and see how it works. You could do it from Visual Studio, but it is simple enough to build it from the command line. Suppose you placed PowerShell reference DLLs into a folder c:\sdk. The following command line builds the cmdlet into IISDemoCmd.dll and places it into the same folder, where the source file is located
+Build the cmdlet now and see how it works. You could do it from Visual Studio, but it is simple enough to build it from the command line. Suppose you placed PowerShell reference DLLs into a folder `c:\sdk`. The following command line builds the cmdlet into IISDemoCmd.dll and places it into the same folder, where the source file is located
 
 [!code-console[Main](writing-powershell-commandlets-for-iis/samples/sample5.cmd)]
 

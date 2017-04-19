@@ -1,7 +1,7 @@
 <configSchema>
-      <sectionSchema name="system.webServer/myCustomSection">
-        <attribute name="booleanProperty" type="bool" defaultValue="false" />
-        <attribute name="stringProperty" type="string" /> 
-        <attribute name="integerProperty" type="int" defaultValue="100" />
-      </sectionSchema>
-  </configSchema>
+  <sectionSchema name="system.webServer/myCustomSection">
+	<attribute name="booleanProperty" type="bool" defaultValue="false" />
+	<attribute name="stringProperty" type="string" /> 
+	<attribute name="integerProperty" type="int" defaultValue="100" />
+  </sectionSchema>
+</configSchema>

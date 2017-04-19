@@ -82,8 +82,9 @@ In this first step you will create a new FTP site that anonymous users can open.
     [![](creating-a-new-ftp-site-in-iis-7/_static/image7.jpg)](creating-a-new-ftp-site-in-iis-7/_static/image5.jpg)
 4. On the next page of the wizard: 
 
-    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be using the administrator account later in this walk-through, you must ensure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box. (> [!NOTE]
-> If you are using IPv6, you should also add the IPv6 localhost binding of "::1".)
+    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be using the administrator account later in this walk-through, you must ensure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
+	    > [!NOTE]
+        > If you are using IPv6, you should also add the IPv6 localhost binding of "::1".
     - Enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.
     - For this walk- through, do not use a host name, so make sure that the **Virtual Host** box is blank.
     - Make sure that the **Certificates** drop-down is set to "Not Selected" and that the **Allow SSL** option is selected.

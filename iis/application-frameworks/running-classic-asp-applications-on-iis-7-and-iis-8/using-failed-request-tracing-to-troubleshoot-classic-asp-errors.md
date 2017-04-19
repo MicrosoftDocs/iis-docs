@@ -110,14 +110,14 @@ When you use Internet Explorer to open a failed request tracing log file, a vari
 
 In the **Errors and Warning** section of summary, you will see a **view trace** link, as shown in the following illustration:
 
-> [![](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image2.jpg)](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image1.jpg)
+[![](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image2.jpg)](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image1.jpg)
 
 
 When you click the **view trace** link, Internet Explorer will jump to the section of the trace where the ASP script failure occurred. If you expand the individual trace events, you can view the specific details for the event, such as the physical file path, the line number, the ASP error code and description, and the ASP code excerpt that caused the failure, which in this case was the attempt to instantiate an invalid COM class.
 
 An example is shown in the following illustration:
 
-> [![](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image4.jpg)](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image3.jpg)
+[![](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image4.jpg)](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image3.jpg)
 
 
 ### Troubleshooting slow pages
@@ -149,26 +149,30 @@ In this error condition, you will examine a page that loops endlessly. This prob
 > [!code-html[Main](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/samples/sample3.html)]
 
 
-When you use a Web browser to browse to this file, you should see no error in your Web browser, but your browser may never return a page and will eventually time out. (> [!NOTE]
-> This page is written to exit the loop after you close your Web browser. If you want to exit the loop before the script timeout is reached, you should manually close your browser after ten seconds.)
+When you use a Web browser to browse to this file, you should see no error in your Web browser, but your browser may never return a page and will eventually time out. 
+
+> [!NOTE]
+> This page is written to exit the loop after you close your Web browser. If you want to exit the loop before the script timeout is reached, you should manually close your browser after ten seconds.
 
 After five seconds, IIS will create a failed request trace log in your %*SystemDrive*%\Inetpub\FailedRequestLogFiles\W3SVCnnn folder by default, where W3SVCnnn contains the unique identifier, as listed in IIS Manager, for your Web site.
 
 #### Reading the trace log in Internet Explorer
 
-As shown in the previous example, when you use Internet Explorer to open a failed request tracing log file, important information is displayed in a **Request Summary**. This summary contains the general environment information for the failure condition such as the executing URL, the application pool, the authentication type and user name, and other information. Notice that the reason for the failure was the amount of time taken, and that the time was slightly over five seconds, which was the time that you entered in the failed request tracing rule. > [!NOTE]
- > You will also notice that the HTTP status code for the response was HTTP 200, which is a successful response. This is one of the factors that often makes it more difficult to diagnose slow pages—the responses succeed, which make them more difficult to locate.
+As shown in the previous example, when you use Internet Explorer to open a failed request tracing log file, important information is displayed in a **Request Summary**. This summary contains the general environment information for the failure condition such as the executing URL, the application pool, the authentication type and user name, and other information. Notice that the reason for the failure was the amount of time taken, and that the time was slightly over five seconds, which was the time that you entered in the failed request tracing rule.
+
+> [!NOTE]
+> You will also notice that the HTTP status code for the response was HTTP 200, which is a successful response. This is one of the factors that often makes it more difficult to diagnose slow pages—the responses succeed, which make them more difficult to locate.
 
 In the **Errors and Warning** section of summary, you will see a **view trace** link, as shown in the following illustration:
 
-> [![](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image6.jpg)](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image5.jpg)
+[![](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image6.jpg)](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image5.jpg)
 
 
 When you click the view **trace link**, Internet Explorer will go to the section of the trace where the ASP script failure occurred. If you expand the individual trace events, you can view the specific details for the event, such as the physical file path, the line number, the ASP error code and description, and the ASP code excerpt that was executing when the log file was creating. By using this information, you could examine your ASP page and locate the line of code that was executing inside a never-ending loop.
 
 An example is shown in the following illustration:
 
-> [![](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image8.jpg)](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image7.jpg)
+[![](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image8.jpg)](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/_static/image7.jpg)
 
 
 ## More Information

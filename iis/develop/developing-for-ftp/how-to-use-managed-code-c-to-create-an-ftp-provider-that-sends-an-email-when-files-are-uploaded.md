@@ -20,8 +20,10 @@ Microsoft has created a new FTP service that has been completely rewritten for W
 
 The new FTP 7.5 service supports extensibility that lets you extend the built-in functionality that is included with the FTP service. More specifically, FTP 7.5 supports the creation of your own authentication providers. You can also create providers for custom FTP logging and for determining the home directory information for your FTP users.
 
-FTP 7.5 extensibility does not have a request-processing pipeline like the HTTP process model in IIS 7.0 and above, but you can use the IFtpLogProvider.Log() method to implement custom actions in response to FTP commands that have been sent by FTP clients, and you can examine the FTP status code to determine whether the FTP command succeeded or failed. (> [!NOTE]
-> You do not have to have to actually write to a log file when you implement the IFtpLogProvider.Log() method in your providers.)
+FTP 7.5 extensibility does not have a request-processing pipeline like the HTTP process model in IIS 7.0 and above, but you can use the IFtpLogProvider.Log() method to implement custom actions in response to FTP commands that have been sent by FTP clients, and you can examine the FTP status code to determine whether the FTP command succeeded or failed.
+
+> [!NOTE]
+> You do not have to have to actually write to a log file when you implement the IFtpLogProvider.Log() method in your providers.
 
 As a practical illustration, this walkthrough will lead you through the steps to use managed code to create a simple FTP provider that sends an email whenever a file is uploaded, and changes the text of the email message depending on whether the upload succeeded or failed.
 
@@ -38,8 +40,9 @@ The following items are required to complete the procedures in this article:
 
     - [FTP 7.5 for IIS (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
     - [FTP 7.5 for IIS (x64)](https://go.microsoft.com/fwlink/?LinkId=143197)
-3. You must use Visual Studio 2008. (> [!NOTE]
-> If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.)
+3. You must use Visual Studio 2008.
+    > [!NOTE]
+    > If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.
 
 ## Step 1: Set up the Project Environment
 
@@ -119,7 +122,7 @@ In this step, you will add the demo provider to your FTP service and an FTP site
 
 1. Determine the assembly information for the extensibility provider: 
 
-    - In Windows Explorer, open your "C:\Windows\assembly" path, where C: is your operating system drive.
+    - In Windows Explorer, open your `C:\Windows\assembly` path, where C: is your operating system drive.
     - Locate the **FtpMailDemo** assembly.
     - Right-click the assembly, and then click **Properties**.
     - Copy the **Culture** value; for example: **Neutral**.

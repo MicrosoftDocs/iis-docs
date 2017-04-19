@@ -86,7 +86,7 @@ In this step, you will implement the extensibility interface for the demo provid
 
     - Click **Project**, and then click **Add Reference...**
     - Click the **Browse** tab.
-    - Navigate to your "*%ProgramFiles(x86)%\Reference Assemblies\Microsoft\IIS*" folder.
+    - Navigate to your `%ProgramFiles(x86)%\Reference Assemblies\Microsoft\IIS` folder.
     - Click **Microsoft.Web.FtpServer** and then click **OK**.
 2. Add the code for the authentication class: 
 

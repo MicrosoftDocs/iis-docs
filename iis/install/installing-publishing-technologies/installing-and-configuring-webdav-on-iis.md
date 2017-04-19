@@ -188,8 +188,9 @@ In Step 1 above, you enabled WebDAV publishing for your Default Web Site and add
 1. In **IIS Manager**, in the **Connections** pane, expand the **Sites** node in the tree, then click the **Default Web Site**.
 2. Double-click the **Authentication** feature.  
     [![](installing-and-configuring-webdav-on-iis/_static/image35.jpg)](installing-and-configuring-webdav-on-iis/_static/image33.jpg)
-3. When the **Authentication** feature opens, make sure that **Windows Authentication** is enabled. If it is not enabled, select **Windows Authentication**, and click **Enable** in the **Action** menu.(> [!NOTE]
-> You can use Basic Authentication with WebDAV, but the WebDAV redirector will only use Basic authentication with SSL connections.)  
+3. When the **Authentication** feature opens, make sure that **Windows Authentication** is enabled. If it is not enabled, select **Windows Authentication**, and click **Enable** in the **Action** menu.
+    > [!NOTE]
+    > You can use Basic Authentication with WebDAV, but the WebDAV redirector will only use Basic authentication with SSL connections.
     [![](installing-and-configuring-webdav-on-iis/_static/image39.jpg)](installing-and-configuring-webdav-on-iis/_static/image37.jpg)
 4. In IIS Manager, click the **Default Web Site** under the **Sites** node in the tree.
 5. Double-click the **Authorization Rules** feature.  

@@ -27,7 +27,7 @@ Before you perform this procedure, you should download in install PHP and WinCac
 
 ### To configure the WinCache PHP extension
 
-1. In Windows Explorer, open your PHP installation folder, for example **C:\PHP**.
+1. In Windows Explorer, open your PHP installation folder, for example `C:\PHP`.
 2. Choose either the **php.ini - development** or **php.ini - production** file, and rename it **php.ini**.
 3. In a text editor, open the php.ini file and added the following line at the end of the file: `extension = php_wincache.dll`.
 4. Save and close the php.ini file.
@@ -37,7 +37,7 @@ Before you perform this procedure, you should download in install PHP and WinCac
 
 1. Open a text editor.
 2. In a new file, type the following text: `<?php phpinfo(); ?>`
-3. Save the file as **c:\inetpub\wwwroot\phpinfo.php**.
+3. Save the file as `c:\inetpub\wwwroot\phpinfo.php`.
 4. Open a browser and enter the following URL:
 
     `http://localhost/phpinfo.php`
@@ -53,7 +53,7 @@ The following procedure explains how to configure PHP settings in the php.ini fi
 
 ### To configure a PHP setting
 
-1. In Windows Explorer, open your PHP installation folder, for example **C:\PHP**.
+1. In Windows Explorer, open your PHP installation folder, for example `C:\PHP`.
 2. In a text editor, open the php.ini file.
 3. Search the file for the setting you want to change. 
 
@@ -69,8 +69,8 @@ The following procedure shows how to download and install a PHP extension. For i
 ### To configure a PHP extension
 
 1. Download the PHP extension you want from the [list of Windows extensions for PHP](http://downloads.php.net/pierre/).
-2. Extract the extension zip package to the PHP extensions folder (\ext), for example C:\PHP\ext.
-3. In Windows Explorer, open your PHP installation folder, for example C:\PHP.
+2. Extract the extension zip package to the PHP extensions folder (\ext), for example `C:\PHP\ext`.
+3. In Windows Explorer, open your PHP installation folder, for example `C:\PHP`.
 4. In a text editor, open the php.ini file.
 5. Search the file for the extension you want to configure. If the extension is commented out (line begins with a semicolon [;]), delete the semicolon. If you can't find the extension, add it to the end of the file. A line that adds an extension is in the form: `extension = extension_name.dll`. For example: `extension = php_soap.dll`.
 6. Save and close the php.ini file.

@@ -16,8 +16,10 @@ Overview of UrlScan Versions
 ====================
 by [Robert McMurray](https://github.com/rmcmurray)
 
-UrlScan primarily consists of two parts: the UrlScan ISAPI filter named UrlScan.dll, and a configuration file named UrlScan.ini. (> [!NOTE]
-> Some of the earlier versions of UrlScan contained an additional resource file named UrlScanr.dll.)
+UrlScan primarily consists of two parts: the UrlScan ISAPI filter named UrlScan.dll, and a configuration file named UrlScan.ini.
+
+> [!NOTE]
+> Some of the earlier versions of UrlScan contained an additional resource file named UrlScanr.dll.
 
 Each version of UrlScan added additional features, and each new version of the configuration file contained settings that controlled the functionality of those features. The configuration files are generally compatible across all versions of UrlScan, because older versions of UrlScan scan will ignore newer settings, and newer versions of UrlScan will use the default values if a setting is missing.
 

@@ -432,24 +432,18 @@ When the installation is complete, your control panel should provide a link to t
 
 **Microsoft® Developer Network (MSDN®):** 
 
-[Microsoft Web Deployment namespace](https://msdn.microsoft.com/en-us/library/microsoft.web.deployment.aspx)
+- [Microsoft Web Deployment namespace](https://msdn.microsoft.com/en-us/library/microsoft.web.deployment.aspx)
 
 **Forums:** 
 
-[Web Application Gallery: Users](https://forums.iis.net/1159.aspx)
-
-[Web Application Gallery: Developers &amp; Integrators](https://forums.iis.net/1158.aspx)
-
-[Web Platform Installer](https://forums.iis.net/1155.aspx)
+- [Web Application Gallery: Users](https://forums.iis.net/1159.aspx)
+- [Web Application Gallery: Developers &amp; Integrators](https://forums.iis.net/1158.aspx)
+- [Web Platform Installer](https://forums.iis.net/1155.aspx)
 
 **Articles:** 
 
-[Application Packaging Guide for the Windows Web Application Gallery](package-an-application-for-the-windows-web-application-gallery.md)
-
-[Web Application Gallery Overview](introducing-the-windows-web-application-gallery.md)
-
-[Web Application Gallery Principles](windows-web-application-gallery-principles.md)
-
-[Best Practices: Running PHP Applications on IIS](introducing-the-windows-web-application-gallery.md)
-
-[Best Practices: Running ASP.NET Applications on IIS](../../application-frameworks/building-and-running-aspnet-applications/index.md)
+- [Application Packaging Guide for the Windows Web Application Gallery](package-an-application-for-the-windows-web-application-gallery.md)
+- [Web Application Gallery Overview](introducing-the-windows-web-application-gallery.md)
+- [Web Application Gallery Principles](windows-web-application-gallery-principles.md)
+- [Best Practices: Running PHP Applications on IIS](introducing-the-windows-web-application-gallery.md)
+- [Best Practices: Running ASP.NET Applications on IIS](../../application-frameworks/building-and-running-aspnet-applications/index.md)

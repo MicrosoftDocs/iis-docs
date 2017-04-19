@@ -37,7 +37,11 @@ This walkthrough requires the following prerequisites:
 
 - IIS 7.0 or above on Windows 2008 (any SKU) or newer where Application Request Routing will be installed.
 
-**Important: ARR Version 2 RTW supports upgrading from ARR Version 1 RTW and from ARR Version 2 RC. If any other version of ARR is already installed, uninstall both ARR and URL Rewrite before proceeding.** **Note that the corresponding configurations will be lost.**
+> [!IMPORTANT]
+> ARR Version 2 RTW supports upgrading from ARR Version 1 RTW and from ARR Version 2 RC. If any other version of ARR is already installed, uninstall both ARR and URL Rewrite before proceeding.
+
+> [!NOTE]
+> Note that the corresponding configurations will be lost.
 
 ## Step 1 - Download Microsoft Application Request Routing Version 2.
 
@@ -158,4 +162,4 @@ To remove Application Request Routing completely, you must remove the four packa
 
 ## Summary
 
-You have now successfully installed Application Request Routing and the dependent modules, and are ready to configure and use the features. For a quick overview and more information, see %PROGRAMFILES%\IIS\Application Request Routing\ARR\_ReadMe.htm.
+You have now successfully installed Application Request Routing and the dependent modules, and are ready to configure and use the features. For a quick overview and more information, see `%PROGRAMFILES%\IIS\Application Request Routing\ARR\_ReadMe.htm`.

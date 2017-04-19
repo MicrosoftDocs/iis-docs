@@ -1,6 +1,5 @@
 namespace CanonicalDomainTemplate
 {
-
     internal sealed class CanonicalDomainModuleProvider : ModuleProvider
     {
         public override string FriendlyName

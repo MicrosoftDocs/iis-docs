@@ -36,21 +36,21 @@ The instructions have been tested and work in the following configurations:
 
 Gallery does not need many modifications beyond the default configuration provided by PHP **.** From the base configuration file provided by PHP, you only need to modify the following lines in your php.ini configuration file to get Gallery working:
 
-- Define 'extension\_dir' as 'c:\php\ext' (i.e., the location of your PHP extensions directory)
-- Uncomment 'extension=php\_mysql.dll' in the extensions list to enable MySQL support
-- Uncomment 'extension=php\_gd2.dll' in the extension list to enable graphics toolkit
+- Define `extension\_dir` as `c:\php\ext` (i.e., the location of your PHP extensions directory)
+- Uncomment `extension=php\_mysql.dll` in the extensions list to enable MySQL support
+- Uncomment `extension=php\_gd2.dll` in the extension list to enable graphics toolkit
 
 ## Download and Unpack the Application
 
 The latest releases of Gallery are found at [http://codex.gallery2.org/Gallery2:Download](http://codex.gallery2.org/Gallery2:Download). The instructions in this document are based on version 2.2.3, but future versions will likely be very similar as far as installation is concerned.
 
-After downloading the zip package, extract its contents to C:\Inetpub\wwwroot\Gallery2 or another directory of your choosing. You do not need to modify the permissions on the Gallery web directory, as the default permissions suffice.
+After downloading the zip package, extract its contents to `C:\Inetpub\wwwroot\Gallery2` or another directory of your choosing. You do not need to modify the permissions on the Gallery web directory, as the default permissions suffice.
 
 ## Set Up Storage Directory
 
 Gallery requires a separate directory for storing all photos and related data, such as thumbnails. For security reasons, we recommend that you create this directory outside of the web root.
 
-For this walkthrough, we created a directory called g2data on C: drive (C:\g2data). You must grant web server write permissions to this directory. Since FastCGI impersonates the requests from all users, make sure that the user account used for impersonation has write access to this directory. For example, if your web site or virtual directory is configured for Anonymous authentication, then you must grant "Internet Guest Account" write access to C:\g2data.
+For this walkthrough, we created a directory called g2data on C: drive `C:\g2data`. You must grant web server write permissions to this directory. Since FastCGI impersonates the requests from all users, make sure that the user account used for impersonation has write access to this directory. For example, if your web site or virtual directory is configured for Anonymous authentication, then you must grant "Internet Guest Account" write access to `C:\g2data`.
 
 [![](gallery2-on-iis/_static/image2.png)](gallery2-on-iis/_static/image1.png)
 

@@ -1,13 +1,13 @@
 <system.webServer>
-<rewrite>
-<globalRules>
-<rule name="ARR_myServerFarm_loadbalance" patternSyntax="Wildcard"
-stopProcessing="true">
-<match url="*" />
-<conditions>
-</conditions>
-<action type="Rewrite" url="http://myServerFarm/{R:0}" />
-</rule>
-</globalRules>
-</rewrite>
+	<rewrite>
+		<globalRules>
+			<rule name="ARR_myServerFarm_loadbalance" patternSyntax="Wildcard"
+			stopProcessing="true">
+				<match url="*" />
+				<conditions>
+				</conditions>
+				<action type="Rewrite" url="http://myServerFarm/{R:0}" />
+			</rule>
+		</globalRules>
+	</rewrite>
 </system.webServer>

@@ -75,7 +75,8 @@ The following sections describe what you need to know to plan adding forms authe
 
 ASP.NET Forms-based authentication works well for sites or applications on public web servers that receive many requests. This authentication mode lets you manage client registration and authentication at the application level, instead of relying on the authentication mechanisms the operating system provides.
 
-**Important**: Because Forms authentication sends the user name and password to the web server as plaintext, use Secure Sockets Layer (SSL) encryption for the logon page and for all other pages in your application except the home page. For information about SSL, see [4.5. TLS/SSL Communication](#45).
+> [!IMPORTANT]
+> Because Forms authentication sends the user name and password to the web server as plaintext, use Secure Sockets Layer (SSL) encryption for the logon page and for all other pages in your application except the home page. For information about SSL, see [4.5. TLS/SSL Communication](#45).
 
 Forms authentication lets users log on by using identities from an ASP.NET membership database. This authentication method uses redirection to an HTML logon page to confirm the identity of the user. You can configure Forms authentication at the site or application levels.
 
@@ -87,7 +88,8 @@ Forms authentication is convenient for the following reasons:
 
 If you want to use membership roles for authorization, use Forms authentication or a similar custom authentication method.
 
-**Important**: If you select Forms authentication, you cannot use any of the challenge-based authentication methods at the same time.
+> [!IMPORTANT]
+> If you select Forms authentication, you cannot use any of the challenge-based authentication methods at the same time.
 
 By default, the login URL for Forms authentication is Login.aspx. You can create a unique login page for clients who visit a site or application. For example, you might want to collect specific information from visitors, or offer membership to selected pages on the site or selected applications.
 
@@ -122,7 +124,8 @@ The cookie protection mode defines the function a Forms authentication cookie pe
 | Encryption | Specifies that the cookie is encrypted by using Triple-DES or DES, but data validation is not performed on the cookie. Cookies used in this manner might be subject to plaintext attacks. |
 | Validation | Specifies that a validation scheme verifies that the contents of an encrypted cookie have not been changed in transit. |
 
-**Important**: For security reasons, consider keeping Encryption and Validation cookies separate from each other. The theft of encryption cookies would be a greater security exposure than the theft of validation cookies.
+> [!IMPORTANT]
+> For security reasons, consider keeping Encryption and Validation cookies separate from each other. The theft of encryption cookies would be a greater security exposure than the theft of validation cookies.
 
 If an application contains objects that clients request frequently, improve application performance by caching those objects. If the user accesses the cached object before the authentication cookie times out, IIS 8 allows the cached object to remain in the cache, and the timer is reset. However, if the user does not access the cached object during that time, IIS 8 removes the cached object from the cache.
 

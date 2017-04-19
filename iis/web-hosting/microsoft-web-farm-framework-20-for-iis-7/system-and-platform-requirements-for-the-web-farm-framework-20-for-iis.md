@@ -73,4 +73,4 @@ If you are using Windows Firewall, follow these steps to allow these programs.
   
  The program must be allowed to communicate on the domain. You can optionally select other networks.
 
-> ![](system-and-platform-requirements-for-the-web-farm-framework-20-for-iis/_static/image1.png)
+![](system-and-platform-requirements-for-the-web-farm-framework-20-for-iis/_static/image1.png)

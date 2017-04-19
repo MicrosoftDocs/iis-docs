@@ -142,8 +142,9 @@ Use the **FTP Firewall Support** feature to configure the following settings tha
 1. Open IIS Manager.
 2. In the **Connections** pane, select the server node.
 3. In **Features View**, double-click **FTP Firewall Support**.
-4. In the **Data Channel Port Range** box, type a range of port numbers (separated by a hyphen). For example, type **5000-6000**. Or type **0-0** to use the default port range specified in Windows TCP/IP settings. (> [!NOTE]
-> Do not use ports 0-1024 because these ports are reserved ports.)
+4. In the **Data Channel Port Range** box, type a range of port numbers (separated by a hyphen). For example, type **5000-6000**. Or type **0-0** to use the default port range specified in Windows TCP/IP settings.
+    > [!NOTE]
+    > Do not use ports 0-1024 because these ports are reserved ports.
 5. In the **External IP Address of Firewall** box, type the IP address of your firewall.
 6. In the **Actions** pane, click **Apply**.
 

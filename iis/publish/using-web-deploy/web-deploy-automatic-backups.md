@@ -95,7 +95,7 @@ The following global backup settings may be configured directly in the IIS Confi
 - **enabled** - (Default = "false") Controls whether backups are turned on or not.
 - **backupPath** - (Default = "{sitePathParent}\{siteName}\_snapshots") Where on the server a backups will be stored. It also upports path replacement variables for "{sitePathParent}" and "{siteName}" which are determined at run-time. 
 
-    - sitePathParent - The physical file path of the parent of your sites content. For example, if your site's application lives under "c:\inetpub\wwwroot\siteName", then sitePathParent would be "c:\inetpub\wwwroot\".
+    - sitePathParent - The physical file path of the parent of your sites content. For example, if your site's application lives under `c:\inetpub\wwwroot\siteName`, then sitePathParent would be `c:\inetpub\wwwroot\`.
     - siteName - The name of your site.
 
 > **Example**: The default schema sets this path to "{sitePathParent}\{siteName}\_snapshots" so that each backup will be placed under a sibling folder of your site content instead of within it.
@@ -127,11 +127,11 @@ Below is a sample configuration that can be added under &lt;system.webServer&gt;
 
 [!code-xml[Main](web-deploy-automatic-backups/samples/sample8.xml)]
 
-> Let us say that we have a site named "foo" that lives under "c:\foo\wwwroot" on the server. The configuration above tells Web Deploy to:
+> Let us say that we have a site named "foo" that lives under `c:\foo\wwwroot` on the server. The configuration above tells Web Deploy to:
 
 
 1. Turn on the Backup featureKeep a maximum of 2 backups.
-2. Store each backup in a folder under "c:\foo\foo\_siteBackups".
+2. Store each backup in a folder under `c:\foo\foo\_siteBackups`.
 3. Fail a publish if a backup operation fails for any reason.
 4. Exclude backing up SQL databases with the dbFullSql provider.
 5. Allow web site administrators to use the backupSettingsProvider to configure the settings "enabled", "numberOfBackups", "continueOnBackupFailure", and "excludedProviders" for their site.

@@ -1,5 +1,4 @@
 <globalModules>
     <add name="StaticFileModule" image="%windir%\System32\inetsrv\static.dll" />
     <add name="AnonymousAuthenticationModule" image="%windir%\System32\inetsrv\authanon.dll" />
-
 </globalModules>

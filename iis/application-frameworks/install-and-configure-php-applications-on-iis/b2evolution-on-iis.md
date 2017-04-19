@@ -24,7 +24,7 @@ The following sections describe how to install and configure b2Evolution for use
 
 ## Download and Unpack the Application
 
-First, download the latest stable release of b2Evolution. For this article, we use b2Evolution 1.10.2. Download it from [here](http://b2evolution.net/downloads/index.html). Once you download the package, uncompress it and copy all the files and folders to C:\Inetpub\wwwroot\b2evolution.
+First, download the latest stable release of b2Evolution. For this article, we use b2Evolution 1.10.2. Download it from [here](http://b2evolution.net/downloads/index.html). Once you download the package, uncompress it and copy all the files and folders to `C:\Inetpub\wwwroot\b2evolution`.
 
 ## Set Up the Database
 

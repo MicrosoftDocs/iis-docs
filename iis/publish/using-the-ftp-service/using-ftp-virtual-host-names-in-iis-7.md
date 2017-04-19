@@ -68,8 +68,9 @@ In this first step, we create a new FTP site using a unique virtual host name.
 3. When the **Add FTP Site** wizard displays: 
 
     - Enter "www.example.com" in the **FTP site name** box.
-    - Navigate to the `%SystemDrive%\inetpub\www.example.com` folder that you created in the Prerequisites section. > [!NOTE]
- > If you choose to type in the path to your content folder, you can use environment variables in your paths.
+    - Navigate to the `%SystemDrive%\inetpub\www.example.com` folder that you created in the Prerequisites section.
+	    > [!NOTE]
+        > If you choose to type in the path to your content folder, you can use environment variables in your paths.
     - Click **Next**.  
         [![](using-ftp-virtual-host-names-in-iis-7/_static/image7.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image5.jpg)
 4. On the next page of the wizard: 
@@ -109,8 +110,9 @@ In this second step, we create another new FTP site using a unique virtual host 
 3. When the **Add FTP Site** wizard appears: 
 
     - Enter "www.contoso.com" in the **FTP site name** box.
-    - Navigate to the `%SystemDrive%\inetpub\www.contoso.com` folder that you created in the Prerequisites section. > [!NOTE]
- > If you choose to type in the path to your content folder, you can use environment variables in your paths.
+    - Navigate to the `%SystemDrive%\inetpub\www.contoso.com` folder that you created in the Prerequisites section.
+	    > [!NOTE]
+        > If you choose to type in the path to your content folder, you can use environment variables in your paths.
     - Click **Next**.  
         [![](using-ftp-virtual-host-names-in-iis-7/_static/image25.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image23.jpg)
 4. On the next page of the wizard: 
@@ -192,12 +194,14 @@ Or
 The following steps walk you through all of the required settings to create a new FTP site from scratch.
 
 1. Using a text editor such as Windows Notepad, open your applicationHost.config file, which is located in your `%SystemRoot%\System32\inetsrv\config` folder by default.
-2. Locate the &lt;sites&gt; section. Add the first FTP site inside the &lt;sites&gt; using syntax similar to the following. > [!NOTE]
- > You may need to choose a different number than "2" for the site ID if any site is currently using that site identifier. 
+2. Locate the &lt;sites&gt; section. Add the first FTP site inside the &lt;sites&gt; using syntax similar to the following.
+    > [!NOTE]
+    > You may need to choose a different number than "2" for the site ID if any site is currently using that site identifier. 
 
     [!code-xml[Main](using-ftp-virtual-host-names-in-iis-7/samples/sample1.xml)]
-3. Add the second FTP site inside the &lt;sites&gt; using syntax similar to the following. > [!NOTE]
- > You may need to choose a different number than "3" for the site ID if any site is currently using that site identifier. 
+3. Add the second FTP site inside the &lt;sites&gt; using syntax similar to the following.
+    > [!NOTE]
+    > You may need to choose a different number than "3" for the site ID if any site is currently using that site identifier. 
 
     [!code-xml[Main](using-ftp-virtual-host-names-in-iis-7/samples/sample2.xml)]
 4. Scroll to the bottom of your applicationHost.config file and add location sections for both of your FTP sites that contain your authorization settings.> [!NOTE]

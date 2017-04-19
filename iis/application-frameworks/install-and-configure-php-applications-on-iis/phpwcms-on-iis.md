@@ -30,7 +30,7 @@ The following steps assume that you have completed the setup and configuration o
 
 First, download the latest stable release of PHPWCMS application. For this article, we use the phpwcms\_1.3.3. Full Package downloaded from the mirror [http://sourceforge.net/projects/phpwcms/](http://sourceforge.net/projects/phpwcms/).
 
-Once you download the package, uncompress it and copy files and folders to C:\Inetpub\wwwroot\phpwcms.  
+Once you download the package, uncompress it and copy files and folders to `C:\Inetpub\wwwroot\phpwcms`.  
 For installation help, see [http://www.phpwcms-docu.de/installation\_en.phtml](http://www.phpwcms-docu.de/installation_en.phtml).
 
 ## Set Up the Database

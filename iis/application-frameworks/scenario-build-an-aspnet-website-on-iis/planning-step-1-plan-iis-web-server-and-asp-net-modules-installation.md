@@ -30,7 +30,8 @@ An ASP.NET Web server is an extended IIS server that has the ASP.NET runtime ext
 - ISAPI Extensions
 - ISAPI Filters
 
-**Important**: To install IIS 8 on either Windows Server® 2012 or Windows® 8, you must sign on as a member of the Administrators group.
+> [!IMPORTANT]
+> To install IIS 8 on either Windows Server® 2012 or Windows® 8, you must sign on as a member of the Administrators group.
 
 By default, Windows Server 2012 and Windows 8 installs .NET 4.5 only. If you want to run .NET 2 applications, install .NET 3.5, which supports web applications written using ASP.NET 2 to 3.5.
 

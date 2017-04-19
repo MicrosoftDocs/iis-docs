@@ -151,9 +151,8 @@ To run transform jobs on media files, you must configure the default watch folde
  The watch folder is now active and ready to accept Smooth Streaming presentations.  
     [![](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image30.png)](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image29.png)  
 
-    | ![Note](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image1.gif) > [!NOTE]
- > - You can't start a watch folder if another active watch folder thread is already using the same watch folder root path. |
-    | --- |
+    > [!NOTE]
+    > You can't start a watch folder if another active watch folder thread is already using the same watch folder root path.
 
 <a id="run_jobs"></a>
 
@@ -167,9 +166,8 @@ To begin transforming content, copy-and-paste the .ism file, the Smooth Streamin
 The watch folder directory is specified in the **Watch folder path** setting on the **Basic Settings** tab of the watch folder property sheet.  
 [![](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image34.png)](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image33.png)
 
-| ![Note](transforming-on-demand-smooth-streams-to-apple-http-live-streams/_static/image2.gif) > [!NOTE]
- > - You shouldn't drop multiple .ism manifest files in the watch folder at the same time if they reference the same media files. The watch folder's job manager will schedule jobs for media files that are referenced in one playlist, and when all of the media files that are referenced in the playlist are present, move the playlist file and media assets as a group to the watch folder's WorkQueue directory. Another playlist that references the same media files then can't be processed because the media files have been removed from the watch folder with the previous playlist. To schedule jobs for this playlist, you must drop the missing media files into the watch folder again. |
-| --- |
+> [!NOTE]
+> You shouldn't drop multiple .ism manifest files in the watch folder at the same time if they reference the same media files. The watch folder's job manager will schedule jobs for media files that are referenced in one playlist, and when all of the media files that are referenced in the playlist are present, move the playlist file and media assets as a group to the watch folder's WorkQueue directory. Another playlist that references the same media files then can't be processed because the media files have been removed from the watch folder with the previous playlist. To schedule jobs for this playlist, you must drop the missing media files into the watch folder again.
 
 After you drop Smooth Streaming presentation files in a watch folder, the watch folder's job manager creates a job for the presentation and moves the presentation files into the watch folder's WorkQueue directory. The files will be moved from the watch folder into the WorkQueue quickly if they're small. The watch folder might not discover larger files for up to 60 seconds. If the files don't disappear after 60 seconds, make sure that you're in the correct watch folder or that you've enabled and started the correct watch folder.
 

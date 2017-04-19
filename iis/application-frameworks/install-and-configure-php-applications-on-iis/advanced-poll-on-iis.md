@@ -26,12 +26,12 @@ The following sections describe how to install and configure Advanced Poll for u
 
 Advanced Poll does not need many modifications beyond the default configuration provided by PHP **.** From the base configuration file provided by PHP, you only need to modify the following lines in your php.ini configuration file to get Advanced Poll to work:
 
-- Define 'extension\_dir' as 'c:\php\ext' (i.e., the location of your php extensions directory)
+- Define `extension\_dir` as `c:\php\ext` (i.e., the location of your php extensions directory)
 - Uncomment 'extension=php\_mysql.dll' in the extensions list to enable MySQL support
 
 ## Download and Unpack the Application
 
-First, download the latest stable release of Advanced Poll. For this article, we use Advanced Poll 2.0.8. Download it from [here](http://www.proxy2.de/scripts.php). Once you download the package, uncompress it and copy all the files and folders to C:\Inetpub\wwwroot\advancedpoll.
+First, download the latest stable release of Advanced Poll. For this article, we use Advanced Poll 2.0.8. Download it from [here](http://www.proxy2.de/scripts.php). Once you download the package, uncompress it and copy all the files and folders to `C:\Inetpub\wwwroot\advancedpoll`.
 
 ## Set Up the Database
 

@@ -60,8 +60,7 @@ The following prerequisites must be fulfilled to install IIS Media Services:
 - To use the optional ASP.NET session state persistence feature in IIS Web Playlists, **ASP.NET** for IIS must be installed.
 - You must be an administrator on the computer. This can be accomplished by logging on to the computer using either the Administrator account or an account with administrative privileges.
 
-> **Important**
-> 
+> [!IMPORTANT]
 > Microsoft Silverlight includes support for cross-domain connectivity, which allows an application to access resources from locations other than the site of origin. This is an important feature for enabling Silverlight applications to consume existing services on the the web. The security policy system in the Silverlight runtime requires that a Silverlight policy file named ClientAccessPolicy.xml be downloaded from a target domain before a network connection is allowed access to a network resource under that target domain. If you expect to deliver Smooth Streams across domain boundaries to Silverlight-based clients, you must host the ClientAccessPolicy.xml file in your Smooth Streaming web server root to allow Silverlight applications to access the Smooth Streams. For more information about how to create a ClientAccessPolicy.xml file, see [Network Security Access Restrictions in Silverlight](https://go.microsoft.com/?linkid=9749724).
 
 
@@ -152,8 +151,8 @@ The following Apple mobile digital devices/iOS mobile operating systems are supp
 - iPhone, iPod touch: iOS 3.0, iOS 3.0.1, iOS 3.1, iOS 3.1.2, iOS 3.1.3, iOS 4.0, iOS 4.1, iOS 5.0
 - iPad: iOS 3.2, iOS 4.2.1, iOS 5.0
 
-> **Notes**
-> 
+> [!NOTE]
+>  
 > - The encoded live stream received by the publishing point must contain both audio and video.
 > - Apple recommends that you not use B-frames when encoding streams for iPhone and iPod devices.
 > - Although the iPhone 3GS can play content that is at a level higher than Baseline 3.0, it's not recommended if you plan to target older iPhone devices and iPod touch devices.

@@ -92,7 +92,7 @@ If you are using the Process Monitor utility on a computer that has a default in
 | Process Name: | w3wp.exe |
 | --- | --- |
 | Operation: | CreateFile |
-| Path: | C:\Windows\Temp\JET5150.tmp |
+| Path: | `C:\Windows\Temp\JET5150.tmp` |
 | Result: | ACCESS DENIED |
 | Detail: | | *Desired Access:* | Generic Read/Write, Delete | | --- | --- | | *Disposition:* | Create | | *Options:* | Synchronous IO Non-Alert, Non-Directory File, Random Access, Delete On Close, Open No Recall | | *Attributes:* | NT | | *ShareMode:* | None | | *AllocationSize:* | 0 | | *Impersonating:* | NT AUTHORITY\IUSR | |
 
@@ -105,7 +105,7 @@ If you are using the original release version of Windows Vista you may see an er
 | Process Name: | w3wp.exe |
 | --- | --- |
 | Operation: | CreateFile |
-| Path: | C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Temp |
+| Path: | `C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Temp` |
 | Result: | ACCESS DENIED |
 | Detail: | | *Desired Access:* | Read Attributes | | --- | --- | | *Disposition:* | Open | | *Options:* | Open Reparse Point | | *Attributes:* | n/a | | *ShareMode:* | Read, Write, Delete | | *AllocationSize:* | n/a | | *Impersonating:* | NT AUTHORITY\IUSR | |
 
@@ -136,7 +136,7 @@ If you were using the Process Monitor utility when you reproduced the error, the
 | Process Name: | w3wp.exe |
 | --- | --- |
 | Operation: | CreateFile |
-| Path: | C:\Inetpub\wwwroot\App\_Data\example.ldb |
+| Path: | `C:\Inetpub\wwwroot\App\_Data\example.ldb` |
 | Result: | ACCESS DENIED |
 | Detail: | | *Desired Access:* | Generic Read/Write | | --- | --- | | *Disposition:* | OpenIf | | *Options:* | Synchronous IO Non-Alert, Non-Directory File, Random Access, Open No Recall | | *Attributes:* | N | | *ShareMode:* | Read, Write | | *AllocationSize:* | 0 | | *Impersonating:* | NT AUTHORITY\IUSR | |
 

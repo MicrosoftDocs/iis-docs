@@ -30,7 +30,7 @@ The following steps assume that you have completed the setup and configuration o
 
 First, download the latest stable release of the ExpressionEngine application. For this article, we use ExpressionEngine (EECore1.6.1). Download the full package from the mirror [https://secure.expressionengine.com/download.php?ACT=agreement&amp;id=34](https://secure.expressionengine.com/download.php?ACT=agreement&amp;id=34).
 
-Once you download the package, uncompress it and copy the files and folders to C:\Inetpub\wwwroot\eecore.
+Once you download the package, uncompress it and copy the files and folders to `C:\Inetpub\wwwroot\eecore`.
 
 ## Set Up the Database
 

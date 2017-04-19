@@ -187,7 +187,7 @@ DebugDiag has the ability to recognize many problems by doing an automated dump 
 1. Select the Advanced Analysis tab in DebugDiag.
 2. Select the Performance Analyzers.
 3. Click Add Data Files.
-4. Browser to the location where the dumps were created. By default, this will be a subfolder of the C:\Program Files\DebugDiag\Logs folder.
+4. Browser to the location where the dumps were created. By default, this will be a subfolder of the `C:\Program Files\DebugDiag\Logs` folder.
 5. Select one of the dumps and then press Ctrl+A to select all of the dumps in that folder.
 6. Click Open.
 7. Click Start Analysis.

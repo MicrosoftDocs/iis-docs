@@ -18,7 +18,8 @@ by [Walter Oliver](https://github.com/walterov)
 
 To install the Web Server role on a machine that already is running Windows Server® 2008 R2 (as is the case when building a reference machine for deployment in a data center), follow these steps:
 
-**Important**: Run these steps as an administrator.
+> [!IMPORTANT]
+> Run these steps as an administrator.
 
 **To install the Web Server role using Server Manager**
 

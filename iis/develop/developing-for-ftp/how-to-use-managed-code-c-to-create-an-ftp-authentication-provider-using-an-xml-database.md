@@ -40,8 +40,9 @@ The following items are required to complete the procedures in this article:
     - [FTP 7.5 for IIS (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
     - [FTP 7.5 for IIS (x64)](https://go.microsoft.com/fwlink/?LinkId=143197)
 3. You must have FTP publishing enabled for a site.
-4. You must use Visual Studio 2008. (> [!NOTE]
-> If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.)
+4. You must use Visual Studio 2008.
+    > [!NOTE]
+    > If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.
 
 #### Important
 
@@ -73,12 +74,8 @@ In this step, you will create a project in Visual Studio 2008 for the demo provi
     - Click the **Reference Paths** tab.
     - Enter the path to the FTP extensibility assembly for your version of Windows, where C: is your operating system drive. 
 
-        - For Windows Server 2008 and Windows Vista: 
-
-            - C:\Windows\assembly\GAC\_MSIL\Microsoft.Web.FtpServer\7.5.0.0\_\_31bf3856ad364e35
-        - For Windows 7: 
-
-            - C:\Program Files\Reference Assemblies\Microsoft\IIS
+        - For Windows Server 2008 and Windows Vista: `C:\Windows\assembly\GAC\_MSIL\Microsoft.Web.FtpServer\7.5.0.0\_\_31bf3856ad364e35`
+        - For Windows 7: `C:\Program Files\Reference Assemblies\Microsoft\IIS`
     - Click **Add Folder**.
 5. Add a strong name key to the project: 
 
@@ -147,7 +144,7 @@ Create an XML file for the membership users and roles:
 - Paste the following code into a text editor: 
 
     [!code-xml[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-using-an-xml-database/samples/sample4.xml)]
-- Save the code as "Users.xml" to your computer. For example, you could use the path "C:\Inetpub\XmlSample\Users.xml".
+- Save the code as "Users.xml" to your computer. For example, you could use the path `C:\Inetpub\XmlSample\Users.xml`.
 
 > [!NOTE]
 > For security reasons, this file should not be stored in a folder that is located in your Web site's content area.
@@ -156,7 +153,7 @@ Create an XML file for the membership users and roles:
 
 1. Determine the assembly information for the extensibility provider: 
 
-    - In Windows Explorer, open your "C:\Windows\assembly" path, where C: is your operating system drive.
+    - In Windows Explorer, open your `C:\Windows\assembly` path, where C: is your operating system drive.
     - Locate the **FtpXmlAuthentication** assembly.
     - Right-click the assembly, and then click **Properties**.
     - Copy the **Culture** value; for example: **Neutral**.
@@ -168,8 +165,9 @@ Create an XML file for the membership users and roles:
     - At the moment there is no user interface that enables you to add properties for a custom authentication module, so you will have to use the following command line: 
 
         [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-using-an-xml-database/samples/sample5.cmd)]
-    - > [!NOTE]
- > The file path that you specify in the *xmlFileName* attribute must match the path where you saved the "Users.xml" file on your computer in the earlier in this walkthrough.
+		
+    > [!NOTE]
+    > The file path that you specify in the *xmlFileName* attribute must match the path where you saved the "Users.xml" file on your computer in the earlier in this walkthrough.
 3. Add the custom authentication provider for an FTP site: 
 
     - Open an FTP site in the Internet Information Services (IIS) Manager.

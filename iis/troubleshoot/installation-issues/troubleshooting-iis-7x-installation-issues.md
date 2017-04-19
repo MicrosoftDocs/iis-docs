@@ -31,7 +31,7 @@ In this section we will focus on IIS7.x installation issues and reference to its
 
 ## Reviewing the IIS setup Logs
 
-The first thing to look for is errors in the IIS7.LOG(c:\windows\iis7.log).
+The first thing to look for is errors in the IIS7.LOG (ex: `c:\windows\iis7.log`).
 
 Search for word "**FAIL**"
 
@@ -54,7 +54,7 @@ Another common, but most important scenario people forget is to uninstall WPAS "
 
 ## Reviewing the CBS (Component based Setup) Logs
 
-If IIS7.log is clean, then there is a good chance that the problem is in CBS (Component based Setup) engine. CBS logs can be found at C:\Windows\Logs\CBS folder.
+If IIS7.log is clean, then there is a good chance that the problem is in CBS (Component based Setup) engine. CBS logs can be found at `C:\Windows\Logs\CBS folder`.
 
 Just like IIS7.log file, CBS.log file is a It is a text file and can be opened in a text editor of your choice (you will have to open this file from administrative command prompt). You can get some useful information out of these logs by keeping the time frame of the installation failure in mind and searching for "Failure will not be ignored: A rollback will be initiated" string in the CBS.LOG file. Here is an example of one such instance.
 

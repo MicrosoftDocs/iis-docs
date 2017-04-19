@@ -45,11 +45,11 @@ Perform the following steps to download and install the SQL Server Driver for PH
 
 1. Download %SQLServerDriverForPHP.EXE to a temporary directory.
 2. Double-click to run %SQLServerDriverForPHP.EXE.
-3. Enter an installation directory when prompted. It is recommended that you extract the file to **%ProgramFiles%** with the default directory **Microsoft SQL Server Driver for PHP**.
+3. Enter an installation directory when prompted. It is recommended that you extract the file to `%ProgramFiles%` with the default directory **Microsoft SQL Server Driver for PHP**.
 4. Double-click to open the **SQLServerDriverForPHP.chm** help file.
 5. Install the **Microsoft SQL Server Native Client** from the link provided.
-6. Copy the **php\_sqlsrv.dll** and **php\_sqlsrv\_ts.dll** files to the **C:\PHP\ext\** directory.
-7. Open the **C:\PHP\php.ini** file, and add the following line in the **Extensions** section:  
+6. Copy the **php\_sqlsrv.dll** and **php\_sqlsrv\_ts.dll** files to the `C:\PHP\ext\` directory.
+7. Open the `C:\PHP\php.ini` file, and add the following line in the **Extensions** section:  
 
     [!code-console[Main](install-the-sql-server-driver-for-php/samples/sample1.cmd)]
 8. Click **Start**, and select the *search field*.
@@ -82,24 +82,14 @@ For more details on sqlsrv\_connect, see: [SQL Server Developer Center](https://
 
 ## Links for Further Information
 
-[PHP on Windows Training Kit (August 2009).](https://www.microsoft.com/downloads/details.aspx?familyid=C8498C9B-A85A-4AFA-90C0-593D0E4850CB&amp;displaylang=en)
-
-[Microsoft SQL Server Driver for PHP](http://www.codeplex.com/SQLSRVPHP).
-
-[SQL Azure Team Blog](https://blogs.msdn.com/ssds/default.aspx).
-
-[SQL Server Driver for PHP 1.1 - October 2009](https://www.microsoft.com/downloads/details.aspx?FamilyID=ccdf728b-1ea0-48a8-a84a-5052214caad9&amp;displaylang=en).
-
-[Microsoft SQL Server Driver for PHP team blog](https://blogs.msdn.com/sqlphp/default.aspx).
-
-[New SQL Server Driver for PHP Whitepaper](https://blogs.msdn.com/sqlphp/archive/2008/08/29/new-sql-server-driver-for-php-whitepaper-available.aspx).
-
-[SQL Server Driver for PHP example application](https://msdn.microsoft.com/en-us/library/cc296196(SQL.90).aspx).
-
-[php.net](http://php.net/).
-
-[Accessing SQL Server Databases with PHP](https://msdn.microsoft.com/en-us/library/cc793139(SQL.90).aspx)
-
-[Programming Tasks](https://technet.microsoft.com/en-us/library/cc644935(SQL.90).aspx).
-
-[Introducing the SQL Server Driver for PHP](https://msdn.microsoft.com/en-us/library/cc296172(SQL.90).aspx).
+- [PHP on Windows Training Kit (August 2009).](https://www.microsoft.com/downloads/details.aspx?familyid=C8498C9B-A85A-4AFA-90C0-593D0E4850CB&amp;displaylang=en)
+- [Microsoft SQL Server Driver for PHP](http://www.codeplex.com/SQLSRVPHP).
+- [SQL Azure Team Blog](https://blogs.msdn.com/ssds/default.aspx).
+- [SQL Server Driver for PHP 1.1 - October 2009](https://www.microsoft.com/downloads/details.aspx?FamilyID=ccdf728b-1ea0-48a8-a84a-5052214caad9&amp;displaylang=en).
+- [Microsoft SQL Server Driver for PHP team blog](https://blogs.msdn.com/sqlphp/default.aspx).
+- [New SQL Server Driver for PHP Whitepaper](https://blogs.msdn.com/sqlphp/archive/2008/08/29/new-sql-server-driver-for-php-whitepaper-available.aspx).
+- [SQL Server Driver for PHP example application](https://msdn.microsoft.com/en-us/library/cc296196(SQL.90).aspx).
+- [php.net](http://php.net/).
+- [Accessing SQL Server Databases with PHP](https://msdn.microsoft.com/en-us/library/cc793139(SQL.90).aspx)
+- [Programming Tasks](https://technet.microsoft.com/en-us/library/cc644935(SQL.90).aspx).
+- [Introducing the SQL Server Driver for PHP](https://msdn.microsoft.com/en-us/library/cc296172(SQL.90).aspx).

@@ -56,7 +56,7 @@ If you still have the Default Web Site on your IIS server, follow these instruct
 
 In the **Save As** dialog box:
 
-1. Set the path to your Default Web Site directory (for example, **C:\inetpub\wwwroot**).
+1. Set the path to your Default Web Site directory (for example, `C:\inetpub\wwwroot`).
 2. To simplify things, change the file name to **test.wmv**.
 3. Click **Save**.
 

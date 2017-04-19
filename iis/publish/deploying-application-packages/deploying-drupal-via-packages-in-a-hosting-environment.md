@@ -168,7 +168,7 @@ The Add Web Site dialog box appears.
 
 By default, Drupal uses query string parameters for all the URLs it generates for your Web site. You can change this default behavior by enabling clean URLs, a feature which relies on the URL rewriting functionality. To enable permalinks (clean URLs) in Drupal, complete these steps:
 
-1. Open the Web.config file located in the root of the Drupal install directory. The root directory path should be similar to the following: C:\inetpub\wwwroot\drupal
+1. Open the Web.config file located in the root of the Drupal install directory. The root directory path should be similar to the following: `C:\inetpub\wwwroot\drupal`
 2. Copy and paste the following XML code into the Web.config file.
 
     [!code-xml[Main](deploying-drupal-via-packages-in-a-hosting-environment/samples/sample1.xml)]
@@ -245,7 +245,7 @@ To create a customer application Web site, complete the steps described in A. Cr
 
 To create a customer application database, complete these steps:
 
-1. Open a command-line prompt (or MySQL Manager) at the MySQL bin directory. If you used the default installation path, the bin directory path will be similar to the following: C:\Program Files\MySQL\MySQL Server 5.1\bin
+1. Open a command-line prompt (or MySQL Manager) at the MySQL bin directory. If you used the default installation path, the bin directory path will be similar to the following: `C:\Program Files\MySQL\MySQL Server 5.1\bin`
 2. Enter the administrator password, and press **Enter**.
 3. Type the following command to create the database, and press **Enter**.  
  mysql&gt; create database drupal;
@@ -314,8 +314,8 @@ The examples in this topic show how to import Drupal into an IIS Web site and in
 9. Click the **Include Bin Directory in Windows PATH** check box, and click **Next**.
 10. Since MySQL is installed on the database server (which is different than the Web server that runs the Web Deploy web server component), you must complete these steps to ensure Web Deploy can access the database server:
 
-    - Copy mysqldump.exe (typically located in C:\Program Files\MySQL\MySQL Server 5.1\bin) to your **Web server** in [C:\mysqldump\mysqldump.exe](file:///c:/mysqldump/mysqldump.exe).
-    - On the **Web server**, set a registry key (HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\IIS Extensions\MSDeploy\1\mysqldumppath) to string value == "c:\mysqldump\mysqldump.exe"
+    - Copy mysqldump.exe (typically located in `C:\Program Files\MySQL\MySQL Server 5.1\bin`) to your **Web server** in [C:\mysqldump\mysqldump.exe](file:///c:/mysqldump/mysqldump.exe).
+    - On the **Web server**, set a registry key (`HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\IIS Extensions\MSDeploy\1\mysqldumppath`) to string value == "c:\mysqldump\mysqldump.exe"
 
         > [!NOTE]
         > If you lose the credentials to your MySQL database, refer to the link: [*Resetting the Root Password: Windows Systems*](http://dev.mysql.com/doc/refman/5.1/en/resetting-permissions.html#resetting-permissions-windows) to reset your password.

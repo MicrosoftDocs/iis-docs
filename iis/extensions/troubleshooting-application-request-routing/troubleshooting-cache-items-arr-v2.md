@@ -128,7 +128,8 @@ In the previous step we identified this server as **W2K8WEBSERVER2** so we will 
 
 [ARR Helper](https://blogs.iis.net/anilr/archive/2009/03/03/client-ip-not-logged-on-content-server-when-using-arr.aspx): This module adds the X-Forwarded-For to the C-IP field and the X-ARR-LOG-ID to the cs-uri-query field of the default IIS logs.
 
-**NOTE**: The ArrHelper is not currently supported by Microsoft
+> [!NOTE]
+> The ArrHelper is not currently supported by Microsoft
 
 **Repeat Steps 1 and 2 for Multiple Levels of Cache**.
 

@@ -51,7 +51,7 @@ FastCGI is a language-independent, scalable, open extension to Common Gateway In
 1. From the command line, start **Notepad.exe**. In the empty file, type or paste the following text:  
 
     [!code-xml[Main](install-php-and-fastcgi-support-on-server-core/samples/sample6.xml)]
-2. Save the file as **phpinfo.php** to **c:\inetpub\wwwroot\**.
+2. Save the file as **phpinfo.php** to `c:\inetpub\wwwroot\`.
 3. From a connected computer, open a browser window, and go to `http://%systemhost%/phpinfo.php`.
 4. A page appears showing the PHP configuration.  
 
@@ -63,12 +63,8 @@ FastCGI is a language-independent, scalable, open extension to Common Gateway In
 
 ## Links for Further Information
 
-[Setting Up FastCGI for PHP](../running-php-applications-on-iis/set-up-fastcgi-for-php.md)
-
-[Videocast: Using IIS 7 and Above with Windows Server Core](../../manage/working-with-server-core/using-iis-with-windows-server-core.md)
-
-[Installing PHP on Windows Vista® with FastCGI](installing-php-on-windows-vista-with-fastcgi.md)
-
-[Using FastCGI to Host PHP Applications on IIS 6.0](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis-60.md)
-
-[Configuring FastCGI Extension for IIS 6.0](configuring-the-fastcgi-extension-for-iis-60.md)
+- [Setting Up FastCGI for PHP](../running-php-applications-on-iis/set-up-fastcgi-for-php.md)
+- [Videocast: Using IIS 7 and Above with Windows Server Core](../../manage/working-with-server-core/using-iis-with-windows-server-core.md)
+- [Installing PHP on Windows Vista® with FastCGI](installing-php-on-windows-vista-with-fastcgi.md)
+- [Using FastCGI to Host PHP Applications on IIS 6.0](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis-60.md)
+- [Configuring FastCGI Extension for IIS 6.0](configuring-the-fastcgi-extension-for-iis-60.md)

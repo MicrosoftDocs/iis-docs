@@ -1,11 +1,11 @@
 <rewrite>
-<rules>
-  <rule name="PHP Source Code" stopProcessing="true">
-   <match url="(.*\.php)s$" />
-   <conditions>
-    <add input="{DOCUMENT_ROOT}\{R:1}" matchType="IsFile" />
-   </conditions>
-   <action type="Rewrite" url="highlighter.php?file={R:1}" appendQueryString="false" />
-  </rule>
-</rules>
+	<rules>
+	  <rule name="PHP Source Code" stopProcessing="true">
+	   <match url="(.*\.php)s$" />
+	   <conditions>
+		<add input="{DOCUMENT_ROOT}\{R:1}" matchType="IsFile" />
+	   </conditions>
+	   <action type="Rewrite" url="highlighter.php?file={R:1}" appendQueryString="false" />
+	  </rule>
+	</rules>
 </rewrite>

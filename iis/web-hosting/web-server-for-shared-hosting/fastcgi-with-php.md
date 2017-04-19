@@ -47,7 +47,7 @@ It is recommended to use a non-thread safe build of PHP with IIS 7.0 FastCGI. No
 
 1. Download the latest non-thread safe binaries of PHP from [http://www.php.net/downloads.php](http://www.php.net/downloads.php).
 
-2. Unpack the files to a directory of your choice (e.g. C:\PHP). Rename the php.ini-recommended to php.ini.
+2. Unpack the files to a directory of your choice (e.g. `C:\PHP`). Rename the php.ini-recommended to php.ini.
 
 3. Open php.ini file, then uncomment and modify settings as follows:
 
@@ -89,12 +89,12 @@ In order for IIS 7.0 to host PHP applications, it is necessary to add a handler 
 
 1. - Request path: **\*.php**
     - Module: **FastCgiModule**
-    - Executable: **C:\[Path to your PHP installation]\php-cgi.exe**
+    - Executable: `C:\[Path to your PHP installation]\php-cgi.exe`
     - Name: **PHP via FastCGI**
 
 3. Click OK. The dialog box appears asking if you want to create a FastCGI application for this executable. Click Yes.
 
-4. Test that the handler mapping works correctly by creating a phpinfo.php file in the C:\inetpub\wwwroot folder that contains the following:  
+4. Test that the handler mapping works correctly by creating a phpinfo.php file in the `C:\inetpub\wwwroot` folder that contains the following:  
 &lt;?php phpinfo(); ?&gt;.
 
 5. Open a browser and navigate to [http://localhost/phpinfo.php](http://localhost/phpinfo.php). If everything was setup correctly, then you see the standard PHP information page.
@@ -149,7 +149,7 @@ To set these configuration properties use the following commands:
 
 Many PHP applications may rely on functions or features available only in certain versions of PHP.
 
-It is a common requirement in a shared hosting environment to support multiple versions of PHP on the same server. IIS 7.0 FastCGI handler fully supports running multiple versions of PHP on the same web server. For example, let's assume that on your web server you plan to support PHP 4.4.8, PHP 5.2.1 and PHP 5.2.5 non-thread safe. To enable that, you must place corresponding PHP binaries in separate folders on files system (e.g. C:\php448\, C:\php521\ and C:\php525nts) and then create the FastCGI application process pools for each version:
+It is a common requirement in a shared hosting environment to support multiple versions of PHP on the same server. IIS 7.0 FastCGI handler fully supports running multiple versions of PHP on the same web server. For example, let's assume that on your web server you plan to support PHP 4.4.8, PHP 5.2.1 and PHP 5.2.5 non-thread safe. To enable that, you must place corresponding PHP binaries in separate folders on files system (e.g. `C:\php448\`, `C:\php521\` and `C:\php525nts`) and then create the FastCGI application process pools for each version:
 
 
 [!code-console[Main](fastcgi-with-php/samples/sample6.cmd)]
@@ -231,13 +231,13 @@ and website2 can have the PHP handler mapping as follows:
 
 When PHP process starts it determines the location of configuration php.ini file by using various settings. [The PHP documentation](http://www.php.net/manual/en/configuration.php) provides detailed description of the PHP start up process. Note that one of the places where PHP process searches for php.ini location is the PHPRC environment variable. If PHP process finds a php.ini file in the path specified in this environment variable then it will use it, otherwise it will revert to default location of php.ini. This environment variable can be used to allow hosting customers to use their own versions of php.ini files.
 
-For example if there are two websites: website1 and website2; located at the following file paths: C:\WebSites\website1 and C:\WebSites\website2 then the php-cgi.exe process pools in &lt;fastCgi&gt; section of applicationHost.config can be configured as below:
+For example if there are two websites: website1 and website2; located at the following file paths: `C:\WebSites\website1` and `C:\WebSites\website2` then the php-cgi.exe process pools in &lt;fastCgi&gt; section of applicationHost.config can be configured as below:
 
 
 [!code-xml[Main](fastcgi-with-php/samples/sample11.xml)]
 
 
-This way owner of website1 can place their own version of php.ini into the C:\WebSites\website1, while the owner of website2 can use their own version of php.ini located in C:\WebSites\website2. This configuration also ensures that if there is no php.ini found in location specified by PHPRC environment variable then PHP will fall back to using the default php.ini file located in the same folder where php-cgi.exe is located.
+This way owner of website1 can place their own version of php.ini into the `C:\WebSites\website1`, while the owner of website2 can use their own version of php.ini located in `C:\WebSites\website2`. This configuration also ensures that if there is no php.ini found in location specified by PHPRC environment variable then PHP will fall back to using the default php.ini file located in the same folder where php-cgi.exe is located.
 
 <a id="Rewrite"></a>
 

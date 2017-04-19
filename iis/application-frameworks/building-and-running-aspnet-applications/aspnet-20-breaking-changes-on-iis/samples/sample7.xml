@@ -1,5 +1,5 @@
 <system.webServer>
-<security>
-<requestFiltering allowDoubleEscaping="true" />
-</security>
+	<security>
+		<requestFiltering allowDoubleEscaping="true" />
+	</security>
 </system.webServer>

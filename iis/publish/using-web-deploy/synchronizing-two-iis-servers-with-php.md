@@ -41,7 +41,7 @@ Based this analysis of your dependencies, you would install those components on 
 
 ### Part 3 – Create a custom manifest
 
-Create the following manifest, assuming that your PHP install location is c:\php (replace with your actual install directory):
+Create the following manifest, assuming that your PHP install location is `c:\php` (replace with your actual install directory):
 
 [!code-xml[Main](synchronizing-two-iis-servers-with-php/samples/sample2.xml)]
 

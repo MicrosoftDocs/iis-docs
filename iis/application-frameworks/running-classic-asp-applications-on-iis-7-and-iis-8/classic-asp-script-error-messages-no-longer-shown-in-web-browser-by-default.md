@@ -20,8 +20,10 @@ In earlier versions of IIS, error messages from classic ASP scripts were sent to
 
 [!code-console[Main](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/samples/sample1.cmd)]
 
-You can customize the ASP script error message, and also determine whether to return the script errors to a Web browser. > [!NOTE]
- > As a best practice for security, you should only enable sending ASP script error messages to a Web browser on a development or test computer; returning script error messages to a Web browser can unintentionally expose more information than you intended to show.
+You can customize the ASP script error message, and also determine whether to return the script errors to a Web browser.
+
+> [!NOTE]
+> As a best practice for security, you should only enable sending ASP script error messages to a Web browser on a development or test computer; returning script error messages to a Web browser can unintentionally expose more information than you intended to show.
 
 #### Working with User Access Control
 
@@ -43,12 +45,12 @@ The configuration settings that you use to customize these settings are in the f
 
 You can configure these settings by using IIS Manager. To do so, open IIS Manager and navigate to the site or application where you want to enable or disable script messages, and then double-click the **ASP** feature.
 
-> [![](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image2.jpg)](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image1.jpg)
+[![](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image2.jpg)](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image1.jpg)
 
 
 In the list of ASP features, configure the **Script Error Message** and **Send Errors To Browser** options.
 
-> [![](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image4.jpg)](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image3.jpg)
+[![](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image4.jpg)](classic-asp-script-error-messages-no-longer-shown-in-web-browser-by-default/_static/image3.jpg)
 
 
 You can also configure these settings by using the command-line tool AppCmd.exe with the following syntax:

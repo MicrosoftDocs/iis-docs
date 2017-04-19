@@ -251,7 +251,7 @@ The output cache is also integrated with the HTTP.sys kernel cache that helps wi
 Although Web page compression is not a new technology, it has recently become popular among IT administrators and managers because of the almost-immediate return on investment (ROI) that it generates.
 
 - The Web output compression solution available in Apache is mod\_gzip, with which configured file types are compressed using GZIP encoding after processing by Apache's other modules and before being sent to the client. When a request is received from a client, Apache determines if mod\_gzip should be invoked by noting whether the "Accept-Encoding" HTTP request header was sent. If the client sends the header, mod\_gzip compresses the output of all configured file types when they are sent to the client.
-- IIS has improved and simplified support for GZIP encoding enabled out-of-the-box execution of Web compression. Compression is configured in the ApplicationHost.config file at C:\Windows\System32\inetsrv\config\applicationhost.config. The compression module gives IIS the ability to serve compressed responses to compression-enabled clients. Clients that can accept compressed responses send an Accept-Encoding header indicating the compression schemes that they can handle. If IIS can compress the response using one of these compression schemes, it then sends a compressed response with a Content-Encoding response header indicating the scheme used to compress the response.
+- IIS has improved and simplified support for GZIP encoding enabled out-of-the-box execution of Web compression. Compression is configured in the ApplicationHost.config file at `C:\Windows\System32\inetsrv\config\applicationhost.config`. The compression module gives IIS the ability to serve compressed responses to compression-enabled clients. Clients that can accept compressed responses send an Accept-Encoding header indicating the compression schemes that they can handle. If IIS can compress the response using one of these compression schemes, it then sends a compressed response with a Content-Encoding response header indicating the scheme used to compress the response.
 
 ## Diagnostics and Troubleshooting
 
@@ -315,8 +315,6 @@ Dynamic IP Restrictions for IIS is a module that provides protection against den
 
 ## Links for Further Information
 
-[My Take: IIS vs. Apache](https://blogs.iis.net/bills/archive/2007/05/07/iis-vs-apache.aspx).
-
-[Benefits of Running IIS7 Over IIS6 Or Apache](http://ezinearticles.com/?Benefits-of-Running-IIS7-Over-IIS6-Or-Apache&amp;id=2131887).
-
-See: http://secunia.com/advisories/product/1438/?task=statistics.
+- [My Take: IIS vs. Apache](https://blogs.iis.net/bills/archive/2007/05/07/iis-vs-apache.aspx).
+- [Benefits of Running IIS7 Over IIS6 Or Apache](http://ezinearticles.com/?Benefits-of-Running-IIS7-Over-IIS6-Or-Apache&amp;id=2131887).
+- See: http://secunia.com/advisories/product/1438/?task=statistics.

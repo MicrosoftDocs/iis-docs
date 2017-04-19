@@ -20,7 +20,7 @@ In this walkthrough you will learn how to change simple properties of IIS namesp
 
 ## Introduction
 
-The task of the PowerShell Snap-ins is to offer namespaces that can be managed with a common, built-in PowerShell cmdlets like New-Item, Get-Item, Get-ChildItems, Set-Item, Set-ItemProperty etc.. The built-in cmdlets work against all PowerShell-provided namespaces. New-Item c:\testdir for example allows you to create a new file system directory, but you can also to create a new IIS object like a Web-Site or an Application Pool, for example New-Item IIS:\AppPools\NewAppPool.
+The task of the PowerShell Snap-ins is to offer namespaces that can be managed with a common, built-in PowerShell cmdlets like New-Item, Get-Item, Get-ChildItems, Set-Item, Set-ItemProperty etc.. The built-in cmdlets work against all PowerShell-provided namespaces. `New-Item c:\testdir` for example allows you to create a new file system directory, but you can also to create a new IIS object like a Web-Site or an Application Pool, for example `New-Item IIS:\AppPools\NewAppPool`.
 
 In the previous walkthrough we started using the New-item and Get-Item cmdlets. This walkthrough will explore more of the built-in cmdlets.
 

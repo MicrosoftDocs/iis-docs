@@ -68,16 +68,16 @@ WebDAV stands for Web Distributed Authoring and Versioning, and it is an open-st
 
 When migrating an FPSE web site to WebDAV, there are several folders that must be secured from normal HTTP access. A detailed examination of all of the files and folders in an FPSE-based web site is available in the [Upgrade issues with FrontPage Server Extensions](https://www.iis.net/downloads/community) white paper on the Microsoft IIS.NET web site. We examine several of the relevant FPSE folders in order to create request filtering rules later.
 
-> | Folder | Notes |
-> | --- | --- |
-> | \_fpclass | Should contain publicly-available FrontPage code - but should be secured. |
-> | \_private | The FrontPage Server Extensions often keep sensitive data files in this folder, so it should be secured to prevent browsing. |
-> | \_vti\_bin | This is the virtual directory for the FrontPage Server Extensions executables. This path is configured to allow executables to function, and since we are migrating sites to WebDAV it should be secured to prevent browsing. |
-> | \_vti\_cnf | The FrontPage Server Extensions keep sensitive metadata files in this folder, so it should be deleted or secured to prevent browsing. |
-> | \_vti\_log | The FrontPage Server Extensions keep author logs in this folder, so it should be deleted or secured to prevent browsing. |
-> | \_vti\_pvt | This folder holds several files that contain various metadata for your web site, and should be secured. |
-> | \_vti\_txt | This folder contains the text indices and catalogs for the older FrontPage WAIS search. Since later versions of FrontPage only used Index Server, it is safe to delete this folder, but at the very least it should be secured to prevent browsing. |
-> | fpdb | FrontPage keeps databases in this folder, so it should be secured to prevent browsing. |
+| Folder | Notes |
+| --- | --- |
+| \_fpclass | Should contain publicly-available FrontPage code - but should be secured. |
+| \_private | The FrontPage Server Extensions often keep sensitive data files in this folder, so it should be secured to prevent browsing. |
+| \_vti\_bin | This is the virtual directory for the FrontPage Server Extensions executables. This path is configured to allow executables to function, and since we are migrating sites to WebDAV it should be secured to prevent browsing. |
+| \_vti\_cnf | The FrontPage Server Extensions keep sensitive metadata files in this folder, so it should be deleted or secured to prevent browsing. |
+| \_vti\_log | The FrontPage Server Extensions keep author logs in this folder, so it should be deleted or secured to prevent browsing. |
+| \_vti\_pvt | This folder holds several files that contain various metadata for your web site, and should be secured. |
+| \_vti\_txt | This folder contains the text indices and catalogs for the older FrontPage WAIS search. Since later versions of FrontPage only used Index Server, it is safe to delete this folder, but at the very least it should be secured to prevent browsing. |
+| fpdb | FrontPage keeps databases in this folder, so it should be secured to prevent browsing. |
 
 
 <a id="02a"></a>

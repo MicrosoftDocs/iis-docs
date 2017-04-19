@@ -69,7 +69,7 @@ The configuration script with the name fcgconfig.js is provided with the install
 
 [!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample1.cmd)]
 
-Replace C:\PHP\php-cgi.exe with the path to php-cgi.exe if you installed to a directory other than C:\PHP.
+Replace `C:\PHP\php-cgi.exe` with the path to php-cgi.exe if you installed to a directory other than `C:\PHP`.
 
 > [!NOTE]
 > If you do not want to register the PHP extension to be processed by the FastCGI component on your entire server, and only want to register it for a specific Web site, add a "–site:[siteId]" argument, for example:

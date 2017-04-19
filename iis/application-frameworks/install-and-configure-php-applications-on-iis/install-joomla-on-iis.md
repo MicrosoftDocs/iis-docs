@@ -43,8 +43,8 @@ This article describes how to install and configure Joomla for use with the Fast
 
 From the base default configuration file provided by PHP, modify the following lines in your **Php.ini** configuration:
 
-- Define **extension\_dir** as **c:\php\ext** (for example, the location of your php extensions directory).
-- Uncomment **extension=php\_mysql.dll** in the extensions list to enable MySQL support.
+- Define `extension\_dir` as `c:\php\ext` (for example, the location of your php extensions directory).
+- Uncomment `extension=php\_mysql.dll` in the extensions list to enable MySQL support.
 
 In order for Joomla to work correctly with IIS 7 and above, it is necessary to install an [Update for IIS FastCGI module for IIS 7](https://blogs.iis.net/ruslany/archive/2008/08/27/update-for-iis-7-0-fastcgi-module.aspx).
 
@@ -120,7 +120,7 @@ Before starting the installation procedure for Joomla, you must create a databas
     [![](install-joomla-on-iis/_static/image12.jpg)](install-joomla-on-iis/_static/image11.jpg)
 
     *Figure 6: Main Configuration page*
-8. The Finish page appears, and you are instructed to delete the **C:\inetpub\wwwroot\joomla\installation** directory.  
+8. The Finish page appears, and you are instructed to delete the `C:\inetpub\wwwroot\joomla\installation` directory.  
 
     [![](install-joomla-on-iis/_static/image14.jpg)](install-joomla-on-iis/_static/image13.jpg)
 
@@ -140,7 +140,7 @@ IIS 6.0 does not include URL rewriting capabilities; you can use a third-party U
 IIS 7 and above includes URL rewriting support, which can be enabled by installing [Microsoft URL Rewrite Module for IIS 7](https://www.microsoft.com/downloads/details.aspx?familyid=836778EA-B2F2-4907-B2DC-A152EC0A4BC4&amp;displaylang=en).
 
 1. Download and install the **Microsoft URL Rewrite Module**.
-2. If it does not already exist; create and open a **Web.config** file located in the **C:\inetpub\wwwroot\joomla** directory.
+2. If it does not already exist; create and open a **Web.config** file located in the `C:\inetpub\wwwroot\joomla` directory.
 3. Paste the following XML code into this file.  
 
     [!code-xml[Main](install-joomla-on-iis/samples/sample4.xml)]
@@ -165,14 +165,9 @@ IIS 7 and above includes URL rewriting support, which can be enabled by installi
 
 ## Links for Further Information
 
-[Setting up FastCGI for PHP](../running-php-applications-on-iis/set-up-fastcgi-for-php.md).
-
-[Using FastCGI to Host PHP Applications on IIS 7.0 and Above](using-fastcgi-to-host-php-applications-on-iis.md).
-
-[Installing PHP on Windows Vista with FastCGI](../install-and-configure-php-on-iis/installing-php-on-windows-vista-with-fastcgi.md).
-
-[Installing FastCGI Support On Server Core](../install-and-configure-php-on-iis/install-php-and-fastcgi-support-on-server-core.md).
-
-[FastCGI forum](https://forums.iis.net/1104.aspx).
-
-[PHP community forum](https://forums.iis.net/1102.aspx).
+- [Setting up FastCGI for PHP](../running-php-applications-on-iis/set-up-fastcgi-for-php.md).
+- [Using FastCGI to Host PHP Applications on IIS 7.0 and Above](using-fastcgi-to-host-php-applications-on-iis.md).
+- [Installing PHP on Windows Vista with FastCGI](../install-and-configure-php-on-iis/installing-php-on-windows-vista-with-fastcgi.md).
+- [Installing FastCGI Support On Server Core](../install-and-configure-php-on-iis/install-php-and-fastcgi-support-on-server-core.md).
+- [FastCGI forum](https://forums.iis.net/1104.aspx).
+- [PHP community forum](https://forums.iis.net/1102.aspx).

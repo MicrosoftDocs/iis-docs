@@ -105,6 +105,5 @@ The following information may help you troubleshoot issues that you may encounte
 
 ## Links for Further Information
 
-[Linux-Apache-MySQL PHP Migration webcasts](http://blogs.technet.com/keithcombs/archive/2008/12/17/running-lamp-on-windows-server-2008-webcast-and-screencasts-now-available.aspx).
-
-[Migrating Linux-Apache-MySQL-PHP to Windows 2000](https://www.microsoft.com/technet/archive/interopmigration/linux/mvc/miglamp.mspx?mfr=true.)
+- [Linux-Apache-MySQL PHP Migration webcasts](http://blogs.technet.com/keithcombs/archive/2008/12/17/running-lamp-on-windows-server-2008-webcast-and-screencasts-now-available.aspx).
+- [Migrating Linux-Apache-MySQL-PHP to Windows 2000](https://www.microsoft.com/technet/archive/interopmigration/linux/mvc/miglamp.mspx?mfr=true.)

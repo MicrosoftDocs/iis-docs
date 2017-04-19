@@ -75,14 +75,9 @@ For instructions, see: [How to: Install SQL Server 2008](https://technet.microso
 
 ## Links for Further Information
 
-[SQL 2008 for Hosters](../../web-hosting/configuring-servers-in-the-windows-web-platform/sql-2008-for-hosters.md).
-
-[Hardware and Software Requirements for Installing SQL Server 2008](https://technet.microsoft.com/en-us/library/ms143506.aspx).
-
-[Editions and Components of SQL Server 2008.](https://technet.microsoft.com/en-us/library/ms144275.aspx)
-
-[SQL Server 2008 home page](https://www.microsoft.com/sqlserver/2008/en/us/default.aspx).
-
-[SQL Server Developer Center library](https://msdn.microsoft.com/en-us/library/bb545450.aspx).
-
-[SQL Server Best Practices](https://technet.microsoft.com/en-us/sqlserver/bb671430.aspx).
+- [SQL 2008 for Hosters](../../web-hosting/configuring-servers-in-the-windows-web-platform/sql-2008-for-hosters.md).
+- [Hardware and Software Requirements for Installing SQL Server 2008](https://technet.microsoft.com/en-us/library/ms143506.aspx).
+- [Editions and Components of SQL Server 2008.](https://technet.microsoft.com/en-us/library/ms144275.aspx)
+- [SQL Server 2008 home page](https://www.microsoft.com/sqlserver/2008/en/us/default.aspx).
+- [SQL Server Developer Center library](https://msdn.microsoft.com/en-us/library/bb545450.aspx).
+- [SQL Server Best Practices](https://technet.microsoft.com/en-us/sqlserver/bb671430.aspx).

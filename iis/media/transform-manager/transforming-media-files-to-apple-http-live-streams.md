@@ -66,9 +66,8 @@ Create an account for the Transform Manager service and then start the service. 
 - You can add the default **Robocopy** task in Transform Manager to your job template in order to copy the transformed Apple HLS output to a Web server running IIS Smooth Streaming or to network-attached storage. For more information, see [Chaining the Robocopy Task to your Transformed Output](chaining-the-robocopy-task-to-your-transformed-output.md).
 - To learn how to create an HTML5 webpage that clients on Apple mobile digital devices can use to play the Apple HLS output, see [Delivering Transform Manager Output to Clients](delivering-transform-manager-output-to-clients.md).
 
-| ![Note](transforming-media-files-to-apple-http-live-streams/_static/image1.gif) > [!NOTE]
- > - Computation-intensive tasks, such as encoding and transcoding, can consume a large amount of memory and CPU resources and might affect Web server performance. You shouldn't run Transform Manager on the local Web server if it's also used in a production environment to fulfill HTTP requests. |
-| --- |
+> [!NOTE]
+> Computation-intensive tasks, such as encoding and transcoding, can consume a large amount of memory and CPU resources and might affect Web server performance. You shouldn't run Transform Manager on the local Web server if it's also used in a production environment to fulfill HTTP requests.
 
 <a id="configure_jt"></a>
 
@@ -103,7 +102,7 @@ Job templates are modifiable definitions of the tasks that are run during the tr
     [![](transforming-media-files-to-apple-http-live-streams/_static/image14.png)](transforming-media-files-to-apple-http-live-streams/_static/image13.png)
 7. (Optional) Edit the following additional task default values in the **Properties** list. 
 
-    - The **templateName** and **templatePath** properties are used to specify the Expression Encoder 4.0 SP2 Silverlight player template that's used. By default, the task is configured to use the Standard player template that's stored in the default installation path for Expression Encoder: %ProgramFiles(x86)%\Microsoft Expression\Encoder 4\Templates\en\Standard. Modify these values, if desired, to point to other Expression Encoder 4 Silverlight player templates that are included in the Transform Manager installation, or to custom Silverlight player templates that you designed in Expression Encoder.
+    - The **templateName** and **templatePath** properties are used to specify the Expression Encoder 4.0 SP2 Silverlight player template that's used. By default, the task is configured to use the Standard player template that's stored in the default installation path for Expression Encoder: `%ProgramFiles(x86)%\Microsoft Expression\Encoder 4\Templates\en\Standard`. Modify these values, if desired, to point to other Expression Encoder 4 Silverlight player templates that are included in the Transform Manager installation, or to custom Silverlight player templates that you designed in Expression Encoder.
     - Enable the **createSubDirectory** property if you want the **Expression Encoder 4.0 SP2** task to output to a uniquely named subdirectory for each job. This is disabled by default to give you better control of the naming of the output location when you use Transform Manager.
 8. Note the virtual folder name that's specified in **Output folder name**.  
     [![](transforming-media-files-to-apple-http-live-streams/_static/image16.png)](transforming-media-files-to-apple-http-live-streams/_static/image15.png)  
@@ -177,9 +176,8 @@ To run transform jobs on media files, you must configure the default watch folde
  The watch folder is now active and ready to accept files.  
     [![](transforming-media-files-to-apple-http-live-streams/_static/image36.png)](transforming-media-files-to-apple-http-live-streams/_static/image35.png)   
 
-    | ![Note](transforming-media-files-to-apple-http-live-streams/_static/image2.gif) > [!NOTE]
- > - You can't start a watch folder if another active watch folder thread is already using the same watch folder root path. |
-    | --- |
+    > [!NOTE]
+    > You can't start a watch folder if another active watch folder thread is already using the same watch folder root path.
 
 <a id="run_jobs"></a>
 

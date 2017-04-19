@@ -396,8 +396,10 @@ To specify the Globally Unique Identifier (GUID) of the COM+ partition, use the 
 
 `appcmd set config /section:asp /partitionID:string`
 
-The variable `string` represents the GUID of the COM+ partition. The default value is `00000000-0000-0000-0000-000000000000`. (> [!NOTE]
-> You must also set the `appServiceFlags` flag to `true`.)
+The variable `string` represents the GUID of the COM+ partition. The default value is `00000000-0000-0000-0000-000000000000`.
+
+> [!NOTE]
+> You must also set the `appServiceFlags` flag to `true`.
 
 #### Specify COM+ application
 
@@ -405,8 +407,10 @@ To specify the name of the COM+ application, use the following syntax:
 
 `appcmd set config /section:asp /sxsName:string`
 
-The variable `string` represents name of the COM+ application. (> [!NOTE]
-> You must also set the `appSeviceFlags` flag to `true`.)
+The variable `string` represents name of the COM+ application. 
+
+> [!NOTE]
+> You must also set the `appSeviceFlags` flag to `true`.
 
 #### Enable or disable COM+ partitioning
 
@@ -414,8 +418,10 @@ To enable or disable COM+ partitioning, use the following syntax:
 
 `appcmd set config /section:asp /appServiceFlags:true|false`
 
-A value of `true` enables COM+ partitioning, which can be used to isolate applications in their own COM+ partition. The default value is *false*. (> [!NOTE]
-> If set to `true`, you must also set a value for the `partitionID` property.)
+A value of `true` enables COM+ partitioning, which can be used to isolate applications in their own COM+ partition. The default value is *false*. 
+
+> [!NOTE]
+> If set to `true`, you must also set a value for the `partitionID` property.
 
 #### Enable or disable session state
 

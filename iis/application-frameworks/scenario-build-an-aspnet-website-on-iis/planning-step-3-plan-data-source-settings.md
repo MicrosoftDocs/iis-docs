@@ -79,7 +79,8 @@ Add roles when you have security settings that you want to apply to a group of u
 
 If you decide to define roles for your application, provide a name for each role.
 
-**Important**: To configure roles for your application, you must have previously configured a .NET roles provider.
+> [!IMPORTANT]
+> To configure roles for your application, you must have previously configured a .NET roles provider.
 
 <a id="35"></a>
 ## 3.5. .NET users
@@ -97,4 +98,5 @@ If you decide to configure users for your application, provide the following inf
 - Answer to the foregoing question.
 - Roles the user is assigned to.
 
-**Important**: To configure users for your application, you must have previously configured a .NET users provider.
+> [!IMPORTANT]
+> To configure users for your application, you must have previously configured a .NET users provider.

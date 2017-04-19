@@ -1,5 +1,5 @@
 <authorization>
-        <allow users="Vik_Malhotra" />
-        <deny roles="administrators" />
-        <deny users="*" />
-    </authorization>
+	<allow users="Vik_Malhotra" />
+	<deny roles="administrators" />
+	<deny users="*" />
+</authorization>

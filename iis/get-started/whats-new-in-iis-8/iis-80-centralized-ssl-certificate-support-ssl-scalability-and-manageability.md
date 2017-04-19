@@ -121,7 +121,7 @@ There are no known bugs for this feature at this time.
 4. Fill in the information, as you would create any site: 
 
     - **Site name**: centralCert0
-    - **Physical path**: c:\inetpub\wwwroot
+    - **Physical path**: `c:\inetpub\wwwroot`
     - **Type**: https
     - **Hostname**: centralcert0 
 

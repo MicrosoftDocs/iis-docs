@@ -29,7 +29,7 @@ This article provides a summary of the PowerShell and C# Sample scripts mentione
     - **runPKGMGT\_IIS.PS1**: runs the "pkgmgt.exe" command tool to install IIS 7.0 with the recommended modules for shared hosting, see [Installing the Web Server Role](../web-server-for-shared-hosting/installing-the-web-server-role.md).
 
         - The script uses the file "unattended.xml" as its input configuration data, it specifies the IIS modules to install.
-        - **Required**: Unattend.xml requires that the version number be set to the current Product version of Windows i.e. version="6.0.6000.16386". This can be found by Right Clicking C:\Windows\RegEdit.exe and choosing the details tab. PkgMgr requires this parameter so that it can properly install all desired components
+        - **Required**: Unattend.xml requires that the version number be set to the current Product version of Windows i.e. version="6.0.6000.16386". This can be found by Right Clicking `C:\Windows\RegEdit.exe` and choosing the details tab. PkgMgr requires this parameter so that it can properly install all desired components
     - **Install\_IISSharedHosting.PS1**: runs all the configuration scripts in accordance to the Shared Hosting guidelines, see [Configuring IIS 7.0 for Shared Hosting](../web-server-for-shared-hosting/index.md).
 
         - The script uses the IISSettings.xml file as input configuration data. It contains settings for Dynamic Compression and Idle Threshold

@@ -92,7 +92,7 @@ Now that you know your way around Zend Server, let's put together a simple PHP s
 [!code-xml[Main](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/samples/sample1.xml)]
 
 
-Save this file as whoami.php in the site root folder (typically, C:\inetpub\wwwroot\), and then browse to [http://localhost/whoami.php](http://localhost/whoami.php). You should see something like this:  
+Save this file as whoami.php in the site root folder (typically, `C:\inetpub\wwwroot\`), and then browse to [http://localhost/whoami.php](http://localhost/whoami.php). You should see something like this:  
 [![](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image29.jpg)](build-a-high-performance-php-stack-with-windows-iis-and-zend-server/_static/image28.jpg)
 
 This is a very basic "Hello World" script in PHP: the echo statement simply prints a string to the output device - in this case, the browser.

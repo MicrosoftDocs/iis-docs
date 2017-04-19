@@ -209,8 +209,10 @@ There are several settings that control the behavior of the WebDAV redirector th
 
 HKLM\SYSTEM\CurrentControlSet\Services\WebClient\Parameters
 
-The following table details the various settings and values that are available. > [!NOTE]
- > After changing any of these values, the Web Client will need to be restarted or your computer will need to be rebooted.
+The following table details the various settings and values that are available.
+
+> [!NOTE]
+> After changing any of these values, the Web Client will need to be restarted or your computer will need to be rebooted.
 
 **WARNING**: If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that you can solve problems that result from using Registry Editor incorrectly. Use Registry Editor at your own risk.
 
@@ -218,13 +220,11 @@ The following table details the various settings and values that are available. 
 | --- | --- | --- | --- |
 | **AcceptOfficeAndTahoeServers** Specifies whether the WebClient service can connect to web sites that are running SharePoint or Office Web Server. | DWORD | | 0 | = | False | | --- | --- | --- | | 1 | = | True | | 1 |
 | **AuthForwardServerList** Specifies a list of local URLs for forwarding credentials that bypasses any proxy settings. (Note: This requires Windows Vista SP1 or later.) | MULTI\_SZ | A carriage-return/line-feed separated list of URLs. | n/a |
-| **BasicAuthLevel** Specifies whether the WebClient service can use basic authentication to talk to a server. > [!NOTE]
- > Using basic authentication can cause *serious security issues* as the username/password are transmitted in clear text, therefore the use of basic authentication over WebDAV is disabled by default unless the connection is using SSL. That being said, this registry key can override the default basic authentication behavior, but it is still *strongly discouraged*. | DWORD | | 0 | = | Basic authentication is disabled | | --- | --- | --- | | 1 | = | Basic authentication is enabled for SSL web sites only | | 2 | = | Basic authentication is enabled for SSL and non-SSL web sites | | 1 |
+| **BasicAuthLevel** Specifies whether the WebClient service can use basic authentication to talk to a server. **Note:** Using basic authentication can cause *serious security issues* as the username/password are transmitted in clear text, therefore the use of basic authentication over WebDAV is disabled by default unless the connection is using SSL. That being said, this registry key can override the default basic authentication behavior, but it is still *strongly discouraged*. | DWORD | | 0 | = | Basic authentication is disabled | | --- | --- | --- | | 1 | = | Basic authentication is enabled for SSL web sites only | | 2 | = | Basic authentication is enabled for SSL and non-SSL web sites | | 1 |
 | **FileAttributesLimitInBytes** Specifies the maximum size that is allowed by the WebClient service for all properties on a specific collection. | DWORD | Size of attributes in bytes | 1,000,000 decimal (1 MB) |
 | **FileSizeLimitInBytes** Specifies the maximum size in bytes that the WebClient service allows for file transfers. | DWORD | File size in bytes | 50,000,000 decimal (50 MB) |
 | **InternetServerTimeoutInSec** Specifies the connection timeout for the WebClient service uses when communicating with non-local WebDAV servers. | DWORD | Time in seconds | 30 decimal |
 | **LocalServerTimeoutInSec** Specifies the connection timeout for the WebClient service uses when communicating with a local WebDAV server. | DWORD | Time in seconds | 15 decimal |
 | **SendReceiveTimeoutInSec** Specifies the timeout in seconds that WebDAV the WebClient service uses after issuing a request, such as "GET /file.ext" or "PUT /file.ext". | DWORD | Time in seconds | 60 decimal |
-| **ServerNotFoundCacheLifeTimeInSec** Specifies the period of time that a server is cached as non-WebDAV by the WebClient service. > [!NOTE]
- > The WebClient service maintains a list of non-WebDAV servers that have been contacted. If the server is found in this list, a fail is returned immediately without attempting to contact the server. | DWORD | Time in seconds | 60 decimal |
+| **ServerNotFoundCacheLifeTimeInSec** Specifies the period of time that a server is cached as non-WebDAV by the WebClient service. **Note:** The WebClient service maintains a list of non-WebDAV servers that have been contacted. If the server is found in this list, a fail is returned immediately without attempting to contact the server. | DWORD | Time in seconds | 60 decimal |
 | **SupportLocking** Specifies whether the WebClient service supports locking. | DWORD | | 0 | = | False | | --- | --- | --- | | 1 | = | True | | 1 |

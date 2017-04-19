@@ -189,12 +189,8 @@ In the Windows Server 2008 and Windows Vista operating systems, Pkgmgr.exe is us
 
 ## Links for Further Information
 
-[Installing and Configuring WebDAV on IIS 7.0 and Above](../installing-publishing-technologies/installing-and-configuring-webdav-on-iis.md).
-
-[Available Web Server (IIS) Role Services in IIS 7.5](https://technet.microsoft.com/en-us/library/cc753473.aspx).
-
-[Installing IIS 7.0 on Windows Server 2008](https://technet.microsoft.com/en-us/library/cc771209(WS.10).aspx).
-
-[Editing Configuration Files](../../get-started/planning-your-iis-architecture/editing-configuration-files.md).
-
-[Extending IIS Configuration](../../develop/extending-iis-configuration/extending-iis-configuration.md).
+- [Installing and Configuring WebDAV on IIS 7.0 and Above](../installing-publishing-technologies/installing-and-configuring-webdav-on-iis.md).
+- [Available Web Server (IIS) Role Services in IIS 7.5](https://technet.microsoft.com/en-us/library/cc753473.aspx).
+- [Installing IIS 7.0 on Windows Server 2008](https://technet.microsoft.com/en-us/library/cc771209(WS.10).aspx).
+- [Editing Configuration Files](../../get-started/planning-your-iis-architecture/editing-configuration-files.md).
+- [Extending IIS Configuration](../../develop/extending-iis-configuration/extending-iis-configuration.md).

@@ -171,16 +171,16 @@ A handler is a piece of code that gets executed when the request matches a certa
 
 ### Creating the Content Directory
 
-Create a content directory, for example c:\inetpub\mypictures, and copy some digital pictures of your choice into it. Make sure these files are image files with the extension .JPG.
+Create a content directory, for example `c:\inetpub\mypictures`, and copy some digital pictures of your choice into it. Make sure these files are image files with the extension .JPG.
 
 > [!NOTE]
 > For simplicity purposes, the code examples shown here do not include error handling code for files that are not image files.
 
-Create a sub directory called App\_Code underneath your new directory: for example, c:\inetpub\mypictures\App\_Code.
+Create a sub directory called App\_Code underneath your new directory: for example, `c:\inetpub\mypictures\App\_Code`.
 
 ### Create the mypictures Application
 
-You can create an application that points to c:\inetpub\mypictures via the IIS Management console, but there are more interesting ways to do it. Create a new application via appcmd. The following command creates an app called "mypictures" on the "Default Web Site" with the physical path c:\inetpub\mypictures:
+You can create an application that points to `c:\inetpub\mypictures` via the IIS Management console, but there are more interesting ways to do it. Create a new application via appcmd. The following command creates an app called "mypictures" on the "Default Web Site" with the physical path `c:\inetpub\mypictures`:
 
 [!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample11.cmd)]
 
@@ -192,7 +192,7 @@ If you request [http://localhost/mypictures](http://localhost/mypictures), you s
 
 ## Time to Write Code
 
-Now write the actual image handling code. Write a few lines of C# code and you have the result: use the code below as a reference and save it as imagecopyrighthandler.cs in your App\_Code directory, for example c:\inetpub\mypictures\App\_Code\imagecopyrighthandler.cs.
+Now write the actual image handling code. Write a few lines of C# code and you have the result: use the code below as a reference and save it as imagecopyrighthandler.cs in your App\_Code directory, for example `c:\inetpub\mypictures\App\_Code\imagecopyrighthandler.cs`.
 
 [!code-csharp[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample13.cs)]
 

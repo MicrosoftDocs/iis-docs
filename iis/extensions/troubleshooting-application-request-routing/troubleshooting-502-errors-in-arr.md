@@ -155,7 +155,7 @@ Then, reproduce the problem. Once the problem is reproduced, stop the tracing by
 
 [!code-console[Main](troubleshooting-502-errors-in-arr/samples/sample3.cmd)]
 
-The stop command will take a few seconds to finish. When it is done, you will find a net.etl file and a net.cab file in C:\temp. The .cab file contains event logs and additional data that may prove helpful in analyzing the .etl file.
+The stop command will take a few seconds to finish. When it is done, you will find a net.etl file and a net.cab file in `C:\temp`. The .cab file contains event logs and additional data that may prove helpful in analyzing the .etl file.
 
 To analyze the log, open it in Netmon 3.4 or later. Make sure you have set up your parser profile as described [here](https://blogs.msdn.com/b/jpsanders/archive/2009/08/24/using-netsh-to-analyze-wininet-problems-in-windows-7.aspx). Scroll through the trace until you find the w3wp.exe instance where ARR is running by correlating with the &quot;UT process name&quot; column. Right click on w3wp and choose &quot;Add UT Process name to display filter&quot;. This will set the display filter similar to:
 

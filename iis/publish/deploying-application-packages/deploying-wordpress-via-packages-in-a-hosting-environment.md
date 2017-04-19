@@ -238,7 +238,7 @@ To create a customer application Web site, complete the steps described in A. Cr
 
 To create a customer application database, complete these steps:
 
-1. Open a command-line prompt (or MySQL Manager) at the MySQL bin directory. If you used the default installation path, the bin directory path will be similar to the following: C:\Program Files\MySQL\MySQL Server 5.1\bin
+1. Open a command-line prompt (or MySQL Manager) at the MySQL bin directory. If you used the default installation path, the bin directory path will be similar to the following: `C:\Program Files\MySQL\MySQL Server 5.1\bin`
 2. Enter the administrator password, and press **Enter**.
 3. Type the following command to create the database, and press **Enter**.  
  mysql&gt; create database wordpress01;
@@ -304,8 +304,8 @@ The examples in this topic show how to import WordPress into an IIS Web site and
 9. Click the **Include Bin Directory in Windows PATH** check box, and click **Next**.
 10. Since MySQL is installed on the database server (which is different than the Web server that runs the Web Deploy web server component), you must complete these steps to ensure Web Deploy can access the database server:  
 
-    - Copy mysqldump.exe (typically located in C:\Program Files\MySQL\MySQL Server 5.1\bin) to your **Web server** in C:\mysqldump\mysqldump.exe.
-    - On the **Web server**, set a registry key (HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\IIS Extensions\MSDeploy\1\mysqldumppath) to string value == "c:\mysqldump\mysqldump.exe"
+    - Copy mysqldump.exe (typically located in `C:\Program Files\MySQL\MySQL Server 5.1\bin`) to your **Web server** in `C:\mysqldump\mysqldump.exe`.
+    - On the **Web server**, set a registry key (`HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\IIS Extensions\MSDeploy\1\mysqldumppath`) to string value == "c:\mysqldump\mysqldump.exe"
 
 > [!NOTE]
 > If you lose the credentials to your MySQL database, refer to the link: [*Resetting the Root Password: Windows Systems*](http://dev.mysql.com/doc/refman/5.1/en/resetting-permissions.html#resetting-permissions-windows) to reset your password.

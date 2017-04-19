@@ -103,6 +103,5 @@ You can get a complete report of all your PHP settings.
 
 ## Links for Further Information
 
-[How to change configuration settings](http://ie.php.net/configuration.changes).
-
-[Using FastCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md#PHP_Security_Recommendations_).
+- [How to change configuration settings](http://ie.php.net/configuration.changes).
+- [Using FastCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md#PHP_Security_Recommendations_).

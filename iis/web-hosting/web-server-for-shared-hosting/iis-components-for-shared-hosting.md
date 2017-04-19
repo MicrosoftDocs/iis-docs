@@ -74,8 +74,7 @@ The following table lists the components that were installed on the Web server a
 | IIS 6 Scripting Tools | No | Provides compatibility for scripts based on IIS 6.0 interfaces for ADO (ActiveX Data Objects) or ADSI APIs. |
 | IIS 6 Management Console | No | Provides the IIS 6.0 based management tool. |
 | **FTP Publishing Service** | No |  |
-| FTP Server | No | Only needed if users upload using FTP. > [!NOTE]
- > This table refers to the built-in, legacy FTP server. It is highly recommended that you download and install the new FTP7 server if you need to offer FTP publishing to your users. It is available at [Installing and Troubleshooting FTP7](../../install/installing-publishing-technologies/installing-and-configuring-ftp-7-on-iis-7.md). |
+| FTP Server | No | Only needed if users upload using FTP. **Note:** This table refers to the built-in, legacy FTP server. It is highly recommended that you download and install the new FTP7 server if you need to offer FTP publishing to your users. It is available at [Installing and Troubleshooting FTP7](../../install/installing-publishing-technologies/installing-and-configuring-ftp-7-on-iis-7.md). |
 | FTP Management Console | No | Only needed if users upload using FTP. |
 
 > [!NOTE]

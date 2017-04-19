@@ -35,7 +35,7 @@ The Windows Installer version can get a complete PHP environment up and running,
 To use the Zip file installation, follow the instructions in [Using FastCGI to Host PHP Applications on IIS 7.0 and Above](../install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis.md). The Zip file installation installs many of the extensions that are available for the Windows Installer version; however, none of the extensions are enabled until their entries in the Php.ini file are set up.
 
 1. Download the [latest non-thread-safe Zip file package](http://www.php.net/downloads.php) with binaries of PHP. Under **Windows Binaries**, click on the most current PHP non-thread-safe Zip package to download the PHP files.
-2. Unpack the files to a directory of your choice (for example, C:\PHP) on your IIS server.
+2. Unpack the files to a directory of your choice (for example, `C:\PHP`) on your IIS server.
 3. Rename the **Php.ini-recommended** to **php.ini**.
 4. Open the **Php.ini** file in a text editor, then uncomment and modify settings as follows:  
 
@@ -56,7 +56,7 @@ To use the Zip file installation, follow the instructions in [Using FastCGI to H
 5. Click on **Start**, **Settings**, **Control Panel**, and then double-click on the **System** icon (using the class view).
 6. Click on the **Advanced system settings** link in the left column.
 7. From the **System Properties** window, click on the **Advanced** tab, and then click on the **Environment Variables** button at the bottom.
-8. Select the **Path** variable from the **System Variables** section, and then click on **Edit**. Add: **c:\php** to your system path.  
+8. Select the **Path** variable from the **System Variables** section, and then click on **Edit**. Add: `c:\php` to your system path.  
 
     [![](install-and-configure-php/_static/image4.jpg)](install-and-configure-php/_static/image3.jpg)
 
@@ -91,7 +91,7 @@ To use the Zip file installation, follow the instructions in [Using FastCGI to H
 19. Enter **default.php** as the new default document name, and then click **OK**.
 20. In the left panel, click on your server's *hostname*.
 21. In the **Actions** panel on the right, click **Restart**.
-22. Create a new text document, and save it as **c:\inetpub\wwwroot\phpinfo.php** with the following content:  
+22. Create a new text document, and save it as `c:\inetpub\wwwroot\phpinfo.php` with the following content:  
 
     [!code-xml[Main](install-and-configure-php/samples/sample1.xml)]
 23. You should now see the PHP information page at http://localhost/phpinfo.php.  
@@ -116,10 +116,10 @@ The Php.ini file provides PHP with configuration and environmental information. 
 
 ### Required Settings
 
-- **extension\_dir = &lt;PATH TO EXTENSIONS&gt;** The extension\_dir needs to point to the directory where the PHP extensions are stored. The path can be fully qualified (for example, C:\PHP\ext) or relative (for example, .\ext). Extensions that are specified lower in the Php.ini file need to be located in the extension\_dir. If the extensions specified are not in the extension\_dir, then PHP will give a warning message at the start of script execution, and the application may show errors because of the missing functionality.
+- **extension\_dir = &lt;PATH TO EXTENSIONS&gt;** The extension\_dir needs to point to the directory where the PHP extensions are stored. The path can be fully qualified (for example, `C:\PHP\ext`) or relative (for example, .\ext). Extensions that are specified lower in the Php.ini file need to be located in the extension\_dir. If the extensions specified are not in the extension\_dir, then PHP will give a warning message at the start of script execution, and the application may show errors because of the missing functionality.
 - **extension = xxxxxx.dll** For each extension enabled, a corresponding extension= directive that tells PHP which extensions in the extension\_dir to load at startup time is necessary.
 - **log\_errors=On** PHP errors can also go through the PHP error logging facility. This can be used to send errors to a file or to a service (for example, syslog) and works with the error\_logdirective described below. When running under IIS, log\_errors must be enabled with a valid error\_log. Otherwise, FastCGI considers any startup messages (which may be benign) as an error condition, which generates an HTTP 500 return error code to the browser.
-- **error\_log=&lt;path\_to\_error\_log\_file"** The error\_log needs to specify the fully qualified, or relative, path to the file where the PHP error log is stored. This file needs to be writable for the IIS service. The most common places for this file are in various temporary directories (for example, C:\inetpub\temp\php-errors.log). That puts the log in a place that IIS can use, and also keeps the log close to where PHP applications are running.
+- **error\_log=&lt;path\_to\_error\_log\_file"** The error\_log needs to specify the fully qualified, or relative, path to the file where the PHP error log is stored. This file needs to be writable for the IIS service. The most common places for this file are in various temporary directories (for example, `C:\inetpub\temp\php-errors.log`). That puts the log in a place that IIS can use, and also keeps the log close to where PHP applications are running.
 - **cgi.force\_redirect = 0** This directive is required for running under IIS. It is a directory security facility required by many other Web servers; however, enabling it under IIS will cause the PHP engine to fail on Windows.
 - **cgi.fix\_pathinfo = 1** This lets PHP access real path info following the CGI specification. The IIS FastCGI implementation needs this extension set.
 - **fastcgi.impersonate = 1** FastCGI under IIS supports the ability to impersonate security tokens of the calling client. This allows IIS to define the security context that the request runs under.
@@ -158,7 +158,7 @@ The Php.ini file provides PHP with configuration and environmental information. 
     *Figure 8: IISRESET command*
 
     Note that PHP uses file-based session state by default. You can modify a number of additional session settings, including whether cookie or URL sessions should be used, and whether sessions are created on the first request or need to be explicitly created.
-13. Test the session state by using Windows Explorer, navigate to **C:\inetpub\wwwroot**.
+13. Test the session state by using Windows Explorer, navigate to `C:\inetpub\wwwroot`.
 14. Create a folder and rename it **phpapp**.
 15. Create **session.php** in the **phpapp** directory.
 16. Paste the following into it:  
@@ -184,10 +184,7 @@ The Php.ini file provides PHP with configuration and environmental information. 
 
 ## Links for Further Information
 
-[PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb).
-
-[Installing PHP on Windows Server 2008](https://www.microsoft.com/video/en/us/details/7293e003-91c5-4e50-a3c9-ff47b3c62bbc).
-
-[PHP on IIS7](https://php.iis.net/).
-
-[Deploying IIS 7.5 + FASTCGI + PHP on Server Core](https://blogs.msdn.com/philpenn/archive/2009/07/19/deploying-iis-7-5-fastcgi-php-on-server-core.aspx).
+- [PHP on Windows Training Kit](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=c8498c9b-a85a-4afa-90c0-593d0e4850cb).
+- [Installing PHP on Windows Server 2008](https://www.microsoft.com/video/en/us/details/7293e003-91c5-4e50-a3c9-ff47b3c62bbc).
+- [PHP on IIS7](https://php.iis.net/).
+- [Deploying IIS 7.5 + FASTCGI + PHP on Server Core](https://blogs.msdn.com/philpenn/archive/2009/07/19/deploying-iis-7-5-fastcgi-php-on-server-core.aspx).

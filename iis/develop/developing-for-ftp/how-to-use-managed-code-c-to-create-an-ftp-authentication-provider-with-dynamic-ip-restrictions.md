@@ -37,8 +37,9 @@ The following items are required to complete the procedures in this article:
     - > [!IMPORTANT]
  > As mentioned earlier in this walkthrough, the latest version of the FTP 7.5 service ***must be*** installed in order to use the provider in this walkthrough. A version FTP 7.5 was released on August 3, 2009 that addressed an issue where the local and remote IP addresses in the **IFtpLogProvider.Log()** method were incorrect. Because of this, using an earlier version of the FTP service will prevent this provider from working.
 3. You must have FTP publishing enabled for a site.
-4. You must use Visual Studio 2008. (> [!NOTE]
-> If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.)
+4. You must use Visual Studio 2008.
+    > [!NOTE]
+    > If you use an earlier version of Visual Studio, some of the steps in this walkthrough may not be correct.
 5. You must use a SQL Server database for the list of user accounts and the associated restriction lists; this example cannot be used with FTP Basic authentication. The "**Additional Information**" section of this walkthrough contains a script for SQL Server that creates the necessary tables for this sample.
 6. You will need Gacutil.exe on your IIS computer; this is required to add the assemblies to your Global Assembly Cache (GAC).
 
@@ -189,7 +190,7 @@ In this step, you will add the demo provider to your FTP service and the Default
 
 1. Determine the assembly information for the extensibility provider: 
 
-    - In Windows Explorer, open your "C:\Windows\assembly" path, where C: is your operating system drive.
+    - In Windows Explorer, open your `C:\Windows\assembly` path, where C: is your operating system drive.
     - Locate the **FtpAddressRestrictionAuthentication** assembly.
     - Right-click the assembly, and then click **Properties**.
     - Copy the **Culture** value; for example: **Neutral**.
@@ -201,22 +202,25 @@ In this step, you will add the demo provider to your FTP service and the Default
     - At the moment there is no user interface that enables you to add properties for a custom authentication module, so you will have to use the following command line: 
 
         [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions/samples/sample6.cmd)]
-    - > [!NOTE]
- > The connection string that you specify in the *connectionString* attribute must be a valid login for your database.
+    
+	> [!NOTE]
+    > The connection string that you specify in the *connectionString* attribute must be a valid login for your database.
 3. Add the custom provider to a site: 
 
     - At the moment there is no UI that enables you to add custom features to a site, so you will have to use the following command line: 
 
         [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions/samples/sample7.cmd)]
-    - > [!NOTE]
- > This syntax disables FTP Basic authentication, and it is important that you disable Basic authentication when using this authentication provider. Otherwise, when an attacker's IP address has been blocked by this authentication provider, an attacker would still be able to attack accounts that use Basic authentication.
+    
+	> [!NOTE]
+    > This syntax disables FTP Basic authentication, and it is important that you disable Basic authentication when using this authentication provider. Otherwise, when an attacker's IP address has been blocked by this authentication provider, an attacker would still be able to attack accounts that use Basic authentication.
 4. Add an authorization rule for the authentication provider: 
 
     - Double-click **FTP Authorization Rules** in the main window.
     - Click **Add Allow Rule...** in the **Actions** pane.
     - Select **Specified users** for the access option.
-    - Enter a user name. (> [!NOTE]
-> The user name will need to be entered into the database outside of this list of steps.)
+    - Enter a user name.
+	    > [!NOTE]
+        > The user name will need to be entered into the database outside of this list of steps.
     - Select **Read** and/or **Write** for the **Permissions** option.
     - Click **OK**.
 
@@ -239,7 +243,7 @@ When FTP clients connect to your FTP site, the FTP service will attempt to authe
 You can use the following SQL Script for Microsoft SQL Server to create the necessary database and tables. To use this script, you need to update the name of the database and location of the database files. In SQL Server you would run the script in a new query window, and then create a database login that you will use with your connection string.
 
 > [!NOTE]
-> You might want to alter the SQL script to store the database in a location other than "c:\databases".
+> You might want to alter the SQL script to store the database in a location other than `c:\databases`.
 
 > [!code-sql[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions/samples/sample8.sql)]
 

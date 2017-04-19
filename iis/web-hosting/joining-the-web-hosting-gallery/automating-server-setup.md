@@ -87,7 +87,8 @@ Run *.\InstallExtensionlessUrlHotfix.ps1*
 
 This will download and install the hotfix, KBKB980368.
 
-***NOTE: We suppress server reboots during the hotfix installation. You may need to restart the server (shutdown /r) after the update installs.***
+> [!NOTE]
+> We suppress server reboots during the hotfix installation. You may need to restart the server (shutdown /r) after the update installs.
 
 ## Virtual Dedicated: Creating and Assigning a New Self-signed Certificate
 

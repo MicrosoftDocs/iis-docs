@@ -31,9 +31,9 @@ In these cases, you can add a separate virtual directory to host the PHP content
 
 ## Create a Virtual Directory to Host PHP Content
 
-1. Using **Windows® Explorer**, browse to the **C:\inetpub** directory.
+1. Using **Windows® Explorer**, browse to the `C:\inetpub` directory.
 2. Create a subdirectory named **phpapp** directory.
-3. Right-click on the **C:\inetpub\phpapp** directory, and then click **Properties**.
+3. Right-click on the `C:\inetpub\phpapp` directory, and then click **Properties**.
 4. On the **Security** tab, click **Edit**.
 5. Click **Add**, and then type **IIS\_IUSRS** in the **Enter the object names to select** box.
 6. Click **OK**.  
@@ -61,11 +61,11 @@ Follow these steps:
 3. In the tree view on the left, right-click the **Default Web Site**.
 4. Click **Add Virtual Directory**.
 5. In the **Alias** box, type **phpapp**.
-6. In the **Physical path** box, type **c:\inetpub\phpapp**  
+6. In the **Physical path** box, type `c:\inetpub\phpapp`  
     [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image2.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image1.jpg)  
     *Figure 2: Adding a virtual directory for php applications*
 7. Click **OK**.
-8. Using Windows Explorer, browse to the **C:\inetpub\phpapp** directory.
+8. Using Windows Explorer, browse to the `C:\inetpub\phpapp` directory.
 9. Create a file named **Hello.php**.
 10. Paste the following into the file:  
 
@@ -85,7 +85,7 @@ It is possible to create a separate site with the desired port and domain name t
 2. Expand the server node.
 3. In the tree view on the left, right-click the **Sites** node, and then click **Add Web Site**.
 4. Enter **PHPSite** for the **Site name**.
-5. Enter **c:\inetpub\phpapp** for **Physical path**.
+5. Enter `c:\inetpub\phpapp` for **Physical path**.
 6. Enter **85** for **Port**.  
     [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image6.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image5.jpg)  
     *Figure 4: Add Web Site dialog*- Click **OK**.
@@ -100,7 +100,7 @@ It is possible to create a separate site with the desired port and domain name t
     [![](create-a-separate-site-or-virtual-directory-for-php-content/_static/image10.jpg)](create-a-separate-site-or-virtual-directory-for-php-content/_static/image9.jpg)  
     *Figure 6: Adding a site binding*
 - Click **OK** and close Site Bindings dialog.
-- Edit **C:\Windows\system32\drivers\etc\hosts** file in Notepad as administrator and add the following DNS entry:  
+- Edit `C:\Windows\system32\drivers\etc\hosts` file in Notepad as administrator and add the following DNS entry:  
 
     [!code-console[Main](create-a-separate-site-or-virtual-directory-for-php-content/samples/sample2.cmd)]
 - Save and close the hosts file.

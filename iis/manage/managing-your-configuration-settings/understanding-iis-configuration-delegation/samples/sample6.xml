@@ -1,13 +1,13 @@
 <location path="AdministratorSite" overrideMode="Allow"> 
    <security> 
-            <authentication> 
-                <windowsAuthentication enabled="false"> 
-                    <providers> 
-                        <add value="Negotiate" /> 
-                        <add value="NTLM" /> 
-                    </providers> 
-                </windowsAuthentication> 
-            </authentication> 
+		<authentication> 
+			<windowsAuthentication enabled="false"> 
+				<providers> 
+					<add value="Negotiate" /> 
+					<add value="NTLM" /> 
+				</providers> 
+			</windowsAuthentication> 
+		</authentication> 
    </security> 
 </location> 
  

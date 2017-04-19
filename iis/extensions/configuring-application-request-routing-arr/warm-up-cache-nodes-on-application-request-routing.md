@@ -73,8 +73,8 @@ To pre-cache contents on both child and parent cache nodes, the pre-cache action
     ![](warm-up-cache-nodes-on-application-request-routing/_static/image2.jpg)
 5. In the **Pre-cache Objects** dialog box, enter the location of the file that contains the URLs and the location to a log file. Both values are required. In the example below, the following values are used:  
   
- c:\mydocuments\warmup.txt  
- c:\mydocuments\warmup.log
+	`c:\mydocuments\warmup.txt` 
+	`c:\mydocuments\warmup.log`
 
     ![](warm-up-cache-nodes-on-application-request-routing/_static/image3.jpg)
 
@@ -120,7 +120,8 @@ The steps for pre-caching only at the parent cache tier are similar to the steps
 
     Enter the names of the ARR servers, including the server where you are running the pre-cache action, in the Peer servers table. This action will automatically populate the **Address of this server** drop-down list. Select the name of the server where you are taking this action.
 
-    **Important**: The names of the peer servers and the selection of the server in the drop-down list are required to process CARP correctly. Note that the names of the servers **must match exactly how they are referenced by the child cache nodes in the server farm**. CARP uses a hashing algorithm that takes the names of the servers into consideration. Therefore, to compute the same resulting hashed values, **the names of the servers must match exactly**.
+    > [!IMPORTANT]
+    > The names of the peer servers and the selection of the server in the drop-down list are required to process CARP correctly. Note that the names of the servers **must match exactly how they are referenced by the child cache nodes in the server farm**. CARP uses a hashing algorithm that takes the names of the servers into consideration. Therefore, to compute the same resulting hashed values, **the names of the servers must match exactly**.
 
 ## Summary
 

@@ -34,7 +34,7 @@ by [Nazim Lala](https://github.com/naziml)
 
 UrlScan v3.1 can be set up as either a global filter or site level filter. A global filter is invoked for every HTTP request to the IIS server on which it is set up. A site level filter is invoked only for requests to a particular site on the IIS server. UrlScan v3.1 supports using the filter as both a global and site filter in conjunction, with the goal of having global rules in the global filter and application specific rules in the site filter.
 
-In every case, the filter will read the UrlScan.ini configuration file from the same location that it loads UrlScan.dll. If you install UrlScan.dll filter from c:\foo and your IIS worker process loads the filter from this location, the configuration that will be applied to that instance of UrlScan is loaded from c:\foo\UrlScan.ini.
+In every case, the filter will read the UrlScan.ini configuration file from the same location that it loads UrlScan.dll. If you install UrlScan.dll filter from `c:\foo` and your IIS worker process loads the filter from this location, the configuration that will be applied to that instance of UrlScan is loaded from `c:\foo\UrlScan.ini`.
 
 ### Global Filter
 
@@ -50,9 +50,9 @@ The default UrlScan.ini file has detailed descriptions of what all the configura
 
 Upon installation of UrlScan v3.1 as a site filter requests for that particular site will run through both the site and the global filter if the global filter is not un-mapped. There would be two instances of the filter running in this case.
 
-If you have a site called "Site1" setup on the server under c:\site1 folder and you want to use UrlScan v3.1 as a site filter for this site, here is how you would set it up.
+If you have a site called "Site1" setup on the server under `c:\site1` folder and you want to use UrlScan v3.1 as a site filter for this site, here is how you would set it up.
 
-1. Copy UrlScan.dll and UrlScan.ini from the default installation location to c:\site1.
-2. Modify c:\site1\UrlScan.ini with all the options that you want for your site filter. The default UrlScan.ini file that you can [download here](https://www.iis.net/community/files/UrlScan/UrlScan-ini_v3.zipdownloads/files/UrlScan/UrlScan-ini_v31.zip) has the options listed with comments on what they do.
-3. Register c:\site1\UrlScan.dll as a site filter. Run "inetmgr" and drill down to "Site1" in your left hand pane. For IIS 5.1 and 6.0, right-click on "Site1" and select "Properties" then go to the "ISAPI Filters" tab and add a new filter and point the executable to c:\site1\UrlScan.dll. For IIS 7.0 and above, you should see an ISAPI Filters icon under the IIS category and double-clicking this will bring up an "Add…" action which you can then point the executable to c:\site1\UrlScan.dll
+1. Copy UrlScan.dll and UrlScan.ini from the default installation location to `c:\site1`.
+2. Modify `c:\site1\UrlScan.ini` with all the options that you want for your site filter. The default UrlScan.ini file that you can [download here](https://www.iis.net/community/files/UrlScan/UrlScan-ini_v3.zipdownloads/files/UrlScan/UrlScan-ini_v31.zip) has the options listed with comments on what they do.
+3. Register `c:\site1\UrlScan.dll` as a site filter. Run "inetmgr" and drill down to "Site1" in your left hand pane. For IIS 5.1 and 6.0, right-click on "Site1" and select "Properties" then go to the "ISAPI Filters" tab and add a new filter and point the executable to `c:\site1\UrlScan.dll`. For IIS 7.0 and above, you should see an ISAPI Filters icon under the IIS category and double-clicking this will bring up an "Add…" action which you can then point the executable to `c:\site1\UrlScan.dll`
 4. Using the up arrow key, move the UrlScan filter to the top to make it the highest priority filter. This step is essential for the filter to function correctly.

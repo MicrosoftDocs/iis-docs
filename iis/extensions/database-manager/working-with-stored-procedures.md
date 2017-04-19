@@ -48,7 +48,8 @@ Based on our earlier example, we will create a stored procedure that displays da
     [![](working-with-stored-procedures/_static/image7.png)](working-with-stored-procedures/_static/image5.png)
 7. Click 'Execute' on the query editor's toolbar. The stored procedure will now be created. You can confirm that the stored procedure has been created by inspecting the list of stored procedures under the 'Stored Procedures' node. 
 
-    #### Note: In this case, the 'Execute' button runs the CREATE PROCEDURE script and acts as the save mechanism for the stored procedure.
+    > [!NOTE]
+	> In this case, the 'Execute' button runs the CREATE PROCEDURE script and acts as the save mechanism for the stored procedure.
 
     [![](working-with-stored-procedures/_static/image11.png)](working-with-stored-procedures/_static/image9.png)
 
@@ -66,7 +67,8 @@ The Database Manager allows you to alter a stored procedure after it has been cr
 
     [!code-console[Main](working-with-stored-procedures/samples/sample3.cmd)]
 
-    #### Note: Do not forget to add the comma after the first variable.
+    > [!NOTE]
+	> Do not forget to add the comma after the first variable.
 7. In the body of the stored procedure, between the BEGIN and END, modify the query as follows:   
 
     [!code-sql[Main](working-with-stored-procedures/samples/sample4.sql)]
@@ -74,7 +76,8 @@ The Database Manager allows you to alter a stored procedure after it has been cr
     [![](working-with-stored-procedures/_static/image19.png)](working-with-stored-procedures/_static/image17.png)
 8. Click 'Execute' on the query editor's toolbar. The stored procedure will now be altered. 
 
-    #### Note: In this case, the 'Execute' button runs the ALTER PROCEDURE script and acts as the save mechanism for the stored procedure's modifications.
+    > [!NOTE]
+	> In this case, the 'Execute' button runs the ALTER PROCEDURE script and acts as the save mechanism for the stored procedure's modifications.
 9. You can continue making more changes in the editor or close the editor.
 
 ## Create a New Stored Procedure Based on an Existing One
@@ -91,7 +94,8 @@ The Database Manager allows you to create a new stored procedure that is based o
     [![](working-with-stored-procedures/_static/image27.png)](working-with-stored-procedures/_static/image25.png)
 7. Make changes to the stored procedure and then click on 'Execute'. The new stored procedure is created and you can confirm by ensuring that it appears under the 'Stored Procedures' node.  
 
-    #### Note: If you don't change the name of the stored procedure, you will not be able to execute the statement.
+    > [!NOTE]
+	> If you don't change the name of the stored procedure, you will not be able to execute the statement.
 
 ## Executing a Stored Procedure
 

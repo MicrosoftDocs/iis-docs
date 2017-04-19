@@ -73,8 +73,9 @@ In this section you, create a new FTP site that can be opened for Read-only acce
     [![](configuring-ftp-firewall-settings-in-iis-7/_static/image3.png)](configuring-ftp-firewall-settings-in-iis-7/_static/image1.png)
 3. When the **Add FTP Site** wizard appears: 
 
-    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section. > [!NOTE]
- > If you choose to type in the path to your content folder, you can use environment variables in your paths.
+    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.
+        > [!NOTE]
+        > If you choose to type in the path to your content folder, you can use environment variables in your paths.
     - Click **Next**.
 
     [![](configuring-ftp-firewall-settings-in-iis-7/_static/image3.jpg)](configuring-ftp-firewall-settings-in-iis-7/_static/image1.jpg)
@@ -123,14 +124,13 @@ In this section, you configure the server-level port range for passive connectio
     [![](configuring-ftp-firewall-settings-in-iis-7/_static/image19.png)](configuring-ftp-firewall-settings-in-iis-7/_static/image17.png)
 4. Once you have entered the port range for your FTP service, click **Apply** in the **Actions** pane to save your configuration settings.
 
-**Notes**:
+> [!NOTE]
+> 1. The valid range for ports is 1024 through 65535. (Ports from 1 through 1023 are reserved for use by system services.)
+> 2. You can enter a special port range of "0-0" to configure the FTP server to use the Windows TCP/IP dynamic port range.
+> 3. For additional information, please see the following Microsoft Knowledge Base articles: 
+>    - [174904 - Information about TCP/IP port assignments](https://support.microsoft.com/kb/174904/)
+>    - [929851 - The default dynamic port range for TCP/IP has changed in Windows Vista and in Windows Server 2008](https://support.microsoft.com/kb/929851/)
 
-1. The valid range for ports is 1024 through 65535. (Ports from 1 through 1023 are reserved for use by system services.)
-2. You can enter a special port range of "0-0" to configure the FTP server to use the Windows TCP/IP dynamic port range.
-3. For additional information, please see the following Microsoft Knowledge Base articles: 
-
-    - [174904 - Information about TCP/IP port assignments](https://support.microsoft.com/kb/174904/)
-    - [929851 - The default dynamic port range for TCP/IP has changed in Windows Vista and in Windows Server 2008](https://support.microsoft.com/kb/929851/)
 4. This port range will need to be added to the allowed settings for your firewall server.
 
 <a id="Step2"></a>

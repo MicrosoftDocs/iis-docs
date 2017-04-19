@@ -130,8 +130,8 @@ Sample code for both ASP.NET 3.5 and ASP.NET 4.5 is contained in the following .
 First, set up a simple ASP.NET 3.5 application on IIS 8.0:
 
 1. Open the "examples.zip" file.
-2. In Windows Explorer on your Windows Server 2012 machine, navigate to the "wwwroot" directory for your IIS installation. For example if you installed IIS on the "C:\" drive, the "wwwroot" directory will be at "c:\inetpub\wwwroot".
-3. Copy the folder "example35" from "examples.zip", and paste it into the directory "c:\inetpub\wwwroot". When you are done the directory structure should look like the following:  
+2. In Windows Explorer on your Windows Server 2012 machine, navigate to the "wwwroot" directory for your IIS installation. For example if you installed IIS on the C:\ drive, the "wwwroot" directory will be at `c:\inetpub\wwwroot`.
+3. Copy the folder "example35" from "examples.zip", and paste it into the directory `c:\inetpub\wwwroot`. When you are done the directory structure should look like the following:  
     [![](iis-80-using-aspnet-35-and-aspnet-45/_static/image47.png)](iis-80-using-aspnet-35-and-aspnet-45/_static/image45.png)
 4. The newly created "example35" folder needs to be configured as an ASP.NET 3.5 application in the IIS Manager. Go back to the IIS Manager window, click on the **Default Web Site** node, and select **Refresh**. The treeview of child nodes under the **Default Web Site** now shows the "example35" folder:  
     ![](iis-80-using-aspnet-35-and-aspnet-45/_static/image49.png)
@@ -148,14 +148,14 @@ First, set up a simple ASP.NET 3.5 application on IIS 8.0:
     http://localhost/example35
 
  After a short pause the application displays a list of .NET Framework features supported in this application.
-10. in Windows Explorer, if you navigate to the "c:\inetpub\wwwroot\example35" directory, you can use notepad to look at the code for "default.aspx" and the information in "web.config". For example, the contents of web.config include directives that configure the .NET Framework compilers to run in "3.5" mode. The .NET Framework code in "default.aspx" demonstrates some C# constructs that were introduced in .NET 3.5 - specifically LINQ-to-Object queries.
+10. in Windows Explorer, if you navigate to the `c:\inetpub\wwwroot\example35` directory, you can use notepad to look at the code for "default.aspx" and the information in "web.config". For example, the contents of web.config include directives that configure the .NET Framework compilers to run in "3.5" mode. The .NET Framework code in "default.aspx" demonstrates some C# constructs that were introduced in .NET 3.5 - specifically LINQ-to-Object queries.
 
 Now that there is an ASP.NET 3.5 application running, you can create a second ASP.NET application, but this time configure it to use .NET 4.5.
 
 1. Go back to the Windows Explorer window that has the .zip file "examples.zip" open.
 2. Open up the contents of the "example45" folder.
-3. In the second Windows Explorer window that you have open, navigate to "c:\inetpub\wwwroot".
-4. Copy the "default.aspx" file from the .zip file and paste it directly into "c:\inetpub\wwwroot". The folder contents for "c:\inetpub\wwwroot" should now look like:  
+3. In the second Windows Explorer window that you have open, navigate to `c:\inetpub\wwwroot`.
+4. Copy the "default.aspx" file from the .zip file and paste it directly into `c:\inetpub\wwwroot`. The folder contents for `c:\inetpub\wwwroot` should now look like:  
     [![](iis-80-using-aspnet-35-and-aspnet-45/_static/image61.png)](iis-80-using-aspnet-35-and-aspnet-45/_static/image59.png)
 5. Now go back to Internet Explorer and navigate to the following Url: 
 

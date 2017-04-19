@@ -144,8 +144,9 @@ The SSL policy for FTP is customizable on a site-by-site basis. Different settin
      [![](using-ftp-over-ssl-in-iis-7/_static/image27.png)](using-ftp-over-ssl-in-iis-7/_static/image25.png)
 4. When the **Advanced SSL Policy** dialog box is displayed: 
 
-    - Select the **Require only for credentials** option for the control channel. > [!NOTE]
- > This setting requires that all user names and password are encrypted via SSL, but the client can choose whether to encrypt all other control channel activity.
+    - Select the **Require only for credentials** option for the control channel.
+	    > [!NOTE]
+        > This setting requires that all user names and password are encrypted via SSL, but the client can choose whether to encrypt all other control channel activity.
     - Select the **Allow** option for the data channel.> [!NOTE]
 > This setting allows the client to choose whether to encrypt any data channel activity.
     - When you have completed these items, click **OK**.  
@@ -214,16 +215,21 @@ The following steps walk you through all of the required settings to add FTP pub
 3. Create a new binding element in the bindings collection. Set the value of the protocol attribute on the new binding element to contain "ftp", then change the port value of the bindingInformation attribute to contain "21". Your Default Web Site's settings should now resemble the following example: 
 
     [!code-xml[Main](using-ftp-over-ssl-in-iis-7/samples/sample2.xml)]
-4. Add an &lt;ftpServer&gt; section beneath the closing &lt;bindings&gt; tag that will contain your authentication and SSL settings. > [!NOTE]
- > The authentication settings for FTP sites are configured at the site-level, unlike authentication for Web sites, which can be configured per URL. 
+4. Add an &lt;ftpServer&gt; section beneath the closing &lt;bindings&gt; tag that will contain your authentication and SSL settings.
+    > [!NOTE]
+    > The authentication settings for FTP sites are configured at the site-level, unlike authentication for Web sites, which can be configured per URL. 
 
     [!code-xml[Main](using-ftp-over-ssl-in-iis-7/samples/sample3.xml)]
-5. Copy and paste the thumbprint data from the SSL certificate into the serverCertHash attribute of the SSL element. Remove all the spaces from the thumbprint data. (> [!NOTE]
-> If you do not convert the hex data to uppercase, it will not show up in IIS Manager later.) Your Default Web Site settings should now contain something like the following example: 
+5. Copy and paste the thumbprint data from the SSL certificate into the serverCertHash attribute of the SSL element. Remove all the spaces from the thumbprint data.
+    > [!NOTE]
+    > If you do not convert the hex data to uppercase, it will not show up in IIS Manager later.
+	
+	Your Default Web Site settings should now contain something like the following example: 
 
     [!code-xml[Main](using-ftp-over-ssl-in-iis-7/samples/sample4.xml)]
-6. Scroll to the bottom of your applicationHost.config file and add a location section for your Default Web Site that will contain your authorization settings. > [!NOTE]
- > As shown in this example, the authorization settings for FTP sites are configured per URL. 
+6. Scroll to the bottom of your applicationHost.config file and add a location section for your Default Web Site that will contain your authorization settings.
+    > [!NOTE]
+    > As shown in this example, the authorization settings for FTP sites are configured per URL. 
 
     [!code-xml[Main](using-ftp-over-ssl-in-iis-7/samples/sample5.xml)]
 7. Save your applicationHost.config file.

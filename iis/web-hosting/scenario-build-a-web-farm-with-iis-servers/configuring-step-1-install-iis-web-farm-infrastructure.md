@@ -56,8 +56,9 @@ Install IIS on all servers in your web farm except your back-end file servers (c
 7. On the **Select Features** page, note the preselected features that are installed by default, and then select additional role services for the type of web applications you plan to support. (**Caution**: Install only the role services your websites require. This practice increases your website security.)
 8. Click **Next**.
 9. On the **Web Server Role (IIS)** page, click **Next**.
-10. On the **Select Role Services** page, note the preselected role services that are installed by default, and then click **Next**. (> [!NOTE]
-> You only have to install the IIS 8 default role services for a static-content web server.)
+10. On the **Select Role Services** page, note the preselected role services that are installed by default, and then click **Next**.
+    > [!NOTE]
+    > You only have to install the IIS 8 default role services for a static-content web server.
 11. On the **Confirm Installation Selections** page, confirm your selections, and then click **Install**.
 12. On the **Installation Progress** page, confirm that your installation of the Web Server (IIS) role and required role services completed successfully, and then click **Close**.
 13. To verify that IIS installed successfully, type the following into a web browser:

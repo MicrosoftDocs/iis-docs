@@ -145,7 +145,7 @@ Once the JPG Copyright Handler works, we must determine how fast our code is. In
 Example: wcclient MyPerfTestControllerMachine
 
     > [!NOTE]
-    > If you do this on a 64-Bit version of Windows, WCAT is installed in the "program files (x86)" directory and you must use %programfiles(x86)% to start WCAT.
+    > If you do this on a 64-Bit version of Windows, WCAT is installed in the "program files (x86)" directory and you must use `%programfiles(x86)%` to start WCAT.
 6. Here are the results from the first run:
 
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample13.cmd)]
@@ -191,7 +191,7 @@ Repeat the performance run to see what and how the configuration settings change
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample16.cmd)]
 
     > [!NOTE]
-    > If you do this on a 64-Bit version of Windows, WCAT is installed in the "program files (x86)" directory and you must use %programfiles(x86)% to start WCAT.
+    > If you do this on a 64-Bit version of Windows, WCAT is installed in the `program files (x86)` directory and you must use `%programfiles(x86)%` to start WCAT.
 
 ### Sample Output
 

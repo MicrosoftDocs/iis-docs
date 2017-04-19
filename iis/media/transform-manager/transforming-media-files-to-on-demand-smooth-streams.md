@@ -58,9 +58,8 @@ After installing your preferred edition of Expression Encoder 4, be sure to inst
 
 For specific installation instructions, see **Installation Notes** in the [Transform Manager Readme](iis-transform-manager-readme.md).
 
-> | ![Note](transforming-media-files-to-on-demand-smooth-streams/_static/image1.gif) > [!NOTE]
- > - You should install the Pro edition of Microsoft Expression Encoder 4 if you also want to repackage H.264-encoded Smooth Streams to Apple HTTP Live Streams in Transform Manager or if you want to deliver live Smooth Streaming output to IIS Live Smooth Streaming publishing points. Only Microsoft Expression Encoder 4 Pro supports these features. |
-> | --- |
+> [!NOTE]
+> You should install the Pro edition of Microsoft Expression Encoder 4 if you also want to repackage H.264-encoded Smooth Streams to Apple HTTP Live Streams in Transform Manager or if you want to deliver live Smooth Streaming output to IIS Live Smooth Streaming publishing points. Only Microsoft Expression Encoder 4 Pro supports these features.
 
 
 <a id="configure_svc"></a>
@@ -79,9 +78,8 @@ Create an account for the Transform Manager service, and then start the service.
 - To learn how to create a webpage that Silverlight clients can use to play the Smooth Streaming output, see [Delivering Transform Manager Output to Clients](delivering-transform-manager-output-to-clients.md).
 - If you configure your job template to output H.264-encoded IIS Smooth Streams, you can use the **Smooth Streams to Apple HTTP Live Streams** task in Transform Manager to transform the Smooth Streams to the MPEG-2 Transport Stream (MPEG-2 TS) container format in conformance with the [Apple HTTP Live Streaming Protocol Specification](https://developer.apple.com/library/ios/#documentation/NetworkingInternet/Conceptual/HTTPLiveStreaming/_index.html). This format can be delivered from a Web server running IIS Smooth Streaming to Apple mobile digital devices. To learn how to configure the **Smooth Streams to Apple HTTP Live Streams** task in Transform Manager, see [Transforming On-Demand Smooth Streams to Apple HTTP Live Streams](transforming-on-demand-smooth-streams-to-apple-http-live-streams.md).
 
-> | ![Note](transforming-media-files-to-on-demand-smooth-streams/_static/image2.gif) > [!NOTE]
- > - Computation-intensive tasks, such as encoding and transcoding, can consume a large amount of memory and CPU resources and might affect Web server performance. You shouldn't run Transform Manager on the local Web server if it's also used in a production environment to fulfill HTTP requests. |
-> | --- |
+> [!NOTE]
+> Computation-intensive tasks, such as encoding and transcoding, can consume a large amount of memory and CPU resources and might affect Web server performance. You shouldn't run Transform Manager on the local Web server if it's also used in a production environment to fulfill HTTP requests.
 
 
 <a id="configure_jt"></a>
@@ -115,7 +113,7 @@ This section describes how to configure the default **Video files to VC-1 Smooth
     [![](transforming-media-files-to-on-demand-smooth-streams/_static/image16.png)](transforming-media-files-to-on-demand-smooth-streams/_static/image15.png)
 7. (Optional) Edit the following additional task default values in the **Properties** list. 
 
-    - The **templateName** and **templatePath** properties are used to specify the Expression Encoder 4.0 SP2 Silverlight player template that's used. By default, the task is configured to use the Standard player template that's stored in the default installation path for Expression Encoder: %ProgramFiles(x86)%\Microsoft Expression\Encoder 4\Templates\en\Standard. Modify these values, if desired, to point to other Expression Encoder 4 Silverlight player templates that are included in the Transform Manager installation, or to custom Silverlight player templates that you designed in Expression Encoder.
+    - The **templateName** and **templatePath** properties are used to specify the Expression Encoder 4.0 SP2 Silverlight player template that's used. By default, the task is configured to use the Standard player template that's stored in the default installation path for Expression Encoder: `%ProgramFiles(x86)%\Microsoft Expression\Encoder 4\Templates\en\Standard`. Modify these values, if desired, to point to other Expression Encoder 4 Silverlight player templates that are included in the Transform Manager installation, or to custom Silverlight player templates that you designed in Expression Encoder.
     - Enable the **createSubDirectory** property if you want the **Expression Encoder 4.0 SP2** task to output to a uniquely named subdirectory for each job. This is disabled by default to give you better control of the naming of the output location when you use Transform Manager.
 8. If you want to make the transcoded output available for a subsequent task in a task-chaining scenario, specify a virtual folder name in **Output folder name**.  
     [![](transforming-media-files-to-on-demand-smooth-streams/_static/image18.png)](transforming-media-files-to-on-demand-smooth-streams/_static/image17.png)

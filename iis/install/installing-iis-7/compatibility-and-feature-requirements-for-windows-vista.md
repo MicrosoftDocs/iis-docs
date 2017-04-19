@@ -94,7 +94,7 @@ Applications that use ASP and a Microsoft Access database will fail when you upg
 ***Microsoft JET Database Engine error '80004005'  
 Unspecified error***
 
-This failure is often a permission issue caused when the process identity cannot access the temporary directory. In IIS 6.0, all worker processes used C:\Windows\Temp as the temporary directory, regardless of the configuration of the process identity. In fact, because none of the worker processes in IIS 6.0 used their user profiles, Windows allowed all users access to this directory.
+This failure is often a permission issue caused when the process identity cannot access the temporary directory. In IIS 6.0, all worker processes used `C:\Windows\Temp` as the temporary directory, regardless of the configuration of the process identity. In fact, because none of the worker processes in IIS 6.0 used their user profiles, Windows allowed all users access to this directory.
 
 This configuration forced the default behavior to be such that all application pools share the same temporary directory. IIS 7.0 and above offers a better solution to this potential security problem by loading the user profile for all application pools. Also by default, the temporary directory now in use is not writeable by anyone other than the process identity, which is NetworkService.
 

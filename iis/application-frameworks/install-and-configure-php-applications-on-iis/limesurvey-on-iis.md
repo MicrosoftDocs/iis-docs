@@ -30,8 +30,7 @@ The following steps assume that you have completed the setup and configuration o
 
 First, download the latest stable release of the LimeSurvey application. For this article, we use LimeSurvey 2.5x downloaded from [https://www.limesurvey.org/#download](http://sourceforge.net/project/showfiles.php?group_id=74605.ir)
 
-Once you download the package, uncompress it and copy all the files and folders to   
- C:\Inetpub\wwwroot\limesurvey.
+Once you download the package, uncompress it and copy all the files and folders to `C:\Inetpub\wwwroot\limesurvey`.
 
 ## Set Up the Database
 
@@ -74,7 +73,7 @@ Refer to the below link for admin setup and using LimeSurvey.
 
 [http://manual.limesurvey.org/](http://manual.limesurvey.org/)
 
-If you would like to check out/import some sample survey there are several surveys available in C:\Inetpub\wwwroot\limesurvey\docs\samplesurveys
+If you would like to check out/import some sample survey there are several surveys available in `C:\Inetpub\wwwroot\limesurvey\docs\samplesurveys`
 
 Refer to the following screen shots for the survey.
 

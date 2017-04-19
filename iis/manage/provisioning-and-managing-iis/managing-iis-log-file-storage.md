@@ -86,7 +86,7 @@ The following VBScript will check the age of each log file in a folder and will 
 
 The script above will scan all subfolders, so it will process logs for ALL sites in and under the folder specified. If you want to limit the process to just a single site, change the path appropriately.
 
-To run the script manually, execute the following script in an administrator command line:`cscript.exe c:\scripts\retentionscript.vbs`
+To run the script manually, execute the following script in an administrator command line: `cscript.exe c:\scripts\retentionscript.vbs`
 
 Using a script to delete log files is a long-term, reliable solution to the problem of log files consuming disk space. If you automate the process, as shown below, it doesn't require constant maintenance.
 
@@ -98,7 +98,7 @@ You can automate the task of deleting log files by script by creating a Windows 
 2. In the **Actions** pane of the **Task Scheduler** dialog box, click **Create Task**.![Create Task control](managing-iis-log-file-storage/_static/image5.jpg)
 3. On the **General** tab of the **Create Task** dialog box, enter a name for the task, such as "Delete Log Files". Set the security properties, selecting a user account with sufficient privileges to run the script.![Create Task dialog box](managing-iis-log-file-storage/_static/image6.jpg)
 4. Click the **Triggers** tab, and then click **New**. In the **New Trigger** dialog box, set **Begin the task** to **On a schedule**. Select the periodicity, for example, **Daily**. Enter the **Start** date, select more advanced settings, and ensure that **Enabled** is selected if you are ready to initiate the schedule. Click **OK**.![New Trigger dialog box](managing-iis-log-file-storage/_static/image7.jpg)
-5. Click the **Actions** tab, and then click **New**. In the **New Action** dialog box, select a value for **Action**, in this case, **Start a program**. In **Program/script**, enter **cscript**, and in **Add arguments (optional)**, enter the path and name of the script file, for example, "C:\iis\Log\_File\_Deletion.vbs". Click **OK**.![New Action dialog box](managing-iis-log-file-storage/_static/image8.jpg)
+5. Click the **Actions** tab, and then click **New**. In the **New Action** dialog box, select a value for **Action**, in this case, **Start a program**. In **Program/script**, enter **cscript**, and in **Add arguments (optional)**, enter the path and name of the script file, for example, `C:\iis\Log\_File\_Deletion.vbs`. Click **OK**.![New Action dialog box](managing-iis-log-file-storage/_static/image8.jpg)
 6. Click **OK**.
 7. Verify that the task has been added to the **Active Tasks** pane.
 8. Right-click on the new task, and select **Run**.![Task Scheduler dialog box](managing-iis-log-file-storage/_static/image9.jpg)
@@ -117,7 +117,7 @@ This is a third-party tool that is not supported by Microsoft.
 The IIS Log Cleaner consists of the following:
 
 - The **IISLogCleaner.exe** application that executes the log cleaning process. The application is stored in a local folder that you select when you download the tool.
-- The **settings.txt** file that specifies the log file folder to be cleaned and the maximum age at which a log file is deleted. The default settings are the default IIS log folder (c:\inetpub\logs\LogFiles), and a maximum age (in days) of 30. These settings are configurable by either opening settings.txt in a text editor or by using a command in the notification area (see below). The settings.txt file is created automatically when IISLogCleaner.exe is first run. The settings.txt file is stored in the same folder as IISLogCleaner.exe.
+- The **settings.txt** file that specifies the log file folder to be cleaned and the maximum age at which a log file is deleted. The default settings are the default IIS log folder (ex: `c:\inetpub\logs\LogFiles`), and a maximum age (in days) of 30. These settings are configurable by either opening settings.txt in a text editor or by using a command in the notification area (see below). The settings.txt file is created automatically when IISLogCleaner.exe is first run. The settings.txt file is stored in the same folder as IISLogCleaner.exe.
 - The **IIS Log Cleaner** icon in the notification area (labeled IIS). Right-clicking the IIS notification icon displays a list of action commands and status settings: 
 
     - **Clean Now** executes the cleaning process immediately instead of on a timed basis.

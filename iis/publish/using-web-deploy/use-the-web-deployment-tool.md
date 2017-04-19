@@ -140,10 +140,7 @@ The following information is an extensive list of the features of the Web Deploy
 
 ## Links for Further Information
 
-[Overview of the Web Deployment Tool](introduction-to-web-deploy.md).
-
-[Videocast: Simplified Application Deployment on the Microsoft Web Platform](../deploying-application-packages/videocast-simplified-application-deployment-on-the-microsoft-web-platform.md).
-
-[Web Deployment Tool](https://forums.iis.net/1144.aspx).
-
-[Microsoft Web Deployment Team Blog](https://blogs.iis.net/msdeploy/).
+- [Overview of the Web Deployment Tool](introduction-to-web-deploy.md).
+- [Videocast: Simplified Application Deployment on the Microsoft Web Platform](../deploying-application-packages/videocast-simplified-application-deployment-on-the-microsoft-web-platform.md).
+- [Web Deployment Tool](https://forums.iis.net/1144.aspx).
+- [Microsoft Web Deployment Team Blog](https://blogs.iis.net/msdeploy/).
