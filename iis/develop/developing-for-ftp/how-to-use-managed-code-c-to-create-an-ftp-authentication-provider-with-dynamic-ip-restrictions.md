@@ -34,8 +34,8 @@ The following items are required to complete the procedures in this article:
 
     - [FTP 7.5 for IIS (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
     - [FTP 7.5 for IIS (x64)](https://go.microsoft.com/fwlink/?LinkId=143197)
-    - > [!IMPORTANT]
- > As mentioned earlier in this walkthrough, the latest version of the FTP 7.5 service ***must be*** installed in order to use the provider in this walkthrough. A version FTP 7.5 was released on August 3, 2009 that addressed an issue where the local and remote IP addresses in the **IFtpLogProvider.Log()** method were incorrect. Because of this, using an earlier version of the FTP service will prevent this provider from working.
+    > [!IMPORTANT]
+    > As mentioned earlier in this walkthrough, the latest version of the FTP 7.5 service ***must be*** installed in order to use the provider in this walkthrough. A version FTP 7.5 was released on August 3, 2009 that addressed an issue where the local and remote IP addresses in the **IFtpLogProvider.Log()** method were incorrect. Because of this, using an earlier version of the FTP service will prevent this provider from working.
 3. You must have FTP publishing enabled for a site.
 4. You must use Visual Studio 2008.
     > [!NOTE]

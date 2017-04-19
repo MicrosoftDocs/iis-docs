@@ -141,53 +141,54 @@ If you manually disable the migration error message, you must make sure that you
 
 ## Changing ASP.NET Modes for an Application
 
-<a id="changemode"></a>If your application does not work properly in Integrated ASP.NET mode, you can move it to the Classic ASP.NET mode by moving it to another application pool. Each application pool is individually configured to use the desired ASP.NET integration mode. This lets you run groups of applications that use different ASP.NET integration modes side-by-side on the same server.
+If your application does not work properly in Integrated ASP.NET mode, you can move it to the Classic ASP.NET mode by moving it to another application pool. Each application pool is individually configured to use the desired ASP.NET integration mode. This lets you run groups of applications that use different ASP.NET integration modes side-by-side on the same server.
 
 **To change the ASP.NET integration mode for an application:** 
 
-1. <a id="changemode"></a>**Find or create an application pool that is configured to use the desired mode.**   
+
+1. **Find or create an application pool that is configured to use the desired mode.**   
  By default, all new application pools run in Integrated mode.  
  The ASP.NET set up provides an application pool named "**Classic .NET AppPool**" that runs in the classic ASP.NET integration mode. You can use this application pool for applications that should not run in Integrated mode.  
  You can also change the ASP.NET mode of the existing application pool by using the IIS Administration Tool or the AppCmd.exe command line tool, or by manually editing the application pool configuration.
-2. <a id="changemode"></a>**Set the application to use that application pool.**   
+2. **Set the application to use that application pool.**   
  Each application is configured to use a particular application pool. By default, all applications use the default application pool named "**DefaultAppPool**", which runs in Integrated mode.  
  You can change the application pool of an application by using the IIS Administration Tool or the AppCmd.exe command line tool, or by manually editing the application configuration.
 
-<a id="changemode"></a>
+
 
 ## Selecting an ASP.NET Version for an Application
 
-<a id="changemode"></a>Historically, IIS has supported multiple versions of ASP.NET / CLR side-by-side. For example, IIS allows the same server to run ASP.NET applications by using .NET Framework v1.1 and v2.0. This support was provided by mapping a corresponding version of ASPNET\_isapi.dll to serve requests for the ASP.NET content by using the IIS scriptmaps configuration.
+Historically, IIS has supported multiple versions of ASP.NET / CLR side-by-side. For example, IIS allows the same server to run ASP.NET applications by using .NET Framework v1.1 and v2.0. This support was provided by mapping a corresponding version of ASPNET\_isapi.dll to serve requests for the ASP.NET content by using the IIS scriptmaps configuration.
 
-<a id="changemode"></a>For example, you can use the following scriptmap configuration to enable side-by-side support:
+For example, you can use the following scriptmap configuration to enable side-by-side support:
 
-1. <a id="changemode"></a>**ASP.NET v1.1 application on /app1:**  
+1. **ASP.NET v1.1 application on /app1:**  
  \*.aspx -&gt; d:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\aspnet\_isapi.dll
-2. <a id="changemode"></a>**ASP.NET v2.0 application on /app2:**  
+2. **ASP.NET v2.0 application on /app2:**  
  \*.aspx -&gt; d:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet\_isapi.dll
 
-<a id="changemode"></a>When the application receives a \*.aspx request, IIS loads the specified aspnet\_isapi.dll, which loads the correct CLR version into the worker process, and processes the request.
+When the application receives a \*.aspx request, IIS loads the specified aspnet\_isapi.dll, which loads the correct CLR version into the worker process, and processes the request.
 
-<a id="changemode"></a>ASP.NET also provides the following ways to configure side-by-side scriptmaps:
+ASP.NET also provides the following ways to configure side-by-side scriptmaps:
 
-1. <a id="changemode"></a>**ASP.NET MMC extension.** When you pick the version of ASP.NET to use, the extension automatically configures the scriptmaps for the application to point to the correct version of aspnet\_isapi.dll.
-2. <a id="changemode"></a>**ASP.NET aspnet\_regiis.exe.** Use the –i and –r options to install the scriptmaps that point to the corresponding ASP.NET version.
+1. **ASP.NET MMC extension.** When you pick the version of ASP.NET to use, the extension automatically configures the scriptmaps for the application to point to the correct version of aspnet\_isapi.dll.
+2. **ASP.NET aspnet\_regiis.exe.** Use the –i and –r options to install the scriptmaps that point to the corresponding ASP.NET version.
 
-<a id="changemode"></a>Unfortunately, due to the limitation of the ability to load only one CLR version into a single worker process, you must make sure that two applications that use different versions of ASP.NET are never configured to exist within the same application pool. When this common mistake is made, the first request loads the CLR of the corresponding aspnet\_isapi.dll, and subsequent requests to the other version within the same application pool will fail.
+Unfortunately, due to the limitation of the ability to load only one CLR version into a single worker process, you must make sure that two applications that use different versions of ASP.NET are never configured to exist within the same application pool. When this common mistake is made, the first request loads the CLR of the corresponding aspnet\_isapi.dll, and subsequent requests to the other version within the same application pool will fail.
 
-<a id="changemode"></a>IIS recognizes that the application pool is the ASP.NET version that you select to run an application under. As such, the version of the CLR / ASP.NET that is loaded in the application pool is explicitly configured in the application pool configuration. By default, IIS pre-loads the CLR that is specified by this setting when loading the worker process (unless the version is configured to be empty).
+IIS recognizes that the application pool is the ASP.NET version that you select to run an application under. As such, the version of the CLR / ASP.NET that is loaded in the application pool is explicitly configured in the application pool configuration. By default, IIS pre-loads the CLR that is specified by this setting when loading the worker process (unless the version is configured to be empty).
 
-<a id="changemode"></a>Because application pools are the .NET Framework versioning boundary, you can change the version of an ASP.NET application by doing the following:
+Because application pools are the .NET Framework versioning boundary, you can change the version of an ASP.NET application by doing the following:
 
-1. <a id="changemode"></a>**Move the application to an application pool that uses the desired ASP.NET version.**   
+1. **Move the application to an application pool that uses the desired ASP.NET version.**   
  By default, applications use the default application pool named "DefaultAppPool," which runs ASP.NET v2.1 in Integrated mode. Move the application to the "Classic .NET AppPool" to run in ASP.NET v2.1 Classic mode, or another application pool of your choice.
-2. <a id="changemode"></a>**Configure the application pool within which the application is running to use the desired ASP.NET version.**   
+2. **Configure the application pool within which the application is running to use the desired ASP.NET version.**   
  By default, all new application pools are configured to run ASP.NET v2.1 in Integrated mode.
 
-<a id="changemode"></a>> [!NOTE]
+> [!NOTE]
 >> Do not use aspnet\_regiis /i or /r options to configure the version of ASP.NET for a particular application, or globally.
 
-<a id="changemode"></a>IIS uses pre-conditioned handler mappings to automatically select the correct set of handler mappings (to ASPNET\_isapi.dll in Classic mode or directly to managed handler types in Integrated mode) depending on the configured CLR version and managed integration mode of the application pool. The ASP.NET 2.0 setup installs these handler mappings at the server level.
+IIS uses pre-conditioned handler mappings to automatically select the correct set of handler mappings (to ASPNET\_isapi.dll in Classic mode or directly to managed handler types in Integrated mode) depending on the configured CLR version and managed integration mode of the application pool. The ASP.NET 2.0 setup installs these handler mappings at the server level.
 
 ## Taking Advantage of Integrated ASP.NET Mode
 

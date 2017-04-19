@@ -62,7 +62,8 @@ If you have not done so already, configure disk cache by following [this](config
 **To create and define a server farm using the UI:** 
 
 1. Launch IIS Manager.
-2. Select and expand the root of the server. This is your child (edge) cache node.![](cache-hierarchy-management-using-application-request-routing/_static/image3.jpg)
+2. Select and expand the root of the server. This is your child (edge) cache node.
+    ![](cache-hierarchy-management-using-application-request-routing/_static/image3.jpg)
 3. To create a server farm, right-click **Server Farms**, and then click **Create Server Farm...**.
 
     ![](cache-hierarchy-management-using-application-request-routing/_static/image4.jpg)

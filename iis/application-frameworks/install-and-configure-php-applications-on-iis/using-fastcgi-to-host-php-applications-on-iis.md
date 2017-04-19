@@ -96,11 +96,11 @@ It is recommended that you use a non-thread safe build of PHP with IIS FastCGI. 
     - Set **extension\_dir** to point to the location where the PHP extensions are located. Typically, for PHP 5.2.X the value would be set as **extension\_dir = "./ext"**
     - Enable the required PHP extension by un-commenting the corresponding lines, for example:   
   
- extension=php\_mssql.dll  
- extension=php\_mysql.dll
+		extension=php\_mssql.dll  
+		extension=php\_mysql.dll
 4. Open a command prompt, and run the following command to verify that PHP installed successfully:
 
-[!code-console[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample1.cmd)]
+	[!code-console[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample1.cmd)]
 
 If PHP installed correctly and all its dependencies are available on the machine, this command will output the current PHP configuration information.
 

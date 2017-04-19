@@ -25,10 +25,13 @@ To support and configure ASP applications on your Web server, you must install t
 1. On the taskbar, click **Server Manager**.
 2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
 3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
-4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, and then expand **Application Development**.![Server role](classic-asp-not-installed-by-default-on-iis/_static/image2.jpg)
+4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, and then expand **Application Development**.
+    ![Server role](classic-asp-not-installed-by-default-on-iis/_static/image2.jpg)
 5. On the **Server Roles** page, select **ASP**.
-6. If the **Add features that are required by ASP?** dialog box appears, click **Add Features**. (This page appears only if you have not already installed ISAPI Extensions on your server.)![Windows features](classic-asp-not-installed-by-default-on-iis/_static/image3.jpg)
-7. On the **Server Roles** page, **ASP** and **ISAPI Extensions** should be selected. Click **Next**.![Server role](classic-asp-not-installed-by-default-on-iis/_static/image4.jpg)
+6. If the **Add features that are required by ASP?** dialog box appears, click **Add Features**. (This page appears only if you have not already installed ISAPI Extensions on your server.)
+    ![Windows features](classic-asp-not-installed-by-default-on-iis/_static/image3.jpg)
+7. On the **Server Roles** page, **ASP** and **ISAPI Extensions** should be selected. Click **Next**.
+    ![Server role](classic-asp-not-installed-by-default-on-iis/_static/image4.jpg)
 8. On the **Features** page, click **Next**.
 9. On the **Confirmation** page, click **Install**.
 10. On the **Results** page, click **Close**.
@@ -37,8 +40,10 @@ To support and configure ASP applications on your Web server, you must install t
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
 2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
-3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **ASP**.![Windows features](classic-asp-not-installed-by-default-on-iis/_static/image5.jpg)> [!NOTE]
-> The ISAPI Extensions feature will be selected if it has not already been installed.
+3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **ASP**.
+    ![Windows features](classic-asp-not-installed-by-default-on-iis/_static/image5.jpg)
+	> [!NOTE]
+	> The ISAPI Extensions feature will be selected if it has not already been installed.
 4. Click **OK**.
 5. Click **Close**.
 
@@ -70,4 +75,4 @@ To support and configure ASP applications on your Web server, you must install t
 
 For more information about how to install classic ASP and how to configure classic ASP options, see the following page in the IIS configuration reference on the Microsoft [IIS.net](https://www.iis.net/) Web site:
 
-> [https://www.iis.net/ConfigReference/system.webServer/asp](https://www.iis.net/configreference/system.webserver/asp)
+- [https://www.iis.net/ConfigReference/system.webServer/asp](https://www.iis.net/configreference/system.webserver/asp)

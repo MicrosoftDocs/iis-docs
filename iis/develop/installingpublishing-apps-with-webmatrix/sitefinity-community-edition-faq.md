@@ -35,12 +35,10 @@ Note: If you choose MySQL during the browser installation process, you will need
 1. Go to the **Files** workspace.
 2. Find the following entry:
 
- &lt;connectionStrings&gt; &lt;add name="Sitefinity" connectionString="..." providerName="" /&gt; &lt;/connectionStrings&gt;
+	`&lt;connectionStrings&gt; &lt;add name="Sitefinity" connectionString="..." providerName="" /&gt; &lt;/connectionStrings&gt;`
 3. Modify the providerName to work with MySQL:
 
- &lt;connectionStrings&gt; &lt;add name="Sitefinity" connectionString="..." providerName="MySQL.Data.MySQLClient" /&gt;
-
-    &lt;/connectionStrings&gt;
+	`&lt;connectionStrings&gt; &lt;add name="Sitefinity" connectionString="..." providerName="MySQL.Data.MySQLClient" /&gt;&lt;/connectionStrings&gt;`
 
 #### Q: How do I publish my Sitefinity Community Edition website?
 

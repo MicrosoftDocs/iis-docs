@@ -72,7 +72,7 @@ Before starting the installation procedure for Drupal, you must create a databas
 1. Open a Web browser, and go to `http://localhost/drupal/`. The first page of the installation script appears. Click **Install Drupal in English**. The Verify requirements step should proceed automatically unless you are missing requirements.  
 
     [![Choose language page](install-drupal-on-iis/_static/image2.jpg)](install-drupal-on-iis/_static/image1.jpg)  
-*Figure 1: Choose language page*
+	*Figure 1: Choose language page*
 2. On the **Database configuration page**, type the following information:  
 
     - Database name: **drupal**
@@ -82,11 +82,11 @@ Before starting the installation procedure for Drupal, you must create a databas
     Click **Save and continue**. The required database tables are created, and the configuration is saved into the Sites\Default\Settings.php file. Remove the "modify" permissions on this file.
 
     [![Database configuration page](install-drupal-on-iis/_static/image4.jpg)](install-drupal-on-iis/_static/image3.jpg)  
-*Figure 2: Database configuration page*
+	*Figure 2: Database configuration page*
 3. On the **Configure site** page, enter the required configuration information.  
 
     [![](install-drupal-on-iis/_static/image6.jpg)](install-drupal-on-iis/_static/image5.jpg)  
-*Figure 3: Configure site page*
+	*Figure 3: Configure site page*
 
 ## Enable Clean URLs
 

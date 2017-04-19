@@ -56,8 +56,9 @@ FastCGI is a language-independent, scalable, open extension to Common Gateway In
 4. A page appears showing the PHP configuration.  
 
     [![](install-php-and-fastcgi-support-on-server-core/_static/image2.jpg)](install-php-and-fastcgi-support-on-server-core/_static/image1.jpg)  
-*Figure 1: PHP page*
+	*Figure 1: PHP page*
 
+	
 > [!NOTE]
 > *This article updates [IIS 7.0 and Above on Server Core](../../manage/working-with-server-core/iis-70-on-server-core.md) by Tobin Titus, published on September 11, 2009.*
 
