@@ -67,7 +67,7 @@ In this step, the Failed Request Tracing Rules are defined for Application Reque
  Click **Next** . The above configuration has created a Failed Request Tracing Rule that writes traces when the status code falls between 200 and 399.
 8. Deselect **ASP**,**ASPNET**, and **ISAPI Extension**. After selecting **WWW Server**, deselect everything under **Areas:**, except for **Rewrite** and **RequestRouting**. Since Application Request Routing relies on the URL Rewrite Module to inspect incoming requests, it is recommended that you enable the traces for both Application Request Routing (**RequestRouting**) and URL Rewrite Module (**Rewrite**).  
     [![](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image12.jpg)](using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr/_static/image11.jpg)  
- For additional information about URL Rewrite Module traces, refer to [https://www.iis.net/learn/extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules](../../extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules.md) .
+ For additional information about URL Rewrite Module traces, refer to [Using Failed Request Tracing to Trace Rewrite Rules](../../extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules.md) .
 9. Click **Finish.**
 
 **To configure Failed Request Tracing Rules using the command-line:** 
