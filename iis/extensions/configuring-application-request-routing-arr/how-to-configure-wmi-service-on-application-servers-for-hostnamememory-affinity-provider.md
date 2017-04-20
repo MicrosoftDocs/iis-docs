@@ -68,9 +68,9 @@ The following steps are to be performed on ***all the application servers in the
     [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image5.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image4.jpg)
 6. Under **Launch and Activate Permissions**, select **Edit Limits.** Add the account of the worker process where ARR uses and allow:
 
-    - - Local Launch
-        - Remote Launch
-        - Remote Activation
+    - Local Launch
+    - Remote Launch
+    - Remote Activation
 
     [![](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image7.jpg)](how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider/_static/image6.jpg)
 7. Click on **OK** to save the changes.

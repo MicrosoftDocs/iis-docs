@@ -28,7 +28,7 @@ Each computer that will participate in a server farm must have the following:
 - Windows Server 2008 or Windows Server 2008 R2 installed.
 - The .NET Framework 2.0 or later installed.
 - One of the following accounts:
-- - A local administrator account with the same name and password as an an administrator account on each computer that will participate in the server farm.
+	- A local administrator account with the same name and password as an an administrator account on each computer that will participate in the server farm.
     - A domain account in the local Administrators group that is also in the local Administrators group on each computer that will participate in the server farm.
 - A network connection that is accessible by the other servers that will participate in the server farm.
 
