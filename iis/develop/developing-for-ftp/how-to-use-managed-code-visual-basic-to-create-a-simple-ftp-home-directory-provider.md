@@ -1,5 +1,5 @@
 ---
-title: "How to Use Managed Code (Visual Basic) to Create a Simple FTP Home Directory Provider | Microsoft Docs"
+title: "Create a Simple FTP Home Directory Provide | Microsoft Docs"
 author: rmcmurray
 description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
 ms.author: iiscontent
@@ -12,7 +12,7 @@ ms.prod: iis
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-visual-basic-to-create-a-simple-ftp-home-directory-provider
 msc.type: authoredcontent
 ---
-How to Use Managed Code (Visual Basic) to Create a Simple FTP Home Directory Provider
+Create a Simple FTP Home Directory Provide
 ====================
 by [Robert McMurray](https://github.com/rmcmurray)
 
