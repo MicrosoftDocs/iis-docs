@@ -1,0 +1,5 @@
+<location path=".">
+   <module> 
+     <add name="CanonicalDomainName" />
+   </module>
+</location>

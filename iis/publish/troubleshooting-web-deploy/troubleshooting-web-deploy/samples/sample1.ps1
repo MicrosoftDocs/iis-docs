@@ -1,0 +1,1 @@
+msdeploy.exe -verb:sync -source:metakey=lm/w3svc/1,computername=Server1 -dest:metakey=lm/w3svc/1 -verbose >msdeploysync-verbose.log

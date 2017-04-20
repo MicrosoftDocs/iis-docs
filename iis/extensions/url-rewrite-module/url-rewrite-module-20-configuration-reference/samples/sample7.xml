@@ -1,0 +1,1 @@
+<match filterByTags="A, CustomTags" customTags="My Tags" pattern="^/(article\.aspx.*)" />

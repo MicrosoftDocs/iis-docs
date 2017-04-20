@@ -1,0 +1,5 @@
+<requestFiltering>
+   <fileExtensions applyToWebDAV="false">
+      <add fileExtension=".txt" allowed="false" />
+   </fileExtensions>
+</requestFiltering>

@@ -1,0 +1,1 @@
+msdeploy.exe -verb:sync -source:backupManager -dest:backupManager=<siteName>,useLatest=true

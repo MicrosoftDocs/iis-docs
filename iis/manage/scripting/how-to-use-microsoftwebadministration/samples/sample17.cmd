@@ -1,0 +1,1 @@
+ConfigurationSection section = config.GetSection("system.webServer/defaultDocument");

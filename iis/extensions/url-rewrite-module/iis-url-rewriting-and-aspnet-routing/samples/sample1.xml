@@ -1,0 +1,11 @@
+<rewrite>
+    <rules>
+        <rule name="Enforce canonical hostname" stopProcessing="true">
+            <match url="(.*)" />
+            <conditions>
+                <add input="{HTTP_HOST}" negate="true" pattern="^www\.mysite\.com$" />
+            </conditions>
+            <action type="Redirect" url="http://www.mysite.com/{R:1}" redirectType="Permanent" />
+        </rule>
+    </rules>
+</rewrite>

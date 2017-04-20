@@ -1,0 +1,6 @@
+<element name="processModel">
+ ...
+ <attribute name="maxProcesses" type="uint" defaultValue="1" validationType="integerRange"
+ validationParameter="0,2147483647" />
+ ... 
+</element>

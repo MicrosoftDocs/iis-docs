@@ -1,0 +1,1 @@
+APPCMD set config <URL> /section:SectionName [ /property:value ]+

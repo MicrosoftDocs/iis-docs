@@ -1,0 +1,9 @@
+<configuration>
+ <system.webServer> 
+  <security>
+   <requestFiltering
+                  allowDoubleEscaping="false">
+   </requestFiltering> 
+  </security>
+ </system.webServer>
+</configuration>

@@ -1,0 +1,1 @@
+cscript AddMimeTypes.vbs [RemoteServerName]

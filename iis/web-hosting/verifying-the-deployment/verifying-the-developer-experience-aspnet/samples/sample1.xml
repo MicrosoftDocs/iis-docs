@@ -1,0 +1,1 @@
+<add name="Graffiti" connectionString="server=SERVERNAME; database=Graffiti; User ID=graffiti; Password=********" />

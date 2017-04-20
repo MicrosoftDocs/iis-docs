@@ -1,0 +1,1 @@
+%systemroot%\system32\inetsrv\APPCMD add app /site.name:MySite /path:/app1 /physicalPath:C:\inetpub\mysite\app1

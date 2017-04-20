@@ -1,0 +1,1 @@
+appcmd list backups

@@ -1,0 +1,11 @@
+<configuration>
+  <system.webServer>
+    <security>
+      <requestFiltering unescapeQueryString="true">
+        <denyQueryStringSequences>
+          <add sequence="script" />
+        </denyQueryStringSequences>
+      </requestFiltering>
+    </security>
+  </system.webServer>
+</configuration>

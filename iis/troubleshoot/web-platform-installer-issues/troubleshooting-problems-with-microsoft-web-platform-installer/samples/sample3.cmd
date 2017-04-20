@@ -1,0 +1,1 @@
+notepad %systemroot%\setuperr.log.

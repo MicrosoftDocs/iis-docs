@@ -1,0 +1,1 @@
+msdeploy.exe -verb:sync -source:metakey=lm/w3svc/1 -dest:package=c:\dws.zip > DWSpackage6.log

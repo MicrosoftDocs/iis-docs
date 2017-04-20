@@ -1,0 +1,1 @@
+dir 'iis:\AppPools' | foreach {[void](new-object -com Sapi.SPVoice).Speak("Application Pool State:");}{$poolState = "Application Pool " + $_.Name +" is " + $_.State;$poolState;[void](new-object -com Sapi.SPVoice).Speak($poolState);}

@@ -1,0 +1,1 @@
+REG ADD "HKLM\System\CurrentControlSet\Services\CSC\Parameters" /v ReadOnlyCache /t REG_DWORD /d 1 /f

@@ -1,0 +1,7 @@
+<system.webServer>
+	<security>
+	<requestFiltering>
+		<requestLimits maxQueryString="NEW_VALUE_IN_BYTES" />
+	</requestFiltering>
+	</security>
+</system.webServer>

@@ -1,0 +1,1 @@
+start /w pkgmgr /uu:IIS-WebServerRole;WAS-WindowsActivationService;WAS-ProcessModel

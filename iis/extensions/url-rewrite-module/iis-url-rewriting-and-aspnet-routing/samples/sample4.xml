@@ -1,0 +1,12 @@
+<rewrite>
+    <rules>
+        <rule name="Block SomeRobot" stopProcessing="true">
+            <match url="^folder1/folder2" />
+            <conditions logicalGrouping="MatchAny">
+                <add input="{USER_AGENT}" pattern="SomeRobot" />
+                <add input="{REMOTE_ADDR}" pattern="201\.45\.33\.[0-5]" />
+            </conditions>
+            <action type="AbortRequest" />
+        </rule>
+    </rules>
+</rewrite>

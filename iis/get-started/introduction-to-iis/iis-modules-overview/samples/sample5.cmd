@@ -1,0 +1,1 @@
+Appcmd.exe install module /name:MODULE_NAME /image:PATH_TO_DLL

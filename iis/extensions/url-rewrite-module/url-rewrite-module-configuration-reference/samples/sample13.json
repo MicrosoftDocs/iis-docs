@@ -1,0 +1,3 @@
+{MyRewriteMap:contoso/{R:1}/test/{C:1}}
+{MyRewriteMap:a.html}
+{MyRewriteMap:{R:1}?{C:1}&contoso=test}

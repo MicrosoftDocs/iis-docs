@@ -1,0 +1,1 @@
+serverManager.Sites["Racing Cars Site"].ServerAutoStart = true;

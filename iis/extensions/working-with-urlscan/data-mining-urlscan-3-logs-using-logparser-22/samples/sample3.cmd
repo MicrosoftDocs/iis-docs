@@ -1,0 +1,1 @@
+logparser.exe "SELECT date,time,c-ip,x-action FROM UrlScan.*.log" -i:w3c

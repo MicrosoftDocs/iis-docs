@@ -1,0 +1,10 @@
+<site name="Default Web Site" id="1">
+   <application path="/">
+      <virtualDirectory path="/" physicalPath="C:\inetpub\wwwroot" />
+   </application>
+   <bindings>
+      <clear />
+      <binding protocol="http" bindingInformation="*:80:" />
+   </bindings>
+   <logFile localTimeRollover="true" />
+</site>

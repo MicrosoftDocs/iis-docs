@@ -1,0 +1,10 @@
+<configuration> 
+  <system.web> 
+    <!--membership provider entry goes here--> 
+    <authorization> 
+      <deny users="?"/> 
+      <allow users="*"/> 
+    </authorization> 
+    <authentication mode="Forms"/> 
+  </system.web> 
+</configuration>

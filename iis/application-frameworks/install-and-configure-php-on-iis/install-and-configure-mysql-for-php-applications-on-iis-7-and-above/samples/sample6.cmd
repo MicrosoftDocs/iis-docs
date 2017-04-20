@@ -1,0 +1,16 @@
+mysql>   GRANT ALTER,
+      -> ALTER ROUTINE,
+      -> CREATE,
+      -> CREATE ROUTINE,
+      -> CREATE TEMPORARY TABLES,
+      -> CREATE VIEW,
+      -> DELETE,
+      -> DROP,
+      -> EXECUTE,
+      -> INDEX,
+      -> INSERT,
+      -> LOCK TABLES,
+      -> SELECT,
+      -> UPDATE,
+      -> SHOW VIEW
+      ON some_database_name.* TO 'some_username';

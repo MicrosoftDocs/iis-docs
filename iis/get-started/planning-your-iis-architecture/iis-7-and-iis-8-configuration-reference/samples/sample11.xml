@@ -1,0 +1,6 @@
+<SECTION 
+    name=""  [Required, Collection Key] [XML name of the section]
+    allowDefinition="Everywhere" [MachineOnly|MachineToApplication|Everywhere] [Level where it can be set]
+    overrideModeDefault="Allow"  [Allow|Deny] [Default delegation mode]
+
+/>

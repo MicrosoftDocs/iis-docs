@@ -1,0 +1,1 @@
+<add input="{HTTP_HOST}" pattern="localhost" negate="true" />

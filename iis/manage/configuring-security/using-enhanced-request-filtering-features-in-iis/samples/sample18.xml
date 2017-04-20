@@ -1,0 +1,12 @@
+<configuration>
+  <system.webServer>
+    <security>
+      <requestFiltering>
+        <denyQueryStringSequences>
+          <add sequence=".." />
+          <add sequence="./" />
+        </denyQueryStringSequences>
+      </requestFiltering>
+    </security>
+  </system.webServer>
+</configuration>

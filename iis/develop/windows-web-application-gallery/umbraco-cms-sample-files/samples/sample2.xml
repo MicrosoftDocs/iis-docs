@@ -1,0 +1,77 @@
+<parameters>
+<parameter name="Application Path" description="It is recommended that Umbraco be installed as a web site root. Leave this parameter empty." tags="iisapp">
+<parameterValidation type="AllowEmpty" />
+<parameterEntry type="ProviderPath" scope="iisapp" match="^umbraco$" />
+</parameter> 
+<!-- Set ACL parameters for Umbraco cms 5 -->
+ <!-- This is the parameter that is used to set ACLs, it's set to the application path filled in by the user -->
+
+<parameter name="SetAclWebConfig" description="Sets the ACL on the web.config file" defaultValue="{Application Path}/web.config" tags="Hidden">
+<parameterEntry type="ProviderPath" scope="setAcl" match="^umbraco/web.config$" />
+</parameter>
+<parameter name="SetAclAppData" description="Sets the ACL on the /app_data/ folder" defaultValue="{Application Path}/app_data" tags="Hidden">
+<parameterEntry type="ProviderPath" scope="setAcl" match="^umbraco/app_data$" />
+</parameter>
+<parameter name="SetAclAppPlugins" description="Sets the ACL on the /app_plugins/ folder" defaultValue="{Application Path}/app_plugins" tags="Hidden">
+<parameterEntry type="ProviderPath" scope="setAcl" match="^umbraco/app_plugins$" />
+</parameter>
+<parameter name="SetAclAreas" description="Sets the ACL on the /areas/ folder" defaultValue="{Application Path}/areas" tags="Hidden">
+<parameterEntry type="ProviderPath" scope="setAcl" match="^umbraco/areas$" />
+</parameter>
+<parameter name="SetAclBin" description="Sets the ACL on the /bin/ folder" defaultValue="{Application Path}/bin" tags="Hidden">
+<parameterEntry type="ProviderPath" scope="setAcl" match="^umbraco/bin$" />
+</parameter>
+<parameter name="SetAclContent" description="Sets the ACL on the /content/ folder" defaultValue="{Application Path}/content" tags="Hidden">
+<parameterEntry type="ProviderPath" scope="setAcl" match="^umbraco/content$" />
+</parameter>
+<parameter name="SetAclScripts" description="Sets the ACL on the /scripts/" defaultValue="{Application Path}/scripts" tags="Hidden">
+<parameterEntry type="ProviderPath" scope="setAcl" match="^umbraco/scripts$" />
+</parameter>
+<parameter name="SetAclViews" description="Sets the ACL on the /views/ folder" defaultValue="{Application Path}/views" tags="Hidden">
+<parameterEntry type="ProviderPath" scope="setAcl" match="^umbraco/views$" />
+</parameter> 
+<!--Database Information -->
+<parameter name="Database Server" description="Location of your database server." defaultValue=".\sqlexpress" tags="DBServer, SQL">
+
+</parameter>
+<parameter name="Database Name" description="Name of the database for your application." defaultValue="umbraco" tags="DBName, SQL"> 
+</parameter>
+<parameter name="Database Username" description="User name to access you application database." defaultValue="umbracouser" tags="SQL, DbUsername">
+<parameterEntry type="TextFile" scope="createlogin.sql" match="PlaceHolderForUser" />
+<parameterEntry type="TextFile" scope="createuser.sql" match="PlaceHolderForUser" />
+</parameter>
+<parameter name="Database Password" description="Enter Password for the Database Username. Please ensure that Passwords contain at least (1) upper
+case letter, at least (1) lower case letter, at least (1) number or special character, and be least (8) characters in length" tags="New, Password, SQL, DbUserPassword">
+<parameterValidation type = "RegularExpression" validationString = "(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" />
+<parameterEntry type="TextFile" scope="createlogin.sql" match="PlaceHolderForPassword" />
+</parameter>   
+<!-- Prompts for the admin creds and uses it for the administrator connection string. This is used to create a login and assign permissions. The SQL tag indicates it is a parameter required for SQL. 
+The DbAdminUsername tag indicates it should be used when the user is creating a new database. 
+If they're not, it can be filled in with the DbUsername value. -->
+<parameter name="Database Administrator" description="Administrator username for your database." defaultValue="sa" tags="SQL, DbAdminUsername">
+
+</parameter>
+<!-- Prompts for the admin password and uses it for the administrator connection string. 
+This is used to create a login and assign permissions. The SQL tags indicates it is a parameter required for SQL. 
+The DbAdminPassword tag indicates it should be used when the user is creating a new database. 
+If they're not, it can be filled in with the DbUserPassword value. -->
+<parameter name="Database Administrator Password" description="Password that is associated with the database administrator account." tags="Password, SQL, DbAdminPassword">
+</parameter>
+<!-- This is the hidden connection string will create the database user for the application database  -->
+<parameter name="Connection String Master" description="Automatically sets the connection string for the connection request." defaultValue="Server={Database Server};Database=MASTER;uid={Database Administrator};Pwd={Database Administrator Password};" tags="Hidden,SQLConnectionString,NoStore">
+
+<parameterEntry type="ProviderPath" scope="dbfullsql" match="createlogin.sql" />
+</parameter>
+<parameter name="Connection String for Config" description="Connection string to enter into config" defaultValue="server={Database Server};database={Database Name};uid={Database Administrator};Pwd={Database Administrator Password};" tags="Hidden,SQLConnectionString">
+<parameterEntry type="ProviderPath" scope="dbfullsql" match="createuser.sql" />
+</parameter>
+<!-- This is the hidden connection string when SQL CE database is used -->
+<parameter name="SQLCE Database Location" defaultValue="Data Source=|DataDirectory|Umbraco.sdf" tags="SQLCE, Hidden">
+<parameterEntry type="XmlFile" scope="\\App_Data\\Umbraco\\HiveConfig\\web.config" match="/configuration/connectionStrings/add[@name='nhibernate.ConnString']/@connectionString" /></parameter>
+<parameter name="SQLCE Database Provider" defaultValue="System.Data.SqlServerCe.4.0" tags="SQLCE, Hidden">
+<parameterEntry type="XmlFile" scope="\\App_Data\\Umbraco\\HiveConfig\\web.config" match="/configuration/connectionStrings/add[@name='nhibernate.ConnString']/@providerName" />
+</parameter>
+<parameter name="SQLCE Database Driver" defaultValue="MsSqlCe4" tags="SQLCE, Hidden">
+<parameterEntry type="XmlFile" scope="\\App_Data\\Umbraco\\HiveConfig\\web.config" match="/configuration/umbraco/persistenceProviderSettings/nhibernate/@driver" />
+</parameter>
+</parameters>

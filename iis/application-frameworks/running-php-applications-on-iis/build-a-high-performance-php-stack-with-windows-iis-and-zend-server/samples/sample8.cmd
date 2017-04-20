@@ -1,0 +1,1 @@
+mysql> GRANT ALL ON library.* TO library@localhost IDENTIFIED BY 'bookworm';

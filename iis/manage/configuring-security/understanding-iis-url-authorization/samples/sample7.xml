@@ -1,0 +1,3 @@
+<authorization lockElements="clear"> 
+	<add accessType="Deny" users="*" /> 
+</authorization>

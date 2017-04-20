@@ -1,0 +1,1 @@
+C:\inetpub\wwwroot\Drupal>icacls sites\default\settings.php /reset

@@ -1,0 +1,27 @@
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 2.1//EN" "http://www.w3.org/2005/SMIL21/SMIL21.dtd"[]>
+<smil xmlns="http://www.w3.org/2005/SMIL21/Language">
+    <head>
+        <meta name="title" content="httpd entry " />
+        <meta name="description" content="This is just a description" />
+    </head>
+    <body>
+        <seq>
+        <ref src="httpd://{SERVER_NAME}:{SERVER_PORT/pre.aspx">
+            <param name="srcType" value="relativeURI" />
+            <param name="canSkipForward" value="False" />
+            <param name="canSkipBack" value="False" />
+            <param name="canSeek" value="False" />
+            <param name="extraParam" value="" />
+            <param name="title" value="Httpd entry" />
+        </ref>
+        <ref src="C:\inetpub\wwwroot\DieHard.wmv">
+            <param name="srcType" value="physicalPath" />
+            <param name="canSkipForward" value="True" />
+            <param name="canSkipBack" value="True" />
+            <param name="canSeek" value="True" />
+            <param name="extraParam" value="" />
+            <param name="title" value="Die Hard Preview" />
+        </ref>
+        </seq>
+    </body>
+</smil>

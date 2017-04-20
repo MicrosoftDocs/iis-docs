@@ -1,0 +1,1 @@
+makecert -r -pe -n "CN=MyTestServer" -b 07/01/2008 -e 07/01/2010 -eku 1.3.6.1.5.5.7.3.1 -ss my -sr localMachine -sky exchange -sp "Microsoft RSA SChannel Cryptographic Provider" -sy 12

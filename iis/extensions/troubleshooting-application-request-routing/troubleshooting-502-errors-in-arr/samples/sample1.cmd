@@ -1,0 +1,1 @@
+HTTP/1.1 GET /time/ - 1 Connection_Dropped DefaultAppPool

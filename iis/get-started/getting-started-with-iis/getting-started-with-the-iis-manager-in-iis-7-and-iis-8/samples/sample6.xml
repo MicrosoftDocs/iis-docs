@@ -1,0 +1,8 @@
+<location path="Default Web Site" overrideMode="Allow">
+  <system.webServer>
+	 <httpErrors>
+		<remove statusCode="404" subStatusCode="-1" />
+		<error statusCode="404" path="/err/404.aspx" responseMode="Redirect" />
+	 </httpErrors>
+  </system.webServer>
+</location>

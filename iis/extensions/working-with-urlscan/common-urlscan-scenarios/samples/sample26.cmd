@@ -1,0 +1,1 @@
+LogParser.exe -i:W3C "SELECT c-ip, COUNT(*) FROM mylogfile.log GROUP BY c-ip"

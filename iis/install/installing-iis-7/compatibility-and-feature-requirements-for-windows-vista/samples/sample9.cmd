@@ -1,0 +1,1 @@
+%systemroot%\iis7_gather.log

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<system.webServer>
+<rewrite>
+    <providers>
+        <provider name="FileContains" type="FileContainsProvider, Microsoft.Web.Iis.Rewrite.Providers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+            <settings>
+                <add key="FilePath" value="{DOCUMENT_ROOT}\App_Data\disalloweduseragents.txt" />
+                <add key="IgnoreCase" value="1" />
+            </settings>
+        </provider>
+    </providers>
+    <rules>
+        <rule name="FileContainsProviderTest" stopProcessing="true">
+            <match url=".*" />
+            <conditions>
+                <add input="{FileContains:{HTTP_USER_AGENT}}" pattern=".+" />
+            </conditions>
+            <action type="AbortRequest" />
+        </rule>
+    </rules>
+</rewrite>

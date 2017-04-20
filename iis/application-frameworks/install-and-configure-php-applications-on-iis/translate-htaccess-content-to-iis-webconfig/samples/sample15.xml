@@ -1,0 +1,6 @@
+<caching>
+	<profiles>
+		<add extension=".php" policy="DisableCache" kernelCachePolicy="DisableCache" />
+		<add extension=".html" policy="CacheForTimePeriod" kernelCachePolicy="CacheForTimePeriod" duration="14:00:00:00" />
+	</profiles>
+</caching>

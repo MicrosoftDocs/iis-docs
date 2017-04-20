@@ -1,0 +1,6 @@
+<parameter name="Database Name" description="Name of the database for your application." defaultValue="app_db" tags="MySQL,dbName">
+	<parameterEntry kind="TextFile" scope="install.sql" match="PlaceHolderForDbName" />
+</parameter>
+<parameter name="Automatic Database Name PHP File" defaultValue="define('DB_NAME', '{Database   Name}');" tags="Hidden, MySQL">
+	<parameterEntry kind="TextFile" scope="wp-config\.php$" match="define\('DB_NAME', '[^']*'\);" />
+</parameter>

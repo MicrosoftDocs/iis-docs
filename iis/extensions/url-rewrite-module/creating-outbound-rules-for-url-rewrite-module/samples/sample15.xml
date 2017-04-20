@@ -1,0 +1,19 @@
+<rewrite>
+ <rules>
+  <rule name="Rewrite to article.aspx">
+   <match url="^article/([0-9]+)/([_0-9a-z-]+)" />
+   <action type="Rewrite" url="article.aspx?id={R:1}&amp;title={R:2}" />
+  </rule>
+ </rules>
+ <outboundRules>
+  <rule name="Rewrite to clean URL" preCondition="IsHTML">
+   <match filterByTags="A" pattern="^/article\.aspx\?id=([0-9]+)(?:&amp;|&amp;amp;)title=([_0-9a-z-]+)$" />
+   <action type="Rewrite" value="/article/{R:1}/{R:2}" />
+  </rule>
+  <preConditions>
+   <preCondition name="IsHTML">
+    <add input="{RESPONSE_CONTENT_TYPE}" pattern="^text/html" />
+   </preCondition>
+  </preConditions>
+ </outboundRules>
+</rewrite>

@@ -1,0 +1,1 @@
+ICACLS "C:\inetpub\inetpub\ftproot" /Grant IUSR:R /T

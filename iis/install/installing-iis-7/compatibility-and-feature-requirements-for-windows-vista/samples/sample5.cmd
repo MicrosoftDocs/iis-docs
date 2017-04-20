@@ -1,0 +1,1 @@
+adsutil.vbs set w3svc/1/SslCtlStoreName CA

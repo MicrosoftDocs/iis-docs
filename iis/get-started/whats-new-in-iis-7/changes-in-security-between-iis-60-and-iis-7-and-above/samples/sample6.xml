@@ -1,0 +1,7 @@
+<system.webServer>
+	<security>
+		<ipSecurity allowUnlisted="false">
+			<add ipAddress="127.0.0.1" allowed="true" />
+		</ipSecurity>
+	</security>
+</system.webServer>

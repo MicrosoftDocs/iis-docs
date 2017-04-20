@@ -1,0 +1,1 @@
+C:\>%windir%\system32\inetsrv\appcmd set config /section:system.webServer/handlers /+[name='PHP_via_FastCGI',path='*.php',verb='*',modules='FastCgiModule',scriptProcessor='c:\{php_folder}\php-cgi.exe',resourceType='Unspecified']

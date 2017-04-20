@@ -1,0 +1,1 @@
+^/article\.aspx\?id=([0-9]+)(?:&|&amp;)title=([_0-9a-z-]+)$

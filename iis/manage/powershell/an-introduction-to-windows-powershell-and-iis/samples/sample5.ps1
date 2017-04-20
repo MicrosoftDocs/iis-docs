@@ -1,0 +1,1 @@
+PS C:\Data> get-content 'Hello.txt' | out-file '.\HelloCopy.txt'

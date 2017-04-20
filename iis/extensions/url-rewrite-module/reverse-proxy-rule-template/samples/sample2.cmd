@@ -1,0 +1,1 @@
+%windir%\System32\inetsrv\appcmd.exe add site /name:"contentsite" /bindings:http/*:8081: /physicalPath:"%SystemDrive%\inetpub\contentsite

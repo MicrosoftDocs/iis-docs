@@ -1,0 +1,1 @@
+Sync-"server=.\sqlexpress;uid=sa;pwd=********;database=umbracodb"  c:\umbraco.sql

@@ -1,1 +1,3 @@
-# Welcome to IIS!
+---
+redirect_url: /iis/get-started
+---

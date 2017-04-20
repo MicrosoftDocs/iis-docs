@@ -1,0 +1,1 @@
+C:\>cmd.exe /c ""%ProgramFiles%\IIS\Microsoft Web Deploy\msdeploy.exe" -verb:sync -source:contentPath="Default Web Site",computerName=demo-primary -dest:contentPath="Default Web Site" -skip:objectName=dirPath,absolutePath=.*folder1.*"

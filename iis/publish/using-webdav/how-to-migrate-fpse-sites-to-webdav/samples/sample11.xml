@@ -1,0 +1,3 @@
+<requestFiltering>
+   <verbs applyToWebDAV="false" />
+</requestFiltering>

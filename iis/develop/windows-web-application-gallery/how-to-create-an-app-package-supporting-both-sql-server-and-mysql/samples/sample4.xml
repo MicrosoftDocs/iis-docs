@@ -1,0 +1,6 @@
+<!-- Displayed if SQL Server database selected -->
+<parameter  name="MSSQL Database Server"
+            description="Database server name"
+            defaultValue=".\sqlexpress"
+            tags="SQL, DbServer" >
+</parameter>

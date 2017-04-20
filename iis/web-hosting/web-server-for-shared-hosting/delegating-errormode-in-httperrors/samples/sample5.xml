@@ -1,0 +1,3 @@
+<system.webServer>
+   <httpErrors errorMode="Detailed"/>
+</system.webServer>

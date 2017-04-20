@@ -1,0 +1,5 @@
+<moduleProviders>
+<..
+<add name="DemoModule" type="Server.DemoModuleProvider,Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e788138af6131538"/>
+
+../ moduleProviders>

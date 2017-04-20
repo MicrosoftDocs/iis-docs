@@ -1,0 +1,1 @@
+netsh firewall add portopening tcp 3306 "MySQL"

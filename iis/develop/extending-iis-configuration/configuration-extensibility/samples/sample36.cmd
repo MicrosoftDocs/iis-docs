@@ -1,0 +1,1 @@
+%windir%\system32\inetsrv\appcmd set site "Default Web Site" /owner:"John Contoso" /ownerEmail:"john@contoso.com"

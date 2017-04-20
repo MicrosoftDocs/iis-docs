@@ -1,0 +1,1 @@
+AppCmd set config "Default Web Site/" /section:system.webServer/webdav/authoringRules /[users='administrator',path='*'].access:"None" /commit:apphost

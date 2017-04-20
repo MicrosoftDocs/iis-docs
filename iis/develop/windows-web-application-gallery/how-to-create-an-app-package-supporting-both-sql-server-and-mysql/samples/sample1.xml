@@ -1,0 +1,2 @@
+<dbfullsql path="sqlserver_script.sql" />
+<dbmysql path="mysql_script.sql" />

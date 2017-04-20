@@ -1,0 +1,1 @@
+msdeploy -verb:sync -source:apphostconfig="Default Web Site",computername=Server1 -dest:apphostconfig="Default Web Site" > msdeploysync.log

@@ -1,0 +1,1 @@
+(get-webconfiguration //handlers).collection | select name,path

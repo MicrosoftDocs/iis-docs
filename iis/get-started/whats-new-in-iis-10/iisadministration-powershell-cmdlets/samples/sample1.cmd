@@ -1,0 +1,1 @@
+PS:>Get-IISConfigSection -SectionPath "system.webServer/defaultDocument" | Get-IISConfigCollection -CollectionName "files" | New-IISConfigCollectionElement -ConfigAttribute @{"Value" = "MyDefDoc.htm"}

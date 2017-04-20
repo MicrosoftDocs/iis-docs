@@ -1,0 +1,26 @@
+<sites>
+   <site name="Default Web Site" id="1">
+      <application path="/">
+         <virtualDirectory path="/" physicalPath="%SystemDrive%\inetpub\wwwroot" />
+      </application>
+      <bindings>
+         <binding protocol="http" bindingInformation="*:80:" />
+      </bindings>
+   </site>
+   <site name="Default FTP Site" id="2">
+      <application path="/">
+         <virtualDirectory path="/" physicalPath="%SystemDrive%\inetpub\ftproot" />
+      </application>
+      <bindings>
+         <binding protocol="ftp" bindingInformation="*:21:" />
+      </bindings>
+      <ftpServer>
+         <security>
+            <authentication>
+               <anonymousAuthentication enabled="true" userName="IUSR" />
+               <basicAuthentication enabled="true" />
+            </authentication>
+            <ssl controlChannelPolicy="SslAllow" dataChannelPolicy="SslAllow" />
+         </security>
+      </ftpServer>
+   </site>

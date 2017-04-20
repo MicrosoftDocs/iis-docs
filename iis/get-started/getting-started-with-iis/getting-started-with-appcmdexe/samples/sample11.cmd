@@ -1,0 +1,1 @@
+APPCMD list <OBJECT> <ID>

@@ -1,0 +1,1 @@
+mysql> GRANT ALL PRIVILEGES ON my_DB.* TO 'my_DBuser'@'%' IDENTIFIED BY 'my_DBpass';

@@ -1,0 +1,4 @@
+<conditions trackAllCaptures="true">
+    <add input="{REQUEST_URI}" pattern="^/([a-zA-Z]+)/([0-9]+)/$" />
+    <add input="{QUERY_STRING}" pattern="p2=([a-z]+)" />  
+ </conditions>

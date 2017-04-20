@@ -1,0 +1,3 @@
+<parameter name="Connection String For Config" defaultValue="Data Source={DbServer};Database={DbName};uid={DbAdmin};Pwd={DbAdminPW};" tags="Hidden,SQL">
+	<parameterEntry kind="XmlFile" scope="\\web\.config$" match="//connectionStrings/add/@connectionString" />
+</parameter>

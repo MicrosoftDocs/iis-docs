@@ -1,0 +1,9 @@
+<rules>
+    <rule name="Redirect Rule" stopProcessing="true">
+        <match url=".*" />
+        <conditions>
+            <add input="{StaticRedirects:{REQUEST_URI}}" pattern="(.+)" />
+        </conditions>
+        <action type="Redirect" url="http://localhost{C:1}" appendQueryString="False" redirectType="Permanent" />
+    </rule>
+</rules>

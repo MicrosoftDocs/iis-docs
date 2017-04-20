@@ -1,0 +1,9 @@
+<sectionSchema name="system.webServer/asp"> 
+  <attribute name="appAllowClientDebug" type="bool" defaultValue="false" /> 
+  <attribute name="appAllowDebugging" type="bool" defaultValue="false" /> 
+  <!-- Omitted to simplify --> 
+  <element name="session"> 
+	<attribute name="allowSessionState" type="bool" defaultValue="true" /> 
+	<attribute name="keepSessionIdSecure" type="bool" defaultValue="true" /> 
+  </element> 
+</sectionSchema>

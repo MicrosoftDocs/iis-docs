@@ -1,0 +1,5 @@
+<location overrideMode="Allow">
+  <system.webServer>
+    <modules/>
+  </system.webServer>
+</location>

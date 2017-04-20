@@ -1,0 +1,3 @@
+<element 
+ name="" [String, Required] [XML name of the element]
+ isCollectionDefault="false" [bool] [Indicates if default values are held for other elements in this collection] />

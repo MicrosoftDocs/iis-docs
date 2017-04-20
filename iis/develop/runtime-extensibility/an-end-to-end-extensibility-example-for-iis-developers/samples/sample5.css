@@ -1,0 +1,3 @@
+%windir%\system32\inetsrv\appcmd set config -section:system.webServer/imageCopyright 
+
+/color:yellow /message:"Copyright (C) Contoso.COM" /enabled:true

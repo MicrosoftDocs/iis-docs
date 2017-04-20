@@ -1,0 +1,9 @@
+<msdeploy.iisapp>
+	<!-- iisapp path identifies the subdirectory in the ZIP file which contains all of the application files 
+	  -->
+	<iisapp path="BlogEngine" />
+
+	<!-- setAcl with no setAclResourceType set will default to setting an ACL on a directory.  We are setting an ACL here for the App_Data directory that requires the following permissions : ReadAndExecute,Write,Delete
+	  -->
+	<setAcl path="BlogEngine/App_Data" setAclAccess="ReadAndExecute,Write,Delete" />
+</msdeploy.iisapp>

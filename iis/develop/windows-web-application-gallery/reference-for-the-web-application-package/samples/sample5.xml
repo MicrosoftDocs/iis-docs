@@ -1,0 +1,3 @@
+<parameter name="AllowEmptyParameter"> 
+    <parameterValidation type="AllowEmpty" /> 
+</parameter>

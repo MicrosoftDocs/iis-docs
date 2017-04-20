@@ -1,0 +1,1 @@
+%systemroot%\system32\inetsrv\appcmd set config -section:applicationPools /[name='DefaultAppPool'].processModel.loadUserProfile:false

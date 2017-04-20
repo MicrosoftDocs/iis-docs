@@ -1,0 +1,3 @@
+<parameter name="RegEx Parameter2"> 
+    <parameterValidation type="RegularExpression,allowEmpty" validationString="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" /> 
+</parameter>

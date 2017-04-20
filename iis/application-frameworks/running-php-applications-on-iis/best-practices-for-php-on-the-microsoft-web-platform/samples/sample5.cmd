@@ -1,0 +1,1 @@
+C:\Windows\System32\inetsrv>appcmd set config /commit:WEBROOT /section:system.web/authentication /mode: None | Windows | Passport | Forms

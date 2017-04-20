@@ -1,0 +1,13 @@
+<configuration> 
+    <system.webServer> 
+      <modules> 
+           <add name="MyBasicAuthenticationModule" type="IIS7Demos.BasicAuthenticationModule" /> 
+      </modules> 
+      <security> 
+         <authentication> 
+          <windowsAuthentication enabled="false"/> 
+             <anonymousAuthentication enabled="false"/> 
+         </authentication> 
+      </security> 
+	</system.webServer> 
+</configuration>

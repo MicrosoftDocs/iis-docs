@@ -1,0 +1,1 @@
+<action type="Rewrite" value="{HtmlEncode:{HTTP_REFERER}}" />

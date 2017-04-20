@@ -1,0 +1,6 @@
+<customTags>
+    <tags name="My Tags">
+        <tag name="item" attribute="src" />
+        <tag name="element" attribute="src" />
+    </tags>
+</customTags>

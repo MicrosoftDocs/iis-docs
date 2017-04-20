@@ -1,0 +1,14 @@
+<location path="Default Web Site"> 
+	<system.webServer> 
+		<tracing> 
+			<traceFailedRequests> 
+				<add path="*"> 
+					<traceAreas> 
+						<add provider="WWW Server" areas="Security" verbosity="Verbose" /> 
+					</traceAreas> 
+					<failureDefinitions statusCodes="404.2" /> 
+				</add> 
+			</traceFailedRequests> 
+		</tracing> 
+	</system.webServer> 
+</location>

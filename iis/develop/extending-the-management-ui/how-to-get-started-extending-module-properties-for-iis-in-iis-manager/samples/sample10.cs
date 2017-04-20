@@ -1,0 +1,1 @@
+class CustomPage : ModulePropertiesPage { }

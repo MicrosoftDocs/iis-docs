@@ -1,0 +1,1 @@
+<binding protocol="http" bindingInformation="*:8080:myhostname"/>

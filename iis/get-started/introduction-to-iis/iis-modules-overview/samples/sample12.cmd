@@ -1,0 +1,1 @@
+Appcmd.exe add module /name:MODULE_NAME /type:MGD_TYPE

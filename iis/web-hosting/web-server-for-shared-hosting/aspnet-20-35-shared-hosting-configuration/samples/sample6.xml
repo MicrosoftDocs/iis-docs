@@ -1,0 +1,13 @@
+	<system.web>
+      <securityPolicy>
+       <trustLevel name="Full" policyFile="internal" />
+       <trustLevel name="High" policyFile="web_hightrust.config" />
+       <trustLevel name="Medium" policyFile="web_mediumtrust.config" />
+       <trustLevel name="Low" policyFile="web_lowtrust.config" />
+       <trustLevel name="Minimal" 
+                   policyFile="web_minimaltrust.config" />
+       <trustLevel name="Custom" policyFile="web_CustomTrust.config" />
+      </securityPolicy>
+      <trust level="Custom" originUrl="" />
+     </system.web>
+</location>

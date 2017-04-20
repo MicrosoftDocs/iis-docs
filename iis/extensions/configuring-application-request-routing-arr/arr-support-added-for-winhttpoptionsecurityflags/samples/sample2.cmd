@@ -1,0 +1,1 @@
+reg.exe add "HKLM\SOFTWARE\Microsoft\IIS Extensions\Application Request Routing\Parameters" /v SecureConnectionIgnoreFlags /t REG_DWORD /d 0

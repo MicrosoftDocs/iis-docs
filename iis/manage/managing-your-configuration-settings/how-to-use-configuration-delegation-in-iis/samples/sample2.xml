@@ -1,0 +1,15 @@
+<sites>
+    <siteDefaults>
+        <logFile directory="C:\WINDOWS\System32\LogFiles" />
+    </siteDefaults>
+     <applicationDefaults applicationPool="DefaultAppPool"/>
+     <site name="Default Web Site" id="1">
+        <bindings>
+          <binding protocol="http" bindingInformation="*:80:" />
+        </bindings>
+                <application path="/">
+          <virtualDirectory path="/" physicalPath="C:\inetpub\wwwroot" />
+        </application>
+         <logFile directory="C:\WINDOWS\System32\LogFiles" />
+    </site>
+</sites>

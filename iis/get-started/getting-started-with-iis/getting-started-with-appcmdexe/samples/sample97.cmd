@@ -1,0 +1,1 @@
+FOR /F %f IN ('%systemroot%\system32\inetsrv\APPCMD list vdir /text:physicalPath') DO CALL DIR %f

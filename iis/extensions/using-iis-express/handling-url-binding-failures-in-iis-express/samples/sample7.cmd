@@ -1,0 +1,1 @@
+httpcfg set urlacl /u http://myhostname:8080/ /a D:(A;;GX;;;WD)

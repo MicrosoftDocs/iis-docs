@@ -1,0 +1,12 @@
+<!-- in applicationHost.config: -->
+<location path="MySite/shopping" overrideMode="Allow">
+  <system.webServer>
+    <modules/>
+  </system.webServer>
+</location>
+<!-- in web.config at MySite root: -->
+<location overrideMode="Deny">
+  <system.webServer>
+    <modules/>
+  </system.webServer>
+</location>

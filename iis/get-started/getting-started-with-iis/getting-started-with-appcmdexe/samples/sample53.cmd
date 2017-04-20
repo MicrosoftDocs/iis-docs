@@ -1,0 +1,1 @@
+%systemroot%\system32\inetsrv\APPCMD set apppool "MyAppPool" /managedRuntimeVersion:v1.1

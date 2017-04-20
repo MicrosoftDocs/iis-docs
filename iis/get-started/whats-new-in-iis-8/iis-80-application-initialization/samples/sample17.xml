@@ -1,0 +1,5 @@
+<rewrite>
+  <allowedServerVariables>
+    <add name="SKIP_MANAGED_MODULES" />
+  </allowedServerVariables>
+</rewrite>

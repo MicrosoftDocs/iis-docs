@@ -1,0 +1,16 @@
+<configSchema> 
+ <sectionSchema name="system.webServer/watermark"> 
+  <attribute name="enabled" type="bool" defaultValue="false" /> 
+  <attribute name="watermarkImage" type="string" /> 
+  <attribute name="transparency" type="uint" defaultValue="50" validationType="integerRange" validationParameter="0,100" /> 
+  <attribute name="position" type="enum" defaultValue="LowerRight" > 
+    <enum name="UpperLeft" value="0" /> 
+    <enum name="UpperRight" value="1" /> 
+    <enum name="LowerLeft" value="2" /> 
+    <enum name="LowerRight" value="3" /> 
+    <enum name="Center" value="4" /> 
+    <enum name="Stretch" value="5" /> 
+    <enum name="Tile" value="6" /> 
+  </attribute> 
+ </sectionSchema> 
+</configSchema>

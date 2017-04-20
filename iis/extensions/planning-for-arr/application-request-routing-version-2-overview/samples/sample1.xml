@@ -1,0 +1,5 @@
+<rewrite>
+  <allowedServerVariables>
+    <add name="MY_SERVER_VARIABLE" />
+  </allowedServerVariables>
+</rewrite>

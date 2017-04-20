@@ -1,0 +1,9 @@
+<configuration>
+   <system.webServer>
+      <defaultDocument>
+         <files>
+            <clear />
+            <add value="default.aspx" />
+      </defaultDocument>
+   </system.webServer>
+</configuration>

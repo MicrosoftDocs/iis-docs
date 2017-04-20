@@ -1,0 +1,1 @@
+logman start trace compressionTrace -pf IISProviders.txt -ets

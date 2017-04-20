@@ -1,0 +1,7 @@
+<configSections>
+...
+<sectionGroup name="system.webServer">
+<section name="imageCopyright"  overrideModeDefault="Allow"/>
+...    
+</sectionGroup>
+</configSections>

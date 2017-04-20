@@ -1,0 +1,23 @@
+<!-- The XML element name for defining a section schema is "sectionSchema" -->
+<!-- It contains the full name of the section -->
+<sectionSchema name="system.webServer/defaultDocument">
+  <!-- A property schema is defined using an "attribute" XML element -->
+  <attribute name="enabled" type="bool" defaultValue="true" />
+  <!-- A sub-element schema is defined using an "element" XML element -->
+  <!-- In this case, it is also a collection -->
+  <element name="files">
+    <!-- This collections uses the traditional "add", "remove", "clear" ->
+    <!-- for the directive names, and supports all of them; other       -->
+    <!-- collections may use different names, defined here, and support -->
+    <!-- only some of the directives. Note the "prepend" behavior when  -->
+    <!-- adding elements; most collections use "append"                 -->
+    <collection addElement="add" clearElement="clear" removeElement="remove" mergeAppend="false">
+  
+     <!-- This defines the collection element schema; in this case, it -->
+      <!-- has one attribute only: "name", e.g. <add name="file1.aspx"> -->
+      <!-- The value for "name" is of type "string" and it serves as    -->
+      <!-- the collection key, therefore needs to be unique             -->
+      <attribute name="value" type="string" isUniqueKey="true"/>
+    </collection>
+  </element>
+</sectionSchema>

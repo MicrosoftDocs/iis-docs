@@ -1,0 +1,149 @@
+<parameters>
+
+<!-- Prompts where to copy the content files and takes a web site path (such as "contoso.com/app"). -->
+<parameter name="ApplicationPath"
+description="Full site path you would like to install your application to(i.e. Default Web Site/joomla)."
+defaultValue="Default Web Site/wordpress"
+tags="iisapp" >
+
+<parameterEntry
+type="ProviderPath"
+scope="iisapp"
+match="wordpress" />
+</parameter>
+
+<!-- Setting ACL parameters for Wordpress content directory as mentioned in the manifest.xml -->
+
+<parameter name="SetAclParameter1"
+description="Sets the ACL on wp-content directory "
+defaultValue="{ApplicationPath}/wp-content"
+tags="Hidden" >
+
+<parameterEntry
+type="ProviderPath"
+scope="setAcl"
+match="wordpress/wp-content"/>
+</parameter>
+
+<!-- Database Parameters -->
+
+<!-- Prompts the user for the database server name.-->
+<!-- Note that this parameter has only one parameterEntry element. This parameter is used with the configuration file and the connection string. It is not used within the SQL script itself like the other paramters are. -->
+
+<parameter name="DatabaseServer"
+description="This is usually localhost or a host name provided by the hosting provider."
+defaultValue="localhost"
+tags="MySQL, dbServer" >
+
+<!-- Parameter substitution -->
+<parameterEntry
+type="TextFile"
+scope="install.sql"
+match="PlaceHolderForServer" />
+</parameter>
+
+<parameter name="Automatic DatabaseServer"
+defaultValue="define\('DB_HOST', '{DatabaseServer}'\);"
+tags="Hidden, MySQL" >
+<parameterEntry
+type="TextFile"
+scope="wp-config.php"
+match="define\('DB_HOST', '[^']*'\);" />
+</parameter>
+
+<!-- Prompts the user for the database name. -->
+<parameter name="DatabaseName"
+description="Database Name for your application. Please note database name must start with a letter and must be in lowercase along. You can also use numerals and underscore(_)."
+defaultValue="wordpressdb"
+tags="MySQL, dbName" >
+<!-- Parameter substitution-->
+<parameterEntry
+type="TextFile"
+scope="install.sql"
+match="PlaceHolderForDb" />
+
+</parameter>
+
+<!-- Prompts the user for the database name. -->
+<parameter name="Automatic DatabaseName"
+defaultValue="define('DB_NAME', '{DbName}');"
+tags="Hidden, MySQL" >
+<parameterEntry
+type="TextFile"
+scope="wp-config.php"
+match="define\('DB_NAME', '[^']*'\);" />
+</parameter> 
+
+<!--Prompts the user for the database username. -->
+
+<parameter name="DatabaseAdministrator"
+description="This can be the default MySQL username root, a username provided by your hosting provider, or one that you created in setting up your database server. "
+defaultValue="root"
+tags="MySQL, DbAdminUsername" >
+
+</parameter>
+
+<!-- Prompts the user for the database user's password. -->
+
+<parameter name="DatabaseAdministratorPassword"
+description="Using a password for the MySQL account is mandatory for site security. This is the same password used to access your database. This may be predefined by your hosting provider. "
+tags="Password, MySQL, DbAdminPassword" >
+
+</parameter>
+
+<parameter name="Database Username"
+description="Username to access your Wordpress database"
+defaultValue="joomlauser"
+tags="MySQL, DbUsername">
+<!-- Parameter substitution-->
+<parameterEntry
+type="TextFile"
+scope="install.sql"
+match="PlaceHolderForUser" />
+
+</parameter>
+<parameter name="Automatic Database Username"
+defaultValue="define('DB_USER', '{DbUsername}');"
+tags="Hidden, MySQL">
+<parameterEntry
+type="TextFile"
+scope="wp-config.php"
+match="define\('DB_USER', '[^']*'\);" />
+</parameter>
+
+<!-- Prompts for the database password and fills it into the database scripts.The MySQL tag indicates it is a parameter required for MySQL, the DbUserPassword tag indicates this is a Db password -->
+<parameter name="Database Password"
+description="Password for your Wordpress database"
+tags="New, Password, MySQL, DbUserPassword">
+
+<!-- Parameter substitution-->
+<parameterEntry
+type="TextFile"
+scope="install.sql"
+match="PlaceHolderForPassword" />
+</parameter>
+
+<parameter name="Automatic Database Password"
+defaultValue="define('DB_PASSWORD', '{DbPassword}');"
+tags="Hidden, MySQL">
+<parameterEntry
+type="TextFile"
+scope="wp-config.php"
+match="define\('DB_PASSWORD', '[^']*'\);" />
+</parameter>
+
+<!-- This is the hidden admin connection string used to run the database scripts. -->
+
+<parameter name="ConnectionString"
+description="Automatically sets the connection string for the connection request."
+defaultValue="Server={DatabaseServer};Database={DatabaseName};uid={DatabaseAdministrator};Pwd={DatabaseAdministratorPassword};"
+tags="Hidden,MySQLConnectionString" >
+
+<parameterEntry
+type="ProviderPath"
+scope="dbmysql"
+match="install.sql" />
+
+</parameter>
+
+</parameters>
