@@ -28,16 +28,20 @@ This material is provided for informational purposes only. Microsoft makes no wa
 After sending an HTTP request to an IIS server, an HTTP client (such as Internet Explorer) may display the following type of error message:
 
 ---
+
 ![](troubleshooting-http-400-errors-in-iis/_static/image1.png)
 **HTTP 400**
 **The webpage cannot be found.**
  
 Most likely causes: 
 - There might be a typing error in the address.
-- If you clicked on a link, it may be out of date. What you can try: 
+- If you clicked on a link, it may be out of date.
+
+What you can try: 
 - Retype the address. 
 - Go back to the previous page. 
 - Go to Bing and look for the information you want.
+
 ---
 
 If the HTTP client is Internet Explorer, and the Show Friendly HTTP Error Messages option is turned off, the error may resemble the following:
