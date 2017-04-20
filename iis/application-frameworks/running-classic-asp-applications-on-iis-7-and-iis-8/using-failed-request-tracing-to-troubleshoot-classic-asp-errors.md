@@ -72,7 +72,7 @@ For additional information about installing Failed Request Tracing for IIS, see 
 
 You can also enable failed request tracing from a command prompt by using the AppCmd.exe utility with the following syntax:
 
-> [!code-console[Main](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/samples/sample1.cmd)]
+[!code-console[Main](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/samples/sample1.cmd)]
 
 
 ## Troubleshooting classic ASP errors
@@ -99,7 +99,7 @@ The following steps will configure a failed request tracing rule for HTTP 500 er
 
 In this error condition, you will examine an ASP page that attempts to create an instance of an invalid COM class, and this situation is most often produced by misspelling a valid COM class. To test this issue, save the following ASP code as Bad\_class.asp in the wwwroot folder of a Web site where you have enabled failed request tracing for HTTP 500 errors:
 
-> [!code-html[Main](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/samples/sample2.html)]
+[!code-html[Main](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/samples/sample2.html)]
 
 
 When you use a Web browser to browse to this file, IIS should return an HTTP 500 error message, and IIS will create a failed request trace log that is created in your %*SystemDrive*%\Inetpub\FailedRequestLogFiles\W3SVCnnn folder by default, where W3SVCnnn contains the unique identified for your Web site that is listed in IIS Manager. Failed request trace logs are XML files, and IIS creates an XSL file that transforms the XML into a presentation format that you can open in Internet Explorer.
@@ -146,7 +146,7 @@ The following steps will configure a failed request tracing rule for requests th
 
 In this error condition, you will examine a page that loops endlessly. This problem is frequently caused when a user session fails to exit a loop correctly, such as when your code is looping through the list records in a database table. To test this issue, save the following ASP code as Slow\_page.asp in the wwwroot folder of a Web site where you have enabled failed request tracing:
 
-> [!code-html[Main](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/samples/sample3.html)]
+[!code-html[Main](using-failed-request-tracing-to-troubleshoot-classic-asp-errors/samples/sample3.html)]
 
 
 When you use a Web browser to browse to this file, you should see no error in your Web browser, but your browser may never return a page and will eventually time out. 

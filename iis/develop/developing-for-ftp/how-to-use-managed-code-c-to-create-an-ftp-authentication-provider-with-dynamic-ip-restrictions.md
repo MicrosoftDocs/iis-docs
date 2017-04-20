@@ -244,7 +244,6 @@ You can use the following SQL Script for Microsoft SQL Server to create the nece
 
 > [!NOTE]
 > You might want to alter the SQL script to store the database in a location other than `c:\databases`.
-
 > [!code-sql[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions/samples/sample8.sql)]
 
 

@@ -198,7 +198,7 @@ You can extend a website by using the command-line tools, owsadm or owsrmadm. Th
 
 The following example shows the syntax for the install operation on Windows:
 
-> [!code-console[Main](installing-the-frontpage-server-extensions-on-iis/samples/sample2.cmd)]
+[!code-console[Main](installing-the-frontpage-server-extensions-on-iis/samples/sample2.cmd)]
 
 
 > [!NOTE]
@@ -228,4 +228,4 @@ You can remove the FrontPage 2002 Server Extensions from a website using the com
 
 The uninstall and fulluninstall operations take the port parameter. The following example shows the syntax for removing FPSE from a website:
 
-> [!code-console[Main](installing-the-frontpage-server-extensions-on-iis/samples/sample3.cmd)]
+[!code-console[Main](installing-the-frontpage-server-extensions-on-iis/samples/sample3.cmd)]
