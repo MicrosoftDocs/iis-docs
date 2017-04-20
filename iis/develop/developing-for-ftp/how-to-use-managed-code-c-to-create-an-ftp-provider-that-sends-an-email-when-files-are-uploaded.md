@@ -1,5 +1,5 @@
 ---
-title: "How to Use Managed Code (C#) to Create an FTP Provider that Sends an Email when Files are Uploaded | Microsoft Docs"
+title: "Create an FTP Provider that Sends an Email when Files are Uploaded | Microsoft Docs"
 author: rmcmurray
 description: "Microsoft has created a new FTP service that has been completely rewritten for Windows Server® 2008. This new FTP service incorporates many new features tha..."
 ms.author: iiscontent
@@ -12,7 +12,7 @@ ms.prod: iis
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-sends-an-email-when-files-are-uploaded
 msc.type: authoredcontent
 ---
-How to Use Managed Code (C#) to Create an FTP Provider that Sends an Email when Files are Uploaded
+Create an FTP Provider that Sends an Email when Files are Uploaded
 ====================
 by [Robert McMurray](https://github.com/rmcmurray)
 
