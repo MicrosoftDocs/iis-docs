@@ -61,7 +61,8 @@ You can find the detailed explanation of the two models and their differences in
 **To create a new project using the Web application project option:** 
 
 1. In Visual Studio, on the **File** menu, select **New Project**, and then select the **ASP.NET Web Application** template.
-2. Click **OK**. Visual Studio opens to the **Source** view of the Default.aspx page so that you can edit it.  
+2. Click **OK**. Visual Studio opens to the **Source** view of the Default.aspx page so that you can edit it.
+
 > [!NOTE]
 > Unlike the Web site project option, you must place the application files on the local file system or a network share, and later use the **Publish** option to publish the contents of your application to an IIS Web site.
 
@@ -70,8 +71,9 @@ You can find the detailed explanation of the two models and their differences in
 1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool. For more information, see [https://technet.microsoft.com/en-us/library/cc772350(v=ws.10).aspx](https://technet.microsoft.com/en-us/library/cc772350(v=ws.10).aspx). Alternatively, use an existing IIS Web site.
 2. In Visual Studio, use the **Build** \ **Publish** option to publish the contents of your Web application to an IIS Web site.  
     [![](using-visual-studio-2008-with-iis/_static/image4.png)](using-visual-studio-2008-with-iis/_static/image3.png)   
-    > [!NOTE]
-    > The **Publish Web** dialog by default publishes only the parts of your project that comprise your Web application - it does not publish the project file, obj directory, and other files. This is important because exposing these components to your Web users may be a security risk.  
+
+> [!NOTE]
+> The **Publish Web** dialog by default publishes only the parts of your project that comprise your Web application - it does not publish the project file, obj directory, and other files. This is important because exposing these components to your Web users may be a security risk.  
   
  By clicking the "…" button, you can chose one of the four options for publishing your Web site: 
 
