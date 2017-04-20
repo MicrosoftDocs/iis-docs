@@ -39,9 +39,9 @@ Web PI tasks can be divided into three phases:
 
 Web PI installs products using one of three technologies:
 
-- - To install Windows® operating system components (for example, IIS), Web PI uses Windows operating system [tools and interfaces](https://technet.microsoft.com/en-us/library/cc776554(WS.10).aspx) such as [PKGMGR](https://technet.microsoft.com/en-us/library/cc749302(WS.10).aspx).
-    - To install non-operating system platform components, (for example, SQL Server 2008/R2 Express) Web PI uses the Windows® Installer technology (also known as MSI).
-    - To install Web applications (for example, WordPress, Silverstripe, or DasBlog), Web PI uses the Microsoft® Web Deployment Tool.
+- To install Windows® operating system components (for example, IIS), Web PI uses Windows operating system [tools and interfaces](https://technet.microsoft.com/en-us/library/cc776554(WS.10).aspx) such as [PKGMGR](https://technet.microsoft.com/en-us/library/cc749302(WS.10).aspx).
+- To install non-operating system platform components, (for example, SQL Server 2008/R2 Express) Web PI uses the Windows® Installer technology (also known as MSI).
+- To install Web applications (for example, WordPress, Silverstripe, or DasBlog), Web PI uses the Microsoft® Web Deployment Tool.
 
 ## Recent Issues
 
