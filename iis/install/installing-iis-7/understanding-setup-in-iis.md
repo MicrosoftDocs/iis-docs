@@ -104,7 +104,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <p><b>Description</b></p></th></tr>
 <tr>
 <th>
-<p><b>? </b></p></th>
+<p><b>% </b></p></th>
 <td colspan="5">
 <p>Web Server</p></td>
 <td>
@@ -253,7 +253,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <th>
-<p><b>? </b></p></th>
+<p><b>% </b></p></th>
 <td colspan="3">
 <p>Health &amp; Diagnostics</p></td>
 <td>
@@ -412,7 +412,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <th>
-<p><b>? </b></p></th>
+<p><b>% </b></p></th>
 <td colspan="3">
 <p>Performance</p></td>
 <td>&nbsp;</td></tr>
@@ -439,7 +439,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <p>Compresses dynamic content before returning it to a client.</p></td></tr>
 <tr>
 <th>
-<p><b>? </b></p></th>
+<p><b>% </b></p></th>
 <td colspan="5">
 <p>Web Server Management Tools</p></td>
 <td>
@@ -552,7 +552,7 @@ The following table summarizes all the installable component features of IIS 7.0
 <p>Feature is not selected by default.</p></td></tr>
 <tr>
 <th valign="bottom">
-<p><b>?</b> </p></th>
+<p><b>%</b> </p></th>
 <td valign="bottom">
 <p>Feature is selected by default but has one or more non-selected sub-features.</p></td></tr>
 <tr>
@@ -560,14 +560,6 @@ The following table summarizes all the installable component features of IIS 7.0
 <p><b>?</b> </p></td>
 <td valign="bottom">
 <p>Feature is selected by default - all, if any, sub-features are also selected.</p></td></tr></tbody></table>
-
-Key:
-
-
-|  | Feature is not selected by default. |
-| --- | --- |
-| **?** | Feature is selected by default but has one or more non-selected sub-features. |
-| **?** | Feature is selected by default - all, if any, sub-features are also selected. |
 
 
 <a id="FeaturePack"></a>
