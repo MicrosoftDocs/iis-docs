@@ -96,7 +96,7 @@ All of these modules are described in detail later in this document.
 
 ### To Uninstall a Native Module
 
-You can uninstall a native module if that module is no longer in use on the server, or if you would like to replace it with another module. Remove the corresponding module entry from the &lt;globalModules&gt; configuration list, and the associated entry in the &lt;modules&gt; configuration list using one of the following options:
+You can uninstall a native module if that module is no longer in use on the server, or if you would like to replace it with another module. Remove the corresponding module entry from the &lt;globalModules&gt; configuration list, and the associated entry in the `<modules>` configuration list using one of the following options:
 
 - Manually editing the IIS configuration store. In IIS 7.5 and above you can use the Configuration Editor.
 - Using the IIS Manager
@@ -119,7 +119,7 @@ To enable a module, do one of the following:
 - Use the IIS Manager
 - Use the **AppCmd.exe** command line tool
 
-All three of these options add the module entry to the &lt;modules&gt; IIS configuration section, which is can be set at both the server level and application level. Examine the contents of this section by opening the root configuration file located in `%windir%\system32\inetsrv\config\applicationhost.config`, and searching for the string &quot;&lt;modules&gt;&quot;.
+All three of these options add the module entry to the `<modules>` IIS configuration section, which is can be set at both the server level and application level. Examine the contents of this section by opening the root configuration file located in `%windir%\system32\inetsrv\config\applicationhost.config`, and searching for the string &quot;&lt;modules&gt;&quot;.
 
 Unlike native modules, a managed module does not require adding an entry to the &lt;globalModules&gt; configuration section.
 
@@ -131,7 +131,7 @@ After a full IIS installation, the configuration section contains an entry for e
 
 ### Disabling a Module in an Application
 
-Disable a module if that module is no longer in use in the application, or if you want to replace it with another module. To disable a module, remove the corresponding module entry from the &lt;modules&gt; configuration collection for a particular application where you do not want this module to execute. If the module is enabled at the server level, remove it there to disable it in all applications on the server by default. Use one of the following options to remove the module at the server level:
+Disable a module if that module is no longer in use in the application, or if you want to replace it with another module. To disable a module, remove the corresponding module entry from the `<modules>` configuration collection for a particular application where you do not want this module to execute. If the module is enabled at the server level, remove it there to disable it in all applications on the server by default. Use one of the following options to remove the module at the server level:
 
 - Manually edit the &lt;system.webServer&gt;/&lt;modules&gt; configuration section in your application.
 - Use the IIS Manager.
@@ -152,7 +152,7 @@ There is another attribute on a module entry called precondition. The IIS core e
 
 If you remove the attribute precondition=&quot;managedHandler&quot;, Forms Authentication also applies to content that is not served by managed handlers, such as .html, .jpg, .doc, but also for classic ASP (.asp) or PHP (.php) extensions. See &quot;[How to Take Advantage of IIS Integrated Pipeline](../../application-frameworks/building-and-running-aspnet-applications/how-to-take-advantage-of-the-iis-integrated-pipeline.md)&quot; for an example of enabling ASP.NET modules to run for all content.
 
-You can also use a shortcut to enable all managed (ASP.NET) modules to run for all requests in your application, regardless of the &quot;managedHandler&quot; precondition. To enable all managed modules to run for all requests without configuring each module entry to remove the &quot;managedHandler&quot; precondition, use the **runAllManagedModulesForAllRequests** property in the &lt;modules&gt; section:
+You can also use a shortcut to enable all managed (ASP.NET) modules to run for all requests in your application, regardless of the &quot;managedHandler&quot; precondition. To enable all managed modules to run for all requests without configuring each module entry to remove the &quot;managedHandler&quot; precondition, use the **runAllManagedModulesForAllRequests** property in the `<modules>` section:
 
 [!code-xml[Main](iis-modules-overview/samples/sample4.xml)]
 
@@ -307,7 +307,7 @@ These modules do not provide request services, but instead assist the server eng
 | Description: | Managed Engine has a special place within all the other modules. It is responsible for providing the IIS integration to hook up with the ASP.NET runtime. |
 | Configuration sections: |  |
 | Dependencies: | None. |
-| Potential issues when removing this module | ASP.NET integration will be disabled. None of the managed modules declared in the &lt;modules&gt; or ASP.NET handlers declared in the &lt;handlers&gt; section are called when the Application Pool runs in Integrated Mode. |
+| Potential issues when removing this module | ASP.NET integration will be disabled. None of the managed modules declared in the `<modules>` or ASP.NET handlers declared in the `<handlers>` section are called when the Application Pool runs in Integrated Mode. |
 | **Module Name:** | **HttpCacheModule** |
 | Description: | The HttpCacheModule implements the IIS output cache and also the logic for caching items in the http.sys cache. Set the cache size, output cache profiles etc. via configuration. |
 | Configuration sections: | System.webServer/caching |
@@ -391,7 +391,7 @@ These modules do not provide request services, but instead assist the server eng
 | Description: | Implements ISAPI Extension functionality. |
 | Configuration sections: | system.webServer/isapiCgiRestriction |
 | Dependencies: | None. |
-| Potential issues when removing this module | ISAPI Extensions mapped in the &lt;handlers&gt; section (modules=&quot;IsapiModule&quot;) or explicitely called ISAPI Extensions will no longer work. |
+| Potential issues when removing this module | ISAPI Extensions mapped in the `<handlers>` section (modules=&quot;IsapiModule&quot;) or explicitely called ISAPI Extensions will no longer work. |
 | **Module Name:** | **IsapiFilterModule** |
 | Description: | Implements ISAPI filter functionality. |
 | Configuration sections: | system.webServer/isapiFilters |

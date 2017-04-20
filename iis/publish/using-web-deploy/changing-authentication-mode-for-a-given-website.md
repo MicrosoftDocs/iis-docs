@@ -18,7 +18,7 @@ by [Elliott Hamai](https://github.com/Tuesdaysgreen)
 
 ## ApphostAuthOverride Provider
 
-This is a new Web Deploy provider which will provide support for changing authentication mode for a given website. Many a times in enterprise environments applications want to choose their own authentication method using web.config file, but AppHostConfig file locks this setting. This means that if a developer tries to set his/her site's authentication settings, IIS will not obey it. The Application Host Authentication Override provider allows developers to configure how IIS locks an authentication setting on the server by adding a &lt;location&gt; tag for that setting within the server's applicationHost.config file. Here is an example of what that looks like in config:
+This is a new Web Deploy provider which will provide support for changing authentication mode for a given website. Many a times in enterprise environments applications want to choose their own authentication method using web.config file, but AppHostConfig file locks this setting. This means that if a developer tries to set his/her site's authentication settings, IIS will not obey it. The Application Host Authentication Override provider allows developers to configure how IIS locks an authentication setting on the server by adding a `<location>` tag for that setting within the server's applicationHost.config file. Here is an example of what that looks like in config:
 
 [!code-xml[Main](changing-authentication-mode-for-a-given-website/samples/sample1.xml)]
 

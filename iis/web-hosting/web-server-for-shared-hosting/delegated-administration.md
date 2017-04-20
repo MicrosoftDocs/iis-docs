@@ -25,7 +25,6 @@ Before enabling remote delegation, you should consider what features and propert
 The following table lists a sample set of features, their delegated settings, and reasons to delegate or not on the Web server. Based on the shared hosting environment that you use, you should develop your own set of delegated features that meet your needs.
 
 > [!NOTE]
->  
 > 
 > 1. Some of these features may not appear in the list of features to manage if you have not installed them. For example, if you chose not to install Digest authentication, it will not appear in the list on your Web server.
 > 2. There will be cases when you want to delegate a particular setting in applicationhost.config without delegating an entire section, here are two key examples:

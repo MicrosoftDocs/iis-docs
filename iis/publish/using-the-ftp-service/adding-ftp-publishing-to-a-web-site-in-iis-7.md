@@ -31,11 +31,6 @@ Microsoft updated the FTP service for Windows Server® 2008 and above. This new 
 
 This document walks you through adding FTP publishing to an existing web site using the new FTP user interface and by directly editing the IIS configuration files.
 
-This article contains:
-
-- [Adding FTP Publishing Using the IIS Manager](adding-ftp-publishing-to-a-web-site-in-iis-7.md#01)
-- [Adding FTP Publishing by Editing the IIS Configuration Files](adding-ftp-publishing-to-a-web-site-in-iis-7.md#02)
-
 > [!NOTE]
 > This walk-through contains a series of steps in which you log in to your FTP site using the local administrator account. These steps should only be followed on the server itself using the loopback address or over SSL from a remote server. If you prefer to use a separate user account instead of the administrator account, you must create the appropriate folders and set the correct permissions for that user account when necessary.
 
@@ -155,7 +150,7 @@ The following steps walk you through all of the required settings to add FTP pub
 
     [!code-xml[Main](adding-ftp-publishing-to-a-web-site-in-iis-7/samples/sample4.xml)]
 
- Your &lt;sites&gt; section should now contain something like the following example: 
+ Your `<sites>` section should now contain something like the following example: 
 
     [!code-xml[Main](adding-ftp-publishing-to-a-web-site-in-iis-7/samples/sample5.xml)]
 5. Scroll to the bottom of your applicationHost.config file and add a location section for your Default Web Site that will contain your authorization settings.  

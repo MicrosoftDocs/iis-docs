@@ -20,17 +20,7 @@ by [Reagan Templin](https://github.com/arkaytee)
 
 In IIS, you can create sites, applications, and virtual directories to share information with users over the Internet, an intranet, or an extranet. Although these concepts existed in earlier versions of IIS, several changes in IIS 7 and above affect the definition and functionality of these concepts. Most importantly, sites, applications, and virtual directories now work together in a hierarchical relationship as the basic building blocks for hosting online content and providing online services.
 
-This article provides a quick overview of applications in IIS 6.0 so that you can better understand the differences introduced in IIS 7. It then explains the concepts of sites, applications, and virtual directories in IIS and introduces the `&lt;sites&gt;` section in configuration.
-
-This article contains:
-
-- [About Sites, Applications, and Virtual Directories in IIS 6.0](understanding-sites-applications-and-virtual-directories-on-iis.md#About6.0)
-- [About Sites, Applications, and Virtual Directories in IIS 7 and Above](understanding-sites-applications-and-virtual-directories-on-iis.md#About7.0)
-- [Sites](understanding-sites-applications-and-virtual-directories-on-iis.md#Sites)
-- [Applications](understanding-sites-applications-and-virtual-directories-on-iis.md#Applications)
-- [Virtual Directories](understanding-sites-applications-and-virtual-directories-on-iis.md#Virtual)
-- [IIS Configuration: &lt;sites&gt; Section](understanding-sites-applications-and-virtual-directories-on-iis.md#Configuration)
-- [Summary](understanding-sites-applications-and-virtual-directories-on-iis.md#Summary)
+This article provides a quick overview of applications in IIS 6.0 so that you can better understand the differences introduced in IIS 7. It then explains the concepts of sites, applications, and virtual directories in IIS and introduces the `<sites>` section in configuration.
 
 <a id="About6.0"></a>
 
@@ -83,7 +73,7 @@ In IIS 7 and above, each site must have an application which is named the root a
 
 In addition to belonging to a site, an application belongs to an application pool, which isolates the application from applications in other application pools on the server. In the case of managed code applications, make sure to associate your application together with an application pool that is running the .NET Framework version that your application requires.
 
-As described in the Sites section of this paper, IIS supports HTTP and HTTPS by default, but you can use additional protocols. For each site, you specify one or more bindings to communicate with and access content in the site. For an application to communicate by using a protocol that is specified in the parent site's binding, you must enable the protocol. To do this, specify the protocol in the **enabledProtocols** attribute for the application, and ensure that you have the appropriate listener adapter on the server and specified in the `&lt;listenerAdapters&gt;` section in configuration.
+As described in the Sites section of this paper, IIS supports HTTP and HTTPS by default, but you can use additional protocols. For each site, you specify one or more bindings to communicate with and access content in the site. For an application to communicate by using a protocol that is specified in the parent site's binding, you must enable the protocol. To do this, specify the protocol in the **enabledProtocols** attribute for the application, and ensure that you have the appropriate listener adapter on the server and specified in the `<listenerAdapters>` section in configuration.
 
 <a id="Virtual"></a>
 
@@ -100,9 +90,9 @@ Optionally, when you need to specify credentials and a method to access the virt
 
 <a id="Configuration"></a>
 
-## IIS Configuration: &lt;sites&gt; Section
+## IIS Configuration: `<sites>` Section
 
-Take a look at the default `&lt;sites&gt;` section in IIS 7 and above. This is what is in the ApplicationHost.config file (located at `%windir%\system32\inetsrv\config\`) after installing IIS on Windows Server® 2008.
+Take a look at the default `<sites>` section in IIS 7 and above. This is what is in the ApplicationHost.config file (located at `%windir%\system32\inetsrv\config\`) after installing IIS on Windows Server® 2008.
 
 [!code-xml[Main](understanding-sites-applications-and-virtual-directories-on-iis/samples/sample1.xml)]
 
@@ -110,31 +100,31 @@ When you see a single "/" in a path field, you know that this is a root object. 
 
 ### Default Elements
 
-The following section lists the collections and elements in the `&lt;sites&gt;` section, and their hierarchical relationship within the `&lt;sites&gt;` section.
+The following section lists the collections and elements in the `<sites>` section, and their hierarchical relationship within the `<sites>` section.
 
 [!code-xml[Main](understanding-sites-applications-and-virtual-directories-on-iis/samples/sample2.xml)]
 
-Notice that there are two elements that appear in more than one place: the `&lt;applicationDefaults&gt;` element and the `&lt;virtualDirectoryDefaults&gt;` element. There is also a `&lt;siteDefaults&gt;` element, although it appears only once because it can be configured in only one location in the `&lt;sites&gt;` section. Default elements are special because they enable you to configure default values for attributes instead of having to repeat the same values in each collection.
+Notice that there are two elements that appear in more than one place: the `<applicationDefaults>` element and the `<virtualDirectoryDefaults>` element. There is also a `<siteDefaults>` element, although it appears only once because it can be configured in only one location in the `<sites>` section. Default elements are special because they enable you to configure default values for attributes instead of having to repeat the same values in each collection.
 
-When an attribute is configured at more than one level, the value at the lowest level is used. For example, if you specify a default value in an `&lt;applicationDefaults&gt;` element in both the `&lt;sites&gt;` section and in a `&lt;site&gt;` collection, the value from the `&lt;site&gt;` collection will be used. Additionally, if the same attribute or child element is configured in both a default element and in the object's collection, the value in the collection will be used. For example, if you configure an attribute in an `&lt;applicationDefaults&gt;` element and in an `&lt;application&gt;` collection, the value from the `&lt;application&gt;` collection will be used.
+When an attribute is configured at more than one level, the value at the lowest level is used. For example, if you specify a default value in an `<applicationDefaults>` element in both the `<sites>` section and in a `<site>` collection, the value from the `<site>` collection will be used. Additionally, if the same attribute or child element is configured in both a default element and in the object's collection, the value in the collection will be used. For example, if you configure an attribute in an `<applicationDefaults>` element and in an `<application>` collection, the value from the `<application>` collection will be used.
 
-The following table specifies under which parent elements an `&lt;applicationDefaults&gt;` element can be configured, and describes the effect that the values have on applications.
-
-
-| Parent element | Description |
-| --- | --- |
-| `&lt;sites&gt;` section | Specifies the default settings for all applications on the server. |
-| `&lt;site&gt;` collection | Specifies the default settings for all applications in the parent site. |
-
-
-The following table specifies under which parent elements a `&lt;virtualDirectoryDefaults&gt;` element can be configured, and describes the effect that the values have on virtual directories.
+The following table specifies under which parent elements an `<applicationDefaults>` element can be configured, and describes the effect that the values have on applications.
 
 
 | Parent element | Description |
 | --- | --- |
-| `&lt;sites&gt;` section | Specifies the default settings for all virtual directories on the server. |
-| `&lt;site&gt;` collection | Specifies the default settings for all virtual directories in the parent site. |
-| `&lt;application&gt;` collection | Specifies the default settings for all virtual directories in the parent application. |
+| `<sites>` section | Specifies the default settings for all applications on the server. |
+| `<site>` collection | Specifies the default settings for all applications in the parent site. |
+
+
+The following table specifies under which parent elements a `<virtualDirectoryDefaults>` element can be configured, and describes the effect that the values have on virtual directories.
+
+
+| Parent element | Description |
+| --- | --- |
+| `<sites>` section | Specifies the default settings for all virtual directories on the server. |
+| `<site>` collection | Specifies the default settings for all virtual directories in the parent site. |
+| `<application>` collection | Specifies the default settings for all virtual directories in the parent application. |
 
 
 <a id="Summary"></a>

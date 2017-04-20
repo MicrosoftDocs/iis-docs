@@ -67,7 +67,7 @@ Your feed just needs to be in the Atom format with an additional custom namespac
 [!code-xml[Main](creating-a-content-feed-for-learning/samples/sample1.xml)]
 
 
-The custom namespace allows you to create two new kinds of tags in each Atom `&lt;entry&gt;` block - **ConditionRef** tags that are used to identify which trigger the content should launch on and **Outline** tags that are used to lay out a hierarchy of content (if necessary).
+The custom namespace allows you to create two new kinds of tags in each Atom `<entry>` block - **ConditionRef** tags that are used to identify which trigger the content should launch on and **Outline** tags that are used to lay out a hierarchy of content (if necessary).
 
 Average entries in the feed will just be single links, so they will not need Outline nodes. They might look something like this:
 
@@ -75,13 +75,13 @@ Average entries in the feed will just be single links, so they will not need Out
 [!code-html[Main](creating-a-content-feed-for-learning/samples/sample2.html)]
 
 
-The `&lt;title&gt;` and `&lt;link&gt;` elements are used to render the link in the sidebar. The `&lt;d:DynamicHelp&gt;` block contains one `&lt;d:ConditionRef&gt;` element that points to a specific trigger ("KnownAppInSiteWorkspace" above) and passes in the required parameter of "appId" so the content will only be shown with that application.
+The `<title>` and `<link>` elements are used to render the link in the sidebar. The `<d:DynamicHelp>` block contains one `<d:ConditionRef>` element that points to a specific trigger ("KnownAppInSiteWorkspace" above) and passes in the required parameter of "appId" so the content will only be shown with that application.
 
-The `&lt;id&gt;` element must be a unique identifier for this `&lt;entry&gt;` node - these are used to determine which articles are "new" to the user and notifications will be presented to them accordingly. One simple way to ensure they are unique is to use the URL for the content as the ID string.
+The `<id>` element must be a unique identifier for this `<entry>` node - these are used to determine which articles are "new" to the user and notifications will be presented to them accordingly. One simple way to ensure they are unique is to use the URL for the content as the ID string.
 
-Things can be more complex when you'd like to lay out a detailed hierarchy (e.g. for courses or series) or include many links for one particular trigger - that is where the `&lt;d:Outline&gt;` nodes come in.
+Things can be more complex when you'd like to lay out a detailed hierarchy (e.g. for courses or series) or include many links for one particular trigger - that is where the `<d:Outline>` nodes come in.
 
-Here is an example where there are three consecutive parts of a series, represented using the `&lt;d:Outline&gt;` nodes:
+Here is an example where there are three consecutive parts of a series, represented using the `<d:Outline>` nodes:
 
 
 [!code-html[Main](creating-a-content-feed-for-learning/samples/sample3.html)]

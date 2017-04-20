@@ -36,13 +36,6 @@ In such cases, it is recommended to use the Microsoft Deployment Solutions Accel
 
 - It provides an end-to-end solution to deployment and configuration with minimal user intervention (also referred to as "light touch") which is sufficient for most hosting scenarios. - It is available for download, providing rich documentation and C# source code to aid integration into custom systems. - The user interface, process, and resources are consistent with the more sophisticated SCCM. Moreover, all the deployment data created through MD can be easily upgraded and used within SCCM, constituting an ideal upgrade path. - It provides a [detailed guide](https://technet.microsoft.com/en-us/library/bb960434.aspx) based on the Microsoft Solutions Framework for Planning, Preparing, Testing, and Deploying.
 
-This article contains:
-
-[Deployment Project](introduction-to-deploying-windows-server-2008-r2.md#DeploymentProject)  
-[Using WDS](introduction-to-deploying-windows-server-2008-r2.md#UsingWDS)  
-[Using MD](introduction-to-deploying-windows-server-2008-r2.md#UsingMD)  
-[Using SCCM](introduction-to-deploying-windows-server-2008-r2.md#UsingSCCM)
-
 <a id="DeploymentProject"></a>
 
 ## Deployment Project

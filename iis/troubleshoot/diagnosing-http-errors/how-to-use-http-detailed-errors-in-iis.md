@@ -86,7 +86,7 @@ If the httpError module determines that a Custom Error must be generated, it loo
 
 If custerr.dll determines that a Detailed Error must be generated, another check is needed. IIS does not touch the response if a module overrode the entity of the response with its own error description. It might contain valuable information. ASP.NET is a good example. The entity of an ASP.NET error response might contain the exception stack and its own error description. A Detailed Error is only generated if the entity body of the response is empty.
 
-## &lt;httpErrors&gt; Configuration
+## `<httpErrors>` Configuration
 
 Here is the IIS custom error section obtained on a clean install:
 
@@ -181,7 +181,7 @@ Allow the delegation of the httpErrors section:
 
 [!code-xml[Main](how-to-use-http-detailed-errors-in-iis/samples/sample5.xml)]
 
-Second, go to the &lt;httpErrors&gt; section in applicationHost.config and change it so that only errorMode is delegated:
+Second, go to the `<httpErrors>` section in applicationHost.config and change it so that only errorMode is delegated:
 
 [!code-xml[Main](how-to-use-http-detailed-errors-in-iis/samples/sample6.xml)]
 

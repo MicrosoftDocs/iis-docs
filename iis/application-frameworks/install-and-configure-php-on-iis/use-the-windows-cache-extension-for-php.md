@@ -116,7 +116,7 @@ To increase the maxInstances value on IIS 7, run this command from an elevated c
 > [!NOTE]
 > Replace the fullPath with the path to **P****hp-cgi.exe** on your server.
 
-Alternatively, you can edit the &lt;fastCGI&gt; section of the **ApplicationHost.config** file located at `C:\Windows\System32\inetsrv\config\` folder:
+Alternatively, you can edit the `<fastCgi>` section of the **ApplicationHost.config** file located at `C:\Windows\System32\inetsrv\config\` folder:
 
 [!code-xml[Main](use-the-windows-cache-extension-for-php/samples/sample6.xml)]
 

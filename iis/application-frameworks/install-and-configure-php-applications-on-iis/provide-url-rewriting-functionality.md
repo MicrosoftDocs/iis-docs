@@ -79,7 +79,7 @@ The following articles cover the functionality of the URL Rewrite Module, and ex
 
 There are a few known issues and changes to consider:
 
-- The mod\_rewrite rules that use **REQUEST\_URI** server variables may not work correctly when imported by using the URL rewrite "**Import Rules…**" feature. To fix the imported rules, use any text editor to open the web.config file that contains those rules. Locate the `&lt;rewrite&gt;` section, and then within that section replace all instances of string "**{SCRIPT\_NAME}**" with the string "**{URL}**".
+- The mod\_rewrite rules that use **REQUEST\_URI** server variables may not work correctly when imported by using the URL rewrite "**Import Rules…**" feature. To fix the imported rules, use any text editor to open the web.config file that contains those rules. Locate the `<rewrite>` section, and then within that section replace all instances of string "**{SCRIPT\_NAME}**" with the string "**{URL}**".
 - Digest authentication cannot be used with the URL Rewrite Module.
 - ASP.NET Forms Authentication uses rewritten URLs for redirection. For example, if the requested URL is "**/article.htm**" and the URL Rewrite Module rewrites the URL to "**/article.aspx**", which is protected by Forms Authentication, then ASP.NET redirects to "**/login.aspx?ReturnUrl=%2Farticle.aspx**".
 - The auto-detect mode in ASP.NET Forms Authentication uses rewritten URLs for redirection. For example, if the requested URL is "**/article.htm**" and the URL Rewrite Module rewrites the URL to "**/article.aspx**", which is protected by Forms Authentication, then ASP.NET redirects to "**/article.aspx?AspxAutoDetectCookieSupport=1**".

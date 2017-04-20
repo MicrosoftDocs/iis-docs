@@ -24,17 +24,6 @@ The system is based on XML files defined in a simple and clear format with a sim
 
 This new system also provides a delegated administration experience in which: administrators may allow site and application owners to modify specific settings; and, the impact of these changes is confined to the specific site or application in question. This model introduces the concept of *self-contained applications* where both content and configuration settings are housed in the site or application directory and can be x-copy deployed from one machine to another.
 
-This article contains:
-
-- [Configuration Files and Configuration Schema](understanding-iis-configuration-delegation.md#01)
-- [Configuration Hierarchy and Effective Configuration](understanding-iis-configuration-delegation.md#02)
-- [Configuration Sections](understanding-iis-configuration-delegation.md#03)
-- [A Special Section: &lt;configSections&gt;](understanding-iis-configuration-delegation.md#04)
-- [The Concept of Location](understanding-iis-configuration-delegation.md#05)
-- [Locking and Unlocking a Section](understanding-iis-configuration-delegation.md#06)
-- [Granular Locking](understanding-iis-configuration-delegation.md#07)
-- [Summary](understanding-iis-configuration-delegation.md#08)
-
 <a id="01"></a>
 
 ## Configuration Files and Configuration Schema
@@ -81,9 +70,9 @@ This configuration section has an associated schema. The following snippet shows
 
 ## A Special Section: &lt;configSections&gt;
 
-The &lt;configSections&gt; configuration section is a special section defined in applicationHost.config. It is used as a registry point for the configuration sections of the IIS server. This section is where the current configuration sections that are available in the system are registered. In the given case that the configuration system is extended and a custom section is added to the server, it must be registered by adding an element entry to this section.
+The `<configSections>` configuration section is a special section defined in applicationHost.config. It is used as a registry point for the configuration sections of the IIS server. This section is where the current configuration sections that are available in the system are registered. In the given case that the configuration system is extended and a custom section is added to the server, it must be registered by adding an element entry to this section.
 
-The following snippet shows the &lt;configSections&gt; entry for the &lt;defaultDocument&gt; section. Other entries have been omitted for the sake of clarity. The interesting part of the &lt;configSections&gt; is the section group entry that defines the namespace of each section--in this case *system.webServer* and the value of the overrideModeDefault attribute, which for this section is "Allow". Since allowDefinition is not declared, it is taken from schema and the default value is "Everywhere".
+The following snippet shows the `<configSections>` entry for the &lt;defaultDocument&gt; section. Other entries have been omitted for the sake of clarity. The interesting part of the `<configSections>` is the section group entry that defines the namespace of each section--in this case *system.webServer* and the value of the overrideModeDefault attribute, which for this section is "Allow". Since allowDefinition is not declared, it is taken from schema and the default value is "Everywhere".
 
 [!code-xml[Main](understanding-iis-configuration-delegation/samples/sample3.xml)]
 
@@ -111,17 +100,17 @@ An attribute that can be defined in a location tag is the *overrideMode*. Like o
 
 ## Locking and Unlocking a Section
 
-The initial concept of locking a section via the overrideModeDefault tag in the &lt;configSections&gt; section can be taken and extended to be more fine-grained. By allowing a section to be overridden at the &lt;configSections&gt; level, the section is opened up and its values can be overridden by anyone in the system via web.config files at any level of the URL namespace. However, this may pose a serious security risk and may cause negative effects to the availability or performance of the system. Via location tags, one can use the overrideMode attribute and specify the locking state of a section and constrain it for a given path.
+The initial concept of locking a section via the overrideModeDefault tag in the `<configSections>` section can be taken and extended to be more fine-grained. By allowing a section to be overridden at the `<configSections>` level, the section is opened up and its values can be overridden by anyone in the system via web.config files at any level of the URL namespace. However, this may pose a serious security risk and may cause negative effects to the availability or performance of the system. Via location tags, one can use the overrideMode attribute and specify the locking state of a section and constrain it for a given path.
 
-The following snippet shows how to unlock the &lt;windowsAuthentication&gt; section for all sites, applications and virtual directories in the system. This is done by setting "Allow" in the overrideModeDefault attribute. The disadvantage of this approach is that it unlocks a section for everyone and anyone is able to override the settings at their site or application level via web.config files.
+The following snippet shows how to unlock the `<windowsAuthentication>` section for all sites, applications and virtual directories in the system. This is done by setting "Allow" in the overrideModeDefault attribute. The disadvantage of this approach is that it unlocks a section for everyone and anyone is able to override the settings at their site or application level via web.config files.
 
 [!code-xml[Main](understanding-iis-configuration-delegation/samples/sample5.xml)]
 
-The following snippet shows how to achieve the same thing, unlocking the &lt;windowsAuthentication&gt; section, but only for the AdministratorSite so that properties for that section can be modified via web.config files at the site AdministratorSite level. The other sites in the system have the default behavior of a locked &lt;windowsAuthentication&gt; section. This is accomplished via the overrideMode attribute.
+The following snippet shows how to achieve the same thing, unlocking the `<windowsAuthentication>` section, but only for the AdministratorSite so that properties for that section can be modified via web.config files at the site AdministratorSite level. The other sites in the system have the default behavior of a locked `<windowsAuthentication>` section. This is accomplished via the overrideMode attribute.
 
 [!code-xml[Main](understanding-iis-configuration-delegation/samples/sample6.xml)]
 
-The opposite behavior can be achieved, which is locking a section for a specific site whereas the rest of the system is able to edit it. For example, &lt;defaultDocument&gt; is a section that has the overrideModeDefault attribute set to "Allow" in the &lt;configSections&gt; section, but via a location tag, we can lock this section for the Basic Site. The following snippets shows how to accomplish this while also setting so that the only value accepted by the system as the default page for the server to show as the home page is titled *basic.htm*. The clear directive nulls any inherited values from above levels in the configuration hierarchy, which in this case is the global listing of files from applicationHost.config.
+The opposite behavior can be achieved, which is locking a section for a specific site whereas the rest of the system is able to edit it. For example, &lt;defaultDocument&gt; is a section that has the overrideModeDefault attribute set to "Allow" in the `<configSections>` section, but via a location tag, we can lock this section for the Basic Site. The following snippets shows how to accomplish this while also setting so that the only value accepted by the system as the default page for the server to show as the home page is titled *basic.htm*. The clear directive nulls any inherited values from above levels in the configuration hierarchy, which in this case is the global listing of files from applicationHost.config.
 
 [!code-xml[Main](understanding-iis-configuration-delegation/samples/sample7.xml)]
 

@@ -22,13 +22,6 @@ This article provides an overview of the preparation activities needed when depl
 
 For detailed information on the preparation activities for Microsoft Deployment [download and install MD](https://www.microsoft.com/downloads/details.aspx?familyid=3bd8561f-77ac-4400-a0c1-fe871c461a89&amp;displaylang=en&amp;tm), within the Deployment Workbench documentation find the section, "Prepare the Deployment Environment," in the *Preparing for LTI Tools* document.
 
-This article contains:
-
-- [Preparing the Deployment Environment Using WDS](preparation-activities-for-wds.md#Prepare)
-- [Configure the Windows Deployment Services Server](preparation-activities-for-wds.md#ConfigureServer)
-- [Configure Required Permissions](preparation-activities-for-wds.md#ConfigurePermissions)
-- [Creating the Reference Machine Image](preparation-activities-for-wds.md#Creating)
-
 <a id="Prepare"></a>
 
 ## Prepare the Deployment Environment Using WDS

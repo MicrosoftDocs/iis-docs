@@ -42,11 +42,9 @@ WebPICMD.exe has three main modes of operation that you can use - you specify th
 
 The three modes are:
 
-/List: Used to display the list of products available, installed and return information about the various XML feeds
-
-/Install: Used to install products or applications to your machine
-
-/Offline [NEW!] Creates an offline cached copy of a specified set of products and applications so you can install while offline
+1. /List: Used to display the list of products available, installed and return information about the various XML feeds
+2. /Install: Used to install products or applications to your machine
+3. /Offline [NEW!] Creates an offline cached copy of a specified set of products and applications so you can install while offline
 
 Let's walk through each mode and describe the command line options in more detail and give a few examples to help you get started!
 
@@ -190,7 +188,7 @@ Here's the full set of offline mode parameters:
 
 Now let's see it in action:
 
-Ex: `&gt;WebPICMD.exe /Offline /Products:WebMatrix,SQLExpress /Path:c:\OfflineCache`
+Ex: `> WebPICMD.exe /Offline /Products:WebMatrix,SQLExpress /Path:c:\OfflineCache`
 
 
 The above will create an offline cache at `c:\offlineCache` that contains WebMatrix and all it's possible dependencies!
@@ -220,7 +218,7 @@ In the above example, we created our offline cache on a public server that we ca
 ##### Setting up the offline cache that includes your own products
 
 
-Ex: `&gt;WebPICMD.exe /Offline /Products:SQLExpress,MyCompanyProduct /Feeds:c:\myproductfeed.xml /Path:c:\MyOfflineCache`
+Ex: `> WebPICMD.exe /Offline /Products:SQLExpress,MyCompanyProduct /Feeds:c:\myproductfeed.xml /Path:c:\MyOfflineCache`
 
 
 Now I can add my own products to the cache for use offline

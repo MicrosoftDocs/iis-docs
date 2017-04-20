@@ -159,7 +159,7 @@ If you are uploading your assembly to a production server, be sure to change the
 
 If you are not using Visual Studio, compile the project with the C# command line compiler included in the Framework runtime. To compile your project, open a command line prompt (be sure to run the command line prompt with the "Run as Administrator" option if you are on Windows Vista or Windows Server 2008):
 
-`&gt; %windir%\Microsoft.NET\Framework\v2.0.50727\csc.exe /t:library /out:MyIIS7Project.dll /debug \*.cs /r:System.Web.dll`
+`> %windir%\Microsoft.NET\Framework\v2.0.50727\csc.exe /t:library /out:MyIIS7Project.dll /debug \*.cs /r:System.Web.dll`
 
 This produces the MyIIS7Project.DLL and MyIIS7Project.PDB files. If you want to build a release version of the assembly, omit the **/debug** switch, and include the **/o** switch to optimize the assembly.
 

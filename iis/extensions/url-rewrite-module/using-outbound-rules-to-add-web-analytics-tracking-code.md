@@ -118,7 +118,7 @@ Save the rule by clicking on "Apply" action on the right hand side.
 
 ### Viewing the rewrite rule in configuration file
 
-The rewrite rules are stored either in aplicationHost.config file or in web.config files. To check the configuration of the rule that we have just created, open a web.config file located in `%SystemDrive%\inetput\wwwroot\`. In this file you should see the `&lt;rewrite&gt;` section that contains all the rules definitions:
+The rewrite rules are stored either in aplicationHost.config file or in web.config files. To check the configuration of the rule that we have just created, open a web.config file located in `%SystemDrive%\inetput\wwwroot\`. In this file you should see the `<rewrite>` section that contains all the rules definitions:
 
 
 [!code-xml[Main](using-outbound-rules-to-add-web-analytics-tracking-code/samples/sample5.xml)]

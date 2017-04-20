@@ -29,12 +29,6 @@ by IIS Team, [Saad Ladki](https://twitter.com/saadladki)
 
 In previous versions of IIS, moving a Web site from one server to another meant that you had to explicitly configure IIS application settings in the machine-level metabase repository before the application could function properly. With IIS 7.0 and later, however, the process of deploying a Web site is now much easier.
 
-This article contains:
-
-- [Distributed Configuration](web-site-deployment-made-easy.md#Distributed)
-- [What's Where](web-site-deployment-made-easy.md#Whats)
-- [Benefits](web-site-deployment-made-easy.md#Benefits)
-
 <a id="Distributed"></a>
 
 ## Distributed Configuration
@@ -63,7 +57,7 @@ This is the main configuration file for IIS 7.0 and later. The ApplicationHost.c
 URL-specific configuration settings can either be stored directly within the code or in the content directories of a Web site using Web.config files. These are the same Web.config files that are used by the ASP.NET application framework to store application settings.
 
 > [!NOTE]
-> You can also store URL-specific configuration settings in the ApplicationHost.config file using `&lt;location&gt;` tags.
+> You can also store URL-specific configuration settings in the ApplicationHost.config file using `<location>` tags.
 
 ### Redirection.config
 

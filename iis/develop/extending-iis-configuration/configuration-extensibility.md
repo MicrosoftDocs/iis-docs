@@ -305,7 +305,7 @@ First, create a new schema file. Create a **siteExtension\_schema.xml** file in 
 [!code-xml[Main](configuration-extensibility/samples/sample35.xml)]
 
 
-When extending the schema of an existing section, simply create a `&lt;sectionSchema&gt;` element and set the **name** attribute to be the same as an existing section. In the schema file above, we have defined a &lt;sectionSchema&gt; with a name of "system.applicationHost/sites" - this is the same as the sectionSchema name in the IIS\_Schema.xml file in the Schema directory.
+When extending the schema of an existing section, simply create a `<sectionSchema>` element and set the **name** attribute to be the same as an existing section. In the schema file above, we have defined a &lt;sectionSchema&gt; with a name of "system.applicationHost/sites" - this is the same as the sectionSchema name in the IIS\_Schema.xml file in the Schema directory.
 
 Test our modifications by adding values for the "owner" and "ownerEmail" attributes and then check the configuration file to see the changes. Simply run the following command from the command line:
 

@@ -40,13 +40,6 @@ Therefore, we explore the other option:
 
 - Write PowerShell cmdlets in C# and access the required functionality in C# code. In this case, we choose any suitable APIs to configured entities. We use WMI to access the server. Compared to the same code in PowerShell, C# is much more effective, as it does not need to be parsed and interpreted each time.
 
-This article contains:
-
-- [PowerShell Cmdlet](writing-powershell-commandlets-for-iis.md#01)
-- [Adding Configuration Data to the Site](writing-powershell-commandlets-for-iis.md#02)
-- [How to Call One cmdlet From Another cmdlet](writing-powershell-commandlets-for-iis.md#03)
-- [Extending Cmdlets to work with a Server Farm](writing-powershell-commandlets-for-iis.md#04)
-
 <a id="01"></a>
 
 ## PowerShell Cmdlet

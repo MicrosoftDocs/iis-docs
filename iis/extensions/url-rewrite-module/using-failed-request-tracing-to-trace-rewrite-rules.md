@@ -39,7 +39,7 @@ After copying this file, browse to `http://localhost/article.aspx` and check tha
 
 ## Configuring rewrite rules
 
-Locate a web.config file in `%SystemDrive%\inetpub\wwwroot\` folder or create one if it does not exist. Open web.config file and add the following section inside of the &lt;system.webServer&gt; element:
+Locate a web.config file in `%SystemDrive%\inetpub\wwwroot\` folder or create one if it does not exist. Open web.config file and add the following section inside of the `<system.webServer>` element:
 
 
 [!code-xml[Main](using-failed-request-tracing-to-trace-rewrite-rules/samples/sample2.xml)]

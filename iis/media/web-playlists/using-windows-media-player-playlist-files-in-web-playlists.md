@@ -124,8 +124,8 @@ The following sections provide details on both approaches:
     [![](using-windows-media-player-playlist-files-in-web-playlists/_static/image26.jpg)](using-windows-media-player-playlist-files-in-web-playlists/_static/image25.jpg)
 3. In a text editor, such as Notepad, change the relative URI for each media entry in the ISX to a physical path. For example:  
   
- Change: `&lt;ref src="..\track1.wma"&gt;`  
- To: `&lt;ref src="C:\Users\Administrator\Music\track1.wma"&gt;`
+ Change: `<ref src="..\track1.wma">`  
+ To: `<ref src="C:\Users\Administrator\Music\track1.wma">`
   
     **Tip** You can use the **Replace** feature in Notepad to make this change to all media entries at once.
 4. In the text editor, change the **srcType** for each media entry in the ISX to a physical path. For example:  

@@ -323,7 +323,7 @@ Now compile the project using Build Solution under Build menu. This automaticall
 
 ## Creating the Module Provider
 
-The IIS user interface is as customizable and modular as the IIS core server and the IIS configuration system. The IIS user interface is a set of feature modules that can be removed or replaced. The entry point for each UI module is a module provider. A list of all module providers can be found in `%windir%\system32\inetsrv\Administration.config` in the `&lt;modules&gt;` section.
+The IIS user interface is as customizable and modular as the IIS core server and the IIS configuration system. The IIS user interface is a set of feature modules that can be removed or replaced. The entry point for each UI module is a module provider. A list of all module providers can be found in `%windir%\system32\inetsrv\Administration.config` in the `<modules>` section.
 
 As a first step, create the imageCopyrightUI module provider.
 
@@ -412,7 +412,7 @@ The UI Module is built, but we still must tell the IIS Management Console to loa
 
 [!code-console[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample27.cmd)]
 
-3. Open `%windir%\system32\inetsrv\config\administration.config` and add the following right after the `&lt;moduleProviders&gt;` entry:
+3. Open `%windir%\system32\inetsrv\config\administration.config` and add the following right after the `<moduleProviders>` entry:
 
 [!code-xml[Main](an-end-to-end-extensibility-example-for-iis-developers/samples/sample28.xml)]
 

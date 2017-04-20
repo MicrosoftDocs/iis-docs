@@ -59,7 +59,7 @@ The CustomModuleProvider must be registered in the administration.config under `
 [!code-xml[Main](how-to-get-started-extending-module-properties-for-iis-in-iis-manager/samples/sample4.xml)]
 
 > [!NOTE]
-> If you only include the entry in the &lt;moduleProviders&gt; list, the UI feature appears only at the server level. Since we specified that the feature will appear at the Site and Application level as well, we must add the entry to the &lt;modules&gt; list. This indicates to InetMgr that this feature is valid for the site and application levels as well. (This gives users the flexibility to change where the feature is displayed without changing any code.)
+> If you only include the entry in the &lt;moduleProviders&gt; list, the UI feature appears only at the server level. Since we specified that the feature will appear at the Site and Application level as well, we must add the entry to the `<modules>` list. This indicates to InetMgr that this feature is valid for the site and application levels as well. (This gives users the flexibility to change where the feature is displayed without changing any code.)
 
 The CustomModuleService derives from the ModuleService base class and performs the actual server administration. In this case, it has methods to read the configuration section and its properties, and to update the section with the new properties set by the user.
 

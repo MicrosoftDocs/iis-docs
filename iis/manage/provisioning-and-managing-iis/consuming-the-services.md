@@ -20,13 +20,6 @@ by [Walter Oliver](https://github.com/walterov)
 
 Since Hosting Services Code Sample is implemented using Windows Communication Foundation, consuming it is fairly straightforward. Here, a few key points are described. Refer to WCF documentations for details regarding how to consume WCF services.
 
-This article contains:
-
-- [Client Configuration](consuming-the-services.md#Client)
-- [Client Web.Config](consuming-the-services.md#ClientWeb)
-- [Implementing the Proxy](consuming-the-services.md#Proxy)
-- [Common Scenarios](consuming-the-services.md#Common)
-
 <a id="Client"></a>
 
 ## Client Configuration

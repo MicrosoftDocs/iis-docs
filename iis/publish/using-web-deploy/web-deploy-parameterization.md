@@ -130,7 +130,7 @@ The CreateDBAndUser.sql script is a fairly simple script that can be [copied fro
 
 The VacPicDBSchema.sql is the script that creates all the tables in the database that the application uses. This file can created using the Web Deploy command line tool. From the command line, navigate to where Web Deploy is installed (typically %programfiles%\IIS\Microsoft Web Deploy &lt;LatestVersion&gt;) and enter the following command:
 
-`msdeploy -verb:sync -source:dbfullsql="data source=.\SQLExpress;initial catalog=PhotoGallery;user id=sa;password=&lt;AdminPassword&gt;" -dest:dbfullsql="c:\VacPicDBSchema.sql"`
+`msdeploy -verb:sync -source:dbfullsql="data source=.\SQLExpress;initial catalog=PhotoGallery;user id=sa;password=<AdminPassword>" -dest:dbfullsql="c:\VacPicDBSchema.sql"`
 
 Make sure to replace &lt;AdminPassword&gt; with the appropriate SQL administrator password.
 

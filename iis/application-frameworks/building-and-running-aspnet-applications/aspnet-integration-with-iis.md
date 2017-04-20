@@ -92,11 +92,11 @@ The following configuration causes the migration error:
 1. **The application Web.config file defines &lt;httpModules&gt; configuration.**  
  The application loads new ASP.NET modules or removes existing ones.   
  In Integrated mode, ASP.NET modules are specified with native modules in the unified &lt;system.webServer&gt;/&lt;modules&gt; configuration section.  
- The ASP.NET modules that are specified in the &lt;system.web&gt;/&lt;httpModules&gt; configuration section must be moved to the new configuration section to take effect. Subsequently, new ASP.NET modules must be added directly to the unified &lt;modules&gt; section.
-2. **The application Web.config file defines &lt;httpHandlers&gt; configuration.**  
+ The ASP.NET modules that are specified in the &lt;system.web&gt;/&lt;httpModules&gt; configuration section must be moved to the new configuration section to take effect. Subsequently, new ASP.NET modules must be added directly to the unified `<modules>` section.
+2. **The application Web.config file defines `<httpHandlers>` configuration.**  
  The application uses custom handler mappings for some content types.   
- In Integrated mode, ASP.NET handler mappings must be specified in the unified &lt;system.webServer&gt;/&lt;handlers&gt; configuration section to take effect. Subsequently, new ASP.NET handler mappings must be added directly to the unified &lt;handlers&gt; section.  
- This section replaces both the ASP.NET &lt;httpHandlers&gt; configuration and the IIS scriptmaps configuration, both of which previously had to be configured to set up an ASP.NET handler mapping.
+ In Integrated mode, ASP.NET handler mappings must be specified in the unified &lt;system.webServer&gt;/&lt;handlers&gt; configuration section to take effect. Subsequently, new ASP.NET handler mappings must be added directly to the unified `<handlers>` section.  
+ This section replaces both the ASP.NET `<httpHandlers>` configuration and the IIS scriptmaps configuration, both of which previously had to be configured to set up an ASP.NET handler mapping.
 3. **The application Web.config file defines &lt;identity impersonate="true" /&gt; configuration.**  
  The application impersonates client credentials, which is most common with intranet applications. In Integrated mode, client impersonation is not available in some early request-processing stages. In the majority of cases, this is not a problem and you can turn off the migration error. Otherwise, you must configure this application to run by using the Classic ASP.NET mode.
 
@@ -186,7 +186,7 @@ Because application pools are the .NET Framework versioning boundary, you can ch
  By default, all new application pools are configured to run ASP.NET v2.1 in Integrated mode.
 
 > [!NOTE]
->> Do not use aspnet\_regiis /i or /r options to configure the version of ASP.NET for a particular application, or globally.
+> Do not use aspnet\_regiis /i or /r options to configure the version of ASP.NET for a particular application, or globally.
 
 IIS uses pre-conditioned handler mappings to automatically select the correct set of handler mappings (to ASPNET\_isapi.dll in Classic mode or directly to managed handler types in Integrated mode) depending on the configured CLR version and managed integration mode of the application pool. The ASP.NET 2.0 setup installs these handler mappings at the server level.
 
@@ -216,7 +216,7 @@ To enable ASP.NET Forms authentication for the entire application, modify your W
 
 With this change, the FormsAuthentication module executes for all requests in your application. This lets you protect all of the application content with Forms authentication. For more information about how to leverage the Integrated mode to provide Forms authentication for all application content, see [Taking Advantage of Integrated Pipeline Mode walkthrough](how-to-take-advantage-of-the-iis-integrated-pipeline.md).
 
-You can also use a shortcut to enable all managed (ASP.NET) modules to run for all requests in your application, regardless of the "managedHandler" precondition. To enable all managed modules to run for all requests without configuring each module entry to remove the "managedHandler" precondition, use the **runAllManagedModulesForAllRequests** property in the &lt;modules&gt; section:
+You can also use a shortcut to enable all managed (ASP.NET) modules to run for all requests in your application, regardless of the "managedHandler" precondition. To enable all managed modules to run for all requests without configuring each module entry to remove the "managedHandler" precondition, use the **runAllManagedModulesForAllRequests** property in the `<modules>` section:
 
 
 [!code-xml[Main](aspnet-integration-with-iis/samples/sample5.xml)]

@@ -70,7 +70,7 @@ You can also do by running the following command line:
 
 ### Step 4: Add IgnoreSection Handler to v1.1 machine.config
 
-ASP.NET v1.1 will throw runtime exceptions out of the box if you have IIS configuration in the web.config files that are read by your ASP.NET v1.1 applications. To make ASP.NET v1.1 ignore IIS configuration sections, open the Framework v1.1 machine.config file `%windir%\Microsoft.NET\Framework\v1.1.4322\config\machine.config` and add the following section entry just above the bottom tag for the &lt;configSections&gt; element:
+ASP.NET v1.1 will throw runtime exceptions out of the box if you have IIS configuration in the web.config files that are read by your ASP.NET v1.1 applications. To make ASP.NET v1.1 ignore IIS configuration sections, open the Framework v1.1 machine.config file `%windir%\Microsoft.NET\Framework\v1.1.4322\config\machine.config` and add the following section entry just above the bottom tag for the `<configSections>` element:
 
 
 [!code-xml[Main](how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008/samples/sample2.xml)]

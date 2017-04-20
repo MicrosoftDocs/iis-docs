@@ -173,7 +173,7 @@ The module is updated to include trace events. Configure System.Diagnostics and 
     - Defining the trace source, attaching the switch we defined as well as defining the trace listener for our source.
 3. IIS ships a new System.Diagnostics.TraceListener used to route TraceSource events into IIS's Trace infrastructure. This provider must also be defined in your web.config file.
 4. Define the **traceSource** by its name (***tsStatus***) and wire it up to the *DefaultSwitch* &amp; *IisTraceListener*.
-5. Copy and paste this &lt;system.Diagnostics&gt; section into your web.config file (after your &lt;system.webServer&gt; section).  
+5. Copy and paste this &lt;system.Diagnostics&gt; section into your web.config file (after your `<system.webServer>` section).  
 
     [!code-html[Main](how-to-add-tracing-to-iis-managed-modules/samples/sample11.html)]
 

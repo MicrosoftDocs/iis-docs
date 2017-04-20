@@ -130,7 +130,7 @@ Under **Verbosity**, select **Verbose**.
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image22.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image21.jpg)
 11. Click **Finish**. You should see the following definition for the **Default Web Site**:
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image24.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image23.jpg)
-IIS Manager writes the configuration to the `%windir%\system32\inetsrv\config\applicationHost.config` file by using a &lt;location&gt; tag. The configuration should look as follows:
+IIS Manager writes the configuration to the `%windir%\system32\inetsrv\config\applicationHost.config` file by using a `<location>` tag. The configuration should look as follows:
 
 [!code-xml[Main](troubleshooting-failed-requests-using-tracing-in-iis/samples/sample4.xml)]
 

@@ -20,18 +20,6 @@ by [Tobin Titus](https://github.com/tobint)
 
 The configuration system in IIS 7 and above is significantly different than in previous versions of IIS, and builds on top of some (but not all) of the concepts of the .NET framework configuration system. Its scope spans across the entire web server platform (IIS, ASP.NET) and serves as the core of the IIS administration "stack". This document walks through the design and architecture of the configuration system, and introduces the programmable interface to the system at the lowest-level, native-code, entry point.
 
-This article contains:
-
-- [Configuration Levels](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#ConfigLevels)
-- [Organization of Settings](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#Organization)
-- [Organization &lt;==&gt; XML Mapping](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#OrganizationMap)
-- [Schema](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#Schema)
-- [Organization of Schema Declarations](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#OrgSchema)
-- [Additional Schema Information in &lt;ConfigSections&gt;](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#AddSchema)
-- [Locking](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#Locking)
-- [Unlocking](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#Unlocking)
-- [Summary](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#Summary)
-
 There are very few "moving parts" at runtime that implement the configuration system. The configuration system is implemented as a library that runs in-proc in the client application, and interacts with a persistent store on-disk. The store is simply a file, or a set of files, on the file system. The format of the files is XML. Users can edit the files manually at any time, if they choose to, and changes are automatically picked up by the system. There are no proprietary models for doing standard operations like protecting the settings, backing them up, moving them around, or even extending the system with new settings. The system relies heavily on the file system, to simplify tasks such as deploying configuration for web applications and services.
 
 > [!NOTE]
@@ -177,7 +165,7 @@ Example:
 
 ## Additional Schema Information in &lt;ConfigSections&gt;
 
-Not all the required schema information is in the schema XML files. Some of it is in a special section called &lt;ConfigSections&gt;, which resides in the configuration files themselves. This is consistent with the .NET framework configuration system. By default, &lt;ConfigSections&gt; exists in machine.config and applicationHost.config; but customers may add it to any web.config file, to define their custom sections. These sections will be defined for that level in the namespace and downward.
+Not all the required schema information is in the schema XML files. Some of it is in a special section called &lt;ConfigSections&gt;, which resides in the configuration files themselves. This is consistent with the .NET framework configuration system. By default, `<configSections>` exists in machine.config and applicationHost.config; but customers may add it to any web.config file, to define their custom sections. These sections will be defined for that level in the namespace and downward.
 
 > [!NOTE]
 > Customers and third parties should not attempt to change schema information for the built-in sections, either in the inetsrv\config\schema\ folder or in in machine.config and applicationHost.config. This may yield to undesirable behavior for these sections.

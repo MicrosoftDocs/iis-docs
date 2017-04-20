@@ -18,13 +18,13 @@ by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Abstract
 
-This document explains how to lock and unlock configuration on the server. You will learn what settings the application-level configuration files can override and how to use the `&lt;location&gt;` element to lock entire sections.
+This document explains how to lock and unlock configuration on the server. You will learn what settings the application-level configuration files can override and how to use the `<location>` element to lock entire sections.
 
 You will experiment with more granular locking of configuration settings, within sections, such as:
 
 - Locking specific elements and attributes
 - Locking everything *except* specific elements or attributes
-- Locking specific collection directives such as the `&lt;add&gt;`, `&lt;remove&gt;`, and `&lt;clear&gt;` directives
+- Locking specific collection directives such as the `<add>`, `<remove>`, and `<clear>` directives
 - Locking specific elements in collections
 
 After reading this document, you will know how to manage different features of configuration locking by directly editing XML elements in configuration files (the programmatic interface to perform these tasks follows the XML structure very closely).
@@ -39,9 +39,9 @@ IIS 7.0 and above allows locking and unlocking configuration settings in various
 
 <a id="Task1"></a>
 
-## Task 1: Locking a Section Using a &lt;location&gt; Tag
+## Task 1: Locking a Section Using a `<location>` Tag
 
-In this task, you learn how to use the `&lt;location&gt;` tag to lock (or unlock) entire configuration sections at the global level so that they cannot be overridden at application levels of the configuration hierarchy.
+In this task, you learn how to use the `<location>` tag to lock (or unlock) entire configuration sections at the global level so that they cannot be overridden at application levels of the configuration hierarchy.
 
 > [!NOTE]
 > By default, most IIS sections in applicationHost.config are locked down, and none of the .NET framework are locked (including the ASP.NET sections in the &lt;system.web&gt; section group in machine.config and root web.config).
@@ -50,15 +50,15 @@ Using a text editor such as Notepad, open the applicationHost.config file in the
 
 [!code-console[Main](how-to-use-locking-in-iis-configuration/samples/sample1.cmd)]
 
-Review the &lt;configSections&gt; section at the very top of the file &acirc;&euro;&ldquo; it has metadata about the configuration sections in this file, like names for sections, containing section groups, and whether or not they are locked.
+Review the `<configSections>` section at the very top of the file &acirc;&euro;&ldquo; it has metadata about the configuration sections in this file, like names for sections, containing section groups, and whether or not they are locked.
 
 Locked sections are specified by the "overrideModeDefault" attribute, which is either "Allow" or "Deny". Very few sections are not locked by default, as specified by this line for example:
 
 [!code-xml[Main](how-to-use-locking-in-iis-configuration/samples/sample2.xml)]
 
-Here, we deal with the `&lt;windowsAuthentication&gt;` section. It is locked by default.
+Here, we deal with the `<windowsAuthentication>` section. It is locked by default.
 
-To unlock the entire section for all applications on the server, move its content from its current location in the file to the bottom of the file and put it inside a `&lt;location overrideMode="Allow"&gt;` element. Remember also to have the section groups surrounding it: &lt;system.webServer&gt;, then &lt;security&gt; and then &lt;authentication&gt;. The end result should look like this:
+To unlock the entire section for all applications on the server, move its content from its current location in the file to the bottom of the file and put it inside a `<location overrideMode="Allow">` element. Remember also to have the section groups surrounding it: &lt;system.webServer&gt;, then &lt;security&gt; and then &lt;authentication&gt;. The end result should look like this:
 
 [!code-xml[Main](how-to-use-locking-in-iis-configuration/samples/sample3.xml)]
 
@@ -70,11 +70,11 @@ In this example, you must leave the contents of the section in their original pl
 
 [!code-xml[Main](how-to-use-locking-in-iis-configuration/samples/sample4.xml)]
 
-Returning to the third example above, the section is unlocked for all applications in all sites (location path="."). Check that the primary &lt;authentication&gt; section group (the one outside of the &lt;location&gt; element, above in the file) does not contain a &lt;windowsAuthenitcation&gt; section. A section cannot appear in the same file both outside a location tag and inside a &lt;location path="."&gt; tag; this is considered invalid configuration.
+Returning to the third example above, the section is unlocked for all applications in all sites (location path="."). Check that the primary &lt;authentication&gt; section group (the one outside of the `<location>` element, above in the file) does not contain a &lt;windowsAuthenitcation&gt; section. A section cannot appear in the same file both outside a location tag and inside a &lt;location path="."&gt; tag; this is considered invalid configuration.
 
 To test whether or not a section is locked, go to [http://localhost/app](http://localhost/app) in the browser.
 
-If the section is locked, the browser displays an error because the web.config file at the application level has the &lt;windowsAuthentication&gt; section in it. This means the web.config tries to override &lt;windowsAuthentication&gt; for its level. However, because that section is now locked at the global level, the configuration in the web.config file is not valid.
+If the section is locked, the browser displays an error because the web.config file at the application level has the `<windowsAuthentication>` section in it. This means the web.config tries to override `<windowsAuthentication>` for its level. However, because that section is now locked at the global level, the configuration in the web.config file is not valid.
 
 Change the location tag to have overrideMode="Deny". This locks down the section again. Experiment with other sections, such as the ASP.NET sections in machine.config or root web.config. Try to lock them down at the global level, and override them at the web.config level.
 
@@ -82,11 +82,11 @@ Change the location tag to have overrideMode="Deny". This locks down the section
 
 ## Task 2: Locking Specific Elements and Attributes
 
-Building on the previous task, locate the &lt;windowsAuthentication&gt; section inside the &lt;location&gt; tag. Set the location tag to unlock the section: overrideMode="Allow". We only will not lock specific parts of the section.
+Building on the previous task, locate the `<windowsAuthentication>` section inside the `<location>` tag. Set the location tag to unlock the section: overrideMode="Allow". We only will not lock specific parts of the section.
 
 Set the **enabled** attribute to true, then lock it by setting lockAttributes="enabled".
 
-This prevents an application-level configuration file from changing the value of the `&lt;windowsAuthentication&gt;` section's **enabled** attribute.
+This prevents an application-level configuration file from changing the value of the `<windowsAuthentication>` section's **enabled** attribute.
 
 If you want to lock other attributes, add them to the **lockAtrtibutes** value separated by commas, as in the following example:
 
@@ -100,7 +100,7 @@ The section should now look like the following:
 
 [!code-xml[Main](how-to-use-locking-in-iis-configuration/samples/sample7.xml)]
 
-In the web.config file for your application, try to override settings in the `&lt;windowsAuthentication&gt;` section.
+In the web.config file for your application, try to override settings in the `<windowsAuthentication>` section.
 
 In the browser, request the page to verify that you can override all settings except the ones you locked&acirc;&euro;&rdquo;in this case: the **enabled** attribute.
 
@@ -109,7 +109,7 @@ In the browser, request the page to verify that you can override all settings ex
 
 Remove the **lockAttributes** attribute.
 
-Set lockElements="providers" to lock the `&lt;providers&gt;` element within the section.
+Set lockElements="providers" to lock the `<providers>` element within the section.
 
 If you have other elements to lock, you can add them separated by commas, like this:
 
@@ -119,7 +119,7 @@ The section should now look like the following:
 
 [!code-xml[Main](how-to-use-locking-in-iis-configuration/samples/sample9.xml)]
 
-In the application Web.config file, override the `&lt;providers&gt;` element by setting it or by trying to add to, remove from, or clear the collection.
+In the application Web.config file, override the `<providers>` element by setting it or by trying to add to, remove from, or clear the collection.
 
 In the browser, request the page and note that an error displays. In the web.config file, override other elements or attributes such as the **enabled** attribute. Browse to the page and note that no error is displayed.
 
@@ -131,7 +131,7 @@ Remove the **lockElements** attribute.
 
 In this task, you learn how to lock all elements or attributes in a section except specific ones that you define. This is useful in cases in which you are not sure what properties the section has or will have in the future, and you want to lock everything except the properties you explicitly set to be unlocked.
 
-Building on the previous task, locate the &lt;windowsAuthentication&gt; section in the location tag.
+Building on the previous task, locate the `<windowsAuthentication>` section in the location tag.
 
 Set the **lockAllElementsExcept** or **lockAllAttributesExcept** attributes to a comma-delimited list of elements or attributes to lock. For example, the section might look like the following:
 
@@ -147,17 +147,17 @@ In this specific section, there are currently no other attributes or elements. I
 
 ## Task 4: Locking Some Collection Directives
 
-In this task, you learn how to lock the `&lt;add&gt;` and `&lt;remove&gt;` directives on a collection, so that at the application level, configuration file elements can be added but not removed.
+In this task, you learn how to lock the `<add>` and `<remove>` directives on a collection, so that at the application level, configuration file elements can be added but not removed.
 
-Building on the previous task, locate the `&lt;windowsAuthentication&gt;` section in the location tag.
+Building on the previous task, locate the `<windowsAuthentication>` section in the location tag.
 
-Set the **lockElements** attribute in the `&lt;providers&gt;` collection to **remove,clear**.
+Set the **lockElements** attribute in the `<providers>` collection to **remove,clear**.
 
 When you are finished, the section looks like the following:
 
 [!code-xml[Main](how-to-use-locking-in-iis-configuration/samples/sample12.xml)]
 
-In the application's web.config file, create a `&lt;remove&gt;` element that removes the NTLM element from the collection.
+In the application's web.config file, create a `<remove>` element that removes the NTLM element from the collection.
 
 When finished, the web.config file looks like the following:
 
@@ -171,15 +171,15 @@ In the browser, request [http://localhost/app](http://localhost/app).
 
 In this task, you learn how to lock specific collection elements. Developers can still add elements to the collection at lower (application) levels of the hierarchy, and they can still remove non-locked elements from the collection. However, they cannot remove the elements you specifically locked. The collection cannot be cleared, because clearing means removing all elements from the collection.
 
-Building on previous tasks, locate the &lt;windowsAuthentication&gt; section in the location tag.
+Building on previous tasks, locate the `<windowsAuthentication>` section in the location tag.
 
-In the `&lt;providers&gt;` collection, in the `&lt;add&gt;` element for the NTLM provider, set the **lockItem** to "true."
+In the `<providers>` collection, in the `<add>` element for the NTLM provider, set the **lockItem** to "true."
 
 When you are finished, the section looks like the following:
 
 [!code-xml[Main](how-to-use-locking-in-iis-configuration/samples/sample14.xml)]
 
-In the application web.config file, create a `&lt;remove&gt;` element that removes the NTLM element from the collection.
+In the application web.config file, create a `<remove>` element that removes the NTLM element from the collection.
 
 When finished, the Web.config file looks like the following:
 
@@ -191,4 +191,4 @@ In the browser, request [http://localhost/app](http://localhost/app) -- the requ
 
 ## Summary
 
-In this document, you learned how to lock configuration settings. You can lock an entire section, either by using a `&lt;location&gt;` element or by setting a tag's **lockItem** attribute to true. Locking can be more flexible and granular if you use the **lockAttributes**, **lockElements**, **lockAllAttributesExcept**, **lockAllElementsExcept**, or **lockItem** settings on collection elements, and if you use the **lockElements** settings on collections to specify particular collection directives (`&lt;add&gt;`, `&lt;remove&gt;`, or `&lt;clear&gt;`). Locking can occur at any level of the hierarchy, not only in ApplicationHost.config. Locking takes effect from that level downwards.
+In this document, you learned how to lock configuration settings. You can lock an entire section, either by using a `<location>` element or by setting a tag's **lockItem** attribute to true. Locking can be more flexible and granular if you use the **lockAttributes**, **lockElements**, **lockAllAttributesExcept**, **lockAllElementsExcept**, or **lockItem** settings on collection elements, and if you use the **lockElements** settings on collections to specify particular collection directives (`<add>`, `<remove>`, or `<clear>`). Locking can occur at any level of the hierarchy, not only in ApplicationHost.config. Locking takes effect from that level downwards.

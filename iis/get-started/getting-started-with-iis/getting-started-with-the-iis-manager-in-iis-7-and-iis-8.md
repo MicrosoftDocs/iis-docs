@@ -44,23 +44,6 @@ IIS 7.0 and later have a new user interface from previous versions of IIS: the I
 > [!NOTE]
 > This document was written for Windows Server 2008. Windows Vista® may not have some of the functionality/features discussed in this document.
 
-This article contains:
-
-- [New Look and Feel](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#New)
-- [Home Page](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#Home)
-- [Feature Page Layouts](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#FeaturePage)
-- [Content View](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#Content)
-- [Feature Delegation](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#FeatureDel)
-- [Configuration Locking](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#Configuration)
-- [Site and Application Administrators](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#SiteAnd)
-- [Server, Site and Application Connections](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#ServerSite)
-- [Configuration](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#Configuration2)
-- [Status Bar](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#StatusBar)
-- [Example: Writing to ApplicationHost.config vs. root Web.config](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#ExampleWriting)
-- [Example: Writing to Locked vs. Unlocked Configuration](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#ExampleLocked)
-- [Web Management Service (WMSVC)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#WebManagement)
-- [Security](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#Security)
-
 <a id="New"></a>
 
 ## New Look and Feel
@@ -221,18 +204,18 @@ The status bar shows where IIS Manager will write configuration:
 
 Configuration: '**&lt;config\_file\_object\_path&gt;**' **&lt;config\_file\_name&gt;**, &lt;location path="**&lt;path&gt;**"&gt;
 
-The `&lt;config\_file\_object\_path&gt;` is the path to the configuration file object, for example:
+The `<config\_file\_object\_path>` is the path to the configuration file object, for example:
 
 - "localhost": server-level configuration; applicationHost.config for IIS features, root web.config for ASP.NET features.
 - "localhost/Default Web Site": the web.config file in the Default Web Site's physical folder
 - "localhost/Default Web Site/careers/technical": the web.config file in the physical folder that maps to the URL "/careers/technical" under the Default Web Site
 
-The `&lt;config\_file\_name&gt;` is the name of the target configuration file, for example:
+The `<config\_file\_name>` is the name of the target configuration file, for example:
 
 - "applicationHost.config or root Web.config": applicationHost.config for IIS features, root web.config for ASP.NET features
 - "web.config": a web.config file in the web namespace
 
-The `&lt;location\_path&gt;` is the location path to the object being configured (for more information on location paths, see [Configuration Overview](../planning-your-iis-architecture/getting-started-with-configuration-in-iis-7-and-above.md)). This portion of the text only appears if the feature's configuration section is locked at a higher level.
+The `<location\_path>` is the location path to the object being configured (for more information on location paths, see [Configuration Overview](../planning-your-iis-architecture/getting-started-with-configuration-in-iis-7-and-above.md)). This portion of the text only appears if the feature's configuration section is locked at a higher level.
 
 [![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image17.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image16.jpg)
 
@@ -300,7 +283,7 @@ After the connection is established, the end user interacts with IIS Manager cau
 Ping requests are made from within the WMSVC service to the web server (HWC) it hosts. Ping requests are a simple mechanism to ensure the hostable web core continues to be responsive.
 
 **Service Configuration**  
-WMSVC has very small set of editable configuration stored in the registry. Each time the service is started, the web configuration files are regenerated in `%windir%\ServiceProfiles\LocalService\AppData\Local\Temp\WMSvc&lt;GUID&gt;\`. The web configuration files cannot be edited, even by administrators.
+WMSVC has very small set of editable configuration stored in the registry. Each time the service is started, the web configuration files are regenerated in `%windir%\ServiceProfiles\LocalService\AppData\Local\Temp\WMSvc<GUID>\`. The web configuration files cannot be edited, even by administrators.
 
 [![](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image21.jpg)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8/_static/image20.jpg)
 
