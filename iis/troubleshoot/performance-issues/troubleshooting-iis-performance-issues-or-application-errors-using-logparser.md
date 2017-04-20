@@ -81,8 +81,6 @@ Note: The above example assumes that IIS logging is configured to rotate log fil
 
 
 > [!NOTE]
->  
-> 
 > [!code-sql[Main](troubleshooting-iis-performance-issues-or-application-errors-using-logparser/samples/sample1.sql?highlight=1)]
 
 

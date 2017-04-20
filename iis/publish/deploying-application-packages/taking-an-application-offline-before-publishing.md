@@ -22,7 +22,7 @@ In Web Deploy V3, we added support to automatically take an ASP.Net application 
 
 Web Deploy takes an application offline by using the "AppOffline" rule, which is off by default. If a client wishes to turn it on during a publish operation, it simply needs to enable the rule. Here is an example of how to do this from the command line (executable lives under `%programfiles%\IIS\Microsoft Web Deploy V3`):
 
-> [!code-console[Main](taking-an-application-offline-before-publishing/samples/sample1.cmd)]
+[!code-console[Main](taking-an-application-offline-before-publishing/samples/sample1.cmd)]
 
 
 ### 
@@ -31,4 +31,4 @@ Web Deploy takes an application offline by using the "AppOffline" rule, which is
 
 If an error occurred during publishing, the htm file will remain in the site root to keep it offline because it is now in an unknown state. After fixing your publishing issue, you will need to bring the application back online. To do this, you can either manually delete the App\_Offline.htm file from your application root on the server, or republish your site. Here is an example of how to delete the App\_Offline.htm file from the command line:
 
-> [!code-console[Main](taking-an-application-offline-before-publishing/samples/sample2.cmd)]
+[!code-console[Main](taking-an-application-offline-before-publishing/samples/sample2.cmd)]

@@ -121,7 +121,7 @@ Certain file extensions like ".config" and ".asax" are protected by the default 
 
 After completing the above steps the resulting code in the **fileExtensions** section of your applicationHost.config file should resemble the following example:
 
-> [!code-xml[Main](how-to-configure-webdav-with-request-filtering/samples/sample5.xml)]
+[!code-xml[Main](how-to-configure-webdav-with-request-filtering/samples/sample5.xml)]
 
 
 #### Notes:
@@ -153,7 +153,7 @@ Certain file segments like "web.config" and "App\_code" are hidden by the defaul
 
 After completing the above steps the resulting code in the **hiddenSegments** section of your applicationHost.config file should resemble the following example:
 
-> [!code-xml[Main](how-to-configure-webdav-with-request-filtering/samples/sample10.xml)]
+[!code-xml[Main](how-to-configure-webdav-with-request-filtering/samples/sample10.xml)]
 
 
 #### Notes:
@@ -182,7 +182,7 @@ The default request filtering **verbs** collection allows all unlisted HTTP verb
 
 After completing the above steps the resulting code in the **verbs** section of your applicationHost.config file should resemble the following example:
 
-> [!code-xml[Main](how-to-configure-webdav-with-request-filtering/samples/sample15.xml)]
+[!code-xml[Main](how-to-configure-webdav-with-request-filtering/samples/sample15.xml)]
 
 
 #### Notes:
