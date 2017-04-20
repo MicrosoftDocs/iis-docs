@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Media Platform: Encoding and Serving Choices and Migration Considerations | Microsoft Docs"
+title: "Microsoft Media Platform: Guidance on Choosing and Migrating | Microsoft Docs"
 author: rick-anderson
 description: "This article offers guidance for choosing among the Microsoft Media Platform Technologies that deliver video content. It includes general guidance for migrat..."
 ms.author: iiscontent
@@ -12,7 +12,7 @@ ms.prod: iis
 msc.legacyurl: /learn/media/windows-media-services/microsoft-media-platform-encoding-and-serving-choices-and-migration-considerations
 msc.type: authoredcontent
 ---
-Microsoft Media Platform: Encoding and Serving Choices and Migration Considerations
+Microsoft Media Platform: Guidance on Choosing and Migrating
 ====================
 by Tim Ammann
 
