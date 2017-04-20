@@ -22,10 +22,10 @@ There are cases when a hoster may need to delegate to its customers specific set
 
 ### To Delegate the errorMode setting:
 
-1. Allow the delegation of the &lt;httpErrors&gt; section in applicationhost.config via overrideModeDefault by opening `%windir%\system32\inetsrv\config\applicationhost.config` with a text editor and changing the &lt;section name="httpErrors" overrideModeDefault="Deny" /&gt; element as follows:  
+1. Allow the delegation of the `<httpErrors>` section in applicationhost.config via overrideModeDefault by opening `%windir%\system32\inetsrv\config\applicationhost.config` with a text editor and changing the &lt;section name="httpErrors" overrideModeDefault="Deny" /&gt; element as follows:  
 
     [!code-xml[Main](delegating-errormode-in-httperrors/samples/sample1.xml)]
-2. Use lockAllAttributesExcept and lockElements to only allow the delegation of the errorMode setting, locate the &lt;httpErrors&gt; element and change as follows:  
+2. Use lockAllAttributesExcept and lockElements to only allow the delegation of the errorMode setting, locate the `<httpErrors>` element and change as follows:  
 
     [!code-xml[Main](delegating-errormode-in-httperrors/samples/sample2.xml)]
   

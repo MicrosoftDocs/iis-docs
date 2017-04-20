@@ -231,7 +231,7 @@ and website2 can have the PHP handler mapping as follows:
 
 When PHP process starts it determines the location of configuration php.ini file by using various settings. [The PHP documentation](http://www.php.net/manual/en/configuration.php) provides detailed description of the PHP start up process. Note that one of the places where PHP process searches for php.ini location is the PHPRC environment variable. If PHP process finds a php.ini file in the path specified in this environment variable then it will use it, otherwise it will revert to default location of php.ini. This environment variable can be used to allow hosting customers to use their own versions of php.ini files.
 
-For example if there are two websites: website1 and website2; located at the following file paths: `C:\WebSites\website1` and `C:\WebSites\website2` then the php-cgi.exe process pools in &lt;fastCgi&gt; section of applicationHost.config can be configured as below:
+For example if there are two websites: website1 and website2; located at the following file paths: `C:\WebSites\website1` and `C:\WebSites\website2` then the php-cgi.exe process pools in `<fastCgi>` section of applicationHost.config can be configured as below:
 
 
 [!code-xml[Main](fastcgi-with-php/samples/sample11.xml)]
