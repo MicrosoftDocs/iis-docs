@@ -38,13 +38,6 @@ Starting WMSVC is the last step because WMSVC cannot be configured while running
 > [!NOTE]
 > This document only describes how to enable remoting. For an overview of how IIS Manager remoting works, please see the [Getting Started with IIS Manager](../../get-started/getting-started-with-iis/getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md).
 
-This article contains:
-
-- [Enable Remote Connections](remote-administration-for-iis-manager.md#01)
-- [Configure WMSVC Settings](remote-administration-for-iis-manager.md#02)
-- [Start WMSVC](remote-administration-for-iis-manager.md#03)
-- [Related Links](remote-administration-for-iis-manager.md#04)
-
 ### Install Web Management Service (WMSVC)
 
 Click **Server Manager** in the Start menu, select the **Roles** node in the left-hand tree view, and scan down to find the **Web Server (IIS)** role. Click **Add Role Services** and select the **Management Service** component.

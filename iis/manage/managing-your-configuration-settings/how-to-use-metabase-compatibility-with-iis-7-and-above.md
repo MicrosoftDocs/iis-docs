@@ -20,13 +20,6 @@ by [Tobin Titus](https://github.com/tobint)
 
 IIS 7 and and IIS 8 allow legacy configuration scripts and applications to continue running. There is an optional setup component that enables the Metabase system with its programmatic interfaces: Admin Base Objects (ABO), and ADSI and WMI providers on top of it. The system intercepts calls to ABO and maps them to the new configuration system. The data is persisted in applicationHost.config but the ABO caller is presented with a legacy view of the configuration structure.
 
-This article contains:
-
-- Prerequisites
-- [Writing a Global Settings Using ABO](how-to-use-metabase-compatibility-with-iis-7-and-above.md#Writing)
-- [Writing a Virtual Directory Setting Using ABO](how-to-use-metabase-compatibility-with-iis-7-and-above.md#WritingVDir)
-- [Summary](how-to-use-metabase-compatibility-with-iis-7-and-above.md#Summary)
-
 ## Prerequisites
 
 1. Make sure IIS is installed on the machine by selecting http://LocalHost from IE and see that you get the default "Under Construction" page. If IIS is not installed, refer to the Setup How-To for installation instructions.

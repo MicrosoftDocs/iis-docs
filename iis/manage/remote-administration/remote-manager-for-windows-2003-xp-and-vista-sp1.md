@@ -24,15 +24,10 @@ These requirements must be met in order to continue with the procedures in this 
 - You must have the Microsoft .NET Framework® version 2.0 or greater installed.
 - You must have the Internet Information Services 7.0 or above Management Console® installed (click [here](https://blogs.iis.net/bdela/#InstallingMgtConsole) to see how to install).
 
-<a id="VistaInstall"></a>> [!NOTE]
->> If at any stage during the install process you receive a User Access Control dialog, you can continue the installation by clicking **Continue** or **Allow**.
+<a id="VistaInstall"></a>
 
-This article contains:
-
-- [Installing on Windows Vista](remote-manager-for-windows-2003-xp-and-vista-sp1.md#01)
-- [Installing the Management Console on Windows Vista (a prerequisite for installing Remote Manager on Vista)](remote-manager-for-windows-2003-xp-and-vista-sp1.md#02)
-- [Installing on Windows XP and Windows Server 2003](remote-manager-for-windows-2003-xp-and-vista-sp1.md#03)
-- [Using Remote Manager on Windows XP and Windows Server 2003](remote-manager-for-windows-2003-xp-and-vista-sp1.md#04)
+> [!NOTE]
+> If at any stage during the install process you receive a User Access Control dialog, you can continue the installation by clicking **Continue** or **Allow**.
 
 <a id="01"></a>
 
@@ -40,8 +35,8 @@ This article contains:
 
 1. Ensure that you meet the installation requirements for Windows Vista®. Note that you must install the IIS Management Console (see how by clicking [here](https://blogs.iis.net/bdela/#InstallingMgtConsole)).
 2. Download the Remote Manager installer from:   
- 32 bit (x86) -     [https://www.iis.net/go/1626](https://www.iis.net/downloads/microsoft/iis-manager)  
- 64 bit (x64) -     [https://www.iis.net/go/1633](https://www.iis.net/downloads/microsoft/iis-manager)  
+ 32 bit (x86) - [https://www.iis.net/go/1626](https://www.iis.net/downloads/microsoft/iis-manager)  
+ 64 bit (x64) - [https://www.iis.net/go/1633](https://www.iis.net/downloads/microsoft/iis-manager)  
  If you are running the 64 bit version of Windows Vista, ensure that you download the 64 bit installer. The 32 bit installer will not work on 64 bit Windows Vista.
 3. After downloading the installer, simply double click on it to run it.   
     [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image2.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image1.jpg)

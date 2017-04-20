@@ -20,18 +20,6 @@ by [Tobin Titus](https://github.com/tobint)
 
 The configuration system in IIS 7 and above is significantly different than in previous versions of IIS, and builds on top of some (but not all) of the concepts of the .NET framework configuration system. Its scope spans across the entire web server platform (IIS, ASP.NET) and serves as the core of the IIS administration "stack". This document walks through the design and architecture of the configuration system, and introduces the programmable interface to the system at the lowest-level, native-code, entry point.
 
-This article contains:
-
-- [Configuration Levels](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#ConfigLevels)
-- [Organization of Settings](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#Organization)
-- [Organization &lt;==&gt; XML Mapping](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#OrganizationMap)
-- [Schema](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#Schema)
-- [Organization of Schema Declarations](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#OrgSchema)
-- [Additional Schema Information in &lt;ConfigSections&gt;](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#AddSchema)
-- [Locking](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#Locking)
-- [Unlocking](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#Unlocking)
-- [Summary](deep-dive-into-iis-configuration-with-iis-7-and-iis-8.md#Summary)
-
 There are very few "moving parts" at runtime that implement the configuration system. The configuration system is implemented as a library that runs in-proc in the client application, and interacts with a persistent store on-disk. The store is simply a file, or a set of files, on the file system. The format of the files is XML. Users can edit the files manually at any time, if they choose to, and changes are automatically picked up by the system. There are no proprietary models for doing standard operations like protecting the settings, backing them up, moving them around, or even extending the system with new settings. The system relies heavily on the file system, to simplify tasks such as deploying configuration for web applications and services.
 
 > [!NOTE]

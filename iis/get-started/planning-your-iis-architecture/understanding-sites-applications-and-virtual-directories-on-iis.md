@@ -22,16 +22,6 @@ In IIS, you can create sites, applications, and virtual directories to share inf
 
 This article provides a quick overview of applications in IIS 6.0 so that you can better understand the differences introduced in IIS 7. It then explains the concepts of sites, applications, and virtual directories in IIS and introduces the `&lt;sites&gt;` section in configuration.
 
-This article contains:
-
-- [About Sites, Applications, and Virtual Directories in IIS 6.0](understanding-sites-applications-and-virtual-directories-on-iis.md#About6.0)
-- [About Sites, Applications, and Virtual Directories in IIS 7 and Above](understanding-sites-applications-and-virtual-directories-on-iis.md#About7.0)
-- [Sites](understanding-sites-applications-and-virtual-directories-on-iis.md#Sites)
-- [Applications](understanding-sites-applications-and-virtual-directories-on-iis.md#Applications)
-- [Virtual Directories](understanding-sites-applications-and-virtual-directories-on-iis.md#Virtual)
-- [IIS Configuration: &lt;sites&gt; Section](understanding-sites-applications-and-virtual-directories-on-iis.md#Configuration)
-- [Summary](understanding-sites-applications-and-virtual-directories-on-iis.md#Summary)
-
 <a id="About6.0"></a>
 
 ## About Sites, Applications, and Virtual Directories in IIS 6.0

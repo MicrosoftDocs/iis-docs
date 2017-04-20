@@ -20,15 +20,6 @@ by IIS Team
 
 IIS 7 and above bring many new security improvements from IIS 6.0. This document overviews these improvements with respect to Authentication, Authorization, SSL, Web Service Extension Restriction List and IP restrictions.
 
-This article contains:
-
-- [Authentication](changes-in-security-between-iis-60-and-iis-7-and-above.md#Authentication)
-- [How IIS 7 and Above Determine the Authenticated Identity](changes-in-security-between-iis-60-and-iis-7-and-above.md#How)
-- [Authorization](changes-in-security-between-iis-60-and-iis-7-and-above.md#Authorization)
-- [SSL](changes-in-security-between-iis-60-and-iis-7-and-above.md#SSL)
-- [Web Service Extension Restriction List](changes-in-security-between-iis-60-and-iis-7-and-above.md#WebService)
-- [IP Restrictions](changes-in-security-between-iis-60-and-iis-7-and-above.md#IP)
-
 <a id="Authentication"></a>
 
 ## Authentication

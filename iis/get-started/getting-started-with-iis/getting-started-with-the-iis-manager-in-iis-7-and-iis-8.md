@@ -44,23 +44,6 @@ IIS 7.0 and later have a new user interface from previous versions of IIS: the I
 > [!NOTE]
 > This document was written for Windows Server 2008. Windows Vista® may not have some of the functionality/features discussed in this document.
 
-This article contains:
-
-- [New Look and Feel](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#New)
-- [Home Page](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#Home)
-- [Feature Page Layouts](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#FeaturePage)
-- [Content View](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#Content)
-- [Feature Delegation](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#FeatureDel)
-- [Configuration Locking](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#Configuration)
-- [Site and Application Administrators](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#SiteAnd)
-- [Server, Site and Application Connections](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#ServerSite)
-- [Configuration](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#Configuration2)
-- [Status Bar](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#StatusBar)
-- [Example: Writing to ApplicationHost.config vs. root Web.config](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#ExampleWriting)
-- [Example: Writing to Locked vs. Unlocked Configuration](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#ExampleLocked)
-- [Web Management Service (WMSVC)](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#WebManagement)
-- [Security](getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md#Security)
-
 <a id="New"></a>
 
 ## New Look and Feel

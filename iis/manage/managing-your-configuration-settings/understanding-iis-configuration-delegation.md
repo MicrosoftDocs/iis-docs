@@ -24,17 +24,6 @@ The system is based on XML files defined in a simple and clear format with a sim
 
 This new system also provides a delegated administration experience in which: administrators may allow site and application owners to modify specific settings; and, the impact of these changes is confined to the specific site or application in question. This model introduces the concept of *self-contained applications* where both content and configuration settings are housed in the site or application directory and can be x-copy deployed from one machine to another.
 
-This article contains:
-
-- [Configuration Files and Configuration Schema](understanding-iis-configuration-delegation.md#01)
-- [Configuration Hierarchy and Effective Configuration](understanding-iis-configuration-delegation.md#02)
-- [Configuration Sections](understanding-iis-configuration-delegation.md#03)
-- [A Special Section: &lt;configSections&gt;](understanding-iis-configuration-delegation.md#04)
-- [The Concept of Location](understanding-iis-configuration-delegation.md#05)
-- [Locking and Unlocking a Section](understanding-iis-configuration-delegation.md#06)
-- [Granular Locking](understanding-iis-configuration-delegation.md#07)
-- [Summary](understanding-iis-configuration-delegation.md#08)
-
 <a id="01"></a>
 
 ## Configuration Files and Configuration Schema
