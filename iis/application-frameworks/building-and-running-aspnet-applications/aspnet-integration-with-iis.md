@@ -186,7 +186,7 @@ Because application pools are the .NET Framework versioning boundary, you can ch
  By default, all new application pools are configured to run ASP.NET v2.1 in Integrated mode.
 
 > [!NOTE]
->> Do not use aspnet\_regiis /i or /r options to configure the version of ASP.NET for a particular application, or globally.
+> Do not use aspnet\_regiis /i or /r options to configure the version of ASP.NET for a particular application, or globally.
 
 IIS uses pre-conditioned handler mappings to automatically select the correct set of handler mappings (to ASPNET\_isapi.dll in Classic mode or directly to managed handler types in Integrated mode) depending on the configured CLR version and managed integration mode of the application pool. The ASP.NET 2.0 setup installs these handler mappings at the server level.
 
