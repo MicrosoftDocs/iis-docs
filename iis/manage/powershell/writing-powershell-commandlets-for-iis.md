@@ -56,13 +56,13 @@ To start writing cmdlets, you need a client computer installed with PowerShell. 
 1. Start wbemtest.   
 2. Click Connect.   
 3. Enter connection parameters:
- a. Replace "root\default" by \\&lt;computer&gt;\root\webadministration, where "&lt;computer&gt;" has to be name of your server.
- b. Enter the credentials of the account that has administrator rights on the server.
- c. Select "Packet Privacy" in Authentication level group.
+    * Replace "root\default" by \\&lt;computer&gt;\root\webadministration, where "&lt;computer&gt;" has to be name of your server.
+    * Enter the credentials of the account that has administrator rights on the server.
+    * Select "Packet Privacy" in Authentication level group.
 4. Click Connect. WMI on your client machine connects to the WMI service on your server machine. If it is not accessible, you get an error message dialog box.  
 5. Perform some simple action that engages the WMI provider on the server box, to confirm that it works. Do an enumeration of sites:
- a. Click on "Enum Instances" button and enter "site" for class name.
- b. When it works, the resulting dialog shows a list of all sites available on your server.
+    * Click on "Enum Instances" button and enter "site" for class name.
+    * When it works, the resulting dialog shows a list of all sites available on your server.
 
 PowerShell cmdlet is simply a managed code assembly implemented following formal rules, which are documented in PowerShell SDK. Find them [on-line](http://windowssdk.msdn.microsoft.com/en-us/library/ms714598.aspx).
 

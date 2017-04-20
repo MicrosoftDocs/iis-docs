@@ -96,16 +96,11 @@ After you enable failed-request tracing, you need to configure where the log fil
 2. Launch **inetmgr**.
 3. In the **Connections** pane, expand the machine name, expand **Sites**, and then click **Default Web Site**.
 4. In the **Actions** pane, under **Configure**, click **Failed Request Tracing…**.
-
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image8.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image7.jpg)
-
 5. In the **Edit Web Site Failed Request Tracing Settings** dialog box, configure the following:
-
 - Select the **Enable** check box.
 - Keep the defaults for the other settings.
-
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image11.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image10.jpg)
-
 6. Click **OK**.
 
 Failed-request tracing logging is now enabled for the Default Web Site. Check the %*windir*%\system32\inetsrv\config\applicationHost.config file to confirm that the configuration looks as follows:
@@ -122,38 +117,22 @@ In this step, you will configure the failure definitions for your URL, including
 2. Launch **inetmgr**.
 3. In the **Connections** pane, expand the machine name, expand **Sites**, and then click **Default Web Site**.
 4. Double-click **Failed Request Tracing Rules**.
-
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image13.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image12.jpg)
-
 5. Click **Finish**.
-
 6. In the **Actions** pane, click **Add...**.
-
 7. In the **Add Failed Request Tracing Rule** wizard, on the **Specify Content to Trace** page, select **All content (\*)**. Click **Next**.
-
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image16.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image15.jpg)
-
 8. On the **Define Trace Conditions** page, select the **Status code(s)** check box and enter **404.2** as the status code to trace.
-
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image19.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image18.jpg)
-
 9. Click **Next**.
-
 10. On the **Select Trace Providers** page, under **Providers**, select the **WWW Server** check box. Under **Areas**, select the **Security** check box and clear all other check boxes. The problem that you are generating causes a security error trace event to be thrown. In general, authentication and authorization (including ISAPI restriction list issues) problems can be diagnosed by using the WWW Server – Security area configuration for tracing. However, because the FREB.xsl style sheet helps highlight errors and warnings, you can still use the default configuration to log all events in all areas and providers.
-
 Under **Verbosity**, select **Verbose**.
-
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image22.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image21.jpg)
-
 11. Click **Finish**. You should see the following definition for the **Default Web Site**:
-
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image24.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image23.jpg)
-
 IIS Manager writes the configuration to the `%windir%\system32\inetsrv\config\applicationHost.config` file by using a &lt;location&gt; tag. The configuration should look as follows:
 
-
 [!code-xml[Main](troubleshooting-failed-requests-using-tracing-in-iis/samples/sample4.xml)]
-
 
 ## Test and View the Failure Request Log File
 
@@ -171,21 +150,13 @@ In this task, you will generate a failed request and view the resulting trace lo
 
 1. Now that you have generated a failed request, open a command prompt with administrator user rights and navigate to `%systemdrive%\inetpub\logs\FailedReqLogFiles\W3SVC1`.
 2. Run **start** to start an Internet Explorer window from the directory.
-
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image26.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image25.jpg)
-
 3. Notice a few things here: When IIS writes the failed request log file, it writes one file *per failed request*. A *freb.xsl* style sheet is also written, one per directory. This helps when you view the resulting failure request log files (such as *fr000001.xml* above).
-
 4. Right-click the log file for the 404.2 error, and click **Open With -&gt; Internet Explorer**. If this is the first time that you are opening a Failed Request Tracing file, you must add **about:internet** to the list of trusted sites, since Internet Explorer's Enhanced Security Configuration is enabled by default. If this is the case, you will see the following:
-
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image4.png)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image3.png)
-
 5. In the **Internet Explorer** dialog box, click **Add…** to add **about:internet** to the list of trusted sites. This allows the XSL to work. You will see the following after adding **about:internet** to the list of trusted sites:
-
 [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image6.png)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image5.png)
-
 A summary of the failed request is logged at the top, with the **Errors &amp; Warnings** table identifying any events that are WARNING, ERROR, or CRITICAL ERROR in severity. In this example, the WARNING severity level is due to ISAPI RESTRICTION. The image that you tried to load was `%windir%\system32\inetsrv\asp.dll`.
-
 6. Open the raw XML file directly by using a text editor, and look at the contents of each event.
 
 ## Summary

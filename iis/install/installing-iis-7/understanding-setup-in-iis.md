@@ -95,63 +95,471 @@ With IIS 7.0 and above, the IIS team has addressed this situation by making IIS 
 The following table summarizes all the installable component features of IIS 7.0 and above. The table also groups features into functional areas. These functional areas are used by the setup user interfaces such as Server Manager, as well as by the new command line and scripting tools. Each of the functional areas and feature components are explored in detail in the next section.
 
 
-| **Setup Menu Items** | **Description** |
-| --- | --- |
-| **?** | Web Server | Installs the IIS Web Server. Provides support for HTML Web sites and optional support for ASP.NET, Classic ASP, and Web server extensions. |
-|  | **?** | Common HTTP Features | Installs support for static Web server content such as HTML &amp; image files, custom errors, and redirection. |
-|  |  |  |  | **?** | Static Content | Serves .htm, .html, and image files from a Web site. |
-|  |  |  |  | **?** | Default Document | Allows you to specify a default file to be loaded when users do not specify a file in a request URL. |
-|  |  |  |  | **?** | Directory Browse | Allow clients to see the contents of a directory on your Web server. |
-|  |  |  |  | **?** | HTTP Errors | Installs HTTP Error files. Allows you to customize the error messages returned to clients. |
-|  |  |  |  |  | HTTP Redirection | Provides support to redirect client requests to a specific destination. |
-|  |  |  | Application Development | Installs support for application development such as ASP.NET, Classic ASP, CGI, and ISAPI extensions. |
-|  |  |  |  |  | ASP.NET | Enables your Web server to host ASP.NET applications. |
-|  |  |  |  |  | .NET Extensibility | Enables your Web server to host .NET framework-managed module extensions. |
-|  |  |  |  |  | ASP | Enables your Web server to host Classic ASP applications. |
-|  |  |  |  |  | CGI | Enables support for CGI executables. |
-|  |  |  |  |  | ISAPI Extensions | Allows ISAPI extensions to handle client requests. |
-|  |  |  |  |  | ISAPI Filters | Allows ISAPI filters to modify Web server behavior. |
-|  |  |  |  |  | Server Side Includes | Provides support for .stm, .shtm, and .shtml include files. |
-|  |  | **?** | Health &amp; Diagnostics | Enables you to monitor and manage server, site, and application health. |
-|  |  |  |  | **?** | HTTP Logging | Enables logging of Web site activity for this server. |
-|  |  |  |  |  | Logging Tools | Installs IIS logging tools and scripts. |
-|  |  |  |  | **?** | Request Monitor | Monitors server, site, and application health. |
-|  |  |  |  |  | Tracing | Enables tracing for ASP.NET applications and failed requests. |
-|  |  |  |  |  | Custom Logging | Enables support for custom logging for Web servers, sites, and applications. |
-|  |  |  |  |  | ODBC Logging | Enables support for logging to an ODBC-compliant database. |
-|  |  |  | Security | Enables additional security protocols to secure servers, sites, applications, vdirs, and files. |
-|  |  |  |  |  | Basic Authentication | Requires a valid Windows user name and password for connection. |
-|  |  |  |  |  | Windows Authentication | Authenticates clients by using NTLM or Kerberos. |
-|  |  |  |  |  | Digest Authentication | Authenticates clients by sending a password hash to a Windows domain controller. |
-|  |  |  |  |  | Client Certificate Mapping Authentication | Authenticates client certificates with Active Directory accounts. |
-|  |  |  |  |  | IIS Client Certificate Mapping Authentication | Maps client certificates 1-to-1 or many-to-1 to a Windows security identity. |
-|  |  |  |  |  | URL Authorization | Authorizes client access to the URLs that comprise a Web application. |
-|  |  |  |  |  | Request Filtering | Configures rules to block selected client requests. |
-|  |  |  |  |  | IP Security | Allows or denies content access based on IP address or domain name. |
-|  |  | **?** | Performance |  |
-|  |  |  |  | **?** | Static Content Compression | Compresses static content before returning it to a client. |
-|  |  |  |  |  | Dynamic Content Compression | Compresses dynamic content before returning it to a client. |
-| **?** | Web Server Management Tools | Installs Web server management console and tools. |
-|  |  | **?** | IIS Management Console | Installs Web server Management Console which supports management of local and remote Web servers. |
-|  |  |  | IIS Management scripts and Tools | Manages a local Web server with IIS configuration scripts. |
-|  |  |  | Management Service | Allows this Web server to be managed remotely from another computer via the Web server Management Console. |
-|  |  |  | IIS 6 Management Compatibility | Allows you to use existing IIS 6.0 APIs and scripts to manage this IIS 7.0 and above Web server. |
-|  |  |  |  |  | IIS Metabase and IIS 6 configuration compatibility | Installs IIS metabase and compatibility layer to allow metabase calls to interact with the new IIS 7.0 and above configuration store. |
-|  |  |  |  |  | IIS 6 WMI Compatibility | Installs IIS 6.0 WMI scripting interfaces. |
-|  |  |  |  |  | IIS 6 Scripting Tools | Installs IIS 6.0 configuration scripts. |
-|  |  |  |  |  | IIS 6 Management Console | Installs the IIS 6.0 Management Console. Provides support for administration of remote IIS 6.0 servers from this computer. |
-|  | FTP Publishing Service | Installs File Transfer Protocol (FTP) Service and FTP management console. Provides support for upload and download of files. |
-|  |  |  | FTP Server | Installs FTP Service. |
-|  |  |  | FTP Management Console | Installs FTP management console for administration of local and remote FTP servers. |
-
-
-Key:
-
-
-|  | Feature is not selected by default. |
-| --- | --- |
-| **?** | Feature is selected by default but has one or more non-selected sub-features. |
-| **?** | Feature is selected by default - all, if any, sub-features are also selected. |
+<table class="data-table" border="0" cellspacing="0" cellpadding="0">
+<tbody valign="top">
+<tr>
+<th colspan="6">
+<p><b>Setup Menu Items</b></p></th>
+<th>
+<p><b>Description</b></p></th></tr>
+<tr>
+<th>
+<p><b>% </b></p></th>
+<td colspan="5">
+<p>Web Server</p></td>
+<td>
+<p>Installs the IIS Web Server. Provides support for HTML Web sites and optional support for ASP.NET, Classic ASP, and Web server extensions.</p></td></tr>
+<tr>
+<td colspan="2">&nbsp;</td>
+<td>
+<p><b>? </b></p></td>
+<td colspan="3">
+<p>Common HTTP Features</p></td>
+<td>
+<p>Installs support for static Web server content such as HTML &amp; image files, custom errors, and redirection.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p><b>? </b></p></td>
+<td>
+<p>Static Content</p></td>
+<td>
+<p>Serves .htm, .html, and image files from a Web site.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p><b>? </b></p></td>
+<td>
+<p>Default Document</p></td>
+<td>
+<p>Allows you to specify a default file to be loaded when users do not specify a file in a request URL.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p><b>? </b></p></td>
+<td>
+<p>Directory Browse</p></td>
+<td>
+<p>Allow clients to see the contents of a directory on your Web server.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p><b>? </b></p></td>
+<td>
+<p>HTTP Errors</p></td>
+<td>
+<p>Installs HTTP Error files. Allows you to customize the error messages returned to clients.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>HTTP Redirection</p></td>
+<td>
+<p>Provides support to redirect client requests to a specific destination.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td colspan="3">
+<p>Application Development</p></td>
+<td>
+<p>Installs support for application development such as ASP.NET, Classic ASP, CGI, and ISAPI extensions.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>ASP.NET </p></td>
+<td>
+<p>Enables your Web server to host ASP.NET applications.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>.NET Extensibility</p></td>
+<td>
+<p>Enables your Web server to host .NET framework-managed module extensions.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>ASP</p></td>
+<td>
+<p>Enables your Web server to host Classic ASP applications. </p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>CGI</p></td>
+<td>
+<p>Enables support for CGI executables.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>ISAPI Extensions</p></td>
+<td>
+<p>Allows ISAPI extensions to handle client requests.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>ISAPI Filters</p></td>
+<td>
+<p>Allows ISAPI filters to modify Web server behavior.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>Server Side Includes</p></td>
+<td>
+<p>Provides support for .stm, .shtm, and .shtml include files. </p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<th>
+<p><b>% </b></p></th>
+<td colspan="3">
+<p>Health &amp; Diagnostics</p></td>
+<td>
+<p>Enables you to monitor and manage server, site, and application health.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p><b>? </b></p></td>
+<td>
+<p>HTTP Logging</p></td>
+<td>
+<p>Enables logging of Web site activity for this server.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>Logging Tools</p></td>
+<td>
+<p>Installs IIS logging tools and scripts.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p><b>? </b></p></td>
+<td>
+<p>Request Monitor</p></td>
+<td>
+<p>Monitors server, site, and application health.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>Tracing</p></td>
+<td>
+<p>Enables tracing for ASP.NET applications and failed requests.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>Custom Logging</p></td>
+<td>
+<p>Enables support for custom logging for Web servers, sites, and applications.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>ODBC Logging</p></td>
+<td>
+<p>Enables support for logging to an ODBC-compliant database.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td colspan="3">
+<p>Security </p></td>
+<td>
+<p>Enables additional security protocols to secure servers, sites, applications, vdirs, and files.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>Basic Authentication</p></td>
+<td>
+<p>Requires a valid Windows user name and password for connection.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>Windows Authentication</p></td>
+<td>
+<p>Authenticates clients by using NTLM or Kerberos.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>Digest Authentication</p></td>
+<td>
+<p>Authenticates clients by sending a password hash to a Windows domain controller.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>Client Certificate Mapping Authentication</p></td>
+<td>
+<p>Authenticates client certificates with Active Directory accounts.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>IIS Client Certificate Mapping Authentication</p></td>
+<td>
+<p>Maps client certificates 1-to-1 or many-to-1 to a Windows security identity.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>URL Authorization</p></td>
+<td>
+<p>Authorizes client access to the URLs that comprise a Web application.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>Request Filtering</p></td>
+<td>
+<p>Configures rules to block selected client requests.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>IP Security</p></td>
+<td>
+<p>Allows or denies content access based on IP address or domain name.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<th>
+<p><b>% </b></p></th>
+<td colspan="3">
+<p>Performance</p></td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p> <b>?</b> </p></td>
+<td>
+<p>Static Content Compression</p></td>
+<td>
+<p>Compresses static content before returning it to a client.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>Dynamic Content Compression </p></td>
+<td>
+<p>Compresses dynamic content before returning it to a client.</p></td></tr>
+<tr>
+<th>
+<p><b>% </b></p></th>
+<td colspan="5">
+<p>Web Server Management Tools</p></td>
+<td>
+<p>Installs Web server management console and tools.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p><b>? </b></p></td>
+<td colspan="3">
+<p>IIS Management Console</p></td>
+<td>
+<p>Installs Web server Management Console which supports management of local and remote Web servers.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td colspan="3">
+<p>IIS Management scripts and Tools</p></td>
+<td>
+<p>Manages a local Web server with IIS configuration scripts.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td colspan="3">
+<p>Management Service</p></td>
+<td>
+<p>Allows this Web server to be managed remotely from another computer via the Web server Management Console.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td colspan="3">
+<p>IIS 6 Management Compatibility</p></td>
+<td>
+<p>Allows you to use existing IIS 6.0 APIs and scripts to manage this IIS 7.0 and above Web server.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>IIS Metabase and IIS 6 configuration compatibility</p></td>
+<td>
+<p>Installs IIS metabase and compatibility layer to allow metabase calls to interact with the new IIS 7.0 and above configuration store.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>IIS 6 WMI Compatibility</p></td>
+<td>
+<p>Installs IIS 6.0 WMI scripting interfaces.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>IIS 6 Scripting Tools </p></td>
+<td>
+<p>Installs IIS 6.0 configuration scripts. </p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p>IIS 6 Management Console</p></td>
+<td>
+<p>Installs the IIS 6.0 Management Console. Provides support for administration of remote IIS 6.0 servers from this computer.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="5">
+<p>FTP Publishing Service</p></td>
+<td>
+<p>Installs File Transfer Protocol (FTP) Service and FTP management console. Provides support for upload and download of files.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td colspan="3">
+<p>FTP Server</p></td>
+<td>
+<p>Installs FTP Service.</p></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td colspan="3">
+<p>FTP Management Console</p></td>
+<td>
+<p>Installs FTP management console for administration of local and remote FTP servers.</p></td></tr></tbody></table></div>
+<p>Key:</p>
+<div>
+<table class="data-table" border="0" cellspacing="0" cellpadding="0">
+<colgroup>
+<col>
+<col></colgroup>
+<tbody valign="top">
+<tr>
+<td valign="bottom">&nbsp;</td>
+<td valign="bottom">
+<p>Feature is not selected by default.</p></td></tr>
+<tr>
+<th valign="bottom">
+<p><b>%</b> </p></th>
+<td valign="bottom">
+<p>Feature is selected by default but has one or more non-selected sub-features.</p></td></tr>
+<tr>
+<td valign="bottom">
+<p><b>?</b> </p></td>
+<td valign="bottom">
+<p>Feature is selected by default - all, if any, sub-features are also selected.</p></td></tr></tbody></table>
 
 
 <a id="FeaturePack"></a>
