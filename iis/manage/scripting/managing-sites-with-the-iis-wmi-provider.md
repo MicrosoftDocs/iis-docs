@@ -186,7 +186,7 @@ Go back to your cmd prompt and run CreateSite.vbs. You see the following output:
 
 ***Site created successfully!***
 
-To see proof that the site was created, type `notepad %windir%\system32\inetsrv\ApplicationHost.config`. Type **Ctrl+F** to bring up notepad's Find dialog. Type **NewSite** in the "Find what:" text box, and click the **Find Next** button. This brings you to the &lt;sites&gt; section where the new site has been defined:
+To see proof that the site was created, type `notepad %windir%\system32\inetsrv\ApplicationHost.config`. Type **Ctrl+F** to bring up notepad's Find dialog. Type **NewSite** in the "Find what:" text box, and click the **Find Next** button. This brings you to the `<sites>` section where the new site has been defined:
 
 [!code-xml[Main](managing-sites-with-the-iis-wmi-provider/samples/sample9.xml)]
 

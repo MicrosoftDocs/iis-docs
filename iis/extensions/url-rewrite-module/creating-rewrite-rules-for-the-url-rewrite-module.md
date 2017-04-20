@@ -101,7 +101,7 @@ Save the rule by clicking **Apply** on the right-hand side.
 
 ### Viewing the rewrite rule in configuration file
 
-The rewrite rules are stored either in the ApplicationHost.config file or in Web.config files. To check the configuration of the rule that we have just created, open a Web.config file located in %*SystemDrive*%\inetpub\wwwroot\. In this file you should see the `&lt;rewrite&gt;` section that contains this rule definition:
+The rewrite rules are stored either in the ApplicationHost.config file or in Web.config files. To check the configuration of the rule that we have just created, open a Web.config file located in %*SystemDrive*%\inetpub\wwwroot\. In this file you should see the `<rewrite>` section that contains this rule definition:
 
 
 [!code-xml[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample4.xml)]
@@ -162,13 +162,13 @@ You should see that the browser was redirected to `http://localhost/article/323/
 
 The third rule that we will create is used to block all requests made to a Web site if those requests do not have the host header set. This type of rule is useful when you want to prevent hacking attempts that are made by issuing HTTP requests against the IP address of the server instead of using the host name.
 
-We will create this rule without using IIS Manager. Open the Web.config file in the `%SystemDrive%\inetpub\wwwroot\` folder that you used for the article.aspx test file early in this article. Locate the &lt;rewrite&gt; section. Insert the following rule into the &lt;rules&gt; collection, so that it is the first rule in the collection:
+We will create this rule without using IIS Manager. Open the Web.config file in the `%SystemDrive%\inetpub\wwwroot\` folder that you used for the article.aspx test file early in this article. Locate the `<rewrite>` section. Insert the following rule into the &lt;rules&gt; collection, so that it is the first rule in the collection:
 
 
 [!code-xml[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample5.xml)]
 
 
-The &lt;rewrite&gt; section should look like the following code:
+The `<rewrite>` section should look like the following code:
 
 
 [!code-xml[Main](creating-rewrite-rules-for-the-url-rewrite-module/samples/sample6.xml)]

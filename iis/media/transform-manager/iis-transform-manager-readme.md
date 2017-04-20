@@ -158,7 +158,7 @@ This section describes the known issues for IIS Transform Manager 1.0.
     1. Stop the watch folder if it's started.
     2. Create a folder on each local Transform Manager computer (or on each HPC compute node if you've integrated Transform Manager with an HPC cluster). This folder will be the local work folder and should be created in the same location on all of the computers. For example: `C:\%WorkFolderPath%`.
     3. Ensure that the watch folder impersonation account has Full Control permissions on the local work folder.
-    4. Add the **workFolder** property to the configuration XML file for the watch folder's job definition. For example: `&lt;workFolder&gt;C:\%WorkFolderPath%&lt;/wFolder&gt;`
+    4. Add the **workFolder** property to the configuration XML file for the watch folder's job definition. For example: `<workFolder>C:\%WorkFolderPath%</wFolder>`
     5. Start the watch folder.
 
     > [!NOTE]

@@ -116,15 +116,15 @@ After you have added the relevant configuration entries by following the steps i
 For 32-bit systems, do the following to register a native custom provider:
 
 1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
-2. Type the following command: `%WINDIR%\system32\regsvr32.exe &lt;*providerdllname*.dll&gt;` where *providerdllname*.dll is the provider dll.
+2. Type the following command: `%WINDIR%\system32\regsvr32.exe <*providerdllname*.dll>` where *providerdllname*.dll is the provider dll.
 
 For 64-bit systems, do the following to register a native custom provider:
 
 1. Launch a command shell with administrator privileges (on the **Start** menu, right-click **Command Prompt**, and then click **Run as administrator**).
 2. Type the following command: 
 
-    - For native 64 bit **- `%WINDIR%\system32\regsvr32.exe &lt;*providerdllname*.dll&gt;` where *providerdllname*.dll is the provider dll.
-    - For 32 bit supported through WOW layer - `%WINDIR%\syswow64\regsvr32.exe &lt;*providerdllname*.dll&gt;` where *providerdllname*.dll is the provider dll.
+    - For native 64 bit **- `%WINDIR%\system32\regsvr32.exe <*providerdllname*.dll>` where *providerdllname*.dll is the provider dll.
+    - For 32 bit supported through WOW layer - `%WINDIR%\syswow64\regsvr32.exe <*providerdllname*.dll>` where *providerdllname*.dll is the provider dll.
 
 #### Registering a .NET-based custom provider
 

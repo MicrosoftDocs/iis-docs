@@ -211,9 +211,9 @@ IIS uses a configuration scheme that provides ASP.NET integration, including sha
 
 IIS uses three main XML files that maintain server deployments:
 
-- Machine.config holds .NET Framework settings for the server. These settings are inherited by all other .NET Framework configuration files and can be located by default at `%windir%\Microsoft.net\Framework\ &lt;*framework\_version*&gt;\Config\Machine.config`.
+- Machine.config holds .NET Framework settings for the server. These settings are inherited by all other .NET Framework configuration files and can be located by default at `%windir%\Microsoft.net\Framework\<*framework\_version*>\Config\Machine.config`.
 - The ApplicationHost.config file contains settings for IIS and its services. By default, it is located at `%windir%\System32\inetsrv\config\applicationHost.config`.
-- The Root Web.config file holds the global settings for ASP.NET Web applications, and it is located at `%windir%\Microsoft.NET\Framework\&lt;*framework\_version*&gt;\Config\Root Web.config`. This file gives each application a Web.config file that overrides global settings and also allows the IIS configuration settings to be stored in these Web.config files, making copying applications across multiple Web servers much easier, and avoids costly and error-prone replication, manual synchronization, and additional configuration tasks.
+- The Root Web.config file holds the global settings for ASP.NET Web applications, and it is located at `%windir%\Microsoft.NET\Framework\<*framework\_version*>\Config\Root Web.config`. This file gives each application a Web.config file that overrides global settings and also allows the IIS configuration settings to be stored in these Web.config files, making copying applications across multiple Web servers much easier, and avoids costly and error-prone replication, manual synchronization, and additional configuration tasks.
 
 ## Administration Using IIS 7 and Above
 

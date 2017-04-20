@@ -123,7 +123,7 @@ The following global backup settings may be configured directly in the IIS Confi
 
 Complete details about these settings and there allowed values can be found in BackupManagerSchema `%windir%\system32\inetsrv\config\schema\BackupManagerSchema.xml` in the IIS Configuration system.
 
-Below is a sample configuration that can be added under &lt;system.webServer&gt; (see the full schema for more details). *You do not have to specify all of the settings below as they all have default settings specified in the schema, but they are specified here to show as an example*.
+Below is a sample configuration that can be added under `<system.webServer>` (see the full schema for more details). *You do not have to specify all of the settings below as they all have default settings specified in the schema, but they are specified here to show as an example*.
 
 [!code-xml[Main](web-deploy-automatic-backups/samples/sample8.xml)]
 
@@ -138,7 +138,7 @@ Below is a sample configuration that can be added under &lt;system.webServer&gt;
 
 ### Configuring Backup Settings on the Server for specific sites
 
-The automatic backup feature also allows you to set site specific settings by specifying each backup setting using a &lt;location&gt; tag in the applicationHost.config file. If a setting is not specified in the location tag, then it will be inherited from the server settings. Here is an example of what a sites backup settings may look like:
+The automatic backup feature also allows you to set site specific settings by specifying each backup setting using a `<location>` tag in the applicationHost.config file. If a setting is not specified in the location tag, then it will be inherited from the server settings. Here is an example of what a sites backup settings may look like:
 
 [!code-xml[Main](web-deploy-automatic-backups/samples/sample9.xml)]
 

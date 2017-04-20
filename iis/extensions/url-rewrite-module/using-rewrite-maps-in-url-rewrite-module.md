@@ -74,16 +74,16 @@ Notice that there is no obvious common pattern in the keys and their relation to
 
 ## Referencing a rewrite map from rewrite rule
 
-To create rewrite rule that uses the rewrite maps, copy and paste the following XML code into the &lt;rewrite&gt; section of web.config file for you website:
+To create rewrite rule that uses the rewrite maps, copy and paste the following XML code into the `<rewrite>` section of web.config file for you website:
 
 [!code-xml[Main](using-rewrite-maps-in-url-rewrite-module/samples/sample3.xml)]
 
 Let's go through each rule element to understand what it does:  
-`&lt;match url=".\*" /&gt;` - this element tells URL rewrite module to match any incoming URL (by using regular expression special character ".")
+`<match url=".\*" />` - this element tells URL rewrite module to match any incoming URL (by using regular expression special character ".")
 
-`&lt;add input="{StaticRewrites:{REQUEST\_URI}}" pattern="(.+)"&gt;` - this conditions checks is the value returned from rewrite map StaticRewrites is not an empty string. To perform this check the value of the server variable REQUEST\_URI is passed as a parameter to the rewrite map. If rewrite map contains an entry with key, that is the same as REQUEST\_URI, then the value corresponding to that key will be returned. The regular expression pattern will match only non-empty strings, so if empty string was returned from the map then the condition will evaluate to false, hence no rewriting will be performed. If non-empty string was returned then that string will be captured in a back-reference, because of the parenthesis used in the pattern.
+`<add input="{StaticRewrites:{REQUEST\_URI}}" pattern="(.+)">` - this conditions checks is the value returned from rewrite map StaticRewrites is not an empty string. To perform this check the value of the server variable REQUEST\_URI is passed as a parameter to the rewrite map. If rewrite map contains an entry with key, that is the same as REQUEST\_URI, then the value corresponding to that key will be returned. The regular expression pattern will match only non-empty strings, so if empty string was returned from the map then the condition will evaluate to false, hence no rewriting will be performed. If non-empty string was returned then that string will be captured in a back-reference, because of the parenthesis used in the pattern.
 
-`&lt;action type="Rewrite" url="{C:1}" /&gt;` - this element specifies that URL rewrite module needs to rewrite the current URL string with the new one extracted from rewrite map. Notice that the url attribute references the condition back-reference {C:1}, which has been set when pattern in condition was matched.
+`<action type="Rewrite" url="{C:1}" />` - this element specifies that URL rewrite module needs to rewrite the current URL string with the new one extracted from rewrite map. Notice that the url attribute references the condition back-reference {C:1}, which has been set when pattern in condition was matched.
 
 ## Testing the rule for rewriting
 
@@ -116,11 +116,11 @@ To create a rule that uses the StaticRedirects rewrite map, copy and paste the f
 [!code-xml[Main](using-rewrite-maps-in-url-rewrite-module/samples/sample5.xml)]
 
 Again, let's go through each rule element to understand what it does:  
-`&lt;match url=".\*" /&gt;` - this element tells URL rewrite module to match any incoming URL (by using regular expression special character ".")
+`<match url=".\*" />` - this element tells URL rewrite module to match any incoming URL (by using regular expression special character ".")
 
-`&lt;add input="{StaticRedirects:{REQUEST\_URI}}" pattern="(.+)"&gt;` - this conditions checks is the value returned from rewrite map **StaticRedirects** is not an empty string. To perform this check the value of the server variable REQUEST\_URI is passed as a parameter to the rewrite map. If rewrite map contains an entry with key, that is the same as REQUEST\_URI, then the value corresponding to that key will be returned. The regular expression pattern will match only non-empty strings, so if empty string was returned from the map then the condition will evaluate to false, hence no rewriting will be performed. If non-empty string was returned then that string will be captured in a back-reference, because of the parenthesis used in the pattern.
+`<add input="{StaticRedirects:{REQUEST\_URI}}" pattern="(.+)">` - this conditions checks is the value returned from rewrite map **StaticRedirects** is not an empty string. To perform this check the value of the server variable REQUEST\_URI is passed as a parameter to the rewrite map. If rewrite map contains an entry with key, that is the same as REQUEST\_URI, then the value corresponding to that key will be returned. The regular expression pattern will match only non-empty strings, so if empty string was returned from the map then the condition will evaluate to false, hence no rewriting will be performed. If non-empty string was returned then that string will be captured in a back-reference, because of the parenthesis used in the pattern.
 
-`&lt;action type="Redirect" url="http://localhost{C:1}" appendQueryString="False" redirectType="Permanent" /&gt;` - this element specifies that URL rewrite module needs to redirect web client to a new URL that is constructed by concatenating the new domain name (in this case it is the same domain for simplicity purposes) and the redirection URL path returned by StaticRedirects map.
+`<action type="Redirect" url="http://localhost{C:1}" appendQueryString="False" redirectType="Permanent" />` - this element specifies that URL rewrite module needs to redirect web client to a new URL that is constructed by concatenating the new domain name (in this case it is the same domain for simplicity purposes) and the redirection URL path returned by StaticRedirects map.
 
 ## Testing the rule for redirection
 
@@ -153,13 +153,13 @@ To create a rule that uses the **IDtoTitleMap** rewrite map, copy and paste the 
 [!code-xml[Main](using-rewrite-maps-in-url-rewrite-module/samples/sample7.xml)]
 
 Let's go through each rule element to understand what it does:  
-`&lt;match url="^article\.aspx$" /&gt;` - this element tells URL rewrite module to execute the rule when article.aspx file is requested.
+`<match url="^article\.aspx$" />` - this element tells URL rewrite module to execute the rule when article.aspx file is requested.
 
-`&lt;add input="{QUERY\_STRING}" pattern="(?:^|&amp;)id=([0-9]+)(?:&amp;|$)" /&gt;` - this condition checks if the query string contains a parameter **id** that has a numeric value. The actual value is captured in a condition back-reference. Note that this pattern will work even if there are other parameters on the query string.
+`<add input="{QUERY\_STRING}" pattern="(?:^|&amp;)id=([0-9]+)(?:&amp;|$)" />` - this condition checks if the query string contains a parameter **id** that has a numeric value. The actual value is captured in a condition back-reference. Note that this pattern will work even if there are other parameters on the query string.
 
-`&lt;add input="{IDtoTitleMap:{C:1}}" pattern="(.+)" /&gt;` - this conditions checks if the value returned from rewrite map **IDtoTitleMap** is not an empty string. The condition uses the back-reference from the previous condition pattern as an input to the rewrite map.
+`<add input="{IDtoTitleMap:{C:1}}" pattern="(.+)" />` - this conditions checks if the value returned from rewrite map **IDtoTitleMap** is not an empty string. The condition uses the back-reference from the previous condition pattern as an input to the rewrite map.
 
-`&lt;action type="Redirect" url="article.aspx?title={C:1}" appendQueryString="False" redirectType="Permanent" /&gt;` - this element specifies that URL rewrite module needs to redirect web client back to article.aspx file but with different query string parameter **title**, which has a value that was looked up in rewrite map.
+`<action type="Redirect" url="article.aspx?title={C:1}" appendQueryString="False" redirectType="Permanent" />` - this element specifies that URL rewrite module needs to redirect web client back to article.aspx file but with different query string parameter **title**, which has a value that was looked up in rewrite map.
 
 ## Testing the rule for query string
 

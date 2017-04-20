@@ -194,12 +194,12 @@ Or
 The following steps walk you through all of the required settings to create a new FTP site from scratch.
 
 1. Using a text editor such as Windows Notepad, open your applicationHost.config file, which is located in your `%SystemRoot%\System32\inetsrv\config` folder by default.
-2. Locate the &lt;sites&gt; section. Add the first FTP site inside the &lt;sites&gt; using syntax similar to the following.
+2. Locate the `<sites>` section. Add the first FTP site inside the `<sites>` using syntax similar to the following.
     > [!NOTE]
     > You may need to choose a different number than "2" for the site ID if any site is currently using that site identifier. 
 
     [!code-xml[Main](using-ftp-virtual-host-names-in-iis-7/samples/sample1.xml)]
-3. Add the second FTP site inside the &lt;sites&gt; using syntax similar to the following.
+3. Add the second FTP site inside the `<sites>` using syntax similar to the following.
     > [!NOTE]
     > You may need to choose a different number than "3" for the site ID if any site is currently using that site identifier. 
 

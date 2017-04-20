@@ -130,7 +130,7 @@ The Forms Authentication feature was introduced in IIS 7.0. In the past, this wa
 
 ### Provide One Place for Doing All Authentication and Authorization
 
-When using either the IIS administration tool or configuration files, note that all authentication and authorization policies (for both ASP.NET and IIS 7.0 and above) can be configuration in the &lt;authentication&gt; and &lt;authorization&gt; sections respectively under the &lt;system.webServer&gt; group.
+When using either the IIS administration tool or configuration files, note that all authentication and authorization policies (for both ASP.NET and IIS 7.0 and above) can be configuration in the &lt;authentication&gt; and &lt;authorization&gt; sections respectively under the `<system.webServer>` group.
 
 This now makes it easy for administrators to define rules and see what is happening on their servers.
 

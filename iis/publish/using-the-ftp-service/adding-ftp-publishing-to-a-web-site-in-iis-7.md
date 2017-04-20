@@ -150,7 +150,7 @@ The following steps walk you through all of the required settings to add FTP pub
 
     [!code-xml[Main](adding-ftp-publishing-to-a-web-site-in-iis-7/samples/sample4.xml)]
 
- Your &lt;sites&gt; section should now contain something like the following example: 
+ Your `<sites>` section should now contain something like the following example: 
 
     [!code-xml[Main](adding-ftp-publishing-to-a-web-site-in-iis-7/samples/sample5.xml)]
 5. Scroll to the bottom of your applicationHost.config file and add a location section for your Default Web Site that will contain your authorization settings.  

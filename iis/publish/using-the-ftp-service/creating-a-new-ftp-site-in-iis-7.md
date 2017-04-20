@@ -189,7 +189,7 @@ You can also create FTP sites for the new FTP service by editing the IIS configu
 The following steps walk you through all of the required settings to create a new FTP site from scratch.
 
 1. Using a text editor such as Windows Notepad, open your ApplicationHost.config file, which is located in your `%SystemRoot%\System32\inetsrv\config` folder by default.
-2. Locate the &lt;sites&gt; section. This section contains your Default Web Site and should begin with something like the following:  
+2. Locate the `<sites>` section. This section contains your Default Web Site and should begin with something like the following:  
 
     [!code-xml[Main](creating-a-new-ftp-site-in-iis-7/samples/sample4.xml)]
 3. Copy the entire section for the Default Web Site and paste it on a new line just below the closing &lt;/site&gt; tag.
@@ -208,7 +208,7 @@ The following steps walk you through all of the required settings to create a ne
     > [!NOTE]
     > The authentication settings for FTP sites are configured at the site-level, unlike authentication for Web sites, which can be configured per URL.  
   
- Your &lt;sites&gt; section should now contain something similar to the following example:  
+ Your `<sites>` section should now contain something similar to the following example:  
 
     [!code-xml[Main](creating-a-new-ftp-site-in-iis-7/samples/sample6.xml)]
 6. Scroll to the bottom of your ApplicationHost.config file and add a location section for your Default FTP Site that will contain your authorization settings.  

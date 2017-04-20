@@ -136,7 +136,7 @@ First, deploy the module to the application. Here, you have several options:
 - Copy the source file containing the module into the **/App\_Code** directory of the application. This does not require compiling the module - ASP.NET automatically compiles and loads the module type when the application starts up. Simply save this source code as BasicAuthenticationModule.cs inside the /App\_Code directory of your application. Do this if you do not feel comfortable with the other steps.
 - Compile the module into an assembly, and drop this assembly in the **/BIN** directory of the application. This is the most typical option if you only want this module to be available to this application, and you do not want to ship the source of the module with your application. Compile the module source file by running the following from a command line prompt:  
   
-	`&lt;PATH\_TO\_FX\_SDK&gt;csc.exe /out:BasicAuthenticationModule.dll /target:library BasicAuthenticationModule.cs`
+	`<PATH\_TO\_FX\_SDK>csc.exe /out:BasicAuthenticationModule.dll /target:library BasicAuthenticationModule.cs`
 
     Where &lt;PATH\_TO\_FX\_SDK&gt; is the path to the .NET Framework SDK that contains the CSC.EXE compiler.
 - Compile the module into a strongly named assembly, and register this assembly in the GAC. This is a good option if you want multiple applications on your machine to use this module. To learn more about building strongly named assemblies, see this [MSDN article](https://msdn.microsoft.com/en-us/library/xwb8f617%28VS.80%29.aspx) .
@@ -157,7 +157,7 @@ Configure your module to run in the application. Start by creating a new web.con
 
 Before enabling the new basic authentication module, disable all the other IIS authentication modules. By default, only Windows authentication and anonymous authentication are enabled. Because we do not want the browser to attempt authenticating with your Windows credentials or allow anonymous users, we disable both the Windows Authentication module and the Anonymous authentication module.
 
-Now enable the module by adding it to the list of modules loaded by our application. Open web.config once again and add the entry inside to the &lt;modules&gt; tag
+Now enable the module by adding it to the list of modules loaded by our application. Open web.config once again and add the entry inside to the `<modules>` tag
 
 
 [!code-xml[Main](developing-a-module-using-net/samples/sample5.xml)]

@@ -137,11 +137,11 @@ For IIS to host PHP applications, you must add a handler mapping that tells IIS 
     [![](using-fastcgi-to-host-php-applications-on-iis/_static/image9.png)](using-fastcgi-to-host-php-applications-on-iis/_static/image8.png)
 
     > [!NOTE]
-	> If you do not see **FastCgiModule** in the **Modules:** list, the module is either not registered or not enabled. To check if the FastCGI module is registered, open the IIS configuration file that is located at `%windir%\windows\system32\config\applicationHost.config` and check that the following line is present in the `&lt;globalModules&gt;` section:
+	> If you do not see **FastCgiModule** in the **Modules:** list, the module is either not registered or not enabled. To check if the FastCGI module is registered, open the IIS configuration file that is located at `%windir%\windows\system32\config\applicationHost.config` and check that the following line is present in the `<globalModules>` section:
 
     [!code-xml[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample3.xml)]
 
-    In the same file, also check that the FastCGI module is added to the &lt;modules&gt; section:
+    In the same file, also check that the FastCGI module is added to the `<modules>` section:
 
     [!code-xml[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample4.xml)]
 
@@ -285,7 +285,7 @@ and website2 can have the PHP handler mapping as follows:
 
 When the PHP process starts, it determines the location of the configuration php.ini file by using various settings. [The PHP documentation](http://www.php.net/manual/en/configuration.php) provides a detailed description of the PHP startup process. One of the places where the PHP process searches for the php.ini location is the PHPRC environment variable. If the PHP process finds a php.ini file in the path that is specified in this environment variable, it will use it; otherwise, the PHP process will revert to using the default location of the php.ini file. This environment variable can be used to allow hosting customers to use their own versions of php.ini files.
 
-For example if there are two Web sites "website1" and "website2" that are located at the following file paths: `C:\WebSites\website1` and `C:\WebSites\website2`, you can configure the php-cgi.exe process pools in the `&lt;fastCgi&gt;` section of the applicationHost.config file as follows:
+For example if there are two Web sites "website1" and "website2" that are located at the following file paths: `C:\WebSites\website1` and `C:\WebSites\website2`, you can configure the php-cgi.exe process pools in the `<fastCgi>` section of the applicationHost.config file as follows:
 
 
 [!code-xml[Main](using-fastcgi-to-host-php-applications-on-iis/samples/sample13.xml)]

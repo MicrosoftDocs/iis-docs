@@ -61,7 +61,7 @@ Two properties determine cache worthiness:
 - frequentHitTimePeriod
 - frequentHitThreshold
 
-A request is only cached if more than &lt;frequentHitThreshold&gt; requests for a cacheable URL arrive within the &lt;frequentHitTimePeriod&gt;. The default setting for frequentHitTimePeriod is 10 seconds. The default setting for frequentHitThreshold is 2 seconds.
+A request is only cached if more than `<frequentHitThreshold>` requests for a cacheable URL arrive within the &lt;frequentHitTimePeriod&gt;. The default setting for frequentHitTimePeriod is 10 seconds. The default setting for frequentHitThreshold is 2 seconds.
 
 ## Configure Output Caching Through the IIS Manager
 

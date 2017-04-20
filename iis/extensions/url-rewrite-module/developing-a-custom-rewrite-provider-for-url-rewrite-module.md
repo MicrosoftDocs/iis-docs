@@ -73,7 +73,7 @@ Once the provider has been successfully built and placed into the GAC, it needs 
 6. Click OK to save the setting
 7. Repeat steps 5 and 6 but now choose "New Character" and specify "-" as a value. This means that the provider will be used to replace all occurrences of "\_" character with "-" character in the input string.
 
-This completes the registration and configuration of a rewrite provider. As a result the web.config file for the default web site will contain the following XML code inside of the &lt;rewrite&gt; section:
+This completes the registration and configuration of a rewrite provider. As a result the web.config file for the default web site will contain the following XML code inside of the `<rewrite>` section:
 
 
 [!code-xml[Main](developing-a-custom-rewrite-provider-for-url-rewrite-module/samples/sample2.xml)]
@@ -83,7 +83,7 @@ This completes the registration and configuration of a rewrite provider. As a re
 
 Now that the rewrite provider has been registered it can be used in the inbound and outbound rules. To test the provider you will create a rule that redirects all requests for URLs that have "\_" symbol to the URL where that symbol is replaced with "-". For example a request to a URL like this `http://localhost/some_blog_post/` will be redirected to `http://localhost/some-blog-post/`.
 
-To create a rule that uses this rewrite provider add the following XML code inside of the &lt;rewrite&gt; element in the web.config file:
+To create a rule that uses this rewrite provider add the following XML code inside of the `<rewrite>` element in the web.config file:
 
 
 [!code-xml[Main](developing-a-custom-rewrite-provider-for-url-rewrite-module/samples/sample3.xml)]

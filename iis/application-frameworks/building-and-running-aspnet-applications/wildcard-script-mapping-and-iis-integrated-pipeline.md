@@ -30,7 +30,7 @@ Now, as you move your application to IIS 7 and above, you want to configure it t
 
 ### Wildcard script mapping in IIS 7 and above classic pipeline mode
 
-With classic pipeline mode the ASP.NET is plugged into the IIS request processing pipeline as an ISAPI extension - exactly the same way as it was in IIS 6. In fact, if you open `%WINDIR%\system32\inetsrv\config\applicationHost.config` file and locate the &lt;handlers&gt; section inside of it you can see how IIS is configured to map ASP.NET specific requests to the **aspnet\_isapi.dll**:
+With classic pipeline mode the ASP.NET is plugged into the IIS request processing pipeline as an ISAPI extension - exactly the same way as it was in IIS 6. In fact, if you open `%WINDIR%\system32\inetsrv\config\applicationHost.config` file and locate the `<handlers>` section inside of it you can see how IIS is configured to map ASP.NET specific requests to the **aspnet\_isapi.dll**:
 
 [!code-xml[Main](wildcard-script-mapping-and-iis-integrated-pipeline/samples/sample1.xml)]
 
@@ -49,7 +49,7 @@ Next, switch to the ordered list view for the handler mappings by clicking on "V
 
 ![](wildcard-script-mapping-and-iis-integrated-pipeline/_static/image5.png)
 
-If you open a web.config file and look into the &lt;handlers&gt; section you should see that the wildcard script map for ASP.NET is located just before the StaticFile hanlder:
+If you open a web.config file and look into the `<handlers>` section you should see that the wildcard script map for ASP.NET is located just before the StaticFile hanlder:
 
 [!code-xml[Main](wildcard-script-mapping-and-iis-integrated-pipeline/samples/sample2.xml)]
 
@@ -67,7 +67,7 @@ For example let's say you had a URL rewriting module written in ASP.NET. On IIS 
 [!code-xml[Main](wildcard-script-mapping-and-iis-integrated-pipeline/samples/sample3.xml)]
 
 
-Since on IIS 6 this module was only executed for requests to managed content, it only worked for URLs that had .aspx extension, such *as http://example.com/archive/2008/08/26/post-title.**aspx***. If you wanted it to handle extension-less URLs you had to configure wildcard script mapping for ASP.NET. With IIS 7 and above integrated pipeline you do not have to do that anymore. In order to make this module apply to extension-less URLs you need to register it within the &lt;system.webServer&gt; section inside of web.config file as below:
+Since on IIS 6 this module was only executed for requests to managed content, it only worked for URLs that had .aspx extension, such *as http://example.com/archive/2008/08/26/post-title.**aspx***. If you wanted it to handle extension-less URLs you had to configure wildcard script mapping for ASP.NET. With IIS 7 and above integrated pipeline you do not have to do that anymore. In order to make this module apply to extension-less URLs you need to register it within the `<system.webServer>` section inside of web.config file as below:
 
 [!code-xml[Main](wildcard-script-mapping-and-iis-integrated-pipeline/samples/sample4.xml)]
 
@@ -75,7 +75,7 @@ Make sure that you leave the preCondition attribute empty here as it would enfor
 
 Registering your managed modules this way does not have such dramatic performance impact as when using wildcard script mappings. Even though the module is invoked for all requests to web application, all the existing handler mappings are still in effect, which means that the static files are still served by the native IIS static file handler. Another benefit of registering your module this way is that now it can be applied to requests for PHP, ASP or any other dynamic pages. You would not be able to do that if you used wildcard script mappings.
 
-One last thing to mention here is that you can also use the attribute on the &lt;modules&gt; section called **runAllManagedModulesForAllRequests**.
+One last thing to mention here is that you can also use the attribute on the `<modules>` section called **runAllManagedModulesForAllRequests**.
 
 [!code-xml[Main](wildcard-script-mapping-and-iis-integrated-pipeline/samples/sample5.xml)]
 

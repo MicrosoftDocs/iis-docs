@@ -46,7 +46,7 @@ Sysprep is not going away. It is still there and works like in previous Windows 
 
 #### Can appcmd be used to update scriptmaps (handlers)? Does this require an IISReset? Can this be removed from customer's delegations?
 
-Appcmd can be used to update scriptmaps. No IIS reset is required. Delegation can be turned off or on like any other feature by using the overrideMode or overrideModeDefault on &lt;handlers&gt; config section in applicationhost.config.
+Appcmd can be used to update scriptmaps. No IIS reset is required. Delegation can be turned off or on like any other feature by using the overrideMode or overrideModeDefault on `<handlers>` config section in applicationhost.config.
 
 #### If a customer has multiple delegated connections in the IIS Connection Manager, can the credentials be cached and used for all connections?
 
@@ -96,4 +96,4 @@ This is by design. Site start/stop is not a configuration operation. It is a run
 
 #### Is it possible to filter the list of websites in the IIS Manager GUI?
 
-Yes, click on 'sites' node, and the list async loads in the content pane. Enter search criteria in list box, and the list of sites is filtered. Double click on a site and it will open under &lt;sites&gt; node, without expanding all sites (unless there are less than a few hundred sites). You do not have to wait for the site list to load to begin searching.
+Yes, click on 'sites' node, and the list async loads in the content pane. Enter search criteria in list box, and the list of sites is filtered. Double click on a site and it will open under `<sites>` node, without expanding all sites (unless there are less than a few hundred sites). You do not have to wait for the site list to load to begin searching.

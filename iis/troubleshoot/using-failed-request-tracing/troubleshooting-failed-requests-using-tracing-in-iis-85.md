@@ -149,7 +149,7 @@ You should see the following definition for the **Default Web Site**:
 
 [![](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image21.jpg)](troubleshooting-failed-requests-using-tracing-in-iis-85/_static/image20.jpg)
 
-IIS Manager writes the configuration to the `%systemdrive%\config inetpub\wwwroot\web.config` file by using a &lt;location&gt; tag. The configuration should look as follows:
+IIS Manager writes the configuration to the `%systemdrive%\config inetpub\wwwroot\web.config` file by using a `<location>` tag. The configuration should look as follows:
 
 
 [!code-xml[Main](troubleshooting-failed-requests-using-tracing-in-iis-85/samples/sample4.xml)]

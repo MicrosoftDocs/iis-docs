@@ -49,7 +49,7 @@ Online, Reverse Forwarders can be installed by calling dism on the relevant pack
 
 - `dism /online /add-package /packagepath:c:\packages\Microsoft-OneCore-ReverseForwarders-Package.cab`
 - `dism /online /add-package /packagepath:c:\packages\en-us\Microsoft-OneCore-ReverseForwarders-Package.cab`
-- `&lt;reboot&gt;`
+- `<reboot>`
 
 The 1st command installs the Reverse Forwarders feature package.
 

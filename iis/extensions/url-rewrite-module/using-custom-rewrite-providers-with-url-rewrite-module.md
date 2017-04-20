@@ -86,7 +86,7 @@ Use the following values for the provider settings:
 
 In the root directory of a web site open **web.config** file. If you use IIS Default Web Site, then the file should be located in `C:\inetpub\wwwroot\` folder.
 
-Paste the following redirect rule into the web.config file inside of the `/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;` element:
+Paste the following redirect rule into the web.config file inside of the `/<configuration>/<system.webServer>/<rewrite>/<rules>` element:
 
 
 [!code-xml[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample2.xml)]
@@ -128,7 +128,7 @@ Configure the FileMapProvider by following the same steps as described in [Confi
 
 In the root directory of a web site open **web.config** file. If you use IIS Default Web Site, then the file should be located in `C:\inetpub\wwwroot\` folder.
 
-Paste the following redirect rule into the web.config file inside of the `/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;` element:
+Paste the following redirect rule into the web.config file inside of the `/<configuration>/<system.webServer>/<rewrite>/<rules>` element:
 
 
 [!code-xml[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample5.xml)]
@@ -169,7 +169,7 @@ Configure the FileMapProvider by following the same steps as described in [Confi
 
 In the root directory of a web site open **web.config** file. If you use IIS Default Web Site, then the file should be located in `C:\inetpub\wwwroot\` folder.
 
-Paste the following redirect rule into the web.config file inside of the `/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;` element:
+Paste the following redirect rule into the web.config file inside of the `/<configuration>/<system.webServer>/<rewrite>/<rules>` element:
 
 
 [!code-xml[Main](using-custom-rewrite-providers-with-url-rewrite-module/samples/sample8.xml)]

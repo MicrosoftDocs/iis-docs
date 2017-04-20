@@ -48,7 +48,7 @@ The tool works by executing a command on one of the supported management objects
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample1.cmd)]
 
-Where `&lt;COMMAND&gt;` is one of the commands supported by `&lt;OBJECT&gt;`. Most objects support this basic set of commands:
+Where `<COMMAND>` is one of the commands supported by `<OBJECT>`. Most objects support this basic set of commands:
 
 - **LIST** Display the objects on the machine. An optional &lt;ID&gt; can specify a unique object to list, or one or more parameters can be specified to match against object properties.
 - **ADD** Create a new object with the specified object properties to set during creation.
@@ -57,7 +57,7 @@ Where `&lt;COMMAND&gt;` is one of the commands supported by `&lt;OBJECT&gt;`. Mo
 
 An object will often support additional commands, such as START and STOP for the Site object.
 
-For example, the current set of objects available through AppCmd is (where `&lt;OBJECT&gt;` is one of the management objects supported by the tool)**:** 
+For example, the current set of objects available through AppCmd is (where `<OBJECT>` is one of the management objects supported by the tool)**:** 
 
 
 | Object | Description |
@@ -74,7 +74,7 @@ For example, the current set of objects available through AppCmd is (where `&lt;
 | Trace | Management of server trace logs |
 
 
-Where `&lt;ID&gt;` is the object-specific identifier for the object instance you want to specify for the command. The format of the identifier is specific to each object type. For example, the Site object uses the site name, the App object uses the application path, and the AppPool object used the application pool name.
+Where `<ID>` is the object-specific identifier for the object instance you want to specify for the command. The format of the identifier is specific to each object type. For example, the Site object uses the site name, the App object uses the application path, and the AppPool object used the application pool name.
 
 Where **[ /parameter:value ]\*** is zero or more parameters for the command. Each command supports a different set of parameters, depending on the object. Typically, commands that search for objects or manipulate object properties will allow any of the object's properties to be specified as a parameter.
 
@@ -102,7 +102,7 @@ The object help screen shows the commands supported by a specific object. To dis
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample4.cmd)]
 
-where `&lt;OBJECT&gt;` is one of the supported object types. For example, this command-line will display help for the site object:
+where `<OBJECT>` is one of the supported object types. For example, this command-line will display help for the site object:
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample5.cmd)]
 
@@ -437,7 +437,7 @@ To display effective configuration for particular url level, use the LIST comman
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample67.cmd)]
 
-Where `&lt;URL&gt;` is the configuration path at which the effective configuration should be read, such as "Default Web Site/" or "Default Web Site/app1/hello.html". If not specified, it defaults to server level.
+Where `<URL>` is the configuration path at which the effective configuration should be read, such as "Default Web Site/" or "Default Web Site/app1/hello.html". If not specified, it defaults to server level.
 
 To learn more about the IIS configuration hierarchy and how to build IIS configuration paths for use with AppCmd and other tools, see [Anatomy of an IIS7 and Above Configuration Path](http://mvolo.com/anatomy-of-an-iis7-configuration-path/).
 
@@ -465,7 +465,7 @@ In AppCmd, each configuration section is exposed as an instance of a configurati
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample73.cmd)]
 
-`&lt;URL&gt;` is optional; it specifies at what configuration path the change should apply. It omitted, changes will be applied at the server level, to be inherited by all URLs.
+`<URL>` is optional; it specifies at what configuration path the change should apply. It omitted, changes will be applied at the server level, to be inherited by all URLs.
 
 The **section** parameter is required; it indicates the section that is being edited.
 
@@ -488,7 +488,7 @@ To display all of the properties that can be set on a particular configuration s
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample78.cmd)]
 
 > [!NOTE]
-> Note that the asp section is locked by default, so executing these commands will return a lock violation error. You can either unlock this section first, set the configuration at the server level by omitting the `&lt;URL&gt;`, or commit them to the server level location tag by using /commit:apphost. See **controlling location of configuration** further in the article.
+> Note that the asp section is locked by default, so executing these commands will return a lock violation error. You can either unlock this section first, set the configuration at the server level by omitting the `<URL>`, or commit them to the server level location tag by using /commit:apphost. See **controlling location of configuration** further in the article.
 
 ### Editing Configuration Collections
 
@@ -527,7 +527,7 @@ The commit parameter can be set to one of the following:
 - **site** — write configuration in the Web.config at the site root of the url for which it is set
 - **app** — write configuration in the Web.config at the app root of the url for which it is set
 - **apphost** — write configuration at the server level, in the applicationHost.config file
-- `&lt;PATH&gt;` — write configuration at the specified config path
+- `<PATH>` — write configuration at the specified config path
 
 For example, this command-line turns directory browsing off for an application, and writes that configuration within the Web.config file of the site root:
 

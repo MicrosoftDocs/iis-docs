@@ -39,11 +39,11 @@ The schema for each configuration section is defined in an XML element. There is
 [!code-xml[Main](iis-7-and-iis-8-configuration-reference/samples/sample1.xml)]
 
 
-`&lt;attribute-name&gt;` is the name of the configuration attribute, as it appears in XML. Every attribute must have a name.
+`<attribute-name>` is the name of the configuration attribute, as it appears in XML. Every attribute must have a name.
 
-`&lt;default-value&gt;` is the value used by default, if no other value is specified in the XML for the attribute. Not all attributes have default values (for example, site name). In this case, the syntax will be "".
+`<default-value>` is the value used by default, if no other value is specified in the XML for the attribute. Not all attributes have default values (for example, site name). In this case, the syntax will be "".
 
-`&lt;metadata&gt;` contains several items:
+`<metadata>` contains several items:
 
 - The runtime type of the attribute. This is one of "bool", "enum", "flags", "int", "int64", "String", "timeSpan". Every attribute must have a type.
 - "bool" is "true" or "false".
@@ -55,7 +55,7 @@ The schema for each configuration section is defined in an XML element. There is
 - "timeSpan" is a representation of a time unit, similar to the managed-code type TimeSpan. It can be persisted as a number (representing seconds, or minutes); or as a formatted string in the form of "[dd:]hh:mm:ss". The "[dd:]" element represents an optional number of days. The other elements represent numbers of hours, minutes and seconds, respectively. The "timeSpanFormat" attribute specifies which format should be used: number of seconds, number of minutes, or a formatted string.
 - Required attributes are marked "Required". It means that a value for them must be set in the XML. For example, site name is a required attribute (every site must have a name in IIS).
 
-`&lt;description&gt;` is a short description of the attribute.
+`<description>` is a short description of the attribute.
 
 <a id="Selection"></a>
 
@@ -67,7 +67,7 @@ The &lt;sectionSchema&gt; XML element is the base unit of schema information. Al
 
 ## Attribute Schema
 
-Every attribute is defined in a corresponding &lt;attribute&gt; XML element in the schema. The &lt;attribute&gt; element may be in the &lt;sectionSchema&gt; element directly (if the attribute is in the section scope); or in the element (if the attribute is in a sub-element within the section); or in the &lt;collection&gt; element (if the attribute is in a collection within the section).
+Every attribute is defined in a corresponding `<attribute>` XML element in the schema. The `<attribute>` element may be in the &lt;sectionSchema&gt; element directly (if the attribute is in the section scope); or in the element (if the attribute is in a sub-element within the section); or in the &lt;collection&gt; element (if the attribute is in a collection within the section).
 
 An attribute schema must specify a name and a runtime type for the attribute. It may mark the attribute as required. It may mark the attribute as the unique key (if inside a collection), or as part of a collection key (together with other attributes). It may specify a default value for the attribute. It may mark the attribute for automatic encryption on-disk. It may specify if the word "Infinite" is allowed as a value for the attribute (only for numeric types such as int and in64, and for timeSpan). It may specify the timespan format (seconds, minutes or formatted string) for timespan attributes. It may specify validation rules for the attributes (see Attribute Validation section below in this document).
 
@@ -77,7 +77,7 @@ An attribute schema must specify a name and a runtime type for the attribute. It
 
 ## Element Schema
 
-Every element is defined in a corresponding &lt;element&gt; XML element in the schema. Elements can be nested. An element is simply a container for other attributes, or sub-elements. It must have a name and it may serve as a container of default values for collection elements (for example, siteDefaults holds the default values for sites in the &lt;sites&gt; collection).
+Every element is defined in a corresponding `<element>` XML element in the schema. Elements can be nested. An element is simply a container for other attributes, or sub-elements. It must have a name and it may serve as a container of default values for collection elements (for example, siteDefaults holds the default values for sites in the `<sites>` collection).
 
 [!code-xml[Main](iis-7-and-iis-8-configuration-reference/samples/sample3.xml)]
 
@@ -173,7 +173,7 @@ The system supports these validators:
 
 <a id="ConfigsSec"></a>
 
-## &lt;configSections&gt; Section
+## `<configSections>` Section
 
 This is the very first section in the file. It contains a list of all other sections in the file. This is the point of registration for the sections (for example, to unregister a section from the system, remove its line from this section – no need to remove its schema file from the config\schema directory).
 

@@ -57,7 +57,7 @@ This is the main configuration file for IIS 7.0 and later. The ApplicationHost.c
 URL-specific configuration settings can either be stored directly within the code or in the content directories of a Web site using Web.config files. These are the same Web.config files that are used by the ASP.NET application framework to store application settings.
 
 > [!NOTE]
-> You can also store URL-specific configuration settings in the ApplicationHost.config file using `&lt;location&gt;` tags.
+> You can also store URL-specific configuration settings in the ApplicationHost.config file using `<location>` tags.
 
 ### Redirection.config
 

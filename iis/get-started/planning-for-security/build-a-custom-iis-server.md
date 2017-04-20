@@ -42,13 +42,13 @@ Tasks illustrated in this article include:
 
 ## Review of the Default Module Configuration
 
-The main server configuration is contained in the applicationHost.config file, located in the IIS configuration directory `%windir%\system32\inetsrv\config\`. We look at the following configuration contained in the &lt;system.webServer&gt; section group:
+The main server configuration is contained in the applicationHost.config file, located in the IIS configuration directory `%windir%\system32\inetsrv\config\`. We look at the following configuration contained in the `<system.webServer>` section group:
 
-`&lt;globalModules&gt;` section. This server-level section contains the list of modules loaded by the server worker process, and the associated native DLLs that implement their functionality.
+`<globalModules>` section. This server-level section contains the list of modules loaded by the server worker process, and the associated native DLLs that implement their functionality.
 
-`&lt;modules&gt;` section. This application-level section contains the list of modules enabled for a particular application. This section serves to select the subset of loaded modules that should be active in an application, and also to load additional application level modules.
+`<modules>` section. This application-level section contains the list of modules enabled for a particular application. This section serves to select the subset of loaded modules that should be active in an application, and also to load additional application level modules.
 
-`&lt;handlers&gt;` section. This URL-level section contains the handler mappings that the server uses to map incoming requests to a particular module that will process it. This is similar to the IIS 6.0 scriptmaps or ASP.NET, and serves a unified mapping of requests to both native and managed content type handlers.
+`<handlers>` section. This URL-level section contains the handler mappings that the server uses to map incoming requests to a particular module that will process it. This is similar to the IIS 6.0 scriptmaps or ASP.NET, and serves a unified mapping of requests to both native and managed content type handlers.
 
 The full description of all IIS modules is available in the [IIS 7.0 and Above Modules Overview.](../introduction-to-iis/iis-modules-overview.md)
 
@@ -89,7 +89,7 @@ Navigate to the &lt;system.webServer&gt;/&lt;modules&gt; section. This section, 
 
 Navigate to the &lt;system.webServer&gt;/&lt;handlers&gt; section. This section, which can be configured at the server, application, or URL-level, specifies how requests are handled. Modules typically participate in each and every request, whereas handlers only get requests for a particular URL.
 
-A good example of a module is the compression module. The compression module looks at each response and compresses it if required. The ASP.NET page handler is a good example. It receives only requests that are mapped to it, for example requests that have the extension .aspx. The &lt;handlers&gt; list defines the mappings between a request based on the URL and verb, and a handling module that will be used to process this request. There is also some extra information that is used to configure each mapping, which is not the focus in this topic.
+A good example of a module is the compression module. The compression module looks at each response and compresses it if required. The ASP.NET page handler is a good example. It receives only requests that are mapped to it, for example requests that have the extension .aspx. The `<handlers>` list defines the mappings between a request based on the URL and verb, and a handling module that will be used to process this request. There is also some extra information that is used to configure each mapping, which is not the focus in this topic.
 
 [!code-xml[Main](build-a-custom-iis-server/samples/sample7.xml)]
 
@@ -124,12 +124,12 @@ If we changed the applicationHost.config file during the previous task, we can r
 Now to strip down the server.
 
 1. Use a text editor to open `%windir%\system32\inetsrv\config\applicationHost.config`.
-2. Navigate to the `&lt;system.webServer&gt;/&lt;globalModules&gt;` section.
+2. Navigate to the `<system.webServer>/<globalModules>` section.
 3. Remove all of the entries in the collection, so that only an empty section definition remains:  
 
     [!code-xml[Main](build-a-custom-iis-server/samples/sample10.xml)]
 4. Paste the items into a scratch notepad window for use later. Repeat the same with the &lt;system.webServer&gt;/&lt;modules&gt; section. Remove all of the entries under this section and paste them into a scratch notepad for later use. This ensures we are not enabling any modules we no longer load. Paste these cut items into a scratch notepad window for use later.
-5. Repeat the same with the `&lt;system.webServer&gt;/&lt;handlers&gt;` section. Remove all of the entries under this section, to make sure we are not specifying any handler mappings with modules we disabled. Paste the items into a scratch notepad for later use. Save the applicationHost.config file to effect the changes.
+5. Repeat the same with the `<system.webServer>/<handlers>` section. Remove all of the entries under this section, to make sure we are not specifying any handler mappings with modules we disabled. Paste the items into a scratch notepad for later use. Save the applicationHost.config file to effect the changes.
 
 ### Examine the Stripped Down Server Footprint
 

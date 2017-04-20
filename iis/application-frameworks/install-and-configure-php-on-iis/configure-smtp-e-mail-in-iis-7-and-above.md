@@ -88,7 +88,7 @@ To configure SMTP e-mail to store e-mails in a file location on disk for later d
 
 The variable from string is the e-mail address of the sender. The variable/deliveryMethod:PickupDirectoryFromIis|SpecifiedPickupDirectory string configures IIS to store e-mails in a file location on disk for later delivery. The variable /SpecifiedPickupDirectory string sets the file location on disk in which to store the e-mail messages for later delivery.
 
-Note that when you use Appcmd.exe to configure the `&lt;mailSettings&gt;` element at the global level in IIS, you must specify **/commit:WEBROOT** in the command so that configuration changes are made to the root Web.config file instead of the ApplicationHost.config file.
+Note that when you use Appcmd.exe to configure the `<mailSettings>` element at the global level in IIS, you must specify **/commit:WEBROOT** in the command so that configuration changes are made to the root Web.config file instead of the ApplicationHost.config file.
 
 ### Edit the Configuration Files
 

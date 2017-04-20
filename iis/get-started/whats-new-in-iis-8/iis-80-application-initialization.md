@@ -79,7 +79,7 @@ Modify the application pool entry so that the application pool is always running
 
 [!code-xml[Main](iis-80-application-initialization/samples/sample1.xml)]
 
-Scroll down a little more in applicationHost.config to the &lt;sites&gt; configuration element. Within that section there will be an &lt;application&gt; entry for the sample application (see the Appendix for instructions on creating the sample application on your machine). The application is called "appinit", and has a path attribute value of "/appinit". Modify the &lt;application&gt; entry by adding the bolded **preloadEnabled** attribute as shown in the configuration snippet and then save your changes.
+Scroll down a little more in applicationHost.config to the `<sites>` configuration element. Within that section there will be an `<application>` entry for the sample application (see the Appendix for instructions on creating the sample application on your machine). The application is called "appinit", and has a path attribute value of "/appinit". Modify the `<application>` entry by adding the bolded **preloadEnabled** attribute as shown in the configuration snippet and then save your changes.
 
 [!code-xml[Main](iis-80-application-initialization/samples/sample2.xml)]
 
@@ -97,7 +97,7 @@ Using a second instance of Notepad, open up the application level web.config fil
 
 Note: Change the drive letter if your Default Web Site is installed on a different physical drive.
 
-The web.config file has a few configuration sections already pre-populated, but commented out. Uncomment the configuration snippet shown that is inside of the &lt;system.webServer&gt; configuration section. This snippet is just below the comment "Exercise 1 - Step 1" in the web.config file. Then save your changes.
+The web.config file has a few configuration sections already pre-populated, but commented out. Uncomment the configuration snippet shown that is inside of the `<system.webServer>` configuration section. This snippet is just below the comment "Exercise 1 - Step 1" in the web.config file. Then save your changes.
 
 [!code-xml[Main](iis-80-application-initialization/samples/sample4.xml)]
 
@@ -199,11 +199,11 @@ Also, to ensure the changes take effect in IIS, from an *elevated* command promp
 
 #### Modifications to application level web.config
 
-Using the instance of Notepad that has the application-level web.config open, remove the **remapManagedRequestsTo** attribute from the &lt;applicationInitialization&gt; element. The &lt;applicationInitialization&gt; configuration section should now look like this configuration snippet.
+Using the instance of Notepad that has the application-level web.config open, remove the **remapManagedRequestsTo** attribute from the `<applicationInitialization>` element. The `<applicationInitialization>` configuration section should now look like this configuration snippet.
 
 [!code-xml[Main](iis-80-application-initialization/samples/sample11.xml)]
 
-Because the &lt;applicationInitialization&gt; element no longer defines a Url to remap requests to, add a set of Url Rewrite rules. Next, add a rewrite rule that explicitly maps requests made to "default.aspx", as well as "/" to route to "Startup.htm". Two rules are needed because the Url Rewrite Module doesn't "know" about how default documents work. Since "/" equates to "default.aspx" in ASP.NET applications, you need two Url Rewrite rules - one rule for each Url variation.
+Because the `<applicationInitialization>` element no longer defines a Url to remap requests to, add a set of Url Rewrite rules. Next, add a rewrite rule that explicitly maps requests made to "default.aspx", as well as "/" to route to "Startup.htm". Two rules are needed because the Url Rewrite Module doesn't "know" about how default documents work. Since "/" equates to "default.aspx" in ASP.NET applications, you need two Url Rewrite rules - one rule for each Url variation.
 
 The new rules are shown in bold below. Alternatively you can uncomment the pre-populated Url Rewrite rules under the "Exercise 2 - Step 2 Mapping Requests to the Home Page" comment in the web.config file.
 

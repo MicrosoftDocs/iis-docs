@@ -86,7 +86,7 @@ In the &lt;moduleProviders&gt; collection, add the following entry:
 [!code-xml[Main](sample-image-watermark-module/samples/sample5.xml)]
 
 
-And add the following line to the &lt;modules&gt; collection:
+And add the following line to the `<modules>` collection:
 
 
 [!code-xml[Main](sample-image-watermark-module/samples/sample6.xml)]

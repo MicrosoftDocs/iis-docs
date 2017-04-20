@@ -71,7 +71,7 @@ The following performance counter objects are available:
 - Miss Requests
 - Miss Requests / Sec
 
-Since ARR also provides the above statistics per host name per server farm, the instances of the objects have the same granularity and they are shown as `&lt;server farm name&gt;\&lt;host name&gt;`, as shown below:
+Since ARR also provides the above statistics per host name per server farm, the instances of the objects have the same granularity and they are shown as `<server farm name>\<host name>`, as shown below:
 
 [![](using-performance-counters/_static/image4.jpg)](using-performance-counters/_static/image3.jpg)
 
@@ -92,7 +92,7 @@ The following performance counter objects are available:
 - State
 - Total Requests
 
-Since ARR also provides the above statistics per server per server farm, the instances of the objects have the same granularity and they are shown as `&lt;server farm name&gt;\&lt;server name&gt;`, as shown below:
+Since ARR also provides the above statistics per server per server farm, the instances of the objects have the same granularity and they are shown as `<server farm name>\<server name>`, as shown below:
 
 [![](using-performance-counters/_static/image6.jpg)](using-performance-counters/_static/image5.jpg)
 
