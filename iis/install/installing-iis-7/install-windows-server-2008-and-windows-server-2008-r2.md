@@ -30,19 +30,19 @@ Windows Server 2008 and Windows Server 2008 R2 are available in multiple edition
 
 ## Hardware Requirements
 
-***Processor**—Processor performance depends not only on the clock frequency of the processor, but also on the number of processor cores and the size of the processor cache. The following are the processor requirements:*
+***Processor*** *— Processor performance depends not only on the clock frequency of the processor, but also on the number of processor cores and the size of the processor cache. The following are the processor requirements:*
 
 - **Minimum:** 1 GHz (for x86 processors) or 1.4 GHz (for x64 processors)
 - **Recommended:** 2 GHz or faster
 
-***RAM**—The following are the RAM requirements:*
+***RAM*** *— The following are the RAM requirements:*
 
 - **Minimum:** 512 MB
 - **Recommended:** 2 GB or more
 - **Maximum (32-bit systems):** 4 GB (for Windows Server 2008 Standard) or 64 GB (for Windows Server 2008 Enterprise or Windows Server 2008 Datacenter)
 - **Maximum (64-bit systems):** 32 GB (for Windows Server 2008 Standard) or 2 terabyte (for Windows Server 2008 Enterprise, Windows Server 2008 Datacenter, or Windows Server® 2008 for Itanium-Based Systems)
 
-***Disk space requirements**—The following are the approximate disk space requirements for the system partition. Itanium-based and x64-based operating systems will vary from these estimates. Additional disk space may be required if you install the system over a network:*
+***Disk space requirements*** *—The following are the approximate disk space requirements for the system partition. Itanium-based and x64-based operating systems will vary from these estimates. Additional disk space may be required if you install the system over a network:*
 
 - **Minimum:** 10 GB
 - **Recommended:** 40 GB or more
