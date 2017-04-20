@@ -1,5 +1,5 @@
 ---
-title: "Live Broadcasting with Silverlight and Windows Media - Streaming Media West 2009 | Microsoft Docs"
+title: "Live Broadcasting with Silverlight and Windows Media | Microsoft Docs"
 author: Microsoft
 description: "This video is from the 'Live Broadcasting with Silverlight and Windows Media' pre-conference workshop conducted by Chris Knowlton at Streaming Media West in..."
 ms.author: iiscontent
@@ -12,7 +12,7 @@ ms.prod: iis
 msc.legacyurl: /learn/media/streaming-media-conference-workshops/live-broadcasting-with-silverlight-and-windows-media-streaming-media-west-2009
 msc.type: video
 ---
-Live Broadcasting with Silverlight and Windows Media - Streaming Media West 2009
+Live Broadcasting with Silverlight and Windows Media
 ====================
 by [Microsoft](https://github.com/Microsoft)
 
