@@ -1,5 +1,5 @@
 ---
-title: "How to configure WMI service on application servers for HostNameMemory affinity provider | Microsoft Docs"
+title: "Configure WMI on application servers for HostNameMemory affinity provider | Microsoft Docs"
 author: rick-anderson
 description: "Overview In ARR Version 1, there are two host name affinity providers: Microsoft.Web.Arr.HostNameRoundRobin Microsoft.Web.Arr.HostNameMemory Microsoft.Web.Ar..."
 ms.author: iiscontent
@@ -12,7 +12,7 @@ ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider
 msc.type: authoredcontent
 ---
-How to configure WMI service on application servers for HostNameMemory affinity provider
+Configure WMI on application servers for HostNameMemory affinity provider
 ====================
 by Won Yoo
 

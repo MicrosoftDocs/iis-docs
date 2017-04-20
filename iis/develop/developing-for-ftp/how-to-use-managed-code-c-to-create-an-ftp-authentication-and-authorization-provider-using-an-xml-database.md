@@ -1,5 +1,5 @@
 ---
-title: "How to Use Managed Code (C#) to Create an FTP Authentication and Authorization Provider using an XML Database | Microsoft Docs"
+title: "Create an FTP Authentication and Authorization Provider using an XML Database | Microsoft Docs"
 author: rmcmurray
 description: "[This documentation is preliminary and is subject to change.] Compatibility Version Notes IIS 8.0 The FTP 8.0 service is required for custom authorization. I..."
 ms.author: iiscontent
@@ -12,7 +12,7 @@ ms.prod: iis
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database
 msc.type: authoredcontent
 ---
-How to Use Managed Code (C#) to Create an FTP Authentication and Authorization Provider using an XML Database
+Create an FTP Authentication and Authorization Provider using an XML Database
 ====================
 by [Robert McMurray](https://github.com/rmcmurray)
 
