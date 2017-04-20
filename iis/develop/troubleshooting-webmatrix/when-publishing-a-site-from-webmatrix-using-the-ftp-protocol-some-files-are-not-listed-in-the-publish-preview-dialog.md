@@ -1,5 +1,5 @@
 ---
-title: "When publishing a site from WebMatrix using the FTP protocol, some files are not listed in the Publish Preview dialog. | Microsoft Docs"
+title: "When publishing a site from WebMatrix, some files are not listed in the dialog | Microsoft Docs"
 author: bilalaslam
 description: "When publishing a site from WebMatrix using the FTP protocol, some files are not listed in the Publish Preview dialog. How to reproduce Publish site from to..."
 ms.author: iiscontent
@@ -12,7 +12,7 @@ ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/when-publishing-a-site-from-webmatrix-using-the-ftp-protocol-some-files-are-not-listed-in-the-publish-preview-dialog
 msc.type: authoredcontent
 ---
-When publishing a site from WebMatrix using the FTP protocol, some files are not listed in the Publish Preview dialog.
+When publishing a site from WebMatrix, some files are not listed in the dialog
 ====================
 by [Bilal Aslam](https://github.com/bilalaslam)
 

@@ -37,7 +37,7 @@
 ## Localized Content
 ### [Localized Japanese LEARN articles and more](get-started/localized-content/iis-localized-japanese-learn-articles-and-more.md)
 ## Case Studies
-### [Case Study: IIS 8.0 Scaling On An HP Proliant DL980 G7 8-Processor Socket System](get-started/case-studies/case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system.md)
+### [Case Study: IIS 8 Scaling On An HP Proliant DL980 G7 8-Processor Socket System](get-started/case-studies/case-study-iis-80-scaling-on-an-hp-proliant-dl980-g7-8-processor-socket-system.md)
 ## What's New in IIS 8.5?
 ### [Enhanced Logging for IIS 8.5](get-started/whats-new-in-iis-85/enhanced-logging-for-iis85.md)
 ### [Logging to Event Tracing for Windows in IIS 8.5](get-started/whats-new-in-iis-85/logging-to-etw-in-iis-85.md)
@@ -169,8 +169,8 @@
 ### [Installing the IIS 7.0 PowerShell Snap-in](manage/powershell/installing-the-iis-powershell-snap-in.md)
 ### [PowerShell Snap-in: Navigating the IIS Snap-in Namespace](manage/powershell/powershell-snap-in-navigating-the-iis-snap-in-namespace.md)
 ### [PowerShell Snap-in: Using the PowerShell Help System](manage/powershell/powershell-snap-in-using-the-powershell-help-system.md)
-### [PowerShell Snap-in: Creating Web-Sites, Web applications, Virtual Directories and Application Pools](manage/powershell/powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools.md)
-### [PowerShell Snap-in: Making Simple Configuration Changes to Web-Sites and Application Pools](manage/powershell/powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools.md)
+### [PowerShell Snap-in: Creating Websites, Web apps, Virtual Dirs and App Pools](manage/powershell/powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools.md)
+### [PowerShell Snap-in: Making Configuration Changes to Websites and App Pools](manage/powershell/powershell-snap-in-making-simple-configuration-changes-to-web-sites-and-application-pools.md)
 ### [PowerShell Snap-in: Changing Simple Settings in Configuration Sections](manage/powershell/powershell-snap-in-changing-simple-settings-in-configuration-sections.md)
 ### [PowerShell Snap-in: Advanced Configuration Tasks](manage/powershell/powershell-snap-in-advanced-configuration-tasks.md)
 ### [PowerShell Snap-in: Run-time Data](manage/powershell/powershell-snap-in-run-time-data.md)
@@ -203,7 +203,7 @@
 ### [How to Get Started Extending Module Properties for IIS 7.0 in IIS Manager](develop/extending-the-management-ui/how-to-get-started-extending-module-properties-for-iis-in-iis-manager.md)
 ### [How to Create a Simple IIS Manager Module](develop/extending-the-management-ui/how-to-create-a-simple-iis-manager-module.md)
 ### [Understanding UI Extension Authoring](develop/extending-the-management-ui/understanding-ui-extension-authoring.md)
-### [How to Create an IIS Manager Provider that uses a SQL Database to Store User Credentials](develop/extending-the-management-ui/how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials.md)
+### [Create an IIS Manager Provider that uses SQL to Store User Credentials](develop/extending-the-management-ui/how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials.md)
 ## Using Visual Studio with IIS
 ### [Using Visual Studio 2008 with IIS 7](develop/using-visual-studio-with-iis/using-visual-studio-2008-with-iis.md)
 ### [Using Visual Studio 2005 with IIS 7.0](develop/using-visual-studio-with-iis/using-visual-studio-2005-with-iis.md)
@@ -215,9 +215,9 @@
 ### [Integrate the Windows Web Application Gallery into a Control Panel](develop/windows-web-application-gallery/integrate-the-windows-web-application-gallery-into-a-control-panel.md)
 ### [Windows Web Application Gallery: Known Issues](develop/windows-web-application-gallery/windows-web-application-gallery-known-issues.md)
 ### [Using the Microsoft Web Platform Installer Badge](develop/windows-web-application-gallery/using-the-microsoft-web-platform-installer-badge.md)
-### [Database Notes for packaging applications for use with the Web Application Gallery](develop/windows-web-application-gallery/database-notes-for-packaging-applications-for-use-with-the-web-application-gallery.md)
+### [Database Notes for packaging applications for the Web Application Gallery](develop/windows-web-application-gallery/database-notes-for-packaging-applications-for-use-with-the-web-application-gallery.md)
 ### [Reference for the Web Application Package](develop/windows-web-application-gallery/reference-for-the-web-application-package.md)
-### [Testing a Web Application Zip Package for Inclusion with the Web Application Gallery](develop/windows-web-application-gallery/testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery.md)
+### [Testing a Zip Package for Inclusion with the Web Application Gallery](develop/windows-web-application-gallery/testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery.md)
 ### [How to Create an App Package Supporting both SQL Server and MySQL](develop/windows-web-application-gallery/how-to-create-an-app-package-supporting-both-sql-server-and-mysql.md)
 ### [Azure App Gallery FAQ](develop/windows-web-application-gallery/azure-app-gallery-faq.md)
 ### [Joomla! Sample files](develop/windows-web-application-gallery/joomla-sample-files.md)
@@ -268,7 +268,7 @@
 ### [Microsoft WebMatrix: Certificate errors during publishing](develop/troubleshooting-webmatrix/microsoft-webmatrix-certificate-errors-during-publishing.md)
 ### [Microsoft WebMatrix: Database errors while publishing and downloading sites](develop/troubleshooting-webmatrix/microsoft-webmatrix-database-errors-while-publishing-and-downloading-sites.md)
 ### [Microsoft WebMatrix: My Documents on network shares](develop/troubleshooting-webmatrix/microsoft-webmatrix-my-documents-on-network-shares.md)
-### [When publishing a site from WebMatrix using the FTP protocol, some files are not listed in the Publish Preview dialog.](develop/troubleshooting-webmatrix/when-publishing-a-site-from-webmatrix-using-the-ftp-protocol-some-files-are-not-listed-in-the-publish-preview-dialog.md)
+### [When publishing a site from WebMatrix, some files are not listed in the dialog](develop/troubleshooting-webmatrix/when-publishing-a-site-from-webmatrix-using-the-ftp-protocol-some-files-are-not-listed-in-the-publish-preview-dialog.md)
 ### [WebMatrix Publish and Download Troubleshooting](develop/troubleshooting-webmatrix/webmatrix-publish-and-download-troubleshooting.md)
 ### [WebMatrix MDF Migration](develop/troubleshooting-webmatrix/webmatrix-mdf-migration.md)
 ### [Issues with SQL Server Express or MySQL when using WebMatrix or WebPI](develop/troubleshooting-webmatrix/issues-with-sql-server-express-or-mysql-when-using-webmatrix-or-webpi_1298.md)
@@ -279,12 +279,12 @@
 ### [How to Use Native Code (C++) to Create a Simple FTP Home Directory Provider](develop/developing-for-ftp/how-to-use-native-code-c-to-create-a-simple-ftp-home-directory-provider.md)
 ### [How to Use Managed Code (C#) to Create a Simple FTP Logging Provider](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-a-simple-ftp-logging-provider.md)
 ### [How to Use Native Code (C++) to Create a Simple FTP Logging Provider](develop/developing-for-ftp/how-to-use-native-code-c-to-create-a-simple-ftp-logging-provider.md)
-### [How to Use Managed Code (C#) to Create an FTP Provider that Sends an Email when Files are Uploaded](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-sends-an-email-when-files-are-uploaded.md)
-### [How to Use Managed Code (C#) to Create an FTP Authentication Provider using an XML Database](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-using-an-xml-database.md)
+### [Create an FTP Provider that Sends an Email when Files are Uploaded](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-sends-an-email-when-files-are-uploaded.md)
+### [Create an FTP Authentication Provider using an XML Database](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-using-an-xml-database.md)
 ### [How to Use Managed Code (Visual Basic) to Create a Simple FTP Logging Provider](develop/developing-for-ftp/how-to-use-managed-code-visual-basic-to-create-a-simple-ftp-logging-provider.md)
-### [How to Use Managed Code (C#) to Create an FTP Authentication Provider with Dynamic IP Restrictions](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions.md)
-### [How to Use Managed Code (Visual Basic) to Create a Simple FTP Home Directory Provider](develop/developing-for-ftp/how-to-use-managed-code-visual-basic-to-create-a-simple-ftp-home-directory-provider.md)
-### [How to Use Managed Code (C#) to Create an FTP Authentication and Authorization Provider using an XML Database](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database.md)
+### [Create an FTP Authentication Provider with Dynamic IP Restrictions](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions.md)
+### [Create a Simple FTP Home Directory Provider](develop/developing-for-ftp/how-to-use-managed-code-visual-basic-to-create-a-simple-ftp-home-directory-provider.md)
+### [Create an FTP Authentication and Authorization Provider using an XML Database](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database.md)
 ### [How to Use Managed Code (C#) to Create an FTP Provider that Prevents Leeching](develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching.md)
 # Publish
 ## Deploying Application Packages
@@ -368,7 +368,7 @@
 ## Using Failed Request Tracing
 ### [How to Enable Failed Request Tracing for UNC Hosting](troubleshoot/using-failed-request-tracing/how-to-enable-failed-request-tracing-for-unc-hosting.md)
 ### [Troubleshooting Failed Requests Using Tracing in IIS 7](troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis.md)
-### [Using Failed Request Tracing Rules to Troubleshoot Application Request Routing (ARR)](troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr.md)
+### [Using Failed Request Tracing Rules to Troubleshoot Application Request Routing](troubleshoot/using-failed-request-tracing/using-failed-request-tracing-rules-to-troubleshoot-application-request-routing-arr.md)
 ### [Troubleshoot with Failed Request Tracing](troubleshoot/using-failed-request-tracing/troubleshoot-with-failed-request-tracing.md)
 ### [Troubleshooting Failed Requests Using Tracing in IIS 8.5](troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis-85.md)
 ## Performance Issues
@@ -415,7 +415,7 @@
 ### [Achieving High Availability and Scalability - ARR and Hardware Load Balancer](extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-hardware-load-balancer.md)
 ### [Achieving High Availability and Scalability - ARR and NLB](extensions/configuring-application-request-routing-arr/achieving-high-availability-and-scalability-arr-and-nlb.md)
 ### [Using Multiple Instances of Application Request Routing (ARR) Servers](extensions/configuring-application-request-routing-arr/using-multiple-instances-of-application-request-routing-arr-servers.md)
-### [How to configure WMI service on application servers for HostNameMemory affinity provider](extensions/configuring-application-request-routing-arr/how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider.md)
+### [Configure WMI on application servers for HostNameMemory affinity provider](extensions/configuring-application-request-routing-arr/how-to-configure-wmi-service-on-application-servers-for-hostnamememory-affinity-provider.md)
 ### [Creating a Forward Proxy Using Application Request Routing](extensions/configuring-application-request-routing-arr/creating-a-forward-proxy-using-application-request-routing.md)
 ## Troubleshooting Application Request Routing
 ### [Troubleshooting Cache Items ARR V2](extensions/troubleshooting-application-request-routing/troubleshooting-cache-items-arr-v2.md)
@@ -496,7 +496,7 @@
 ### [Adding Windows Media Services 2008 on an IIS 7.0 Server](media/windows-media-services/adding-windows-media-services-2008-on-an-iis-server.md)
 ### [Windows Media Server or Web Server?](media/windows-media-services/windows-media-server-or-web-server.md)
 ### [Using HTTP for Streaming and Downloading from the Same Computer](media/windows-media-services/using-http-for-streaming-and-downloading-from-the-same-computer.md)
-### [Microsoft Media Platform: Encoding and Serving Choices and Migration Considerations](media/windows-media-services/microsoft-media-platform-encoding-and-serving-choices-and-migration-considerations.md)
+### [Microsoft Media Platform: Guidance on Choosing and Migrating](media/windows-media-services/microsoft-media-platform-encoding-and-serving-choices-and-migration-considerations.md)
 ## IIS Media Services
 ### [Edge Caching for Media Delivery](media/iis-media-services/edge-caching-for-media-delivery.md)
 ### [Content Protection in Silverlight](media/iis-media-services/content-protection-in-silverlight.md)
@@ -528,18 +528,18 @@
 ### [Troubleshooting Live Smooth Streaming Events in Event Viewer](media/live-smooth-streaming/troubleshooting-live-smooth-streaming-events-in-event-viewer.md)
 ## Live Smooth Streaming Events
 ### [The World's First IIS Live Smooth Streaming Event - A Video Case Study](media/live-smooth-streaming-events/the-world39s-first-iis-live-smooth-streaming-event-a-video-case-study.md)
-### [Behind the Scenes with Silverlight and IIS at the 2010 Winter Games in Vancouver - Highlights](media/live-smooth-streaming-events/behind-the-scenes-with-silverlight-and-iis-at-the-2010-winter-games-in-vancouver-highlights.md)
-### [Behind the Scenes with Silverlight and IIS at the 2010 Winter Games in Vancouver - Editor's Cut](media/live-smooth-streaming-events/behind-the-scenes-with-silverlight-and-iis-at-the-2010-winter-games-in-vancouver-editor39s-cut.md)
-### [Sunday Night Football Extra: Live in HD with Microsoft Silverlight and IIS Smooth Streaming](media/live-smooth-streaming-events/sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming.md)
-### [NBC Online Video Monetization and Highlights Creation for the 2010 Winter Olympics](media/live-smooth-streaming-events/nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics.md)
+### [Behind the Scenes with Silverlight and IIS at the Winter Games - Highlights](media/live-smooth-streaming-events/behind-the-scenes-with-silverlight-and-iis-at-the-2010-winter-games-in-vancouver-highlights.md)
+### [Behind the Scenes with Silverlight and IIS at the Winter Games - Editor's Cut](media/live-smooth-streaming-events/behind-the-scenes-with-silverlight-and-iis-at-the-2010-winter-games-in-vancouver-editor39s-cut.md)
+### [Sunday Night Football Extra: Live in HD with IIS Smooth Streaming](media/live-smooth-streaming-events/sunday-night-football-extra-live-in-hd-with-microsoft-silverlight-and-iis-smooth-streaming.md)
+### [NBC Online Video Monetization and Highlights Creation for the Winter Olympics](media/live-smooth-streaming-events/nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics.md)
 ## On-Demand Smooth Streaming
 ### [Getting Started with IIS Smooth Streaming](media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming.md)
 ### [Exploring Bit Rate Changes](media/on-demand-smooth-streaming/exploring-bit-rate-changes.md)
 ### [Managing On-Demand Presentations](media/on-demand-smooth-streaming/managing-on-demand-presentations.md)
 ### [Smooth Streaming Technical Overview](media/on-demand-smooth-streaming/smooth-streaming-technical-overview.md)
 ## Streaming Media Conference Workshops
-### [Live Broadcasting with Silverlight and Windows Media - Streaming Media West 2009](media/streaming-media-conference-workshops/live-broadcasting-with-silverlight-and-windows-media-streaming-media-west-2009.md)
-### [Creating End-to-End Smooth Streaming Video Solutions with Silverlight and IIS Media Services - Streaming Media East 2010](media/streaming-media-conference-workshops/creating-end-to-end-smooth-streaming-video-solutions-with-silverlight-and-iis-media-services-streaming-media-east-2010.md)
+### [Live Broadcasting with Silverlight and Windows Media](media/streaming-media-conference-workshops/live-broadcasting-with-silverlight-and-windows-media-streaming-media-west-2009.md)
+### [Creating End-to-End Smooth Streaming Video Solutions with IIS Media Services](media/streaming-media-conference-workshops/creating-end-to-end-smooth-streaming-video-solutions-with-silverlight-and-iis-media-services-streaming-media-east-2010.md)
 ## Bit Rate Throttling
 ### [Bit Rate Throttling Configuration Walkthrough](media/bit-rate-throttling/bit-rate-throttling-configuration-walkthrough.md)
 ### [Bit Rate Throttling Extensibility Walkthrough](media/bit-rate-throttling/bit-rate-throttling-extensibility-walkthrough.md)
@@ -591,7 +591,7 @@
 ### [Install and Configure MySQL for PHP Applications on IIS 7](application-frameworks/install-and-configure-php-on-iis/install-and-configure-mysql-for-php-applications-on-iis-7-and-above.md)
 ### [Walkthrough - Set Up MySQL 5.1 for PHP applications](application-frameworks/install-and-configure-php-on-iis/walkthrough-set-up-mysql-51-for-php-applications.md)
 ### [Install the SQL Server Driver for PHP](application-frameworks/install-and-configure-php-on-iis/install-the-sql-server-driver-for-php.md)
-### [Enable FastCGI Support in IIS 7 on Windows Server 2008, Windows Server 2008 R2, Windows Vista, or Windows 7](application-frameworks/install-and-configure-php-on-iis/enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7.md)
+### [Enable FastCGI Support in IIS 7 on Windows](application-frameworks/install-and-configure-php-on-iis/enable-fastcgi-support-in-iis-7-on-windows-server-2008-windows-server-2008-r2-windows-vista-or-windows-7.md)
 ### [Install and Configure SQL Server 2008 for PHP Applications on IIS 7](application-frameworks/install-and-configure-php-on-iis/install-and-configure-sql-server-2008-for-php-applications-on-iis-7-and-above.md)
 ### [Install and Configure PHP](application-frameworks/install-and-configure-php-on-iis/install-and-configure-php.md)
 ### [How to Install the Microsoft Web Platform for PHP](application-frameworks/install-and-configure-php-on-iis/how-to-install-the-microsoft-web-platform-for-php.md)

@@ -62,8 +62,8 @@ You can find the detailed explanation of the two models and their differences in
 
 1. In Visual Studio, on the **File** menu, select **New Project**, and then select the **ASP.NET Web Application** template.
 2. Click **OK**. Visual Studio opens to the **Source** view of the Default.aspx page so that you can edit it.  
-    > [!NOTE]
-    > Unlike the Web site project option, you must place the application files on the local file system or a network share, and later use the **Publish** option to publish the contents of your application to an IIS Web site.
+> [!NOTE]
+> Unlike the Web site project option, you must place the application files on the local file system or a network share, and later use the **Publish** option to publish the contents of your application to an IIS Web site.
 
 **To publish the project to an IIS Web site:** 
 

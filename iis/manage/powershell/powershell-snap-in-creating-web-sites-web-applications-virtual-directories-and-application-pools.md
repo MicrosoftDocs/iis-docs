@@ -1,5 +1,5 @@
 ---
-title: "PowerShell Snap-in: Creating Web-Sites, Web applications, Virtual Directories and Application Pools | Microsoft Docs"
+title: "PowerShell Snap-in: Creating Websites, Web apps, Virtual Dirs and App Pools | Microsoft Docs"
 author: thomasdeml
 description: "In this walkthrough you will learn how to create Web-Sites, Web Applications, Virtual Directories and Application Pools. Introduction The IIS PowerShell name..."
 ms.author: iiscontent
@@ -12,7 +12,7 @@ ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/powershell-snap-in-creating-web-sites-web-applications-virtual-directories-and-application-pools
 msc.type: authoredcontent
 ---
-PowerShell Snap-in: Creating Web-Sites, Web applications, Virtual Directories and Application Pools
+PowerShell Snap-in: Creating Websites, Web apps, Virtual Dirs and App Pools
 ====================
 by [Thomas Deml](https://github.com/thomasdeml)
 

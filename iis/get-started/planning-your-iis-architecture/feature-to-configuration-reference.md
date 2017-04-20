@@ -22,55 +22,316 @@ This is a quick reference for mapping IIS 7.0 and above Manager features in the 
 
 The table below shows the IIS Manager feature name, followed by the configuration section(s) that feature reads and writes, followed by the module(s) that consume the configuration section(s). In some cases, the configuration section is consumed by the IIS core server, IIS Manager, .NET Framework 2.0 or ASP.NET 2.0, and these are marked specially in square braces, e.g. [IIS Server Core]. For more information on IIS modules, please see the [IIS Module Overview](../introduction-to-iis/iis-modules-overview.md)
 
-
-| IIS Manager Feature Name | Configuration Section | What consumes this? Module (Type/Dll) |
-| --- | --- | --- |
-| .NET Compilation | system.web/compilation |  |
-| .NET Globalization | system.web/globalization |  |
-| .NET Trust Levels | system.web/trust |  |
-| [Authentication] Anonymous | system.webServer/security/anonymousAuthentication | AnonymousAuthenticationModule (authanon.dll) |
-| [Authentication] Basic | system.webServer/security/basicAuthentication | BasicAuthenticationModule (authbas.dll) |
-| [Authentication] Digest | system.webServer/security/digestAuthentication | DigestAuthenticationModule (authmd5.dll) |
-| [Authentication] Forms | system.web/authentication | FormsAuthentication (System.Web.Security.FormsAuthenticationModule) |
-| [Authentication] Windows | system.webServer/security/windowsAuthentication | WindowsAuthenticationModule (authsspi.dll) |
-| Administrators | administration.config: administrators | [IIS Manager, Web Management Service (WMSVC)] |
-| Application Settings | appSettings |  |
-| ASP | system.webServer/asp (indirect) | IsapiModule (isapi.dll) |
-| Authorization Rules | system.webServer/security/authorization | UrlAuthorizationModule (urlauthz.dll) |
-| Certificates | [Local Machine Certificate Store] |  |
-| CGI | system.webServer/cgi | CgiModule (cgi.dll) |
-| **Compression** | system.webServer/httpCompression | DynamicCompressionModule (compdyn.dll) StaticCompressionModule (compstat.dll) |
-| system.webServer/urlCompression |
-| Connection Strings | connectionStrings |  |
-| Custom Error Pages | system.webServer/httpErrors | CustomErrorModule (custerr.dll) |
-| Default Document | system.webServer/defaultDocument | DefaultDocumentModule (defdoc.dll) |
-| Directory Browsing | system.webServer/directoryBrowse | DirectoryListingModule (dirlist.dll) |
-| Failed Request Tracing Rules | system.webServer/tracing/traceFailedRequests | FailedRequestsTracingModule (iisfreb.dll) |
-| system.webServer/tracing/traceProviderDefinitions |
-| Handler Mappings | system.webServer/handlers | [IIS Server Core] |
-| HTTP Headers | system.webServer/httpProtocol | ProtocolSupportModule (protsup.dll) |
-| IP and Domain Restrictions | system.webServer/ipSecurity | IpRestrictionModule (iprestr.dll) |
-| ISAPI and CGI Restrictions | system.webServer/security/isapiCgiRestriction | CgiModule (cgi.dll) |
-| IsapiModule (isapi.dll) |
-| ISAPI Filters | system.webServer/isapiFilters | IsapiFilterModule (filter.dll) |
-| Logging | system.applicationHost/log | [IIS Server Core] |
-| system.webServer/httpLogging | HttpLoggingModule (loghttp.dll) |
-| Machine Key | system.web/machineKey |  |
-| Management Service | Registry: HKLM\SOFTWARE\Microsoft\WebManagement\Server | [Web Management Service (WMSVC)] |
-| Membership Roles | system.web/roleManager | RoleManager (System.Web.Security.RoleManagerModule) |
-| Membership Users | system.web/membership |  |
-| MIME Types | system.webServer/staticContent | StaticFileModule (static.dll) |
-| Modules | system.webServer/globalModules | [IIS Server Core] |
-| system.webServer/modules |
-| Output Caching Rules | system.webServer/caching | HttpCacheModule (cachhttp.dll) |
-| Pages and Controls | system.web/pages | [ASP.NET 2.0] |
-| Profile | system.web/profile | Profile (System.Web.Profile.ProfileModule) |
-| Providers | system.web/membership system.web/roleManager system.web/profile |  |
-| Redirect Rules | system.webServer/httpRedirect | HttpRedirectionModule (redirect.dll) |
-| Rights and Permissions | system.webServer/access | [IIS Server Core] |
-| Server Side Includes | system.webServer/serverSideInclude | ServerSideIncludeModule (iis\_ssi.dll) |
-| Session State | system.web/sessionState | Session (System.Web.SessionState.SessionStateModule) |
-| system.web/sessionPageState |
-| SMTP E-mail | system.net/mailSettings/smtp | [.NET Framework 2.0] |
-| SSL Settings | system.webServer/access | [IIS Server Core] |
-| Worker Processes |  |  |
+<table border="0">
+<colgroup>
+<col>
+<col>
+<col></colgroup>
+<tbody valign="top">
+<tr>
+<th>
+<p>IIS Manager Feature Name</p></th>
+<th>
+<p>Configuration Section </p></th>
+<th>
+<p>What consumes this?  Module (Type/Dll)</p></th></tr>
+<tr>
+<th>.NET Compilation</th>
+<td>
+<p>system.web/compilation</p></td>
+<td>
+<p>  </p></td></tr>
+<tr>
+<th>.NET Globalization</th>
+<td>
+<p>system.web/globalization</p></td>
+<td>
+<p>  </p></td></tr>
+<tr>
+<th>.NET Trust Levels</th>
+<td>
+<p>system.web/trust</p></td>
+<td>
+<p>  </p></td></tr>
+<tr>
+<th>[Authentication] Anonymous </th>
+<td>
+<p>system.webServer/security/anonymousAuthentication</p></td>
+<td>
+<p>AnonymousAuthenticationModule (authanon.dll)</p></td></tr>
+<tr>
+<th>[Authentication] Basic </th>
+<td>
+<p>system.webServer/security/basicAuthentication</p></td>
+<td>
+<p>BasicAuthenticationModule (authbas.dll)</p></td></tr>
+<tr>
+<th>[Authentication] Digest </th>
+<td>
+<p>system.webServer/security/digestAuthentication</p></td>
+<td>
+<p>DigestAuthenticationModule (authmd5.dll)</p></td></tr>
+<tr>
+<th>[Authentication] Forms </th>
+<td>
+<p>system.web/authentication</p></td>
+<td>
+<p>FormsAuthentication (System.Web.Security.FormsAuthenticationModule)</p></td></tr>
+<tr>
+<th>[Authentication] Windows </th>
+<td>
+<p>system.webServer/security/windowsAuthentication</p></td>
+<td>
+<p>WindowsAuthenticationModule (authsspi.dll)</p></td></tr>
+<tr>
+<th>Administrators</th>
+<td>
+<p>administration.config: administrators</p></td>
+<td>
+<p>[IIS Manager, Web Management Service (WMSVC)]</p></td></tr>
+<tr>
+<th>Application Settings</th>
+<td>
+<p>appSettings</p></td>
+<td>
+<p>  </p></td></tr>
+<tr>
+<th>ASP</th>
+<td>
+<p>system.webServer/asp (indirect)</p></td>
+<td>
+<p>IsapiModule (isapi.dll)</p></td></tr>
+<tr>
+<th>Authorization Rules</th>
+<td>
+<p>system.webServer/security/authorization</p></td>
+<td>
+<p>UrlAuthorizationModule (urlauthz.dll)</p></td></tr>
+<tr>
+<th>Certificates</th>
+<td>
+<p> [Local Machine Certificate Store]</p></td>
+<td>
+<p>  </p></td></tr>
+<tr>
+<th>CGI</th>
+<td>
+<p>system.webServer/cgi</p></td>
+<td>
+<p>CgiModule (cgi.dll)</p></td></tr>
+<tr>
+<th rowspan="2">
+<p><strong>Compression </strong></p>
+<p>  </p>
+<p>  </p>
+<p><strong> </strong> </p></th>
+<td>
+<p>system.webServer/httpCompression </p>
+<p>  </p></td>
+<td rowspan="2">
+<p>DynamicCompressionModule (compdyn.dll) </p>
+<p>StaticCompressionModule (compstat.dll)</p></td></tr>
+<tr>
+<td>
+<p>system.webServer/urlCompression </p>
+<p>  </p></td></tr>
+<tr>
+<th>Connection Strings</th>
+<td>
+<p>connectionStrings</p></td>
+<td>
+<p>  </p></td></tr>
+<tr>
+<th>Custom Error Pages</th>
+<td>
+<p>system.webServer/httpErrors</p></td>
+<td>
+<p>CustomErrorModule (custerr.dll)</p></td></tr>
+<tr>
+<th>Default Document</th>
+<td>
+<p>system.webServer/defaultDocument</p></td>
+<td>
+<p>DefaultDocumentModule (defdoc.dll)</p></td></tr>
+<tr>
+<th>Directory Browsing</th>
+<td>
+<p>system.webServer/directoryBrowse</p></td>
+<td>
+<p>DirectoryListingModule (dirlist.dll)</p></td></tr>
+<tr>
+<th rowspan="2">
+<p>Failed Request Tracing Rules</p>
+<p><strong> </strong> </p></th>
+<td>
+<p>system.webServer/tracing/traceFailedRequests</p></td>
+<td rowspan="2">
+<p>FailedRequestsTracingModule (iisfreb.dll) </p>
+<p>  </p></td></tr>
+<tr>
+<td>
+<p>system.webServer/tracing/traceProviderDefinitions</p></td></tr>
+<tr>
+<th>Handler Mappings</th>
+<td>
+<p>system.webServer/handlers</p></td>
+<td>
+<p>[IIS Server Core]</p></td></tr>
+<tr>
+<th>HTTP Headers</th>
+<td>
+<p>system.webServer/httpProtocol</p></td>
+<td>
+<p>ProtocolSupportModule (protsup.dll)</p></td></tr>
+<tr>
+<th>IP and Domain Restrictions</th>
+<td>
+<p>system.webServer/ipSecurity</p></td>
+<td>
+<p>IpRestrictionModule (iprestr.dll)</p></td></tr>
+<tr>
+<th rowspan="2">
+<p>ISAPI and CGI Restrictions</p>
+<p><strong> </strong> </p></th>
+<td rowspan="2">
+<p>system.webServer/security/isapiCgiRestriction </p>
+<p>  </p></td>
+<td>
+<p>CgiModule (cgi.dll)</p></td></tr>
+<tr>
+<td>
+<p>IsapiModule (isapi.dll)</p></td></tr>
+<tr>
+<th>ISAPI Filters</th>
+<td>
+<p>system.webServer/isapiFilters</p></td>
+<td>
+<p>IsapiFilterModule (filter.dll)</p></td></tr>
+<tr>
+<th rowspan="2">
+<p>Logging</p>
+<p><strong> </strong> </p></th>
+<td>
+<p>system.applicationHost/log</p></td>
+<td>
+<p>[IIS Server Core]</p></td></tr>
+<tr>
+<td>
+<p>system.webServer/httpLogging</p></td>
+<td>
+<p>HttpLoggingModule (loghttp.dll)</p></td></tr>
+<tr>
+<th>Machine Key</th>
+<td>
+<p>system.web/machineKey</p></td>
+<td>
+<p>  </p></td></tr>
+<tr>
+<th>Management Service</th>
+<td>
+<p>Registry: </p>
+<p>HKLM\SOFTWARE\Microsoft\WebManagement\Server</p></td>
+<td>
+<p>[Web Management Service (WMSVC)]</p></td></tr>
+<tr>
+<th>Membership Roles</th>
+<td>
+<p>system.web/roleManager</p></td>
+<td>
+<p>RoleManager (System.Web.Security.RoleManagerModule)</p></td></tr>
+<tr>
+<th>Membership Users</th>
+<td>
+<p>system.web/membership</p></td>
+<td>
+<p>  </p></td></tr>
+<tr>
+<th>MIME Types</th>
+<td>
+<p>system.webServer/staticContent</p></td>
+<td>
+<p>StaticFileModule (static.dll)</p></td></tr>
+<tr>
+<th rowspan="2">
+<p>Modules</p>
+<p><strong> </strong> </p></th>
+<td>
+<p>system.webServer/globalModules</p></td>
+<td rowspan="2">
+<p>[IIS Server Core] </p>
+<p>  </p></td></tr>
+<tr>
+<td>
+<p>system.webServer/modules</p></td></tr>
+<tr>
+<th>Output Caching Rules</th>
+<td>
+<p>system.webServer/caching</p></td>
+<td>
+<p>HttpCacheModule (cachhttp.dll)</p></td></tr>
+<tr>
+<th>Pages and Controls</th>
+<td>
+<p>system.web/pages</p></td>
+<td>
+<p>[ASP.NET 2.0]</p></td></tr>
+<tr>
+<th>Profile</th>
+<td>
+<p>system.web/profile</p></td>
+<td>
+<p>Profile (System.Web.Profile.ProfileModule)</p></td></tr>
+<tr>
+<th>Providers</th>
+<td>
+<p>system.web/membership<br>system.web/roleManager<br>system.web/profile</p></td>
+<td>
+<p>  </p></td></tr>
+<tr>
+<th>Redirect Rules</th>
+<td>
+<p>system.webServer/httpRedirect</p></td>
+<td>
+<p>HttpRedirectionModule (redirect.dll)</p></td></tr>
+<tr>
+<th>Rights and Permissions</th>
+<td>
+<p>system.webServer/access</p></td>
+<td>
+<p>[IIS Server Core]</p></td></tr>
+<tr>
+<th>Server Side Includes</th>
+<td>
+<p>system.webServer/serverSideInclude</p></td>
+<td>
+<p>ServerSideIncludeModule (iis_ssi.dll)</p></td></tr>
+<tr>
+<th rowspan="2">
+<p>Session State</p>
+<p><strong> </strong> </p></th>
+<td>
+<p>system.web/sessionState</p></td>
+<td rowspan="2">
+<p>Session (System.Web.SessionState.SessionStateModule) </p>
+<p>  </p></td></tr>
+<tr>
+<td>
+<p>system.web/sessionPageState</p></td></tr>
+<tr>
+<th>SMTP E-mail</th>
+<td>
+<p>system.net/mailSettings/smtp</p></td>
+<td>
+<p>[.NET Framework 2.0]</p></td></tr>
+<tr>
+<th>SSL Settings</th>
+<td>
+<p>system.webServer/access</p></td>
+<td>
+<p>[IIS Server Core]</p></td></tr>
+<tr>
+<th>Worker Processes</th>
+<td>
+<p>  </p></td>
+<td>
+<p>  </p></td></tr></tbody></table>
