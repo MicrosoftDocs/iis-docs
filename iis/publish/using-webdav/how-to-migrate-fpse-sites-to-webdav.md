@@ -165,7 +165,7 @@ Request Filtering blocks certain file paths like "App\_Code" from web access by 
 
 After completing the above steps the resulting code in the **requestFiltering** section of your applicationHost.config file should resemble the following example:
 
-> [!code-xml[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample8.xml)]
+[!code-xml[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample8.xml)]
 
 
 <a id="02b2"></a>
@@ -183,7 +183,7 @@ Request Filtering allows for a customized list of allowed or denied HTTP verbs f
 
 After completing the above steps the resulting code in the **verbs** section of your applicationHost.config file should resemble the following example:
 
-> [!code-xml[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample11.xml)]
+[!code-xml[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample11.xml)]
 
 
 <a id="02b3"></a>
@@ -201,7 +201,7 @@ Request Filtering will block certain file extensions like ".config" and ".asax" 
 
 After completing the above steps the resulting code in the **fileExtensions** section of your applicationHost.config file should resemble the following example:
 
-> [!code-xml[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample14.xml)]
+[!code-xml[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample14.xml)]
 
 
 <a id="02c"></a>
@@ -229,7 +229,7 @@ To run this script, use the following steps:
     [!code-console[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample16.cmd)]
 6. Close the command prompt.
 
-> [!code-vb[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample17.vb)]
+	[!code-vb[Main](how-to-migrate-fpse-sites-to-webdav/samples/sample17.vb)]
 
 
 <a id="03"></a>

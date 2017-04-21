@@ -72,7 +72,7 @@ In this step, you will create a project in Visual Studio 2008 for the demo provi
     - Click the **Build Events** tab.
     - Enter the following in the **Post-build event command line** dialog box: 
 
-        > [!code-console[Main](how-to-use-managed-code-c-to-create-a-simple-ftp-authentication-provider/samples/sample1.cmd)]
+        [!code-console[Main](how-to-use-managed-code-c-to-create-a-simple-ftp-authentication-provider/samples/sample1.cmd)]
 7. Save the project.
 
 ## Step 2: Create the Extensibility Class

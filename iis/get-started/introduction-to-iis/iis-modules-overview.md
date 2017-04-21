@@ -270,12 +270,12 @@ And this command removes the Forms Authentication Module globally.
 
 To display the commands supported on the Module object type the following command:
 
-> [!code-console[Main](iis-modules-overview/samples/sample18.cmd)]
+[!code-console[Main](iis-modules-overview/samples/sample18.cmd)]
 
 
 To display the usage of each command, type the following command:
 
-> [!code-console[Main](iis-modules-overview/samples/sample19.cmd)]
+[!code-console[Main](iis-modules-overview/samples/sample19.cmd)]
 
 
 ## Module Reference
