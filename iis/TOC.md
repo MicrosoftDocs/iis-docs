@@ -184,6 +184,8 @@
 ## Working with Server Core
 ### [Using IIS with Windows Server Core](manage/working-with-server-core/using-iis-with-windows-server-core.md)
 ### [IIS 7.0 on Server Core](manage/working-with-server-core/iis-70-on-server-core.md)
+## Disaster Recovery
+### [Disaster Recovery to Azure using Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-iis)
 # Develop
 ## Runtime Extensibility
 ### [Extending Web Server Functionality in .NET](develop/runtime-extensibility/extending-web-server-functionality-in-net.md)
