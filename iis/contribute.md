@@ -80,7 +80,7 @@ DocFX requires the .NET Framework on Windows, or Mono for Linux or macOS.
 
 * Download and unzip *docfx.zip* from [DocFX releases](https://github.com/dotnet/docfx/releases).
 * Add DocFX to your PATH.
-* In a command-line window, navigate to the appropriate folder that contains the *docfx.json* file (*iis-docs*) and run the following command:
+* In a command-line window, navigate to the appropriate folder that contains the *docfx.json* file (*iis-docs/iis*) and run the following command:
 
    ```
    docfx -t default --serve
@@ -113,4 +113,4 @@ Our goal is to write documentation that is easily understandable by the widest p
 
 ## Redirects
 
-If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article won't get 404s.  Add redirects to the [master redirect file](https://github.com/iis-docs/iis/blob/master/.openpublishing.redirection.json).
+If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article won't get 404s.  Add redirects to the [master redirect file](https://github.com/docs/iis/blob/master/.openpublishing.redirection.json).
