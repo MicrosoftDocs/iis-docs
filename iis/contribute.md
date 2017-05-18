@@ -113,4 +113,5 @@ Our goal is to write documentation that is easily understandable by the widest p
 
 ## Redirects
 
-If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article won't get 404s.  Add redirects to the [master redirect file](https://github.com/docs/iis/blob/master/.openpublishing.redirection.json).
+If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article won't get 404s.  Add redirects to the [master redirect file](https://github.com/MicrosoftDocs/iis-docs/blob/master/.openpublishing.publish.config.json).
+ 
