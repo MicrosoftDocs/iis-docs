@@ -183,7 +183,9 @@
 ### [Remote Manager for Windows 2003, XP and Vista SP1](manage/remote-administration/remote-manager-for-windows-2003-xp-and-vista-sp1.md)
 ## Working with Server Core
 ### [Using IIS with Windows Server Core](manage/working-with-server-core/using-iis-with-windows-server-core.md)
-### [IIS 7.0 on Server Core](manage/working-with-server-core/iis-70-on-server-core.md)
+### [IIS 7.0 on Server Core](manage/working-with-server-core/iis-70-on-server-core.md) 
+## Disaster Recovery 
+### [Disaster Recovery to Azure using Site Recovery](https://aka.ms/asr-link-from-iis)
 # Develop
 ## Runtime Extensibility
 ### [Extending Web Server Functionality in .NET](develop/runtime-extensibility/extending-web-server-functionality-in-net.md)
