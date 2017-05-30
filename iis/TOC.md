@@ -629,7 +629,6 @@
 ### [LimeSurvey on IIS](application-frameworks/install-and-configure-php-applications-on-iis/limesurvey-on-iis.md)
 ### [OpenAds on IIS](application-frameworks/install-and-configure-php-applications-on-iis/openads-on-iis.md)
 ### [PHPList on IIS](application-frameworks/install-and-configure-php-applications-on-iis/phplist-on-iis.md)
-### [PHProjekt on IIS](application-frameworks/install-and-configure-php-applications-on-iis/phprojekt-on-iis.md)
 ### [Siteframe on IIS](application-frameworks/install-and-configure-php-applications-on-iis/siteframe-on-iis.md)
 ### [PHPWCMS on IIS](application-frameworks/install-and-configure-php-applications-on-iis/phpwcms-on-iis.md)
 ### [pMachinePro on IIS](application-frameworks/install-and-configure-php-applications-on-iis/pmachinepro-on-iis.md)
@@ -810,3 +809,4 @@
 ### [Configuring Step 3: Configure IIS Web Farm Load Balancing](web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-3-configure-iis-web-farm-load-balancing.md)
 ### [Configuring Step 4: Configure SSL Central Certificate Store](web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-4-configure-ssl-central-certificate-store.md)
 ### [Configuring Step 5: Configure Application Deployment](web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-5-configure-application-deployment.md)
+# [Contribute](contribute.md)
