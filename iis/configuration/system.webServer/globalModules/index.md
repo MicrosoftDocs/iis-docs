@@ -1,4 +1,4 @@
-Global Modules <globalModules>
+Global Modules &lt;globalModules&gt;
 ====================
 <a id="001"></a>
 ## Overview

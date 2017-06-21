@@ -1,4 +1,4 @@
-WebDAV Property Store Definitions <propertyStores>
+WebDAV Property Store Definitions &lt;propertyStores&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-Static Content <staticContent>
+Static Content &lt;staticContent&gt;
 ====================
 <a id="001"></a>
 ## Overview

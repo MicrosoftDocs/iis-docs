@@ -1,4 +1,4 @@
-HTTP Compression <httpCompression>
+HTTP Compression &lt;httpCompression&gt;
 ====================
 <a id="001"></a>
 ## Overview

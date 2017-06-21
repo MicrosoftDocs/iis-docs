@@ -1,4 +1,4 @@
-File Name Extensions for Filtering Rules <appliesTo>
+File Name Extensions for Filtering Rules &lt;appliesTo&gt;
 ====================
 <a id="001"></a>
 ## Overview

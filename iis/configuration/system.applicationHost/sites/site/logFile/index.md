@@ -1,4 +1,4 @@
-Log Files for a Web Site <logFile>
+Log Files for a Web Site &lt;logFile&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-Application Dependencies <applicationDependencies>
+Application Dependencies &lt;applicationDependencies&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-Default FTP Basic Authentication Settings <basicAuthentication>
+Default FTP Basic Authentication Settings &lt;basicAuthentication&gt;
 ====================
 <a id="001"></a>
 ## Overview

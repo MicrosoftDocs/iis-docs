@@ -1,4 +1,4 @@
-CPU Settings for an Application Pool <cpu>
+CPU Settings for an Application Pool &lt;cpu&gt;
 ====================
 <a id="001"></a>
 ## Overview

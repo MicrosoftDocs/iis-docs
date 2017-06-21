@@ -1,4 +1,4 @@
-WebDAV Lock Store Defintions <lockStores>
+WebDAV Lock Store Defintions &lt;lockStores&gt;
 ====================
 <a id="001"></a>
 ## Overview

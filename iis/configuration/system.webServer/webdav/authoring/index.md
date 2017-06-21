@@ -1,4 +1,4 @@
-WebDAV Authoring <authoring>
+WebDAV Authoring &lt;authoring&gt;
 ====================
 <a id="001"></a>
 ## Overview

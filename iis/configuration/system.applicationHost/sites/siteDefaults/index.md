@@ -1,4 +1,4 @@
-Default Settings for All Sites <siteDefaults>
+Default Settings for All Sites &lt;siteDefaults&gt;
 ====================
 <a id="001"></a>
 ## Overview

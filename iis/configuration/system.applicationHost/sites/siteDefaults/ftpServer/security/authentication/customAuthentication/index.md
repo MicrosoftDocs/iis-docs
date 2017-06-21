@@ -1,4 +1,4 @@
-Default FTP Custom Authentication Settings <customAuthentication>
+Default FTP Custom Authentication Settings &lt;customAuthentication&gt;
 ====================
 <a id="001"></a>
 ## Overview

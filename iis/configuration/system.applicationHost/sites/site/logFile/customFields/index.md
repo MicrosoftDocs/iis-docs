@@ -1,4 +1,4 @@
-Custom Fields in a Log File for a Site <customFields>
+Custom Fields in a Log File for a Site &lt;customFields&gt;
 ====================
 <a id="001"></a>
 ## Overview

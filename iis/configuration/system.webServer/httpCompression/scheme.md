@@ -1,4 +1,4 @@
-Scheme <scheme>
+Scheme &lt;scheme&gt;
 ====================
 <a id="001"></a>
 ## Overview

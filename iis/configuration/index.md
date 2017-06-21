@@ -1,2 +1,2 @@
-Configuration Reference <configuration>
+Configuration Reference &lt;configuration&gt;
 ====================

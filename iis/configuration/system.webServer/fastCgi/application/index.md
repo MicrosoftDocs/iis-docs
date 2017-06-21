@@ -1,4 +1,4 @@
-FastCGI Application <application>
+FastCGI Application &lt;application&gt;
 ====================
 <a id="001"></a>
 ## Overview

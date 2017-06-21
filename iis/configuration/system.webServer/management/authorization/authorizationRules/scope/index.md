@@ -1,4 +1,4 @@
-Management Authorization Rules Scope <scope>
+Management Authorization Rules Scope &lt;scope&gt;
 ====================
 <a id="001"></a>
 ## Overview

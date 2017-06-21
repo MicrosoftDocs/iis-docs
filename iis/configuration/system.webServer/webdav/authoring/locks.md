@@ -1,4 +1,4 @@
-WebDAV Locks <locks>
+WebDAV Locks &lt;locks&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-Adding Management Authorization Rules Scope <add>
+Adding Management Authorization Rules Scope &lt;add&gt;
 ====================
 <a id="001"></a>
 ## Overview

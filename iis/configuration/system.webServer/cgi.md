@@ -1,4 +1,4 @@
-CGI <cgi>
+CGI &lt;cgi&gt;
 ====================
 <a id="001"></a>
 ## Overview

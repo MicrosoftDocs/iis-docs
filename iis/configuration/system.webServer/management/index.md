@@ -1,4 +1,4 @@
-Management <management>
+Management &lt;management&gt;
 ====================
 <a id="001"></a>
 ## Overview

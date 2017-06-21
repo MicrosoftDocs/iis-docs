@@ -1,4 +1,4 @@
-Module Providers <moduleProviders>
+Module Providers &lt;moduleProviders&gt;
 ====================
 <a id="001"></a>
 ## Overview

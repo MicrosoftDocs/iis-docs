@@ -1,4 +1,4 @@
-Service Principle Name <spn>
+Service Principle Name &lt;spn&gt;
 ====================
 <a id="001"></a>
 ## Overview

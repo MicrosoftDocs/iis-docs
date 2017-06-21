@@ -1,4 +1,4 @@
-Application Initialization <applicationInitialization> <applicationInitialization>
+Application Initialization <applicationInitialization> &lt;applicationInitialization&gt;
 ====================
 <a id="001"></a>
 ## Overview

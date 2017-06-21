@@ -1,4 +1,4 @@
-FTP Deny URL Sequences <denyUrlSequences>
+FTP Deny URL Sequences &lt;denyUrlSequences&gt;
 ====================
 <a id="001"></a>
 ## Overview

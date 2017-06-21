@@ -1,4 +1,4 @@
-HTTP Protocol Settings <httpProtocol>
+HTTP Protocol Settings &lt;httpProtocol&gt;
 ====================
 <a id="001"></a>
 ## Overview

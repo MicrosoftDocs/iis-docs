@@ -1,4 +1,4 @@
-Management Authentication Credentials <credentials>
+Management Authentication Credentials &lt;credentials&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-Virtual Directory Defaults <virtualDirectoryDefaults>
+Virtual Directory Defaults &lt;virtualDirectoryDefaults&gt;
 ====================
 <a id="001"></a>
 ## Overview

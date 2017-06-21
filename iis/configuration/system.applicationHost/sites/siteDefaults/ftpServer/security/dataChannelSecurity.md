@@ -1,4 +1,4 @@
-Default FTP Data Channel Security Settings <dataChannelSecurity>
+Default FTP Data Channel Security Settings &lt;dataChannelSecurity&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-HTTP Headers for Filtering Rules <scanHeaders>
+HTTP Headers for Filtering Rules &lt;scanHeaders&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-ASP COM Plus <comPlus>
+ASP COM Plus &lt;comPlus&gt;
 ====================
 <a id="001"></a>
 ## Overview

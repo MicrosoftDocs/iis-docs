@@ -1,4 +1,4 @@
-Management Scope for Administrators <managementScope>
+Management Scope for Administrators &lt;managementScope&gt;
 ====================
 <a id="001"></a>
 ## Note

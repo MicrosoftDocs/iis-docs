@@ -1,4 +1,4 @@
-Periodic Restart Schedules <schedule>
+Periodic Restart Schedules &lt;schedule&gt;
 ====================
 <a id="001"></a>
 ## Overview

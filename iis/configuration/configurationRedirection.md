@@ -1,4 +1,4 @@
-Configuration Redirection <configurationRedirection>
+Configuration Redirection &lt;configurationRedirection&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-Deny by Request Rate <denyByRequestRate> <denyByRequestRate>
+Deny by Request Rate <denyByRequestRate> &lt;denyByRequestRate&gt;
 ====================
 <a id="001"></a>
 ## Overview

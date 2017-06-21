@@ -1,4 +1,4 @@
-Default FTP Custom Authorization Provider <provider>
+Default FTP Custom Authorization Provider &lt;provider&gt;
 ====================
 <a id="001"></a>
 ## Overview

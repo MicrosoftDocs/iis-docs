@@ -1,4 +1,4 @@
-WebDAV Authoring Rules <authoringRules>
+WebDAV Authoring Rules &lt;authoringRules&gt;
 ====================
 <a id="001"></a>
 ## Overview

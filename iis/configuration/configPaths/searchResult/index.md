@@ -1,4 +1,4 @@
-Configuration Path Search Results <searchResult>
+Configuration Path Search Results &lt;searchResult&gt;
 ====================
 <a id="001"></a>
 ## Overview

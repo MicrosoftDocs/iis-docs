@@ -1,4 +1,4 @@
-Configuration Path Search Result Sections <section>
+Configuration Path Search Result Sections &lt;section&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-Windows Extended Protection <extendedProtection>
+Windows Extended Protection &lt;extendedProtection&gt;
 ====================
 <a id="001"></a>
 ## Overview

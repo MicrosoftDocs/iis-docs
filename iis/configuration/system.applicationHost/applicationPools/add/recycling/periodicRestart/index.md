@@ -1,4 +1,4 @@
-Periodic Restart Settings for Application Pool Recycling <periodicRestart>
+Periodic Restart Settings for Application Pool Recycling &lt;periodicRestart&gt;
 ====================
 <a id="001"></a>
 ## Overview

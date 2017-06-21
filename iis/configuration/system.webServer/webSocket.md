@@ -1,4 +1,4 @@
-WebSocket <webSocket> <webSocket>
+WebSocket <webSocket> &lt;webSocket&gt;
 ====================
 <a id="001"></a>
 ## Overview

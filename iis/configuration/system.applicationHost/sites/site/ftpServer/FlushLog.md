@@ -1,4 +1,4 @@
-FTP Site Flush Log Method <FlushLog>
+FTP Site Flush Log Method &lt;FlushLog&gt;
 ====================
 <a id="001"></a>
 ## Overview

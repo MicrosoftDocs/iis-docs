@@ -1,4 +1,4 @@
-Static Types <staticTypes>
+Static Types &lt;staticTypes&gt;
 ====================
 <a id="001"></a>
 ## Overview

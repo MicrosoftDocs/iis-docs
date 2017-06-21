@@ -1,4 +1,4 @@
-Deny Query String Sequences <denyQueryStringSequences>
+Deny Query String Sequences &lt;denyQueryStringSequences&gt;
 ====================
 <a id="001"></a>
 ## Overview

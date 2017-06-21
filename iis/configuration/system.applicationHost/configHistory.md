@@ -1,4 +1,4 @@
-Configuration History <configHistory>
+Configuration History &lt;configHistory&gt;
 ====================
 <a id="001"></a>
 ## Overview

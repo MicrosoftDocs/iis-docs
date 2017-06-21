@@ -1,4 +1,4 @@
-Default FTP Connection Settings <connections>
+Default FTP Connection Settings &lt;connections&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-Windows Authentication Providers <providers>
+Windows Authentication Providers &lt;providers&gt;
 ====================
 <a id="001"></a>
 ## Overview

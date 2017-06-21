@@ -1,4 +1,4 @@
-Digest Authentication <digestAuthentication>
+Digest Authentication &lt;digestAuthentication&gt;
 ====================
 <a id="001"></a>
 ## Overview

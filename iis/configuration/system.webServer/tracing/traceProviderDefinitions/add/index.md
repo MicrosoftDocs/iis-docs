@@ -1,4 +1,4 @@
-Adding Trace Provider Definitions <add>
+Adding Trace Provider Definitions &lt;add&gt;
 ====================
 <a id="001"></a>
 ## Overview

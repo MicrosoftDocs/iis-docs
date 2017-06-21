@@ -1,4 +1,4 @@
-Always Allowed Query Strings <alwaysAllowedQueryStrings>
+Always Allowed Query Strings &lt;alwaysAllowedQueryStrings&gt;
 ====================
 <a id="001"></a>
 ## Overview

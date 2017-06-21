@@ -1,4 +1,4 @@
-Adding File Name Extensions for Filtering Rules <add>
+Adding File Name Extensions for Filtering Rules &lt;add&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-FTP File Name Extensions <fileExtensions>
+FTP File Name Extensions &lt;fileExtensions&gt;
 ====================
 <a id="001"></a>
 ## Overview

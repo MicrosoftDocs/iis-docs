@@ -1,4 +1,4 @@
-Default Log File Settings for Web Sites <logFile>
+Default Log File Settings for Web Sites &lt;logFile&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-Caching Profiles <profiles>
+Caching Profiles &lt;profiles&gt;
 ====================
 <a id="001"></a>
 ## Overview

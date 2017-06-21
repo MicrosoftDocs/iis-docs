@@ -1,4 +1,4 @@
-Deny Strings for Filtering Rules <denyStrings>
+Deny Strings for Filtering Rules &lt;denyStrings&gt;
 ====================
 <a id="001"></a>
 ## Overview

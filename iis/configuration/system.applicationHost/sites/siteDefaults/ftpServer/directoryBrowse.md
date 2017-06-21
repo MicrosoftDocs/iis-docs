@@ -1,4 +1,4 @@
-Default FTP Directory Browse Settings <directoryBrowse>
+Default FTP Directory Browse Settings &lt;directoryBrowse&gt;
 ====================
 <a id="001"></a>
 ## Overview

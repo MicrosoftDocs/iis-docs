@@ -1,186 +1,127 @@
-Adding Initialization Page <add> <add>
+Adding Initialization Page <add> &lt;add&gt;
 ====================
 <a id="001"></a>
 ## Overview
 
-The `<add>` element under the `<applicationInitialization>` element specifies the application to be initialized upon application restart. To perform the application initialization process, IIS sends a fake request to the application to prompt the initialization. Multiple application URLs can be specified by using multiple <add>tags. These applications are not served to a requester. The page specified by the remapManagedRequestsTo attribute in the <code>&lt;applicationInitialization&gt;</code> element will be served to the customer.<h2 id="002">Compatibility</h2><table class="data-table" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<th>Version</th>
-<th>Notes</th>
-</tr>
-<tr>
-<th>IIS 10.0</th>
-<td>The <code>&lt;add&gt;</code> element was not modified in IIS 10.0.</td></tr>
-<tr><th>IIS 8.5</th>
-<td>The <code>&lt;add&gt;</code> element was not modified in IIS 8.5.</td></tr>
-<tr>
-<th>IIS 8.0</th>
-<td>The <code>&lt;add&gt;</code> element was introduced in IIS 8.0.</td></tr>
-<tr>
-<th>IIS 7.5</th>
-<td>N/A</td></tr>
-<tr>
-<th>IIS 7.0</th>
-<td>N/A</td></tr>
-<tr>
-<th>IIS 6.0</th>
-<td>N/A</td></tr></tbody></table><h2 id="003">Setup</h2><p>To support application initialization on your Web server, you must install the Application Initialization role or feature.</p>
-<h3>Windows Server 2012 or Windows Server 2012 R2</h3>
-<ol>
-<li>On the taskbar, click <strong>Server Manager</strong>.</li> 
-<li>In <strong>Server Manager</strong>, click the <strong>Manage</strong> menu, and then click <strong>Add Roles and Features</strong>.</li> 
-<li>In the <strong>Add Roles and Features</strong> wizard, click <strong>Next</strong>. Select the installation type and click <strong>Next</strong>. Select the destination server and click <strong>Next</strong>.</li> 
-<li>On the <strong>Server Roles</strong> page, expand <strong>Web Server (IIS)</strong>, expand <strong>Web Server</strong>, expand <strong>Application Development</strong>, and then select <strong>Application Initialization</strong>. Click <strong>Next</strong>.<br><a href="add/_static/image1.png"><img alt="" src="add/_static/image2.png"></a>.</li> 
-<li>On the <strong>Select Features</strong> page, click <strong>Next</strong>.</li> 
-<li>On the <strong>Confirm installation selections</strong> page, click <strong>Install</strong>.</li> 
-<li>On the <strong>Results</strong> page, click <strong>Close</strong>. </li></ol>
-<h3>Windows 8 or Windows 8.1</h3>
-<ol>
-<li>On the <strong>Start</strong> screen, move the pointer all the way to the lower left corner, right-click the <strong>Start</strong> button, and then click <strong>Control Panel</strong>.</li> 
-<li>In <strong>Control Panel</strong>, click <strong>Programs and Features</strong>, and then click <strong>Turn Windows features on or off</strong>.</li> 
-<li>Expand <strong>Internet Information Services</strong>, expand <strong>World Wide Web Services</strong>, expand <strong>Application Development Features</strong>, and then select <strong>Application Initialization</strong>.<br><a href="add/_static/image3.png"><img alt="" src="add/_static/image4.png"></a></li> 
-<li>Click <strong>OK</strong>.</li>
-<li>Click <strong>Close</strong>.</li></ol><h2 id="004">How To</h2><h3>How to configure application initialization</h3>
-<ol>
-<li>Open <strong>Internet Information Services (IIS) Manager</strong>: 
-<ul>
-<li>If you are using Windows Server 2012 or later: 
-<ul>
-<li>On the taskbar, click <strong>Server Manager</strong>, click <strong>Tools</strong>, and then click <strong>Internet Information Services (IIS) Manager</strong>. </li></ul></li>
-<li>If you are using Windows 8 or later: 
-<ul>
-<li>Hold down the <strong>Windows</strong> key, press the letter <strong>X</strong>, and then click <strong>Control Panel</strong>.</li> 
-<li>Click <strong>Administrative Tools</strong>, and then double-click <strong>Internet Information Services (IIS) Manager</strong>. </li></ul></li></ul></li> 
-<li>In the <strong>Connections</strong> pane, select the server, or expand the server, expand <strong>Sites</strong>, and then select a site.</li> 
-<li>In the <strong>Home</strong> pane, double-click the <strong>Configuration Editor</strong> feature.</li> 
-<li>If you selected a site, select <strong>&lt;site name&gt; Web.config</strong> in the <strong>From</strong> text box, and then select <strong>system.webServer/applicationInitialization</strong> in the <strong>Section</strong> text box.</li> 
-<li>If you selected the server, select <strong>system.webServer/applicationInitialization</strong> in the <strong>Section</strong> text box.<br><br><a href="add/_static/image5.png"><img alt="" src="add/_static/image6.png"></a></li> 
-<li>To specify the name of a static file to be returned during initialization, set <strong>remapManagedRequestsTo</strong> to the name of the file.</li> 
-<li>If you do not want to load managed modules, set <strong>skipManagedModules</strong> to <strong>true</strong>.</li> 
-<li>To specify that the initialization process is initiated automatically whenever an application restart occurs, set <strong>doAppInitAfterRestart</strong> to <strong>true</strong>.</li> 
-<li>To specify the application or applications to be initialized upon application restart, click the <strong>(Collection)</strong> line and then click the ellipsis.</li> 
-<li>In the Collection Editor, to add an application to be initialized, click <strong>Add</strong>, click <strong>hostName</strong>, and then set hostName to the name of the host. Click <strong>initializationPage</strong> and set it to a URL for the application. Close the dialog box.<br><br><a href="add/_static/image7.png"><img alt="" src="add/_static/image8.png"></a></li> 
-<li>Click <strong>Apply</strong> in the <strong>Actions</strong> pane. </li></ol><h2 id="005">Configuration</h2><p>The <code>&lt;add&gt;</code> element of the <code>&lt;applicationInitialization&gt;</code> element is configured at the server, site, or application level.</p>
-<h3>Attributes</h3>
-<table class="data-table" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<th>Attribute</th>
-<th>Description</th></tr>
-<tr>
-<th><code>initializationPage</code></th>
-<td>Required string attribute.<br><br>Specifies the URL of an application to be initialized upon application restart. <br><br>The default value is <code>""</code>.</td></tr>
-<tr>
-<th><code>hostName</code></th>
-<td>Optional string attribute.<br><br>A host name to be used with the application URL provided in the initializationPage attribute.<br><br>The default value is <code>""</code>.</td></tr></tbody></table>
-<h3>Child Elements</h3>
-<p>None.</p>
-<h3>Configuration Sample</h3><p>The following sample shows configuration of application initialization.</p><pre class="prettyprint lang-xml">&lt;system.webServer&gt;
-   &lt;applicationInitialization
-      doAppInitAfterRestart="true"
-      skipManagedModules="true"
-      remapManagedRequestsTo="filename.htm"/&gt;
-      &lt;add initializationPage="/default.aspx" hostName="myhost"/&gt;
-   &lt;/applicationInitialization&gt;
-&lt;/system.webServer&gt;
-</pre><h2 id="006">Sample Code</h2><p>The following examples configure <strong>&lt;applicationInitialization&gt;</strong> for a site.</p>
-<h3>AppCmd.exe</h3><pre id="AppCmdSample">appcmd.exe set config "Default Web Site" -section:system.webServer/applicationInitialization /remapManagedRequestsTo:"HelloJoe.htm" /skipManagedModules:"True" /doAppInitAfterRestart:"True"  /commit:apphost
+The `<add>` element under the `<applicationInitialization>` element specifies the application to be initialized upon application restart. To perform the application initialization process, IIS sends a fake request to the application to prompt the initialization. Multiple application URLs can be specified by using multiple &lt;add&gt; tags. These applications are not served to a requester. The page specified by the remapManagedRequestsTo attribute in the `<applicationInitialization>` element will be served to the customer.
 
-appcmd.exe set config "Default Web Site" -section:system.webServer/applicationInitialization /+"[initializationPage='JoesSite.htm',hostName='JoesHost']" /commit:apphost
+<a id="002"></a>
+## Compatibility
+
+| Version | Notes |
+| --- | --- |
+| IIS 10.0 | The `<add>` element was not modified in IIS 10.0. |
+| IIS 8.5 | The `<add>` element was not modified in IIS 8.5. |
+| IIS 8.0 | The `<add>` element was introduced in IIS 8.0. |
+| IIS 7.5 | N/A |
+| IIS 7.0 | N/A |
+| IIS 6.0 | N/A |
+
+<a id="003"></a>
+## Setup
+
+To support application initialization on your Web server, you must install the Application Initialization role or feature.
+
+### Windows Server 2012 or Windows Server 2012 R2
+
+1. On the taskbar, click **Server Manager**.
+2. In **Server Manager**, click the **Manage** menu, and then click **Add Roles and Features**.
+3. In the **Add Roles and Features** wizard, click **Next**. Select the installation type and click **Next**. Select the destination server and click **Next**.
+4. On the **Server Roles** page, expand **Web Server (IIS)**, expand **Web Server**, expand **Application Development**, and then select **Application Initialization**. Click **Next**.  
+    [![](add/_static/image2.png)](add/_static/image1.png) .
+5. On the **Select Features** page, click **Next**.
+6. On the **Confirm installation selections** page, click **Install**.
+7. On the **Results** page, click **Close**.
+
+### Windows 8 or Windows 8.1
+
+1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**.
+2. In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**.
+3. Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Application Development Features**, and then select **Application Initialization**.  
+    [![](add/_static/image4.png)](add/_static/image3.png)
+4. Click **OK**.
+5. Click **Close**.
+
+<a id="004"></a>
+## How To
+
+### How to configure application initialization
+
+1. Open **Internet Information Services (IIS) Manager**: 
+
+    - If you are using Windows Server 2012 or later: 
+
+        - On the taskbar, click **Server Manager**, click **Tools**, and then click **Internet Information Services (IIS) Manager**.
+    - If you are using Windows 8 or later: 
+
+        - Hold down the **Windows** key, press the letter **X**, and then click **Control Panel**.
+        - Click **Administrative Tools**, and then double-click **Internet Information Services (IIS) Manager**.
+2. In the **Connections** pane, select the server, or expand the server, expand **Sites**, and then select a site.
+3. In the **Home** pane, double-click the **Configuration Editor** feature.
+4. If you selected a site, select **&lt;site name&gt; Web.config** in the **From** text box, and then select **system.webServer/applicationInitialization** in the **Section** text box.
+5. If you selected the server, select **system.webServer/applicationInitialization** in the **Section** text box.  
   
-</pre>
-<p><strong>Note</strong>: You must be sure to set the <strong>commit</strong> parameter to <code>apphost</code> when using AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.</p>
-<h3>C#</h3><pre id="CSharpSample" class="prettyprint lang-cs">using System;
-using System.Text;
-using Microsoft.Web.Administration;
+    [![](add/_static/image6.png)](add/_static/image5.png)
+6. To specify the name of a static file to be returned during initialization, set **remapManagedRequestsTo** to the name of the file.
+7. If you do not want to load managed modules, set **skipManagedModules** to **true**.
+8. To specify that the initialization process is initiated automatically whenever an application restart occurs, set **doAppInitAfterRestart** to **true**.
+9. To specify the application or applications to be initialized upon application restart, click the **(Collection)** line and then click the ellipsis.
+10. In the Collection Editor, to add an application to be initialized, click **Add**, click **hostName**, and then set hostName to the name of the host. Click **initializationPage** and set it to a URL for the application. Close the dialog box.  
+  
+    [![](add/_static/image8.png)](add/_static/image7.png)
+11. Click **Apply** in the **Actions** pane.
 
-internal static class Sample {
+<a id="005"></a>
+## Configuration
 
-    private static void Main() {
-        
-        using(ServerManager serverManager = new ServerManager()) { 
-            Configuration config = serverManager.GetApplicationHostConfiguration();
-            
-            ConfigurationSection applicationInitializationSection = config.GetSection("system.webServer/applicationInitialization", "Default Web Site");
-            applicationInitializationSection["remapManagedRequestsTo"] = @"HelloJoe.htm";
-            applicationInitializationSection["skipManagedModules"] = true;
-            applicationInitializationSection["doAppInitAfterRestart"] = true;
-            
-            ConfigurationElementCollection applicationInitializationCollection = applicationInitializationSection.GetCollection();
-            
-            ConfigurationElement addElement = applicationInitializationCollection.CreateElement("add");
-            addElement["initializationPage"] = @"JoesSite.htm";
-            addElement["hostName"] = @"JoesHost";
-            applicationInitializationCollection.Add(addElement);
-            
-            serverManager.CommitChanges();
-        }
-    }
-}
+The `<add>` element of the `<applicationInitialization>` element is configured at the server, site, or application level.
 
-</pre>
-<h3>VB.NET</h3><pre id="VbNetSample" class="prettyprint lang-vb">Imports System
-Imports System.Text
-Imports Microsoft.Web.Administration
-Module Sample
-     
-     Sub Main()
-         Dim serverManager As ServerManager = New ServerManager
-         Dim config As Configuration = serverManager.GetApplicationHostConfiguration
-         Dim applicationInitializationSection As ConfigurationSection = config.GetSection("system.webServer/applicationInitialization", "Default Web Site")
-         applicationInitializationSection("remapManagedRequestsTo") = "HelloJoe.htm"
-         applicationInitializationSection("skipManagedModules") = true
-         applicationInitializationSection("doAppInitAfterRestart") = true
-         Dim applicationInitializationCollection As ConfigurationElementCollection = applicationInitializationSection.GetCollection
-         Dim addElement As ConfigurationElement = applicationInitializationCollection.CreateElement("add")
-         addElement("initializationPage") = "JoesSite.htm"
-         addElement("hostName") = "JoesHost"
-         applicationInitializationCollection.Add(addElement)
-         serverManager.CommitChanges
-     End Sub
- End Module
+### Attributes
 
-</pre>
-<h3>JavaScript</h3><pre id="JavaScriptSample" class="prettyprint lang-js">var adminManager = new ActiveXObject('Microsoft.ApplicationHost.WritableAdminManager');
-adminManager.CommitPath = "MACHINE/WEBROOT/APPHOST";
+| Attribute | Description |
+| --- | --- |
+| `initializationPage` | Required string attribute. Specifies the URL of an application to be initialized upon application restart. The default value is `""`. |
+| `hostName` | Optional string attribute. A host name to be used with the application URL provided in the initializationPage attribute. The default value is `""`. |
 
-var applicationInitializationSection = adminManager.GetAdminSection("system.webServer/applicationInitialization", "MACHINE/WEBROOT/APPHOST/Default Web Site");
-applicationInitializationSection.Properties.Item("remapManagedRequestsTo").Value = "HelloJoe.htm";
-applicationInitializationSection.Properties.Item("skipManagedModules").Value = true;
-applicationInitializationSection.Properties.Item("doAppInitAfterRestart").Value = true;
+### Child Elements
 
-var applicationInitializationCollection = applicationInitializationSection.Collection;
+None.
 
-var addElement = applicationInitializationCollection.CreateNewElement("add");
-addElement.Properties.Item("initializationPage").Value = "JoesSite.htm";
-addElement.Properties.Item("hostName").Value = "JoesHost";
-applicationInitializationCollection.AddElement(addElement);
+### Configuration Sample
 
-adminManager.CommitChanges();
+The following sample shows configuration of application initialization.
 
-</pre><br>
-<h3>VBScript</h3><pre id="VbScriptSample" class="prettyprint lang-vb">Set adminManager = CreateObject("Microsoft.ApplicationHost.WritableAdminManager")
-adminManager.CommitPath = "MACHINE/WEBROOT/APPHOST"
+[!code-xml[Main](add/samples/sample1.xml)]
 
-Set applicationInitializationSection = adminManager.GetAdminSection("system.webServer/applicationInitialization", "MACHINE/WEBROOT/APPHOST/Default Web Site")
-applicationInitializationSection.Properties.Item("remapManagedRequestsTo").Value = "HelloJoe.htm"
-applicationInitializationSection.Properties.Item("skipManagedModules").Value = true
-applicationInitializationSection.Properties.Item("doAppInitAfterRestart").Value = true
+<a id="006"></a>
+## Sample Code
 
-Set applicationInitializationCollection = applicationInitializationSection.Collection
+The following examples configure **&lt;applicationInitialization&gt;** for a site.
 
-Set addElement = applicationInitializationCollection.CreateNewElement("add")
-addElement.Properties.Item("initializationPage").Value = "JoesSite.htm"
-addElement.Properties.Item("hostName").Value = "JoesHost"
-applicationInitializationCollection.AddElement(addElement)
+### AppCmd.exe
 
-adminManager.CommitChanges()
-</pre>
-<h3>PowerShell</h3><pre id="PowerShellSample" class="prettyprint lang-ps">Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST' -location 'Default Web Site' -filter "system.webServer/applicationInitialization" -name "remapManagedRequestsTo" -value "HelloJoe.htm"
-Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST' -location 'Default Web Site' -filter "system.webServer/applicationInitialization" -name "skipManagedModules" -value "True"
-Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST' -location 'Default Web Site' -filter "system.webServer/applicationInitialization" -name "doAppInitAfterRestart" -value "True"
+[!code-console[Main](add/samples/sample2.cmd)]
 
-Add-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST' -location 'Default Web Site' -filter "system.webServer/applicationInitialization" -name "." -value @{initializationPage='JoesSite.htm';hostName='JoesHost'}
+> [!NOTE]
+> You must be sure to set the **commit** parameter to `apphost` when using AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.
 
-</pre></add>
+### C#
+
+[!code-csharp[Main](add/samples/sample3.cs)]
+
+### VB.NET
+
+[!code-vb[Main](add/samples/sample4.vb)]
+
+### JavaScript
+
+[!code-javascript[Main](add/samples/sample5.js)]
+  
+
+### VBScript
+
+[!code-vb[Main](add/samples/sample6.vb)]
+
+### PowerShell
+
+[!code-ps[Main](add/samples/sample-0-7.unknown)]

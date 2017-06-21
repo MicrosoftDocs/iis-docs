@@ -1,4 +1,4 @@
-Failure Settings for an Application Pool <failure>
+Failure Settings for an Application Pool &lt;failure&gt;
 ====================
 <a id="001"></a>
 ## Overview

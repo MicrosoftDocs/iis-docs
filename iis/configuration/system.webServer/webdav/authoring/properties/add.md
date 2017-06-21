@@ -1,4 +1,4 @@
-Adding XML Namespace to Property Provider Mappings <add>
+Adding XML Namespace to Property Provider Mappings &lt;add&gt;
 ====================
 <a id="001"></a>
 ## Overview

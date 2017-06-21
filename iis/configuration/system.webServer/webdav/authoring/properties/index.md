@@ -1,4 +1,4 @@
-WebDAV Properties <properties>
+WebDAV Properties &lt;properties&gt;
 ====================
 <a id="001"></a>
 ## Overview

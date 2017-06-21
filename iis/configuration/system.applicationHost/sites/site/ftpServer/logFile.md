@@ -1,4 +1,4 @@
-FTP Log Files <logFile>
+FTP Log Files &lt;logFile&gt;
 ====================
 <a id="001"></a>
 ## Overview

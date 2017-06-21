@@ -1,4 +1,4 @@
-Binding <binding>
+Binding &lt;binding&gt;
 ====================
 <a id="001"></a>
 ## Overview

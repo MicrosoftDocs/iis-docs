@@ -1,4 +1,4 @@
-Management Authorization Rules <authorizationRules>
+Management Authorization Rules &lt;authorizationRules&gt;
 ====================
 <a id="001"></a>
 ## Overview

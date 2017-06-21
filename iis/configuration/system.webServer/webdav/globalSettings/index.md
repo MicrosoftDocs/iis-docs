@@ -1,4 +1,4 @@
-WebDAV Global Settings <globalSettings>
+WebDAV Global Settings &lt;globalSettings&gt;
 ====================
 <a id="001"></a>
 ## Overview

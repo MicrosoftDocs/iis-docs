@@ -1,4 +1,4 @@
-Adding Static Content MIME Mappings <mimeMap>
+Adding Static Content MIME Mappings &lt;mimeMap&gt;
 ====================
 <a id="001"></a>
 ## Overview

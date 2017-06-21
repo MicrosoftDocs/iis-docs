@@ -1,4 +1,4 @@
-Custom Metadata <customMetadata>
+Custom Metadata &lt;customMetadata&gt;
 ====================
 <a id="001"></a>
 ## Overview

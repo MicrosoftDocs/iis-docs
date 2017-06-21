@@ -1,4 +1,4 @@
-Default FTP File Handling Settings <fileHandling>
+Default FTP File Handling Settings &lt;fileHandling&gt;
 ====================
 <a id="001"></a>
 ## Overview

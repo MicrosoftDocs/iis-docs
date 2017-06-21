@@ -1,4 +1,4 @@
-Applications for Application Dependencies <application>
+Applications for Application Dependencies &lt;application&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-Recycling Settings for an Application Pool <recycling>
+Recycling Settings for an Application Pool &lt;recycling&gt;
 ====================
 <a id="001"></a>
 ## Overview

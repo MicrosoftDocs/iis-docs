@@ -1,4 +1,4 @@
-Virtual Directory Defaults for All Sites <virtualDirectoryDefaults>
+Virtual Directory Defaults for All Sites &lt;virtualDirectoryDefaults&gt;
 ====================
 <a id="001"></a>
 ## Overview

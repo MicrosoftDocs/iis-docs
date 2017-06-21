@@ -1,4 +1,4 @@
-Configuration Paths <configPaths>
+Configuration Paths &lt;configPaths&gt;
 ====================
 <a id="001"></a>
 ## Overview

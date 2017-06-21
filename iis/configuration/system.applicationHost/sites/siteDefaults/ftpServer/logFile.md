@@ -1,4 +1,4 @@
-Default FTP Log Files Settings <logFile>
+Default FTP Log Files Settings &lt;logFile&gt;
 ====================
 <a id="001"></a>
 ## Overview

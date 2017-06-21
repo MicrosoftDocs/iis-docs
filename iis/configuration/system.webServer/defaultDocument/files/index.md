@@ -1,4 +1,4 @@
-Default Document Files <files>
+Default Document Files &lt;files&gt;
 ====================
 <a id="001"></a>
 ## Overview

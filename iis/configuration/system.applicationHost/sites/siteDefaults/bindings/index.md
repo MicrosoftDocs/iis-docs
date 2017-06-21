@@ -1,4 +1,4 @@
-Default Bindings <bindings>
+Default Bindings &lt;bindings&gt;
 ====================
 <a id="001"></a>
 ## Overview

@@ -1,4 +1,4 @@
-Default FTP Client Certificate Authentication Settings <clientCertAuthentication>
+Default FTP Client Certificate Authentication Settings &lt;clientCertAuthentication&gt;
 ====================
 <a id="001"></a>
 ## Overview

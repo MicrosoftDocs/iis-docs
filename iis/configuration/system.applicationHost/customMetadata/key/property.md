@@ -1,4 +1,4 @@
-Custom Metadata Key Property <property>
+Custom Metadata Key Property &lt;property&gt;
 ====================
 <a id="001"></a>
 ## Overview
