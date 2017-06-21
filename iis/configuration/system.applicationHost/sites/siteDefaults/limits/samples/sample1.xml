@@ -1,0 +1,7 @@
+<system.applicationHost>
+   <sites>
+      <siteDefaults>
+         <limits connectionTimeout="00:02:00" />
+      </siteDefaults>
+   </sites>
+</system.applicationHost>

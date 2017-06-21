@@ -1,0 +1,41 @@
+<requestFiltering>
+   <filteringRules>
+      <filteringRule name="SQLInjection" scanUrl="false" scanQueryString="true">
+         <appliesTo>
+            <clear />
+            <add fileExtension=".asp" />
+            <add fileExtension=".aspx" />
+            <add fileExtension=".php" />
+         </appliesTo>
+         <denyStrings>
+            <clear />
+            <add string="--" />
+            <add string=";" />
+            <add string="/*" />
+            <add string="@" />
+            <add string="char" />
+            <add string="alter" />
+            <add string="begin" />
+            <add string="cast" />
+            <add string="create" />
+            <add string="cursor" />
+            <add string="declare" />
+            <add string="delete" />
+            <add string="drop" />
+            <add string="end" />
+            <add string="exec" />
+            <add string="fetch" />
+            <add string="insert" />
+            <add string="kill" />
+            <add string="open" />
+            <add string="select" />
+            <add string="sys" />
+            <add string="table" />
+            <add string="update" />
+         </denyStrings>
+         <scanHeaders>
+            <clear />
+         </scanHeaders>
+      </filteringRule>
+   </filteringRules>
+</requestFiltering>

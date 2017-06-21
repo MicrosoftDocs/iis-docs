@@ -1,0 +1,1 @@
+appcmd.exe set config "Default Web Site" -section:system.ftpServer/security/requestFiltering /requestLimits.maxAllowedContentLength:"1000000" /requestLimits.maxUrl:"1024" /commit:apphost

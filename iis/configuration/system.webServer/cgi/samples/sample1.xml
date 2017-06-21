@@ -1,0 +1,7 @@
+<configuration>
+   <system.webServer>
+      <cgi createCGIWithNewConsole="true"
+         createProcessAsUser="false"
+         timeout="00:20:00" />
+   </system.webServer>
+</configuration>

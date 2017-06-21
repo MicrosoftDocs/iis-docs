@@ -1,0 +1,17 @@
+<system.applicationHost>
+   <sites>
+      <siteDefaults>
+         <logFile logFormat="W3C"
+            directory="%SystemDrive%\inetpub\logs\LogFiles"
+            enabled="true" />
+         <traceFailedRequestsLogging enabled="true"
+            directory="%SystemDrive%\inetpub\logs\FailedReqLogFiles"
+            maxLogFiles="20" />
+         <limits connectionTimeout="00:01:00" />
+         <ftpServer serverAutoStart="true" />
+         <bindings>
+            <binding protocol="http" bindingInformation="127.0.0.1:8080:" />
+         </bindings>
+      </siteDefaults>
+   </sites>
+</system.applicationHost>

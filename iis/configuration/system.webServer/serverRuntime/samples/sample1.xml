@@ -1,0 +1,7 @@
+<location path="Default Web Site">
+   <system.webServer>
+      <serverRuntime enabled="true"
+         frequentHitThreshold="5"
+         frequentHitTimePeriod="00:00:20" />
+   </system.webServer>
+</location>

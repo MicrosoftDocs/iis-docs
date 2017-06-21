@@ -1,0 +1,22 @@
+<site name="ftp.example.com" id="5">
+   <application path="/">
+      <virtualDirectory path="/" physicalPath="c:\inetpub\www.example.com" />
+   </application>
+   <bindings>
+      <binding protocol="ftp" bindingInformation="*:21:" />
+   </bindings>
+   <ftpServer serverAutoStart="true">
+      <security>
+         <authentication>
+            <basicAuthentication enabled="false" />
+            <anonymousAuthentication enabled="false" />
+            <customAuthentication>
+               <providers>
+                  <add name="FtpAuthenticationDemo" enabled="true" />
+               </providers>
+            </customAuthentication>
+         </authentication>
+         <ssl controlChannelPolicy="SslAllow" dataChannelPolicy="SslAllow" />
+      </security>
+   </ftpServer>
+</site>

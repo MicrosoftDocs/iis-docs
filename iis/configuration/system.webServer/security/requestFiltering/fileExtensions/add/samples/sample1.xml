@@ -1,0 +1,11 @@
+<configuration>
+   <system.webServer>
+      <security>
+         <requestFiltering>
+            <fileExtensions applyToWebDAV="false">
+               <add fileExtension=".inc" allowed="false" />
+            </fileExtensions>
+         </requestFiltering>
+      </security>
+   </system.webServer>
+</configuration>

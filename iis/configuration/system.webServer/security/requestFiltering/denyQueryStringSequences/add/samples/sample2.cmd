@@ -1,0 +1,1 @@
+appcmd.exe set config "Default Web Site" -section:system.webServer/security/requestFiltering /+"denyQueryStringSequences.[sequence='bad_querystring_sequence']"

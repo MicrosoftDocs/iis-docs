@@ -1,0 +1,10 @@
+<location path="Default Web Site">
+   <system.webServer>
+      <security>
+         <ipSecurity>
+            <add ipAddress="192.168.100.1" />
+            <add ipAddress="169.254.0.0" subnetMask="255.255.0.0" />
+         </ipSecurity>
+      </security>
+   </system.webServer>
+</location>

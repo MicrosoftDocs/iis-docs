@@ -1,0 +1,3 @@
+Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST' -location 'Default Web Site' -filter "system.webServer/webSocket" -name "enabled" -value "True"
+Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST' -location 'Default Web Site' -filter "system.webServer/webSocket" -name "receiveBufferLimit" -value 4194303
+Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST' -location 'Default Web Site' -filter "system.webServer/webSocket" -name "pingInterval" -value "00:00:20"

@@ -1,0 +1,7 @@
+<configuration>
+   <system.webServer>
+      <httpRedirect enabled="true" exactDestination="true" httpResponseStatus="Found">
+         <add wildcard="*.php" destination="/default.htm" />
+      </httpRedirect>
+   </system.webServer>
+</configuration>

@@ -1,0 +1,5 @@
+<siteDefaults>
+   <ftpServer>
+      <directoryBrowse showFlags="StyleUnix, DisplayAvailableBytes" />
+   </ftpServer>
+</siteDefaults>

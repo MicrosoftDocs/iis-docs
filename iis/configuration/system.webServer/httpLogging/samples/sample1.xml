@@ -1,0 +1,5 @@
+<configuration>
+   <system.webServer>
+      <httpLogging dontLog="false" selectiveLogging="LogError" />
+   </system.webServer>
+<configuration>

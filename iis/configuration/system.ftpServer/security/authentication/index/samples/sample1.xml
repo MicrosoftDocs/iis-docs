@@ -1,0 +1,7 @@
+<system.ftpServer>
+   <security>
+      <Authentication>
+         <denyByFailure enabled="true" maxFailure="5" entryExpiration="00:00:45" loggingOnlyMode="false" />
+      </Authentication>
+   </security>
+</system.ftpServer>

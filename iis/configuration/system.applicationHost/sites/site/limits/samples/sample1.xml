@@ -1,0 +1,15 @@
+<sites>
+   <site name="Default Web Site" id="1" serverAutoStart="true">
+      <application path="/">
+         <virtualDirectory path="/"
+            physicalPath="%SystemDrive%\inetpub\wwwroot" />
+      </application>
+      <bindings>
+         <binding protocol="http"
+            bindingInformation="*:80:" />
+      </bindings>
+     <limits maxBandwidth="65536"
+         maxConnections="1024"
+         connectionTimeout="00:01:00" />
+   </site>
+</sites>

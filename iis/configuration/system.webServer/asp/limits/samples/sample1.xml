@@ -1,0 +1,10 @@
+<configuration>
+   <system.webServer>
+      <asp>
+         <cache diskTemplateCacheDirectory="%SystemDrive%\inetpub\temp\ASP Compiled Templates" />
+         <limits scriptTimeout="00:02:00"
+            queueConnectionTestTime="00:00:05"
+            requestQueueMax="1000" />
+      </asp>
+   <system.webServer>
+<configuration>

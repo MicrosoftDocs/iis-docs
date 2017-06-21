@@ -1,0 +1,1 @@
+appcmd.exe set config "Default Web Site" -section:system.webServer/webSocket /enabled:"True" /receiveBufferLimit:"4194304" /pingInterval:"00:00:10"  /commit:apphost

@@ -1,0 +1,8 @@
+<location path="Default Web Site">
+   <system.webServer>
+      <odbcLogging dataSource="InternetDb"
+         tableName="InternetLog"
+         userName="InternetAdmin"
+         password="[enc:AesProvider:57686f6120447564652c2049495320526f636b73:enc]" />
+   </system.webServer>
+</location>

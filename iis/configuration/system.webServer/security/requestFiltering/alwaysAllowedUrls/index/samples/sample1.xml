@@ -1,0 +1,13 @@
+<system.webServer>
+   <security>
+      <requestFiltering>
+         <denyUrlSequences>
+            <add sequence="bad" />
+            <add sequence="sequence" />
+         </denyUrlSequences>
+         <alwaysAllowedUrls>
+            <add url="/bad_sequence.txt" />
+         </alwaysAllowedUrls>
+      </requestFiltering>
+   </security>
+</system.webServer>

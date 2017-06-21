@@ -1,0 +1,34 @@
+<globalModules>
+   <add name="UriCacheModule"
+      image="%windir%\System32\inetsrv\cachuri.dll" />
+   <add name="FileCacheModule"
+      image="%windir%\System32\inetsrv\cachfile.dll" />
+   <add name="TokenCacheModule"
+      image="%windir%\System32\inetsrv\cachtokn.dll" />
+   <add name="HttpCacheModule"
+      image="%windir%\System32\inetsrv\cachhttp.dll" />
+   <add name="StaticCompressionModule"
+      image="%windir%\System32\inetsrv\compstat.dll" />
+   <add name="DefaultDocumentModule"
+      image="%windir%\System32\inetsrv\defdoc.dll" />
+   <add name="DirectoryListingModule"
+      image="%windir%\System32\inetsrv\dirlist.dll" />
+   <add name="ProtocolSupportModule"
+      image="%windir%\System32\inetsrv\protsup.dll" />
+   <add name="StaticFileModule"
+      image="%windir%\System32\inetsrv\static.dll" />
+   <add name="AnonymousAuthenticationModule"
+      image="%windir%\System32\inetsrv\authanon.dll" />
+   <add name="RequestFilteringModule"
+      image="%windir%\System32\inetsrv\modrqflt.dll" />
+   <add name="CustomErrorModule"
+      image="%windir%\System32\inetsrv\custerr.dll" />
+   <add name="HttpLoggingModule"
+      image="%windir%\System32\inetsrv\loghttp.dll" />
+   <add name="RequestMonitorModule"
+      image="%windir%\System32\inetsrv\iisreqs.dll" />
+   <add name="BasicAuthenticationModule"
+      image="%windir%\System32\inetsrv\authbas.dll" />
+   <add name="ImageCopyrightModule"
+      image="%windir%\System32\inetsrv\ImageCopyrightModule.dll" />
+</globalModules>

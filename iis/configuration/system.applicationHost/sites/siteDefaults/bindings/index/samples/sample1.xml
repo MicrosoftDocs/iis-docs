@@ -1,0 +1,9 @@
+<system.applicationHost>
+   <sites>
+      <siteDefaults>
+         <bindings>
+            <binding protocol="http" bindingInformation="127.0.0.1:8080:" />
+         </bindings>
+      </siteDefaults>
+   </sites>
+</system.applicationHost>

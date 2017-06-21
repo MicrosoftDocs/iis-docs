@@ -1,0 +1,13 @@
+<system.webServer>
+   <security>
+      <requestFiltering>
+         <denyQueryStringSequences>
+            <add sequence="bad" />
+            <add sequence="sequence" />
+         </denyQueryStringSequences>
+         <alwaysAllowedQueryStrings>
+            <add queryString="bad=sequence" />
+         </alwaysAllowedQueryStrings>
+      </requestFiltering>
+   </security>
+</system.webServer>

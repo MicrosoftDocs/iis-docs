@@ -1,0 +1,11 @@
+<sites>
+    <site name="Default Web Site" id="1">
+        <logFile logFormat="W3C" logTargetW3C="File, ETW">
+            <customFields maxCustomFieldLength="4096">
+                <clear />
+                <add logFieldName="X-Forwarded-For" sourceName="X_FORWARDED_FOR" 
+                    sourceType="RequestHeader" />
+            </customFields>
+        </logFile>
+    </site>   
+</sites>
