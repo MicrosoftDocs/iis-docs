@@ -1,4 +1,4 @@
-Adding Administrator Providers &lt;add&gt;
+Adding Administrator Providers &lt;add&gt; (Deprecated)
 ====================
 <a id="001"></a>
 ## Note

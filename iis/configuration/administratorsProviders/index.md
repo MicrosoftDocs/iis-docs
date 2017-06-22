@@ -1,4 +1,4 @@
-Administrator Providers &lt;administratorsProviders&gt;
+Administrator Providers &lt;administratorsProviders&gt; (Deprecated)
 ====================
 <a id="001"></a>
 ## Note

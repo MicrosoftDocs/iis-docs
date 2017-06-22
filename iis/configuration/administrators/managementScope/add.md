@@ -1,4 +1,4 @@
-Adding Management Scopes for Administrators &lt;add&gt;
+Adding Management Scopes for Administrators &lt;add&gt; (Deprecated)
 ====================
 <a id="001"></a>
 ## Note
