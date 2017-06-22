@@ -69,7 +69,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`binding`](https://www.iis.net/configreference/system.applicationhost/sites/site/bindings/binding) | Optional element. Configures a binding in the parent site. |
+| [`binding`](../../../system.applicationhost/sites/site/bindings/binding.md) | Optional element. Configures a binding in the parent site. |
 | `clear` | Optional element. Clears references to default settings that are inherited from the parent level of the configuration. |
 
 ### Configuration Sample

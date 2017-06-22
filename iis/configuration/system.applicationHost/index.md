@@ -5,10 +5,10 @@
 
 The `<system.applicationHost>` element contains global configuration settings that are used by the Windows Process Activation Service (WAS) in Internet Information Services (IIS) 7. This element defines many of the server-level configuration settings in the IIS 7 ApplicationHost.config file.
 
-Of significant importance, the `<system.applicationHost>` element contains the configuration settings for the [&lt;applicationPools&gt;](https://www.iis.net/configreference/system.applicationhost/applicationpools) and [&lt;sites&gt;](https://www.iis.net/configreference/system.applicationhost/sites) collections, which respectively define the collection of application pools and Web sites on an IIS 7 server.
+Of significant importance, the `<system.applicationHost>` element contains the configuration settings for the [&lt;applicationPools&gt;](/system.applicationhost/applicationpools.md) and [&lt;sites&gt;](/system.applicationhost/sites.md) collections, which respectively define the collection of application pools and Web sites on an IIS 7 server.
 
 > [!NOTE]
-> Unlike the settings that are found in [&lt;system.webServer&gt;](https://www.iis.net/configreference/system.webserver), settings in the `<system.applicationHost>` element cannot be delegated.
+> Unlike the settings that are found in [&lt;system.webServer&gt;](/system.webserver.md), settings in the `<system.applicationHost>` element cannot be delegated.
 
 <a id="002"></a>
 ## Compatibility
@@ -45,14 +45,14 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`applicationPools`](https://www.iis.net/configreference/system.applicationhost/applicationpools) | Optional element. Contains default configuration settings for all application pools on the server and defines configuration settings for specific application pools. |
-| [`configHistory`](https://www.iis.net/configreference/system.applicationhost/confighistory) | Optional element. Specifies the configuration history settings for a server. |
-| [`customMetadata`](https://www.iis.net/configreference/system.applicationhost/custommetadata) | Optional element. Contains settings that are used internally by the Admin Base Object (ABO) mapper component of IIS 7. |
-| [`listenerAdapters`](https://www.iis.net/configreference/system.applicationhost/listeneradapters) | Optional element. Specifies configuration settings for listener adapters, which are components that establish communication between non-HTTP protocol listeners and WAS. |
-| [`log`](https://www.iis.net/configreference/system.applicationhost/log) | Optional element. Specifies the logging mode for a server. |
-| [`serviceAutoStartProviders`](https://www.iis.net/configreference/system.applicationhost/serviceautostartproviders) | Optional element. Specifies a collection of managed assemblies that will be loaded when the `AlwaysRunning` is specifed for an applocation pool's startMode. <br><br>**Note:** This element was added in IIS 7.5. |
-| [`sites`](https://www.iis.net/configreference/system.applicationhost/sites) | Optional element. Defines all sites on the server, and all applications and virtual directories in those sites. |
-| [`webLimits`](https://www.iis.net/configreference/system.applicationhost/weblimits) | Optional element. Configures TCP/IP connection and bandwidth limits. |
+| [`applicationPools`](/system.applicationhost/applicationpools.md) | Optional element. Contains default configuration settings for all application pools on the server and defines configuration settings for specific application pools. |
+| [`configHistory`](/system.applicationhost/confighistory.md) | Optional element. Specifies the configuration history settings for a server. |
+| [`customMetadata`](/system.applicationhost/custommetadata.md) | Optional element. Contains settings that are used internally by the Admin Base Object (ABO) mapper component of IIS 7. |
+| [`listenerAdapters`](/system.applicationhost/listeneradapters.md) | Optional element. Specifies configuration settings for listener adapters, which are components that establish communication between non-HTTP protocol listeners and WAS. |
+| [`log`](/system.applicationhost/log.md) | Optional element. Specifies the logging mode for a server. |
+| [`serviceAutoStartProviders`](/system.applicationhost/serviceautostartproviders.md) | Optional element. Specifies a collection of managed assemblies that will be loaded when the `AlwaysRunning` is specifed for an applocation pool's startMode. <br><br>**Note:** This element was added in IIS 7.5. |
+| [`sites`](/system.applicationhost/sites.md) | Optional element. Defines all sites on the server, and all applications and virtual directories in those sites. |
+| [`webLimits`](/system.applicationhost/weblimits.md) | Optional element. Configures TCP/IP connection and bandwidth limits. |
 
 ### Configuration Sample
 

@@ -148,14 +148,14 @@ You configure the `<site>` element at the server level in the ApplicationHost.co
 
 | Element | Description |
 | --- | --- |
-| [`application`](https://www.iis.net/configreference/system.applicationhost/sites/site/application) | Optional element. Specifies a collection of configuration settings for applications in the site. |
-| [`applicationDefaults`](https://www.iis.net/configreference/system.applicationhost/sites/site/applicationdefaults) | Optional element. Specifies default settings for all applications in the parent site. |
-| [`bindings`](https://www.iis.net/configreference/system.applicationhost/sites/site/bindings) | Optional element. Specifies bindings to access the site. |
-| [`ftpServer`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver) | Optional element. Specifies FTP settings for the site. <br><br>**Note:** This requires installing FTP 7.0 or FTP 7.5. |
-| [`limits`](https://www.iis.net/configreference/system.applicationhost/sites/site/limits) | Optional element. Configures settings to limit the amount of bandwidth, the number of connections, or the amount of time for connections to a site. |
-| [`logFile`](https://www.iis.net/configreference/system.applicationhost/sites/site/logfile) | Optional element. Configures settings for handling and storage of log files for the site. |
-| [`traceFailedRequestsLogging`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults) | Optional element. Specifies settings for logging failed-request traces for the site. |
-| [`virtualDirectoryDefaults`](https://www.iis.net/configreference/system.applicationhost/sites/site/virtualdirectorydefaults) | Optional element. Specifies default settings for all virtual directories in the site. |
+| [`application`](../../system.applicationhost/sites/site/application.md) | Optional element. Specifies a collection of configuration settings for applications in the site. |
+| [`applicationDefaults`](../../system.applicationhost/sites/site/applicationdefaults.md) | Optional element. Specifies default settings for all applications in the parent site. |
+| [`bindings`](../../system.applicationhost/sites/site/bindings.md) | Optional element. Specifies bindings to access the site. |
+| [`ftpServer`](../../system.applicationhost/sites/site/ftpserver.md) | Optional element. Specifies FTP settings for the site. <br><br>**Note:** This requires installing FTP 7.0 or FTP 7.5. |
+| [`limits`](../../system.applicationhost/sites/site/limits.md) | Optional element. Configures settings to limit the amount of bandwidth, the number of connections, or the amount of time for connections to a site. |
+| [`logFile`](../../system.applicationhost/sites/site/logfile.md) | Optional element. Configures settings for handling and storage of log files for the site. |
+| [`traceFailedRequestsLogging`](../../system.applicationhost/sites/sitedefaults.md) | Optional element. Specifies settings for logging failed-request traces for the site. |
+| [`virtualDirectoryDefaults`](../../system.applicationhost/sites/site/virtualdirectorydefaults.md) | Optional element. Specifies default settings for all virtual directories in the site. |
 
 ### Configuration Sample
 

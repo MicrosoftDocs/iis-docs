@@ -74,8 +74,8 @@ The `<application>` element is configurable at the server level in the Applicati
 
 | Element | Description |
 | --- | --- |
-| [`virtualDirectory`](https://www.iis.net/configreference/system.applicationhost/sites/site/application/virtualdirectory) | Optional element. Specifies configuration settings for a virtual directory in the parent application. |
-| [`virtualDirectoryDefaults`](https://www.iis.net/configreference/system.applicationhost/sites/site/application/virtualdirectorydefaults) | Optional element. Specifies the default settings for all virtual directories in the parent application. |
+| [`virtualDirectory`](../../../system.applicationhost/sites/site/application/virtualdirectory.md) | Optional element. Specifies configuration settings for a virtual directory in the parent application. |
+| [`virtualDirectoryDefaults`](../../../system.applicationhost/sites/site/application/virtualdirectorydefaults.md) | Optional element. Specifies the default settings for all virtual directories in the parent application. |
 
 ### Configuration Sample
 

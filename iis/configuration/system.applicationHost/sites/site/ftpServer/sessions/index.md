@@ -132,7 +132,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`session`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/sessions/session) | Dynamically created element. Specifies information about an FTP session. |
+| [`session`](../../../../system.applicationhost/sites/site/ftpserver/sessions/session.md) | Dynamically created element. Specifies information about an FTP session. |
 
 ### Configuration Sample
 

@@ -7,7 +7,7 @@ The `<providerData>` element specifies the collection of key/value pairs that sp
 
 Beginning with FTP 7.5, the FTP service supports extensibility for custom authentication and roles, logging, and home directory lookups. When you create an extensibility provider, you must first register it in the .NET Global Assembly Cache (GAC) for managed-code providers, or in your system's registry for native-code (COM) providers. For additional information about how to create FTP custom providers, see the following section on Microsoft's IIS.net Web site:
 
-> [Developing for FTP 7.5](../../..//learn/develop/developing-for-ftp.md)
+> [Developing for FTP 7.5](../../../learn/develop/developing-for-ftp.md)
 
  
 <a id="002"></a>
@@ -148,13 +148,13 @@ The `<providerData>` element the `<activation>` element is configured at the glo
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies the friendly name of the custom provider. <br><br>**Note:** This name must match the name of a provider that is specified by a [`<providerDefinitions/add>`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions/add) element. There is no default value. |
+| `name` | Required string attribute. Specifies the friendly name of the custom provider. <br><br>**Note:** This name must match the name of a provider that is specified by a [`<providerDefinitions/add>`](../../../system.ftpserver/providerdefinitions/add.md) element. There is no default value. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions/activation/providerdata/add) | Optional element. Adds a data entry for a custom provider. |
+| [`add`](../../../system.ftpserver/providerdefinitions/activation/providerdata/add.md) | Optional element. Adds a data entry for a custom provider. |
 | `clear` | Optional element. Clears the data for a custom provider. |
 | `remove` | Optional element. Removes a data entry for a custom provider. |
 

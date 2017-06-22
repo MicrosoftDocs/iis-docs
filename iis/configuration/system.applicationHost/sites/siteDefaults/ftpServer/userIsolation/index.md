@@ -185,7 +185,7 @@ For additional information about how to set up the Active Directory, see the "Is
 
 | Element | Description |
 | --- | --- |
-| [`activeDirectory`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/userisolation/activedirectory) | Optional element. Specifies the connection credentials and time-out for communicating with an Active Directory server. |
+| [`activeDirectory`](../../../../system.applicationhost/sites/sitedefaults/ftpserver/userisolation/activedirectory.md) | Optional element. Specifies the connection credentials and time-out for communicating with an Active Directory server. |
 
 ### Configuration Sample
 

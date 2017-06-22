@@ -12,7 +12,7 @@ The `<providers>` element of the `<customFeatures>` element specifies a collecti
 > The custom features that are added to the `<customFeatures/providers>` element must be registered in the `<system.ftpServer/providerDefinitions>` collection.
 
 > [!NOTE]
-> Support for creating custom feature providers was introduced in FTP 7.5. For additional information about how to create FTP custom feature providers, see the [Developing for FTP 7.5](../../../../..//learn/develop/developing-for-ftp.md) topic on Microsoft's IIS.net Web site.
+> Support for creating custom feature providers was introduced in FTP 7.5. For additional information about how to create FTP custom feature providers, see the [Developing for FTP 7.5](../../../../../learn/develop/developing-for-ftp.md) topic on Microsoft's IIS.net Web site.
 
 <a id="002"></a>
 ## Compatibility
@@ -119,7 +119,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/customfeatures/providers/add) | Optional element. Adds a feature provider to the collection of FTP custom providers for an FTP site. |
+| [`add`](../../../../../system.applicationhost/sites/site/ftpserver/customfeatures/providers/add.md) | Optional element. Adds a feature provider to the collection of FTP custom providers for an FTP site. |
 | `clear` | Optional element. Clears the collection of FTP custom providers for an FTP site. |
 | `remove` | Optional element. Removes a feature provider from the collection of FTP custom providers for an FTP site. |
 
@@ -135,7 +135,7 @@ The following sample displays a `<customFeatures>` element for an FTP site that 
 The following examples demonstrate how to add a custom logging provider for an FTP site.
 
 > [!NOTE]
-> FTP custom features must be registered in the [`<system.ftpServer/providerDefinitions>`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions) collection.
+> FTP custom features must be registered in the [`<system.ftpServer/providerDefinitions>`](../../../../../system.ftpserver/providerdefinitions.md) collection.
 
 ### AppCmd.exe
 

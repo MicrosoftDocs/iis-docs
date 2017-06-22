@@ -274,12 +274,12 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`authentication`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/authentication) | Optional element. Specifies the authentication settings for an FTP site. |
-| [`commandFiltering`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/commandfiltering) | Optional element. Specifies the settings for FTP command filtering. |
-| [`customAuthorization`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/customauthorization) | Optional element. Specifies the use of a custom provider for FTP authorization. |
-| [`dataChannelSecurity`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/datachannelsecurity) | Optional element. Specifies the settings for FTP data channel security. |
-| [`ssl`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/ssl) | Optional element. Specifies the SSL settings for an FTP site. |
-| [`sslClientCertificates`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/sslclientcertificates) | Optional element. Specifies the SSL client certificate options for an FTP site. |
+| [`authentication`](../../../../system.applicationhost/sites/site/ftpserver/security/authentication.md) | Optional element. Specifies the authentication settings for an FTP site. |
+| [`commandFiltering`](../../../../system.applicationhost/sites/site/ftpserver/security/commandfiltering.md) | Optional element. Specifies the settings for FTP command filtering. |
+| [`customAuthorization`](../../../../system.applicationhost/sites/site/ftpserver/security/customauthorization.md) | Optional element. Specifies the use of a custom provider for FTP authorization. |
+| [`dataChannelSecurity`](../../../../system.applicationhost/sites/site/ftpserver/security/datachannelsecurity.md) | Optional element. Specifies the settings for FTP data channel security. |
+| [`ssl`](../../../../system.applicationhost/sites/site/ftpserver/security/ssl.md) | Optional element. Specifies the SSL settings for an FTP site. |
+| [`sslClientCertificates`](../../../../system.applicationhost/sites/site/ftpserver/security/sslclientcertificates.md) | Optional element. Specifies the SSL client certificate options for an FTP site. |
 
 ### Configuration Sample
 

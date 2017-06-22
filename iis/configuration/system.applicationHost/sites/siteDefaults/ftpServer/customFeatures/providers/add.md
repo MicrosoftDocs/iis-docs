@@ -12,7 +12,7 @@ The `<add>` element of the `<providers>` element adds a feature provider to the 
 > The custom features that are added to the `<customFeatures/providers>` element must be registered in the `<system.ftpServer/providerDefinitions>` collection.
 
 > [!NOTE]
-> Support for creating custom feature providers was introduced in FTP 7.5. For additional information about how to create FTP custom feature providers, see the [Developing for FTP 7.5](../../../../../..//learn/develop/developing-for-ftp.md) topic on Microsoft's IIS.net Web site.
+> Support for creating custom feature providers was introduced in FTP 7.5. For additional information about how to create FTP custom feature providers, see the [Developing for FTP 7.5](../../../../../../learn/develop/developing-for-ftp.md) topic on Microsoft's IIS.net Web site.
 
 <a id="002"></a>
 ## Compatibility
@@ -113,7 +113,7 @@ At this time there is no user interface that enables you to add custom features 
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. The name of an FTP provider that is registered in the [`<system.ftpServer/providerDefinitions>`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions) collection. There is no default value. |
+| `name` | Required string attribute. The name of an FTP provider that is registered in the [`<system.ftpServer/providerDefinitions>`](../../../../../../system.ftpserver/providerdefinitions.md) collection. There is no default value. |
 | `enabled` | Optional Boolean attribute. **true** if the provider is enabled; otherwise, **false**. The default value is `true`. |
 
 ### Child Elements

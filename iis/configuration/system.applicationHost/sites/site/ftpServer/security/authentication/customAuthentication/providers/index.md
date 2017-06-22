@@ -16,10 +16,10 @@ The main advantage of using custom authentication providers is that user account
 - IIS Manager authentication: This uses the IIS management user store to validate user names and passwords. For more information, see the [Configure FTP with IIS 7.0 Manager Authentication](https://docs.microsoft.com/en-us/iis/publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7) topic Microsoft's IIS.net Web site.
 
 > [!NOTE]
-> The custom authentication providers that are added to the `<customAuthentication/providers>` element must be registered in the [`<system.ftpServer/providerDefinitions>`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions) collection.
+> The custom authentication providers that are added to the `<customAuthentication/providers>` element must be registered in the [`<system.ftpServer/providerDefinitions>`](../../../../../../../system.ftpserver/providerdefinitions.md) collection.
 
 > [!NOTE]
-> Support for creating custom authentication providers was introduced in FTP 7.5. For additional information about how to create custom authentication providers, see the [Developing for FTP 7.5](../../../../../../..//learn/develop/developing-for-ftp.md) section of Microsoft's [www.iis.net/learn](../../../../../../..//learn.md) Web site.
+> Support for creating custom authentication providers was introduced in FTP 7.5. For additional information about how to create custom authentication providers, see the [Developing for FTP 7.5](../../../../../../../learn/develop/developing-for-ftp.md) section of Microsoft's [www.iis.net/learn](../../../../../../../learn.md) Web site.
 
 <a id="002"></a>
 ## Compatibility
@@ -139,7 +139,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
     [![](index/_static/image14.png)](index/_static/image13.png)
 7. If desired, you can disable **Basic Authentication** or **Anonymous Authentication** by highlighting either mode and clicking **Disable** in the **Actions** pane.
 
-For additional information about how to configure IIS Manager authentication for FTP, see the [Configure FTP with IIS 7.0 Manager Authentication](https://docs.microsoft.com/en-us/iis/publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7) topic on Microsoft's [www.iis.net/learn](../../../../../../..//learn.md) Web site.
+For additional information about how to configure IIS Manager authentication for FTP, see the [Configure FTP with IIS 7.0 Manager Authentication](https://docs.microsoft.com/en-us/iis/publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7) topic on Microsoft's [www.iis.net/learn](../../../../../../../learn.md) Web site.
 
 * * *
 
@@ -195,7 +195,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication/providers/add) | Optional element. Adds a provider to the collection of custom authentication providers. |
+| [`add`](../../../../../../../system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication/providers/add.md) | Optional element. Adds a provider to the collection of custom authentication providers. |
 | `clear` | Optional element. Clears the collection of custom authentication providers. |
 | `remove` | Optional element. Removes a provider from the collection of custom authentication providers. |
 

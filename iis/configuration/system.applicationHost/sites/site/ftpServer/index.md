@@ -8,7 +8,7 @@ The `<ftpServer>` element of the `<site>` element specifies the site-level setti
 In IIS 6.0, the settings for the FTP service were stored in a separate section of the metabase than Web sites. In IIS 7 and later, FTP settings are stored in the ApplicationHost.config file within the same `<site>` and `<siteDefaults>` elements that store the settings for Web sites. Because of this, settings that are specified in the `<ftpServer>` element cannot be delegated, nor can they be specified within `<location>` elements.
 
 > [!NOTE]
-> Additional FTP settings are stored in the [`<system.ftpServer>`](https://www.iis.net/configreference/system.ftpserver) section of the ApplicationHost.config file, and these settings are specified within `<location>` elements.
+> Additional FTP settings are stored in the [`<system.ftpServer>`](../../../system.ftpserver.md) section of the ApplicationHost.config file, and these settings are specified within `<location>` elements.
 
 <a id="002"></a>
 ## Compatibility
@@ -272,24 +272,24 @@ The site-specific `<ftpServer>` element is configured at the `<site>` level.
 
 | Element | Description |
 | --- | --- |
-| [`connections`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/connections) | Optional element. Specifies the connection-specific settings for an FTP site. |
-| [`security`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security) | Optional element. Specifies the security-related settings for an FTP site. |
-| [`customFeatures`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/customfeatures) | Optional element. Specifies a collection of custom FTP providers that were developed by using FTP extensibility. |
-| [`messages`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/messages) | Optional element. Specifies the connection-related messages that an FTP site will display to FTP clients. |
-| [`fileHandling`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/filehandling) | Optional element. Specifies the file-handling settings for an FTP site. |
-| [`firewallSupport`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/firewallsupport) | Optional element. Specifies the settings for an FTP site that are required for FTP connections that are made through a firewall. |
-| [`userIsolation`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/userisolation) | Optional element. Specifies the home directory lookup behavior for FTP connections. For example, users can be restricted to a home directory that is based on their login name. |
-| [`directoryBrowse`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/directorybrowse) | Optional element. Specifies the directory listing options for an FTP site. These settings affect how the FTP service will display directory listings to FTP clients. |
-| [`logfile`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/logfile) | Optional element. Specifies the logging options for an FTP site. |
-| [`sessions`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/sessions) | Dynamically-generated read-only element. Contains a collection of currently-connected FTP sessions. Each session contains various metadata such as the client's IP address, the currently-executed command, etc. |
+| [`connections`](../../../system.applicationhost/sites/site/ftpserver/connections.md) | Optional element. Specifies the connection-specific settings for an FTP site. |
+| [`security`](../../../system.applicationhost/sites/site/ftpserver/security.md) | Optional element. Specifies the security-related settings for an FTP site. |
+| [`customFeatures`](../../../system.applicationhost/sites/site/ftpserver/customfeatures.md) | Optional element. Specifies a collection of custom FTP providers that were developed by using FTP extensibility. |
+| [`messages`](../../../system.applicationhost/sites/site/ftpserver/messages.md) | Optional element. Specifies the connection-related messages that an FTP site will display to FTP clients. |
+| [`fileHandling`](../../../system.applicationhost/sites/site/ftpserver/filehandling.md) | Optional element. Specifies the file-handling settings for an FTP site. |
+| [`firewallSupport`](../../../system.applicationhost/sites/site/ftpserver/firewallsupport.md) | Optional element. Specifies the settings for an FTP site that are required for FTP connections that are made through a firewall. |
+| [`userIsolation`](../../../system.applicationhost/sites/site/ftpserver/userisolation.md) | Optional element. Specifies the home directory lookup behavior for FTP connections. For example, users can be restricted to a home directory that is based on their login name. |
+| [`directoryBrowse`](../../../system.applicationhost/sites/site/ftpserver/directorybrowse.md) | Optional element. Specifies the directory listing options for an FTP site. These settings affect how the FTP service will display directory listings to FTP clients. |
+| [`logfile`](../../../system.applicationhost/sites/site/ftpserver/logfile.md) | Optional element. Specifies the logging options for an FTP site. |
+| [`sessions`](../../../system.applicationhost/sites/site/ftpserver/sessions.md) | Dynamically-generated read-only element. Contains a collection of currently-connected FTP sessions. Each session contains various metadata such as the client's IP address, the currently-executed command, etc. |
 
 ### Methods
 
 | Method | Description |
 | --- | --- |
-| [`Start`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/start) | Starts an FTP site. |
-| [`Stop`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/stop) | Stops an FTP site. |
-| [`FlushLog`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/flushlog) | Flushes the log file for an FTP site. |
+| [`Start`](../../../system.applicationhost/sites/site/ftpserver/start.md) | Starts an FTP site. |
+| [`Stop`](../../../system.applicationhost/sites/site/ftpserver/stop.md) | Stops an FTP site. |
+| [`FlushLog`](../../../system.applicationhost/sites/site/ftpserver/flushlog.md) | Flushes the log file for an FTP site. |
 
 ### Configuration Sample
 

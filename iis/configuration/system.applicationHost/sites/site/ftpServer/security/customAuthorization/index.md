@@ -85,7 +85,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`provider`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/customauthorization/provider) | Optional element. Specifies the custom authorization provider. |
+| [`provider`](../../../../../system.applicationhost/sites/site/ftpserver/security/customauthorization/provider.md) | Optional element. Specifies the custom authorization provider. |
 
 ### Configuration Sample
 
@@ -93,7 +93,7 @@ The following sample displays a `<customAuthorization>` element:
 
 [!code-xml[Main](index/samples/sample1.xml)]
 
-The following sample displays a &lt;[providerDefinitions](https://www.iis.net/configreference/system.ftpserver/providerdefinitions)&gt; element for the custom authorization provider in the preceding example:
+The following sample displays a &lt;[providerDefinitions](../../../../../system.ftpserver/providerdefinitions.md)&gt; element for the custom authorization provider in the preceding example:
 
 [!code-xml[Main](index/samples/sample2.xml)]
 

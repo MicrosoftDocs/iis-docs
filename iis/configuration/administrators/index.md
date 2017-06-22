@@ -4,4 +4,4 @@ Administrators &lt;administrators&gt; (Deprecated)
 ## Note
 
 > [!NOTE]
-> Do not use. This element has been deprecated. Use [system.webServer/management](https://www.iis.net/configreference/system.webserver/management) instead.
+> Do not use. This element has been deprecated. Use [system.webServer/management](/system.webserver/management.md) instead.

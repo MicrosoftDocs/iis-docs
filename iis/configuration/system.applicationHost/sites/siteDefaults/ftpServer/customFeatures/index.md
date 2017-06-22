@@ -12,7 +12,7 @@ The `<customFeatures>` element is used to specify the collection of FTP provider
 > The custom features that are added to the `<customFeatures/providers>` element must be registered in the `<system.ftpServer/providerDefinitions>` collection.
 
 > [!NOTE]
-> Support for creating custom feature providers was introduced in FTP 7.5. For additional information about how to create FTP custom feature providers, see the [Developing for FTP 7.5](../../../..//learn/develop/developing-for-ftp.md) topic on Microsoft's IIS.net Web site.
+> Support for creating custom feature providers was introduced in FTP 7.5. For additional information about how to create FTP custom feature providers, see the [Developing for FTP 7.5](../../../../learn/develop/developing-for-ftp.md) topic on Microsoft's IIS.net Web site.
 
 <a id="002"></a>
 ## Compatibility
@@ -120,7 +120,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`providers`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/customfeatures/providers) | Optional element. Specifies the default collection of custom FTP features. |
+| [`providers`](../../../../system.applicationhost/sites/sitedefaults/ftpserver/customfeatures/providers.md) | Optional element. Specifies the default collection of custom FTP features. |
 
 ### Configuration Sample
 

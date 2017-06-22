@@ -156,7 +156,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`credentialsCache`](https://www.iis.net/configreference/system.ftpserver/caching/credentialscache) | Optional element. Specifies the credential cache settings for the FTP service. |
+| [`credentialsCache`](../system.ftpserver/caching/credentialscache.md) | Optional element. Specifies the credential cache settings for the FTP service. |
 
 ### Configuration Sample
 

@@ -91,7 +91,7 @@ The `<customFields>` element is configured at the site level.
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.applicationhost/sites/site/logfile/customfields/add) | Optional element. Specifies the configuration settings for a custom field added to a W3C log. |
+| [`add`](../../../../system.applicationhost/sites/site/logfile/customfields/add.md) | Optional element. Specifies the configuration settings for a custom field added to a W3C log. |
 
 ### Configuration Sample
 

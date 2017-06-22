@@ -67,18 +67,18 @@ The `<applicationPools>` collection is included in the default installation of I
 | `managedRuntimeLoader` | Optional string attribute. Specifies the managed loader to use for pre-loading the the application pool. <br><br>**Note:** This attribute was added in IIS 7.5. The default value is **webengine4.dll**. |
 | `managedRuntimeVersion` | Optional string attribute. Specifies the .NET Framework version to be used by the application pool. The **managedRuntimeVersion** attribute can be one of the following possible values; the default value is `""`. | Value | Description | | --- | --- | | `v1.1` | Specifies that the application pool use the .NET Framework version 1.1. | | `v2.0` | Specifies that the application pool use the .NET Framework version 2.0. | | `v4.0` | Specifies that the application pool use the .NET Framework version 4.0. | |
 | `name` | Required string attribute. Specifies a unique name for an application pool on the server. |
-| `queueLength` | Optional uint attribute. Indicates to HTTP.sys how many requests to queue for an application pool before rejecting future requests. When the value set for this property is exceeded, IIS rejects subsequent requests with a 503 error. If the **loadBalancerCapabilities** setting is **true**, the connection is closed instead of rejecting requests with a 503. For more information about **loadBalancerCapabilities**, see [Failure Settings for an Application Pool](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/failure). The default value is `1000`. |
+| `queueLength` | Optional uint attribute. Indicates to HTTP.sys how many requests to queue for an application pool before rejecting future requests. When the value set for this property is exceeded, IIS rejects subsequent requests with a 503 error. If the **loadBalancerCapabilities** setting is **true**, the connection is closed instead of rejecting requests with a 503. For more information about **loadBalancerCapabilities**, see [Failure Settings for an Application Pool](../../system.applicationhost/applicationpools/add/failure.md). The default value is `1000`. |
 | `startMode` | Optional enum value. Specifies the startup type for the application pool. <br><br>**Note:** This attribute was added in IIS 7.5. The **startMode** attribute can be one of the following possible values; the default value is `OnDemand`. | Value | Description | | --- | --- | | `AlwaysRunning` | Specifies that the Windows Process Activation Service (WAS) will always start the application pool. This behavior allows an application to load the operating environment before any serving any HTTP requests, which reduces the start-up processing for initial HTTP requests for the application. The numeric value is `1`. | | `OnDemand` | Specifies that the Windows Process Activation Service (WAS) will start the application pool when an HTTP request is made for an application that is hosted in the application pool. This behavior resembles the WAS behavior in previous versions of IIS. The numeric value is `0`. | |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`cpu`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/cpu) | Configures CPU affinity and CPU actions. |
-| [`environmentVariables`](https://www.iis.net/configreference/system.applicationhost/applicationpools/applicationpooldefaults/environmentvariables) | Configures a collection of environment variables to pass to worker processes. |
-| [`failure`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/failure) | Configures actions to take when an application pool fails. |
-| [`processModel`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/processmodel) | Configures process management attributes for an application pool. |
-| [`recycling`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/recycling) | Configures application pool recycling. |
+| [`cpu`](../../system.applicationhost/applicationpools/add/cpu.md) | Configures CPU affinity and CPU actions. |
+| [`environmentVariables`](../../system.applicationhost/applicationpools/applicationpooldefaults/environmentvariables.md) | Configures a collection of environment variables to pass to worker processes. |
+| [`failure`](../../system.applicationhost/applicationpools/add/failure.md) | Configures actions to take when an application pool fails. |
+| [`processModel`](../../system.applicationhost/applicationpools/add/processmodel.md) | Configures process management attributes for an application pool. |
+| [`recycling`](../../system.applicationhost/applicationpools/add/recycling.md) | Configures application pool recycling. |
 
 ### Configuration Sample
 

@@ -80,7 +80,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`key`](https://www.iis.net/configreference/system.applicationhost/custommetadata/key) | Optional element. Adds a custom metadata setting to the collection of custom metadata settings. |
+| [`key`](../system.applicationhost/custommetadata/key.md) | Optional element. Adds a custom metadata setting to the collection of custom metadata settings. |
 
 <a id="006"></a>
 ## Sample Code

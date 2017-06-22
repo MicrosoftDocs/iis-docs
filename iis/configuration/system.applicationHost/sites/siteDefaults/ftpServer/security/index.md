@@ -272,11 +272,11 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`authentication`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication) | Optional element. Specifies the authentication settings for an FTP site. |
-| [`commandFiltering`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/commandfiltering) | Optional element. Specifies the settings for FTP command filtering. |
-| [`dataChannelSecurity`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/datachannelsecurity) | Optional element. Specifies the settings for FTP data channel security. |
-| [`ssl`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/ssl) | Optional element. Specifies the SSL settings for an FTP site. |
-| [`sslClientCertificates`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/sslclientcertificates) | Optional element. Specifies the SSL client certificate options for an FTP site. |
+| [`authentication`](../../../../system.applicationhost/sites/sitedefaults/ftpserver/security/authentication.md) | Optional element. Specifies the authentication settings for an FTP site. |
+| [`commandFiltering`](../../../../system.applicationhost/sites/sitedefaults/ftpserver/security/commandfiltering.md) | Optional element. Specifies the settings for FTP command filtering. |
+| [`dataChannelSecurity`](../../../../system.applicationhost/sites/sitedefaults/ftpserver/security/datachannelsecurity.md) | Optional element. Specifies the settings for FTP data channel security. |
+| [`ssl`](../../../../system.applicationhost/sites/sitedefaults/ftpserver/security/ssl.md) | Optional element. Specifies the SSL settings for an FTP site. |
+| [`sslClientCertificates`](../../../../system.applicationhost/sites/sitedefaults/ftpserver/security/sslclientcertificates.md) | Optional element. Specifies the SSL client certificate options for an FTP site. |
 
 ### Configuration Sample
 

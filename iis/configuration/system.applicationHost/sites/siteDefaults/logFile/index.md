@@ -12,17 +12,17 @@ By default, IIS 7 and later uses the World Wide Web Consortium (W3C) log file fo
 > [!NOTE]
 > ODBC logging is implemented as a custom logging module in IIS 7 and later. As a result, enabling and configuring ODBC logging in IIS 7 and later consists of two separate actions:
 
-- Setting the ODBC logging attributes in the [`<odbcLogging>`](https://www.iis.net/configreference/system.webserver/odbclogging) element. These attributes specify the System Data Source Name (DSN), table name, user name, and password for the ODBC connection.
+- Setting the ODBC logging attributes in the [`<odbcLogging>`](../../../system.webserver/odbclogging.md) element. These attributes specify the System Data Source Name (DSN), table name, user name, and password for the ODBC connection.
 - Setting the correct custom logging attributes in `<logFile>` element. These attributes must set the log file format to "Custom" and the custom log plug-in class ID to "{FF16065B-DE82-11CF-BC0A-00AA006111E0}".
 
-For more information about ODBC logging, see the [`<odbcLogging>`](https://www.iis.net/configreference/system.webserver/odbclogging) element.
+For more information about ODBC logging, see the [`<odbcLogging>`](../../../system.webserver/odbclogging.md) element.
 
 You can define the categories of information that IIS logs by editing the **logExtFileFlags** attribute. The default values are `Date`, `Time`, `ClientIP`, `UserName`, `ServerIP`, `Method`, `UriStem`, `UriQuery`, `TimeTaken`, `HttpStatus`, `Win32Status`, `ServerPort`, `UserAgent`, `HttpSubStatus`, and `Referer`.
 
 > [!NOTE]
 > If the `<logFile>` element is configured in both the `<siteDefaults>` section and in the `<site>` section for a specific site, the configuration in the `<site>` section is used for that site.
 
-IIS 8.5 enables you to log custom fields in addition to the standard logged set. The log file format must be W3C to add custom fields. For more information, see [`customFields`](https://www.iis.net/configreference/system.applicationhost/sites/site/logfile/customfields).
+IIS 8.5 enables you to log custom fields in addition to the standard logged set. The log file format must be W3C to add custom fields. For more information, see [`customFields`](../../../system.applicationhost/sites/site/logfile/customfields.md).
 
 <a id="002"></a>
 ## Compatibility
@@ -152,7 +152,7 @@ The `<logFile>` element is included in the default installation of IIS 7 and lat
 
 | Element | Description |
 | --- | --- |
-| [`customFields`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/logfile/customfields) | Optional element. Specifies the configuration settings for default custom fields in a W3C log. |
+| [`customFields`](../../../system.applicationhost/sites/sitedefaults/logfile/customfields.md) | Optional element. Specifies the configuration settings for default custom fields in a W3C log. |
 
 ### Configuration Sample
 

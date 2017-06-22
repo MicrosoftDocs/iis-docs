@@ -5,7 +5,7 @@ Service Autostart Providers &lt;serviceAutoStartProviders&gt;
 
 The `<serviceAutoStartProviders>` element specifies a collection of managed assemblies that Windows Process Activation Service (WAS) will load automatically when the `startMode` attribute of an application pool is set to `AlwaysRunning`. This collection allows developers to specify assemblies that perform initialization tasks before any HTTP requests are serviced. For example, an application developer may want to establish the initial database connections for the application before IIS begins request processing; this will enable the application to perform faster for initial requests that require round trips to and from a database.
 
-For more information about how to configure application pools to start automatically, see the [`<applicationPools>`](https://www.iis.net/configreference/system.applicationhost/applicationpools) topic.
+For more information about how to configure application pools to start automatically, see the [`<applicationPools>`](../system.applicationhost/applicationpools.md) topic.
 
 > [!NOTE]
 > This element was introduced in IIS 7.5.
@@ -89,7 +89,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.applicationhost/serviceautostartproviders/add) | Optional element. Adds a provider to the collection of autostart providers. |
+| [`add`](../system.applicationhost/serviceautostartproviders/add.md) | Optional element. Adds a provider to the collection of autostart providers. |
 | `clear` | Optional element. Clears the collection of autostart providers. |
 | `remove` | Optional element. Removes a provider from the collection of autostart providers. |
 

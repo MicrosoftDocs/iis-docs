@@ -42,7 +42,7 @@ There is no user interface for the `<configPaths>` element for IIS 7. For exampl
 
 | Element | Description |
 | --- | --- |
-| [`section`](https://www.iis.net/configreference/configpaths/searchresult/section) | Contains a collection of section names returned by the configuration search, for example, "system.webServer/security/authentication/windowsAuthentication." |
+| [`section`](../configpaths/searchresult/section.md) | Contains a collection of section names returned by the configuration search, for example, "system.webServer/security/authentication/windowsAuthentication." |
 
 ### Configuration Sample
 

@@ -91,7 +91,7 @@ The `<customFields>` element for default settings is configured at the server le
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/logfile/customfields/add) | Optional element. Specifies the configuration settings for default custom fields in a W3C log. |
+| [`add`](../../../../system.applicationhost/sites/sitedefaults/logfile/customfields/add.md) | Optional element. Specifies the configuration settings for default custom fields in a W3C log. |
 
 ### Configuration Sample
 

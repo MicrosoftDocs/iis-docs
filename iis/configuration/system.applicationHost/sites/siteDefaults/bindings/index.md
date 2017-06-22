@@ -67,7 +67,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`binding`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/bindings/binding) | Optional element. Configures a default binding. |
+| [`binding`](../../../system.applicationhost/sites/sitedefaults/bindings/binding.md) | Optional element. Configures a default binding. |
 | `clear` | Optional element. Clears the collection of default bindings. |
 
 ### Configuration Sample

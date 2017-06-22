@@ -78,7 +78,7 @@ The `<recycling>` element is configurable at the server level in the Application
 
 | Element | Description |
 | --- | --- |
-| [`periodicRestart`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/recycling/periodicrestart) | Optional element. Specifies conditions under which application pools are recycled. |
+| [`periodicRestart`](../../../system.applicationhost/applicationpools/add/recycling/periodicrestart.md) | Optional element. Specifies conditions under which application pools are recycled. |
 
 ### Configuration Sample
 
