@@ -82,7 +82,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[denyByFailure](https://www.iis.net/configreference/system.ftpserver/security/authentication/denybyfailure)` | Optional element. Configures the FTP service to deny access based upon the failure rate. |
+| [`denyByFailure`](https://www.iis.net/configreference/system.ftpserver/security/authentication/denybyfailure) | Optional element. Configures the FTP service to deny access based upon the failure rate. |
 
 ### Configuration Sample
 

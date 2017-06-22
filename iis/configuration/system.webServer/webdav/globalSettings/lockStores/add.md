@@ -3,7 +3,7 @@ Adding WebDAV Lock Stores &lt;add&gt;
 <a id="001"></a>
 ## Overview
 
-The WebDAV module is designed to support multiple lock store providers, which are defined in the `webdav/globalSettings/lockStores` collection. A series of `<add>` elements define the settings for each lock provider in the `[&lt;lockStores&gt;](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/lockstores)` collection.
+The WebDAV module is designed to support multiple lock store providers, which are defined in the `webdav/globalSettings/lockStores` collection. A series of `<add>` elements define the settings for each lock provider in the [`&lt;lockStores&gt;`](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/lockstores) collection.
 
 > [!NOTE]
 > Currently the only property store provider is **webdav\_simple\_lock**, which stores WebDAV locks in memory. Because this provider stores locks in memory, the locks are automatically released when IIS or an application pool are restarted.
@@ -128,7 +128,7 @@ The following example lists a sample `<globalSettings>` element for a WebDAV ser
 ## Sample Code
 
 > [!NOTE]
-> The `[propertyStores](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/propertystores)` and `[lockStores](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/lockstores)` collections are populated with the built-in property and lock providers when you install WebDAV. These provider collections are not extensible at this time, so the code samples in this section are only for reference.
+> The [`propertyStores`](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/propertystores) and [`lockStores`](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/lockstores) collections are populated with the built-in property and lock providers when you install WebDAV. These provider collections are not extensible at this time, so the code samples in this section are only for reference.
 
 The following examples configure WebDAV global settings to re-add the built-in property and lock providers that are copied to your system when you install the WebDAV module.
 

@@ -10,7 +10,7 @@ This element allows server administrators to configure the external address of t
 When passive connections are negotiated using the FTP PASV command, the FTP server sends a response which contains IP address and port of the server. By specifying the `externalIp4Address` attribute, you can direct FTP clients to communicate with your firewall, which should route the client traffic to your FTP server. By specifying an external IP address for your firewall per-site, this allows you to route the firewall traffic for each FTP site through a different firewall.
 
 > [!NOTE]
-> While the external IP address can be configured per-site, you can also specify the data channel port range that the FTP service will use in the global `[&lt;system.ftpServer/firewallSupport&gt;](https://www.iis.net/configreference/system.ftpserver/firewallsupport)` element.
+> While the external IP address can be configured per-site, you can also specify the data channel port range that the FTP service will use in the global [`&lt;system.ftpServer/firewallSupport&gt;`](https://www.iis.net/configreference/system.ftpserver/firewallsupport) element.
 
 <a id="002"></a>
 ## Compatibility
@@ -125,7 +125,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 5. In the **Actions** pane, click **Apply**.
 
 > [!NOTE]
-> The data channel port range must be configured in the global `[&lt;system.ftpServer/firewallSupport&gt;](https://www.iis.net/configreference/system.ftpserver/firewallsupport)` element.
+> The data channel port range must be configured in the global [`&lt;system.ftpServer/firewallSupport&gt;`](https://www.iis.net/configreference/system.ftpserver/firewallsupport) element.
 
 For additional information about how to configure the firewall settings for the FTP service, see the following topic on the Microsoft IIS.NET web site:
 

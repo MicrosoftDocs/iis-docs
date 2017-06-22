@@ -79,7 +79,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/management/authorization/providers/add)` | Optional element. Adds a provider to the collection of authorization providers. |
+| [`add`](https://www.iis.net/configreference/system.webserver/management/authorization/providers/add) | Optional element. Adds a provider to the collection of authorization providers. |
 
 ### Configuration Sample
 

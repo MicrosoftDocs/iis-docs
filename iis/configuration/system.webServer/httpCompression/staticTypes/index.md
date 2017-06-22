@@ -78,7 +78,7 @@ None.
 
 ### Child Elements
 
-| `[add](https://www.iis.net/configreference/system.webserver/httpcompression/statictypes/add)` | Optional element. Adds a MIME type to the collection of static MIME types. |
+| [`add`](https://www.iis.net/configreference/system.webserver/httpcompression/statictypes/add) | Optional element. Adds a MIME type to the collection of static MIME types. |
 | --- | --- |
 | `remove` | Optional element. Removes a reference to a MIME type from the static MIME type collection. |
 | `clear` | Optional element. Removes all references to MIME types from the static MIME type collection. |

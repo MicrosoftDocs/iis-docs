@@ -45,15 +45,15 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[applicationPools](https://www.iis.net/configreference/system.applicationhost/applicationpools)` | Optional element. Contains default configuration settings for all application pools on the server and defines configuration settings for specific application pools. |
-| `[configHistory](https://www.iis.net/configreference/system.applicationhost/confighistory)` | Optional element. Specifies the configuration history settings for a server. |
-| `[customMetadata](https://www.iis.net/configreference/system.applicationhost/custommetadata)` | Optional element. Contains settings that are used internally by the Admin Base Object (ABO) mapper component of IIS 7. |
-| `[listenerAdapters](https://www.iis.net/configreference/system.applicationhost/listeneradapters)` | Optional element. Specifies configuration settings for listener adapters, which are components that establish communication between non-HTTP protocol listeners and WAS. |
-| `[log](https://www.iis.net/configreference/system.applicationhost/log)` | Optional element. Specifies the logging mode for a server. |
-| `[serviceAutoStartProviders](https://www.iis.net/configreference/system.applicationhost/serviceautostartproviders)` | Optional element. Specifies a collection of managed assemblies that will be loaded when the `AlwaysRunning` is specifed for an applocation pool's startMode. > [!NOTE]
+| [`applicationPools`](https://www.iis.net/configreference/system.applicationhost/applicationpools) | Optional element. Contains default configuration settings for all application pools on the server and defines configuration settings for specific application pools. |
+| [`configHistory`](https://www.iis.net/configreference/system.applicationhost/confighistory) | Optional element. Specifies the configuration history settings for a server. |
+| [`customMetadata`](https://www.iis.net/configreference/system.applicationhost/custommetadata) | Optional element. Contains settings that are used internally by the Admin Base Object (ABO) mapper component of IIS 7. |
+| [`listenerAdapters`](https://www.iis.net/configreference/system.applicationhost/listeneradapters) | Optional element. Specifies configuration settings for listener adapters, which are components that establish communication between non-HTTP protocol listeners and WAS. |
+| [`log`](https://www.iis.net/configreference/system.applicationhost/log) | Optional element. Specifies the logging mode for a server. |
+| [`serviceAutoStartProviders`](https://www.iis.net/configreference/system.applicationhost/serviceautostartproviders) | Optional element. Specifies a collection of managed assemblies that will be loaded when the `AlwaysRunning` is specifed for an applocation pool's startMode. > [!NOTE]
  > This element was added in IIS 7.5. |
-| `[sites](https://www.iis.net/configreference/system.applicationhost/sites)` | Optional element. Defines all sites on the server, and all applications and virtual directories in those sites. |
-| `[webLimits](https://www.iis.net/configreference/system.applicationhost/weblimits)` | Optional element. Configures TCP/IP connection and bandwidth limits. |
+| [`sites`](https://www.iis.net/configreference/system.applicationhost/sites) | Optional element. Defines all sites on the server, and all applications and virtual directories in those sites. |
+| [`webLimits`](https://www.iis.net/configreference/system.applicationhost/weblimits) | Optional element. Configures TCP/IP connection and bandwidth limits. |
 
 ### Configuration Sample
 

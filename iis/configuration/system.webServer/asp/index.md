@@ -119,10 +119,10 @@ You can configure the `<asp>` element at the server level in the ApplicationHost
 
 | Element | Description |
 | --- | --- |
-| `[cache](https://www.iis.net/configreference/system.webserver/asp/cache)` | Optional element. Specifies ASP cache settings. |
-| `[comPlus](https://www.iis.net/configreference/system.webserver/asp/complus)` | Optional element. Specifies COM+ settings. |
-| `[limits](https://www.iis.net/configreference/system.webserver/asp/limits)` | Optional element. Specifies limits for various ASP properties. |
-| `[session](https://www.iis.net/configreference/system.webserver/asp/session)` | Optional element. Specifies ASP session state settings. |
+| [`cache`](https://www.iis.net/configreference/system.webserver/asp/cache) | Optional element. Specifies ASP cache settings. |
+| [`comPlus`](https://www.iis.net/configreference/system.webserver/asp/complus) | Optional element. Specifies COM+ settings. |
+| [`limits`](https://www.iis.net/configreference/system.webserver/asp/limits) | Optional element. Specifies limits for various ASP properties. |
+| [`session`](https://www.iis.net/configreference/system.webserver/asp/session) | Optional element. Specifies ASP session state settings. |
 
 ### Configuration Sample
 

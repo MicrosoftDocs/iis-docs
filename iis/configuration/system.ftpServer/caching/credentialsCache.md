@@ -3,7 +3,7 @@ FTP Credentials Cache &lt;credentialsCache&gt;
 <a id="001"></a>
 ## Overview
 
-The `<credentialsCache>` element of the `[&lt;caching&gt;](https://www.iis.net/configreference/system.ftpserver/caching)` element specifies the credential settings for the FTP service.   
+The `<credentialsCache>` element of the [`&lt;caching&gt;`](https://www.iis.net/configreference/system.ftpserver/caching) element specifies the credential settings for the FTP service.   
   
 
 The FTP service caches user credentials for performance reasons, thereby decreasing the time that is required to authenticate clients and reducing the overhead that is associated with looking up user credentials in the security store that is in use. For example, when using FTP Basic authentication, user credentials are stored in the local accounts database on the server where the FTP service is running, or on a domain controller. If you are using .NET membership credentials, the user accounts are stored in a database. If the domain accounts or membership database are stored on a remote computer, then credential caching will help offset the time that is necessary to validate accounts. On an FTP server with a large number of account logins, this can substantially increase performance.

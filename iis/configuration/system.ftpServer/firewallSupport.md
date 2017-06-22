@@ -13,7 +13,7 @@ The valid range for TCP/IP ports is 1025 through 65535. (Ports from 1 through 10
 
 
 > [!NOTE]
-> You can use the `[&lt;ftpServer/firewallSupport&gt;](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/firewallsupport)` to configure the per-site external IP address for your firewall; this allows you to route the firewall traffic for each site through a different firewall.
+> You can use the [`&lt;ftpServer/firewallSupport&gt;`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/firewallsupport) to configure the per-site external IP address for your firewall; this allows you to route the firewall traffic for each site through a different firewall.
 
 <a id="002"></a>
 ## Compatibility

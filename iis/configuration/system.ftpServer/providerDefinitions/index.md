@@ -152,8 +152,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.ftpserver/providerdefinitions/add)` | Optional element. Specifies the registration information for a managed-code or native-code (COM) provider. |
-| `[activation](https://www.iis.net/configreference/system.ftpserver/providerdefinitions/activation)` | Optional element. Specifies a collection of custom name/value pairs that define any parameters that a custom provider requires. > [!NOTE]
+| [`add`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions/add) | Optional element. Specifies the registration information for a managed-code or native-code (COM) provider. |
+| [`activation`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions/activation) | Optional element. Specifies a collection of custom name/value pairs that define any parameters that a custom provider requires. > [!NOTE]
  > This element was added in FTP 7.5. |
 
 ### Configuration Sample

@@ -167,7 +167,7 @@ Rules are processed from top to bottom, in the order they appear in the list. Th
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.ftpserver/security/ipsecurity/add)` | Optional element. Adds an IP restriction to the collection of IP address restrictions. |
+| [`add`](https://www.iis.net/configreference/system.ftpserver/security/ipsecurity/add) | Optional element. Adds an IP restriction to the collection of IP address restrictions. |
 | `remove` | Optional element. Removes a reference to a restriction from the `<ipSecurity>` collection. |
 | `clear` | Optional element. Removes all references to restrictions from the `<ipSecurity>` collection. |
 

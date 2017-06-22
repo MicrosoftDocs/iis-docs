@@ -79,7 +79,7 @@ You can configure the `<caching>` element at the server level in the Application
 
 | Element | Description |
 | --- | --- |
-| `[profiles](https://www.iis.net/configreference/system.webserver/caching/profiles)` | Optional element. Contains a group of output cache settings that can be applied to ASP.NET pages. |
+| [`profiles`](https://www.iis.net/configreference/system.webserver/caching/profiles) | Optional element. Contains a group of output cache settings that can be applied to ASP.NET pages. |
 
 ### Configuration Sample
 

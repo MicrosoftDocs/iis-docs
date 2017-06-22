@@ -129,12 +129,12 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[anonymousAuthentication](https://www.iis.net/configreference/system.webserver/security/authentication/anonymousauthentication)` | Optional element. Specifies the settings for Anonymous authentication. |
-| `[basicAuthentication](https://www.iis.net/configreference/system.webserver/security/authentication/basicauthentication)` | Optional element. Specifies the settings for Basic authentication. |
-| `[clientCertificateMappingAuthentication](https://www.iis.net/configreference/system.webserver/security/authentication/clientcertificatemappingauthentication)` | Optional element. Specifies the settings Client Certificate Mapping authentication using Active Directory. |
-| `[digestAuthentication](https://www.iis.net/configreference/system.webserver/security/authentication/digestauthentication)` | Optional element. Specifies the settings for Digest authentication. |
-| `[iisClientCertificateMappingAuthentication](https://www.iis.net/configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication)` | Optional element. Specifies the settings Client Certificate Mapping authentication using IIS. |
-| `[windowsAuthentication](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication)` | Optional element. Specifies the settings for Windows authentication. |
+| [`anonymousAuthentication`](https://www.iis.net/configreference/system.webserver/security/authentication/anonymousauthentication) | Optional element. Specifies the settings for Anonymous authentication. |
+| [`basicAuthentication`](https://www.iis.net/configreference/system.webserver/security/authentication/basicauthentication) | Optional element. Specifies the settings for Basic authentication. |
+| [`clientCertificateMappingAuthentication`](https://www.iis.net/configreference/system.webserver/security/authentication/clientcertificatemappingauthentication) | Optional element. Specifies the settings Client Certificate Mapping authentication using Active Directory. |
+| [`digestAuthentication`](https://www.iis.net/configreference/system.webserver/security/authentication/digestauthentication) | Optional element. Specifies the settings for Digest authentication. |
+| [`iisClientCertificateMappingAuthentication`](https://www.iis.net/configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication) | Optional element. Specifies the settings Client Certificate Mapping authentication using IIS. |
+| [`windowsAuthentication`](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication) | Optional element. Specifies the settings for Windows authentication. |
 
 ### Configuration Sample
 

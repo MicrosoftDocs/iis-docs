@@ -177,14 +177,14 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[access](https://www.iis.net/configreference/system.webserver/security/access)` | Optional element. Specifies configuration settings for Secure Sockets Layer (SSL) such as whether to use client certificates for authentication and crypto strength. |
-| `[applicationDependencies](https://www.iis.net/configreference/system.webserver/security/applicationdependencies)` | Optional element. Specifies an application that has dependencies to one or more CGI or ISAPI extension restrictions. |
-| `[authentication](https://www.iis.net/configreference/system.webserver/security/authentication)` | Optional element. Specifies authentication-related settings. |
-| `[authorization](https://www.iis.net/configreference/system.webserver/security/authorization)` | Optional element. Specifies authorization-related settings. |
-| `[dynamicIpSecurity](https://www.iis.net/configreference/system.webserver/security/dynamicipsecurity)` | Optional element. Specifies dynamic IP restrictions that block any IP address that meets a set of criteria. |
-| `[ipSecurity](https://www.iis.net/configreference/system.webserver/security/ipsecurity)` | Optional element. Specifies access restrictions based on the IP version 4 address or DNS domain name. |
-| `[isapiCgiRestriction](https://www.iis.net/configreference/system.webserver/security/isapicgirestriction)` | Optional element. Specifies settings that restrict which CGI and ISAPI programs are allowed to run on the server. |
-| `[requestFiltering](https://www.iis.net/configreference/system.webserver/security/requestfiltering)` | Optional element. Specifies configuration settings for request filtering. |
+| [`access`](https://www.iis.net/configreference/system.webserver/security/access) | Optional element. Specifies configuration settings for Secure Sockets Layer (SSL) such as whether to use client certificates for authentication and crypto strength. |
+| [`applicationDependencies`](https://www.iis.net/configreference/system.webserver/security/applicationdependencies) | Optional element. Specifies an application that has dependencies to one or more CGI or ISAPI extension restrictions. |
+| [`authentication`](https://www.iis.net/configreference/system.webserver/security/authentication) | Optional element. Specifies authentication-related settings. |
+| [`authorization`](https://www.iis.net/configreference/system.webserver/security/authorization) | Optional element. Specifies authorization-related settings. |
+| [`dynamicIpSecurity`](https://www.iis.net/configreference/system.webserver/security/dynamicipsecurity) | Optional element. Specifies dynamic IP restrictions that block any IP address that meets a set of criteria. |
+| [`ipSecurity`](https://www.iis.net/configreference/system.webserver/security/ipsecurity) | Optional element. Specifies access restrictions based on the IP version 4 address or DNS domain name. |
+| [`isapiCgiRestriction`](https://www.iis.net/configreference/system.webserver/security/isapicgirestriction) | Optional element. Specifies settings that restrict which CGI and ISAPI programs are allowed to run on the server. |
+| [`requestFiltering`](https://www.iis.net/configreference/system.webserver/security/requestfiltering) | Optional element. Specifies configuration settings for request filtering. |
 
 ### Configuration Sample
 

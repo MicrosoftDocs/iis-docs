@@ -90,7 +90,7 @@ There is no user interface for configuring IIS Client Certificate Mapping authen
 
 | Element | Description |
 | --- | --- |
-| `[rules](https://www.iis.net/configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings/add/rules)` | Optional element. Specifies criteria for mapping client certificates with IIS so that many clients can use one certificate. |
+| [`rules`](https://www.iis.net/configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings/add/rules) | Optional element. Specifies criteria for mapping client certificates with IIS so that many clients can use one certificate. |
 
 ### Configuration Sample
 

@@ -13,7 +13,7 @@ When you create a new application pool on IIS 7 and later, at a minimum you must
 
 Starting in IIS 7.5, you can configure an application to start automatically by using the **managedRuntimeLoader**, **CLRConfigFile**, and **startMode** attributes of the `<add>` element. These attributes configure, respectively, the name of the managed DLL that provides runtime loading for your application, the common language runtime configuration file for the application, and the startup type for the application.
 
-Also new in IIS 7.5 and later is a new `ApplicationPoolIdentity` type for the **identityType** attribute of the `[&lt;processModel&gt;](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/processmodel)` element. This new identity type is now the default process identity for applications, and makes it possible to set the security for your content areas to allow access for a specific application pool. To do so, you would set your security using the name of an application pool by using syntax like "IIS AppPool\DefaultAppPool." This identity is created dynamically, thereby dramatically reducing the surface attack area of your server.
+Also new in IIS 7.5 and later is a new `ApplicationPoolIdentity` type for the **identityType** attribute of the [`&lt;processModel&gt;`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/processmodel) element. This new identity type is now the default process identity for applications, and makes it possible to set the security for your content areas to allow access for a specific application pool. To do so, you would set your security using the name of an application pool by using syntax like "IIS AppPool\DefaultAppPool." This identity is created dynamically, thereby dramatically reducing the surface attack area of your server.
 
 <a id="002"></a>
 ## Compatibility
@@ -96,11 +96,11 @@ The `<add>` element of the `<applicationPools>` collection is configurable at th
 
 | Element | Description |
 | --- | --- |
-| `[cpu](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/cpu)` | Configures CPU affinity and CPU actions. |
-| `[environmentVariables](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/environmentvariables)` | Configures a collection of environment variables to pass to worker processes. |
-| `[failure](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/failure)` | Configures actions to take when an application pool fails. |
-| `[processModel](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/processmodel)` | Configures process management attributes for an application pool. |
-| `[recycling](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/recycling)` | Configures application pool recycling. |
+| [`cpu`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/cpu) | Configures CPU affinity and CPU actions. |
+| [`environmentVariables`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/environmentvariables) | Configures a collection of environment variables to pass to worker processes. |
+| [`failure`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/failure) | Configures actions to take when an application pool fails. |
+| [`processModel`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/processmodel) | Configures process management attributes for an application pool. |
+| [`recycling`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/recycling) | Configures application pool recycling. |
 
 ### Configuration Sample
 

@@ -8,7 +8,7 @@ The `<commandFiltering>` element specifies a collection of FTP commands that the
 > [!NOTE]
 > Special attention must be applied when configuring which FTP commands to allow or deny, and whether to deny unlisted commands. For example, denying many commands like USER, PASS, PASV, PORT, etc., will make it impossible for your FTP site to function. Likewise, denying unlisted commands by default will probably be too restrictive and many FTP clients will be unable to access your FTP site.
 
-The collection in the `<commandFiltering>` element is related to the `[&lt;requestFiltering&gt;](https://www.iis.net/configreference/system.ftpserver/security/requestfiltering)` settings; however, while request filtering applies for files and directories and can be configured per URL, the settings under the `<commandFiltering>` element apply the protocol-level of processing and can only be configured at the site level.
+The collection in the `<commandFiltering>` element is related to the [`&lt;requestFiltering&gt;`](https://www.iis.net/configreference/system.ftpserver/security/requestfiltering) settings; however, while request filtering applies for files and directories and can be configured per URL, the settings under the `<commandFiltering>` element apply the protocol-level of processing and can only be configured at the site level.
 
 Additional attributes for the `<commandFiltering>` element are `maxCommandLine` and `allowUnlisted`. Respectively, these configure the maximum command line length and whether to allow unlisted commands.
 
@@ -151,7 +151,7 @@ The `<commandFiltering>` element is configured at the site level.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/commandfiltering/add)` | Optional element. Adds an entry to the collection of FTP commands. |
+| [`add`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/commandfiltering/add) | Optional element. Adds an entry to the collection of FTP commands. |
 | `clear` | Optional element. Clears the collection of FTP commands. |
 | `remove` | Optional element. Removes an entry from the collection of FTP commands. |
 

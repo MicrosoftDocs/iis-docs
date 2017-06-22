@@ -68,12 +68,12 @@ The `<siteDefaults>` element of the `<sites>` element is included in the default
 
 | Element | Description |
 | --- | --- |
-| `[bindings](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/bindings)` | Optional element. Specifies default bindings for access to sites. |
-| `[ftpServer](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver)` | Optional element. Specifies default settings for FTP sites. > [!NOTE]
+| [`bindings`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/bindings) | Optional element. Specifies default bindings for access to sites. |
+| [`ftpServer`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver) | Optional element. Specifies default settings for FTP sites. > [!NOTE]
  > This requires installing FTP 7.0 or FTP 7.5. |
-| `[limits](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/limits)` | Optional element. Configures default settings to limit the amount of bandwidth, the number of connections, or the amount of time for connections to sites. |
-| `[logFile](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/logfile)` | Optional element. Configures default settings for handling and storage of log files for sites. |
-| `[traceFailedRequestsLogging](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/tracefailedrequestslogging)` | Optional element. Specifies default settings for logging failed-request traces for sites. |
+| [`limits`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/limits) | Optional element. Configures default settings to limit the amount of bandwidth, the number of connections, or the amount of time for connections to sites. |
+| [`logFile`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/logfile) | Optional element. Configures default settings for handling and storage of log files for sites. |
+| [`traceFailedRequestsLogging`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/tracefailedrequestslogging) | Optional element. Specifies default settings for logging failed-request traces for sites. |
 
 ### Configuration Sample
 

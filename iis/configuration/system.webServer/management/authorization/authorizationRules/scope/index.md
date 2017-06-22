@@ -109,7 +109,7 @@ The default installation of IIS 7 and later does not include the **Management Se
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/management/authorization/authorizationrules/scope/add)` | Optional element. Adds an IIS Manager user or Windows user or group to the collection of users who are authorized to connect to a site or an application by using IIS Manager. |
+| [`add`](https://www.iis.net/configreference/system.webserver/management/authorization/authorizationrules/scope/add) | Optional element. Adds an IIS Manager user or Windows user or group to the collection of users who are authorized to connect to a site or an application by using IIS Manager. |
 
 ### Configuration Sample
 

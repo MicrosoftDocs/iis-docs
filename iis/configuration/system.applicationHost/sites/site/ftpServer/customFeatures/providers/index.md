@@ -119,7 +119,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/customfeatures/providers/add)` | Optional element. Adds a feature provider to the collection of FTP custom providers for an FTP site. |
+| [`add`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/customfeatures/providers/add) | Optional element. Adds a feature provider to the collection of FTP custom providers for an FTP site. |
 | `clear` | Optional element. Clears the collection of FTP custom providers for an FTP site. |
 | `remove` | Optional element. Removes a feature provider from the collection of FTP custom providers for an FTP site. |
 
@@ -135,7 +135,7 @@ The following sample displays a `<customFeatures>` element for an FTP site that 
 The following examples demonstrate how to add a custom logging provider for an FTP site.
 
 > [!NOTE]
-> FTP custom features must be registered in the `[&lt;system.ftpServer/providerDefinitions&gt;](https://www.iis.net/configreference/system.ftpserver/providerdefinitions)` collection.
+> FTP custom features must be registered in the [`&lt;system.ftpServer/providerDefinitions&gt;`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions) collection.
 
 ### AppCmd.exe
 

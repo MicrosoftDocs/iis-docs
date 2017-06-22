@@ -49,7 +49,7 @@ None.
 
 | Attribute | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/modules/add)` | Optional element. Adds a module to the collection of modules for IIS Manager. |
+| [`add`](https://www.iis.net/configreference/modules/add) | Optional element. Adds a module to the collection of modules for IIS Manager. |
 | `clear` | Optional element. Removes all references to modules from the parent modules collection. |
 | `remove` | Optional element. Removes a reference to a module from the collection of modules for IIS Manager. |
 

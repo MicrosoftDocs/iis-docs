@@ -16,7 +16,7 @@ The main advantage of using custom authentication providers is that user account
 - IIS Manager authentication: This uses the IIS management user store to validate user names and passwords. For more information, see the [Configure FTP with IIS 7.0 Manager Authentication](https://docs.microsoft.com/en-us/iis/publish/using-the-ftp-service/configure-ftp-with-iis-manager-authentication-in-iis-7) topic Microsoft's IIS.net Web site.
 
 > [!NOTE]
-> The custom authentication providers that are added to the `<customAuthentication/providers>` element must be registered in the `[&lt;system.ftpServer/providerDefinitions&gt;](https://www.iis.net/configreference/system.ftpserver/providerdefinitions)` collection.
+> The custom authentication providers that are added to the `<customAuthentication/providers>` element must be registered in the [`&lt;system.ftpServer/providerDefinitions&gt;`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions) collection.
 
 > [!NOTE]
 > Support for creating custom authentication providers was introduced in FTP 7.5. For additional information about how to create custom authentication providers, see the [Developing for FTP 7.5](../../../../../../..//learn/develop/developing-for-ftp.md) section of Microsoft's [www.iis.net/learn](../../../../../../..//learn.md) Web site.
@@ -193,7 +193,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/customauthentication/providers/add)` | Optional element. Adds a provider to the default collection of custom authentication providers. |
+| [`add`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/customauthentication/providers/add) | Optional element. Adds a provider to the default collection of custom authentication providers. |
 | `clear` | Optional element. Clears the default collection of custom authentication providers. |
 | `remove` | Optional element. Removes a provider from the default collection of custom authentication providers. |
 

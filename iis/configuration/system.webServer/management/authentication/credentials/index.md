@@ -127,7 +127,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/management/authentication/credentials/add)` | Optional element. Adds an IIS Manager user account to the collection of IIS Manager users. |
+| [`add`](https://www.iis.net/configreference/system.webserver/management/authentication/credentials/add) | Optional element. Adds an IIS Manager user account to the collection of IIS Manager users. |
 
 ### Configuration Sample
 

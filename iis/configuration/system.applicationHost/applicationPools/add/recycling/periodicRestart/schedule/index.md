@@ -64,7 +64,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/recycling/periodicrestart/schedule/add)` | Optional element. Specifies a value for starting the periodic recycling of an application pool. |
+| [`add`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/recycling/periodicrestart/schedule/add) | Optional element. Specifies a value for starting the periodic recycling of an application pool. |
 | `clear` | Optional element. Specifies that the parent-level configuration settings should be removed from the configuration at this level. |
 
 ### Configuration Sample

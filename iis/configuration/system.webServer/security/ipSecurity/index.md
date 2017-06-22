@@ -141,7 +141,7 @@ The following default `<ipSecurity>` element is configured in the root Applicati
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/security/ipsecurity/add)` | Optional element. Adds an IP restriction to the collection of IP address restrictions. |
+| [`add`](https://www.iis.net/configreference/system.webserver/security/ipsecurity/add) | Optional element. Adds an IP restriction to the collection of IP address restrictions. |
 | `remove` | Optional element. Removes a reference to a restriction from the `<ipSecurity>` collection. |
 | `clear` | Optional element. Removes all references to restrictions from the `<ipSecurity>` collection. |
 

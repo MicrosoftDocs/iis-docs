@@ -90,7 +90,7 @@ You can configure the `<defaultDocument>` element at the server level in the App
 
 | Element | Description |
 | --- | --- |
-| `[files](https://www.iis.net/configreference/system.webserver/defaultdocument/files)` | Optional element. Specifies a list of file names that can be returned as default documents. |
+| [`files`](https://www.iis.net/configreference/system.webserver/defaultdocument/files) | Optional element. Specifies a list of file names that can be returned as default documents. |
 
 ### Configuration Sample
 

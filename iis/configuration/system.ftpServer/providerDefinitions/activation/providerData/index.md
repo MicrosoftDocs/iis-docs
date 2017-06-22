@@ -149,13 +149,13 @@ The `<providerData>` element the `<activation>` element is configured at the glo
 | Attribute | Description |
 | --- | --- |
 | `name` | Required string attribute. Specifies the friendly name of the custom provider. > [!NOTE]
- > This name must match the name of a provider that is specified by a `[&lt;providerDefinitions/add&gt;](https://www.iis.net/configreference/system.ftpserver/providerdefinitions/add)` element. There is no default value. |
+ > This name must match the name of a provider that is specified by a [`&lt;providerDefinitions/add&gt;`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions/add) element. There is no default value. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.ftpserver/providerdefinitions/activation/providerdata/add)` | Optional element. Adds a data entry for a custom provider. |
+| [`add`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions/activation/providerdata/add) | Optional element. Adds a data entry for a custom provider. |
 | `clear` | Optional element. Clears the data for a custom provider. |
 | `remove` | Optional element. Removes a data entry for a custom provider. |
 

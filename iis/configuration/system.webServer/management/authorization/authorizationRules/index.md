@@ -107,7 +107,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[scope](https://www.iis.net/configreference/system.webserver/management/authorization/authorizationrules/scope)` | Optional element. Configures the virtual path of the site or application to which IIS Manager users and Windows users are authorized to connect by using IIS Manager. |
+| [`scope`](https://www.iis.net/configreference/system.webserver/management/authorization/authorizationrules/scope) | Optional element. Configures the virtual path of the site or application to which IIS Manager users and Windows users are authorized to connect by using IIS Manager. |
 
 ### Configuration Sample
 

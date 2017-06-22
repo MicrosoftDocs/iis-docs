@@ -75,7 +75,7 @@ You configure the `<modules>` element at the server level in the ApplicationHost
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/modules/add)` | Optional element. Adds a module to the collection of modules. |
+| [`add`](https://www.iis.net/configreference/system.webserver/modules/add) | Optional element. Adds a module to the collection of modules. |
 | `clear` | Optional element. Removes all references to modules from the modules collection. |
 | `remove` | Optional element. Removes a reference to a module from the modules collection. |
 

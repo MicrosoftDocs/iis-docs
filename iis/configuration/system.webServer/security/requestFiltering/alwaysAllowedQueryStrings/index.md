@@ -3,7 +3,7 @@ Always Allowed Query Strings &lt;alwaysAllowedQueryStrings&gt;
 <a id="001"></a>
 ## Overview
 
-The `<alwaysAllowedQueryStrings>` element specifies a collection of query strings that request filtering will always allow. The `<alwaysAllowedQueryStrings>` element contains a collection of `[&lt;add&gt;](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedquerystrings/add)` elements that specify query string patterns that request filtering will allow, which override the values in the `[&lt;denyQueryStringSequences&gt;](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyquerystringsequences)` collection.
+The `<alwaysAllowedQueryStrings>` element specifies a collection of query strings that request filtering will always allow. The `<alwaysAllowedQueryStrings>` element contains a collection of [`&lt;add&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedquerystrings/add) elements that specify query string patterns that request filtering will allow, which override the values in the [`&lt;denyQueryStringSequences&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyquerystringsequences) collection.
 
 <a id="002"></a>
 ## Compatibility
@@ -99,7 +99,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedquerystrings/add)` | Optional element. Adds a query string pattern to the collection of query strings that request filtering will always allow. |
+| [`add`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedquerystrings/add) | Optional element. Adds a query string pattern to the collection of query strings that request filtering will always allow. |
 | `clear` | Optional element. Clears the collection of query string patterns that request filtering will always allow. |
 | `remove` | Optional element. Removes a query string pattern from the collection of query strings that request filtering will always allow. |
 

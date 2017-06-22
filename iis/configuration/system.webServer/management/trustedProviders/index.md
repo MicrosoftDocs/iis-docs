@@ -80,7 +80,7 @@ There is no user interface for configuring the `<trustedProviders>` element for 
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/management/trustedproviders/add)` | Optional element. Adds a provider to the collection of providers that are trusted to be run by IIS Manager and the Management Service (WMSVC). |
+| [`add`](https://www.iis.net/configreference/system.webserver/management/trustedproviders/add) | Optional element. Adds a provider to the collection of providers that are trusted to be run by IIS Manager and the Management Service (WMSVC). |
 
 ### Configuration Sample
 

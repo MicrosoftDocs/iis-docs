@@ -66,8 +66,8 @@ The `<httpProtocol>` element is included in the default installation of IIS 7.
 
 | Element | Description |
 | --- | --- |
-| `[customHeaders](https://www.iis.net/configreference/system.webserver/httpprotocol/customheaders)` | Configures custom response headers that are returned in responses from the Web server. |
-| `[redirectHeaders](https://www.iis.net/configreference/system.webserver/httpprotocol/redirectheaders)` | Configures response headers that are returned in responses only when the Web server redirects requests. |
+| [`customHeaders`](https://www.iis.net/configreference/system.webserver/httpprotocol/customheaders) | Configures custom response headers that are returned in responses from the Web server. |
+| [`redirectHeaders`](https://www.iis.net/configreference/system.webserver/httpprotocol/redirectheaders) | Configures response headers that are returned in responses only when the Web server redirects requests. |
 
 ### Configuration Sample
 

@@ -18,7 +18,7 @@ Windows authentication is best suited for an intranet environment for the follow
 
 #### New in IIS 7.5
 
-The `[&lt;extendedProtection&gt;](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication/extendedprotection)` element was introduced in IIS 7.5, which allows you to configure the settings for the new extended protection features that have been integrated into Windows authentication.
+The [`&lt;extendedProtection&gt;`](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication/extendedprotection) element was introduced in IIS 7.5, which allows you to configure the settings for the new extended protection features that have been integrated into Windows authentication.
 
 <a id="002"></a>
 ## Compatibility
@@ -158,9 +158,9 @@ The `<windowsAuthentication>` element is configurable at the site, application, 
 
 | Element | Description |
 | --- | --- |
-| `[extendedProtection](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication/extendedprotection)` | Optional element. Specifies extended protection options for Windows authentication. > [!NOTE]
+| [`extendedProtection`](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication/extendedprotection) | Optional element. Specifies extended protection options for Windows authentication. > [!NOTE]
  > This element was added in IIS 7.5. |
-| `[providers](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication/providers)` | Optional element. Specifies security support providers used for Windows authentication. |
+| [`providers`](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication/providers) | Optional element. Specifies security support providers used for Windows authentication. |
 
 ### Configuration Sample
 

@@ -81,7 +81,7 @@ The `<customMetadata>` section of the configuration should not be modified direc
 
 | Element | Description |
 | --- | --- |
-| `[property](https://www.iis.net/configreference/system.applicationhost/custommetadata/key/property)` | Optional element. Adds a metabase property to the collection of metabase properties. |
+| [`property`](https://www.iis.net/configreference/system.applicationhost/custommetadata/key/property) | Optional element. Adds a metabase property to the collection of metabase properties. |
 
 <a id="006"></a>
 ## Sample Code

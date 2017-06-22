@@ -6,7 +6,7 @@ WebDAV Global Settings &lt;globalSettings&gt;
 The `<globalSettings>` element is the parent element for global WebDAV configuration settings. More specifically, this element contains the settings for property and lock provider definitions. The WebDAV module is designed to accept multiple providers, although only a single provider is available for IIS 7 and IIS 7.5.
 
 > [!NOTE]
-> The `<globalSettings>` element should not be confused with the `[&lt;siteDefaults&gt;](https://www.iis.net/configreference/system.applicationhost/sites/site/sitedefaults)` element, which defines the default settings for Web sites.
+> The `<globalSettings>` element should not be confused with the [`&lt;siteDefaults&gt;`](https://www.iis.net/configreference/system.applicationhost/sites/site/sitedefaults) element, which defines the default settings for Web sites.
 
 <a id="002"></a>
 ## Compatibility
@@ -145,8 +145,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[propertyStores](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/propertystores)` | Optional element. Specifies the collection of property store providers. |
-| `[lockStores](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/lockstores)` | Optional element. Specifies the collection of lock store providers. |
+| [`propertyStores`](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/propertystores) | Optional element. Specifies the collection of property store providers. |
+| [`lockStores`](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/lockstores) | Optional element. Specifies the collection of lock store providers. |
 
 ### Configuration Sample
 
@@ -158,7 +158,7 @@ The following example lists a sample `<globalSettings>` element for a WebDAV ser
 ## Sample Code
 
 > [!NOTE]
-> The `[propertyStores](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/propertystores)` and `[lockStores](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/lockstores)` collections are populated with the built-in property and lock providers when you install WebDAV. These provider collections are not extensible at this time, so the code samples in this section are only for reference.
+> The [`propertyStores`](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/propertystores) and [`lockStores`](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/lockstores) collections are populated with the built-in property and lock providers when you install WebDAV. These provider collections are not extensible at this time, so the code samples in this section are only for reference.
 
 The following examples configure WebDAV global settings to re-add the built-in property and lock providers that are copied to your system when you install the WebDAV module.
 

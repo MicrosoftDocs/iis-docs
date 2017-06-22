@@ -139,12 +139,12 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[log](https://www.iis.net/configreference/system.ftpserver/log)` | Optional element. Specifies the global log settings for the FTP service. |
-| `[firewallSupport](https://www.iis.net/configreference/system.ftpserver/firewallsupport)` | Optional element. Specifies the port range that the FTP service will use for data channel communication. |
-| `[providerDefinitions](https://www.iis.net/configreference/system.ftpserver/providerdefinitions)` | Optional element. Specifies the collection of custom FTP providers. |
-| `[security](https://www.iis.net/configreference/system.ftpserver/security)` | Optional element. Specifies the security-related settings for FTP. |
-| `[caching](https://www.iis.net/configreference/system.ftpserver/caching)` | Optional element. Specifies the credential cache settings for the FTP service. |
-| `[serverRuntime](https://www.iis.net/configreference/system.ftpserver/serverruntime)` | Optional element. Specifies settings that configure how the FTP service operates. |
+| [`log`](https://www.iis.net/configreference/system.ftpserver/log) | Optional element. Specifies the global log settings for the FTP service. |
+| [`firewallSupport`](https://www.iis.net/configreference/system.ftpserver/firewallsupport) | Optional element. Specifies the port range that the FTP service will use for data channel communication. |
+| [`providerDefinitions`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions) | Optional element. Specifies the collection of custom FTP providers. |
+| [`security`](https://www.iis.net/configreference/system.ftpserver/security) | Optional element. Specifies the security-related settings for FTP. |
+| [`caching`](https://www.iis.net/configreference/system.ftpserver/caching) | Optional element. Specifies the credential cache settings for the FTP service. |
+| [`serverRuntime`](https://www.iis.net/configreference/system.ftpserver/serverruntime) | Optional element. Specifies settings that configure how the FTP service operates. |
 
 ### Configuration Sample
 

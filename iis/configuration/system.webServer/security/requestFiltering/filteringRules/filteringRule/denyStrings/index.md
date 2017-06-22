@@ -110,7 +110,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings/add)` | Optional element. Adds a unique string to the collection of strings which a request filtering rule will deny. |
+| [`add`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings/add) | Optional element. Adds a unique string to the collection of strings which a request filtering rule will deny. |
 | `clear` | Optional element. Clears the collection of strings which a request filtering rule will deny. |
 | `remove` | Optional element. Removes a unique string from the collection of strings which a request filtering rule will deny. |
 

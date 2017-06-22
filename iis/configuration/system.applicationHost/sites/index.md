@@ -68,10 +68,10 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[applicationDefaults](https://www.iis.net/configreference/system.applicationhost/sites/applicationdefaults)` | Optional element. Specifies default settings for all applications on the server. |
-| `[site](https://www.iis.net/configreference/system.applicationhost/sites/site)` | Optional element. Specifies configuration settings for a site. |
-| `[siteDefaults](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults)` | Optional element. Specifies default settings for all sites on the server. |
-| `[virtualDirectoryDefaults](https://www.iis.net/configreference/system.applicationhost/sites/virtualdirectorydefaults)` | Optional element. Specifies default settings for all virtual directories on the server. |
+| [`applicationDefaults`](https://www.iis.net/configreference/system.applicationhost/sites/applicationdefaults) | Optional element. Specifies default settings for all applications on the server. |
+| [`site`](https://www.iis.net/configreference/system.applicationhost/sites/site) | Optional element. Specifies configuration settings for a site. |
+| [`siteDefaults`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults) | Optional element. Specifies default settings for all sites on the server. |
+| [`virtualDirectoryDefaults`](https://www.iis.net/configreference/system.applicationhost/sites/virtualdirectorydefaults) | Optional element. Specifies default settings for all virtual directories on the server. |
 
 ### Configuration Sample
 

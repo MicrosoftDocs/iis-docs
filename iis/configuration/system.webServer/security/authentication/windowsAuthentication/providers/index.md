@@ -84,7 +84,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication/providers/add)` | Optional element. Adds a security provider to the collection of providers. Windows authentication requires at least one provider. |
+| [`add`](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication/providers/add) | Optional element. Adds a security provider to the collection of providers. Windows authentication requires at least one provider. |
 | `remove` | Optional element. Removes a reference to a security provider from the providers collection. |
 | `clear` | Optional element. Removes all references to providers from the provider collection. |
 

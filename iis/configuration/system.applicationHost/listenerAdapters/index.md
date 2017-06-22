@@ -42,7 +42,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.applicationhost/listeneradapters/add)` | Optional element. Specifies the configuration for a listener adapter. |
+| [`add`](https://www.iis.net/configreference/system.applicationhost/listeneradapters/add) | Optional element. Specifies the configuration for a listener adapter. |
 
 ### Configuration Sample
 

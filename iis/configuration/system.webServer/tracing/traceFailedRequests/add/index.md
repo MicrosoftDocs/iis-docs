@@ -136,8 +136,8 @@ After you finish the default installation of IIS 7 and later, you must install t
 
 | Element | Description |
 | --- | --- |
-| `[traceAreas](https://www.iis.net/configreference/system.webserver/tracing/tracefailedrequests/add/traceareas)` | Required element. Configures what to trace for a given path. |
-| `[failureDefinitions](https://www.iis.net/configreference/system.webserver/tracing/tracefailedrequests/add/failuredefinitions)` | Required element. Defines the conditions in which to save traces for a request. |
+| [`traceAreas`](https://www.iis.net/configreference/system.webserver/tracing/tracefailedrequests/add/traceareas) | Required element. Configures what to trace for a given path. |
+| [`failureDefinitions`](https://www.iis.net/configreference/system.webserver/tracing/tracefailedrequests/add/failuredefinitions) | Required element. Defines the conditions in which to save traces for a request. |
 
 ### Configuration Sample
 

@@ -77,11 +77,11 @@ The `<applicationPools>` collection is included in the default installation of I
 
 | Element | Description |
 | --- | --- |
-| `[cpu](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/cpu)` | Configures CPU affinity and CPU actions. |
-| `[environmentVariables](https://www.iis.net/configreference/system.applicationhost/applicationpools/applicationpooldefaults/environmentvariables)` | Configures a collection of environment variables to pass to worker processes. |
-| `[failure](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/failure)` | Configures actions to take when an application pool fails. |
-| `[processModel](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/processmodel)` | Configures process management attributes for an application pool. |
-| `[recycling](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/recycling)` | Configures application pool recycling. |
+| [`cpu`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/cpu) | Configures CPU affinity and CPU actions. |
+| [`environmentVariables`](https://www.iis.net/configreference/system.applicationhost/applicationpools/applicationpooldefaults/environmentvariables) | Configures a collection of environment variables to pass to worker processes. |
+| [`failure`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/failure) | Configures actions to take when an application pool fails. |
+| [`processModel`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/processmodel) | Configures process management attributes for an application pool. |
+| [`recycling`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/recycling) | Configures application pool recycling. |
 
 ### Configuration Sample
 

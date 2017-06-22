@@ -92,7 +92,7 @@ The `<applicationInitialization>` element is configured at the server, site, or 
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/applicationinitialization/add)` | Optional element. Specifies the application to be initialized upon application restart. |
+| [`add`](https://www.iis.net/configreference/system.webserver/applicationinitialization/add) | Optional element. Specifies the application to be initialized upon application restart. |
 
 ### Configuration Sample
 

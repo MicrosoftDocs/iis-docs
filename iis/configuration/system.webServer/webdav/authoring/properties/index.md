@@ -3,7 +3,7 @@ WebDAV Properties &lt;properties&gt;
 <a id="001"></a>
 ## Overview
 
-The `<properties>` element of the `<authoring>` element defines the locking behavior for the WebDAV module. More specifically, the `<properties>` element contains attributes that define whether custom WebDAV properties are enabled, whether anonymous or infinite property requests are allowed, and may contain a series of `[&lt;add&gt;](https://www.iis.net/configreference/system.webserver/webdav/authoring/properties/add)` elements that define mappings for XML namespaces to property store providers.
+The `<properties>` element of the `<authoring>` element defines the locking behavior for the WebDAV module. More specifically, the `<properties>` element contains attributes that define whether custom WebDAV properties are enabled, whether anonymous or infinite property requests are allowed, and may contain a series of [`&lt;add&gt;`](https://www.iis.net/configreference/system.webserver/webdav/authoring/properties/add) elements that define mappings for XML namespaces to property store providers.
 
 > [!NOTE]
 > WebDAV defines two types of properties:
@@ -126,7 +126,7 @@ The `<properties>` element is configurable only at the site level in the Applica
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/webdav/authoring/properties/add)` | Optional element. Adds a mapping for an XML namespace to a property provider. |
+| [`add`](https://www.iis.net/configreference/system.webserver/webdav/authoring/properties/add) | Optional element. Adds a mapping for an XML namespace to a property provider. |
 | `clear` | Optional element. Clears all the existing namespace mappings. |
 | `remove` | Optional element. Removes a mapping from the list of XML namespaces to property providers. |
 

@@ -75,7 +75,7 @@ None
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/tracing/traceproviderdefinitions/add/areas/add)` | Optional element. Adds a functional area to the collection of functional areas to trace. |
+| [`add`](https://www.iis.net/configreference/system.webserver/tracing/traceproviderdefinitions/add/areas/add) | Optional element. Adds a functional area to the collection of functional areas to trace. |
 | `clear` | Optional element. Removes all references to functional areas from the functional areas to trace collection. |
 | `remove` | Optional element. Removes a reference to a functional area from the functional areas to trace collection. |
 

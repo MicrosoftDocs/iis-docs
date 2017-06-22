@@ -132,7 +132,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/tracing/tracefailedrequests/add)` | Optional element. Adds a path to the collection of path definitions. |
+| [`add`](https://www.iis.net/configreference/system.webserver/tracing/tracefailedrequests/add) | Optional element. Adds a path to the collection of path definitions. |
 | `remove` | Optional element. Removes a reference to a path from the path definitions collection. |
 | `clear` | Optional element. Removes all references to paths from the path definitions collection. |
 

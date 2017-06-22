@@ -3,7 +3,7 @@ Always Allowed URLs &lt;alwaysAllowedUrls&gt;
 <a id="001"></a>
 ## Overview
 
-The `<alwaysAllowedUrls>` element contains a collection of `[&lt;add&gt;](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls/add)` elements that specify URLs that request filtering will allow, which override the values in the `[&lt;denyUrlSequences&gt;](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyurlsequences)` collection.
+The `<alwaysAllowedUrls>` element contains a collection of [`&lt;add&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls/add) elements that specify URLs that request filtering will allow, which override the values in the [`&lt;denyUrlSequences&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyurlsequences) collection.
 
 <a id="002"></a>
 ## Compatibility
@@ -99,7 +99,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls/add)` | Optional element. Adds a URL to the collection of URLs that request filtering will always allow. |
+| [`add`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls/add) | Optional element. Adds a URL to the collection of URLs that request filtering will always allow. |
 | `clear` | Optional element. Clears the collection of URLs that request filtering will always allow. |
 | `remove` | Optional element. Removes a URL from the collection of URLs that request filtering will always allow. |
 

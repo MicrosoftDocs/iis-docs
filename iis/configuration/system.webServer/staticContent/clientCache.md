@@ -3,7 +3,7 @@ Client Cache &lt;clientCache&gt;
 <a id="001"></a>
 ## Overview
 
-The `<clientCache>` element of the `[&lt;staticContent&gt;](https://www.iis.net/configreference/system.webserver/staticcontent)` element specifies cache-related HTTP headers that IIS 7 and later sends to Web clients, which control how Web clients and proxy servers will cache the content that IIS 7 and later returns.
+The `<clientCache>` element of the [`&lt;staticContent&gt;`](https://www.iis.net/configreference/system.webserver/staticcontent) element specifies cache-related HTTP headers that IIS 7 and later sends to Web clients, which control how Web clients and proxy servers will cache the content that IIS 7 and later returns.
 
 For example, the **httpExpires** attribute specifies a date and time that the content should expire, and IIS 7 and later will add an HTTP "Expires" header to the response. The value for the **httpExpires** attribute must be a fully-formatted date and time that follows the specification in RFC 1123. For example:
 

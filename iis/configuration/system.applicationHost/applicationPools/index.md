@@ -16,7 +16,7 @@ In IIS 7 and later, each application pool uses one of two .NET integration modes
 
 Starting in IIS 7.5, you can configure an application to start automatically by using the **managedRuntimeLoader**, **CLRConfigFile**, and **startMode** attributes of the `<add>` element. These attributes configure, respectively, the name of the managed DLL that provides runtime loading for your application, the common language runtime configuration file for the application, and the startup type for the application.
 
-Also new in IIS 7.5 and later is a new `ApplicationPoolIdentity` type for the **identityType** attribute of the `[&lt;processModel&gt;](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/processmodel)` element. This new identity type is now the default process identity for applications, and makes it possible to set the security for your content areas to allow access for a specific application pool. To do so, you would set your security using the name of an application pool by using syntax like "IIS AppPool\DefaultAppPool." This identity is created dynamically, thereby dramatically reducing the surface attack area of your server.
+Also new in IIS 7.5 and later is a new `ApplicationPoolIdentity` type for the **identityType** attribute of the [`&lt;processModel&gt;`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/processmodel) element. This new identity type is now the default process identity for applications, and makes it possible to set the security for your content areas to allow access for a specific application pool. To do so, you would set your security using the name of an application pool by using syntax like "IIS AppPool\DefaultAppPool." This identity is created dynamically, thereby dramatically reducing the surface attack area of your server.
 
 <a id="002"></a>
 ## Compatibility
@@ -85,8 +85,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.applicationhost/applicationpools/add)` | Adds an application pool to the applicationPools section. |
-| `[applicationPoolDefaults](https://www.iis.net/configreference/system.applicationhost/applicationpools/applicationpooldefaults)` | Required string attribute. Configures the default settings for all application pools in an applicationPools section. |
+| [`add`](https://www.iis.net/configreference/system.applicationhost/applicationpools/add) | Adds an application pool to the applicationPools section. |
+| [`applicationPoolDefaults`](https://www.iis.net/configreference/system.applicationhost/applicationpools/applicationpooldefaults) | Required string attribute. Configures the default settings for all application pools in an applicationPools section. |
 
 ### Configuration Sample
 

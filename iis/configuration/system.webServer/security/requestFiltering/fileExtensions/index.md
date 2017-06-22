@@ -118,7 +118,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/security/requestfiltering/fileextensions/add)` | Optional element. Adds a file name extension to the collection of file name extensions. |
+| [`add`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/fileextensions/add) | Optional element. Adds a file name extension to the collection of file name extensions. |
 | `clear` | Optional element. Removes all references to file name extensions from the `<fileExtensions>` collection. |
 | `remove` | Optional element. Removes a reference to a file name extension from the `<fileExtensions>` collection. |
 

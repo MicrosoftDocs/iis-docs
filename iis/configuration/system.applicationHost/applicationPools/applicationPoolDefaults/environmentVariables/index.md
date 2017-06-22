@@ -37,7 +37,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.applicationhost/applicationpools/applicationpooldefaults/environmentvariables/add)` | Optional element. Adds an environment variable to the collection of environment variables. |
+| [`add`](https://www.iis.net/configreference/system.applicationhost/applicationpools/applicationpooldefaults/environmentvariables/add) | Optional element. Adds an environment variable to the collection of environment variables. |
 | `remove` | Optional element. Removes an environment variable from the collection of environment variables. |
 
 ### Configuration Sample

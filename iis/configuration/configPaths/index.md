@@ -48,7 +48,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[searchResult](https://www.iis.net/configreference/configpaths/searchresult)` | Contains a collection of configuration search results. |
+| [`searchResult`](https://www.iis.net/configreference/configpaths/searchresult) | Contains a collection of configuration search results. |
 
 ### Configuration Sample
 

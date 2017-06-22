@@ -216,7 +216,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[environmentVariable](https://www.iis.net/configreference/system.webserver/fastcgi/application/environmentvariables/environmentvariable)` | Optional element. Adds an environment variable to the collection of environment variables. |
+| [`environmentVariable`](https://www.iis.net/configreference/system.webserver/fastcgi/application/environmentvariables/environmentvariable) | Optional element. Adds an environment variable to the collection of environment variables. |
 
 ### Configuration Sample
 

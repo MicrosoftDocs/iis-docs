@@ -149,7 +149,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.ftpserver/security/requestfiltering/hiddensegments/add)` | Optional element. Adds a segment to the collection of hidden segments. |
+| [`add`](https://www.iis.net/configreference/system.ftpserver/security/requestfiltering/hiddensegments/add) | Optional element. Adds a segment to the collection of hidden segments. |
 | `clear` | Optional element. Removes all references to segments from the `<hiddenSegments>` collection. |
 | `remove` | Optional element. Removes a reference to a segment from the `<hiddenSegments>` collection. |
 

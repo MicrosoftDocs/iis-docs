@@ -276,10 +276,10 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[anonymousAuthentication](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/authentication/anonymousauthentication)` | Optional element. Specifies the Anonymous authentication settings for an FTP site. |
-| `[basicAuthentication](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/authentication/basicauthentication)` | Optional element. Specifies the Basic authentication settings for an FTP site. |
-| `[clientCertAuthentication](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/authentication/clientcertauthentication)` | Optional element. Specifies the Client Certificate authentication settings for an FTP site. |
-| `[customAuthentication](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication)` | Optional element. Specifies the Custom authentication settings for an FTP site. > [!NOTE]
+| [`anonymousAuthentication`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/authentication/anonymousauthentication) | Optional element. Specifies the Anonymous authentication settings for an FTP site. |
+| [`basicAuthentication`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/authentication/basicauthentication) | Optional element. Specifies the Basic authentication settings for an FTP site. |
+| [`clientCertAuthentication`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/authentication/clientcertauthentication) | Optional element. Specifies the Client Certificate authentication settings for an FTP site. |
+| [`customAuthentication`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication) | Optional element. Specifies the Custom authentication settings for an FTP site. > [!NOTE]
  > Custom authentication is implemented through custom authentication providers. |
 
 ### Configuration Sample

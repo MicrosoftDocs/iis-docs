@@ -249,7 +249,7 @@ You can configure the `<application>` element at the server level in the Applica
 
 | Element | Description |
 | --- | --- |
-| `[environmentVariables](https://www.iis.net/configreference/system.webserver/fastcgi/application/environmentvariables)` | Optional element. Specifies a collection of environment variables that IIS will pass to the FastCGI application. |
+| [`environmentVariables`](https://www.iis.net/configreference/system.webserver/fastcgi/application/environmentvariables) | Optional element. Specifies a collection of environment variables that IIS will pass to the FastCGI application. |
 
 ### Configuration Sample
 

@@ -120,7 +120,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[providers](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/customfeatures/providers)` | Optional element. Specifies the default collection of custom FTP features. |
+| [`providers`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/customfeatures/providers) | Optional element. Specifies the default collection of custom FTP features. |
 
 ### Configuration Sample
 

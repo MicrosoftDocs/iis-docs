@@ -85,7 +85,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| `[provider](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/customauthorization/provider)` | Optional element. Specifies the custom authorization provider. |
+| [`provider`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver/security/customauthorization/provider) | Optional element. Specifies the custom authorization provider. |
 
 ### Configuration Sample
 

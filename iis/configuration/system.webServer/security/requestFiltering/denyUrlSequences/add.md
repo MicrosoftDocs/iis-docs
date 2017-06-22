@@ -17,7 +17,7 @@ For example, using two periods in a URL ("..") will instruct a server to process
 This substatus allows Web administrators to analyze their IIS logs and identify potential threats.
 
 > [!NOTE]
-> Beginning in IIS 7.5, you can override the URL sequences in the `<denyUrlSequences>` collection by adding URL sequences to the `[&lt;alwaysAllowedUrls&gt;](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls)` collection.
+> Beginning in IIS 7.5, you can override the URL sequences in the `<denyUrlSequences>` collection by adding URL sequences to the [`&lt;alwaysAllowedUrls&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls) collection.
 
 <a id="002"></a>
 ## Compatibility
@@ -28,7 +28,7 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 | IIS 8.5 | The `<add>` element was not modified in IIS 8.5. |
 | IIS 8.0 | The `<add>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<denyUrlSequences>` element was not modified in IIS 7.5. > [!NOTE]
- > IIS 7.5 allows you to override the URL sequences in the `<denyUrlSequences>` element by adding URL sequences to the `[&lt;alwaysAllowedUrls&gt;](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls)` collection. |
+ > IIS 7.5 allows you to override the URL sequences in the `<denyUrlSequences>` element by adding URL sequences to the [`&lt;alwaysAllowedUrls&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls) collection. |
 | IIS 7.0 | The `<denyUrlSequences>` element of the `<requestFiltering>` collection was introduced in IIS 7.0. |
 | IIS 6.0 | The `<denyUrlSequences>` element replaces the IIS 6.0 UrlScan **[DenyUrlSequences]** features. |
 

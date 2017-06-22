@@ -200,9 +200,9 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 
 | Element | Description |
 | --- | --- |
-| `[scheme](https://www.iis.net/configreference/system.webserver/httpcompression/scheme)` | Optional element. Specifies the compression scheme (Gzip or Deflate) IIS uses to compress client requests. |
-| `[dynamicTypes](https://www.iis.net/configreference/system.webserver/httpcompression/dynamictypes)` | Optional element. Specifies configuration settings for dynamic compression. |
-| `[staticTypes](https://www.iis.net/configreference/system.webserver/httpcompression/statictypes)` | Optional element. Specifies configuration settings for static compression. |
+| [`scheme`](https://www.iis.net/configreference/system.webserver/httpcompression/scheme) | Optional element. Specifies the compression scheme (Gzip or Deflate) IIS uses to compress client requests. |
+| [`dynamicTypes`](https://www.iis.net/configreference/system.webserver/httpcompression/dynamictypes) | Optional element. Specifies configuration settings for dynamic compression. |
+| [`staticTypes`](https://www.iis.net/configreference/system.webserver/httpcompression/statictypes) | Optional element. Specifies configuration settings for static compression. |
 
 ### Configuration Sample
 

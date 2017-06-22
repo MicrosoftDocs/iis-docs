@@ -5,9 +5,9 @@ WebDAV Authoring Rules &lt;authoringRules&gt;
 
 The `<authoringRules>` element can be defined per-URI within a Web site, and specifies the WebDAV authoring permissions for that URI space. The permissions in this element are inherited, so child URIs will have the same permissions as a parent URI, provided that the child URI does not have unique permissions defined.
 
-The element contains a series of `[&lt;add&gt;](https://www.iis.net/configreference/system.webserver/webdav/authoringrules/add)` elements that define the individual authoring rules, which contain the access permissions for users or groups for specific content types.
+The element contains a series of [`&lt;add&gt;`](https://www.iis.net/configreference/system.webserver/webdav/authoringrules/add) elements that define the individual authoring rules, which contain the access permissions for users or groups for specific content types.
 
-WebDAV authoring rules may seem somewhat analogous to authorization settings that are found in the `[&lt;authorization&gt;](https://www.iis.net/configreference/system.webserver/security/authorization)` element, but are stored separately so that IIS maintains two different sets of authorization: one for regular HTTP (non-WebDAV) requests and the other for WebDAV requests.
+WebDAV authoring rules may seem somewhat analogous to authorization settings that are found in the [`&lt;authorization&gt;`](https://www.iis.net/configreference/system.webserver/security/authorization) element, but are stored separately so that IIS maintains two different sets of authorization: one for regular HTTP (non-WebDAV) requests and the other for WebDAV requests.
 
 <a id="002"></a>
 ## Compatibility
@@ -116,7 +116,7 @@ The `<authoringRules>` element is configurable per-URI in the ApplicationHost.co
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/webdav/authoringrules/add)` | Optional element. Adds an authoring rule to the collection of authoring rules. |
+| [`add`](https://www.iis.net/configreference/system.webserver/webdav/authoringrules/add) | Optional element. Adds an authoring rule to the collection of authoring rules. |
 | `clear` | Optional element. Clears the collection of authoring rules. |
 | `remove` | Optional element. Removes an authoring rule from the collection of authoring rules. |
 

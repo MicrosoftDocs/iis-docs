@@ -116,7 +116,7 @@ The `<isapiCgiRestriction>` collection can only be configured at the server leve
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/security/isapicgirestriction/add)` | Optional element. Adds a restriction to the collection of ISAPI and CGI restrictions. |
+| [`add`](https://www.iis.net/configreference/system.webserver/security/isapicgirestriction/add) | Optional element. Adds a restriction to the collection of ISAPI and CGI restrictions. |
 | `remove` | Optional element. Removes a reference to a restriction from the isapiCgiRestriction collection. |
 | `clear` | Optional element. Removes all references to restrictions from the isapiCgiRestriction collection. |
 

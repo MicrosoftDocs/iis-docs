@@ -41,7 +41,7 @@ There is no user interface for configuring the `<applicationDependencies>` eleme
 
 | Element | Description |
 | --- | --- |
-| `[add](https://www.iis.net/configreference/system.webserver/security/applicationdependencies/application/add)` | Optional element. Adds additional **groupIDs** to the parent application. |
+| [`add`](https://www.iis.net/configreference/system.webserver/security/applicationdependencies/application/add) | Optional element. Adds additional **groupIDs** to the parent application. |
 | `clear` | Optional element. Removes all references to additional **groupIDs** from the add collection. |
 
 ### Configuration Sample
