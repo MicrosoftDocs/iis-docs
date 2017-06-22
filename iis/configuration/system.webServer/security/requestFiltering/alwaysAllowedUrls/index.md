@@ -3,7 +3,7 @@ Always Allowed URLs &lt;alwaysAllowedUrls&gt;
 <a id="001"></a>
 ## Overview
 
-The `<alwaysAllowedUrls>` element contains a collection of [`&lt;add&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls/add) elements that specify URLs that request filtering will allow, which override the values in the [`&lt;denyUrlSequences&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyurlsequences) collection.
+The `<alwaysAllowedUrls>` element contains a collection of [`<add>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls/add) elements that specify URLs that request filtering will allow, which override the values in the [`<denyUrlSequences>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyurlsequences) collection.
 
 <a id="002"></a>
 ## Compatibility

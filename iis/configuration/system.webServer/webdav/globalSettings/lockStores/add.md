@@ -3,7 +3,7 @@ Adding WebDAV Lock Stores &lt;add&gt;
 <a id="001"></a>
 ## Overview
 
-The WebDAV module is designed to support multiple lock store providers, which are defined in the `webdav/globalSettings/lockStores` collection. A series of `<add>` elements define the settings for each lock provider in the [`&lt;lockStores&gt;`](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/lockstores) collection.
+The WebDAV module is designed to support multiple lock store providers, which are defined in the `webdav/globalSettings/lockStores` collection. A series of `<add>` elements define the settings for each lock provider in the [`<lockStores>`](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/lockstores) collection.
 
 > [!NOTE]
 > Currently the only property store provider is **webdav\_simple\_lock**, which stores WebDAV locks in memory. Because this provider stores locks in memory, the locks are automatically released when IIS or an application pool are restarted.

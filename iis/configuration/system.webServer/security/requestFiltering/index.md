@@ -5,20 +5,20 @@ Request Filtering &lt;requestFiltering&gt;
 
 Request Filtering is a built-in security feature that was introduced in Internet Information Services (IIS) 7.0, and replaces much of the functionality that was available through the UrlScan add-on for IIS 6.0. All of the settings for the request filtering feature are located within the `<requestFiltering>` element, which contains several child elements for each of the following feature areas:
 
-- [`&lt;denyUrlSequences&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyurlsequences) - This element can contain a collection of URL sequence patterns that IIS 7 will deny; for example: you can deny parts of URL sequences that an attacker might try to exploit.
-- [`&lt;fileExtensions&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/fileextensions) - This element can contain a collection of file name extensions that IIS 7 will either deny or allow; for example: you can block all requests for Web.config files.
-- [`&lt;hiddenSegments&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/hiddensegments) - This element can contain a collection of URLs that cannot be browsed; for example: you can deny requests for the ASP.NET App\_Code folder.
-- [`&lt;requestLimits&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits) - This element contains the settings for URL, content, and query string lengths. It can also contain a collection of user-defined maximum lengths for HTTP headers.
-- [`&lt;verbs&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs) - This element can contain a collection of HTTP verbs that IIS 7 will either deny or allow; for example: you can block all HTTP TRACE requests.
+- [`<denyUrlSequences>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyurlsequences) - This element can contain a collection of URL sequence patterns that IIS 7 will deny; for example: you can deny parts of URL sequences that an attacker might try to exploit.
+- [`<fileExtensions>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/fileextensions) - This element can contain a collection of file name extensions that IIS 7 will either deny or allow; for example: you can block all requests for Web.config files.
+- [`<hiddenSegments>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/hiddensegments) - This element can contain a collection of URLs that cannot be browsed; for example: you can deny requests for the ASP.NET App\_Code folder.
+- [`<requestLimits>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits) - This element contains the settings for URL, content, and query string lengths. It can also contain a collection of user-defined maximum lengths for HTTP headers.
+- [`<verbs>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs) - This element can contain a collection of HTTP verbs that IIS 7 will either deny or allow; for example: you can block all HTTP TRACE requests.
 
 #### New in IIS 7.5
 
 IIS 7.5 added several additional feature areas for request filtering:
 
-- [`&lt;alwaysAllowedUrls&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls) - This element can contain a collection of URLs that request filtering will always allow.
-- [`&lt;alwaysAllowedQueryStrings&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedquerystrings) -This element can contain a collection query strings of that request filtering will always allow.
-- [`&lt;denyQueryStringSequences&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyquerystringsequences) - This element can contain a collection of query string sequences that request filtering will always deny. This allows administrators to block potentially dangerous query string sequences that they detect.
-- [`&lt;filteringRules&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules) - This element can contain a collection of custom request filtering rules. This collection allows administrators to create customized request filtering rules for specific criteria.
+- [`<alwaysAllowedUrls>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls) - This element can contain a collection of URLs that request filtering will always allow.
+- [`<alwaysAllowedQueryStrings>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedquerystrings) -This element can contain a collection query strings of that request filtering will always allow.
+- [`<denyQueryStringSequences>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyquerystringsequences) - This element can contain a collection of query string sequences that request filtering will always deny. This allows administrators to block potentially dangerous query string sequences that they detect.
+- [`<filteringRules>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules) - This element can contain a collection of custom request filtering rules. This collection allows administrators to create customized request filtering rules for specific criteria.
 
 #### New in IIS 10.0
 

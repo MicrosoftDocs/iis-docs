@@ -3,7 +3,7 @@ HTTP Headers for Filtering Rules &lt;scanHeaders&gt;
 <a id="001"></a>
 ## Overview
 
-The `<scanHeaders>` element of the `<filteringRule>` element defines a collection of HTTP headers that a request filtering rule will scan for strings that are specified in the [`&lt;denyStrings&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings) collection. The `<scanHeaders>` element contains a series of [`&lt;add&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders/add) elements, each of which specifies a unique HTTP header to add to the collection.
+The `<scanHeaders>` element of the `<filteringRule>` element defines a collection of HTTP headers that a request filtering rule will scan for strings that are specified in the [`<denyStrings>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings) collection. The `<scanHeaders>` element contains a series of [`<add>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders/add) elements, each of which specifies a unique HTTP header to add to the collection.
 
 <a id="002"></a>
 ## Compatibility

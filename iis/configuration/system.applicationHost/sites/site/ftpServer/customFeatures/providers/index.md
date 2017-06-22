@@ -135,7 +135,7 @@ The following sample displays a `<customFeatures>` element for an FTP site that 
 The following examples demonstrate how to add a custom logging provider for an FTP site.
 
 > [!NOTE]
-> FTP custom features must be registered in the [`&lt;system.ftpServer/providerDefinitions&gt;`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions) collection.
+> FTP custom features must be registered in the [`<system.ftpServer/providerDefinitions>`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions) collection.
 
 ### AppCmd.exe
 

@@ -8,7 +8,7 @@ The `<ftpServer>` element of the `<site>` element specifies the site-level setti
 In IIS 6.0, the settings for the FTP service were stored in a separate section of the metabase than Web sites. In IIS 7 and later, FTP settings are stored in the ApplicationHost.config file within the same `<site>` and `<siteDefaults>` elements that store the settings for Web sites. Because of this, settings that are specified in the `<ftpServer>` element cannot be delegated, nor can they be specified within `<location>` elements.
 
 > [!NOTE]
-> Additional FTP settings are stored in the [`&lt;system.ftpServer&gt;`](https://www.iis.net/configreference/system.ftpserver) section of the ApplicationHost.config file, and these settings are specified within `<location>` elements.
+> Additional FTP settings are stored in the [`<system.ftpServer>`](https://www.iis.net/configreference/system.ftpserver) section of the ApplicationHost.config file, and these settings are specified within `<location>` elements.
 
 <a id="002"></a>
 ## Compatibility

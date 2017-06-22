@@ -18,7 +18,7 @@ Windows authentication is best suited for an intranet environment for the follow
 
 #### New in IIS 7.5
 
-The [`&lt;extendedProtection&gt;`](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication/extendedprotection) element was introduced in IIS 7.5, which allows you to configure the settings for the new extended protection features that have been integrated into Windows authentication.
+The [`<extendedProtection>`](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication/extendedprotection) element was introduced in IIS 7.5, which allows you to configure the settings for the new extended protection features that have been integrated into Windows authentication.
 
 <a id="002"></a>
 ## Compatibility

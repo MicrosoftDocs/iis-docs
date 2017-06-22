@@ -113,7 +113,7 @@ At this time there is no user interface that enables you to add custom features 
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. The name of an FTP provider that is registered in the [`&lt;system.ftpServer/providerDefinitions&gt;`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions) collection. There is no default value. |
+| `name` | Required string attribute. The name of an FTP provider that is registered in the [`<system.ftpServer/providerDefinitions>`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions) collection. There is no default value. |
 | `enabled` | Optional Boolean attribute. **true** if the provider is enabled; otherwise, **false**. The default value is `true`. |
 
 ### Child Elements

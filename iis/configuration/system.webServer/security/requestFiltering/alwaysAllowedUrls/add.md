@@ -3,7 +3,7 @@ Adding URLs That Will Always Be Allowed &lt;add&gt;
 <a id="001"></a>
 ## Overview
 
-The `<add>` element of the `<alwaysAllowedUrls>` element specifies a unique URL that request filtering will always allow. The `<alwaysAllowedUrls>` element contains a collection URLs that request filtering will allow, which override the values in the [`&lt;denyUrlSequences&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyurlsequences) collection.
+The `<add>` element of the `<alwaysAllowedUrls>` element specifies a unique URL that request filtering will always allow. The `<alwaysAllowedUrls>` element contains a collection URLs that request filtering will allow, which override the values in the [`<denyUrlSequences>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyurlsequences) collection.
 
 <a id="002"></a>
 ## Compatibility

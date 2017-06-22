@@ -3,7 +3,7 @@ Adding HTTP Headers for Filtering Rules &lt;add&gt;
 <a id="001"></a>
 ## Overview
 
-The `<add>` element of the `<scanHeaders>` element adds a unique HTTP header to the collection of HTTP headers that a request filtering rule will scan for strings that are specified in the [`&lt;denyStrings&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings) collection.
+The `<add>` element of the `<scanHeaders>` element adds a unique HTTP header to the collection of HTTP headers that a request filtering rule will scan for strings that are specified in the [`<denyStrings>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings) collection.
 
 <a id="002"></a>
 ## Compatibility
