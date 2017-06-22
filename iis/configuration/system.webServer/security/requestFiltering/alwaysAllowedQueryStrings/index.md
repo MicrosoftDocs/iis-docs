@@ -3,7 +3,7 @@ Always Allowed Query Strings &lt;alwaysAllowedQueryStrings&gt;
 <a id="001"></a>
 ## Overview
 
-The `<alwaysAllowedQueryStrings>` element specifies a collection of query strings that request filtering will always allow. The `<alwaysAllowedQueryStrings>` element contains a collection of [`<add>`](add.md) elements that specify query string patterns that request filtering will allow, which override the values in the [`<denyQueryStringSequences>`](denyquerystringsequences/index.md) collection.
+The `<alwaysAllowedQueryStrings>` element specifies a collection of query strings that request filtering will always allow. The `<alwaysAllowedQueryStrings>` element contains a collection of [`<add>`](add.md) elements that specify query string patterns that request filtering will allow, which override the values in the [`<denyQueryStringSequences>`](../denyquerystringsequences/index.md) collection.
 
 <a id="002"></a>
 ## Compatibility

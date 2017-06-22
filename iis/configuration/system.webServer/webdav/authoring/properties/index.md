@@ -11,7 +11,7 @@ The `<properties>` element of the `<authoring>` element defines the locking beha
 - "Live" properties: These properties exist in the underlying file system. For example, the file name and file size. These properties are always supported.
 - "Dead" properties: These properties are user-defined and are stored in a property store. For example, the author of a document or the template that was used.
 
-In order to use "dead" properties, you must set the `allowCustomProperties` of the `<properties>` element to **true**, and define a mapping for an XML namespace to property provider from the list of property providers that are defined in the [&lt;propertyStores&gt;](../globalsettings/propertystores/index.md) collection.
+In order to use "dead" properties, you must set the `allowCustomProperties` of the `<properties>` element to **true**, and define a mapping for an XML namespace to property provider from the list of property providers that are defined in the [&lt;propertyStores&gt;](../../globalsettings/propertystores/index.md) collection.
 
 <a id="002"></a>
 ## Compatibility

@@ -11,7 +11,7 @@ There are two different methods for mapping client certificates using IIS:
 - **Many-To-One Mappings** - these mappings match multiple certificates to a user account based on subfields in client certificates.
 
 > [!NOTE]
-> Client Certificate Mapping authentication using IIS differs from [Client Certificate Mapping using Active Directory](clientcertificatemappingauthentication.md) in the following ways:
+> Client Certificate Mapping authentication using IIS differs from [Client Certificate Mapping using Active Directory](../clientcertificatemappingauthentication.md) in the following ways:
 
 - **Client Certificate Mapping authentication using Active Directory** - this method of authentication requires that the IIS 7 server and the client computer are members of an Active Directory domain, and user accounts are stored in Active Directory. This method of Client Certificate Mapping authentication has reduced performance because of the round-trip to the Active Directory server.
 - **IIS Client Certificate Mapping authentication** - this method of authentication does not require Active Directory and therefore works with standalone servers. This method of Client Certificate Mapping authentication has increased performance, but requires more configuration and access to client certificates in order to create mappings.

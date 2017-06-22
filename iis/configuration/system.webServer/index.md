@@ -6,7 +6,7 @@
 The `<system.webServer>` element specifies the root element for many of the site-level and application-level configuration settings for Internet Information Services (IIS) 7 in the ApplicationHost.config file, and contains configuration elements that define the settings used by the Web server engine and modules.
 
 > [!NOTE]
-> Unlike settings that are found in &lt;[`system.applicationHost`](system.applicationhost/index.md)&gt;, settings in the `<system.webServer>` element can be delegated.
+> Unlike settings that are found in &lt;[`system.applicationHost`](../system.applicationhost/index.md)&gt;, settings in the `<system.webServer>` element can be delegated.
 
 <a id="002"></a>
 ## Compatibility

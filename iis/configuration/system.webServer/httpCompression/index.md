@@ -34,7 +34,7 @@ IIS 7 supports two different industry-standard compression schemes:
 Each of these two compression schemes can be enabled using the `<schemes>` element of the `<httpCompression>` element.
 
 > [!NOTE]
-> While the `<httpCompression>` element specifies the HTTP compression settings for Internet Information Services (IIS) 7, the [&lt;urlCompression&gt;](urlcompression.md) element specifies whether compression is enabled for a URL namespace.
+> While the `<httpCompression>` element specifies the HTTP compression settings for Internet Information Services (IIS) 7, the [&lt;urlCompression&gt;](../urlcompression.md) element specifies whether compression is enabled for a URL namespace.
 
 <a id="002"></a>
 ## Compatibility

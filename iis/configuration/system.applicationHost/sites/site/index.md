@@ -154,7 +154,7 @@ You configure the `<site>` element at the server level in the ApplicationHost.co
 | [`ftpServer`](ftpserver/index.md) | Optional element. Specifies FTP settings for the site. <br><br>**Note:** This requires installing FTP 7.0 or FTP 7.5. |
 | [`limits`](limits.md) | Optional element. Configures settings to limit the amount of bandwidth, the number of connections, or the amount of time for connections to a site. |
 | [`logFile`](logfile/index.md) | Optional element. Configures settings for handling and storage of log files for the site. |
-| [`traceFailedRequestsLogging`](sitedefaults/index.md) | Optional element. Specifies settings for logging failed-request traces for the site. |
+| [`traceFailedRequestsLogging`](../sitedefaults/index.md) | Optional element. Specifies settings for logging failed-request traces for the site. |
 | [`virtualDirectoryDefaults`](virtualdirectorydefaults.md) | Optional element. Specifies default settings for all virtual directories in the site. |
 
 ### Configuration Sample

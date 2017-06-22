@@ -88,7 +88,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     [![](index/_static/image12.png)](index/_static/image11.png)
 
 > [!NOTE]
-> Once you have enabled WebDAV publishing, you will need to add authoring rules before users or groups can publish content to your server. For more information about how to create authoring rules, see the [`authoringRules`](authoringrules/index.md) topic.
+> Once you have enabled WebDAV publishing, you will need to add authoring rules before users or groups can publish content to your server. For more information about how to create authoring rules, see the [`authoringRules`](../authoringrules/index.md) topic.
 
 <a id="005"></a>
 ## Configuration

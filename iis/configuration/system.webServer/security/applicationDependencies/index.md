@@ -3,7 +3,7 @@ Application Dependencies &lt;applicationDependencies&gt;
 <a id="001"></a>
 ## Overview
 
-The `<applicationDependencies>` element of the [&lt;security&gt;](index.md) element works in tandem with the [&lt;isapiCgiRestriction&gt;](isapicgirestriction/index.md) element to define which applications have dependencies on one or more CGI or ISAPI extension restrictions. If an application is contained in this element , the application has dependencies on an item (or multiple items) in the [&lt;isapiCgiRestriction&gt;](isapicgirestriction/index.md) element.
+The `<applicationDependencies>` element of the [&lt;security&gt;](../index.md) element works in tandem with the [&lt;isapiCgiRestriction&gt;](../isapicgirestriction/index.md) element to define which applications have dependencies on one or more CGI or ISAPI extension restrictions. If an application is contained in this element , the application has dependencies on an item (or multiple items) in the [&lt;isapiCgiRestriction&gt;](../isapicgirestriction/index.md) element.
 
 <a id="002"></a>
 ## Compatibility

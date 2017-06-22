@@ -3,10 +3,10 @@ One-To-One Mappings &lt;oneToOneMappings&gt;
 <a id="001"></a>
 ## Overview
 
-The `<oneToOneMappings>` element of the `<iisClientCertificateMappingAuthentication>` element maps individual client certificates to individual user accounts on a one-to-one basis. These one-to-one certificate mappings can be used in place of the more commonly used methods of authentication, such as [Windows authentication](../windowsauthentication/index.md) or [Basic authentication](../basicauthentication.md).
+The `<oneToOneMappings>` element of the `<iisClientCertificateMappingAuthentication>` element maps individual client certificates to individual user accounts on a one-to-one basis. These one-to-one certificate mappings can be used in place of the more commonly used methods of authentication, such as [Windows authentication](../../windowsauthentication/index.md) or [Basic authentication](../../basicauthentication.md).
 
 > [!NOTE]
-> One-to-one certificate mappings differ from [many-to-one](manytoonemappings/index.md) certificate mappings, which can map multiple certificates to a single user account.
+> One-to-one certificate mappings differ from [many-to-one](../manytoonemappings/index.md) certificate mappings, which can map multiple certificates to a single user account.
 
 <a id="002"></a>
 ## Compatibility

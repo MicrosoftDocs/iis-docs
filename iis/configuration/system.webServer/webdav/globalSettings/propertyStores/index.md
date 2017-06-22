@@ -127,7 +127,7 @@ The following example lists a sample `<globalSettings>` element for a WebDAV ser
 ## Sample Code
 
 > [!NOTE]
-> The [`propertyStores`](index.md) and [`lockStores`](lockstores/index.md) collections are populated with the built-in property and lock providers when you install WebDAV. These provider collections are not extensible at this time, so the code samples in this section are only for reference.
+> The  propertyStores and [`lockStores`](../lockstores/index.md) collections are populated with the built-in property and lock providers when you install WebDAV. These provider collections are not extensible at this time, so the code samples in this section are only for reference.
 
 The following examples configure WebDAV global settings to re-add the built-in property and lock providers that are copied to your system when you install the WebDAV module.
 

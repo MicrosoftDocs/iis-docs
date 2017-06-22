@@ -7,7 +7,7 @@ The `<providerData>` element specifies the collection of key/value pairs that sp
 
 Beginning with FTP 7.5, the FTP service supports extensibility for custom authentication and roles, logging, and home directory lookups. When you create an extensibility provider, you must first register it in the .NET Global Assembly Cache (GAC) for managed-code providers, or in your system's registry for native-code (COM) providers. For additional information about how to create FTP custom providers, see the following section on Microsoft's IIS.net Web site:
 
-> [Developing for FTP 7.5](../../../learn/develop/developing-for-ftp.md)
+> [Developing for FTP 7.5](../../../../learn/develop/developing-for-ftp.md)
 
  
 <a id="002"></a>
@@ -148,7 +148,7 @@ The `<providerData>` element the `<activation>` element is configured at the glo
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies the friendly name of the custom provider. <br><br>**Note:** This name must match the name of a provider that is specified by a [`<providerDefinitions/add>`](../add.md) element. There is no default value. |
+| `name` | Required string attribute. Specifies the friendly name of the custom provider. <br><br>**Note:** This name must match the name of a provider that is specified by a [`<providerDefinitions/add>`](../../add.md) element. There is no default value. |
 
 ### Child Elements
 

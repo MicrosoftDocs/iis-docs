@@ -7,7 +7,7 @@ The `<authoringRules>` element can be defined per-URI within a Web site, and spe
 
 The element contains a series of [`<add>`](add.md) elements that define the individual authoring rules, which contain the access permissions for users or groups for specific content types.
 
-WebDAV authoring rules may seem somewhat analogous to authorization settings that are found in the [`<authorization>`](../security/authorization/index.md) element, but are stored separately so that IIS maintains two different sets of authorization: one for regular HTTP (non-WebDAV) requests and the other for WebDAV requests.
+WebDAV authoring rules may seem somewhat analogous to authorization settings that are found in the [`<authorization>`](../../security/authorization/index.md) element, but are stored separately so that IIS maintains two different sets of authorization: one for regular HTTP (non-WebDAV) requests and the other for WebDAV requests.
 
 <a id="002"></a>
 ## Compatibility

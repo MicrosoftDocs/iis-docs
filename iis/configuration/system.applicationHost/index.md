@@ -8,7 +8,7 @@ The `<system.applicationHost>` element contains global configuration settings th
 Of significant importance, the `<system.applicationHost>` element contains the configuration settings for the [&lt;applicationPools&gt;](applicationpools/index.md) and [&lt;sites&gt;](sites/index.md) collections, which respectively define the collection of application pools and Web sites on an IIS 7 server.
 
 > [!NOTE]
-> Unlike the settings that are found in [&lt;system.webServer&gt;](system.webserver/index.md), settings in the `<system.applicationHost>` element cannot be delegated.
+> Unlike the settings that are found in [&lt;system.webServer&gt;](../system.webserver/index.md), settings in the `<system.applicationHost>` element cannot be delegated.
 
 <a id="002"></a>
 ## Compatibility

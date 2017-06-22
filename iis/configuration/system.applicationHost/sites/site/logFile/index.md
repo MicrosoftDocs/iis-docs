@@ -12,10 +12,10 @@ By default, IIS 7 and later uses the World Wide Web Consortium (W3C) log file fo
 > [!NOTE]
 > ODBC logging is implemented as a custom logging module in IIS 7 and later. As a result, enabling and configuring ODBC logging in IIS 7 and later consists of two separate actions:
 
-- Setting the ODBC logging attributes in the [`<odbcLogging>`](../../../system.webserver/odbclogging.md) element. These attributes specify the System Data Source Name (DSN), table name, user name, and password for the ODBC connection.
+- Setting the ODBC logging attributes in the [`<odbcLogging>`](../../../../system.webserver/odbclogging.md) element. These attributes specify the System Data Source Name (DSN), table name, user name, and password for the ODBC connection.
 - Setting the correct custom logging attributes in `<logFile>` element. These attributes must set the log file format to "Custom" and the custom log plug-in class ID to "{FF16065B-DE82-11CF-BC0A-00AA006111E0}".
 
-For more information about ODBC logging, see the [`<odbcLogging>`](../../../system.webserver/odbclogging.md) element.
+For more information about ODBC logging, see the [`<odbcLogging>`](../../../../system.webserver/odbclogging.md) element.
 
 You can define the categories of information that IIS logs by editing the **logExtFileFlags** attribute. The default values are `Date`, `Time`, `ClientIP`, `UserName`, `ServerIP`, `Method`, `UriStem`, `UriQuery`, `TimeTaken`, `HttpStatus`, `Win32Status`, `ServerPort`, `UserAgent`, `HttpSubStatus`, and `Referer`.
 

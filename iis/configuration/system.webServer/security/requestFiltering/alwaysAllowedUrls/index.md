@@ -3,7 +3,7 @@ Always Allowed URLs &lt;alwaysAllowedUrls&gt;
 <a id="001"></a>
 ## Overview
 
-The `<alwaysAllowedUrls>` element contains a collection of [`<add>`](add.md) elements that specify URLs that request filtering will allow, which override the values in the [`<denyUrlSequences>`](denyurlsequences/index.md) collection.
+The `<alwaysAllowedUrls>` element contains a collection of [`<add>`](add.md) elements that specify URLs that request filtering will allow, which override the values in the [`<denyUrlSequences>`](../denyurlsequences/index.md) collection.
 
 <a id="002"></a>
 ## Compatibility

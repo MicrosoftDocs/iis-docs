@@ -12,7 +12,7 @@ The `<customFeatures>` element is used to specify the collection of FTP provider
 > The custom features that are added to the `<customFeatures/providers>` element must be registered in the `<system.ftpServer/providerDefinitions>` collection.
 
 > [!NOTE]
-> Support for creating custom feature providers was introduced in FTP 7.5. For additional information about how to create FTP custom feature providers, see the [Developing for FTP 7.5](../../../../learn/develop/developing-for-ftp.md) topic on Microsoft's IIS.net Web site.
+> Support for creating custom feature providers was introduced in FTP 7.5. For additional information about how to create FTP custom feature providers, see the [Developing for FTP 7.5](../../../../../learn/develop/developing-for-ftp.md) topic on Microsoft's IIS.net Web site.
 
 <a id="002"></a>
 ## Compatibility
@@ -136,7 +136,7 @@ The following sample displays a `<customFeatures>` element for an FTP site that 
 The following examples demonstrate how to add a custom logging provider for an FTP site.
 
 > [!NOTE]
-> FTP custom features must be registered in the [`<system.ftpServer/providerDefinitions>`](../../../../system.ftpserver/providerdefinitions/index.md) collection.
+> FTP custom features must be registered in the [`<system.ftpServer/providerDefinitions>`](../../../../../system.ftpserver/providerdefinitions/index.md) collection.
 
 ### AppCmd.exe
 

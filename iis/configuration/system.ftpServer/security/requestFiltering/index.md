@@ -10,7 +10,7 @@ FTP Request Filtering is a built-in security feature that was introduced in FTP 
 - [`<hiddenSegments>`](hiddensegments/index.md) - This element can contain a collection of URLs that cannot be browsed; for example: you can deny requests for the ASP.NET App\_Code folder.
 - [`<requestLimits>`](requestlimits.md) - This element contains the settings for URL, content, and command lengths.
 
-On significant difference between FTP request filtering and HTTP request filtering is that HTTP request filtering includes an additional `<verbs>` element, which may contain a collection of HTTP verbs that IIS will either deny or allow. FTP provides this same type of filtering through the [`<commandFiltering>`](../../system.applicationhost/sites/site/ftpserver/security/commandfiltering/index.md) element that is configured at the site level.
+On significant difference between FTP request filtering and HTTP request filtering is that HTTP request filtering includes an additional `<verbs>` element, which may contain a collection of HTTP verbs that IIS will either deny or allow. FTP provides this same type of filtering through the [`<commandFiltering>`](../../../system.applicationhost/sites/site/ftpserver/security/commandfiltering/index.md) element that is configured at the site level.
 
 > [!NOTE]
 > When request filtering blocks an FTP request because an FTP request violates the request filtering rules, FTP 7 will return an FTP error to the client and log one of the following FTP substatuses that identifies the reason that the request was denied:
