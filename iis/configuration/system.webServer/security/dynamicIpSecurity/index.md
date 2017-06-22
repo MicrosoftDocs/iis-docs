@@ -82,8 +82,8 @@ The `<dynamicIpSecurity>` element is configured at the server or site level.
 
 | Element | Description |
 | --- | --- |
-| [`denyByConcurrentRequests`](https://www.iis.net/configreference/system.webserver/security/dynamicipsecurity/denybyconcurrentrequests) | Optional element. Specifies that certain remote clients will be blocked based on the number of requests received over time. |
-| [`denyByRequestRate`](https://www.iis.net/configreference/system.webserver/security/dynamicipsecurity/denybyrequestrate) | Optional element. Specifies that certain remote clients will be blocked based on the number of concurrent HTTP connection requests from clients. |
+| [`denyByConcurrentRequests`](../../system.webserver/security/dynamicipsecurity/denybyconcurrentrequests.md) | Optional element. Specifies that certain remote clients will be blocked based on the number of requests received over time. |
+| [`denyByRequestRate`](../../system.webserver/security/dynamicipsecurity/denybyrequestrate.md) | Optional element. Specifies that certain remote clients will be blocked based on the number of concurrent HTTP connection requests from clients. |
 
 ### Configuration Sample
 

@@ -79,7 +79,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.webserver/management/authentication/providers/add) | Optional element. Adds a provider to the collection of authentication providers. |
+| [`add`](../../../system.webserver/management/authentication/providers/add.md) | Optional element. Adds a provider to the collection of authentication providers. |
 
 ### Configuration Sample
 

@@ -117,7 +117,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/hiddensegments/add) | Optional element. Adds a segment to the collection of hidden segments. |
+| [`add`](../../../system.webserver/security/requestfiltering/hiddensegments/add.md) | Optional element. Adds a segment to the collection of hidden segments. |
 | `clear` | Optional element. Removes all references to segments from the `<hiddenSegments>` collection. |
 | `remove` | Optional element. Removes a reference to a segment from the `<hiddenSegments>` collection. |
 

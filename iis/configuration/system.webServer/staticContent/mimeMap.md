@@ -3,7 +3,7 @@ Adding Static Content MIME Mappings &lt;mimeMap&gt;
 <a id="001"></a>
 ## Overview
 
-The `<mimeMap>` element of the [&lt;staticContent&gt;](https://www.iis.net/configreference/system.webserver/staticcontent) element adds a unique MIME type to the collection of static content types. Each `<mimeMap>` entry must consist of two parts:
+The `<mimeMap>` element of the [&lt;staticContent&gt;](../../system.webserver/staticcontent.md) element adds a unique MIME type to the collection of static content types. Each `<mimeMap>` entry must consist of two parts:
 
 - A unique file name extension that is specified by the **fileExtension** attribute, for example, ".txt", ".png", etc.
 - A MIME type for the file name extension that is specified by the **mimeType** attribute, for example, "text/plain", "image/jpg", etc.

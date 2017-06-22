@@ -3,7 +3,7 @@ Adding WebDAV Authoring Rules &lt;add&gt;
 <a id="001"></a>
 ## Overview
 
-The `<add>` element of the [`<authoringRules>`](https://www.iis.net/configreference/system.webserver/webdav/authoringrules) element specifies the access permissions for users or groups for specific content types for a unique authoring rule.
+The `<add>` element of the [`<authoringRules>`](../../../system.webserver/webdav/authoringrules.md) element specifies the access permissions for users or groups for specific content types for a unique authoring rule.
 
 Authoring rules can be defined per-URI within a Web site, and specifies the WebDAV authoring permissions for that URI space. The permissions in this element are inherited, so child URIs will have the same permissions as a parent URI, provided that the child URI does not have unique permissions defined.
 

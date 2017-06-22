@@ -41,7 +41,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.webserver/httptracing/traceurls/add) | Optional element. Adds a trace URL to the collection of trace URLs. |
+| [`add`](../../system.webserver/httptracing/traceurls/add.md) | Optional element. Adds a trace URL to the collection of trace URLs. |
 | `clear` | Optional element. Removes all references to trace URLs from the trace URL collection. |
 | `remove` | Optional element. Removes a reference to a trace URL from the trace URL collection. |
 

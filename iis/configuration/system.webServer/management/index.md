@@ -161,9 +161,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`authentication`](https://www.iis.net/configreference/system.webserver/management/authentication) | Optional element. Configures authentication settings for remote management of the Web server. |
-| [`authorization`](https://www.iis.net/configreference/system.webserver/management/authorization) | Optional element. Configures authorization settings for remote management of the Web server. |
-| [`trustedProviders`](https://www.iis.net/configreference/system.webserver/management/trustedproviders) | Optional element. Configures the providers that are trusted by IIS Manager and the Management Service (WMSVC). |
+| [`authentication`](../system.webserver/management/authentication.md) | Optional element. Configures authentication settings for remote management of the Web server. |
+| [`authorization`](../system.webserver/management/authorization.md) | Optional element. Configures authorization settings for remote management of the Web server. |
+| [`trustedProviders`](../system.webserver/management/trustedproviders.md) | Optional element. Configures the providers that are trusted by IIS Manager and the Management Service (WMSVC). |
 
 ### Configuration Sample
 

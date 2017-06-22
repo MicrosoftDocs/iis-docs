@@ -3,7 +3,7 @@ Application Dependencies &lt;applicationDependencies&gt;
 <a id="001"></a>
 ## Overview
 
-The `<applicationDependencies>` element of the [&lt;security&gt;](https://www.iis.net/configreference/system.webserver/security) element works in tandem with the [&lt;isapiCgiRestriction&gt;](https://www.iis.net/configreference/system.webserver/security/isapicgirestriction) element to define which applications have dependencies on one or more CGI or ISAPI extension restrictions. If an application is contained in this element , the application has dependencies on an item (or multiple items) in the [&lt;isapiCgiRestriction&gt;](https://www.iis.net/configreference/system.webserver/security/isapicgirestriction) element.
+The `<applicationDependencies>` element of the [&lt;security&gt;](../../system.webserver/security.md) element works in tandem with the [&lt;isapiCgiRestriction&gt;](../../system.webserver/security/isapicgirestriction.md) element to define which applications have dependencies on one or more CGI or ISAPI extension restrictions. If an application is contained in this element , the application has dependencies on an item (or multiple items) in the [&lt;isapiCgiRestriction&gt;](../../system.webserver/security/isapicgirestriction.md) element.
 
 <a id="002"></a>
 ## Compatibility
@@ -38,7 +38,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`application`](https://www.iis.net/configreference/system.webserver/security/applicationdependencies/application) | Optional element. Specifies an application that has dependencies on a CGI or ISAPI extension restriction. |
+| [`application`](../../system.webserver/security/applicationdependencies/application.md) | Optional element. Specifies an application that has dependencies on a CGI or ISAPI extension restriction. |
 | `clear` | Optional element. Removes all references to applications from the **applicationDependencies** collection. |
 
 ### Configuration Sample

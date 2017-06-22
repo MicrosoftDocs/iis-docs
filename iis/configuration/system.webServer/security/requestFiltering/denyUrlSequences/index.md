@@ -3,7 +3,7 @@ Deny URL Sequences &lt;denyUrlSequences&gt;
 <a id="001"></a>
 ## Overview
 
-The `<denyUrlSequences>` element contains a collection of [`<add>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyurlsequences/add) elements that specify sequences of URL characters that IIS will deny, which helps prevent URL-based attacks on the Web server.
+The `<denyUrlSequences>` element contains a collection of [`<add>`](../../../system.webserver/security/requestfiltering/denyurlsequences/add.md) elements that specify sequences of URL characters that IIS will deny, which helps prevent URL-based attacks on the Web server.
 
 For example, using two periods in a URL ("..") will instruct a server to process the URL in the next higher directory, but it may also indicate that an attacker is trying to gain access to areas outside of the content area. Blocking that pattern of characters will remove this chance of an attacker being able to exploit this URL sequence.
 
@@ -17,7 +17,7 @@ For example, using two periods in a URL ("..") will instruct a server to process
 This substatus allows Web administrators to analyze their IIS logs and identify potential threats.
 
 > [!NOTE]
-> Beginning in IIS 7.5, you can override the URL sequences in the `<denyUrlSequences>` collection by adding URL sequences to the [`<alwaysAllowedUrls>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls) collection.
+> Beginning in IIS 7.5, you can override the URL sequences in the `<denyUrlSequences>` collection by adding URL sequences to the [`<alwaysAllowedUrls>`](../../../system.webserver/security/requestfiltering/alwaysallowedurls.md) collection.
 
 <a id="002"></a>
 ## Compatibility
@@ -27,7 +27,7 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 | IIS 10.0 | The `<denyUrlSequences>` element was not modified in IIS 10.0. |
 | IIS 8.5 | The `<denyUrlSequences>` element was not modified in IIS 8.5. |
 | IIS 8.0 | The `<denyUrlSequences>` element was not modified in IIS 8.0. |
-| IIS 7.5 | The `<denyUrlSequences>` element was not modified in IIS 7.5. <br><br>**Note:** IIS 7.5 allows you to override the URL sequences in the `<denyUrlSequences>` element by adding URL sequences to the [`<alwaysAllowedUrls>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls) collection. |
+| IIS 7.5 | The `<denyUrlSequences>` element was not modified in IIS 7.5. <br><br>**Note:** IIS 7.5 allows you to override the URL sequences in the `<denyUrlSequences>` element by adding URL sequences to the [`<alwaysAllowedUrls>`](../../../system.webserver/security/requestfiltering/alwaysallowedurls.md) collection. |
 | IIS 7.0 | The `<denyUrlSequences>` element of the `<requestFiltering>` collection was introduced in IIS 7.0. |
 | IIS 6.0 | The `<denyUrlSequences>` element replaces the IIS 6.0 UrlScan **[DenyUrlSequences]** features. |
 
@@ -121,7 +121,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/denyurlsequences/add) | Optional element. Adds a sequence to the collection of denied URL sequences. |
+| [`add`](../../../system.webserver/security/requestfiltering/denyurlsequences/add.md) | Optional element. Adds a sequence to the collection of denied URL sequences. |
 | `clear` | Optional element. Removes all references to sequences from the `<denyUrlSequences>` collection. |
 | `remove` | Optional element. Removes a reference to a sequence from the `<denyUrlSequences>` collection. |
 

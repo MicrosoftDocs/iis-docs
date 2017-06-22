@@ -13,7 +13,7 @@ ODBC logging is implemented as a custom logging module in IIS 7, therefore enabl
     - The **password** attribute must specify the database password that IIS 7 will use when writing log information to the database.
     - The **tableName** attribute must specify the name of the database table in the database that is specified by the **dataSource** attribute.
     - The **userName** attribute must specify the database user name that IIS 7 will use when writing log information to the database.
-- Setting the correct custom logging attributes in the [&lt;logFile&gt;](https://www.iis.net/configreference/system.applicationhost/sites/site/logfile) element. Specifically, the following attributes must be configured: 
+- Setting the correct custom logging attributes in the [&lt;logFile&gt;](../system.applicationhost/sites/site/logfile.md) element. Specifically, the following attributes must be configured: 
 
     - The **logFormat** attribute must be set to "**Custom**."
     - The **customLogPluginClsid** attribute must be set to "**{FF16065B-DE82-11CF-BC0A-00AA006111E0}**"
@@ -106,7 +106,7 @@ This first configuration sample for the Default Web Site configures the attribut
 
 [!code-xml[Main](odbcLogging/samples/sample1.xml)]
 
-This second configuration sample configures the correct custom logging attributes in [&lt;logFile&gt;](https://www.iis.net/configreference/system.applicationhost/sites/site/logfile) element that enable ODBC logging for the Default Web Site.
+This second configuration sample configures the correct custom logging attributes in [&lt;logFile&gt;](../system.applicationhost/sites/site/logfile.md) element that enable ODBC logging for the Default Web Site.
 
 [!code-xml[Main](odbcLogging/samples/sample2.xml)]
 
@@ -116,7 +116,7 @@ This second configuration sample configures the correct custom logging attribute
 The following code samples configure two sets of options for the Default Web Site:
 
 - The first half of each sample configures the attributes in the `<odbcLogging>` element that specify the system DSN, table name, user name, and password for an ODBC logging connection.
-- The second half of each sample specifies the custom logging attributes in [&lt;logFile&gt;](https://www.iis.net/configreference/system.applicationhost/sites/site/logfile) element that enable ODBC logging.
+- The second half of each sample specifies the custom logging attributes in [&lt;logFile&gt;](../system.applicationhost/sites/site/logfile.md) element that enable ODBC logging.
 
 ### AppCmd.exe
 

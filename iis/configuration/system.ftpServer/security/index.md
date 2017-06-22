@@ -145,10 +145,10 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`authentication`](https://www.iis.net/configreference/system.ftpserver/security/authentication) | Optional element. Specifies authentication-related settings. |
-| [`authorization`](https://www.iis.net/configreference/system.ftpserver/security/authorization) | Optional element. Specifies authorization-related settings. |
-| [`ipSecurity`](https://www.iis.net/configreference/system.ftpserver/security/ipsecurity) | Optional element. Specifies access restrictions based on the IP version 4 address or DNS domain name. |
-| [`requestFiltering`](https://www.iis.net/configreference/system.ftpserver/security/requestfiltering) | Optional element. Specifies configuration settings for request filtering. |
+| [`authentication`](../system.ftpserver/security/authentication.md) | Optional element. Specifies authentication-related settings. |
+| [`authorization`](../system.ftpserver/security/authorization.md) | Optional element. Specifies authorization-related settings. |
+| [`ipSecurity`](../system.ftpserver/security/ipsecurity.md) | Optional element. Specifies access restrictions based on the IP version 4 address or DNS domain name. |
+| [`requestFiltering`](../system.ftpserver/security/requestfiltering.md) | Optional element. Specifies configuration settings for request filtering. |
 
 ### Configuration Sample
 

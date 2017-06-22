@@ -3,7 +3,7 @@ ISAPI/CGI Restrictions &lt;isapiCgiRestriction&gt;
 <a id="001"></a>
 ## Overview
 
-The `<isapiCgiRestriction>` element of the [&lt;security&gt;](https://www.iis.net/configreference/system.webserver/security) element allows you to specify a list of Common Gateway Interface (CGI) and Internet Server Application Programming Interface (ISAPI) applications that can run on Internet Information Services (IIS) 7. This element allows you to ensure that malicious users cannot copy unauthorized CGI and ISAPI binaries to your Web server and then run them.
+The `<isapiCgiRestriction>` element of the [&lt;security&gt;](../../system.webserver/security.md) element allows you to specify a list of Common Gateway Interface (CGI) and Internet Server Application Programming Interface (ISAPI) applications that can run on Internet Information Services (IIS) 7. This element allows you to ensure that malicious users cannot copy unauthorized CGI and ISAPI binaries to your Web server and then run them.
 
 You need to use this element to configure your Web server only when a site or application uses an application pool that runs in Classic mode. The restrictions you configure in the `<isapiCgiRestriction>` element apply to only ISAPI and CGI code.
 
@@ -13,7 +13,7 @@ For example, if you created an ASP.NET 2.0 application and configured the applic
 
 If you changed the allowed attribute to **false** and left the application pool in Classic mode, ASP.NET requests would fail. However, if you changed the application pool to Integrated mode, IIS processes the ASP.NET requests using the integrated request pipeline, which bypasses the ISAPI and CGI restriction you configured. 
 
-The `<isapiCgiRestriction>` element works in tandem with the [&lt;applicationDependencies&gt;](https://www.iis.net/configreference/system.webserver/security/applicationdependencies) element to define which applications have dependencies on one or more CGI or ISAPI extension restrictions.
+The `<isapiCgiRestriction>` element works in tandem with the [&lt;applicationDependencies&gt;](../../system.webserver/security/applicationdependencies.md) element to define which applications have dependencies on one or more CGI or ISAPI extension restrictions.
 
 <a id="002"></a>
 ## Compatibility
@@ -116,7 +116,7 @@ The `<isapiCgiRestriction>` collection can only be configured at the server leve
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.webserver/security/isapicgirestriction/add) | Optional element. Adds a restriction to the collection of ISAPI and CGI restrictions. |
+| [`add`](../../system.webserver/security/isapicgirestriction/add.md) | Optional element. Adds a restriction to the collection of ISAPI and CGI restrictions. |
 | `remove` | Optional element. Removes a reference to a restriction from the isapiCgiRestriction collection. |
 | `clear` | Optional element. Removes all references to restrictions from the isapiCgiRestriction collection. |
 

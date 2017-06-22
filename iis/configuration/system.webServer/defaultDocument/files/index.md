@@ -65,7 +65,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.webserver/defaultdocument/files/add) | Optional element. Adds a file name to the collection of files. |
+| [`add`](../../system.webserver/defaultdocument/files/add.md) | Optional element. Adds a file name to the collection of files. |
 | `remove` | Optional element. Removes a reference to a file name from the files collection. |
 | `clear` | Optional element. Removes all references to file names from the files collection. |
 

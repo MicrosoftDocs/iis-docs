@@ -110,7 +110,7 @@ None.
 | Element | Description |
 | --- | --- |
 | `clear` | Optional element. Removes all references to ISAPI filters from the ISAPI filters collection. |
-| [`filter`](https://www.iis.net/configreference/system.webserver/isapifilters/filter) | Optional element. Adds an ISAPI filter to the ISAPI filters collection. |
+| [`filter`](../system.webserver/isapifilters/filter.md) | Optional element. Adds an ISAPI filter to the ISAPI filters collection. |
 | `remove` | Optional element. Removes a reference to an ISAPI filter from the ISAPI filters collection. |
 
 ### Configuration Sample

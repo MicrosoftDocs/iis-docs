@@ -7,7 +7,7 @@ The `<providerDefinitions>` element specifies the collection of custom FTP provi
 
 Beginning with FTP 7.5, the FTP service supports extensibility for custom authentication and roles, logging, and home directory lookups. When you create an extensibility provider, you must first register it in the .NET Global Assembly Cache (GAC) for managed-code providers, or in your system's registry for native-code (COM) providers. For additional information about how to create FTP custom providers, see the following section on Microsoft's IIS.net Web site:
 
-> [Developing for FTP 7.5](..//learn/develop/developing-for-ftp.md)
+> [Developing for FTP 7.5](../learn/develop/developing-for-ftp.md)
 
  
 <a id="002"></a>
@@ -152,8 +152,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions/add) | Optional element. Specifies the registration information for a managed-code or native-code (COM) provider. |
-| [`activation`](https://www.iis.net/configreference/system.ftpserver/providerdefinitions/activation) | Optional element. Specifies a collection of custom name/value pairs that define any parameters that a custom provider requires. <br><br>**Note:** This element was added in FTP 7.5. |
+| [`add`](../system.ftpserver/providerdefinitions/add.md) | Optional element. Specifies the registration information for a managed-code or native-code (COM) provider. |
+| [`activation`](../system.ftpserver/providerdefinitions/activation.md) | Optional element. Specifies a collection of custom name/value pairs that define any parameters that a custom provider requires. <br><br>**Note:** This element was added in FTP 7.5. |
 
 ### Configuration Sample
 

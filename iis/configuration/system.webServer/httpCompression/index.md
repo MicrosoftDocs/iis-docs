@@ -34,7 +34,7 @@ IIS 7 supports two different industry-standard compression schemes:
 Each of these two compression schemes can be enabled using the `<schemes>` element of the `<httpCompression>` element.
 
 > [!NOTE]
-> While the `<httpCompression>` element specifies the HTTP compression settings for Internet Information Services (IIS) 7, the [&lt;urlCompression&gt;](https://www.iis.net/configreference/system.webserver/urlcompression) element specifies whether compression is enabled for a URL namespace.
+> While the `<httpCompression>` element specifies the HTTP compression settings for Internet Information Services (IIS) 7, the [&lt;urlCompression&gt;](../system.webserver/urlcompression.md) element specifies whether compression is enabled for a URL namespace.
 
 <a id="002"></a>
 ## Compatibility
@@ -190,9 +190,9 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 
 | Element | Description |
 | --- | --- |
-| [`scheme`](https://www.iis.net/configreference/system.webserver/httpcompression/scheme) | Optional element. Specifies the compression scheme (Gzip or Deflate) IIS uses to compress client requests. |
-| [`dynamicTypes`](https://www.iis.net/configreference/system.webserver/httpcompression/dynamictypes) | Optional element. Specifies configuration settings for dynamic compression. |
-| [`staticTypes`](https://www.iis.net/configreference/system.webserver/httpcompression/statictypes) | Optional element. Specifies configuration settings for static compression. |
+| [`scheme`](../system.webserver/httpcompression/scheme.md) | Optional element. Specifies the compression scheme (Gzip or Deflate) IIS uses to compress client requests. |
+| [`dynamicTypes`](../system.webserver/httpcompression/dynamictypes.md) | Optional element. Specifies configuration settings for dynamic compression. |
+| [`staticTypes`](../system.webserver/httpcompression/statictypes.md) | Optional element. Specifies configuration settings for static compression. |
 
 ### Configuration Sample
 

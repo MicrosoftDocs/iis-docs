@@ -231,7 +231,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`application`](https://www.iis.net/configreference/system.webserver/fastcgi/application) | Optional element. Adds a FastCGI process pool definition to the collection of FastCGI process pool definitions. |
+| [`application`](../system.webserver/fastcgi/application.md) | Optional element. Adds a FastCGI process pool definition to the collection of FastCGI process pool definitions. |
 
 ### Configuration Sample
 

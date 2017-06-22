@@ -54,8 +54,8 @@ There is no user interface for configuring the `<staticContent>` element for IIS
 
 | Element | Description |
 | --- | --- |
-| [`clientCache`](https://www.iis.net/configreference/system.webserver/staticcontent/clientcache) | Optional element. Specifies settings for caching static content that is sent to the client. |
-| [`mimeMap`](https://www.iis.net/configreference/system.webserver/staticcontent/mimemap) | Optional element. Specifies a list of the file name extensions for MIME mappings. |
+| [`clientCache`](../system.webserver/staticcontent/clientcache.md) | Optional element. Specifies settings for caching static content that is sent to the client. |
+| [`mimeMap`](../system.webserver/staticcontent/mimemap.md) | Optional element. Specifies a list of the file name extensions for MIME mappings. |
 
 ### Configuration Sample
 

@@ -65,7 +65,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.webserver/httpprotocol/customheaders/add) | Optional element. Adds a custom response header to the `<customHeaders>` collection. |
+| [`add`](../../system.webserver/httpprotocol/customheaders/add.md) | Optional element. Adds a custom response header to the `<customHeaders>` collection. |
 | `clear` | Optional element. Removes all references to custom response headers from the `<customHeaders>` collection. |
 | `remove` | Optional element. Removes a reference to a custom response header from the `<customHeaders>` collection. |
 

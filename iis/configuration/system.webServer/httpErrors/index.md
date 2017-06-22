@@ -91,7 +91,7 @@ You can configure the `<httpErrors>` element at the server level in the Applicat
 
 | Element | Description |
 | --- | --- |
-| [`error`](https://www.iis.net/configreference/system.webserver/httperrors/error) | Optional element. Adds an HTTP error to the collection of HTTP errors. |
+| [`error`](../system.webserver/httperrors/error.md) | Optional element. Adds an HTTP error to the collection of HTTP errors. |
 | `remove` | Optional element. Removes a reference to an HTTP error from the HTTP error collection. |
 | `clear` | Optional element. Removes all references to HTTP errors from the HTTP error collection. |
 

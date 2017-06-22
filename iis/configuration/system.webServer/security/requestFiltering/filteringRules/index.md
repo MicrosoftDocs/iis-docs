@@ -14,10 +14,10 @@ Each `<filteringRule>` element specifies a collection of custom attributes and e
 
 In addition, each request filtering rule may contain the following child elements:
 
-- [`<appliesTo>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/appliesto) - Specifies the list of file name extensions to which the request filtering rule applies. > [!NOTE]
+- [`<appliesTo>`](../../../system.webserver/security/requestfiltering/filteringrules/filteringrule/appliesto.md) - Specifies the list of file name extensions to which the request filtering rule applies. > [!NOTE]
  > If this section is blank, the rule applies to all requests.
-- [`<denyStrings>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings) - Specifies the list of strings to deny for the request filtering rule.
-- [`<scanHeaders>`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders) - Specifies the list of HTTP headers to scan.
+- [`<denyStrings>`](../../../system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings.md) - Specifies the list of strings to deny for the request filtering rule.
+- [`<scanHeaders>`](../../../system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders.md) - Specifies the list of HTTP headers to scan.
 
 > [!NOTE]
 > When request filtering blocks an HTTP request because of a filtering rule, IIS 7 will return an HTTP 404 error to the client and log the following HTTP status with a unique substatus that identifies the reason that the request was denied:
@@ -133,7 +133,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`filteringRule`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule) | Optional element. Adds a rule to the collection of custom request filtering rules. |
+| [`filteringRule`](../../../system.webserver/security/requestfiltering/filteringrules/filteringrule.md) | Optional element. Adds a rule to the collection of custom request filtering rules. |
 
 ### Configuration Sample
 

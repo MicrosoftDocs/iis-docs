@@ -138,8 +138,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`traceFailedRequests`](https://www.iis.net/configreference/system.webserver/tracing/tracefailedrequests) | Optional element. Contains settings for tracing failed requests on the Web server. |
-| [`traceProviderDefinitions`](https://www.iis.net/configreference/system.webserver/tracing/traceproviderdefinitions) | Optional element. Defines the trace providers that are used on the Web server. |
+| [`traceFailedRequests`](../system.webserver/tracing/tracefailedrequests.md) | Optional element. Contains settings for tracing failed requests on the Web server. |
+| [`traceProviderDefinitions`](../system.webserver/tracing/traceproviderdefinitions.md) | Optional element. Defines the trace providers that are used on the Web server. |
 
 ### Configuration Sample
 

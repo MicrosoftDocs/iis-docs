@@ -41,7 +41,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.webserver/httpprotocol/redirectheaders/add) | Optional element. Adds a response header to the `<redirectHeaders>` collection. |
+| [`add`](../../system.webserver/httpprotocol/redirectheaders/add.md) | Optional element. Adds a response header to the `<redirectHeaders>` collection. |
 | `clear` | Optional element. Removes all references to response headers from the `<redirectHeaders>` collection. |
 | `remove` | Optional element. Removes a reference to a response header from the `<redirectHeaders>` collection. |
 

@@ -8,7 +8,7 @@ The `<cgi>` element configures default settings for Common Gateway Interface (CG
 CGI is sometimes considered to be a legacy application environment. Because of the processing overhead that is associated with launching CGI applications as separate processes, technologies like HTTP Modules, ISAPI extensions, ASP/ASP.NET, and FastCGI are preferred over CGI for application development.
 
 > [!NOTE]
-> The CGI environment is not installed by default; however, installing the CGI environment also installs the necessary functionality for using FastCGI applications. For more information about using FastCGI on IIS 7, see the [&lt;fastCgi&gt;](https://www.iis.net/configreference/system.webserver/fastcgi) element.
+> The CGI environment is not installed by default; however, installing the CGI environment also installs the necessary functionality for using FastCGI applications. For more information about using FastCGI on IIS 7, see the [&lt;fastCgi&gt;](../system.webserver/fastcgi.md) element.
 
 <a id="002"></a>
 ## Compatibility

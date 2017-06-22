@@ -109,8 +109,8 @@ The default installation of IIS 7 and later does not include the **Management Se
 
 | Element | Description |
 | --- | --- |
-| [`authorizationRules`](https://www.iis.net/configreference/system.webserver/management/authorization/authorizationrules) | Optional element. Configures the IIS Manager users and Windows users who are authorized to connect to a site or an application by using IIS Manager. |
-| [`providers`](https://www.iis.net/configreference/system.webserver/management/authorization/providers) | Optional element. Configures authorization providers that authorize IIS Manager users and Windows users who connect remotely to sites and applications by using IIS Manager. |
+| [`authorizationRules`](../../system.webserver/management/authorization/authorizationrules.md) | Optional element. Configures the IIS Manager users and Windows users who are authorized to connect to a site or an application by using IIS Manager. |
+| [`providers`](../../system.webserver/management/authorization/providers.md) | Optional element. Configures authorization providers that authorize IIS Manager users and Windows users who connect remotely to sites and applications by using IIS Manager. |
 
 ### Configuration Sample
 

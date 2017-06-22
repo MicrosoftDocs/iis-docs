@@ -118,7 +118,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs/add) | Optional element. Adds a verb to the verbs collection. |
+| [`add`](../../../system.webserver/security/requestfiltering/verbs/add.md) | Optional element. Adds a verb to the verbs collection. |
 | `clear` | Optional element. Removes all references to verbs from the verbs collection. |
 | `remove` | Optional element. Removes a reference to a verb from the verbs collection. |
 

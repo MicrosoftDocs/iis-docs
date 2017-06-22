@@ -7,7 +7,7 @@ The `<modules>` element defines the native-code modules and managed-code modules
 
 The `<modules>` element contains a collection of `<add>` elements. Each element defines an enabled module for the application. When you enable a module, you allow it to provide its service for a particular application.
 
-If you want to enable a native module, you must first install it on the server. For more information, see the [&lt;globalModules&gt;](https://www.iis.net/configreference/system.webserver/globalmodules) element.
+If you want to enable a native module, you must first install it on the server. For more information, see the [&lt;globalModules&gt;](../system.webserver/globalmodules.md) element.
 
 You do not have to install a managed module; you can enable it directly for each application. This allows applications to include their managed modules directly within the application by registering them in the application's Web.config file, and by providing the implementation in the /BIN or /App\_Code directories.
 
@@ -74,7 +74,7 @@ You configure the `<modules>` element at the server level in the ApplicationHost
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.webserver/modules/add) | Optional element. Adds a module to the collection of modules. |
+| [`add`](../system.webserver/modules/add.md) | Optional element. Adds a module to the collection of modules. |
 | `clear` | Optional element. Removes all references to modules from the modules collection. |
 | `remove` | Optional element. Removes a reference to a module from the modules collection. |
 

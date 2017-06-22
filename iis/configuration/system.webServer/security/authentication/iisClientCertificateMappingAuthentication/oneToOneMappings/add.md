@@ -6,7 +6,7 @@ Adding One-To-One Mappings &lt;add&gt;
 The `<add>` element of the `<oneToOneMappings>` element specifies a unique mapping between an individual client certificate and an individual user account.
 
 > [!NOTE]
-> One-to-one certificate mappings differ from [many-to-one](https://www.iis.net/configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings) certificate mappings, which can map multiple certificates to a single user account.
+> One-to-one certificate mappings differ from [many-to-one](../../../../../system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings.md) certificate mappings, which can map multiple certificates to a single user account.
 
 <a id="002"></a>
 ## Compatibility

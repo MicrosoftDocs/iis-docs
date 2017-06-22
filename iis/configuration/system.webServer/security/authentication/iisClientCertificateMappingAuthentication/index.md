@@ -11,7 +11,7 @@ There are two different methods for mapping client certificates using IIS:
 - **Many-To-One Mappings** - these mappings match multiple certificates to a user account based on subfields in client certificates.
 
 > [!NOTE]
-> Client Certificate Mapping authentication using IIS differs from [Client Certificate Mapping using Active Directory](https://www.iis.net/configreference/system.webserver/security/authentication/clientcertificatemappingauthentication) in the following ways:
+> Client Certificate Mapping authentication using IIS differs from [Client Certificate Mapping using Active Directory](../../../system.webserver/security/authentication/clientcertificatemappingauthentication.md) in the following ways:
 
 - **Client Certificate Mapping authentication using Active Directory** - this method of authentication requires that the IIS 7 server and the client computer are members of an Active Directory domain, and user accounts are stored in Active Directory. This method of Client Certificate Mapping authentication has reduced performance because of the round-trip to the Active Directory server.
 - **IIS Client Certificate Mapping authentication** - this method of authentication does not require Active Directory and therefore works with standalone servers. This method of Client Certificate Mapping authentication has increased performance, but requires more configuration and access to client certificates in order to create mappings.
@@ -96,8 +96,8 @@ The `<iisClientCertificateMappingAuthentication>` element of the `<authenticatio
 
 | Element | Description |
 | --- | --- |
-| [`manyToOneMappings`](https://www.iis.net/configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings) | Optional element. Maps client certificates to a set of wildcard criteria that authenticate the certificates and assign a user account. |
-| [`oneToOneMappings`](https://www.iis.net/configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/onetoonemappings) | Optional element. Specifies one-to-one client certificate mappings. |
+| [`manyToOneMappings`](../../../system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings.md) | Optional element. Maps client certificates to a set of wildcard criteria that authenticate the certificates and assign a user account. |
+| [`oneToOneMappings`](../../../system.webserver/security/authentication/iisclientcertificatemappingauthentication/onetoonemappings.md) | Optional element. Specifies one-to-one client certificate mappings. |
 
 ### Configuration Sample
 

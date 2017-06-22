@@ -130,7 +130,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](https://www.iis.net/configreference/system.webserver/tracing/tracefailedrequests/add/traceareas/add) | Optional element. Adds a trace area to the collection of trace areas. |
+| [`add`](../../../../system.webserver/tracing/tracefailedrequests/add/traceareas/add.md) | Optional element. Adds a trace area to the collection of trace areas. |
 | `clear` | Optional element. Removes a reference to a trace area from the trace areas collection. |
 | `remove` | Optional element. Removes all references to trace areas from the trace areas collection. |
 
