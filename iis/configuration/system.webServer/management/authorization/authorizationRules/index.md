@@ -107,7 +107,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`scope`](../../../system.webserver/management/authorization/authorizationrules/scope.md) | Optional element. Configures the virtual path of the site or application to which IIS Manager users and Windows users are authorized to connect by using IIS Manager. |
+| [`scope`](scope/index.md) | Optional element. Configures the virtual path of the site or application to which IIS Manager users and Windows users are authorized to connect by using IIS Manager. |
 
 ### Configuration Sample
 

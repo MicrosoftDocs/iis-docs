@@ -122,7 +122,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`providers`](../../../../system.applicationhost/sites/site/ftpserver/customfeatures/providers.md) | Optional element. Specifies the collection of custom FTP features. |
+| [`providers`](providers/index.md) | Optional element. Specifies the collection of custom FTP features. |
 
 ### Configuration Sample
 

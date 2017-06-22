@@ -274,10 +274,10 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`anonymousAuthentication`](../../../../../system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/anonymousauthentication.md) | Optional element. Specifies the Anonymous authentication settings for FTP sites. |
-| [`basicAuthentication`](../../../../../system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/basicauthentication.md) | Optional element. Specifies the Basic authentication settings for FTP sites. |
-| [`clientCertAuthentication`](../../../../../system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/clientcertauthentication.md) | Optional element. Specifies the Client Certificate authentication settings for FTP sites. |
-| [`customAuthentication`](../../../../../system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/customauthentication/index.md) | Optional element. Specifies the Custom authentication settings for FTP sites. <br><br>**Note:** Custom authentication is implemented through custom authentication providers. |
+| [`anonymousAuthentication`](anonymousauthentication.md) | Optional element. Specifies the Anonymous authentication settings for FTP sites. |
+| [`basicAuthentication`](basicauthentication.md) | Optional element. Specifies the Basic authentication settings for FTP sites. |
+| [`clientCertAuthentication`](clientcertauthentication.md) | Optional element. Specifies the Client Certificate authentication settings for FTP sites. |
+| [`customAuthentication`](customauthentication/index.md) | Optional element. Specifies the Custom authentication settings for FTP sites. <br><br>**Note:** Custom authentication is implemented through custom authentication providers. |
 
 ### Configuration Sample
 

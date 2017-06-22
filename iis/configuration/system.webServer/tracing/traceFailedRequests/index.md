@@ -132,7 +132,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../system.webserver/tracing/tracefailedrequests/add/index.md) | Optional element. Adds a path to the collection of path definitions. |
+| [`add`](add/index.md) | Optional element. Adds a path to the collection of path definitions. |
 | `remove` | Optional element. Removes a reference to a path from the path definitions collection. |
 | `clear` | Optional element. Removes all references to paths from the path definitions collection. |
 

@@ -120,7 +120,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`providers`](../../../../system.applicationhost/sites/sitedefaults/ftpserver/customfeatures/providers.md) | Optional element. Specifies the default collection of custom FTP features. |
+| [`providers`](providers/index.md) | Optional element. Specifies the default collection of custom FTP features. |
 
 ### Configuration Sample
 

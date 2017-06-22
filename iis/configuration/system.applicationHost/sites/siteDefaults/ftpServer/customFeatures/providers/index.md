@@ -117,7 +117,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../../../system.applicationhost/sites/sitedefaults/ftpserver/customfeatures/providers/add.md) | Optional element. Adds a feature provider to the default collection of FTP custom providers for FTP sites. |
+| [`add`](add.md) | Optional element. Adds a feature provider to the default collection of FTP custom providers for FTP sites. |
 | `clear` | Optional element. Clears the default collection of FTP custom providers for FTP sites. |
 | `remove` | Optional element. Removes a feature provider from the default collection of FTP custom providers for FTP sites. |
 

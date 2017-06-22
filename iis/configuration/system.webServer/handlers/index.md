@@ -107,7 +107,7 @@ You configure the `<handlers>` element at the application level in the Web.confi
 
 | Element | Description |
 | --- | --- |
-| [`add`](../system.webserver/handlers/add.md) | Optional element. Adds a handler to the collection of handlers. |
+| [`add`](add.md) | Optional element. Adds a handler to the collection of handlers. |
 | `clear` | Optional element. Removes all references to handlers from the handlers collection. |
 | `remove` | Optional element. Removes a reference to a handler from the handlers collection. |
 

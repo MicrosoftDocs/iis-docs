@@ -91,7 +91,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../../../../system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings/add/rules/add.md) | Optional element. Adds a rule to the collection of rules. |
+| [`add`](add.md) | Optional element. Adds a rule to the collection of rules. |
 | `clear` | Optional element. Removes all references to rules from the rules collection. |
 
 ### Configuration Sample

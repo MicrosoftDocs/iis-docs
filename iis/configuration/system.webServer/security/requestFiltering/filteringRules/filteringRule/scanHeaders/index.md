@@ -3,7 +3,7 @@ HTTP Headers for Filtering Rules &lt;scanHeaders&gt;
 <a id="001"></a>
 ## Overview
 
-The `<scanHeaders>` element of the `<filteringRule>` element defines a collection of HTTP headers that a request filtering rule will scan for strings that are specified in the [`<denyStrings>`](../../../../../system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings.md) collection. The `<scanHeaders>` element contains a series of [`<add>`](../../../../../system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders/add.md) elements, each of which specifies a unique HTTP header to add to the collection.
+The `<scanHeaders>` element of the `<filteringRule>` element defines a collection of HTTP headers that a request filtering rule will scan for strings that are specified in the [`<denyStrings>`](denystrings/index.md) collection. The `<scanHeaders>` element contains a series of [`<add>`](add.md) elements, each of which specifies a unique HTTP header to add to the collection.
 
 <a id="002"></a>
 ## Compatibility
@@ -110,7 +110,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../../../system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders/add.md) | Optional element. Adds a unique HTTP header to the collection of HTTP headers which a request filtering rule will scan. |
+| [`add`](add.md) | Optional element. Adds a unique HTTP header to the collection of HTTP headers which a request filtering rule will scan. |
 | `clear` | Optional element. Clears the collection of HTTP headers which a request filtering rule will scan. |
 | `remove` | Optional element. Removes a unique HTTP header from the collection of HTTP headers which a request filtering rule will scan. |
 

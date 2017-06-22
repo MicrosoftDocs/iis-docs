@@ -22,7 +22,7 @@ You can define the categories of information that IIS logs by editing the **logE
 > [!NOTE]
 > If the `<logFile>` element is configured in both the `<siteDefaults>` section and in the `<site>` section for a specific site, the configuration in the `<site>` section is used for that site.
 
-IIS 8.5 enables you to log custom fields in addition to the standard logged set. The log file format must be W3C to add custom fields. For more information, see [`customFields`](../../../system.applicationhost/sites/site/logfile/customfields.md).
+IIS 8.5 enables you to log custom fields in addition to the standard logged set. The log file format must be W3C to add custom fields. For more information, see [`customFields`](../site/logfile/customfields/index.md).
 
 <a id="002"></a>
 ## Compatibility
@@ -152,7 +152,7 @@ The `<logFile>` element is included in the default installation of IIS 7 and lat
 
 | Element | Description |
 | --- | --- |
-| [`customFields`](../../../system.applicationhost/sites/sitedefaults/logfile/customfields.md) | Optional element. Specifies the configuration settings for default custom fields in a W3C log. |
+| [`customFields`](customfields/index.md) | Optional element. Specifies the configuration settings for default custom fields in a W3C log. |
 
 ### Configuration Sample
 

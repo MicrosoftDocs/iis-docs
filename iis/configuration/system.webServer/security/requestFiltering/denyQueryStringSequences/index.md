@@ -3,10 +3,10 @@ Deny Query String Sequences &lt;denyQueryStringSequences&gt;
 <a id="001"></a>
 ## Overview
 
-The `<denyQueryStringSequences>` element contains a collection of [`<add>`](../../../system.webserver/security/requestfiltering/denyquerystringsequences/add.md) elements that specify sequences of query string characters that IIS will deny, which helps prevent attacks on the Web server that use the query string to deliver the attack payload.
+The `<denyQueryStringSequences>` element contains a collection of [`<add>`](add.md) elements that specify sequences of query string characters that IIS will deny, which helps prevent attacks on the Web server that use the query string to deliver the attack payload.
 
 > [!NOTE]
-> You can override the query string sequences in this collection by adding query string sequences to the [`<alwaysAllowedQueryStrings>`](../../../system.webserver/security/requestfiltering/alwaysallowedquerystrings.md) collection.
+> You can override the query string sequences in this collection by adding query string sequences to the [`<alwaysAllowedQueryStrings>`](alwaysallowedquerystrings/index.md) collection.
 
 > [!NOTE]
 > When request filtering blocks an HTTP request because of a denied query string sequence, IIS 7 will return an HTTP 404 error to the client and log the following HTTP status with a unique substatus that identifies the reason that the request was denied:
@@ -111,7 +111,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../system.webserver/security/requestfiltering/denyquerystringsequences/add.md) | Optional element. Adds a query string to the collection of denied query strings. |
+| [`add`](add.md) | Optional element. Adds a query string to the collection of denied query strings. |
 | `clear` | Optional element. Removes all references to query strings from the collection. |
 | `remove` | Optional element. Removes a query string from the collection of denied query strings. |
 

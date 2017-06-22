@@ -128,8 +128,8 @@ The default installation of IIS 7 and later does not include the **Management Se
 
 | Element | Description |
 | --- | --- |
-| [`credentials`](../../system.webserver/management/authentication/credentials.md) | Optional element. Configures IIS Manager user credentials for users to connect to sites and applications on the server by using IIS Manager. |
-| [`providers`](../../system.webserver/management/authentication/providers.md) | Optional element. Configures authentication providers that authenticate IIS Manager users who connect remotely to sites and applications by using IIS Manager. |
+| [`credentials`](credentials/index.md) | Optional element. Configures IIS Manager user credentials for users to connect to sites and applications on the server by using IIS Manager. |
+| [`providers`](providers/index.md) | Optional element. Configures authentication providers that authenticate IIS Manager users who connect remotely to sites and applications by using IIS Manager. |
 
 ### Configuration Sample
 

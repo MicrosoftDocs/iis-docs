@@ -85,7 +85,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`provider`](../../../../../system.applicationhost/sites/site/ftpserver/security/customauthorization/provider.md) | Optional element. Specifies the custom authorization provider. |
+| [`provider`](provider.md) | Optional element. Specifies the custom authorization provider. |
 
 ### Configuration Sample
 

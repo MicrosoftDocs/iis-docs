@@ -82,7 +82,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`denyByFailure`](../../system.ftpserver/security/authentication/denybyfailure.md) | Optional element. Configures the FTP service to deny access based upon the failure rate. |
+| [`denyByFailure`](denybyfailure.md) | Optional element. Configures the FTP service to deny access based upon the failure rate. |
 
 ### Configuration Sample
 

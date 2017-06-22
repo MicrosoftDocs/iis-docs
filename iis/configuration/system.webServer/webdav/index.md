@@ -88,7 +88,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     [![](index/_static/image12.png)](index/_static/image11.png)
 
 > [!NOTE]
-> Once you have enabled WebDAV publishing, you will need to add authoring rules before users or groups can publish content to your server. For more information about how to create authoring rules, see the [`authoringRules`](../system.webserver/webdav/authoringrules.md) topic.
+> Once you have enabled WebDAV publishing, you will need to add authoring rules before users or groups can publish content to your server. For more information about how to create authoring rules, see the [`authoringRules`](authoringrules/index.md) topic.
 
 * * *
 
@@ -136,9 +136,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`authoring`](../system.webserver/webdav/authoring/index.md) | Optional element. Specifies the configuration settings for WebDAV authoring. |
-| [`authoringRules`](../system.webserver/webdav/authoringrules.md) | Optional element. Specifies the authoring rules for WebDAV publishing. These rules specify the content types and authoring permissions for users or groups. |
-| [`globalSettings`](../system.webserver/webdav/globalsettings/index.md) | Optional element. Specifies the global settings for the WebDAV module. |
+| [`authoring`](authoring/index.md) | Optional element. Specifies the configuration settings for WebDAV authoring. |
+| [`authoringRules`](authoringrules/index.md) | Optional element. Specifies the authoring rules for WebDAV publishing. These rules specify the content types and authoring permissions for users or groups. |
+| [`globalSettings`](globalsettings/index.md) | Optional element. Specifies the global settings for the WebDAV module. |
 
 ### Configuration Sample
 

@@ -48,7 +48,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`searchResult`](/configpaths/searchresult.md) | Contains a collection of configuration search results. |
+| [`searchResult`](searchresult/index.md) | Contains a collection of configuration search results. |
 
 ### Configuration Sample
 

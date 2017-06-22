@@ -70,7 +70,7 @@ The `<periodicRestart>` element is configurable at the server level in the Appli
 
 | Element | Description |
 | --- | --- |
-| [`schedule`](../../../../system.applicationhost/applicationpools/add/recycling/periodicrestart/schedule.md) | Optional element. Specifies the scheduling of periodic restarts of application pools. |
+| [`schedule`](schedule/index.md) | Optional element. Specifies the scheduling of periodic restarts of application pools. |
 
 ### Configuration Sample
 

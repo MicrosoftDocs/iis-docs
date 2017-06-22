@@ -274,12 +274,12 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`authentication`](../../../../system.applicationhost/sites/site/ftpserver/security/authentication/index.md) | Optional element. Specifies the authentication settings for an FTP site. |
-| [`commandFiltering`](../../../../system.applicationhost/sites/site/ftpserver/security/commandfiltering.md) | Optional element. Specifies the settings for FTP command filtering. |
-| [`customAuthorization`](../../../../system.applicationhost/sites/site/ftpserver/security/customauthorization.md) | Optional element. Specifies the use of a custom provider for FTP authorization. |
-| [`dataChannelSecurity`](../../../../system.applicationhost/sites/site/ftpserver/security/datachannelsecurity.md) | Optional element. Specifies the settings for FTP data channel security. |
-| [`ssl`](../../../../system.applicationhost/sites/site/ftpserver/security/ssl.md) | Optional element. Specifies the SSL settings for an FTP site. |
-| [`sslClientCertificates`](../../../../system.applicationhost/sites/site/ftpserver/security/sslclientcertificates.md) | Optional element. Specifies the SSL client certificate options for an FTP site. |
+| [`authentication`](authentication/index.md) | Optional element. Specifies the authentication settings for an FTP site. |
+| [`commandFiltering`](commandfiltering/index.md) | Optional element. Specifies the settings for FTP command filtering. |
+| [`customAuthorization`](customauthorization/index.md) | Optional element. Specifies the use of a custom provider for FTP authorization. |
+| [`dataChannelSecurity`](datachannelsecurity.md) | Optional element. Specifies the settings for FTP data channel security. |
+| [`ssl`](ssl.md) | Optional element. Specifies the SSL settings for an FTP site. |
+| [`sslClientCertificates`](sslclientcertificates.md) | Optional element. Specifies the SSL client certificate options for an FTP site. |
 
 ### Configuration Sample
 

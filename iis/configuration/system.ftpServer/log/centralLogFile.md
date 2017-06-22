@@ -3,7 +3,7 @@ FTP Central Logging Options &lt;centralLogFile&gt;
 <a id="001"></a>
 ## Overview
 
-The `<centralLogFile>` element specifies the settings for the central log file, which is used when you specify **centralLogFileMode** for the `centralLogFileMode` attribute of the [`<system.ftpServer/log>`](../../system.ftpserver/log.md) element. When you specify central logging, a single log file will be kept for all of your FTP sites.
+The `<centralLogFile>` element specifies the settings for the central log file, which is used when you specify **centralLogFileMode** for the `centralLogFileMode` attribute of the [`<system.ftpServer/log>`](index.md) element. When you specify central logging, a single log file will be kept for all of your FTP sites.
 
 <a id="002"></a>
 ## Compatibility

@@ -13,7 +13,7 @@ When you create a new application pool on IIS 7 and later, at a minimum you must
 
 Starting in IIS 7.5, you can configure an application to start automatically by using the **managedRuntimeLoader**, **CLRConfigFile**, and **startMode** attributes of the `<add>` element. These attributes configure, respectively, the name of the managed DLL that provides runtime loading for your application, the common language runtime configuration file for the application, and the startup type for the application.
 
-Also new in IIS 7.5 and later is a new `ApplicationPoolIdentity` type for the **identityType** attribute of the [`<processModel>`](../../system.applicationhost/applicationpools/add/processmodel.md) element. This new identity type is now the default process identity for applications, and makes it possible to set the security for your content areas to allow access for a specific application pool. To do so, you would set your security using the name of an application pool by using syntax like "IIS AppPool\DefaultAppPool." This identity is created dynamically, thereby dramatically reducing the surface attack area of your server.
+Also new in IIS 7.5 and later is a new `ApplicationPoolIdentity` type for the **identityType** attribute of the [`<processModel>`](processmodel.md) element. This new identity type is now the default process identity for applications, and makes it possible to set the security for your content areas to allow access for a specific application pool. To do so, you would set your security using the name of an application pool by using syntax like "IIS AppPool\DefaultAppPool." This identity is created dynamically, thereby dramatically reducing the surface attack area of your server.
 
 <a id="002"></a>
 ## Compatibility
@@ -85,18 +85,18 @@ The `<add>` element of the `<applicationPools>` collection is configurable at th
 | `managedRuntimeVersion` | Optional string attribute. Specifies the CLR version to be used by the application pool. The **managedRuntimeVersion** attribute can be one of the following possible values. | Value | Description | | --- | --- | | `v1.1` | Specifies that the application pool use the CLR version 1.1. | | `v2.0` | Specifies that the application pool use the CLR version 2.0, which can be .NET Framework version 2.0, 3.0, or 3.5. | | `v4.0` | Specifies that the application pool use the CLR version 4.0, which can be .NET Framework version 4.0 or 4.5. | The default value is `""`. |
 | `name` | Required string attribute. Specifies a unique name for an application pool on the server. |
 | `passAnonymousToken` | Optional Boolean attribute. If **true**, the Windows Process Activation Service (WAS) creates and passes a token for the built-in IUSR anonymous user account to the Anonymous authentication module. The Anonymous authentication module uses the token to impersonate the built-in account. When **PassAnonymousToken** is **false**, the token will not be passed. <br><br>**Note:** The IUSR anonymous user account replaces the IIS\_MachineName anonymous account. The IUSR account can be used by IIS or other applications. It does not have any privileges assigned to it during setup. The default value is `true`. |
-| `queueLength` | Optional uint attribute. Indicates to HTTP.sys how many requests to queue for an application pool before rejecting future requests. The default value is `1000`. When the value set for this property is exceeded, IIS rejects subsequent requests with a 503 error. If the **loadBalancerCapabilities** setting is **true**, the connection is closed instead of rejecting requests with a 503. For more information about **loadBalancerCapabilities**, see [Failure Settings for an Application Pool](../../system.applicationhost/applicationpools/add/failure.md). |
+| `queueLength` | Optional uint attribute. Indicates to HTTP.sys how many requests to queue for an application pool before rejecting future requests. The default value is `1000`. When the value set for this property is exceeded, IIS rejects subsequent requests with a 503 error. If the **loadBalancerCapabilities** setting is **true**, the connection is closed instead of rejecting requests with a 503. For more information about **loadBalancerCapabilities**, see [Failure Settings for an Application Pool](failure.md). |
 | `startMode` | Optional enum value. Specifies the startup type for the application pool. <br><br>**Note:** This attribute was added in IIS 7.5. The **startMode** attribute can be one of the following possible values. | Value | Description | | --- | --- | | `AlwaysRunning` | Specifies that the Windows Process Activation Service (WAS) will always start the application pool. This behavior allows an application to load the operating environment before any serving any HTTP requests, which reduces the start-up processing for initial HTTP requests for the application. The numeric value is `1`. | | `OnDemand` | Specifies that the Windows Process Activation Service (WAS) will start the application pool when an HTTP request is made for an application that is hosted in the application pool. This behavior resembles the WAS behavior in previous versions of IIS. The numeric value is `0`. | The default value is `OnDemand`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`cpu`](../../system.applicationhost/applicationpools/add/cpu.md) | Configures CPU affinity and CPU actions. |
-| [`environmentVariables`](../../system.applicationhost/applicationpools/add/environmentvariables.md) | Configures a collection of environment variables to pass to worker processes. |
-| [`failure`](../../system.applicationhost/applicationpools/add/failure.md) | Configures actions to take when an application pool fails. |
-| [`processModel`](../../system.applicationhost/applicationpools/add/processmodel.md) | Configures process management attributes for an application pool. |
-| [`recycling`](../../system.applicationhost/applicationpools/add/recycling/index.md) | Configures application pool recycling. |
+| [`cpu`](cpu.md) | Configures CPU affinity and CPU actions. |
+| [`environmentVariables`](environmentvariables/index.md) | Configures a collection of environment variables to pass to worker processes. |
+| [`failure`](failure.md) | Configures actions to take when an application pool fails. |
+| [`processModel`](processmodel.md) | Configures process management attributes for an application pool. |
+| [`recycling`](recycling/index.md) | Configures application pool recycling. |
 
 ### Configuration Sample
 

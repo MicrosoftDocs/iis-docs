@@ -6,7 +6,7 @@ Adding Modules &lt;add&gt;
 The `<add>` element of the `<modules>` element adds a module to the collection of feature modules that are available in IIS Manager when a user is connected to a site or an application.
 
 > [!NOTE]
-> This collection of modules is specific to IIS Manager and should not be confused with the [&lt;system.webServer/modules&gt;](../system.webserver/modules.md) collection, which defines modules that affect HTTP request processing.
+> This collection of modules is specific to IIS Manager and should not be confused with the [&lt;system.webServer/modules&gt;](../system.webserver/modules/index.md) collection, which defines modules that affect HTTP request processing.
 
 > [!NOTE]
 > The settings in the `<modules>` element can only be configured in the Administration.config file.

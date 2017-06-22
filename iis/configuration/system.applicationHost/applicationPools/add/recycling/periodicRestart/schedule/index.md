@@ -64,7 +64,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../../../system.applicationhost/applicationpools/add/recycling/periodicrestart/schedule/add.md) | Optional element. Specifies a value for starting the periodic recycling of an application pool. |
+| [`add`](add.md) | Optional element. Specifies a value for starting the periodic recycling of an application pool. |
 | `clear` | Optional element. Specifies that the parent-level configuration settings should be removed from the configuration at this level. |
 
 ### Configuration Sample

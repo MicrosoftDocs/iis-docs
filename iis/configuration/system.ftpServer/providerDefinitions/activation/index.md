@@ -155,7 +155,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`providerData`](../../system.ftpserver/providerdefinitions/activation/providerdata.md) | Optional element. Specifies the collection of key/value pairs that contain the data for a custom provider. |
+| [`providerData`](providerdata/index.md) | Optional element. Specifies the collection of key/value pairs that contain the data for a custom provider. |
 
 ### Configuration Sample
 

@@ -148,13 +148,13 @@ The `<providerData>` element the `<activation>` element is configured at the glo
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies the friendly name of the custom provider. <br><br>**Note:** This name must match the name of a provider that is specified by a [`<providerDefinitions/add>`](../../../system.ftpserver/providerdefinitions/add.md) element. There is no default value. |
+| `name` | Required string attribute. Specifies the friendly name of the custom provider. <br><br>**Note:** This name must match the name of a provider that is specified by a [`<providerDefinitions/add>`](../add.md) element. There is no default value. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../system.ftpserver/providerdefinitions/activation/providerdata/add.md) | Optional element. Adds a data entry for a custom provider. |
+| [`add`](add.md) | Optional element. Adds a data entry for a custom provider. |
 | `clear` | Optional element. Clears the data for a custom provider. |
 | `remove` | Optional element. Removes a data entry for a custom provider. |
 

@@ -216,7 +216,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`environmentVariable`](../../../system.webserver/fastcgi/application/environmentvariables/environmentvariable.md) | Optional element. Adds an environment variable to the collection of environment variables. |
+| [`environmentVariable`](environmentvariable.md) | Optional element. Adds an environment variable to the collection of environment variables. |
 
 ### Configuration Sample
 

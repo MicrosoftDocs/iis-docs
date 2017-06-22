@@ -43,7 +43,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`traceUrls`](../system.webserver/httptracing/traceurls.md) | Optional element. Specifies the URL for which you want to enable request-based ETW tracing. |
+| [`traceUrls`](traceurls/index.md) | Optional element. Specifies the URL for which you want to enable request-based ETW tracing. |
 
 ### Configuration Sample
 

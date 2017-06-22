@@ -44,7 +44,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](/moduleproviders/add.md) | Optional element. Adds a module to the collection of module providers for IIS Manager. |
+| [`add`](add.md) | Optional element. Adds a module to the collection of module providers for IIS Manager. |
 | `clear` | Optional element. Removes all references to modules from the module providers collection. |
 | `remove` | Optional element. Removes a reference to a module from the collection of module providers for IIS Manager. |
 

@@ -3,7 +3,7 @@ Adding Query Strings That Will Always Be Allowed &lt;add&gt;
 <a id="001"></a>
 ## Overview
 
-The `<add>` element of the `<alwaysAllowedQueryStrings>` element specifies a unique query string pattern that request filtering will allow. The values in the `<alwaysAllowedQueryStrings>` element override the values in the [`<denyQueryStringSequences>`](../../../../system.webserver/security/requestfiltering/denyquerystringsequences.md) collection.
+The `<add>` element of the `<alwaysAllowedQueryStrings>` element specifies a unique query string pattern that request filtering will allow. The values in the `<alwaysAllowedQueryStrings>` element override the values in the [`<denyQueryStringSequences>`](../denyquerystringsequences/index.md) collection.
 
 <a id="002"></a>
 ## Compatibility

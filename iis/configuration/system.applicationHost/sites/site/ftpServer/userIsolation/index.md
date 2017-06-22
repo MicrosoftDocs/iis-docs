@@ -187,7 +187,7 @@ The `<userIsolation>` element is configured at the site level.
 
 | Element | Description |
 | --- | --- |
-| [`activeDirectory`](../../../../system.applicationhost/sites/site/ftpserver/userisolation/activedirectory.md) | Optional element. Specifies the connection credentials and time-out for communicating with an Active Directory server. |
+| [`activeDirectory`](activedirectory.md) | Optional element. Specifies the connection credentials and time-out for communicating with an Active Directory server. |
 
 ### Configuration Sample
 

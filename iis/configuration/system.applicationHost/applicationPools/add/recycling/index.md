@@ -78,7 +78,7 @@ The `<recycling>` element is configurable at the server level in the Application
 
 | Element | Description |
 | --- | --- |
-| [`periodicRestart`](../../../system.applicationhost/applicationpools/add/recycling/periodicrestart/index.md) | Optional element. Specifies conditions under which application pools are recycled. |
+| [`periodicRestart`](periodicrestart/index.md) | Optional element. Specifies conditions under which application pools are recycled. |
 
 ### Configuration Sample
 

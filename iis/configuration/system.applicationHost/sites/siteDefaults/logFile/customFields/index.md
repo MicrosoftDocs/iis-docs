@@ -91,7 +91,7 @@ The `<customFields>` element for default settings is configured at the server le
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../../system.applicationhost/sites/sitedefaults/logfile/customfields/add.md) | Optional element. Specifies the configuration settings for default custom fields in a W3C log. |
+| [`add`](add.md) | Optional element. Specifies the configuration settings for default custom fields in a W3C log. |
 
 ### Configuration Sample
 

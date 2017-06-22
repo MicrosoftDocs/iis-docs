@@ -132,7 +132,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`session`](../../../../system.applicationhost/sites/site/ftpserver/sessions/session.md) | Dynamically created element. Specifies information about an FTP session. |
+| [`session`](session.md) | Dynamically created element. Specifies information about an FTP session. |
 
 ### Configuration Sample
 

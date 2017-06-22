@@ -149,7 +149,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../system.ftpserver/security/requestfiltering/hiddensegments/add.md) | Optional element. Adds a segment to the collection of hidden segments. |
+| [`add`](add.md) | Optional element. Adds a segment to the collection of hidden segments. |
 | `clear` | Optional element. Removes all references to segments from the `<hiddenSegments>` collection. |
 | `remove` | Optional element. Removes a reference to a segment from the `<hiddenSegments>` collection. |
 

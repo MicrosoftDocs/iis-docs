@@ -101,7 +101,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../system.webserver/globalmodules/add.md) | Optional element. Adds a native module to the collection of global modules. |
+| [`add`](add.md) | Optional element. Adds a native module to the collection of global modules. |
 | `clear` | Optional element. Removes all references to native modules from the global modules collection. |
 | `remove` | Optional element. Removes a reference to a specific native module from the global modules collection. |
 

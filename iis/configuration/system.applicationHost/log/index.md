@@ -94,8 +94,8 @@ The `<log>` element is included in the default installation of IIS 7.
 
 | Element | Description |
 | --- | --- |
-| [`centralBinaryLogFile`](../system.applicationhost/log/centralbinarylogfile.md) | Optional element. Specifies the central binary log settings for all sites on a server. |
-| [`centralW3CLogFile`](../system.applicationhost/log/centralw3clogfile.md) | Optional element. Specifies the central W3C log settings for all sites on a server. |
+| [`centralBinaryLogFile`](centralbinarylogfile.md) | Optional element. Specifies the central binary log settings for all sites on a server. |
+| [`centralW3CLogFile`](centralw3clogfile.md) | Optional element. Specifies the central W3C log settings for all sites on a server. |
 
 ### Configuration Sample
 

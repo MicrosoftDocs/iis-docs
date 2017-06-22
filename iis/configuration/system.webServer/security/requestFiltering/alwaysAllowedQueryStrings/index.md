@@ -3,7 +3,7 @@ Always Allowed Query Strings &lt;alwaysAllowedQueryStrings&gt;
 <a id="001"></a>
 ## Overview
 
-The `<alwaysAllowedQueryStrings>` element specifies a collection of query strings that request filtering will always allow. The `<alwaysAllowedQueryStrings>` element contains a collection of [`<add>`](../../../system.webserver/security/requestfiltering/alwaysallowedquerystrings/add.md) elements that specify query string patterns that request filtering will allow, which override the values in the [`<denyQueryStringSequences>`](../../../system.webserver/security/requestfiltering/denyquerystringsequences.md) collection.
+The `<alwaysAllowedQueryStrings>` element specifies a collection of query strings that request filtering will always allow. The `<alwaysAllowedQueryStrings>` element contains a collection of [`<add>`](add.md) elements that specify query string patterns that request filtering will allow, which override the values in the [`<denyQueryStringSequences>`](denyquerystringsequences/index.md) collection.
 
 <a id="002"></a>
 ## Compatibility
@@ -99,7 +99,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../system.webserver/security/requestfiltering/alwaysallowedquerystrings/add.md) | Optional element. Adds a query string pattern to the collection of query strings that request filtering will always allow. |
+| [`add`](add.md) | Optional element. Adds a query string pattern to the collection of query strings that request filtering will always allow. |
 | `clear` | Optional element. Clears the collection of query string patterns that request filtering will always allow. |
 | `remove` | Optional element. Removes a query string pattern from the collection of query strings that request filtering will always allow. |
 

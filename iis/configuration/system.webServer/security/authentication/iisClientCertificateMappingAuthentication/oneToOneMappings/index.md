@@ -3,10 +3,10 @@ One-To-One Mappings &lt;oneToOneMappings&gt;
 <a id="001"></a>
 ## Overview
 
-The `<oneToOneMappings>` element of the `<iisClientCertificateMappingAuthentication>` element maps individual client certificates to individual user accounts on a one-to-one basis. These one-to-one certificate mappings can be used in place of the more commonly used methods of authentication, such as [Windows authentication](../../../../system.webserver/security/authentication/windowsauthentication/index.md) or [Basic authentication](../../../../system.webserver/security/authentication/basicauthentication.md).
+The `<oneToOneMappings>` element of the `<iisClientCertificateMappingAuthentication>` element maps individual client certificates to individual user accounts on a one-to-one basis. These one-to-one certificate mappings can be used in place of the more commonly used methods of authentication, such as [Windows authentication](../windowsauthentication/index.md) or [Basic authentication](../basicauthentication.md).
 
 > [!NOTE]
-> One-to-one certificate mappings differ from [many-to-one](../../../../system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings/index.md) certificate mappings, which can map multiple certificates to a single user account.
+> One-to-one certificate mappings differ from [many-to-one](manytoonemappings/index.md) certificate mappings, which can map multiple certificates to a single user account.
 
 <a id="002"></a>
 ## Compatibility
@@ -78,7 +78,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../../system.webserver/security/authentication/iisclientcertificatemappingauthentication/onetoonemappings/add.md) | Optional element. Adds a one-to-one mapping to the collection of one-to-one mappings. |
+| [`add`](add.md) | Optional element. Adds a one-to-one mapping to the collection of one-to-one mappings. |
 | `clear` | Optional element. Removes all references to one-to-one mappings from the one-to-one mappings collection. |
 
 ### Configuration Sample

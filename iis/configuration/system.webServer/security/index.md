@@ -177,14 +177,14 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`access`](../system.webserver/security/access.md) | Optional element. Specifies configuration settings for Secure Sockets Layer (SSL) such as whether to use client certificates for authentication and crypto strength. |
-| [`applicationDependencies`](../system.webserver/security/applicationdependencies/index.md) | Optional element. Specifies an application that has dependencies to one or more CGI or ISAPI extension restrictions. |
-| [`authentication`](../system.webserver/security/authentication/index.md) | Optional element. Specifies authentication-related settings. |
-| [`authorization`](../system.webserver/security/authorization.md) | Optional element. Specifies authorization-related settings. |
-| [`dynamicIpSecurity`](../system.webserver/security/dynamicipsecurity.md) | Optional element. Specifies dynamic IP restrictions that block any IP address that meets a set of criteria. |
-| [`ipSecurity`](../system.webserver/security/ipsecurity.md) | Optional element. Specifies access restrictions based on the IP version 4 address or DNS domain name. |
-| [`isapiCgiRestriction`](../system.webserver/security/isapicgirestriction.md) | Optional element. Specifies settings that restrict which CGI and ISAPI programs are allowed to run on the server. |
-| [`requestFiltering`](../system.webserver/security/requestfiltering/index.md) | Optional element. Specifies configuration settings for request filtering. |
+| [`access`](access.md) | Optional element. Specifies configuration settings for Secure Sockets Layer (SSL) such as whether to use client certificates for authentication and crypto strength. |
+| [`applicationDependencies`](applicationdependencies/index.md) | Optional element. Specifies an application that has dependencies to one or more CGI or ISAPI extension restrictions. |
+| [`authentication`](authentication/index.md) | Optional element. Specifies authentication-related settings. |
+| [`authorization`](authorization/index.md) | Optional element. Specifies authorization-related settings. |
+| [`dynamicIpSecurity`](dynamicipsecurity/index.md) | Optional element. Specifies dynamic IP restrictions that block any IP address that meets a set of criteria. |
+| [`ipSecurity`](ipsecurity/index.md) | Optional element. Specifies access restrictions based on the IP version 4 address or DNS domain name. |
+| [`isapiCgiRestriction`](isapicgirestriction/index.md) | Optional element. Specifies settings that restrict which CGI and ISAPI programs are allowed to run on the server. |
+| [`requestFiltering`](requestfiltering/index.md) | Optional element. Specifies configuration settings for request filtering. |
 
 ### Configuration Sample
 

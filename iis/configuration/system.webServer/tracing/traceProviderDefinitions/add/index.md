@@ -78,7 +78,7 @@ There is no user interface for adding trace providers for IIS 7. For examples of
 
 | Element | Description |
 | --- | --- |
-| [`areas`](../../../system.webserver/tracing/traceproviderdefinitions/add/areas.md) | Required element. Specifies the functional areas for the provider to trace. |
+| [`areas`](areas/index.md) | Required element. Specifies the functional areas for the provider to trace. |
 
 ### Configuration Sample
 

@@ -88,7 +88,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
     [![](index/_static/image12.png)](index/_static/image11.png)
 
 > [!NOTE]
-> Once you have enabled WebDAV publishing, you will need to add authoring rules before users or groups can publish content to your server. For more information about how to create authoring rules, see the [`authoringRules`](../../system.webserver/webdav/authoringrules.md) topic.
+> Once you have enabled WebDAV publishing, you will need to add authoring rules before users or groups can publish content to your server. For more information about how to create authoring rules, see the [`authoringRules`](authoringrules/index.md) topic.
 
 <a id="005"></a>
 ## Configuration
@@ -108,9 +108,9 @@ The `<authoring>` element is configurable only at the site level in the Applicat
 
 | Element | Description |
 | --- | --- |
-| [`fileSystem`](../../system.webserver/webdav/authoring/filesystem.md) | Optional element. Specifies how the WebDAV module interacts with the underlying file system. |
-| [`locks`](../../system.webserver/webdav/authoring/locks.md) | Optional element. Specifies the WebDAV locking settings. |
-| [`properties`](../../system.webserver/webdav/authoring/properties.md) | Optional element. Specifies the WebDAV property settings. |
+| [`fileSystem`](filesystem.md) | Optional element. Specifies how the WebDAV module interacts with the underlying file system. |
+| [`locks`](locks.md) | Optional element. Specifies the WebDAV locking settings. |
+| [`properties`](properties/index.md) | Optional element. Specifies the WebDAV property settings. |
 
 ### Configuration Sample
 

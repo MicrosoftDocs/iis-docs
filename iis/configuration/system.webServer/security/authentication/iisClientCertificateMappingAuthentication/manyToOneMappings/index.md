@@ -3,7 +3,7 @@ Many-To-One Mappings &lt;manyToOneMappings&gt;
 <a id="001"></a>
 ## Overview
 
-The `<manyToOneMappings>` element of the `<iisClientCertificateMappingAuthentication>` element maps multiple client certificates to a user account based on criteria in the client's browser certificate. Many-to-one certificate mappings can be used in place of the more commonly-used methods of authentication, such as [Windows authentication](../../../../system.webserver/security/authentication/windowsauthentication/index.md) or [Basic authentication](../../../../system.webserver/security/authentication/basicauthentication.md).
+The `<manyToOneMappings>` element of the `<iisClientCertificateMappingAuthentication>` element maps multiple client certificates to a user account based on criteria in the client's browser certificate. Many-to-one certificate mappings can be used in place of the more commonly-used methods of authentication, such as [Windows authentication](../windowsauthentication/index.md) or [Basic authentication](../basicauthentication.md).
 
 There are two different access methods that you can enable for many-to-one rules: **Allow** or **Deny**. These settings enable you to create rules that will accept groups of client certificates that you will allow to access your site, while denying access to other groups of certificates based on different criteria. For example, you could create a rule that allowed access to all Contoso employees in your Human Resources organization unit, while denying access to employees in the Sales organization unit.
 
@@ -24,7 +24,7 @@ Each of these fields can contain common LDAP sub fields; for example:
 To create a mapping, you create a rule based on a field/subfield pair for a specific value. For example, you could create a rule that matched the issuer's O subfield with Contoso to allow access to all clients with certificates that were issued by the Contoso CA. This effectively eliminates client connections from any clients that are not part of the Contoso organization.
 
 > [!NOTE]
-> Many-to-one certificate mappings differ from [one-to-one](../../../../system.webserver/security/authentication/iisclientcertificatemappingauthentication/onetoonemappings.md) certificate mappings, which map individual client certificates to individual user accounts.
+> Many-to-one certificate mappings differ from [one-to-one](onetoonemappings/index.md) certificate mappings, which map individual client certificates to individual user accounts.
 
 <a id="002"></a>
 ## Compatibility
@@ -96,7 +96,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../../system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings/add/index.md) | Optional element. Adds a mapping to the collection of **manyToOneMappings**. |
+| [`add`](add/index.md) | Optional element. Adds a mapping to the collection of **manyToOneMappings**. |
 | `clear` | Optional element. Removes all references to mappings from the **manyToOneMappings** collection. |
 
 ### Configuration Sample

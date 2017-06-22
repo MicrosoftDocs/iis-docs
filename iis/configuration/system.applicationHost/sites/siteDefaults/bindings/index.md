@@ -67,7 +67,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`binding`](../../../system.applicationhost/sites/sitedefaults/bindings/binding.md) | Optional element. Configures a default binding. |
+| [`binding`](binding.md) | Optional element. Configures a default binding. |
 | `clear` | Optional element. Clears the collection of default bindings. |
 
 ### Configuration Sample

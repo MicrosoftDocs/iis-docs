@@ -195,7 +195,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../../../../../system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication/providers/add.md) | Optional element. Adds a provider to the collection of custom authentication providers. |
+| [`add`](add.md) | Optional element. Adds a provider to the collection of custom authentication providers. |
 | `clear` | Optional element. Clears the collection of custom authentication providers. |
 | `remove` | Optional element. Removes a provider from the collection of custom authentication providers. |
 

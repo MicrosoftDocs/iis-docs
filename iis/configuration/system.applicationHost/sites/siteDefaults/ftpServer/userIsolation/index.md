@@ -185,7 +185,7 @@ For additional information about how to set up the Active Directory, see the "Is
 
 | Element | Description |
 | --- | --- |
-| [`activeDirectory`](../../../../system.applicationhost/sites/sitedefaults/ftpserver/userisolation/activedirectory.md) | Optional element. Specifies the connection credentials and time-out for communicating with an Active Directory server. |
+| [`activeDirectory`](activedirectory.md) | Optional element. Specifies the connection credentials and time-out for communicating with an Active Directory server. |
 
 ### Configuration Sample
 

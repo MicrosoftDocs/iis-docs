@@ -11,7 +11,7 @@ The `<system.ftpServer/log>` element specifies the global log settings for the F
     - If you specify site logging, each FTP site will write to individual log files.
 - `logInUTF8` - This attribute specifies that log files should be encoded in UTF8 format.
 
-When you specify central logging, you can use the [`<centralLogFile>`](../system.ftpserver/log/centrallogfile.md) child element to configure the options for central log file.
+When you specify central logging, you can use the [`<centralLogFile>`](centrallogfile.md) child element to configure the options for central log file.
 
 <a id="002"></a>
 ## Compatibility
@@ -147,7 +147,7 @@ The `<system.ftpServer/log>` element is configured at the global level in Applic
 
 | Element | Description |
 | --- | --- |
-| [`centralLogFile`](../system.ftpserver/log/centrallogfile.md) | Optional element. Specifies the settings for the central log file. |
+| [`centralLogFile`](centrallogfile.md) | Optional element. Specifies the settings for the central log file. |
 
 > [!NOTE]
 > An unused element named `<customLogging>` was declared in the FTP 7.0 schema, but this was removed from the FTP 7.5 schema and should not be used.

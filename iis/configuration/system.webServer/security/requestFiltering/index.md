@@ -5,20 +5,20 @@ Request Filtering &lt;requestFiltering&gt;
 
 Request Filtering is a built-in security feature that was introduced in Internet Information Services (IIS) 7.0, and replaces much of the functionality that was available through the UrlScan add-on for IIS 6.0. All of the settings for the request filtering feature are located within the `<requestFiltering>` element, which contains several child elements for each of the following feature areas:
 
-- [`<denyUrlSequences>`](../../system.webserver/security/requestfiltering/denyurlsequences.md) - This element can contain a collection of URL sequence patterns that IIS 7 will deny; for example: you can deny parts of URL sequences that an attacker might try to exploit.
-- [`<fileExtensions>`](../../system.webserver/security/requestfiltering/fileextensions.md) - This element can contain a collection of file name extensions that IIS 7 will either deny or allow; for example: you can block all requests for Web.config files.
-- [`<hiddenSegments>`](../../system.webserver/security/requestfiltering/hiddensegments.md) - This element can contain a collection of URLs that cannot be browsed; for example: you can deny requests for the ASP.NET App\_Code folder.
-- [`<requestLimits>`](../../system.webserver/security/requestfiltering/requestlimits/index.md) - This element contains the settings for URL, content, and query string lengths. It can also contain a collection of user-defined maximum lengths for HTTP headers.
-- [`<verbs>`](../../system.webserver/security/requestfiltering/verbs.md) - This element can contain a collection of HTTP verbs that IIS 7 will either deny or allow; for example: you can block all HTTP TRACE requests.
+- [`<denyUrlSequences>`](denyurlsequences/index.md) - This element can contain a collection of URL sequence patterns that IIS 7 will deny; for example: you can deny parts of URL sequences that an attacker might try to exploit.
+- [`<fileExtensions>`](fileextensions/index.md) - This element can contain a collection of file name extensions that IIS 7 will either deny or allow; for example: you can block all requests for Web.config files.
+- [`<hiddenSegments>`](hiddensegments/index.md) - This element can contain a collection of URLs that cannot be browsed; for example: you can deny requests for the ASP.NET App\_Code folder.
+- [`<requestLimits>`](requestlimits/index.md) - This element contains the settings for URL, content, and query string lengths. It can also contain a collection of user-defined maximum lengths for HTTP headers.
+- [`<verbs>`](verbs/index.md) - This element can contain a collection of HTTP verbs that IIS 7 will either deny or allow; for example: you can block all HTTP TRACE requests.
 
 #### New in IIS 7.5
 
 IIS 7.5 added several additional feature areas for request filtering:
 
-- [`<alwaysAllowedUrls>`](../../system.webserver/security/requestfiltering/alwaysallowedurls.md) - This element can contain a collection of URLs that request filtering will always allow.
-- [`<alwaysAllowedQueryStrings>`](../../system.webserver/security/requestfiltering/alwaysallowedquerystrings.md) -This element can contain a collection query strings of that request filtering will always allow.
-- [`<denyQueryStringSequences>`](../../system.webserver/security/requestfiltering/denyquerystringsequences.md) - This element can contain a collection of query string sequences that request filtering will always deny. This allows administrators to block potentially dangerous query string sequences that they detect.
-- [`<filteringRules>`](../../system.webserver/security/requestfiltering/filteringrules/index.md) - This element can contain a collection of custom request filtering rules. This collection allows administrators to create customized request filtering rules for specific criteria.
+- [`<alwaysAllowedUrls>`](alwaysallowedurls/index.md) - This element can contain a collection of URLs that request filtering will always allow.
+- [`<alwaysAllowedQueryStrings>`](alwaysallowedquerystrings/index.md) -This element can contain a collection query strings of that request filtering will always allow.
+- [`<denyQueryStringSequences>`](denyquerystringsequences/index.md) - This element can contain a collection of query string sequences that request filtering will always deny. This allows administrators to block potentially dangerous query string sequences that they detect.
+- [`<filteringRules>`](filteringrules/index.md) - This element can contain a collection of custom request filtering rules. This collection allows administrators to create customized request filtering rules for specific criteria.
 
 #### New in IIS 10.0
 
@@ -300,15 +300,15 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 
 | Element | Description |
 | --- | --- |
-| [`alwaysAllowedQueryStrings`](../../system.webserver/security/requestfiltering/alwaysallowedquerystrings.md) | Optional element. Specifies a collection of query strings that request filtering will always allow. <br><br>**Note:** This element was added in IIS 7.5. |
-| [`alwaysAllowedUrls`](../../system.webserver/security/requestfiltering/alwaysallowedurls.md) | Optional element. Specifies a collection of URLs that request filtering will always allow. <br><br>**Note:** This element was added in IIS 7.5. |
-| [`denyQueryStringSequences`](../../system.webserver/security/requestfiltering/denyquerystringsequences.md) | Optional element. Specifies a collection of query string sequences that request filtering will always deny. <br><br>**Note:** This element was added in IIS 7.5. |
-| [`denyUrlSequences`](../../system.webserver/security/requestfiltering/denyurlsequences.md) | Optional element. Specifies sequences that should be denied to help prevent URL-based attacks on the Web server. |
-| [`fileExtensions`](../../system.webserver/security/requestfiltering/fileextensions.md) | Optional element. Specifies which file name extensions are allowed or denied to limit types of requests sent to the Web server. |
-| [`filteringRules`](../../system.webserver/security/requestfiltering/filteringrules/index.md) | Optional element. Specifies a collection of custom request filtering rules. <br><br>**Note:** This element was added in IIS 7.5. |
-| [`hiddenSegments`](../../system.webserver/security/requestfiltering/hiddensegments.md) | Optional element. Specifies that certain segments of URLs can be made inaccessible to clients. |
-| [`requestLimits`](../../system.webserver/security/requestfiltering/requestlimits/index.md) | Optional element. Specifies limits on requests processed by the Web server. |
-| [`verbs`](../../system.webserver/security/requestfiltering/verbs.md) | Optional element. Specifies which HTTP verbs are allowed or denied to limit types of requests sent to the Web server. |
+| [`alwaysAllowedQueryStrings`](alwaysallowedquerystrings/index.md) | Optional element. Specifies a collection of query strings that request filtering will always allow. <br><br>**Note:** This element was added in IIS 7.5. |
+| [`alwaysAllowedUrls`](alwaysallowedurls/index.md) | Optional element. Specifies a collection of URLs that request filtering will always allow. <br><br>**Note:** This element was added in IIS 7.5. |
+| [`denyQueryStringSequences`](denyquerystringsequences/index.md) | Optional element. Specifies a collection of query string sequences that request filtering will always deny. <br><br>**Note:** This element was added in IIS 7.5. |
+| [`denyUrlSequences`](denyurlsequences/index.md) | Optional element. Specifies sequences that should be denied to help prevent URL-based attacks on the Web server. |
+| [`fileExtensions`](fileextensions/index.md) | Optional element. Specifies which file name extensions are allowed or denied to limit types of requests sent to the Web server. |
+| [`filteringRules`](filteringrules/index.md) | Optional element. Specifies a collection of custom request filtering rules. <br><br>**Note:** This element was added in IIS 7.5. |
+| [`hiddenSegments`](hiddensegments/index.md) | Optional element. Specifies that certain segments of URLs can be made inaccessible to clients. |
+| [`requestLimits`](requestlimits/index.md) | Optional element. Specifies limits on requests processed by the Web server. |
+| [`verbs`](verbs/index.md) | Optional element. Specifies which HTTP verbs are allowed or denied to limit types of requests sent to the Web server. |
 
 ### Configuration Sample
 

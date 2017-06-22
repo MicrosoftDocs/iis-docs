@@ -100,7 +100,7 @@ You can set default authorization rules for the entire server by configuring aut
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../system.webserver/security/authorization/add.md) | Optional element. Adds an authorization rule to the collection of authorization rules. |
+| [`add`](add.md) | Optional element. Adds an authorization rule to the collection of authorization rules. |
 | `remove` | Optional element. Removes a reference to an authorization rule to the collection of authorization rules. |
 | `clear` | Optional element. Removes all references to authorization rules from the collection of authorization rules. |
 

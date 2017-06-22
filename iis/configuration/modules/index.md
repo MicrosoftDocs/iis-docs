@@ -11,7 +11,7 @@ The `<modules>` element specifies the features that are available in IIS Manager
 You can configure which modules will be available for individual Web sites using `<location>` tags, so that each Web site or application can be customized to suit your needs. For example, you could configure the site-level management for a Web site to allow only a small subset of features, and configure a child application for a broader set of features.
 
 > [!NOTE]
-> This collection of modules is specific to IIS Manager and should not be confused with the [&lt;SYSTEM.WEBSERVER modules&gt;](/system.webserver/modules.md) collection, which defines modules that affect HTTP request processing.
+> This collection of modules is specific to IIS Manager and should not be confused with the [&lt;SYSTEM.WEBSERVER modules&gt;](system.webserver/modules/index.md) collection, which defines modules that affect HTTP request processing.
 
 > [!NOTE]
 > The settings in the `<modules>` element can only be configured in the Administration.config file.
@@ -49,7 +49,7 @@ None.
 
 | Attribute | Description |
 | --- | --- |
-| [`add`](/modules/add.md) | Optional element. Adds a module to the collection of modules for IIS Manager. |
+| [`add`](add.md) | Optional element. Adds a module to the collection of modules for IIS Manager. |
 | `clear` | Optional element. Removes all references to modules from the parent modules collection. |
 | `remove` | Optional element. Removes a reference to a module from the collection of modules for IIS Manager. |
 

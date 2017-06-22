@@ -193,7 +193,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../../../../../system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/customauthentication/providers/add.md) | Optional element. Adds a provider to the default collection of custom authentication providers. |
+| [`add`](add.md) | Optional element. Adds a provider to the default collection of custom authentication providers. |
 | `clear` | Optional element. Clears the default collection of custom authentication providers. |
 | `remove` | Optional element. Removes a provider from the default collection of custom authentication providers. |
 

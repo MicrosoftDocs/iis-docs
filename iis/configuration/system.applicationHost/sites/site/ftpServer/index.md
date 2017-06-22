@@ -272,24 +272,24 @@ The site-specific `<ftpServer>` element is configured at the `<site>` level.
 
 | Element | Description |
 | --- | --- |
-| [`connections`](../../../system.applicationhost/sites/site/ftpserver/connections.md) | Optional element. Specifies the connection-specific settings for an FTP site. |
-| [`security`](../../../system.applicationhost/sites/site/ftpserver/security/index.md) | Optional element. Specifies the security-related settings for an FTP site. |
-| [`customFeatures`](../../../system.applicationhost/sites/site/ftpserver/customfeatures/index.md) | Optional element. Specifies a collection of custom FTP providers that were developed by using FTP extensibility. |
-| [`messages`](../../../system.applicationhost/sites/site/ftpserver/messages.md) | Optional element. Specifies the connection-related messages that an FTP site will display to FTP clients. |
-| [`fileHandling`](../../../system.applicationhost/sites/site/ftpserver/filehandling.md) | Optional element. Specifies the file-handling settings for an FTP site. |
-| [`firewallSupport`](../../../system.applicationhost/sites/site/ftpserver/firewallsupport.md) | Optional element. Specifies the settings for an FTP site that are required for FTP connections that are made through a firewall. |
-| [`userIsolation`](../../../system.applicationhost/sites/site/ftpserver/userisolation.md) | Optional element. Specifies the home directory lookup behavior for FTP connections. For example, users can be restricted to a home directory that is based on their login name. |
-| [`directoryBrowse`](../../../system.applicationhost/sites/site/ftpserver/directorybrowse.md) | Optional element. Specifies the directory listing options for an FTP site. These settings affect how the FTP service will display directory listings to FTP clients. |
-| [`logfile`](../../../system.applicationhost/sites/site/ftpserver/logfile.md) | Optional element. Specifies the logging options for an FTP site. |
-| [`sessions`](../../../system.applicationhost/sites/site/ftpserver/sessions.md) | Dynamically-generated read-only element. Contains a collection of currently-connected FTP sessions. Each session contains various metadata such as the client's IP address, the currently-executed command, etc. |
+| [`connections`](connections.md) | Optional element. Specifies the connection-specific settings for an FTP site. |
+| [`security`](security/index.md) | Optional element. Specifies the security-related settings for an FTP site. |
+| [`customFeatures`](customfeatures/index.md) | Optional element. Specifies a collection of custom FTP providers that were developed by using FTP extensibility. |
+| [`messages`](messages.md) | Optional element. Specifies the connection-related messages that an FTP site will display to FTP clients. |
+| [`fileHandling`](filehandling.md) | Optional element. Specifies the file-handling settings for an FTP site. |
+| [`firewallSupport`](firewallsupport.md) | Optional element. Specifies the settings for an FTP site that are required for FTP connections that are made through a firewall. |
+| [`userIsolation`](userisolation/index.md) | Optional element. Specifies the home directory lookup behavior for FTP connections. For example, users can be restricted to a home directory that is based on their login name. |
+| [`directoryBrowse`](directorybrowse.md) | Optional element. Specifies the directory listing options for an FTP site. These settings affect how the FTP service will display directory listings to FTP clients. |
+| [`logfile`](logfile.md) | Optional element. Specifies the logging options for an FTP site. |
+| [`sessions`](sessions/index.md) | Dynamically-generated read-only element. Contains a collection of currently-connected FTP sessions. Each session contains various metadata such as the client's IP address, the currently-executed command, etc. |
 
 ### Methods
 
 | Method | Description |
 | --- | --- |
-| [`Start`](../../../system.applicationhost/sites/site/ftpserver/start.md) | Starts an FTP site. |
-| [`Stop`](../../../system.applicationhost/sites/site/ftpserver/stop.md) | Stops an FTP site. |
-| [`FlushLog`](../../../system.applicationhost/sites/site/ftpserver/flushlog.md) | Flushes the log file for an FTP site. |
+| [`Start`](start.md) | Starts an FTP site. |
+| [`Stop`](stop.md) | Stops an FTP site. |
+| [`FlushLog`](flushlog.md) | Flushes the log file for an FTP site. |
 
 ### Configuration Sample
 

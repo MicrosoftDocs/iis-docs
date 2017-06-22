@@ -3,7 +3,7 @@ Adding Applications for Application Dependencies &lt;add&gt;
 <a id="001"></a>
 ## Overview
 
-The `<add>` element of the [&lt;application&gt;](../../../../system.webserver/security/applicationdependencies/application.md) element adds additional dependencies to the parent application.
+The `<add>` element of the [&lt;application&gt;](index.md) element adds additional dependencies to the parent application.
 
 <a id="002"></a>
 ## Compatibility

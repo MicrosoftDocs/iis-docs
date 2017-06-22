@@ -151,7 +151,7 @@ The `<commandFiltering>` element is configured at the site level.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../../../system.applicationhost/sites/sitedefaults/ftpserver/security/commandfiltering/add.md) | Optional element. Adds an entry to the collection of FTP commands. |
+| [`add`](add.md) | Optional element. Adds an entry to the collection of FTP commands. |
 | `clear` | Optional element. Clears the collection of FTP commands. |
 | `remove` | Optional element. Removes an entry from the collection of FTP commands. |
 

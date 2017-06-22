@@ -165,7 +165,7 @@ The `<extendedProtection>` element is configurable at the site, application, or 
 
 | Element | Description |
 | --- | --- |
-| [`spn`](../../../../system.webserver/security/authentication/windowsauthentication/extendedprotection/spn.md) | Adds a SPN to the collection. |
+| [`spn`](spn.md) | Adds a SPN to the collection. |
 | `clearSpns` | Clears the collection of SPNs. |
 | `removeSpn` | Removes a SPN from the collection. |
 

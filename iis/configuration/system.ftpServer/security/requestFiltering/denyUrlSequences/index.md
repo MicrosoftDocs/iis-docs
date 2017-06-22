@@ -148,7 +148,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../system.ftpserver/security/requestfiltering/denyurlsequences/add.md) | Optional element. Adds a sequence to the collection of denied URL sequences. |
+| [`add`](add.md) | Optional element. Adds a sequence to the collection of denied URL sequences. |
 | `clear` | Optional element. Removes all references to sequences from the `<denyUrlSequences>` collection. |
 | `remove` | Optional element. Removes a reference to a sequence from the `<denyUrlSequences>` collection. |
 

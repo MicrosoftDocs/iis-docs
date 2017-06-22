@@ -14,10 +14,10 @@ Each `<filteringRule>` element specifies a collection of custom attributes and e
 
 In addition, each request filtering rule may contain the following child elements:
 
-- [`<appliesTo>`](../../../../system.webserver/security/requestfiltering/filteringrules/filteringrule/appliesto.md) - Specifies the list of file name extensions to which the request filtering rule applies. > [!NOTE]
+- [`<appliesTo>`](appliesto/index.md) - Specifies the list of file name extensions to which the request filtering rule applies. > [!NOTE]
  > If this section is blank, the rule applies to all requests.
-- [`<denyStrings>`](../../../../system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings.md) - Specifies the list of strings to deny for the request filtering rule.
-- [`<scanHeaders>`](../../../../system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders.md) - Specifies the list of HTTP headers to scan.
+- [`<denyStrings>`](denystrings/index.md) - Specifies the list of strings to deny for the request filtering rule.
+- [`<scanHeaders>`](scanheaders/index.md) - Specifies the list of HTTP headers to scan.
 
 > [!NOTE]
 > When request filtering blocks an HTTP request because of a filtering rule, IIS 7 will return an HTTP 404 error to the client and log the following HTTP status with a unique substatus that identifies the reason that the request was denied:
@@ -139,9 +139,9 @@ The `<filteringRule>` element of the `<filteringRules>` element is configured at
 
 | Element | Description |
 | --- | --- |
-| [`appliesTo`](../../../../system.webserver/security/requestfiltering/filteringrules/filteringrule/appliesto.md) | Optional element. Specifies the list of file name extensions to which the request filtering rule applies. |
-| [`denyStrings`](../../../../system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings.md) | Optional element. Specifies the list of strings to deny for the request filtering rule. |
-| [`scanHeaders`](../../../../system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders.md) | Optional element. Specifies the list of HTTP headers to scan. |
+| [`appliesTo`](appliesto/index.md) | Optional element. Specifies the list of file name extensions to which the request filtering rule applies. |
+| [`denyStrings`](denystrings/index.md) | Optional element. Specifies the list of strings to deny for the request filtering rule. |
+| [`scanHeaders`](scanheaders/index.md) | Optional element. Specifies the list of HTTP headers to scan. |
 
 ### Configuration Sample
 

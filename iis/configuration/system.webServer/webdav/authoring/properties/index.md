@@ -3,7 +3,7 @@ WebDAV Properties &lt;properties&gt;
 <a id="001"></a>
 ## Overview
 
-The `<properties>` element of the `<authoring>` element defines the locking behavior for the WebDAV module. More specifically, the `<properties>` element contains attributes that define whether custom WebDAV properties are enabled, whether anonymous or infinite property requests are allowed, and may contain a series of [`<add>`](../../../system.webserver/webdav/authoring/properties/add.md) elements that define mappings for XML namespaces to property store providers.
+The `<properties>` element of the `<authoring>` element defines the locking behavior for the WebDAV module. More specifically, the `<properties>` element contains attributes that define whether custom WebDAV properties are enabled, whether anonymous or infinite property requests are allowed, and may contain a series of [`<add>`](add.md) elements that define mappings for XML namespaces to property store providers.
 
 > [!NOTE]
 > WebDAV defines two types of properties:
@@ -11,7 +11,7 @@ The `<properties>` element of the `<authoring>` element defines the locking beha
 - "Live" properties: These properties exist in the underlying file system. For example, the file name and file size. These properties are always supported.
 - "Dead" properties: These properties are user-defined and are stored in a property store. For example, the author of a document or the template that was used.
 
-In order to use "dead" properties, you must set the `allowCustomProperties` of the `<properties>` element to **true**, and define a mapping for an XML namespace to property provider from the list of property providers that are defined in the [&lt;propertyStores&gt;](../../../system.webserver/webdav/globalsettings/propertystores.md) collection.
+In order to use "dead" properties, you must set the `allowCustomProperties` of the `<properties>` element to **true**, and define a mapping for an XML namespace to property provider from the list of property providers that are defined in the [&lt;propertyStores&gt;](../globalsettings/propertystores/index.md) collection.
 
 <a id="002"></a>
 ## Compatibility
@@ -124,7 +124,7 @@ The `<properties>` element is configurable only at the site level in the Applica
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../system.webserver/webdav/authoring/properties/add.md) | Optional element. Adds a mapping for an XML namespace to a property provider. |
+| [`add`](add.md) | Optional element. Adds a mapping for an XML namespace to a property provider. |
 | `clear` | Optional element. Clears all the existing namespace mappings. |
 | `remove` | Optional element. Removes a mapping from the list of XML namespaces to property providers. |
 

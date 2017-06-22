@@ -115,7 +115,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../../system.webserver/security/requestfiltering/requestlimits/headerlimits/add.md) | Optional element. Adds a size limit for an HTTP header to the `<headerLimits>` collection. |
+| [`add`](add.md) | Optional element. Adds a size limit for an HTTP header to the `<headerLimits>` collection. |
 | `clear` | Optional element. Removes all references to an HTTP header from the `<headerLimits>` collection. |
 | `remove` | Optional element. Removes a reference to an HTTP header from the `<headerLimits>` collection. |
 

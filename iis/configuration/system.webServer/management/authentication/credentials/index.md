@@ -127,7 +127,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../system.webserver/management/authentication/credentials/add.md) | Optional element. Adds an IIS Manager user account to the collection of IIS Manager users. |
+| [`add`](add.md) | Optional element. Adds an IIS Manager user account to the collection of IIS Manager users. |
 
 ### Configuration Sample
 

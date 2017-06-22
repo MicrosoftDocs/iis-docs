@@ -195,7 +195,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`providers`](../../../../../../system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication/providers.md) | Optional element. Specifies the collection of custom authentication providers. |
+| [`providers`](providers/index.md) | Optional element. Specifies the collection of custom authentication providers. |
 
 ### Configuration Sample
 

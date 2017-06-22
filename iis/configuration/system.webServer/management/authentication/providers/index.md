@@ -79,7 +79,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../system.webserver/management/authentication/providers/add.md) | Optional element. Adds a provider to the collection of authentication providers. |
+| [`add`](add.md) | Optional element. Adds a provider to the collection of authentication providers. |
 
 ### Configuration Sample
 

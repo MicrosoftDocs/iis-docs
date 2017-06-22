@@ -42,7 +42,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../system.applicationhost/listeneradapters/add.md) | Optional element. Specifies the configuration for a listener adapter. |
+| [`add`](add.md) | Optional element. Specifies the configuration for a listener adapter. |
 
 ### Configuration Sample
 

@@ -151,7 +151,7 @@ The `<fileExtensions>` element of the `<requestFiltering>` element is configured
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../system.ftpserver/security/requestfiltering/fileextensions/add.md) | Optional element. Adds a file name extension to the collection of file name extensions. |
+| [`add`](add.md) | Optional element. Adds a file name extension to the collection of file name extensions. |
 | `clear` | Optional element. Removes all references to file name extensions from the `<fileExtensions>` collection. |
 | `remove` | Optional element. Removes a reference to a file name extension from the `<fileExtensions>` collection. |
 

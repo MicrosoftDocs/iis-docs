@@ -68,10 +68,10 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`applicationDefaults`](../system.applicationhost/sites/applicationdefaults.md) | Optional element. Specifies default settings for all applications on the server. |
-| [`site`](../system.applicationhost/sites/site/index.md) | Optional element. Specifies configuration settings for a site. |
-| [`siteDefaults`](../system.applicationhost/sites/sitedefaults/index.md) | Optional element. Specifies default settings for all sites on the server. |
-| [`virtualDirectoryDefaults`](../system.applicationhost/sites/virtualdirectorydefaults.md) | Optional element. Specifies default settings for all virtual directories on the server. |
+| [`applicationDefaults`](applicationdefaults.md) | Optional element. Specifies default settings for all applications on the server. |
+| [`site`](site/index.md) | Optional element. Specifies configuration settings for a site. |
+| [`siteDefaults`](sitedefaults/index.md) | Optional element. Specifies default settings for all sites on the server. |
+| [`virtualDirectoryDefaults`](virtualdirectorydefaults.md) | Optional element. Specifies default settings for all virtual directories on the server. |
 
 ### Configuration Sample
 

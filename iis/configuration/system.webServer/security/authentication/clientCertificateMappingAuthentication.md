@@ -6,7 +6,7 @@ Client Certificate Mapping Authentication &lt;clientCertificateMappingAuthentica
 `<clientCertificateMappingAuthentication>` element of the `<authentication>` element specifies whether client certificate mapping using Active Directory is enabled for Internet Information Services (IIS) 7.
 
 > [!NOTE]
-> Client Certificate Mapping authentication using Active Directory differs from [Client Certificate Mapping authentication using IIS](../../../system.webserver/security/authentication/iisclientcertificatemappingauthentication/index.md) in the following ways:
+> Client Certificate Mapping authentication using Active Directory differs from [Client Certificate Mapping authentication using IIS](iisclientcertificatemappingauthentication/index.md) in the following ways:
 
 - **Client Certificate Mapping authentication using Active Directory** - this method of authentication requires that the IIS 7 server is a member of an Active Directory domain, and user accounts are stored in Active Directory. This method of client certificate authentication has reduced performance due to the round-trip to the Active Directory server.
 - **IIS Client Certificate Mapping authentication** - this method of authentication does not require Active Directory and therefore works with standalone servers. This method of client certificate authentication has increased performance, but required more configuration and requires access to client certificates in order to create mappings.

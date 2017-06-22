@@ -166,15 +166,15 @@ The default `<ftpServer>` element is configured at the `<siteDefaults>` level.
 
 | Element | Description |
 | --- | --- |
-| [`connections`](../../../system.applicationhost/sites/sitedefaults/ftpserver/connections.md) | Optional element. Specifies the default connection-specific settings for FTP sites. |
-| [`security`](../../../system.applicationhost/sites/sitedefaults/ftpserver/security/index.md) | Optional element. Specifies the default security-related settings for FTP sites. |
-| [`customFeatures`](../../../system.applicationhost/sites/sitedefaults/ftpserver/customfeatures/index.md) | Optional element. Specifies the default collection of custom FTP providers that were developed by using FTP extensibility. |
-| [`messages`](../../../system.applicationhost/sites/sitedefaults/ftpserver/messages.md) | Optional element. Specifies the default connection-related messages that FTP sites will display to FTP clients. |
-| [`fileHandling`](../../../system.applicationhost/sites/sitedefaults/ftpserver/filehandling.md) | Optional element. Specifies the default file-handling settings for FTP sites. |
-| [`firewallSupport`](../../../system.applicationhost/sites/sitedefaults/ftpserver/firewallsupport.md) | Optional element. Specifies the default settings for FTP sites that are required for FTP connections that are made through a firewall. |
-| [`userIsolation`](../../../system.applicationhost/sites/sitedefaults/ftpserver/userisolation.md) | Optional element. Specifies the default home directory lookup behavior for FTP connections. For example, users can be restricted to a home directory that is based on their login name. |
-| [`directoryBrowse`](../../../system.applicationhost/sites/sitedefaults/ftpserver/directorybrowse.md) | Optional element. Specifies the default directory listing options for FTP sites. These settings affect how the FTP service will display directory listings to FTP clients. |
-| [`logFile`](../../../system.applicationhost/sites/sitedefaults/ftpserver/logfile.md) | Optional element. Specifies the default ogging options for FTP sites. |
+| [`connections`](connections.md) | Optional element. Specifies the default connection-specific settings for FTP sites. |
+| [`security`](security/index.md) | Optional element. Specifies the default security-related settings for FTP sites. |
+| [`customFeatures`](customfeatures/index.md) | Optional element. Specifies the default collection of custom FTP providers that were developed by using FTP extensibility. |
+| [`messages`](messages.md) | Optional element. Specifies the default connection-related messages that FTP sites will display to FTP clients. |
+| [`fileHandling`](filehandling.md) | Optional element. Specifies the default file-handling settings for FTP sites. |
+| [`firewallSupport`](firewallsupport.md) | Optional element. Specifies the default settings for FTP sites that are required for FTP connections that are made through a firewall. |
+| [`userIsolation`](userisolation/index.md) | Optional element. Specifies the default home directory lookup behavior for FTP connections. For example, users can be restricted to a home directory that is based on their login name. |
+| [`directoryBrowse`](directorybrowse.md) | Optional element. Specifies the default directory listing options for FTP sites. These settings affect how the FTP service will display directory listings to FTP clients. |
+| [`logFile`](logfile.md) | Optional element. Specifies the default ogging options for FTP sites. |
 
 ### Configuration Sample
 

@@ -78,7 +78,7 @@ None.
 
 ### Child Elements
 
-| [`add`](../../system.webserver/httpcompression/statictypes/add.md) | Optional element. Adds a MIME type to the collection of static MIME types. |
+| [`add`](add.md) | Optional element. Adds a MIME type to the collection of static MIME types. |
 | --- | --- |
 | `remove` | Optional element. Removes a reference to a MIME type from the static MIME type collection. |
 | `clear` | Optional element. Removes all references to MIME types from the static MIME type collection. |

@@ -37,7 +37,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../system.applicationhost/applicationpools/add/environmentvariables/add.md) | Optional element. Adds an environment variable to the collection of environment variables. |
+| [`add`](add.md) | Optional element. Adds an environment variable to the collection of environment variables. |
 | `remove` | Optional element. Removes an environment variable from the collection of environment variables. |
 
 ### Configuration Sample

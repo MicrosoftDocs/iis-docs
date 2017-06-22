@@ -77,7 +77,7 @@ You can configure the `<caching>` element at the server level in the Application
 
 | Element | Description |
 | --- | --- |
-| [`profiles`](../system.webserver/caching/profiles.md) | Optional element. Contains a group of output cache settings that can be applied to ASP.NET pages. |
+| [`profiles`](profiles/index.md) | Optional element. Contains a group of output cache settings that can be applied to ASP.NET pages. |
 
 ### Configuration Sample
 

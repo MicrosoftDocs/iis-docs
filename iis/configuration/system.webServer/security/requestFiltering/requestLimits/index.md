@@ -159,7 +159,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 
 | Element | Description |
 | --- | --- |
-| [`headerlimits`](../../../system.webserver/security/requestfiltering/requestlimits/headerlimits.md) | Optional element. Specifies size limits for HTML headers. |
+| [`headerlimits`](headerlimits/index.md) | Optional element. Specifies size limits for HTML headers. |
 
 ### Configuration Sample
 

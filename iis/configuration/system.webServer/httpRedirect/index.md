@@ -129,7 +129,7 @@ There is no user interface for adding wildcard HTTP redirects for IIS 7. For exa
 
 | Element | Description |
 | --- | --- |
-| [`add`](../system.webserver/httpredirect/add.md) | Optional element. Adds a wildcard redirection rule to the collection of redirection rules. |
+| [`add`](add.md) | Optional element. Adds a wildcard redirection rule to the collection of redirection rules. |
 | `clear` | Optional element. Removes all references to wildcard redirection rules from the collection of redirection rules. |
 | `remove` | Optional element. Removes a reference to a wildcard redirection rule from the collection of redirection rules. |
 

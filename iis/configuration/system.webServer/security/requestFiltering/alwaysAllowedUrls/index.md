@@ -3,7 +3,7 @@ Always Allowed URLs &lt;alwaysAllowedUrls&gt;
 <a id="001"></a>
 ## Overview
 
-The `<alwaysAllowedUrls>` element contains a collection of [`<add>`](../../../system.webserver/security/requestfiltering/alwaysallowedurls/add.md) elements that specify URLs that request filtering will allow, which override the values in the [`<denyUrlSequences>`](../../../system.webserver/security/requestfiltering/denyurlsequences.md) collection.
+The `<alwaysAllowedUrls>` element contains a collection of [`<add>`](add.md) elements that specify URLs that request filtering will allow, which override the values in the [`<denyUrlSequences>`](denyurlsequences/index.md) collection.
 
 <a id="002"></a>
 ## Compatibility
@@ -99,7 +99,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../system.webserver/security/requestfiltering/alwaysallowedurls/add.md) | Optional element. Adds a URL to the collection of URLs that request filtering will always allow. |
+| [`add`](add.md) | Optional element. Adds a URL to the collection of URLs that request filtering will always allow. |
 | `clear` | Optional element. Clears the collection of URLs that request filtering will always allow. |
 | `remove` | Optional element. Removes a URL from the collection of URLs that request filtering will always allow. |
 

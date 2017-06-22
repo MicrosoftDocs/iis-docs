@@ -138,8 +138,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`traceFailedRequests`](../system.webserver/tracing/tracefailedrequests/index.md) | Optional element. Contains settings for tracing failed requests on the Web server. |
-| [`traceProviderDefinitions`](../system.webserver/tracing/traceproviderdefinitions/index.md) | Optional element. Defines the trace providers that are used on the Web server. |
+| [`traceFailedRequests`](tracefailedrequests/index.md) | Optional element. Contains settings for tracing failed requests on the Web server. |
+| [`traceProviderDefinitions`](traceproviderdefinitions/index.md) | Optional element. Defines the trace providers that are used on the Web server. |
 
 ### Configuration Sample
 

@@ -3,7 +3,7 @@ Applications for Application Dependencies &lt;application&gt;
 <a id="001"></a>
 ## Overview
 
-The `<application>` element of the [&lt;applicationDependencies&gt;](../../../system.webserver/security/applicationdependencies/index.md) element specifies an application that has dependencies on one or more CGI or ISAPI extension restrictions. Specifically, the **groupID** attribute of the `<application>` element specifies the primary application dependency, and the element may contain one or more [&lt;add&gt;](../../../system.webserver/security/applicationdependencies/application/add.md) elements that specify additional dependencies.
+The `<application>` element of the [&lt;applicationDependencies&gt;](index.md) element specifies an application that has dependencies on one or more CGI or ISAPI extension restrictions. Specifically, the **groupID** attribute of the `<application>` element specifies the primary application dependency, and the element may contain one or more [&lt;add&gt;](add.md) elements that specify additional dependencies.
 
 <a id="002"></a>
 ## Compatibility
@@ -41,7 +41,7 @@ There is no user interface for configuring the `<applicationDependencies>` eleme
 
 | Element | Description |
 | --- | --- |
-| [`add`](../../../system.webserver/security/applicationdependencies/application/add.md) | Optional element. Adds additional **groupIDs** to the parent application. |
+| [`add`](add.md) | Optional element. Adds additional **groupIDs** to the parent application. |
 | `clear` | Optional element. Removes all references to additional **groupIDs** from the add collection. |
 
 ### Configuration Sample

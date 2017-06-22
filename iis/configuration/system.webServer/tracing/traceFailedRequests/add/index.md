@@ -135,8 +135,8 @@ After you finish the default installation of IIS 7 and later, you must install t
 
 | Element | Description |
 | --- | --- |
-| [`traceAreas`](../../../system.webserver/tracing/tracefailedrequests/add/traceareas.md) | Required element. Configures what to trace for a given path. |
-| [`failureDefinitions`](../../../system.webserver/tracing/tracefailedrequests/add/failuredefinitions.md) | Required element. Defines the conditions in which to save traces for a request. |
+| [`traceAreas`](traceareas/index.md) | Required element. Configures what to trace for a given path. |
+| [`failureDefinitions`](failuredefinitions.md) | Required element. Defines the conditions in which to save traces for a request. |
 
 ### Configuration Sample
 

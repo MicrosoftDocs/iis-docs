@@ -11,7 +11,7 @@ The `<add>` element of the `<properties>` element defines a mapping for an XML n
 - "Live" properties: These properties exist in the underlying file system. For example, the file name and file size. These properties are always supported.
 - "Dead" properties: These properties are user-defined and are stored in a property store. For example, the author of a document or the template that was used.
 
-In order to use "dead" properties, you must set the `allowCustomProperties` of the `<properties>` element to **true**, and define a mapping for an XML namespace to property provider from the list of property providers that are defined in the [&lt;propertyStores&gt;](../../../../system.webserver/webdav/globalsettings/propertystores.md) collection.
+In order to use "dead" properties, you must set the `allowCustomProperties` of the `<properties>` element to **true**, and define a mapping for an XML namespace to property provider from the list of property providers that are defined in the [&lt;propertyStores&gt;](../../globalsettings/propertystores/index.md) collection.
 
 <a id="002"></a>
 ## Compatibility
@@ -109,7 +109,7 @@ The `<properties>` element is configurable only at the site level in the Applica
 | Attribute | Description |
 | --- | --- |
 | `xmlNamespace` | Required string attribute. Specifies the XML namespace for the mapping. <br><br>**Note:** The wildcard "\*" character is used to define the default namespace mapping, and any namespace that does not have a unique mapping will use the wildcard mapping. If a WebDAV client uses an XML namespace for which there is no specific namespace mapping and a wildcard mapping does not exist, the properties cannot be stored. The default value is `false`. |
-| `propertyStore` | Required string attribute. Specifies the property store for the mapping. <br><br>**Note:** The name of the property store must be defined in the [&lt;propertyStores&gt;](../../../../system.webserver/webdav/globalsettings/propertystores.md) collection. The default value is `false`. |
+| `propertyStore` | Required string attribute. Specifies the property store for the mapping. <br><br>**Note:** The name of the property store must be defined in the [&lt;propertyStores&gt;](../../globalsettings/propertystores/index.md) collection. The default value is `false`. |
 
 ### Child Elements
 
