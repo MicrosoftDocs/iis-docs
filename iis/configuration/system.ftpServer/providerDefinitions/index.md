@@ -153,7 +153,7 @@ None.
 | Element | Description |
 | --- | --- |
 | [`add`](../system.ftpserver/providerdefinitions/add.md) | Optional element. Specifies the registration information for a managed-code or native-code (COM) provider. |
-| [`activation`](../system.ftpserver/providerdefinitions/activation.md) | Optional element. Specifies a collection of custom name/value pairs that define any parameters that a custom provider requires. <br><br>**Note:** This element was added in FTP 7.5. |
+| [`activation`](../system.ftpserver/providerdefinitions/activation/index.md) | Optional element. Specifies a collection of custom name/value pairs that define any parameters that a custom provider requires. <br><br>**Note:** This element was added in FTP 7.5. |
 
 ### Configuration Sample
 

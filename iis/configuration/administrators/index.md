@@ -4,4 +4,4 @@ Administrators &lt;administrators&gt; (Deprecated)
 ## Note
 
 > [!NOTE]
-> Do not use. This element has been deprecated. Use [system.webServer/management](/system.webserver/management.md) instead.
+> Do not use. This element has been deprecated. Use [system.webServer/management](/system.webserver/management/index.md) instead.

@@ -141,8 +141,8 @@ None.
 | --- | --- |
 | [`log`](/system.ftpserver/log.md) | Optional element. Specifies the global log settings for the FTP service. |
 | [`firewallSupport`](/system.ftpserver/firewallsupport.md) | Optional element. Specifies the port range that the FTP service will use for data channel communication. |
-| [`providerDefinitions`](/system.ftpserver/providerdefinitions.md) | Optional element. Specifies the collection of custom FTP providers. |
-| [`security`](/system.ftpserver/security.md) | Optional element. Specifies the security-related settings for FTP. |
+| [`providerDefinitions`](/system.ftpserver/providerdefinitions/index.md) | Optional element. Specifies the collection of custom FTP providers. |
+| [`security`](/system.ftpserver/security/index.md) | Optional element. Specifies the security-related settings for FTP. |
 | [`caching`](/system.ftpserver/caching.md) | Optional element. Specifies the credential cache settings for the FTP service. |
 | [`serverRuntime`](/system.ftpserver/serverruntime.md) | Optional element. Specifies settings that configure how the FTP service operates. |
 

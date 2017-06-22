@@ -93,7 +93,7 @@ The following sample displays a `<customAuthorization>` element:
 
 [!code-xml[Main](index/samples/sample1.xml)]
 
-The following sample displays a &lt;[providerDefinitions](../../../../../system.ftpserver/providerdefinitions.md)&gt; element for the custom authorization provider in the preceding example:
+The following sample displays a &lt;[providerDefinitions](../../../../../system.ftpserver/providerdefinitions/index.md)&gt; element for the custom authorization provider in the preceding example:
 
 [!code-xml[Main](index/samples/sample2.xml)]
 

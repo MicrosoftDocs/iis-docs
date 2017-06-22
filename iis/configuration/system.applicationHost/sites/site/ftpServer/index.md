@@ -8,7 +8,7 @@ The `<ftpServer>` element of the `<site>` element specifies the site-level setti
 In IIS 6.0, the settings for the FTP service were stored in a separate section of the metabase than Web sites. In IIS 7 and later, FTP settings are stored in the ApplicationHost.config file within the same `<site>` and `<siteDefaults>` elements that store the settings for Web sites. Because of this, settings that are specified in the `<ftpServer>` element cannot be delegated, nor can they be specified within `<location>` elements.
 
 > [!NOTE]
-> Additional FTP settings are stored in the [`<system.ftpServer>`](../../../system.ftpserver.md) section of the ApplicationHost.config file, and these settings are specified within `<location>` elements.
+> Additional FTP settings are stored in the [`<system.ftpServer>`](../../../system.ftpserver/index.md) section of the ApplicationHost.config file, and these settings are specified within `<location>` elements.
 
 <a id="002"></a>
 ## Compatibility
@@ -273,8 +273,8 @@ The site-specific `<ftpServer>` element is configured at the `<site>` level.
 | Element | Description |
 | --- | --- |
 | [`connections`](../../../system.applicationhost/sites/site/ftpserver/connections.md) | Optional element. Specifies the connection-specific settings for an FTP site. |
-| [`security`](../../../system.applicationhost/sites/site/ftpserver/security.md) | Optional element. Specifies the security-related settings for an FTP site. |
-| [`customFeatures`](../../../system.applicationhost/sites/site/ftpserver/customfeatures.md) | Optional element. Specifies a collection of custom FTP providers that were developed by using FTP extensibility. |
+| [`security`](../../../system.applicationhost/sites/site/ftpserver/security/index.md) | Optional element. Specifies the security-related settings for an FTP site. |
+| [`customFeatures`](../../../system.applicationhost/sites/site/ftpserver/customfeatures/index.md) | Optional element. Specifies a collection of custom FTP providers that were developed by using FTP extensibility. |
 | [`messages`](../../../system.applicationhost/sites/site/ftpserver/messages.md) | Optional element. Specifies the connection-related messages that an FTP site will display to FTP clients. |
 | [`fileHandling`](../../../system.applicationhost/sites/site/ftpserver/filehandling.md) | Optional element. Specifies the file-handling settings for an FTP site. |
 | [`firewallSupport`](../../../system.applicationhost/sites/site/ftpserver/firewallsupport.md) | Optional element. Specifies the settings for an FTP site that are required for FTP connections that are made through a firewall. |

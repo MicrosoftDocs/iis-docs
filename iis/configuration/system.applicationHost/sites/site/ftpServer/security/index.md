@@ -274,7 +274,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`authentication`](../../../../system.applicationhost/sites/site/ftpserver/security/authentication.md) | Optional element. Specifies the authentication settings for an FTP site. |
+| [`authentication`](../../../../system.applicationhost/sites/site/ftpserver/security/authentication/index.md) | Optional element. Specifies the authentication settings for an FTP site. |
 | [`commandFiltering`](../../../../system.applicationhost/sites/site/ftpserver/security/commandfiltering.md) | Optional element. Specifies the settings for FTP command filtering. |
 | [`customAuthorization`](../../../../system.applicationhost/sites/site/ftpserver/security/customauthorization.md) | Optional element. Specifies the use of a custom provider for FTP authorization. |
 | [`dataChannelSecurity`](../../../../system.applicationhost/sites/site/ftpserver/security/datachannelsecurity.md) | Optional element. Specifies the settings for FTP data channel security. |

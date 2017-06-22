@@ -85,8 +85,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](../system.applicationhost/applicationpools/add.md) | Adds an application pool to the applicationPools section. |
-| [`applicationPoolDefaults`](../system.applicationhost/applicationpools/applicationpooldefaults.md) | Required string attribute. Configures the default settings for all application pools in an applicationPools section. |
+| [`add`](../system.applicationhost/applicationpools/add/index.md) | Adds an application pool to the applicationPools section. |
+| [`applicationPoolDefaults`](../system.applicationhost/applicationpools/applicationpooldefaults/index.md) | Required string attribute. Configures the default settings for all application pools in an applicationPools section. |
 
 ### Configuration Sample
 

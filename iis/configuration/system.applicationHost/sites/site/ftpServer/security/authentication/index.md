@@ -279,7 +279,7 @@ None.
 | [`anonymousAuthentication`](../../../../../system.applicationhost/sites/site/ftpserver/security/authentication/anonymousauthentication.md) | Optional element. Specifies the Anonymous authentication settings for an FTP site. |
 | [`basicAuthentication`](../../../../../system.applicationhost/sites/site/ftpserver/security/authentication/basicauthentication.md) | Optional element. Specifies the Basic authentication settings for an FTP site. |
 | [`clientCertAuthentication`](../../../../../system.applicationhost/sites/site/ftpserver/security/authentication/clientcertauthentication.md) | Optional element. Specifies the Client Certificate authentication settings for an FTP site. |
-| [`customAuthentication`](../../../../../system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication.md) | Optional element. Specifies the Custom authentication settings for an FTP site. <br><br>**Note:** Custom authentication is implemented through custom authentication providers. |
+| [`customAuthentication`](../../../../../system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication/index.md) | Optional element. Specifies the Custom authentication settings for an FTP site. <br><br>**Note:** Custom authentication is implemented through custom authentication providers. |
 
 ### Configuration Sample
 

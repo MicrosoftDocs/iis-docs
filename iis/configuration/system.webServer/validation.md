@@ -9,10 +9,10 @@ IIS generates a migration error message if the **validateIntegratedModeConfigura
 
 - Your application defines an `<httpModules>` section in its Web.config file. 
 
-    In IIS 7 Integrated mode, ASP.NET modules are specified with native modules in a unified [&lt;modules&gt;](../system.webserver/modules.md) section under [&lt;system.webServer&gt;](../system.webserver.md).
+    In IIS 7 Integrated mode, ASP.NET modules are specified with native modules in a unified [&lt;modules&gt;](../system.webserver/modules.md) section under [&lt;system.webServer&gt;](../system.webserver/index.md).
 - Your application defines an `<httpHandlers>` section in its Web.config file. 
 
-    In IIS 7 Integrated mode, the ASP.NET handler mappings are specified in a unified [&lt;handlers&gt;](../system.webserver/handlers.md) section inside [&lt;system.webServer&gt;](../system.webserver.md). The [&lt;handlers&gt;](../system.webserver/handlers.md)< section="" replaces="" both="" the="" asp.net="">`<httpHandlers>` and IIS script-processor-mapping configurations, which were both required to set up an ASP.NET 1.0 handler mapping.
+    In IIS 7 Integrated mode, the ASP.NET handler mappings are specified in a unified [&lt;handlers&gt;](../system.webserver/handlers.md) section inside [&lt;system.webServer&gt;](../system.webserver/index.md). The [&lt;handlers&gt;](../system.webserver/handlers.md)< section="" replaces="" both="" the="" asp.net="">`<httpHandlers>` and IIS script-processor-mapping configurations, which were both required to set up an ASP.NET 1.0 handler mapping.
 - Your application's Web.config file specifies `<identity impersonate="true" />`. 
 
     In IIS 7 Integrated mode, client impersonation is not available in some early request processing stages. Therefore, IIS will generate the migration error message. If your ASP.NET Web application impersonates client credentials (most common with intranet scenarios), you may want to set the **validateIntegratedModeConfiguration** attribute to **false**.

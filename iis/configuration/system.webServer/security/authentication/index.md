@@ -133,8 +133,8 @@ None.
 | [`basicAuthentication`](../../system.webserver/security/authentication/basicauthentication.md) | Optional element. Specifies the settings for Basic authentication. |
 | [`clientCertificateMappingAuthentication`](../../system.webserver/security/authentication/clientcertificatemappingauthentication.md) | Optional element. Specifies the settings Client Certificate Mapping authentication using Active Directory. |
 | [`digestAuthentication`](../../system.webserver/security/authentication/digestauthentication.md) | Optional element. Specifies the settings for Digest authentication. |
-| [`iisClientCertificateMappingAuthentication`](../../system.webserver/security/authentication/iisclientcertificatemappingauthentication.md) | Optional element. Specifies the settings Client Certificate Mapping authentication using IIS. |
-| [`windowsAuthentication`](../../system.webserver/security/authentication/windowsauthentication.md) | Optional element. Specifies the settings for Windows authentication. |
+| [`iisClientCertificateMappingAuthentication`](../../system.webserver/security/authentication/iisclientcertificatemappingauthentication/index.md) | Optional element. Specifies the settings Client Certificate Mapping authentication using IIS. |
+| [`windowsAuthentication`](../../system.webserver/security/authentication/windowsauthentication/index.md) | Optional element. Specifies the settings for Windows authentication. |
 
 ### Configuration Sample
 

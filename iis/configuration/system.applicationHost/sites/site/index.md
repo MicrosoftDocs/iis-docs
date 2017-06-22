@@ -151,10 +151,10 @@ You configure the `<site>` element at the server level in the ApplicationHost.co
 | [`application`](../../system.applicationhost/sites/site/application.md) | Optional element. Specifies a collection of configuration settings for applications in the site. |
 | [`applicationDefaults`](../../system.applicationhost/sites/site/applicationdefaults.md) | Optional element. Specifies default settings for all applications in the parent site. |
 | [`bindings`](../../system.applicationhost/sites/site/bindings.md) | Optional element. Specifies bindings to access the site. |
-| [`ftpServer`](../../system.applicationhost/sites/site/ftpserver.md) | Optional element. Specifies FTP settings for the site. <br><br>**Note:** This requires installing FTP 7.0 or FTP 7.5. |
+| [`ftpServer`](../../system.applicationhost/sites/site/ftpserver/index.md) | Optional element. Specifies FTP settings for the site. <br><br>**Note:** This requires installing FTP 7.0 or FTP 7.5. |
 | [`limits`](../../system.applicationhost/sites/site/limits.md) | Optional element. Configures settings to limit the amount of bandwidth, the number of connections, or the amount of time for connections to a site. |
-| [`logFile`](../../system.applicationhost/sites/site/logfile.md) | Optional element. Configures settings for handling and storage of log files for the site. |
-| [`traceFailedRequestsLogging`](../../system.applicationhost/sites/sitedefaults.md) | Optional element. Specifies settings for logging failed-request traces for the site. |
+| [`logFile`](../../system.applicationhost/sites/site/logfile/index.md) | Optional element. Configures settings for handling and storage of log files for the site. |
+| [`traceFailedRequestsLogging`](../../system.applicationhost/sites/sitedefaults/index.md) | Optional element. Specifies settings for logging failed-request traces for the site. |
 | [`virtualDirectoryDefaults`](../../system.applicationhost/sites/site/virtualdirectorydefaults.md) | Optional element. Specifies default settings for all virtual directories in the site. |
 
 ### Configuration Sample

@@ -69,9 +69,9 @@ The `<siteDefaults>` element of the `<sites>` element is included in the default
 | Element | Description |
 | --- | --- |
 | [`bindings`](../../system.applicationhost/sites/sitedefaults/bindings.md) | Optional element. Specifies default bindings for access to sites. |
-| [`ftpServer`](../../system.applicationhost/sites/sitedefaults/ftpserver.md) | Optional element. Specifies default settings for FTP sites. <br><br>**Note:** This requires installing FTP 7.0 or FTP 7.5. |
+| [`ftpServer`](../../system.applicationhost/sites/sitedefaults/ftpserver/index.md) | Optional element. Specifies default settings for FTP sites. <br><br>**Note:** This requires installing FTP 7.0 or FTP 7.5. |
 | [`limits`](../../system.applicationhost/sites/sitedefaults/limits.md) | Optional element. Configures default settings to limit the amount of bandwidth, the number of connections, or the amount of time for connections to sites. |
-| [`logFile`](../../system.applicationhost/sites/sitedefaults/logfile.md) | Optional element. Configures default settings for handling and storage of log files for sites. |
+| [`logFile`](../../system.applicationhost/sites/sitedefaults/logfile/index.md) | Optional element. Configures default settings for handling and storage of log files for sites. |
 | [`traceFailedRequestsLogging`](../../system.applicationhost/sites/sitedefaults/tracefailedrequestslogging.md) | Optional element. Specifies default settings for logging failed-request traces for sites. |
 
 ### Configuration Sample

@@ -9,7 +9,7 @@ The `<traceFailedRequestsLogging>` element of the `<siteDefaults>` element sets 
 > If the `<traceFailedRequestsLogging>` element is configured in both the `<siteDefaults>` section and in the `<site>` section for a specific site, the configuration in the `<site>` section is used for that site.
 
 > [!NOTE]
-> The `<traceFailedRequestsLogging>` element specifies the global-level options for failed request tracing, but the &lt;[`system.webServer/tracing/traceFailedRequests`](../../../system.webserver/tracing/tracefailedrequests.md)&gt; element specifies failed request tracing rules.
+> The `<traceFailedRequestsLogging>` element specifies the global-level options for failed request tracing, but the &lt;[`system.webServer/tracing/traceFailedRequests`](../../../system.webserver/tracing/tracefailedrequests/index.md)&gt; element specifies failed request tracing rules.
 
 <a id="002"></a>
 ## Compatibility

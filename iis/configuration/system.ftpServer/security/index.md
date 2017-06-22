@@ -148,7 +148,7 @@ None.
 | [`authentication`](../system.ftpserver/security/authentication.md) | Optional element. Specifies authentication-related settings. |
 | [`authorization`](../system.ftpserver/security/authorization.md) | Optional element. Specifies authorization-related settings. |
 | [`ipSecurity`](../system.ftpserver/security/ipsecurity.md) | Optional element. Specifies access restrictions based on the IP version 4 address or DNS domain name. |
-| [`requestFiltering`](../system.ftpserver/security/requestfiltering.md) | Optional element. Specifies configuration settings for request filtering. |
+| [`requestFiltering`](../system.ftpserver/security/requestfiltering/index.md) | Optional element. Specifies configuration settings for request filtering. |
 
 ### Configuration Sample
 

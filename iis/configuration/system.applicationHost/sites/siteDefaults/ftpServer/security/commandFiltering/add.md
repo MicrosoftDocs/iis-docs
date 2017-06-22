@@ -8,7 +8,7 @@ The `<add>` element adds a unique entry to the collection of FTP commands that t
 > [!NOTE]
 > Special attention must be applied when configuring which FTP commands to allow or deny, and whether to deny unlisted commands. For example, denying many commands like USER, PASS, PASV, PORT, etc., will make it impossible for your FTP site to function. Likewise, denying unlisted commands by default will probably be too restrictive and many FTP clients will be unable to access your FTP site.
 
-The collection in the `<commandFiltering>` element is related to the [`<requestFiltering>`](../../../../../../system.ftpserver/security/requestfiltering.md) settings; however, while request filtering applies for files and directories and can be configured per URL, the settings under the `<commandFiltering>` element apply the protocol-level of processing and can only be configured at the site level.
+The collection in the `<commandFiltering>` element is related to the [`<requestFiltering>`](../../../../../../system.ftpserver/security/requestfiltering/index.md) settings; however, while request filtering applies for files and directories and can be configured per URL, the settings under the `<commandFiltering>` element apply the protocol-level of processing and can only be configured at the site level.
 
 <a id="002"></a>
 ## Compatibility

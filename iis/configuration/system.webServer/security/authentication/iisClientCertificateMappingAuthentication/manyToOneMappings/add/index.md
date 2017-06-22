@@ -5,7 +5,7 @@ Adding Many-To-One Mappings &lt;add&gt;
 
 The `<add>` element of the `<manyToOneMappings>` element adds unique client certificate mappings to the collection of many-to-one mappings.
 
-Each of the many-to-one mappings are mapped to a user account and password, which can be used in place of the more commonly-used methods of authentication, such as [Windows authentication](../../../../../system.webserver/security/authentication/windowsauthentication.md) or [Basic authentication](../../../../../system.webserver/security/authentication/basicauthentication.md).
+Each of the many-to-one mappings are mapped to a user account and password, which can be used in place of the more commonly-used methods of authentication, such as [Windows authentication](../../../../../system.webserver/security/authentication/windowsauthentication/index.md) or [Basic authentication](../../../../../system.webserver/security/authentication/basicauthentication.md).
 
 There are two different access methods that you can enable for many-to-one rules: **Allow** or **Deny**. These settings enable you to create rules that will accept groups of client certificates which you will allow access to your site, while denying access to other groups of certificates based on different criteria. For example, you could create a rule that allowed access to all Contoso employees in your Human Resources organization unit, while denying access to employees in the Sales organization unit.
 

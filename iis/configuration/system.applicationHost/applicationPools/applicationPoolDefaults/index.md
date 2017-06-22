@@ -78,7 +78,7 @@ The `<applicationPools>` collection is included in the default installation of I
 | [`environmentVariables`](../../system.applicationhost/applicationpools/applicationpooldefaults/environmentvariables.md) | Configures a collection of environment variables to pass to worker processes. |
 | [`failure`](../../system.applicationhost/applicationpools/add/failure.md) | Configures actions to take when an application pool fails. |
 | [`processModel`](../../system.applicationhost/applicationpools/add/processmodel.md) | Configures process management attributes for an application pool. |
-| [`recycling`](../../system.applicationhost/applicationpools/add/recycling.md) | Configures application pool recycling. |
+| [`recycling`](../../system.applicationhost/applicationpools/add/recycling/index.md) | Configures application pool recycling. |
 
 ### Configuration Sample
 

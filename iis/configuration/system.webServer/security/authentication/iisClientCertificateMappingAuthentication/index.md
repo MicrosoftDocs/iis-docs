@@ -96,7 +96,7 @@ The `<iisClientCertificateMappingAuthentication>` element of the `<authenticatio
 
 | Element | Description |
 | --- | --- |
-| [`manyToOneMappings`](../../../system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings.md) | Optional element. Maps client certificates to a set of wildcard criteria that authenticate the certificates and assign a user account. |
+| [`manyToOneMappings`](../../../system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings/index.md) | Optional element. Maps client certificates to a set of wildcard criteria that authenticate the certificates and assign a user account. |
 | [`oneToOneMappings`](../../../system.webserver/security/authentication/iisclientcertificatemappingauthentication/onetoonemappings.md) | Optional element. Specifies one-to-one client certificate mappings. |
 
 ### Configuration Sample
