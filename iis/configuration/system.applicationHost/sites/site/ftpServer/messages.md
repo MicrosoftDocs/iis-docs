@@ -150,8 +150,7 @@ The site-level `<messages>` element is configured at the site level.
 
 | Attribute | Description |
 | --- | --- |
-| `allowLocalDetailedErrors` | Optional **Boolean** attribute. **true** if detailed error messages should be displayed locally; otherwise, **false**. > [!NOTE]
- > Detailed error messages cannot be displayed remotely. The default value is `true`. |
+| `allowLocalDetailedErrors` | Optional **Boolean** attribute. **true** if detailed error messages should be displayed locally; otherwise, **false**. **Note:** Detailed error messages cannot be displayed remotely. The default value is `true`. |
 | `bannerMessage` | Optional string attribute. Specifies the message that is displayed when a client connects to the FTP server. There is no default value. |
 | `exitMessage` | Optional string attribute. Specifies the message that is displayed when a client is closing a connection to the FTP server. There is no default value. |
 | `expandVariables` | Optional **Boolean** attribute. **true** if user variables should be expanded; otherwise, **false**. The default value is `false`. |

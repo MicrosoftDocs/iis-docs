@@ -74,7 +74,7 @@ There is no user interface for configuring the `<trustedProviders>` element for 
 
 | Attribute | Description |
 | --- | --- |
-| `allowUntrustedProviders` | Optional Boolean attribute. Specifies whether untrusted providers can run. **Important Note**: For security reasons, it is not recommended to change this value to **true**, because it will allow untrusted code to run on your server. Instead, you should always test a provider and add it to the trusted providers collection only when it is safe. The default value is `false`. |
+| `allowUntrustedProviders` | Optional Boolean attribute. Specifies whether untrusted providers can run. **Important Note:** For security reasons, it is not recommended to change this value to **true**, because it will allow untrusted code to run on your server. Instead, you should always test a provider and add it to the trusted providers collection only when it is safe. The default value is `false`. |
 
 ### Child Elements
 

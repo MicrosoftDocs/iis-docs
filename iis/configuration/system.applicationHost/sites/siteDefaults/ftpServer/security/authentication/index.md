@@ -277,8 +277,7 @@ None.
 | [`anonymousAuthentication`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/anonymousauthentication) | Optional element. Specifies the Anonymous authentication settings for FTP sites. |
 | [`basicAuthentication`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/basicauthentication) | Optional element. Specifies the Basic authentication settings for FTP sites. |
 | [`clientCertAuthentication`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/clientcertauthentication) | Optional element. Specifies the Client Certificate authentication settings for FTP sites. |
-| [`customAuthentication`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/customauthentication) | Optional element. Specifies the Custom authentication settings for FTP sites. > [!NOTE]
- > Custom authentication is implemented through custom authentication providers. |
+| [`customAuthentication`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/customauthentication) | Optional element. Specifies the Custom authentication settings for FTP sites. **Note:** Custom authentication is implemented through custom authentication providers. |
 
 ### Configuration Sample
 

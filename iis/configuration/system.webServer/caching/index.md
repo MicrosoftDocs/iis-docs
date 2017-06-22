@@ -70,10 +70,8 @@ You can configure the `<caching>` element at the server level in the Application
 | --- | --- |
 | `enabled` | Optional Boolean attribute. Specifies whether page output caching is enabled. The default value is `true`. |
 | `enableKernelCache` | Optional Boolean attribute. Specifies whether kernel caching is enabled. The default value is `true`. |
-| `maxCacheSize` | Optional uint attribute. Specifies the maximum size of the output cache. > [!NOTE]
- > This setting is effective only at the level of the ApplicationHost.config file. If you set this property at a lower level, it will have no effect. The default value is `0`. |
-| `maxResponseSize` | Optional uint attribute. Specifies the maximum response size that can be cached. > [!NOTE]
- > This setting is effective only at the level of the ApplicationHost.config file. If you set this property at a lower level, it will have no effect. The default value is `262144`. |
+| `maxCacheSize` | Optional uint attribute. Specifies the maximum size of the output cache. **Note:** This setting is effective only at the level of the ApplicationHost.config file. If you set this property at a lower level, it will have no effect. The default value is `0`. |
+| `maxResponseSize` | Optional uint attribute. Specifies the maximum response size that can be cached. **Note:** This setting is effective only at the level of the ApplicationHost.config file. If you set this property at a lower level, it will have no effect. The default value is `262144`. |
 
 ### Child Elements
 

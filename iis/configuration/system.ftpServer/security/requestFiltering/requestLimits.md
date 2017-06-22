@@ -149,8 +149,7 @@ The `<requestLimits>` element of the `<requestFiltering>` element is configured 
 | Attribute | Description |
 | --- | --- |
 | `maxAllowedContentLength` | Optional int64 attribute. Specifies the maximum length of content in a request, in bytes. The default value is `0` (unlimited). |
-| `maxUrl` | Optional uint attribute. Specifies the maximum length of the request, in bytes. > [!NOTE]
- > This value must be between 32 and 32768. The default value is `4096`. |
+| `maxUrl` | Optional uint attribute. Specifies the maximum length of the request, in bytes. **Note:** This value must be between 32 and 32768. The default value is `4096`. |
 
 ### Child Elements
 

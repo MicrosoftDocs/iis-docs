@@ -37,8 +37,7 @@ There is no user interface for adding listener adapters for IIS 7. For examples 
 | `identity` | Optional string attribute. Specifies a local account name, a domain account, or a built-in account. The identity is used to help secure the WAS communication channel between the listener service and the listener adapter. |
 | `name` | Required string attribute. Specifies the unique name of the listener adapter to which WAS connects the listener service. |
 | `protocolManagerDll` | Optional string attribute. Specifies the fully qualified path or short name of the DLL that contains the listener adapter's code. The DLL must be found on disk (by using standard search procedures that depend on DLL type) in order for the function specified in **protocolManagerDllInitFunction** to be called. |
-| `protocolManagerDllInitFunction` | Optional string attribute. Specifies the name of the function to call in the custom listener adapter code. The DLL specified in the **protocolManagerDll** attribute must contain the function specified in the **protocolManagerDllInitFunction** attribute. > [!NOTE]
- > This attribute is case-sensitive; you must use the correct case when you specify the name of the initialization function. |
+| `protocolManagerDllInitFunction` | Optional string attribute. Specifies the name of the function to call in the custom listener adapter code. The DLL specified in the **protocolManagerDll** attribute must contain the function specified in the **protocolManagerDllInitFunction** attribute. **Note:** This attribute is case-sensitive; you must use the correct case when you specify the name of the initialization function. |
 
 ### Child Elements
 

@@ -143,8 +143,7 @@ The `<add>` element of the `<hiddenSegments>` element is configured at the globa
 
 | Attribute | Description |
 | --- | --- |
-| `segment` | Required string attribute. Specifies part of the file system that should never be served to clients. > [!NOTE]
- > There is no default value, but FTP access to the \_vti\_bin virtual directory is blocked when the FTP service is installed. |
+| `segment` | Required string attribute. Specifies part of the file system that should never be served to clients. **Note:** There is no default value, but FTP access to the \_vti\_bin virtual directory is blocked when the FTP service is installed. |
 
 ### Child Elements
 
