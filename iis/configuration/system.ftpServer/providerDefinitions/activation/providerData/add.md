@@ -149,8 +149,8 @@ The `<add>` element of the `<providerData>` element is configured at the global 
 | Attribute | Description |
 | --- | --- |
 | `key` | Required string attribute. Specifies the unique name of the key for the key/value pair. There is no default value. |
-| `value` | Optional string attribute. Specifies the unencrypted value for the key/value pair. **Note:** If the `value` attribute is used, do not use the `encryptedValue` attribute. There is no default value. |
-| `encryptedValue` | Optional string attribute. Specifies the unencrypted value for the key/value pair. **Note:** If the `encryptedValue` attribute is used, do not use the `value` attribute. There is no default value. |
+| `value` | Optional string attribute. Specifies the unencrypted value for the key/value pair. <br><br>**Note:** If the `value` attribute is used, do not use the `encryptedValue` attribute. There is no default value. |
+| `encryptedValue` | Optional string attribute. Specifies the unencrypted value for the key/value pair. <br><br>**Note:** If the `encryptedValue` attribute is used, do not use the `value` attribute. There is no default value. |
 
 ### Child Elements
 

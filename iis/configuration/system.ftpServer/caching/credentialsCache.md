@@ -154,7 +154,7 @@ The `<credentialsCache>` element of the `<caching>` element is configured at the
 | Attribute | Description |
 | --- | --- |
 | `enabled` | Optional **Boolean** attribute. **true** if credential caching is enabled; otherwise, **false**. The default value is `true`. |
-| `flushInterval` | Optional uint attribute. Specifies the cache lifetime, in seconds, for credentials that are stored in the cache. **Note:** This value must be between 5 and 604,800 seconds. The default value is `900`. |
+| `flushInterval` | Optional uint attribute. Specifies the cache lifetime, in seconds, for credentials that are stored in the cache. <br><br>**Note:** This value must be between 5 and 604,800 seconds. The default value is `900`. |
 
 ### Child Elements
 

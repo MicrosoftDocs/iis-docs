@@ -112,8 +112,8 @@ The `<propertyStores>` element is only configurable at the global level in the A
 | Attribute | Description |
 | --- | --- |
 | `name` | Required attribute. Specifies the name for a property store provider. |
-| `image` | Required attribute. Specifies the file system path for a property store provider. **Note:** On a 64-bit system this will be the 64-bit path, whereas on a 32-bit system this will contain the path to the 32-bit provider and the `image32` attribute will be ignored. |
-| `image32` | Optional attribute. Specifies the 32-bit path for a property provider on a 64-bit system. **Note:** This attribute was added in WebDAV 7.5 and IIS 7.5. |
+| `image` | Required attribute. Specifies the file system path for a property store provider. <br><br>**Note:** On a 64-bit system this will be the 64-bit path, whereas on a 32-bit system this will contain the path to the 32-bit provider and the `image32` attribute will be ignored. |
+| `image32` | Optional attribute. Specifies the 32-bit path for a property provider on a 64-bit system. <br><br>**Note:** This attribute was added in WebDAV 7.5 and IIS 7.5. |
 
 ### Child Elements
 

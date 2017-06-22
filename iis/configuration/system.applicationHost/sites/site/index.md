@@ -151,7 +151,7 @@ You configure the `<site>` element at the server level in the ApplicationHost.co
 | [`application`](https://www.iis.net/configreference/system.applicationhost/sites/site/application) | Optional element. Specifies a collection of configuration settings for applications in the site. |
 | [`applicationDefaults`](https://www.iis.net/configreference/system.applicationhost/sites/site/applicationdefaults) | Optional element. Specifies default settings for all applications in the parent site. |
 | [`bindings`](https://www.iis.net/configreference/system.applicationhost/sites/site/bindings) | Optional element. Specifies bindings to access the site. |
-| [`ftpServer`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver) | Optional element. Specifies FTP settings for the site. **Note:** This requires installing FTP 7.0 or FTP 7.5. |
+| [`ftpServer`](https://www.iis.net/configreference/system.applicationhost/sites/site/ftpserver) | Optional element. Specifies FTP settings for the site. <br><br>**Note:** This requires installing FTP 7.0 or FTP 7.5. |
 | [`limits`](https://www.iis.net/configreference/system.applicationhost/sites/site/limits) | Optional element. Configures settings to limit the amount of bandwidth, the number of connections, or the amount of time for connections to a site. |
 | [`logFile`](https://www.iis.net/configreference/system.applicationhost/sites/site/logfile) | Optional element. Configures settings for handling and storage of log files for the site. |
 | [`traceFailedRequestsLogging`](https://www.iis.net/configreference/system.applicationhost/sites/sitedefaults) | Optional element. Specifies settings for logging failed-request traces for the site. |

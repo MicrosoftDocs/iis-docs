@@ -64,7 +64,7 @@ The `<applicationPools>` collection is included in the default installation of I
 | `orphanWorkerProcess` | Optional Boolean attribute. Specifies whether to assign a worker process to an orphan state instead of terminating it when an application pool fails. The default value is `false`. |
 | `rapidFailProtection` | Optional Boolean attribute. Setting to true instructs the WWW service to remove from service all applications that are in an application pool when: - The number of worker process crashes has reached the maximum specified in the **rapidFailProtectionMaxCrashes** attribute. - The crashes occur within the number of minutes specified in the **rapidFailProtectionInterval** attribute. The default value is `true`. |
 | `rapidFailProtectionInterval` | Optional timeSpan attribute. Specifies the number of minutes before the failure count for a process is reset. The default value is `00:05:00` (five minutes). |
-| `rapidFailProtectionMaxCrashes` | Optional uint attribute. Specifies the maximum number of failures that are allowed within the number of minutes specified by the **rapidFailProtectionInterval** attribute. **Note:** Starting in IIS 7.5 this value must be between 1 and 2147483647. The default value is `5`. |
+| `rapidFailProtectionMaxCrashes` | Optional uint attribute. Specifies the maximum number of failures that are allowed within the number of minutes specified by the **rapidFailProtectionInterval** attribute. <br><br>**Note:** Starting in IIS 7.5 this value must be between 1 and 2147483647. The default value is `5`. |
 
 ### Child Elements
 

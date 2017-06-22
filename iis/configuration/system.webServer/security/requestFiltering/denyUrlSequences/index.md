@@ -27,7 +27,7 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 | IIS 10.0 | The `<denyUrlSequences>` element was not modified in IIS 10.0. |
 | IIS 8.5 | The `<denyUrlSequences>` element was not modified in IIS 8.5. |
 | IIS 8.0 | The `<denyUrlSequences>` element was not modified in IIS 8.0. |
-| IIS 7.5 | The `<denyUrlSequences>` element was not modified in IIS 7.5. **Note:** IIS 7.5 allows you to override the URL sequences in the `<denyUrlSequences>` element by adding URL sequences to the [`&lt;alwaysAllowedUrls&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls) collection. |
+| IIS 7.5 | The `<denyUrlSequences>` element was not modified in IIS 7.5. <br><br>**Note:** IIS 7.5 allows you to override the URL sequences in the `<denyUrlSequences>` element by adding URL sequences to the [`&lt;alwaysAllowedUrls&gt;`](https://www.iis.net/configreference/system.webserver/security/requestfiltering/alwaysallowedurls) collection. |
 | IIS 7.0 | The `<denyUrlSequences>` element of the `<requestFiltering>` collection was introduced in IIS 7.0. |
 | IIS 6.0 | The `<denyUrlSequences>` element replaces the IIS 6.0 UrlScan **[DenyUrlSequences]** features. |
 

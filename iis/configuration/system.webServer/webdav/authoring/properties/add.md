@@ -108,8 +108,8 @@ The `<properties>` element is configurable only at the site level in the Applica
 
 | Attribute | Description |
 | --- | --- |
-| `xmlNamespace` | Required string attribute. Specifies the XML namespace for the mapping. **Note:** The wildcard "\*" character is used to define the default namespace mapping, and any namespace that does not have a unique mapping will use the wildcard mapping. If a WebDAV client uses an XML namespace for which there is no specific namespace mapping and a wildcard mapping does not exist, the properties cannot be stored. The default value is `false`. |
-| `propertyStore` | Required string attribute. Specifies the property store for the mapping. **Note:** The name of the property store must be defined in the [&lt;propertyStores&gt;](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/propertystores) collection. The default value is `false`. |
+| `xmlNamespace` | Required string attribute. Specifies the XML namespace for the mapping. <br><br>**Note:** The wildcard "\*" character is used to define the default namespace mapping, and any namespace that does not have a unique mapping will use the wildcard mapping. If a WebDAV client uses an XML namespace for which there is no specific namespace mapping and a wildcard mapping does not exist, the properties cannot be stored. The default value is `false`. |
+| `propertyStore` | Required string attribute. Specifies the property store for the mapping. <br><br>**Note:** The name of the property store must be defined in the [&lt;propertyStores&gt;](https://www.iis.net/configreference/system.webserver/webdav/globalsettings/propertystores) collection. The default value is `false`. |
 
 ### Child Elements
 
