@@ -6,7 +6,7 @@ WebDAV Global Settings &lt;globalSettings&gt;
 The `<globalSettings>` element is the parent element for global WebDAV configuration settings. More specifically, this element contains the settings for property and lock provider definitions. The WebDAV module is designed to accept multiple providers, although only a single provider is available for IIS 7 and IIS 7.5.
 
 > [!NOTE]
-> The `<globalSettings>` element should not be confused with the [`<siteDefaults>`](../../../system.applicationhost/sites/site/sitedefaults.md) element, which defines the default settings for Web sites.
+> The `<globalSettings>` element should not be confused with the [`<siteDefaults>`](../../../system.applicationhost/sites/sitedefaults/index.md) element, which defines the default settings for Web sites.
 
 <a id="002"></a>
 ## Compatibility
