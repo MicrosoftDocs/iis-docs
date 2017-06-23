@@ -5,7 +5,9 @@ Configuration Reference &lt;configuration&gt;
 
 Internet Information Services (IIS) 7 and later use an XML-based configuration system for storing IIS settings which replaces the metabase that was used in IIS 6.0 and earlier. This new configuration system was introduced with ASP.NET and is based on a hierarchical system of management system that uses \*.config files. The configuration files for IIS 7 and later are located in your %*WinDir*%\System32\Inetsrv\Config folder, and the primary configuration files are:
 
-- **ApplicationHost.config** - This configuration file stores the settings for all your Web sites and applications. - **Administration.config** - This configuration file stores the settings for IIS management. These settings include the list of management modules that are installed for the IIS Manager tool, as well as configuration settings for management modules. - **Redirection.config** - IIS 7 and later support the management of several IIS servers from a single, centralized configuration file. This configuration file contains the settings that indicate the location where the centralized configuration files are stored.
+- **ApplicationHost.config** - This configuration file stores the settings for all your Web sites and applications.
+- **Administration.config** - This configuration file stores the settings for IIS management. These settings include the list of management modules that are installed for the IIS Manager tool, as well as configuration settings for management modules.
+- **Redirection.config** - IIS 7 and later support the management of several IIS servers from a single, centralized configuration file. This configuration file contains the settings that indicate the location where the centralized configuration files are stored.
 
 > [!NOTE]
 > Some settings can be delegated to Web.config files, which may override settings in the ApplicationHost.config file. In addition, settings that are not delegated cannot be added to Web.config files.
