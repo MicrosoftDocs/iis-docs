@@ -11,6 +11,7 @@ ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/phprojekt-on-iis
 msc.type: authoredcontent
+redirect_url: /iis/
 ---
 PHProjekt on IIS
 ====================
