@@ -19,7 +19,7 @@ The main advantage of using custom authentication providers is that user account
 > The custom authentication providers that are added to the `<customAuthentication/providers>` element must be registered in the [`<system.ftpServer/providerDefinitions>`](../../../../../../../../system.ftpserver/providerdefinitions/index.md) collection.
 
 > [!NOTE]
-> Support for creating custom authentication providers was introduced in FTP 7.5. For additional information about how to create custom authentication providers, see the [Developing for FTP 7.5](../../../../../../../../learn/develop/developing-for-ftp.md) section of Microsoft's [www.iis.net/learn](../../../../../../../../learn.md) Web site.
+> Support for creating custom authentication providers was introduced in FTP 7.5. For additional information about how to create custom authentication providers, see the [Developing for FTP 7.5](../../../../../../../../../develop/developing-for-ftp.md) section of Microsoft's [www.iis.net/learn](../../../../../../../../learn.md) Web site.
 
 <a id="002"></a>
 ## Compatibility
