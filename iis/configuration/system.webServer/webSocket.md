@@ -126,4 +126,4 @@ The following sample code configures **&lt;webSocket&gt;** for a site.
 
 ### PowerShell
 
-[!code-ps[Main](webSocket/samples/sample-0-7.unknown)]
+[!code-powershell[Main](webSocket/samples/sample7.ps1)]

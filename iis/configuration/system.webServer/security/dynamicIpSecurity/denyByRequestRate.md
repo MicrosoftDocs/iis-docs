@@ -116,4 +116,4 @@ The following examples configure **&lt;dynamicIpSecurity&gt;** for a site.
 
 ### PowerShell
 
-[!code-ps[Main](denyByRequestRate/samples/sample-0-7.unknown)]
+[!code-powershell[Main](denyByRequestRate/samples/sample7.ps1)]

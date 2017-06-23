@@ -115,4 +115,4 @@ The following examples configure **&lt;dynamicIpSecurity&gt;** for a site.
 
 ### PowerShell
 
-[!code-ps[Main](denyByConcurrentRequests/samples/sample-0-7.unknown)]
+[!code-powershell[Main](denyByConcurrentRequests/samples/sample7.ps1)]

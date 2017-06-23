@@ -129,4 +129,4 @@ The following examples configure default custom fields for a W3C log.
 
 ### PowerShell
 
-[!code-ps[Main](add/samples/sample-0-7.unknown)]
+[!code-powershell[Main](add/samples/sample7.ps1)]

@@ -3,7 +3,7 @@ Modules &lt;modules&gt;
 <a id="001"></a>
 ## Overview
 
-The `<modules>` element specifies the features that are available in IIS Manager when a user is connected to a site or an application. The `<MODULES>` element works with the `<moduleProviders>` element in the following way:
+The `<modules>` element specifies the features that are available in IIS Manager when a user is connected to a site or an application. The `<modules>` element works with the `<moduleProviders>` element in the following way:
 
 - The `<moduleProviders>` element specifies the list of module providers for IIS Manager.
 - The `<modules>` element specifies the list of modules that will appear as features when a user connects to a site or an application to IIS Manager.
@@ -11,7 +11,7 @@ The `<modules>` element specifies the features that are available in IIS Manager
 You can configure which modules will be available for individual Web sites using `<location>` tags, so that each Web site or application can be customized to suit your needs. For example, you could configure the site-level management for a Web site to allow only a small subset of features, and configure a child application for a broader set of features.
 
 > [!NOTE]
-> This collection of modules is specific to IIS Manager and should not be confused with the [&lt;SYSTEM.WEBSERVER modules&gt;](../system.webserver/modules/index.md) collection, which defines modules that affect HTTP request processing.
+> This collection of modules is specific to IIS Manager and should not be confused with the [&lt;system.webServer modules&gt;](../system.webserver/modules/index.md) collection, which defines modules that affect HTTP request processing.
 
 > [!NOTE]
 > The settings in the `<modules>` element can only be configured in the Administration.config file.

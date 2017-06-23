@@ -124,4 +124,4 @@ The following examples configure **&lt;applicationInitialization&gt;** for a sit
 
 ### PowerShell
 
-[!code-ps[Main](add/samples/sample-0-7.unknown)]
+[!code-powershell[Main](add/samples/sample7.ps1)]

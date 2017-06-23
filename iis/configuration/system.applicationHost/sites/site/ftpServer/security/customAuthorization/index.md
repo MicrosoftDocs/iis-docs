@@ -132,4 +132,4 @@ The following code samples configure a custom authorization provider.
 
 ### PowerShell
 
-[!code-ps[Main](index/samples/sample-0-8.unknown)]
+[!code-powershell[Main](index/samples/sample8.ps1)]
