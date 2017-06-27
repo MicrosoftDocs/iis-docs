@@ -1,3 +1,17 @@
+---
+title: "HTTP Compression &lt;httpCompression&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;httpCompression&gt; element specifies the HTTP compression settings for Internet Information Services (IIS) 7. HTTP compression can provide..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/httpcompression
+msc.type: config
+---
 HTTP Compression &lt;httpCompression&gt;
 ====================
 <a id="001"></a>

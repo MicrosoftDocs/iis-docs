@@ -1,3 +1,17 @@
+---
+title: "Adding Static Content MIME Mappings &lt;mimeMap&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;mimeMap&gt; element of the &lt;staticContent&gt; element adds a unique MIME type to the collection of static content types. Each &lt;mimeMap..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/staticcontent/mimemap
+msc.type: config
+---
 Adding Static Content MIME Mappings &lt;mimeMap&gt;
 ====================
 <a id="001"></a>

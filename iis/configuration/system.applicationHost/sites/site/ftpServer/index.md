@@ -1,3 +1,17 @@
+---
+title: "FTP Site-level Settings &lt;ftpServer&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;ftpServer&gt; element of the &lt;site&gt; element specifies the site-level settings for FTP features for FTP sites. In IIS 6.0, the settings..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver
+msc.type: config
+---
 FTP Site-level Settings &lt;ftpServer&gt;
 ====================
 <a id="001"></a>

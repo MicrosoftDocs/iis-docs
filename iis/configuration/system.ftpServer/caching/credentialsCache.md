@@ -1,3 +1,17 @@
+---
+title: "FTP Credentials Cache &lt;credentialsCache&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;credentialsCache&gt; element of the &lt;caching&gt; element specifies the credential settings for the FTP service. The FTP service caches us..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.ftpserver/caching/credentialscache
+msc.type: config
+---
 FTP Credentials Cache &lt;credentialsCache&gt;
 ====================
 <a id="001"></a>

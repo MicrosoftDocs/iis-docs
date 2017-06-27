@@ -1,3 +1,17 @@
+---
+title: "Configuration Path Search Results &lt;searchResult&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;searchResult&gt; element of the &lt;configPaths&gt; element contains a collection of configuration search results. Compatibility Version Not..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/configpaths/searchresult
+msc.type: config
+---
 Configuration Path Search Results &lt;searchResult&gt;
 ====================
 <a id="001"></a>

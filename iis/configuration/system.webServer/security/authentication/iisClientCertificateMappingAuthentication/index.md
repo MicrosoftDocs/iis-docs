@@ -1,3 +1,17 @@
+---
+title: "IIS Client Certificate Mapping Authentication &lt;iisClientCertificateMappingAuthentication&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;iisClientCertificateMappingAuthentication&gt; element of the &lt;authentication&gt; element specifies the settings for Client Certificate Ma..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication
+msc.type: config
+---
 IIS Client Certificate Mapping Authentication &lt;iisClientCertificateMappingAuthentication&gt;
 ====================
 <a id="001"></a>

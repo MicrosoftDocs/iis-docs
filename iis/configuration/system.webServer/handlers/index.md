@@ -1,3 +1,17 @@
+---
+title: "Handlers &lt;handlers&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;handlers&gt; element defines the handlers registered for a specific file name extension or URL. Handlers are Internet Information Services (..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/handlers
+msc.type: config
+---
 Handlers &lt;handlers&gt;
 ====================
 <a id="001"></a>

@@ -1,3 +1,17 @@
+---
+title: "ASP Limits &lt;limits&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;limits&gt; element of the &lt;asp&gt; element specifies the following Active Server Pages (ASP) connection and queue limits for Internet Inf..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/asp/limits
+msc.type: config
+---
 ASP Limits &lt;limits&gt;
 ====================
 <a id="001"></a>

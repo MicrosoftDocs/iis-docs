@@ -1,3 +1,17 @@
+---
+title: "FTP Command Filtering &lt;commandFiltering&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;commandFiltering&gt; element specifies a collection of FTP commands that the FTP service will allow or deny. The &lt;commandFiltering&gt; el..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/commandfiltering
+msc.type: config
+---
 FTP Command Filtering &lt;commandFiltering&gt;
 ====================
 <a id="001"></a>

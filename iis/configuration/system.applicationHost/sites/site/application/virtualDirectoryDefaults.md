@@ -1,3 +1,17 @@
+---
+title: "Virtual Directory Defaults &lt;virtualDirectoryDefaults&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;virtualDirectoryDefaults&gt; element of the &lt;application&gt; element specifies the default settings for all virtual directories in the pa..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site/application/virtualdirectorydefaults
+msc.type: config
+---
 Virtual Directory Defaults &lt;virtualDirectoryDefaults&gt;
 ====================
 <a id="001"></a>

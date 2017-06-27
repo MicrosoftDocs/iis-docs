@@ -1,3 +1,17 @@
+---
+title: "Application Defaults &lt;applicationDefaults&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;applicationDefaults&gt; element of the &lt;site&gt; element specifies the default application settings for all applications in the parent si..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site/applicationdefaults
+msc.type: config
+---
 Application Defaults &lt;applicationDefaults&gt;
 ====================
 <a id="001"></a>

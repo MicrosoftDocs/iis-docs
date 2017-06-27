@@ -1,3 +1,17 @@
+---
+title: "Adding Header Limits &lt;add&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;add&gt; element of the &lt;headerLimits&gt; collection specifies the maximum size limit for an HTTP header. Note : When request filtering bl..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/requestfiltering/requestlimits/headerlimits/add
+msc.type: config
+---
 Adding Header Limits &lt;add&gt;
 ====================
 <a id="001"></a>

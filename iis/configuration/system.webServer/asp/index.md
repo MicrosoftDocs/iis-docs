@@ -1,3 +1,17 @@
+---
+title: "ASP &lt;asp&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;asp&gt; element specifies configuration settings for an ASP application. These include developer-focused configuration settings, such as att..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/asp
+msc.type: config
+---
 ASP &lt;asp&gt;
 ====================
 <a id="001"></a>

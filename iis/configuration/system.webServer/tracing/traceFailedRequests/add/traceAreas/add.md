@@ -1,3 +1,17 @@
+---
+title: "Adding Trace Areas &lt;add&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview Each &lt;add&gt; element in the &lt;traceAreas&gt; collection defines the trace provider to use for failed request tracing, the provider-specific ar..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/tracing/tracefailedrequests/add/traceareas/add
+msc.type: config
+---
 Adding Trace Areas &lt;add&gt;
 ====================
 <a id="001"></a>

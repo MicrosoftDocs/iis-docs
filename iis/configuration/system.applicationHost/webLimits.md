@@ -1,3 +1,17 @@
+---
+title: "Web Limits &lt;webLimits&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;webLimits&gt; element specifies TCP/IP connection and bandwidth limits. Every 60 seconds, a worker process checks how long it has been idle...."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/weblimits
+msc.type: config
+---
 Web Limits &lt;webLimits&gt;
 ====================
 <a id="001"></a>

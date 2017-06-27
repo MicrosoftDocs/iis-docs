@@ -1,3 +1,17 @@
+---
+title: "Configuration Reference &lt;configuration&gt; | Microsoft Docs"
+author: rick-anderson
+description: "IIS Configuration Reference Internet Information Services (IIS) 7 and later use an XML-based configuration system for storing IIS settings which replaces the..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference
+msc.type: config
+---
 Configuration Reference &lt;configuration&gt;
 ====================
 ## IIS Configuration Reference

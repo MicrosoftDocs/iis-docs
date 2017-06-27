@@ -1,3 +1,17 @@
+---
+title: "Validation &lt;validation&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;validation&gt; element configures Internet Information Services (IIS) 7 to detect whether an ASP.NET application that is set up to run in Cl..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/validation
+msc.type: config
+---
 Validation &lt;validation&gt;
 ====================
 <a id="001"></a>

@@ -1,3 +1,17 @@
+---
+title: "Default FTP Firewall Support Settings &lt;firewallSupport&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;ftpServer/firewallSupport&gt; element of the &lt;siteDefaults&gt; element is used to configure the way that the FTP service works with firew..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/firewallsupport
+msc.type: config
+---
 Default FTP Firewall Support Settings &lt;firewallSupport&gt;
 ====================
 <a id="001"></a>

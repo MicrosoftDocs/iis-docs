@@ -1,3 +1,17 @@
+---
+title: "Many-To-One Mappings &lt;manyToOneMappings&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;manyToOneMappings&gt; element of the &lt;iisClientCertificateMappingAuthentication&gt; element maps multiple client certificates to a user a..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings
+msc.type: config
+---
 Many-To-One Mappings &lt;manyToOneMappings&gt;
 ====================
 <a id="001"></a>

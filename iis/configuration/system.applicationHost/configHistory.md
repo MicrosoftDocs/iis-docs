@@ -1,3 +1,17 @@
+---
+title: "Configuration History &lt;configHistory&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;configHistory&gt; element defines the settings for the built-in IIS configuration history feature, which keeps a running history of changes..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/confighistory
+msc.type: config
+---
 Configuration History &lt;configHistory&gt;
 ====================
 <a id="001"></a>

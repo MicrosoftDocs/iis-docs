@@ -1,3 +1,17 @@
+---
+title: "Default Limits for Web Sites &lt;limits&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;limits&gt; element of the &lt;siteDefaults&gt; element configures default settings that limit the amount of bandwidth, the number of connect..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/limits
+msc.type: config
+---
 Default Limits for Web Sites &lt;limits&gt;
 ====================
 <a id="001"></a>

@@ -1,3 +1,17 @@
+---
+title: "Trace Failed Requests Logging for a Site &lt;traceFailedRequestsLogging&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;traceFailedRequestsLogging&gt; element of the &lt;site&gt; element sets the failed request tracing options for site, such as the directory f..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site/tracefailedrequestslogging
+msc.type: config
+---
 Trace Failed Requests Logging for a Site &lt;traceFailedRequestsLogging&gt;
 ====================
 <a id="001"></a>

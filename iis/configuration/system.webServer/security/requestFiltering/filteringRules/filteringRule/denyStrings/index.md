@@ -1,3 +1,17 @@
+---
+title: "Deny Strings for Filtering Rules &lt;denyStrings&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;denyStrings&gt; element of the &lt;filteringRule&gt; element defines a collection of strings for which a request filtering rule applies. The..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings
+msc.type: config
+---
 Deny Strings for Filtering Rules &lt;denyStrings&gt;
 ====================
 <a id="001"></a>

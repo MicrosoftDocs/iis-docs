@@ -1,3 +1,17 @@
+---
+title: "Request Filtering &lt;requestFiltering&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview Request Filtering is a built-in security feature that was introduced in Internet Information Services (IIS) 7.0, and replaces much of the functional..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/requestfiltering
+msc.type: config
+---
 Request Filtering &lt;requestFiltering&gt;
 ====================
 <a id="001"></a>

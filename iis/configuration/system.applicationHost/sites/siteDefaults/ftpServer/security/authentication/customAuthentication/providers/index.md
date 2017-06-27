@@ -1,3 +1,17 @@
+---
+title: "Default FTP Custom Authentication Providers &lt;providers&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;providers&gt; element specifies the default collection of custom FTP authentication providers for FTP sites. When custom authentication prov..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/customauthentication/providers
+msc.type: config
+---
 Default FTP Custom Authentication Providers &lt;providers&gt;
 ====================
 <a id="001"></a>

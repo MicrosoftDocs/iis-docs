@@ -1,3 +1,17 @@
+---
+title: "Always Allowed Query Strings &lt;alwaysAllowedQueryStrings&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;alwaysAllowedQueryStrings&gt; element specifies a collection of query strings that request filtering will always allow. The &lt;alwaysAllowe..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/requestfiltering/alwaysallowedquerystrings
+msc.type: config
+---
 Always Allowed Query Strings &lt;alwaysAllowedQueryStrings&gt;
 ====================
 <a id="001"></a>

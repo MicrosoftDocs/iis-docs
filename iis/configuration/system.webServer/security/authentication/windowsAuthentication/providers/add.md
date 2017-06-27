@@ -1,3 +1,17 @@
+---
+title: "Adding Windows Authentication Providers &lt;add&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;add&gt; element of the &lt;providers&gt; collection in the &lt;windowsAuthentication&gt; element specifies a unique authentication provider..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication/providers/add
+msc.type: config
+---
 Adding Windows Authentication Providers &lt;add&gt;
 ====================
 <a id="001"></a>

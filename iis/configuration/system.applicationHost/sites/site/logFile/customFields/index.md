@@ -1,3 +1,17 @@
+---
+title: "Custom Fields in a Log File for a Site &lt;customFields&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;customFields&gt; element of the &lt;logFile&gt; element specifies the configuration settings for a collection of custom fields in a W3C log...."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site/logfile/customfields
+msc.type: config
+---
 Custom Fields in a Log File for a Site &lt;customFields&gt;
 ====================
 <a id="001"></a>

@@ -1,3 +1,17 @@
+---
+title: "Site &lt;site&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;site&gt; configuration element controls the configuration of a specific Web site that you run on your IIS 7 and later server. For example, t..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site
+msc.type: config
+---
 Site &lt;site&gt;
 ====================
 <a id="001"></a>

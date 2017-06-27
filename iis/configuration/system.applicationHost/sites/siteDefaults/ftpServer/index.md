@@ -1,3 +1,17 @@
+---
+title: "Default FTP Site-level Settings &lt;ftpServer&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;ftpServer&gt; element of the &lt;siteDefaults&gt; element specifies the default settings for FTP features for all FTP sites. In IIS 6.0, the..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver
+msc.type: config
+---
 Default FTP Site-level Settings &lt;ftpServer&gt;
 ====================
 <a id="001"></a>

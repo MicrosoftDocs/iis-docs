@@ -1,3 +1,17 @@
+---
+title: "FTP Session &lt;session&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;sessions&gt; element is a dynamically generated collection of &lt;session&gt; elements, each of which is dynamically created by the FTP serv..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/sessions/session
+msc.type: config
+---
 FTP Session &lt;session&gt;
 ====================
 <a id="001"></a>

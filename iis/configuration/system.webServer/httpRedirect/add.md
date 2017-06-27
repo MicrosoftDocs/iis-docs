@@ -1,3 +1,17 @@
+---
+title: "Adding HTTP Wildcard Redirects &lt;add&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;add&gt; element of the &lt;httpRedirect&gt; element adds a wildcard redirection rule to the collection of redirection rules. Wildcard rules..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/httpredirect/add
+msc.type: config
+---
 Adding HTTP Wildcard Redirects &lt;add&gt;
 ====================
 <a id="001"></a>

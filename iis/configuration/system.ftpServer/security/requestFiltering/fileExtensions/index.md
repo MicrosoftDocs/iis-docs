@@ -1,3 +1,17 @@
+---
+title: "FTP File Name Extensions &lt;fileExtensions&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;fileExtensions&gt; element contains a collection of &lt;add&gt; elements that specify unique file name extensions that IIS will either allow..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.ftpserver/security/requestfiltering/fileextensions
+msc.type: config
+---
 FTP File Name Extensions &lt;fileExtensions&gt;
 ====================
 <a id="001"></a>

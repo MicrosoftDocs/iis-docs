@@ -1,3 +1,17 @@
+---
+title: "Virtual Directory &lt;virtualDirectory&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;virtualDirectory&gt; element is a child of the &lt;application&gt; element and controls the configuration settings for a specific virtual di..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site/application/virtualdirectory
+msc.type: config
+---
 Virtual Directory &lt;virtualDirectory&gt;
 ====================
 <a id="001"></a>

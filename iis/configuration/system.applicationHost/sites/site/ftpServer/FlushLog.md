@@ -1,3 +1,17 @@
+---
+title: "FTP Site Flush Log Method &lt;FlushLog&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;FlushLog&gt; method forces all entries in the FTP log buffer to be written from the buffer into the log file, emptying the buffer. &lt;Flush..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/flushlog
+msc.type: config
+---
 FTP Site Flush Log Method &lt;FlushLog&gt;
 ====================
 <a id="001"></a>

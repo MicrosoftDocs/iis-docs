@@ -1,3 +1,17 @@
+---
+title: "Adding One-To-One Mappings &lt;add&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;add&gt; element of the &lt;oneToOneMappings&gt; element specifies a unique mapping between an individual client certificate and an individua..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/onetoonemappings/add
+msc.type: config
+---
 Adding One-To-One Mappings &lt;add&gt;
 ====================
 <a id="001"></a>

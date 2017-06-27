@@ -1,3 +1,17 @@
+---
+title: "Management Authorization Providers &lt;providers&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;providers&gt; element of the &lt;authorization&gt; element specifies authorization providers that authorize IIS Manager users and Windows us..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/management/authorization/providers
+msc.type: config
+---
 Management Authorization Providers &lt;providers&gt;
 ====================
 <a id="001"></a>

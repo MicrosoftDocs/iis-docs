@@ -1,3 +1,17 @@
+---
+title: "Anonymous Authentication &lt;anonymousAuthentication&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;anonymousAuthentication&gt; element controls how Internet Information Services (IIS) 7 processes requests from anonymous users. You can modi..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/authentication/anonymousauthentication
+msc.type: config
+---
 Anonymous Authentication &lt;anonymousAuthentication&gt;
 ====================
 <a id="001"></a>

@@ -1,3 +1,17 @@
+---
+title: "Redirect Headers &lt;redirectHeaders&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;redirectHeaders&gt; element specifies a collection of custom HTTP headers that Internet Information Services (IIS) 7 will add to HTTP redire..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/httpprotocol/redirectheaders
+msc.type: config
+---
 Redirect Headers &lt;redirectHeaders&gt;
 ====================
 <a id="001"></a>

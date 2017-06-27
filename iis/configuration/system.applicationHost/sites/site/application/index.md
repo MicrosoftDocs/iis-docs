@@ -1,3 +1,17 @@
+---
+title: "Application for a Site &lt;application&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;application&gt; element controls the configuration settings for a specific application. An application in Internet Information Services (IIS..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site/application
+msc.type: config
+---
 Application for a Site &lt;application&gt;
 ====================
 <a id="001"></a>

@@ -1,3 +1,17 @@
+---
+title: "Adding Listener Adapters &lt;add&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;add&gt; element of the &lt;listenerAdapters&gt; specifies configuration settings for a non-HTTP listener adapter that can be used by Windows..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/listeneradapters/add
+msc.type: config
+---
 Adding Listener Adapters &lt;add&gt;
 ====================
 <a id="001"></a>

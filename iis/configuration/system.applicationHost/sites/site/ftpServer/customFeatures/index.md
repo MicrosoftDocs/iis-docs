@@ -1,3 +1,17 @@
+---
+title: "FTP Custom Features &lt;customFeatures&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;customFeatures&gt; element is used to specify the collection of FTP providers that will implement custom functionality for an FTP site. Note..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/customfeatures
+msc.type: config
+---
 FTP Custom Features &lt;customFeatures&gt;
 ====================
 <a id="001"></a>

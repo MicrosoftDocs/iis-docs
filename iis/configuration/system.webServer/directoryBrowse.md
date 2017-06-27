@@ -1,3 +1,17 @@
+---
+title: "Directory Browse &lt;directoryBrowse&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;directoryBrowse&gt; element controls the information that is displayed in a directory listing when you enable directory browsing for your We..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/directorybrowse
+msc.type: config
+---
 Directory Browse &lt;directoryBrowse&gt;
 ====================
 <a id="001"></a>

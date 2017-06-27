@@ -1,3 +1,17 @@
+---
+title: "Default FTP SSL Client Certificate Settings &lt;sslClientCertificates&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;sslClientCertificates&gt; element specifies the SSL client certificate options for FTP sites. More specifically, this element contains the f..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/sslclientcertificates
+msc.type: config
+---
 Default FTP SSL Client Certificate Settings &lt;sslClientCertificates&gt;
 ====================
 <a id="001"></a>

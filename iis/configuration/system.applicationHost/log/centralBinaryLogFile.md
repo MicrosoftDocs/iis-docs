@@ -1,3 +1,17 @@
+---
+title: "Central Binary Log File &lt;centralBinaryLogFile&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;centralBinaryLogFile&gt; element specifies the central binary log settings for all sites on a server. Note : You need to set the centralLogF..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/log/centralbinarylogfile
+msc.type: config
+---
 Central Binary Log File &lt;centralBinaryLogFile&gt;
 ====================
 <a id="001"></a>

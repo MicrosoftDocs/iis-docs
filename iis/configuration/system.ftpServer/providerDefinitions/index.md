@@ -1,3 +1,17 @@
+---
+title: "FTP Provider Definitions &lt;providerDefinitions&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;providerDefinitions&gt; element specifies the collection of custom FTP providers. The &lt;providerDefinitions&gt; element contains a collect..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.ftpserver/providerdefinitions
+msc.type: config
+---
 FTP Provider Definitions &lt;providerDefinitions&gt;
 ====================
 <a id="001"></a>

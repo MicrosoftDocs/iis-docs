@@ -1,3 +1,17 @@
+---
+title: "FTP Central Logging Options &lt;centralLogFile&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;centralLogFile&gt; element specifies the settings for the central log file, which is used when you specify centralLogFileMode for the centra..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.ftpserver/log/centrallogfile
+msc.type: config
+---
 FTP Central Logging Options &lt;centralLogFile&gt;
 ====================
 <a id="001"></a>

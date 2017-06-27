@@ -1,3 +1,17 @@
+---
+title: "FTP Provider Activation &lt;activation&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;activation&gt; element of the &lt;providerDefinitions&gt; element defines a collection of custom name/value pairs that specify any parameter..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.ftpserver/providerdefinitions/activation
+msc.type: config
+---
 FTP Provider Activation &lt;activation&gt;
 ====================
 <a id="001"></a>

@@ -1,3 +1,17 @@
+---
+title: "Client Cache &lt;clientCache&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;clientCache&gt; element of the &lt;staticContent&gt; element specifies cache-related HTTP headers that IIS 7 and later sends to Web clients,..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/staticcontent/clientcache
+msc.type: config
+---
 Client Cache &lt;clientCache&gt;
 ====================
 <a id="001"></a>

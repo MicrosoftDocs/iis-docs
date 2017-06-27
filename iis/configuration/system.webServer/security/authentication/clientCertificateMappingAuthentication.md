@@ -1,3 +1,17 @@
+---
+title: "Client Certificate Mapping Authentication &lt;clientCertificateMappingAuthentication&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview &lt;clientCertificateMappingAuthentication&gt; element of the &lt;authentication&gt; element specifies whether client certificate mapping using Acti..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/authentication/clientcertificatemappingauthentication
+msc.type: config
+---
 Client Certificate Mapping Authentication &lt;clientCertificateMappingAuthentication&gt;
 ====================
 <a id="001"></a>

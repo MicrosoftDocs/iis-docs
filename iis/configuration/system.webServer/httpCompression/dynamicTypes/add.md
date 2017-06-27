@@ -1,3 +1,17 @@
+---
+title: "Adding Dynamic Types &lt;add&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;add&gt; element of the &lt;dynamicTypes&gt; element adds a unique MIME type to the list of types that IIS 7 will compress dynamically. Note..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/httpcompression/dynamictypes/add
+msc.type: config
+---
 Adding Dynamic Types &lt;add&gt;
 ====================
 <a id="001"></a>

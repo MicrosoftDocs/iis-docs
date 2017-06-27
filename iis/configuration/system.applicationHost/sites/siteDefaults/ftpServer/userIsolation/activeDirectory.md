@@ -1,3 +1,17 @@
+---
+title: "Default FTP Active Directory User Isolation Settings &lt;activeDirectory&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;activeDirectory&gt; element specifies the credentials and connection time-out for communicating with an Active Directory server for FTP user..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/userisolation/activedirectory
+msc.type: config
+---
 Default FTP Active Directory User Isolation Settings &lt;activeDirectory&gt;
 ====================
 <a id="001"></a>

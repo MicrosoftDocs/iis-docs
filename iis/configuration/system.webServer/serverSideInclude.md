@@ -1,3 +1,17 @@
+---
+title: "Server Side Include &lt;serverSideInclude&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;serverSideInclude&gt; element specifies whether server-side includes (SSI) #exec directives are disabled for Internet Information Services (..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/serversideinclude
+msc.type: config
+---
 Server Side Include &lt;serverSideInclude&gt;
 ====================
 <a id="001"></a>

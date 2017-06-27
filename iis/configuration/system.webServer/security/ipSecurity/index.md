@@ -1,3 +1,17 @@
+---
+title: "IP Security &lt;ipSecurity&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;ipSecurity&gt; element defines a list of IP-based security restrictions in IIS 7 and later. These restrictions can be based on the IP versio..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/ipsecurity
+msc.type: config
+---
 IP Security &lt;ipSecurity&gt;
 ====================
 <a id="001"></a>

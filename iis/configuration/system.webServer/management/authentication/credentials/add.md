@@ -1,3 +1,17 @@
+---
+title: "Adding Management Authentication Credentials &lt;add&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;add&gt; element of the &lt;credentials&gt; element adds a user account to the collection of IIS Manager users for Internet Information Servi..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/management/authentication/credentials/add
+msc.type: config
+---
 Adding Management Authentication Credentials &lt;add&gt;
 ====================
 <a id="001"></a>

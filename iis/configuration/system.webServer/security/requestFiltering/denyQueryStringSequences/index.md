@@ -1,3 +1,17 @@
+---
+title: "Deny Query String Sequences &lt;denyQueryStringSequences&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;denyQueryStringSequences&gt; element contains a collection of &lt;add&gt; elements that specify sequences of query string characters that II..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/requestfiltering/denyquerystringsequences
+msc.type: config
+---
 Deny Query String Sequences &lt;denyQueryStringSequences&gt;
 ====================
 <a id="001"></a>

@@ -1,3 +1,17 @@
+---
+title: "Environment Variable &lt;environmentVariable&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;environmentVariable&gt; element of the &lt;environmentVariables&gt; element adds a unique name/value pair of an environment variable that In..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/fastcgi/application/environmentvariables/environmentvariable
+msc.type: config
+---
 Environment Variable &lt;environmentVariable&gt;
 ====================
 <a id="001"></a>

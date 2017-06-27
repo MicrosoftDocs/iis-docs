@@ -1,3 +1,17 @@
+---
+title: "HTTP Errors &lt;httpErrors&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;httpErrors&gt; element allows you to configure custom error messages for your Web site or application. Custom error messages let you provide..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/httperrors
+msc.type: config
+---
 HTTP Errors &lt;httpErrors&gt;
 ====================
 <a id="001"></a>

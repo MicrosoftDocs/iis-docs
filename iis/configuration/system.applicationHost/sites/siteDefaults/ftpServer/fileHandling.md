@@ -1,3 +1,17 @@
+---
+title: "Default FTP File Handling Settings &lt;fileHandling&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;fileHandling&gt; element is used to specify the way that the FTP service handles file operations. For example, the keepPartialUploads attrib..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/filehandling
+msc.type: config
+---
 Default FTP File Handling Settings &lt;fileHandling&gt;
 ====================
 <a id="001"></a>

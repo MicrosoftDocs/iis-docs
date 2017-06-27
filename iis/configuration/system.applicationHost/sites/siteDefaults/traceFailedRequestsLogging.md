@@ -1,3 +1,17 @@
+---
+title: "Default Trace Failed Requests Logging for a Site &lt;traceFailedRequestsLogging&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;traceFailedRequestsLogging&gt; element of the &lt;siteDefaults&gt; element sets the failed request tracing options for all sites, such as th..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/tracefailedrequestslogging
+msc.type: config
+---
 Default Trace Failed Requests Logging for a Site &lt;traceFailedRequestsLogging&gt;
 ====================
 <a id="001"></a>

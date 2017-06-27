@@ -1,3 +1,17 @@
+---
+title: "Adding Trace Failed Requests &lt;add&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview Each &lt;add&gt; element in the &lt;traceFailedRequests&gt; collection can include a &lt;traceAreas&gt; element that defines the tracing providers a..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/tracing/tracefailedrequests/add
+msc.type: config
+---
 Adding Trace Failed Requests &lt;add&gt;
 ====================
 <a id="001"></a>

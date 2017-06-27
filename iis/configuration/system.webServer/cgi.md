@@ -1,3 +1,17 @@
+---
+title: "CGI &lt;cgi&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;cgi&gt; element configures default settings for Common Gateway Interface (CGI) applications for Internet Information Services (IIS) 7. These..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/cgi
+msc.type: config
+---
 CGI &lt;cgi&gt;
 ====================
 <a id="001"></a>

@@ -1,3 +1,17 @@
+---
+title: "Default Document Files &lt;files&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;files&gt; element of the &lt;defaultDocument&gt; collection specifies a list of file names that are configured as default documents. The &lt..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/defaultdocument/files
+msc.type: config
+---
 Default Document Files &lt;files&gt;
 ====================
 <a id="001"></a>

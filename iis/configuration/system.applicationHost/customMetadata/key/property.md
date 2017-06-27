@@ -1,3 +1,17 @@
+---
+title: "Custom Metadata Key Property &lt;property&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;property&gt; element of the &lt;key&gt; element adds a metabase property to the collection of metabase properties. Important Note : The &lt;..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/custommetadata/key/property
+msc.type: config
+---
 Custom Metadata Key Property &lt;property&gt;
 ====================
 <a id="001"></a>

@@ -1,3 +1,17 @@
+---
+title: "WebDAV &lt;webdav&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;webdav&gt; element contains the settings that configure Web Distributed Authoring and Versioning (WebDAV) for Internet Information Services..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/webdav
+msc.type: config
+---
 WebDAV &lt;webdav&gt;
 ====================
 <a id="001"></a>

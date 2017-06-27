@@ -1,3 +1,17 @@
+---
+title: "Hidden Segments &lt;hiddenSegments&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;hiddenSegments&gt; element contains a collection of &lt;add&gt; elements that identify certain URLs IIS 7 will make inaccessible to clients...."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/requestfiltering/hiddensegments
+msc.type: config
+---
 Hidden Segments &lt;hiddenSegments&gt;
 ====================
 <a id="001"></a>

@@ -1,3 +1,17 @@
+---
+title: "Windows Authentication Providers &lt;providers&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;providers&gt; collection of the &lt;windowsAuthentication&gt; element defines the list of authentication providers that are used with the In..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication/providers
+msc.type: config
+---
 Windows Authentication Providers &lt;providers&gt;
 ====================
 <a id="001"></a>

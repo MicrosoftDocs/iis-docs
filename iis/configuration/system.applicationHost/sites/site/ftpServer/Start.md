@@ -1,3 +1,17 @@
+---
+title: "FTP Site Start Method &lt;Start&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;Start&gt; method of the &lt;ftpServer&gt; element starts the FTP site that &lt;ftpServer&gt; applies to. Once the &lt;Start&gt; method has b..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/start
+msc.type: config
+---
 FTP Site Start Method &lt;Start&gt;
 ====================
 <a id="001"></a>

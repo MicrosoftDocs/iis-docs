@@ -1,3 +1,17 @@
+---
+title: "Header Limits &lt;headerLimits&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;headerLimits&gt; element of the &lt;requestFiltering&gt; collection contains a collection of &lt;add&gt; elements that specify the maximum s..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/requestfiltering/requestlimits/headerlimits
+msc.type: config
+---
 Header Limits &lt;headerLimits&gt;
 ====================
 <a id="001"></a>

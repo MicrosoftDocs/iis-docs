@@ -1,3 +1,17 @@
+---
+title: "Management Trusted Providers &lt;trustedProviders&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;trustedProviders&gt; element of the &lt;management&gt; element configures the management providers that are trusted by IIS Manager and the M..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/management/trustedproviders
+msc.type: config
+---
 Management Trusted Providers &lt;trustedProviders&gt;
 ====================
 <a id="001"></a>

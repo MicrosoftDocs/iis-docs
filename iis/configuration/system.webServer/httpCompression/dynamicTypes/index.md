@@ -1,3 +1,17 @@
+---
+title: "Dynamic Types &lt;dynamicTypes&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;dynamicTypes&gt; element of the &lt;httpCompression&gt; element contains a collection of &lt;add&gt; elements that add unique MIME types to..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/httpcompression/dynamictypes
+msc.type: config
+---
 Dynamic Types &lt;dynamicTypes&gt;
 ====================
 <a id="001"></a>

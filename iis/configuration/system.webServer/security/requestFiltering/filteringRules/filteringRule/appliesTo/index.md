@@ -1,3 +1,17 @@
+---
+title: "File Name Extensions for Filtering Rules &lt;appliesTo&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;appliesTo&gt; element of the &lt;filteringRule&gt; element defines a collection of file name extensions to which a request filtering rule ap..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/appliesto
+msc.type: config
+---
 File Name Extensions for Filtering Rules &lt;appliesTo&gt;
 ====================
 <a id="001"></a>

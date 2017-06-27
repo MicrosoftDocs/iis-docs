@@ -1,3 +1,17 @@
+---
+title: "ODBC Logging &lt;odbcLogging&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;odbcLogging&gt; element configures Open Database Connectivity (ODBC) logging for Internet Information Services (IIS) 7. ODBC logging records..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/odbclogging
+msc.type: config
+---
 ODBC Logging &lt;odbcLogging&gt;
 ====================
 <a id="001"></a>

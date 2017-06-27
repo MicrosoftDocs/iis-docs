@@ -1,3 +1,17 @@
+---
+title: "FTP Custom Authorization &lt;customAuthorization&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;customAuthorization&gt; element specifies the settings for custom authorization of an FTP site. This form of authorization uses custom autho..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/customauthorization
+msc.type: config
+---
 FTP Custom Authorization &lt;customAuthorization&gt;
 ====================
 <a id="001"></a>

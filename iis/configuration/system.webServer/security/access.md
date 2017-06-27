@@ -1,3 +1,17 @@
+---
+title: "Access Security &lt;access&gt; | Microsoft Docs"
+author: rick-anderson
+description: "Overview The &lt;access&gt; element allows you to configure whether a Web site or application uses client certificates for authentication and allows you to d..."
+ms.author: iiscontent
+manager: soshir
+ms.date: 06/26/2017
+ms.topic: article
+ms.assetid: 
+ms.technology: iis-config
+ms.prod: iis
+msc.legacyurl: /configreference/system.webserver/security/access
+msc.type: config
+---
 Access Security &lt;access&gt;
 ====================
 <a id="001"></a>
