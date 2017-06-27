@@ -127,5 +127,3 @@ The following code samples configure denying access to the FTP server based upon
 ### PowerShell
 
 [!code-powershell[Main](denyByFailure/samples/sample7.ps1)]
-
-[!code-console[Main](denyByFailure/samples/sample8.cmd)]
