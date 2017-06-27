@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;recycling&gt; element contains configuration settings that control the conditions that trigger IIS 7 to restart an application pool. You can..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

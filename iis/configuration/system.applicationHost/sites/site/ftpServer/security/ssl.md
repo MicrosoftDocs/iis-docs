@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;ssl&gt; element specifies the FTP over Secure Sockets Layer (SSL) settings for the FTP service; FTP over SSL was first introduced for IIS 7..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;configurationRedirection&gt; element lets you to share configuration files from a centralized location to multiple Internet Information Serv..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

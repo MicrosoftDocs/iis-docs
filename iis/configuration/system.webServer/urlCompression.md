@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;urlCompression&gt; element specifies the following settings for static and dynamic content compression in IIS 7 and later: The doDynamicComp..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

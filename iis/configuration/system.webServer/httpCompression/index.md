@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;httpCompression&gt; element specifies the HTTP compression settings for Internet Information Services (IIS) 7. HTTP compression can provide..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

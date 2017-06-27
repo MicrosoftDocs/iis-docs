@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;logFile&gt; element of the &lt;site&gt; element contains attributes that allow you to configure logging for a site on IIS 7 and later. For e..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

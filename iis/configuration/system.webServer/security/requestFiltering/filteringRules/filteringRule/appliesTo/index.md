@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;appliesTo&gt; element of the &lt;filteringRule&gt; element defines a collection of file name extensions to which a request filtering rule ap..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;centralLogFile&gt; element specifies the settings for the central log file, which is used when you specify centralLogFileMode for the centra..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

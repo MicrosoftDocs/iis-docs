@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;siteDefaults&gt; element specifies default settings for all sites on the server. These settings are useful when you want to specify options..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

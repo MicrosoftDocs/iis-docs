@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;customAuthentication&gt; element specifies the settings for Custom authentication for an FTP site. This form of authentication uses custom a..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

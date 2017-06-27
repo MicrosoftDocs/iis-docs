@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;applicationDefaults&gt; element of the &lt;site&gt; element specifies the default application settings for all applications in the parent si..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;clientCache&gt; element of the &lt;staticContent&gt; element specifies cache-related HTTP headers that IIS 7 and later sends to Web clients,..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

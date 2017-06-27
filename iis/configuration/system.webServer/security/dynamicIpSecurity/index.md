@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;dynamicIpSecurity&gt; element provides a dynamic means of blocking malicious Web requests. Using dynamic IP restrictions means the administr..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

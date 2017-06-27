@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;virtualDirectory&gt; element is a child of the &lt;application&gt; element and controls the configuration settings for a specific virtual di..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

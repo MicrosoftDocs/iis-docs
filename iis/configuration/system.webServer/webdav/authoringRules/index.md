@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;authoringRules&gt; element can be defined per-URI within a Web site, and specifies the WebDAV authoring permissions for that URI space. The..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

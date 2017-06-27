@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;hostNameSupport&gt; element specifies domain name syntax is supported for virtual host names. FTP virtual host names were introduced in FTP..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

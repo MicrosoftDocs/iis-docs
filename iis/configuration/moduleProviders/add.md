@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;moduleProviders&gt; element adds a module to the list of module providers for IIS Manager. Each module provider e..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

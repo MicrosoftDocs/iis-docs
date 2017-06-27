@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;verbs&gt; element specifies which HTTP verbs are allowed or denied to limit the type of HTTP requests that are allowed by the Web server. No..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

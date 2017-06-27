@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;webLimits&gt; element specifies TCP/IP connection and bandwidth limits. Every 60 seconds, a worker process checks how long it has been idle...."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Note Note : Do not use. This element has been deprecated. Use system.webServer/management instead."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;oneToOneMappings&gt; element specifies a unique mapping between an individual client certificate and an individua..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

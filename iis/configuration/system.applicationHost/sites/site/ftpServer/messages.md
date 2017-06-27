@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;messages&gt; element is used to specify the message that the FTP service will display to FTP clients. The messages that are specified for th..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

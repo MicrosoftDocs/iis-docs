@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;add&gt; element under the &lt;customField&gt; element controls the configuration settings for a custom field for a W3C log for a site. IIS 8..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

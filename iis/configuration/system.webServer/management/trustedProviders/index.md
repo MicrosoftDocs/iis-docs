@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;trustedProviders&gt; element of the &lt;management&gt; element configures the management providers that are trusted by IIS Manager and the M..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

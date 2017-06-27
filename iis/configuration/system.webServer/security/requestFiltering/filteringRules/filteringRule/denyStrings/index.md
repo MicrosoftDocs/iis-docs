@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;denyStrings&gt; element of the &lt;filteringRule&gt; element defines a collection of strings for which a request filtering rule applies. The..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview By using the &lt;processModel&gt; element, you can configure many of the security, performance, health, and reliability features of application pool..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

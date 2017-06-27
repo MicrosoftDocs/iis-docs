@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;userIsolation&gt; element is used to start or restrict FTP clients in specific sections of an FTP site. Depending on the options that are sp..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

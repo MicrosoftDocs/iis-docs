@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;centralW3CLogFile&gt; element specifies the central W3C log settings for all sites on a server. Note : You need to set the centralLogFileMod..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

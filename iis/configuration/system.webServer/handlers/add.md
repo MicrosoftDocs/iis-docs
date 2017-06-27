@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;handlers&gt; collection adds a handler to the list of HTTP handlers for Internet Information Services (IIS) 7. Co..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

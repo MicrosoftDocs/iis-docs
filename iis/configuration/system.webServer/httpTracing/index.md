@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;httpTracing&gt; element allows you to configure request-based event tracing for incoming IIS requests, and contains a &lt;traceUrls&gt; elem..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 06/26/2017
+ms.date: 9/26/2016 12:00:00 AM
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
