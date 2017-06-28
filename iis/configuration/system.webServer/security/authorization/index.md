@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;authorization&gt; element allows you to configure the user accounts that can access your site or application. Use authorization in combinati..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

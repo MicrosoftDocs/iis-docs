@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;requestLimits&gt; element specifies limits on HTTP requests that are processed by the Web server. These limits include the maximum size of a..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

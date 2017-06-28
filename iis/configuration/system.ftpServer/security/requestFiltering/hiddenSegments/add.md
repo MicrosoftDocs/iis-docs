@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;hiddenSegments&gt; collection specifies a unique URL segment to add to the collection of hidden segments for FTP..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -157,7 +157,7 @@ The `<add>` element of the `<hiddenSegments>` element is configured at the globa
 
 | Attribute | Description |
 | --- | --- |
-| `segment` | Required string attribute. Specifies part of the file system that should never be served to clients. <br><br>**Note:** There is no default value, but FTP access to the \_vti\_bin virtual directory is blocked when the FTP service is installed. |
+| `segment` | Required string attribute. Specifies part of the file system that should never be served to clients. **Note:** There is no default value, but FTP access to the \_vti\_bin virtual directory is blocked when the FTP service is installed. |
 
 ### Child Elements
 

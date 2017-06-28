@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;schedule&gt; collection of the &lt;periodicRestart&gt; element specifies the time intervals between restarts of worker processes in an appli..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

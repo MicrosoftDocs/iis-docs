@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;traceFailedRequestsLogging&gt; element of the &lt;siteDefaults&gt; element sets the failed request tracing options for all sites, such as th..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -118,7 +118,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 | `directory` | Optional string attribute. Specifies the failed request trace logging directory for a site. The default value is `%SystemDrive%\inetpub\logs\FailedReqLogFiles`. |
 | `enabled` | Optional Boolean attribute. Specifies whether failed request trace logging is enabled for a site (**true**) or disabled (**false**). The default value is `false`. |
 | `maxLogFiles` | Optional uint attribute. Specifies the maximum number of failed request tracing log files to keep for the site. The default value is `50`. |
-| `maxLogFileSizeKB` | Optional uint attribute. Specifies the maximum file size in kilobytes for failed request tracing logs. <br><br>**Note:** If failed request tracing logs exceed this value, IIS will truncate the logs at the maximum file size and specify LOG\_FILE\_MAX\_SIZE\_TRUNCATE for the trace event. The default value is `1024`. |
+| `maxLogFileSizeKB` | Optional uint attribute. Specifies the maximum file size in kilobytes for failed request tracing logs. **Note:** If failed request tracing logs exceed this value, IIS will truncate the logs at the maximum file size and specify LOG\_FILE\_MAX\_SIZE\_TRUNCATE for the trace event. The default value is `1024`. |
 
 ### Child Elements
 

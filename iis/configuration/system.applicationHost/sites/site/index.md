@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;site&gt; configuration element controls the configuration of a specific Web site that you run on your IIS 7 and later server. For example, t..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -165,7 +165,7 @@ You configure the `<site>` element at the server level in the ApplicationHost.co
 | [`application`](application/index.md) | Optional element. Specifies a collection of configuration settings for applications in the site. |
 | [`applicationDefaults`](applicationdefaults.md) | Optional element. Specifies default settings for all applications in the parent site. |
 | [`bindings`](bindings/index.md) | Optional element. Specifies bindings to access the site. |
-| [`ftpServer`](ftpserver/index.md) | Optional element. Specifies FTP settings for the site. <br><br>**Note:** This requires installing FTP 7.0 or FTP 7.5. |
+| [`ftpServer`](ftpserver/index.md) | Optional element. Specifies FTP settings for the site. **Note:** This requires installing FTP 7.0 or FTP 7.5. |
 | [`limits`](limits.md) | Optional element. Configures settings to limit the amount of bandwidth, the number of connections, or the amount of time for connections to a site. |
 | [`logFile`](logfile/index.md) | Optional element. Configures settings for handling and storage of log files for the site. |
 | [`traceFailedRequestsLogging`](../sitedefaults/index.md) | Optional element. Specifies settings for logging failed-request traces for the site. |

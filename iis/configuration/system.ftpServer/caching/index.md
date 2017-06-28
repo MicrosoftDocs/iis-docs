@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;caching&gt; element specifies the credential settings for the FTP service. The FTP service caches user credentials for performance reasons,..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

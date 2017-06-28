@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;validation&gt; element configures Internet Information Services (IIS) 7 to detect whether an ASP.NET application that is set up to run in Cl..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

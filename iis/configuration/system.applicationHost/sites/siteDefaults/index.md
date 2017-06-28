@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;siteDefaults&gt; element specifies default settings for all sites on the server. These settings are useful when you want to specify options..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -83,7 +83,7 @@ The `<siteDefaults>` element of the `<sites>` element is included in the default
 | Element | Description |
 | --- | --- |
 | [`bindings`](bindings/index.md) | Optional element. Specifies default bindings for access to sites. |
-| [`ftpServer`](ftpserver/index.md) | Optional element. Specifies default settings for FTP sites. <br><br>**Note:** This requires installing FTP 7.0 or FTP 7.5. |
+| [`ftpServer`](ftpserver/index.md) | Optional element. Specifies default settings for FTP sites. **Note:** This requires installing FTP 7.0 or FTP 7.5. |
 | [`limits`](limits.md) | Optional element. Configures default settings to limit the amount of bandwidth, the number of connections, or the amount of time for connections to sites. |
 | [`logFile`](logfile/index.md) | Optional element. Configures default settings for handling and storage of log files for sites. |
 | [`traceFailedRequestsLogging`](tracefailedrequestslogging.md) | Optional element. Specifies default settings for logging failed-request traces for sites. |

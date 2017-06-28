@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;tracing&gt; section group contains failed request tracing settings that you have configured and contains trace provider definitions provided..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;oneToOneMappings&gt; element specifies a unique mapping between an individual client certificate and an individua..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -90,7 +90,7 @@ There is no user interface for configuring IIS Client Certificate Mapping authen
 | --- | --- |
 | `certificate` | Required string attribute. Specifies the base64-encoded public certificate from a client certificate. IIS will compare this certificate with the copy of the certificate sent over the internet by a Web client. The two data strings must be identical for the mapping to proceed. If a client gets another certificate, it will not match the original, even if the copy contains all the same user information as the original. If there are line breaks in the base64-encoded string of the client certificate in this attribute, you must remove them. Line breaks can interfere with the server's ability to compare the server's certificate with the certificate sent by the browser. |
 | `enabled` | Optional Boolean attribute. Specifies whether the one-to-one mapping is enabled. The default value is `true`. |
-| `password` | Optional string attribute. Specifies the password of the account used to authenticate clients. <br><br>**Note:** To avoid storing unencrypted password strings in configuration files, always use AppCmd.exe to enter passwords. If you use these management tools, the password strings will be encrypted automatically before they are written to the XML configuration files. This provides better password security than storing unencrypted passwords. |
+| `password` | Optional string attribute. Specifies the password of the account used to authenticate clients. **Note:** To avoid storing unencrypted password strings in configuration files, always use AppCmd.exe to enter passwords. If you use these management tools, the password strings will be encrypted automatically before they are written to the XML configuration files. This provides better password security than storing unencrypted passwords. |
 | `username` | Optional string attribute. Specifies the user name of the account used to authenticate clients. |
 
 ### Child Elements

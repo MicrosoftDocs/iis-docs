@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;properties&gt; element defines a mapping for an XML namespace to a property store provider. Note : WebDAV defines..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -122,8 +122,8 @@ The `<properties>` element is configurable only at the site level in the Applica
 
 | Attribute | Description |
 | --- | --- |
-| `xmlNamespace` | Required string attribute. Specifies the XML namespace for the mapping. <br><br>**Note:** The wildcard "\*" character is used to define the default namespace mapping, and any namespace that does not have a unique mapping will use the wildcard mapping. If a WebDAV client uses an XML namespace for which there is no specific namespace mapping and a wildcard mapping does not exist, the properties cannot be stored. The default value is `false`. |
-| `propertyStore` | Required string attribute. Specifies the property store for the mapping. <br><br>**Note:** The name of the property store must be defined in the [&lt;propertyStores&gt;](../../globalsettings/propertystores/index.md) collection. The default value is `false`. |
+| `xmlNamespace` | Required string attribute. Specifies the XML namespace for the mapping. **Note:** The wildcard "\*" character is used to define the default namespace mapping, and any namespace that does not have a unique mapping will use the wildcard mapping. If a WebDAV client uses an XML namespace for which there is no specific namespace mapping and a wildcard mapping does not exist, the properties cannot be stored. The default value is `false`. |
+| `propertyStore` | Required string attribute. Specifies the property store for the mapping. **Note:** The name of the property store must be defined in the [&lt;propertyStores&gt;](../../globalsettings/propertystores/index.md) collection. The default value is `false`. |
 
 ### Child Elements
 

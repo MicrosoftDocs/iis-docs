@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;windowsAuthentication&gt; element defines configuration settings for the Internet Information Services (IIS) 7 Windows authentication module..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -162,7 +162,7 @@ The `<windowsAuthentication>` element is configurable at the site, application, 
 
 | Attribute | Description |
 | --- | --- |
-| `authPersistNonNTLM` | Optional **Boolean** attribute. Specifies whether IIS automatically reauthenticates every non-NTLM (for example, Kerberos) request, even those on the same connection. **False** enables multiple authentications for the same connections. <br><br>**Note:** A setting of **true** means that the client will be authenticated only once on the same connection. IIS will cache a token or ticket on the server for a TCP session that stays established. The default is `false`. |
+| `authPersistNonNTLM` | Optional **Boolean** attribute. Specifies whether IIS automatically reauthenticates every non-NTLM (for example, Kerberos) request, even those on the same connection. **False** enables multiple authentications for the same connections. **Note:** A setting of **true** means that the client will be authenticated only once on the same connection. IIS will cache a token or ticket on the server for a TCP session that stays established. The default is `false`. |
 | `authPersistSingleRequest` | Optional **Boolean** attribute. Setting this flag to **true** specifies that authentication persists only for a single request on a connection. IIS resets the authentication at the end of each request, and forces reauthentication on the next request of the session. The default value is `false`. |
 | `enabled` | Required **Boolean** attribute. Specifies whether Windows authentication is enabled. The default value is `false`. |
 | `useKernelMode` | Optional **Boolean** attribute. Specifies whether Windows authentication is done in kernel mode. **True** specifies that Windows authentication uses kernel mode. Kernel-mode authentication may improve authentication performance and prevent authentication problems with application pools that are configured to use a custom identity. As a best practice, do not disable this setting if you use Kerberos authentication and have a custom identity on the application pool. The default is `true`. |
@@ -171,7 +171,7 @@ The `<windowsAuthentication>` element is configurable at the site, application, 
 
 | Element | Description |
 | --- | --- |
-| [`extendedProtection`](extendedprotection/index.md) | Optional element. Specifies extended protection options for Windows authentication. <br><br>**Note:** This element was added in IIS 7.5. |
+| [`extendedProtection`](extendedprotection/index.md) | Optional element. Specifies extended protection options for Windows authentication. **Note:** This element was added in IIS 7.5. |
 | [`providers`](providers/index.md) | Optional element. Specifies security support providers used for Windows authentication. |
 
 ### Configuration Sample

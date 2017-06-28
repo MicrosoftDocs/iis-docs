@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;ipSecurity&gt; element defines a list of IP-based security restrictions in FTP 7. These restrictions can be based on the IP version 4 addres..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;providerData&gt; element specifies the collection of key/value pairs that specify any parameters that a custom provider requires. Beginning..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -162,7 +162,7 @@ The `<providerData>` element the `<activation>` element is configured at the glo
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies the friendly name of the custom provider. <br><br>**Note:** This name must match the name of a provider that is specified by a [`<providerDefinitions/add>`](../../add.md) element. There is no default value. |
+| `name` | Required string attribute. Specifies the friendly name of the custom provider. **Note:** This name must match the name of a provider that is specified by a [`<providerDefinitions/add>`](../../add.md) element. There is no default value. |
 
 ### Child Elements
 

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;connections&gt; element specifies the connection-related settings for FTP sites. More specifically, the settings in the &lt;connections&gt;..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -142,13 +142,13 @@ The `<connections>` element is configured at the site level.
 
 | Attribute | Description |
 | --- | --- |
-| `controlChannelTimeout` | Optional int attribute. Specifies the timeout, in seconds, when a connection will be timed out because of inactivity on the control channel. <br><br>**Note:** The FTP service will disconnect the session when this timeout is reached. The default value is `120`. |
-| `dataChannelTimeout` | Optional int attribute. Specifies the timeout, in seconds, when a connection will be timed out because of inactivity on the data channel. <br><br>**Note:** The FTP service will only disconnect the data channel when this timeout is reached. The default value is `30`. |
+| `controlChannelTimeout` | Optional int attribute. Specifies the timeout, in seconds, when a connection will be timed out because of inactivity on the control channel. **Note:** The FTP service will disconnect the session when this timeout is reached. The default value is `120`. |
+| `dataChannelTimeout` | Optional int attribute. Specifies the timeout, in seconds, when a connection will be timed out because of inactivity on the data channel. **Note:** The FTP service will only disconnect the data channel when this timeout is reached. The default value is `30`. |
 | `disableSocketPooling` | Optional **Boolean** attribute. **true** if socket pooling is disabled; otherwise, **false**. The `disableSocketPooling` attribute specifies whether socket pooling is used for sites that are distinguished by IP address rather than port number or host name. If `disableSocketPooling` is set to **false**, then socket pooling is enabled and sockets are shared between sites that use the same socket number but different IP addresses. In this situation, the FTP service becomes the exclusive owner of the port on each address that is bound to the server. For example, if socket pooling is enabled on a server that has two IP addresses, 10.0.0.1 and 10.0.0.2, and an FTP site is bound to address 10.0.0.1 on port 21, the FTP service will also own port 21 on the 10.0.0.2 address. If `disableSocketPooling` is set to **true**, then there is no socket sharing for sites based on IP address. The default value is `false`. |
-| `maxBandwidth` | Unused uint attribute. <br><br>**Note:** This attribute is not implemented for FTP 7. |
-| `maxConnections` | Optional unit attribute. Specifies the maximum number of simultaneous connections for an FTP site. <br><br>**Note:** Use the maxClientsMessage attribute of the &lt;messages&gt; element to specify a message that the FTP service will return to clients when the maximum number of simultaneous connections has been exceeded. The default value is `4294967295` (unlimited.) |
-| `minBytesPerSecond` | Optional int attribute. Specifies the minimum bandwidth requirements for data transfers. <br><br>**Note:** The FTP service will disconnect the data channel when the minimum bandwidth is not met. The default value is `240`. |
-| `resetOnMaxConnections` | Optional **Boolean** attribute. **true** if the FTP service should quickly disconnect an FTP session instead of sending a maximum connections response; otherwise **false**. <br><br>**Note:** The `resetOnMaxConnections` attribute optimizes the overhead when processing connections that are not allowed to connect because **maxConnection** limit was reached. The default value is `false`. |
+| `maxBandwidth` | Unused uint attribute. **Note:** This attribute is not implemented for FTP 7. |
+| `maxConnections` | Optional unit attribute. Specifies the maximum number of simultaneous connections for an FTP site. **Note:** Use the maxClientsMessage attribute of the &lt;messages&gt; element to specify a message that the FTP service will return to clients when the maximum number of simultaneous connections has been exceeded. The default value is `4294967295` (unlimited.) |
+| `minBytesPerSecond` | Optional int attribute. Specifies the minimum bandwidth requirements for data transfers. **Note:** The FTP service will disconnect the data channel when the minimum bandwidth is not met. The default value is `240`. |
+| `resetOnMaxConnections` | Optional **Boolean** attribute. **true** if the FTP service should quickly disconnect an FTP session instead of sending a maximum connections response; otherwise **false**. **Note:** The `resetOnMaxConnections` attribute optimizes the overhead when processing connections that are not allowed to connect because **maxConnection** limit was reached. The default value is `false`. |
 | `serverListenBacklog` | Optional int attribute. Specifies the number of outstanding sockets that can be queued. The default value is `60`. |
 | `unauthenticatedTimeout` | Optional int attribute. Specifies the idle time-out, in seconds, between when a new connection is made and authentication succeeds. If the client does not successfully authenticate within the specified time period, the FTP service will disconnect the session. The default value is `30`. |
 

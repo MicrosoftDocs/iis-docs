@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview Each &lt;add&gt; element in the &lt;traceFailedRequests&gt; collection can include a &lt;traceAreas&gt; element that defines the tracing providers a..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -142,7 +142,7 @@ After you finish the default installation of IIS 7 and later, you must install t
 | --- | --- |
 | `customActionExe` | Optional string attribute. Specifies an executable file to run when a failure condition is reached (for example, to run a VBScript file, specify "Cscript.exe"). All command-line variables will be expanded. For example, "%*windir*%" will be expanded to the path of the Windows directory. |
 | `customActionParams` | Optional string attribute. Contains parameters to pass to the executable file specified in the customActionExe attribute. Command-line variables such as "%*windir*%" will be expanded. You may also use parameter variables such as "%1" and "%2" in the string that you specify (for example, "MyScript.vbs %1 %2"). |
-| `customActionTriggerLimit` | Optional uint attribute. Specifies the maximum number of times the program specified by the customActionExe attribute will execute during the lifetime of the worker process for the failed-request definition. This value resets every time that the worker process recycles. Permissible values are from 0 through 10000. This feature can be used, for example, to create a memory dump after the next failure but not after subsequent failures. <br><br>**Note:** If the CustomActionTriggerLimit value that you specify is reached during the run time of the worker process, subsequent failed requests will be logged, but the program specified in CustomActionExe will not run. The entries in the failed-requests log will indicate that the CustomActionTriggerLimit value has been reached. The default is `1`. |
+| `customActionTriggerLimit` | Optional uint attribute. Specifies the maximum number of times the program specified by the customActionExe attribute will execute during the lifetime of the worker process for the failed-request definition. This value resets every time that the worker process recycles. Permissible values are from 0 through 10000. This feature can be used, for example, to create a memory dump after the next failure but not after subsequent failures. **Note:** If the CustomActionTriggerLimit value that you specify is reached during the run time of the worker process, subsequent failed requests will be logged, but the program specified in CustomActionExe will not run. The entries in the failed-requests log will indicate that the CustomActionTriggerLimit value has been reached. The default is `1`. |
 | `path` | Required string attribute. Specifies the path for which you want to log trace events. The path is relative to the URL (virtual directory/directory). Sub paths cannot be used. In addition, the path must be local to the directory where the definition is set. Wildcard values can be used, for example, "\*.aspx". For tracing the default document, use "/" as the path value. |
 
 ### Child Elements

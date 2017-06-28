@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;staticContent&gt; element configures several settings related to processing requests for static files in Internet Information Services (IIS)..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -60,7 +60,7 @@ There is no user interface for configuring the `<staticContent>` element for IIS
 
 | Attribute | Description |
 | --- | --- |
-| `defaultDocFooter` | Optional string attribute. Specifies either the default footer text for every Web page on a site, or the path of a file that contains the default footer text. How IIS 7 uses this property depends on the value of the **isDocFooterFileName** attribute. <br><br>**Note:** The custom footer will only be sent if the **enableDocFooter** attribute is set to **true**. |
+| `defaultDocFooter` | Optional string attribute. Specifies either the default footer text for every Web page on a site, or the path of a file that contains the default footer text. How IIS 7 uses this property depends on the value of the **isDocFooterFileName** attribute. **Note:** The custom footer will only be sent if the **enableDocFooter** attribute is set to **true**. |
 | `enableDocFooter` | Optional Boolean attribute. Specifies whether the text indicated by the **defaultDocFooter** attribute will appear on every static page on a Web site. The default value is `false`. |
 | `isDocFooterFileName` | Optional Boolean attribute. Specifies whether the string in the **defaultDocFooter** attribute contains a path of a file that contains the default footer text for every static Web page on a site. The default value is `false`. |
 

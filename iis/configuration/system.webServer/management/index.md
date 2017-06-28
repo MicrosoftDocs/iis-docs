@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;management&gt; element specifies remote management settings for users that connect to your server using IIS Manager. The &lt;management&gt;..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

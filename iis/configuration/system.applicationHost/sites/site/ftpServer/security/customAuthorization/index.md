@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;customAuthorization&gt; element specifies the settings for custom authorization of an FTP site. This form of authorization uses custom autho..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

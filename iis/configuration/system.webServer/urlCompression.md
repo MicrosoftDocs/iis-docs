@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;urlCompression&gt; element specifies the following settings for static and dynamic content compression in IIS 7 and later: The doDynamicComp..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -159,7 +159,7 @@ HTTP compression is usually available on the default installation of IIS 7 and l
 
 | Attribute | Description |
 | --- | --- |
-| `doDynamicCompression` | Optional Boolean attribute. Specifies whether dynamic compression is enabled for URLs. <br><br>**Note:** In IIS 7.0, the use of dynamic compression was disabled by default because of increased processor utilization that may have reduced the overall performance of the Web server. In IIS 7.5, changes were made to dynamic compression that resulted in better performance, so dynamic compression is enabled by default in IIS 7.5 and later. The default value is `true`. |
+| `doDynamicCompression` | Optional Boolean attribute. Specifies whether dynamic compression is enabled for URLs. **Note:** In IIS 7.0, the use of dynamic compression was disabled by default because of increased processor utilization that may have reduced the overall performance of the Web server. In IIS 7.5, changes were made to dynamic compression that resulted in better performance, so dynamic compression is enabled by default in IIS 7.5 and later. The default value is `true`. |
 | `doStaticCompression` | Optional Boolean attribute. Specifies whether static compression is enabled for URLs. The default value is `true`. |
 | `dynamicCompressionBeforeCache` | Optional Boolean attribute. Specifies whether the currently available response is dynamically compressed before it is put into the output cache. The default value is `false`. |
 

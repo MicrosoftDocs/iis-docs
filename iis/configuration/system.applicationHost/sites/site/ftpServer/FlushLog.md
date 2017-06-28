@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;FlushLog&gt; method forces all entries in the FTP log buffer to be written from the buffer into the log file, emptying the buffer. &lt;Flush..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;modules&gt; element defines the native-code modules and managed-code modules that are registered for an application. As a part of Internet I..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -81,7 +81,7 @@ You configure the `<modules>` element at the server level in the ApplicationHost
 
 | Attribute | Description |
 | --- | --- |
-| `runAllManagedModulesForAllRequests` | Optional Boolean value. **True** if all managed modules can process all requests, even if the request was not for managed content; otherwise, **false**. <br><br>**Note:** In ASP.NET websites, the value of `runAllManagedModulesForAllRequests` previously had to be set to `true` to support routing. However, once IIS 7 has been updated with a Service Pack, the value of `runAllManagedModulesForAllRequests` can be set to `false` or omitted when working with ASP.NET routing. For more information, see [ASP.NET Routing](https://go.microsoft.com/fwlink/?LinkID=215230) on the MSDN website. The default value is `false`. |
+| `runAllManagedModulesForAllRequests` | Optional Boolean value. **True** if all managed modules can process all requests, even if the request was not for managed content; otherwise, **false**. **Note:** In ASP.NET websites, the value of `runAllManagedModulesForAllRequests` previously had to be set to `true` to support routing. However, once IIS 7 has been updated with a Service Pack, the value of `runAllManagedModulesForAllRequests` can be set to `false` or omitted when working with ASP.NET routing. For more information, see [ASP.NET Routing](https://go.microsoft.com/fwlink/?LinkID=215230) on the MSDN website. The default value is `false`. |
 | `runManagedModulesForWebDavRequests` | Optional Boolean value. **True** if managed modules can process WebDAV requests; otherwise, **false**. The default value is `false`. |
 
 ### Child Elements

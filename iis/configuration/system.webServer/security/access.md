@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;access&gt; element allows you to configure whether a Web site or application uses client certificates for authentication and allows you to d..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

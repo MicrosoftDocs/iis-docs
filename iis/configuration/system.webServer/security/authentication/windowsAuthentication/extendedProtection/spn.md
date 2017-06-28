@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;spn&gt; element adds a Service Principle Name (SPN) to the collection of SPNs. Each SPN specifies a unique endpoint for client activity usin..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -42,8 +42,8 @@ There are two attributes of the `<extendedProtection>` element that configure th
     | `None` | This flag specifies that no additional behavior is enabled for extended protection. (For example, no proxy server is being used and SPN checking is enabled and requires FQDNs.) The numerical value is `0`. |
     | `Proxy` | This flag specifies that part of the communication path will be through a proxy, or that the client is connecting directly to the destination server over HTTP. The numerical value is `1`. |
     | `NoServiceNameCheck` | This flag specifies that SPN checking is disabled; this flag should not be used in scenarios where only SPNs are being checked. The numerical value is `2`. |
-    | `AllowDotlessSpn` | This flag specifies that SPNs are not required to be FQDNs. Setting this flag allows NetBIOS-based SPNs. <br><br>**Note:** Setting this flag is not a secure scenario; non-FQDN-based names are vulnerable to name resolution poisoning attacks. The numerical value is `4`. |
-    | `ProxyCohosting` | This flag specifies that the entire client-to-server communication path will use HTTP only; no part of the communication path will use SSL, and SPN checking will be used. <br><br>**Note:** When you specify this flag, you must also specify the `Proxy` flag. The numerical value is `32`. |
+    | `AllowDotlessSpn` | This flag specifies that SPNs are not required to be FQDNs. Setting this flag allows NetBIOS-based SPNs. **Note:** Setting this flag is not a secure scenario; non-FQDN-based names are vulnerable to name resolution poisoning attacks. The numerical value is `4`. |
+    | `ProxyCohosting` | This flag specifies that the entire client-to-server communication path will use HTTP only; no part of the communication path will use SSL, and SPN checking will be used. **Note:** When you specify this flag, you must also specify the `Proxy` flag. The numerical value is `32`. |
 
 ### Extended Protection Scenarios
 

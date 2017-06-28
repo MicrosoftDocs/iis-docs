@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;ipSecurity&gt; element defines a list of IP-based security restrictions in IIS 7 and later. These restrictions can be based on the IP versio..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

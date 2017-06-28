@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;credentialsCache&gt; element of the &lt;caching&gt; element specifies the credential settings for the FTP service. The FTP service caches us..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -168,7 +168,7 @@ The `<credentialsCache>` element of the `<caching>` element is configured at the
 | Attribute | Description |
 | --- | --- |
 | `enabled` | Optional **Boolean** attribute. **true** if credential caching is enabled; otherwise, **false**. The default value is `true`. |
-| `flushInterval` | Optional uint attribute. Specifies the cache lifetime, in seconds, for credentials that are stored in the cache. <br><br>**Note:** This value must be between 5 and 604,800 seconds. The default value is `900`. |
+| `flushInterval` | Optional uint attribute. Specifies the cache lifetime, in seconds, for credentials that are stored in the cache. **Note:** This value must be between 5 and 604,800 seconds. The default value is `900`. |
 
 ### Child Elements
 

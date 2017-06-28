@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;comPlus&gt; element of the &lt;asp&gt; element configures the following COM+ settings for Active Server Pages (ASP) in Internet Information..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -127,8 +127,8 @@ To support and configure ASP applications on your Web server, you must install t
 | --- | --- |
 | `appServiceFlags` | Optional flags attribute. Contains the flags that must be set to enable COM+ services on your IIS applications. The **appServiceFlags** attribute can be one of the following possible values. The default value is `None`. | Value | Description | | --- | --- | | `None` | Specifies that no flags are set. The numeric value is `0`. | | `EnableTracker` | Setting this flag enables COM+ tracker, which allows administrators or developers to debug ASP applications. The numeric value is `1`. | | `EnableSxS` | Setting this flag enables COM+ side-by-side assemblies, which allow ASP applications to specify which version of a system DLL or classic COM component to use, such as WinHTTP 5.1, Shell Common Controls version 6.0 (Comctl32.dll), GDI Plus version 1.0 (GDIplus.dll), and Visual C++ Run-time Libraries version 6.0. If this flag is set, you must also specify a value for the **sxsName** attribute. The numeric value is `2`. | | `UsePartition` | Setting this flag enables COM+ partitioning, which can be used to isolate Web applications into their own COM+ partitions. COM+ partitions can hold different versions of your own custom COM components. If this flag is set, you must also specify a value for the **partitionId** attribute. The numeric value is `4`. | |
 | `executeInMta` | Optional Boolean attribute. Specifies whether ASP runs in a multithreaded environment. The default value is `false`. |
-| `partitionId` | Optional string attribute. Specifies the Globally Unique Identifier (GUID) of the COM+ partition. <br><br>**Note:** This attribute is required when the **appServiceFlags** attribute is set to **UsePartition** The default value is `00000000-0000-0000-0000-000000000000`. |
-| `sxsName` | Optional string attribute. <br><br>**Note:** This attribute is required when the **appServiceFlags** attribute is set to **EnableSxS**. Specifies the name of the COM+ application. |
+| `partitionId` | Optional string attribute. Specifies the Globally Unique Identifier (GUID) of the COM+ partition. **Note:** This attribute is required when the **appServiceFlags** attribute is set to **UsePartition** The default value is `00000000-0000-0000-0000-000000000000`. |
+| `sxsName` | Optional string attribute. **Note:** This attribute is required when the **appServiceFlags** attribute is set to **EnableSxS**. Specifies the name of the COM+ application. |
 | `trackThreadingModel` | Optional Boolean attribute. Specifies whether thread model checking is enabled. A value of **true** means that IIS honors the threading model of the components that an application creates. The default value is `false`. |
 
 ### Child Elements

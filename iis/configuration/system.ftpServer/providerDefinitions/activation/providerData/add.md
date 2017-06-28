@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;providerData&gt; element specifies a unique key/value pair, which defines a custom parameter that an FTP custom p..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -163,8 +163,8 @@ The `<add>` element of the `<providerData>` element is configured at the global 
 | Attribute | Description |
 | --- | --- |
 | `key` | Required string attribute. Specifies the unique name of the key for the key/value pair. There is no default value. |
-| `value` | Optional string attribute. Specifies the unencrypted value for the key/value pair. <br><br>**Note:** If the `value` attribute is used, do not use the `encryptedValue` attribute. There is no default value. |
-| `encryptedValue` | Optional string attribute. Specifies the unencrypted value for the key/value pair. <br><br>**Note:** If the `encryptedValue` attribute is used, do not use the `value` attribute. There is no default value. |
+| `value` | Optional string attribute. Specifies the unencrypted value for the key/value pair. **Note:** If the `value` attribute is used, do not use the `encryptedValue` attribute. There is no default value. |
+| `encryptedValue` | Optional string attribute. Specifies the unencrypted value for the key/value pair. **Note:** If the `encryptedValue` attribute is used, do not use the `value` attribute. There is no default value. |
 
 ### Child Elements
 

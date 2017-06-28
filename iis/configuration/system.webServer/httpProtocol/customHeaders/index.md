@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;customHeaders&gt; element of the &lt;httpProtocol&gt; element specifies custom HTTP headers that Internet Information Services (IIS) 7 will..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

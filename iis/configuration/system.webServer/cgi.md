@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;cgi&gt; element configures default settings for Common Gateway Interface (CGI) applications for Internet Information Services (IIS) 7. These..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -112,7 +112,7 @@ The `<cgi>` element is not included in the default installation of IIS 7 and lat
 
 | Attribute | Description |
 | --- | --- |
-| `createCGIWithNewConsole` | Optional Boolean attribute. Specifies whether a CGI application runs in its own console. <br><br>**Note:** If the value is set to **true**, each CGI application creates a new console when the application is started. A value of **false** indicates that CGI applications should run without a console. The default value is `false`. |
+| `createCGIWithNewConsole` | Optional Boolean attribute. Specifies whether a CGI application runs in its own console. **Note:** If the value is set to **true**, each CGI application creates a new console when the application is started. A value of **false** indicates that CGI applications should run without a console. The default value is `false`. |
 | `createProcessAsUser` | Optional Boolean attribute. Specifies whether a CGI process is created in the system context or in the context of the requesting user. The default value is `true`. |
 | `timeout` | Optional timeSpan attribute. Specifies the time-out for a CGI application. The default value is `00:15:00` (15 minutes) |
 

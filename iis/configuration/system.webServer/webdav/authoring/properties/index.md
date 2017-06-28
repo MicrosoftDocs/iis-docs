@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;properties&gt; element of the &lt;authoring&gt; element defines the locking behavior for the WebDAV module. More specifically, the &lt;prope..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -132,7 +132,7 @@ The `<properties>` element is configurable only at the site level in the Applica
 | --- | --- |
 | `allowAnonymousPropfind` | Optional **Boolean** attribute. **true** if anonymous WebDAV property requests are allowed; otherwise, **false**. **Important**: Most WebDAV verbs require authentication; however, anonymous WebDAV property requests may be allowed for backwards-compatibility for some WebDAV clients. Unless there is a specific requirement for your environment, anonymous WebDAV property requests should always be disabled because they introduce the chance of information disclosure for a Web site. For example, an anonymous WebDAV client can retrieve a list of files in your application. The default value is `false`. |
 | `allowInfinitePropfindDepth` | Optional **Boolean** attribute. **true** if infinite-depth WebDAV property requests are allowed; otherwise, **false**. **Important**: Allowing infinite-depth WebDAV property requests is strongly discouraged due to the amount of CPU time that may be required to fullfill an infinite-depth WebDAV property request. This could even lead to a denial of service for your application. Unless there is a specific requirement for your environment, infinite-depth WebDAV property requests should always be disabled. The default value is `false`. |
-| `allowCustomProperties` | Optional **Boolean** attribute. **true** if custom WebDAV properties are allowed; otherwise, **false**. <br><br>**Note:** Custom WebDAV properties are also known as "dead" properties. <br><br>**Note:** If `allowCustomProperties` is set to **true** but no property stores are defined or there are no XML namespace to property store mappings, no custom properties can be stored. The default value is `true`. |
+| `allowCustomProperties` | Optional **Boolean** attribute. **true** if custom WebDAV properties are allowed; otherwise, **false**. **Note:** Custom WebDAV properties are also known as "dead" properties. **Note:** If `allowCustomProperties` is set to **true** but no property stores are defined or there are no XML namespace to property store mappings, no custom properties can be stored. The default value is `true`. |
 
 ### Child Elements
 

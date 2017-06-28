@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;anonymousAuthentication&gt; element controls how Internet Information Services (IIS) 7 processes requests from anonymous users. You can modi..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -108,7 +108,7 @@ The `<anomymousAuthentication>` element is configurable at the site and applicat
 | --- | --- |
 | `enabled` | Optional Boolean attribute. Specifies whether Anonymous authentication is enabled. The default value is `true`. |
 | `logonMethod` | Optional enum attribute. The **logonMethod** attribute can be one of the following possible values. The default is `ClearText`. | Value | Description | | --- | --- | | `Batch` | This logon type is intended for batch servers, where processes may be executing on behalf of a user without that user's direct intervention. The numeric value is `1`. | | `ClearText` | This logon type preserves the name and password in the authentication package, which allows the server to make connections to other network servers while impersonating the client. The numeric value is `3`. | | `Interactive` | This logon type is intended for users who will be using the computer interactively. The numeric value is `0`. | | `Network` | This logon type is intended for high performance servers to authenticate plaintext passwords. Credentials are not cached for this logon type. The numeric value is `2`. | |
-| `password` | Optional String attribute. Specifies the password for Anonymous authentication. <br><br>**Note:** To avoid storing unencrypted password strings in configuration files, always use AppCmd.exe or IIS Manager to enter passwords. If you use these management tools, the password strings will be encrypted automatically before they are written to the XML configuration files. This provides better password security than storing unencrypted passwords. |
+| `password` | Optional String attribute. Specifies the password for Anonymous authentication. **Note:** To avoid storing unencrypted password strings in configuration files, always use AppCmd.exe or IIS Manager to enter passwords. If you use these management tools, the password strings will be encrypted automatically before they are written to the XML configuration files. This provides better password security than storing unencrypted passwords. |
 | `username` | Optional String attribute. Specifies the username for Anonymous authentication. If you leave this value blank (that is, username=""), Anonymous authentication uses the application pool identity to authenticate anonymous users. The default value is `IUSR`. |
 
 ### Child Elements

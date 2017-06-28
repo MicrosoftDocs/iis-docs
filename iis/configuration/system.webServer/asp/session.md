@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;session&gt; element of the &lt;asp&gt; element specifies the Active Server Pages (ASP) session state settings. Session state is a means by w..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;fastCgi&gt; element contains a collection of &lt;application&gt; elements, each of which creates a FastCGI application pool definition. Inte..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

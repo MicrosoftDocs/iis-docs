@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;directoryBrowse&gt; element is used to specify the content settings for directory browsing on FTP sites. When you configure directory browsi..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

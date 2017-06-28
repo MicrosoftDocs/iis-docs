@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;messages&gt; element is used to specify the message that the FTP service will display to FTP clients. The messages that are specified for th..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -162,7 +162,7 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
 | Attribute | Description |
 | --- | --- |
-| `allowLocalDetailedErrors` | Optional **Boolean** attribute. **true** if detailed error messages should be displayed locally; otherwise, **false**. <br><br>**Note:** Detailed error messages cannot be displayed remotely. The default value is `true`. |
+| `allowLocalDetailedErrors` | Optional **Boolean** attribute. **true** if detailed error messages should be displayed locally; otherwise, **false**. **Note:** Detailed error messages cannot be displayed remotely. The default value is `true`. |
 | `bannerMessage` | Optional string attribute. Specifies the message that is displayed when a client connects to the FTP server. There is no default value. |
 | `exitMessage` | Optional string attribute. Specifies the message that is displayed when a client is closing a connection to the FTP server. There is no default value. |
 | `expandVariables` | Optional **Boolean** attribute. **true** if user variables should be expanded; otherwise, **false**. The default value is `false`. |

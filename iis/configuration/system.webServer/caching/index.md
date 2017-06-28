@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;caching&gt; element allows you to enable or disable page output caching for an Internet Information Services (IIS) 7 application. This eleme..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -84,8 +84,8 @@ You can configure the `<caching>` element at the server level in the Application
 | --- | --- |
 | `enabled` | Optional Boolean attribute. Specifies whether page output caching is enabled. The default value is `true`. |
 | `enableKernelCache` | Optional Boolean attribute. Specifies whether kernel caching is enabled. The default value is `true`. |
-| `maxCacheSize` | Optional uint attribute. Specifies the maximum size of the output cache. <br><br>**Note:** This setting is effective only at the level of the ApplicationHost.config file. If you set this property at a lower level, it will have no effect. The default value is `0`. |
-| `maxResponseSize` | Optional uint attribute. Specifies the maximum response size that can be cached. <br><br>**Note:** This setting is effective only at the level of the ApplicationHost.config file. If you set this property at a lower level, it will have no effect. The default value is `262144`. |
+| `maxCacheSize` | Optional uint attribute. Specifies the maximum size of the output cache. **Note:** This setting is effective only at the level of the ApplicationHost.config file. If you set this property at a lower level, it will have no effect. The default value is `0`. |
+| `maxResponseSize` | Optional uint attribute. Specifies the maximum response size that can be cached. **Note:** This setting is effective only at the level of the ApplicationHost.config file. If you set this property at a lower level, it will have no effect. The default value is `262144`. |
 
 ### Child Elements
 

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;requestLimits&gt; element specifies limits on FTP requests that are processed by the FTP server. These limits include the maximum size of a..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -163,7 +163,7 @@ The `<requestLimits>` element of the `<requestFiltering>` element is configured 
 | Attribute | Description |
 | --- | --- |
 | `maxAllowedContentLength` | Optional int64 attribute. Specifies the maximum length of content in a request, in bytes. The default value is `0` (unlimited). |
-| `maxUrl` | Optional uint attribute. Specifies the maximum length of the request, in bytes. <br><br>**Note:** This value must be between 32 and 32768. The default value is `4096`. |
+| `maxUrl` | Optional uint attribute. Specifies the maximum length of the request, in bytes. **Note:** This value must be between 32 and 32768. The default value is `4096`. |
 
 ### Child Elements
 

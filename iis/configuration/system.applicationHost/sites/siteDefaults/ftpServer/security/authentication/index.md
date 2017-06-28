@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;authentication&gt; element specifies the authentication settings for FTP sites. The authentication settings are configured at the site-level..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -291,7 +291,7 @@ None.
 | [`anonymousAuthentication`](anonymousauthentication.md) | Optional element. Specifies the Anonymous authentication settings for FTP sites. |
 | [`basicAuthentication`](basicauthentication.md) | Optional element. Specifies the Basic authentication settings for FTP sites. |
 | [`clientCertAuthentication`](clientcertauthentication.md) | Optional element. Specifies the Client Certificate authentication settings for FTP sites. |
-| [`customAuthentication`](customauthentication/index.md) | Optional element. Specifies the Custom authentication settings for FTP sites. <br><br>**Note:** Custom authentication is implemented through custom authentication providers. |
+| [`customAuthentication`](customauthentication/index.md) | Optional element. Specifies the Custom authentication settings for FTP sites. **Note:** Custom authentication is implemented through custom authentication providers. |
 
 ### Configuration Sample
 

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;add&gt; element under the &lt;customFields&gt; element specifies the configuration settings for adding default custom fields in a W3C log. I..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;authorizationRules&gt; element of the &lt;authorization&gt; element specifies which IIS Manager users and Windows users are authorized to co..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

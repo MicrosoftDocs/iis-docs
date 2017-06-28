@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;filteringRule&gt; element adds a rule to the collection of custom request filtering rules in the &lt;filteringRules&gt; element. Each &lt;fi..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

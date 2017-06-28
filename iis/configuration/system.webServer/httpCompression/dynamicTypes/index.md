@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;dynamicTypes&gt; element of the &lt;httpCompression&gt; element contains a collection of &lt;add&gt; elements that add unique MIME types to..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

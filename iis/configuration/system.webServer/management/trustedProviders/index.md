@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;trustedProviders&gt; element of the &lt;management&gt; element configures the management providers that are trusted by IIS Manager and the M..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -88,7 +88,7 @@ There is no user interface for configuring the `<trustedProviders>` element for 
 
 | Attribute | Description |
 | --- | --- |
-| `allowUntrustedProviders` | Optional Boolean attribute. Specifies whether untrusted providers can run. <br><br>**Important Note:** For security reasons, it is not recommended to change this value to **true**, because it will allow untrusted code to run on your server. Instead, you should always test a provider and add it to the trusted providers collection only when it is safe. The default value is `false`. |
+| `allowUntrustedProviders` | Optional Boolean attribute. Specifies whether untrusted providers can run. **Important Note:** For security reasons, it is not recommended to change this value to **true**, because it will allow untrusted code to run on your server. Instead, you should always test a provider and add it to the trusted providers collection only when it is safe. The default value is `false`. |
 
 ### Child Elements
 

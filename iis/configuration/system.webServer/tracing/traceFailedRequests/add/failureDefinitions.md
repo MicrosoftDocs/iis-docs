@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;failureDefinitions&gt; element defines the conditions in which to trace requests. A failure condition consists of status codes, a time inter..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config

@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview The &lt;providerDefinitions&gt; element specifies the collection of custom FTP providers. The &lt;providerDefinitions&gt; element contains a collect..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
@@ -167,7 +167,7 @@ None.
 | Element | Description |
 | --- | --- |
 | [`add`](add.md) | Optional element. Specifies the registration information for a managed-code or native-code (COM) provider. |
-| [`activation`](activation/index.md) | Optional element. Specifies a collection of custom name/value pairs that define any parameters that a custom provider requires. <br><br>**Note:** This element was added in FTP 7.5. |
+| [`activation`](activation/index.md) | Optional element. Specifies a collection of custom name/value pairs that define any parameters that a custom provider requires. **Note:** This element was added in FTP 7.5. |
 
 ### Configuration Sample
 

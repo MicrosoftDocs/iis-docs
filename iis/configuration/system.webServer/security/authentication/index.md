@@ -4,7 +4,7 @@ author: rick-anderson
 description: "Overview Authentication is the mechanism you use to verify the identity of visitors to your Web site or Web application. Typically, you do this by assigning..."
 ms.author: iiscontent
 manager: soshir
-ms.date: 9/26/2016 12:00:00 AM
+ms.date: 09/26/2016
 ms.topic: article
 ms.assetid: 
 ms.technology: iis-config
