@@ -124,7 +124,8 @@ To use the FastCGI environment, you must first install the CGI role service. The
         [![](index/_static/image16.png)](index/_static/image15.png)
 - Click **OK**.
 - If you are prompted to create a FastCGI application in the **Add Module Mapping** dialog box, click **Yes**.   
-    [![](index/_static/image18.png)](index/_static/image17.png)    > [!NOTE]
+    [![](index/_static/image18.png)](index/_static/image17.png)  
+    > [!NOTE]
     > This will automatically create a FastCGI application for the handler mapping that you just created. If you choose     **No** , you can manually create a FastCGI application later.
 
 * * *
@@ -230,7 +231,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`environmentVariable`](environmentvariable.md) | Optional element. Adds an environment variable to the collection of environment variables. |
+| [`environmentVariable`](environmentvariable.md) | Optional element.<br><br>Adds an environment variable to the collection of environment variables. |
 
 ### Configuration Sample
 

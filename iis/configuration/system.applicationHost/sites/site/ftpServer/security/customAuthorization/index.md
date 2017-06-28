@@ -99,7 +99,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`provider`](provider.md) | Optional element. Specifies the custom authorization provider. |
+| [`provider`](provider.md) | Optional element.<br><br>Specifies the custom authorization provider. |
 
 ### Configuration Sample
 

@@ -106,7 +106,8 @@ The `<configurationRedirection>` element is included in the default installation
     [![](configurationRedirection/_static/image14.png)](configurationRedirection/_static/image13.png)
 8. In each of the **Shared Configuration** dialog boxes that appear, click **OK** to close the dialogs.   
     [![](configurationRedirection/_static/image16.png)](configurationRedirection/_static/image15.png)   
-    [![](configurationRedirection/_static/image18.png)](configurationRedirection/_static/image17.png)    > [!NOTE]
+    [![](configurationRedirection/_static/image18.png)](configurationRedirection/_static/image17.png)  
+    > [!NOTE]
     > You must close and restart IIS Manager before it will reflect these configuration changes.
 
 <a id="005"></a>
@@ -118,12 +119,12 @@ The `<configurationRedirection>` element is configured in the Redirection.config
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Optional Boolean attribute. Specifies whether configuration redirection is enabled or disabled on the Web server. The default value is `false`. |
-| `enableUncPolling` | Optional Boolean attribute. **true** if UNC polling should be used to check if the configuration files have been updated; otherwise, **false** if change notifications should be used. Note: The time interval between checks is configured by the `pollingPeriod` attribute. **Note:** This attribute was added in IIS 7.5. The default value is `false`. |
-| `password` | Optional string attribute. Specifies the password that you need to authenticate the user name to access the location for configuration file storage. This is a case sensitive string. **Note:** To avoid storing unencrypted password strings in configuration files, always use AppCmd.exe or the IIS Manager to enter passwords. If you use these management tools, the password strings will be encrypted automatically before they are written to the XML configuration files. This provides better password security than storing unencrypted passwords. |
-| `path` | Optional string attribute. Specifies the location from which to read configuration files and encryption keys. This can be a network path or a folder on the local computer. There is no default value. |
-| `pollingPeriod` | Optional timeSpan attribute. Specifies the time interval between checks that IIS will use to check if the configuration files have been updated. Note: This only applies when the `enableUncPolling` attribute is set to **true**. **Note:** This attribute was added in IIS 7.5. The default value is `00:03:00` (three minutes.) |
-| `userName` | Optional string attribute. Specifies the user name to access the location for configuration file storage. There is no default value. |
+| `enabled` | Optional Boolean attribute.<br><br>Specifies whether configuration redirection is enabled or disabled on the Web server.<br><br>The default value is `false`. |
+| `enableUncPolling` | Optional Boolean attribute.<br><br>**true** if UNC polling should be used to check if the configuration files have been updated; otherwise, **false** if change notifications should be used. Note: The time interval between checks is configured by the `pollingPeriod` attribute.<br><br>**Note:** This attribute was added in IIS 7.5.<br><br>The default value is `false`. |
+| `password` | Optional string attribute.<br><br>Specifies the password that you need to authenticate the user name to access the location for configuration file storage. This is a case sensitive string.<br><br>**Note:** To avoid storing unencrypted password strings in configuration files, always use AppCmd.exe or the IIS Manager to enter passwords. If you use these management tools, the password strings will be encrypted automatically before they are written to the XML configuration files. This provides better password security than storing unencrypted passwords. |
+| `path` | Optional string attribute.<br><br>Specifies the location from which to read configuration files and encryption keys. This can be a network path or a folder on the local computer.<br><br>There is no default value. |
+| `pollingPeriod` | Optional timeSpan attribute.<br><br>Specifies the time interval between checks that IIS will use to check if the configuration files have been updated. Note: This only applies when the `enableUncPolling` attribute is set to **true**.<br><br>**Note:** This attribute was added in IIS 7.5.<br><br>The default value is `00:03:00` (three minutes.) |
+| `userName` | Optional string attribute.<br><br>Specifies the user name to access the location for configuration file storage.<br><br>There is no default value. |
 
 ### Child Elements
 

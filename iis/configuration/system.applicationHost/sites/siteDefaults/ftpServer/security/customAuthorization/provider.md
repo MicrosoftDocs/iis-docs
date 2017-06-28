@@ -97,8 +97,8 @@ The `<provider>` child element of the default FTP `<customAuthorization>` elemen
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Optional string attribute. Specifies the name of the custom provider that will be used as the default for FTP authorization. |
-| `enabled` | Optional Boolean attribute. Enables the custom provider to be used as the default for FTP authorization. The default is `True`. |
+| `name` | Optional string attribute.<br><br>Specifies the name of the custom provider that will be used as the default for FTP authorization. |
+| `enabled` | Optional Boolean attribute.<br><br>Enables the custom provider to be used as the default for FTP authorization.<br><br>The default is `True`. |
 
 ### Child Elements
 

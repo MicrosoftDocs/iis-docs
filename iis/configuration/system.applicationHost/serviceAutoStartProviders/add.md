@@ -101,8 +101,8 @@ The `<add>` element of the `<serviceAutoStartProviders>` element is configured a
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Optional string attribute. Specifies the friendly name for an autostart provider. There is no default value. |
-| `type` | Optional string attribute. Specifies the managed type for an autostart provider assembly. There is no default value. |
+| `name` | Optional string attribute.<br><br>Specifies the friendly name for an autostart provider.<br><br>There is no default value. |
+| `type` | Optional string attribute.<br><br>Specifies the managed type for an autostart provider assembly.<br><br>There is no default value. |
 
 ### Child Elements
 

@@ -207,9 +207,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a provider to the default collection of custom authentication providers. |
-| `clear` | Optional element. Clears the default collection of custom authentication providers. |
-| `remove` | Optional element. Removes a provider from the default collection of custom authentication providers. |
+| [`add`](add.md) | Optional element.<br><br>Adds a provider to the default collection of custom authentication providers. |
+| `clear` | Optional element.<br><br>Clears the default collection of custom authentication providers. |
+| `remove` | Optional element.<br><br>Removes a provider from the default collection of custom authentication providers. |
 
 ### Configuration Sample
 

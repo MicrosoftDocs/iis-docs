@@ -81,16 +81,16 @@ You configure the `<modules>` element at the server level in the ApplicationHost
 
 | Attribute | Description |
 | --- | --- |
-| `runAllManagedModulesForAllRequests` | Optional Boolean value. **True** if all managed modules can process all requests, even if the request was not for managed content; otherwise, **false**. **Note:** In ASP.NET websites, the value of `runAllManagedModulesForAllRequests` previously had to be set to `true` to support routing. However, once IIS 7 has been updated with a Service Pack, the value of `runAllManagedModulesForAllRequests` can be set to `false` or omitted when working with ASP.NET routing. For more information, see [ASP.NET Routing](https://go.microsoft.com/fwlink/?LinkID=215230) on the MSDN website. The default value is `false`. |
-| `runManagedModulesForWebDavRequests` | Optional Boolean value. **True** if managed modules can process WebDAV requests; otherwise, **false**. The default value is `false`. |
+| `runAllManagedModulesForAllRequests` | Optional Boolean value.<br><br>**True** if all managed modules can process all requests, even if the request was not for managed content; otherwise, **false**.<br><br>**Note:** In ASP.NET websites, the value of `runAllManagedModulesForAllRequests` previously had to be set to `true` to support routing. However, once IIS 7 has been updated with a Service Pack, the value of `runAllManagedModulesForAllRequests` can be set to `false` or omitted when working with ASP.NET routing. For more information, see [ASP.NET Routing](https://go.microsoft.com/fwlink/?LinkID=215230) on the MSDN website.<br><br>The default value is `false`. |
+| `runManagedModulesForWebDavRequests` | Optional Boolean value.<br><br>**True** if managed modules can process WebDAV requests; otherwise, **false**.<br><br>The default value is `false`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a module to the collection of modules. |
-| `clear` | Optional element. Removes all references to modules from the modules collection. |
-| `remove` | Optional element. Removes a reference to a module from the modules collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds a module to the collection of modules. |
+| `clear` | Optional element.<br><br>Removes all references to modules from the modules collection. |
+| `remove` | Optional element. <br><br>Removes a reference to a module from the modules collection. |
 
 ### Configuration Sample
 

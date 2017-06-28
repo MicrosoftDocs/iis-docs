@@ -51,8 +51,8 @@ There is no user interface for adding values to the `<redirectHeaders>` element 
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies a field name for the redirect header. In a response, a field name precedes the related field value. |
-| `Value` | Optional string attribute. Specifies a field value for the redirect header. In a response, a field value follows the related field name. |
+| `name` | Required string attribute. <br><br>Specifies a field name for the redirect header. In a response, a field name precedes the related field value. |
+| `Value` | Optional string attribute. <br><br>Specifies a field value for the redirect header. In a response, a field value follows the related field name. |
 
 ### Child Elements
 

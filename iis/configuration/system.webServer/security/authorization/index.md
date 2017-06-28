@@ -108,15 +108,15 @@ You can set default authorization rules for the entire server by configuring aut
 
 | Attribute | Description |
 | --- | --- |
-| `bypassLoginPages` | Optional Boolean attribute. Specifies whether to skip authorization check for the page specified as the login page for Forms authentication. This enables unauthenticated users to access the login page to log on. The default value is `true`. |
+| `bypassLoginPages` | Optional Boolean attribute.<br><br>Specifies whether to skip authorization check for the page specified as the login page for Forms authentication. This enables unauthenticated users to access the login page to log on.<br><br>The default value is `true`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds an authorization rule to the collection of authorization rules. |
-| `remove` | Optional element. Removes a reference to an authorization rule to the collection of authorization rules. |
-| `clear` | Optional element. Removes all references to authorization rules from the collection of authorization rules. |
+| [`add`](add.md) | Optional element.<br><br>Adds an authorization rule to the collection of authorization rules. |
+| `remove` | Optional element. <br><br>Removes a reference to an authorization rule to the collection of authorization rules. |
+| `clear` | Optional element.<br><br>Removes all references to authorization rules from the collection of authorization rules. |
 
 ### Configuration Sample
 

@@ -288,12 +288,12 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`authentication`](authentication/index.md) | Optional element. Specifies the authentication settings for an FTP site. |
-| [`commandFiltering`](commandfiltering/index.md) | Optional element. Specifies the settings for FTP command filtering. |
-| [`customAuthorization`](customauthorization/index.md) | Optional element. Specifies the use of a custom provider for FTP authorization. |
-| [`dataChannelSecurity`](datachannelsecurity.md) | Optional element. Specifies the settings for FTP data channel security. |
-| [`ssl`](ssl.md) | Optional element. Specifies the SSL settings for an FTP site. |
-| [`sslClientCertificates`](sslclientcertificates.md) | Optional element. Specifies the SSL client certificate options for an FTP site. |
+| [`authentication`](authentication/index.md) | Optional element.<br><br>Specifies the authentication settings for an FTP site. |
+| [`commandFiltering`](commandfiltering/index.md) | Optional element.<br><br>Specifies the settings for FTP command filtering. |
+| [`customAuthorization`](customauthorization/index.md) | Optional element.<br><br>Specifies the use of a custom provider for FTP authorization. |
+| [`dataChannelSecurity`](datachannelsecurity.md) | Optional element.<br><br>Specifies the settings for FTP data channel security. |
+| [`ssl`](ssl.md) | Optional element.<br><br>Specifies the SSL settings for an FTP site. |
+| [`sslClientCertificates`](sslclientcertificates.md) | Optional element.<br><br>Specifies the SSL client certificate options for an FTP site. |
 
 ### Configuration Sample
 

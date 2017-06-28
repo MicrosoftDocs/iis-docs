@@ -205,8 +205,8 @@ The `<add>` element of the `<providers>` element is configured at the site level
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies the friendly name of the custom authentication provider. There is no default value. |
-| `enabled` | Optional **Boolean** attribute. **true** if the custom authentication provider is enabled; otherwise, **false**. The default value is `true`. |
+| `name` | Required string attribute.<br><br>Specifies the friendly name of the custom authentication provider.<br><br>There is no default value. |
+| `enabled` | Optional **Boolean** attribute.<br><br>**true** if the custom authentication provider is enabled; otherwise, **false**.<br><br>The default value is `true`. |
 
 ### Child Elements
 

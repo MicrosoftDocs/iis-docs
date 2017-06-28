@@ -305,24 +305,24 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 
 | Attribute | Description |
 | --- | --- |
-| `allowDoubleEscaping` | Optional Boolean attribute. If set to **true**, request filtering will allow URLs with doubly-escaped characters. If set to **false**, request filtering will deny the request if characters that have been escaped twice are present in URLs. The default value is `false`. |
-| `allowHighBitCharacters` | Optional Boolean attribute. If set to **true**, request filtering will allow non-ASCII characters in URLs. If set to **false**, request filtering will deny the request if high-bit characters are present in URLs. The default value is `true`. |
-| `removeServerHeader` | Optional Boolean attribute. If set to **true**, request filtering will suppress the IIS server header. If set to **false**, IIS will return the default server header. (Note: This attribute was was added in IIS 10.0.) The default value is `false`. |
-| `unescapeQueryString` | Optional Boolean attribute. If set to **true**, request filtering will perform two passes on each query string scan. The first pass will scan the raw query string, and the second pass will scan the query string after IIS has decoded any escape sequences. If set to **false**, request filtering will only look at the raw query string as sent by the client. **Note:** This attribute was added in IIS 7.5. The default value is `true`. |
+| `allowDoubleEscaping` | Optional Boolean attribute.<br><br>If set to **true**, request filtering will allow URLs with doubly-escaped characters. If set to **false**, request filtering will deny the request if characters that have been escaped twice are present in URLs.<br><br>The default value is `false`. |
+| `allowHighBitCharacters` | Optional Boolean attribute.<br><br>If set to **true**, request filtering will allow non-ASCII characters in URLs. If set to **false**, request filtering will deny the request if high-bit characters are present in URLs.<br><br>The default value is `true`. |
+| `removeServerHeader` | Optional Boolean attribute.<br><br>If set to **true**, request filtering will suppress the IIS server header. If set to **false**, IIS will return the default server header. (Note: This attribute was was added in IIS 10.0.)<br><br>The default value is `false`. |
+| `unescapeQueryString` | Optional Boolean attribute.<br><br>If set to **true**, request filtering will perform two passes on each query string scan. The first pass will scan the raw query string, and the second pass will scan the query string after IIS has decoded any escape sequences. If set to **false**, request filtering will only look at the raw query string as sent by the client.<br><br>**Note:** This attribute was added in IIS 7.5.<br><br>The default value is `true`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`alwaysAllowedQueryStrings`](alwaysallowedquerystrings/index.md) | Optional element. Specifies a collection of query strings that request filtering will always allow. **Note:** This element was added in IIS 7.5. |
-| [`alwaysAllowedUrls`](alwaysallowedurls/index.md) | Optional element. Specifies a collection of URLs that request filtering will always allow. **Note:** This element was added in IIS 7.5. |
-| [`denyQueryStringSequences`](denyquerystringsequences/index.md) | Optional element. Specifies a collection of query string sequences that request filtering will always deny. **Note:** This element was added in IIS 7.5. |
-| [`denyUrlSequences`](denyurlsequences/index.md) | Optional element. Specifies sequences that should be denied to help prevent URL-based attacks on the Web server. |
-| [`fileExtensions`](fileextensions/index.md) | Optional element. Specifies which file name extensions are allowed or denied to limit types of requests sent to the Web server. |
-| [`filteringRules`](filteringrules/index.md) | Optional element. Specifies a collection of custom request filtering rules. **Note:** This element was added in IIS 7.5. |
-| [`hiddenSegments`](hiddensegments/index.md) | Optional element. Specifies that certain segments of URLs can be made inaccessible to clients. |
-| [`requestLimits`](requestlimits/index.md) | Optional element. Specifies limits on requests processed by the Web server. |
-| [`verbs`](verbs/index.md) | Optional element. Specifies which HTTP verbs are allowed or denied to limit types of requests sent to the Web server. |
+| [`alwaysAllowedQueryStrings`](alwaysallowedquerystrings/index.md) | Optional element.<br><br>Specifies a collection of query strings that request filtering will always allow.<br><br>**Note:** This element was added in IIS 7.5. |
+| [`alwaysAllowedUrls`](alwaysallowedurls/index.md) | Optional element.<br><br>Specifies a collection of URLs that request filtering will always allow.<br><br>**Note:** This element was added in IIS 7.5. |
+| [`denyQueryStringSequences`](denyquerystringsequences/index.md) | Optional element.<br><br>Specifies a collection of query string sequences that request filtering will always deny.<br><br>**Note:** This element was added in IIS 7.5. |
+| [`denyUrlSequences`](denyurlsequences/index.md) | Optional element.<br><br>Specifies sequences that should be denied to help prevent URL-based attacks on the Web server. |
+| [`fileExtensions`](fileextensions/index.md) | Optional element.<br><br>Specifies which file name extensions are allowed or denied to limit types of requests sent to the Web server. |
+| [`filteringRules`](filteringrules/index.md) | Optional element.<br><br>Specifies a collection of custom request filtering rules.<br><br>**Note:** This element was added in IIS 7.5. |
+| [`hiddenSegments`](hiddensegments/index.md) | Optional element.<br><br>Specifies that certain segments of URLs can be made inaccessible to clients. |
+| [`requestLimits`](requestlimits/index.md) | Optional element.<br><br>Specifies limits on requests processed by the Web server. |
+| [`verbs`](verbs/index.md) | Optional element.<br><br>Specifies which HTTP verbs are allowed or denied to limit types of requests sent to the Web server. |
 
 ### Configuration Sample
 

@@ -146,9 +146,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add/index.md) | Optional element. Adds a path to the collection of path definitions. |
-| `remove` | Optional element. Removes a reference to a path from the path definitions collection. |
-| `clear` | Optional element. Removes all references to paths from the path definitions collection. |
+| [`add`](add/index.md) | Optional element.<br><br>Adds a path to the collection of path definitions. |
+| `remove` | Optional element. <br><br>Removes a reference to a path from the path definitions collection. |
+| `clear` | Optional element.<br><br>Removes all references to paths from the path definitions collection. |
 
 ### Configuration Sample
 

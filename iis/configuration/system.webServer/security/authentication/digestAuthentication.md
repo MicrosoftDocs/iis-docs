@@ -123,8 +123,8 @@ The `<digestAuthentication>` element is configurable at the site, application, v
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Optional Boolean attribute. Specifies whether Digest authentication is enabled. The default value is `false`. |
-| `realm` | Optional String attribute. Specifies the realm for Digest authentication. |
+| `enabled` | Optional Boolean attribute.<br><br>Specifies whether Digest authentication is enabled.<br><br>The default value is `false`. |
+| `realm` | Optional String attribute.<br><br>Specifies the realm for Digest authentication. |
 
 ### Child Elements
 

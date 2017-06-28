@@ -100,18 +100,18 @@ The `<iisClientCertificateMappingAuthentication>` element of the `<authenticatio
 
 | Attribute | Description |
 | --- | --- |
-| `defaultLogonDomain` | Optional String attribute. Specifies the default domain that the server uses to authenticate users. |
-| `enabled` | Optional Boolean attribute. Specifies whether Client Certificate Mapping authentication using IIS is enabled. The default is `false`. |
-| `logonMethod` | Optional enum attribute. The **logonMethod** attribute can be one of the following possible values. (For more information on these values, see [LogonUser](https://msdn.microsoft.com/en-us/library/aa378184.aspx) on the MSDN site.) The default is `ClearText`. | Value | Description | | --- | --- | | `Batch` | This logon type is intended for batch servers, where processes may be executing on behalf of a user without their direct intervention. The numeric value is `1`. | | `ClearText` | This logon type preserves the name and password in the authentication package, which allows the server to make connections to other network servers while impersonating the client. The numeric value is `3`. | | `Interactive` | This logon type is intended for users who will be using the computer interactively. The numeric value is `0`. | | `Network` | This logon type is intended for high performance servers to authenticate plaintext passwords. Credentials are not cached for this logon type. The numeric value is `2`. | |
-| `manyToOneCertificateMappingsEnabled` | Optional Boolean attribute. Specifies whether many-to-one mapping is enabled The default value is `true`. |
-| `oneToOneCertificateMappingsEnabled` | Optional Boolean attribute. Specifies whether one-to-one mapping is enabled The default value is `true`. |
+| `defaultLogonDomain` | Optional String attribute.<br><br>Specifies the default domain that the server uses to authenticate users. |
+| `enabled` | Optional Boolean attribute. <br><br>Specifies whether Client Certificate Mapping authentication using IIS is enabled. <br><br>The default is `false`. |
+| `logonMethod` | Optional enum attribute. <br><br>The **logonMethod** attribute can be one of the following possible values. (For more information on these values, see [LogonUser](https://msdn.microsoft.com/en-us/library/aa378184.aspx) on the MSDN site.) <br><br>The default is `ClearText`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Batch</code></th> <td>This logon type is intended for batch servers, where processes may be executing on behalf of a user without their direct intervention.<br><br>The numeric value is <code>1</code>. </td></tr> <tr> <th><code>ClearText</code></th> <td>This logon type preserves the name and password in the authentication package, which allows the server to make connections to other network servers while impersonating the client.<br><br>The numeric value is <code>3</code>. </td></tr> <tr> <th><code>Interactive</code></th> <td>This logon type is intended for users who will be using the computer interactively.<br><br>The numeric value is <code>0</code>. </td></tr> <tr> <th><code>Network</code></th> <td>This logon type is intended for high performance servers to authenticate plaintext passwords. Credentials are not cached for this logon type.<br><br>The numeric value is <code>2</code>. </td></tr></tbody></table> |
+| `manyToOneCertificateMappingsEnabled` | Optional Boolean attribute. <br><br>Specifies whether many-to-one mapping is enabled <br><br>The default value is `true`. |
+| `oneToOneCertificateMappingsEnabled` | Optional Boolean attribute. <br><br>Specifies whether one-to-one mapping is enabled <br><br>The default value is `true`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`manyToOneMappings`](manytoonemappings/index.md) | Optional element. Maps client certificates to a set of wildcard criteria that authenticate the certificates and assign a user account. |
-| [`oneToOneMappings`](onetoonemappings/index.md) | Optional element. Specifies one-to-one client certificate mappings. |
+| [`manyToOneMappings`](manytoonemappings/index.md) | Optional element.<br><br>Maps client certificates to a set of wildcard criteria that authenticate the certificates and assign a user account. |
+| [`oneToOneMappings`](onetoonemappings/index.md) | Optional element.<br><br>Specifies one-to-one client certificate mappings. |
 
 ### Configuration Sample
 

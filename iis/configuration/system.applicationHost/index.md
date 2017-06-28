@@ -59,14 +59,14 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`applicationPools`](applicationpools/index.md) | Optional element. Contains default configuration settings for all application pools on the server and defines configuration settings for specific application pools. |
-| [`configHistory`](confighistory.md) | Optional element. Specifies the configuration history settings for a server. |
-| [`customMetadata`](custommetadata/index.md) | Optional element. Contains settings that are used internally by the Admin Base Object (ABO) mapper component of IIS 7. |
-| [`listenerAdapters`](listeneradapters/index.md) | Optional element. Specifies configuration settings for listener adapters, which are components that establish communication between non-HTTP protocol listeners and WAS. |
-| [`log`](log/index.md) | Optional element. Specifies the logging mode for a server. |
-| [`serviceAutoStartProviders`](serviceautostartproviders/index.md) | Optional element. Specifies a collection of managed assemblies that will be loaded when the `AlwaysRunning` is specifed for an applocation pool's startMode. **Note:** This element was added in IIS 7.5. |
-| [`sites`](sites/index.md) | Optional element. Defines all sites on the server, and all applications and virtual directories in those sites. |
-| [`webLimits`](weblimits.md) | Optional element. Configures TCP/IP connection and bandwidth limits. |
+| [`applicationPools`](applicationpools/index.md) | Optional element.<br><br>Contains default configuration settings for all application pools on the server and defines configuration settings for specific application pools. |
+| [`configHistory`](confighistory.md) | Optional element.<br><br>Specifies the configuration history settings for a server. |
+| [`customMetadata`](custommetadata/index.md) | Optional element.<br><br>Contains settings that are used internally by the Admin Base Object (ABO) mapper component of IIS 7. |
+| [`listenerAdapters`](listeneradapters/index.md) | Optional element.<br><br>Specifies configuration settings for listener adapters, which are components that establish communication between non-HTTP protocol listeners and WAS. |
+| [`log`](log/index.md) | Optional element.<br><br>Specifies the logging mode for a server. |
+| [`serviceAutoStartProviders`](serviceautostartproviders/index.md) | Optional element.<br><br>Specifies a collection of managed assemblies that will be loaded when the `AlwaysRunning` is specifed for an applocation pool's startMode.<br><br>**Note:** This element was added in IIS 7.5. |
+| [`sites`](sites/index.md) | Optional element.<br><br>Defines all sites on the server, and all applications and virtual directories in those sites. |
+| [`webLimits`](weblimits.md) | Optional element.<br><br>Configures TCP/IP connection and bandwidth limits. |
 
 ### Configuration Sample
 

@@ -124,9 +124,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a unique HTTP header to the collection of HTTP headers which a request filtering rule will scan. |
-| `clear` | Optional element. Clears the collection of HTTP headers which a request filtering rule will scan. |
-| `remove` | Optional element. Removes a unique HTTP header from the collection of HTTP headers which a request filtering rule will scan. |
+| [`add`](add.md) | Optional element.<br><br>Adds a unique HTTP header to the collection of HTTP headers which a request filtering rule will scan. |
+| `clear` | Optional element.<br><br>Clears the collection of HTTP headers which a request filtering rule will scan. |
+| `remove` | Optional element.<br><br>Removes a unique HTTP header from the collection of HTTP headers which a request filtering rule will scan. |
 
 ### Configuration Sample
 

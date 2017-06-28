@@ -121,17 +121,17 @@ The `<authoringRules>` element is configurable per-URI in the ApplicationHost.co
 
 | Attribute | Description |
 | --- | --- |
-| `defaultAccess` | Optional flags attribute. Specifies the default access settings for WebDAV authoring. These values combined with a logical OR operation, so "None, Read" = "Read." **Note:** `Source` access allows a WebDAV client to request the contents of a script-mapped file, such as an ASP.NET or PHP file, as opposed to the processed output of the file. The default value is `None`. | Value | Description | | --- | --- | | `None` | No authoring is allowed. The numeric value is `0`. | | `Read` | Read access is allowed. The numeric value is `1`. | | `Write` | Write access is allowed. The numeric value is `2`. | | `Source` | Access to source code is allowed. The numeric value is `16`. | |
+| `defaultAccess` | Optional flags attribute.<br><br>Specifies the default access settings for WebDAV authoring. These values combined with a logical OR operation, so "None, Read" = "Read."<br><br>**Note:** `Source` access allows a WebDAV client to request the contents of a script-mapped file, such as an ASP.NET or PHP file, as opposed to the processed output of the file.<br><br>The default value is `None`.<br><br><table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>None</code></th> <td>No authoring is allowed.<br><br>The numeric value is <code>0</code>.</td></tr> <tr> <th><code>Read</code></th> <td>Read access is allowed.<br><br>The numeric value is <code>1</code>.</td></tr> <tr> <th><code>Write</code></th> <td>Write access is allowed.<br><br>The numeric value is <code>2</code>.</td></tr> <tr> <th><code>Source</code></th> <td>Access to source code is allowed.<br><br>The numeric value is <code>16</code>.</td></tr></tbody></table> |
 | `allowNonMimeMapFiles` | Optional **Boolean** attribute. **true** if WebDAV requests should be allowed for files that are not defined in the MIME map; otherwise, **false**. For example, files that are script-mapped are not defined in the MIME map, but Web authors may still need to edit these files, which are not allowed in IIS requests by default. When set to **true**, the WebDAV module will accept requests for files that are not included in the MIME map. When set to **false**, the module will require that all files are found in the MIME map and return a "404.3 - MIME map policy prevents this request" error for any request that does not match the MIME list. The default value is `false`. |
-| `defaultMimeType` | Optional string attribute. Specifies the default MIME type for files that do not have an explicit MIME type defined. The default value is `application/octet-stream`. |
+| `defaultMimeType` | Optional string attribute.<br><br>Specifies the default MIME type for files that do not have an explicit MIME type defined.<br><br>The default value is `application/octet-stream`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds an authoring rule to the collection of authoring rules. |
-| `clear` | Optional element. Clears the collection of authoring rules. |
-| `remove` | Optional element. Removes an authoring rule from the collection of authoring rules. |
+| [`add`](add.md) | Optional element.<br><br>Adds an authoring rule to the collection of authoring rules. |
+| `clear` | Optional element.<br><br>Clears the collection of authoring rules. |
+| `remove` | Optional element.<br><br>Removes an authoring rule from the collection of authoring rules. |
 
 ### Configuration Sample
 

@@ -117,14 +117,14 @@ The default installation of IIS 7 and later does not include the **Management Se
 
 | Attribute | Description |
 | --- | --- |
-| `defaultProvider` | Optional string attribute. Specifies the default provider that authorizes IIS Manager users and Windows users who connect remotely to the Web server by using IIS Manager. If you change the default provider, you must restart the Management Service (WMSVC) for changes to take effect. If you have IIS Manager open, you must also reopen IIS Manager. |
+| `defaultProvider` | Optional string attribute.<br><br>Specifies the default provider that authorizes IIS Manager users and Windows users who connect remotely to the Web server by using IIS Manager.<br><br>If you change the default provider, you must restart the Management Service (WMSVC) for changes to take effect. If you have IIS Manager open, you must also reopen IIS Manager. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`authorizationRules`](authorizationrules/index.md) | Optional element. Configures the IIS Manager users and Windows users who are authorized to connect to a site or an application by using IIS Manager. |
-| [`providers`](providers/index.md) | Optional element. Configures authorization providers that authorize IIS Manager users and Windows users who connect remotely to sites and applications by using IIS Manager. |
+| [`authorizationRules`](authorizationrules/index.md) | Optional element.<br><br>Configures the IIS Manager users and Windows users who are authorized to connect to a site or an application by using IIS Manager. |
+| [`providers`](providers/index.md) | Optional element.<br><br>Configures authorization providers that authorize IIS Manager users and Windows users who connect remotely to sites and applications by using IIS Manager. |
 
 ### Configuration Sample
 

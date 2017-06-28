@@ -170,7 +170,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`credentialsCache`](credentialscache.md) | Optional element. Specifies the credential cache settings for the FTP service. |
+| [`credentialsCache`](credentialscache.md) | Optional element.<br><br>Specifies the credential cache settings for the FTP service. |
 
 ### Configuration Sample
 

@@ -98,9 +98,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a security provider to the collection of providers. Windows authentication requires at least one provider. |
-| `remove` | Optional element. Removes a reference to a security provider from the providers collection. |
-| `clear` | Optional element. Removes all references to providers from the provider collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds a security provider to the collection of providers. Windows authentication requires at least one provider. |
+| `remove` | Optional element.<br><br>Removes a reference to a security provider from the providers collection. |
+| `clear` | Optional element.<br><br>Removes all references to providers from the provider collection. |
 
 ### Configuration Sample
 

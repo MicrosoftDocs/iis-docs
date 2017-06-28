@@ -74,19 +74,19 @@ The `<siteDefaults>` element of the `<sites>` element is included in the default
 
 | Attribute | Description |
 | --- | --- |
-| `id` | Optional uint attribute. Specifies the random numeric identifier that is assigned by IIS when the site is created. The default Web site is numbered 1. Other Web sites server-assigned numbers that may be composed of multiple digits. |
-| `name` | Optional string attribute. Specifies a friendly name that uniquely identifies a Web site, for example, "Contoso HR Forms." |
-| `serverAutoStart` | Optional Boolean attribute. Specifies whether the site should start automatically when the Management Service is started. The default value is `true`. |
+| `id` | Optional uint attribute.<br><br>Specifies the random numeric identifier that is assigned by IIS when the site is created.<br><br>The default Web site is numbered 1. Other Web sites server-assigned numbers that may be composed of multiple digits. |
+| `name` | Optional string attribute.<br><br>Specifies a friendly name that uniquely identifies a Web site, for example, "Contoso HR Forms." |
+| `serverAutoStart` | Optional Boolean attribute.<br><br>Specifies whether the site should start automatically when the Management Service is started.<br><br>The default value is `true`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`bindings`](bindings/index.md) | Optional element. Specifies default bindings for access to sites. |
-| [`ftpServer`](ftpserver/index.md) | Optional element. Specifies default settings for FTP sites. **Note:** This requires installing FTP 7.0 or FTP 7.5. |
-| [`limits`](limits.md) | Optional element. Configures default settings to limit the amount of bandwidth, the number of connections, or the amount of time for connections to sites. |
-| [`logFile`](logfile/index.md) | Optional element. Configures default settings for handling and storage of log files for sites. |
-| [`traceFailedRequestsLogging`](tracefailedrequestslogging.md) | Optional element. Specifies default settings for logging failed-request traces for sites. |
+| [`bindings`](bindings/index.md) | Optional element.<br><br>Specifies default bindings for access to sites. |
+| [`ftpServer`](ftpserver/index.md) | Optional element.<br><br>Specifies default settings for FTP sites.<br><br>**Note:** This requires installing FTP 7.0 or FTP 7.5. |
+| [`limits`](limits.md) | Optional element.<br><br>Configures default settings to limit the amount of bandwidth, the number of connections, or the amount of time for connections to sites. |
+| [`logFile`](logfile/index.md) | Optional element.<br><br>Configures default settings for handling and storage of log files for sites. |
+| [`traceFailedRequestsLogging`](tracefailedrequestslogging.md) | Optional element.<br><br>Specifies default settings for logging failed-request traces for sites. |
 
 ### Configuration Sample
 

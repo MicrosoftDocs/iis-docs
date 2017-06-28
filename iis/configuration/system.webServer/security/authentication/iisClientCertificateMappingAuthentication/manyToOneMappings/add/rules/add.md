@@ -101,10 +101,10 @@ There is no user interface for configuring IIS Client Certificate Mapping authen
 
 | Attribute | Description |
 | --- | --- |
-| `certificateField` | Required enum attribute. The **certificateField** attribute can be one of the following possible values. | Value | Description | | --- | --- | | `Issuer` | Specifies the issuer of the certificate. The numeric value is `2`. | | `Subject` | Specifies the subject of the certificate. The numeric value is `1`. | |
-| `certificateSubField` | Required string attribute. Specifies any of the standard fields on the certificate. |
-| `compareCaseSensitive` | Optional Boolean attribute. Specifies whether to compare values using case sensitive evaluations. The default value is `true`. |
-| `matchCriteria` | Required string attribute. Specifies the data that should be compared to determine a matching certificate. |
+| `certificateField` | Required enum attribute.<br><br>The **certificateField** attribute can be one of the following possible values. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Issuer</code></th> <td>Specifies the issuer of the certificate.<br><br>The numeric value is <code>2</code>. </td></tr> <tr> <th><code>Subject</code></th> <td>Specifies the subject of the certificate.<br><br>The numeric value is <code>1</code>. </td></tr></tbody></table> |
+| `certificateSubField` | Required string attribute.<br><br>Specifies any of the standard fields on the certificate. |
+| `compareCaseSensitive` | Optional Boolean attribute.<br><br>Specifies whether to compare values using case sensitive evaluations.<br><br>The default value is `true`. |
+| `matchCriteria` | Required string attribute.<br><br>Specifies the data that should be compared to determine a matching certificate. |
 
 ### Child Elements
 

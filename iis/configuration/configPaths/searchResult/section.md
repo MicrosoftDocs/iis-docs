@@ -48,7 +48,7 @@ There is no user interface for the `<CONFIGPATHS>` element for IIS 7. For exampl
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies the name of the section returned by the configuration search. |
+| `name` | Required string attribute.<br><br>Specifies the name of the section returned by the configuration search. |
 
 ### Child Elements
 

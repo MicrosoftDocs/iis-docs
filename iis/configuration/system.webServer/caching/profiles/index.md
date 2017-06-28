@@ -76,9 +76,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds an output caching profile to the collection of output caching profiles. |
-| `clear` | Optional element. Removes all references to output caching profiles from the output caching profile collection. |
-| `remove` | Optional element. Removes a reference to an output caching profile from the output caching profile collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds an output caching profile to the collection of output caching profiles. |
+| `clear` | Optional element.<br><br>Removes all references to output caching profiles from the output caching profile collection. |
+| `remove` | Optional element.<br><br>Removes a reference to an output caching profile from the output caching profile collection. |
 
 ### Configuration Sample
 

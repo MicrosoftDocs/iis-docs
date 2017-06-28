@@ -150,8 +150,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`authoring`](authoring/index.md) | Optional element. Specifies the configuration settings for WebDAV authoring. |
-| [`authoringRules`](authoringrules/index.md) | Optional element. Specifies the authoring rules for WebDAV publishing. These rules specify the content types and authoring permissions for users or groups. |
+| [`authoring`](authoring/index.md) | Optional element.<br><br>Specifies the configuration settings for WebDAV authoring. |
+| [`authoringRules`](authoringrules/index.md) | Optional element.<br><br>Specifies the authoring rules for WebDAV publishing. These rules specify the content types and authoring permissions for users or groups. |
 | [`globalSettings`](globalsettings/index.md) | Optional element. Specifies the global settings for the WebDAV module. |
 
 ### Configuration Sample

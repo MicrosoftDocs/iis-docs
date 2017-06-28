@@ -109,7 +109,7 @@ The `<add>` element of the `<alwaysAllowedQueryStrings>` element is configured a
 
 | Attribute | Description |
 | --- | --- |
-| `queryString` | Optional string attribute. Specifies a query string to always allow. There is no default value. |
+| `queryString` | Optional string attribute.<br><br>Specifies a query string to always allow.<br><br>There is no default value. |
 
 ### Child Elements
 

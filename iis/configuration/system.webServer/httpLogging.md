@@ -79,8 +79,8 @@ You can configure the `<httpLogging>` element at the server level in the Applica
 
 | Attribute | Description |
 | --- | --- |
-| `dontLog` | Optional Boolean attribute. Specifies whether HTTP logging is enabled for successful requests. A request is considered successful if its status code is less than 400. The default value is `false`. |
-| `selectiveLogging` | Optional enum attribute. Specifies which type of requests to log. The **selectiveLogging** attribute can be one of the following possible values. The default value is `LogAll`. | Value | Description | | --- | --- | | `LogAll` | Logs all requests. The numeric value is `0`. | | `LogSuccessful` | Logs only successful requests. The HTTP status code range for successful requests is 100-399. The numeric value is `1`. | | `LogError` | Logs only unsuccessful requests. The HTTP status code range for unsuccessful requests is 400-999. The numeric value is `2`. | |
+| `dontLog` | Optional Boolean attribute.<br><br>Specifies whether HTTP logging is enabled for successful requests. A request is considered successful if its status code is less than 400.<br><br>The default value is `false`. |
+| `selectiveLogging` | Optional enum attribute.<br><br>Specifies which type of requests to log.<br><br>The **selectiveLogging** attribute can be one of the following possible values. <br><br>The default value is `LogAll`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>LogAll</code></th> <td>Logs all requests.<br><br>The numeric value is <code>0</code>.</td></tr> <tr> <th><code>LogSuccessful</code></th> <td>Logs only successful requests. The HTTP status code range for successful requests is 100-399.<br><br>The numeric value is <code>1</code>.</td></tr> <tr> <th><code>LogError</code></th> <td>Logs only unsuccessful requests. The HTTP status code range for unsuccessful requests is 400-999.<br><br>The numeric value is <code>2</code>.</td></tr></tbody></table> |
 
 ### Child Elements
 

@@ -63,7 +63,7 @@ There is no user interface for adding validation for IIS 7. For examples of how 
 
 | Attribute | Description |
 | --- | --- |
-| `validateIntegratedModeConfiguration` | Optional Boolean attribute. Specifies whether configuration validation is enabled when it runs in Integrated mode. The `<system.Web/httpHandlers>` and `<system.Web/httpModules>` sections as well as impersonation are checked during this process. The default value is `true`. |
+| `validateIntegratedModeConfiguration` | Optional Boolean attribute.<br><br>Specifies whether configuration validation is enabled when it runs in Integrated mode. The `<system.Web/httpHandlers>` and `<system.Web/httpModules>` sections as well as impersonation are checked during this process.<br><br>The default value is `true`. |
 
 ### Child Elements
 

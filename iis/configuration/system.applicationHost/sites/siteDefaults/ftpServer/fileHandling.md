@@ -146,9 +146,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
 | Attribute | Description |
 | --- | --- |
-| `allowReadUploadsInProgress` | Optional **Boolean** attribute. **true** if the FTP service should allow read access to files that are currently being uploaded; otherwise, **false**. The default value is `false`. |
-| `allowReplaceOnRename` | Optional **Boolean** attribute. **true** if the FTP service should allow files that are being renamed to overwrite existing files; otherwise, **false**. The default value is `false`. |
-| `keepPartialUploads` | Optional **Boolean** attribute. **true** if the FTP service should keep files that have been partially uploaded; otherwise, **false**. The default value is `false`. |
+| `allowReadUploadsInProgress` | Optional **Boolean** attribute.<br><br>**true** if the FTP service should allow read access to files that are currently being uploaded; otherwise, **false**.<br><br>The default value is `false`. |
+| `allowReplaceOnRename` | Optional **Boolean** attribute.<br><br>**true** if the FTP service should allow files that are being renamed to overwrite existing files; otherwise, **false**.<br><br>The default value is `false`. |
+| `keepPartialUploads` | Optional **Boolean** attribute.<br><br>**true** if the FTP service should keep files that have been partially uploaded; otherwise, **false**.<br><br>The default value is `false`. |
 
 ### Child Elements
 

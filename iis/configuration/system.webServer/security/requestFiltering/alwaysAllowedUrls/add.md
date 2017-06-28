@@ -109,7 +109,7 @@ The `<add>` element of the `<alwaysAllowedUrls>` element is configured at the si
 
 | Attribute | Description |
 | --- | --- |
-| `url` | Optional string attribute. Specifies a unique URL to always allow. There is no default value. |
+| `url` | Optional string attribute.<br><br>Specifies a unique URL to always allow.<br><br>There is no default value. |
 
 ### Child Elements
 

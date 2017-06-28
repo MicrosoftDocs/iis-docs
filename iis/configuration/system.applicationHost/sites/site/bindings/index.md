@@ -83,8 +83,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`binding`](binding.md) | Optional element. Configures a binding in the parent site. |
-| `clear` | Optional element. Clears references to default settings that are inherited from the parent level of the configuration. |
+| [`binding`](binding.md) | Optional element.<br><br>Configures a binding in the parent site. |
+| `clear` | Optional element.<br><br>Clears references to default settings that are inherited from the parent level of the configuration. |
 
 ### Configuration Sample
 

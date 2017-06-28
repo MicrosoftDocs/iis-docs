@@ -159,15 +159,15 @@ The `<fileExtensions>` element of the `<requestFiltering>` element is configured
 
 | Attribute | Description |
 | --- | --- |
-| `allowUnlisted` | Optional **Boolean** attribute. Specifies whether the Web server should process files that have unlisted file name extensions. If you set this attribute to **true**, you must list all file name extensions that you want to deny. If you set this attribute to **false**, you must list all file name extensions that you want to allow. The default value is `true`. |
+| `allowUnlisted` | Optional **Boolean** attribute.<br><br>Specifies whether the Web server should process files that have unlisted file name extensions. If you set this attribute to **true**, you must list all file name extensions that you want to deny. If you set this attribute to **false**, you must list all file name extensions that you want to allow.<br><br>The default value is `true`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a file name extension to the collection of file name extensions. |
-| `clear` | Optional element. Removes all references to file name extensions from the `<fileExtensions>` collection. |
-| `remove` | Optional element. Removes a reference to a file name extension from the `<fileExtensions>` collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds a file name extension to the collection of file name extensions. |
+| `clear` | Optional element.<br><br>Removes all references to file name extensions from the `<fileExtensions>` collection. |
+| `remove` | Optional element.<br><br>Removes a reference to a file name extension from the `<fileExtensions>` collection. |
 
 ### Configuration Sample
 

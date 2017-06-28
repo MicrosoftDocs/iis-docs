@@ -159,7 +159,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`propertyStores`](propertystores/index.md) | Optional element. Specifies the collection of property store providers. |
+| [`propertyStores`](propertystores/index.md) | Optional element.<br><br>Specifies the collection of property store providers. |
 | [`lockStores`](lockstores/index.md) | Optional element. Specifies the collection of lock store providers. |
 
 ### Configuration Sample

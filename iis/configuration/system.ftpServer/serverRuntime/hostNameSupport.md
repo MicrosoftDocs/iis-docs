@@ -160,7 +160,7 @@ The `<hostNameSupport>` element of the `<serverRuntime>` element is configured a
 
 | Attribute | Description |
 | --- | --- |
-| `useDomainNameAsHostName` | Optional **Boolean** attribute. **true** if domain name syntax is supported for virtual host names; otherwise, **false**. The default value is `false`. |
+| `useDomainNameAsHostName` | Optional **Boolean** attribute.<br><br>**true** if domain name syntax is supported for virtual host names; otherwise, **false**.<br><br>The default value is `false`. |
 
 ### Child Elements
 

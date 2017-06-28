@@ -133,10 +133,10 @@ You can configure the `<asp>` element at the server level in the ApplicationHost
 
 | Element | Description |
 | --- | --- |
-| [`cache`](cache.md) | Optional element. Specifies ASP cache settings. |
-| [`comPlus`](complus.md) | Optional element. Specifies COM+ settings. |
-| [`limits`](limits.md) | Optional element. Specifies limits for various ASP properties. |
-| [`session`](session.md) | Optional element. Specifies ASP session state settings. |
+| [`cache`](cache.md) | Optional element. <br><br>Specifies ASP cache settings. |
+| [`comPlus`](complus.md) | Optional element. <br><br>Specifies COM+ settings. |
+| [`limits`](limits.md) | Optional element. <br><br>Specifies limits for various ASP properties. |
+| [`session`](session.md) | Optional element. <br><br>Specifies ASP session state settings. |
 
 ### Configuration Sample
 

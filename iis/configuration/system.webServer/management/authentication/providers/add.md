@@ -89,8 +89,8 @@ There is no user interface for configuring the `<providers>` element of the `<au
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies the name of the authentication provider. |
-| `type` | Required string attribute. Specifies the managed type of the authentication provider. |
+| `name` | Required string attribute.<br><br>Specifies the name of the authentication provider. |
+| `type` | Required string attribute.<br><br>Specifies the managed type of the authentication provider. |
 
 ### Child Elements
 

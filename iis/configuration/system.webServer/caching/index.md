@@ -82,16 +82,16 @@ You can configure the `<caching>` element at the server level in the Application
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Optional Boolean attribute. Specifies whether page output caching is enabled. The default value is `true`. |
-| `enableKernelCache` | Optional Boolean attribute. Specifies whether kernel caching is enabled. The default value is `true`. |
-| `maxCacheSize` | Optional uint attribute. Specifies the maximum size of the output cache. **Note:** This setting is effective only at the level of the ApplicationHost.config file. If you set this property at a lower level, it will have no effect. The default value is `0`. |
-| `maxResponseSize` | Optional uint attribute. Specifies the maximum response size that can be cached. **Note:** This setting is effective only at the level of the ApplicationHost.config file. If you set this property at a lower level, it will have no effect. The default value is `262144`. |
+| `enabled` | Optional Boolean attribute.<br><br>Specifies whether page output caching is enabled.<br><br>The default value is `true`. |
+| `enableKernelCache` | Optional Boolean attribute.<br><br>Specifies whether kernel caching is enabled.<br><br>The default value is `true`. |
+| `maxCacheSize` | Optional uint attribute.<br><br>Specifies the maximum size of the output cache.<br><br>**Note:** This setting is effective only at the level of the ApplicationHost.config file. If you set this property at a lower level, it will have no effect.<br><br>The default value is `0`. |
+| `maxResponseSize` | Optional uint attribute.<br><br>Specifies the maximum response size that can be cached.<br><br>**Note:** This setting is effective only at the level of the ApplicationHost.config file. If you set this property at a lower level, it will have no effect.<br><br>The default value is `262144`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`profiles`](profiles/index.md) | Optional element. Contains a group of output cache settings that can be applied to ASP.NET pages. |
+| [`profiles`](profiles/index.md) | Optional element.<br><br>Contains a group of output cache settings that can be applied to ASP.NET pages. |
 
 ### Configuration Sample
 

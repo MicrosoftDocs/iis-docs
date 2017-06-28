@@ -112,10 +112,10 @@ To support and configure ASP applications on your Web server, you must install t
 
 | Attribute | Description |
 | --- | --- |
-| `allowSessionState` | Optional Boolean attribute. Specifies whether session state persistence for an ASP application is enabled. The default value is `true`. |
-| `keepSessionIdSecure` | Optional Boolean attribute. Specifies whether a session ID is sent as a secure cookie if assigned over a secure session channel. The default value is `true`. |
-| `max` | Optional uint attribute. Specifies the maximum number of concurrent sessions. The default value is `4294967295`. |
-| `timeout` | Optional timeSpan attribute. Specifies the maximum period of time (hh:mm:ss) that a session object is maintained after the last request associated with the object is made. The default value is `00:20:00`. |
+| `allowSessionState` | Optional Boolean attribute. <br><br>Specifies whether session state persistence for an ASP application is enabled. <br><br>The default value is `true`. |
+| `keepSessionIdSecure` | Optional Boolean attribute. <br><br>Specifies whether a session ID is sent as a secure cookie if assigned over a secure session channel. <br><br>The default value is `true`. |
+| `max` | Optional uint attribute. <br><br>Specifies the maximum number of concurrent sessions. <br><br>The default value is `4294967295`. |
+| `timeout` | Optional timeSpan attribute. <br><br>Specifies the maximum period of time (hh:mm:ss) that a session object is maintained after the last request associated with the object is made. <br><br>The default value is `00:20:00`. |
 
 ### Child Elements
 

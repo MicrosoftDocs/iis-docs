@@ -75,7 +75,7 @@ The `<add>` element of the `<defaultDocument>` collection is included in the def
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Optional string attribute. Specifies a file name of Web content that can be used as a default document. The value must be unique in the files collection, and it can be a file name or a relative path. |
+| `name` | Optional string attribute.<br><br>Specifies a file name of Web content that can be used as a default document. The value must be unique in the files collection, and it can be a file name or a relative path. |
 
 ### Child Elements
 

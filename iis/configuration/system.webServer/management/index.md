@@ -175,9 +175,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`authentication`](authentication/index.md) | Optional element. Configures authentication settings for remote management of the Web server. |
-| [`authorization`](authorization/index.md) | Optional element. Configures authorization settings for remote management of the Web server. |
-| [`trustedProviders`](trustedproviders/index.md) | Optional element. Configures the providers that are trusted by IIS Manager and the Management Service (WMSVC). |
+| [`authentication`](authentication/index.md) | Optional element.<br><br>Configures authentication settings for remote management of the Web server. |
+| [`authorization`](authorization/index.md) | Optional element.<br><br>Configures authorization settings for remote management of the Web server. |
+| [`trustedProviders`](trustedproviders/index.md) | Optional element.<br><br>Configures the providers that are trusted by IIS Manager and the Management Service (WMSVC). |
 
 ### Configuration Sample
 

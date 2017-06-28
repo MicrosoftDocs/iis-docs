@@ -113,11 +113,11 @@ To support and configure ASP applications on your Web server, you must install t
 
 | Attribute | Description |
 | --- | --- |
-| `diskTemplateCacheDirectory` | Optional string attribute. Specifies the name of the directory where ASP stores compiled ASP templates when the in-memory cache overflows. The default value is `%SystemDrive%\inetpub\temp\ASP Compiled Templates`. |
-| `enableTypelibCache` | Optional Boolean attribute. Specifies whether type libraries are cached. The default value is `true` . |
-| `maxDiskTemplateCacheFiles` | Optional uint attribute. Specifies the maximum number of compiled ASP templates that can be stored. This value is an integer in the range from 0 to 2147483647. The default value is `2000`. |
-| `scriptEngineCacheMax` | Optional uint attribute. Specifies the maximum number of scripting engines that ASP pages will keep cached in memory. This value is an integer in the range from 0 to 2147483647. The default value is `250`. |
-| `scriptFileCacheSize` | Optional uint attribute. Specifies the number of precompiled script files to cache. If set to 0, no script files are cached. If set to 4294967295, all script files requested are cached. This attribute is used to tune performance, depending on the amount of available memory and the amount of script file traffic. The default value is `500`. |
+| `diskTemplateCacheDirectory` | Optional string attribute.<br><br>Specifies the name of the directory where ASP stores compiled ASP templates when the in-memory cache overflows.<br><br>The default value is `%SystemDrive%\inetpub\temp\ASP Compiled Templates`. |
+| `enableTypelibCache` | Optional Boolean attribute.<br><br>Specifies whether type libraries are cached.<br><br>The default value is `true` . |
+| `maxDiskTemplateCacheFiles` | Optional uint attribute.<br><br>Specifies the maximum number of compiled ASP templates that can be stored. This value is an integer in the range from 0 to 2147483647.<br><br>The default value is `2000`. |
+| `scriptEngineCacheMax` | Optional uint attribute.<br><br>Specifies the maximum number of scripting engines that ASP pages will keep cached in memory. This value is an integer in the range from 0 to 2147483647.<br><br>The default value is `250`. |
+| `scriptFileCacheSize` | Optional uint attribute.<br><br>Specifies the number of precompiled script files to cache. If set to 0, no script files are cached. If set to 4294967295, all script files requested are cached. This attribute is used to tune performance, depending on the amount of available memory and the amount of script file traffic.<br><br>The default value is `500`. |
 
 ### Child Elements
 

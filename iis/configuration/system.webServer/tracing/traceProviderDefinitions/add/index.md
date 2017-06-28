@@ -85,14 +85,14 @@ There is no user interface for adding trace providers for IIS 7. For examples of
 
 | Attribute | Description |
 | --- | --- |
-| `guid` | Required string attribute. Specifies the GUID of the trace provider. This GUID is used in Event Tracing for Windows (ETW). Note: You can display the value of this attribute by running "logman query providers" at a command prompt. |
-| `name` | Required string attribute. Specifies the name of the trace provider. |
+| `guid` | Required string attribute. <br><br>Specifies the GUID of the trace provider. This GUID is used in Event Tracing for Windows (ETW). <br><br>Note: You can display the value of this attribute by running "logman query providers" at a command prompt. |
+| `name` | Required string attribute. <br><br>Specifies the name of the trace provider. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`areas`](areas/index.md) | Required element. Specifies the functional areas for the provider to trace. |
+| [`areas`](areas/index.md) | Required element. <br><br>Specifies the functional areas for the provider to trace. |
 
 ### Configuration Sample
 

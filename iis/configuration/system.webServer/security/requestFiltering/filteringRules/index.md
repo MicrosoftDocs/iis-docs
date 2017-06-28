@@ -147,7 +147,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`filteringRule`](filteringrule/index.md) | Optional element. Adds a rule to the collection of custom request filtering rules. |
+| [`filteringRule`](filteringrule/index.md) | Optional element.<br><br>Adds a rule to the collection of custom request filtering rules. |
 
 ### Configuration Sample
 

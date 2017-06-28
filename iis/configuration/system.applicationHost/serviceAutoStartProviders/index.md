@@ -103,9 +103,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a provider to the collection of autostart providers. |
-| `clear` | Optional element. Clears the collection of autostart providers. |
-| `remove` | Optional element. Removes a provider from the collection of autostart providers. |
+| [`add`](add.md) | Optional element.<br><br>Adds a provider to the collection of autostart providers. |
+| `clear` | Optional element.<br><br>Clears the collection of autostart providers. |
+| `remove` | Optional element.<br><br>Removes a provider from the collection of autostart providers. |
 
 ### Configuration Sample
 

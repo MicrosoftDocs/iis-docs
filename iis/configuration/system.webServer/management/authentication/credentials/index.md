@@ -141,7 +141,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds an IIS Manager user account to the collection of IIS Manager users. |
+| [`add`](add.md) | Optional element. <br><br>Adds an IIS Manager user account to the collection of IIS Manager users. |
 
 ### Configuration Sample
 

@@ -129,9 +129,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a size limit for an HTTP header to the `<headerLimits>` collection. |
-| `clear` | Optional element. Removes all references to an HTTP header from the `<headerLimits>` collection. |
-| `remove` | Optional element. Removes a reference to an HTTP header from the `<headerLimits>` collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds a size limit for an HTTP header to the `<headerLimits>` collection. |
+| `clear` | Optional element.<br><br>Removes all references to an HTTP header from the `<headerLimits>` collection. |
+| `remove` | Optional element.<br><br>Removes a reference to an HTTP header from the `<headerLimits>` collection. |
 
 ### Configuration Sample
 

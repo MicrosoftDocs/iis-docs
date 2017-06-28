@@ -51,8 +51,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds an environment variable to the collection of environment variables. |
-| `remove` | Optional element. Removes an environment variable from the collection of environment variables. |
+| [`add`](add.md) | Optional element.<br><br>Adds an environment variable to the collection of environment variables. |
+| `remove` | Optional element.<br><br>Removes an environment variable from the collection of environment variables. |
 
 ### Configuration Sample
 

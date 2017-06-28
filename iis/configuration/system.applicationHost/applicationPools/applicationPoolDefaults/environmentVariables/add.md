@@ -47,8 +47,8 @@ There is no user interface for setting the environment variables for IIS 10. For
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies the unique name of the environment variable. There is no default value. |
-| `value` | Required unique string attribute. Specifies the value of the environment variable. There is no default value. |
+| `name` | Required string attribute.<br><br>Specifies the unique name of the environment variable.<br><br>There is no default value. |
+| `value` | Required unique string attribute.<br><br>Specifies the value of the environment variable.<br><br>There is no default value. |
 
 ### Child Elements
 

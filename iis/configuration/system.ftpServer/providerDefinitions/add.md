@@ -162,9 +162,9 @@ The `<add>` element of the `<providerDefinitions>` element is configured at the 
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies the friendly name for a custom provider. There is no default value. |
-| `type` | Optional string attribute. Specifies the type for a managed-code provider. There is no default value. |
-| `clsid` | Optional string attribute. Specifies the COM class ID for a native-code provider. There is no default value. |
+| `name` | Required string attribute.<br><br>Specifies the friendly name for a custom provider.<br><br>There is no default value. |
+| `type` | Optional string attribute.<br><br>Specifies the type for a managed-code provider.<br><br>There is no default value. |
+| `clsid` | Optional string attribute.<br><br>Specifies the COM class ID for a native-code provider.<br><br>There is no default value. |
 
 ### Child Elements
 

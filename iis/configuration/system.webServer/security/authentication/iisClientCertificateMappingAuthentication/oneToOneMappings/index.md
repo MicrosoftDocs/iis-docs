@@ -92,8 +92,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a one-to-one mapping to the collection of one-to-one mappings. |
-| `clear` | Optional element. Removes all references to one-to-one mappings from the one-to-one mappings collection. |
+| [`add`](add.md) | Optional element. <br><br>Adds a one-to-one mapping to the collection of one-to-one mappings. |
+| `clear` | Optional element. <br><br>Removes all references to one-to-one mappings from the one-to-one mappings collection. |
 
 ### Configuration Sample
 

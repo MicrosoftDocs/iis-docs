@@ -117,13 +117,13 @@ The default installation of IIS 7 and later does not include the **Management Se
 
 | Attribute | Description |
 | --- | --- |
-| `path` | Required string attribute. Specifies the virtual path of a site or an application. IIS Manager users and Windows users can then be added to the child [&lt;add&gt;](add.md) collection so they are authorized to connect to that site or application by using IIS Manager. |
+| `path` | Required string attribute.<br><br>Specifies the virtual path of a site or an application. IIS Manager users and Windows users can then be added to the child [&lt;add&gt;](add.md) collection so they are authorized to connect to that site or application by using IIS Manager. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds an IIS Manager user or Windows user or group to the collection of users who are authorized to connect to a site or an application by using IIS Manager. |
+| [`add`](add.md) | Optional element.<br><br>Adds an IIS Manager user or Windows user or group to the collection of users who are authorized to connect to a site or an application by using IIS Manager. |
 
 ### Configuration Sample
 

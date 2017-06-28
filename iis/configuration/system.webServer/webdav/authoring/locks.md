@@ -116,9 +116,9 @@ The `<locks>` element is configurable only at the site level in the ApplicationH
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Optional **Boolean** attribute. **true** if WebDAV locking is enabled; otherwise, **false**. The default value is `false`. |
-| `lockStore` | Optional string attribute. Specifies the name of the provider to use for WebDAV locking. This name must be defined in the [&lt;lockStores&gt;](../globalsettings/lockstores/index.md) collection. This attribute has no default value. |
-| `requireLockForWriting` | Optional **Boolean** attribute. **true** if locks are required for WebDAV authoring; otherwise, **false**. Requiring locks for WebDAV authoring helps to prevent collisions in a multi-source authoring environment. The default value is `false`. |
+| `enabled` | Optional **Boolean** attribute.<br><br>**true** if WebDAV locking is enabled; otherwise, **false**.<br><br>The default value is `false`. |
+| `lockStore` | Optional string attribute.<br><br>Specifies the name of the provider to use for WebDAV locking. This name must be defined in the [&lt;lockStores&gt;](../globalsettings/lockstores/index.md) collection.<br><br>This attribute has no default value. |
+| `requireLockForWriting` | Optional **Boolean** attribute.<br><br>**true** if locks are required for WebDAV authoring; otherwise, **false**. Requiring locks for WebDAV authoring helps to prevent collisions in a multi-source authoring environment.<br><br>The default value is `false`. |
 
 ### Child Elements
 

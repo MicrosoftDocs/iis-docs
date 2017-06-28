@@ -123,11 +123,11 @@ The `<clientCache>` element of the `<staticContent>` element is included in the 
 
 | Attribute | Description |
 | --- | --- |
-| `cacheControlCustom` | Optional string attribute. Specifies custom HTTP 1.1 cache control directives. |
-| `cacheControlMaxAge` | Optional timeSpan attribute. Specifies the maximum age (in seconds) of the cache control value. The default value is `1.00:00:00` (1 day). |
-| `cacheControlMode` | Optional enum attribute. Specifies the mode to use for client caching. The **cacheControlMode** attribute can be one of the following possible values. The default is `NoControl`. | Value | Description | | --- | --- | | `NoControl` | Does not add a Cache-Control or Expires header to the response. The numeric value is `0`. | | `DisableCache` | Adds a Cache-Control: no-cache header to the response. The numeric value is `1`. | | `UseMaxAge` | Adds a Cache-Control: max-age=&lt;nnn&gt; header to the response based on the value specified in the **CacheControlMaxAge** attribute. The numeric value is `2`. | | `UseExpires` | Adds an Expires: &lt;date&gt; header to the response based on the date specified in the **httpExpires** attribute. The numeric value is `3`. | |
-| `httpExpires` | Optional string attribute. Specifies the date and time after which a page that is cached on the client is considered stale. (The date and time is formatted according to the specification in [Request for Comments 1123](http://www.ietf.org/rfc/rfc1123.txt).) The value is returned to the browser in the HTML file header. The user agent compares the given value with the current date to determine whether to display a cached page or to request an updated page from the server. |
-| `setEtag` | Optional Boolean attribute. Specifies whether the HTTP ETag header is calculated and set. The ETag header is used for web cache validation, and enables a Web server to not have to send a full response if no changes have been made to the content. `setEtag` can be set in the Configuration Editor in the path `system.webServer/staticContent`. The default value is `true`. |
+| `cacheControlCustom` | Optional string attribute.<br><br>Specifies custom HTTP 1.1 cache control directives. |
+| `cacheControlMaxAge` | Optional timeSpan attribute.<br><br>Specifies the maximum age (in seconds) of the cache control value.<br><br>The default value is `1.00:00:00` (1 day). |
+| `cacheControlMode` | Optional enum attribute.<br><br>Specifies the mode to use for client caching.<br><br>The **cacheControlMode** attribute can be one of the following possible values.<br><br>The default is `NoControl`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>NoControl</code></th> <td>Does not add a Cache-Control or Expires header to the response.<br><br>The numeric value is <code>0</code>.</td></tr> <tr> <th><code>DisableCache</code></th> <td>Adds a Cache-Control: no-cache header to the response.<br><br>The numeric value is <code>1</code>.</td></tr> <tr> <th><code>UseMaxAge</code></th> <td>Adds a Cache-Control: max-age=&lt;nnn&gt; header to the response based on the value specified in the <strong>CacheControlMaxAge</strong> attribute.<br><br>The numeric value is <code>2</code>.</td></tr> <tr> <th><code>UseExpires</code></th> <td>Adds an Expires: &lt;date&gt; header to the response based on the date specified in the <strong>httpExpires</strong> attribute.<br><br>The numeric value is <code>3</code>.</td></tr></tbody></table> |
+| `httpExpires` | Optional string attribute.<br><br>Specifies the date and time after which a page that is cached on the client is considered stale. (The date and time is formatted according to the specification in [Request for Comments 1123](http://www.ietf.org/rfc/rfc1123.txt).) The value is returned to the browser in the HTML file header. The user agent compares the given value with the current date to determine whether to display a cached page or to request an updated page from the server. |
+| `setEtag` | Optional Boolean attribute.<br><br>Specifies whether the HTTP ETag header is calculated and set. The ETag header is used for web cache validation, and enables a Web server to not have to send a full response if no changes have been made to the content. `setEtag` can be set in the Configuration Editor in the path `system.webServer/staticContent`.<br><br>The default value is `true`. |
 
 ### Child Elements
 
@@ -150,7 +150,7 @@ The following code samples add an HTTP "Cache-Control: no-cache" header to the r
 
 ### AppCmd.exe
 
-[!code-csharp[Main](clientCache/samples/sample3.cs)]
+[!code-console[Main](clientCache/samples/sample3.cmd)]
 
 ### C#
 
@@ -172,7 +172,7 @@ The following code samples add an HTTP "Expires: Tue, 19 Jan 2038 03:14:07 GMT" 
 
 ### AppCmd.exe
 
-[!code-csharp[Main](clientCache/samples/sample8.cs)]
+[!code-console[Main](clientCache/samples/sample8.cmd)]
 
 ### C#
 

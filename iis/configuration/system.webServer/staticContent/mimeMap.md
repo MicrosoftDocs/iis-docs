@@ -78,8 +78,8 @@ The `<mimeMap>` element of the `<staticContent>` element is included in the defa
 
 | Attribute | Description |
 | --- | --- |
-| `fileExtension` | Required string attribute. Specifies a unique file name extension for a MIME type. See the Default Configuration section later in this topic for the complete list of default values |
-| `mimeType` | Required string attribute. Specifies the type of file and the application that uses this kind of file name extension. See the Default Configuration section later in this topic for the complete list of default values. |
+| `fileExtension` | Required string attribute.<br><br>Specifies a unique file name extension for a MIME type.<br><br>See the Default Configuration section later in this topic for the complete list of default values |
+| `mimeType` | Required string attribute.<br><br>Specifies the type of file and the application that uses this kind of file name extension.<br><br>See the Default Configuration section later in this topic for the complete list of default values. |
 
 ### Child Elements
 

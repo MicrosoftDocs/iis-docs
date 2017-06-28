@@ -55,9 +55,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a trace URL to the collection of trace URLs. |
-| `clear` | Optional element. Removes all references to trace URLs from the trace URL collection. |
-| `remove` | Optional element. Removes a reference to a trace URL from the trace URL collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds a trace URL to the collection of trace URLs. |
+| `clear` | Optional element.<br><br>Removes all references to trace URLs from the trace URL collection. |
+| `remove` | Optional element. <br><br>Removes a reference to a trace URL from the trace URL collection. |
 
 ### Configuration Sample
 

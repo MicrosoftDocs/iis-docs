@@ -129,8 +129,8 @@ The `<add>` element of the `<providers>` element is configured at the site level
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. The name of an FTP provider that is registered in the [`<system.ftpServer/providerDefinitions>`](../../../../../../system.ftpserver/providerdefinitions/index.md) collection. There is no default value. |
-| `enabled` | Optional Boolean attribute. **true** if the provider is enabled; otherwise, **false**. The default value is `true`. |
+| `name` | Required string attribute.<br><br>The name of an FTP provider that is registered in the [`<system.ftpServer/providerDefinitions>`](../../../../../../system.ftpserver/providerdefinitions/index.md) collection.<br><br>There is no default value. |
+| `enabled` | Optional Boolean attribute.<br><br>**true** if the provider is enabled; otherwise, **false**.<br><br>The default value is `true`. |
 
 ### Child Elements
 

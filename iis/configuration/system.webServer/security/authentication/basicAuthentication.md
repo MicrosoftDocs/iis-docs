@@ -114,10 +114,10 @@ The `<basicAuthentication>` element is configurable at the site, application, vi
 
 | Attribute | Description |
 | --- | --- |
-| `defaultLogonDomain` | Optional String attribute. Specifies the default logon domain for Basic authentication. |
-| `enabled` | Optional Boolean attribute. Specifies whether Basic authentication is enabled. The default value is `false`. |
-| `logonMethod` | Optional enum attribute. The **logonMethod** attribute can be one of the following possible values. The default is `ClearText`. | Value | Description | | --- | --- | | `Batch` | This logon type is intended for batch servers, where processes may be executing on behalf of a user without that user's direct intervention. The numeric value is `1`. | | `ClearText` | This logon type preserves the name and password in the authentication package, which allows the server to make connections to other network servers while impersonating the client. The numeric value is `3`. | | `Interactive` | This logon type is intended for users who will be using the computer interactively. The numeric value is `0`. | | `Network` | This logon type is intended for high performance servers to authenticate plaintext passwords. Credentials are not cached for this logon type. The numeric value is `2`. | |
-| `realm` | Optional String attribute. Specifies the realm for Basic authentication. |
+| `defaultLogonDomain` | Optional String attribute. <br><br>Specifies the default logon domain for Basic authentication. |
+| `enabled` | Optional Boolean attribute.<br><br>Specifies whether Basic authentication is enabled. <br><br>The default value is `false`. |
+| `logonMethod` | Optional enum attribute.<br><br>The **logonMethod** attribute can be one of the following possible values. The default is `ClearText`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Batch</code></th> <td>This logon type is intended for batch servers, where processes may be executing on behalf of a user without that user's direct intervention.<br><br>The numeric value is <code>1</code>.</td></tr> <tr> <th><code>ClearText</code></th> <td>This logon type preserves the name and password in the authentication package, which allows the server to make connections to other network servers while impersonating the client.<br><br>The numeric value is <code>3</code>.</td></tr> <tr> <th><code>Interactive</code></th> <td>This logon type is intended for users who will be using the computer interactively.<br><br>The numeric value is <code>0</code>.</td></tr> <tr> <th><code>Network</code></th> <td>This logon type is intended for high performance servers to authenticate plaintext passwords. Credentials are not cached for this logon type.<br><br>The numeric value is <code>2</code>.</td></tr></tbody></table> |
+| `realm` | Optional String attribute. <br><br>Specifies the realm for Basic authentication. |
 
 ### Child Elements
 

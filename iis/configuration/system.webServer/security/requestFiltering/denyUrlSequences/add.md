@@ -41,7 +41,7 @@ This substatus allows Web administrators to analyze their IIS logs and identify 
 | IIS 10.0 | The `<add>` element was not modified in IIS 10.0. |
 | IIS 8.5 | The `<add>` element was not modified in IIS 8.5. |
 | IIS 8.0 | The `<add>` element was not modified in IIS 8.0. |
-| IIS 7.5 | The `<denyUrlSequences>` element was not modified in IIS 7.5. **Note:** IIS 7.5 allows you to override the URL sequences in the `<denyUrlSequences>` element by adding URL sequences to the [`<alwaysAllowedUrls>`](../alwaysallowedurls/index.md) collection. |
+| IIS 7.5 | The `<denyUrlSequences>` element was not modified in IIS 7.5.<br><br>**Note:** IIS 7.5 allows you to override the URL sequences in the `<denyUrlSequences>` element by adding URL sequences to the [`<alwaysAllowedUrls>`](../alwaysallowedurls/index.md) collection. |
 | IIS 7.0 | The `<denyUrlSequences>` element of the `<requestFiltering>` collection was introduced in IIS 7.0. |
 | IIS 6.0 | The `<denyUrlSequences>` element replaces the IIS 6.0 UrlScan **[DenyUrlSequences]** features. |
 
@@ -129,7 +129,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 
 | Attribute | Description |
 | --- | --- |
-| `sequence` | Required string attribute. Specifies sequences of characters in URLs that the Web server should never process to help prevent URL-based attacks on the Web server. |
+| `sequence` | Required string attribute.<br><br>Specifies sequences of characters in URLs that the Web server should never process to help prevent URL-based attacks on the Web server. |
 
 ### Child Elements
 

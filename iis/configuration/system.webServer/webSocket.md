@@ -96,9 +96,9 @@ The `<webSocket>` element is configured at the server, site, or application leve
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Optional Boolean attribute. Enables server applications to communicate over the WebSocket protocol. The default value is `true`. |
-| `pingInterval` | Optional timeSpan attribute. The interval at which a ping is sent over a WebSocket connection. The default value is `00:00:00`. |
-| `receiveBufferLimit` | Optional uint attribute. The maximum size of the receive buffer for a WebSocket connection. The default value is `4194304`. |
+| `enabled` | Optional Boolean attribute.<br><br>Enables server applications to communicate over the WebSocket protocol.<br><br>The default value is `true`. |
+| `pingInterval` | Optional timeSpan attribute.<br><br>The interval at which a ping is sent over a WebSocket connection.<br><br>The default value is `00:00:00`. |
+| `receiveBufferLimit` | Optional uint attribute.<br><br>The maximum size of the receive buffer for a WebSocket connection.<br><br>The default value is `4194304`. |
 
 ### Child Elements
 

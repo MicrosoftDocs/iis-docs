@@ -207,7 +207,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`providers`](providers/index.md) | Optional element. Specifies the default collection of custom authentication providers. |
+| [`providers`](providers/index.md) | Optional element.<br><br>Specifies the default collection of custom authentication providers. |
 
 ### Configuration Sample
 

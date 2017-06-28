@@ -114,8 +114,8 @@ None.
 | Element | Description |
 | --- | --- |
 | [`add`](add.md) | Optional element. Adds a query string pattern to the collection of query strings that request filtering will always allow. |
-| `clear` | Optional element. Clears the collection of query string patterns that request filtering will always allow. |
-| `remove` | Optional element. Removes a query string pattern from the collection of query strings that request filtering will always allow. |
+| `clear` | Optional element.<br><br>Clears the collection of query string patterns that request filtering will always allow. |
+| `remove` | Optional element.<br><br>Removes a query string pattern from the collection of query strings that request filtering will always allow. |
 
 ### Configuration Sample
 

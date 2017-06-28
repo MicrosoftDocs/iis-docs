@@ -57,10 +57,10 @@ There is no user interface for setting the configuration history options for IIS
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Optional Boolean attribute. Specifies whether configuration history is enabled. The default value is `true`. |
-| `path` | Optional string attribute. Specifies the path to the configuration history files. The default value is `%SystemDrive%\inetpub\history`. |
-| `maxHistories` | Optional uint attribute. Specifies the maximum number of history files to keep. The default value is `10`. |
-| `period` | Optional timeSpan attribute. Specifies the interval that IIS uses to check for configuration changes. The default value is `00:02:00` (two minutes). |
+| `enabled` | Optional Boolean attribute.<br><br>Specifies whether configuration history is enabled.<br><br>The default value is `true`. |
+| `path` | Optional string attribute.<br><br>Specifies the path to the configuration history files.<br><br>The default value is `%SystemDrive%\inetpub\history`. |
+| `maxHistories` | Optional uint attribute.<br><br>Specifies the maximum number of history files to keep.<br><br>The default value is `10`. |
+| `period` | Optional timeSpan attribute.<br><br>Specifies the interval that IIS uses to check for configuration changes.<br><br>The default value is `00:02:00` (two minutes). |
 
 ### Child Elements
 

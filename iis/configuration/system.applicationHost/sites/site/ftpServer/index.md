@@ -277,25 +277,25 @@ The site-specific `<ftpServer>` element is configured at the `<site>` level.
 
 | Attribute | Description |
 | --- | --- |
-| `allowUTF8` | Optional **Boolean** attribute. **true** if UTF8 is enabled; otherwise, **false**. The default value is `true`. |
-| `serverAutoStart` | Optional **Boolean** attribute. **true** if IIS should start the FTP site automatically when the FTP service is started; otherwise, **false**. The default value is `true`. |
-| `state` | Dynamically-generated read-only enum attribute. Specifies the current run-time state for an FTP site. Possible values are: | Name | Description | | --- | --- | | `Starting` | Specifies that the FTP site is starting. The numeric value is `0`. | | `Started` | Specifies that the FTP site is currently running. The numeric value is `1`. | | `Stopping` | Specifies that the FTP site is stopping. The numeric value is `2`. | | `Stopped` | Specifies that the FTP site has stopped. The numeric value is `3`. | | `Unknown` | Specifies that the FTP site is in an unknown state. The numeric value is `4`. | There is no default value and the attribute is not configurable. `None`. |
-| `lastStartupStatus` | Dynamically generated read-only uint attribute. Specifies the state from when the FTP site was last started. There is no default value and the attribute is not configurable. |
+| `allowUTF8` | Optional **Boolean** attribute.<br><br>**true** if UTF8 is enabled; otherwise, **false**.<br><br>The default value is `true`. |
+| `serverAutoStart` | Optional **Boolean** attribute.<br><br>**true** if IIS should start the FTP site automatically when the FTP service is started; otherwise, **false**.<br><br>The default value is `true`. |
+| `state` | Dynamically-generated read-only enum attribute.<br><br>Specifies the current run-time state for an FTP site. Possible values are: <table> <tbody> <tr> <th>Name</th> <th>Description</th></tr> <tr> <th><code>Starting</code></th> <td>Specifies that the FTP site is starting.<br><br>The numeric value is <code>0</code>.</td></tr> <tr> <th><code>Started</code></th> <td> <p>Specifies that the FTP site is currently running.<br><br>The numeric value is <code>1</code>.</p></td></tr> <tr> <th><code>Stopping</code></th> <td>Specifies that the FTP site is stopping.<br><br>The numeric value is <code>2</code>.</td></tr> <tr> <th><code>Stopped</code></th> <td> <p>Specifies that the FTP site has stopped.<br><br>The numeric value is <code>3</code>.</p></td></tr> <tr> <th><code>Unknown</code></th> <td>Specifies that the FTP site is in an unknown state.<br><br>The numeric value is <code>4</code>.</td></tr></tbody></table>There is no default value and the attribute is not configurable. `None`. |
+| `lastStartupStatus` | Dynamically generated read-only uint attribute.<br><br>Specifies the state from when the FTP site was last started.<br><br>There is no default value and the attribute is not configurable. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`connections`](connections.md) | Optional element. Specifies the connection-specific settings for an FTP site. |
-| [`security`](security/index.md) | Optional element. Specifies the security-related settings for an FTP site. |
-| [`customFeatures`](customfeatures/index.md) | Optional element. Specifies a collection of custom FTP providers that were developed by using FTP extensibility. |
-| [`messages`](messages.md) | Optional element. Specifies the connection-related messages that an FTP site will display to FTP clients. |
-| [`fileHandling`](filehandling.md) | Optional element. Specifies the file-handling settings for an FTP site. |
-| [`firewallSupport`](firewallsupport.md) | Optional element. Specifies the settings for an FTP site that are required for FTP connections that are made through a firewall. |
-| [`userIsolation`](userisolation/index.md) | Optional element. Specifies the home directory lookup behavior for FTP connections. For example, users can be restricted to a home directory that is based on their login name. |
-| [`directoryBrowse`](directorybrowse.md) | Optional element. Specifies the directory listing options for an FTP site. These settings affect how the FTP service will display directory listings to FTP clients. |
-| [`logfile`](logfile.md) | Optional element. Specifies the logging options for an FTP site. |
-| [`sessions`](sessions/index.md) | Dynamically-generated read-only element. Contains a collection of currently-connected FTP sessions. Each session contains various metadata such as the client's IP address, the currently-executed command, etc. |
+| [`connections`](connections.md) | Optional element.<br><br>Specifies the connection-specific settings for an FTP site. |
+| [`security`](security/index.md) | Optional element.<br><br>Specifies the security-related settings for an FTP site. |
+| [`customFeatures`](customfeatures/index.md) | Optional element.<br><br>Specifies a collection of custom FTP providers that were developed by using FTP extensibility. |
+| [`messages`](messages.md) | Optional element.<br><br>Specifies the connection-related messages that an FTP site will display to FTP clients. |
+| [`fileHandling`](filehandling.md) | Optional element.<br><br>Specifies the file-handling settings for an FTP site. |
+| [`firewallSupport`](firewallsupport.md) | Optional element.<br><br>Specifies the settings for an FTP site that are required for FTP connections that are made through a firewall. |
+| [`userIsolation`](userisolation/index.md) | Optional element.<br><br>Specifies the home directory lookup behavior for FTP connections. For example, users can be restricted to a home directory that is based on their login name. |
+| [`directoryBrowse`](directorybrowse.md) | Optional element.<br><br>Specifies the directory listing options for an FTP site. These settings affect how the FTP service will display directory listings to FTP clients. |
+| [`logfile`](logfile.md) | Optional element.<br><br>Specifies the logging options for an FTP site. |
+| [`sessions`](sessions/index.md) | Dynamically-generated read-only element.<br><br>Contains a collection of currently-connected FTP sessions. Each session contains various metadata such as the client's IP address, the currently-executed command, etc. |
 
 ### Methods
 

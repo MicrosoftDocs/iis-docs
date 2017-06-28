@@ -121,13 +121,13 @@ To support and configure ASP applications on your Web server, you must install t
 
 | Attribute | Description |
 | --- | --- |
-| `bufferingLimit` | Optional uint attribute. Specifies the maximum size, in bytes, of the ASP buffer. If response buffering is turned on, this attribute controls the maximum number of bytes that an ASP page can write to the response buffer before a flush occurs. This value is an integer in the range from 0 to 2147483647. The default value is `4194304`. |
-| `maxRequestEntityAllowed` | Optional uint attribute. Specifies the maximum number of bytes allowed in the entire body of an ASP request. This value is an integer in the range from 0 to 2147483647. The default value is `200000`. |
-| `processorThreadMax` | Optional uint attribute. Specifies the maximum number of worker threads per processor that ASP can create. The default value is `25`. |
-| `queueConnectionTestTime` | Optional timeSpan attribute. Specifies the time interval (hh:mm:ss) after which ASP will check to see whether the client is still connected before executing a request. If the client is no longer connected, the request is not processed and is deleted from the queue. The default value is `00:00:03`. |
-| `queueTimeout` | Optional timeSpan attribute. Specifies the maximum period of time (hh:mm:ss) that an ASP request can wait in the request queue. The default value is `00:00:00`. |
-| `requestQueueMax` | Optional uint attribute. Specifies the maximum number of concurrent ASP requests that are allowed into the request queue. The default value is `3000`. |
-| `scriptTimeout` | Optional timeSpan attribute. Specifies the maximum period of time (hh:mm:ss) that ASP pages allow a script to run run before terminating the script and writing an event to the Windows Event Log. The default value is `00:01:30`. |
+| `bufferingLimit` | Optional uint attribute.<br><br>Specifies the maximum size, in bytes, of the ASP buffer. If response buffering is turned on, this attribute controls the maximum number of bytes that an ASP page can write to the response buffer before a flush occurs. This value is an integer in the range from 0 to 2147483647.<br><br>The default value is `4194304`. |
+| `maxRequestEntityAllowed` | Optional uint attribute.<br><br>Specifies the maximum number of bytes allowed in the entire body of an ASP request. This value is an integer in the range from 0 to 2147483647.<br><br>The default value is `200000`. |
+| `processorThreadMax` | Optional uint attribute.<br><br>Specifies the maximum number of worker threads per processor that ASP can create.<br><br>The default value is `25`. |
+| `queueConnectionTestTime` | Optional timeSpan attribute.<br><br>Specifies the time interval (hh:mm:ss) after which ASP will check to see whether the client is still connected before executing a request. If the client is no longer connected, the request is not processed and is deleted from the queue.<br><br>The default value is `00:00:03`. |
+| `queueTimeout` | Optional timeSpan attribute.<br><br>Specifies the maximum period of time (hh:mm:ss) that an ASP request can wait in the request queue.<br><br>The default value is `00:00:00`. |
+| `requestQueueMax` | Optional uint attribute.<br><br>Specifies the maximum number of concurrent ASP requests that are allowed into the request queue.<br><br>The default value is `3000`. |
+| `scriptTimeout` | Optional timeSpan attribute.<br><br>Specifies the maximum period of time (hh:mm:ss) that ASP pages allow a script to run run before terminating the script and writing an event to the Windows Event Log.<br><br>The default value is `00:01:30`. |
 
 ### Child Elements
 

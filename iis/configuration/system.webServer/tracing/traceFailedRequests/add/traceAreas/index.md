@@ -144,9 +144,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a trace area to the collection of trace areas. |
-| `clear` | Optional element. Removes a reference to a trace area from the trace areas collection. |
-| `remove` | Optional element. Removes all references to trace areas from the trace areas collection. |
+| [`add`](add.md) | Optional element. <br><br>Adds a trace area to the collection of trace areas. |
+| `clear` | Optional element. <br><br>Removes a reference to a trace area from the trace areas collection. |
+| `remove` | Optional element. <br><br>Removes all references to trace areas from the trace areas collection. |
 
 ### Configuration Sample
 

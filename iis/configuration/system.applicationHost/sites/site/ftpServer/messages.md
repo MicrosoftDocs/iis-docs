@@ -164,13 +164,13 @@ The site-level `<messages>` element is configured at the site level.
 
 | Attribute | Description |
 | --- | --- |
-| `allowLocalDetailedErrors` | Optional **Boolean** attribute. **true** if detailed error messages should be displayed locally; otherwise, **false**. **Note:** Detailed error messages cannot be displayed remotely. The default value is `true`. |
-| `bannerMessage` | Optional string attribute. Specifies the message that is displayed when a client connects to the FTP server. There is no default value. |
-| `exitMessage` | Optional string attribute. Specifies the message that is displayed when a client is closing a connection to the FTP server. There is no default value. |
-| `expandVariables` | Optional **Boolean** attribute. **true** if user variables should be expanded; otherwise, **false**. The default value is `false`. |
-| `greetingMessage` | Optional string attribute. Specifies the message that is displayed after a client has logged in to the FTP server. There is no default value. |
-| `maxClientsMessage` | Optional string attribute. Specifies the message that is displayed when a client tries to log in and the maximum number of clients has already been reached on the FTP server. There is no default value. |
-| `suppressDefaultBanner` | Optional **Boolean** attribute. **true** if the FTP service should suppress the default "Microsoft FTP Service" banner; otherwise, **false**. The default value is `false`. |
+| `allowLocalDetailedErrors` | Optional **Boolean** attribute.<br><br>**true** if detailed error messages should be displayed locally; otherwise, **false**.<br><br>**Note:** Detailed error messages cannot be displayed remotely.<br><br>The default value is `true`. |
+| `bannerMessage` | Optional string attribute.<br><br>Specifies the message that is displayed when a client connects to the FTP server.<br><br>There is no default value. |
+| `exitMessage` | Optional string attribute.<br><br>Specifies the message that is displayed when a client is closing a connection to the FTP server.<br><br>There is no default value. |
+| `expandVariables` | Optional **Boolean** attribute.<br><br>**true** if user variables should be expanded; otherwise, **false**.<br><br>The default value is `false`. |
+| `greetingMessage` | Optional string attribute.<br><br>Specifies the message that is displayed after a client has logged in to the FTP server.<br><br>There is no default value. |
+| `maxClientsMessage` | Optional string attribute.<br><br>Specifies the message that is displayed when a client tries to log in and the maximum number of clients has already been reached on the FTP server.<br><br>There is no default value. |
+| `suppressDefaultBanner` | Optional **Boolean** attribute.<br><br>**true** if the FTP service should suppress the default "Microsoft FTP Service" banner; otherwise, **false**.<br><br>The default value is `false`. |
 
 ### Child Elements
 

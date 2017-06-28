@@ -174,10 +174,10 @@ Rules are processed from top to bottom, in the order they appear in the list. Th
 
 | Attribute | Description |
 | --- | --- |
-| `allowed` | Optional **Boolean** attribute. Specifies whether to allow access to the address space. The default value is `false`. |
-| `domainName` | Optional string attribute. Specifies the domain name on which to impose a restriction rule. You can use an asterisk (\*) as a wildcard. |
-| `ipAddress` | Optional string attribute. Specifies the IP version 4 address on which to impose a restriction rule. |
-| `subnetMask` | Optional string attribute. Specifies the subnet mask with which to evaluate the IP address for this restriction rule. You can use a subnet mask to identify a range of IP addresses in an address space. The default value requires a direct match of the IP address being evaluated (effectively, a range of a single address). The default value is `255.255.255.255`. |
+| `allowed` | Optional **Boolean** attribute.<br><br>Specifies whether to allow access to the address space.<br><br>The default value is `false`. |
+| `domainName` | Optional string attribute.<br><br>Specifies the domain name on which to impose a restriction rule. You can use an asterisk (\*) as a wildcard. |
+| `ipAddress` | Optional string attribute.<br><br>Specifies the IP version 4 address on which to impose a restriction rule. |
+| `subnetMask` | Optional string attribute.<br><br>Specifies the subnet mask with which to evaluate the IP address for this restriction rule. You can use a subnet mask to identify a range of IP addresses in an address space. The default value requires a direct match of the IP address being evaluated (effectively, a range of a single address).<br><br>The default value is `255.255.255.255`. |
 
 ### Child Elements
 

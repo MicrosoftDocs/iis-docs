@@ -85,8 +85,8 @@ There is no user interface for adding trace providers for IIS 7. For examples of
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies the unique name of the area where the trace provider will apply. |
-| `Value` | Required uint attribute. Specifies the unique numerical value for the trace provider within the list of enumerated values. |
+| `name` | Required string attribute.<br><br>Specifies the unique name of the area where the trace provider will apply. |
+| `Value` | Required uint attribute.<br><br>Specifies the unique numerical value for the trace provider within the list of enumerated values. |
 
 ### Child Elements
 

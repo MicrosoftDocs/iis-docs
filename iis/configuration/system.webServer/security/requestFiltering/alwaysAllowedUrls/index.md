@@ -113,9 +113,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a URL to the collection of URLs that request filtering will always allow. |
-| `clear` | Optional element. Clears the collection of URLs that request filtering will always allow. |
-| `remove` | Optional element. Removes a URL from the collection of URLs that request filtering will always allow. |
+| [`add`](add.md) | Optional element.<br><br>Adds a URL to the collection of URLs that request filtering will always allow. |
+| `clear` | Optional element.<br><br>Clears the collection of URLs that request filtering will always allow. |
+| `remove` | Optional element.<br><br>Removes a URL from the collection of URLs that request filtering will always allow. |
 
 ### Configuration Sample
 

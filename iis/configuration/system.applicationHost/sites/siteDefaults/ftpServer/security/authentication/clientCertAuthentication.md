@@ -132,7 +132,7 @@ At this time there is no user interface that enables you to configure the Client
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Optional **Boolean** attribute. **true** if Client Certificate authentication is enabled; otherwise, **false**. The default value is `false`. |
+| `enabled` | Optional **Boolean** attribute.<br><br>**true** if Client Certificate authentication is enabled; otherwise, **false**.<br><br>The default value is `false`. |
 
 ### Child Elements
 

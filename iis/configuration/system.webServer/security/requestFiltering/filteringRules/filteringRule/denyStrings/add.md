@@ -120,7 +120,7 @@ The `<add>` element of the `<denyStrings>` element is configured at the site, ap
 
 | Attribute | Description |
 | --- | --- |
-| `string` | Required string attribute. Specifies a unique string which a request filtering rule will deny. There is no default value. |
+| `string` | Required string attribute.<br><br>Specifies a unique string which a request filtering rule will deny.<br><br>There is no default value. |
 
 ### Child Elements
 

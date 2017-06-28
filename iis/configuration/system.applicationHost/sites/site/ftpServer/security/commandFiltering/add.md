@@ -156,8 +156,8 @@ The `<add>` element is configured at the site level.
 
 | Attribute | Description |
 | --- | --- |
-| `command` | Required unique string attribute. Specifies the FTP command for the rule. There is no default value. |
-| `allowed` | Required **Boolean** attribute. **true** if the command is allowed; otherwise, **false**. There is no default value. |
+| `command` | Required unique string attribute.<br><br>Specifies the FTP command for the rule.<br><br>There is no default value. |
+| `allowed` | Required **Boolean** attribute.<br><br>**true** if the command is allowed; otherwise, **false**.<br><br>There is no default value. |
 
 ### Child Elements
 

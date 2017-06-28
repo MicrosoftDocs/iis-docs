@@ -90,8 +90,8 @@ There is no user interface for setting the dynamic content types for IIS 7. For 
 
 | Element | Description |
 | --- | --- |
-| `enabled` | Required Boolean attribute. Specifies whether a new MIME type can use dynamic compression. The default value is `true`. |
-| `mimeType` | Required string attribute. Specifies the name of the MIME type, also called the content type, that uses dynamic compression. |
+| `enabled` | Required Boolean attribute. <br><br>Specifies whether a new MIME type can use dynamic compression. <br><br>The default value is `true`. |
+| `mimeType` | Required string attribute. <br><br>Specifies the name of the MIME type, also called the content type, that uses dynamic compression. |
 
 ### Child Elements
 

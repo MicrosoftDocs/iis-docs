@@ -60,16 +60,16 @@ There is no user interface for configuring the `<staticContent>` element for IIS
 
 | Attribute | Description |
 | --- | --- |
-| `defaultDocFooter` | Optional string attribute. Specifies either the default footer text for every Web page on a site, or the path of a file that contains the default footer text. How IIS 7 uses this property depends on the value of the **isDocFooterFileName** attribute. **Note:** The custom footer will only be sent if the **enableDocFooter** attribute is set to **true**. |
-| `enableDocFooter` | Optional Boolean attribute. Specifies whether the text indicated by the **defaultDocFooter** attribute will appear on every static page on a Web site. The default value is `false`. |
-| `isDocFooterFileName` | Optional Boolean attribute. Specifies whether the string in the **defaultDocFooter** attribute contains a path of a file that contains the default footer text for every static Web page on a site. The default value is `false`. |
+| `defaultDocFooter` | Optional string attribute. <br><br>Specifies either the default footer text for every Web page on a site, or the path of a file that contains the default footer text. How IIS 7 uses this property depends on the value of the **isDocFooterFileName** attribute. <br><br>**Note:** The custom footer will only be sent if the **enableDocFooter** attribute is set to **true**. |
+| `enableDocFooter` | Optional Boolean attribute. <br><br>Specifies whether the text indicated by the **defaultDocFooter** attribute will appear on every static page on a Web site. <br><br>The default value is `false`. |
+| `isDocFooterFileName` | Optional Boolean attribute. <br><br>Specifies whether the string in the **defaultDocFooter** attribute contains a path of a file that contains the default footer text for every static Web page on a site. <br><br>The default value is `false`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`clientCache`](clientcache.md) | Optional element. Specifies settings for caching static content that is sent to the client. |
-| [`mimeMap`](mimemap.md) | Optional element. Specifies a list of the file name extensions for MIME mappings. |
+| [`clientCache`](clientcache.md) | Optional element.<br><br>Specifies settings for caching static content that is sent to the client. |
+| [`mimeMap`](mimemap.md) | Optional element.<br><br>Specifies a list of the file name extensions for MIME mappings. |
 
 ### Configuration Sample
 

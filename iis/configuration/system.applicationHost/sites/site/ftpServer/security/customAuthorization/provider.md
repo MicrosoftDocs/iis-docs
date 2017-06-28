@@ -95,8 +95,8 @@ The `<provider>` element is configured at the site level.
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Optional Boolean attribute. Specifies that a custom authorization provider will be used for authorization. Otherwise, the built-in provider will be used. The default value is `true`. |
-| `name` | Optional string attribute. Specifies the custom authorization provider that will be used for authorization. The provider name is selected from a drop-down list. |
+| `enabled` | Optional Boolean attribute.<br><br>Specifies that a custom authorization provider will be used for authorization. Otherwise, the built-in provider will be used.<br><br>The default value is `true`. |
+| `name` | Optional string attribute.<br><br>Specifies the custom authorization provider that will be used for authorization. The provider name is selected from a drop-down list. |
 
 ### Child Elements
 

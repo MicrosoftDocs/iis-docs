@@ -93,9 +93,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add/index.md) | Optional element. Adds a trace provider to the collection of trace providers. |
-| `clear` | Optional element. Removes all references to trace providers from the trace provider collection. |
-| `remove` | Optional element. Removes a reference to a trace provider from the trace provider collection. |
+| [`add`](add/index.md) | Optional element.<br><br>Adds a trace provider to the collection of trace providers. |
+| `clear` | Optional element.<br><br>Removes all references to trace providers from the trace provider collection. |
+| `remove` | Optional element. <br><br>Removes a reference to a trace provider from the trace provider collection. |
 
 ### Configuration Sample
 

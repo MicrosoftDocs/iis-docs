@@ -125,16 +125,16 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 
 | Attribute | Description |
 | --- | --- |
-| `allowUnlisted` | Optional Boolean attribute. Specifies whether the Web server should process unlisted verbs. If you set this attribute to **true**, you must list all verbs you want to deny. If you set this attribute to **false**, you must list all verbs that you want to allow. The default value is `true`. |
-| `applyToWebDAV` | Optional Boolean attribute. Specifies whether these settings should also apply to WebDAV requests. |
+| `allowUnlisted` | Optional Boolean attribute. <br><br>Specifies whether the Web server should process unlisted verbs. If you set this attribute to **true**, you must list all verbs you want to deny. If you set this attribute to **false**, you must list all verbs that you want to allow. <br><br>The default value is `true`. |
+| `applyToWebDAV` | Optional Boolean attribute. <br><br>Specifies whether these settings should also apply to WebDAV requests. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a verb to the verbs collection. |
-| `clear` | Optional element. Removes all references to verbs from the verbs collection. |
-| `remove` | Optional element. Removes a reference to a verb from the verbs collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds a verb to the verbs collection. |
+| `clear` | Optional element.<br><br>Removes all references to verbs from the verbs collection. |
+| `remove` | Optional element.<br><br>Removes a reference to a verb from the verbs collection. |
 
 ### Configuration Sample
 

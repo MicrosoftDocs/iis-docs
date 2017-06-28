@@ -90,10 +90,10 @@ The `<denyByFailure>` element is configured at the server level.
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Optional Boolean attribute. Enables the FTP service to deny access based upon the failure rate. The default value is `False`. |
-| `maxFailure` | Optional uint attribute. Specifies the number of failures in the specific time span that will prompt access to the FTP service to be denied. The default value is `4`. |
-| `entryExpiration` | Optional TimeSpan attribute. Specifies the period of time in which a specified number of failures will prompt access to the FTP service to be denied. The default value is `00:00:30`. |
-| `loggingOnlyMode` | Optional Boolean attribute. Specifies that access will not be denied because of the failure rate, but that the event will be logged. The default value is `False`. |
+| `enabled` | Optional Boolean attribute.<br><br>Enables the FTP service to deny access based upon the failure rate.<br><br>The default value is `False`. |
+| `maxFailure` | Optional uint attribute.<br><br>Specifies the number of failures in the specific time span that will prompt access to the FTP service to be denied.<br><br>The default value is `4`. |
+| `entryExpiration` | Optional TimeSpan attribute.<br><br>Specifies the period of time in which a specified number of failures will prompt access to the FTP service to be denied.<br><br>The default value is `00:00:30`. |
+| `loggingOnlyMode` | Optional Boolean attribute.<br><br>Specifies that access will not be denied because of the failure rate, but that the event will be logged.<br><br>The default value is `False`. |
 
 ### Child Elements
 

@@ -91,7 +91,7 @@ There is no user interface for Windows authentication providers for IIS 7. For e
 
 | Attribute | Description |
 | --- | --- |
-| `Value` | Optional String attribute. Specifies the name of the security provider. By default, there are two providers: **Negotiate** and **NTLM**. |
+| `Value` | Optional String attribute. <br><br>Specifies the name of the security provider. <br><br>By default, there are two providers: **Negotiate** and **NTLM**. |
 
 ### Child Elements
 

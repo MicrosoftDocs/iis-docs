@@ -158,16 +158,16 @@ The `<commandFiltering>` element is configured at the site level.
 
 | Attribute | Description |
 | --- | --- |
-| `maxCommandLine` | Optional uint attribute. Specifies the maximum command line length. It includes the command and parameters. Lines longer than the configured limit will not be processed. The default value is `4096`. |
-| `allowUnlisted` | Optional **Boolean** attribute. Specifies whether to allow unlisted commands. The default value is `true`. |
+| `maxCommandLine` | Optional uint attribute.<br><br>Specifies the maximum command line length. It includes the command and parameters. Lines longer than the configured limit will not be processed.<br><br>The default value is `4096`. |
+| `allowUnlisted` | Optional **Boolean** attribute.<br><br>Specifies whether to allow unlisted commands.<br><br>The default value is `true`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds an entry to the collection of FTP commands. |
-| `clear` | Optional element. Clears the collection of FTP commands. |
-| `remove` | Optional element. Removes an entry from the collection of FTP commands. |
+| [`add`](add.md) | Optional element.<br><br>Adds an entry to the collection of FTP commands. |
+| `clear` | Optional element.<br><br>Clears the collection of FTP commands. |
+| `remove` | Optional element.<br><br>Removes an entry from the collection of FTP commands. |
 
 ### Configuration Sample
 

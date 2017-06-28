@@ -131,15 +131,15 @@ The `<properties>` element is configurable only at the site level in the Applica
 | Attribute | Description |
 | --- | --- |
 | `allowAnonymousPropfind` | Optional **Boolean** attribute. **true** if anonymous WebDAV property requests are allowed; otherwise, **false**. **Important**: Most WebDAV verbs require authentication; however, anonymous WebDAV property requests may be allowed for backwards-compatibility for some WebDAV clients. Unless there is a specific requirement for your environment, anonymous WebDAV property requests should always be disabled because they introduce the chance of information disclosure for a Web site. For example, an anonymous WebDAV client can retrieve a list of files in your application. The default value is `false`. |
-| `allowInfinitePropfindDepth` | Optional **Boolean** attribute. **true** if infinite-depth WebDAV property requests are allowed; otherwise, **false**. **Important**: Allowing infinite-depth WebDAV property requests is strongly discouraged due to the amount of CPU time that may be required to fullfill an infinite-depth WebDAV property request. This could even lead to a denial of service for your application. Unless there is a specific requirement for your environment, infinite-depth WebDAV property requests should always be disabled. The default value is `false`. |
-| `allowCustomProperties` | Optional **Boolean** attribute. **true** if custom WebDAV properties are allowed; otherwise, **false**. **Note:** Custom WebDAV properties are also known as "dead" properties. **Note:** If `allowCustomProperties` is set to **true** but no property stores are defined or there are no XML namespace to property store mappings, no custom properties can be stored. The default value is `true`. |
+| `allowInfinitePropfindDepth` | Optional **Boolean** attribute.<br><br>**true** if infinite-depth WebDAV property requests are allowed; otherwise, **false**.<br><br>**Important**: Allowing infinite-depth WebDAV property requests is strongly discouraged due to the amount of CPU time that may be required to fullfill an infinite-depth WebDAV property request. This could even lead to a denial of service for your application. Unless there is a specific requirement for your environment, infinite-depth WebDAV property requests should always be disabled.<br><br>The default value is `false`. |
+| `allowCustomProperties` | Optional **Boolean** attribute.<br><br>**true** if custom WebDAV properties are allowed; otherwise, **false**.<br><br>**Note:** Custom WebDAV properties are also known as "dead" properties.<br><br>**Note:** If `allowCustomProperties` is set to **true** but no property stores are defined or there are no XML namespace to property store mappings, no custom properties can be stored.<br><br>The default value is `true`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a mapping for an XML namespace to a property provider. |
-| `clear` | Optional element. Clears all the existing namespace mappings. |
+| [`add`](add.md) | Optional element.<br><br>Adds a mapping for an XML namespace to a property provider. |
+| `clear` | Optional element.<br><br>Clears all the existing namespace mappings. |
 | `remove` | Optional element. Removes a mapping from the list of XML namespaces to property providers. |
 
 ### Configuration Sample

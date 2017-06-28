@@ -88,13 +88,13 @@ There is no user interface for configuring the `<trustedProviders>` element for 
 
 | Attribute | Description |
 | --- | --- |
-| `allowUntrustedProviders` | Optional Boolean attribute. Specifies whether untrusted providers can run. **Important Note:** For security reasons, it is not recommended to change this value to **true**, because it will allow untrusted code to run on your server. Instead, you should always test a provider and add it to the trusted providers collection only when it is safe. The default value is `false`. |
+| `allowUntrustedProviders` | Optional Boolean attribute.<br><br>Specifies whether untrusted providers can run.<br><br>**Important Note:** For security reasons, it is not recommended to change this value to **true**, because it will allow untrusted code to run on your server. Instead, you should always test a provider and add it to the trusted providers collection only when it is safe.<br><br>The default value is `false`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a provider to the collection of providers that are trusted to be run by IIS Manager and the Management Service (WMSVC). |
+| [`add`](add.md) | Optional element. <br><br>Adds a provider to the collection of providers that are trusted to be run by IIS Manager and the Management Service (WMSVC). |
 
 ### Configuration Sample
 

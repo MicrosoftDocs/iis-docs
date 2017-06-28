@@ -150,9 +150,9 @@ The `<activeDirectory>` element is configured at the site level.
 
 | Attribute | Description |
 | --- | --- |
-| `adCacheRefresh` | Optional timeSpan attribute. Specifies the time span to cache active directory information. The default value is `00:01:00`. |
-| `adPassword` | Optional encrypted string attribute. Specifies the user password for the connection to the active directory server. There is no default value. |
-| `adUserName` | Optional string attribute. Specifies the user name for the connection to the active directory server. There is no default value. |
+| `adCacheRefresh` | Optional timeSpan attribute.<br><br>Specifies the time span to cache active directory information.<br><br>The default value is `00:01:00`. |
+| `adPassword` | Optional encrypted string attribute.<br><br>Specifies the user password for the connection to the active directory server.<br><br>There is no default value. |
+| `adUserName` | Optional string attribute.<br><br>Specifies the user name for the connection to the active directory server.<br><br>There is no default value. |
 
 ### Child Elements
 

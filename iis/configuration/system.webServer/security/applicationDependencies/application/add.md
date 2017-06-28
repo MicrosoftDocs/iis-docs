@@ -48,7 +48,7 @@ There is no user interface for configuring the `<applicationDependencies>` eleme
 
 | Attribute | Description |
 | --- | --- |
-| `groupID` | Required string attribute. Specifies additional **groupIDs** associated with the parent application. |
+| `groupID` | Required string attribute.<br><br>Specifies additional **groupIDs** associated with the parent application. |
 
 ### Child Elements
 

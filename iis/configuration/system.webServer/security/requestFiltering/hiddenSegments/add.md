@@ -123,7 +123,7 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 
 | Attribute | Description |
 | --- | --- |
-| `segment` | Required string attribute. Specifies part of the file system that should never be served to clients. See the Default Configuration section later in this topic for the complete list of default values. |
+| `segment` | Required string attribute. <br><br>Specifies part of the file system that should never be served to clients. <br><br>See the Default Configuration section later in this topic for the complete list of default values. |
 
 ### Child Elements
 

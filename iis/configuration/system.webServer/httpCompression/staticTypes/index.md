@@ -92,10 +92,10 @@ None.
 
 ### Child Elements
 
-| [`add`](add.md) | Optional element. Adds a MIME type to the collection of static MIME types. |
+| [`add`](add.md) | Optional element. <br><br>Adds a MIME type to the collection of static MIME types. |
 | --- | --- |
-| `remove` | Optional element. Removes a reference to a MIME type from the static MIME type collection. |
-| `clear` | Optional element. Removes all references to MIME types from the static MIME type collection. |
+| `remove` | Optional element. <br><br>Removes a reference to a MIME type from the static MIME type collection. |
+| `clear` | Optional element. <br><br>Removes all references to MIME types from the static MIME type collection. |
 
 ### Configuration Sample
 

@@ -290,10 +290,10 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`anonymousAuthentication`](anonymousauthentication.md) | Optional element. Specifies the Anonymous authentication settings for an FTP site. |
-| [`basicAuthentication`](basicauthentication.md) | Optional element. Specifies the Basic authentication settings for an FTP site. |
-| [`clientCertAuthentication`](clientcertauthentication.md) | Optional element. Specifies the Client Certificate authentication settings for an FTP site. |
-| [`customAuthentication`](customauthentication/index.md) | Optional element. Specifies the Custom authentication settings for an FTP site. **Note:** Custom authentication is implemented through custom authentication providers. |
+| [`anonymousAuthentication`](anonymousauthentication.md) | Optional element.<br><br>Specifies the Anonymous authentication settings for an FTP site. |
+| [`basicAuthentication`](basicauthentication.md) | Optional element.<br><br>Specifies the Basic authentication settings for an FTP site. |
+| [`clientCertAuthentication`](clientcertauthentication.md) | Optional element.<br><br>Specifies the Client Certificate authentication settings for an FTP site. |
+| [`customAuthentication`](customauthentication/index.md) | Optional element.<br><br>Specifies the Custom authentication settings for an FTP site.<br><br>**Note:** Custom authentication is implemented through custom authentication providers. |
 
 ### Configuration Sample
 

@@ -94,8 +94,8 @@ The `<add>` element of the `<applicationInitialization>` element is configured a
 
 | Attribute | Description |
 | --- | --- |
-| `initializationPage` | Required string attribute. Specifies the URL of an application to be initialized upon application restart. The default value is `""`. |
-| `hostName` | Optional string attribute. A host name to be used with the application URL provided in the initializationPage attribute. The default value is `""`. |
+| `initializationPage` | Required string attribute.<br><br>Specifies the URL of an application to be initialized upon application restart. <br><br>The default value is `""`. |
+| `hostName` | Optional string attribute.<br><br>A host name to be used with the application URL provided in the initializationPage attribute.<br><br>The default value is `""`. |
 
 ### Child Elements
 

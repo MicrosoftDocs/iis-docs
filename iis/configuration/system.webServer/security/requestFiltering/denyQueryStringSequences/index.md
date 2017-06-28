@@ -125,9 +125,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a query string to the collection of denied query strings. |
-| `clear` | Optional element. Removes all references to query strings from the collection. |
-| `remove` | Optional element. Removes a query string from the collection of denied query strings. |
+| [`add`](add.md) | Optional element.<br><br>Adds a query string to the collection of denied query strings. |
+| `clear` | Optional element.<br><br>Removes all references to query strings from the collection. |
+| `remove` | Optional element.<br><br>Removes a query string from the collection of denied query strings. |
 
 ### Configuration Sample
 

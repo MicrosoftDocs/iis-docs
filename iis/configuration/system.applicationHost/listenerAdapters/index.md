@@ -56,7 +56,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Specifies the configuration for a listener adapter. |
+| [`add`](add.md) | Optional element. <br><br>Specifies the configuration for a listener adapter. |
 
 ### Configuration Sample
 

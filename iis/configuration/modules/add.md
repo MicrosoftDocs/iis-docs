@@ -54,7 +54,7 @@ There is no user interface for adding modules to the `<modules>` element for IIS
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies the unique name of a managed module on the Web server. |
+| `name` | Required string attribute. <br><br>Specifies the unique name of a managed module on the Web server. |
 
 ### Child Elements
 

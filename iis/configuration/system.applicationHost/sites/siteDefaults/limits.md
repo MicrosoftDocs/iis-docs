@@ -72,10 +72,10 @@ The `<limits>` element of the `<siteDefaults>` element is included in the defaul
 
 | Attribute | Description |
 | --- | --- |
-| `connectionTimeout` | Optional timeSpan attribute. Specifies the time (in seconds) that IIS waits before it disconnects a connection that is considered inactive. Connections can be considered inactive for the following reasons: - The HTTP.sys Timer\_ConnectionIdle timer expired. The connection expired and remains idle. - The HTTP.sys Timer\_EntityBody timer expired. The connection expired before the request entity body arrived. When it is clear that a request has an entity body, the HTTP API turns on the Timer\_EntityBody timer. Initially, the limit of this timer is set to the connectionTimeout value. Each time another data indication is received on this request, the HTTP API resets the timer to give the connection more minutes as specified in the connectionTimeout attribute. - The HTTP.sys Timer\_AppPool timer expired. The connection expired because a request waited too long in an application pool queue for a server application to dequeue and process it. This time-out duration is connectionTimeout. The default value is `00:02:00` (two minutes). |
-| `maxBandwidth` | Optional uint attribute. Specifies the maximum network bandwidth, in bytes per second, that is used for a site. Use this setting to help prevent overloading the network with IIS activity. The default value is `4294967295`. |
-| `maxConnections` | Optional uint attribute. Specifies the maximum number of connections for a site. Use this setting to limit the number of simultaneous client connections. The default value is `4294967295`. |
-| `maxUrlSegments` | Optional uint attribute. Specifies the maximum number of segments permitted in a Url. The default value is `32`. |
+| `connectionTimeout` | Optional timeSpan attribute. <br><br>Specifies the time (in seconds) that IIS waits before it disconnects a connection that is considered inactive. Connections can be considered inactive for the following reasons: - The HTTP.sys Timer\_ConnectionIdle timer expired. The connection expired and remains idle. - The HTTP.sys Timer\_EntityBody timer expired. The connection expired before the request entity body arrived. When it is clear that a request has an entity body, the HTTP API turns on the Timer\_EntityBody timer. Initially, the limit of this timer is set to the connectionTimeout value. Each time another data indication is received on this request, the HTTP API resets the timer to give the connection more minutes as specified in the connectionTimeout attribute. - The HTTP.sys Timer\_AppPool timer expired. The connection expired because a request waited too long in an application pool queue for a server application to dequeue and process it. This time-out duration is connectionTimeout. The default value is `00:02:00` (two minutes). |
+| `maxBandwidth` | Optional uint attribute. <br><br>Specifies the maximum network bandwidth, in bytes per second, that is used for a site. Use this setting to help prevent overloading the network with IIS activity. <br><br>The default value is `4294967295`. |
+| `maxConnections` | Optional uint attribute.<br><br>Specifies the maximum number of connections for a site. Use this setting to limit the number of simultaneous client connections.<br><br>The default value is `4294967295`. |
+| `maxUrlSegments` | Optional uint attribute.<br><br>Specifies the maximum number of segments permitted in a Url.<br><br>The default value is `32`. |
 
 ### Child Elements
 
@@ -94,7 +94,7 @@ The following code samples configure the default `limits` options for IIS 7 and 
 
 ### AppCmd.exe
 
-[!code-csharp[Main](limits/samples/sample2.cs)]
+[!code-console[Main](limits/samples/sample2.cmd)]
 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.

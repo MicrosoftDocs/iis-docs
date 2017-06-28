@@ -75,16 +75,16 @@ The `<periodicRestart>` element is configurable at the server level in the Appli
 
 | Attribute | Description |
 | --- | --- |
-| `memory` | Optional uint attribute. Specifies the amount of virtual memory (in kilobytes) that a worker process can use before the worker process is recycled. The maximum value supported for this property is 4,294,967 KB. The default value is `0`, which disables the attribute. |
-| `privateMemory` | Optional uint attribute. Specifies the amount of private memory (in kilobytes) that a worker process can use before the worker process recycles. The maximum value supported for this property is 4,294,967 KB. The default value is `0`, which disables the attribute. |
-| `requests` | Optional uint attribute. Specifies that the worker process should be recycled after it processes a specific number of requests. The default value is `0`, which disables the attribute. |
-| `time` | Optional timeSpan attribute. Specifies that the worker process should be recycled after a specified amount of time has elapsed. The default value is `29:00:00` (29 hours). |
+| `memory` | Optional uint attribute.<br><br>Specifies the amount of virtual memory (in kilobytes) that a worker process can use before the worker process is recycled. The maximum value supported for this property is 4,294,967 KB.<br><br>The default value is `0`, which disables the attribute. |
+| `privateMemory` | Optional uint attribute.<br><br>Specifies the amount of private memory (in kilobytes) that a worker process can use before the worker process recycles. The maximum value supported for this property is 4,294,967 KB.<br><br>The default value is `0`, which disables the attribute. |
+| `requests` | Optional uint attribute.<br><br>Specifies that the worker process should be recycled after it processes a specific number of requests.<br><br>The default value is `0`, which disables the attribute. |
+| `time` | Optional timeSpan attribute.<br><br>Specifies that the worker process should be recycled after a specified amount of time has elapsed.<br><br>The default value is `29:00:00` (29 hours). |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`schedule`](schedule/index.md) | Optional element. Specifies the scheduling of periodic restarts of application pools. |
+| [`schedule`](schedule/index.md) | Optional element.<br><br>Specifies the scheduling of periodic restarts of application pools. |
 
 ### Configuration Sample
 

@@ -136,7 +136,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`providers`](providers/index.md) | Optional element. Specifies the collection of custom FTP features. |
+| [`providers`](providers/index.md) | Optional element.<br><br>Specifies the collection of custom FTP features. |
 
 ### Configuration Sample
 

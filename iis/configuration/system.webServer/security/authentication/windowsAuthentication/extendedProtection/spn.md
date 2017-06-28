@@ -172,7 +172,7 @@ The `<spn>` element of the `<extendedProtection>` element is configurable at the
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Optional string attribute. Specifies a unique SPN. There is no default value. |
+| `name` | Optional string attribute.<br><br>Specifies a unique SPN.<br><br>There is no default value. |
 
 ### Child Elements
 

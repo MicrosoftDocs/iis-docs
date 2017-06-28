@@ -146,7 +146,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`session`](session.md) | Dynamically created element. Specifies information about an FTP session. |
+| [`session`](session.md) | Dynamically created element.<br><br>Specifies information about an FTP session. |
 
 ### Configuration Sample
 

@@ -94,9 +94,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a MIME type to the collection of dynamic MIME types. |
-| `remove` | Optional element. Removes a reference to a MIME type from the dynamic MIME type collection. |
-| `clear` | Optional element. Removes all references to MIME types from the dynamic MIME type collection. |
+| [`add`](add.md) | Optional element. <br><br>Adds a MIME type to the collection of dynamic MIME types. |
+| `remove` | Optional element. <br><br>Removes a reference to a MIME type from the dynamic MIME type collection. |
+| `clear` | Optional element. <br><br>Removes all references to MIME types from the dynamic MIME type collection. |
 
 ### Configuration Sample
 

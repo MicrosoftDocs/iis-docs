@@ -88,7 +88,7 @@ There is no user interface for configuring the `<trustedProviders>` element for 
 
 | Attribute | Description |
 | --- | --- |
-| `type` | Required string attribute. Specifies the assembly-qualified type name for the provider. |
+| `type` | Required string attribute.<br><br>Specifies the assembly-qualified type name for the provider. |
 
 ### Child Elements
 

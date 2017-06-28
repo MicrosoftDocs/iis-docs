@@ -136,14 +136,14 @@ The default installation of IIS 7 and later does not include the **Management Se
 
 | Attribute | Description |
 | --- | --- |
-| `defaultProvider` | Optional string attribute. Specifies the default provider that provides authentication for IIS Manager users on the Web server. If you change the default provider, you must restart the Management Service (WMSVC) for changes to take effect. If you have IIS Manager open, you must also reopen IIS Manager. |
+| `defaultProvider` | Optional string attribute.<br><br>Specifies the default provider that provides authentication for IIS Manager users on the Web server. <br><br>If you change the default provider, you must restart the Management Service (WMSVC) for changes to take effect. If you have IIS Manager open, you must also reopen IIS Manager. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`credentials`](credentials/index.md) | Optional element. Configures IIS Manager user credentials for users to connect to sites and applications on the server by using IIS Manager. |
-| [`providers`](providers/index.md) | Optional element. Configures authentication providers that authenticate IIS Manager users who connect remotely to sites and applications by using IIS Manager. |
+| [`credentials`](credentials/index.md) | Optional element.<br><br>Configures IIS Manager user credentials for users to connect to sites and applications on the server by using IIS Manager. |
+| [`providers`](providers/index.md) | Optional element.<br><br>Configures authentication providers that authenticate IIS Manager users who connect remotely to sites and applications by using IIS Manager. |
 
 ### Configuration Sample
 

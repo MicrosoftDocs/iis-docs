@@ -123,16 +123,16 @@ The `<isapiCgiRestriction>` collection can only be configured at the server leve
 
 | Attribute | Description |
 | --- | --- |
-| `notListedIsapisAllowed` | Optional Boolean attribute. Specifies whether unlisted ISAPI modules are allowed to run on this server. The default value is `false`. |
-| `notListedCgisAllowed` | Optional Boolean attribute. Specifies whether unlisted CGI programs are allowed to run on this server. The default value is `false`. |
+| `notListedIsapisAllowed` | Optional Boolean attribute.<br><br>Specifies whether unlisted ISAPI modules are allowed to run on this server. <br><br>The default value is `false`. |
+| `notListedCgisAllowed` | Optional Boolean attribute.<br><br>Specifies whether unlisted CGI programs are allowed to run on this server. <br><br>The default value is `false`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a restriction to the collection of ISAPI and CGI restrictions. |
-| `remove` | Optional element. Removes a reference to a restriction from the isapiCgiRestriction collection. |
-| `clear` | Optional element. Removes all references to restrictions from the isapiCgiRestriction collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds a restriction to the collection of ISAPI and CGI restrictions. |
+| `remove` | Optional element. <br><br>Removes a reference to a restriction from the isapiCgiRestriction collection. |
+| `clear` | Optional element.<br><br>Removes all references to restrictions from the isapiCgiRestriction collection. |
 
 ### Configuration Sample
 

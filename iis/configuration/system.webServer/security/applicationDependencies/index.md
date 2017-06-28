@@ -52,8 +52,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`application`](application/index.md) | Optional element. Specifies an application that has dependencies on a CGI or ISAPI extension restriction. |
-| `clear` | Optional element. Removes all references to applications from the **applicationDependencies** collection. |
+| [`application`](application/index.md) | Optional element.<br><br>Specifies an application that has dependencies on a CGI or ISAPI extension restriction. |
+| `clear` | Optional element.<br><br>Removes all references to applications from the **applicationDependencies** collection. |
 
 ### Configuration Sample
 

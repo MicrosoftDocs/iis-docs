@@ -75,12 +75,12 @@ The `<applicationDefaults>` element of the `<site>` element is included in the d
 
 | Attribute | Description |
 | --- | --- |
-| `applicationPool` | Optional string attribute. Specifies the default application pool to which all applications in the parent site are assigned. |
-| `enabledProtocols` | Optional string attribute. Specifies the protocols to use to communicate with all applications in the parent site. |
-| `path` | Optional string attribute. Specifies the default virtual path of all applications in the parent site. |
-| `preLoadEnabled` | Optional Boolean attribute. Specifies that IIS simulates a user request to the default page of an application or virtual directory so that it is initialized. In effect IIS starts the application when the application pool is started without having received a request. This increases performance by performing initialization tasks such as loading managed modules and compiling managed code. No log is generated in the IIS logs. The application pool's startMode setting must be set to `AlwaysRunning`. The default value is `False`. |
-| `serviceAutoStartEnabled` | Optional Boolean attribute. **true** if the autostart is enabled for this application; otherwise, **false**. The default value is `false`. |
-| `serviceAutoStartProvider` | Optional string attribute. Specifies the name of the autostart provider that the Windows Process Activation Service (WAS) will use if `serviceAutoStartEnabled` is set to **true**. There is no default value. |
+| `applicationPool` | Optional string attribute.<br><br>Specifies the default application pool to which all applications in the parent site are assigned. |
+| `enabledProtocols` | Optional string attribute.<br><br>Specifies the protocols to use to communicate with all applications in the parent site. |
+| `path` | Optional string attribute.<br><br>Specifies the default virtual path of all applications in the parent site. |
+| `preLoadEnabled` | Optional Boolean attribute.<br><br>Specifies that IIS simulates a user request to the default page of an application or virtual directory so that it is initialized. In effect IIS starts the application when the application pool is started without having received a request. This increases performance by performing initialization tasks such as loading managed modules and compiling managed code. No log is generated in the IIS logs. The application pool's startMode setting must be set to `AlwaysRunning`.<br><br>The default value is `False`. |
+| `serviceAutoStartEnabled` | Optional Boolean attribute.<br><br>**true** if the autostart is enabled for this application; otherwise, **false**.<br><br>The default value is `false`. |
+| `serviceAutoStartProvider` | Optional string attribute.<br><br>Specifies the name of the autostart provider that the Windows Process Activation Service (WAS) will use if `serviceAutoStartEnabled` is set to **true**.<br><br>There is no default value. |
 
 ### Child Elements
 
@@ -99,7 +99,7 @@ The following code samples set the default application pool for the Default Web 
 
 ### AppCmd.exe
 
-[!code-csharp[Main](applicationDefaults/samples/sample2.cs)]
+[!code-console[Main](applicationDefaults/samples/sample2.cmd)]
 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.

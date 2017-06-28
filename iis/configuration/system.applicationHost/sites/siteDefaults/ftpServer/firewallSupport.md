@@ -154,7 +154,7 @@ For additional information about how to configure the firewall settings for the 
 
 | Attribute | Description |
 | --- | --- |
-| `externalIp4Address` | Optional string attribute. Specifies the external IPv4 address for your firewall. There is no default value. |
+| `externalIp4Address` | Optional string attribute.<br><br>Specifies the external IPv4 address for your firewall.<br><br>There is no default value. |
 
 ### Child Elements
 

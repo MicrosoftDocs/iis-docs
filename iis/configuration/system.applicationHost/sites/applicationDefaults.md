@@ -73,9 +73,9 @@ The `<applicationDefaults>` element of the `<sites>` element is included in the 
 
 | Attribute | Description |
 | --- | --- |
-| `applicationPool` | Optional string attribute. Specifies the default application pool to which all applications on the server are assigned. |
-| `enabledProtocols` | Optional string attribute. Specifies the protocols to use to communicate with all applications on the server. |
-| `path` | Optional string attribute. Specifies the default virtual path of all applications on the server. |
+| `applicationPool` | Optional string attribute.<br><br>Specifies the default application pool to which all applications on the server are assigned. |
+| `enabledProtocols` | Optional string attribute.<br><br>Specifies the protocols to use to communicate with all applications on the server. |
+| `path` | Optional string attribute.<br><br>Specifies the default virtual path of all applications on the server. |
 
 ### Child Elements
 

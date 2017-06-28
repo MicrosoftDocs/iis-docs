@@ -94,7 +94,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`key`](key/index.md) | Optional element. Adds a custom metadata setting to the collection of custom metadata settings. |
+| [`key`](key/index.md) | Optional element.<br><br>Adds a custom metadata setting to the collection of custom metadata settings. |
 
 <a id="006"></a>
 ## Sample Code

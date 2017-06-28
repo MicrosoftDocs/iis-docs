@@ -74,7 +74,7 @@ The `<httpProtocol>` element is included in the default installation of IIS 7.
 
 | Attribute | Description |
 | --- | --- |
-| `allowKeepAlive` | Optional Boolean attribute. Specifies whether keep-alive processing is permitted (**true**) or not (**false**). The default value is `true`. |
+| `allowKeepAlive` | Optional Boolean attribute.<br><br>Specifies whether keep-alive processing is permitted (**true**) or not (**false**).<br><br>The default value is `true`. |
 
 ### Child Elements
 

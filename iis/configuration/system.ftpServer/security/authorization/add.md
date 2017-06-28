@@ -157,10 +157,10 @@ The `<add>` element is configured at the server, site, or URL level.
 
 | Attribute | Description |
 | --- | --- |
-| `accessType` | Required enum attribute. The **accessType** attribute can be one of the following possible values. | Value | Description | | --- | --- | | `Allow` | Specifies a rule that allows authorization. The numeric value is `0`. | | `Deny` | Specifies a rule that denies authorization. The numeric value is `1`. | |
-| `roles` | Optional string attribute. Specifies roles or groups for an authorization rule. |
-| `users` | Optional string attribute. Specifies users for an authorization rule. Multiple users can be added in a comma-separated list. In addition, the following special identifiers have been defined. | Value | Description | | --- | --- | | `*` | Specifies that the rule will apply to all users. | | `?` | Specifies that the rule will apply to anonymous users. | |
-| `permissions` | Optional flags attribute. Specifies the access permissions for the rule. | Name | Description | | --- | --- | | `Read` | Specifies read access for the authorization rule. The numerical value is `1`. | | `Write` | Specifies write access for the authorization rule. The numerical value is `2`. | There is no default value. |
+| `accessType` | Required enum attribute. <br><br>The **accessType** attribute can be one of the following possible values. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Allow</code></th> <td>Specifies a rule that allows authorization.<br><br>The numeric value is <code>0</code>. </td></tr> <tr> <th><code>Deny</code></th> <td>Specifies a rule that denies authorization.<br><br>The numeric value is <code>1</code>. </td></tr></tbody></table> |
+| `roles` | Optional string attribute. <br><br>Specifies roles or groups for an authorization rule. |
+| `users` | Optional string attribute. <br><br>Specifies users for an authorization rule. Multiple users can be added in a comma-separated list. In addition, the following special identifiers have been defined. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>*</code></th> <td>Specifies that the rule will apply to all users.</td></tr> <tr> <th><code>?</code></th> <td>Specifies that the rule will apply to anonymous users.</td></tr></tbody></table> |
+| `permissions` | Optional flags attribute.<br><br>Specifies the access permissions for the rule. <table> <tbody> <tr> <th>Name</th> <th>Description</th></tr> <tr> <th><code>Read</code></th> <td>Specifies read access for the authorization rule.<br><br>The numerical value is <code>1</code>.</td></tr> <tr> <th><code>Write</code></th> <td>Specifies write access for the authorization rule.<br><br>The numerical value is <code>2</code>.</td></tr></tbody></table>There is no default value. |
 
 ### Child Elements
 

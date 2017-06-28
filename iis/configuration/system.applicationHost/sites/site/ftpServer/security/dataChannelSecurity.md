@@ -123,8 +123,8 @@ The `<dataChannelSecurity>` section of the configuration should not be modified;
 
 | Attribute | Description |
 | --- | --- |
-| `matchClientAddressForPort` | Optional **Boolean** attribute. Specifies whether to match the client's IP address on PORT/EPRT commands. The default value is `true`. |
-| `matchClientAddressForPasv` | Optional **Boolean** attribute. Specifies whether to match the client's IP address on PASV/EPSV commands. The default value is `true`. |
+| `matchClientAddressForPort` | Optional **Boolean** attribute.<br><br>Specifies whether to match the client's IP address on PORT/EPRT commands.<br><br>The default value is `true`. |
+| `matchClientAddressForPasv` | Optional **Boolean** attribute.<br><br>Specifies whether to match the client's IP address on PASV/EPSV commands.<br><br>The default value is `true`. |
 
 ### Child Elements
 

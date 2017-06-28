@@ -143,12 +143,12 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`anonymousAuthentication`](anonymousauthentication.md) | Optional element. Specifies the settings for Anonymous authentication. |
-| [`basicAuthentication`](basicauthentication.md) | Optional element. Specifies the settings for Basic authentication. |
-| [`clientCertificateMappingAuthentication`](clientcertificatemappingauthentication.md) | Optional element. Specifies the settings Client Certificate Mapping authentication using Active Directory. |
-| [`digestAuthentication`](digestauthentication.md) | Optional element. Specifies the settings for Digest authentication. |
-| [`iisClientCertificateMappingAuthentication`](iisclientcertificatemappingauthentication/index.md) | Optional element. Specifies the settings Client Certificate Mapping authentication using IIS. |
-| [`windowsAuthentication`](windowsauthentication/index.md) | Optional element. Specifies the settings for Windows authentication. |
+| [`anonymousAuthentication`](anonymousauthentication.md) | Optional element.<br><br>Specifies the settings for Anonymous authentication. |
+| [`basicAuthentication`](basicauthentication.md) | Optional element.<br><br>Specifies the settings for Basic authentication. |
+| [`clientCertificateMappingAuthentication`](clientcertificatemappingauthentication.md) | Optional element. <br><br>Specifies the settings Client Certificate Mapping authentication using Active Directory. |
+| [`digestAuthentication`](digestauthentication.md) | Optional element.<br><br>Specifies the settings for Digest authentication. |
+| [`iisClientCertificateMappingAuthentication`](iisclientcertificatemappingauthentication/index.md) | Optional element.<br><br>Specifies the settings Client Certificate Mapping authentication using IIS. |
+| [`windowsAuthentication`](windowsauthentication/index.md) | Optional element.<br><br>Specifies the settings for Windows authentication. |
 
 ### Configuration Sample
 

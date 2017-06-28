@@ -125,15 +125,15 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 
 | Attribute | Description |
 | --- | --- |
-| `applyToWebDAV` | Optional Boolean attribute. Specifies whether these settings should also apply to WebDAV requests. |
+| `applyToWebDAV` | Optional Boolean attribute.<br><br>Specifies whether these settings should also apply to WebDAV requests. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a segment to the collection of hidden segments. |
-| `clear` | Optional element. Removes all references to segments from the `<hiddenSegments>` collection. |
-| `remove` | Optional element. Removes a reference to a segment from the `<hiddenSegments>` collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds a segment to the collection of hidden segments. |
+| `clear` | Optional element.<br><br>Removes all references to segments from the `<hiddenSegments>` collection. |
+| `remove` | Optional element.<br><br>Removes a reference to a segment from the `<hiddenSegments>` collection. |
 
 ### Configuration Sample
 

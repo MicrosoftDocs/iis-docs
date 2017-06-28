@@ -162,9 +162,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a sequence to the collection of denied URL sequences. |
-| `clear` | Optional element. Removes all references to sequences from the `<denyUrlSequences>` collection. |
-| `remove` | Optional element. Removes a reference to a sequence from the `<denyUrlSequences>` collection. |
+| [`add`](add.md) | Optional element. <br><br>Adds a sequence to the collection of denied URL sequences. |
+| `clear` | Optional element. <br><br>Removes all references to sequences from the `<denyUrlSequences>` collection. |
+| `remove` | Optional element. <br><br>Removes a reference to a sequence from the `<denyUrlSequences>` collection. |
 
 ### Configuration Sample
 

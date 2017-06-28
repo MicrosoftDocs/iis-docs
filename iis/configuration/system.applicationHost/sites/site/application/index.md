@@ -65,7 +65,8 @@ The `<application>` element is included in the default installation of IIS 7 and
 3. In the **Actions** pane, click **View Applications**, and then click **Add Application...**  
     [![](index/_static/image2.png)](index/_static/image1.png)
 4. In the **Add Application** dialog box, at a minimum enter information in the **Alias:** and **Physical path:** text boxes, and then click **OK**.  
-    [![](index/_static/image4.png)](index/_static/image3.png)    > [!NOTE]
+    [![](index/_static/image4.png)](index/_static/image3.png)  
+    > [!NOTE]
     > You can click     **Select...** to choose a different application pool, click     **Connect as...** to configure the application to accept credentials from a specific account, and click     **Test Settings...** to test authentication and authorization settings for the application.
 
 <a id="005"></a>
@@ -77,19 +78,19 @@ The `<application>` element is configurable at the server level in the Applicati
 
 | Attribute | Description |
 | --- | --- |
-| `applicationPool` | Optional string attribute. Specifies the application pool to which the application is assigned. There is no default value. |
-| `enabledProtocols` | Optional string attribute. Specifies the protocols through which to communicate with the application. This value enables HTTP and HTTPS protocols for the application. The default value is `http`. |
-| `path` | Required string attribute. Specifies the virtual path of the application. Must be a unique path within the parent site. There is no default value. |
-| `preLoadEnabled` | Optional Boolean attribute. Specifies that IIS simulates a user request to the default page of an application or virtual directory so that it is initialized. In effect IIS starts the application when the application pool is started without having received a request. This increases performance by performing initialization tasks such as loading managed modules and compiling managed code. No log is generated in the IIS logs. The application pool's startMode setting must be set to `AlwaysRunning`. The default value is `False`. |
-| `serviceAutoStartEnabled` | Optional Boolean attribute. **true** if the autostart is enabled for this application; otherwise, **false**. The default value is `false`. |
-| `serviceAutoStartProvider` | Optional string attribute. Specifies the name of the autostart provider that the Windows Process Activation Service (WAS) will use if `serviceAutoStartEnabled` is set to **true**. There is no default value. |
+| `applicationPool` | Optional string attribute.<br><br>Specifies the application pool to which the application is assigned.<br><br>There is no default value. |
+| `enabledProtocols` | Optional string attribute.<br><br>Specifies the protocols through which to communicate with the application. This value enables HTTP and HTTPS protocols for the application.<br><br>The default value is `http`. |
+| `path` | Required string attribute.<br><br>Specifies the virtual path of the application. Must be a unique path within the parent site.<br><br>There is no default value. |
+| `preLoadEnabled` | Optional Boolean attribute.<br><br>Specifies that IIS simulates a user request to the default page of an application or virtual directory so that it is initialized. In effect IIS starts the application when the application pool is started without having received a request. This increases performance by performing initialization tasks such as loading managed modules and compiling managed code. No log is generated in the IIS logs. The application pool's startMode setting must be set to `AlwaysRunning`.<br><br>The default value is `False`. |
+| `serviceAutoStartEnabled` | Optional Boolean attribute.<br><br>**true** if the autostart is enabled for this application; otherwise, **false**.<br><br>The default value is `false`. |
+| `serviceAutoStartProvider` | Optional string attribute.<br><br>Specifies the name of the autostart provider that the Windows Process Activation Service (WAS) will use if `serviceAutoStartEnabled` is set to **true**.<br><br>There is no default value. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`virtualDirectory`](virtualdirectory.md) | Optional element. Specifies configuration settings for a virtual directory in the parent application. |
-| [`virtualDirectoryDefaults`](virtualdirectorydefaults.md) | Optional element. Specifies the default settings for all virtual directories in the parent application. |
+| [`virtualDirectory`](virtualdirectory.md) | Optional element.<br><br>Specifies configuration settings for a virtual directory in the parent application. |
+| [`virtualDirectoryDefaults`](virtualdirectorydefaults.md) | Optional element.<br><br>Specifies the default settings for all virtual directories in the parent application. |
 
 ### Configuration Sample
 

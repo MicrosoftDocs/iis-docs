@@ -163,9 +163,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a segment to the collection of hidden segments. |
-| `clear` | Optional element. Removes all references to segments from the `<hiddenSegments>` collection. |
-| `remove` | Optional element. Removes a reference to a segment from the `<hiddenSegments>` collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds a segment to the collection of hidden segments. |
+| `clear` | Optional element.<br><br>Removes all references to segments from the `<hiddenSegments>` collection. |
+| `remove` | Optional element.<br><br>Removes a reference to a segment from the `<hiddenSegments>` collection. |
 
 ### Configuration Sample
 

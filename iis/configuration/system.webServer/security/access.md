@@ -82,7 +82,7 @@ You can configure the `<access>` element at the server level in the ApplicationH
 
 | Attribute | Description |
 | --- | --- |
-| `sslFlags` | The **sslFlags** attribute can be one of the following possible values. The default is `None`. | Value | Description | | --- | --- | | `None` | Disable SSL. | | `Ssl` | Require SSL. | | `SslNegotiateCert` | Accept client certificates for authentication. | | `SslRequireCert` | Require clients certificates for authentication. | | `SslMapCert` | Enable certificate mapping authentication. | | `Ssl128` | Require 128-bit SSL. | |
+| `sslFlags` | The **sslFlags** attribute can be one of the following possible values. The default is `None`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>None</code></th> <td>Disable SSL.</td></tr> <tr> <th><code>Ssl</code></th> <td>Require SSL.</td></tr> <tr> <th><code>SslNegotiateCert</code></th> <td>Accept client certificates for authentication.</td></tr> <tr> <th><code>SslRequireCert</code></th> <td>Require clients certificates for authentication.</td></tr> <tr> <th><code>SslMapCert</code></th> <td>Enable certificate mapping authentication.</td></tr> <tr> <th><code>Ssl128</code></th> <td>Require 128-bit SSL.</td></tr></tbody></table> |
 
 ### Child Elements
 

@@ -113,10 +113,10 @@ The `<isapiCgiRestriction>` collection can only be configured at the server leve
 
 | Attribute | Description |
 | --- | --- |
-| `allowed` | Required Boolean attribute. Specifies whether the restriction allows or denies a CGI or ISAPI module to run on the server. See the Default Configuration section below for the complete list of default values. |
-| Description | Optional string attribute. Specifies the friendly description of the group associated with this groupID. See the Default Configuration section below for the complete list of default values. |
-| `groupId` | Optional string attribute. Specifies the groupID of the application that has a dependency on an extension restriction. See the Default Configuration section below for the complete list of default values. |
-| `path` | Required string attribute. Specifies the path to the CGI or ISAPI module in the file system of the server. See the Default Configuration section below for the complete list of default values. |
+| `allowed` | Required Boolean attribute. <br><br>Specifies whether the restriction allows or denies a CGI or ISAPI module to run on the server. <br><br>See the Default Configuration section below for the complete list of default values. |
+| Description | Optional string attribute. <br><br>Specifies the friendly description of the group associated with this groupID. <br><br>See the Default Configuration section below for the complete list of default values. |
+| `groupId` | Optional string attribute. <br><br>Specifies the groupID of the application that has a dependency on an extension restriction. <br><br>See the Default Configuration section below for the complete list of default values. |
+| `path` | Required string attribute. <br><br>Specifies the path to the CGI or ISAPI module in the file system of the server. <br><br>See the Default Configuration section below for the complete list of default values. |
 
 ### Child Elements
 

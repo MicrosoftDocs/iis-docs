@@ -133,9 +133,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a feature provider to the collection of FTP custom providers for an FTP site. |
-| `clear` | Optional element. Clears the collection of FTP custom providers for an FTP site. |
-| `remove` | Optional element. Removes a feature provider from the collection of FTP custom providers for an FTP site. |
+| [`add`](add.md) | Optional element.<br><br>Adds a feature provider to the collection of FTP custom providers for an FTP site. |
+| `clear` | Optional element.<br><br>Clears the collection of FTP custom providers for an FTP site. |
+| `remove` | Optional element.<br><br>Removes a feature provider from the collection of FTP custom providers for an FTP site. |
 
 ### Configuration Sample
 

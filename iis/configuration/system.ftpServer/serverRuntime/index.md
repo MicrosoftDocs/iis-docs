@@ -164,7 +164,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`hostNameSupport`](hostnamesupport.md) | Optional element. Specifies whether domain name syntax for virtual host names is allowed. |
+| [`hostNameSupport`](hostnamesupport.md) | Optional element.<br><br>Specifies whether domain name syntax for virtual host names is allowed. |
 
 ### Configuration Sample
 

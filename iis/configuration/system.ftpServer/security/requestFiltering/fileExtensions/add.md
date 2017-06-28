@@ -157,8 +157,8 @@ The `<add>` element of the `<fileExtensions>` collection is configured at the gl
 
 | Attribute | Description |
 | --- | --- |
-| `allowed` | Required **Boolean** attribute. Specifies whether the file name extension is allowed or denied. Setting this attribute to **true** allows the Web server to process requests associated with this type of file; setting this attribute to **false** prevents the Web server from processing requests. The default value is `true`. |
-| `fileExtension` | Required string attribute. Specifies the name of the file name extension to allow or deny. There is no default value. |
+| `allowed` | Required **Boolean** attribute.<br><br>Specifies whether the file name extension is allowed or denied. Setting this attribute to **true** allows the Web server to process requests associated with this type of file; setting this attribute to **false** prevents the Web server from processing requests.<br><br>The default value is `true`. |
+| `fileExtension` | Required string attribute.<br><br>Specifies the name of the file name extension to allow or deny.<br><br>There is no default value. |
 
 ### Child Elements
 

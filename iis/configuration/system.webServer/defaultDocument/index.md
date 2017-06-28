@@ -98,13 +98,13 @@ You can configure the `<defaultDocument>` element at the server level in the App
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Optional Boolean attribute. Specifies that default documents are enabled. The default value is `true`. |
+| `enabled` | Optional Boolean attribute.<br><br>Specifies that default documents are enabled.<br><br>The default value is `true`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`files`](files/index.md) | Optional element. Specifies a list of file names that can be returned as default documents. |
+| [`files`](files/index.md) | Optional element. <br><br>Specifies a list of file names that can be returned as default documents. |
 
 ### Configuration Sample
 

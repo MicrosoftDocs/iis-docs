@@ -115,7 +115,7 @@ The `<clientCertificateMappingAuthentication>` element is not available on the d
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Optional Boolean attribute. Specifies whether Client Certificate Mapping authentication using Active Directory is enabled. For this setting to take effect, you must set this attribute with IIS Manager. If you use any other method to set this attribute, you must restart the Web server for the setting to take effect. The default value is `false`. |
+| `enabled` | Optional Boolean attribute. <br><br>Specifies whether Client Certificate Mapping authentication using Active Directory is enabled. For this setting to take effect, you must set this attribute with IIS Manager. If you use any other method to set this attribute, you must restart the Web server for the setting to take effect. <br><br>The default value is `false`. |
 
 ### Child Elements
 

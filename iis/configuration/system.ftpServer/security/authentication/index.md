@@ -96,7 +96,7 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`denyByFailure`](denybyfailure.md) | Optional element. Configures the FTP service to deny access based upon the failure rate. |
+| [`denyByFailure`](denybyfailure.md) | Optional element.<br><br>Configures the FTP service to deny access based upon the failure rate. |
 
 ### Configuration Sample
 

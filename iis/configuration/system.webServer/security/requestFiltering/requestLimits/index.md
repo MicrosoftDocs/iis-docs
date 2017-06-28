@@ -165,15 +165,15 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 
 | Attribute | Description |
 | --- | --- |
-| `maxAllowedContentLength` | Optional uint attribute. Specifies the maximum length of content in a request, in bytes. The default value is `30000000`, which is approximately 28.6MB. |
-| `maxQueryString` | Optional uint attribute. Specifies the maximum length of the query string, in bytes. The default value is `2048`. |
-| `maxUrl` | Optional uint attribute. Specifies maximum length of the URL, in bytes. The default value is `4096`. |
+| `maxAllowedContentLength` | Optional uint attribute. <br><br>Specifies the maximum length of content in a request, in bytes. <br><br>The default value is `30000000`, which is approximately 28.6MB. |
+| `maxQueryString` | Optional uint attribute. <br><br>Specifies the maximum length of the query string, in bytes. <br><br>The default value is `2048`. |
+| `maxUrl` | Optional uint attribute. <br><br>Specifies maximum length of the URL, in bytes. <br><br>The default value is `4096`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`headerlimits`](headerlimits/index.md) | Optional element. Specifies size limits for HTML headers. |
+| [`headerlimits`](headerlimits/index.md) | Optional element.<br><br>Specifies size limits for HTML headers. |
 
 ### Configuration Sample
 

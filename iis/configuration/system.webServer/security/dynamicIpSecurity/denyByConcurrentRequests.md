@@ -86,8 +86,8 @@ The `<denyByConcurrentRequests>` element is configured at the server or site lev
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Optional Boolean attribute. Enables a remote client to be blocked based on the number of concurrent HTTP connection requests from that client. The default value is `false`. |
-| `maxConcurrentRequests` | Optional uint attribute. The number of concurrent HTTP connection requests from a client that will result in the client being blocked. The default value is `5`. |
+| `enabled` | Optional Boolean attribute.<br><br>Enables a remote client to be blocked based on the number of concurrent HTTP connection requests from that client.<br><br>The default value is `false`. |
+| `maxConcurrentRequests` | Optional uint attribute.<br><br>The number of concurrent HTTP connection requests from a client that will result in the client being blocked.<br><br>The default value is `5`. |
 
 ### Child Elements
 

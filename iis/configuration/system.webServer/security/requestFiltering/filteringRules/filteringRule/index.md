@@ -143,19 +143,19 @@ The `<filteringRule>` element of the `<filteringRules>` element is configured at
 
 | Attribute | Description |
 | --- | --- |
-| `denyUnescapedPercent` | Optional Boolean attribute. **true** if request filtering should deny the request if it contains percent symbols that are not escaped; otherwise, **false**. The default value is `true`. |
-| `name` | Required string attribute. Specifies the name of the request filtering rule. There is no default value. |
-| `scanAllRaw` | Optional Boolean attribute. **true** if request filtering should scan the raw headers for the strings that are specified in the `denyStrings` element; otherwise, **false**. The default value is `false`. |
-| `scanQueryString` | Optional Boolean attribute. **true** if request filtering should scan the query string for the strings that are specified in the `denyStrings` element; otherwise, **false**. If the `unescapeQueryString` attribute of the `<requestFiltering>` element is set to **true**, then two scans will be made of the query string: one scan with the raw query string and a second scan with the query string unescaped. The default value is `false`. |
-| `scanUrl` | Optional Boolean attribute. **true** if request filtering should scan the URL for the strings that are specified in the `denyStrings` element; otherwise, **false**. The default value is `false`. |
+| `denyUnescapedPercent` | Optional Boolean attribute.<br><br>**true** if request filtering should deny the request if it contains percent symbols that are not escaped; otherwise, **false**.<br><br>The default value is `true`. |
+| `name` | Required string attribute.<br><br>Specifies the name of the request filtering rule.<br><br>There is no default value. |
+| `scanAllRaw` | Optional Boolean attribute.<br><br>**true** if request filtering should scan the raw headers for the strings that are specified in the `denyStrings` element; otherwise, **false**.<br><br>The default value is `false`. |
+| `scanQueryString` | Optional Boolean attribute.<br><br>**true** if request filtering should scan the query string for the strings that are specified in the `denyStrings` element; otherwise, **false**.<br><br>If the `unescapeQueryString` attribute of the `<requestFiltering>` element is set to **true**, then two scans will be made of the query string: one scan with the raw query string and a second scan with the query string unescaped.<br><br>The default value is `false`. |
+| `scanUrl` | Optional Boolean attribute.<br><br>**true** if request filtering should scan the URL for the strings that are specified in the `denyStrings` element; otherwise, **false**.<br><br>The default value is `false`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`appliesTo`](appliesto/index.md) | Optional element. Specifies the list of file name extensions to which the request filtering rule applies. |
-| [`denyStrings`](denystrings/index.md) | Optional element. Specifies the list of strings to deny for the request filtering rule. |
-| [`scanHeaders`](scanheaders/index.md) | Optional element. Specifies the list of HTTP headers to scan. |
+| [`appliesTo`](appliesto/index.md) | Optional element.<br><br>Specifies the list of file name extensions to which the request filtering rule applies. |
+| [`denyStrings`](denystrings/index.md) | Optional element.<br><br>Specifies the list of strings to deny for the request filtering rule. |
+| [`scanHeaders`](scanheaders/index.md) | Optional element.<br><br>Specifies the list of HTTP headers to scan. |
 
 ### Configuration Sample
 

@@ -55,9 +55,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a response header to the `<redirectHeaders>` collection. |
-| `clear` | Optional element. Removes all references to response headers from the `<redirectHeaders>` collection. |
-| `remove` | Optional element. Removes a reference to a response header from the `<redirectHeaders>` collection. |
+| [`add`](add.md) | Optional element. <br><br>Adds a response header to the `<redirectHeaders>` collection. |
+| `clear` | Optional element. <br><br>Removes all references to response headers from the `<redirectHeaders>` collection. |
+| `remove` | Optional element. <br><br>Removes a reference to a response header from the `<redirectHeaders>` collection. |
 
 ### Configuration Sample
 

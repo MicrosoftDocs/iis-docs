@@ -105,8 +105,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a rule to the collection of rules. |
-| `clear` | Optional element. Removes all references to rules from the rules collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds a rule to the collection of rules. |
+| `clear` | Optional element.<br><br>Removes all references to rules from the rules collection. |
 
 ### Configuration Sample
 

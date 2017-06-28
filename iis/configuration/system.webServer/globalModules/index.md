@@ -115,9 +115,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a native module to the collection of global modules. |
-| `clear` | Optional element. Removes all references to native modules from the global modules collection. |
-| `remove` | Optional element. Removes a reference to a specific native module from the global modules collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds a native module to the collection of global modules. |
+| `clear` | Optional element.<br><br>Removes all references to native modules from the global modules collection. |
+| `remove` | Optional element. <br><br>Removes a reference to a specific native module from the global modules collection. |
 
 ### Configuration Sample
 

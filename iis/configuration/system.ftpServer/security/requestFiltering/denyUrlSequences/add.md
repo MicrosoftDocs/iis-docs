@@ -158,7 +158,7 @@ The `<add>` element of the `<denyUrlSequences>` collection is configured at the 
 
 | Attribute | Description |
 | --- | --- |
-| `sequence` | Required string attribute. Specifies sequences of characters in URLs that the FTP server should never process to help prevent URL-based attacks on the FTP server. |
+| `sequence` | Required string attribute.<br><br>Specifies sequences of characters in URLs that the FTP server should never process to help prevent URL-based attacks on the FTP server. |
 
 ### Child Elements
 

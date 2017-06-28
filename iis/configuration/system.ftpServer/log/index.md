@@ -154,14 +154,14 @@ The `<system.ftpServer/log>` element is configured at the global level in Applic
 
 | Attribute | Description |
 | --- | --- |
-| `centralLogFileMode` | Optional enum attribute. Specifies whether the FTP service should use central logging (per-server) or site logging (per-site). | Attribute | Description | | --- | --- | | `Site` | Specifies that each FTP site will write to individual log files. The numeric value is `0`. | | `Central` | Specifies that a single log file will be kept for all of your FTP sites. The numeric value is `1`. | The default value is `Site`. |
+| `centralLogFileMode` | Optional enum attribute.<br><br>Specifies whether the FTP service should use central logging (per-server) or site logging (per-site). <table> <tbody> <tr> <th>Attribute</th> <th>Description</th></tr> <tr> <th><code>Site</code></th> <td>Specifies that each FTP site will write to individual log files.<br><br>The numeric value is <code>0</code>.</td></tr> <tr> <th><code>Central</code></th> <td>Specifies that a single log file will be kept for all of your FTP sites.<br><br>The numeric value is <code>1</code>.</td></tr></tbody></table>The default value is `Site`. |
 | `logInUTF8` | Optional **Boolean** attribute. Specifies whether IIS should log all strings for the FTP server in UCS Transformation Format 8 (UTF-8). This setting applies to text-mode logging for all of the sites on the FTP server. The default value is `true`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`centralLogFile`](centrallogfile.md) | Optional element. Specifies the settings for the central log file. |
+| [`centralLogFile`](centrallogfile.md) | Optional element.<br><br>Specifies the settings for the central log file. |
 
 > [!NOTE]
 > An unused element named `<customLogging>` was declared in the FTP 7.0 schema, but this was removed from the FTP 7.5 schema and should not be used.

@@ -51,7 +51,7 @@ There is no user interface for the `<httpTracing>` element for IIS 7. For exampl
 
 | Attribute | Description |
 | --- | --- |
-| `Value` | Required string attribute. Specifies the URL to trace. |
+| `Value` | Required string attribute. <br><br>Specifies the URL to trace. |
 
 ### Child Elements
 

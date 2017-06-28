@@ -90,8 +90,8 @@ There is no user interface for setting the static content types for IIS 7. For e
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Required Boolean attribute. Specifies whether a new MIME type can use static compression. The default value is `true`. |
-| `mimeType` | Required string attribute. Specifies the name of the MIME type, also called the content type, that uses static compression. |
+| `enabled` | Required Boolean attribute. <br><br>Specifies whether a new MIME type can use static compression. <br><br>The default value is `true`. |
+| `mimeType` | Required string attribute. <br><br>Specifies the name of the MIME type, also called the content type, that uses static compression. |
 
 ### Child Elements
 

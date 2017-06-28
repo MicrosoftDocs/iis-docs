@@ -86,9 +86,9 @@ The `<denyByRequestRate>` element is configured at the server or site level.
 
 | Attribute | Description |
 | --- | --- |
-| `enabled` | Optional Boolean attribute. Enables a remote client to be blocked based on the number of requests received over a period of time. The default value is `false`. |
-| `maxRequests` | Optional uint attribute. The number of requests received from a specific client over a specified period of time that will result in the client being blocked (if the check is enabled). The default value is `20`. |
-| `requestIntervalInMilliseconds` | Optional uint attribute. The period of time (in milliseconds) that is used to determine the request rate for a specific client. This rate is used to determine whether the receive rate exceeds that the maximum specified, resulting in the client being blocked (if the check is enabled). The default value is `200`. |
+| `enabled` | Optional Boolean attribute.<br><br>Enables a remote client to be blocked based on the number of requests received over a period of time.<br><br>The default value is `false`. |
+| `maxRequests` | Optional uint attribute.<br><br>The number of requests received from a specific client over a specified period of time that will result in the client being blocked (if the check is enabled).<br><br>The default value is `20`. |
+| `requestIntervalInMilliseconds` | Optional uint attribute.<br><br>The period of time (in milliseconds) that is used to determine the request rate for a specific client. This rate is used to determine whether the receive rate exceeds that the maximum specified, resulting in the client being blocked (if the check is enabled).<br><br>The default value is `200`. |
 
 ### Child Elements
 

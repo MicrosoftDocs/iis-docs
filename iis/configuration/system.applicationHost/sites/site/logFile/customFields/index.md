@@ -99,13 +99,13 @@ The `<customFields>` element is configured at the site level.
 
 | Attribute | Description |
 | --- | --- |
-| `maxCustomFieldLength` | Optional uint attribute. The maximum amount of data, in bytes, that can be added to a log file in any one custom field. The range is 2 to 65,536. The default value is `4096`. |
+| `maxCustomFieldLength` | Optional uint attribute.<br><br>The maximum amount of data, in bytes, that can be added to a log file in any one custom field.<br><br>The range is 2 to 65,536. The default value is `4096`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Specifies the configuration settings for a custom field added to a W3C log. |
+| [`add`](add.md) | Optional element.<br><br>Specifies the configuration settings for a custom field added to a W3C log. |
 
 ### Configuration Sample
 
@@ -120,7 +120,7 @@ The following examples configure custom fields for a W3C log for a site.
 
 ### AppCmd.exe
 
-[!code-csharp[Main](index/samples/sample2.cs)]
+[!code-console[Main](index/samples/sample2.cmd)]
 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.

@@ -161,9 +161,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds an authorization rule to the collection of authorization rules. |
-| `remove` | Optional element. Removes a reference to an authorization rule to the collection of authorization rules. |
-| `clear` | Optional element. Removes all references to authorization rules from the collection of authorization rules. |
+| [`add`](add.md) | Optional element.<br><br>Adds an authorization rule to the collection of authorization rules. |
+| `remove` | Optional element. <br><br>Removes a reference to an authorization rule to the collection of authorization rules. |
+| `clear` | Optional element.<br><br>Removes all references to authorization rules from the collection of authorization rules. |
 
 ### Configuration Sample
 

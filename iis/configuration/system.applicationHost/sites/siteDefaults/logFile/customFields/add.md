@@ -99,9 +99,9 @@ The `<add>` element is configured at the server level.
 
 | Attribute | Description |
 | --- | --- |
-| `logFieldName` | Required string attribute. Specifies the default custom field to be added to the log file. The field name cannot contain spaces. |
-| `sourceName` | Required string attribute. Specifies the name of the HTTP header or server variable that contains values to be added to a default custom field of the log. The name can be a custom source string. |
-| `sourceType` | Required enum attribute. The type of source for the data to be added to a default custom field in the log. Can be RequestHeader (value = 0), ResponseHeader (value = 1), or ServerVariable (value = 2). |
+| `logFieldName` | Required string attribute.<br><br>Specifies the default custom field to be added to the log file. The field name cannot contain spaces. |
+| `sourceName` | Required string attribute.<br><br>Specifies the name of the HTTP header or server variable that contains values to be added to a default custom field of the log. The name can be a custom source string. |
+| `sourceType` | Required enum attribute.<br><br>The type of source for the data to be added to a default custom field in the log. Can be RequestHeader (value = 0), ResponseHeader (value = 1), or ServerVariable (value = 2). |
 
 ### Child Elements
 
@@ -120,7 +120,7 @@ The following examples configure default custom fields for a W3C log.
 
 ### AppCmd.exe
 
-[!code-csharp[Main](add/samples/sample2.cs)]
+[!code-console[Main](add/samples/sample2.cmd)]
 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.

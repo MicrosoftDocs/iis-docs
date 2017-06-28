@@ -133,19 +133,19 @@ There is no user interface for adding wildcard HTTP redirects for IIS 7. For exa
 
 | Attribute | Description |
 | --- | --- |
-| `childOnly` | Optional Boolean attribute. Specifies whether the destination value should be added to the beginning of the file name that contains the request to be redirected. For example, if **childOnly** were set to true and the destination value were configured to be http://marking.contoso.com/, a request for http://contoso.com/default.htm would be redirected to http://marketing.contoso.com/default.htm. The default value is `false`. |
-| `destination` | Optional string attribute. Specifies a URL or virtual path to which to redirect the client. |
-| `enabled` | Optional Boolean attribute. Specifies whether redirection is enabled (**true**) or disabled (**false**). The default value is `false`. |
-| `exactDestination` | Optional Boolean attribute. Specifies that the destination value should be considered an absolute target location, not a relative location. The default value is `false`. |
-| `httpResponseStatus` | Optional enum attribute. Specifies type of redirection. The **httpResponseStatus** attribute can be one of the following possible values. The default is `Found`. | Value | Description | | --- | --- | | `Found` | Returns a 302 status code, which tells the client to issue a new request to the location specified in the destination attribute. The numeric value is `302`. | | `Permanent` | Returns a 301 status code, which informs the client that the location for the requested resource has permanently changed. The numeric value is `301`. | | `Temporary` | Returns a 307 status code, which prevents the client from losing data when the browser issues an HTTP POST request. The numeric value is `307`. | | `PermRedirect` | Returns a 308 status code, which informs the client that the location for the requested resource has permanently changed. The numeric value is `308`. | |
+| `childOnly` | Optional Boolean attribute. <br><br>Specifies whether the destination value should be added to the beginning of the file name that contains the request to be redirected. For example, if **childOnly** were set to true and the destination value were configured to be http://marking.contoso.com/, a request for http://contoso.com/default.htm would be redirected to http://marketing.contoso.com/default.htm. <br><br>The default value is `false`. |
+| `destination` | Optional string attribute. <br><br>Specifies a URL or virtual path to which to redirect the client. |
+| `enabled` | Optional Boolean attribute. <br><br>Specifies whether redirection is enabled (**true**) or disabled (**false**). <br><br>The default value is `false`. |
+| `exactDestination` | Optional Boolean attribute. <br><br>Specifies that the destination value should be considered an absolute target location, not a relative location. <br><br>The default value is `false`. |
+| `httpResponseStatus` | Optional enum attribute. <br><br>Specifies type of redirection. <br><br>The **httpResponseStatus** attribute can be one of the following possible values. The default is `Found`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Found</code></th> <td>Returns a 302 status code, which tells the client to issue a new request to the location specified in the destination attribute. <br><br>The numeric value is <code>302</code>.</td></tr> <tr> <th><code>Permanent</code></th> <td>Returns a 301 status code, which informs the client that the location for the requested resource has permanently changed. <br><br>The numeric value is <code>301</code>.</td></tr> <tr> <th><code>Temporary</code></th> <td>Returns a 307 status code, which prevents the client from losing data when the browser issues an HTTP POST request. <br><br>The numeric value is <code>307</code>.</td></tr><tr> <th><code>PermRedirect</code></th> <td>Returns a 308 status code, which informs the client that the location for the requested resource has permanently changed. <br><br>The numeric value is <code>308</code>.</td></tr></tbody></table> |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a wildcard redirection rule to the collection of redirection rules. |
-| `clear` | Optional element. Removes all references to wildcard redirection rules from the collection of redirection rules. |
-| `remove` | Optional element. Removes a reference to a wildcard redirection rule from the collection of redirection rules. |
+| [`add`](add.md) | Optional element. <br><br>Adds a wildcard redirection rule to the collection of redirection rules. |
+| `clear` | Optional element. <br><br>Removes all references to wildcard redirection rules from the collection of redirection rules. |
+| `remove` | Optional element. <br><br>Removes a reference to a wildcard redirection rule from the collection of redirection rules. |
 
 ### Configuration Sample
 

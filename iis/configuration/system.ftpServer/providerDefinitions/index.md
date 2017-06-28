@@ -166,8 +166,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Specifies the registration information for a managed-code or native-code (COM) provider. |
-| [`activation`](activation/index.md) | Optional element. Specifies a collection of custom name/value pairs that define any parameters that a custom provider requires. **Note:** This element was added in FTP 7.5. |
+| [`add`](add.md) | Optional element.<br><br>Specifies the registration information for a managed-code or native-code (COM) provider. |
+| [`activation`](activation/index.md) | Optional element.<br><br>Specifies a collection of custom name/value pairs that define any parameters that a custom provider requires.<br><br>**Note:** This element was added in FTP 7.5. |
 
 ### Configuration Sample
 

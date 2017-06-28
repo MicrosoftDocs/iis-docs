@@ -90,13 +90,13 @@ The `<customMetadata>` section of the configuration should not be modified direc
 
 | Attribute | Description |
 | --- | --- |
-| `path` | Optional string attribute. Specifies the path of the metabase property. |
+| `path` | Optional string attribute. <br><br>Specifies the path of the metabase property. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`property`](property.md) | Optional element. Adds a metabase property to the collection of metabase properties. |
+| [`property`](property.md) | Optional element.<br><br>Adds a metabase property to the collection of metabase properties. |
 
 <a id="006"></a>
 ## Sample Code

@@ -162,8 +162,8 @@ The `<firewallSupport>` element is configured at the global level in Application
 
 | Attribute | Description |
 | --- | --- |
-| `lowDataChannelPort` | Optional int attribute. Specifies the lowest port for data channel activity for passive data connections. The default value is `0`. |
-| `highDataChannelPort` | Optional int attribute. Specifies the lowest port for data channel activity for passive data connections. The default value is `0`. |
+| `lowDataChannelPort` | Optional int attribute.<br><br>Specifies the lowest port for data channel activity for passive data connections.<br><br>The default value is `0`. |
+| `highDataChannelPort` | Optional int attribute.<br><br>Specifies the lowest port for data channel activity for passive data connections.<br><br>The default value is `0`. |
 
 ### Child Elements
 

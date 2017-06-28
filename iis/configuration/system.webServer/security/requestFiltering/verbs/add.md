@@ -125,8 +125,8 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 
 | Attribute | Description |
 | --- | --- |
-| `allowed` | Required Boolean attribute. Specifies whether the verb is allowed or denied. Setting the **allowed** attribute to **true** allows the Web server to process these verbs. Setting the **allowed** attribute to **false** prevents the Web server from processing requests. The default value is `true`. |
-| `verb` | Required string attribute. Specifies the name of the verb to allow or deny. |
+| `allowed` | Required Boolean attribute.<br><br>Specifies whether the verb is allowed or denied. Setting the **allowed** attribute to **true** allows the Web server to process these verbs. Setting the **allowed** attribute to **false** prevents the Web server from processing requests.<br><br>The default value is `true`. |
+| `verb` | Required string attribute.<br><br>Specifies the name of the verb to allow or deny. |
 
 ### Child Elements
 

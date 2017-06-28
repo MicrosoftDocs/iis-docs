@@ -89,9 +89,9 @@ None
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a functional area to the collection of functional areas to trace. |
-| `clear` | Optional element. Removes all references to functional areas from the functional areas to trace collection. |
-| `remove` | Optional element. Removes a reference to a functional area from the functional areas to trace collection. |
+| [`add`](add.md) | Optional element. <br><br>Adds a functional area to the collection of functional areas to trace. |
+| `clear` | Optional element. <br><br>Removes all references to functional areas from the functional areas to trace collection. |
+| `remove` | Optional element. <br><br>Removes a reference to a functional area from the functional areas to trace collection. |
 
 ### Configuration Sample
 

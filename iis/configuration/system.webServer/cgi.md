@@ -112,9 +112,9 @@ The `<cgi>` element is not included in the default installation of IIS 7 and lat
 
 | Attribute | Description |
 | --- | --- |
-| `createCGIWithNewConsole` | Optional Boolean attribute. Specifies whether a CGI application runs in its own console. **Note:** If the value is set to **true**, each CGI application creates a new console when the application is started. A value of **false** indicates that CGI applications should run without a console. The default value is `false`. |
-| `createProcessAsUser` | Optional Boolean attribute. Specifies whether a CGI process is created in the system context or in the context of the requesting user. The default value is `true`. |
-| `timeout` | Optional timeSpan attribute. Specifies the time-out for a CGI application. The default value is `00:15:00` (15 minutes) |
+| `createCGIWithNewConsole` | Optional Boolean attribute. <br><br>Specifies whether a CGI application runs in its own console. <br><br>**Note:** If the value is set to **true**, each CGI application creates a new console when the application is started. A value of **false** indicates that CGI applications should run without a console. <br><br>The default value is `false`. |
+| `createProcessAsUser` | Optional Boolean attribute. <br><br>Specifies whether a CGI process is created in the system context or in the context of the requesting user. <br><br>The default value is `true`. |
+| `timeout` | Optional timeSpan attribute. <br><br>Specifies the time-out for a CGI application. <br><br>The default value is `00:15:00` (15 minutes) |
 
 ### Child Elements
 

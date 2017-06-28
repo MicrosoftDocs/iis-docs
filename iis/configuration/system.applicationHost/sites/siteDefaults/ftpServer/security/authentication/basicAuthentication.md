@@ -195,9 +195,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 
 | Attribute | Description |
 | --- | --- |
-| `defaultLogonDomain` | Optional string attribute. Specifies the default domain for Basic authentication user account lookups. The default value is `NT AUTHORITY`. |
-| `enabled` | Optional **Boolean** attribute. Specifies whether Basic authentication is enabled. The default value is `false`. |
-| `logonMethod` | Optional enum attribute. Specifies the logon type for the user account that is logging in as interpreted by LogonUser Win32 API. | Value | Description | | --- | --- | | `Interactive` | Specifies the interactive logon type. The numeric value is `0`. | | `Batch` | Specifies the batch logon type. The numeric value is `1`. | | `Network` | Specifies the network logon type. The numeric value is `2`. | | `ClearText` | Specifies the clear text logon type. The numeric value is `3`. | The default value is `ClearText`. |
+| `defaultLogonDomain` | Optional string attribute.<br><br>Specifies the default domain for Basic authentication user account lookups.<br><br>The default value is `NT AUTHORITY`. |
+| `enabled` | Optional **Boolean** attribute.<br><br>Specifies whether Basic authentication is enabled.<br><br>The default value is `false`. |
+| `logonMethod` | Optional enum attribute.<br><br>Specifies the logon type for the user account that is logging in as interpreted by LogonUser Win32 API. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Interactive</code></th> <td>Specifies the interactive logon type.<br><br>The numeric value is <code>0</code>.</td></tr> <tr> <th><code>Batch</code></th> <td>Specifies the batch logon type.<br><br>The numeric value is <code>1</code>.</td></tr> <tr> <th><code>Network</code></th> <td>Specifies the network logon type.<br><br>The numeric value is <code>2</code>.</td></tr> <tr> <th><code>ClearText</code></th> <td>Specifies the clear text logon type.<br><br>The numeric value is <code>3</code>.</td></tr></tbody></table>The default value is `ClearText`. |
 
 ### Child Elements
 

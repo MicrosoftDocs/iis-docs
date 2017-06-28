@@ -92,18 +92,18 @@ There is no user interface for configuring IIS Client Certificate Mapping authen
 
 | Attribute | Description |
 | --- | --- |
-| Description | Optional string attribute. Specifies the description of this one-to-many mapping. |
-| `enabled` | Optional Boolean attribute. Specifies whether this one-to-many mapping is enabled. The default value is `true`. |
-| `name` | Required string attribute. Specifies the name of this one-to-many mapping. |
-| `password` | Optional string attribute. Specifies the password of the account used to authenticate clients that match this rule. **Note:** To avoid storing unencrypted password strings in configuration files, always use AppCmd.exe or IIS Manager to enter passwords. If you use these management tools, the password strings will be encrypted automatically before they are written to the XML configuration files. This provides better password security than storing unencrypted passwords. |
-| `permissionMode` | Optional enum attribute. The permissionMode attribute can be one of the following possible values. The default is `Allow`. | Value | Description | | --- | --- | | `Allow` | Specifies that clients with a matching client certificate should be allowed permission to authenticate. The numeric value is `1`. | | `Deny` | Specifies that clients with a matching client certificate should be denied permission to authenticate. The numeric value is `2`. | |
-| `username` | Optional string attribute. Specifies the username of the account used to authenticate clients that match this rule. |
+| Description | Optional string attribute. <br><br>Specifies the description of this one-to-many mapping. |
+| `enabled` | Optional Boolean attribute. <br><br>Specifies whether this one-to-many mapping is enabled.<br><br>The default value is `true`. |
+| `name` | Required string attribute. <br><br>Specifies the name of this one-to-many mapping. |
+| `password` | Optional string attribute. <br><br>Specifies the password of the account used to authenticate clients that match this rule. <br><br>**Note:** To avoid storing unencrypted password strings in configuration files, always use AppCmd.exe or IIS Manager to enter passwords. If you use these management tools, the password strings will be encrypted automatically before they are written to the XML configuration files. This provides better password security than storing unencrypted passwords. |
+| `permissionMode` | Optional enum attribute. <br><br>The permissionMode attribute can be one of the following possible values. The default is `Allow`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Allow</code></th> <td>Specifies that clients with a matching client certificate should be allowed permission to authenticate.<br><br>The numeric value is <code>1</code>. </td></tr> <tr> <th><code>Deny</code></th> <td>Specifies that clients with a matching client certificate should be denied permission to authenticate.<br><br>The numeric value is <code>2</code>. </td></tr></tbody></table> |
+| `username` | Optional string attribute. <br><br>Specifies the username of the account used to authenticate clients that match this rule. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`rules`](rules/index.md) | Optional element. Specifies criteria for mapping client certificates with IIS so that many clients can use one certificate. |
+| [`rules`](rules/index.md) | Optional element. <br><br>Specifies criteria for mapping client certificates with IIS so that many clients can use one certificate. |
 
 ### Configuration Sample
 

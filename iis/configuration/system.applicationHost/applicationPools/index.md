@@ -100,7 +100,7 @@ None.
 | Element | Description |
 | --- | --- |
 | [`add`](add/index.md) | Adds an application pool to the applicationPools section. |
-| [`applicationPoolDefaults`](applicationpooldefaults/index.md) | Required string attribute. Configures the default settings for all application pools in an applicationPools section. |
+| [`applicationPoolDefaults`](applicationpooldefaults/index.md) | Required string attribute. <br><br>Configures the default settings for all application pools in an applicationPools section. |
 
 ### Configuration Sample
 

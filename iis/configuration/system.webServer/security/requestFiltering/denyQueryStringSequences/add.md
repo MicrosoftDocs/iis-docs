@@ -121,7 +121,7 @@ The `<add>` element of the `<denyQueryStringSequences>` element is configured at
 
 | Attribute | Description |
 | --- | --- |
-| `sequence` | Optional string attribute. Specifies a unique query string sequence to deny. There is no default value. |
+| `sequence` | Optional string attribute.<br><br>Specifies a unique query string sequence to deny.<br><br>There is no default value. |
 
 ### Child Elements
 

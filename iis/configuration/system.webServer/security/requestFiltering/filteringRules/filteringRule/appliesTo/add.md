@@ -120,7 +120,7 @@ The `<add>` element of the `<appliesTo>` element is configured at the site, appl
 
 | Attribute | Description |
 | --- | --- |
-| `fileExtension` | Required string attribute. Specifies a unique file name extension to add to the list of file name extensions for a filtering rule. There is no default value. |
+| `fileExtension` | Required string attribute.<br><br>Specifies a unique file name extension to add to the list of file name extensions for a filtering rule.<br><br>There is no default value. |
 
 ### Child Elements
 

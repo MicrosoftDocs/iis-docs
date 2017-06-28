@@ -153,12 +153,12 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`log`](log/index.md) | Optional element. Specifies the global log settings for the FTP service. |
-| [`firewallSupport`](firewallsupport.md) | Optional element. Specifies the port range that the FTP service will use for data channel communication. |
-| [`providerDefinitions`](providerdefinitions/index.md) | Optional element. Specifies the collection of custom FTP providers. |
-| [`security`](security/index.md) | Optional element. Specifies the security-related settings for FTP. |
-| [`caching`](caching/index.md) | Optional element. Specifies the credential cache settings for the FTP service. |
-| [`serverRuntime`](serverruntime/index.md) | Optional element. Specifies settings that configure how the FTP service operates. |
+| [`log`](log/index.md) | Optional element.<br><br>Specifies the global log settings for the FTP service. |
+| [`firewallSupport`](firewallsupport.md) | Optional element.<br><br>Specifies the port range that the FTP service will use for data channel communication. |
+| [`providerDefinitions`](providerdefinitions/index.md) | Optional element.<br><br>Specifies the collection of custom FTP providers. |
+| [`security`](security/index.md) | Optional element.<br><br>Specifies the security-related settings for FTP. |
+| [`caching`](caching/index.md) | Optional element.<br><br>Specifies the credential cache settings for the FTP service. |
+| [`serverRuntime`](serverruntime/index.md) | Optional element.<br><br>Specifies settings that configure how the FTP service operates. |
 
 ### Configuration Sample
 

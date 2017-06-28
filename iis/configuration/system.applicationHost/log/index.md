@@ -101,15 +101,15 @@ The `<log>` element is included in the default installation of IIS 7.
 
 | Attribute | Description |
 | --- | --- |
-| `centralLogFileMode` | Optional enum attribute. Specifies the central logging mode for the server. The **centralLogFileMode** attribute can have one of the following possible values. The default is `Site`. | Value | Description | | --- | --- | | `Site` | Configures all sites to use site logging instead of central logging. This is the default setting. The numerical value is **0**. | | `CentralBinary` | Creates one log file for all Web sites on a Web server. The data in the log file is binary-based, unformatted data that is not customizable. The numerical value is **1**. | | `CentralW3C` | Logs requests for all sites on a Web server to a single central log file in a text-based, customizable ASCII format. The numerical value is **2**. | |
-| `logInUTF8` | Optional Boolean attribute. Specifies whether IIS should log all strings in UCS Transformation Format 8 (UTF-8). This setting applies server-wide to all text-mode logging. The default value is `true`. |
+| `centralLogFileMode` | Optional enum attribute.<br><br>Specifies the central logging mode for the server.<br><br>The **centralLogFileMode** attribute can have one of the following possible values. The default is `Site`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Site</code></th> <td>Configures all sites to use site logging instead of central logging. This is the default setting.<br><br>The numerical value is <strong>0</strong>.</td></tr> <tr> <th><code>CentralBinary</code></th> <td>Creates one log file for all Web sites on a Web server. The data in the log file is binary-based, unformatted data that is not customizable.<br><br>The numerical value is <strong>1</strong>.</td></tr> <tr> <th><code>CentralW3C</code></th> <td>Logs requests for all sites on a Web server to a single central log file in a text-based, customizable ASCII format.<br><br>The numerical value is <strong>2</strong>.</td></tr></tbody></table> |
+| `logInUTF8` | Optional Boolean attribute.<br><br>Specifies whether IIS should log all strings in UCS Transformation Format 8 (UTF-8). This setting applies server-wide to all text-mode logging.<br><br>The default value is `true`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`centralBinaryLogFile`](centralbinarylogfile.md) | Optional element. Specifies the central binary log settings for all sites on a server. |
-| [`centralW3CLogFile`](centralw3clogfile.md) | Optional element. Specifies the central W3C log settings for all sites on a server. |
+| [`centralBinaryLogFile`](centralbinarylogfile.md) | Optional element.<br><br>Specifies the central binary log settings for all sites on a server. |
+| [`centralW3CLogFile`](centralw3clogfile.md) | Optional element.<br><br>Specifies the central W3C log settings for all sites on a server. |
 
 ### Configuration Sample
 

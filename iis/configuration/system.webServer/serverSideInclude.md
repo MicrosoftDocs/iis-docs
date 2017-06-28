@@ -100,7 +100,7 @@ There is no user interface for configuring the `<serverSideInclude>` element for
 
 | Attribute | Description |
 | --- | --- |
-| `ssiExecDisable` | Optional Boolean attribute. Specifies whether the SSI #exec directive is enabled (**false**) or disabled (**true**). When disabled, the directive cannot execute a program, script, or shell command on the server. The default value is `false`. |
+| `ssiExecDisable` | Optional Boolean attribute. <br><br>Specifies whether the SSI #exec directive is enabled (**false**) or disabled (**true**). When disabled, the directive cannot execute a program, script, or shell command on the server. <br><br>The default value is `false`. |
 
 ### Child Elements
 

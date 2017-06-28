@@ -48,9 +48,9 @@ There is no user interface for the `<configPaths>` element for IIS 7. For exampl
 
 | Attribute | Description |
 | --- | --- |
-| `path` | Required string attribute. Indicates the absolute virtual path of the configuration file. |
-| `locationPath` | Required string attribute. Indicates the relative path for the location tag inside the configuration file. |
-| `status` | Required int attribute. Specifies a status code that indicates whether the search for **path** and **locationPath** was successful. |
+| `path` | Required string attribute. <br><br>Indicates the absolute virtual path of the configuration file. |
+| `locationPath` | Required string attribute. <br><br>Indicates the relative path for the location tag inside the configuration file. |
+| `status` | Required int attribute. <br><br>Specifies a status code that indicates whether the search for **path** and **locationPath** was successful. |
 
 ### Child Elements
 

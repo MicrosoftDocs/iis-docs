@@ -98,15 +98,15 @@ The `<applicationInitialization>` element is configured at the server, site, or 
 
 | Attribute | Description |
 | --- | --- |
-| `doAppInitAfterRestart` | Optional Boolean attribute. Specifies that the initialization process is initiated automatically whenever an application restart occurs. Note that this is different than the preLoadEnabled attribute in the application element, which specifies that the initialization process is started after a restart of the application pool. The default value is `false`. |
-| `remapManagedRequestsTo` | Optional string attribute. Specifies a page to remap a request to during application initialization. The default value is `""`. |
-| `skipManagedModules` | Optional Boolean attribute. Specifies whether the managed modules are loaded (`true`) or not loaded (`false`) during initialization. The default value is `false`. |
+| `doAppInitAfterRestart` | Optional Boolean attribute.<br><br>Specifies that the initialization process is initiated automatically whenever an application restart occurs. Note that this is different than the preLoadEnabled attribute in the application element, which specifies that the initialization process is started after a restart of the application pool.<br><br>The default value is `false`. |
+| `remapManagedRequestsTo` | Optional string attribute.<br><br>Specifies a page to remap a request to during application initialization.<br><br>The default value is `""`. |
+| `skipManagedModules` | Optional Boolean attribute.<br><br>Specifies whether the managed modules are loaded (`true`) or not loaded (`false`) during initialization.<br><br>The default value is `false`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Specifies the application to be initialized upon application restart. |
+| [`add`](add.md) | Optional element.<br><br>Specifies the application to be initialized upon application restart. |
 
 ### Configuration Sample
 

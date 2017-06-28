@@ -261,16 +261,16 @@ The `<requestFiltering>` element is configured at the global, site or URL level.
 
 | Attribute | Description |
 | --- | --- |
-| `allowHighBitCharacters` | Optional **Boolean** attribute. Specifies whether to allow non-ASCII characters in URLs. The default value is `true`. |
+| `allowHighBitCharacters` | Optional **Boolean** attribute.<br><br>Specifies whether to allow non-ASCII characters in URLs.<br><br>The default value is `true`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`fileExtensions`](fileextensions/index.md) | Optional element. Specifies which file name extensions are allowed or denied to limit types of requests sent to the FTP server. |
-| [`requestLimits`](requestlimits.md) | Optional element. Specifies limits on requests processed by the FTP server. |
-| [`hiddenSegments`](hiddensegments/index.md) | Optional element. Specifies that certain segments of URLs can be made inaccessible to clients. |
-| [`denyUrlSequences`](denyurlsequences/index.md) | Optional element. Specifies sequences that should be denied to help prevent URL-based attacks on the FTP server. |
+| [`fileExtensions`](fileextensions/index.md) | Optional element.<br><br>Specifies which file name extensions are allowed or denied to limit types of requests sent to the FTP server. |
+| [`requestLimits`](requestlimits.md) | Optional element.<br><br>Specifies limits on requests processed by the FTP server. |
+| [`hiddenSegments`](hiddensegments/index.md) | Optional element.<br><br>Specifies that certain segments of URLs can be made inaccessible to clients. |
+| [`denyUrlSequences`](denyurlsequences/index.md) | Optional element.<br><br>Specifies sequences that should be denied to help prevent URL-based attacks on the FTP server. |
 
 ### Configuration Sample
 

@@ -81,8 +81,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`binding`](binding.md) | Optional element. Configures a default binding. |
-| `clear` | Optional element. Clears the collection of default bindings. |
+| [`binding`](binding.md) | Optional element.<br><br>Configures a default binding. |
+| `clear` | Optional element.<br><br>Clears the collection of default bindings. |
 
 ### Configuration Sample
 

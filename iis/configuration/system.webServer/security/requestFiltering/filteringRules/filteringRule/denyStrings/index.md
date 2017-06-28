@@ -124,9 +124,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a unique string to the collection of strings which a request filtering rule will deny. |
-| `clear` | Optional element. Clears the collection of strings which a request filtering rule will deny. |
-| `remove` | Optional element. Removes a unique string from the collection of strings which a request filtering rule will deny. |
+| [`add`](add.md) | Optional element.<br><br>Adds a unique string to the collection of strings which a request filtering rule will deny. |
+| `clear` | Optional element.<br><br>Clears the collection of strings which a request filtering rule will deny. |
+| `remove` | Optional element.<br><br>Removes a unique string from the collection of strings which a request filtering rule will deny. |
 
 ### Configuration Sample
 

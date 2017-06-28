@@ -127,9 +127,9 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds a file name extension to the list of file name extensions for a filtering rule. |
-| `clear` | Optional element. Clears the list of file name extensions for a filtering rule. |
-| `remove` | Optional element. Removes a file name extension from the list of file name extensions for a filtering rule. |
+| [`add`](add.md) | Optional element.<br><br>Adds a file name extension to the list of file name extensions for a filtering rule. |
+| `clear` | Optional element.<br><br>Clears the list of file name extensions for a filtering rule. |
+| `remove` | Optional element.<br><br>Removes a file name extension from the list of file name extensions for a filtering rule. |
 
 ### Configuration Sample
 

@@ -174,16 +174,16 @@ Rules are processed from top to bottom, in the order they appear in the list. Th
 
 | Attribute | Description |
 | --- | --- |
-| `allowUnlisted` | Optional **Boolean** attribute. Specifies whether to allow unlisted IP addresses. Setting the **allowUnlisted** attribute to **true** allows an unlisted IP address to access the server. Setting the **allowUnlisted** attribute to **false** locks down the server, preventing access to all IP address unless they are listed. If you set this attribute to false and do not list the local loopback address (127.0.0.1) as an allowed IP address, you will not be able to access your server by using a browser from a local console. The default value is `true`. |
-| `enableReverseDns` | Optional **Boolean** attribute. Specifies whether to enable or disable reverse Domain Name System (DNS) lookups for the FTP server. Reverse lookups involve looking up the domain name when the IP address is known. **Caution**: Reverse DNS lookups will use significant resources and time. The default value is `false`. |
+| `allowUnlisted` | Optional **Boolean** attribute.<br><br>Specifies whether to allow unlisted IP addresses. Setting the **allowUnlisted** attribute to **true** allows an unlisted IP address to access the server. Setting the **allowUnlisted** attribute to **false** locks down the server, preventing access to all IP address unless they are listed. If you set this attribute to false and do not list the local loopback address (127.0.0.1) as an allowed IP address, you will not be able to access your server by using a browser from a local console.<br><br>The default value is `true`. |
+| `enableReverseDns` | Optional **Boolean** attribute.<br><br>Specifies whether to enable or disable reverse Domain Name System (DNS) lookups for the FTP server. Reverse lookups involve looking up the domain name when the IP address is known.<br><br>**Caution**: Reverse DNS lookups will use significant resources and time.<br><br>The default value is `false`. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds an IP restriction to the collection of IP address restrictions. |
-| `remove` | Optional element. Removes a reference to a restriction from the `<ipSecurity>` collection. |
-| `clear` | Optional element. Removes all references to restrictions from the `<ipSecurity>` collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds an IP restriction to the collection of IP address restrictions. |
+| `remove` | Optional element.<br><br>Removes a reference to a restriction from the `<ipSecurity>` collection. |
+| `clear` | Optional element.<br><br>Removes all references to restrictions from the `<ipSecurity>` collection. |
 
 ### Configuration Sample
 

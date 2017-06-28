@@ -117,8 +117,8 @@ The default installation of IIS 7 and later does not include the **Management Se
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies the name of an IIS Manager user, a Windows user, or a Windows group that is authorized to connect to the site or application by using IIS Manager. |
-| `isRole` | Optional Boolean attribute. Specifies whether the entry is a Windows group. When **true**, the entry is a Windows group and any Windows users that belong to that group can connect to the site or application by using IIS Manager. The default value is `false`. |
+| `name` | Required string attribute.<br><br>Specifies the name of an IIS Manager user, a Windows user, or a Windows group that is authorized to connect to the site or application by using IIS Manager. |
+| `isRole` | Optional Boolean attribute.<br><br>Specifies whether the entry is a Windows group. When **true**, the entry is a Windows group and any Windows users that belong to that group can connect to the site or application by using IIS Manager.<br><br>The default value is `false`. |
 
 ### Child Elements
 

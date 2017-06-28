@@ -120,7 +120,7 @@ The `<add>` element of the `<scanHeaders>` element is configured at the site, ap
 
 | Attribute | Description |
 | --- | --- |
-| `requestHeader` | Required string attribute. Specifies a unique HTTP header to scan for a request filtering rule. There is no default value. |
+| `requestHeader` | Required string attribute.<br><br>Specifies a unique HTTP header to scan for a request filtering rule.<br><br>There is no default value. |
 
 ### Child Elements
 

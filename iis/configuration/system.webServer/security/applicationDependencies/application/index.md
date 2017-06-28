@@ -48,15 +48,15 @@ There is no user interface for configuring the `<applicationDependencies>` eleme
 
 | Attribute | Description |
 | --- | --- |
-| `groupID` | Optional string attribute. Specifies the **groupID** of the application that has a dependency on an extension restriction. See the following Default Configuration section for the complete list of default values. |
-| `Name` | Required string attribute. Specifies the unique name of the application that has a dependency on an extension restriction. See the following Default Configuration section for the complete list of default values. |
+| `groupID` | Optional string attribute. <br><br>Specifies the **groupID** of the application that has a dependency on an extension restriction. <br><br>See the following Default Configuration section for the complete list of default values. |
+| `Name` | Required string attribute. <br><br>Specifies the unique name of the application that has a dependency on an extension restriction. <br><br>See the following Default Configuration section for the complete list of default values. |
 
 ### Child Elements
 
 | Element | Description |
 | --- | --- |
-| [`add`](add.md) | Optional element. Adds additional **groupIDs** to the parent application. |
-| `clear` | Optional element. Removes all references to additional **groupIDs** from the add collection. |
+| [`add`](add.md) | Optional element.<br><br>Adds additional **groupIDs** to the parent application. |
+| `clear` | Optional element.<br><br>Removes all references to additional **groupIDs** from the add collection. |
 
 ### Configuration Sample
 

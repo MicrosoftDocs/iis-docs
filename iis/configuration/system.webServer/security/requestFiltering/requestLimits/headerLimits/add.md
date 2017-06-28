@@ -125,8 +125,8 @@ The default installation of IIS 7 and later includes the Request Filtering role 
 
 | Attribute | Description |
 | --- | --- |
-| `header` | Required string attribute. Specifies the name of the HTTP header. |
-| `sizeLimit` | Required uint attribute. Specifies the maximum size of the HTTP header, in bytes. Setting the value to 0, effectively denies all requests that contain the header. |
+| `header` | Required string attribute. <br><br>Specifies the name of the HTTP header. |
+| `sizeLimit` | Required uint attribute. <br><br>Specifies the maximum size of the HTTP header, in bytes. Setting the value to 0, effectively denies all requests that contain the header. |
 
 ### Child Elements
 

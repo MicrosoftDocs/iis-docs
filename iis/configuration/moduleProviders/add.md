@@ -51,8 +51,8 @@ There is no user interface for adding modules to the `<moduleProviders>` element
 
 | Attribute | Description |
 | --- | --- |
-| `name` | Required string attribute. Specifies the unique name of a managed module on the Web server. |
-| `type` | Required string attribute. Specifies the managed type of a managed module. |
+| `name` | Required string attribute. <br><br>Specifies the unique name of a managed module on the Web server. |
+| `type` | Required string attribute. <br><br>Specifies the managed type of a managed module. |
 
 ### Child Elements
 

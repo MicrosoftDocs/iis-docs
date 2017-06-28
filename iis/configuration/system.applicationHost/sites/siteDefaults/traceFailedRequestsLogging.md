@@ -114,11 +114,11 @@ After you finish the default installation of IIS 7 and later, you must install t
 
 | Attribute | Description |
 | --- | --- |
-| `customActionsEnabled` | Optional Boolean attribute. Specifies whether custom actions are enabled for failed request tracing. The default value is `false`. |
-| `directory` | Optional string attribute. Specifies the failed request trace logging directory for a site. The default value is `%SystemDrive%\inetpub\logs\FailedReqLogFiles`. |
-| `enabled` | Optional Boolean attribute. Specifies whether failed request trace logging is enabled for a site (**true**) or disabled (**false**). The default value is `false`. |
-| `maxLogFiles` | Optional uint attribute. Specifies the maximum number of failed request tracing log files to keep for the site. The default value is `50`. |
-| `maxLogFileSizeKB` | Optional uint attribute. Specifies the maximum file size in kilobytes for failed request tracing logs. **Note:** If failed request tracing logs exceed this value, IIS will truncate the logs at the maximum file size and specify LOG\_FILE\_MAX\_SIZE\_TRUNCATE for the trace event. The default value is `1024`. |
+| `customActionsEnabled` | Optional Boolean attribute.<br><br>Specifies whether custom actions are enabled for failed request tracing.<br><br>The default value is `false`. |
+| `directory` | Optional string attribute.<br><br>Specifies the failed request trace logging directory for a site.<br><br>The default value is `%SystemDrive%\inetpub\logs\FailedReqLogFiles`. |
+| `enabled` | Optional Boolean attribute.<br><br>Specifies whether failed request trace logging is enabled for a site (**true**) or disabled (**false**).<br><br>The default value is `false`. |
+| `maxLogFiles` | Optional uint attribute.<br><br>Specifies the maximum number of failed request tracing log files to keep for the site.<br><br>The default value is `50`. |
+| `maxLogFileSizeKB` | Optional uint attribute.<br><br>Specifies the maximum file size in kilobytes for failed request tracing logs.<br><br>**Note:** If failed request tracing logs exceed this value, IIS will truncate the logs at the maximum file size and specify LOG\_FILE\_MAX\_SIZE\_TRUNCATE for the trace event.<br><br>The default value is `1024`. |
 
 ### Child Elements
 
@@ -137,7 +137,7 @@ The following code samples configure the default `traceFailedRequestsLogging` op
 
 ### AppCmd.exe
 
-[!code-csharp[Main](traceFailedRequestsLogging/samples/sample2.cs)]
+[!code-console[Main](traceFailedRequestsLogging/samples/sample2.cmd)]
 
 > [!NOTE]
 > You must be sure to set the **commit** parameter to `apphost` when you use AppCmd.exe to configure these settings. This commits the configuration settings to the appropriate location section in the ApplicationHost.config file.

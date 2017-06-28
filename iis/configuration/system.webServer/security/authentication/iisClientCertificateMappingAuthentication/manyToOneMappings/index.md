@@ -110,8 +110,8 @@ None.
 
 | Element | Description |
 | --- | --- |
-| [`add`](add/index.md) | Optional element. Adds a mapping to the collection of **manyToOneMappings**. |
-| `clear` | Optional element. Removes all references to mappings from the **manyToOneMappings** collection. |
+| [`add`](add/index.md) | Optional element. <br><br>Adds a mapping to the collection of **manyToOneMappings**. |
+| `clear` | Optional element. <br><br>Removes all references to mappings from the **manyToOneMappings** collection. |
 
 ### Configuration Sample
 

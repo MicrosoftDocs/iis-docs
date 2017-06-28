@@ -89,8 +89,8 @@ There is no user interface for adding wildcard HTTP redirects for IIS 7. For exa
 
 | Attribute | Description |
 | --- | --- |
-| `destination` | Required string attribute. Specifies a location to which to redirect requests that match the related wildcard value. |
-| `wildcard` | Required string attribute. Specifies a unique wildcard value to which requests are compared. A request is then redirected to the specified destination if the request matches the wildcard value. |
+| `destination` | Required string attribute.<br><br>Specifies a location to which to redirect requests that match the related wildcard value. |
+| `wildcard` | Required string attribute.<br><br>Specifies a unique wildcard value to which requests are compared. A request is then redirected to the specified destination if the request matches the wildcard value. |
 
 ### Child Elements
 
