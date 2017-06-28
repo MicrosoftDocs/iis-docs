@@ -82,7 +82,7 @@ You can configure the `<access>` element at the server level in the ApplicationH
 
 | Attribute | Description |
 | --- | --- |
-| `sslFlags` | The **sslFlags** attribute can be one of the following possible values. The default is `None`. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>None</code></th> <td>Disable SSL.</td></tr> <tr> <th><code>Ssl</code></th> <td>Require SSL.</td></tr> <tr> <th><code>SslNegotiateCert</code></th> <td>Accept client certificates for authentication.</td></tr> <tr> <th><code>SslRequireCert</code></th> <td>Require clients certificates for authentication.</td></tr> <tr> <th><code>SslMapCert</code></th> <td>Enable certificate mapping authentication.</td></tr> <tr> <th><code>Ssl128</code></th> <td>Require 128-bit SSL.</td></tr></tbody></table> |
+| `sslFlags` | The **sslFlags** attribute can be one of the following possible values. The default is `None`. <table> <tbody> <tr> <td>Value</td> <td>Description</td></tr> <tr> <td><code>None</code></td> <td>Disable SSL.</td></tr> <tr> <td><code>Ssl</code></td> <td>Require SSL.</td></tr> <tr> <td><code>SslNegotiateCert</code></td> <td>Accept client certificates for authentication.</td></tr> <tr> <td><code>SslRequireCert</code></td> <td>Require clients certificates for authentication.</td></tr> <tr> <td><code>SslMapCert</code></td> <td>Enable certificate mapping authentication.</td></tr> <tr> <td><code>Ssl128</code></td> <td>Require 128-bit SSL.</td></tr></tbody></table> |
 
 ### Child Elements
 

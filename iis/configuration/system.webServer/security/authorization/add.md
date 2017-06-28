@@ -106,9 +106,9 @@ To support and configure authorization for sites and applications on your Web se
 
 | Attribute | Description |
 | --- | --- |
-| `accessType` | Required Enum attribute. <br><br>The **accessType** attribute can be one of the following possible values. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Allow</code></th> <td>Specifies a rule that allows authorization.<br><br>The numeric value is <code>0</code>. </td></tr> <tr> <th><code>Deny</code></th> <td>Specifies a rule that denies authorization.<br><br>The numeric value is <code>1</code>. </td></tr></tbody></table> |
+| `accessType` | Required Enum attribute. <br><br>The **accessType** attribute can be one of the following possible values. <table> <tbody> <tr> <td>Value</td> <td>Description</td></tr> <tr> <td><code>Allow</code></td> <td>Specifies a rule that allows authorization.<br><br>The numeric value is <code>0</code>. </td></tr> <tr> <td><code>Deny</code></td> <td>Specifies a rule that denies authorization.<br><br>The numeric value is <code>1</code>. </td></tr></tbody></table> |
 | `roles` | Optional string attribute. <br><br>Specifies roles for an authorization rule. |
-| `users` | Optional string attribute. <br><br>Specifies users for an authorization rule. Multiple users can be added in a comma-separated list. In addition, the following special identifiers have been defined. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>*</code></th> <td>Specifies that the rule will apply to all users.</td></tr> <tr> <th><code>?</code></th> <td>Specifies that the rule will apply to anonymous users.</td></tr></tbody></table> |
+| `users` | Optional string attribute. <br><br>Specifies users for an authorization rule. Multiple users can be added in a comma-separated list. In addition, the following special identifiers have been defined. <table> <tbody> <tr> <td>Value</td> <td>Description</td></tr> <tr> <td><code>*</code></td> <td>Specifies that the rule will apply to all users.</td></tr> <tr> <td><code>?</code></td> <td>Specifies that the rule will apply to anonymous users.</td></tr></tbody></table> |
 | `verbs` | Optional string attribute. <br><br>Specifies the HTTP verbs for an authorization rule.<br><br>If this value is left blank or is not specified, the rule will apply to all HTTP verbs. |
 
 ### Child Elements
