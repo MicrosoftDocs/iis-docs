@@ -101,7 +101,7 @@ There is no user interface for configuring IIS Client Certificate Mapping authen
 
 | Attribute | Description |
 | --- | --- |
-| `certificateField` | Required enum attribute.<br><br>The **certificateField** attribute can be one of the following possible values. <table> <tbody> <tr> <td>Value</td> <td>Description</td></tr> <tr> <td><code>Issuer</code></td> <td>Specifies the issuer of the certificate.<br><br>The numeric value is <code>2</code>. </td></tr> <tr> <td><code>Subject</code></td> <td>Specifies the subject of the certificate.<br><br>The numeric value is <code>1</code>. </td></tr></tbody></table> |
+| `certificateField` | Required enum attribute.<br><br>The **certificateField** attribute can be one of the following possible values. <table> <tbody> <tr> <th>Value</th> <th>Description</th></tr> <tr> <th><code>Issuer</code></th> <td>Specifies the issuer of the certificate.<br><br>The numeric value is <code>2</code>. </td></tr> <tr> <th><code>Subject</code></th> <td>Specifies the subject of the certificate.<br><br>The numeric value is <code>1</code>. </td></tr></tbody></table> |
 | `certificateSubField` | Required string attribute.<br><br>Specifies any of the standard fields on the certificate. |
 | `compareCaseSensitive` | Optional Boolean attribute.<br><br>Specifies whether to compare values using case sensitive evaluations.<br><br>The default value is `true`. |
 | `matchCriteria` | Required string attribute.<br><br>Specifies the data that should be compared to determine a matching certificate. |
