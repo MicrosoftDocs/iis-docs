@@ -46,7 +46,7 @@ The `<comPlus>` element of the `<asp>` element configures the following COM+ set
 | IIS 8.0 | The `<comPlus>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<comPlus>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<comPlus>` element of the `<asp>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The `<comPlus>` element replaces the following IIS 6.0 metabase properties: - **AspAppServiceFlags** - **AspExecuteInMTA** - **AspPartitionID** - **AspSxsName** - **AspTrackThreadingModel** |
+| IIS 6.0 | The `<comPlus>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>AspAppServiceFlags</strong></li> <li><strong>AspExecuteInMTA</strong></li> <li><strong>AspPartitionID</strong></li> <li><strong>AspSxsName</strong></li> <li><strong>AspTrackThreadingModel</strong> </li></ul> |
 
 <a id="003"></a>
 ## Setup

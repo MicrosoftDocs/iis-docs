@@ -53,7 +53,7 @@ For more information on HTTP caching headers and date/time formats, see the foll
 | IIS 8.0 | The `setEtag` attribute was added to specify whether the HTTP ETag header is calculated and set. |
 | IIS 7.5 | The `<clientCache>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<clientCache>` element of the `<staticContent>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The `<clientCache>` element replaces the following IIS 6.0 metabase properties: - **CacheControlCustom** - **CacheControlMaxAge** - **CacheControlNoCache** - **HttpExpires** |
+| IIS 6.0 | The `<clientCache>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>CacheControlCustom</strong></li> <li><strong>CacheControlMaxAge</strong></li> <li><strong>CacheControlNoCache</strong></li> <li><strong>HttpExpires</strong> </li></ul> |
 
 <a id="003"></a>
 ## Setup

@@ -41,7 +41,7 @@ The `<staticContent>` element contains the following three attributes that speci
 | IIS 8.0 | The `<staticContent>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<staticContent>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<staticContent>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The `<staticContent>` element replaces the following IIS 6.0 metabase properties: - **DefaultDocFooter**- **EnableDocFooter** |
+| IIS 6.0 | The `<staticContent>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>DefaultDocFooter</strong> <li><strong>EnableDocFooter</strong> </li></li></ul> |
 
 <a id="003"></a>
 ## Setup

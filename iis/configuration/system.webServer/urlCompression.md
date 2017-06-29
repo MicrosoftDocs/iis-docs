@@ -36,7 +36,7 @@ The `<urlCompression>` element specifies the following settings for static and d
 | IIS 8.0 | The `<urlCompression>` element was not modified in IIS 8.0. |
 | IIS 7.5 | In IIS 7.5, the default value of the `doDynamicCompression` attribute changed from **false** to **true**. |
 | IIS 7.0 | The `<urlCompression>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The `<urlCompression>` element replaces the following IIS 6.0 metabase properties: - **DoStaticCompression** - **DoDynamicCompression** - **HcDoOnDemandCompression** |
+| IIS 6.0 | The `<urlCompression>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>DoStaticCompression</strong></li> <li><strong>DoDynamicCompression</strong></li> <li><strong>HcDoOnDemandCompression</strong> </li></ul> |
 
 <a id="003"></a>
 ## Setup

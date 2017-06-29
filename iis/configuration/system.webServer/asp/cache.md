@@ -35,7 +35,7 @@ The `<cache>` element of the `<asp>` element specifies the following Active Serv
 | IIS 8.0 | The `<cache>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<cache>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<cache>` element of the `<asp>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The `<cache>` element replaces the following IIS 6.0 metabase properties: - **AspDiskTemplateCacheDirectory** - **AspEnableTypelibCache** - **AspMaxDiskTemplateCacheFiles** - **AspScriptEngineCacheMax** - **AspScriptFileCacheSize** |
+| IIS 6.0 | The `<cache>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>AspDiskTemplateCacheDirectory</strong></li> <li><strong>AspEnableTypelibCache</strong></li> <li><strong>AspMaxDiskTemplateCacheFiles</strong></li> <li><strong>AspScriptEngineCacheMax</strong></li> <li><strong>AspScriptFileCacheSize</strong> </li></ul> |
 
 <a id="003"></a>
 ## Setup

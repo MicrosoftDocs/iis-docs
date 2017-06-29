@@ -34,7 +34,7 @@ Site-level logging creates individual log file directories for each site on your
 | IIS 8.0 | The `<log>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<log>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<log>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The `<log>` element replaces the following IIS 6.0 attributes: - **CentralBinaryLoggingEnabled**- **CentralW3CLoggingEnabled**- **LogInUTF8** |
+| IIS 6.0 | The `<log>` element replaces the following IIS 6.0 attributes: <ul> <li><strong>CentralBinaryLoggingEnabled</strong> <li><strong>CentralW3CLoggingEnabled</strong> <li><strong>LogInUTF8</strong> </li></li></li></ul> |
 
 <a id="003"></a>
 ## Setup

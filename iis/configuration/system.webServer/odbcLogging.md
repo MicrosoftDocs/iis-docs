@@ -49,7 +49,7 @@ When you use ODBC logging, your server's activity is stored in a database, which
 | IIS 8.0 | The `<odbcLogging>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<odbcLogging>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<odbcLogging>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The attributes of the `<odbcLogging>` element replace the following IIS 6.0 metabase properties: - **LogOdbcDataSource** - **LogOdbcPassword** - **LogOdbcTableName** - **LogOdbcUserName** |
+| IIS 6.0 | The attributes of the `<odbcLogging>` element replace the following IIS 6.0 metabase properties: <ul> <li><strong>LogOdbcDataSource</strong></li> <li><strong>LogOdbcPassword</strong></li> <li><strong>LogOdbcTableName</strong></li> <li><strong>LogOdbcUserName</strong> </li></ul> |
 
 <a id="003"></a>
 ## Setup

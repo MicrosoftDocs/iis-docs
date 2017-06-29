@@ -43,7 +43,7 @@ The `<limits>` element of the `<asp>` element specifies the following Active Ser
 | IIS 8.0 | The `<limits>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<limits>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<limits>` element of the `<asp>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The `<limits>` element replaces the following IIS 6.0 metabase properties: - **AspBufferingLimit** - **AspMaxRequestEntityAllowed** - **AspProcessorThreadMax** - **AspQueueConnectionTestTime** - **AspQueueTimeout** - **AspRequestQueueMax** - **AspScriptTimeout** |
+| IIS 6.0 | The `<limits>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>AspBufferingLimit</strong></li> <li><strong>AspMaxRequestEntityAllowed</strong></li> <li><strong>AspProcessorThreadMax</strong></li> <li><strong>AspQueueConnectionTestTime</strong></li> <li><strong>AspQueueTimeout</strong></li> <li><strong>AspRequestQueueMax</strong></li> <li><strong>AspScriptTimeout</strong> </li></ul> |
 
 <a id="003"></a>
 ## Setup

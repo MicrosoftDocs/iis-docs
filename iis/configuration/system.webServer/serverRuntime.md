@@ -43,7 +43,7 @@ IIS 7.5 added the **authenticatedUserOverride** attribute to the `<serverRuntime
 | IIS 8.0 | The `<serverRuntime>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The **authenticatedUserOverride** attribute was added in IIS 7.5. |
 | IIS 7.0 | The `<serverRuntime>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The `<serverRuntime>` element replaces the following IIS 6.0 metabase properties: - **SetHostName** - **MaxRequestEntityAllowed** - **UploadReadAheadSize** |
+| IIS 6.0 | The `<serverRuntime>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>SetHostName</strong></li> <li><strong>MaxRequestEntityAllowed</strong></li> <li><strong>UploadReadAheadSize</strong></li></ul> |
 
 <a id="003"></a>
 ## Setup

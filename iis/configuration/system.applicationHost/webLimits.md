@@ -52,7 +52,7 @@ Dynamic site activation is enabled when the number of sites handled by a server 
 | IIS 8.0 | The `<webLimits>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<webLimits>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<webLimits>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The `<webLimits>` element replaces the following IIS 6.0 metabase settings: - **ConnectionTimeout** - **HeaderWaitTimeout** - **MaxGlobalBandwidth** - **MinFileBytesPerSec** |
+| IIS 6.0 | The `<webLimits>` element replaces the following IIS 6.0 metabase settings: <ul> <li><strong>ConnectionTimeout</strong></li> <li><strong>HeaderWaitTimeout</strong></li> <li><strong>MaxGlobalBandwidth</strong></li> <li><strong>MinFileBytesPerSec</strong> </li></ul> |
 
 <a id="003"></a>
 ## Setup

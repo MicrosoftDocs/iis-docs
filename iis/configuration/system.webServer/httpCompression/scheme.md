@@ -42,7 +42,7 @@ The `<scheme>` element of the `<httpCompression>` element specifies the followin
 | IIS 8.0 | The `<scheme>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<scheme>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<scheme>` element of the `<httpCompression>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The `<scheme>` element replaces the following IIS 6.0 metabase properties: - **HcCompressionDll** - **HcDoDynamicCompression** - **HcDoStaticCompression** - **HcDynamicCompressionLevel** |
+| IIS 6.0 | The `<scheme>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>HcCompressionDll</strong></li> <li><strong>HcDoDynamicCompression</strong></li> <li><strong>HcDoStaticCompression</strong></li> <li><strong>HcDynamicCompressionLevel</strong></li> </ul> |
 
 <a id="003"></a>
 ## Setup

@@ -33,7 +33,7 @@ If your applications do not require session state, setting the **allowSessionSta
 | IIS 8.0 | The `<session>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<session>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<session>` element of the `<asp>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The `<session>` element replaces the following IIS 6.0 metabase properties: - **AspAllowSessionState** - **AspKeepSessionIDSecure** - **AspSessionMax** - **AspSessionTimeout** |
+| IIS 6.0 | The `<session>` element replaces the following IIS 6.0 metabase properties: <ul> <li><strong>AspAllowSessionState</strong></li> <li><strong>AspKeepSessionIDSecure</strong></li> <li><strong>AspSessionMax</strong></li> <li><strong>AspSessionTimeout</strong></li></ul> |
 
 <a id="003"></a>
 ## Setup
