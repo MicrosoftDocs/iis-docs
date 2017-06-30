@@ -28,8 +28,10 @@ Each `<filteringRule>` element specifies a collection of custom attributes and e
 
 In addition, each request filtering rule may contain the following child elements:
 
-- [`<appliesTo>`](filteringrule/appliesto/index.md) - Specifies the list of file name extensions to which the request filtering rule applies. > [!NOTE]
- > If this section is blank, the rule applies to all requests.
+- [`<appliesTo>`](filteringrule/appliesto/index.md) - Specifies the list of file name extensions to which the request filtering rule applies. 
+
+    > [!NOTE]
+    > If this section is blank, the rule applies to all requests.
 - [`<denyStrings>`](filteringrule/denystrings/index.md) - Specifies the list of strings to deny for the request filtering rule.
 - [`<scanHeaders>`](filteringrule/scanheaders/index.md) - Specifies the list of HTTP headers to scan.
 

@@ -29,12 +29,13 @@ When passive connections are negotiated using the FTP PASV command, the FTP serv
 <a id="002"></a>
 ## Compatibility
 
-| Version || IIS 8.5 | The `<firewallSupport>` element was not modified in IIS 8.5. |
+| Version | Notes |
+| --- | --- |
+| IIS 8.5 | The `<firewallSupport>` element was not modified in IIS 8.5. |
 | IIS 8.0 | The `<firewallSupport>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<firewallSupport>` element of the `<ftpServer>` element ships as a feature of IIS 7.5. |
 | IIS 7.0 | The `<firewallSupport>` element of the `<ftpServer>` element was introduced in FTP 7.0, which was a separate download for IIS 7.0. |
 | IIS 6.0 | N/A |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:

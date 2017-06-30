@@ -98,16 +98,20 @@ None.
 
 ### Configuration Sample
 
-The following configuration sample adds a wildcard redirection entry that redirects all requests for ASP files to the home page of your Web site. > [!NOTE]
- > This example is useful if you have removed all ASP-based applications from your Web site and you wanted client requests for the old applications to be redirected to the root of your Web site rather than receiving an **HTTP 404 Not Found** response.
+The following configuration sample adds a wildcard redirection entry that redirects all requests for ASP files to the home page of your Web site.
+
+> [!NOTE]
+> This example is useful if you have removed all ASP-based applications from your Web site and you wanted client requests for the old applications to be redirected to the root of your Web site rather than receiving an **HTTP 404 Not Found** response.
 
 [!code-xml[Main](add/samples/sample1.xml)]
 
 <a id="006"></a>
 ## Sample Code
 
-The following code samples adds a wildcard redirection entry that redirects all requests for ASP files to the home page of your Web site. > [!NOTE]
- > This example is useful if you have removed all ASP-based applications from your Web site and you wanted client requests for the old applications to be redirected to the root of your Web site rather than receiving an **HTTP 404 Not Found** response.
+The following code samples adds a wildcard redirection entry that redirects all requests for ASP files to the home page of your Web site.
+
+> [!NOTE]
+> This example is useful if you have removed all ASP-based applications from your Web site and you wanted client requests for the old applications to be redirected to the root of your Web site rather than receiving an **HTTP 404 Not Found** response.
 
 ### AppCmd.exe
 
