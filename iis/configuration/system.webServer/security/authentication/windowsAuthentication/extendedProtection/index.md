@@ -32,18 +32,18 @@ There are two attributes of the `<extendedProtection>` element that configure th
 
     | Name | Description |
     | --- | --- |
-    | `None` | This value specifies that IIS will not perform channel-binding token checking. This setting emulates the behavior that existed before extended protection. The numerical value is `0`. |
-    | `Allow` | This value specifies that channel-binding token checking is enabled, but not required. This setting allows secure communication with clients that support extended protection, but still supports clients that are not capable of using extended protection. The numerical value is `1`. |
-    | `Require` | This value specifies that channel-binding token checking is required. This setting does not provide support for clients that do not support extended protection. The numerical value is `2`. |
+    | `None` | This value specifies that IIS will not perform channel-binding token checking. This setting emulates the behavior that existed before extended protection. <br><br> The numerical value is `0`. |
+    | `Allow` | This value specifies that channel-binding token checking is enabled, but not required. This setting allows secure communication with clients that support extended protection, but still supports clients that are not capable of using extended protection. <br><br> The numerical value is `1`. |
+    | `Require` | This value specifies that channel-binding token checking is required. This setting does not provide support for clients that do not support extended protection. <br><br> The numerical value is `2`. |
 - The **flags** attribute configures additional behavior for extended protection. The possible flags are: 
 
     | Name | Description |
     | --- | --- |
-    | `None` | This flag specifies that no additional behavior is enabled for extended protection. (For example, no proxy server is being used and SPN checking is enabled and requires FQDNs.) The numerical value is `0`. |
-    | `Proxy` | This flag specifies that part of the communication path will be through a proxy, or that the client is connecting directly to the destination server over HTTP. The numerical value is `1`. |
-    | `NoServiceNameCheck` | This flag specifies that SPN checking is disabled; this flag should not be used in scenarios where only SPNs are being checked. The numerical value is `2`. |
-    | `AllowDotlessSpn` | This flag specifies that SPNs are not required to be FQDNs. Setting this flag allows NetBIOS-based SPNs. **Note:** Setting this flag is not a secure scenario; non-FQDN-based names are vulnerable to name resolution poisoning attacks. The numerical value is `4`. |
-    | `ProxyCohosting` | This flag specifies that the entire client-to-server communication path will use HTTP only; no part of the communication path will use SSL, and SPN checking will be used. **Note:** When you specify this flag, you must also specify the `Proxy` flag. The numerical value is `32`. |
+    | `None` | This flag specifies that no additional behavior is enabled for extended protection. (For example, no proxy server is being used and SPN checking is enabled and requires FQDNs.) <br><br> The numerical value is `0`. |
+    | `Proxy` | This flag specifies that part of the communication path will be through a proxy, or that the client is connecting directly to the destination server over HTTP. <br><br> The numerical value is `1`. |
+    | `NoServiceNameCheck` | This flag specifies that SPN checking is disabled; this flag should not be used in scenarios where only SPNs are being checked. <br><br> The numerical value is `2`. |
+    | `AllowDotlessSpn` | This flag specifies that SPNs are not required to be FQDNs. Setting this flag allows NetBIOS-based SPNs. **Note:** Setting this flag is not a secure scenario; non-FQDN-based names are vulnerable to name resolution poisoning attacks. <br><br> The numerical value is `4`. |
+    | `ProxyCohosting` | This flag specifies that the entire client-to-server communication path will use HTTP only; no part of the communication path will use SSL, and SPN checking will be used. **Note:** When you specify this flag, you must also specify the `Proxy` flag. <br><br> The numerical value is `32`. |
 
 ### Extended Protection Scenarios
 

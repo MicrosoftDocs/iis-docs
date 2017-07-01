@@ -123,7 +123,7 @@ You can configure the `<asp>` element at the server level in the ApplicationHost
 | `errorsToNTLog` | Optional Boolean attribute. Specifies whether logging of ASP errors to the Windows Event Log is enabled. The default value is `false`. |
 | `exceptionCatchEnable` | Optional Boolean attribute. Specifies whether COM component exception trapping is enabled. If set to **false**, the Microsoft Script Debugger tool does not catch exceptions sent by the component that you are debugging. The default value is `true`. |
 | `lcid` | Optional uint attribute. Specifies the default locale identifier for an ASP application. This value is an integer in the range from 0 to 2147483647. The default value is `0`. |
-| `logErrorRequests` | Optional Boolean attribute. Specifies whether ASP errors are written to the client browser and the IIS logs by default. The default value is `true`. |
+| `logErrorRequests` | Optional Boolean attribute. <br><br> Specifies whether ASP errors are written to the client browser and the IIS logs by default. <br><br> The default value is `true`. |
 | `runOnEndAnonymously` | Optional Boolean attribute. Specifies whether SessionOnEnd and ApplicationOnEnd global ASP functions are run as the anonymous user. The default value is `true`. |
 | `scriptErrorMessage` | Optional string attribute. Specifies the error message that will be sent to the browser when specific debugging errors are not sent to the client. The default value is `An error occurred on the server when processing the URL. Please contact the system administrator`. |
 | `scriptErrorSentToBrowser` | Optional Boolean attribute. Specifies whether the writing of debugging specifics to the client browser is enabled. The default value is `false`. |

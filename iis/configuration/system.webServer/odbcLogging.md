@@ -105,10 +105,10 @@ There is no user interface for configuring ODBC logging for IIS 7. For examples 
 
 | Attribute | Description |
 | --- | --- |
-| `dataSource` | Optional string attribute. Specifies the System Data Source Name (DSN) for the database to which the log is written. The default value is `InternetDb`. |
-| `password` | Optional string attribute. Specifies the ODBC database password that you use when you write information to the database during event logging. By default, this value is encrypted. The default value is `[enc:AesProvider::enc]`. |
-| `tableName` | Optional string attribute. Specifies the name of the ODBC database table where Windows writes information during event logging. The default value is `InternetLog`. |
-| `userName` | Optional string attribute. Specifies the ODBC database user name that is used for writing information to the database during event logging. The default value is `InternetAdmin`. |
+| `dataSource` | Optional string attribute. Specifies the System Data Source Name (DSN) for the database to which the log is written. <br><br> The default value is `InternetDb`. |
+| `password` | Optional string attribute. Specifies the ODBC database password that you use when you write information to the database during event logging. By default, this value is encrypted. <br><br> The default value is `[enc:AesProvider::enc]`. |
+| `tableName` | Optional string attribute. Specifies the name of the ODBC database table where Windows writes information during event logging. <br><br> The default value is `InternetLog`. |
+| `userName` | Optional string attribute. Specifies the ODBC database user name that is used for writing information to the database during event logging. <br><br> The default value is `InternetAdmin`. |
 
 ### Child Elements
 
