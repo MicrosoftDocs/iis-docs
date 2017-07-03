@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 96d66dcf-d35d-452c-8024-56ca1068e46f
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/customfeatures

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 615cec3b-1b28-4282-b0e2-349cd6a95149
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/isapicgirestriction/add

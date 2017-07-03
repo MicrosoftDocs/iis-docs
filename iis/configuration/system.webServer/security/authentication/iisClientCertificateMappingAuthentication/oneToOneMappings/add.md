@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 1f2a0b29-db4a-420e-99ba-81c2f1595732
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/onetoonemappings/add

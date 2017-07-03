@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: d57b12b1-5930-4e83-b799-073e3cb88f3b
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/recycling

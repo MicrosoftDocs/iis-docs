@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 21093bf7-41ef-4096-b727-e2c0a786bc35
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/serviceautostartproviders/add

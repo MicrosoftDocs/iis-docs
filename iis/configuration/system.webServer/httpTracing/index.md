@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 5f338c6e-97f9-40cd-beb8-d6ac9528a185
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httptracing

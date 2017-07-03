@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 0702efa2-c36d-481c-bb4b-a805914bde48
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/administrators/managementscope

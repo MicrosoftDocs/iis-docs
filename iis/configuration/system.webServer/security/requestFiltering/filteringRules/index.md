@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: af41ce80-db79-4d01-9749-368c2ee16f8e
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules

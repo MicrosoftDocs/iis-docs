@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3927dd7a-73a8-4348-a3d2-1a359f5d5fc1
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/ipsecurity/add

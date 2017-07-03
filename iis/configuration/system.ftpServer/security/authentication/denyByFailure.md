@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 7f84ef60-d07c-4253-835d-75c6cfe6aaca
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/authentication/denybyfailure

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: d56733e8-0cfb-47d9-bc68-b0563ae25d74
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/fastcgi/application/environmentvariables

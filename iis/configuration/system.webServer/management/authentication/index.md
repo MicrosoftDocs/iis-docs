@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 3e5f44c5-bfde-4dc3-96c9-2a3d1f4257dd
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authentication

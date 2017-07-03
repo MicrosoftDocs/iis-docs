@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6cf3b3e1-5c4c-497c-85b3-75dbfe26b039
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/webdav/globalsettings/propertystores

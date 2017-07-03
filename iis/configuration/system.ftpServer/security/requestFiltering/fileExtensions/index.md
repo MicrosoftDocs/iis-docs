@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: e158f1be-c9d6-4712-96b5-6ac949d542a9
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/requestfiltering/fileextensions

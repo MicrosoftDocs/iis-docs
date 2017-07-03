@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: a74fb2fc-34ac-4c8d-af1d-945c1f9fc11e
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/globalmodules/add

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: bfdccf34-4139-43a4-94d5-f69f4265c839
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/tracing/tracefailedrequests/add/traceareas

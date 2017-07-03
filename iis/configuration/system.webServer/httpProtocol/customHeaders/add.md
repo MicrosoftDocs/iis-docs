@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 6d2d4bb9-4185-4c5c-ba3e-4fe8b2d047f7
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httpprotocol/customheaders/add

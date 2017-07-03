@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 68879fd3-9da5-4f4b-b905-09626583a143
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/configpaths

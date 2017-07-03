@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: c1f0d444-5d46-4e41-8d90-45834ae8b677
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authorization/authorizationrules/scope

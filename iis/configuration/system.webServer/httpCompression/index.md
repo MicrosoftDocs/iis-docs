@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: eaad56f4-c7f9-49f5-9d95-c62307238f8b
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httpcompression

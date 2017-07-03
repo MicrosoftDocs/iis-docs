@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: bf50c5d6-476e-4c47-8067-830bbb27c334
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/websocket

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 50621259-4306-4ab5-8dc8-7c5c49c1decf
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httpprotocol/redirectheaders

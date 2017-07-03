@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: be06e91f-60cd-4271-9810-dfe0a44af1a3
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/staticcontent/clientcache

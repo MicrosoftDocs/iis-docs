@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: dcbd12d3-0ba1-4e67-ad2d-62d0e2408fb4
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/webdav/globalsettings/lockstores/add

@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: bb6eb895-411f-4c47-8fa7-2232016548ac
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/caching/profiles/add

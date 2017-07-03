@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 2005a63e-07bd-4bab-b6f1-876724cd0744
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/odbclogging

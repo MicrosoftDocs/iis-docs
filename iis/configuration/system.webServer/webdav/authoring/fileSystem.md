@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 5c844139-1366-4177-af23-d998aa0f9024
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/webdav/authoring/filesystem

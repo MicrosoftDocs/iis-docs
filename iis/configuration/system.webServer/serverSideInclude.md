@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: 8b533829-55ae-4319-b164-f5a930542567
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/serversideinclude

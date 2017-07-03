@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: c7631980-0f83-4ff0-a5c0-2d9a0ec3e4fa
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/deprecatedelements

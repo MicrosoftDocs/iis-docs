@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: d0d83adc-572d-49f3-8b65-6ba583aeb5ca
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/fastcgi/application

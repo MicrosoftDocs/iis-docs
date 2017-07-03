@@ -6,7 +6,7 @@ ms.author: iiscontent
 manager: soshir
 ms.date: 09/26/2016
 ms.topic: article
-ms.assetid: 
+ms.assetid: df3cf46c-9d26-4e69-98e9-f2b4dcd2cbfc
 ms.technology: iis-config
 ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/handlers
