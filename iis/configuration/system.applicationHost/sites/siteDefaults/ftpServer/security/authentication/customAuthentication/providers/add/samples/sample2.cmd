@@ -1,0 +1,1 @@
+appcmd.exe set config -section:system.applicationHost/sites /+"siteDefaults.ftpServer.security.authentication.customAuthentication.providers.[name='FtpCustomAuthenticationModule',enabled='True']" /commit:apphost

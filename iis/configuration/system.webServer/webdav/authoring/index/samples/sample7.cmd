@@ -1,0 +1,1 @@
+appcmd.exe set config "Default Web Site" -section:system.webServer/webdav/authoring /locks.enabled:"True" /locks.lockStore:"webdav_simple_lock" /locks.requireLockForWriting:"False" /commit:apphost

@@ -1,0 +1,1 @@
+appcmd.exe set config -section:system.webServer/caching /+"profiles.[extension='asp',policy='CacheUntilChange',kernelCachePolicy='CacheUntilChange']" /commit:apphost

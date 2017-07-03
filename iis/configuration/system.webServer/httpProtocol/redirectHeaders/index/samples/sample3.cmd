@@ -1,0 +1,1 @@
+appcmd.exe set config "Default Web Site" -section:system.webServer/httpProtocol /+"redirectHeaders.[name='X-Custom-Redirect-Header',value='MyRedirectValue']"

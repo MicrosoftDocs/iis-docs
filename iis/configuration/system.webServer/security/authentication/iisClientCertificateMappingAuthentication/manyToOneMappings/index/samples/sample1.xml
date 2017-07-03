@@ -1,0 +1,30 @@
+<location path="Default Web Site">
+   <system.webServer>
+      <security>
+         <authentication>
+            <windowsAuthentication enabled="false" />
+            <anonymousAuthentication enabled="false" />
+            <digestAuthentication enabled="false" />
+            <basicAuthentication enabled="false" />
+            <iisClientCertificateMappingAuthentication enabled="true"
+                  manyToOneCertificateMappingsEnabled="true">
+               <manyToOneMappings>
+                  <add name="Contoso Employees"
+                        enabled="true"
+                        permissionMode="Allow"
+                        userName="Username"
+                        password="[enc:AesProvider:57686f6120447564652c2049495320526f636b73:enc]">
+                     <rules>
+                        <add certificateField="Subject"
+                           certificateSubField="O"
+                           matchCriteria="Contoso"
+                           compareCaseSensitive="true" />
+                     </rules>
+                  </add>
+               </manyToOneMappings>
+            </iisClientCertificateMappingAuthentication>
+         </authentication>
+         <access sslFlags="Ssl, SslNegotiateCert" />
+      </security>
+   </system.webServer>
+</location>

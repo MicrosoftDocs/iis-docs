@@ -1,0 +1,7 @@
+<system.webServer>
+   <webSocket
+      enabled="filename.htm" 
+      receiveBufferLimit="true"
+      pingInterval="00:01:00">
+   </webSocket>
+</system.webServer>

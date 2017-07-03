@@ -1,0 +1,13 @@
+<configuration>
+   <system.webServer>
+      <security>
+         <requestFiltering>
+            <requestLimits>
+               <headerLimits>
+                  <add header="Content-type" sizeLimit="100" />
+               </headerLimits>
+            </requestLimits>
+         </requestFiltering>
+      </security>
+   </system.webServer>
+</configuration>

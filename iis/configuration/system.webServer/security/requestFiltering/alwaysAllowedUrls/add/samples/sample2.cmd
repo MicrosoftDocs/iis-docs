@@ -1,0 +1,1 @@
+appcmd.exe set config "Default Web Site" -section:system.webServer/security/requestFiltering /+"alwaysAllowedUrls.[url='/_allowed_url.aspx']"

@@ -1,0 +1,8 @@
+<siteDefaults>
+    <logFile logFormat="W3C" directory="%SystemDrive%\inetpub\logs\LogFiles" flushByEntryCountW3CLog="0">
+        <customFields>
+            <clear />
+            <add logFieldName="ContosoField" sourceName="ContosoSource" sourceType="ServerVariable" />
+        </customFields>
+    </logFile>
+</siteDefaults>

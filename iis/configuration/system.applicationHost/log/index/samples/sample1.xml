@@ -1,0 +1,4 @@
+<log centralLogFileMode="Site">
+   <centralBinaryLogFile enabled="true" directory="%SystemDrive%\inetpub\logs\LogFiles" />
+   <centralW3CLogFile enabled="true" directory="%SystemDrive%\inetpub\logs\LogFiles" />
+</log>

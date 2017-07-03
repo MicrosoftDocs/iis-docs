@@ -1,0 +1,3 @@
+<credentials>
+   <add name="ContosoUser" password="Encrypted-Password-Data" enabled="true" />
+</credentials>

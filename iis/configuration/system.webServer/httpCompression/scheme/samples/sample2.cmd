@@ -1,0 +1,1 @@
+appcmd.exe set config -section:system.webServer/httpCompression /+"[name='deflate',doStaticCompression='True',doDynamicCompression='True',dll='%Windir%\system32\inetsrv\gzip.dll']" /commit:apphost

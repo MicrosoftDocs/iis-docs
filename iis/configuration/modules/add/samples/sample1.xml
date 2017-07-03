@@ -1,0 +1,12 @@
+<location path=".">
+   <modules>
+      <add name="Modules" />
+      <add name="Handlers" />
+
+      . . .
+      . . .
+      . . .
+
+      <add name="ContosoProvider" />
+   </modules>
+</location>

@@ -1,0 +1,1 @@
+appcmd.exe set config -section:system.webServer/httpErrors /+"[statusCode='404',subStatusCode='5',prefixLanguageFilePath='%SystemDrive%\inetpub\custerr',path='404.5.htm']" /commit:apphost

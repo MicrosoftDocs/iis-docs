@@ -1,0 +1,10 @@
+<tracing>
+   <traceFailedRequests>
+      <add path="*.aspx">
+         <traceAreas>
+            <add provider="ASPNET" areas="Infrastructure,Module,Page,AppServices" verbosity="Warning" />
+         </traceAreas>
+         <failureDefinitions statusCodes="404" />
+      </add>
+   </traceFailedRequests>
+</tracing>

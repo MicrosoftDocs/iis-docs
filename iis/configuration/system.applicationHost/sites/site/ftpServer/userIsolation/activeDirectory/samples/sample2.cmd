@@ -1,0 +1,2 @@
+appcmd.exe set config  -section:system.applicationHost/sites /[name='ftp.example.com'].ftpServer.userIsolation.mode:"ActiveDirectory" /commit:apphost
+appcmd.exe set config  -section:system.applicationHost/sites /[name='ftp.example.com'].ftpServer.userIsolation.activeDirectory.adUserName:"MyUser" /[name='ftp.example.com'].ftpServer.userIsolation.activeDirectory.adPassword:"MyPassword" /[name='ftp.example.com'].ftpServer.userIsolation.activeDirectory.adCacheRefresh:"00:02:00" /commit:apphost

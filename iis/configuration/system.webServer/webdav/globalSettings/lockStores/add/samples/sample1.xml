@@ -1,0 +1,15 @@
+<system.webServer>
+      <webdav>
+         <globalSettings>
+            <propertyStores>
+               <add name="webdav_simple_prop" image="%windir%\system32\inetsrv\webdav_simple_prop.dll" />
+            </propertyStores>
+            <lockStores>
+               <add name="webdav_simple_lock" image="%windir%\system32\inetsrv\webdav_simple_lock.dll" />
+            </lockStores>
+         </globalSettings>
+         <authoring>
+            <locks enabled="true" lockStore="webdav_simple_lock" />
+         </authoring>
+      </webdav>
+   </system.webServer>

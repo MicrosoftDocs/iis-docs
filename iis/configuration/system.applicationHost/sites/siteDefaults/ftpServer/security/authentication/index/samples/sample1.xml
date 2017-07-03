@@ -1,0 +1,10 @@
+<siteDefaults>
+   <ftpServer>
+      <security>
+         <authentication>
+            <anonymousAuthentication enabled="false" />
+            <basicAuthentication enabled="true" />
+         </authentication>
+      </security>
+   </ftpServer>
+</siteDefaults>

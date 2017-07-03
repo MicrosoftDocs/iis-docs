@@ -1,0 +1,1 @@
+appcmd.exe set config -section:system.applicationHost/sites /siteDefaults.bindings.[protocol='http',bindingInformation='*:8080:contoso.com'].bindingInformation:"127.0.0.1:8080:" /commit:apphost

@@ -1,0 +1,4 @@
+Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST'  -filter "system.ftpServer/security/authentication/denyByFailure" -name "enabled" -value "True"
+Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST'  -filter "system.ftpServer/security/authentication/denyByFailure" -name "maxFailure" -value 10
+Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST'  -filter "system.ftpServer/security/authentication/denyByFailure" -name "entryExpiration" -value "00:00:35"
+Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST'  -filter "system.ftpServer/security/authentication/denyByFailure" -name "loggingOnlyMode" -value "False"

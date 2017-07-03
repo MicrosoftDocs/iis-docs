@@ -1,0 +1,12 @@
+<site name="Contoso" id="2" serverAutoStart="true">
+   <application path="/">
+      <virtualDirectory path="/" physicalPath="C:\Contoso\Content" />
+   </application>
+   <application path="/CRM">
+      <virtualDirectory path="/" physicalPath="C:\Contoso\Content\CRM" />
+      <virtualDirectory path="/Images" physicalPath="E:\Images" />
+   </application>
+   <bindings>
+      <binding protocol="http" bindingInformation="*:80:www.contoso.com" />
+   </bindings>
+</site>

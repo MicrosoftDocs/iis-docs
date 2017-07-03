@@ -1,0 +1,15 @@
+<system.applicationHost>
+   <sites>
+      <siteDefaults>
+         <logFile logFormat="W3C"
+            directory="%SystemDrive%\inetpub\logs\LogFiles"
+            enabled="true">
+            <customFields>
+               <clear/>
+               <add logFieldName="ContosoField" sourceName="ContosoSource"
+                  sourceType="ServerVariable" />
+            </customFields>
+         </logFile>
+      </siteDefaults>
+   </sites>
+</system.applicationHost>

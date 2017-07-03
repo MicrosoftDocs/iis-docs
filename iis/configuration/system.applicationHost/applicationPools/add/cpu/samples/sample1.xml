@@ -1,0 +1,8 @@
+<applicationPools>
+   <add name="DefaultAppPool">
+     <cpu limit="50000" action="KillW3wp" resetInterval="00:10:00" />
+   </add>
+   <applicationPoolDefaults>
+     <processModel identityType="NetworkService" />
+   </applicationPoolDefaults>
+</applicationPools>

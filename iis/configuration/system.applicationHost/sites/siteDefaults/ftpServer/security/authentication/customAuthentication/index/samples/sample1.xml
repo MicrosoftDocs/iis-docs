@@ -1,0 +1,13 @@
+<siteDefaults>
+   <ftpServer>
+      <security>
+         <authentication>
+             <customAuthentication>
+                <providers>
+                   <add name="FtpCustomAuthenticationModule" enabled="true" />
+                </providers>
+             </customAuthentication>
+         </authentication>
+      </security>
+   </ftpServer>
+</siteDefaults>

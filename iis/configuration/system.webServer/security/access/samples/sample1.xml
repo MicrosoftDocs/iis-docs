@@ -1,0 +1,7 @@
+<location path="Contoso">
+   <system.webServer>
+      <security>
+         <access sslFlags="ssl">
+      </security>
+   </system.webServer>
+</location>

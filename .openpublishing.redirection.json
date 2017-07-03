@@ -1,9 +1,4 @@
 { 
-  "redirections": [ 
-    {   
-        "source_path": "iis/application-frameworks/install-and-configure-php-applications-on-iis/phprojekt-on-iis.md", 
-        "redirect_url": "/iis/", 
-        "redirect_document_id": false 
-    }
+  "redirections": [
   ] 
 }

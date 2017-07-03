@@ -1,0 +1,18 @@
+<site name="ftp.example.com" id="5">
+  <application path="/">
+    <virtualDirectory path="/" physicalPath="c:\inetpub\www.example.com" />
+  </application>
+  <bindings>
+    <binding protocol="ftp" bindingInformation="*:21:" />
+  </bindings>
+  <ftpServer>
+    <directoryBrowse
+      showFlags="StyleUnix, DisplayAvailableBytes, DisplayVirtualDirectories" />
+    <security>
+      <authentication>
+        <basicAuthentication enabled="true" />
+        <anonymousAuthentication enabled="false" />
+      </authentication>
+    </security>
+  </ftpServer>
+</site>

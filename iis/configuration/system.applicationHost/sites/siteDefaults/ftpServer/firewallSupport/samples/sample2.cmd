@@ -1,0 +1,2 @@
+REM Configure the default external IP address of a firewall.
+appcmd.exe set config -section:system.applicationHost/sites /siteDefaults.ftpServer.firewallSupport.externalIp4Address:"169.254.10.10" /commit:apphost

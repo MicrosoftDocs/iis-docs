@@ -1,0 +1,1 @@
+appcmd.exe set config "Contoso" -section:system.webServer/security/access /sslFlags:"Ssl" /commit:apphost

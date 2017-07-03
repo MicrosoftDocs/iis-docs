@@ -1,0 +1,11 @@
+<location path="Contoso">
+   <system.webServer>
+      <security>
+         <authentication>
+            <anonymousAuthentication enabled="false" />
+            <basicAuthentication enabled="true" defaultLogonDomain="Contoso" />
+            <windowsAuthentication enabled="true" />
+          </authentication>
+      </security>
+   </system.webServer>
+</location>

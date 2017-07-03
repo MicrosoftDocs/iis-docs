@@ -1,0 +1,14 @@
+<moduleProviders>
+   <!-- Server Modules-->
+   <add name="Modules"
+      type="Microsoft.Web.Management.Iis.Modules.ModulesModuleProvider, Microsoft.Web.Management.Iis, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+   <add name="Handlers"
+      type="Microsoft.Web.Management.Iis.Handlers.HandlersModuleProvider, Microsoft.Web.Management.Iis, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+
+      . . .
+      . . .
+      . . .
+
+   <add name="ContosoProvider"
+      type="Contoso.Provider, System.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=426f62526f636b73" />
+</moduleProviders>

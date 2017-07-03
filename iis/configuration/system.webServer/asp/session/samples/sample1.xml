@@ -1,0 +1,7 @@
+<location path="Default Web Site">
+   <system.webServer>
+      <asp>
+         <session allowSessionState="true" max="1000" timeout="00:10:00" />
+      </asp>
+   </system.webServer>
+</location>

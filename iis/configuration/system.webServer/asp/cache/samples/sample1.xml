@@ -1,0 +1,11 @@
+<configuration>
+   <system.webServer>
+      <asp>
+         <cache maxDiskTemplateCacheFiles="4000"
+            diskTemplateCacheDirectory="%SystemDrive%\inetpub\temp\ASP Compiled Templates"
+            scriptFileCacheSize="1000"
+            scriptEngineCacheMax="500"
+         />
+      </asp>
+   </system.webServer>
+</configuration>

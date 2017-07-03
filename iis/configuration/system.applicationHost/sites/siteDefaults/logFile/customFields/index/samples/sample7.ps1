@@ -1,0 +1,1 @@
+Add-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST'  -filter "system.applicationHost/sites/siteDefaults/logFile/customFields" -name "." -value @{logFieldName='ContosoField';sourceName='ContosoSource';sourceType='ServerVariable'}

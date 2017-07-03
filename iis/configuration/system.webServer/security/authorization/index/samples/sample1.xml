@@ -1,0 +1,10 @@
+<configuration>
+   <system.webServer>
+      <security>
+         <authorization>
+            <remove users="*" roles="" verbs="" />
+            <add accessType="Allow" users="" roles="Administrators" />
+         </authorization>
+      </security>
+   </system.webServer>
+</configuration>

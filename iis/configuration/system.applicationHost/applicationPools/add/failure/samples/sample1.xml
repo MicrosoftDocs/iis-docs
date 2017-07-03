@@ -1,0 +1,10 @@
+<applicationPools>
+   <add name="DefaultAppPool">
+     <failure rapidFailProtection="true"
+        rapidFailProtectionInterval="00:05:00"
+        rapidFailProtectionMaxCrashes="5" />
+   </add>
+   <applicationPoolDefaults>
+     <processModel identityType="NetworkService" />
+   </applicationPoolDefaults>
+</applicationPools>

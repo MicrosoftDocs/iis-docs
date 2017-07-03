@@ -1,0 +1,34 @@
+<traceProviderDefinitions>
+   <add name="WWW Server" guid="{3a2a4e84-4c21-4981-ae10-3fda0d9b0f83}">
+      <areas>
+         <clear />
+         <add name="Authentication" value="2" />
+         <add name="Security" value="4" />
+         <add name="Filter" value="8" />
+         <add name="StaticFile" value="16" />
+         <add name="CGI" value="32" />
+         <add name="Compression" value="64" />
+         <add name="Cache" value="128" />
+         <add name="RequestNotifications" value="256" />
+         <add name="Module" value="512" />
+      </areas>
+   </add>
+   <add name="ASP" guid="{06b94d9a-b15e-456e-a4ef-37c984a2cb4b}">
+      <areas>
+         <clear />
+      </areas>
+   </add>
+   <add name="ISAPI Extension" guid="{a1c2040e-8840-4c31-ba11-9871031a19ea}">
+      <areas>
+         <clear />
+      </areas>
+   </add>
+   <add name="ASPNET" guid="{AFF081FE-0247-4275-9C4E-021F3DC1DA35}">
+      <areas>
+         <add name="Infrastructure" value="1" />
+         <add name="Module" value="2" />
+         <add name="Page" value="4" />
+         <add name="AppServices" value="8" />
+      </areas>
+   </add>
+</traceProviderDefinitions>
