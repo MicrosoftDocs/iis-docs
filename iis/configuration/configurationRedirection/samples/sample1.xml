@@ -1,0 +1,15 @@
+<CONFIGURATION>
+
+   <CONFIGSECTIONS>
+      <SECTION name="configurationRedirection" />
+   </CONFIGSECTIONS>
+
+   <CONFIGPROTECTEDDATA>
+      <PROVIDERS>
+         <ADD description="Uses RsaCryptoServiceProvider to encrypt and decrypt" name="IISRsaProvider" type="" keyContainerName="iisConfigurationKey" cspProviderName="" useMachineContainer="true" useOAEP="false" />
+      </PROVIDERS>
+   </CONFIGPROTECTEDDATA>
+
+   <CONFIGURATIONREDIRECTION enabled="true" path="\\ServerName\ShareName" userName="MyUser" password="[enc:IISRsaProvider:57686f6120447564652c2049495320526f636b73:enc]" />
+
+</CONFIGURATION>

@@ -1,0 +1,21 @@
+<siteDefaults>
+   <ftpServer>
+      <security>
+         <commandFiltering>
+            <add command="SYST" allowed="false" />
+         </commandFiltering>
+         <ssl serverCertHash="57686f6120447564652c2049495320526f636b73" controlChannelPolicy="SslAllow" dataChannelPolicy="SslAllow" />
+         <sslClientCertificates clientCertificatePolicy="CertIgnore" />
+         <authentication>
+             <anonymousAuthentication enabled="false" />
+             <basicAuthentication enabled="false" />
+             <clientCertAuthentication enabled="false" />
+             <customAuthentication>
+                <providers>
+                   <add name="FtpCustomAuthenticationModule" enabled="false" />
+                </providers>
+             </customAuthentication>
+         </authentication>
+      </security>
+   </ftpServer>
+</siteDefaults>

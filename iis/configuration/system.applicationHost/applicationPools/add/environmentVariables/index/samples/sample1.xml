@@ -1,0 +1,7 @@
+<applicationPools>
+   <add name="Contoso" managedRuntimeVersion="v4.0" managedPipelineMode="Classic">
+      <environmentVariables>
+         <add name="foo" value="bar" />
+      </environmentVariables>
+   </add>
+</applicationPools>

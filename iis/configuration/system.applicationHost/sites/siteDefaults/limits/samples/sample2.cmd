@@ -1,0 +1,1 @@
+appcmd.exe set config -section:system.applicationHost/sites /siteDefaults.limits.connectionTimeout:"00:03:00" /commit:apphost

@@ -1,0 +1,1 @@
+appcmd.exe set config "Default Web Site" -section:system.webServer/security/ipSecurity /enableReverseDns:true /commit:apphost

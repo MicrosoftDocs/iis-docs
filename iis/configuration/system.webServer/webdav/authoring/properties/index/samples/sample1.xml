@@ -1,0 +1,18 @@
+<location path="Default Web Site">
+   <system.webServer>
+      <webdav>
+         <authoringRules defaultAccess="none" allowNonMimeMapFiles="true" defaultMimeType="text/plain">
+            <clear />
+            <add roles="administrators" path="*" access="Read, Write, Source" />
+         </authoringRules>
+         <authoring enabled="true" requireSsl="false">
+            <fileSystem allowHiddenFiles="true" />
+            <locks enabled="true" lockStore="webdav_simple_lock" requireLockForWriting="false" />
+            <properties allowAnonymousPropfind="false" allowInfinitePropfindDepth="false" allowCustomProperties="true">
+               <clear />
+               <add xmlNamespace="*" propertyStore="webdav_simple_prop" />
+            </properties>
+         </authoring>
+      </webdav>
+   </system.webServer>
+</location>

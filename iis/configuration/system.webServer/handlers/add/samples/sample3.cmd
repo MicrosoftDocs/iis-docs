@@ -1,0 +1,1 @@
+appcmd.exe set config /section:system.webServer/handlers /+[name=SampleHandler',path='SampleHandler.new',verb='*',type='SampleHandler']

@@ -1,0 +1,9 @@
+<httpProtocol>
+   <customHeaders>
+      <clear />
+      <add name="X-Powered-By" value="ASP.NET" />
+   </customHeaders>
+   <redirectHeaders>
+      <clear />
+   </redirectHeaders>
+</httpProtocol>

@@ -1,0 +1,5 @@
+<system.ftpServer>
+    <serverRuntime>
+        <hostNameSupport useDomainNameAsHostName="true" />
+    </serverRuntime>
+</system.ftpServer>

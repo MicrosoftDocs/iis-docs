@@ -1,0 +1,9 @@
+<configuration>
+   <system.webServer>
+      <httpProtocol>
+         <customHeaders>
+            <add name="X-Custom-Name" value="MyCustomValue" />
+         </customHeaders>
+      </httpProtocol>
+   </system.webServer>
+</configuration>

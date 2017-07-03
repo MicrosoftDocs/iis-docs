@@ -1,0 +1,5 @@
+<siteDefaults>
+   <ftpServer>
+      <fileHandling keepPartialUploads="false" />
+   </ftpServer>
+</siteDefaults>

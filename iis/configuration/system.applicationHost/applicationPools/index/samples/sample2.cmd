@@ -1,0 +1,1 @@
+appcmd.exe set config -section:system.applicationHost/applicationPools /+"[name='Contoso',autoStart='True',managedPipelineMode='Integrated']" /commit:apphost

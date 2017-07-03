@@ -1,0 +1,3 @@
+appcmd.exe set config "Contoso" -section:system.webServer/security/authentication/anonymousAuthentication /enabled:"True" /commit:apphost
+appcmd.exe set config "Contoso" -section:system.webServer/security/authentication/anonymousAuthentication /userName:"IUSR" /commit:apphost
+appcmd.exe set config "Contoso" -section:system.webServer/security/authentication/anonymousAuthentication /password:"P@ssw0rd" /commit:apphost

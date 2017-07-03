@@ -1,0 +1,9 @@
+<configuration>
+   <system.webServer>
+      <httpProtocol>
+         <redirectHeaders>
+            <add name="X-Custom-Redirect-Header" value="MyRedirectValue" />
+         </redirectHeaders>
+      </httpProtocol>
+   </system.webServer>
+</configuration>

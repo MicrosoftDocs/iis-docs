@@ -1,0 +1,6 @@
+<security>
+   <authentication>
+      <anonymousAuthentication enabled="false" />
+      <basicAuthentication enabled="true" />
+   </authentication>
+</security>

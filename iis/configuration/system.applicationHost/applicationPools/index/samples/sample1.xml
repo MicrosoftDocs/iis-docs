@@ -1,0 +1,7 @@
+<applicationPools>
+   <add name="DefaultAppPool" />
+   <add name="Classic .NET AppPool" managedPipelineMode="Classic" />
+   <applicationPoolDefaults>
+      <processModel identityType="NetworkService" />
+   </applicationPoolDefaults>
+</applicationPools>

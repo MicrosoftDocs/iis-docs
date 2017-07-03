@@ -1,0 +1,7 @@
+<configuration>
+   <system.webServer>
+      <asp>
+         <comPlus trackThreadingModel="true" executeInMta="true" />
+      </asp>
+   </system.webServer>
+</configuration>

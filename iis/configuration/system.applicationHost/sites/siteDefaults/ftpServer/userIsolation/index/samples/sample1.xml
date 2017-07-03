@@ -1,0 +1,21 @@
+<site name="ftp.example.com" id="5">
+  <application path="/">
+    <virtualDirectory path="/" physicalPath="c:\inetpub\www.example.com" />
+  </application>
+  <bindings>
+    <binding protocol="ftp" bindingInformation="*:21:" />
+  </bindings>
+  <ftpServer>
+    <userIsolation mode="ActiveDirectory">
+      <activeDirectory adUserName="MyUser"
+        adPassword="[enc:RsaProtectedConfigurationProvider:57686f6120447564652c2049495320526f636b73:enc]"
+        adCacheRefresh="00:02:00" />
+    </userIsolation>
+    <security>
+      <authentication>
+        <basicAuthentication enabled="true" />
+        <anonymousAuthentication enabled="false" />
+      </authentication>
+    </security>
+  </ftpServer>
+</site>

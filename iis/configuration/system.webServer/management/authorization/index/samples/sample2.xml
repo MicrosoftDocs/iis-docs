@@ -1,0 +1,6 @@
+<authorization defaultProvider="ConfigurationAuthorizationProvider">
+   <providers>
+      <add name="ConfigurationAuthorizationProvider"
+         type="Microsoft.Web.Management.Server.ConfigurationAuthorizationProvider, Microsoft.Web.Management, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+   </providers>
+</authorization>

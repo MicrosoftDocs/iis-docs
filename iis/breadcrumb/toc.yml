@@ -36,3 +36,6 @@
     - name: Web Hosting
       tocHref: /iis/web-hosting/
       topicHref: /iis/web-hosting/
+    - name: Configuration Reference
+      tocHref: /iis/configuration/
+      topicHref: /iis/configuration/

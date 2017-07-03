@@ -1,0 +1,9 @@
+<system.webServer>
+   <security>
+      <dynamicIpSecurity enableLoggingOnlyMode="true">
+         <denyByConcurrentRequests enabled="true" maxConcurrentRequests="10" />
+         <denyByRequestRate enabled="true" maxRequests="30" 
+            requestIntervalInMilliseconds="300" />
+      </dynamicIpSecurity>
+   </security>
+</system.webServer>

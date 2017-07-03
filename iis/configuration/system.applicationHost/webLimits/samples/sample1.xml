@@ -1,0 +1,9 @@
+<configuration>
+   <system.applicationHost>
+      <webLimits connectionTimeout="00:01:00"
+         dynamicIdleThreshold="150"
+         headerWaitTimeout="00:00:30"
+         minBytesPerSecond="500"
+      />
+   </system.applicationHost>
+</configuration>

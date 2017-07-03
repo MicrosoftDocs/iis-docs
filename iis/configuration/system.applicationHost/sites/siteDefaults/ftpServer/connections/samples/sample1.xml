@@ -1,0 +1,5 @@
+<siteDefaults>
+   <ftpServer>
+      <connections controlChannelTimeout="300" />
+   </ftpServer>
+</siteDefaults>

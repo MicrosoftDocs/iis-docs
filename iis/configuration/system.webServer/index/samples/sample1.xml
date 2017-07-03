@@ -1,0 +1,99 @@
+<system.webServer>
+   <asp />
+   <caching enabled="true" enableKernelCache="true" />
+   <cgi />
+   <defaultDocument enabled="true">
+      <files>
+         <add value="Default.htm" />
+         <add value="Index.htm" />
+         <add value="Index.html" />
+      </files>
+   </defaultDocument>
+   <directoryBrowse enabled="false" />
+   <fastCgi />
+   <globalModules>
+      <add name="UriCacheModule" image="%windir%\System32\inetsrv\cachuri.dll" />
+      <add name="FileCacheModule" image="%windir%\System32\inetsrv\cachfile.dll" />
+      <add name="TokenCacheModule" image="%windir%\System32\inetsrv\cachtokn.dll" />
+      <add name="HttpCacheModule" image="%windir%\System32\inetsrv\cachhttp.dll" />
+      <add name="StaticCompressionModule" image="%windir%\System32\inetsrv\compstat.dll" />
+      <add name="DefaultDocumentModule" image="%windir%\System32\inetsrv\defdoc.dll" />
+      <add name="DirectoryListingModule" image="%windir%\System32\inetsrv\dirlist.dll" />
+      <add name="ProtocolSupportModule" image="%windir%\System32\inetsrv\protsup.dll" />
+      <add name="StaticFileModule" image="%windir%\System32\inetsrv\static.dll" />
+      <add name="AnonymousAuthenticationModule" image="%windir%\System32\inetsrv\authanon.dll" />
+      <add name="RequestFilteringModule" image="%windir%\System32\inetsrv\modrqflt.dll" />
+      <add name="CustomErrorModule" image="%windir%\System32\inetsrv\custerr.dll" />
+      <add name="HttpLoggingModule" image="%windir%\System32\inetsrv\loghttp.dll" />
+      <add name="RequestMonitorModule" image="%windir%\System32\inetsrv\iisreqs.dll" />
+   </globalModules>
+   <httpCompression directory="%SystemDrive%\inetpub\temp\IIS Temporary Compressed Files">
+      <scheme name="gzip" dll="%Windir%\system32\inetsrv\gzip.dll" />
+      <staticTypes>
+         <add mimeType="text/*" enabled="true" />
+         <add mimeType="message/*" enabled="true" />
+         <add mimeType="application/javascript" enabled="true" />
+         <add mimeType="*/*" enabled="false" />
+      </staticTypes>
+   </httpCompression>
+   <httpErrors>
+      <error statusCode="401" prefixLanguageFilePath="%SystemDrive%\inetpub\custerr" path="401.htm" />
+      <error statusCode="403" prefixLanguageFilePath="%SystemDrive%\inetpub\custerr" path="403.htm" />
+      <error statusCode="404" prefixLanguageFilePath="%SystemDrive%\inetpub\custerr" path="404.htm" />
+      <error statusCode="405" prefixLanguageFilePath="%SystemDrive%\inetpub\custerr" path="405.htm" />
+      <error statusCode="406" prefixLanguageFilePath="%SystemDrive%\inetpub\custerr" path="406.htm" />
+      <error statusCode="412" prefixLanguageFilePath="%SystemDrive%\inetpub\custerr" path="412.htm" />
+      <error statusCode="500" prefixLanguageFilePath="%SystemDrive%\inetpub\custerr" path="500.htm" />
+      <error statusCode="501" prefixLanguageFilePath="%SystemDrive%\inetpub\custerr" path="501.htm" />
+      <error statusCode="502" prefixLanguageFilePath="%SystemDrive%\inetpub\custerr" path="502.htm" />
+   </httpErrors>
+   <httpLogging dontLog="false" />
+   <httpProtocol />
+   <httpRedirect />
+   <httpTracing />
+   <isapiFilters />
+   <odbcLogging />
+   <security>
+      <access sslFlags="None" />
+      <applicationDependencies />
+      <authentication>
+         <anonymousAuthentication enabled="true" userName="IUSR" />
+         <basicAuthentication />
+         <clientCertificateMappingAuthentication />
+         <digestAuthentication />
+         <iisClientCertificateMappingAuthentication />
+         <windowsAuthentication />
+      </authentication>
+      <authorization />
+      <ipSecurity />
+      <isapiCgiRestriction notListedIsapisAllowed="false" notListedCgisAllowed="false">
+         <clear />
+      </isapiCgiRestriction>
+      <requestFiltering>
+         <fileExtensions allowUnlisted="true" applyToWebDAV="true" />
+         <verbs allowUnlisted="true" applyToWebDAV="true" />
+         <hiddenSegments applyToWebDAV="true">
+            <add segment="Web.config" />
+         </hiddenSegments>
+      </requestFiltering>
+   </security>
+   <serverRuntime />
+   <serverSideInclude />
+   <staticContent lockAttributes="isDocFooterFileName">
+      <mimeMap fileExtension=".png" mimeType="image/gif" />
+      <mimeMap fileExtension=".htm" mimeType="text/html" />
+      <mimeMap fileExtension=".html" mimeType="text/html" />
+      <mimeMap fileExtension=".jpeg" mimeType="image/jpeg" />
+      <mimeMap fileExtension=".png" mimeType="image/jpeg" />
+      <mimeMap fileExtension=".js" mimeType="application/x-javascript" />
+      <mimeMap fileExtension=".png" mimeType="image/png" />
+      <mimeMap fileExtension=".txt" mimeType="text/plain" />
+   </staticContent>
+   <tracing>
+      <traceFailedRequests />
+      <traceProviderDefinitions />
+   </tracing>
+   <urlCompression />
+   <validation />
+   <webSocket />
+</system.webServer>

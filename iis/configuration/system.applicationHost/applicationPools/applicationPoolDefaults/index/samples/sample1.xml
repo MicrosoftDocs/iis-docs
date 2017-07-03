@@ -1,0 +1,9 @@
+<applicationPools>
+   <add name="DefaultAppPool" />
+   <applicationPoolDefaults>
+      <processModel identityType="ApplicationPoolIdentity" />
+      <recycling>
+         <periodicRestart requests="200" />
+      </recycling>
+   </applicationPoolDefaults>
+</applicationPools>

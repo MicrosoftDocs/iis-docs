@@ -812,3 +812,4 @@
 ### [Configuring Step 4: Configure SSL Central Certificate Store](web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-4-configure-ssl-central-certificate-store.md)
 ### [Configuring Step 5: Configure Application Deployment](web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-5-configure-application-deployment.md)
 # [Contribute](contribute.md)
+# [Configuration Reference](configuration/index.md)

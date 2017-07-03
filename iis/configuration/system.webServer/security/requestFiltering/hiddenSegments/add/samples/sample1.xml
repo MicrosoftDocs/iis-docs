@@ -1,0 +1,11 @@
+<configuration>
+   <system.webServer>
+      <security>
+         <requestFiltering>
+            <hiddenSegments applyToWebDAV="false">
+               <add segment="_private" />
+            </hiddenSegments>
+         </requestFiltering>
+      </security>
+   </system.webServer>
+</configuration>

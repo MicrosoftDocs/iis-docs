@@ -1,0 +1,6 @@
+<system.applicationHost>
+   <configHistory enabled="true"
+      path="%SystemDrive%\inetpub\history"
+      maxHistories="50"
+      period="00:05:00" />
+</system.applicationHost>

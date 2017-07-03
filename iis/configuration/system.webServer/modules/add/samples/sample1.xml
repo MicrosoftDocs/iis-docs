@@ -1,0 +1,7 @@
+<configuration>
+   <system.webServer>
+      <modules>
+         <add name="Header" type="Contoso.ShoppingCart.Header"/>
+      </modules>
+   </system.webServer>
+</configuration>

@@ -1,0 +1,5 @@
+<system.ftpServer>
+   <caching>
+      <credentialsCache enabled="true" flushInterval="300" />
+   </caching>
+</system.ftpServer>
