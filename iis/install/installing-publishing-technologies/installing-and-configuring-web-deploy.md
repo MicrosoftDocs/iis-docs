@@ -30,15 +30,7 @@ The server must have an operating system that comes with IIS7— this means eith
 
 #### Use WebPI to install Web Deploy along with its dependencies like the Web Management Service (WMSvc)
 
-1. Set up your machine like a hosting server using the "Recommended Configuration for Hosting Providers" product 
-
-    1. Download the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx)
-    2. Click in the search bar in the upper-right hand corner and search for "Recommended"  
-        [![](installing-and-configuring-web-deploy/_static/image2.png)](installing-and-configuring-web-deploy/_static/image1.png)
-    3. Add the "Recommended Server Configuration for Web Hosting Providers" product and click **Install**
-
-        - Note that this bundle includes some optional components, such as PHP and MySQL, which you can choose not to install with this bundle by clicking the "X" next to them on the next screen.
-2. Install Web Deploy by using either method **1** or **2** below: 
+1. Install Web Deploy by using either method **i** or **ii** below: 
 
     1. Install Web Deploy and dependent products using the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx)
 
