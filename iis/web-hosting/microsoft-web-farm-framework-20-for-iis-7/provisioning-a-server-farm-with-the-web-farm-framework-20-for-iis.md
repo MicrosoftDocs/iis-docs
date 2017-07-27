@@ -85,4 +85,4 @@ You can also install web platform products on a selected server or all servers i
 
 You can view the installation status using the trace messages displayed on the **Servers** page.
 
-	[![](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image23.png)](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image22.png)
+[![](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image23.png)](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image22.png)
