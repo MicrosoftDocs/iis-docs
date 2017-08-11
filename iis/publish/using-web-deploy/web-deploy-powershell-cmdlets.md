@@ -169,7 +169,7 @@ Auto generated Web Deploy parameters: A parameter is created for changing the da
 
 All restore cmdlets take the Web Deploy package to restore as the first positional parameter.
 
-WebDeploy suppots concept of [parameterization](https://msdn.microsoft.com/en-us/library/ff398068.aspx) of the packages, which lets you change few aspects during restore (without modifying package). For example during restore, you can choose to specify value of database connection string which is different from what is inside the package using WebDeploy parameters (you need to have connection string parameter present in the package.)
+WebDeploy supports the concept of [parameterization](https://msdn.microsoft.com/en-us/library/ff398068.aspx) of the packages, which lets you change few aspects during restore (without modifying package). For example during restore, you can choose to specify value of database connection string which is different from what is inside the package using WebDeploy parameters (you need to have connection string parameter present in the package.)
 
 Depending upon how package was built, Web Deploy package might have one or more [parameters](https://msdn.microsoft.com/en-us/library/ff398068.aspx "parameters"). These restore cmdlets inspect the package and add dynamic PowerShell parameters to the collection. So if a package has a Web Deploy parameter named "Parameter1" then you will find a PowerShell parameter with the name "Parameter1". However dynamic parameters have their own issues in PowerShell and this will only work if packages don't have a space in their name or in the path to the file.
 
