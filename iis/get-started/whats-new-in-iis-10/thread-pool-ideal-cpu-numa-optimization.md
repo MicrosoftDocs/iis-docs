@@ -1,13 +1,12 @@
 ---
 title: "IIS Thread Pool Ideal CPU Optimization for NUMA hardware | Microsoft Docs"
-author: yashi
+author: bangbingsyb
 description: ""
-ms.author: iiscontent
+ms.author: bangbingsyb
 msc.type: authoredcontent
 ---
 IIS Thread Pool Ideal CPU Optimization for NUMA hardware
 ====================
-by [Yanbing Shi](https://github.com/bangbingsyb)
 
 ### Compatibility
 
@@ -20,14 +19,14 @@ by [Yanbing Shi](https://github.com/bangbingsyb)
 
 Starting from Windows Server 2016, IIS 10.0 supports automatic ideal CPU assignment for its thread pool threads to enhance the performance and scalability on NUMA hardware. This feature is enabled by default and can be configured through the following registry key:
 
-``` syntax
+```
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\InetInfo\Parameters\ThreadPoolUseIdealCpu
 ```
 
 With this feature enabled, IIS thread manager makes its best effort to evenly distribute IIS thread pool threads across all CPUs in all NUMA nodes based on their current loads. In general, it is recommended to keep this optimization enabled for NUMA hardware.
 
-**Note**  
-The ideal CPU setting is different from the worker process NUMA node assignment settings (numaNodeAssignment and numaNodeAffinityMode) introduced in [CPU Settings for an Application Pool](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/cpu). The ideal CPU setting affects how IIS distributes its thread pool threads, while the worker process NUMA node assignment settings determine on which NUMA node a worker process starts.
+> [!NOTE]
+> The ideal CPU setting is different from the worker process NUMA node assignment settings (numaNodeAssignment and numaNodeAffinityMode) introduced in [CPU Settings for an Application Pool](https://www.iis.net/configreference/system.applicationhost/applicationpools/add/cpu). The ideal CPU setting affects how IIS distributes its thread pool threads, while the worker process NUMA node assignment settings determine on which NUMA node a worker process starts.
 
 ## Summary
 
