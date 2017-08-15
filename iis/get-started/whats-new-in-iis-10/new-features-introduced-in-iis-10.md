@@ -58,3 +58,9 @@ Learn more with [IISAdministration PowerShell Cmdlets](iisadministration-powersh
 IIS 10.0 adds support for Wildcard Host Headers; you can now set up bindings to serve requests for any subdomain within a given domain.
 
 Learn more: [Wildcard Host Header Support](wildcard-host-header-support.md)
+
+## IIS Thread Pool Ideal CPU Optimization for NUMA hardware
+
+IIS 10.0 provides better performance on NUMA hardware through the IIS thread pool ideal CPU optimization.
+
+Learn more: [IIS Thread Pool Ideal CPU Optimization for NUMA hardware](thread-pool-ideal-cpu-numa-optimization.md)
