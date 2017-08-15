@@ -3,13 +3,6 @@ title: "IIS Thread Pool Ideal CPU Optimization for NUMA hardware | Microsoft Doc
 author: yashi
 description: ""
 ms.author: iiscontent
-manager: soshir
-ms.date: 08/15/2015
-ms.topic: article
-ms.assetid: 4dffef2d-17b4-43a0-9605-47a4d7df7264
-ms.technology: iis
-ms.prod: iis
-msc.legacyurl: /learn/get-started/whats-new-in-iis-10/thread-pool-ideal-cpu-numa-optimization
 msc.type: authoredcontent
 ---
 IIS Thread Pool Ideal CPU Optimization for NUMA hardware
