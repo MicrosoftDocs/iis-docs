@@ -6,6 +6,7 @@
 ### [IISAdministration PowerShell Cmdlets](get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets.md)
 ### [Running Asp.Net Core with IIS on Nano Server](get-started/whats-new-in-iis-10/running-aspnet-core-with-iis-on-nano-server.md)
 ### [Wildcard Host Header Support](get-started/whats-new-in-iis-10/wildcard-host-header-support.md)
+### [IIS Thread Pool Ideal CPU Optimization for NUMA hardware](get-started/whats-new-in-iis-10/thread-pool-ideal-cpu-numa-optimization.md)
 ## Introduction to IIS
 ### [Introduction to IIS Architectures](get-started/introduction-to-iis/introduction-to-iis-architecture.md)
 ### [IIS Web Server Overview](get-started/introduction-to-iis/iis-web-server-overview.md)
@@ -183,8 +184,8 @@
 ### [Remote Manager for Windows 2003, XP and Vista SP1](manage/remote-administration/remote-manager-for-windows-2003-xp-and-vista-sp1.md)
 ## Working with Server Core
 ### [Using IIS with Windows Server Core](manage/working-with-server-core/using-iis-with-windows-server-core.md)
-### [IIS 7.0 on Server Core](manage/working-with-server-core/iis-70-on-server-core.md) 
-## Disaster Recovery 
+### [IIS 7.0 on Server Core](manage/working-with-server-core/iis-70-on-server-core.md)
+## Disaster Recovery
 ### [Disaster Recovery to Azure using Site Recovery](https://aka.ms/asr-link-from-iis)
 # Develop
 ## Runtime Extensibility
