@@ -15,25 +15,30 @@ hstsElement.Properties.Item("redirectHttpToHttps").Value = true;
 
 adminManager.CommitChanges();
 
-
-function FindElement(collection, elementTagName, valuesToMatch) {
-    for (var i = 0; i < collection.Count; i++) {
+function FindElement(collection, elementTagName, valuesToMatch)
+{
+    for (var i = 0; i < collection.Count; i++)
+    {
         var element = collection.Item(i);
-        
-        if (element.Name == elementTagName) {
+        if (element.Name == elementTagName)
+        {
             var matches = true;
-            for (var iVal = 0; iVal < valuesToMatch.length; iVal += 2) {
+            for (var iVal = 0; iVal < valuesToMatch.length; iVal += 2)
+            {
                 var property = element.GetPropertyByName(valuesToMatch[iVal]);
                 var value = property.Value;
-                if (value != null) {
+                if (value != null)
+                {
                     value = value.toString();
                 }
-                if (value != valuesToMatch[iVal + 1]) {
+                if (value != valuesToMatch[iVal + 1])
+                {
                     matches = false;
                     break;
                 }
             }
-            if (matches) {
+            if (matches)
+            {
                 return i;
             }
         }
