@@ -2,7 +2,7 @@
 title: "IIS Thread Pool Ideal CPU Optimization for NUMA hardware | Microsoft Docs"
 author: bangbingsyb
 description: ""
-ms.author: bangbingsyb
+ms.author: yashi
 msc.type: authoredcontent
 ---
 IIS Thread Pool Ideal CPU Optimization for NUMA hardware
