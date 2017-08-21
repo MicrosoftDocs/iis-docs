@@ -41,7 +41,7 @@ As more e-commerce sites come on line and more businesses are storing and sharin
 
 On Windows Server 2012, the Centralized SSL Certificate Support feature allows the server administrators to store and access the certificates centrally on a file share. Similar to Shared Configuration feature introduced in Windows Server 2008, the Windows Servers in a server farm can be configured to load the certificates from the file share on-demand.
 
-With this feature, the management experience of SSL bindings is much simplified. When it comes to SSL, the DNS name and CN name of the certificate must match. Similar contract can be further extended to the file names of the certificates. For example, *www.contoso.com* would use the certificate with a file name *www.contoso.com.pfx*. This contract enables Windows Server 8 to have just one SSL binding, regardless of the number of secure sites that are using this feature. The corresponding certificate is inferred by the SNI value or hostname of the requested web site, and by matching it to the file name of the certificate.
+With this feature, the management experience of SSL bindings is much simplified. When it comes to SSL, the DNS name and CN name of the certificate must match. Similar contract can be further extended to the file names of the certificates. For example, *www.contoso.com* would use the certificate with a file name *www.contoso.com.pfx*. This contract enables IIS 8.0 to have just one SSL binding, regardless of the number of secure sites that are using this feature. The corresponding certificate is inferred by the SNI value or hostname of the requested web site, and by matching it to the file name of the certificate.
 
 <a id="TOC301258517"></a>
 
