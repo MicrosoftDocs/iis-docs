@@ -47,7 +47,7 @@ This tells the server that the client supports compression and will accept a com
 
 [!code-console[Main](troubleshooting-iis-compression-issues-in-iis6-iis7x/samples/sample2.cmd)]
 
-Fiddelr output when compression is not working:
+Fiddler output when compression is not working:
 
 ![](troubleshooting-iis-compression-issues-in-iis6-iis7x/_static/image1.png)
 
