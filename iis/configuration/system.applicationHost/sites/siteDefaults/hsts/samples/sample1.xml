@@ -1,0 +1,7 @@
+<system.applicationHost>
+    <sites>
+        <siteDefaults>
+            <hsts enabled="true" max-age="31536000" includeSubDomains="true" redirectHttpToHttps="true" />
+        </siteDefaults>
+    </sites>
+</system.applicationHost>
