@@ -80,7 +80,7 @@ The "master" state for configuration is always the configuration files (unlike i
 
 At the root (or global) level, there are two separate files:
 
-- system32\inetsrv\applicationHost.config: Holds the global defaults for web server (IIS) settings.
+- system32\inetsrv\config\applicationHost.config: Holds the global defaults for web server (IIS) settings.
 - \windows\microsoft.net\framework\v2.0.50727\config\machine.config: Holds the global defaults for the .NET framework settings, including some of the ASP.NET ones (the rest of them are in the web.config at the same folder, which is sometimes called the root web.config)
 
 The reason there are two separate files still is because the two technologies version differently (schedule-wise and product-wise). IIS is part of Windows and the .NET framework may version independently, as part of Visual Studio releases.
