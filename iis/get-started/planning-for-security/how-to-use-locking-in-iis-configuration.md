@@ -50,7 +50,7 @@ Using a text editor such as Notepad, open the applicationHost.config file in the
 
 [!code-console[Main](how-to-use-locking-in-iis-configuration/samples/sample1.cmd)]
 
-Review the `<configSections>` section at the very top of the file &acirc;&euro;&ldquo; it has metadata about the configuration sections in this file, like names for sections, containing section groups, and whether or not they are locked.
+Review the `<configSections>` section at the very top of the file: it has metadata about the configuration sections in this file, like names for sections, containing section groups, and whether or not they are locked.
 
 Locked sections are specified by the "overrideModeDefault" attribute, which is either "Allow" or "Deny". Very few sections are not locked by default, as specified by this line for example:
 
@@ -58,11 +58,11 @@ Locked sections are specified by the "overrideModeDefault" attribute, which is e
 
 Here, we deal with the `<windowsAuthentication>` section. It is locked by default.
 
-To unlock the entire section for all applications on the server, move its content from its current location in the file to the bottom of the file and put it inside a `<location overrideMode="Allow">` element. Remember also to have the section groups surrounding it: &lt;system.webServer&gt;, then &lt;security&gt; and then &lt;authentication&gt;. The end result should look like this:
+To unlock the entire section for all applications on the server, move its content from its current location in the file to the bottom of the file and put it inside a `<location overrideMode="Allow">` element. Remember also to have the section groups surrounding it: `<system.webServer`>, then `<security`> and then `<authentication`>. The end result should look like this:
 
 [!code-xml[Main](how-to-use-locking-in-iis-configuration/samples/sample3.xml)]
 
-The section is now unlocked for all applications. You can specify a path on the location tag, so that the section will be unlocked only for this path. The default path, if not specified (as in the previous step), is path="." (or path="",the same thing), which means "this current level". In this case, since this is applicationHost.config, the current level means the global level. You can also use location tags anywhere in the namespace hierarchy, e.g. in a web.config at the vdir level, to lock configuration from this point downwards.
+The section is now unlocked for all applications. You can specify a path on the location tag, so that the section will be unlocked only for this path. The default path, if not specified (as in the previous step), is path="." (or path="", the same thing), which means "this current level". In this case, since this is applicationHost.config, the current level means the global level. You can also use location tags anywhere in the namespace hierarchy, e.g. in a web.config at the vdir level, to lock configuration from this point downwards.
 
 Here is an example of how to unlock this section only for the "AdminSuperTrusted" site. That means that web.config files at that site can override the settings in this section; but, for all other sites on the box, it is locked at the global level and cannot be overridden.
 
@@ -88,7 +88,7 @@ Set the **enabled** attribute to true, then lock it by setting lockAttributes="e
 
 This prevents an application-level configuration file from changing the value of the `<windowsAuthentication>` section's **enabled** attribute.
 
-If you want to lock other attributes, add them to the **lockAtrtibutes** value separated by commas, as in the following example:
+If you want to lock other attributes, add them to the **lockAttributes** value separated by commas, as in the following example:
 
 [!code-console[Main](how-to-use-locking-in-iis-configuration/samples/sample5.cmd)]
 
@@ -102,10 +102,10 @@ The section should now look like the following:
 
 In the web.config file for your application, try to override settings in the `<windowsAuthentication>` section.
 
-In the browser, request the page to verify that you can override all settings except the ones you locked&acirc;&euro;&rdquo;in this case: the **enabled** attribute.
+In the browser, request the page to verify that you can override all settings except the ones you locked, in this case — the **enabled** attribute.
 
 > [!NOTE]
-> Simply specifying the attribute in the web.config file causes a configuration failure, even if the attribute you set in the Web.config file has the same value as in the ApplicationHost.config file. Setting a locked attribute to any value is considered an attempt to override the attribute and therefore fails. (Also note that attributes are different than elements&acirc;&euro;&rdquo;in the next task you will lock an element.)
+> Simply specifying the attribute in the web.config file causes a configuration failure, even if the attribute you set in the Web.config file has the same value as in the ApplicationHost.config file. Setting a locked attribute to any value is considered an attempt to override the attribute and therefore fails. (Also note that attributes are different than elements — in the next task you will lock an element.)
 
 Remove the **lockAttributes** attribute.
 
