@@ -11,7 +11,7 @@ ms.prod: iis
 msc.legacyurl:
 msc.type: authoredcontent
 ---
-IIS CORS Module Configuration Reference
+IIS CORS module Configuration Reference
 ====================
 by IIS Team
 
@@ -20,19 +20,19 @@ by IIS Team
 <a id="_Functionality_Overview"></a>
 ## Functionality Overview
 
-Microsoft IIS CORS Module is a new IIS module specifically designed for CORS (Cross-origin resource sharing) protocol support.
+Microsoft IIS CORS module is a IIS module specifically designed for CORS (Cross-origin resource sharing) protocol support.
 
-IIS CORS module enables IIS administrators and website authors to make an IIS server support CORS protocol and properly handle CORS requests based on the CORS rules as defined or configured by users. It also allows the administrators and developers easily define or configure these access rules and delegate all CORS protocol handling to the module.
+The IIS CORS module enables IIS administrators and website authors to make an IIS server support the CORS protocol and properly handle CORS requests based on the CORS rules as defined or configured by users. It also allows the administrators and developers to move CORS logic out of their applications and rely on the web server and to easily define or configure these access rules and delegate all CORS protocol handling to the module.
 
 ### IIS CORS module is a server-side CORS component
 
 CORS protocol defines client/server communication. Usually, browsers (user-agents) which support CORS work as the client-side CORS component, while the IIS server works as the server-side CORS component with the help of IIS CORS module.
 
-A CORS request happens when a client-side CORS component makes a special request to a different domain from the current domain (origin), which is called a cross-origin request. When CORS is not used, cross-origin requests are considered unsafe and are disallowed by the browser. CORS make it possible to make cross-origin requests safely by defining a protocol.
+A CORS request occurs when a client-side CORS component makes a special request to a different domain from the current domain (origin), which is called a cross-origin request. When CORS is not used, cross-origin requests are considered unsafe and are disallowed by the browser. CORS make it possible to make cross-origin requests safely by defining a protocol.
 
 ### CORS preflight request
 
-A CORS preflight request is a CORS request for protocol probing (checking to see if the CORS protocol is understood) and a CORS permission check asking whether the required origin is allowed. The CORS preflight uses OPTIONS method with the ACCESS-CONTROL-REQUEST-METHOD and the ORIGIN request headers. IIS CORS module is designed to serve the CORS preflight requests before other IIS modules handle the same request. The OPTIONS requests are always anonymous, so CORS module provides IIS servers a way to correctly respond to the preflight request even if anonymous authentification needs to be disabled server-wise.
+A CORS preflight request is to determine whether the resource being requested is set to be shared across origins by the server. The CORS preflight uses OPTIONS method with the ACCESS-CONTROL-REQUEST-METHOD and the ORIGIN request headers. IIS CORS module is designed to serve the CORS preflight requests before other IIS modules handle the same request. The OPTIONS requests are always anonymous, so CORS module provides IIS servers a way to correctly respond to the preflight request even if anonymous authentification needs to be disabled server-wise.
 
 <a id="_IISCORS_Configuration"></a>
 ## CORS Configuration
@@ -95,10 +95,10 @@ The `<add>` element of the `<cors>` collection specifies an individual origin to
 
 | **Attribute** | **Description** |
 | --- | --- |
-| `origin` | Required string attribute.<br>Specifies origin host on which to impose an origin rule. You can use an asterisk (\*) to apply this rule to all origin request header values. You can also use an asterisk (\*) as a wildcard for the child subdomain name. If there are multiple origin rules, it is applied to the most specific origin host name.  |
-| `allowed` | Optional Boolean attribute.<br>Specifies whether to accept the CORS request for the origin host.<br>The default value is `true`. |
+| `origin` | Required string attribute.<br>Specifies origin host on which to impose an origin rule. You can use an asterisk (\*) to apply this rule to all origin request header values. You can also use an asterisk (\*) as a wildcard for the child subdomain name. If there are multiple origin rules, it is applied to the most specific origin host name rule regardless of the allowed attribute value.  |
+| `allowed` | Optional Boolean attribute.<br>Specifies whether to accept the CORS request for the origin host.<br>The default value is `true`.  |
 | `allowCredentials` | Optional Boolean attribute.<br>Specifies whether to set the Access-Control-Allow-Credentials: `true` CORS response header. This attribute should be used only for a specific origin host name rather than * origin host for CORS protocol compliance.<br>The default value is `false`. |
-| `maxAge` | Optional integer attribute. Duration in seconds.<br>Specifies the value of the `Access-Control-Max-Age` response header for the preflight CORS request. The Access-Control-Max-Age response header is supposed to be set only for the CORS preflight requests. If you don't want to set the Access-Control-Max-Age header in the CORS response, set -1 for this attribute.<br>The default value is `-1`. |
+| `maxAge` | Optional integer attribute. Duration in seconds.<br>Specifies the value of the `Access-Control-Max-Age` response header for the preflight CORS request. The Access-Control-Max-Age response header is supposed to be set only for the CORS preflight requests. If you don't want to set the Access-Control-Max-Age header in the CORS response, set -1 for this attribute.<br>The default value is `-1`.  |
 
 #### Using only * origin host rule
 
