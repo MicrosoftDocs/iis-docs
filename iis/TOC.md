@@ -1,4 +1,4 @@
-# Get Started
+﻿# Get Started
 ## What’s New in IIS 10.0?
 ### [New Features Introduced in IIS 10.0](get-started/whats-new-in-iis-10/new-features-introduced-in-iis-10.md)
 ### [Introducing IIS on Nano Server](get-started/whats-new-in-iis-10/introducing-iis-on-nano-server.md)
@@ -494,6 +494,8 @@
 ### [Overview of UrlScan Versions](extensions/working-with-urlscan/overview-of-urlscan-versions.md)
 ## HttpPlatformHandler
 ### [HttpPlatformHandler Configuration Reference](extensions/httpplatformhandler/httpplatformhandler-configuration-reference.md)
+## CORS Module
+### [CORS Module Configuration Reference](extensions/cors-module/cors-module-configuration-reference.md)
 # Media
 ## Windows Media Services
 ### [Adding Windows Media Services 2008 on an IIS 7.0 Server](media/windows-media-services/adding-windows-media-services-2008-on-an-iis-server.md)
