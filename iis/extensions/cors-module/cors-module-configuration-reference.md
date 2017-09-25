@@ -22,13 +22,13 @@ by IIS Team
 
 Microsoft IIS CORS Module is a new IIS module specifically designed for CORS (Cross-origin resource sharing) protocol support.
 
-IIS CORS module enables IIS administrators and website authors to make an IIS server support CORS protocol and properly handle CORS requests based on the CORS rules as defined or configured by users. It also allows the administrators and developers easily define or configure the access rules and to delegate all CORS protocol handling to the module.
+IIS CORS module enables IIS administrators and website authors to make an IIS server support CORS protocol and properly handle CORS requests based on the CORS rules as defined or configured by users. It also allows the administrators and developers easily define or configure these access rules and delegate all CORS protocol handling to the module.
 
 ### IIS CORS module is a server-side CORS component
 
 CORS protocol defines client/server communication. Usually, browsers (user-agents) which support CORS work as the client-side CORS component, while the IIS server works as the server-side CORS component with the help of IIS CORS module.
 
-A CORS request happens when a client-side CORS component makes a special request to a different domain from the current domain (origin), which is called a cross-origin request.
+A CORS request happens when a client-side CORS component makes a special request to a different domain from the current domain (origin), which is called a cross-origin request. When CORS is not used, cross-origin requests are considered unsafe and are disallowed by the browser. CORS make it possible to make cross-origin requests safely by defining a protocol.
 
 ### CORS preflight request
 
