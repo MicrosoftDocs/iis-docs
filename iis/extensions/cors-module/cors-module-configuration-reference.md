@@ -20,14 +20,15 @@ by IIS Team
 <a id="_Functionality_Overview"></a>
 ## Functionality Overview
 
-Microsoft IIS CORS Module is a new IIS module specifically designed for CORS(Cross-origin resource sharing) protocol support.
+Microsoft IIS CORS Module is a new IIS module specifically designed for CORS (Cross-origin resource sharing) protocol support.
 
-IIS CORS module enables IIS administrators to make an IIS server as a server-side CORS component, which enables the IIS server to support CORS protocol and properly handle CORS requests based on the CORS rules as defined or configured by users. Also, it allows the administrators and developers to easily define or configure the access rules and to delegate all CORS protocol handling to the module.
+IIS CORS module enables IIS administrators and website authors to make an IIS server support CORS protocol and properly handle CORS requests based on the CORS rules as defined or configured by users. It also allows the administrators and developers easily define or configure the access rules and to delegate all CORS protocol handling to the module.
 
 ### IIS CORS module is a server-side CORS component
 
-CORS has both a client- and a server-side component. Usually, browsers which support CORS work as the client-side CORS component, while the IIS server works as the server-side CORS component with the help of IIS CORS module.
-A CORS request happens when the client-side CORS component needs to make a new request to a different domain from the current domain (origin), which is called a cross-origin request.
+CORS protocol defines client/server communication. Usually, browsers (user-agents) which support CORS work as the client-side CORS component, while the IIS server works as the server-side CORS component with the help of IIS CORS module.
+
+A CORS request happens when a client-side CORS component makes a special request to a different domain from the current domain (origin), which is called a cross-origin request.
 
 ### CORS preflight request
 
@@ -70,10 +71,10 @@ Below are the configuration examples to enable CORS for a site named contentSite
 With the IIS CORS module, you can:
 
 1. Enable, disable CORS for a whole IIS server or for a specific IIS site, an application, a virtual directory, a physical directory or a file (system.webServer/cors).
-2. Configure all the origin host domains can be accepted with * origin host rule.
+2. Configure all the origin host domains to be accepted with * origin host rule.
 3. Configure the list of specific origin host domains and allow only the CORS request which has the same value of the origin request header as one of listed origin host domains.
 4. Configure wild card origin host domains when configuring the list of origin domain such as http://* or https://*.mydomain.com.
-5. Configure the lists of origin domains which should be disallowed as CORS request.
+5. Configure a list of origin domains which should be disallowed as CORS request.
 6. Customize the CORS response header values with the configured values.
 
 ## Attributes of the cors element
@@ -111,15 +112,15 @@ If there is only * origin host rule, IIS CORS module does the following:
 
 | **Element** | **Description** |
 | --- | --- |
-| **allowHeaders** | configures **allowHeaders** collection that is used for the value of the `Access-Control-Allow-Headers` CORS response header for the **origin** host specified in the origin host rule.<br>The `Access-Control-Allow-Headers` response header is supposed to be set only for the regular CORS request rather than CORS preflight requests. |
-| **allowMethods** | configures **allowMethods** collection that is used for the value of the `Access-Control-Allow-Methods` CORS response header for the **origin** host specified in the origin host rule.<br>The `Access-Control-Allow-Methods` response header is supposed to be set only for the CORS preflight requests.|
-| **exposeHeaders** | configures **exposeHeaders** collection that is used for the value of the `Access-Control-Expose-Headers` CORS response header for the **origin** host specified in the origin host rule.<br>The `Access-Control-Expose-Headers` response header is supposed to be set only for the CORS preflight requests.|
+| **allowHeaders** | configures **allowHeaders** collection that is used for the value of the `Access-Control-Allow-Headers` CORS response header for the **origin** host specified in the origin host rule.<br>The `Access-Control-Allow-Headers` response header will be set only for the actual CORS requests rather than the preflight requests. |
+| **allowMethods** | configures **allowMethods** collection that is used for the value of the `Access-Control-Allow-Methods` CORS response header for the **origin** host specified in the origin host rule.<br>The `Access-Control-Allow-Methods` response header will be set only for the CORS preflight requests.|
+| **exposeHeaders** | configures **exposeHeaders** collection that is used for the value of the `Access-Control-Expose-Headers` CORS response header for the **origin** host specified in the origin host rule.<br>The `Access-Control-Expose-Headers` response header will be set only for the actual CORS requests rather than the preflight requests.|
 
 ### Attributes of the allowHeaders element
 
 | **Attribute** | **Description** |
 | --- | --- |
-| `allowAllRequestedHeaders` | Optional Boolean attribute. If this is true, IIS modules take the value of the given Access-Control-Request-Headers CORS request header and set the Access-Control-Allow-Headers response header with the same value, which means all the given headers are allowed. If this is false, it sets the Access-Control-Allow-Headers response header with the header values of the allowHeaders collection, which means that only the listed headers are allowed. The default value is `false`. |
+| `allowAllRequestedHeaders` | Optional Boolean attribute. If this is true, IIS module will take the value of the given Access-Control-Request-Headers CORS request header and set the Access-Control-Allow-Headers response header with the same value, which means all the given headers are allowed. If this is false, it sets the Access-Control-Allow-Headers response header with the header values of the allowHeaders collection, which means that only the listed headers are allowed. The default value is `false`. |
 
 <a id="_Sample_Code"></a>
 ## Sample Code
