@@ -16,6 +16,6 @@ Improving Performance with Native Output Caching
 ====================
 by IIS Team
 
-Dramatically reduce Web application response time by leveraging native HttpCacheModule in IIS that stores all application outputs in Kernel mode cache. This tutorial covers enabling and configuring user-mode and kernel-mode caching by creating new output caching rules in config and through the IIS Manager GUI.
+Dramatically reduce web application response time by leveraging the native HttpCacheModule in IIS that stores all application outputs in Kernel mode cache. This tutorial covers enabling and configuring user-mode and kernel-mode caching by creating new output caching rules in config and through the IIS Manager GUI.
 
 [&#9654; Watch video (12 minutes)](https://channel9.msdn.com/Blogs/IIS-NET-Site-Videos/improving-performance-with-native-output-caching)
