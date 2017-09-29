@@ -22,7 +22,7 @@ In the past administrators used [CPULimit Metabase Property in IIS](https://www.
 
 WSRM enables administrators to control how CPU and memory resources are allocated to applications, services, and processes. Managing resources in this way improves system performance and reduces the chance that applications, services, or processes will interfere with the rest of the system. It also creates a more consistent and predictable experience for users of applications and services running on the computer.
 
-WSRM integrates resource management with Web pools through a built-in policy called Equal\_Per\_IISAppPool. Policies in WSRM automatically switch to different resource allocations in response hardware hot-add changes or cluster changes if running in a cluster configuration.
+WSRM integrates resource management with Web pools through a built-in policy called Equal\_Per\_IISAppPool. Policies in WSRM automatically switch to different resource allocations in response hardware to hot-add changes or cluster changes if running in a cluster configuration.
 
 For more information see [Overview of Windows System Resource Manager](http://technet2.microsoft.com/windowsserver2008/en/library/c5b76d56-99b1-4ad7-875c-417b631184541033.mspx?mfr=true).
 
