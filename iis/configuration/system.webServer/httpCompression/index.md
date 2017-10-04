@@ -219,8 +219,8 @@ The following default `<httpCompression>` element is configured in the Applicati
 
 The following code samples will add the MIME types for Office 2003 documents to the list of dynamic compression types.  
   
- (> [!NOTE]
-> Office 2007 documents use built-in compression, so they do not need to be compressed by IIS.)
+> [!NOTE]
+> Office 2007 documents use built-in compression, so they do not need to be compressed by IIS.
 
 ### AppCmd.exe
 
