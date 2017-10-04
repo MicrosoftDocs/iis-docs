@@ -30,7 +30,7 @@ by [Robert McMurray](https://github.com/rmcmurray)
 
 ## Problem
 
-Generally speaking, increasing the number of cores should result in increased performance. However, there comes a point where increasing the number cores may result in performance degradation because the cost of memory synchronization outweight the benefits on NUMA hardware with additional cores. IIS 8.0 addresses this problem by intelligently distributing and affinitizing its processes on Non-Uniform-Memory-Access (NUMA) hardware.
+Generally speaking, increasing the number of cores should result in increased performance. However, there comes a point where increasing the number cores may result in performance degradation because the cost of memory synchronization outweighs the benefits on NUMA hardware with additional cores. IIS 8.0 addresses this problem by intelligently distributing and affinitizing its processes on Non-Uniform-Memory-Access (NUMA) hardware.
 
 <a id="TOC301258516"></a>
 
