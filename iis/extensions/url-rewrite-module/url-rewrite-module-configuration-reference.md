@@ -92,12 +92,13 @@ For an HTTP URL in this form: http(s)://&lt;host&gt;:&lt;port&gt;/&lt;path&gt;?&
 
 For example, if a request was made for this URL: **[http://www.mysite.com/content/default.aspx?tabid=2&amp;subtabid=3](http://www.mysite.com/content/default.aspx?tabid=2&amp;subtabid=3)**, and a rewrite rule was defined on the site level then:
 
-- The rule pattern gets the URL string **content/default.aspx** as an input
+- The rule pattern gets the URL string **content/default.aspx** as an input.
 - The QUERY\_STRING server variable contains **tabid=2&amp;subtabid=3**.
 - The HTTP\_HOST server variable contains **www.mysite.com**.
 - The SERVER\_PORT server variable contains **80**.
 - The SERVER\_PORT\_SECURE server variable contains **0** and HTTPS contains **OFF**.
-- The REQUEST\_URI server variable contains **content/default.aspx?tabid=2&amp;subtabid=3**
+- The REQUEST\_URI server variable contains **/content/default.aspx?tabid=2&amp;subtabid=3**.
+- The PATH\_INFO server variable contains **/content/default.aspx**.
 
 Note that the input URL string passed to a distributed rule is always relative to the location of the Web.config file where the rule is defined. For example, if a request is made for **[http://www.mysite.com/content/default.aspx?tabid=2&amp;subtabid=3](http://www.mysite.com/content/default.aspx?tabid=2&amp;subtabid=3)**, and a rewrite rule is defined in the **/content** directory, then the rule gets this URL string **default.aspx** as an input.
 
