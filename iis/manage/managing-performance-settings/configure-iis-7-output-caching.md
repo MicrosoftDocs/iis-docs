@@ -50,7 +50,8 @@ With dynamic content, data can change frequently and you must flush the cache, l
 
 IIS supports two ways to invalidate dynamic content:
 
-- Use a simple timeout period - the configuration property is CacheForTimePeriod. Detect a change to the underlying resource - the configuration property is CacheUntilChange. Use this type of invalidation scheme only when you want the cache flushed when the underlying resource changes.
+- Use a simple timeout period - the configuration property is CacheForTimePeriod. 
+- Detect a change to the underlying resource - the configuration property is CacheUntilChange. Use this type of invalidation scheme only when you want the cache flushed when the underlying resource changes.
 
 ## Configure Cache Worthiness
 
@@ -70,9 +71,9 @@ The cache is fairly easy to configure using the user interface feature in the ne
 1. From the **Start** menu, click **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
 2. In the tree view on the left side, find your application.
 3. Select the **Output Caching** menu item.
-4. In the right column, click **Add** inthe **Action** menu. You can add your output caching rule here.
+4. In the right column, click **Add** in the **Action** menu. You can add your output caching rule here.
 5. In the **File name extension** field, for example, type **.php**, and then select **User-mode caching**.
-6. Click **Advanced**, andthen select the **Query string variable(s)** check box.
+6. Click **Advanced**, and then select the **Query string variable(s)** check box.
 7. Enter the appropriate variable(s) in the **Query string variable(s)** text box.
 
     [![](configure-iis-7-output-caching/_static/image2.jpg)](configure-iis-7-output-caching/_static/image1.jpg)
@@ -129,7 +130,7 @@ The following command can be used to find out which content is cached in kernel 
 
 You can set the output cache to cache only your default page (the most frequently requested page):
 
-1. Create a file called **default.aspx** in the **%ystemdrive%\inetpub\wwwroot\&lt;your application&gt;** directory and add the following code:
+1. Create a file called **default.aspx** in the **%systemdrive%\inetpub\wwwroot\\&lt;your application&gt;** directory and add the following code:
 
 [!code-aspx[Main](configure-iis-7-output-caching/samples/sample3.aspx)]
 2. From the **Start** menu, click **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
@@ -140,7 +141,7 @@ You can set the output cache to cache only your default page (the most frequentl
 7. Open the **Output Caching Rules** setting.
 8. Add **.****aspx** as a file extension.
 9. Select **Kernel-mode caching**, select **At time intervals**, enable **Monitor cached files,** and then type a time interval, such as **00:00:30**.
-10. Browse to http://localhost/&lt;your **application&gt;** with Windows® Internet Explorer®. By constantly refreshing the page (press **Ctrl**+**F5** to make sure you are not using the browser cache), you see that the time does not change for 30 seconds.
+10. Browse to **http<i></i>://localhost//&lt;your application&gt;** with Windows® Internet Explorer®. By constantly refreshing the page (press **Ctrl**+**F5** to make sure you are not using the browser cache), you see that the time does not change for 30 seconds.
 
 > [!NOTE]
 > *This article is based on information from the article "[IIS 7 Output Caching for Dynamic Content - Speed Up Your ASP and PHP Applications](https://blogs.iis.net/bills/archive/2007/05/02/iis7-output-caching-for-dynamic-content-dramatically-speed-up-your-asp-and-php-applications.aspx)" by Bill Staples, published on May 2, 2007.*
