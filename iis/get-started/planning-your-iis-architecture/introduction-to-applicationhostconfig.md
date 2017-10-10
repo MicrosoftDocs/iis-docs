@@ -22,7 +22,7 @@ ApplicationHost.config is the root file of the configuration system when you are
 
 It is also special in that it is the only IIS configuration file available when the web server is installed (however, users can still add web.config files if they want to). It includes a special section (called configSections) for registering all IIS and Windows Activation System (WAS) sections (machine.config has the same concept for .NET Framework sections). It has definitions for locking-down most IIS sections to the global level, so that by default they cannot be overridden by lower-level web.config files in the hierarchy.
 
-The location of the file is currently in the system32\inetsrv directory, but this is expected to change after beta2 to system32\inetsrv\config. This document walks through all the sections, in the order they appear in the file, and explains them one by one. The most complex section is *system.webServer*, so it is recommended for the reader to not skip reading the description for that section in particular.
+The location of the file is currently in the `%windir%\system32\inetsrv\config` directory. This document walks through all the sections, in the order they appear in the file, and explains them one by one. The most complex section is *system.webServer*, so it is recommended for the reader to not skip reading the description for that section in particular.
 
 Note the following:
 
