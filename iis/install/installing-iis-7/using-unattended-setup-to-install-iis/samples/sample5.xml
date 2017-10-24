@@ -4,7 +4,7 @@
 <servicing> 
    <!-- Install a selectable update in a package that is in the Windows Foundation namespace --> 
    <package action="configure"> 
-      <ssemblyIdentity 
+      <AssemblyIdentity 
          name="Microsoft-Windows-Foundation-Package"
          version="6.0.5308.6"
          language="neutral"
