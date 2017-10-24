@@ -1,1 +1,1 @@
-msdeloy.exe -Help -Source:dbDacFx
+msdeploy.exe -Help -Source:dbDacFx
