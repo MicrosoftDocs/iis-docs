@@ -1,1 +1,1 @@
-msdeloy.exe -Verb:Sync -Source:dbDacFx="Data Source=.\SQLEXPRESS; Database=OldDatabase; User ID=sa; Password=P@$$W0rd",IncludeData=false,IncludeTransactionScripts=false -Dest:dbDacFx="Data Source=.\SQLEXPRESS; Database=NewDatabase; User ID=sa; Password=P@$$W0rd"
+msdeploy.exe -Verb:Sync -Source:dbDacFx="Data Source=.\SQLEXPRESS; Database=OldDatabase; User ID=sa; Password=P@$$W0rd",IncludeData=false,IncludeTransactionScripts=false -Dest:dbDacFx="Data Source=.\SQLEXPRESS; Database=NewDatabase; User ID=sa; Password=P@$$W0rd"
