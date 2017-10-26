@@ -1,0 +1,28 @@
+<sites>
+    <site name="Contoso" id="1">
+        <application path="/" applicationPool="Contoso">
+            <virtualDirectory path="/" physicalPath="C:\inetpub\Contoso" />
+        </application>
+        <bindings>
+            <binding protocol="http" bindingInformation="*:80:contoso.com" />
+            <binding protocol="https" bindingInformation="*:443:contoso.com" sslFlags="0" />
+        </bindings>
+        <hsts enabled="true" max-age="31536000" includeSubDomains="true" redirectHttpToHttps="true" />
+    </site>
+    <site name="Contoso-www" id="2">
+        <application path="/" applicationPool="Contoso-www">
+            <virtualDirectory path="/" physicalPath="C:\inetpub\Contoso-www" />
+        </application>
+        <bindings>
+            <binding protocol="http" bindingInformation="*:80:www.contoso.com" />
+            <binding protocol="https" bindingInformation="*:443:www.contoso.com" sslFlags="0" />
+        </bindings>
+        <hsts enabled="true" max-age="31536000" redirectHttpToHttps="true" />
+    </site>
+    <siteDefaults>
+        <logFile logFormat="W3C" directory="%SystemDrive%\inetpub\logs\LogFiles" />
+        <traceFailedRequestsLogging directory="%SystemDrive%\inetpub\logs\FailedReqLogFiles" />
+    </siteDefaults>
+    <applicationDefaults applicationPool="DefaultAppPool" />
+    <virtualDirectoryDefaults allowSubDirConfig="true" />
+</sites>
