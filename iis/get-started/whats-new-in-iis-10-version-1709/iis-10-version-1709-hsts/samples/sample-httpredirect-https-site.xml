@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <httpProtocol>
+            <customHeaders>
+                <add name="Strict-Transport-Secuirty" value="max-age=&quot;31536000&quot;" />
+            </customHeaders>
+        </httpProtocol>
+    </system.webServer>
+</configuration>
