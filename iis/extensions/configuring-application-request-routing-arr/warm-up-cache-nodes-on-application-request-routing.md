@@ -83,7 +83,7 @@ To pre-cache contents on both child and parent cache nodes, the pre-cache action
     > [!NOTE]
     > The warmup.txt file must have one URL per line. Also, if you are rewriting the host name as described in the article [Deploying Application Request Routing in CDN](../installing-application-request-routing-arr/deploying-application-request-routing-in-cdn.md), then the domain names for the URLs in this file must match what the cache node expects to receive. The URLs must be pre-rewritten domain names because ARR will be processing the URLs to rewrite the host name and apply CARP to cache the content correctly.
 
-    This feature is scriptable and, therefore, can also be scheduled using Task Scheduler.
+
 
 ## Step 2 - Verify functionality.
 
