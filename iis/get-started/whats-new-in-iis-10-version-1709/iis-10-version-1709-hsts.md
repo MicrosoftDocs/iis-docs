@@ -58,7 +58,7 @@ An alternative solution is installing the [URL Rewrite Module](https://docs.micr
 
 With the release of Windows Server 2016 version 1709, we are pleased to announce that IIS 10.0 version 1709 now supports HSTS natively. The configuration for enabling HSTS is significantly simplified - HSTS can be easily enabled at site-level by configuring the attributes of the `<hsts>` element under each `<site>` element - more details can be found in the configuration reference of HSTS [HSTS Settings for a Web Site <HSTS>](https://docs.microsoft.com/en-us/iis/configuration/system.applicationhost/sites/site/hsts).
 
-The example scenario can be simply achieved by configuring the `enabled`, `max-age`, and `redirectHttpToHttps` attributes of the `<hsts>` element of the website using [IISAdministration powershell cmdlets](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets) following this [tutorial](https://blogs.iis.net/jeonghwan/how-to-use-iisadministration-powershell-cmdlets-to-configure-iis-configuration-settings).
+The example scenario can be simply achieved by configuring the `enabled`, `max-age`, and `redirectHttpToHttps` attributes of the `<hsts>` element of the website using [IISAdministration PowerShell cmdlets](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-10/iisadministration-powershell-cmdlets) following the [tutorial](https://blogs.iis.net/jeonghwan/how-to-use-iisadministration-powershell-cmdlets-to-configure-iis-configuration-settings).
 
 [!code-powershell[Main](iis-10-version-1709-hsts/samples/sample-hsts-single-site.ps1)]
 
