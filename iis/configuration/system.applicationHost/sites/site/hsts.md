@@ -87,3 +87,7 @@ The following code samples enable HSTS for a web site named Contoso with both HT
 ### VBScript
 
 [!code-vb[Main](hsts/samples/sample6.vb)]
+
+### IISAdministration PowerShell Cmdlets
+
+[!code-powershell[Main](hsts/samples/sample7.ps1)]

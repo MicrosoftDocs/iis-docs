@@ -87,3 +87,7 @@ The following code samples configure the default `<hsts>` options for IIS 10.0 v
 ### VBScript
 
 [!code-vb[Main](hsts/samples/sample6.vb)]
+
+### IISAdministration PowerShell Cmdlets
+
+[!code-powershell[Main](hsts/samples/sample7.ps1)]
