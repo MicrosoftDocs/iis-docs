@@ -10,7 +10,7 @@ Default HSTS Settings for a Web Site &lt;hsts&gt;
 <a id="001"></a>
 ## Overview
 
-The `<hsts>` element of the `<siteDefaults>` element contains attributes that allow you to configure default HTTP Strict Transport Security (HSTS) settings for a site on IIS 10.0 RS3 and later.
+The `<hsts>` element of the `<siteDefaults>` element contains attributes that allow you to configure default HTTP Strict Transport Security (HSTS) settings for a site on IIS 10.0 version 1709 and later.
 
 > [!NOTE]
 > If the `<hsts>` element is configured in both the `<siteDefaults>` section and in the `<site>` section for a specific site, the configuration in the `<site>` section is used for that site.
@@ -20,7 +20,7 @@ The `<hsts>` element of the `<siteDefaults>` element contains attributes that al
 
 | Version | Notes |
 | --- | --- |
-| IIS 10.0 RS3 | The `<hsts>` element of the `<siteDefaults>` element was introduced in IIS 10.0 RS3. |
+| IIS 10.0 version 1709 | The `<hsts>` element of the `<siteDefaults>` element was introduced in IIS 10.0 version 1709. |
 | IIS 10.0 | N/A |
 | IIS 8.5 | N/A |
 | IIS 8.0 | N/A |
@@ -31,12 +31,12 @@ The `<hsts>` element of the `<siteDefaults>` element contains attributes that al
 <a id="003"></a>
 ## Setup
 
-The `<hsts>` element of the `<siteDefaults>` element is included in the default installation of IIS 10.0 RS3 and later.
+The `<hsts>` element of the `<siteDefaults>` element is included in the default installation of IIS 10.0 version 1709 and later.
 
 <a id="004"></a>
 ## How To
 
-There is no user interface that lets you configure the `<hsts>` element of the `<siteDefaults>` element for IIS 10.0 RS3. For examples of how to configure the `<hsts>` element of the `<siteDefaults>` element programmatically, see the [Sample Code](#006) section of this document.
+There is no user interface that lets you configure the `<hsts>` element of the `<siteDefaults>` element for IIS 10.0 version 1709. For examples of how to configure the `<hsts>` element of the `<siteDefaults>` element programmatically, see the [Sample Code](#006) section of this document.
 
 ## Configuration
 
@@ -56,14 +56,14 @@ None.
 
 ### Configuration Sample
 
-The following configuration sample specifies the default `<hsts>` options for IIS 10.0 RS3 and later.
+The following configuration sample specifies the default `<hsts>` options for IIS 10.0 version 1709 and later.
 
 [!code-xml[Main](hsts/samples/sample1.xml)]
 
 <a id="006"></a>
 ## Sample Code
 
-The following code samples configure the default `<hsts>` options for IIS 10.0 RS3 and later.
+The following code samples configure the default `<hsts>` options for IIS 10.0 version 1709 and later.
 
 ### AppCmd.exe
 

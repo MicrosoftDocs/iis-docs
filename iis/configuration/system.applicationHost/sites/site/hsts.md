@@ -10,7 +10,7 @@ HSTS Settings for a Web Site &lt;hsts&gt;
 <a id="001"></a>
 ## Overview
 
-The `<hsts>` element of the `<site>` element contains attributes that allow you to configure HTTP Strict Transport Security (HSTS) settings for a site on IIS 10.0 RS3 and later.
+The `<hsts>` element of the `<site>` element contains attributes that allow you to configure HTTP Strict Transport Security (HSTS) settings for a site on IIS 10.0 version 1709 and later.
 
 > [!NOTE]
 > If the `<hsts>` element is configured in both the `<siteDefaults>` section and in the `<site>` section for a specific site, the configuration in the `<site>` section is used for that site.
@@ -20,7 +20,7 @@ The `<hsts>` element of the `<site>` element contains attributes that allow you 
 
 | Version | Notes |
 | --- | --- |
-| IIS 10.0 RS3 | The `<hsts>` element of the `<site>` element was introduced in IIS 10.0 RS3. |
+| IIS 10.0 version 1709 | The `<hsts>` element of the `<site>` element was introduced in IIS 10.0 version 1709. |
 | IIS 10.0 | N/A |
 | IIS 8.5 | N/A |
 | IIS 8.0 | N/A |
@@ -31,12 +31,12 @@ The `<hsts>` element of the `<site>` element contains attributes that allow you 
 <a id="003"></a>
 ## Setup
 
-The `<hsts>` element of the `<site>` element is included in the default installation of IIS 10.0 RS3 and later.
+The `<hsts>` element of the `<site>` element is included in the default installation of IIS 10.0 version 1709 and later.
 
 <a id="004"></a>
 ## How To
 
-There is no user interface that lets you configure the `<hsts>` element of the `<site>` element for IIS 10.0 RS3. For examples of how to configure the `<hsts>` element of the `<site>` element programmatically, see the [Sample Code](#006) section of this document.
+There is no user interface that lets you configure the `<hsts>` element of the `<site>` element for IIS 10.0 version 1709. For examples of how to configure the `<hsts>` element of the `<site>` element programmatically, see the [Sample Code](#006) section of this document.
 
 ## Configuration
 
