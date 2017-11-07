@@ -13,26 +13,26 @@ msc.type: authoredcontent
 ---
 IIS CORS module Configuration Reference
 ====================
-by IIS Team
+by the IIS Team
 
 > This article provides an overview of the IIS CORS module and explains the configuration of the module.
 
 <a id="_Functionality_Overview"></a>
 ## Functionality Overview
 
-Microsoft IIS CORS module is a IIS module specifically designed for CORS (Cross-origin resource sharing) protocol support.
+The Microsoft IIS CORS Module is an extension that enables web sites to support the [CORS](https://www.w3.org/TR/cors/)(Cross-Origin Resource Sharing) protocol.
 
-The IIS CORS module enables IIS administrators and website authors to make an IIS server support the CORS protocol and properly handle CORS requests based on the CORS rules as defined or configured by users. It also allows the administrators and developers to move CORS logic out of their applications and rely on the web server and to easily define or configure these access rules and delegate all CORS protocol handling to the module.
+The IIS CORS module provides a way for web server administrators and web site authors to make their applications support the CORS protocol. With this module, developers can move CORS logic out of their applications and rely on the web server. The module's handling of CORS requests is determined by rules defined in the configuration. These CORS rules can be easily defined or configured making it simple to delegate all CORS protocol handling to the module.
 
 ### IIS CORS module is a server-side CORS component
 
-CORS protocol defines client/server communication. Usually, browsers (user-agents) which support CORS work as the client-side CORS component, while the IIS server works as the server-side CORS component with the help of IIS CORS module.
+The CORS protocol governs client/server communication. Usually, web browsers act as the client-side CORS component, while the IIS server works as the server-side CORS component with the help of the IIS CORS module.
 
-A CORS request occurs when a client-side CORS component makes a special request to a different domain from the current domain (origin), which is called a cross-origin request. When CORS is not used, cross-origin requests are considered unsafe and are disallowed by the browser. CORS make it possible to make cross-origin requests safely by defining a protocol.
+A CORS request occurs when a protocol aware client, such as a web browser, makes a request to a domain (origin) that differs from the current domain. This scenario is known as a cross-origin request. When CORS is not used, cross-origin requests will be blocked by the client. When the CORS module is used, IIS will inform clients whether a cross-origin request can be performed based on the IIS configuration.
 
 ### CORS preflight request
 
-A CORS preflight request is to determine whether the resource being requested is set to be shared across origins by the server. The CORS preflight uses OPTIONS method with the ACCESS-CONTROL-REQUEST-METHOD and the ORIGIN request headers. IIS CORS module is designed to serve the CORS preflight requests before other IIS modules handle the same request. The OPTIONS requests are always anonymous, so CORS module provides IIS servers a way to correctly respond to the preflight request even if anonymous authentification needs to be disabled server-wise.
+A CORS preflight request is used to determine whether the resource being requested is set to be shared across origins by the server. The CORS preflight uses the HTTP _OPTIONS_ method with the _ACCESS-CONTROL-REQUEST-METHOD_ and the _ORIGIN_ request headers. The IIS CORS module is designed to handle the CORS preflight requests before other IIS modules handle the same request. The OPTIONS requests are always anonymous, so CORS module provides IIS servers a way to correctly respond to the preflight request even if anonymous authentification needs to be disabled server-wise.
 
 <a id="_IISCORS_Configuration"></a>
 ## CORS Configuration
