@@ -54,10 +54,10 @@ In some cases the users performing the deployment are Domain Administrators and 
 
 | **Section** | **Tasks** |
 | --- | --- |
-| [General Permissions](http://technet2.microsoft.com/WindowsServer2008/en/library/4aca2aae-a9cf-4b5c-afb2-573603cf77b01033.mspx#Perf1) |  |
-| [Permissions for Common Management Tasks](http://technet2.microsoft.com/WindowsServer2008/en/library/4aca2aae-a9cf-4b5c-afb2-573603cf77b01033.mspx#Perf1) | - Add or Remove an Image Group - Add or Remove an Install Image - Disable an ImageAdd a Boot Image - Remove a Boot Image - Set Properties on an Image - Add a Prestaged Device - Approve a Pending Device - Domain Join Rights for Prestaged Devices - Convert a RIPREP image - Create a Discover or Capture image - Create or modify a Multicast Transmission |
-| [Permissions for Client Installations](http://technet2.microsoft.com/WindowsServer2008/en/library/4aca2aae-a9cf-4b5c-afb2-573603cf77b01033.mspx#Perf2) | - PXE Boot a Client - Select a Boot Image - Select an Install Image - Permissions Required to Join a Domain - ResetBootProgram Functionality - Disabling Shift+F10 and CTRL Functionalities |
-| [Permissions for Server Properties](http://technet2.microsoft.com/WindowsServer2008/en/library/4aca2aae-a9cf-4b5c-afb2-573603cf77b01033.mspx#walkthrough) |  |
+| General Permissions |  |
+| Permissions for Common Management Tasks | - Add or Remove an Image Group - Add or Remove an Install Image - Disable an ImageAdd a Boot Image - Remove a Boot Image - Set Properties on an Image - Add a Prestaged Device - Approve a Pending Device - Domain Join Rights for Prestaged Devices - Convert a RIPREP image - Create a Discover or Capture image - Create or modify a Multicast Transmission |
+| Permissions for Client Installations | - PXE Boot a Client - Select a Boot Image - Select an Install Image - Permissions Required to Join a Domain - ResetBootProgram Functionality - Disabling Shift+F10 and CTRL Functionalities |
+| Permissions for Server Properties |  |
 
 <a id="Creating"></a>
 
