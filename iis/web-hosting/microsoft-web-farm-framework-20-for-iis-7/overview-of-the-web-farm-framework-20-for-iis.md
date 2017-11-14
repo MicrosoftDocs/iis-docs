@@ -54,7 +54,7 @@ The following key terms and concepts are used in the Web Farm Framework articles
 
 **Controller server** The server that manages provisioning of the servers in the server farm. This can not be combined with Primary or Secondary Servers.
 
-**Primary server** The server that is used to define the platform applications and components to install. The primary server also definse the configuration of those applications and components and the content that is provisioned and synchronized to the secondary servers in the server farm.
+**Primary server** The server that is used to define the platform applications and components to install. The primary server also defines the configuration of those applications and components and the content that is provisioned and synchronized to the secondary servers in the server farm.
 
 **Secondary server** Additional servers that are synchronized to the primary server for platform applications and components, configuration settings, content, and applications.
 
