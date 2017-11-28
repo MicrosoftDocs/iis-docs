@@ -1,3 +1,14 @@
+---
+title: "Contributing to the Internet Information Services (IIS) documentation | Microsoft Docs"
+author: shirhatti
+description: "This document covers the process for contributing to the articles and code samples that are hosted on the IIS documentation site."
+ms.author: soshir
+ms.date: 5/18/2017
+ms.topic: other
+ms.technology: iis
+ms.prod: iis
+msc.type: authoredcontent
+---
 # Contributing to the Internet Information Services (IIS) documentation
 
 This document covers the process for contributing to the articles and code samples that are hosted on the [IIS documentation site](https://docs.microsoft.com/iis/). Contributions may be as simple as typo corrections or as complex as new articles.
