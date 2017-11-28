@@ -40,9 +40,7 @@ Use the following instructions to create pretty permalinks for your blog posts.
  This will take you to the page where you can customize how WordPress generates permalinks for blog posts.
 4. On the **Permalinks** page, select **Custom, specify below** and enter "/%year%/%monthnum%/%day%/%postname%/" in the **Custom structure** text box.
 5. Click **Update Permalink Structure**.
-
-
-[![](enabling-pretty-permalinks-in-wordpress/_static/image3.png)](enabling-pretty-permalinks-in-wordpress/_static/image1.png)
+    [![](enabling-pretty-permalinks-in-wordpress/_static/image3.png)](enabling-pretty-permalinks-in-wordpress/_static/image1.png)
 
 All the blog post links will have URLs that follow the format that you have specified, but if you click any one of those links the Web server will return a 404 - File Not Found error. This is because WordPress relies on a URL rewriting capability within the server to rewrite requests that have "pretty permalinks" to an Index.php file. In the next section, you will create a rule that will provide this capability.
 
