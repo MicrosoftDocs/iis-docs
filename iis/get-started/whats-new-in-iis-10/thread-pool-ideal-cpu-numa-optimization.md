@@ -1,8 +1,12 @@
 ---
 title: "IIS Thread Pool Ideal CPU Optimization for NUMA hardware | Microsoft Docs"
 author: bangbingsyb
-description: ""
+description: "The article introduces native HTTP Strict Transport Security (HSTS) support in IIS 10.0 version 1709."
 ms.author: yashi
+ms.date: 10/24/2017
+ms.topic: article
+ms.technology: iis
+ms.prod: iis
 msc.type: authoredcontent
 ---
 IIS Thread Pool Ideal CPU Optimization for NUMA hardware
