@@ -72,10 +72,10 @@ You can find the detailed explanation of the two models and their differences in
 2. In Visual Studio, use the **Build** \ **Publish** option to publish the contents of your Web application to an IIS Web site.  
     [![](using-visual-studio-2008-with-iis/_static/image4.png)](using-visual-studio-2008-with-iis/_static/image3.png)   
 
-> [!NOTE]
-> The **Publish Web** dialog by default publishes only the parts of your project that comprise your Web application - it does not publish the project file, obj directory, and other files. This is important because exposing these components to your Web users may be a security risk.  
+    > [!NOTE]
+    > The **Publish Web** dialog by default publishes only the parts of your project that comprise your Web application - it does not publish the project file, obj directory, and other files. This is important because exposing these components to your Web users may be a security risk.  
   
- By clicking the "…" button, you can chose one of the four options for publishing your Web site: 
+    By clicking the "…" button, you can chose one of the four options for publishing your Web site: 
 
     - **File System**. When using this option, Visual Studio opens / creates the Web application as a folder, and uses the built-in ASP.NET Development Server to host the Web site. This option may be sufficient for basic testing of ASP.NET applications – however, this mode does not support running ASP.NET applications in Integrated mode, and it does not support application technologies other than ASP.NET (such as PHP, ASP, CGI, etc).
     - **Local IIS**. When using this option, Visual Studio allows you to publish your application files to a local IIS Web site or application. You can also use the dialog to create new IIS applications or virtual directories to publish your files to.
@@ -88,12 +88,13 @@ You can find the detailed explanation of the two models and their differences in
     - The ASP.NET Development Server does not support many of the IIS configuration features, so if your application relies on or uses them, its behavior may be different or incorrect when hosted under the ASP.NET Development Server.
     - The ASP.NET Development Server does not support hosting portions of your application that utilize application technologies other than ASP.NET, such as PHP, CGI, and other third party frameworks.
   
- If you are developing on Windows Vista, you can easily take advantage of IIS to test your application locally by using the same environment it will be on when it is deployed - use the **Create Virtual Directory** option or the **Publish Web** dialog as discussed earlier in this article.  
+If you are developing on Windows Vista, you can easily take advantage of IIS to test your application locally by using the same environment it will be on when it is deployed - use the **Create Virtual Directory** option or the **Publish Web** dialog as discussed earlier in this article.  
   
- Alternatively, you can configure Visual Studio to connect to the a remote IIS server to which you publish your application.  
+Alternatively, you can configure Visual Studio to connect to the a remote IIS server to which you publish your application.  
   
- In those cases, you can configure Visual Studio to debug your application in the IIS environment. To do this, right-click the project node, chose **Properties**, and click the **Web** tab. In the **Web** tab, select the **Use Local IIS Web server** option. The base URL of your Web application should populate automatically.  
-    [![](using-visual-studio-2008-with-iis/_static/image6.png)](using-visual-studio-2008-with-iis/_static/image5.png)
+In those cases, you can configure Visual Studio to debug your application in the IIS environment. To do this, right-click the project node, chose **Properties**, and click the **Web** tab. In the **Web** tab, select the **Use Local IIS Web server** option. The base URL of your Web application should populate automatically.  
+
+[![](using-visual-studio-2008-with-iis/_static/image6.png)](using-visual-studio-2008-with-iis/_static/image5.png)
 
 For more information on configuring remote debugging, see "Debugging IIS Web Applications" later in this article.
 
