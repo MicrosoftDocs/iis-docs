@@ -30,7 +30,7 @@ An application must contain at least one virtual directory, called the root or d
 | --- | --- |
 | IIS 10.0 | The `<application>` element was not modified in IIS 10.0. |
 | IIS 8.5 | The `<application>` element was not modified in IIS 8.5. |
-| IIS 8.0 | The `preLoadEnabled` attribute was added to initiate the initialization process prior to receiving a request. |
+| IIS 8.0 | The `preloadEnabled` attribute was added to initiate the initialization process prior to receiving a request. |
 | IIS 7.5 | The `<application>` element was updated to include the `serviceAutoStartEnabled` and `serviceAutoStartProvider` attributes. |
 | IIS 7.0 | The `<application>` element was introduced in IIS 7.0. |
 | IIS 6.0 | The `<application>` element replaces the IIS 6.0 **IIsWebVirtualDir** and **IIsWebDirectory** metabase objects. |
@@ -81,7 +81,7 @@ The `<application>` element is configurable at the server level in the Applicati
 | `applicationPool` | Optional string attribute.<br><br>Specifies the application pool to which the application is assigned.<br><br>There is no default value. |
 | `enabledProtocols` | Optional string attribute.<br><br>Specifies the protocols through which to communicate with the application. This value enables HTTP and HTTPS protocols for the application.<br><br>The default value is `http`. |
 | `path` | Required string attribute.<br><br>Specifies the virtual path of the application. Must be a unique path within the parent site.<br><br>There is no default value. |
-| `preLoadEnabled` | Optional Boolean attribute.<br><br>Specifies that IIS simulates a user request to the default page of an application or virtual directory so that it is initialized. In effect IIS starts the application when the application pool is started without having received a request. This increases performance by performing initialization tasks such as loading managed modules and compiling managed code. No log is generated in the IIS logs. The application pool's startMode setting must be set to `AlwaysRunning`.<br><br>The default value is `False`. |
+| `preloadEnabled` | Optional Boolean attribute.<br><br>Specifies that IIS simulates a user request to the default page of an application or virtual directory so that it is initialized. In effect IIS starts the application when the application pool is started without having received a request. This increases performance by performing initialization tasks such as loading managed modules and compiling managed code. No log is generated in the IIS logs. The application pool's startMode setting must be set to `AlwaysRunning`.<br><br>The default value is `False`. |
 | `serviceAutoStartEnabled` | Optional Boolean attribute.<br><br>**true** if the autostart is enabled for this application; otherwise, **false**.<br><br>The default value is `false`. |
 | `serviceAutoStartProvider` | Optional string attribute.<br><br>Specifies the name of the autostart provider that the Windows Process Activation Service (WAS) will use if `serviceAutoStartEnabled` is set to **true**.<br><br>There is no default value. |
 
