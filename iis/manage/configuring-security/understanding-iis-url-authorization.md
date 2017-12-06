@@ -136,7 +136,7 @@ Suppose the administrator wants to ensure that all users of a particular site mu
 
 [!code-xml[Main](understanding-iis-url-authorization/samples/sample7.xml)]
 
-This configuration denies access to anonymous users (\* = anonymous users, ? = authenticated users). With the lockElements="clear", you ensure that no one on a lower level can clear the inheritance of this setting. Your setting would be inherited to all applications and virtual directories of this site. It comes to a lock violation when you try to use the &lt;clear/&gt; statement at a lower level.
+This configuration denies access to anonymous users (\? = anonymous users, * = authenticated users). With the lockElements="clear", you ensure that no one on a lower level can clear the inheritance of this setting. Your setting would be inherited to all applications and virtual directories of this site. It comes to a lock violation when you try to use the &lt;clear/&gt; statement at a lower level.
 
 For more information on configuration locking, see [https://msdn.microsoft.com/en-us/library/ms178693.aspx](https://msdn.microsoft.com/en-us/library/ms178693.aspx).
 
