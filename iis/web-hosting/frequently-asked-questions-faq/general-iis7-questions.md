@@ -28,7 +28,7 @@ The impact will depend on the server load. If you are doing 10,000 requests/seco
 
 There is basic ruby support. See following link for more information:
 
-[http://mvolo.com/blogs/serverside/archive/2007/02/18/10-steps-to-get-Ruby-on-Rails-running-on-Windows-with-IIS-FastCGI.aspx](http://mvolo.com/blogs/serverside/archive/2007/02/18/10-steps-to-get-Ruby-on-Rails-running-on-Windows-with-IIS-FastCGI.aspx)
+[http://mvolo.com/10-steps-to-get-ruby-on-rails-running-on-windows-with-iis-fastcgi/](http://mvolo.com/10-steps-to-get-ruby-on-rails-running-on-windows-with-iis-fastcgi/)
 
 #### Does the installation order of modules matter?
 

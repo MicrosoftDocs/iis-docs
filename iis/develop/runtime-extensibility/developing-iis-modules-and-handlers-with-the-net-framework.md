@@ -26,9 +26,7 @@ This article focuses on getting started with developing IIS 7.0 and above Web se
 4. How to develop a simple module and handler
 5. How to deploy a simple module and handler to an IIS server
 
-To see some real-world managed IIS modules and handlers, and download them for your application, visit [Redirect requests to your application with the HttpRedirection module](http://mvolo.com/blogs/serverside/pages/Redirect-requests-to-your-application-with-the-HttpRedirection-module.aspx), [Get nice looking directory listings for your IIS website with DirectoryListingModule](http://mvolo.com/blogs/serverside/archive/2007/01/21/Get-nice-looking-directory-listings-for-your-IIS-website-with-DirectoryListingModule.aspx), [Display pretty file icons in your ASP.NET applications with IconHandler](http://mvolo.com/blogs/serverside/archive/2007/01/11/Display-pretty-file-icons-in-your-ASP.NET-applications-with-IconHandler.aspx), and [Stopping hot-linking with IIS and ASP.NET](http://mvolo.com/blogs/serverside/archive/2006/11/10/Stopping-hot_2D00_linking-with-IIS-and-ASP.NET.aspx).
-
-You can also download the [source code project](http://mvolo.com/blogs/serverside/attachment/5050.ashx) for the module and handler described in this article.
+To see some real-world managed IIS modules and handlers, and download them for your application, visit [Redirect requests to your application with the HttpRedirection module](http://mvolo.com/redirect-requests-to-your-application-with-the-httpredirection-module/), [Get nice looking directory listings for your IIS website with DirectoryListingModule](http://mvolo.com/get-nice-looking-directory-listings-for-your-iis-website-with-directorylistingmodule/), and [Display pretty file icons in your ASP.NET applications with IconHandler](http://mvolo.com/display-pretty-file-icons-in-your-aspnet-applications-with-iconhandler/).
 
 ## Introduction: Developing IIS features with ASP.NET
 
@@ -47,7 +45,7 @@ To build IIS modules and handlers, use any environment that allows you to develo
 The samples in this article use C#, although you can develop IIS components in any other supported .NET language (except managed C++). The article illustrates how to develop IIS extensibility components with all three of the above environments.
 
 > [!NOTE]
-> Because IIS leverages the existing ASP.NET APIs for its .NET extensibility, you can develop IIS .NET modules and handlers with .NET Framework 2.0 on Windows XP® and Windows Server® 2003. However, if you plan to use one of the several new ASP.NET APIs that have been added to support new IIS features, you must either develop on Windows Vista®, or obtain the version of System.Web.dll from in Windows Vista or the latest release of [.Net Framework 3.5](https://msdn.microsoft.com/en-us/netframework/default.aspx) in order to compile your code. More on this [further in the article](http://mvolo.com/blogs/serverside/archive/2007/08/15/Developing-IIS7-web-server-features-with-the-.NET-framework.aspx#systemweb).
+> Because IIS leverages the existing ASP.NET APIs for its .NET extensibility, you can develop IIS .NET modules and handlers with .NET Framework 2.0 on Windows XP® and Windows Server® 2003. However, if you plan to use one of the several new ASP.NET APIs that have been added to support new IIS features, you must either develop on Windows Vista®, or obtain the version of System.Web.dll from in Windows Vista or the latest release of [.Net Framework 3.5](https://msdn.microsoft.com/en-us/netframework/default.aspx) in order to compile your code.
 
 ## Two Ways to Extend IIS: Module vs. Handler
 
@@ -70,7 +68,7 @@ This article demonstrates building both a simple module, and a simple handler, t
 
 ## Getting Started: Creating the Visual Studio Project
 
-To build either a module or a handler, you must produce a .NET assembly (DLL) containing the module/handler classes. If you are using Visual Studio or Visual Studio Express tools, the first step is creating a Class Library project (if you are using your own text editor and the command line compiler, skip to [compiling the project](http://mvolo.com/blogs/serverside/archive/2007/08/15/Developing-IIS7-web-server-features-with-the-.NET-framework.aspx#compileit) for instructions on how to compile the project without Visual Studio):
+To build either a module or a handler, you must produce a .NET assembly (DLL) containing the module/handler classes. If you are using Visual Studio or Visual Studio Express tools, the first step is creating a Class Library project:
 
 1. From the "**File**" menu, select "**New**", "**Project ...**". In the New Project dialog (below), select the "**Visual C#**" project type and select the "**Class Library**" in the right hand list of Visual Studio installed templates.  
   
@@ -86,7 +84,7 @@ To build either a module or a handler, you must produce a .NET assembly (DLL) co
 
 ## Writing Code: Building a Simple Module
 
-The first task is to build a simple module. Later in the article, we also build a sample handler - jump ahead if you want to [read about building a handler instead](http://mvolo.com/blogs/serverside/archive/2007/08/15/Developing-IIS7-web-server-features-with-the-.NET-framework.aspx#handler).
+The first task is to build a simple module. Later in the article, we also build a sample handler.
 
 To create a **module**, define a class that implements the [**System.Web.IHttpModule**](https://msdn.microsoft.com/en-us/library/system.web.ihttpmodule.aspx) interface.
 
@@ -121,7 +119,7 @@ The code above checks if the Referer header has been specified, and if so, it re
 
 ## Writing Code: Building a Simple Handler
 
-The next task is to build a simple handler. Earlier in the article, we built a sample module - go back if you want to [read about building a module instead](http://mvolo.com/blogs/serverside/archive/2007/08/15/Developing-IIS7-web-server-features-with-the-.NET-framework.aspx#module).
+The next task is to build a simple handler. Earlier in the article, we built a sample module - go back if you want to read about building a module instead.
 
 To create a **handler**, we must define a class that implements the [**System.Web.IHttpHandler**](https://msdn.microsoft.com/en-us/library/system.web.ihttphandler.aspx) interface (we can also implement the[**System.Web.IHttpAsyncHandler**](https://msdn.microsoft.com/en-us/library/system.web.ihttpasynchandler.aspx)if we want the page to execute asynchronously). To do that:
 
@@ -213,6 +211,6 @@ We have deployed and configured the module / handler. Now to test them:
 
 In this article, we illustrated the basic steps for developing an IIS module and handler with the familiar ASP.NET APIs, and deploying them to your application. We also discussed the choices you have for your development environment, and how to decide when to build a module vs. a handler. The information in this article should enable you to build your first modules and handlers to empower your IIS applications.
 
-Download the [source code project](http://mvolo.com/blogs/serverside/attachment/5050.ashx) for the module and handler described in this article. You can also review an example module that enables basic authentication against ASP.NET's Membership providers in [Developing a Module using .NET](developing-a-module-using-net.md).
+You can also review an example module that enables basic authentication against ASP.NET's Membership providers in [Developing a Module using .NET](developing-a-module-using-net.md).
 
-Be sure to check out more examples of how managed IIS modules and handlers can add value to your applications, and download them for your application by visiting [Redirect requests to your application with the HttpRedirection module](http://mvolo.com/blogs/serverside/pages/Redirect-requests-to-your-application-with-the-HttpRedirection-module.aspx), [Get nice looking directory listings for your IIS website with DirectoryListingModule](http://mvolo.com/blogs/serverside/archive/2007/01/21/Get-nice-looking-directory-listings-for-your-IIS-website-with-DirectoryListingModule.aspx), [Display pretty file icons in your ASP.NET applications with IconHandler](http://mvolo.com/blogs/serverside/archive/2007/01/11/Display-pretty-file-icons-in-your-ASP.NET-applications-with-IconHandler.aspx), and [Stopping hot-linking with IIS and ASP.NET](http://mvolo.com/blogs/serverside/archive/2006/11/10/Stopping-hot_2D00_linking-with-IIS-and-ASP.NET.aspx).
+Be sure to check out more examples of how managed IIS modules and handlers can add value to your applications, and download them for your application by visiting [Redirect requests to your application with the HttpRedirection module](http://mvolo.com/redirect-requests-to-your-application-with-the-httpredirection-module/), [Get nice looking directory listings for your IIS website with DirectoryListingModule](http://mvolo.com/get-nice-looking-directory-listings-for-your-iis-website-with-directorylistingmodule/), and [Display pretty file icons in your ASP.NET applications with IconHandler](http://mvolo.com/display-pretty-file-icons-in-your-aspnet-applications-with-iconhandler/).

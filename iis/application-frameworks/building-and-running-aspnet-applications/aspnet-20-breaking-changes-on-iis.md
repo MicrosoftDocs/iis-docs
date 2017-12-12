@@ -98,7 +98,7 @@ In addition, when using Forms Authentication, the following changes are in effec
 
 ##### Workaround
 
-A. Change your application to use the pattern explained in [Implementing a two level authentication scheme using Forms Authentication and another IIS authentication method in IIS 7.0](http://mvolo.com/blogs/serverside/archive/2008/02/11/IIS-7.0-Two_2D00_Level-Authentication-with-Forms-Authentication-and-Windows-Authentication.aspx).
+A. Change your application to use the pattern explained in [Implementing a two level authentication scheme using Forms Authentication and another IIS authentication method in IIS 7.0](http://mvolo.com/iis-70-twolevel-authentication-with-forms-authentication-and-windows-authentication/).
 
 #### 5. Windows Authentication is performed in the kernel by default, which may cause HTTP clients that send credentials on the initial request to fail
 
@@ -216,7 +216,7 @@ If your application accesses the current request context in the Application\_Sta
 
 ##### Workaround
 
-A. See **[Request is not available in this context exception in Application\_Start](http://mvolo.com/blogs/serverside/archive/2007/11/10/Integrated-mode-Request-is-not-available-in-this-context-in-Application_5F00_Start.aspx)** for a detailed description of this problem and available workarounds.
+A. See **[Request is not available in this context exception in Application\_Start](http://mvolo.com/iis7-integrated-mode-request-is-not-available-in-this-context-exception-in-applicationstart/)** for a detailed description of this problem and available workarounds.
 
 #### 17. The order in which module event handlers execute may be different then in Classic mode
 

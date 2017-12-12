@@ -170,5 +170,5 @@ You can refresh the view several times to observe that the same request continue
 
 ## Links for Further Information
 
-- [IIS 7.0 Server-Side](http://mvolo.com/blogs/serverside/archive/2007/06/19/Do-complex-IIS-management-tasks-easily-with-AppCmd-command-piping.aspx).
+- [IIS 7.0 Server-Side](http://mvolo.com/do-complex-iis-management-tasks-easily-with-appcmd-command-piping/).
 - [Error Handling and Logging](http://www.php.net/errorfunc).

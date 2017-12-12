@@ -299,7 +299,6 @@ Earlier versions of IIS do not have the URL Rewriter module. One of the major us
 - [Optimize IIS Performance (IIS 7)](https://technet.microsoft.com/en-us/library/cc770381(WS.10).aspx).
 - [Windows Server Performance Team Blog](http://blogs.technet.com/winserverperformance/archive/2008/07/25/tuning-windows-server-2008-for-php.aspx)
 - [Top 10 Performance Improvements in IIS 7.0](https://technet.microsoft.com/en-us/magazine/2008.09.iis.aspx).
-- [ServerSide](http://mvolo.com/photos/serverside/slideshowpro.aspx).
 - [Enable or Disable Logging (IIS 7)](https://technet.microsoft.com/en-us/library/cc754631.aspx).
 - [IIS 7.0 Bit Rate Throttling Module Released](https://weblogs.asp.net/scottgu/archive/2008/03/18/iis-7-0-bit-rate-throttling-module-released.aspx)
 - [Bit Rate Throttling is now released](https://blogs.iis.net/vsood/archive/2008/03/15/bit-rate-throttling-is-now-released.aspx).
