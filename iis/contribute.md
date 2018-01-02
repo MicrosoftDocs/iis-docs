@@ -3,7 +3,7 @@ title: "Contributing to the Internet Information Services (IIS) documentation | 
 author: shirhatti
 description: "This document covers the process for contributing to the articles and code samples that are hosted on the IIS documentation site."
 ms.author: soshir
-ms.date: 5/18/2017
+ms.date: 05/18/2017
 ms.topic: other
 ms.technology: iis
 ms.prod: iis
