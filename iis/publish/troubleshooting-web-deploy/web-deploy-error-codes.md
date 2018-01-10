@@ -179,7 +179,7 @@ Workaround: From the Programs Control Panel, run Repair on Web Deploy 2.0. Alter
 
 **Resolution**: Grant the appropriate account Full Control on the site's root folder. Alternatively:
 
-- Start IIS Manger and right click on the site in question
+- Start IIS Manager and right click on the site in question
 - Click Deploy &gt; Configure for Web Deploy Publishing
 - Select the appropriate username
 - Click Setup
