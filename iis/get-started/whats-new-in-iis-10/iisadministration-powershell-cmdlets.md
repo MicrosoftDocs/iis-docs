@@ -21,9 +21,10 @@ by Baris Caglar
 
 | Version | Notes |
 | --- | --- |
-| IIS 10.0 | IISAdministration PowerShell Cmdlets were introduced in IIS 10.0 |
-| IIS 8.5 and earlier | IISAdministration PowerShell Cmdlets were not supported prior to IIS 10.0 |
+| IIS 10.0 | IISAdministration PowerShell Cmdlets were introduced in IIS 10.0. The latest version of IISAdministration is supported via Powershell gallery. |
+| IIS 8.5 and earlier | IISAdministration PowerShell Cmdlets were not supported prior to IIS 10.0. However, users can install it via Powershell gallery. |
 
+Visit [iis.net](https://blogs.iis.net/iisteam/introducing-iisadministration-in-the-powershell-gallery "Introducing IISAdministration in the Powershell gallery") to learn about how to get the latest version of IISAdministration.
 
 ## IISAdministration Overview
 
@@ -63,4 +64,4 @@ As you can see, once you have access to the server manager, the sky is the limit
 
 By enclosing your operations between these commands, you can make sure that your changes are committed at the same time.
 
-These are only a handful of examples of what you can do with the new provider. Visit [TechNet](https://technet.microsoft.com/en-us/library/mt270166.aspx "IISAdministration") for the complete documentation and more examples.
+These are only a handful of examples of what you can do with the new provider. Visit [Online document](https://docs.microsoft.com/en-us/powershell/module/iisadministration/?view=win10-ps "IISAdministration") for the complete documentation and more examples.
