@@ -22,9 +22,9 @@ by Baris Caglar
 | Version | Notes |
 | --- | --- |
 | IIS 10.0 | IISAdministration PowerShell Cmdlets were introduced in IIS 10.0. The latest version of IISAdministration is supported via Powershell gallery. |
-| IIS 8.5 and earlier | IISAdministration PowerShell Cmdlets were not supported prior to IIS 10.0. However users can install it via Powershell gallery. |
+| IIS 8.5 and earlier | IISAdministration PowerShell Cmdlets were not supported prior to IIS 10.0. However, users can install it via Powershell gallery. |
 
-Visit [iis.net](https://blogs.iis.net/iisteam/introducing-iisadministration-in-the-powershell-gallery "Introducing IISAdministration in the Powershell gallery") to know about how to get the latest version of IISAdministration.
+Visit [iis.net](https://blogs.iis.net/iisteam/introducing-iisadministration-in-the-powershell-gallery "Introducing IISAdministration in the Powershell gallery") to learn about how to get the latest version of IISAdministration.
 
 ## IISAdministration Overview
 
