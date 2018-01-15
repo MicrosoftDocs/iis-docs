@@ -22,7 +22,6 @@ Once you have enabled shared configuration, a common question is what happens wh
 
 > [!NOTE]
 > In Windows Server 2008 R2 (Windows 7), when the share goes down, the config system will send a special notification to WAS saying that there was an IO error when accessing the config file. At this time, WAS will continue using the cached copy of config that it currently has. Meanwhile, it will continue to poll the config system until the share comes back up (at which time, it will reload config). While WAS is running with cached config, if you stop WAS, or reboot the system, your webserver will stop working until the share comes back up.  
-.
 
 The offline files feature, or client side caching, enables files stored on a network share to be accessed even when the network share is unavailable. It is a simple solution for ensuring the configuration files are always available and is recommended for the shared configuration files. However, offline files are not recommended for the Web site content, because this reduces throughput.
 
