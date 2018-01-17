@@ -19,9 +19,6 @@ by [Robert McMurray](https://github.com/rmcmurray)
 > [!NOTE]
 > This content is outdated and is no longer being maintained. It is provided as a courtesy for individuals who are still using these technologies. This page may contain URLs that were valid when originally published, but now link to sites or pages that no longer exist.
 
-[This is preliminary documentation and is subject to change.]
-
-
 Microsoft has created a new authoring tool for the web named "WebMatrix," which is focused on creating websites the way that you want to create them. You can create websites from scratch or a template, or you can use one of several popular open source applications. WebMatrix Beta lets you download an application from an application gallery, customize it for your needs, analyze it for broken links, optimize it for the web, and deploy it to your hosting provider. (And if you don't have a hosting provider, WebMatrix Beta can help you find one!)
 
 From your first look at WebMatrix Beta you will see how different it really is. With WebMatrix Beta you can manage all your website's content, databases, and Search Engine Optimization (SEO) reports from a single, user-friendly interface. It doesn't matter if you're using ASP.NET, PHP, or HTML - WebMatrix Beta has your developer needs covered.
