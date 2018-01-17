@@ -27,14 +27,13 @@ To see how this works, assume that you have Folder1 and Folder2 under Default We
     [!code-console[Main](skipping-folders-while-provisioning-with-web-farm-framework-20-for-iis/samples/sample1.cmd)]
 2. Under the **applicationProvision** element, add an entry to skip the directives as follows
 
-
 [!code-xml[Main](skipping-folders-while-provisioning-with-web-farm-framework-20-for-iis/samples/sample2.xml?highlight=7-10)]
 
-1. When you save the changes, Web Farms Framework immediately picks up the changes from the configuration file and does application provisioning.
-2. Verify that the secondary servers provisioned only Folder2, and Folder1 was excluded.
-3. You can also skip binding as follows:
+3. When you save the changes, Web Farms Framework immediately picks up the changes from the configuration file and does application provisioning.
+4. Verify that the secondary servers provisioned only Folder2, and Folder1 was excluded.
+5. You can also skip binding as follows:
 
     [!code-xml[Main](skipping-folders-while-provisioning-with-web-farm-framework-20-for-iis/samples/sample3.xml)]
-4. Alternatively, you can sync a specific directory using the **msdeploy** command directly for each secondary server as follows:
+6. Alternatively, you can sync a specific directory using the **msdeploy** command directly for each secondary server as follows:
 
     [!code-console[Main](skipping-folders-while-provisioning-with-web-farm-framework-20-for-iis/samples/sample4.cmd)]
