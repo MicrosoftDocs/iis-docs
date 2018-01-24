@@ -3,7 +3,7 @@
     <system.webServer>
         <httpProtocol>
             <customHeaders>
-                <add name="Strict-Transport-Secuirty" value="max-age=31536000" />
+                <add name="Strict-Transport-Security" value="max-age=31536000" />
             </customHeaders>
         </httpProtocol>
     </system.webServer>
