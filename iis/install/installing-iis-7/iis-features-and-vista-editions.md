@@ -54,947 +54,947 @@ See the Feature Summary below for a detailed list of IIS 7 features available on
 
 ## IIS 7.0 Vista Edition Feature Matrix
 
-<TABLE style='display:block;overflow:auto;'>
-<TBODY>
-<TR>
-<th vAlign=bottom width=339 colSpan=6 noWrap>
+<table style='display:block;overflow:auto;'>
+<tbody>
+<tr>
+<th colSpan=6>
 Display Names / Heirarchy</th>
-<th vAlign=bottom width=233 colSpan=5 noWrap>
+<th colSpan=5>
 Package Update Names</th>
-<th vAlign=bottom width=63 noWrap>
+<th>
 Server</th>
-<th vAlign=bottom width=61 noWrap>
+<th>
 Pro</th>
-<th vAlign=bottom width=61 noWrap>
+<th>
 Premium</th>
-<th vAlign=bottom width=63 noWrap>
+<th>
 Basic &amp; Starter</th></TR>
-<TR>
-<TD vAlign=bottom width=339 colSpan=6 noWrap>
-<P><B>Internet Information Services</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-WebServerRole</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=310 colSpan=5 noWrap>
-<P><B>World Wide Web Services</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-WebServer</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=279 colSpan=4 noWrap>
-<P><B>Common Http Features</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-CommonHttpFeatures</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Static Content</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-StaticContent</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Default Document</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-DefaultDocument</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Directory Browsing</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-DirectoryBrowsing</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>HTTP Errors</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-HttpErrors</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>HTTP Redirection</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-HttpRedirect</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available<?xml namespace="" prefix="O" ?></P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=279 colSpan=4 noWrap>
-<P><B>Application Development Features</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-ApplicationDevelopment</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>ASP.NET</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-ASPNET</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>.NET Extensibility</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-NetFxExtensibility</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>ASP</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-ASP</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>CGI</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-CGI</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>ISAPI Extensions</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-ISAPIExtensions</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>ISAPI Filters</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-ISAPIFilter</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Server-Side Includes</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-ServerSideInclude</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=279 colSpan=4 noWrap>
-<P><B>Health and Diagnostics</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-HealthAndDiagnostics</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>HTTP Logging</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-HTTPLogging</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Logging Tools</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-LoggingLibraries</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Request Monitor</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-RequestMonitor</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Tracing</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-HttpTracing</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Custom Logging</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-CustomLogging</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>ODBC Logging</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-ODBCLogging</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>N/A</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=279 colSpan=4 noWrap>
-<P><B>Security</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-Security</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Basic Authentication</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-BasicAuthentication</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Windows Authentication</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-WindowsAuthentication</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>N/A</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Digest Authentication</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-DigestAuthentication</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>N/A</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Client Certificate Mapping Authentication</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-ClientCertificateMappingAuthentication</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>N/A</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>IIS Client Certificate Mapping Authentication</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-IISCertificateMappingAuthentication</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>N/A</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>URL Authorization</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-URLAuthorization</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Request Filtering</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-RequestFiltering</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>IP Security</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-IPSecurity</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=279 colSpan=4 noWrap>
-<P><B>Performance Features</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-Performance</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Static Content Compression</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-HttpCompressionStatic</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=31 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>Http Compression Dynamic</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-HttpCompressionDynamic</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=310 colSpan=5 noWrap>
-<P><B>Web Management Tools</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-WebServerManagementTools</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=63 colSpan=2 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>IIS Management Console</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-ManagementConsole</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=63 colSpan=2 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>IIS Management Scripts and Tools</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-ManagementScriptingTools</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=63 colSpan=2 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>IIS Management Service</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-ManagementService</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=63 colSpan=2 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=247 colSpan=3 noWrap>
-<P><B>IIS 6 Management Compatibility</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-IIS6ManagementCompatibility</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=63 colSpan=2 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=28 colSpan=2 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=220 noWrap>
-<P><B>IIS Metabase and IIS 6 compatibility</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-Metabase</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=63 colSpan=2 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=28 colSpan=2 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=220 noWrap>
-<P><B>IIS 6 WMI Compatibility</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-WMICompatibility</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=63 colSpan=2 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=28 colSpan=2 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=220 noWrap>
-<P><B>IIS 6 Scripting Tools</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-LegacyScripts</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=63 colSpan=2 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=28 colSpan=2 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=220 noWrap>
-<P><B>IIS 6 Management Console</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-LegacySnapIn</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=310 colSpan=5 noWrap>
-<P><B>FTP Publishing Service</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-FTPPublishingService</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>N/A</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=90 colSpan=4 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=220 noWrap>
-<P><B>FTP Server</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-FTPServer</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>N/A</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=29 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=90 colSpan=4 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=220 noWrap>
-<P><B>FTP Management Console</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>IIS-FTPManagement</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>N/A</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>N/A</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=339 colSpan=6 noWrap>
-<P><B>Windows Activation Service</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>WAS-WindowsActivationService</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=101 colSpan=4 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=238 colSpan=2 noWrap>
-<P><B>Process Model</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>WAS-ProcessModel</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Default</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Default</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=101 colSpan=4 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=238 colSpan=2 noWrap>
-<P><B>.NET Environment</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>WAS-NetFxEnvironment</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=101 colSpan=4 noWrap>
-<P><B>&nbsp;</B> </P></TD>
-<TD vAlign=bottom width=238 colSpan=2 noWrap>
-<P><B>Configuration APIs</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>WAS-ConfigurationAPI</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P>Available</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Available</P></TD></TR>
-<TR>
-<TD vAlign=bottom width=339 colSpan=6 noWrap>
-<P><B>&nbsp;</B> </P>
-<P><B>Request Execution Limit</B></P></TD>
-<TD vAlign=bottom width=233 colSpan=5 noWrap>
-<P>&nbsp;  </P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P>Unlimited</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P align=right>10</P></TD>
-<TD vAlign=bottom width=61 noWrap>
-<P align=right>3</P></TD>
-<TD vAlign=bottom width=63 noWrap>
-<P align=right>3</P></TD></TR>
-</TBODY></TABLE>
+<tr>
+<td colSpan=6>
+<p><b>Internet Information Services</b></p></td>
+<td colSpan=5>
+<p>IIS-WebServerRole</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=5>
+<p><b>World Wide Web Services</b></p></td>
+<td colSpan=5>
+<p>IIS-WebServer</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=4>
+<p><b>Common Http Features</b></p></td>
+<td colSpan=5>
+<p>IIS-CommonHttpFeatures</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Static Content</b></p></td>
+<td colSpan=5>
+<p>IIS-StaticContent</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Default Document</b></p></td>
+<td colSpan=5>
+<p>IIS-DefaultDocument</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Directory Browsing</b></p></td>
+<td colSpan=5>
+<p>IIS-DirectoryBrowsing</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>HTTP Errors</b></p></td>
+<td colSpan=5>
+<p>IIS-HttpErrors</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>HTTP Redirection</b></p></td>
+<td colSpan=5>
+<p>IIS-HttpRedirect</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=4>
+<p><b>Application Development Features</b></p></td>
+<td colSpan=5>
+<p>IIS-ApplicationDevelopment</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>ASP.NET</b></p></td>
+<td colSpan=5>
+<p>IIS-ASPNET</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>.NET Extensibility</b></p></td>
+<td colSpan=5>
+<p>IIS-NetFxExtensibility</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>ASP</b></p></td>
+<td colSpan=5>
+<p>IIS-ASP</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>CGI</b></p></td>
+<td colSpan=5>
+<p>IIS-CGI</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>ISAPI Extensions</b></p></td>
+<td colSpan=5>
+<p>IIS-ISAPIExtensions</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>ISAPI Filters</b></p></td>
+<td colSpan=5>
+<p>IIS-ISAPIFilter</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Server-Side Includes</b></p></td>
+<td colSpan=5>
+<p>IIS-ServerSideInclude</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=4>
+<p><b>Health and Diagnostics</b></p></td>
+<td colSpan=5>
+<p>IIS-HealthAndDiagnostics</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>HTTP Logging</b></p></td>
+<td colSpan=5>
+<p>IIS-HTTPLogging</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Logging Tools</b></p></td>
+<td colSpan=5>
+<p>IIS-LoggingLibraries</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Request Monitor</b></p></td>
+<td colSpan=5>
+<p>IIS-RequestMonitor</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Tracing</b></p></td>
+<td colSpan=5>
+<p>IIS-HttpTracing</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Custom Logging</b></p></td>
+<td colSpan=5>
+<p>IIS-CustomLogging</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>ODBC Logging</b></p></td>
+<td colSpan=5>
+<p>IIS-ODBCLogging</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=4>
+<p><b>Security</b></p></td>
+<td colSpan=5>
+<p>IIS-Security</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Basic Authentication</b></p></td>
+<td colSpan=5>
+<p>IIS-BasicAuthentication</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Windows Authentication</b></p></td>
+<td colSpan=5>
+<p>IIS-WindowsAuthentication</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Digest Authentication</b></p></td>
+<td colSpan=5>
+<p>IIS-DigestAuthentication</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Client Certificate Mapping Authentication</b></p></td>
+<td colSpan=5>
+<p>IIS-ClientCertificateMappingAuthentication</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>IIS Client Certificate Mapping Authentication</b></p></td>
+<td colSpan=5>
+<p>IIS-IISCertificateMappingAuthentication</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>URL Authorization</b></p></td>
+<td colSpan=5>
+<p>IIS-URLAuthorization</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Request Filtering</b></p></td>
+<td colSpan=5>
+<p>IIS-RequestFiltering</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>IP Security</b></p></td>
+<td colSpan=5>
+<p>IIS-IPSecurity</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=4>
+<p><b>Performance Features</b></p></td>
+<td colSpan=5>
+<p>IIS-Performance</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Static Content Compression</b></p></td>
+<td colSpan=5>
+<p>IIS-HttpCompressionStatic</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>Http Compression Dynamic</b></p></td>
+<td colSpan=5>
+<p>IIS-HttpCompressionDynamic</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=5>
+<p><b>Web Management Tools</b></p></td>
+<td colSpan=5>
+<p>IIS-WebServerManagementTools</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>IIS Management Console</b></p></td>
+<td colSpan=5>
+<p>IIS-ManagementConsole</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>IIS Management Scripts and Tools</b></p></td>
+<td colSpan=5>
+<p>IIS-ManagementScriptingTools</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>IIS Management Service</b></p></td>
+<td colSpan=5>
+<p>IIS-ManagementService</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=3>
+<p><b>IIS 6 Management Compatibility</b></p></td>
+<td colSpan=5>
+<p>IIS-IIS6ManagementCompatibility</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>IIS Metabase and IIS 6 compatibility</b></p></td>
+<td colSpan=5>
+<p>IIS-Metabase</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>IIS 6 WMI Compatibility</b></p></td>
+<td colSpan=5>
+<p>IIS-WMICompatibility</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>IIS 6 Scripting Tools</b></p></td>
+<td colSpan=5>
+<p>IIS-LegacyScripts</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>IIS 6 Management Console</b></p></td>
+<td colSpan=5>
+<p>IIS-LegacySnapIn</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=5>
+<p><b>FTP Publishing Service</b></p></td>
+<td colSpan=5>
+<p>IIS-FTPPublishingService</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=4>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>FTP Server</b></p></td>
+<td colSpan=5>
+<p>IIS-FTPServer</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=4>
+<p><b>&nbsp;</b> </p></td>
+<td>
+<p><b>FTP Management Console</b></p></td>
+<td colSpan=5>
+<p>IIS-FTPManagement</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>N/A</p></td>
+<td>
+<p>N/A</p></td></TR>
+<tr>
+<td colSpan=6>
+<p><b>Windows Activation Service</b></p></td>
+<td colSpan=5>
+<p>WAS-WindowsActivationService</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td colSpan=4>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>Process Model</b></p></td>
+<td colSpan=5>
+<p>WAS-ProcessModel</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td>
+<td>
+<p>Default</p></td></TR>
+<tr>
+<td colSpan=4>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>.NET Environment</b></p></td>
+<td colSpan=5>
+<p>WAS-NetFxEnvironment</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td colSpan=4>
+<p><b>&nbsp;</b> </p></td>
+<td colSpan=2>
+<p><b>Configuration APIs</b></p></td>
+<td colSpan=5>
+<p>WAS-ConfigurationAPI</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td>
+<td>
+<p>Available</p></td></TR>
+<tr>
+<td colSpan=6>
+<p><b>&nbsp;</b> </p>
+<p><b>Request Execution Limit</b></p></td>
+<td colSpan=5>
+<p>&nbsp;  </p></td>
+<td>
+<p>Unlimited</p></td>
+<td>
+<P align=right>10</p></td>
+<td>
+<P align=right>3</p></td>
+<td>
+<P align=right>3</p></td></TR>
+</tbody></table>
 
 ## Summary
 
