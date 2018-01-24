@@ -58,7 +58,7 @@ See the Feature Summary below for a detailed list of IIS 7 features available on
 <tbody>
 <tr>
 <th colSpan=6>
-Display Names / Heirarchy</th>
+Display Names / Hierarchy</th>
 <th colSpan=5>
 Package Update Names</th>
 <th>
