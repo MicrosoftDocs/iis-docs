@@ -54,7 +54,7 @@ See the Feature Summary below for a detailed list of IIS 7 features available on
 
 ## IIS 7.0 Vista Edition Feature Matrix
 
-<table style='display:block;overflow:auto;'>
+<table>
 <tbody>
 <tr>
 <th colSpan=6>
