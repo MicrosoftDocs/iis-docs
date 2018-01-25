@@ -54,18 +54,15 @@ See the Feature Summary below for a detailed list of IIS 7 features available on
 ## IIS 7.0 Vista Edition Feature Matrix
 <table>
 <tbody>
-<tr>
-  <th colSpan=6>Display Names / Hierarchy</th>
+<tr><th colSpan=6>Display Names / Hierarchy</th>
   <th colSpan=5>Package Update Names</th>
   <th>Server</th>
   <th>Pro</th>
   <th>Premium</th>
   <th>Basic &amp; Starter</th></tr>
 <tr>
-<td colSpan=6>
-<p><b>Internet Information Services</b></p></td>
-<td colSpan=5>
-<p>IIS-WebServerRole</p></td>
+<td colSpan=6><p><b>Internet Information Services</b></p></td>
+<td colSpan=5><p>IIS-WebServerRole</p></td>
 <td>
 <p>Available</p></td>
 <td>
