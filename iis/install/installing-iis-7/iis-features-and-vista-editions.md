@@ -21,7 +21,6 @@ by Henry Seiler
 With the release of Windows Vista and Windows Server 2008 IIS 7.0 became available on all mainstream Windows Editions for the first time.  
   
 On Windows Vista Editions, IIS 7.0 will play a dual role. First, it offers web developers the complete web platform experience for building and testing web applications on Windows, for deployment on Windows Server, just like Windows XP. Second, it enables process activation and management and the necessary HTTP infrastructure for enabling connected consumer scenarios that will be built using the Windows Communication Foundation (WinFX).
-
 ## Windows Vista Starter and Home Editions
 
 The Windows Vista Starter and Home Editions are targeted at home and personal users who do not have the need to perform application or web development. IIS 7.0 Web Server and FTP Server features are not available on these editions. However, if you look closely you will notice specific components of IIS 7.0 that can be installed on these Editions. Please note, however, that installing these components will not provide a web server that supports static content, Classic ASP, or ASP.NET.  
@@ -57,12 +56,9 @@ See the Feature Summary below for a detailed list of IIS 7 features available on
 <table>
 <tbody>
 <tr>
-<th colSpan=6>
-Display Names / Hierarchy</th>
-<th colSpan=5>
-Package Update Names</th>
-<th>
-Server</th>
+  <th colSpan=6>Display Names / Hierarchy</th>
+  <th colSpan=5>Package Update Names</th>
+  <th>Server</th>
 <th>
 Pro</th>
 <th>
