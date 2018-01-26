@@ -18,7 +18,6 @@
 ### [Hosting-Friendly Web Server Platform (IIS): Scenario Overview](get-started/introduction-to-iis/hosting-friendly-web-server-platform-iis-scenario-overview.md)
 ## Getting Started with IIS
 ### [Serving New Content](get-started/getting-started-with-iis/serving-new-content.md)
-### [Virtual Labs](get-started/getting-started-with-iis/virtual-labs.md)
 ### [Getting Started with the IIS Manager in IIS](get-started/getting-started-with-iis/getting-started-with-the-iis-manager-in-iis-7-and-iis-8.md)
 ### [Getting Started with AppCmd.exe](get-started/getting-started-with-iis/getting-started-with-appcmdexe.md)
 ### [Create a Web Site](get-started/getting-started-with-iis/create-a-web-site.md)
