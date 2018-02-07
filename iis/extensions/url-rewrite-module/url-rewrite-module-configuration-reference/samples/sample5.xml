@@ -1,7 +1,7 @@
 <rule name="Rewrite subdomain">
- <match url="^(.+)" > <!-- rule back-reference is captured here -->
+ <match url="^(.+)" /> <!-- rule back-reference is captured here -->
  <conditions>
-  <add input="{HTTP_HOST}" type="Pattern" pattern="^([^.]+)\.mysite\.com$"> <!-- condition back-reference is captured here -->
+  <add input="{HTTP_HOST}" type="Pattern" pattern="^([^.]+)\.mysite\.com$" /> <!-- condition back-reference is captured here -->
  </conditions>
  <action type="Rewrite" url="{C:1}/{R:1}" /> <!-- rewrite action uses back-references to condition and to rule when rewriting the url -->
 </rule>
