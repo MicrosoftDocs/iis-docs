@@ -1,9 +1,9 @@
 <rule name="Redirect to canonical url">
- <match url="^(.+)" > <!-- rule back-reference is captured here -->
+ <match url="^(.+)" /> <!-- rule back-reference is captured here -->
  <conditions>
   <!-- Check whether the requested domain is in canonical form -->
-  <add input="{HTTP_HOST}" type="Pattern" pattern="^www\.mysite\.com$" negate="true"> 
+  <add input="{HTTP_HOST}" type="Pattern" pattern="^www\.mysite\.com$" negate="true" /> 
  </conditions>
  <!-- Redirect to canonical url and convert URL path to lowercase -->
- <action type="Redirect" url="http://www.mysite.com/{tolower:{R:1}}" RedirectType="Found"/>
+ <action type="Redirect" url="http://www.mysite.com/{tolower:{R:1}}" RedirectType="Found" />
 </rule>
