@@ -39,7 +39,7 @@ There are two builds for each PHP version: one is thread-safe, and the other is 
 
 PHP offers several extensions that extend its base functionality. One extension is important for PHP web applications that run on IIS-the Windows Cache Extension for PHP (WinCache). WinCache is a PHP accelerator that is used to increase the speed of PHP applications that run on Windows and Windows Server. Once the WinCache is enabled and loaded by the PHP engine, PHP applications can take advantage of the functionality without any code modifications.
 
-You can download WinCache extension from the [PHP for Windows](http://windows.php.net/) site.
+You can download WinCache extension from the [PHP for Windows](http://windows.php.net/downloads/pecl/releases/wincache/) site.
 
 <a id="13"></a>
 ## 1.3. Plan to Add a PHP Application

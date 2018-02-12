@@ -93,7 +93,7 @@ To keep this procedure simple, install the WinCache extension but do not configu
 ### To download and install PHP and WinCache
 
 1. Open your browser to [Windows for PHP Download Page](http://windows.php.net/download/) and download the PHP non-thread-safe zip package.
-2. Download the WinCache extension from the [List of Windows Extensions for PHP](http://downloads.php.net/pierre/).
+2. Download the WinCache extension from the [List of Windows Extensions for PHP](http://windows.php.net/downloads/pecl/releases/wincache/).
 3. Extract all files in the PHP .zip package to a folder of your choice, for example `C:\PHP\`.
 4. Extract the WinCache .zip package to the PHP extensions folder (\ext), for example `C:\PHP\ext`. The WinCache .zip package contains one file (Php\_wincache.dll).
 5. Open **Control Panel**, click **System and Security**, click **System**, and then click **Advanced system settings**.
