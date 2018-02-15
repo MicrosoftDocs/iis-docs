@@ -28,7 +28,7 @@ For example, the **httpExpires** attribute specifies a date and time that the co
 
 The HTTP 1.1 specification in Request For Comments (RFC) 2616 specifies several possible values for the HTTP "Cache-Control" header, such as "no-cache," "private," "public," etc. Each of these header values lets Web clients and proxy servers know whether they should cache the content:
 
-- Content that contains a "no-cache" header should not be cached by any entity. - Content that contains a "private" header should not be cached a proxy server, but may be cached by a Web client. - Content that contains a "public" header may be cached by any entity. 
+- Content that contains a "no-cache" header should not be cached by any entity. - Content that contains a "private" header should not be cached by a proxy server, but may be cached by a Web client. - Content that contains a "public" header may be cached by any entity. 
 
     > [!NOTE]
     > The above list is not comprehensive - there are many additional values that can be specified by the "Cache-Control" header.
