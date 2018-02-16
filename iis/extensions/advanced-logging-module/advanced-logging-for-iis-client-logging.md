@@ -112,7 +112,7 @@ The Sample Logging Client for IIS Smooth Streaming will post log messages for th
     - **c-starttime**. The client resets to a new location using the Seek function. This field as specified above suggests the time in the video where playback started.
     - **startupTime**. Seeking may cause the client buffer to be filled again, so we reset this value.
     - **x-duration**. The duration is reset to **0** when **c-starttime** changes.
-- **Stop**. Client progressive download and playback stopped. However, the session (**c-playerid** GUID) isn't invalidated. Restarting playback will start from 0 offset again and at that point, the following fields will continue to be cumulative:
+- **Stop**. Client progressive download and playback stopped. However, the session (**c-playerid** GUID) isn't invalidated. Restarting playback will start from 0 offset again and at that point the following fields will continue to be cumulative:
 
     - **c-starttime**. Resets to **0**.
     - **startupTime**. Calculated again.
