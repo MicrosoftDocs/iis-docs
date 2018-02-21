@@ -16,7 +16,7 @@ Import a Package through IIS Manager
 ====================
 by Faith A
 
-This quick guide will help you install a package of your Web application using the IIS Manager, including a SQL database. To create a package, see [Export a Package through IIS Manager](https://mail.microsoft.com/OWA/redir.aspx?C=eeea34c97415425ea53c9866545cffc0&amp;URL=http%3a%2f%2flearn.iis.net%2fpage.aspx%2f514%2fcreate-a-package%2f "Create a Package").
+This quick guide will help you install a package of your Web application using the IIS Manager, including a SQL database. To create a package, see [Export a Package through IIS Manager](https://docs.microsoft.com/en-us/iis/publish/using-web-deploy/export-a-package-through-iis-manager).
 
 ## Prerequisites
 
