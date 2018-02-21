@@ -17,7 +17,7 @@ Deny Strings for Filtering Rules &lt;denyStrings&gt;
 <a id="001"></a>
 ## Overview
 
-The `<denyStrings>` element of the `<filteringRule>` element defines a collection of strings for which a request filtering rule applies. The `<denyStrings>` element contains a series of `<add>` elements, each of which specifies a unique string to add to the collection.
+The `<denyStrings>` element of the `<filteringRule>` element defines a collection of strings for which a request filtering rule applies. The `<denyStrings>` element contains a series of `<add>` elements, each of which specifies a unique string to add to the collection. These strings are evaluated as regular expressions.
 
 <a id="002"></a>
 ## Compatibility
