@@ -98,7 +98,7 @@ IIS 7 and above have URL rewriting support, which can be enabled by installing t
 
 The following instructions describe how the URL Rewrite Module for IIS 7 and above can be used to enable clean URLs in Drupal.
 
-1. Open the **Web.config** file located in `C:\inetpub\wwwroot\drupal` folder. If you do not have a Web.config file in the drupal directory, create it.
+1. Open the **Web.config** file located in `C:\inetpub\wwwroot\drupal` folder. If you do not have a Web.config file in the **drupal** directory, create it.
 2. Copy and paste the following XML code into this file.  
 
     [!code-xml[Main](install-drupal-on-iis/samples/sample5.xml)]
