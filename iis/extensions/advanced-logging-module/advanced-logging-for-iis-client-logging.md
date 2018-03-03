@@ -181,7 +181,7 @@ The following is a sample log from the Sample Logging Client for IIS Smooth Stre
 
 ## Summary
 
-In this walkthrough, we reviewed the IIS Advanced Logging feature and learned how to log client data. Client logging and real-time logging can make the real-time analysis of log files possible.
+In this walkthrough, we reviewed the IIS Advanced Logging feature and learned how to log client data. Client logging and real-time logging can make real-time analysis of log files possible.
 
 You also learned how to collect meaningful information from a Smooth Streaming experience by using the IIS Smooth Streaming sample client.
 
