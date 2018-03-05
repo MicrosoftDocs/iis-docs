@@ -55,7 +55,7 @@ To set up the Sample Logging Client for IIS Smooth Streaming, do the following:
 3. When you're prompted to accept the License Agreement, click **Yes**.
 4. When you're asked to specify a location in which to place the extracted files, enter a directory path (for example, `C:\LoggingSampleClient`). If prompted to create the directory, click **Yes** (this prompt will appear only if the directory doesn't exist).
 
-When you navigate to the directory to which you extracted the sample, you'll see a file named SampleClient.xap. This is the Sample Logging Client. See the [Smooth Streaming documentation](../../media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming.md) to see how a similar sample client is deployed and used. You can replace the .xap file in existing content with this file (rename if necessary or update the html that references it).
+When you navigate to the directory to which you extracted the sample, you'll see a file named SampleClient.xap. This is the Sample Logging Client. See the [Smooth Streaming documentation](../../media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming.md) to see how a similar sample client is deployed and used. You can replace the .xap file in existing content with this file (rename if necessary or update the HTML that references it).
 
 ### Configuring the Sample Logging Client
 
@@ -110,7 +110,7 @@ The Sample Logging Client for IIS Smooth Streaming will post log messages for th
 - **Seek**. The client jumps to a new location. This event doesn't invalidate the current session or create a new one. All statistics other than the following continue to be cumulative:
 
     - **c-starttime**. The client resets to a new location using the Seek function. This field as specified above suggests the time in the video where playback started.
-    - **startupTime**. Seeking may may cause the client buffer to be filled again, so we reset this value.
+    - **startupTime**. Seeking may cause the client buffer to be filled again, so we reset this value.
     - **x-duration**. The duration is reset to **0** when **c-starttime** changes.
 - **Stop**. Client progressive download and playback stopped. However, the session (**c-playerid** GUID) isn't invalidated. Restarting playback will start from 0 offset again and at that point the following fields will continue to be cumulative:
 
