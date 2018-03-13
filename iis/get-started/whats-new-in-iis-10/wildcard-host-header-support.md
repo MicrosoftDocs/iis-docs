@@ -23,6 +23,9 @@ by [Andrew Westgarth](https://github.com/apwestgarth)
 | IIS 10.0 | Wildcard Host Header Support was introduced in IIS 10.0 |
 | IIS 8.5 and earlier | Wildcard Host Headers were not supported prior to IIS 10.0 |
 
+> [!WARNING]
+> Top-level wildcard bindings (`http://*:80/` and `http://+:80`) should **not** be used. Top-level wildcard bindings can open up your app to security vulnerabilities. This applies to both strong and weak wildcards. Use explicit host names rather than wildcards. Subdomain wildcard binding (for example, `*.mysub.com`) doesn't have this security risk if you control the entire parent domain (as opposed to `*.com`, which is vulnerable). See [rfc7230 section-5.4](https://tools.ietf.org/html/rfc7230#section-5.4) for more information.
+
 ## Problem
 
 For quite some time, customers have requested that we support Wildcard Host Headers in IIS. IIS 10 now supports Wildcard Host Headers.
