@@ -56,7 +56,7 @@ For more information about diagnostics, see [Troubleshooting a Web Server Error.
 
 <a id="Enabling"></a>
 
-# Enabling a Delegated Administration User
+## Enabling a Delegated Administration User
 
 IIS Manager allows those who host or administer Web sites to delegate administrative control to developers or content owners, thus reducing cost of ownership and the administrative burden for the server administrator.
 
