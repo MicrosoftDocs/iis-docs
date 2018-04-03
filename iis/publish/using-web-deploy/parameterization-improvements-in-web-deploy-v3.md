@@ -16,15 +16,17 @@ Parameterization improvements in Web Deploy V3
 ====================
 by [Harsh Mittal](https://twitter.com/harshmittal)
 
-Earlier versions of Web Deploy only supported replacing attribute values which already existed as part of the package. In Web Deploy V3 we have added support for
+Earlier versions of Web Deploy only supported replacing attribute values which already existed as part of the package. In Web Deploy V3 we have added support to:
 
 1. Extend the current xml parameterization beyond attribute value replacements to a more complete xml modification story by allowing addition/deletion/replacement of new elements.
-2. Accept the replacement data for parameters to come from the server, from the package itself or from the source.Here is one example of a parameters.xml file which will add newNode to all nodes including the root in target xml file:
+2. Accept the replacement data for parameters to come from the server, from the package itself or from the source. Here is one example of a parameters.xml file which will add newNode to all nodes including the root in the target xml file:
 
 	[!code-xml[Main](parameterization-improvements-in-web-deploy-v3/samples/sample1.xml)]
 
 
-Below are some examples which demonstrate how to get the values from other placesGet values from remote server: 
+Below are some examples which demonstrate how to get the values from other places.
+
+Get values from the remote server: 
 
 [!code-xml[Main](parameterization-improvements-in-web-deploy-v3/samples/sample2.xml)]
 
