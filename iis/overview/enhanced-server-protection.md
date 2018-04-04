@@ -1,11 +1,22 @@
+---
+title: "Enhanced Server Protection"
+author: shirhatti
+description: "IIS maximizes Web server security by default with minimal Web server footprint and automatic application isolation."
+ms.author: soshir
+ms.date: 3/6/2018
+ms.topic: article
+ms.technology: iis
+ms.prod: iis
+msc.type: authoredcontent
+---
 Enhanced Server Protection
 --------------------------
 
-IIS7 maximizes Web server security by default with minimal Web server footprint and automatic application isolation.
+IIS maximizes Web server security by default with minimal Web server footprint and automatic application isolation.
 
 ## Minimize Web Server Footprint
 
-Administrators can depend on IIS 7.0 for more secure hosting of Web applications. IIS 7.0 has been redesigned from the ground up to incorporate a modular architecture that enables administrators to customize their Web servers by selectively installing or removing modules. Administrators can install only the features that address the needs of the business while eliminating the server performance reductions and security risks that come with running unused server functionality. Administrators can easily minimize the attack and servicing surface, as well as shrink the process memory footprint. Only the modules required to run IIS as a static image server are installed by default in IIS 7.0. The default installation allows the IT administrator to start from the most secure base, adding on modules only as needed by the applications and services hosted on the Web server.
+Administrators can depend on IIS for more secure hosting of Web applications. IIS has been redesigned from the ground up to incorporate a modular architecture that enables administrators to customize their Web servers by selectively installing or removing modules. Administrators can install only the features that address the needs of the business while eliminating the server performance reductions and security risks that come with running unused server functionality. Administrators can easily minimize the attack and servicing surface, as well as shrink the process memory footprint. Only the modules required to run IIS as a static image server are installed by default in IIS. The default installation allows the IT administrator to start from the most secure base, adding on modules only as needed by the applications and services hosted on the Web server.
 
 ## Windows Server Core Support
 
@@ -13,4 +24,4 @@ To further limit security exposure administrators can choose to install a minima
 
 ## Automatic Web site isolation
 
-IIS 7.0 offers greater application isolation by giving worker processes a completely unique identity and sandboxed configuration by default, further reducing security risks. IIS 7.0 includes automatic application pool isolation and can sandbox thousands of Web sites on a single server. This allows each Web site to run in its own memory space with an automatically generated, unique identity, which helps to ensure applications are not affected by other failures or security breaches of applications running on the same server. This capability enables organizations to consolidate more Web sites onto fewer servers, and increases security and reliability for all Web sites running on a shared host.
+IIS offers greater application isolation by giving worker processes a completely unique identity and sandboxed configuration by default, further reducing security risks. IIS includes automatic application pool isolation and can sandbox thousands of Web sites on a single server. This allows each Web site to run in its own memory space with an automatically generated, unique identity, which helps to ensure applications are not affected by other failures or security breaches of applications running on the same server. This capability enables organizations to consolidate more Web sites onto fewer servers, and increases security and reliability for all Web sites running on a shared host.
