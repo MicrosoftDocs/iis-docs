@@ -24,7 +24,7 @@ The following articles contain recommendations for provisioning sites in shared 
 
 ### Overview
 
-IIS 7 provides the same Web site activity or traffic logging as IIS 6.0, but includes the new Failed Request Tracing feature. Request-based tracing provides a way to determine what is happening with a request, allowing you to see each step of the request as IIS processes it.
+IIS 7 provides the same website activity or traffic logging as IIS 6.0, but includes the new Failed Request Tracing feature. Request-based tracing provides a way to determine what is happening with a request, allowing you to see each step of the request as IIS processes it.
 
 Problems, such as poor performance or authenticated failures, or even the Server Error 500 from ASP or ASP.NET, can be difficult to troubleshoot. Failed Request Tracing buffers the trace events for a request and writes them to disk when a failure occurs. The server administrator defines a failure by using the tracing rules. The tracing rules can be as broad as all content and status codes, or as specific as a single status and sub-status code such as 404.2.
 
@@ -58,11 +58,11 @@ For more information about diagnostics, see [Troubleshooting a Web Server Error.
 
 ## Enabling a Delegated Administration User
 
-IIS Manager allows those who host or administer Web sites to delegate administrative control to developers or content owners, thus reducing cost of ownership and the administrative burden for the server administrator.
+IIS Manager allows those who host or administer websites to delegate administrative control to developers or content owners, thus reducing cost of ownership and the administrative burden for the server administrator.
 
 ### Procedure
 
-To enable a delegated user for a Web site using IIS  Manager, use the following steps **:** 
+To enable a delegated user for a website using IIS  Manager, use the following steps **:** 
 
 1. Navigate to **Administrative Tools** and click **Internet Information Services (IIS) Manager**.
 2. Expand the server name node.
