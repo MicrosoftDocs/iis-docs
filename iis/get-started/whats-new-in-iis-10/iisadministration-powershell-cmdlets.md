@@ -34,7 +34,7 @@ With Windows 10 and Windows Server 2016, the IIS Team is releasing a new and sim
 - You can now get a direct reference to an instance of `Microsoft.Web.Administration.ServerManager` object and do anything that you can do in `Microsoft.Web.Administration` namespace alongside your scripts.
 - PowerShell pipeline compatibility was the driving force behind the design of many cmdlets. As such, `IISAdministration` works much better with PowerShell Pipeline.
 
-The version of the Cmdlets which was released for Windows 10 was a rough version with room for improvement; the targeted release was Windows Server 2016 for the finished and polished product. The reason for the earlier release was to get feedback from real PowerShell users and IIS Administrators in the industry, to answer any questions, and ti receive suggestions about not only the existing functionality but also potentially for new functionality our users would want from IIS Administration as it pertains to PowerShell.
+The version of the Cmdlets which was released for Windows 10 was a rough version with room for improvement; the targeted release was Windows Server 2016 for the finished and polished product. The reason for the earlier release was to get feedback from real PowerShell users and IIS Administrators in the industry, to answer any questions, and to receive suggestions about not only the existing functionality but also potentially for new functionality our users would want from IIS Administration as it pertains to PowerShell.
 
 Here are some examples on the usage of the new provider:
 
