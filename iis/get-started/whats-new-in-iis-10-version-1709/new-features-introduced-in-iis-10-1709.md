@@ -31,7 +31,7 @@ Learn more: [HSTS](iis-10-version-1709-hsts.md)
 
 IIS 10.0 Version 1709 introduces improvements that allow you to run the IIS
 worker process (w3wp.exe) directly as well as changes to the Central Certificate
-Provider (CCS) that makes it more ammenable for running in containers.
+Provider (CCS) that makes it more amenable for running in containers.
 
 ## IISAdministration PowerShell cmdlets
 
