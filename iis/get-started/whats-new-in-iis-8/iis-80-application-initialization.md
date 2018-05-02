@@ -117,7 +117,7 @@ Using Internet Explorer, navigate to the following Url:
 
 http://localhost/appinit/default.aspx
 
-The browser returns the static "Startup.htm" page with a grey background for the first few seconds because that is the "splash page" that has been configured in web.config. You can continure refreshing the page in your wb browser and observe that about eight seconds later (simulated with a thread sleep in the sample application's global.asax) you receive the "real" content for default.aspx with a white background. This indicates that application initialization completed.
+The browser returns the static "Startup.htm" page with a grey background for the first few seconds because that is the "splash page" that has been configured in web.config. You can continue refreshing the page in your web browser and observe that about eight seconds later (simulated with a thread sleep in the sample application's global.asax) you receive the "real" content for default.aspx with a white background. This indicates that application initialization completed.
 
 <a id="TOC301259901"></a>
 
