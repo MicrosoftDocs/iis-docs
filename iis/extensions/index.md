@@ -1,3 +1,3 @@
 ---
-redirect_url: /iis/extensions/planning-for-arr
+redirect_url: /iis/extensions/iis-compression
 ---
