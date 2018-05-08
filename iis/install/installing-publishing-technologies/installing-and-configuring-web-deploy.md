@@ -30,7 +30,7 @@ The server must have an operating system that comes with IIS7— this means eith
 
 #### Use WebPI to install Web Deploy along with its dependencies like the Web Management Service (WMSvc)
 
-1. Install Web Deploy by using either method **i** or **ii** below: 
+1. Install Web Deploy by using either method **a** or **b** below: 
 
     1. Install Web Deploy and dependent products using the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx)
 
