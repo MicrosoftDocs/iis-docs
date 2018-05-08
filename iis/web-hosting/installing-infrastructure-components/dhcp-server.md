@@ -22,7 +22,7 @@ You must have a working Dynamic Host Configuration Protocol (DHCP) server with a
 
 ## Installation
 
-When you deploy Dynamic Host Configuration Protocol (DHCP) servers on your network, you can automatically provide client computers and other TCP/IP based network devices with valid IP addresses. You can also provide the additional configuration parameters these clients and devices need, called DHCP options, that allow them to connect to other network resources, such as DNS servers, WINS servers, and routers. For detailed information see the [DHCP Server in the Windows Server 2008 Technical Library](http://technet2.microsoft.com/windowsserver2008/en/servermanager/dhcpserver.mspx "DCHP Server"). For details on installing and configuring see [Installing the DHCP Server Role.](http://technet2.microsoft.com/windowsserver2008/en/library/f4b5d8bd-46b0-41da-a7a7-2bea1233c1461033.mspx "Installing the DHCP Server Role")
+When you deploy Dynamic Host Configuration Protocol (DHCP) servers on your network, you can automatically provide client computers and other TCP/IP based network devices with valid IP addresses. You can also provide the additional configuration parameters these clients and devices need, called DHCP options, that allow them to connect to other network resources, such as DNS servers, WINS servers, and routers. For detailed information see [Dynamic Host Configuration Protocol](https://docs.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-top).
 
 **To install DHCP server role:** 
 
