@@ -38,6 +38,8 @@ Wildcard Host Headers enable admins to setup a webserver for a domain, e.g. cont
 - private.contoso.com
 - blogs.contoso.com
 
+Wildcards are only allowed in the left-most subdomain of the hostname. For e.g., `http://*.service.contoso.com` is a legal wildcard host binding whereas `http://service.*.contoso.com` is not permissible.
+
 ## Step by Step Instructions
 
 ### Adding a new site with a Wildcard Host Header
