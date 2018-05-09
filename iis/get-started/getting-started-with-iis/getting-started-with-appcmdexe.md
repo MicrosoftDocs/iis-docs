@@ -451,7 +451,7 @@ To list a specific section, use a command-line like this:
 
 [!code-aspx[Main](getting-started-with-appcmdexe/samples/sample70.aspx)]
 
-By default, AppCmd displays only configuration that is explicitly set. If you would like to display the effective configuration including inherited or default values, specify the **/config:\*** parameter:
+By default, AppCmd displays only configuration that is explicitly set. If you would like to display the effective configuration including inherited or default values, specify the **/config:*** parameter:
 
 [!code-console[Main](getting-started-with-appcmdexe/samples/sample71.cmd)]
 
