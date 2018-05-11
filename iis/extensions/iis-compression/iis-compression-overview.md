@@ -35,9 +35,37 @@ Brotli is a relatively new addition to the HTTP compression. The Brotli specific
 
 **IIS Compression** is a supported open-source product, and the source code can be found in [IIS.Compression](https://github.com/Microsoft/IIS.Compression) Github repository. Making it open source provides better flexibility and agility for future enhancement, bug fixing, and customization. **IIS Compression** also serves a reference project of developing an IIS compression scheme provider to the community.
 
-## Installing IIS compression
+## Installing IIS Compression
+
+## Using IIS Compression
+
+#### Enable Compression Modules
+
+The compression scheme providers, `iiszlib.dll` and `iisbrotli.dll`, offered by IIS Compression are not IIS modules, instead they are extensions of IIS `StaticCompressionModule` and `DynamicCompressionModule`.
+At runtime, `StaticCompressionModule` and `DynamicCompressionModule` load the compression scheme providers and pass the response content data to them for compression.
+
+Therefore, either or both of the two compression modules need to be installed on the IIS server as a prerequisite - see [HTTP Compression](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/httpcompression) on how to install the features.
+Once the modules are installed, ensure static and/or dynamic compression are enabled for a desired URL namespace - see [URL Compression](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/urlcompression) on how to enable the corresponding type of compression.
+
+#### Compression Levels
+
+HTTP compression is a trade-off of CPU for bandwidth. The compression levels of `iiszlib.dll`, `iisbrotli.dll`, and `gzip.dll` do not match with each other, and in contrast they have different ranges.
+
+| Compression Scheme Provider | Compression Level: No Compression | Compression Level: Best Speed | Compression Level: Best Compression Ratio |
+|---------|---------|---------|---------|
+| gzip.dll | N/A | 0 | 10 |
+| iiszlib.dll | 0 | 1 | 9 |
+| iisbrotli.dll | N/A | 0 | 11 |
+
+The lowest level of iiszlib.dll is 0, but level 0 is not the best speed  
 
 
+
+#### Compression Scheme Prioritization
+
+#### Verifying Compression
+
+#### Troubleshooting Compression
 
 ## HTTP Compression Content Encoding Negotiation
 
