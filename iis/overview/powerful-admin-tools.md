@@ -34,7 +34,3 @@ The [Windows PowerShell Provider for IIS](https://www.iis.net/downloads/microsof
 ## Command-line - AppCmd.exe
 
 IIS supports a command line tool [AppCmd.exe](../get-started/getting-started-with-iis/getting-started-with-appcmdexe.md) \- for administering the server. This powerful utility makes it easy to read and write configuration values, and access site and application pool state information, all from the command prompt.
-
-## WMI / Scripting
-
-IIS also includes a WMI provider which provides access to configuration and server state information to VBScipt and JScript writers. Using WMI, Administrators can easily automate basic configuration tasks like managing Web [sites](../manage/scripting/managing-sites-with-the-iis-wmi-provider.md) and [applications](../manage/scripting/managing-applications-and-application-pools-on-iis-with-wmi.md).
