@@ -17,18 +17,18 @@ by [Yanbing Shi](https://github.com/bangbingsyb)
 
 ## What is IIS Compression?
 
-**IIS Compression** is a bundle of two IIS compression scheme providers `iisbrotli.dll` and `iiszlib.dll` that support IIS to compress HTTP response contents.
-`iisbrotli.dll` supports **Brotli** compression, while `iiszlib.dll` supports both **Gzip** and **Deflate** compression.
+**IIS Compression** is a bundle of two IIS compression scheme providers **iisbrotli.dll** and **iiszlib.dll** that support IIS to compress HTTP response contents.
+**iisbrotli.dll** supports **Brotli** compression, while **iiszlib.dll** supports both **Gzip** and **Deflate** compression.
 
 #### What is a compression scheme provider?
 
-An IIS compression scheme provider is a pluggable extension of IIS `StaticCompressionModule` and `DynamicCompressionModule` and provides algorithm for one or multiple HTTP compression schemes.
-IIS `StaticCompressionModule` and `DynamicCompressionModule` load the registered compression scheme providers into worker process at runtime, and leverage them to perform compression on static files and dynamically-generated contents, respectively.
+An IIS compression scheme provider is a pluggable extension of IIS **StaticCompressionModule** and **DynamicCompressionModule** and provides algorithm for one or multiple HTTP compression schemes.
+IIS **StaticCompressionModule** and **DynamicCompressionModule** load the registered compression scheme providers into worker process at runtime, and leverage them to perform compression on static files and dynamically-generated contents, respectively.
 
 ## Why use IIS Compression?
 
-IIS ships a default compression scheme provider `gzip.dll` that supports both **Gzip** and **Deflate** compression, and it is registered as the `gzip` scheme in `applicationHost.config` by default.
-The in-box `gzip.dll` is based on an internal implementation of Gzip and Deflate encoding, and it works properly.
+IIS ships a default compression scheme provider **gzip.dll** that supports both **Gzip** and **Deflate** compression, and it is registered as the **gzip** scheme in **applicationHost.config** by default.
+The in-box **gzip.dll** is based on an internal implementation of Gzip and Deflate encoding, and it works properly.
 Then why introduce new compression scheme providers in **IIS Compression**?
 
 #### Higher Compression Ratio with Brotli compression
@@ -37,11 +37,11 @@ Brotli compression is a relatively new addition to the HTTP compression.
 The encoding algorithm and format of Brotli are specified in [Requests For Comment (RFC) specification 7932](https://www.ietf.org/rfc/rfc7932.txt), and response data streams compressed with Brotli have the content encoding type "br".
 Brotli is capable of offering higher compression ratio than **Gzip** and **Deflate**, with the cost of lower compression speed.
 The Brotli decompression on the client (browser) side is in general faster.
-Therefore, enabling Brotli compression for the IIS web server using `iisbrotli.dll` can potentially bring more performance benefit especially for serving static contents.
+Therefore, enabling Brotli compression for the IIS web server using **iisbrotli.dll** can potentially bring more performance benefit especially for serving static contents.
 
 #### Better Gzip Compression Scheme Provider
 
-While `iiszlib.dll` included in **IIS Compression** offers same **Gzip** and **Deflate** compression as the default provider `gzip.dll`, `iiszlib.dll` is more up-to-date with slightly better performance in terms of CPU usage and better dynamic compression support owning to the zlib library.
+While **iiszlib.dll** included in **IIS Compression** offers same **Gzip** and **Deflate** compression as the default provider **gzip.dll**, **iiszlib.dll** is more up-to-date with slightly better performance in terms of CPU usage and better dynamic compression support owning to the zlib library.
 
 #### Open Source
 
@@ -54,8 +54,8 @@ The project also serves a general reference for developing an IIS compression sc
 
 **Before install IIS Compression:**
 
-The compression scheme providers, `iiszlib.dll` and `iisbrotli.dll`, offered by IIS Compression are not IIS modules, instead they are extensions of IIS `StaticCompressionModule` and `DynamicCompressionModule`.
-At runtime, `StaticCompressionModule` and `DynamicCompressionModule` load the compression scheme providers and pass the response content data to them for compression.
+The compression scheme providers, **iiszlib.dll** and **iisbrotli.dll**, offered by IIS Compression are not IIS modules, instead they are extensions of IIS **StaticCompressionModule** and **DynamicCompressionModule**.
+At runtime, **StaticCompressionModule** and **DynamicCompressionModule** load the compression scheme providers and pass the response content data to them for compression.
 
 Therefore, either or both of the two compression modules need to be installed on the IIS server as a prerequisite - see [HTTP Compression](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/httpcompression) on how to install the features.
 Once the modules are installed, ensure static and/or dynamic compression are enabled for a desired URL namespace - see [URL Compression](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/urlcompression) on how to enable the corresponding type of compression.
@@ -79,7 +79,7 @@ Once the modules are installed, ensure static and/or dynamic compression are ena
 
     [!code-console[Main](iis-compression-overview/samples/start_was_w3svc.cmd)]
 
-The **IIS Compression** installer drops `iisbrotli.dll` and `iiszlib.dll` to `%ProgramFiles%\IIS\IIS Compression\iisbrotli.dll`.
-The installer registers `iisbrotli.dll` as the **br** (Brotli) compression scheme provider in `applicationHost.config`. It also replaces the default **gzip** compression scheme provider `gzip.dll` with `iiszlib.dll`. A sample `httpCompression` section in `applicationHost.config` is shown below:  
+The **IIS Compression** installer drops **iisbrotli.dll** and **iiszlib.dll** to `%ProgramFiles%\IIS\IIS Compression`.
+The installer registers **iisbrotli.dll** as the **br** (Brotli) compression scheme provider in **applicationHost.config**. It also replaces the default **gzip** compression scheme provider **gzip.dll** with **iiszlib.dll**. A sample `<httpCompression>` element in **applicationHost.config** is shown below:  
 
 [!code-xml[Main](iis-compression-overview/samples/sample-iiscompression-installer-config.xml)]
