@@ -500,6 +500,7 @@
 ### [CORS Module Configuration Reference](extensions/cors-module/cors-module-configuration-reference.md)
 ## IIS Compression
 ### [IIS Compression Overview](extensions/iis-compression/iis-compression-overview.md)
+### [Using IIS Compression](extensions/iis-compression/using-iis-compression.md)
 # Media
 ## Windows Media Services
 ### [Adding Windows Media Services 2008 on an IIS 7.0 Server](media/windows-media-services/adding-windows-media-services-2008-on-an-iis-server.md)
