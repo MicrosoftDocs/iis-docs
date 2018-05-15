@@ -61,21 +61,29 @@ Therefore, either or both of the two compression modules need to be installed on
 Once the modules are installed, ensure static and/or dynamic compression are enabled for a desired URL namespace - see [URL Compression](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/urlcompression) on how to enable the corresponding type of compression.
 
 **To install IIS Compression:**
+1. Download the Microsoft IIS Compression release from the following locations:
 
-1. Open a command prompt with administrator user rights.
-2. Stop the **WAS** and **W3SVC** services by entering the following:
+    Microsoft IIS Compression (x86) [here](https://download.microsoft.com/download/6/1/C/61CC0718-ED0E-4351-BC54-46495EBF5CC3/iiscompression_x86.msi ).
+
+    Microsoft IIS Compression (x64) [here](https://download.microsoft.com/download/6/1/C/61CC0718-ED0E-4351-BC54-46495EBF5CC3/iiscompression_amd64.msi).
+
+2. Open a command prompt with administrator user rights.
+
+3. Stop the **WAS** and **W3SVC** services by entering the following:
 
     [!code-console[Main](iis-compression-overview/samples/stop_was_w3svc.cmd)]
 
-3. Run iiscompression\_&lt;architecture&gt;.exe; for example:
+4. Run iiscompression\_&lt;architecture&gt;.exe; for example:
+
+    [!code-console[Main](iis-compression-overview/samples/install_iiscompression_msi_x86.cmd)]
 
     [!code-console[Main](iis-compression-overview/samples/install_iiscompression_msi_x64.cmd)]
 
-    [!code-console[Main](iis-compression-overview/samples/install_iiscompression_msi_x64.cmd)]
+5. Accept the End User License Agreement (EULA).
 
-4. Accept the End User License Agreement (EULA).
-5. Complete the installation.
-6. Start the **WAS** and **W3SVC** services by entering the following:
+6. Complete the installation.
+
+7. Start the **WAS** and **W3SVC** services by entering the following:
 
     [!code-console[Main](iis-compression-overview/samples/start_was_w3svc.cmd)]
 

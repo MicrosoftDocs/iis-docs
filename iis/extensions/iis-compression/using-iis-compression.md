@@ -15,9 +15,12 @@ by [Yanbing Shi](https://github.com/bangbingsyb)
 
 > The article provides an overview on how to use IIS Compression.
 
-## Compression Levels
+## Compression Level
 
-HTTP compression is a trade-off of CPU for bandwidth. The compression levels of `iiszlib.dll`, `iisbrotli.dll`, and `gzip.dll` do not match with each other, and in contrast they have different ranges.
+HTTP compression is a trade-off of CPU for bandwidth.
+For a given compression algorithm, achieving higher compression ratio typically comes with slower compression speed, and vice versa, and the balance between compression ratio and speed can be controlled by tuning the compression level.
+The compression levels of **iiszlib.dll**, **iisbrotli.dll**, and **gzip.dll** have different ranges and they do not match with each other.
+The comparison of the allowed compression levels of the three scheme providers is summarized in the below table.  
 
 | Compression Scheme Provider | Compression Level: No Compression | Compression Level: Best Speed | Compression Level: Best Compression Ratio |
 |---------|---------|---------|---------|
@@ -25,7 +28,12 @@ HTTP compression is a trade-off of CPU for bandwidth. The compression levels of 
 | iiszlib.dll | 0 | 1 | 9 |
 | iisbrotli.dll | N/A | 0 | 11 |
 
-The lowest level of iiszlib.dll is 0, but level 0 is not the best speed  
+> [!NOTE]
+> Level 0 of **iiszlib.dll** specifies no compression rather than best-speed compression.
+> The default IIS **dynamicCompressionLevel** in [&lt;httpCompression&gt;](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/httpcompression) is 0 as well. Therefore, **dynamicCompressionLevel** needs to be explicitly set above 0 in order to allow **iiszlib.dll** to perform compression on dynamically generated contents.
+
+> [!NOTE]
+> Level 0 of **iiszlib.dll** specifies no compression instead of best-speed compression.
 
 ## Compression Scheme Prioritization
 
