@@ -52,7 +52,7 @@ The project also serves a general reference for developing an IIS compression sc
 
 ## Installing IIS Compression
 
-**Before install IIS Compression:**
+#### Before Installation
 
 The compression scheme providers, **iiszlib.dll** and **iisbrotli.dll**, offered by IIS Compression are not IIS modules, instead they are extensions of IIS **StaticCompressionModule** and **DynamicCompressionModule**.
 At runtime, **StaticCompressionModule** and **DynamicCompressionModule** load the compression scheme providers and pass the response content data to them for compression.
@@ -60,7 +60,8 @@ At runtime, **StaticCompressionModule** and **DynamicCompressionModule** load th
 Therefore, either or both of the two compression modules need to be installed on the IIS server as a prerequisite - see [HTTP Compression](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/httpcompression) on how to install the features.
 Once the modules are installed, ensure static and/or dynamic compression are enabled for a desired URL namespace - see [URL Compression](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/urlcompression) on how to enable the corresponding type of compression.
 
-**To install IIS Compression:**
+#### Installation
+
 1. Download the Microsoft IIS Compression release from the following locations:
 
     Microsoft IIS Compression (x86) [here](https://download.microsoft.com/download/6/1/C/61CC0718-ED0E-4351-BC54-46495EBF5CC3/iiscompression_x86.msi ).
