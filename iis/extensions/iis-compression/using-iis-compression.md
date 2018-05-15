@@ -18,9 +18,10 @@ by [Yanbing Shi](https://github.com/bangbingsyb)
 ## Compression Level
 
 HTTP compression is a trade-off of CPU for bandwidth.
-For a given compression algorithm, achieving higher compression ratio typically comes with slower compression speed, and vice versa, and the balance between compression ratio and speed can be controlled by tuning the compression level.
-The compression levels of **iiszlib.dll**, **iisbrotli.dll**, and **gzip.dll** have different ranges and they do not match with each other.
-The comparison of the allowed compression levels of the three scheme providers is summarized in the below table.  
+For a given compression algorithm, achieving higher compression ratio typically comes with slower compression speed, and vice versa.
+The balance between compression ratio and speed is controlled by the compression level.
+The compression levels of **iiszlib.dll**, **iisbrotli.dll**, and **gzip.dll** do not match with each other in terms of range, compression ratio, and speed.
+The comparison of the allowed compression levels of the three compression scheme providers is summarized in the below table.  
 
 | Compression Scheme Provider | Compression Level: No Compression | Compression Level: Best Speed | Compression Level: Best Compression Ratio |
 |---------|---------|---------|---------|
@@ -30,18 +31,11 @@ The comparison of the allowed compression levels of the three scheme providers i
 
 > [!NOTE]
 > Level 0 of **iiszlib.dll** specifies no compression rather than best-speed compression.
-> The default IIS **dynamicCompressionLevel** in [&lt;httpCompression&gt;](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/httpcompression) is 0 as well. Therefore, **dynamicCompressionLevel** needs to be explicitly set above 0 in order to allow **iiszlib.dll** to perform compression on dynamically generated contents.
-
-> [!NOTE]
-> Level 0 of **iiszlib.dll** specifies no compression instead of best-speed compression.
+> The default IIS **dynamicCompressionLevel** in [&lt;httpCompression&gt;](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/httpcompression) is 0 as well. Therefore, **dynamicCompressionLevel** needs to be explicitly set above 0 to allow **iiszlib.dll** to compress dynamically generated contents.
 
 ## Compression Scheme Prioritization
 
-## Verifying Compression
-
-## Troubleshooting Compression
-
-## HTTP Compression Content Encoding Negotiation
+#### HTTP Compression Content Encoding Negotiation
 
 The negotiation of content-encoding between user agents and IIS servers complies with HTTP/1.1 standard (RFC 7231, 5.3.4. Accept-Encoding).
 
@@ -50,3 +44,7 @@ The negotiation of content-encoding between user agents and IIS servers complies
 3. The server then applies the corresponding algorithm to compress the response body.
 4. When the server sends back the response, it adds a `Content-Encoding` response header to indicate the chosen scheme.
 5. Finally, the user agent uses the coding indicated in `Content-Encoding` header to decompress the response body and to render the original contents to the user.
+
+## Testing Compression
+
+## Troubleshooting Compression
