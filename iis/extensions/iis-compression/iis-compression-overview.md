@@ -64,9 +64,9 @@ Once the modules are installed, ensure static and/or dynamic compression are ena
 
 1. Download the Microsoft IIS Compression release from the following locations:
 
-    Microsoft IIS Compression (x86) [here](https://download.microsoft.com/download/6/1/C/61CC0718-ED0E-4351-BC54-46495EBF5CC3/iiscompression_x86.msi ).
+    - **Microsoft IIS Compression (x86)** [here](https://download.microsoft.com/download/6/1/C/61CC0718-ED0E-4351-BC54-46495EBF5CC3/iiscompression_x86.msi ).
 
-    Microsoft IIS Compression (x64) [here](https://download.microsoft.com/download/6/1/C/61CC0718-ED0E-4351-BC54-46495EBF5CC3/iiscompression_amd64.msi).
+    - **Microsoft IIS Compression (x64)** [here](https://download.microsoft.com/download/6/1/C/61CC0718-ED0E-4351-BC54-46495EBF5CC3/iiscompression_amd64.msi).
 
 2. Open a command prompt with administrator user rights.
 
@@ -91,4 +91,4 @@ Once the modules are installed, ensure static and/or dynamic compression are ena
 The **IIS Compression** installer drops **iisbrotli.dll** and **iiszlib.dll** to `%ProgramFiles%\IIS\IIS Compression`.
 The installer registers **iisbrotli.dll** as the **br** (Brotli) compression scheme provider in **applicationHost.config**. It also replaces the default **gzip** compression scheme provider **gzip.dll** with **iiszlib.dll**. A sample `<httpCompression>` element in **applicationHost.config** is shown below:  
 
-[!code-xml[Main](iis-compression-overview/samples/sample-iiscompression-installer-config.xml)]
+[!code-xml[Main](iis-compression-overview/samples/iiscompression-installer-config.xml)]

@@ -35,16 +35,57 @@ The comparison of the allowed compression levels of the three compression scheme
 
 ## Compression Scheme Prioritization
 
-#### HTTP Compression Content Encoding Negotiation
+#### HTTP Compression Scheme Negotiation
 
-The negotiation of content-encoding between user agents and IIS servers complies with HTTP/1.1 standard (RFC 7231, 5.3.4. Accept-Encoding).
+The compression scheme negotiation between user agents and IIS servers complies with [Requests For Comment (RFC) specification 7231](https://www.ietf.org/rfc/rfc7231.txt):
 
-1. The negotiation starts with the user agent specifying the list of acceptable compression schemes in the `Accept-Encoding` request header.
-2. The server examines the `Accept-Encoding` header in the request and selects a scheme it supports.
+1. The negotiation starts with the user agent specifying the list of acceptable compression schemes in the **Accept-Encoding** request header.
+
+2. The server examines the **Accept-Encoding** header in the request and selects a scheme that the server supports.
+
 3. The server then applies the corresponding algorithm to compress the response body.
-4. When the server sends back the response, it adds a `Content-Encoding` response header to indicate the chosen scheme.
-5. Finally, the user agent uses the coding indicated in `Content-Encoding` header to decompress the response body and to render the original contents to the user.
+
+4. When the server sends back the response, it adds the **Content-Encoding** response header with the selected compression scheme as the header field value.
+
+5. Finally, the user agent uses the scheme indicated in the **Content-Encoding** response header to decompress the response body and to render the original contents to the user.
+
+#### Enabling Multiple Compression Schemes
+
+One of the key ideas behind HTTP compression scheme negotiation is the possibility of supporting new compression schemes while still allow to maintain backward compatibility with old clients or servers.
+While **Brotli** compression offers the benefit of higher compression ratio and has been supported by many browsers, it is still not as widely adopted as **Gzip** at the time of writing.
+Therefore, one possible optimization is to enable both **Brotli** and **Gzip** compression, but prioritize **Brotli** if the client-side user agent also supports it.
+
+##### IIS 10.0 Version 1803 or Above
+
+Compression scheme prioritization is supported in IIS 10.0 version 1803 or above.
+The priority of each compression scheme is determined by its order in the `<scheme>` collection of the `<httpCompression>`element:
+
+- A compression scheme appearing on the top of the `<scheme>` collection is prioritized over the one appearing after, if their quality values specified in the **Accept-Encoding** request header field value are the same.
+- A compression scheme with higher quality value in the **Accept-Encoding** request header field value is prioritized over the one with lower quality value regardless of their order in the `<scheme>` collection.
+
+The installation of **IIS Compression** registers **iisbrotli.dll** and **iiszlib.dll** as the **br** and **gzip** compression scheme providers, respectively, and places **br** before **gzip** in the `<scheme>` collection:
+
+[!code-xml[Main](using-iis-compression/samples/compression-scheme-prioritization-config.xml)]
+
+Such configuration order allows the IIS server to prioritize **Brotli** over **Gzip** when most browsers that support **Brotli** use `Accept-Encoding: gzip, deflate, br` for compression scheme negotiation.
+
+> [!NOTE]
+> Typically the browsers that support **Brotli** compression only advertise **br** in the **Accept-Encoding** header field value when HTTPS is used.
+
+##### Before IIS 10.0 Version 1803
+
+IIS before version 10.0 version 1803 allows users to add multiple compression schemes, but it prioritizes the compression scheme based on the scheme order in the **Accept-Encoding** request header field value:
+
+- A compression scheme appearing first in the **Accept-Encoding** request header field value is prioritized over the one appearing after, if they have the same quality values.
+- A compression scheme with higher quality value is prioritized over the one with lower quality value regardless of their order in the **Accept-Encoding** request header field value.
 
 ## Testing Compression
 
-## Troubleshooting Compression
+After IIS Compression is installed
+
+> [!NOTE]
+> To test **IIS Compression** with static content compression, ensure the requested file size is larger than
+
+> [!NOTE]
+> Level 0 of **iiszlib.dll** specifies no compression rather than best-speed compression.
+> The default IIS **dynamicCompressionLevel** in [&lt;httpCompression&gt;](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/httpcompression) is 0 as well. Therefore, **dynamicCompressionLevel** needs to be explicitly set above 0 to allow **iiszlib.dll** to compress dynamically generated contents.
