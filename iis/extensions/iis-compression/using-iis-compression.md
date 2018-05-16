@@ -31,11 +31,11 @@ The comparison of the allowed compression levels of the three compression scheme
 
 > [!NOTE]
 > Level 0 of **iiszlib.dll** specifies no compression rather than best-speed compression.
-> The default IIS **dynamicCompressionLevel** in [&lt;httpCompression&gt;](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/httpcompression) is 0 as well. Therefore, **dynamicCompressionLevel** needs to be explicitly set above 0 to allow **iiszlib.dll** to compress dynamically generated contents.
+> The default IIS **dynamicCompressionLevel** attribute value in the `<httpCompression>` element is 0 as well. Therefore, **dynamicCompressionLevel** needs to be explicitly set above 0 to allow **iiszlib.dll** to compress dynamically generated contents.
 
 ## Compression Scheme Prioritization
 
-#### HTTP Compression Scheme Negotiation
+### HTTP Compression Scheme Negotiation
 
 The compression scheme negotiation between user agents and IIS servers complies with [Requests For Comment (RFC) specification 7231](https://www.ietf.org/rfc/rfc7231.txt):
 
@@ -49,13 +49,13 @@ The compression scheme negotiation between user agents and IIS servers complies 
 
 5. Finally, the user agent uses the scheme indicated in the **Content-Encoding** response header to decompress the response body and to render the original contents to the user.
 
-#### Enabling Multiple Compression Schemes
+### Enabling Multiple Compression Schemes
 
 One of the key ideas behind HTTP compression scheme negotiation is the possibility of supporting new compression schemes while still allow to maintain backward compatibility with old clients or servers.
 While **Brotli** compression offers the benefit of higher compression ratio and has been supported by many browsers, it is still not as widely adopted as **Gzip** at the time of writing.
 Therefore, one possible optimization is to enable both **Brotli** and **Gzip** compression, but prioritize **Brotli** if the client-side user agent also supports it.
 
-##### IIS 10.0 Version 1803 or Above
+#### IIS 10.0 Version 1803 or Above
 
 Compression scheme prioritization is supported in IIS 10.0 version 1803 or above.
 The priority of each compression scheme is determined by its order in the `<scheme>` collection of the `<httpCompression>`element:
@@ -72,7 +72,7 @@ Such configuration order allows the IIS server to prioritize **Brotli** over **G
 > [!NOTE]
 > Typically the browsers that support **Brotli** compression only advertise **br** in the **Accept-Encoding** header value when **HTTPS** is used.
 
-##### Before IIS 10.0 Version 1803
+#### Before IIS 10.0 Version 1803
 
 Although IIS prior to version 10.0 version 1803 allows enabling multiple compression schemes, but it prioritizes the compression scheme based on the scheme order appearing in the **Accept-Encoding** request header value:
 
@@ -89,15 +89,17 @@ The following configuration shows a sample rewrite rule that rewrites the **Acce
 More details on how to configure rewrite rules can be found in
 [Creating Rewrite Rules for the URL Rewrite Module](https://docs.microsoft.com/en-us/iis/extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module).
 
-## Testing Compression
+## Testing IIS Compression
 
-After IIS Compression is installed
+Testing **IIS Compression** is as simple as opening a browser, requesting certain contents from the IIS server, and checking the requests and responses through the developer tools of the browser.
+
+[![](using-iis-compression/samples/test_compression.jpg)](using-iis-compression/samples/test_compression.jpg)
 
 > [!NOTE]
 > To test **IIS Compression** for static content compression:
 > - Ensure the MIME type of the requested resource is enabled in the `<staticTypes>` collection in the `<httpCompression>` element.
 > - Ensure the requested resource size is larger than `minFileSizeForComp` specified in `<httpCompression>` element.
-> - Ensure the "frequently hit" threshold is reached for the request. frequency is reached , or ensure the `staticCompressionIgnoreHitFrequency` property specified in the `<httpCompression>` element is set as `true`.
+> - Ensure the "hit frequency" threshold is reached for the requested URL. The threshold is specified by the `frequentHitThreshold` and `frequentHitTimePeriod` attributes in the `<serverRuntime>` element. Alternatively,  set the value of the `staticCompressionIgnoreHitFrequency` attribute in the `<httpCompression>` element as `true` to disable the "hit frequency" check just for testing purpose.
 
 > [!NOTE]
 > To test **IIS Compression** for dynamic content compression:
