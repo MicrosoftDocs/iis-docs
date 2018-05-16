@@ -88,12 +88,12 @@ Add the following entry right after the initial &lt;configuration&gt;/&lt;system
 [!code-xml[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample3.xml)]
 
 
-**Step 2:** After the configuration entry is added, you must save the Membership provider code provided in Appendix as **XmlMembershipProvider.cs in your `%systemdrive%\inetpub\wwwroot\App\_Code` directory**. If this directory does not exist, you must create it.
+**Step 2:** After the configuration entry is added, you must save the Membership provider code provided in Appendix as **XmlMembershipProvider.cs in your `%systemdrive%\inetpub\wwwroot\App_Code` directory**. If this directory does not exist, you must create it.
 
 > [!NOTE]
 > If using Notepad, be sure to set Save As: All Files to prevent the file from being saved as XmlMembershipProvider.cs.txt.
 
-**Step 3:** All that remains is the actual credential store. Save the xml snippet below as MembershipUsers.xml file in the `%systemdrive%\inetpub\wwwroot\App\_Data` directory.
+**Step 3:** All that remains is the actual credential store. Save the xml snippet below as MembershipUsers.xml file in the `%systemdrive%\inetpub\wwwroot\App_Data` directory.
 
 > [!NOTE]
 > If using Notepad, be sure to set Save As: All Files to prevent the file from being saved as MembershipUsers.xml.txt.
@@ -102,7 +102,7 @@ Add the following entry right after the initial &lt;configuration&gt;/&lt;system
 [!code-xml[Main](how-to-take-advantage-of-the-iis-integrated-pipeline/samples/sample4.xml)]
 
 
-If the App\_Data directory does not exist, you must create it.
+If the App_Data directory does not exist, you must create it.
 
 > [!NOTE]
 > Due to security changes in Windows Server 2003 and Windows Vista SP1, you can no longer use the IIS Administration tool to create Membership user accounts for non-GACed Membership providers.
