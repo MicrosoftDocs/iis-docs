@@ -1,0 +1,16 @@
+<rewrite>
+    <allowedServerVariables>
+        <add name="HTTP_ACCEPT_ENCODING" />
+    </allowedServerVariables>
+    <rules>
+        <rule name="Prioritize Brotli">
+            <match url=".*" />
+            <conditions>
+                <add input="{HTTP_ACCEPT_ENCODING}" pattern="\bbr(?!;q=0)\b" />
+            </conditions>
+            <serverVariables>
+                <set name="HTTP_ACCEPT_ENCODING" value="br" />
+            </serverVariables>
+        </rule>
+    </rules>
+</rewrite>
