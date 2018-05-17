@@ -84,9 +84,3 @@ WMSVC installs with Startup Type set to Manual, which means that the service has
 [!code-console[Main](remote-administration-for-iis-manager/samples/sample3.cmd)]
 
 <a id="04"></a>
-
-## Related Links
-
-See the following resources for further information:
-
-- [Configuring the Web Management Service in IIS 7.0](http://technet2.microsoft.com/WindowsServer/en/Library/6946154e-defc-4050-b2ba-165afa2cc6741033.mspx)
