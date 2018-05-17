@@ -48,7 +48,8 @@ Click **Server Manager** in the Start menu, select the **Roles** node in the lef
 
 ## Enable Remote Connections
 
-To enable remote connections using IIS Manager, click the server node in the tree view, open the **Management Service** feature, and check the **Enable Remote Connections** check box under Remote Connections (check out our [online help topic](http://technet2.microsoft.com/WindowsServer/en/Library/cdd5163a-fd6e-4dff-85d8-c4ca6414c1171033.mspx?mfr=true) for more details).  
+To enable remote connections using IIS Manager, click the server node in the tree view, open the **Management Service** feature, and check the **Enable Remote Connections** check box under Remote Connections.  
+
 This configuration is stored in the dword registry value "EnableRemoteManagement" under the registry key HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\WebManagement\Server. The easiest way to enable remote management from the command line is to save this text in a file called EnableRemoteMgmt.reg and run it:
 
 
@@ -64,7 +65,7 @@ There are a few other WMSVC settings you might want to configure:
 - **IPv4 Restrictions** – After remote connections are enabled, WMSVC accepts connects from any IP address. You may want to refuse connections from a set of known clients, or lock down connections to only a set of known clients.
 - **Acceptable for unspecified clients** – By default, WMSVC accepts both Windows credentials and IIS Manager credentials (i.e. non-Windows credentials stored in administration.config). You can choose to restrict this to just Windows credentials.
 
-To configure these settings using IIS Manager, click the server node in the tree view and open the **Management Service** feature (see [online help topics](http://technet2.microsoft.com/WindowsServer/en/Library/6946154e-defc-4050-b2ba-165afa2cc6741033.mspx) for more details). This configuration is stored in the registry and can be manipulated many different ways (e.g. regedit, .reg files, WMI, etc.):
+To configure these settings using IIS Manager, click the server node in the tree view and open the **Management Service** feature. This configuration is stored in the registry and can be manipulated many different ways (e.g. regedit, .reg files, WMI, etc.):
 
 [![](remote-administration-for-iis-manager/_static/image7.jpg)](remote-administration-for-iis-manager/_static/image5.jpg)
 
@@ -72,7 +73,7 @@ To configure these settings using IIS Manager, click the server node in the tree
 
 ## Start WMSVC
 
-To start WMSVC using IIS Manager, click the server node in the tree view, open the **Management Service** feature, and click **Start** in the task pane (see [online help topic](http://technet2.microsoft.com/WindowsServer/en/Library/cdd5163a-fd6e-4dff-85d8-c4ca6414c1171033.mspx?mfr=true) for more details). To start WMSVC from the command line, type:
+To start WMSVC using IIS Manager, click the server node in the tree view, open the **Management Service** feature, and click **Start** in the task pane. To start WMSVC from the command line, type:
 
 
 [!code-console[Main](remote-administration-for-iis-manager/samples/sample2.cmd)]
