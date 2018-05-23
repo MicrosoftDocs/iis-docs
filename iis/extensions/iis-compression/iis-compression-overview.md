@@ -9,41 +9,45 @@ ms.technology: iis
 ms.prod: iis
 msc.type: authoredcontent
 ---
-IIS Compression Overview
-====================
-by [Yanbing Shi](https://github.com/bangbingsyb)
 
-> The article provides an overview of IIS Compression.
+# IIS Compression Overview
 
-## What is IIS Compression?
+By [Yanbing Shi](https://github.com/bangbingsyb)
+
+This article provides an overview of IIS Compression.
+
+## What is IIS Compression
 
 **IIS Compression** is a bundle of two IIS compression scheme providers *iisbrotli.dll* and *iiszlib.dll* that support IIS to compress HTTP response contents.
 *iisbrotli.dll* supports **Brotli** compression, while *iiszlib.dll* supports both **Gzip** and **Deflate** compression.
 
-#### What is a compression scheme provider?
+#### What is a compression scheme provider
 
 An IIS compression scheme provider:
+
 - Is a pluggable extension of IIS `StaticCompressionModule` and `DynamicCompressionModule`.
 - Provides an implementation for one or multiple HTTP compression schemes.
 
 An IIS compression scheme provider is a pluggable extension of IIS `StaticCompressionModule` and `DynamicCompressionModule` and provides algorithm for one or multiple HTTP compression schemes.
 
 IIS `StaticCompressionModule` and `DynamicCompressionModule`:
-- Load the registered compression scheme providers into worker process at runtime.
-- Leverage them to perform compression on static files and dynamically-generated content, respectively.
 
-## Why use IIS Compression?
+- Load the registered compression scheme providers into worker process at runtime.
+- Leverage them to perform compression on static files and dynamically generated content, respectively.
+
+## Why use IIS Compression
 
 IIS ships a default compression scheme provider *gzip.dll*:
-- That supports both **Gzip** and **Deflate** compression
+
+- That supports both **Gzip** and **Deflate** compression.
 - Is registered as the **gzip** scheme in **applicationHost.config** by default.
 
-The in-box *gzip.dll* is based on an internal implementation of Gzip and Deflate encoding, and it works properly.
-Then why introduce new compression scheme providers in **IIS Compression**?
+The in-box *gzip.dll* is based on an internal implementation of Gzip and Deflate encoding, and it works properly. So why introduce new compression scheme providers in **IIS Compression**?
 
-#### Higher Compression Ratio with Brotli compression
+### Higher Compression Ratio with Brotli compression
 
 Brotli compression:
+
 - Is a relatively new addition to the HTTP compression.
 - Encoding algorithm and format of Brotli are specified in [Requests For Comment (RFC) specification 7932](https://www.ietf.org/rfc/rfc7932.txt).
 - Response data streams compressed with Brotli have the content encoding type "br".
@@ -54,13 +58,15 @@ Brotli decompression on the client (browser) side is in general faster. Enabling
 #### Better Gzip Compression Scheme Provider
 
 While *iiszlib.dll* included in **IIS Compression** offers same **Gzip** and **Deflate** compression as the default provider *gzip.dll*, *iiszlib.dll*:
-- Is more up-to-date
-- Has better performance in terms of CPU usage
+
+- Is more up-to-date.
+- Has better performance in terms of CPU usage.
 - Has better dynamic compression support owing to the zlib library.
 
 #### Open Source
 
 `IIS Compression`:
+
 - Is a supported open-source product.
 - Source code can be found in [IIS.Compression](https://github.com/Microsoft/IIS.Compression) Github repository.
 - Uses the open-source [brotli](https://github.com/google/brotli) and [zlib](https://zlib.net/) compression libraries as the core encoders
@@ -70,7 +76,7 @@ Making `IIS Compression` open-source provides transparency to the community and 
 
 ## Installing IIS Compression
 
-#### Before Installation
+### Before Installation
 
 The *iiszlib.dll* and *iisbrotli.dll* compression scheme providers are not IIS modules, they are extensions of IIS `StaticCompressionModule` and `DynamicCompressionModule`. At runtime, `StaticCompressionModule` and `DynamicCompressionModule` load the compression scheme providers and pass the response content data to them for compression.
 
