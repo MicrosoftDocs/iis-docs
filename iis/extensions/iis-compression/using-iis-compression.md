@@ -20,18 +20,18 @@ by [Yanbing Shi](https://github.com/bangbingsyb)
 HTTP compression is a trade-off of CPU for bandwidth.
 For a given compression algorithm, achieving higher compression ratio typically comes with slower compression speed, and vice versa.
 The balance between compression ratio and speed is controlled by the compression level.
-The compression levels of **iiszlib.dll**, **iisbrotli.dll**, and **gzip.dll** do not match with each other in terms of range, compression ratio, and speed.
+The compression levels of *iiszlib.dll*, *iisbrotli.dll*, and *gzip.dll* do not match with each other in terms of range, compression ratio, and speed.
 The comparison of the allowed compression levels of the three compression scheme providers is summarized in the below table.  
 
 | Compression Scheme Provider | Compression Level: No Compression | Compression Level: Best Speed | Compression Level: Best Compression Ratio |
 |---------|---------|---------|---------|
-| gzip.dll | N/A | 0 | 10 |
-| iiszlib.dll | 0 | 1 | 9 |
-| iisbrotli.dll | N/A | 0 | 11 |
+| *gzip.dll* | N/A | 0 | 10 |
+| *iiszlib.dll* | 0 | 1 | 9 |
+| *iisbrotli.dll* | N/A | 0 | 11 |
 
 > [!NOTE]
-> Level 0 of **iiszlib.dll** specifies no compression rather than best-speed compression.
-> The default IIS **dynamicCompressionLevel** attribute value in the `<httpCompression>` element is 0 as well. Therefore, **dynamicCompressionLevel** needs to be explicitly set above 0 to allow **iiszlib.dll** to compress dynamically generated contents.
+> Level 0 of *iiszlib.dll* specifies no compression rather than best-speed compression.
+> The default IIS **dynamicCompressionLevel** attribute value in the `<httpCompression>` element is 0 as well. Therefore, **dynamicCompressionLevel** needs to be explicitly set above 0 to allow *iiszlib.dll* to compress dynamically generated contents.
 
 ## Compression Scheme Prioritization
 
@@ -43,17 +43,17 @@ The compression scheme negotiation between user agents and IIS servers complies 
 
 2. The server examines the **Accept-Encoding** header in the request and selects a scheme that the server supports.
 
-3. The server then applies the corresponding algorithm to compress the response body.
+3. The server applies the corresponding algorithm to compress the response body.
 
 4. When the server sends back the response, it adds the **Content-Encoding** response header with the selected compression scheme as the header value.
 
-5. Finally, the user agent uses the scheme indicated in the **Content-Encoding** response header to decompress the response body and to render the original contents to the user.
+5. The user agent uses the scheme indicated in the **Content-Encoding** response header to decompress the response body and to render the original contents to the user.
 
 ### Enabling Multiple Compression Schemes
 
-One of the key ideas behind HTTP compression scheme negotiation is the possibility of supporting new compression schemes while still allow to maintain backward compatibility with old clients or servers.
-While **Brotli** compression offers the benefit of higher compression ratio and has been supported by many browsers, it is still not as widely adopted as **Gzip** at the time of writing.
-Therefore, one possible optimization is to enable both **Brotli** and **Gzip** compression, but prioritize **Brotli** if the client-side user agent also supports it.
+One of the key ideas behind HTTP compression scheme negotiation is the possibility of supporting new compression schemes while maintaining backward compatibility with old clients or servers.
+
+While **Brotli** compression offers the benefit of higher compression ratio and has been supported by many browsers, it is still not as widely adopted as **Gzip** at the time of writing. Therefore, one possible optimization is to enable both **Brotli** and **Gzip** compression, but prioritize **Brotli** if the client-side user agent also supports it.
 
 #### IIS 10.0 Version 1803 or Above
 
@@ -63,7 +63,7 @@ The priority of each compression scheme is determined by its order in the `<sche
 - A compression scheme appearing on the top of the `<scheme>` collection is prioritized over the one appearing after, if their quality values specified in the **Accept-Encoding** request header value are the same.
 - A compression scheme with higher quality value in the **Accept-Encoding** request header value is prioritized over the one with lower quality value regardless of their order in the `<scheme>` collection.
 
-The installation of **IIS Compression** registers **iisbrotli.dll** and **iiszlib.dll** as the **br** and **gzip** compression scheme providers, respectively, and places **br** before **gzip** in the `<scheme>` collection:
+The installation of **IIS Compression** registers *iisbrotli.dll* and *iiszlib.dll* as the **br** and **gzip** compression scheme providers, respectively, and places **br** before **gzip** in the `<scheme>` collection:
 
 [!code-xml[Main](using-iis-compression/samples/compression-scheme-prioritization-config.xml)]
 
@@ -91,16 +91,17 @@ More details on how to configure rewrite rules can be found in
 
 ## Testing IIS Compression
 
-Testing **IIS Compression** is as simple as opening a browser, requesting certain contents from the IIS server, and checking the requests and responses through the developer tools of the browser.
+Testing **IIS Compression** can be accomplished by:
+* Opening a browser and requesting certain contents from the IIS server.
+* Checking the requests and responses through the developer tools of the browser.
 
 [![](using-iis-compression/samples/test_compression.jpg)](using-iis-compression/samples/test_compression.jpg)
 
-> [!NOTE]
-> To test **IIS Compression** for static content compression:
-> - Ensure the MIME type of the requested resource is enabled in the `<staticTypes>` collection in the `<httpCompression>` element.
-> - Ensure the requested resource size is larger than `minFileSizeForComp` specified in `<httpCompression>` element.
-> - Ensure the "hit frequency" threshold is reached for the requested URL. The threshold is specified by the `frequentHitThreshold` and `frequentHitTimePeriod` attributes in the `<serverRuntime>` element. Alternatively,  set the value of the `staticCompressionIgnoreHitFrequency` attribute in the `<httpCompression>` element as `true` to disable the "hit frequency" check just for testing purpose.
+To test **IIS Compression** for static content compression:
+ - Ensure the MIME type of the requested resource is enabled in the `<staticTypes>` collection in the `<httpCompression>` element.
+ - Ensure the requested resource size is larger than `minFileSizeForComp` specified in `<httpCompression>` element.
+ - Ensure the "hit frequency" threshold is reached for the requested URL. The threshold is specified by the `frequentHitThreshold` and `frequentHitTimePeriod` attributes in the `<serverRuntime>` element. Alternatively,  set the value of the `staticCompressionIgnoreHitFrequency` attribute in the `<httpCompression>` element as `true` to disable the "hit frequency" check just for testing purpose.
 
-> [!NOTE]
-> To test **IIS Compression** for dynamic content compression:
-> - Ensure the MIME type of the requested resource is enabled in the `<dynamicTypes>` collection in the `<httpCompression>` element.
+To test **IIS Compression** for dynamic content compression:
+ - Ensure the MIME type of the requested resource is enabled in the `<dynamicTypes>` collection in the `<httpCompression>` element.
+ 
