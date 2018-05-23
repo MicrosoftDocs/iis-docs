@@ -9,19 +9,16 @@ ms.technology: iis
 ms.prod: iis
 msc.type: authoredcontent
 ---
-Using IIS Compression
-====================
-by [Yanbing Shi](https://github.com/bangbingsyb)
 
-> The article provides an overview on how to use IIS Compression.
+# Using IIS Compression
+
+By [Yanbing Shi](https://github.com/bangbingsyb)
+
+The article provides an overview on how to use IIS Compression.
 
 ## Compression Level
 
-HTTP compression is a trade-off of CPU for bandwidth.
-For a given compression algorithm, achieving higher compression ratio typically comes with slower compression speed, and vice versa.
-The balance between compression ratio and speed is controlled by the compression level.
-The compression levels of *iiszlib.dll*, *iisbrotli.dll*, and *gzip.dll* do not match with each other in terms of range, compression ratio, and speed.
-The comparison of the allowed compression levels of the three compression scheme providers is summarized in the below table.  
+HTTP compression is a trade-off of CPU for bandwidth. For a given compression algorithm, achieving higher compression ratio typically comes with slower compression speed, and vice versa. The balance between compression ratio and speed is controlled by the compression level. The compression levels of *iiszlib.dll*, *iisbrotli.dll*, and *gzip.dll* do not match with each other in terms of range, compression ratio, and speed. The comparison of the allowed compression levels of the three compression scheme providers is summarized in the below table.
 
 | Compression Scheme Provider | Compression Level: No Compression | Compression Level: Best Speed | Compression Level: Best Compression Ratio |
 |---------|---------|---------|---------|
@@ -92,16 +89,18 @@ More details on how to configure rewrite rules can be found in
 ## Testing IIS Compression
 
 Testing **IIS Compression** can be accomplished by:
-* Opening a browser and requesting certain contents from the IIS server.
-* Checking the requests and responses through the developer tools of the browser.
 
-[![](using-iis-compression/samples/test_compression.jpg)](using-iis-compression/samples/test_compression.jpg)
+- Opening a browser and requesting certain contents from the IIS server.
+- Checking the requests and responses through the developer tools of the browser.
+
+[![Response headers from F12 tools](using-iis-compression/samples/test_compression.jpg)](using-iis-compression/samples/test_compression.jpg)
 
 To test **IIS Compression** for static content compression:
- - Ensure the MIME type of the requested resource is enabled in the `<staticTypes>` collection in the `<httpCompression>` element.
- - Ensure the requested resource size is larger than `minFileSizeForComp` specified in `<httpCompression>` element.
- - Ensure the "hit frequency" threshold is reached for the requested URL. The threshold is specified by the `frequentHitThreshold` and `frequentHitTimePeriod` attributes in the `<serverRuntime>` element. Alternatively,  set the value of the `staticCompressionIgnoreHitFrequency` attribute in the `<httpCompression>` element as `true` to disable the "hit frequency" check just for testing purpose.
+
+- Ensure the MIME type of the requested resource is enabled in the `<staticTypes>` collection in the `<httpCompression>` element.
+- Ensure the requested resource size is larger than `minFileSizeForComp` specified in `<httpCompression>` element.
+- Ensure the "hit frequency" threshold is reached for the requested URL. The threshold is specified by the `frequentHitThreshold` and `frequentHitTimePeriod` attributes in the `<serverRuntime>` element. Alternatively,  set the value of the `staticCompressionIgnoreHitFrequency` attribute in the `<httpCompression>` element as `true` to disable the "hit frequency" check just for testing purpose.
 
 To test **IIS Compression** for dynamic content compression:
- - Ensure the MIME type of the requested resource is enabled in the `<dynamicTypes>` collection in the `<httpCompression>` element.
- 
+
+- Ensure the MIME type of the requested resource is enabled in the `<dynamicTypes>` collection in the `<httpCompression>` element.
