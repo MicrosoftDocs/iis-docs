@@ -18,7 +18,7 @@ This article provides an overview of IIS Compression.
 
 ## What is IIS Compression
 
-**IIS Compression** is a bundle of two IIS compression scheme providers *iisbrotli.dll* and *iiszlib.dll* that support IIS to compress HTTP response contents.
+**IIS Compression** is a bundle of two IIS compression scheme providers, *iisbrotli.dll* and *iiszlib.dll*, that expand IIS's capability to compress HTTP responses.
 *iisbrotli.dll* supports **Brotli** compression, while *iiszlib.dll* supports both **Gzip** and **Deflate** compression.
 
 #### What is a compression scheme provider
@@ -28,11 +28,9 @@ An IIS compression scheme provider:
 - Is a pluggable extension of IIS `StaticCompressionModule` and `DynamicCompressionModule`.
 - Provides an implementation for one or multiple HTTP compression schemes.
 
-An IIS compression scheme provider is a pluggable extension of IIS `StaticCompressionModule` and `DynamicCompressionModule` and provides algorithm for one or multiple HTTP compression schemes.
-
 IIS `StaticCompressionModule` and `DynamicCompressionModule`:
 
-- Load the registered compression scheme providers into worker process at runtime.
+- Load the registered compression scheme providers into worker processes at runtime.
 - Leverage them to perform compression on static files and dynamically generated content, respectively.
 
 ## Why use IIS Compression
