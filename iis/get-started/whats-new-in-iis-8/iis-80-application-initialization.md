@@ -40,6 +40,7 @@ The IIS 8.0 Application Initialization feature enables website administrators to
 
 The Application Initialization feature is configured through a combination of global and application-specific rules that tell IIS 8.0 how and when to initialize web applications. The Application Initialization feature also supports integration with the IIS Url Rewrite Module to support more complex handling of placeholder content while an application is still initializing.
 
+> [!NOTE]
 > There are known incomptibilities between Application Initialization and Application Request Routing (ARR). It is not recommended to use Application Initialization on machines with ARR installed.
 
 <a id="TOC301258517"></a>
