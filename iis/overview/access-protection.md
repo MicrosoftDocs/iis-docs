@@ -28,3 +28,11 @@ For IIS 5.1 and IIS 6.0 users, IIS provides URL Scan 3.0 which, like IIS Request
 ## URL Rewriting
 
 ![Url Rewriter](access-protection/_static/url-rewriter-small.png)Administrators can also use URL Rewriter for IIS, which enables dynamic modification of URLs based on rules defined by the site administrator, to protect applications on the Web server. For example, rules can be created which prevent other sites from ‘hot-linking’ to a Web site’s images or video content, thereby stealing content from the server and wasting bandwidth. Using rule templates, rewrite maps and other functionality integrated into IIS Manager, administrators can easily set up rules to define URL rewriting behavior based on HTTP headers and server variables.
+
+## HTTP Strict Transport Security (HSTS)
+
+IIS adds support for [HTTP Strict Transport Security](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-10-version-1709/iis-10-version-1709-hsts) that lets a web site instruct to browsers that the specified web site should only be accessed using HTTPS instead of HTTP.
+
+## Cross Origin Resource Sharing (CORS)
+
+Browsers usually apply same-origin restrictions to network requests. These restrictions would prevent a malicious page from making a cross origin request initiated from within a script. For such scenarios to work, you will need to configure your API to reply with appropriate CORS headers. [The IIS CORS module](https://docs.microsoft.com/en-us/iis/extensions/cors-module/cors-module-configuration-reference) provides a way for web administrators and web site authors to easily support the CORS protocol by delegating all CORS protocol handling to the module.
