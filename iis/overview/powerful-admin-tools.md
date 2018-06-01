@@ -29,8 +29,12 @@ IIS includes the Microsoft.Web.Administration API for [programmatically administ
 
 ## Windows PowerShell
 
-The [Windows PowerShell Provider for IIS](https://www.iis.net/downloads/microsoft/powershell) allows Web administrators and hosting providers to easily automate routine and complex IIS administration tasks such as creating Web sites, and managing configuration and run-time data using Windows PowerShell. Administrators can further increase productivity by leveraging the many cmdlets included with the Windows PowerShell Provider for IIS.
+The [IIS Administration PowerShell cmdlets](https://docs.microsoft.com/powershell/module/iisadministration/?view=win10-ps) allow Web administrators and hosting providers to easily automate routine and complex IIS administration tasks such as creating Web sites, and managing configuration and run-time data using Windows PowerShell. Administrators can further increase productivity by leveraging the many cmdlets included with the Windows PowerShell Provider for IIS. The IIS Adminstration PowerShell cmdlets are available on Windows 10/Windows Server 2016 and higher. On older OSes, these cmdlets are available for download via the [PowerShell Gallery](https://www.powershellgallery.com/packages/IISAdministration/1.1.0.0).
 
 ## Command-line - AppCmd.exe
 
 IIS supports a command line tool [AppCmd.exe](../get-started/getting-started-with-iis/getting-started-with-appcmdexe.md) \- for administering the server. This powerful utility makes it easy to read and write configuration values, and access site and application pool state information, all from the command prompt.
+
+## Microsoft IIS Administration API
+
+The [Microsoft IIS Administration API](https://docs.microsoft.com/iis-administration/) is REST API that enables customers to configures and monitor their IIS web server. With the API installed on a machine with IIS, one can configure an IIS instance with any HTTP client including the web management tool at [manage.iis.net](https://manage.iis.net/).
