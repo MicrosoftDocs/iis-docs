@@ -1,5 +1,5 @@
 ---
-title: "Centralized Web Farm Management"
+title: Centralized Web Farm Management
 author: shirhatti
 description: "IIS makes it simple to centrally deploy and manage configuration and content across a farm of Web servers."
 ms.author: soshir
