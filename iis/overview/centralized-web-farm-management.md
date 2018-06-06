@@ -25,7 +25,7 @@ An innovative feature called [Shared Configuration](../manage/managing-your-conf
 * Place IIS configuration on a shared volume (network file share or shared disk).
 * Point multiple web servers at that single configuration file.
 
-Web content can also be shared on a network volume across multiple servers. This shared content enables updates of both configuration and content to automatically apply to all web sites connected to the share. All of the [IIS configuration and management tools](powerful-admin-tools) (`AppCmd.exe`, IIS Manager, etc.) work with IIS configuration, whether local or shared.
+Web content can also be shared on a network volume across multiple servers. This shared content enables updates of both configuration and content to automatically apply to all web sites connected to the share. All of the [IIS configuration and management tools](powerful-admin-tools.md) (`AppCmd.exe`, IIS Manager, etc.) work with IIS configuration, whether local or shared.
 
 ## Package, Archive, Migrate, and Synchronize
 
