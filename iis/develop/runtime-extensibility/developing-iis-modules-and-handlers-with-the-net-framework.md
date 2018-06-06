@@ -57,7 +57,7 @@ The module is a .NET class that implements the ASP.NET **System.Web.IHttpModule*
 
 A **handler,** similar to the ISAPI extension in previous IIS versions, is responsible for handling the request and producing the response for specific content types. The main difference between the module and the handler is that the handler is typically mapped to a particular request path or extension, and supports the processing of a specific server resource to which that path or extension corresponds. Examples of handlers provided with IIS include ASP, which processes ASP scripts, the static file handler, which serves static files, and ASP.NET's PageHandler which processes ASPX pages.
 
-The handler is a .NET class that implements the ASP.NET **System.Web.IHttpHandler** or **System.Web.IAsyncHttpHandler** interface, and uses the APIs in the **System.Web** namespace to produce an http response for specific content it supports.
+The handler is a .NET class that implements the ASP.NET **System.Web.IHttpHandler** or **System.Web.IHttpAsyncHandler** interface, and uses the APIs in the **System.Web** namespace to produce an http response for specific content it supports.
 
 When planning to develop an IIS feature, the first question you should ask is whether this feature is responsible for serving requests to a specific url/extension, or applies to all/some requests based on arbitrary rules. In the former case, your should be a handler, and in the latter, a module.
 
