@@ -1,6 +1,7 @@
 <Users>    
     <User>        
-        <UserName>Bob</UserName>        
+        <UserName>Bob</UserName>
+        <Password>contoso!</Password>
         <Email>bob@contoso.com</Email>        
     </User>    
     <User>        
