@@ -20,7 +20,7 @@ IIS includes a comprehensive set of administration tools, including administrati
 
 *   [Remote administration](https://www.iis.net/downloads/microsoft/iis-manager) over HTTP/SSL
 *   Support for both Windows and non-Windows credentials for delegated administration
-*   A rich [extensibility framework](../develop/extending-the-management-ui.md) for plugging in new UI features using the .NET Framework
+*   A rich [extensibility framework](/iis/develop/extending-the-management-ui/overview-of-mwa-and-mwm-for-iis) for plugging in new UI features using the .NET Framework
 *   Automatic download and install of new UI modules to the client
 
 ## .NET Microsoft.Web.Administration
