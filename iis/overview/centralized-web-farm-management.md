@@ -20,7 +20,7 @@ IIS makes it easy to centrally deploy and manage configuration and content acros
 
 ## Share Configuration and Content
 
-An innovative feature called [Shared Configuration](../manage/managing-your-configuration-settings/shared-configuration_264.md) enables administrators to:
+An innovative feature called [Shared Configuration](~/manage/managing-your-configuration-settings/shared-configuration_264.md) enables administrators to:
 
 * Place IIS configuration on a shared volume (network file share or shared disk).
 * Point multiple web servers at that single configuration file.
@@ -31,7 +31,7 @@ Web content can also be shared on a network volume across multiple servers. This
 
  [![](centralized-web-farm-management/_static/ms-deploy-small.png)](centralized-web-farm-management/_static/ms-deploy-big.png) 
 
-IIS supports the [Microsoft Web Deployment Tool](../publish/using-web-deploy.md), which provides support for synchronizing:
+IIS supports the [Microsoft Web Deployment Tool](~/publish/using-web-deploy.md), which provides support for synchronizing:
 
 * Configuration and content.
 * All types of web application dependencies including GAC assemblies, COM dlls, SQL databases, SSL certificates, and much more.
