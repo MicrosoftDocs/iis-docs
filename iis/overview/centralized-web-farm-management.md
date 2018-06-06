@@ -20,7 +20,7 @@ IIS makes it easy to centrally deploy and manage configuration and content acros
 
 ## Share Configuration and Content
 
-An innovative feature called [Shared Configuration](../manage/managing-your-configuration-settings/shared-configuration_264.md) enables administrators to:
+An innovative feature called [Shared Configuration](/IIS/manage/managing-your-configuration-settings/shared-configuration_264) enables administrators to:
 
 * Place IIS configuration on a shared volume (network file share or shared disk).
 * Point multiple web servers at that single configuration file.
