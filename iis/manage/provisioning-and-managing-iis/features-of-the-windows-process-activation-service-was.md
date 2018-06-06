@@ -62,7 +62,7 @@ WAS can start worker processes with or without loading the user profile.
 
 #### Customizable User Account
 
-IIS worker processes can run as a preconfigured process identity or built-in accounts (LocalService, LocalSystem, NetworkService). Built-in accounts are advantages because they don't require password management. If a custom user identity is used the password is automatically encrypted. Configuration settings can be replicated to multiple machines by sharing the configuration encryption keys across machines.
+IIS worker processes can run as a preconfigured process identity or built-in accounts (LocalService, LocalSystem, NetworkService). Built-in accounts are advantageous because they don't require password management. If a custom user identity is used the password is automatically encrypted. Configuration settings can be replicated to multiple machines by sharing the configuration encryption keys across machines.
 
 #### Job Object Features
 
@@ -148,6 +148,6 @@ A Web Garden is the term for an Application Pool that runs with multiple worker 
 
 ## WAS Multi Protocol Support
 
-WAS not only host the HTTP stack. It can also host other protocols via its Listen Adapter and Worker Process Framework. WCF services take advantage of the WAS Multi-Protocol support. WCF protocols come with their own Listeners (e.g. the NET.TCP, NET.MSMQ or NET.PIPE Listener). These Listeners connect to WAS using the Listener Adapter Interfaces WAS provides.
+WAS doesn't only host the HTTP stack. It can also host other protocols via its Listen Adapter and Worker Process Framework. WCF services take advantage of the WAS Multi-Protocol support. WCF protocols come with their own Listeners (e.g. the NET.TCP, NET.MSMQ or NET.PIPE Listener). These Listeners connect to WAS using the Listener Adapter Interfaces WAS provides.
 
 Application protocols that take advantage of this infrastructure can host custom application code in the same .NET Application Domain as regular ASP.NET applications. They can also take advantage of the protocol-independent services the ASP.NET Hosting Environment provides, for example on-demand compilation, configuration support etc.
