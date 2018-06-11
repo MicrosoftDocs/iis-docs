@@ -37,7 +37,7 @@ This article describes common IIS module management tasks, and details each modu
 
 ## Prerequisites
 
-To follow some the steps in this document it is best to do a full install of IIS.
+To follow the steps in this document it is best to do a full install of IIS.
 
 > [!NOTE]
 > Not all editions of Windows support all available IIS features. To see which features of IIS are supported on your operating system, you will need to consult the documentation which shipped with your version of Windows.
