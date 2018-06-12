@@ -25,7 +25,7 @@ The steps for configuring Secure Sockets Layer (SSL) for a site are the same in 
 - Test by making a request to the site.
 - Optionally configure SSL options, that is, by making SSL a requirement.
 
-This document provides some basic information on SSL, then shows how to enable SSL in many several different ways:
+This document provides some basic information on SSL, then shows how to enable SSL in the following ways:
 
 - Using IIS Manager.
 - Using the AppCmd.exe command line tool.
@@ -59,7 +59,7 @@ When a client connects and initiates an SSL negotiation, HTTP.sys looks in its S
 When choosing a certificate, consider the following: Do you want end users to be able to verify your server's identity with your certificate? If yes, then either create a certificate request and send that request to a known certificate authority (CA) such as VeriSign or GeoTrust, or obtain a certificate from an online CA in your intranet domain. There are three things that a browser usually verifies in a server certificate:
 
 1. That the current date and time is within the "Valid from" and "Valid to" date range on the certificate.
-2. That the certificate's "Common Name" (CN) matches the host header in the request. For example, if the client is making a request to http://www.contoso.com/, then the CN must also be http://www.contoso.com/.
+2. That the certificate's "Common Name" (CN) matches the host header in the request. For example, if the client is making a request to `https://www.contoso.com/`, then the CN must be `www.contoso.com`.
 3. That the issuer of the certificate is a known and trusted CA.
 
 If one or more of these checks fails, the browser prompts the user with warnings. If you have an Internet site or an intranet site where your end users are not people you know personally, then you should always ensure that these three parameters are valid.
@@ -120,12 +120,14 @@ The following script demonstrates how to create a new SSL binding and how to add
 
 The following script demonstrates how to set SSL settings by using the IIS WMI provider. You can find this value in the IIS\_Schema.xml file.
 
+```
 CONST SSL = 8  
 Set oIIS = GetObject("winmgmts:root\WebAdministration")  
 Set oSection = oIIS.Get(\_  
  "AccessSection.Path='MACHINE/WEBROOT/APPHOST',Location='Default Web Site'")  
 oSection.SslFlags = oSection.SslFlags OR SSL  
 oSection.Put\_ <a id="IISManager"></a>
+```
 
 ## IIS Manager
 

@@ -60,9 +60,9 @@ WAS can start worker processes with or without loading the user profile.
 
 ### Security
 
-#### Customizable User Account
+#### Application Pool Identity
 
-IIS worker processes can run as a preconfigured process identity or built-in accounts (LocalService, LocalSystem, NetworkService). Built-in accounts are advantages because they don't require password management. If a custom user identity is used the password is automatically encrypted. Configuration settings can be replicated to multiple machines by sharing the configuration encryption keys across machines.
+IIS worker processes can run as a custom account, built-in account (LocalService, LocalSystem, NetworkService), or application pool identity (default). Using application pool identity is recommended because it does not require password management and application pool identities already abide to the principle of least privilege. Built-in accounts don't require password management as well. If a custom user identity is used, the password is automatically encrypted. Configuration settings can be replicated to multiple machines by sharing the configuration encryption keys across machines.
 
 #### Job Object Features
 
@@ -71,10 +71,6 @@ Job objects allow administrators to restrict worker processes to a particular CP
 ## Configuration Isolation and Security
 
 Before WAS starts an Application Pool and its worker process it generates a unique configuration file for this Application Pool. Application Pools also have configuration settings to run Application Pools under unique identities. Isolation can be achieved however even if the same identity is used. WAS creates a unique Security Identifier (SID) for each Application Pool. The Application Pool configuration file is then secured with this unique SID. This ensures that Application Pool configuration files can only be read by Administrators and the Application Pool itself. Even file permissions can be configured using this unique SID.
-
-### Application Pool Identities
-
-In Windows Server 2008 SP2 and Windows Server 2008 R2 Application Pools can now run as an unique Application Pool Identity. More about this topic can be found here.
 
 ## Diagnostics and Monitoring
 
@@ -148,6 +144,6 @@ A Web Garden is the term for an Application Pool that runs with multiple worker 
 
 ## WAS Multi Protocol Support
 
-WAS not only host the HTTP stack. It can also host other protocols via its Listen Adapter and Worker Process Framework. WCF services take advantage of the WAS Multi-Protocol support. WCF protocols come with their own Listeners (e.g. the NET.TCP, NET.MSMQ or NET.PIPE Listener). These Listeners connect to WAS using the Listener Adapter Interfaces WAS provides.
+WAS doesn't only host the HTTP stack. It can also host other protocols via its Listen Adapter and Worker Process Framework. WCF services take advantage of the WAS Multi-Protocol support. WCF protocols come with their own Listeners (e.g. the NET.TCP, NET.MSMQ or NET.PIPE Listener). These Listeners connect to WAS using the Listener Adapter Interfaces WAS provides.
 
 Application protocols that take advantage of this infrastructure can host custom application code in the same .NET Application Domain as regular ASP.NET applications. They can also take advantage of the protocol-independent services the ASP.NET Hosting Environment provides, for example on-demand compilation, configuration support etc.
