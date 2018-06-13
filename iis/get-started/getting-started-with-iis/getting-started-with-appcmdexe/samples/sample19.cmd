@@ -1,1 +1,1 @@
-%systemroot%\system32\inetsrv\%systemroot%\system32\inetsrv\APPCMD delete site "MyNewSite"
+%systemroot%\system32\inetsrv\APPCMD delete site "MyNewSite"
