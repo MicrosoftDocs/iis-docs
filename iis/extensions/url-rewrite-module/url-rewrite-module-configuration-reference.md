@@ -55,7 +55,7 @@ Each configuration level in IIS can have zero or more rewrite rules defined. The
 2. If a pattern matches and there are no conditions for the rule, the URL Rewrite Module performs the action specified for this rule and then goes on to the next rule, where it uses the substituted URL as an input for that rule.
 3. If a pattern matches and there are conditions for the rule, the URL Rewrite Module evaluates the conditions. If the evaluation is successful, the specified rule action is performed, and then the rewritten URL is used as input to the subsequent rule
 
-A rule may have the **StopProcessing** flag turned on. When this flag is turned on, it means that no more subsequent rules will be processed and the URL produced by this rule will be passed to the IIS request pipeline (if the rule matched). By default, this flag is turned off.
+A rule may have the **StopProcessing** flag turned on. When the rule action is performed (i.e. the rule matched) and this flag is turned on, it means that no more subsequent rules will be processed and the request will be passed to the IIS request pipeline. By default, this flag is turned off.
 
 <a id="Rules_Inheritance"></a>
 
