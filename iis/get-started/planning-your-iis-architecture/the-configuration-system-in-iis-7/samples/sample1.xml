@@ -5,7 +5,7 @@
     <!-- section group for web server authentication configuration -->
     <authentication>
       <!-- three sections for authentication -->
-      <basicAuthentcation ... />
+      <basicAuthentication ... />
       <windowsAutnentication ... />
       <anonymousAuthentication ... />
     </authentication>
