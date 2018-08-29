@@ -19,6 +19,9 @@ Deny by Failure &lt;denyByFailure&gt;
 
 The `<denyByFailure>` element configures the FTP service to deny access to the FTP service based upon how many times an FTP client fails to authenticate within a time period. When the number of failed login attempts has been reached, the FTP connection will be closed forcibly, and the client IP address will be blocked from accessing the FTP service for the duration of the time period (as set by the entryExpiration attribute). Denying access by the failure rate can only be enabled for the server, not for individual sites.
 
+> [!NOTE]
+> If the client's IP address matches an Allow Entry of **Specific** IP Address in FTP IP Address and Domain Restrictions feature specified at the **server** level, the client is treated with additional trust and is allowed to bypass FTP Logon Attempts restriction check.
+
 <a id="002"></a>
 ## Compatibility
 
