@@ -99,11 +99,11 @@ In this section, you will create a new FTP site that can be opened by using any 
     [![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image8.jpg)](guide-to-deploy-ftp-and-publish-with-vwd/_static/image7.jpg)
 3. When the Add FTP Site Wizard appears:
 
-    - Enter "My New FTP Site" in the **FTP site name** text box, and then navigate to the root folder that you created for your FTP site (example: `%*SystemDrive*%\inetpub\ftproot`).
-	    > [!NOTE]
-        > If you choose to type in the path to your content folder, you can use environment variables in your paths.
-    - Click **Next**.  
-        [![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image10.jpg)](guide-to-deploy-ftp-and-publish-with-vwd/_static/image9.jpg)
+   - Enter "My New FTP Site" in the **FTP site name** text box, and then navigate to the root folder that you created for your FTP site (example: `%*SystemDrive*%\inetpub\ftproot`).
+       > [!NOTE]
+       > If you choose to type in the path to your content folder, you can use environment variables in your paths.
+   - Click **Next**.  
+       [![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image10.jpg)](guide-to-deploy-ftp-and-publish-with-vwd/_static/image9.jpg)
 4. On the next page of the wizard:
 
     - Choose an IP address for your FTP site in the **IP Address** text box, or choose to accept the default selection of "All Unassigned." This example uses the local loopback IP "127.0.0.1".
@@ -176,7 +176,7 @@ In this section, you will configure the server-level port range for passive conn
 3. Enter a range of values for the **Data Channel Port Range**.  
     [![](guide-to-deploy-ftp-and-publish-with-vwd/_static/image24.jpg)](guide-to-deploy-ftp-and-publish-with-vwd/_static/image23.jpg)
 4. Once you have entered the port range for your FTP service, click **Apply** in the Actions pane to save your configuration settings.> [!NOTE]
->  
+   >  
 
     - The valid range for ports is 1025-65535. (Ports 1-1024 are reserved for use by system services.)
     - You can enter a special port range of "0-0" to configure the FTP server to use the Windows TCP/IP dynamic port range.

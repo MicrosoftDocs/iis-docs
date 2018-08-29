@@ -51,10 +51,10 @@ To simulate Live Smooth Streaming encoded output, do the following:
 1. On the Web server that contains an on-demand Smooth Streaming presentation, open a Command Prompt window and navigate to the directory where you installed the Push Encoder.
 2. At the command prompt, type a command that uses the following syntax to begin encoding simulated Live Smooth Streaming output from the Smooth Streaming presentation: pushencoder &lt;full-url-of-publishing-point&gt; &lt;relative-url-of-ism-file&gt;  
   
- Where &lt;full-url-of-publishing-point&gt; is the fully qualified URL of the Live Smooth Streaming publishing point definition (.isml) file and &lt;relative-url-of-ism-file&gt; is the URL of the server manifest that describes all of the available bit rates in the Smooth Streaming presentation, relative to PushEncoder.exe.  
+   Where &lt;full-url-of-publishing-point&gt; is the fully qualified URL of the Live Smooth Streaming publishing point definition (.isml) file and &lt;relative-url-of-ism-file&gt; is the URL of the server manifest that describes all of the available bit rates in the Smooth Streaming presentation, relative to PushEncoder.exe.  
   
- As the Push Encoder pushes the streams to the publishing point, you can observe the push activity in the Command Prompt window.  
- The following table contains example commands that show how to specify different types of publishing point and source URLs, and how to specify basic encoding options:  
+   As the Push Encoder pushes the streams to the publishing point, you can observe the push activity in the Command Prompt window.  
+   The following table contains example commands that show how to specify different types of publishing point and source URLs, and how to specify basic encoding options:  
 
     | **Command** | **Description** |
     | --- | --- |
@@ -92,17 +92,17 @@ WebDAV Publishing (Web Distributed Authoring and Versioning) enables you to publ
 1. Install and configure the WebDAV Extension for IIS 7 on the Web server. For more information, see Installing and Configuring WebDAV on IIS 7 ([https://go.microsoft.com/fwlink/?LinkId=165796](https://go.microsoft.com/fwlink/?LinkId=165796)).
 2. On the Web server, in Server Manager, install one of the following Security role services for the Web Server (IIS) role that matches the authentication method that you plan to use for WebDAV publishing: 
 
-    - Basic Authentication
-    - Windows Authentication
-    - Digest Authentication
+   - Basic Authentication
+   - Windows Authentication
+   - Digest Authentication
 
-    For more information about installing role services in Server Manager, see Installing Components with Server Manager ([https://go.microsoft.com/fwlink/?LinkId=165797](https://go.microsoft.com/fwlink/?LinkId=165797)).
+     For more information about installing role services in Server Manager, see Installing Components with Server Manager ([https://go.microsoft.com/fwlink/?LinkId=165797](https://go.microsoft.com/fwlink/?LinkId=165797)).
 
-    > [!NOTE]
-    > Anonymous authentication is not supported for publishing your encoded media files to a WebDAV-enabled server running IIS 7. For an overview of the authentication methods that you can use for WebDAV publishing, see Publish a video ([https://go.microsoft.com/fwlink/?LinkId=165798](https://go.microsoft.com/fwlink/?LinkId=165798)).
+     > [!NOTE]
+     > Anonymous authentication is not supported for publishing your encoded media files to a WebDAV-enabled server running IIS 7. For an overview of the authentication methods that you can use for WebDAV publishing, see Publish a video ([https://go.microsoft.com/fwlink/?LinkId=165798](https://go.microsoft.com/fwlink/?LinkId=165798)).
 3. On the Web server, in IIS Manager, click the Web site or directory in the **Connections** pane that you plan to use for delivering your Smooth Streaming presentation.  
     [![](encoding-live-smooth-streams-with-the-push-encoder-utility/_static/image2.png)](encoding-live-smooth-streams-with-the-push-encoder-utility/_static/image1.png)
 4. On the Home page, double-click the **Authentication** icon, and then enable and configure the **Security** role service that you installed.  
     [![](encoding-live-smooth-streams-with-the-push-encoder-utility/_static/image4.png)](encoding-live-smooth-streams-with-the-push-encoder-utility/_static/image3.png)  
   
- For more information, see Configuring Authentication in IIS 7 ([https://go.microsoft.com/fwlink/?LinkId=165799](https://go.microsoft.com/fwlink/?LinkId=165799)).
+   For more information, see Configuring Authentication in IIS 7 ([https://go.microsoft.com/fwlink/?LinkId=165799](https://go.microsoft.com/fwlink/?LinkId=165799)).

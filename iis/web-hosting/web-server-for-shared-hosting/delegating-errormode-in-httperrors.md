@@ -29,14 +29,14 @@ There are cases when a hoster may need to delegate to its customers specific set
 
     [!code-xml[Main](delegating-errormode-in-httperrors/samples/sample2.xml)]
   
- Your httpErrors section might look like this after the change:  
+   Your httpErrors section might look like this after the change:  
 
     [!code-xml[Main](delegating-errormode-in-httperrors/samples/sample3.xml)]
 3. Now you as the hoster can use appcmd to set the errorMode setting to "Detailed" or "Custom" (see example below)  
 
     [!code-console[Main](delegating-errormode-in-httperrors/samples/sample4.cmd)]
   
- or you could ask your customers to put the following statement in their web.config files:  
+   or you could ask your customers to put the following statement in their web.config files:  
 
     [!code-xml[Main](delegating-errormode-in-httperrors/samples/sample5.xml)]
 

@@ -54,7 +54,7 @@ Notification of the conditions that are indicated by these substatuses allows We
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
 
@@ -123,9 +123,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 1. Download the installation package from the following URL: 
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-- Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service: 
 
-    - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
+     - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
 ## How To
@@ -186,11 +186,11 @@ To support FTP publishing for your Web server, you must install the FTP service.
     [![](index/_static/image14.png)](index/_static/image13.png)
 5. Specify your options. For example, you could make the following changes: 
 
-    - Change the maximum URL length to 2KB by specifying 2048.
-    - Change the maximum command length to 1KB by specifying 1024.
-    - > [!NOTE]
- > It is recommended that you do not clear the **Allow unlisted commands** check box.  
-        [![](index/_static/image16.png)](index/_static/image15.png)
+   - Change the maximum URL length to 2KB by specifying 2048.
+   - Change the maximum command length to 1KB by specifying 1024.
+   - > [!NOTE]
+     > It is recommended that you do not clear the **Allow unlisted commands** check box.  
+       [![](index/_static/image16.png)](index/_static/image15.png)
 6. Click **OK**.
 
 * * *

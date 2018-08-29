@@ -37,7 +37,7 @@ To install the Web Server role on a machine that already is running Windows Serv
 [!code-console[Main](installing-the-web-server-role/samples/sample1.cmd)]
 
 - > [!IMPORTANT]
- > If you use this script, you get the full IIS installation, which installs all available feature packages. If there are feature packages you do not need, you should edit the script to install only the packages you require.
+  > If you use this script, you get the full IIS installation, which installs all available feature packages. If there are feature packages you do not need, you should edit the script to install only the packages you require.
 
 If you want to install IIS components that rely on the .NET Framework, you must first install the .NET Framework. The components that rely on the .NET Framework will not be installed if the .NET Framework is not already installed.
 
@@ -52,4 +52,4 @@ For scripting the full IIS installation on Server Core, use the following script
 [!code-console[Main](installing-the-web-server-role/samples/sample3.cmd)]
 
 - > [!IMPORTANT]
- > If you use this script, you get the full IIS installation, which installs all available feature packages for Server Core. If there are feature packages you do not need, you should edit the script to install only the packages you require.
+  > If you use this script, you get the full IIS installation, which installs all available feature packages for Server Core. If there are feature packages you do not need, you should edit the script to install only the packages you require.

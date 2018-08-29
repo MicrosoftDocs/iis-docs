@@ -70,9 +70,9 @@ Some of PHPList source files use only "&lt;?" tag instead of "&lt;?php" script t
     [![](phplist-on-iis/_static/image10.jpg)](phplist-on-iis/_static/image9.jpg)
 6. There several configuration parameters. Edit those parameters according to the application requirements. We use the default setup for testing.  
   
- 7. Click the "main page" link shown on the right side menu to access the admin main page.  
+   7. Click the "main page" link shown on the right side menu to access the admin main page.  
 
-    [![](phplist-on-iis/_static/image12.jpg)](phplist-on-iis/_static/image11.jpg)
+      [![](phplist-on-iis/_static/image12.jpg)](phplist-on-iis/_static/image11.jpg)
 7. Access the PHPLists administration page by clicking on the "lists" link shown on the right side menu. Here you can add, delete, or edit the list.  
 
     [![](phplist-on-iis/_static/image14.jpg)](phplist-on-iis/_static/image13.jpg)

@@ -61,7 +61,7 @@ Download the Microsoft Application Request Routing release from the following lo
 
     [!code-console[Main](install-application-request-routing-version-2/samples/sample2.cmd)]
 
- This step is necessary because ARR installs a Hotfix ([KB 954438](https://support.microsoft.com/kb/954438)).
+   This step is necessary because ARR installs a Hotfix ([KB 954438](https://support.microsoft.com/kb/954438)).
 3. Run ARRv2\_setup\_&lt;architecture&gt;.exe; for example: 
 
     [!code-console[Main](install-application-request-routing-version-2/samples/sample3.cmd)]
@@ -86,7 +86,7 @@ Download the Microsoft Application Request Routing release from the following lo
     - requestrouter.msi
     - externaldiskcache.msi
 
- For more information, launch the executable file with the /? option.
+   For more information, launch the executable file with the /? option.
 9. Start the **WAS** and **WMSVC** processes by entering the following: 
 
     [!code-console[Main](install-application-request-routing-version-2/samples/sample5.cmd)]

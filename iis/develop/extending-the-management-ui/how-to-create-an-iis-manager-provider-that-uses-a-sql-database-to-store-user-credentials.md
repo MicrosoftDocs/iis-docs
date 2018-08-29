@@ -91,7 +91,7 @@ The first step is to create the SQL database that will store the usernames, pass
 
         [!code-console[Main](how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials/samples/sample3.cmd)]
   
- Where C: is your operating system drive.
+   Where C: is your operating system drive.
 8. Save the project.
 
 ## Step 3: Create the Extensibility Class

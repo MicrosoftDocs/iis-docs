@@ -25,7 +25,7 @@ When you are done with these tasks, record your design decisions before going on
 
 On Windows Server® 2012, the **Centralized SSL Certificate Support** feature allows server administrators to store and access the certificates centrally on a file share. You can configure a centralized certificate store on you web farm to load the certificates from the file share.
 
-Using centralized certificates simplifies management SSL bindings. SSL requires the DNS name and CN name of a certificate to match. Similar contract can be extended to the file names of the certificates. For example, *www.contoso.com* would use the certificate with a file name *www.contoso.com.pfx*. This contract enables Windows Server 2012 to have just one SSL binding, regardless of the number of secure sites that are using this feature. IIS 8 infers what certificate to use by the SNI value or hostname of the requested website, and by matching it to the file name of the certificate.
+Using centralized certificates simplifies management SSL bindings. SSL requires the DNS name and CN name of a certificate to match. Similar contract can be extended to the file names of the certificates. For example, <em>www.contoso.com</em> would use the certificate with a file name <em>www.contoso.com.pfx</em>. This contract enables Windows Server 2012 to have just one SSL binding, regardless of the number of secure sites that are using this feature. IIS 8 infers what certificate to use by the SNI value or hostname of the requested website, and by matching it to the file name of the certificate.
 
 <a id="42"></a>
 ## 4.2 Plan a Central Certificate Store

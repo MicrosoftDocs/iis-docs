@@ -129,9 +129,9 @@ To create a **handler**, we must define a class that implements the [**System.We
 
     [![Implement the IHttpHandler interface in Visual Studio](developing-iis-modules-and-handlers-with-the-net-framework/_static/image23.jpg "Implement the IHttpHandler interface in Visual Studio")](developing-iis-modules-and-handlers-with-the-net-framework/_static/image21.jpg)
 
- The **IsReusable** () indicates whether or not your handler instance can be re-used for subsequent requests. In some cases, after processing the request your handler may be in an incorrect state to process another request, especially if you have stored data about the previous request in member variables. Note that the runtime will never use the same instance of your handler to process two requests at the same time, even if its marked as reusable. If your handler does not store any per-request state in member variables and can have its ProcessRequest function called as many times as needed, make this property return true to allow reuse.   
+   The **IsReusable** () indicates whether or not your handler instance can be re-used for subsequent requests. In some cases, after processing the request your handler may be in an incorrect state to process another request, especially if you have stored data about the previous request in member variables. Note that the runtime will never use the same instance of your handler to process two requests at the same time, even if its marked as reusable. If your handler does not store any per-request state in member variables and can have its ProcessRequest function called as many times as needed, make this property return true to allow reuse.   
   
- The **ProcessRequest** () method is the main entry point of the handler. Its role is to process the request specified by the **HttpRequest** instance available off the provided **HttpContext** instance, and generate the appropriate response using the **HttpResponse** instance also available off the HttpContext. The ProcessRequest() method will be invoked by the runtime during the ExecuteRequestHandler request processing stage, and ONLY IF the request mapped to your handler based on the configured handler mappings. This is different from a module which receives notifications for all requests to the application.
+   The **ProcessRequest** () method is the main entry point of the handler. Its role is to process the request specified by the **HttpRequest** instance available off the provided **HttpContext** instance, and generate the appropriate response using the **HttpResponse** instance also available off the HttpContext. The ProcessRequest() method will be invoked by the runtime during the ExecuteRequestHandler request processing stage, and ONLY IF the request mapped to your handler based on the configured handler mappings. This is different from a module which receives notifications for all requests to the application.
 4. Implement the **IsReusable** property first. Since our handler will not store any member state for the request and will be able to support multiple calls to ProcessRequest() with different requests, we will mark it as reusable by returning true. 
 
 	[!code-csharp[Main](developing-iis-modules-and-handlers-with-the-net-framework/samples/sample3.cs)]
@@ -190,22 +190,22 @@ We have deployed and configured the module / handler. Now to test them:
 
 1. Test our handler by making a request to "time.tm" in our application. If successful, we see the current time on the server. Make a request to your application, for example [http://localhost/myiis7project/time.tm](http://localhost/myiis7project/time.tm) as we deployed the handler to the myiis7project application in the Default Web Site:  
   
- If the handler is properly deployed to this application, you see the current time on the server:   
+   If the handler is properly deployed to this application, you see the current time on the server:   
   
     [![Testing the IIS7 handler](developing-iis-modules-and-handlers-with-the-net-framework/_static/image39.jpg "Testing the IIS7 handler")](developing-iis-modules-and-handlers-with-the-net-framework/_static/image37.jpg)  
   
- Also try requesting [http://localhost/myiis7project/time.tm?utc=true](http://localhost/myiis7project/time.tm?utc=true) to display the time in UTC.
+   Also try requesting [http://localhost/myiis7project/time.tm?utc=true](http://localhost/myiis7project/time.tm?utc=true) to display the time in UTC.
 2. Test the module. Create a simple html page called **page.html** in your application that links to the **/time.tm** URL:  
   
     **page.html**
 
     [!code-html[Main](developing-iis-modules-and-handlers-with-the-net-framework/samples/sample5.html)]
   
- Then, make a request to [http://localhost/myiis7project/page.html](http://localhost/myiis7project/page.html) to display the link. When you click the link, you observe an error:   
+   Then, make a request to [http://localhost/myiis7project/page.html](http://localhost/myiis7project/page.html) to display the link. When you click the link, you observe an error:   
   
     [![Testing the IIS7 module](developing-iis-modules-and-handlers-with-the-net-framework/_static/image43.jpg "Testing the IIS7 module")](developing-iis-modules-and-handlers-with-the-net-framework/_static/image41.jpg)  
   
- You may ask if we did not just request this same URL above and successfully see the time. This is because our module is configured to reject requests to your application that specify a Referer header, which gets added by the browser whenever a user clicks a link to go to your website instead of just typing in the URL in the browser directly. So, when you requested the URL directly, you were able to access it - however, when you followed a link from another page, your request was rejected by our module.
+   You may ask if we did not just request this same URL above and successfully see the time. This is because our module is configured to reject requests to your application that specify a Referer header, which gets added by the browser whenever a user clicks a link to go to your website instead of just typing in the URL in the browser directly. So, when you requested the URL directly, you were able to access it - however, when you followed a link from another page, your request was rejected by our module.
 
 ## Summary
 

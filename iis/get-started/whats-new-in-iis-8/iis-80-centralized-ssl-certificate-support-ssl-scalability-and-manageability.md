@@ -41,7 +41,7 @@ As more e-commerce sites come on line and more businesses are storing and sharin
 
 On Windows Server 2012, the Centralized SSL Certificate Support feature allows the server administrators to store and access the certificates centrally on a file share. Similar to Shared Configuration feature introduced in Windows Server 2008, the Windows Servers in a server farm can be configured to load the certificates from the file share on-demand.
 
-With this feature, the management experience of SSL bindings is much simplified. When it comes to SSL, the DNS name and CN name of the certificate must match. Similar contract can be further extended to the file names of the certificates. For example, *www.contoso.com* would use the certificate with a file name *www.contoso.com.pfx*. This contract enables IIS 8.0 to have just one SSL binding, regardless of the number of secure sites that are using this feature. The corresponding certificate is inferred by the SNI value or hostname of the requested web site, and by matching it to the file name of the certificate.
+With this feature, the management experience of SSL bindings is much simplified. When it comes to SSL, the DNS name and CN name of the certificate must match. Similar contract can be further extended to the file names of the certificates. For example, <em>www.contoso.com</em> would use the certificate with a file name <em>www.contoso.com.pfx</em>. This contract enables IIS 8.0 to have just one SSL binding, regardless of the number of secure sites that are using this feature. The corresponding certificate is inferred by the SNI value or hostname of the requested web site, and by matching it to the file name of the certificate.
 
 <a id="TOC301258517"></a>
 
@@ -55,9 +55,10 @@ With this feature, the management experience of SSL bindings is much simplified.
         ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image1.png)
 - Sample certificates with NULL password. (Or you may have sample certificates with one global password.) 
 
-    - The certificates must have the naming convention of CN\_name.pfx (ie. www.contoso.com.pfx).
-    - If the certificate is a wildchar certificate, use "\_" as the wildchar. (ie. \_.contoso.com.pfx).
-    - If the certificate has multiple CN names, they must be named as individual files. (ie. www.contoso1.com.pfx, www.contoso2.com.pfx, etc.)
+  - The certificates must have the naming convention of CN\_name.pfx (ie. www.contoso.com.pfx).
+  - If the certificate is a wildchar certificate, use "\_" as the wildchar. (ie. \_.contoso.com.pfx).
+  - If the certificate has multiple CN names, they must be named as individual files. (ie. www.contoso1.com.pfx, www.contoso2.com.pfx, etc.)
+
 - Two file shares: one for shared configuration and the other for centralized SSL certificates. 
 
     - The IIS server is using the shared configuration.
@@ -83,31 +84,31 @@ There are no known bugs for this feature at this time.
     ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image7.png)
 5. Enter the following information: 
 
-    - **Enable Centralized Certificates**: Selected
-    - **Physical** **path**: For example: \\ccdemo\centralcert 
+   - **Enable Centralized Certificates**: Selected
+   - **Physical** **path**: For example: \\ccdemo\centralcert 
 
-        - This is UNC path to the file share where the certificates are located.
-    - **User name**: Specify a user account that has read access to the file share.
-    - **Password/Confirm password**.
-    - **Certificate Private Key Password**: 
+       - This is UNC path to the file share where the certificates are located.
+   - **User name**: Specify a user account that has read access to the file share.
+   - **Password/Confirm password**.
+   - **Certificate Private Key Password**: 
 
-        - This is optional. If the certificates do not have password, leave this empty.
-        - If the certificates have one global password, enter that password here.
+       - This is optional. If the certificates do not have password, leave this empty.
+       - If the certificates have one global password, enter that password here.
 
-    ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image1.jpg)
+     ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image1.jpg)
 6. Centralized SSL Certificate Support feature is now ready to be used. Note that the IIS Manager reads the certificates and populates the most relevant information about the certificates. This information is cached for better performance.
 7. One manageability feature that is noteworthy is the ability to group the certificates by their expiration dates:  
     [![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image11.png)](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image9.png)
 8. See how easily it is to be able to see the certificates that: 
 
-    - Expired
-    - Expire tomorrow
-    - Expire this week
-    - Expire next week
-    - Expire next month
-    - Later
+   - Expired
+   - Expire tomorrow
+   - Expire this week
+   - Expire next week
+   - Expire next month
+   - Later
 
-    ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image13.png)
+     ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image13.png)
 
 <a id="TOC301270284"></a>
 
@@ -120,23 +121,23 @@ There are no known bugs for this feature at this time.
     ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image17.png)
 4. Fill in the information, as you would create any site: 
 
-    - **Site name**: centralCert0
-    - **Physical path**: `c:\inetpub\wwwroot`
-    - **Type**: https
-    - **Hostname**: centralcert0 
+   - **Site name**: centralCert0
+   - **Physical path**: `c:\inetpub\wwwroot`
+   - **Type**: https
+   - **Hostname**: centralcert0 
 
-        - This is new for Windows Server 2012 in that host name can be specified for SSL.
-        - The actual value of this configuration varies depending on the sample certificate that is being used.
-    - **Require Server Name Indication**: Unselected 
+       - This is new for Windows Server 2012 in that host name can be specified for SSL.
+       - The actual value of this configuration varies depending on the sample certificate that is being used.
+   - **Require Server Name Indication**: Unselected 
 
-        - You may also choose to select Require Server Name Indication if you choose. Centralized Certificate Store does not require you to use SNI, but it does work properly when using SNI.
-        - Note that in the Developer Preview release, Centralized Certificate Store did require using SNI as well. That restriction has been removed as of the Beta release.
-    - **Use Centralized Certificate Store**: Selected 
+       - You may also choose to select Require Server Name Indication if you choose. Centralized Certificate Store does not require you to use SNI, but it does work properly when using SNI.
+       - Note that in the Developer Preview release, Centralized Certificate Store did require using SNI as well. That restriction has been removed as of the Beta release.
+   - **Use Centralized Certificate Store**: Selected 
 
-        - Note that there is no need to select a specific corresponding certificate to be used.
-        - Through the use of the naming contract, the corresponding certificate is selected automatically. In this example, IIS tries to read centralcert0.pfx from the central SSL certificate file share.
+       - Note that there is no need to select a specific corresponding certificate to be used.
+       - Through the use of the naming contract, the corresponding certificate is selected automatically. In this example, IIS tries to read centralcert0.pfx from the central SSL certificate file share.
 
-    ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image3.jpg)
+     ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image3.jpg)
 5. Verify that the site has been created:  
     ![](iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability/_static/image19.png)
 6. That's it. The secure site was created using Centralized SSL Certificate Support. The management experience is very similar to shared configuration and traditional SSL binding. The differences are: 

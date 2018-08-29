@@ -32,10 +32,10 @@ The following items are required to complete the procedures in this article:
 1. IIS 7.0 or above must be installed on your Windows Server 2008 server, and the Internet Information Services (IIS) Manager must also be installed.
 2. The new FTP 7.5 service must be installed. You can download and install the FTP 7.5 service from the [https://www.iis.net/](https://www.iis.net/) Web site using one of the following links: 
 
-    - [FTP 7.5 for IIS (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
-    - [FTP 7.5 for IIS (x64)](https://go.microsoft.com/fwlink/?LinkId=143197)
-    > [!IMPORTANT]
-    > As mentioned earlier in this walkthrough, the latest version of the FTP 7.5 service ***must be*** installed in order to use the provider in this walkthrough. A version FTP 7.5 was released on August 3, 2009 that addressed an issue where the local and remote IP addresses in the **IFtpLogProvider.Log()** method were incorrect. Because of this, using an earlier version of the FTP service will prevent this provider from working.
+   - [FTP 7.5 for IIS (x86)](https://go.microsoft.com/fwlink/?LinkId=143196)
+   - [FTP 7.5 for IIS (x64)](https://go.microsoft.com/fwlink/?LinkId=143197)
+     > [!IMPORTANT]
+     > As mentioned earlier in this walkthrough, the latest version of the FTP 7.5 service ***must be*** installed in order to use the provider in this walkthrough. A version FTP 7.5 was released on August 3, 2009 that addressed an issue where the local and remote IP addresses in the **IFtpLogProvider.Log()** method were incorrect. Because of this, using an earlier version of the FTP service will prevent this provider from working.
 3. You must have FTP publishing enabled for a site.
 4. You must use Visual Studio 2008.
     > [!NOTE]
@@ -178,7 +178,7 @@ In this step, you will implement the logging extensibility interface for the dem
 
 > [!NOTE]
 > If you did not use the optional steps to register the assemblies in the GAC, you will need to manually copy the assemblies to your IIS computer and add the assemblies to the GAC using the Gacutil.exe tool. For more information, see the following topic on the Microsoft MSDN Web site:
-
+> 
 > [Global Assembly Cache Tool (Gacutil.exe)](https://msdn.microsoft.com/en-us/library/ex0ss12c(VS.80).aspx)
 
 
@@ -199,30 +199,30 @@ In this step, you will add the demo provider to your FTP service and the Default
     - Click **Cancel**.
 2. Using the information from the previous steps, add the extensibility provider to the global list of FTP providers and configure the options for the provider: 
 
-    - At the moment there is no user interface that enables you to add properties for a custom authentication module, so you will have to use the following command line: 
+   - At the moment there is no user interface that enables you to add properties for a custom authentication module, so you will have to use the following command line: 
 
-        [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions/samples/sample6.cmd)]
+       [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions/samples/sample6.cmd)]
     
-	> [!NOTE]
-    > The connection string that you specify in the *connectionString* attribute must be a valid login for your database.
+     > [!NOTE]
+     > The connection string that you specify in the *connectionString* attribute must be a valid login for your database.
 3. Add the custom provider to a site: 
 
-    - At the moment there is no UI that enables you to add custom features to a site, so you will have to use the following command line: 
+   - At the moment there is no UI that enables you to add custom features to a site, so you will have to use the following command line: 
 
-        [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions/samples/sample7.cmd)]
+       [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-provider-with-dynamic-ip-restrictions/samples/sample7.cmd)]
     
-	> [!NOTE]
-    > This syntax disables FTP Basic authentication, and it is important that you disable Basic authentication when using this authentication provider. Otherwise, when an attacker's IP address has been blocked by this authentication provider, an attacker would still be able to attack accounts that use Basic authentication.
+     > [!NOTE]
+     > This syntax disables FTP Basic authentication, and it is important that you disable Basic authentication when using this authentication provider. Otherwise, when an attacker's IP address has been blocked by this authentication provider, an attacker would still be able to attack accounts that use Basic authentication.
 4. Add an authorization rule for the authentication provider: 
 
-    - Double-click **FTP Authorization Rules** in the main window.
-    - Click **Add Allow Rule...** in the **Actions** pane.
-    - Select **Specified users** for the access option.
-    - Enter a user name.
-	    > [!NOTE]
-        > The user name will need to be entered into the database outside of this list of steps.
-    - Select **Read** and/or **Write** for the **Permissions** option.
-    - Click **OK**.
+   - Double-click **FTP Authorization Rules** in the main window.
+   - Click **Add Allow Rule...** in the **Actions** pane.
+   - Select **Specified users** for the access option.
+   - Enter a user name.
+       > [!NOTE]
+       > The user name will need to be entered into the database outside of this list of steps.
+   - Select **Read** and/or **Write** for the **Permissions** option.
+   - Click **OK**.
 
 <a id="04"></a>
 
@@ -232,7 +232,7 @@ When FTP clients connect to your FTP site, the FTP service will attempt to authe
 
 > [!NOTE]
 > This sample provider implements the authentication logic for the FTP service, but does not provide an admin module to manage the data in the database. For example, you cannot manage the list of FTP user accounts, banned IP addresses, or authentication failures using this provider. To manage the data using IIS Manager, you can use the IIS Database Manager. For more information, see the following topic:
-
+> 
 > [https://www.iis.net/extensions/DatabaseManager](https://www.iis.net/downloads/microsoft/database-manager)
 
 

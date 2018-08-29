@@ -56,7 +56,7 @@ Next, create the account that will be used with your PHP application to access t
 
 This command creates the account, sets the password, and sets the privileges all in one line:
 
-- **GRANT ALL PRIVILEGES** **ON my\_DB.\*** - This statement says to allow all privileges for the account but only for the 'my\_DB' database and all of its tables.
+- **GRANT ALL PRIVILEGES** **ON my\_DB.\\*** - This statement says to allow all privileges for the account but only for the 'my\_DB' database and all of its tables.
 - **TO 'my\_DBuser'@'%'** - This statement specifies the account name and which machines can login with this account. In this case, 'my\_DBuser' is the name of the account that will be created and '%' means that you can login to the account from anywhere. If '%' was replaced with localhost or a specific IP address you could only login to the database from that location.
 - **IDENTIFIED BY 'my\_DBpass';** - This statement sets the password for the account to 'my\_DBpass' and ends the entire command with a semi-colon.
 

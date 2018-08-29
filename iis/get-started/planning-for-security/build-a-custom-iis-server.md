@@ -101,7 +101,7 @@ A good example of a module is the compression module. The compression module loo
 
     [!code-console[Main](build-a-custom-iis-server/samples/sample8.cmd)]
 
- This starts the server application pool, and serves the iisstart.htm document.
+   This starts the server application pool, and serves the iisstart.htm document.
 2. Start Task Manager, and go to the Processes tab. Because the IIS worker process runs under a different user account, you must check "Show processes for all users". Note the size of the w3wp.exe server worker process.  
     [![](build-a-custom-iis-server/_static/image2.jpg)](build-a-custom-iis-server/_static/image1.jpg)  
     *Figure 1: Task Manager showing the IIS Worker Process*
@@ -109,7 +109,7 @@ A good example of a module is the compression module. The compression module loo
 
     [!code-console[Main](build-a-custom-iis-server/samples/sample9.cmd)]
   
- We see that more than 90 DLLs are loaded by the worker process. Most of them are located in the …\intersrv\ directory – many of these are module DLLs that we saw in the first task when looking at the &lt;globalModules&gt; section, and a few others that support the .NET framework and the server runtime itself.
+   We see that more than 90 DLLs are loaded by the worker process. Most of them are located in the …\intersrv\ directory – many of these are module DLLs that we saw in the first task when looking at the &lt;globalModules&gt; section, and a few others that support the .NET framework and the server runtime itself.
 
 <a id="Stripping"></a>
 

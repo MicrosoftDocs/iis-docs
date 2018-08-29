@@ -150,7 +150,7 @@ A user can use the application pool SID to ACL their contents and secure their W
 After configuring the NTFS permissions, only the SID that has been injected into a particular w3wp.exe process will be able to read the contents of the Web site. All code running in other w3wp.exe processes (even if running with the same identity) will not be able to access this Web site's content.
 
 > [!NOTE]
-> *This article is based on material from "*[Application Pool Identities](application-pool-identities.md)"*written by the IIS Team and published on May 27, 2009**.*
+> *This article is based on material from "*[Application Pool Identities](application-pool-identities.md)"*written by the IIS Team and published on May 27, 2009*<em>.</em>
 
 ## Links for Further Information
 

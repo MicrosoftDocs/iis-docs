@@ -30,13 +30,13 @@ There are several ways to delete the cached contents on ARR.
     > This action can take a very long time if there are many cached objects. When resetting a server or adding/removing drives, it is recommended that you format the drives instead of using this action to remove the cached objects. See the [Deployment recommendations for Application Request Routing](../installing-application-request-routing-arr/deployment-recommendations-for-application-request-routing.md) article for more information.
 2. **Delete selected cached object**: While browsing, you can select a folder or a file and choose to delete the selected content. If a folder is selected, all contents under the folder will be removed. If a file is selected, all associated files will be removed. For example, you may have noticed that for a given content, there may be multiple files:
 
-    - example.jpg.full
-    - example.jpg.full.gzip
-    - example.jpg.0-1023
-    - example.jpg.1024-2047
+   - example.jpg.full
+   - example.jpg.full.gzip
+   - example.jpg.0-1023
+   - example.jpg.1024-2047
 
-    ***any*** ***all***
-In the above example, selectingone of the files will removeof the files that are associated with example.jpg.This action deletes the selected content from both the primary cache drive location(s) and the secondary drive, if specified.3. **Delete specific cached object(s)**: ARR allows the user to enter a specific/absolute URL or a partial URL with wildchar (\*) to delete all contents that match the pattern. This action deletes the content(s) from both the primary cache drive location(s) and the secondary drive, if specified.
+     ***any*** ***all***
+     In the above example, selectingone of the files will removeof the files that are associated with example.jpg.This action deletes the selected content from both the primary cache drive location(s) and the secondary drive, if specified.3. **Delete specific cached object(s)**: ARR allows the user to enter a specific/absolute URL or a partial URL with wildchar (\*) to delete all contents that match the pattern. This action deletes the content(s) from both the primary cache drive location(s) and the secondary drive, if specified.
 
 ## Prerequisites
 
@@ -67,9 +67,9 @@ The disk cache feature in ARR is a server-level feature. As such, the delete cac
 3. Double-click **Application Request Routing Cache**. - In the **Actions** pane, click **Delete All Cached Objects**. 
 
     ![](delete-cached-objects/_static/image2.jpg)
-- In the confirmation dialog box, click **Yes**. - All cached contents have been deleted from all primary cache drive location(s). 
+4. In the confirmation dialog box, click **Yes**. - All cached contents have been deleted from all primary cache drive location(s). 
 
-    As noted above, this action can take a long time if there are many cached objects. If there is a need to reset the drives, it is recommended that you format the drive rather than use this feature to remove the files. See the [Deployment recommendations for Application Request Routing](../installing-application-request-routing-arr/deployment-recommendations-for-application-request-routing.md) article for more information.
+     As noted above, this action can take a long time if there are many cached objects. If there is a need to reset the drives, it is recommended that you format the drive rather than use this feature to remove the files. See the [Deployment recommendations for Application Request Routing](../installing-application-request-routing-arr/deployment-recommendations-for-application-request-routing.md) article for more information.
 
 ## Step 2 - Delete selected cached objects.
 

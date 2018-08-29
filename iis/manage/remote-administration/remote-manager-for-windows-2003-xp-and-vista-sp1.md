@@ -74,13 +74,13 @@ The following issue is known for Remote Manager:
 To install the Internet Information Services (IIS) Management Console on Windows Vista, follow the steps below:
 
 1. 1. Click the Windows Start button [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image15.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image14.jpg) to display the start menu.
-    2. Type "optionalfeatures.exe" into the search box and press enter.   
- (If you are prompted by "User Account Control," click **Continue.**)   
+      2. Type "optionalfeatures.exe" into the search box and press enter.   
+      (If you are prompted by "User Account Control," click **Continue.**)   
         [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image17.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image16.jpg)
-    3. When the Windows Features dialog is finished loading, expand the "Internet Information Services" node.
-    4. Next, expand the "Web Management Tools" node.
-    5. To install the IIS Management Console, check the check box beside "IIS Management Console" and click **OK**.   
- If the check box is already checked, the Management Console is already installed.   
+      3. When the Windows Features dialog is finished loading, expand the "Internet Information Services" node.
+      4. Next, expand the "Web Management Tools" node.
+      5. To install the IIS Management Console, check the check box beside "IIS Management Console" and click **OK**.   
+      If the check box is already checked, the Management Console is already installed.   
         [![](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image20.jpg)](remote-manager-for-windows-2003-xp-and-vista-sp1/_static/image19.jpg)
 
 <a id="XP2k3Req"></a><a id="03"></a>

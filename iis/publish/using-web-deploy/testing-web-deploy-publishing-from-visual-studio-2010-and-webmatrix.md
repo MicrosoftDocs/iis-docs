@@ -28,10 +28,10 @@ So far, we have configured Web Deploy on a server so non-administrators can depl
      [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image2.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image1.png)
 4. Fill in the dialog as below: 
 
-    1. Service URL. This is perhaps the most important component of this whole screen. Since we are deploying as Administrator, we can simply deploy using the Remote Agent Service. Entering a URL of the form http://{serverName} causes Visual Studio 2010 to deploy using the Remote Agent Service. Not the HTTP prefix.
-    2. Site/application. This is the name of the IIS site and application we are deploying to. For now, we will just deploy to Default Web Site.
-    3. Enter Administrator in User name and the password for the Administrator user on the server.   
-        [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image4.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image3.png)
+   1. Service URL. This is perhaps the most important component of this whole screen. Since we are deploying as Administrator, we can simply deploy using the Remote Agent Service. Entering a URL of the form http://{serverName} causes Visual Studio 2010 to deploy using the Remote Agent Service. Not the HTTP prefix.
+   2. Site/application. This is the name of the IIS site and application we are deploying to. For now, we will just deploy to Default Web Site.
+   3. Enter Administrator in User name and the password for the Administrator user on the server.   
+       [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image4.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image3.png)
 5. Click Publish. The Output window will show the deployment as it proceeds. Notice that Visual Studio 2010 is indeed deploying your application over the Remote Agent Service:  
     [![](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image6.png)](testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix/_static/image5.png)
 6. If your application does not render in a browser, you may be running into one of two common problems: 

@@ -111,22 +111,22 @@ To use the FastCGI environment, you must first install the CGI role service. The
     [![](environmentVariable/_static/image12.png)](environmentVariable/_static/image11.png)
 5. Enter the following information: 
 
-    - Enter the file name extension in the **Request path** text box. For example, "\*.php".
-    - Click **FastCgiModule** in the **Module** drop-down list.
-    - Enter the path to the scripting engine in the **Executable** box. For example, "C:\PHP\php-cgi.exe".
-    - Enter a unique name for the handler mapping in the **Name** box. For example, "PHP-FastCGI".
+   - Enter the file name extension in the **Request path** text box. For example, "\*.php".
+   - Click **FastCgiModule** in the **Module** drop-down list.
+   - Enter the path to the scripting engine in the **Executable** box. For example, "C:\PHP\php-cgi.exe".
+   - Enter a unique name for the handler mapping in the **Name** box. For example, "PHP-FastCGI".
   
-    [![](environmentVariable/_static/image14.png)](environmentVariable/_static/image13.png)- Click **Request Restrictions...**
+     [![](environmentVariable/_static/image14.png)](environmentVariable/_static/image13.png)- Click **Request Restrictions...**
 
-    - Select **Invoke handler only if request is mapped to**.
-    - Click to select the **File or Folder** option.
-    - Click **OK**.   
-        [![](environmentVariable/_static/image16.png)](environmentVariable/_static/image15.png)
-- Click **OK**.
-- If you are prompted to create a FastCGI application in the **Add Module Mapping** dialog box, click **Yes**.   
-    [![](environmentVariable/_static/image18.png)](environmentVariable/_static/image17.png)  
-    > [!NOTE]
-    > This will automatically create a FastCGI application for the handler mapping that you just created. If you choose     **No** , you can manually create a FastCGI application later.
+   - Select **Invoke handler only if request is mapped to**.
+   - Click to select the **File or Folder** option.
+   - Click **OK**.   
+       [![](environmentVariable/_static/image16.png)](environmentVariable/_static/image15.png)
+6. Click **OK**.
+7. If you are prompted to create a FastCGI application in the **Add Module Mapping** dialog box, click **Yes**.   
+     [![](environmentVariable/_static/image18.png)](environmentVariable/_static/image17.png)  
+     > [!NOTE]
+     > This will automatically create a FastCGI application for the handler mapping that you just created. If you choose     **No** , you can manually create a FastCGI application later.
 
 * * *
 
@@ -162,21 +162,21 @@ To use the FastCGI environment, you must first install the CGI role service. The
     [![](environmentVariable/_static/image22.png)](environmentVariable/_static/image21.png)
 5. In the **Add FastCGI Application** dialog box, enter the following information: 
 
-    - Enter the path to the scripting engine in the **Full Path** box. For example, "C:\PHP\php-cgi.exe".
-    - Enter the maximum number of requests for the FastCGI application.  
-        > [!NOTE]
-        > For PHP, this number must be lesser or equal to the maximum number of requests for PHP environment, which is configured by using the PHP\_FCGI\_MAX\_REQUESTS environment variable.
+   - Enter the path to the scripting engine in the **Full Path** box. For example, "C:\PHP\php-cgi.exe".
+   - Enter the maximum number of requests for the FastCGI application.  
+       > [!NOTE]
+       > For PHP, this number must be lesser or equal to the maximum number of requests for PHP environment, which is configured by using the PHP\_FCGI\_MAX\_REQUESTS environment variable.
   
-    [![](environmentVariable/_static/image24.png)](environmentVariable/_static/image23.png)
+     [![](environmentVariable/_static/image24.png)](environmentVariable/_static/image23.png)
 6. Click the ellipsis (**...**) next to **EnvironmentVariables** to open the environment variables collection editor.
 7. In the **EnvironmentVariables Collection Editor** dialog box, click **Add**.   
     [![](environmentVariable/_static/image26.png)](environmentVariable/_static/image25.png)
 8. Enter the following information, and then click **OK**. 
 
-    - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
-    - Enter "10000" for the **Value**.
+   - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
+   - Enter "10000" for the **Value**.
   
-    [![](environmentVariable/_static/image28.png)](environmentVariable/_static/image27.png)
+     [![](environmentVariable/_static/image28.png)](environmentVariable/_static/image27.png)
 9. Click **OK** to close the **Add FastCGI Application** dialog box.
 
 * * *
@@ -214,10 +214,10 @@ To use the FastCGI environment, you must first install the CGI role service. The
     [![](environmentVariable/_static/image36.png)](environmentVariable/_static/image35.png)
 7. Enter the following information, and then click **OK**. 
 
-    - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
-    - Enter "10000" for the **Value**.
+   - Enter "PHP\_FCGI\_MAX\_REQUESTS" for the **Name**.
+   - Enter "10000" for the **Value**.
   
-    [![](environmentVariable/_static/image38.png)](environmentVariable/_static/image37.png)
+     [![](environmentVariable/_static/image38.png)](environmentVariable/_static/image37.png)
 8. Click **OK** to close the **Add FastCGI Application** dialog box.
  
 <a id="005"></a>
@@ -249,7 +249,7 @@ The following configuration sample adds a global FastCGI handler mapping for PHP
 
 > [!NOTE]
 > FastCGI settings can be configured per-site through the use of specially formatted FastCGI application and by handler mappings, which are distinguished by matching the **fullPath** and **arguments** attributes for an `<application>` element with the corresponding **scriptProcessor** attribute in the `<handlers>` mapping for the FastCGI process. To create these mappings, the settings in the **fullPath** and **arguments** attributes for an `<application>` element must be added to the **scriptProcessor** attribute in the `<handlers>` mapping for the FastCGI process and separated by the pipe "|" character. This combination serves as a unique key for each FastCGI application. For example, the following configuration excerpt shows two example &lt;fastCgi&gt;/&lt;application&gt; elements and their corresponding &lt;handlers&gt; mappings for two site-specific PHP handlers:
-
+> 
 > [!code-xml[Main](environmentVariable/samples/sample3.xml)]
 
 

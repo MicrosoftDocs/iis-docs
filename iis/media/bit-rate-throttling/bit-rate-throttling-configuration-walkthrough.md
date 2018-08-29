@@ -109,11 +109,11 @@ First, we examine the default Bit Rate Throttle settings, how to add new setting
 8. Set the Throttle Rate to 5, which configures the Bit Rate Throttling module to download the rest of the file at 5 kilobits per second (kbps).
 9. Click OK.  
     [![](bit-rate-throttling-configuration-walkthrough/_static/image10.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image9.bmp)  
- Note that .jpg has been added to the list of File Types.  
+   Note that .jpg has been added to the list of File Types.  
     [![](bit-rate-throttling-configuration-walkthrough/_static/image12.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image11.bmp)
 10. Now, we could add the same throttle settings for jpg by using the MIME type for jpg. Click Add Throttling Setting… in the Actions pane. The Add Throttle Setting dialog box appears  
   
- Note: we have changed the grouping below to group by Throttle Type  
+    Note: we have changed the grouping below to group by Throttle Type  
     [![](bit-rate-throttling-configuration-walkthrough/_static/image14.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image13.bmp)
 11. Enter the MIME type for .jpg (image/jpeg) and the same throttle settings as above.  
     [![](bit-rate-throttling-configuration-walkthrough/_static/image16.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image15.bmp)
@@ -123,7 +123,7 @@ First, we examine the default Bit Rate Throttle settings, how to add new setting
     [![](bit-rate-throttling-configuration-walkthrough/_static/image20.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image19.bmp)
 14. Click Edit in the Actions pane. The Edit Throttle Setting dialog box appears (below).  
   
- Note that the File Type dropdown box and Media Type Settings are pre-populated with the existing .wmv settings. Also note that you can change the .wmv extension to be a Data Type.   
+    Note that the File Type dropdown box and Media Type Settings are pre-populated with the existing .wmv settings. Also note that you can change the .wmv extension to be a Data Type.   
     [![](bit-rate-throttling-configuration-walkthrough/_static/image22.bmp)](bit-rate-throttling-configuration-walkthrough/_static/image21.bmp)
 15. Change the existing .wmv Fast Start value from 20 to 25, and the Throttle Rate from 100 to 110 (above). This configures the module to quickly download the first 25 seconds worth of content in any given .wmv file as fast as the connection will allow, and then to throttle the rest of the delivery at 110% of the encoded bit rate. For example, if the end user has a cable connection to the Internet, their connection speed might be 2 Mbps. This is the speed at which the first 25 seconds worth of content will be delivered. If the file was encoded at 300 kbps, the remainder of the file would be delivered at 110% of that bit rate, or 330 kbps. This one-two approach allows the media client to quickly acquire content and start playing it back, and then to continue to deliver it at a rate which should ensure little or no user impact should there be any minor network interruptions later.
 16. Click OK. Note that the settings for .wmv are now shown in the list of File Types.  
@@ -146,18 +146,18 @@ The initial steps below will help you get started with configuration delegation.
 1. Make sure you have administrative privileges on the machine: By default, you do not have them if you're logged on as a user other than the built-in Administrator account, even if this user was added to the local Administrators group on the machine (this is a new security feature in Windows Server 2008, called LUA, which is beyond the scope of IIS). Make sure to either log on as the built-in Administrator account, or explicitly invoke applications as the built-in Administrator, as needed, using the "runas" cmd-line tool. For example, to launch notepad.exe you could run this command: "runas /user:administrator notepad.exe". You will be prompted for the password of the Administrator account. It's useful to have a command-line window (also referred to as a cmd-box shell) that is already elevated, by running "runas /user:administrator cmd.exe". Every application you run from that cmd-box will be elevated as well, and you will not need to use the "runas" syntax from that cmd-box.
 2. Make sure the master configuration file is backed up. Simply copy applicationHost.config to a different file, so that you can restore it later. You will find applicationHost.config under the `%windir%\System32\inetsrv\config` directory. Note that you will need to be an administrator to do this – see previous bullet.  
   
- In applicationHost.config, the Bit Rate Throttling configuration section in the media section group is locked:  
+   In applicationHost.config, the Bit Rate Throttling configuration section in the media section group is locked:  
 
     [!code-xml[Main](bit-rate-throttling-configuration-walkthrough/samples/sample1.xml)]
 
- When the configuration section is locked, Bit Rate Throttling entries at all lower levels will show an Entry Type of Local in the user interface, and any throttling changes you make at those levels will have no effect on throttling. By unlocking this section at the server level, you can modify various Bit Rate Throttling properties in web.config files for lower levels that override the global server settings defined in applicationHost.config. When this section is unlocked, delegation of Bit Rate Throttling is enabled, and Throttling entries at all lower levels will show a default Entry Type of Inherited.
+   When the configuration section is locked, Bit Rate Throttling entries at all lower levels will show an Entry Type of Local in the user interface, and any throttling changes you make at those levels will have no effect on throttling. By unlocking this section at the server level, you can modify various Bit Rate Throttling properties in web.config files for lower levels that override the global server settings defined in applicationHost.config. When this section is unlocked, delegation of Bit Rate Throttling is enabled, and Throttling entries at all lower levels will show a default Entry Type of Inherited.
 3. To unlock the Bit Rate Throttling configuration section and enable delegation of this feature:  
 
     - In applicationHost.config, change the Bit Rate Throttling configuration section in the media section group from "Deny" to "Allow"  
 
         [!code-xml[Main](bit-rate-throttling-configuration-walkthrough/samples/sample2.xml)]
   
- Once you have unlocked the Bit Rate Throttling configuration section of applicationHost.config, the following steps will demonstrate how to make basic throttling changes at the site level.
+   Once you have unlocked the Bit Rate Throttling configuration section of applicationHost.config, the following steps will demonstrate how to make basic throttling changes at the site level.
 4. As shown below, click on a Web site in the Connections pane tree view.
 5. On the Home Page displayed in the central pane, click on the Bit Rate Throttling icon in the Media area.
 6. Click on Open Feature in the Actions pane.  
@@ -247,9 +247,9 @@ Let us continue on with the Site example used in [Configure throttling at the si
     - Any file delivered by this IIS site that is *not* currently listed in the Site level Bit Rate Throttle settings will be delivered at a constant 300 kbps. This does not take precedence over file types that are already configured to use throttling.
     - Any file type that *is* already listed in the Site level Bit Rate Throttle settings will be constrained during throttling to a maximum of 1000 kbps, even if the throttle setting for that file type were set higher (e.g. 1200 kbps). Note that the Maximum throttle rate only applies to throttled responses, so Fast Start data will still be sent without throttling to the client as fast as the network connection will allow.  
   
- The other type of limit added to the Bit Rate Throttling feature allows an administrator to enforce connection limits per site for a set of file types. Unlike the bandwidth limits, the connection limits are configured by editing the main IIS configuration file, applicationHost.config.  
+   The other type of limit added to the Bit Rate Throttling feature allows an administrator to enforce connection limits per site for a set of file types. Unlike the bandwidth limits, the connection limits are configured by editing the main IIS configuration file, applicationHost.config.  
   
- There are two primary steps to setting up connection limits: create connection groups and associate file types to those groups. By default, the ten media file types that are pre-defined in the Bit Rate Throttling feature are assigned to one of two connection limit groups, called AudioFiles and VideoFiles. For example, if you ran a Web site that delivers a lot of video in different formats, you might want to limit the number of concurrent connections to that content to protect server resources and thereby ensure connected users have a good experience.
+   There are two primary steps to setting up connection limits: create connection groups and associate file types to those groups. By default, the ten media file types that are pre-defined in the Bit Rate Throttling feature are assigned to one of two connection limit groups, called AudioFiles and VideoFiles. For example, if you ran a Web site that delivers a lot of video in different formats, you might want to limit the number of concurrent connections to that content to protect server resources and thereby ensure connected users have a good experience.
 6. First, as noted in steps 1 and 2 of [Configure throttling at the site level](bit-rate-throttling-configuration-walkthrough.md#site), make sure you are a local administrator on the IIS server, and make a back-up of `%windir%\System32\inetsrv\config\applicationHost.config` file before making edits.
 7. In applicationHost.config, search for the string "&lt;media&gt;", which you will find in the system.webserver section. Just below this, you should see the bitrateThrottling section. Relevant portions of this section are shown below.  
 

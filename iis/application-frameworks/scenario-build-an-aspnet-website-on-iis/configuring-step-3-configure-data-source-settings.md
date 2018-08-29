@@ -89,13 +89,14 @@ In [Plan an ASP.NET Website on IIS](plan-an-asp-net-website-on-iis.md), you made
 6. In the **Name** text box, type a name for the provider.
 7. If the **.NET Users** feature was selected in step #3, in the **Profile properties** section, under **Behavior**, set the value of one or more of the following behaviors to **True** to enable the behavior:
 
-    - **EnablePasswordReset**: indicates whether passwords can be reset by using the provider *ResetPassword* method. The default setting is **False**.
-    - **EnablePasswordRetrieval**: indicates whether passwords can be retrieved by using the provider *GetPassword* method. The default setting is **False**. 
-	    > [!IMPORTANT]
-        > Some providers, such as the Active Directory provider, do not support the retrieval of passwords. For these providers, the value of the **enablePasswordRetrieval** attribute is always **False** and cannot be changed in configuration.
-    - **RequiresQuestionAndAnswer**: indicates whether a password answer is supplied when the program calls the provider *GetPassword* and *ResetPassword* methods. The default setting is **False**.
-    - **RequiresUniqueEmail**: indicates whether each registered user must have a unique e-mail address. The default setting is **False**.
-    - **StorePasswordInSecureFormat**: indicates whether passwords are hashed. The default setting is **False**.
+   - **EnablePasswordReset**: indicates whether passwords can be reset by using the provider *ResetPassword* method. The default setting is **False**.
+   - **EnablePasswordRetrieval**: indicates whether passwords can be retrieved by using the provider *GetPassword* method. The default setting is **False**. 
+       > [!IMPORTANT]
+       > Some providers, such as the Active Directory provider, do not support the retrieval of passwords. For these providers, the value of the **enablePasswordRetrieval** attribute is always **False** and cannot be changed in configuration.
+   - **RequiresQuestionAndAnswer**: indicates whether a password answer is supplied when the program calls the provider *GetPassword* and *ResetPassword* methods. The default setting is **False**.
+   - **RequiresUniqueEmail**: indicates whether each registered user must have a unique e-mail address. The default setting is **False**.
+   - **StorePasswordInSecureFormat**: indicates whether passwords are hashed. The default setting is **False**.
+
 8. Under **Data**, type the name of the connection string that is used to connect to the database in the **ConnectionStringName** text box. (Note: This is the same connection string that was configured under the **Connection Strings** feature. For more information about how to configure connection strings, see [Configuring Connection Strings in IIS 7](https://technet.microsoft.com/en-us/library/cc754382.aspx). If the *WindowsTokenRoleProvider* was selected in step #5 of this procedure, a connection string name is optional.)
 9. Optionally, in the **Profile properties** section, under **General**, type the virtual path of the application in the **ApplicationName** text box. If you do not specify a value in the **ApplicationName** text box, the membership API defaults to HttpContext.Current.Request.ApplicationPath. This path can be determined only at runtime.
 10. Optionally, in the **Profile properties** section, under **General**, type a description of the provider in the **Description** text box.
@@ -227,11 +228,12 @@ In [Plan an ASP.NET Website on IIS](plan-an-asp-net-website-on-iis.md), you made
 3. In the **Actions** pane, click **Add**.
 4. In the **.NET User Account Details** dialog box, enter the following information:
 
-    - User Name (must be unique).
-    - E-mail (must use standard format: name@domain.com).
-    - Password (must be a strong password).
-    - Confirm Password (must match the password).
-    - Question (enter a custom question or select from the list).
-    - Answer to the question.
+   - User Name (must be unique).
+   - E-mail (must use standard format: name@domain.com).
+   - Password (must be a strong password).
+   - Confirm Password (must match the password).
+   - Question (enter a custom question or select from the list).
+   - Answer to the question.
+
 5. Click **Next** to select roles for this user. If you have not enabled **.NET Roles**, click **Finish**.
 6. In the **.NET User Roles** dialog box, optionally select available roles from the **Roles** box, and then click **Finish**.

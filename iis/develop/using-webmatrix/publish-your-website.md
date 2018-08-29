@@ -50,12 +50,12 @@ To set up web hosting, you must find a web hosting provider and set up an accoun
 
 1. In the **Home** tab, click the arrow below **Publish**, and then click **Find Web Hosting**.  
     ![](publish-your-website/_static/image1.jpg)  
- The **Find Web Hosting** web page lists hosting providers.  
+   The **Find Web Hosting** web page lists hosting providers.  
     [![](publish-your-website/_static/image2.png)](publish-your-website/_static/image1.png)
 2. Select one of the hosting providers and click **Learn More**.
 3. Follow the directions provided by the hosting provider's site to set up a new account.  
   
- Support for a SQL Server database might be an option that costs extra. If you plan to publish a SQL Server Compact database (.sdf file), you don't need this option.
+   Support for a SQL Server database might be an option that costs extra. If you plan to publish a SQL Server Compact database (.sdf file), you don't need this option.
 
 After your account is set up, the hosting provider typically sends you an email message that contains information you'll need in order to publish your website. For example:
 

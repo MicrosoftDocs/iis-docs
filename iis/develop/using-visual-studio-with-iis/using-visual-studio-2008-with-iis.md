@@ -30,7 +30,7 @@ To use Visual Studio 2008 to work with Web sites and applications on your local 
 2. Install ASP.NET.
 3. Install IIS 6.0 Metabase Compatibility.  
   
- On Windows Vista, open the Control Panel, click Programs and Features, click the Turn Windows features on and off link, check the **Internet Information Services** check box, as well as the **Web Management Tools** \ **IIS 6 Management Compatibility** \ **IIS Metabase** and **IIS 6 configuration compatibility** and the **World Wide Web Services** \ **Application Development Features** \ **ASP.NET** check boxes under it.  
+   On Windows Vista, open the Control Panel, click Programs and Features, click the Turn Windows features on and off link, check the **Internet Information Services** check box, as well as the **Web Management Tools** \ **IIS 6 Management Compatibility** \ **IIS Metabase** and **IIS 6 configuration compatibility** and the **World Wide Web Services** \ **Application Development Features** \ **ASP.NET** check boxes under it.  
 
     [![](using-visual-studio-2008-with-iis/_static/image2.png)](using-visual-studio-2008-with-iis/_static/image1.png)
 

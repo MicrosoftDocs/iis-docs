@@ -75,14 +75,14 @@ Before starting the installation procedure for Drupal, you must create a databas
 	*Figure 1: Choose language page*
 2. On the **Database configuration page**, type the following information:  
 
-    - Database name: **drupal**
-    - User name: **drupal**
-    - Password: **drupal**
+   - Database name: **drupal**
+   - User name: **drupal**
+   - Password: **drupal**
 
-    Click **Save and continue**. The required database tables are created, and the configuration is saved into the Sites\Default\Settings.php file. Remove the "modify" permissions on this file.
+     Click **Save and continue**. The required database tables are created, and the configuration is saved into the Sites\Default\Settings.php file. Remove the "modify" permissions on this file.
 
-    [![Database configuration page](install-drupal-on-iis/_static/image4.jpg)](install-drupal-on-iis/_static/image3.jpg)  
-	*Figure 2: Database configuration page*
+     [![Database configuration page](install-drupal-on-iis/_static/image4.jpg)](install-drupal-on-iis/_static/image3.jpg)  
+     *Figure 2: Database configuration page*
 3. On the **Configure site** page, enter the required configuration information.  
 
     [![](install-drupal-on-iis/_static/image6.jpg)](install-drupal-on-iis/_static/image5.jpg)  

@@ -54,10 +54,12 @@ To get the most from this scenario, you must have access to a computer running o
 
 The following table contains links to resources related to this scenario.
 
-| Content type | References |
-| --- | --- |
-| **Deployment** | [Deployment to a Hosting Provider](https://www.asp.net/web-forms/tutorials/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12) | [Web Deploy 2.0](https://www.iis.net/downloads/microsoft/web-deploy) |
-| **Operations** | [IIS.NET](https://www.iis.net/) | [IIS Learning Center](https://www.iis.net/learn) |
-| **Tools and Settings** | [Web Server (IIS) Administration Cmdlets in Windows PowerShell](https://technet.microsoft.com/en-us/library/hh867899.aspx) |
-| **Community Resources** | [IIS Blogs](https://blogs.iis.net/) | [IIS Forums](https://forums.iis.net/) | [Robert McMurray's Blog](https://blogs.msdn.com/b/robert_mcmurray/) | [Scott Forsyth's Blog](https://blogs.iis.net/owscott/default.aspx) | [Steve Schofield's Blog](https://blogs.iis.net/steveschofield/default.aspx) |
-| **Related Technologies** | [ASP.NET](https://www.asp.net/) | [ASP.NET Web Projects](https://msdn.microsoft.com/en-us/library/ywdtth2f.aspx) |
+
+|       Content type       |                                                                             References                                                                             |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|      **Deployment**      | [Deployment to a Hosting Provider](https://www.asp.net/web-forms/tutorials/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12) |
+|      **Operations**      |                                                                  [IIS.NET](https://www.iis.net/)                                                                   |
+|  **Tools and Settings**  |                     [Web Server (IIS) Administration Cmdlets in Windows PowerShell](https://technet.microsoft.com/en-us/library/hh867899.aspx)                     |
+| **Community Resources**  |                                                                [IIS Blogs](https://blogs.iis.net/)                                                                 |
+| **Related Technologies** |                                                                  [ASP.NET](https://www.asp.net/)                                                                   |
+

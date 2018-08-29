@@ -57,15 +57,15 @@ The basic steps of the live broadcast included the following:
 - **Content delivery**. Streaming video, audio, and related content.
 - **Playback and analytics**. Providing a DVR–like experience for viewers and user statistics to NBC.
 
-| Fast Facts |
-| --- |
-| Total number of football games | 17 |
-| Average viewing time | 29 minutes |
-| Amount of video streamed | Approximately 1 million hours |
-| Total number of unique visitors | 2.2 million (over 17 games) |
-| Total peak concurrent users | 38,500 |
-| Video support | - One 720p HD main broadcast feed - Four 480p SD alternate camera angles |
-| Tools and technologies | - IIS 7 - IIS Media Services 3.0 - Silverlight 3 - Microsoft Media Platform Video Editor - iStreamPlanet CMS |
+|           Fast Facts            |
+|---------------------------------|
+| Total number of football games  |
+|      Average viewing time       |
+|    Amount of video streamed     |
+| Total number of unique visitors |
+|   Total peak concurrent users   |
+|          Video support          |
+|     Tools and technologies      |
 
 The server-side portion of this offering was based on IIS Media Services, an integrated HTTP–based media delivery platform that delivers true HD (720p+) streaming and provides real-time logging to measure media investments.
 
@@ -75,14 +75,15 @@ iStreamPlanet delivered the full value of Smooth Streaming to the player through
 
 To keep the video feeds synchronized, four SD video feeds were timed to match with the main HD feed. To accomplish this, iStreamPlanet muxed (multiplexed) the SD feeds into a single ASI feed, uplinked the feed to to an AMC-6 satellite, and then downlinked the feed in Las Vegas. The feed was then demuxed (demultiplexed) back into the individual feeds, fed into Smooth Streaming-compatible encoders (in this case, 10 Inlet Spinnaker 7000 encoders), with the encoded output (31 streams) pushed to Microsoft edge-caching network (ECN) facilities in San Antonio and Virginia, which in turn distributed the content to Akamai's CDN in order to scale the webcast to viewers.
 
-| Production Solution Facts |
-| --- |
-| Time frame | 3 months |
-| Tools and technologies | - IIS 7 - IIS Media Services 3.0 - Microsoft Media Platform: Player Framework - Microsoft Media Platform Video Editor |
-| Encoder | - 10 Inlet Spinnaker 7000 encoders - 2 operators to manage the encoders during production |
-| Average number of viewers per game | 38,500 |
-| GSIS timeline tool | - 4 developers - 60 days |
-| Microsoft Media Platform Video Editor integration | 3 weeks |
+
+|             Production Solution Facts             |
+|---------------------------------------------------|
+|                    Time frame                     |
+|              Tools and technologies               |
+|                      Encoder                      |
+|        Average number of viewers per game         |
+|                GSIS timeline tool                 |
+| Microsoft Media Platform Video Editor integration |
 
 ### Ad and Video Clip Insertion
 
@@ -128,14 +129,15 @@ The goals for the video player raised several design and development challenges,
 
 NBC tapped California-based Vertigo, a user experience design and software development consulting firm, to build the Sunday Night Football Extra client application (as seen in Figure 1) based on Silverlight 3, the cross-browser, cross-platform, and cross-device browser plug-in. This section provides an overview of the tools and technologies that the player design and development team used to create the video player.
 
+
 | Video Player Development Facts |
-| --- |
-| Developers | 4 |
-| Designers | 2 |
-| Testers | 2 |
-| Time frame | 3 months |
-| Developer tools | - Expression Blend 3 - MVVM architectural pattern - Microsoft Media Platform: Player Framework - IIS Smooth Streaming Client (formerly called the Smooth Streaming Platform Development Kit) - Visual Studio Team System with Visual Studio Team System 2008 Team Foundation Server |
-| Lines of code | 16,000 (C#) |
+|--------------------------------|
+|           Developers           |
+|           Designers            |
+|            Testers             |
+|           Time frame           |
+|        Developer tools         |
+|         Lines of code          |
 
 ### Features and Requirements
 

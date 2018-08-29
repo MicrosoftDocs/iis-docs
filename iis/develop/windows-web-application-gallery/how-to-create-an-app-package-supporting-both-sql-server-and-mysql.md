@@ -46,7 +46,7 @@ If user's choice is MySQL database during installation, the parameter "MSSQL Dat
   
  This allows you to set different default values, descriptions based on database type which makes it user-friendly. This feature also allows you to hide/show custom parameters specific to the application.
 
-***For example:** *
+<em>**For example:</em>* *
 
 If your application uses a Database type parameter in the application configuration file, say configuration.php; then we can parameter this in the parameters.xml as follows
 

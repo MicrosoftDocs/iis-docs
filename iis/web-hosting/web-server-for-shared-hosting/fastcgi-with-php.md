@@ -52,14 +52,14 @@ It is recommended to use a non-thread safe build of PHP with IIS 7.0 FastCGI. No
 3. Open php.ini file, then uncomment and modify settings as follows:
 
 > a. Set fastcgi.impersonate = 1. FastCGI under IIS supports the ability to impersonate security tokens of the calling client. This allows IIS to define the security context that the request runs under.
-
-
+> 
+> 
 > b. Set cgi.fix\_pathinfo=1. cgi.fix\_pathinfo provides \*real\* PATH\_INFO/PATH\_TRANSLATED support for CGI. PHP's previous behavior was to set PATH\_TRANSLATED to SCRIPT\_FILENAME, and to not care what PATH\_INFO is. For more information on PATH\_INFO, see the cgi specs. Setting this to 1 will cause PHP CGI to fix it's paths to conform to the spec
-
-
+> 
+> 
 > c. Set cgi.force\_redirect = 0.
-
-
+> 
+> 
 > d. Set open\_basedir to point to a folder or network path where the content of the web site(s) is located.
 
 
@@ -88,16 +88,16 @@ In order for IIS 7.0 to host PHP applications, it is necessary to add a handler 
 [![](fastcgi-with-php/_static/image10.png)](fastcgi-with-php/_static/image9.png)
 
 1. - Request path: **\*.php**
-    - Module: **FastCgiModule**
-    - Executable: `C:\[Path to your PHP installation]\php-cgi.exe`
-    - Name: **PHP via FastCGI**
+     - Module: **FastCgiModule**
+     - Executable: `C:\[Path to your PHP installation]\php-cgi.exe`
+     - Name: **PHP via FastCGI**
 
-3. Click OK. The dialog box appears asking if you want to create a FastCGI application for this executable. Click Yes.
+2. Click OK. The dialog box appears asking if you want to create a FastCGI application for this executable. Click Yes.
 
-4. Test that the handler mapping works correctly by creating a phpinfo.php file in the `C:\inetpub\wwwroot` folder that contains the following:  
-&lt;?php phpinfo(); ?&gt;.
+3. Test that the handler mapping works correctly by creating a phpinfo.php file in the `C:\inetpub\wwwroot` folder that contains the following:  
+   &lt;?php phpinfo(); ?&gt;.
 
-5. Open a browser and navigate to [http://localhost/phpinfo.php](http://localhost/phpinfo.php). If everything was setup correctly, then you see the standard PHP information page.
+4. Open a browser and navigate to [http://localhost/phpinfo.php](http://localhost/phpinfo.php). If everything was setup correctly, then you see the standard PHP information page.
 
 Alternatively, the above mentioned steps can be completed by using command line tool appcmd.
 

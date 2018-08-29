@@ -114,7 +114,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
 2. After you click **OK** in the **New Project** dialog box, the **New Windows Azure Project** dialog box is displayed.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image2.png)  
   
- Click **OK** in this dialog box as the ASP.NET MVC 3 Web Role is not available to add to the Windows Azure solution.
+   Click **OK** in this dialog box as the ASP.NET MVC 3 Web Role is not available to add to the Windows Azure solution.
 
 <a id="step2"></a>
 
@@ -127,7 +127,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
 3. After you click **OK** in the **Add New Project** dialog box, the **New ASP.NET MVC 3 Project** dialog box is displayed.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image5.png)  
   
- In this dialog box, select the **Empty** project template, and then click **OK**.
+   In this dialog box, select the **Empty** project template, and then click **OK**.
 
 <a id="step3"></a>
 
@@ -149,10 +149,10 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
     - System.Web.WebPages.Deployment
     - System.Web.WebPages.Razor
   
- To select multiple components at once, press the CTRL key on your keyboard and then click each of the component names.  
+   To select multiple components at once, press the CTRL key on your keyboard and then click each of the component names.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image7.png)  
   
- After you've selected all of the components, click **OK**.
+   After you've selected all of the components, click **OK**.
 
 <a id="step4"></a>
 
@@ -170,7 +170,7 @@ Creating an ASP.NET MVC 3 Azure Web Role is not straightforward. Fortunately, th
     - System.Web.WebPages.Deployment
     - System.Web.WebPages.Razor
   
- To select multiple references at once, press the CTRL key on your keyboard and then click each of the reference names. After you've selected all of the references, right-click the selected references, and then click **Properties** .  
+   To select multiple references at once, press the CTRL key on your keyboard and then click each of the reference names. After you've selected all of the references, right-click the selected references, and then click **Properties** .  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image8.png)
 2. In **Properties**, set the **Copy Local** property value to **True**.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image9.png)
@@ -351,22 +351,22 @@ We now have a model that can be leveraged to parse new notifications, insert the
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image20.png)
 4. Configure the following settings in the dialog box, and then click **Add**: 
 
-    - **View name**. Enter the name of the existing public function of our controller class: **Index**.
-    - **Create a strongly-typed view**. Select this check box.
-    - **Model class**. Select **NotificationModel** in the list.
-    - **Scaffold template**. Select **List** in the list.
+   - **View name**. Enter the name of the existing public function of our controller class: **Index**.
+   - **Create a strongly-typed view**. Select this check box.
+   - **Model class**. Select **NotificationModel** in the list.
+   - **Scaffold template**. Select **List** in the list.
 
-    > [!NOTE]
-    > Optionally, we can edit the .\Views\JobMon\Index.cshtml file to update the displayed table columns. First, we can remove most of the columns in the table header:
+     > [!NOTE]
+     > Optionally, we can edit the .\Views\JobMon\Index.cshtml file to update the displayed table columns. First, we can remove most of the columns in the table header:
 
-    [!code-html[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample25.html)]
+     [!code-html[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample25.html)]
 
-    Then, we must update the content rows to map to the columns in the updated table header.
+     Then, we must update the content rows to map to the columns in the updated table header.
 
-    [!code-cshtml[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample26.cshtml)]
+     [!code-cshtml[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample26.cshtml)]
 5. (Optional) Add some style.  
   
- The ASP.NET MVC 3 Web Application Project contains a file that hosts the Cascading Style Sheets (CSS) for the Views. We can make the report table borders a bit more distinct. If you know a great web designer, now is a good time to ask for the latest HTML 5 table mockups and CSS classes. For now, we can edit the project file \Content\Site.css and paste some extra style for adding table borders.  
+   The ASP.NET MVC 3 Web Application Project contains a file that hosts the Cascading Style Sheets (CSS) for the Views. We can make the report table borders a bit more distinct. If you know a great web designer, now is a good time to ask for the latest HTML 5 table mockups and CSS classes. For now, we can edit the project file \Content\Site.css and paste some extra style for adding table borders.  
 
     [!code-console[Main](sending-transform-manager-job-status-notifications-to-a-remote-web-application/samples/sample27.cmd)]
 
@@ -421,7 +421,7 @@ You can install Transform Manager either on the local computer or on a remote co
 4. Click the **Notifications** tab and configure the URI and event options.  
     ![](sending-transform-manager-job-status-notifications-to-a-remote-web-application/_static/image26.png)  
   
- For testing purpose, we will enter the URI of the active running project and select all of the event check boxes. For more information about how to configure these settings, see [Configuring Job Status Notifications](https://go.microsoft.com/?linkid=9772675) .
+   For testing purpose, we will enter the URI of the active running project and select all of the event check boxes. For more information about how to configure these settings, see [Configuring Job Status Notifications](https://go.microsoft.com/?linkid=9772675) .
 5. Click **OK** to close the **New Watch Folder** property sheet.
 6. Select the new watch folder in the **Watch Folders** page, and then in the **Actions** pane, **Enable** and then **Start** the watch folder.
 7. Make sure that the Azure Web Application is running and listening to incoming requests.

@@ -54,7 +54,7 @@ To create a Live Smooth Streaming publishing point in IIS Manager, do the follow
 
 1. In the **Connections** pane, select a website or virtual directory.
 2. On the **Home** page, under **Media Services**, double-click **Live Smooth Streaming Publishing Points**.  
-  
+
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image1.png)
 3. In the **Actions** pane, click **Add** to open the **Add Publishing Point** dialog box.  
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image2.png)
@@ -201,7 +201,7 @@ To specify a pull source URL, do the following:
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image7.png)
 2. In the **Add Publishing Point URL** dialog box, in **URL**, enter the URL of the publishing point on the syndicating Web server from which to obtain the content.  
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image8.png)  
-  
+
     > [!NOTE]
     > If the publishing point on the syndicating Web server (the upstream publishing point) requires that this publishing point (the downstream publishing point) provide credentials to access the content, select the credential with the appropriate user name and password in the **Credential** dropdown list. For more information about creating and applying credentials, see [Syndicating Live Smooth Streams between Servers](syndicating-live-smooth-streams-between-servers.md) . This example shows that credentials aren't required (**Credential** = **(None)**).
 3. Click **OK**. The pull source URL is added to the list of pull source publishing points.  
@@ -225,7 +225,7 @@ To automatically syndicate to other servers, do the following:
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image11.png)
 3. In the **Add Publishing Point URL** dialog box, in **URL**, enter the URL of the publishing point to which to automatically syndicate the content. Content coming from this server will appear as a push source to the specified publishing point.  
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image12.png)  
-  
+
     > [!NOTE]
     > If the publishing point on the syndicating Web server (the downstream publishing point) requires that this publishing point (the upstream publishing point) provide credentials to deliver the content, select the credential with the appropriate user name and password in the **Credential** dropdown list. For more information about creating and applying credentials, see [Syndicating Live Smooth Streams between Servers](syndicating-live-smooth-streams-between-servers.md) . This example shows that credentials aren't required (**Credential** = **(None)**).
 
@@ -242,8 +242,8 @@ To archive a live presentation, do the following:
 
 1. On the **Advanced Settings** tab, select the **Archive media** checkbox.  
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image13.png)  
-  
- Select one of the following archiving options for the live broadcast:
+
+   Select one of the following archiving options for the live broadcast:
 
     - **Archive as single presentation**. Configures the server to create a single on-demand Smooth Streaming presentation from the live presentation archive.
     - **Archive as segmented presentation**. Configures the server to create a set of on-demand Smooth Streaming presentations ("segments") from the live presentation archive. If you choose this option, specify the length of each segment, in minutes, in the **Segment length** box.
@@ -310,7 +310,7 @@ The publishing point transitions to the **Shutdown** state.
 ## Viewing Publishing Point Status
 
 You can view the status of publishing points when you open the **Live Smooth Streaming Publishing Points** feature page.  
-  
+
 ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image19.png)
 
 Publishing points support the following behaviors and will show the current status of each:
@@ -329,7 +329,7 @@ The status for each behavior can be one of the following:
 - **Stopped**. The behavior is enabled but isn't currently running.
 
 For a publishing point that you select in the **Publishing Point Status** pane, you can view summary information about the live Smooth Streams that are received from all live sources (such as encoders or other Live Smooth Streaming publishing points) by the selected publishing point in a **Publishing Point Summary** pane. If the publishing point is started, this section displays the total number of streams that are being received and their overall status, such as the number of streams that are started, stopped, and so on. It also displays summary information about the tracks within all of the presentations that are received, such as the track type (for example, audio or video) and their encoded bitrates.  
-  
+
 ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image20.png)
 
 The **Publishing Point Summary** pane also displays the following information about the selected publishing point:
@@ -381,8 +381,8 @@ The connection details are updated every two seconds.
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image24.png)
 2. Expand a node for a live source to reveal the stream's **Input Type** to the publishing point.  
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image25.png)  
-  
- The stream input type can be one of the following:  
+
+   The stream input type can be one of the following:  
 
     - **HTTP Push**. The live streams are being posted to the publishing point from the live source.
     - **HTTP Pull**. The publishing point is getting the live streams by requesting them from the live source.
@@ -393,22 +393,23 @@ The connection details are updated every two seconds.
 
 1. Expand the **Destinations** root node. Each of the additional nodes that are displayed is the domain name and/or IP address of a client.  
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image27.png)  
-  
- Each of the additional nodes can be one of the following:  
+
+   Each of the additional nodes can be one of the following:  
 
     - The domain name and/or IP address of the local Live Smooth Streaming server. In this case, the publishing point is configured to deliver fragments from incoming live streams to clients, such as a Silverlight player or an Apple® mobile digital device. It might also be configured to distribute the incoming live stream to another publishing point on the local server.
     - The domain name and/or IP address of a remote Live Smooth Streaming server. In this case, the publishing point is configured to distribute the incoming live stream to a publishing point on another Live Smooth Streaming server.
 2. Expand a node for a destination to reveal the stream **Output Type** from the publishing point to the destination.  
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image28.png)  
-  
- The stream output type can be any or all of the following, depending on the publishing point configuration: 
 
-    - **IIS Smooth Streaming**. The publishing point is returning MPEG-4 (MP4) fragments from incoming live streams to Silverlight-based clients that request them.
-    - **Apple HTTP Live Streaming**. The publishing point is converting MP4 fragments in incoming live streams to MPEG-2 Transport Stream (MPEG-2 TS) segments and delivering the segments to Apple mobile digital devices that request them.  
-        > [!NOTE]
-        > For more information about how to configure a publishing point to deliver live streams to Apple devices, see [Apple HTTP Live Streaming with IIS Media Services](apple-http-live-streaming-with-iis-media-services.md) .
-    - **HTTP Push**. The publishing point is pushing the incoming live streams to another publishing point, either on the local server or on a remote Live Smooth Streaming server.
-    - **HTTP Pull**. Another publishing point, either on the local server or on a remote Live Smooth Streaming server, is pulling the incoming live streams from this publishing point.
+   The stream output type can be any or all of the following, depending on the publishing point configuration: 
+
+   - **IIS Smooth Streaming**. The publishing point is returning MPEG-4 (MP4) fragments from incoming live streams to Silverlight-based clients that request them.
+   - **Apple HTTP Live Streaming**. The publishing point is converting MP4 fragments in incoming live streams to MPEG-2 Transport Stream (MPEG-2 TS) segments and delivering the segments to Apple mobile digital devices that request them.  
+       > [!NOTE]
+       > For more information about how to configure a publishing point to deliver live streams to Apple devices, see [Apple HTTP Live Streaming with IIS Media Services](apple-http-live-streaming-with-iis-media-services.md) .
+   - **HTTP Push**. The publishing point is pushing the incoming live streams to another publishing point, either on the local server or on a remote Live Smooth Streaming server.
+   - **HTTP Pull**. Another publishing point, either on the local server or on a remote Live Smooth Streaming server, is pulling the incoming live streams from this publishing point.
+
 3. Expand a node for an output type to display the names of the streams that the publishing point is delivering to clients.  
     ![](creating-and-managing-live-smooth-streaming-publishing-points/_static/image29.png)
 

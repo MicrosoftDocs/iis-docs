@@ -110,9 +110,9 @@ If you have WebPI 3.0 installed, the following link will automatically launch it
 Here is the list of Products to install:
 
 1. 1. IIS 7 or above Web Server including the following modules: Web Deploy 2.0, FTP, Media Services 3.0, IIS Remote Management Services, CGI, URL Rewrite 2.0, SQL Server 2008 Management Objects (SMO), Windows Cache 1.1 for PHP, MySQL Connector, Microsoft SQL Server Driver for PHP 2.0
-    2. Frameworks: .NET 3.5 SP1, .NET 4.0, ASP.NET, ASP.NET MVC, and PHP 5.2.14 or higher
+      2. Frameworks: .NET 3.5 SP1, .NET 4.0, ASP.NET, ASP.NET MVC, and PHP 5.2.14 or higher
 
-1. Review the license page and accept the terms to continue with the install:
+2. Review the license page and accept the terms to continue with the install:
 
 [[[![](configure-your-servers-for-the-windows-web-hosting-platform/_static/image32.png)](configure-your-servers-for-the-windows-web-hosting-platform/_static/image31.png)](configure-your-servers-for-the-windows-web-hosting-platform/_static/image30.png)](configure-your-servers-for-the-windows-web-hosting-platform/_static/image29.png)
 

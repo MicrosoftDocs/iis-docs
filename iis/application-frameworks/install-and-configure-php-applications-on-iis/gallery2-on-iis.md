@@ -76,7 +76,7 @@ Open your web browser and browse to [http://localhost/gallery2/install/index.php
     [![](gallery2-on-iis/_static/image6.png)](gallery2-on-iis/_static/image5.png)
 2. Follow the instructions and save the login.txt file into the Gallery2 directory.
 3. Click "Authenticate Me".   
- 4. Proceed to the next steps to perform a system check and choose the installation type. For this walkthrough, we use "Standard Installation" option.
+   4. Proceed to the next steps to perform a system check and choose the installation type. For this walkthrough, we use "Standard Installation" option.
 4. Specify the path to the data directory that you have created earlier. If you have configured permissions for g2data correctly, you can proceed to the next step after clicking "Save".  
     [![](gallery2-on-iis/_static/image8.png)](gallery2-on-iis/_static/image7.png)
 

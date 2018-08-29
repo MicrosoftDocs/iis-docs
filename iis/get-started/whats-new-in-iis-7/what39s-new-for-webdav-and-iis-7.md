@@ -33,7 +33,7 @@ Microsoft has released a brand-new WebDAV implementation for IIS that was writte
 
 > [!NOTE]
 > This new WebDAV extension module is only for Windows Server 2008 and Internet Information Services 7.0 or above; it will not work on Windows Server 2003 and Internet Information Services 6.0.
-
+> 
 > #### Integration with IIS
 > 
 > - **Integrated Pipeline**: The IIS 6.0 WebDAV implementation was through ISAPI, but the core server required knowledge of the WebDAV ISAPI in order to function correctly. The new IIS native module interface is sufficiently rich that these considerations are unnecessary.

@@ -99,13 +99,13 @@ C. Export the Package from the IIS Application Web Site<a id="_Ref279656388"></a
 
 1. Open Internet Information Services (IIS) Manager.   
   
- The Internet Information Services (IIS) Manager application opens.  
+   The Internet Information Services (IIS) Manager application opens.  
      [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image3.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image2.jpg)
 2. Expand your server connection, and click **Sites**.
 3. In the Actions area, click the **Add Web Site** link.
 
     [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image5.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image4.jpg)  
-The Add Web Site dialog box appears.
+   The Add Web Site dialog box appears.
 4. Enter a site name for your Web site.
 5. In the Physical path field, type the physical path to the folder in which the application is installed, or click the browse button (...) to navigate to the folder.
 6. In the Binding area, select the protocol for your Web site from the Type drop-down list.
@@ -120,11 +120,11 @@ The Add Web Site dialog box appears.
 #### B. Install the Application to the IIS Application Web Site
 
 1. Open Web Platform Installer (Web PI) locally from the web server.  
- The Web Platform Installer application opens.
+   The Web Platform Installer application opens.
 
     [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image7.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image6.jpg)
 2. Select **Acquia Drupal**, and click **Install**.  
- The Web Platform Installation window appears.
+   The Web Platform Installation window appears.
 
     [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image9.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image8.jpg)
 3. Click **I Accept** to accept the end-user license agreement.
@@ -132,25 +132,25 @@ The Add Web Site dialog box appears.
     [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image11.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image10.jpg)
 4. From the Web Site drop-down list, select the Web site you created earlier in this procedure.
 5. In the application name field, enter an application name if it is different from the default value.  
- The remaining fields are populated automatically based on your Web site information.
+   The remaining fields are populated automatically based on your Web site information.
 6. Click **Continue**.  
     [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image13.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image12.jpg)
 7. From the Create a new or use an existing database drop-down list, select **Create new database**.
 8. Enter the following information in the appropriate fields to create a new database:  
 
-    - Database administrator user name and password—User name and password to allow administrative access to this database.
-    - Database user name and password—User name and password to allow general access to this database.
-    - Database server—Name of the server on which this database resides.
-    - Database name—Name of this database.
-    - Database prefix—Prefix added to database table names used to identify this database.
-    - Load sample data—Indicate whether you want to load sample data into this database.
-    - Web site name—Name of your Web site.
-    - Site administrator—User name for the Web site specified in the Website Name field.
-    - Site administrator password—Password for the Web site administrator.
-    - Site administrator email address—Email address for the Web site administrator.
+   - Database administrator user name and password—User name and password to allow administrative access to this database.
+   - Database user name and password—User name and password to allow general access to this database.
+   - Database server—Name of the server on which this database resides.
+   - Database name—Name of this database.
+   - Database prefix—Prefix added to database table names used to identify this database.
+   - Load sample data—Indicate whether you want to load sample data into this database.
+   - Web site name—Name of your Web site.
+   - Site administrator—User name for the Web site specified in the Website Name field.
+   - Site administrator password—Password for the Web site administrator.
+   - Site administrator email address—Email address for the Web site administrator.
 
-    > [!NOTE]
-    > You must scroll down to view all required fields.
+     > [!NOTE]
+     > You must scroll down to view all required fields.
 9. Click **Continue**.
 
     [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image15.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image14.jpg)
@@ -182,16 +182,16 @@ By default, Drupal uses query string parameters for all the URLs it generates fo
 #### D. Export the Package from the IIS Application Web Site
 
 1. Open IIS Manager.  
- The Internet Information Services (IIS) Manager application opens.  
+   The Internet Information Services (IIS) Manager application opens.  
     [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image19.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image18.jpg)
 2. In the Connections navigation pane, expand **Sites**, and select the Web site you just created.  
     [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image21.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image20.jpg)
 3. Click the **Export Application** link located in the Deploy section of the Actions pane.  
   
- The Export Application Package (Select the Contents of the Package) dialog box appears.  
+   The Export Application Package (Select the Contents of the Package) dialog box appears.  
     [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image23.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image22.jpg)
 4. Click **Manage Components**.  
- The Manage Components dialog box appears.  
+   The Manage Components dialog box appears.  
     [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image25.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image24.jpg)
 5. Double-click the second row of the Provider Name column.  
     [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image27.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image26.jpg)
@@ -202,23 +202,23 @@ By default, Drupal uses query string parameters for all the URLs it generates fo
 8. Click outside of the box in which you entered the connection string, and click **OK**.
 
     The newly created parameter now appears in the Export Application Package (Select Parameters) dialog box.  
-[![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image34.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image33.jpg)
+   [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image34.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image33.jpg)
 9. Rename the parameters:
 
     - Select **Parameter 1**, and click **Edit**.  
- The Edit Parameter dialog box appears.  
+   The Edit Parameter dialog box appears.  
         [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image36.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image35.jpg)
     - Enter **SiteName** in the Name field, and click **OK**.
     - Repeat these steps to rename Parameter 2 to "ConnectionString."
 
         The parameters appear renamed in the Export Application Package (Select Parameters) dialog box.   
-[![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image38.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image37.jpg)
+   [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image38.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image37.jpg)
 10. Click **Next**. The Export Application Package (Save Package) dialog box appears.  
     [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image40.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image39.jpg)
 11. Enter the path to the application package, or click Browse to locate the application file.
 12. Click **Next**.  
   
- The Export Application Package (Export Progress and Summary) dialog box displays the progress of the export process. Once the process is complete, a summary report appears.  
+    The Export Application Package (Export Progress and Summary) dialog box displays the progress of the export process. Once the process is complete, a summary report appears.  
     [![](deploying-drupal-via-packages-in-a-hosting-environment/_static/image42.jpg)](deploying-drupal-via-packages-in-a-hosting-environment/_static/image41.jpg)
 13. Click **Finish**.Use this application package to deploy to customer Web sites as described in Step 3. Deploy a Customer Site using IIS with Web Deploy.<a id="_Ref279680466"></a><a id="_Ref279656893"></a>
 

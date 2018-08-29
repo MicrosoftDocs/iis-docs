@@ -263,13 +263,13 @@ The Apache HTTP Server provides comprehensive and flexible logging capabilities:
 
 - **Error logs.** The server error log, whose name and location is set by the ErrorLog directive, is the most important log file. This is where Apache Httpd sends diagnostic information and records any errors that it encounters in processing requests. It is the first place to look when a problem occurs with starting or operating the server, since it often contains details of what went wrong and how to fix it.   
   
- A wide variety of different messages can appear in the error log. The error log also contains debugging output from CGI scripts. Any information written to stderr by a CGI script is copied directly to the error log.  
+  A wide variety of different messages can appear in the error log. The error log also contains debugging output from CGI scripts. Any information written to stderr by a CGI script is copied directly to the error log.  
   
- Customizing the error log by adding or removing information is not possible. However, error log entries dealing with particular requests have corresponding entries in the access log. Customizing the access log to provide more information is also possible.
+  Customizing the error log by adding or removing information is not possible. However, error log entries dealing with particular requests have corresponding entries in the access log. Customizing the access log to provide more information is also possible.
 
 - **Access logs.** In Apache, the server access log records all requests processed by the server. The CustomLog directive controls the location and content of the access log. The LogFormat directive can be used to simplify the selection of the contents of the logs. Various versions of Apache Httpd use different modules and directives to control access logging, including mod\_log\_config, mod\_log\_referer, mod\_log\_agent, and the `TransferLog` directive.
 - **Script logs.** To aid in debugging, the ScriptLog directive allows you to record the input to and output from CGI scripts. This should only be used during testing and not for live servers.
-- **Rewrite log****s.** When using the powerful and complex features of mod\_rewrite, it is almost always necessary to use the RewriteLog to help in debugging. This log file produces a detailed analysis of how the rewriting engine transforms requests. The RewriteLogLevel directive controls the level of detail.
+- **Rewrite log**<strong>s.</strong> When using the powerful and complex features of mod\_rewrite, it is almost always necessary to use the RewriteLog to help in debugging. This log file produces a detailed analysis of how the rewriting engine transforms requests. The RewriteLogLevel directive controls the level of detail.
 
 ### IIS 7 and Above
 

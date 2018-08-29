@@ -66,17 +66,17 @@ The configuration script with the name fcgconfig.js is provided with the install
 2. Change the current directory to %*windir*%\system32\inetsrv.
 3. Register the PHP CGI program as the one that will be processing .php extensions by running the following configuration script:
 
-	[!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample1.cmd)]
+    [!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample1.cmd)]
 
-	Replace `C:\PHP\php-cgi.exe` with the path to php-cgi.exe if you installed to a directory other than `C:\PHP`.
+    Replace `C:\PHP\php-cgi.exe` with the path to php-cgi.exe if you installed to a directory other than `C:\PHP`.
 
-	> [!NOTE]
-	> If you do not want to register the PHP extension to be processed by the FastCGI component on your entire server, and only want to register it for a specific Web site, add a "–site:[siteId]" argument, for example:
+    > [!NOTE]
+    > If you do not want to register the PHP extension to be processed by the FastCGI component on your entire server, and only want to register it for a specific Web site, add a "–site:[siteId]" argument, for example:
 
-	[!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample2.cmd)]
+    [!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample2.cmd)]
 
-	> [!NOTE]
-	> For a complete list of configuration parameters that are supported by the FastCGI extension, see the FastCGI extension documentation.
+    > [!NOTE]
+    > For a complete list of configuration parameters that are supported by the FastCGI extension, see the FastCGI extension documentation.
 
 ### Manually Configure the FastCGI Extension to Work with PHP
 
@@ -92,8 +92,8 @@ To manually configure the IIS and FastCGI extension, you must create script mapp
 6. Click the **Add…** button.
 7. In the **Add/Edit Application Extension Mapping** dialog box, click **Browse...**. Navigate to the fcgiext.dll file that is located in %*windir*%\system32\inetsrv.
 
-	> [!NOTE]
-	> If you need to use FastCGI in 32-bit mode on a 64-bit machine, navigate to %*windir*%\SysWOW64\inetsrv.
+    > [!NOTE]
+    > If you need to use FastCGI in 32-bit mode on a 64-bit machine, navigate to %*windir*%\SysWOW64\inetsrv.
 
 8. In the **Extension** text box, enter **.php**.
 
@@ -101,7 +101,7 @@ To manually configure the IIS and FastCGI extension, you must create script mapp
 
 10. Ensure that the **Script engine** and **Verify that file exists** check boxes are selected.
 
-	[![](using-fastcgi-to-host-php-applications-on-iis-60/_static/image2.png)](using-fastcgi-to-host-php-applications-on-iis-60/_static/image1.png)
+    [![](using-fastcgi-to-host-php-applications-on-iis-60/_static/image2.png)](using-fastcgi-to-host-php-applications-on-iis-60/_static/image1.png)
 
 11. Click **OK**.
 
@@ -112,7 +112,7 @@ Once the script mapping has been added, modify the fcgiext.ini file.
 1. Add an extension to **application mapping (php=PHP)** to the **[Types]** section.
 2. Add a **[PHP]** section with **ExePath=c:\php\php-cgi.exe** (assuming you installed PHP files to the C:\PHP folder).
 
-	[!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample3.cmd)]
+    [!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample3.cmd)]
 
 3. After you save the changes to the fcgiext.ini file, restart the application pool that is associated with the Web site that hosts your PHP applications.
 
@@ -128,7 +128,7 @@ Most PHP applications use a file named index.php as the default application docu
 6. In the **Add Content Page** dialog box, in the **Default content page** text box, enter **index.php**.
 7. Click **OK**.
 
-	[![](using-fastcgi-to-host-php-applications-on-iis-60/_static/image4.png)](using-fastcgi-to-host-php-applications-on-iis-60/_static/image3.png) 
+    [![](using-fastcgi-to-host-php-applications-on-iis-60/_static/image4.png)](using-fastcgi-to-host-php-applications-on-iis-60/_static/image3.png) 
 
 ## Set the FastCGI Configuration for Optimal Functionality, Security, and Performance with PHP
 
@@ -138,23 +138,25 @@ To obtain optimal functionality and performance, configure your server as follow
 
 1. Modify the **php.ini** file as follows:
 
-	- Set **fastcgi.impersonate = 1**. FastCGI under IIS supports the ability to impersonate the security tokens of the calling client. This allows IIS to define the security context under which the request runs.
-	- Set **cgi.fix\_pathinfo=1**. cgi.fix\_pathinfo provides \*real\* PATH\_INFO/PATH\_TRANSLATED support for CGI. Previously, PHP behavior was to set PATH\_TRANSLATED to SCRIPT\_FILENAME, and to not define PATH\_INFO. For more information about PATH\_INFO, see the cgi specifications. Setting this value to 1 will cause PHP CGI to fix its paths to conform to the specification.
-	- Set **cgi.force\_redirect = 0**.
+    - Set **fastcgi.impersonate = 1**. FastCGI under IIS supports the ability to impersonate the security tokens of the calling client. This allows IIS to define the security context under which the request runs.
+    - Set **cgi.fix\_pathinfo=1**. cgi.fix\_pathinfo provides \*real\* PATH\_INFO/PATH\_TRANSLATED support for CGI. Previously, PHP behavior was to set PATH\_TRANSLATED to SCRIPT\_FILENAME, and to not define PATH\_INFO. For more information about PATH\_INFO, see the cgi specifications. Setting this value to 1 will cause PHP CGI to fix its paths to conform to the specification.
+    - Set **cgi.force\_redirect = 0**.
 
 2. Set the FastCGI configuration settings for the PHP section by running fcgiconfig.js as follows:
 
-	- Set the FastCGI process pool property **InstanceMaxRequests** to **10000**. This setting specifies that the FastCGI extension will recycle php-cgi.exe after it has processed 10000 requests successfully.
+    - Set the FastCGI process pool property **InstanceMaxRequests** to **10000**. This setting specifies that the FastCGI extension will recycle php-cgi.exe after it has processed 10000 requests successfully.
 
 
-	[!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample4.cmd)]
+~~~
+[!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample4.cmd)]
+~~~
 
 3. Configure the FastCGI extension to set the **PHP\_FCGI\_MAX\_REQUESTS** environment variables for the PHP process to **10000**.This setting instructs php-cgi.exe to recycle itself after it has processed 10000 requests successfully.
 
-	[!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample5.cmd)]
+    [!code-console[Main](using-fastcgi-to-host-php-applications-on-iis-60/samples/sample5.cmd)]
 
-	> [!NOTE]
-	> You can configure **InstanceMaxRequests** and **PHP\_FCGI\_MAX\_REQUESTS** to use numbers other than 10000. As a general rule, ensure that the value of **InstanceMaxRequests** is less than or equal to the value of **PHP\_FCGI\_MAX\_REQUESTS**.
+    > [!NOTE]
+    > You can configure **InstanceMaxRequests** and **PHP\_FCGI\_MAX\_REQUESTS** to use numbers other than 10000. As a general rule, ensure that the value of **InstanceMaxRequests** is less than or equal to the value of **PHP\_FCGI\_MAX\_REQUESTS**.
 
 ## Test PHP CGI
 

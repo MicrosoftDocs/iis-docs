@@ -989,11 +989,11 @@ Basic &amp; Starter</th></TR>
 <td>
 <p>Unlimited</p></td>
 <td>
-<P align=right>10</p></td>
+&lt;P align=right&gt;10</p></td>
 <td>
-<P align=right>3</p></td>
+&lt;P align=right&gt;3</p></td>
 <td>
-<P align=right>3</p></td></TR>
+&lt;P align=right&gt;3</p></td></TR>
 </tbody></table>
 
 ## Summary

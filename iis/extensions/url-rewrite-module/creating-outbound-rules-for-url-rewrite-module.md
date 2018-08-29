@@ -141,15 +141,15 @@ Because the rule that you are creating should be applied only on HTML responses,
 1. In the Pre-conditions list, select "&lt;Create New Pre-condition&gt;".
 2. This will bring you to the Pre-condition editor dialog, where you will need to define the precondition. Specify the precondition settings as follows: 
 
-    - Name: "**IsHTML**"
-    - Using: "**Regular Expressions**"
-    - Click "Add" to bring up the "Add condition" dialog. In this dialog specify: 
+   - Name: "**IsHTML**"
+   - Using: "**Regular Expressions**"
+   - Click "Add" to bring up the "Add condition" dialog. In this dialog specify: 
 
-        - Condition input: "**{RESPONSE\_CONTENT\_TYPE}**"
-        - Check if input string: "**Matches the pattern**"
-        - Pattern: "**^text/html**"
+     - Condition input: "**{RESPONSE\_CONTENT\_TYPE}**"
+     - Check if input string: "**Matches the pattern**"
+     - Pattern: "**^text/html**"
 
-        [![](creating-outbound-rules-for-url-rewrite-module/_static/image15.png)](creating-outbound-rules-for-url-rewrite-module/_static/image14.png)
+       [![](creating-outbound-rules-for-url-rewrite-module/_static/image15.png)](creating-outbound-rules-for-url-rewrite-module/_static/image14.png)
 3. Click OK to save the precondition and to return to the "Edit Rule" page.
 
 ### Defining a matching scope

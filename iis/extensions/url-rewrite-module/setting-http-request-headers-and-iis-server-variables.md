@@ -123,7 +123,7 @@ Bring up the "Edit Rule" dialog by clicking on the "Add Rules..." action in the 
     - Type: "Rewrite"
     - Rewrite URL: "{R:2}"
 
-The pattern of the rule matches any URL path that contains the language segment (for example "http://www.contoso.com/de-de/default.aspx"). It also captures the language segment and the remainder of the URL path in the rule back-references, so that they can be re-used later in the rule. The rule condition uses the previously captured language segment as a lookup key that is passed to the rewrite map "Languages". The result of the map lookup is stored in the condition back-reference. The rule action rewrites the URL to not contain the language segment.
+The pattern of the rule matches any URL path that contains the language segment (for example "<http://www.contoso.com/de-de/default.aspx>"). It also captures the language segment and the remainder of the URL path in the rule back-references, so that they can be re-used later in the rule. The rule condition uses the previously captured language segment as a lookup key that is passed to the rewrite map "Languages". The result of the map lookup is stored in the condition back-reference. The rule action rewrites the URL to not contain the language segment.
 
 Expand the "Server Variables..." and specify the values to use for setting the server variables:
 

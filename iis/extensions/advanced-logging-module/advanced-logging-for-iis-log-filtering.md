@@ -53,9 +53,9 @@ This log definition will be used in the following sections that describe how to 
 
 This section describes how to create a simple filter for the **%COMPUTERNAME%-FilterExample** log definition that we created in the [previous section](advanced-logging-for-iis-log-filtering.md#clone), which will log requests for any static HTML files. This can be complicated because HTML files can have either the .htm or .html file name extension and the only logging field that contains this information (URI-Stem) also contains the virtual path and file name. To solve this problem, we will show how to use regular expressions in the Advanced Logging feature to perform a pattern match on the URI-Stem logging field.
 
-The exact regular expression to be used is **.\*\.html?**. The first character (**.**) matches any character except **\r** and **\n**. The second character (**\***) repeats the previous character zero or more times. In effect, these first two characters match any string of any length and solves the problem of matching the virtual path and file name.
+The exact regular expression to be used is **.\*\.html?**. The first character (**.**) matches any character except **\r** and **\n**. The second character (**\\***) repeats the previous character zero or more times. In effect, these first two characters match any string of any length and solves the problem of matching the virtual path and file name.
 
-Next, we consider the file name extensions of interest (.htm and .html). The (**.**) character is a reserved **Regex** character, but we want its literal value. Therefore, we use the backslash character (**\**) to escape the (**.**) that follows it so that (**.**) will be matched literally. The letters **html** are matched literally as well. Finally, the question mark character (**?**) makes the character preceding it (**l**) optional, making the literal match either **.html** or **.htm**.
+Next, we consider the file name extensions of interest (.htm and .html). The (**.**) character is a reserved **Regex** character, but we want its literal value. Therefore, we use the backslash character (**\\**) to escape the (**.**) that follows it so that (**.**) will be matched literally. The letters **html** are matched literally as well. Finally, the question mark character (**?**) makes the character preceding it (**l**) optional, making the literal match either **.html** or **.htm**.
 
 For more information about building regular expressions that match your needs, I recommend that you do an Internet search on "Regular Expressions" to dive deeper into this subject.
 
@@ -90,7 +90,7 @@ To create this filter, do the following:
 4. In the **Edit Log Definition Filter** dialog box, select the root node (**Condition: AND**) in the hierarchical list, select **OR Condition** in the **Condition** area, and then click **Add Expression**.  
     ![](advanced-logging-for-iis-log-filtering/_static/image9.jpg)  
   
- Note that the original root node (**Condition: AND**) in the list changes to **Condition: OR** when you select **OR Condition** in the **Condition** area.
+   Note that the original root node (**Condition: AND**) in the list changes to **Condition: OR** when you select **OR Condition** in the **Condition** area.
 5. In the **Expression** area of the dialog box, specify the following values for the expression:  
     ![](advanced-logging-for-iis-log-filtering/_static/image10.jpg)
 

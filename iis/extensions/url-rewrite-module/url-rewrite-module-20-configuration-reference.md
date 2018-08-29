@@ -210,7 +210,7 @@ When **filterByTags** attribute is not specified in the match element of the rul
 
     [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample8.xml)]
 
- Note that this setting should not be used if the chunked transfer encoding is used for responses.
+  Note that this setting should not be used if the chunked transfer encoding is used for responses.
 - Use the **occurrences** attribute of the **match** element of the rule. For example, when you use a rule to insert some HTML fragment into the &lt;head&gt; element and that rule has a pattern that searches for the closing tag - &lt;/head&gt;, then you can set occurrences="1". This will tell the rewrite module to stop searching the remainder of the response after the &lt;/head&gt; tag was found.  
 
     [!code-xml[Main](url-rewrite-module-20-configuration-reference/samples/sample9.xml)]
@@ -383,7 +383,7 @@ For example in this pattern:
 [!code-console[Main](url-rewrite-module-20-configuration-reference/samples/sample16.cmd)]
 
 
-For the string: **www.foo.com** the back-references will be indexed as follows:
+For the string: <strong>www.foo.com</strong> the back-references will be indexed as follows:
 
 
 [!code-json[Main](url-rewrite-module-20-configuration-reference/samples/sample17.json)]

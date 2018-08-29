@@ -125,35 +125,35 @@ To recap the items that you completed in this section:
     [![](configuring-ftp-user-isolation-in-iis-7/_static/image45.png)](configuring-ftp-user-isolation-in-iis-7/_static/image43.png)
 4. These five options are defined as: 
 
-    - **Do not isolate users. Start users in**: 
+   - **Do not isolate users. Start users in**: 
 
-        - **FTP root directory**
+     - **FTP root directory**
 
-            - This option specifies that all FTP sessions will start in the root directory for the FTP site.
-                > [!NOTE]
-                > This option is new in this FTP server, and simply disables all user isolation or starting folder logic.
-        - **User name directory**
+       - This option specifies that all FTP sessions will start in the root directory for the FTP site.
+           > [!NOTE]
+           > This option is new in this FTP server, and simply disables all user isolation or starting folder logic.
+     - **User name directory**
 
-            - This option specifies that all FTP sessions will start in the physical or virtual directory with the same name of the currently logged on user if the folder exists; otherwise, the FTP session will start in the root directory for the FTP site.
-                > [!NOTE]
-                > This option is the same as choosing no user isolation in the IIS 6.0 FTP server. For additional information about using this option, see the "Do Not Isolate Users Mode" section in the [Hosting Multiple FTP Sites with FTP User Isolation (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=62833) topic.
-    - **Isolate users. Restrict users to the following directory**: 
+       - This option specifies that all FTP sessions will start in the physical or virtual directory with the same name of the currently logged on user if the folder exists; otherwise, the FTP session will start in the root directory for the FTP site.
+           > [!NOTE]
+           > This option is the same as choosing no user isolation in the IIS 6.0 FTP server. For additional information about using this option, see the "Do Not Isolate Users Mode" section in the [Hosting Multiple FTP Sites with FTP User Isolation (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=62833) topic.
+   - **Isolate users. Restrict users to the following directory**: 
 
-        - **User name directory (disable global virtual directories)**
+     - **User name directory (disable global virtual directories)**
 
-            - This option specifies that you want to isolate FTP user sessions to the physical or virtual directory with the same name of the FTP user account. The user sees only their FTP root location and is, therefore, restricted from navigating higher up the physical or virtual directory tree. Any global virtual directories that are created will be ignored.
-                > [!NOTE]
-                > This option is new in this FTP server.
-        - **User name physical directory (enable global virtual directories)**
+       - This option specifies that you want to isolate FTP user sessions to the physical or virtual directory with the same name of the FTP user account. The user sees only their FTP root location and is, therefore, restricted from navigating higher up the physical or virtual directory tree. Any global virtual directories that are created will be ignored.
+           > [!NOTE]
+           > This option is new in this FTP server.
+     - **User name physical directory (enable global virtual directories)**
 
-            - This option specifies that you want to isolate FTP user sessions to the physical directory with the same name of the FTP user account. The user sees only their FTP root location and is, therefore, restricted from navigating higher up the physical directory tree. Any global virtual directories that are created will apply to all users.
-                > [!NOTE]
-                > This option is the same as choosing user isolation in the IIS 6.0 FTP server.
-        - **FTP home directory configured in Active Directory**
+       - This option specifies that you want to isolate FTP user sessions to the physical directory with the same name of the FTP user account. The user sees only their FTP root location and is, therefore, restricted from navigating higher up the physical directory tree. Any global virtual directories that are created will apply to all users.
+           > [!NOTE]
+           > This option is the same as choosing user isolation in the IIS 6.0 FTP server.
+     - **FTP home directory configured in Active Directory**
 
-            - This option specifies that you want to isolate FTP user sessions to the home directory that is configured in the Active Directory account settings for each FTP user.
-                > [!NOTE]
-                > This option is the same as choosing Active Directory user isolation in the IIS 6.0 FTP server. For additional information about using this option, see the "Isolate Users Using Active Directory Mode" section in the [Hosting Multiple FTP Sites with FTP User Isolation (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=62833) topic.
+       - This option specifies that you want to isolate FTP user sessions to the home directory that is configured in the Active Directory account settings for each FTP user.
+           > [!NOTE]
+           > This option is the same as choosing Active Directory user isolation in the IIS 6.0 FTP server. For additional information about using this option, see the "Isolate Users Using Active Directory Mode" section in the [Hosting Multiple FTP Sites with FTP User Isolation (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=62833) topic.
 
 <a id="003"></a>
 

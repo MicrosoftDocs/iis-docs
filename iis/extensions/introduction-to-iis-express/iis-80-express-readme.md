@@ -88,11 +88,11 @@ IIS 8.0 Express supports the following new features:
 
     - The AppCmd utility now supports a "/AppHostConfig" parameter, which makes it possible to use AppCmd to edit multiple ApplicationHost.config files and not just the primary configuration file.  
   
- For example, the following commands will create a website in a custom ApplicationHost.config file:  
+  For example, the following commands will create a website in a custom ApplicationHost.config file:  
 
         [!code-console[Main](iis-80-express-readme/samples/sample1.cmd)]
   
- Once you have added the website with the above commands, you can start it with the following command:  
+  Once you have added the website with the above commands, you can start it with the following command:  
         `iisexpress.exe /config:C:\Temp\IISExpress\config\ApplicationHost.config /site:www.fabrikam.com`
 
 <a id="KnownIssues"></a>

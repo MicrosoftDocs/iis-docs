@@ -138,29 +138,29 @@ In this first step, you create a new FTP site that can only be opened by the loc
     [![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image3.jpg)](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image1.jpg)
 3. When the **Add FTP Site** wizard appears: 
 
-    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.
+   - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.
 	
-	    > [!NOTE]
-        > If you choose to type in the path to your content folder, you can use environment variables in your paths; for example: `%SystemDrive%\inetpub\ftproot`
-    - Click **Next**.
+       > [!NOTE]
+       > If you choose to type in the path to your content folder, you can use environment variables in your paths; for example: `%SystemDrive%\inetpub\ftproot`
+   - Click **Next**.
 
-    [![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image7.jpg)](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image5.jpg)
+     [![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image7.jpg)](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image5.jpg)
 4. On the next page of the wizard: 
 
-    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be using an IIS 7 manager account later in this walk-through, make sure that you restrict access to the server -- enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
-    - You would normally enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.
-    - For this walk- through, you will not use a host name, so make sure that the **Virtual Host** box is blank.
-    - Make sure that the **SSL** **Certificate** drop-down is set to "Not Selected" and that the **Require SSL** option is not selected.
-    - Click **Next**.
+   - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be using an IIS 7 manager account later in this walk-through, make sure that you restrict access to the server -- enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
+   - You would normally enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.
+   - For this walk- through, you will not use a host name, so make sure that the **Virtual Host** box is blank.
+   - Make sure that the **SSL** **Certificate** drop-down is set to "Not Selected" and that the **Require SSL** option is not selected.
+   - Click **Next**.
 
-    [![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image12.jpg)](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image11.jpg)
+     [![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image12.jpg)](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image11.jpg)
 5. On the next page of the wizard: 
 
-    - In **Authentication** settings, select **Basic**.
-    - In **Authorization** settings, choose "Specified users" from the **Allow access to** drop-down. Type "administrator" in the box, and select both **Read** and **Write** in **Permissions** options.
-    - Click **Finish**.
+   - In **Authentication** settings, select **Basic**.
+   - In **Authorization** settings, choose "Specified users" from the **Allow access to** drop-down. Type "administrator" in the box, and select both **Read** and **Write** in **Permissions** options.
+   - Click **Finish**.
 
-    [![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image15.jpg)](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image13.jpg)
+     [![](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image15.jpg)](configure-ftp-with-iis-manager-authentication-in-iis-7/_static/image13.jpg)
 
 ### Step 2: Configure the FTP Site to Use IIS 7 Manager Authentication
 

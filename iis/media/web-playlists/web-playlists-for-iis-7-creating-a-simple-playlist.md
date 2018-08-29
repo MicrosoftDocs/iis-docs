@@ -70,30 +70,30 @@ The following properties are available to be set:
 1. In the **Add/Edit Playlist** page, in the **Media entries** area, click **Add** to open the **Add Media Entry** dialog box. The details in this dialog box apply to all the media entries that you select.
 2. In the **Add Media Entry** dialog box, add the following details to add media entries:
 
-    - **Location type**. In the dropdown list, select whether the media content referenced by the playlist is local or remote. 
+   - **Location type**. In the dropdown list, select whether the media content referenced by the playlist is local or remote. 
 
-        - Local content can be on the local disk (**Relative URI**/**Physical path**) or on a UNC share (**Physical path**) that is accessible to the playlist handler.
-        - Remote content is a URL to a media file (for example, http://&lt;myServer&gt;/myfile.wmv) or to another playlist file. Web Playlists cannot control seek/skip behavior for remote content.
+       - Local content can be on the local disk (**Relative URI**/**Physical path**) or on a UNC share (**Physical path**) that is accessible to the playlist handler.
+       - Remote content is a URL to a media file (for example, http://&lt;myServer&gt;/myfile.wmv) or to another playlist file. Web Playlists cannot control seek/skip behavior for remote content.
 
-    See the sections later in this article that describe how to add nested playlists and integrate with Web applications to obtain content location.
+     See the sections later in this article that describe how to add nested playlists and integrate with Web applications to obtain content location.
 
-    - **Content location**. Use the **Browse** button to populate a comma-delimited list of content items. You can select multiple items to add to the playlist at once. To select adjacent items, press and hold the SHIFT key while selecting. To select nonadjacent items, press and hold the CTRL key while selecting.
+   - **Content location**. Use the **Browse** button to populate a comma-delimited list of content items. You can select multiple items to add to the playlist at once. To select adjacent items, press and hold the SHIFT key while selecting. To select nonadjacent items, press and hold the CTRL key while selecting.
 
-    > [!NOTE]
-    > If you are using IIS Manager to connect to a remote server, ensure that the paths correspond to the remote computer. The **Browse** button is disabled in this case.
+     > [!NOTE]
+     > If you are using IIS Manager to connect to a remote server, ensure that the paths correspond to the remote computer. The **Browse** button is disabled in this case.
 
-    - **Title** (optional). The playlist title.
-    - **Disable skip forward** (optional). Disallows the content to be skipped so that the next entry is played before the current entry is played. (For example, a particular site may want to disable skip on all advertisements on the site.)
+   - **Title** (optional). The playlist title.
+   - **Disable skip forward** (optional). Disallows the content to be skipped so that the next entry is played before the current entry is played. (For example, a particular site may want to disable skip on all advertisements on the site.)
 
-    > [!NOTE]
-    > Disable skip forward has a dependency on the playlist handler attribute **allowSkipAfterMinPercent**, which specifies when skip forward is enabled. For example, If this attribute value is set to **80**, it means that after 80 percent of the content has been viewed, **Skip Forward** will be enabled (if disabled) in the player and the user will be able to skip to the next item in the playlist. If you want to disallow this, ensure that this value is set to 100.
+     > [!NOTE]
+     > Disable skip forward has a dependency on the playlist handler attribute **allowSkipAfterMinPercent**, which specifies when skip forward is enabled. For example, If this attribute value is set to **80**, it means that after 80 percent of the content has been viewed, **Skip Forward** will be enabled (if disabled) in the player and the user will be able to skip to the next item in the playlist. If you want to disallow this, ensure that this value is set to 100.
 
-    - **Disable skip backward** (optional). Disallows the content to be skipped so that it can be played again from the beginning. This is very helpful in the cases where you want to disallow viewing/listening to a media item repeatedly (for example, with online radio stations).
-    - **Disable seek** (optional). Disallows seeking within the content. In most players, the **Seek** bar will be disabled. However, in cases where it is enabled, the Web server disallows seek.
+   - **Disable skip backward** (optional). Disallows the content to be skipped so that it can be played again from the beginning. This is very helpful in the cases where you want to disallow viewing/listening to a media item repeatedly (for example, with online radio stations).
+   - **Disable seek** (optional). Disallows seeking within the content. In most players, the **Seek** bar will be disabled. However, in cases where it is enabled, the Web server disallows seek.
 
-    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image6.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image5.jpg)
+     [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image6.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image5.jpg)
 
-    [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image8.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image7.jpg)
+     [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image8.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image7.jpg)
 
 #### Ensure that the Order of Entries in the Playlist is Correct
 

@@ -35,7 +35,7 @@ Authoring rules can be defined per-URI within a Web site, and specifies the WebD
 
 > [!NOTE]
 > The WebDAV 7.0 and WebDAV 7.5 modules shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/WebDAV](https://www.iis.net/downloads/microsoft/webdav)
 
 
@@ -55,7 +55,7 @@ To support WebDAV publishing for your Web server, you must install the WebDAV mo
 
 1. On the **Start** screen, move the pointer all the way to the lower left corner, right-click the **Start** button, and then click **Control Panel**. - In **Control Panel**, click **Programs and Features**, and then click **Turn Windows features on or off**. - Expand **Internet Information Services**, expand **World Wide Web Services**, expand **Common HTTP Features**, and then select **WebDAV Publishing**.  
     [![](add/_static/image4.png)](add/_static/image3.png)- Click **OK**.
-- Click **Close**.
+2. Click **Close**.
 
 ### Windows Server 2008 R2
 

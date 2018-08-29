@@ -71,6 +71,6 @@ If you are using Windows Firewall, follow these steps to allow these programs.
 2. On the **Allowed Programs** page, click **Change Settings**.
 3. Select **Core Networking,** **Remote Administration** and **File and Printer Sharing** and then click **OK**.  
   
- The program must be allowed to communicate on the domain. You can optionally select other networks.
+   The program must be allowed to communicate on the domain. You can optionally select other networks.
 
 ![](system-and-platform-requirements-for-the-web-farm-framework-20-for-iis/_static/image1.png)

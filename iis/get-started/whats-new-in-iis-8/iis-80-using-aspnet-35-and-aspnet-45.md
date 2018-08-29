@@ -147,7 +147,7 @@ First, set up a simple ASP.NET 3.5 application on IIS 8.0:
 
     http://localhost/example35
 
- After a short pause the application displays a list of .NET Framework features supported in this application.
+   After a short pause the application displays a list of .NET Framework features supported in this application.
 10. in Windows Explorer, if you navigate to the `c:\inetpub\wwwroot\example35` directory, you can use notepad to look at the code for "default.aspx" and the information in "web.config". For example, the contents of web.config include directives that configure the .NET Framework compilers to run in "3.5" mode. The .NET Framework code in "default.aspx" demonstrates some C# constructs that were introduced in .NET 3.5 - specifically LINQ-to-Object queries.
 
 Now that there is an ASP.NET 3.5 application running, you can create a second ASP.NET application, but this time configure it to use .NET 4.5.
@@ -161,7 +161,7 @@ Now that there is an ASP.NET 3.5 application running, you can create a second AS
 
     http://localhost/default.aspx
 
- After a short pause a second application pool will start running an ASP.NET 4.5 application for the "Default Web Site". The browser once again displays a list of .NET Framework features supported in this application with a new entry at the end of the list for dynamically typed variables (i.e. the     *dynamic* keyword introduced in .NET 4.0/4.5). Notice that unlike the "example35" application that required special web.config entries, no web.config file was required to configure and run the "default.aspx" page in the "Default Web Site". This is because .NET Framework 4.5 is the default .NET Framework used by ASP.NET applications in IIS 8.0, and as a result no extra configuration is required.
+   After a short pause a second application pool will start running an ASP.NET 4.5 application for the "Default Web Site". The browser once again displays a list of .NET Framework features supported in this application with a new entry at the end of the list for dynamically typed variables (i.e. the     *dynamic* keyword introduced in .NET 4.0/4.5). Notice that unlike the "example35" application that required special web.config entries, no web.config file was required to configure and run the "default.aspx" page in the "Default Web Site". This is because .NET Framework 4.5 is the default .NET Framework used by ASP.NET applications in IIS 8.0, and as a result no extra configuration is required.
 6. If you use Notepad to open the "default.aspx" page that you just copied, you will also see a few changes compared to the version in the "example35" directory. There are no namespace directives at the top of the page since the .NET Framework 4.5 is the default on IIS 8.0. The code on the page demonstrates using a *dynamic* variable, which is a compiler concept introduced in .NET 4.0/4.5.
 
 <a id="TOC301258518"></a>

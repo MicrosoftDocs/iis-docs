@@ -88,10 +88,10 @@ Now to do the same thing in IIS Manager.
 
     Error Pagescan be set to Read/Write.
 
-    - Read/Write means that the feature's corresponding configuration section is unlocked and can be configured in web.config.
-    - Both Read Only and Remove Delegation mean that the feature's corresponding configuration section is locked and cannot be configured in web.config without causing runtime errors.
+   - Read/Write means that the feature's corresponding configuration section is unlocked and can be configured in web.config.
+   - Both Read Only and Remove Delegation mean that the feature's corresponding configuration section is locked and cannot be configured in web.config without causing runtime errors.
 
-    Do the same thing here as with appcmd above. When you change this delegation state, you change the default delegation for all sites.
+     Do the same thing here as with appcmd above. When you change this delegation state, you change the default delegation for all sites.
 5. If you want to configure delegation for just one site, click the Custom Site Delegation link at the top of the task pane.[![](an-overview-of-feature-delegation-in-iis/_static/image8.jpg)](an-overview-of-feature-delegation-in-iis/_static/image7.jpg)
 
     The Custom Site Delegation page displays, allows you to customize delegation for one site. This page looks similar to the Feature Delegation page, except that there is a drop-down at the top to select the site for which you want to configure delegation. This page also allows you to copy delegation from site to site to save time if you have a site with the same delegation that you want for a new site.

@@ -116,19 +116,19 @@ Note that the error message may be different depending on how Web Deploy is invo
 
 #### 4. Trying to connect to server with Method Not Allowed error
 
-| **Symptoms** | Microsoft.Web.Deployment.DeploymentException: Could not complete the request to remote agent URL 'http://DestinationServer/'. ---&gt; System.Net.WebException: The remote server returned an error: (405) Method Not Allowed. |
-| --- | --- |
-| **Root Cause** | Request was picked up by IIS itself instead of MS Deploy, because the path to msdepsvc.exe is missing. |
-| **Fix/Workaround** | Change the URL to include to /MSDeployAgentService |
+|    **Symptoms**    | Microsoft.Web.Deployment.DeploymentException: Could not complete the request to remote agent URL '<http://DestinationServer/>'. ---&gt; System.Net.WebException: The remote server returned an error: (405) Method Not Allowed. |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   **Root Cause**   |                                                             Request was picked up by IIS itself instead of MS Deploy, because the path to msdepsvc.exe is missing.                                                              |
+| **Fix/Workaround** |                                                                                       Change the URL to include to /MSDeployAgentService                                                                                        |
 
 <a id="_Toc239408313"></a>
 
 #### 5. Trying to access Remote Agent Service as a non-administrator
 
-| **Symptoms** | Microsoft.Web.Deployment.DeploymentException: Could not complete the request to remote agent URL 'http://DestinationServer/msdeployAgentService'. ---&gt; System.Net.WebException: The remote server returned an error: (401) Unauthorized. |
-| --- | --- |
-| **Root Cause** | Remote Agent Service requires that the caller is a member of the Administrators group or from a domain account that has been added to the Administrators group. A local administrator which is not the built-in account will not work with the Remote Agent Service because of a bug in Web Deploy 2.0. |
-| **Fix/Workaround** | Provide administrative credentials |
+|    **Symptoms**    |                              Microsoft.Web.Deployment.DeploymentException: Could not complete the request to remote agent URL '<http://DestinationServer/msdeployAgentService>'. ---&gt; System.Net.WebException: The remote server returned an error: (401) Unauthorized.                              |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   **Root Cause**   | Remote Agent Service requires that the caller is a member of the Administrators group or from a domain account that has been added to the Administrators group. A local administrator which is not the built-in account will not work with the Remote Agent Service because of a bug in Web Deploy 2.0. |
+| **Fix/Workaround** |                                                                                                                                   Provide administrative credentials                                                                                                                                    |
 
 <a id="_Toc239408314"></a>
 

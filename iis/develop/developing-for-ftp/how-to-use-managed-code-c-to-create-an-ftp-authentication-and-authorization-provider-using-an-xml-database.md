@@ -164,11 +164,11 @@ Create an XML file for the membership users and roles:
     - Click **Cancel**.
 2. Using the information from the previous steps, add the extensibility provider to the global list of FTP providers and configure the options for the provider: 
 
-    - At the moment there is no user interface that enables you to add properties for custom authentication or authorization modules, so you will have to use the following command line: 
-        [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database/samples/sample5.cmd)]
+   - At the moment there is no user interface that enables you to add properties for custom authentication or authorization modules, so you will have to use the following command line: 
+       [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-authentication-and-authorization-provider-using-an-xml-database/samples/sample5.cmd)]
     
-	> [!NOTE]
-    > The file path that you specify in the *xmlFileName* attribute must match the path where you saved the "Users.xml" file on your computer in the earlier in this walkthrough.
+     > [!NOTE]
+     > The file path that you specify in the *xmlFileName* attribute must match the path where you saved the "Users.xml" file on your computer in the earlier in this walkthrough.
 3. Specify the custom authentication provider for an FTP site: 
 
     - Open an FTP site in the Internet Information Services (IIS) Manager.

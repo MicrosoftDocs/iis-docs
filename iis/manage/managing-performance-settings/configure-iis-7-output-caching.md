@@ -139,7 +139,7 @@ You can set the output cache to cache only your default page (the most frequentl
 5. Select your default document (for example, Default.aspx page).
 6. In the **Actions** menu on the right, click **Switch to feature** view. Every setting that you configure is now only applied to the default document.
 7. Open the **Output Caching Rules** setting.
-8. Add **.****aspx** as a file extension.
+8. Add **.**<strong>aspx</strong> as a file extension.
 9. Select **Kernel-mode caching**, select **At time intervals**, enable **Monitor cached files,** and then type a time interval, such as **00:00:30**.
 10. Browse to **http<i></i>://localhost//&lt;your application&gt;** with Windows® Internet Explorer®. By constantly refreshing the page (press **Ctrl**+**F5** to make sure you are not using the browser cache), you see that the time does not change for 30 seconds.
 

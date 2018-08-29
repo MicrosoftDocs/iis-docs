@@ -98,39 +98,39 @@ Once the JPG Copyright Handler works, we must determine how fast our code is. In
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample7.cmd)]
 3. The WCAT controller requires three input files:
 
-    - A script file that tells WCAT which URLs to request. Each URL gets a unique ClassID
-    - A distribution file that tells WCAT how the requests should be distributed across the URLs specified in the script file
-    - A configuration file that configures the parameters of a particular performance run, e.g. the duration of the tests, how many HTTP clients to simulate, etc.
+   - A script file that tells WCAT which URLs to request. Each URL gets a unique ClassID
+   - A distribution file that tells WCAT how the requests should be distributed across the URLs specified in the script file
+   - A configuration file that configures the parameters of a particular performance run, e.g. the duration of the tests, how many HTTP clients to simulate, etc.
 
-    **The Script File**
+     **The Script File**
 
-    Create a new file called script.cfg in the perftest directory and paste the following content into it:
+     Create a new file called script.cfg in the perftest directory and paste the following content into it:
 
-    [!code-console[Main](walkthrough-iis-output-caching/samples/sample8.cmd)]
+     [!code-console[Main](walkthrough-iis-output-caching/samples/sample8.cmd)]
 
-    > [!NOTE]
-    > Replace the &lt;your image name&gt; entry with the names of your JPG files. If you have more JPG files, you can add a new transaction. Make sure you give each transaction a new ClassID.
+     > [!NOTE]
+     > Replace the &lt;your image name&gt; entry with the names of your JPG files. If you have more JPG files, you can add a new transaction. Make sure you give each transaction a new ClassID.
 
-    **The Distribution File**
+     **The Distribution File**
 
-    The distribution file tells WCAT how it should weigh requests. With the two URLs above, we do an even 50/50 distribution. Each ClassID gets requested 50% of the time.
+     The distribution file tells WCAT how it should weigh requests. With the two URLs above, we do an even 50/50 distribution. Each ClassID gets requested 50% of the time.
 
-    Create a file called `%systemdrive%\perftest\distribution.cfg` in the perftest directory and paste the following content into it:
+     Create a file called `%systemdrive%\perftest\distribution.cfg` in the perftest directory and paste the following content into it:
 
-    [!code-console[Main](walkthrough-iis-output-caching/samples/sample9.cmd)]
+     [!code-console[Main](walkthrough-iis-output-caching/samples/sample9.cmd)]
 
-    **The Configuration File**
+     **The Configuration File**
 
-    Here are recommended parameters for the test:
+     Here are recommended parameters for the test:
 
-    - Duration: 30 seconds
-    - Warm-up: 5 seconds
-    - Cooldown: 5 seconds
-    - Simulated Http Clients: 20
+   - Duration: 30 seconds
+   - Warm-up: 5 seconds
+   - Cooldown: 5 seconds
+   - Simulated Http Clients: 20
 
-    Create a file called config.cfg in the perftest directory and paste the following content into it:
+     Create a file called config.cfg in the perftest directory and paste the following content into it:
 
-    [!code-console[Main](walkthrough-iis-output-caching/samples/sample10.cmd)]
+     [!code-console[Main](walkthrough-iis-output-caching/samples/sample10.cmd)]
 4. Start the controller by executing the following commands:
 
 [!code-console[Main](walkthrough-iis-output-caching/samples/sample11.cmd)]

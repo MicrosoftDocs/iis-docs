@@ -91,7 +91,7 @@ In IIS Manager, click the **Playlists** icon on your site, and then click **Conf
 
 The new output format is accessed by using the following syntax:
 
-> http://*site*/*playlist**name*.isx **?format=&lt;*formatname*&gt;** (for example, http://contoso.com/file.isx **?format=atom**)
+> http://<em>site</em>/*playlist*<em>name</em>.isx **?format=&lt;*formatname*&gt;** (for example, <http://contoso.com/file.isx> **?format=atom**)
 
 
 The &lt;*formatname*&gt; is the format name that you specified in IIS Manager while configuring this output format.

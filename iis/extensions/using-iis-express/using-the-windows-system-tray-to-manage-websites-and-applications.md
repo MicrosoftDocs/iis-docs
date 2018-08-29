@@ -45,7 +45,7 @@ For information about how to install WebMatrix Beta, see [Microsoft Web Platform
     > If you do not already have a second site, you can add a new one by choosing **Site from Web Gallery**, **Site From Template**, or **Site From Folder**.
 6. Right-click **WebMatrix** in the system tray. If you do not see the icon, click **Show hidden icons** to display the icon.  
     ![](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image11.png)  
- You will see the following:  
+   You will see the following:  
     ![](using-the-windows-system-tray-to-manage-websites-and-applications/_static/image13.png)
 
     | Sites | Displays a list of the sites that you are currently running. Select a specific site to display the **Browse Applications** and **Stop Site** options. |

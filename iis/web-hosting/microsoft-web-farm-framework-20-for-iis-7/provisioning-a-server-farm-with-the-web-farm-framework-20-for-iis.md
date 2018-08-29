@@ -62,7 +62,7 @@ Application provisioning is similar to platform provisioning, but instead of syn
   
     [![](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image17.png)](provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image16.png)
 4. To add a provider to be synchronized, click twice in the **Provider** field and then select the provider you want to add.  
- When you select a provider, a new row is added.
+   When you select a provider, a new row is added.
 5. Enter a path in which to install the provider on the secondary servers. This must be a file system path, such as `C:\inetpub\`. The field cannot be empty.
 6. In the **Settings** field, specify the provider settings that you want to use for the selected provider. Click the field and use the browse **(…)** button to open the **Provider Settings** dialog box. For more information, see [Web Deploy Provider Settings](https://technet.microsoft.com/en-us/library/dd569001(WS.10).aspx).
 7. Add the providers you want, and then in the **Actions** pane click **Apply**.

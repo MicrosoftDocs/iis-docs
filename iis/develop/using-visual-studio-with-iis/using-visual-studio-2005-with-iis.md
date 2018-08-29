@@ -71,7 +71,7 @@ You can find the detailed explanation of the two models and their differences in
 **To publish the project to an IIS Web site:** 
 
 1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool.  
- For more information, see [http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true) . Alternatively, use an existing IIS Web site.
+   For more information, see [http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true) . Alternatively, use an existing IIS Web site.
 2. In Visual Studio, use the "Build \ Publish" option to publish the contents of your Web application to an IIS Web site.  
 
     [![](using-visual-studio-2005-with-iis/_static/image4.png)](using-visual-studio-2005-with-iis/_static/image3.png)
@@ -81,33 +81,33 @@ You can find the detailed explanation of the two models and their differences in
 
     By clicking the "…" button, you can chose one of the four options for publishing your Web site:
 
-    - **File System**. When using this option, Visual Studio opens / creates the web application as a folder, and uses the built-in ASP.NET Development Server to host the Web site. This option may be sufficient for basic testing of ASP.NET applications – however, this mode does not support running ASP.NET applications in Integrated mode, and it does not support application technologies other than ASP.NET (such as PHP, ASP, CGI, etc).
-    - **Local IIS**. When using this option, Visual Studio allows you to publish your application files to a local IIS Web site or application. You can also use the dialog to create new IIS applications or virtual directories to publish your files to.
-    - **FTP Site**. When using this option, Visual Studio supports editing your application files if they are shared through FTP. You can still use Visual Studio to debug your applications by configuring the URL of your application in project start settings. For more information, see Using Visual Studio 2005 with a Remote IIS Server section later in this article.
-    - **Remote Site**. Using this option, Visual Studio can connect to a remote IIS server. To use this option, you need to have Front Page Server Extensions installed on the remote server and configure your Web site to use FPSE. For more information on this, see the "Using Visual Studio 2005 with a Remote IIS Server" section later in this article.
+   - **File System**. When using this option, Visual Studio opens / creates the web application as a folder, and uses the built-in ASP.NET Development Server to host the Web site. This option may be sufficient for basic testing of ASP.NET applications – however, this mode does not support running ASP.NET applications in Integrated mode, and it does not support application technologies other than ASP.NET (such as PHP, ASP, CGI, etc).
+   - **Local IIS**. When using this option, Visual Studio allows you to publish your application files to a local IIS Web site or application. You can also use the dialog to create new IIS applications or virtual directories to publish your files to.
+   - **FTP Site**. When using this option, Visual Studio supports editing your application files if they are shared through FTP. You can still use Visual Studio to debug your applications by configuring the URL of your application in project start settings. For more information, see Using Visual Studio 2005 with a Remote IIS Server section later in this article.
+   - **Remote Site**. Using this option, Visual Studio can connect to a remote IIS server. To use this option, you need to have Front Page Server Extensions installed on the remote server and configure your Web site to use FPSE. For more information on this, see the "Using Visual Studio 2005 with a Remote IIS Server" section later in this article.
 
-    You can also map the Web application project directory as a virtual directory on the local IIS installation by opening the project Properties, clicking the "Web" tab, and using the "Create Virtual Directory" button. You can use the "Create Virtual Directory" option as a quick way to host your Web application locally on IIS without going through the "Publish Web" option.
+     You can also map the Web application project directory as a virtual directory on the local IIS installation by opening the project Properties, clicking the "Web" tab, and using the "Create Virtual Directory" button. You can use the "Create Virtual Directory" option as a quick way to host your Web application locally on IIS without going through the "Publish Web" option.
 
-    However, this option is not generally recommended because it places all of the project files, source files, object files, and other temporary files in the servable namespace of the IIS virtual directory, which may result in a security risk. Using the Publish options which by default only publish the web servable portions of the project is a better practice.
+     However, this option is not generally recommended because it places all of the project files, source files, object files, and other temporary files in the servable namespace of the IIS virtual directory, which may result in a security risk. Using the Publish options which by default only publish the web servable portions of the project is a better practice.
 3. Configure debugging.  
 
     By default, projects created using the Web application project model use the built-in ASP.NET Development Server when testing or debugging your project.
 
     This provides a convenient way to test your ASP.NET application without IIS – however, we recommend that you instead configure Visual Studio to test your application in the IIS environment. The reasons for this are:
 
-    - The ASP.NET Development Server does not support hosting ASP.NET applications in Integrated mode, which is the default mode of operation used by IIS. This may introduce differences in application behavior.
-    - The ASP.NET Development Server does not support many of the IIS configuration features, so if your application relies or uses them, it's behavior may be different or incorrect when hosted under the ASP.NET Development Server.
-    - The ASP.NET Development Server does not support hosting portions of your application that utilize application technologies other than ASP.NET, such as PHP, CGI, and other third party frameworks.
+   - The ASP.NET Development Server does not support hosting ASP.NET applications in Integrated mode, which is the default mode of operation used by IIS. This may introduce differences in application behavior.
+   - The ASP.NET Development Server does not support many of the IIS configuration features, so if your application relies or uses them, it's behavior may be different or incorrect when hosted under the ASP.NET Development Server.
+   - The ASP.NET Development Server does not support hosting portions of your application that utilize application technologies other than ASP.NET, such as PHP, CGI, and other third party frameworks.
 
-    If you are developing on Windows Vista, you can easily take advantage of IIS to test your application locally using the same environment it will be on when it is deployed - use the "Create Virtual Directory" option or the Publish Web dialog as discussed earlier in this article.
+     If you are developing on Windows Vista, you can easily take advantage of IIS to test your application locally using the same environment it will be on when it is deployed - use the "Create Virtual Directory" option or the Publish Web dialog as discussed earlier in this article.
 
-    Alternatively, you can configure Visual Studio to connect to the a remote IIS server to which you publish your application.
+     Alternatively, you can configure Visual Studio to connect to the a remote IIS server to which you publish your application.
 
-    In those cases, you can configure Visual Studio to debug your application in the IIS environment. To do this, right-click on the project node, chose "Properties …", and click the "Web" tab. In the "Web" tab, select the "Use IIS Web server" radio button and type in the base URL of your Web application on the remote server.
+     In those cases, you can configure Visual Studio to debug your application in the IIS environment. To do this, right-click on the project node, chose "Properties …", and click the "Web" tab. In the "Web" tab, select the "Use IIS Web server" radio button and type in the base URL of your Web application on the remote server.
 
-    [![](using-visual-studio-2005-with-iis/_static/image6.png)](using-visual-studio-2005-with-iis/_static/image5.png)
+     [![](using-visual-studio-2005-with-iis/_static/image6.png)](using-visual-studio-2005-with-iis/_static/image5.png)
 
-    For more information on configuring remote debugging, see "Debugging IIS Web Applications" later in this article.
+     For more information on configuring remote debugging, see "Debugging IIS Web Applications" later in this article.
 
 **To create a new project using the Web site project option:** 
 
@@ -195,27 +195,27 @@ To quickly enable a remote Web site to be used with the "Remote Site" option in 
     [!code-console[Main](using-visual-studio-2005-with-iis/samples/sample1.cmd)]
 
     Where &lt;SITEID&gt; is the site id of the Web site you want to enable for FPSE, and the &lt;USERNAME&gt; is the Windows account that can act as FPSE administrator.
-- Connect to the site Using the "Remote Site" option in the Open Web Site dialog or the New Site dialog. This allows you to connect to an existing Front Page Server Extensions – enabled web site, or create new Web applications and virtual directories.  
+5. Connect to the site Using the "Remote Site" option in the Open Web Site dialog or the New Site dialog. This allows you to connect to an existing Front Page Server Extensions – enabled web site, or create new Web applications and virtual directories.  
 
-    [![](using-visual-studio-2005-with-iis/_static/image16.png)](using-visual-studio-2005-with-iis/_static/image15.png)
+     [![](using-visual-studio-2005-with-iis/_static/image16.png)](using-visual-studio-2005-with-iis/_static/image15.png)
 
-    If you receive the following error dialog during connection, double-check that you have installed FPSE on the remote server, and have enabled FPSE management for the Web site you are attempting to connect to.
+     If you receive the following error dialog during connection, double-check that you have installed FPSE on the remote server, and have enabled FPSE management for the Web site you are attempting to connect to.
 
-    [![](using-visual-studio-2005-with-iis/_static/image18.png)](using-visual-studio-2005-with-iis/_static/image17.png)
+     [![](using-visual-studio-2005-with-iis/_static/image18.png)](using-visual-studio-2005-with-iis/_static/image17.png)
 
-    If you are using Windows authentication for your FPSE-enabled Web site, Visual Studio attempts to authenticate using the account under which it was started. If this authentication fails, it prompts you to provide credentials for authentication with the remote server.
+     If you are using Windows authentication for your FPSE-enabled Web site, Visual Studio attempts to authenticate using the account under which it was started. If this authentication fails, it prompts you to provide credentials for authentication with the remote server.
 
-    If you are using Basic authentication, Visual Studio immediately prompts you for credentials.
+     If you are using Basic authentication, Visual Studio immediately prompts you for credentials.
 
-    > [!NOTE]
-    > Basic authentication sends credentials in clear text, so it can lead to unintended disclosure of your username and password if the site is not protected with SSL. For this reason, we recommend using Windows authentication for intranet environments, and using Basic authentication over SSL for internet environments *.*
+     > [!NOTE]
+     > Basic authentication sends credentials in clear text, so it can lead to unintended disclosure of your username and password if the site is not protected with SSL. For this reason, we recommend using Windows authentication for intranet environments, and using Basic authentication over SSL for internet environments *.*
 
-    If you have not enabled a suitable authentication method (Windows Authentication, Basic Authentication, or Digest Authentication), you receive the following error dialog when connecting. Turn on one of the above authentication methods to fix this problem.
+     If you have not enabled a suitable authentication method (Windows Authentication, Basic Authentication, or Digest Authentication), you receive the following error dialog when connecting. Turn on one of the above authentication methods to fix this problem.
 
-    [![](using-visual-studio-2005-with-iis/_static/image20.png)](using-visual-studio-2005-with-iis/_static/image19.png)
+     [![](using-visual-studio-2005-with-iis/_static/image20.png)](using-visual-studio-2005-with-iis/_static/image19.png)
 
-    > [!NOTE]
-    > The "New Web Site …" button in the "Remote Site" dialog cannot be used to create a new IIS Web site. Instead, it is used to create a new Web application with the specified path for an existing Front Page Server Extensions – enabled IIS Web site.
+     > [!NOTE]
+     > The "New Web Site …" button in the "Remote Site" dialog cannot be used to create a new IIS Web site. Instead, it is used to create a new Web application with the specified path for an existing Front Page Server Extensions – enabled IIS Web site.
 
 ## Debugging IIS Web Applications
 
@@ -261,16 +261,16 @@ In order to successfully debug a remote application, you must also meet the foll
 1. Install the Remote Debugging components on the server machine. For more information, see [How to: Set Up Remote Debugging](https://msdn.microsoft.com/en-us/library/bt727f1t.aspx).
 2. Run the Remote Debugging monitor (msvsmon.exe) on the server machine. See notes further about how to do this properly.
 3. Open the required firewall ports for remote debugging.  
- When you run msvsmon.exe for the first time on the remote machine, it warns you if the ports are not open, and offers to open them automatically. If you want to configure the firewall manually or to see which ports are opened, see [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://msdn.microsoft.com/en-us/library/bb385831.aspx) .  
+   When you run msvsmon.exe for the first time on the remote machine, it warns you if the ports are not open, and offers to open them automatically. If you want to configure the firewall manually or to see which ports are opened, see [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://msdn.microsoft.com/en-us/library/bb385831.aspx) .  
   
- NOTE: msvsmon.exe may fail to open the firewall on Windows Vista and Windows Server 2008. In that case, you will receive the error dialog below after selecting one of the "Unblock remote debugging ..." options in the "Configure Firewall for Remote Debugging" dialog. If you receive this error, create the firewall rules manually using [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://msdn.microsoft.com/en-us/library/bb385831.aspx) .  
+   NOTE: msvsmon.exe may fail to open the firewall on Windows Vista and Windows Server 2008. In that case, you will receive the error dialog below after selecting one of the "Unblock remote debugging ..." options in the "Configure Firewall for Remote Debugging" dialog. If you receive this error, create the firewall rules manually using [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://msdn.microsoft.com/en-us/library/bb385831.aspx) .  
     [![](using-visual-studio-2005-with-iis/_static/image2.jpg)](using-visual-studio-2005-with-iis/_static/image1.jpg)
 4. If you are using a Web application project and publishing to a remote IIS server, or if you have opened the remote Web site project using the "File System" or "FTP Site" options, you must configure Visual Studio project start options to enable debugging.  
- To do this for a Web site project, right-click on the Web site project node, chose "Start Options …". In the dialog, select "Use custom server" radio button and type in the base URL of your Web application on the remote server.  
+   To do this for a Web site project, right-click on the Web site project node, chose "Start Options …". In the dialog, select "Use custom server" radio button and type in the base URL of your Web application on the remote server.  
   
- For a Web application project, right-click on the project node, chose "Properties …", and click the "Web" tab. In the "Web" tab, select the "Use IIS Web server" radio button and type in the base URL of your Web application on the remote server.  
+   For a Web application project, right-click on the project node, chose "Properties …", and click the "Web" tab. In the "Web" tab, select the "Use IIS Web server" radio button and type in the base URL of your Web application on the remote server.  
   
- This process is described in detail earlier in the article.
+   This process is described in detail earlier in the article.
 5. Configure permissions to allow debugging to take place. See notes further about how to do this properly.
 
 How you run the Remote Debugging monitor (msvsmon.exe) and configure your permissions depends on whether your are operating in a domain or workgroup environment.  
@@ -281,7 +281,7 @@ How you run the Remote Debugging monitor (msvsmon.exe) and configure your permis
     > [!NOTE]
     > If you are using Windows Authentication in your application, this account must be the built-in Administrator account. This means that the built-in Administrator account must have the same password on both computers.
 2. Log on to the remote server computer using the account created in Step 1, and run the Visual Studio 2005 Remote Debugger from the Start menu by right-clicking it, and choosing "Run As Administrator".   
- This is important – otherwise the Remote Debugging monitor receives a UAC-filtered token and cannot debug IIS worker processes.  
+   This is important – otherwise the Remote Debugging monitor receives a UAC-filtered token and cannot debug IIS worker processes.  
   
     > [!NOTE]
     > Do not use the RunAs.exe command to run the msvsmon.exe process, as this always results in a UAC-filtered token and prevents debugging from working.
@@ -292,14 +292,14 @@ You also have an option to run the Remote Debugging monitor as a service by open
     > [!NOTE]
     > It is very important to both log in using the account created in Step 1, and use the "Run As Administrator" option when running Visual Studio. As mentioned in Step 1, the account you are using MUST be an Administrative user on the remote server machine.
 2. Open the remote IIS Web site (using the File System, FTP Site or the Remote Site option).  
- If you are using Windows Authentication in your IIS Web site, you must be running Visual Studio 2005 using the built-in Administrator account and therefore also running the Remote Debugging monitor on the remote computer using the built-in Administrator account. The password for the Administrator account must be the same on the client and remote server computers.  
+   If you are using Windows Authentication in your IIS Web site, you must be running Visual Studio 2005 using the built-in Administrator account and therefore also running the Remote Debugging monitor on the remote computer using the built-in Administrator account. The password for the Administrator account must be the same on the client and remote server computers.  
   
- In addition, you can do the following:  
+   In addition, you can do the following:  
 
     - Use the FTP Site option to connect to the remote IIS Web site, and use Anonymous authentication. Then, you do not need to use the built-in Administrator account, as long as the account you are using is an Administrative user on the remote server computer.
     - Use the Remote Site option to connect to the remote IIS Web site, and use Basic or Digest authentication. Then, you do not need to use the built-in Administrator account, as long as the account you are using is an Administrative user on the remote server computer.
 
- If you need to use Windows Authentication in your IIS Web site, and you cannot use synchronized Administrator accounts, you must turn off UAC on the remote server computer and reboot prior to attempting to debug. This is not recommended for production servers as it may negatively affect the security of your server.
+   If you need to use Windows Authentication in your IIS Web site, and you cannot use synchronized Administrator accounts, you must turn off UAC on the remote server computer and reboot prior to attempting to debug. This is not recommended for production servers as it may negatively affect the security of your server.
 
 **To set up remote debugging in a domain environment**
 

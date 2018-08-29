@@ -64,15 +64,15 @@ In this first step, we create a new FTP site using a unique virtual host name.
 
 1. Open the Internet Information Services (IIS) Manager. In the **Connections** pane, click the **Sites** node in the tree.
 2. Right-click the **Sites** node in the tree and click **Add FTP Site**, or click **Add FTP Site** in the **Actions** pane.  
-[![](using-ftp-virtual-host-names-in-iis-7/_static/image3.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image1.jpg)
+   [![](using-ftp-virtual-host-names-in-iis-7/_static/image3.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image1.jpg)
 3. When the **Add FTP Site** wizard displays: 
 
-    - Enter "www.example.com" in the **FTP site name** box.
-    - Navigate to the `%SystemDrive%\inetpub\www.example.com` folder that you created in the Prerequisites section.
-	    > [!NOTE]
-        > If you choose to type in the path to your content folder, you can use environment variables in your paths.
-    - Click **Next**.  
-        [![](using-ftp-virtual-host-names-in-iis-7/_static/image7.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image5.jpg)
+   - Enter "www.example.com" in the **FTP site name** box.
+   - Navigate to the `%SystemDrive%\inetpub\www.example.com` folder that you created in the Prerequisites section.
+       > [!NOTE]
+       > If you choose to type in the path to your content folder, you can use environment variables in your paths.
+   - Click **Next**.  
+       [![](using-ftp-virtual-host-names-in-iis-7/_static/image7.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image5.jpg)
 4. On the next page of the wizard: 
 
     - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned."
@@ -80,7 +80,7 @@ In this first step, we create a new FTP site using a unique virtual host name.
     - Enter "www.example.com" in the Virtual Host box.
     - Make sure that the **SSL** **Certificate** drop-down is set to "Not Selected" and that either the **No SSL** or **Allow SSL** option is selected.
     - Click **Next**.  
-[![](using-ftp-virtual-host-names-in-iis-7/_static/image13.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image11.jpg)
+   [![](using-ftp-virtual-host-names-in-iis-7/_static/image13.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image11.jpg)
 5. On the next page of the wizard: 
 
     - In **Authentication** settings, select **Basic**.
@@ -90,7 +90,7 @@ In this first step, we create a new FTP site using a unique virtual host name.
         - Type the user name for a local user in the field below; for example, you could type "MyUser".
         - In the **Permissions** option, select **read** and **Write**.
     - Click **Finish**.  
-[![](using-ftp-virtual-host-names-in-iis-7/_static/image17.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image15.jpg)
+   [![](using-ftp-virtual-host-names-in-iis-7/_static/image17.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image15.jpg)
 
 #### Summary
 
@@ -106,15 +106,15 @@ In this second step, we create another new FTP site using a unique virtual host 
 
 1. Open the Internet Information Services (IIS) Manager. In the **Connections** pane, click the **Sites** node in the tree.
 2. Right-click the **Sites** node in the tree and click **Add FTP Site**, or click **Add FTP Site** in the **Actions** pane.  
-[![](using-ftp-virtual-host-names-in-iis-7/_static/image21.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image19.jpg)
+   [![](using-ftp-virtual-host-names-in-iis-7/_static/image21.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image19.jpg)
 3. When the **Add FTP Site** wizard appears: 
 
-    - Enter "www.contoso.com" in the **FTP site name** box.
-    - Navigate to the `%SystemDrive%\inetpub\www.contoso.com` folder that you created in the Prerequisites section.
-	    > [!NOTE]
-        > If you choose to type in the path to your content folder, you can use environment variables in your paths.
-    - Click **Next**.  
-        [![](using-ftp-virtual-host-names-in-iis-7/_static/image25.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image23.jpg)
+   - Enter "www.contoso.com" in the **FTP site name** box.
+   - Navigate to the `%SystemDrive%\inetpub\www.contoso.com` folder that you created in the Prerequisites section.
+       > [!NOTE]
+       > If you choose to type in the path to your content folder, you can use environment variables in your paths.
+   - Click **Next**.  
+       [![](using-ftp-virtual-host-names-in-iis-7/_static/image25.jpg)](using-ftp-virtual-host-names-in-iis-7/_static/image23.jpg)
 4. On the next page of the wizard: 
 
     - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned."
@@ -154,9 +154,10 @@ In Steps 1 and 2, you created two FTP sites using unique virtual host names and 
 1. On your FTP server, open a command prompt session.
 2. Type the following command to connect to your FTP server; for example, you could type the following: 
 
-    - FTP www.example.com
+   - FTP www.example.com
+
 3. When prompted for a user name, enter the "www.example.com" virtual host name followed by the vertical line (|) character.  
- For example: "www.example.com|MyUser"
+   For example: "www.example.com|MyUser"
 4. When prompted for a password, enter your local user account password.
 5. You should now be logged in to the "www.example.com" FTP site as the local user account.
 
@@ -165,9 +166,10 @@ In Steps 1 and 2, you created two FTP sites using unique virtual host names and 
 1. On your FTP server, open a command prompt session.
 2. Type the following command to connect to your FTP server; for example, you could type the following: 
 
-    - FTP www.contoso.com
+   - FTP www.contoso.com
+
 3. When prompted for a user name, enter the "www.contoso.com" virtual host name followed by the vertical line (|) character.  
- For example: "www.contoso.com|MyUser"
+   For example: "www.contoso.com|MyUser"
 4. When prompted for a password, enter your local user account password.
 5. You should now be logged in to the "www.contoso.com" FTP site as the local user account.
 
@@ -205,7 +207,7 @@ The following steps walk you through all of the required settings to create a ne
 
     [!code-xml[Main](using-ftp-virtual-host-names-in-iis-7/samples/sample2.xml)]
 4. Scroll to the bottom of your applicationHost.config file and add location sections for both of your FTP sites that contain your authorization settings.> [!NOTE]
-> As shown in this example, the authorization settings for the FTP sites are configured per URL, and these settings specifically enable Read/Write permissions for the local user account. 
+   > As shown in this example, the authorization settings for the FTP sites are configured per URL, and these settings specifically enable Read/Write permissions for the local user account. 
 
     [!code-xml[Main](using-ftp-virtual-host-names-in-iis-7/samples/sample3.xml)]
 5. Save your applicationHost.config file.

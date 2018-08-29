@@ -44,6 +44,7 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "IIS"
+    "dest": "IIS",
+    "markdownEngineName": "markdig"
   }
 }

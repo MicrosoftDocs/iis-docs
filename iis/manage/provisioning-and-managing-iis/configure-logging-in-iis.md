@@ -46,7 +46,7 @@ You can perform this procedure by using the user interface (UI), or by editing c
     - **W3C**: to use the centralized W3C log file format to log information about all sites on the server. This format is handled by HTTP.sys, and is a *customizable* ASCII text-based format, which means that you specify the fields that are logged. Specify the fields that are logged on the **W3C Logging Fields** dialog box by clicking **Select Fields** on the **Logging** page. Fields are separated by spaces, and time is recorded in Coordinated Universal Time (UTC). For more information about the W3C log file format, see [W3C Extended Log File Format (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=103790).
     - **Custom**: to use a custom format for a custom logging module. When you select this option, the **Logging** page becomes disabled, because custom logging cannot be configured in IIS Manager. For more information about how to use custom log file formats, see [Custom Logging Modules (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=103789).
 5. Under **Directory**, specify the path where the log file should be stored. The default is `%SystemDrive%\inetpub\logs\LogFiles`. > [!NOTE]
-> As a best practice, store log files, such as failed request trace logs, in a directory other than `%systemroot%`.
+   > As a best practice, store log files, such as failed request trace logs, in a directory other than `%systemroot%`.
 6. In the **Log File Rollover** section, select one of the following options:
 
     - **Schedule**: to create new log file that is based on one of the following values:
@@ -58,7 +58,7 @@ You can perform this procedure by using the user interface (UI), or by editing c
     - **Maximum file size (in bytes)**: to create a log file when the file reaches a certain size (in bytes).The minimum file size is 1048576 bytes. If this attribute is set to a value less than 1048576 bytes, the default value is implicitly assumed as 1048576 bytes.
     - **Do not create a new log file**: there is a single log file that continues to grow as information is logged.
 7. Select **Use local time for file naming and rollover** to specify that log file naming and time for log file rollover uses the local server time. When this option is not selected, Coordinated Universal Time (UTC) is used. > [!NOTE]
-> Regardless of this setting, timestamps in the actual log file will use the time format for the log format that you select from the Format list. For example, NCSA and W3C log file formats use UTC time format for timestamps.
+   > Regardless of this setting, timestamps in the actual log file will use the time format for the log format that you select from the Format list. For example, NCSA and W3C log file formats use UTC time format for timestamps.
 8. Click **Apply** in the **Actions** pane.
 
 <a id="02"></a>
@@ -78,7 +78,7 @@ You can perform this procedure by using the user interface (UI), or by editing c
     - **W3C**: to use the centralized W3C log file format to log information about all sites on the server. This format is handled by HTTP.sys, and is a *customizable* ASCII text-based format, which means that you specify the fields that are logged. Specify the fields that are logged on the **W3C Logging Fields** dialog box by clicking **Select Fields** on the **Logging** page. Fields are separated by spaces, and time is recorded in Coordinated Universal Time (UTC). For more information about the W3C log file format, see [W3C Extended Log File Format (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=103790).
     - **Custom**: to use a custom format for a custom logging module. When you select this option, the **Logging** page becomes disabled, because custom logging cannot be configured in IIS Manager. For more information about how to use custom log file formats, see [Custom Logging Modules (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=103789).
 5. Under **Directory**, specify the path where the log file should be stored. The default is `%SystemDrive%\inetpub\logs\LogFiles`. > [!NOTE]
-> As a best practice, store log files, such as failed request trace logs, in a directory other than `%systemroot%`.
+   > As a best practice, store log files, such as failed request trace logs, in a directory other than `%systemroot%`.
 6. In the **Log File Rollover** section, select one of the following options:
 
     - **Schedule**: to create new log file that is based on one of the following values:
@@ -90,7 +90,7 @@ You can perform this procedure by using the user interface (UI), or by editing c
     - **Maximum file size (in bytes)**: to create a log file when the file reaches a certain size (in bytes).The minimum file size is 1048576 bytes. If this attribute is set to a value less than 1048576 bytes, the default value is implicitly assumed as 1048576 bytes.
     - **Do not create a new log file**: there is a single log file that continues to grow as information is logged.
 7. Select **Use local time for file naming and rollover** to specify that log file naming and time for log file rollover uses the local server time. When this option is not selected, Coordinated Universal Time (UTC) is used. > [!NOTE]
-> Regardless of this setting, timestamps in the actual log file will use the time format for the log format that you select from the Format list. For example, NCSA and W3C log file formats use UTC time format for timestamps.
+   > Regardless of this setting, timestamps in the actual log file will use the time format for the log format that you select from the Format list. For example, NCSA and W3C log file formats use UTC time format for timestamps.
 8. Click **Apply** in the **Actions** pane.
 
 <a id="03"></a>
@@ -110,7 +110,7 @@ You can perform this procedure by using the user interface (UI), or by editing c
     - **W3C**: to use the centralized W3C log file format to log information about all sites on the server. This format is handled by HTTP.sys, and is a *customizable* ASCII text-based format, which means that you specify the fields that are logged. Specify the fields that are logged on the **W3C Logging Fields** dialog box by clicking **Select Fields** on the **Logging** page. Fields are separated by spaces, and time is recorded in Coordinated Universal Time (UTC). For more information about the W3C log file format, see [W3C Extended Log File Format (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=103790).
     - **Custom**: to use a custom format for a custom logging module. When you select this option, the **Logging** page becomes disabled, because custom logging cannot be configured in IIS Manager. For more information about how to use custom log file formats, see [Custom Logging Modules (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=103789).
 5. Under **Directory**, specify the path where the log file should be stored. The default is `%SystemDrive%\inetpub\logs\LogFiles`. > [!NOTE]
-> As a best practice, store log files, such as failed request trace logs, in a directory other than `%systemroot%`.
+   > As a best practice, store log files, such as failed request trace logs, in a directory other than `%systemroot%`.
 6. In the **Log File Rollover** section, select one of the following options:
 
     - **Schedule**: to create new log file that is based on one of the following values:
@@ -122,7 +122,7 @@ You can perform this procedure by using the user interface (UI), or by editing c
     - **Maximum file size (in bytes)**: to create a log file when the file reaches a certain size (in bytes).The minimum file size is 1048576 bytes. If this attribute is set to a value less than 1048576 bytes, the default value is implicitly assumed as 1048576 bytes.
     - **Do not create a new log file**: there is a single log file that continues to grow as information is logged.
 7. Select **Use local time for file naming and rollover** to specify that log file naming and time for log file rollover uses the local server time. When this option is not selected, Coordinated Universal Time (UTC) is used. > [!NOTE]
-> Regardless of this setting, timestamps in the actual log file will use the time format for the log format that you select from the Format list. For example, NCSA and W3C log file formats use UTC time format for timestamps.
+   > Regardless of this setting, timestamps in the actual log file will use the time format for the log format that you select from the Format list. For example, NCSA and W3C log file formats use UTC time format for timestamps.
 8. Click **Apply** in the **Actions** pane.
 
 <a id="04"></a>
@@ -179,7 +179,7 @@ You can perform this procedure by using the user interface (UI), or by editing c
     - **Maximum file size (in bytes)**: to create a log file when the file reaches a certain size (in bytes).The minimum file size is 1048576 bytes. If this attribute is set to a value less than 1048576 bytes, the default value is implicitly assumed as 1048576 bytes.
     - **Do not create a new log file**: This option means that there is a single log file that continues to grow as information is logged. If you use a single log file for your site, it is helpful when you use log parsing utilities, but it also creates larger log files that could affect the overall performance of the server.
 3. Select **Use local time for file naming and rollover** to specify that log file naming and time for log file rollover uses the local server time. When this option is not selected, Coordinated Universal Time (UTC) is used. > [!NOTE]
-> Regardless of this setting, timestamps in the actual log file will use the time format for the log format that you select from the Format list. For example, NCSA and W3C log file formats use UTC time format for timestamps.
+   > Regardless of this setting, timestamps in the actual log file will use the time format for the log format that you select from the Format list. For example, NCSA and W3C log file formats use UTC time format for timestamps.
 4. Click **Apply** in the **Actions** pane.
 
 ## See Also

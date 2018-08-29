@@ -77,7 +77,7 @@ HTTP Redirection is not available on the default installation of IIS 7 and later
 3. Expand **Internet Information Services**, then **World Wide Web Services**, then **Common Http Features**.
 4. Select **HTTP Redirection**, and then click **OK**.  
     [![](index/_static/image8.png)](index/_static/image7.png)
- 
+
 <a id="004"></a>
 ## How To
 
@@ -108,22 +108,23 @@ There is no user interface for adding wildcard HTTP redirects for IIS 7. For exa
     [![](index/_static/image12.png)](index/_static/image11.png)
 5. You can optionally specify any of the following options: 
 
-    - Configure the redirection destination to be the exact destination as entered.
-    - Configure the redirection destination to be limited to the destination URL's root folder, not subfolders.
-    - Configure the HTTP status code, which can be one of these three options: 
+   - Configure the redirection destination to be the exact destination as entered.
+   - Configure the redirection destination to be limited to the destination URL's root folder, not subfolders.
+   - Configure the HTTP status code, which can be one of these three options: 
 
-        - **301 Permanent**
-        - **302 Found**
-        - **307 Temporary**
-        - **308 Permanent Redirect**
+     - **301 Permanent**
+     - **302 Found**
+     - **307 Temporary**
+     - **308 Permanent Redirect**
 
-        > [!NOTE]
-        > IIS 7 will respectively return the following actual HTTP response statuses for each of the above options: 
+       > [!NOTE]
+       > IIS 7 will respectively return the following actual HTTP response statuses for each of the above options: 
 
-        - **HTTP/1.1 301 Moved Permanently**
-        - **HTTP/1.1 302 Redirect**
-        - **HTTP/1.1 307 Redirect**
-        - **HTTP 1.1 308 Redirected Permanently**
+     - **HTTP/1.1 301 Moved Permanently**
+     - **HTTP/1.1 302 Redirect**
+     - **HTTP/1.1 307 Redirect**
+     - **HTTP 1.1 308 Redirected Permanently**
+
 6. When you have finished all the above changes, click **Apply** in the **Tasks** pane.
 
 <a id="005"></a>
@@ -167,7 +168,7 @@ The following configuration sample adds a wildcard redirection entry that redire
 <a id="006"></a>
 ## Sample Code
 
-The following code samples configure the Default Web Site to redirect all requests to "http://www.contoso.com" using an HTTP 302 status code.
+The following code samples configure the Default Web Site to redirect all requests to "<http://www.contoso.com>" using an HTTP 302 status code.
 
 ### AppCmd.exe
 

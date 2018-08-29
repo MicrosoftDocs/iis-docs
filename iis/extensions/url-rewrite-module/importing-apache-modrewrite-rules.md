@@ -30,13 +30,13 @@ To see how you can convert mod\_rewrite rules and verify that the converted rule
     [![](importing-apache-modrewrite-rules/_static/image2.jpg)](importing-apache-modrewrite-rules/_static/image1.jpg)
 
     *Figure 1: Add a new binding*
-- Using Notepad, open `%SystemDrive%\windows\system32\drivers\etc\hosts` and add the two following lines at the end of the file:  
+3. Using Notepad, open `%SystemDrive%\windows\system32\drivers\etc\hosts` and add the two following lines at the end of the file:  
 
-    [!code-console[Main](importing-apache-modrewrite-rules/samples/sample1.cmd)]
+     [!code-console[Main](importing-apache-modrewrite-rules/samples/sample1.cmd)]
 
-    Notice that you are using "\_" instead of "." for domain separators. This is to prevent the Web browser from trying to resolve the domain name by using a Domain Name System (DNS) server.
-- Save the hosts file.
-- Verify that the host names were setup correctly by opening a Web browser and going to the sites http://www\_mysite\_com/iisstart.htm and to http://mysite\_com/iisstart.htm.
+     Notice that you are using "\_" instead of "." for domain separators. This is to prevent the Web browser from trying to resolve the domain name by using a Domain Name System (DNS) server.
+4. Save the hosts file.
+5. Verify that the host names were setup correctly by opening a Web browser and going to the sites http://www\_mysite\_com/iisstart.htm and to http://mysite\_com/iisstart.htm.
 
 ## Convert mod\_rewrite Rules
 

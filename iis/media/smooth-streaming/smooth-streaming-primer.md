@@ -142,12 +142,12 @@ Encoders can be configured for failover and redundancy by deploying them in the 
 
 - **1+1 (Highest Availability)** – Deploy encoders in a 1+1 configuration for mission-critical live streaming. This requires that two encoders publish the same set of streams to publishing points on two ingest servers. Each encoder can send streams to both ingest servers for maximum failover. It's required that both encoders be timecode "ganged" using a common source clock, such as embedded SMPTE timecode (VITC) on the source signal. By using similar clocks, the Smooth Streaming servers will disregard "redundant" fragments that they receive that have similar timestamps.  
   
- If enough bandwidth between the encoders and the ingest servers is available, the backup encoders can behave as hot backups, meaning that they can encode and push to the same publishing points simultaneously. Then in the encoder-failover case, because a hot backup exists, the live stream can continue without interruption.
+  If enough bandwidth between the encoders and the ingest servers is available, the backup encoders can behave as hot backups, meaning that they can encode and push to the same publishing points simultaneously. Then in the encoder-failover case, because a hot backup exists, the live stream can continue without interruption.
 - **N+M (Economic Availability)** – In this configuration, multiple encoders (N) are streaming live channels with a small number of encoders configured as passive backups (M). A software monitoring and management layer is provided by the encoder manufacturer that watches for failed encoders. After detecting a failed encoder, the management software can "wake up" a passive encoder, copy the failed encoder's profile and configuration settings, re-route any SDI signals, and begin encoding again to the Smooth Streaming server. A critical component of this failover is that the server will enter into an idle state when it stops receiving fragments. The server will wait for the next "future" timestamp fragment to arrive and then continue.  
   
- From the client's perspective, there is a brief pause during which the latest live fragments for the broken streams/bitrates aren't available. "Live" players that are on those bitrates will try to switch to other bitrates while players on other bitrates won't be affected.  
+  From the client's perspective, there is a brief pause during which the latest live fragments for the broken streams/bitrates aren't available. "Live" players that are on those bitrates will try to switch to other bitrates while players on other bitrates won't be affected.  
   
- Players in DVR mode also won't be affected because all servers can still serve archived content, even when the live streams are offline.
+  Players in DVR mode also won't be affected because all servers can still serve archived content, even when the live streams are offline.
 
 <a id="ingest"></a>
 

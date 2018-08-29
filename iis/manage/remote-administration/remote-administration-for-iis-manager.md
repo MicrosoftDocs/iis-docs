@@ -28,8 +28,8 @@ These are the steps for enabling remote administration of your IIS server.
 2. Enable remote connections.
 3. Optionally set other configuration, e.g.:   
   
- a. HTTPS binding (port, IP address, and/or SSL certificate)   
- b. IP and domain restrictions.
+   a. HTTPS binding (port, IP address, and/or SSL certificate)   
+   b. IP and domain restrictions.
 
 4. Start WMSVC, and optionally change the service Startup Type from Manual to Automatic.
 

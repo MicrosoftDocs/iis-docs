@@ -67,7 +67,7 @@ Keep these guidelines in mind when dealing with Media Format rules.
 2. **There can be multiple rules for a particular format**– A particular media format can have multiple rules. This is necessary, as some formats may store separate bit rate information for audio and video. This is also useful for Multiple Bit Rate (MBR) content.
 3. **Multiple rules add up** – When there are multiple rules for a particular media format, the computed bit rate is based on the sum of all the individual rules.
 4. **Bit Rate rules override Duration rules** – When you specify both Bit Rate and Duration rules for a particular format, Bit Rate rules apply and Duration rules are ignored.
-5. **Do not play with rules unless you know what you are doing***–* This is very important to note. These rules are very useful and provide great benefits. At the same time, these rules impact all files with a particular file name extension. Thus, it is very important that you understand the possible impact when you create custom media format rules. As a best practice, create a backup copy of the IIS ApplicationHost.config file before you begin creating or editing Media Format rules.
+5. **Do not play with rules unless you know what you are doing**<em>–</em> This is very important to note. These rules are very useful and provide great benefits. At the same time, these rules impact all files with a particular file name extension. Thus, it is very important that you understand the possible impact when you create custom media format rules. As a best practice, create a backup copy of the IIS ApplicationHost.config file before you begin creating or editing Media Format rules.
 
 
 ### Bit Rate Rules

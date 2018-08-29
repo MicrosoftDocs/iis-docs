@@ -160,12 +160,12 @@ In this first step, we add WebDAV publishing to the Default Web site, and add th
     [![](installing-and-configuring-webdav-on-iis/_static/image27.jpg)](installing-and-configuring-webdav-on-iis/_static/image25.jpg)
 5. When the **Add Authoring Rule** dialog appears: 
 
-    1. Click **All content** to specify that the rule applies to all content types.
-    2. Choose **Specified users** and type &quot;administrator&quot; for the user name.
-    3. Select **Read**, **Source**, and **Write** for the permissions.
-    4. When you have completed these items, click **OK**.
+   1. Click **All content** to specify that the rule applies to all content types.
+   2. Choose **Specified users** and type &quot;administrator&quot; for the user name.
+   3. Select **Read**, **Source**, and **Write** for the permissions.
+   4. When you have completed these items, click **OK**.
 
-    [![](installing-and-configuring-webdav-on-iis/_static/image31.jpg)](installing-and-configuring-webdav-on-iis/_static/image29.jpg)
+      [![](installing-and-configuring-webdav-on-iis/_static/image31.jpg)](installing-and-configuring-webdav-on-iis/_static/image29.jpg)
 
 **Summary for enabling WebDAV authoring and adding an authoring rule**
 
@@ -205,7 +205,7 @@ Logging into your WebDAV site requires the WebDAV Redirector. The WebDAV Redirec
 1. On your WebDAV server, open a command prompt session.
 2. Type the following command to connect to your WebDAV server:  
   
- net use \* http://localhost/
+   net use \* http://localhost/
 
 You now have a drive mapped to your WebDAV-enabled web site using the local administrator account, and based on the authorization rule that we added in Step 1, you have Read, Write, and Source access to the content folder.
 

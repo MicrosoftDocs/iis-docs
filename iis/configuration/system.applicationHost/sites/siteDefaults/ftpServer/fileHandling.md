@@ -33,7 +33,7 @@ The `<fileHandling>` element is used to specify the way that the FTP service han
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
 
@@ -102,9 +102,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 1. Download the installation package from the following URL: 
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-- Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service: 
 
-    - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
+     - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
 
 <a id="004"></a>
 ## How To
@@ -132,11 +132,11 @@ To support FTP publishing for your Web server, you must install the FTP service.
     [![](fileHandling/_static/image10.png)](fileHandling/_static/image9.png)
 4. In the **FTP Site Defaults** dialog box, expand **File Handling**, and specify the following options: 
 
-    - Specify **True** for **Allow Reading Files While Uploading** if the FTP service should allow read access to files that are currently being uploaded; otherwise, specify **False**.
-    - Specify **True** for **Allow Replace on Rename** if the FTP service should allow files that are being renamed to overwrite existing files; otherwise, specify **False**.
-    - Specify **True** for **Keep Partial Uploads** if the FTP service should keep files that have been partially uploaded; otherwise, specify **False**. (> [!NOTE]
-> Keeping partially-uploaded files allows FTP clients to reconnect and resume uploading.)  
-        [![](fileHandling/_static/image12.png)](fileHandling/_static/image11.png)
+   - Specify **True** for **Allow Reading Files While Uploading** if the FTP service should allow read access to files that are currently being uploaded; otherwise, specify **False**.
+   - Specify **True** for **Allow Replace on Rename** if the FTP service should allow files that are being renamed to overwrite existing files; otherwise, specify **False**.
+   - Specify **True** for **Keep Partial Uploads** if the FTP service should keep files that have been partially uploaded; otherwise, specify **False**. (> [!NOTE]
+     > Keeping partially-uploaded files allows FTP clients to reconnect and resume uploading.)  
+       [![](fileHandling/_static/image12.png)](fileHandling/_static/image11.png)
 5. Click **OK**.
 
 <a id="005"></a>

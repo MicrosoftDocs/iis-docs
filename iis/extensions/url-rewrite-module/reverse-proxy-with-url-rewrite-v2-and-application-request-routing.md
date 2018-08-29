@@ -182,15 +182,15 @@ Because the rule that you are creating should be applied only on HTML responses,
 1. In the Pre-conditions list, select "&lt;Create New Pre-condition...&gt;".
 2. This will bring you to the Pre-condition editor dialog, where you will need to define the precondition. Specify the precondition settings as follows: 
 
-    - Name: "IsHTML"
-    - Using: "**Regular Expressions**"
-    - Click "Add" to bring up the "Add condition" dialog. In this dialog specify: 
+   - Name: "IsHTML"
+   - Using: "**Regular Expressions**"
+   - Click "Add" to bring up the "Add condition" dialog. In this dialog specify: 
 
-        - Condition input: "**{RESPONSE\_CONTENT\_TYPE}**"
-        - Check if input string: "**Matches the pattern**"
-        - Pattern: "**^text/html**"
+     - Condition input: "**{RESPONSE\_CONTENT\_TYPE}**"
+     - Check if input string: "**Matches the pattern**"
+     - Pattern: "**^text/html**"
   
-        [![](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/_static/image24.png)](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/_static/image23.png)
+       [![](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/_static/image24.png)](reverse-proxy-with-url-rewrite-v2-and-application-request-routing/_static/image23.png)
 3. Click OK to save the precondition and to return to the "Edit Rule" page.
 
 ### Defining a matching scope
@@ -229,7 +229,7 @@ You need to change the links in the response HTML only if response is from the w
 2. Click "Add…" button to bring up the dialog box for defining conditions.
 3. For "Condition input:" enter this string: "**{URL}"**. This configures URL rewrite module to use the URL path that was requested by web client.
 4. In the drop down combo box select "**Matches the pattern**".
-5. In the "Pattern" textbox enter "**^/(webmail|payroll)/.\***". This regular expression will be used to match the URL paths that start with either /webmail or /payrol. Also the parenthesis within the pattern will capture the part of the matched URL string, so that we can re-use when constructing the replacement URL.
+5. In the "Pattern" textbox enter "**^/(webmail|payroll)/.\\***". This regular expression will be used to match the URL paths that start with either /webmail or /payrol. Also the parenthesis within the pattern will capture the part of the matched URL string, so that we can re-use when constructing the replacement URL.
 6. Click OK to save the condition and return to the "Add Rule" UI.
 
 ### Defining an action

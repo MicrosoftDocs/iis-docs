@@ -42,13 +42,13 @@ As of the writing of this article a new version of Web Platform Installer is bei
 
 1. 
 
-## Step 2: Verify the existence of the Graffiti CMS Site and corresponding Database:
+   ## Step 2: Verify the existence of the Graffiti CMS Site and corresponding Database:
 
-1. Run IISMgr and view the Sites folder in the left-hand panel.  
+2. Run IISMgr and view the Sites folder in the left-hand panel.  
     [![](verifying-the-developer-experience-aspnet/_static/image7.jpg)](verifying-the-developer-experience-aspnet/_static/image5.jpg)
-2. Run SQL Management Studio and view the Graffiti DB in the database tables:  
+3. Run SQL Management Studio and view the Graffiti DB in the database tables:  
     [![](verifying-the-developer-experience-aspnet/_static/image11.jpg)](verifying-the-developer-experience-aspnet/_static/image9.jpg)
-3. Use IE to browse to the site:  
+4. Use IE to browse to the site:  
     [![](verifying-the-developer-experience-aspnet/_static/image15.jpg)](verifying-the-developer-experience-aspnet/_static/image13.jpg)
 
 ## Step 3: Configure Graffiti to use the SQL Server Database already created.

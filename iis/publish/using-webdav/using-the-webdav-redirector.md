@@ -95,8 +95,8 @@ To map a drive from a command prompt, use the following steps:
 - When the command prompt opens, type the following command:  
 
     [!code-console[Main](using-the-webdav-redirector/samples/sample1.cmd)]
-  
- Where     *www.example.com* is the URL for your server.
+
+  Where     <em>www.example.com</em> is the URL for your server.
 - Once completed, you should have the next available drive letter mapped to your web site.
 
 The following image shows what this might look like:
@@ -114,8 +114,8 @@ The following list of error conditions is designed to help troubleshoot situatio
 1. When attempting to map a drive to a WebDAV site, you receive the following error: 
 
     **System error 67 has occurred.  
-  
- The network name cannot be found.**
+
+   The network name cannot be found.**
 
     This can be caused by one of the following conditions:
 
@@ -128,15 +128,15 @@ The following list of error conditions is designed to help troubleshoot situatio
 2. When attempting to map a drive to a WebDAV site, you receive the following error: 
 
     **System error 1920 has occurred.  
-  
- The file cannot be accessed by the system.**
+
+   The file cannot be accessed by the system.**
 
     This error occurs when the account that you are using does not have an authoring rule created for it.
 3. When attempting to map a drive to a WebDAV site, you receive the following error: 
 
     **System error 5 has occurred.  
-  
- Access is denied.**
+
+   Access is denied.**
 
     This can be caused by one of the following conditions:
 
@@ -148,12 +148,12 @@ The following list of error conditions is designed to help troubleshoot situatio
 
     [![](using-the-webdav-redirector/_static/image2.gif)](using-the-webdav-redirector/_static/image1.gif)
 
-    This occurs when the SSL certificate for the site that you are using does not match the name of the address that you used. For example, you are connecting to a site named *www.contoso.com*, but your SSL certificate was issued to *shopping.contoso.com*.
+    This occurs when the SSL certificate for the site that you are using does not match the name of the address that you used. For example, you are connecting to a site named <em>www.contoso.com</em>, but your SSL certificate was issued to *shopping.contoso.com*.
 5. When attempting to map a drive to a WebDAV site, you receive the following error: 
 
     **System Error 1244 has occurred.  
-  
- The operation being request was not performed because the user has not been authenticated.**
+
+   The operation being request was not performed because the user has not been authenticated.**
 
     This can be caused by one of the following conditions:
 
@@ -163,8 +163,8 @@ The following list of error conditions is designed to help troubleshoot situatio
 6. When attempting to map a drive to a WebDAV site, you receive the following error: 
 
     **System error 59 has occurred.  
-  
- An unexpected network error occurred.**
+
+   An unexpected network error occurred.**
 
     This can be caused by one of the following conditions:
 
@@ -173,22 +173,22 @@ The following list of error conditions is designed to help troubleshoot situatio
 7. When attempting to map a drive to a WebDAV site, you receive the following error: 
 
     **System error 1397 has occurred.  
-  
- Mutual Authentication failed. The server's password is out of date at the domain controller.**
+
+   Mutual Authentication failed. The server's password is out of date at the domain controller.**
 
     This error occurs when the WebDAV client is running into the problems that are described in [KB941298](https://support.microsoft.com/kb/941298).
 8. When attempting to map a drive to a WebDAV site, you receive the following error: 
 
     **System error 58 has occurred.  
-  
- The specified server cannot perform the requested operation.**
 
-    This error occurs when the WebDAV server does not have the correct host name in its bindings. For example, if you have DNS entries for *contoso.com* and *www.contoso.com*, but you only have an IIS binding for *contoso.com*, you will see the error when you attempt to map a drive to *www.contoso.com*.
+   The specified server cannot perform the requested operation.**
+
+    This error occurs when the WebDAV server does not have the correct host name in its bindings. For example, if you have DNS entries for *contoso.com* and <em>www.contoso.com</em>, but you only have an IIS binding for *contoso.com*, you will see the error when you attempt to map a drive to <em>www.contoso.com</em>.
 9. When attempting to map a drive to a WebDAV site, you receive the following error: 
 
     **System error 224 has occurred.  
-  
- Access Denied. Before opening files in this location, you must first add the web site to your trusted sites list, browse to the web site, and select the option to login automatically.**
+
+   Access Denied. Before opening files in this location, you must first add the web site to your trusted sites list, browse to the web site, and select the option to login automatically.**
 
     This error occurs when the WebDAV site is not trusted by the WebDAV redirector. To resolve this issue, you need to add the website's URL to the list of trsuted sites. To do so, use the following steps:
 
@@ -198,7 +198,7 @@ The following list of error conditions is designed to help troubleshoot situatio
     - Click the **Trusted sites** icon.
     - Click the **Sites** button.
     - Type your website's URL in the **Add this website to the zone** text box, and then click the **Add** button.  
- (Note: You may need to uncheck the **Require server verification (https:) for all sites in this zone** checkbox if your website uses an HTTP URL.)
+   (Note: You may need to uncheck the **Require server verification (https:) for all sites in this zone** checkbox if your website uses an HTTP URL.)
     - Click the **Close** button.
     - Click the **OK** button.
 
@@ -216,15 +216,17 @@ The following table details the various settings and values that are available.
 
 **WARNING**: If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that you can solve problems that result from using Registry Editor incorrectly. Use Registry Editor at your own risk.
 
-| Value &amp; Description | Type | Values | Default |
-| --- | --- | --- | --- |
-| **AcceptOfficeAndTahoeServers** Specifies whether the WebClient service can connect to web sites that are running SharePoint or Office Web Server. | DWORD | | 0 | = | False | | --- | --- | --- | | 1 | = | True | | 1 |
-| **AuthForwardServerList** Specifies a list of local URLs for forwarding credentials that bypasses any proxy settings. (Note: This requires Windows Vista SP1 or later.) | MULTI\_SZ | A carriage-return/line-feed separated list of URLs. | n/a |
-| **BasicAuthLevel** Specifies whether the WebClient service can use basic authentication to talk to a server. **Note:** Using basic authentication can cause *serious security issues* as the username/password are transmitted in clear text, therefore the use of basic authentication over WebDAV is disabled by default unless the connection is using SSL. That being said, this registry key can override the default basic authentication behavior, but it is still *strongly discouraged*. | DWORD | | 0 | = | Basic authentication is disabled | | --- | --- | --- | | 1 | = | Basic authentication is enabled for SSL web sites only | | 2 | = | Basic authentication is enabled for SSL and non-SSL web sites | | 1 |
-| **FileAttributesLimitInBytes** Specifies the maximum size that is allowed by the WebClient service for all properties on a specific collection. | DWORD | Size of attributes in bytes | 1,000,000 decimal (1 MB) |
-| **FileSizeLimitInBytes** Specifies the maximum size in bytes that the WebClient service allows for file transfers. | DWORD | File size in bytes | 50,000,000 decimal (50 MB) |
-| **InternetServerTimeoutInSec** Specifies the connection timeout for the WebClient service uses when communicating with non-local WebDAV servers. | DWORD | Time in seconds | 30 decimal |
-| **LocalServerTimeoutInSec** Specifies the connection timeout for the WebClient service uses when communicating with a local WebDAV server. | DWORD | Time in seconds | 15 decimal |
-| **SendReceiveTimeoutInSec** Specifies the timeout in seconds that WebDAV the WebClient service uses after issuing a request, such as "GET /file.ext" or "PUT /file.ext". | DWORD | Time in seconds | 60 decimal |
-| **ServerNotFoundCacheLifeTimeInSec** Specifies the period of time that a server is cached as non-WebDAV by the WebClient service. **Note:** The WebClient service maintains a list of non-WebDAV servers that have been contacted. If the server is found in this list, a fail is returned immediately without attempting to contact the server. | DWORD | Time in seconds | 60 decimal |
-| **SupportLocking** Specifies whether the WebClient service supports locking. | DWORD | | 0 | = | False | | --- | --- | --- | | 1 | = | True | | 1 |
+
+|                                                                                                                                                                                                                                      Value &amp; Description                                                                                                                                                                                                                                      |   Type    |                       Values                        |          Default           |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-----------------------------------------------------|----------------------------|
+|                                                                                                                                                                        **AcceptOfficeAndTahoeServers** Specifies whether the WebClient service can connect to web sites that are running SharePoint or Office Web Server.                                                                                                                                                                         |   DWORD   |                                                     |             0              |
+|                                                                                                                                                              **AuthForwardServerList** Specifies a list of local URLs for forwarding credentials that bypasses any proxy settings. (Note: This requires Windows Vista SP1 or later.)                                                                                                                                                              | MULTI\_SZ | A carriage-return/line-feed separated list of URLs. |            n/a             |
+| **BasicAuthLevel** Specifies whether the WebClient service can use basic authentication to talk to a server. **Note:** Using basic authentication can cause *serious security issues* as the username/password are transmitted in clear text, therefore the use of basic authentication over WebDAV is disabled by default unless the connection is using SSL. That being said, this registry key can override the default basic authentication behavior, but it is still *strongly discouraged*. |   DWORD   |                                                     |             0              |
+|                                                                                                                                                                          **FileAttributesLimitInBytes** Specifies the maximum size that is allowed by the WebClient service for all properties on a specific collection.                                                                                                                                                                          |   DWORD   |             Size of attributes in bytes             |  1,000,000 decimal (1 MB)  |
+|                                                                                                                                                                                        **FileSizeLimitInBytes** Specifies the maximum size in bytes that the WebClient service allows for file transfers.                                                                                                                                                                                         |   DWORD   |                 File size in bytes                  | 50,000,000 decimal (50 MB) |
+|                                                                                                                                                                         **InternetServerTimeoutInSec** Specifies the connection timeout for the WebClient service uses when communicating with non-local WebDAV servers.                                                                                                                                                                          |   DWORD   |                   Time in seconds                   |         30 decimal         |
+|                                                                                                                                                                            **LocalServerTimeoutInSec** Specifies the connection timeout for the WebClient service uses when communicating with a local WebDAV server.                                                                                                                                                                             |   DWORD   |                   Time in seconds                   |         15 decimal         |
+|                                                                                                                                                             **SendReceiveTimeoutInSec** Specifies the timeout in seconds that WebDAV the WebClient service uses after issuing a request, such as "GET /file.ext" or "PUT /file.ext".                                                                                                                                                              |   DWORD   |                   Time in seconds                   |         60 decimal         |
+|                                                                         **ServerNotFoundCacheLifeTimeInSec** Specifies the period of time that a server is cached as non-WebDAV by the WebClient service. **Note:** The WebClient service maintains a list of non-WebDAV servers that have been contacted. If the server is found in this list, a fail is returned immediately without attempting to contact the server.                                                                          |   DWORD   |                   Time in seconds                   |         60 decimal         |
+|                                                                                                                                                                                                           **SupportLocking** Specifies whether the WebClient service supports locking.                                                                                                                                                                                                            |   DWORD   |                                                     |             0              |
+

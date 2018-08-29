@@ -52,7 +52,7 @@ For this walkthrough you will need to add a redirection logic to the webmail app
 
     [!code-xml[Main](modifying-http-response-headers/samples/sample2.xml)]
 
- This is a rule that will redirect all requests for index.aspx to default.aspx.
+   This is a rule that will redirect all requests for index.aspx to default.aspx.
 
 Now open a web browser and make a request `http://localhost/webmail/index.aspx`. You will see that the browser got redirected to `http://localhost:8081/default.aspx`, which is basically an internal URL used by the webmail web application. Now you will configure the URL Rewrite rules to modify the HTTP Location header in the HTTP redirection responses so that the browser is redirected to a proper URL: `http://localhost/webmail/default.aspx`.
 
@@ -82,7 +82,7 @@ Now you will create an outbound rewrite rule that will rewrite the HTTP Location
 7. In the "**Match**" group box use the "**Matching scope**" drop down list to select "**Server Variable**".
 8. Enter "**RESPONSE\_Location**" for the "**Variable name**" and "**^http://[^/]+/(.\*)**" for the "**Pattern**". This will configure the rule to operate on the response HTTP header "Location" and match its value against a regex pattern that will store the URL path into a back-reference.
 9. Expand the "**Conditions**" group box, click "**Add...**" and enter **{ORIGINAL\_URL}** as a condition input and "**.+**" as a condition pattern. This condition checks if the temporary server variable ORIGINAL\_URL exists and has a non-empty value.
-10. Click "**Add...**" one more time and add another condition. Set the condition input to **{URL}** and the pattern to "**^/(webmail|payroll)/.\***". This regular expression will be used to match the URL paths that start with either /webmail or /payrol. Also the parenthesis within the pattern will capture the part of the matched URL string, so that it can be re-used when constructing the replacement URL.
+10. Click "**Add...**" one more time and add another condition. Set the condition input to **{URL}** and the pattern to "**^/(webmail|payroll)/.\\***". This regular expression will be used to match the URL paths that start with either /webmail or /payrol. Also the parenthesis within the pattern will capture the part of the matched URL string, so that it can be re-used when constructing the replacement URL.
 11. Finally, in the "**Action**" group box choose the "**Rewrite**" action and enter "`http://{ORIGINAL_URL}/{C:1}/{R:1}`" as a value. This action will replace the value of the HTTP Location header with a string constructed by using the host name from the server variable, the condition back-reference that contains the URL path folder prefix and the rule back-reference that contains the current URL path in the Location header.
 
 The complete page will look as below:

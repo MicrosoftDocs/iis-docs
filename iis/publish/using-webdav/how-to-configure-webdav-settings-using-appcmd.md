@@ -238,10 +238,11 @@ Authoring rules are kept in a collection, and each rule can contain the followin
 - The "roles" and "users" attributes should be declared exclusive to each other. That is to say, an authoring rule should be for either "users" or "roles", but not both.
 - The following special values for the "users" attribute are defined: 
 
-    | **Value** | **Description** |
-    | --- | --- |
-    | **\*** | All users |
-    | **?** | Anonymous users |
+
+  | **Value** | **Description** |
+  |-----------|-----------------|
+  | **\\**\*  |    All users    |
+  |   **?**   | Anonymous users |
 
     > [!NOTE]
     > Anonymous users cannot read/write content; this setting is used to restrict the file types for anonymous property queries.

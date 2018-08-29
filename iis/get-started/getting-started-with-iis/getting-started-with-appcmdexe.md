@@ -76,7 +76,7 @@ For example, the current set of objects available through AppCmd is (where `<OBJ
 
 Where `<ID>` is the object-specific identifier for the object instance you want to specify for the command. The format of the identifier is specific to each object type. For example, the Site object uses the site name, the App object uses the application path, and the AppPool object used the application pool name.
 
-Where **[ /parameter:value ]\*** is zero or more parameters for the command. Each command supports a different set of parameters, depending on the object. Typically, commands that search for objects or manipulate object properties will allow any of the object's properties to be specified as a parameter.
+Where **[ /parameter:value ]\\*** is zero or more parameters for the command. Each command supports a different set of parameters, depending on the object. Typically, commands that search for objects or manipulate object properties will allow any of the object's properties to be specified as a parameter.
 
 The tool itself also supports a number of parameters that affect the general command execution, and are not specific to any of the objects. These are listed in the top-level help page available from "AppCmd.exe /?", and include parameters such as **/text**, **/config**, and **/xml** for controlling tool output, and **/commit** for controlling the location of configuration changes.
 

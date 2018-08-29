@@ -34,16 +34,16 @@ Web Deploy's UI in IIS Manager contains a useful component for quickly configuri
 
     - Sets appropriate file system permissions on the site's root folder so Web Deploy publishing will work.
     - Generates a file containing Web Deploy publishing settings. This convenient file can be used in tools like WebMatrix and Visual Studio to publish to the site.  
- For now, you can just click "Setup" and copy the generated file to your development computer. If you are interested in customizing some of these options, here's an explanation of what each one of them does:  
+   For now, you can just click "Setup" and copy the generated file to your development computer. If you are interested in customizing some of these options, here's an explanation of what each one of them does:  
 
         | Select a user to give publishing permissions | If you have an IIS Manager that has IIS Manager Permissions to the site, it will be pre-populated here. Otherwise, select a Windows or IIS Manager. This is the user account the end user will publish with. |
         | --- | --- |
         | Enter a SQL Server / MySQL connection string to be used during publishing | If you enter database connection strings here, they will be saved to the publish settings file this dialog generates. Please note that databases need to be created outside of this UI. This UI will NOT create database artifacts such as users, logins etc. for you. Use a tool like SQL Server Management Studio or mysql.exe to provision databases for your users. |
         | Specify the URL for the publishing server connection | This is the Web Deploy Management Service publishing endpoint. This value should be pre-filled. |
-- Click Setup.
-- Copy the .publishSettings file from your Desktop folder and to a computer running WebMatrix
-- Start WebMatrix and create a new site
-- Click Publish and "Import web hosting settings" and select this fileYou should now be able to publish to this site.
+4. Click Setup.
+5. Copy the .publishSettings file from your Desktop folder and to a computer running WebMatrix
+6. Start WebMatrix and create a new site
+7. Click Publish and "Import web hosting settings" and select this fileYou should now be able to publish to this site.
 
 ### *Automating through PowerShell*
 

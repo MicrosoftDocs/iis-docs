@@ -50,12 +50,14 @@ Whether you are an IT professional, a web developer, or you want to set up your 
 
 The following table contains links to resources related to IIS 8.
 
-| Content Type | References |
-| --- | --- |
-| **Deployment** | [Deployment to a Hosting Provider](https://www.asp.net/web-forms/tutorials/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12) | [Web Deploy 2.0](https://www.iis.net/downloads/microsoft/web-deploy) |
-| **Operations** | [IIS.NET](https://www.iis.net/) | [IIS Learning Center](https://www.iis.net/learn) | [IIS Media Services](https://www.iis.net/media) | [What's New in IIS 8.0 for Windows 8?](https://www.iis.net/learn/get-started/whats-new-in-iis-8) |
-| **Troubleshooting** | [IIS Troubleshooters](https://www.iis.net/learn/troubleshoot) |
-| **Security** | [Secure Windows Server 2012](https://technet.microsoft.com/en-us/library/hh831360.aspx) | [Security and Protection Overview](https://technet.microsoft.com/en-us/library/hh831778.aspx) |
-| **Tools and Settings** | [Web Server (IIS) Administration Cmdlets in Windows PowerShell](https://technet.microsoft.com/en-us/library/hh867899.aspx) |
-| **Community Resources** | [IIS Blogs](https://blogs.iis.net/) | [IIS Forums](https://forums.iis.net/) | [Robert McMurray's Blog](https://blogs.msdn.com/b/robert_mcmurray/) | [Scott Forsyth's Blog](https://blogs.iis.net/owscott/default.aspx) | [Steve Schofield's Blog](https://blogs.iis.net/steveschofield/default.aspx) |
-| **Related Technologies** | [ASP.NET](https://www.asp.net/) | [ASP.NET Web Projects](https://msdn.microsoft.com/library/ywdtth2f.aspx) |
+
+|       Content Type       |                                                                             References                                                                             |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|      **Deployment**      | [Deployment to a Hosting Provider](https://www.asp.net/web-forms/tutorials/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12) |
+|      **Operations**      |                                                                  [IIS.NET](https://www.iis.net/)                                                                   |
+|   **Troubleshooting**    |                                                   [IIS Troubleshooters](https://www.iis.net/learn/troubleshoot)                                                    |
+|       **Security**       |                                      [Secure Windows Server 2012](https://technet.microsoft.com/en-us/library/hh831360.aspx)                                       |
+|  **Tools and Settings**  |                     [Web Server (IIS) Administration Cmdlets in Windows PowerShell](https://technet.microsoft.com/en-us/library/hh867899.aspx)                     |
+| **Community Resources**  |                                                                [IIS Blogs](https://blogs.iis.net/)                                                                 |
+| **Related Technologies** |                                                                  [ASP.NET](https://www.asp.net/)                                                                   |
+

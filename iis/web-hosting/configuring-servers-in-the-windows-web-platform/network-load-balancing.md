@@ -50,4 +50,4 @@ NLB does not monitor the health of your application. Instead, it allows the appl
 11. On the **Port Rules** page, click **Edit** to modify the default port rules if you need advanced rules. Otherwise, use the default.
 12. Click **Finish** to create the cluster.  
   
- To add more hosts to the cluster, right-click the new cluster, and then click **Add Host to Cluster**.
+    To add more hosts to the cluster, right-click the new cluster, and then click **Add Host to Cluster**.

@@ -99,10 +99,10 @@ After you enable failed-request tracing, you need to configure where the log fil
 	[![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image8.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image7.jpg)
 
 5. In the **Edit Web Site Failed Request Tracing Settings** dialog box, configure the following:
-	- Select the **Enable** check box.
-	- Keep the defaults for the other settings.
+   - Select the **Enable** check box.
+   - Keep the defaults for the other settings.
 
-	[![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image11.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image10.jpg)
+     [![](troubleshooting-failed-requests-using-tracing-in-iis/_static/image11.jpg)](troubleshooting-failed-requests-using-tracing-in-iis/_static/image10.jpg)
 
 6. Click **OK**.
 

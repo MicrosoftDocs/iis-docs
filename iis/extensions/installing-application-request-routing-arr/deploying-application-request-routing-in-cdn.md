@@ -132,32 +132,32 @@ In this walkthrough, the first example is used for demonstration. Similar rules 
 [!code-xml[Main](deploying-application-request-routing-in-cdn/samples/sample2.xml)]
 25. **Strongly recommended.** To block requests that do not match the host names defined in the above rewrite map, create a default URL rewrite rule that sends a 400 response to such requests. 
 
-    Launch IIS Manager.
-- Select and expand the root of the server. This is your child (edge) cache node.
+   Launch IIS Manager.
+26. Select and expand the root of the server. This is your child (edge) cache node.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image16.jpg)
-- Double-click **URL Rewrite**.
-- In the **Actions** pane, click **Add Rules...**. 
+     ![](deploying-application-request-routing-in-cdn/_static/image16.jpg)
+27. Double-click **URL Rewrite**.
+28. In the **Actions** pane, click **Add Rules...**. 
 
-    ![](deploying-application-request-routing-in-cdn/_static/image17.jpg)
-- In the **Add Rule(s)** dialog box, select **Blank rule**.
+     ![](deploying-application-request-routing-in-cdn/_static/image17.jpg)
+29. In the **Add Rule(s)** dialog box, select **Blank rule**.
 
-    ![](deploying-application-request-routing-in-cdn/_static/image18.jpg)
-- Enter the following values, and then save the rule:  
-    **Name:** Not my customer  
-    **Using:** Wildcards  
-    **Pattern:** \*  
-    **Action Type:** Custom Response  
-    **Status code:** 400  
-    **Sub status code:** 0
+     ![](deploying-application-request-routing-in-cdn/_static/image18.jpg)
+30. Enter the following values, and then save the rule:  
+     **Name:** Not my customer  
+     **Using:** Wildcards  
+     **Pattern:** \*  
+     **Action Type:** Custom Response  
+     **Status code:** 400  
+     **Sub status code:** 0
 
-    ![](deploying-application-request-routing-in-cdn/_static/image19.jpg)
-- The order of the rules is important. The URL rewrite rules are processed from top to bottom. In this example, if the incoming host name matches one of the host names specified in the above rewrite map, the first rule, **ARR\_myParentCacheNodes\_Loadbalance**, is executed. If the incoming host name does not match any of the host names that are defined in the above rewrite map, the second rule, **Not my customer**, is executed. 
+     ![](deploying-application-request-routing-in-cdn/_static/image19.jpg)
+31. The order of the rules is important. The URL rewrite rules are processed from top to bottom. In this example, if the incoming host name matches one of the host names specified in the above rewrite map, the first rule, **ARR\_myParentCacheNodes\_Loadbalance**, is executed. If the incoming host name does not match any of the host names that are defined in the above rewrite map, the second rule, **Not my customer**, is executed. 
 
-    ![](deploying-application-request-routing-in-cdn/_static/image20.jpg)
-- **The child/edge cache node configuration is complete.**  
+     ![](deploying-application-request-routing-in-cdn/_static/image20.jpg)
+32. **The child/edge cache node configuration is complete.**  
   
- To streamline the configuration of additional child cache nodes, a shared configuration can be used so that there is only one place to manage the configuration of the child cache node. Otherwise, the above configuration changes must be made individually on all child cache nodes in the CDN/ECN environment. To learn more about shared configuration, see the following [article](../../manage/managing-your-configuration-settings/shared-configuration_264.md) .
+   To streamline the configuration of additional child cache nodes, a shared configuration can be used so that there is only one place to manage the configuration of the child cache node. Otherwise, the above configuration changes must be made individually on all child cache nodes in the CDN/ECN environment. To learn more about shared configuration, see the following [article](../../manage/managing-your-configuration-settings/shared-configuration_264.md) .
 
 ## Configuring Parent Cache Node
 
@@ -209,7 +209,7 @@ Configure and enable disk cache by following [this](../configuring-application-r
     ![](deploying-application-request-routing-in-cdn/_static/image29.jpg)
 11. **The parent cache node configuration is complete.**  
   
- To streamline the configuration of additional parent cache nodes, a shared configuration can be used so that there is only one place to manage the configuration of the parent cache node. Otherwise, the above configuration changes must be made individually on all parent cache nodes in the CDN/ECN environment. To learn more about the shared configuration, see the following [article](../../manage/managing-your-configuration-settings/shared-configuration_264.md) .
+    To streamline the configuration of additional parent cache nodes, a shared configuration can be used so that there is only one place to manage the configuration of the parent cache node. Otherwise, the above configuration changes must be made individually on all parent cache nodes in the CDN/ECN environment. To learn more about the shared configuration, see the following [article](../../manage/managing-your-configuration-settings/shared-configuration_264.md) .
 
 ## Summary
 

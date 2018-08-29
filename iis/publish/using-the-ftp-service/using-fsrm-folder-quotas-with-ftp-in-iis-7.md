@@ -76,11 +76,11 @@ Create an FTP site where users will be able to access content anonymously. Use t
     [![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image2.png)](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image1.png)
 3. When the **Add FTP Site** wizard appears: 
 
-    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `C:\inetpub\ftproot` folder that you created in the Prerequisites section.   
-        > [!NOTE]
-        > If you choose to type in the path to your content folder, you can use environment variables in your paths; for example: `%SystemDrive%\inetpub\ftproot`
-    - Click **Next**.  
-        [![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image2.jpg)](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image1.jpg)
+   - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `C:\inetpub\ftproot` folder that you created in the Prerequisites section.   
+       > [!NOTE]
+       > If you choose to type in the path to your content folder, you can use environment variables in your paths; for example: `%SystemDrive%\inetpub\ftproot`
+   - Click **Next**.  
+       [![](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image2.jpg)](using-fsrm-folder-quotas-with-ftp-in-iis-7/_static/image1.jpg)
 4. On the next page of the wizard: 
 
     - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will be using the administrator account later in this walk-through, you make sure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.

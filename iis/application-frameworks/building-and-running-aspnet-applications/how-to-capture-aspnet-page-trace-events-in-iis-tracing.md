@@ -18,7 +18,7 @@ by IIS Team
 
 ## Introduction
 
-In ASP.Net today, developers can add trace events to ASPX pages using *Trace.Write()*&amp; *Trace.Warn()* calls in the script sections of their page. Typically, you use these traces to debug an application that does not work as expected.
+In ASP.Net today, developers can add trace events to ASPX pages using <em>Trace.Write()</em>&amp; *Trace.Warn()* calls in the script sections of their page. Typically, you use these traces to debug an application that does not work as expected.
 
 These events appear when you enable tracing for the page (set &lt;%@ Page Trace="True" %&gt;). You can only view these events by default when browsing the application from the server (i.e. Localhost), or when you enable Application Tracing to keep the last given number of sessions.
 

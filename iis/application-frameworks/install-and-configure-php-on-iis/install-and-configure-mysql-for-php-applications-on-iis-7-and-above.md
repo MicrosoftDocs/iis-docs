@@ -34,8 +34,8 @@ It is recommended that you install MySQL on a dedicated server rather than insta
 ## Configure a MySQL Instance
 
 1. Run the **MySQL Server Instance Configuration Wizard**, and then choose the configurations options that most closely match your environment.   
- For more information, see the [Server Instance Configuration Wizard](http://dev.mysql.com/doc/refman/5.0/en/mysql-config-wizard.html).   
- Best practice recommendations are as follows:  
+   For more information, see the [Server Instance Configuration Wizard](http://dev.mysql.com/doc/refman/5.0/en/mysql-config-wizard.html).   
+   Best practice recommendations are as follows:  
 
     - Click **Next** in the **Instance Configuration Wizard**.
     - Select **Detailed Configuration**, and then click **Next**.
@@ -54,11 +54,11 @@ It is recommended that you install MySQL on a dedicated server rather than insta
     - Type the *password* you want to use for the root account, and then click **Next**.
     - Click **Execute** to apply your settings.
     - Click **Finish** to close the wizard.
-- For PHP to work with MySQL, it is necessary to perform the following modifications to the **Php.ini** file:  
+2. For PHP to work with MySQL, it is necessary to perform the following modifications to the **Php.ini** file:  
 
-    - Confirm that the **extension\_dir** points to the folder where all PHP loadable extensions are located, frequently in the Ext folder (for example, extension\_dir=".\ext").
-    - Enable dynamic extension for MySQL by uncommenting the corresponding line for the MySQL extension: **extension=php\_mysql.dll**
-    - c. Save and close the **Php.ini** file.
+     - Confirm that the **extension\_dir** points to the folder where all PHP loadable extensions are located, frequently in the Ext folder (for example, extension\_dir=".\ext").
+     - Enable dynamic extension for MySQL by uncommenting the corresponding line for the MySQL extension: **extension=php\_mysql.dll**
+     - c. Save and close the **Php.ini** file.
 
 #### Secure MySQL
 

@@ -94,32 +94,32 @@ In this first step, you create a new FTP site that can only be opened using your
     [![](using-ftp-over-ssl-in-iis-7/_static/image15.png)](using-ftp-over-ssl-in-iis-7/_static/image13.png)
 3. When the **Add FTP Site** wizard appears: 
 
-    - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.> [!NOTE]
-> If you choose to type in the path to your content folder, you can use environment variables in your paths.
-    - Click **Next**.
+   - Enter "My New FTP Site" in the **FTP site name** box, then navigate to the `%SystemDrive%\inetpub\ftproot` folder that you created in the Prerequisites section.> [!NOTE]
+     > If you choose to type in the path to your content folder, you can use environment variables in your paths.
+   - Click **Next**.
 
-    [![](using-ftp-over-ssl-in-iis-7/_static/image3.jpg)](using-ftp-over-ssl-in-iis-7/_static/image1.jpg)
+     [![](using-ftp-over-ssl-in-iis-7/_static/image3.jpg)](using-ftp-over-ssl-in-iis-7/_static/image1.jpg)
 4. On the next page of the wizard: 
 
-    - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will use the administrator account later in this walk-through, make sure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
-    - You would normally enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.
-    - For this walk- through, you do not use a host name, so make sure that the **Virtual Host** box is blank.
-    - Make sure that the **Certificates** drop-down is set to your SSL certificate. For example, if you followed the optional step to create a self-signed certificate, the drop-down box should say "My FTP Certificate".
-    - Make sure that the **Allow SSL** option is selected.
-    - Click **Next**.
+   - Choose an IP address for your FTP site from the **IP Address** drop-down, or choose to accept the default selection of "All Unassigned." Because you will use the administrator account later in this walk-through, make sure that you restrict access to the server and enter the local loopback IP address for your computer by typing "127.0.0.1" in the **IP Address** box.
+   - You would normally enter the TCP/IP port for the FTP site in the **Port** box. For this walk-through, choose to accept the default port of 21.
+   - For this walk- through, you do not use a host name, so make sure that the **Virtual Host** box is blank.
+   - Make sure that the **Certificates** drop-down is set to your SSL certificate. For example, if you followed the optional step to create a self-signed certificate, the drop-down box should say "My FTP Certificate".
+   - Make sure that the **Allow SSL** option is selected.
+   - Click **Next**.
 
-    [![](using-ftp-over-ssl-in-iis-7/_static/image8.jpg)](using-ftp-over-ssl-in-iis-7/_static/image7.jpg)
+     [![](using-ftp-over-ssl-in-iis-7/_static/image8.jpg)](using-ftp-over-ssl-in-iis-7/_static/image7.jpg)
 5. On the next page of the wizard: 
 
-    - Select **Basic** for the **Authentication** settings.
-    - For the **Authorization** settings: 
+   - Select **Basic** for the **Authentication** settings.
+   - For the **Authorization** settings: 
 
-        - Choose "Specified users" from the **Allow access to** drop-down.
-        - Type "administrator" for the user name.
-        - Select **Read** and **Write** for the **Permissions** option.
-    - When you have completed these items, click **Finish**.
+       - Choose "Specified users" from the **Allow access to** drop-down.
+       - Type "administrator" for the user name.
+       - Select **Read** and **Write** for the **Permissions** option.
+   - When you have completed these items, click **Finish**.
 
-    [![](using-ftp-over-ssl-in-iis-7/_static/image11.jpg)](using-ftp-over-ssl-in-iis-7/_static/image9.jpg)
+     [![](using-ftp-over-ssl-in-iis-7/_static/image11.jpg)](using-ftp-over-ssl-in-iis-7/_static/image9.jpg)
 
 #### Summary
 
@@ -144,13 +144,13 @@ The SSL policy for FTP is customizable on a site-by-site basis. Different settin
      [![](using-ftp-over-ssl-in-iis-7/_static/image27.png)](using-ftp-over-ssl-in-iis-7/_static/image25.png)
 4. When the **Advanced SSL Policy** dialog box is displayed: 
 
-    - Select the **Require only for credentials** option for the control channel.
-	    > [!NOTE]
-        > This setting requires that all user names and password are encrypted via SSL, but the client can choose whether to encrypt all other control channel activity.
-    - Select the **Allow** option for the data channel.> [!NOTE]
-> This setting allows the client to choose whether to encrypt any data channel activity.
-    - When you have completed these items, click **OK**.  
-        [![](using-ftp-over-ssl-in-iis-7/_static/image31.png)](using-ftp-over-ssl-in-iis-7/_static/image29.png)
+   - Select the **Require only for credentials** option for the control channel.
+       > [!NOTE]
+       > This setting requires that all user names and password are encrypted via SSL, but the client can choose whether to encrypt all other control channel activity.
+   - Select the **Allow** option for the data channel.> [!NOTE]
+     > This setting allows the client to choose whether to encrypt any data channel activity.
+   - When you have completed these items, click **OK**.  
+       [![](using-ftp-over-ssl-in-iis-7/_static/image31.png)](using-ftp-over-ssl-in-iis-7/_static/image29.png)
 5. On the **FTP SSL Settings** page, click **Apply** in the **Actions** pane to save the SSL settings.  
     [![](using-ftp-over-ssl-in-iis-7/_static/image35.png)](using-ftp-over-ssl-in-iis-7/_static/image33.png)
 

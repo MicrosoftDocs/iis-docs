@@ -120,15 +120,15 @@ These steps should be performed on the controller server after WFF is installed.
 
 1. In the **Add Servers** step, enter the server name or IP address of a server you want to add and then click **Add**.
 
-1. - Select the **Server is available for Load Balancing** option to have the server participate in load balancing when the farm is created.
-    - When you add the server you configured to be the primary server, select the **Primary Server** checkbox.  
+2. - Select the **Server is available for Load Balancing** option to have the server participate in load balancing when the farm is created.
+     - When you add the server you configured to be the primary server, select the **Primary Server** checkbox.  
         [![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image10.png)](javascript:void(0);)
 
-1. Click **Add**. WFF attempts to connect to the specified server. If an error is displayed, it means that WFF cannot connect to the server. You can add the server to the farm anyway, or you can modify the server name or address and try again. Make sure the server you are connecting to meets the requirements listed in [Prepare the Secondary Servers](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis.md#Prepare).  
+3. Click **Add**. WFF attempts to connect to the specified server. If an error is displayed, it means that WFF cannot connect to the server. You can add the server to the farm anyway, or you can modify the server name or address and try again. Make sure the server you are connecting to meets the requirements listed in [Prepare the Secondary Servers](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis.md#Prepare).  
   
     [![](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image12.png)](setting-up-a-server-farm-with-the-web-farm-framework-20-for-iis/_static/image11.png)
 
-1. When you are finished adding servers to the farm, click **Finish**. WFF creates the server farm.
+4. When you are finished adding servers to the farm, click **Finish**. WFF creates the server farm.
 
 You can customize or define URL rewrite rules to configure load balancing. For more information, see [Using the URL Rewrite Module](../../extensions/url-rewrite-module/using-the-url-rewrite-module.md) and [Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing).
 

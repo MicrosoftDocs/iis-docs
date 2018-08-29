@@ -45,7 +45,7 @@ The procedures in this section guide you through installing and configuring FTP 
 6. Click **Next** to open the **Binding and SSL Settings** page.
 7. Under **Binding**, in the **IP Address** list, select or type an IP address if you do not want the IP address to remain **All Unassigned**.
 8. In the **Port** box, type the port number.
-9. Optionally, in the **Virtual Host** box, type a host name if you want to host multiple FTP sites on a single IP address. For example, type **www.contoso.com**.
+9. Optionally, in the **Virtual Host** box, type a host name if you want to host multiple FTP sites on a single IP address. For example, type <strong>www.contoso.com</strong>.
 10. Clear the **Start FTP site automatically** box if you want to start the site manually.
 11. Under **SSL**, from the **SSL Certificate** list, select a certificate. Optionally, click **View** to open the **Certificates** dialog box and verify information about the selected certificate.
 12. Select one of the following options:

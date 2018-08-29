@@ -72,12 +72,12 @@ If you copy and paste the code above into a VBS file and save it as ADDMIMETYPE.
     [![](configuring-iis-for-silverlight-applications/_static/image10.jpg)](configuring-iis-for-silverlight-applications/_static/image9.jpg)
 5. In the **MIME Types** dialog box, enter one of these MIME types:  
 
-    - .xap application/x-silverlight-app
-    - .xaml application/xaml+xml
-    - .xbap application/x-ms-xbap
+   - .xap application/x-silverlight-app
+   - .xaml application/xaml+xml
+   - .xbap application/x-ms-xbap
 
-    See the figure below:
+     See the figure below:
 
-    [![](configuring-iis-for-silverlight-applications/_static/image12.jpg)](configuring-iis-for-silverlight-applications/_static/image11.jpg)
+     [![](configuring-iis-for-silverlight-applications/_static/image12.jpg)](configuring-iis-for-silverlight-applications/_static/image11.jpg)
 
 For detailed information on Silverlight, visit [http://silverlight.net/](http://silverlight.net/).

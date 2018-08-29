@@ -36,15 +36,15 @@ FastCGI is a language-independent, scalable, open extension to Common Gateway In
 ## Install PHP on IIS 7 and Above
 
 1. Download the latest [PHP release](http://www.php.net/downloads.php).  
-- In the section titled "Windows Binaries," select the archive with the **.zip** file extension. Note that the Server Core lacks a graphical user interface (GUI), and has no Web browser.
-- Uncompress the archive's contents to a location accessible by the Server Core system, which is likely to be a network file share.
-- Create a directory in which to copy the uncompressed files, for example:  
+2. In the section titled "Windows Binaries," select the archive with the **.zip** file extension. Note that the Server Core lacks a graphical user interface (GUI), and has no Web browser.
+3. Uncompress the archive's contents to a location accessible by the Server Core system, which is likely to be a network file share.
+4. Create a directory in which to copy the uncompressed files, for example:  
 
-    [!code-console[Main](install-php-and-fastcgi-support-on-server-core/samples/sample4.cmd)]
-- Copy the entire contents of the PHP archive you uncompressed previously into the `%SystemDrive%\PHP` directory.
-- Execute the following command:  
+     [!code-console[Main](install-php-and-fastcgi-support-on-server-core/samples/sample4.cmd)]
+5. Copy the entire contents of the PHP archive you uncompressed previously into the `%SystemDrive%\PHP` directory.
+6. Execute the following command:  
 
-    [!code-console[Main](install-php-and-fastcgi-support-on-server-core/samples/sample5.cmd)]
+     [!code-console[Main](install-php-and-fastcgi-support-on-server-core/samples/sample5.cmd)]
 
 ## Test the PHP Configuration
 

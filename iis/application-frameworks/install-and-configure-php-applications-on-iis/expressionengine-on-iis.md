@@ -53,15 +53,15 @@ Follow these steps:
     - Eecore\microsoftsystem/updates --- Delete this folder
 3. Provide all permissions to the IIS user for the following folders:  
 
-    - images/avatars/uploads/
-    - images/captchas/
-    - images/member\_photos/
-    - images/pm\_attachments/
-    - images/signature\_attachments/
-    - images/uploads/
-    - system/cache/
+   - images/avatars/uploads/
+   - images/captchas/
+   - images/member\_photos/
+   - images/pm\_attachments/
+   - images/signature\_attachments/
+   - images/uploads/
+   - system/cache/
 
-    [![](expressionengine-on-iis/_static/image2.jpg)](expressionengine-on-iis/_static/image1.jpg)
+     [![](expressionengine-on-iis/_static/image2.jpg)](expressionengine-on-iis/_static/image1.jpg)
 
 ## Run the Installation Script
 
@@ -75,19 +75,19 @@ Inside the root directory, you find a file called install.php. Browse to the ins
     [![](expressionengine-on-iis/_static/image8.jpg)](expressionengine-on-iis/_static/image7.jpg)
 4. Provide the details of your database: Admin username, password, time zone, etc. Click install ExpressionEngine.  
 
-    - MySQLUserName as: eemsuser
-    - MySQLPassword as: eems
-    - MySQLDataBase as : expressionengine
-    - Admin account user name as : expressionengineadmin
-    - And password as : eeadmin
+   - MySQLUserName as: eemsuser
+   - MySQLPassword as: eems
+   - MySQLDataBase as : expressionengine
+   - Admin account user name as : expressionengineadmin
+   - And password as : eeadmin
 
-    [![](expressionengine-on-iis/_static/image10.jpg)](expressionengine-on-iis/_static/image9.jpg)
+     [![](expressionengine-on-iis/_static/image10.jpg)](expressionengine-on-iis/_static/image9.jpg)
 
-    [![](expressionengine-on-iis/_static/image12.jpg)](expressionengine-on-iis/_static/image11.jpg)
+     [![](expressionengine-on-iis/_static/image12.jpg)](expressionengine-on-iis/_static/image11.jpg)
 
-    [![](expressionengine-on-iis/_static/image14.jpg)](expressionengine-on-iis/_static/image13.jpg)
+     [![](expressionengine-on-iis/_static/image14.jpg)](expressionengine-on-iis/_static/image13.jpg)
 
-    [![](expressionengine-on-iis/_static/image16.jpg)](expressionengine-on-iis/_static/image15.jpg)
+     [![](expressionengine-on-iis/_static/image16.jpg)](expressionengine-on-iis/_static/image15.jpg)
 5. You see the confirmation screen for a successful installation.  
     [![](expressionengine-on-iis/_static/image18.jpg)](expressionengine-on-iis/_static/image17.jpg)
 6. Login to the Control Panel using the Admin username and password.  

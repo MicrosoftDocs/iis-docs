@@ -67,7 +67,7 @@ For example let's say you had a URL rewriting module written in ASP.NET. On IIS 
 [!code-xml[Main](wildcard-script-mapping-and-iis-integrated-pipeline/samples/sample3.xml)]
 
 
-Since on IIS 6 this module was only executed for requests to managed content, it only worked for URLs that had .aspx extension, such *as http://example.com/archive/2008/08/26/post-title.**aspx***. If you wanted it to handle extension-less URLs you had to configure wildcard script mapping for ASP.NET. With IIS 7 and above integrated pipeline you do not have to do that anymore. In order to make this module apply to extension-less URLs you need to register it within the `<system.webServer>` section inside of web.config file as below:
+Since on IIS 6 this module was only executed for requests to managed content, it only worked for URLs that had .aspx extension, such <em>as http://example.com/archive/2008/08/26/post-title.</em>*aspx***. If you wanted it to handle extension-less URLs you had to configure wildcard script mapping for ASP.NET. With IIS 7 and above integrated pipeline you do not have to do that anymore. In order to make this module apply to extension-less URLs you need to register it within the `<system.webServer>` section inside of web.config file as below:
 
 [!code-xml[Main](wildcard-script-mapping-and-iis-integrated-pipeline/samples/sample4.xml)]
 

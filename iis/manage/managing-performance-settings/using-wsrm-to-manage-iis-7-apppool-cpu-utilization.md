@@ -58,21 +58,22 @@ For more information see [Overview of Windows System Resource Manager](http://te
 
 1. Create at least 2 process matching criteria (PMC) for different AppPools 
 
-    1. Right-click on the Process Matching Criteria node in the left-hand pane
-    2. Select New Process Matching Criteria...
-    3. The New Process Matching Criteria dialog appears 
+   1. Right-click on the Process Matching Criteria node in the left-hand pane
+   2. Select New Process Matching Criteria...
+   3. The New Process Matching Criteria dialog appears 
 
-        [![](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image12.jpg)](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image11.jpg)
-    4. Enter a name for the PMC and click Add...
-    5. The Add Rule dialog appears
-    6. Select the Files or Command Lines tab
-    7. Click in the area labeled "Included files or command lines" and type in a matching criteria.
-    8. Use the following format (without the quotes): ["@w3wp.exe.\*&lt;AppPoolName](mailto:)&gt;" 
+       [![](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image12.jpg)](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image11.jpg)
+   4. Enter a name for the PMC and click Add...
+   5. The Add Rule dialog appears
+   6. Select the Files or Command Lines tab
+   7. Click in the area labeled "Included files or command lines" and type in a matching criteria.
+   8. Use the following format (without the quotes): ["@w3wp.exe.\*&lt;AppPoolName](mailto:)&gt;" 
 
-        [![](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image14.jpg)](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image13.jpg)
-    9. Add lines to match additional AppPools (or any other processes) to this PMC
-    10. Click OK
-    11. Repeat the above steps for each additional PMC
+       [![](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image14.jpg)](using-wsrm-to-manage-iis-7-apppool-cpu-utilization/_static/image13.jpg)
+   9. Add lines to match additional AppPools (or any other processes) to this PMC
+   10. Click OK
+   11. Repeat the above steps for each additional PMC
+
 2. Create a resource allocation policy (RAP) 
 
     1. Right click on the Resource Allocation Policy node in the left-hand pane

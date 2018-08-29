@@ -22,9 +22,9 @@ by [Robert McMurray](https://github.com/rmcmurray)
 In IIS 7.0, IIS 7.5, and above, several security changes were made that may affect how classic ASP applications will function. For example, if you were to copy a classic ASP application that uses an Access database that is within the Web site's content area to a server that uses IIS 7.0 or above, you may receive the following error message:
 
 **Microsoft JET Database Engine error '80004005'  
-  
+
 Unspecified error.  
-  
+
 /example.asp, line 100**
 
 This is a generic error triggered by the Access driver that may occur for a variety of reasons, but incorrect permissions is a common cause. More specifically, the ability to work with Microsoft Access databases is implemented through the Microsoft JET Database Engine, which creates various temporary and lock files when it connects to an Access database. The following sections will discuss some of the reasons why this may occur and how to resolve those situations.
@@ -89,26 +89,24 @@ By analyzing the information in the Process Monitor logs, you can pinpoint any p
 If you are using the Process Monitor utility on a computer that has a default installation of IIS on Windows Server 2008 and Windows Vista SP1, you may receive an error that resembles the following when ASP connects to an Access database:
 
 
-| Process Name: | w3wp.exe |
-| --- | --- |
-| Operation: | CreateFile |
-| Path: | `C:\Windows\Temp\JET5150.tmp` |
-| Result: | ACCESS DENIED |
-| Detail: | | *Desired Access:* | Generic Read/Write, Delete | | --- | --- | | *Disposition:* | Create | | *Options:* | Synchronous IO Non-Alert, Non-Directory File, Random Access, Delete On Close, Open No Recall | | *Attributes:* | NT | | *ShareMode:* | None | | *AllocationSize:* | 0 | | *Impersonating:* | NT AUTHORITY\IUSR | |
-
+| Process Name: |           w3wp.exe            |
+|---------------|-------------------------------|
+|  Operation:   |          CreateFile           |
+|     Path:     | `C:\Windows\Temp\JET5150.tmp` |
+|    Result:    |         ACCESS DENIED         |
+|    Detail:    |                               |
 
 This error shows that the JET database engine cannot create a temporary file as the impersonated Application Pool identity in the default Windows temporary directory. This occurs when you use default settings for the release version of IIS on Windows Server 2008 and Windows Vista SP1, where IIS does not load the user profile for the Application Pool identity's profile by default. To resolve this issue, you could change the permissions on the %*SystemDrive*%\Windows\Temp directory to allow read/write permission for the impersonated user.
 
 If you are using the original release version of Windows Vista you may see an error that resembles the following when when ASP connects to an Access database:
 
 
-| Process Name: | w3wp.exe |
-| --- | --- |
-| Operation: | CreateFile |
-| Path: | `C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Temp` |
-| Result: | ACCESS DENIED |
-| Detail: | | *Desired Access:* | Read Attributes | | --- | --- | | *Disposition:* | Open | | *Options:* | Open Reparse Point | | *Attributes:* | n/a | | *ShareMode:* | Read, Write, Delete | | *AllocationSize:* | n/a | | *Impersonating:* | NT AUTHORITY\IUSR | |
-
+| Process Name: |                            w3wp.exe                            |
+|---------------|----------------------------------------------------------------|
+|  Operation:   |                           CreateFile                           |
+|     Path:     | `C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Temp` |
+|    Result:    |                         ACCESS DENIED                          |
+|    Detail:    |                                                                |
 
 This error indicates that the JET database engine cannot access the temporary directory for the Network Service user profile that uses the impersonated Application Pool identity. In this particular example, the Application Pool identity is configured to use the Network Service account and IIS is configured to load the user profile for the impersonated Application Pool identity. The error occurs because the impersonated Application Pool identity cannot access the temporary folder for the Network Service account. To resolve this specific issue, you can change the permissions on the %*SystemDrive*%\Windows\ServiceProfiles\NetworkService\AppData\Local\Temp directory to allow read/write permission for the impersonated user, or you can configure IIS to not load the user profile, which will change the temporary folder that the JET database engine will use.
 
@@ -125,21 +123,20 @@ You can also configure this setting by using the command-line tool AppCmd.exe wi
 When you are deploying a classic ASP application that uses an Access database you may see this error because the lock file for the Access database cannot be created. To further explain this scenario: Access databases are kept in files that use an .MDB file name extension. When you try to add to the database or update the data, the Microsoft JET database engine attempts to create a lock file with that uses an .LDB file name extension. If the Access database is stored within the content area of your Web site, by default the JET database engine will not have sufficient access permissions to update the database and you will see the following error message displayed in a Web browser:
 
 **Microsoft JET Database Engine error '80004005'  
-  
+
 Operation must use an updateable query.  
-  
+
 /example.asp, line 100**
 
 If you were using the Process Monitor utility when you reproduced the error, the following information would be logged for the failure:
 
 
-| Process Name: | w3wp.exe |
-| --- | --- |
-| Operation: | CreateFile |
-| Path: | `C:\Inetpub\wwwroot\App\_Data\example.ldb` |
-| Result: | ACCESS DENIED |
-| Detail: | | *Desired Access:* | Generic Read/Write | | --- | --- | | *Disposition:* | OpenIf | | *Options:* | Synchronous IO Non-Alert, Non-Directory File, Random Access, Open No Recall | | *Attributes:* | N | | *ShareMode:* | Read, Write | | *AllocationSize:* | 0 | | *Impersonating:* | NT AUTHORITY\IUSR | |
-
+| Process Name: |                  w3wp.exe                  |
+|---------------|--------------------------------------------|
+|  Operation:   |                 CreateFile                 |
+|     Path:     | `C:\Inetpub\wwwroot\App\_Data\example.ldb` |
+|    Result:    |               ACCESS DENIED                |
+|    Detail:    |                                            |
 
 This error clearly lists the lock file as the cause of the failure. To resolve the issue, you can grant the application pool's impersonated identity read/write permission to the folder where the Access database is located, but that poses a security risk for your Web site. A better solution would be to move the Access database out of your Web site's content area to a folder where the application pool's impersonated identity has read/write permission, then create a System Data Source Name (DSN) that points to the database location. Your ASP code would then reference the System DSN in the connection string instead of the physical path of the database, which is also better for security. If you must store the database in the content area, you should always store the database in a folder that is blocked by default by the IIS request-filtering features, such as the App\_Data folder.
 

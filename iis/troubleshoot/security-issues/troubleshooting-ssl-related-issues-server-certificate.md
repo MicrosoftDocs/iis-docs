@@ -164,29 +164,30 @@ By now we are sure that we have a proper working certificate installed on the we
 
     Below is a sample of a working and non-working scenario:
 
-    | Working scenario: |
-    | --- |
-    | IP | 0.0.0.0:443 |
-    | Hash |  |
-    | Guid | **{00000000-0000-0000-0000-000000000000}** |
-    | CertStoreName | MY |
-    | CertCheckMode | 0 |
-    | RevocationFreshnessTime | 0 |
-    | UrlRetrievalTimeout | 0 |
-    | SslCtlIdentifier | 0 |
-    | SslCtlStoreName | 0 |
-    | Flags | 0 |
-    | Non-working scenario: |
-    | IP | 0.0.0.0:443 |
-    | Hash | c09b416d6b 8d615db22 64079d15638e96823d |
-    | Guid | {4dc3e181-e14b-4a21-b022-59fc669b0914} |
-    | CertStoreName | MY |
-    | CertCheckMode | 0 |
-    | RevocationFreshnessTime | 0 |
-    | UrlRetrievalTimeout | 0 |
-    | SslCtlIdentifier | 0 |
-    | SslCtlStoreName | 0 |
-    | Flags | 0 |
+
+  |    Working scenario:    |
+  |-------------------------|
+  |           IP            |
+  |          Hash           |
+  |          Guid           |
+  |      CertStoreName      |
+  |      CertCheckMode      |
+  | RevocationFreshnessTime |
+  |   UrlRetrievalTimeout   |
+  |    SslCtlIdentifier     |
+  |     SslCtlStoreName     |
+  |          Flags          |
+  |  Non-working scenario:  |
+  |           IP            |
+  |          Hash           |
+  |          Guid           |
+  |      CertStoreName      |
+  |      CertCheckMode      |
+  | RevocationFreshnessTime |
+  |   UrlRetrievalTimeout   |
+  |    SslCtlIdentifier     |
+  |     SslCtlStoreName     |
+  |          Flags          |
 
     The Hash value seen above is the Thumbprint of your SSL certificate. Notice, that the Guid is all zero in a non-working scenario. You may see the Hash either having some value or blank. Even if we remove the certificate from the web site, and then run "httpcfg query ssl", the website will still list Guid as all 0's. If you see the GUID as "{0000...............000}, then there is a problem.
 
@@ -194,7 +195,7 @@ By now we are sure that we have a proper working certificate installed on the we
 
     [!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample4.cmd)]
 
- For e.g. 
+  For e.g. 
 
     [!code-console[Main](troubleshooting-ssl-related-issues-server-certificate/samples/sample5.cmd)]
 - Delete any entries in the IP Listen list.

@@ -19,7 +19,7 @@ FTP Host Name Support &lt;hostNameSupport&gt;
 
 The `<hostNameSupport>` element specifies domain name syntax is supported for virtual host names.
 
-FTP virtual host names were introduced in FTP 7.0, and an FTP virtual host name is specified as part of a binding in the same way that you specify HTTP host header names. For example, you might specify the bindings by using host names like "**www.contoso.com**" or "**www.fabrikam.com**" for the HTTP bindings and "**ftp.contoso.com**" or "**ftp.fabrikam.com**" for the FTP bindings. HTTP provides a way to pass the host name in the headers that are passed between the client and server, but FTP currently does not provide this same functionality. Because of this FTP limitation, the virtual host name is used as part of the user name during the login process. By default, an FTP client would need to specify its login credentials by using the pipe (vertical line) character with syntax like "**ftp.contoso.com|username**" or "**ftp.fabrikam.com|username**". By setting the `useDomainNameAsHostName` attribute to **true**, you can specify the virtual host and user name by using domain name syntax; this lets you use a backslash character instead of the pipe (vertical line) character; so the syntax would look like "**ftp.contoso.com\username**" or "**ftp.fabrikam.com\username**".
+FTP virtual host names were introduced in FTP 7.0, and an FTP virtual host name is specified as part of a binding in the same way that you specify HTTP host header names. For example, you might specify the bindings by using host names like "<strong>www.contoso.com</strong>" or "<strong>www.fabrikam.com</strong>" for the HTTP bindings and "**ftp.contoso.com**" or "**ftp.fabrikam.com**" for the FTP bindings. HTTP provides a way to pass the host name in the headers that are passed between the client and server, but FTP currently does not provide this same functionality. Because of this FTP limitation, the virtual host name is used as part of the user name during the login process. By default, an FTP client would need to specify its login credentials by using the pipe (vertical line) character with syntax like "**ftp.contoso.com|username**" or "**ftp.fabrikam.com|username**". By setting the `useDomainNameAsHostName` attribute to **true**, you can specify the virtual host and user name by using domain name syntax; this lets you use a backslash character instead of the pipe (vertical line) character; so the syntax would look like "**ftp.contoso.com\username**" or "**ftp.fabrikam.com\username**".
 
 > [!NOTE]
 > Both FTP 7.0 and FTP 7.5 support the proposed FTP HOST command, which does not require that you use the virtual host name as part of the user name.
@@ -38,7 +38,7 @@ FTP virtual host names were introduced in FTP 7.0, and an FTP virtual host name 
 
 > [!NOTE]
 > The FTP 7.0 and FTP 7.5 services shipped out-of-band for IIS 7.0, which required downloading and installing the modules from the following URL:
-
+> 
 > [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
 
 
@@ -107,9 +107,9 @@ To support FTP publishing for your Web server, you must install the FTP service.
 1. Download the installation package from the following URL: 
 
     - [https://www.iis.net/expand/FTP](https://www.iis.net/downloads/microsoft/ftp)
-- Follow the instructions in the following walkthrough to install the FTP service: 
+2. Follow the instructions in the following walkthrough to install the FTP service: 
 
-    - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
+     - [Installing and Troubleshooting FTP 7](https://go.microsoft.com/fwlink/?LinkId=88547)
  
 <a id="004"></a>
 ## How To

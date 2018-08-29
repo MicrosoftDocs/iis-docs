@@ -41,35 +41,35 @@ To create a new table:
 2. Go to Database Manager and expand your database connection node (For more information on creating connections to a database, see [Basics of the IIS Database Manager](https://go.microsoft.com/fwlink/?LinkId=145667)).
 3. On the 'Tables' node, right click and select 'New Table'.   
     [![](working-with-tables/_static/image7.png)](working-with-tables/_static/image5.png)  
- A new tab will appear in the editor area. Take a moment to get familiar with the buttons on the toolbar: 
+   A new tab will appear in the editor area. Take a moment to get familiar with the buttons on the toolbar: 
 
-    1. New Column: allows you to add a new column to the table definition.
-    2. Delete Column: allows you to remove an existing column for the table definition.
-    3. Indexes/Keys: allows you to define an index or primary key on the table.
-    4. Relationships: allows you to define a foreign key relationship on the table.
-    5. Save: allows you to save changes to the table.
+   1. New Column: allows you to add a new column to the table definition.
+   2. Delete Column: allows you to remove an existing column for the table definition.
+   3. Indexes/Keys: allows you to define an index or primary key on the table.
+   4. Relationships: allows you to define a foreign key relationship on the table.
+   5. Save: allows you to save changes to the table.
 
-    [![](working-with-tables/_static/image11.png)](working-with-tables/_static/image9.png)
+      [![](working-with-tables/_static/image11.png)](working-with-tables/_static/image9.png)
 4. Click on 'New Column' in the toolbar. A new column is created and a 'Column Properties' pane appears.
 5. In the 'Column Properties', do the following: 
 
-    1. Type 'UserId' for the name of the column.
-    2. Set 'Allow Nulls' to 'False'.
-    3. Set 'Data Type' to 'int'.
-    4. Leave 'Default Value' blank.
-    5. Set 'IsIdentity' to 'True'.
+   1. Type 'UserId' for the name of the column.
+   2. Set 'Allow Nulls' to 'False'.
+   3. Set 'Data Type' to 'int'.
+   4. Leave 'Default Value' blank.
+   5. Set 'IsIdentity' to 'True'.
 
-    [![](working-with-tables/_static/image15.png)](working-with-tables/_static/image13.png)
+      [![](working-with-tables/_static/image15.png)](working-with-tables/_static/image13.png)
 6. Let's now make this field a primary key by clicking on the 'Indexes/Keys' icon. A new dialog will open up.   
     [![](working-with-tables/_static/image19.png)](working-with-tables/_static/image17.png)
 7. On the dialog, click the 'Add' button and then fill out the information for the primary key as follows: 
 
-    1. Set 'Columns' to 'UserId'.
-    2. Set 'Is Unique' to 'True'.
-    3. Set 'Type' to 'Primary Key'.
-    4. Set 'Name' to 'PK\_UserId'.
+   1. Set 'Columns' to 'UserId'.
+   2. Set 'Is Unique' to 'True'.
+   3. Set 'Type' to 'Primary Key'.
+   4. Set 'Name' to 'PK\_UserId'.
   
-    [![](working-with-tables/_static/image23.png)](working-with-tables/_static/image21.png)
+      [![](working-with-tables/_static/image23.png)](working-with-tables/_static/image21.png)
 8. Click 'Close' to close the dialog.
 9. Add another column for the username by clicking on 'New Column' in the toolbar.
 10. In the 'Column Properties', do the following: 

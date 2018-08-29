@@ -71,11 +71,53 @@ The Windows group IIS\_IUSRS must have write permissions to the directory so tha
 
 Although Step 1 is complete in terms of our example, it is appropriate to discuss the schema files. In the schema above, we simply created a new configuration section **simpleLogging** that exists under **system.webServer** and specified a custom attribute. However, you can easily create more complex custom configuration with collections, elements and attributes. The table below shows some examples, but the best way to learn is to look at the schema file for the IIS configuration. Find it at `%windir%\system32\inetsrv\config\schema\IIS\_schema.xml`.
 
-| Type | Schema Info and Examples |
-| --- | --- |
-| **attribute** | &lt; [!code-console[Main](configuration-extensibility/samples/sample4.cmd)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample5.xml)] |
-| **element** | [!code-xml[Main](configuration-extensibility/samples/sample6.xml)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample7.xml)] |
-| **collection** | [!code-xml[Main](configuration-extensibility/samples/sample8.xml)] **Example:** [!code-xml[Main](configuration-extensibility/samples/sample9.xml)] |
+:::row:::
+    :::column:::
+        Type
+    :::column-end:::
+    :::column:::
+        Schema Info and Examples
+    :::column-end:::
+:::row-end:::
+* * *
+:::row:::
+    :::column:::
+        **attribute**
+    :::column-end:::
+    :::column:::
+        &lt; 
+        [!code-console[Main](configuration-extensibility/samples/sample4.cmd)] 
+        **Example:**
+         [!code-xml[Main](configuration-extensibility/samples/sample5.xml)]
+        
+    :::column-end:::
+:::row-end:::
+* * *
+:::row:::
+    :::column:::
+        **element**
+    :::column-end:::
+    :::column:::
+        
+        [!code-xml[Main](configuration-extensibility/samples/sample6.xml)] 
+        **Example:**
+         [!code-xml[Main](configuration-extensibility/samples/sample7.xml)]
+        
+    :::column-end:::
+:::row-end:::
+* * *
+:::row:::
+    :::column:::
+        **collection**
+    :::column-end:::
+    :::column:::
+        
+        [!code-xml[Main](configuration-extensibility/samples/sample8.xml)] 
+        **Example:**
+         [!code-xml[Main](configuration-extensibility/samples/sample9.xml)]
+        
+    :::column-end:::
+:::row-end:::
 
 ### Step 2 – Registering the New Section
 
@@ -147,27 +189,27 @@ The required steps include:
     [!code-console[Main](configuration-extensibility/samples/sample18.cmd)]
 
     If this worked correctly, the output of sn.exe says something like "Key pair written to keyFile.snk"
-- Now compile the file and create a DLL. Run the following command from the command prompt:  
+4. Now compile the file and create a DLL. Run the following command from the command prompt:  
 
-    [!code-console[Main](configuration-extensibility/samples/sample19.cmd)]
-- Next, place the compiled assembly (SimpleLoggingModule.dll) into the Global Assembly Cache. Run the following command from the command prompt:  
+     [!code-console[Main](configuration-extensibility/samples/sample19.cmd)]
+5. Next, place the compiled assembly (SimpleLoggingModule.dll) into the Global Assembly Cache. Run the following command from the command prompt:  
 
-    [!code-console[Main](configuration-extensibility/samples/sample20.cmd)]
-- Now we must add our module to the list of modules that IIS can use. Before that, however, we must get the full name of the assembly just created. Run the following at the command line:  
+     [!code-console[Main](configuration-extensibility/samples/sample20.cmd)]
+6. Now we must add our module to the list of modules that IIS can use. Before that, however, we must get the full name of the assembly just created. Run the following at the command line:  
 
-    [!code-console[Main](configuration-extensibility/samples/sample21.cmd)]
+     [!code-console[Main](configuration-extensibility/samples/sample21.cmd)]
 
-    This outputs something like this:
+     This outputs something like this:
 
-    [!code-console[Main](configuration-extensibility/samples/sample22.cmd)]
-- Add the module to the list of modules that IIS can use. Run the command below. However, ensure that you replace the variables with the output of the last command.  
+     [!code-console[Main](configuration-extensibility/samples/sample22.cmd)]
+7. Add the module to the list of modules that IIS can use. Run the command below. However, ensure that you replace the variables with the output of the last command.  
 
-    [!code-console[Main](configuration-extensibility/samples/sample23.cmd)]
+     [!code-console[Main](configuration-extensibility/samples/sample23.cmd)]
 
-    This adds the necessary configuration entry to the applicationHost.config file - IIS's global configuration file.
-- The process is complete. The custom module, which uses custom configuration, has been setup. All that remians is to test it. Initiate the browser and navigate to http://localhost/. You see the following:  
+     This adds the necessary configuration entry to the applicationHost.config file - IIS's global configuration file.
+8. The process is complete. The custom module, which uses custom configuration, has been setup. All that remians is to test it. Initiate the browser and navigate to http://localhost/. You see the following:  
 
-    [![](configuration-extensibility/_static/image2.jpg)](configuration-extensibility/_static/image1.jpg)
+     [![](configuration-extensibility/_static/image2.jpg)](configuration-extensibility/_static/image1.jpg)
 
 If you get an error, make sure that you have given the IIS\_IUSRS group permissions to write to the directory.
 
