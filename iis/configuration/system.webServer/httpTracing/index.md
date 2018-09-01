@@ -26,7 +26,10 @@ The `<httpTracing>` element allows you to configure selective request-based even
 > To enable IIS request-based ETW, the [TracingModule](https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/iis-modules-overview#module-reference) must be installed.
 
 > [!NOTE]
-> By default, IIS emits request-based ETW events for all URLs through the provider **IIS: WWW Server** with GUID **{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}**. To enable the URL filter for ETW specified by the `<traceUrls>` collection under the `<httpTracing>` element, the first (least significant) bit of the trace flags must be set as 1 when running a ETW trace session. For example, use the trace flags **0xFFFFFFFF** for a session with the provider **IIS: WWW Server** specifies that IIS generates request-based ETW events from all [trace areas](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/tracing/traceproviderdefinitions/add/areas/) but ONLY for the URLs configured in the `<traceUrls>` collection. In contrast, to enable the same events for all URLs, set the trace flags as **0xFFFFFFE** instead.
+> By default, IIS emits request-based ETW events for all URLs through the provider **IIS: WWW Server** with GUID **{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}** (the detailed information can be found in the [`<traceProviderDefinitions>`](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/tracing/traceproviderdefinitions/) element). To enable the URL filter for ETW specified by the `<traceUrls>` collection under the `<httpTracing>` element, the first (least significant) bit of the trace flags must be set as 1 when running a ETW trace session. For example, use the trace flags **0xFFFFFFFF** for a session with the provider **IIS: WWW Server** specifies that IIS generates request-based ETW events from all [trace areas](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/tracing/traceproviderdefinitions/add/areas/) but ONLY for the URLs configured in the `<traceUrls>` collection. In contrast, to enable the same events for all URLs, set the trace flags as **0xFFFFFFE** instead.
+
+> [!NOTE]
+> The URL filter defined in the `<traceUrls>` collection under the `<httpTracing>` element only affects IIS request-based ETW, but has no impact on failed request tracing.
 
 <a id="002"></a>
 ## Compatibility
