@@ -17,10 +17,16 @@ HTTP Tracing &lt;httpTracing&gt;
 <a id="001"></a>
 ## Overview
 
-The `<httpTracing>` element allows you to configure request-based event tracing for incoming IIS requests, and contains a `<traceUrls>` element which contains a collection of `<add>` elements, each of which defines a unique URL to enable tracing.
+The `<httpTracing>` element allows you to configure selective request-based event tracing for incoming IIS requests, and contains a `<traceUrls>` element which contains a collection of `<add>` elements, each of which defines a unique URL to enable tracing.
 
 > [!NOTE]
 > Event Tracing for Windows (ETW) is a general-purpose, high-speed tracing facility provided by the operating system. Using a buffering and logging mechanism implemented in the kernel, ETW provides a tracing mechanism for events raised by both user-mode applications and kernel-mode device drivers. Additionally, ETW gives you the ability to enable and disable logging dynamically, making it easy to perform detailed tracing in production environments without requiring reboots or application restarts. The logging mechanism uses per-processor buffers that are written to disk by an asynchronous writer thread. This allows large-scale server applications to write events with minimum disturbance.
+
+> [!NOTE]
+> To enable IIS request-based ETW, the [TracingModule](https://docs.microsoft.com/en-us/iis/get-started/introduction-to-iis/iis-modules-overview#module-reference) must be installed.
+
+> [!NOTE]
+> By default, IIS emits request-based ETW events for all URLs through the provider **IIS: WWW Server** with GUID **{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}**. To enable the URL filter for ETW specified by the `<traceUrls>` collection under the `<httpTracing>` element, the first (least significant) bit of the trace flags must be set as 1 when running a ETW trace session. For example, use the trace flags **0xFFFFFFFF** for a session with the provider **IIS: WWW Server** specifies that IIS generates request-based ETW events from all [trace areas](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/tracing/traceproviderdefinitions/add/areas/) but ONLY for the URLs configured in the `<traceUrls>` collection. In contrast, to enable the same events for all URLs, set the trace flags as **0xFFFFFFE** instead.
 
 <a id="002"></a>
 ## Compatibility
