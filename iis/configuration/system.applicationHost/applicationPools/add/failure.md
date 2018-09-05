@@ -17,7 +17,7 @@ Failure Settings for an Application Pool &lt;failure&gt;
 <a id="001"></a>
 ## Overview
 
-The `<failure>` element of the `<add>` element in the `<applicationPools>` collection configures the actions to take when an application pool fails. The **autoShutdownExe**, **orphanActionExe**, **rapidFailProtection** attributes of the `<failure>` element can be especially useful when troubleshooting or debugging applications, because they give you the flexibility to specify the action that Internet Information Services (IIS) 7 will take when an application fails, such as running an external executable to log or debug the failure.
+The `<failure>` element of the `<add>` element in the `<applicationPools>` collection configures the actions to take when an application pool fails. The **autoShutdownExe**, **orphanActionExe**, **rapidFailProtection** attributes of the `<failure>` element can be especially useful when troubleshooting or debugging applications, because they give you the flexibility to specify the action that Internet Information Services (IIS) will take when an application fails, such as running an external executable to log or debug the failure.
 
 <a id="002"></a>
 ## Compatibility
