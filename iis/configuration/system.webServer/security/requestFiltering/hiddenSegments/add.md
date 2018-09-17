@@ -144,6 +144,10 @@ The following code samples will configure two options: they will configure IIS t
 
 [!code-console[Main](add/samples/sample2.cmd)]
 
+### PowerShell
+
+[!code-powershell[Main](add/samples/sample7.ps1)]
+
 ### C#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
