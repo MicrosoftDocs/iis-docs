@@ -130,6 +130,10 @@ The following examples demonstrate how to add a URL that will always be allowed 
 
 [!code-console[Main](add/samples/sample2.cmd)]
 
+### PowerShell
+
+[!code-powershell[Main](add/samples/sample7.ps1)]
+
 ### C#
 
 [!code-csharp[Main](add/samples/sample3.cs)]
