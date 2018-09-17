@@ -1,0 +1,3 @@
+Set-WebConfigurationProperty -PSPath "IIS:\Sites\Default Web Site" -Filter system.webserver/security/requestFiltering/verbs -Name "applyToWebDAV" -Value "false"
+
+Add-WebConfiguration -PSPath "IIS:\Sites\Default Web Site" -Filter system.webserver/security/requestFiltering/verbs -Value @{ verb="GET"; allowed="true" }
