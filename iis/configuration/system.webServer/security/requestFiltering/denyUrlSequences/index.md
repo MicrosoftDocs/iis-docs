@@ -158,6 +158,10 @@ The following code samples demonstrate how to deny access to three URL sequences
 
 [!code-console[Main](index/samples/sample3.cmd)]
 
+### PowerShell
+
+[!code-powershell[Main](index/samples/sample8.ps1)]
+
 ### C#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
