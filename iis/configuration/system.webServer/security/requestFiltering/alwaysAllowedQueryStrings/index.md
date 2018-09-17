@@ -132,6 +132,10 @@ The following examples demonstrate how to add a query string that will always be
 
 [!code-console[Main](index/samples/sample2.cmd)]
 
+### PowerShell
+
+[!code-powershell[Main](add/samples/sample7.ps1)]
+
 ### C#
 
 [!code-csharp[Main](index/samples/sample3.cs)]
