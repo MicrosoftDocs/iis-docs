@@ -42,7 +42,14 @@
       "_navRel": "/foo",
       "searchScope": ""
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "ms.technology": {
+        "**/**.md": "iis-appfx"
+      },
+      "ms.topic": {
+        "**/**.md": "conceptual"
+      }
+    },
     "template": [],
     "dest": "IIS"
   }
