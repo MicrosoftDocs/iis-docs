@@ -100,7 +100,7 @@ To add a server to an existing server farm, at the PowerShell prompt, enter the 
 [!code-powershell[Main](web-farm-framework-20-for-iis-cmdlets-for-windows-powershell/samples/sample7.ps1)]
 
 
-Provide the name of the web farm and sever address as prompted.
+Provide the name of the web farm and server address as prompted.
 
 To verify that the server was added, use the **Get-Server** Nmdlet as follows:
 
