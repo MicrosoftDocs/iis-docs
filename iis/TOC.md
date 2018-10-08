@@ -9,6 +9,8 @@
 ## [Access Protection](overview/access-protection.md)
 
 # Get Started
+## What’s New in IIS 10.0, version 1809?
+### [New Features Introduced in IIS 10.0, version 1809](get-started/whats-new-in-iis-10-version-1809/new-features-introduced-in-iis-10-1809.md)
 ## What’s New in IIS 10.0 Version 1709?
 ### [New Features Introduced in IIS 10.0 Version 1709](get-started/whats-new-in-iis-10-version-1709/new-features-introduced-in-iis-10-1709.md)
 ### [IIS 10.0 Version 1709 HTTP Strict Transport Security (HSTS) Support](get-started/whats-new-in-iis-10-version-1709/iis-10-version-1709-hsts.md)
