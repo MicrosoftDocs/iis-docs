@@ -258,7 +258,7 @@ Server variables can be referenced by using the {VARIABLE\_NAME} syntax. For exa
 
 Server variables can also be used to access HTTP headers from the current request. Any HTTP header supplied by the current request is represented as a server variable that has a name generated in accordance to this naming convention:
 
-1. All dash ("-") symbols in the HTTP header name are converted to underscore symbols ("\_").
+1. All underscore ("\_") symbols in the condition input are converted to dash symbols ("-") to match the http header.
 2. All letters in the HTTP header name are converted to capital case.
 3. "HTTP\_" prefix is added to the header name.
 
