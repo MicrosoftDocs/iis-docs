@@ -70,7 +70,7 @@ This section describes how to create a publishing point that can accept a live b
     ![](getting-started-with-iis-live-smooth-streaming/_static/image6.png)  
   
     > [!IMPORTANT]
-    > Before proceeding, be sure to check out the the following walkthrough article for more information about the requirements and publishing point configuration for Apple HTTP Live Smooth Streaming: [Apple HTTP Live Streaming with IIS Media Services](https://go.microsoft.com/?linkid=9750336) .
+    > Before proceeding, be sure to check out the following walkthrough article for more information about the requirements and publishing point configuration for Apple HTTP Live Smooth Streaming: [Apple HTTP Live Streaming with IIS Media Services](https://go.microsoft.com/?linkid=9750336) .
 6. In the **Add Publishing Point** dialog box, click **OK**. A new Live Smooth Streaming publishing point definition file named **LiveSmoothStream.isml** is added to the website root.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image7.png)
 7. On the **Live Smooth Streaming Publishing Points** page, select the publishing point, and then in the **Actions** pane, click **Start Publishing Point**.  

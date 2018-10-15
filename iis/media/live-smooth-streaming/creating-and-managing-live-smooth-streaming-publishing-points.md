@@ -44,7 +44,7 @@ This walkthrough contains the following topics that describe how to create publi
 
 ## Requirements
 
-This walkthrough requires that you install the the IIS Live Smooth Streaming extension in IIS Media Services 4 on a Web server running [Internet Information Services (IIS) 7](https://go.microsoft.com/?linkid=9738612). For more information about how to set up this configuration, see [Getting Started with IIS Live Smooth Streaming](getting-started-with-iis-live-smooth-streaming.md).
+This walkthrough requires that you install the IIS Live Smooth Streaming extension in IIS Media Services 4 on a Web server running [Internet Information Services (IIS) 7](https://go.microsoft.com/?linkid=9738612). For more information about how to set up this configuration, see [Getting Started with IIS Live Smooth Streaming](getting-started-with-iis-live-smooth-streaming.md).
 
 <a id="create"></a>
 

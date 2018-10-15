@@ -85,7 +85,7 @@ On the second screen of the publishing wizard (pictured below), you configure yo
 
 Of course, you do not have to bind the FTP protocol to your Web site. If you want only an FTP site, you can still set up a site that has only FTP bindings.
 
-For more information about adding FTP publishing and FTP sites, see the the following walkthroughs:
+For more information about adding FTP publishing and FTP sites, see the following walkthroughs:
 
 - [Creating a New FTP Site](https://go.microsoft.com/fwlink/?LinkId=89115)
 - [Add FTP publishing to an existing Web site](https://go.microsoft.com/fwlink/?LinkId=89116)
