@@ -1,4 +1,4 @@
----
+﻿---
 title: "Create a Web Site | Microsoft Docs"
 author: rick-anderson
 description: "When you want to publish content for access over the Internet or an intranet connection, you can add a Web site to your Web server to hold the content. Durin..."
@@ -20,7 +20,7 @@ by Tali Smith
 
 When you want to publish content for access over the Internet or an intranet connection, you can add a Web site to your Web server to hold the content.
 
-During the installation of Internet Information Services (IIS), a default Web site configuration is created in the \Inetpub\Wwwroot directory on your Web server. You can either use this default directory to publish your Web content, or create a directory at a file system location of your choice.
+During the installation of Internet Information Services (IIS), a default Web site configuration is created in the \inetpub\wwwroot directory on your Web server. You can either use this default directory to publish your Web content, or [create a directory at a file system location of your choice.](https://support.microsoft.com/en-us/kb/2752331)
 
 When you add a Web site in IIS, a site entry is created in the ApplicationHost.config file. The entry specifies the network binding for the site, maps the site to a location in the file system, and optionally specifies user credentials for content access.
 
