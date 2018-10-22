@@ -36,7 +36,7 @@ First, you must create an account (either an IIS Manager User or Windows account
 
 Second, the user must be authorized to connect to his or her Web site by using WMSVC. You can use the **IIS Manager Permissions** feature in IIS Manager to grant users the right to connect remotely to their Web sites.  
   
-Third, a user must also be authorized to perform deployments using the Web Deployment Tool. You can use the the **Management Service Delegation** feature in IIS Manager to create delegation rules that allow users to perform deployments to their Web sites and to no others.   
+Third, a user must also be authorized to perform deployments using the Web Deployment Tool. You can use the **Management Service Delegation** feature in IIS Manager to create delegation rules that allow users to perform deployments to their Web sites and to no others.   
   
 The following diagram illustrates how a user is first connected to and authorized by WMSVC, before the deployment request is routed to the handler and authorized against the handler's own rules. This quick guide will help you setup the necessary rules to allow a user to deploy IIS applications with content, set file permissions and deploy databases.
 

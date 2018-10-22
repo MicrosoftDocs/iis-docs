@@ -171,7 +171,7 @@ In this third step you will determine the assembly information for the membershi
     - Add the providers with the assembly properties from the previous steps to the `<trustedProviders>` section using the following syntax: 
 
         [!code-xml[Main](how-to-use-the-sample-read-only-xml-membership-and-role-providers-with-iis/samples/sample5.xml)]
-    - Save and close the the Administration.config file.
+    - Save and close the Administration.config file.
 
 ## Step 4: Configure a site for Forms Authentication using the XML providers
 

@@ -125,7 +125,7 @@ The first step is to create the SQL database that will store the usernames, pass
     - Add the following default authentication provider: 
 
         [!code-xml[Main](how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials/samples/sample6.xml)]
-    - Save and close the the administration.config file.
+    - Save and close the administration.config file.
 3. Close and re-open the IIS Manager.
 4. If you are using the Windows Management Service for IIS, you need to restart that service: 
 

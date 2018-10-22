@@ -57,7 +57,7 @@ Both 32-bit and 64-bit systems are supported, however only a 32-bit build of IIS
 
 ## Changes to IIS 7.5 Express
 
-The 7.5.1190 version of IIS 7.5 Express that was released in March, 2012, contains several bug fixes from the the original 7.5.1070 version of IIS 7.5 Express that was released in April, 2011, but no new features were introduced.
+The 7.5.1190 version of IIS 7.5 Express that was released in March, 2012, contains several bug fixes from the original 7.5.1070 version of IIS 7.5 Express that was released in April, 2011, but no new features were introduced.
 
 <a id="KnownIssues"></a>
 

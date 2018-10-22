@@ -76,7 +76,7 @@ This returns the 5 feeds that WebPI is currently loading and the URL where the l
 Ex: &gt;WebPICMD.exe /List /ListOption:Languages
 
 
-This returns the the list of languages and their associated language IDs
+This returns the list of languages and their associated language IDs
 
 ### /Install mode
 

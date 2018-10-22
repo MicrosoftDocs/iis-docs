@@ -80,7 +80,7 @@ Use the following values for the provider settings:
 - **SQL Server connection string**: provide a SQL Server connection string, for example:   
  "Data Source=servername\sqlexpress;Initial Catalog=RewriteDB;Integrated Security=True"
 - **Stored procedure name**: GetRewrittenUrl
-- **Cache minutes interval**: set to 0 if values in the SQL table do not change, or set to a positive integer so that provider periodically refreshes the module's internal rewrite cache. If not specified the the value of 0 is assumed.
+- **Cache minutes interval**: set to 0 if values in the SQL table do not change, or set to a positive integer so that provider periodically refreshes the module's internal rewrite cache. If not specified the value of 0 is assumed.
 
 ### Calling DbProvider from a Rewrite Rule
 

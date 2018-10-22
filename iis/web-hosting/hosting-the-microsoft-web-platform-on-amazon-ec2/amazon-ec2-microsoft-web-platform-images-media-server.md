@@ -136,7 +136,7 @@ Once you have done this it will take a few moments until the streaming of the vi
 
 ### Connect via Remote Desktop
 
-Now its time to look at how the site is configured to run Smooth Streaming files. For that we need to connect via the Remote Desktop Protocol to the the Media Server instance. Right click the instance and select "Connect".
+Now its time to look at how the site is configured to run Smooth Streaming files. For that we need to connect via the Remote Desktop Protocol to the Media Server instance. Right click the instance and select "Connect".
 
 [![](amazon-ec2-microsoft-web-platform-images-media-server/_static/image32.png)](amazon-ec2-microsoft-web-platform-images-media-server/_static/image31.png)
 
