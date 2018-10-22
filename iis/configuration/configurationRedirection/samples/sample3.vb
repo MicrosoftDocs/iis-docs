@@ -8,7 +8,7 @@ Module Sample
       Dim config As Configuration = serverManager.GetRedirectionConfiguration
       Dim redirectionSection As ConfigurationSection = config.GetSection("configurationRedirection")
       redirectionSection.Attributes("enabled").Value = True
-      redirectionSection.Attributes("path").Value = "\\SeverName\ShareName"
+      redirectionSection.Attributes("path").Value = "\\ServerName\ShareName"
       redirectionSection.Attributes("userName").Value = "MyUser"
       redirectionSection.Attributes("password").Value = "P@ssw0rd"
       serverManager.CommitChanges()

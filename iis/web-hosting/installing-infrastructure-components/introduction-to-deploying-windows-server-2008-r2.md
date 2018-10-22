@@ -28,7 +28,7 @@ Hosting Guidance provides PowerShell Scripts samples and guidance to set up key 
 
 Assuming that the goal is to deploy a particular Server Role to a large set of available machines, the simplest approach consists of three steps:
 
-1. Prepare an initial sever with the OS and the software configuration required for the Server Role. - Use WDS to create an image of the server. - Use WDS to deploy such image onto the target machines.
+1. Prepare an initial server with the OS and the software configuration required for the Server Role. - Use WDS to create an image of the server. - Use WDS to deploy such image onto the target machines.
 
 However, there will be cases in which this simple approach is not enough. For example, in some organizations there are multiple data centers situated in different environments, each with specific settings to satisfy locale/geography, security, network, and/or functionality requirements for which a common base image of particular Server Roles is desired to enforce organizational policies, but is not sufficient for full deployment due to the complexity of the post deployment configuration steps.
 

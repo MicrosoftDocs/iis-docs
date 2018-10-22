@@ -12,7 +12,7 @@ internal static class Sample
          ConfigurationSection redirectionSection = config.GetSection("configurationRedirection");
 
          redirectionSection.Attributes["enabled"].Value = true;
-         redirectionSection.Attributes["path"].Value = @"\\SeverName\ShareName";
+         redirectionSection.Attributes["path"].Value = @"\\ServerName\ShareName";
          redirectionSection.Attributes["userName"].Value = @"MyUser";
          redirectionSection.Attributes["password"].Value = @"P@ssw0rd";
 
