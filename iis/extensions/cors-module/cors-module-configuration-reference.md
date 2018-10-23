@@ -39,7 +39,7 @@ A CORS preflight request is used to determine whether the resource being request
 
 The IIS CORS is configured via a site or application *web.config* file and has its own `cors` configuration section within `system.webServer`.
 
-Below are the configuration examples to enable CORS for a site named contentSite with allowing * origin host except the origin host which starts with http://* and for https://*.microsoft.com host origin, the CORS response is customized with various CORS configuration as examples.
+Below are the configuration examples to enable CORS for a site named contentSite. The * origin allows all host origins; however, those that start with http://* are later excluded. For the https://*.microsoft.com host origin, the CORS response is customized with various CORS configurations as examples.
 
  ```xml
  <?xml version="1.0" encoding="UTF-8"?>
