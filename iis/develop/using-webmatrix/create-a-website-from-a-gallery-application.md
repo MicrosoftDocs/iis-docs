@@ -16,7 +16,7 @@ Create a Website from a Gallery Application
 ====================
 by [Robert McMurray](https://github.com/rmcmurray)
 
-[!include[outdatedContent](../../outdatedContentWarning.md)]
+[!include[outdatedContent](xref:outdatedContentWarning)]
 
 Microsoft has created a new authoring tool for the web named "WebMatrix," which is focused on creating websites the way that you want to create them. You can create websites from scratch or a template, or you can use one of several popular open source applications. WebMatrix Beta lets you download an application from an application gallery, customize it for your needs, analyze it for broken links, optimize it for the web, and deploy it to your hosting provider. (And if you don't have a hosting provider, WebMatrix Beta can help you find one!)
 
