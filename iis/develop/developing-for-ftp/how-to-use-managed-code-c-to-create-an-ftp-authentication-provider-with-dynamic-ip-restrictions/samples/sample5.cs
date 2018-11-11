@@ -284,7 +284,7 @@ public class FtpAddressRestrictionAuthentication :
     string tableName,
     string criteria)
   {
-    // Create a SQL string to retrive the count of records 
+    // Create a SQL string to retrieve the count of records 
     // that are found in a table based on the criteria.
     StringBuilder sqlString = new StringBuilder();
     sqlString.Append("SELECT COUNT(*) AS [NumRecords]");
