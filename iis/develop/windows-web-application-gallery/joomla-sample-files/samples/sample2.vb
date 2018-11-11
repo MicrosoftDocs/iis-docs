@@ -278,7 +278,7 @@ match="PlaceHolderForAdminUser" />
 <!-- Prompt user for Joomla Site Administrator password -->
 
 <parameter name="Site Administrator Password"
-description="Joomla Site Administrator Password must be atleast 8 characters in length with atleast one lower case/uppercase letter and atleast one special character/numeric"
+  description="Joomla Site Administrator Password must be at least 8 characters in length with at least one lower case/uppercase letter and at least one special character/numeric"
 tags="New,Password,NoStore" >
 
 <!-- This Regular Expression ensures that Passwords will contain at least (1) upper case letter/at least (1) lower case letter, at least (1) number or special character, and be least (8) characters in length. -->
