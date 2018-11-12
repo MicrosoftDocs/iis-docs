@@ -99,7 +99,7 @@ If you are using the Process Monitor utility on a computer that has a default in
 
 This error shows that the JET database engine cannot create a temporary file as the impersonated Application Pool identity in the default Windows temporary directory. This occurs when you use default settings for the release version of IIS on Windows Server 2008 and Windows Vista SP1, where IIS does not load the user profile for the Application Pool identity's profile by default. To resolve this issue, you could change the permissions on the %*SystemDrive*%\Windows\Temp directory to allow read/write permission for the impersonated user.
 
-If you are using the original release version of Windows Vista you may see an error that resembles the following when when ASP connects to an Access database:
+If you are using the original release version of Windows Vista you may see an error that resembles the following when ASP connects to an Access database:
 
 
 | Process Name: | w3wp.exe |
