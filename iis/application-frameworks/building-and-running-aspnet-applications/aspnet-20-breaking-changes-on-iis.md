@@ -46,7 +46,7 @@ A. You must migrate the application configuration to work properly in Integrated
 
 [!code-powershell[Main](aspnet-20-breaking-changes-on-iis/samples/sample1.ps1)]
 
-B. You can migrate manually by moving the custom entries in in the `<system.web>/<httpModules>` and `<system.web>/<httpHandlers>` configuration manually to the `<system.webServer>/<handlers>` and `<system.webServer>/<modules>` configuration sections, and either removing the `<httpHandlers>` and `<httpModules>` configuration OR adding the following to your application's web.config:
+B. You can migrate manually by moving the custom entries in the `<system.web>/<httpModules>` and `<system.web>/<httpHandlers>` configuration manually to the `<system.webServer>/<handlers>` and `<system.webServer>/<modules>` configuration sections, and either removing the `<httpHandlers>` and `<httpModules>` configuration OR adding the following to your application's web.config:
 
 [!code-xml[Main](aspnet-20-breaking-changes-on-iis/samples/sample2.xml)]
   
