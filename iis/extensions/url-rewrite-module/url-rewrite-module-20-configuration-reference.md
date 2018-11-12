@@ -79,7 +79,7 @@ The main configuration concept used for response rewriting is the concept of an 
 
 Conceptually, an outbound rule consists of the following parts:
 
-- **Pre-condition** - The optional pre-condition is used to to check the request metadata before any rules evaluation begins. Pre-condition may consist of several conditional checks against request metadata and it can be used to filter out responses that should not be rewritten, for example, images or video files.
+- **Pre-condition** - The optional pre-condition is used to check the request metadata before any rules evaluation begins. Pre-condition may consist of several conditional checks against request metadata and it can be used to filter out responses that should not be rewritten, for example, images or video files.
 - **Tag filters** - The tag filters are used to narrow down the search within the response to a set of well known or custom defined tags. With tag filters only the content of specified tags is matched against the rule pattern, as opposed to matching the entire response content against the pattern.
 - **Pattern** – The rule pattern is used to specify either the regular expression or a wildcard pattern that will be used for searching within the response content.
 - **Conditions** – The optional conditions collection is used to specify additional logical operations to perform if a pattern match has been found within the response content. Within the conditions you can check for certain values of HTTP headers or server variables.

@@ -112,7 +112,7 @@ This section describes how to use the Sample Content and Sample Client files to 
  The on-demand Smooth Stream opens in the web browser, using the Silverlight browser plug-in for Smooth Streaming.  
     ![](getting-started-with-iis-smooth-streaming/_static/image8.png)
 
-For more information about how to to build rich Silverlight user experiences that take full advantage of on-demand and live IIS Smooth Streaming capabilities, see the [Smooth Streaming Client webpage](https://go.microsoft.com/?linkid=9752845).
+For more information about how to build rich Silverlight user experiences that take full advantage of on-demand and live IIS Smooth Streaming capabilities, see the [Smooth Streaming Client webpage](https://go.microsoft.com/?linkid=9752845).
 
 
 > [!NOTE]

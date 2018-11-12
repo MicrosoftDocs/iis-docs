@@ -175,7 +175,7 @@ Open `%systemdrive%\inetpub\logs\simpleLogs` (or whatever directory you used in 
 
 [![](configuration-extensibility/_static/image4.jpg)](configuration-extensibility/_static/image3.jpg)
 
-Experiment with the configuration to ensure that it is working. Try removing the **simpleLogging** section from your web.config file and check to see if the logs go to to the default location (just ensure that the ASPNET user has the correct permissions).
+Experiment with the configuration to ensure that it is working. Try removing the **simpleLogging** section from your web.config file and check to see if the logs go to the default location (just ensure that the ASPNET user has the correct permissions).
 
 > [!NOTE]
 > The module we just created is for demonstration purposes only and should not be used in a production environment. It will fail if there are multiple requests trying to write a log entry at the same time.
