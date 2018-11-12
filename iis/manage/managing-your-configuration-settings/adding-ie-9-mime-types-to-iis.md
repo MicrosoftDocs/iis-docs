@@ -18,7 +18,7 @@ by Randall DuBois
 
 The preview release of Microsoft Internet Explorer (IE) version 9 includes support for additional MIME Types for rich media applications. To support the additional MIME Types, the MIME types must be added to your IIS server.
 
-The following additonal MIME types are supported in IE 9:
+The following additional MIME types are supported in IE 9:
 
 | File name extension | MIME type |
 | --- | --- |
