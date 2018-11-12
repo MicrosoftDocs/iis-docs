@@ -78,7 +78,7 @@ Execute the following command if you want to know more about signing and executi
 [!code-console[Main](installing-the-iis-powershell-snap-in/samples/sample4.cmd)]
 
 
-#### Trust Microsoft Code Signing Certficate to Trusted Publishers List
+#### Trust Microsoft Code Signing Certificate to Trusted Publishers List
 
 To trust the IIS Provider scripts and binaries you can hit "A" in the above dialog and it will add the code signing certificate used by the IIS Snap-in to the list of Trusted Publishers. You can get a list of "Trusted Publishers" with the following command:
 
