@@ -133,7 +133,7 @@ Before starting the installation procedure for Joomla, you must create a databas
 
 ## Enable Search Engine Friendly URLs
 
-By default, Joomla uses query string parameters for all the URLs it generates for your Web site. You change this by by enabling search engine friendly URLs, a feature which relies on the URL rewriting functionality.
+By default, Joomla uses query string parameters for all the URLs it generates for your Web site. You change this by enabling search engine friendly URLs, a feature which relies on the URL rewriting functionality.
 
 IIS 6.0 does not include URL rewriting capabilities; you can use a third-party URL rewriting product such as [ISAPI\_Rewrite](https://www.iis.net/downloads?tabid=34&g=6&i=1599) or [Ionics ISAPI Rewrite Filter](http://www.codeplex.com/IIRF).
 
