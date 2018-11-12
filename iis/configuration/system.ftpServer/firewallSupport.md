@@ -17,7 +17,7 @@ FTP Firewall Support &lt;firewallSupport&gt;
 <a id="001"></a>
 ## Overview
 
-The `<system.ftpServer/firewallSupport>` element is used to configure the port range that the FTP service will use for data channel activity when when you use the FTP PASV command to negotiate passive connections, which contains IP address and port of the server.
+The `<system.ftpServer/firewallSupport>` element is used to configure the port range that the FTP service will use for data channel activity when you use the FTP PASV command to negotiate passive connections, which contains IP address and port of the server.
 
 When passive connections are negotiated using the FTP PASV command, the FTP server sends a response which contains IP address and port of the server. By specifying the `lowDataChannelPort` and `highDataChannelPort` attributes, you can direct FTP clients to communicate with your firewall, which should route the client traffic to your FTP server.
 
