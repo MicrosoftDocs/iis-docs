@@ -32,7 +32,7 @@ The `<applicationDefaults>` element of the `<sites>` element specifies the defau
 | IIS 8.0 | The `<applicationDefaults>` element was not modified in IIS 8.0. |
 | IIS 7.5 | The `<applicationDefaults>` element was not modified in IIS 7.5. |
 | IIS 7.0 | The `<applicationDefaults>` element of the `<sites>` element was introduced in IIS 7.0. |
-| IIS 6.0 | The `<applicationDefaults>` element is analogous to setting setting application options at the **W3SVC** level in the IIS 6.0 metabase. |
+| IIS 6.0 | The `<applicationDefaults>` element is analogous to setting application options at the **W3SVC** level in the IIS 6.0 metabase. |
 
 <a id="003"></a>
 ## Setup
