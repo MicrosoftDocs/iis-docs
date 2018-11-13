@@ -180,7 +180,7 @@ To use this example, you would need to set UseAllowVerbs to 1 in the [Options] s
 
 ### [DenyVerbs] Section
 
-The [DenyVerbs] section contains a list of HTTP verbs or methods. If UseAllowVerbs is set to 0 in the [Options] section, UrlScan will reject any request that contains a a verb that is listed in this section. The entries in this section are not case sensitive.
+The [DenyVerbs] section contains a list of HTTP verbs or methods. If UseAllowVerbs is set to 0 in the [Options] section, UrlScan will reject any request that contains a verb that is listed in this section. The entries in this section are not case sensitive.
 
 ##### Example [DenyVerbs] Section
 
