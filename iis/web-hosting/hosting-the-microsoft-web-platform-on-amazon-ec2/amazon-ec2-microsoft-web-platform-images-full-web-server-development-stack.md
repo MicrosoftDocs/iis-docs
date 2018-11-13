@@ -159,7 +159,7 @@ Armed with these two pieces of information we are armed to publish the ASP.NET w
 In the upcoming dialog you have to enter several pieces of the data. But let's do this step by step:
 
 1. Click the "Rename" button and rename "Profile1" to "My EC2 Publishing Profile"
-2. Copy the DNS name of your EC2 instance in the "Service URL:" textbox. It works without explicitely specifying "https://" as shown below.
+2. Copy the DNS name of your EC2 instance in the "Service URL:" textbox. It works without explicitly specifying "https://" as shown below.
 3. Specify "Default Web Site" (without quotes) in the "Site/Application" textbox. If you want to publish the "Hello EC2" web application not to the root of the "Default Web Site" you can specify an additional application name, e.g. "Default Web Site/helloEC2".
 4. The EC2 instance works with a self-signed SSL certificate to ensure the traffic between your client and the EC2 instance is encrypted. The self-signed certificate is not trusted yet and you have to check the checkbox "Allow untrusted certificate".
 5. Specify the administrative credentials for the EC2 instance. The username is "Administrator" and you retrieved the password for the EC2 instance in a previous step.
