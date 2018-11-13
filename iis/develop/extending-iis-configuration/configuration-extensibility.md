@@ -258,7 +258,7 @@ Finally, this article examines extending configuration with a method. Configurat
     [!code-csharp[Main](configuration-extensibility/samples/sample30.cs)]
 
     > [!NOTE]
-    > We have implemented the **IappHostMethodExtension** interface. This interface has a single method called **ProvideMethod** which logically provides the method. When someone calls the method (see Step 3 for how to do this), the configuration system calls ProvideMethod and passes parameters, one of which has the name of the method being called; in the code above, we only handle a method called "deleteLogs".
+    > We have implemented the **IAppHostMethodExtension** interface. This interface has a single method called **ProvideMethod** which logically provides the method. When someone calls the method (see Step 3 for how to do this), the configuration system calls ProvideMethod and passes parameters, one of which has the name of the method being called; in the code above, we only handle a method called "deleteLogs".
 2. Build the project again using:  
 
     [!code-console[Main](configuration-extensibility/samples/sample31.cmd)]
