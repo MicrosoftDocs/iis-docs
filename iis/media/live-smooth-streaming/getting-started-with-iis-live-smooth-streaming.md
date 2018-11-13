@@ -116,7 +116,7 @@ This section describes how to create a Live Smooth Streaming broadcast in [Micro
 5. On the **Output** tab, if the **Streaming** check box is present, select it to activate streaming.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image13.png)  
   
- To publish your content, select **Publishing Point**, and then in the **Location** box, type the URL of the Live Smooth Smooth Streaming publishing point that you want to publish your live broadcast to.  
+ To publish your content, select **Publishing Point**, and then in the **Location** box, type the URL of the Live Smooth Streaming publishing point that you want to publish your live broadcast to.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image14.png)  
   
  URL syntax: http://*ServerName*/*SiteName*/*DirectoryName*/*PublishingPointDefinitionFileName*.isml  
