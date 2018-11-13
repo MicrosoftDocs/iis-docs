@@ -165,7 +165,7 @@ The required steps include:
     [!code-console[Main](configuration-extensibility/samples/sample23.cmd)]
 
     This adds the necessary configuration entry to the applicationHost.config file - IIS's global configuration file.
-- The process is complete. The custom module, which uses custom configuration, has been setup. All that remians is to test it. Initiate the browser and navigate to http://localhost/. You see the following:  
+- The process is complete. The custom module, which uses custom configuration, has been setup. All that remains is to test it. Initiate the browser and navigate to http://localhost/. You see the following:  
 
     [![](configuration-extensibility/_static/image2.jpg)](configuration-extensibility/_static/image1.jpg)
 
