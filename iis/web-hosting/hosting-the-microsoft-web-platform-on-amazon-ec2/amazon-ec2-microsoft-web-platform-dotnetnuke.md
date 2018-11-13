@@ -72,7 +72,7 @@ Now we are ready to launch an EC2 DotNetNuke instance.
 
 Launching an DotNetNuke Instance
 
-Click the "Instances" menu item on the left hand sid eand click the "Launch Instance" button.   
+Click the "Instances" menu item on the left hand side and click the "Launch Instance" button.   
 [![](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image10.png)](amazon-ec2-microsoft-web-platform-dotnetnuke/_static/image9.png)
 
 Now select "Community Images" in the resulting dialog.
