@@ -293,7 +293,7 @@ The above was a quick overview of how to provide new configuration and configura
 
 The final aspect of configuration extensibility is the ability to extend existing configuration sections such as the **system.webServer/sites** section, or to extend the **system.webServer/simpleLogging** section created in the previous two sections.
 
-Extending an existing configuration section is as easy as creating a new one. Simply define the schema as xml and place the schema file in the `%windir%\system32\inetsrv\config\schema\` directory. This should sound familiar, as we have done this previously mpre than once.
+Extending an existing configuration section is as easy as creating a new one. Simply define the schema as xml and place the schema file in the `%windir%\system32\inetsrv\config\schema\` directory. This should sound familiar, as we have done this previously more than once.
 
 ### Extending the "sites" configuration
 
