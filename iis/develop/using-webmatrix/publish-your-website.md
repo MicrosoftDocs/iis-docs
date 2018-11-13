@@ -101,7 +101,7 @@ Configuring WebMatrix Beta for Publishing
 8. If you don't want to enter the password every time you publish, select the **Save password** check box.
 9. Click **Validate Connection** to verify that WebMatrix Beta is able to connect to the hosting provider. WebMatrix Beta displays the results to the right of the button.  
     [![](publish-your-website/_static/image10.jpg)](publish-your-website/_static/image9.jpg)  
- If the connection test fails, double-check that that you entered the information correctly. If you did but validation continues to display an error, contact the hosting provider for help.
+ If the connection test fails, double-check that you entered the information correctly. If you did but validation continues to display an error, contact the hosting provider for help.
 10. If your website uses a full SQL Server or SQL Server Express database (that is, not a SQL Server Compact database), enter the connection string that was sent to you by the hosting provider.  
  If the SQL Server database doesn't appear in the dialog box, make sure it has a connection string in the Web.config file. For more information, see     *About Connection Strings* later in this document.
 11. If a SQL Server Compact database does not appear in this dialog box, make sure that the .sdf file is in the App\_Data folder.
