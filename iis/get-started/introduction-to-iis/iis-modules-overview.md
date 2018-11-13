@@ -408,7 +408,7 @@ These modules do not provide request services, but instead assist the server eng
 | Dependencies: | None. |
 | Potential issues when removing this module | If this module is removed, the rules specified in the requestFiltering section no longer apply. Potential security issues may result. |
 | **Module Name:** | **CustomLoggingModule** |
-| Description: | Implements the ILogPlugin interface on top of IIS. ILogPlugin is a previous COM implmentation that allowed customers to extend IIS logging. We do not not recommend extending IIS using this interface. Instead, customers should write a module and subscribe to the RQ\_LOG\_REQUEST notification. |
+| Description: | Implements the ILogPlugin interface on top of IIS. ILogPlugin is a previous COM implementation that allowed customers to extend IIS logging. We do not not recommend extending IIS using this interface. Instead, customers should write a module and subscribe to the RQ\_LOG\_REQUEST notification. |
 | Configuration sections: | system.webServer/httpLogging and system.applicationhost/sites/site/logFile/customLogPluginClsid |
 | Dependencies: | None. |
 | Potential issues when removing this module | A custom log plug-in will no longer be called. For example, ODBC Logging is implemented as ILogPlugin. |
