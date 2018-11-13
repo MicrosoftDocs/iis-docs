@@ -28,7 +28,7 @@ match="joomla_17"/>
 <!-- Database Parameters -->
 
 <!-- Prompts the user for the database server name.-->
-<!-- Note that this parameter has only one parameterEntry element. This parameter is used with the configuration file and the connection string. It is not used within the SQL script itself like the other paramters are. -->
+<!-- Note that this parameter has only one parameterEntry element. This parameter is used with the configuration file and the connection string. It is not used within the SQL script itself like the other parameters are. -->
 
 <parameter name="DatabaseServer"
 description="This is usually localhost or a host name provided by the hosting provider."
