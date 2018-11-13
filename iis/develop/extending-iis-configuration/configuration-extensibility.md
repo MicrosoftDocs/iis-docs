@@ -18,7 +18,7 @@ by IIS Team
 
 ## Introduction
 
-The configuration system in IIS 7.0 and above is based on distributed xml files that contain the configuration for IIS, ASP.NET and other components; flexibility in the configuration system also allows for configuration to be set at a a number of levels including at the server, the site and the application level. Configuration at the site and application level coexists alongside ASP.NET configuration in web.config files.
+The configuration system in IIS 7.0 and above is based on distributed xml files that contain the configuration for IIS, ASP.NET and other components; flexibility in the configuration system also allows for configuration to be set at a number of levels including at the server, the site and the application level. Configuration at the site and application level coexists alongside ASP.NET configuration in web.config files.
 
 One aspect of the new configuration system is the ease with which configuration can be extended. It is possible, with only a few simple changes, to integrate custom configuration sections directly into the configuration system and manipulate these settings using the existing administration APIs. Configuration is extended by simply defining a new configuration section in an XML schema file which is then dropped in the IIS schema directory `%windir%\system32\inetsrv\config\schema`. Finally, the new configuration section has to be registered in the IIS global configuration file.
 

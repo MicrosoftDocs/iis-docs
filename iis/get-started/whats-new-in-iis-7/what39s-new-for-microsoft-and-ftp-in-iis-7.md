@@ -27,7 +27,7 @@ by [Tim Elhajj and R McMurray](https://github.com/rmcmurray)
 
 ## Introduction
 
-Microsoft released an updated FTP service that is available as a separate download for Windows Server® 2008 and above that provides a a robust, secure solution for FTP in a Windows environment. This FTP service was written specifically for Windows Server 2008 and above, and enables Web authors to publish content more easily and securely than before, and offers both Web administrators and hosters better integration, management, authentication and logging features. It should be noted that there are two FTP services available for IIS:
+Microsoft released an updated FTP service that is available as a separate download for Windows Server® 2008 and above that provides a robust, secure solution for FTP in a Windows environment. This FTP service was written specifically for Windows Server 2008 and above, and enables Web authors to publish content more easily and securely than before, and offers both Web administrators and hosters better integration, management, authentication and logging features. It should be noted that there are two FTP services available for IIS:
 
 - The new Microsoft FTP service for IIS is provided as a download from the Web for Windows Server 2008.
 - The other FTP service ships on the Windows Vista™ and Windows Server 2008 DVD. (This FTP service is essentially the same FTP service from IIS 6.0.)
