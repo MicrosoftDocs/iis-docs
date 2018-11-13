@@ -132,7 +132,7 @@ Visual Studio 2010 offers a completely new one-click deployment model for web ap
 
 ### Creating a Web Application Project in Visual Studio 2010
 
-Once you have started Visual Studio 2010 selct "File" - "New" - "Project" and select "ASP.NET Application" (make sure you select the "Web" project template). Use the project name "HelloEC2".
+Once you have started Visual Studio 2010 select "File" - "New" - "Project" and select "ASP.NET Application" (make sure you select the "Web" project template). Use the project name "HelloEC2".
 
 [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image28.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image27.png)
 
