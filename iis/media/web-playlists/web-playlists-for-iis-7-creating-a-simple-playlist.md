@@ -137,7 +137,7 @@ The **Seek** control in players is ignored when a media entry is a nested playli
 
 ## Adding HTTPD Media Entries
 
-Web Playlists can use media entries that begin with the httpd:// URL prefix to request that an external application, such as an ASP page, ASP.NET, or PHP application computes the correct content path/URL to serve. Server variables can be included in the URL while requesting these applications using the {var\_name} syntax (for example, httpd://{SERVER\_NAME}:{SERVER\_PORT}/pre.aspx). Remote applications can use this information to to determine the correct content to serve. The call flow is best captured by the following figure:
+Web Playlists can use media entries that begin with the httpd:// URL prefix to request that an external application, such as an ASP page, ASP.NET, or PHP application computes the correct content path/URL to serve. Server variables can be included in the URL while requesting these applications using the {var\_name} syntax (for example, httpd://{SERVER\_NAME}:{SERVER\_PORT}/pre.aspx). Remote applications can use this information to determine the correct content to serve. The call flow is best captured by the following figure:
 
 [![](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image12.jpg)](web-playlists-for-iis-7-creating-a-simple-playlist/_static/image11.jpg)
 
