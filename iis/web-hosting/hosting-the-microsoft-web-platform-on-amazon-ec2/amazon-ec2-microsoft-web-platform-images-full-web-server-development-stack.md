@@ -190,7 +190,7 @@ Click "Download shortcut file" in the dialog that follows:
 
 [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image46.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image45.png)
 
-The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefoxes Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
+The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefox's Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
 Once connected you will get logged on to the remote machine.
 
 ## Summary
