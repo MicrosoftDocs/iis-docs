@@ -20,7 +20,7 @@ Adding WebDAV Property Stores &lt;add&gt;
 The WebDAV module is designed to support multiple property store providers, which are defined in the `webdav/globalSettings/propertyStores` collection. A series of `<add>` elements define the settings for each property provider in the [`<propertyStores>`](index.md) collection.
 
 > [!NOTE]
-> Currently the only property store provider is **webdav\_simple\_prop**, which stores WebDAV properties in files that are named Propeties.dav in each content directory.
+> Currently the only property store provider is **webdav\_simple\_prop**, which stores WebDAV properties in files that are named Properties.dav in each content directory.
 
 <a id="002"></a>
 ## Compatibility
