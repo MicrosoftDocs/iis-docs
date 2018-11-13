@@ -391,7 +391,7 @@ These modules do not provide request services, but instead assist the server eng
 | Description: | Implements ISAPI Extension functionality. |
 | Configuration sections: | system.webServer/isapiCgiRestriction |
 | Dependencies: | None. |
-| Potential issues when removing this module | ISAPI Extensions mapped in the `<handlers>` section (modules=&quot;IsapiModule&quot;) or explicitely called ISAPI Extensions will no longer work. |
+| Potential issues when removing this module | ISAPI Extensions mapped in the `<handlers>` section (modules=&quot;IsapiModule&quot;) or explicitly called ISAPI Extensions will no longer work. |
 | **Module Name:** | **IsapiFilterModule** |
 | Description: | Implements ISAPI filter functionality. |
 | Configuration sections: | system.webServer/isapiFilters |
