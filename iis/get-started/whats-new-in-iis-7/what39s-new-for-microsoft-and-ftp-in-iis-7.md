@@ -41,7 +41,7 @@ There are two separate downloadable packages for the new FTP server; you will ne
 
     - [FTP 7.5 for IIS 7.0 (x64)](https://go.microsoft.com/fwlink/?LinkID=143197)
 
-For more information about installing the new FTP service, see the the following walkthrough:
+For more information about installing the new FTP service, see the following walkthrough:
 
 - [Installing and Troubleshooting FTP7.5](https://go.microsoft.com/fwlink/?LinkId=88547)
 
@@ -99,7 +99,7 @@ The FTP service for IIS supports for emerging Internet standards like IPv6, UTF8
 
 The industry has addressed how to secure FTP traffic in several different ways. Although there no single standard has emerged, there are two similarly named protocols: FTPS and SFTP. To clarify, Microsoft offers an FTP over SSL (FTPS) solution. Microsoft currently does not provide a solution for securing FTP traffic using FTP over SSH (SFTP).
 
-For more information about FTP and SSL, see the the following walkthrough:
+For more information about FTP and SSL, see the following walkthrough:
 
 - [Configure FTP over SSL](https://go.microsoft.com/fwlink/?LinkId=89117)
 
@@ -110,7 +110,7 @@ We have added support for additional authentication methods that enable Web host
 - Web Manager authentication: these accounts are usually created for managing IIS web sites
 - .NET Membership authentication: these accounts are usually used with ASP.NET's forms-based authentication
 
-For more information about using non-Windows authentication with FTP, see the the following walkthroughs:
+For more information about using non-Windows authentication with FTP, see the following walkthroughs:
 
 - [Configure IIS Manager Authentication](https://go.microsoft.com/fwlink/?LinkId=100142)
 - [Configuring FTP with .NET Membership Authentication](https://go.microsoft.com/fwlink/?LinkId=129533)
@@ -124,7 +124,7 @@ In this FTP service we have added virtual host name support to FTP. By using hos
 ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image9.jpg)
 
 
-For more information about using FTP virtual host names, see the the following walkthrough:
+For more information about using FTP virtual host names, see the following walkthrough:
 
 - [Configure FTP virtual host names](https://go.microsoft.com/fwlink/?LinkId=89119)
 
@@ -139,7 +139,7 @@ We have improved support for FTP user isolation configuration. All of the previo
 ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image1.png)
 
 
-For more information about configuring FTP user isolation, see the the following walkthrough:
+For more information about configuring FTP user isolation, see the following walkthrough:
 
 - [Configure FTP User Isolation](https://go.microsoft.com/fwlink/?LinkId=89118)
 
@@ -150,7 +150,7 @@ You can now make virtual directories visible to FTP clients by selecting an opti
 ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image3.png)
 
 
-You can also configure the directory browsing options to return the available bytes to FTP clients, which is especially useful if you are using Disk Quotas from Windows Server's File System Resource Manager (FSRM). For more information about using this feature with FTP, see the the following walkthrough:
+You can also configure the directory browsing options to return the available bytes to FTP clients, which is especially useful if you are using Disk Quotas from Windows Server's File System Resource Manager (FSRM). For more information about using this feature with FTP, see the following walkthrough:
 
 - [Using FSRM Folder Quotas with FTP](https://go.microsoft.com/fwlink/?LinkId=100092)
 
