@@ -97,7 +97,7 @@ Configuring WebMatrix Beta for Publishing
 
     1. Enter the **Server**, **User name**, **Password**, and **Destination URL** as described above for Web Deploy.
     2. In the **Site path** box, enter the value identified by the hosting company as the "Site Root," such as /wwwroot. This field is optional.
-7. If you want to upload only the finles that have changed locally, select **Upload locally changed files**.
+7. If you want to upload only the files that have changed locally, select **Upload locally changed files**.
 8. If you don't want to enter the password every time you publish, select the **Save password** check box.
 9. Click **Validate Connection** to verify that WebMatrix Beta is able to connect to the hosting provider. WebMatrix Beta displays the results to the right of the button.  
     [![](publish-your-website/_static/image10.jpg)](publish-your-website/_static/image9.jpg)  
