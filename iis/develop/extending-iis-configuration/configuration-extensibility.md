@@ -275,7 +275,7 @@ The change defined a new method called "deleteLogs" and tells the configuration 
 
 ### Step 3 - Testing
 
-Finally, check to see if the method is working. A quick and easy way to do this is to write a simple VB script. Below is an example script that outputs the logfileCount, then calls our method and ouputs the logfileCount. Simply update the SimpleLoggingTest.vbs file you created earlier and enter the following:
+Finally, check to see if the method is working. A quick and easy way to do this is to write a simple VB script. Below is an example script that outputs the logfileCount, then calls our method and outputs the logfileCount. Simply update the SimpleLoggingTest.vbs file you created earlier and enter the following:
 
 
 [!code-vb[Main](configuration-extensibility/samples/sample33.vb)]
