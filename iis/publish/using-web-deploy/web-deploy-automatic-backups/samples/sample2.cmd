@@ -1,1 +1,1 @@
-..\BackupScripts.ps1
+. .\BackupScripts.ps1
