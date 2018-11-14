@@ -163,7 +163,7 @@ Figure 5. The composite manifest for a highlights clip.
 
 #### Content Management System Content Manifest Support for the RCE
 
-For NBC, deltatre integrated the RCE directly into the content management system (CMS) to provide a seamless workflow for the editors creating the highlights, as shown in Figure 6. At the end of each editing session, the RCE called web services via the CMS to save an XML-based project file. The editor could then use the CMS to add any necessary metadata associated with the new highlight (for example, a title, description, sport, athletes involved, and so on). When the highlight was ready to be published, the CMS sent the RCE project file to a web service provided by Southworks that transformed the file into a Composite Manifest (.csm) file that was uploaded to the IIS origin server.
+For NBC, delta tre integrated the RCE directly into the content management system (CMS) to provide a seamless workflow for the editors creating the highlights, as shown in Figure 6. At the end of each editing session, the RCE called web services via the CMS to save an XML-based project file. The editor could then use the CMS to add any necessary metadata associated with the new highlight (for example, a title, description, sport, athletes involved, and so on). When the highlight was ready to be published, the CMS sent the RCE project file to a web service provided by Southworks that transformed the file into a Composite Manifest (.csm) file that was uploaded to the IIS origin server.
 
 [![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image27.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image26.jpg)
 
@@ -238,11 +238,13 @@ Figure 10. Workflow for ad insertion for rewind videos.
 
 #### Ads in "Encores"
 
-Ads were also inserted into the file-based, high-quality highlights VOD content created by the NBC Highlights Factory in Vancouver. For these "encore" clips, the Highlights Factory used high resolution OBS master material and then created either cut-only edits or more complex material for glossier pieces that included a voice-over, graphics, and transitions. Examples of these pieces included presentations of events after they were broadcast on TV, such as the opening ceremonies. As shown in Figure 11 the clips were encoded only after they were approved and were published through the **delta** tre CMS
+Ads were also inserted into the file-based, high-quality highlights VOD content created by the NBC Highlights Factory in Vancouver. For these "encore" clips, the Highlights Factory used high resolution OBS master material and then created either cut-only edits or more complex material for glossier pieces that included a voice-over, graphics, and transitions. Examples of these pieces included presentations of events after they were broadcast on TV, such as the opening ceremonies. As shown in Figure 11 the clips were encoded only after they were approved and were published through the **delta** tre CMS.
 
 ![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image78.jpg)
 
-Figure 11. Ad workflow for encore highlight videos. Figure 12 illustrates an example of how ad markers were incorporated in high production quality VOD encores.
+Figure 11. Ad workflow for encore highlight videos.
+
+Figure 12 illustrates an example of how ad markers were incorporated in high production quality VOD encores.
 
 [![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image91.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image90.jpg)
 
@@ -250,7 +252,7 @@ Figure 12. Example of ad marker incorporation into an encore highlights video.
 
 ### Monitoring Ads
 
-An inverse correlation exists between advertising and viewership, so broadcasters strive for an optimum balance between popularity of content and the number of ads they can serve without losing viewers. As seen in Figure 13, Conviva's real-time insights allowed monitoring of the real-time experience of the viewers of the live stream and on-demand content. This helps to deliver ads at an optimum level. For example, if more ads are scheduled and the broadcaster sees a drop in viewership, the number of ads scheduled can be decreased. Before the start of a game, typically, the broadcasters estimated the size of an audience and scheduled ad inventory. By using Conviva's real-time insights, the broadcasters were able to dynamically manage ad inventory depending on the viewership throughout the game.
+An inverse correlation exists between advertising and viewership, so broadcasters strive for an optimum balance between popularity of content and the number of ads they can serve without losing viewers. As seen in Figure 13, Conviva's real-time insights allowed monitoring of the real-time experience of the viewers of the live stream and on-demand content. This helps to deliver ads at an optimum level. For example, if more ads are scheduled and the broadcaster sees a drop in viewership, the number of ads scheduled can be decreased. Before the start of a game, typically, the broadcasters estimatef the size of an audience and scheduled ad inventory. By using Conviva's real-time insights, the broadcasters were able to dynamically manage ad inventory depending on the viewership throughout the game.
 
 [![](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image93.jpg)](nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics/_static/image92.jpg)
 
