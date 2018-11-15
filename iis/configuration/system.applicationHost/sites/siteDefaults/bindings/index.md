@@ -71,7 +71,7 @@ The `<bindings>` element is included in the default installation of IIS 7.
 <a id="005"></a>
 ## Configuration
 
-You can add a `<bindings>` element for a server, which can contain a colleciton of individual `<binding>` elements that define the default protocol bindings for the server. You can also use a `<clear />` element in the `<bindings>` element of a `<site>` element to override the binding defaults inherited from the server level `<siteDefaults>` element.
+You can add a `<bindings>` element for a server, which can contain a collection of individual `<binding>` elements that define the default protocol bindings for the server. You can also use a `<clear />` element in the `<bindings>` element of a `<site>` element to override the binding defaults inherited from the server level `<siteDefaults>` element.
 
 ### Attributes
 

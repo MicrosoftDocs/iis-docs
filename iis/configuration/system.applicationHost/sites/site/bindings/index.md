@@ -71,7 +71,7 @@ The `<bindings>` element is included in the default installation of IIS 7 or lat
 <a id="005"></a>
 ## Configuration
 
-You can add a `<bindings>` element for each site in the ApplicationHost.config file, which can contain a colleciton of individual `<binding>` elements that define the individual protocol bindings for the site. Each site will need at least one HTTP or HTTPS binding to be viewable over the Internet.
+You can add a `<bindings>` element for each site in the ApplicationHost.config file, which can contain a collection of individual `<binding>` elements that define the individual protocol bindings for the site. Each site will need at least one HTTP or HTTPS binding to be viewable over the Internet.
 
 You can also use `<clear />` element in the `<bindings>` element to override binding defaults inherited from the server level `<siteDefaults>` element.
 
