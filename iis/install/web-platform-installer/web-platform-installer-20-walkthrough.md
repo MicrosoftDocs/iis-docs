@@ -59,7 +59,7 @@ Products listed on the **What's New** tab include products that have been releas
 
 ### Web Platform tab
 
-The **Web Platform** tab includes the products and components that comprise the Microsoft Web Platform. The Web PI automates the discovery and installation of the Microsoft Web Platform components, which includes the Web Server, Frameworks and Runtimes, Database, and Tools sections. In version 2.0, the Microsoft Web Platform also installs PHP version 5.2.9-2, by using the publically available Windows installer for PHP.
+The **Web Platform** tab includes the products and components that comprise the Microsoft Web Platform. The Web PI automates the discovery and installation of the Microsoft Web Platform components, which includes the Web Server, Frameworks and Runtimes, Database, and Tools sections. In version 2.0, the Microsoft Web Platform also installs PHP version 5.2.9-2, by using the publicly available Windows installer for PHP.
 
 [![](web-platform-installer-20-walkthrough/_static/image8.png)](web-platform-installer-20-walkthrough/_static/image7.png)
 
