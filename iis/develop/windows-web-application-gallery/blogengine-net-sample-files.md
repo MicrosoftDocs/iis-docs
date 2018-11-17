@@ -16,7 +16,7 @@ Blogengine .NET Sample files
 ====================
 by Steve Jacobson
 
-This is a set of sample files you could use with Blogengine .NET and the Web Deployment tool for deploying it on IIS. The `manifest.xml` and `parameters.xml` here are used to set the appropriate permissions and deploy the files to a web server . This application uses a file data store within App\_Data direcotry and hence requires that this directory have ReadAndExecute,Write,Delete permissions .
+This is a set of sample files you could use with Blogengine .NET and the Web Deployment tool for deploying it on IIS. The `manifest.xml` and `parameters.xml` here are used to set the appropriate permissions and deploy the files to a web server . This application uses a file data store within App\_Data directory and hence requires that this directory have ReadAndExecute,Write,Delete permissions .
 
 The files are annotated with comments that explain specific lines in the files you'll need to customize for your configuration.
 
