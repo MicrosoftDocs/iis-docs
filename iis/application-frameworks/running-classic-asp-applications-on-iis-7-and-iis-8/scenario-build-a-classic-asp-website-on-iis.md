@@ -410,7 +410,7 @@ To specify the name of the COM+ application, use the following syntax:
 The variable `string` represents name of the COM+ application. 
 
 > [!NOTE]
-> You must also set the `appSeviceFlags` flag to `true`.
+> You must also set the `appServiceFlags` flag to `true`.
 
 #### Enable or disable COM+ partitioning
 
