@@ -846,7 +846,7 @@ The command line, unattended file, and upgrade scenarios are available on both W
 
 ## Server Manager Tool
 
-The Server Manager Tool provides the setup user interface on Windows Sever 2008 and replaces Manage Your Server in Windows Server 2003. The Server Manager also provides server role management dashboards for each installed role indicating installed state, current status, and management &amp; tasks.
+The Server Manager Tool provides the setup user interface on Windows Server 2008 and replaces Manage Your Server in Windows Server 2003. The Server Manager also provides server role management dashboards for each installed role indicating installed state, current status, and management &amp; tasks.
 
 The article [Installing IIS 7.0 and Above on Windows Server 2008](installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2.md) provides you with a step-by-step walkthrough for installing IIS on Windows Server 2008 by using the new Server Manager tool.
 

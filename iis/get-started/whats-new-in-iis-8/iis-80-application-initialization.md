@@ -148,7 +148,7 @@ Using a new instance of Internet Explorer, once again navigate to:
 
 http://localhost/appinit/default.aspx
 
-Note that that the "Startup.htm" splash page with the grey background is showing.
+Note that the "Startup.htm" splash page with the grey background is showing.
 
 Next, pull up Task Manager and make sure the **Processes** tab is showing. Sort the process list by name until you see one instance of w3wp.exe running. That instance is the worker process that is currently running the "appinit" ASP.NET application.
 

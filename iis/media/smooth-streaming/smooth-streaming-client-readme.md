@@ -55,7 +55,7 @@ Smooth Streaming Client SDKs support the following high-level features:
     - Client-controlled unlimited DVR window
 - Failed chunk download details (non-text chunks) 
 
-    - New [ChunkDownloadFailed](https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.chunkdownloadfailed(v=vs.95)) event arguments for for getting information about failed chunk downloads
+    - New [ChunkDownloadFailed](https://msdn.microsoft.com/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.chunkdownloadfailed(v=vs.95)) event arguments for getting information about failed chunk downloads
 - Key rotation 
 
     - Prefetch root licenses for authorized channels to enable instant channel changes

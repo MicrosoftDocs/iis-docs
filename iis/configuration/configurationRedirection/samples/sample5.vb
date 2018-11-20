@@ -5,7 +5,7 @@ Set configurationRedirection = adminManager.GetAdminSection( "configurationRedir
 "MACHINE/REDIRECTION" )
 
 configurationRedirection.Properties.Item( "enabled" ).Value = True
-configurationRedirection.Properties.Item( "path" ).Value = "\\SeverName\ShareName"
+configurationRedirection.Properties.Item( "path" ).Value = "\\ServerName\ShareName"
 configurationRedirection.Properties.Item( "userName" ).Value = "MyUser"
 configurationRedirection.Properties.Item( "password" ).Value = "P@ssw0rd"
 

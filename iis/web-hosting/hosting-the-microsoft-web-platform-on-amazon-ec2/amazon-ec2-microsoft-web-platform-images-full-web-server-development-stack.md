@@ -88,7 +88,7 @@ Click "Select" in the "Microsoft Web Platform – Full Web Server Development St
 In the next dialog page (Instance Details) you can select how much computing power you want to have for your Web Server Development Stack instance. It's probably prudent to start with the preselected option which is the smallest. Click the "Continue" button. Nothing to worry about on the next page either. Just click "Continue" at the bottom of the "Advanced Instance Options" dialog. Now we are getting to the "Create Key Pair" dialog.   
 [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image16.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image15.png)
 
-If you already have a key, simply use it. If not you have to create one by entering a name for your key pair and clicking the "Create &amp; Download Key Pair" button. As soon as you click the button a key pair will be created by Amazon an you are asked by your browser to download it. Save the file in a location where you will find it later. The key pair you created will allow you to decrypt the Administrator password that Amazon creates for your Medi Server instance. Click the "Continue" button.
+If you already have a key, simply use it. If not you have to create one by entering a name for your key pair and clicking the "Create &amp; Download Key Pair" button. As soon as you click the button a key pair will be created by Amazon an you are asked by your browser to download it. Save the file in a location where you will find it later. The key pair you created will allow you to decrypt the Administrator password that Amazon creates for your Media Server instance. Click the "Continue" button.
 
 Note: Internet Explorer might not show the download dialog that asks you where to save the key pair file. If that happens to you, please look for the file (&lt;key pair name&gt;.pem) in Internet Explorers Temporary Files folder. On Windows 7 search for \*.pem in `%userprofile%\ AppData\Local\Microsoft\Windows\Temporary Internet Files`. Make sure you copy the .pem file to a more permanent directory .
 
@@ -132,7 +132,7 @@ Visual Studio 2010 offers a completely new one-click deployment model for web ap
 
 ### Creating a Web Application Project in Visual Studio 2010
 
-Once you have started Visual Studio 2010 selct "File" - "New" - "Project" and select "ASP.NET Application" (make sure you select the "Web" project template). Use the project name "HelloEC2".
+Once you have started Visual Studio 2010 select "File" - "New" - "Project" and select "ASP.NET Application" (make sure you select the "Web" project template). Use the project name "HelloEC2".
 
 [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image28.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image27.png)
 
@@ -159,9 +159,9 @@ Armed with these two pieces of information we are armed to publish the ASP.NET w
 In the upcoming dialog you have to enter several pieces of the data. But let's do this step by step:
 
 1. Click the "Rename" button and rename "Profile1" to "My EC2 Publishing Profile"
-2. Copy the DNS name of your EC2 instance in the "Service URL:" textbox. It works without explicitely specifying "https://" as shown below.
+2. Copy the DNS name of your EC2 instance in the "Service URL:" textbox. It works without explicitly specifying "https://" as shown below.
 3. Specify "Default Web Site" (without quotes) in the "Site/Application" textbox. If you want to publish the "Hello EC2" web application not to the root of the "Default Web Site" you can specify an additional application name, e.g. "Default Web Site/helloEC2".
-4. The EC2 instance works with a self-signed SSL certificate to ensure the traffic between your client and the EC2 instance is encrypted. The self-signed certificate is not trusted yet and you have to check the checkbox "Allow untrusted certficate".
+4. The EC2 instance works with a self-signed SSL certificate to ensure the traffic between your client and the EC2 instance is encrypted. The self-signed certificate is not trusted yet and you have to check the checkbox "Allow untrusted certificate".
 5. Specify the administrative credentials for the EC2 instance. The username is "Administrator" and you retrieved the password for the EC2 instance in a previous step.
 
 [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image37.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image36.png)
@@ -190,7 +190,7 @@ Click "Download shortcut file" in the dialog that follows:
 
 [![](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image46.png)](amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack/_static/image45.png)
 
-The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefoxes Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
+The file to be downloaded is an .RDP file that has all the right settings to connect you to the EC2 instance in the cloud. Click "Open" if you use IE or double click the file in Firefox's Download window and a Remote Desktop session is established. When Remote Desktop asks you for credentials you simply enter the username "Administrator" and the password that we retrieved previously.   
 Once connected you will get logged on to the remote machine.
 
 ## Summary

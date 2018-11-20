@@ -112,7 +112,7 @@ In this step, you will add the demo provider to your FTP service and an FTP site
     - Open a command prompt and enter the following commands: 
 
         [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching/samples/sample3.cmd)]
-    - Copy the information for the the **FtpLeechPrevention** assembly; for example: 
+    - Copy the information for the **FtpLeechPrevention** assembly; for example: 
 
         [!code-console[Main](how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching/samples/sample4.cmd)]
     - Close the .

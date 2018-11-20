@@ -92,4 +92,4 @@ This [download](https://download.microsoft.com/download/A/2/F/A2F199C0-672E-44E6
 
 ## Conclusion
 
-This article helps you manage Windows Sever 2008 Web servers by providing a map to IIS management and administration videos, demonstrations, step-by-step guidance topics, and downloads.
+This article helps you manage Windows Server 2008 Web servers by providing a map to IIS management and administration videos, demonstrations, step-by-step guidance topics, and downloads.

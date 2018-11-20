@@ -1,7 +1,7 @@
 ---
 title: "How to Use Metabase Compatibility with IIS 7 and Above | Microsoft Docs"
 author: tobint
-description: "IIS 7 and and IIS 8 allow legacy configuration scripts and applications to continue running. There is an optional setup component that enables the Metabase s..."
+description: "IIS 7 and IIS 8 allow legacy configuration scripts and applications to continue running. There is an optional setup component that enables the Metabase s..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 11/22/2007
@@ -18,7 +18,7 @@ by [Tobin Titus](https://github.com/tobint)
 
 ## Introduction
 
-IIS 7 and and IIS 8 allow legacy configuration scripts and applications to continue running. There is an optional setup component that enables the Metabase system with its programmatic interfaces: Admin Base Objects (ABO), and ADSI and WMI providers on top of it. The system intercepts calls to ABO and maps them to the new configuration system. The data is persisted in applicationHost.config but the ABO caller is presented with a legacy view of the configuration structure.
+IIS 7 and IIS 8 allow legacy configuration scripts and applications to continue running. There is an optional setup component that enables the Metabase system with its programmatic interfaces: Admin Base Objects (ABO), and ADSI and WMI providers on top of it. The system intercepts calls to ABO and maps them to the new configuration system. The data is persisted in applicationHost.config but the ABO caller is presented with a legacy view of the configuration structure.
 
 ## Prerequisites
 

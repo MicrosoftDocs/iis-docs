@@ -49,7 +49,7 @@ The following error message is seen while browsing the website over https:
 
 ![](troubleshooting-ssl-related-issues-server-certificate/_static/image1.png)
 
-The first thing that has to be checked is whether the website is accessible over http. If yes, then we proceed with our troubleshooting. If not, then you need to have the website working on http first and that's a seperate issue (not covered in this troubleshooter).
+The first thing that has to be checked is whether the website is accessible over http. If it is not, there likely is a separate issue not covered here. You will need to have the website working on http first before continuing with this troubleshooter.
 
 Now let's assume the website is accessible over http and we get the above error when trying to browse over https. The problem is seen because the SSL handshake failed and hence the error message was seen. There could be many reasons. We will follow a step-by-step approach to solve this problem.
 

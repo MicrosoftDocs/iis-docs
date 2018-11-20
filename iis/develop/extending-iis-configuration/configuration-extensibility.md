@@ -18,7 +18,7 @@ by IIS Team
 
 ## Introduction
 
-The configuration system in IIS 7.0 and above is based on distributed xml files that contain the configuration for IIS, ASP.NET and other components; flexibility in the configuration system also allows for configuration to be set at a a number of levels including at the server, the site and the application level. Configuration at the site and application level coexists alongside ASP.NET configuration in web.config files.
+The configuration system in IIS 7.0 and above is based on distributed xml files that contain the configuration for IIS, ASP.NET and other components; flexibility in the configuration system also allows for configuration to be set at a number of levels including at the server, the site and the application level. Configuration at the site and application level coexists alongside ASP.NET configuration in web.config files.
 
 One aspect of the new configuration system is the ease with which configuration can be extended. It is possible, with only a few simple changes, to integrate custom configuration sections directly into the configuration system and manipulate these settings using the existing administration APIs. Configuration is extended by simply defining a new configuration section in an XML schema file which is then dropped in the IIS schema directory `%windir%\system32\inetsrv\config\schema`. Finally, the new configuration section has to be registered in the IIS global configuration file.
 
@@ -165,7 +165,7 @@ The required steps include:
     [!code-console[Main](configuration-extensibility/samples/sample23.cmd)]
 
     This adds the necessary configuration entry to the applicationHost.config file - IIS's global configuration file.
-- The process is complete. The custom module, which uses custom configuration, has been setup. All that remians is to test it. Initiate the browser and navigate to http://localhost/. You see the following:  
+- The process is complete. The custom module, which uses custom configuration, has been setup. All that remains is to test it. Initiate the browser and navigate to http://localhost/. You see the following:  
 
     [![](configuration-extensibility/_static/image2.jpg)](configuration-extensibility/_static/image1.jpg)
 
@@ -175,7 +175,7 @@ Open `%systemdrive%\inetpub\logs\simpleLogs` (or whatever directory you used in 
 
 [![](configuration-extensibility/_static/image4.jpg)](configuration-extensibility/_static/image3.jpg)
 
-Experiment with the configuration to ensure that it is working. Try removing the **simpleLogging** section from your web.config file and check to see if the logs go to to the default location (just ensure that the ASPNET user has the correct permissions).
+Experiment with the configuration to ensure that it is working. Try removing the **simpleLogging** section from your web.config file and check to see if the logs go to the default location (just ensure that the ASPNET user has the correct permissions).
 
 > [!NOTE]
 > The module we just created is for demonstration purposes only and should not be used in a production environment. It will fail if there are multiple requests trying to write a log entry at the same time.
@@ -258,7 +258,7 @@ Finally, this article examines extending configuration with a method. Configurat
     [!code-csharp[Main](configuration-extensibility/samples/sample30.cs)]
 
     > [!NOTE]
-    > We have implemented the **IappHostMethodExtension** interface. This interface has a single method called **ProvideMethod** which logically provides the method. When someone calls the method (see Step 3 for how to do this), the configuration system calls ProvideMethod and passes parameters, one of which has the name of the method being called; in the code above, we only handle a method called "deleteLogs".
+    > We have implemented the **IAppHostMethodExtension** interface. This interface has a single method called **ProvideMethod** which logically provides the method. When someone calls the method (see Step 3 for how to do this), the configuration system calls ProvideMethod and passes parameters, one of which has the name of the method being called; in the code above, we only handle a method called "deleteLogs".
 2. Build the project again using:  
 
     [!code-console[Main](configuration-extensibility/samples/sample31.cmd)]
@@ -275,7 +275,7 @@ The change defined a new method called "deleteLogs" and tells the configuration 
 
 ### Step 3 - Testing
 
-Finally, check to see if the method is working. A quick and easy way to do this is to write a simple VB script. Below is an example script that outputs the logfileCount, then calls our method and ouputs the logfileCount. Simply update the SimpleLoggingTest.vbs file you created earlier and enter the following:
+Finally, check to see if the method is working. A quick and easy way to do this is to write a simple VB script. Below is an example script that outputs the logfileCount, then calls our method and outputs the logfileCount. Simply update the SimpleLoggingTest.vbs file you created earlier and enter the following:
 
 
 [!code-vb[Main](configuration-extensibility/samples/sample33.vb)]
@@ -293,7 +293,7 @@ The above was a quick overview of how to provide new configuration and configura
 
 The final aspect of configuration extensibility is the ability to extend existing configuration sections such as the **system.webServer/sites** section, or to extend the **system.webServer/simpleLogging** section created in the previous two sections.
 
-Extending an existing configuration section is as easy as creating a new one. Simply define the schema as xml and place the schema file in the `%windir%\system32\inetsrv\config\schema\` directory. This should sound familiar, as we have done this previously mpre than once.
+Extending an existing configuration section is as easy as creating a new one. Simply define the schema as xml and place the schema file in the `%windir%\system32\inetsrv\config\schema\` directory. This should sound familiar, as we have done this previously more than once.
 
 ### Extending the "sites" configuration
 

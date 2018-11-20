@@ -102,7 +102,7 @@ To disable client logging at a later time, open the Advanced Logging feature at 
 The Advanced Logging feature displays all of the log definitions that are available on the server on the server **Home** page in IIS Manager. The following figure displays the log definition **%COMPUTERNAME%-Server**, which is installed by default and captures some fields of interest from a content delivery perspective.  
 ![](advanced-logging-for-iis-custom-logging/_static/image8.jpg)
 
-To view the the fields that are included in this log definition, click the log definition name, and then in the **Actions** pane, click **Edit Log Definition**. This opens the **Log Definition** feature page for the selected log definition, as shown in the following figure:
+To view the fields that are included in this log definition, click the log definition name, and then in the **Actions** pane, click **Edit Log Definition**. This opens the **Log Definition** feature page for the selected log definition, as shown in the following figure:
 
 [![](advanced-logging-for-iis-custom-logging/_static/image10.jpg)](advanced-logging-for-iis-custom-logging/_static/image9.jpg)
 

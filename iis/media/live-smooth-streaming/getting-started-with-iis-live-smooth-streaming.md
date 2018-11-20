@@ -22,7 +22,7 @@ The IIS Live Smooth Streaming extension for [Internet Information Services (IIS)
 
 Live Smooth Streaming enables adaptive streaming of live events to Smooth Streaming-compatible clients, such as [Microsoft Silverlight](https://go.microsoft.com/?linkid=9656602). Using HTTP to deliver a live web broadcast leverages the scale of existing HTTP networks by keeping content close to the user and making true HD (720p+) a realistic option for web broadcasts. The additional advantage of using HTTP-based delivery for live events is that the existing HTTP infrastructure provides much more availability. For many popular live web broadcasts, content providers and content distribution networks (CDNs) want to know how much capacity they can dedicate on their resource-constrained streaming networks. By using their primary HTTP networks, which are typically 10-to-20-times larger than their streaming networks, they don't have to worry about maximizing network capacity and limiting the number of users for live events.
 
-A Live Smooth Streaming server sources content from Live Smooth Streaming-capable encoders for delivery to Smooth-Streaming compatible clients. In addition to [Microsoft Expression Encoder](https://go.microsoft.com/?linkid=9656607), there are many third-party encoding solutions available for encoding both live and on-demand Smooth Streaming video in production environments. To help you determine which encoding solution is best-suited for your Smooth Streaming configuration, see our list of [encoding parters](https://go.microsoft.com/?linkid=9656604).
+A Live Smooth Streaming server sources content from Live Smooth Streaming-capable encoders for delivery to Smooth-Streaming compatible clients. In addition to [Microsoft Expression Encoder](https://go.microsoft.com/?linkid=9656607), there are many third-party encoding solutions available for encoding both live and on-demand Smooth Streaming video in production environments. To help you determine which encoding solution is best-suited for your Smooth Streaming configuration, see our list of [encoding partners](https://go.microsoft.com/?linkid=9656604).
 
 In this walkthrough:
 
@@ -70,7 +70,7 @@ This section describes how to create a publishing point that can accept a live b
     ![](getting-started-with-iis-live-smooth-streaming/_static/image6.png)  
   
     > [!IMPORTANT]
-    > Before proceeding, be sure to check out the the following walkthrough article for more information about the requirements and publishing point configuration for Apple HTTP Live Smooth Streaming: [Apple HTTP Live Streaming with IIS Media Services](https://go.microsoft.com/?linkid=9750336) .
+    > Before proceeding, be sure to check out the following walkthrough article for more information about the requirements and publishing point configuration for Apple HTTP Live Smooth Streaming: [Apple HTTP Live Streaming with IIS Media Services](https://go.microsoft.com/?linkid=9750336) .
 6. In the **Add Publishing Point** dialog box, click **OK**. A new Live Smooth Streaming publishing point definition file named **LiveSmoothStream.isml** is added to the website root.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image7.png)
 7. On the **Live Smooth Streaming Publishing Points** page, select the publishing point, and then in the **Actions** pane, click **Start Publishing Point**.  
@@ -116,7 +116,7 @@ This section describes how to create a Live Smooth Streaming broadcast in [Micro
 5. On the **Output** tab, if the **Streaming** check box is present, select it to activate streaming.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image13.png)  
   
- To publish your content, select **Publishing Point**, and then in the **Location** box, type the URL of the Live Smooth Smooth Streaming publishing point that you want to publish your live broadcast to.  
+ To publish your content, select **Publishing Point**, and then in the **Location** box, type the URL of the Live Smooth Streaming publishing point that you want to publish your live broadcast to.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image14.png)  
   
  URL syntax: http://*ServerName*/*SiteName*/*DirectoryName*/*PublishingPointDefinitionFileName*.isml  
@@ -182,4 +182,4 @@ This section describes how to use the Microsoft Silverlight Media Framework 2.0 
  The Live Smooth Streaming broadcast opens in the web browser, using the Silverlight browser plug-in for Live Smooth Streaming.  
     ![](getting-started-with-iis-live-smooth-streaming/_static/image21.png)
 
-For more information about how to to build rich Silverlight user experiences that take full advantage of live and on-demand IIS Smooth Streaming capabilities, see [Smooth Streaming Client](https://go.microsoft.com/?linkid=9738295).
+For more information about how to build rich Silverlight user experiences that take full advantage of live and on-demand IIS Smooth Streaming capabilities, see [Smooth Streaming Client](https://go.microsoft.com/?linkid=9738295).

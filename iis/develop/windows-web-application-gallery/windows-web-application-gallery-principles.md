@@ -20,7 +20,7 @@ The [Windows Web Application Gallery](https://www.microsoft.com/web/gallery) mak
 
 To be part of the Windows Web Application Gallery, developers should follow these principles, which establish a consistent, quality user experience:
 
-- **Be Current**: The application you provide a link to must be the latest, stable final release version available, hosted on a publically available Web URL.
+- **Be Current**: The application you provide a link to must be the latest, stable final release version available, hosted on a publicly available Web URL.
 - **Be Free of Charge**: The application for which you submit a link to the Windows Web App Gallery must be provided free of charge and fully functional without time restrictions. You are welcome to charge for professional support or consulting services and/or provide an enhanced, enterprise version of the application for purchase on your site. We will be happy to provide a link to your commercial products and services from your page in the Windows Web Application Gallery.
 - **Be Compatible**: The application to which you provide a link must run on Windows Server 2003, Windows Server 2008, Windows XP, Windows Vista &amp; Windows 7 using [best practices on running ASP.NET applications and PHP applications on IIS](../../application-frameworks/index.md).
 - **Be Deployable**: The application to which you provide a link must integrate with Microsoft Web Deploy as described in the [Microsoft Web Application Packaging Guide](package-an-application-for-the-windows-web-application-gallery.md), and run with the [Microsoft Web Platform Installer v3](../../install/web-platform-installer/using-the-microsoft-web-platform-installer.md).

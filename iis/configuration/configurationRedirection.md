@@ -139,7 +139,7 @@ The following code example shows how to configure IIS 7 to share configuration f
 <a id="006"></a>
 ## Sample Code
 
-The following examples enable shared configuration by using the exported configuration files that are shared at \\SeverName\ShareName, and by using a user name of "MyUser" with a password of "P@ssw0rd" to access the share.
+The following examples enable shared configuration by using the exported configuration files that are shared at \\ServerName\ShareName, and by using a user name of "MyUser" with a password of "P@ssw0rd" to access the share.
 
 ### C#
 

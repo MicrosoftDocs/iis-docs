@@ -27,7 +27,7 @@ by [Tim Elhajj and R McMurray](https://github.com/rmcmurray)
 
 ## Introduction
 
-Microsoft released an updated FTP service that is available as a separate download for Windows Server® 2008 and above that provides a a robust, secure solution for FTP in a Windows environment. This FTP service was written specifically for Windows Server 2008 and above, and enables Web authors to publish content more easily and securely than before, and offers both Web administrators and hosters better integration, management, authentication and logging features. It should be noted that there are two FTP services available for IIS:
+Microsoft released an updated FTP service that is available as a separate download for Windows Server® 2008 and above that provides a robust, secure solution for FTP in a Windows environment. This FTP service was written specifically for Windows Server 2008 and above, and enables Web authors to publish content more easily and securely than before, and offers both Web administrators and hosters better integration, management, authentication and logging features. It should be noted that there are two FTP services available for IIS:
 
 - The new Microsoft FTP service for IIS is provided as a download from the Web for Windows Server 2008.
 - The other FTP service ships on the Windows Vista™ and Windows Server 2008 DVD. (This FTP service is essentially the same FTP service from IIS 6.0.)
@@ -41,7 +41,7 @@ There are two separate downloadable packages for the new FTP server; you will ne
 
     - [FTP 7.5 for IIS 7.0 (x64)](https://go.microsoft.com/fwlink/?LinkID=143197)
 
-For more information about installing the new FTP service, see the the following walkthrough:
+For more information about installing the new FTP service, see the following walkthrough:
 
 - [Installing and Troubleshooting FTP7.5](https://go.microsoft.com/fwlink/?LinkId=88547)
 
@@ -85,7 +85,7 @@ On the second screen of the publishing wizard (pictured below), you configure yo
 
 Of course, you do not have to bind the FTP protocol to your Web site. If you want only an FTP site, you can still set up a site that has only FTP bindings.
 
-For more information about adding FTP publishing and FTP sites, see the the following walkthroughs:
+For more information about adding FTP publishing and FTP sites, see the following walkthroughs:
 
 - [Creating a New FTP Site](https://go.microsoft.com/fwlink/?LinkId=89115)
 - [Add FTP publishing to an existing Web site](https://go.microsoft.com/fwlink/?LinkId=89116)
@@ -99,7 +99,7 @@ The FTP service for IIS supports for emerging Internet standards like IPv6, UTF8
 
 The industry has addressed how to secure FTP traffic in several different ways. Although there no single standard has emerged, there are two similarly named protocols: FTPS and SFTP. To clarify, Microsoft offers an FTP over SSL (FTPS) solution. Microsoft currently does not provide a solution for securing FTP traffic using FTP over SSH (SFTP).
 
-For more information about FTP and SSL, see the the following walkthrough:
+For more information about FTP and SSL, see the following walkthrough:
 
 - [Configure FTP over SSL](https://go.microsoft.com/fwlink/?LinkId=89117)
 
@@ -110,7 +110,7 @@ We have added support for additional authentication methods that enable Web host
 - Web Manager authentication: these accounts are usually created for managing IIS web sites
 - .NET Membership authentication: these accounts are usually used with ASP.NET's forms-based authentication
 
-For more information about using non-Windows authentication with FTP, see the the following walkthroughs:
+For more information about using non-Windows authentication with FTP, see the following walkthroughs:
 
 - [Configure IIS Manager Authentication](https://go.microsoft.com/fwlink/?LinkId=100142)
 - [Configuring FTP with .NET Membership Authentication](https://go.microsoft.com/fwlink/?LinkId=129533)
@@ -124,7 +124,7 @@ In this FTP service we have added virtual host name support to FTP. By using hos
 ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image9.jpg)
 
 
-For more information about using FTP virtual host names, see the the following walkthrough:
+For more information about using FTP virtual host names, see the following walkthrough:
 
 - [Configure FTP virtual host names](https://go.microsoft.com/fwlink/?LinkId=89119)
 
@@ -139,7 +139,7 @@ We have improved support for FTP user isolation configuration. All of the previo
 ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image1.png)
 
 
-For more information about configuring FTP user isolation, see the the following walkthrough:
+For more information about configuring FTP user isolation, see the following walkthrough:
 
 - [Configure FTP User Isolation](https://go.microsoft.com/fwlink/?LinkId=89118)
 
@@ -150,7 +150,7 @@ You can now make virtual directories visible to FTP clients by selecting an opti
 ![](what39s-new-for-microsoft-and-ftp-in-iis-7/_static/image3.png)
 
 
-You can also configure the directory browsing options to return the available bytes to FTP clients, which is especially useful if you are using Disk Quotas from Windows Server's File System Resource Manager (FSRM). For more information about using this feature with FTP, see the the following walkthrough:
+You can also configure the directory browsing options to return the available bytes to FTP clients, which is especially useful if you are using Disk Quotas from Windows Server's File System Resource Manager (FSRM). For more information about using this feature with FTP, see the following walkthrough:
 
 - [Using FSRM Folder Quotas with FTP](https://go.microsoft.com/fwlink/?LinkId=100092)
 

@@ -1,7 +1,7 @@
 ---
 title: "Create a Website from a Gallery Application | Microsoft Docs"
 author: rmcmurray
-description: "[This is preliminary documentation and is subject to change.] Microsoft has created a new authoring tool for the web named 'WebMatrix,' which is focused on c..."
+description: "Microsoft has created a new authoring tool for the web named 'WebMatrix,' which is focused on c..."
 ms.author: iiscontent
 manager: soshir
 ms.date: 07/06/2010
@@ -11,12 +11,13 @@ ms.technology: iis-develop
 ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/create-a-website-from-a-gallery-application
 msc.type: authoredcontent
+ROBOTS: NOINDEX,NOFOLLOW
 ---
 Create a Website from a Gallery Application
 ====================
 by [Robert McMurray](https://github.com/rmcmurray)
 
-[This is preliminary documentation and is subject to change.]
+[!include[outdatedContent](../../outdatedContentWarning.md)]
 
 Microsoft has created a new authoring tool for the web named "WebMatrix," which is focused on creating websites the way that you want to create them. You can create websites from scratch or a template, or you can use one of several popular open source applications. WebMatrix Beta lets you download an application from an application gallery, customize it for your needs, analyze it for broken links, optimize it for the web, and deploy it to your hosting provider. (And if you don't have a hosting provider, WebMatrix Beta can help you find one!)
 
