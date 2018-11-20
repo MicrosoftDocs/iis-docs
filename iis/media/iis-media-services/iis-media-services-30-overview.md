@@ -47,7 +47,7 @@ Table of Contents:
 - Server Performance and Scalability 
 
     - Deploying Server Clusters
-    - Deploying Edge Cache Severs
+    - Deploying Edge Cache Servers
 - Developing IIS Media Services Applications 
 
     - Player Development with the Silverlight Media Framework
