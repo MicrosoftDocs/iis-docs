@@ -164,7 +164,7 @@ The code to dynamically insert the copyright message is fairly slow. Fourteen re
 
 1. Navigate to "Administrative Tools" and select "Internet Information Services (IIS) Manager".
 2. Use the tree view on the left side to navigate to the "pictures" application.
-3. Select the "Ouput Caching Rules" menu item.
+3. Select the "Output Caching Rules" menu item.
 4. Click "Add…" in the "Actions" menu.
 5. Add JPG as the "File extension" to cache.
 6. Select "At time intervals" in the "Monitor cached files" section and enter 00:00:10 as the time interval.
