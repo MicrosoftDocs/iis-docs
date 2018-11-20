@@ -132,7 +132,7 @@ The following examples demonstrate how to add a query string that will always be
 
 ### PowerShell
 
-[!code-console[Main](add/samples/sample7.ps1)]
+[!code-powershell[Main](add/samples/sample7.ps1)]
 
 ### C#
 
