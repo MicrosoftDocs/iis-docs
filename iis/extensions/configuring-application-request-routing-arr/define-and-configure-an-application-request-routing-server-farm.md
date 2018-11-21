@@ -101,4 +101,4 @@ After the server farm has been created and defined, additional properties can be
 
 ## Summary
 
-You have now successfully created and defined a server farm, **mySeverFarm**. At this point, myServerFarm is configured to distribute the incoming requests evenly between the application servers that have been added as members of the server farm. For more advanced load balancing settings, refer to [HTTP Load Balancing using Application Request Routing](http-load-balancing-using-application-request-routing.md).
+You have now successfully created and defined a server farm, **myServerFarm**. At this point, myServerFarm is configured to distribute the incoming requests evenly between the application servers that have been added as members of the server farm. For more advanced load balancing settings, refer to [HTTP Load Balancing using Application Request Routing](http-load-balancing-using-application-request-routing.md).

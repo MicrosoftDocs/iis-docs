@@ -36,7 +36,7 @@ For information on the Green Grid see [The Green Grid: The Quest for Energy Effi
 
 [The Green Grid Peer Review of "DC Power for Improved Data Center Efficiency"](http://www.thegreengrid.org/gg_content/White_Paper_12_-_LBNL_Peer_Review.pdf "The Green Grid Peer Review of "DC Power for Improved Data Center Efficiency"")
 
-[Five Ways to Reduce Data Center Sever Power Consumption](http://www.thegreengrid.org/gg_content/White_Paper_7_-_Five_Ways_to_Save_Power.pdf "Five Ways to Reduce Data Center Sever Power Consumption")
+[Five Ways to Reduce Data Center Server Power Consumption](http://www.thegreengrid.org/gg_content/White_Paper_7_-_Five_Ways_to_Save_Power.pdf "Five Ways to Reduce Data Center Server Power Consumption")
 
 ## Resources
 
