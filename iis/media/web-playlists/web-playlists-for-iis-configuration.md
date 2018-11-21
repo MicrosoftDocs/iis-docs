@@ -50,7 +50,7 @@ Before creating a playlist, be aware of the following playlist handler attribute
 | **sessionOptions** | Sets timeouts for a particular session. |
 | **accessOptions** | Sets impersonation settings for a particular path that can then be used inside a playlist. |
 | **playlistProviders** | Web Playlists provides a mechanism to write custom providers.This element stores the configuration for the available providers. |
-| **ouputFormts** | A collection to specify an output format extension to web Playlists. This allows you to specify format name, XSLT path and the content type related to the format |
+| **outputFormats** | A collection to specify an output format extension to web Playlists. This allows you to specify format name, XSLT path and the content type related to the format |
 
 <a id="schema"></a>
 
