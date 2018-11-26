@@ -186,7 +186,7 @@ None.
 
 The following configuration sample demonsrates how to enable SSL access on the control channel and the data channel of the FTP service by default.
 
-SSL config exmaple (temp desc).
+SSL config example (temp desc).
 
 [!code-xml[Main](ssl/samples/sample1.xml)]
 
