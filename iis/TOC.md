@@ -615,7 +615,6 @@
 ### [Install and Configure SQL Server 2008 for PHP Applications on IIS 7](application-frameworks/install-and-configure-php-on-iis/install-and-configure-sql-server-2008-for-php-applications-on-iis-7-and-above.md)
 ### [Install and Configure PHP](application-frameworks/install-and-configure-php-on-iis/install-and-configure-php.md)
 ### [How to Install the Microsoft Web Platform for PHP](application-frameworks/install-and-configure-php-on-iis/how-to-install-the-microsoft-web-platform-for-php.md)
-### [Using PHP Manager for IIS to setup and configure PHP](application-frameworks/install-and-configure-php-on-iis/using-php-manager-for-iis-to-setup-and-configure-php.md)
 ### [Use the Windows Cache Extension for PHP](application-frameworks/install-and-configure-php-on-iis/use-the-windows-cache-extension-for-php.md)
 ### [Enable Per-Site PHP Configuration on IIS 7 and IIS 6.0](application-frameworks/install-and-configure-php-on-iis/enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above.md)
 ### [Create a Separate Site or Virtual Directory for PHP Content](application-frameworks/install-and-configure-php-on-iis/create-a-separate-site-or-virtual-directory-for-php-content.md)
