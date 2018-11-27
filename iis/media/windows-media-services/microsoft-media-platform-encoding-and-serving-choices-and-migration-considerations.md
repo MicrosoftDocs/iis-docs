@@ -188,7 +188,7 @@ If your clients are currently using Windows Media Player, you can install [Silve
 In this interim step, you will have two different Silverlight Application (xap) client files: one for Windows Media Services, and one for IIS Media Smooth Streaming. At this point, you are still using Windows Media Services, but your clients are ready to receive Smooth Streaming content when you make the transition to IIS Media Services. In addition, this interim step has the advantage of providing wider support for browsers, including Safari.
 
 > [!NOTE]
-> Different Silverlight applications (.xap files) are required for playing back IIS Media Services and Windows Media Services content. To play Windows Media content, a number of Silverlight templates are available as part of the installation of Expression Encoder. For playing Smooth Streaming content, you can use the [Microsoft Media Platform Player Framework](http://smf.codeplex.com/).
+> Different Silverlight applications (.xap files) are required for playing back IIS Media Services and Windows Media Services content. To play Windows Media content, a number of Silverlight templates are available as part of the installation of Expression Encoder. For playing Smooth Streaming content, you can use the [Microsoft Media Platform Player Framework](https://archive.codeplex.com/?p=smf).
 
 
 <a id="Toc343780158"></a>
@@ -390,7 +390,7 @@ Currently, you can live stream using IIS Media Services 4.1, or use the faciliti
 <a id="Toc343780175"></a>
 #### Advertising (Ad Insertion)
 
-Ad Insertion is currently available in client SDKs, with support for the [VMAP](http://en.wikipedia.org/wiki/VMAP) and [VPAID](http://www.iab.net/iab_products_and_industry_services/508676/compliance/679310) standards in clients using [MMPPF](http://smf.codeplex.com/), [PlayerFramework](http://playerframework.codeplex.com/), [OSMF AD plugins](http://www.osmf.org/partner.php) and the [Windows Azure Player Framework for iOS](https://github.com/WindowsAzure/azure-media-player-framework).
+Ad Insertion is currently available in client SDKs, with support for the [VMAP](http://en.wikipedia.org/wiki/VMAP) and [VPAID](http://www.iab.net/iab_products_and_industry_services/508676/compliance/679310) standards in clients using [MMPPF](https://archive.codeplex.com/?p=smf), [PlayerFramework](https://archive.codeplex.com/?p=playerframework), [OSMF AD plugins](http://www.osmf.org/partner.php) and the [Windows Azure Player Framework for iOS](https://github.com/WindowsAzure/azure-media-player-framework).
 
 On the server side, ad integration features are forthcoming.
 
@@ -460,7 +460,7 @@ Smooth Streaming Client SDKS are available for a wide variety of platforms, incl
 <a id="Toc343780185"></a>
 #### Media Platform Player Framework
 
-The Microsoft Media Platform Player Framework is a fully open source video player for Silverlight, HTML5, Windows Phone, Xbox, and Windows 8 applications. For more information, see [Microsoft Media Platform Player Framework](http://playerframework.codeplex.com/).
+The Microsoft Media Platform Player Framework is a fully open source video player for Silverlight, HTML5, Windows Phone, Xbox, and Windows 8 applications. For more information, see [Microsoft Media Platform Player Framework](https://archive.codeplex.com/?p=playerframework).
 
 <a id="Toc343780186"></a>
 #### Xbox LIVE Application Development Kit (ADK)
@@ -507,7 +507,7 @@ Microsoft Announces Support for MPEG-DASH in Microsoft Media Platform: [https://
 
 Microsoft Media Platform: [https://www.microsoft.com/en-us/mediaplatform/](https://www.microsoft.com/en-us/mediaplatform/)
 
-Microsoft Media Platform Player Framework: [http://playerframework.codeplex.com/](http://playerframework.codeplex.com/)
+Microsoft Media Platform Player Framework: [https://archive.codeplex.com/?p=playerframework](https://archive.codeplex.com/?p=playerframework)
 
 Microsoft PlayReady DRM: [https://www.microsoft.com/playready/overview/](https://www.microsoft.com/playready/overview/)
 
@@ -525,7 +525,7 @@ OSMF Advertising Plugins: [http://www.osmf.org/partner.php](http://www.osmf.org/
 
 Overview of MPEG-DASH Standard: [http://dashif.org/mpeg-dash/](http://dashif.org/mpeg-dash/)
 
-Player Framework for Windows 8: [http://playerframework.codeplex.com/](http://playerframework.codeplex.com/)
+Player Framework for Windows 8: [https://archive.codeplex.com/?p=playerframework](https://archive.codeplex.com/?p=playerframework)
 
 Process Assets with the Media Services SDK for .NET: [https://msdn.microsoft.com/en-us/library/windowsazure/jj129580.aspx](https://msdn.microsoft.com/en-us/library/windowsazure/jj129580.aspx)
 

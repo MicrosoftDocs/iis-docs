@@ -139,7 +139,7 @@ SQL Server 2008 R2 Management Studio Express gives developers tools to more easi
 
 The SQL Server 2008 R2 Management Objects gets pulled in as a dependency for some extensions and/or applications. (Typically, a user will not install this option.)
 
-Web PI includes the Microsoft® SQL Server® 2008 Driver v 2.0 for PHP, which enables reliable, scalable integration with SQL Server for PHP applications deployed on the Windows platform. The extension allows the reading and writing of data from within PHP scripts and provides a procedural interface for accessing data in all editions of SQL Server 2008 (including Express). The extension also supports the use of PHP streams to read and write large objects. Information, including the source code, is available on [CodePlex](http://www.codeplex.com/SQL2K5PHP).
+Web PI includes the Microsoft® SQL Server® 2008 Driver v 2.0 for PHP, which enables reliable, scalable integration with SQL Server for PHP applications deployed on the Windows platform. The extension allows the reading and writing of data from within PHP scripts and provides a procedural interface for accessing data in all editions of SQL Server 2008 (including Express). The extension also supports the use of PHP streams to read and write large objects.
 
 ### Tools
 

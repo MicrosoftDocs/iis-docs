@@ -11,10 +11,13 @@ ms.technology: iis-appfx
 ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/install-the-sql-server-driver-for-php
 msc.type: authoredcontent
+ROBOTS: NOINDEX,NOFOLLOW
 ---
 Install the SQL Server Driver for PHP
 ====================
 by Tali Smith
+
+[!include[outdatedContent](../../outdatedContentWarning.md)]
 
 ## Introduction
 
@@ -22,7 +25,7 @@ The Microsoft® SQL Server® Driver for PHP is designed to enable reliable, scal
 
 The SQL Server Driver for PHP download is available to all SQL Server users at no additional charge. The most current version of the driver, Microsoft SQL Server Driver for PHP 1.1, provides new capabilities for building PHP applications, and the driver supports Microsoft® SQL Azure™ Database and PHP version 5.3, enabling developers to build PHP applications with relational capabilities using the SQL Azure Database.SQL Server Driver for PHP 1.1 also includes support for UTF-8 and for scrollable results.
 
-Microsoft provides support for the SQL Server Driver for PHP under its normal support methods. While the source code for this driver has been made available on the CodePlex Web site, Microsoft supports only the signed version of the driver from the Microsoft® Developer Network (MSDN®) download site.
+Microsoft provides support for the SQL Server Driver for PHP under its normal support methods. Microsoft supports only the signed version of the driver from the Microsoft® Developer Network (MSDN®) download site.
 
 ## System Requirements
 
@@ -83,7 +86,6 @@ For more details on sqlsrv\_connect, see: [SQL Server Developer Center](https://
 ## Links for Further Information
 
 - [PHP on Windows Training Kit (August 2009).](https://www.microsoft.com/downloads/details.aspx?familyid=C8498C9B-A85A-4AFA-90C0-593D0E4850CB&amp;displaylang=en)
-- [Microsoft SQL Server Driver for PHP](http://www.codeplex.com/SQLSRVPHP).
 - [SQL Azure Team Blog](https://blogs.msdn.com/ssds/default.aspx).
 - [SQL Server Driver for PHP 1.1 - October 2009](https://www.microsoft.com/downloads/details.aspx?FamilyID=ccdf728b-1ea0-48a8-a84a-5052214caad9&amp;displaylang=en).
 - [Microsoft SQL Server Driver for PHP team blog](https://blogs.msdn.com/sqlphp/default.aspx).

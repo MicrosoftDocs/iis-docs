@@ -151,7 +151,7 @@ The following software must be installed to develop applications using Smooth St
 
 **IIS Smooth Streaming Client 1.1**
 
-- Markers don't fire in trickplay modes. Use [Microsoft Media Platform: Player Framework (MMPPF)](http://smf.codeplex.com/) markers if markers are required in fast-forward, rewind or slow-motion modes.
+- Markers don't fire in trickplay modes. Use [Microsoft Media Platform: Player Framework (MMPPF)](https://archive.codeplex.com/?p=smf) markers if markers are required in fast-forward, rewind or slow-motion modes.
 - The Client treats URIs as case-insensitive, which can cause issues on some servers. Use lowercase manifest/stream URIs to avoid any issues.
 - Protected streams aren't supported in composite manifests.
 - Audio, video, and textstream fragments in a live Smooth Stream must have the same duration.

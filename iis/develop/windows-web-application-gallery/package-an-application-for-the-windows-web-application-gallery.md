@@ -233,16 +233,6 @@ You can see full documentation of all of the Web Deployment Tool command-line ar
 
 When your package is ready, submit a form to the Windows Web Application Gallery describing your application.
 
-### CodePlex Notes
-
-If your application is being hosted on CodePlex, you must have a special URL for your package. This URL looks similar to:
-
-
-[!code-console[Main](package-an-application-for-the-windows-web-application-gallery/samples/sample16.cmd)]
-
-
-You must substitute the name of your application at the beginning of the URL and the DownloadID for your package in place of the "nnnnn."
-
 ## Next Steps
 
 If your application has been accepted in to the Gallery, you can provide a direct link on your Web site to your application's Gallery page. In addition, you can provide a link that starts the Web Platform Installer with your application and all of its prerequisites selected to be installed.
@@ -276,4 +266,3 @@ For more information, see the [Reference for the Web Application Guide](referenc
 - [Web App Gallery submission form](https://login.iis.net/login/signin.aspx?ReturnUrl=TODO%20-%20get%20the%20URL%20for%20%20%20%20the%20new%20form).
 - [Using the Microsoft Web Platform Installer Badge](using-the-microsoft-web-platform-installer-badge.md).
 - [Web Platform Installer](https://www.microsoft.com/web/downloads/).
-- [CodePlex.](http://www.codeplex.com/)

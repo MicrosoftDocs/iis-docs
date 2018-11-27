@@ -23,7 +23,7 @@ From an implementation standpoint, the solution follows recommended patterns and
 Additional information can be found at the following sites:
 
 - [https://msdn.microsoft.com/en-us/library/ms735119.aspx](https://msdn.microsoft.com/en-us/library/ms735119.aspx)
-- [http://www.codeplex.com/servicefactory](http://www.codeplex.com/servicefactory)
+- [https://archive.codeplex.com/?p=servicefactory](https://archive.codeplex.com/?p=servicefactory)
 
 In the following sections, we describe each subsystem implementation in detail.
 
