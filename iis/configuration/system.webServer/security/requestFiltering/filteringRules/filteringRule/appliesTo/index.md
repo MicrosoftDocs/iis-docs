@@ -150,6 +150,10 @@ The following examples demonstrate how to use the `<denyStrings>`, `<appliesTo>`
 
 [!code-console[Main](index/samples/sample3.cmd)]
 
+### PowerShell
+
+[!code-powershell[Main](index/samples/sample8.ps1)]
+
 ### C#
 
 [!code-csharp[Main](index/samples/sample4.cs)]
