@@ -1,0 +1,90 @@
+﻿---
+title: CircularList(T).IsFull Method  (Microsoft.Web.Media.Diagnostics)
+TOCTitle: IsFull Method
+ms:assetid: M:Microsoft.Web.Media.Diagnostics.CircularList`1.IsFull
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff728270(v=VS.95)
+ms:contentKeyID: 46500549
+ms.date: 05/31/2012
+mtps_version: v=VS.95
+f1_keywords:
+- Microsoft.Web.Media.Diagnostics.CircularList`1.IsFull
+dev_langs:
+- CSharp
+- JScript
+- VB
+- FSharp
+- c++
+api_location:
+- Microsoft.Web.Media.SmoothStreaming.dll
+api_name:
+- Microsoft.Web.Media.Diagnostics.CircularList`1.IsFull
+api_type:
+- Managed
+topic_type:
+- apiref
+- kbSyntax
+product_family_name: VS
+ROBOTS: INDEX,FOLLOW
+---
+
+# CircularList\<T\>.IsFull Method
+
+(Deprecated. Do not use) Boolean value that indicates whether the list is full.
+
+**Namespace:**  [Microsoft.Web.Media.Diagnostics](microsoft-web-media-diagnostics-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+
+Public Function IsFull As Boolean
+'Usage
+
+Dim instance As CircularList
+Dim returnValue As Boolean
+
+returnValue = instance.IsFull()
+```
+
+``` csharp
+public bool IsFull()
+```
+
+``` c++
+public:
+bool IsFull()
+```
+
+``` fsharp
+member IsFull : unit -> bool 
+```
+
+``` jscript
+public function IsFull() : boolean
+```
+
+#### Return Value
+
+Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+Returns [Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\)). True if the list is full.
+
+## Remarks
+
+Adding a new element will cause the oldest element to be removed.
+
+## Version Information
+
+#### Windows Phone
+
+Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
+
+## See Also
+
+#### Reference
+
+[CircularList\<T\> Class](circularlist-t-class-microsoft-web-media-diagnostics_1.md)
+
+[Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
+

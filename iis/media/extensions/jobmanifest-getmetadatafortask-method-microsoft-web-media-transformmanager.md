@@ -1,0 +1,90 @@
+﻿---
+title: JobManifest.GetMetadataForTask Method  (Microsoft.Web.Media.TransformManager)
+TOCTitle: GetMetadataForTask Method
+ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.GetMetadataForTask(System.String)
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.getmetadatafortask(v=VS.90)
+ms:contentKeyID: 35521103
+ms.date: 06/14/2012
+mtps_version: v=VS.90
+f1_keywords:
+- Microsoft.Web.Media.TransformManager.JobManifest.GetMetadataForTask
+dev_langs:
+- CSharp
+- JScript
+- VB
+- FSharp
+- c++
+api_location:
+- Microsoft.Web.Media.TransformManager.Common.dll
+api_name:
+- Microsoft.Web.Media.TransformManager.JobManifest.GetMetadataForTask
+api_type:
+- Managed
+topic_type:
+- apiref
+- kbSyntax
+product_family_name: VS
+ROBOTS: INDEX,FOLLOW
+---
+
+# GetMetadataForTask Method
+
+Returns the metadata for the specified task.
+
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+PublicFunctionGetMetadataForTask ( _
+    taskIdAsString _
+) AsXElement
+'Usage
+DiminstanceAsJobManifestDimtaskIdAsStringDimreturnValueAsXElementreturnValue = instance.GetMetadataForTask(taskId)
+```
+
+``` csharp
+publicXElementGetMetadataForTask(
+    stringtaskId
+)
+```
+
+``` c++
+public:
+XElement^ GetMetadataForTask(
+    String^ taskId
+)
+```
+
+``` fsharp
+memberGetMetadataForTask : 
+        taskId:string->XElement
+```
+
+``` jscript
+publicfunctionGetMetadataForTask(
+    taskId : String
+) : XElement
+```
+
+#### Parameters
+
+  - taskId  
+    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    The ID of the task.  
+
+#### Return Value
+
+Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+The XML element that contains the task metadata.  
+
+## See Also
+
+#### Reference
+
+[JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
+
+[Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
+

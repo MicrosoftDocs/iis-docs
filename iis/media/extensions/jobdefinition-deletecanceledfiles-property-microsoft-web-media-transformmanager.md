@@ -1,0 +1,92 @@
+﻿---
+title: JobDefinition.DeleteCanceledFiles Property  (Microsoft.Web.Media.TransformManager)
+TOCTitle: DeleteCanceledFiles Property
+ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.DeleteCanceledFiles
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.deletecanceledfiles(v=VS.90)
+ms:contentKeyID: 35521083
+ms.date: 06/14/2012
+mtps_version: v=VS.90
+f1_keywords:
+- Microsoft.Web.Media.TransformManager.JobDefinition.set_DeleteCanceledFiles
+- Microsoft.Web.Media.TransformManager.JobDefinition.get_DeleteCanceledFiles
+- Microsoft.Web.Media.TransformManager.JobDefinition.DeleteCanceledFiles
+dev_langs:
+- CSharp
+- JScript
+- VB
+- FSharp
+- c++
+api_location:
+- Microsoft.Web.Media.TransformManager.Common.dll
+api_name:
+- Microsoft.Web.Media.TransformManager.JobDefinition.DeleteCanceledFiles
+- Microsoft.Web.Media.TransformManager.JobDefinition.get_DeleteCanceledFiles
+- Microsoft.Web.Media.TransformManager.JobDefinition.set_DeleteCanceledFiles
+api_type:
+- Managed
+topic_type:
+- apiref
+- kbSyntax
+product_family_name: VS
+ROBOTS: INDEX,FOLLOW
+---
+
+# DeleteCanceledFiles Property
+
+Gets or sets a value that indicates whether asset files for canceled jobs should be deleted during the maintenance cycle.
+
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+<DataMemberAttribute> _
+PublicPropertyDeleteCanceledFilesAsBooleanGetSet
+'Usage
+DiminstanceAsJobDefinitionDimvalueAsBooleanvalue = instance.DeleteCanceledFiles
+
+instance.DeleteCanceledFiles = value
+```
+
+``` csharp
+[DataMemberAttribute]
+publicboolDeleteCanceledFiles { get; set; }
+```
+
+``` c++
+[DataMemberAttribute]
+public:
+propertyboolDeleteCanceledFiles {
+    boolget ();
+    voidset (boolvalue);
+}
+```
+
+``` fsharp
+[<DataMemberAttribute>]
+memberDeleteCanceledFiles : boolwithget, set
+```
+
+``` jscript
+function getDeleteCanceledFiles () : booleanfunction setDeleteCanceledFiles (value : boolean)
+```
+
+#### Property Value
+
+Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+true if the asset files for canceled jobs are deleted, or false if the asset files for canceled jobs are retained.  
+
+## Remarks
+
+The [AssetRetentionPeriodMinutes](jobdefinition-assetretentionperiodminutes-property-microsoft-web-media-transformmanager.md) property is used to determine when the asset files for canceled jobs should be deleted.
+
+## See Also
+
+#### Reference
+
+[JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
+
+[Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
+

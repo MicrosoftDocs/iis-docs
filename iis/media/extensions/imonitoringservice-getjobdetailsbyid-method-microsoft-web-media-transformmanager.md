@@ -1,0 +1,93 @@
+﻿---
+title: IMonitoringService.GetJobDetailsById Method  (Microsoft.Web.Media.TransformManager)
+TOCTitle: GetJobDetailsById Method
+ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobDetailsById(System.String)
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.imonitoringservice.getjobdetailsbyid(v=VS.90)
+ms:contentKeyID: 35521121
+ms.date: 06/14/2012
+mtps_version: v=VS.90
+f1_keywords:
+- Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobDetailsById
+dev_langs:
+- CSharp
+- JScript
+- VB
+- FSharp
+- c++
+api_location:
+- Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
+api_name:
+- Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobDetailsById
+api_type:
+- Managed
+topic_type:
+- apiref
+- kbSyntax
+product_family_name: VS
+ROBOTS: INDEX,FOLLOW
+---
+
+# GetJobDetailsById Method
+
+Returns a [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) object for a job.
+
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.ServiceLibrary (in Microsoft.Web.Media.TransformManager.ServiceLibrary.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+<OperationContractAttribute> _
+FunctionGetJobDetailsById ( _
+    jobIdAsString _
+) AsJobDetails
+'Usage
+DiminstanceAsIMonitoringServiceDimjobIdAsStringDimreturnValueAsJobDetailsreturnValue = instance.GetJobDetailsById(jobId)
+```
+
+``` csharp
+[OperationContractAttribute]
+JobDetailsGetJobDetailsById(
+    stringjobId
+)
+```
+
+``` c++
+[OperationContractAttribute]
+JobDetails^ GetJobDetailsById(
+    String^ jobId
+)
+```
+
+``` fsharp
+[<OperationContractAttribute>]
+abstractGetJobDetailsById : 
+        jobId:string->JobDetails
+```
+
+``` jscript
+functionGetJobDetailsById(
+    jobId : String
+) : JobDetails
+```
+
+#### Parameters
+
+  - jobId  
+    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    The ID of the job to return details for.  
+
+#### Return Value
+
+Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
+The [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) object.  
+
+## See Also
+
+#### Reference
+
+[IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
+
+[Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
+

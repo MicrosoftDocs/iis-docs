@@ -1,0 +1,95 @@
+﻿---
+title: CacheRequest.ReadFrom Method  (Microsoft.Web.Media.SmoothStreaming)
+TOCTitle: ReadFrom Method
+ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheRequest.ReadFrom(System.IO.Stream)
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacherequest.readfrom(v=VS.90)
+ms:contentKeyID: 31469179
+ms.date: 05/02/2012
+mtps_version: v=VS.90
+f1_keywords:
+- Microsoft.Web.Media.SmoothStreaming.CacheRequest.ReadFrom
+dev_langs:
+- CSharp
+- JScript
+- VB
+- c++
+api_location:
+- Microsoft.Web.Media.SmoothStreaming.dll
+api_name:
+- Microsoft.Web.Media.SmoothStreaming.CacheRequest.ReadFrom
+api_type:
+- Managed
+topic_type:
+- apiref
+- kbSyntax
+product_family_name: VS
+ROBOTS: INDEX,FOLLOW
+---
+
+# ReadFrom Method
+
+Reads the request from a [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\)) object. There is no default implementation for this method. Calling the method without implementing an override will result in a [NotSupportedException](https://msdn.microsoft.com/en-us/library/8a7a4e64\(v=vs.90\)).
+
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+PublicOverridableSubReadFrom ( _
+    streamAsStream _
+)
+'Usage
+DiminstanceAsCacheRequestDimstreamAsStream
+
+instance.ReadFrom(stream)
+```
+
+``` csharp
+publicvirtualvoidReadFrom(
+    Streamstream
+)
+```
+
+``` c++
+public:
+virtualvoidReadFrom(
+    Stream^ stream
+)
+```
+
+``` jscript
+publicfunctionReadFrom(
+    stream : Stream
+)
+```
+
+#### Parameters
+
+  - stream  
+    Type: [System.IO. . :: . .Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\))  
+    A [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\)) object.  
+
+## Version Information
+
+#### Silverlight
+
+Supported in: 4  
+
+#### Silverlight for Windows Phone
+
+Supported in: Windows Phone OS 7.0  
+
+## Permissions
+
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+
+## See Also
+
+#### Reference
+
+[CacheRequest Class](cacherequest-class-microsoft-web-media-smoothstreaming_1.md)
+
+[Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
+

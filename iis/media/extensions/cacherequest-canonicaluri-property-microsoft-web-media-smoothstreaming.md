@@ -1,0 +1,91 @@
+﻿---
+title: CacheRequest.CanonicalUri Property  (Microsoft.Web.Media.SmoothStreaming)
+TOCTitle: CanonicalUri Property
+ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheRequest.CanonicalUri
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacherequest.canonicaluri(v=VS.90)
+ms:contentKeyID: 31469150
+ms.date: 05/02/2012
+mtps_version: v=VS.90
+f1_keywords:
+- Microsoft.Web.Media.SmoothStreaming.CacheRequest.CanonicalUri
+- Microsoft.Web.Media.SmoothStreaming.CacheRequest.get_CanonicalUri
+- Microsoft.Web.Media.SmoothStreaming.CacheRequest.set_CanonicalUri
+dev_langs:
+- CSharp
+- JScript
+- VB
+- c++
+api_location:
+- Microsoft.Web.Media.SmoothStreaming.dll
+api_name:
+- Microsoft.Web.Media.SmoothStreaming.CacheRequest.CanonicalUri
+- Microsoft.Web.Media.SmoothStreaming.CacheRequest.set_CanonicalUri
+- Microsoft.Web.Media.SmoothStreaming.CacheRequest.get_CanonicalUri
+api_type:
+- Managed
+topic_type:
+- apiref
+- kbSyntax
+product_family_name: VS
+ROBOTS: INDEX,FOLLOW
+---
+
+# CanonicalUri Property
+
+The Uri of the request.
+
+**Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
+**Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+PublicPropertyCanonicalUriAsUri
+'Usage
+DiminstanceAsCacheRequestDimvalueAsUrivalue = instance.CanonicalUri
+```
+
+``` csharp
+publicUriCanonicalUri { get; privateset; }
+```
+
+``` c++
+public:
+propertyUri^ CanonicalUri {
+    Uri^ get ();
+    private: voidset (Uri^ value);
+}
+```
+
+``` jscript
+function getCanonicalUri () : Uriprivatefunction setCanonicalUri (value : Uri)
+```
+
+#### Property Value
+
+Type: [System. . :: . .Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.90\))  
+A [Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.90\)) object.  
+
+## Version Information
+
+#### Silverlight
+
+Supported in: 4  
+
+#### Silverlight for Windows Phone
+
+Supported in: Windows Phone OS 7.0  
+
+## Permissions
+
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+
+## See Also
+
+#### Reference
+
+[CacheRequest Class](cacherequest-class-microsoft-web-media-smoothstreaming_1.md)
+
+[Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
+

@@ -1,0 +1,91 @@
+﻿---
+title: Scheduler.SetLogWriter Method  (Microsoft.Web.Media.TransformManager)
+TOCTitle: SetLogWriter Method
+ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.SetLogWriter(Microsoft.Web.Media.TransformManager.Logger)
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.scheduler.setlogwriter(v=VS.90)
+ms:contentKeyID: 35520806
+ms.date: 06/14/2012
+mtps_version: v=VS.90
+f1_keywords:
+- Microsoft.Web.Media.TransformManager.Scheduler.SetLogWriter
+dev_langs:
+- CSharp
+- JScript
+- VB
+- FSharp
+- c++
+api_location:
+- Microsoft.Web.Media.TransformManager.Common.dll
+api_name:
+- Microsoft.Web.Media.TransformManager.Scheduler.SetLogWriter
+api_type:
+- Managed
+topic_type:
+- apiref
+- kbSyntax
+product_family_name: VS
+ROBOTS: INDEX,FOLLOW
+---
+
+# SetLogWriter Method
+
+Sets the [Logger](logger-class-microsoft-web-media-transformmanager.md) object for the scheduler.
+
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+PublicMustOverrideSubSetLogWriter ( _
+    loggerAsLogger _
+)
+'Usage
+DiminstanceAsSchedulerDimloggerAsLogger
+
+instance.SetLogWriter(logger)
+```
+
+``` csharp
+publicabstractvoidSetLogWriter(
+    Loggerlogger
+)
+```
+
+``` c++
+public:
+virtualvoidSetLogWriter(
+    Logger^ logger
+) abstract
+```
+
+``` fsharp
+abstractSetLogWriter : 
+        logger:Logger->unit
+```
+
+``` jscript
+publicabstractfunctionSetLogWriter(
+    logger : Logger
+)
+```
+
+#### Parameters
+
+  - logger  
+    Type: [Microsoft.Web.Media.TransformManager. . :: . .Logger](logger-class-microsoft-web-media-transformmanager.md)  
+    The [Logger](logger-class-microsoft-web-media-transformmanager.md) object that provides access to task definition and job template properties.  
+
+## Remarks
+
+This method enables either the job manager or task engine to collect logging information.
+
+## See Also
+
+#### Reference
+
+[Scheduler Class](scheduler-class-microsoft-web-media-transformmanager.md)
+
+[Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
+

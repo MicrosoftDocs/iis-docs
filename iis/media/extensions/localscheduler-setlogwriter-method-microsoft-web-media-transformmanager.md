@@ -1,0 +1,88 @@
+﻿---
+title: LocalScheduler.SetLogWriter Method  (Microsoft.Web.Media.TransformManager)
+TOCTitle: SetLogWriter Method
+ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.SetLogWriter(Microsoft.Web.Media.TransformManager.Logger)
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.localscheduler.setlogwriter(v=VS.90)
+ms:contentKeyID: 35520978
+ms.date: 06/14/2012
+mtps_version: v=VS.90
+f1_keywords:
+- Microsoft.Web.Media.TransformManager.LocalScheduler.SetLogWriter
+dev_langs:
+- CSharp
+- JScript
+- VB
+- FSharp
+- c++
+api_location:
+- Microsoft.Web.Media.TransformManager.Common.dll
+api_name:
+- Microsoft.Web.Media.TransformManager.LocalScheduler.SetLogWriter
+api_type:
+- Managed
+topic_type:
+- apiref
+- kbSyntax
+product_family_name: VS
+ROBOTS: INDEX,FOLLOW
+---
+
+# SetLogWriter Method
+
+Sets the [Logger](logger-class-microsoft-web-media-transformmanager.md) object for the local scheduler.
+
+**Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
+**Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
+
+## Syntax
+
+``` vb
+'Declaration
+PublicOverridesSubSetLogWriter ( _
+    loggerAsLogger _
+)
+'Usage
+DiminstanceAsLocalSchedulerDimloggerAsLogger
+
+instance.SetLogWriter(logger)
+```
+
+``` csharp
+publicoverridevoidSetLogWriter(
+    Loggerlogger
+)
+```
+
+``` c++
+public:
+virtualvoidSetLogWriter(
+    Logger^ logger
+) override
+```
+
+``` fsharp
+abstractSetLogWriter : 
+        logger:Logger->unitoverrideSetLogWriter : 
+        logger:Logger->unit
+```
+
+``` jscript
+publicoverridefunctionSetLogWriter(
+    logger : Logger
+)
+```
+
+#### Parameters
+
+  - logger  
+    Type: [Microsoft.Web.Media.TransformManager. . :: . .Logger](logger-class-microsoft-web-media-transformmanager.md)  
+    The [Logger](logger-class-microsoft-web-media-transformmanager.md) object that provides access to task definition and job template properties.  
+
+## See Also
+
+#### Reference
+
+[LocalScheduler Class](localscheduler-class-microsoft-web-media-transformmanager.md)
+
+[Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
+

@@ -1,0 +1,65 @@
+﻿---
+title: InputStreams Element
+TOCTitle: InputStreams Element
+ms:assetid: 3fb98cb2-036a-43e6-939e-ba83892df9ee
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh547034(v=VS.90)
+ms:contentKeyID: 37836875
+ms.date: 05/02/2012
+mtps_version: v=VS.90
+---
+
+# InputStreams Element
+
+Provides summary information about the Smooth Streams that are received from all live sources, such as encoders or other Live Smooth Streaming publishing points.
+
+    <InputStreams>
+      <InputStream>
+        <State />
+        <ArchiveFileName />
+        <Sources>
+          <Source />
+        </Sources>
+        <Sinks>
+          <Sink />
+        </Sinks>
+        <Tracks>
+          <Track>
+            <Name />
+            <EncodedBitRate />
+            <IncomingBitRate />
+            <IncomingFragmentWaitTime />
+            <IncomingFragmentTimeStamp />
+            <IncomingFragmentDuration />
+            <RequestRate />
+          </Track>
+        </Tracks>
+      </InputStream>
+    </InputStreams>
+
+### Child Elements
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><a href="inputstream-element.md">InputStream Element</a></p></td>
+</tr>
+</tbody>
+</table>
+
+
+### Parent Element
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><a href="statistics-element.md">Statistics Element</a></p></td>
+</tr>
+</tbody>
+</table>
+
