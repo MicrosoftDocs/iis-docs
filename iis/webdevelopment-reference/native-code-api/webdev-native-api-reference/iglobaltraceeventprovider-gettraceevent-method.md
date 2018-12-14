@@ -1,0 +1,136 @@
+---
+title: "IGlobalTraceEventProvider::GetTraceEvent Method | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/07/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: cefd0b4e-0eef-fe25-0242-87d496944a0c
+caps.latest.revision: 27
+author: "shirhatti"
+manager: "wpickett"
+---
+# IGlobalTraceEventProvider::GetTraceEvent Method
+Retrieves the trace event for the provider.  
+  
+## Syntax  
+  
+```cpp  
+virtual HRESULT GetTraceEvent(  
+   OUT HTTP_TRACE_EVENT** ppTraceEvent  
+) = 0;  
+```  
+  
+#### Parameters  
+ `ppTraceEvent`  
+ [OUT] A pointer to the address of an [HTTP_TRACE_EVENT](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/http-trace-event-structure.md) structure.  
+  
+## Return Value  
+ An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
+  
+|Value|Definition|  
+|-----------|----------------|  
+|S_OK|Indicates that the operation was successful.|  
+  
+## Remarks  
+ [CGlobalModule](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/request-processing-constants.md) event types receive an [IGlobalTraceEventProvider](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/iglobaltraceeventprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method. Clients will usually call the `GetTraceEvent` method on that pointer only if the [CheckSubscription](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/iglobaltraceeventprovider-checksubscription-method.md) method returns `true`.  
+  
+ `GetTraceEvent` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
+  
+ All `IGlobalTraceEventProvider` implementers declare a `private``HTTP_TRACE_EVENT` pointer and initialize that pointer during construction to shared `HTTP_TRACE_EVENT` data that is passed to the constructors. The `GetTraceEvent` call sets the dereferenced `ppTraceEvent` pointer to this `private` data and then always returns S_OK.  
+  
+## Notes for Implementers  
+ `IGlobalTraceEventProvider` implementers are responsible for memory management with this data; therefore, `IGlobalTraceEventProvider` implementers that use dynamic memory allocation must release or call `delete` on the `HTTP_TRACE_EVENT` pointer when it is no longer needed.  
+  
+## Notes for Callers  
+ `IGlobalTraceEventProvider` implementers are responsible for memory management with this data; therefore, `IGlobalTraceEventProvider` clients must not release or call `delete` on the returned `HTTP_TRACE_EVENT` pointer when this data is no longer needed.  
+  
+## Example  
+ The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/request-processing-constants.md) events and then writes the `IGlobalTraceEventProvider` information to the Event Viewer.  
+  
+> [!CAUTION]
+>  [!INCLUDE[iisver](../../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
+  
+<!-- TODO: review snippet reference  [!CODE [IGlobalTraceEventProvider#4](IGlobalTraceEventProvider#4)]  -->  
+  
+ The above code writes a new event to the Event Viewer, where the Data box contains XML similar to the following.  
+  
+```  
+<eventProvider>  
+    <traceEvent   
+        area="0"   
+        event="1"   
+        eventVersion="1"   
+        flags="1"   
+        timeStamp="7394953"   
+        verbosity="0"   
+        activityGuid="{00000000-0000-0000-5D00-0080000000FB}"   
+        areaGuid="{D42CF7EF-DE92-473E-8B6C-621EA663113A}"   
+        providerGuid="{3A2A4E84-4C21-4981-AE10-3FDA0D9B0F83}"   
+        relatedActivityGuid="NULL"   
+        eventName="GENERAL_REQUEST_START"   
+        eventItems="7">  
+        <traceEventItems>  
+            <traceEventItem   
+                data="16"   
+                traceType="HTTP_TRACE_TYPE_LPCGUID"   
+                pbData="NULL"   
+                description="NULL"   
+                name="ContextId"/>  
+            <traceEventItem   
+                data="4"   
+                traceType="HTTP_TRACE_TYPE_ULONG"   
+                pbData="1"   
+                description="NULL"   
+                name="SiteId"/>  
+            <traceEventItem   
+                data="30"   
+                traceType="HTTP_TRACE_TYPE_LPCWSTR"   
+                pbData="DefaultAppPool"   
+                description="NULL"   
+                name="AppPoolId"/>  
+            <traceEventItem   
+                data="8"   
+                traceType="HTTP_TRACE_TYPE_ULONGLONG"   
+                pbData="92"   
+                description="NULL"   
+                name="ConnId"/>  
+            <traceEventItem   
+                data="8"   
+                traceType="HTTP_TRACE_TYPE_ULONGLONG"   
+                pbData="0"   
+                description="NULL"   
+                name="RawConnId"/>  
+            <traceEventItem   
+                data="48"   
+                traceType="HTTP_TRACE_TYPE_LPCWSTR"   
+                pbData="http://server:80/"   
+                description="NULL"   
+                name="RequestURL"/>  
+            <traceEventItem   
+                data="4"   
+                    traceType="HTTP_TRACE_TYPE_LPCSTR"   
+                    pbData="GET"   
+                    description="NULL"   
+                    name="RequestVerb"/>  
+        </traceEventItems>  
+    </traceEvent>  
+</eventProvider>  
+```  
+  
+ Your module must export the [RegisterModule](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../../webdevelopment-reference\native-code-development-overview\native-code-dev-overview/walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+  
+ You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
+  
+## Requirements  
+  
+|Type|Description|  
+|----------|-----------------|  
+|Client|-   [!INCLUDE[iis70](../../../wmi-provider/includes/iis70-md.md)] on [!INCLUDE[winvista](../../../wmi-provider/includes/winvista-md.md)]<br />-   [!INCLUDE[iis75](../../../wmi-provider/includes/iis75-md.md)] on [!INCLUDE[win7](../../../wmi-provider/includes/win7-md.md)]<br />-   [!INCLUDE[iis80](../../../wmi-provider/includes/iis80-md.md)] on [!INCLUDE[win8](../../../wmi-provider/includes/win8-md.md)]<br />-   [!INCLUDE[iis100](../../../wmi-provider/includes/iis100-md.md)] on [!INCLUDE[win10](../../../wmi-provider/includes/win10-md.md)]|  
+|Server|-   [!INCLUDE[iis70](../../../wmi-provider/includes/iis70-md.md)] on [!INCLUDE[winsrv2008](../../../wmi-provider/includes/winsrv2008-md.md)]<br />-   [!INCLUDE[iis75](../../../wmi-provider/includes/iis75-md.md)] on [!INCLUDE[winsrv2008r2](../../../wmi-provider/includes/winsrv2008r2-md.md)]<br />-   [!INCLUDE[iis80](../../../wmi-provider/includes/iis80-md.md)] on [!INCLUDE[winsrv2012](../../../wmi-provider/includes/winsrv2012-md.md)]<br />-   [!INCLUDE[iis85](../../../wmi-provider/includes/iis85-md.md)] on [!INCLUDE[winsrv2012r2](../../../wmi-provider/includes/winsrv2012r2-md.md)]<br />-   [!INCLUDE[iis100](../../../wmi-provider/includes/iis100-md.md)] on [!INCLUDE[winsrv2016](../../../wmi-provider/includes/winsrv2016-md.md)]|  
+|Product|-   [!INCLUDE[iis70](../../../wmi-provider/includes/iis70-md.md)], [!INCLUDE[iis75](../../../wmi-provider/includes/iis75-md.md)], [!INCLUDE[iis80](../../../wmi-provider/includes/iis80-md.md)], [!INCLUDE[iis85](../../../wmi-provider/includes/iis85-md.md)], [!INCLUDE[iis100](../../../wmi-provider/includes/iis100-md.md)]<br />-   [!INCLUDE[iisexp75](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/includes/iisexp75-md.md)], [!INCLUDE[iisexp80](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/includes/iisexp80-md.md)], [!INCLUDE[iisexp100](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/includes/iisexp100-md.md)]|  
+|Header|Httpserv.h|  
+  
+## See Also  
+ [IGlobalTraceEventProvider Interface](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/iglobaltraceeventprovider-interface.md)

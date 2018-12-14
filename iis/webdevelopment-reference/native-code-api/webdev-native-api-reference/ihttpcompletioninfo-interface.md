@@ -1,0 +1,51 @@
+---
+title: "IHttpCompletionInfo Interface | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/07/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: 3f6d645d-aa2e-1de3-610d-104d8b775a10
+caps.latest.revision: 22
+author: "shirhatti"
+manager: "wpickett"
+---
+# IHttpCompletionInfo Interface
+Provides information about an asynchronous completion.  
+  
+## Syntax  
+  
+```cpp  
+class IHttpCompletionInfo  
+```  
+  
+## Methods  
+ The following table lists the methods exposed by the `IHttpCompletionInfo` interface.  
+  
+|Name|Description|  
+|----------|-----------------|  
+|[GetCompletionBytes](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/ihttpcompletioninfo-getcompletionbytes-method.md)|Returns the number of bytes completed for an asynchronous operation.|  
+|[GetCompletionStatus](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/ihttpcompletioninfo-getcompletionstatus-method.md)|Returns the status of an asynchronous operation.|  
+  
+## Derived Classes  
+  
+|Name|Description|  
+|----------|-----------------|  
+|[IHttpCompletionInfo2](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/ihttpcompletioninfo2-interface.md)|Provides an interface to get the number of bytes completed by an asynchronous operation.|  
+  
+## Remarks  
+ An `IHttpCompletionInfo` interface is created and passed to a module's [CHttpModule::OnAsyncCompletion](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/chttpmodule-onasynccompletion-method.md) method when the module completes an asynchronous operation. The `GetCompletionBytes` and `GetCompletionStatus` methods, respectively, retrieve the number of bytes completed and the return the status of an asynchronous operation.  
+  
+## Requirements  
+  
+|Type|Description|  
+|----------|-----------------|  
+|Client|-   [!INCLUDE[iis70](../../../wmi-provider/includes/iis70-md.md)] on [!INCLUDE[winvista](../../../wmi-provider/includes/winvista-md.md)]<br />-   [!INCLUDE[iis75](../../../wmi-provider/includes/iis75-md.md)] on [!INCLUDE[win7](../../../wmi-provider/includes/win7-md.md)]<br />-   [!INCLUDE[iis80](../../../wmi-provider/includes/iis80-md.md)] on [!INCLUDE[win8](../../../wmi-provider/includes/win8-md.md)]<br />-   [!INCLUDE[iis100](../../../wmi-provider/includes/iis100-md.md)] on [!INCLUDE[win10](../../../wmi-provider/includes/win10-md.md)]|  
+|Server|-   [!INCLUDE[iis70](../../../wmi-provider/includes/iis70-md.md)] on [!INCLUDE[winsrv2008](../../../wmi-provider/includes/winsrv2008-md.md)]<br />-   [!INCLUDE[iis75](../../../wmi-provider/includes/iis75-md.md)] on [!INCLUDE[winsrv2008r2](../../../wmi-provider/includes/winsrv2008r2-md.md)]<br />-   [!INCLUDE[iis80](../../../wmi-provider/includes/iis80-md.md)] on [!INCLUDE[winsrv2012](../../../wmi-provider/includes/winsrv2012-md.md)]<br />-   [!INCLUDE[iis85](../../../wmi-provider/includes/iis85-md.md)] on [!INCLUDE[winsrv2012r2](../../../wmi-provider/includes/winsrv2012r2-md.md)]<br />-   [!INCLUDE[iis100](../../../wmi-provider/includes/iis100-md.md)] on [!INCLUDE[winsrv2016](../../../wmi-provider/includes/winsrv2016-md.md)]|  
+|Product|-   [!INCLUDE[iis70](../../../wmi-provider/includes/iis70-md.md)], [!INCLUDE[iis75](../../../wmi-provider/includes/iis75-md.md)], [!INCLUDE[iis80](../../../wmi-provider/includes/iis80-md.md)], [!INCLUDE[iis85](../../../wmi-provider/includes/iis85-md.md)], [!INCLUDE[iis100](../../../wmi-provider/includes/iis100-md.md)]<br />-   [!INCLUDE[iisexp75](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/includes/iisexp75-md.md)], [!INCLUDE[iisexp80](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/includes/iisexp80-md.md)], [!INCLUDE[iisexp100](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/includes/iisexp100-md.md)]|  
+|Header|Httpserv.h|  
+  
+## See Also  
+ [Web Server Core Interfaces](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/web-server-core-interfaces.md)   
+ [CHttpModule::OnAsyncCompletion Method](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/chttpmodule-onasynccompletion-method.md)
