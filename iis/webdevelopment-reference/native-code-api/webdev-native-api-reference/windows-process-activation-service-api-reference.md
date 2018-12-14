@@ -23,4 +23,4 @@ This section describes the functions and interfaces that support the IIS Windows
   
 ## See Also  
  [Native-Code Architecture API Reference](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/native-code-architecture-api-reference.md)   
- [IIS Development](../Topic/Internet%20Information%20Services%20Development.md)
+ [IIS Development](http://msdn.microsoft.com/library/6c07a4d0-1bf0-45d3-8178-25df76e6740c)

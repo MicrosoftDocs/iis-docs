@@ -14,7 +14,7 @@ manager: "wpickett"
 # Mapping IIS 6.0 WMI Methods to IIS 7 and higher WMI Methods1
 The table below shows the IIS 6.0 WMI provider class methods mapped to the [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI provider class methods. Most of the IIS 6.0 WMI class methods do not map to [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI provider class methods because of the significant architectural changes that were implemented in [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] to improve processes and provide additional features. Use this table to help you convert your IIS 6.0 programmatic administration to use [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI provider classes and methods.  
   
- IIS 6.0 WMI provider classes that do not have methods do not appear in this table. For information about how those classes are mapped to [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI classes and schema elements, see [Converting Metabase Properties to Configuration Settings](../Topic/Converting%20Metabase%20Properties%20to%20Configuration%20Settings.md).  
+ IIS 6.0 WMI provider classes that do not have methods do not appear in this table. For information about how those classes are mapped to [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI classes and schema elements, see [Converting Metabase Properties to Configuration Settings](http://msdn.microsoft.com/library/f483d50d-ed22-4114-a5c2-212ec11526a2).  
   
 |IIS 6.0 WMI class|IIS 6.0 method|[!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI class or method|  
 |-----------------------|--------------------|--------------------------------------------------------------------------------|  

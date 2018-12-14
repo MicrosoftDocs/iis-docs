@@ -22,5 +22,5 @@ IIS 7 and IIS 8 enable native-code developers to extend the Web server in a vari
  Describes how to create HTTP modules by using the new native-code extensibility features.  
   
 ## See Also  
- [Web Server Development Reference](../Topic/Web%20Server%20Development%20Reference.md)   
+ [Web Server Development Reference](http://msdn.microsoft.com/library/b1469482-2635-48f0-bf4b-aabccb7c0abd)   
  [Native-Code API Reference](../../../webdevelopment-reference\native-code-api\webdev-native-api-reference/native-code-api-reference.md)
