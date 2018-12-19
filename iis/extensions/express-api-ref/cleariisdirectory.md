@@ -28,5 +28,5 @@ ClearIISDirectory();
  This function deletes all related content, including configuration files and log files.  
   
 ## See Also  
- [IISDirectory](../../extenions\express-api-ref/iisdirectory.md)   
- [SetupIISDirectory](../../extenions\express-api-ref/setupiisdirectory.md)
+ [IISDirectory](../../extensions\express-api-ref/iisdirectory.md)   
+ [SetupIISDirectory](../../extensions\express-api-ref/setupiisdirectory.md)

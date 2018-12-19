@@ -16,9 +16,9 @@ The `Microsoft.Web.Diagnostics` namespace includes classes that provide diagnost
 ## In this section  
  The following topics describe the `Microsoft.Web.Diagnostics` namespace.  
   
--   [ErrorInformation (IISExpress)](../../extenions\express-api-ref/errorinformation-iisexpress.md)  
+-   [ErrorInformation (IISExpress)](../../extensions\express-api-ref/errorinformation-iisexpress.md)  
   
--   [IISDeveloperExpressDiagnostics](../../extenions\express-api-ref/iisdeveloperexpressdiagnostics.md)  
+-   [IISDeveloperExpressDiagnostics](../../extensions\express-api-ref/iisdeveloperexpressdiagnostics.md)  
   
 ## See Also  
- [IIS Express API Reference](../../extenions\express-api-ref/iis-express-api-reference.md)
+ [IIS Express API Reference](../../extensions\express-api-ref/iis-express-api-reference.md)

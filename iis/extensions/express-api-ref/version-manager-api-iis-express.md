@@ -20,15 +20,15 @@ The IIS Version Manager is a COM interface that provides information about IIS v
 ## In this section  
  The following topics describe the IIS Version Manager API.  
   
--   [IIS_PRODUCT_TYPE](../../extenions\express-api-ref/iis-product-type.md)  
+-   [IIS_PRODUCT_TYPE](../../extensions\express-api-ref/iis-product-type.md)  
   
--   [IIISVersionManager](../../extenions\express-api-ref/iiisversionmanager.md)  
+-   [IIISVersionManager](../../extensions\express-api-ref/iiisversionmanager.md)  
   
--   [IIISVersion](../../extenions\express-api-ref/iiisversion.md)  
+-   [IIISVersion](../../extensions\express-api-ref/iiisversion.md)  
   
--   [IIISUserData](../../extenions\express-api-ref/iiisuserdata.md)  
+-   [IIISUserData](../../extensions\express-api-ref/iiisuserdata.md)  
   
--   [IIISExpressProcessUtility](../../extenions\express-api-ref/iiisexpressprocessutility.md)  
+-   [IIISExpressProcessUtility](../../extensions\express-api-ref/iiisexpressprocessutility.md)  
   
 ## See Also  
- [Microsoft.Web.Diagnostics (IIS Express)](../../extenions\express-api-ref/microsoft-web-diagnostics-iis-express.md)
+ [Microsoft.Web.Diagnostics (IIS Express)](../../extensions\express-api-ref/microsoft-web-diagnostics-iis-express.md)

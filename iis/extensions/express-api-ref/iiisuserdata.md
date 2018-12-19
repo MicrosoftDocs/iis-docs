@@ -11,7 +11,7 @@ caps.latest.revision: 4
 manager: "wpickett"
 ---
 # IIISUserData
-Allows per-user IIS Express directories to be queried and created for [IIISVersion](../../extenions\express-api-ref/iiisversion.md) objects that describe IIS Express.  
+Allows per-user IIS Express directories to be queried and created for [IIISVersion](../../extensions\express-api-ref/iiisversion.md) objects that describe IIS Express.  
   
 ## Syntax  
   
@@ -36,6 +36,6 @@ interface IIISUserData : IUnknown
 ```  
   
 ## See Also  
- [IISDirectory](../../extenions\express-api-ref/iisdirectory.md)   
- [SetupIISDirectory](../../extenions\express-api-ref/setupiisdirectory.md)   
- [ClearIISDirectory](../../extenions\express-api-ref/cleariisdirectory.md)
+ [IISDirectory](../../extensions\express-api-ref/iisdirectory.md)   
+ [SetupIISDirectory](../../extensions\express-api-ref/setupiisdirectory.md)   
+ [ClearIISDirectory](../../extensions\express-api-ref/cleariisdirectory.md)

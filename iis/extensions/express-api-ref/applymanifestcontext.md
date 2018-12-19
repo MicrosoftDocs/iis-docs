@@ -25,12 +25,12 @@ Applies the Fusion manifest context on the calling thread, enabling the creation
  `HRESULT`  
   
 ## Remarks  
- This function enables granular control of the process of setting and removing the Fusion activation context from the thread. It can be useful if you want to perform multiple operations with the context rather than using one of the helper functions such as [CreateObjectFromProgId](../../extenions\express-api-ref/createobjectfromprogid.md) or [CreateObjectFromCLSID](../../extenions\express-api-ref/createobjectfromclsid.md).  
+ This function enables granular control of the process of setting and removing the Fusion activation context from the thread. It can be useful if you want to perform multiple operations with the context rather than using one of the helper functions such as [CreateObjectFromProgId](../../extensions\express-api-ref/createobjectfromprogid.md) or [CreateObjectFromCLSID](../../extensions\express-api-ref/createobjectfromclsid.md).  
   
 ## See Also  
- [GetPropertyValue](../../extenions\express-api-ref/getpropertyvalue.md)   
- [CreateObjectFromProgId](../../extenions\express-api-ref/createobjectfromprogid.md)   
- [CreateObjectFromCLSID](../../extenions\express-api-ref/createobjectfromclsid.md)   
- [ApplyIISEnvironmentVariables](../../extenions\express-api-ref/applyiisenvironmentvariables.md)   
- [ClearIISEnvironmentVariables](../../extenions\express-api-ref/cleariisenvironmentvariables.md)   
- [ClearManifestContext](../../extenions\express-api-ref/clearmanifestcontext.md)
+ [GetPropertyValue](../../extensions\express-api-ref/getpropertyvalue.md)   
+ [CreateObjectFromProgId](../../extensions\express-api-ref/createobjectfromprogid.md)   
+ [CreateObjectFromCLSID](../../extensions\express-api-ref/createobjectfromclsid.md)   
+ [ApplyIISEnvironmentVariables](../../extensions\express-api-ref/applyiisenvironmentvariables.md)   
+ [ClearIISEnvironmentVariables](../../extensions\express-api-ref/cleariisenvironmentvariables.md)   
+ [ClearManifestContext](../../extensions\express-api-ref/clearmanifestcontext.md)

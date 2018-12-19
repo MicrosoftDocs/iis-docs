@@ -41,9 +41,9 @@ Creates a COM object using the specified ProgID.
  This method attempts to create the COM object of the Fusion activation context of the product, if one exists, from the ProgID specified by the `bstrObjectName` parameter. For example, if you try to create the native reader object using the `IIS_PRODUCT_OS_SERVICE` product type and version object, the method returns the operating system’s native reader object. However, if the version object is of type `IIS_PRODUCT_EXPRESS`, the method first applies the Fusion manifest context for the product, and then creates the COM object and returns the native reader for that version of IIS Express.  
   
 ## See Also  
- [GetPropertyValue](../../extenions\express-api-ref/getpropertyvalue.md)   
- [CreateObjectFromCLSID](../../extenions\express-api-ref/createobjectfromclsid.md)   
- [ApplyIISEnvironmentVariables](../../extenions\express-api-ref/applyiisenvironmentvariables.md)   
- [ClearIISEnvironmentVariables](../../extenions\express-api-ref/cleariisenvironmentvariables.md)   
- [ApplyManifestContext](../../extenions\express-api-ref/applymanifestcontext.md)   
- [ClearManifestContext](../../extenions\express-api-ref/clearmanifestcontext.md)
+ [GetPropertyValue](../../extensions\express-api-ref/getpropertyvalue.md)   
+ [CreateObjectFromCLSID](../../extensions\express-api-ref/createobjectfromclsid.md)   
+ [ApplyIISEnvironmentVariables](../../extensions\express-api-ref/applyiisenvironmentvariables.md)   
+ [ClearIISEnvironmentVariables](../../extensions\express-api-ref/cleariisenvironmentvariables.md)   
+ [ApplyManifestContext](../../extensions\express-api-ref/applymanifestcontext.md)   
+ [ClearManifestContext](../../extensions\express-api-ref/clearmanifestcontext.md)

@@ -32,7 +32,7 @@ Queries the specified property of the IIS version.
   
     -   `version`. The version of the product in *major.minor* format.  
   
-    -   `productType`. The product type, defined in the [IIS_PRODUCT_TYPE](../../extenions\express-api-ref/iis-product-type.md) enumeration, as a DWORD value (VARIANT I4).  
+    -   `productType`. The product type, defined in the [IIS_PRODUCT_TYPE](../../extensions\express-api-ref/iis-product-type.md) enumeration, as a DWORD value (VARIANT I4).  
   
     -   `installPath`. The full path to the install location of the product.  
   
@@ -52,16 +52,16 @@ Queries the specified property of the IIS version.
 ## Exceptions  
   
 ## Remarks  
- The following [IIISVersion](../../extenions\express-api-ref/iiisversion.md) objects can be used only for the IIS Express product type:  
+ The following [IIISVersion](../../extensions\express-api-ref/iiisversion.md) objects can be used only for the IIS Express product type:  
   
--   `userInstanceHelper`. An [IIISUserData](../../extenions\express-api-ref/iiisuserdata.md) object.  
+-   `userInstanceHelper`. An [IIISUserData](../../extensions\express-api-ref/iiisuserdata.md) object.  
   
--   `expressProcessHelper`. An [IIISExpressProcessUtility](../../extenions\express-api-ref/iiisexpressprocessutility.md) object.  
+-   `expressProcessHelper`. An [IIISExpressProcessUtility](../../extensions\express-api-ref/iiisexpressprocessutility.md) object.  
   
 ## See Also  
- [CreateObjectFromProgId](../../extenions\express-api-ref/createobjectfromprogid.md)   
- [CreateObjectFromCLSID](../../extenions\express-api-ref/createobjectfromclsid.md)   
- [ApplyIISEnvironmentVariables](../../extenions\express-api-ref/applyiisenvironmentvariables.md)   
- [ClearIISEnvironmentVariables](../../extenions\express-api-ref/cleariisenvironmentvariables.md)   
- [ApplyManifestContext](../../extenions\express-api-ref/applymanifestcontext.md)   
- [ClearManifestContext](../../extenions\express-api-ref/clearmanifestcontext.md)
+ [CreateObjectFromProgId](../../extensions\express-api-ref/createobjectfromprogid.md)   
+ [CreateObjectFromCLSID](../../extensions\express-api-ref/createobjectfromclsid.md)   
+ [ApplyIISEnvironmentVariables](../../extensions\express-api-ref/applyiisenvironmentvariables.md)   
+ [ClearIISEnvironmentVariables](../../extensions\express-api-ref/cleariisenvironmentvariables.md)   
+ [ApplyManifestContext](../../extensions\express-api-ref/applymanifestcontext.md)   
+ [ClearManifestContext](../../extensions\express-api-ref/clearmanifestcontext.md)

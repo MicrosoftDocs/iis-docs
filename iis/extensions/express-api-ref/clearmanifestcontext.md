@@ -11,7 +11,7 @@ caps.latest.revision: 5
 manager: "wpickett"
 ---
 # ClearManifestContext
-Clears the manifest context created using an earlier call to [ApplyManifestContext](../../extenions\express-api-ref/applymanifestcontext.md).  
+Clears the manifest context created using an earlier call to [ApplyManifestContext](../../extensions\express-api-ref/applymanifestcontext.md).  
   
 ## Syntax  
   
@@ -24,9 +24,9 @@ Clears the manifest context created using an earlier call to [ApplyManifestConte
  `HRESULT`  
   
 ## See Also  
- [GetPropertyValue](../../extenions\express-api-ref/getpropertyvalue.md)   
- [CreateObjectFromProgId](../../extenions\express-api-ref/createobjectfromprogid.md)   
- [CreateObjectFromCLSID](../../extenions\express-api-ref/createobjectfromclsid.md)   
- [ApplyIISEnvironmentVariables](../../extenions\express-api-ref/applyiisenvironmentvariables.md)   
- [ClearIISEnvironmentVariables](../../extenions\express-api-ref/cleariisenvironmentvariables.md)   
- [ApplyManifestContext](../../extenions\express-api-ref/applymanifestcontext.md)
+ [GetPropertyValue](../../extensions\express-api-ref/getpropertyvalue.md)   
+ [CreateObjectFromProgId](../../extensions\express-api-ref/createobjectfromprogid.md)   
+ [CreateObjectFromCLSID](../../extensions\express-api-ref/createobjectfromclsid.md)   
+ [ApplyIISEnvironmentVariables](../../extensions\express-api-ref/applyiisenvironmentvariables.md)   
+ [ClearIISEnvironmentVariables](../../extensions\express-api-ref/cleariisenvironmentvariables.md)   
+ [ApplyManifestContext](../../extensions\express-api-ref/applymanifestcontext.md)

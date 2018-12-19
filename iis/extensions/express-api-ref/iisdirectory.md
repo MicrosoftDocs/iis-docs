@@ -34,5 +34,5 @@ IISDirectory(
  `HRESULT`  
   
 ## See Also  
- [SetupIISDirectory](../../extenions\express-api-ref/setupiisdirectory.md)   
- [ClearIISDirectory](../../extenions\express-api-ref/cleariisdirectory.md)
+ [SetupIISDirectory](../../extensions\express-api-ref/setupiisdirectory.md)   
+ [ClearIISDirectory](../../extensions\express-api-ref/cleariisdirectory.md)

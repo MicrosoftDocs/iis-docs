@@ -33,14 +33,14 @@ Returns the installed IIS version based on version and product type.
   
 -   [in] IIS_PRODUCT_TYPE `dwProductType`  
   
-     The product type of the version object, specified as a value in the [IIS_PRODUCT_TYPE](../../extenions\express-api-ref/iis-product-type.md) enumeration.  
+     The product type of the version object, specified as a value in the [IIS_PRODUCT_TYPE](../../extensions\express-api-ref/iis-product-type.md) enumeration.  
   
 -   [out, retval] IIISVersion `** ppElement`  
   
-     If the specified product type and version is found on the computer, returns the appropriate [IIISVersion](../../extenions\express-api-ref/iiisversion.md) object.  
+     If the specified product type and version is found on the computer, returns the appropriate [IIISVersion](../../extensions\express-api-ref/iiisversion.md) object.  
   
 ## Return Value  
  `HRESULT`  
   
 ## See Also  
- [GetAllVersionObjects](../../extenions\express-api-ref/getallversionobjects.md)
+ [GetAllVersionObjects](../../extensions\express-api-ref/getallversionobjects.md)

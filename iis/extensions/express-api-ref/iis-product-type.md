@@ -34,4 +34,4 @@ typedef enum
 -   `IIS_PRODUCT_EXPRESS`. IIS Express.  
   
 ## See Also  
- [GetVersionObject](../../extenions\express-api-ref/getversionobject.md)
+ [GetVersionObject](../../extensions\express-api-ref/getversionobject.md)
