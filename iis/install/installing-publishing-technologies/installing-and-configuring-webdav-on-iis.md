@@ -200,7 +200,7 @@ In Step 1 above, you enabled WebDAV publishing for your Default Web Site and add
 
 **Logging in to your WebDAV site using your administrator account**
 
-Logging into your WebDAV site requires the WebDAV Redirector. The WebDAV Redirector is used to publish content to an existing Web site that has the WebDAV nodule installed. You must use Server Manager to install the Desktop Experience feature before you can use the WebDAV redirector. For more information, see Using the WebDAV Redirector.
+Logging into your WebDAV site requires the WebDAV Redirector. The WebDAV Redirector is used to publish content to an existing Web site that has the WebDAV module installed. You must use Server Manager to install the Desktop Experience feature before you can use the WebDAV redirector. For more information, see Using the WebDAV Redirector.
 
 1. On your WebDAV server, open a command prompt session.
 2. Type the following command to connect to your WebDAV server:  
