@@ -1,14 +1,9 @@
 ---
-title: "Windows Web Application Gallery Principles | Microsoft Docs"
+title: "Windows Web Application Gallery Principles"
 author: chrissfanos
 description: "The Windows Web Application Gallery makes it easy to explore, discover and install popular community ASP.Net and PHP applications on Windows. Users can brows..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: c11dcbc8-faae-4bab-89fb-998e409440d1
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/windows-web-application-gallery-principles
 msc.type: authoredcontent
 ---

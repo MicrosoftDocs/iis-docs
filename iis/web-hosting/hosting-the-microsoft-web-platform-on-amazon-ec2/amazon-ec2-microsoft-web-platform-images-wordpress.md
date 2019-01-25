@@ -1,14 +1,9 @@
 ---
-title: "Amazon EC2: Microsoft Web Platform Images - Wordpress | Microsoft Docs"
+title: "Amazon EC2: Microsoft Web Platform Images - Wordpress"
 author: thomasdeml
 description: "Introduction One thing we often hear from Web developers, especially those who offer Web site design and consulting services, is the need to get a Web site u..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/02/2010
-ms.topic: article
 ms.assetid: f36bee17-6301-46e9-9f6f-c23a57041664
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-wordpress
 msc.type: authoredcontent
 ---

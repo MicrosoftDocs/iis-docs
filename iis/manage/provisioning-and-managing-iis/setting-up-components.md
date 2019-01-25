@@ -1,14 +1,9 @@
 ---
-title: "Services Implementation | Microsoft Docs"
+title: "Services Implementation"
 author: walterov
 description: "From an implementation standpoint, the solution follows recommended patterns and practices for building Web Services using the Windows Communication Foundati..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/02/2007
-ms.topic: article
 ms.assetid: 48825ae9-58ea-48ce-b408-fe8df6a82fbb
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/setting-up-components
 msc.type: authoredcontent
 ---

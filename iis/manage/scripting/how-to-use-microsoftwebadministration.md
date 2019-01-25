@@ -1,14 +1,9 @@
 ---
-title: "How to Use Microsoft.Web.Administration | Microsoft Docs"
+title: "How to Use Microsoft.Web.Administration"
 author: rick-anderson
 description: "IIS 7.0 and above provide a comprehensive managed-code management application programming interface (API) that allows complete manipulation of the XML config..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: bc52610c-38d1-425f-83ed-78e2e99ae33a
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/scripting/how-to-use-microsoftwebadministration
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "HTTP Headers for Filtering Rules &lt;scanHeaders&gt; | Microsoft Docs"
+title: "HTTP Headers for Filtering Rules &lt;scanHeaders&gt;"
 author: rick-anderson
 description: "Overview The &lt;scanHeaders&gt; element of the &lt;filteringRule&gt; element defines a collection of HTTP headers that a request filtering rule will scan fo..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 58752f95-b570-4175-9f4d-ab0cdf7ca18d
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/scanheaders
 msc.type: config
 ---

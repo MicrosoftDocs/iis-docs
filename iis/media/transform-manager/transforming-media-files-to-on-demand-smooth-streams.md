@@ -1,14 +1,9 @@
 ---
-title: "Transforming Media Files to On-Demand Smooth Streams | Microsoft Docs"
+title: "Transforming Media Files to On-Demand Smooth Streams"
 author: rick-anderson
 description: "IIS Smooth Streaming encoding presets that are integrated with the default installation of IIS Transform Manager 1.0 can be used to transform media files to..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/24/2012
-ms.topic: article
 ms.assetid: b019a9f2-a704-4032-bfa3-43714b9989ca
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/transforming-media-files-to-on-demand-smooth-streams
 msc.type: authoredcontent
 ---

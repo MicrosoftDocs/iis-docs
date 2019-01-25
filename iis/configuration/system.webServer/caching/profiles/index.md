@@ -1,14 +1,9 @@
 ---
-title: "Caching Profiles &lt;profiles&gt; | Microsoft Docs"
+title: "Caching Profiles &lt;profiles&gt;"
 author: rick-anderson
 description: "Overview The &lt;profiles&gt; element of the &lt;caching&gt; element specifies a profile to use for output caching. Compatibility Version Notes IIS 10.0 The..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 8f238493-675a-4808-b92f-f25bc0426d75
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/caching/profiles
 msc.type: config
 ---

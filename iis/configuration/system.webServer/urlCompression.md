@@ -1,14 +1,9 @@
 ---
-title: "URL Compression &lt;urlCompression&gt; | Microsoft Docs"
+title: "URL Compression &lt;urlCompression&gt;"
 author: rick-anderson
 description: "Overview The &lt;urlCompression&gt; element specifies the following settings for static and dynamic content compression in IIS 7 and later: The doDynamicComp..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 69aaabf6-ff92-4833-8996-6850e3a9a50b
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/urlcompression
 msc.type: config
 ---

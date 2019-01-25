@@ -1,14 +1,9 @@
 ---
-title: "Global Modules &lt;globalModules&gt; | Microsoft Docs"
+title: "Global Modules &lt;globalModules&gt;"
 author: rick-anderson
 description: "Overview The &lt;globalModules&gt; element defines the global-level modules installed on an IIS 7 server. The &lt;globalModules&gt; element is only available..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 4d8d9e66-bdfc-46df-9a11-53ad4c19b3be
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/globalmodules
 msc.type: config
 ---

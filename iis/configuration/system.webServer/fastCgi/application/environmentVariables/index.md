@@ -1,14 +1,9 @@
 ---
-title: "Environment Variables &lt;environmentVariables&gt; | Microsoft Docs"
+title: "Environment Variables &lt;environmentVariables&gt;"
 author: rick-anderson
 description: "Overview The &lt;environmentVariables&gt; element of the FastCGI &lt;application&gt; element specifies a list of environment variables that Internet Informat..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: d56733e8-0cfb-47d9-bc68-b0563ae25d74
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/fastcgi/application/environmentvariables
 msc.type: config
 ---

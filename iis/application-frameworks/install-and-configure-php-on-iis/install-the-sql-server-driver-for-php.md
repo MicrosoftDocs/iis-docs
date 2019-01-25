@@ -1,14 +1,9 @@
 ---
-title: "Install the SQL Server Driver for PHP | Microsoft Docs"
+title: "Install the SQL Server Driver for PHP"
 author: rick-anderson
 description: "Introduction The Microsoft® SQL Server® Driver for PHP is designed to enable reliable, scalable integration with SQL Server for PHP applications deployed on..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 2e1b4523-a32f-4390-bf9f-552f21ecc93b
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/install-the-sql-server-driver-for-php
 msc.type: authoredcontent
 ---

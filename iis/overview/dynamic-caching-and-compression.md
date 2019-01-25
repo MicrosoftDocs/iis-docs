@@ -4,9 +4,6 @@ author: shirhatti
 description: "Speed up your Web site through built-in dynamic caching and enhanced compression."
 ms.author: soshir
 ms.date: 3/6/2018
-ms.topic: article
-ms.technology: iis
-ms.prod: iis
 msc.type: authoredcontent
 ---
 Dynamic Caching and Compression

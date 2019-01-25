@@ -1,14 +1,9 @@
 ---
-title: "IIS Smooth Streaming Format SDK Readme | Microsoft Docs"
+title: "IIS Smooth Streaming Format SDK Readme"
 author: rick-anderson
 description: "June 2010 These release notes are for the Beta 2 release of the IIS Smooth Streaming Format Software Development Kit 1.0. This release is provided under the..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/23/2011
-ms.topic: article
 ms.assetid: 52d02cba-d167-41fe-8a43-b7689d899f11
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/iis-smooth-streaming-format-sdk-readme
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Taking an Application Offline before Publishing | Microsoft Docs"
+title: "Taking an Application Offline before Publishing"
 author: rick-anderson
 description: "In Web Deploy V3, we added support to automatically take an ASP.Net application offline before publishing to it. This is useful if a user wants to ensure tha..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/26/2012
-ms.topic: article
 ms.assetid: 116712ee-4e7c-4042-8c7d-12dccbff8254
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/taking-an-application-offline-before-publishing
 msc.type: authoredcontent
 ---

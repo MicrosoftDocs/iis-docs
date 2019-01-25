@@ -1,14 +1,9 @@
 ---
-title: "DotNetNuke | Microsoft Docs"
+title: "DotNetNuke"
 author: simtan
 description: "DotNetNuke is an open source content management system (CMS) and application development framework for Microsoft .NET. For more information about DotNetNuke,..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/10/2011
-ms.topic: article
 ms.assetid: 1f316db3-6a70-42c9-866f-168874c282d5
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/dotnetnuke
 msc.type: authoredcontent
 ---

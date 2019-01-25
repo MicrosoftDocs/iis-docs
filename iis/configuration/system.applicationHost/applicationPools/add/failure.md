@@ -1,14 +1,9 @@
 ---
-title: "Failure Settings for an Application Pool &lt;failure&gt; | Microsoft Docs"
+title: "Failure Settings for an Application Pool &lt;failure&gt;"
 author: rick-anderson
 description: "Overview The &lt;failure&gt; element of the &lt;add&gt; element in the &lt;applicationPools&gt; collection configures the actions to take when an application..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 94a6aef1-9abd-4d1a-a482-87d185732d38
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/failure
 msc.type: config
 ---

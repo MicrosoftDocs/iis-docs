@@ -1,14 +1,9 @@
 ---
-title: "Cache Hierarchy Management Using Application Request Routing | Microsoft Docs"
+title: "Cache Hierarchy Management Using Application Request Routing"
 author: rick-anderson
 description: "This section of the documentation applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To successfully explain and configure..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: d219b5c2-742f-4b9c-8128-4fee447a5dd3
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/cache-hierarchy-management-using-application-request-routing
 msc.type: authoredcontent
 ---

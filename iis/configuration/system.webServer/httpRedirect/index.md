@@ -1,14 +1,9 @@
 ---
-title: "HTTP Redirects &lt;httpRedirect&gt; | Microsoft Docs"
+title: "HTTP Redirects &lt;httpRedirect&gt;"
 author: rick-anderson
 description: "Overview The &lt;httpRedirect&gt; element configures settings for Internet Information Services (IIS) 7 that redirect client requests to a new location. Ther..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: f4b994ad-f6dd-4dc3-afcb-bb3fc277d42d
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httpredirect
 msc.type: config
 ---

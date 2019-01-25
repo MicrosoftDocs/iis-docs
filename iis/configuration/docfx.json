@@ -40,7 +40,11 @@
       "breadcrumb_path": "/iis/breadcrumb/toc.json",
       "_navPath": "/foo",
       "_navRel": "/foo",
-      "searchScope": ""
+      "searchScope": ["IIS"],
+      "ms.prod":"iis",
+      "ms.technology":"iis-config",
+      "ms.topic": "reference",
+      "ms.author": "iiscontent"
     },
     "fileMetadata": {},
     "template": [],

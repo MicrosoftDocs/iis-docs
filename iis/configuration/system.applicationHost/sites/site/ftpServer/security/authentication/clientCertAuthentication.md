@@ -1,14 +1,9 @@
 ---
-title: "FTP Client Certificate Authentication &lt;clientCertAuthentication&gt; | Microsoft Docs"
+title: "FTP Client Certificate Authentication &lt;clientCertAuthentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;clientCertAuthentication&gt; element specifies the settings for Client Certificate authentication. This form of Secure Sockets Layer (SSL) a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: fdaced08-8321-4167-9640-7093d6bf2d54
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/authentication/clientcertauthentication
 msc.type: config
 ---

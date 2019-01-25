@@ -1,14 +1,9 @@
 ---
-title: "Default FTP Authentication Settings &lt;authentication&gt; | Microsoft Docs"
+title: "Default FTP Authentication Settings &lt;authentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;authentication&gt; element specifies the authentication settings for FTP sites. The authentication settings are configured at the site-level..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: b7e99077-7556-4269-b90a-32e53732f6c8
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication
 msc.type: config
 ---

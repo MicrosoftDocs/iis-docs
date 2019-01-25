@@ -1,14 +1,9 @@
 ---
-title: "WebDAV Global Settings &lt;globalSettings&gt; | Microsoft Docs"
+title: "WebDAV Global Settings &lt;globalSettings&gt;"
 author: rick-anderson
 description: "Overview The &lt;globalSettings&gt; element is the parent element for global WebDAV configuration settings. More specifically, this element contains the sett..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 55c0386d-e5a6-48ed-a00d-b1a99c7ff3bf
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/webdav/globalsettings
 msc.type: config
 ---

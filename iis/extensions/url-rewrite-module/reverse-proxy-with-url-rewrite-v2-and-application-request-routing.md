@@ -1,14 +1,9 @@
 ---
-title: "Reverse Proxy with URL Rewrite v2 and Application Request Routing | Microsoft Docs"
+title: "Reverse Proxy with URL Rewrite v2 and Application Request Routing"
 author: ruslany
 description: "This walkthrough will guide you through how to use URL Rewrite Module and Application Request Routing (ARR) to implement a reverse proxy server for multiple..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/16/2009
-ms.topic: article
 ms.assetid: 46f0fd90-e7cf-46bd-99ad-2bfb975008fb
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/reverse-proxy-with-url-rewrite-v2-and-application-request-routing
 msc.type: authoredcontent
 ---

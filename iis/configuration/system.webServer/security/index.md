@@ -1,14 +1,9 @@
 ---
-title: "Security &lt;security&gt; | Microsoft Docs"
+title: "Security &lt;security&gt;"
 author: rick-anderson
 description: "Overview The &lt;security&gt; section group resides in the &lt;system.webServer&gt; section and contains all elements that configure security settings on an..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: b583b326-255b-4f0b-893b-8e49a75579ed
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security
 msc.type: config
 ---

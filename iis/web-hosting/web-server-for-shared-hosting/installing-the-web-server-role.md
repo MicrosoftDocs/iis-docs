@@ -1,14 +1,9 @@
 ---
-title: "Installing the Web Server Role | Microsoft Docs"
+title: "Installing the Web Server Role"
 author: walterov
 description: "To install the Web Server role on a machine that already is running Windows Server ® 2008 R2 (as is the case when building a reference machine for deployment..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: b0502193-fb60-41e3-aa72-b9c8bd7c17fd
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/installing-the-web-server-role
 msc.type: authoredcontent
 ---

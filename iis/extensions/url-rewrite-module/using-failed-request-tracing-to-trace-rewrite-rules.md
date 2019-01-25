@@ -1,14 +1,9 @@
 ---
-title: "Using Failed Request Tracing to Trace Rewrite Rules | Microsoft Docs"
+title: "Using Failed Request Tracing to Trace Rewrite Rules"
 author: ruslany
 description: "IIS 7.0 and above Failed Request Tracing (FRT) is a powerful tool for troubleshooting request-processing failures. FRT can be used with the URL rewrite modul..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/30/2008
-ms.topic: article
 ms.assetid: 5177e3be-c050-4330-bcad-0ac77b785254
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-failed-request-tracing-to-trace-rewrite-rules
 msc.type: authoredcontent
 ---

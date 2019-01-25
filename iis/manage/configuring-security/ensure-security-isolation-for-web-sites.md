@@ -1,14 +1,9 @@
 ---
-title: "Ensure Security Isolation for Web Sites | Microsoft Docs"
+title: "Ensure Security Isolation for Web Sites"
 author: rick-anderson
 description: "Introduction The recommendation for isolating Web sites in a shared hosting environment is consistent with all general security isolation recommendations for..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: cb601eaa-b4a2-40a2-86e9-0210d90666e2
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/ensure-security-isolation-for-web-sites
 msc.type: authoredcontent
 ---

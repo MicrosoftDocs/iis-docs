@@ -1,14 +1,9 @@
 ---
-title: "IIS URL Rewriting and ASP.NET Routing | Microsoft Docs"
+title: "IIS URL Rewriting and ASP.NET Routing"
 author: ruslany
 description: "With the release of the URL Rewrite Module for IIS and the inclusion of ASP.NET routing into the .NET Framework 4, there have been a lot of questions from AS..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/04/2008
-ms.topic: article
 ms.assetid: cff3c49f-c758-4f28-ad2f-8c39e9edfd81
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/iis-url-rewriting-and-aspnet-routing
 msc.type: authoredcontent
 ---

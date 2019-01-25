@@ -1,14 +1,9 @@
 ---
-title: "FTP Custom Authorization Provider &lt;provider&gt; | Microsoft Docs"
+title: "FTP Custom Authorization Provider &lt;provider&gt;"
 author: rick-anderson
 description: "Overview The &lt;provider&gt; element specifies the settings for custom authorization of an FTP site. This form of authorization uses custom authorization pr..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: ec40d903-af01-46a1-80d0-607c528e296f
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/customauthorization/provider
 msc.type: config
 ---

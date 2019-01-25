@@ -1,14 +1,9 @@
 ---
-title: "URL Rewrite Module - Video Walkthrough | Microsoft Docs"
+title: "URL Rewrite Module - Video Walkthrough"
 author: ruslany
 description: "This video demonstrates how Microsoft URL Rewrite Module for IIS 7.0 and above can be used to accomplish common URL manipulation tasks: Enabling user friendl..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/19/2008
-ms.topic: article
 ms.assetid: 3c5fdd57-4b7a-4070-b58f-c775876815b4
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/url-rewrite-module-video-walkthrough
 msc.type: video
 ---

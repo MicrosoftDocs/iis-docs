@@ -1,14 +1,9 @@
 ---
-title: "Web Playlists for IIS 7 - Creating a Simple Playlist | Microsoft Docs"
+title: "Web Playlists for IIS 7 - Creating a Simple Playlist"
 author: rick-anderson
 description: "Web Playlists for Internet Information Services (IIS) 7 provides the ability to control media delivery to clients and limit a client’s ability to seek or ski..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/27/2008
-ms.topic: article
 ms.assetid: b07830a3-2955-463e-a8b5-3ed8926f9a2f
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-7-creating-a-simple-playlist
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Microsoft Media Platform Content Map | Microsoft Docs"
+title: "Microsoft Media Platform Content Map"
 author: rick-anderson
 description: "The Microsoft Media Platform is a complete technology platform for deploying a highly available, highly scalable, Smooth Streaming media delivery environment..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/09/2011
-ms.topic: article
 ms.assetid: 2ab40450-4c0d-408b-bc62-73cf9f3fdbed
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/microsoft-media-platform-content-map
 msc.type: authoredcontent
 ---

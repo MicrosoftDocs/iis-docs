@@ -1,14 +1,9 @@
 ---
-title: "Planning Step 4: Plan Application Security | Microsoft Docs"
+title: "Planning Step 4: Plan Application Security"
 author: rmcmurray
 description: "In this phase of building your website, consider the security needs of your ASP.NET application."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: fa53abca-5bda-4b1c-a35c-25610e76e78b
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/planning-step-4-plan-application-security
 msc.type: authoredcontent
 ---

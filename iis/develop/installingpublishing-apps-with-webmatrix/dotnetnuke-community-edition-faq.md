@@ -1,14 +1,9 @@
 ---
-title: "DotNetNuke ® Community Edition FAQ | Microsoft Docs"
+title: "DotNetNuke ® Community Edition FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 8dfb5763-f82a-4d05-9b9e-99b9fa4cdb13
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/dotnetnuke-community-edition-faq
 msc.type: authoredcontent
 ---

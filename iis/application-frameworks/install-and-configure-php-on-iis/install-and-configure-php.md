@@ -1,14 +1,9 @@
 ---
-title: "Install and Configure PHP | Microsoft Docs"
+title: "Install and Configure PHP"
 author: rick-anderson
 description: "Introduction The fastest and easiest way to install PHP on Internet Information Services (IIS) is by using the Microsoft ® Web Platform Installer (Web PI). W..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 2fbe0165-17a4-4cad-9bb8-ee04d7f118f3
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php
 msc.type: authoredcontent
 ---

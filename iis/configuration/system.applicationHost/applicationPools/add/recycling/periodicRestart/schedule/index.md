@@ -1,14 +1,9 @@
 ---
-title: "Periodic Restart Schedules &lt;schedule&gt; | Microsoft Docs"
+title: "Periodic Restart Schedules &lt;schedule&gt;"
 author: rick-anderson
 description: "Overview The &lt;schedule&gt; collection of the &lt;periodicRestart&gt; element specifies the time intervals between restarts of worker processes in an appli..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: d5347aec-b4aa-4223-97df-f31eb698453d
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/recycling/periodicrestart/schedule
 msc.type: config
 ---

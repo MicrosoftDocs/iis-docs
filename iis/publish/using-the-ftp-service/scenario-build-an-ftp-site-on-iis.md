@@ -1,14 +1,9 @@
 ---
-title: "Scenario: Build an FTP Site on IIS | Microsoft Docs"
+title: "Scenario: Build an FTP Site on IIS"
 author: rmcmurray
 description: "File Transfer Protocol (FTP) simple is a protocol for transferring files between computer systems. IIS 8 includes an FTP server that is easy to configure. Th..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: c85c0160-ae3d-4fe9-a1c6-c1e24d3858aa
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/scenario-build-an-ftp-site-on-iis
 msc.type: authoredcontent
 ---

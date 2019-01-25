@@ -1,14 +1,9 @@
 ---
-title: "Adding Default Custom Fields to a Log File &lt;add&gt; | Microsoft Docs"
+title: "Adding Default Custom Fields to a Log File &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element under the &lt;customFields&gt; element specifies the configuration settings for adding default custom fields in a W3C log. I..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: ed6fd81d-0cf6-4ac9-9769-d44c671b0c0f
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/logfile/customfields/add
 msc.type: config
 ---

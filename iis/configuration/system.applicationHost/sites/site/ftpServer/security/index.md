@@ -1,14 +1,9 @@
 ---
-title: "FTP Security &lt;security&gt; | Microsoft Docs"
+title: "FTP Security &lt;security&gt;"
 author: rick-anderson
 description: "Overview The &lt;security&gt; element defines the parent element for the security options of FTP sites, and contains the following child elements, which are..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: a910cf6f-5593-4122-bdb9-462f08f4ea76
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security
 msc.type: config
 ---

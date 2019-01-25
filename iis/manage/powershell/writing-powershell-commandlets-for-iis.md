@@ -1,14 +1,9 @@
 ---
-title: "Writing PowerShell Commandlets for IIS 7.0 | Microsoft Docs"
+title: "Writing PowerShell Commandlets for IIS 7.0"
 author: rick-anderson
 description: "With PowerShell shipped, IIS administrators get a new tool to use. The following article concentrates on administration tasks for IIS 7.0 and above; however,..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: 1191ee63-76d6-4a73-9b56-1f103890cd49
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/powershell/writing-powershell-commandlets-for-iis
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Troubleshooting Live Smooth Streaming Events in Event Viewer | Microsoft Docs"
+title: "Troubleshooting Live Smooth Streaming Events in Event Viewer"
 author: rick-anderson
 description: "The Event Viewer is a Microsoft Management Console (MMC) snap-in that enables you to browse and manage event logs. It is an indispensable tool for monitoring..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/15/2011
-ms.topic: article
 ms.assetid: b8afb8cb-304f-4e13-a40d-10424bea7a94
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/troubleshooting-live-smooth-streaming-events-in-event-viewer
 msc.type: authoredcontent
 ---

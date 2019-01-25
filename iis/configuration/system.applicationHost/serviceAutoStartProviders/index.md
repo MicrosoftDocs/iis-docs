@@ -1,14 +1,9 @@
 ---
-title: "Service Autostart Providers &lt;serviceAutoStartProviders&gt; | Microsoft Docs"
+title: "Service Autostart Providers &lt;serviceAutoStartProviders&gt;"
 author: rick-anderson
 description: "Overview The &lt;serviceAutoStartProviders&gt; element specifies a collection of managed assemblies that Windows Process Activation Service (WAS) will load a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 24c9eba5-ac24-4564-93a4-e1ad23d26929
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/serviceautostartproviders
 msc.type: config
 ---

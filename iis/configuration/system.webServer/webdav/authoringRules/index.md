@@ -1,14 +1,9 @@
 ---
-title: "WebDAV Authoring Rules &lt;authoringRules&gt; | Microsoft Docs"
+title: "WebDAV Authoring Rules &lt;authoringRules&gt;"
 author: rick-anderson
 description: "Overview The &lt;authoringRules&gt; element can be defined per-URI within a Web site, and specifies the WebDAV authoring permissions for that URI space. The..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 7ba83499-9c35-4d3c-9d24-0b330e7d5e8c
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/webdav/authoringrules
 msc.type: config
 ---

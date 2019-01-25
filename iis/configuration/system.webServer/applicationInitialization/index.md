@@ -1,14 +1,9 @@
 ---
-title: "Application Initialization <applicationInitialization> &lt;applicationInitialization&gt; | Microsoft Docs"
+title: "Application Initialization <applicationInitialization> &lt;applicationInitialization&gt;"
 author: rick-anderson
 description: "Overview The &lt;applicationInitialization&gt; element specifies that web application initialization is performed proactively before a request is received. A..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 55aee3d6-ae2b-49b7-8004-8e1bc266e2a9
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/applicationinitialization
 msc.type: config
 ---

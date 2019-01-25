@@ -1,14 +1,9 @@
 ---
-title: "IIS 8.0 Centralized SSL Certificate Support: SSL Scalability and Manageability | Microsoft Docs"
+title: "IIS 8.0 Centralized SSL Certificate Support: SSL Scalability and Manageability"
 author: shauneagan
 description: "Version Notes IIS 8.0 Centralized SSL Certificate Support was introduced in IIS 8.0. IIS 7.5 Centralized SSL Certificate Support was not supported in IIS 7.5..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/29/2012
-ms.topic: article
 ms.assetid: 62cdd54d-8bcd-4546-a720-11970a8f8666
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-centralized-ssl-certificate-support-ssl-scalability-and-manageability
 msc.type: authoredcontent
 ---

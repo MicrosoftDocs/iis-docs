@@ -1,14 +1,9 @@
 ---
-title: "FTP Site Stop Method &lt;Stop&gt; | Microsoft Docs"
+title: "FTP Site Stop Method &lt;Stop&gt;"
 author: rick-anderson
 description: "Overview The &lt;Stop&gt; of the &lt;ftpServer&gt; element stops the FTP site that &lt;ftpServer&gt; applies to. The run-time state for the FTP site can be d..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: ce4cb80f-ec43-47a9-8296-c71e0256b41a
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/stop
 msc.type: config
 ---

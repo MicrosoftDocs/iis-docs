@@ -1,14 +1,9 @@
 ---
-title: "TTesting a Zip Package for Inclusion with the Web Application Gallery | Microsoft Docs"
+title: "TTesting a Zip Package for Inclusion with the Web Application Gallery"
 author: rick-anderson
 description: "The Web Application Gallery makes it easy for Windows users to find and deploy a free open source, community application onto a computer running Windows XP o..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/14/2009
-ms.topic: article
 ms.assetid: 6f721a96-8210-4e2a-a110-09103f8f0b98
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/testing-a-web-application-zip-package-for-inclusion-with-the-web-application-gallery
 msc.type: authoredcontent
 ---

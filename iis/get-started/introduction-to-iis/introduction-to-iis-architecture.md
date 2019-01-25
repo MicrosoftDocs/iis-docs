@@ -1,14 +1,9 @@
 ---
-title: "Introduction to IIS Architectures | Microsoft Docs"
+title: "Introduction to IIS Architectures"
 author: arkaytee
 description: "Internet Information Services (IIS) 7 and later provide a request-processing architecture that includes: The Windows Process Activation Service (WAS), which..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/16/2007
-ms.topic: article
 ms.assetid: 0dbb2e22-2e2d-487b-a9d5-bff5d0c0b8a6
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/introduction-to-iis/introduction-to-iis-architecture
 msc.type: authoredcontent
 ---

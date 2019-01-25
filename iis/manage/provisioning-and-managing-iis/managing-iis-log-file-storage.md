@@ -1,14 +1,9 @@
 ---
-title: "Managing IIS Log File Storage | Microsoft Docs"
+title: "Managing IIS Log File Storage"
 author: rick-anderson
 description: ""
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/30/2014
-ms.topic: article
 ms.assetid: 21897735-ce9a-4773-832e-3cdb673fe351
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/managing-iis-log-file-storage
 msc.type: authoredcontent
 ---

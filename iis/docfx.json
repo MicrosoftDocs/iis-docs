@@ -40,9 +40,22 @@
       "breadcrumb_path": "/iis/breadcrumb/toc.json",
       "_navPath": "/foo",
       "_navRel": "/foo",
-      "searchScope": ""
+      "searchScope": ["IIS"],
+      "ms.prod":"iis",
+      "ms.topic": "conceptual",
+      "ms.author": "iiscontent"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "ms.technology": {
+        "application-frameworks/**/*.md": "iis-appfx",
+        "develop/**/*.md": "iis-develop",
+        "extensions/**/*.md": "iis-extensions",
+        "manage/**/*.md": "iis-manage",
+        "media/**/*.md": "iis-media",
+        "publish/**/*.md": "iis-publish",
+        "troubleshoot/**/*.md": "iis-troubleshoot",
+        "web-hosting/**/*.md": "iis-hosting"
+    },
     "template": [],
     "dest": "IIS"
   }

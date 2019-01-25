@@ -1,14 +1,9 @@
 ---
-title: "Install osCommerce on IIS | Microsoft Docs"
+title: "Install osCommerce on IIS"
 author: rick-anderson
 description: "Introduction OsCommerce is an open-source online shopping and e-commerce solution that is available for free under the GNU General Public License. It feature..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/15/2008
-ms.topic: article
 ms.assetid: 08359c89-a4f4-438e-8935-daea7e6aaff4
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-oscommerce-on-iis
 msc.type: authoredcontent
 ---

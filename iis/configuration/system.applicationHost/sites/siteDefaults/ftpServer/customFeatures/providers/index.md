@@ -1,14 +1,9 @@
 ---
-title: "Default FTP Custom Feature Providers &lt;providers&gt; | Microsoft Docs"
+title: "Default FTP Custom Feature Providers &lt;providers&gt;"
 author: rick-anderson
 description: "Overview The &lt;providers&gt; element of the &lt;customFeatures&gt; element specifies the default collection of FTP custom feature providers for FTP sites...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 72266ed7-741c-499c-810b-067c2d2b1659
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/customfeatures/providers
 msc.type: config
 ---

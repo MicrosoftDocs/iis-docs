@@ -1,14 +1,9 @@
 ---
-title: "Overview of MWA and MWM for IIS 7.0 | Microsoft Docs"
+title: "Overview of MWA and MWM for IIS 7.0"
 author: rick-anderson
 description: "Extending the IIS Manager tool to manage custom configuration (in the distributed configuration files) on the IIS 7.0 and above server involves use of APIs f..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/24/2007
-ms.topic: article
 ms.assetid: 89085f26-d6cd-48d1-b455-29bff045e9f8
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/extending-the-management-ui/overview-of-mwa-and-mwm-for-iis
 msc.type: authoredcontent
 ---

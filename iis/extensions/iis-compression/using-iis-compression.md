@@ -1,12 +1,9 @@
 ---
-title: "Using IIS Compression | Microsoft Docs"
+title: "Using IIS Compression"
 author: bangbingsyb
 description: "The article provides an overview on how to use IIS Compression"
 ms.author: yashi
 ms.date: 05/15/2018
-ms.topic: article
-ms.technology: iis
-ms.prod: iis
 msc.type: authoredcontent
 ---
 

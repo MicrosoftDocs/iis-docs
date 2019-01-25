@@ -1,14 +1,9 @@
 ---
-title: "Management Authorization Rules Scope &lt;scope&gt; | Microsoft Docs"
+title: "Management Authorization Rules Scope &lt;scope&gt;"
 author: rick-anderson
 description: "Overview The &lt;scope&gt; element of the &lt;authorizationRules&gt; element specifies the virtual path of the site or application to which remote IIS Manage..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: c1f0d444-5d46-4e41-8d90-45834ae8b677
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authorization/authorizationrules/scope
 msc.type: config
 ---

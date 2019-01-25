@@ -1,14 +1,9 @@
 ---
-title: "Manually Override Cache-control Directives Using Application Request Routing | Microsoft Docs"
+title: "Manually Override Cache-control Directives Using Application Request Routing"
 author: rick-anderson
 description: "This section of the document applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To successfully write rules to manage the c..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/16/2009
-ms.topic: article
 ms.assetid: 45219e7c-8c50-480a-8754-86383080157b
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/manually-override-cache-control-directives-using-application-request-routing
 msc.type: authoredcontent
 ---

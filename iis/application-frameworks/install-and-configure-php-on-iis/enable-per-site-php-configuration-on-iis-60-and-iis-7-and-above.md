@@ -1,14 +1,9 @@
 ---
-title: "Enable Per-Site PHP Configuration on IIS 7 and IIS 6.0 | Microsoft Docs"
+title: "Enable Per-Site PHP Configuration on IIS 7 and IIS 6.0"
 author: rick-anderson
 description: "A common requirement when running PHP applications in shared hosting environment is per-site configuration, because each PHP application may require a differ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 9b7f3737-817b-40b6-8fe8-b0e909d8ebc3
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/enable-per-site-php-configuration-on-iis-60-and-iis-7-and-above
 msc.type: authoredcontent
 ---

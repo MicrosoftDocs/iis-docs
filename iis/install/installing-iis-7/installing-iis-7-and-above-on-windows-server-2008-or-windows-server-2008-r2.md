@@ -1,14 +1,9 @@
 ---
-title: "Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2 | Microsoft Docs"
+title: "Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2"
 author: rick-anderson
 description: "Introduction You can use Microsoft ® Web Platform Installer (Web PI) to easily install Internet Information Services (IIS) and applications that run on IIS...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 10/26/2007
-ms.topic: article
 ms.assetid: f784d613-a814-4ec5-ab99-c9b1cc76b30c
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/installing-iis-7-and-above-on-windows-server-2008-or-windows-server-2008-r2
 msc.type: authoredcontent
 ---

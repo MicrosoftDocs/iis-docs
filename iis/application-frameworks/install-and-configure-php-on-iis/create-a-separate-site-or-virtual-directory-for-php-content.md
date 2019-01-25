@@ -1,14 +1,9 @@
 ---
-title: "Create a Separate Site or Virtual Directory for PHP Content | Microsoft Docs"
+title: "Create a Separate Site or Virtual Directory for PHP Content"
 author: rick-anderson
 description: "Introduction PHP hosters generally set up an environment, and provide a separate domain for each customer to host their applications. Self-hosters or very sm..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: b47e1bcf-47f1-4710-b686-db85030fb71d
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/create-a-separate-site-or-virtual-directory-for-php-content
 msc.type: authoredcontent
 ---

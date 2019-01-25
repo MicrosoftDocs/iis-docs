@@ -1,14 +1,9 @@
 ---
-title: "Trace Failed Requests &lt;traceFailedRequests&gt; | Microsoft Docs"
+title: "Trace Failed Requests &lt;traceFailedRequests&gt;"
 author: rick-anderson
 description: "Overview The &lt;traceFailedRequests&gt; element allows you to configure failed request tracing for a Web site, application, or directory. This element can c..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: dee94992-b0e8-4869-a1fe-0c07fda9b694
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/tracing/tracefailedrequests
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Management &lt;management&gt; | Microsoft Docs"
+title: "Management &lt;management&gt;"
 author: rick-anderson
 description: "Overview The &lt;management&gt; element specifies remote management settings for users that connect to your server using IIS Manager. The &lt;management&gt;..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 160f5b83-b911-4434-aa0e-904b9ea565fe
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management
 msc.type: config
 ---

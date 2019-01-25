@@ -1,14 +1,9 @@
 ---
-title: "Using Custom Rewrite Providers with URL Rewrite Module | Microsoft Docs"
+title: "Using Custom Rewrite Providers with URL Rewrite Module"
 author: ruslany
 description: "This walkthrough will guide you through how to use custom rewrite providers with URL Rewrite Module 2.0. The walkthrough uses the URL Rewrite 2.0 Extensibili..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/11/2010
-ms.topic: article
 ms.assetid: b3ce3bbf-56aa-41e9-bbf7-6ea2b7032d77
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/using-custom-rewrite-providers-with-url-rewrite-module
 msc.type: authoredcontent
 ---

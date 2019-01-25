@@ -1,14 +1,9 @@
 ---
-title: "Database Notes for packaging applications for the Web Application Gallery | Microsoft Docs"
+title: "Database Notes for packaging applications for the Web Application Gallery"
 author: rick-anderson
 description: "The database providers for the Web Deployment Tool (WebDeploy) give application developers a great deal of flexibility in setting up databases as part of the..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/02/2009
-ms.topic: article
 ms.assetid: 9e5f2ff1-7a54-45f0-8197-7dd783154e41
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/database-notes-for-packaging-applications-for-use-with-the-web-application-gallery
 msc.type: authoredcontent
 ---

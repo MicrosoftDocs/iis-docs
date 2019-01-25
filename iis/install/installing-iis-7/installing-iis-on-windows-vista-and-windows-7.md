@@ -1,14 +1,9 @@
 ---
-title: "Installing IIS 7 on Windows Vista and Windows 7 | Microsoft Docs"
+title: "Installing IIS 7 on Windows Vista and Windows 7"
 author: rick-anderson
 description: "Introduction You can use the Microsoft ® Web Platform Installer (Web PI) to easily install Internet Information Services (IIS), and applications that run on..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 10/26/2007
-ms.topic: article
 ms.assetid: 0e9d9685-6391-48cd-8a57-d47f6592d16b
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7
 msc.type: authoredcontent
 ---

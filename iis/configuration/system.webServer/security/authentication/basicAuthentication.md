@@ -1,14 +1,9 @@
 ---
-title: "Basic Authentication &lt;basicAuthentication&gt; | Microsoft Docs"
+title: "Basic Authentication &lt;basicAuthentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;basicAuthentication&gt; element contains configuration settings for the Internet Information Services (IIS) 7 Basic authentication module. Y..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 5ff18e4c-180c-4c1b-8134-cc0b543f4d19
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/basicauthentication
 msc.type: config
 ---

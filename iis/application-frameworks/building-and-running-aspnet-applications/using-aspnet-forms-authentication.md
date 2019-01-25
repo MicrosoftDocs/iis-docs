@@ -1,14 +1,9 @@
 ---
-title: "Using ASP.NET Forms Authentication | Microsoft Docs"
+title: "Using ASP.NET Forms Authentication"
 author: rick-anderson
 description: "HTTP request processing is more integrated in IIS 7.0 and above allowing ASP.NET features like Forms Authentication to process requests for non-ASP.NET conte..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/24/2008
-ms.topic: article
 ms.assetid: c0e984b5-c310-45c3-85a8-6f1273aa9302
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/using-aspnet-forms-authentication
 msc.type: video
 ---

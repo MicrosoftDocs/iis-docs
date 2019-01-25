@@ -1,14 +1,9 @@
 ---
-title: "ISAPI/CGI Restrictions &lt;isapiCgiRestriction&gt; | Microsoft Docs"
+title: "ISAPI/CGI Restrictions &lt;isapiCgiRestriction&gt;"
 author: rick-anderson
 description: "Overview The &lt;isapiCgiRestriction&gt; element of the &lt;security&gt; element allows you to specify a list of Common Gateway Interface (CGI) and Internet..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 6f65165d-2dd2-4a3b-a212-8010ed893c47
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/isapicgirestriction
 msc.type: config
 ---

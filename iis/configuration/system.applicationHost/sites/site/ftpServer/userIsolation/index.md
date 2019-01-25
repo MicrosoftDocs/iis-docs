@@ -1,14 +1,9 @@
 ---
-title: "FTP User Isolation &lt;userIsolation&gt; | Microsoft Docs"
+title: "FTP User Isolation &lt;userIsolation&gt;"
 author: rick-anderson
 description: "Overview The &lt;userIsolation&gt; element is used to start or restrict FTP clients in specific sections of an FTP site. Depending on the options that are sp..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 5a16156c-bf25-47d7-bca1-0803fd336236
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/userisolation
 msc.type: config
 ---

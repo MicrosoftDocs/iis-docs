@@ -1,14 +1,9 @@
 ---
-title: "Windows Authentication &lt;windowsAuthentication&gt; | Microsoft Docs"
+title: "Windows Authentication &lt;windowsAuthentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;windowsAuthentication&gt; element defines configuration settings for the Internet Information Services (IIS) 7 Windows authentication module..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 0d453336-cfb0-401f-a04b-ff67da721b96
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication
 msc.type: config
 ---

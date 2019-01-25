@@ -1,14 +1,9 @@
 ---
-title: "Limits for a Web Site &lt;limits&gt; | Microsoft Docs"
+title: "Limits for a Web Site &lt;limits&gt;"
 author: rick-anderson
 description: "Overview The &lt;limits&gt; element of the &lt;site&gt; element configures settings that limit the amount of bandwidth, the number of connections, or the con..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 3bc96a77-9318-4ad9-ae82-e215ecf89ad1
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/limits
 msc.type: config
 ---

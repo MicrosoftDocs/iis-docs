@@ -1,14 +1,9 @@
 ---
-title: "How to install ASP.NET 1.1 with IIS7 on Vista and Windows 2008 | Microsoft Docs"
+title: "How to install ASP.NET 1.1 with IIS7 on Vista and Windows 2008"
 author: walterov
 description: "You can use the Web Platform Installer (Web PI) to easily install IIS, and applications that run on IIS. The Web PI is a free, lightweight tool that lets you..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/03/2008
-ms.topic: article
 ms.assetid: 6b0e9ceb-a1b5-4d31-ae0b-2ddda487161a
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/how-to-install-aspnet-11-with-iis-on-vista-and-windows-2008
 msc.type: authoredcontent
 ---

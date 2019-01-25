@@ -4,9 +4,6 @@ author: shirhatti
 description: "Minimize downtime and rapidly diagnose server and application issues with the built-in diagnostic tools."
 ms.author: soshir
 ms.date: 3/6/2018
-ms.topic: article
-ms.technology: iis
-ms.prod: iis
 msc.type: authoredcontent
 ---
 Rich Diagnostic Tools

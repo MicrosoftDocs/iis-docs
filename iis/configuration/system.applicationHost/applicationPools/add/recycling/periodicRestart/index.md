@@ -1,14 +1,9 @@
 ---
-title: "Periodic Restart Settings for Application Pool Recycling &lt;periodicRestart&gt; | Microsoft Docs"
+title: "Periodic Restart Settings for Application Pool Recycling &lt;periodicRestart&gt;"
 author: rick-anderson
 description: "Overview The &lt;periodicRestart&gt; element contains configuration settings that allow you to control when an application pool is recycled. You can specify..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 06807a69-b5eb-47ac-9815-c3957e5706ef
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/recycling/periodicrestart
 msc.type: config
 ---

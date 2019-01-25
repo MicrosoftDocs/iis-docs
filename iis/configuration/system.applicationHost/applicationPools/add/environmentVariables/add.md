@@ -1,14 +1,9 @@
 ---
-title: "Adding Environment Variables &lt;add&gt; | Microsoft Docs"
+title: "Adding Environment Variables &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;environmentVariables&gt; element specifies a unique name/value pair for an environment variable that Internet Inf..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 41182993-2366-42b0-94b5-ebb940b873f8
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/environmentvariables/add
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Sample: Web Analytics Tracking Module | Microsoft Docs"
+title: "Sample: Web Analytics Tracking Module"
 author: ruslany
 description: "The Web Analytics is a popular technology space today. Its purpose is to provide web site owners with statistical information about visitors to their sites,..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/24/2008
-ms.topic: article
 ms.assetid: 2e6a2af3-a970-4b6b-bfb4-c77d957f1fbe
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/runtime-extensibility/sample-web-analytics-tracking-module
 msc.type: authoredcontent
 ---

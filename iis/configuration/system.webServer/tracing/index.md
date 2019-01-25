@@ -1,14 +1,9 @@
 ---
-title: "Tracing &lt;tracing&gt; | Microsoft Docs"
+title: "Tracing &lt;tracing&gt;"
 author: rick-anderson
 description: "Overview The &lt;tracing&gt; section group contains failed request tracing settings that you have configured and contains trace provider definitions provided..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 696ce70d-ce5c-4acb-a202-bdc3937c8c0f
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/tracing
 msc.type: config
 ---

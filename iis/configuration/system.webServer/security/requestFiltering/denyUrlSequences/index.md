@@ -1,14 +1,9 @@
 ---
-title: "Deny URL Sequences &lt;denyUrlSequences&gt; | Microsoft Docs"
+title: "Deny URL Sequences &lt;denyUrlSequences&gt;"
 author: rick-anderson
 description: "Overview The &lt;denyUrlSequences&gt; element contains a collection of &lt;add&gt; elements that specify sequences of URL characters that IIS will deny, whic..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 2da3c74f-ccfb-4b54-91c2-d3ce9d2cee58
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/denyurlsequences
 msc.type: config
 ---

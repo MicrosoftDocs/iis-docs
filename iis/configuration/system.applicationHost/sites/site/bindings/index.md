@@ -1,14 +1,9 @@
 ---
-title: "Bindings &lt;bindings&gt; | Microsoft Docs"
+title: "Bindings &lt;bindings&gt;"
 author: rick-anderson
 description: "Overview The &lt;bindings&gt; element configures binding information for an IIS 7 or later Web site. It can also define the default bindings for all sites on..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: be783951-68b0-4534-b5d7-0c2623646c1c
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/bindings
 msc.type: config
 ---

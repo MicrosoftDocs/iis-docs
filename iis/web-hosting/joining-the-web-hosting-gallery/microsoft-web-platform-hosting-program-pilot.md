@@ -1,14 +1,9 @@
 ---
-title: "Microsoft Web Platform Hosting Program -Pilot | Microsoft Docs"
+title: "Microsoft Web Platform Hosting Program -Pilot"
 author: walterov
 description: "As part of the Microsoft Web Platform Hosting Program, Microsoft created the Shared Hosting Guidance Content Map ; it references a set of guides, step-by-ste..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/18/2009
-ms.topic: article
 ms.assetid: b9579222-51b6-4479-938c-732de2f491f9
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/microsoft-web-platform-hosting-program-pilot
 msc.type: authoredcontent
 ---

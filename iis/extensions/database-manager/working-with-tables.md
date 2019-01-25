@@ -1,14 +1,9 @@
 ---
-title: "Working with Tables | Microsoft Docs"
+title: "Working with Tables"
 author: rick-anderson
 description: "This walkthrough assumes the following environment: The IIS Database Manager is installed on your Web Server (). A database server (that could reside on the..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/29/2009
-ms.topic: article
 ms.assetid: 0f5aacf1-07d3-4e11-b86b-c647beaeb6b2
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/database-manager/working-with-tables
 msc.type: authoredcontent
 ---

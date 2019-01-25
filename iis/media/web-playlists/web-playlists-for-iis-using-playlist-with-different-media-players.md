@@ -1,14 +1,9 @@
 ---
-title: "Web Playlists for IIS 7 - Using Playlist With Different Media Players | Microsoft Docs"
+title: "Web Playlists for IIS 7 - Using Playlist With Different Media Players"
 author: rick-anderson
 description: "This article describes how various clients can interact with Web Playlists to display the playlist content. Web Playlists works with the clients mentioned in..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/27/2008
-ms.topic: article
 ms.assetid: b06c823c-86bb-4d09-ba3d-4fb4a3a742e7
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-using-playlist-with-different-media-players
 msc.type: authoredcontent
 ---

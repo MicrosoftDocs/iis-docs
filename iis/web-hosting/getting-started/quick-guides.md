@@ -1,14 +1,9 @@
 ---
-title: "Quick Guides | Microsoft Docs"
+title: "Quick Guides"
 author: walterov
 description: "This article is intended to provide links to Quick Guides on deployment, configuration, provisioning and managing. Sample Scripts C# and PowerShell Scripts S..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/07/2008
-ms.topic: article
 ms.assetid: 4ee1e438-9762-48a2-8e52-1caf61ff6b88
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/getting-started/quick-guides
 msc.type: authoredcontent
 ---

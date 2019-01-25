@@ -1,14 +1,9 @@
 ---
-title: "FTP Logging Options &lt;log&gt; | Microsoft Docs"
+title: "FTP Logging Options &lt;log&gt;"
 author: rick-anderson
 description: "Overview The &lt;system.ftpServer/log&gt; element specifies the global log settings for the FTP service. More specifically, the attributes on the &lt;system...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 81502b50-6eb0-4cf5-ae1e-18823df35eab
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/log
 msc.type: config
 ---

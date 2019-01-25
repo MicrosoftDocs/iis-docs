@@ -1,14 +1,9 @@
 ---
-title: "Adding FTP IP Security &lt;add&gt; | Microsoft Docs"
+title: "Adding FTP IP Security &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;ipSecurity&gt; collection defines a unique IP security restriction. Each restriction can be based on the IP versi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: a83989cb-a809-4886-b974-cc50c308d758
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/ipsecurity/add
 msc.type: config
 ---

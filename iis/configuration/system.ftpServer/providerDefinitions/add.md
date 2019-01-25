@@ -1,14 +1,9 @@
 ---
-title: "Adding FTP Provider Definitions &lt;add&gt; | Microsoft Docs"
+title: "Adding FTP Provider Definitions &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;providerDefinitions&gt; element specifies the registration information for a managed-code or native-code (COM) pr..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 44ffb5f8-6694-4cc8-baee-cc2de736f4a7
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/providerdefinitions/add
 msc.type: config
 ---

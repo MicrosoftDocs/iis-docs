@@ -1,14 +1,9 @@
 ---
-title: "Management Authentication Credentials &lt;credentials&gt; | Microsoft Docs"
+title: "Management Authentication Credentials &lt;credentials&gt;"
 author: rick-anderson
 description: "Overview The &lt;credentials&gt; element of the &lt;authentication&gt; element specifies credentials for IIS Manager user accounts. IIS Manager users can use..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 89e76258-0814-4d50-8da1-60db5f92f1c2
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authentication/credentials
 msc.type: config
 ---

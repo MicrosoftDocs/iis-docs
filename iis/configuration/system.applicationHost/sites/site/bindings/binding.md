@@ -1,14 +1,9 @@
 ---
-title: "Binding &lt;binding&gt; | Microsoft Docs"
+title: "Binding &lt;binding&gt;"
 author: rick-anderson
 description: "Overview The &lt;binding&gt; element of the &lt;bindings&gt; element allows you to configure the information required for requests to communicate with a Web..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: f8c97dd0-4d70-4990-b407-a4bb7315e1c5
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/bindings/binding
 msc.type: config
 ---

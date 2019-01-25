@@ -1,14 +1,9 @@
 ---
-title: "Blogengine .NET Sample files | Microsoft Docs"
+title: "Blogengine .NET Sample files"
 author: rick-anderson
 description: "This is a set of sample files you could use with Blogengine .NET and the Web Deployment tool for deploying it on IIS. The manifest.xml and parameters.xml her..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/09/2009
-ms.topic: article
 ms.assetid: 1f41da75-1fde-433e-af1e-d29f8b187478
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/blogengine-net-sample-files
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Configuration Path Search Result Sections &lt;section&gt; | Microsoft Docs"
+title: "Configuration Path Search Result Sections &lt;section&gt;"
 author: rick-anderson
 description: "Overview The &lt;section&gt; element of the &lt;searchResult&gt; element contains a collection of section names returned by the configuration search. For exa..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 3cf58555-7663-4859-adfe-5f4d85ef4012
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/configpaths/searchresult/section
 msc.type: config
 ---

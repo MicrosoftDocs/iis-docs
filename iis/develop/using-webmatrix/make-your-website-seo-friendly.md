@@ -1,14 +1,9 @@
 ---
-title: "Make your Website SEO Friendly | Microsoft Docs"
+title: "Make your Website SEO Friendly"
 author: rick-anderson
 description: "[This is preliminary documentation and is subject to change.] After you've created a website, you can use WebMatrix Beta to run an analysis to see how visibl..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 1c4ecbca-dba5-47c2-a3bd-c9f59e5c4f58
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/make-your-website-seo-friendly
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Videocast: Simplified Application Deployment on the Microsoft Web Platform | Microsoft Docs"
+title: "Videocast: Simplified Application Deployment on the Microsoft Web Platform"
 author: rick-anderson
 description: "Mai-lan Tomsen Bukovec has published a series of videos that target developers and users who want to experience a simplified deployment experience for apps a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/08/2009
-ms.topic: article
 ms.assetid: 18e9b55a-025f-4053-a1ca-3a4a9fade24d
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/videocast-simplified-application-deployment-on-the-microsoft-web-platform
 msc.type: authoredcontent
 ---

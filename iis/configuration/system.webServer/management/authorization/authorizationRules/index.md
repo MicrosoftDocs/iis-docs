@@ -1,14 +1,9 @@
 ---
-title: "Management Authorization Rules &lt;authorizationRules&gt; | Microsoft Docs"
+title: "Management Authorization Rules &lt;authorizationRules&gt;"
 author: rick-anderson
 description: "Overview The &lt;authorizationRules&gt; element of the &lt;authorization&gt; element specifies which IIS Manager users and Windows users are authorized to co..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 729a264b-3faa-4803-976d-413b89769cc0
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authorization/authorizationrules
 msc.type: config
 ---

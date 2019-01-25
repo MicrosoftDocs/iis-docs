@@ -1,14 +1,9 @@
 ---
-title: "Provision Web Sites for PHP Applications Using Managed Code | Microsoft Docs"
+title: "Provision Web Sites for PHP Applications Using Managed Code"
 author: rick-anderson
 description: "Initially, a new user account must be established for the customer. Once the account has been set up, the customer decides which features and options the sit..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 3e29df44-2469-420f-869f-16554215ef62
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/provision-web-sites-for-php-applications-using-managed-code
 msc.type: authoredcontent
 ---

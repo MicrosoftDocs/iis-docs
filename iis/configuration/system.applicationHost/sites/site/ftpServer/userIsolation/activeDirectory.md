@@ -1,14 +1,9 @@
 ---
-title: "FTP Active Directory User Isolation &lt;activeDirectory&gt; | Microsoft Docs"
+title: "FTP Active Directory User Isolation &lt;activeDirectory&gt;"
 author: rick-anderson
 description: "Overview The &lt;activeDirectory&gt; element specifies the credentials and connection time-out for communicating with an Active Directory server for FTP user..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 4585a7a6-92be-4d76-901b-43231aeab8fb
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/userisolation/activedirectory
 msc.type: config
 ---

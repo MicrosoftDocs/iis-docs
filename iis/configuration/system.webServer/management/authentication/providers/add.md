@@ -1,14 +1,9 @@
 ---
-title: "Adding Management Authentication Providers &lt;add&gt; | Microsoft Docs"
+title: "Adding Management Authentication Providers &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;providers&gt; element adds an authentication provider to the collection of management authentication providers fo..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 85b2fe75-5625-4c16-9b83-cd5cfdcb581e
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authentication/providers/add
 msc.type: config
 ---

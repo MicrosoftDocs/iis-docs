@@ -1,14 +1,9 @@
 ---
-title: "FTP Server Runtime &lt;serverRuntime&gt; | Microsoft Docs"
+title: "FTP Server Runtime &lt;serverRuntime&gt;"
 author: rick-anderson
 description: "Overview The &lt;serverRuntime&gt; element specifies settings that configure how the FTP service operates. More specifically, the &lt;serverRuntime&gt; eleme..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 62a0720f-f153-4c4c-aed2-1cf09559e22a
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/serverruntime
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "System and Platform Requirements for the Web Farm Framework 2.0 for IIS 7 | Microsoft Docs"
+title: "System and Platform Requirements for the Web Farm Framework 2.0 for IIS 7"
 author: rick-anderson
 description: "This article describes the system and platform requirements for setting up Web Farm Framework 2.0 for IIS 7 and above in order to create and manage a server..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/21/2010
-ms.topic: article
 ms.assetid: 11305912-4c7a-499f-8b0a-ccff66e97a28
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/system-and-platform-requirements-for-the-web-farm-framework-20-for-iis
 msc.type: authoredcontent
 ---

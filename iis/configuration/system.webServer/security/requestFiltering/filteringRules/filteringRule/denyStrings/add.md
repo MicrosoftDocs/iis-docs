@@ -1,14 +1,9 @@
 ---
-title: "Adding Deny Strings for Filtering Rules &lt;add&gt; | Microsoft Docs"
+title: "Adding Deny Strings for Filtering Rules &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;denyStrings&gt; element adds a unique string to the collection of strings which a request filtering rule will den..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 01b718a1-96e1-4964-9658-0d672db3c40e
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule/denystrings/add
 msc.type: config
 ---

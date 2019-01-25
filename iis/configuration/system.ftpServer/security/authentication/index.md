@@ -1,14 +1,9 @@
 ---
-title: "System FTP Authentication &lt;authentication&gt; | Microsoft Docs"
+title: "System FTP Authentication &lt;authentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;authentication&gt; element enabes you to configure the user accounts that can access the sites on a server. Use authentication in combinatio..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 31cebadd-b459-402a-90d7-3762df465b63
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/authentication
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Hosting-Friendly Web Server Platform (IIS): Scenario Overview | Microsoft Docs"
+title: "Hosting-Friendly Web Server Platform (IIS): Scenario Overview"
 author: rmcmurray
 description: "The IIS web server provides a secure, easy-to-manage, modular and extensible platform for reliably hosting websites, services, and applications. The web serv..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: 28268375-52de-4f43-bc11-fc878880fc38
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/introduction-to-iis/hosting-friendly-web-server-platform-iis-scenario-overview
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Extending IIS 7.0 Schema and Accessing the Custom Sections Using MWA | Microsoft Docs"
+title: "Extending IIS 7.0 Schema and Accessing the Custom Sections Using MWA"
 author: rick-anderson
 description: "Abstract The IIS 7.0 and above XML configuration files allow third parties to include their own custom configuration sections. This document shows how to ext..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/05/2007
-ms.topic: article
 ms.assetid: 8594fdd0-28c7-47c0-bcc4-1a4aa52cb1b9
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/extending-iis-configuration/extending-iis-schema-and-accessing-the-custom-sections-using-mwa
 msc.type: authoredcontent
 ---

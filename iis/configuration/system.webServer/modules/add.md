@@ -1,14 +1,9 @@
 ---
-title: "Adding Modules &lt;add&gt; | Microsoft Docs"
+title: "Adding Modules &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;modules&gt; collection adds a module to the list of modules for Internet Information Services (IIS) 7. Compatibil..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 1d3db48a-771a-43c5-aa86-4e346f527b93
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/modules/add
 msc.type: config
 ---

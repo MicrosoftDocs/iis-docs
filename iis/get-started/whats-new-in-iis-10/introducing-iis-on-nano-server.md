@@ -1,14 +1,9 @@
 ---
-title: "Introducing IIS on Nano Server | Microsoft Docs"
+title: "Introducing IIS on Nano Server"
 author: davidso
 description: ""
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/16/2016
-ms.topic: article
 ms.assetid: 85331f22-aa25-4837-a6b7-cecdc5400012
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/introducing-iis-on-nano-server
 msc.type: authoredcontent
 ---

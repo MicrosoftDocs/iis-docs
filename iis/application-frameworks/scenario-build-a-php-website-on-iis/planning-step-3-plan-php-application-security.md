@@ -1,14 +1,9 @@
 ---
-title: "Planning Step 3: Plan PHP Application Security | Microsoft Docs"
+title: "Planning Step 3: Plan PHP Application Security"
 author: rmcmurray
 description: "In this phase of Building a PHP website on IIS, consider what PHP configuration settings, web server settings, and PHP application settings you need to stren..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: 9a259178-7fde-4bda-bd7a-17caf6a0df80
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/planning-step-3-plan-php-application-security
 msc.type: authoredcontent
 ---

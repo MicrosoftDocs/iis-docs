@@ -1,14 +1,9 @@
 ---
-title: "How to Configure WebDAV with Request Filtering | Microsoft Docs"
+title: "How to Configure WebDAV with Request Filtering"
 author: rmcmurray
 description: "Introduction Microsoft released a new WebDAV extension module that was completely rewritten for Internet Information Services 7.0 (IIS 7.0) on Windows Server..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/14/2008
-ms.topic: article
 ms.assetid: 7cca593d-4d66-4d8b-a764-37ca1a67201c
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-webdav/how-to-configure-webdav-with-request-filtering
 msc.type: authoredcontent
 ---

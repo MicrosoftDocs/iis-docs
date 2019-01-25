@@ -1,14 +1,9 @@
 ---
-title: "FTP Custom Feature Providers &lt;providers&gt; | Microsoft Docs"
+title: "FTP Custom Feature Providers &lt;providers&gt;"
 author: rick-anderson
 description: "Overview The &lt;providers&gt; element of the &lt;customFeatures&gt; element specifies a collection of FTP custom feature providers for an FTP site. Note : T..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 0f26ff01-703d-4ff5-a351-7f69747036bc
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/customfeatures/providers
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Network Load Balancing | Microsoft Docs"
+title: "Network Load Balancing"
 author: walterov
 description: "Network load balancing (NLB) in Windows Server ® 2008 provides traffic distribution using TCP/IP and can be used with the IIS shared configuration feature to..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/02/2007
-ms.topic: article
 ms.assetid: 3cf969b2-260d-4e54-91e7-e78b3453942d
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/network-load-balancing
 msc.type: authoredcontent
 ---

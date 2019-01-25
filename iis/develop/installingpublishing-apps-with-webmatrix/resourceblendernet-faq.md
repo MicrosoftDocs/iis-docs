@@ -1,14 +1,9 @@
 ---
-title: "ResourceBlender.NET FAQ | Microsoft Docs"
+title: "ResourceBlender.NET FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 32d1cc8e-a907-4e15-8224-515f99884ece
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/resourceblendernet-faq
 msc.type: authoredcontent
 ---

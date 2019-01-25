@@ -1,14 +1,9 @@
 ---
-title: "Secure Content in IIS Through Impersonation | Microsoft Docs"
+title: "Secure Content in IIS Through Impersonation"
 author: rick-anderson
 description: "The access control list (ACL) is a list of permissions associated with an object. Each of these permission entries is called an access control entry (ACE); a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: fadbe064-4cbf-49ec-9439-ce6633f3a155
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/secure-content-in-iis-through-impersonation
 msc.type: authoredcontent
 ---

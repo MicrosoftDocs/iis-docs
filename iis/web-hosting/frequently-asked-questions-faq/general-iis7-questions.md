@@ -1,14 +1,9 @@
 ---
-title: "General IIS 7.0 Questions | Microsoft Docs"
+title: "General IIS 7.0 Questions"
 author: walterov
 description: "This must be done manually. What is the impact of turning off kernel mode cache? The impact will depend on the server load. If you are doing 10,000 requests/..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/22/2007
-ms.topic: article
 ms.assetid: 4b9a4a93-a436-457a-9025-ae08a7e3befc
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/general-iis7-questions
 msc.type: authoredcontent
 ---

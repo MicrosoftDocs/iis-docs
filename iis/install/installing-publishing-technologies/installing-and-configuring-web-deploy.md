@@ -1,14 +1,9 @@
 ---
-title: "Installing and Configuring Web Deploy on IIS 7 | Microsoft Docs"
+title: "Installing and Configuring Web Deploy on IIS 7"
 author: krolson
 description: "Installing and Configuring Web Deploy for Administrator and non-administrator Deployments Summary In this walkthrough, we will show steps for installing and..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/12/2011
-ms.topic: article
 ms.assetid: 1715cb3f-5851-44b2-af04-5a2a1bac5dcb
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/installing-publishing-technologies/installing-and-configuring-web-deploy
 msc.type: authoredcontent
 ---

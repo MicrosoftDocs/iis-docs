@@ -1,14 +1,9 @@
 ---
-title: "Translate .htaccess Content to IIS web.config | Microsoft Docs"
+title: "Translate .htaccess Content to IIS web.config"
 author: rick-anderson
 description: "Many PHP applications are distributed with configuration files for the Apache Web server. These configuration files (usually called .htaccess files) contain..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/23/2009
-ms.topic: article
 ms.assetid: ce4e6cf1-dec5-4a42-9ca6-be447dc7fa0d
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/translate-htaccess-content-to-iis-webconfig
 msc.type: authoredcontent
 ---

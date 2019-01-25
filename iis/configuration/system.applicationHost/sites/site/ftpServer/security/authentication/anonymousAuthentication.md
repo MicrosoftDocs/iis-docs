@@ -1,14 +1,9 @@
 ---
-title: "FTP Anonymous Authentication &lt;anonymousAuthentication&gt; | Microsoft Docs"
+title: "FTP Anonymous Authentication &lt;anonymousAuthentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;anonymousAuthentication&gt; element specifies the settings for anonymous access. This form of authentication allows access to an FTP site wi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 53320fb4-0fc1-44d2-8bcd-6fe3cd2ebfbe
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/authentication/anonymousauthentication
 msc.type: config
 ---

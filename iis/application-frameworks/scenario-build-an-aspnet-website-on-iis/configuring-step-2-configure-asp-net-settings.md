@@ -1,14 +1,9 @@
 ---
-title: "Configuring Step 2: Configure ASP.NET Settings | Microsoft Docs"
+title: "Configuring Step 2: Configure ASP.NET Settings"
 author: rmcmurray
 description: "In this phase of building your website, you configure the IIS server and website settings that support ASP.NET."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: 2e778eb8-a1f8-4a3d-aa13-cfa2ca6fca92
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/configuring-step-2-configure-asp-net-settings
 msc.type: authoredcontent
 ---

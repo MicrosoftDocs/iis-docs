@@ -1,14 +1,9 @@
 ---
-title: "Active Directory DS Forest | Microsoft Docs"
+title: "Active Directory DS Forest"
 author: walterov
 description: "A Windows Deployment Services server must be either a member of an Active Directory Domain Services domain or a domain controller for an Active Directory Dom..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/02/2007
-ms.topic: article
 ms.assetid: efdf12f5-51e2-42c0-bf1e-647c8fa19ff0
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/active-directory-ds-forest
 msc.type: authoredcontent
 ---

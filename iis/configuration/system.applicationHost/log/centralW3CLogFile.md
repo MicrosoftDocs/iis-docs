@@ -1,14 +1,9 @@
 ---
-title: "Central W3C Log File &lt;centralW3CLogFile&gt; | Microsoft Docs"
+title: "Central W3C Log File &lt;centralW3CLogFile&gt;"
 author: rick-anderson
 description: "Overview The &lt;centralW3CLogFile&gt; element specifies the central W3C log settings for all sites on a server. Note : You need to set the centralLogFileMod..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: cfd8e668-0392-44d1-a677-524a6c72cd76
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/log/centralw3clogfile
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "The World's First IIS Live Smooth Streaming Event - A Video Case Study | Microsoft Docs"
+title: "The World's First IIS Live Smooth Streaming Event - A Video Case Study"
 author: Microsoft
 description: "The French Open, organized by the French Tennis Federation, is one of the premier events in the professional tennis calendar, showcasing the best tennis tale..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/24/2010
-ms.topic: article
 ms.assetid: d3070c3c-53a2-4575-90e9-da748e20ab7c
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming-events/the-world39s-first-iis-live-smooth-streaming-event-a-video-case-study
 msc.type: video
 ---

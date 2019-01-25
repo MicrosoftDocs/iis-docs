@@ -1,14 +1,9 @@
 ---
-title: "Sites &lt;sites&gt; | Microsoft Docs"
+title: "Sites &lt;sites&gt;"
 author: rick-anderson
 description: "Overview The &lt;sites&gt; section group contains configuration settings for all sites on an IIS 7 server. The &lt;sites&gt; element contains a collection of..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: d0f95664-c290-4a46-b89f-4fc757b93202
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites
 msc.type: config
 ---

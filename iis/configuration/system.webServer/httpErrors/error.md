@@ -1,14 +1,9 @@
 ---
-title: "Adding HTTP Errors &lt;error&gt; | Microsoft Docs"
+title: "Adding HTTP Errors &lt;error&gt;"
 author: rick-anderson
 description: "Overview The &lt;error&gt; element of the &lt;httpErrors&gt; collection adds a unique error mapping to the HTTP errors collection. Compatibility Version Note..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: a369f4a0-5c78-4829-b79f-f6f469f4e6f0
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httperrors/error
 msc.type: config
 ---

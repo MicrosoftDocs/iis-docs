@@ -1,14 +1,9 @@
 ---
-title: "Provisioning a Server Farm with the Web Farm Framework 2.0 for IIS 7 | Microsoft Docs"
+title: "Provisioning a Server Farm with the Web Farm Framework 2.0 for IIS 7"
 author: rick-anderson
 description: "You can use the Web Farm Framework 2.0 for IIS 7 and above to perform both platform and application provisioning on the servers in your server farm. You can..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/21/2010
-ms.topic: article
 ms.assetid: 2959f52b-9c8a-4ea9-9933-ba27283078ca
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/provisioning-a-server-farm-with-the-web-farm-framework-20-for-iis
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "ASP.NET Integration with IIS 7 | Microsoft Docs"
+title: "ASP.NET Integration with IIS 7"
 author: leanserver
 description: "Since its release, ASP.NET has been the platform of choice for developing Web applications on the Windows / IIS platform. ASP.NET 2.0 took Web application de..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/05/2007
-ms.topic: article
 ms.assetid: ad034229-6efb-40af-a3d7-afd234e62726
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/building-and-running-aspnet-applications/aspnet-integration-with-iis
 msc.type: authoredcontent
 ---

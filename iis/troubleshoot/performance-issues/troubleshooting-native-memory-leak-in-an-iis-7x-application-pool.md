@@ -1,14 +1,9 @@
 ---
-title: "Troubleshooting native memory leak in an IIS 7.x Application Pool | Microsoft Docs"
+title: "Troubleshooting native memory leak in an IIS 7.x Application Pool"
 author: apurvajo
 description: "Debug Diagnostics 1.2 Performance Monitor Debugging Tools for Windows This material is provided for informational purposes only. Microsoft makes no warrantie..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/09/2012
-ms.topic: article
 ms.assetid: 75e1c311-9d19-4f77-83a6-4a013d76d0b0
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/performance-issues/troubleshooting-native-memory-leak-in-an-iis-7x-application-pool
 msc.type: authoredcontent
 ---

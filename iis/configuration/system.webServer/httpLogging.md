@@ -1,14 +1,9 @@
 ---
-title: "HTTP Logging &lt;httpLogging&gt; | Microsoft Docs"
+title: "HTTP Logging &lt;httpLogging&gt;"
 author: rick-anderson
 description: "Overview The &lt;httpLogging&gt; element allows you to configure IIS to generate log entries for only successful requests, failed requests, or both. After yo..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 9917491b-7298-4b67-9457-1686a1852dac
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httplogging
 msc.type: config
 ---

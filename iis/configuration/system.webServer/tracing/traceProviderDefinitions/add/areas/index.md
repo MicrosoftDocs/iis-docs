@@ -1,14 +1,9 @@
 ---
-title: "Areas &lt;areas&gt; | Microsoft Docs"
+title: "Areas &lt;areas&gt;"
 author: rick-anderson
 description: "Overview The &lt;areas&gt; collection specifies a list of functional areas for a provider to trace. Compatibility Version Notes IIS 10.0 The &lt;areas&gt; el..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 015c36de-e927-43a2-ac68-9b7a82517ce8
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/tracing/traceproviderdefinitions/add/areas
 msc.type: config
 ---

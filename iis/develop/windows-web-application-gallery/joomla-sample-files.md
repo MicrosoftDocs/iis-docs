@@ -1,14 +1,9 @@
 ---
-title: "Joomla! Sample files | Microsoft Docs"
+title: "Joomla! Sample files"
 author: rick-anderson
 description: "This is a set of sample files you could use with Joomla! and the Web Deployment tool for deploying Joomla on IIS. The files are annotated with comments that..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/08/2009
-ms.topic: article
 ms.assetid: d9957c2a-8f3d-4a3b-b9e9-d42eabf54b7a
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/joomla-sample-files
 msc.type: authoredcontent
 ---

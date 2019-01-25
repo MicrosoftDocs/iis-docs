@@ -1,14 +1,9 @@
 ---
-title: "Windows Extended Protection &lt;extendedProtection&gt; | Microsoft Docs"
+title: "Windows Extended Protection &lt;extendedProtection&gt;"
 author: rick-anderson
 description: "Overview The &lt;extendedProtection&gt; element specifies the settings that configure the extended protection for Windows authentication in IIS 7.5. Extended..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 9d5ad70d-1f3e-4414-99ad-586c7a83be94
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication/extendedprotection
 msc.type: config
 ---

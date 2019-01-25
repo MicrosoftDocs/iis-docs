@@ -1,14 +1,9 @@
 ---
-title: "URL Rewrite Module Configuration Reference | Microsoft Docs"
+title: "URL Rewrite Module Configuration Reference"
 author: ruslany
 description: "This article provides an overview of the URL Rewrite Module and explains the configuration concepts that are used by the module. Table Of Contents Functional..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/30/2008
-ms.topic: article
 ms.assetid: 472b62e4-c6a4-4380-bef1-2a0360737491
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/url-rewrite-module-configuration-reference
 msc.type: authoredcontent
 ---

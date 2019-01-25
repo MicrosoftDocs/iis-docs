@@ -1,14 +1,9 @@
 ---
-title: "Set ACLs Through the Manifest.xml File | Microsoft Docs"
+title: "Set ACLs Through the Manifest.xml File"
 author: rick-anderson
 description: "There are several ways to set access control lists (ACLs), including command-line tools such as Icacls.exe. PHP hosters generally use the command line. It is..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 27de1efe-6137-4505-a6e9-e4dd5a681161
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-for-security/set-acls-through-the-manifestxml-file
 msc.type: authoredcontent
 ---

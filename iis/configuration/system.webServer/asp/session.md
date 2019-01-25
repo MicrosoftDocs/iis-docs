@@ -1,14 +1,9 @@
 ---
-title: "ASP Session &lt;session&gt; | Microsoft Docs"
+title: "ASP Session &lt;session&gt;"
 author: rick-anderson
 description: "Overview The &lt;session&gt; element of the &lt;asp&gt; element specifies the Active Server Pages (ASP) session state settings. Session state is a means by w..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 2f2892a9-2155-4c72-ae41-f2f034d64e93
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/asp/session
 msc.type: config
 ---

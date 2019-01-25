@@ -1,14 +1,9 @@
 ---
-title: "FTP File Handling &lt;fileHandling&gt; | Microsoft Docs"
+title: "FTP File Handling &lt;fileHandling&gt;"
 author: rick-anderson
 description: "Overview The &lt;fileHandling&gt; element is used to specify the way that the FTP service handles file operations. For example, the keepPartialUploads attrib..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 56049efc-b341-4770-9778-7daab24d2ea9
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/filehandling
 msc.type: config
 ---

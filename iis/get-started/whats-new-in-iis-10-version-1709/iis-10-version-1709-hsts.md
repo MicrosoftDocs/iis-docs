@@ -1,12 +1,9 @@
 ---
-title: "IIS 10.0 Version 1709 HTTP Strict Transport Security (HSTS) Support | Microsoft Docs"
+title: "IIS 10.0 Version 1709 HTTP Strict Transport Security (HSTS) Support"
 author: bangbingsyb
 description: "The article introduces native HTTP Strict Transport Security (HSTS) support in IIS 10.0 version 1709."
 ms.author: yashi
 ms.date: 10/24/2017
-ms.topic: article
-ms.technology: iis
-ms.prod: iis
 msc.type: authoredcontent
 ---
 IIS 10.0 Version 1709 HTTP Strict Transport Security (HSTS) Support

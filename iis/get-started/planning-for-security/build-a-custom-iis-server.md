@@ -1,14 +1,9 @@
 ---
-title: "Build a Custom IIS 7.0 Server | Microsoft Docs"
+title: "Build a Custom IIS 7.0 Server"
 author: leanserver
 description: "IIS 6.0 and previous versions implemented most of the widely used server functionality inside the server itself. In contrast, IIS 7.0 and above web server en..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/22/2007
-ms.topic: article
 ms.assetid: fe44b363-6fef-4a09-b3b2-dbb0bc5c4b64
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/planning-for-security/build-a-custom-iis-server
 msc.type: authoredcontent
 ---

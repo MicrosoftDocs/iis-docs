@@ -1,14 +1,9 @@
 ---
-title: "ISAPI Filters &lt;isapiFilters&gt; | Microsoft Docs"
+title: "ISAPI Filters &lt;isapiFilters&gt;"
 author: rick-anderson
 description: "Overview The &lt;isapiFilters&gt; element allows you to manage ISAPI filters on your Internet Information Services (IIS) 7 server. You can add an ISAPI filte..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 966367b1-0746-4ca7-9b1b-28f13fc6f721
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/isapifilters
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Configuring Step 2: Configure PHP Settings | Microsoft Docs"
+title: "Configuring Step 2: Configure PHP Settings"
 author: rmcmurray
 description: "In this step of building a PHP website on IIS, you configure the WinCache PHP extension, configure PHP settings, and download and configure any other PHP ext..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: 599f2304-e4d7-4185-a972-15c5eabf915b
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-2-configure-php-settings
 msc.type: authoredcontent
 ---

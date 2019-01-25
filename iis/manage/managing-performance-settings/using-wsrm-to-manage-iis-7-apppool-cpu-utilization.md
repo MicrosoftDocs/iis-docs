@@ -1,14 +1,9 @@
 ---
-title: "Using WSRM to manage IIS 7 AppPool CPU Utilization | Microsoft Docs"
+title: "Using WSRM to manage IIS 7 AppPool CPU Utilization"
 author: walterov
 description: "Introduction In the past administrators used CPULimit Metabase Property in IIS to configure the maximum percentage of CPU time that the worker processes in a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/17/2008
-ms.topic: article
 ms.assetid: e4e72eee-6054-4c7e-b235-00bf380dac0b
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/managing-performance-settings/using-wsrm-to-manage-iis-7-apppool-cpu-utilization
 msc.type: authoredcontent
 ---

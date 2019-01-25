@@ -1,14 +1,9 @@
 ---
-title: "Adding Applications for Application Dependencies &lt;add&gt; | Microsoft Docs"
+title: "Adding Applications for Application Dependencies &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;application&gt; element adds additional dependencies to the parent application. Compatibility Version Notes IIS 1..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 2e7bdef4-8df9-4e9b-94dc-bf3e7a7fbed2
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/applicationdependencies/application/add
 msc.type: config
 ---

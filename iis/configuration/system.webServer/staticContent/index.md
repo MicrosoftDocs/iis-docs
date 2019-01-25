@@ -1,14 +1,9 @@
 ---
-title: "Static Content &lt;staticContent&gt; | Microsoft Docs"
+title: "Static Content &lt;staticContent&gt;"
 author: rick-anderson
 description: "Overview The &lt;staticContent&gt; element configures several settings related to processing requests for static files in Internet Information Services (IIS)..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: a4c07bfc-71cf-4dc5-8d32-65af94d0a766
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/staticcontent
 msc.type: config
 ---

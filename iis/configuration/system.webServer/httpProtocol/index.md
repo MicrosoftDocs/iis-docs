@@ -1,14 +1,9 @@
 ---
-title: "HTTP Protocol Settings &lt;httpProtocol&gt; | Microsoft Docs"
+title: "HTTP Protocol Settings &lt;httpProtocol&gt;"
 author: rick-anderson
 description: "Overview The &lt;httpProtocol&gt; element configures HTTP keep-alive connections as well as both custom and redirect response headers that Internet Informati..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: e013b49e-213d-4c06-8cc2-0248c6a75f21
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httpprotocol
 msc.type: config
 ---

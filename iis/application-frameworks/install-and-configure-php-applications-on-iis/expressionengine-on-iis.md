@@ -1,14 +1,9 @@
 ---
-title: "ExpressionEngine on IIS | Microsoft Docs"
+title: "ExpressionEngine on IIS"
 author: rick-anderson
 description: "Introduction ExpressionEngine is a flexible, feature-rich content management system that empowers thousands of individuals, organizations, and companies arou..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/17/2008
-ms.topic: article
 ms.assetid: 80b02fea-6773-499c-a470-733b02c34f79
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/expressionengine-on-iis
 msc.type: authoredcontent
 ---

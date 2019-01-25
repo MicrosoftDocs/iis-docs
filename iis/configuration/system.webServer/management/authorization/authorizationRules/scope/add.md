@@ -1,14 +1,9 @@
 ---
-title: "Adding Management Authorization Rules Scope &lt;add&gt; | Microsoft Docs"
+title: "Adding Management Authorization Rules Scope &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;scope&gt; element adds an IIS Manager user, a Windows user, or a Windows group to the collection of users who are..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 86eea860-b481-457c-bde8-09e59c6eb858
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authorization/authorizationrules/scope/add
 msc.type: config
 ---

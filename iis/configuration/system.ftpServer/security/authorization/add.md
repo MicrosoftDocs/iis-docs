@@ -1,14 +1,9 @@
 ---
-title: "Adding FTP Authorization &lt;add&gt; | Microsoft Docs"
+title: "Adding FTP Authorization &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;authorization&gt; collection defines an authorization rule that will either allow or deny access to specified use..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 3159460f-d3f7-4791-b515-255df21da9fb
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/authorization/add
 msc.type: config
 ---

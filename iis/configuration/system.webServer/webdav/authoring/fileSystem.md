@@ -1,14 +1,9 @@
 ---
-title: "WebDAV File System &lt;fileSystem&gt; | Microsoft Docs"
+title: "WebDAV File System &lt;fileSystem&gt;"
 author: rick-anderson
 description: "Overview The &lt;fileSystem&gt; element of the &lt;authoring&gt; element specifies how the WebDAV module interacts with the underlying file system. More spec..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 5c844139-1366-4177-af23-d998aa0f9024
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/webdav/authoring/filesystem
 msc.type: config
 ---

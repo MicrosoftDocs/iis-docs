@@ -1,14 +1,9 @@
 ---
-title: " &lt;system.webServer&gt; | Microsoft Docs"
+title: " &lt;system.webServer&gt;"
 author: rick-anderson
 description: "Overview The &lt;system.webServer&gt; element specifies the root element for many of the site-level and application-level configuration settings for Internet..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: ff101340-b38e-4127-8978-61838ad18051
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver
 msc.type: config
 ---

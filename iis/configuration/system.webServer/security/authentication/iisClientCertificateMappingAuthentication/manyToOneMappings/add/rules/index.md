@@ -1,14 +1,9 @@
 ---
-title: "Many-To-One Mappings Rules &lt;rules&gt; | Microsoft Docs"
+title: "Many-To-One Mappings Rules &lt;rules&gt;"
 author: rick-anderson
 description: "Overview The &lt;rules&gt; element of the &lt;add&gt; element specifies criteria for mapping client certificates with IIS so that many clients can use one ce..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: e6f02499-f461-4122-9686-3f46f62b4c44
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings/add/rules
 msc.type: config
 ---

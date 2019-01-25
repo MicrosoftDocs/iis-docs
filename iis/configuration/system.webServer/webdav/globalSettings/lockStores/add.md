@@ -1,14 +1,9 @@
 ---
-title: "Adding WebDAV Lock Stores &lt;add&gt; | Microsoft Docs"
+title: "Adding WebDAV Lock Stores &lt;add&gt;"
 author: rick-anderson
 description: "Overview The WebDAV module is designed to support multiple lock store providers, which are defined in the webdav/globalSettings/lockStores collection. A seri..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: dcbd12d3-0ba1-4e67-ad2d-62d0e2408fb4
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/webdav/globalsettings/lockstores/add
 msc.type: config
 ---

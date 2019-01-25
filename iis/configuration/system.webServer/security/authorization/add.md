@@ -1,14 +1,9 @@
 ---
-title: "Adding Security Authorization &lt;add&gt; | Microsoft Docs"
+title: "Adding Security Authorization &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;authorization&gt; collection defines an authorization rule that will either allow or deny access to specified use..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: be1ace43-25a7-431b-8354-40ea6a2770f5
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authorization/add
 msc.type: config
 ---

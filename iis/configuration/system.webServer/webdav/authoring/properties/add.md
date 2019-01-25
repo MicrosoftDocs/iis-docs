@@ -1,14 +1,9 @@
 ---
-title: "Adding XML Namespace to Property Provider Mappings &lt;add&gt; | Microsoft Docs"
+title: "Adding XML Namespace to Property Provider Mappings &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;properties&gt; element defines a mapping for an XML namespace to a property store provider. Note : WebDAV defines..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 343c00ae-05a6-4e0c-9c3c-b4b66c948846
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/webdav/authoring/properties/add
 msc.type: config
 ---

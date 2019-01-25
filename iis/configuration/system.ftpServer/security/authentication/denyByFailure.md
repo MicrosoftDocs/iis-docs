@@ -1,14 +1,9 @@
 ---
-title: "Deny by Failure &lt;denyByFailure&gt; | Microsoft Docs"
+title: "Deny by Failure &lt;denyByFailure&gt;"
 author: rick-anderson
 description: "Overview The &lt;denyByFailure&gt; element configures the FTP service to deny access to the FTP service based upon how many times an FTP client fails to auth..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 7f84ef60-d07c-4253-835d-75c6cfe6aaca
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/authentication/denybyfailure
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Delivering Transform Manager Output to Clients | Microsoft Docs"
+title: "Delivering Transform Manager Output to Clients"
 author: rick-anderson
 description: "If you want to serve the transformed on-demand output from IIS Transform Manager 1.0 to clients, you must move or copy the transformed output files to a serv..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/07/2012
-ms.topic: article
 ms.assetid: b0f6153a-8900-4664-8cb1-a85e51d6d602
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/delivering-transform-manager-output-to-clients
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "WordPress Sample files | Microsoft Docs"
+title: "WordPress Sample files"
 author: SunBuild
 description: "This is a set of sample files you could use with Wordpress and the Web Deployment tool for deploying Wordpress onto IIS. The files are annotated with comment..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/07/2012
-ms.topic: article
 ms.assetid: 54c8b691-3b23-4af5-998e-93fc8484d262
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/wordpress-sample-files
 msc.type: authoredcontent
 ---

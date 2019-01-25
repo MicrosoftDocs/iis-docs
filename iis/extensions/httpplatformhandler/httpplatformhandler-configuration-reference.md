@@ -1,14 +1,9 @@
 ---
-title: "HttpPlatformHandler Configuration Reference | Microsoft Docs"
+title: "HttpPlatformHandler Configuration Reference"
 author: rick-anderson
 description: "This article provides an overview of the HttpPlatformHandler and explains the configuration of the module."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/26/2015
-ms.topic: article
 ms.assetid: 9618d75c-4258-4c96-a5f7-3f2297903ac5
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/httpplatformhandler/httpplatformhandler-configuration-reference
 msc.type: authoredcontent
 ---

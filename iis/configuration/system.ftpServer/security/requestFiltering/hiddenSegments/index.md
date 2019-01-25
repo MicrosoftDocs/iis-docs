@@ -1,14 +1,9 @@
 ---
-title: "FTP Hidden Segments &lt;hiddenSegments&gt; | Microsoft Docs"
+title: "FTP Hidden Segments &lt;hiddenSegments&gt;"
 author: rick-anderson
 description: "Overview The &lt;hiddenSegments&gt; element contains a collection of &lt;add&gt; elements that identify certain URLs that FTP 7 will make inaccessible to FTP..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 18dab358-bbf7-4150-b0ff-115df8421587
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/requestfiltering/hiddensegments
 msc.type: config
 ---

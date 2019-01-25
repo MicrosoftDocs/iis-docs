@@ -1,14 +1,9 @@
 ---
-title: "IIS 8.0 Application Initialization | Microsoft Docs"
+title: "IIS 8.0 Application Initialization"
 author: shauneagan
 description: "IIS Application Initialization for IIS 7.5 enables website administrators to improve the responsiveness of their Web sites by loading the Web applications be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/29/2012
-ms.topic: article
 ms.assetid: 3c6ab448-7598-4ef4-8034-da06939b2025
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-application-initialization
 msc.type: authoredcontent
 ---

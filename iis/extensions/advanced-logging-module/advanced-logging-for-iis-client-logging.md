@@ -1,14 +1,9 @@
 ---
-title: "Advanced Logging for IIS - Client Logging | Microsoft Docs"
+title: "Advanced Logging for IIS - Client Logging"
 author: rick-anderson
 description: "IIS Advanced Logging can accept information about client-consumption of media and other content. Clients (for example, Microsoft Silverlight) can send useful..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/19/2009
-ms.topic: article
 ms.assetid: 39459850-55e5-4abd-94ea-c01507907f6f
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/advanced-logging-module/advanced-logging-for-iis-client-logging
 msc.type: authoredcontent
 ---

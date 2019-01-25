@@ -1,14 +1,9 @@
 ---
-title: "Features of the Windows Process Activation Service (WAS) | Microsoft Docs"
+title: "Features of the Windows Process Activation Service (WAS)"
 author: thomasdeml
 description: "The Windows Process Activation Service (WAS) of IIS 7 is the key component that provides process model and configuration features to Web Applications and Web..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 08/15/2012
-ms.topic: article
 ms.assetid: 2085d190-fd64-4d46-918f-fcc2483a44a4
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/features-of-the-windows-process-activation-service-was
 msc.type: authoredcontent
 ---

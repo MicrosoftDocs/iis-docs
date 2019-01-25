@@ -1,14 +1,9 @@
 ---
-title: "Microsoft Web Platform Installer 2.0 | Microsoft Docs"
+title: "Microsoft Web Platform Installer 2.0"
 author: walterov
 description: "Introduction The Web Platform Installer 2.0 (WPI) is a tool that installs Microsoft's entire Web Platform, including IIS, Visual Web Developer 2010 Express E..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/17/2009
-ms.topic: article
 ms.assetid: f8593a22-c829-4cb3-b471-a6d2823aab5e
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/microsoft-web-platform-installer-20
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Filter &lt;filter&gt; | Microsoft Docs"
+title: "Filter &lt;filter&gt;"
 author: rick-anderson
 description: "Overview The &lt;filter&gt; element of the &lt;isapiFilters&gt; collection configures an ISAPI filter to process client request data or server response data...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: ebfc1f61-5ad4-4881-87b4-aa2f9f7bdd26
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/isapifilters/filter
 msc.type: config
 ---

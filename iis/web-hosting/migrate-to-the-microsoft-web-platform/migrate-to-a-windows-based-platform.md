@@ -1,14 +1,9 @@
 ---
-title: "Migrate to a Windows-Based Platform | Microsoft Docs"
+title: "Migrate to a Windows-Based Platform"
 author: rick-anderson
 description: "Microsoft embraces hosting PHP applications on the Windows ® operating system, both by building enabling technologies and by working with the PHP community t..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 98902a0b-c6f3-420b-b7e5-23afb2b640e8
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/migrate-to-the-microsoft-web-platform/migrate-to-a-windows-based-platform
 msc.type: authoredcontent
 ---

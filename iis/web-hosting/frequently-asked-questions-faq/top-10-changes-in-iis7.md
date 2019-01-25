@@ -1,14 +1,9 @@
 ---
-title: "Top 10 Changes in IIS 7.0 | Microsoft Docs"
+title: "Top 10 Changes in IIS 7.0"
 author: walterov
 description: "You can find the original Top 10 Changes in IIS 7.0 post on Technet. 1. Simple, configurable command line setup Install only the IIS components needed to ru..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/22/2007
-ms.topic: article
 ms.assetid: 74c5bc26-6707-444b-a660-9009c1c85185
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/top-10-changes-in-iis7
 msc.type: authoredcontent
 ---

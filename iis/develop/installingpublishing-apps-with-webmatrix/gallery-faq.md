@@ -1,14 +1,9 @@
 ---
-title: "Gallery FAQ | Microsoft Docs"
+title: "Gallery FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 7f484192-47a7-456b-ae81-592b8787241b
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/gallery-faq
 msc.type: authoredcontent
 ---

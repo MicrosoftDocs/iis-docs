@@ -1,14 +1,9 @@
 ---
-title: "ASP Cache &lt;cache&gt; | Microsoft Docs"
+title: "ASP Cache &lt;cache&gt;"
 author: rick-anderson
 description: "Overview The &lt;cache&gt; element of the &lt;asp&gt; element specifies the following Active Server Pages (ASP) cache settings for Internet Information Servi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 7e60160e-3c01-46d3-bd20-b32de4cb52a4
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/asp/cache
 msc.type: config
 ---

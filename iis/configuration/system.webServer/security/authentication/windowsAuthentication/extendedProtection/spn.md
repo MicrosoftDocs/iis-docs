@@ -1,14 +1,9 @@
 ---
-title: "Service Principle Name &lt;spn&gt; | Microsoft Docs"
+title: "Service Principle Name &lt;spn&gt;"
 author: rick-anderson
 description: "Overview The &lt;spn&gt; element adds a Service Principle Name (SPN) to the collection of SPNs. Each SPN specifies a unique endpoint for client activity usin..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 055f0622-955d-49c8-989a-897bb9c7e22e
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/windowsauthentication/extendedprotection/spn
 msc.type: config
 ---

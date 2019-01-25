@@ -1,14 +1,9 @@
 ---
-title: "Default FTP Data Channel Security Settings &lt;dataChannelSecurity&gt; | Microsoft Docs"
+title: "Default FTP Data Channel Security Settings &lt;dataChannelSecurity&gt;"
 author: rick-anderson
 description: "Overview The File Transfer Protocol (FTP) supports a feature that is called server-to-server or third-party transfers. In this scenario, an FTP client connec..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: c74fd121-6e56-4da1-8fb6-c5e13321a9c1
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/datachannelsecurity
 msc.type: config
 ---

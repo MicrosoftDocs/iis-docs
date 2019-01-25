@@ -1,14 +1,9 @@
 ---
-title: "Adding FTP Provider Activation Data &lt;add&gt; | Microsoft Docs"
+title: "Adding FTP Provider Activation Data &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;providerData&gt; element specifies a unique key/value pair, which defines a custom parameter that an FTP custom p..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 6b07d688-34bd-4a38-ab57-3fba16ea262e
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/providerdefinitions/activation/providerdata/add
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Directory Quotas and FSRM | Microsoft Docs"
+title: "Directory Quotas and FSRM"
 author: walterov
 description: "Starting with Windows Server ® 2003 R2, File Server Resource Manager (FSRM) offers advanced quota and directory management. The quota system can now be based..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: b08212c6-af36-4506-9cb0-0502dfa81af5
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/enabling-directory-quotas
 msc.type: authoredcontent
 ---

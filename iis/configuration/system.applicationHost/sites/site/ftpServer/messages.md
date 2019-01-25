@@ -1,14 +1,9 @@
 ---
-title: "FTP Messages &lt;messages&gt; | Microsoft Docs"
+title: "FTP Messages &lt;messages&gt;"
 author: rick-anderson
 description: "Overview The &lt;messages&gt; element is used to specify the message that the FTP service will display to FTP clients. The messages that are specified for th..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: e21353d3-57d5-447c-a2d9-448fa2e33841
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/messages
 msc.type: config
 ---

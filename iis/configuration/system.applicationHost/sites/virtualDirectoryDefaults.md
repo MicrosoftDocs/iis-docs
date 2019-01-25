@@ -1,14 +1,9 @@
 ---
-title: "Virtual Directory Defaults for All Sites &lt;virtualDirectoryDefaults&gt; | Microsoft Docs"
+title: "Virtual Directory Defaults for All Sites &lt;virtualDirectoryDefaults&gt;"
 author: rick-anderson
 description: "Overview The &lt;virtualDirectoryDefaults&gt; element of the &lt;sites&gt; element specifies default settings for all virtual directories on the server. The..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 2c69e201-3575-4745-9712-75be6affd344
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/virtualdirectorydefaults
 msc.type: config
 ---

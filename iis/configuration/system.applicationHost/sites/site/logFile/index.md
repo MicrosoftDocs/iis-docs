@@ -1,14 +1,9 @@
 ---
-title: "Log Files for a Web Site &lt;logFile&gt; | Microsoft Docs"
+title: "Log Files for a Web Site &lt;logFile&gt;"
 author: rick-anderson
 description: "Overview The &lt;logFile&gt; element of the &lt;site&gt; element contains attributes that allow you to configure logging for a site on IIS 7 and later. For e..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 9f05f757-f387-4871-84e4-0da8e899370f
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/logfile
 msc.type: config
 ---

@@ -4,9 +4,6 @@ author: shirhatti
 description: "Safeguard your web server from malicious requests and unauthorized access with URL authorization rules and built-in request filtering."
 ms.author: soshir
 ms.date: 3/6/2018
-ms.topic: article
-ms.technology: iis
-ms.prod: iis
 msc.type: authoredcontent
 ---
 

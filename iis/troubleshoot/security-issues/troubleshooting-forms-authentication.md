@@ -1,14 +1,9 @@
 ---
-title: "Troubleshooting Forms Authentication | Microsoft Docs"
+title: "Troubleshooting Forms Authentication"
 author: apurvajo
 description: "Tools Used in this Troubleshooter: LogParser 2.2 Fiddler Microsoft Network Monitor 3.4 This material is provided for informational purposes only. Microsoft m..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/09/2012
-ms.topic: article
 ms.assetid: 396f3ac6-fc21-4fa9-b607-1767b0929336
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/security-issues/troubleshooting-forms-authentication
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Configuration Extensibility | Microsoft Docs"
+title: "Configuration Extensibility"
 author: rick-anderson
 description: "Introduction The configuration system in IIS 7.0 and above is based on distributed xml files that contain the configuration for IIS, ASP.NET and other compon..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/05/2007
-ms.topic: article
 ms.assetid: d4d6dc1f-ff81-44b9-ab0b-cf711da8f1e6
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/extending-iis-configuration/configuration-extensibility
 msc.type: authoredcontent
 ---

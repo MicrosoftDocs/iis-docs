@@ -1,14 +1,9 @@
 ---
-title: "Reference for the Web Application Package | Microsoft Docs"
+title: "Reference for the Web Application Package"
 author: rick-anderson
 description: "Every application in the Web Application Gallery has at least two XML files that enable the Web Platform Installer (Web PI) to use the Web Deployment Tool (W..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: d0b0d1dc-ce47-409b-8dec-4153f08f483e
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/reference-for-the-web-application-package
 msc.type: authoredcontent
 ---

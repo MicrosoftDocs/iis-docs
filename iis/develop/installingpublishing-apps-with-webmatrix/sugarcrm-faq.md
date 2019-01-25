@@ -1,14 +1,9 @@
 ---
-title: "SugarCRM FAQ | Microsoft Docs"
+title: "SugarCRM FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 920dcfb3-f125-4273-aa3d-2c260347f9cf
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/sugarcrm-faq
 msc.type: authoredcontent
 ---

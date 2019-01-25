@@ -1,14 +1,9 @@
 ---
-title: "Metabase Compatibility with IIS 7 and Above | Microsoft Docs"
+title: "Metabase Compatibility with IIS 7 and Above"
 author: rick-anderson
 description: "The configuration system in IIS 7 and above is compatible with legacy configuration interfaces at the API level. It supports the Admin Base Objects (ABO) int..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/22/2007
-ms.topic: article
 ms.assetid: ad50cddc-9c90-4044-b7b4-65fc7d548d69
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/metabase-compatibility-with-iis-7-and-above
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Adding Service Autostart Providers &lt;add&gt; | Microsoft Docs"
+title: "Adding Service Autostart Providers &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;serviceAutoStartProviders&gt; element adds a provider to the collection of autostart providers. The &lt;serviceAu..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 21093bf7-41ef-4096-b727-e2c0a786bc35
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/serviceautostartproviders/add
 msc.type: config
 ---

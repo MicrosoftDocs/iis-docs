@@ -1,14 +1,9 @@
 ---
-title: "Creating a Content Feed for Learning | Microsoft Docs"
+title: "Creating a Content Feed for Learning"
 author: simtan
 description: "If you are a content/documentation provider that writes articles or creates video to help others learn web development, you can have your learning content sy..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/20/2011
-ms.topic: article
 ms.assetid: e464de27-0e44-46f7-b928-6e07e0cf7a6c
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/creating-a-content-feed-for-learning
 msc.type: authoredcontent
 ---

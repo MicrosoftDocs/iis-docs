@@ -1,14 +1,9 @@
 ---
-title: "Managing Robots.txt and Sitemap Files | Microsoft Docs"
+title: "Managing Robots.txt and Sitemap Files"
 author: ruslany
 description: "The IIS Search Engine Optimization Toolkit includes a Robots Exclusion feature that you can use to manage the content of the Robots.txt file for your Web sit..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/03/2009
-ms.topic: article
 ms.assetid: 5369bd7a-f788-4128-b448-508557be3d3e
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files
 msc.type: authoredcontent
 ---

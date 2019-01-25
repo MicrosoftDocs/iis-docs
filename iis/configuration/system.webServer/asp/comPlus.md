@@ -1,14 +1,9 @@
 ---
-title: "ASP COM Plus &lt;comPlus&gt; | Microsoft Docs"
+title: "ASP COM Plus &lt;comPlus&gt;"
 author: rick-anderson
 description: "Overview The &lt;comPlus&gt; element of the &lt;asp&gt; element configures the following COM+ settings for Active Server Pages (ASP) in Internet Information..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 5761cb9d-8ebf-4ab4-b575-c62a54ed7da5
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/asp/complus
 msc.type: config
 ---

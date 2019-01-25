@@ -1,14 +1,9 @@
 ---
-title: "Web Playlists for IIS 7.0 - Extending Output Formats using XSLT | Microsoft Docs"
+title: "Web Playlists for IIS 7.0 - Extending Output Formats using XSLT"
 author: rick-anderson
 description: "Web Playlists for Internet Information Services (IIS) 7.0 and above supports Extensible Stylesheet Language Transformations (XSLT) style sheets that filter o..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/12/2008
-ms.topic: article
 ms.assetid: 3898c37b-ef52-4a73-af40-564c410906d9
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-extending-output-formats-using-xslt
 msc.type: authoredcontent
 ---

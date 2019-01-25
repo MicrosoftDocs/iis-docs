@@ -1,14 +1,9 @@
 ---
-title: "Provision an IIS Web Site in a Hosting Environment | Microsoft Docs"
+title: "Provision an IIS Web Site in a Hosting Environment"
 author: simtan
 description: "When provisioning a site, most hosters have some sort of control panel that allows them to capture the information required for provisioning. This informatio..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/10/2011
-ms.topic: article
 ms.assetid: e74b2c7d-d37c-44df-9121-4bd9adb2a27d
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/provision-an-iis-web-site-in-a-hosting-environment
 msc.type: authoredcontent
 ---
