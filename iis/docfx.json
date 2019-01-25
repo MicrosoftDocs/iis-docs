@@ -41,7 +41,7 @@
       "_navPath": "/foo",
       "_navRel": "/foo",
       "searchScope": ["IIS"],
-      "ms.prod":"iis",
+      "ms.prod": "iis",
       "ms.topic": "conceptual",
       "ms.author": "iiscontent"
     },
@@ -55,6 +55,7 @@
         "publish/**/*.md": "iis-publish",
         "troubleshoot/**/*.md": "iis-troubleshoot",
         "web-hosting/**/*.md": "iis-hosting"
+      }
     },
     "template": [],
     "dest": "IIS"
