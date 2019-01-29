@@ -48,6 +48,7 @@
     "fileMetadata": {
       "ms.technology": {
         "application-frameworks/**/*.md": "iis-appfx",
+        "configuration/**/*.md": "iis-config",
         "develop/**/*.md": "iis-develop",
         "extensions/**/*.md": "iis-extensions",
         "manage/**/*.md": "iis-manage",
@@ -55,7 +56,10 @@
         "publish/**/*.md": "iis-publish",
         "troubleshoot/**/*.md": "iis-troubleshoot",
         "web-hosting/**/*.md": "iis-hosting"
-      }
+      },
+      "ms.topic": {
+        "configuration/**/*.md": "reference"
+      }      
     },
     "template": [],
     "dest": "IIS"
