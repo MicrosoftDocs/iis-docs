@@ -1,14 +1,9 @@
 ---
-title: "Applications for Application Dependencies &lt;application&gt; | Microsoft Docs"
+title: "Applications for Application Dependencies &lt;application&gt;"
 author: rick-anderson
 description: "Overview The &lt;application&gt; element of the &lt;applicationDependencies&gt; element specifies an application that has dependencies on one or more CGI or..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: fbcaefcb-48c2-4da4-b9da-d0e168e65b26
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/applicationdependencies/application
 msc.type: config
 ---

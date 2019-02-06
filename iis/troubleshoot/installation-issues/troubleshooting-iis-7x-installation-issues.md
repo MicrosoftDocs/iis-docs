@@ -1,14 +1,9 @@
 ---
-title: "Troubleshooting IIS 7.x Installation Issues | Microsoft Docs"
+title: "Troubleshooting IIS 7.x Installation Issues"
 author: puneet-gupta
 description: "System Update Readiness Tool MSConfig.exe This material is provided for informational purposes only. Microsoft makes no warranties, express or implied. Overv..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/09/2012
-ms.topic: article
 ms.assetid: 4daa9338-786e-47ac-9674-fe355e8dcee9
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/installation-issues/troubleshooting-iis-7x-installation-issues
 msc.type: authoredcontent
 ---

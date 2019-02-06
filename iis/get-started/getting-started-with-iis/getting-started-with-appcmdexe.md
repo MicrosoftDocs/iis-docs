@@ -1,14 +1,9 @@
 ---
-title: "Getting Started with AppCmd.exe | Microsoft Docs"
+title: "Getting Started with AppCmd.exe"
 author: leanserver
 description: "AppCmd.exe is the single command line tool for managing IIS 7 and above. It exposes all key server management functionality through a set of intuitive manage..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/16/2007
-ms.topic: article
 ms.assetid: a604d569-d21e-46f8-a66a-4aa08ca97c13
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/getting-started-with-iis/getting-started-with-appcmdexe
 msc.type: authoredcontent
 ---

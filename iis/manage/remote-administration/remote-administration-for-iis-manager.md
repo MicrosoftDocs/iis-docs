@@ -1,14 +1,9 @@
 ---
-title: "Remote Administration for IIS Manager | Microsoft Docs"
+title: "Remote Administration for IIS Manager"
 author: rick-anderson
 description: "Remote management of IIS 7.0 and above through Internet Information Services (IIS) Manager must be explicitly enabled. This has changed from IIS 6.0 where II..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: 729e10ac-105a-4d4d-8992-81d8c82bffbf
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/remote-administration/remote-administration-for-iis-manager
 msc.type: authoredcontent
 ---

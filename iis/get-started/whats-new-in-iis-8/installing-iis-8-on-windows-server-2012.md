@@ -1,14 +1,9 @@
 ---
-title: "Installing IIS 8 on Windows Server 2012 | Microsoft Docs"
+title: "Installing IIS 8 on Windows Server 2012"
 author: rmcmurray
 description: "Version Notes IIS 8.0 IIS 8.0 is only available in Windows Server 2012 and Windows 8. IIS 7.5 IIS 7.0 Contents Overview Step by Step Instructions Summary Ove..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/29/2012
-ms.topic: article
 ms.assetid: 44dd8251-9f28-4b60-bd30-c866a80e5e14
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012
 msc.type: authoredcontent
 ---

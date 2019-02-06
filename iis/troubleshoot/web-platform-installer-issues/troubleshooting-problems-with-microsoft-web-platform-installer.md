@@ -1,14 +1,9 @@
 ---
-title: "Troubleshooting Problems with Microsoft Web Platform Installer | Microsoft Docs"
+title: "Troubleshooting Problems with Microsoft Web Platform Installer"
 author: rick-anderson
 description: "Introduction Microsoft ® Web Platform Installer (Web PI) makes it simple to download and install the latest Microsoft ® Web Platform components, including In..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: 5379a674-41f0-49d9-b744-cf5abd92749a
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/web-platform-installer-issues/troubleshooting-problems-with-microsoft-web-platform-installer
 msc.type: authoredcontent
 ---

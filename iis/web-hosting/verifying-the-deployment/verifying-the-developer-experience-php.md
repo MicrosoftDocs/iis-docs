@@ -1,14 +1,9 @@
 ---
-title: "Verifying the Developer Experience - PHP | Microsoft Docs"
+title: "Verifying the Developer Experience - PHP"
 author: walterov
 description: "Introduction This walkthrough is intended to help hosters verify that their customers can use the Windows Web Platform tools and services to download, custom..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/18/2009
-ms.topic: article
 ms.assetid: f1580123-265c-440b-ae5b-0120fe5dd786
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/verifying-the-deployment/verifying-the-developer-experience-php
 msc.type: authoredcontent
 ---

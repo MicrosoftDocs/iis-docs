@@ -1,14 +1,9 @@
 ---
-title: "Adding Management Authorization Providers &lt;add&gt; | Microsoft Docs"
+title: "Adding Management Authorization Providers &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;providers&gt; element adds an authorization provider to the collection of management authorization providers for..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 2ffa0a51-95f0-4e94-bbe2-8706ddfcf4f9
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/management/authorization/providers/add
 msc.type: config
 ---

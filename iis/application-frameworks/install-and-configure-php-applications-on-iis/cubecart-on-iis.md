@@ -1,14 +1,9 @@
 ---
-title: "CubeCart on IIS | Microsoft Docs"
+title: "CubeCart on IIS"
 author: rick-anderson
 description: "Introduction CubeCart is a powerful eCommerce script written with PHP and MySQL. With CubeCart, you can setup a powerful online store with hosting that suppo..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/17/2008
-ms.topic: article
 ms.assetid: 8f3e0858-60eb-44ca-a09d-2179b395d359
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/cubecart-on-iis
 msc.type: authoredcontent
 ---

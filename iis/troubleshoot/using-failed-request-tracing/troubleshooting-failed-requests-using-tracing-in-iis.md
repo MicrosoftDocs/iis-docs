@@ -1,14 +1,9 @@
 ---
-title: "Troubleshooting Failed Requests Using Tracing in IIS 7 | Microsoft Docs"
+title: "Troubleshooting Failed Requests Using Tracing in IIS 7"
 author: rick-anderson
 description: "Request-based tracing provides a way to determine what exactly is happening with your requests and why, provided that you can reproduce the problem that you..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/12/2007
-ms.topic: article
 ms.assetid: a0e48aad-f184-4459-b059-d5e7ba58883e
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis
 msc.type: authoredcontent
 ---

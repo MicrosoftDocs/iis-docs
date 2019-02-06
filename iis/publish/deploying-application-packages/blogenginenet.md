@@ -1,14 +1,9 @@
 ---
-title: "BlogEngine.NET | Microsoft Docs"
+title: "BlogEngine.NET"
 author: simtan
 description: "Introduction BlogEngine.NET is an open source .NET blogging platform for Microsoft .NET. For more information about BlogEngine.Net, refer to the BlogEngine.N..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/10/2011
-ms.topic: article
 ms.assetid: 63fcc706-7f61-40c0-bc17-8b57118ffd4f
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/blogenginenet
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "IIS 8.0 Dynamic IP Address Restrictions | Microsoft Docs"
+title: "IIS 8.0 Dynamic IP Address Restrictions"
 author: rmcmurray
 description: "The Dynamic IP Restrictions Extension for IIS provides IT Professionals and Hosters a configurable module that helps mitigate or block Denial of Service Atta..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/29/2012
-ms.topic: article
 ms.assetid: 35da8086-42c3-4dbe-98d6-280254b8a97f
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-dynamic-ip-address-restrictions
 msc.type: authoredcontent
 ---

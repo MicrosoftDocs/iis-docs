@@ -1,14 +1,9 @@
 ---
-title: "WebDAV Authoring &lt;authoring&gt; | Microsoft Docs"
+title: "WebDAV Authoring &lt;authoring&gt;"
 author: rick-anderson
 description: "Overview The &lt;authoring&gt; element specifies the site-level settings for WebDAV. The most important of these settings is whether WebDAV authoring is enab..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: f8016b62-aea8-47e2-9572-4f0a5868a3cd
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/webdav/authoring
 msc.type: config
 ---

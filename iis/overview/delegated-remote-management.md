@@ -4,9 +4,6 @@ author: shirhatti
 description: "IIS provides built-in support for delegating administration tasks to website owners, allowing basic configuration and management tasks to be performed securely and without Administrative intervention."
 ms.author: soshir
 ms.date: 3/6/2018
-ms.topic: article
-ms.technology: iis
-ms.prod: iis
 msc.type: authoredcontent
 ---
 Delegated Remote Management

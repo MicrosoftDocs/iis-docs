@@ -1,14 +1,9 @@
 ---
-title: "One-To-One Mappings &lt;oneToOneMappings&gt; | Microsoft Docs"
+title: "One-To-One Mappings &lt;oneToOneMappings&gt;"
 author: rick-anderson
 description: "Overview The &lt;oneToOneMappings&gt; element of the &lt;iisClientCertificateMappingAuthentication&gt; element maps individual client certificates to individ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 38d0993f-5aca-48a9-bddb-e2fb14610f2d
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/onetoonemappings
 msc.type: config
 ---

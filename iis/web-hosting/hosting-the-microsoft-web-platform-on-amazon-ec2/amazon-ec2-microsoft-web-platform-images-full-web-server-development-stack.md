@@ -1,14 +1,9 @@
 ---
-title: "Amazon EC2: Microsoft Web Platform Images - Full Web Server Development Stack | Microsoft Docs"
+title: "Amazon EC2: Microsoft Web Platform Images - Full Web Server Development Stack"
 author: thomasdeml
 description: "Introduction Visual Studio 2010 enables web developers to use their existing skillset to write great applications for the Microsoft Web Platform. But one thi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/12/2010
-ms.topic: article
 ms.assetid: e06a1f8c-8744-4867-a7b1-ab5ca505e360
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-images-full-web-server-development-stack
 msc.type: authoredcontent
 ---

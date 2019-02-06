@@ -1,14 +1,9 @@
 ---
-title: "Sitefinity Community Edition FAQ | Microsoft Docs"
+title: "Sitefinity Community Edition FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: c1fcf431-49b4-4ef8-b939-3984544355d4
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/sitefinity-community-edition-faq
 msc.type: authoredcontent
 ---

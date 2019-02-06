@@ -1,14 +1,9 @@
 ---
-title: "Enable PHP Syntax Highlighting on IIS 7 | Microsoft Docs"
+title: "Enable PHP Syntax Highlighting on IIS 7"
 author: rick-anderson
 description: "You can configure Internet Information Services 7 (IIS 7) and above to output syntax-highlighted source code for PHP files stored on the Web server or Web si..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: cf9e7b8e-a97b-42f7-823b-a8bdff7afbc2
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/enable-php-syntax-highlighting-on-iis-7-and-above
 msc.type: authoredcontent
 ---

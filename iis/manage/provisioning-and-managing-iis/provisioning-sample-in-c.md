@@ -1,14 +1,9 @@
 ---
-title: "Provisioning Sample in C# | Microsoft Docs"
+title: "Provisioning Sample in C#"
 author: walterov
 description: "Over the years, it has become simple for advanced Web users to create their own Web site. Once an end-user has registered their domain name, there are variou..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/22/2007
-ms.topic: article
 ms.assetid: 3f2893c1-46aa-4a2f-b8e7-e5d76d565daa
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/provisioning-sample-in-c
 msc.type: authoredcontent
 ---

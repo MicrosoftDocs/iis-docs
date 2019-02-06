@@ -1,14 +1,9 @@
 ---
-title: "Microsoft Web Deploy v2: Readme | Microsoft Docs"
+title: "Microsoft Web Deploy v2: Readme"
 author: bilalaslam
 description: "Web Deploy v2 Readme Overview The Web Deploy is a tool for simplifying migration, management and deployment of Web applications, sites and servers. It can be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/11/2011
-ms.topic: article
 ms.assetid: 06c8c5a4-4b1c-486f-8509-0882acccf9af
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/microsoft-web-deploy-v2-readme
 msc.type: authoredcontent
 ---

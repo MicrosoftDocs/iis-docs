@@ -1,14 +1,9 @@
 ---
-title: "FTP Connections &lt;connections&gt; | Microsoft Docs"
+title: "FTP Connections &lt;connections&gt;"
 author: rick-anderson
 description: "Overview The &lt;connections&gt; element specifies the connection-related settings for FTP sites. More specifically, the settings in the &lt;connections&gt;..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: ba02bfed-6f6f-483c-8824-8fa931bd4d4c
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/connections
 msc.type: config
 ---

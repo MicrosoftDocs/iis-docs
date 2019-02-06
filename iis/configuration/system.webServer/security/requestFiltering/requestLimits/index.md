@@ -1,14 +1,9 @@
 ---
-title: "Request Limits &lt;requestLimits&gt; | Microsoft Docs"
+title: "Request Limits &lt;requestLimits&gt;"
 author: rick-anderson
 description: "Overview The &lt;requestLimits&gt; element specifies limits on HTTP requests that are processed by the Web server. These limits include the maximum size of a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: fc81cac6-60f9-4699-808b-8082fad4fe1c
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/requestlimits
 msc.type: config
 ---

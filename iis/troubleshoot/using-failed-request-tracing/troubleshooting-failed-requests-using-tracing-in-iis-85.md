@@ -1,14 +1,9 @@
 ---
-title: "Troubleshooting Failed Requests Using Tracing in IIS 8.5 | Microsoft Docs"
+title: "Troubleshooting Failed Requests Using Tracing in IIS 8.5"
 author: rick-anderson
 description: "Request-based tracing is available both in stand-alone IIS Servers and on Windows Azure Web Sites (WAWS) and provides a way to determine what exactly is happ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/20/2014
-ms.topic: article
 ms.assetid: d8b90f33-0d56-49a6-99d8-df8d4e34f2b0
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis-85
 msc.type: authoredcontent
 ---

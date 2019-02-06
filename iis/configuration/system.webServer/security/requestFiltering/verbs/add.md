@@ -1,14 +1,9 @@
 ---
-title: "Adding Verbs &lt;add&gt; | Microsoft Docs"
+title: "Adding Verbs &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;verbs&gt; collection specifies a unique HTTP verb to add to the collection of verbs that are are allowed or denie..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: a6b40fce-a571-459f-a691-527ec712bad8
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/verbs/add
 msc.type: config
 ---

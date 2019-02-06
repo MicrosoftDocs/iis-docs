@@ -1,14 +1,9 @@
 ---
-title: "Default Log File Settings for Web Sites &lt;logFile&gt; | Microsoft Docs"
+title: "Default Log File Settings for Web Sites &lt;logFile&gt;"
 author: rick-anderson
 description: "Overview The &lt;logFile&gt; element of the &lt;siteDefaults&gt; element contains attributes that allow you to configure default logging for a site on IIS 7..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: c2ea131e-ec1a-4559-b4c0-7de9d500afc0
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/logfile
 msc.type: config
 ---

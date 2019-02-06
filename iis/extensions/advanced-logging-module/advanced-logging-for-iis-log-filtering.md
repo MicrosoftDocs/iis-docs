@@ -1,14 +1,9 @@
 ---
-title: "Advanced Logging for IIS - Log Filtering | Microsoft Docs"
+title: "Advanced Logging for IIS - Log Filtering"
 author: rick-anderson
 description: "Log Filtering in IIS Advanced Logging allows administrators to collect only the Web site traffic information that they are interested in instead of having to..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 10/15/2009
-ms.topic: article
 ms.assetid: 0c6deba6-1d29-4965-84a1-405e45e323df
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/advanced-logging-module/advanced-logging-for-iis-log-filtering
 msc.type: authoredcontent
 ---

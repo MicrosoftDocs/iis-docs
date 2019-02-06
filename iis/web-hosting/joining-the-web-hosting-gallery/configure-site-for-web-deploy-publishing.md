@@ -1,14 +1,9 @@
 ---
-title: "Configure Site for Web Deploy Publishing | Microsoft Docs"
+title: "Configure Site for Web Deploy Publishing"
 author: bilalaslam
 description: "Configure Sites for Web Deploy Publishing At this point, your server is configured with all the software required to support WebMatrix publishing. The Web De..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/04/2010
-ms.topic: article
 ms.assetid: f5310c01-2939-4b93-a9dc-1f0532eae2f9
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/joining-the-web-hosting-gallery/configure-site-for-web-deploy-publishing
 msc.type: authoredcontent
 ---

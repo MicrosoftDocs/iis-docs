@@ -1,14 +1,9 @@
 ---
-title: "Developing Rule Template for URL Rewrite Module | Microsoft Docs"
+title: "Developing Rule Template for URL Rewrite Module"
 author: ruslany
 description: "This walkthrough will guide you through how to develop a rule template for URL Rewrite module. You will create a rule template that can be used to generate a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/10/2008
-ms.topic: article
 ms.assetid: a2acbdb8-180f-49a0-824d-5a7a49435d72
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/developing-rule-template-for-url-rewrite-module
 msc.type: authoredcontent
 ---

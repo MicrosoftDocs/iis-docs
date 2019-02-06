@@ -1,14 +1,9 @@
 ---
-title: "Windows Web Application Gallery Link Addition Process Walkthrough | Microsoft Docs"
+title: "Windows Web Application Gallery Link Addition Process Walkthrough"
 author: rick-anderson
 description: "This walkthrough will guide you through the process of submitting an application to the Windows Web Application Gallery. Overview of the submission process T..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: 218769b5-1bdf-49a2-97dc-a8e6c64bd724
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/windows-web-application-gallery-link-addition-process-walkthrough
 msc.type: authoredcontent
 ---

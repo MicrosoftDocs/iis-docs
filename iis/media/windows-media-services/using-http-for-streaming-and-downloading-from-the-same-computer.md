@@ -1,14 +1,9 @@
 ---
-title: "Using HTTP for Streaming and Downloading from the Same Computer | Microsoft Docs"
+title: "Using HTTP for Streaming and Downloading from the Same Computer"
 author: rick-anderson
 description: "You can use Microsoft Windows Media Services 2008 and Internet Information Services (IIS) 7. on the same computer for digital content delivery. For example,..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2008
-ms.topic: article
 ms.assetid: 4b7e6d87-95e2-48fa-b6d1-6d308696f3cf
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/windows-media-services/using-http-for-streaming-and-downloading-from-the-same-computer
 msc.type: authoredcontent
 ---

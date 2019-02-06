@@ -1,14 +1,9 @@
 ---
-title: "Plan an ASP.NET Website on IIS | Microsoft Docs"
+title: "Plan an ASP.NET Website on IIS"
 author: rmcmurray
 description: "To develop a plan for installing an IIS web server and configuring it for ASP.NET web applications, follow the steps listed."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: d8e475b6-f456-4220-9096-69b21ffae364
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/plan-an-asp-net-website-on-iis
 msc.type: authoredcontent
 ---

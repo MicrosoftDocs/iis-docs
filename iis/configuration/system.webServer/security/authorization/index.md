@@ -1,14 +1,9 @@
 ---
-title: "Security Authorization &lt;authorization&gt; | Microsoft Docs"
+title: "Security Authorization &lt;authorization&gt;"
 author: rick-anderson
 description: "Overview The &lt;authorization&gt; element allows you to configure the user accounts that can access your site or application. Use authorization in combinati..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: a1443363-11a3-4ee7-bb3e-1080a5f4efca
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authorization
 msc.type: config
 ---

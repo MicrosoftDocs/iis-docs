@@ -1,14 +1,9 @@
 ---
-title: "Changes in Security Between IIS 6.0 and IIS 7 and Above | Microsoft Docs"
+title: "Changes in Security Between IIS 6.0 and IIS 7 and Above"
 author: rick-anderson
 description: "IIS 7 and above bring many new security improvements from IIS 6.0. This document overviews these improvements with respect to Authentication, Authorization,..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/16/2007
-ms.topic: article
 ms.assetid: ec979d77-5a26-4b9b-9da2-ab445e6bdf73
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-7/changes-in-security-between-iis-60-and-iis-7-and-above
 msc.type: authoredcontent
 ---

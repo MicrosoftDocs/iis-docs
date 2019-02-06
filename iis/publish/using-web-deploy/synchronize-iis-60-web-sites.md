@@ -1,14 +1,9 @@
 ---
-title: "Synchronize IIS 6.0 Web Sites | Microsoft Docs"
+title: "Synchronize IIS 6.0 Web Sites"
 author: rick-anderson
 description: "This quick guide will guide you through the process of using the Web Deployment Tool to synchronize a Web site fon an IIS 6.0 source computer to an IIS 6.0 d..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/07/2008
-ms.topic: article
 ms.assetid: d9e0150b-0bca-4920-a2b6-5109b8454a94
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/synchronize-iis-60-web-sites
 msc.type: authoredcontent
 ---

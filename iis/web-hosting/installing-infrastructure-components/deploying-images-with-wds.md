@@ -1,14 +1,9 @@
 ---
-title: "Deploying Images with WDS | Microsoft Docs"
+title: "Deploying Images with WDS"
 author: walterov
 description: "Once the environment is setup with Windows Deployment Services, a reference machine has been created, and an image of it is available for deployment, you are..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: f84a3bc2-3d0d-43dc-bd97-eaa3ba27a27b
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/deploying-images-with-wds
 msc.type: authoredcontent
 ---

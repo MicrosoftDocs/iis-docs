@@ -1,14 +1,9 @@
 ---
-title: "C# and PowerShell Scripts Samples | Microsoft Docs"
+title: "C# and PowerShell Scripts Samples"
 author: walterov
 description: "This article provides a summary of the PowerShell and C# Sample scripts mentioned throughout the Hosting Guidance. They can be used for deployment, configura..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/25/2008
-ms.topic: article
 ms.assetid: 25568a97-1a8b-4569-a49b-20c752d83e07
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-components/powershell-scripts
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Adding Default FTP Custom Features &lt;add&gt; | Microsoft Docs"
+title: "Adding Default FTP Custom Features &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;providers&gt; element adds a feature provider to the default collection of FTP custom providers for FTP sites. No..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 29ea7c20-800e-408a-a534-090c56c02570
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/customfeatures/providers/add
 msc.type: config
 ---

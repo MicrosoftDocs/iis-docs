@@ -1,14 +1,9 @@
 ---
-title: "Managing Worker Processes and AppDomains in IIS 7 with WMI | Microsoft Docs"
+title: "Managing Worker Processes and AppDomains in IIS 7 with WMI"
 author: rick-anderson
 description: "WMI scripting lets you manage worker processes and application domains (AppDomains) in IIS with relative ease. IIS worker processes are spawned by the Window..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: 7fc41638-2270-4bbe-b8e3-a73cd7dd4641
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/scripting/managing-worker-processes-and-appdomains-in-iis-with-wmi
 msc.type: authoredcontent
 ---

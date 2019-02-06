@@ -1,14 +1,9 @@
 ---
-title: "Request Filtering Rule &lt;filteringRule&gt; | Microsoft Docs"
+title: "Request Filtering Rule &lt;filteringRule&gt;"
 author: rick-anderson
 description: "Overview The &lt;filteringRule&gt; element adds a rule to the collection of custom request filtering rules in the &lt;filteringRules&gt; element. Each &lt;fi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 0127d833-3d44-4e38-a2b3-f8ba6628e972
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/filteringrules/filteringrule
 msc.type: config
 ---

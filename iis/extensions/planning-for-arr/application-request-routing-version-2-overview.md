@@ -1,14 +1,9 @@
 ---
-title: "Application Request Routing Version 2 Overview | Microsoft Docs"
+title: "Application Request Routing Version 2 Overview"
 author: rick-anderson
 description: "This section of the documentation applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Microsoft Application Request Routing (ARR..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: e3c34cfb-604c-4ef2-bf05-0ac975f9eeab
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/planning-for-arr/application-request-routing-version-2-overview
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Install and Configure IIS 7 on Server Core | Microsoft Docs"
+title: "Install and Configure IIS 7 on Server Core"
 author: rick-anderson
 description: "Introduction Server Core, the minimal server installation option for Windows Server ® 2008, is available in Standard, Enterprise, and Datacenter editions. Se..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/30/2008
-ms.topic: article
 ms.assetid: 2128f157-5a8f-407a-9fd7-6b1ea714fc60
-ms.technology: iis-install
-ms.prod: iis
 msc.legacyurl: /learn/install/installing-iis-7/install-and-configure-iis-on-server-core
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Creating Rewrite Rules for the URL Rewrite Module | Microsoft Docs"
+title: "Creating Rewrite Rules for the URL Rewrite Module"
 author: ruslany
 description: "This walkthrough will guide you through how to create and test a set of rewrite rules for the URL Rewrite Module. Prerequisites This walkthrough requires the..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/28/2014
-ms.topic: article
 ms.assetid: d980dd02-896f-483f-b712-c7fc6a7ab6f6
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module
 msc.type: authoredcontent
 ---

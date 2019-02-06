@@ -1,14 +1,9 @@
 ---
-title: "Listener Adapters &lt;listenerAdapters&gt; | Microsoft Docs"
+title: "Listener Adapters &lt;listenerAdapters&gt;"
 author: rick-anderson
 description: "Overview The &lt;listenerAdapters&gt; element specifies configuration settings for listener adapters for Internet Information Services (IIS) 7. Listener adap..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: e4baaeca-18d7-4094-8e03-61410d413947
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/listeneradapters
 msc.type: config
 ---

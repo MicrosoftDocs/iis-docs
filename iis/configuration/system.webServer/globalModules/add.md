@@ -1,14 +1,9 @@
 ---
-title: "Adding Global Modules &lt;add&gt; | Microsoft Docs"
+title: "Adding Global Modules &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;globalModules&gt; collection specifies an individual global module to be added to the Web server. Compatibility V..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: a74fb2fc-34ac-4c8d-af1d-945c1f9fc11e
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/globalmodules/add
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Using Encryption to Protect Passwords | Microsoft Docs"
+title: "Using Encryption to Protect Passwords"
 author: rick-anderson
 description: "This document provides an overview of the steps required for setting both application pool and worker process isolation for IIS 7.0 and above servers. Applic..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/22/2007
-ms.topic: article
 ms.assetid: 4012722a-ab3f-41b8-ae6e-48ef2e574613
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/using-encryption-to-protect-passwords
 msc.type: authoredcontent
 ---

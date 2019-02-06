@@ -1,14 +1,9 @@
 ---
-title: "Default FTP Log Files Settings &lt;logFile&gt; | Microsoft Docs"
+title: "Default FTP Log Files Settings &lt;logFile&gt;"
 author: rick-anderson
 description: "Overview The &lt;logFile&gt; element is used to configure the default activity logging options for an FTP server. For example, you can enable or disable logg..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 9c61b7c7-28bc-4fe7-80c5-4077ee07756a
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/logfile
 msc.type: config
 ---

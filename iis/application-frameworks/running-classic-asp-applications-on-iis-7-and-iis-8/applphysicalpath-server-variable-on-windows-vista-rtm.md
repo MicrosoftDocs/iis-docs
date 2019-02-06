@@ -1,14 +1,9 @@
 ---
-title: "APPL_PHYSICAL_PATH Server Variable on Windows Vista RTM | Microsoft Docs"
+title: "APPL_PHYSICAL_PATH Server Variable on Windows Vista RTM"
 author: rmcmurray
 description: "The original release of IIS 7.0 that shipped with Windows Vista returned a different value for the APPL_PHYSICAL_PATH server variable than that which was ret..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/19/2009
-ms.topic: article
 ms.assetid: 2359a956-fe32-40a8-8452-5a65c3898195
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-classic-asp-applications-on-iis-7-and-iis-8/applphysicalpath-server-variable-on-windows-vista-rtm
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Building a Web Deploy Package from Visual Studio 2010 | Microsoft Docs"
+title: "Building a Web Deploy Package from Visual Studio 2010"
 author: rick-anderson
 description: "Summary So far, we have installed Web Deploy on a web server and enabled non-administrators to deploy applications to IIS 7. In this walkthrough, we will lea..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/13/2011
-ms.topic: article
 ms.assetid: a674fbd0-9cb1-4e0e-8d51-cea7cfde5f9b
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/building-a-web-deploy-package-from-visual-studio-2010
 msc.type: authoredcontent
 ---

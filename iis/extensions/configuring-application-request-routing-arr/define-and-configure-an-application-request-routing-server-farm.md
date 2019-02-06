@@ -1,14 +1,9 @@
 ---
-title: "Define and Configure an Application Request Routing Server Farm | Microsoft Docs"
+title: "Define and Configure an Application Request Routing Server Farm"
 author: rick-anderson
 description: "Overview This topic leads the reader through the steps to define and configure a server group for Application Request Routing (ARR) Version 1 on IIS 7.0 and..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/02/2008
-ms.topic: article
 ms.assetid: a83c6706-9210-41a2-94fc-53afdecbc9b6
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/define-and-configure-an-application-request-routing-server-farm
 msc.type: authoredcontent
 ---

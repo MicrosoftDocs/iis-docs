@@ -1,14 +1,9 @@
 ---
-title: "Smooth Streaming Client SDK for Windows 8 - Release Notes | Microsoft Docs"
+title: "Smooth Streaming Client SDK for Windows 8 - Release Notes"
 author: cenkdin
 description: "The Smooth Streaming Client SDK for Windows Store Apps enables developers to build Windows Store applications that can play on-demand and live Smooth Streami..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 10/26/2012
-ms.topic: article
 ms.assetid: 9da8a3e4-1539-4a97-a020-9683d8b9ad2b
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/smooth-streaming-client-sdk-for-windows-8-release-notes
 msc.type: authoredcontent
 ---

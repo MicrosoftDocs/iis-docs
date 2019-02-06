@@ -1,14 +1,9 @@
 ---
-title: "Amazon EC2: Microsoft Web Platform - DotNetNuke | Microsoft Docs"
+title: "Amazon EC2: Microsoft Web Platform - DotNetNuke"
 author: thomasdeml
 description: "Introduction One thing we often hear from Web developers, especially those who offer Web site design and consulting services, is the need to get a Web site u..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/05/2010
-ms.topic: article
 ms.assetid: 2e582d50-672d-4cbd-b360-4a0417279042
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-amazon-ec2/amazon-ec2-microsoft-web-platform-dotnetnuke
 msc.type: authoredcontent
 ---

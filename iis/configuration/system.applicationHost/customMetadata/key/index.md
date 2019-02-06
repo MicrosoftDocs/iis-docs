@@ -1,14 +1,9 @@
 ---
-title: "Custom Metadata Keys &lt;key&gt; | Microsoft Docs"
+title: "Custom Metadata Keys &lt;key&gt;"
 author: rick-anderson
 description: "Overview The &lt;key&gt; element of the &lt;customMetadata&gt; element adds a custom metadata setting to the collection of custom metadata settings. Importan..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 002414f1-c399-4fb7-b9fb-04956a16b863
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/custommetadata/key
 msc.type: config
 ---

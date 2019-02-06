@@ -1,14 +1,9 @@
 ---
-title: "WebMatrix Privacy Statement | Microsoft Docs"
+title: "WebMatrix Privacy Statement"
 author: bilalaslam
 description: "Microsoft is committed to protecting your privacy, while delivering software that brings you the performance, power, and convenience you desire in your perso..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/08/2011
-ms.topic: article
 ms.assetid: 70f095ff-6766-4535-885a-0aca7f2a7fbb
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/webmatrix-privacy-statement
 msc.type: authoredcontent
 ---

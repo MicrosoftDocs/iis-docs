@@ -1,14 +1,9 @@
 ---
-title: "Default Custom Fields in Log Files &lt;customFields&gt; | Microsoft Docs"
+title: "Default Custom Fields in Log Files &lt;customFields&gt;"
 author: rick-anderson
 description: "Overview The &lt;customFields&gt; element of the &lt;logFile&gt; element specifies the configuration settings for a collection of default custom fields in a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 8a2f12fa-fd92-4dba-aae6-ce9d928197ab
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/logfile/customfields
 msc.type: config
 ---

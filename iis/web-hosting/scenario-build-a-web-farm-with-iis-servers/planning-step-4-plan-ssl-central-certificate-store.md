@@ -1,14 +1,9 @@
 ---
-title: "Planning Step 4: Plan SSL Central Certificate Store | Microsoft Docs"
+title: "Planning Step 4: Plan SSL Central Certificate Store"
 author: rmcmurray
 description: "In this phase of planning for a web farm, you add support for SSL-secured websites by configuring a central certificate store. Centralized SSL certificate su..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: 472a47cf-2ecb-448c-9719-66455ebf9e62
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/planning-step-4-plan-ssl-central-certificate-store
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "PowerShell scripts for automating Web Deploy setup | Microsoft Docs"
+title: "PowerShell scripts for automating Web Deploy setup"
 author: krolson
 description: "Description: The v2.1 release of Web Deploy installs several PowerShell scripts that make it easy to configure your IIS server so that users can publish to i..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/12/2011
-ms.topic: article
 ms.assetid: 2df260cf-dcde-46f3-abda-5d976b592b32
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/powershell-scripts-for-automating-web-deploy-setup
 msc.type: authoredcontent
 ---

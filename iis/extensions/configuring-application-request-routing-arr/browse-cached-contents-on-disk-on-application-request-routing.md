@@ -1,14 +1,9 @@
 ---
-title: "Browse Cached Contents on Disk on Application Request Routing | Microsoft Docs"
+title: "Browse Cached Contents on Disk on Application Request Routing"
 author: rick-anderson
 description: "This section of the document applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To successfully view and manage the cached..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/16/2009
-ms.topic: article
 ms.assetid: f76a72cb-c3eb-474b-8c45-9505e0d5aacf
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/browse-cached-contents-on-disk-on-application-request-routing
 msc.type: authoredcontent
 ---

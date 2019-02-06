@@ -1,14 +1,9 @@
 ---
-title: "Data Mining UrlScan 3 Logs using LogParser 2.2 | Microsoft Docs"
+title: "Data Mining UrlScan 3 Logs using LogParser 2.2"
 author: rmcmurray
 description: "Microsoft has released version 3.1 of UrlScan, and one of the great new features in this version is log files that conform to the W3C Extended Log File Form..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 10/22/2008
-ms.topic: article
 ms.assetid: 92f717d4-cf5a-4ba9-9e49-6d0062849958
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/working-with-urlscan/data-mining-urlscan-3-logs-using-logparser-22
 msc.type: authoredcontent
 ---

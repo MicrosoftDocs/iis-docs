@@ -1,14 +1,9 @@
 ---
-title: "dynamicIdleThreshold | Microsoft Docs"
+title: "dynamicIdleThreshold"
 author: walterov
 description: "When Windows Server ® 2008 R2 starts paging heavily (this could be at 1.5x ram), the response time of HTTP requests goes down. This is particularly common in..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: 74643093-38b3-4a46-a557-0076ab10d183
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/dynamicidlethreshold
 msc.type: authoredcontent
 ---

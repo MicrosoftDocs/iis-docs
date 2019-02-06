@@ -1,14 +1,9 @@
 ---
-title: "BlogEngine.NET FAQ | Microsoft Docs"
+title: "BlogEngine.NET FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 94b2ff9c-de00-4e0e-add9-de807a33d626
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/blogenginenet-faq
 msc.type: authoredcontent
 ---

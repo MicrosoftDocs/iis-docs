@@ -1,14 +1,9 @@
 ---
-title: "Understanding UI Extension Authoring | Microsoft Docs"
+title: "Understanding UI Extension Authoring"
 author: rick-anderson
 description: "Introduction The administration tool for IIS 7.0 and above is an extensible platform for plugging in modules. Developers can write their own UI features and..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/21/2008
-ms.topic: article
 ms.assetid: 65a11a66-0246-4aa9-b532-a7832ab46401
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/extending-the-management-ui/understanding-ui-extension-authoring
 msc.type: authoredcontent
 ---

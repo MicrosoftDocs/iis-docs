@@ -1,14 +1,9 @@
 ---
-title: "How to Manage and Administer the Microsoft Web Platform | Microsoft Docs"
+title: "How to Manage and Administer the Microsoft Web Platform"
 author: rick-anderson
 description: "The following articles provide guidance in managing and administering the Microsoft® Web Platform. Create a Web Site. This article provides guidance for cre..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 0de263a3-9995-4937-aeaa-141b0692c914
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/how-to-manage-and-administer-the-microsoft-web-platform
 msc.type: authoredcontent
 ---

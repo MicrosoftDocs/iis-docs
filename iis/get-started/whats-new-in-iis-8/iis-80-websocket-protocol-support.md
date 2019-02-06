@@ -1,14 +1,9 @@
 ---
-title: "IIS 8.0 WebSocket Protocol Support | Microsoft Docs"
+title: "IIS 8.0 WebSocket Protocol Support"
 author: Microsoft
 description: ""
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/28/2012
-ms.topic: article
 ms.assetid: c632ce60-1f34-4666-b455-8c13438688f4
-ms.technology: iis
-ms.prod: iis
 msc.legacyurl: /learn/get-started/whats-new-in-iis-8/iis-80-websocket-protocol-support
 msc.type: authoredcontent
 ---

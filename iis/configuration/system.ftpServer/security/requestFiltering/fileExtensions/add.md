@@ -1,14 +1,9 @@
 ---
-title: "Adding FTP File Name Extensions &lt;add&gt; | Microsoft Docs"
+title: "Adding FTP File Name Extensions &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;fileExtensions&gt; collection specifies a unique file name extension to add to the collection of file name extens..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: dd78d5b9-7ed8-4d2c-b6bf-321a46226311
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/requestfiltering/fileextensions/add
 msc.type: config
 ---

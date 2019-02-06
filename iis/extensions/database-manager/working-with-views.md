@@ -1,14 +1,9 @@
 ---
-title: "Working with Views | Microsoft Docs"
+title: "Working with Views"
 author: rick-anderson
 description: "This walkthrough assumes the following environment: The IIS Database Manager is installed on your Web Server. A database server (that could reside on the sam..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: 791d8b70-3086-4aff-9c29-bd859078f7e6
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/database-manager/working-with-views
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "FTP Custom Authentication &lt;customAuthentication&gt; | Microsoft Docs"
+title: "FTP Custom Authentication &lt;customAuthentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;customAuthentication&gt; element specifies the settings for Custom authentication for an FTP site. This form of authentication uses custom a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 64a6e23c-d994-4463-93f2-5e24732873f2
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication
 msc.type: config
 ---

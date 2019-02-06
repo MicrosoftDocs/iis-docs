@@ -1,14 +1,9 @@
 ---
-title: "Configuring Step 4: Configure SSL Central Certificate Store | Microsoft Docs"
+title: "Configuring Step 4: Configure SSL Central Certificate Store"
 author: rmcmurray
 description: "In the final phase of building a web farm with IIS servers, you add a central certificate store to your farm. This store enables you to place your SSL certif..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: 7d367f12-05e8-433f-9b96-816cbefa261f
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/scenario-build-a-web-farm-with-iis-servers/configuring-step-4-configure-ssl-central-certificate-store
 msc.type: authoredcontent
 ---

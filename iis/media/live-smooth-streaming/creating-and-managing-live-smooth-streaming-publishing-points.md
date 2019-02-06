@@ -1,14 +1,9 @@
 ---
-title: "Creating and Managing Live Smooth Streaming Publishing Points | Microsoft Docs"
+title: "Creating and Managing Live Smooth Streaming Publishing Points"
 author: rick-anderson
 description: "Applies To: IIS Media Services 4 When you create Live Smooth Streaming publishing points in IIS Manager, you can choose from different options to support the..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/20/2009
-ms.topic: article
 ms.assetid: 35082892-5d98-4c19-bae8-22dc2414d9ef
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/creating-and-managing-live-smooth-streaming-publishing-points
 msc.type: authoredcontent
 ---

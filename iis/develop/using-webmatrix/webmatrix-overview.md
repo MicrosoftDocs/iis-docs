@@ -1,14 +1,9 @@
 ---
-title: "WebMatrix Overview | Microsoft Docs"
+title: "WebMatrix Overview"
 author: rick-anderson
 description: "WebMatrix allows you to build websites using gorgeous, built-in templates or popular open source applications that run on many devices, and publish them to t..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 95204e87-ab20-4e4d-9072-3e9b3fd3d32c
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/webmatrix-overview
 msc.type: authoredcontent
 ---

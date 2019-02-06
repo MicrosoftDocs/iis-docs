@@ -1,14 +1,9 @@
 ---
-title: "Developing a Custom Rewrite Provider for URL Rewrite Module | Microsoft Docs"
+title: "Developing a Custom Rewrite Provider for URL Rewrite Module"
 author: ruslany
 description: "This walkthrough will guide you through how to develop a rewrite provider for URL Rewrite Module 2.0. You will create a ReplaceProvider that replaces all occ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/11/2010
-ms.topic: article
 ms.assetid: c492a011-0841-4d3a-8641-2b7f26a749b0
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/developing-a-custom-rewrite-provider-for-url-rewrite-module
 msc.type: authoredcontent
 ---

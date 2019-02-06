@@ -1,14 +1,9 @@
 ---
-title: "Trace Provider Definitions &lt;traceProviderDefinitions&gt; | Microsoft Docs"
+title: "Trace Provider Definitions &lt;traceProviderDefinitions&gt;"
 author: rick-anderson
 description: "Overview The &lt;traceProviderDefinitions&gt; element allows you to define a collection of trace providers available on the Internet Information Services (II..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 7be21d2d-4a72-49a7-8475-bb31839454bb
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/tracing/traceproviderdefinitions
 msc.type: config
 ---

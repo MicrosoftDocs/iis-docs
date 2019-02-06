@@ -1,14 +1,9 @@
 ---
-title: "Application Dependencies &lt;applicationDependencies&gt; | Microsoft Docs"
+title: "Application Dependencies &lt;applicationDependencies&gt;"
 author: rick-anderson
 description: "Overview The &lt;applicationDependencies&gt; element of the &lt;security&gt; element works in tandem with the &lt;isapiCgiRestriction&gt; element to define w..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: ea6151ab-b619-40b0-9fd4-56f5ad6ffc60
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/applicationdependencies
 msc.type: config
 ---

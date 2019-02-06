@@ -1,14 +1,9 @@
 ---
-title: "Adding Trace Provider Definitions &lt;add&gt; | Microsoft Docs"
+title: "Adding Trace Provider Definitions &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element adds a trace provider to the &lt;traceProviderDefinitions&gt; collection. Compatibility Version Notes IIS 10.0 The &lt;add&g..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 5bf03404-e795-497d-ac80-0ee2492738a1
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/tracing/traceproviderdefinitions/add
 msc.type: config
 ---

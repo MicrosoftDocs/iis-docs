@@ -1,14 +1,9 @@
 ---
-title: ".NET Questions | Microsoft Docs"
+title: ".NET Questions"
 author: walterov
 description: "No. When a user uses Visual Studio 2008 Beta 2 to build a new ASP.NET 3.5 website, or migrates an existing ASP.NET website to .NET Framework 3.5, the applica..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/22/2007
-ms.topic: article
 ms.assetid: 962ccf05-344c-4435-9518-a9bd1e57f4bb
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/frequently-asked-questions-faq/net-questions
 msc.type: authoredcontent
 ---

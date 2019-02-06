@@ -1,14 +1,9 @@
 ---
-title: "Rule with Rewrite Map - rule template | Microsoft Docs"
+title: "Rule with Rewrite Map - rule template"
 author: ruslany
 description: "Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL rewriter module includes several rule templ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/11/2008
-ms.topic: article
 ms.assetid: 286d2079-bda3-4991-a6a0-bad280527dde
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/rule-with-rewrite-map-rule-template
 msc.type: authoredcontent
 ---

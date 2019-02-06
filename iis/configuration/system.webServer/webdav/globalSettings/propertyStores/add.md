@@ -1,14 +1,9 @@
 ---
-title: "Adding WebDAV Property Stores &lt;add&gt; | Microsoft Docs"
+title: "Adding WebDAV Property Stores &lt;add&gt;"
 author: rick-anderson
 description: "Overview The WebDAV module is designed to support multiple property store providers, which are defined in the webdav/globalSettings/propertyStores collection..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: d84db0e5-7511-4794-bf8a-dd4f6b475ccc
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/webdav/globalsettings/propertystores/add
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "User Friendly URL - rule template | Microsoft Docs"
+title: "User Friendly URL - rule template"
 author: rick-anderson
 description: "Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL rewriter module includes several rule templ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/11/2008
-ms.topic: article
 ms.assetid: b78078fb-e762-4256-84eb-6d564f6475e0
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/user-friendly-url-rule-template
 msc.type: authoredcontent
 ---

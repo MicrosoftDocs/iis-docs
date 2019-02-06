@@ -1,14 +1,9 @@
 ---
-title: "FastCGI with PHP | Microsoft Docs"
+title: "FastCGI with PHP"
 author: ruslany
 description: "Overview The FastCGI support in IIS enables popular application frameworks that support FastCGI protocol to be hosted on the IIS web server in a high-perform..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: b9580403-5f10-4397-a8d0-daa76abd8379
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/fastcgi-with-php
 msc.type: authoredcontent
 ---

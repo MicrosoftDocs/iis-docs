@@ -1,14 +1,9 @@
 ---
-title: "Download and Install an ASP.NET Application | Microsoft Docs"
+title: "Download and Install an ASP.NET Application"
 author: rmcmurray
 description: "[This is preliminary documentation and is subject to change.] Overview This walkthrough shows the steps to download and install an ASP.NET application using..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 75e1bb5f-1d98-430d-8462-757248c41b89
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/using-webmatrix/download-and-install-an-aspnet-application
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "How to Secure the Microsoft Web Platform | Microsoft Docs"
+title: "How to Secure the Microsoft Web Platform"
 author: rick-anderson
 description: "Security is always a consideration; it is critical to make careful security considerations when you implement and maintain your Web sites, infrastructure, an..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: d4dd559d-5b26-4da8-a639-184b8742b2d2
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/how-to-secure-the-microsoft-web-platform
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Getting Started with IIS Smooth Streaming | Microsoft Docs"
+title: "Getting Started with IIS Smooth Streaming"
 author: rick-anderson
 description: "Applies To: IIS Media Services 4 The IIS Smooth Streaming extension for Internet Information Services (IIS) allows you to set up a Web server as a Smooth Str..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/23/2009
-ms.topic: article
 ms.assetid: 6cffa94b-2a3e-479d-9488-449d52ea79fa
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming
 msc.type: authoredcontent
 ---

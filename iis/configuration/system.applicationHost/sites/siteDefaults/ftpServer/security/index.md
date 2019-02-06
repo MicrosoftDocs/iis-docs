@@ -1,14 +1,9 @@
 ---
-title: "Default FTP Security Settings &lt;security&gt; | Microsoft Docs"
+title: "Default FTP Security Settings &lt;security&gt;"
 author: rick-anderson
 description: "Overview The &lt;security&gt; element defines the parent element for the security options of FTP sites, and contains the following child elements, which are..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 8bdb7296-ae05-497b-a2c6-e7c0044d67b2
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security
 msc.type: config
 ---

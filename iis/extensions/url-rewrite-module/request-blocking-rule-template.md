@@ -1,14 +1,9 @@
 ---
-title: "Request Blocking - rule template | Microsoft Docs"
+title: "Request Blocking - rule template"
 author: ruslany
 description: "Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL rewriter module includes several rule templ..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/11/2008
-ms.topic: article
 ms.assetid: d209e10d-400a-4c2c-b4d6-0826554a8c62
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/request-blocking-rule-template
 msc.type: authoredcontent
 ---

@@ -1,12 +1,9 @@
 ---
-title: "IIS Compression Overview | Microsoft Docs"
+title: "IIS Compression Overview"
 author: bangbingsyb
 description: "The article provides an overview of IIS Compression"
 ms.author: yashi
 ms.date: 05/15/2018
-ms.topic: article
-ms.technology: iis
-ms.prod: iis
 msc.type: authoredcontent
 ---
 

@@ -1,14 +1,9 @@
 ---
-title: "FTP Deny URL Sequences &lt;denyUrlSequences&gt; | Microsoft Docs"
+title: "FTP Deny URL Sequences &lt;denyUrlSequences&gt;"
 author: rick-anderson
 description: "Overview The &lt;denyUrlSequences&gt; element contains a collection of &lt;add&gt; elements that specify sequences of characters that IIS will deny, which he..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 22fabbf8-ac3f-4d51-b5e3-d4bf777ff1f1
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/requestfiltering/denyurlsequences
 msc.type: config
 ---

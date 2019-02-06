@@ -1,14 +1,9 @@
 ---
-title: "Analyzing Client Usage Data with IIS User Access Logging | Microsoft Docs"
+title: "Analyzing Client Usage Data with IIS User Access Logging"
 author: rmcmurray
 description: "User Access Logging (UAL) is a built-in feature of Windows Server 2012 which allows administrators to collect data about client usage."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/01/2013
-ms.topic: article
 ms.assetid: 2a1ef2b2-5e25-462c-bff5-0171490aca7a
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/analyzing-client-usage-data-with-iis-user-access-logging
 msc.type: authoredcontent
 ---

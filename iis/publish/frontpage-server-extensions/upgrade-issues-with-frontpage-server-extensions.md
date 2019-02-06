@@ -1,14 +1,9 @@
 ---
-title: "Upgrade Issues with FrontPage Server Extensions | Microsoft Docs"
+title: "Upgrade Issues with FrontPage Server Extensions"
 author: rmcmurray
 description: "When upgrading a computer that is running a previous version of IIS to Windows Vista ® or Windows Server ® 2008, the IIS web services will be disabled if the..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/16/2007
-ms.topic: article
 ms.assetid: 3c63718d-6635-4846-9656-ea561ef01e63
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/frontpage-server-extensions/upgrade-issues-with-frontpage-server-extensions
 msc.type: authoredcontent
 ---

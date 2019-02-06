@@ -1,14 +1,9 @@
 ---
-title: "HTTP Tracing &lt;httpTracing&gt; | Microsoft Docs"
+title: "HTTP Tracing &lt;httpTracing&gt;"
 author: rick-anderson
 description: "Overview The &lt;httpTracing&gt; element allows you to configure request-based event tracing for incoming IIS requests, and contains a &lt;traceUrls&gt; elem..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 5f338c6e-97f9-40cd-beb8-d6ac9528a185
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httptracing
 msc.type: config
 ---

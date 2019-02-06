@@ -1,14 +1,9 @@
 ---
-title: "Transforming On-Demand Smooth Streams to Apple HTTP Live Streams | Microsoft Docs"
+title: "Transforming On-Demand Smooth Streams to Apple HTTP Live Streams"
 author: rick-anderson
 description: "This article describes how to configure the default H.264 Smooth Streams to Apple HTTP Live Streams job template in IIS Transform Manager 1.0 to transform H...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/24/2012
-ms.topic: article
 ms.assetid: 8e1ad197-b235-4866-8490-510caa2be43e
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/transform-manager/transforming-on-demand-smooth-streams-to-apple-http-live-streams
 msc.type: authoredcontent
 ---

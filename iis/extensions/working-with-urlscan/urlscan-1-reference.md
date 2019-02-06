@@ -1,14 +1,9 @@
 ---
-title: "UrlScan 1 Reference | Microsoft Docs"
+title: "UrlScan 1 Reference"
 author: rmcmurray
 description: "Note : UrlScan 1.0 has been replaced by UrlScan 3.1 and should not be used. If you are using UrlScan 1.0, you should download and install the latest version...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/15/2010
-ms.topic: article
 ms.assetid: f0de02bb-1fed-45d5-a674-c398d6cdadc5
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/working-with-urlscan/urlscan-1-reference
 msc.type: authoredcontent
 ---

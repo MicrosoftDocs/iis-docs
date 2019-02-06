@@ -1,14 +1,9 @@
 ---
-title: "Configure an ASP.NET Website on IIS | Microsoft Docs"
+title: "Configure an ASP.NET Website on IIS"
 author: rick-anderson
 description: "To install an IIS web server and configure it for ASP.NET web applications, follow the steps listed: Install IIS and ASP.NET Modules, Configure ASP.NET Setti..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: 0944b8eb-4004-47a6-a86a-38205b2c6263
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-an-aspnet-website-on-iis/configure-an-asp-net-website-on-iis
 msc.type: authoredcontent
 ---

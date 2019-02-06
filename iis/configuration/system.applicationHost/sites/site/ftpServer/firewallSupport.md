@@ -1,14 +1,9 @@
 ---
-title: "FTP Firewall Support &lt;firewallSupport&gt; | Microsoft Docs"
+title: "FTP Firewall Support &lt;firewallSupport&gt;"
 author: rick-anderson
 description: "Overview The &lt;ftpServer/firewallSupport&gt; element of the &lt;site&gt; element is used to configure the way that the FTP service works with firewalls per..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 5c618cd7-8c67-49d5-b79d-540d3692b2e0
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/firewallsupport
 msc.type: config
 ---

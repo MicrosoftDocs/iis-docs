@@ -1,14 +1,9 @@
 ---
-title: "Default FTP over SSL Settings &lt;ssl&gt; | Microsoft Docs"
+title: "Default FTP over SSL Settings &lt;ssl&gt;"
 author: rick-anderson
 description: "Overview The &lt;ssl&gt; element specifies the FTP over Secure Sockets Layer (SSL) settings for the FTP service; FTP over SSL was first introduced for IIS 7..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 32477cb5-f8eb-485a-b95c-de0d4c629f5b
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/ssl
 msc.type: config
 ---

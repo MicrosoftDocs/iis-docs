@@ -1,14 +1,9 @@
 ---
-title: "FTP Log Files &lt;logFile&gt; | Microsoft Docs"
+title: "FTP Log Files &lt;logFile&gt;"
 author: rick-anderson
 description: "Overview The &lt;logFile&gt; element is used to configure the activity logging options for an FTP site. For example, you can enable or disable logging, speci..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: f807e017-e5ef-4950-8d84-6a4636e7cb47
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/logfile
 msc.type: config
 ---

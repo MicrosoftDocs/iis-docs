@@ -1,12 +1,9 @@
 ---
-title: "New Features Introduced  in IIS 10.0 Version 1709 | Microsoft Docs"
+title: "New Features Introduced  in IIS 10.0 Version 1709"
 author: shirhatti
 description: "The article introduces native HTTP Strict Transport Security (HSTS) support in IIS 10.0 version 1709."
 ms.author: soshir
 ms.date: 10/24/2017
-ms.topic: article
-ms.technology: iis
-ms.prod: iis
 msc.type: authoredcontent
 ---
 New Features Introduced  in IIS 10.0 Version 1709

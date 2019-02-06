@@ -1,14 +1,9 @@
 ---
-title: "FTP Host Name Support &lt;hostNameSupport&gt; | Microsoft Docs"
+title: "FTP Host Name Support &lt;hostNameSupport&gt;"
 author: rick-anderson
 description: "Overview The &lt;hostNameSupport&gt; element specifies domain name syntax is supported for virtual host names. FTP virtual host names were introduced in FTP..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: e199ba40-a105-4554-85fd-c54f17fbc761
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/serverruntime/hostnamesupport
 msc.type: config
 ---

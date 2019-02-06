@@ -1,14 +1,9 @@
 ---
-title: "Run Multiple Versions of PHP on IIS | Microsoft Docs"
+title: "Run Multiple Versions of PHP on IIS"
 author: rick-anderson
 description: "The ability to run multiple versions of PHP on one Internet Information Services (IIS) server can provide advantages when using the Microsoft ® Web Platform...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 48072e62-df8d-4278-866f-a68a4242e957
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/run-multiple-versions-of-php-on-iis
 msc.type: authoredcontent
 ---

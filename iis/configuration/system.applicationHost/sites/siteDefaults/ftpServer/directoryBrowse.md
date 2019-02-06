@@ -1,14 +1,9 @@
 ---
-title: "Default FTP Directory Browse Settings &lt;directoryBrowse&gt; | Microsoft Docs"
+title: "Default FTP Directory Browse Settings &lt;directoryBrowse&gt;"
 author: rick-anderson
 description: "Overview The &lt;directoryBrowse&gt; element is used to specify the content settings for directory browsing on FTP sites. When you configure directory browsi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 595419a9-a7fa-46e5-a977-c421ab5b6b02
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/directorybrowse
 msc.type: config
 ---

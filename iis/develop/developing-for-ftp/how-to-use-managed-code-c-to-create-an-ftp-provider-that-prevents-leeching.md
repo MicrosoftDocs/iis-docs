@@ -1,14 +1,9 @@
 ---
-title: "How to Use Managed Code (C#) to Create an FTP Provider that Prevents Leeching | Microsoft Docs"
+title: "How to Use Managed Code (C#) to Create an FTP Provider that Prevents Leeching"
 author: rmcmurray
 description: "[This documentation is preliminary and is subject to change.] Compatibility Version Notes IIS 8.0 The FTP 8.0 service is required for custom FTP event handli..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/20/2012
-ms.topic: article
 ms.assetid: a734a198-37e6-419a-acb6-a601409ebc35
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/developing-for-ftp/how-to-use-managed-code-c-to-create-an-ftp-provider-that-prevents-leeching
 msc.type: authoredcontent
 ---

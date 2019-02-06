@@ -1,14 +1,9 @@
 ---
-title: "Remote Manager for Windows 2003, XP and Vista SP1 | Microsoft Docs"
+title: "Remote Manager for Windows 2003, XP and Vista SP1"
 author: briandela
 description: "These requirements must be met in order to continue with the procedures in this article: You must have Windows Vista ® SP1 installed. You must have the Micro..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/10/2008
-ms.topic: article
 ms.assetid: e8674783-6bdd-463e-a764-f1813ebf3364
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/remote-administration/remote-manager-for-windows-2003-xp-and-vista-sp1
 msc.type: authoredcontent
 ---

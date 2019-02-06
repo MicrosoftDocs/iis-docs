@@ -1,14 +1,9 @@
 ---
-title: "Configuring Server Components | Microsoft Docs"
+title: "Configuring Server Components"
 author: walterov
 description: "For information on installing and configuring Server Components, see Configuring Servers under the topic 'Configuring Components' in the 'Hosting Guidance' h..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/21/2008
-ms.topic: article
 ms.assetid: 332d2652-c2be-4ec1-918d-72ce8c231bb8
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-components/configuring-server-components
 msc.type: authoredcontent
 ---

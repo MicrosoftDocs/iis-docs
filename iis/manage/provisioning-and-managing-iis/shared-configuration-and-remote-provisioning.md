@@ -1,14 +1,9 @@
 ---
-title: "Shared Configuration and Remote Provisioning | Microsoft Docs"
+title: "Shared Configuration and Remote Provisioning"
 author: walterov
 description: "When using the IIS 7 Shared Configuration featured in an environment where site provisioning tasks are driven from a remote machine, you can encounter what i..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/13/2007
-ms.topic: article
 ms.assetid: 4408306d-79cf-4666-87fe-a6bef6d05b68
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/provisioning-and-managing-iis/shared-configuration-and-remote-provisioning
 msc.type: authoredcontent
 ---

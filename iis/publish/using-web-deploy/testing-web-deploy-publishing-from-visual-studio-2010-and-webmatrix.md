@@ -1,14 +1,9 @@
 ---
-title: "Testing Web Deploy publishing from Visual Studio 2010 and WebMatrix | Microsoft Docs"
+title: "Testing Web Deploy publishing from Visual Studio 2010 and WebMatrix"
 author: rick-anderson
 description: "Summary So far, we have configured Web Deploy on a server so non-administrators can deploy content to a single site (Default Web Site) as well as databases...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/12/2011
-ms.topic: article
 ms.assetid: 8f5515fa-1885-46e6-918f-5578d79dcc3f
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-web-deploy/testing-web-deploy-publishing-from-visual-studio-2010-and-webmatrix
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Develop on IIS 7 | Microsoft Docs"
+title: "Develop on IIS 7"
 author: rick-anderson
 description: "The following articles provide information about developing on Internet Information Services 7 (IIS 7) and above. Use Development Tools Microsoft® Visual Stu..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 5ef68c30-c8cf-4988-9a6e-f05948bf1db6
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/running-php-applications-on-iis/develop-on-iis-7-and-above
 msc.type: authoredcontent
 ---

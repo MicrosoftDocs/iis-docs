@@ -1,14 +1,9 @@
 ---
-title: "Skipping Folders while Provisioning with Web Farm Framework 2.0 for IIS 7 | Microsoft Docs"
+title: "Skipping Folders while Provisioning with Web Farm Framework 2.0 for IIS 7"
 author: rick-anderson
 description: "Web Farm Framework enables you to control the provisioning of selected folders using its default synchronization provider. The default behavior of the provid..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/02/2011
-ms.topic: article
 ms.assetid: 5934bf1f-010f-420a-ac20-805a6342d593
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/microsoft-web-farm-framework-20-for-iis-7/skipping-folders-while-provisioning-with-web-farm-framework-20-for-iis
 msc.type: authoredcontent
 ---

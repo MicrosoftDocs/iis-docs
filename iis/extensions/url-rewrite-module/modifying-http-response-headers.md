@@ -1,14 +1,9 @@
 ---
-title: "Modifying HTTP Response Headers | Microsoft Docs"
+title: "Modifying HTTP Response Headers"
 author: ruslany
 description: "This section of the documentation applies to the URL Rewrite Module Version 2.0 for IIS 7. This walkthrough will guide you through how to use URL Rewrite Mo..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/06/2009
-ms.topic: article
 ms.assetid: 132a56b5-7308-4c9a-ba67-e9550783bd52
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/modifying-http-response-headers
 msc.type: authoredcontent
 ---

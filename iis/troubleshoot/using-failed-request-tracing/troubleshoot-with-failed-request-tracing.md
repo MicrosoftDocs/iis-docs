@@ -1,14 +1,9 @@
 ---
-title: "Troubleshoot with Failed Request Tracing | Microsoft Docs"
+title: "Troubleshoot with Failed Request Tracing"
 author: rick-anderson
 description: "When running PHP, it is sometimes not possible to inspect an error page to diagnose an error condition. This can happen if: You do not know which URL is expe..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: c7947671-74a4-41e0-bab7-eb589d7f2c72
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/using-failed-request-tracing/troubleshoot-with-failed-request-tracing
 msc.type: authoredcontent
 ---

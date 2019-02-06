@@ -1,14 +1,9 @@
 ---
-title: "WebDAV Extension - Video Walkthrough | Microsoft Docs"
+title: "WebDAV Extension - Video Walkthrough"
 author: rick-anderson
 description: "This video demonstrates how to configure and use Microsoft WebDAV Module for IIS 7.0 to perform the following tasks: Enabling WebDAV publishing for existing..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/05/2008
-ms.topic: article
 ms.assetid: b4cafb64-1175-4abd-ba6c-9bb5e0c472e9
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-webdav/webdav-extension-video-walkthrough
 msc.type: video
 ---

@@ -1,14 +1,9 @@
 ---
-title: "SilverStripe CMS FAQ | Microsoft Docs"
+title: "SilverStripe CMS FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 376a2ffa-1dde-4527-9f83-1bfcd276d8b6
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/silverstripe-cms-faq
 msc.type: authoredcontent
 ---

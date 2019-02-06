@@ -1,14 +1,9 @@
 ---
-title: "Web Playlists for IIS 7 - Serving Media Content From User Folders | Microsoft Docs"
+title: "Web Playlists for IIS 7 - Serving Media Content From User Folders"
 author: rick-anderson
 description: "You can serve media assets referenced in Web playlist files (files with .isx file name extensions), provided that the files are stored in folders on the Web..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/24/2008
-ms.topic: article
 ms.assetid: 5f16a2b2-62cd-45fa-b119-2cae3cc52735
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/web-playlists/web-playlists-for-iis-serving-media-content-from-user-folders
 msc.type: authoredcontent
 ---

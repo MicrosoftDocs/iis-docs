@@ -1,14 +1,9 @@
 ---
-title: "Delete Cached Objects | Microsoft Docs"
+title: "Delete Cached Objects"
 author: rick-anderson
 description: "This section of the documentation applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To successfully remove cached content..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: 2a1b1c8a-118a-4d69-b787-2e6c18e9feeb
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/delete-cached-objects
 msc.type: authoredcontent
 ---

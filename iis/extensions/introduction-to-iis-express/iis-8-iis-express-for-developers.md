@@ -1,14 +1,9 @@
 ---
-title: "IIS 8 - IIS Express for Developers | Microsoft Docs"
+title: "IIS 8 - IIS Express for Developers"
 author: rmcmurray
 description: "Robert McMurray gives an overview of IIS Express."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/19/2013
-ms.topic: article
 ms.assetid: 7f3b4fab-8149-4217-ac70-7a1e05a17226
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/introduction-to-iis-express/iis-8-iis-express-for-developers
 msc.type: video
 ---

@@ -1,14 +1,9 @@
 ---
-title: "How to Enable Failed Request Tracing for UNC Hosting | Microsoft Docs"
+title: "How to Enable Failed Request Tracing for UNC Hosting"
 author: rick-anderson
 description: "Placing application content and code on a UNC share for hosting scenarios is increasingly important on web application servers. In hosting scenarios, it is i..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: 747b3570-6016-4a81-8b07-45e6bad0ff39
-ms.technology: iis-troubleshoot
-ms.prod: iis
 msc.legacyurl: /learn/troubleshoot/using-failed-request-tracing/how-to-enable-failed-request-tracing-for-unc-hosting
 msc.type: authoredcontent
 ---

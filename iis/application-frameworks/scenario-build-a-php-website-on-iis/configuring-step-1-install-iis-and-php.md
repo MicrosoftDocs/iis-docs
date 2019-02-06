@@ -1,14 +1,9 @@
 ---
-title: "Configuring Step 1: Install IIS and PHP | Microsoft Docs"
+title: "Configuring Step 1: Install IIS and PHP"
 author: rmcmurray
 description: "In this step of building a PHP website, you install IIS and FastCGI, download and install PHP and the WinCache extension, and upload your PHP application."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: 73b8ec4b-7af9-482a-9fef-f0b8200926e7
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/configuring-step-1-install-iis-and-php
 msc.type: authoredcontent
 ---

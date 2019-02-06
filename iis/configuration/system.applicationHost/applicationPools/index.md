@@ -1,14 +1,9 @@
 ---
-title: "Application Pools &lt;applicationPools&gt; | Microsoft Docs"
+title: "Application Pools &lt;applicationPools&gt;"
 author: rick-anderson
 description: "Overview The &lt;applicationPools&gt; element contains configuration settings for all application pools running on your Internet Information Services (IIS) 7..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 85970b4d-9702-4af0-a154-0303230616c9
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools
 msc.type: config
 ---

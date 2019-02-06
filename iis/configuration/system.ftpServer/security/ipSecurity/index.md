@@ -1,14 +1,9 @@
 ---
-title: "FTP IP Security &lt;ipSecurity&gt; | Microsoft Docs"
+title: "FTP IP Security &lt;ipSecurity&gt;"
 author: rick-anderson
 description: "Overview The &lt;ipSecurity&gt; element defines a list of IP-based security restrictions in FTP 7. These restrictions can be based on the IP version 4 addres..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: fa7151f0-cebd-4925-a504-29ec6a3b38e7
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/ipsecurity
 msc.type: config
 ---

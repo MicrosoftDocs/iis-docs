@@ -1,5 +1,5 @@
 ---
-title: "Default HSTS settings for a Web Site &lt;hsts&gt; | Microsoft Docs"
+title: "Default HSTS settings for a Web Site &lt;hsts&gt;"
 author: bangbingsyb
 description: "Overview The &lt;hsts&gt; element of the &lt;siteDefaults&gt; element configures HSTS settings for a website"
 ms.author: bangbingsyb

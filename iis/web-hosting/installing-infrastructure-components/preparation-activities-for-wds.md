@@ -1,14 +1,9 @@
 ---
-title: "Preparation Activities for WDS | Microsoft Docs"
+title: "Preparation Activities for WDS"
 author: walterov
 description: "This article provides an overview of the preparation activities needed when deploying with Windows Deployment Services. The Deployment preparations activitie..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: ca577ecb-1d82-4e47-a4f9-3d41e702d3a8
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/preparation-activities-for-wds
 msc.type: authoredcontent
 ---

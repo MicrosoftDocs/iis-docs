@@ -1,14 +1,9 @@
 ---
-title: "FastCGI Application &lt;application&gt; | Microsoft Docs"
+title: "FastCGI Application &lt;application&gt;"
 author: rick-anderson
 description: "Overview The FastCGI &lt;application&gt; element contains the configurations settings for a specific FastCGI process pool definition. When FastCGI is used, I..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: d0d83adc-572d-49f3-8b65-6ba583aeb5ca
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/fastcgi/application
 msc.type: config
 ---

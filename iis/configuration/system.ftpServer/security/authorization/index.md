@@ -1,14 +1,9 @@
 ---
-title: "FTP Authorization &lt;authorization&gt; | Microsoft Docs"
+title: "FTP Authorization &lt;authorization&gt;"
 author: rick-anderson
 description: "Overview The &lt;authorization&gt; element allows you to configure the user accounts that can access your site or application. Use authorization in combinati..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: b4ce5d7f-6c7d-4cda-aebd-1a6dc04ca935
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/authorization
 msc.type: config
 ---

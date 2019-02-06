@@ -1,13 +1,9 @@
 ---
-title: "IIS Server Variables | Microsoft Docs"
+title: "IIS Server Variables"
 author: shirhatti
 description: "IIS Server Variables provide information about the server"
 ms.author: soshir
-manager: soshir
 ms.date: 03/11/2008
-ms.topic: article
-ms.technology: iis-hosting
-ms.prod: iis
 msc.type: authoredcontent
 ---
 IIS Server Variables

@@ -1,14 +1,9 @@
 ---
-title: "WebMatrix Publish and Download Troubleshooting | Microsoft Docs"
+title: "WebMatrix Publish and Download Troubleshooting"
 author: rick-anderson
 description: "Use this troubleshooting guide when you are run into problems with publishing or downloading sites in WebMatrix. Publishing Errors Bad gateway / proxy error..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 06/06/2012
-ms.topic: article
 ms.assetid: 681f566a-7879-4df4-b3ae-6c4b825b82d2
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/webmatrix-publish-and-download-troubleshooting
 msc.type: authoredcontent
 ---

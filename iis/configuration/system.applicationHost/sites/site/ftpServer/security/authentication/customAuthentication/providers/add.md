@@ -1,14 +1,9 @@
 ---
-title: "Adding FTP Custom Authentication Providers &lt;add&gt; | Microsoft Docs"
+title: "Adding FTP Custom Authentication Providers &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element adds a provider to the collection of custom authentication providers. When custom authentication providers are added to FTP..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 10e0f013-3e66-43d0-8ad2-1ffc0a79631e
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication/providers/add
 msc.type: config
 ---

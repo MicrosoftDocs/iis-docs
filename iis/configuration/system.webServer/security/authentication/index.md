@@ -1,14 +1,9 @@
 ---
-title: "Security Authentication &lt;authentication&gt; | Microsoft Docs"
+title: "Security Authentication &lt;authentication&gt;"
 author: rick-anderson
 description: "Overview Authentication is the mechanism you use to verify the identity of visitors to your Web site or Web application. Typically, you do this by assigning..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: b1f83ca8-7395-4f55-96e0-c589dba20f89
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication
 msc.type: config
 ---

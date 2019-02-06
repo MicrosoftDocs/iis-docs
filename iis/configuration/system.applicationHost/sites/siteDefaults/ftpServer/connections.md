@@ -1,14 +1,9 @@
 ---
-title: "Default FTP Connection Settings &lt;connections&gt; | Microsoft Docs"
+title: "Default FTP Connection Settings &lt;connections&gt;"
 author: rick-anderson
 description: "Overview The &lt;connections&gt; element specifies the connection-related settings for FTP sites. More specifically, the settings in the &lt;connections&gt;..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 33a52399-07b1-432b-9c4e-4634c8eaf0e5
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/connections
 msc.type: config
 ---

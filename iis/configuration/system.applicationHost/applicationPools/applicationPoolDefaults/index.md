@@ -1,14 +1,9 @@
 ---
-title: "Application Pool Defaults &lt;applicationPoolDefaults&gt; | Microsoft Docs"
+title: "Application Pool Defaults &lt;applicationPoolDefaults&gt;"
 author: rick-anderson
 description: "Overview The &lt;applicationPoolDefaults&gt; collection of the &lt;applicationPools&gt; collection configures default values for all application pools on a W..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: e99c3706-b442-473d-88cf-c272065872e6
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/applicationpooldefaults
 msc.type: config
 ---

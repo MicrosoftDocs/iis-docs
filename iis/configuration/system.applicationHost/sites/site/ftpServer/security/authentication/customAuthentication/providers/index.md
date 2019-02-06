@@ -1,14 +1,9 @@
 ---
-title: "FTP Custom Authentication Providers &lt;providers&gt; | Microsoft Docs"
+title: "FTP Custom Authentication Providers &lt;providers&gt;"
 author: rick-anderson
 description: "Overview The &lt;providers&gt; element specifies the collection of custom FTP authentication providers for an FTP site. When custom authentication providers..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: ef17b173-b68b-4dc1-9560-4f87b0548e95
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/site/ftpserver/security/authentication/customauthentication/providers
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Issues with SQL Server Express or MySQL when using WebMatrix or WebPI | Microsoft Docs"
+title: "Issues with SQL Server Express or MySQL when using WebMatrix or WebPI"
 author: chrissfanos
 description: "The following article will grow to cover issues when using SQL Server Express or MySQL and WebMatrix or WebPI (Web Platform Installer) Issue : The SA (SQL Ex..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/18/2012
-ms.topic: article
 ms.assetid: 24dcd427-0585-4afd-aa79-298f63a0d7f9
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/issues-with-sql-server-express-or-mysql-when-using-webmatrix-or-webpi_1298
 msc.type: authoredcontent
 ---

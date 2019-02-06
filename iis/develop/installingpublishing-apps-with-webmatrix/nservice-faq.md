@@ -1,14 +1,9 @@
 ---
-title: "nService FAQ | Microsoft Docs"
+title: "nService FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 6a66077a-b338-48bc-a336-90f43288401e
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/nservice-faq
 msc.type: authoredcontent
 ---

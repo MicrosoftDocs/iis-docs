@@ -1,14 +1,9 @@
 ---
-title: " &lt;system.ftpServer&gt; | Microsoft Docs"
+title: " &lt;system.ftpServer&gt;"
 author: rick-anderson
 description: "Overview The &lt;system.ftpServer&gt; element specifies the global-level and URL-level configuration settings for FTP 7 in the ApplicationHost.config file, a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: e6d08507-d023-47f5-9359-53bfb1183953
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver
 msc.type: config
 ---

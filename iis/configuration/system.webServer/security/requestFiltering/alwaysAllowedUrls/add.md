@@ -1,14 +1,9 @@
 ---
-title: "Adding URLs That Will Always Be Allowed &lt;add&gt; | Microsoft Docs"
+title: "Adding URLs That Will Always Be Allowed &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;alwaysAllowedUrls&gt; element specifies a unique URL that request filtering will always allow. The &lt;alwaysAllo..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: e3447704-ce26-4b64-af17-7a217b8f980d
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/alwaysallowedurls/add
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Adding FTP Command Filtering Entries &lt;add&gt; | Microsoft Docs"
+title: "Adding FTP Command Filtering Entries &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element adds a unique entry to the collection of FTP commands that the FTP service will allow or deny. Note : Special attention must..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 953b3dbd-2f08-40e3-bc67-3516848bb238
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/commandfiltering/add
 msc.type: config
 ---

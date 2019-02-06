@@ -4,9 +4,6 @@ author: shirhatti
 description: "Implement a scalable Web infrastructure with built-in HTTP-based load balancing and intelligent request handling and routing."
 ms.author: soshir
 ms.date: 3/6/2018
-ms.topic: article
-ms.technology: iis
-ms.prod: iis
 msc.type: authoredcontent
 ---
 Scalable Web Infrastructure

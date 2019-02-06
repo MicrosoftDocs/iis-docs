@@ -1,14 +1,9 @@
 ---
-title: "Adding Trace URLs &lt;add&gt; | Microsoft Docs"
+title: "Adding Trace URLs &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;traceUrls&gt; collection adds a trace URL to the collection of URLs for ETW tracing. Note : Event Tracing for Win..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 5e85ba6c-78bc-4730-b0ed-1d46e3a074bb
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httptracing/traceurls/add
 msc.type: config
 ---

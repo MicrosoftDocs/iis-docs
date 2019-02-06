@@ -1,14 +1,9 @@
 ---
-title: "pMachinePro on IIS | Microsoft Docs"
+title: "pMachinePro on IIS"
 author: rick-anderson
 description: "The application pMachine Pro is a popular open source blogging solution. It includes all the features of traditional blog tools, and supports multiple langua..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/18/2008
-ms.topic: article
 ms.assetid: 8ffe0ee7-c74c-4a6b-83aa-3ed6009e03fc
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/pmachinepro-on-iis
 msc.type: authoredcontent
 ---

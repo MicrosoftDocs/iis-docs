@@ -1,14 +1,9 @@
 ---
-title: "Custom Headers &lt;customHeaders&gt; | Microsoft Docs"
+title: "Custom Headers &lt;customHeaders&gt;"
 author: rick-anderson
 description: "Overview The &lt;customHeaders&gt; element of the &lt;httpProtocol&gt; element specifies custom HTTP headers that Internet Information Services (IIS) 7 will..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: c6cedc17-5db1-4a74-935f-ba286d203d3e
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httpprotocol/customheaders
 msc.type: config
 ---

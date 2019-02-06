@@ -1,14 +1,9 @@
 ---
-title: "Windows Media Server or Web Server? | Microsoft Docs"
+title: "Windows Media Server or Web Server?"
 author: rick-anderson
 description: "You can deliver digital media audio and video files and live streams either from a Windows Media server (a server that is running Windows Media Services) or..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/15/2008
-ms.topic: article
 ms.assetid: d92ee756-f427-4873-8248-46a174fc9ed0
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/windows-media-services/windows-media-server-or-web-server
 msc.type: authoredcontent
 ---

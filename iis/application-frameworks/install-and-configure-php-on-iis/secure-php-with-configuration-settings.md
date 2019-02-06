@@ -1,14 +1,9 @@
 ---
-title: "Secure PHP with Configuration Settings | Microsoft Docs"
+title: "Secure PHP with Configuration Settings"
 author: rick-anderson
 description: "PHP code can be embedded in your Web pages along with HTML code. When your Web server receives a request for a page, the page is first given to the PHP handl..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/15/2009
-ms.topic: article
 ms.assetid: 60b399b7-e8d9-4f0a-8fd8-37899808f69b
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-on-iis/secure-php-with-configuration-settings
 msc.type: authoredcontent
 ---

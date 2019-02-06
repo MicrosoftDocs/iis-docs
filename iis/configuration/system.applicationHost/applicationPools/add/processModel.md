@@ -1,14 +1,9 @@
 ---
-title: "Process Model Settings for an Application Pool &lt;processModel&gt; | Microsoft Docs"
+title: "Process Model Settings for an Application Pool &lt;processModel&gt;"
 author: rick-anderson
 description: "Overview By using the &lt;processModel&gt; element, you can configure many of the security, performance, health, and reliability features of application pool..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: d2283890-d0be-46e2-9c3a-1b7264e71f52
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/applicationpools/add/processmodel
 msc.type: config
 ---

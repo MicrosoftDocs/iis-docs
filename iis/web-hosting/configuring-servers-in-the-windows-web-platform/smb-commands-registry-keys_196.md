@@ -1,14 +1,9 @@
 ---
-title: "SMB Command Registry Keys | Microsoft Docs"
+title: "SMB Command Registry Keys"
 author: walterov
 description: "On Windows servers, each connection uses the identity of a unique user to connect to another server by using an SMB (Server Message Block) connection. A conn..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 12/01/2007
-ms.topic: article
 ms.assetid: cc346e62-1616-4fe5-a727-cb79308d3081
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/smb-commands-registry-keys_196
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "NBC Online Video Monetization and Highlights Creation for the Winter Olympics | Microsoft Docs"
+title: "NBC Online Video Monetization and Highlights Creation for the Winter Olympics"
 author: rick-anderson
 description: "The 2010 Winter Olympics in Vancouver marked the sixth of seven consecutive Olympic Games broadcast by NBC Universal and presented the opportunity to build o..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/02/2010
-ms.topic: article
 ms.assetid: 404796e3-f7ee-4441-b44b-4b148831ffc0
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming-events/nbc-online-video-monetization-and-highlights-creation-for-the-2010-winter-olympics
 msc.type: authoredcontent
 ---

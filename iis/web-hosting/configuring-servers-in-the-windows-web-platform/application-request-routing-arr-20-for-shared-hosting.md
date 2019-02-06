@@ -1,14 +1,9 @@
 ---
-title: "Application Request Routing (ARR) 2.0 for Shared Hosting | Microsoft Docs"
+title: "Application Request Routing (ARR) 2.0 for Shared Hosting"
 author: walterov
 description: "This topic is a guiding map for the information needed by hosters to: • Learn about the Application Request Routing (ARR) 2.0 feature of IIS 7 and above. • S..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/17/2009
-ms.topic: article
 ms.assetid: 4104911c-faa5-440b-aae7-d00b04aea234
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/application-request-routing-arr-20-for-shared-hosting
 msc.type: authoredcontent
 ---

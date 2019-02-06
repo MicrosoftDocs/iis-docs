@@ -1,14 +1,9 @@
 ---
-title: "Microsoft WebMatrix: Certificate errors during publishing | Microsoft Docs"
+title: "Microsoft WebMatrix: Certificate errors during publishing"
 author: bilalaslam
 description: "If you are publishing using Web Deploy, WebMatrix helps you publish your site securely by checking the certificate of the remote server and prompting you if..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/11/2010
-ms.topic: article
 ms.assetid: 8e6e3caf-c2a3-4bca-9879-229c3846c126
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/troubleshooting-webmatrix/microsoft-webmatrix-certificate-errors-during-publishing
 msc.type: authoredcontent
 ---

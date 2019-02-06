@@ -1,14 +1,9 @@
 ---
-title: "mojoPortal FAQ | Microsoft Docs"
+title: "mojoPortal FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 8d68812d-0a95-4464-bbbf-5034c65a5aa8
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/mojoportal-faq
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Smooth Streaming Primer | Microsoft Docs"
+title: "Smooth Streaming Primer"
 author: johndeu
 description: "Last Updated: August 2010 IIS Media Services, an integrated HTTP-based media delivery platform, delivers true HD (720p+) live and on-demand streaming, DVR f..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 08/16/2010
-ms.topic: article
 ms.assetid: a284773e-8001-4788-8c3f-c09f34ab133c
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/smooth-streaming/smooth-streaming-primer
 msc.type: authoredcontent
 ---

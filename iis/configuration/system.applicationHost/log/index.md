@@ -1,14 +1,9 @@
 ---
-title: "Log &lt;log&gt; | Microsoft Docs"
+title: "Log &lt;log&gt;"
 author: rick-anderson
 description: "Overview The &lt;log&gt; element specifies several global logging options for Internet Information Services (IIS) 7. For example, the centralLogFileMode attr..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 0e0cdf39-8046-44fb-980c-cbb81816eaf8
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/log
 msc.type: config
 ---

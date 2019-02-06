@@ -1,14 +1,9 @@
 ---
-title: "Default FTP Basic Authentication Settings &lt;basicAuthentication&gt; | Microsoft Docs"
+title: "Default FTP Basic Authentication Settings &lt;basicAuthentication&gt;"
 author: rick-anderson
 description: "Overview The &lt;basicAuthentication&gt; element specifies the settings for Basic authentication. This form of authentication requires that users valid user..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 47b63069-67a2-4c4b-bef4-7beb441f2533
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/ftpserver/security/authentication/basicauthentication
 msc.type: config
 ---

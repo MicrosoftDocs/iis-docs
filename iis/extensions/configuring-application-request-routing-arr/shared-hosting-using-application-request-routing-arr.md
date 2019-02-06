@@ -1,14 +1,9 @@
 ---
-title: "Shared Hosting Using Application Request Routing (ARR) | Microsoft Docs"
+title: "Shared Hosting Using Application Request Routing (ARR)"
 author: rick-anderson
 description: "Using Application Request Routing (ARR) in a shared hosting environment introduces a new deployment architecture that provides additional benefits and opport..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/02/2008
-ms.topic: article
 ms.assetid: 430a0892-9b7f-4391-9b10-0b6d71c32381
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/shared-hosting-using-application-request-routing-arr
 msc.type: authoredcontent
 ---

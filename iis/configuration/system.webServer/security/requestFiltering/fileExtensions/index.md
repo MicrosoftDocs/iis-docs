@@ -1,14 +1,9 @@
 ---
-title: "File Name Extensions &lt;fileExtensions&gt; | Microsoft Docs"
+title: "File Name Extensions &lt;fileExtensions&gt;"
 author: rick-anderson
 description: "Overview The &lt;fileExtensions&gt; element contains a collection of &lt;add&gt; elements that specify unique file name extensions that IIS will either allow..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: c42b79be-4623-4844-a15e-0156688c9d93
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/fileextensions
 msc.type: config
 ---

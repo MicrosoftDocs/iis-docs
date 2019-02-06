@@ -1,14 +1,9 @@
 ---
-title: "Install Zen Cart on IIS | Microsoft Docs"
+title: "Install Zen Cart on IIS"
 author: rick-anderson
 description: "Zen Cart is a PHP-based, open-source online store management system. It uses a MySQL database and HTML components. Support is provided for several languages..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/15/2008
-ms.topic: article
 ms.assetid: 5500e35b-b189-46dd-aa51-a222ef773b82
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/install-zen-cart-on-iis
 msc.type: authoredcontent
 ---

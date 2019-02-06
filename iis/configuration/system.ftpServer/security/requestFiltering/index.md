@@ -1,14 +1,9 @@
 ---
-title: "FTP Request Filtering &lt;requestFiltering&gt; | Microsoft Docs"
+title: "FTP Request Filtering &lt;requestFiltering&gt;"
 author: rick-anderson
 description: "Overview FTP Request Filtering is a built-in security feature that was introduced in FTP 7, and is roughly analogous to the functionality that was available..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 721620b1-b4e6-4f90-9c90-4525384554f1
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/requestfiltering
 msc.type: config
 ---

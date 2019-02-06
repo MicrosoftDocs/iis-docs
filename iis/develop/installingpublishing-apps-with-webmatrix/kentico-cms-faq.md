@@ -1,14 +1,9 @@
 ---
-title: "Kentico CMS FAQ | Microsoft Docs"
+title: "Kentico CMS FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 3131eb91-0922-4349-a88e-67bec389f74a
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/kentico-cms-faq
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Adding Many-To-One Mappings &lt;add&gt; | Microsoft Docs"
+title: "Adding Many-To-One Mappings &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;manyToOneMappings&gt; element adds unique client certificate mappings to the collection of many-to-one mappings...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 82e36935-5d0f-48f2-9922-22ec544067aa
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/authentication/iisclientcertificatemappingauthentication/manytoonemappings/add
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Verifying the Developer Experience - ASP.NET | Microsoft Docs"
+title: "Verifying the Developer Experience - ASP.NET"
 author: walterov
 description: "Introduction This walkthrough is intended to help hosters verify that their customers can use the Windows Web Platform tools and services to download, custom..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/18/2009
-ms.topic: article
 ms.assetid: 2f417b96-4bdb-49c5-895a-5cb474a0863a
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/verifying-the-deployment/verifying-the-developer-experience-aspnet
 msc.type: authoredcontent
 ---

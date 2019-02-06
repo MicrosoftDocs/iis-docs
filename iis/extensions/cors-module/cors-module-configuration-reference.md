@@ -1,13 +1,9 @@
 ---
-title: "CORS Module Configuration Reference | Microsoft Docs"
+title: "CORS Module Configuration Reference"
 author: jhkimnew
 description: "This article provides an overview of the IIS CORS module and explains the configuration of the module."
-ms.author: iiscontent
 ms.date: 09/19/2017
-ms.topic: article
 ms.assetid:
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl:
 msc.type: authoredcontent
 ---

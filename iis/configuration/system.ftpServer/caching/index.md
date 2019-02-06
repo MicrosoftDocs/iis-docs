@@ -1,14 +1,9 @@
 ---
-title: "FTP Caching &lt;caching&gt; | Microsoft Docs"
+title: "FTP Caching &lt;caching&gt;"
 author: rick-anderson
 description: "Overview The &lt;caching&gt; element specifies the credential settings for the FTP service. The FTP service caches user credentials for performance reasons,..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 46de19ae-6674-4144-9a39-cb23b6bc0617
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/caching
 msc.type: config
 ---

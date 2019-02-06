@@ -1,14 +1,9 @@
 ---
-title: "IIS 7.0 on Server Core | Microsoft Docs"
+title: "IIS 7.0 on Server Core"
 author: tobint
 description: "As you may know from TechEd 2007 announcements and a Bill Staples' blog post, IIS 7.0 is supported on the Server Core installation option of Windows Server..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/16/2007
-ms.topic: article
 ms.assetid: f7b99d1e-868f-4bb7-8968-a93550f248f2
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/working-with-server-core/iis-70-on-server-core
 msc.type: authoredcontent
 ---

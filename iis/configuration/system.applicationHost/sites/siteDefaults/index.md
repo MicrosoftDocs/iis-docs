@@ -1,14 +1,9 @@
 ---
-title: "Default Settings for All Sites &lt;siteDefaults&gt; | Microsoft Docs"
+title: "Default Settings for All Sites &lt;siteDefaults&gt;"
 author: rick-anderson
 description: "Overview The &lt;siteDefaults&gt; element specifies default settings for all sites on the server. These settings are useful when you want to specify options..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: bc1dce1f-21a6-4a6c-a518-35fb7fde1f28
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults
 msc.type: config
 ---

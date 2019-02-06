@@ -1,14 +1,9 @@
 ---
-title: "Managing IIS on Windows Azure via Remote Desktop | Microsoft Docs"
+title: "Managing IIS on Windows Azure via Remote Desktop"
 author: thomasdeml
 description: "Introduction Since November 2010 Windows Azure allows you to connect to your role via Remote Desktop. Managing IIS on these Windows Azure instances is most o..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 10/29/2010
-ms.topic: article
 ms.assetid: 815f95c5-2219-4ad3-9dee-14afd15adc5d
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/hosting-the-microsoft-web-platform-on-windows-azure/managing-iis-on-windows-azure-via-remote-desktop
 msc.type: authoredcontent
 ---

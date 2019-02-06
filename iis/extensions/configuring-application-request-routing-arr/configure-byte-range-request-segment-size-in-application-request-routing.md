@@ -1,14 +1,9 @@
 ---
-title: "Configure Byte-range Request Segment Size in Application Request Routing | Microsoft Docs"
+title: "Configure Byte-range Request Segment Size in Application Request Routing"
 author: rick-anderson
 description: "This section of the document applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To understand and configure how Application..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/16/2009
-ms.topic: article
 ms.assetid: cb1641e4-53b0-491b-8a54-245997e25d18
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/configure-byte-range-request-segment-size-in-application-request-routing
 msc.type: authoredcontent
 ---

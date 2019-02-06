@@ -1,14 +1,9 @@
 ---
-title: "Server Runtime &lt;serverRuntime&gt; | Microsoft Docs"
+title: "Server Runtime &lt;serverRuntime&gt;"
 author: rick-anderson
 description: "Overview The &lt;serverRuntime&gt; element configures the following settings that are related to the Internet Information Services (IIS) 7 server runtime: Se..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: e645cbbb-33a4-4b5e-8d5a-052e604c8b83
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/serverruntime
 msc.type: config
 ---

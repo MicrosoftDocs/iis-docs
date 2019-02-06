@@ -4,9 +4,6 @@ author: shirhatti
 description: "IIS includes a comprehensive set of administration tools, including administration and command-line tools, managed code and scripting APIs, and Windows PowerShell support to simplify day-to-day tasks for developers and administrators."
 ms.author: soshir
 ms.date: 3/6/2018
-ms.topic: article
-ms.technology: iis
-ms.prod: iis
 msc.type: authoredcontent
 ---
 Powerful Admin Tools

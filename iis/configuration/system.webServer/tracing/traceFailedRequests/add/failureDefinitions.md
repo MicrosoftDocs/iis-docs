@@ -1,14 +1,9 @@
 ---
-title: "Failure Definitions &lt;failureDefinitions&gt; | Microsoft Docs"
+title: "Failure Definitions &lt;failureDefinitions&gt;"
 author: rick-anderson
 description: "Overview The &lt;failureDefinitions&gt; element defines the conditions in which to trace requests. A failure condition consists of status codes, a time inter..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: ca56cf8d-2a45-4341-a2a4-27df8d6b97bc
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/tracing/tracefailedrequests/add/failuredefinitions
 msc.type: config
 ---

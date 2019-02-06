@@ -1,14 +1,9 @@
 ---
-title: "Live Smooth Streaming Tutorial - Fundamentals | Microsoft Docs"
+title: "Live Smooth Streaming Tutorial - Fundamentals"
 author: rick-anderson
 description: "Part 2: Fundamentals. This is the second of a five-part series of videos that describes the process for creating, deploying, and managing an IIS Smooth Strea..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/24/2010
-ms.topic: article
 ms.assetid: 35681802-d59b-4207-8981-d0dba75dadc6
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/live-smooth-streaming-tutorial-fundamentals
 msc.type: video
 ---

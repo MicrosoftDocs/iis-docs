@@ -1,14 +1,9 @@
 ---
-title: "FTP Request Limits &lt;requestLimits&gt; | Microsoft Docs"
+title: "FTP Request Limits &lt;requestLimits&gt;"
 author: rick-anderson
 description: "Overview The &lt;requestLimits&gt; element specifies limits on FTP requests that are processed by the FTP server. These limits include the maximum size of a..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 9f1e9e24-057a-4558-97b7-9edb2b8fa646
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/requestfiltering/requestlimits
 msc.type: config
 ---

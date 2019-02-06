@@ -1,14 +1,9 @@
 ---
-title: "Adding Caching Profiles &lt;add&gt; | Microsoft Docs"
+title: "Adding Caching Profiles &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;profiles&gt; element adds an output caching profile to the collection of output caching profiles. Compatibility V..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: bb6eb895-411f-4c47-8fa7-2232016548ac
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/caching/profiles/add
 msc.type: config
 ---

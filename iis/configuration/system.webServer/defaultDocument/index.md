@@ -1,14 +1,9 @@
 ---
-title: "Default Document &lt;defaultDocument&gt; | Microsoft Docs"
+title: "Default Document &lt;defaultDocument&gt;"
 author: rick-anderson
 description: "Overview The &lt;defaultDocument&gt; element allows you to enable or disable default document behavior for your Web site or application. This element contain..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 49fde6c2-4b6b-499d-8eb0-fd2cba88cf24
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/defaultdocument
 msc.type: config
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Using the WebDAV Redirector | Microsoft Docs"
+title: "Using the WebDAV Redirector"
 author: rmcmurray
 description: "Introduction Microsoft has created a new WebDAV extension module that has been completely rewritten for Windows Server® 2008 and Windows Server 2008 R2. This..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/28/2014
-ms.topic: article
 ms.assetid: 4f3eb821-77e9-42cf-bc69-5aa759f45d28
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-webdav/using-the-webdav-redirector
 msc.type: authoredcontent
 ---

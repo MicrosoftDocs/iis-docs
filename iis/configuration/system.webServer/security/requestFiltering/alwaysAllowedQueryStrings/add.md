@@ -1,14 +1,9 @@
 ---
-title: "Adding Query Strings That Will Always Be Allowed &lt;add&gt; | Microsoft Docs"
+title: "Adding Query Strings That Will Always Be Allowed &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;alwaysAllowedQueryStrings&gt; element specifies a unique query string pattern that request filtering will allow...."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: d644c2cd-8fac-42be-b063-b96b6081029b
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/security/requestfiltering/alwaysallowedquerystrings/add
 msc.type: config
 ---

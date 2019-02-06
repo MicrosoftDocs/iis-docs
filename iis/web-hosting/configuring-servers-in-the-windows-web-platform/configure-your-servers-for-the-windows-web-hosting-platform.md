@@ -1,14 +1,9 @@
 ---
-title: "Configure your Servers for the Windows Web Hosting Platform | Microsoft Docs"
+title: "Configure your Servers for the Windows Web Hosting Platform"
 author: rmcmurray
 description: "The Microsoft Web Platform gives you the framework, web server, database and tools your customers need to build and run Web sites and applications on Windows..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 08/24/2012
-ms.topic: article
 ms.assetid: 1b984754-3cc1-4352-8d2f-7de6df40b10b
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/configuring-servers-in-the-windows-web-platform/configure-your-servers-for-the-windows-web-hosting-platform
 msc.type: authoredcontent
 ---

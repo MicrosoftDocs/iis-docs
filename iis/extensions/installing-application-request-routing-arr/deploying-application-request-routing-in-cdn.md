@@ -1,14 +1,9 @@
 ---
-title: "Deploying Application Request Routing in CDN | Microsoft Docs"
+title: "Deploying Application Request Routing in CDN"
 author: rick-anderson
 description: "This section of the document applies to Microsoft Application Request Routing Version 2 for IIS 7 and Above. Goal To successfully configure a child/edge cach..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/16/2009
-ms.topic: article
 ms.assetid: a0f0fe49-9830-4ded-a65f-ffb9ab6e7707
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/installing-application-request-routing-arr/deploying-application-request-routing-in-cdn
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Use the Database Manager | Microsoft Docs"
+title: "Use the Database Manager"
 author: rick-anderson
 description: "Introduction Database Manager is a new Internet Information Systems 7 (IIS 7) module specifically designed for the management of databases located in hosting..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: 0f1cf53c-5496-4b44-a80e-c7e513f23aaf
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/database-manager/use-the-database-manager
 msc.type: authoredcontent
 ---

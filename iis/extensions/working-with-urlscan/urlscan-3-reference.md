@@ -1,14 +1,9 @@
 ---
-title: "UrlScan 3 Reference | Microsoft Docs"
+title: "UrlScan 3 Reference"
 author: rmcmurray
 description: "Note : UrlScan 3.0 has been replaced by UrlScan 3.1. If you are using UrlScan 3.0, you should download and install the latest version. Microsoft released Url..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/15/2010
-ms.topic: article
 ms.assetid: 919552f3-f3ec-4fde-aa55-85e5ee3b5164
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/working-with-urlscan/urlscan-3-reference
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "phpBB FAQ | Microsoft Docs"
+title: "phpBB FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: ed03be9b-b0b1-4845-bb4e-b1355989af0d
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/phpbb-faq
 msc.type: authoredcontent
 ---

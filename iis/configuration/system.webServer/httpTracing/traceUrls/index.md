@@ -1,14 +1,9 @@
 ---
-title: "Trace URLs &lt;traceUrls&gt; | Microsoft Docs"
+title: "Trace URLs &lt;traceUrls&gt;"
 author: rick-anderson
 description: "Overview The &lt;traceUrls&gt; element contains a collection of &lt;add&gt; elements, each of which defines a URL to enable tracing. Note : Event Tracing for..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 557cdc56-b4c4-4c70-971d-d87adc571a6c
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/httptracing/traceurls
 msc.type: config
 ---

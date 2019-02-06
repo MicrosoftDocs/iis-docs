@@ -1,14 +1,9 @@
 ---
-title: "Caching &lt;caching&gt; | Microsoft Docs"
+title: "Caching &lt;caching&gt;"
 author: rick-anderson
 description: "Overview The &lt;caching&gt; element allows you to enable or disable page output caching for an Internet Information Services (IIS) 7 application. This eleme..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 0ed34615-896b-477e-8d10-2c2e09f464db
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/caching
 msc.type: config
 ---

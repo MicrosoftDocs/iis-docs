@@ -1,14 +1,9 @@
 ---
-title: "PHPList on IIS | Microsoft Docs"
+title: "PHPList on IIS"
 author: rick-anderson
 description: "Introduction PHPList is an open-source newsletter manager and one-way email announcement delivery system. It is effective for newsletters, publicity lists, n..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/17/2008
-ms.topic: article
 ms.assetid: 6869bc34-44d6-4d2b-ada2-7ff44836eb5f
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/install-and-configure-php-applications-on-iis/phplist-on-iis
 msc.type: authoredcontent
 ---

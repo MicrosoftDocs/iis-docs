@@ -1,14 +1,9 @@
 ---
-title: "DNS Server | Microsoft Docs"
+title: "DNS Server"
 author: walterov
 description: "You must have a working Dynamic Name Services (DNS) server on the network to run Windows Deployment Services. Administrators may choose to dedicate an entire..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/22/2008
-ms.topic: article
 ms.assetid: a0831f7f-21b0-4bbf-b29f-ec8c70b204d5
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/installing-infrastructure-components/dns-server
 msc.type: authoredcontent
 ---

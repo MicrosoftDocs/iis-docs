@@ -1,14 +1,9 @@
 ---
-title: "Adding Administrator Providers &lt;add&gt; (Deprecated) | Microsoft Docs"
+title: "Adding Administrator Providers &lt;add&gt; (Deprecated)"
 author: rick-anderson
 description: "Note Note : Do not use. This element has been deprecated. Use system.webServer/management instead."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 3191c33a-4767-4ccf-b74f-4634d0eb7588
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/administratorsproviders/add
 msc.type: config
 ---

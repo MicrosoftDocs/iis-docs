@@ -1,14 +1,9 @@
 ---
-title: "Planning Step 1: Plan IIS Web Server and PHP Installation | Microsoft Docs"
+title: "Planning Step 1: Plan IIS Web Server and PHP Installation"
 author: rmcmurray
 description: "The first step in planning to build a PHP website on IIS 8 is to determine how to install IIS along with the CGI module, where to download and install the ap..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 04/14/2013
-ms.topic: article
 ms.assetid: b484d7e9-eedf-4ea3-90be-5c14a0f5201d
-ms.technology: iis-appfx
-ms.prod: iis
 msc.legacyurl: /learn/application-frameworks/scenario-build-a-php-website-on-iis/planning-step-1-plan-iis-web-server-and-php-installation
 msc.type: authoredcontent
 ---

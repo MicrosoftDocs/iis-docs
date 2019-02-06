@@ -1,14 +1,9 @@
 ---
-title: "SEO Rule Templates | Microsoft Docs"
+title: "SEO Rule Templates"
 author: ruslany
 description: "Rule templates are used to provide a simple way of creating one or more rewrite rules for a certain scenario. URL Rewrite Module 2 includes several rule temp..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/11/2010
-ms.topic: article
 ms.assetid: b1442d95-ba74-4810-87e6-359d94ab3787
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/url-rewrite-module/seo-rule-templates
 msc.type: authoredcontent
 ---

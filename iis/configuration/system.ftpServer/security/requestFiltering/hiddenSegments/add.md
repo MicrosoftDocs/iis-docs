@@ -1,14 +1,9 @@
 ---
-title: "Adding FTP Hidden Segments &lt;add&gt; | Microsoft Docs"
+title: "Adding FTP Hidden Segments &lt;add&gt;"
 author: rick-anderson
 description: "Overview The &lt;add&gt; element of the &lt;hiddenSegments&gt; collection specifies a unique URL segment to add to the collection of hidden segments for FTP..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 1c579158-5b2a-4f47-9b75-b16da57d2806
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.ftpserver/security/requestfiltering/hiddensegments/add
 msc.type: config
 ---

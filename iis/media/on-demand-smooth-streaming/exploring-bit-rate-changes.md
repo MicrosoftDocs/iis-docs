@@ -1,14 +1,9 @@
 ---
-title: "Exploring Bit Rate Changes | Microsoft Docs"
+title: "Exploring Bit Rate Changes"
 author: rick-anderson
 description: "Applies To: IIS Media Services 4, IIS Media Services 3.0 To create Smooth Streaming presentations, source content is encoded at several quality levels (bit r..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/23/2009
-ms.topic: article
 ms.assetid: 366320bb-f099-4f1d-9842-245c64c4ec58
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/on-demand-smooth-streaming/exploring-bit-rate-changes
 msc.type: authoredcontent
 ---

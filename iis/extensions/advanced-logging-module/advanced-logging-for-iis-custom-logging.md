@@ -1,14 +1,9 @@
 ---
-title: "Advanced Logging for IIS - Custom Logging | Microsoft Docs"
+title: "Advanced Logging for IIS - Custom Logging"
 author: rick-anderson
 description: "IIS Advanced Logging provides tremendous flexibility in logging user requests and client data. Advanced Logging doesn't assume what's important to you. Inste..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: 88378b76-cb79-4b74-b07d-e293e709e4d1
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/advanced-logging-module/advanced-logging-for-iis-custom-logging
 msc.type: authoredcontent
 ---

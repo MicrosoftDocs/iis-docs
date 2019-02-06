@@ -1,14 +1,9 @@
 ---
-title: "Using FTP Over SSL in IIS 7 | Microsoft Docs"
+title: "Using FTP Over SSL in IIS 7"
 author: rmcmurray
 description: "Version Notes IIS 7.5 The FTP 7.5 service ships as a feature for IIS 7.5 in Windows 7 and Windows Server 2008 R2. IIS 7.0 The FTP 7.0 and FTP 7.5 services we..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/15/2008
-ms.topic: article
 ms.assetid: 437f03a2-abe5-4e33-81ad-5832c8211f62
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/using-the-ftp-service/using-ftp-over-ssl-in-iis-7
 msc.type: authoredcontent
 ---

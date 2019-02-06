@@ -1,14 +1,9 @@
 ---
-title: "Sample: Image Watermark Module | Microsoft Docs"
+title: "Sample: Image Watermark Module"
 author: fabioy
 description: "This is a sample of how to write a native (C++) module that will dynamically insert an user-configured watermark into an image being served, as well as how t..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 05/21/2008
-ms.topic: article
 ms.assetid: ec5755cd-8a66-44c1-b94e-dbde807c3072
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/runtime-extensibility/sample-image-watermark-module
 msc.type: authoredcontent
 ---

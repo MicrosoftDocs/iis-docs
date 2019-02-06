@@ -1,14 +1,9 @@
 ---
-title: "URL Rewrite for Hosting Providers | Microsoft Docs"
+title: "URL Rewrite for Hosting Providers"
 author: walterov
 description: "The purpose of this article is to provide a guiding map to the various resources available for hosters who are learning about and deploying the IIS URL Rewri..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 01/13/2009
-ms.topic: article
 ms.assetid: 3f0328f1-7d09-462c-a3f1-eee61c7bff2b
-ms.technology: iis-hosting
-ms.prod: iis
 msc.legacyurl: /learn/web-hosting/web-server-for-shared-hosting/url-rewrite-for-hosting-providers
 msc.type: authoredcontent
 ---

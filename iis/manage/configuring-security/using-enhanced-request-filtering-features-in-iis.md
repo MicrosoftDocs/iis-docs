@@ -1,14 +1,9 @@
 ---
-title: "Using Enhanced Request Filtering Features in IIS7 | Microsoft Docs"
+title: "Using Enhanced Request Filtering Features in IIS7"
 author: rick-anderson
 description: "This article provides a list of common usage scenarios for enhanced Request Filtering features, which is shipped with Windows Server 2008 SP2 or can be downl..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/30/2008
-ms.topic: article
 ms.assetid: ed011e8b-e721-41b3-8e50-56cde29cfafa
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/using-enhanced-request-filtering-features-in-iis
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Use Request Filtering | Microsoft Docs"
+title: "Use Request Filtering"
 author: rick-anderson
 description: "UrlScan, a security tool, was provided as an add-on to earlier versions of Internet Information Services (IIS) so administrators could enforce tighter securi..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/22/2007
-ms.topic: article
 ms.assetid: 240d711d-011b-4419-8560-6af44b339ba2
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/configuring-security/use-request-filtering
 msc.type: authoredcontent
 ---

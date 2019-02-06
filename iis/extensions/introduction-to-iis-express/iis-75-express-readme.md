@@ -1,14 +1,9 @@
 ---
-title: "IIS 7.5 Express Readme | Microsoft Docs"
+title: "IIS 7.5 Express Readme"
 author: vaidy4github
 description: "Overview Installation Using IIS 7.5 Express Supported Platforms and Architectures Changes to IIS 7.5 Express Known Issues and Limitations For More Informatio..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 02/26/2012
-ms.topic: article
 ms.assetid: 0bf2cd97-4f8d-4b4e-b291-1d9256032a3b
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/introduction-to-iis-express/iis-75-express-readme
 msc.type: authoredcontent
 ---

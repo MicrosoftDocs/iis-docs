@@ -1,14 +1,9 @@
 ---
-title: "Gallery Server Pro sample files | Microsoft Docs"
+title: "Gallery Server Pro sample files"
 author: rick-anderson
 description: "This is a set of sample files you could use with Gallery Server Pro and the Web Deployment tool for deploying Gallery Server Pro on IIS. You can include a cu..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/21/2009
-ms.topic: article
 ms.assetid: a0991296-04e5-4a8a-8d67-8a79d6754405
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/windows-web-application-gallery/gallery-server-pro-sample-files
 msc.type: authoredcontent
 ---

@@ -1,14 +1,9 @@
 ---
-title: "Getting Started with IIS Live Smooth Streaming | Microsoft Docs"
+title: "Getting Started with IIS Live Smooth Streaming"
 author: rick-anderson
 description: "Applies To: IIS Media Services 4 The IIS Live Smooth Streaming extension for Internet Information Services (IIS) allows you to set up a web server as a Live..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/18/2009
-ms.topic: article
 ms.assetid: 22eddbff-8b84-4aaf-871b-df516747e155
-ms.technology: iis-media
-ms.prod: iis
 msc.legacyurl: /learn/media/live-smooth-streaming/getting-started-with-iis-live-smooth-streaming
 msc.type: authoredcontent
 ---

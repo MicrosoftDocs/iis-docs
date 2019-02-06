@@ -1,14 +1,9 @@
 ---
-title: "Deploying Joomla! via Packages in a Hosting Environment | Microsoft Docs"
+title: "Deploying Joomla! via Packages in a Hosting Environment"
 author: simtan
 description: "Introduction Joomla! is an open source content management system (CMS) for publishing content to the World Wide Web and intranets. This document provides ste..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 03/10/2011
-ms.topic: article
 ms.assetid: 7816c14c-a519-4fd4-8313-1cbb0baea7f8
-ms.technology: iis-publish
-ms.prod: iis
 msc.legacyurl: /learn/publish/deploying-application-packages/deploying-joomla-via-packages-in-a-hosting-environment
 msc.type: authoredcontent
 ---

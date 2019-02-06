@@ -1,14 +1,9 @@
 ---
-title: "Umbraco CMS FAQ | Microsoft Docs"
+title: "Umbraco CMS FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: 03d91b1a-9581-43bc-b960-7a66c18da397
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/umbraco-cms-faq
 msc.type: authoredcontent
 ---

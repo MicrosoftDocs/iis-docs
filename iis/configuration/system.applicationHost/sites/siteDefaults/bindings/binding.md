@@ -1,14 +1,9 @@
 ---
-title: "Adding a Default Binding &lt;binding&gt; | Microsoft Docs"
+title: "Adding a Default Binding &lt;binding&gt;"
 author: rick-anderson
 description: "Overview The &lt;binding&gt; element of the &lt;bindings&gt; element allows you to configure the information required for requests to communicate with a Web..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 7cefb7df-ea23-4d81-b5a7-ebaff5d5028a
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.applicationhost/sites/sitedefaults/bindings/binding
 msc.type: config
 ---

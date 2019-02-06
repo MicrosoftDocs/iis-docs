@@ -1,14 +1,9 @@
 ---
-title: "Configure 3-tier deployment architecture using Application Request Routing | Microsoft Docs"
+title: "Configure 3-tier deployment architecture using Application Request Routing"
 author: rick-anderson
 description: "This topic leads you through the steps to configure a 3-tier deployment architecture using Application Request Routing. The 3-tier deployment architecture co..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/02/2008
-ms.topic: article
 ms.assetid: 5097d6a0-2a9b-4782-a56f-b130a923f943
-ms.technology: iis-extensions
-ms.prod: iis
 msc.legacyurl: /learn/extensions/configuring-application-request-routing-arr/configure-3-tier-deployment-architecture-using-application-request-routing
 msc.type: authoredcontent
 ---

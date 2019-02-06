@@ -1,14 +1,9 @@
 ---
-title: "An Overview of Feature Delegation in IIS 7.0 | Microsoft Docs"
+title: "An Overview of Feature Delegation in IIS 7.0"
 author: rick-anderson
 description: "IIS feature delegation will interest you if you are one of the following: A server administrator and you are not the primary person providing content on your..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 11/23/2007
-ms.topic: article
 ms.assetid: 71177eb8-d772-42e0-a187-2cf3e5485a45
-ms.technology: iis-manage
-ms.prod: iis
 msc.legacyurl: /learn/manage/managing-your-configuration-settings/an-overview-of-feature-delegation-in-iis
 msc.type: authoredcontent
 ---

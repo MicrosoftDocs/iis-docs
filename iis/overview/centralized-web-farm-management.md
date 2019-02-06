@@ -4,9 +4,6 @@ author: shirhatti
 description: "IIS makes it simple to centrally deploy and manage configuration and content across a farm of Web servers."
 ms.author: soshir
 ms.date: 3/6/2018
-ms.topic: article
-ms.technology: iis
-ms.prod: iis
 msc.type: authoredcontent
 ---
 

@@ -1,14 +1,9 @@
 ---
-title: "Adding Areas &lt;add&gt; | Microsoft Docs"
+title: "Adding Areas &lt;add&gt;"
 author: rick-anderson
 description: "Overview Each &lt;add&gt; element in the &lt;areas&gt; collection adds a function area for a provider to trace. Compatibility Version Notes IIS 10.0 The &lt;..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 09/26/2016
-ms.topic: article
 ms.assetid: 3daacf19-12d9-4f99-a7ce-4e133b53198f
-ms.technology: iis-config
-ms.prod: iis
 msc.legacyurl: /configreference/system.webserver/tracing/traceproviderdefinitions/add/areas/add
 msc.type: config
 ---

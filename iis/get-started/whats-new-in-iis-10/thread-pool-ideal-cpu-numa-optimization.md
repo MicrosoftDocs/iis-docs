@@ -1,12 +1,9 @@
 ---
-title: "IIS Thread Pool Ideal CPU Optimization for NUMA hardware | Microsoft Docs"
+title: "IIS Thread Pool Ideal CPU Optimization for NUMA hardware"
 author: bangbingsyb
 description: "IIS 10.0 has added thread pool ideal CPU optimization for NUMA hardware, to enhance performance and scalability."
 ms.author: yashi
 ms.date: 10/24/2017
-ms.topic: article
-ms.technology: iis
-ms.prod: iis
 msc.type: authoredcontent
 ---
 IIS Thread Pool Ideal CPU Optimization for NUMA hardware

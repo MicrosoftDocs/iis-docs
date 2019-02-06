@@ -1,14 +1,9 @@
 ---
-title: "nopCommerce FAQ | Microsoft Docs"
+title: "nopCommerce FAQ"
 author: rick-anderson
 description: "WebMatrix supports installing open source community applications from the Web Application Gallery, and publishing to hosting providers, including a set of Be..."
-ms.author: iiscontent
-manager: soshir
 ms.date: 07/06/2010
-ms.topic: article
 ms.assetid: a2224aa1-721e-4fff-9e71-da93e790b502
-ms.technology: iis-develop
-ms.prod: iis
 msc.legacyurl: /learn/develop/installingpublishing-apps-with-webmatrix/nopcommerce-faq
 msc.type: authoredcontent
 ---
