@@ -67,5 +67,5 @@ class OutputCacheSettingsSection : ConfigurationSectionWithCollection
 ## See Also  
  <xref:System.Web.Configuration.SystemWebCachingSectionGroup.OutputCache%2A?displayProperty=fullName>   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [OutputCacheProfile Class](../ftp-extenisibility-reference\native-code-api-reference\outputcacheprofile-class.md)   
+ [OutputCacheProfile Class](../wmi-provider/outputcacheprofile-class.md)   
  [OutputCacheProfileSettings Class](../wmi-provider/outputcacheprofilesettings-class.md)
