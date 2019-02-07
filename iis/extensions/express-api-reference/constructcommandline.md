@@ -57,5 +57,5 @@ Returns the command line that starts an IIS Express instance using the specified
  `HRESULT`  
   
 ## See Also  
- [GetRunningProcessForSite](../../\express-api-reference/getrunningprocessforsite.md)   
- [StopProcess](../../\express-api-reference/stopprocess.md)
+ [GetRunningProcessForSite](../../\extensions/express-api-reference/getrunningprocessforsite.md)   
+ [StopProcess](../../\extensions/express-api-reference/stopprocess.md)

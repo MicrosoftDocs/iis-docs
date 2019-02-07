@@ -13,7 +13,7 @@
 # [ClearIISEnvironmentVariables](cleariisenvironmentvariables.md)
 # [IIISExpressProcessUtility](iiisexpressprocessutility.md)
 # [IIISVersionManager](iiisversionmanager.md)
-# [IIS Express API Reference](iis-express-api-reference.md)
+# [IIS Express API Reference](iis-extensions/express-api-reference.md)
 # [IIISVersion](iiisversion.md)
 # [IIISUserData](iiisuserdata.md)
 # [ErrorInformation (IISExpress)](errorinformation-iisexpress.md)

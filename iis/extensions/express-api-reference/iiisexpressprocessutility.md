@@ -45,6 +45,6 @@ interface IIISExpressProcessUtility : IUnknown
 ```  
   
 ## See Also  
- [GetRunningProcessForSite](../../\express-api-reference/getrunningprocessforsite.md)   
- [ConstructCommandLine](../../\express-api-reference/constructcommandline.md)   
- [StopProcess](../../\express-api-reference/stopprocess.md)
+ [GetRunningProcessForSite](../../\extensions/express-api-reference/getrunningprocessforsite.md)   
+ [ConstructCommandLine](../../\extensions/express-api-reference/constructcommandline.md)   
+ [StopProcess](../../\extensions/express-api-reference/stopprocess.md)

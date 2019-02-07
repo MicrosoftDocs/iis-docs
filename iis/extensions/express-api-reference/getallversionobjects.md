@@ -27,10 +27,10 @@ Enumerates all IIS product versions that are installed on the computer.
   
 -   [out, retval] `* pVersionsArray`  
   
-     Contains all [IIISVersion](../../\express-api-reference/iiisversion.md) objects that are found on the computer.  
+     Contains all [IIISVersion](../../\extensions/express-api-reference/iiisversion.md) objects that are found on the computer.  
   
 ## Return Value  
  `HRESULT`  
   
 ## See Also  
- [GetVersionObject](../../\express-api-reference/getversionobject.md)
+ [GetVersionObject](../../\extensions/express-api-reference/getversionobject.md)
