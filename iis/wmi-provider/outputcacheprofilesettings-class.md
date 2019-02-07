@@ -28,7 +28,7 @@ class OutputCacheProfileSettings : EmbeddedObject
   
 |Name|Description|  
 |----------|-----------------|  
-|`OutputCacheProfiles`|An array of [OutputCacheProfile](../ftp-extenisibility-reference\native-code-api-reference\outputcacheprofile-class.md) values that configure output cache profiles for the pages of a Web application.|  
+|`OutputCacheProfiles`|An array of [OutputCacheProfile](../wmi-provider/outputcacheprofile-class.md) values that configure output cache profiles for the pages of a Web application.|  
   
 ## Subclasses  
  This class contains no subclasses.  
@@ -52,5 +52,5 @@ class OutputCacheProfileSettings : EmbeddedObject
   
 ## See Also  
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [OutputCacheProfile Class](../ftp-extenisibility-reference\native-code-api-reference\outputcacheprofile-class.md)   
+ [OutputCacheProfile Class](../wmi-provider/embeddedobject-class\outputcacheprofile-class.md)   
  [OutputCacheSettingsSection Class](../wmi-provider/outputcachesettingssection-class.md)
