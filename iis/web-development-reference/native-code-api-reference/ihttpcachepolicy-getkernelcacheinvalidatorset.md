@@ -38,4 +38,4 @@ virtual BOOL GetKernelCacheInvalidatorSet(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCachePolicy Interface](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-interface.md)
+ [IHttpCachePolicy Interface](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md)

@@ -25,7 +25,7 @@ virtual HRESULT GetDwordProperty(
   
 #### Parameters  
  `SettingId`  
- [IN] A [WPF_SETTINGS_DWORD_ENUM](../../web-development-reference\webdev-native-api-reference/wpf-settings-dword-enum-enumeration.md) value that specifies which `DWORD` value to return.  
+ [IN] A [WPF_SETTINGS_DWORD_ENUM](../../web-development-reference\native-code-api-reference/wpf-settings-dword-enum-enumeration.md) value that specifies which `DWORD` value to return.  
   
  `pdwSetting`  
  [OUT] A pointer to a `DWORD` buffer that receives the value specified by `SettingId`.  
@@ -48,9 +48,9 @@ virtual HRESULT GetDwordProperty(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IWpfSettings Interface](../../web-development-reference\webdev-native-api-reference/iwpfsettings-interface.md)   
- [IWpfSettings::GetBoolProperty Method](../../web-development-reference\webdev-native-api-reference/iwpfsettings-getboolproperty-method.md)   
- [IWpfSettings::GetHandleProperty Method](../../web-development-reference\webdev-native-api-reference/iwpfsettings-gethandleproperty-method.md)   
- [IWpfSettings::GetStringProperty Method](../../web-development-reference\webdev-native-api-reference/iwpfsettings-getstringproperty-method.md)   
- [IWpfSettings::GetUlonglongProperty Method](../../web-development-reference\webdev-native-api-reference/iwpfsettings-getulonglongproperty-method.md)   
- [WPF_SETTINGS_DWORD_ENUM Enumeration](../../web-development-reference\webdev-native-api-reference/wpf-settings-dword-enum-enumeration.md)
+ [IWpfSettings Interface](../../web-development-reference\native-code-api-reference/iwpfsettings-interface.md)   
+ [IWpfSettings::GetBoolProperty Method](../../web-development-reference\native-code-api-reference/iwpfsettings-getboolproperty-method.md)   
+ [IWpfSettings::GetHandleProperty Method](../../web-development-reference\native-code-api-reference/iwpfsettings-gethandleproperty-method.md)   
+ [IWpfSettings::GetStringProperty Method](../../web-development-reference\native-code-api-reference/iwpfsettings-getstringproperty-method.md)   
+ [IWpfSettings::GetUlonglongProperty Method](../../web-development-reference\native-code-api-reference/iwpfsettings-getulonglongproperty-method.md)   
+ [WPF_SETTINGS_DWORD_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-dword-enum-enumeration.md)

@@ -42,4 +42,4 @@ Virtual BOOL IsProcessRecycled(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IGlobalApplicationPreloadProvider2 Interface](../../web-development-reference\webdev-native-api-reference/iglobalapplicationpreloadprovider2-interface.md)
+ [IGlobalApplicationPreloadProvider2 Interface](../../web-development-reference\native-code-api-reference/iglobalapplicationpreloadprovider2-interface.md)

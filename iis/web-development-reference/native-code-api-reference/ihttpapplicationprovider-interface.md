@@ -25,21 +25,21 @@ class IHttpApplicationProvider : public IHttpEventProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetApplication](../../web-development-reference\webdev-native-api-reference/ihttpapplicationprovider-getapplication-method.md)|Retrieves an [IHttpApplication](../../web-development-reference\webdev-native-api-reference/ihttpapplication-interface.md) interface.|  
-|[SetErrorStatus](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md).)|  
+|[GetApplication](../../web-development-reference\native-code-api-reference/ihttpapplicationprovider-getapplication-method.md)|Retrieves an [IHttpApplication](../../web-development-reference\native-code-api-reference/ihttpapplication-interface.md) interface.|  
+|[SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md).)|  
   
 ## Derived Classes  
  The following table lists the derived classes exposed by the `IHttpApplicationProvider` interface.  
   
 |Name|Description|  
 |----------|-----------------|  
-|[IHttpApplicationResolveModulesProvider](../../web-development-reference\webdev-native-api-reference/ihttpapplicationresolvemodulesprovider-interface.md)|Provides an interface for registering HTTP modules.|  
+|[IHttpApplicationResolveModulesProvider](../../web-development-reference\native-code-api-reference/ihttpapplicationresolvemodulesprovider-interface.md)|Provides an interface for registering HTTP modules.|  
   
 ## Remarks  
- IIS creates and passes an `IHttpApplicationProvider` interface to a module's [CGlobalModule::OnGlobalApplicationStart](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobalapplicationstart-method.md) method when the module has registered for the [GL_APPLICATION_START](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function.  
+ IIS creates and passes an `IHttpApplicationProvider` interface to a module's [CGlobalModule::OnGlobalApplicationStart](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalapplicationstart-method.md) method when the module has registered for the [GL_APPLICATION_START](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IHttpApplicationProvider`  
   
@@ -53,5 +53,5 @@ class IHttpApplicationProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)   
- [CGlobalModule::OnGlobalApplicationStart Method](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobalapplicationstart-method.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
+ [CGlobalModule::OnGlobalApplicationStart Method](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalapplicationstart-method.md)

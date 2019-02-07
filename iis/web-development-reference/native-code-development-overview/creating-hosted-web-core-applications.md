@@ -30,4 +30,4 @@ This section describes how to design a Hosted Web Core. The topics in this secti
   
 ## See Also  
  [Native-Code Development Overview](../../web-development-reference\native-code-development-overview\native-code-development-overview.md)   
- [Hosted Web Core API Reference](../../web-development-reference\webdev-native-api-reference/hosted-web-core-api-reference.md)
+ [Hosted Web Core API Reference](../../web-development-reference\native-code-api-reference/hosted-web-core-api-reference.md)

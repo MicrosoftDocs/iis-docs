@@ -29,17 +29,17 @@ virtual BOOL GetFlushed(
  `true` if the data has been flushed from the cache; otherwise, `false`.  
   
 ## Thread Safety  
- Classes that implement the [IHttpCacheSpecificData](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-interface.md) interface are thread safe for the `GetFlushed` and [SetFlushed](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-setflushed-method.md) methods.  
+ Classes that implement the [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md) interface are thread safe for the `GetFlushed` and [SetFlushed](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-setflushed-method.md) methods.  
   
 ## Remarks  
  The behavior of the `GetFlushed` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   Classes that implement the [IHttpCacheSpecificData](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-interface.md) interface initialize a `private` Boolean flag to `false` as an instance variable during the construction of a new pointer. The classes then get and set this flag on subsequent calls to the `GetFlushed` and `SetFlushed` methods, respectively.  
+-   Classes that implement the [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md) interface initialize a `private` Boolean flag to `false` as an instance variable during the construction of a new pointer. The classes then get and set this flag on subsequent calls to the `GetFlushed` and `SetFlushed` methods, respectively.  
   
--   Classes that implement the [IHttpFileInfo](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-interface.md) interface usually return `false` on `GetFlushed` and perform an empty operation on `SetFlushed`, because local files are considered to be always cached.  
+-   Classes that implement the [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) interface usually return `false` on `GetFlushed` and perform an empty operation on `SetFlushed`, because local files are considered to be always cached.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events and then writes the flush information to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the flush information to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
@@ -66,4 +66,4 @@ IHttpCacheSpecificData::GetFlushed: false
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCacheSpecificData Interface](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-interface.md)
+ [IHttpCacheSpecificData Interface](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md)

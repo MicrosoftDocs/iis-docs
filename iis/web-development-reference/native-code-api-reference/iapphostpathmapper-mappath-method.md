@@ -55,4 +55,4 @@ HRESULT MapPath(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPathMapper Interface](../../web-development-reference\webdev-native-api-reference/iapphostpathmapper-interface.md)
+ [IAppHostPathMapper Interface](../../web-development-reference\native-code-api-reference/iapphostpathmapper-interface.md)

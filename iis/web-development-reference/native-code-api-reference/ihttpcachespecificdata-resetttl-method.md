@@ -26,16 +26,16 @@ virtual VOID ResetTTL(
  This method takes no parameters.  
   
 ## Thread Safety  
- Classes that implement the [IHttpCacheSpecificData](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-interface.md) interface are thread safe for the [DecrementTTL](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-decrementttl-method.md) and `ResetTTL` methods.  
+ Classes that implement the [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md) interface are thread safe for the [DecrementTTL](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-decrementttl-method.md) and `ResetTTL` methods.  
   
 ## Remarks  
  The TTL is used to determine when cached data is no longer valid and, therefore, when that data should be reloaded. Most `IHttpCacheSpecificData` implementations set an initial internal count to a positive value, and then allow that count to be reduced through successive calls to the `DecrementTTL` method. If the TTL value becomes 0, the data should be reloaded.  
   
  The behavior of the `ResetTTL` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   Classes that implement the `IHttpCacheSpecificData` or [IHttpTokenEntry](../../web-development-reference\webdev-native-api-reference/ihttptokenentry-interface.md) interfaces initialize the internal count to 2 at construction, and decrement that count by 1 on each call to `DecrementTTL`.  
+-   Classes that implement the `IHttpCacheSpecificData` or [IHttpTokenEntry](../../web-development-reference\native-code-api-reference/ihttptokenentry-interface.md) interfaces initialize the internal count to 2 at construction, and decrement that count by 1 on each call to `DecrementTTL`.  
   
--   Classes that implement the [IHttpFileInfo](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-interface.md) interface are varied. Some classes implement the scheme defined above, while others perform empty operations on both `ResetTTL` and `DecrementTTL`.  
+-   Classes that implement the [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) interface are varied. Some classes implement the scheme defined above, while others perform empty operations on both `ResetTTL` and `DecrementTTL`.  
   
 ## Notes for Implementers  
  The `DecrementTTL` and `ResetTTL` method implementations must be thread safe for an `IHttpCacheSpecificData` pointer.  
@@ -85,4 +85,4 @@ private:
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCacheSpecificData Interface](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-interface.md)
+ [IHttpCacheSpecificData Interface](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md)

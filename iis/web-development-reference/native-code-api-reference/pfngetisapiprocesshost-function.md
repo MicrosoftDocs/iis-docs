@@ -26,10 +26,10 @@ typedef HRESULT(
   
 #### Parameters  
  `pFunctions`  
- A pointer to an [IProcessHostSupportFunctions](../../web-development-reference\webdev-native-api-reference/iprocesshostsupportfunctions-interface.md) interface.  
+ A pointer to an [IProcessHostSupportFunctions](../../web-development-reference\native-code-api-reference/iprocesshostsupportfunctions-interface.md) interface.  
   
  `ppProcessHost`  
- A pointer to the address of an [IProcessHost](../../web-development-reference\webdev-native-api-reference/iprocesshost-interface.md) interface.  
+ A pointer to the address of an [IProcessHost](../../web-development-reference\native-code-api-reference/iprocesshost-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -39,7 +39,7 @@ typedef HRESULT(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- The `PFNGetIsapiProcessHost` function provides a convenient `typedef` to the [GetIsapiProcessHost](../../web-development-reference\webdev-native-api-reference/getisapiprocesshost-function.md) function.  
+ The `PFNGetIsapiProcessHost` function provides a convenient `typedef` to the [GetIsapiProcessHost](../../web-development-reference\native-code-api-reference/getisapiprocesshost-function.md) function.  
   
 ## Requirements  
   
@@ -51,5 +51,5 @@ typedef HRESULT(
 |Header|Webhost.h|  
   
 ## See Also  
- [Windows Process Activation Service Functions](../../web-development-reference\webdev-native-api-reference/windows-process-activation-service-functions.md)   
- [GetIsapiProcessHost Function](../../web-development-reference\webdev-native-api-reference/getisapiprocesshost-function.md)
+ [Windows Process Activation Service Functions](../../web-development-reference\native-code-api-reference/windows-process-activation-service-functions.md)   
+ [GetIsapiProcessHost Function](../../web-development-reference\native-code-api-reference/getisapiprocesshost-function.md)

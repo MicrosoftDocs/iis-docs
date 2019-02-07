@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostElementSchemaCollection::Count Property
-Gets the number of [IAppHostElementSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-interface.md) objects in the current collection.  
+Gets the number of [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) objects in the current collection.  
   
 ## Syntax  
   
@@ -44,4 +44,4 @@ Gets the number of [IAppHostElementSchema Interface](../../web-development-refer
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElementSchemaCollection Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschemacollection-interface.md)
+ [IAppHostElementSchemaCollection Interface](../../web-development-reference\native-code-api-reference/iapphostelementschemacollection-interface.md)

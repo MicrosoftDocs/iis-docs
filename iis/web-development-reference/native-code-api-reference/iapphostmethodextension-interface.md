@@ -25,7 +25,7 @@ IAppHostMethodExtension : public IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IAppHostMethodExtension::ProvideMethod Method](../../web-development-reference\webdev-native-api-reference/iapphostmethodextension-providemethod-method.md)|Populates the value of a dynamic method in a specified element.|  
+|[IAppHostMethodExtension::ProvideMethod Method](../../web-development-reference\native-code-api-reference/iapphostmethodextension-providemethod-method.md)|Populates the value of a dynamic method in a specified element.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -53,7 +53,7 @@ IAppHostMethodExtension : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)   
- [Application Host Administration API Reference](../../web-development-reference\webdev-native-api-reference/application-host-administration-api-reference.md)   
- [IAppHostMethod Interface](../../web-development-reference\webdev-native-api-reference/iapphostmethod-interface.md)   
- [IAppHostMethodInstance Interface](../../web-development-reference\webdev-native-api-reference/iapphostmethodinstance-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
+ [Application Host Administration API Reference](../../web-development-reference\native-code-api-reference/application-host-administration-api-reference.md)   
+ [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md)   
+ [IAppHostMethodInstance Interface](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-interface.md)

@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # WPF_SETTINGS_HANDLE_ENUM Enumeration
-Defines the `HANDLE` values that the [IWpfSettings::GetHandleProperty](../../web-development-reference\webdev-native-api-reference/iwpfsettings-gethandleproperty-method.md) method returns.  
+Defines the `HANDLE` values that the [IWpfSettings::GetHandleProperty](../../web-development-reference\native-code-api-reference/iwpfsettings-gethandleproperty-method.md) method returns.  
   
 ## Syntax  
   
@@ -38,9 +38,9 @@ enum WPF_SETTINGS_HANDLE_ENUM {
 |Header|Wpframework.h|  
   
 ## See Also  
- [Worker Process and Protocol Manager Enumerations](../../web-development-reference\webdev-native-api-reference/worker-process-and-protocol-manager-enumerations.md)   
- [IWpfSettings::GetHandleProperty Method](../../web-development-reference\webdev-native-api-reference/iwpfsettings-gethandleproperty-method.md)   
- [WPF_SETTINGS_BOOL_ENUM Enumeration](../../web-development-reference\webdev-native-api-reference/wpf-settings-bool-enum-enumeration.md)   
- [WPF_SETTINGS_DWORD_ENUM Enumeration](../../web-development-reference\webdev-native-api-reference/wpf-settings-dword-enum-enumeration.md)   
- [WPF_SETTINGS_STRING_ENUM Enumeration](../../web-development-reference\webdev-native-api-reference/wpf-settings-string-enum-enumeration.md)   
- [WPF_SETTINGS_ULONGLONG_ENUM Enumeration](../../web-development-reference\webdev-native-api-reference/wpf-settings-ulonglong-enum-enumeration.md)
+ [Worker Process and Protocol Manager Enumerations](../../web-development-reference\native-code-api-reference/worker-process-and-protocol-manager-enumerations.md)   
+ [IWpfSettings::GetHandleProperty Method](../../web-development-reference\native-code-api-reference/iwpfsettings-gethandleproperty-method.md)   
+ [WPF_SETTINGS_BOOL_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-bool-enum-enumeration.md)   
+ [WPF_SETTINGS_DWORD_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-dword-enum-enumeration.md)   
+ [WPF_SETTINGS_STRING_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-string-enum-enumeration.md)   
+ [WPF_SETTINGS_ULONGLONG_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-ulonglong-enum-enumeration.md)

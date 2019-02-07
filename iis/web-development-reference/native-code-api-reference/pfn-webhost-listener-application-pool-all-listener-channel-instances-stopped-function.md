@@ -27,7 +27,7 @@ typedef VOID(
   
 #### Parameters  
  `pContext`  
- [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\webdev-native-api-reference/webhostregisterprotocol-function.md).  
+ [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
   
  `AppPoolId`  
  [IN] A pointer to a string that contains the application pool for the stopped listener channels.  
@@ -41,7 +41,7 @@ typedef VOID(
 ## Remarks  
  When the Service Control Manager (SCM) notifies a listener adapter to stop, the listener adapter should wait for the `PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED` notification before stopping; otherwise, if other listener channels are in use, the listener adapter may encounter conflicts when it attempts to restart.  
   
- This notification will occur only if the [WebhostCloseAllListenerChannelInstances](../../web-development-reference\webdev-native-api-reference/webhostclosealllistenerchannelinstances-function.md) function has been called.  
+ This notification will occur only if the [WebhostCloseAllListenerChannelInstances](../../web-development-reference\native-code-api-reference/webhostclosealllistenerchannelinstances-function.md) function has been called.  
   
  The Windows Process Activation Service (WAS) calls this function asynchronously and does not wait for the completion of the notification.  
   
@@ -55,5 +55,5 @@ typedef VOID(
 |Header|Listeneradapter.h|  
   
 ## See Also  
- [Listener Adapter Callback Functions](../../web-development-reference\webdev-native-api-reference/listener-adapter-callback-functions.md)   
- [WebhostRegisterProtocol Function](../../web-development-reference\webdev-native-api-reference/webhostregisterprotocol-function.md)
+ [Listener Adapter Callback Functions](../../web-development-reference\native-code-api-reference/listener-adapter-callback-functions.md)   
+ [WebhostRegisterProtocol Function](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md)

@@ -35,9 +35,9 @@ virtual VOID* GetLogData(
 >  The `HTTP_LOG_FIELDS_DATA` structure is defined in the Http.h header file.  
   
 > [!IMPORTANT]
->  Your HTTP module must set the registration priority to PRIORITY_ALIAS_FIRST or PRIORITY_ALIAS_HIGH, or `GetLogData` will always return NULL. For more information about setting the registration priority, see the [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification](../../web-development-reference\webdev-native-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md) method.  
+>  Your HTTP module must set the registration priority to PRIORITY_ALIAS_FIRST or PRIORITY_ALIAS_HIGH, or `GetLogData` will always return NULL. For more information about setting the registration priority, see the [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md) method.  
   
- Before you call `GetLogData`, you need to call the [ISendResponseProvider::GetReadyToLogData](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-getreadytologdata-method.md) method to verify that IIS is ready to log information. When `GetReadyToLogData` returns `true`, your module can use the `GetLogData` method to retrieve the log information.  
+ Before you call `GetLogData`, you need to call the [ISendResponseProvider::GetReadyToLogData](../../web-development-reference\native-code-api-reference/isendresponseprovider-getreadytologdata-method.md) method to verify that IIS is ready to log information. When `GetReadyToLogData` returns `true`, your module can use the `GetLogData` method to retrieve the log information.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that uses the `GetReadyToLogData` method to determine whether IIS is ready to log information. The module completes the following steps:  
@@ -48,13 +48,13 @@ virtual VOID* GetLogData(
   
 3.  Modifies the server port in the log entry.  
   
-4.  Uses the [SetLogData](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-setlogdata-method.md) method to submit the modified log information to IIS.  
+4.  Uses the [SetLogData](../../web-development-reference\native-code-api-reference/isendresponseprovider-setlogdata-method.md) method to submit the modified log information to IIS.  
   
 5.  Returns the server name to a Web client and then exits.  
   
 <!-- TODO: review snippet reference  [!CODE [ISendResponseProviderGetLogData#1](ISendResponseProviderGetLogData#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -68,6 +68,6 @@ virtual VOID* GetLogData(
 |Header|Httpserv.h|  
   
 ## See Also  
- [ISendResponseProvider Interface](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-interface.md)   
- [ISendResponseProvider::GetReadyToLogData Method](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-getreadytologdata-method.md)   
- [ISendResponseProvider::SetLogData Method](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-setlogdata-method.md)
+ [ISendResponseProvider Interface](../../web-development-reference\native-code-api-reference/isendresponseprovider-interface.md)   
+ [ISendResponseProvider::GetReadyToLogData Method](../../web-development-reference\native-code-api-reference/isendresponseprovider-getreadytologdata-method.md)   
+ [ISendResponseProvider::SetLogData Method](../../web-development-reference\native-code-api-reference/isendresponseprovider-setlogdata-method.md)

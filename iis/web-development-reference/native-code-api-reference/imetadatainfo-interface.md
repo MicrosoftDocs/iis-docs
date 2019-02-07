@@ -25,16 +25,16 @@ class IMetadataInfo
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetMetaPath](../../web-development-reference\webdev-native-api-reference/imetadatainfo-getmetapath-method.md)|Retrieves the configuration path for the current context.|  
-|[GetModuleContextContainer](../../web-development-reference\webdev-native-api-reference/imetadatainfo-getmodulecontextcontainer-method.md)|Returns the context container for the metadata.|  
-|[GetVrPath](../../web-development-reference\webdev-native-api-reference/imetadatainfo-getvrpath-method.md)|Retrieves the physical path for a virtual directory within the current context.|  
-|[GetVrToken](../../web-development-reference\webdev-native-api-reference/imetadatainfo-getvrtoken-method.md)|Retrieves an [IHttpTokenEntry](../../web-development-reference\webdev-native-api-reference/ihttptokenentry-interface.md) interface for the impersonation account that is configured for a virtual directory.|  
+|[GetMetaPath](../../web-development-reference\native-code-api-reference/imetadatainfo-getmetapath-method.md)|Retrieves the configuration path for the current context.|  
+|[GetModuleContextContainer](../../web-development-reference\native-code-api-reference/imetadatainfo-getmodulecontextcontainer-method.md)|Returns the context container for the metadata.|  
+|[GetVrPath](../../web-development-reference\native-code-api-reference/imetadatainfo-getvrpath-method.md)|Retrieves the physical path for a virtual directory within the current context.|  
+|[GetVrToken](../../web-development-reference\native-code-api-reference/imetadatainfo-getvrtoken-method.md)|Retrieves an [IHttpTokenEntry](../../web-development-reference\native-code-api-reference/ihttptokenentry-interface.md) interface for the impersonation account that is configured for a virtual directory.|  
   
 ## Derived Classes  
   
 |Name|Description|  
 |----------|-----------------|  
-|[IReferencedMetadataInfo345258f4-4161-4f96-9ff1-2056d412d83b](../../web-development-reference\webdev-native-api-reference/ihttpserver2-interface.md)|Provides an interface for referencing and dereferencing context metadata.|  
+|[IReferencedMetadataInfo345258f4-4161-4f96-9ff1-2056d412d83b](../../web-development-reference\native-code-api-reference/ihttpserver2-interface.md)|Provides an interface for referencing and dereferencing context metadata.|  
   
 ## Remarks  
  Developers can use the `IMetadataInfo` interface to retrieve metadata-related configuration information.  
@@ -49,4 +49,4 @@ class IMetadataInfo
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)

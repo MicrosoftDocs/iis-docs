@@ -39,7 +39,7 @@ virtual HRESULT IsInRole(
 |E_NOTIMPL|Indicates that the `IsInRole` method was not implemented.|  
   
 ## Remarks  
- Call the `IsInRole` method only if the [SupportsIsInRole](../../web-development-reference\webdev-native-api-reference/ihttpuser-supportsisinrole-method.md) method first returns `true` on the same [IHttpUser](../../web-development-reference\webdev-native-api-reference/ihttpuser-interface.md) pointer.  
+ Call the `IsInRole` method only if the [SupportsIsInRole](../../web-development-reference\native-code-api-reference/ihttpuser-supportsisinrole-method.md) method first returns `true` on the same [IHttpUser](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md) pointer.  
   
  The `IsInRole` return value depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
@@ -61,7 +61,7 @@ virtual HRESULT IsInRole(
 <user supportsRoles="true" isInRole="false" />  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -75,4 +75,4 @@ virtual HRESULT IsInRole(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpUser Interface](../../web-development-reference\webdev-native-api-reference/ihttpuser-interface.md)
+ [IHttpUser Interface](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md)

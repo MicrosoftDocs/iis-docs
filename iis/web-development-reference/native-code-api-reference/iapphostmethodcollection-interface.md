@@ -28,8 +28,8 @@ interface IAppHostMethodCollection : IUnknown
   
 |Property|Description|  
 |--------------|-----------------|  
-|[IAppHostMethodCollection::Count Property](../../web-development-reference\webdev-native-api-reference/iapphostmethodcollection-count-property.md)|Gets the number methods in the collection.|  
-|[IAppHostMethodCollection::Item Property](../../web-development-reference\webdev-native-api-reference/iapphostmethodcollection-item-property.md)|Gets the method with the requested index or method name in the collection.|  
+|[IAppHostMethodCollection::Count Property](../../web-development-reference\native-code-api-reference/iapphostmethodcollection-count-property.md)|Gets the number methods in the collection.|  
+|[IAppHostMethodCollection::Item Property](../../web-development-reference\native-code-api-reference/iapphostmethodcollection-item-property.md)|Gets the method with the requested index or method name in the collection.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -46,5 +46,5 @@ interface IAppHostMethodCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)   
- [IAppHostProperty Interface](../../web-development-reference\webdev-native-api-reference/iapphostproperty-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostProperty Interface](../../web-development-reference\native-code-api-reference/iapphostproperty-interface.md)

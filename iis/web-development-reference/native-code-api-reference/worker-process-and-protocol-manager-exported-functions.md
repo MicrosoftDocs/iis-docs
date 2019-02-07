@@ -19,7 +19,7 @@ This section describes the exported functions that the worker process framework 
   
 |Function|Description|  
 |--------------|-----------------|  
-|[PFN_GET_PROTOCOL_MANAGER](../../web-development-reference\webdev-native-api-reference/pfn-get-protocol-manager-function.md)|Defines the default entry point of the dynamic-link library (DLL) that allows worker processes to instantiate the [IProtocolManager](../../web-development-reference\webdev-native-api-reference/iprotocolmanager-interface.md).|  
+|[PFN_GET_PROTOCOL_MANAGER](../../web-development-reference\native-code-api-reference/pfn-get-protocol-manager-function.md)|Defines the default entry point of the dynamic-link library (DLL) that allows worker processes to instantiate the [IProtocolManager](../../web-development-reference\native-code-api-reference/iprotocolmanager-interface.md).|  
   
 ## See Also  
- [Worker Process Framework API Reference](../../web-development-reference\webdev-native-api-reference/worker-process-framework-api-reference.md)
+ [Worker Process Framework API Reference](../../web-development-reference\native-code-api-reference/worker-process-framework-api-reference.md)

@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostConfigFile::ConfigPath Property
-Gets the configuration system path of the configuration file that this [IAppHostConfigFile](../../web-development-reference\webdev-native-api-reference/iapphostconfigfile-interface.md) interface represents.  
+Gets the configuration system path of the configuration file that this [IAppHostConfigFile](../../web-development-reference\native-code-api-reference/iapphostconfigfile-interface.md) interface represents.  
   
 ## Syntax  
   
@@ -45,4 +45,4 @@ HRESULT get_ConfigPath(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostConfigFile Interface](../../web-development-reference\webdev-native-api-reference/iapphostconfigfile-interface.md)
+ [IAppHostConfigFile Interface](../../web-development-reference\native-code-api-reference/iapphostconfigfile-interface.md)

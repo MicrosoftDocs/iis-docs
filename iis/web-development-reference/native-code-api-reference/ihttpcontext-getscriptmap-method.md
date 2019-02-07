@@ -26,7 +26,7 @@ virtual IScriptMapInfo* GetScriptMap(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [IScriptMapInfo](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-interface.md) interface.  
+ A pointer to an [IScriptMapInfo](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md) interface.  
   
 ## Remarks  
  The `GetScriptMap` method is used to retrieve a pointer to the `IScriptMapInfo` interface for the current context. The `IScriptMapInfo` interface contains several methods that return information about the scripting environment.  
@@ -35,11 +35,11 @@ virtual IScriptMapInfo* GetScriptMap(
 >  The HTTP context object owns the lifetime of this object. Therefore, you do not free this pointer when writing HTTP modules.  
   
 ## Example  
- The following code example demonstrates how to use the `GetScriptMap` method to create an HTTP module that retrieves a pointer to an `IScriptMapInfo` interface. The example then uses the [IScriptMapInfo::GetAllowedVerbs](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getallowedverbs-method.md) method to retrieve the list of HTTP methods that are allowed for the current request path.  
+ The following code example demonstrates how to use the `GetScriptMap` method to create an HTTP module that retrieves a pointer to an `IScriptMapInfo` interface. The example then uses the [IScriptMapInfo::GetAllowedVerbs](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getallowedverbs-method.md) method to retrieve the list of HTTP methods that are allowed for the current request path.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextGetScriptMap#1](IHttpContextGetScriptMap#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -53,7 +53,7 @@ virtual IScriptMapInfo* GetScriptMap(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md)   
- [IScriptMapInfo Interface](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-interface.md)   
- [IHttpContext::GetScriptName Method](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getscriptname-method.md)   
- [IHttpContext::GetScriptTranslated Method](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getscripttranslated-method.md)
+ [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
+ [IScriptMapInfo Interface](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md)   
+ [IHttpContext::GetScriptName Method](../../web-development-reference\native-code-api-reference/ihttpcontext-getscriptname-method.md)   
+ [IHttpContext::GetScriptTranslated Method](../../web-development-reference\native-code-api-reference/ihttpcontext-getscripttranslated-method.md)

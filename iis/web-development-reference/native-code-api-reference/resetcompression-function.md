@@ -46,4 +46,4 @@ HRESULT WINAPI ResetCompression(
 |Header|Httpcompression.h|  
   
 ## See Also  
- [Web Server Core Functions](../../web-development-reference\webdev-native-api-reference/web-server-core-functions.md)
+ [Web Server Core Functions](../../web-development-reference\native-code-api-reference/web-server-core-functions.md)

@@ -98,4 +98,4 @@ public:
 |Reference|ftpext.tlb|  
   
 ## See Also  
- [IFtpAuthenticationProvider Interface](../../ftp-extenisibility-reference\native-code-api\iftpauthenticationprovider-interface-native.md)
+ [IFtpAuthenticationProvider Interface](../../ftp-extenisibility-reference\native-code-api-reference\iftpauthenticationprovider-interface-native.md)

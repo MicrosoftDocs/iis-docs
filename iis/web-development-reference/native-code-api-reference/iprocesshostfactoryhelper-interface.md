@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IProcessHostFactoryHelper Interface
-Provides a method to retrieve an [IProcessHost](../../web-development-reference\webdev-native-api-reference/iprocesshost-interface.md) interface.  
+Provides a method to retrieve an [IProcessHost](../../web-development-reference\native-code-api-reference/iprocesshost-interface.md) interface.  
   
 ## Syntax  
   
@@ -25,7 +25,7 @@ struct IProcessHostFactoryHelper : IUnknown
   
 |Name|Description|  
 |----------|-----------------|  
-|[IProcessHostFactoryHelper::GetProcessHost](../../web-development-reference\webdev-native-api-reference/iprocesshostfactoryhelper-getprocesshost-method.md)|Retrieves an `IProcessHost` interface.|  
+|[IProcessHostFactoryHelper::GetProcessHost](../../web-development-reference\native-code-api-reference/iprocesshostfactoryhelper-getprocesshost-method.md)|Retrieves an `IProcessHost` interface.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -48,4 +48,4 @@ struct IProcessHostFactoryHelper : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
- [Windows Process Activation Service Interfaces](../../web-development-reference\webdev-native-api-reference/windows-process-activation-service-interfaces.md)
+ [Windows Process Activation Service Interfaces](../../web-development-reference\native-code-api-reference/windows-process-activation-service-interfaces.md)

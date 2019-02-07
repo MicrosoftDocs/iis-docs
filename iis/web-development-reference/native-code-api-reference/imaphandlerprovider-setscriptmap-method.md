@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IMapHandlerProvider::SetScriptMap Method
-Specifies which [IScriptMapInfo](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-interface.md) interface to use for the current context.  
+Specifies which [IScriptMapInfo](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md) interface to use for the current context.  
   
 ## Syntax  
   
@@ -24,7 +24,7 @@ virtual VOID SetScriptMap(
   
 #### Parameters  
  `pScriptMap`  
- A pointer to an [IScriptMapInfo](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-interface.md) interface.  
+ A pointer to an [IScriptMapInfo](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md) interface.  
   
 ## Return Value  
  `VOID`.  
@@ -37,7 +37,7 @@ virtual VOID SetScriptMap(
   
 <!-- TODO: review snippet reference  [!CODE [IMapHandlerProviderSetScriptMap#1](IMapHandlerProviderSetScriptMap#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -51,4 +51,4 @@ virtual VOID SetScriptMap(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IMapHandlerProvider Interface](../../web-development-reference\webdev-native-api-reference/imaphandlerprovider-interface.md)
+ [IMapHandlerProvider Interface](../../web-development-reference\native-code-api-reference/imaphandlerprovider-interface.md)

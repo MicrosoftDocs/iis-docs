@@ -25,22 +25,22 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostReleaseRequestState(
   
 #### Parameters  
  `pHttpContext`  
- [IN] A pointer to an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) interface.  
+ [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   
  `pProvider`  
- [IN] A pointer to an [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md) interface.  
+ [IN] A pointer to an [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md) interface.  
   
 ## Return Value  
- A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\webdev-native-api-reference/request-notification-status-enumeration.md) value.  
+ A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
- When a request-level module is registered for the [RQ_RELEASE_REQUEST_STATE](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) post-event notification, IIS will call the module's `OnReleaseRequestState` method after it has released the state for current request.  
+ When a request-level module is registered for the [RQ_RELEASE_REQUEST_STATE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) post-event notification, IIS will call the module's `OnReleaseRequestState` method after it has released the state for current request.  
   
 > [!NOTE]
->  Request-level modules can register for the `ReleaseRequestState` post-event notification by registering for `RQ_RELEASE_REQUEST_STATE` in the module's [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function.  
+>  Request-level modules can register for the `ReleaseRequestState` post-event notification by registering for `RQ_RELEASE_REQUEST_STATE` in the module's [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
- The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_RELEASE_REQUEST_STATE` event and post-event notifications. When IIS releases the state for current request, it will call the example module's [OnReleaseRequestState](../../web-development-reference\webdev-native-api-reference/chttpmodule-onreleaserequeststate-method.md) and `OnPostReleaseRequestState` methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
+ The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_RELEASE_REQUEST_STATE` event and post-event notifications. When IIS releases the state for current request, it will call the example module's [OnReleaseRequestState](../../web-development-reference\native-code-api-reference/chttpmodule-onreleaserequeststate-method.md) and `OnPostReleaseRequestState` methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
 <!-- TODO: review snippet reference  [!CODE [CHttpModuleReleaseRequestState#1](CHttpModuleReleaseRequestState#1)]  -->  
   
@@ -58,5 +58,5 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostReleaseRequestState(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md)   
- [CHttpModule::OnReleaseRequestState Method](../../web-development-reference\webdev-native-api-reference/chttpmodule-onreleaserequeststate-method.md)
+ [CHttpModule Class](../../web-development-reference\native-code-api-reference/chttpmodule-class.md)   
+ [CHttpModule::OnReleaseRequestState Method](../../web-development-reference\native-code-api-reference/chttpmodule-onreleaserequeststate-method.md)

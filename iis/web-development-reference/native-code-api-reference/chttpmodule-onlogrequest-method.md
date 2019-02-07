@@ -25,22 +25,22 @@ virtual REQUEST_NOTIFICATION_STATUS OnLogRequest(
   
 #### Parameters  
  `pHttpContext`  
- [IN] A pointer to an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) interface.  
+ [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   
  `pProvider`  
- [IN] A pointer to an [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md) interface.  
+ [IN] A pointer to an [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md) interface.  
   
 ## Return Value  
- A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\webdev-native-api-reference/request-notification-status-enumeration.md) value.  
+ A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
- When a request-level module is registered for the [RQ_LOG_REQUEST](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnLogRequest` method when IIS prepares to log the current request.  
+ When a request-level module is registered for the [RQ_LOG_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnLogRequest` method when IIS prepares to log the current request.  
   
 > [!NOTE]
->  Request-level modules can register for the `LogRequest` event notification by registering for `RQ_LOG_REQUEST` in the module's [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function.  
+>  Request-level modules can register for the `LogRequest` event notification by registering for `RQ_LOG_REQUEST` in the module's [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
- The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_LOG_REQUEST` event and post-event notifications. When IIS logs the current request, IIS will call the example module's `OnLogRequest` and [OnPostLogRequest](../../web-development-reference\webdev-native-api-reference/chttpmodule-onpostlogrequest-method.md) methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
+ The following code example demonstrates how to create a request-level HTTP module that registers for the `RQ_LOG_REQUEST` event and post-event notifications. When IIS logs the current request, IIS will call the example module's `OnLogRequest` and [OnPostLogRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onpostlogrequest-method.md) methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
 <!-- TODO: review snippet reference  [!CODE [CHttpModuleLogRequest#1](CHttpModuleLogRequest#1)]  -->  
   
@@ -58,5 +58,5 @@ virtual REQUEST_NOTIFICATION_STATUS OnLogRequest(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md)   
- [CHttpModule::OnPostLogRequest Method](../../web-development-reference\webdev-native-api-reference/chttpmodule-onpostlogrequest-method.md)
+ [CHttpModule Class](../../web-development-reference\native-code-api-reference/chttpmodule-class.md)   
+ [CHttpModule::OnPostLogRequest Method](../../web-development-reference\native-code-api-reference/chttpmodule-onpostlogrequest-method.md)

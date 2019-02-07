@@ -25,17 +25,17 @@ class IScriptMapInfo
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetAllowedVerbs](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getallowedverbs-method.md)|Retrieves the list of allowed verbs for a script map.|  
-|[GetAllowPathInfoForScriptMappings](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getallowpathinfoforscriptmappings-method.md)|Retrieves a value that indicates whether a script map handler has the `allowPathInfo` attribute set to `true`.|  
-|[GetIsStarScriptMap](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getisstarscriptmap-method.md)|Retrieves a value that indicates whether a request handler is a wildcard mapping.|  
-|[GetManagedType](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getmanagedtype-method.md)|Retrieves the managed type for a request handler.|  
-|[GetModules](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getmodules-method.md)|Retrieves the list of modules for a request handler.|  
-|[GetName](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getname-method.md)|Retrieves the configured name for a request handler.|  
-|[GetPath](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getpath-method.md)|Retrieves the `path` attribute for a request handler.|  
-|[GetRequiredAccess](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getrequiredaccess-method.md)|Retrieves the required-access setting for the script processor.|  
-|[GetResourceType](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getresourcetype-method.md)|Retrieves the resource type for a request handler.|  
-|[GetResponseBufferLimit](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getresponsebufferlimit-method.md)|Retrieves the response buffer limit for the script processor.|  
-|[GetScriptProcessor](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getscriptprocessor-method.md)|Retrieves the script processor for a request handler.|  
+|[GetAllowedVerbs](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getallowedverbs-method.md)|Retrieves the list of allowed verbs for a script map.|  
+|[GetAllowPathInfoForScriptMappings](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getallowpathinfoforscriptmappings-method.md)|Retrieves a value that indicates whether a script map handler has the `allowPathInfo` attribute set to `true`.|  
+|[GetIsStarScriptMap](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getisstarscriptmap-method.md)|Retrieves a value that indicates whether a request handler is a wildcard mapping.|  
+|[GetManagedType](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getmanagedtype-method.md)|Retrieves the managed type for a request handler.|  
+|[GetModules](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getmodules-method.md)|Retrieves the list of modules for a request handler.|  
+|[GetName](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getname-method.md)|Retrieves the configured name for a request handler.|  
+|[GetPath](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getpath-method.md)|Retrieves the `path` attribute for a request handler.|  
+|[GetRequiredAccess](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getrequiredaccess-method.md)|Retrieves the required-access setting for the script processor.|  
+|[GetResourceType](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getresourcetype-method.md)|Retrieves the resource type for a request handler.|  
+|[GetResponseBufferLimit](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getresponsebufferlimit-method.md)|Retrieves the response buffer limit for the script processor.|  
+|[GetScriptProcessor](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getscriptprocessor-method.md)|Retrieves the script processor for a request handler.|  
   
 ## Remarks  
  The settings for request handlers in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] are stored in the ApplicationHost.config file, and they contain various attributes that define how request handlers work. For example, the following excerpt from an ApplicationHost.config file shows some of the possible configuration settings for ASP 3.0 or earlier, Internet Server API (ISAPI) DLLs, and static file handling.  
@@ -76,4 +76,4 @@ class IScriptMapInfo
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)

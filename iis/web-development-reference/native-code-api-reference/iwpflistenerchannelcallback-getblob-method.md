@@ -47,8 +47,8 @@ virtual HRESULT GetBlob(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IWpfListenerChannelCallback Interface](../../web-development-reference\webdev-native-api-reference/iwpflistenerchannelcallback-interface.md)   
- [IWpfListenerChannelCallback::GetId Method](../../web-development-reference\webdev-native-api-reference/iwpflistenerchannelcallback-getid-method.md)   
- [IWpfListenerChannelCallback::ReportMessageReceived Method](../../web-development-reference\webdev-native-api-reference/iwpflistenerchannelcallback-reportmessagereceived-method.md)   
- [IWpfListenerChannelCallback::ReportStarted Method](../../web-development-reference\webdev-native-api-reference/iwpflistenerchannelcallback-reportstarted-method.md)   
- [IWpfListenerChannelCallback::ReportStopped Method](../../web-development-reference\webdev-native-api-reference/iwpflistenerchannelcallback-reportstopped-method.md)
+ [IWpfListenerChannelCallback Interface](../../web-development-reference\native-code-api-reference/iwpflistenerchannelcallback-interface.md)   
+ [IWpfListenerChannelCallback::GetId Method](../../web-development-reference\native-code-api-reference/iwpflistenerchannelcallback-getid-method.md)   
+ [IWpfListenerChannelCallback::ReportMessageReceived Method](../../web-development-reference\native-code-api-reference/iwpflistenerchannelcallback-reportmessagereceived-method.md)   
+ [IWpfListenerChannelCallback::ReportStarted Method](../../web-development-reference\native-code-api-reference/iwpflistenerchannelcallback-reportstarted-method.md)   
+ [IWpfListenerChannelCallback::ReportStopped Method](../../web-development-reference\native-code-api-reference/iwpflistenerchannelcallback-reportstopped-method.md)

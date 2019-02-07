@@ -44,4 +44,4 @@ HRESULT get_Count(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostSectionDefinitionCollection Interface](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinitioncollection-interface.md)
+ [IAppHostSectionDefinitionCollection Interface](../../web-development-reference\native-code-api-reference/iapphostsectiondefinitioncollection-interface.md)

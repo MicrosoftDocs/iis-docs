@@ -27,7 +27,7 @@ Virtual IHttpStoredContext * GetNamedContext(
  [IN] The name of the context.  
   
 ## Return Value  
- A pointer to a [IHttpStoredContext](../../web-development-reference\webdev-native-api-reference/ihttpstoredcontext-interface.md) object.  
+ A pointer to a [IHttpStoredContext](../../web-development-reference\native-code-api-reference/ihttpstoredcontext-interface.md) object.  
   
 ## Requirements  
   
@@ -39,4 +39,4 @@ Virtual IHttpStoredContext * GetNamedContext(
 |Header|Httpserv.h|  
   
 ## See Also  
- [INamedContextContainer Interface](../../web-development-reference\webdev-native-api-reference/inamedcontextcontainer-interface.md)
+ [INamedContextContainer Interface](../../web-development-reference\native-code-api-reference/inamedcontextcontainer-interface.md)

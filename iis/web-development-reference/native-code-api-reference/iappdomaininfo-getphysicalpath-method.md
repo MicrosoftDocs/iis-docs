@@ -43,4 +43,4 @@ virtual HRESULT __stdcall GetPhysicalPath(
 |Header|Webhost.h|  
   
 ## See Also  
- [IAppDomainInfo Interface](../../web-development-reference\webdev-native-api-reference/iappdomaininfo-interface.md)
+ [IAppDomainInfo Interface](../../web-development-reference\native-code-api-reference/iappdomaininfo-interface.md)

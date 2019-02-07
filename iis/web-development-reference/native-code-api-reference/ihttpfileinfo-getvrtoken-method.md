@@ -39,13 +39,13 @@ virtual HANDLE GetVrToken(
 >  Because some implementers return NULL on the `GetVrToken` method, always test for this condition before using the returned `HANDLE`.  
   
 ## Notes for Implementers  
- [IHttpFileInfo](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-interface.md) implementers are responsible for resource management with this data; therefore, `IHttpFileInfo` implementers must call `CloseHandle` on the `HANDLE` when it is no longer needed.  
+ [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) implementers are responsible for resource management with this data; therefore, `IHttpFileInfo` implementers must call `CloseHandle` on the `HANDLE` when it is no longer needed.  
   
 ## Notes for Callers  
  `IHttpFileInfo` implementers are responsible for resource management with this data; therefore, `IHttpFileInfo` clients must not call `CloseHandle` on the returned `HANDLE` when this data is no longer needed. Furthermore, clients must not change the state of the memory referenced by this `HANDLE`; otherwise, an access violation will be thrown or the data will become invalid.  
   
 ## Example  
- The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an [IHttpFileInfo](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-interface.md) interface for the current request. The example then calls the `GetVrToken` method to retrieve virtual token information for the requested file and displays this information to a Web client.  
+ The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference\native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) interface for the current request. The example then calls the `GetVrToken` method to retrieve virtual token information for the requested file and displays this information to a Web client.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpFileInfo#15](IHttpFileInfo#15)]  -->  
   
@@ -61,7 +61,7 @@ Content-Length: 17
 VR Token:  NULL  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -75,4 +75,4 @@ VR Token:  NULL
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpFileInfo Interface](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-interface.md)
+ [IHttpFileInfo Interface](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md)

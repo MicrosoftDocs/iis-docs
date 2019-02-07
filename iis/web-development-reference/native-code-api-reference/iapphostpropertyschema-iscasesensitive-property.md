@@ -47,4 +47,4 @@ HRESULT get_IsCaseSensitive(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertySchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-interface.md)
+ [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md)

@@ -38,7 +38,7 @@ virtual HRESULT GetToken(
  [IN] The logon method.  
   
  `ppTokenEntry`  
- [OUT] Points to the [IHttpTokenEntry](../../web-development-reference\webdev-native-api-reference/ihttptokenentry-interface.md) interface that represents the token.  
+ [OUT] Points to the [IHttpTokenEntry](../../web-development-reference\native-code-api-reference/ihttptokenentry-interface.md) interface that represents the token.  
   
  `pszDefaultDomain`  
  [IN] Optional default domain name.  
@@ -47,7 +47,7 @@ virtual HRESULT GetToken(
  [IN] Optional socket address.  
   
  `pHttpTraceContext`  
- [IN] Optional pointer to an [IHttpTraceContext](../../web-development-reference\webdev-native-api-reference/ihttptracecontext-interface.md) interface.  
+ [IN] Optional pointer to an [IHttpTraceContext](../../web-development-reference\native-code-api-reference/ihttptracecontext-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -66,4 +66,4 @@ virtual HRESULT GetToken(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer2 Interface](../../web-development-reference\webdev-native-api-reference/ihttpserver2-interface.md)
+ [IHttpServer2 Interface](../../web-development-reference\native-code-api-reference/ihttpserver2-interface.md)

@@ -25,7 +25,7 @@ virtual HRESULT SetPriorityForRequestNotification(
   
 #### Parameters  
  `dwRequestNotification`  
- [IN] A bitmask value that contains the request notifications to set for the priority level. (Defined in [Httpserv.h](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md).)  
+ [IN] A bitmask value that contains the request notifications to set for the priority level. (Defined in [Httpserv.h](../../web-development-reference\native-code-api-reference/request-processing-constants.md).)  
   
  `pszPriority`  
  [IN] A pointer to a string that contains the priority alias. (Defined in Httpserv.h.)  
@@ -38,7 +38,7 @@ virtual HRESULT SetPriorityForRequestNotification(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- The `SetPriorityForRequestNotification` method sets the priority level for a list of request-level notifications for which an HTTP module has registered. IIS uses the priority level to determine the order within a notification that modules should be organized. The priority levels are inverted for [CHttpModule::OnSendResponse](../../web-development-reference\webdev-native-api-reference/chttpmodule-onsendresponse-method.md) notifications. For example, an HTTP module that has registered for the [CHttpModule::OnBeginRequest](../../web-development-reference\webdev-native-api-reference/chttpmodule-onbeginrequest-method.md) notification by using the `PRIORITY_ALIAS_HIGH` alias would be prioritized before a module that has registered for the `OnBeginRequest` notification by using the `PRIORITY_ALIAS_LOW` alias. An HTTP module that has registered for the `OnSendResponse` notification by using the `PRIORITY_ALIAS_HIGH` alias would be run after a module that has registered for the `OnSendResponse` notification by using the `PRIORITY_ALIAS_LOW` alias.  
+ The `SetPriorityForRequestNotification` method sets the priority level for a list of request-level notifications for which an HTTP module has registered. IIS uses the priority level to determine the order within a notification that modules should be organized. The priority levels are inverted for [CHttpModule::OnSendResponse](../../web-development-reference\native-code-api-reference/chttpmodule-onsendresponse-method.md) notifications. For example, an HTTP module that has registered for the [CHttpModule::OnBeginRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onbeginrequest-method.md) notification by using the `PRIORITY_ALIAS_HIGH` alias would be prioritized before a module that has registered for the `OnBeginRequest` notification by using the `PRIORITY_ALIAS_LOW` alias. An HTTP module that has registered for the `OnSendResponse` notification by using the `PRIORITY_ALIAS_HIGH` alias would be run after a module that has registered for the `OnSendResponse` notification by using the `PRIORITY_ALIAS_LOW` alias.  
   
 > [!NOTE]
 >  The bitmask values for request-level notifications and priority aliases are defined in the Httpserv.h file.  
@@ -47,15 +47,15 @@ virtual HRESULT SetPriorityForRequestNotification(
 >  The priority levels are inverted for `RQ_SEND_RESPONSE` notifications.  
   
 ## Example  
- The following example demonstrates how to create an HTTP module that uses the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function and the following methods to register a module for global-level and request-level notifications.  
+ The following example demonstrates how to create an HTTP module that uses the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function and the following methods to register a module for global-level and request-level notifications.  
   
--   The [SetRequestNotifications](../../web-development-reference\webdev-native-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method registers a [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) class for a request-level [OnBeginRequest](../../web-development-reference\webdev-native-api-reference/chttpmodule-onbeginrequest-method.md) notification.  
+-   The [SetRequestNotifications](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method registers a [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class for a request-level [OnBeginRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onbeginrequest-method.md) notification.  
   
 -   The `SetPriorityForRequestNotification` method sets the module's priority for request-level notifications.  
   
--   The [SetGlobalNotifications](../../web-development-reference\webdev-native-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md) method registers a [CGlobalModule](../../web-development-reference\webdev-native-api-reference/cglobalmodule-class.md) class for a global-level [OnGlobalPreBeginRequest](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) notification.  
+-   The [SetGlobalNotifications](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md) method registers a [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) class for a global-level [OnGlobalPreBeginRequest](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalprebeginrequest-method.md) notification.  
   
--   The [SetPriorityForGlobalNotification](../../web-development-reference\webdev-native-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md) method sets the module's priority for global-level notification.  
+-   The [SetPriorityForGlobalNotification](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md) method sets the module's priority for global-level notification.  
   
  The module responds to the registered notifications and writes entries to the application log in the Event Viewer.  
   
@@ -78,8 +78,8 @@ virtual HRESULT SetPriorityForRequestNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpModuleRegistrationInfo Interface](../../web-development-reference\webdev-native-api-reference/ihttpmoduleregistrationinfo-interface.md)   
- [IHttpModuleRegistrationInfo::SetGlobalNotifications Method](../../web-development-reference\webdev-native-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md)   
- [IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification Method](../../web-development-reference\webdev-native-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md)   
- [IHttpModuleRegistrationInfo::SetRequestNotifications Method](../../web-development-reference\webdev-native-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md)   
- [PFN_REGISTERMODULE Function](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md)
+ [IHttpModuleRegistrationInfo Interface](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-interface.md)   
+ [IHttpModuleRegistrationInfo::SetGlobalNotifications Method](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setglobalnotifications-method.md)   
+ [IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification Method](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforglobalnotification-method.md)   
+ [IHttpModuleRegistrationInfo::SetRequestNotifications Method](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md)   
+ [PFN_REGISTERMODULE Function](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md)

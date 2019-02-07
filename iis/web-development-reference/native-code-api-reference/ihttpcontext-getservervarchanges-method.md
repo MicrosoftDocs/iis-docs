@@ -73,5 +73,5 @@ virtual HRESULT GetServerVarChanges(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md)   
- [IHttpContext::GetServerVariable Method](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getservervariable-method.md)
+ [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpContext::GetServerVariable Method](../../web-development-reference\native-code-api-reference/ihttpcontext-getservervariable-method.md)

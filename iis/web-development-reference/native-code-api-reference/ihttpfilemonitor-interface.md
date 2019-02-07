@@ -25,8 +25,8 @@ class IHttpFileMonitor
   
 |Name|Description|  
 |----------|-----------------|  
-|[DereferenceFileMonitor](../../web-development-reference\webdev-native-api-reference/ihttpfilemonitor-dereferencefilemonitor-method.md)|Releases a file monitor interface.|  
-|[GetModuleContextContainer](../../web-development-reference\webdev-native-api-reference/ihttpfilemonitor-getmodulecontextcontainer-method.md)|Retrieves the module context container for a file monitor interface.|  
+|[DereferenceFileMonitor](../../web-development-reference\native-code-api-reference/ihttpfilemonitor-dereferencefilemonitor-method.md)|Releases a file monitor interface.|  
+|[GetModuleContextContainer](../../web-development-reference\native-code-api-reference/ihttpfilemonitor-getmodulecontextcontainer-method.md)|Retrieves the module context container for a file monitor interface.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
@@ -43,5 +43,5 @@ class IHttpFileMonitor
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer::RegisterFileChangeMonitor Method](../../web-development-reference\webdev-native-api-reference/ihttpserver-registerfilechangemonitor-method.md)   
- [IGlobalFileChangeProvider::GetFileMonitor Method](../../web-development-reference\webdev-native-api-reference/iglobalfilechangeprovider-getfilemonitor-method.md)
+ [IHttpServer::RegisterFileChangeMonitor Method](../../web-development-reference\native-code-api-reference/ihttpserver-registerfilechangemonitor-method.md)   
+ [IGlobalFileChangeProvider::GetFileMonitor Method](../../web-development-reference\native-code-api-reference/iglobalfilechangeprovider-getfilemonitor-method.md)

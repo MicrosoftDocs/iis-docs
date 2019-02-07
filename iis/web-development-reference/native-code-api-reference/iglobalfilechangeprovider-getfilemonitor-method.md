@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IGlobalFileChangeProvider::GetFileMonitor Method
-Returns an [IHttpFileMonitor](../../web-development-reference\webdev-native-api-reference/ihttpfilemonitor-interface.md) file-change monitor.  
+Returns an [IHttpFileMonitor](../../web-development-reference\native-code-api-reference/ihttpfilemonitor-interface.md) file-change monitor.  
   
 ## Syntax  
   

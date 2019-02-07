@@ -26,15 +26,15 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [IHttpModuleContextContainer](../../web-development-reference\webdev-native-api-reference/ihttpmodulecontextcontainer-interface.md) interface.  
+ A pointer to an [IHttpModuleContextContainer](../../web-development-reference\native-code-api-reference/ihttpmodulecontextcontainer-interface.md) interface.  
   
 ## Remarks  
- The `GetModuleContextContainer` method return value depends on implementation. By default, the current implementation creates an [IDispensedHttpModuleContextContainer](../../web-development-reference\webdev-native-api-reference/idispensedhttpmodulecontextcontainer-interface.md) interface that is synchronized but not dispensed.  
+ The `GetModuleContextContainer` method return value depends on implementation. By default, the current implementation creates an [IDispensedHttpModuleContextContainer](../../web-development-reference\native-code-api-reference/idispensedhttpmodulecontextcontainer-interface.md) interface that is synchronized but not dispensed.  
   
 ## Notes for Implementers  
- [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpContext` implementers should create an `IDispensedHttpModuleContextContainer` pointer at construction and hold a `private` reference to this `IDispensedHttpModuleContextContainer` pointer for the life of the `IHttpContext` pointer. When you call the `GetModuleContextContainer` method, you should upcast and return this same `IDispensedHttpModuleContextContainer` pointer. When you call the destructor of the class that implements the `IHttpContext` interface, this destructor should call the [IDispensedHttpModuleContextContainer::ReleaseContainer](../../web-development-reference\webdev-native-api-reference/idispensedhttpmodulecontextcontainer-releasecontainer-method.md) method on this `private` reference and then set that reference to NULL.  
+ [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpContext` implementers should create an `IDispensedHttpModuleContextContainer` pointer at construction and hold a `private` reference to this `IDispensedHttpModuleContextContainer` pointer for the life of the `IHttpContext` pointer. When you call the `GetModuleContextContainer` method, you should upcast and return this same `IDispensedHttpModuleContextContainer` pointer. When you call the destructor of the class that implements the `IHttpContext` interface, this destructor should call the [IDispensedHttpModuleContextContainer::ReleaseContainer](../../web-development-reference\native-code-api-reference/idispensedhttpmodulecontextcontainer-releasecontainer-method.md) method on this `private` reference and then set that reference to NULL.  
   
- `GetModuleContextContainer` should not return NULL. If the internal container is NULL, set this internal container to the value on the call to [IHttpServer::DispenseContainer](../../web-development-reference\webdev-native-api-reference/ihttpserver-dispensecontainer-method.md), and then return this same container.  
+ `GetModuleContextContainer` should not return NULL. If the internal container is NULL, set this internal container to the value on the call to [IHttpServer::DispenseContainer](../../web-development-reference\native-code-api-reference/ihttpserver-dispensecontainer-method.md), and then return this same container.  
   
 > [!NOTE]
 >  Although implicit upcast operations are considered safe, consider using an explicit cast for program clarity. Also consider using the [dynamic_cast](http://go.microsoft.com/fwlink/?LinkId=57556) operator whenever possible.  
@@ -157,11 +157,11 @@ private:
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md)   
- [IHttpApplication::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/ihttpapplication-getmodulecontextcontainer-method.md)   
- [IHttpConnection::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/ihttpconnection-getmodulecontextcontainer-method.md)   
- [IHttpFileInfo::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getmodulecontextcontainer-method.md)   
- [IHttpFileMonitor::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/ihttpfilemonitor-getmodulecontextcontainer-method.md)   
- [IHttpSite::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/ihttpsite-getmodulecontextcontainer-method.md)   
- [IHttpUrlInfo::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/ihttpurlinfo-getmodulecontextcontainer-method.md)   
- [IMetadataInfo::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/imetadatainfo-getmodulecontextcontainer-method.md)
+ [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpApplication::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/ihttpapplication-getmodulecontextcontainer-method.md)   
+ [IHttpConnection::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/ihttpconnection-getmodulecontextcontainer-method.md)   
+ [IHttpFileInfo::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getmodulecontextcontainer-method.md)   
+ [IHttpFileMonitor::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/ihttpfilemonitor-getmodulecontextcontainer-method.md)   
+ [IHttpSite::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/ihttpsite-getmodulecontextcontainer-method.md)   
+ [IHttpUrlInfo::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/ihttpurlinfo-getmodulecontextcontainer-method.md)   
+ [IMetadataInfo::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/imetadatainfo-getmodulecontextcontainer-method.md)

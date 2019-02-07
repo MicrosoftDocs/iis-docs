@@ -28,7 +28,7 @@ HRESULT Log(
 |||  
 |-|-|  
 |Term|Definition|  
-|`pLoggingParameters`|[IN] A pointer to an [LOGGING_PARAMETERS Structure](../../ftp-extenisibility-reference\native-code-api\logging-parameters-structure.md) that contains FTP log information.|  
+|`pLoggingParameters`|[IN] A pointer to an [LOGGING_PARAMETERS Structure](../../ftp-extenisibility-reference\native-code-api-reference\logging-parameters-structure.md) that contains FTP log information.|  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -125,4 +125,4 @@ EXIT:
 |Reference|ftpext.tlb|  
   
 ## See Also  
- [IFtpLogProvider Interface](../../ftp-extenisibility-reference\native-code-api\iftplogprovider-interface-native.md)
+ [IFtpLogProvider Interface](../../ftp-extenisibility-reference\native-code-api-reference\iftplogprovider-interface-native.md)

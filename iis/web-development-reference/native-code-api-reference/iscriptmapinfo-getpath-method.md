@@ -34,14 +34,14 @@ virtual PCWSTR GetPath(
  For example, if a Web client requests a classic ASP page, the `GetPath` method will return "*.ASP" by default.  
   
 > [!NOTE]
->  Do not confuse `GetPath` with the [IScriptMapInfo::GetName](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getname-method.md) or [IScriptMapInfo::GetScriptProcessor](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getscriptprocessor-method.md) methods, which return the `name` and `scriptProcessor` attributes, respectively, for the request handler.  
+>  Do not confuse `GetPath` with the [IScriptMapInfo::GetName](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getname-method.md) or [IScriptMapInfo::GetScriptProcessor](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getscriptprocessor-method.md) methods, which return the `name` and `scriptProcessor` attributes, respectively, for the request handler.  
   
 ## Example  
- The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetPath` method to retrieve the `path` attribute for the request handler that is processing the current request. The module returns the `path` attribute to a Web client and then exits.  
+ The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference\native-code-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetPath` method to retrieve the `path` attribute for the request handler that is processing the current request. The module returns the `path` attribute to a Web client and then exits.  
   
 <!-- TODO: review snippet reference  [!CODE [IScriptMapInfoGetPath#1](IScriptMapInfoGetPath#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -55,4 +55,4 @@ virtual PCWSTR GetPath(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IScriptMapInfo Interface](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-interface.md)
+ [IScriptMapInfo Interface](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md)

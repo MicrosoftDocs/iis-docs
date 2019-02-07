@@ -29,7 +29,7 @@ HRESULT Item(
  A `VARIANT` that contains the index of the element to return from the collection.  
   
  `ppElement`  
- A pointer to a pointer for an [IAppHostElement](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) instance.  
+ A pointer to a pointer for an [IAppHostElement](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) instance.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -54,4 +54,4 @@ HRESULT Item(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostChildElementCollection Interface](../../web-development-reference\webdev-native-api-reference/iapphostchildelementcollection-interface.md)
+ [IAppHostChildElementCollection Interface](../../web-development-reference\native-code-api-reference/iapphostchildelementcollection-interface.md)

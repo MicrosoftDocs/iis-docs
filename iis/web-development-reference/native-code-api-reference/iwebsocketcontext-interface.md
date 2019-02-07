@@ -25,18 +25,18 @@ class IWebSocketContext : public IHttpStoredContext
   
 |Name|Description|  
 |----------|-----------------|  
-|[CancelOutstandingIO](../../web-development-reference\webdev-native-api-reference/iwebsocketcontext-canceloutstandingio-method.md)|Cancels all remaining input or output operations.|  
-|[CloseTcpConnection](../../web-development-reference\webdev-native-api-reference/iwebsocketcontext-closetcpconnection-method.md)|Signals the close of the TCP connection. The connection will not shut down until both sides acknowledge the close.|  
-|[GetCloseStatus](../../web-development-reference\webdev-native-api-reference/iwebsocketcontext-getclosestatus-method.md)|Retrieves the close status code for the connection.|  
-|[ReadFragment](../../web-development-reference\webdev-native-api-reference/iwebsocketcontext-readfragment-method.md)|Reads a data fragment from an asynchronous connection.|  
-|[SendConnectionClose](../../web-development-reference\webdev-native-api-reference/iwebsocketcontext-sendconnectionclose-method.md)|Signals the close of a WebSocket connection.|  
-|[WriteFragment](../../web-development-reference\webdev-native-api-reference/iwebsocketcontext-writefragment-method.md)|Writes a data fragment to an asynchronous connection.|  
+|[CancelOutstandingIO](../../web-development-reference\native-code-api-reference/iwebsocketcontext-canceloutstandingio-method.md)|Cancels all remaining input or output operations.|  
+|[CloseTcpConnection](../../web-development-reference\native-code-api-reference/iwebsocketcontext-closetcpconnection-method.md)|Signals the close of the TCP connection. The connection will not shut down until both sides acknowledge the close.|  
+|[GetCloseStatus](../../web-development-reference\native-code-api-reference/iwebsocketcontext-getclosestatus-method.md)|Retrieves the close status code for the connection.|  
+|[ReadFragment](../../web-development-reference\native-code-api-reference/iwebsocketcontext-readfragment-method.md)|Reads a data fragment from an asynchronous connection.|  
+|[SendConnectionClose](../../web-development-reference\native-code-api-reference/iwebsocketcontext-sendconnectionclose-method.md)|Signals the close of a WebSocket connection.|  
+|[WriteFragment](../../web-development-reference\native-code-api-reference/iwebsocketcontext-writefragment-method.md)|Writes a data fragment to an asynchronous connection.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
- [IHttpStoredContext](../../web-development-reference\webdev-native-api-reference/ihttpstoredcontext-interface.md)  
+ [IHttpStoredContext](../../web-development-reference\native-code-api-reference/ihttpstoredcontext-interface.md)  
   
  `IWebSocketContext`  
   
@@ -50,4 +50,4 @@ class IWebSocketContext : public IHttpStoredContext
 |Header|Iiswebsocket.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)

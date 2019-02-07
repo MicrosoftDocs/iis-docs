@@ -68,4 +68,4 @@ virtual HRESULT ReadEntityBody(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpRequest3](../../web-development-reference\webdev-native-api-reference/ihttprequest3-readentitybody-method.md)
+ [IHttpRequest3](../../web-development-reference\native-code-api-reference/ihttprequest3-readentitybody-method.md)

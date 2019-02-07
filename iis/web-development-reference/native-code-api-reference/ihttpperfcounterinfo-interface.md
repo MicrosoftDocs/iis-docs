@@ -25,11 +25,11 @@ class IHttpPerfCounterInfo
   
 |Name|Description|  
 |----------|-----------------|  
-|[DecrementCounter](../../web-development-reference\webdev-native-api-reference/ihttpperfcounterinfo-decrementcounter-method.md)|Decrements a performance counter by a specified amount.|  
-|[IncrementCounter](../../web-development-reference\webdev-native-api-reference/ihttpperfcounterinfo-incrementcounter-method.md)|Increments a performance counter by a specified amount.|  
+|[DecrementCounter](../../web-development-reference\native-code-api-reference/ihttpperfcounterinfo-decrementcounter-method.md)|Decrements a performance counter by a specified amount.|  
+|[IncrementCounter](../../web-development-reference\native-code-api-reference/ihttpperfcounterinfo-incrementcounter-method.md)|Increments a performance counter by a specified amount.|  
   
 ## Remarks  
- Calling the [IHttpServer::GetPerfCounterInfo](../../web-development-reference\webdev-native-api-reference/ihttpserver-getperfcounterinfo-method.md) and [IHttpSite::GetPerfCounterInfo](../../web-development-reference\webdev-native-api-reference/ihttpsite-getperfcounterinfo-method.md) methods will return, respectively, a server-level or site-level `IHttpPerfCounterInfo` interface, which is used to modify the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] performance counters.  
+ Calling the [IHttpServer::GetPerfCounterInfo](../../web-development-reference\native-code-api-reference/ihttpserver-getperfcounterinfo-method.md) and [IHttpSite::GetPerfCounterInfo](../../web-development-reference\native-code-api-reference/ihttpsite-getperfcounterinfo-method.md) methods will return, respectively, a server-level or site-level `IHttpPerfCounterInfo` interface, which is used to modify the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] performance counters.  
   
 > [!IMPORTANT]
 >  This interface is part of the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] infrastructure and is not intended to be used directly from your code.  
@@ -44,6 +44,6 @@ class IHttpPerfCounterInfo
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)   
- [IHttpServer::GetPerfCounterInfo Method](../../web-development-reference\webdev-native-api-reference/ihttpserver-getperfcounterinfo-method.md)   
- [IHttpSite::GetPerfCounterInfo Method](../../web-development-reference\webdev-native-api-reference/ihttpsite-getperfcounterinfo-method.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
+ [IHttpServer::GetPerfCounterInfo Method](../../web-development-reference\native-code-api-reference/ihttpserver-getperfcounterinfo-method.md)   
+ [IHttpSite::GetPerfCounterInfo Method](../../web-development-reference\native-code-api-reference/ihttpsite-getperfcounterinfo-method.md)

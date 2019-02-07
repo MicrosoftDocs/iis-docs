@@ -25,14 +25,14 @@ class IProtocolManager : public IWpfReferencedObject
   
 |Name|Description|  
 |----------|-----------------|  
-|[AddRef](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-addref-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md).)|  
-|[GetCustomInterface](../../web-development-reference\webdev-native-api-reference/iprotocolmanager-getcustominterface-method.md)|Retrieves a custom interface from a protocol manager.|  
-|[GetPmInterface](../../web-development-reference\webdev-native-api-reference/iprotocolmanager-getpminterface-method.md)|Retrieves a defined interface from a protocol manager.|  
-|[Release](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md).)|  
-|[Shutdown](../../web-development-reference\webdev-native-api-reference/iprotocolmanager-shutdown-method.md)|Shuts down a protocol manager.|  
+|[AddRef](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-addref-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md).)|  
+|[GetCustomInterface](../../web-development-reference\native-code-api-reference/iprotocolmanager-getcustominterface-method.md)|Retrieves a custom interface from a protocol manager.|  
+|[GetPmInterface](../../web-development-reference\native-code-api-reference/iprotocolmanager-getpminterface-method.md)|Retrieves a defined interface from a protocol manager.|  
+|[Release](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md).)|  
+|[Shutdown](../../web-development-reference\native-code-api-reference/iprotocolmanager-shutdown-method.md)|Shuts down a protocol manager.|  
   
 ## Inheritance Hierarchy  
- [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md)  
+ [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IProtocolManager`  
   
@@ -46,17 +46,17 @@ class IProtocolManager : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
- [ICustomActionResultCallback Interface](../../web-development-reference\webdev-native-api-reference/icustomactionresultcallback-interface.md)   
- [IHealthStatusCallback Interface](../../web-development-reference\webdev-native-api-reference/ihealthstatuscallback-interface.md)   
- [IPmCustomActions Interface](../../web-development-reference\webdev-native-api-reference/ipmcustomactions-interface.md)   
- [IPmHealthAndIdleMonitor Interface](../../web-development-reference\webdev-native-api-reference/ipmhealthandidlemonitor-interface.md)   
- [IPmListenerChannelManager Interface](../../web-development-reference\webdev-native-api-reference/ipmlistenerchannelmanager-interface.md)   
- [IWorkerProcessFramework Interface](../../web-development-reference\webdev-native-api-reference/iworkerprocessframework-interface.md)   
- [IWpfActions Interface](../../web-development-reference\webdev-native-api-reference/iwpfactions-interface.md)   
- [IWpfApplicationInfoUtil Interface](../../web-development-reference\webdev-native-api-reference/iwpfapplicationinfoutil-interface.md)   
- [IWpfExposeProtocolManagerCustomInterface Interface](../../web-development-reference\webdev-native-api-reference/iwpfexposeprotocolmanagercustominterface-interface.md)   
- [IWpfListenerChannelCallback Interface](../../web-development-reference\webdev-native-api-reference/iwpflistenerchannelcallback-interface.md)   
- [IWpfReferencedObject Interface](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md)   
- [IWpfSettings Interface](../../web-development-reference\webdev-native-api-reference/iwpfsettings-interface.md)   
- [Worker Process and Protocol Manager Interfaces](../../web-development-reference\webdev-native-api-reference/worker-process-and-protocol-manager-interfaces.md)   
- [Worker Process Framework API Reference](../../web-development-reference\webdev-native-api-reference/worker-process-framework-api-reference.md)
+ [ICustomActionResultCallback Interface](../../web-development-reference\native-code-api-reference/icustomactionresultcallback-interface.md)   
+ [IHealthStatusCallback Interface](../../web-development-reference\native-code-api-reference/ihealthstatuscallback-interface.md)   
+ [IPmCustomActions Interface](../../web-development-reference\native-code-api-reference/ipmcustomactions-interface.md)   
+ [IPmHealthAndIdleMonitor Interface](../../web-development-reference\native-code-api-reference/ipmhealthandidlemonitor-interface.md)   
+ [IPmListenerChannelManager Interface](../../web-development-reference\native-code-api-reference/ipmlistenerchannelmanager-interface.md)   
+ [IWorkerProcessFramework Interface](../../web-development-reference\native-code-api-reference/iworkerprocessframework-interface.md)   
+ [IWpfActions Interface](../../web-development-reference\native-code-api-reference/iwpfactions-interface.md)   
+ [IWpfApplicationInfoUtil Interface](../../web-development-reference\native-code-api-reference/iwpfapplicationinfoutil-interface.md)   
+ [IWpfExposeProtocolManagerCustomInterface Interface](../../web-development-reference\native-code-api-reference/iwpfexposeprotocolmanagercustominterface-interface.md)   
+ [IWpfListenerChannelCallback Interface](../../web-development-reference\native-code-api-reference/iwpflistenerchannelcallback-interface.md)   
+ [IWpfReferencedObject Interface](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md)   
+ [IWpfSettings Interface](../../web-development-reference\native-code-api-reference/iwpfsettings-interface.md)   
+ [Worker Process and Protocol Manager Interfaces](../../web-development-reference\native-code-api-reference/worker-process-and-protocol-manager-interfaces.md)   
+ [Worker Process Framework API Reference](../../web-development-reference\native-code-api-reference/worker-process-framework-api-reference.md)

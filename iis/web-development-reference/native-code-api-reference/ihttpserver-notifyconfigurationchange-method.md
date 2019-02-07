@@ -30,17 +30,17 @@ virtual VOID NotifyConfigurationChange(
  `VOID`.  
   
 ## Remarks  
- [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] automatically triggers a [GL_CONFIGURATION_CHANGE](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) notification when the ApplicationHost.config file is modified. Developers can use the `NotifyConfigurationChange` method to manually trigger a `GL_CONFIGURATION_CHANGE` notification for the configuration path that is specified in the `pszPath` parameter.  
+ [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] automatically triggers a [GL_CONFIGURATION_CHANGE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification when the ApplicationHost.config file is modified. Developers can use the `NotifyConfigurationChange` method to manually trigger a `GL_CONFIGURATION_CHANGE` notification for the configuration path that is specified in the `pszPath` parameter.  
   
 > [!NOTE]
->  Developers can use the [CGlobalModule::OnGlobalConfigurationChange](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobalconfigurationchange-method.md) method to provide additional processing when a `GL_CONFIGURATION_CHANGE` notification occurs.  
+>  Developers can use the [CGlobalModule::OnGlobalConfigurationChange](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalconfigurationchange-method.md) method to provide additional processing when a `GL_CONFIGURATION_CHANGE` notification occurs.  
   
 ## Example  
  The following code example demonstrates how to use the `NotifyConfigurationChange` method to create an HTTP module that manually triggers a `GL_CONFIGURATION_CHANGE` notification for the MACHINE/WEBROOT/APPHOST/Default Web Site configuration path.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpServerNotifyConfigurationChange#1](IHttpServerNotifyConfigurationChange#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -54,5 +54,5 @@ virtual VOID NotifyConfigurationChange(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference\webdev-native-api-reference/ihttpserver-interface.md)   
- [CGlobalModule::OnGlobalConfigurationChange Method](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobalconfigurationchange-method.md)
+ [IHttpServer Interface](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md)   
+ [CGlobalModule::OnGlobalConfigurationChange Method](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalconfigurationchange-method.md)

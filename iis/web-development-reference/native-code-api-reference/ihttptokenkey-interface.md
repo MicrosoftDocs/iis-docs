@@ -25,14 +25,14 @@ class IHttpTokenKey : public IHttpCacheKey
   
 |Name|Description|  
 |----------|-----------------|  
-|[Enum](../../web-development-reference\webdev-native-api-reference/ihttpcachekey-enum-method.md)|(Inherited from [IHttpCacheKey](../../web-development-reference\webdev-native-api-reference/ihttpcachekey-interface.md).)|  
-|[GetCacheName](../../web-development-reference\webdev-native-api-reference/ihttptokenkey-getcachename-method.md)|Overridden. Returns the name of the global token cache.|  
-|[GetHash](../../web-development-reference\webdev-native-api-reference/ihttpcachekey-gethash-method.md)|(Inherited from `IHttpCacheKey`.)|  
-|[GetIsEqual](../../web-development-reference\webdev-native-api-reference/ihttpcachekey-getisequal-method.md)|(Inherited from `IHttpCacheKey`.)|  
-|[GetIsPrefix](../../web-development-reference\webdev-native-api-reference/ihttpcachekey-getisprefix-method.md)|(Inherited from `IHttpCacheKey`.)|  
-|[GetLogonMethod](../../web-development-reference\webdev-native-api-reference/ihttptokenkey-getlogonmethod-method.md)|Returns the `LOGON32_*` value used when the user logs on.|  
-|[GetPasswordHash](../../web-development-reference\webdev-native-api-reference/ihttptokenkey-getpasswordhash-method.md)|Returns the user password as a hash value.|  
-|[GetUserName](../../web-development-reference\webdev-native-api-reference/ihttptokenkey-getusername-method.md)|Returns the user name.|  
+|[Enum](../../web-development-reference\native-code-api-reference/ihttpcachekey-enum-method.md)|(Inherited from [IHttpCacheKey](../../web-development-reference\native-code-api-reference/ihttpcachekey-interface.md).)|  
+|[GetCacheName](../../web-development-reference\native-code-api-reference/ihttptokenkey-getcachename-method.md)|Overridden. Returns the name of the global token cache.|  
+|[GetHash](../../web-development-reference\native-code-api-reference/ihttpcachekey-gethash-method.md)|(Inherited from `IHttpCacheKey`.)|  
+|[GetIsEqual](../../web-development-reference\native-code-api-reference/ihttpcachekey-getisequal-method.md)|(Inherited from `IHttpCacheKey`.)|  
+|[GetIsPrefix](../../web-development-reference\native-code-api-reference/ihttpcachekey-getisprefix-method.md)|(Inherited from `IHttpCacheKey`.)|  
+|[GetLogonMethod](../../web-development-reference\native-code-api-reference/ihttptokenkey-getlogonmethod-method.md)|Returns the `LOGON32_*` value used when the user logs on.|  
+|[GetPasswordHash](../../web-development-reference\native-code-api-reference/ihttptokenkey-getpasswordhash-method.md)|Returns the user password as a hash value.|  
+|[GetUserName](../../web-development-reference\native-code-api-reference/ihttptokenkey-getusername-method.md)|Returns the user name.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
@@ -40,13 +40,13 @@ class IHttpTokenKey : public IHttpCacheKey
 ## Remarks  
  Whenever a user logs on to a Web site, a token is created for that user. The `IHttpTokenKey` interface implements methods for gaining access to data that represents that user.  
   
- `IHttpTokenKey` extends the [IHttpCacheKey](../../web-development-reference\webdev-native-api-reference/ihttpcachekey-interface.md) interface by adding support for returning-user information, such as the logon method, the password hash, and the user name. `IHttpTokenKey` also overrides the [IHttpCacheKey::GetCacheName](../../web-development-reference\webdev-native-api-reference/ihttpcachekey-getcachename-method.md) method by providing the default implementation through the [IHttpTokenKey::GetCacheName](../../web-development-reference\webdev-native-api-reference/ihttptokenkey-getcachename-method.md) method.  
+ `IHttpTokenKey` extends the [IHttpCacheKey](../../web-development-reference\native-code-api-reference/ihttpcachekey-interface.md) interface by adding support for returning-user information, such as the logon method, the password hash, and the user name. `IHttpTokenKey` also overrides the [IHttpCacheKey::GetCacheName](../../web-development-reference\native-code-api-reference/ihttpcachekey-getcachename-method.md) method by providing the default implementation through the [IHttpTokenKey::GetCacheName](../../web-development-reference\native-code-api-reference/ihttptokenkey-getcachename-method.md) method.  
   
 ## Notes for Implementers  
  Each nonabstract class that implements the `IHttpTokenKey` interface must provide an algorithm in the `GetHash` method that maps the data that an `IHttpTokenKey` pointer holds to a unique `DWORD` value for that data across the global token cache.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events and then writes the `IHttpTokenKey` information to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpTokenKey` information to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
@@ -68,12 +68,12 @@ class IHttpTokenKey : public IHttpCacheKey
 </cacheProvider>  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
- [IHttpCacheKey](../../web-development-reference\webdev-native-api-reference/ihttpcachekey-interface.md)  
+ [IHttpCacheKey](../../web-development-reference\native-code-api-reference/ihttpcachekey-interface.md)  
   
  `IHttpTokenKey`  
   
@@ -87,4 +87,4 @@ class IHttpTokenKey : public IHttpCacheKey
 |Header|Httpcach.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)

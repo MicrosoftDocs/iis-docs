@@ -44,5 +44,5 @@ HRESULT get_IsUniqueKey(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertySchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-interface.md)   
- [IAppHostPropertySchema::IsCombinedKey Property](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-iscombinedkey-property.md)
+ [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md)   
+ [IAppHostPropertySchema::IsCombinedKey Property](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-iscombinedkey-property.md)

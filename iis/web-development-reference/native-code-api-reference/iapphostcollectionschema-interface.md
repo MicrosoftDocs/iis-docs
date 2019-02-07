@@ -25,19 +25,19 @@ interface IAppHostCollectionSchema : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetAddElementSchema](../../web-development-reference\webdev-native-api-reference/iapphostcollectionschema-getaddelementschema-method.md)|Gets the schema for the `add` element that has the requested name.|  
-|[GetMetadata](../../web-development-reference\webdev-native-api-reference/iapphostcollectionschema-getmetadata-method.md)|Gets metadata from the collection schema.|  
+|[GetAddElementSchema](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-getaddelementschema-method.md)|Gets the schema for the `add` element that has the requested name.|  
+|[GetMetadata](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-getmetadata-method.md)|Gets metadata from the collection schema.|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostCollectionSchema` interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[AddElementNames](../../web-development-reference\webdev-native-api-reference/iapphostcollectionschema-addelementnames-property.md)|Gets a comma-delimited list of `add` element names that are valid for the collection.|  
-|[ClearElementSchema](../../web-development-reference\webdev-native-api-reference/iapphostcollectionschema-clearelementschema-property.md)|Gets the schema for the element that will be used to clear all items from the collection.|  
-|[DoesAllowDuplicates](../../web-development-reference\webdev-native-api-reference/iapphostcollectionschema-doesallowduplicates-property.md)|Gets a Boolean value that determines whether a collection that implements the current schema allows for duplicate keys.|  
-|[IsMergeAppend](../../web-development-reference\webdev-native-api-reference/iapphostcollectionschema-ismergeappend-property.md)|Gets a value that determines whether local collection elements are merged after inherited elements are added.|  
-|[RemoveElementSchema](../../web-development-reference\webdev-native-api-reference/iapphostcollectionschema-removeelementschema-property.md)|Gets the schema for the element that will be used to remove an item from the collection.|  
+|[AddElementNames](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-addelementnames-property.md)|Gets a comma-delimited list of `add` element names that are valid for the collection.|  
+|[ClearElementSchema](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-clearelementschema-property.md)|Gets the schema for the element that will be used to clear all items from the collection.|  
+|[DoesAllowDuplicates](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-doesallowduplicates-property.md)|Gets a Boolean value that determines whether a collection that implements the current schema allows for duplicate keys.|  
+|[IsMergeAppend](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-ismergeappend-property.md)|Gets a value that determines whether local collection elements are merged after inherited elements are added.|  
+|[RemoveElementSchema](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-removeelementschema-property.md)|Gets the schema for the element that will be used to remove an item from the collection.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -54,4 +54,4 @@ interface IAppHostCollectionSchema : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration API Reference](../../web-development-reference\webdev-native-api-reference/application-host-administration-api-reference.md)
+ [Application Host Administration API Reference](../../web-development-reference\native-code-api-reference/application-host-administration-api-reference.md)

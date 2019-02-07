@@ -52,4 +52,4 @@ HRESULT OnSectionChanges(
  An example of a `bstrConfigPath` is "MACHINE/WEBROOT/APPHOST". An example of a `bstrSectionName` is "system.webServer/defaultDocument".  
   
 ## See Also  
- [IAppHostChangeHandler Interface](../../web-development-reference\webdev-native-api-reference/iapphostchangehandler-interface.md)
+ [IAppHostChangeHandler Interface](../../web-development-reference\native-code-api-reference/iapphostchangehandler-interface.md)

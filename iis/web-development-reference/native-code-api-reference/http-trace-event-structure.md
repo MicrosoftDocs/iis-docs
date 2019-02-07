@@ -38,7 +38,7 @@ struct HTTP_TRACE_EVENT{
   
 |Member name|Description|  
 |-----------------|-----------------|  
-|`pProviderGuid`|An `LPCGUID` that contains the identifier of the provider. Possible values include, but are not limited to, the values in the Tracing GUIDs section defined in [Tracing Constants](../../web-development-reference\webdev-native-api-reference/tracing-constants.md).|  
+|`pProviderGuid`|An `LPCGUID` that contains the identifier of the provider. Possible values include, but are not limited to, the values in the Tracing GUIDs section defined in [Tracing Constants](../../web-development-reference\native-code-api-reference/tracing-constants.md).|  
 |`dwArea`|A `DWORD` that contains the area of interest for the event. The area value should be a positive integer.|  
 |`pAreaGuid`|A `LPCGUID` that indicates the area of interest.|  
 |`dwEvent`|A `DWORD` that contains the unique identifier of the event for the event provider.|  
@@ -48,21 +48,21 @@ struct HTTP_TRACE_EVENT{
 |`pActivityGuid`|A `LPCGUID` that contains the unique request identifier.|  
 |`pRelatedActivityGuid`|A `LPCGUID` that contains a value for associating related activities. Most providers set this value to NULL and then allow IIS to populate the value before sending the event to event listeners.|  
 |`dwTimeStamp`|A `DWORD` that contains the optional time stamp, represented by an internal tick count.|  
-|`dwFlags`|A `DWORD` that contains additional flags. Most providers set this value to HTTP_TRACE_EVENT_FLAG_STATIC_DESCRIPTIVE_FIELDS, described in the Tracing Constants section defined in [Tracing Constants](../../web-development-reference\webdev-native-api-reference/tracing-constants.md).|  
+|`dwFlags`|A `DWORD` that contains additional flags. Most providers set this value to HTTP_TRACE_EVENT_FLAG_STATIC_DESCRIPTIVE_FIELDS, described in the Tracing Constants section defined in [Tracing Constants](../../web-development-reference\native-code-api-reference/tracing-constants.md).|  
 |`cEventItems`|A `DWORD` that contains the number of elements in the `pEventItems` array.|  
-|`pEventItems`|An array of [HTTP_TRACE_EVENT_ITEM Structure](../../web-development-reference\webdev-native-api-reference/http-trace-event-item-structure.md) structures of length `cEventItems`.|  
+|`pEventItems`|An array of [HTTP_TRACE_EVENT_ITEM Structure](../../web-development-reference\native-code-api-reference/http-trace-event-item-structure.md) structures of length `cEventItems`.|  
   
 ## Remarks  
  Most of the members of the `HTTP_TRACE_EVENT` structure map directly to Event Tracing for Windows (ETW) events. The `dwArea` and `pAreaGuid` members are unique to IIS.  
   
- [CGlobalModule](../../web-development-reference\webdev-native-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) event types receive an [IGlobalTraceEventProvider](../../web-development-reference\webdev-native-api-reference/iglobaltraceeventprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method. You can then retrieve an `HTTP_TRACE_EVENT` pointer by calling the [IGlobalTraceEventProvider::GetTraceEvent](../../web-development-reference\webdev-native-api-reference/iglobaltraceeventprovider-gettraceevent-method.md) method, for which you supply a pointer to the address of a NULL `HTTP_TRACE_EVENT` structure.  
+ [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../web-development-reference\native-code-api-reference/request-processing-constants.md) event types receive an [IGlobalTraceEventProvider](../../web-development-reference\native-code-api-reference/iglobaltraceeventprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method. You can then retrieve an `HTTP_TRACE_EVENT` pointer by calling the [IGlobalTraceEventProvider::GetTraceEvent](../../web-development-reference\native-code-api-reference/iglobaltraceeventprovider-gettraceevent-method.md) method, for which you supply a pointer to the address of a NULL `HTTP_TRACE_EVENT` structure.  
   
- For more information, see [Tracing Constants](../../web-development-reference\webdev-native-api-reference/tracing-constants.md).  
+ For more information, see [Tracing Constants](../../web-development-reference\native-code-api-reference/tracing-constants.md).  
   
  The `dwArea` and `pAreaGuid` members contain two different constants for the area of interest for an event.  
   
 ## Example  
- The following example populates the `HTTP_TRACE_EVENT` structure and calls the [IHttpTraceContext::RaiseTraceEvent](../../web-development-reference\webdev-native-api-reference/ihttptracecontext-raisetraceevent-method.md) method.  
+ The following example populates the `HTTP_TRACE_EVENT` structure and calls the [IHttpTraceContext::RaiseTraceEvent](../../web-development-reference\native-code-api-reference/ihttptracecontext-raisetraceevent-method.md) method.  
   
 <!-- TODO: review snippet reference  [!CODE [_RaiseEvnt#2](_RaiseEvnt#2)]  -->  
 <!-- TODO: review snippet reference [!CODE [_RaiseEvnt#3](_RaiseEvnt#3)]  -->  
@@ -113,4 +113,4 @@ struct HTTP_TRACE_EVENT{
 |Header|Httptrace.h|  
   
 ## See Also  
- [Web Server Core Structures](../../web-development-reference\webdev-native-api-reference/web-server-core-structures.md)
+ [Web Server Core Structures](../../web-development-reference\native-code-api-reference/web-server-core-structures.md)

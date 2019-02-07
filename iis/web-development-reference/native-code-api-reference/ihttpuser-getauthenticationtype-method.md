@@ -29,7 +29,7 @@ virtual PCWSTR GetAuthenticationType(
  A pointer to a constant null-terminated Unicode string that contains the authentication type.  
   
 ## Remarks  
- You can use the values returned from methods such as [GetUserName](../../web-development-reference\webdev-native-api-reference/ihttpuser-getusername-method.md), [GetRemoteUserName](../../web-development-reference\webdev-native-api-reference/ihttpuser-getremoteusername-method.md), [GetPassword](../../web-development-reference\webdev-native-api-reference/ihttpuser-getpassword-method.md), and `GetAuthenticationType` on an [IHttpUser](../../web-development-reference\webdev-native-api-reference/ihttpuser-interface.md) pointer to create custom user authentication. For an example, see the [IAuthenticationProvider](../../web-development-reference\webdev-native-api-reference/iauthenticationprovider-interface.md) interface.  
+ You can use the values returned from methods such as [GetUserName](../../web-development-reference\native-code-api-reference/ihttpuser-getusername-method.md), [GetRemoteUserName](../../web-development-reference\native-code-api-reference/ihttpuser-getremoteusername-method.md), [GetPassword](../../web-development-reference\native-code-api-reference/ihttpuser-getpassword-method.md), and `GetAuthenticationType` on an [IHttpUser](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md) pointer to create custom user authentication. For an example, see the [IAuthenticationProvider](../../web-development-reference\native-code-api-reference/iauthenticationprovider-interface.md) interface.  
   
  The following table shows authentication types with the return values from the `GetAuthenticationType` method.  
   
@@ -59,7 +59,7 @@ virtual PCWSTR GetAuthenticationType(
 <user authType="Negotiate" />  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -73,4 +73,4 @@ virtual PCWSTR GetAuthenticationType(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpUser Interface](../../web-development-reference\webdev-native-api-reference/ihttpuser-interface.md)
+ [IHttpUser Interface](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md)

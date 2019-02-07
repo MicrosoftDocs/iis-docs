@@ -24,7 +24,7 @@ virtual VOID SetUser(
   
 #### Parameters  
  `pUser`  
- An authenticated pointer to an [IHttpUser](../../web-development-reference\webdev-native-api-reference/ihttpuser-interface.md).  
+ An authenticated pointer to an [IHttpUser](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md).  
   
 ## Remarks  
  If the `pUser` parameter is NULL, the default authentication continues.  
@@ -32,7 +32,7 @@ virtual VOID SetUser(
  Calling the `SetUser` method with a non-NULL `IHttpUser` pointer will authenticate that user immediately.  
   
 ## Notes for Implementers  
- [IAuthenticationProvider](../../web-development-reference\webdev-native-api-reference/iauthenticationprovider-interface.md) implementers assume responsibility for memory management with this data; therefore, `IAuthenticationProvider` implementers must call the [IHttpUser::DereferenceUser](../../web-development-reference\webdev-native-api-reference/ihttpuser-dereferenceuser-method.md) method when they no longer need the `IHttpUser`.  
+ [IAuthenticationProvider](../../web-development-reference\native-code-api-reference/iauthenticationprovider-interface.md) implementers assume responsibility for memory management with this data; therefore, `IAuthenticationProvider` implementers must call the [IHttpUser::DereferenceUser](../../web-development-reference\native-code-api-reference/ihttpuser-dereferenceuser-method.md) method when they no longer need the `IHttpUser`.  
   
 ## Notes for Callers  
  `IAuthenticationProvider` callers are responsible for creating a custom `IHttpUser` pointer on the heap before calling `SetUser`; `IAuthenticationProvider` implementers then assume responsibility for this `new` pointer.  
@@ -60,7 +60,7 @@ virtual VOID SetUser(
     userVariable="NULL" />  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -74,6 +74,6 @@ virtual VOID SetUser(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IAuthenticationProvider Interface](../../web-development-reference\webdev-native-api-reference/iauthenticationprovider-interface.md)   
- [CHttpModule Class](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md)   
- [CHttpModule::OnAuthenticateRequest Method](../../web-development-reference\webdev-native-api-reference/chttpmodule-onauthenticaterequest-method.md)
+ [IAuthenticationProvider Interface](../../web-development-reference\native-code-api-reference/iauthenticationprovider-interface.md)   
+ [CHttpModule Class](../../web-development-reference\native-code-api-reference/chttpmodule-class.md)   
+ [CHttpModule::OnAuthenticateRequest Method](../../web-development-reference\native-code-api-reference/chttpmodule-onauthenticaterequest-method.md)

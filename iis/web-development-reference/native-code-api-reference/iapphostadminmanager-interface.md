@@ -25,21 +25,21 @@ IAppHostAdminManager : public IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetAdminSection](../../web-development-reference\webdev-native-api-reference/iapphostadminmanager-getadminsection-method.md)|Gets an [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration section that has the requested name and configuration path.|  
-|[GetMetadata](../../web-development-reference\webdev-native-api-reference/iapphostadminmanager-getmetadata-method.md)|Gets metadata values from the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.|  
-|[SetMetadata](../../web-development-reference\webdev-native-api-reference/iapphostadminmanager-setmetadata-method.md)|Sets metadata values in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.|  
+|[GetAdminSection](../../web-development-reference\native-code-api-reference/iapphostadminmanager-getadminsection-method.md)|Gets an [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration section that has the requested name and configuration path.|  
+|[GetMetadata](../../web-development-reference\native-code-api-reference/iapphostadminmanager-getmetadata-method.md)|Gets metadata values from the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.|  
+|[SetMetadata](../../web-development-reference\native-code-api-reference/iapphostadminmanager-setmetadata-method.md)|Sets metadata values in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostAdminManager` interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[ConfigManager](../../web-development-reference\webdev-native-api-reference/iapphostadminmanager-configmanager-property.md)|Gets an [IAppHostConfigManager](../../web-development-reference\webdev-native-api-reference/iapphostconfigmanager-interface.md) interface that provides access to the physical files in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.|  
+|[ConfigManager](../../web-development-reference\native-code-api-reference/iapphostadminmanager-configmanager-property.md)|Gets an [IAppHostConfigManager](../../web-development-reference\native-code-api-reference/iapphostconfigmanager-interface.md) interface that provides access to the physical files in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.|  
   
 ## Remarks  
  The `IAppHostAdminManager` interface provides read-only access to the effective values of a merged configuration set in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system. For a specified configuration path, the return values of this method represent the values in the hierarchically merged configuration set.  
   
- For access to set explicit values in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system, use the [IAppHostWritableAdminManager](../../web-development-reference\webdev-native-api-reference/iapphostwritableadminmanager-interface.md) interface.  
+ For access to set explicit values in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system, use the [IAppHostWritableAdminManager](../../web-development-reference\native-code-api-reference/iapphostwritableadminmanager-interface.md) interface.  
   
 ## Inheritance Hierarchy  
  [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -56,5 +56,5 @@ IAppHostAdminManager : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostWritableAdminManager Interface](../../web-development-reference\webdev-native-api-reference/iapphostwritableadminmanager-interface.md)   
- [Application Host Administration API Reference](../../web-development-reference\webdev-native-api-reference/application-host-administration-api-reference.md)
+ [IAppHostWritableAdminManager Interface](../../web-development-reference\native-code-api-reference/iapphostwritableadminmanager-interface.md)   
+ [Application Host Administration API Reference](../../web-development-reference\native-code-api-reference/application-host-administration-api-reference.md)

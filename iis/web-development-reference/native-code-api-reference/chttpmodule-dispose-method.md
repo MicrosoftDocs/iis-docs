@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # CHttpModule::Dispose Method
-Releases all resources used by the current instance of the [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) class.  
+Releases all resources used by the current instance of the [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class.  
   
 ## Syntax  
   
@@ -35,13 +35,13 @@ virtual VOID Dispose(
 >  Typically you create a class that is derived from `CHttpModule` by using the C++ `new` operator. Classes that were created with the `new` operator do not need to implement the `Dispose` method to perform any cleanup at the end of the request.  
   
 ## Example  
- The following example demonstrates how to create a simple "Hello World" HTTP module. The module defines an exported `RegisterModule` function that passes an instance of an `IHttpModuleFactory` interface to the [IHttpModuleRegistrationInfo::SetRequestNotifications](../../web-development-reference\webdev-native-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method and registers for the [RQ_BEGIN_REQUEST](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) notification. IIS uses the [IHttpModuleFactory::GetHttpModule](../../web-development-reference\webdev-native-api-reference/ihttpmodulefactory-gethttpmodule-method.md) method to create an instance of a `CHttpModule` class and returns a success status. IIS also uses the [IHttpModuleFactory::Terminate](../../web-development-reference\webdev-native-api-reference/ihttpmodulefactory-terminate-method.md) method to remove the factory from memory.  
+ The following example demonstrates how to create a simple "Hello World" HTTP module. The module defines an exported `RegisterModule` function that passes an instance of an `IHttpModuleFactory` interface to the [IHttpModuleRegistrationInfo::SetRequestNotifications](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setrequestnotifications-method.md) method and registers for the [RQ_BEGIN_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification. IIS uses the [IHttpModuleFactory::GetHttpModule](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-gethttpmodule-method.md) method to create an instance of a `CHttpModule` class and returns a success status. IIS also uses the [IHttpModuleFactory::Terminate](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-terminate-method.md) method to remove the factory from memory.  
   
- When an `RQ_BEGIN_REQUEST` notification occurs, IIS calls the module's [CHttpModule::OnBeginRequest](../../web-development-reference\webdev-native-api-reference/chttpmodule-onbeginrequest-method.md) method to process the current request. `OnBeginRequest` clears the response buffer and modifies the MIME type for the response. The method then creates a data chunk that contains a "Hello World" string and returns the string to a Web client. Finally, the module returns [RQ_NOTIFICATION_FINISH_REQUEST](../../web-development-reference\webdev-native-api-reference/request-notification-status-enumeration.md) to notify IIS that all notifications are finished and then exits.  
+ When an `RQ_BEGIN_REQUEST` notification occurs, IIS calls the module's [CHttpModule::OnBeginRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onbeginrequest-method.md) method to process the current request. `OnBeginRequest` clears the response buffer and modifies the MIME type for the response. The method then creates a data chunk that contains a "Hello World" string and returns the string to a Web client. Finally, the module returns [RQ_NOTIFICATION_FINISH_REQUEST](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) to notify IIS that all notifications are finished and then exits.  
   
 <!-- TODO: review snippet reference  [!CODE [CHttpModuleHelloWorld#1](CHttpModuleHelloWorld#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -55,4 +55,4 @@ virtual VOID Dispose(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md)
+ [CHttpModule Class](../../web-development-reference\native-code-api-reference/chttpmodule-class.md)

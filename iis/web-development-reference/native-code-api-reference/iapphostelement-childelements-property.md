@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostElement::ChildElements Property
-Represents a collection of child elements that are nested under the current [IAppHostElement](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) interface.  
+Represents a collection of child elements that are nested under the current [IAppHostElement](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) interface.  
   
 ## Syntax  
   
@@ -25,7 +25,7 @@ HRESULT get_ChildElements(
   
 #### Parameters  
  `ppElements`  
- A pointer to a pointer for an [IAppHostChildElementCollection](../../web-development-reference\webdev-native-api-reference/iapphostchildelementcollection-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostChildElementCollection](../../web-development-reference\native-code-api-reference/iapphostchildelementcollection-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -35,7 +35,7 @@ HRESULT get_ChildElements(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- A child element collection that is represented in the `IAppHostElement::ChildElements` property differs from a nested element collection represented in the [IAppHostElement::Collection](../../web-development-reference\webdev-native-api-reference/iapphostelement-collection-property.md) property. Both collections contain pointers to `IAppHostElement` interfaces. However, you should use the `IAppHostElement::ChildElements` property when you query the configuration for unique child elements, such as the `system.webServer/asp` configuration section. In the following configuration example, the `<cache/>` element is a child element of the `system.webServer/asp` configuration section.  
+ A child element collection that is represented in the `IAppHostElement::ChildElements` property differs from a nested element collection represented in the [IAppHostElement::Collection](../../web-development-reference\native-code-api-reference/iapphostelement-collection-property.md) property. Both collections contain pointers to `IAppHostElement` interfaces. However, you should use the `IAppHostElement::ChildElements` property when you query the configuration for unique child elements, such as the `system.webServer/asp` configuration section. In the following configuration example, the `<cache/>` element is a child element of the `system.webServer/asp` configuration section.  
   
 ```  
 <system.webServer>  
@@ -92,5 +92,5 @@ HRESULT get_ChildElements(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md)   
- [IAppHostElement::Collection Property](../../web-development-reference\webdev-native-api-reference/iapphostelement-collection-property.md)
+ [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)   
+ [IAppHostElement::Collection Property](../../web-development-reference\native-code-api-reference/iapphostelement-collection-property.md)

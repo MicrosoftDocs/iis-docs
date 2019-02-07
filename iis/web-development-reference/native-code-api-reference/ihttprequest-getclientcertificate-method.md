@@ -46,10 +46,10 @@ HRESULT GetClientCertificate(
   
  Developers can use the `GetClientCertificate` method to retrieve the client certificate associated with the current request. After you call the `GetClientCertificate` method, the `ppClientCertInfo` parameter will contain a pointer to an `HTTP_SSL_CLIENT_CERT_INFO` structure, which will contain the client certificate if one is available or NULL if no certificate is available.  
   
- For URLs that do not require a client certificate, you can call the [NegotiateClientCertificate](../../web-development-reference\webdev-native-api-reference/ihttprequest-negotiateclientcertificate-method.md) method before you call `GetClientCertificate` to attempt a manual loading of the client certificate.  
+ For URLs that do not require a client certificate, you can call the [NegotiateClientCertificate](../../web-development-reference\native-code-api-reference/ihttprequest-negotiateclientcertificate-method.md) method before you call `GetClientCertificate` to attempt a manual loading of the client certificate.  
   
 ## Example  
- The following example demonstrates how to get a pointer to the [HTTP_SSL_CLIENT_CERT_INFO](http://go.microsoft.com/fwlink/?LinkId=63150) structure by implementing the [CHttpModule::OnBeginRequest](../../web-development-reference\webdev-native-api-reference/chttpmodule-onbeginrequest-method.md) method.  
+ The following example demonstrates how to get a pointer to the [HTTP_SSL_CLIENT_CERT_INFO](http://go.microsoft.com/fwlink/?LinkId=63150) structure by implementing the [CHttpModule::OnBeginRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onbeginrequest-method.md) method.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpRequestGetClientCertificate#2](IHttpRequestGetClientCertificate#2)]  -->  
   
@@ -67,5 +67,5 @@ HRESULT GetClientCertificate(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpRequest Interface](../../web-development-reference\webdev-native-api-reference/ihttprequest-interface.md)   
- [IHttpRequest::NegotiateClientCertificate Method](../../web-development-reference\webdev-native-api-reference/ihttprequest-negotiateclientcertificate-method.md)
+ [IHttpRequest Interface](../../web-development-reference\native-code-api-reference/ihttprequest-interface.md)   
+ [IHttpRequest::NegotiateClientCertificate Method](../../web-development-reference\native-code-api-reference/ihttprequest-negotiateclientcertificate-method.md)

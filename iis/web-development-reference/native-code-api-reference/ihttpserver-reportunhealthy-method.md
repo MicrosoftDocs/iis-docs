@@ -34,14 +34,14 @@ virtual VOID ReportUnhealthy(
  `VOID`.  
   
 ## Remarks  
- Developers can use the `ReportUnhealthy` method to notify IIS that a problem has occurred, and IIS will automatically call [IWpfActions::FailWorkerProcess](../../web-development-reference\webdev-native-api-reference/iwpfactions-failworkerprocess-method.md) to shut down the worker process.  
+ Developers can use the `ReportUnhealthy` method to notify IIS that a problem has occurred, and IIS will automatically call [IWpfActions::FailWorkerProcess](../../web-development-reference\native-code-api-reference/iwpfactions-failworkerprocess-method.md) to shut down the worker process.  
   
 ## Example  
  The following code example demonstrates how to use the `ReportUnhealthy` method to create an HTTP module that reports an out-of-memory error and then exits.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpServerReportUnhealthy#1](IHttpServerReportUnhealthy#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -55,5 +55,5 @@ virtual VOID ReportUnhealthy(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference\webdev-native-api-reference/ihttpserver-interface.md)   
- [IWpfActions::FailWorkerProcess Method](../../web-development-reference\webdev-native-api-reference/iwpfactions-failworkerprocess-method.md)
+ [IHttpServer Interface](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md)   
+ [IWpfActions::FailWorkerProcess Method](../../web-development-reference\native-code-api-reference/iwpfactions-failworkerprocess-method.md)

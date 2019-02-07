@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostElementSchema::ChildElementSchemas Property
-Gets the schema used for child elements that are contained in the corresponding [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) object.  
+Gets the schema used for child elements that are contained in the corresponding [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object.  
   
 ## Syntax  
   
@@ -25,7 +25,7 @@ Gets the schema used for child elements that are contained in the corresponding 
   
 #### Parameters  
  `ppChildSchemas`  
- Contains the schema collection of the supported child [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) objects.  
+ Contains the schema collection of the supported child [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) objects.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -44,6 +44,6 @@ Gets the schema used for child elements that are contained in the corresponding 
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md)   
- [IAppHostElementSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-interface.md)   
- [IAppHostElementSchemaCollection Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschemacollection-interface.md)
+ [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)   
+ [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md)   
+ [IAppHostElementSchemaCollection Interface](../../web-development-reference\native-code-api-reference/iapphostelementschemacollection-interface.md)

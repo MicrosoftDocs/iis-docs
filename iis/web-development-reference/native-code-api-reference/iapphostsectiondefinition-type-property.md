@@ -31,7 +31,7 @@ HRESULT put_Type(
  A pointer to a `BSTR` that contains the type name of the current configuration section.  
   
  `bstrType`  
- A `BSTR` that contains the new type name of the current [IAppHostSectionDefinition](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinition-interface.md) interface.  
+ A `BSTR` that contains the new type name of the current [IAppHostSectionDefinition](../../web-development-reference\native-code-api-reference/iapphostsectiondefinition-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -55,4 +55,4 @@ HRESULT put_Type(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostSectionDefinition Interface](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinition-interface.md)
+ [IAppHostSectionDefinition Interface](../../web-development-reference\native-code-api-reference/iapphostsectiondefinition-interface.md)

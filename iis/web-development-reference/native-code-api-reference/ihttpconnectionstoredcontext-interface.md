@@ -25,13 +25,13 @@ IHttpConnectionStoredContext : public IHttpStoredContext
   
 |Name|Description|  
 |----------|-----------------|  
-|[NotifyDisconnect](../../web-development-reference\webdev-native-api-reference/ihttpconnectionstoredcontext-notifydisconnect.md)|Notifies the caller that an established connection was disconnected.|  
+|[NotifyDisconnect](../../web-development-reference\native-code-api-reference/ihttpconnectionstoredcontext-notifydisconnect.md)|Notifies the caller that an established connection was disconnected.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
- [IHttpStoredContext](../../web-development-reference\webdev-native-api-reference/ihttpstoredcontext-interface.md)  
+ [IHttpStoredContext](../../web-development-reference\native-code-api-reference/ihttpstoredcontext-interface.md)  
   
 ## Requirements  
   

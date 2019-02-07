@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IPmCustomActions::RunCustomAction Method
-Enables the worker process framework to request support functions for Run-Time Status and Control data from a protocol manager, and reports results back by using an [ICustomActionResultCallback](../../web-development-reference\webdev-native-api-reference/icustomactionresultcallback-interface.md) interface.  
+Enables the worker process framework to request support functions for Run-Time Status and Control data from a protocol manager, and reports results back by using an [ICustomActionResultCallback](../../web-development-reference\native-code-api-reference/icustomactionresultcallback-interface.md) interface.  
   
 ## Syntax  
   
@@ -32,14 +32,14 @@ virtual HRESULT RunCustomAction(
  A pointer to a string that contains the arguments to be passed to the function specified by `pszFunctionName`.  
   
  `pCompletionCallbackClass`  
- A pointer to an [ICustomActionResultCallback](../../web-development-reference\webdev-native-api-reference/icustomactionresultcallback-interface.md) interface that will be used to report the results.  
+ A pointer to an [ICustomActionResultCallback](../../web-development-reference\native-code-api-reference/icustomactionresultcallback-interface.md) interface that will be used to report the results.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
   
 |Value|Description|  
 |-----------|-----------------|  
-|S_OK|Indicates that the operation was successful and the custom action has been queued. The results of the action will be returned using the [ICustomActionResultCallback::ReportResult](../../web-development-reference\webdev-native-api-reference/icustomactionresultcallback-reportresult-method.md) interface.|  
+|S_OK|Indicates that the operation was successful and the custom action has been queued. The results of the action will be returned using the [ICustomActionResultCallback::ReportResult](../../web-development-reference\native-code-api-reference/icustomactionresultcallback-reportresult-method.md) interface.|  
   
 ## Requirements  
   
@@ -51,5 +51,5 @@ virtual HRESULT RunCustomAction(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IPmCustomActions Interface](../../web-development-reference\webdev-native-api-reference/ipmcustomactions-interface.md)   
- [ICustomActionResultCallback::ReportResult Method](../../web-development-reference\webdev-native-api-reference/icustomactionresultcallback-reportresult-method.md)
+ [IPmCustomActions Interface](../../web-development-reference\native-code-api-reference/ipmcustomactions-interface.md)   
+ [ICustomActionResultCallback::ReportResult Method](../../web-development-reference\native-code-api-reference/icustomactionresultcallback-reportresult-method.md)

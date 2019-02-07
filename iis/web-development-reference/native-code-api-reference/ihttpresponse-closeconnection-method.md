@@ -38,4 +38,4 @@ virtual VOID CloseConnection(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference\webdev-native-api-reference/ihttpresponse-interface.md)
+ [IHttpResponse Interface](../../web-development-reference\native-code-api-reference/ihttpresponse-interface.md)

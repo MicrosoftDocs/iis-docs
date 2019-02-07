@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IHttpServer::GetPerfCounterInfo Method
-Retrieves an [IHttpPerfCounterInfo](../../web-development-reference\webdev-native-api-reference/ihttpperfcounterinfo-interface.md) interface.  
+Retrieves an [IHttpPerfCounterInfo](../../web-development-reference\native-code-api-reference/ihttpperfcounterinfo-interface.md) interface.  
   
 ## Syntax  
   
@@ -26,10 +26,10 @@ virtual IHttpPerfCounterInfo* GetPerfCounterInfo(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [IHttpPerfCounterInfo](../../web-development-reference\webdev-native-api-reference/ihttpperfcounterinfo-interface.md) interface.  
+ A pointer to an [IHttpPerfCounterInfo](../../web-development-reference\native-code-api-reference/ihttpperfcounterinfo-interface.md) interface.  
   
 ## Remarks  
- The `GetPerfCounterInfo` method retrieves a pointer to an [IHttpPerfCounterInfo](../../web-development-reference\webdev-native-api-reference/ihttpperfcounterinfo-interface.md) interface that is used to modify the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] performance counters at the server level.  
+ The `GetPerfCounterInfo` method retrieves a pointer to an [IHttpPerfCounterInfo](../../web-development-reference\native-code-api-reference/ihttpperfcounterinfo-interface.md) interface that is used to modify the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] performance counters at the server level.  
   
 > [!IMPORTANT]
 >  This method is part of the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] infrastructure and is not intended to be used directly from your code.  
@@ -44,6 +44,6 @@ virtual IHttpPerfCounterInfo* GetPerfCounterInfo(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference\webdev-native-api-reference/ihttpserver-interface.md)   
- [IHttpPerfCounterInfo Interface](../../web-development-reference\webdev-native-api-reference/ihttpperfcounterinfo-interface.md)   
- [IHttpSite::GetPerfCounterInfo Method](../../web-development-reference\webdev-native-api-reference/ihttpsite-getperfcounterinfo-method.md)
+ [IHttpServer Interface](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md)   
+ [IHttpPerfCounterInfo Interface](../../web-development-reference\native-code-api-reference/ihttpperfcounterinfo-interface.md)   
+ [IHttpSite::GetPerfCounterInfo Method](../../web-development-reference\native-code-api-reference/ihttpsite-getperfcounterinfo-method.md)

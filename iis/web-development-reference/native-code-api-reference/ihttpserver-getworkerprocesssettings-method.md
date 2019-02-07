@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IHttpServer::GetWorkerProcessSettings Method
-Retrieves an [IWpfSettings](../../web-development-reference\webdev-native-api-reference/iwpfsettings-interface.md) interface.  
+Retrieves an [IWpfSettings](../../web-development-reference\native-code-api-reference/iwpfsettings-interface.md) interface.  
   
 ## Syntax  
   
@@ -24,7 +24,7 @@ virtual HRESULT GetWorkerProcessSettings(
   
 #### Parameters  
  `ppWorkerProcessSettings`  
- A dereferenced pointer to an [IWpfSettings](../../web-development-reference\webdev-native-api-reference/iwpfsettings-interface.md) interface.  
+ A dereferenced pointer to an [IWpfSettings](../../web-development-reference\native-code-api-reference/iwpfsettings-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -34,19 +34,19 @@ virtual HRESULT GetWorkerProcessSettings(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- The `GetWorkerProcessSettings` method allows developers to retrieve configuration information about the worker process framework through an [IWpfSettings](../../web-development-reference\webdev-native-api-reference/iwpfsettings-interface.md) interface.  
+ The `GetWorkerProcessSettings` method allows developers to retrieve configuration information about the worker process framework through an [IWpfSettings](../../web-development-reference\native-code-api-reference/iwpfsettings-interface.md) interface.  
   
 > [!NOTE]
 >  The server controls the lifetime and reference counting for `IWpfSettings`.  
   
- `IWpfSettings` exposes several methods that you can use to retrieve specific information about the worker process framework. For example, the [IWpfSettings::GetDwordProperty](../../web-development-reference\webdev-native-api-reference/iwpfsettings-getdwordproperty-method.md) method enables you to retrieve the [IDLE_TIMEOUT](../../web-development-reference\webdev-native-api-reference/wpf-settings-dword-enum-enumeration.md) or [PERIODIC_RESTART_TIME](../../web-development-reference\webdev-native-api-reference/wpf-settings-dword-enum-enumeration.md) settings.  
+ `IWpfSettings` exposes several methods that you can use to retrieve specific information about the worker process framework. For example, the [IWpfSettings::GetDwordProperty](../../web-development-reference\native-code-api-reference/iwpfsettings-getdwordproperty-method.md) method enables you to retrieve the [IDLE_TIMEOUT](../../web-development-reference\native-code-api-reference/wpf-settings-dword-enum-enumeration.md) or [PERIODIC_RESTART_TIME](../../web-development-reference\native-code-api-reference/wpf-settings-dword-enum-enumeration.md) settings.  
   
 ## Example  
  The following code example illustrates how to use the `GetWorkerProcessSettings` method to create an HTTP module that retrieves the version of the common language runtime (CLR) on the server. The module then returns that information to a Web client.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpServerGetWorkerProcessSettings#1](IHttpServerGetWorkerProcessSettings#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -60,5 +60,5 @@ virtual HRESULT GetWorkerProcessSettings(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference\webdev-native-api-reference/ihttpserver-interface.md)   
- [IWpfSettings Interface](../../web-development-reference\webdev-native-api-reference/iwpfsettings-interface.md)
+ [IHttpServer Interface](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md)   
+ [IWpfSettings Interface](../../web-development-reference\native-code-api-reference/iwpfsettings-interface.md)

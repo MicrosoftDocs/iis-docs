@@ -25,19 +25,19 @@ class IWpfListenerChannelCallback : public IWpfReferencedObject
   
 |Name|Description|  
 |----------|-----------------|  
-|[AddRef](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-addref-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md).)|  
-|[GetBlob](../../web-development-reference\webdev-native-api-reference/iwpflistenerchannelcallback-getblob-method.md)|Retrieves data that the protocol manager will pass to a listener channel when the protocol manager is starting a listener channel.|  
-|[GetId](../../web-development-reference\webdev-native-api-reference/iwpflistenerchannelcallback-getid-method.md)|Retrieves the ID of a listener channel that needs to be started.|  
-|[Release](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md).)|  
-|[ReportMessageReceived](../../web-development-reference\webdev-native-api-reference/iwpflistenerchannelcallback-reportmessagereceived-method.md)|Notifies the worker process framework that a listener channel has received a message.|  
-|[ReportStarted](../../web-development-reference\webdev-native-api-reference/iwpflistenerchannelcallback-reportstarted-method.md)|Notifies the worker process framework that a listener channel has started.|  
-|[ReportStopped](../../web-development-reference\webdev-native-api-reference/iwpflistenerchannelcallback-reportstopped-method.md)|Notifies the worker process framework that a listener channel has shut down.|  
+|[AddRef](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-addref-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md).)|  
+|[GetBlob](../../web-development-reference\native-code-api-reference/iwpflistenerchannelcallback-getblob-method.md)|Retrieves data that the protocol manager will pass to a listener channel when the protocol manager is starting a listener channel.|  
+|[GetId](../../web-development-reference\native-code-api-reference/iwpflistenerchannelcallback-getid-method.md)|Retrieves the ID of a listener channel that needs to be started.|  
+|[Release](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md).)|  
+|[ReportMessageReceived](../../web-development-reference\native-code-api-reference/iwpflistenerchannelcallback-reportmessagereceived-method.md)|Notifies the worker process framework that a listener channel has received a message.|  
+|[ReportStarted](../../web-development-reference\native-code-api-reference/iwpflistenerchannelcallback-reportstarted-method.md)|Notifies the worker process framework that a listener channel has started.|  
+|[ReportStopped](../../web-development-reference\native-code-api-reference/iwpflistenerchannelcallback-reportstopped-method.md)|Notifies the worker process framework that a listener channel has shut down.|  
   
 ## Remarks  
- The `IWpfListenerChannelCallback` interface provides notifications to the worker process framework regarding listener channel status changes. For example, when a protocol manager starts a listener channel, one of the parameters passed to the [IPmListenerChannelManager::StartListenerChannel](../../web-development-reference\webdev-native-api-reference/ipmlistenerchannelmanager-startlistenerchannel-method.md) method is a pointer to an `IWpfListenerChannelCallback` interface. The protocol manager will use the [IWpfListenerChannelCallback::ReportStarted](../../web-development-reference\webdev-native-api-reference/iwpflistenerchannelcallback-reportstarted-method.md) method to report when the listener channel has started.  
+ The `IWpfListenerChannelCallback` interface provides notifications to the worker process framework regarding listener channel status changes. For example, when a protocol manager starts a listener channel, one of the parameters passed to the [IPmListenerChannelManager::StartListenerChannel](../../web-development-reference\native-code-api-reference/ipmlistenerchannelmanager-startlistenerchannel-method.md) method is a pointer to an `IWpfListenerChannelCallback` interface. The protocol manager will use the [IWpfListenerChannelCallback::ReportStarted](../../web-development-reference\native-code-api-reference/iwpflistenerchannelcallback-reportstarted-method.md) method to report when the listener channel has started.  
   
 ## Inheritance Hierarchy  
- [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md)  
+ [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IWpfListenerChannelCallback`  
   
@@ -51,17 +51,17 @@ class IWpfListenerChannelCallback : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
- [ICustomActionResultCallback Interface](../../web-development-reference\webdev-native-api-reference/icustomactionresultcallback-interface.md)   
- [IHealthStatusCallback Interface](../../web-development-reference\webdev-native-api-reference/ihealthstatuscallback-interface.md)   
- [IPmCustomActions Interface](../../web-development-reference\webdev-native-api-reference/ipmcustomactions-interface.md)   
- [IPmHealthAndIdleMonitor Interface](../../web-development-reference\webdev-native-api-reference/ipmhealthandidlemonitor-interface.md)   
- [IPmListenerChannelManager Interface](../../web-development-reference\webdev-native-api-reference/ipmlistenerchannelmanager-interface.md)   
- [IProtocolManager Interface](../../web-development-reference\webdev-native-api-reference/iprotocolmanager-interface.md)   
- [IWorkerProcessFramework Interface](../../web-development-reference\webdev-native-api-reference/iworkerprocessframework-interface.md)   
- [IWpfActions Interface](../../web-development-reference\webdev-native-api-reference/iwpfactions-interface.md)   
- [IWpfApplicationInfoUtil Interface](../../web-development-reference\webdev-native-api-reference/iwpfapplicationinfoutil-interface.md)   
- [IWpfExposeProtocolManagerCustomInterface Interface](../../web-development-reference\webdev-native-api-reference/iwpfexposeprotocolmanagercustominterface-interface.md)   
- [IWpfReferencedObject Interface](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md)   
- [IWpfSettings Interface](../../web-development-reference\webdev-native-api-reference/iwpfsettings-interface.md)   
- [Worker Process and Protocol Manager Interfaces](../../web-development-reference\webdev-native-api-reference/worker-process-and-protocol-manager-interfaces.md)   
- [Worker Process Framework API Reference](../../web-development-reference\webdev-native-api-reference/worker-process-framework-api-reference.md)
+ [ICustomActionResultCallback Interface](../../web-development-reference\native-code-api-reference/icustomactionresultcallback-interface.md)   
+ [IHealthStatusCallback Interface](../../web-development-reference\native-code-api-reference/ihealthstatuscallback-interface.md)   
+ [IPmCustomActions Interface](../../web-development-reference\native-code-api-reference/ipmcustomactions-interface.md)   
+ [IPmHealthAndIdleMonitor Interface](../../web-development-reference\native-code-api-reference/ipmhealthandidlemonitor-interface.md)   
+ [IPmListenerChannelManager Interface](../../web-development-reference\native-code-api-reference/ipmlistenerchannelmanager-interface.md)   
+ [IProtocolManager Interface](../../web-development-reference\native-code-api-reference/iprotocolmanager-interface.md)   
+ [IWorkerProcessFramework Interface](../../web-development-reference\native-code-api-reference/iworkerprocessframework-interface.md)   
+ [IWpfActions Interface](../../web-development-reference\native-code-api-reference/iwpfactions-interface.md)   
+ [IWpfApplicationInfoUtil Interface](../../web-development-reference\native-code-api-reference/iwpfapplicationinfoutil-interface.md)   
+ [IWpfExposeProtocolManagerCustomInterface Interface](../../web-development-reference\native-code-api-reference/iwpfexposeprotocolmanagercustominterface-interface.md)   
+ [IWpfReferencedObject Interface](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md)   
+ [IWpfSettings Interface](../../web-development-reference\native-code-api-reference/iwpfsettings-interface.md)   
+ [Worker Process and Protocol Manager Interfaces](../../web-development-reference\native-code-api-reference/worker-process-and-protocol-manager-interfaces.md)   
+ [Worker Process Framework API Reference](../../web-development-reference\native-code-api-reference/worker-process-framework-api-reference.md)

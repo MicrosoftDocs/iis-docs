@@ -38,7 +38,7 @@ virtual HRESULT InsertEntityBody(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- The [InsertEntityBody](../../web-development-reference\webdev-native-api-reference/ihttprequest-insertentitybody-method.md) method inserts the entity body that is pointed to by the `pvBuffer` parameter into the HTTP request entity body.  
+ The [InsertEntityBody](../../web-development-reference\native-code-api-reference/ihttprequest-insertentitybody-method.md) method inserts the entity body that is pointed to by the `pvBuffer` parameter into the HTTP request entity body.  
   
 > [!NOTE]
 >  The insertion point of the new entity body is before any remaining unread entity body that can be subsequently retrieved from the Web client.  
@@ -49,11 +49,11 @@ virtual HRESULT InsertEntityBody(
 >  This method does not update the Content-Length header value. A module that uses this method must update the Content-Length separately.  
   
 ## Example  
- The following code example demonstrates how create an HTTP module that calls the [IHttpContext::AllocateRequestMemory](../../web-development-reference\webdev-native-api-reference/ihttpcontext-allocaterequestmemory-method.md) method to allocate a 1-KB buffer. The module then copies the string "Hello World" into the buffer. Finally, the module calls the `InsertEntityBody` method to replace the preloaded HTTP request entity body with the buffer and then exits.  
+ The following code example demonstrates how create an HTTP module that calls the [IHttpContext::AllocateRequestMemory](../../web-development-reference\native-code-api-reference/ihttpcontext-allocaterequestmemory-method.md) method to allocate a 1-KB buffer. The module then copies the string "Hello World" into the buffer. Finally, the module calls the `InsertEntityBody` method to replace the preloaded HTTP request entity body with the buffer and then exits.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpRequestInsertEntityBody#1](IHttpRequestInsertEntityBody#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -67,4 +67,4 @@ virtual HRESULT InsertEntityBody(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpRequest Interface](../../web-development-reference\webdev-native-api-reference/ihttprequest-interface.md)
+ [IHttpRequest Interface](../../web-development-reference\native-code-api-reference/ihttprequest-interface.md)

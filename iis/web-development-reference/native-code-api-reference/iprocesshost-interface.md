@@ -25,10 +25,10 @@ struct IProcessHost : IUnknown
   
 |Name|Description|  
 |----------|-----------------|  
-|[IProcessHost::EnumerateAppDomains](../../web-development-reference\webdev-native-api-reference/iprocesshost-enumerateappdomains-method.md)|Retrieves a pointer to an [IAppDomainInfoEnum](../../web-development-reference\webdev-native-api-reference/iappdomaininfoenum-interface.md) interface.|  
-|[IProcessHost::Shutdown](../../web-development-reference\webdev-native-api-reference/iprocesshost-shutdown-method.md)|Sends a request to terminate all applications in an application domain.|  
-|[IProcessHost::ShutdownApplication](../../web-development-reference\webdev-native-api-reference/iprocesshost-shutdownapplication-method.md)|Terminates the specified application.|  
-|[IProcessHost::StartApplication](../../web-development-reference\webdev-native-api-reference/iprocesshost-startapplication-method.md)|Starts the specified application.|  
+|[IProcessHost::EnumerateAppDomains](../../web-development-reference\native-code-api-reference/iprocesshost-enumerateappdomains-method.md)|Retrieves a pointer to an [IAppDomainInfoEnum](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-interface.md) interface.|  
+|[IProcessHost::Shutdown](../../web-development-reference\native-code-api-reference/iprocesshost-shutdown-method.md)|Sends a request to terminate all applications in an application domain.|  
+|[IProcessHost::ShutdownApplication](../../web-development-reference\native-code-api-reference/iprocesshost-shutdownapplication-method.md)|Terminates the specified application.|  
+|[IProcessHost::StartApplication](../../web-development-reference\native-code-api-reference/iprocesshost-startapplication-method.md)|Starts the specified application.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -51,4 +51,4 @@ struct IProcessHost : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
- [Windows Process Activation Service Interfaces](../../web-development-reference\webdev-native-api-reference/windows-process-activation-service-interfaces.md)
+ [Windows Process Activation Service Interfaces](../../web-development-reference\native-code-api-reference/windows-process-activation-service-interfaces.md)

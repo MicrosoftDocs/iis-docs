@@ -25,11 +25,11 @@ struct IAppDomainInfo : IUnknown
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetId](../../web-development-reference\webdev-native-api-reference/iappdomaininfo-getid-method.md)|Retrieves the application domain ID.|  
-|[GetIsIdle](../../web-development-reference\webdev-native-api-reference/iappdomaininfo-getisidle-method.md)|Retrieves the idle state of the application domain.|  
-|[GetPhysicalPath](../../web-development-reference\webdev-native-api-reference/iappdomaininfo-getphysicalpath-method.md)|Retrieves the physical path of the application domain.|  
-|[GetSiteId](../../web-development-reference\webdev-native-api-reference/iappdomaininfo-getsiteid-method.md)|Retrieves the site ID of the application domain.|  
-|[GetVirtualPath](../../web-development-reference\webdev-native-api-reference/iappdomaininfo-getvirtualpath-method.md)|Retrieves the root virtual path of the application domain.|  
+|[GetId](../../web-development-reference\native-code-api-reference/iappdomaininfo-getid-method.md)|Retrieves the application domain ID.|  
+|[GetIsIdle](../../web-development-reference\native-code-api-reference/iappdomaininfo-getisidle-method.md)|Retrieves the idle state of the application domain.|  
+|[GetPhysicalPath](../../web-development-reference\native-code-api-reference/iappdomaininfo-getphysicalpath-method.md)|Retrieves the physical path of the application domain.|  
+|[GetSiteId](../../web-development-reference\native-code-api-reference/iappdomaininfo-getsiteid-method.md)|Retrieves the site ID of the application domain.|  
+|[GetVirtualPath](../../web-development-reference\native-code-api-reference/iappdomaininfo-getvirtualpath-method.md)|Retrieves the root virtual path of the application domain.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -52,4 +52,4 @@ struct IAppDomainInfo : IUnknown
 |Header|Webhost.h|  
   
 ## See Also  
- [Windows Process Activation Service Interfaces](../../web-development-reference\webdev-native-api-reference/windows-process-activation-service-interfaces.md)
+ [Windows Process Activation Service Interfaces](../../web-development-reference\native-code-api-reference/windows-process-activation-service-interfaces.md)

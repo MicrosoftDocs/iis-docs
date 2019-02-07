@@ -26,13 +26,13 @@ virtual CACHE_OPERATION GetCacheOperation(
  This method takes no parameters.  
   
 ## Return Value  
- A [CACHE_OPERATION](../../web-development-reference\webdev-native-api-reference/cache-operation-enumeration.md) enumeration for the [ICacheProvider](../../web-development-reference\webdev-native-api-reference/icacheprovider-interface.md) pointer.  
+ A [CACHE_OPERATION](../../web-development-reference\native-code-api-reference/cache-operation-enumeration.md) enumeration for the [ICacheProvider](../../web-development-reference\native-code-api-reference/icacheprovider-interface.md) pointer.  
   
 ## Remarks  
- [CGlobalModule](../../web-development-reference\webdev-native-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference\webdev-native-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve a `CACHE_OPERATION` enumeration by calling the `GetCacheOperation` method on the `ICacheProvider` pointer.  
+ [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference\native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve a `CACHE_OPERATION` enumeration by calling the `GetCacheOperation` method on the `ICacheProvider` pointer.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events and then writes the `ICacheProvider` information to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the `ICacheProvider` information to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
@@ -59,4 +59,4 @@ GetCacheOperation: CACHE_OPERATION_RETRIEVE
 |Header|Httpserv.h|  
   
 ## See Also  
- [ICacheProvider Interface](../../web-development-reference\webdev-native-api-reference/icacheprovider-interface.md)
+ [ICacheProvider Interface](../../web-development-reference\native-code-api-reference/icacheprovider-interface.md)

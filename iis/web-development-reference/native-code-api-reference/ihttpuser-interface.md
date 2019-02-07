@@ -25,23 +25,23 @@ class IHttpUser
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[DereferenceUser](../../web-development-reference\webdev-native-api-reference/ihttpuser-dereferenceuser-method.md)|Decrements the user internal reference count.|  
-|[GetAuthenticationType](../../web-development-reference\webdev-native-api-reference/ihttpuser-getauthenticationtype-method.md)|Returns the request authentication type.|  
-|[GetImpersonationToken](../../web-development-reference\webdev-native-api-reference/ihttpuser-getimpersonationtoken-method.md)|Returns the user impersonation token.|  
-|[GetPassword](../../web-development-reference\webdev-native-api-reference/ihttpuser-getpassword-method.md)|Returns the user password.|  
-|[GetPrimaryToken](../../web-development-reference\webdev-native-api-reference/ihttpuser-getprimarytoken-method.md)|Returns the primary user token.|  
-|[GetRemoteUserName](../../web-development-reference\webdev-native-api-reference/ihttpuser-getremoteusername-method.md)|Returns the remote user name.|  
-|[GetUserName](../../web-development-reference\webdev-native-api-reference/ihttpuser-getusername-method.md)|Returns the user name.|  
-|[GetUserVariable](../../web-development-reference\webdev-native-api-reference/ihttpuser-getuservariable-method.md)|Returns the custom user data by name.|  
-|[IsInRole](../../web-development-reference\webdev-native-api-reference/ihttpuser-isinrole-method.md)|Returns a value that indicates whether the user is authorized for a named role.|  
-|[ReferenceUser](../../web-development-reference\webdev-native-api-reference/ihttpuser-referenceuser-method.md)|Increments the user internal reference count.|  
-|[SupportsIsInRole](../../web-development-reference\webdev-native-api-reference/ihttpuser-supportsisinrole-method.md)|Returns a value that indicates whether role support is enabled for the user.|  
+|[DereferenceUser](../../web-development-reference\native-code-api-reference/ihttpuser-dereferenceuser-method.md)|Decrements the user internal reference count.|  
+|[GetAuthenticationType](../../web-development-reference\native-code-api-reference/ihttpuser-getauthenticationtype-method.md)|Returns the request authentication type.|  
+|[GetImpersonationToken](../../web-development-reference\native-code-api-reference/ihttpuser-getimpersonationtoken-method.md)|Returns the user impersonation token.|  
+|[GetPassword](../../web-development-reference\native-code-api-reference/ihttpuser-getpassword-method.md)|Returns the user password.|  
+|[GetPrimaryToken](../../web-development-reference\native-code-api-reference/ihttpuser-getprimarytoken-method.md)|Returns the primary user token.|  
+|[GetRemoteUserName](../../web-development-reference\native-code-api-reference/ihttpuser-getremoteusername-method.md)|Returns the remote user name.|  
+|[GetUserName](../../web-development-reference\native-code-api-reference/ihttpuser-getusername-method.md)|Returns the user name.|  
+|[GetUserVariable](../../web-development-reference\native-code-api-reference/ihttpuser-getuservariable-method.md)|Returns the custom user data by name.|  
+|[IsInRole](../../web-development-reference\native-code-api-reference/ihttpuser-isinrole-method.md)|Returns a value that indicates whether the user is authorized for a named role.|  
+|[ReferenceUser](../../web-development-reference\native-code-api-reference/ihttpuser-referenceuser-method.md)|Increments the user internal reference count.|  
+|[SupportsIsInRole](../../web-development-reference\native-code-api-reference/ihttpuser-supportsisinrole-method.md)|Returns a value that indicates whether role support is enabled for the user.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- You can retrieve an `IHttpUser` pointer from an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) pointer by calling the [IHttpContext::GetUser](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getuser-method.md) method. To gain access to these interfaces, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ You can retrieve an `IHttpUser` pointer from an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer by calling the [IHttpContext::GetUser](../../web-development-reference\native-code-api-reference/ihttpcontext-getuser-method.md) method. To gain access to these interfaces, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that clears the response headers and body and then returns user information to the client as an XML document.  
@@ -64,7 +64,7 @@ class IHttpUser
     userVariable="NULL" />  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -78,4 +78,4 @@ class IHttpUser
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)

@@ -44,13 +44,13 @@ virtual DWORD GetLogonMethod(
 |`LOGON32_LOGON_NEW_CREDENTIALS`|9|  
   
 ## Notes for Implementers  
- Implementers of the [IHttpTokenKey](../../web-development-reference\webdev-native-api-reference/ihttptokenkey-interface.md) interface may use the values returned from both the `GetLogonMethod` and [GetUserName](../../web-development-reference\webdev-native-api-reference/ihttptokenkey-getusername-method.md) methods to implement the [IHttpCacheKey::GetIsEqual](../../web-development-reference\webdev-native-api-reference/ihttpcachekey-getisequal-method.md) method.  
+ Implementers of the [IHttpTokenKey](../../web-development-reference\native-code-api-reference/ihttptokenkey-interface.md) interface may use the values returned from both the `GetLogonMethod` and [GetUserName](../../web-development-reference\native-code-api-reference/ihttptokenkey-getusername-method.md) methods to implement the [IHttpCacheKey::GetIsEqual](../../web-development-reference\native-code-api-reference/ihttpcachekey-getisequal-method.md) method.  
   
 ## Notes for Callers  
  The `IHttpCacheKey::GetIsEqual` method returns `true` only if the `pCacheCompareKey` parameter can be cast to an `IHttpTokenKey` pointer, and if the values returned from both the `GetLogonMethod` and `GetUserName` methods are equivalent for the `pCacheCompareKey` parameter and the current `IHttpTokenKey` pointer.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events and then writes the `GetLogonMethod` information to the Event Viewer where the user logged in using `LOGON32_PROVIDER_WINNT50`.  
+ The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) and [GL_CACHE_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the `GetLogonMethod` information to the Event Viewer where the user logged in using `LOGON32_PROVIDER_WINNT50`.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
@@ -63,7 +63,7 @@ virtual DWORD GetLogonMethod(
 IHttpTokenKey::GetLogonMethod: 3  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -77,4 +77,4 @@ IHttpTokenKey::GetLogonMethod: 3
 |Header|Httpcach.h|  
   
 ## See Also  
- [IHttpTokenKey Interface](../../web-development-reference\webdev-native-api-reference/ihttptokenkey-interface.md)
+ [IHttpTokenKey Interface](../../web-development-reference\native-code-api-reference/ihttptokenkey-interface.md)

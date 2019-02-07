@@ -25,19 +25,19 @@ class ISendResponseProvider : public IHttpEventProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetFlags](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-getflags-method.md)|Retrieves the flags for the current HTTP response.|  
-|[GetHeadersBeingSent](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-getheadersbeingsent-method.md)|Retrieves a value that indicates whether the HTTP headers are being returned.|  
-|[GetLogData](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-getlogdata-method.md)|Retrieves the logging information for the current response.|  
-|[GetReadyToLogData](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-getreadytologdata-method.md)|Retrieves a value that indicates whether IIS is ready to write information to the logs.|  
-|[SetErrorStatus](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md).)|  
-|[SetFlags](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-setflags-method.md)|Configures the flags for the current HTTP response.|  
-|[SetLogData](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-setlogdata-method.md)|Configures logging information for the current response.|  
+|[GetFlags](../../web-development-reference\native-code-api-reference/isendresponseprovider-getflags-method.md)|Retrieves the flags for the current HTTP response.|  
+|[GetHeadersBeingSent](../../web-development-reference\native-code-api-reference/isendresponseprovider-getheadersbeingsent-method.md)|Retrieves a value that indicates whether the HTTP headers are being returned.|  
+|[GetLogData](../../web-development-reference\native-code-api-reference/isendresponseprovider-getlogdata-method.md)|Retrieves the logging information for the current response.|  
+|[GetReadyToLogData](../../web-development-reference\native-code-api-reference/isendresponseprovider-getreadytologdata-method.md)|Retrieves a value that indicates whether IIS is ready to write information to the logs.|  
+|[SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md).)|  
+|[SetFlags](../../web-development-reference\native-code-api-reference/isendresponseprovider-setflags-method.md)|Configures the flags for the current HTTP response.|  
+|[SetLogData](../../web-development-reference\native-code-api-reference/isendresponseprovider-setlogdata-method.md)|Configures logging information for the current response.|  
   
 ## Remarks  
- An `ISendResponseProvider` interface is created and passed to a module's [CHttpModule::OnSendResponse](../../web-development-reference\webdev-native-api-reference/chttpmodule-onsendresponse-method.md) method when the module has registered for the [RQ_SEND_RESPONSE](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function.  
+ An `ISendResponseProvider` interface is created and passed to a module's [CHttpModule::OnSendResponse](../../web-development-reference\native-code-api-reference/chttpmodule-onsendresponse-method.md) method when the module has registered for the [RQ_SEND_RESPONSE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `ISendResponseProvider`  
   
@@ -51,5 +51,5 @@ class ISendResponseProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)   
- [IHttpEventProvider Interface](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
+ [IHttpEventProvider Interface](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)

@@ -46,6 +46,6 @@ virtual HRESULT Shutdown(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IProtocolManager Interface](../../web-development-reference\webdev-native-api-reference/iprotocolmanager-interface.md)   
- [IProtocolManager::GetCustomInterface Method](../../web-development-reference\webdev-native-api-reference/iprotocolmanager-getcustominterface-method.md)   
- [IProtocolManager::GetPmInterface Method](../../web-development-reference\webdev-native-api-reference/iprotocolmanager-getpminterface-method.md)
+ [IProtocolManager Interface](../../web-development-reference\native-code-api-reference/iprotocolmanager-interface.md)   
+ [IProtocolManager::GetCustomInterface Method](../../web-development-reference\native-code-api-reference/iprotocolmanager-getcustominterface-method.md)   
+ [IProtocolManager::GetPmInterface Method](../../web-development-reference\native-code-api-reference/iprotocolmanager-getpminterface-method.md)

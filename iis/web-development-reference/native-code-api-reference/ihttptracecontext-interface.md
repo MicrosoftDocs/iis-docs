@@ -25,17 +25,17 @@ class IHttpTraceContext
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetTraceActivityId](../../web-development-reference\webdev-native-api-reference/ihttptracecontext-gettraceactivityid-method.md)|Returns the trace activity identifier for the trace context.|  
-|[GetTraceConfiguration](../../web-development-reference\webdev-native-api-reference/ihttptracecontext-gettraceconfiguration-method.md)|Returns the trace configuration for the trace context.|  
-|[QuickTrace](../../web-development-reference\webdev-native-api-reference/ihttptracecontext-quicktrace-method.md)|Writes a message to the IIS trace log.|  
-|[RaiseTraceEvent](../../web-development-reference\webdev-native-api-reference/ihttptracecontext-raisetraceevent-method.md)|Raises a trace event for the trace context.|  
-|[SetTraceConfiguration](../../web-development-reference\webdev-native-api-reference/ihttptracecontext-settraceconfiguration-method.md)|Sets the trace configuration for the trace context.|  
+|[GetTraceActivityId](../../web-development-reference\native-code-api-reference/ihttptracecontext-gettraceactivityid-method.md)|Returns the trace activity identifier for the trace context.|  
+|[GetTraceConfiguration](../../web-development-reference\native-code-api-reference/ihttptracecontext-gettraceconfiguration-method.md)|Returns the trace configuration for the trace context.|  
+|[QuickTrace](../../web-development-reference\native-code-api-reference/ihttptracecontext-quicktrace-method.md)|Writes a message to the IIS trace log.|  
+|[RaiseTraceEvent](../../web-development-reference\native-code-api-reference/ihttptracecontext-raisetraceevent-method.md)|Raises a trace event for the trace context.|  
+|[SetTraceConfiguration](../../web-development-reference\native-code-api-reference/ihttptracecontext-settraceconfiguration-method.md)|Sets the trace configuration for the trace context.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- To implement tracing, a module will generally call the [IHttpContext::GetTraceContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-gettracecontext-method.md) method to get the `IHttpTraceContext` interface, and then call the `RaiseTraceEvent` method.  
+ To implement tracing, a module will generally call the [IHttpContext::GetTraceContext](../../web-development-reference\native-code-api-reference/ihttpcontext-gettracecontext-method.md) method to get the `IHttpTraceContext` interface, and then call the `RaiseTraceEvent` method.  
   
  For more information about how to create and deploy a native DLL module, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
@@ -49,4 +49,4 @@ class IHttpTraceContext
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)

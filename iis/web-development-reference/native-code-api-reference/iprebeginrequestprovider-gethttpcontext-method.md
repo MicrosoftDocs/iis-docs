@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IPreBeginRequestProvider::GetHttpContext Method
-Retrieves an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) interface.  
+Retrieves an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   
 ## Syntax  
   
@@ -26,17 +26,17 @@ virtual IHttpContext* GetHttpContext(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md).  
+ A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md).  
   
 ## Remarks  
- The `GetHttpContext` method retrieves a pointer to an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) interface, which allows global-level notifications access to the context for a request. This is in contrast to request-level notifications, for which a pointer to an `IHttpContext` interface is provided.  
+ The `GetHttpContext` method retrieves a pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface, which allows global-level notifications access to the context for a request. This is in contrast to request-level notifications, for which a pointer to an `IHttpContext` interface is provided.  
   
 ## Example  
- The following code example demonstrates how to create a global-level HTTP module that uses the `GetHttpContext` function to retrieve a pointer to an `IHttpContext` interface. The module calls the context's [IHttpContext::GetSite](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getsite-method.md) method to retrieve a pointer to an [IHttpSite](../../web-development-reference\webdev-native-api-reference/ihttpsite-interface.md) interface, and then calls the [IHttpSite::GetSiteName](../../web-development-reference\webdev-native-api-reference/ihttpsite-getsitename-method.md) method to retrieve the name of the site that is processing the request.  
+ The following code example demonstrates how to create a global-level HTTP module that uses the `GetHttpContext` function to retrieve a pointer to an `IHttpContext` interface. The module calls the context's [IHttpContext::GetSite](../../web-development-reference\native-code-api-reference/ihttpcontext-getsite-method.md) method to retrieve a pointer to an [IHttpSite](../../web-development-reference\native-code-api-reference/ihttpsite-interface.md) interface, and then calls the [IHttpSite::GetSiteName](../../web-development-reference\native-code-api-reference/ihttpsite-getsitename-method.md) method to retrieve the name of the site that is processing the request.  
   
 <!-- TODO: review snippet reference  [!CODE [IPreBeginRequestProviderGetHttpContext#1](IPreBeginRequestProviderGetHttpContext#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -50,4 +50,4 @@ virtual IHttpContext* GetHttpContext(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IPreBeginRequestProvider Interface](../../web-development-reference\webdev-native-api-reference/iprebeginrequestprovider-interface.md)
+ [IPreBeginRequestProvider Interface](../../web-development-reference\native-code-api-reference/iprebeginrequestprovider-interface.md)

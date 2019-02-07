@@ -25,21 +25,21 @@ class IHttpApplication
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetAppConfigPath](../../web-development-reference\webdev-native-api-reference/ihttpapplication-getappconfigpath-method.md)|Retrieves the application configuration path.|  
-|[GetApplicationId](../../web-development-reference\webdev-native-api-reference/ihttpapplication-getapplicationid-method.md)|Retrieves the identifying application path for the current request.|  
-|[GetApplicationPhysicalPath](../../web-development-reference\webdev-native-api-reference/ihttpapplication-getapplicationphysicalpath-method.md)|Retrieves the physical path of the application for the current request.|  
-|[GetModuleContextContainer](../../web-development-reference\webdev-native-api-reference/ihttpapplication-getmodulecontextcontainer-method.md)|Returns the module context container for the application.|  
+|[GetAppConfigPath](../../web-development-reference\native-code-api-reference/ihttpapplication-getappconfigpath-method.md)|Retrieves the application configuration path.|  
+|[GetApplicationId](../../web-development-reference\native-code-api-reference/ihttpapplication-getapplicationid-method.md)|Retrieves the identifying application path for the current request.|  
+|[GetApplicationPhysicalPath](../../web-development-reference\native-code-api-reference/ihttpapplication-getapplicationphysicalpath-method.md)|Retrieves the physical path of the application for the current request.|  
+|[GetModuleContextContainer](../../web-development-reference\native-code-api-reference/ihttpapplication-getmodulecontextcontainer-method.md)|Returns the module context container for the application.|  
   
 ## Derived Classes  
   
 |Name|Description|  
 |----------|-----------------|  
-|[IGlobalApplicationPreloadProvider2](../../web-development-reference\webdev-native-api-reference/iglobalapplicationpreloadprovider2-interface.md)|Provides information about whether an application’s worker process is recycled.|  
+|[IGlobalApplicationPreloadProvider2](../../web-development-reference\native-code-api-reference/iglobalapplicationpreloadprovider2-interface.md)|Provides information about whether an application’s worker process is recycled.|  
   
 ## Remarks  
  HTTP modules can use the `IHttpApplication` interface to retrieve configuration information for an application. Specifically, the `GetAppConfigPath` method returns the configuration path for an application, the `GetApplicationId` method returns the unique identity path for an application, and the `GetApplicationPhysicalPath` method returns the physical path for the root folder of an application.  
   
- HTTP modules can retrieve an `IHttpApplication` interface by using the [IGlobalThreadCleanupProvider::GetApplication](../../web-development-reference\webdev-native-api-reference/iglobalthreadcleanupprovider-getapplication.md), [IHttpApplicationProvider::GetApplication](../../web-development-reference\webdev-native-api-reference/ihttpapplicationprovider-getapplication-method.md), and [IHttpContext::GetApplication](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getapplication-method.md) methods.  
+ HTTP modules can retrieve an `IHttpApplication` interface by using the [IGlobalThreadCleanupProvider::GetApplication](../../web-development-reference\native-code-api-reference/iglobalthreadcleanupprovider-getapplication.md), [IHttpApplicationProvider::GetApplication](../../web-development-reference\native-code-api-reference/ihttpapplicationprovider-getapplication-method.md), and [IHttpContext::GetApplication](../../web-development-reference\native-code-api-reference/ihttpcontext-getapplication-method.md) methods.  
   
 ## Requirements  
   
@@ -51,7 +51,7 @@ class IHttpApplication
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)   
- [IGlobalThreadCleanupProvider::GetApplication](../../web-development-reference\webdev-native-api-reference/iglobalthreadcleanupprovider-getapplication.md)   
- [IHttpApplicationProvider::GetApplication Method](../../web-development-reference\webdev-native-api-reference/ihttpapplicationprovider-getapplication-method.md)   
- [IHttpContext::GetApplication Method](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getapplication-method.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
+ [IGlobalThreadCleanupProvider::GetApplication](../../web-development-reference\native-code-api-reference/iglobalthreadcleanupprovider-getapplication.md)   
+ [IHttpApplicationProvider::GetApplication Method](../../web-development-reference\native-code-api-reference/ihttpapplicationprovider-getapplication-method.md)   
+ [IHttpContext::GetApplication Method](../../web-development-reference\native-code-api-reference/ihttpcontext-getapplication-method.md)

@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostElementSchema::IsCollectionDefault Property
-Gets a corresponding [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) object.  
+Gets a corresponding [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object.  
   
 ## Syntax  
   
@@ -25,7 +25,7 @@ Gets a corresponding [IAppHostElement Interface](../../web-development-reference
   
 #### Parameters  
  `pfIsCollectionDefault`  
- Contains a Boolean value that indicates whether the corresponding [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) object is a default for other [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) objects.  
+ Contains a Boolean value that indicates whether the corresponding [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object is a default for other [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) objects.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -44,6 +44,6 @@ Gets a corresponding [IAppHostElement Interface](../../web-development-reference
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md)   
- [IAppHostElementSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-interface.md)   
- [IAppHostElementSchemaCollection Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschemacollection-interface.md)
+ [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)   
+ [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md)   
+ [IAppHostElementSchemaCollection Interface](../../web-development-reference\native-code-api-reference/iapphostelementschemacollection-interface.md)

@@ -24,7 +24,7 @@ virtual BOOL GetIsLastNotification(
   
 #### Parameters  
  `status`  
- [IN] A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\webdev-native-api-reference/request-notification-status-enumeration.md) enumeration value.  
+ [IN] A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) enumeration value.  
   
 ## Return Value  
  `true` if additional notifications are pending; otherwise, `false`.  
@@ -32,14 +32,14 @@ virtual BOOL GetIsLastNotification(
 ## Remarks  
  The `GetIsLastNotification` method retrieves the status of pending notifications for the current request within the current module host. That is, the `GetIsLastNotification` method does not indicate whether additional notifications are pending for another request, or whether additional notifications are pending for a module that is executing in a different module host.  
   
- The value of the `status` parameter directly affects the return value for the `GetIsLastNotification` method. For example, specifying [RQ_NOTIFICATION_CONTINUE](../../web-development-reference\webdev-native-api-reference/request-notification-status-enumeration.md) may return `true` to indicate that additional notifications are pending, whereas specifying [RQ_NOTIFICATION_FINISH_REQUEST](../../web-development-reference\webdev-native-api-reference/request-notification-status-enumeration.md) may return `false` for the same request. This behavior occurs because a status value of `RQ_NOTIFICATION_CONTINUE` will continue to process additional notifications that a status value of `RQ_NOTIFICATION_FINISH_REQUEST` would bypass.  
+ The value of the `status` parameter directly affects the return value for the `GetIsLastNotification` method. For example, specifying [RQ_NOTIFICATION_CONTINUE](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) may return `true` to indicate that additional notifications are pending, whereas specifying [RQ_NOTIFICATION_FINISH_REQUEST](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) may return `false` for the same request. This behavior occurs because a status value of `RQ_NOTIFICATION_CONTINUE` will continue to process additional notifications that a status value of `RQ_NOTIFICATION_FINISH_REQUEST` would bypass.  
   
 ## Example  
  The following code example demonstrates how to use the `GetIsLastNotification` method to create an HTTP module that indicates whether more notifications are pending for the current request. Then module then returns that information to the Web client.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextGetIsLastNotification#1](IHttpContextGetIsLastNotification#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -53,6 +53,6 @@ virtual BOOL GetIsLastNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md)   
- [IHttpContext::DisableNotifications Method](../../web-development-reference\webdev-native-api-reference/ihttpcontext-disablenotifications-method.md)   
- [IHttpContext::GetNextNotification Method](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getnextnotification-method.md)
+ [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpContext::DisableNotifications Method](../../web-development-reference\native-code-api-reference/ihttpcontext-disablenotifications-method.md)   
+ [IHttpContext::GetNextNotification Method](../../web-development-reference\native-code-api-reference/ihttpcontext-getnextnotification-method.md)

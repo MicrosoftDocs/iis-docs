@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostMethodInstance Interface
-Provides methods that access a specific invocation instance of the corresponding [IAppHostMethod Interface](../../web-development-reference\webdev-native-api-reference/iapphostmethod-interface.md).  
+Provides methods that access a specific invocation instance of the corresponding [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md).  
   
 ## Syntax  
   
@@ -25,17 +25,17 @@ IAppHostMethodInstance : public IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[Execute](../../web-development-reference\webdev-native-api-reference/iapphostmethodinstance-execute-method.md)|Executes the specified method.|  
-|[GetMetadata](../../web-development-reference\webdev-native-api-reference/iapphostmethodinstance-getmetadata-method.md)|Gets the named metadata.|  
-|[SetMetadata](../../web-development-reference\webdev-native-api-reference/iapphostmethodinstance-setmetadata-method.md)|Sets the named metadata|  
+|[Execute](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-execute-method.md)|Executes the specified method.|  
+|[GetMetadata](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-getmetadata-method.md)|Gets the named metadata.|  
+|[SetMetadata](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-setmetadata-method.md)|Sets the named metadata|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostMethodInstance` interface.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[Input](../../web-development-reference\webdev-native-api-reference/iapphostmethodinstance-input-property.md)|Gets an [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) that may contain input parameters for a specified method instance call.|  
-|[Output](../../web-development-reference\webdev-native-api-reference/iapphostmethodinstance-output-property.md)|Gets an [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) in which output parameters may be retrieved after a specified method instance has been executed.|  
+|[Input](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-input-property.md)|Gets an [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) that may contain input parameters for a specified method instance call.|  
+|[Output](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-output-property.md)|Gets an [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) in which output parameters may be retrieved after a specified method instance has been executed.|  
   
 ## Remarks  
  The caller of a method sets parameters and then executes the instance of the method.  
@@ -55,6 +55,6 @@ IAppHostMethodInstance : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)   
- [Application Host Administration API Reference](../../web-development-reference\webdev-native-api-reference/application-host-administration-api-reference.md)   
- [IAppHostMethod Interface](../../web-development-reference\webdev-native-api-reference/iapphostmethod-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
+ [Application Host Administration API Reference](../../web-development-reference\native-code-api-reference/application-host-administration-api-reference.md)   
+ [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md)

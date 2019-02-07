@@ -25,16 +25,16 @@ interface IAppHostSectionDefinitionCollection : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[AddSection](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinitioncollection-addsection-method.md)|Adds a new configuration section definition  to the collection.|  
-|[DeleteSection](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinitioncollection-deletesection-method.md)|Removes a configuration section definition from the collection|  
+|[AddSection](../../web-development-reference\native-code-api-reference/iapphostsectiondefinitioncollection-addsection-method.md)|Adds a new configuration section definition  to the collection.|  
+|[DeleteSection](../../web-development-reference\native-code-api-reference/iapphostsectiondefinitioncollection-deletesection-method.md)|Removes a configuration section definition from the collection|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostSectionDefinitionCollection` interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[Count](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinitioncollection-count-property.md)|Gets the number of configuration section definitions in the current collection.|  
-|[Item](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinitioncollection-item-property.md)|Gets the configuration section definition at the requested index from the current collection.|  
+|[Count](../../web-development-reference\native-code-api-reference/iapphostsectiondefinitioncollection-count-property.md)|Gets the number of configuration section definitions in the current collection.|  
+|[Item](../../web-development-reference\native-code-api-reference/iapphostsectiondefinitioncollection-item-property.md)|Gets the configuration section definition at the requested index from the current collection.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -51,5 +51,5 @@ interface IAppHostSectionDefinitionCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)   
- [IAppHostPropertyCollection Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertycollection-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostPropertyCollection Interface](../../web-development-reference\native-code-api-reference/iapphostpropertycollection-interface.md)

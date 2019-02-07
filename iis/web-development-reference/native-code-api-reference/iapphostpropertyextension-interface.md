@@ -25,7 +25,7 @@ IAppHostPropertyExtension : public IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[ProvideGetProperty](../../web-development-reference\webdev-native-api-reference/iapphostpropertyextension-providegetproperty-method.md)|Populates the value of a dynamic property in a specified element.|  
+|[ProvideGetProperty](../../web-development-reference\native-code-api-reference/iapphostpropertyextension-providegetproperty-method.md)|Populates the value of a dynamic property in a specified element.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -53,5 +53,5 @@ IAppHostPropertyExtension : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)   
- [Application Host Administration API Reference](../../web-development-reference\webdev-native-api-reference/application-host-administration-api-reference.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
+ [Application Host Administration API Reference](../../web-development-reference\native-code-api-reference/application-host-administration-api-reference.md)

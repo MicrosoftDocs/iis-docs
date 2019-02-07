@@ -26,7 +26,7 @@ virtual IHttpUser * GetOriginalUser(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [IHttpUser](../../web-development-reference\webdev-native-api-reference/ihttpuser-interface.md) interface, which can be used to retrieve information about the original user.  
+ A pointer to an [IHttpUser](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md) interface, which can be used to retrieve information about the original user.  
   
 ## Requirements  
   
@@ -38,4 +38,4 @@ virtual IHttpUser * GetOriginalUser(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext2 Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext2-interface.md)
+ [IHttpContext2 Interface](../../web-development-reference\native-code-api-reference/ihttpcontext2-interface.md)

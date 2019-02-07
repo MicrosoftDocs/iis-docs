@@ -40,14 +40,14 @@ virtual HRESULT AppendVaryByHeader(
 |E_FAIL|Indicates that the operation failed.|  
   
 ## Remarks  
- [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. To append a custom header, call the [IHttpContext::GetResponse](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getresponse-method.md) method, the [IHttpResponse::GetCachePolicy](../../web-development-reference\webdev-native-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `AppendVaryByHeader` method.  
+ [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. To append a custom header, call the [IHttpContext::GetResponse](../../web-development-reference\native-code-api-reference/ihttpcontext-getresponse-method.md) method, the [IHttpResponse::GetCachePolicy](../../web-development-reference\native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `AppendVaryByHeader` method.  
   
  `AppendVaryByHeader` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
- The current default implementer of the [IHttpCachePolicy](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` buffer that contains variable header data. During the construction of an implementer, this buffer is initialized to empty. Every time `AppendVaryByHeader` is called, `AppendVaryByHeader` immediately returns S_OK if the `pszHeader` parameter is NULL. Otherwise, the buffer is expanded to hold a copy of `pszHeader`, including the null-termination character, plus 1 if the buffer is not currently empty. Then, if the buffer is not empty, the ',' character is appended to the buffer. Finally, the contents of `pszHeader`, including the null-termination character, are appended to the buffer.  
+ The current default implementer of the [IHttpCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` buffer that contains variable header data. During the construction of an implementer, this buffer is initialized to empty. Every time `AppendVaryByHeader` is called, `AppendVaryByHeader` immediately returns S_OK if the `pszHeader` parameter is NULL. Otherwise, the buffer is expanded to hold a copy of `pszHeader`, including the null-termination character, plus 1 if the buffer is not currently empty. Then, if the buffer is not empty, the ',' character is appended to the buffer. Finally, the contents of `pszHeader`, including the null-termination character, are appended to the buffer.  
   
 ## Notes for Implementers  
- [IHttpCachePolicy](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-interface.md) implementers are responsible for copying the `pszHeader` parameter into a buffer, because the data associated with `pszHeader` is not guaranteed to be valid after the call to `AppendVaryByHeader`.  
+ [IHttpCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md) implementers are responsible for copying the `pszHeader` parameter into a buffer, because the data associated with `pszHeader` is not guaranteed to be valid after the call to `AppendVaryByHeader`.  
   
 ## Notes for Callers  
  `IHttpCachePolicy` clients are responsible for passing either a NULL `pszHeader` parameter or a null-terminated string to the `AppendVaryByHeader` method. Clients are also responsible for disposing of `pszHeader` after the call to `AppendVaryByHeader`, because `IHttpCachePolicy` implementers copy `pszHeader` into an internal buffer.  
@@ -64,4 +64,4 @@ virtual HRESULT AppendVaryByHeader(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCachePolicy Interface](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-interface.md)
+ [IHttpCachePolicy Interface](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md)

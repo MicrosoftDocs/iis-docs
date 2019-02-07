@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # ICustomActionResultCallback::ReportResult Method
-Returns the results of a Run-Time Status and Control operation that was requested by the [IPmCustomActions::RunCustomAction](../../web-development-reference\webdev-native-api-reference/ipmcustomactions-runcustomaction-method.md) method.  
+Returns the results of a Run-Time Status and Control operation that was requested by the [IPmCustomActions::RunCustomAction](../../web-development-reference\native-code-api-reference/ipmcustomactions-runcustomaction-method.md) method.  
   
 ## Syntax  
   
@@ -51,5 +51,5 @@ virtual HRESULT ReportResult(
 |Header|Wpframework.h|  
   
 ## See Also  
- [ICustomActionResultCallback Interface](../../web-development-reference\webdev-native-api-reference/icustomactionresultcallback-interface.md)   
- [IPmCustomActions::RunCustomAction Method](../../web-development-reference\webdev-native-api-reference/ipmcustomactions-runcustomaction-method.md)
+ [ICustomActionResultCallback Interface](../../web-development-reference\native-code-api-reference/icustomactionresultcallback-interface.md)   
+ [IPmCustomActions::RunCustomAction Method](../../web-development-reference\native-code-api-reference/ipmcustomactions-runcustomaction-method.md)

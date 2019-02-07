@@ -49,4 +49,4 @@ HRESULT GetSiteIdFromSiteName(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostMappingExtension Interface](../../web-development-reference\webdev-native-api-reference/iapphostmappingextension-interface.md)
+ [IAppHostMappingExtension Interface](../../web-development-reference\native-code-api-reference/iapphostmappingextension-interface.md)

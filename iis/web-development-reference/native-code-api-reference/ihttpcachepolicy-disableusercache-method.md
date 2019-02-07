@@ -26,11 +26,11 @@ virtual VOID DisableUserCache(
  This method takes no parameters.  
   
 ## Remarks  
- [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. To disable caching for the user, call the [IHttpContext::GetResponse](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getresponse-method.md) method, the [IHttpResponse::GetCachePolicy](../../web-development-reference\webdev-native-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `DisableUserCache` method.  
+ [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. To disable caching for the user, call the [IHttpContext::GetResponse](../../web-development-reference\native-code-api-reference/ihttpcontext-getresponse-method.md) method, the [IHttpResponse::GetCachePolicy](../../web-development-reference\native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `DisableUserCache` method.  
   
  `DisableUserCache` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
- The current default implementer of the [IHttpCachePolicy](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` Boolean value that determines whether caching is enabled for a user. During the construction of an implementer, this Boolean value is initialized to `true`. When `DisableUserCache` is called, this Boolean value is set to `false`. Once caching is disabled for a user, there is no method to reset this Boolean value to `true`.  
+ The current default implementer of the [IHttpCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` Boolean value that determines whether caching is enabled for a user. During the construction of an implementer, this Boolean value is initialized to `true`. When `DisableUserCache` is called, this Boolean value is set to `false`. Once caching is disabled for a user, there is no method to reset this Boolean value to `true`.  
   
 ## Requirements  
   
@@ -42,4 +42,4 @@ virtual VOID DisableUserCache(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCachePolicy Interface](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-interface.md)
+ [IHttpCachePolicy Interface](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md)

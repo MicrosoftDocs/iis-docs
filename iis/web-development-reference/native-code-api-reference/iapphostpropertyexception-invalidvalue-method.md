@@ -36,7 +36,7 @@ HRESULT get_InvalidValue(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- For more information about property validation, see the [IAppHostPropertySchema::ValidationType](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-validationtype-property.md) and [IAppHostPropertySchema::ValidationParameter](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-validationparameter-property.md) properties.  
+ For more information about property validation, see the [IAppHostPropertySchema::ValidationType](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-validationtype-property.md) and [IAppHostPropertySchema::ValidationParameter](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-validationparameter-property.md) properties.  
   
 ## Requirements  
   
@@ -48,4 +48,4 @@ HRESULT get_InvalidValue(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertyException Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyexception-interface.md)
+ [IAppHostPropertyException Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyexception-interface.md)

@@ -25,7 +25,7 @@ HRESULT get_RootSectionGroup(
   
 #### Parameters  
  `ppSectionGroups`  
- A pointer to a pointer for an [IAppHostSectionGroup](../../web-development-reference\webdev-native-api-reference/iapphostsectiongroup-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostSectionGroup](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -49,4 +49,4 @@ HRESULT get_RootSectionGroup(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostConfigFile Interface](../../web-development-reference\webdev-native-api-reference/iapphostconfigfile-interface.md)
+ [IAppHostConfigFile Interface](../../web-development-reference\native-code-api-reference/iapphostconfigfile-interface.md)

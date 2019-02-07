@@ -32,11 +32,11 @@ virtual PCWSTR GetMetaPath(
  The `GetMetaPath` method retrieves the configuration path for the current context. For example, requests for the default Web site on a server running [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] will usually return the MACHINE/WEBROOT/APPHOST/Default Web Site path.  
   
 ## Example  
- The following code example demonstrates how to create an HTTP module that uses the [IHttpContext::GetMetadata](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getmetadata-method.md) method to retrieve a pointer to an [IMetadataInfo](../../web-development-reference\webdev-native-api-reference/imetadatainfo-interface.md) interface. The module completes the following steps:  
+ The following code example demonstrates how to create an HTTP module that uses the [IHttpContext::GetMetadata](../../web-development-reference\native-code-api-reference/ihttpcontext-getmetadata-method.md) method to retrieve a pointer to an [IMetadataInfo](../../web-development-reference\native-code-api-reference/imetadatainfo-interface.md) interface. The module completes the following steps:  
   
 1.  Uses the `GetMetaPath` method to retrieve the configuration path for the current request.  
   
-2.  Uses the [IHttpServer::GetConfigObject](../../web-development-reference\webdev-native-api-reference/ihttpserver-getconfigobject-method.md) method to retrieve a pointer to an [INativeConfigurationSystem](http://msdn.microsoft.com/en-us/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface.  
+2.  Uses the [IHttpServer::GetConfigObject](../../web-development-reference\native-code-api-reference/ihttpserver-getconfigobject-method.md) method to retrieve a pointer to an [INativeConfigurationSystem](http://msdn.microsoft.com/en-us/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface.  
   
 3.  Passes the configuration path for the current request to the [INativeConfigurationSystem::GetConfigSection](http://msdn.microsoft.com/en-us/ad4c47fd-a00e-eb0e-f181-0cb41e98c89d) method.  
   
@@ -48,7 +48,7 @@ virtual PCWSTR GetMetaPath(
   
 <!-- TODO: review snippet reference  [!CODE [IMetadataInfoGetMetaPath#1](IMetadataInfoGetMetaPath#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -62,4 +62,4 @@ virtual PCWSTR GetMetaPath(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IMetadataInfo Interface](../../web-development-reference\webdev-native-api-reference/imetadatainfo-interface.md)
+ [IMetadataInfo Interface](../../web-development-reference\native-code-api-reference/imetadatainfo-interface.md)

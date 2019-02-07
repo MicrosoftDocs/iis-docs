@@ -29,10 +29,10 @@ virtual HRESULT SetPriorityForRequestNotification(
  [IN] A pointer to a string that contains the name of the module.  
   
  `dwRequestNotification`  
- [IN] A bitmask value that contains the request notifications to set for the priority level. (Defined in [Httpserv.h](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md).)  
+ [IN] A bitmask value that contains the request notifications to set for the priority level. (Defined in [Httpserv.h](../../web-development-reference\native-code-api-reference/request-processing-constants.md).)  
   
  `pszPriorityAlias`  
- [IN] A pointer to a string that contains the priority alias. (Defined in [Httpserv.h](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md).)  
+ [IN] A pointer to a string that contains the priority alias. (Defined in [Httpserv.h](../../web-development-reference\native-code-api-reference/request-processing-constants.md).)  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -55,5 +55,5 @@ virtual HRESULT SetPriorityForRequestNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpApplicationResolveModulesProvider Interface](../../web-development-reference\webdev-native-api-reference/ihttpapplicationresolvemodulesprovider-interface.md)   
- [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method](../../web-development-reference\webdev-native-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md)
+ [IHttpApplicationResolveModulesProvider Interface](../../web-development-reference\native-code-api-reference/ihttpapplicationresolvemodulesprovider-interface.md)   
+ [IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method](../../web-development-reference\native-code-api-reference/ihttpmoduleregistrationinfo-setpriorityforrequestnotification-method.md)

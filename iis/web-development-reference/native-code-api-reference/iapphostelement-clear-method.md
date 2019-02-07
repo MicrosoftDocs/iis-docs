@@ -41,4 +41,4 @@ HRESULT Clear(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md)
+ [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)

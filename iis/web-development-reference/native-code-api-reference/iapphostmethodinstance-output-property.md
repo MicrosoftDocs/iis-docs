@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostMethodInstance::Output Property
-Gets an [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) in which output parameters may be retrieved after a specified method instance has been executed.  
+Gets an [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) in which output parameters may be retrieved after a specified method instance has been executed.  
   
 ## Syntax  
   
@@ -24,7 +24,7 @@ Gets an [IAppHostElement Interface](../../web-development-reference\webdev-nativ
   
 #### Parameters  
  `ppOutputElement`  
- Contains the [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) that represents the output parameters.  
+ Contains the [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) that represents the output parameters.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -43,4 +43,4 @@ Gets an [IAppHostElement Interface](../../web-development-reference\webdev-nativ
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostMethodInstance Interface](../../web-development-reference\webdev-native-api-reference/iapphostmethodinstance-interface.md)
+ [IAppHostMethodInstance Interface](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-interface.md)

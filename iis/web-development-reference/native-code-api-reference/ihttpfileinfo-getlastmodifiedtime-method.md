@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IHttpFileInfo::GetLastModifiedTime Method
-Retrieves the last modified time structure of the corresponding file for an [IHttpFileInfo](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-interface.md) interface.  
+Retrieves the last modified time structure of the corresponding file for an [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) interface.  
   
 ## Syntax  
   
@@ -35,10 +35,10 @@ virtual VOID GetLastModifiedTime(
 > [!NOTE]
 >  The `FILETIME` structure is a 64-bit value that represents the number of 100-nanosecond intervals since January 1, 1601.  
   
- The `GetLastModifiedTime` method is similar to the [IHttpFileInfo::GetLastModifiedString](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getlastmodifiedstring-method.md) method, except that you can use the `FILETIME` structure for comparisons that use functions like [CompareFileTime](http://go.microsoft.com/fwlink/?LinkId=56058) and for calculations that use functions like [FileTimeToSystemTime](http://go.microsoft.com/fwlink/?LinkId=56057).  
+ The `GetLastModifiedTime` method is similar to the [IHttpFileInfo::GetLastModifiedString](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getlastmodifiedstring-method.md) method, except that you can use the `FILETIME` structure for comparisons that use functions like [CompareFileTime](http://go.microsoft.com/fwlink/?LinkId=56058) and for calculations that use functions like [FileTimeToSystemTime](http://go.microsoft.com/fwlink/?LinkId=56057).  
   
 ## Comments  
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -52,5 +52,5 @@ virtual VOID GetLastModifiedTime(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpFileInfo Interface](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-interface.md)   
- [IHttpFileInfo::GetLastModifiedString Method](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getlastmodifiedstring-method.md)
+ [IHttpFileInfo Interface](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md)   
+ [IHttpFileInfo::GetLastModifiedString Method](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getlastmodifiedstring-method.md)

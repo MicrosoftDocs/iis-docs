@@ -47,5 +47,5 @@ Gets a collection of possible and applicable constant values for the specified p
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertySchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-interface.md)   
- [IAppHostPropertySchema::ValidationParameter Property](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-validationparameter-property.md)
+ [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md)   
+ [IAppHostPropertySchema::ValidationParameter Property](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-validationparameter-property.md)

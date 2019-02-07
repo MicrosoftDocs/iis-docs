@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # ICustomAction2ResultCallback::ReportResult Method
-Returns the results of a `RegisterCustomAction` or `UnregisterCustomAction` operation that was requested by the [IPmCustomActions2](../../web-development-reference\webdev-native-api-reference/ipmcustomactions2-interface.md) interface.  
+Returns the results of a `RegisterCustomAction` or `UnregisterCustomAction` operation that was requested by the [IPmCustomActions2](../../web-development-reference\native-code-api-reference/ipmcustomactions2-interface.md) interface.  
   
 ## Syntax  
   
@@ -51,4 +51,4 @@ virtual HRESULT ReportResult(
 |Header|Wpframework.h|  
   
 ## See Also  
- [ICustomAction2ResultCallback Interface](../../web-development-reference\webdev-native-api-reference/icustomaction2resultcallback-interface.md)
+ [ICustomAction2ResultCallback Interface](../../web-development-reference\native-code-api-reference/icustomaction2resultcallback-interface.md)

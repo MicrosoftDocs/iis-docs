@@ -65,9 +65,9 @@ virtual HRESULT GetCurrentExecutionStats(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  The module registers for the [RQ_BEGIN_REQUEST](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md), [RQ_MAP_REQUEST_HANDLER](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md), and [RQ_SEND_RESPONSE](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) notifications.  
+1.  The module registers for the [RQ_BEGIN_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md), [RQ_MAP_REQUEST_HANDLER](../../web-development-reference\native-code-api-reference/request-processing-constants.md), and [RQ_SEND_RESPONSE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notifications.  
   
-2.  The module creates a [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) class that contains [OnBeginRequest](../../web-development-reference\webdev-native-api-reference/chttpmodule-onbeginrequest-method.md), [OnMapRequestHandler](../../web-development-reference\webdev-native-api-reference/chttpmodule-onmaprequesthandler-method.md), and [OnSendResponse](../../web-development-reference\webdev-native-api-reference/chttpmodule-onsendresponse-method.md) methods.  
+2.  The module creates a [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class that contains [OnBeginRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onbeginrequest-method.md), [OnMapRequestHandler](../../web-development-reference\native-code-api-reference/chttpmodule-onmaprequesthandler-method.md), and [OnSendResponse](../../web-development-reference\native-code-api-reference/chttpmodule-onsendresponse-method.md) methods.  
   
 3.  When a Web client requests a URL, IIS calls the module's `OnBeginRequest`, `OnMapRequestHandler`, and `OnSendResponse` methods. Each of these methods calls a private method named `RetrieveExecutionStats` that performs the following tasks:  
   
@@ -85,7 +85,7 @@ virtual HRESULT GetCurrentExecutionStats(
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextGetCurrentExecutionStats#1](IHttpContextGetCurrentExecutionStats#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -99,4 +99,4 @@ virtual HRESULT GetCurrentExecutionStats(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md)
+ [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)

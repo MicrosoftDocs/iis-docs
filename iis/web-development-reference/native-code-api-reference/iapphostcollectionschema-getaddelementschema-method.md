@@ -30,7 +30,7 @@ HRESULT GetAddElementSchema(
  A `BSTR` that contains the name of the element.  
   
  `ppSchema`  
- A pointer to a pointer for an [IAppHostElementSchema](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostElementSchema](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -53,5 +53,5 @@ HRESULT GetAddElementSchema(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostCollectionSchema::IsMergeAppend Property](../../web-development-reference\webdev-native-api-reference/iapphostcollectionschema-ismergeappend-property.md)   
- [IAppHostCollectionSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostcollectionschema-interface.md)
+ [IAppHostCollectionSchema::IsMergeAppend Property](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-ismergeappend-property.md)   
+ [IAppHostCollectionSchema Interface](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-interface.md)

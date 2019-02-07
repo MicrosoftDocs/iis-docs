@@ -21,11 +21,11 @@ Describes the native-code interfaces that developers use to extend the functiona
 |||  
 |-|-|  
 |Interface|Definition|  
-|[IFtpAuthenticationProvider Interface](../../ftp-extenisibility-reference\native-code-api\iftpauthenticationprovider-interface-native.md)|Provides an interface for authenticating an FTP user.|  
-|[IFtpHomeDirectoryProvider Interface](../../ftp-extenisibility-reference\native-code-api\iftphomedirectoryprovider-interface-native.md)|Provides an interface for retrieving the path to a user's FTP home directory.|  
-|[IFtpLogProvider Interface](../../ftp-extenisibility-reference\native-code-api\iftplogprovider-interface-native.md)|Provides an interface for logging FTP activity.|  
-|[IFtpProviderConstruct Interface](../../ftp-extenisibility-reference\native-code-api\iftpproviderconstruct-interface.md)|Provides an interface for passing configuration settings to a provider.|  
-|[IFtpRoleProvider Interface](../../ftp-extenisibility-reference\native-code-api\iftproleprovider-interface-native.md)|Provides an interface for FTP authorization and role checks.|  
+|[IFtpAuthenticationProvider Interface](../../ftp-extenisibility-reference\native-code-api-reference\iftpauthenticationprovider-interface-native.md)|Provides an interface for authenticating an FTP user.|  
+|[IFtpHomeDirectoryProvider Interface](../../ftp-extenisibility-reference\native-code-api-reference\iftphomedirectoryprovider-interface-native.md)|Provides an interface for retrieving the path to a user's FTP home directory.|  
+|[IFtpLogProvider Interface](../../ftp-extenisibility-reference\native-code-api-reference\iftplogprovider-interface-native.md)|Provides an interface for logging FTP activity.|  
+|[IFtpProviderConstruct Interface](../../ftp-extenisibility-reference\native-code-api-reference\iftpproviderconstruct-interface.md)|Provides an interface for passing configuration settings to a provider.|  
+|[IFtpRoleProvider Interface](../../ftp-extenisibility-reference\native-code-api-reference\iftproleprovider-interface-native.md)|Provides an interface for FTP authorization and role checks.|  
   
 ## See Also  
- [FTP Native-Code Extensibility Structures](../../ftp-extenisibility-reference\native-code-api\ftp-native-code-extensibility-structures.md)
+ [FTP Native-Code Extensibility Structures](../../ftp-extenisibility-reference\native-code-api-reference\ftp-native-code-extensibility-structures.md)

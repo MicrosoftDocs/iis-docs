@@ -40,11 +40,11 @@ virtual VOID SetFlags(
 |HTTP_SEND_RESPONSE_FLAG_ENABLE_NAGLING|0x00000008|Enables the Nagle algorithm to optimize TCP response packets.|  
   
 ## Example  
- The following code example demonstrates how to use the `SetFlags` and [GetFlags](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-getflags-method.md) methods to create an HTTP module that sets the flags for the current response. The example then retrieves the modified flags and returns the response to a Web client.  
+ The following code example demonstrates how to use the `SetFlags` and [GetFlags](../../web-development-reference\native-code-api-reference/isendresponseprovider-getflags-method.md) methods to create an HTTP module that sets the flags for the current response. The example then retrieves the modified flags and returns the response to a Web client.  
   
 <!-- TODO: review snippet reference  [!CODE [ISendResponseProviderGetFlags#1](ISendResponseProviderGetFlags#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -58,5 +58,5 @@ virtual VOID SetFlags(
 |Header|Httpserv.h|  
   
 ## See Also  
- [ISendResponseProvider Interface](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-interface.md)   
- [ISendResponseProvider::GetFlags Method](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-getflags-method.md)
+ [ISendResponseProvider Interface](../../web-development-reference\native-code-api-reference/isendresponseprovider-interface.md)   
+ [ISendResponseProvider::GetFlags Method](../../web-development-reference\native-code-api-reference/isendresponseprovider-getflags-method.md)

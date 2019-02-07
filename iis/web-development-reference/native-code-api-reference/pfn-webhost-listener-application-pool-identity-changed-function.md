@@ -26,7 +26,7 @@ typedef VOID(* FN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED)(
   
 #### Parameters  
  `pContext`  
- [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\webdev-native-api-reference/webhostregisterprotocol-function.md).  
+ [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
   
  `AppPoolId`  
  [IN] A pointer to a string that contains the application pool with the changed identity.  
@@ -54,5 +54,5 @@ typedef VOID(* FN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED)(
 |Header|Listeneradapter.h, Windows.h for `PSID`|  
   
 ## See Also  
- [Listener Adapter Callback Functions](../../web-development-reference\webdev-native-api-reference/listener-adapter-callback-functions.md)   
- [WebhostRegisterProtocol Function](../../web-development-reference\webdev-native-api-reference/webhostregisterprotocol-function.md)
+ [Listener Adapter Callback Functions](../../web-development-reference\native-code-api-reference/listener-adapter-callback-functions.md)   
+ [WebhostRegisterProtocol Function](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md)

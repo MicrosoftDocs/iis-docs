@@ -25,8 +25,8 @@ class INamedContextContainer
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetNamedContext](../../web-development-reference\webdev-native-api-reference/inamedcontextcontainer-getnamedcontext-method.md)|Retrieves a stored context given its name.|  
-|[SetNamedContext](../../web-development-reference\webdev-native-api-reference/inamedcontextcontainer-setnamedcontext.md)|Binds stored context with a specified name.|  
+|[GetNamedContext](../../web-development-reference\native-code-api-reference/inamedcontextcontainer-getnamedcontext-method.md)|Retrieves a stored context given its name.|  
+|[SetNamedContext](../../web-development-reference\native-code-api-reference/inamedcontextcontainer-setnamedcontext.md)|Binds stored context with a specified name.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
@@ -41,4 +41,4 @@ class INamedContextContainer
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)

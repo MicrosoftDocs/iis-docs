@@ -29,7 +29,7 @@ HRESULT get_Item(
  A `VARIANT` that contains the index of the nested configuration section group to return from the collection.  
   
  `ppSectionGroup`  
- A pointer to a pointer for the [IAppHostSectionGroup](../../web-development-reference\webdev-native-api-reference/iapphostsectiongroup-interface.md) interface.  
+ A pointer to a pointer for the [IAppHostSectionGroup](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -48,4 +48,4 @@ HRESULT get_Item(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostSectionGroup Interface](../../web-development-reference\webdev-native-api-reference/iapphostsectiongroup-interface.md)
+ [IAppHostSectionGroup Interface](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-interface.md)

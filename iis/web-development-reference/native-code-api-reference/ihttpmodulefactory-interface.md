@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IHttpModuleFactory Interface
-Manages the creation of a [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) class.  
+Manages the creation of a [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class.  
   
 ## Syntax  
   
@@ -25,13 +25,13 @@ class IHttpModuleFactory
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetHttpModule](../../web-development-reference\webdev-native-api-reference/ihttpmodulefactory-gethttpmodule-method.md)|Creates an instance of a [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) class.|  
-|[Terminate](../../web-development-reference\webdev-native-api-reference/ihttpmodulefactory-terminate-method.md)|Terminates an `IHttpModuleFactory` interface.|  
+|[GetHttpModule](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-gethttpmodule-method.md)|Creates an instance of a [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class.|  
+|[Terminate](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-terminate-method.md)|Terminates an `IHttpModuleFactory` interface.|  
   
 ## Remarks  
- When you create an HTTP module, you must provide an implementation of an `IHttpModuleFactory` interface. Your exported [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function will use this module factory to create an instance of your [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) class and to remove your `IHttpModuleFactory` interface from memory.  
+ When you create an HTTP module, you must provide an implementation of an `IHttpModuleFactory` interface. Your exported [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function will use this module factory to create an instance of your [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class and to remove your `IHttpModuleFactory` interface from memory.  
   
- Your interface must provide two methods, [GetHttpModule](../../web-development-reference\webdev-native-api-reference/ihttpmodulefactory-gethttpmodule-method.md) and [Terminate](../../web-development-reference\webdev-native-api-reference/ihttpmodulefactory-terminate-method.md). Your module will use these two methods, respectively, to create your `CHttpModule` class instance and to unload itself from memory.  
+ Your interface must provide two methods, [GetHttpModule](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-gethttpmodule-method.md) and [Terminate](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-terminate-method.md). Your module will use these two methods, respectively, to create your `CHttpModule` class instance and to unload itself from memory.  
   
 ## Requirements  
   
@@ -43,5 +43,5 @@ class IHttpModuleFactory
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)   
- [CHttpModule Class](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
+ [CHttpModule Class](../../web-development-reference\native-code-api-reference/chttpmodule-class.md)

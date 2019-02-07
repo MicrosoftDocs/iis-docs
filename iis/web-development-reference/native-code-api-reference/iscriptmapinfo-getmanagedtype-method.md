@@ -33,13 +33,13 @@ virtual PCWSTR GetManagedType(
  The `GetManagedType` method retrieves the `type` attribute for a request handler that is located in the `<handlers>` section of the ApplicationHost.config file. This attribute contains a list of the [!INCLUDE[dnprdnshort](../../wmi-provider/includes/dnprdnshort-md.md)] namespaces for a request handler. For example, the "TraceHandler-Integrated" request handler has a `type` attribute of "System.Web.Handlers.TraceHandler" by default.  
   
 ## Example  
- The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetManagedType` method to retrieve the managed namespace for the request handler that is processing the current request. The module returns the managed type to a Web client and then exits.  
+ The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference\native-code-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetManagedType` method to retrieve the managed namespace for the request handler that is processing the current request. The module returns the managed type to a Web client and then exits.  
   
- The `IScriptMapInfo::GetManagedType` method differs from the [IHttpServer::GetManagedType](../../web-development-reference\webdev-native-api-reference/ihttpserver-getmanagedtype-method.md) method in that the `IScriptMapInfo::GetManagedType` method will retrieve only the `type` attribute for the [IScriptMapInfo](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-interface.md) interface, whereas the `IHttpServer::GetManagedType` can retrieve the `type` attribute for any virtual path.  
+ The `IScriptMapInfo::GetManagedType` method differs from the [IHttpServer::GetManagedType](../../web-development-reference\native-code-api-reference/ihttpserver-getmanagedtype-method.md) method in that the `IScriptMapInfo::GetManagedType` method will retrieve only the `type` attribute for the [IScriptMapInfo](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md) interface, whereas the `IHttpServer::GetManagedType` can retrieve the `type` attribute for any virtual path.  
   
 <!-- TODO: review snippet reference  [!CODE [IScriptMapInfoGetManagedType#1](IScriptMapInfoGetManagedType#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -53,5 +53,5 @@ virtual PCWSTR GetManagedType(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IScriptMapInfo Interface](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-interface.md)   
- [IHttpServer::GetManagedType Method](../../web-development-reference\webdev-native-api-reference/ihttpserver-getmanagedtype-method.md)
+ [IScriptMapInfo Interface](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md)   
+ [IHttpServer::GetManagedType Method](../../web-development-reference\native-code-api-reference/ihttpserver-getmanagedtype-method.md)

@@ -29,12 +29,12 @@ virtual DWORD GetHash(
  A `DWORD` that represents the unique hash code of an item in the global cache.  
   
 ## Remarks  
- [CGlobalModule](../../web-development-reference\webdev-native-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference\webdev-native-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an [IHttpCacheKey](../../web-development-reference\webdev-native-api-reference/ihttpcachekey-interface.md) pointer by calling the [ICacheProvider::GetCacheKey](../../web-development-reference\webdev-native-api-reference/icacheprovider-getcachekey-method.md) method on the `ICacheProvider` pointer. You can then retrieve the hash code of the item involved in the cache operation by calling the `GetHash` method on the `IHttpCacheKey` pointer.  
+ [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference\native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an [IHttpCacheKey](../../web-development-reference\native-code-api-reference/ihttpcachekey-interface.md) pointer by calling the [ICacheProvider::GetCacheKey](../../web-development-reference\native-code-api-reference/icacheprovider-getcachekey-method.md) method on the `ICacheProvider` pointer. You can then retrieve the hash code of the item involved in the cache operation by calling the `GetHash` method on the `IHttpCacheKey` pointer.  
   
- The `GetHash` return value depends on both interface and implementation. For example, implementers of the [IFileKey](../../web-development-reference\webdev-native-api-reference/ifilekey-interface.md), [IHttpTokenKey](../../web-development-reference\webdev-native-api-reference/ihttptokenkey-interface.md), and [IUriKey](../../web-development-reference\webdev-native-api-reference/iurikey-interface.md) interfaces all use different hashing algorithms based upon the data that they hold.  
+ The `GetHash` return value depends on both interface and implementation. For example, implementers of the [IFileKey](../../web-development-reference\native-code-api-reference/ifilekey-interface.md), [IHttpTokenKey](../../web-development-reference\native-code-api-reference/ihttptokenkey-interface.md), and [IUriKey](../../web-development-reference\native-code-api-reference/iurikey-interface.md) interfaces all use different hashing algorithms based upon the data that they hold.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events and then writes the `IHttpCacheKey` and the hash information to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpCacheKey` and the hash information to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
@@ -48,7 +48,7 @@ IHttpCacheKey::GetHash: 46
   
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -62,4 +62,4 @@ IHttpCacheKey::GetHash: 46
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCacheKey Interface](../../web-development-reference\webdev-native-api-reference/ihttpcachekey-interface.md)
+ [IHttpCacheKey Interface](../../web-development-reference\native-code-api-reference/ihttpcachekey-interface.md)

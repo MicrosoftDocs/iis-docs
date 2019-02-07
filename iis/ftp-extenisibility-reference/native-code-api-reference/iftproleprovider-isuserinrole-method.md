@@ -89,4 +89,4 @@ public:
 |Reference|ftpext.tlb|  
   
 ## See Also  
- [IFtpRoleProvider Interface](../../ftp-extenisibility-reference\native-code-api\iftproleprovider-interface-native.md)
+ [IFtpRoleProvider Interface](../../ftp-extenisibility-reference\native-code-api-reference\iftproleprovider-interface-native.md)

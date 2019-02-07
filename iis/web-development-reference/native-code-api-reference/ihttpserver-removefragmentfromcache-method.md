@@ -35,7 +35,7 @@ virtual HRESULT RemoveFragmentFromCache(
 |ERROR_FILE_NOT_FOUND|Indicates that the fragment specified by the `pszFragmentName` parameter could not be found.|  
   
 ## Remarks  
- Developers can use the [AddFragmentToCache](../../web-development-reference\webdev-native-api-reference/ihttpserver-addfragmenttocache-method.md), [ReadFragmentFromCache](../../web-development-reference\webdev-native-api-reference/ihttpserver-readfragmentfromcache-method.md), and `RemoveFragmentFromCache` methods, respectively, to add [HTTP_DATA_CHUNK](http://go.microsoft.com/fwlink/?LinkId=56011) structures to the fragment cache, or to retrieve and remove `HTTP_DATA_CHUNK` structures from the cache. These methods give developers a small degree of custom functionality to use the built-in IIS cache for storing and retrieving data fragments in the cache.  
+ Developers can use the [AddFragmentToCache](../../web-development-reference\native-code-api-reference/ihttpserver-addfragmenttocache-method.md), [ReadFragmentFromCache](../../web-development-reference\native-code-api-reference/ihttpserver-readfragmentfromcache-method.md), and `RemoveFragmentFromCache` methods, respectively, to add [HTTP_DATA_CHUNK](http://go.microsoft.com/fwlink/?LinkId=56011) structures to the fragment cache, or to retrieve and remove `HTTP_DATA_CHUNK` structures from the cache. These methods give developers a small degree of custom functionality to use the built-in IIS cache for storing and retrieving data fragments in the cache.  
   
 > [!NOTE]
 >  Http.sys manages and owns the fragment cache. At any time, Http.sys may override or delete information that you directed to be stored. There is currently no way to lock information in the fragment cache as nonvolatile information.  
@@ -50,6 +50,6 @@ virtual HRESULT RemoveFragmentFromCache(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference\webdev-native-api-reference/ihttpserver-interface.md)   
- [IHttpServer::AddFragmentToCache Method](../../web-development-reference\webdev-native-api-reference/ihttpserver-addfragmenttocache-method.md)   
- [IHttpServer::ReadFragmentFromCache Method](../../web-development-reference\webdev-native-api-reference/ihttpserver-readfragmentfromcache-method.md)
+ [IHttpServer Interface](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md)   
+ [IHttpServer::AddFragmentToCache Method](../../web-development-reference\native-code-api-reference/ihttpserver-addfragmenttocache-method.md)   
+ [IHttpServer::ReadFragmentFromCache Method](../../web-development-reference\native-code-api-reference/ihttpserver-readfragmentfromcache-method.md)

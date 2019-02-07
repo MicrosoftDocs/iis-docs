@@ -43,4 +43,4 @@ virtual _Ret_writes_(*pcchConfigFilePath) PCWSTR GetAppPoolConfigFile(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer2 Interface](../../web-development-reference\webdev-native-api-reference/ihttpserver2-interface.md)
+ [IHttpServer2 Interface](../../web-development-reference\native-code-api-reference/ihttpserver2-interface.md)

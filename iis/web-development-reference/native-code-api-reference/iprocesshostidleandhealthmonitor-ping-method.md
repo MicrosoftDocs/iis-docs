@@ -24,7 +24,7 @@ virtual HRESULT __stdcall Ping(
   
 #### Parameters  
  `pCallback`  
- An [IProcessPingCallback](../../web-development-reference\webdev-native-api-reference/iprocesspingcallback-interface.md) interface through which the process host can respond to an asynchronous ping operation. `pCallback` is the object on which to perform the callback function.  
+ An [IProcessPingCallback](../../web-development-reference\native-code-api-reference/iprocesspingcallback-interface.md) interface through which the process host can respond to an asynchronous ping operation. `pCallback` is the object on which to perform the callback function.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -43,4 +43,4 @@ virtual HRESULT __stdcall Ping(
 |Header|Webhost.h|  
   
 ## See Also  
- [IProcessHostIdleAndHealthMonitor Interface](../../web-development-reference\webdev-native-api-reference/iprocesshostidleandhealthmonitor-interface.md)
+ [IProcessHostIdleAndHealthMonitor Interface](../../web-development-reference\native-code-api-reference/iprocesshostidleandhealthmonitor-interface.md)

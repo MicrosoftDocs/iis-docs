@@ -75,7 +75,7 @@ This walkthrough demonstrates how to use C++ to create a sample global-level HTT
   
 #### To add the source files to the project  
   
-1.  Create the module-definition file to export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function:  
+1.  Create the module-definition file to export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function:  
   
     1.  In Solution Explorer, right-click **Source Files**, point to **Add**, and then click **New Item**.  
   
@@ -98,7 +98,7 @@ This walkthrough demonstrates how to use C++ to create a sample global-level HTT
             RegisterModule  
         ```  
   
-2.  You can optionally export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function by using the **/EXPORT:RegisterModule** switch:  
+2.  You can optionally export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function by using the **/EXPORT:RegisterModule** switch:  
   
     1.  On the **Project** menu, click **HelloWorld Properties**.  
   

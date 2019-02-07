@@ -38,7 +38,7 @@ virtual const BYTE* GetFileBuffer(
 -   Implementers that reference a non-Internet file return a `BYTE` pointer in memory that contains data from the file, if that file can be opened. Otherwise, these implementers return NULL.  
   
 ## Notes for Implementers  
- [IHttpFileInfo](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpFileInfo` implementers that use dynamic memory allocation must release or call `delete`[] on the `BYTE` pointer when it is no longer needed.  
+ [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpFileInfo` implementers that use dynamic memory allocation must release or call `delete`[] on the `BYTE` pointer when it is no longer needed.  
   
 ## Notes for Callers  
  `IHttpFileInfo` implementers are responsible for memory management with this data; therefore, `IHttpFileInfo` clients must not release or call `delete`[] on the returned `BYTE` pointer when this data is no longer needed. Furthermore, clients must not cast this data to a pointer that is not a `const` or change the state of the memory referenced by this `BYTE` pointer; otherwise, an access violation will be thrown or the data will become invalid.  
@@ -47,7 +47,7 @@ virtual const BYTE* GetFileBuffer(
 >  Always test for NULL before inspecting the data contained in the returned `BYTE` pointer, because some implementations return NULL.  
   
 ## Example  
- The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface for the current request. The example then calls the `GetFileBuffer` method to retrieve the file information for the requested file and displays this information to a Web client.  
+ The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference\native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface for the current request. The example then calls the `GetFileBuffer` method to retrieve the file information for the requested file and displays this information to a Web client.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpFileInfo#6](IHttpFileInfo#6)]  -->  
   
@@ -64,7 +64,7 @@ File Buffer:
 <html>. . .  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -78,4 +78,4 @@ File Buffer:
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpFileInfo Interface](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-interface.md)
+ [IHttpFileInfo Interface](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md)

@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IHttpServer::GetFileInfo Method
-Returns an [IHttpFileInfo](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-interface.md) interface for a specific file path.  
+Returns an [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) interface for a specific file path.  
   
 ## Syntax  
   
@@ -52,7 +52,7 @@ virtual HRESULT GetFileInfo(
  [OUT] A dereferenced pointer to an `IHttpFileInfo` interface.  
   
  `pHttpTraceContext`  
- [IN] A pointer to an optional [IHttpTraceContext](../../web-development-reference\webdev-native-api-reference/ihttptracecontext-interface.md) interface.  
+ [IN] A pointer to an optional [IHttpTraceContext](../../web-development-reference\native-code-api-reference/ihttptracecontext-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -63,7 +63,7 @@ virtual HRESULT GetFileInfo(
 |E_FAIL|Indicates that the call to `GetFileInfo` was made while the module host was terminating.|  
   
 ## Remarks  
- The `IHttpServer::GetFileInfo` method creates an `IHttpFileInfo` interface for a specific path. This method differs from the [IHttpContext::GetFileInfo](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getfileinfo-method.md) method, which returns an `IHttpFileInfo` interface for the file that IIS is processing within a request context.  
+ The `IHttpServer::GetFileInfo` method creates an `IHttpFileInfo` interface for a specific path. This method differs from the [IHttpContext::GetFileInfo](../../web-development-reference\native-code-api-reference/ihttpcontext-getfileinfo-method.md) method, which returns an `IHttpFileInfo` interface for the file that IIS is processing within a request context.  
   
  The `pszPhysicalPath` and `ppFileInfo` parameters are required to create an `IHttpFileInfo` interface. The `pszPhysicalPath` parameter specifies the path to the file, and the `ppFileInfo` parameter defines the pointer that IIS will populate with the corresponding `IHttpFileInfo` interface.  
   
@@ -77,17 +77,17 @@ virtual HRESULT GetFileInfo(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  Registers for the [RQ_BEGIN_REQUEST](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) notification.  
+1.  Registers for the [RQ_BEGIN_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification.  
   
-2.  Creates a [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) class that contains an [OnBeginRequest](../../web-development-reference\webdev-native-api-reference/chttpmodule-onbeginrequest-method.md) method. When a client requests a file, the `OnBeginRequest` method performs the following tasks:  
+2.  Creates a [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class that contains an [OnBeginRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onbeginrequest-method.md) method. When a client requests a file, the `OnBeginRequest` method performs the following tasks:  
   
-    1.  Maps a path to a relative URL by using the [IHttpContext::MapPath](../../web-development-reference\webdev-native-api-reference/ihttpcontext-mappath-method.md) method.  
+    1.  Maps a path to a relative URL by using the [IHttpContext::MapPath](../../web-development-reference\native-code-api-reference/ihttpcontext-mappath-method.md) method.  
   
     2.  Creates an `IHttpFileInfo` interface for the file path by using the `IHttpServer::GetFileInfo` method.  
   
-    3.  Retrieves the entity tag for the file by using the [IHttpFileInfo::GetETag](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getetag-method.md) method.  
+    3.  Retrieves the entity tag for the file by using the [IHttpFileInfo::GetETag](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getetag-method.md) method.  
   
-    4.  Returns the entity tag to the client by using the [IHttpResponse::WriteEntityChunks](../../web-development-reference\webdev-native-api-reference/ihttpresponse-writeentitychunks-method.md) method.  
+    4.  Returns the entity tag to the client by using the [IHttpResponse::WriteEntityChunks](../../web-development-reference\native-code-api-reference/ihttpresponse-writeentitychunks-method.md) method.  
   
 3.  Removes the `CHttpModule` class from memory and then exits.  
   
@@ -107,5 +107,5 @@ virtual HRESULT GetFileInfo(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference\webdev-native-api-reference/ihttpserver-interface.md)   
- [IHttpContext::GetFileInfo Method](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getfileinfo-method.md)
+ [IHttpServer Interface](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md)   
+ [IHttpContext::GetFileInfo Method](../../web-development-reference\native-code-api-reference/ihttpcontext-getfileinfo-method.md)

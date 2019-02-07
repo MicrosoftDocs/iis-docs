@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostAdminManager::ConfigManager Property
-Gets an [IAppHostConfigManager](../../web-development-reference\webdev-native-api-reference/iapphostconfigmanager-interface.md) interface that provides access to the physical files in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
+Gets an [IAppHostConfigManager](../../web-development-reference\native-code-api-reference/iapphostconfigmanager-interface.md) interface that provides access to the physical files in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 ## Syntax  
   
@@ -51,4 +51,4 @@ HRESULT get_ConfigManager(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostAdminManager Interface](../../web-development-reference\webdev-native-api-reference/iapphostadminmanager-interface.md)
+ [IAppHostAdminManager Interface](../../web-development-reference\native-code-api-reference/iapphostadminmanager-interface.md)
