@@ -11,7 +11,7 @@ caps.latest.revision: 7
 manager: "wpickett"
 ---
 # GetRunningProcessForSite
-Returns the process ID of the worker process when the parameters of this function match the parameters for the current user specified by the [ConstructCommandLine](../../extensions\express-api-ref/constructcommandline.md) function.  
+Returns the process ID of the worker process when the parameters of this function match the parameters for the current user specified by the [ConstructCommandLine](../../\express-api-reference/constructcommandline.md) function.  
   
 ## Syntax  
   
@@ -53,5 +53,5 @@ Returns the process ID of the worker process when the parameters of this functio
  `HRESULT`  
   
 ## See Also  
- [ConstructCommandLine](../../extensions\express-api-ref/constructcommandline.md)   
- [StopProcess](../../extensions\express-api-ref/stopprocess.md)
+ [ConstructCommandLine](../../\express-api-reference/constructcommandline.md)   
+ [StopProcess](../../\express-api-reference/stopprocess.md)

@@ -52,10 +52,10 @@ interface IIISVersion : IUnknown
 ```  
   
 ## See Also  
- [GetPropertyValue](../../extensions\express-api-ref/getpropertyvalue.md)   
- [CreateObjectFromProgId](../../extensions\express-api-ref/createobjectfromprogid.md)   
- [CreateObjectFromCLSID](../../extensions\express-api-ref/createobjectfromclsid.md)   
- [ApplyIISEnvironmentVariables](../../extensions\express-api-ref/applyiisenvironmentvariables.md)   
- [ClearIISEnvironmentVariables](../../extensions\express-api-ref/cleariisenvironmentvariables.md)   
- [ApplyManifestContext](../../extensions\express-api-ref/applymanifestcontext.md)   
- [ClearManifestContext](../../extensions\express-api-ref/clearmanifestcontext.md)
+ [GetPropertyValue](../../\express-api-reference/getpropertyvalue.md)   
+ [CreateObjectFromProgId](../../\express-api-reference/createobjectfromprogid.md)   
+ [CreateObjectFromCLSID](../../\express-api-reference/createobjectfromclsid.md)   
+ [ApplyIISEnvironmentVariables](../../\express-api-reference/applyiisenvironmentvariables.md)   
+ [ClearIISEnvironmentVariables](../../\express-api-reference/cleariisenvironmentvariables.md)   
+ [ApplyManifestContext](../../\express-api-reference/applymanifestcontext.md)   
+ [ClearManifestContext](../../\express-api-reference/clearmanifestcontext.md)

@@ -33,5 +33,5 @@ Stops the IIS Express process for the specified process ID.
  `HRESULT`  
   
 ## See Also  
- [GetRunningProcessForSite](../../extensions\express-api-ref/getrunningprocessforsite.md)   
- [ConstructCommandLine](../../extensions\express-api-ref/constructcommandline.md)
+ [GetRunningProcessForSite](../../\express-api-reference/getrunningprocessforsite.md)   
+ [ConstructCommandLine](../../\express-api-reference/constructcommandline.md)

@@ -28,9 +28,9 @@ Injects dynamic environment variables into the current process that would otherw
  Examples of environment variables that this method can inject include `%IIS_BIN%` and `%IIS_USER_HOME`. This function can be useful if you are trying to process an IIS Express configuration file and must resolve an environment variable that has been declared within the file.  
   
 ## See Also  
- [GetPropertyValue](../../extensions\express-api-ref/getpropertyvalue.md)   
- [CreateObjectFromProgId](../../extensions\express-api-ref/createobjectfromprogid.md)   
- [CreateObjectFromCLSID](../../extensions\express-api-ref/createobjectfromclsid.md)   
- [ClearIISEnvironmentVariables](../../extensions\express-api-ref/cleariisenvironmentvariables.md)   
- [ApplyManifestContext](../../extensions\express-api-ref/applymanifestcontext.md)   
- [ClearManifestContext](../../extensions\express-api-ref/clearmanifestcontext.md)
+ [GetPropertyValue](../../\express-api-reference/getpropertyvalue.md)   
+ [CreateObjectFromProgId](../../\express-api-reference/createobjectfromprogid.md)   
+ [CreateObjectFromCLSID](../../\express-api-reference/createobjectfromclsid.md)   
+ [ClearIISEnvironmentVariables](../../\express-api-reference/cleariisenvironmentvariables.md)   
+ [ApplyManifestContext](../../\express-api-reference/applymanifestcontext.md)   
+ [ClearManifestContext](../../\express-api-reference/clearmanifestcontext.md)
