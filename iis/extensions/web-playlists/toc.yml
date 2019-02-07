@@ -1,0 +1,91 @@
+- name: IIS Web Playlists
+  href: iis-web-playlists.md
+  items:
+  - name: IIS Web Playlists SDK Programming Reference
+    href: iis-web-playlists-sdk-programming-reference.md
+    items:
+    - name: IPlaylistProvider Interface
+      href: iplaylistprovider-interface.md
+      items:
+      - name: IPlaylistProvider::Initialize Method
+        href: iplaylistprovider-initialize-method.md
+      - name: IPlaylistProvider::Shutdown Method
+        href: iplaylistprovider-shutdown-method.md
+      - name: IPlaylistProvider::GetPlaylistInfo Method
+        href: iplaylistprovider-getplaylistinfo-method.md
+    - name: IPlaylistEntryInfo Interface
+      href: iplaylistentryinfo-interface.md
+      items:
+      - name: IPlaylistEntryInfo::GetProperty Method
+        href: iplaylistentryinfo-getproperty-method.md
+      - name: IPlaylistEntryInfo::EntryType Property
+        href: iplaylistentryinfo-entrytype-property.md
+      - name: IPlaylistEntryInfo::ENTRY_TYPE Enumeration
+        href: iplaylistentryinfo-entry-type-enumeration.md
+      - name: IPlaylistEntryInfo::Uri Property
+        href: iplaylistentryinfo-uri-property.md
+    - name: IPlaylistEntryInfoCollection Interface
+      href: iplaylistentryinfocollection-interface.md
+      items:
+      - name: IPlaylistEntryInfoCollection::Count Property
+        href: iplaylistentryinfocollection-count-property.md
+      - name: IPlaylistEntryInfoCollection::Item Property
+        href: iplaylistentryinfocollection-item-property.md
+    - name: IPlaylistInfo Interface
+      href: iplaylistinfo-interface.md
+      items:
+      - name: IPlaylistInfo::Entries Property
+        href: iplaylistinfo-entries-property.md
+      - name: IPlaylistInfo::GetProperty Method
+        href: iplaylistinfo-getproperty-method.md
+    - name: IPlaylistRequestInfo Interface
+      href: iplaylistrequestinfo-interface.md
+      items:
+      - name: IPlaylistRequestInfo::Path Property
+        href: iplaylistrequestinfo-path-property.md
+      - name: IPlaylistRequestInfo::Format Property
+        href: iplaylistrequestinfo-format-property.md
+      - name: IPlaylistRequestInfo::GetServerVariable Method
+        href: iplaylistrequestinfo-getservervariable-method.md
+      - name: IPlaylistRequestInfo::SetServerVariable Method
+        href: iplaylistrequestinfo-setservervariable-method.md
+      - name: IPlaylistRequestInfo::GetSessionData Method
+        href: iplaylistrequestinfo-getsessiondata-method.md
+      - name: IPlaylistRequestInfo::SetSessionData Method
+        href: iplaylistrequestinfo-setsessiondata-method.md
+      - name: IPlaylistRequestInfo::GetFileInfo Method
+        href: iplaylistrequestinfo-getfileinfo-method.md
+    - name: IPlaylistFileInfo Interface
+      href: iplaylistfileinfo-interface.md
+      items:
+      - name: IPlaylistFileInfo::FilePath Property
+        href: iplaylistfileinfo-filepath-property.md
+      - name: IPlaylistFileInfo::IsCached Property
+        href: iplaylistfileinfo-iscached-property.md
+      - name: IPlaylistFileInfo::FileSize Property
+        href: iplaylistfileinfo-filesize-property.md
+      - name: IPlaylistFileInfo::Attributes Property
+        href: iplaylistfileinfo-attributes-property.md
+      - name: IPlaylistFileInfo::LastModifiedTime Property
+        href: iplaylistfileinfo-lastmodifiedtime-property.md
+      - name: IPlaylistFileInfo::GetStream Method
+        href: iplaylistfileinfo-getstream-method.md
+    - name: PLAYLIST_PROPERTY_TYPE Enumeration
+      href: playlist-property-type-enumeration.md
+    - name: PLAYLIST_ENTRY_PROPERTY_TYPE Enumeration
+      href: playlist-entry-property-type-enumeration.md
+  - name: IIS Web Playlists SDK Programming Guide
+    href: iis-web-playlists-sdk-programming-guide.md
+    items:
+    - name: Getting Started with the IIS Web Playlists SDK
+      href: getting-started-with-the-iis-web-playlists-sdk.md
+      items:
+      - name: Creating a Managed Playlist Provider
+        href: creating-a-managed-playlist-provider.md
+        items:
+        - name: Creating a Web Playlist Interop Assembly
+          href: creating-a-web-playlist-interop-assembly.md
+        - name: Writing a Managed Web Playlist Provider
+          href: writing-a-managed-web-playlist-provider.md
+        - name: Installing a Custom Web Playlist Provider
+          href: installing-a-custom-web-playlist-provider.md

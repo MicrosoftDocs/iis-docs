@@ -1,0 +1,36 @@
+- name:  FTP Extensibility Native API code Reference
+  href: ftp-native-code-extensibility-api-reference.md
+  items:
+  - name: FTP Native-Code Extensibility Interfaces
+    href: ftp-native-code-extensibility-interfaces.md
+    items:
+    - name: IFtpAuthenticationProvider Interface (Native)
+      href: iftpauthenticationprovider-interface-native.md
+      items:
+      - name: IFtpAuthenticationProvider::AuthenticateUser Method
+        href: iftpauthenticationprovider-authenticateuser-method.md
+    - name: IFtpHomeDirectoryProvider Interface (Native)
+      href: iftphomedirectoryprovider-interface-native.md
+      items:
+      - name: IFtpHomeDirectoryProvider::GetUserHomeDirectoryData Method
+        href: iftphomedirectoryprovider-getuserhomedirectorydata-method.md
+    - name: IFtpLogProvider Interface (Native)
+      href: iftplogprovider-interface-native.md
+      items:
+      - name: IFtpLogProvider::Log Method
+        href: iftplogprovider-log-method.md
+    - name: IFtpProviderConstruct Interface
+      href: iftpproviderconstruct-interface.md
+      items:
+      - name: IFtpProviderConstruct::Construct Method
+        href: iftpproviderconstruct-construct-method.md
+    - name: IFtpRoleProvider Interface (Native)
+      href: iftproleprovider-interface-native.md
+      items:
+      - name: IFtpRoleProvider::IsUserInRole Method
+        href: iftproleprovider-isuserinrole-method.md
+  - name: FTP Native-Code Extensibility Structures
+    href: ftp-native-code-extensibility-structures.md
+    items:
+    - name: LOGGING_PARAMETERS Structure
+      href: logging-parameters-structure.md

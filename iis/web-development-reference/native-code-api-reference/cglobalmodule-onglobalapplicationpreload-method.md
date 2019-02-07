@@ -1,0 +1,42 @@
+---
+title: "CGlobalModule::OnGlobalApplicationPreload Method | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/07/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: 526c5b5d-9acf-4b5d-ac3b-ec97e57c8a7e
+caps.latest.revision: 3
+author: "shirhatti"
+manager: "wpickett"
+---
+# CGlobalModule::OnGlobalApplicationPreload Method
+Represents a method that will handle a `GlobalApplicationPreload` event.  
+  
+## Syntax  
+  
+```cpp  
+virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationPreload(   IN IGlobalApplicationPreloadProvider* pProvider);  
+```  
+  
+#### Parameters  
+ `pProvider`  
+ [IN] A pointer to an [IGlobalApplicationPreloadProvider](../../web-development-reference\webdev-native-api-reference/iglobalapplicationpreloadprovider-interface.md) interface.  
+  
+## Return Value  
+ A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference\webdev-native-api-reference/global-notification-status-enumeration.md) value.  
+  
+## Remarks  
+  
+## Requirements  
+  
+|Type|Description|  
+|----------|-----------------|  
+|Client|-   IIS 7.0 on [!INCLUDE[winvista](../../wmi-provider/includes/winvista-md.md)]<br />-   IIS 7.5 on Windows 7<br />-   IIS 8.0 on Windows 8<br />-   IIS 10.0 on Windows 10|  
+|Server|-   IIS 7.0 on [!INCLUDE[winsrv2008](../../wmi-provider/includes/winsrv2008-md.md)]<br />-   IIS 7.5 on Windows Server 2008 R2<br />-   IIS 8.0 on Windows Server 2012<br />-   IIS 8.5 on Windows Server 2012 R2<br />-   IIS 10.0 on Windows Server 2016|  
+|Product|-   IIS 7.0, IIS 7.5, IIS 8.0, IIS 8.5, IIS 10.0<br />-   [!INCLUDE[iisexp75](../../web-development-reference/native-code-api-reference/includes/iisexp75-md.md)], [!INCLUDE[iisexp80](../../web-development-reference/native-code-api-reference/includes/iisexp80-md.md)], [!INCLUDE[iisexp100](../../web-development-reference/native-code-api-reference/includes/iisexp100-md.md)]|  
+|Header|Httpserv.h|  
+  
+## See Also  
+ [CGlobalModule Class](../../web-development-reference\webdev-native-api-reference/cglobalmodule-class.md)
