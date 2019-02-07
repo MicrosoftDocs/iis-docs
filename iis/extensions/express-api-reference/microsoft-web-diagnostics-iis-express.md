@@ -21,4 +21,4 @@ The `Microsoft.Web.Diagnostics` namespace includes classes that provide diagnost
 -   [IISDeveloperExpressDiagnostics](../../\extensions/express-api-reference/iisdeveloperexpressdiagnostics.md)  
   
 ## See Also  
- [IIS Express API Reference](../../\extensions/express-api-reference/iis-extensions/express-api-reference.md)
+ [IIS Express API Reference](../../\extensions/express-api-reference/express-api-reference.md)
