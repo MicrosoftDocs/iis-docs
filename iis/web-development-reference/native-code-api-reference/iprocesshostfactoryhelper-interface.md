@@ -1,0 +1,51 @@
+---
+title: "IProcessHostFactoryHelper Interface | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/07/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: dc1cd4f7-dbff-408b-26a5-0c4d6c6897c8
+caps.latest.revision: 19
+author: "shirhatti"
+manager: "wpickett"
+---
+# IProcessHostFactoryHelper Interface
+Provides a method to retrieve an [IProcessHost](../../web-development-reference\webdev-native-api-reference/iprocesshost-interface.md) interface.  
+  
+## Syntax  
+  
+```cpp  
+struct IProcessHostFactoryHelper : IUnknown  
+```  
+  
+## Methods  
+ The following table lists the methods exposed by the `IProcessHostFactoryHelper` interface.  
+  
+|Name|Description|  
+|----------|-----------------|  
+|[IProcessHostFactoryHelper::GetProcessHost](../../web-development-reference\webdev-native-api-reference/iprocesshostfactoryhelper-getprocesshost-method.md)|Retrieves an `IProcessHost` interface.|  
+  
+## Properties  
+ This interface contains no properties.  
+  
+## Derived Classes  
+ This interface contains no derived classes.  
+  
+## Inheritance Hierarchy  
+ [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
+  
+ `IProcessHostFactoryHelper`  
+  
+## Requirements  
+  
+|Type|Description|  
+|----------|-----------------|  
+|Client|-   IIS 7.0 on [!INCLUDE[winvista](../../wmi-provider/includes/winvista-md.md)]<br />-   IIS 7.5 on Windows 7<br />-   IIS 8.0 on Windows 8<br />-   IIS 10.0 on Windows 10|  
+|Server|-   IIS 7.0 on [!INCLUDE[winsrv2008](../../wmi-provider/includes/winsrv2008-md.md)]<br />-   IIS 7.5 on Windows Server 2008 R2<br />-   IIS 8.0 on Windows Server 2012<br />-   IIS 8.5 on Windows Server 2012 R2<br />-   IIS 10.0 on Windows Server 2016|  
+|Product|-   IIS 7.0, IIS 7.5, IIS 8.0, IIS 8.5, IIS 10.0<br />-   [!INCLUDE[iisexp75](../../web-development-reference/native-code-api-reference/includes/iisexp75-md.md)], [!INCLUDE[iisexp80](../../web-development-reference/native-code-api-reference/includes/iisexp80-md.md)], [!INCLUDE[iisexp100](../../web-development-reference/native-code-api-reference/includes/iisexp100-md.md)]|  
+|Header|Webhost.h|  
+  
+## See Also  
+ [Windows Process Activation Service Interfaces](../../web-development-reference\webdev-native-api-reference/windows-process-activation-service-interfaces.md)

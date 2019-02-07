@@ -1,0 +1,41 @@
+---
+title: CacheResponse Constructor  (Microsoft.Web.Media.SmoothStreaming)
+TOCTitle: CacheResponse Constructor
+ms:assetid: Overload:Microsoft.Web.Media.SmoothStreaming.CacheResponse.#ctor
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.cacheresponse(v=VS.90)
+ms:contentKeyID: 31469200
+ms.date: 05/02/2012
+mtps_version: v=VS.90
+f1_keywords:
+- Microsoft.Web.Media.SmoothStreaming.CacheResponse.#ctor
+- Microsoft.Web.Media.SmoothStreaming.CacheResponse.CacheResponse
+dev_langs:
+- CSharp
+- JScript
+- VB
+---
+
+# CacheResponse Constructor
+
+Initializes a new instance of the [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) class.
+
+This member is overloaded. For complete information about this member, including syntax, usage, and examples, click a name in the overload list.
+
+## Overload List
+
+||Name|Description|
+|--- |--- |--- |
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[CacheResponse(Stream)](cacheresponse-constructor-stream-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) class from a [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e(v=vs.90)) object.|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[CacheResponse(Int64, String, WebHeaderCollection, Stream, HttpStatusCode, String, DateTime)](cacheresponse-constructor-int64-string-webheadercollection-stream-httpstatuscode-string-datetime-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) class from the parameters.|
+
+
+Top
+
+## See Also
+
+#### Reference
+
+[CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
+
+[Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
+
