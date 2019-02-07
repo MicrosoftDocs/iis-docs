@@ -26,7 +26,7 @@ virtual VOID ReferenceUser(
  This method takes no parameters.  
   
 ## Thread Safety  
- Classes that implement the [IHttpUser](../../web-development-reference\webdev-native-api-reference/ihttpuser-interface.md) interface are thread safe for the `ReferenceUser` and [DereferenceUser](../../web-development-reference\webdev-native-api-reference/ihttpuser-dereferenceuser-method.md) methods.  
+ Classes that implement the [IHttpUser](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md) interface are thread safe for the `ReferenceUser` and [DereferenceUser](../../web-development-reference\native-code-api-reference/ihttpuser-dereferenceuser-method.md) methods.  
   
 ## Remarks  
  Classes that implement the `IHttpUser` interface use reference counting that is thread safe for memory management. When an `IHttpUser` pointer is constructed, the internal reference count (a `private` member variable) is set to 1. When the `ReferenceUser` method is called, this reference count is incremented by 1. When the `DereferenceUser` method is called, this same reference count is decremented by 1. The `IHttpUser` interface is removed from the heap only when the reference count goes to 0. This scheme guarantees that the `IHttpUser` pointer will not be deleted until the last client of that pointer calls the `DereferenceUser` method.  
@@ -91,4 +91,4 @@ private:
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpUser Interface](../../web-development-reference\webdev-native-api-reference/ihttpuser-interface.md)
+ [IHttpUser Interface](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md)

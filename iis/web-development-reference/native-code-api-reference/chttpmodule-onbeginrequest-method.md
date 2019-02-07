@@ -25,19 +25,19 @@ virtual REQUEST_NOTIFICATION_STATUS OnBeginRequest(
   
 #### Parameters  
  `pHttpContext`  
- [IN] A pointer to an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) interface.  
+ [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   
  `pProvider`  
- [IN] A pointer to an [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md) interface.  
+ [IN] A pointer to an [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md) interface.  
   
 ## Return Value  
- A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\webdev-native-api-reference/request-notification-status-enumeration.md) value.  
+ A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
- When a request-level module is registered for the [RQ_BEGIN_REQUEST](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnBeginRequest` method when a request enters the integrated request-processing pipeline.  
+ When a request-level module is registered for the [RQ_BEGIN_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnBeginRequest` method when a request enters the integrated request-processing pipeline.  
   
 > [!NOTE]
->  Request-level modules can register for the `BeginRequest` event notification by registering for `RQ_BEGIN_REQUEST` in the module's [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function.  
+>  Request-level modules can register for the `BeginRequest` event notification by registering for `RQ_BEGIN_REQUEST` in the module's [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
   
  IIS calls a module's `OnBeginRequest` method before authentication and authorization; this allows developers to use the `OnBeginRequest` method to process requests where the client's identity is not an issue.  
   
@@ -45,7 +45,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnBeginRequest(
 >  Not all requests enter the integrated request-processing pipeline. A request for an image file that can be satisfied from the cache will not enter the integrated request-processing pipeline; therefore, the `OnBeginRequest` method will not be called.  
   
 ## Example  
- The following example demonstrates how to create a request-level HTTP module that registers for the `RQ_BEGIN_REQUEST` event and post-event notifications. When a request enters the pipeline, IIS will call the example module's `OnBeginRequest` and [OnPostBeginRequest](../../web-development-reference\webdev-native-api-reference/chttpmodule-onpostbeginrequest-method.md) methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
+ The following example demonstrates how to create a request-level HTTP module that registers for the `RQ_BEGIN_REQUEST` event and post-event notifications. When a request enters the pipeline, IIS will call the example module's `OnBeginRequest` and [OnPostBeginRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onpostbeginrequest-method.md) methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  
   
 <!-- TODO: review snippet reference  [!CODE [CHttpModuleBeginRequest#1](CHttpModuleBeginRequest#1)]  -->  
   
@@ -63,5 +63,5 @@ virtual REQUEST_NOTIFICATION_STATUS OnBeginRequest(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md)   
- [CHttpModule::OnPostBeginRequest Method](../../web-development-reference\webdev-native-api-reference/chttpmodule-onpostbeginrequest-method.md)
+ [CHttpModule Class](../../web-development-reference\native-code-api-reference/chttpmodule-class.md)   
+ [CHttpModule::OnPostBeginRequest Method](../../web-development-reference\native-code-api-reference/chttpmodule-onpostbeginrequest-method.md)

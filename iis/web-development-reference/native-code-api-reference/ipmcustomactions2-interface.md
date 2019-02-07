@@ -25,13 +25,13 @@ class IPmCustomActions2 : public IWpfReferencedObject
   
 |Name|Description|  
 |----------|-----------------|  
-|[IPmCustomActions2::RegisterCustomActionCallback](../../web-development-reference\webdev-native-api-reference/ipmcustomactions2-registercustomactioncallback-method.md)|Registers a custom callback method for actions that will result in multiple responses.|  
-|[IPmCustomActions2::UnregisterCustomActionCallback](../../web-development-reference\webdev-native-api-reference/ipmcustomactions2-unregistercustomactioncallback-method.md)|Unregisters the specified custom action callback method.|  
-|[AddRef](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-addref-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md).)|  
-|[Release](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md).)|  
+|[IPmCustomActions2::RegisterCustomActionCallback](../../web-development-reference\native-code-api-reference/ipmcustomactions2-registercustomactioncallback-method.md)|Registers a custom callback method for actions that will result in multiple responses.|  
+|[IPmCustomActions2::UnregisterCustomActionCallback](../../web-development-reference\native-code-api-reference/ipmcustomactions2-unregistercustomactioncallback-method.md)|Unregisters the specified custom action callback method.|  
+|[AddRef](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-addref-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md).)|  
+|[Release](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md).)|  
   
 ## Inheritance Hierarchy  
- [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md)  
+ [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `IPmCustomActions2`  
   
@@ -45,4 +45,4 @@ class IPmCustomActions2 : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
- [Worker Process and Protocol Manager Interfaces](../../web-development-reference\webdev-native-api-reference/worker-process-and-protocol-manager-interfaces.md)
+ [Worker Process and Protocol Manager Interfaces](../../web-development-reference\native-code-api-reference/worker-process-and-protocol-manager-interfaces.md)

@@ -33,7 +33,7 @@ class IHttpApplication2 : public IHttpApplication
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
- [IHttpApplication](../../web-development-reference\webdev-native-api-reference/ihttpapplication-interface.md)  
+ [IHttpApplication](../../web-development-reference\native-code-api-reference/ihttpapplication-interface.md)  
   
  `IHttpApplication2`  
   
@@ -47,4 +47,4 @@ class IHttpApplication2 : public IHttpApplication
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)

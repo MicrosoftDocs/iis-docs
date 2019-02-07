@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostPropertySchemaCollection::Item Property
-Gets the [IAppHostPropertySchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-interface.md) with the requested index or property schema name in the collection.  
+Gets the [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) with the requested index or property schema name in the collection.  
   
 ## Syntax  
   
@@ -26,10 +26,10 @@ Gets the [IAppHostPropertySchema Interface](../../web-development-reference\webd
   
 #### Parameters  
  `cIndex`  
- A `VARIANT` that specifies the[IAppHostPropertySchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-interface.md) to retreive from the collection. If the `VARIANT` is of type integer, this is a zero-based index to the collection. If the `VARIANT` is of type string, this is a string index that represents the name of the[IAppHostPropertySchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-interface.md) to retrieve.  
+ A `VARIANT` that specifies the[IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) to retreive from the collection. If the `VARIANT` is of type integer, this is a zero-based index to the collection. If the `VARIANT` is of type string, this is a string index that represents the name of the[IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) to retrieve.  
   
  `ppProperty`  
- Contains the[IAppHostPropertySchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-interface.md) at the requested `cIndex`.  
+ Contains the[IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) at the requested `cIndex`.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -49,5 +49,5 @@ Gets the [IAppHostPropertySchema Interface](../../web-development-reference\webd
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertySchemaCollection Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschemacollection-interface.md)   
- [IAppHostPropertySchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-interface.md)
+ [IAppHostPropertySchemaCollection Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschemacollection-interface.md)   
+ [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md)

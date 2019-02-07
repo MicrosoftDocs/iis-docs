@@ -80,7 +80,7 @@ class HttpErrorsSection : ConfigurationSectionWithCollection
   
 |Value|Keyword|Description|  
 |-----------|-------------|-----------------|  
-|0|`Auto`|The response depends on the first successful match of the following set of ordered conditions:<br /><br /> 1.  If the [IHttpResponse::SetStatus](../web-development-reference\webdev-native-api-reference/ihttpresponse-setstatus-method.md) method was called by using the `fTrySkipCustomErrors` flag, the existing response is passed through, and no detailed or custom error is shown.<br />2.  If the `ErrorMode` property is set to `Custom`, the response is replaced.<br />3.  If `ErrorMode` is set to `Detailed` and there is an existing response, the response is passed through.<br />4.  If `ErrorMode` is set to `Detailed` and there is no existing response, the response is replaced with a detailed error.|  
+|0|`Auto`|The response depends on the first successful match of the following set of ordered conditions:<br /><br /> 1.  If the [IHttpResponse::SetStatus](../web-development-reference\native-code-api-reference/ihttpresponse-setstatus-method.md) method was called by using the `fTrySkipCustomErrors` flag, the existing response is passed through, and no detailed or custom error is shown.<br />2.  If the `ErrorMode` property is set to `Custom`, the response is replaced.<br />3.  If `ErrorMode` is set to `Detailed` and there is an existing response, the response is passed through.<br />4.  If `ErrorMode` is set to `Detailed` and there is no existing response, the response is replaced with a detailed error.|  
 |1|`Replace`|The existing response is always replaced, regardless of how `SetStatus` was called.|  
 |2|`PassThrough`|The existing response is always used.|  
   
@@ -165,4 +165,4 @@ End Function
  [CustomError Class](../wmi-provider/customerror-class.md)   
  [CustomErrorsSection Class](../wmi-provider/customerrorssection-class.md)   
  [HttpErrorElement Class](../wmi-provider/httperrorelement-class.md)   
- [IHttpResponse::SetStatus Method](../web-development-reference\webdev-native-api-reference/ihttpresponse-setstatus-method.md)
+ [IHttpResponse::SetStatus Method](../web-development-reference\native-code-api-reference/ihttpresponse-setstatus-method.md)

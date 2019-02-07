@@ -31,7 +31,7 @@ virtual BOOL SupportsIsInRole(
 ## Remarks  
  The `SupportsIsInRole` return value depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   If the [IHttpUser](../../web-development-reference\webdev-native-api-reference/ihttpuser-interface.md) implementer handles managed or anonymous authentication, `SupportsIsInRole` returns `true`.  
+-   If the [IHttpUser](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md) implementer handles managed or anonymous authentication, `SupportsIsInRole` returns `true`.  
   
 -   If the `IHttpUser` implementer implements Custom, Basic, Certification Mapping, or SSPI authentication, `SupportsIsInRole` returns `false`.  
   
@@ -47,7 +47,7 @@ virtual BOOL SupportsIsInRole(
 <user supportsRoles="true" />  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -61,4 +61,4 @@ virtual BOOL SupportsIsInRole(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpUser Interface](../../web-development-reference\webdev-native-api-reference/ihttpuser-interface.md)
+ [IHttpUser Interface](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md)

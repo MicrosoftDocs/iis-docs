@@ -26,7 +26,7 @@ virtual IHttpResponse* GetResponse(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [IHttpResponse](../../web-development-reference\webdev-native-api-reference/ihttpresponse-interface.md) interface.  
+ A pointer to an [IHttpResponse](../../web-development-reference\native-code-api-reference/ihttpresponse-interface.md) interface.  
   
 ## Remarks  
  The `GetResponse` method returns a pointer to an `IHttpResponse` interface that can be used to call any of the `IHttpResponse` methods.  
@@ -35,11 +35,11 @@ virtual IHttpResponse* GetResponse(
 >  The HTTP context object owns the lifetime of this object. Therefore, you do not free this pointer when writing HTTP modules.  
   
 ## Example  
- The following code example illustrates how to use the `IHttpContext::GetResponse` and [GetRequest](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getrequest-method.md) methods to return pointers to `IHttpResponse` and [IHttpRequest](../../web-development-reference\webdev-native-api-reference/ihttprequest-interface.md) interfaces. This example also demonstrates how to use the [IHttpRequest::GetHttpMethod](../../web-development-reference\webdev-native-api-reference/ihttprequest-gethttpmethod-method.md) method to retrieve the HTTP method for the current request, and it displays the method to a Web client by using the [IHttpResponse::WriteEntityChunks](../../web-development-reference\webdev-native-api-reference/ihttpresponse-writeentitychunks-method.md) method.  
+ The following code example illustrates how to use the `IHttpContext::GetResponse` and [GetRequest](../../web-development-reference\native-code-api-reference/ihttpcontext-getrequest-method.md) methods to return pointers to `IHttpResponse` and [IHttpRequest](../../web-development-reference\native-code-api-reference/ihttprequest-interface.md) interfaces. This example also demonstrates how to use the [IHttpRequest::GetHttpMethod](../../web-development-reference\native-code-api-reference/ihttprequest-gethttpmethod-method.md) method to retrieve the HTTP method for the current request, and it displays the method to a Web client by using the [IHttpResponse::WriteEntityChunks](../../web-development-reference\native-code-api-reference/ihttpresponse-writeentitychunks-method.md) method.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextGetResponse#1](IHttpContextGetResponse#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -53,5 +53,5 @@ virtual IHttpResponse* GetResponse(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md)   
- [IHttpContext::GetRequest Method](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getrequest-method.md)
+ [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpContext::GetRequest Method](../../web-development-reference\native-code-api-reference/ihttpcontext-getrequest-method.md)

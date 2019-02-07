@@ -44,9 +44,9 @@ virtual DWORD GetExecuteFlags(
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  The module registers for the [RQ_SEND_RESPONSE](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) notification.  
+1.  The module registers for the [RQ_SEND_RESPONSE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification.  
   
-2.  The module creates a [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) class that contains an [OnSendResponse](../../web-development-reference\webdev-native-api-reference/chttpmodule-onsendresponse-method.md) method.  
+2.  The module creates a [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class that contains an [OnSendResponse](../../web-development-reference\native-code-api-reference/chttpmodule-onsendresponse-method.md) method.  
   
 3.  When a Web client requests a URL, IIS calls the module's `OnSendResponse` method. This method performs the following tasks:  
   
@@ -60,7 +60,7 @@ virtual DWORD GetExecuteFlags(
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextGetExecuteFlags#1](IHttpContextGetExecuteFlags#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -74,5 +74,5 @@ virtual DWORD GetExecuteFlags(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md)   
- [IHttpContext::ExecuteRequest Method](../../web-development-reference\webdev-native-api-reference/ihttpcontext-executerequest-method.md)
+ [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpContext::ExecuteRequest Method](../../web-development-reference\native-code-api-reference/ihttpcontext-executerequest-method.md)

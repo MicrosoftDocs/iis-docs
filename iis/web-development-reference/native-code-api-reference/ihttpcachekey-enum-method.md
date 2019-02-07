@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IHttpCacheKey::Enum Method
-Enumerates an [IHttpCacheSpecificData](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-interface.md) pointer.  
+Enumerates an [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md) pointer.  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ virtual VOID Enum(
 ## Remarks  
  The `Enum` method behavior depends on both interface and implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
- All current `IHttpCacheSpecificData`, [IFileKey](../../web-development-reference\webdev-native-api-reference/ifilekey-interface.md), [IHttpTokenKey](../../web-development-reference\webdev-native-api-reference/ihttptokenkey-interface.md), and [IUriKey](../../web-development-reference\webdev-native-api-reference/iurikey-interface.md) implementers perform empty operations on the `Enum` method.  
+ All current `IHttpCacheSpecificData`, [IFileKey](../../web-development-reference\native-code-api-reference/ifilekey-interface.md), [IHttpTokenKey](../../web-development-reference\native-code-api-reference/ihttptokenkey-interface.md), and [IUriKey](../../web-development-reference\native-code-api-reference/iurikey-interface.md) implementers perform empty operations on the `Enum` method.  
   
 ## Requirements  
   
@@ -41,4 +41,4 @@ virtual VOID Enum(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCacheKey Interface](../../web-development-reference\webdev-native-api-reference/ihttpcachekey-interface.md)
+ [IHttpCacheKey Interface](../../web-development-reference\native-code-api-reference/ihttpcachekey-interface.md)

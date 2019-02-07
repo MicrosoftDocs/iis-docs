@@ -49,4 +49,4 @@ HRESULT GetMetadata(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostConfigFile Interface](../../web-development-reference\webdev-native-api-reference/iapphostconfigfile-interface.md)
+ [IAppHostConfigFile Interface](../../web-development-reference\native-code-api-reference/iapphostconfigfile-interface.md)

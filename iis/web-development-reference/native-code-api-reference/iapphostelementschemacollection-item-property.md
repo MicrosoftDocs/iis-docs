@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostElementSchemaCollection::Item Property
-Gets the [IAppHostElementSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-interface.md) with the requested index or property name in the collection.  
+Gets the [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) with the requested index or property name in the collection.  
   
 ## Syntax  
   
@@ -26,10 +26,10 @@ Gets the [IAppHostElementSchema Interface](../../web-development-reference\webde
   
 #### Parameters  
  `cIndex`  
- A `VARIANT` that specifies the [IAppHostElementSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-interface.md) to retreive from the collection. If the `VARIANT` is of type integer, this is a zero-based index to the collection. If the `VARIANT` is of type string, this is a string index that represents the name of the [IAppHostElementSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-interface.md) to retrieve.  
+ A `VARIANT` that specifies the [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) to retreive from the collection. If the `VARIANT` is of type integer, this is a zero-based index to the collection. If the `VARIANT` is of type string, this is a string index that represents the name of the [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) to retrieve.  
   
  `ppElementSchema`  
- Contains the [IAppHostElementSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-interface.md) at the requested `cIndex`.  
+ Contains the [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) at the requested `cIndex`.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -49,5 +49,5 @@ Gets the [IAppHostElementSchema Interface](../../web-development-reference\webde
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElementSchemaCollection Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschemacollection-interface.md)   
- [IAppHostElementSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-interface.md)
+ [IAppHostElementSchemaCollection Interface](../../web-development-reference\native-code-api-reference/iapphostelementschemacollection-interface.md)   
+ [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md)

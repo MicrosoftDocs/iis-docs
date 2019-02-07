@@ -36,14 +36,14 @@ virtual HRESULT CancelIo(
 ## Remarks  
  The `CancelIo` method terminates any pending send or receive operations with a Web client. For example, if an HTTP module is reading information from the Web client, calling the `CancelIo` method will cancel any pending read operations.  
   
- This method differs from the [IHttpResponse::ResetConnection](../../web-development-reference\webdev-native-api-reference/ihttpresponse-resetconnection-method.md) and [IHttpResponse::SetNeedDisconnect](../../web-development-reference\webdev-native-api-reference/ihttpresponse-setneeddisconnect-method.md) methods, which reset the socket connection with a Web client immediately or after the response is complete, respectively.  
+ This method differs from the [IHttpResponse::ResetConnection](../../web-development-reference\native-code-api-reference/ihttpresponse-resetconnection-method.md) and [IHttpResponse::SetNeedDisconnect](../../web-development-reference\native-code-api-reference/ihttpresponse-setneeddisconnect-method.md) methods, which reset the socket connection with a Web client immediately or after the response is complete, respectively.  
   
 ## Example  
  The following code example demonstrates how to use the `CancelIo` method to create an HTTP module that cancels any pending send or receive operations.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextCancelIo#1](IHttpContextCancelIo#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -57,6 +57,6 @@ virtual HRESULT CancelIo(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md)   
- [IHttpResponse::ResetConnection Method](../../web-development-reference\webdev-native-api-reference/ihttpresponse-resetconnection-method.md)   
- [IHttpResponse::SetNeedDisconnect Method](../../web-development-reference\webdev-native-api-reference/ihttpresponse-setneeddisconnect-method.md)
+ [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpResponse::ResetConnection Method](../../web-development-reference\native-code-api-reference/ihttpresponse-resetconnection-method.md)   
+ [IHttpResponse::SetNeedDisconnect Method](../../web-development-reference\native-code-api-reference/ihttpresponse-setneeddisconnect-method.md)

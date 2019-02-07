@@ -25,20 +25,20 @@ interface IAppHostConfigFile: IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[ClearInvalidSections](../../web-development-reference\webdev-native-api-reference/iapphostconfigfile-clearinvalidsections-method.md)|Removes invalid configuration sections from a configuration file.|  
-|[GetAdminSection](../../web-development-reference\webdev-native-api-reference/iapphostconfigfile-getadminsection-method.md)|Gets a configuration section for a given configuration section and configuration path.|  
-|[GetMetadata](../../web-development-reference\webdev-native-api-reference/iapphostconfigfile-getmetadata-method.md)|Gets metadata from the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.|  
-|[SetMetadata](../../web-development-reference\webdev-native-api-reference/iapphostconfigfile-setmetadata-method.md)|Sets metadata in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration file.|  
+|[ClearInvalidSections](../../web-development-reference\native-code-api-reference/iapphostconfigfile-clearinvalidsections-method.md)|Removes invalid configuration sections from a configuration file.|  
+|[GetAdminSection](../../web-development-reference\native-code-api-reference/iapphostconfigfile-getadminsection-method.md)|Gets a configuration section for a given configuration section and configuration path.|  
+|[GetMetadata](../../web-development-reference\native-code-api-reference/iapphostconfigfile-getmetadata-method.md)|Gets metadata from the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.|  
+|[SetMetadata](../../web-development-reference\native-code-api-reference/iapphostconfigfile-setmetadata-method.md)|Sets metadata in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration file.|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostConfigFile` interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[ConfigPath](../../web-development-reference\webdev-native-api-reference/iapphostconfigfile-configpath-property.md)|Gets the configuration system path of the configuration file that this `IAppHostConfigFile` interface represents.|  
-|[FilePath](../../web-development-reference\webdev-native-api-reference/iapphostconfigfile-filepath-property.md)|Gets the file system path of the configuration file that this `IAppHostConfigFile` interface represents.|  
-|[Locations](../../web-development-reference\webdev-native-api-reference/iapphostconfigfile-locations-property.md)|Returns a collection of [IAppHostConfigLocation](../../web-development-reference\webdev-native-api-reference/iapphostconfiglocation-interface.md) interfaces that represent location tags defined for the current configuration file.|  
-|[RootSectionGroup](../../web-development-reference\webdev-native-api-reference/iapphostconfigfile-rootsectiongroup-property.md)|Returns the root configuration section group for the current configuration file.|  
+|[ConfigPath](../../web-development-reference\native-code-api-reference/iapphostconfigfile-configpath-property.md)|Gets the configuration system path of the configuration file that this `IAppHostConfigFile` interface represents.|  
+|[FilePath](../../web-development-reference\native-code-api-reference/iapphostconfigfile-filepath-property.md)|Gets the file system path of the configuration file that this `IAppHostConfigFile` interface represents.|  
+|[Locations](../../web-development-reference\native-code-api-reference/iapphostconfigfile-locations-property.md)|Returns a collection of [IAppHostConfigLocation](../../web-development-reference\native-code-api-reference/iapphostconfiglocation-interface.md) interfaces that represent location tags defined for the current configuration file.|  
+|[RootSectionGroup](../../web-development-reference\native-code-api-reference/iapphostconfigfile-rootsectiongroup-property.md)|Returns the root configuration section group for the current configuration file.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -55,5 +55,5 @@ interface IAppHostConfigFile: IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)   
- [IAppHostConfigManager Interface](../../web-development-reference\webdev-native-api-reference/iapphostconfigmanager-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostConfigManager Interface](../../web-development-reference\native-code-api-reference/iapphostconfigmanager-interface.md)

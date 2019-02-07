@@ -32,7 +32,7 @@ virtual HRESULT RegisterCustomActionCallback(
  A pointer to a string that contains the arguments to be passed to the function specified by `pszFunctionName`.  
   
  `pCompletionCallbackClass`  
- A pointer to an [ICustomAction2ResultCallback](../../web-development-reference\webdev-native-api-reference/icustomaction2resultcallback-interface.md) interface that will be used to report the results.  
+ A pointer to an [ICustomAction2ResultCallback](../../web-development-reference\native-code-api-reference/icustomaction2resultcallback-interface.md) interface that will be used to report the results.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -51,5 +51,5 @@ virtual HRESULT RegisterCustomActionCallback(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IPmCustomActions2 Interface](../../web-development-reference\webdev-native-api-reference/ipmcustomactions2-interface.md)   
- [IPmCustomActions2::UnregisterCustomActionCallback Method](../../web-development-reference\webdev-native-api-reference/ipmcustomactions2-unregistercustomactioncallback-method.md)
+ [IPmCustomActions2 Interface](../../web-development-reference\native-code-api-reference/ipmcustomactions2-interface.md)   
+ [IPmCustomActions2::UnregisterCustomActionCallback Method](../../web-development-reference\native-code-api-reference/ipmcustomactions2-unregistercustomactioncallback-method.md)

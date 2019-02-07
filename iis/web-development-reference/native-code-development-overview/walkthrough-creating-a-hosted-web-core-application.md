@@ -14,7 +14,7 @@ manager: "wpickett"
 # Walkthrough: Creating a Hosted Web Core Application
 This walkthrough demonstrates how to create a Windows console application that uses the Hosted Web Core features that are available in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)].  
   
- The Hosted Web Core functionality in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] enables you to create an application that loads an instance of the IIS core, which is the base Web application and content-serving functionality that is provided by IIS. For more information about the Hosted Web Core, see [Hosted Web Core API Reference](../../web-development-reference\webdev-native-api-reference/hosted-web-core-api-reference.md).  
+ The Hosted Web Core functionality in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] enables you to create an application that loads an instance of the IIS core, which is the base Web application and content-serving functionality that is provided by IIS. For more information about the Hosted Web Core, see [Hosted Web Core API Reference](../../web-development-reference\native-code-api-reference/hosted-web-core-api-reference.md).  
   
  You have to provide a configuration file for your application that follows the format of the ApplicationHost.config file. However, you should not use your actual ApplicationHost.config file, because it may contain settings that conflict with your Web site settings. For more information about how to create a configuration file for your application, see [Walkthrough: Creating a Configuration File for Hosted Web Core](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-configuration-file-for-hosted-web-core.md).  
   
@@ -219,5 +219,5 @@ This walkthrough demonstrates how to create a Windows console application that u
 ## See Also  
  [Creating Hosted Web Core Applications](../../web-development-reference\native-code-development-overview\creating-hosted-web-core-applications.md)   
  [Walkthrough: Creating a Configuration File for Hosted Web Core](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-configuration-file-for-hosted-web-core.md)   
- [PFN_WEB_CORE_ACTIVATE Function](../../web-development-reference\webdev-native-api-reference/pfn-web-core-activate-function.md)   
- [PFN_WEB_CORE_SHUTDOWN Function](../../web-development-reference\webdev-native-api-reference/pfn-web-core-shutdown-function.md)
+ [PFN_WEB_CORE_ACTIVATE Function](../../web-development-reference\native-code-api-reference/pfn-web-core-activate-function.md)   
+ [PFN_WEB_CORE_SHUTDOWN Function](../../web-development-reference\native-code-api-reference/pfn-web-core-shutdown-function.md)

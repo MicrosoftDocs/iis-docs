@@ -43,5 +43,5 @@ virtual HRESULT __stdcall GetBlobLength(
 |Header|Webhost.h|  
   
 ## See Also  
- [IListenerChannelCallback Interface](../../web-development-reference\webdev-native-api-reference/ilistenerchannelcallback-interface.md)   
- [IListenerChannelCallback::GetBlob Method](../../web-development-reference\webdev-native-api-reference/ilistenerchannelcallback-getblob-method.md)
+ [IListenerChannelCallback Interface](../../web-development-reference\native-code-api-reference/ilistenerchannelcallback-interface.md)   
+ [IListenerChannelCallback::GetBlob Method](../../web-development-reference\native-code-api-reference/ilistenerchannelcallback-getblob-method.md)

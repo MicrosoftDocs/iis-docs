@@ -25,7 +25,7 @@ HRESULT get_Properties(
   
 #### Parameters  
  `ppProperties`  
- A pointer to a pointer for an [IAppHostPropertyCollection](../../web-development-reference\webdev-native-api-reference/iapphostpropertycollection-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostPropertyCollection](../../web-development-reference\native-code-api-reference/iapphostpropertycollection-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -49,4 +49,4 @@ HRESULT get_Properties(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md)
+ [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)

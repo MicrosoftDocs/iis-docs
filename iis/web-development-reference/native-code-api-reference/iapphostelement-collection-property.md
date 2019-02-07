@@ -25,7 +25,7 @@ HRESULT get_Collection(
   
 #### Parameters  
  `ppCollection`  
- A pointer to a pointer for an [IAppHostElementCollection](../../web-development-reference\webdev-native-api-reference/iapphostelementcollection-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostElementCollection](../../web-development-reference\native-code-api-reference/iapphostelementcollection-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -35,7 +35,7 @@ HRESULT get_Collection(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- A child element collection that is represented in the [IAppHostElement::ChildElements](../../web-development-reference\webdev-native-api-reference/iapphostelement-childelements-property.md) property differs from a nested element collection that is represented in the `IAppHostElement::Collection` property. Both collections contain pointers to [IAppHostElement](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) objects. However, you should use the `IAppHostElement::ChildElements` property when you query the configuration for unique child elements, such as the `system.webServer/asp` configuration section. In the following configuration example, the `<cache/>` element is a child elements of the `system.webServer/asp` configuration section.  
+ A child element collection that is represented in the [IAppHostElement::ChildElements](../../web-development-reference\native-code-api-reference/iapphostelement-childelements-property.md) property differs from a nested element collection that is represented in the `IAppHostElement::Collection` property. Both collections contain pointers to [IAppHostElement](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) objects. However, you should use the `IAppHostElement::ChildElements` property when you query the configuration for unique child elements, such as the `system.webServer/asp` configuration section. In the following configuration example, the `<cache/>` element is a child elements of the `system.webServer/asp` configuration section.  
   
 ```  
 <system.webServer>  
@@ -92,4 +92,4 @@ HRESULT get_Collection(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md)
+ [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)

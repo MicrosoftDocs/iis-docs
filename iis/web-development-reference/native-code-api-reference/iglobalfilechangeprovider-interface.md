@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IGlobalFileChangeProvider Interface
-Provides a global-level interface for [GL_FILE_CHANGE](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) notifications.  
+Provides a global-level interface for [GL_FILE_CHANGE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notifications.  
   
 ## Syntax  
   
@@ -25,18 +25,18 @@ class IGlobalFileChangeProvider : public IHttpEventProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetFileMonitor](../../web-development-reference\webdev-native-api-reference/iglobalfilechangeprovider-getfilemonitor-method.md)|Returns an [IHttpFileMonitor](../../web-development-reference\webdev-native-api-reference/ihttpfilemonitor-interface.md) file-change monitor.|  
-|[GetFileName](../../web-development-reference\webdev-native-api-reference/iglobalfilechangeprovider-getfilename-method.md)|Retrieves the full path to a file that has been changed.|  
-|[SetErrorStatus](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md).)|  
+|[GetFileMonitor](../../web-development-reference\native-code-api-reference/iglobalfilechangeprovider-getfilemonitor-method.md)|Returns an [IHttpFileMonitor](../../web-development-reference\native-code-api-reference/ihttpfilemonitor-interface.md) file-change monitor.|  
+|[GetFileName](../../web-development-reference\native-code-api-reference/iglobalfilechangeprovider-getfilename-method.md)|Retrieves the full path to a file that has been changed.|  
+|[SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md).)|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- An `IGlobalFileChangeProvider` interface is created and passed to a module's [CGlobalModule::OnGlobalFileChange](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobalfilechange-method.md) method when the module has registered for the `GL_FILE_CHANGE` notification in the module's exported [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function.  
+ An `IGlobalFileChangeProvider` interface is created and passed to a module's [CGlobalModule::OnGlobalFileChange](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalfilechange-method.md) method when the module has registered for the `GL_FILE_CHANGE` notification in the module's exported [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IGlobalFileChangeProvider`  
   
@@ -50,7 +50,7 @@ class IGlobalFileChangeProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)   
- [CGlobalModule::OnGlobalFileChange Method](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobalfilechange-method.md)   
- [IHttpEventProvider Interface](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md)   
- [PFN_REGISTERMODULE Function](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
+ [CGlobalModule::OnGlobalFileChange Method](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalfilechange-method.md)   
+ [IHttpEventProvider Interface](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)   
+ [PFN_REGISTERMODULE Function](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md)

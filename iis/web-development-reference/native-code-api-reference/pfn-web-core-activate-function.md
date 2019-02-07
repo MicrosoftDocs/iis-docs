@@ -64,5 +64,5 @@ typedef HRESULT (*PFN_WEB_CORE_ACTIVATE)(
 |Header|Hwebcore.h|  
   
 ## See Also  
- [Hosted Web Core API Reference](../../web-development-reference\webdev-native-api-reference/hosted-web-core-api-reference.md)   
- [PFN_WEB_CORE_SHUTDOWN Function](../../web-development-reference\webdev-native-api-reference/pfn-web-core-shutdown-function.md)
+ [Hosted Web Core API Reference](../../web-development-reference\native-code-api-reference/hosted-web-core-api-reference.md)   
+ [PFN_WEB_CORE_SHUTDOWN Function](../../web-development-reference\native-code-api-reference/pfn-web-core-shutdown-function.md)

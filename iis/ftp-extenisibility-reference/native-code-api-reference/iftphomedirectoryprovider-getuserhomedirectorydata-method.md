@@ -103,4 +103,4 @@ public:
 |Reference|ftpext.tlb|  
   
 ## See Also  
- [IFtpHomeDirectoryProvider Interface](../../ftp-extenisibility-reference\native-code-api\iftphomedirectoryprovider-interface-native.md)
+ [IFtpHomeDirectoryProvider Interface](../../ftp-extenisibility-reference\native-code-api-reference\iftphomedirectoryprovider-interface-native.md)

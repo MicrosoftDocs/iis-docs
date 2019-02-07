@@ -26,7 +26,7 @@ HRESULT get_Type(
   
 #### Parameters  
  `pbstrType`  
- A pointer to a `BSTR` that contains the type name of the current [IAppHostPropertySchema](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-interface.md) interface.  
+ A pointer to a `BSTR` that contains the type name of the current [IAppHostPropertySchema](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -45,4 +45,4 @@ HRESULT get_Type(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertySchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-interface.md)
+ [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md)

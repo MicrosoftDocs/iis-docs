@@ -28,14 +28,14 @@ virtual PCWSTR GetUrl(
  A pointer to a Unicode string that contains the relative URL.  
   
 ## Remarks  
- The `GetUrl` method retrieves the relative path for the current request when an HTTP module is processing the [CHttpModule::OnMapPath](../../web-development-reference\webdev-native-api-reference/chttpmodule-onmappath-method.md) event.  
+ The `GetUrl` method retrieves the relative path for the current request when an HTTP module is processing the [CHttpModule::OnMapPath](../../web-development-reference\native-code-api-reference/chttpmodule-onmappath-method.md) event.  
   
 ## Example  
  The following code example demonstrates how to use the `GetUrl` method to create an HTTP module that retrieves the relative URL for the current request and returns the URL to a Web client.  
   
 <!-- TODO: review snippet reference  [!CODE [IMapPathProviderGetUrl#1](IMapPathProviderGetUrl#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -49,4 +49,4 @@ virtual PCWSTR GetUrl(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IMapPathProvider Interface](../../web-development-reference\webdev-native-api-reference/imappathprovider-interface.md)
+ [IMapPathProvider Interface](../../web-development-reference\native-code-api-reference/imappathprovider-interface.md)

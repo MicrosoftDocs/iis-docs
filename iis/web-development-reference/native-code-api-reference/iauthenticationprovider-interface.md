@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAuthenticationProvider Interface
-Accepts a validated [IHttpUser](../../web-development-reference\webdev-native-api-reference/ihttpuser-interface.md) pointer through the [SetUser](../../web-development-reference\webdev-native-api-reference/iauthenticationprovider-setuser-method.md) method. Once a non-NULL `IHttpUser` pointer is set, the user is authenticated and request processing can continue.  
+Accepts a validated [IHttpUser](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md) pointer through the [SetUser](../../web-development-reference\native-code-api-reference/iauthenticationprovider-setuser-method.md) method. Once a non-NULL `IHttpUser` pointer is set, the user is authenticated and request processing can continue.  
   
 ## Syntax  
   
@@ -25,17 +25,17 @@ class IAuthenticationProvider : public IHttpEventProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[SetErrorStatus](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md).)|  
-|[SetUser](../../web-development-reference\webdev-native-api-reference/iauthenticationprovider-setuser-method.md)|Sets the authenticated user on the authentication provider.|  
+|[SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md).)|  
+|[SetUser](../../web-development-reference\native-code-api-reference/iauthenticationprovider-setuser-method.md)|Sets the authenticated user on the authentication provider.|  
   
 ## Derived Classes  
  This class contains no derived classes.  
   
 ## Remarks  
- [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) derived classes that register for [RQ_AUTHENTICATE_REQUEST](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events receive an `IAuthenticationProvider` pointer as a parameter on the [CHttpModule::OnAuthenticateRequest](../../web-development-reference\webdev-native-api-reference/chttpmodule-onauthenticaterequest-method.md) virtual method.  
+ [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes that register for [RQ_AUTHENTICATE_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events receive an `IAuthenticationProvider` pointer as a parameter on the [CHttpModule::OnAuthenticateRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onauthenticaterequest-method.md) virtual method.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IAuthenticationProvider`  
   
@@ -49,5 +49,5 @@ class IAuthenticationProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md)   
- [CHttpModule::OnAuthenticateRequest Method](../../web-development-reference\webdev-native-api-reference/chttpmodule-onauthenticaterequest-method.md)
+ [CHttpModule Class](../../web-development-reference\native-code-api-reference/chttpmodule-class.md)   
+ [CHttpModule::OnAuthenticateRequest Method](../../web-development-reference\native-code-api-reference/chttpmodule-onauthenticaterequest-method.md)

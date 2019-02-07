@@ -47,4 +47,4 @@ Virtual HRESULT ExecuteRequest(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IGlobalApplicationPreloadProvider Interface](../../web-development-reference\webdev-native-api-reference/iglobalapplicationpreloadprovider-interface.md)
+ [IGlobalApplicationPreloadProvider Interface](../../web-development-reference\native-code-api-reference/iglobalapplicationpreloadprovider-interface.md)

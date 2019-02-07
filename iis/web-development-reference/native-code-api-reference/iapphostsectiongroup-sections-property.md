@@ -25,7 +25,7 @@ HRESULT get_Sections(
   
 #### Parameters  
  `ppSections`  
- A pointer to a pointer for an [IAppHostSectionDefinitionCollection](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinitioncollection-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostSectionDefinitionCollection](../../web-development-reference\native-code-api-reference/iapphostsectiondefinitioncollection-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -49,4 +49,4 @@ HRESULT get_Sections(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostSectionGroup Interface](../../web-development-reference\webdev-native-api-reference/iapphostsectiongroup-interface.md)
+ [IAppHostSectionGroup Interface](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-interface.md)

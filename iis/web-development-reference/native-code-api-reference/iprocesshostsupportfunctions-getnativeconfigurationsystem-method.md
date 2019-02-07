@@ -34,7 +34,7 @@ virtual HRESULT __stdcall GetNativeConfigurationSystem(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- For more information, see the [IHttpServer::GetConfigObject](../../web-development-reference\webdev-native-api-reference/ihttpserver-getconfigobject-method.md) method.  
+ For more information, see the [IHttpServer::GetConfigObject](../../web-development-reference\native-code-api-reference/ihttpserver-getconfigobject-method.md) method.  
   
 ## Requirements  
   
@@ -46,5 +46,5 @@ virtual HRESULT __stdcall GetNativeConfigurationSystem(
 |Header|Webhost.h|  
   
 ## See Also  
- [IProcessHostSupportFunctions Interface](../../web-development-reference\webdev-native-api-reference/iprocesshostsupportfunctions-interface.md)   
- [IHttpServer::GetConfigObject Method](../../web-development-reference\webdev-native-api-reference/ihttpserver-getconfigobject-method.md)
+ [IProcessHostSupportFunctions Interface](../../web-development-reference\native-code-api-reference/iprocesshostsupportfunctions-interface.md)   
+ [IHttpServer::GetConfigObject Method](../../web-development-reference\native-code-api-reference/ihttpserver-getconfigobject-method.md)

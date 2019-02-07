@@ -30,7 +30,7 @@ HRESULT WebhostRegisterProtocol(
  [IN] A string that contains the protocol that this listener adapter supports.  
   
  `pListenerCallbacks`  
- [IN] A `VOID` pointer to the [WEBHOST_LISTENER_CALLBACKS](../../web-development-reference\webdev-native-api-reference/webhost-listener-callbacks-structure.md) structure.  
+ [IN] A `VOID` pointer to the [WEBHOST_LISTENER_CALLBACKS](../../web-development-reference\native-code-api-reference/webhost-listener-callbacks-structure.md) structure.  
   
  `pContext`  
  [IN] An arbitrary `VOID` pointer that the listener adapter will pass.  
@@ -49,11 +49,11 @@ HRESULT WebhostRegisterProtocol(
 |E_OUTOFMEMORY|Indicates that heap memory is exhausted.|  
   
 ## Remarks  
- You must call the `WebhostRegisterProtocol` function first when you start a listener adapter. `WebhostRegisterProtocol` is asynchronous, so a successful return does not guarantee that the call was successful. The Windows Process Activation Service (WAS) notifies the listener of successful registration by using the [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED](../../web-development-reference\webdev-native-api-reference/pfn-webhost-listener-config-manager-connected-function.md) function. `PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED` is passed in the `pListenerCallbacks` parameter to this call.  
+ You must call the `WebhostRegisterProtocol` function first when you start a listener adapter. `WebhostRegisterProtocol` is asynchronous, so a successful return does not guarantee that the call was successful. The Windows Process Activation Service (WAS) notifies the listener of successful registration by using the [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED](../../web-development-reference\native-code-api-reference/pfn-webhost-listener-config-manager-connected-function.md) function. `PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED` is passed in the `pListenerCallbacks` parameter to this call.  
   
  You should set a time-out for the listener adapter to wait for the `PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED` callback function. If the time-out expires, you should stop the listener adapter service and mark it as failed. A successful return from this call indicates that the client library is waiting for the Windows Process Activation Service and will connect when possible.  
   
- You should not set the listener service status to [SERVICE_RUNNING](http://go.microsoft.com/fwlink/?LinkId=63964) from this callback function. You should set the service status to SERVICE_RUNNING only when initialization is complete and the protocol listener is listening (typically after the [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED](../../web-development-reference\webdev-native-api-reference/pfn-webhost-listener-config-manager-initialization-completed-function.md) notification).  
+ You should not set the listener service status to [SERVICE_RUNNING](http://go.microsoft.com/fwlink/?LinkId=63964) from this callback function. You should set the service status to SERVICE_RUNNING only when initialization is complete and the protocol listener is listening (typically after the [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED](../../web-development-reference\native-code-api-reference/pfn-webhost-listener-config-manager-initialization-completed-function.md) notification).  
   
  The `pContext` parameter is passed to the listener adapter whenever a callback function is invoked. It can be used when multiple protocols that use the same callback structure are implemented.  
   
@@ -75,5 +75,5 @@ HRESULT WebhostRegisterProtocol(
 |Header|Listeneradapter.h|  
   
 ## See Also  
- [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED Function](../../web-development-reference\webdev-native-api-reference/pfn-webhost-listener-config-manager-initialization-completed-function.md)   
- [Listener Adapter Exported Functions](../../web-development-reference\webdev-native-api-reference/listener-adapter-exported-functions.md)
+ [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED Function](../../web-development-reference\native-code-api-reference/pfn-webhost-listener-config-manager-initialization-completed-function.md)   
+ [Listener Adapter Exported Functions](../../web-development-reference\native-code-api-reference/listener-adapter-exported-functions.md)

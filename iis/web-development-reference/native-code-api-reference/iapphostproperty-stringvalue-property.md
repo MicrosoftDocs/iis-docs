@@ -44,4 +44,4 @@ HRESULT get_StringValue(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostProperty Interface](../../web-development-reference\webdev-native-api-reference/iapphostproperty-interface.md)
+ [IAppHostProperty Interface](../../web-development-reference\native-code-api-reference/iapphostproperty-interface.md)

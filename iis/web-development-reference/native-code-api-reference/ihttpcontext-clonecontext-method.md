@@ -28,7 +28,7 @@ virtual HRESULT CloneContext(
  [IN] A `DWORD` that contains the clone flags.  
   
  `ppHttpContext`  
- [OUT] A dereferenced pointer to an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md).  
+ [OUT] A dereferenced pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md).  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -50,14 +50,14 @@ virtual HRESULT CloneContext(
 |CLONE_FLAG_NO_PRECONDITION|Do not include any "range" and "if-" headers for the request.|  
 |CLONE_FLAG_NO_DAV|Do not include any WebDAV headers for the request.|  
   
- Once you have created a cloned context, you can use the clone as you would use the parent context. For example, to execute a child request for a different URL than the parent URL, you would use the [IHttpRequest::SetUrl](../../web-development-reference\webdev-native-api-reference/ihttprequest-seturl-method.md) method for the cloned context to change the URL of the cloned context before calling the parent context's [IHttpContext::ExecuteRequest](../../web-development-reference\webdev-native-api-reference/ihttpcontext-executerequest-method.md) method.  
+ Once you have created a cloned context, you can use the clone as you would use the parent context. For example, to execute a child request for a different URL than the parent URL, you would use the [IHttpRequest::SetUrl](../../web-development-reference\native-code-api-reference/ihttprequest-seturl-method.md) method for the cloned context to change the URL of the cloned context before calling the parent context's [IHttpContext::ExecuteRequest](../../web-development-reference\native-code-api-reference/ihttpcontext-executerequest-method.md) method.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  
   
-1.  The module registers for the [RQ_MAP_PATH](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) notification.  
+1.  The module registers for the [RQ_MAP_PATH](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification.  
   
-2.  The module creates a [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) class that contains [OnMapPath](../../web-development-reference\webdev-native-api-reference/chttpmodule-onmappath-method.md) and [OnAsyncCompletion](../../web-development-reference\webdev-native-api-reference/chttpmodule-onasynccompletion-method.md) methods.  
+2.  The module creates a [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class that contains [OnMapPath](../../web-development-reference\native-code-api-reference/chttpmodule-onmappath-method.md) and [OnAsyncCompletion](../../web-development-reference\native-code-api-reference/chttpmodule-onasynccompletion-method.md) methods.  
   
 3.  When a Web client requests a URL, IIS calls the module's `OnMapPath` method. This method performs the following tasks:  
   
@@ -75,7 +75,7 @@ virtual HRESULT CloneContext(
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextExecuteRequest#1](IHttpContextExecuteRequest#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -89,6 +89,6 @@ virtual HRESULT CloneContext(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md)   
- [IHttpContext::ExecuteRequest Method](../../web-development-reference\webdev-native-api-reference/ihttpcontext-executerequest-method.md)   
- [IHttpContext::ReleaseClonedContext Method](../../web-development-reference\webdev-native-api-reference/ihttpcontext-releaseclonedcontext-method.md)
+ [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpContext::ExecuteRequest Method](../../web-development-reference\native-code-api-reference/ihttpcontext-executerequest-method.md)   
+ [IHttpContext::ReleaseClonedContext Method](../../web-development-reference\native-code-api-reference/ihttpcontext-releaseclonedcontext-method.md)

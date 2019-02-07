@@ -26,10 +26,10 @@ virtual IHttpApplication* GetApplication(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [IHttpApplication](../../web-development-reference\webdev-native-api-reference/ihttpapplication-interface.md) interface.  
+ A pointer to an [IHttpApplication](../../web-development-reference\native-code-api-reference/ihttpapplication-interface.md) interface.  
   
 ## Remarks  
- The `GetApplication` method returns an `IHttpApplication` interface that is used to retrieve information about the application that is processing the current request. For example, the [IHttpApplication::GetApplicationId](../../web-development-reference\webdev-native-api-reference/ihttpapplication-getapplicationid-method.md) and [IHttpApplication::GetApplicationPhysicalPath](../../web-development-reference\webdev-native-api-reference/ihttpapplication-getapplicationphysicalpath-method.md) methods will return the application's identity and physical path.  
+ The `GetApplication` method returns an `IHttpApplication` interface that is used to retrieve information about the application that is processing the current request. For example, the [IHttpApplication::GetApplicationId](../../web-development-reference\native-code-api-reference/ihttpapplication-getapplicationid-method.md) and [IHttpApplication::GetApplicationPhysicalPath](../../web-development-reference\native-code-api-reference/ihttpapplication-getapplicationphysicalpath-method.md) methods will return the application's identity and physical path.  
   
 > [!NOTE]
 >  `IHttpContext` owns the lifetime of this object. Therefore, you do not free this pointer when you write your application.  
@@ -39,7 +39,7 @@ virtual IHttpApplication* GetApplication(
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextGetApplication#1](IHttpContextGetApplication#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -53,4 +53,4 @@ virtual IHttpApplication* GetApplication(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md)
+ [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)

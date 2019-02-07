@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostConstantValueCollection Interface
-Represents a collection of [IAppHostConstantValue Interface](../../web-development-reference\webdev-native-api-reference/iapphostconstantvalue-interface.md) objects.  
+Represents a collection of [IAppHostConstantValue Interface](../../web-development-reference\native-code-api-reference/iapphostconstantvalue-interface.md) objects.  
   
 ## Syntax  
   
@@ -28,8 +28,8 @@ interface IAppHostConstantValueCollection : IUnknown
   
 |Property|Description|  
 |--------------|-----------------|  
-|[IAppHostConstantValueCollection::Count Property](../../web-development-reference\webdev-native-api-reference/iapphostconstantvaluecollection-count-property.md)|Gets the count of constant values in the current collection.|  
-|[IAppHostConstantValueCollection::Item Property](../../web-development-reference\webdev-native-api-reference/iapphostconstantvaluecollection-item-property.md)|Gets the constant value at the specified index.|  
+|[IAppHostConstantValueCollection::Count Property](../../web-development-reference\native-code-api-reference/iapphostconstantvaluecollection-count-property.md)|Gets the count of constant values in the current collection.|  
+|[IAppHostConstantValueCollection::Item Property](../../web-development-reference\native-code-api-reference/iapphostconstantvaluecollection-item-property.md)|Gets the constant value at the specified index.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -46,4 +46,4 @@ interface IAppHostConstantValueCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)

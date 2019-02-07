@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostPropertySchema::DefaultValue Property
-Gets the value that the [IAppHostProperty::Value](../../web-development-reference\webdev-native-api-reference/iapphostproperty-value-property.md) property returns when a value is not explicitly set.  
+Gets the value that the [IAppHostProperty::Value](../../web-development-reference\native-code-api-reference/iapphostproperty-value-property.md) property returns when a value is not explicitly set.  
   
 ## Syntax  
   
@@ -44,4 +44,4 @@ HRESULT get_DefaultValue(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertySchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-interface.md)
+ [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md)

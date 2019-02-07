@@ -49,5 +49,5 @@ virtual HRESULT StartListenerChannel(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IPmListenerChannelManager Interface](../../web-development-reference\webdev-native-api-reference/ipmlistenerchannelmanager-interface.md)   
- [IPmListenerChannelManager::StopListenerChannel Method](../../web-development-reference\webdev-native-api-reference/ipmlistenerchannelmanager-stoplistenerchannel-method.md)
+ [IPmListenerChannelManager Interface](../../web-development-reference\native-code-api-reference/ipmlistenerchannelmanager-interface.md)   
+ [IPmListenerChannelManager::StopListenerChannel Method](../../web-development-reference\native-code-api-reference/ipmlistenerchannelmanager-stoplistenerchannel-method.md)

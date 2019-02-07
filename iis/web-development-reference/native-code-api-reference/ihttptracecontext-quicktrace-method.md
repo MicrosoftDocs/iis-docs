@@ -47,7 +47,7 @@ virtual
  Event trace levels 1 through 5 correspond to Event Tracing for Windows (ETW) trace levels. For more information about these trace levels, see the [EVENT_TRACE_HEADER](http://go.microsoft.com/fwlink/?LinkId=102211) structure. You can also use trace level 6 (defined as HTTP_TRACE_LEVEL_START in the Httptrace.h header file) and trace level 7 (defined as HTTP_TRACE_LEVEL_END in Httptrace.h).  
   
 ## Example  
- The following example demonstrates how to use the [IHttpRequest::SetUrl](../../web-development-reference\webdev-native-api-reference/ihttprequest-seturl-method.md) method to change a requested URL to another URL and log the change with the `QuickTrace` method.  
+ The following example demonstrates how to use the [IHttpRequest::SetUrl](../../web-development-reference\native-code-api-reference/ihttprequest-seturl-method.md) method to change a requested URL to another URL and log the change with the `QuickTrace` method.  
   
  You must enable Failed Event Request tracing to see the event.  
   

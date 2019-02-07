@@ -55,4 +55,4 @@ virtual HRESULT GetApplicationPreloadInfo(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IWpfApplicationPreloadUtil Interface](../../web-development-reference\webdev-native-api-reference/iwpfapplicationpreloadutil-interface.md)
+ [IWpfApplicationPreloadUtil Interface](../../web-development-reference\native-code-api-reference/iwpfapplicationpreloadutil-interface.md)

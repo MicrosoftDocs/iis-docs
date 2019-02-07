@@ -40,16 +40,16 @@ virtual HRESULT SetVaryByValue(
 |ERROR_ARITHMETIC_OVERFLOW|Indicates that the length of `pszValue` exceeds a maximum limit.|  
   
 ## Remarks  
- [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. To set the variable value, call the [IHttpContext::GetResponse](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getresponse-method.md) method, the [IHttpResponse::GetCachePolicy](../../web-development-reference\webdev-native-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `SetVaryByValue` method.  
+ [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. To set the variable value, call the [IHttpContext::GetResponse](../../web-development-reference\native-code-api-reference/ihttpcontext-getresponse-method.md) method, the [IHttpResponse::GetCachePolicy](../../web-development-reference\native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `SetVaryByValue` method.  
   
  `SetVaryByValue` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   The current default implementer of the [IHttpCachePolicy](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` buffer that contains variable data. During the construction of an implementer, this buffer is initialized to empty.  
+-   The current default implementer of the [IHttpCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` buffer that contains variable data. During the construction of an implementer, this buffer is initialized to empty.  
   
 -   `SetVaryByValue` returns E_INVALIDARG immediately if the `pszValue` parameter is NULL. Otherwise, the internal buffer is expanded, if necessary, to hold the contents of `pszValue` and the null-termination character. Then `pszValue`, followed by the null-termination character, is copied into this buffer. Any data in the buffer before the call to `SetVaryByValue` is overwritten, if necessary, during the call to `SetVaryByValue`.  
   
 ## Notes for Implementers  
- [IHttpCachePolicy](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-interface.md) implementers are responsible for copying the `pszValue` parameter into a buffer, because the data associated with the `pszValue` parameter is not guaranteed to be valid after the call to `SetVaryByValue`.  
+ [IHttpCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md) implementers are responsible for copying the `pszValue` parameter into a buffer, because the data associated with the `pszValue` parameter is not guaranteed to be valid after the call to `SetVaryByValue`.  
   
 ## Notes for Callers  
  `IHttpCachePolicy` clients are responsible for passing a null-terminated string to the `SetVaryByValue` method. Clients are also responsible for disposing of `pszValue` after the call to `SetVaryByValue`, because `IHttpCachePolicy` implementers copy `pszValue` into an internal buffer.  
@@ -64,4 +64,4 @@ virtual HRESULT SetVaryByValue(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCachePolicy Interface](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-interface.md)
+ [IHttpCachePolicy Interface](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md)

@@ -34,7 +34,7 @@ virtual HRESULT PostCompletion(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- An HTTP module can use the `PostCompletion` method to indicate that an asynchronous operation has completed and request that IIS resume processing. The entry point for the original notification will be reentered to allow the notification to capture the completion and return the appropriate notification status. IIS queues the execution to the thread pool, and execution will occur on a thread from the thread pool. This behavior is unlike the behavior of the [IndicateCompletion](../../web-development-reference\webdev-native-api-reference/ihttpcontext-indicatecompletion-method.md) method, which continues on the current thread.  
+ An HTTP module can use the `PostCompletion` method to indicate that an asynchronous operation has completed and request that IIS resume processing. The entry point for the original notification will be reentered to allow the notification to capture the completion and return the appropriate notification status. IIS queues the execution to the thread pool, and execution will occur on a thread from the thread pool. This behavior is unlike the behavior of the [IndicateCompletion](../../web-development-reference\native-code-api-reference/ihttpcontext-indicatecompletion-method.md) method, which continues on the current thread.  
   
 ## Requirements  
   
@@ -46,5 +46,5 @@ virtual HRESULT PostCompletion(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md)   
- [IHttpContext::IndicateCompletion Method](../../web-development-reference\webdev-native-api-reference/ihttpcontext-indicatecompletion-method.md)
+ [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpContext::IndicateCompletion Method](../../web-development-reference\native-code-api-reference/ihttpcontext-indicatecompletion-method.md)

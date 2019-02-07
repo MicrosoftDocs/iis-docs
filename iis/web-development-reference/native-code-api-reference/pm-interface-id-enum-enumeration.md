@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # PM_INTERFACE_ID_ENUM Enumeration
-Defines the interfaces that the [IProtocolManager::GetPmInterface](../../web-development-reference\webdev-native-api-reference/iprotocolmanager-getpminterface-method.md) method supports.  
+Defines the interfaces that the [IProtocolManager::GetPmInterface](../../web-development-reference\native-code-api-reference/iprotocolmanager-getpminterface-method.md) method supports.  
   
 ## Syntax  
   
@@ -28,10 +28,10 @@ enum PM_INTERFACE_ID_ENUM {
   
 |Name|Description|  
 |----------|-----------------|  
-|`PM_LISTENER_CHANNEL_MANAGER_ID`|The [IPmListenerChannelManager](../../web-development-reference\webdev-native-api-reference/ipmlistenerchannelmanager-interface.md) interface.|  
-|`PM_HEALTH_AND_IDLE_MONITOR_ID`|The [IPmHealthAndIdleMonitor](../../web-development-reference\webdev-native-api-reference/ipmhealthandidlemonitor-interface.md) interface.|  
-|`PM_CUSTOM_ACTIONS_ID`|The [IPmCustomActions](../../web-development-reference\webdev-native-api-reference/ipmcustomactions-interface.md) interface.|  
-|`PM_APPLICATION_PRELOAD_ID`|The [IPmApplicationPreload](../../web-development-reference\webdev-native-api-reference/ipmapplicationpreload-interface.md) interface.|  
+|`PM_LISTENER_CHANNEL_MANAGER_ID`|The [IPmListenerChannelManager](../../web-development-reference\native-code-api-reference/ipmlistenerchannelmanager-interface.md) interface.|  
+|`PM_HEALTH_AND_IDLE_MONITOR_ID`|The [IPmHealthAndIdleMonitor](../../web-development-reference\native-code-api-reference/ipmhealthandidlemonitor-interface.md) interface.|  
+|`PM_CUSTOM_ACTIONS_ID`|The [IPmCustomActions](../../web-development-reference\native-code-api-reference/ipmcustomactions-interface.md) interface.|  
+|`PM_APPLICATION_PRELOAD_ID`|The [IPmApplicationPreload](../../web-development-reference\native-code-api-reference/ipmapplicationpreload-interface.md) interface.|  
   
 ## Requirements  
   
@@ -43,9 +43,9 @@ enum PM_INTERFACE_ID_ENUM {
 |Header|Wpframework.h|  
   
 ## See Also  
- [Worker Process and Protocol Manager Enumerations](../../web-development-reference\webdev-native-api-reference/worker-process-and-protocol-manager-enumerations.md)   
- [WPF_INTERFACE_ID_ENUM Enumeration](../../web-development-reference\webdev-native-api-reference/wpf-interface-id-enum-enumeration.md)   
- [WPF_SETTINGS_BOOL_ENUM Enumeration](../../web-development-reference\webdev-native-api-reference/wpf-settings-bool-enum-enumeration.md)   
- [WPF_SETTINGS_DWORD_ENUM Enumeration](../../web-development-reference\webdev-native-api-reference/wpf-settings-dword-enum-enumeration.md)   
- [WPF_SETTINGS_STRING_ENUM Enumeration](../../web-development-reference\webdev-native-api-reference/wpf-settings-string-enum-enumeration.md)   
- [WPF_SETTINGS_ULONGLONG_ENUM Enumeration](../../web-development-reference\webdev-native-api-reference/wpf-settings-ulonglong-enum-enumeration.md)
+ [Worker Process and Protocol Manager Enumerations](../../web-development-reference\native-code-api-reference/worker-process-and-protocol-manager-enumerations.md)   
+ [WPF_INTERFACE_ID_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-interface-id-enum-enumeration.md)   
+ [WPF_SETTINGS_BOOL_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-bool-enum-enumeration.md)   
+ [WPF_SETTINGS_DWORD_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-dword-enum-enumeration.md)   
+ [WPF_SETTINGS_STRING_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-string-enum-enumeration.md)   
+ [WPF_SETTINGS_ULONGLONG_ENUM Enumeration](../../web-development-reference\native-code-api-reference/wpf-settings-ulonglong-enum-enumeration.md)

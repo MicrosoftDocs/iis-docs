@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppDomainInfoEnum::GetData Method
-Retrieves an [IAppDomainInfo](../../web-development-reference\webdev-native-api-reference/iappdomaininfo-interface.md) interface.  
+Retrieves an [IAppDomainInfo](../../web-development-reference\native-code-api-reference/iappdomaininfo-interface.md) interface.  
   
 ## Syntax  
   
@@ -34,7 +34,7 @@ virtual HRESULT __stdcall GetData(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- You must call the [MoveNext](../../web-development-reference\webdev-native-api-reference/iappdomaininfoenum-movenext-method.md) method before each call to the `GetData` method.  
+ You must call the [MoveNext](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-movenext-method.md) method before each call to the `GetData` method.  
   
 ## Requirements  
   
@@ -46,6 +46,6 @@ virtual HRESULT __stdcall GetData(
 |Header|Webhost.h|  
   
 ## See Also  
- [IAppDomainInfoEnum Interface](../../web-development-reference\webdev-native-api-reference/iappdomaininfoenum-interface.md)   
- [IAppDomainInfoEnum::MoveNext Method](../../web-development-reference\webdev-native-api-reference/iappdomaininfoenum-movenext-method.md)   
- [IAppDomainInfoEnum::Reset Method](../../web-development-reference\webdev-native-api-reference/iappdomaininfoenum-reset-method.md)
+ [IAppDomainInfoEnum Interface](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-interface.md)   
+ [IAppDomainInfoEnum::MoveNext Method](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-movenext-method.md)   
+ [IAppDomainInfoEnum::Reset Method](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-reset-method.md)

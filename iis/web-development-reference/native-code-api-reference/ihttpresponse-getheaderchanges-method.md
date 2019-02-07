@@ -82,7 +82,7 @@ virtual HRESULT GetHeaderChanges(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference\webdev-native-api-reference/ihttpresponse-interface.md)   
- [IHttpResponse::GetHeader Method](../../web-development-reference\webdev-native-api-reference/ihttpresponse-getheader-method.md)   
- [IHttpRequest::GetHeader Method](../../web-development-reference\webdev-native-api-reference/ihttprequest-getheader-method.md)   
- [IHttpRequest::GetHeaderChanges Method](../../web-development-reference\webdev-native-api-reference/ihttprequest-getheaderchanges-method.md)
+ [IHttpResponse Interface](../../web-development-reference\native-code-api-reference/ihttpresponse-interface.md)   
+ [IHttpResponse::GetHeader Method](../../web-development-reference\native-code-api-reference/ihttpresponse-getheader-method.md)   
+ [IHttpRequest::GetHeader Method](../../web-development-reference\native-code-api-reference/ihttprequest-getheader-method.md)   
+ [IHttpRequest::GetHeaderChanges Method](../../web-development-reference\native-code-api-reference/ihttprequest-getheaderchanges-method.md)

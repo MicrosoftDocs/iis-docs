@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IGlobalTraceEventProvider Interface
-Extends the [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md) interface by providing trace events for [CGlobalModule](../../web-development-reference\webdev-native-api-reference/cglobalmodule-class.md) derived classes.  
+Extends the [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md) interface by providing trace events for [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes.  
   
 ## Syntax  
   
@@ -25,19 +25,19 @@ class IGlobalTraceEventProvider : public IHttpEventProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[CheckSubscription](../../web-development-reference\webdev-native-api-reference/iglobaltraceeventprovider-checksubscription-method.md)|Returns a value that indicates whether the trace event is intended for the module.|  
-|[GetCurrentHttpRequestContext](../../web-development-reference\webdev-native-api-reference/iglobaltraceeventprovider-getcurrenthttprequestcontext-method.md)|Retrieves the HTTP context for trace events that are request specific.|  
-|[GetTraceEvent](../../web-development-reference\webdev-native-api-reference/iglobaltraceeventprovider-gettraceevent-method.md)|Retrieves the trace event for the provider.|  
-|[SetErrorStatus](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md).)|  
+|[CheckSubscription](../../web-development-reference\native-code-api-reference/iglobaltraceeventprovider-checksubscription-method.md)|Returns a value that indicates whether the trace event is intended for the module.|  
+|[GetCurrentHttpRequestContext](../../web-development-reference\native-code-api-reference/iglobaltraceeventprovider-getcurrenthttprequestcontext-method.md)|Retrieves the HTTP context for trace events that are request specific.|  
+|[GetTraceEvent](../../web-development-reference\native-code-api-reference/iglobaltraceeventprovider-gettraceevent-method.md)|Retrieves the trace event for the provider.|  
+|[SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md).)|  
   
 ## Derived Classes  
  This class contains no derived classes.  
   
 ## Remarks  
- [CGlobalModule](../../web-development-reference\webdev-native-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) event types receive an `IGlobalTraceEventProvider` pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method.  
+ [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_TRACE_EVENT](../../web-development-reference\native-code-api-reference/request-processing-constants.md) event types receive an `IGlobalTraceEventProvider` pointer as a parameter on the [CGlobalModule::OnGlobalTraceEvent](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobaltraceevent-method.md) pure `virtual` method.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events and then writes the `IGlobalTraceEventProvider` information to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the `IGlobalTraceEventProvider` information to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
@@ -109,12 +109,12 @@ class IGlobalTraceEventProvider : public IHttpEventProvider
 </eventProvider>  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IGlobalTraceEventProvider`  
   
@@ -128,4 +128,4 @@ class IGlobalTraceEventProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)

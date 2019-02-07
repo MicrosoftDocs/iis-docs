@@ -29,7 +29,7 @@ HRESULT get_Item(
  A `VARIANT` that contains the index of the requested configuration section definition.  
   
  `ppConfigSection`  
- A pointer to a pointer for the [IAppHostSectionDefinition](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinition-interface.md) interface.  
+ A pointer to a pointer for the [IAppHostSectionDefinition](../../web-development-reference\native-code-api-reference/iapphostsectiondefinition-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -53,4 +53,4 @@ HRESULT get_Item(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostSectionDefinitionCollection Interface](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinitioncollection-interface.md)
+ [IAppHostSectionDefinitionCollection Interface](../../web-development-reference\native-code-api-reference/iapphostsectiondefinitioncollection-interface.md)

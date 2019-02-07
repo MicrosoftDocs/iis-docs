@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostPropertyException::ValidationFailureReason Property
-Gets the reason that the value of the [IAppHostPropertyException::InvalidValue](../../web-development-reference\webdev-native-api-reference/iapphostpropertyexception-invalidvalue-method.md) property did not validate against the value of the [IAppHostPropertySchema::ValidationParameter](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-validationparameter-property.md) property.  
+Gets the reason that the value of the [IAppHostPropertyException::InvalidValue](../../web-development-reference\native-code-api-reference/iapphostpropertyexception-invalidvalue-method.md) property did not validate against the value of the [IAppHostPropertySchema::ValidationParameter](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-validationparameter-property.md) property.  
   
 ## Syntax  
   
@@ -36,7 +36,7 @@ HRESULT get_ValidationFailureReason(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- When a property is not valid, the `IAppHostPropertyException::InvalidValue` property contains the value that did not validate against the `IAppHostPropertySchema::ValidationParameter` property. For more information about property validation, see the [IAppHostPropertySchema::ValidationType](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-validationtype-property.md) and `IAppHostPropertySchema::ValidationParameter` properties.  
+ When a property is not valid, the `IAppHostPropertyException::InvalidValue` property contains the value that did not validate against the `IAppHostPropertySchema::ValidationParameter` property. For more information about property validation, see the [IAppHostPropertySchema::ValidationType](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-validationtype-property.md) and `IAppHostPropertySchema::ValidationParameter` properties.  
   
 ## Requirements  
   
@@ -48,6 +48,6 @@ HRESULT get_ValidationFailureReason(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostPropertyException Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyexception-interface.md)   
- [IAppHostPropertySchema::ValidationType Property](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-validationtype-property.md)   
- [IAppHostPropertySchema::ValidationParameter Property](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-validationparameter-property.md)
+ [IAppHostPropertyException Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyexception-interface.md)   
+ [IAppHostPropertySchema::ValidationType Property](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-validationtype-property.md)   
+ [IAppHostPropertySchema::ValidationParameter Property](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-validationparameter-property.md)

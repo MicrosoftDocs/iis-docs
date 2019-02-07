@@ -25,7 +25,7 @@ interface IAppHostChangeHandler: IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[OnSectionChanges](../../web-development-reference\webdev-native-api-reference/iapphostchangehandler-onsectionchanges-method.md)|Notifies listeners when a section has changed in a physical file of the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration. All callers must implement the listener.|  
+|[OnSectionChanges](../../web-development-reference\native-code-api-reference/iapphostchangehandler-onsectionchanges-method.md)|Notifies listeners when a section has changed in a physical file of the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration. All callers must implement the listener.|  
   
 ## Remarks  
  This notification occurs when the configuration cache needs to flush a configuration file because the physical file has changed. If the physical file changes but does not exist in the configuration cache, the notification will not occur.  
@@ -45,4 +45,4 @@ interface IAppHostChangeHandler: IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration API Reference](../../web-development-reference\webdev-native-api-reference/application-host-administration-api-reference.md)
+ [Application Host Administration API Reference](../../web-development-reference\native-code-api-reference/application-host-administration-api-reference.md)

@@ -28,7 +28,7 @@ virtual BOOL GetNextNotification(
   
 #### Parameters  
  `status`  
- [IN] The [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\webdev-native-api-reference/request-notification-status-enumeration.md) enumeration value to return from the current notification.  
+ [IN] The [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) enumeration value to return from the current notification.  
   
  `pdwNotification`  
  [OUT] A pointer to a `DWORD` that contains the bitmask value for the next notification.  
@@ -37,10 +37,10 @@ virtual BOOL GetNextNotification(
  [OUT] A pointer to a Boolean value. `true` to indicate that the notification is a post-notification; otherwise, `false`.  
   
  `ppModuleInfo`  
- [OUT] A pointer to the address of the [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) class that is responsible for processing the returned notification.  
+ [OUT] A pointer to the address of the [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class that is responsible for processing the returned notification.  
   
  `ppRequestOutput`  
- [OUT] A pointer to the address of the [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md) interface for the returned notification.  
+ [OUT] A pointer to the address of the [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md) interface for the returned notification.  
   
 ## Return Value  
  `true` if the call to `GetNextNotification` was successful; otherwise, `false`.  
@@ -48,7 +48,7 @@ virtual BOOL GetNextNotification(
 ## Remarks  
  HTTP modules can use the `GetNextNotification` method to merge notifications within the same module host. Returning processing to the integrated request-processing pipeline requires a small amount of overhead. To bypass that overhead, an HTTP module can call the `GetNextNotification` method to skip to the next notification and continue processing, provided that the two notifications are within the same module host and no additional notification handlers are registered to process a request between notifications.  
   
- For example, an HTTP module might contain an [OnResolveRequestCache](../../web-development-reference\webdev-native-api-reference/chttpmodule-onresolverequestcache-method.md) method, and another HTTP module within the same module host might contain an [OnPostResolveRequestCache](../../web-development-reference\webdev-native-api-reference/chttpmodule-onpostresolverequestcache-method.md) method. The first module can call the `GetNextNotification` method to continue processing, rather than returning processing to the pipeline, as though the module had already registered for the `OnPostResolveRequestCache` post-event notification method.  
+ For example, an HTTP module might contain an [OnResolveRequestCache](../../web-development-reference\native-code-api-reference/chttpmodule-onresolverequestcache-method.md) method, and another HTTP module within the same module host might contain an [OnPostResolveRequestCache](../../web-development-reference\native-code-api-reference/chttpmodule-onpostresolverequestcache-method.md) method. The first module can call the `GetNextNotification` method to continue processing, rather than returning processing to the pipeline, as though the module had already registered for the `OnPostResolveRequestCache` post-event notification method.  
   
 > [!NOTE]
 >  If the call to `GetNextNotification` returns `false`, you can enable a failed-request-tracing rule that will allow you to examine which notifications IIS is processing.  
@@ -64,7 +64,7 @@ virtual BOOL GetNextNotification(
   
 <!-- TODO: review snippet reference  [!CODE [IhttpContextGetNextNotification#1](IhttpContextGetNextNotification#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -78,4 +78,4 @@ virtual BOOL GetNextNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md)
+ [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)

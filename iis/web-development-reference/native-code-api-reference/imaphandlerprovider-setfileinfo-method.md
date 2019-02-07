@@ -42,4 +42,4 @@ virtual VOID SetFileInfo(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IMapHandlerProvider Interface](../../web-development-reference\webdev-native-api-reference/imaphandlerprovider-interface.md)
+ [IMapHandlerProvider Interface](../../web-development-reference\native-code-api-reference/imaphandlerprovider-interface.md)

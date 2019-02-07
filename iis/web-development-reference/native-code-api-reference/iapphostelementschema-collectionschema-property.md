@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostElementSchema::CollectionSchema Property
-Gets the schema of the collection contained in the corresponding [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) object if the element supports child collections.  
+Gets the schema of the collection contained in the corresponding [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object if the element supports child collections.  
   
 ## Syntax  
   
@@ -25,7 +25,7 @@ Gets the schema of the collection contained in the corresponding [IAppHostElemen
   
 #### Parameters  
  `ppCollectionSchema`  
- Contiains an [IAppHostCollectionSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostcollectionschema-interface.md)  
+ Contiains an [IAppHostCollectionSchema Interface](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-interface.md)  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -44,6 +44,6 @@ Gets the schema of the collection contained in the corresponding [IAppHostElemen
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md)   
- [IAppHostElementSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-interface.md)   
- [IAppHostCollectionSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostcollectionschema-interface.md)
+ [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)   
+ [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md)   
+ [IAppHostCollectionSchema Interface](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-interface.md)

@@ -29,14 +29,14 @@ virtual BOOL GetResponseHeadersSent(
  `true` if the HTTP response headers have been sent; otherwise, `false`.  
   
 ## Remarks  
- The `GetResponseHeadersSent` method determines whether another module has already sent the HTTP response headers to the client (for example, another HTTP module has called the [IHttpResponse::Flush](../../web-development-reference\webdev-native-api-reference/ihttpresponse-flush-method.md) method). The `GetResponseHeadersSent` method is especially useful when you are creating an HTTP module that writes values to the headers, because it enables you to have deterministic control over the information that your HTTP module outputs to a Web client.  
+ The `GetResponseHeadersSent` method determines whether another module has already sent the HTTP response headers to the client (for example, another HTTP module has called the [IHttpResponse::Flush](../../web-development-reference\native-code-api-reference/ihttpresponse-flush-method.md) method). The `GetResponseHeadersSent` method is especially useful when you are creating an HTTP module that writes values to the headers, because it enables you to have deterministic control over the information that your HTTP module outputs to a Web client.  
   
 ## Example  
  The following code example demonstrates how to use the `GetResponseHeadersSent` method to create an HTTP module that determines whether the headers have been written to the client. The module indicates the result by returning a message to a Web client.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpContextGetResponseHeadersSent#1](IHttpContextGetResponseHeadersSent#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -50,5 +50,5 @@ virtual BOOL GetResponseHeadersSent(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpContext Interface](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md)   
- [IHttpResponse::Flush Method](../../web-development-reference\webdev-native-api-reference/ihttpresponse-flush-method.md)
+ [IHttpContext Interface](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md)   
+ [IHttpResponse::Flush Method](../../web-development-reference\native-code-api-reference/ihttpresponse-flush-method.md)

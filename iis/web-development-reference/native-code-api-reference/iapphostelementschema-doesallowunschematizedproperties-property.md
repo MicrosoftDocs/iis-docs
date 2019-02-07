@@ -44,4 +44,4 @@ HRESULT get_DoesAllowUnschematizedProperties(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostElementSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-interface.md)
+ [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md)

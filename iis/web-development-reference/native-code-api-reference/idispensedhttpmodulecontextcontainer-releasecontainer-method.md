@@ -31,9 +31,9 @@ virtual VOID ReleaseContainer(
 ## Remarks  
  The behavior of this method depends on the implementation. You should use the following information as a guideline, but it might not be correct in all scenarios:  
   
--   Most implementers declare a private `Boolean` value named `dispensed`; the default value is `false` and the default behavior is that `dispensed` is never set to `true`. However, if the implementation has set `dispensed` to `true`, when `ReleaseContainer` is called, the [IDispensedHttpModuleContextContainer](../../web-development-reference\webdev-native-api-reference/idispensedhttpmodulecontextcontainer-interface.md) pointer calls `delete` on itself. Otherwise, `ReleaseContainer` is an empty operation.  
+-   Most implementers declare a private `Boolean` value named `dispensed`; the default value is `false` and the default behavior is that `dispensed` is never set to `true`. However, if the implementation has set `dispensed` to `true`, when `ReleaseContainer` is called, the [IDispensedHttpModuleContextContainer](../../web-development-reference\native-code-api-reference/idispensedhttpmodulecontextcontainer-interface.md) pointer calls `delete` on itself. Otherwise, `ReleaseContainer` is an empty operation.  
   
--   If `delete` is called, `IDispensedHttpModuleContextContainer` enumerates its internal array of [IHttpStoredContext](../../web-development-reference\webdev-native-api-reference/ihttpstoredcontext-interface.md) pointers and calls the [IHttpStoredContext::CleanupStoredContext](../../web-development-reference\webdev-native-api-reference/ihttpstoredcontext-cleanupstoredcontext-method.md) method on any pointers that were added previously by using the [IHttpModuleContextContainer::SetModuleContext](../../web-development-reference\webdev-native-api-reference/ihttpmodulecontextcontainer-setmodulecontext-method.md) method. The context container then disposes of the array memory on the heap and sets that array to NULL.  
+-   If `delete` is called, `IDispensedHttpModuleContextContainer` enumerates its internal array of [IHttpStoredContext](../../web-development-reference\native-code-api-reference/ihttpstoredcontext-interface.md) pointers and calls the [IHttpStoredContext::CleanupStoredContext](../../web-development-reference\native-code-api-reference/ihttpstoredcontext-cleanupstoredcontext-method.md) method on any pointers that were added previously by using the [IHttpModuleContextContainer::SetModuleContext](../../web-development-reference\native-code-api-reference/ihttpmodulecontextcontainer-setmodulecontext-method.md) method. The context container then disposes of the array memory on the heap and sets that array to NULL.  
   
 ## Example  
  The following example shows a custom class named `MyContainer` that implements the `IDispensedHttpModuleContextContainer` interface. It also shows a custom class named `MyClass` that implements a method named `GetModuleContextContainer`. `MyClass` manages a `MyContainer` pointer during the lifetime of a `MyClass` pointer.  
@@ -149,12 +149,12 @@ private:
 |Header|Httpserv.h|  
   
 ## See Also  
- [IDispensedHttpModuleContextContainer Interface](../../web-development-reference\webdev-native-api-reference/idispensedhttpmodulecontextcontainer-interface.md)   
- [IHttpApplication::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/ihttpapplication-getmodulecontextcontainer-method.md)   
- [IHttpConnection::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/ihttpconnection-getmodulecontextcontainer-method.md)   
- [IHttpContext::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getmodulecontextcontainer-method.md)   
- [IHttpFileInfo::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getmodulecontextcontainer-method.md)   
- [IHttpModuleContextContainer Interface](../../web-development-reference\webdev-native-api-reference/ihttpmodulecontextcontainer-interface.md)   
- [IHttpSite::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/ihttpsite-getmodulecontextcontainer-method.md)   
- [IHttpUrlInfo::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/ihttpurlinfo-getmodulecontextcontainer-method.md)   
- [IMetadataInfo::GetModuleContextContainer Method](../../web-development-reference\webdev-native-api-reference/imetadatainfo-getmodulecontextcontainer-method.md)
+ [IDispensedHttpModuleContextContainer Interface](../../web-development-reference\native-code-api-reference/idispensedhttpmodulecontextcontainer-interface.md)   
+ [IHttpApplication::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/ihttpapplication-getmodulecontextcontainer-method.md)   
+ [IHttpConnection::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/ihttpconnection-getmodulecontextcontainer-method.md)   
+ [IHttpContext::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/ihttpcontext-getmodulecontextcontainer-method.md)   
+ [IHttpFileInfo::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getmodulecontextcontainer-method.md)   
+ [IHttpModuleContextContainer Interface](../../web-development-reference\native-code-api-reference/ihttpmodulecontextcontainer-interface.md)   
+ [IHttpSite::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/ihttpsite-getmodulecontextcontainer-method.md)   
+ [IHttpUrlInfo::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/ihttpurlinfo-getmodulecontextcontainer-method.md)   
+ [IMetadataInfo::GetModuleContextContainer Method](../../web-development-reference\native-code-api-reference/imetadatainfo-getmodulecontextcontainer-method.md)

@@ -26,7 +26,7 @@ virtual HRESULT RaiseTraceEvent(
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`pTraceEvent`|An [HTTP_TRACE_EVENT](../../web-development-reference\webdev-native-api-reference/http-trace-event-structure.md) pointer that contains trace event information.|  
+|`pTraceEvent`|An [HTTP_TRACE_EVENT](../../web-development-reference\native-code-api-reference/http-trace-event-structure.md) pointer that contains trace event information.|  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -50,4 +50,4 @@ virtual HRESULT RaiseTraceEvent(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpTraceContext Interface](../../web-development-reference\webdev-native-api-reference/ihttptracecontext-interface.md)
+ [IHttpTraceContext Interface](../../web-development-reference\native-code-api-reference/ihttptracecontext-interface.md)

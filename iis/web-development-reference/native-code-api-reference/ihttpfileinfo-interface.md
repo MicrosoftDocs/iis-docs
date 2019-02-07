@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IHttpFileInfo Interface
-Extends the [IHttpCacheSpecificData](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-interface.md) interface by adding file-specific information for files that are cached on a server.  
+Extends the [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md) interface by adding file-specific information for files that are cached on a server.  
   
 ## Syntax  
   
@@ -25,36 +25,36 @@ class IHttpFileInfo : public IHttpCacheSpecificData
   
 |Name|Description|  
 |----------|-----------------|  
-|[AccessCheck](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-accesscheck-method.md)|Returns a value that indicates whether the user can access the corresponding file.|  
-|[CheckIfFileHasChanged](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-checkiffilehaschanged-method.md)|Returns a value that indicates whether the corresponding file has been changed since it was loaded into a file cache.|  
-|[DecrementTTL](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-decrementttl-method.md)|(Inherited from [IHttpCacheSpecificData](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-interface.md).)|  
-|[DereferenceCacheData](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-dereferencecachedata-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
-|[GetAttributes](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getattributes-method.md)|Retrieves the attributes of the corresponding file for an `IHttpFileInfo` interface.|  
-|[GetCacheKey](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-getcachekey-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
-|[GetETag](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getetag-method.md)|Retrieves the entity tag of the corresponding file for an `IHttpFileInfo` interface.|  
-|[GetFileBuffer](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getfilebuffer-method.md)|Returns a buffer in memory loaded from the corresponding file.|  
-|[GetFileHandle](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getfilehandle-method.md)|Returns the file handle for the corresponding file.|  
-|[GetFilePath](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getfilepath-method.md)|Returns the physical path of the file referenced by an `IHttpFileInfo` interface.|  
-|[GetFlushed](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-getflushed-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
-|[GetHttpCacheAllowed](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-gethttpcacheallowed-method.md)|Returns a value that indicates whether the corresponding file can be cached.|  
-|[GetLastModifiedString](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getlastmodifiedstring-method.md)|Retrieves the last modified string of the corresponding file for an `IHttpFileInfo` interface.|  
-|[GetLastModifiedTime](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getlastmodifiedtime-method.md)|Retrieves the last modified time structure of the corresponding file for an `IHttpFileInfo` interface.|  
-|[GetModuleContextContainer](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getmodulecontextcontainer-method.md)|Returns an [IHttpModuleContextContainer](../../web-development-reference\webdev-native-api-reference/ihttpmodulecontextcontainer-interface.md) pointer for the corresponding file.|  
-|[GetSize](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getsize-method.md)|Retrieves the size of the corresponding file for an `IHttpFileInfo` interface.|  
-|[GetVrPath](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getvrpath-method.md)|Returns the virtual path for the corresponding file.|  
-|[GetVrToken](../../web-development-reference\webdev-native-api-reference/ihttpfileinfo-getvrtoken-method.md)|Returns the virtual token for the corresponding file.|  
-|[ReferenceCacheData](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-referencecachedata-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
-|[ResetTTL](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-resetttl-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
-|[SetFlushed](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-setflushed-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
+|[AccessCheck](../../web-development-reference\native-code-api-reference/ihttpfileinfo-accesscheck-method.md)|Returns a value that indicates whether the user can access the corresponding file.|  
+|[CheckIfFileHasChanged](../../web-development-reference\native-code-api-reference/ihttpfileinfo-checkiffilehaschanged-method.md)|Returns a value that indicates whether the corresponding file has been changed since it was loaded into a file cache.|  
+|[DecrementTTL](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-decrementttl-method.md)|(Inherited from [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md).)|  
+|[DereferenceCacheData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-dereferencecachedata-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
+|[GetAttributes](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getattributes-method.md)|Retrieves the attributes of the corresponding file for an `IHttpFileInfo` interface.|  
+|[GetCacheKey](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-getcachekey-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
+|[GetETag](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getetag-method.md)|Retrieves the entity tag of the corresponding file for an `IHttpFileInfo` interface.|  
+|[GetFileBuffer](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getfilebuffer-method.md)|Returns a buffer in memory loaded from the corresponding file.|  
+|[GetFileHandle](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getfilehandle-method.md)|Returns the file handle for the corresponding file.|  
+|[GetFilePath](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getfilepath-method.md)|Returns the physical path of the file referenced by an `IHttpFileInfo` interface.|  
+|[GetFlushed](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-getflushed-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
+|[GetHttpCacheAllowed](../../web-development-reference\native-code-api-reference/ihttpfileinfo-gethttpcacheallowed-method.md)|Returns a value that indicates whether the corresponding file can be cached.|  
+|[GetLastModifiedString](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getlastmodifiedstring-method.md)|Retrieves the last modified string of the corresponding file for an `IHttpFileInfo` interface.|  
+|[GetLastModifiedTime](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getlastmodifiedtime-method.md)|Retrieves the last modified time structure of the corresponding file for an `IHttpFileInfo` interface.|  
+|[GetModuleContextContainer](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getmodulecontextcontainer-method.md)|Returns an [IHttpModuleContextContainer](../../web-development-reference\native-code-api-reference/ihttpmodulecontextcontainer-interface.md) pointer for the corresponding file.|  
+|[GetSize](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getsize-method.md)|Retrieves the size of the corresponding file for an `IHttpFileInfo` interface.|  
+|[GetVrPath](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getvrpath-method.md)|Returns the virtual path for the corresponding file.|  
+|[GetVrToken](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getvrtoken-method.md)|Returns the virtual token for the corresponding file.|  
+|[ReferenceCacheData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-referencecachedata-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
+|[ResetTTL](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-resetttl-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
+|[SetFlushed](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-setflushed-method.md)|(Inherited from `IHttpCacheSpecificData`.)|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) pointer on the corresponding `virtual` method for the event. You can retrieve an `IHttpFileInfo` pointer by calling the [IHttpContext::GetFileInfo](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getfileinfo-method.md) method.  
+ [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer on the corresponding `virtual` method for the event. You can retrieve an `IHttpFileInfo` pointer by calling the [IHttpContext::GetFileInfo](../../web-development-reference\native-code-api-reference/ihttpcontext-getfileinfo-method.md) method.  
   
 ## Example  
- The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface. The example then displays the `IHttpFileInfo` data to a Web client.  
+ The following code example demonstrates how to use the [IHttpContext::GetFileInfo](../../web-development-reference\native-code-api-reference/ihttpcontext-getfileinfo-method.md) method to create an HTTP module that retrieves a pointer to an `IHttpFileInfo` interface. The example then displays the `IHttpFileInfo` data to a Web client.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpFileInfo#1](IHttpFileInfo#1)]  -->  
   
@@ -83,12 +83,12 @@ VR Path: NULL
 VR Token: NULL  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
 ## Inheritance Hierarchy  
- [IHttpCacheSpecificData](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-interface.md)  
+ [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md)  
   
  `IHttpFileInfo`  
   
@@ -102,5 +102,5 @@ VR Token: NULL
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)   
- [IHttpTokenEntry Interface](../../web-development-reference\webdev-native-api-reference/ihttptokenentry-interface.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
+ [IHttpTokenEntry Interface](../../web-development-reference\native-code-api-reference/ihttptokenentry-interface.md)

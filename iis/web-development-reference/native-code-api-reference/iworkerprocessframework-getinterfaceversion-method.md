@@ -25,10 +25,10 @@ virtual HRESULT GetInterfaceVersion(
   
 #### Parameters  
  `pdwMajorVersion`  
- A pointer to a `DWORD` buffer that will receive the major version of the [IWorkerProcessFramework](../../web-development-reference\webdev-native-api-reference/iworkerprocessframework-interface.md).  
+ A pointer to a `DWORD` buffer that will receive the major version of the [IWorkerProcessFramework](../../web-development-reference\native-code-api-reference/iworkerprocessframework-interface.md).  
   
  `pdwMinorVersion`  
- A pointer to a `DWORD` buffer that will receive the minor version of the [IWorkerProcessFramework](../../web-development-reference\webdev-native-api-reference/iworkerprocessframework-interface.md).  
+ A pointer to a `DWORD` buffer that will receive the minor version of the [IWorkerProcessFramework](../../web-development-reference\native-code-api-reference/iworkerprocessframework-interface.md).  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -47,6 +47,6 @@ virtual HRESULT GetInterfaceVersion(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IWorkerProcessFramework Interface](../../web-development-reference\webdev-native-api-reference/iworkerprocessframework-interface.md)   
- [IWorkerProcessFramework::GetCustomInterface Method](../../web-development-reference\webdev-native-api-reference/iworkerprocessframework-getcustominterface-method.md)   
- [IWorkerProcessFramework::GetWpfInterface Method](../../web-development-reference\webdev-native-api-reference/iworkerprocessframework-getwpfinterface-method.md)
+ [IWorkerProcessFramework Interface](../../web-development-reference\native-code-api-reference/iworkerprocessframework-interface.md)   
+ [IWorkerProcessFramework::GetCustomInterface Method](../../web-development-reference\native-code-api-reference/iworkerprocessframework-getcustominterface-method.md)   
+ [IWorkerProcessFramework::GetWpfInterface Method](../../web-development-reference\native-code-api-reference/iworkerprocessframework-getwpfinterface-method.md)

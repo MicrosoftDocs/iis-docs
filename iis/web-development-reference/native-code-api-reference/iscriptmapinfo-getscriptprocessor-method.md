@@ -35,14 +35,14 @@ virtual PCWSTR GetScriptProcessor(
  For example, if a Web client requests a file with a .txt extension, `GetScriptProcessor` returns nothing by default, because text files are not configured with a script processor. By contrast, if a Web client requests a file with an .asp extension, `GetScriptProcessor` returns the full path to the Asp.dll script engine.  
   
 > [!NOTE]
->  Do not confuse `GetScriptProcessor` with the [IScriptMapInfo::GetPath](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getpath-method.md) or [IScriptMapInfo::GetName](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getname-method.md) methods, which return the `path` and `name` attributes, respectively, for the request handler.  
+>  Do not confuse `GetScriptProcessor` with the [IScriptMapInfo::GetPath](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getpath-method.md) or [IScriptMapInfo::GetName](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getname-method.md) methods, which return the `path` and `name` attributes, respectively, for the request handler.  
   
 ## Example  
- The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetScriptProcessor` method to retrieve the full path of the script engine for the request handler that is processing the current request. The module returns the path to a Web client and then exits.  
+ The following code example demonstrates how to use the [IHttpContext::GetScriptMap](../../web-development-reference\native-code-api-reference/ihttpcontext-getscriptmap-method.md) method to create an HTTP module that retrieves a pointer to an [IScriptMapInfo](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md) interface. The example then uses the `GetScriptProcessor` method to retrieve the full path of the script engine for the request handler that is processing the current request. The module returns the path to a Web client and then exits.  
   
 <!-- TODO: review snippet reference  [!CODE [IScriptMapInfoGetScriptProcessor#1](IScriptMapInfoGetScriptProcessor#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -56,4 +56,4 @@ virtual PCWSTR GetScriptProcessor(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IScriptMapInfo Interface](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-interface.md)
+ [IScriptMapInfo Interface](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md)

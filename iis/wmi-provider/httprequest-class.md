@@ -35,7 +35,7 @@ class HttpRequest : Object
 |`GUID`|A read-only `string` value that contains a 128-bit GUID that uniquely identifies a request. The only key property.|  
 |`LocalIPAddress`|A read-only `string` value that contains the IP address of the network adapter on which the request was received.|  
 |`LocalPort`|A read-only `uint32` value that contains the port number on which the request was received.|  
-|`PipelineState`|A read-only `uint32` value that contains the pipeline module state that the request is in. The possible values are listed in [Request-Processing Constants](../web-development-reference\webdev-native-api-reference/request-processing-constants.md).|  
+|`PipelineState`|A read-only `uint32` value that contains the pipeline module state that the request is in. The possible values are listed in [Request-Processing Constants](../web-development-reference\native-code-api-reference/request-processing-constants.md).|  
 |`SiteId`|A read-only `uint32` value that contains the site ID of the request.|  
 |`TimeElapsed`|A read-only `uint32` value that contains the period of time, in milliseconds, that the request has been in process.|  
 |`TimeInModule`|A read-only `uint32` value that contains the period of time, in milliseconds, that the request has been in the module in which it is currently located.|  
@@ -110,6 +110,6 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Request-Processing Constants](../web-development-reference\webdev-native-api-reference/request-processing-constants.md)   
+ [Request-Processing Constants](../web-development-reference\native-code-api-reference/request-processing-constants.md)   
  [Object Class](../wmi-provider/object-class.md)   
  [View Currently Executing Requests in a Worker Process](http://go.microsoft.com/fwlink/?LinkId=60429)

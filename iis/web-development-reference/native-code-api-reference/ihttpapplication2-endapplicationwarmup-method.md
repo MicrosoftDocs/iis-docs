@@ -38,4 +38,4 @@ virtual VOID EndApplicationWarmup(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpApplication2 Interface](../../web-development-reference\webdev-native-api-reference/ihttpapplication2-interface.md)
+ [IHttpApplication2 Interface](../../web-development-reference\native-code-api-reference/ihttpapplication2-interface.md)

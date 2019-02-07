@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IHttpSite::GetPerfCounterInfo Method
-Retrieves an [IHttpPerfCounterInfo](../../web-development-reference\webdev-native-api-reference/ihttpperfcounterinfo-interface.md) interface.  
+Retrieves an [IHttpPerfCounterInfo](../../web-development-reference\native-code-api-reference/ihttpperfcounterinfo-interface.md) interface.  
   
 ## Syntax  
   
@@ -44,6 +44,6 @@ virtual IHttpPerfCounterInfo* GetPerfCounterInfo(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpSite Interface](../../web-development-reference\webdev-native-api-reference/ihttpsite-interface.md)   
- [IHttpPerfCounterInfo Interface](../../web-development-reference\webdev-native-api-reference/ihttpperfcounterinfo-interface.md)   
- [IHttpServer::GetPerfCounterInfo Method](../../web-development-reference\webdev-native-api-reference/ihttpserver-getperfcounterinfo-method.md)
+ [IHttpSite Interface](../../web-development-reference\native-code-api-reference/ihttpsite-interface.md)   
+ [IHttpPerfCounterInfo Interface](../../web-development-reference\native-code-api-reference/ihttpperfcounterinfo-interface.md)   
+ [IHttpServer::GetPerfCounterInfo Method](../../web-development-reference\native-code-api-reference/ihttpserver-getperfcounterinfo-method.md)

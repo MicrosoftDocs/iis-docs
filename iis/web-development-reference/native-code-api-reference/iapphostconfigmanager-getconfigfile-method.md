@@ -30,7 +30,7 @@ HRESULT GetConfigFile(
  A `BSTR` that contains the configuration file path being requested.  
   
  `ppConfigFile`  
- A pointer to a pointer for an [IAppHostConfigFile](../../web-development-reference\webdev-native-api-reference/iapphostconfigfile-interface.md) interface.  
+ A pointer to a pointer for an [IAppHostConfigFile](../../web-development-reference\native-code-api-reference/iapphostconfigfile-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -57,4 +57,4 @@ HRESULT GetConfigFile(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostConfigManager Interface](../../web-development-reference\webdev-native-api-reference/iapphostconfigmanager-interface.md)
+ [IAppHostConfigManager Interface](../../web-development-reference\native-code-api-reference/iapphostconfigmanager-interface.md)

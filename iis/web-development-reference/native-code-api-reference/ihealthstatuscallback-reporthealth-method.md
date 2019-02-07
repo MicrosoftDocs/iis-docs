@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IHealthStatusCallback::ReportHealth Method
-Allows a protocol manager to report its current health status in response to a query from the [IPmHealthAndIdleMonitor::CheckHealth](../../web-development-reference\webdev-native-api-reference/ipmhealthandidlemonitor-checkhealth-method.md) method.  
+Allows a protocol manager to report its current health status in response to a query from the [IPmHealthAndIdleMonitor::CheckHealth](../../web-development-reference\native-code-api-reference/ipmhealthandidlemonitor-checkhealth-method.md) method.  
   
 ## Syntax  
   
@@ -46,5 +46,5 @@ virtual HRESULT ReportHealth(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IHealthStatusCallback Interface](../../web-development-reference\webdev-native-api-reference/ihealthstatuscallback-interface.md)   
- [IPmHealthAndIdleMonitor::CheckHealth Method](../../web-development-reference\webdev-native-api-reference/ipmhealthandidlemonitor-checkhealth-method.md)
+ [IHealthStatusCallback Interface](../../web-development-reference\native-code-api-reference/ihealthstatuscallback-interface.md)   
+ [IPmHealthAndIdleMonitor::CheckHealth Method](../../web-development-reference\native-code-api-reference/ipmhealthandidlemonitor-checkhealth-method.md)

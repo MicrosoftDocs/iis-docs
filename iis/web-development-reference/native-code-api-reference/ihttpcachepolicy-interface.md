@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IHttpCachePolicy Interface
-Provides [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) derived classes access to the setting and getting policy for request caching.  
+Provides [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes access to the setting and getting policy for request caching.  
   
 ## Syntax  
   
@@ -25,20 +25,20 @@ class IHttpCachePolicy
   
 |Name|Description|  
 |----------|-----------------|  
-|[AppendVaryByHeader](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-appendvarybyheader-method.md)|Appends the header value to the cache policy.|  
-|[AppendVaryByQueryString](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-appendvarybyquerystring-method.md)|Appends the query value to the cache policy.|  
-|[DisableUserCache](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-disableusercache-method.md)|Disables user caching for the cache policy.|  
-|[GetKernelCacheInvalidatorSet](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-getkernelcacheinvalidatorset.md)|Gets a value that indicates whether the kernel cache is invalidated.|  
-|[GetKernelCachePolicy](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-getkernelcachepolicy-method.md)|Returns the cache policy for the kernel.|  
-|[GetUserCachePolicy](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-getusercachepolicy-method.md)|Returns the cache policy for the user.|  
-|[GetVaryByHeaders](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-getvarybyheaders-method.md)|Returns the custom header values for the cache policy.|  
-|[GetVaryByQueryStrings](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-getvarybyquerystrings-method.md)|Returns the custom query values for the cache policy.|  
-|[GetVaryByValue](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-getvarybyvalue-method.md)|Returns the variable value for the cache policy.|  
-|[IsCached](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-iscached-method.md)|Returns a value that indicates whether the cache policy is enabled.|  
-|[IsUserCacheEnabled](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-isusercacheenabled-method.md)|Returns a value that indicates whether user caching is enabled for the cache policy.|  
-|[SetIsCached](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-setiscached-method.md)|Sets a value that indicates that the data is cached.|  
-|[SetKernelCacheInvalidatorSet](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-setkernelcacheinvalidatorset-method.md)|Sets a value that indicates that the kernel cache is invalidated.|  
-|[SetVaryByValue](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-setvarybyvalue-method.md)|Sets the variable value for the cache policy.|  
+|[AppendVaryByHeader](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-appendvarybyheader-method.md)|Appends the header value to the cache policy.|  
+|[AppendVaryByQueryString](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-appendvarybyquerystring-method.md)|Appends the query value to the cache policy.|  
+|[DisableUserCache](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-disableusercache-method.md)|Disables user caching for the cache policy.|  
+|[GetKernelCacheInvalidatorSet](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-getkernelcacheinvalidatorset.md)|Gets a value that indicates whether the kernel cache is invalidated.|  
+|[GetKernelCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-getkernelcachepolicy-method.md)|Returns the cache policy for the kernel.|  
+|[GetUserCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-getusercachepolicy-method.md)|Returns the cache policy for the user.|  
+|[GetVaryByHeaders](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-getvarybyheaders-method.md)|Returns the custom header values for the cache policy.|  
+|[GetVaryByQueryStrings](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-getvarybyquerystrings-method.md)|Returns the custom query values for the cache policy.|  
+|[GetVaryByValue](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-getvarybyvalue-method.md)|Returns the variable value for the cache policy.|  
+|[IsCached](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-iscached-method.md)|Returns a value that indicates whether the cache policy is enabled.|  
+|[IsUserCacheEnabled](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-isusercacheenabled-method.md)|Returns a value that indicates whether user caching is enabled for the cache policy.|  
+|[SetIsCached](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-setiscached-method.md)|Sets a value that indicates that the data is cached.|  
+|[SetKernelCacheInvalidatorSet](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-setkernelcacheinvalidatorset-method.md)|Sets a value that indicates that the kernel cache is invalidated.|  
+|[SetVaryByValue](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-setvarybyvalue-method.md)|Sets the variable value for the cache policy.|  
   
 ## Properties  
  This class contains no properties.  
@@ -47,13 +47,13 @@ class IHttpCachePolicy
   
 |Name|Description|  
 |----------|-----------------|  
-|[IHttpCachePolicy2](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy2-interface.md)|Provides [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) derived classes access to the setting and getting policy for request caching.|  
+|[IHttpCachePolicy2](../../web-development-reference\native-code-api-reference/ihttpcachepolicy2-interface.md)|Provides [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes access to the setting and getting policy for request caching.|  
   
 ## Remarks  
- [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method.  
+ [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events, and then sets `IHttpCachePolicy` data and returns that data to the browser as an XML document.  
+ The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events, and then sets `IHttpCachePolicy` data and returns that data to the browser as an XML document.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpCachePolicy#1](IHttpCachePolicy#1)]  -->  
   
@@ -92,4 +92,4 @@ class IHttpCachePolicy
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)

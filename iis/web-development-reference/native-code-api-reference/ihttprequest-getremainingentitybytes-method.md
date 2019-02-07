@@ -29,14 +29,14 @@ virtual DWORD GetRemainingEntityBytes(
  A `DWORD` that contains the number of bytes of data that remain to be read.  
   
 ## Remarks  
- The `GetRemainingEntityBytes` method determines the size of the remaining data bytes in the current request. For example, if you created a module that used the [IHttpRequest::ReadEntityBody](../../web-development-reference\webdev-native-api-reference/ihttprequest-readentitybody-method.md) method to retrieve a partial segment of the current request, you would use the `GetRemainingEntityBytes` method to determine the amount of data that is left in the request for processing.  
+ The `GetRemainingEntityBytes` method determines the size of the remaining data bytes in the current request. For example, if you created a module that used the [IHttpRequest::ReadEntityBody](../../web-development-reference\native-code-api-reference/ihttprequest-readentitybody-method.md) method to retrieve a partial segment of the current request, you would use the `GetRemainingEntityBytes` method to determine the amount of data that is left in the request for processing.  
   
 ## Example  
  The following code example demonstrates how to use the `GetRemainingEntityBytes` method to create an HTTP module that retrieves the number of bytes to be read from the client.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpRequestGetRemainingEntityBytes#1](IHttpRequestGetRemainingEntityBytes#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -50,6 +50,6 @@ virtual DWORD GetRemainingEntityBytes(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpRequest Interface](../../web-development-reference\webdev-native-api-reference/ihttprequest-interface.md)   
- [IHttpRequest::ReadEntityBody Method](../../web-development-reference\webdev-native-api-reference/ihttprequest-readentitybody-method.md)   
- [IHttpRequest::InsertEntityBody Method](../../web-development-reference\webdev-native-api-reference/ihttprequest-insertentitybody-method.md)
+ [IHttpRequest Interface](../../web-development-reference\native-code-api-reference/ihttprequest-interface.md)   
+ [IHttpRequest::ReadEntityBody Method](../../web-development-reference\native-code-api-reference/ihttprequest-readentitybody-method.md)   
+ [IHttpRequest::InsertEntityBody Method](../../web-development-reference\native-code-api-reference/ihttprequest-insertentitybody-method.md)

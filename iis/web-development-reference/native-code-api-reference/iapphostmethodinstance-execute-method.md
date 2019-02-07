@@ -38,4 +38,4 @@ HRESULT Execute(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostMethodInstance Interface](../../web-development-reference\webdev-native-api-reference/iapphostmethodinstance-interface.md)
+ [IAppHostMethodInstance Interface](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-interface.md)

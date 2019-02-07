@@ -16,13 +16,13 @@ manager: "wpickett"
 This section of the IIS SDK discusses the APIs that are available to native-code developers in IIS 7 and IIS 8.  
   
 ## In This Section  
- [Native-Code Administration API Reference](../../web-development-reference\webdev-native-api-reference/native-code-administration-api-reference.md)  
+ [Native-Code Administration API Reference](../../web-development-reference\native-code-api-reference/native-code-administration-api-reference.md)  
  Describes the API that developers use to administer a Web server running IIS.  
   
- [Native-Code Architecture API Reference](../../web-development-reference\webdev-native-api-reference/native-code-architecture-api-reference.md)  
+ [Native-Code Architecture API Reference](../../web-development-reference\native-code-api-reference/native-code-architecture-api-reference.md)  
  Describes the API that defines the core architecture for IIS.  
   
- [Native-Code Extensibility API Reference](../../web-development-reference\webdev-native-api-reference/native-code-extensibility-api-reference.md)  
+ [Native-Code Extensibility API Reference](../../web-development-reference\native-code-api-reference/native-code-extensibility-api-reference.md)  
  Describes the API that developers use to extend the functionality of IIS.  
   
 ## See Also  

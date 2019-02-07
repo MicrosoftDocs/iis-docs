@@ -28,12 +28,12 @@ interface IAppHostPropertyException : public IAppHostConfigException
   
 |Property|Description|  
 |--------------|-----------------|  
-|[InvalidValue](../../web-development-reference\webdev-native-api-reference/iapphostpropertyexception-invalidvalue-method.md)|Gets the property value that did not meet the validation criteria.|  
-|[ValidationFailureParameters](../../web-development-reference\webdev-native-api-reference/iapphostpropertyexception-validationfailureparameters-property.md)|Gets the validation parameters that are defined in the property schema.|  
-|[ValidationFailureReason](../../web-development-reference\webdev-native-api-reference/iapphostpropertyexception-validationfailurereason-property.md)|Gets the reason that the value of the `InvalidValue` property did not validate against the value of the [IAppHostPropertySchema::ValidationParameter](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-validationparameter-property.md) property.|  
+|[InvalidValue](../../web-development-reference\native-code-api-reference/iapphostpropertyexception-invalidvalue-method.md)|Gets the property value that did not meet the validation criteria.|  
+|[ValidationFailureParameters](../../web-development-reference\native-code-api-reference/iapphostpropertyexception-validationfailureparameters-property.md)|Gets the validation parameters that are defined in the property schema.|  
+|[ValidationFailureReason](../../web-development-reference\native-code-api-reference/iapphostpropertyexception-validationfailurereason-property.md)|Gets the reason that the value of the `InvalidValue` property did not validate against the value of the [IAppHostPropertySchema::ValidationParameter](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-validationparameter-property.md) property.|  
   
 ## Inheritance Hierarchy  
- [IAppHostConfigException](../../web-development-reference\webdev-native-api-reference/iapphostconfigexception-interface.md)  
+ [IAppHostConfigException](../../web-development-reference\native-code-api-reference/iapphostconfigexception-interface.md)  
   
  `IAppHostPropertyException`  
   
@@ -47,5 +47,5 @@ interface IAppHostPropertyException : public IAppHostConfigException
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)   
- [IAppHostConfigException Interface](../../web-development-reference\webdev-native-api-reference/iapphostconfigexception-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostConfigException Interface](../../web-development-reference\native-code-api-reference/iapphostconfigexception-interface.md)

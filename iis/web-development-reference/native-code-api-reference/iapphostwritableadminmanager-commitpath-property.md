@@ -42,7 +42,7 @@ HRESULT put_CommitPath(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Example  
- The following code example demonstrates how to set the `CommitPath` property, change the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration, and then use the [IAppHostWritableAdminManager::CommitChanges](../../web-development-reference\webdev-native-api-reference/iapphostwritableadminmanager-commitchanges-method.md) method to commit those changes to the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
+ The following code example demonstrates how to set the `CommitPath` property, change the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration, and then use the [IAppHostWritableAdminManager::CommitChanges](../../web-development-reference\native-code-api-reference/iapphostwritableadminmanager-commitchanges-method.md) method to commit those changes to the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
   
 <!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#4](IAppHostAdminLibrary#4)]  -->  
   
@@ -56,4 +56,4 @@ HRESULT put_CommitPath(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostWritableAdminManager Interface](../../web-development-reference\webdev-native-api-reference/iapphostwritableadminmanager-interface.md)
+ [IAppHostWritableAdminManager Interface](../../web-development-reference\native-code-api-reference/iapphostwritableadminmanager-interface.md)

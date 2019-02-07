@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostMethodCollection::Item Property
-Gets the [IAppHostMethod Interface](../../web-development-reference\webdev-native-api-reference/iapphostmethod-interface.md) that is specified by the requested index.  
+Gets the [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md) that is specified by the requested index.  
   
 ## Syntax  
   
@@ -48,5 +48,5 @@ Gets the [IAppHostMethod Interface](../../web-development-reference\webdev-nativ
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostMethodCollection Interface](../../web-development-reference\webdev-native-api-reference/iapphostmethodcollection-interface.md)   
- [IAppHostMethod Interface](../../web-development-reference\webdev-native-api-reference/iapphostmethod-interface.md)
+ [IAppHostMethodCollection Interface](../../web-development-reference\native-code-api-reference/iapphostmethodcollection-interface.md)   
+ [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md)

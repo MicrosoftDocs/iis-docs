@@ -38,4 +38,4 @@ virtual VOID ReferenceMetadata(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IReferencedMetadataInfo Interface](../../web-development-reference\webdev-native-api-reference/ireferencedmetadatainfo-interface.md)
+ [IReferencedMetadataInfo Interface](../../web-development-reference\native-code-api-reference/ireferencedmetadatainfo-interface.md)

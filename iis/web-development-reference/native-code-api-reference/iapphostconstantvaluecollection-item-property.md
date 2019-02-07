@@ -28,7 +28,7 @@ Gets the constant value at the specified index.
  A `VARIANT` that represents the constant value to retrieve. If the `VARIANT` is of type integer, the index is a zero-based index to the collection of IAppHostElement objects. If the `VARIANT` is of type string, it is the name of the constant value.  
   
  `ppConstantValue`  
- A pointer to a pointer of an [IAppHostConstantValue Interface](../../web-development-reference\webdev-native-api-reference/iapphostconstantvalue-interface.md) object that contains the constant value.  
+ A pointer to a pointer of an [IAppHostConstantValue Interface](../../web-development-reference\native-code-api-reference/iapphostconstantvalue-interface.md) object that contains the constant value.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -48,4 +48,4 @@ Gets the constant value at the specified index.
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostConstantValue Interface](../../web-development-reference\webdev-native-api-reference/iapphostconstantvalue-interface.md)
+ [IAppHostConstantValue Interface](../../web-development-reference\native-code-api-reference/iapphostconstantvalue-interface.md)

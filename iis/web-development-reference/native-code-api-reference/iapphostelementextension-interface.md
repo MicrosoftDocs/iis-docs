@@ -25,7 +25,7 @@ IAppHostElementExtension : public IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[ProvideElement](../../web-development-reference\webdev-native-api-reference/iapphostelementextension-provideelement-method.md)|Populates the supplied configuration element.|  
+|[ProvideElement](../../web-development-reference\native-code-api-reference/iapphostelementextension-provideelement-method.md)|Populates the supplied configuration element.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -53,5 +53,5 @@ IAppHostElementExtension : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)   
- [Application Host Administration API Reference](../../web-development-reference\webdev-native-api-reference/application-host-administration-api-reference.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
+ [Application Host Administration API Reference](../../web-development-reference\native-code-api-reference/application-host-administration-api-reference.md)

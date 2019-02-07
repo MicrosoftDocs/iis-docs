@@ -25,30 +25,30 @@ virtual REQUEST_NOTIFICATION_STATUS OnCustomRequestNotification(
   
 #### Parameters  
  `pHttpContext`  
- [IN] A pointer to an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) interface.  
+ [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   
  `pProvider`  
- [IN] A pointer to an [ICustomNotificationProvider](../../web-development-reference\webdev-native-api-reference/icustomnotificationprovider-interface.md) interface.  
+ [IN] A pointer to an [ICustomNotificationProvider](../../web-development-reference\native-code-api-reference/icustomnotificationprovider-interface.md) interface.  
   
 ## Return Value  
- A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\webdev-native-api-reference/request-notification-status-enumeration.md) value.  
+ A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) value.  
   
 ## Remarks  
- When a request-level module is registered for the [RQ_CUSTOM_NOTIFICATION](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) notification, IIS will call the module's `OnCustomRequestNotification` method when a custom notification is raised.  
+ When a request-level module is registered for the [RQ_CUSTOM_NOTIFICATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification, IIS will call the module's `OnCustomRequestNotification` method when a custom notification is raised.  
   
 > [!NOTE]
->  Request-level modules can register for a custom event notification by registering for `RQ_CUSTOM_NOTIFICATION` in the module's [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function.  
+>  Request-level modules can register for a custom event notification by registering for `RQ_CUSTOM_NOTIFICATION` in the module's [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that does the following:  
   
-1.  Registers for the [RQ_BEGIN_REQUEST](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) and `RQ_CUSTOM_NOTIFICATION` notifications.  
+1.  Registers for the [RQ_BEGIN_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md) and `RQ_CUSTOM_NOTIFICATION` notifications.  
   
-2.  Creates a [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) class that contains [OnBeginRequest](../../web-development-reference\webdev-native-api-reference/chttpmodule-onbeginrequest-method.md) and `OnCustomRequestNotification` methods.  
+2.  Creates a [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class that contains [OnBeginRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onbeginrequest-method.md) and `OnCustomRequestNotification` methods.  
   
-    -   `OnBeginRequest` writes an event to the Event Viewer that specifies the current notification. The method then creates an instance of an `ICustomNotificationProvider` interface and raises the custom notification by using the [IHttpContext::NotifyCustomNotification](../../web-development-reference\webdev-native-api-reference/ihttpcontext-notifycustomnotification-method.md) method.  
+    -   `OnBeginRequest` writes an event to the Event Viewer that specifies the current notification. The method then creates an instance of an `ICustomNotificationProvider` interface and raises the custom notification by using the [IHttpContext::NotifyCustomNotification](../../web-development-reference\native-code-api-reference/ihttpcontext-notifycustomnotification-method.md) method.  
   
-    -   `OnCustomRequestNotification` uses the [ICustomNotificationProvider::QueryNotificationType](../../web-development-reference\webdev-native-api-reference/icustomnotificationprovider-querynotificationtype-method.md) method to retrieve the unique identifier for the custom notification. If the unique identifier matches, `OnCustomRequestNotification` writes an event to the Event Viewer that specifies the custom notification.  
+    -   `OnCustomRequestNotification` uses the [ICustomNotificationProvider::QueryNotificationType](../../web-development-reference\native-code-api-reference/icustomnotificationprovider-querynotificationtype-method.md) method to retrieve the unique identifier for the custom notification. If the unique identifier matches, `OnCustomRequestNotification` writes an event to the Event Viewer that specifies the custom notification.  
   
 3.  Removes the `CHttpModule` class from memory and then exits.  
   
@@ -68,4 +68,4 @@ virtual REQUEST_NOTIFICATION_STATUS OnCustomRequestNotification(
 |Header|Httpserv.h|  
   
 ## See Also  
- [CHttpModule Class](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md)
+ [CHttpModule Class](../../web-development-reference\native-code-api-reference/chttpmodule-class.md)

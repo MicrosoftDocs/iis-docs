@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostMethod Interface
-Provides access to a custom method that is optionally supported on an [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) object.  
+Provides access to a custom method that is optionally supported on an [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object.  
   
 ## Syntax  
   
@@ -25,18 +25,18 @@ interface IAppHostMethod : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IAppHostMethod::CreateInstance Method](../../web-development-reference\webdev-native-api-reference/iapphostmethod-createinstance-method.md)|Creates an executable  [IAppHostMethodInstance Interface](../../web-development-reference\webdev-native-api-reference/iapphostmethodinstance-interface.md) object from the current method.|  
+|[IAppHostMethod::CreateInstance Method](../../web-development-reference\native-code-api-reference/iapphostmethod-createinstance-method.md)|Creates an executable  [IAppHostMethodInstance Interface](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-interface.md) object from the current method.|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostMethod` interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[IAppHostMethod::Name Property](../../web-development-reference\webdev-native-api-reference/iapphostmethod-name-property.md)|Gets the name of the method.|  
-|[IAppHostMethod::Schema Property](../../web-development-reference\webdev-native-api-reference/iapphostmethod-schema-property.md)|Gets the schema assigned to the current method.|  
+|[IAppHostMethod::Name Property](../../web-development-reference\native-code-api-reference/iapphostmethod-name-property.md)|Gets the name of the method.|  
+|[IAppHostMethod::Schema Property](../../web-development-reference\native-code-api-reference/iapphostmethod-schema-property.md)|Gets the schema assigned to the current method.|  
   
 ## Remarks  
- [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) objects provide a means for an administration system to support custom-defined methods that can be executed against a specific [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) object. The methods are executed on the server side and the implementation of these custom methods is not exposed to the client.  
+ [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) objects provide a means for an administration system to support custom-defined methods that can be executed against a specific [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object. The methods are executed on the server side and the implementation of these custom methods is not exposed to the client.  
   
 ## Inheritance Hierarchy  
  [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -53,7 +53,7 @@ interface IAppHostMethod : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)   
- [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md)   
- [IAppHostMethodInstance Interface](../../web-development-reference\webdev-native-api-reference/iapphostmethodinstance-interface.md)   
- [IAppHostMethodExtension Interface](../../web-development-reference\webdev-native-api-reference/iapphostmethodextension-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)   
+ [IAppHostMethodInstance Interface](../../web-development-reference\native-code-api-reference/iapphostmethodinstance-interface.md)   
+ [IAppHostMethodExtension Interface](../../web-development-reference\native-code-api-reference/iapphostmethodextension-interface.md)

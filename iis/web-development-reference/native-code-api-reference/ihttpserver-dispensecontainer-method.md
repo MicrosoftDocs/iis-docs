@@ -26,13 +26,13 @@ virtual IDispensedHttpModuleContextContainer* DispenseContainer(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [IDispensedHttpModuleContextContainer](../../web-development-reference\webdev-native-api-reference/idispensedhttpmodulecontextcontainer-interface.md).  
+ A pointer to an [IDispensedHttpModuleContextContainer](../../web-development-reference\native-code-api-reference/idispensedhttpmodulecontextcontainer-interface.md).  
   
 ## Remarks  
- [IHttpServer](../../web-development-reference\webdev-native-api-reference/ihttpserver-interface.md) implementers will typically return a `new``IDispensedHttpModuleContextContainer` that will call `delete` on itself when the [IDispensedHttpModuleContextContainer::ReleaseContainer](../../web-development-reference\webdev-native-api-reference/idispensedhttpmodulecontextcontainer-releasecontainer-method.md) method is called.  
+ [IHttpServer](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md) implementers will typically return a `new``IDispensedHttpModuleContextContainer` that will call `delete` on itself when the [IDispensedHttpModuleContextContainer::ReleaseContainer](../../web-development-reference\native-code-api-reference/idispensedhttpmodulecontextcontainer-releasecontainer-method.md) method is called.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events. This module defines a custom [IHttpStoredContext](../../web-development-reference\webdev-native-api-reference/ihttpstoredcontext-interface.md) class and then calls the `DispenseContainer` method with a `new` pointer to that custom class. The example then writes the custom data to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events. This module defines a custom [IHttpStoredContext](../../web-development-reference\native-code-api-reference/ihttpstoredcontext-interface.md) class and then calls the `DispenseContainer` method with a `new` pointer to that custom class. The example then writes the custom data to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
@@ -49,7 +49,7 @@ virtual IDispensedHttpModuleContextContainer* DispenseContainer(
   
  `DispensedContext::DispensedContext`  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  The `RegisterModule` calling convention must be stdcall. The best way to guarantee this is to explicitly declare `RegisterModule` with [__stdcall](http://go.microsoft.com/fwlink/?LinkId=107360).  
   
@@ -63,4 +63,4 @@ virtual IDispensedHttpModuleContextContainer* DispenseContainer(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference\webdev-native-api-reference/ihttpserver-interface.md)
+ [IHttpServer Interface](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md)

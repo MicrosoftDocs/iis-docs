@@ -48,4 +48,4 @@ virtual HRESULT GetChannelBindingToken(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpRequest2 Interface](../../web-development-reference\webdev-native-api-reference/ihttprequest2-interface.md)
+ [IHttpRequest2 Interface](../../web-development-reference\native-code-api-reference/ihttprequest2-interface.md)

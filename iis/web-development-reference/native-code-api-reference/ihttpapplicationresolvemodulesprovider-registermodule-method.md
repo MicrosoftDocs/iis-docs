@@ -33,7 +33,7 @@ virtual HRESULT RegisterModule(
  [IN] The unique identifier for the parent module.  
   
  `pModuleFactory`  
- [IN] A pointer to the [IHttpModuleFactory](../../web-development-reference\webdev-native-api-reference/ihttpmodulefactory-interface.md) interface for the HTTP module.  
+ [IN] A pointer to the [IHttpModuleFactory](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-interface.md) interface for the HTTP module.  
   
  `pszModuleName`  
  [IN] A pointer to a string that contains the name of the module to register.  
@@ -45,10 +45,10 @@ virtual HRESULT RegisterModule(
  [IN] A pointer to a string that contains any preconditions for the module.  
   
  `dwRequestNotifications`  
- [IN] A bitmask value that contains the request notifications to set for the module. (Defined in [Httpserv.h](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md).)  
+ [IN] A bitmask value that contains the request notifications to set for the module. (Defined in [Httpserv.h](../../web-development-reference\native-code-api-reference/request-processing-constants.md).)  
   
  `dwPostRequestNotifications`  
- [IN] A bitmask value that contains the post-request notifications to set for the module. (Defined in [Httpserv.h](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md).)  
+ [IN] A bitmask value that contains the post-request notifications to set for the module. (Defined in [Httpserv.h](../../web-development-reference\native-code-api-reference/request-processing-constants.md).)  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -61,10 +61,10 @@ virtual HRESULT RegisterModule(
 |ERROR_NOT_ENOUGH_MEMORY|Indicates that there is insufficient memory to perform the operation.|  
   
 ## Remarks  
- Use the `RegisterModule` method inside a [CGlobalModule::OnGlobalApplicationResolveModules](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobalapplicationresolvemodules-method.md) method to register additional modules that are not listed in the IIS configuration.  
+ Use the `RegisterModule` method inside a [CGlobalModule::OnGlobalApplicationResolveModules](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalapplicationresolvemodules-method.md) method to register additional modules that are not listed in the IIS configuration.  
   
 > [!NOTE]
->  Do not confuse the `RegisterModule` method with the exported [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function that is required for all HTTP modules.  
+>  Do not confuse the `RegisterModule` method with the exported [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function that is required for all HTTP modules.  
   
 ## Requirements  
   
@@ -76,4 +76,4 @@ virtual HRESULT RegisterModule(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpApplicationResolveModulesProvider Interface](../../web-development-reference\webdev-native-api-reference/ihttpapplicationresolvemodulesprovider-interface.md)
+ [IHttpApplicationResolveModulesProvider Interface](../../web-development-reference\native-code-api-reference/ihttpapplicationresolvemodulesprovider-interface.md)

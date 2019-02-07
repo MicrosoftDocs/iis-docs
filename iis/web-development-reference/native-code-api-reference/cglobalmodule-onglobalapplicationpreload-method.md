@@ -22,10 +22,10 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationPreload(   IN IGlobalAp
   
 #### Parameters  
  `pProvider`  
- [IN] A pointer to an [IGlobalApplicationPreloadProvider](../../web-development-reference\webdev-native-api-reference/iglobalapplicationpreloadprovider-interface.md) interface.  
+ [IN] A pointer to an [IGlobalApplicationPreloadProvider](../../web-development-reference\native-code-api-reference/iglobalapplicationpreloadprovider-interface.md) interface.  
   
 ## Return Value  
- A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference\webdev-native-api-reference/global-notification-status-enumeration.md) value.  
+ A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference\native-code-api-reference/global-notification-status-enumeration.md) value.  
   
 ## Remarks  
   
@@ -39,4 +39,4 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationPreload(   IN IGlobalAp
 |Header|Httpserv.h|  
   
 ## See Also  
- [CGlobalModule Class](../../web-development-reference\webdev-native-api-reference/cglobalmodule-class.md)
+ [CGlobalModule Class](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md)

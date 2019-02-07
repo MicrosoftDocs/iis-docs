@@ -50,5 +50,5 @@ virtual VOID FailWorkerProcess(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IWpfActions Interface](../../web-development-reference\webdev-native-api-reference/iwpfactions-interface.md)   
- [IWpfActions::RecycleWorkerProcess Method](../../web-development-reference\webdev-native-api-reference/iwpfactions-recycleworkerprocess-method.md)
+ [IWpfActions Interface](../../web-development-reference\native-code-api-reference/iwpfactions-interface.md)   
+ [IWpfActions::RecycleWorkerProcess Method](../../web-development-reference\native-code-api-reference/iwpfactions-recycleworkerprocess-method.md)

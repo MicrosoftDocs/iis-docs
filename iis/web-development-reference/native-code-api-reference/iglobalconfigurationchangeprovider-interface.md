@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IGlobalConfigurationChangeProvider Interface
-Provides a global-level interface for [GL_CONFIGURATION_CHANGE](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) notifications.  
+Provides a global-level interface for [GL_CONFIGURATION_CHANGE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notifications.  
   
 ## Syntax  
   
@@ -25,17 +25,17 @@ class IGlobalConfigurationChangeProvider : public IHttpEventProvider
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetChangePath](../../web-development-reference\webdev-native-api-reference/iglobalconfigurationchangeprovider-getchangepath-method.md)|Returns the path of a configuration change.|  
-|[SetErrorStatus](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md).)|  
+|[GetChangePath](../../web-development-reference\native-code-api-reference/iglobalconfigurationchangeprovider-getchangepath-method.md)|Returns the path of a configuration change.|  
+|[SetErrorStatus](../../web-development-reference\native-code-api-reference/ihttpeventprovider-seterrorstatus-method.md)|(Inherited from [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md).)|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Remarks  
- An `IGlobalConfigurationChangeProvider` interface is created and passed to a module's [CGlobalModule::OnGlobalConfigurationChange](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobalconfigurationchange-method.md) method when the module has registered for the [GL_CONFIGURATION_CHANGE](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function.  
+ An `IGlobalConfigurationChangeProvider` interface is created and passed to a module's [CGlobalModule::OnGlobalConfigurationChange](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalconfigurationchange-method.md) method when the module has registered for the [GL_CONFIGURATION_CHANGE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notification in the module's exported [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Inheritance Hierarchy  
- [IHttpEventProvider](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md)  
+ [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)  
   
  `IGlobalConfigurationChangeProvider`  
   
@@ -49,7 +49,7 @@ class IGlobalConfigurationChangeProvider : public IHttpEventProvider
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)   
- [CGlobalModule::OnGlobalConfigurationChange Method](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobalconfigurationchange-method.md)   
- [IHttpEventProvider Interface](../../web-development-reference\webdev-native-api-reference/ihttpeventprovider-interface.md)   
- [PFN_REGISTERMODULE Function](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)   
+ [CGlobalModule::OnGlobalConfigurationChange Method](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalconfigurationchange-method.md)   
+ [IHttpEventProvider Interface](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md)   
+ [PFN_REGISTERMODULE Function](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md)

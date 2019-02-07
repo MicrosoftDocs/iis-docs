@@ -24,7 +24,7 @@ virtual HRESULT CheckHealth(
   
 #### Parameters  
  `pIHealthStatusCallback`  
- A pointer to an [IHealthStatusCallback](../../web-development-reference\webdev-native-api-reference/ihealthstatuscallback-interface.md) interface.  
+ A pointer to an [IHealthStatusCallback](../../web-development-reference\native-code-api-reference/ihealthstatuscallback-interface.md) interface.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -46,6 +46,6 @@ virtual HRESULT CheckHealth(
 |Header|Wpframework.h|  
   
 ## See Also  
- [IPmHealthAndIdleMonitor Interface](../../web-development-reference\webdev-native-api-reference/ipmhealthandidlemonitor-interface.md)   
- [IHealthStatusCallback Interface](../../web-development-reference\webdev-native-api-reference/ihealthstatuscallback-interface.md)   
- [IPmHealthAndIdleMonitor::CheckIdle Method](../../web-development-reference\webdev-native-api-reference/ipmhealthandidlemonitor-checkidle-method.md)
+ [IPmHealthAndIdleMonitor Interface](../../web-development-reference\native-code-api-reference/ipmhealthandidlemonitor-interface.md)   
+ [IHealthStatusCallback Interface](../../web-development-reference\native-code-api-reference/ihealthstatuscallback-interface.md)   
+ [IPmHealthAndIdleMonitor::CheckIdle Method](../../web-development-reference\native-code-api-reference/ipmhealthandidlemonitor-checkidle-method.md)

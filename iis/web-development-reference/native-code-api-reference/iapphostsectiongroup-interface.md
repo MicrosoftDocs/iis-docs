@@ -25,19 +25,19 @@ interface IAppHostSectionGroup : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[AddSectionGroup](../../web-development-reference\webdev-native-api-reference/iapphostsectiongroup-addsectiongroup-method.md)|Adds a new nested configuration section group under the current configuration section group.|  
-|[DeleteSectionGroup](../../web-development-reference\webdev-native-api-reference/iapphostsectiongroup-deletesectiongroup-method.md)|Removes a configuration section group that is nested under the current configuration section group.|  
+|[AddSectionGroup](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-addsectiongroup-method.md)|Adds a new nested configuration section group under the current configuration section group.|  
+|[DeleteSectionGroup](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-deletesectiongroup-method.md)|Removes a configuration section group that is nested under the current configuration section group.|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostSectionGroup` interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[Count](../../web-development-reference\webdev-native-api-reference/iapphostsectiongroup-count-property.md)|Gets the current number of configuration section groups that are nested in the current section group.|  
-|[Item](../../web-development-reference\webdev-native-api-reference/iapphostsectiongroup-item-property.md)|Gets the nested configuration section group at the requested index.|  
-|[Name](../../web-development-reference\webdev-native-api-reference/iapphostsectiongroup-name-property.md)|Gets the name of the configuration section group.|  
-|[Sections](../../web-development-reference\webdev-native-api-reference/iapphostsectiongroup-sections-property.md)|Gets a configuration section definition collection that contains all the section definitions in the current configuration section group.|  
-|[Type](../../web-development-reference\webdev-native-api-reference/iapphostsectiongroup-type-property.md)|Gets the type name of the configuration section group.|  
+|[Count](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-count-property.md)|Gets the current number of configuration section groups that are nested in the current section group.|  
+|[Item](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-item-property.md)|Gets the nested configuration section group at the requested index.|  
+|[Name](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-name-property.md)|Gets the name of the configuration section group.|  
+|[Sections](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-sections-property.md)|Gets a configuration section definition collection that contains all the section definitions in the current configuration section group.|  
+|[Type](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-type-property.md)|Gets the type name of the configuration section group.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -54,4 +54,4 @@ interface IAppHostSectionGroup : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)

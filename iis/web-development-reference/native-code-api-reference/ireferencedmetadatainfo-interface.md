@@ -25,14 +25,14 @@ class IReferencedMetadataInfo : public IMetadataInfo
   
 |Name|Description|  
 |----------|-----------------|  
-|[ReferenceMetadata](../../web-development-reference\webdev-native-api-reference/ireferencedmetadatainfo-referencemetadata-method.md)|References the metadata of the current context for later retrieval.|  
-|[DereferenceMetadata](../../web-development-reference\webdev-native-api-reference/ireferencedmetadatainfo-dereferencemetadata-method.md)|Releases the referenced context metadata.|  
+|[ReferenceMetadata](../../web-development-reference\native-code-api-reference/ireferencedmetadatainfo-referencemetadata-method.md)|References the metadata of the current context for later retrieval.|  
+|[DereferenceMetadata](../../web-development-reference\native-code-api-reference/ireferencedmetadatainfo-dereferencemetadata-method.md)|Releases the referenced context metadata.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
- [IMetadataInfo](../../web-development-reference\webdev-native-api-reference/imetadatainfo-interface.md)  
+ [IMetadataInfo](../../web-development-reference\native-code-api-reference/imetadatainfo-interface.md)  
   
  `IReferencedMetadataInfo`  
   
@@ -46,4 +46,4 @@ class IReferencedMetadataInfo : public IMetadataInfo
 |Header|Httpserv.h|  
   
 ## See Also  
- [Web Server Core Interfaces](../../web-development-reference\webdev-native-api-reference/web-server-core-interfaces.md)
+ [Web Server Core Interfaces](../../web-development-reference\native-code-api-reference/web-server-core-interfaces.md)

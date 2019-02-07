@@ -25,7 +25,7 @@ HRESULT get_Schema(
   
 #### Parameters  
  `ppSchema`  
- A pointer to a pointer for the [IAppHostPropertySchema](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-interface.md) interface that is associated with the current property.  
+ A pointer to a pointer for the [IAppHostPropertySchema](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) interface that is associated with the current property.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -35,7 +35,7 @@ HRESULT get_Schema(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- This property gets the schema that is used to validate values when the XML configuration is loaded and when the [IAppHostProperty::Value](../../web-development-reference\webdev-native-api-reference/iapphostproperty-value-property.md) property is set.  
+ This property gets the schema that is used to validate values when the XML configuration is loaded and when the [IAppHostProperty::Value](../../web-development-reference\native-code-api-reference/iapphostproperty-value-property.md) property is set.  
   
 ## Requirements  
   
@@ -47,4 +47,4 @@ HRESULT get_Schema(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostProperty Interface](../../web-development-reference\webdev-native-api-reference/iapphostproperty-interface.md)
+ [IAppHostProperty Interface](../../web-development-reference\native-code-api-reference/iapphostproperty-interface.md)

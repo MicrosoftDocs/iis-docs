@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IProcessHost::EnumerateAppDomains Method
-Retrieves a pointer to an [IAppDomainInfoEnum](../../web-development-reference\webdev-native-api-reference/iappdomaininfoenum-interface.md) interface.  
+Retrieves a pointer to an [IAppDomainInfoEnum](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-interface.md) interface.  
   
 ## Syntax  
   
@@ -43,5 +43,5 @@ virtual HRESULT __stdcall EnumerateAppDomains(
 |Header|Webhost.h|  
   
 ## See Also  
- [IProcessHost Interface](../../web-development-reference\webdev-native-api-reference/iprocesshost-interface.md)   
- [IAppDomainInfoEnum Interface](../../web-development-reference\webdev-native-api-reference/iappdomaininfoenum-interface.md)
+ [IProcessHost Interface](../../web-development-reference\native-code-api-reference/iprocesshost-interface.md)   
+ [IAppDomainInfoEnum Interface](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-interface.md)

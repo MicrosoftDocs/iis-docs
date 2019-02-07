@@ -29,13 +29,13 @@ virtual PCSTR GetVaryByValue(
  A null-terminated `PCSTR` that contains the variable cache-policy value.  
   
 ## Remarks  
- [CHttpModule](../../web-development-reference\webdev-native-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\webdev-native-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. Call the [IHttpContext::GetResponse](../../web-development-reference\webdev-native-api-reference/ihttpcontext-getresponse-method.md) method, then the [IHttpResponse::GetCachePolicy](../../web-development-reference\webdev-native-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `GetVaryByValue` method to set the variable value.  
+ [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. Call the [IHttpContext::GetResponse](../../web-development-reference\native-code-api-reference/ihttpcontext-getresponse-method.md) method, then the [IHttpResponse::GetCachePolicy](../../web-development-reference\native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `GetVaryByValue` method to set the variable value.  
   
  `GetVaryByValue` behavior depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
--   The current default implementer of the [IHttpCachePolicy](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` buffer that contains variable data. During the construction of an implementer, this buffer is initialized to empty.  
+-   The current default implementer of the [IHttpCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private` buffer that contains variable data. During the construction of an implementer, this buffer is initialized to empty.  
   
--   The [SetVaryByValue](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-setvarybyvalue-method.md) method returns E_INVALIDARG immediately if the supplied parameter is NULL. Otherwise, the internal buffer is expanded, if necessary, to hold the contents of the parameter, including the null-termination character. The parameter, followed by the null-termination character, is then copied into this buffer. Any data in the buffer before the call to `SetVaryByValue` is overwritten during the call to `SetVaryByValue`.  
+-   The [SetVaryByValue](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-setvarybyvalue-method.md) method returns E_INVALIDARG immediately if the supplied parameter is NULL. Otherwise, the internal buffer is expanded, if necessary, to hold the contents of the parameter, including the null-termination character. The parameter, followed by the null-termination character, is then copied into this buffer. Any data in the buffer before the call to `SetVaryByValue` is overwritten during the call to `SetVaryByValue`.  
   
 -   `GetVaryByValue` returns the current value of this buffer.  
   
@@ -46,7 +46,7 @@ virtual PCSTR GetVaryByValue(
  `IHttpCachePolicy` implementers are responsible for memory management with this data; therefore, `IHttpCachePolicy` clients must not release or call `delete` on the returned `PCSTR` pointer when this data is no longer needed. Furthermore, clients must not cast this data to a pointer that is not a `const` or change the state of the memory referenced by this `PCSTR`, because an access violation will be thrown or the data will become invalid.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events. The module then retrieves an `IHttpCachePolicy` pointer and writes variable information to the response stream.  
+ The following code example demonstrates how to create a global module that listens for [RQ_BEGIN_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md) and [RQ_SEND_RESPONSE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events. The module then retrieves an `IHttpCachePolicy` pointer and writes variable information to the response stream.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpCachePolicy#9](IHttpCachePolicy#9)]  -->  
   
@@ -70,4 +70,4 @@ Vary-by-Value:
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCachePolicy Interface](../../web-development-reference\webdev-native-api-reference/ihttpcachepolicy-interface.md)
+ [IHttpCachePolicy Interface](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md)

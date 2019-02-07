@@ -28,11 +28,11 @@ IAppHostSectionDefinition : public IUnknown
   
 |Property|Description|  
 |--------------|-----------------|  
-|[AllowDefinition](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinition-allowdefinition-property.md)|Gets or sets a value that indicates valid configuration path locations for the configuration section.|  
-|[AllowLocation](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinition-allowlocation-property.md)|Gets or sets a value that indicates whether the configuration section allows the location attribute.|  
-|[Name](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinition-name-property.md)|Gets the name of the current configuration section definition.|  
-|[OverrideModeDefault](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinition-overridemodedefault-property.md)|Gets or sets the default override behavior for the current configuration section.|  
-|[Type](../../web-development-reference\webdev-native-api-reference/iapphostsectiondefinition-type-property.md)|Gets the type name of a class that represents the current configuration section.|  
+|[AllowDefinition](../../web-development-reference\native-code-api-reference/iapphostsectiondefinition-allowdefinition-property.md)|Gets or sets a value that indicates valid configuration path locations for the configuration section.|  
+|[AllowLocation](../../web-development-reference\native-code-api-reference/iapphostsectiondefinition-allowlocation-property.md)|Gets or sets a value that indicates whether the configuration section allows the location attribute.|  
+|[Name](../../web-development-reference\native-code-api-reference/iapphostsectiondefinition-name-property.md)|Gets the name of the current configuration section definition.|  
+|[OverrideModeDefault](../../web-development-reference\native-code-api-reference/iapphostsectiondefinition-overridemodedefault-property.md)|Gets or sets the default override behavior for the current configuration section.|  
+|[Type](../../web-development-reference\native-code-api-reference/iapphostsectiondefinition-type-property.md)|Gets the type name of a class that represents the current configuration section.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -49,4 +49,4 @@ IAppHostSectionDefinition : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)

@@ -38,4 +38,4 @@ virtual DWORD GetCompletedOperation(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpCompletionInfo2 Interface](../../web-development-reference\webdev-native-api-reference/ihttpcompletioninfo2-interface.md)
+ [IHttpCompletionInfo2 Interface](../../web-development-reference\native-code-api-reference/ihttpcompletioninfo2-interface.md)

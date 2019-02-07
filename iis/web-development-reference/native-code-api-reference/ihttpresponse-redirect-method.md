@@ -47,7 +47,7 @@ virtual HRESULT Redirect(
  When the `fResetStatusCode` parameter is `true`, the `Redirect` method automatically redirects a client to a URL specified by the `pszUrl` parameter. When `fResetStatusCode` is `false`, the `Redirect` method returns an HTML message stating that the URL has moved to the new location. If the URL specified by the `pszUrl` parameter is a relative path, the URL will be converted to an absolute URL within the request domain.  
   
 > [!NOTE]
->  If you do not return [RQ_NOTIFICATION_FINISH_REQUEST](../../web-development-reference\webdev-native-api-reference/request-notification-status-enumeration.md) from your module after you call the `Redirect` method, the `Redirect` method will not automatically clear the response buffer. In this situation, subsequent processing may add information to the response buffer, and you may receive unexpected results if you do not manually clear the response.  
+>  If you do not return [RQ_NOTIFICATION_FINISH_REQUEST](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) from your module after you call the `Redirect` method, the `Redirect` method will not automatically clear the response buffer. In this situation, subsequent processing may add information to the response buffer, and you may receive unexpected results if you do not manually clear the response.  
   
 > [!NOTE]
 >  The `Redirect` method does not flush the response entity to the client, and any data in the response will be removed when you call the `Redirect` method. If the response has already been flushed to the client, IIS will have sent the existing headers and data to the client, and the `Redirect` method will not redirect the client to the new URL.  
@@ -57,7 +57,7 @@ virtual HRESULT Redirect(
   
 <!-- TODO: review snippet reference  [!CODE [IHttpResponseRedirect#1](IHttpResponseRedirect#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -71,4 +71,4 @@ virtual HRESULT Redirect(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpResponse Interface](../../web-development-reference\webdev-native-api-reference/ihttpresponse-interface.md)
+ [IHttpResponse Interface](../../web-development-reference\native-code-api-reference/ihttpresponse-interface.md)

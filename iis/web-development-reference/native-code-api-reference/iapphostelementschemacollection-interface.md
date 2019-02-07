@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostElementSchemaCollection Interface
-Represents a collection of [IAppHostElementSchema](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-interface.md) objects.  
+Represents a collection of [IAppHostElementSchema](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) objects.  
   
 ## Syntax  
   
@@ -21,12 +21,12 @@ interface IAppHostElementSchemaCollection : IUnknown
 ```  
   
 ## Properties  
- The following table lists the properties exposed by the [IAppHostElementSchemaCollection](../../web-development-reference\webdev-native-api-reference/iapphostelementschemacollection-interface.md) interface.  
+ The following table lists the properties exposed by the [IAppHostElementSchemaCollection](../../web-development-reference\native-code-api-reference/iapphostelementschemacollection-interface.md) interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[Count](../../web-development-reference\webdev-native-api-reference/iapphostelementschemacollection-count-property.md)|Gets the number of element schemas in the current collection.|  
-|[Item](../../web-development-reference\webdev-native-api-reference/iapphostelementschemacollection-item-property.md)|Gets the element schema at the requested index in the current collection.|  
+|[Count](../../web-development-reference\native-code-api-reference/iapphostelementschemacollection-count-property.md)|Gets the number of element schemas in the current collection.|  
+|[Item](../../web-development-reference\native-code-api-reference/iapphostelementschemacollection-item-property.md)|Gets the element schema at the requested index in the current collection.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -43,5 +43,5 @@ interface IAppHostElementSchemaCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)   
- [IAppHostElementSchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md)

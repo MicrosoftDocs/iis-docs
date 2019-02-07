@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # ICustomAction2ResultCallback Interface
-Reports the results of a `RegisterCustomAction` or `UnregisterCustomAction` operation that was requested by the [IPmCustomActions2](../../web-development-reference\webdev-native-api-reference/ipmcustomactions2-interface.md) interface.  
+Reports the results of a `RegisterCustomAction` or `UnregisterCustomAction` operation that was requested by the [IPmCustomActions2](../../web-development-reference\native-code-api-reference/ipmcustomactions2-interface.md) interface.  
   
 ## Syntax  
   
@@ -25,12 +25,12 @@ class ICustomAction2ResultCallback : public IWpfReferencedObject
   
 |Name|Description|  
 |----------|-----------------|  
-|[ICustomAction2ResultCallback::ReportResult](../../web-development-reference\webdev-native-api-reference/icustomaction2resultcallback-reportresult-method.md)|Returns the results of a `RegisterCustomAction` or `UnregisterCustomAction` operation.|  
-|[IWpfReferencedObject::AddRef](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-addref-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md).)|  
-|[IWpfReferencedObject::Release](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md).)|  
+|[ICustomAction2ResultCallback::ReportResult](../../web-development-reference\native-code-api-reference/icustomaction2resultcallback-reportresult-method.md)|Returns the results of a `RegisterCustomAction` or `UnregisterCustomAction` operation.|  
+|[IWpfReferencedObject::AddRef](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-addref-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md).)|  
+|[IWpfReferencedObject::Release](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md).)|  
   
 ## Inheritance Hierarchy  
- [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md)  
+ [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md)  
   
  `ICustomActionResultCallback`  
   
@@ -44,4 +44,4 @@ class ICustomAction2ResultCallback : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
- [Worker Process and Protocol Manager Interfaces](../../web-development-reference\webdev-native-api-reference/worker-process-and-protocol-manager-interfaces.md)
+ [Worker Process and Protocol Manager Interfaces](../../web-development-reference\native-code-api-reference/worker-process-and-protocol-manager-interfaces.md)

@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IAppHostElementCollection Interface
-Represents a collection of [IAppHostElement](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md) interfaces.  
+Represents a collection of [IAppHostElement](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) interfaces.  
   
 ## Syntax  
   
@@ -25,19 +25,19 @@ interface IAppHostElementCollection : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[AddElement](../../web-development-reference\webdev-native-api-reference/iapphostelementcollection-addelement-method.md)|Adds an element to the current collection.|  
-|[Clear](../../web-development-reference\webdev-native-api-reference/iapphostelementcollection-clear-method.md)|Removes all elements from the current collection.|  
-|[CreateNewElement](../../web-development-reference\webdev-native-api-reference/iapphostelementcollection-createnewelement-method.md)|Creates a new element.|  
-|[DeleteElement](../../web-development-reference\webdev-native-api-reference/iapphostelementcollection-deleteelement-method.md)|Removes the requested element from the collection|  
+|[AddElement](../../web-development-reference\native-code-api-reference/iapphostelementcollection-addelement-method.md)|Adds an element to the current collection.|  
+|[Clear](../../web-development-reference\native-code-api-reference/iapphostelementcollection-clear-method.md)|Removes all elements from the current collection.|  
+|[CreateNewElement](../../web-development-reference\native-code-api-reference/iapphostelementcollection-createnewelement-method.md)|Creates a new element.|  
+|[DeleteElement](../../web-development-reference\native-code-api-reference/iapphostelementcollection-deleteelement-method.md)|Removes the requested element from the collection|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostElementCollection` interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[Count](../../web-development-reference\webdev-native-api-reference/iapphostelementcollection-count-property.md)|Returns the number of elements in the current collection|  
-|[Item](../../web-development-reference\webdev-native-api-reference/iapphostelementcollection-item-property.md)|Gets the element at the requested index in the current collection.|  
-|[Schema](../../web-development-reference\webdev-native-api-reference/iapphostelementcollection-schema-property.md)|Returns the schema assigned to the current collection|  
+|[Count](../../web-development-reference\native-code-api-reference/iapphostelementcollection-count-property.md)|Returns the number of elements in the current collection|  
+|[Item](../../web-development-reference\native-code-api-reference/iapphostelementcollection-item-property.md)|Gets the element at the requested index in the current collection.|  
+|[Schema](../../web-development-reference\native-code-api-reference/iapphostelementcollection-schema-property.md)|Returns the schema assigned to the current collection|  
   
 ## Inheritance Hierarchy  
  [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -54,5 +54,5 @@ interface IAppHostElementCollection : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)   
- [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)

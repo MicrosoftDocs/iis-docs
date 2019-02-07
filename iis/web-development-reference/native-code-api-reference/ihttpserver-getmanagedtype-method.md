@@ -57,7 +57,7 @@ virtual HRESULT GetManagedType(
   
  The `type` attribute for a request handler is located in the `<handlers>` section of the ApplicationHost.config file. This attribute contains a list of the [!INCLUDE[dnprdnshort](../../wmi-provider/includes/dnprdnshort-md.md)] namespaces for a request handler. For example, the "TraceHandler-Integrated" request handler has a `type` attribute of "System.Web.Handlers.TraceHandler" by default.  
   
- The `IHttpServer::GetManagedType` method differs from the [IScriptMapInfo::GetManagedType](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getmanagedtype-method.md) method in that the `IHttpServer::GetManagedType` method can retrieve the `type` attribute for any virtual path, whereas the `IScriptMapInfo::GetManagedType` method will retrieve only the `type` attribute for the [IScriptMapInfo](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-interface.md) interface.  
+ The `IHttpServer::GetManagedType` method differs from the [IScriptMapInfo::GetManagedType](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getmanagedtype-method.md) method in that the `IHttpServer::GetManagedType` method can retrieve the `type` attribute for any virtual path, whereas the `IScriptMapInfo::GetManagedType` method will retrieve only the `type` attribute for the [IScriptMapInfo](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md) interface.  
   
 ## Example  
  The following code example demonstrates how to use the `GetManagedType` method to create an HTTP module that retrieves the managed type for the /default.aspx URI.  
@@ -76,7 +76,7 @@ virtual HRESULT GetManagedType(
   
 <!-- TODO: review snippet reference  [!CODE [IHttpServerGetManagedType#1](IHttpServerGetManagedType#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -90,5 +90,5 @@ virtual HRESULT GetManagedType(
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpServer Interface](../../web-development-reference\webdev-native-api-reference/ihttpserver-interface.md)   
- [IScriptMapInfo::GetManagedType Method](../../web-development-reference\webdev-native-api-reference/iscriptmapinfo-getmanagedtype-method.md)
+ [IHttpServer Interface](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md)   
+ [IScriptMapInfo::GetManagedType Method](../../web-development-reference\native-code-api-reference/iscriptmapinfo-getmanagedtype-method.md)

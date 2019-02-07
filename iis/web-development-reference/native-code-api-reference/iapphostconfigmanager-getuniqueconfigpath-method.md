@@ -59,4 +59,4 @@ HRESULT GetUniqueConfigPath(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostConfigManager Interface](../../web-development-reference\webdev-native-api-reference/iapphostconfigmanager-interface.md)
+ [IAppHostConfigManager Interface](../../web-development-reference\native-code-api-reference/iapphostconfigmanager-interface.md)

@@ -49,4 +49,4 @@ HRESULT Count(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostChildElementCollection Interface](../../web-development-reference\webdev-native-api-reference/iapphostchildelementcollection-interface.md)
+ [IAppHostChildElementCollection Interface](../../web-development-reference\native-code-api-reference/iapphostchildelementcollection-interface.md)

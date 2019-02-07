@@ -25,9 +25,9 @@ class IPmApplicationPreload : public IWpfReferencedObject
   
 |Name|Description|  
 |----------|-----------------|  
-|[IPmApplicationPreload::PreloadApplication](../../web-development-reference\webdev-native-api-reference/ipmapplicationpreload-preloadapplication.md)|Preloads an application into server memory given its site ID and configuration file path.|  
-|[IWpfReferencedObject::AddRef](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-addref-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md).)|  
-|[IWpfReferencedObject::Release](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md).)|  
+|[IPmApplicationPreload::PreloadApplication](../../web-development-reference\native-code-api-reference/ipmapplicationpreload-preloadapplication.md)|Preloads an application into server memory given its site ID and configuration file path.|  
+|[IWpfReferencedObject::AddRef](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-addref-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md).)|  
+|[IWpfReferencedObject::Release](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-release-method.md)|(Inherited from [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md).)|  
   
 ## Requirements  
   
@@ -39,4 +39,4 @@ class IPmApplicationPreload : public IWpfReferencedObject
 |Header|Wpframework.h|  
   
 ## See Also  
- [Worker Process and Protocol Manager Interfaces](../../web-development-reference\webdev-native-api-reference/worker-process-and-protocol-manager-interfaces.md)
+ [Worker Process and Protocol Manager Interfaces](../../web-development-reference\native-code-api-reference/worker-process-and-protocol-manager-interfaces.md)

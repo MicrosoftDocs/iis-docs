@@ -31,11 +31,11 @@ virtual HANDLE GetImpersonationToken(
 ## Remarks  
  An impersonation token is a handle that defines the security context of the user that is making a request. This token allows the server to impersonate a user during a request so that access to system resources is based upon the access rules for that user.  
   
- During impersonation, both the primary token returned from the [GetPrimaryToken](../../web-development-reference\webdev-native-api-reference/ihttpuser-getprimarytoken-method.md) method and the impersonation token returned from the `GetImpersonationToken` method are used. This may either expand or contract the user privileges based upon security rules for that user.  
+ During impersonation, both the primary token returned from the [GetPrimaryToken](../../web-development-reference\native-code-api-reference/ihttpuser-getprimarytoken-method.md) method and the impersonation token returned from the `GetImpersonationToken` method are used. This may either expand or contract the user privileges based upon security rules for that user.  
   
- [CGlobalModule](../../web-development-reference\webdev-native-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference\webdev-native-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference\webdev-native-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an [IHttpCacheSpecificData](../../web-development-reference\webdev-native-api-reference/ihttpcachespecificdata-interface.md) pointer by calling the [ICacheProvider::GetCacheRecord](../../web-development-reference\webdev-native-api-reference/icacheprovider-getcacherecord-method.md) method and, in some cases, you can downcast this `IHttpCacheSpecificData` pointer to an [IHttpTokenEntry](../../web-development-reference\webdev-native-api-reference/ihttptokenentry-interface.md) pointer. You can then retrieve the impersonation token handle by calling the `GetImpersonationToken` method.  
+ [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference\native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md) pointer by calling the [ICacheProvider::GetCacheRecord](../../web-development-reference\native-code-api-reference/icacheprovider-getcacherecord-method.md) method and, in some cases, you can downcast this `IHttpCacheSpecificData` pointer to an [IHttpTokenEntry](../../web-development-reference\native-code-api-reference/ihttptokenentry-interface.md) pointer. You can then retrieve the impersonation token handle by calling the `GetImpersonationToken` method.  
   
- For more information on downcast rules, see [ICacheProvider::GetCacheRecord](../../web-development-reference\webdev-native-api-reference/icacheprovider-getcacherecord-method.md).  
+ For more information on downcast rules, see [ICacheProvider::GetCacheRecord](../../web-development-reference\native-code-api-reference/icacheprovider-getcacherecord-method.md).  
   
 ## Notes for Implementers  
  `IHttpTokenEntry` implementers are responsible for resource management with this data; therefore, `IHttpTokenEntry` implementers must call the [CloseHandle](http://go.microsoft.com/fwlink/?LinkId=60019) function on the handle when it is no longer needed.  
@@ -44,7 +44,7 @@ virtual HANDLE GetImpersonationToken(
  `IHttpTokenEntry` implementers are responsible for resource management with this data; therefore, `IHttpTokenEntry` clients must not call `CloseHandle` on the returned handle when this data is no longer needed. Furthermore, clients must not change the state of the memory that this handle references, because an access violation will be thrown or the data will become invalid.  
   
 ## Example  
- The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference\webdev-native-api-reference/request-processing-constants.md) events and then writes the `IHttpTokenEntry` information to the Event Viewer.  
+ The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the `IHttpTokenEntry` information to the Event Viewer.  
   
 > [!CAUTION]
 >  [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] generates a large number of events in the Event Viewer. To avoid a log overflow error in a production environment, you should generally avoid writing cache information to the event log. For demonstration purposes, this code example writes an entry to the Event Viewer in debug mode only.  
@@ -57,7 +57,7 @@ virtual HANDLE GetImpersonationToken(
 IHttpTokenEntry::GetImpersonationToken: valid  
 ```  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -71,6 +71,6 @@ IHttpTokenEntry::GetImpersonationToken: valid
 |Header|Httpserv.h|  
   
 ## See Also  
- [IHttpTokenEntry Interface](../../web-development-reference\webdev-native-api-reference/ihttptokenentry-interface.md)   
- [IHttpTokenEntry::GetPrimaryToken Method](../../web-development-reference\webdev-native-api-reference/ihttptokenentry-getprimarytoken-method.md)   
- [IHttpTokenEntry::GetSid Method](../../web-development-reference\webdev-native-api-reference/ihttptokenentry-getsid-method.md)
+ [IHttpTokenEntry Interface](../../web-development-reference\native-code-api-reference/ihttptokenentry-interface.md)   
+ [IHttpTokenEntry::GetPrimaryToken Method](../../web-development-reference\native-code-api-reference/ihttptokenentry-getprimarytoken-method.md)   
+ [IHttpTokenEntry::GetSid Method](../../web-development-reference\native-code-api-reference/ihttptokenentry-getsid-method.md)

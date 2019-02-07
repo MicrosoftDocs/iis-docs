@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # IWpfReferencedObject::Release Method
-Decrements the reference count for the [IWpfReferencedObject](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md) interface.  
+Decrements the reference count for the [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md) interface.  
   
 ## Syntax  
   
@@ -39,5 +39,5 @@ virtual ULONG Release (
 |Header|Wpframework.h|  
   
 ## See Also  
- [IWpfReferencedObject Interface](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-interface.md)   
- [IWpfReferencedObject::AddRef Method](../../web-development-reference\webdev-native-api-reference/iwpfreferencedobject-addref-method.md)
+ [IWpfReferencedObject Interface](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md)   
+ [IWpfReferencedObject::AddRef Method](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-addref-method.md)

@@ -25,7 +25,7 @@ interface IAppHostPathMapper : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[MapPath](../../web-development-reference\webdev-native-api-reference/iapphostpathmapper-mappath-method.md)|Maps [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration paths to custom file system paths.|  
+|[MapPath](../../web-development-reference\native-code-api-reference/iapphostpathmapper-mappath-method.md)|Maps [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration paths to custom file system paths.|  
   
 ## Properties  
  This interface contains no properties.  
@@ -48,5 +48,5 @@ interface IAppHostPathMapper : IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)   
- [Application Host Administration API Reference](../../web-development-reference\webdev-native-api-reference/application-host-administration-api-reference.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
+ [Application Host Administration API Reference](../../web-development-reference\native-code-api-reference/application-host-administration-api-reference.md)

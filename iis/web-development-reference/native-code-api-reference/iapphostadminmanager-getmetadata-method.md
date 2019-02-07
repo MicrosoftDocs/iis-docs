@@ -55,4 +55,4 @@ HRESULT GetMetadata(
 |Header|Ahadmin.h|  
   
 ## See Also  
- [IAppHostAdminManager Interface](../../web-development-reference\webdev-native-api-reference/iapphostadminmanager-interface.md)
+ [IAppHostAdminManager Interface](../../web-development-reference\native-code-api-reference/iapphostadminmanager-interface.md)

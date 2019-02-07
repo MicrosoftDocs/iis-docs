@@ -25,15 +25,15 @@ IAppHostElementSchema : public IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetMetadata](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-getmetadata-method.md)|Gets metadata values from the element schema.|  
+|[GetMetadata](../../web-development-reference\native-code-api-reference/iapphostelementschema-getmetadata-method.md)|Gets metadata values from the element schema.|  
   
 ## Properties  
  The following table lists the properties exposed by the `IAppHostElementSchema` interface.  
   
 |Property|Description|  
 |--------------|-----------------|  
-|[DoesAllowUnschematizedProperties](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-doesallowunschematizedproperties-property.md)|Determines whether properties that are not defined in the schema can be added to a configuration element.|  
-|[Name](../../web-development-reference\webdev-native-api-reference/iapphostelementschema-name-property.md)|Gets the name of the current schema.|  
+|[DoesAllowUnschematizedProperties](../../web-development-reference\native-code-api-reference/iapphostelementschema-doesallowunschematizedproperties-property.md)|Determines whether properties that are not defined in the schema can be added to a configuration element.|  
+|[Name](../../web-development-reference\native-code-api-reference/iapphostelementschema-name-property.md)|Gets the name of the current schema.|  
   
 ## Inheritance Hierarchy  
  [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
@@ -50,6 +50,6 @@ IAppHostElementSchema : public IUnknown
 |Header|Ahadmin.h|  
   
 ## See Also  
- [Application Host Administration Interfaces](../../web-development-reference\webdev-native-api-reference/application-host-administration-interfaces.md)   
- [IAppHostElement Interface](../../web-development-reference\webdev-native-api-reference/iapphostelement-interface.md)   
- [IAppHostPropertySchema Interface](../../web-development-reference\webdev-native-api-reference/iapphostpropertyschema-interface.md)
+ [Application Host Administration Interfaces](../../web-development-reference\native-code-api-reference/application-host-administration-interfaces.md)   
+ [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md)   
+ [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md)

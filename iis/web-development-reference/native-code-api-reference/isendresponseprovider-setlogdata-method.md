@@ -34,7 +34,7 @@ virtual HRESULT SetLogData(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- You can use the `SetLogData` method to modify values that IIS will write to a log file. To use this method in an HTTP module, your module should first call the [ISendResponseProvider::GetReadyToLogData](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-getreadytologdata-method.md) method to verify that IIS is ready to log information, and then call the [ISendResponseProvider::GetLogData](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-getlogdata-method.md) method to retrieve a `VOID` pointer that you will cast to an [HTTP_LOG_FIELDS_DATA](http://go.microsoft.com/fwlink/?LinkId=59280) structure.  
+ You can use the `SetLogData` method to modify values that IIS will write to a log file. To use this method in an HTTP module, your module should first call the [ISendResponseProvider::GetReadyToLogData](../../web-development-reference\native-code-api-reference/isendresponseprovider-getreadytologdata-method.md) method to verify that IIS is ready to log information, and then call the [ISendResponseProvider::GetLogData](../../web-development-reference\native-code-api-reference/isendresponseprovider-getlogdata-method.md) method to retrieve a `VOID` pointer that you will cast to an [HTTP_LOG_FIELDS_DATA](http://go.microsoft.com/fwlink/?LinkId=59280) structure.  
   
 > [!NOTE]
 >  The `HTTP_LOG_FIELDS_DATA` structure is defined in the Http.h header file.  
@@ -56,7 +56,7 @@ virtual HRESULT SetLogData(
   
 <!-- TODO: review snippet reference  [!CODE [ISendResponseProviderGetLogData#1](ISendResponseProviderGetLogData#1)]  -->  
   
- Your module must export the [RegisterModule](../../web-development-reference\webdev-native-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
+ Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  
   
  You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.  
   
@@ -70,5 +70,5 @@ virtual HRESULT SetLogData(
 |Header|Httpserv.h|  
   
 ## See Also  
- [ISendResponseProvider Interface](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-interface.md)   
- [ISendResponseProvider::GetLogData Method](../../web-development-reference\webdev-native-api-reference/isendresponseprovider-getlogdata-method.md)
+ [ISendResponseProvider Interface](../../web-development-reference\native-code-api-reference/isendresponseprovider-interface.md)   
+ [ISendResponseProvider::GetLogData Method](../../web-development-reference\native-code-api-reference/isendresponseprovider-getlogdata-method.md)
