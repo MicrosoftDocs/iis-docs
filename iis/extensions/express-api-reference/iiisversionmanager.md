@@ -37,5 +37,5 @@ interface IIISVersionManager : IUnknown
  The computer hosts a top-level `IIISVersionManager` object. You must instantiate this object using `CoCreateInstance`.  
   
 ## See Also  
- [GetVersionObject](../../\express-api-reference/getversionobject.md)   
- [GetAllVersionObjects](../../\express-api-reference/getallversionobjects.md)
+ [GetVersionObject](../../\extensions/express-api-reference/getversionobject.md)   
+ [GetAllVersionObjects](../../\extensions/express-api-reference/getallversionobjects.md)

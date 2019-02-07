@@ -957,55 +957,55 @@
     - name: IIS Express API Reference
       items: 
         - name: GetPropertyValue
-          href: \express-api-referencegetpropertyvalue.md
+          href: \extensions/express-api-referencegetpropertyvalue.md
         - name: ApplyManifestContext
-          href: \express-api-referenceapplymanifestcontext.md
+          href: \extensions/express-api-referenceapplymanifestcontext.md
         - name: GetAllVersionObjects
-          href: \express-api-referencegetallversionobjects.md
+          href: \extensions/express-api-referencegetallversionobjects.md
         - name: StopProcess
-          href: \express-api-referencestopprocess.md
+          href: \extensions/express-api-referencestopprocess.md
         - name: Microsoft.Web.Diagnostics (IIS Express)
-          href: \express-api-referencemicrosoft-web-diagnostics-iis-express.md
+          href: \extensions/express-api-referencemicrosoft-web-diagnostics-iis-express.md
         - name: IISDeveloperExpressDiagnostics
-          href: \express-api-referenceiisdeveloperexpressdiagnostics.md
+          href: \extensions/express-api-referenceiisdeveloperexpressdiagnostics.md
         - name: ClearIISDirectory
-          href: \express-api-referencecleariisdirectory.md
+          href: \extensions/express-api-referencecleariisdirectory.md
         - name: IISDirectory
-          href: \express-api-referenceiisdirectory.md
+          href: \extensions/express-api-referenceiisdirectory.md
         - name: IIS_PRODUCT_TYPE
-          href: \express-api-referenceiis-product-type.md
+          href: \extensions/express-api-referenceiis-product-type.md
         - name: Version Manager API (IIS Express)
-          href: \express-api-referenceversion-manager-api-iis-express.md
+          href: \extensions/express-api-referenceversion-manager-api-iis-express.md
         - name: CreateObjectFromProgId
-          href: \express-api-referencecreateobjectfromprogid.md
+          href: \extensions/express-api-referencecreateobjectfromprogid.md
         - name: SetupIISDirectory
-          href: \express-api-referencesetupiisdirectory.md
+          href: \extensions/express-api-referencesetupiisdirectory.md
         - name: ClearIISEnvironmentVariables
-          href: \express-api-referencecleariisenvironmentvariables.md
+          href: \extensions/express-api-referencecleariisenvironmentvariables.md
         - name: IIISExpressProcessUtility
-          href: \express-api-referenceiiisexpressprocessutility.md
+          href: \extensions/express-api-referenceiiisexpressprocessutility.md
         - name: IIISVersionManager
-          href: \express-api-referenceiiisversionmanager.md
+          href: \extensions/express-api-referenceiiisversionmanager.md
         - name: IIS Express API Reference
-          href: \express-api-referenceiis-express-api-reference.md
+          href: \extensions/express-api-referenceiis-extensions/express-api-reference.md
         - name: IIISVersion
-          href: \express-api-referenceiiisversion.md
+          href: \extensions/express-api-referenceiiisversion.md
         - name: IIISUserData
-          href: \express-api-referenceiiisuserdata.md
+          href: \extensions/express-api-referenceiiisuserdata.md
         - name: ErrorInformation (IISExpress)
-          href: \express-api-referenceerrorinformation-iisexpress.md
+          href: \extensions/express-api-referenceerrorinformation-iisexpress.md
         - name: CreateObjectFromCLSID
-          href: \express-api-referencecreateobjectfromclsid.md
+          href: \extensions/express-api-referencecreateobjectfromclsid.md
         - name: GetRunningProcessForSite
-          href: \express-api-referencegetrunningprocessforsite.md
+          href: \extensions/express-api-referencegetrunningprocessforsite.md
         - name: GetVersionObject
-          href: \express-api-referencegetversionobject.md
+          href: \extensions/express-api-referencegetversionobject.md
         - name: ConstructCommandLine
-          href: \express-api-referenceconstructcommandline.md
+          href: \extensions/express-api-referenceconstructcommandline.md
         - name: ApplyIISEnvironmentVariables
-          href: \express-api-referenceapplyiisenvironmentvariables.md
+          href: \extensions/express-api-referenceapplyiisenvironmentvariables.md
         - name: ClearManifestContext
-          href: \express-api-referenceclearmanifestcontext.md
+          href: \extensions/express-api-referenceclearmanifestcontext.md
     - name: IIS Search Engine Optimization Toolkit
       items: 
         - name: IIS Site Analysis - Video Walkthrough
