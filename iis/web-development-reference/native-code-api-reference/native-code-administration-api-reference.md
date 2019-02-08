@@ -20,6 +20,5 @@ This section of the IIS SDK discusses the API that developers use to administer 
   
 ## See Also  
  [Native-Code API Reference](../../web-development-reference\native-code-api-reference/native-code-api-reference.md)   
- [Web Administration Development Reference](../Topic/Web%20Administration%20Development%20Reference.md)   
  [Native-Code Architecture API Reference](../../web-development-reference\native-code-api-reference/native-code-architecture-api-reference.md)   
  [Native-Code Extensibility API Reference](../../web-development-reference\native-code-api-reference/native-code-extensibility-api-reference.md)
