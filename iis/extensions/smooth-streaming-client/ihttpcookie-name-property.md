@@ -1,0 +1,51 @@
+---
+title: IHttpCookie.Name Property
+TOCTitle: Name Property
+ms:assetid: 6f2e3d49-ea0e-45f1-8cf7-3684dd2dcd8b
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/JJ822756(v=VS.90)
+ms:contentKeyID: 50079511
+ms.date: 11/19/2012
+mtps_version: v=VS.90
+dev_langs:
+- csharp
+- c++
+- jscript
+---
+
+# IHttpCookie.Name Property
+
+**Applies to:** Windows Store apps only
+
+Gets the name.
+
+## Syntax
+
+``` csharp
+public string Name { get; set; }
+```
+
+``` c++
+public:
+virtual property String^ Name {
+String^ get () sealed;
+void set (String^ value) sealed;
+}
+```
+
+``` jscript
+final function get Name () : String
+final function set Name (value : String)
+```
+
+## Property Value
+
+Type: [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))
+
+## Requirements
+
+|||
+|--- |--- |
+|**Minimum supported client**|Windows 8|
+|**Minimum supported server**|Not Supported|
+|**Metadata**|Microsoft.Media.AdaptiveStreaming.winmd|
+
