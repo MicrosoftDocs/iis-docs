@@ -11,7 +11,7 @@ caps.latest.revision: 5
 manager: "wpickett"
 ---
 # ClearIISEnvironmentVariables
-Removes any dynamic environment variables previously injected using a call to [ApplyIISEnvironmentVariables](../../\extensions/express-api-reference/applyiisenvironmentvariables.md).  
+Removes any dynamic environment variables previously injected using a call to [ApplyIISEnvironmentVariables](../../extensions/express-api-reference/applyiisenvironmentvariables.md).  
   
 ## Syntax  
   
@@ -26,9 +26,9 @@ Removes any dynamic environment variables previously injected using a call to [A
  `HRESULT`  
   
 ## See Also  
- [GetPropertyValue](../../\extensions/express-api-reference/getpropertyvalue.md)   
- [CreateObjectFromProgId](../../\extensions/express-api-reference/createobjectfromprogid.md)   
- [CreateObjectFromCLSID](../../\extensions/express-api-reference/createobjectfromclsid.md)   
- [ApplyIISEnvironmentVariables](../../\extensions/express-api-reference/applyiisenvironmentvariables.md)   
- [ApplyManifestContext](../../\extensions/express-api-reference/applymanifestcontext.md)   
- [ClearManifestContext](../../\extensions/express-api-reference/clearmanifestcontext.md)
+ [GetPropertyValue](../../extensions/express-api-reference/getpropertyvalue.md)   
+ [CreateObjectFromProgId](../../extensions/express-api-reference/createobjectfromprogid.md)   
+ [CreateObjectFromCLSID](../../extensions/express-api-reference/createobjectfromclsid.md)   
+ [ApplyIISEnvironmentVariables](../../extensions/express-api-reference/applyiisenvironmentvariables.md)   
+ [ApplyManifestContext](../../extensions/express-api-reference/applymanifestcontext.md)   
+ [ClearManifestContext](../../extensions/express-api-reference/clearmanifestcontext.md)
