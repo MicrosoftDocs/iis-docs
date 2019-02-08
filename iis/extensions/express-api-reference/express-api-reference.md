@@ -9,16 +9,3 @@ mtps_version: v=VS.90
 ---
 
 # Native Configuration API Reference
-
-This section describes the native configuration interfaces.
-
-## In This Section
-
-The following table lists the public interfaces that are exposed by the IIS Native Configuration Reader.
-
-[INativeConfigurationElement Interface](../../extensions/express-api-reference/inativeconfigurationelement-interface.md) - Provides an interface for a native configuration element.
-
-
-[INativeConfigurationElementCollection Interface](../../extensions/express-api-reference/inativeconfigurationelementcollection-interface.md) - Provides an interface for a collection of native configuration elements.
-
-
