@@ -80,8 +80,8 @@ class CompilationSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Compilation.BuildProvider?displayProperty=fullName>   
- <xref:System.Web.Configuration.CompilationSection?displayProperty=fullName>   
+ <xref:System.Web.Compilation.BuildProvider?displayProperty=nameWithType>    
+ <xref:System.Web.Configuration.CompilationSection?displayProperty=nameWithType>   
  [AssemblySettings Class](../wmi-provider/assemblysettings-class.md)   
  [BuildProviderSettings Class](../wmi-provider/buildprovidersettings-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
