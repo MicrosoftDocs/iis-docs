@@ -49,7 +49,7 @@ To support services and applications that use protocols other than HTTP and HTTP
 
 ## Hypertext Transfer Protocol Stack (HTTP.sys)
 
-The HTTP listener is part of the networking subsystem of Windows operating systems, and it is implemented as a kernel-mode device driver called the HTTP protocol stack (HTTP.sys). HTTP.sys listens for HTTP requests from the network, passes the requests onto IIS for processing, and then returns processed responses to client browsers.
+The HTTP listener is part of the networking subsystem of Windows operating systems, and it is implemented as a kernel-mode device driver called the HTTP protocol stack (HTTP.sys). HTTP.sys listens for HTTP requests from the network, passes the requests onto IIS for processing, and then returns processed responses to clients.
 
 In IIS 6.0, HTTP.sys replaced Windows Sockets API (Winsock), which was a user-mode component used by previous versions of IIS to receive HTTP requests and send HTTP responses. IIS 7 and later continue to rely on HTTP.sys for HTTP requests.
 
