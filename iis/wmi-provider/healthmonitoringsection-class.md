@@ -71,7 +71,7 @@ class HealthMonitoringSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Management.WebHeartbeatEvent>   
+ [System.Web.Management.WebHeartbeatEvent](/dotnet/api/system.web.management.webheartbeatevent?view=netframework-4.7.2)
  [BufferModeSettings Class](../wmi-provider/buffermodesettings-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [EventMappingSettings Class](../wmi-provider/eventmappingsettings-class.md)   

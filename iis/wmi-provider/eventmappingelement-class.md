@@ -39,7 +39,7 @@ class EventMappingElement: CollectionElement
 ## Remarks  
  Instances of this class are contained in the `EventMappings` array property of the [EventMappingSettings](../wmi-provider/eventmappingsettings-class.md) class.  
   
- Event codes are mapped to events defined by the constants in the <xref:System.Web.Management.WebEventCodes?displayProperty=fullName> object. The mapping uses a range specified by the `StartEventCode` and `EndEventCode` properties.  
+ Event codes are mapped to events defined by the constants in the [System.Web.Management.WebEventCodes](/dotnet/api/system.web.management.webeventcodes?view=netframework-4.7.2) object. The mapping uses a range specified by the `StartEventCode` and `EndEventCode` properties.  
   
  Event mappings enable you to assign friendly names to event sources. The `Rules` property of the [HealthMonitoringSection](../wmi-provider/healthmonitoringsection-class.md) class uses these names to associate event sources with the related event consumers, called providers.  
   

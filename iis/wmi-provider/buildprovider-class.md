@@ -52,7 +52,7 @@ class BuildProvider : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.CompilationSection.BuildProviders%2A?displayProperty=fullName>   
+ [System.Web.Configuration.CompilationSection.BuildProviders](/dotnet/api/system.web.configuration.compilationsection.buildproviders?view=netframework-4.7.2)  
  [BuildProviderSettings Class](../wmi-provider/buildprovidersettings-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)
