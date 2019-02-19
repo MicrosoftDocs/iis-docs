@@ -55,7 +55,7 @@ class PagesSection : ConfigurationSectionWithCollection
 |`MaxPageStateFieldLength`|A read/write `sint32` value that specifies the maximum number of characters that a single view-state field can contain. The default is –1 (no limit specified).<br /><br /> If the length of the stored data exceeds the value specified, the data is split between multiple view-state fields.|  
 |`Namespaces`|A [NamespaceInfo](../wmi-provider/namespaceinfo-class.md) value that contains namespace references that are automatically imported into all the pages of a Web application. This makes the classes of the specified namespaces available for use on the page.|  
 |`PageBaseType`|A read/write `string` value that specifies a code-behind class that .aspx pages inherit by default. The default is "System.Web.UI.Page".|  
-|`PageParserFilterType`|A read/write `string` value that specifies the parser filter type. A parser filter is an instance of the <xref:System.Web.UI.PageParserFilter?displayProperty=fullName> class. At run time, the page compilation process calls the parser filter to check for changes to the source code before the page is parsed.|  
+|`PageParserFilterType`|A read/write `string` value that specifies the parser filter type. A parser filter is an instance of the [System.Web.UI.PageParserFilter](/dotnet/api/system.web.ui.pageparserfilter?view=netframework-4.7.2) class. At run time, the page compilation process calls the parser filter to check for changes to the source code before the page is parsed.|  
 |`Path`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
 |`SmartNavigation`|A read/write `boolean` value. `true` if smart navigation is enabled; otherwise, `false`. The default is `false`. **Note:**  Smart navigation requires Microsoft Internet Explorer 5.5, 6, or 7.|  
@@ -63,7 +63,7 @@ class PagesSection : ConfigurationSectionWithCollection
 |`TagMapping`|A [TagMapInfo](../wmi-provider/tagmapinfo-class.md) value that contains configuration tag remapping statements. This property allows you to remap the types of tags at compile time. The remapping causes the mapped type to be used in place of the original tag type for all pages and controls in the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application in the scope of the configuration file.|  
 |`Theme`|A read/write `string` value that specifies the name of an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] page theme.|  
 |`UserControlBaseType`|A read/write `string` value that specifies a code-behind class that user controls inherit by default. The default is "System.Web.UI.UserControl".|  
-|`ValidateRequest`|A read/write `boolean` value. `true` if [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] performs request validation on all input from the browser; otherwise, `false`. The default is `true`.<br /><br /> Request validation is performed by comparing input data to a list of potentially dangerous values. If a match occurs, [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] raises an <xref:System.Web.HttpRequestValidationException>.|  
+|`ValidateRequest`|A read/write `boolean` value. `true` if [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] performs request validation on all input from the browser; otherwise, `false`. The default is `true`.<br /><br /> Request validation is performed by comparing input data to a list of potentially dangerous values. If a match occurs, [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] raises an [System.Web.HttpRequestValidationException](/dotnet/api/system.web.httprequestvalidationexception?view=netframework-4.7.2).|  
 |`ViewStateEncryptionMode`|A read/write `sint32` enumeration that specifies the encryption mode that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] uses for view-state values. The possible values are listed later in the Remarks section.|  
   
 ## Subclasses  
@@ -90,7 +90,7 @@ class PagesSection : ConfigurationSectionWithCollection
   
 |Value|Keyword|Description|  
 |-----------|-------------|-----------------|  
-|0|`Auto`|The view-state information is encrypted if a control requests encryption by calling the <xref:System.Web.UI.Page.RegisterRequiresViewStateEncryption%2A?displayProperty=fullName> method.|  
+|0|`Auto`|The view-state information is encrypted if a control requests encryption by calling the [System.Web.UI.Page.RegisterRequiresViewStateEncryption](/dotnet/api/system.web.ui.page.registerrequiresviewstateencryption?view=netframework-4.7.2) method.|  
 |1|`Always`|The view-state information is always encrypted.|  
 |2|`Never`|The view-state information is never encrypted, even if a control requests it.|  
   
@@ -111,10 +111,10 @@ class PagesSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:Microsoft.Web.Management.Client.Win32.ModulePage.Microsoft.Web.Management.Client.IModulePage.Initialize%2A?displayProperty=fullName>   
- <xref:System.Web.UI.Page.RegisterRequiresViewStateEncryption%2A?displayProperty=fullName>   
- <xref:System.Web.Configuration.PagesSection?displayProperty=fullName>   
- <xref:System.Web.HttpRequestValidationException?displayProperty=fullName>   
+ Microsoft.Web.Management.Client.Win32.ModulePage.Microsoft.Web.Management.Client.IModulePage.Initialize  
+ [System.Web.UI.Page.RegisterRequiresViewStateEncryption](/dotnet/api/system.web.ui.page.registerrequiresviewstateencryption?view=netframework-4.7.2)  
+ [System.Web.Configuration.PagesSection](/dotnet/api/system.web.configuration.pagessection?view=netframework-4.7.2)
+ [System.Web.HttpRequestValidationException](/dotnet/api/system.web.httprequestvalidationexception?view=netframework-4.7.2)  
  [AspSession Class](../wmi-provider/aspsession-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [NamespaceInfo Class](../wmi-provider/namespaceinfo-class.md)   

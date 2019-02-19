@@ -54,7 +54,7 @@ class TagMapElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.TagMapInfo?displayProperty=fullName>   
+ [System.Web.Configuration.TagMapInfo](/dotnet/api/system.web.configuration.tagmapinfo?view=netframework-4.7.2)  
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)   
  [TagMapInfo Class](../wmi-provider/tagmapinfo-class.md)

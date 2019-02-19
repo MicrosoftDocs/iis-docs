@@ -196,9 +196,9 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.AuthenticationMode>   
- <xref:System.Web.Configuration.FormsAuthenticationConfiguration>   
- <xref:System.Web.Configuration.HttpCapabilitiesBase>   
+ [System.Web.Configuration.AuthenticationMode](/dotnet/api/system.web.configuration.authenticationmode?view=netframework-4.7.2)
+ [System.Web.Configuration.FormsAuthenticationConfiguration](/dotnet/api/system.web.configuration.formsauthenticationconfiguration?view=netframework-4.7.2)
+ [System.Web.Configuration.HttpCapabilitiesBase](/dotnet/api/system.web.configuration.httpcapabilitiesbase?view=netframework-4.7.2)
  [AuthenticationSection Class](../wmi-provider/authenticationsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [FormsAuthenticationCredentials Class](../wmi-provider/formsauthenticationcredentials-class.md)   

@@ -65,6 +65,6 @@ class ClientTargetSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.ClientTarget?displayProperty=fullName>   
+ [System.Web.Configuration.ClientTarget](/dotnet/api/system.web.configuration.clienttarget?view=netframework-4.7.2)   
  [ClientTarget Class](../wmi-provider/clienttarget-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)

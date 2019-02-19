@@ -101,8 +101,8 @@ class SessionStateSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.SystemWebSectionGroup.SessionState%2A?displayProperty=fullName>   
- <xref:System.Web.SessionState.SessionStateMode?displayProperty=fullName>   
+ [System.Web.Configuration.SystemWebSectionGroup.SessionState](/dotnet/api/system.web.configuration.systemwebsectiongroup.sessionstate?view=netframework-4.7.2#System_Web_Configuration_SystemWebSectionGroup_SessionState)   
+ [System.Web.SessionState.SessionStateMode](/dotnet/api/system.web.sessionstate.sessionstatemode?view=netframework-4.7.2)
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ProviderSettings Class](../wmi-provider/providersettings-class.md)   
  [Fast, Scalable, and Secure Session State Management for Your Web Applications](http://go.microsoft.com/fwlink/?LinkId=69309)
