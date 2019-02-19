@@ -60,7 +60,7 @@ class FormsAuthenticationCredentials : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.FormsAuthPasswordFormat?displayProperty=fullName>   
+ [System.Web.Configuration.FormsAuthPasswordFormat](/dotnet/api/system.web.configuration.formsauthpasswordformat?view=netframework-4.7.2)
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
  [DigestAuthenticationSection Class](../wmi-provider/digestauthenticationsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   

@@ -80,8 +80,8 @@ class CompilationSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [BuildProvider Class](xref:System.Web.Compilation.BuildProvider)
- [CompilationSection Class](xref:System.Web.Configuration.CompilationSection)  
+ [System.Web.Compilation.BuildProvider](/dotnet/api/system.web.compilation.buildprovider?view=netframework-4.7.2)
+ [System.Web.Configuration.CompilationSection](/dotnet/api/system.web.configuration.compilationsection?view=netframework-4.7.2)
  [AssemblySettings Class](../wmi-provider/assemblysettings-class.md)   
  [BuildProviderSettings Class](../wmi-provider/buildprovidersettings-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   

@@ -103,7 +103,7 @@ class DeviceFilter : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.SystemWebSectionGroup.DeviceFilters%2A?displayProperty=fullName>   
+ [System.Web.Configuration.SystemWebSectionGroup.DeviceFilters](/dotnet/api/system.web.configuration.systemwebsectiongroup.devicefilters?view=netframework-4.7.2)
  [\<filter> Element](http://go.microsoft.com/fwlink/?LinkId=69324)   
  [Device-Specific Rendering](http://go.microsoft.com/fwlink/?LinkId=69323)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

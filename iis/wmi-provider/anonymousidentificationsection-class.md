@@ -86,10 +86,10 @@ class AnonymousIdentificationSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.SystemWebSectionGroup.AnonymousIdentification%2A?displayProperty=fullName>   
- <xref:System.Web.HttpCookie.Expires%2A?displayProperty=fullName>   
- <xref:System.Web.HttpCookie.Secure%2A?displayProperty=fullName>   
- <xref:System.Web.HttpCookie?displayProperty=fullName>   
- <xref:System.Web.HttpCookieMode?displayProperty=fullName>   
+ [System.Web.Configuration.SystemWebSectionGroup.AnonymousIdentification](/dotnet/api/system.web.configuration.systemwebsectiongroup.anonymousidentification?view=netframework-4.7.2) 
+ System.Web.HttpCookie.Expires  
+ System.Web.HttpCookie.Secure  
+ System.Web.HttpCookie
+ System.Web.HttpCookieMode 
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)

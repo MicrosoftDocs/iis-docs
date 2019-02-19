@@ -57,7 +57,7 @@ class BufferModeElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Management.BufferedWebEventProvider.BufferMode%2A?displayProperty=fullName>   
+ [System.Web.Management.BufferedWebEventProvider.BufferMode](/dotnet/api/system.web.management.bufferedwebeventprovider.buffermode?view=netframework-4.7.2)  
  [BufferModeSettings Class](../wmi-provider/buffermodesettings-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   

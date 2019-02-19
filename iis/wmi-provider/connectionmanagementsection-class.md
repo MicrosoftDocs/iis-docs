@@ -12,7 +12,7 @@ author: "shirhatti"
 manager: "wpickett"
 ---
 # ConnectionManagementSection Class
-Contains a collection that specifies the maximum number of connections to specified network hosts for <xref:System.Net?displayProperty=fullName> APIs.  
+Contains a collection that specifies the maximum number of connections to specified network hosts for [System.Net?displayProperty](/dotnet/api/system.net?view=netframework-4.7.2) APIs.  
   
 ## Syntax  
   
