@@ -51,7 +51,7 @@ class BufferModeSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Management.BufferedWebEventProvider.BufferMode%2A?displayProperty=fullName>   
+ [System.Web.Management.BufferedWebEventProvider.BufferMode](/dotnet/api/system.web.management.bufferedwebeventprovider.buffermode?view=netframework-4.7.2)   
  [BufferModeElement Class](../wmi-provider/buffermodeelement-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   

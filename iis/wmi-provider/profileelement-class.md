@@ -28,7 +28,7 @@ class ProfileElement : CollectionElement
   
 |Name|Description|  
 |----------|-----------------|  
-|`Custom`|A read/write `string` value that specifies the fully qualified type of a custom class that implements the <xref:System.Web.Management.IWebEventCustomEvaluator?displayProperty=fullName> interface. The default is an empty string ("").<br /><br /> The type reference is formed as follows (items in brackets are not required): *Namespace*.*Typename*, *Assemblyname*[,] [Version=*x*,] [Culture=*y*,] [PublicKeyToken=*z*] (for example, "ExampleNamespace.ExampleType, Example.Assembly, Version=%ASSEMBLY_VERSION%, Culture=neutral, PublicKeyToken=%MICROSOFT_PUBLICKEY%"). **Note:**  This property is new in the [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)] version 2.0.|  
+|`Custom`|A read/write `string` value that specifies the fully qualified type of a custom class that implements the [System.Web.Management.IWebEventCustomEvaluator](/dotnet/api/system.web.management.iwebeventcustomevaluator?view=netframework-4.7.2) interface. The default is an empty string ("").<br /><br /> The type reference is formed as follows (items in brackets are not required): *Namespace*.*Typename*, *Assemblyname*[,] [Version=*x*,] [Culture=*y*,] [PublicKeyToken=*z*] (for example, "ExampleNamespace.ExampleType, Example.Assembly, Version=%ASSEMBLY_VERSION%, Culture=neutral, PublicKeyToken=%MICROSOFT_PUBLICKEY%"). **Note:**  This property is new in the [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)] version 2.0.|  
 |`MaxLimit`|A read/write `sint32` value that specifies the maximum number of times that events of the same type are raised. The default is 2147483647. For example, if the value is 10, the event will be raised 10 times and ignored thereafter.<br /><br /> This property must have a value greater than 0. You can make the value infinite by setting it to `MaxValue`. Invalid values may cause an exception to be thrown when the configuration section is saved.|  
 |`MinInstances`|A read/write `sint32` value that specifies the minimum number of event occurrences before the event is raised to the provider. The default is 1. For example, a value of 5 means that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] will not raise an event to the provider until the fifth instance of the event occurs.<br /><br /> This property must have a value greater than 0. You can make the value infinite by setting it to `MaxValue`. If the value is `MaxValue`, no event will be raised to the provider. Invalid values may cause an exception to be thrown when the configuration section is saved.|  
 |`MinInterval`|A read/write `datetime` value that specifies the minimum interval between two events of the same type. The default is 0 seconds.<br /><br /> You can make the value infinite by setting it to `MaxValue`. If the value is 0, there is no minimum interval. Invalid values may cause an exception to be thrown when the configuration section is saved.|  
@@ -55,8 +55,8 @@ class ProfileElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.ProfileSettings?displayProperty=fullName>   
- <xref:System.Web.Management.IWebEventCustomEvaluator?displayProperty=fullName>   
+ [System.Web.Configuration.ProfileSettings](/dotnet/api/system.web.configuration.profilesettings?view=netframework-4.7.2)
+ [System.Web.Management.IWebEventCustomEvaluator](/dotnet/api/system.web.management.iwebeventcustomevaluator?view=netframework-4.7.2)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [ProfileSettings Class](../wmi-provider/profilesettings-class.md)   
  [System.Int32.MaxValue Field](http://go.microsoft.com/fwlink/?LinkId=69329)   

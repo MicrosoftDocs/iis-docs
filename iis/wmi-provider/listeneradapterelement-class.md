@@ -58,6 +58,6 @@ class ListenerAdapterElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.ApplicationHost.Configuration.ListenerAdapterElement?displayProperty=fullName>   
+ [System.ApplicationHost.Configuration.ListenerAdapterElement](../wmi-provider/listeneradapterelement-class.md)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [ListenerAdaptersSection Class](../wmi-provider/listeneradapterssection-class.md)

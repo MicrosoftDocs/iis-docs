@@ -43,7 +43,7 @@ class HealthMonitoringSection : ConfigurationSectionWithCollection
 |`BufferModes`|A [BufferModeSettings](../wmi-provider/buffermodesettings-class.md) value that configures the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] event-buffering settings for event providers.|  
 |`Enabled`|A read/write `boolean` value. `true` if health monitoring is enabled for the Web application; otherwise, `false`. The default is `true`.|  
 |`EventMappings`|A [EventMappingSettings](../wmi-provider/eventmappingsettings-class.md) value that maps friendly event names to related event types.|  
-|`HeartbeatInterval`|A read/write `datetime` value that specifies the interval between <xref:System.Web.Management.WebHeartbeatEvent> events. The default is 0, which indicates that no `WebHeartbeatEvent` event is raised.|  
+|`HeartbeatInterval`|A read/write `datetime` value that specifies the interval between [System.Web.Management.WebHeartbeatEvent](/dotnet/api/system.web.management.webheartbeatevent?view=netframework-4.7.2) events. The default is 0, which indicates that no `WebHeartbeatEvent` event is raised.|  
 |`Location`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`Path`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`Profiles`|A [ProfileSettings](../wmi-provider/profilesettings-class.md) value that specifies event profiles that determine how events are collected by [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and raised to providers.|  

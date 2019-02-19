@@ -92,7 +92,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.TrustLevel?displayProperty=fullName>   
+ [System.Web.Configuration.TrustLevel](/dotnet/api/system.web.configuration.trustlevel?view=netframework-4.7.2)
  [Administering Security Policy](http://go.microsoft.com/fwlink/?LinkId=69326)   
  [ASP.NET Trust Levels and Policy Files](http://go.microsoft.com/fwlink/?LinkId=69328)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

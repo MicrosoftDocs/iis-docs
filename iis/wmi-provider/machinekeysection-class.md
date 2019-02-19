@@ -131,6 +131,6 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.MachineKeyValidation>   
+ [System.Web.Configuration.MachineKeyValidation](/dotnet/api/system.web.configuration.machinekeysection.validation?view=netframework-4.7.2)
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)

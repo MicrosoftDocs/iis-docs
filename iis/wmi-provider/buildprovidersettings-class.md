@@ -51,6 +51,6 @@ class BuildProviderSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.CompilationSection.BuildProviders%2A?displayProperty=fullName>   
+ [System.Web.Configuration.CompilationSection.BuildProvider](/dotnet/api/system.web.configuration.compilationsection?view=netframework-4.7.2)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

@@ -49,7 +49,7 @@ class IsapiFiltersSection : ConfigurationSectionWithCollection
  This class contains no subclasses.  
   
 ## Remarks  
- ISAPI filters and extensions are being replaced by the new [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] modules API. For more information about the [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] modules API, see [Creating Native-Code HTTP Modules](../webdevelopment-reference\native-code-development-overview/creating-native-code-http-modules.md).  
+ ISAPI filters and extensions are being replaced by the new [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] modules API. For more information about the [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] modules API, see [Creating Native-Code HTTP Modules](../web-development-reference\native-code-development-overview/creating-native-code-http-modules.md).  
   
 ## Inheritance Hierarchy  
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  

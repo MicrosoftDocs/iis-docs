@@ -56,9 +56,9 @@ class HttpErrorsSection : ConfigurationSectionWithCollection
 ## Remarks  
  This class exposes the settings in the `<httpErrors>` section of a configuration file.  
   
- The custom errors represented by the `HttpErrorsSection` class are related to [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] and are in the <xref:System.WebServer.Configuration?displayProperty=fullName> namespace. Each of these errors is represented by an instance of the [HttpErrorElement](../wmi-provider/httperrorelement-class.md) class.  
+ The custom errors represented by the `HttpErrorsSection` class are related to [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] and are in the [System.WebServer.Configuration namespace](/iis/configuration/system.webserver/). Each of these errors is represented by an instance of the [HttpErrorElement](../wmi-provider/httperrorelement-class.md) class.  
   
- The custom errors represented by the [CustomErrorsSection](../wmi-provider/customerrorssection-class.md) class are specific to [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and are in the <xref:System.Web?displayProperty=fullName> namespace. Each of these errors is represented by an instance of the [CustomError](../wmi-provider/customerror-class.md) class.  
+ The custom errors represented by the [CustomErrorsSection](../wmi-provider/customerrorssection-class.md) class are specific to [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and are in the [System.Web namespace](/dotnet/api/system.web?view=netframework-4.7.2). Each of these errors is represented by an instance of the [CustomError](../wmi-provider/customerror-class.md) class.  
   
  The following table lists the possible values for the `DefaultResponseMode` property. The default is 0 (`File`).  
   

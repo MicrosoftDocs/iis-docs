@@ -68,7 +68,7 @@ class MembershipSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Security.Membership?displayProperty=fullName>   
+ [System.Web.Security.Membership](/dotnet/api/system.web.security.membership?view=netframework-4.7.2) 
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)   
  [Mapping Algorithm Names to Cryptography Classes](http://go.microsoft.com/fwlink/?LinkId=70954)

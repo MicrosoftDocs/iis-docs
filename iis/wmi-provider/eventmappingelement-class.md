@@ -58,7 +58,7 @@ class EventMappingElement: CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Management.WebEventCodes?displayProperty=fullName>   
+ [System.Web.Management.WebEventCodes](/dotnet/api/system.web.management.webeventcodes?view=netframework-4.7.2)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
  [ProviderSettings Class](../wmi-provider/providersettings-class.md)   

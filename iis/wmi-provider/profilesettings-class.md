@@ -51,8 +51,8 @@ class ProfileSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.ProfileSettings>   
- <xref:System.Web.Management.IWebEventCustomEvaluator>   
+ [System.Web.Configuration.ProfileSettings](/dotnet/api/system.web.configuration.profilesettings?view=netframework-4.7.2)
+ [System.Web.Management.IWebEventCustomEvaluator](/dotnet/api/system.web.management.iwebeventcustomevaluator?view=netframework-4.7.2)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
  [ProfileElement Class](../wmi-provider/profileelement-class.md)   

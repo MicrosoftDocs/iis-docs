@@ -51,7 +51,7 @@ class TagMapInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.TagMapInfo>   
+ [System.Web.Configuration.TagMapInfo](/dotnet/api/system.web.configuration.tagmapinfo?view=netframework-4.7.2)  
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)   
  [TagMapElement Class](../wmi-provider/tagmapelement-class.md)

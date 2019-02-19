@@ -32,7 +32,7 @@ class OutputCacheProfile : CollectionElement
 |`Enabled`|A read/write `boolean` value. `true` if caching is enabled for all pages or controls that use this output cache profile; otherwise, `false`. The default is `true`.|  
 |`Location`|A read/write `sint32` value that specifies the location of the cache. The possible values are listed later in the Remarks section.|  
 |`Name`|A read-only `string` value that specifies the name of the output cache profile.|  
-|`NoStore`|A read/write `boolean` value. `true` if the page issues a `Cache-Control: Private no-store` header in the HTTP response that directs the browser not to cache the page; otherwise, `false`. The default is `false`. **Note:**  Setting this attribute to `true` is equivalent to invoking the <xref:System.Web.HttpCachePolicy.SetNoStore%2A?displayProperty=fullName> method during a Web request.|  
+|`NoStore`|A read/write `boolean` value. `true` if the page issues a `Cache-Control: Private no-store` header in the HTTP response that directs the browser not to cache the page; otherwise, `false`. The default is `false`. **Note:**  Setting this attribute to `true` is equivalent to invoking the [System.Web.HttpCachePolicy.SetNoStore](/dotnet/api/system.web.httpcachepolicy.setnostore?view=netframework-4.7.2) method during a Web request.|  
 |`SqlDependency`|A read/write `string` value that identifies a set of SQL database and table name pairs on which a page or control's output cache depends. When you specify a string for this property, output cached pages can be removed from the cache whenever the SQL table on which they depend changes.|  
 |`VaryByControl`|A read/write `string` value that specifies a comma-delimited set of IDs of controls to be cached. **Note:**  The settings for this property are the same as those of the `VaryByControls` attribute of the `@ OutputCache` directive.|  
 |`VaryByCustom`|A read/write comma-delimited `string` value that represents custom output caching requirements. If you give this property the value of "browser", the cache is varied by browser name and major version information. If you enter a custom string, you must override the `GetVaryByCustomString` method in the Global.asax file for your application. **Note:**  The settings for this property are the same as those of the `VaryByCustom` attribute of the `@ OutputCache` directive.|  
@@ -49,12 +49,12 @@ class OutputCacheProfile : CollectionElement
   
 |Value|Keyword|Description|  
 |-----------|-------------|-----------------|  
-|0|`Any`|The page is cached on the server, all HTTP 1.1 compliant proxies, and the client. This value corresponds to the <xref:System.Web.HttpCacheability.Public?displayProperty=fullName> enumeration value.|  
-|1|`Client`|The page is cached only on the client where the request originated. This value corresponds to the <xref:System.Web.HttpCacheability.Private?displayProperty=fullName> enumeration value.|  
+|0|`Any`|The page is cached on the server, all HTTP 1.1 compliant proxies, and the client. This value corresponds to the [System.Web.HttpCacheability.Public](/dotnet/api/system.web.httpcacheability?view=netframework-4.7.2) enumeration value.|  
+|1|`Client`|The page is cached only on the client where the request originated. This value corresponds to the [System.Web.HttpCacheability.Private](/dotnet/api/system.web.httpcacheability?view=netframework-4.7.2) enumeration value.|  
 |2|`Downstream`|The page is cached on any HTTP 1.1 cache-capable devices except the originating server. Cache-capable devices include proxy servers and the client that made the request.|  
-|3|`Server`|The page is cached only on the Web server where the request was processed. This value corresponds to the <xref:System.Web.HttpCacheability.Server?displayProperty=fullName> enumeration value.|  
-|4|`None`|The page is not cached. This value corresponds to the <xref:System.Web.HttpCacheability.NoCache?displayProperty=fullName> enumeration value.|  
-|5|`ServerAndClient`|The page is cached only on the originating server or on the requesting client. Proxy servers are not allowed to cache the response. This value corresponds to the combination of the <xref:System.Web.HttpCacheability.Private?displayProperty=fullName> and <xref:System.Web.HttpCacheability.Server?displayProperty=fullName> enumeration values.|  
+|3|`Server`|The page is cached only on the Web server where the request was processed. This value corresponds to the [System.Web.HttpCacheability.Server](/dotnet/api/system.web.httpcacheability?view=netframework-4.7.2) enumeration value.|  
+|4|`None`|The page is not cached. This value corresponds to the [System.Web.HttpCacheability.NoCache](/dotnet/api/system.web.httpcacheability?view=netframework-4.7.2) enumeration value.|  
+|5|`ServerAndClient`|The page is cached only on the originating server or on the requesting client. Proxy servers are not allowed to cache the response. This value corresponds to the combination of the [System.Web.HttpCacheability.Private](/dotnet/api/system.web.httpcacheability?view=netframework-4.7.2) and [System.Web.HttpCacheability.Server](/dotnet/api/system.web.httpcacheability?view=netframework-4.7.2) enumeration values.|  
   
 ## Inheritance Hierarchy  
  [CollectionElement](../wmi-provider/collectionelement-class.md)  
@@ -71,9 +71,9 @@ class OutputCacheProfile : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.HttpCachePolicy.SetNoStore%2A?displayProperty=fullName>   
- <xref:System.Web.HttpCacheability?displayProperty=fullName>   
- <xref:System.Web.UI.OutputCacheLocation?displayProperty=fullName>   
+ [System.Web.HttpCachePolicy.SetNoStore](/dotnet/api/system.web.httpcachepolicy.setnostore?view=netframework-4.7.2) 
+ [System.Web.HttpCacheability](/dotnet/api/system.web.httpcacheability?view=netframework-4.7.2)
+ [System.Web.UI.OutputCacheLocation](/dotnet/api/system.web.configuration.outputcacheprofile.location?view=netframework-4.7.2)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [OutputCacheSection Class](../wmi-provider/outputcachesection-class.md)   
  [OutputCacheSettingsSection Class](../wmi-provider/outputcachesettingssection-class.md)   
