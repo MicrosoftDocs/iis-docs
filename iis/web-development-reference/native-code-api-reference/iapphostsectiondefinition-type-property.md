@@ -43,7 +43,7 @@ HRESULT put_Type(
 ## Remarks  
   
 > [!NOTE]
->  This property is used only when a file is opened from a class in the <xref:System.Configuration?displayProperty=fullName> namespace.  
+>  This property is used only when a file is opened from a class in the [System.Configuration](/dotnet/api/system.configuration?view=netframework-4.7.2) namespace.  
   
 ## Requirements  
   
