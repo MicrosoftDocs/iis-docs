@@ -9,7 +9,7 @@ msc.type: authoredcontent
 New Features Introduced  in IIS 10.0 Version 1709
 =================================================
 
-IIS 10.0 Version 1709 is the latest version of Internet Information Services
+IIS 10.0 Version 1709 is the latest version of Internet In Information
 (IIS) which shipped with Windows 10 Fall Creators Update and Window Server 2016
 Version 1709. This article describes the new functionality of IIS and provides
 links to resources to learn more about these features.
