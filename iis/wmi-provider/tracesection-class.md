@@ -73,7 +73,7 @@ class TraceSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.TraceContext?displayProperty=fullName>   
+ [System.Web.TraceContext](/dotnet/api/system.web.tracecontext?view=netframework-4.7.2) 
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [trace Element (ASP.NET Settings Schema)](http://go.microsoft.com/fwlink/?LinkId=67200)   
  [How to: Enable Tracing for an ASP.NET Page](http://go.microsoft.com/fwlink/?LinkId=67201)   
