@@ -41,9 +41,9 @@ class AnonymousIdentificationSection : ConfigurationSection
 |`CookiePath`|A read/write `string` value that specifies the path to the directory where the cookie is stored. The default is the root directory, specified by "/".|  
 |`CookieProtection`|A read/write `sint32` enumeration that specifies the cookie protection scheme. The possible values are listed later in the Remarks section.|  
 |`CookieRequireSSL`|A read/write `boolean` value. `true` if the cookie requires a Secure Sockets Layer (SSL) connection when it is transmitted to the client; otherwise, `false`. The default is `false`.<br /><br /> When the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] `Secure` authentication cookie property is set, the cookie is returned by the client only if an SSL connection is in use.|  
-|`CookieSlidingExpiration`|A required read/write `boolean` value. `true` if the cookie expiration is initially set to the current date and time plus the value in minutes in the `CookieTimeout` property; otherwise, `false`. The default is `true`.<br /><br /> If `true`, the expiration date and time of the cookie will be automatically refreshed if less than half of the value in `CookieTimeout` remains and the user is still actively using the application. If `false`, the cookie automatically times out after the interval specified in the `CookieTimeout` property has passed. For more information, see the <xref:System.Web.HttpCookie.Expires%2A?displayProperty=fullName> property.|  
+|`CookieSlidingExpiration`|A required read/write `boolean` value. `true` if the cookie expiration is initially set to the current date and time plus the value in minutes in the `CookieTimeout` property; otherwise, `false`. The default is `true`.<br /><br /> If `true`, the expiration date and time of the cookie will be automatically refreshed if less than half of the value in `CookieTimeout` remains and the user is still actively using the application. If `false`, the cookie automatically times out after the interval specified in the `CookieTimeout` property has passed. For more information, see the [System.Web.HttpCookie.Expires property](/dotnet/api/system.web.httpcookie.expires?view=netframework-4.7.2).|  
 |`CookieTimeout`|A required read/write `datetime` value that specifies the cookie expiration time interval. The default is 69 days, 10 hours, and 40 minutes, which is equivalent to 10000 minutes.|  
-|`Domain`|A read/write `string` value that specifies the cookie domain. The default is an empty string ("").<br /><br /> This property allows sharing of the anonymous identification cookie across domains that have a common Domain Name System (DNS) namespace (for example, all sites that end in "contoso.com"). To share anonymous identification cookies, the sites must share common decryption and validation keys. Other anonymous identification configuration attributes, such as cookie path and cookie name, must be the same for all the sites. For more information, see the <xref:System.Web.HttpCookie?displayProperty=fullName> class.|  
+|`Domain`|A read/write `string` value that specifies the cookie domain. The default is an empty string ("").<br /><br /> This property allows sharing of the anonymous identification cookie across domains that have a common Domain Name System (DNS) namespace (for example, all sites that end in "contoso.com"). To share anonymous identification cookies, the sites must share common decryption and validation keys. Other anonymous identification configuration attributes, such as cookie path and cookie name, must be the same for all the sites. For more information, see the [System.Web.HttpCookie class](/dotnet/api/system.web.httpcookie?view=netframework-4.7.2).|  
 |`Enabled`|An optional read/write `boolean` value. `true` if anonymous identification is enabled; otherwise, `false`. If `true`, a cookie (or cookieless value) is used to manage the user's anonymous identifier. The default is `false`.|  
 |`Location`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`Path`|(Inherited from `ConfigurationSection`.) A key property.|  
@@ -60,7 +60,7 @@ class AnonymousIdentificationSection : ConfigurationSection
 |0|`UseUri`|Specifies that the calling feature uses the query string to store an identifier, regardless of whether the browser or device supports cookies.|  
 |1|`UseCookies`|Specifies that cookies are used to persist user data, regardless of whether the browser or device supports cookies.|  
 |2|`AutoDetect`|Specifies that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] determines whether the requesting browser or device supports cookies. If the requesting browser or device supports cookies, `AutoDetect` uses cookies to persist user data; otherwise, an identifier is used in the query string. If the browser or device supports the cookies, but cookies are currently disabled, the requesting feature still uses cookies.|  
-|3|`UseDeviceProfile`|Specifies that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] determines whether to use cookies based on the <xref:System.Web.Configuration.HttpCapabilitiesBase.Cookies%2A?displayProperty=fullName> property. If the setting indicates that the browser or device supports cookies, cookies are used; otherwise, an identifier is used in the query string.|  
+|3|`UseDeviceProfile`|Specifies that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] determines whether to use cookies based on the [System.Web.Configuration.HttpCapabilitiesBase.Cookies property](/dotnet/api/system.web.configuration.httpcapabilitiesbase.cookies?view=netframework-4.7.2). If the setting indicates that the browser or device supports cookies, cookies are used; otherwise, an identifier is used in the query string.|  
   
  The following table lists the possible values for the `CookieProtection` property. The default is 1 (`Validation`).  
   
@@ -86,10 +86,10 @@ class AnonymousIdentificationSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.SystemWebSectionGroup.AnonymousIdentification%2A?displayProperty=fullName>   
- <xref:System.Web.HttpCookie.Expires%2A?displayProperty=fullName>   
- <xref:System.Web.HttpCookie.Secure%2A?displayProperty=fullName>   
- <xref:System.Web.HttpCookie?displayProperty=fullName>   
- <xref:System.Web.HttpCookieMode?displayProperty=fullName>   
+ [System.Web.Configuration.SystemWebSectionGroup.AnonymousIdentification](/dotnet/api/system.web.configuration.systemwebsectiongroup.anonymousidentification?view=netframework-4.7.2) 
+ System.Web.HttpCookie.Expires  
+ System.Web.HttpCookie.Secure  
+ System.Web.HttpCookie
+ System.Web.HttpCookieMode 
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)

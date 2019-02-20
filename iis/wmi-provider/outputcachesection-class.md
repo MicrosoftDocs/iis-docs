@@ -63,8 +63,8 @@ class OutputCacheSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.OutputCacheSection?displayProperty=fullName>   
- <xref:System.Web.Configuration.SystemWebCachingSectionGroup.OutputCache%2A?displayProperty=fullName>   
+ [System.Web.Configuration.OutputCacheSection](/dotnet/api/system.web.configuration.outputcachesection?view=netframework-4.7.2)
+ [System.Web.Configuration.SystemWebCachingSectionGroup.OutputCache](/dotnet/api/system.web.configuration.systemwebcachingsectiongroup.outputcache?view=netframework-4.7.2)   
  [CacheSection Class](../wmi-provider/cachesection-class.md)   
  [CachingProfileElement Class](../wmi-provider/cachingprofileelement-class.md)   
  [CachingSection Class](../wmi-provider/cachingsection-class.md)   

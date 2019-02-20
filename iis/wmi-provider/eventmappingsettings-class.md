@@ -53,7 +53,7 @@ class EventMappingSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Management.WebEventCodes?displayProperty=fullName>   
+ [System.Web.Management.WebEventCodes](/dotnet/api/system.web.management.webeventcodes?view=netframework-4.7.2)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [EventMappingElement Class](../wmi-provider/eventmappingelement-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   

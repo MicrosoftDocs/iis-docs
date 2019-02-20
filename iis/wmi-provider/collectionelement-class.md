@@ -77,7 +77,7 @@ class CollectionElement
 |[NameTypeElement](../wmi-provider/nametypeelement-class.md)|Associates a name and a managed type.|  
 |[NameValueConfigurationElement](../wmi-provider/namevalueconfigurationelement-class.md)|Contains a name/value pair for an HTTP response header.|  
 |[OneToOneCertificateMappingElement](../wmi-provider/onetoonecertificatemappingelement-class.md)|Represents a one-to-one mapping of a Secure Sockets Layer (SSL) certificate to a user account.|  
-|[OutputCacheProfile](../wmi-provider\native-code-api-reference\outputcacheprofile-class.md)|Configures the output cache profile for the pages of a Web application.|  
+|[OutputCacheProfile](../wmi-provider\outputcacheprofile-class.md)|Configures the output cache profile for the pages of a Web application.|  
 |[ProfileElement](../wmi-provider/profileelement-class.md)|Configures an event profile that determines how an event is collected by ASP.NET and raised to providers.|  
 |[ProtocolElement](../wmi-provider/protocolelement-class.md)|Specifies a transmission protocol that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] can use to decrypt data sent in the HTTP request from a client browser.|  
 |[ProviderElement](../wmi-provider/providerelement-class.md)|Specifies the name and type of a provider.|  

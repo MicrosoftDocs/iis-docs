@@ -72,8 +72,8 @@ class TrustSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.SystemWebSectionGroup.Trust%2A?displayProperty=fullName>   
- <xref:System.Web.Configuration.TrustSection?displayProperty=fullName>   
+ [System.Web.Configuration.SystemWebSectionGroup.Trust](/dotnet/api/system.web.configuration.systemwebsectiongroup.trust?view=netframework-4.7.2)  
+ [System.Web.Configuration.TrustSection](/dotnet/api/system.web.configuration.trustsection?view=netframework-4.7.2)
  [System.Web.AspNetHostingPermissionLevel Enumeration](http://go.microsoft.com/fwlink/?LinkId=69330)   
  [ASP.NET Trust Levels and Policy Files](http://go.microsoft.com/fwlink/?LinkId=69328)   
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   

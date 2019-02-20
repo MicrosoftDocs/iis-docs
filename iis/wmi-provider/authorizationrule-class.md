@@ -61,5 +61,5 @@ class AuthorizationRule : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.AuthorizationRule?displayProperty=fullName>   
+ [System.Web.Configuration.AuthorizationRule](/dotnet/api/system.web.configuration.authorizationrule?view=netframework-4.7.2)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)

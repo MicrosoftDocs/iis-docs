@@ -65,7 +65,7 @@ class OutputCacheSettingsSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.SystemWebCachingSectionGroup.OutputCache%2A?displayProperty=fullName>   
+ [System.Web.Configuration.SystemWebCachingSectionGroup.OutputCache](/dotnet/api/system.web.configuration.systemwebcachingsectiongroup.outputcache?view=netframework-4.7.2)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [OutputCacheProfile Class](../wmi-provider/outputcacheprofile-class.md)   
  [OutputCacheProfileSettings Class](../wmi-provider/outputcacheprofilesettings-class.md)

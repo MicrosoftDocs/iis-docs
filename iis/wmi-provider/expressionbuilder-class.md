@@ -76,8 +76,8 @@ class ExpressionBuilder : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Compilation.ExpressionPrefixAttribute?displayProperty=fullName>   
- <xref:System.Web.Configuration.CompilationSection.ExpressionBuilders%2A?displayProperty=fullName>   
+ [System.Web.Compilation.ExpressionPrefixAttribute](/dotnet/api/system.web.compilation.expressionprefixattribute?view=netframework-4.7.2)  
+ [System.Web.Configuration.CompilationSection.ExpressionBuilders](/dotnet/api/system.web.configuration.compilationsection.expressionbuilders?view=netframework-4.7.2)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
  [ExpressionBuilderSettings Class](../wmi-provider/expressionbuildersettings-class.md)

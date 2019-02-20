@@ -92,7 +92,7 @@ class ConfigurationSectionWithCollection : ConfigurationSection
 |[SecurityPolicySection](../wmi-provider/securitypolicysection-class.md)|Defines a collection of mappings between security policy files and their trust-level names.|  
 |[SessionStateSection](../wmi-provider/sessionstatesection-class.md)|Configures the session state for a Web application.|  
 |[SiteMapSection](../wmi-provider/sitemapsection-class.md)|Defines configuration settings for site navigation.|  
-|[SqlCacheDependencySection](../wmi-provider/sqlcachedependencysection-class.md)|Represents a <xref:System.Web.Caching.SqlCacheDependency?displayProperty=fullName> configuration section.|  
+|[SqlCacheDependencySection](../wmi-provider/sqlcachedependencysection-class.md)|Represents a [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency?view=netframework-4.7.2)|  
 |[StaticContentSection](../wmi-provider/staticcontentsection-class.md)|Exposes configuration settings for static content on a Web site.|  
 |[SystemCodeDomSection](../wmi-provider/systemcodedomsection-class.md)|Specifies a collection of compilers that provide Code Document Object Model (CodeDOM) support.|  
 |[SystemDataSection](../wmi-provider/systemdatasection-class.md)|Specifies a list of installed [!INCLUDE[vstecado](../wmi-provider/includes/vstecado-md.md)] data providers.|  

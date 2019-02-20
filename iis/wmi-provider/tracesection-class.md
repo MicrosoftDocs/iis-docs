@@ -56,7 +56,7 @@ class TraceSection : ConfigurationSection
 |Value|Keyword|Description|  
 |-----------|-------------|-----------------|  
 |1|`SortByTime`|Specifies that trace information is displayed in the order that it is processed.|  
-|2|`SortByCategory`|Specifies that trace information is displayed alphabetically by user-defined categories specified in the <xref:System.Web.TraceContext.Warn%2A?displayProperty=fullName> and <xref:System.Web.TraceContext.Write%2A?displayProperty=fullName> method calls in page or server control code.|  
+|2|`SortByCategory`|Specifies that trace information is displayed alphabetically by user-defined categories specified in the [System.Web.TraceContext.Warn](/dotnet/api/system.web.tracecontext.warn?view=netframework-4.7.2) and [System.Web.TraceContext.Write](/dotnet/api/system.web.tracecontext.write?view=netframework-4.7.2) method calls in page or server control code.|  
   
 ## Inheritance Hierarchy  
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
@@ -73,7 +73,7 @@ class TraceSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.TraceContext?displayProperty=fullName>   
+ [System.Web.TraceContext](/dotnet/api/system.web.tracecontext?view=netframework-4.7.2) 
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [trace Element (ASP.NET Settings Schema)](http://go.microsoft.com/fwlink/?LinkId=67200)   
  [How to: Enable Tracing for an ASP.NET Page](http://go.microsoft.com/fwlink/?LinkId=67201)   

@@ -39,7 +39,7 @@ typedef VOID
  `VOID`.  
   
 ## Remarks  
- This callback function tells the listener adapter that the requests-blocked state has changed for this application. When requests are blocked, the listener should return a failure code to the client and not allow the worker process to accept requests. This callback function results from a change in the <xref:System.ApplicationHost.Configuration.ApplicationElementDefaults.EnabledProtocols%2A> property for an application.  
+ This callback function tells the listener adapter that the requests-blocked state has changed for this application. When requests are blocked, the listener should return a failure code to the client and not allow the worker process to accept requests. This callback function results from a change in the System.ApplicationHost.Configuration.ApplicationElementDefaults.EnabledProtocols property for an application.  
   
  The Windows Process Activation Service (WAS) calls this function asynchronously and does not wait for the completion of the notification.  
   

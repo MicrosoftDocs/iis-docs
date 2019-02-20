@@ -51,8 +51,8 @@ class ExpressionBuilderSettings: EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Compilation.ExpressionPrefixAttribute?displayProperty=fullName>   
- <xref:System.Web.Configuration.CompilationSection.ExpressionBuilders%2A?displayProperty=fullName>   
+ [System.Web.Compilation.ExpressionPrefixAttribute](/dotnet/api/system.web.compilation.expressionprefixattribute?view=netframework-4.7.2)  
+ [System.Web.Configuration.CompilationSection.ExpressionBuilders](/dotnet/api/system.web.configuration.compilationsection.expressionbuilders?view=netframework-4.7.2)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [ExpressionBuilder Class](../wmi-provider/expressionbuilder-class.md)

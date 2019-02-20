@@ -75,7 +75,7 @@ class WebServicesSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.SystemWebSectionGroup.WebServices%2A?displayProperty=fullName>   
+ [System.Web.Configuration.SystemWebSectionGroup.WebServices](/dotnet/api/system.web.configuration.scriptingwebservicessectiongroup?view=netframework-4.7.2)  
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ConformanceWarning Class](../wmi-provider/conformancewarning-class.md)   
  [ConformanceWarningSettings Class](../wmi-provider/conformancewarningsettings-class.md)   

@@ -54,8 +54,8 @@ class NamespaceInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.NamespaceCollection>   
- <xref:System.Web.Configuration.NamespaceInfo>   
+ [System.Web.Configuration.NamespaceCollection](/dotnet/api/system.web.configuration.namespacecollection?view=netframework-4.7.2)   
+ [System.Web.Configuration.NamespaceInfo](/dotnet/api/system.web.configuration.namespaceinfo?view=netframework-4.7.2)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [NamespaceElement Class](../wmi-provider/namespaceelement-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)   

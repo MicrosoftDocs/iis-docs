@@ -52,5 +52,5 @@ class OutputCacheProfileSettings : EmbeddedObject
   
 ## See Also  
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [OutputCacheProfile Class](../wmi-provider/embeddedobject-class\outputcacheprofile-class.md)   
+ [OutputCacheProfile Class](../wmi-provider/outputcacheprofile-class.md)   
  [OutputCacheSettingsSection Class](../wmi-provider/outputcachesettingssection-class.md)

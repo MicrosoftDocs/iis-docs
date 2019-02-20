@@ -743,7 +743,7 @@
           - name: CHttpModule::~CHttpModule Method
             href: chttpmodule-chttpmodule-method.md
           - name: CHttpModule::CHttpModule Method
-            href: chttpmodule-chttpmodule-method_.md
+            href: chttpmodule-chttpmodule-method_1.md
           - name: CHttpModule::Dispose Method
             href: chttpmodule-dispose-method.md
           - name: CHttpModule::OnAcquireRequestState Method

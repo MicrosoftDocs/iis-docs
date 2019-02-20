@@ -67,7 +67,7 @@ class SiteMapSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.SiteMap?displayProperty=fullName>   
- <xref:System.Web.XmlSiteMapProvider?displayProperty=fullName>   
+ [System.Web.SiteMap](/dotnet/api/system.web.sitemap?view=netframework-4.7.2)   
+ [System.Web.XmlSiteMapProvider](/dotnet/api/system.web.xmlsitemapprovider?view=netframework-4.7.2)  
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ProviderSettings Class](../wmi-provider/providersettings-class.md)

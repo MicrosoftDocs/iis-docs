@@ -76,7 +76,7 @@ class HttpRuntimeSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- <xref:System.Web.Configuration.SystemWebSectionGroup.HttpRuntime%2A?displayProperty=fullName>   
+ [System.Web.Configuration.SystemWebSectionGroup.HttpRuntime](/dotnet/api/system.web.configuration.systemwebsectiongroup.httpruntime?view=netframework-4.7.2)  
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
  [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
