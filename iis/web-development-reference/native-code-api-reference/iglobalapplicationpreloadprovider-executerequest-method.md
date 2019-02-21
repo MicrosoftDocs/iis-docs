@@ -1,15 +1,7 @@
 ---
-title: "IGlobalApplicationPreloadProvider::ExecuteRequest Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalApplicationPreloadProvider::ExecuteRequest Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1aa835a0-0dc5-4a77-a241-fab587dba22e
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalApplicationPreloadProvider::ExecuteRequest Method
 Runs an HTTP request given its context and user information.  
@@ -23,7 +15,7 @@ Virtual HRESULT ExecuteRequest(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A context object that encapsulates all HTTP-specific information about an individual HTTP request.  
   

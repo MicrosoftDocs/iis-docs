@@ -12,11 +12,11 @@ mtps_version: v=VS.90
 
 Applications can handle timeline events that occur while a media stream plays or use markers to find specified locations in the stream. The [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) class in the [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md) client library corresponds to StreamIndex element in the XML manifest.
 
-This topic shows how to extract time and text data from StreamIndex elements and initialize [TimelineMarker](https://msdn.microsoft.com/en-us/library/cc672550\(v=vs.90\)) objects. The example extends the examples implemented in the [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md), [Events (IIS Smooth Streaming)](events.md), and [Position in Stream (IIS Smooth Streaming)](position-in-stream.md) topics in order to create a table of contents that specifies chapter headings. A downloadable sample is available that contains all the code: [Download](http://go.microsoft.com/fwlink/?linkid=182167).
+This topic shows how to extract time and text data from StreamIndex elements and initialize [TimelineMarker](https://msdn.microsoft.com/library/cc672550) objects. The example extends the examples implemented in the [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md), [Events (IIS Smooth Streaming)](events.md), and [Position in Stream (IIS Smooth Streaming)](position-in-stream.md) topics in order to create a table of contents that specifies chapter headings. A downloadable sample is available that contains all the code: [Download](http://go.microsoft.com/fwlink/?linkid=182167).
 
 ## Defining Timeline Events in the Manifest
 
-The client manifest file, which has the extension .ismc, uses XML to specify metadata for Smooth Streaming media. There are three types of StreamIndex elements in the manifest: Video, Audio, and Script. Each type is also identified as a member of the [MediaStreamType](https://msdn.microsoft.com/en-us/library/cc672180\(v=vs.90\)) enumeration.
+The client manifest file, which has the extension .ismc, uses XML to specify metadata for Smooth Streaming media. There are three types of StreamIndex elements in the manifest: Video, Audio, and Script. Each type is also identified as a member of the [MediaStreamType](https://msdn.microsoft.com/library/cc672180) enumeration.
 
 Timeline events are specified in a StreamIndex element as shown in the following example. The manifest can contain as many StreamIndex elements as are required in order to implement markers, captions, animations, or other features that are activated at time-specified locations in the media stream. (For more information about captions, see [Manifest Merge (IIS Smooth Streaming)](manifest-merge.md).) Using manifest syntax, you can identify each StreamIndex element by type and attributes.
 
@@ -239,7 +239,7 @@ To implement navigation in this scenario, follow the instructions under [Definin
           <f>UHVsc2UgdG8gdGhlIGxpbWl0Lg==</f>
         </c>
 
-To set the value of the f element, you must convert the chapter texts to base–64 encoded strings. Use the following conversion method, which is available in the [Convert](https://msdn.microsoft.com/en-us/library/dsfy6sz9\(v=vs.90\)) class.
+To set the value of the f element, you must convert the chapter texts to base–64 encoded strings. Use the following conversion method, which is available in the [Convert](https://msdn.microsoft.com/library/dsfy6sz9) class.
 
     System.Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes("Chapter 1"));
 
@@ -378,7 +378,7 @@ The next code segment is the delegate method that gets the user's selection, if 
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Events (IIS Smooth Streaming)](events.md)
 
@@ -386,7 +386,7 @@ The next code segment is the delegate method that gets the user's selection, if 
 
 [Select and Monitor Bit Rate (IIS Smooth Streaming)](select-and-monitor-bitrate.md)
 
-#### Other Resources
+### Other Resources
 
 [IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
 

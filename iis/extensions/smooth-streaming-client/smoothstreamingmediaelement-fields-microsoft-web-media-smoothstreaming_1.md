@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # SmoothStreamingMediaElement Fields
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 
 ## Fields
@@ -60,11 +54,9 @@ The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-we
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field") ![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[VideoPlaybackTrackProperty](smoothstreamingmediaelement-videoplaybacktrackproperty-field-microsoft-web-media-smoothstreaming_1.md)|Represents a dependency property that specifies the [VideoPlaybackTrack](smoothstreamingmediaelement-videoplaybacktrack-property-microsoft-web-media-smoothstreaming_1.md) property.|
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field") ![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[VolumeProperty](smoothstreamingmediaelement-volumeproperty-field-microsoft-web-media-smoothstreaming_1.md)|Represents a dependency property that specifies the [Volume](smoothstreamingmediaelement-volume-property-microsoft-web-media-smoothstreaming_1.md) property.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

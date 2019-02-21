@@ -9,9 +9,9 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 ---
 
 # Microsoft.Web.Management.DatabaseManager Namespace
@@ -22,7 +22,7 @@ The classes in the Microsoft.Web.Management.DatabaseManager namespace contain a 
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 After you have created a database provider, you must register it in the Global Assembly Cache for your server, and then register it in your Administration.config file before IIS Manager will recognize the provider. The following XML example illustrates a database provider registration from an Administration.config file.
 

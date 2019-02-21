@@ -1,15 +1,7 @@
 ---
-title: "IUriKey Interface | Microsoft Docs"
-ms.custom: ""
+title: "IUriKey Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a922afbd-c069-af8f-3ac8-413c70eb1489
-caps.latest.revision: 48
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IUriKey Interface
 Represents key information for accessing associated data in the Uniform Resource Identifier (URI) cache.  

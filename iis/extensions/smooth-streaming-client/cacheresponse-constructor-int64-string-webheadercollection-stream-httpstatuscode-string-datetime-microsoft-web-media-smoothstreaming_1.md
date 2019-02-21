@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse Constructor (Int64, String, WebHeaderCollection, Stream, HttpStatusCode, String, DateTime)
@@ -34,7 +33,7 @@ Initializes a new instance of the [CacheResponse](cacheresponse-class-microsoft-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -61,7 +60,7 @@ Dim instance As New CacheResponse(contentLength, _
     statusDescription, downloadTime)
 ```
 
-``` csharp
+```csharp
 public CacheResponse(
     long contentLength,
     string contentType,
@@ -73,7 +72,7 @@ public CacheResponse(
 )
 ```
 
-``` c++
+```cpp
 public:
 CacheResponse(
     long long contentLength, 
@@ -97,7 +96,7 @@ new :
         downloadTime:DateTime -> CacheResponse
 ```
 
-``` jscript
+```jscript
 public function CacheResponse(
     contentLength : long, 
     contentType : String, 
@@ -109,57 +108,57 @@ public function CacheResponse(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - contentLength  
-    Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek\(v=vs.95\))  
+    Type: [System.Int64](https://msdn.microsoft.com/library/6yy583ek\(v=vs.95\))  
     A long integer that contains the length of the response in bytes.
 
 <!-- end list -->
 
   - contentType  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     A string object that identifies the content type.
 
 <!-- end list -->
 
   - headers  
-    Type: [System.Net.WebHeaderCollection](https://msdn.microsoft.com/en-us/library/1beth6ct\(v=vs.95\))  
+    Type: [System.Net.WebHeaderCollection](https://msdn.microsoft.com/library/1beth6ct\(v=vs.95\))  
     A System.NetWebHeaderCollection.
 
 <!-- end list -->
 
   - response  
-    Type: [System.IO.Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\))  
-    A [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\)) object that contains the response.
+    Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\))  
+    A [Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\)) object that contains the response.
 
 <!-- end list -->
 
   - statusCode  
-    Type: [System.Net.HttpStatusCode](https://msdn.microsoft.com/en-us/library/f92ssyy1\(v=vs.95\))  
-    An [System.Net.HTTPStatusCode](https://msdn.microsoft.com/en-us/library/f92ssyy1\(v=vs.95\)) enumeration object.
+    Type: [System.Net.HttpStatusCode](https://msdn.microsoft.com/library/f92ssyy1\(v=vs.95\))  
+    An [System.Net.HTTPStatusCode](https://msdn.microsoft.com/library/f92ssyy1\(v=vs.95\)) enumeration object.
 
 <!-- end list -->
 
   - statusDescription  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     A string that contains the status description.
 
 <!-- end list -->
 
   - downloadTime  
-    Type: [System.DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.95\))  
-    A [DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.95\)) object.
+    Type: [System.DateTime](https://msdn.microsoft.com/library/03ybds8y\(v=vs.95\))  
+    A [DateTime](https://msdn.microsoft.com/library/03ybds8y\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

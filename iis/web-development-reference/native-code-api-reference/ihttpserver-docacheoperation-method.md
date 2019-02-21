@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::DoCacheOperation Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::DoCacheOperation Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0a0367e5-0463-3261-e359-41d2205827a4
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::DoCacheOperation Method
 Performs a specific cache operation.  
@@ -25,7 +17,7 @@ virtual HRESULT DoCacheOperation(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `cacheOperation`  
  [IN] A [CACHE_OPERATION](../../web-development-reference\native-code-api-reference/cache-operation-enumeration.md) enumeration value.  
   

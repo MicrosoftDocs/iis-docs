@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SeekCompleted
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.SeekCompleted Event
@@ -38,7 +37,7 @@ Occurs when a seek operation completes.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Event SeekCompleted As EventHandler(Of SeekCompletedEventArgs)
@@ -50,11 +49,11 @@ Dim handler As EventHandler(Of SeekCompletedEventArgs)
 AddHandler instance.SeekCompleted, handler
 ```
 
-``` csharp
+```csharp
 public event EventHandler<SeekCompletedEventArgs> SeekCompleted
 ```
 
-``` c++
+```cpp
 public:
  event EventHandler<SeekCompletedEventArgs^>^ SeekCompleted {
     void add (EventHandler<SeekCompletedEventArgs^>^ value);
@@ -67,7 +66,7 @@ member SeekCompleted : <EventHandler<SeekCompletedEventArgs>,
     SeekCompletedEventArgs>
 ```
 
-``` jscript
+```jscript
 JScript supports the use of events, but not the declaration of new ones.
 ```
 
@@ -77,17 +76,17 @@ For more information, see [Events](events.md).
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

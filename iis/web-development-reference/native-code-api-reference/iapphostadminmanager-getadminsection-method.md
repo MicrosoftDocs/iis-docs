@@ -1,15 +1,7 @@
 ---
-title: "IAppHostAdminManager::GetAdminSection Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostAdminManager::GetAdminSection Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9b611373-5022-0372-942f-4825a8bc3bd3
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostAdminManager::GetAdminSection Method
 Gets an [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration section that has the requested name and configuration path.  
@@ -27,7 +19,7 @@ HRESULT GetAdminSection(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrSectionName`  
  A `BSTR` that contains the path to a valid section name in the configuration system.  
   

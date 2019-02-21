@@ -1,5 +1,5 @@
 ---
-title: Credential.UserName Property  (Microsoft.Web.Media.TransformManager)
+title: Credential.UserName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: UserName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.UserName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.credential.username(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.Credential.get_UserName
 - Microsoft.Web.Media.TransformManager.Credential.UserName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # UserName Property
@@ -40,7 +39,7 @@ Gets or sets a credential user name.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property UserName As String
@@ -56,12 +55,12 @@ value = instance.UserName
 instance.UserName = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string UserName { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ UserName {
@@ -75,19 +74,19 @@ property String^ UserName {
 member UserName : string with get, set
 ```
 
-``` jscript
+```jscript
   function get UserName () : String
 function set UserName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A credential user name.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Credential Class](credential-class-microsoft-web-media-transformmanager.md)
 

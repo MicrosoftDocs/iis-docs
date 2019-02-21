@@ -79,11 +79,9 @@ The [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md)
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[WatchFolder](jobdefinition-watchfolder-property-microsoft-web-media-transformmanager.md)|Gets or sets a file system folder that will be watched for files that will instantiate jobs.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[WorkFolder](jobdefinition-workfolder-property-microsoft-web-media-transformmanager.md)||
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

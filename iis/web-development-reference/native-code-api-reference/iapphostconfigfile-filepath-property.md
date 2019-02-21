@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigFile::FilePath Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigFile::FilePath Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7c19ce49-4b71-5add-9ac5-545a6cad13fa
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigFile::FilePath Property
 Gets the file system path of the configuration file that this [IAppHostConfigFile](../../web-development-reference\native-code-api-reference/iapphostconfigfile-interface.md) interface represents.  
@@ -24,7 +16,7 @@ HRESULT get_FilePath(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrFilePath`  
  A pointer to a `BSTR` that contains the file system path of the configuration file.  
   

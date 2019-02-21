@@ -9,9 +9,9 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.Logger.Dispose
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
@@ -28,11 +28,9 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Dispose() () () ()](logger-dispose-method-microsoft-web-media-transformmanager_1.md)|Disposes logging resources.|
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Dispose(Boolean)](logger-dispose-method-boolean-microsoft-web-media-transformmanager.md)|Disposes logging resources and optionally releases the managed resources.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [Logger Class](logger-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "ApplicationPoolProcessorSettings Class1 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationPoolProcessorSettings Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6e61a326-16df-fe3c-d9f5-0face443ef71
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationPoolProcessorSettings Class1
 Configures the CPU settings for an application pool.  

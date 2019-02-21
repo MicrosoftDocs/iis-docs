@@ -1,15 +1,7 @@
 ---
-title: "IHttpApplication2::EndApplicationWarmup Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpApplication2::EndApplicationWarmup Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cff4a5d4-1e23-489b-8b50-ce4466d505dc
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpApplication2::EndApplicationWarmup Method
 Ends the application warm up process.  
@@ -22,7 +14,7 @@ virtual VOID EndApplicationWarmup(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method accepts no parameters.  
   
 ## Return Value  

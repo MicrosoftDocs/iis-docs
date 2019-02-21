@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskStatus.SetTaskCount
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SetTaskCount Method
@@ -36,7 +35,7 @@ Sets the number of tasks to be performed by the scheduler.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub SetTaskCount ( _
@@ -50,13 +49,13 @@ Dim taskCount As Integer
 instance.SetTaskCount(taskCount)
 ```
 
-``` csharp
+```csharp
   public void SetTaskCount(
     int taskCount
 )
 ```
 
-``` c++
+```cpp
   public:
 void SetTaskCount(
     int taskCount
@@ -68,21 +67,21 @@ void SetTaskCount(
         taskCount:int -> unit 
 ```
 
-``` jscript
+```jscript
   public function SetTaskCount(
     taskCount : int
 )
 ```
 
-#### Parameters
+### Parameters
 
   - taskCount  
-    Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
     The number of tasks to perform.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskStatus Class](taskstatus-class-microsoft-web-media-transformmanager.md)
 

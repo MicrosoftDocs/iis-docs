@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConstantValue Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConstantValue Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 10e3f9c1-2fad-4a18-8e27-1c0ec23edeb8
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConstantValue Interface
 Provides methods that access the string names of a specific constant and its corresponding integer value.  

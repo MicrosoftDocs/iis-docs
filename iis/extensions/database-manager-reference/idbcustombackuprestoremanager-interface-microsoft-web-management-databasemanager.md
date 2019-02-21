@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbCustomBackupRestoreManager
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbCustomBackupRestoreManager Interface
@@ -35,7 +34,7 @@ Represents a custom database backup and restore manager interface.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Interface IDbCustomBackupRestoreManager _
     Inherits IDbBackupManager, IDbRestoreManager
@@ -43,17 +42,17 @@ Public Interface IDbCustomBackupRestoreManager _
 Dim instance As IDbCustomBackupRestoreManager
 ```
 
-``` csharp
+```csharp
 public interface IDbCustomBackupRestoreManager : IDbBackupManager, 
     IDbRestoreManager
 ```
 
-``` c++
+```cpp
 public interface class IDbCustomBackupRestoreManager : IDbBackupManager, 
     IDbRestoreManager
 ```
 
-``` jscript
+```jscript
 public interface IDbCustomBackupRestoreManager extends IDbBackupManager, IDbRestoreManager
 ```
 
@@ -66,8 +65,6 @@ The IDbCustomBackupRestoreManager type exposes the following members.
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[CreateBackup](idbbackupmanager-createbackup-method-microsoft-web-management-databasemanager.md)|Creates a database backup. (Inherited from [IDbBackupManager](idbbackupmanager-interface-microsoft-web-management-databasemanager.md).)|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[ListBackups](idbcustombackuprestoremanager-listbackups-method-microsoft-web-management-databasemanager.md)|Retrieves a list of database backup names for a custom backup and restore module.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[RestoreBackup](idbrestoremanager-restorebackup-method-microsoft-web-management-databasemanager.md)|Restores a database backup. (Inherited from [IDbRestoreManager](idbrestoremanager-interface-microsoft-web-management-databasemanager.md).)|
-
-Top
 
 ## Remarks
 
@@ -98,7 +95,7 @@ The following example shows a sample registration for a custom backup and restor
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider implements the IDbCustomBackupRestoreManager interface, your provider must also implement all of the following abstract members:
 
@@ -110,7 +107,7 @@ If your provider implements the IDbCustomBackupRestoreManager interface, your pr
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
 

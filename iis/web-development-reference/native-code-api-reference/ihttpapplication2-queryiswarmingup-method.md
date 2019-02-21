@@ -1,15 +1,7 @@
 ---
-title: "IHttpApplication2::QueryIsWarmingUp Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpApplication2::QueryIsWarmingUp Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cb47f0f0-5e7d-4aae-8051-6feccedd661d
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpApplication2::QueryIsWarmingUp Method
 Indicates whether the application is in the process of warming up.  
@@ -22,7 +14,7 @@ virtual BOOL QueryIsWarmingUp(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method accepts no parameters.  
   
 ## Return Value  

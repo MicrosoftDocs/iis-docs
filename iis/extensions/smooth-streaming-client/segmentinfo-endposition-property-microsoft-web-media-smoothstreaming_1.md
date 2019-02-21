@@ -1,5 +1,5 @@
 ---
-title: SegmentInfo.EndPosition Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SegmentInfo.EndPosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: EndPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.EndPosition
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.segmentinfo.endposition(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.EndPosition
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.get_EndPosition
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SegmentInfo.EndPosition Property
@@ -38,7 +37,7 @@ Gets the minimum of the end time for the last audio chunk and last video chunk.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property EndPosition As TimeSpan
@@ -51,11 +50,11 @@ Dim value As TimeSpan
 value = instance.EndPosition
 ```
 
-``` csharp
+```csharp
 public TimeSpan EndPosition { get; }
 ```
 
-``` c++
+```cpp
 public:
 property TimeSpan EndPosition {
     TimeSpan get ();
@@ -66,28 +65,28 @@ property TimeSpan EndPosition {
 member EndPosition : TimeSpan
 ```
 
-``` jscript
+```jscript
 function get EndPosition () : TimeSpan
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))  
-A [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\)) object.
+Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))  
+A [TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SegmentInfo Class](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

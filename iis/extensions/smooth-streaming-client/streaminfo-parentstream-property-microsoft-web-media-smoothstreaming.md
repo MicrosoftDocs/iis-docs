@@ -1,5 +1,5 @@
 ---
-title: StreamInfo.ParentStream Property  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamInfo.ParentStream Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ParentStream Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.ParentStream
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.parentstream(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.get_ParentStream
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.set_ParentStream
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ParentStream Property
@@ -39,7 +38,7 @@ Gets or sets the parent stream in the case of a sparse stream. Otherwise this is
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ParentStream As StreamInfo
@@ -51,11 +50,11 @@ Dim value As StreamInfo
 value = instance.ParentStream
 ```
 
-``` csharp
+```csharp
   public StreamInfo ParentStream { get; internal set; }
 ```
 
-``` c++
+```cpp
   public:
 property StreamInfo^ ParentStream {
     StreamInfo^ get ();
@@ -63,33 +62,33 @@ property StreamInfo^ ParentStream {
 }
 ```
 
-``` jscript
+```jscript
   function get ParentStream () : StreamInfo
 internal function set ParentStream (value : StreamInfo)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)  
+Type: [Microsoft.Web.Media.SmoothStreaming.StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)  
 A [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

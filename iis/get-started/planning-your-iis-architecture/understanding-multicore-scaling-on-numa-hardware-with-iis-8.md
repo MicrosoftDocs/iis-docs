@@ -62,7 +62,7 @@ The below is the example to configure to of the applicationHost.config.
 > [!NOTE]
 > You can configure more than 2 processor group even when there is a fewer processors than 64 LPs.
 
-[https://msdn.microsoft.com/en-us/library/ff542298(VS.85).aspx](https://msdn.microsoft.com/en-us/library/ff542298(VS.85).aspx)
+[https://msdn.microsoft.com/library/ff542298(VS.85).aspx](https://msdn.microsoft.com/library/ff542298(VS.85).aspx)
 
 In this scenario, some bits of smpProcessorAffinityMask and smpProcessorAffinityMask2 attributes will be ignored.
 

@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnPostMapRequestHandler Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnPostMapRequestHandler Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0890eee7-5ac6-7ad3-47f8-b211611aa90f
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnPostMapRequestHandler Method
 Represents the method that will handle a `MapRequestHandler` post-event, which occurs after IIS has mapped the current request to the appropriate event handler.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostMapRequestHandler(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

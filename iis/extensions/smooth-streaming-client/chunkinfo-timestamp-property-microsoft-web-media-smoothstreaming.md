@@ -1,5 +1,5 @@
 ---
-title: ChunkInfo.TimeStamp Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ChunkInfo.TimeStamp Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: TimeStamp Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkInfo.TimeStamp
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkinfo.timestamp(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkInfo.set_TimeStamp
 - Microsoft.Web.Media.SmoothStreaming.ChunkInfo.TimeStamp
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TimeStamp Property
@@ -39,7 +38,7 @@ Gets or sets the start time for the data chunk.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property TimeStamp As TimeSpan
@@ -51,11 +50,11 @@ Dim value As TimeSpan
 value = instance.TimeStamp
 ```
 
-``` csharp
+```csharp
   public TimeSpan TimeStamp { get; internal set; }
 ```
 
-``` c++
+```cpp
   public:
 property TimeSpan TimeStamp {
     TimeSpan get ();
@@ -63,33 +62,33 @@ property TimeSpan TimeStamp {
 }
 ```
 
-``` jscript
+```jscript
   function get TimeStamp () : TimeSpan
 internal function set TimeStamp (value : TimeSpan)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\))  
-A [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\)) object.  
+Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577)  
+A [TimeSpan](https://msdn.microsoft.com/library/269ew577) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkInfo Class](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

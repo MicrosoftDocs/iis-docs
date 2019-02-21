@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgressProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.DownloadProgressProperty Field
@@ -36,7 +35,7 @@ Represents a dependency property that specifies the [DownloadProgress](smoothstr
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared ReadOnly DownloadProgressProperty As DependencyProperty
@@ -47,11 +46,11 @@ Dim value As DependencyProperty
 value = SmoothStreamingMediaElement.DownloadProgressProperty
 ```
 
-``` csharp
+```csharp
 public static readonly DependencyProperty DownloadProgressProperty
 ```
 
-``` c++
+```cpp
 public:
 static initonly DependencyProperty^ DownloadProgressProperty
 ```
@@ -60,23 +59,23 @@ static initonly DependencyProperty^ DownloadProgressProperty
 static val DownloadProgressProperty: DependencyProperty
 ```
 
-``` jscript
+```jscript
 public static final var DownloadProgressProperty : DependencyProperty
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

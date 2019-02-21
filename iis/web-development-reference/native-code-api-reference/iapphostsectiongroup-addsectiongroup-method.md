@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionGroup::AddSectionGroup Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionGroup::AddSectionGroup Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 20245f26-f649-fb6e-56ac-c319d0c1512c
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionGroup::AddSectionGroup Method
 Adds a new nested configuration section group under the current configuration section group.  
@@ -25,7 +17,7 @@ HRESULT AddSectionGroup(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrSectionGroupName`  
  A `BSTR` that contains the name of the new section group to add.  
   

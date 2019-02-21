@@ -1,15 +1,7 @@
 ---
-title: "ApplicationPoolContainsApplication Class1 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationPoolContainsApplication Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7d574944-1324-9e06-bd93-c1c69280cc53
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationPoolContainsApplication Class1
 Provides a relationship between an application pool and its applications.  

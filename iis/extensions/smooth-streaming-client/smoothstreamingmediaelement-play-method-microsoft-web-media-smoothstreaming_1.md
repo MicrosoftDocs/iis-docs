@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Play
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.Play Method
@@ -36,7 +35,7 @@ Starts playing audio or video media.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Overridable Sub Play
@@ -47,11 +46,11 @@ Dim instance As SmoothStreamingMediaElement
 instance.Play()
 ```
 
-``` csharp
+```csharp
 public virtual void Play()
 ```
 
-``` c++
+```cpp
 public:
 virtual void Play()
 ```
@@ -61,7 +60,7 @@ abstract Play : unit -> unit
 override Play : unit -> unit 
 ```
 
-``` jscript
+```jscript
 public function Play()
 ```
 
@@ -71,17 +70,17 @@ For more information, see [Microsoft Smooth Streaming Client 2.0](microsoft-smoo
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

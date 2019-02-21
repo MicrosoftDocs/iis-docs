@@ -1,15 +1,7 @@
 ---
-title: "IGlobalConfigurationChangeProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalConfigurationChangeProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c919ff1f-d592-f8ec-f2a5-f644eb0f7e7a
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalConfigurationChangeProvider Interface
 Provides a global-level interface for [GL_CONFIGURATION_CHANGE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notifications.  

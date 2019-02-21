@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigLocationCollection::RenameLocation method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigLocationCollection::RenameLocation method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2d2cf153-c806-40e3-9c18-c681f7146796
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigLocationCollection::RenameLocation method
 Changes the location at the specified index in the collection.  
@@ -23,7 +15,7 @@ HRESULT RenameLocation(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `varIndex`  
  A `VARIANT` that contains the index of the configuration location to rename. The index can contain a `BSTR` that specifies the location path.  
   

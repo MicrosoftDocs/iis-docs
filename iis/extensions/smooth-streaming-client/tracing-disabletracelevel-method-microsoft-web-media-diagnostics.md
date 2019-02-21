@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.DisableTraceLevel
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DisableTraceLevel Method
@@ -35,7 +34,7 @@ Disables the trace severity level that is specified by the tracelevel parameter.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Sub DisableTraceLevel ( _
@@ -48,48 +47,48 @@ Disables the trace severity level that is specified by the tracelevel parameter.
 Tracing.DisableTraceLevel(traceLevel)
 ```
 
-``` csharp
+```csharp
   public static void DisableTraceLevel(
     TraceLevel traceLevel
 )
 ```
 
-``` c++
+```cpp
   public:
 static void DisableTraceLevel(
     TraceLevel traceLevel
 )
 ```
 
-``` jscript
+```jscript
   public static function DisableTraceLevel(
     traceLevel : TraceLevel
 )
 ```
 
-#### Parameters
+### Parameters
 
   - traceLevel  
-    Type: [Microsoft.Web.Media.Diagnostics. . :: . .TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md)  
+    Type: [Microsoft.Web.Media.Diagnostics.TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md)  
     A [TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md) enumeration object that specifies the trace level to be disabled.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

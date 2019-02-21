@@ -1,15 +1,7 @@
 ---
-title: "REQUEST_NOTIFICATION_STATUS Enumeration | Microsoft Docs"
-ms.custom: ""
+title: "REQUEST_NOTIFICATION_STATUS Enumeration"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 318f6aef-c052-9021-b89f-fbcfe9caf014
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # REQUEST_NOTIFICATION_STATUS Enumeration
 Defines the return values for request-level notifications.  

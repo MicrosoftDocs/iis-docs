@@ -136,7 +136,7 @@ If the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Silverlight Applications](silverlight-applications.md)
 

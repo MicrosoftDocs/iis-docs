@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElement::Name Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElement::Name Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 160b5e71-ac79-9d7d-1c7e-880e191967e2
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElement::Name Property
 Gets the name of the current element.  
@@ -23,7 +15,7 @@ HRESULT Name(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrName`  
  A pointer to a `BSTR` that contains name of the current element.  
   

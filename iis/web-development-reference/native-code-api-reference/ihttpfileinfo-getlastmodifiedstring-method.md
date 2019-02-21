@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo::GetLastModifiedString Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo::GetLastModifiedString Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 935948f5-f9cc-9cdf-10f9-46b5dcc86ea9
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo::GetLastModifiedString Method
 Retrieves the last modified string of the corresponding file for an [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual PCSTR GetLastModifiedString(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

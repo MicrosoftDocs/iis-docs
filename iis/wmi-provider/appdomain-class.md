@@ -1,15 +1,7 @@
 ---
-title: "AppDomain Class | Microsoft Docs"
-ms.custom: ""
+title: "AppDomain Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 946ad294-b5f2-15ee-f980-853d28c89400
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AppDomain Class
 Represents an IIS application domain.  

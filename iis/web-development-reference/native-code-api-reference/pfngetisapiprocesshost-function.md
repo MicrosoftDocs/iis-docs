@@ -1,15 +1,7 @@
 ---
-title: "PFNGetIsapiProcessHost Function | Microsoft Docs"
-ms.custom: ""
+title: "PFNGetIsapiProcessHost Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d4f3a36f-6da3-f4f9-6d63-4d35a8ca8e1a
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFNGetIsapiProcessHost Function
 Provides a `typedef` to retrieve a reference to the process model host.  
@@ -24,7 +16,7 @@ typedef HRESULT(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pFunctions`  
  A pointer to an [IProcessHostSupportFunctions](../../web-development-reference\native-code-api-reference/iprocesshostsupportfunctions-interface.md) interface.  
   

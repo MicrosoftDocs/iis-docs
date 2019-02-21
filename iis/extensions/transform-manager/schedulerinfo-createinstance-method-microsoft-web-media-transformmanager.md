@@ -9,9 +9,9 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.CreateInstance
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
@@ -28,11 +28,9 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CreateInstance() () () ()](schedulerinfo-createinstance-method-microsoft-web-media-transformmanager_1.md)|Creates a new instance of a [Scheduler](scheduler-class-microsoft-web-media-transformmanager.md) object.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[CreateInstance(Logger)](schedulerinfo-createinstance-method-logger-microsoft-web-media-transformmanager.md)|Creates a new instance of a [Scheduler](scheduler-class-microsoft-web-media-transformmanager.md) object by using logger object to log details.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [SchedulerInfo Class](schedulerinfo-class-microsoft-web-media-transformmanager.md)
 

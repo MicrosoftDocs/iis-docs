@@ -1,15 +1,7 @@
 ---
-title: "IScriptMapInfo::GetIsStarScriptMap Method | Microsoft Docs"
-ms.custom: ""
+title: "IScriptMapInfo::GetIsStarScriptMap Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4b357c85-4be2-8ec0-d43e-8453736ddb9b
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IScriptMapInfo::GetIsStarScriptMap Method
 Retrieves a value that indicates whether a request handler is a wildcard mapping.  
@@ -22,7 +14,7 @@ virtual BOOL GetIsStarScriptMap(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -1,5 +1,5 @@
 ---
-title: ColumnDataInfo.NewValue Property  (Microsoft.Web.Management.DatabaseManager)
+title: ColumnDataInfo.NewValue Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: NewValue Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.NewValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.columndatainfo.newvalue(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.get_NewValue
 - Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.set_NewValue
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ColumnDataInfo.NewValue Property
@@ -39,7 +38,7 @@ Gets or sets an object that represents a new value.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property NewValue As Object
 'Usage
@@ -49,11 +48,11 @@ Dim value As Object
 value = instance.NewValue
 ```
 
-``` csharp
+```csharp
 public Object NewValue { get; internal set; }
 ```
 
-``` c++
+```cpp
 public:
 property Object^ NewValue {
     Object^ get ();
@@ -61,14 +60,14 @@ property Object^ NewValue {
 }
 ```
 
-``` jscript
+```jscript
 function get NewValue () : Object
 internal function set NewValue (value : Object)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
+Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
 An object that represents the new value that was added to the column.  
 
 ## Examples
@@ -80,7 +79,7 @@ The following code sample implements the InsertRow method to insert data into a 
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     Public Function InsertRow( _
             ByVal connectionString As String, _
@@ -220,7 +219,7 @@ The following code sample implements the InsertRow method to insert data into a 
 
 ```
 
-``` csharp
+```csharp
 
         public object[] InsertRow(string connectionString, string tableName, string schema, IList<ColumnDataInfo> columnDataInfoList)
         {
@@ -381,11 +380,11 @@ The following code sample implements the InsertRow method to insert data into a 
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ColumnDataInfo Class](columndatainfo-class-microsoft-web-management-databasemanager.md)
 

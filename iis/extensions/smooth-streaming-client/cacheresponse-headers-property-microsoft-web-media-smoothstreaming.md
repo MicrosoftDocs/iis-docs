@@ -1,5 +1,5 @@
 ---
-title: CacheResponse.Headers Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse.Headers Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Headers Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.Headers
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.headers(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.Headers
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_Headers
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Headers Property
@@ -39,7 +38,7 @@ Metadata collection of response.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Headers As WebHeaderCollection
@@ -51,11 +50,11 @@ Dim value As WebHeaderCollection
 value = instance.Headers
 ```
 
-``` csharp
+```csharp
   public WebHeaderCollection Headers { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property WebHeaderCollection^ Headers {
     WebHeaderCollection^ get ();
@@ -63,33 +62,33 @@ property WebHeaderCollection^ Headers {
 }
 ```
 
-``` jscript
+```jscript
   function get Headers () : WebHeaderCollection
 private function set Headers (value : WebHeaderCollection)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Net. . :: . .WebHeaderCollection](https://msdn.microsoft.com/en-us/library/1beth6ct\(v=vs.90\))  
+Type: [System.Net.WebHeaderCollection](https://msdn.microsoft.com/library/1beth6ct)  
 A NetWebHeaderCollection.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

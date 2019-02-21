@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationBase
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
@@ -29,11 +29,9 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ConfigurationBase(XNamespace)](configurationbase-constructor-xnamespace-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md) class using the specified namespace.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ConfigurationBase(XNamespace, FileInfo)](configurationbase-constructor-xnamespace-fileinfo-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md) class using the specified namespace and file information.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

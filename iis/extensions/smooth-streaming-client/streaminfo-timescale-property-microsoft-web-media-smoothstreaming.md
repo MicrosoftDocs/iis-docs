@@ -1,5 +1,5 @@
 ---
-title: StreamInfo.Timescale Property  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamInfo.Timescale Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Timescale Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.TimeScale
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.timescale(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.get_Timescale
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.Timescale
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.Timescale Property
@@ -40,7 +39,7 @@ Gets or sets the time scale of the stream.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Timescale As Long
@@ -56,11 +55,11 @@ value = instance.Timescale
 instance.Timescale = value
 ```
 
-``` csharp
+```csharp
 public long Timescale { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property long long Timescale {
     long long get ();
@@ -72,25 +71,25 @@ property long long Timescale {
 member Timescale : int64 with get, set
 ```
 
-``` jscript
+```jscript
 function get Timescale () : long
 function set Timescale (value : long)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek\(v=vs.95\))  
+Type: [System.Int64](https://msdn.microsoft.com/library/6yy583ek\(v=vs.95\))  
 A long integer that specifies the time scale.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

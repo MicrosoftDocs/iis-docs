@@ -21,11 +21,9 @@ The [SmoothStreamingErrorEventArgs](smoothstreamingerroreventargs-class-microsof
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ErrorMessage](smoothstreamingerroreventargs-errormessage-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [ErrorMessage](smoothstreamingerroreventargs-errormessage-property-microsoft-web-media-smoothstreaming_1.md) property.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingErrorEventArgs Class](smoothstreamingerroreventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

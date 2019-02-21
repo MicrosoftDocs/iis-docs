@@ -1,15 +1,7 @@
 ---
-title: "IAuthenticationProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAuthenticationProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0b7fa94a-41b3-0863-1549-ad130e749269
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAuthenticationProvider Interface
 Accepts a validated [IHttpUser](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md) pointer through the [SetUser](../../web-development-reference\native-code-api-reference/iauthenticationprovider-setuser-method.md) method. Once a non-NULL `IHttpUser` pointer is set, the user is authenticated and request processing can continue.  

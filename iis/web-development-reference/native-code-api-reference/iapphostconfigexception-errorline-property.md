@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigException::ErrorLine Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigException::ErrorLine Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 88c1e99e-3362-e266-ce35-9c0cf7916cb6
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigException::ErrorLine Property
 Gets the contents of line in the configuration file that caused the current exception to be thrown.  
@@ -23,7 +15,7 @@ HRESULT get_ErrorLine(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrErrorLine`  
  A pointer to a `BSTR` that contains the line that caused the exception.  
   

@@ -1,15 +1,7 @@
 ---
-title: "TrustLevel Class | Microsoft Docs"
-ms.custom: ""
+title: "TrustLevel Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b83352ab-7aed-6422-b311-8e9a2b615ab0
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TrustLevel Class
 Configures a trust level for Web applications on a Web server.  
@@ -92,7 +84,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.TrustLevel](/dotnet/api/system.web.configuration.trustlevel?view=netframework-4.7.2)
+ [System.Web.Configuration.TrustLevel](/dotnet/api/system.web.configuration.trustlevel)
  [Administering Security Policy](http://go.microsoft.com/fwlink/?LinkId=69326)   
  [ASP.NET Trust Levels and Policy Files](http://go.microsoft.com/fwlink/?LinkId=69328)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

@@ -1,5 +1,5 @@
 ---
-title: SSMEDrmSetupDecryptorCompletedEventArgs.ChunkInfo Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SSMEDrmSetupDecryptorCompletedEventArgs.ChunkInfo Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkInfo Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs.ChunkInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.ssmedrmsetupdecryptorcompletedeventargs.chunkinfo(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs.set_ChunkInfo
 - Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs.ChunkInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SSMEDrmSetupDecryptorCompletedEventArgs.ChunkInfo Property
@@ -40,7 +39,7 @@ Gets the chunk information associated with the decryptor.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property ChunkInfo As ChunkInfo
@@ -54,11 +53,11 @@ Dim value As ChunkInfo
 value = instance.ChunkInfo
 ```
 
-``` csharp
+```csharp
 public ChunkInfo ChunkInfo { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property ChunkInfo^ ChunkInfo {
     ChunkInfo^ get ();
@@ -70,25 +69,25 @@ property ChunkInfo^ ChunkInfo {
 member ChunkInfo : ChunkInfo with get, private set
 ```
 
-``` jscript
+```jscript
 function get ChunkInfo () : ChunkInfo
 private function set ChunkInfo (value : ChunkInfo)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.ChunkInfo](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md)  
 An object representing the chunk information.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SSMEDrmSetupDecryptorCompletedEventArgs Class](ssmedrmsetupdecryptorcompletedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

@@ -82,7 +82,7 @@ To run some ASP.NET applications from a remote file server, the impersonated use
 
 The .NET framework uses automatic garbage collection to manage memory for all applications. When the garbage collector (GC) decides that sufficient garbage has accumulated and that it is efficient to do so, it performs a collection to free some memory. This process is fully automatic, but there are settings that can make the process more efficient.
 
-For more information about the GC, see "*Chapter 5 - Improving Managed Code Performance*" and look at the section *[Garbage Collection Explained](https://msdn.microsoft.com/en-us/library/ms998547.aspx#scalenetchapt05_topic9 "Garbage Collection Explained")*.
+For more information about the GC, see "*Chapter 5 - Improving Managed Code Performance*" and look at the section *[Garbage Collection Explained](https://msdn.microsoft.com/library/ms998547.aspx#scalenetchapt05_topic9 "Garbage Collection Explained")*.
 
 ### Enabling the Workstation Garbage Collector
 

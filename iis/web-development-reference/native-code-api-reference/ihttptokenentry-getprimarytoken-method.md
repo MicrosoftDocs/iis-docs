@@ -1,15 +1,7 @@
 ---
-title: "IHttpTokenEntry::GetPrimaryToken Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpTokenEntry::GetPrimaryToken Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3c259dad-6886-1f73-1dad-14f576f6b030
-caps.latest.revision: 32
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpTokenEntry::GetPrimaryToken Method
 Returns the primary token for the process that is servicing a request.  
@@ -22,7 +14,7 @@ virtual HANDLE GetPrimaryToken(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

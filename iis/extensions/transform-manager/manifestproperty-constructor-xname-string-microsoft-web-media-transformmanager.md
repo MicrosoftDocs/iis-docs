@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestProperty Constructor (XName, String)
@@ -34,7 +33,7 @@ Initializes a new instance of the [ManifestProperty](manifestproperty-class-micr
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -49,14 +48,14 @@ Dim value As String
 Dim instance As New ManifestProperty(name, value)
 ```
 
-``` csharp
+```csharp
   public ManifestProperty(
     XName name,
     string value
 )
 ```
 
-``` c++
+```cpp
   public:
 ManifestProperty(
     XName^ name, 
@@ -70,28 +69,28 @@ ManifestProperty(
         value:string -> ManifestProperty
 ```
 
-``` jscript
+```jscript
   public function ManifestProperty(
     name : XName, 
     value : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - name  
-    Type: [System.Xml.Linq. . :: . .XName](https://msdn.microsoft.com/en-us/library/bb347810\(v=vs.90\))  
+    Type: [System.Xml.Linq.XName](https://msdn.microsoft.com/library/bb347810)  
     The name of the manifest property.  
 
 <!-- end list -->
 
   - value  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The value of the manifest property.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

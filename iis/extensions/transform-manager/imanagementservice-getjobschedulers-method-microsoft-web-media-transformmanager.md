@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService.GetJobSchedulers
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobSchedulers Method
@@ -36,7 +35,7 @@ Returns all [JobScheduler](jobscheduler-class-microsoft-web-media-transformmanag
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Function GetJobSchedulers As Collection(Of JobScheduler)
@@ -48,12 +47,12 @@ Dim returnValue As Collection(Of JobScheduler)
 returnValue = instance.GetJobSchedulers()
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 Collection<JobScheduler> GetJobSchedulers()
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 Collection<JobScheduler^>^ GetJobSchedulers()
 ```
@@ -63,18 +62,18 @@ Collection<JobScheduler^>^ GetJobSchedulers()
 abstract GetJobSchedulers : unit -> Collection<JobScheduler> 
 ```
 
-``` jscript
+```jscript
   function GetJobSchedulers() : Collection<JobScheduler>
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 A collection of [JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md) objects.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

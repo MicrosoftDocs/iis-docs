@@ -1,15 +1,7 @@
 ---
-title: "Tracing Constants | Microsoft Docs"
-ms.custom: ""
+title: "Tracing Constants"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 03514e54-e634-49d2-ac3f-08866fca03ee
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Tracing Constants
 This topic describes the constants that are defined in the Httptrace.h header file.  

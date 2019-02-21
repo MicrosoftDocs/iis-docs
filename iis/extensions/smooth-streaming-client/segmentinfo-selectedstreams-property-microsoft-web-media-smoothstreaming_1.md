@@ -1,5 +1,5 @@
 ---
-title: SegmentInfo.SelectedStreams Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SegmentInfo.SelectedStreams Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SelectedStreams Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.SelectedStreams
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.segmentinfo.selectedstreams(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.get_SelectedStreams
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.SelectedStreams
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SegmentInfo.SelectedStreams Property
@@ -38,7 +37,7 @@ Gets the selected [StreamInfo](streaminfo-class-microsoft-web-media-smoothstream
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property SelectedStreams As IList(Of StreamInfo)
@@ -51,11 +50,11 @@ Dim value As IList(Of StreamInfo)
 value = instance.SelectedStreams
 ```
 
-``` csharp
+```csharp
 public IList<StreamInfo> SelectedStreams { get; }
 ```
 
-``` c++
+```cpp
 public:
 property IList<StreamInfo^>^ SelectedStreams {
     IList<StreamInfo^>^ get ();
@@ -66,28 +65,28 @@ property IList<StreamInfo^>^ SelectedStreams {
 member SelectedStreams : IList<StreamInfo>
 ```
 
-``` jscript
+```jscript
 function get SelectedStreams () : IList<StreamInfo>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.95\))\<[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6\(v=vs.95\))\<[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
 A generic IList of type [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md).
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SegmentInfo Class](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

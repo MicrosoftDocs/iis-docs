@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.Shutdown
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Shutdown Method
@@ -36,7 +35,7 @@ Shuts down the IIS Transform Manager service.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Sub Shutdown
@@ -45,11 +44,11 @@ Shuts down the IIS Transform Manager service.
 TransformManagerService.Shutdown()
 ```
 
-``` csharp
+```csharp
   public static void Shutdown()
 ```
 
-``` c++
+```cpp
   public:
 static void Shutdown()
 ```
@@ -58,13 +57,13 @@ static void Shutdown()
   static member Shutdown : unit -> unit 
 ```
 
-``` jscript
+```jscript
   public static function Shutdown()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

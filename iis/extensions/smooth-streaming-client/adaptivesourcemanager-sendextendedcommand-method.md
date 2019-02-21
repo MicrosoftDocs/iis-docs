@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,14 +20,14 @@ Reserved for future use.
 
 ## Syntax
 
-``` csharp
+```csharp
 public void SendExtendedCommand(
 string cmd,
 string parameter
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual void SendExtendedCommand(
 [InAttribute] String^ cmd, 
@@ -35,7 +35,7 @@ virtual void SendExtendedCommand(
 ) sealed
 ```
 
-``` jscript
+```jscript
 public final function SendExtendedCommand(
 cmd : String, 
 parameter : String

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionGroup::Count Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionGroup::Count Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: eeb5d8fa-6242-c708-866e-895fffc2d725
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionGroup::Count Property
 Gets the current number of configuration section groups that are nested in the current section group.  
@@ -23,7 +15,7 @@ HRESULT get_Count(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcSectionGroup`  
  A pointer to a `ULONG` that contains the number of configuration section groups that are nested under the current configuration section group object.  
   

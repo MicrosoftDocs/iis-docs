@@ -1,5 +1,5 @@
 ---
-title: WorkQueue.ConfiguringJobs Property  (Microsoft.Web.Media.TransformManager)
+title: WorkQueue.ConfiguringJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfiguringJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.WorkQueue.ConfiguringJobs
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.workqueue.configuringjobs(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.WorkQueue.get_ConfiguringJobs
 - Microsoft.Web.Media.TransformManager.WorkQueue.ConfiguringJobs
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfiguringJobs Property
@@ -38,7 +37,7 @@ Gets a collection of job details that specify jobs that are being configured.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property ConfiguringJobs As Collection(Of JobDetails)
@@ -51,11 +50,11 @@ Dim value As Collection(Of JobDetails)
 value = instance.ConfiguringJobs
 ```
 
-``` csharp
+```csharp
   public Collection<JobDetails> ConfiguringJobs { get; }
 ```
 
-``` c++
+```cpp
   public:
 property Collection<JobDetails^>^ ConfiguringJobs {
     Collection<JobDetails^>^ get ();
@@ -66,18 +65,18 @@ property Collection<JobDetails^>^ ConfiguringJobs {
   member ConfiguringJobs : Collection<JobDetails>
 ```
 
-``` jscript
+```jscript
   function get ConfiguringJobs () : Collection<JobDetails>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 A collection of job details that specify jobs that are being configured.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [WorkQueue Class](workqueue-class-microsoft-web-media-transformmanager.md)
 

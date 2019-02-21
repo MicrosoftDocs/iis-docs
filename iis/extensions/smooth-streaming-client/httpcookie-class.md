@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,20 +20,20 @@ HttpCookie interface.
 
 ## Syntax
 
-``` csharp
+```csharp
 [ActivatableAttribute()]
 
 [VersionAttribute()]
 public sealed class HttpCookie : IHttpCookie
 ```
 
-``` c++
+```cpp
 [ActivatableAttribute()]
 [VersionAttribute()]
 public ref class HttpCookie sealed : IHttpCookie
 ```
 
-``` jscript
+```jscript
 public final class HttpCookie implements IHttpCookie
 ```
 

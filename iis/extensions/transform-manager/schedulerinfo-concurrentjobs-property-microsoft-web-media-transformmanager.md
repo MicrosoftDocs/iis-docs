@@ -1,5 +1,5 @@
 ---
-title: SchedulerInfo.ConcurrentJobs Property  (Microsoft.Web.Media.TransformManager)
+title: SchedulerInfo.ConcurrentJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConcurrentJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.SchedulerInfo.ConcurrentJobs
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.schedulerinfo.concurrentjobs(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.ConcurrentJobs
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.get_ConcurrentJobs
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConcurrentJobs Property
@@ -40,7 +39,7 @@ Gets or sets the number of concurrent jobs that a job manager can start.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ConcurrentJobs As Integer
@@ -56,11 +55,11 @@ value = instance.ConcurrentJobs
 instance.ConcurrentJobs = value
 ```
 
-``` csharp
+```csharp
   public int ConcurrentJobs { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property int ConcurrentJobs {
     int get ();
@@ -72,19 +71,19 @@ property int ConcurrentJobs {
   member ConcurrentJobs : int with get, set
 ```
 
-``` jscript
+```jscript
   function get ConcurrentJobs () : int
 function set ConcurrentJobs (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The number of concurrent jobs.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SchedulerInfo Class](schedulerinfo-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::PropertyValues Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::PropertyValues Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ae129322-e427-4265-9498-4ae6656644c6
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::PropertyValues Property
 Gets a collection of possible and applicable constant values for the specified property.  
@@ -23,7 +15,7 @@ Gets a collection of possible and applicable constant values for the specified p
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppValues`  
  Contains the collection of possible values.  
   

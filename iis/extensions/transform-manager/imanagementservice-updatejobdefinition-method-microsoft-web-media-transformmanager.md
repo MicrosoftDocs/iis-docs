@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService.UpdateJobDefinition
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateJobDefinition Method
@@ -36,7 +35,7 @@ Adds or replaces a [JobDefinition](jobdefinition-class-microsoft-web-media-trans
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Sub UpdateJobDefinition ( _
@@ -50,14 +49,14 @@ Dim jobDefinition As JobDefinition
 instance.UpdateJobDefinition(jobDefinition)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 void UpdateJobDefinition(
     JobDefinition jobDefinition
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 void UpdateJobDefinition(
     JobDefinition^ jobDefinition
@@ -70,16 +69,16 @@ abstract UpdateJobDefinition :
         jobDefinition:JobDefinition -> unit 
 ```
 
-``` jscript
+```jscript
   function UpdateJobDefinition(
     jobDefinition : JobDefinition
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobDefinition  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md)  
     The ID of the [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) object to update.  
 
 ## Remarks
@@ -88,7 +87,7 @@ A [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) o
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

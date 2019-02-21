@@ -1,15 +1,7 @@
 ---
-title: "IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: load-protocol-manager-and-get-custom-interface
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method
 Loads a specified protocol manager and retrieves an interface for that protocol manager.  
@@ -25,7 +17,7 @@ virtual HRESULT LoadProtocolManagerAndGetCustomInterface(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProtocolManagerDll`  
  The DLL for the protocol manager to load.  
   

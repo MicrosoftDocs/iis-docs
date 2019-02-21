@@ -1,15 +1,7 @@
 ---
-title: "ConfigurationSection.GetAllowDefinition Method | Microsoft Docs"
-ms.custom: ""
+title: "ConfigurationSection.GetAllowDefinition Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d8a84cd4-8cdb-48bf-a50e-2fbcabba56db
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigurationSection.GetAllowDefinition Method
 Retrieves the `allowDefinition` attribute for a configuration section.  
@@ -24,7 +16,7 @@ ConfigurationSection.GetAllowDefinition AllowDefinition
 ConfigurationSection.GetAllowDefinition(AllowDefinition);  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Definition|  
 |----------|----------------|  

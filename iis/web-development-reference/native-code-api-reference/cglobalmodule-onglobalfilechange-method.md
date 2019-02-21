@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalFileChange Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalFileChange Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e7a07497-0000-13b4-34bd-82f9a3cbf266
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalFileChange Method
 Represents the method that will handle a `GlobalFileChange` event, which occurs when a file within a Web site is changed.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalFileChange(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProvider`  
  [IN] A pointer to an [IGlobalFileChangeProvider](../../web-development-reference\native-code-api-reference/iglobalfilechangeprovider-interface.md) interface.  
   

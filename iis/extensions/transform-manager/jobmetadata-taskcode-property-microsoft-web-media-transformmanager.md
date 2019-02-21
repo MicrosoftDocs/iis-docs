@@ -1,5 +1,5 @@
 ---
-title: JobMetadata.TaskCode Property  (Microsoft.Web.Media.TransformManager)
+title: JobMetadata.TaskCode Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskCode Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.TaskCode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmetadata.taskcode(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_TaskCode
 - Microsoft.Web.Media.TransformManager.JobMetadata.TaskCode
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskCode Property
@@ -38,7 +37,7 @@ Gets the task code from the task element that is contained in the manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property TaskCode As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.TaskCode
 ```
 
-``` csharp
+```csharp
   public string TaskCode { get; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ TaskCode {
     String^ get ();
@@ -66,18 +65,18 @@ property String^ TaskCode {
   member TaskCode : string
 ```
 
-``` jscript
+```jscript
   function get TaskCode () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The task code.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobMetadata Class](jobmetadata-class-microsoft-web-media-transformmanager.md)
 

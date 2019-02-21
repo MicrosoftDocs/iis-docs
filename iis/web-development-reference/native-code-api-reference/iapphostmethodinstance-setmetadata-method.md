@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethodInstance::SetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethodInstance::SetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4970e8ed-b176-4f9c-9d72-74bc1954f3c0
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethodInstance::SetMetadata Method
 Sets the metadata specified.  
@@ -23,7 +15,7 @@ Sets the metadata specified.
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrMetadataType`  
  The name of the metadata to set.  
   

@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobManifest
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobManifest Method
@@ -36,7 +35,7 @@ Returns the job manifest that IIS Transform Manager created for the specified jo
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Function GetJobManifest ( _
@@ -51,14 +50,14 @@ Dim returnValue As String
 returnValue = instance.GetJobManifest(jobDetails)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public string GetJobManifest(
     JobDetails jobDetails
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual String^ GetJobManifest(
@@ -75,30 +74,30 @@ override GetJobManifest :
         jobDetails:JobDetails -> string 
 ```
 
-``` jscript
+```jscript
   public final function GetJobManifest(
     jobDetails : JobDetails
 ) : String
 ```
 
-#### Parameters
+### Parameters
 
   - jobDetails  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
     An object that contains the ID of the job.  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A string representation of the job manifest.  
 
-#### Implements
+### Implements
 
-[IMonitoringService. . :: . .GetJobManifest(JobDetails)](imonitoringservice-getjobmanifest-method-microsoft-web-media-transformmanager.md)  
+[IMonitoringService.GetJobManifest(JobDetails)](imonitoringservice-getjobmanifest-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

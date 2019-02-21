@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::CancelIo Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::CancelIo Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 19c06998-0eb7-41f9-81b2-7fd0278dac34
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::CancelIo Method
 Cancels any pending send or receive operations.  
@@ -22,7 +14,7 @@ virtual HRESULT CancelIo(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

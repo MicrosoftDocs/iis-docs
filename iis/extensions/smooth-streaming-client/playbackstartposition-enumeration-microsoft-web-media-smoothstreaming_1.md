@@ -12,11 +12,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.PlaybackStartPosition.End
 - Microsoft.Web.Media.SmoothStreaming.PlaybackStartPosition.PausedPosition
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -30,7 +30,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # PlaybackStartPosition Enumeration
@@ -42,7 +41,7 @@ Enumeration that specifies the position from which playback of a media stream be
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Enumeration PlaybackStartPosition
@@ -51,11 +50,11 @@ Public Enumeration PlaybackStartPosition
 Dim instance As PlaybackStartPosition
 ```
 
-``` csharp
+```csharp
 public enum PlaybackStartPosition
 ```
 
-``` c++
+```cpp
 public enum class PlaybackStartPosition
 ```
 
@@ -63,7 +62,7 @@ public enum class PlaybackStartPosition
 type PlaybackStartPosition
 ```
 
-``` jscript
+```jscript
 public enum PlaybackStartPosition
 ```
 
@@ -78,17 +77,17 @@ public enum PlaybackStartPosition
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

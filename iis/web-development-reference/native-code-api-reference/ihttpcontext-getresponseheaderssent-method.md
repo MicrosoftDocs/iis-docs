@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetResponseHeadersSent Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetResponseHeadersSent Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 06006ede-2e42-a1c4-6627-3336ac22f636
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetResponseHeadersSent Method
 Determines whether the HTTP response headers have been sent to the client.  
@@ -22,7 +14,7 @@ virtual BOOL GetResponseHeadersSent(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

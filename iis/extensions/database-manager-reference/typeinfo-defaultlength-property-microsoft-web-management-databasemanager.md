@@ -1,5 +1,5 @@
 ---
-title: TypeInfo.DefaultLength Property  (Microsoft.Web.Management.DatabaseManager)
+title: TypeInfo.DefaultLength Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DefaultLength Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.DefaultLength
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.defaultlength(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_DefaultLength
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_DefaultLength
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.DefaultLength Property
@@ -39,7 +38,7 @@ Gets or sets the default length for the data type.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property DefaultLength As Integer
 'Usage
@@ -51,11 +50,11 @@ value = instance.DefaultLength
 instance.DefaultLength = value
 ```
 
-``` csharp
+```csharp
 public int DefaultLength { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property int DefaultLength {
     int get ();
@@ -63,23 +62,23 @@ property int DefaultLength {
 }
 ```
 
-``` jscript
+```jscript
 function get DefaultLength () : int
 function set DefaultLength (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The default length for the data type.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 

@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.PropertiesElementName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # PropertiesElementName Field
@@ -36,7 +35,7 @@ Represents a constant that is used with task definitions and job templates. The 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const PropertiesElementName As String
@@ -47,11 +46,11 @@ Represents a constant that is used with task definitions and job templates. The 
 value = ManifestPropertiesDictionary.PropertiesElementName
 ```
 
-``` csharp
+```csharp
   public const string PropertiesElementName
 ```
 
-``` c++
+```cpp
   public:
 literal String^ PropertiesElementName
 ```
@@ -60,13 +59,13 @@ literal String^ PropertiesElementName
   static val mutable PropertiesElementName: string
 ```
 
-``` jscript
+```jscript
   public const var PropertiesElementName : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestPropertiesDictionary Class](manifestpropertiesdictionary-class-microsoft-web-media-transformmanager.md)
 

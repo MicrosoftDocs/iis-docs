@@ -1,15 +1,7 @@
 ---
-title: "IHttpUser::GetUserVariable Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUser::GetUserVariable Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 44dee11b-8008-48d9-b6a6-df173acd3507
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUser::GetUserVariable Method
 Returns the custom user data by name.  
@@ -22,7 +14,7 @@ virtual PVOID GetUserVariable(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszVariableName`  
  [IN] A pointer to a constant null-terminated string that contains the variable name of the data to retrieve.  
   

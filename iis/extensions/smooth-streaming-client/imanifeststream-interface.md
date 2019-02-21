@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ Represents the stream interface.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 [GuidAttribute(, , , , , , , , , , )]
 public interface IManifestStream
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 [GuidAttribute(, , , , , , , , , , )]
 public interface class IManifestStream
 ```
 
-``` jscript
+```jscript
 public interface IManifestStream
 ```
 

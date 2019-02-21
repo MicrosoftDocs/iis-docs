@@ -1,15 +1,7 @@
 ---
-title: "PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: pfn-webhost-listener-application-pool-all-listener-channel-instances-stopped-function
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_POOL_ALL_LISTENER_CHANNEL_INSTANCES_STOPPED Function
 Notifies the listener adapter that all instances of a specific listener channel have been stopped.  
@@ -25,7 +17,7 @@ typedef VOID(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
   

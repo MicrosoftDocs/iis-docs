@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.Scheduler.SetTaskIndex
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SetTaskIndex Method
@@ -36,7 +35,7 @@ Sets the index of a task for the scheduler by using the specified job and task i
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public MustOverride Sub SetTaskIndex ( _
@@ -53,14 +52,14 @@ instance.SetTaskIndex(jobInstanceId, _
     taskIndex)
 ```
 
-``` csharp
+```csharp
   public abstract void SetTaskIndex(
     string jobInstanceId,
     int taskIndex
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual void SetTaskIndex(
     String^ jobInstanceId, 
@@ -74,23 +73,23 @@ virtual void SetTaskIndex(
         taskIndex:int -> unit 
 ```
 
-``` jscript
+```jscript
   public abstract function SetTaskIndex(
     jobInstanceId : String, 
     taskIndex : int
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobInstanceId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job.  
 
 <!-- end list -->
 
   - taskIndex  
-    Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
     The task index.  
 
 ## Remarks
@@ -99,7 +98,7 @@ The task index is used to calculate overall job progress.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Scheduler Class](scheduler-class-microsoft-web-media-transformmanager.md)
 

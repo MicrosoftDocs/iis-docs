@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::DisableKernelCache Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::DisableKernelCache Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cb176222-ffa6-4591-b5ec-dc22d164fa3e
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::DisableKernelCache Method
 Disables the kernel cache for this response.  
@@ -22,7 +14,7 @@ virtual VOID DisableKernelCache(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `reason`  
  The optional reason for disabling the kernel cache.  
   
@@ -41,7 +33,7 @@ virtual VOID DisableKernelCache(
  The following code example demonstrates how to use the `DisableKernelCache` method to disable kernel caching for the current request.  
   
 > [!NOTE]
->  Combine this example module with the example module listed for the [GetKernelCacheEnabled](../../web-development-reference\native-code-api-reference/ihttpresponse-getkernelcacheenabled-method.md) method if you want to return the current caching status.  
+> Combine this example module with the example module listed for the [GetKernelCacheEnabled](../../web-development-reference\native-code-api-reference/ihttpresponse-getkernelcacheenabled-method.md) method if you want to return the current caching status.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpResponseDisableKernelCache#1](IHttpResponseDisableKernelCache#1)]  -->  
   

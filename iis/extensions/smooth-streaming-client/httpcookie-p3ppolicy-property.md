@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,11 +20,11 @@ Gets the P3P policy of the http cookie.
 
 ## Syntax
 
-``` csharp
+```csharp
 public string P3PPolicy { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property String^ P3PPolicy {
 String^ get () sealed;
@@ -32,7 +32,7 @@ void set (String^ value) sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get P3PPolicy () : String
 final function set P3PPolicy (value : String)
 ```

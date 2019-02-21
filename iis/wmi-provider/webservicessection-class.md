@@ -1,15 +1,7 @@
 ---
-title: "WebServicesSection Class | Microsoft Docs"
-ms.custom: ""
+title: "WebServicesSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5ab3a470-f3e2-9b55-dbc6-01b4e64b0d70
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WebServicesSection Class
 Controls the behavior of XML Web services and their clients.  
@@ -75,7 +67,7 @@ class WebServicesSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.SystemWebSectionGroup.WebServices](/dotnet/api/system.web.configuration.scriptingwebservicessectiongroup?view=netframework-4.7.2)  
+ [System.Web.Configuration.SystemWebSectionGroup.WebServices](/dotnet/api/system.web.configuration.scriptingwebservicessectiongroup)  
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ConformanceWarning Class](../wmi-provider/conformancewarning-class.md)   
  [ConformanceWarningSettings Class](../wmi-provider/conformancewarningsettings-class.md)   

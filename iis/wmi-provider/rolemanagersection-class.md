@@ -1,15 +1,7 @@
 ---
-title: "RoleManagerSection Class | Microsoft Docs"
-ms.custom: ""
+title: "RoleManagerSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4215b69c-7f4b-0364-eaf8-3c63d39a936f
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # RoleManagerSection Class
 Defines configuration settings that are used to support the role management infrastructure of Web applications.  

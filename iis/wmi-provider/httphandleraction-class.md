@@ -1,15 +1,7 @@
 ---
-title: "HttpHandlerAction Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpHandlerAction Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: db796fc2-75a0-88d1-9944-4e260581de09
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpHandlerAction Class
 Represents an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] HTTP handler.  

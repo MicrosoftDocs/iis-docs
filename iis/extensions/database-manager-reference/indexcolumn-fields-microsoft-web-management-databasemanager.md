@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # IndexColumn Fields
 
-Include Protected Members  
-Include Inherited Members  
-
 The [IndexColumn](indexcolumn-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Fields
@@ -22,11 +19,9 @@ The [IndexColumn](indexcolumn-class-microsoft-web-management-databasemanager.md)
 |![Public field](images/Dd565979.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Dd565979.static(en-us,VS.90).gif "Static member")|[DescendingIndex](indexcolumn-descendingindex-field-microsoft-web-management-databasemanager.md)|Returns the index number for the index column's descending index.|
 |![Public field](images/Dd565979.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Dd565979.static(en-us,VS.90).gif "Static member")|[NameIndex](indexcolumn-nameindex-field-microsoft-web-management-databasemanager.md)|Returns the index number for the column's name index.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IndexColumn Class](indexcolumn-class-microsoft-web-management-databasemanager.md)
 

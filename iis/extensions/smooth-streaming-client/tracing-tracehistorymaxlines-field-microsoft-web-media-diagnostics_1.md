@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.TraceHistoryMaxLines
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.TraceHistoryMaxLines Field
@@ -36,7 +35,7 @@ Maximum trace history size in number of lines.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared TraceHistoryMaxLines As UInteger
@@ -49,11 +48,11 @@ value = Tracing.TraceHistoryMaxLines
 Tracing.TraceHistoryMaxLines = value
 ```
 
-``` csharp
+```csharp
 public static uint TraceHistoryMaxLines
 ```
 
-``` c++
+```cpp
 public:
 static unsigned int TraceHistoryMaxLines
 ```
@@ -62,23 +61,23 @@ static unsigned int TraceHistoryMaxLines
 static val mutable TraceHistoryMaxLines: uint32
 ```
 
-``` jscript
+```jscript
 public static var TraceHistoryMaxLines : uint
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

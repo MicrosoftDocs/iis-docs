@@ -1,5 +1,5 @@
 ---
-title: IJobMetadata.OutputFolder Property  (Microsoft.Web.Media.TransformManager)
+title: IJobMetadata.OutputFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: OutputFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.OutputFolder
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.ijobmetadata.outputfolder(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IJobMetadata.get_OutputFolder
 - Microsoft.Web.Media.TransformManager.IJobMetadata.OutputFolder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # OutputFolder Property
@@ -38,7 +37,7 @@ Gets the name of the output folder for completed jobs.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   ReadOnly Property OutputFolder As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.OutputFolder
 ```
 
-``` csharp
+```csharp
   string OutputFolder { get; }
 ```
 
-``` c++
+```cpp
   property String^ OutputFolder {
     String^ get ();
 }
@@ -65,18 +64,18 @@ value = instance.OutputFolder
   abstract OutputFolder : string
 ```
 
-``` jscript
+```jscript
   function get OutputFolder () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The output folder name.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IJobMetadata Interface](ijobmetadata-interface-microsoft-web-media-transformmanager.md)
 

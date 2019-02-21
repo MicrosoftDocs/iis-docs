@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementCollection::DeleteElement Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementCollection::DeleteElement Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b69499ae-af1b-8198-2475-53c06dc66e7b
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementCollection::DeleteElement Method
 Removes the requested element from the collection.  
@@ -22,7 +14,7 @@ HRESULT DeleteElement(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `cIndex`  
  A `VARIANT` that contains the index of the item to be removed from the collection.  
   

@@ -1,15 +1,7 @@
 ---
-title: "Application Class1 | Microsoft Docs"
-ms.custom: ""
+title: "Application Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8f5f708c-9ca7-48eb-8474-25eebe5c97c9
-caps.latest.revision: 36
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Application Class1
 Represents an IIS Web application.  

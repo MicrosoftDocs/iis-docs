@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.SelectTracks
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.SelectTracks Method
@@ -36,7 +35,7 @@ Selects [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) ob
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Function SelectTracks ( _
@@ -54,14 +53,14 @@ returnValue = instance.SelectTracks(selectedTracks, _
     flushBuffer)
 ```
 
-``` csharp
+```csharp
 public bool SelectTracks(
     IList<TrackInfo> selectedTracks,
     bool flushBuffer
 )
 ```
 
-``` c++
+```cpp
 public:
 bool SelectTracks(
     IList<TrackInfo^>^ selectedTracks, 
@@ -75,28 +74,28 @@ member SelectTracks :
         flushBuffer:bool -> bool 
 ```
 
-``` jscript
+```jscript
 public function SelectTracks(
     selectedTracks : IList<TrackInfo>, 
     flushBuffer : boolean
 ) : boolean
 ```
 
-#### Parameters
+### Parameters
 
   - selectedTracks  
-    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.95\))\<[TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
+    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6\(v=vs.95\))\<[TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
     The [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) objects for this stream.
 
 <!-- end list -->
 
   - flushBuffer  
-    Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
     A Boolean value that specifies whether to flush buffers.
 
-#### Return Value
+### Return Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
 A Boolean value, true if the method succeeds, otherwise false.
 
 ## Remarks
@@ -135,17 +134,17 @@ The following example shows how to select tracks from [SegmentInfo](segmentinfo-
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

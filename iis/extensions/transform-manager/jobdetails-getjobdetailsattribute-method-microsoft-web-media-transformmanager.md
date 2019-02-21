@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.GetJobDetailsAttribute
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobDetailsAttribute Method
@@ -36,7 +35,7 @@ Returns the attribute name of a [JobDetails](jobdetails-class-microsoft-web-medi
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Function GetJobDetailsAttribute ( _
@@ -50,13 +49,13 @@ Dim returnValue As String
 returnValue = JobDetails.GetJobDetailsAttribute(field)
 ```
 
-``` csharp
+```csharp
   public static string GetJobDetailsAttribute(
     JobDetailsField field
 )
 ```
 
-``` c++
+```cpp
   public:
 static String^ GetJobDetailsAttribute(
     JobDetailsField field
@@ -68,26 +67,26 @@ static String^ GetJobDetailsAttribute(
         field:JobDetailsField -> string 
 ```
 
-``` jscript
+```jscript
   public static function GetJobDetailsAttribute(
     field : JobDetailsField
 ) : String
 ```
 
-#### Parameters
+### Parameters
 
   - field  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetailsField](jobdetailsfield-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDetailsField](jobdetailsfield-enumeration-microsoft-web-media-transformmanager.md)  
     A value that is used to specify the name of a job attribute.  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The attribute name of a [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) object.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

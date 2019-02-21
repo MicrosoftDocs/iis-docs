@@ -1,15 +1,7 @@
 ---
-title: "IScriptMapInfo::GetModules Method | Microsoft Docs"
-ms.custom: ""
+title: "IScriptMapInfo::GetModules Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b998fa9b-2ca5-9c15-c857-1fc0b0e2417d
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IScriptMapInfo::GetModules Method
 Retrieves the list of modules for a request handler.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetModules(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcchModules`  
  A pointer to a `DWORD` buffer that receives the length, in characters, of the module list.  
   

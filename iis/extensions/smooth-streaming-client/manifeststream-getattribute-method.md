@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,20 +20,20 @@ Gets the stream level attributes from the manifest.
 
 ## Syntax
 
-``` csharp
+```csharp
 public string GetAttribute(
 string name
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual String^ GetAttribute(
 [InAttribute] String^ name
 ) sealed
 ```
 
-``` jscript
+```jscript
 public final function GetAttribute(
 name : String
 ) : String

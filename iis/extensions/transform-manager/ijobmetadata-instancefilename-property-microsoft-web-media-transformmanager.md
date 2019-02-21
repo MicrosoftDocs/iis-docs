@@ -1,5 +1,5 @@
 ---
-title: IJobMetadata.InstanceFileName Property  (Microsoft.Web.Media.TransformManager)
+title: IJobMetadata.InstanceFileName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InstanceFileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.InstanceFileName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.ijobmetadata.instancefilename(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IJobMetadata.InstanceFileName
 - Microsoft.Web.Media.TransformManager.IJobMetadata.get_InstanceFileName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # InstanceFileName Property
@@ -38,7 +37,7 @@ Gets the instance file name.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   ReadOnly Property InstanceFileName As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.InstanceFileName
 ```
 
-``` csharp
+```csharp
   string InstanceFileName { get; }
 ```
 
-``` c++
+```cpp
   property String^ InstanceFileName {
     String^ get ();
 }
@@ -65,18 +64,18 @@ value = instance.InstanceFileName
   abstract InstanceFileName : string
 ```
 
-``` jscript
+```jscript
   function get InstanceFileName () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The instance file name.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IJobMetadata Interface](ijobmetadata-interface-microsoft-web-media-transformmanager.md)
 

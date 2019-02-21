@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ScheduleClip Method (ClipInformation, ClipContext, Object)
@@ -34,7 +33,7 @@ Schedules playing of a media clip.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Function ScheduleClip ( _
@@ -54,7 +53,7 @@ returnValue = instance.ScheduleClip(clipInfo, _
     clipToAppendTo, userData)
 ```
 
-``` csharp
+```csharp
 public ClipContext ScheduleClip(
     ClipInformation clipInfo,
     ClipContext clipToAppendTo,
@@ -62,7 +61,7 @@ public ClipContext ScheduleClip(
 )
 ```
 
-``` c++
+```cpp
 public:
 ClipContext^ ScheduleClip(
     ClipInformation^ clipInfo, 
@@ -78,7 +77,7 @@ member ScheduleClip :
         userData:Object -> ClipContext 
 ```
 
-``` jscript
+```jscript
 public function ScheduleClip(
     clipInfo : ClipInformation, 
     clipToAppendTo : ClipContext, 
@@ -86,7 +85,7 @@ public function ScheduleClip(
 ) : ClipContext
 ```
 
-#### Parameters
+### Parameters
 
   - clipInfo  
     Type: [Microsoft.Web.Media.SmoothStreaming.ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)  
@@ -101,10 +100,10 @@ public function ScheduleClip(
 <!-- end list -->
 
   - userData  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
     An object that can contain any data needed by the application, including the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object that will play the clip.
 
-#### Return Value
+### Return Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)  
 A [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) object.
@@ -124,13 +123,13 @@ A media clip can be scheduled for play when the [SmoothStreamingMediaElement](sm
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

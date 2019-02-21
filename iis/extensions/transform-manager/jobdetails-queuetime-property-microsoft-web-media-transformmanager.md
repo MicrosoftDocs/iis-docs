@@ -1,5 +1,5 @@
 ---
-title: JobDetails.QueueTime Property  (Microsoft.Web.Media.TransformManager)
+title: JobDetails.QueueTime Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: QueueTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.QueueTime
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.queuetime(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.QueueTime
 - Microsoft.Web.Media.TransformManager.JobDetails.get_QueueTime
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # QueueTime Property
@@ -40,7 +39,7 @@ Gets or sets the date and time when the job was added to the work queue.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property QueueTime As DateTime
@@ -56,12 +55,12 @@ value = instance.QueueTime
 instance.QueueTime = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public DateTime QueueTime { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property DateTime QueueTime {
@@ -75,19 +74,19 @@ property DateTime QueueTime {
 member QueueTime : DateTime with get, set
 ```
 
-``` jscript
+```jscript
   function get QueueTime () : DateTime
 function set QueueTime (value : DateTime)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.90\))  
+Type: [System.DateTime](https://msdn.microsoft.com/library/03ybds8y)  
 The date and time when the job was added to the work queue.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

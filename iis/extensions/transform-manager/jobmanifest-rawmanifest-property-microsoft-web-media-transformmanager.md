@@ -1,5 +1,5 @@
 ---
-title: JobManifest.RawManifest Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.RawManifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: RawManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.RawManifest
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.rawmanifest(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_RawManifest
 - Microsoft.Web.Media.TransformManager.JobManifest.RawManifest
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # RawManifest Property
@@ -38,7 +37,7 @@ Gets the manifest XML content.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property RawManifest As XElement
@@ -51,11 +50,11 @@ Dim value As XElement
 value = instance.RawManifest
 ```
 
-``` csharp
+```csharp
   public XElement RawManifest { get; }
 ```
 
-``` c++
+```cpp
   public:
 property XElement^ RawManifest {
     XElement^ get ();
@@ -66,18 +65,18 @@ property XElement^ RawManifest {
   member RawManifest : XElement
 ```
 
-``` jscript
+```jscript
   function get RawManifest () : XElement
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 The manifest XML content.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

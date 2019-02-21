@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetNextNotification Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetNextNotification Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c80eea1c-5c85-a1be-c990-ed8e89de7d78
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetNextNotification Method
 Retrieves the next notification for the current module host.  
@@ -26,7 +18,7 @@ virtual BOOL GetNextNotification(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `status`  
  [IN] The [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) enumeration value to return from the current notification.  
   

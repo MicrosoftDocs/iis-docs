@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext3::GetNamedContextContainer Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext3::GetNamedContextContainer Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e2d27fe0-83f6-4716-a137-85aa39f2a064
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext3::GetNamedContextContainer Method
 Retrieves a container of named context objects.  
@@ -22,7 +14,7 @@ virtual INamedContextContainer * GetNamedContextContainer(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method accepts no parameters.  
   
 ## Return Value  

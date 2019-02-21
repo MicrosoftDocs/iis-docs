@@ -36,11 +36,9 @@ The [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) type 
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[JobDetailsTaskCount](jobdetails-jobdetailstaskcount-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when transform jobs are sorted by the "taskCount" field.|
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[JobDetailsTaskIndex](jobdetails-jobdetailstaskindex-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when transform jobs are sorted by the "taskIndex" field.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

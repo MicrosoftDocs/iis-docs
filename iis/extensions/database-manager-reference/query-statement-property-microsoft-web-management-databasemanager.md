@@ -1,5 +1,5 @@
 ---
-title: Query.Statement Property  (Microsoft.Web.Management.DatabaseManager)
+title: Query.Statement Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Statement Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Query.Statement
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.query.statement(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Query.get_Statement
 - Microsoft.Web.Management.DatabaseManager.Query.set_Statement
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Query.Statement Property
@@ -39,7 +38,7 @@ Gets or sets the SQL statement for a query.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property Statement As String
 'Usage
@@ -51,11 +50,11 @@ value = instance.Statement
 instance.Statement = value
 ```
 
-``` csharp
+```csharp
 public string Statement { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ Statement {
     String^ get ();
@@ -63,14 +62,14 @@ property String^ Statement {
 }
 ```
 
-``` jscript
+```jscript
 function get Statement () : String
 function set Statement (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The string that contains the SQL statement for a query.  
 
 ## Remarks
@@ -86,7 +85,7 @@ The Statement property contains the SQL syntax for the [Query](query-class-micro
 
 The following code sample illustrates an example [ExecuteQuery](databaseprovider-executequery-method-microsoft-web-management-databasemanager.md) method that returns an array of query results from a database query.
 
-``` vb
+```vb
 
     Public Overrides Function ExecuteQuery( _
             ByVal connectionString As String, _
@@ -147,7 +146,7 @@ The following code sample illustrates an example [ExecuteQuery](databaseprovider
 
 ```
 
-``` csharp
+```csharp
 
         public override QueryResult[] ExecuteQuery(
             string connectionString,
@@ -213,11 +212,11 @@ The following code sample illustrates an example [ExecuteQuery](databaseprovider
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Query Class](query-class-microsoft-web-management-databasemanager.md)
 

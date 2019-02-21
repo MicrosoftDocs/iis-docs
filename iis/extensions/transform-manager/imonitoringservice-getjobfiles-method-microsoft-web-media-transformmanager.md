@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobFiles
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobFiles Method
@@ -36,7 +35,7 @@ Returns a list of the files in the folder that is created for this job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Function GetJobFiles ( _
@@ -51,14 +50,14 @@ Dim returnValue As Collection(Of String)
 returnValue = instance.GetJobFiles(jobDetails)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 Collection<string> GetJobFiles(
     JobDetails jobDetails
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 Collection<String^>^ GetJobFiles(
     JobDetails^ jobDetails
@@ -71,26 +70,26 @@ abstract GetJobFiles :
         jobDetails:JobDetails -> Collection<string> 
 ```
 
-``` jscript
+```jscript
   function GetJobFiles(
     jobDetails : JobDetails
 ) : Collection<String>
 ```
 
-#### Parameters
+### Parameters
 
   - jobDetails  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
     An object that contains the ID of the job.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[String](https://msdn.microsoft.com/library/s1wwdcbf)\> ) \> ) \>  
 A collection of file names based on the files in the job folder.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IPmListenerChannelManager::StartListenerChannel Method | Microsoft Docs"
-ms.custom: ""
+title: "IPmListenerChannelManager::StartListenerChannel Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 87b8c556-3894-a8f9-2968-7750b1ba6cb2
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPmListenerChannelManager::StartListenerChannel Method
 Enables the worker process framework to request that a protocol manager start a listener channel for a protocol.  
@@ -23,7 +15,7 @@ virtual HRESULT StartListenerChannel(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `protocolId`  
  A pointer to a string that contains the protocol (for example, HTTP) to start.  
   

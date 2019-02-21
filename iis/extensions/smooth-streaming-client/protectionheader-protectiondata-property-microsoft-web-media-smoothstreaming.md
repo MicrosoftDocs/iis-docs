@@ -1,5 +1,5 @@
 ---
-title: ProtectionHeader.ProtectionData Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ProtectionHeader.ProtectionData Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionData Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.ProtectionData
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.protectionheader.protectiondata(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.ProtectionData
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.set_ProtectionData
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ProtectionData Property
@@ -39,7 +38,7 @@ Gets or sets the protection data relevant to the [SystemID](protectionheader-sys
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ProtectionData As Byte()
@@ -51,11 +50,11 @@ Dim value As Byte()
 value = instance.ProtectionData
 ```
 
-``` csharp
+```csharp
   public byte[] ProtectionData { get; internal set; }
 ```
 
-``` c++
+```cpp
   public:
 property array<unsigned char>^ ProtectionData {
     array<unsigned char>^ get ();
@@ -63,33 +62,33 @@ property array<unsigned char>^ ProtectionData {
 }
 ```
 
-``` jscript
+```jscript
   function get ProtectionData () : byte[]
 internal function set ProtectionData (value : byte[])
 ```
 
-#### Property Value
+### Property Value
 
-Type: array\<[System. . :: . .Byte](https://msdn.microsoft.com/en-us/library/yyb1w04y\(v=vs.90\))\> \[\] () \[\] \[\]  
-A [Byte](https://msdn.microsoft.com/en-us/library/yyb1w04y\(v=vs.90\)) array.  
+Type: array\<[System.Byte](https://msdn.microsoft.com/library/yyb1w04y)\> \[\] () \[\] \[\]  
+A [Byte](https://msdn.microsoft.com/library/yyb1w04y) array.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ProtectionHeader Class](protectionheader-class-microsoft-web-media-smoothstreaming_1.md)
 

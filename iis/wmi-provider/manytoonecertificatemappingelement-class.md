@@ -1,15 +1,7 @@
 ---
-title: "ManyToOneCertificateMappingElement Class | Microsoft Docs"
-ms.custom: ""
+title: "ManyToOneCertificateMappingElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 416cb05f-c711-e9a7-a16d-ced7aff9121f
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ManyToOneCertificateMappingElement Class
 Maps one or more certificates to a single user account.  

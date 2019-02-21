@@ -1,15 +1,7 @@
 ---
-title: "IAppHostCollectionSchema Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostCollectionSchema Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4f0fe5e3-1283-6da8-ba92-a0d6a330838b
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostCollectionSchema Interface
 Represents a schema for a collection in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  

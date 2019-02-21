@@ -1,15 +1,7 @@
 ---
-title: "IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0281ffdc-fe06-8680-a6df-c260fd455acb
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpModuleRegistrationInfo::SetPriorityForRequestNotification Method
 Sets the request-level priority for a module.  
@@ -23,7 +15,7 @@ virtual HRESULT SetPriorityForRequestNotification(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwRequestNotification`  
  [IN] A bitmask value that contains the request notifications to set for the priority level. (Defined in [Httpserv.h](../../web-development-reference\native-code-api-reference/request-processing-constants.md).)  
   
@@ -44,7 +36,7 @@ virtual HRESULT SetPriorityForRequestNotification(
 >  The bitmask values for request-level notifications and priority aliases are defined in the Httpserv.h file.  
   
 > [!NOTE]
->  The priority levels are inverted for `RQ_SEND_RESPONSE` notifications.  
+> The priority levels are inverted for `RQ_SEND_RESPONSE` notifications.  
   
 ## Example  
  The following example demonstrates how to create an HTTP module that uses the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function and the following methods to register a module for global-level and request-level notifications.  
@@ -60,7 +52,7 @@ virtual HRESULT SetPriorityForRequestNotification(
  The module responds to the registered notifications and writes entries to the application log in the Event Viewer.  
   
 > [!NOTE]
->  The entries in the Event Viewer will display "IISADMIN" as the event source.  
+> The entries in the Event Viewer will display "IISADMIN" as the event source.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpModuleRegistrationInfoSetPriorityForRequestNotification#1](IHttpModuleRegistrationInfoSetPriorityForRequestNotification#1)]  -->  
   

@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the response stream.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IInputStream ResponseStream { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property IInputStream^ ResponseStream {
 IInputStream^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get ResponseStream () : IInputStream
 ```
 

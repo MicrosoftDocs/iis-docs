@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MarkerReached
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.MarkerReached Event
@@ -38,7 +37,7 @@ Occurs when media playback reaches a timeline marker.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Event MarkerReached As TimelineMarkerRoutedEventHandler
@@ -50,11 +49,11 @@ Dim handler As TimelineMarkerRoutedEventHandler
 AddHandler instance.MarkerReached, handler
 ```
 
-``` csharp
+```csharp
 public event TimelineMarkerRoutedEventHandler MarkerReached
 ```
 
-``` c++
+```cpp
 public:
  event TimelineMarkerRoutedEventHandler^ MarkerReached {
     void add (TimelineMarkerRoutedEventHandler^ value);
@@ -67,7 +66,7 @@ member MarkerReached : <TimelineMarkerRoutedEventHandler,
     TimelineMarkerRoutedEventArgs>
 ```
 
-``` jscript
+```jscript
 JScript supports the use of events, but not the declaration of new ones.
 ```
 
@@ -77,13 +76,13 @@ For more information, see [Timeline Markers and Events](timeline-markers-and-eve
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

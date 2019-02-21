@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.ConfigPath Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.ConfigPath Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ConfigPath Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ConfigPath
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.configpath(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_ConfigPath
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_ConfigPath
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigPath Property
@@ -39,7 +38,7 @@ Gets or sets the path of the configuration file.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ConfigPath As String
@@ -53,11 +52,11 @@ value = instance.ConfigPath
 instance.ConfigPath = value
 ```
 
-``` csharp
+```csharp
   public string ConfigPath { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ ConfigPath {
     String^ get ();
@@ -65,33 +64,33 @@ property String^ ConfigPath {
 }
 ```
 
-``` jscript
+```jscript
   function get ConfigPath () : String
 function set ConfigPath (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The path of the configuration file.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

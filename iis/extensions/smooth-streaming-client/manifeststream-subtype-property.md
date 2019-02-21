@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the stream 'SubType' field.
 
 ## Syntax
 
-``` csharp
+```csharp
 public string SubType { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property String^ SubType {
 String^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get SubType () : String
 ```
 

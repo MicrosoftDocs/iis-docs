@@ -1,5 +1,5 @@
 ---
-title: StoredProcedureParameter.TypeInfo Property  (Microsoft.Web.Management.DatabaseManager)
+title: StoredProcedureParameter.TypeInfo Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: TypeInfo Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.TypeInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.storedprocedureparameter.typeinfo(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.get_TypeInfo
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.set_TypeInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StoredProcedureParameter.TypeInfo Property
@@ -39,7 +38,7 @@ Gets or sets the type information for a parameter of a stored procedure.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property TypeInfo As TypeInfo
 'Usage
@@ -51,11 +50,11 @@ value = instance.TypeInfo
 instance.TypeInfo = value
 ```
 
-``` csharp
+```csharp
 public TypeInfo TypeInfo { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property TypeInfo^ TypeInfo {
     TypeInfo^ get ();
@@ -63,23 +62,23 @@ property TypeInfo^ TypeInfo {
 }
 ```
 
-``` jscript
+```jscript
 function get TypeInfo () : TypeInfo
 function set TypeInfo (value : TypeInfo)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Management.DatabaseManager.TypeInfo](typeinfo-class-microsoft-web-management-databasemanager.md)  
 A [TypeInfo](typeinfo-class-microsoft-web-management-databasemanager.md) object that contains the type information for the parameter.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StoredProcedureParameter Class](storedprocedureparameter-class-microsoft-web-management-databasemanager.md)
 

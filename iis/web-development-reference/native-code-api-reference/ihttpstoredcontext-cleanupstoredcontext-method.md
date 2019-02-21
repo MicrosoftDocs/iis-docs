@@ -1,15 +1,7 @@
 ---
-title: "IHttpStoredContext::CleanupStoredContext Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpStoredContext::CleanupStoredContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 49cb417f-3a67-488c-9218-a51b2d73d929
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpStoredContext::CleanupStoredContext Method
 Cleans up the stored context.  
@@ -22,7 +14,7 @@ virtual VOID CleanupStoredContext(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Remarks  

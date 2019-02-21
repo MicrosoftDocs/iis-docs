@@ -1,5 +1,5 @@
 ---
-title: ClipEventArgs.Context Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ClipEventArgs.Context Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Context Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipEventArgs.Context
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipeventargs.context(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipEventArgs.get_Context
 - Microsoft.Web.Media.SmoothStreaming.ClipEventArgs.set_Context
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Context Property
@@ -39,7 +38,7 @@ Gets or sets the Context property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Context As ClipContext
@@ -51,11 +50,11 @@ Dim value As ClipContext
 value = instance.Context
 ```
 
-``` csharp
+```csharp
   public ClipContext Context { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property ClipContext^ Context {
     ClipContext^ get ();
@@ -63,14 +62,14 @@ property ClipContext^ Context {
 }
 ```
 
-``` jscript
+```jscript
   function get Context () : ClipContext
 private function set Context (value : ClipContext)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)  
+Type: [Microsoft.Web.Media.SmoothStreaming.ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)  
 A [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) object.  
 
 ## Remarks
@@ -79,17 +78,17 @@ For more information, see [Scheduling Media Clips (IIS Smooth Streaming)](schedu
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipEventArgs Class](clipeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

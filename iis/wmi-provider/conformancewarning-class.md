@@ -1,15 +1,7 @@
 ---
-title: "ConformanceWarning Class | Microsoft Docs"
-ms.custom: ""
+title: "ConformanceWarning Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6143dc15-7a1d-c00b-94ed-a446964cb705
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConformanceWarning Class
 Exposes a Web Services Interoperability (WS-I) specification to which a Web service declares that it conforms.  

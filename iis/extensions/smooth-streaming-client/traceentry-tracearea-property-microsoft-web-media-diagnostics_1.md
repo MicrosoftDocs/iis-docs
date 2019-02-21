@@ -1,5 +1,5 @@
 ---
-title: TraceEntry.TraceArea Property  (Microsoft.Web.Media.Diagnostics)
+title: TraceEntry.TraceArea Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceArea Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.TraceArea
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.traceentry.tracearea(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.get_TraceArea
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_TraceArea
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceEntry.TraceArea Property
@@ -40,7 +39,7 @@ Gets or sets the TraceArea property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property TraceArea As TraceArea
@@ -56,11 +55,11 @@ value = instance.TraceArea
 instance.TraceArea = value
 ```
 
-``` csharp
+```csharp
 public TraceArea TraceArea { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property TraceArea TraceArea {
     TraceArea get ();
@@ -72,29 +71,29 @@ property TraceArea TraceArea {
 member TraceArea : TraceArea with get, set
 ```
 
-``` jscript
+```jscript
 function get TraceArea () : TraceArea
 function set TraceArea (value : TraceArea)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.Diagnostics.TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
 A [TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md) enumeration object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TraceEntry Class](traceentry-class-microsoft-web-media-diagnostics_1.md)
 

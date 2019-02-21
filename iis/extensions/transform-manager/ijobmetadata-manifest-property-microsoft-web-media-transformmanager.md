@@ -1,5 +1,5 @@
 ---
-title: IJobMetadata.Manifest Property  (Microsoft.Web.Media.TransformManager)
+title: IJobMetadata.Manifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Manifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.Manifest
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.ijobmetadata.manifest(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IJobMetadata.get_Manifest
 - Microsoft.Web.Media.TransformManager.IJobMetadata.Manifest
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Manifest Property
@@ -38,7 +37,7 @@ Gets the full job manifest from the synchronized multimedia interface language (
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   ReadOnly Property Manifest As XElement
@@ -51,11 +50,11 @@ Dim value As XElement
 value = instance.Manifest
 ```
 
-``` csharp
+```csharp
   XElement Manifest { get; }
 ```
 
-``` c++
+```cpp
   property XElement^ Manifest {
     XElement^ get ();
 }
@@ -65,18 +64,18 @@ value = instance.Manifest
   abstract Manifest : XElement
 ```
 
-``` jscript
+```jscript
   function get Manifest () : XElement
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 The job manifest.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IJobMetadata Interface](ijobmetadata-interface-microsoft-web-media-transformmanager.md)
 

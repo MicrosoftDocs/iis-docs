@@ -1,5 +1,5 @@
 ---
-title: ChunkResult.Error Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ChunkResult.Error Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Error Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkResult.Error
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkresult.error(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.get_Error
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.set_Error
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkResult.Error Property
@@ -40,7 +39,7 @@ Contains error information if an error occurs.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Error As Exception
@@ -54,11 +53,11 @@ Dim value As Exception
 value = instance.Error
 ```
 
-``` csharp
+```csharp
 public Exception Error { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property Exception^ Error {
     Exception^ get ();
@@ -70,25 +69,25 @@ property Exception^ Error {
 member Error : Exception with get, private set
 ```
 
-``` jscript
+```jscript
 function get Error () : Exception
 private function set Error (value : Exception)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Exception](https://msdn.microsoft.com/en-us/library/c18k6c59\(v=vs.95\))  
-An [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59\(v=vs.95\)) object.
+Type: [System.Exception](https://msdn.microsoft.com/library/c18k6c59\(v=vs.95\))  
+An [Exception](https://msdn.microsoft.com/library/c18k6c59\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkResult Class](chunkresult-class-microsoft-web-media-smoothstreaming_1.md)
 

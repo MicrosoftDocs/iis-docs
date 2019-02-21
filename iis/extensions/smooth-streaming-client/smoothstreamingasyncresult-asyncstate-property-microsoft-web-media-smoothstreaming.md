@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingAsyncResult.AsyncState Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingAsyncResult.AsyncState Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AsyncState Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.AsyncState
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.asyncstate(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.get_AsyncState
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.set_AsyncState
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingAsyncResult.AsyncState Property
@@ -40,7 +39,7 @@ Gets the state information passed by the application.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property AsyncState As Object
@@ -54,11 +53,11 @@ Dim value As Object
 value = instance.AsyncState
 ```
 
-``` csharp
+```csharp
 public Object AsyncState { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property Object^ AsyncState {
     Object^ get () sealed;
@@ -71,29 +70,29 @@ abstract AsyncState : Object with get, private set
 override AsyncState : Object with get, private set
 ```
 
-``` jscript
+```jscript
 final function get AsyncState () : Object
 private final function set AsyncState (value : Object)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
 An object that contains the state information.
 
-#### Implements
+### Implements
 
-[IAsyncResult.AsyncState](https://msdn.microsoft.com/en-us/library/a6zaz1xf\(v=vs.95\))  
+[IAsyncResult.AsyncState](https://msdn.microsoft.com/library/a6zaz1xf\(v=vs.95\))  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingAsyncResult Class](smoothstreamingasyncresult-class-microsoft-web-media-smoothstreaming.md)
 

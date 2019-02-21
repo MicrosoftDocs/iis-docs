@@ -1,15 +1,7 @@
 ---
-title: "IHttpUser::ReferenceUser Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUser::ReferenceUser Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: dcb74db6-9cbb-08ad-7993-8b6bbdb760ae
-caps.latest.revision: 32
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUser::ReferenceUser Method
 Increments the user internal reference count.  
@@ -22,7 +14,7 @@ virtual VOID ReferenceUser(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Thread Safety  

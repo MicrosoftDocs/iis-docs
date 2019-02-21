@@ -1,5 +1,5 @@
 ---
-title: StreamUpdatedEventArgs.Timestamp Property  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamUpdatedEventArgs.Timestamp Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Timestamp Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.Timestamp
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.timestamp(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.set_Timestamp
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.Timestamp
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamUpdatedEventArgs.Timestamp Property
@@ -40,7 +39,7 @@ Optional timestamp for the Microsoft.Web.Media.SmoothStreaming.ManifestInfo.Stre
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Timestamp As Nullable(Of TimeSpan)
@@ -54,11 +53,11 @@ Dim value As Nullable(Of TimeSpan)
 value = instance.Timestamp
 ```
 
-``` csharp
+```csharp
 public Nullable<TimeSpan> Timestamp { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property Nullable<TimeSpan> Timestamp {
     Nullable<TimeSpan> get ();
@@ -70,29 +69,29 @@ property Nullable<TimeSpan> Timestamp {
 member Timestamp : Nullable<TimeSpan> with get, private set
 ```
 
-``` jscript
+```jscript
 function get Timestamp () : Nullable<TimeSpan>
 private function set Timestamp (value : Nullable<TimeSpan>)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0\(v=vs.95\))\<[TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))\>  
-A [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\)) object.
+Type: [System.Nullable](https://msdn.microsoft.com/library/b3h38hb0\(v=vs.95\))\<[TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))\>  
+A [TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamUpdatedEventArgs Class](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

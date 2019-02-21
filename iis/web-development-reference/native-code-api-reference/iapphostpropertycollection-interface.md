@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertyCollection Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertyCollection Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 573fc810-3903-77ba-7494-5e432686d459
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertyCollection Interface
 Represents a collection of properties.  

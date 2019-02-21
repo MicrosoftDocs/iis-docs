@@ -1,15 +1,7 @@
 ---
-title: "IPSecuritySection Class | Microsoft Docs"
-ms.custom: ""
+title: "IPSecuritySection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: aec39e60-f2d7-6a9c-3ef4-83d4b4dce196
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPSecuritySection Class
 Configures access to Web server content based on IP address-related information.  

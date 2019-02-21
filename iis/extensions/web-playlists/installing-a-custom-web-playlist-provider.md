@@ -76,7 +76,7 @@ Installation of a managed-code Web Playlist provider is done in two steps. The f
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Creating a Web Playlist Interop Assembly](creating-a-web-playlist-interop-assembly.md)
 

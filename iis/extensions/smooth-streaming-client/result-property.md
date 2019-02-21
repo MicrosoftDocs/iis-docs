@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the result.
 
 ## Syntax
 
-``` csharp
+```csharp
 public HResult Result { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property HResult Result {
 HResult get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get Result () : HResult
 ```
 

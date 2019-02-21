@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Gets the track level custom attributes names.
 
 ## Syntax
 
-``` csharp
+```csharp
 IVectorView<string> CustomAttributeNames { get; }
 ```
 
-``` c++
+```cpp
 property IVectorView<String^>^ CustomAttributeNames {
 IVectorView<String^>^ get ();
 }
 ```
 
-``` jscript
+```jscript
 function get CustomAttributeNames () : IVectorView<String>
 ```
 

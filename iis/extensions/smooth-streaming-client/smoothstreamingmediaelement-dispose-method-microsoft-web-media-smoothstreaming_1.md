@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Dispose
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.Dispose Method
@@ -36,7 +35,7 @@ Disposes the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-mic
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub Dispose
@@ -47,11 +46,11 @@ Dim instance As SmoothStreamingMediaElement
 instance.Dispose()
 ```
 
-``` csharp
+```csharp
 public void Dispose()
 ```
 
-``` c++
+```cpp
 public:
 virtual void Dispose() sealed
 ```
@@ -61,27 +60,27 @@ abstract Dispose : unit -> unit
 override Dispose : unit -> unit 
 ```
 
-``` jscript
+```jscript
 public final function Dispose()
 ```
 
-#### Implements
+### Implements
 
-[IDisposable.Dispose()](https://msdn.microsoft.com/en-us/library/es4s3w1d\(v=vs.95\))  
+[IDisposable.Dispose()](https://msdn.microsoft.com/library/es4s3w1d\(v=vs.95\))  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

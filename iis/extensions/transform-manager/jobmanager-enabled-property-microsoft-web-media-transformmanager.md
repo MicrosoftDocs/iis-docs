@@ -1,5 +1,5 @@
 ---
-title: JobManager.Enabled Property  (Microsoft.Web.Media.TransformManager)
+title: JobManager.Enabled Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Enabled Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.Enabled
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.enabled(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.set_Enabled
 - Microsoft.Web.Media.TransformManager.JobManager.Enabled
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Enabled Property
@@ -40,7 +39,7 @@ Gets a value that indicates whether the job manager that is associated with this
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Enabled As Boolean
@@ -54,11 +53,11 @@ Dim value As Boolean
 value = instance.Enabled
 ```
 
-``` csharp
+```csharp
   public bool Enabled { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property bool Enabled {
     bool get ();
@@ -70,19 +69,19 @@ property bool Enabled {
   member Enabled : bool with get, private set
 ```
 
-``` jscript
+```jscript
   function get Enabled () : boolean
 private function set Enabled (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 A value that indicates whether the job manager that is associated with this job definition can be started.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

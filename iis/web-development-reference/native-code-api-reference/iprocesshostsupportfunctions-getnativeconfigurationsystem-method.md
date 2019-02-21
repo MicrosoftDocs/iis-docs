@@ -1,15 +1,7 @@
 ---
-title: "IProcessHostSupportFunctions::GetNativeConfigurationSystem Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHostSupportFunctions::GetNativeConfigurationSystem Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 62c808d8-fe81-749e-8574-f9800fdf2811
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHostSupportFunctions::GetNativeConfigurationSystem Method
 Retrieves the [INativeConfigurationSystem](http://msdn.microsoft.com/en-us/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface pointer.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall GetNativeConfigurationSystem(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppConfigSystem`  
  The address of a `VOID` pointer that receives an `INativeConfigurationSystem` interface pointer.  
   

@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationMessage Constructor (String, String, String, String, ConfigurationMessageSeverity)
@@ -34,7 +33,7 @@ Initializes a new instance of the [ConfigurationMessage](configurationmessage-cl
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -56,7 +55,7 @@ Dim instance As New ConfigurationMessage(fileName, _
     name, message, helpLinkId, severity)
 ```
 
-``` csharp
+```csharp
   public ConfigurationMessage(
     string fileName,
     string name,
@@ -66,7 +65,7 @@ Dim instance As New ConfigurationMessage(fileName, _
 )
 ```
 
-``` c++
+```cpp
   public:
 ConfigurationMessage(
     String^ fileName, 
@@ -86,7 +85,7 @@ ConfigurationMessage(
         severity:ConfigurationMessageSeverity -> ConfigurationMessage
 ```
 
-``` jscript
+```jscript
   public function ConfigurationMessage(
     fileName : String, 
     name : String, 
@@ -96,39 +95,39 @@ ConfigurationMessage(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - fileName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the configuration file.  
 
 <!-- end list -->
 
   - name  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the configuration object.  
 
 <!-- end list -->
 
   - message  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The configuration message.  
 
 <!-- end list -->
 
   - helpLinkId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     A help link ID value.  
 
 <!-- end list -->
 
   - severity  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .ConfigurationMessageSeverity](configurationmessageseverity-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity](configurationmessageseverity-enumeration-microsoft-web-media-transformmanager.md)  
     The error severity.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationMessage Class](configurationmessage-class-microsoft-web-media-transformmanager.md)
 

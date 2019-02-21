@@ -1,15 +1,7 @@
 ---
-title: "StaticTypeSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "StaticTypeSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 32237c1b-06b3-44e4-b682-5a6abc7b3df7
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # StaticTypeSettings Class
 Specifies the MIME types that IIS serves with static compression.  

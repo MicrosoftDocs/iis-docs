@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigFile::ClearInvalidSections Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigFile::ClearInvalidSections Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 48ec1fd6-938f-39e8-d624-eb3c73972730
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigFile::ClearInvalidSections Method
 Removes invalid configuration sections from a configuration file.  
@@ -21,7 +13,7 @@ HRESULT ClearInvalidSections(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -1,15 +1,7 @@
 ---
-title: "IProcessHostFactoryHelper::GetProcessHost Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHostFactoryHelper::GetProcessHost Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e6b3d1b7-4430-6e51-53b5-27b125ae08bc
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHostFactoryHelper::GetProcessHost Method
 Retrieves an [IProcessHost](../../web-development-reference\native-code-api-reference/iprocesshost-interface.md) interface.  
@@ -23,7 +15,7 @@ virtual HRESULT __stdcall GetProcessHost(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pFunctions`  
  A pointer to an [IProcessHostSupportFunctions](../../web-development-reference\native-code-api-reference/iprocesshostsupportfunctions-interface.md) interface.  
   

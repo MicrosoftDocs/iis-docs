@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,25 +20,25 @@ Gets or sets the P3P policy.
 
 ## Syntax
 
-``` csharp
+```csharp
 string P3PPolicy { get; set; }
 ```
 
-``` c++
+```cpp
 property String^ P3PPolicy {
 String^ get ();
 void set (String^ value);
 }
 ```
 
-``` jscript
+```jscript
 function get P3PPolicy () : String
 function set P3PPolicy (value : String)
 ```
 
 ## Property Value
 
-Type: [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))
+Type: [String](https://msdn.microsoft.com/library/s1wwdcbf)
 
 ## Requirements
 

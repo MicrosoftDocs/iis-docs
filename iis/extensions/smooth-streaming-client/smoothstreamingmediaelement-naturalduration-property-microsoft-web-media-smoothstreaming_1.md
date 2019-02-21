@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.NaturalDuration Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.NaturalDuration Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: NaturalDuration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalDuration
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.naturalduration(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalDuration
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_NaturalDuration
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.NaturalDuration Property
@@ -38,7 +37,7 @@ Gets the duration of the current stream when it plays to the end.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property NaturalDuration As Duration
@@ -51,11 +50,11 @@ Dim value As Duration
 value = instance.NaturalDuration
 ```
 
-``` csharp
+```csharp
 public Duration NaturalDuration { get; }
 ```
 
-``` c++
+```cpp
 public:
 property Duration NaturalDuration {
     Duration get ();
@@ -66,28 +65,28 @@ property Duration NaturalDuration {
 member NaturalDuration : Duration
 ```
 
-``` jscript
+```jscript
 function get NaturalDuration () : Duration
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Windows.Duration](https://msdn.microsoft.com/en-us/library/ms602372\(v=vs.95\))  
+Type: [System.Windows.Duration](https://msdn.microsoft.com/library/ms602372\(v=vs.95\))  
 The duration of the stream.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

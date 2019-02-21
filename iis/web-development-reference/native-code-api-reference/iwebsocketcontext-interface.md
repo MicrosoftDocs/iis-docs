@@ -1,15 +1,7 @@
 ---
-title: "IWebSocketContext Interface | Microsoft Docs"
-ms.custom: ""
+title: "IWebSocketContext Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4456d878-e673-41a5-8f36-f2f48809105e
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWebSocketContext Interface
 Represents context support for bi-directional WebSocket communications over a single TCP socket.  

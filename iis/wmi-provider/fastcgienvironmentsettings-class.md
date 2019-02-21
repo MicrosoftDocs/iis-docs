@@ -1,15 +1,7 @@
 ---
-title: "FastCgiEnvironmentSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "FastCgiEnvironmentSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f2bfccf2-95b3-4b6b-af5d-1e631d4babad
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # FastCgiEnvironmentSettings Class
 Contains environment variables for the process executable program of an application pool.  

@@ -1,15 +1,7 @@
 ---
-title: "ConfigurationHistorySection Class | Microsoft Docs"
-ms.custom: ""
+title: "ConfigurationHistorySection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a512b40b-5c31-4970-ba68-0a723fb9e5a5
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigurationHistorySection Class
 Configures the configuration history settings of the ApplicationHost Helper Service.  
@@ -60,7 +52,7 @@ class ConfigurationHistorySection : ConfigurationSection
  The configuration history feature depends on the ApplicationHost Helper Service. The ApplicationHost Helper Service is a runtime-independent service that does not require the Windows Process Activation Service (WAS) or the World Wide Web Publishing Service (WWW service) to operate. It does not depend on any other service and its startup type is `Automatic`.  
   
 > [!NOTE]
->  If the ApplicationHost Helper Service is stopped, the configuration history feature will not work.  
+> If the ApplicationHost Helper Service is stopped, the configuration history feature will not work.  
   
 ## Example  
  The following code example sets the maxiumum number of history subdirectories to 20 and specifies that the ApplicationHost.config file be checked for changes every 4 minutes. A helper function displays the `ConfigurationHistorySection` values before and after the change.  

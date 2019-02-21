@@ -29,11 +29,9 @@ The [JobMetadata](jobmetadata-class-microsoft-web-media-transformmanager.md) typ
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskElement](jobmetadata-taskelement-property-microsoft-web-media-transformmanager.md)|Gets the task element from the manifest.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskMetadata](jobmetadata-taskmetadata-property-microsoft-web-media-transformmanager.md)|Gets the task metadata from the task element that is contained in the manifest.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [JobMetadata Class](jobmetadata-class-microsoft-web-media-transformmanager.md)
 

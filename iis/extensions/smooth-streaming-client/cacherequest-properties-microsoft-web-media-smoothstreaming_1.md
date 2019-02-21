@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # CacheRequest Properties
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 
 ## Properties
@@ -25,11 +19,9 @@ The [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) 
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[CanonicalUri](cacherequest-canonicaluri-property-microsoft-web-media-smoothstreaming_1.md)|The Uri of the request.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheRequest Class](cacherequest-class-microsoft-web-media-smoothstreaming_1.md)
 

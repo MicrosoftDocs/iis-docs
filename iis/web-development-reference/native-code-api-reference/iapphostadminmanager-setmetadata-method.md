@@ -1,15 +1,7 @@
 ---
-title: "IAppHostAdminManager::SetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostAdminManager::SetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1fb582bf-d87e-7f90-6846-f1e00bce9b70
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostAdminManager::SetMetadata Method
 Sets metadata values in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
@@ -24,7 +16,7 @@ HRESULT SetMetadata(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being set.  
   

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostChildElementCollection::Count Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostChildElementCollection::Count Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cb49dabb-b5f2-0133-a463-311d4ca9ffb1
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostChildElementCollection::Count Method
 Gets the number of configuration elements in the collection.  
@@ -23,7 +15,7 @@ HRESULT Count(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcCount`  
  A pointer to a `DWORD` that contains the number of child elements in the collection.  
   

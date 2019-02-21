@@ -21,7 +21,7 @@ The **Entries** property gets an [IPlaylistEntryInfoCollection Interface](iplayl
 
 |||
 |--- |--- |
-|*ppPlaylistEntries*|The returned [IPlaylistEntryInfoCollection Interface](https://msdn.microsoft.com/en-us/library/dd146264(v=vs.90)) instance.|
+|*ppPlaylistEntries*|The returned [IPlaylistEntryInfoCollection Interface](https://msdn.microsoft.com/library/dd146264) instance.|
 
 
 ## Return Value

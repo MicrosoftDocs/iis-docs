@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
@@ -21,7 +21,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamUpdatedListEventArgs Constructor (Exception, Object)
@@ -33,7 +32,7 @@ Initializes a new instance of the [StreamUpdatedListEventArgs](streamupdatedlist
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -48,14 +47,14 @@ Dim userState As Object
 Dim instance As New StreamUpdatedListEventArgs(error, userState)
 ```
 
-``` csharp
+```csharp
   public StreamUpdatedListEventArgs(
     Exception error,
     Object userState
 )
 ```
 
-``` c++
+```cpp
   public:
 StreamUpdatedListEventArgs(
     Exception^ error, 
@@ -63,42 +62,42 @@ StreamUpdatedListEventArgs(
 )
 ```
 
-``` jscript
+```jscript
   public function StreamUpdatedListEventArgs(
     error : Exception, 
     userState : Object
 )
 ```
 
-#### Parameters
+### Parameters
 
   - error  
-    Type: [System. . :: . .Exception](https://msdn.microsoft.com/en-us/library/c18k6c59\(v=vs.90\))  
+    Type: [System.Exception](https://msdn.microsoft.com/library/c18k6c59)  
     A \[T:System.Exception,System.Object\] object.  
 
 <!-- end list -->
 
   - userState  
-    Type: [System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
-    Use defined state [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\)).  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
+    Use defined state [Object](https://msdn.microsoft.com/library/e5kfa45b).  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamUpdatedListEventArgs Class](streamupdatedlisteventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

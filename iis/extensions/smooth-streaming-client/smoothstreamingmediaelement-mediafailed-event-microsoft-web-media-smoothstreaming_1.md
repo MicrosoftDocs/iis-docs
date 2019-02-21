@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MediaFailed
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.MediaFailed Event
@@ -38,7 +37,7 @@ Occurs when there is an error associated with the media source.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Event MediaFailed As EventHandler(Of ExceptionRoutedEventArgs)
@@ -50,11 +49,11 @@ Dim handler As EventHandler(Of ExceptionRoutedEventArgs)
 AddHandler instance.MediaFailed, handler
 ```
 
-``` csharp
+```csharp
 public event EventHandler<ExceptionRoutedEventArgs> MediaFailed
 ```
 
-``` c++
+```cpp
 public:
  event EventHandler<ExceptionRoutedEventArgs^>^ MediaFailed {
     void add (EventHandler<ExceptionRoutedEventArgs^>^ value);
@@ -67,7 +66,7 @@ member MediaFailed : <EventHandler<ExceptionRoutedEventArgs>,
     ExceptionRoutedEventArgs>
 ```
 
-``` jscript
+```jscript
 JScript supports the use of events, but not the declaration of new ones.
 ```
 
@@ -89,17 +88,17 @@ The following example shows a delegate that handles the media failed event.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

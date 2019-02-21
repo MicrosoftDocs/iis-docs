@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.ResubmitJob
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ResubmitJob Method
@@ -36,7 +35,7 @@ Moves a job to the configuring queue where it can be resubmitted.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Sub ResubmitJob ( _
@@ -50,14 +49,14 @@ Dim jobDetails As JobDetails
 instance.ResubmitJob(jobDetails)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public void ResubmitJob(
     JobDetails jobDetails
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual void ResubmitJob(
@@ -74,25 +73,25 @@ override ResubmitJob :
         jobDetails:JobDetails -> unit 
 ```
 
-``` jscript
+```jscript
   public final function ResubmitJob(
     jobDetails : JobDetails
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobDetails  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
     The [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) object that is used to resubmit the job.  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .ResubmitJob(JobDetails)](imanagementservice-resubmitjob-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.ResubmitJob(JobDetails)](imanagementservice-resubmitjob-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

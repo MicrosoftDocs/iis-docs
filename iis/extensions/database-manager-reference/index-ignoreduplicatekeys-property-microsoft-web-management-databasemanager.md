@@ -1,5 +1,5 @@
 ---
-title: Index.IgnoreDuplicateKeys Property  (Microsoft.Web.Management.DatabaseManager)
+title: Index.IgnoreDuplicateKeys Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IgnoreDuplicateKeys Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.IgnoreDuplicateKeys
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.index.ignoreduplicatekeys(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Index.get_IgnoreDuplicateKeys
 - Microsoft.Web.Management.DatabaseManager.Index.set_IgnoreDuplicateKeys
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Index.IgnoreDuplicateKeys Property
@@ -39,7 +38,7 @@ Gets or sets a value that indicates whether the index ignores duplicate keys.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property IgnoreDuplicateKeys As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.IgnoreDuplicateKeys
 instance.IgnoreDuplicateKeys = value
 ```
 
-``` csharp
+```csharp
 public bool IgnoreDuplicateKeys { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool IgnoreDuplicateKeys {
     bool get ();
@@ -63,23 +62,23 @@ property bool IgnoreDuplicateKeys {
 }
 ```
 
-``` jscript
+```jscript
 function get IgnoreDuplicateKeys () : boolean
 function set IgnoreDuplicateKeys (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the index ignores duplicate keys; otherwise, false.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Index Class](index-class-microsoft-web-management-databasemanager.md)
 

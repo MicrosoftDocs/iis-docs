@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.GetConfigurationMessages
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetConfigurationMessages Method
@@ -36,7 +35,7 @@ Returns configuration messages that are related to the IIS Transform Manager ser
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Function GetConfigurationMessages As Collection(Of ConfigurationMessage)
@@ -48,12 +47,12 @@ Dim returnValue As Collection(Of ConfigurationMessage)
 returnValue = instance.GetConfigurationMessages()
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public Collection<ConfigurationMessage> GetConfigurationMessages()
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual Collection<ConfigurationMessage^>^ GetConfigurationMessages() sealed
@@ -66,22 +65,22 @@ abstract GetConfigurationMessages : unit -> Collection<ConfigurationMessage>
 override GetConfigurationMessages : unit -> Collection<ConfigurationMessage> 
 ```
 
-``` jscript
+```jscript
   public final function GetConfigurationMessages() : Collection<ConfigurationMessage>
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[ConfigurationMessage](configurationmessage-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[ConfigurationMessage](configurationmessage-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 The configuration messages.  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .GetConfigurationMessages() () () ()](imanagementservice-getconfigurationmessages-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.GetConfigurationMessages() () () ()](imanagementservice-getconfigurationmessages-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

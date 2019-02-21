@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.CreateManifest
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CreateManifest Method
@@ -36,7 +35,7 @@ Creates a [JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.m
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Function CreateManifest ( _
@@ -65,7 +64,7 @@ returnValue = JobManifest.CreateManifest(jobDefinition, _
     instanceId)
 ```
 
-``` csharp
+```csharp
   public static JobManifest CreateManifest(
     JobDefinition jobDefinition,
     string workQueueRoot,
@@ -77,7 +76,7 @@ returnValue = JobManifest.CreateManifest(jobDefinition, _
 )
 ```
 
-``` c++
+```cpp
   public:
 static JobManifest^ CreateManifest(
     JobDefinition^ jobDefinition, 
@@ -101,7 +100,7 @@ static JobManifest^ CreateManifest(
         instanceId:string -> JobManifest 
 ```
 
-``` jscript
+```jscript
   public static function CreateManifest(
     jobDefinition : JobDefinition, 
     workQueueRoot : String, 
@@ -113,56 +112,56 @@ static JobManifest^ CreateManifest(
 ) : JobManifest
 ```
 
-#### Parameters
+### Parameters
 
   - jobDefinition  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md)  
     An object that defines how a job is created, scheduled, monitored, and maintained.  
 
 <!-- end list -->
 
   - workQueueRoot  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     A value that specifies the root work folder name.  
 
 <!-- end list -->
 
   - schedulerInfo  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .SchedulerInfo](schedulerinfo-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.SchedulerInfo](schedulerinfo-class-microsoft-web-media-transformmanager.md)  
     An object that provides scheduling information about a job.  
 
 <!-- end list -->
 
   - template  
-    Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+    Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
     An XML element that contains a set of sequential tasks that define a job.  
 
 <!-- end list -->
 
   - sharedProperties  
-    Type: [System.Collections.Generic. . :: . .ICollection](https://msdn.microsoft.com/en-us/library/92t2ye13\(v=vs.90\))\< (Of \< ( \<'[XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))\> ) \> ) \>  
+    Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/library/92t2ye13)\< (Of \< ( \<'[XElement](https://msdn.microsoft.com/library/bb340098)\> ) \> ) \>  
     A collection of shared properties that can be supplied for a job.  
 
 <!-- end list -->
 
   - inputFileName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the input file that triggered the job.  
 
 <!-- end list -->
 
   - instanceId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the manifest for the job instance.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md)  
 An object that contains job instance metadata.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

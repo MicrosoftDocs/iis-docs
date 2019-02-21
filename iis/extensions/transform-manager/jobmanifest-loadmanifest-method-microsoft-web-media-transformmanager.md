@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.LoadManifest
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LoadManifest Method
@@ -36,7 +35,7 @@ Loads the manifest file.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Function LoadManifest ( _
@@ -50,13 +49,13 @@ Dim returnValue As JobManifest
 returnValue = JobManifest.LoadManifest(fileName)
 ```
 
-``` csharp
+```csharp
   public static JobManifest LoadManifest(
     string fileName
 )
 ```
 
-``` c++
+```cpp
   public:
 static JobManifest^ LoadManifest(
     String^ fileName
@@ -68,26 +67,26 @@ static JobManifest^ LoadManifest(
         fileName:string -> JobManifest 
 ```
 
-``` jscript
+```jscript
   public static function LoadManifest(
     fileName : String
 ) : JobManifest
 ```
 
-#### Parameters
+### Parameters
 
   - fileName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the manifest file.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md)  
 A job manifest object that contains job-instance metadata.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

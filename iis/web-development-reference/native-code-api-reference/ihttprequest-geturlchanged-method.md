@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::GetUrlChanged Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::GetUrlChanged Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fb1a6f37-8da1-5118-a581-5fe6684a88a2
-caps.latest.revision: 27
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::GetUrlChanged Method
 Determines whether the request URL has been modified.  
@@ -22,7 +14,7 @@ virtual BOOL GetUrlChanged(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

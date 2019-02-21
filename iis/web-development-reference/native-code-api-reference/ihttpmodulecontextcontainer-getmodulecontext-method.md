@@ -1,15 +1,7 @@
 ---
-title: "IHttpModuleContextContainer::GetModuleContext Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpModuleContextContainer::GetModuleContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d0e75a04-da9d-3822-f2dd-5e931ed7a8e7
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpModuleContextContainer::GetModuleContext Method
 Returns the stored context from the context container.  
@@ -22,7 +14,7 @@ virtual IHttpStoredContext* GetModuleContext(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `moduleId`  
  [IN] An `HTTP_MODULE_ID` pointer.  
   

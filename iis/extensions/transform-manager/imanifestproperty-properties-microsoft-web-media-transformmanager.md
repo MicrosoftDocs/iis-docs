@@ -21,11 +21,9 @@ The [IManifestProperty](imanifestproperty-interface-microsoft-web-media-transfor
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Value](imanifestproperty-value-property-microsoft-web-media-transformmanager.md)|Gets the manifest property value.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IManifestProperty Interface](imanifestproperty-interface-microsoft-web-media-transformmanager.md)
 

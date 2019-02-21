@@ -1,15 +1,7 @@
 ---
-title: "Web Server Core Enumerations | Microsoft Docs"
-ms.custom: ""
+title: "Web Server Core Enumerations"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6ea0ab85-153f-4c51-9d2e-4c963b38210a
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Web Server Core Enumerations
 This section describes the Web Server Core and integrated request-processing pipeline enumerations.  

@@ -1,5 +1,5 @@
 ---
-title: QueryResult.QueryResults Property  (Microsoft.Web.Management.DatabaseManager)
+title: QueryResult.QueryResults Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryResults Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryResult.QueryResults
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.queryresult.queryresults(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.QueryResult.QueryResults
 - Microsoft.Web.Management.DatabaseManager.QueryResult.get_QueryResults
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # QueryResult.QueryResults Property
@@ -37,7 +36,7 @@ Retrieves an array of query results.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public ReadOnly Property QueryResults As ArrayList
 'Usage
@@ -47,31 +46,31 @@ Dim value As ArrayList
 value = instance.QueryResults
 ```
 
-``` csharp
+```csharp
 public ArrayList QueryResults { get; }
 ```
 
-``` c++
+```cpp
 public:
 property ArrayList^ QueryResults {
     ArrayList^ get ();
 }
 ```
 
-``` jscript
+```jscript
 function get QueryResults () : ArrayList
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.ArrayList](https://msdn.microsoft.com/en-us/library/7x4b0a97\(v=vs.90\))  
+Type: [System.Collections.ArrayList](https://msdn.microsoft.com/library/7x4b0a97)  
 The ArrayList of [QueryResult](queryresult-class-microsoft-web-management-databasemanager.md) objects.  
 
 ## Examples
 
 The following code sample illustrates an example [ExecuteQuery](databaseprovider-executequery-method-microsoft-web-management-databasemanager.md) method that returns an array of query results from a database query.
 
-``` vb
+```vb
 
     Public Overrides Function ExecuteQuery( _
             ByVal connectionString As String, _
@@ -132,7 +131,7 @@ The following code sample illustrates an example [ExecuteQuery](databaseprovider
 
 ```
 
-``` csharp
+```csharp
 
         public override QueryResult[] ExecuteQuery(
             string connectionString,
@@ -198,11 +197,11 @@ The following code sample illustrates an example [ExecuteQuery](databaseprovider
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [QueryResult Class](queryresult-class-microsoft-web-management-databasemanager.md)
 

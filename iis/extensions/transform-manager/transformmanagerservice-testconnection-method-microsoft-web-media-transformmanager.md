@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.TestConnection
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TestConnection Method
@@ -36,7 +35,7 @@ Tests connectivity of the IIS Transform Manager service to the [Scheduler](sched
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Function TestConnection ( _
@@ -54,7 +53,7 @@ returnValue = instance.TestConnection(scheduler, _
     credential)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public bool TestConnection(
     JobScheduler scheduler,
@@ -62,7 +61,7 @@ public bool TestConnection(
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual bool TestConnection(
@@ -82,40 +81,40 @@ override TestConnection :
         credential:Credential -> bool 
 ```
 
-``` jscript
+```jscript
   public final function TestConnection(
     scheduler : JobScheduler, 
     credential : Credential
 ) : boolean
 ```
 
-#### Parameters
+### Parameters
 
   - scheduler  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md)  
     The [Scheduler](scheduler-class-microsoft-web-media-transformmanager.md) object to test.  
 
 <!-- end list -->
 
   - credential  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .Credential](credential-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.Credential](credential-class-microsoft-web-media-transformmanager.md)  
     The [Credential](credential-class-microsoft-web-media-transformmanager.md) object that is required in order to run jobs and access resources.  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the IIS Transform Manager service can connect to the [Scheduler](scheduler-class-microsoft-web-media-transformmanager.md) object; otherwise, false.  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .TestConnection(JobScheduler, Credential)](imanagementservice-testconnection-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.TestConnection(JobScheduler, Credential)](imanagementservice-testconnection-method-microsoft-web-media-transformmanager.md)  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[InvalidOperationException](https://msdn.microsoft.com/en-us/library/2asft85a(v=vs.90))|The test connection is not valid for the local scheduler.|
-|[FileNotFoundException](https://msdn.microsoft.com/en-us/library/dzyy5k3x(v=vs.90))|The HPC client utilities are not installed.|
+|[InvalidOperationException](https://msdn.microsoft.com/library/2asft85a)|The test connection is not valid for the local scheduler.|
+|[FileNotFoundException](https://msdn.microsoft.com/library/dzyy5k3x)|The HPC client utilities are not installed.|
 |InvalidDataException|The scheduler is not responding.|
 
 ## Remarks
@@ -124,7 +123,7 @@ By default, IIS Transform Manager uses the task scheduler on the local server, b
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

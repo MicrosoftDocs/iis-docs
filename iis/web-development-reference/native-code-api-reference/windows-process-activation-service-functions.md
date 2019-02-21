@@ -1,15 +1,7 @@
 ---
-title: "Windows Process Activation Service Functions | Microsoft Docs"
-ms.custom: ""
+title: "Windows Process Activation Service Functions"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4ec064b9-674c-4d8f-99c5-fe2b95bbce30
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Windows Process Activation Service Functions
 This section provides functions to retrieve a reference to the process model host.  

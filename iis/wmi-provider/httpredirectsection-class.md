@@ -1,15 +1,7 @@
 ---
-title: "HttpRedirectSection Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpRedirectSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 437c5154-8165-1852-d8f5-aeb7f68fdc05
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpRedirectSection Class
 Configures HTTP redirection.  

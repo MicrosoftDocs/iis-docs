@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.IsTraceAreaEnabled
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.IsTraceAreaEnabled Method
@@ -36,7 +35,7 @@ Returns a Boolean that value indicates whether the specified TraceArea is enable
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Function IsTraceAreaEnabled ( _
@@ -50,13 +49,13 @@ Dim returnValue As Boolean
 returnValue = Tracing.IsTraceAreaEnabled(traceArea)
 ```
 
-``` csharp
+```csharp
 public static bool IsTraceAreaEnabled(
     TraceArea traceArea
 )
 ```
 
-``` c++
+```cpp
 public:
 static bool IsTraceAreaEnabled(
     TraceArea traceArea
@@ -68,36 +67,36 @@ static member IsTraceAreaEnabled :
         traceArea:TraceArea -> bool 
 ```
 
-``` jscript
+```jscript
 public static function IsTraceAreaEnabled(
     traceArea : TraceArea
 ) : boolean
 ```
 
-#### Parameters
+### Parameters
 
   - traceArea  
     Type: [Microsoft.Web.Media.Diagnostics.TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
     A [TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md) enumeration object.
 
-#### Return Value
+### Return Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
 A Boolean value that indicates whether the specified TraceArea is enabled; the value is true if enabled, otherwise false.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

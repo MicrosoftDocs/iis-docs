@@ -1,5 +1,5 @@
 ---
-title: ConnectionArgument.Value Property  (Microsoft.Web.Management.DatabaseManager)
+title: ConnectionArgument.Value Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Value Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.Value
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.connectionargument.value(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.get_Value
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.set_Value
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConnectionArgument.Value Property
@@ -39,7 +38,7 @@ Gets or sets a value that specifies the value of the connection argument.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property Value As String
 'Usage
@@ -51,11 +50,11 @@ value = instance.Value
 instance.Value = value
 ```
 
-``` csharp
+```csharp
 public string Value { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ Value {
     String^ get ();
@@ -63,21 +62,21 @@ property String^ Value {
 }
 ```
 
-``` jscript
+```jscript
 function get Value () : String
 function set Value (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The value of the connection argument.  
 
 ## Examples
 
 The following code sample illustrates an example ConnectionStringArgument property that returns the connection string arguments for a Microsoft Access database provider.
 
-``` vb
+```vb
 
     Public Overrides Function CalculateConnectionString( _
             ByVal arguments As System.Collections.Generic.ICollection( _
@@ -102,7 +101,7 @@ The following code sample illustrates an example ConnectionStringArgument proper
 
 ```
 
-``` csharp
+```csharp
 
         public override string CalculateConnectionString(
             ICollection<ConnectionArgument> arguments )
@@ -133,11 +132,11 @@ The following code sample illustrates an example ConnectionStringArgument proper
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConnectionArgument Class](connectionargument-class-microsoft-web-management-databasemanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "ConfigurationSection.SetAllowLocation Method | Microsoft Docs"
-ms.custom: ""
+title: "ConfigurationSection.SetAllowLocation Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ef360cdc-bd3f-4731-8e6c-87d0219903b2
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigurationSection.SetAllowLocation Method
 Sets the `allowLocation` attribute for a configuration section.  
@@ -24,7 +16,7 @@ ConfigurationSection.SetAllowLocation(AllowLocation)
 ConfigurationSection.SetAllowLocation(AllowLocation);  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Definition|  
 |----------|----------------|  

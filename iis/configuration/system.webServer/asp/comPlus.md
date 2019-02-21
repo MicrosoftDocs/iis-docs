@@ -29,7 +29,7 @@ The `<comPlus>` element of the `<asp>` element configures the following COM+ set
     - ASP uses system resources to track the threading model, reducing the performance of your ASP application.
     - Objects that are created in your ASP application outside of the **OnStartPage** or **OnEndPage** method are released earlier than expected, which causes degradation in the scalability of your application and can prevent your component from writing to the response in the object destructor method.
 
-    If the **trackThreadingModel** attribute is set to **false**, and you give application scope to components that you create, those components must aggregate the free-threaded marshaler. If you do not aggregate the free-threaded marshaler, ASP generates an error when you try to create an instance of the component. For more information, see [Selecting a Threading Model for Components in IIS](https://msdn.microsoft.com/en-us/library/ms525101.aspx) in the Platform SDK.
+    If the **trackThreadingModel** attribute is set to **false**, and you give application scope to components that you create, those components must aggregate the free-threaded marshaler. If you do not aggregate the free-threaded marshaler, ASP generates an error when you try to create an instance of the component. For more information, see [Selecting a Threading Model for Components in IIS](https://msdn.microsoft.com/library/ms525101.aspx) in the Platform SDK.
 
 <a id="002"></a>
 ## Compatibility

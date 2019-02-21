@@ -1,15 +1,7 @@
 ---
-title: "BypassElement Class | Microsoft Docs"
-ms.custom: ""
+title: "BypassElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5169123e-c88c-f1a4-750f-159bb0db613a
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # BypassElement Class
 Contains address information for resources that bypass the Web proxy server.  

@@ -1,15 +1,7 @@
 ---
-title: "FileExtensionElement Class | Microsoft Docs"
-ms.custom: ""
+title: "FileExtensionElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4c300d66-0bce-4cb4-bd1a-11ac82457fed
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # FileExtensionElement Class
 Specifies a file extension that is allowed or denied in requests.  

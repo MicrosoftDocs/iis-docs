@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestMergeHandler
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ManifestMergeHandler Delegate
@@ -40,7 +39,7 @@ Delegate method to merge data from more than one manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Delegate Sub ManifestMergeHandler ( _
@@ -51,13 +50,13 @@ Public Delegate Sub ManifestMergeHandler ( _
 Dim instance As New ManifestMergeHandler(AddressOf HandlerMethod)
 ```
 
-``` csharp
+```csharp
 public delegate void ManifestMergeHandler(
     SmoothStreamingMediaElement ssme
 )
 ```
 
-``` c++
+```cpp
 public delegate void ManifestMergeHandler(
     SmoothStreamingMediaElement^ ssme
 )
@@ -69,11 +68,11 @@ type ManifestMergeHandler =
         ssme:SmoothStreamingMediaElement -> unit
 ```
 
-``` jscript
+```jscript
 JScript supports the use of delegates, but not the declaration of new ones.
 ```
 
-#### Parameters
+### Parameters
 
   - ssme  
     Type: [Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)  
@@ -81,13 +80,13 @@ JScript supports the use of delegates, but not the declaration of new ones.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

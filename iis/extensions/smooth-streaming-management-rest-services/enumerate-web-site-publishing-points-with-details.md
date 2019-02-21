@@ -161,7 +161,7 @@ Only elements that the authenticated user has read access to for the publishing 
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [SmoothStreaming Schema Reference](smoothstreaming-schema-reference.md)
 

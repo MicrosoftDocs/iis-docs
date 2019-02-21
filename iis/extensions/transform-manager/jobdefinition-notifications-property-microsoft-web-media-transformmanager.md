@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.Notifications Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.Notifications Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Notifications Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.Notifications
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.notifications(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_Notifications
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_Notifications
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Notifications Property
@@ -40,7 +39,7 @@ Gets or sets a collection of the job notifications that trigger a notification P
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property Notifications As JobStatus()
@@ -56,12 +55,12 @@ value = instance.Notifications
 instance.Notifications = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public JobStatus[] Notifications { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property array<JobStatus>^ Notifications {
@@ -75,19 +74,19 @@ property array<JobStatus>^ Notifications {
 member Notifications : JobStatus[] with get, set
 ```
 
-``` jscript
+```jscript
   function get Notifications () : JobStatus[]
 function set Notifications (value : JobStatus[])
 ```
 
-#### Property Value
+### Property Value
 
-Type: array\<[Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)\> \[\] () \[\] \[\]  
+Type: array\<[Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)\> \[\] () \[\] \[\]  
 A collection of the job notifications that trigger a notification POST request.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

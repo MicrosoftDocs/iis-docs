@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestPropertiesDictionary Constructor (XElement)
@@ -34,7 +33,7 @@ Initializes a new instance of the [ManifestPropertiesDictionary](manifestpropert
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -47,13 +46,13 @@ Initializes a new instance of the [ManifestPropertiesDictionary](manifestpropert
 Dim instance As New ManifestPropertiesDictionary(properties)
 ```
 
-``` csharp
+```csharp
   public ManifestPropertiesDictionary(
     XElement properties
 )
 ```
 
-``` c++
+```cpp
   public:
 ManifestPropertiesDictionary(
     XElement^ properties
@@ -65,16 +64,16 @@ ManifestPropertiesDictionary(
         properties:XElement -> ManifestPropertiesDictionary
 ```
 
-``` jscript
+```jscript
   public function ManifestPropertiesDictionary(
     properties : XElement
 )
 ```
 
-#### Parameters
+### Parameters
 
   - properties  
-    Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+    Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
     An XML element that contains properties.  
 
 ## Exceptions
@@ -86,7 +85,7 @@ ManifestPropertiesDictionary(
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestPropertiesDictionary Class](manifestpropertiesdictionary-class-microsoft-web-media-transformmanager.md)
 

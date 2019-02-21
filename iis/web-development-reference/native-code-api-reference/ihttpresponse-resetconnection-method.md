@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::ResetConnection Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::ResetConnection Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7c4a08fd-596f-7ec3-01d3-d780e8373229
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::ResetConnection Method
 Resets the socket connection immediately.  
@@ -22,7 +14,7 @@ virtual VOID ResetConnection(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  
@@ -40,7 +32,7 @@ virtual VOID ResetConnection(
  The following code example demonstrates how to use the `ResetConnection` method to create an HTTP module that terminates the client response. The example module clears the response buffer and inserts a string into the response to return to the client. The example module then calls the `ResetConnection` method to terminate the response. Finally, the module inserts another string into the response; this method will succeed even though the connection with the client has been reset.  
   
 > [!NOTE]
->  Because the connection with the client is reset, neither of the calls to return a string to the client in this module will send any text to the client.  
+> Because the connection with the client is reset, neither of the calls to return a string to the client in this module will send any text to the client.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpResponseResetConnection#1](IHttpResponseResetConnection#1)]  -->  
   

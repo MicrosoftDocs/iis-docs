@@ -1,5 +1,5 @@
 ---
-title: JobManager.LocalFileWatcherFilter Property  (Microsoft.Web.Media.TransformManager)
+title: JobManager.LocalFileWatcherFilter Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LocalFileWatcherFilter Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.LocalFileWatcherFilter
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.localfilewatcherfilter(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.LocalFileWatcherFilter
 - Microsoft.Web.Media.TransformManager.JobManager.get_LocalFileWatcherFilter
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LocalFileWatcherFilter Property
@@ -38,7 +37,7 @@ Gets a file filter value that is used to initiate job creation.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property LocalFileWatcherFilter As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.LocalFileWatcherFilter
 ```
 
-``` csharp
+```csharp
   public string LocalFileWatcherFilter { get; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ LocalFileWatcherFilter {
     String^ get ();
@@ -66,18 +65,18 @@ property String^ LocalFileWatcherFilter {
   member LocalFileWatcherFilter : string
 ```
 
-``` jscript
+```jscript
   function get LocalFileWatcherFilter () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A file filter value that is used to initiate job creation.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

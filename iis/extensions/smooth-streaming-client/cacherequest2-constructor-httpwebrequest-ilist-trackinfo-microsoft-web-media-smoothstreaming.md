@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheRequest2 Constructor (HttpWebRequest, IList\<TrackInfo\>)
@@ -34,7 +33,7 @@ Initializes a new instance of the [CacheRequest2](cacherequest2-class-microsoft-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -50,14 +49,14 @@ Dim instance As New CacheRequest2(request, _
     tracks)
 ```
 
-``` csharp
+```csharp
 public CacheRequest2(
     HttpWebRequest request,
     IList<TrackInfo> tracks
 )
 ```
 
-``` c++
+```cpp
 public:
 CacheRequest2(
     HttpWebRequest^ request, 
@@ -71,34 +70,34 @@ new :
         tracks:IList<TrackInfo> -> CacheRequest2
 ```
 
-``` jscript
+```jscript
 public function CacheRequest2(
     request : HttpWebRequest, 
     tracks : IList<TrackInfo>
 )
 ```
 
-#### Parameters
+### Parameters
 
   - request  
-    Type: [System.Net.HttpWebRequest](https://msdn.microsoft.com/en-us/library/8y7x3zz2\(v=vs.95\))  
-    A [HttpWebRequest](https://msdn.microsoft.com/en-us/library/8y7x3zz2\(v=vs.95\)) object that represents the web request.
+    Type: [System.Net.HttpWebRequest](https://msdn.microsoft.com/library/8y7x3zz2\(v=vs.95\))  
+    A [HttpWebRequest](https://msdn.microsoft.com/library/8y7x3zz2\(v=vs.95\)) object that represents the web request.
 
 <!-- end list -->
 
   - tracks  
-    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.95\))\<[TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
+    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6\(v=vs.95\))\<[TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
     The list of selectable tracks that the cache plug-in can use for downloading.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheRequest2 Class](cacherequest2-class-microsoft-web-media-smoothstreaming.md)
 

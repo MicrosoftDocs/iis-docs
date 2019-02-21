@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsMutedProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.IsMutedProperty Field
@@ -36,7 +35,7 @@ Represents a dependency property that specifies the [IsMuted](smoothstreamingmed
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared ReadOnly IsMutedProperty As DependencyProperty
@@ -47,11 +46,11 @@ Dim value As DependencyProperty
 value = SmoothStreamingMediaElement.IsMutedProperty
 ```
 
-``` csharp
+```csharp
 public static readonly DependencyProperty IsMutedProperty
 ```
 
-``` c++
+```cpp
 public:
 static initonly DependencyProperty^ IsMutedProperty
 ```
@@ -60,23 +59,23 @@ static initonly DependencyProperty^ IsMutedProperty
 static val IsMutedProperty: DependencyProperty
 ```
 
-``` jscript
+```jscript
 public static final var IsMutedProperty : DependencyProperty
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

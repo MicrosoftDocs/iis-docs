@@ -1,15 +1,7 @@
 ---
-title: "VerbElement Class | Microsoft Docs"
-ms.custom: ""
+title: "VerbElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ef70ae25-d13b-1f8c-4057-cb388586fdf1
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # VerbElement Class
 Represents an HTTP verb that is allowed or denied.  

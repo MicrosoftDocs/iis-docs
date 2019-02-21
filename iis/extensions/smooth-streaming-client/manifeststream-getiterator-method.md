@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,14 +20,14 @@ Gets the last chunk iterator within the specified time range.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IChunkIter GetIterator(
 long minTime,
 long time
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual IChunkIter^ GetIterator(
 [InAttribute] long long minTime, 
@@ -35,7 +35,7 @@ virtual IChunkIter^ GetIterator(
 ) sealed
 ```
 
-``` jscript
+```jscript
 public final function GetIterator(
 minTime : long, 
 time : long

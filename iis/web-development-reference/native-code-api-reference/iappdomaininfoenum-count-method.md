@@ -1,15 +1,7 @@
 ---
-title: "IAppDomainInfoEnum::Count Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppDomainInfoEnum::Count Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f1d97ad2-cde6-9f28-8bca-9b22d6105d22
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppDomainInfoEnum::Count Method
 Retrieves the number of application domains.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall Count(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pdwCount`  
  A pointer to a `DWORD` that contains the number of application domains.  
   

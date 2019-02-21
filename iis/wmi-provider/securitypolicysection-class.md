@@ -1,15 +1,7 @@
 ---
-title: "SecurityPolicySection Class | Microsoft Docs"
-ms.custom: ""
+title: "SecurityPolicySection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0d5068c9-aeb1-15ac-af43-5a4e669d0f0e
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SecurityPolicySection Class
 Defines a collection of mappings between security policy files and their trust-level names.  

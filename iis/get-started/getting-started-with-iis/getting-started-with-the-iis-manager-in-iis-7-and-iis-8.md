@@ -86,8 +86,7 @@ The features associated with delegation have **special rules** for where they ap
 
 ## Feature Page Layouts
 
-There are three types of pages in IIS Manager: list pages, property grids, and dialog pages.
-
+There are three types of pages in IIS 
 ### List Page
 
 List pages contain lists. Most list pages let you group by values in one or more columns. The main list pages, like Sites and Application Pools, let you to filter the list entries by searching in a list column for entries that match a search string.

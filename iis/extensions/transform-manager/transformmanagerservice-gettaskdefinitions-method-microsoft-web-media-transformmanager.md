@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.GetTaskDefinitions
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetTaskDefinitions Method
@@ -36,7 +35,7 @@ Returns a list of [TaskDefinition](taskdefinition-class-microsoft-web-media-tran
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Function GetTaskDefinitions As Collection(Of TaskDefinition)
@@ -48,12 +47,12 @@ Dim returnValue As Collection(Of TaskDefinition)
 returnValue = instance.GetTaskDefinitions()
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public Collection<TaskDefinition> GetTaskDefinitions()
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual Collection<TaskDefinition^>^ GetTaskDefinitions() sealed
@@ -66,22 +65,22 @@ abstract GetTaskDefinitions : unit -> Collection<TaskDefinition>
 override GetTaskDefinitions : unit -> Collection<TaskDefinition> 
 ```
 
-``` jscript
+```jscript
   public final function GetTaskDefinitions() : Collection<TaskDefinition>
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 A collection of [TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md) objects.  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .GetTaskDefinitions() () () ()](imanagementservice-gettaskdefinitions-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.GetTaskDefinitions() () () ()](imanagementservice-gettaskdefinitions-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "ProviderFactoryElement Class | Microsoft Docs"
-ms.custom: ""
+title: "ProviderFactoryElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6cee1598-11a6-3211-c3e1-24b5e68e46e8
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ProviderFactoryElement Class
 Contains configuration settings for an [!INCLUDE[ado_whidbey_long](../wmi-provider/includes/ado-whidbey-long-md.md)] provider factory.  

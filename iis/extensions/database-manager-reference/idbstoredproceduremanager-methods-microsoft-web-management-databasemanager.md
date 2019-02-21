@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # IDbStoredProcedureManager Methods
 
-Include Protected Members  
-Include Inherited Members  
-
 The [IDbStoredProcedureManager](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Methods
@@ -27,11 +24,9 @@ The [IDbStoredProcedureManager](idbstoredproceduremanager-interface-microsoft-we
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetStoredProcedureParameters](idbstoredproceduremanager-getstoredprocedureparameters-method-microsoft-web-management-databasemanager.md)|Returns a collection of parameters for a stored procedure.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetStoredProcedures](idbstoredproceduremanager-getstoredprocedures-method-microsoft-web-management-databasemanager.md)|Returns a collection of stored procedures for a database.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbStoredProcedureManager Interface](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md)
 

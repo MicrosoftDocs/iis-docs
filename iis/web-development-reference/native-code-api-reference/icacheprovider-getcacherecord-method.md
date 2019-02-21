@@ -1,15 +1,7 @@
 ---
-title: "ICacheProvider::GetCacheRecord Method | Microsoft Docs"
-ms.custom: ""
+title: "ICacheProvider::GetCacheRecord Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 212ddfc3-7d3c-eca9-efa5-a87f340dcd69
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ICacheProvider::GetCacheRecord Method
 Returns the cache record for the cache provider.  
@@ -22,7 +14,7 @@ virtual IHttpCacheSpecificData* GetCacheRecord(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

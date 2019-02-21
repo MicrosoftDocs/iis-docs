@@ -1,5 +1,5 @@
 ---
-title: IManifestProperty.Name Property  (Microsoft.Web.Media.TransformManager)
+title: IManifestProperty.Name Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IManifestProperty.Name
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.imanifestproperty.name(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManifestProperty.get_Name
 - Microsoft.Web.Media.TransformManager.IManifestProperty.Name
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Name Property
@@ -38,7 +37,7 @@ Gets the name of the manifest property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   ReadOnly Property Name As XName
@@ -51,11 +50,11 @@ Dim value As XName
 value = instance.Name
 ```
 
-``` csharp
+```csharp
   XName Name { get; }
 ```
 
-``` c++
+```cpp
   property XName^ Name {
     XName^ get ();
 }
@@ -65,13 +64,13 @@ value = instance.Name
   abstract Name : XName
 ```
 
-``` jscript
+```jscript
   function get Name () : XName
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XName](https://msdn.microsoft.com/en-us/library/bb347810\(v=vs.90\))  
+Type: [System.Xml.Linq.XName](https://msdn.microsoft.com/library/bb347810)  
 The name of the XML manifest element.  
 
 ## Remarks
@@ -89,7 +88,7 @@ When an application calls [IJobMetadata..::..GetProperty(XName)](ijobmetadata-ge
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManifestProperty Interface](imanifestproperty-interface-microsoft-web-media-transformmanager.md)
 

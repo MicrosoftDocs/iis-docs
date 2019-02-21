@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.JobManifest
 - Microsoft.Web.Media.TransformManager.JobManifest.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobManifest Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [JobManifest](jobmanifest-class-microsoft-web-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New
@@ -46,11 +45,11 @@ Initializes a new instance of the [JobManifest](jobmanifest-class-microsoft-web-
 Dim instance As New JobManifest()
 ```
 
-``` csharp
+```csharp
   public JobManifest()
 ```
 
-``` c++
+```cpp
   public:
 JobManifest()
 ```
@@ -59,13 +58,13 @@ JobManifest()
   new : unit -> JobManifest
 ```
 
-``` jscript
+```jscript
   public function JobManifest()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

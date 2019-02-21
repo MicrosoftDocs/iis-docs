@@ -1,5 +1,5 @@
 ---
-title: ConnectionArgument.DefaultValue Property  (Microsoft.Web.Management.DatabaseManager)
+title: ConnectionArgument.DefaultValue Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DefaultValue Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.DefaultValue
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.connectionargument.defaultvalue(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.get_DefaultValue
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.set_DefaultValue
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConnectionArgument.DefaultValue Property
@@ -39,7 +38,7 @@ Gets or sets the default value for the database connection argument.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property DefaultValue As String
 'Usage
@@ -51,11 +50,11 @@ value = instance.DefaultValue
 instance.DefaultValue = value
 ```
 
-``` csharp
+```csharp
 public string DefaultValue { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ DefaultValue {
     String^ get ();
@@ -63,21 +62,21 @@ property String^ DefaultValue {
 }
 ```
 
-``` jscript
+```jscript
 function get DefaultValue () : String
 function set DefaultValue (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The database connection argument.  
 
 ## Examples
 
 The following code sample illustrates an example ConnectionStringArgument property that returns the connection string arguments for a Microsoft Access database provider.
 
-``` vb
+```vb
 
     Public Overrides ReadOnly Property ConnectionStringArguments() _
             As System.Collections.Generic.ICollection( _
@@ -107,7 +106,7 @@ The following code sample illustrates an example ConnectionStringArgument proper
 
 ```
 
-``` csharp
+```csharp
 
         public override ICollection<ConnectionArgument> ConnectionStringArguments
         {
@@ -141,11 +140,11 @@ The following code sample illustrates an example ConnectionStringArgument proper
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConnectionArgument Class](connectionargument-class-microsoft-web-management-databasemanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheSpecificData::GetCacheKey Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheSpecificData::GetCacheKey Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3e91916c-8c29-70fa-7985-acb0b2beccdc
-caps.latest.revision: 31
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheSpecificData::GetCacheKey Method
 Returns the cache key associated with the cached data.  
@@ -22,7 +14,7 @@ virtual IHttpCacheKey* GetCacheKey(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

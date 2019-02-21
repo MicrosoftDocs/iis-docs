@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.VideoPlaybackTrack Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.VideoPlaybackTrack Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: VideoPlaybackTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoPlaybackTrack
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videoplaybacktrack(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoPlaybackTrack
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_VideoPlaybackTrack
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # VideoPlaybackTrack Property
@@ -37,7 +36,7 @@ Gets the video playback track.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property VideoPlaybackTrack As TrackInfo
@@ -49,43 +48,43 @@ Dim value As TrackInfo
 value = instance.VideoPlaybackTrack
 ```
 
-``` csharp
+```csharp
   public TrackInfo VideoPlaybackTrack { get; }
 ```
 
-``` c++
+```cpp
   public:
 property TrackInfo^ VideoPlaybackTrack {
     TrackInfo^ get ();
 }
 ```
 
-``` jscript
+```jscript
   function get VideoPlaybackTrack () : TrackInfo
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)  
+Type: [Microsoft.Web.Media.SmoothStreaming.TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)  
 The video playback track.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.EventViewer.EventIdInformation
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # EventIdInformation Field
@@ -36,7 +35,7 @@ Represents a constant that is used when information is written to the event view
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const EventIdInformation As Integer
@@ -47,11 +46,11 @@ Represents a constant that is used when information is written to the event view
 value = EventViewer.EventIdInformation
 ```
 
-``` csharp
+```csharp
   public const int EventIdInformation
 ```
 
-``` c++
+```cpp
   public:
 literal int EventIdInformation
 ```
@@ -60,13 +59,13 @@ literal int EventIdInformation
   static val mutable EventIdInformation: int
 ```
 
-``` jscript
+```jscript
   public const var EventIdInformation : int
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [EventViewer Class](eventviewer-class-microsoft-web-media-transformmanager.md)
 

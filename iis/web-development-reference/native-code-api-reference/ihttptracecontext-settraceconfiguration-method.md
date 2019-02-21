@@ -1,15 +1,7 @@
 ---
-title: "IHttpTraceContext::SetTraceConfiguration Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpTraceContext::SetTraceConfiguration Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d625426f-a634-4ff0-98b7-91ddeb6d9e8d
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpTraceContext::SetTraceConfiguration Method
 Sets the trace configuration for the trace context.  
@@ -24,7 +16,7 @@ virtual HRESULT SetTraceConfiguration(
 ) = 0;)  
 ```  
   
-#### Parameters  
+### Parameters  
  `moduleId`  
  [IN] An `HTTP_MODULE_ID` pointer that contains the module identifier for the trace configuration.  
   

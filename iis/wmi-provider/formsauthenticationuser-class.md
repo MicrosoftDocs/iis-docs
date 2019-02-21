@@ -1,15 +1,7 @@
 ---
-title: "FormsAuthenticationUser Class | Microsoft Docs"
-ms.custom: ""
+title: "FormsAuthenticationUser Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2f57cdd1-9ec2-dc0b-7332-47cbca2b8f46
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # FormsAuthenticationUser Class
 Configures user credentials for Web applications that use Forms authentication.  

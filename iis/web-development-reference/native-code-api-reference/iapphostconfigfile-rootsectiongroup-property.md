@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigFile::RootSectionGroup Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigFile::RootSectionGroup Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 573e8780-9720-d1ae-4876-8d3d1d106aae
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigFile::RootSectionGroup Property
 Returns the root configuration section group for the current configuration file.  
@@ -23,7 +15,7 @@ HRESULT get_RootSectionGroup(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppSectionGroups`  
  A pointer to a pointer for an [IAppHostSectionGroup](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-interface.md) interface.  
   

@@ -22,11 +22,9 @@ The [ManifestInfo](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md) 
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Segments](manifestinfo-segments-property-microsoft-web-media-smoothstreaming_1.md)|List of [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) objects. There is a SegmentInfo for each <Clip> element in the manifest.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

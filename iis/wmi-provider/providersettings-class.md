@@ -1,15 +1,7 @@
 ---
-title: "ProviderSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "ProviderSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a55acfd1-a520-a50d-c75e-488c090f1c6c
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ProviderSettings Class
 Specifies the name and type of [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)]-related providers.  

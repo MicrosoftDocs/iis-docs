@@ -1,15 +1,7 @@
 ---
-title: "WebhostOpenListenerChannelInstance Function | Microsoft Docs"
-ms.custom: ""
+title: "WebhostOpenListenerChannelInstance Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 40420cdc-4133-273e-ddbc-d42ab2046558
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WebhostOpenListenerChannelInstance Function
 Requests that a listener channel be started in a worker process for this application pool.  
@@ -26,7 +18,7 @@ HRESULT WebhostOpenListenerChannelInstance(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ProtocolHandle`  
  [IN] A `DWORD` that contains the protocol handle for the listener channel.  
   

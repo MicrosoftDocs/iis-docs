@@ -28,11 +28,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetailsField.Priority
 - Microsoft.Web.Media.TransformManager.JobDetailsField.LogFolder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -62,7 +62,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDetailsField Enumeration
@@ -74,7 +73,7 @@ Represents a value that is used to specify how job details are sorted and displa
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Enumeration JobDetailsField
@@ -83,11 +82,11 @@ Represents a value that is used to specify how job details are sorted and displa
   Dim instance As JobDetailsField
 ```
 
-``` csharp
+```csharp
   public enum JobDetailsField
 ```
 
-``` c++
+```cpp
   public enum class JobDetailsField
 ```
 
@@ -95,13 +94,13 @@ Represents a value that is used to specify how job details are sorted and displa
   type JobDetailsField
 ```
 
-``` jscript
+```jscript
   public enum JobDetailsField
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

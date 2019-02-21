@@ -1,5 +1,5 @@
 ---
-title: Table.Name Property  (Microsoft.Web.Management.DatabaseManager)
+title: Table.Name Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Table.Name
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.table.name(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Table.get_Name
 - Microsoft.Web.Management.DatabaseManager.Table.set_Name
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Table.Name Property
@@ -39,7 +38,7 @@ Gets or sets the name for a table.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Overridable Property Name As String
 'Usage
@@ -51,11 +50,11 @@ value = instance.Name
 instance.Name = value
 ```
 
-``` csharp
+```csharp
 public virtual string Name { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property String^ Name {
     String^ get ();
@@ -63,14 +62,14 @@ virtual property String^ Name {
 }
 ```
 
-``` jscript
+```jscript
 function get Name () : String
 function set Name (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The name for a table.  
 
 ## Remarks
@@ -81,7 +80,7 @@ The Name property specifies the name of a table in a database.
 
 The following code sample implements the GetTables method to retrieve the list of tables for an OLEDB connection by using the connection string that the database manager provides.
 
-``` vb
+```vb
 
     Public Function GetTables(ByVal connectionString As String) As System.Collections.Generic.ICollection(Of Table) Implements Microsoft.Web.Management.DatabaseManager.IDbTableManager.GetTables
         Dim tables As List(Of Table) = New List(Of Table)
@@ -125,7 +124,7 @@ The following code sample implements the GetTables method to retrieve the list o
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve the list of tables.
         public ICollection<Table> GetTables(string connectionString)
@@ -175,11 +174,11 @@ The following code sample implements the GetTables method to retrieve the list o
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Table Class](table-class-microsoft-web-management-databasemanager.md)
 

@@ -120,7 +120,7 @@ The following example uses the [ClipProgressUpdate](smoothstreamingmediaelement-
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Events (IIS Smooth Streaming)](events.md)
 
@@ -128,7 +128,7 @@ The following example uses the [ClipProgressUpdate](smoothstreamingmediaelement-
 
 [Manifest Merge (IIS Smooth Streaming)](manifest-merge.md)
 
-#### Other Resources
+### Other Resources
 
 [IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
 

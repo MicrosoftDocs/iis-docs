@@ -1,15 +1,7 @@
 ---
-title: "SystemDataSection Class | Microsoft Docs"
-ms.custom: ""
+title: "SystemDataSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2828774f-97f2-d979-2453-28bade500936
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SystemDataSection Class
 Specifies a list of installed [!INCLUDE[vstecado](../wmi-provider/includes/vstecado-md.md)] data providers.  

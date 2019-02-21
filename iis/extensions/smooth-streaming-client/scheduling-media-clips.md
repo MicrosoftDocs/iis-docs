@@ -118,7 +118,7 @@ The following example uses the [ClipProgressUpdate](smoothstreamingmediaelement-
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Events](events.md)
 

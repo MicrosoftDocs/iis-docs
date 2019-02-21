@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConstantValueCollection::Count Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConstantValueCollection::Count Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f6179238-e430-484f-9f2d-c55a8ef06375
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConstantValueCollection::Count Property
 Gets the number of constant values in the collection.  
@@ -22,7 +14,7 @@ HRESULT Count(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcCount`  
  A pointer to a `DWORD` that contains the number of items in the collection.  
   

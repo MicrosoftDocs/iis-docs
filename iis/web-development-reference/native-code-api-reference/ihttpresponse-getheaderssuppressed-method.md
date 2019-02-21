@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::GetHeadersSuppressed Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::GetHeadersSuppressed Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6af99349-7a65-f42c-e9b7-3ee6b795632d
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::GetHeadersSuppressed Method
 Determines whether the response status and headers are suppressed.  
@@ -22,7 +14,7 @@ virtual BOOL GetHeadersSuppressed(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

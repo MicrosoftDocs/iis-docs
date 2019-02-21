@@ -38,11 +38,9 @@ The [JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md) t
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[NameElement](configurationbase-nameelement-property-microsoft-web-media-transformmanager.md)|Gets or sets an XML element that contains name details. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[SchedulerType](jobscheduler-schedulertype-property-microsoft-web-media-transformmanager.md)|Gets or sets the string token that represents the scheduler type.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [JobScheduler Class](jobscheduler-class-microsoft-web-media-transformmanager.md)
 

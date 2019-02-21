@@ -1,15 +1,7 @@
 ---
-title: "FastCgiApplicationElement Class | Microsoft Docs"
-ms.custom: ""
+title: "FastCgiApplicationElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7b3b787a-4c1d-4639-bc23-38983fe65e8c
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # FastCgiApplicationElement Class
 Configures settings for a FastCGI application.  

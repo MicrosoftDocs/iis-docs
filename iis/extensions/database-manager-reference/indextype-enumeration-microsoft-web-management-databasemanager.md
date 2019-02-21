@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IndexType.PrimaryKey
 - Microsoft.Web.Management.DatabaseManager.IndexType.Index
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IndexType Enumeration
@@ -39,22 +38,22 @@ Specifies the index types for databases.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Enumeration IndexType
 'Usage
 Dim instance As IndexType
 ```
 
-``` csharp
+```csharp
 public enum IndexType
 ```
 
-``` c++
+```cpp
 public enum class IndexType
 ```
 
-``` jscript
+```jscript
 public enum IndexType
 ```
 
@@ -74,7 +73,7 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     ' Retrieve the information about a table.
     Public Function GetTableInfo( _
@@ -294,7 +293,7 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve the information about a table.
         public TableInfo GetTableInfo(string connectionString, string tableName, string schema)
@@ -489,7 +488,7 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
 

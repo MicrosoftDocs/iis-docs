@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::Flush Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::Flush Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2e52ec34-c034-1386-61dc-f36126855931
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::Flush Method
 Sends the existing content in the response buffer to the client.  
@@ -25,7 +17,7 @@ virtual HRESULT Flush(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `fAsync`  
  [IN] `true` to complete the operation asynchronously; otherwise, `false`.  
   

@@ -1,5 +1,5 @@
 ---
-title: TaskStatus.Status Property  (Microsoft.Web.Media.TransformManager)
+title: TaskStatus.Status Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Status Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.Status
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskstatus.status(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskStatus.get_Status
 - Microsoft.Web.Media.TransformManager.TaskStatus.Status
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Status Property
@@ -38,7 +37,7 @@ Gets the status of the task.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property Status As JobStatus
@@ -51,11 +50,11 @@ Dim value As JobStatus
 value = instance.Status
 ```
 
-``` csharp
+```csharp
   public JobStatus Status { get; }
 ```
 
-``` c++
+```cpp
   public:
 virtual property JobStatus Status {
     JobStatus get () sealed;
@@ -67,22 +66,22 @@ virtual property JobStatus Status {
 override Status : JobStatus
 ```
 
-``` jscript
+```jscript
   final function get Status () : JobStatus
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
 The task status.  
 
-#### Implements
+### Implements
 
-[ITaskStatus. . :: . .Status](itaskstatus-status-property-microsoft-web-media-transformmanager.md)  
+[ITaskStatus.Status](itaskstatus-status-property-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskStatus Class](taskstatus-class-microsoft-web-media-transformmanager.md)
 

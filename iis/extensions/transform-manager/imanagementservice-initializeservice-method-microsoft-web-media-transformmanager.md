@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService.InitializeService
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # InitializeService Method
@@ -36,7 +35,7 @@ Initializes the IIS Transform Manager service using the specified service creden
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Function InitializeService ( _
@@ -51,14 +50,14 @@ Dim returnValue As Boolean
 returnValue = instance.InitializeService(serviceCredential)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 bool InitializeService(
     Credential serviceCredential
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 bool InitializeService(
     Credential^ serviceCredential
@@ -71,26 +70,26 @@ abstract InitializeService :
         serviceCredential:Credential -> bool 
 ```
 
-``` jscript
+```jscript
   function InitializeService(
     serviceCredential : Credential
 ) : boolean
 ```
 
-#### Parameters
+### Parameters
 
   - serviceCredential  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .Credential](credential-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.Credential](credential-class-microsoft-web-media-transformmanager.md)  
     The [Credential](credential-class-microsoft-web-media-transformmanager.md) object that will allow the service to be run.  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if initialization succeeds; otherwise, false.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.#ctor
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingMediaElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [SmoothStreamingMediaElement](smoothstreamingm
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New
@@ -47,11 +46,11 @@ Public Sub New
 Dim instance As New SmoothStreamingMediaElement()
 ```
 
-``` csharp
+```csharp
 public SmoothStreamingMediaElement()
 ```
 
-``` c++
+```cpp
 public:
 SmoothStreamingMediaElement()
 ```
@@ -60,23 +59,23 @@ SmoothStreamingMediaElement()
 new : unit -> SmoothStreamingMediaElement
 ```
 
-``` jscript
+```jscript
 public function SmoothStreamingMediaElement()
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

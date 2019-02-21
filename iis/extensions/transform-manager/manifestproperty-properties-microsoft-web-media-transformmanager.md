@@ -24,11 +24,9 @@ The [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanag
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Required](manifestproperty-required-property-microsoft-web-media-transformmanager.md)|Get or sets a value that specifies whether the manifest property is required.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Value](manifestproperty-value-property-microsoft-web-media-transformmanager.md)|Gets or sets the manifest property value.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

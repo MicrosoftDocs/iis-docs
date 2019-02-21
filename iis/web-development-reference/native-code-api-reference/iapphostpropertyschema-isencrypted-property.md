@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::IsEncrypted Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::IsEncrypted Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: dfb2f35b-800e-42d9-99a8-6b231a1527f9
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::IsEncrypted Property
 Gets a value that indicates whether the property should be encrypted when it is persisted in the administration system.  
@@ -23,7 +15,7 @@ Gets a value that indicates whether the property should be encrypted when it is 
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfIsEncrypted`  
  A pointer to a Boolean value. `TRUE` if the property is encrypted when it is persisted to the administration system, otherwise `FALSE`.  
   

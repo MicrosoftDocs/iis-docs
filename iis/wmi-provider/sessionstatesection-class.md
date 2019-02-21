@@ -1,15 +1,7 @@
 ---
-title: "SessionStateSection Class | Microsoft Docs"
-ms.custom: ""
+title: "SessionStateSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ad32bf4b-d28b-34d9-ef89-c28e34f8c8f5
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SessionStateSection Class
 Configures the session state for a Web application.  
@@ -101,8 +93,8 @@ class SessionStateSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.SystemWebSectionGroup.SessionState](/dotnet/api/system.web.configuration.systemwebsectiongroup.sessionstate?view=netframework-4.7.2#System_Web_Configuration_SystemWebSectionGroup_SessionState)   
- [System.Web.SessionState.SessionStateMode](/dotnet/api/system.web.sessionstate.sessionstatemode?view=netframework-4.7.2)
+ [System.Web.Configuration.SystemWebSectionGroup.SessionState](/dotnet/api/system.web.configuration.systemwebsectiongroup.sessionstate#System_Web_Configuration_SystemWebSectionGroup_SessionState)   
+ [System.Web.SessionState.SessionStateMode](/dotnet/api/system.web.sessionstate.sessionstatemode)
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ProviderSettings Class](../wmi-provider/providersettings-class.md)   
  [Fast, Scalable, and Secure Session State Management for Your Web Applications](http://go.microsoft.com/fwlink/?LinkId=69309)

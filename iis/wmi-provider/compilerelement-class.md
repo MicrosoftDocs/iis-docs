@@ -1,15 +1,7 @@
 ---
-title: "CompilerElement Class | Microsoft Docs"
-ms.custom: ""
+title: "CompilerElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d2f44e2f-ae63-421b-9071-ddf9809fc21c
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CompilerElement Class
 Specifies a compiler that is used for Web applications.  

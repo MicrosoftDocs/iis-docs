@@ -1,5 +1,5 @@
 ---
-title: JobManifest.LogFolder Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.LogFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.LogFolder
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.logfolder(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.LogFolder
 - Microsoft.Web.Media.TransformManager.JobManifest.set_LogFolder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LogFolder Property
@@ -38,7 +37,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property LogFolder As String
@@ -54,11 +53,11 @@ value = instance.LogFolder
 instance.LogFolder = value
 ```
 
-``` csharp
+```csharp
   public string LogFolder { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ LogFolder {
     String^ get ();
@@ -70,18 +69,18 @@ property String^ LogFolder {
   member LogFolder : string with get, set
 ```
 
-``` jscript
+```jscript
   function get LogFolder () : String
 function set LogFolder (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

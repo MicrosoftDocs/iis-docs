@@ -1,5 +1,5 @@
 ---
-title: QueryColumnMetadata.Name Property  (Microsoft.Web.Management.DatabaseManager)
+title: QueryColumnMetadata.Name Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.Name
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.querycolumnmetadata.name(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.get_Name
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.set_Name
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # QueryColumnMetadata.Name Property
@@ -39,7 +38,7 @@ Gets or sets the column name for the column metadata within a query result.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property Name As String
 'Usage
@@ -51,11 +50,11 @@ value = instance.Name
 instance.Name = value
 ```
 
-``` csharp
+```csharp
 public string Name { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ Name {
     String^ get ();
@@ -63,14 +62,14 @@ property String^ Name {
 }
 ```
 
-``` jscript
+```jscript
 function get Name () : String
 function set Name (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The column name for the column metadata.  
 
 ## Examples
@@ -82,7 +81,7 @@ The following code sample implements the [GetData](idbtabledatamanager-getdata-m
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     ' Retrieve data from a database.
     Public Function GetData( _
@@ -180,7 +179,7 @@ The following code sample implements the [GetData](idbtabledatamanager-getdata-m
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve data from a database.
         public QueryResult GetData(string connectionString, string tableName, string schema)
@@ -288,11 +287,11 @@ The following code sample implements the [GetData](idbtabledatamanager-getdata-m
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [QueryColumnMetadata Class](querycolumnmetadata-class-microsoft-web-management-databasemanager.md)
 

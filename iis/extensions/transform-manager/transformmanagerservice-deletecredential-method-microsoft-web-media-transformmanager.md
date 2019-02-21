@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.DeleteCredential
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DeleteCredential Method
@@ -36,7 +35,7 @@ Deletes a [Credential](credential-class-microsoft-web-media-transformmanager.md)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Sub DeleteCredential ( _
@@ -50,14 +49,14 @@ Dim credentialId As String
 instance.DeleteCredential(credentialId)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public void DeleteCredential(
     string credentialId
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual void DeleteCredential(
@@ -74,25 +73,25 @@ override DeleteCredential :
         credentialId:string -> unit 
 ```
 
-``` jscript
+```jscript
   public final function DeleteCredential(
     credentialId : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - credentialId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the [Credential](credential-class-microsoft-web-media-transformmanager.md) object to delete.  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .DeleteCredential(String)](imanagementservice-deletecredential-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.DeleteCredential(String)](imanagementservice-deletecredential-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

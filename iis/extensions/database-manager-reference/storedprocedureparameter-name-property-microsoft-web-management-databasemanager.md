@@ -1,5 +1,5 @@
 ---
-title: StoredProcedureParameter.Name Property  (Microsoft.Web.Management.DatabaseManager)
+title: StoredProcedureParameter.Name Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.Name
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.storedprocedureparameter.name(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.get_Name
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.set_Name
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StoredProcedureParameter.Name Property
@@ -39,7 +38,7 @@ Gets or sets the name of the parameter for a stored procedure.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property Name As String
 'Usage
@@ -51,11 +50,11 @@ value = instance.Name
 instance.Name = value
 ```
 
-``` csharp
+```csharp
 public string Name { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ Name {
     String^ get ();
@@ -63,23 +62,23 @@ property String^ Name {
 }
 ```
 
-``` jscript
+```jscript
 function get Name () : String
 function set Name (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The name of the parameter for a stored procedure.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StoredProcedureParameter Class](storedprocedureparameter-class-microsoft-web-management-databasemanager.md)
 

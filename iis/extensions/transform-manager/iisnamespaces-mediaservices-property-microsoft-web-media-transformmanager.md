@@ -1,5 +1,5 @@
 ---
-title: IisNamespaces.MediaServices Property  (Microsoft.Web.Media.TransformManager)
+title: IisNamespaces.MediaServices Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: MediaServices Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.MediaServices
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.mediaservices(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.MediaServices
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_MediaServices
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # MediaServices Property
@@ -38,7 +37,7 @@ Gets the URI of a media services schema document.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared ReadOnly Property MediaServices As XNamespace
@@ -50,11 +49,11 @@ Gets the URI of a media services schema document.
 value = IisNamespaces.MediaServices
 ```
 
-``` csharp
+```csharp
   public static XNamespace MediaServices { get; }
 ```
 
-``` c++
+```cpp
   public:
 static property XNamespace^ MediaServices {
     XNamespace^ get ();
@@ -65,18 +64,18 @@ static property XNamespace^ MediaServices {
   static member MediaServices : XNamespace
 ```
 
-``` jscript
+```jscript
   static function get MediaServices () : XNamespace
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XNamespace](https://msdn.microsoft.com/en-us/library/bb291898\(v=vs.90\))  
+Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
 The XML namespace value "http://schemas.microsoft.com/iis/media/v4/TM\#".  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IisNamespaces Class](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 

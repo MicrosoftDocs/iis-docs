@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # IDbCustomBackupRestoreManager Methods
 
-Include Protected Members  
-Include Inherited Members  
-
 The [IDbCustomBackupRestoreManager](idbcustombackuprestoremanager-interface-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Methods
@@ -23,11 +20,9 @@ The [IDbCustomBackupRestoreManager](idbcustombackuprestoremanager-interface-micr
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[ListBackups](idbcustombackuprestoremanager-listbackups-method-microsoft-web-management-databasemanager.md)|Retrieves a list of database backup names for a custom backup and restore module.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[RestoreBackup](idbrestoremanager-restorebackup-method-microsoft-web-management-databasemanager.md)|Restores a database backup. (Inherited from [IDbRestoreManager](idbrestoremanager-interface-microsoft-web-management-databasemanager.md).)|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbCustomBackupRestoreManager Interface](idbcustombackuprestoremanager-interface-microsoft-web-management-databasemanager.md)
 

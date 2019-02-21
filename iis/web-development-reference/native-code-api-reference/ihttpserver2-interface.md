@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer2 Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer2 Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 73ed3784-2b56-46f5-9b73-c2f47600f298
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer2 Interface
 Represents the processing context for global-level operations, and enables retrieving configuration files, extended interfaces, metadata, tokens, and the worker process framework.  

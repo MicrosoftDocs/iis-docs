@@ -1,15 +1,7 @@
 ---
-title: "IHttpEventProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpEventProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1f7b9790-66d0-fd22-edf0-721693702d35
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpEventProvider Interface
 Provides a generic event-reporting interface.  

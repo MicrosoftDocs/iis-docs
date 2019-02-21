@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigLocation::AddConfigSection Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigLocation::AddConfigSection Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c26ddb6b-2166-3486-870f-fb5b0574feb1
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigLocation::AddConfigSection Method
 Adds a configuration section to the current configuration location.  
@@ -24,7 +16,7 @@ HRESULT AddConfigSection(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrSectionName`  
  A `BSTR` that contains the name of the section to add.  
   

@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.LocalScheduler.#ctor
 - Microsoft.Web.Media.TransformManager.LocalScheduler.LocalScheduler
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LocalScheduler Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [LocalScheduler](localscheduler-class-microsof
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New
@@ -46,11 +45,11 @@ Initializes a new instance of the [LocalScheduler](localscheduler-class-microsof
 Dim instance As New LocalScheduler()
 ```
 
-``` csharp
+```csharp
   public LocalScheduler()
 ```
 
-``` c++
+```cpp
   public:
 LocalScheduler()
 ```
@@ -59,13 +58,13 @@ LocalScheduler()
   new : unit -> LocalScheduler
 ```
 
-``` jscript
+```jscript
   public function LocalScheduler()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [LocalScheduler Class](localscheduler-class-microsoft-web-media-transformmanager.md)
 

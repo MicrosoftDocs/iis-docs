@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy::AppendVaryByQueryString Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy::AppendVaryByQueryString Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3206c30a-032a-6d25-3204-0c14f9b34586
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy::AppendVaryByQueryString Method
 Appends the query value to the cache policy.  
@@ -22,7 +14,7 @@ virtual HRESULT AppendVaryByQueryString(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszParam`  
  A pointer to a null-terminated string that contains the custom query string to append.  
   

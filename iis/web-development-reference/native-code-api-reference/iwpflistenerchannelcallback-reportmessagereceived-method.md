@@ -1,15 +1,7 @@
 ---
-title: "IWpfListenerChannelCallback::ReportMessageReceived Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfListenerChannelCallback::ReportMessageReceived Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 10f84261-eb6f-4738-f188-523e5308913f
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfListenerChannelCallback::ReportMessageReceived Method
 Notifies the worker process framework that a listener channel has received a message.  
@@ -22,7 +14,7 @@ virtual HRESULT ReportMessageReceived(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

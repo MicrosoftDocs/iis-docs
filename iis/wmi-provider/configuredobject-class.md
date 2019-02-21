@@ -1,15 +1,7 @@
 ---
-title: "ConfiguredObject Class1 | Microsoft Docs"
-ms.custom: ""
+title: "ConfiguredObject Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fbc82145-2355-3b59-ad74-3eb7b5f3f5ec
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfiguredObject Class1
 Acts as a base type for namespace objects whose configuration can be specified in configuration sections.  

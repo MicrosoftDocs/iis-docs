@@ -1,15 +1,7 @@
 ---
-title: "PFN_WEB_CORE_SHUTDOWN Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_WEB_CORE_SHUTDOWN Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: da54f34a-f01e-4242-9902-824e276e23d8
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_WEB_CORE_SHUTDOWN Function
 Shuts down an instance of the Hosted Web Core.  
@@ -22,7 +14,7 @@ typedef HRESULT (*PFN_WEB_CORE_SHUTDOWN)(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `fImmediate`  
  A `DWORD` that specifies whether the shutdown should be immediate or graceful.  
   

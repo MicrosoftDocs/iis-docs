@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.Scheduler.SubmitJob
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SubmitJob Method
@@ -36,7 +35,7 @@ Submits the job to the scheduler.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public MustOverride Function SubmitJob ( _
@@ -51,13 +50,13 @@ Dim returnValue As JobStatus
 returnValue = instance.SubmitJob(manifest)
 ```
 
-``` csharp
+```csharp
   public abstract JobStatus SubmitJob(
     JobManifest manifest
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual JobStatus SubmitJob(
     JobManifest^ manifest
@@ -69,26 +68,26 @@ virtual JobStatus SubmitJob(
         manifest:JobManifest -> JobStatus 
 ```
 
-``` jscript
+```jscript
   public abstract function SubmitJob(
     manifest : JobManifest
 ) : JobStatus
 ```
 
-#### Parameters
+### Parameters
 
   - manifest  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md)  
     A [JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md) object that contains details about the job.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
 The status information about the job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Scheduler Class](scheduler-class-microsoft-web-media-transformmanager.md)
 

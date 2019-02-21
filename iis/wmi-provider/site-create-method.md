@@ -1,15 +1,7 @@
 ---
-title: "Site.Create Method1 | Microsoft Docs"
-ms.custom: ""
+title: "Site.Create Method1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 134a8645-84b9-7c17-4cdc-be817cc88bfe
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Site.Create Method1
 Creates a new Web site.  
@@ -34,7 +26,7 @@ var newsite = appsrv.Get("Site").Create(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  
@@ -56,7 +48,7 @@ var newsite = appsrv.Get("Site").Create(
  The following example creates a new Web site.  
   
 > [!NOTE]
->  Because `Create` is a `static` method, you must call it by using the `Site` definition.  
+> Because `Create` is a `static` method, you must call it by using the `Site` definition.  
   
 ```  
 ' Connect to the WMI WebAdministration namespace.  

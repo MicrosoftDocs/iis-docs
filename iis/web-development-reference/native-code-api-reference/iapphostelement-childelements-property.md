@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElement::ChildElements Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElement::ChildElements Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0cd7c82f-59a3-c8c3-2e34-78bcf5b601cd
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElement::ChildElements Property
 Represents a collection of child elements that are nested under the current [IAppHostElement](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) interface.  
@@ -23,7 +15,7 @@ HRESULT get_ChildElements(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppElements`  
  A pointer to a pointer for an [IAppHostChildElementCollection](../../web-development-reference\native-code-api-reference/iapphostchildelementcollection-interface.md) interface.  
   

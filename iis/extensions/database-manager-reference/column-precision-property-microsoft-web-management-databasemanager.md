@@ -1,5 +1,5 @@
 ---
-title: Column.Precision Property  (Microsoft.Web.Management.DatabaseManager)
+title: Column.Precision Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Precision Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.Precision
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.column.precision(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Column.get_Precision
 - Microsoft.Web.Management.DatabaseManager.Column.set_Precision
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.Precision Property
@@ -39,7 +38,7 @@ Gets or sets a value that specifies the numeric precision of the database column
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property Precision As Integer
 'Usage
@@ -51,11 +50,11 @@ value = instance.Precision
 instance.Precision = value
 ```
 
-``` csharp
+```csharp
 public int Precision { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property int Precision {
     int get ();
@@ -63,14 +62,14 @@ property int Precision {
 }
 ```
 
-``` jscript
+```jscript
 function get Precision () : int
 function set Precision (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The numeric precision of the database column.  
 
 ## Remarks
@@ -86,7 +85,7 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     ' Retrieve the information about a table.
     Public Function GetTableInfo( _
@@ -306,7 +305,7 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve the information about a table.
         public TableInfo GetTableInfo(string connectionString, string tableName, string schema)
@@ -501,11 +500,11 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Column Class](column-class-microsoft-web-management-databasemanager.md)
 

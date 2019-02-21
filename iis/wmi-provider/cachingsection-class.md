@@ -1,15 +1,7 @@
 ---
-title: "CachingSection Class | Microsoft Docs"
-ms.custom: ""
+title: "CachingSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0353b00e-efaf-761b-2218-178cf807c834
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CachingSection Class
 Configures output and kernel caching.  

@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::ClearHeaders Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::ClearHeaders Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2b25fafe-a88a-ed99-699d-7f5ee33003c8
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::ClearHeaders Method
 Clears the response headers and sets headers to default values.  
@@ -22,7 +14,7 @@ virtual VOID ClearHeaders(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

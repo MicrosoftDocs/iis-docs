@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.LicenseAcquirer Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.LicenseAcquirer Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LicenseAcquirer Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LicenseAcquirer
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.licenseacquirer(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_LicenseAcquirer
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_LicenseAcquirer
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LicenseAcquirer Property
@@ -39,7 +38,7 @@ Gets or sets the license acquirer.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property LicenseAcquirer As LicenseAcquirer
@@ -53,11 +52,11 @@ value = instance.LicenseAcquirer
 instance.LicenseAcquirer = value
 ```
 
-``` csharp
+```csharp
   public LicenseAcquirer LicenseAcquirer { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property LicenseAcquirer^ LicenseAcquirer {
     LicenseAcquirer^ get ();
@@ -65,33 +64,33 @@ property LicenseAcquirer^ LicenseAcquirer {
 }
 ```
 
-``` jscript
+```jscript
   function get LicenseAcquirer () : LicenseAcquirer
 function set LicenseAcquirer (value : LicenseAcquirer)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Windows.Media. . :: . .LicenseAcquirer](https://msdn.microsoft.com/en-us/library/cc838300\(v=vs.90\))  
+Type: [System.Windows.Media.LicenseAcquirer](https://msdn.microsoft.com/library/cc838300)  
 The license acquirer.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

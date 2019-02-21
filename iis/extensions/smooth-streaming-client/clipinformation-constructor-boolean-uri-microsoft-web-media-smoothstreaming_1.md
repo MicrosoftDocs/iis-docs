@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipInformation Constructor (Boolean, Uri)
@@ -34,7 +33,7 @@ Initializes a new instance of the [ClipInformation](clipinformation-class-micros
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -50,14 +49,14 @@ Dim instance As New ClipInformation(isSmoothStreamingSource, _
     clipUri)
 ```
 
-``` csharp
+```csharp
 public ClipInformation(
     bool isSmoothStreamingSource,
     Uri clipUri
 )
 ```
 
-``` c++
+```cpp
 public:
 ClipInformation(
     bool isSmoothStreamingSource, 
@@ -71,34 +70,34 @@ new :
         clipUri:Uri -> ClipInformation
 ```
 
-``` jscript
+```jscript
 public function ClipInformation(
     isSmoothStreamingSource : boolean, 
     clipUri : Uri
 )
 ```
 
-#### Parameters
+### Parameters
 
   - isSmoothStreamingSource  
-    Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
     A Boolean value that indicates whether the clip source is Smooth Streaming media.
 
 <!-- end list -->
 
   - clipUri  
-    Type: [System.Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\))  
-    A [Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\)) object that contains the clip source.
+    Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\))  
+    A [Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\)) object that contains the clip source.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipInformation Class](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.BeginGetChunk
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # BeginGetChunk Method
@@ -35,7 +34,7 @@ Beginning method of the asynchronous API for the application to get chunk conten
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Overridable Function BeginGetChunk ( _
@@ -55,7 +54,7 @@ returnValue = instance.BeginGetChunk(timestamp, _
     callback, state)
 ```
 
-``` csharp
+```csharp
   public virtual IAsyncResult BeginGetChunk(
     TimeSpan timestamp,
     AsyncCallback callback,
@@ -63,7 +62,7 @@ returnValue = instance.BeginGetChunk(timestamp, _
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual IAsyncResult^ BeginGetChunk(
     TimeSpan timestamp, 
@@ -72,7 +71,7 @@ virtual IAsyncResult^ BeginGetChunk(
 )
 ```
 
-``` jscript
+```jscript
   public function BeginGetChunk(
     timestamp : TimeSpan, 
     callback : AsyncCallback, 
@@ -80,28 +79,28 @@ virtual IAsyncResult^ BeginGetChunk(
 ) : IAsyncResult
 ```
 
-#### Parameters
+### Parameters
 
   - timestamp  
-    Type: [System. . :: . .TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\))  
-    The timestamp of the chunk start time as a [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\)) object.  
+    Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577)  
+    The timestamp of the chunk start time as a [TimeSpan](https://msdn.microsoft.com/library/269ew577) object.  
 
 <!-- end list -->
 
   - callback  
-    Type: [System. . :: . .AsyncCallback](https://msdn.microsoft.com/en-us/library/ckbe7yh5\(v=vs.90\))  
-    [AsyncCallback](https://msdn.microsoft.com/en-us/library/ckbe7yh5\(v=vs.90\)) delegate method that completes the get chunk action.  
+    Type: [System.AsyncCallback](https://msdn.microsoft.com/library/ckbe7yh5)  
+    [AsyncCallback](https://msdn.microsoft.com/library/ckbe7yh5) delegate method that completes the get chunk action.  
 
 <!-- end list -->
 
   - state  
-    Type: [System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
-    The state information passed in by the application as [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\)).  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
+    The state information passed in by the application as [Object](https://msdn.microsoft.com/library/e5kfa45b).  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.90\))  
-An [IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.90\)) object.  
+Type: [System.IAsyncResult](https://msdn.microsoft.com/library/ft8a6455)  
+An [IAsyncResult](https://msdn.microsoft.com/library/ft8a6455) object.  
 
 ## Remarks
 
@@ -143,17 +142,17 @@ The following example loops through segments, streams, and tracks to get the clo
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

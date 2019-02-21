@@ -1,15 +1,7 @@
 ---
-title: "IGlobalFileChangeProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalFileChangeProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 14f8fe14-2950-0618-b7b0-bb930c5e8c60
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalFileChangeProvider Interface
 Provides a global-level interface for [GL_FILE_CHANGE](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notifications.  

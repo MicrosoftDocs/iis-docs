@@ -15,11 +15,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipProgress.Unknown
 - Microsoft.Web.Media.SmoothStreaming.ClipProgress.Start
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -36,7 +36,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipProgress Enumeration
@@ -48,7 +47,7 @@ Enumeration that specifies the stages of progress through a media clip.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Enumeration ClipProgress
@@ -57,11 +56,11 @@ Public Enumeration ClipProgress
 Dim instance As ClipProgress
 ```
 
-``` csharp
+```csharp
 public enum ClipProgress
 ```
 
-``` c++
+```cpp
 public enum class ClipProgress
 ```
 
@@ -69,7 +68,7 @@ public enum class ClipProgress
 type ClipProgress
 ```
 
-``` jscript
+```jscript
 public enum ClipProgress
 ```
 
@@ -87,13 +86,13 @@ public enum ClipProgress
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

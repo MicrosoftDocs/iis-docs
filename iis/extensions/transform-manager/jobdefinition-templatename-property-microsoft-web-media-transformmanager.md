@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.TemplateName Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.TemplateName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TemplateName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.TemplateName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.templatename(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_TemplateName
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_TemplateName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TemplateName Property
@@ -40,7 +39,7 @@ Gets or sets the name of the job template that the current [JobDefinition](jobde
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property TemplateName As String
@@ -56,12 +55,12 @@ value = instance.TemplateName
 instance.TemplateName = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string TemplateName { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ TemplateName {
@@ -75,19 +74,19 @@ property String^ TemplateName {
 member TemplateName : string with get, set
 ```
 
-``` jscript
+```jscript
   function get TemplateName () : String
 function set TemplateName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The name of the job template.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

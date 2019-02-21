@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchemaCollection::Item Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchemaCollection::Item Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 130fb6ce-5315-4ed8-959b-3b1346efb19d
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchemaCollection::Item Property
 Gets the [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) with the requested index or property schema name in the collection.  
@@ -24,7 +16,7 @@ Gets the [IAppHostPropertySchema Interface](../../web-development-reference\nati
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `cIndex`  
  A `VARIANT` that specifies the[IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) to retreive from the collection. If the `VARIANT` is of type integer, this is a zero-based index to the collection. If the `VARIANT` is of type string, this is a string index that represents the name of the[IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) to retrieve.  
   

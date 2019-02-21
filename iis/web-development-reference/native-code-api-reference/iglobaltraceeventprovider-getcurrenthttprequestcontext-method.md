@@ -1,15 +1,7 @@
 ---
-title: "IGlobalTraceEventProvider::GetCurrentHttpRequestContext Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalTraceEventProvider::GetCurrentHttpRequestContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 42b1ea65-1333-aad1-b27f-7bd788f346c4
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalTraceEventProvider::GetCurrentHttpRequestContext Method
 Retrieves the HTTP context for trace events that are request specific.  
@@ -22,7 +14,7 @@ virtual HRESULT GetCurrentHttpRequestContext(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppHttpContext`  
  A pointer to the address of an `IHttpContext` interface; otherwise, NULL.  
   

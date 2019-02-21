@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalApplicationStart Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalApplicationStart Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 174fe925-4d25-a984-1573-0d13eeab7d8c
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalApplicationStart Method
 Represents the method that will handle a `GlobalApplicationStart` event, which occurs when IIS starts an application.  
@@ -22,12 +14,12 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationStart(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProvider`  
  [IN] A pointer to an [IHttpApplicationStartProvider](../../web-development-reference\native-code-api-reference/ihttpapplicationprovider-interface.md) interface.  
   
 > [!NOTE]
->  The `IHttpApplicationStartProvider` interface is a type definition of an [IHttpApplicationProvider](../../web-development-reference\native-code-api-reference/ihttpapplicationprovider-interface.md) interface.  
+> The `IHttpApplicationStartProvider` interface is a type definition of an [IHttpApplicationProvider](../../web-development-reference\native-code-api-reference/ihttpapplicationprovider-interface.md) interface.  
   
 ## Return Value  
  A [GLOBAL_NOTIFICATION_STATUS](../../web-development-reference\native-code-api-reference/global-notification-status-enumeration.md) value.  
@@ -36,7 +28,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationStart(
  When a global module has registered for the [GL_APPLICATION_START](../../web-development-reference\native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnGlobalApplicationStart` method when it starts an application.  
   
 > [!NOTE]
->  Global modules can register for the `GlobalApplicationStart` event notification by registering for `GL_APPLICATION_START` in the module's [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
+> Global modules can register for the `GlobalApplicationStart` event notification by registering for `GL_APPLICATION_START` in the module's [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
  The following code example demonstrates how to create a global-level HTTP module that registers for the `GL_APPLICATION_START` notification. When IIS starts an application, it will call the example module's `OnGlobalApplicationStart` method. This method will write an entry in the application log of the Windows Event Viewer and then exit.  

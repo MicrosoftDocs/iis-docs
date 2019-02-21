@@ -1,15 +1,7 @@
 ---
-title: "GlobalModulesSection Class | Microsoft Docs"
-ms.custom: ""
+title: "GlobalModulesSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 33de2b19-45d0-5b8d-da62-cc95a314d8d4
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # GlobalModulesSection Class
 Exposes configuration settings for IIS global modules.  

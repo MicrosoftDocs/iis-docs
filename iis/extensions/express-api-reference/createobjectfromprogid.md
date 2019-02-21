@@ -1,14 +1,7 @@
 ---
-title: "CreateObjectFromProgId | Microsoft Docs"
-ms.custom: ""
+title: "CreateObjectFromProgId"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e04be95d-4c66-4fbf-8f39-6f96de98f053
-caps.latest.revision: 9
-manager: "wpickett"
 ---
 # CreateObjectFromProgId
 Creates a COM object using the specified ProgID.  
@@ -24,7 +17,7 @@ Creates a COM object using the specified ProgID.
   
 ```  
   
-#### Parameters  
+### Parameters  
   
 -   [in, string] `bstrObjectName`  
   

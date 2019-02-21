@@ -1,15 +1,7 @@
 ---
-title: "ApplicationPoolContainsProcess Class1 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationPoolContainsProcess Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b5947055-8ec9-28bb-9b49-978ea2ae5e7d
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationPoolContainsProcess Class1
 Provides a relationship between an application pool and its worker processes.  

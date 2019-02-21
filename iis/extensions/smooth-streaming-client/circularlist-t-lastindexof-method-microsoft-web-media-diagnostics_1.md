@@ -9,16 +9,13 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.LastIndexOf
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
 # CircularList\<T\>.LastIndexOf Method
-
-Include Protected Members  
-Include Inherited Members  
 
 This member is overloaded. For complete information about this member, including syntax, usage, and examples, click a name in the overload list.
 
@@ -26,15 +23,13 @@ This member is overloaded. For complete information about this member, including
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[LastIndexOf(T)](https://msdn.microsoft.com/en-us/library/dsxfcba1(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/en-us/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[LastIndexOf(T, Int32)](https://msdn.microsoft.com/en-us/library/s088xd6w(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/en-us/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[LastIndexOf(T, Int32, Int32)](https://msdn.microsoft.com/en-us/library/haast0bw(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/en-us/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
-
-Top
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[LastIndexOf(T)](https://msdn.microsoft.com/library/dsxfcba1(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[LastIndexOf(T, Int32)](https://msdn.microsoft.com/library/s088xd6w(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[LastIndexOf(T, Int32, Int32)](https://msdn.microsoft.com/library/haast0bw(v=vs.95))|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19(v=vs.95))<[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)>.)|
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CircularList\<T\> Class](circularlist-t-class-microsoft-web-media-diagnostics_1.md)
 

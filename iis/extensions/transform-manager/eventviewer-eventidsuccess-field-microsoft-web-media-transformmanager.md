@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.EventViewer.EventIdSuccess
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # EventIdSuccess Field
@@ -36,7 +35,7 @@ Represents a constant that is used when success information is written to the ev
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const EventIdSuccess As Integer
@@ -47,11 +46,11 @@ Represents a constant that is used when success information is written to the ev
 value = EventViewer.EventIdSuccess
 ```
 
-``` csharp
+```csharp
   public const int EventIdSuccess
 ```
 
-``` c++
+```cpp
   public:
 literal int EventIdSuccess
 ```
@@ -60,13 +59,13 @@ literal int EventIdSuccess
   static val mutable EventIdSuccess: int
 ```
 
-``` jscript
+```jscript
   public const var EventIdSuccess : int
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [EventViewer Class](eventviewer-class-microsoft-web-media-transformmanager.md)
 

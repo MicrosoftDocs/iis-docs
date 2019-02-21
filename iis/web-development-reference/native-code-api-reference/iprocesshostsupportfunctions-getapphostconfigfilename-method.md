@@ -1,15 +1,7 @@
 ---
-title: "IProcessHostSupportFunctions::GetAppHostConfigFilename Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHostSupportFunctions::GetAppHostConfigFilename Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 781a6b10-ce53-5a78-8d63-7be92a3ba4a1
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHostSupportFunctions::GetAppHostConfigFilename Method
 Retrieves the application host configuration (.config) file path.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall GetAppHostConfigFilename(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrPhysicalPath`  
  A pointer to a `BSTR` that contains the physical path (including the file name) to the application host configuration file.  
   

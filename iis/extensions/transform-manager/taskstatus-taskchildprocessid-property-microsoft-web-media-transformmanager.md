@@ -1,5 +1,5 @@
 ---
-title: TaskStatus.TaskChildProcessId Property  (Microsoft.Web.Media.TransformManager)
+title: TaskStatus.TaskChildProcessId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskChildProcessId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.TaskChildProcessId
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskstatus.taskchildprocessid(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskStatus.TaskChildProcessId
 - Microsoft.Web.Media.TransformManager.TaskStatus.get_TaskChildProcessId
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskChildProcessId Property
@@ -38,7 +37,7 @@ Gets the ID of the child process of the task.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property TaskChildProcessId As Integer
@@ -51,11 +50,11 @@ Dim value As Integer
 value = instance.TaskChildProcessId
 ```
 
-``` csharp
+```csharp
   public int TaskChildProcessId { get; }
 ```
 
-``` c++
+```cpp
   public:
 property int TaskChildProcessId {
     int get ();
@@ -66,18 +65,18 @@ property int TaskChildProcessId {
   member TaskChildProcessId : int
 ```
 
-``` jscript
+```jscript
   function get TaskChildProcessId () : int
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The ID of the child process of the task.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskStatus Class](taskstatus-class-microsoft-web-media-transformmanager.md)
 

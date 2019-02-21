@@ -1,15 +1,7 @@
 ---
-title: "Native-Code Architecture API Reference | Microsoft Docs"
-ms.custom: ""
+title: "Native-Code Architecture API Reference"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6cb22f31-7ef6-4fe6-b686-36b04d8c4f52
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Native-Code Architecture API Reference
 This section discusses the APIs that define the core architecture for IIS.  

@@ -1,15 +1,7 @@
 ---
-title: "INamedContextContainer Interface | Microsoft Docs"
-ms.custom: ""
+title: "INamedContextContainer Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c3e298de-4f26-4766-86cd-5d70e1346acd
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # INamedContextContainer Interface
 Provides an interface for binding and retrieving a named context.  

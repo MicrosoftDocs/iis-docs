@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ The manifest class.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 public sealed class Manifest
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 public ref class Manifest sealed
 ```
 
-``` jscript
+```jscript
 public final class Manifest
 ```
 

@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.EnableTraceDestination
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.EnableTraceDestination Method
@@ -36,7 +35,7 @@ Enables the trace destination that is specified by the destination parameter.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Sub EnableTraceDestination ( _
@@ -49,13 +48,13 @@ Dim destination As TraceDestination
 Tracing.EnableTraceDestination(destination)
 ```
 
-``` csharp
+```csharp
 public static void EnableTraceDestination(
     TraceDestination destination
 )
 ```
 
-``` c++
+```cpp
 public:
 static void EnableTraceDestination(
     TraceDestination destination
@@ -67,13 +66,13 @@ static member EnableTraceDestination :
         destination:TraceDestination -> unit 
 ```
 
-``` jscript
+```jscript
 public static function EnableTraceDestination(
     destination : TraceDestination
 )
 ```
 
-#### Parameters
+### Parameters
 
   - destination  
     Type: [Microsoft.Web.Media.Diagnostics.TraceDestination](tracedestination-enumeration-microsoft-web-media-diagnostics_1.md)  
@@ -81,17 +80,17 @@ public static function EnableTraceDestination(
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

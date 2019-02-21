@@ -1,5 +1,5 @@
 ---
-title: JobMetadata.Status Property  (Microsoft.Web.Media.TransformManager)
+title: JobMetadata.Status Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Status Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.Status
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmetadata.status(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_Status
 - Microsoft.Web.Media.TransformManager.JobMetadata.set_Status
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Status Property
@@ -40,7 +39,7 @@ Gets or sets the status of an ongoing transform.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Status As String
@@ -56,11 +55,11 @@ value = instance.Status
 instance.Status = value
 ```
 
-``` csharp
+```csharp
   public string Status { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 virtual property String^ Status {
     String^ get () sealed;
@@ -73,23 +72,23 @@ virtual property String^ Status {
 override Status : string with get, set
 ```
 
-``` jscript
+```jscript
   final function get Status () : String
 final function set Status (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The status.  
 
-#### Implements
+### Implements
 
-[IJobMetadata. . :: . .Status](ijobmetadata-status-property-microsoft-web-media-transformmanager.md)  
+[IJobMetadata.Status](ijobmetadata-status-property-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobMetadata Class](jobmetadata-class-microsoft-web-media-transformmanager.md)
 

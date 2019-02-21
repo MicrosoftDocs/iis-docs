@@ -1,5 +1,5 @@
 ---
-title: ClipContext.CurrentClipState Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ClipContext.CurrentClipState Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CurrentClipState Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.CurrentClipState
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipcontext.currentclipstate(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.CurrentClipState
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.get_CurrentClipState
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipContext.CurrentClipState Property
@@ -38,7 +37,7 @@ Gets the CurrentClipState property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property CurrentClipState As MediaElementState
@@ -51,11 +50,11 @@ Dim value As MediaElementState
 value = instance.CurrentClipState
 ```
 
-``` csharp
+```csharp
 public MediaElementState CurrentClipState { get; }
 ```
 
-``` c++
+```cpp
 public:
 property MediaElementState CurrentClipState {
     MediaElementState get ();
@@ -66,13 +65,13 @@ property MediaElementState CurrentClipState {
 member CurrentClipState : MediaElementState
 ```
 
-``` jscript
+```jscript
 function get CurrentClipState () : MediaElementState
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Windows.Media.MediaElementState](https://msdn.microsoft.com/en-us/library/cc190214\(v=vs.95\))  
+Type: [System.Windows.Media.MediaElementState](https://msdn.microsoft.com/library/cc190214\(v=vs.95\))  
 State as specified by the System.Windows.Media.MediaElementState enumeration.
 
 ## Remarks
@@ -81,13 +80,13 @@ Specifies the current state of the media element playing the clip.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipContext Class](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)
 

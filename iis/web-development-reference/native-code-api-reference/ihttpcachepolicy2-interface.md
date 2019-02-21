@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy2 Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy2 Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 873a0b2a-1dc8-482d-9adc-f407645ba6db
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy2 Interface
 Provides [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes access to the setting and getting policy for request caching.  

@@ -1,15 +1,7 @@
 ---
-title: "IWpfActions::RecycleWorkerProcess Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfActions::RecycleWorkerProcess Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 37d0d934-27e2-28e7-3220-ffa3103ee865
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfActions::RecycleWorkerProcess Method
 Enables a protocol manager to request a recycle of the worker process and to log an event to the Event Viewer.  
@@ -22,7 +14,7 @@ virtual VOID RecycleWorkerProcess(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszReason`  
  A pointer to a string that contains the reason for the requested recycle that will be logged to the Event Viewer.  
   

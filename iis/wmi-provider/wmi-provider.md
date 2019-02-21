@@ -1,15 +1,7 @@
 ---
-title: "WMI Provider | Microsoft Docs"
-ms.custom: ""
+title: "WMI Provider"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cd4f6f61-0b56-41cf-ac81-c6c28d2724c7
-caps.latest.revision: 6
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WMI Provider
 This section describes the classes, methods, and properties of the Windows Management Instrumentation (WMI) provider.  

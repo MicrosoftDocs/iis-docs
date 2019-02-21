@@ -1,5 +1,5 @@
 ---
-title: CacheResponse.ExpiryTime Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse.ExpiryTime Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ExpiryTime Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ExpiryTime
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.expirytime(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.ExpiryTime
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.get_ExpiryTime
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,19 +25,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ExpiryTime Property
 
-A [DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.90\)) object that contains the time of response expiration.
+A [DateTime](https://msdn.microsoft.com/library/03ybds8y) object that contains the time of response expiration.
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property ExpiryTime As DateTime
@@ -49,43 +48,43 @@ Dim value As DateTime
 value = instance.ExpiryTime
 ```
 
-``` csharp
+```csharp
   public DateTime ExpiryTime { get; }
 ```
 
-``` c++
+```cpp
   public:
 property DateTime ExpiryTime {
     DateTime get ();
 }
 ```
 
-``` jscript
+```jscript
   function get ExpiryTime () : DateTime
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.90\))  
-A [DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.90\)) object.  
+Type: [System.DateTime](https://msdn.microsoft.com/library/03ybds8y)  
+A [DateTime](https://msdn.microsoft.com/library/03ybds8y) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpUser::DereferenceUser Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUser::DereferenceUser Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2d8b0c37-ea6a-2bd6-a6f6-0df5c62f513e
-caps.latest.revision: 36
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUser::DereferenceUser Method
 Decrements the user internal reference count.  
@@ -22,7 +14,7 @@ virtual VOID DereferenceUser(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Thread Safety  

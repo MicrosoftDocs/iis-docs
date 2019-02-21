@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.JobManagerLogRolloverIntervalDisplayUnit Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.JobManagerLogRolloverIntervalDisplayUnit Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManagerLogRolloverIntervalDisplayUnit Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.JobManagerLogRolloverIntervalDisplayUnit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.jobmanagerlogrolloverintervaldisplayunit(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_JobManagerLogRolloverIntervalDisplayUnit
 - Microsoft.Web.Media.TransformManager.JobDefinition.JobManagerLogRolloverIntervalDisplayUnit
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobManagerLogRolloverIntervalDisplayUnit Property
@@ -40,7 +39,7 @@ Gets or sets the unit of time that is used with the [JobDefinition..::..JobManag
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property JobManagerLogRolloverIntervalDisplayUnit As String
@@ -56,12 +55,12 @@ value = instance.JobManagerLogRolloverIntervalDisplayUnit
 instance.JobManagerLogRolloverIntervalDisplayUnit = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string JobManagerLogRolloverIntervalDisplayUnit { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ JobManagerLogRolloverIntervalDisplayUnit {
@@ -75,14 +74,14 @@ property String^ JobManagerLogRolloverIntervalDisplayUnit {
 member JobManagerLogRolloverIntervalDisplayUnit : string with get, set
 ```
 
-``` jscript
+```jscript
   function get JobManagerLogRolloverIntervalDisplayUnit () : String
 function set JobManagerLogRolloverIntervalDisplayUnit (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The unit of time.  
 
 ## Remarks
@@ -91,7 +90,7 @@ The JobManagerLogRolloverIntervalDisplayUnit property modifies the [JobManagerLo
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

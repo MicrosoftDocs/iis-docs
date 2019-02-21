@@ -1,15 +1,7 @@
 ---
-title: "IListenerChannelCallback::ReportStopped Method | Microsoft Docs"
-ms.custom: ""
+title: "IListenerChannelCallback::ReportStopped Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3f8b7b7a-bc38-4f30-96e3-f116cbda5909
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IListenerChannelCallback::ReportStopped Method
 Notifies the worker process framework that a listener channel has shut down.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall ReportStopped(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `hr`  
  The `HRESULT` that reports the status of the listener channel. For example, `hr` might contain the `HRESULT` error when a listener channel fails to stop.  
   

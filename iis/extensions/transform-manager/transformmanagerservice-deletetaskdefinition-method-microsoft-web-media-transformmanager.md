@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.DeleteTaskDefinition
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DeleteTaskDefinition Method
@@ -36,7 +35,7 @@ Deletes a [TaskDefinition](taskdefinition-class-microsoft-web-media-transformman
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Sub DeleteTaskDefinition ( _
@@ -50,14 +49,14 @@ Dim taskDefinitionId As String
 instance.DeleteTaskDefinition(taskDefinitionId)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public void DeleteTaskDefinition(
     string taskDefinitionId
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual void DeleteTaskDefinition(
@@ -74,32 +73,32 @@ override DeleteTaskDefinition :
         taskDefinitionId:string -> unit 
 ```
 
-``` jscript
+```jscript
   public final function DeleteTaskDefinition(
     taskDefinitionId : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - taskDefinitionId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the [TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md) object to delete.  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .DeleteTaskDefinition(String)](imanagementservice-deletetaskdefinition-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.DeleteTaskDefinition(String)](imanagementservice-deletetaskdefinition-method-microsoft-web-media-transformmanager.md)  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[InvalidOperationException](https://msdn.microsoft.com/en-us/library/2asft85a(v=vs.90))|The task definition is in use and cannot be deleted.|
+|[InvalidOperationException](https://msdn.microsoft.com/library/2asft85a)|The task definition is in use and cannot be deleted.|
 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

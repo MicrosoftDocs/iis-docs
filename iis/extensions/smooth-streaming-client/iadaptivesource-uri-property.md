@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Gets the URI.
 
 ## Syntax
 
-``` csharp
+```csharp
 Uri Uri { get; }
 ```
 
-``` c++
+```cpp
 property Uri^ Uri {
 Uri^ get ();
 }
 ```
 
-``` jscript
+```jscript
 function get Uri () : Uri
 ```
 

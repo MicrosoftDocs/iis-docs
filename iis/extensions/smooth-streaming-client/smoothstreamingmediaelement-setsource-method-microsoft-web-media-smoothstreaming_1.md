@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetSource
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.SetSource Method
@@ -36,7 +35,7 @@ Sets the source of the [SmoothStreamingMediaElement](smoothstreamingmediaelement
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub SetSource ( _
@@ -50,13 +49,13 @@ Dim stream As Stream
 instance.SetSource(stream)
 ```
 
-``` csharp
+```csharp
 public void SetSource(
     Stream stream
 )
 ```
 
-``` c++
+```cpp
 public:
 void SetSource(
     Stream^ stream
@@ -68,16 +67,16 @@ member SetSource :
         stream:Stream -> unit 
 ```
 
-``` jscript
+```jscript
 public function SetSource(
     stream : Stream
 )
 ```
 
-#### Parameters
+### Parameters
 
   - stream  
-    Type: [System.IO.Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\))  
+    Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\))  
     The source object.
 
 ## Remarks
@@ -86,17 +85,17 @@ When you call SetSource(Stream) or assign the [SmoothStreamingSource](smoothstre
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

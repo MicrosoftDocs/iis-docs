@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.SmoothStreamingSource Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.SmoothStreamingSource Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingSource Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingSource
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingsource(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_SmoothStreamingSource
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_SmoothStreamingSource
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingSource Property
@@ -39,7 +38,7 @@ Gets or sets the URI of the Smooth Streaming source.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property SmoothStreamingSource As Uri
@@ -53,11 +52,11 @@ value = instance.SmoothStreamingSource
 instance.SmoothStreamingSource = value
 ```
 
-``` csharp
+```csharp
   public Uri SmoothStreamingSource { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property Uri^ SmoothStreamingSource {
     Uri^ get ();
@@ -65,14 +64,14 @@ property Uri^ SmoothStreamingSource {
 }
 ```
 
-``` jscript
+```jscript
   function get SmoothStreamingSource () : Uri
 function set SmoothStreamingSource (value : Uri)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.90\))  
+Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a)  
 The URI of the Smooth Streaming source.  
 
 ## Remarks
@@ -81,21 +80,21 @@ When you call [SetSource(Stream)](smoothstreamingmediaelement-setsource-method-m
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "EventMappingElement Class | Microsoft Docs"
-ms.custom: ""
+title: "EventMappingElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 715f98e4-5d04-4813-ae6e-ec148f201a2e
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # EventMappingElement Class
 Maps friendly event names to related event types.  
@@ -39,7 +31,7 @@ class EventMappingElement: CollectionElement
 ## Remarks  
  Instances of this class are contained in the `EventMappings` array property of the [EventMappingSettings](../wmi-provider/eventmappingsettings-class.md) class.  
   
- Event codes are mapped to events defined by the constants in the [System.Web.Management.WebEventCodes](/dotnet/api/system.web.management.webeventcodes?view=netframework-4.7.2) object. The mapping uses a range specified by the `StartEventCode` and `EndEventCode` properties.  
+ Event codes are mapped to events defined by the constants in the [System.Web.Management.WebEventCodes](/dotnet/api/system.web.management.webeventcodes) object. The mapping uses a range specified by the `StartEventCode` and `EndEventCode` properties.  
   
  Event mappings enable you to assign friendly names to event sources. The `Rules` property of the [HealthMonitoringSection](../wmi-provider/healthmonitoringsection-class.md) class uses these names to associate event sources with the related event consumers, called providers.  
   
@@ -58,7 +50,7 @@ class EventMappingElement: CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Management.WebEventCodes](/dotnet/api/system.web.management.webeventcodes?view=netframework-4.7.2)
+ [System.Web.Management.WebEventCodes](/dotnet/api/system.web.management.webeventcodes)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
  [ProviderSettings Class](../wmi-provider/providersettings-class.md)   

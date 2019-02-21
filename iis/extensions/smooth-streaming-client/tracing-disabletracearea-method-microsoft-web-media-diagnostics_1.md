@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.DisableTraceArea
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.DisableTraceArea Method
@@ -36,7 +35,7 @@ Disables the trace area that is specified by the traceArea parameter.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Sub DisableTraceArea ( _
@@ -49,13 +48,13 @@ Dim traceArea As TraceArea
 Tracing.DisableTraceArea(traceArea)
 ```
 
-``` csharp
+```csharp
 public static void DisableTraceArea(
     TraceArea traceArea
 )
 ```
 
-``` c++
+```cpp
 public:
 static void DisableTraceArea(
     TraceArea traceArea
@@ -67,13 +66,13 @@ static member DisableTraceArea :
         traceArea:TraceArea -> unit 
 ```
 
-``` jscript
+```jscript
 public static function DisableTraceArea(
     traceArea : TraceArea
 )
 ```
 
-#### Parameters
+### Parameters
 
   - traceArea  
     Type: [Microsoft.Web.Media.Diagnostics.TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
@@ -81,17 +80,17 @@ public static function DisableTraceArea(
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

@@ -1,5 +1,5 @@
 ---
-title: TraceEntry.ThreadId Property  (Microsoft.Web.Media.Diagnostics)
+title: TraceEntry.ThreadId Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: ThreadId Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.ThreadId
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.traceentry.threadid(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.get_ThreadId
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_ThreadId
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ThreadId Property
@@ -39,7 +38,7 @@ Gets or sets the ThreadId property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ThreadId As Integer
@@ -53,11 +52,11 @@ value = instance.ThreadId
 instance.ThreadId = value
 ```
 
-``` csharp
+```csharp
   public int ThreadId { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property int ThreadId {
     int get ();
@@ -65,33 +64,33 @@ property int ThreadId {
 }
 ```
 
-``` jscript
+```jscript
   function get ThreadId () : int
 function set ThreadId (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 An integer value that specifies the numeric ID of the thread that invoked the trace.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TraceEntry Class](traceentry-class-microsoft-web-media-diagnostics_1.md)
 

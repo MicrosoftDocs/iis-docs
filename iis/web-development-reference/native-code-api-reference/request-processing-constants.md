@@ -1,15 +1,7 @@
 ---
-title: "Request-Processing Constants | Microsoft Docs"
-ms.custom: ""
+title: "Request-Processing Constants"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 42be02f0-5c30-4a82-8373-47c8b744a75a
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Request-Processing Constants
 This topic describes the constants that are defined in the Httpserv.h header file.  

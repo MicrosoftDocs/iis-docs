@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementSchemaCollection::Item Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementSchemaCollection::Item Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 49cd2a06-8bb9-4bab-9d0d-b49b5045bb35
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementSchemaCollection::Item Property
 Gets the [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) with the requested index or property name in the collection.  
@@ -24,7 +16,7 @@ Gets the [IAppHostElementSchema Interface](../../web-development-reference\nativ
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `cIndex`  
  A `VARIANT` that specifies the [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) to retreive from the collection. If the `VARIANT` is of type integer, this is a zero-based index to the collection. If the `VARIANT` is of type string, this is a string index that represents the name of the [IAppHostElementSchema Interface](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) to retrieve.  
   

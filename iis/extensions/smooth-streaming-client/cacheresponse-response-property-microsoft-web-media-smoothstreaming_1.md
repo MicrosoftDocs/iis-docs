@@ -1,5 +1,5 @@
 ---
-title: CacheResponse.Response Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse.Response Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Response Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.Response
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.response(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.Response
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_Response
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,19 +28,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse.Response Property
 
-A [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\)) object that contains the response.
+A [Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\)) object that contains the response.
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Response As Stream
@@ -56,11 +55,11 @@ value = instance.Response
 instance.Response = value
 ```
 
-``` csharp
+```csharp
 public Stream Response { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property Stream^ Response {
     Stream^ get ();
@@ -72,29 +71,29 @@ property Stream^ Response {
 member Response : Stream with get, set
 ```
 
-``` jscript
+```jscript
 function get Response () : Stream
 function set Response (value : Stream)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.IO.Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\))  
-A [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\)) object that contains the response.
+Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\))  
+A [Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\)) object that contains the response.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

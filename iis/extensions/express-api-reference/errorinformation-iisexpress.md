@@ -1,14 +1,7 @@
 ---
-title: "ErrorInformation (IISExpress) | Microsoft Docs"
-ms.custom: ""
+title: "ErrorInformation (IISExpress)"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 81ec9163-68d2-4b00-8fd2-3afdab2c5d19
-caps.latest.revision: 7
-manager: "wpickett"
 ---
 # ErrorInformation (IISExpress)
 Defines detailed, localized error messages for IIS Express failure conditions.  

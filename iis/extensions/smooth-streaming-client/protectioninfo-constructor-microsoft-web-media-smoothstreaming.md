@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.#ctor
 - Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.ProtectionInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ProtectionInfo Constructor
@@ -36,7 +35,7 @@ Initializes a new instance of the [ProtectionInfo](protectioninfo-class-microsof
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New
@@ -45,36 +44,36 @@ Initializes a new instance of the [ProtectionInfo](protectioninfo-class-microsof
 Dim instance As New ProtectionInfo()
 ```
 
-``` csharp
+```csharp
   public ProtectionInfo()
 ```
 
-``` c++
+```cpp
   public:
 ProtectionInfo()
 ```
 
-``` jscript
+```jscript
   public function ProtectionInfo()
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ProtectionInfo Class](protectioninfo-class-microsoft-web-media-smoothstreaming_1.md)
 

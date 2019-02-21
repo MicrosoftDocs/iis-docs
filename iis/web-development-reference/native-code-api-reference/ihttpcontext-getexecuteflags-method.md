@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetExecuteFlags Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetExecuteFlags Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d4470530-25e6-17cb-d5fb-d817bb02e98c
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetExecuteFlags Method
 Retrieves the execution flags for the current context.  
@@ -22,7 +14,7 @@ virtual DWORD GetExecuteFlags(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

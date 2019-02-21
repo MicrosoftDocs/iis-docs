@@ -1,15 +1,7 @@
 ---
-title: "IGlobalFileChangeProvider::GetFileName Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalFileChangeProvider::GetFileName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b4aed437-7a05-404c-8069-84a816df1479
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalFileChangeProvider::GetFileName Method
 Retrieves the full path to a file that has been changed.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetFileName(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

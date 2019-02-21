@@ -1,5 +1,5 @@
 ---
-title: TaskDefinition.CommandLineArchitecture Property  (Microsoft.Web.Media.TransformManager)
+title: TaskDefinition.CommandLineArchitecture Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CommandLineArchitecture Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.CommandLineArchitecture
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.commandlinearchitecture(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.get_CommandLineArchitecture
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_CommandLineArchitecture
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CommandLineArchitecture Property
@@ -40,7 +39,7 @@ Gets or sets the architecture of the command-line executable.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property CommandLineArchitecture As String
@@ -56,12 +55,12 @@ value = instance.CommandLineArchitecture
 instance.CommandLineArchitecture = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string CommandLineArchitecture { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ CommandLineArchitecture {
@@ -75,14 +74,14 @@ property String^ CommandLineArchitecture {
 member CommandLineArchitecture : string with get, set
 ```
 
-``` jscript
+```jscript
   function get CommandLineArchitecture () : String
 function set CommandLineArchitecture (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The architecture of the command-line executable.  
 
 ## Remarks
@@ -91,7 +90,7 @@ The architecture of the command-line executable is returned if the executable is
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskDefinition Class](taskdefinition-class-microsoft-web-media-transformmanager.md)
 

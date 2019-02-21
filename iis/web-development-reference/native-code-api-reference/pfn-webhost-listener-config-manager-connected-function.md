@@ -1,15 +1,7 @@
 ---
-title: "PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 02dd9317-b412-da4e-9744-723c85b06cc7
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED Function
 Notifies the listener adapter that the [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md) function call was successful and the configuration manager has connected.  
@@ -22,7 +14,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED )(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to `WebhostRegisterProtocol`.  
   

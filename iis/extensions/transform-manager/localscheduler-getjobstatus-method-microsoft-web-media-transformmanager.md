@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.LocalScheduler.GetJobStatus
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobStatus Method
@@ -36,7 +35,7 @@ Returns the status of the specified job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Overrides Function GetJobStatus ( _
@@ -51,13 +50,13 @@ Dim returnValue As JobStatus
 returnValue = instance.GetJobStatus(jobInstanceId)
 ```
 
-``` csharp
+```csharp
   public override JobStatus GetJobStatus(
     string jobInstanceId
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual JobStatus GetJobStatus(
     String^ jobInstanceId
@@ -71,34 +70,34 @@ override GetJobStatus :
         jobInstanceId:string -> JobStatus 
 ```
 
-``` jscript
+```jscript
   public override function GetJobStatus(
     jobInstanceId : String
 ) : JobStatus
 ```
 
-#### Parameters
+### Parameters
 
   - jobInstanceId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
 The status of the job.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[FileNotFoundException](https://msdn.microsoft.com/en-us/library/dzyy5k3x(v=vs.90))|The method was unable to find a job file.|
-|[FileLoadException](https://msdn.microsoft.com/en-us/library/99akez90(v=vs.90))|The method was unable to load a file that was created by the task scheduler when a job was submitted.|
-|[COMException](https://msdn.microsoft.com/en-us/library/02hkayhc(v=vs.90))|The method was unable to complete the transaction that was originated by the task scheduler.|
+|[FileNotFoundException](https://msdn.microsoft.com/library/dzyy5k3x)|The method was unable to find a job file.|
+|[FileLoadException](https://msdn.microsoft.com/library/99akez90)|The method was unable to load a file that was created by the task scheduler when a job was submitted.|
+|[COMException](https://msdn.microsoft.com/library/02hkayhc)|The method was unable to complete the transaction that was originated by the task scheduler.|
 
 ## See Also
 
-#### Reference
+### Reference
 
 [LocalScheduler Class](localscheduler-class-microsoft-web-media-transformmanager.md)
 

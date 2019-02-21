@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -18,18 +18,18 @@ Gets the parent stream of this stream. This stream is typically a sparse stream.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IManifestStream ParentStream { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property IManifestStream^ ParentStream {
 IManifestStream^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get ParentStream () : IManifestStream
 ```
 

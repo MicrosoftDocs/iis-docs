@@ -1,15 +1,7 @@
 ---
-title: "ApplicationPool.Start Method1 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationPool.Start Method1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1ead4ceb-81f8-992f-91f3-8de8b3345db4
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationPool.Start Method1
 Starts an application pool.  
@@ -24,7 +16,7 @@ oApplicationPool.Start
 oApplicationPool.Start();  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

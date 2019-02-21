@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementSchema::CollectionSchema Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementSchema::CollectionSchema Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3337bf7b-7f53-4bb6-8de3-45f53cdea894
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementSchema::CollectionSchema Property
 Gets the schema of the collection contained in the corresponding [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object if the element supports child collections.  
@@ -23,7 +15,7 @@ Gets the schema of the collection contained in the corresponding [IAppHostElemen
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppCollectionSchema`  
  Contiains an [IAppHostCollectionSchema Interface](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-interface.md)  
   

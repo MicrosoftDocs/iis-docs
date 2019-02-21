@@ -1,15 +1,7 @@
 ---
-title: "SSLBinding Class | Microsoft Docs"
-ms.custom: ""
+title: "SSLBinding Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1c7b8e2b-2ce9-5bb5-87a5-4ac1603c0c66
-caps.latest.revision: 31
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SSLBinding Class
 Represents a Secure Sockets Layer (SSL) binding.  

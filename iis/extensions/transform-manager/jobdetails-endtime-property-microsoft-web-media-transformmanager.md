@@ -1,5 +1,5 @@
 ---
-title: JobDetails.EndTime Property  (Microsoft.Web.Media.TransformManager)
+title: JobDetails.EndTime Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: EndTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.EndTime
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.endtime(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.EndTime
 - Microsoft.Web.Media.TransformManager.JobDetails.set_EndTime
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # EndTime Property
@@ -40,7 +39,7 @@ Gets or sets the time when the job ended.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property EndTime As DateTime
@@ -56,12 +55,12 @@ value = instance.EndTime
 instance.EndTime = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public DateTime EndTime { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property DateTime EndTime {
@@ -75,19 +74,19 @@ property DateTime EndTime {
 member EndTime : DateTime with get, set
 ```
 
-``` jscript
+```jscript
   function get EndTime () : DateTime
 function set EndTime (value : DateTime)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.90\))  
+Type: [System.DateTime](https://msdn.microsoft.com/library/03ybds8y)  
 The time when the job ended.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

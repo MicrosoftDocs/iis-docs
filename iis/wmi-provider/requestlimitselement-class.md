@@ -1,15 +1,7 @@
 ---
-title: "RequestLimitsElement Class | Microsoft Docs"
-ms.custom: ""
+title: "RequestLimitsElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ad0f126f-9538-318d-dee0-c77a72fba0c5
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # RequestLimitsElement Class
 Specifies size limits on incoming HTTP requests.  

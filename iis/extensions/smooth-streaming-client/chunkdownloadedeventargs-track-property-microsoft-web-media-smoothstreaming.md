@@ -1,5 +1,5 @@
 ---
-title: ChunkDownloadedEventArgs.Track Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ChunkDownloadedEventArgs.Track Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Track Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.Track
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.track(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.Track
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.get_Track
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkDownloadedEventArgs.Track Property
@@ -40,7 +39,7 @@ Gets the selected track for downloading the current chunk.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Track As TrackInfo
@@ -54,11 +53,11 @@ Dim value As TrackInfo
 value = instance.Track
 ```
 
-``` csharp
+```csharp
 public TrackInfo Track { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property TrackInfo^ Track {
     TrackInfo^ get ();
@@ -70,25 +69,25 @@ property TrackInfo^ Track {
 member Track : TrackInfo with get, private set
 ```
 
-``` jscript
+```jscript
 function get Track () : TrackInfo
 private function set Track (value : TrackInfo)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)  
 A TrackInfo object that represents the track.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkDownloadedEventArgs Class](chunkdownloadedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

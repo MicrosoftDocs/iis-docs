@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.SubmitJob
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SubmitJob Method
@@ -36,7 +35,7 @@ Submits a job to the IIS Transform Manager service.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Sub SubmitJob ( _
@@ -55,7 +54,7 @@ instance.SubmitJob(jobDefinitionId, instanceFileName, _
     smilManifest)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public void SubmitJob(
     string jobDefinitionId,
@@ -64,7 +63,7 @@ public void SubmitJob(
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual void SubmitJob(
@@ -87,7 +86,7 @@ override SubmitJob :
         smilManifest:XElement -> unit 
 ```
 
-``` jscript
+```jscript
   public final function SubmitJob(
     jobDefinitionId : String, 
     instanceFileName : String, 
@@ -95,37 +94,37 @@ override SubmitJob :
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobDefinitionId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job definition to submit.  
 
 <!-- end list -->
 
   - instanceFileName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The SMIL 2.0 manifest file name.  
 
 <!-- end list -->
 
   - smilManifest  
-    Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+    Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
     The content of an SMIL 2.0-compliant manifest.  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .SubmitJob(String, String, XElement)](imanagementservice-submitjob-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.SubmitJob(String, String, XElement)](imanagementservice-submitjob-method-microsoft-web-media-transformmanager.md)  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[IOException](https://msdn.microsoft.com/en-us/library/hccy4eyd(v=vs.90))|The manifest file already exists.|
+|[IOException](https://msdn.microsoft.com/library/hccy4eyd)|The manifest file already exists.|
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpTraceContext::QuickTrace Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpTraceContext::QuickTrace Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a0d43e55-a773-4f55-ae09-33b451adfe4b
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpTraceContext::QuickTrace Method
 Writes a message to the IIS trace log.  
@@ -27,7 +19,7 @@ virtual
     ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Parameter|Description|  
 |---------------|-----------------|  

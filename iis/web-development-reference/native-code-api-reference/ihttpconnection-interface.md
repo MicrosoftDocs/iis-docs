@@ -1,15 +1,7 @@
 ---
-title: "IHttpConnection Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpConnection Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b4c860fc-5e1a-e3ce-ec6c-c1fdda229eed
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpConnection Interface
 Provides an interface for connection-specific information.  

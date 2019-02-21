@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::MapPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::MapPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e4f19ece-2ef0-7e2f-b4b0-24f406979753
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::MapPath Method
 Returns the physical path of a relative URL.  
@@ -24,7 +16,7 @@ virtual HRESULT MapPath(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszUrl`  
  [IN] A pointer to a string that contains the relative URL to map.  
   

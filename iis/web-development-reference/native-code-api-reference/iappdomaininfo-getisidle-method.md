@@ -1,15 +1,7 @@
 ---
-title: "IAppDomainInfo::GetIsIdle Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppDomainInfo::GetIsIdle Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cf1700cc-952e-4215-4343-ef4e8ebd9fb3
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppDomainInfo::GetIsIdle Method
 Retrieves the idle state of the application domain.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall GetIsIdle(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfIsIdle`  
  A pointer to a `DWORD` that contains the idle state of the application domain since the last call. A nonzero value indicates that the application domain is idle; 0 indicates that the application domain is not idle.  
   

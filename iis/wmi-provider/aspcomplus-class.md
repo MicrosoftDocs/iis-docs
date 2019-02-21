@@ -1,15 +1,7 @@
 ---
-title: "AspComPlus Class | Microsoft Docs"
-ms.custom: ""
+title: "AspComPlus Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8aea95ad-b8a7-6ba0-1155-f1000b176bfd
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AspComPlus Class
 Exposes properties related to COM+.  

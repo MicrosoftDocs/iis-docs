@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigException::ConfigPath Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigException::ConfigPath Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fc8d0b9f-8d75-9f5f-d3c9-d65aa26c2fc1
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigException::ConfigPath Property
 Gets the configuration path of the file that contains the configuration that caused the exception.  
@@ -23,7 +15,7 @@ HRESULT get_ConfigPath(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrConfigPath`  
  A pointer to a `BSTR` that specifies the requested configuration path.  
   

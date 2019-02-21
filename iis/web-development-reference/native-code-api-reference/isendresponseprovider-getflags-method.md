@@ -1,15 +1,7 @@
 ---
-title: "ISendResponseProvider::GetFlags Method | Microsoft Docs"
-ms.custom: ""
+title: "ISendResponseProvider::GetFlags Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3062e690-a714-515f-bdc8-7f7ec38716e9
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ISendResponseProvider::GetFlags Method
 Retrieves the flags for the current HTTP response.  
@@ -22,7 +14,7 @@ virtual DWORD GetFlags(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

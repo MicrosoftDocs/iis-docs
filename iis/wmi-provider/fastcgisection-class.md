@@ -1,15 +1,7 @@
 ---
-title: "FastCgiSection Class | Microsoft Docs"
-ms.custom: ""
+title: "FastCgiSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9622ab64-c41d-4b24-a696-5df6c282bf20
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # FastCgiSection Class
 Contains configuration settings for FastCGI applications.  

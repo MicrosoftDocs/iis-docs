@@ -1,5 +1,5 @@
 ---
-title: ClipInformation.ClipUri Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ClipInformation.ClipUri Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipUri Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.ClipUri
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipinformation.clipuri(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.get_ClipUri
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.set_ClipUri
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,19 +27,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipUri Property
 
-Gets or sets a [Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.90\)) object that contains the clip source.
+Gets or sets a [Uri](https://msdn.microsoft.com/library/txt7706a) object that contains the clip source.
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ClipUri As Uri
@@ -51,11 +50,11 @@ Dim value As Uri
 value = instance.ClipUri
 ```
 
-``` csharp
+```csharp
   public Uri ClipUri { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property Uri^ ClipUri {
     Uri^ get ();
@@ -63,29 +62,29 @@ property Uri^ ClipUri {
 }
 ```
 
-``` jscript
+```jscript
   function get ClipUri () : Uri
 private function set ClipUri (value : Uri)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.90\))  
-A [Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.90\)) object that contains the clip source.  
+Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a)  
+A [Uri](https://msdn.microsoft.com/library/txt7706a) object that contains the clip source.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipInformation Class](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)
 

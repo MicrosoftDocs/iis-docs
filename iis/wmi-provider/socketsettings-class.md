@@ -1,15 +1,7 @@
 ---
-title: "SocketSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "SocketSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 91fce06e-446c-2235-636a-340a1326b892
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SocketSettings Class
 Specifies whether completion ports are used for connecting and accepting connections.  

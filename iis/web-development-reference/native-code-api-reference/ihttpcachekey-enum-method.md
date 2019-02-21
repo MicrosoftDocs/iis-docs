@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheKey::Enum Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheKey::Enum Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 979f5cae-7487-de8b-2d93-7aab5b396862
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheKey::Enum Method
 Enumerates an [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md) pointer.  
@@ -22,7 +14,7 @@ virtual VOID Enum(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `cacheData`  
  A pointer to an `IHttpCacheSpecificData` value.  
   

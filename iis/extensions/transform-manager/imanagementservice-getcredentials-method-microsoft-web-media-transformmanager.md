@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService.GetCredentials
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetCredentials Method
@@ -36,7 +35,7 @@ Returns all [Credential](credential-class-microsoft-web-media-transformmanager.m
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Function GetCredentials As Collection(Of Credential)
@@ -48,12 +47,12 @@ Dim returnValue As Collection(Of Credential)
 returnValue = instance.GetCredentials()
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 Collection<Credential> GetCredentials()
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 Collection<Credential^>^ GetCredentials()
 ```
@@ -63,18 +62,18 @@ Collection<Credential^>^ GetCredentials()
 abstract GetCredentials : unit -> Collection<Credential> 
 ```
 
-``` jscript
+```jscript
   function GetCredentials() : Collection<Credential>
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[Credential](credential-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[Credential](credential-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 The [Credential](credential-class-microsoft-web-media-transformmanager.md) objects.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

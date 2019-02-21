@@ -1,15 +1,7 @@
 ---
-title: "OneToOneSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "OneToOneSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 87c2bd23-5ce9-4a1a-9413-f159f54436a1
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # OneToOneSettings Class
 Contains one-to-one client certificate mappings.  

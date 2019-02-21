@@ -1,16 +1,8 @@
 ---
-title: "Web Server Core Interfaces | Microsoft Docs"
-ms.custom: ""
+title: "Web Server Core Interfaces"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a541dc16-8cd9-48f2-833d-eea649ef6b25
-caps.latest.revision: 21
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # Web Server Core Interfaces
 This section describes the Web Server Core and integrated request-processing pipeline interfaces.  

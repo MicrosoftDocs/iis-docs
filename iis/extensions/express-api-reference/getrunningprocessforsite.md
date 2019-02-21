@@ -1,14 +1,7 @@
 ---
-title: "GetRunningProcessForSite | Microsoft Docs"
-ms.custom: ""
+title: "GetRunningProcessForSite"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 97a095d4-839a-4405-9b4d-7142be2ba815
-caps.latest.revision: 7
-manager: "wpickett"
 ---
 # GetRunningProcessForSite
 Returns the process ID of the worker process when the parameters of this function match the parameters for the current user specified by the [ConstructCommandLine](../../extensions/express-api-reference/constructcommandline.md) function.  
@@ -27,7 +20,7 @@ Returns the process ID of the worker process when the parameters of this functio
   
 ```  
   
-#### Parameters  
+### Parameters  
   
 -   [in] `bstrSite`  
   

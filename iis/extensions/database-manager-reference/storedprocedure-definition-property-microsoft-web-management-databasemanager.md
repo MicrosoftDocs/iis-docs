@@ -1,5 +1,5 @@
 ---
-title: StoredProcedure.Definition Property  (Microsoft.Web.Management.DatabaseManager)
+title: StoredProcedure.Definition Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Definition Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedure.Definition
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.storedprocedure.definition(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.StoredProcedure.get_Definition
 - Microsoft.Web.Management.DatabaseManager.StoredProcedure.set_Definition
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StoredProcedure.Definition Property
@@ -39,7 +38,7 @@ Gets or sets the definition for a stored procedure.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property Definition As String
 'Usage
@@ -51,11 +50,11 @@ value = instance.Definition
 instance.Definition = value
 ```
 
-``` csharp
+```csharp
 public string Definition { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ Definition {
     String^ get ();
@@ -63,14 +62,14 @@ property String^ Definition {
 }
 ```
 
-``` jscript
+```jscript
 function get Definition () : String
 function set Definition (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The definition for a stored procedure.  
 
 ## Remarks
@@ -79,11 +78,11 @@ The definition for a stored procedure contains the collection of SQL statements 
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StoredProcedure Class](storedprocedure-class-microsoft-web-management-databasemanager.md)
 

@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 ---
 
 # AdaptiveSource.ManifestReadyEvent Event
@@ -19,11 +19,11 @@ Occurs when the manifest is ready.
 
 ## Syntax
 
-``` csharp
+```csharp
 public event ManifestReadyEventHandler ManifestReadyEvent
 ```
 
-``` c++
+```cpp
 public:
 virtual  event ManifestReadyEventHandler^ ManifestReadyEvent {
 void add (ManifestReadyEventHandler^ value);

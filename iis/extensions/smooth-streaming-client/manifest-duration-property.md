@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the manifest 'Duration' field.
 
 ## Syntax
 
-``` csharp
+```csharp
 public long Duration { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property long long Duration {
 long long get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get Duration () : long
 ```
 

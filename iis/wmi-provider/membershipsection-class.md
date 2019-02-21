@@ -1,15 +1,7 @@
 ---
-title: "MembershipSection Class | Microsoft Docs"
-ms.custom: ""
+title: "MembershipSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f8b2a0e9-0187-8227-fa8c-7bd6f3de477c
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # MembershipSection Class
 Validates user credentials and manages user settings.  
@@ -68,7 +60,7 @@ class MembershipSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Security.Membership](/dotnet/api/system.web.security.membership?view=netframework-4.7.2) 
+ [System.Web.Security.Membership](/dotnet/api/system.web.security.membership) 
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)   
  [Mapping Algorithm Names to Cryptography Classes](http://go.microsoft.com/fwlink/?LinkId=70954)

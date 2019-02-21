@@ -1,5 +1,5 @@
 ---
-title: IJobMetadata.InputFolder Property  (Microsoft.Web.Media.TransformManager)
+title: IJobMetadata.InputFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.InputFolder
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.ijobmetadata.inputfolder(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IJobMetadata.InputFolder
 - Microsoft.Web.Media.TransformManager.IJobMetadata.get_InputFolder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # InputFolder Property
@@ -38,7 +37,7 @@ Gets the name of the input folder for the job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   ReadOnly Property InputFolder As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.InputFolder
 ```
 
-``` csharp
+```csharp
   string InputFolder { get; }
 ```
 
-``` c++
+```cpp
   property String^ InputFolder {
     String^ get ();
 }
@@ -65,18 +64,18 @@ value = instance.InputFolder
   abstract InputFolder : string
 ```
 
-``` jscript
+```jscript
   function get InputFolder () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The input folder name.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IJobMetadata Interface](ijobmetadata-interface-microsoft-web-media-transformmanager.md)
 

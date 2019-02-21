@@ -1,15 +1,7 @@
 ---
-title: "IHttpSite::GetSiteId Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpSite::GetSiteId Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6caea2a6-61c6-b527-0127-e2cbb1d0d6bf
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpSite::GetSiteId Method
 Retrieves the unique ID for the Web site.  
@@ -22,7 +14,7 @@ virtual DWORD GetSiteId(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9d5031b5-474a-1bbd-87c5-fb6743568419
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetMetadata Method
 Retrieves the metadata container for the current request context.  
@@ -22,7 +14,7 @@ virtual IMetadataInfo* GetMetadata(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

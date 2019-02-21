@@ -22,17 +22,17 @@ The body element is a container for track information and references to other me
 
 The following sections describe attributes, child elements, and parent elements.
 
-#### Attributes
+### Attributes
 
 None
 
-#### Child Elements
+### Child Elements
 
 |Element|Description|
 |--- |--- |
 |**switch**|The switch element is a container for track information. A Smooth Streaming presentation must contain one or more <a href="iis-smooth-streaming-server-manifest-on-demand-video-element.md">IIS Smooth Streaming Server Manifest (On-Demand) - video Element</a>, <a href="iis-smooth-streaming-server-manifest-on-demand-audio-element.md">IIS Smooth Streaming Server Manifest (On-Demand) - audio Element</a>, and <a href="iis-smooth-streaming-server-manifest-on-demand-textstream-element.md">IIS Smooth Streaming Server Manifest (On-Demand) - textstream Element</a> tracks.|
 
-#### Parent Elements
+### Parent Elements
 
 |Element|Description|
 |--- |--- |
@@ -40,7 +40,7 @@ None
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - smil Element](iis-smooth-streaming-server-manifest-on-demand-smil-element.md)
 

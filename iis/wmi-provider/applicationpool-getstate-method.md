@@ -1,15 +1,7 @@
 ---
-title: "ApplicationPool.GetState Method2 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationPool.GetState Method2"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b6fb2e50-98c5-d549-a770-867aa248317a
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationPool.GetState Method2
 Returns the run-time state of an application pool.  
@@ -24,7 +16,7 @@ objAppPool.GetState
 var appPoolState = appPool.GetState();  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

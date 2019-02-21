@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.TestConnection
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseProvider.TestConnection Method
@@ -35,7 +34,7 @@ Tests a connection string for a database provider.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public MustOverride Sub TestConnection ( _
     connectionString As String _
@@ -47,29 +46,29 @@ Dim connectionString As String
 instance.TestConnection(connectionString)
 ```
 
-``` csharp
+```csharp
 public abstract void TestConnection(
     string connectionString
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual void TestConnection(
     String^ connectionString
 ) abstract
 ```
 
-``` jscript
+```jscript
 public abstract function TestConnection(
     connectionString : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string to test.  
 
 ## Remarks
@@ -80,7 +79,7 @@ Your provider must implement the TestConnection method in order to test the data
 
 The following code sample illustrates an example TestConnection method that opens and closes a database that will test the connection.
 
-``` vb
+```vb
 
     Public Overrides Sub TestConnection(ByVal connectionString As String)
 
@@ -92,7 +91,7 @@ The following code sample illustrates an example TestConnection method that open
 
 ```
 
-``` csharp
+```csharp
 
         public override void TestConnection(
             string connectionString )
@@ -108,11 +107,11 @@ The following code sample illustrates an example TestConnection method that open
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 

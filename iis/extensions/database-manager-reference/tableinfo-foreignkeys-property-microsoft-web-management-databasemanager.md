@@ -1,5 +1,5 @@
 ---
-title: TableInfo.ForeignKeys Property  (Microsoft.Web.Management.DatabaseManager)
+title: TableInfo.ForeignKeys Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ForeignKeys Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.ForeignKeys
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.tableinfo.foreignkeys(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.TableInfo.ForeignKeys
 - Microsoft.Web.Management.DatabaseManager.TableInfo.get_ForeignKeys
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TableInfo.ForeignKeys Property
@@ -37,7 +36,7 @@ Returns a list of foreign keys within the table information.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public ReadOnly Property ForeignKeys As IList(Of ForeignKey)
 'Usage
@@ -47,33 +46,33 @@ Dim value As IList(Of ForeignKey)
 value = instance.ForeignKeys
 ```
 
-``` csharp
+```csharp
 public IList<ForeignKey> ForeignKeys { get; }
 ```
 
-``` c++
+```cpp
 public:
 property IList<ForeignKey^>^ ForeignKeys {
     IList<ForeignKey^>^ get ();
 }
 ```
 
-``` jscript
+```jscript
 function get ForeignKeys () : IList<ForeignKey>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.90\))\<[ForeignKey](foreignkey-class-microsoft-web-management-databasemanager.md)\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6)\<[ForeignKey](foreignkey-class-microsoft-web-management-databasemanager.md)\>  
 An IList interface that contains a collection of [ForeignKey](foreignkey-class-microsoft-web-management-databasemanager.md) objects.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TableInfo Class](tableinfo-class-microsoft-web-management-databasemanager.md)
 

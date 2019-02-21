@@ -1,15 +1,7 @@
 ---
-title: "IUriKey::GetUrl Method | Microsoft Docs"
-ms.custom: ""
+title: "IUriKey::GetUrl Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e3bc1574-276e-faeb-b018-4bac8eadd66f
-caps.latest.revision: 36
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IUriKey::GetUrl Method
 Returns the URL associated with the Uniform Resource Identifier (URI) data.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetUrl(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

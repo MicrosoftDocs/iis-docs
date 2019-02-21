@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerInfo Constructor (XElement)
@@ -34,7 +33,7 @@ Initializes a new instance of the [SchedulerInfo](schedulerinfo-class-microsoft-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -47,13 +46,13 @@ Initializes a new instance of the [SchedulerInfo](schedulerinfo-class-microsoft-
 Dim instance As New SchedulerInfo(hasScheduler)
 ```
 
-``` csharp
+```csharp
   public SchedulerInfo(
     XElement hasScheduler
 )
 ```
 
-``` c++
+```cpp
   public:
 SchedulerInfo(
     XElement^ hasScheduler
@@ -65,28 +64,28 @@ SchedulerInfo(
         hasScheduler:XElement -> SchedulerInfo
 ```
 
-``` jscript
+```jscript
   public function SchedulerInfo(
     hasScheduler : XElement
 )
 ```
 
-#### Parameters
+### Parameters
 
   - hasScheduler  
-    Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+    Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
     An XML element that contains the scheduler node. The node is defined using the RDF specification.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[ArgumentNullException](https://msdn.microsoft.com/en-us/library/27426hcy(v=vs.90))|hasScheduler is null Nothing nullptr unit a null reference (Nothing in Visual Basic)|
+|[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|hasScheduler is null Nothing nullptr unit a null reference (Nothing in Visual Basic)|
 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SchedulerInfo Class](schedulerinfo-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "Worker Process and Protocol Manager Interfaces | Microsoft Docs"
-ms.custom: ""
+title: "Worker Process and Protocol Manager Interfaces"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 84cdeec4-70f9-44f3-84f9-3b690af1d340
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Worker Process and Protocol Manager Interfaces
 This section describes the interfaces and methods available in the worker process framework that allow protocol managers to retrieve configuration information about a worker process. These interfaces also allow worker processes to retrieve listener-related health and Run-Time Status and Control information from a protocol manager. The interfaces and their respective methods are defined in the Wpframework.h header file.  

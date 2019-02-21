@@ -1,15 +1,7 @@
 ---
-title: "Native-Code Extensibility API Reference | Microsoft Docs"
-ms.custom: ""
+title: "Native-Code Extensibility API Reference"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ffeff01f-2bb9-4b1a-847c-30a14c09c425
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Native-Code Extensibility API Reference
 This section of the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] SDK discusses the API that developers use to extend the functionality of IIS.  

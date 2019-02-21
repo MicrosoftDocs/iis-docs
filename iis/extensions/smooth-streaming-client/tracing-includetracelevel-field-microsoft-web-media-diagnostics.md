@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.IncludeTraceLevel
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IncludeTraceLevel Field
@@ -35,7 +34,7 @@ A Boolean value that indicates whether to include the trace level severity in tr
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared IncludeTraceLevel As Boolean
@@ -48,36 +47,36 @@ value = Tracing.IncludeTraceLevel
 Tracing.IncludeTraceLevel = value
 ```
 
-``` csharp
+```csharp
   public static bool IncludeTraceLevel
 ```
 
-``` c++
+```cpp
   public:
 static bool IncludeTraceLevel
 ```
 
-``` jscript
+```jscript
   public static var IncludeTraceLevel : boolean
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

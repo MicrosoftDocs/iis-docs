@@ -1,5 +1,5 @@
 ---
-title: Logger.LogLevel Property  (Microsoft.Web.Media.TransformManager)
+title: Logger.LogLevel Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogLevel Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Logger.LogLevel
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.logger.loglevel(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.Logger.LogLevel
 - Microsoft.Web.Media.TransformManager.Logger.get_LogLevel
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LogLevel Property
@@ -40,7 +39,7 @@ Gets or sets the level of information that will be logged.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property LogLevel As LogLevel
@@ -56,11 +55,11 @@ value = instance.LogLevel
 instance.LogLevel = value
 ```
 
-``` csharp
+```csharp
   public LogLevel LogLevel { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 virtual property LogLevel LogLevel {
     LogLevel get () sealed;
@@ -73,23 +72,23 @@ virtual property LogLevel LogLevel {
 override LogLevel : LogLevel with get, set
 ```
 
-``` jscript
+```jscript
   final function get LogLevel () : LogLevel
 final function set LogLevel (value : LogLevel)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
 The level of information that will be logged.  
 
-#### Implements
+### Implements
 
-[ILogger. . :: . .LogLevel](ilogger-loglevel-property-microsoft-web-media-transformmanager.md)  
+[ILogger.LogLevel](ilogger-loglevel-property-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Logger Class](logger-class-microsoft-web-media-transformmanager.md)
 

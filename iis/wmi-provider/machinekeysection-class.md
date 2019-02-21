@@ -1,15 +1,7 @@
 ---
-title: "MachineKeySection Class | Microsoft Docs"
-ms.custom: ""
+title: "MachineKeySection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6811603d-8bc9-590e-9bd3-4356b1d5190b
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # MachineKeySection Class
 Defines the configuration settings that control the key generation and algorithms that are used in encryption, decryption, and media access control (MAC) operations in Forms authentication, view-state validation, and session-state application isolation.  
@@ -131,6 +123,6 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.MachineKeyValidation](/dotnet/api/system.web.configuration.machinekeysection.validation?view=netframework-4.7.2)
+ [System.Web.Configuration.MachineKeyValidation](/dotnet/api/system.web.configuration.machinekeysection.validation)
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)

@@ -1,5 +1,5 @@
 ---
-title: JobDetails.ManifestName Property  (Microsoft.Web.Media.TransformManager)
+title: JobDetails.ManifestName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.ManifestName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.manifestname(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.set_ManifestName
 - Microsoft.Web.Media.TransformManager.JobDetails.ManifestName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestName Property
@@ -40,7 +39,7 @@ Gets or sets the name of the manifest file that defines this job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property ManifestName As String
@@ -56,12 +55,12 @@ value = instance.ManifestName
 instance.ManifestName = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string ManifestName { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ ManifestName {
@@ -75,19 +74,19 @@ property String^ ManifestName {
 member ManifestName : string with get, set
 ```
 
-``` jscript
+```jscript
   function get ManifestName () : String
 function set ManifestName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The name of the manifest file that defines this job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

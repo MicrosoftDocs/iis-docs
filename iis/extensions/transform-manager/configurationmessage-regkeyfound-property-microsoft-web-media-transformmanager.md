@@ -1,5 +1,5 @@
 ---
-title: ConfigurationMessage.RegKeyFound Property  (Microsoft.Web.Media.TransformManager)
+title: ConfigurationMessage.RegKeyFound Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: RegKeyFound Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.RegKeyFound
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationmessage.regkeyfound(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.RegKeyFound
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.set_RegKeyFound
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # RegKeyFound Property
@@ -40,7 +39,7 @@ Gets or sets a message to post when the registration key value is found.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property RegKeyFound As String
@@ -56,12 +55,12 @@ value = instance.RegKeyFound
 instance.RegKeyFound = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string RegKeyFound { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ RegKeyFound {
@@ -75,19 +74,19 @@ property String^ RegKeyFound {
 member RegKeyFound : string with get, set
 ```
 
-``` jscript
+```jscript
   function get RegKeyFound () : String
 function set RegKeyFound (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The message that is posted when the registration key is found.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationMessage Class](configurationmessage-class-microsoft-web-media-transformmanager.md)
 

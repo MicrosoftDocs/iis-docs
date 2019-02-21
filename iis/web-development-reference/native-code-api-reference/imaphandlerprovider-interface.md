@@ -1,15 +1,7 @@
 ---
-title: "IMapHandlerProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IMapHandlerProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 751560c1-2a88-7175-c78d-615c42f86feb
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IMapHandlerProvider Interface
 Provides a request-level interface for processing [RQ_MAP_REQUEST_HANDLER](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notifications.  

@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::GetProtocolManagerCustomInterface Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::GetProtocolManagerCustomInterface Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4e7c0771-aa07-a501-d49e-94c98295bfac
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::GetProtocolManagerCustomInterface Method
 Retrieves a custom interface for a protocol manager.  
@@ -25,7 +17,7 @@ virtual HRESULT GetProtocolManagerCustomInterface(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProtocolManagerDll`  
  [IN] A pointer to a string that contains the path to the protocol manager DLL.  
   

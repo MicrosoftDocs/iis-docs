@@ -50,7 +50,7 @@ tlbimp /out:c:\\asm\\playlist\\sampleprovider.dll /namespace:Microsoft.Web.Media
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Writing a Managed Web Playlist Provider](writing-a-managed-web-playlist-provider.md)
 

@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobTemplate.SetTaskDefinitions
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SetTaskDefinitions Method
@@ -36,7 +35,7 @@ Sets a list of [TaskDefinition](taskdefinition-class-microsoft-web-media-transfo
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Sub SetTaskDefinitions ( _
@@ -49,13 +48,13 @@ Sets a list of [TaskDefinition](taskdefinition-class-microsoft-web-media-transfo
 JobTemplate.SetTaskDefinitions(taskDefinitions)
 ```
 
-``` csharp
+```csharp
   public static void SetTaskDefinitions(
     Collection<TaskDefinition> taskDefinitions
 )
 ```
 
-``` c++
+```cpp
   public:
 static void SetTaskDefinitions(
     Collection<TaskDefinition^>^ taskDefinitions
@@ -67,21 +66,21 @@ static void SetTaskDefinitions(
         taskDefinitions:Collection<TaskDefinition> -> unit 
 ```
 
-``` jscript
+```jscript
   public static function SetTaskDefinitions(
     taskDefinitions : Collection<TaskDefinition>
 )
 ```
 
-#### Parameters
+### Parameters
 
   - taskDefinitions  
-    Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+    Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
     A collection of [TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md) objects used to specify a job template element.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobTemplate Class](jobtemplate-class-microsoft-web-media-transformmanager.md)
 

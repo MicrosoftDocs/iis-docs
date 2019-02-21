@@ -1,15 +1,7 @@
 ---
-title: "ServiceDescriptionFormatSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "ServiceDescriptionFormatSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7fffcc59-13b7-4e54-892e-17cb49c01a42
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ServiceDescriptionFormatSettings Class
 Contains Web service description information.  

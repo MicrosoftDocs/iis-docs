@@ -1,15 +1,7 @@
 ---
-title: "IModuleAllocator::AllocateMemory Method | Microsoft Docs"
-ms.custom: ""
+title: "IModuleAllocator::AllocateMemory Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0d96c164-62ed-4ee5-89ad-77961d929411
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IModuleAllocator::AllocateMemory Method
 Allocates a specified amount of memory.  
@@ -22,7 +14,7 @@ virtual VOID* AllocateMemory(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `cbAllocation`  
  [IN] The number of bytes to allocate.  
   

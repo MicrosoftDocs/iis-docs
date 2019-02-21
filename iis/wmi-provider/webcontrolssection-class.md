@@ -1,15 +1,7 @@
 ---
-title: "WebControlsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "WebControlsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1fa14f54-980a-37fe-ee88-5cba1abfaab6
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WebControlsSection Class
 Specifies the shared location of client script files.  
@@ -59,6 +51,6 @@ class WebControlsSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.SystemWebSectionGroup.WebControls](/dotnet/api/system.web.configuration.systemwebsectiongroup.webcontrols?view=netframework-4.7.2) 
+ [System.Web.Configuration.SystemWebSectionGroup.WebControls](/dotnet/api/system.web.configuration.systemwebsectiongroup.webcontrols) 
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [webControls Element (ASP.NET Settings Schema)](http://go.microsoft.com/fwlink/?LinkId=67193)

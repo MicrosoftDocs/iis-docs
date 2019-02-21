@@ -1,15 +1,7 @@
 ---
-title: "PeriodicRestartSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "PeriodicRestartSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: dfb46d88-0d13-f66b-440b-dd7eeef10582
-caps.latest.revision: 28
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PeriodicRestartSettings Class
 Specifies the conditions under which worker processes will be recycled.  

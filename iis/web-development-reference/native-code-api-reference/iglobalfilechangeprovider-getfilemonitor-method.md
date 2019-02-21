@@ -1,15 +1,7 @@
 ---
-title: "IGlobalFileChangeProvider::GetFileMonitor Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalFileChangeProvider::GetFileMonitor Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 899ac7c8-6596-e1a0-b5b2-4ee7abe6863e
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalFileChangeProvider::GetFileMonitor Method
 Returns an [IHttpFileMonitor](../../web-development-reference\native-code-api-reference/ihttpfilemonitor-interface.md) file-change monitor.  
@@ -22,7 +14,7 @@ virtual IHttpFileMonitor* GetFileMonitor(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

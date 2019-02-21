@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetRootContext Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetRootContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5f2ac4f9-4812-3c16-0cd2-8aca647cb342
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetRootContext Method
 Retrieves a pointer to the root context for the current context.  
@@ -22,7 +14,7 @@ virtual IHttpContext* GetRootContext(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

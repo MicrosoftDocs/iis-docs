@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IMonitoringService.CancelJobById
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CancelJobById Method
@@ -36,7 +35,7 @@ Cancels a job that is represented by the specified job ID.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Function CancelJobById ( _
@@ -51,14 +50,14 @@ Dim returnValue As JobStatus
 returnValue = instance.CancelJobById(jobId)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 JobStatus CancelJobById(
     string jobId
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 JobStatus CancelJobById(
     String^ jobId
@@ -71,21 +70,21 @@ abstract CancelJobById :
         jobId:string -> JobStatus 
 ```
 
-``` jscript
+```jscript
   function CancelJobById(
     jobId : String
 ) : JobStatus
 ```
 
-#### Parameters
+### Parameters
 
   - jobId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job to cancel.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
 The [JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md) object that corresponds to the action.  
 
 ## Remarks
@@ -94,7 +93,7 @@ The job can be canceled when it is either running or queued (submitted but not y
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
 

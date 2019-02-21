@@ -1,15 +1,7 @@
 ---
-title: "FileExtensionsSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "FileExtensionsSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b437c7ab-64b4-f7b7-6f22-a699a37cead7
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # FileExtensionsSettings Class
 Configures the filtering of file extensions in requests.  

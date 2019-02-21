@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.SelectStreamsCompleted
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestInfo.SelectStreamsCompleted Event
@@ -38,7 +37,7 @@ Event activated when a [SelectStreamsAsync](segmentinfo-selectstreamsasync-metho
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Event SelectStreamsCompleted As EventHandler(Of StreamUpdatedListEventArgs)
@@ -50,11 +49,11 @@ Dim handler As EventHandler(Of StreamUpdatedListEventArgs)
 AddHandler instance.SelectStreamsCompleted, handler
 ```
 
-``` csharp
+```csharp
 public event EventHandler<StreamUpdatedListEventArgs> SelectStreamsCompleted
 ```
 
-``` c++
+```cpp
 public:
  event EventHandler<StreamUpdatedListEventArgs^>^ SelectStreamsCompleted {
     void add (EventHandler<StreamUpdatedListEventArgs^>^ value);
@@ -67,7 +66,7 @@ member SelectStreamsCompleted : <EventHandler<StreamUpdatedListEventArgs>,
     StreamUpdatedListEventArgs>
 ```
 
-``` jscript
+```jscript
 JScript supports the use of events, but not the declaration of new ones.
 ```
 
@@ -77,17 +76,17 @@ By convention, the list of [StreamUpdatedEventArgs](streamupdatedeventargs-class
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

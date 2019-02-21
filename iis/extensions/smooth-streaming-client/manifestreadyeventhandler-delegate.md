@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,7 +20,7 @@ The actual handler for the manifest ready event.
 
 ## Syntax
 
-``` csharp
+```csharp
 [GuidAttribute(, , , , , , , , , , )]
 [VersionAttribute()]
 public delegate void ManifestReadyEventHandler(
@@ -29,7 +29,7 @@ ManifestReadyEventArgs args
 )
 ```
 
-``` c++
+```cpp
 [GuidAttribute(, , , , , , , , , , )]
 [VersionAttribute()]
 public delegate void ManifestReadyEventHandler(
@@ -38,7 +38,7 @@ public delegate void ManifestReadyEventHandler(
 )
 ```
 
-``` jscript
+```jscript
 ```
 
 ## Parameters

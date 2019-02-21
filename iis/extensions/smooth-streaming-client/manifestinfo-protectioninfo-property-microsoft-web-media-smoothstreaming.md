@@ -1,5 +1,5 @@
 ---
-title: ManifestInfo.ProtectionInfo Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ManifestInfo.ProtectionInfo Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionInfo Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ProtectionInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.manifestinfo.protectioninfo(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ProtectionInfo
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.set_ProtectionInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ProtectionInfo Property
@@ -39,7 +38,7 @@ Contains information specified in the protection element inside the manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ProtectionInfo As ProtectionInfo
@@ -51,11 +50,11 @@ Dim value As ProtectionInfo
 value = instance.ProtectionInfo
 ```
 
-``` csharp
+```csharp
   public ProtectionInfo ProtectionInfo { get; internal set; }
 ```
 
-``` c++
+```cpp
   public:
 property ProtectionInfo^ ProtectionInfo {
     ProtectionInfo^ get ();
@@ -63,33 +62,33 @@ property ProtectionInfo^ ProtectionInfo {
 }
 ```
 
-``` jscript
+```jscript
   function get ProtectionInfo () : ProtectionInfo
 internal function set ProtectionInfo (value : ProtectionInfo)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .ProtectionInfo](protectioninfo-class-microsoft-web-media-smoothstreaming_1.md)  
+Type: [Microsoft.Web.Media.SmoothStreaming.ProtectionInfo](protectioninfo-class-microsoft-web-media-smoothstreaming_1.md)  
 A [ProtectionInfo](protectioninfo-class-microsoft-web-media-smoothstreaming_1.md) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

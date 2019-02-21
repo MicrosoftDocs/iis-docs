@@ -1,15 +1,7 @@
 ---
-title: "Listener Adapter Exported Functions | Microsoft Docs"
-ms.custom: ""
+title: "Listener Adapter Exported Functions"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c2c81031-af41-499f-a3cb-55dc15fce614
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Listener Adapter Exported Functions
 This section describes the listener adapter exported functions that control the listener channel.  

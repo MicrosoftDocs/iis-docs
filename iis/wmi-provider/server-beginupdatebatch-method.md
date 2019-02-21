@@ -1,15 +1,7 @@
 ---
-title: "Server.BeginUpdateBatch Method | Microsoft Docs"
-ms.custom: ""
+title: "Server.BeginUpdateBatch Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6a748c8c-c7a4-4adc-846b-5388f8064b2f
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Server.BeginUpdateBatch Method
 Begins a batch of configuration changes for the specified path.  
@@ -24,7 +16,7 @@ oServer.BeginUpdateBatch
 oServer.BeginUpdateBatch();  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  

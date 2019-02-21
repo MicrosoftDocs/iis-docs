@@ -1,15 +1,7 @@
 ---
-title: "Site.Stop Method1 | Microsoft Docs"
-ms.custom: ""
+title: "Site.Stop Method1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3364b705-8777-3927-4016-d35a36d3c433
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Site.Stop Method1
 Stops a currently running Web site.  
@@ -24,7 +16,7 @@ oSite.Stop
 oSite.Stop();  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

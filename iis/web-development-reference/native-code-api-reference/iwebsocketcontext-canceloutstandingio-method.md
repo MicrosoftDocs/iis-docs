@@ -1,15 +1,7 @@
 ---
-title: "IWebSocketContext::CancelOutstandingIO Method | Microsoft Docs"
-ms.custom: ""
+title: "IWebSocketContext::CancelOutstandingIO Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 58b1a23e-2e46-4fa0-844e-80a04ac3d206
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWebSocketContext::CancelOutstandingIO Method
 Cancels all remaining input or output operations.  
@@ -22,7 +14,7 @@ virtual VOID CancelOutstandingIO(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

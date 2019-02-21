@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElement::GetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElement::GetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 49d70180-8cb5-d22e-1ca7-14ab7ffe2edf
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElement::GetMetadata Method
 Gets metadata values from the current element.  
@@ -25,7 +17,7 @@ HRESULT GetMetadata(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being requested.  
   

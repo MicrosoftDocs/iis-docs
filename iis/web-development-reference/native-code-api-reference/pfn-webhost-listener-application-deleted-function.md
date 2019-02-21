@@ -1,15 +1,7 @@
 ---
-title: "PFN_WEBHOST_LISTENER_APPLICATION_DELETED Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_WEBHOST_LISTENER_APPLICATION_DELETED Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 48bb404c-cee5-574f-652f-068666f12571
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_DELETED Function
 Notifies the listener adapter that the application is no longer active for a protocol.  
@@ -23,7 +15,7 @@ typedef VOID(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
   

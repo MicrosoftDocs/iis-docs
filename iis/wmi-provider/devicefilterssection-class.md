@@ -1,15 +1,7 @@
 ---
-title: "DeviceFiltersSection Class | Microsoft Docs"
-ms.custom: ""
+title: "DeviceFiltersSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a41f7d6b-39f7-5662-0cdb-1498ceaf95e9
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DeviceFiltersSection Class
 Represents a collection of device filters that determine mobile device types or mobile browser capabilities.  

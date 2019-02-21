@@ -1,5 +1,5 @@
 ---
-title: TaskDetails.TaskIndex Property  (Microsoft.Web.Media.TransformManager)
+title: TaskDetails.TaskIndex Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskIndex Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDetails.TaskIndex
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdetails.taskindex(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskDetails.get_TaskIndex
 - Microsoft.Web.Media.TransformManager.TaskDetails.set_TaskIndex
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskIndex Property
@@ -40,7 +39,7 @@ Gets or sets the index of a task.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property TaskIndex As Integer
@@ -56,11 +55,11 @@ value = instance.TaskIndex
 instance.TaskIndex = value
 ```
 
-``` csharp
+```csharp
   public int TaskIndex { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property int TaskIndex {
     int get ();
@@ -72,19 +71,19 @@ property int TaskIndex {
   member TaskIndex : int with get, set
 ```
 
-``` jscript
+```jscript
   function get TaskIndex () : int
 function set TaskIndex (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The index of a task.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskDetails Structure](taskdetails-structure-microsoft-web-media-transformmanager.md)
 

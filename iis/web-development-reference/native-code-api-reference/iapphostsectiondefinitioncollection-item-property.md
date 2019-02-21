@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionDefinitionCollection::Item Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionDefinitionCollection::Item Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d472d5bd-168a-b3d4-f4e8-7a68bf4b1086
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionDefinitionCollection::Item Property
 Gets the configuration section definition at the requested index from the current collection.  
@@ -24,7 +16,7 @@ HRESULT get_Item(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `varIndex`  
  A `VARIANT` that contains the index of the requested configuration section definition.  
   

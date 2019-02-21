@@ -160,7 +160,7 @@ The following software must be installed to develop applications using Smooth St
 
 Smooth Streaming Client content for developers is available on [MSDN](https://go.microsoft.com/?linkid=9735132).
 
-For more information on the streaming formats, client SDKs, and player formats used to develop Media Services client applications, see [Developing Windows Azure Media Services Client Applications](https://msdn.microsoft.com/en-us/library/dn223283.aspx).
+For more information on the streaming formats, client SDKs, and player formats used to develop Media Services client applications, see [Developing Windows Azure Media Services Client Applications](https://msdn.microsoft.com/library/dn223283.aspx).
 
 For more information about Windows Phone development, see the [Windows Phone App Hub](https://go.microsoft.com/?linkid=9745653).
 

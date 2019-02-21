@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetLogLevel Method (String)
@@ -34,7 +33,7 @@ Returns a value that specifies the level of detail for a log.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Function GetLogLevel ( _
@@ -48,13 +47,13 @@ Dim returnValue As LogLevel
 returnValue = LogLevelHelper.GetLogLevel(level)
 ```
 
-``` csharp
+```csharp
   public static LogLevel GetLogLevel(
     string level
 )
 ```
 
-``` c++
+```cpp
   public:
 static LogLevel GetLogLevel(
     String^ level
@@ -66,26 +65,26 @@ static LogLevel GetLogLevel(
         level:string -> LogLevel 
 ```
 
-``` jscript
+```jscript
   public static function GetLogLevel(
     level : String
 ) : LogLevel
 ```
 
-#### Parameters
+### Parameters
 
   - level  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The type of logging detail to write to the log file.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
 The level of detail for a log.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [LogLevelHelper Class](loglevelhelper-class-microsoft-web-media-transformmanager.md)
 

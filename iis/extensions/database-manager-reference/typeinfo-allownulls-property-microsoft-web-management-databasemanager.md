@@ -1,5 +1,5 @@
 ---
-title: TypeInfo.AllowNulls Property  (Microsoft.Web.Management.DatabaseManager)
+title: TypeInfo.AllowNulls Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: AllowNulls Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.AllowNulls
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.allownulls(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_AllowNulls
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_AllowNulls
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.AllowNulls Property
@@ -39,7 +38,7 @@ Gets or sets a value that indicates whether the data type supports nulla null re
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property AllowNulls As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.AllowNulls
 instance.AllowNulls = value
 ```
 
-``` csharp
+```csharp
 public bool AllowNulls { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool AllowNulls {
     bool get ();
@@ -63,21 +62,21 @@ property bool AllowNulls {
 }
 ```
 
-``` jscript
+```jscript
 function get AllowNulls () : boolean
 function set AllowNulls (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the data type supports nulla null reference (Nothing in Visual Basic) values; otherwise, false.  
 
 ## Examples
 
 The following code sample illustrates an example GetServerTypes method that returns a list of database types for an OLEDB provider.
 
-``` vb
+```vb
 
     Public Overrides Function GetServerTypes( _
             ByVal connectionString As String) _
@@ -217,7 +216,7 @@ The following code sample illustrates an example GetServerTypes method that retu
 
 ```
 
-``` csharp
+```csharp
 
         public override ICollection<TypeInfo> GetServerTypes(
             string connectionString )
@@ -358,11 +357,11 @@ The following code sample illustrates an example GetServerTypes method that retu
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 

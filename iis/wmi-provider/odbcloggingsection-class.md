@@ -1,15 +1,7 @@
 ---
-title: "OdbcLoggingSection Class1 | Microsoft Docs"
-ms.custom: ""
+title: "OdbcLoggingSection Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0969e9a7-d1f5-58a6-f045-14e4ed271880
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # OdbcLoggingSection Class1
 Specifies configuration settings for logging IIS events to a database through an Open Database Connectivity (ODBC) connection.  

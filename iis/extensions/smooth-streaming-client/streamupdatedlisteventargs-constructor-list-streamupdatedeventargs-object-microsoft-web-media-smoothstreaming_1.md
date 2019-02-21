@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamUpdatedListEventArgs Constructor (List\<StreamUpdatedEventArgs\>, Object)
@@ -34,7 +33,7 @@ Initializes a new instance of the [StreamUpdatedListEventArgs](streamupdatedlist
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -50,14 +49,14 @@ Dim instance As New StreamUpdatedListEventArgs(streamUpdatedEvents, _
     userState)
 ```
 
-``` csharp
+```csharp
 public StreamUpdatedListEventArgs(
     List<StreamUpdatedEventArgs> streamUpdatedEvents,
     Object userState
 )
 ```
 
-``` c++
+```cpp
 public:
 StreamUpdatedListEventArgs(
     List<StreamUpdatedEventArgs^>^ streamUpdatedEvents, 
@@ -71,38 +70,38 @@ new :
         userState:Object -> StreamUpdatedListEventArgs
 ```
 
-``` jscript
+```jscript
 public function StreamUpdatedListEventArgs(
     streamUpdatedEvents : List<StreamUpdatedEventArgs>, 
     userState : Object
 )
 ```
 
-#### Parameters
+### Parameters
 
   - streamUpdatedEvents  
-    Type: [System.Collections.Generic.List](https://msdn.microsoft.com/en-us/library/6sh2ey19\(v=vs.95\))\<[StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md)\>  
+    Type: [System.Collections.Generic.List](https://msdn.microsoft.com/library/6sh2ey19\(v=vs.95\))\<[StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md)\>  
     A [StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md) object.
 
 <!-- end list -->
 
   - userState  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
-    Use defined state [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\)).
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
+    Use defined state [Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\)).
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamUpdatedListEventArgs Class](streamupdatedlisteventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

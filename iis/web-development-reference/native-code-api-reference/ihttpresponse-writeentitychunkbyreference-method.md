@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::WriteEntityChunkByReference Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::WriteEntityChunkByReference Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8cc3aefe-5f9e-9ae3-2e8a-b033aff39687
-caps.latest.revision: 28
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::WriteEntityChunkByReference Method
 Inserts or appends an [HTTP_DATA_CHUNK](http://go.microsoft.com/fwlink/?LinkId=56011) structure into the response body.  
@@ -23,7 +15,7 @@ HRESULT WriteEntityChunkByReference(
 )  
 ```  
   
-#### Parameters  
+### Parameters  
  `pDataChunk`  
  [IN] A pointer to an `HTTP_DATA_CHUNK` structure.  
   

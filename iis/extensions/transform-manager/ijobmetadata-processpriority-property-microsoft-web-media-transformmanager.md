@@ -1,5 +1,5 @@
 ---
-title: IJobMetadata.ProcessPriority Property  (Microsoft.Web.Media.TransformManager)
+title: IJobMetadata.ProcessPriority Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ProcessPriority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.ProcessPriority
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.ijobmetadata.processpriority(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IJobMetadata.get_ProcessPriority
 - Microsoft.Web.Media.TransformManager.IJobMetadata.ProcessPriority
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ProcessPriority Property
@@ -36,7 +35,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   ReadOnly Property ProcessPriority As ProcessPriorityClass
@@ -49,11 +48,11 @@ Dim value As ProcessPriorityClass
 value = instance.ProcessPriority
 ```
 
-``` csharp
+```csharp
   ProcessPriorityClass ProcessPriority { get; }
 ```
 
-``` c++
+```cpp
   property ProcessPriorityClass ProcessPriority {
     ProcessPriorityClass get ();
 }
@@ -63,17 +62,17 @@ value = instance.ProcessPriority
   abstract ProcessPriority : ProcessPriorityClass
 ```
 
-``` jscript
+```jscript
   function get ProcessPriority () : ProcessPriorityClass
 ```
 
-#### Property Value
+### Property Value
 
 Type: ProcessPriorityClass  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IJobMetadata Interface](ijobmetadata-interface-microsoft-web-media-transformmanager.md)
 

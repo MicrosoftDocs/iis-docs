@@ -1,15 +1,7 @@
 ---
-title: "ConfigurationSectionWithCollection.Get Method | Microsoft Docs"
-ms.custom: ""
+title: "ConfigurationSectionWithCollection.Get Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 76e3b93f-8701-4c83-aa0c-08a662bcb258
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigurationSectionWithCollection.Get Method
 Retrieves the specified member of a collection from a configuration section.  
@@ -30,7 +22,7 @@ ElementIdentifier,
 CollectionElement  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  

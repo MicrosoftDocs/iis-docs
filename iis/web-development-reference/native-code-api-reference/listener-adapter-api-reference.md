@@ -1,15 +1,7 @@
 ---
-title: "Listener Adapter API Reference | Microsoft Docs"
-ms.custom: ""
+title: "Listener Adapter API Reference"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 86bae60a-46b2-ceea-0606-bea86572c49e
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Listener Adapter API Reference
 Listener adapters allow listeners to connect to the Windows Process Activation Service (WAS). This allows the listeners to get configuration information about applications and namespaces they monitor. Listener adapters also notify the Windows Process Activation Service about incoming messages for applications that have not connected to a worker process.  

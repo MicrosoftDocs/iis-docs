@@ -26,13 +26,13 @@ To use IIS Advanced Logging, you have to install the feature and configure IIS t
 
 To use IIS Advanced Logging, create a reference to the [Microsoft.Web.Media.Diagnostics](microsoft-web-media-diagnostics-namespace_1.md) assembly as shown in the following example:
 
-``` csharp
+```csharp
 using Microsoft.Web.Media.Diagnostics;
 ```
 
 You can initialize client logging when the Silverlight page loads as shown in the following example. The [ApplicationLogUrls](advancedloggingplugin-applicationlogurls-property-microsoft-web-media-diagnostics_1.md) property can contain several URLs; if it does, logging data will be sent to each of the URLs.
 
-``` csharp
+```csharp
     void MainPage_Loaded(object sender, RoutedEventArgs e)
     {
         // Initialize IIS Advanced Logging.
@@ -180,7 +180,7 @@ The content of the fields.xml file is as follows. Change the value of the applic
 
 ## See Also
 
-#### Other Resources
+### Other Resources
 
 [Advanced Logging for IIS 7 - Client Logging](http://go.microsoft.com/fwlink/?linkid=230676)
 

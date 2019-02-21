@@ -1,5 +1,5 @@
 ---
-title: ConfigurationBase.LogLevel Property  (Microsoft.Web.Media.TransformManager)
+title: ConfigurationBase.LogLevel Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogLevel Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.LogLevel
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.loglevel(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.LogLevel
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.get_LogLevel
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LogLevel Property
@@ -40,7 +39,7 @@ Gets or sets a value that represents the level of detail for a log that is conta
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property LogLevel As LogLevel
@@ -56,12 +55,12 @@ value = instance.LogLevel
 instance.LogLevel = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public LogLevel LogLevel { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property LogLevel LogLevel {
@@ -75,14 +74,14 @@ property LogLevel LogLevel {
 member LogLevel : LogLevel with get, set
 ```
 
-``` jscript
+```jscript
   function get LogLevel () : LogLevel
 function set LogLevel (value : LogLevel)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
 The level of detail for a log.  
 
 ## Remarks
@@ -91,7 +90,7 @@ Configuration is a composite model. Job definitions contain scheduler objects an
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

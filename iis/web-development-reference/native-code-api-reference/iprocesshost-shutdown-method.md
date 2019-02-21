@@ -1,15 +1,7 @@
 ---
-title: "IProcessHost::Shutdown Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHost::Shutdown Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ed5720ca-5927-4117-c287-ba5cdac43340
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHost::Shutdown Method
 Sends a request to terminate all applications in an application domain.  
@@ -21,7 +13,7 @@ virtual HRESULT __stdcall Shutdown(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

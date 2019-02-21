@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MediaOpened
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # MediaOpened Event
@@ -37,7 +36,7 @@ Occurs when the media stream has been validated and opened and the file headers 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Event MediaOpened As RoutedEventHandler
@@ -49,11 +48,11 @@ Dim handler As RoutedEventHandler
 AddHandler instance.MediaOpened, handler
 ```
 
-``` csharp
+```csharp
   public event RoutedEventHandler MediaOpened
 ```
 
-``` c++
+```cpp
   public:
  event RoutedEventHandler^ MediaOpened {
     void add (RoutedEventHandler^ value);
@@ -61,7 +60,7 @@ AddHandler instance.MediaOpened, handler
 }
 ```
 
-``` jscript
+```jscript
   JScript does not support events.
 ```
 
@@ -73,21 +72,21 @@ For more information, see [Events (IIS Smooth Streaming)](events.md) and [Timeli
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

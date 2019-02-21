@@ -1,15 +1,7 @@
 ---
-title: "Site.RevertToParent Method1 | Microsoft Docs"
-ms.custom: ""
+title: "Site.RevertToParent Method1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8bf5c02f-2b11-458a-830a-4cb6d255a4d5
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Site.RevertToParent Method1
 Reverts a Web site configuration value or values to the default.  
@@ -24,7 +16,7 @@ Site.RevertToParent(PropertyName)
 Site.RevertToParent(PropertyName);  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  

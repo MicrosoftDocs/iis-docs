@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,20 +20,20 @@ Gets the source manager singleton.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 [GuidAttribute(, , , , , , , , , , )]
 public interface IAdaptiveSourceManagerStatics
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 [GuidAttribute(, , , , , , , , , , )]
 
 public interface class IAdaptiveSourceManagerStatics
 ```
 
-``` jscript
+```jscript
 public interface IAdaptiveSourceManagerStatics
 ```
 

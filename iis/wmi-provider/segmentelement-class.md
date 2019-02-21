@@ -1,15 +1,7 @@
 ---
-title: "SegmentElement Class | Microsoft Docs"
-ms.custom: ""
+title: "SegmentElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cf01de87-faab-2713-2b85-8d18629dd664
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SegmentElement Class
 Specifies a URL segment whose content will not be served to the client.  

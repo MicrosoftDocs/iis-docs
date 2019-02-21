@@ -1,15 +1,7 @@
 ---
-title: "IReadEntityProvider::GetEntity Method | Microsoft Docs"
-ms.custom: ""
+title: "IReadEntityProvider::GetEntity Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 84b5367c-ad22-9637-1ced-7500c0a952a8
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IReadEntityProvider::GetEntity Method
 Retrieves the request entity.  
@@ -24,7 +16,7 @@ virtual VOID GetEntity(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppBuffer`  
  A pointer to a void buffer that contains the request entity.  
   

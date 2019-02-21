@@ -1,15 +1,7 @@
 ---
-title: "HTTP_TRACE_EVENT_ITEM Structure | Microsoft Docs"
-ms.custom: ""
+title: "HTTP_TRACE_EVENT_ITEM Structure"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bed30d06-6c7c-34e9-2a31-8f9044a3445c
-caps.latest.revision: 30
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HTTP_TRACE_EVENT_ITEM Structure
 Contains itemized tracing information returned from trace providers.  

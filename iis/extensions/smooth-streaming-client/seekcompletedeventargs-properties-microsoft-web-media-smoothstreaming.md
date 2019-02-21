@@ -20,11 +20,9 @@ The [SeekCompletedEventArgs](seekcompletedeventargs-class-microsoft-web-media-sm
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Success](seekcompletedeventargs-success-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Success](seekcompletedeventargs-success-property-microsoft-web-media-smoothstreaming_1.md) property to indicate that the seek operation is successful.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [SeekCompletedEventArgs Class](seekcompletedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

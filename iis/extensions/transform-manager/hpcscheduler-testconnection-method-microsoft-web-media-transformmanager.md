@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.HpcScheduler.TestConnection
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TestConnection Method
@@ -36,7 +35,7 @@ Tests connectivity of the IIS Transform Manager service to the [HpcScheduler](hp
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub TestConnection ( _
@@ -50,13 +49,13 @@ Dim connectionObject As Object
 instance.TestConnection(connectionObject)
 ```
 
-``` csharp
+```csharp
   public void TestConnection(
     Object connectionObject
 )
 ```
 
-``` c++
+```cpp
   public:
 void TestConnection(
     Object^ connectionObject
@@ -68,21 +67,21 @@ void TestConnection(
         connectionObject:Object -> unit 
 ```
 
-``` jscript
+```jscript
   public function TestConnection(
     connectionObject : Object
 )
 ```
 
-#### Parameters
+### Parameters
 
   - connectionObject  
-    Type: [System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
     An object that contains connection details.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [HpcScheduler Class](hpcscheduler-class-microsoft-web-media-transformmanager.md)
 

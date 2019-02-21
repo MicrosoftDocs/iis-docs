@@ -1,15 +1,7 @@
 ---
-title: "SystemWebDeploymentSection Class | Microsoft Docs"
-ms.custom: ""
+title: "SystemWebDeploymentSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0a6fec4d-62c5-1a87-f0e3-50d8134e7179
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SystemWebDeploymentSection Class
 Defines configuration settings that support the deployment of a Web application.  

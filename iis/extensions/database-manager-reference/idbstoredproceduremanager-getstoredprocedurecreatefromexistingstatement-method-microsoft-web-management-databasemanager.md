@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedureCreateFromExistingStatement
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbStoredProcedureManager.GetStoredProcedureCreateFromExistingStatement Method
@@ -35,7 +34,7 @@ Returns the CREATE PROCEDURE definition for a new stored procedure that is based
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Function GetStoredProcedureCreateFromExistingStatement ( _
     connectionString As String, _
@@ -53,7 +52,7 @@ returnValue = instance.GetStoredProcedureCreateFromExistingStatement(connectionS
     schema, storedProcedureName)
 ```
 
-``` csharp
+```csharp
 Query GetStoredProcedureCreateFromExistingStatement(
     string connectionString,
     string schema,
@@ -61,7 +60,7 @@ Query GetStoredProcedureCreateFromExistingStatement(
 )
 ```
 
-``` c++
+```cpp
 Query^ GetStoredProcedureCreateFromExistingStatement(
     String^ connectionString, 
     String^ schema, 
@@ -69,7 +68,7 @@ Query^ GetStoredProcedureCreateFromExistingStatement(
 )
 ```
 
-``` jscript
+```jscript
 function GetStoredProcedureCreateFromExistingStatement(
     connectionString : String, 
     schema : String, 
@@ -77,24 +76,24 @@ function GetStoredProcedureCreateFromExistingStatement(
 ) : Query
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
 <!-- end list -->
 
   - schema  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 
 <!-- end list -->
 
   - storedProcedureName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the existing stored procedure.  
 
-#### Return Value
+### Return Value
 
 Type: [Microsoft.Web.Management.DatabaseManager.Query](query-class-microsoft-web-management-databasemanager.md)  
 A [Query](query-class-microsoft-web-management-databasemanager.md) object that contains the CREATE PROCEDURE definition for a new stored procedure.  
@@ -105,7 +104,7 @@ All database providers that implement the [IDbStoredProcedureManager](idbstoredp
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider does not support creating stored procedures, you can use the following code sample to raise a not-implemented exception:
 
@@ -124,11 +123,11 @@ public Query GetStoredProcedureCreateFromExistingStatement(string connectionStri
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbStoredProcedureManager Interface](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md)
 

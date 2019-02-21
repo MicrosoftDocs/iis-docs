@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::DispenseContainer Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::DispenseContainer Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6ba8224a-bd99-15b8-2025-64ea4b1578b0
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::DispenseContainer Method
 Returns a context container that may be dispensed.  
@@ -22,7 +14,7 @@ virtual IDispensedHttpModuleContextContainer* DispenseContainer(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

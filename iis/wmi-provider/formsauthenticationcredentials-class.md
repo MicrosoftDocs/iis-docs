@@ -1,15 +1,7 @@
 ---
-title: "FormsAuthenticationCredentials Class | Microsoft Docs"
-ms.custom: ""
+title: "FormsAuthenticationCredentials Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: da1e5777-c6cf-3de0-12cd-e02e1f24150a
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # FormsAuthenticationCredentials Class
 Configures user credentials for [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] applications that use Forms authentication.  
@@ -60,7 +52,7 @@ class FormsAuthenticationCredentials : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.FormsAuthPasswordFormat](/dotnet/api/system.web.configuration.formsauthpasswordformat?view=netframework-4.7.2)
+ [System.Web.Configuration.FormsAuthPasswordFormat](/dotnet/api/system.web.configuration.formsauthpasswordformat)
  [ClientCertificateMappingAuthenticationSection Class](../wmi-provider/clientcertificatemappingauthenticationsection-class.md)   
  [DigestAuthenticationSection Class](../wmi-provider/digestauthenticationsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   

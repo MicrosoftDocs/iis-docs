@@ -1,5 +1,5 @@
 ---
-title: IisNamespaces.JobSchedulerNamespace Property  (Microsoft.Web.Media.TransformManager)
+title: IisNamespaces.JobSchedulerNamespace Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobSchedulerNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.JobSchedulerNamespace
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.jobschedulernamespace(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_JobSchedulerNamespace
 - Microsoft.Web.Media.TransformManager.IisNamespaces.JobSchedulerNamespace
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobSchedulerNamespace Property
@@ -38,7 +37,7 @@ Gets the URI of a media services schema document that is related to job schedule
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared ReadOnly Property JobSchedulerNamespace As XNamespace
@@ -50,11 +49,11 @@ Gets the URI of a media services schema document that is related to job schedule
 value = IisNamespaces.JobSchedulerNamespace
 ```
 
-``` csharp
+```csharp
   public static XNamespace JobSchedulerNamespace { get; }
 ```
 
-``` c++
+```cpp
   public:
 static property XNamespace^ JobSchedulerNamespace {
     XNamespace^ get ();
@@ -65,18 +64,18 @@ static property XNamespace^ JobSchedulerNamespace {
   static member JobSchedulerNamespace : XNamespace
 ```
 
-``` jscript
+```jscript
   static function get JobSchedulerNamespace () : XNamespace
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XNamespace](https://msdn.microsoft.com/en-us/library/bb291898\(v=vs.90\))  
+Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
 The XML namespace value "http://schemas.microsoft.com/iis/media/v4/TM/JobScheduler\#".  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IisNamespaces Class](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 

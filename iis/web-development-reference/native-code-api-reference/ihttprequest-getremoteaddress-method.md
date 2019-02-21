@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::GetRemoteAddress Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::GetRemoteAddress Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 72b4d03f-3199-a3fd-008e-e5c819d26e15
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::GetRemoteAddress Method
 Returns the remote address of the client's interface for the current request.  
@@ -22,7 +14,7 @@ virtual PSOCKADDR GetRemoteAddress(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

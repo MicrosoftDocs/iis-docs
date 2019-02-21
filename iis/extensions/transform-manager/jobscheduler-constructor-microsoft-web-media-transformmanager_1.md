@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobScheduler Constructor
@@ -34,7 +33,7 @@ Initializes a new instance of the [JobScheduler](jobscheduler-class-microsoft-we
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New
@@ -43,11 +42,11 @@ Initializes a new instance of the [JobScheduler](jobscheduler-class-microsoft-we
 Dim instance As New JobScheduler()
 ```
 
-``` csharp
+```csharp
   public JobScheduler()
 ```
 
-``` c++
+```cpp
   public:
 JobScheduler()
 ```
@@ -56,13 +55,13 @@ JobScheduler()
   new : unit -> JobScheduler
 ```
 
-``` jscript
+```jscript
   public function JobScheduler()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobScheduler Class](jobscheduler-class-microsoft-web-media-transformmanager.md)
 

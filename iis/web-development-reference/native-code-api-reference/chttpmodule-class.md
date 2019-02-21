@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule Class | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d2cd5a3e-e7a4-5706-5441-9190228d36b0
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule Class
 Defines the base class for request-level HTTP modules.  

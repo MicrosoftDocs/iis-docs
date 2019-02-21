@@ -1,15 +1,7 @@
 ---
-title: "TransactionsDefaultSettingsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "TransactionsDefaultSettingsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3fed9528-f632-d270-6196-3b37bb64ca08
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TransactionsDefaultSettingsSection Class
 Contains default settings for transactions.  

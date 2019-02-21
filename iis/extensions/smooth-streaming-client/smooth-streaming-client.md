@@ -23,7 +23,7 @@ The following table lists the references that describe and demonstrate Smooth St
 
 ## See Also
 
-#### Other Resources
+### Other Resources
 
 [IIS Smooth Streaming Client](http://go.microsoft.com/fwlink/?linkid=247904)
 

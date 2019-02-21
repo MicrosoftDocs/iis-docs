@@ -1,15 +1,7 @@
 ---
-title: "IHttpModuleRegistrationInfo::GetId Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpModuleRegistrationInfo::GetId Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3b6e7b30-e480-8d34-8f75-196430e3951e
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpModuleRegistrationInfo::GetId Method
 Returns the unique identifier for the registered module.  
@@ -22,7 +14,7 @@ virtual HTTP_MODULE_ID GetId(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

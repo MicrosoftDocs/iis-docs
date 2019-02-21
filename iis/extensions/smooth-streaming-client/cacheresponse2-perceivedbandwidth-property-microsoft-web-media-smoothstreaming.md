@@ -1,5 +1,5 @@
 ---
-title: CacheResponse2.PerceivedBandwidth Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse2.PerceivedBandwidth Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: PerceivedBandwidth Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse2.PerceivedBandwidth
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse2.perceivedbandwidth(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse2.PerceivedBandwidth
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse2.get_PerceivedBandwidth
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse2.PerceivedBandwidth Property
@@ -40,7 +39,7 @@ Gets or sets the perceived bandwidth while downloading individual media chunks.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property PerceivedBandwidth As Double
@@ -56,11 +55,11 @@ value = instance.PerceivedBandwidth
 instance.PerceivedBandwidth = value
 ```
 
-``` csharp
+```csharp
 public double PerceivedBandwidth { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property double PerceivedBandwidth {
     double get ();
@@ -72,25 +71,25 @@ property double PerceivedBandwidth {
 member PerceivedBandwidth : float with get, set
 ```
 
-``` jscript
+```jscript
 function get PerceivedBandwidth () : double
 function set PerceivedBandwidth (value : double)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Double](https://msdn.microsoft.com/en-us/library/643eft0t\(v=vs.95\))  
+Type: [System.Double](https://msdn.microsoft.com/library/643eft0t\(v=vs.95\))  
 The bandwidth in bytes per second.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse2 Class](cacheresponse2-class-microsoft-web-media-smoothstreaming.md)
 

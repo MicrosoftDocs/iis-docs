@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,23 +20,23 @@ Gets the URL template.
 
 ## Syntax
 
-``` csharp
+```csharp
 string Url { get; }
 ```
 
-``` c++
+```cpp
 property String^ Url {
 String^ get ();
 }
 ```
 
-``` jscript
+```jscript
 function get Url () : String
 ```
 
 ## Property Value
 
-Type: [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\)).
+Type: [String](https://msdn.microsoft.com/library/s1wwdcbf).
 
 ## Requirements
 

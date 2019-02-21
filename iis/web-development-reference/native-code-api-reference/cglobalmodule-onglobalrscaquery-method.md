@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalRSCAQuery Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalRSCAQuery Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6487da24-9a75-3a63-a9af-5f3842d7a5ff
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalRSCAQuery Method
 Represents the method that will handle a `GlobalRSCAQuery` event, which occurs when a Run-Time Status and Control query is executed.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalRSCAQuery(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProvider`  
  [IN] A pointer to an [IGlobalRscaQueryProvider](../../web-development-reference\native-code-api-reference/iglobalrscaqueryprovider-interface.md) interface.  
   

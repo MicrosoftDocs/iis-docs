@@ -1,15 +1,7 @@
 ---
-title: "INamedContextContainer::SetNamedContext | Microsoft Docs"
-ms.custom: ""
+title: "INamedContextContainer::SetNamedContext"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f9227def-2aa6-4f5b-a83c-0c6713fc52cf
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # INamedContextContainer::SetNamedContext
 Binds stored context with a specified name.  
@@ -23,7 +15,7 @@ virtual HRESULT SetNamedContext(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppStoredContext`  
  [IN] Points to the stored context to be named.  
   

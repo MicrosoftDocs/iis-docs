@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Dispose Method (Boolean)
@@ -34,7 +33,7 @@ Disposes task resources and optionally releases the managed resources.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Protected Overridable Sub Dispose ( _
@@ -47,13 +46,13 @@ Disposes task resources and optionally releases the managed resources.
 Me.Dispose(disposing)
 ```
 
-``` csharp
+```csharp
   protected virtual void Dispose(
     bool disposing
 )
 ```
 
-``` c++
+```cpp
   protected:
 virtual void Dispose(
     bool disposing
@@ -67,21 +66,21 @@ override Dispose :
         disposing:bool -> unit 
 ```
 
-``` jscript
+```jscript
   protected function Dispose(
     disposing : boolean
 )
 ```
 
-#### Parameters
+### Parameters
 
   - disposing  
-    Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
     true to release both managed and unmanaged resources; false to release only unmanaged resources.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskStatus Class](taskstatus-class-microsoft-web-media-transformmanager.md)
 

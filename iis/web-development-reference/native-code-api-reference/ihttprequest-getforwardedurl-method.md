@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::GetForwardedUrl Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::GetForwardedUrl Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 610c7fcd-5354-9021-d7a7-f8543c916143
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::GetForwardedUrl Method
 Returns the forwarded URL.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetForwardedUrl(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

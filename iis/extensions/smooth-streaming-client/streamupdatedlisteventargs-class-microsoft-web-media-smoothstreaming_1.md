@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamUpdatedListEventArgs Class
@@ -33,9 +32,9 @@ A list of [StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-me
 
 ## Inheritance Hierarchy
 
- [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
-  [System.EventArgs](https://msdn.microsoft.com/en-us/library/118wxtk3\(v=vs.95\))  
-    [System.ComponentModel.AsyncCompletedEventArgs](https://msdn.microsoft.com/en-us/library/2tde67e9\(v=vs.95\))  
+ [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
+  [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3\(v=vs.95\))  
+    [System.ComponentModel.AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9\(v=vs.95\))  
       Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs  
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
@@ -43,7 +42,7 @@ A list of [StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-me
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Class StreamUpdatedListEventArgs _
@@ -53,11 +52,11 @@ Public Class StreamUpdatedListEventArgs _
 Dim instance As StreamUpdatedListEventArgs
 ```
 
-``` csharp
+```csharp
 public class StreamUpdatedListEventArgs : AsyncCompletedEventArgs
 ```
 
-``` c++
+```cpp
 public ref class StreamUpdatedListEventArgs : public AsyncCompletedEventArgs
 ```
 
@@ -68,7 +67,7 @@ type StreamUpdatedListEventArgs =
     end
 ```
 
-``` jscript
+```jscript
 public class StreamUpdatedListEventArgs extends AsyncCompletedEventArgs
 ```
 
@@ -82,33 +81,27 @@ The StreamUpdatedListEventArgs type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[StreamUpdatedListEventArgs(List<StreamUpdatedEventArgs>, Object)](streamupdatedlisteventargs-constructor-list-streamupdatedeventargs-object-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the StreamUpdatedListEventArgs class.|
 
 
-Top
-
 ## Properties
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Cancelled](https://msdn.microsoft.com/en-us/library/hhb0kte8(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/en-us/library/2tde67e9(v=vs.95)).)|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Error](https://msdn.microsoft.com/en-us/library/zye0z486(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/en-us/library/2tde67e9(v=vs.95)).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Cancelled](https://msdn.microsoft.com/library/hhb0kte8(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9(v=vs.95)).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Error](https://msdn.microsoft.com/library/zye0z486(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9(v=vs.95)).)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[StreamUpdatedEvents](streamupdatedlisteventargs-streamupdatedevents-property-microsoft-web-media-smoothstreaming_1.md)|Gets the list of stream updated events.|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[UserState](https://msdn.microsoft.com/en-us/library/9b3wa0x3(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/en-us/library/2tde67e9(v=vs.95)).)|
-
-Top
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[UserState](https://msdn.microsoft.com/library/9b3wa0x3(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9(v=vs.95)).)|
 
 ## Methods
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Equals](https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Finalize](https://msdn.microsoft.com/en-us/library/4k87zsw7(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[GetHashCode](https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[GetType](https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[MemberwiseClone](https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[RaiseExceptionIfNecessary](https://msdn.microsoft.com/en-us/library/69w1sf5e(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/en-us/library/2tde67e9(v=vs.95)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ToString](https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Equals](https://msdn.microsoft.com/library/bsc2ak47(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[GetHashCode](https://msdn.microsoft.com/library/zdee4b3y(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[GetType](https://msdn.microsoft.com/library/dfwy45w9(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[RaiseExceptionIfNecessary](https://msdn.microsoft.com/library/69w1sf5e(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 
-
-Top
 
 ## Remarks
 
@@ -116,11 +109,11 @@ A single notification can convey a number of stream updates.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
@@ -130,7 +123,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "ProvidersSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "ProvidersSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b333c163-5099-493a-b4ac-da50c029fd55
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ProvidersSettings Class
 Specifies managed providers that manage membership or roles for an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application, or encrypt and decrypt configuration data.  

@@ -1,15 +1,7 @@
 ---
-title: "IMapHandlerProvider::SetScriptMap Method | Microsoft Docs"
-ms.custom: ""
+title: "IMapHandlerProvider::SetScriptMap Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f1fde288-284d-7035-201c-fb3c508b0213
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IMapHandlerProvider::SetScriptMap Method
 Specifies which [IScriptMapInfo](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md) interface to use for the current context.  
@@ -22,7 +14,7 @@ virtual VOID SetScriptMap(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pScriptMap`  
  A pointer to an [IScriptMapInfo](../../web-development-reference\native-code-api-reference/iscriptmapinfo-interface.md) interface.  
   

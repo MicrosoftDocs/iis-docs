@@ -1,15 +1,7 @@
 ---
-title: "SmtpNetworkSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "SmtpNetworkSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 56fb1598-1a9e-3fa0-08c4-2789202f1d4b
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SmtpNetworkSettings Class
 Configures Simple Mail Transfer Protocol (SMTP) network settings.  

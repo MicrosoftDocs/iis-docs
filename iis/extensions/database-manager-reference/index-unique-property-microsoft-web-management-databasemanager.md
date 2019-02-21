@@ -1,5 +1,5 @@
 ---
-title: Index.Unique Property  (Microsoft.Web.Management.DatabaseManager)
+title: Index.Unique Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Unique Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.Unique
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.index.unique(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Index.get_Unique
 - Microsoft.Web.Management.DatabaseManager.Index.set_Unique
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Index.Unique Property
@@ -39,7 +38,7 @@ Gets or sets a value that indicates whether the index is unique.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property Unique As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.Unique
 instance.Unique = value
 ```
 
-``` csharp
+```csharp
 public bool Unique { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool Unique {
     bool get ();
@@ -63,14 +62,14 @@ property bool Unique {
 }
 ```
 
-``` jscript
+```jscript
 function get Unique () : boolean
 function set Unique (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the index is unique; otherwise, false.  
 
 ## Examples
@@ -82,7 +81,7 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     ' Retrieve the information about a table.
     Public Function GetTableInfo( _
@@ -302,7 +301,7 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve the information about a table.
         public TableInfo GetTableInfo(string connectionString, string tableName, string schema)
@@ -497,11 +496,11 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Index Class](index-class-microsoft-web-management-databasemanager.md)
 

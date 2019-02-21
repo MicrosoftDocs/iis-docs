@@ -1,5 +1,5 @@
 ---
-title: ConfigurationMessage.RegKeyNotFound Property  (Microsoft.Web.Media.TransformManager)
+title: ConfigurationMessage.RegKeyNotFound Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: RegKeyNotFound Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.RegKeyNotFound
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationmessage.regkeynotfound(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.RegKeyNotFound
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.get_RegKeyNotFound
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # RegKeyNotFound Property
@@ -40,7 +39,7 @@ Gets or sets a message to post when the registration key is not found.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property RegKeyNotFound As String
@@ -56,12 +55,12 @@ value = instance.RegKeyNotFound
 instance.RegKeyNotFound = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string RegKeyNotFound { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ RegKeyNotFound {
@@ -75,19 +74,19 @@ property String^ RegKeyNotFound {
 member RegKeyNotFound : string with get, set
 ```
 
-``` jscript
+```jscript
   function get RegKeyNotFound () : String
 function set RegKeyNotFound (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The message that is posted when the registration key is not found.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationMessage Class](configurationmessage-class-microsoft-web-media-transformmanager.md)
 

@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.CloseMedia
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ISmoothStreamingCache.CloseMedia Method
@@ -36,7 +35,7 @@ Ends [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Sub CloseMedia ( _
@@ -50,13 +49,13 @@ Dim manifestUri As Uri
 instance.CloseMedia(manifestUri)
 ```
 
-``` csharp
+```csharp
 void CloseMedia(
     Uri manifestUri
 )
 ```
 
-``` c++
+```cpp
 void CloseMedia(
     Uri^ manifestUri
 )
@@ -67,16 +66,16 @@ abstract CloseMedia :
         manifestUri:Uri -> unit 
 ```
 
-``` jscript
+```jscript
 function CloseMedia(
     manifestUri : Uri
 )
 ```
 
-#### Parameters
+### Parameters
 
   - manifestUri  
-    Type: [System.Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\))  
+    Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\))  
     The Uri of the media manifest.
 
 ## Remarks
@@ -85,13 +84,13 @@ The CloseMedia method is called when the cache is no longer needed. Each [OpenMe
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ISmoothStreamingCache Interface](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)
 

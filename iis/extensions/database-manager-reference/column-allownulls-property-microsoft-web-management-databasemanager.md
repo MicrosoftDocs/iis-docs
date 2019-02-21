@@ -1,5 +1,5 @@
 ---
-title: Column.AllowNulls Property  (Microsoft.Web.Management.DatabaseManager)
+title: Column.AllowNulls Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: AllowNulls Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.AllowNulls
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.column.allownulls(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Column.get_AllowNulls
 - Microsoft.Web.Management.DatabaseManager.Column.set_AllowNulls
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.AllowNulls Property
@@ -39,7 +38,7 @@ Gets or sets a value that indicates whether the database column allows nulla nul
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Overridable Property AllowNulls As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.AllowNulls
 instance.AllowNulls = value
 ```
 
-``` csharp
+```csharp
 public virtual bool AllowNulls { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property bool AllowNulls {
     bool get ();
@@ -63,14 +62,14 @@ virtual property bool AllowNulls {
 }
 ```
 
-``` jscript
+```jscript
 function get AllowNulls () : boolean
 function set AllowNulls (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the column allows nulla null reference (Nothing in Visual Basic) values; otherwise, false.  
 
 ## Examples
@@ -82,7 +81,7 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     ' Retrieve the information about a table.
     Public Function GetTableInfo( _
@@ -302,7 +301,7 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve the information about a table.
         public TableInfo GetTableInfo(string connectionString, string tableName, string schema)
@@ -497,11 +496,11 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Column Class](column-class-microsoft-web-management-databasemanager.md)
 

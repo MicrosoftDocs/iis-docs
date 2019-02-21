@@ -1,5 +1,5 @@
 ---
-title: ManifestProperty.CultureInfo Property  (Microsoft.Web.Media.TransformManager)
+title: ManifestProperty.CultureInfo Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CultureInfo Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.CultureInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestproperty.cultureinfo(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.CultureInfo
 - Microsoft.Web.Media.TransformManager.ManifestProperty.get_CultureInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CultureInfo Property
@@ -40,7 +39,7 @@ Gets or sets the culture information for the manifest property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property CultureInfo As CultureInfo
@@ -56,11 +55,11 @@ value = instance.CultureInfo
 instance.CultureInfo = value
 ```
 
-``` csharp
+```csharp
   public CultureInfo CultureInfo { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 virtual property CultureInfo^ CultureInfo {
     CultureInfo^ get () sealed;
@@ -73,19 +72,19 @@ virtual property CultureInfo^ CultureInfo {
 override CultureInfo : CultureInfo with get, set
 ```
 
-``` jscript
+```jscript
   final function get CultureInfo () : CultureInfo
 final function set CultureInfo (value : CultureInfo)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Globalization. . :: . .CultureInfo](https://msdn.microsoft.com/en-us/library/kx54z3k7\(v=vs.90\))  
+Type: [System.Globalization.CultureInfo](https://msdn.microsoft.com/library/kx54z3k7)  
 The culture information for the manifest property.  
 
-#### Implements
+### Implements
 
-[IManifestProperty. . :: . .CultureInfo](imanifestproperty-cultureinfo-property-microsoft-web-media-transformmanager.md)  
+[IManifestProperty.CultureInfo](imanifestproperty-cultureinfo-property-microsoft-web-media-transformmanager.md)  
 
 ## Remarks
 
@@ -93,7 +92,7 @@ Culture information includes information about a specific culture, including the
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

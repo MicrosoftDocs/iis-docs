@@ -1,15 +1,7 @@
 ---
-title: "NameTypeElement Class | Microsoft Docs"
-ms.custom: ""
+title: "NameTypeElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ee410798-43e4-96dc-a07c-a823804e7822
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # NameTypeElement Class
 Associates a name and a managed type.  

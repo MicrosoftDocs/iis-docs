@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -18,18 +18,18 @@ dev_langs:
 
 ## Syntax
 
-``` csharp
+```csharp
 public uint AudioTag { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property unsigned int AudioTag {
 unsigned int get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get AudioTag () : uint
 ```
 

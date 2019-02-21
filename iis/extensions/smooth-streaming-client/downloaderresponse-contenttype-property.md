@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the content type.
 
 ## Syntax
 
-``` csharp
+```csharp
 public string ContentType { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property String^ ContentType {
 String^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get ContentType () : String
 ```
 

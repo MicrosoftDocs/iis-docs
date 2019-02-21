@@ -1,15 +1,7 @@
 ---
-title: "SiteContainsApplication Class1 | Microsoft Docs"
-ms.custom: ""
+title: "SiteContainsApplication Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bb56f880-ee3d-06b3-467c-d4f58a7c80cd
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SiteContainsApplication Class1
 Provides a relationship between a Web site and its applications.  

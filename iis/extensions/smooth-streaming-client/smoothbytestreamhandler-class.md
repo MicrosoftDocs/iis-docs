@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ Represents the Smooth Byte Stream Handler.
 
 ## Syntax
 
-``` csharp
+```csharp
 [ActivatableAttribute()]
 [VersionAttribute()]
 public sealed class SmoothByteStreamHandler : IMediaExtension
 ```
 
-``` c++
+```cpp
 [ActivatableAttribute()]
 [VersionAttribute()]
 public ref class SmoothByteStreamHandler sealed : IMediaExtension
 ```
 
-``` jscript
+```jscript
 public final class SmoothByteStreamHandler implements IMediaExtension
 ```
 

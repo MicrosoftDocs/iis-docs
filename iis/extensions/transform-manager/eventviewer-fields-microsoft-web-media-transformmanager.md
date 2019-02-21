@@ -22,11 +22,9 @@ The [EventViewer](eventviewer-class-microsoft-web-media-transformmanager.md) typ
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[EventIdWarning](eventviewer-eventidwarning-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when warning information is written to the event viewer. This member supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[EventSource](eventviewer-eventsource-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when event source information is written to the event viewer. This member supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [EventViewer Class](eventviewer-class-microsoft-web-media-transformmanager.md)
 

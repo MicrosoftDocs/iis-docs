@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler Delegate
@@ -40,7 +39,7 @@ Represents the event handler signature for a SetPlaybackRangeAsync operation.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Delegate Sub SetPlaybackRangeCompletedEventHandler ( _
@@ -52,14 +51,14 @@ Public Delegate Sub SetPlaybackRangeCompletedEventHandler ( _
 Dim instance As New SetPlaybackRangeCompletedEventHandler(AddressOf HandlerMethod)
 ```
 
-``` csharp
+```csharp
 public delegate void SetPlaybackRangeCompletedEventHandler(
     Object sender,
     AsyncCompletedEventArgs args
 )
 ```
 
-``` c++
+```cpp
 public delegate void SetPlaybackRangeCompletedEventHandler(
     Object^ sender, 
     AsyncCompletedEventArgs^ args
@@ -73,29 +72,29 @@ type SetPlaybackRangeCompletedEventHandler =
         args:AsyncCompletedEventArgs -> unit
 ```
 
-``` jscript
+```jscript
 JScript supports the use of delegates, but not the declaration of new ones.
 ```
 
-#### Parameters
+### Parameters
 
   - sender  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
 
 <!-- end list -->
 
   - args  
-    Type: [System.ComponentModel.AsyncCompletedEventArgs](https://msdn.microsoft.com/en-us/library/2tde67e9\(v=vs.95\))  
+    Type: [System.ComponentModel.AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9\(v=vs.95\))  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

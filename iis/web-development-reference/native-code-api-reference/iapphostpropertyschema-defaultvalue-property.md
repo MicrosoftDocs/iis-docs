@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::DefaultValue Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::DefaultValue Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 54736bab-b42a-26d2-ccd0-ca2de1056d4c
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::DefaultValue Property
 Gets the value that the [IAppHostProperty::Value](../../web-development-reference\native-code-api-reference/iapphostproperty-value-property.md) property returns when a value is not explicitly set.  
@@ -23,7 +15,7 @@ HRESULT get_DefaultValue(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pDefaultValue`  
  A pointer to a `VARIANT` that contains the default value.  
   

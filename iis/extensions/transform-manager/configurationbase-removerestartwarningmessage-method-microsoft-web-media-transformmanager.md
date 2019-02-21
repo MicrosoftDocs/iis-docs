@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.RemoveRestartWarningMessage
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # RemoveRestartWarningMessage Method
@@ -36,7 +35,7 @@ Removes the restart warning message from the IIS Transform Manager configuration
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub RemoveRestartWarningMessage
@@ -47,11 +46,11 @@ Removes the restart warning message from the IIS Transform Manager configuration
 instance.RemoveRestartWarningMessage()
 ```
 
-``` csharp
+```csharp
   public void RemoveRestartWarningMessage()
 ```
 
-``` c++
+```cpp
   public:
 void RemoveRestartWarningMessage()
 ```
@@ -60,13 +59,13 @@ void RemoveRestartWarningMessage()
   member RemoveRestartWarningMessage : unit -> unit 
 ```
 
-``` jscript
+```jscript
   public function RemoveRestartWarningMessage()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

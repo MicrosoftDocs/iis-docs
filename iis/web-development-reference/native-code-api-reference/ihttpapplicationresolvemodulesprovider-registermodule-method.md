@@ -1,15 +1,7 @@
 ---
-title: "IHttpApplicationResolveModulesProvider::RegisterModule Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpApplicationResolveModulesProvider::RegisterModule Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 32674f32-24a8-a8cf-57f6-2c942ed29b26
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpApplicationResolveModulesProvider::RegisterModule Method
 Registers an HTTP module.  
@@ -28,7 +20,7 @@ virtual HRESULT RegisterModule(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `parentModuleId`  
  [IN] The unique identifier for the parent module.  
   

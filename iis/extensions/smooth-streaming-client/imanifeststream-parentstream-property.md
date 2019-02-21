@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Gets the parent stream of this stream.
 
 ## Syntax
 
-``` csharp
+```csharp
 IManifestStream ParentStream { get; }
 ```
 
-``` c++
+```cpp
 property IManifestStream^ ParentStream {
 IManifestStream^ get ();
 }
 ```
 
-``` jscript
+```jscript
 function get ParentStream () : IManifestStream
 ```
 

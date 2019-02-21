@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionDefinition::OverrideModeDefault Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionDefinition::OverrideModeDefault Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bd9ee475-e075-2771-d242-60683aca8b0f
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionDefinition::OverrideModeDefault Property
 Gets or sets the default override behavior for the current configuration section.  
@@ -26,7 +18,7 @@ HRESULT put_OverrideModeDefault(
 );   
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrOverrideModeDefault`  
  A pointer to a `BSTR` that indicates the default override behavior. Valid values are "Allow" and "Deny".  
   

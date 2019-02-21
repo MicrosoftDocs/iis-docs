@@ -1,15 +1,7 @@
 ---
-title: "IHttpEventProvider::SetErrorStatus Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpEventProvider::SetErrorStatus Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 62f84393-a0b2-32f6-6f80-6db3ada4378a
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpEventProvider::SetErrorStatus Method
 Specifies an error to return.  
@@ -22,7 +14,7 @@ virtual VOID SetErrorStatus(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `hrError`  
  [IN] An `HRESULT` that contains the error to specify.  
   

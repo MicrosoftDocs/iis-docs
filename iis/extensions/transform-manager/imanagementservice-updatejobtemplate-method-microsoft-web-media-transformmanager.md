@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService.UpdateJobTemplate
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateJobTemplate Method
@@ -36,7 +35,7 @@ Adds or replaces a [JobTemplate](jobtemplate-class-microsoft-web-media-transform
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Sub UpdateJobTemplate ( _
@@ -50,14 +49,14 @@ Dim jobTemplate As JobTemplate
 instance.UpdateJobTemplate(jobTemplate)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 void UpdateJobTemplate(
     JobTemplate jobTemplate
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 void UpdateJobTemplate(
     JobTemplate^ jobTemplate
@@ -70,16 +69,16 @@ abstract UpdateJobTemplate :
         jobTemplate:JobTemplate -> unit 
 ```
 
-``` jscript
+```jscript
   function UpdateJobTemplate(
     jobTemplate : JobTemplate
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobTemplate  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md)  
     A [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) object.  
 
 ## Remarks
@@ -88,7 +87,7 @@ A [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) objec
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

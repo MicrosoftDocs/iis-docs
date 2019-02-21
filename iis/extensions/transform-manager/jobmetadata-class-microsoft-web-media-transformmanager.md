@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobMetadata
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobMetadata Class
@@ -33,7 +32,7 @@ Defines an object that is passed to the task through the [Initialize(ITaskStatus
 
 ## Inheritance Hierarchy
 
-[System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
+[System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
   Microsoft.Web.Media.TransformManager..::..JobMetadata  
 
 **Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
@@ -41,7 +40,7 @@ Defines an object that is passed to the task through the [Initialize(ITaskStatus
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Class JobMetadata _
@@ -51,11 +50,11 @@ Defines an object that is passed to the task through the [Initialize(ITaskStatus
   Dim instance As JobMetadata
 ```
 
-``` csharp
+```csharp
   public class JobMetadata : IJobMetadata
 ```
 
-``` c++
+```cpp
   public ref class JobMetadata : IJobMetadata
 ```
 
@@ -66,7 +65,7 @@ Defines an object that is passed to the task through the [Initialize(ITaskStatus
     end
 ```
 
-``` jscript
+```jscript
   public class JobMetadata implements IJobMetadata
 ```
 
@@ -78,8 +77,6 @@ The JobMetadata type exposes the following members.
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobMetadata](jobmetadata-constructor-microsoft-web-media-transformmanager.md)|Initializes a new instance of the JobMetadata class by using the specified manifest and task index.|
 
-
-Top
 
 ## Properties
 
@@ -98,22 +95,18 @@ Top
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskElement](jobmetadata-taskelement-property-microsoft-web-media-transformmanager.md)|Gets the task element from the manifest.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskMetadata](jobmetadata-taskmetadata-property-microsoft-web-media-transformmanager.md)|Gets the task metadata from the task element that is contained in the manifest.|
 
-Top
-
 ## Methods
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/en-us/library/4k87zsw7(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/library/zdee4b3y)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetProperty](jobmetadata-getproperty-method-microsoft-web-media-transformmanager.md)|Returns the value of the specified property from the task resource description framework (RDF) metadata section in the manifest.|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/library/dfwy45w9)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[SetProperty](jobmetadata-setproperty-method-microsoft-web-media-transformmanager.md)|Sets a property value in the task resource description framework (RDF) metadata section in the manifest.|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-
-Top
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 
 ## Thread Safety
 
@@ -121,7 +114,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

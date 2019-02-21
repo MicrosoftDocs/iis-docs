@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f38eaa29-b0c9-8df1-7dea-46fa9cba9771
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema Interface
 Provides access to the attributes that define the schema for a property.  

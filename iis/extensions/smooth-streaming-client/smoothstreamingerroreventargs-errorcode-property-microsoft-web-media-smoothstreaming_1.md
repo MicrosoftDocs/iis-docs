@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingErrorEventArgs.ErrorCode Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingErrorEventArgs.ErrorCode Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ErrorCode Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.ErrorCode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs.errorcode(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.get_ErrorCode
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.set_ErrorCode
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingErrorEventArgs.ErrorCode Property
@@ -40,7 +39,7 @@ Gets or sets the ErrorCode property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property ErrorCode As Integer
@@ -56,11 +55,11 @@ value = instance.ErrorCode
 instance.ErrorCode = value
 ```
 
-``` csharp
+```csharp
 public int ErrorCode { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property int ErrorCode {
     int get ();
@@ -72,29 +71,29 @@ property int ErrorCode {
 member ErrorCode : int with get, set
 ```
 
-``` jscript
+```jscript
 function get ErrorCode () : int
 function set ErrorCode (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.95\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d\(v=vs.95\))  
 An integer value that contains the error code.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingErrorEventArgs Class](smoothstreamingerroreventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

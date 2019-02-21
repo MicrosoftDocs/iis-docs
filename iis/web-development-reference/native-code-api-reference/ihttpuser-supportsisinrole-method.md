@@ -1,15 +1,7 @@
 ---
-title: "IHttpUser::SupportsIsInRole Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUser::SupportsIsInRole Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2b1a1fd5-0624-e9b1-2ca5-c61a37ef44a4
-caps.latest.revision: 31
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUser::SupportsIsInRole Method
 Returns a value that indicates whether role support is enabled for the user.  
@@ -22,7 +14,7 @@ virtual BOOL SupportsIsInRole(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

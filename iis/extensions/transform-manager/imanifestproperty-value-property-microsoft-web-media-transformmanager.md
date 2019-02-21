@@ -1,5 +1,5 @@
 ---
-title: IManifestProperty.Value Property  (Microsoft.Web.Media.TransformManager)
+title: IManifestProperty.Value Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Value Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IManifestProperty.Value
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.imanifestproperty.value(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManifestProperty.get_Value
 - Microsoft.Web.Media.TransformManager.IManifestProperty.Value
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Value Property
@@ -38,7 +37,7 @@ Gets the manifest property value.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   ReadOnly Property Value As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.Value
 ```
 
-``` csharp
+```csharp
   string Value { get; }
 ```
 
-``` c++
+```cpp
   property String^ Value {
     String^ get ();
 }
@@ -65,18 +64,18 @@ value = instance.Value
   abstract Value : string
 ```
 
-``` jscript
+```jscript
   function get Value () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The property value.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManifestProperty Interface](imanifestproperty-interface-microsoft-web-media-transformmanager.md)
 

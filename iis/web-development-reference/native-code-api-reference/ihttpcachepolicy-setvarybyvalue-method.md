@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy::SetVaryByValue Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy::SetVaryByValue Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6822e2e0-50cb-1e07-5a9b-2b263d709c3b
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy::SetVaryByValue Method
 Sets the variable value for the cache policy.  
@@ -22,7 +14,7 @@ virtual HRESULT SetVaryByValue(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszValue`  
  A pointer to a null-terminated string that contains the custom value to append.  
   

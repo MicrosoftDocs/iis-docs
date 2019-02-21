@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigFile::SetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigFile::SetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fb1403c4-1144-5169-c770-92680c558765
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigFile::SetMetadata Method
 Sets metadata in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
@@ -24,7 +16,7 @@ HRESULT SetMetadata(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata to set.  
   

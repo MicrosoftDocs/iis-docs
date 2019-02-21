@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,24 +20,24 @@ Gets the end time.
 
 ## Syntax
 
-``` csharp
+```csharp
 public long EndTime { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property long long EndTime {
 long long get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get EndTime () : long
 ```
 
 ## Property Value
 
-Type: [Int64](https://msdn.microsoft.com/en-us/library/6yy583ek\(v=vs.90\))
+Type: [Int64](https://msdn.microsoft.com/library/6yy583ek)
 
 ## Requirements
 

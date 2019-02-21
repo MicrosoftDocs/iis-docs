@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.CancelJobById
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CancelJobById Method
@@ -36,7 +35,7 @@ Cancels a job that is represented by the specified job ID.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Function CancelJobById ( _
@@ -51,14 +50,14 @@ Dim returnValue As JobStatus
 returnValue = instance.CancelJobById(jobId)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public JobStatus CancelJobById(
     string jobId
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual JobStatus CancelJobById(
@@ -75,30 +74,30 @@ override CancelJobById :
         jobId:string -> JobStatus 
 ```
 
-``` jscript
+```jscript
   public final function CancelJobById(
     jobId : String
 ) : JobStatus
 ```
 
-#### Parameters
+### Parameters
 
   - jobId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job to cancel.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
 The [JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md) object that corresponds to the action.  
 
-#### Implements
+### Implements
 
-[IMonitoringService. . :: . .CancelJobById(String)](imonitoringservice-canceljobbyid-method-microsoft-web-media-transformmanager.md)  
+[IMonitoringService.CancelJobById(String)](imonitoringservice-canceljobbyid-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

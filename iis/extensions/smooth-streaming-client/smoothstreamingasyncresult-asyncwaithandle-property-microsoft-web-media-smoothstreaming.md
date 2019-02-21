@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingAsyncResult.AsyncWaitHandle Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingAsyncResult.AsyncWaitHandle Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AsyncWaitHandle Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.AsyncWaitHandle
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.asyncwaithandle(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.AsyncWaitHandle
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.get_AsyncWaitHandle
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingAsyncResult.AsyncWaitHandle Property
@@ -38,7 +37,7 @@ Gets the wait handle used by the application to wait.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property AsyncWaitHandle As WaitHandle
@@ -51,11 +50,11 @@ Dim value As WaitHandle
 value = instance.AsyncWaitHandle
 ```
 
-``` csharp
+```csharp
 public WaitHandle AsyncWaitHandle { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property WaitHandle^ AsyncWaitHandle {
     WaitHandle^ get () sealed;
@@ -67,28 +66,28 @@ abstract AsyncWaitHandle : WaitHandle
 override AsyncWaitHandle : WaitHandle
 ```
 
-``` jscript
+```jscript
 final function get AsyncWaitHandle () : WaitHandle
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Threading.WaitHandle](https://msdn.microsoft.com/en-us/library/9f7e54k1\(v=vs.95\))  
+Type: [System.Threading.WaitHandle](https://msdn.microsoft.com/library/9f7e54k1\(v=vs.95\))  
 The wait handle.
 
-#### Implements
+### Implements
 
-[IAsyncResult.AsyncWaitHandle](https://msdn.microsoft.com/en-us/library/tbbhxekx\(v=vs.95\))  
+[IAsyncResult.AsyncWaitHandle](https://msdn.microsoft.com/library/tbbhxekx\(v=vs.95\))  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingAsyncResult Class](smoothstreamingasyncresult-class-microsoft-web-media-smoothstreaming.md)
 

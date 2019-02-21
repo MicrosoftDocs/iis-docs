@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobDetailsByInstanceFileName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobDetailsByInstanceFileName Method
@@ -36,7 +35,7 @@ Returns a collection of [JobDetails](jobdetails-class-microsoft-web-media-transf
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Function GetJobDetailsByInstanceFileName ( _
@@ -54,7 +53,7 @@ returnValue = instance.GetJobDetailsByInstanceFileName(jobDefinitionId, _
     instanceFileName)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 Collection<JobDetails> GetJobDetailsByInstanceFileName(
     string jobDefinitionId,
@@ -62,7 +61,7 @@ Collection<JobDetails> GetJobDetailsByInstanceFileName(
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 Collection<JobDetails^>^ GetJobDetailsByInstanceFileName(
     String^ jobDefinitionId, 
@@ -77,32 +76,32 @@ abstract GetJobDetailsByInstanceFileName :
         instanceFileName:string -> Collection<JobDetails> 
 ```
 
-``` jscript
+```jscript
   function GetJobDetailsByInstanceFileName(
     jobDefinitionId : String, 
     instanceFileName : String
 ) : Collection<JobDetails>
 ```
 
-#### Parameters
+### Parameters
 
   - jobDefinitionId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of a [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) object.  
 
 <!-- end list -->
 
   - instanceFileName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the file that matched the file watcher filter and that instantiated the job.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
 

@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,11 +20,11 @@ Gets the name.
 
 ## Syntax
 
-``` csharp
+```csharp
 public string Name { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property String^ Name {
 String^ get () sealed;
@@ -32,14 +32,14 @@ void set (String^ value) sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get Name () : String
 final function set Name (value : String)
 ```
 
 ## Property Value
 
-Type: [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))
+Type: [String](https://msdn.microsoft.com/library/s1wwdcbf)
 
 ## Requirements
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::PostCompletion Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::PostCompletion Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 94fb5164-1bd1-57bb-255d-cb6ff409cd12
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::PostCompletion Method
 Indicates the completion of asynchronous work and requests that IIS queue execution to the thread pool.  
@@ -22,7 +14,7 @@ virtual HRESULT PostCompletion(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `cbBytes`  
  [IN] A `DWORD` that contains the number of bytes for the completion.  
   

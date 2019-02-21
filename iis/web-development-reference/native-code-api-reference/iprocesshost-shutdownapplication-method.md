@@ -1,15 +1,7 @@
 ---
-title: "IProcessHost::ShutdownApplication Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHost::ShutdownApplication Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a6dd9fa1-f163-34e4-d6c7-48aea0e10d16
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHost::ShutdownApplication Method
 Terminates the specified application.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall ShutdownApplication(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `appId`  
  An `LPCWSTR` that contains the target application.  
   

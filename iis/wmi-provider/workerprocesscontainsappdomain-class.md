@@ -1,15 +1,7 @@
 ---
-title: "WorkerProcessContainsAppDomain Class2 | Microsoft Docs"
-ms.custom: ""
+title: "WorkerProcessContainsAppDomain Class2"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c7172642-0b13-5b01-450d-874b79e798d5
-caps.latest.revision: 27
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WorkerProcessContainsAppDomain Class2
 Provides a relationship between a worker process and its application domains.  

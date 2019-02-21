@@ -22,11 +22,9 @@ The [WorkQueue](workqueue-class-microsoft-web-media-transformmanager.md) type ex
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[RunningJobs](workqueue-runningjobs-property-microsoft-web-media-transformmanager.md)|Gets a collection of job details that specify jobs that are running.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[SubmittedJobs](workqueue-submittedjobs-property-microsoft-web-media-transformmanager.md)|Gets a collection of job details that specify jobs that have been submitted.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [WorkQueue Class](workqueue-class-microsoft-web-media-transformmanager.md)
 

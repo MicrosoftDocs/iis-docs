@@ -1,15 +1,7 @@
 ---
-title: "ApplicationPool.Create Method2 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationPool.Create Method2"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cc7d3c44-23df-cec7-c2b6-614a151011bb
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationPool.Create Method2
 Creates an application pool.  
@@ -30,7 +22,7 @@ var apppool = oWebAdmin.Get("Application").Create(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  

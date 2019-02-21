@@ -1,15 +1,7 @@
 ---
-title: "FileSettings Class1 | Microsoft Docs"
-ms.custom: ""
+title: "FileSettings Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 28117499-370b-4789-86ab-a7b0fceb8cc9
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # FileSettings Class1
 Contains Web page file names to serve to clients by default.  

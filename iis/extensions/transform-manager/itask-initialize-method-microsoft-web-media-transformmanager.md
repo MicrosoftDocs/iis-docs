@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.ITask.Initialize
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Initialize Method
@@ -36,7 +35,7 @@ Initializes the task with objects for reporting status, logging data, and gettin
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Sub Initialize ( _
@@ -55,7 +54,7 @@ instance.Initialize(status, metadata, _
     logger)
 ```
 
-``` csharp
+```csharp
   void Initialize(
     ITaskStatus status,
     IJobMetadata metadata,
@@ -63,7 +62,7 @@ instance.Initialize(status, metadata, _
 )
 ```
 
-``` c++
+```cpp
   void Initialize(
     ITaskStatus^ status, 
     IJobMetadata^ metadata, 
@@ -78,7 +77,7 @@ instance.Initialize(status, metadata, _
         logger:ILogger -> unit 
 ```
 
-``` jscript
+```jscript
   function Initialize(
     status : ITaskStatus, 
     metadata : IJobMetadata, 
@@ -86,27 +85,27 @@ instance.Initialize(status, metadata, _
 )
 ```
 
-#### Parameters
+### Parameters
 
   - status  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .ITaskStatus](itaskstatus-interface-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.ITaskStatus](itaskstatus-interface-microsoft-web-media-transformmanager.md)  
     A status object that contains two properties, a percent complete and a [JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md) enumeration value.  
 
 <!-- end list -->
 
   - metadata  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .IJobMetadata](ijobmetadata-interface-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.IJobMetadata](ijobmetadata-interface-microsoft-web-media-transformmanager.md)  
     Metadata about the task.  
 
 <!-- end list -->
 
   - logger  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .ILogger](ilogger-interface-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.ILogger](ilogger-interface-microsoft-web-media-transformmanager.md)  
     The logger object.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ITask Interface](itask-interface-microsoft-web-media-transformmanager.md)
 

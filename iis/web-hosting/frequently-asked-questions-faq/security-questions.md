@@ -37,8 +37,8 @@ We don't have a "recommended config" that accommodates access DB. What you have 
 
 If you need to configure a custom trust policy, there are a number of good articles on web:
 
-[https://msdn.microsoft.com/en-us/library/wyts434y.aspx](https://msdn.microsoft.com/en-us/library/wyts434y.aspx)
+[https://msdn.microsoft.com/library/wyts434y.aspx](https://msdn.microsoft.com/library/wyts434y.aspx)
 
-[https://msdn.microsoft.com/en-us/library/ms998341.aspx#paght000020\_step3](https://msdn.microsoft.com/en-us/library/ms998341.aspx#paght000020_step3)
+[https://msdn.microsoft.com/library/ms998341.aspx#paght000020\_step3](https://msdn.microsoft.com/library/ms998341.aspx#paght000020_step3)
 
-[https://msdn.microsoft.com/en-us/library/ms998326.aspx#paght000017\_step2](https://msdn.microsoft.com/en-us/library/ms998326.aspx#paght000017_step2)
+[https://msdn.microsoft.com/library/ms998326.aspx#paght000017\_step2](https://msdn.microsoft.com/library/ms998326.aspx#paght000017_step2)

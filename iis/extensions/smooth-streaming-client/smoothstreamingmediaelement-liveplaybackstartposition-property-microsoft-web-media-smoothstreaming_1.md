@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.LivePlaybackStartPosition Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.LivePlaybackStartPosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LivePlaybackStartPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LivePlaybackStartPosition
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.liveplaybackstartposition(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_LivePlaybackStartPosition
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_LivePlaybackStartPosition
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.LivePlaybackStartPosition Property
@@ -40,7 +39,7 @@ Gets or sets the starting position to use during live playback.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property LivePlaybackStartPosition As PlaybackStartPosition
@@ -56,11 +55,11 @@ value = instance.LivePlaybackStartPosition
 instance.LivePlaybackStartPosition = value
 ```
 
-``` csharp
+```csharp
 public PlaybackStartPosition LivePlaybackStartPosition { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property PlaybackStartPosition LivePlaybackStartPosition {
     PlaybackStartPosition get ();
@@ -72,29 +71,29 @@ property PlaybackStartPosition LivePlaybackStartPosition {
 member LivePlaybackStartPosition : PlaybackStartPosition with get, set
 ```
 
-``` jscript
+```jscript
 function get LivePlaybackStartPosition () : PlaybackStartPosition
 function set LivePlaybackStartPosition (value : PlaybackStartPosition)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.PlaybackStartPosition](playbackstartposition-enumeration-microsoft-web-media-smoothstreaming_1.md)  
 The position as specified by a member of the [PlaybackStartPosition](playbackstartposition-enumeration-microsoft-web-media-smoothstreaming_1.md) enumeration.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

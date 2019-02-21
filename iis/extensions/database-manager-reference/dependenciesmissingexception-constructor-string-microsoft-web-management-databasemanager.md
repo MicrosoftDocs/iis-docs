@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
@@ -21,7 +21,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DependenciesMissingException Constructor (String)
@@ -31,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Sub New ( _
     helpLink As String _
@@ -42,29 +41,29 @@ Dim helpLink As String
 Dim instance As New DependenciesMissingException(helpLink)
 ```
 
-``` csharp
+```csharp
 public DependenciesMissingException(
     string helpLink
 )
 ```
 
-``` c++
+```cpp
 public:
 DependenciesMissingException(
     String^ helpLink
 )
 ```
 
-``` jscript
+```jscript
 public function DependenciesMissingException(
     helpLink : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - helpLink  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     A string that contains the help URL for the exception.  
 
 ## Remarks
@@ -75,7 +74,7 @@ When a database provider raises a [DependenciesMissingException](dependenciesmis
 
 The following code sample illustrates an example VerifyDependencies method that verifies the dependencies for a sample OLEDB provider.
 
-``` vb
+```vb
 
     ' Verify the database provider dependencies.
     Public Overrides Sub VerifyDependencies()
@@ -104,7 +103,7 @@ The following code sample illustrates an example VerifyDependencies method that 
 
 ```
 
-``` csharp
+```csharp
 
         // Verify the database provider dependencies.
         public override void VerifyDependencies()
@@ -137,11 +136,11 @@ The following code sample illustrates an example VerifyDependencies method that 
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [DependenciesMissingException Class](dependenciesmissingexception-class-microsoft-web-management-databasemanager.md)
 

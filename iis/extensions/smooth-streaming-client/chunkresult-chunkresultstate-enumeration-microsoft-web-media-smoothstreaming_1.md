@@ -12,11 +12,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.ChunkResultState.Succeeded
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.ChunkResultState.TimedOut
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -30,7 +30,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkResult.ChunkResultState Enumeration
@@ -42,7 +41,7 @@ An enumeration that contains the possible result states during processing by the
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Enumeration ChunkResultState
@@ -51,11 +50,11 @@ Public Enumeration ChunkResultState
 Dim instance As ChunkResult.ChunkResultState
 ```
 
-``` csharp
+```csharp
 public enum ChunkResultState
 ```
 
-``` c++
+```cpp
 public enum class ChunkResultState
 ```
 
@@ -63,7 +62,7 @@ public enum class ChunkResultState
 type ChunkResultState
 ```
 
-``` jscript
+```jscript
 public enum ChunkResultState
 ```
 
@@ -103,13 +102,13 @@ The following example shows the call to the [EndGetChunk(IAsyncResult)](trackinf
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

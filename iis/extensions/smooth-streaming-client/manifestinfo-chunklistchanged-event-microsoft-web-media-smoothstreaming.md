@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ChunkListChanged
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkListChanged Event
@@ -37,7 +36,7 @@ Event activated when the fragment info of a new text/binary chunk in live scenar
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Event ChunkListChanged As EventHandler(Of StreamUpdatedEventArgs)
@@ -49,11 +48,11 @@ Dim handler As EventHandler(Of StreamUpdatedEventArgs)
 AddHandler instance.ChunkListChanged, handler
 ```
 
-``` csharp
+```csharp
   public event EventHandler<StreamUpdatedEventArgs> ChunkListChanged
 ```
 
-``` c++
+```cpp
   public:
  event EventHandler<StreamUpdatedEventArgs^>^ ChunkListChanged {
     void add (EventHandler<StreamUpdatedEventArgs^>^ value);
@@ -61,23 +60,23 @@ AddHandler instance.ChunkListChanged, handler
 }
 ```
 
-``` jscript
+```jscript
   JScript does not support events.
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

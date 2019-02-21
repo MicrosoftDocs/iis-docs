@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Column.HasChanges
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.HasChanges Method
@@ -35,7 +34,7 @@ Retrieves whether the column has specific changes.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Function HasChanges ( _
     changes As ColumnChanges _
@@ -48,41 +47,37 @@ Dim returnValue As Boolean
 returnValue = instance.HasChanges(changes)
 ```
 
-``` csharp
+```csharp
 public bool HasChanges(
     ColumnChanges changes
 )
 ```
 
-``` c++
+```cpp
 public:
 bool HasChanges(
     ColumnChanges changes
 )
 ```
 
-``` jscript
+```jscript
 public function HasChanges(
     changes : ColumnChanges
 ) : boolean
 ```
 
-#### Parameters
+### Parameters
 
   - changes  
     Type: [Microsoft.Web.Management.DatabaseManager.ColumnChanges](columnchanges-enumeration-microsoft-web-management-databasemanager.md)  
     A [ColumnChanges](columnchanges-enumeration-microsoft-web-management-databasemanager.md) enumeration value that specifies which changes to test.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the column has the specified changes; otherwise, false.  
 
-## Remarks
-
-### 
-
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider calls HasChanges, your provider must specify which columns to test for changes. For example, ColumnChanges.Name will specify changes for the column name, while ColumnChanges.Type will specify changes for the column type.
 
@@ -95,7 +90,7 @@ The following code sample implements the [EditTable](idbtablemanager-edittable-m
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     Public Sub EditTable( _
             ByVal connectionString As String, _
@@ -570,7 +565,7 @@ The following code sample implements the [EditTable](idbtablemanager-edittable-m
 
 ```
 
-``` csharp
+```csharp
 
 // Modify a table in the database.
 public void EditTable(
@@ -1268,11 +1263,11 @@ private void AddForeignKeys(
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Column Class](column-class-microsoft-web-management-databasemanager.md)
 

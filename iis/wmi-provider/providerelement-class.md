@@ -1,15 +1,7 @@
 ---
-title: "ProviderElement Class | Microsoft Docs"
-ms.custom: ""
+title: "ProviderElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: aad00f2c-a37d-4424-8b21-3c40c34a86a3
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ProviderElement Class
 Specifies the name and type of a provider.  

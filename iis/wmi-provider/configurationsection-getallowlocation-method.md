@@ -1,15 +1,7 @@
 ---
-title: "ConfigurationSection.GetAllowLocation Method | Microsoft Docs"
-ms.custom: ""
+title: "ConfigurationSection.GetAllowLocation Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f0488c2d-152c-4b55-a96a-f43b33ee34e1
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigurationSection.GetAllowLocation Method
 Retrieves the `allowLocation` attribute for a configuration section.  
@@ -24,7 +16,7 @@ ConfigurationSection.GetAllowLocation AllowLocation
 ConfigurationSection.GetAllowLocation(AllowLocation);  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Definition|  
 |----------|----------------|  

@@ -26,7 +26,7 @@ The [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) typ
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[FileName](jobtemplate-filename-property-microsoft-web-media-transformmanager.md)|Gets or sets the name of this configuration file.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Id](configurationbase-id-property-microsoft-web-media-transformmanager.md)|Gets or sets the XML element ID of a configuration object. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[IdElement](configurationbase-idelement-property-microsoft-web-media-transformmanager.md)|Gets or sets the XML ID element of a configuration object. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
-|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[JobTemplateElement](jobtemplate-jobtemplateelement-property-microsoft-web-media-transformmanager.md)|Gets or sets the [XElement](https://msdn.microsoft.com/en-us/library/bb340098(v=vs.90)) container of the template file.|
+|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[JobTemplateElement](jobtemplate-jobtemplateelement-property-microsoft-web-media-transformmanager.md)|Gets or sets the [XElement](https://msdn.microsoft.com/library/bb340098) container of the template file.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LastModified](configurationbase-lastmodified-property-microsoft-web-media-transformmanager.md)|Gets or sets the date and time when the IIS Transform Manager configuration was last modified. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LogLevel](configurationbase-loglevel-property-microsoft-web-media-transformmanager.md)|Gets or sets a value that represents the level of detail for a log that is contained in the log level element of the IIS Transform Manager configuration. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LogLevelElement](configurationbase-loglevelelement-property-microsoft-web-media-transformmanager.md)|Gets or sets an XML element that contains log level details. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
@@ -35,11 +35,9 @@ The [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) typ
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Properties](jobtemplate-properties-property-microsoft-web-media-transformmanager.md)|Gets or sets a collection of properties that are defined for the tasks.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskDefinitions](jobtemplate-taskdefinitions-property-microsoft-web-media-transformmanager.md)|Gets or sets a collection of the task definitions for the job template.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [JobTemplate Class](jobtemplate-class-microsoft-web-media-transformmanager.md)
 

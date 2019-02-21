@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Gets the list of opened adaptive sources.
 
 ## Syntax
 
-``` csharp
+```csharp
 IVectorView<IAdaptiveSource> AdaptiveSources { get; }
 ```
 
-``` c++
+```cpp
 property IVectorView<IAdaptiveSource^>^ AdaptiveSources {
 IVectorView<IAdaptiveSource^>^ get ();
 }
 ```
 
-``` jscript
+```jscript
 function get AdaptiveSources () : IVectorView<IAdaptiveSource>
 ```
 

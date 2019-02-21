@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertyException::ValidationFailureReason Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertyException::ValidationFailureReason Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 02fada1b-ad19-af0e-6e28-7ceb7b136af3
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertyException::ValidationFailureReason Property
 Gets the reason that the value of the [IAppHostPropertyException::InvalidValue](../../web-development-reference\native-code-api-reference/iapphostpropertyexception-invalidvalue-method.md) property did not validate against the value of the [IAppHostPropertySchema::ValidationParameter](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-validationparameter-property.md) property.  
@@ -24,7 +16,7 @@ HRESULT get_ValidationFailureReason(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrValidationReason`  
  A pointer to a `BSTR` that contains a description indicating why the property value is not valid.  
   

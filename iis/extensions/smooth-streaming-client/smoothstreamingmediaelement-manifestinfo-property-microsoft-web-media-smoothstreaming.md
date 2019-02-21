@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.ManifestInfo Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.ManifestInfo Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ManifestInfo Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.manifestinfo(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_ManifestInfo
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestInfo Property
@@ -37,7 +36,7 @@ Gets the manifest info object.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property ManifestInfo As ManifestInfo
@@ -49,43 +48,43 @@ Dim value As ManifestInfo
 value = instance.ManifestInfo
 ```
 
-``` csharp
+```csharp
   public ManifestInfo ManifestInfo { get; }
 ```
 
-``` c++
+```cpp
   public:
 property ManifestInfo^ ManifestInfo {
     ManifestInfo^ get ();
 }
 ```
 
-``` jscript
+```jscript
   function get ManifestInfo () : ManifestInfo
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .ManifestInfo](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)  
+Type: [Microsoft.Web.Media.SmoothStreaming.ManifestInfo](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)  
 The manifest info object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

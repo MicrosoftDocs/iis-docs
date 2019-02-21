@@ -1,16 +1,8 @@
 ---
-title: "IFtpRoleProvider Interface (Native) | Microsoft Docs"
-ms.custom: ""
+title: "IFtpRoleProvider Interface (Native)"
 ms.date: "09/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 58e05545-9a67-4504-a897-f97b054765ab
-caps.latest.revision: 8
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IFtpRoleProvider Interface (Native)
 Provides an interface for authorization and role checks.  

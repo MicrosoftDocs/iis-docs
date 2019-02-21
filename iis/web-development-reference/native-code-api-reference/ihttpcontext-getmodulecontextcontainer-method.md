@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetModuleContextContainer Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetModuleContextContainer Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: aeb2d019-fc00-af06-c238-a6567fda4a1b
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetModuleContextContainer Method
 Retrieves the module context container for the current context.  
@@ -22,7 +14,7 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

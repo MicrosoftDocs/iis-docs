@@ -1,15 +1,7 @@
 ---
-title: "OutputCacheSection Class | Microsoft Docs"
-ms.custom: ""
+title: "OutputCacheSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fc8a6956-81a6-2150-f8b3-3193efdbd354
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # OutputCacheSection Class
 Specifies output cache settings for an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application.  
@@ -63,8 +55,8 @@ class OutputCacheSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.OutputCacheSection](/dotnet/api/system.web.configuration.outputcachesection?view=netframework-4.7.2)
- [System.Web.Configuration.SystemWebCachingSectionGroup.OutputCache](/dotnet/api/system.web.configuration.systemwebcachingsectiongroup.outputcache?view=netframework-4.7.2)   
+ [System.Web.Configuration.OutputCacheSection](/dotnet/api/system.web.configuration.outputcachesection)
+ [System.Web.Configuration.SystemWebCachingSectionGroup.OutputCache](/dotnet/api/system.web.configuration.systemwebcachingsectiongroup.outputcache)   
  [CacheSection Class](../wmi-provider/cachesection-class.md)   
  [CachingProfileElement Class](../wmi-provider/cachingprofileelement-class.md)   
  [CachingSection Class](../wmi-provider/cachingsection-class.md)   

@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.Balance Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.Balance Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Balance Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Balance
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.balance(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_Balance
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_Balance
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Balance Property
@@ -39,7 +38,7 @@ Gets or sets the audio balance.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Balance As Double
@@ -53,11 +52,11 @@ value = instance.Balance
 instance.Balance = value
 ```
 
-``` csharp
+```csharp
   public double Balance { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property double Balance {
     double get ();
@@ -65,33 +64,33 @@ property double Balance {
 }
 ```
 
-``` jscript
+```jscript
   function get Balance () : double
 function set Balance (value : double)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Double](https://msdn.microsoft.com/en-us/library/643eft0t\(v=vs.90\))  
+Type: [System.Double](https://msdn.microsoft.com/library/643eft0t)  
 A value that indicates the balance.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

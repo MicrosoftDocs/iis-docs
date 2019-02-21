@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnPostUpdateRequestCache Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnPostUpdateRequestCache Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5aee0fb4-821e-e84d-b933-9374a5173e9a
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnPostUpdateRequestCache Method
 Represents the method that will handle an `UpdateRequestCache` post-event, which occurs after IIS has stored the request in the cache.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostUpdateRequestCache(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

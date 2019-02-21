@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElement::GetPropertyByName Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElement::GetPropertyByName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 111eeea6-65ea-8973-50e8-bfcd84ba0394
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElement::GetPropertyByName Method
 Gets a requested property from the [IAppHostElement::Properties](../../web-development-reference\native-code-api-reference/iapphostelement-properties-property.md) collection.  
@@ -25,7 +17,7 @@ HRESULT GetPropertyByName(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrSubName`  
  A `BSTR` that contains the name of the requested property.  
   

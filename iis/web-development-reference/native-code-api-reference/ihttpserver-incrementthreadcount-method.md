@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::IncrementThreadCount Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::IncrementThreadCount Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6e59d669-1eae-b7a2-debb-de86ca8f5017
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::IncrementThreadCount Method
 Increments the thread count for the thread pool.  
@@ -22,7 +14,7 @@ virtual VOID IncrementThreadCount(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

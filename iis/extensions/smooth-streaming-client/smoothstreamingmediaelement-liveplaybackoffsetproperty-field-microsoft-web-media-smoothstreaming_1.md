@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LivePlaybackOffsetProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.LivePlaybackOffsetProperty Field
@@ -36,7 +35,7 @@ Represents a dependency property that specifies the [LivePlaybackOffset](smooths
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared ReadOnly LivePlaybackOffsetProperty As DependencyProperty
@@ -47,11 +46,11 @@ Dim value As DependencyProperty
 value = SmoothStreamingMediaElement.LivePlaybackOffsetProperty
 ```
 
-``` csharp
+```csharp
 public static readonly DependencyProperty LivePlaybackOffsetProperty
 ```
 
-``` c++
+```cpp
 public:
 static initonly DependencyProperty^ LivePlaybackOffsetProperty
 ```
@@ -60,19 +59,19 @@ static initonly DependencyProperty^ LivePlaybackOffsetProperty
 static val LivePlaybackOffsetProperty: DependencyProperty
 ```
 
-``` jscript
+```jscript
 public static final var LivePlaybackOffsetProperty : DependencyProperty
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

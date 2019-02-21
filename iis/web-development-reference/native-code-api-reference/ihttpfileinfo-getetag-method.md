@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo::GetETag Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo::GetETag Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d2d7360d-8d40-f029-02da-36572b1b8a52
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo::GetETag Method
 Retrieves the entity tag of the corresponding file for an [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual PCSTR GetETag(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcchETag`  
  [OUT] A pointer to a `USHORT` buffer that receives the length, in bytes, of the returned string.  
   

@@ -1,15 +1,7 @@
 ---
-title: "IHttpApplicationResolveModulesProvider::SetPriorityForRequestNotification Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpApplicationResolveModulesProvider::SetPriorityForRequestNotification Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 374023e4-2b63-b86b-5fc0-0aebd236b178
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpApplicationResolveModulesProvider::SetPriorityForRequestNotification Method
 Sets the request-level priority for a specific module.  
@@ -24,7 +16,7 @@ virtual HRESULT SetPriorityForRequestNotification(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszModuleName`  
  [IN] A pointer to a string that contains the name of the module.  
   

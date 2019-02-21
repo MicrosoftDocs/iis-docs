@@ -1,15 +1,7 @@
 ---
-title: "IDispensedHttpModuleContextContainer Interface | Microsoft Docs"
-ms.custom: ""
+title: "IDispensedHttpModuleContextContainer Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8a58dbe1-8832-9da9-5733-2a9ff2f22962
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IDispensedHttpModuleContextContainer Interface
 Extends the [IHttpModuleContextContainer](../../web-development-reference\native-code-api-reference/ihttpmodulecontextcontainer-interface.md) interface by providing functionality for releasing a container.  

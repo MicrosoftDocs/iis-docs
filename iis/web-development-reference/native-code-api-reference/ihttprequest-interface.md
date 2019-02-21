@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f5f0c9bf-e374-a948-63bc-1b2c50555751
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest Interface
 Provides an interface to an HTTP request object. You can use the methods in the `IHttpRequest` interface to retrieve and modify data in the current HTTP request.  

@@ -1,15 +1,7 @@
 ---
-title: "IHttpModuleContextContainer Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpModuleContextContainer Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9e80529b-fc32-c845-5d31-6feac3d7034b
-caps.latest.revision: 32
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpModuleContextContainer Interface
 Maintains a collection of [IHttpStoredContext](../../web-development-reference\native-code-api-reference/ihttpstoredcontext-interface.md) pointers.  

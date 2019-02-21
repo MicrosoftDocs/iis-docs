@@ -1,15 +1,7 @@
 ---
-title: "IDispensedHttpModuleContextContainer::ReleaseContainer Method | Microsoft Docs"
-ms.custom: ""
+title: "IDispensedHttpModuleContextContainer::ReleaseContainer Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cb956ec2-9da1-8259-c487-872aae697d55
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IDispensedHttpModuleContextContainer::ReleaseContainer Method
 Deletes the context container if it is dispensed.  
@@ -22,7 +14,7 @@ virtual VOID ReleaseContainer(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Thread Safety  

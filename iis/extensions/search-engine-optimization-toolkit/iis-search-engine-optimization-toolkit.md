@@ -18,14 +18,14 @@ The IIS Search Engine Optimization (SEO) Toolkit contains the following extensib
 
 |Namespace|Description|
 |--- |--- |
-|[Microsoft.Web.Management.SEO.Crawler](https://msdn.microsoft.com/en-us/library/ee690537(v=vs.90))|Allows you to provide your own code to hook to the process of crawling a website in the Site Analysis process. By using this extensibility point, you can extend the built-in set of violation rules with your own. You can also gather additional information such as links or resource metadata, whether extracted from the content or from an external system.|
-|[Microsoft.Web.Management.SEO.SiteAnalyzer](https://msdn.microsoft.com/en-us/library/microsoft.web.management.seo.siteanalyzer(v=vs.90))|Allows you to provide custom tasks to be exposed in the **Site Analysis** tool.|
-|[Microsoft.Web.Management.SEO.Sitemaps](https://msdn.microsoft.com/en-us/library/microsoft.web.management.seo.sitemaps(v=vs.90))|Allows you to provide custom tasks to be exposed in the **Sitemaps and Sitemap Indexes** tool.|
+|[Microsoft.Web.Management.SEO.Crawler](https://msdn.microsoft.com/library/ee690537)|Allows you to provide your own code to hook to the process of crawling a website in the Site Analysis process. By using this extensibility point, you can extend the built-in set of violation rules with your own. You can also gather additional information such as links or resource metadata, whether extracted from the content or from an external system.|
+|[Microsoft.Web.Management.SEO.SiteAnalyzer](https://msdn.microsoft.com/library/microsoft.web.management.seo.siteanalyzer)|Allows you to provide custom tasks to be exposed in the **Site Analysis** tool.|
+|[Microsoft.Web.Management.SEO.Sitemaps](https://msdn.microsoft.com/library/microsoft.web.management.seo.sitemaps)|Allows you to provide custom tasks to be exposed in the **Sitemaps and Sitemap Indexes** tool.|
 
 
 ## See Also
 
-#### Other Resources
+### Other Resources
 
 [IIS Search Engine Optimization Toolkit](http://go.microsoft.com/fwlink/?linkid=247901)
 

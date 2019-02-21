@@ -1,15 +1,7 @@
 ---
-title: "IGlobalStopListeningProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalStopListeningProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c0fc5a79-ccca-77d2-421d-0da4cec63f78
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalStopListeningProvider Interface
 Provides an interface for notifications that indicate whether a worker process is shutting down and will stop listening for new requests.  

@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy::DisableUserCache Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy::DisableUserCache Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 32ef1358-e61c-69cf-6e99-af7516850391
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy::DisableUserCache Method
 Disables user caching for the cache policy.  
@@ -22,7 +14,7 @@ virtual VOID DisableUserCache(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Remarks  

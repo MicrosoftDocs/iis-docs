@@ -1,5 +1,5 @@
 ---
-title: ManifestInfo.ProtectionInfo Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ManifestInfo.ProtectionInfo Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionInfo Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ProtectionInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.manifestinfo.protectioninfo(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ProtectionInfo
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.set_ProtectionInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestInfo.ProtectionInfo Property
@@ -40,7 +39,7 @@ Contains information specified in the protection element inside the manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property ProtectionInfo As ProtectionInfo
@@ -54,11 +53,11 @@ Dim value As ProtectionInfo
 value = instance.ProtectionInfo
 ```
 
-``` csharp
+```csharp
 public ProtectionInfo ProtectionInfo { get; internal set; }
 ```
 
-``` c++
+```cpp
 public:
 property ProtectionInfo^ ProtectionInfo {
     ProtectionInfo^ get ();
@@ -70,29 +69,29 @@ property ProtectionInfo^ ProtectionInfo {
 member ProtectionInfo : ProtectionInfo with get, internal set
 ```
 
-``` jscript
+```jscript
 function get ProtectionInfo () : ProtectionInfo
 internal function set ProtectionInfo (value : ProtectionInfo)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.ProtectionInfo](protectioninfo-class-microsoft-web-media-smoothstreaming_1.md)  
 A [ProtectionInfo](protectioninfo-class-microsoft-web-media-smoothstreaming_1.md) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

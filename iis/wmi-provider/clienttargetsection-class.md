@@ -1,15 +1,7 @@
 ---
-title: "ClientTargetSection Class | Microsoft Docs"
-ms.custom: ""
+title: "ClientTargetSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c0f9b403-0b16-839f-c891-b2268b1d3b10
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ClientTargetSection Class
 Specifies a collection of mappings between aliases and user agents.  
@@ -65,6 +57,6 @@ class ClientTargetSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.ClientTarget](/dotnet/api/system.web.configuration.clienttarget?view=netframework-4.7.2)   
+ [System.Web.Configuration.ClientTarget](/dotnet/api/system.web.configuration.clienttarget)   
  [ClientTarget Class](../wmi-provider/clienttarget-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)

@@ -1,15 +1,7 @@
 ---
-title: "IHttpTokenEntry Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpTokenEntry Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a7244321-a081-c31a-69fc-c78ce0380226
-caps.latest.revision: 34
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpTokenEntry Interface
 Extends the [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md) interface by adding token-specific information for tokens that are cached on a server.  

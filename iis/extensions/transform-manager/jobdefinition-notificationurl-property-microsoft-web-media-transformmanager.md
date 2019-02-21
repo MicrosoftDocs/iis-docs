@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.NotificationUrl Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.NotificationUrl Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: NotificationUrl Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.NotificationUrl
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.notificationurl(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_NotificationUrl
 - Microsoft.Web.Media.TransformManager.JobDefinition.NotificationUrl
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # NotificationUrl Property
@@ -40,7 +39,7 @@ Gets or sets a URL to which HTTP POST request notifications are sent.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property NotificationUrl As String
@@ -56,12 +55,12 @@ value = instance.NotificationUrl
 instance.NotificationUrl = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string NotificationUrl { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ NotificationUrl {
@@ -75,19 +74,19 @@ property String^ NotificationUrl {
 member NotificationUrl : string with get, set
 ```
 
-``` jscript
+```jscript
   function get NotificationUrl () : String
 function set NotificationUrl (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The URL.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

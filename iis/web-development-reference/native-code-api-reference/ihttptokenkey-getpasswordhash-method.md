@@ -1,15 +1,7 @@
 ---
-title: "IHttpTokenKey::GetPasswordHash Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpTokenKey::GetPasswordHash Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1259192c-d947-3f24-d7e8-f72092b07e38
-caps.latest.revision: 28
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpTokenKey::GetPasswordHash Method
 Returns the user password as a hash value.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetPasswordHash(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

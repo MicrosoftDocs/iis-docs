@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Represents the adaptive source failed event arguments.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 public sealed class AdaptiveSourceFailedEventArgs
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 public ref class AdaptiveSourceFailedEventArgs sealed
 ```
 
-``` jscript
+```jscript
 public final class AdaptiveSourceFailedEventArgs
 ```
 

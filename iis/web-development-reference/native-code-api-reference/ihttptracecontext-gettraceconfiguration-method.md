@@ -1,15 +1,7 @@
 ---
-title: "IHttpTraceContext::GetTraceConfiguration Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpTraceContext::GetTraceConfiguration Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 57ac1397-e4e0-422c-af57-cd441981bce9
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpTraceContext::GetTraceConfiguration Method
 Returns the trace configuration for the trace context.  
@@ -22,7 +14,7 @@ virtual HRESULT GetTraceConfiguration(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpTraceConfiguration`  
  [IN] [OUT] A pointer to an [HTTP_TRACE_CONFIGURATION](../../web-development-reference\native-code-api-reference/http-trace-configuration-structure.md) structure that contains information for trace configuration.  
   

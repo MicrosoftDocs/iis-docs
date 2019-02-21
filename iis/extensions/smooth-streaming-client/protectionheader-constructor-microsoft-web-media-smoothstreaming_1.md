@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.#ctor
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.ProtectionHeader
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ProtectionHeader Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [ProtectionHeader](protectionheader-class-micr
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New
@@ -47,11 +46,11 @@ Public Sub New
 Dim instance As New ProtectionHeader()
 ```
 
-``` csharp
+```csharp
 public ProtectionHeader()
 ```
 
-``` c++
+```cpp
 public:
 ProtectionHeader()
 ```
@@ -60,23 +59,23 @@ ProtectionHeader()
 new : unit -> ProtectionHeader
 ```
 
-``` jscript
+```jscript
 public function ProtectionHeader()
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ProtectionHeader Class](protectionheader-class-microsoft-web-media-smoothstreaming_1.md)
 

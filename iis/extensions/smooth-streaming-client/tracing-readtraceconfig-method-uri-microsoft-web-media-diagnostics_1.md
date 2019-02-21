@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.ReadTraceConfig Method (Uri)
@@ -34,7 +33,7 @@ Reads trace configuration settings from XML data returned by the uri that is spe
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Sub ReadTraceConfig ( _
@@ -47,13 +46,13 @@ Dim uri As Uri
 Tracing.ReadTraceConfig(uri)
 ```
 
-``` csharp
+```csharp
 public static void ReadTraceConfig(
     Uri uri
 )
 ```
 
-``` c++
+```cpp
 public:
 static void ReadTraceConfig(
     Uri^ uri
@@ -65,31 +64,31 @@ static member ReadTraceConfig :
         uri:Uri -> unit 
 ```
 
-``` jscript
+```jscript
 public static function ReadTraceConfig(
     uri : Uri
 )
 ```
 
-#### Parameters
+### Parameters
 
   - uri  
-    Type: [System.Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\))  
-    A [Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\)) object that returns XML trace configuration data.
+    Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\))  
+    A [Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\)) object that returns XML trace configuration data.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

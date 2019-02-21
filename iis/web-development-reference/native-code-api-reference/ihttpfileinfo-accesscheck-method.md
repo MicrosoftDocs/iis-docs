@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo::AccessCheck Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo::AccessCheck Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 87318954-5b0c-3d49-5cf5-b9d58de912a5
-caps.latest.revision: 32
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo::AccessCheck Method
 Returns a value that indicates whether the user can access the corresponding file.  
@@ -23,7 +15,7 @@ virtual HRESULT AccessCheck(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `hUserToken`  
  [IN] A `HANDLE` that contains the token for the user.  
   

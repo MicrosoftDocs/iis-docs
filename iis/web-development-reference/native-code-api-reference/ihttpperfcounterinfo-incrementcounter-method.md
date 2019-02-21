@@ -1,15 +1,7 @@
 ---
-title: "IHttpPerfCounterInfo::IncrementCounter Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpPerfCounterInfo::IncrementCounter Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 38f4fbb2-7ae1-0028-4c19-53abe9d9ead2
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpPerfCounterInfo::IncrementCounter Method
 Increments a performance counter by a specified amount.  
@@ -23,7 +15,7 @@ virtual VOID IncrementCounter(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwCounterIndex`  
  The performance counter to increment.  
   

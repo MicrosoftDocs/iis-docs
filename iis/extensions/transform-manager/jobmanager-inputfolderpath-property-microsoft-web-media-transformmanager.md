@@ -1,5 +1,5 @@
 ---
-title: JobManager.InputFolderPath Property  (Microsoft.Web.Media.TransformManager)
+title: JobManager.InputFolderPath Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFolderPath Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.InputFolderPath
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.inputfolderpath(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.InputFolderPath
 - Microsoft.Web.Media.TransformManager.JobManager.get_InputFolderPath
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # InputFolderPath Property
@@ -38,7 +37,7 @@ Gets the input folder name.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property InputFolderPath As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.InputFolderPath
 ```
 
-``` csharp
+```csharp
   public string InputFolderPath { get; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ InputFolderPath {
     String^ get ();
@@ -66,18 +65,18 @@ property String^ InputFolderPath {
   member InputFolderPath : string
 ```
 
-``` jscript
+```jscript
   function get InputFolderPath () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The input folder name.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

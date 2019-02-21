@@ -1,15 +1,7 @@
 ---
-title: "ConnectionManagementElement Class | Microsoft Docs"
-ms.custom: ""
+title: "ConnectionManagementElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f06a0303-0aec-1e35-7711-f48e4399a249
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConnectionManagementElement Class
 Defines the maximum number of connections to a server or group of servers.  

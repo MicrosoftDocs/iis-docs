@@ -1,15 +1,7 @@
 ---
-title: "IFileKey::GetPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IFileKey::GetPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c2b0cdbc-c41a-300b-3deb-8514b5069c3f
-caps.latest.revision: 44
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IFileKey::GetPath Method
 Returns the absolute physical path of a file.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetPath(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

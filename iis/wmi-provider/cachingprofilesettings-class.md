@@ -1,15 +1,7 @@
 ---
-title: "CachingProfileSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "CachingProfileSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1d6bc1a4-e594-464f-9521-0093f06d901f
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CachingProfileSettings Class
 Contains profiles for output and kernel caching.  

@@ -1,15 +1,7 @@
 ---
-title: "IWorkerProcessFramework Interface | Microsoft Docs"
-ms.custom: ""
+title: "IWorkerProcessFramework Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fd47af87-0694-edb2-e8da-190a871e3372
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWorkerProcessFramework Interface
 Defines the base interface for the worker process framework, and exposes methods for a protocol manager to interact with the worker process framework and other protocol managers.  

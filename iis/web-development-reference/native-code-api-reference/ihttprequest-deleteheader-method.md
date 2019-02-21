@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::DeleteHeader Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::DeleteHeader Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 922cd9ec-3c4d-81f8-581e-e7d81683c716
-caps.latest.revision: 27
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::DeleteHeader Method
 Deletes an HTTP header from the request.  
@@ -26,7 +18,7 @@ virtual HRESULT DeleteHeader(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszHeaderName`  
  [IN] A pointer to a string that contains the name of the header to delete.  
   
@@ -51,7 +43,7 @@ virtual HRESULT DeleteHeader(
  The `ulHeaderIndex` parameter specifies the ID of an HTTP header that is listed in the `HTTP_HEADER_ID` enumeration, which contains several common HTTP headers.  
   
 > [!NOTE]
->  The `HTTP_HEADER_ID` enumeration is defined in the Http.h header file.  
+> The `HTTP_HEADER_ID` enumeration is defined in the Http.h header file.  
   
 ## Example  
  The following code example illustrates how to use both versions of the `DeleteHeader` method to create an HTTP module that removes the `User-Agent` and `Accept-Language` HTTP headers from the request.  

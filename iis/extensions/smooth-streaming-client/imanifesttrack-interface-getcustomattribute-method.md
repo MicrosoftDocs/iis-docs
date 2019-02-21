@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ Gets the track level custom attributes from the manifest.
 
 ## Syntax
 
-``` csharp
+```csharp
 string GetCustomAttribute(
 string name
 )
 ```
 
-``` c++
+```cpp
 String^ GetCustomAttribute(
 [InAttribute] String^ name
 )
 ```
 
-``` jscript
+```jscript
 function GetCustomAttribute(
 name : String
 ) : String
@@ -41,7 +41,7 @@ name : String
 ## Parameters
 
   - name  
-    Type: [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))
+    Type: [String](https://msdn.microsoft.com/library/s1wwdcbf)
 
 ## Return Value
 

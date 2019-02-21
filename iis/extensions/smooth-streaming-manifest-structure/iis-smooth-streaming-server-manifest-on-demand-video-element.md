@@ -21,7 +21,7 @@ The video element specifies a single track of video data.
 
 The following sections describe attributes, child elements, and parent elements.
 
-#### Attributes
+### Attributes
 
 |Attribute|Description|
 |--- |--- |
@@ -30,13 +30,13 @@ The following sections describe attributes, child elements, and parent elements.
 |**systemLanguage**|Specifies the language of the track using an RFC-1766 identifier. This is an informative tagging scheme and distinct track names are still required in order to discriminate between tracks at the same bit rate in different languages. This attribute is optional.|
 
 
-#### Child Elements
+### Child Elements
 
 |Element|Description|
 |--- |--- |
 |**param**|The param element specifies a single parameter for a video element.|
 
-#### Parent Elements
+### Parent Elements
 
 |Element|Description|
 |--- |--- |
@@ -44,7 +44,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - switch Element](iis-smooth-streaming-server-manifest-on-demand-switch-element.md)
 

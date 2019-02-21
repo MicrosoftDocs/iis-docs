@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetUser Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetUser Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f98e6f16-fa74-fa56-d9cb-26529064e4fa
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetUser Method
 Retrieves the user information container for the current context.  
@@ -22,7 +14,7 @@ virtual IHttpUser* GetUser(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetParentContext Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetParentContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 99ef993a-b8a5-71d4-0223-f3d2acf489c8
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetParentContext Method
 Retrieves a pointer to the parent context for the current context.  
@@ -22,7 +14,7 @@ virtual IHttpContext* GetParentContext(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

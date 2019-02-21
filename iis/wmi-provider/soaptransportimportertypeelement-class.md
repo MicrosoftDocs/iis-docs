@@ -1,15 +1,7 @@
 ---
-title: "SoapTransportImporterTypeElement Class | Microsoft Docs"
-ms.custom: ""
+title: "SoapTransportImporterTypeElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3b116efc-e40f-4c9e-a440-4854cb71daf5
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SoapTransportImporterTypeElement Class
 Imports a SOAP transmission protocol into an XML Web service.  

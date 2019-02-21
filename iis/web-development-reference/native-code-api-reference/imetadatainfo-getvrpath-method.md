@@ -1,15 +1,7 @@
 ---
-title: "IMetadataInfo::GetVrPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IMetadataInfo::GetVrPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 59cc1bc2-1437-2ecc-cfae-a2ffbaed9130
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IMetadataInfo::GetVrPath Method
 Retrieves the physical path for a virtual directory within the current context.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetVrPath(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

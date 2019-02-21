@@ -1,15 +1,7 @@
 ---
-title: "IHealthStatusCallback::ReportHealth Method | Microsoft Docs"
-ms.custom: ""
+title: "IHealthStatusCallback::ReportHealth Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 97b88f52-6240-6a7c-252d-1e5fc6ba9b29
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHealthStatusCallback::ReportHealth Method
 Allows a protocol manager to report its current health status in response to a query from the [IPmHealthAndIdleMonitor::CheckHealth](../../web-development-reference\native-code-api-reference/ipmhealthandidlemonitor-checkhealth-method.md) method.  
@@ -22,7 +14,7 @@ virtual HRESULT ReportHealth(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `fHealthy`  
  `true` to indicate that the protocol manager is healthy; otherwise, `false`.  
   

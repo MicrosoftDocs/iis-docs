@@ -22,7 +22,7 @@ The **GetProperty** method gets the value of the requested property for this ent
 
 |||
 |--- |--- |
-|*propertyName*|A requested property from the [PLAYLIST_PROPERTY_TYPE Enumeration](https://msdn.microsoft.com/en-us/library/dd146289(v=vs.90)) enumeration.|
+|*propertyName*|A requested property from the [PLAYLIST_PROPERTY_TYPE Enumeration](https://msdn.microsoft.com/library/dd146289) enumeration.|
 |*pVariantValue*|The returned property value.|
 
 

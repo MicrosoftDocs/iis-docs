@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # Index Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [Index](index-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -29,11 +26,9 @@ The [Index](index-class-microsoft-web-management-databasemanager.md) type expose
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[OriginalName](index-originalname-property-microsoft-web-management-databasemanager.md)|Gets or sets the original name for the index.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Unique](index-unique-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the index is unique.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [Index Class](index-class-microsoft-web-management-databasemanager.md)
 

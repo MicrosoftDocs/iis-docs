@@ -1,5 +1,5 @@
 ---
-title: IisNamespaces.ExpressionEncoder Property  (Microsoft.Web.Media.TransformManager)
+title: IisNamespaces.ExpressionEncoder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ExpressionEncoder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.ExpressionEncoder
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.expressionencoder(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_ExpressionEncoder
 - Microsoft.Web.Media.TransformManager.IisNamespaces.ExpressionEncoder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ExpressionEncoder Property
@@ -38,7 +37,7 @@ Gets the URI of an expression encoder schema document.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared ReadOnly Property ExpressionEncoder As XNamespace
@@ -50,11 +49,11 @@ Gets the URI of an expression encoder schema document.
 value = IisNamespaces.ExpressionEncoder
 ```
 
-``` csharp
+```csharp
   public static XNamespace ExpressionEncoder { get; }
 ```
 
-``` c++
+```cpp
   public:
 static property XNamespace^ ExpressionEncoder {
     XNamespace^ get ();
@@ -65,18 +64,18 @@ static property XNamespace^ ExpressionEncoder {
   static member ExpressionEncoder : XNamespace
 ```
 
-``` jscript
+```jscript
   static function get ExpressionEncoder () : XNamespace
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XNamespace](https://msdn.microsoft.com/en-us/library/bb291898\(v=vs.90\))  
+Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
 The XML namespace value "http://schemas.microsoft.com/Expression/Encoder/V4\#".  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IisNamespaces Class](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 

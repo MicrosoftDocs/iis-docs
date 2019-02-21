@@ -1,15 +1,7 @@
 ---
-title: "IHttpModuleContextContainer::SetModuleContext Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpModuleContextContainer::SetModuleContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b6c08c35-90c0-c5b4-c59c-2a280b6f00d9
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpModuleContextContainer::SetModuleContext Method
 Sets the stored context on the context container.  
@@ -23,7 +15,7 @@ virtual HRESULT SetModuleContext(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppStoredContext`  
  [IN] A pointer to an [IHttpStoredContext](../../web-development-reference\native-code-api-reference/ihttpstoredcontext-interface.md) value. Must be non-NULL.  
   

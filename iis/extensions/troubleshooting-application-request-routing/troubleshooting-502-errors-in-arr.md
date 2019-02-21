@@ -189,7 +189,7 @@ In this next example, the content server was completely offline:
 ### Other Resources
 
 - [ERR.EXE](https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=985)
-- [Winhttp Error Codes](https://msdn.microsoft.com/en-us/library/aa383770(VS.85).aspx)
+- [Winhttp Error Codes](https://msdn.microsoft.com/library/aa383770(VS.85).aspx)
 - [Failed Request Tracing](https://www.iis.net/learn/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis)
 - [Winhttp Tracing](https://technet.microsoft.com/en-us/library/cc731131(WS.10).aspx)
 - [Network Monitor](https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=4865)

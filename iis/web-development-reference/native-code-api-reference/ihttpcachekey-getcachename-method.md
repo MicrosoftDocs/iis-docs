@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheKey::GetCacheName Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheKey::GetCacheName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9051f74f-4c24-4af5-9cdb-a3b6038b6149
-caps.latest.revision: 49
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheKey::GetCacheName Method
 Returns the unique name of the cache where a [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) event has occurred.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetCacheName(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

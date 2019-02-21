@@ -1,5 +1,5 @@
 ---
-title: DatabaseProvider.ConnectionStringArguments Property  (Microsoft.Web.Management.DatabaseManager)
+title: DatabaseProvider.ConnectionStringArguments Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ConnectionStringArguments Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.ConnectionStringArguments
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.databaseprovider.connectionstringarguments(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.ConnectionStringArguments
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.get_ConnectionStringArguments
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseProvider.ConnectionStringArguments Property
@@ -37,7 +36,7 @@ Gets a collection that contains the collection of database connection arguments.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public MustOverride ReadOnly Property ConnectionStringArguments As ICollection(Of ConnectionArgument)
 'Usage
@@ -47,24 +46,24 @@ Dim value As ICollection(Of ConnectionArgument)
 value = instance.ConnectionStringArguments
 ```
 
-``` csharp
+```csharp
 public abstract ICollection<ConnectionArgument> ConnectionStringArguments { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property ICollection<ConnectionArgument^>^ ConnectionStringArguments {
     ICollection<ConnectionArgument^>^ get () abstract;
 }
 ```
 
-``` jscript
+```jscript
 abstract function get ConnectionStringArguments () : ICollection<ConnectionArgument>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/en-us/library/92t2ye13\(v=vs.90\))\<[ConnectionArgument](connectionargument-class-microsoft-web-management-databasemanager.md)\>  
+Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/library/92t2ye13)\<[ConnectionArgument](connectionargument-class-microsoft-web-management-databasemanager.md)\>  
 A read-only ICollection object that contains a [ConnectionArgument](connectionargument-class-microsoft-web-management-databasemanager.md) collection.  
 
 ## Remarks
@@ -75,7 +74,7 @@ Your provider must implement the ConnectionStringArguments property in order to 
 
 The following code sample illustrates an example ConnectionStringArguments property that returns the connection string arguments for a Microsoft Access database provider.
 
-``` vb
+```vb
 
     Public Overrides ReadOnly Property ConnectionStringArguments() _
             As System.Collections.Generic.ICollection( _
@@ -105,7 +104,7 @@ The following code sample illustrates an example ConnectionStringArguments prope
 
 ```
 
-``` csharp
+```csharp
 
         public override ICollection<ConnectionArgument> ConnectionStringArguments
         {
@@ -139,11 +138,11 @@ The following code sample illustrates an example ConnectionStringArguments prope
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 

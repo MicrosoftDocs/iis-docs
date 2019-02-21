@@ -1,15 +1,7 @@
 ---
-title: "TraceSection Class | Microsoft Docs"
-ms.custom: ""
+title: "TraceSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c6205ff6-062d-7f7a-98a3-2df6a50bc47b
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TraceSection Class
 Configures the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] code-tracing service.  
@@ -56,7 +48,7 @@ class TraceSection : ConfigurationSection
 |Value|Keyword|Description|  
 |-----------|-------------|-----------------|  
 |1|`SortByTime`|Specifies that trace information is displayed in the order that it is processed.|  
-|2|`SortByCategory`|Specifies that trace information is displayed alphabetically by user-defined categories specified in the [System.Web.TraceContext.Warn](/dotnet/api/system.web.tracecontext.warn?view=netframework-4.7.2) and [System.Web.TraceContext.Write](/dotnet/api/system.web.tracecontext.write?view=netframework-4.7.2) method calls in page or server control code.|  
+|2|`SortByCategory`|Specifies that trace information is displayed alphabetically by user-defined categories specified in the [System.Web.TraceContext.Warn](/dotnet/api/system.web.tracecontext.warn) and [System.Web.TraceContext.Write](/dotnet/api/system.web.tracecontext.write) method calls in page or server control code.|  
   
 ## Inheritance Hierarchy  
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
@@ -73,7 +65,7 @@ class TraceSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.TraceContext](/dotnet/api/system.web.tracecontext?view=netframework-4.7.2) 
+ [System.Web.TraceContext](/dotnet/api/system.web.tracecontext) 
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [trace Element (ASP.NET Settings Schema)](http://go.microsoft.com/fwlink/?LinkId=67200)   
  [How to: Enable Tracing for an ASP.NET Page](http://go.microsoft.com/fwlink/?LinkId=67201)   

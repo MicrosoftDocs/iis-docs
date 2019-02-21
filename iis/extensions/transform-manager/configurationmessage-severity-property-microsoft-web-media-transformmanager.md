@@ -1,5 +1,5 @@
 ---
-title: ConfigurationMessage.Severity Property  (Microsoft.Web.Media.TransformManager)
+title: ConfigurationMessage.Severity Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Severity Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.Severity
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationmessage.severity(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.get_Severity
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.set_Severity
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Severity Property
@@ -40,7 +39,7 @@ Gets or set the error severity.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property Severity As ConfigurationMessageSeverity
@@ -56,12 +55,12 @@ value = instance.Severity
 instance.Severity = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public ConfigurationMessageSeverity Severity { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property ConfigurationMessageSeverity Severity {
@@ -75,19 +74,19 @@ property ConfigurationMessageSeverity Severity {
 member Severity : ConfigurationMessageSeverity with get, set
 ```
 
-``` jscript
+```jscript
   function get Severity () : ConfigurationMessageSeverity
 function set Severity (value : ConfigurationMessageSeverity)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .ConfigurationMessageSeverity](configurationmessageseverity-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity](configurationmessageseverity-enumeration-microsoft-web-media-transformmanager.md)  
 The error severity.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationMessage Class](configurationmessage-class-microsoft-web-media-transformmanager.md)
 

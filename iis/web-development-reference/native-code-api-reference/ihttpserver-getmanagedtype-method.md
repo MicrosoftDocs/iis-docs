@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::GetManagedType Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::GetManagedType Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b4e71c1b-10cd-5cf2-0198-0d73ba87fd9f
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::GetManagedType Method
 Retrieves the managed type for a specific site and Uniform Resource Identifier (URI).  
@@ -25,7 +17,7 @@ virtual HRESULT GetManagedType(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwSiteId`  
  [IN] The site identifier for the URI in `pszVirtualPath`.  
   

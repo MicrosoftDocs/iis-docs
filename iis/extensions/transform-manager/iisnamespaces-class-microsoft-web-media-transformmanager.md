@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IisNamespaces
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IisNamespaces Class
@@ -33,7 +32,7 @@ Provides the URIs of XML namespace schema documents.
 
 ## Inheritance Hierarchy
 
-[System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
+[System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
   Microsoft.Web.Media.TransformManager..::..IisNamespaces  
 
 **Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
@@ -41,7 +40,7 @@ Provides the URIs of XML namespace schema documents.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public NotInheritable Class IisNamespaces
@@ -50,11 +49,11 @@ Provides the URIs of XML namespace schema documents.
   
 ```
 
-``` csharp
+```csharp
   public static class IisNamespaces
 ```
 
-``` c++
+```cpp
   public ref class IisNamespaces abstract sealed
 ```
 
@@ -64,7 +63,7 @@ Provides the URIs of XML namespace schema documents.
 type IisNamespaces =  class end
 ```
 
-``` jscript
+```jscript
   public final class IisNamespaces
 ```
 
@@ -88,15 +87,13 @@ The IisNamespaces type exposes the following members.
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[TaskDefinitionNamespace](iisnamespaces-taskdefinitionnamespace-property-microsoft-web-media-transformmanager.md)|Gets the URI of an XML namespace that is related to task definitions.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[Xmlns](iisnamespaces-xmlns-property-microsoft-web-media-transformmanager.md)|Gets a URL to an XML namespace that is related to XML namespaces.|
 
-Top
-
 ## Thread Safety
 
 Any public static (Shared in Visual Basic) members of this type are thread safe. Any instance members are not guaranteed to be thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 718f9094-273e-713f-1d18-08fec8c0a6bb
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse Interface
 Provides an interface to an HTTP response object. You can use the methods in the `IHttpResponse` interface to retrieve and modify data in the current HTTP response.  

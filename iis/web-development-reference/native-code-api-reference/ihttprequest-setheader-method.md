@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::SetHeader Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::SetHeader Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 30c45c81-36f6-4e0f-e21c-c983923a1af3
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::SetHeader Method
 Sets or appends the value of a specified HTTP request header.  
@@ -32,7 +24,7 @@ virtual HRESULT SetHeader(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszHeaderName`  
  [IN] A pointer to a string that contains the name of the HTTP header to set.  
   
@@ -69,7 +61,7 @@ virtual HRESULT SetHeader(
  The `ulHeaderIndex` parameter specifies the ID of an HTTP header that is listed in the `HTTP_HEADER_ID` enumeration.  
   
 > [!NOTE]
->  The `HTTP_HEADER_ID` enumeration is defined in the Http.h header file.  
+> The `HTTP_HEADER_ID` enumeration is defined in the Http.h header file.  
   
  If the `fReplace` parameter is `true`, the specified header value will replace the existing header value if the header exists. If `fReplace` is `false`, you should append the specified header value to the existing header and separate the value from the header itself with a comma.  
   

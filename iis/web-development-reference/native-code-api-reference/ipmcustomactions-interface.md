@@ -1,15 +1,7 @@
 ---
-title: "IPmCustomActions Interface | Microsoft Docs"
-ms.custom: ""
+title: "IPmCustomActions Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 276195fc-250c-b641-a410-5fc32e21967b
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPmCustomActions Interface
 Allows the worker process framework to request custom Run-Time Status and Control operations from a protocol manager.  

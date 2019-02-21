@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElement::Clear Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElement::Clear Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 84ab0e10-0c50-6a3a-5bf6-67dd08552d74
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElement::Clear Method
 Removes all elements from the configuration system.  
@@ -21,7 +13,7 @@ HRESULT Clear(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

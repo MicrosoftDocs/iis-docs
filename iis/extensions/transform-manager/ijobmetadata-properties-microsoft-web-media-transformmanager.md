@@ -25,11 +25,9 @@ The [IJobMetadata](ijobmetadata-interface-microsoft-web-media-transformmanager.m
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Status](ijobmetadata-status-property-microsoft-web-media-transformmanager.md)|Gets or sets the status of an ongoing transform.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskElement](ijobmetadata-taskelement-property-microsoft-web-media-transformmanager.md)|Gets the task element from the manifest.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IJobMetadata Interface](ijobmetadata-interface-microsoft-web-media-transformmanager.md)
 

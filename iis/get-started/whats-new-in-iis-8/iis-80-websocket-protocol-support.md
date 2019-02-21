@@ -76,4 +76,4 @@ IIS 8.0 has added support for WebSocket Protocol, which enables dynamic, two-way
     [http://www.paulbatum.com/2011/09/getting-started-with-websockets-in.html](http://www.paulbatum.com/2011/09/getting-started-with-websockets-in.html)
 - **IIS and Websockets**  
     [https://blogs.iis.net/jennylaw/archive/2012/09/05/iis-and-websockets.aspx](https://blogs.iis.net/jennylaw/archive/2012/09/05/iis-and-websockets.aspx)
-- **System.Net.WebSockets Namespace**[https://msdn.microsoft.com/en-us/library/system.net.websockets.aspx](https://msdn.microsoft.com/en-us/library/system.net.websockets.aspx)
+- **System.Net.WebSockets Namespace**[https://msdn.microsoft.com/library/system.net.websockets.aspx](https://msdn.microsoft.com/library/system.net.websockets.aspx)

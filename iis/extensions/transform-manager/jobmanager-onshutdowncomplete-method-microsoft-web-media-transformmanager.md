@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.OnShutdownComplete
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # OnShutdownComplete Method
@@ -36,7 +35,7 @@ Raises the [ShutdownComplete](jobmanager-shutdowncomplete-event-microsoft-web-me
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Protected Overridable Sub OnShutdownComplete ( _
@@ -49,13 +48,13 @@ Raises the [ShutdownComplete](jobmanager-shutdowncomplete-event-microsoft-web-me
 Me.OnShutdownComplete(e)
 ```
 
-``` csharp
+```csharp
   protected virtual void OnShutdownComplete(
     EventArgs e
 )
 ```
 
-``` c++
+```cpp
   protected:
 virtual void OnShutdownComplete(
     EventArgs^ e
@@ -69,21 +68,21 @@ override OnShutdownComplete :
         e:EventArgs -> unit 
 ```
 
-``` jscript
+```jscript
   protected function OnShutdownComplete(
     e : EventArgs
 )
 ```
 
-#### Parameters
+### Parameters
 
   - e  
-    Type: [System. . :: . .EventArgs](https://msdn.microsoft.com/en-us/library/118wxtk3\(v=vs.90\))  
+    Type: [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3)  
     The event data.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

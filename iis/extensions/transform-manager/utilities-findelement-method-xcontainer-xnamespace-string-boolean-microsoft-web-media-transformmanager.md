@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # FindElement Method (XContainer, XNamespace, String, Boolean)
@@ -34,7 +33,7 @@ Finds a specific element in the container by using the XML container, the XML co
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Function FindElement ( _
@@ -56,7 +55,7 @@ returnValue = Utilities.FindElement(container, _
     searchChildren)
 ```
 
-``` csharp
+```csharp
   public static XElement FindElement(
     XContainer container,
     XNamespace containerNamespace,
@@ -65,7 +64,7 @@ returnValue = Utilities.FindElement(container, _
 )
 ```
 
-``` c++
+```cpp
   public:
 static XElement^ FindElement(
     XContainer^ container, 
@@ -83,7 +82,7 @@ static XElement^ FindElement(
         searchChildren:bool -> XElement 
 ```
 
-``` jscript
+```jscript
   public static function FindElement(
     container : XContainer, 
     containerNamespace : XNamespace, 
@@ -92,43 +91,43 @@ static XElement^ FindElement(
 ) : XElement
 ```
 
-#### Parameters
+### Parameters
 
   - container  
-    Type: [System.Xml.Linq. . :: . .XContainer](https://msdn.microsoft.com/en-us/library/bb353736\(v=vs.90\))  
+    Type: [System.Xml.Linq.XContainer](https://msdn.microsoft.com/library/bb353736)  
     An XML node to search.  
 
 <!-- end list -->
 
   - containerNamespace  
-    Type: [System.Xml.Linq. . :: . .XNamespace](https://msdn.microsoft.com/en-us/library/bb291898\(v=vs.90\))  
+    Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
     The XML namespace of the XML container node.  
 
 <!-- end list -->
 
   - elementName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the XML element to find.  
 
 <!-- end list -->
 
   - searchChildren  
-    Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
     true if the descendant elements should be searched; otherwise, false.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[ArgumentNullException](https://msdn.microsoft.com/en-us/library/27426hcy(v=vs.90))|container, containerNamespace, or elementName is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
+|[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|container, containerNamespace, or elementName is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Utilities Class](utilities-class-microsoft-web-media-transformmanager.md)
 

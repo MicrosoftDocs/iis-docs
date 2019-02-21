@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ Sets the seconds playback is backed off from when tuning to live.
 
 ## Syntax
 
-``` csharp
+```csharp
 void SetPlaybackOffsetSec(
 uint playbackOffsetSec
 )
 ```
 
-``` c++
+```cpp
 void SetPlaybackOffsetSec(
 [InAttribute] unsigned int playbackOffsetSec
 )
 ```
 
-``` jscript
+```jscript
 function SetPlaybackOffsetSec(
 playbackOffsetSec : uint
 )

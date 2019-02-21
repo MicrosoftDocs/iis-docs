@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsStatus
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDetailsStatus Field
@@ -36,7 +35,7 @@ Represents a constant that is used when transform jobs are sorted by the "status
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const JobDetailsStatus As String
@@ -47,11 +46,11 @@ Represents a constant that is used when transform jobs are sorted by the "status
 value = JobDetails.JobDetailsStatus
 ```
 
-``` csharp
+```csharp
   public const string JobDetailsStatus
 ```
 
-``` c++
+```cpp
   public:
 literal String^ JobDetailsStatus
 ```
@@ -60,13 +59,13 @@ literal String^ JobDetailsStatus
   static val mutable JobDetailsStatus: string
 ```
 
-``` jscript
+```jscript
   public const var JobDetailsStatus : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

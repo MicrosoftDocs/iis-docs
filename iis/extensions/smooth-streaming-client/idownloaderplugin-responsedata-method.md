@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,21 +20,21 @@ Response after download data is ready for caching.
 
 ## Syntax
 
-``` csharp
+```csharp
 void ResponseData(
 DownloaderRequest pDownloaderRequest,
 DownloaderResponse pDownloaderResponse
 )
 ```
 
-``` c++
+```cpp
 HRESULT ResponseData(
 [in] DownloaderRequest* pDownloaderRequest, 
 [in] DownloaderResponse* pDownloaderResponse
 )
 ```
 
-``` jscript
+```jscript
 function ResponseData(
 pDownloaderRequest : DownloaderRequest, 
 pDownloaderResponse : DownloaderResponse

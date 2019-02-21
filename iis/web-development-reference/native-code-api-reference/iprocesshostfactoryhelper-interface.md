@@ -1,15 +1,7 @@
 ---
-title: "IProcessHostFactoryHelper Interface | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHostFactoryHelper Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: dc1cd4f7-dbff-408b-26a5-0c4d6c6897c8
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHostFactoryHelper Interface
 Provides a method to retrieve an [IProcessHost](../../web-development-reference\native-code-api-reference/iprocesshost-interface.md) interface.  

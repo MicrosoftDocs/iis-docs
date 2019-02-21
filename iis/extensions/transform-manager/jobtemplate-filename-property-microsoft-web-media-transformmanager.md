@@ -1,5 +1,5 @@
 ---
-title: JobTemplate.FileName Property  (Microsoft.Web.Media.TransformManager)
+title: JobTemplate.FileName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: FileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobTemplate.FileName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobtemplate.filename(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobTemplate.set_FileName
 - Microsoft.Web.Media.TransformManager.JobTemplate.get_FileName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # FileName Property
@@ -40,7 +39,7 @@ Gets or sets the name of this configuration file.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property FileName As String
@@ -56,12 +55,12 @@ value = instance.FileName
 instance.FileName = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string FileName { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ FileName {
@@ -75,19 +74,19 @@ property String^ FileName {
 member FileName : string with get, set
 ```
 
-``` jscript
+```jscript
   function get FileName () : String
 function set FileName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The name of this configuration file.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobTemplate Class](jobtemplate-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileMonitor Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileMonitor Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d7385ff5-6b80-6604-72fc-822aa18fe453
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileMonitor Interface
 File change monitor.  

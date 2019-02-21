@@ -1,16 +1,8 @@
 ---
-title: "IFtpProviderConstruct Interface | Microsoft Docs"
-ms.custom: ""
+title: "IFtpProviderConstruct Interface"
 ms.date: "09/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f4c8f1c8-f28e-4907-832d-05cccef42c0a
-caps.latest.revision: 8
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IFtpProviderConstruct Interface
 Provides an interface for passing configuration settings to a provider.  

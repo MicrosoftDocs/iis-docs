@@ -1,5 +1,5 @@
 ---
-title: ChunkResult.ChunkData Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ChunkResult.ChunkData Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkData Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkResult.ChunkData
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkresult.chunkdata(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.get_ChunkData
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.set_ChunkData
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkData Property
@@ -39,7 +38,7 @@ Gets or sets the data contained by [ChunkResult](chunkresult-class-microsoft-web
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ChunkData As Stream
@@ -51,11 +50,11 @@ Dim value As Stream
 value = instance.ChunkData
 ```
 
-``` csharp
+```csharp
   public Stream ChunkData { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property Stream^ ChunkData {
     Stream^ get ();
@@ -63,29 +62,29 @@ property Stream^ ChunkData {
 }
 ```
 
-``` jscript
+```jscript
   function get ChunkData () : Stream
 private function set ChunkData (value : Stream)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.IO. . :: . .Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\))  
-A [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\)) object.  
+Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e)  
+A [Stream](https://msdn.microsoft.com/library/8f86tw9e) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkResult Class](chunkresult-class-microsoft-web-media-smoothstreaming_1.md)
 

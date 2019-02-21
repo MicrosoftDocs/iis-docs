@@ -1,15 +1,7 @@
 ---
-title: "IGlobalTraceEventProvider::GetTraceEvent Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalTraceEventProvider::GetTraceEvent Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cefd0b4e-0eef-fe25-0242-87d496944a0c
-caps.latest.revision: 27
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalTraceEventProvider::GetTraceEvent Method
 Retrieves the trace event for the provider.  
@@ -22,7 +14,7 @@ virtual HRESULT GetTraceEvent(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppTraceEvent`  
  [OUT] A pointer to the address of an [HTTP_TRACE_EVENT](../../web-development-reference\native-code-api-reference/http-trace-event-structure.md) structure.  
   

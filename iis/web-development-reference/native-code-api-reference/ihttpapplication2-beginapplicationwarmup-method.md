@@ -1,15 +1,7 @@
 ---
-title: "IHttpApplication2::BeginApplicationWarmup Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpApplication2::BeginApplicationWarmup Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4ba4f4c1-e02d-427b-b7e3-39703ff88237
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpApplication2::BeginApplicationWarmup Method
 Starts loading the application into server memory and initializing it before the first HTTP request arrives.  
@@ -22,7 +14,7 @@ virtual VOID BeginApplicationWarmup(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method accepts no parameters.  
   
 ## Return Value  

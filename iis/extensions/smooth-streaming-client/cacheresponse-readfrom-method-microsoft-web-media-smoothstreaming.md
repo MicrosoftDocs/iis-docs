@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.ReadFrom
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,19 +23,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ReadFrom Method
 
-Reads the response from a [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\)) object. There is no default implementation for this method. Calling the method without implementing an override will result in a [NotSupportedException](https://msdn.microsoft.com/en-us/library/8a7a4e64\(v=vs.90\)).
+Reads the response from a [Stream](https://msdn.microsoft.com/library/8f86tw9e) object. There is no default implementation for this method. Calling the method without implementing an override will result in a [NotSupportedException](https://msdn.microsoft.com/library/8a7a4e64).
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Overridable Sub ReadFrom ( _
@@ -49,48 +48,48 @@ Dim stream As Stream
 instance.ReadFrom(stream)
 ```
 
-``` csharp
+```csharp
   public virtual void ReadFrom(
     Stream stream
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual void ReadFrom(
     Stream^ stream
 )
 ```
 
-``` jscript
+```jscript
   public function ReadFrom(
     stream : Stream
 )
 ```
 
-#### Parameters
+### Parameters
 
   - stream  
-    Type: [System.IO. . :: . .Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\))  
-    The [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\)) object.  
+    Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e)  
+    The [Stream](https://msdn.microsoft.com/library/8f86tw9e) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

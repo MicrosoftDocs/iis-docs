@@ -1,15 +1,7 @@
 ---
-title: "IAppHostWritableAdminManager Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostWritableAdminManager Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f1ca4d4d-b421-eba8-a50a-74305fa71944
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostWritableAdminManager Interface
 Provides read/write access to explicit data in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  

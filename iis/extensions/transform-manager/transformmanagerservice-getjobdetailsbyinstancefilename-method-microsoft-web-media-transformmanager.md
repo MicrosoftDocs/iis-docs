@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobDetailsByInstanceFileName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobDetailsByInstanceFileName Method
@@ -36,7 +35,7 @@ Returns a collection of [JobDetails](jobdetails-class-microsoft-web-media-transf
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Function GetJobDetailsByInstanceFileName ( _
@@ -54,7 +53,7 @@ returnValue = instance.GetJobDetailsByInstanceFileName(jobDefinitionId, _
     instanceFileName)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public Collection<JobDetails> GetJobDetailsByInstanceFileName(
     string jobDefinitionId,
@@ -62,7 +61,7 @@ public Collection<JobDetails> GetJobDetailsByInstanceFileName(
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual Collection<JobDetails^>^ GetJobDetailsByInstanceFileName(
@@ -82,33 +81,33 @@ override GetJobDetailsByInstanceFileName :
         instanceFileName:string -> Collection<JobDetails> 
 ```
 
-``` jscript
+```jscript
   public final function GetJobDetailsByInstanceFileName(
     jobDefinitionId : String, 
     instanceFileName : String
 ) : Collection<JobDetails>
 ```
 
-#### Parameters
+### Parameters
 
   - jobDefinitionId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of a [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) object.  
 
 <!-- end list -->
 
   - instanceFileName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the file that instantiated the job.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 A collection of job details.  
 
-#### Implements
+### Implements
 
-[IMonitoringService. . :: . .GetJobDetailsByInstanceFileName(String, String)](imonitoringservice-getjobdetailsbyinstancefilename-method-microsoft-web-media-transformmanager.md)  
+[IMonitoringService.GetJobDetailsByInstanceFileName(String, String)](imonitoringservice-getjobdetailsbyinstancefilename-method-microsoft-web-media-transformmanager.md)  
 
 ## Remarks
 
@@ -116,7 +115,7 @@ The instance file name is created based on a combination of the date and a GUID.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

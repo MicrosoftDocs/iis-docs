@@ -9,9 +9,9 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 ---
 
 # Microsoft.Web.Media.Diagnostics Namespace

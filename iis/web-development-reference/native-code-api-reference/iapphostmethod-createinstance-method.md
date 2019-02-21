@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethod::CreateInstance Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethod::CreateInstance Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 37c391ea-9ce6-48e4-8ecb-cbe7e45b03a0
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethod::CreateInstance Method
 Provides access to a custom method that is optionally supported on an [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object.  
@@ -22,7 +14,7 @@ HRESULT CreateInstance(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppMethodInstance`  
  Contains the method-created instance.  
   

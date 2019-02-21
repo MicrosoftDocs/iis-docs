@@ -1,15 +1,7 @@
 ---
-title: "IHttpApplication Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpApplication Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: faa76e4c-9d1e-ad2c-185f-52ec4aab7c5f
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpApplication Interface
 Retrieves application-specific configuration information.  

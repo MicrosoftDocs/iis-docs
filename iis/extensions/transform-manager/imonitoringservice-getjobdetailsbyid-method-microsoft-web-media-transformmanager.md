@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobDetailsById
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobDetailsById Method
@@ -36,7 +35,7 @@ Returns a [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Function GetJobDetailsById ( _
@@ -51,14 +50,14 @@ Dim returnValue As JobDetails
 returnValue = instance.GetJobDetailsById(jobId)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 JobDetails GetJobDetailsById(
     string jobId
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 JobDetails^ GetJobDetailsById(
     String^ jobId
@@ -71,26 +70,26 @@ abstract GetJobDetailsById :
         jobId:string -> JobDetails 
 ```
 
-``` jscript
+```jscript
   function GetJobDetailsById(
     jobId : String
 ) : JobDetails
 ```
 
-#### Parameters
+### Parameters
 
   - jobId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job to return details for.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
 The [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) object.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
 

@@ -23,11 +23,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobStatus.Waiting
 - Microsoft.Web.Media.TransformManager.JobStatus.Queued
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -52,7 +52,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobStatus Enumeration
@@ -64,7 +63,7 @@ Specifies status information about a job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Enumeration JobStatus
@@ -73,11 +72,11 @@ Specifies status information about a job.
   Dim instance As JobStatus
 ```
 
-``` csharp
+```csharp
   public enum JobStatus
 ```
 
-``` c++
+```cpp
   public enum class JobStatus
 ```
 
@@ -85,13 +84,13 @@ Specifies status information about a job.
   type JobStatus
 ```
 
-``` jscript
+```jscript
   public enum JobStatus
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

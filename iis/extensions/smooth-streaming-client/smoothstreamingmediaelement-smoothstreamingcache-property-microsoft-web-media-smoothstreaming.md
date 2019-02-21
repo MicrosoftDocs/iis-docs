@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.SmoothStreamingCache Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.SmoothStreamingCache Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingCache Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingCache
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingcache(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_SmoothStreamingCache
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingCache
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingCache Property
@@ -39,7 +38,7 @@ Gets or sets the Smooth Streaming cache to use during main content playback.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property SmoothStreamingCache As ISmoothStreamingCache
@@ -53,11 +52,11 @@ value = instance.SmoothStreamingCache
 instance.SmoothStreamingCache = value
 ```
 
-``` csharp
+```csharp
   public ISmoothStreamingCache SmoothStreamingCache { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property ISmoothStreamingCache^ SmoothStreamingCache {
     ISmoothStreamingCache^ get ();
@@ -65,14 +64,14 @@ property ISmoothStreamingCache^ SmoothStreamingCache {
 }
 ```
 
-``` jscript
+```jscript
   function get SmoothStreamingCache () : ISmoothStreamingCache
 function set SmoothStreamingCache (value : ISmoothStreamingCache)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)  
+Type: [Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)  
 An object that implements the cache interface.  
 
 ## Remarks
@@ -81,21 +80,21 @@ To associate a cache with advertisements, the cache should be assigned to this p
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

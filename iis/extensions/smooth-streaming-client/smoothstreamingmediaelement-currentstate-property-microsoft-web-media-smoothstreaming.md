@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.CurrentState Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.CurrentState Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CurrentState Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentState
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentstate(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_CurrentState
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_CurrentState
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CurrentState Property
@@ -39,7 +38,7 @@ Gets or sets the current state of playback.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property CurrentState As SmoothStreamingMediaElementState
@@ -51,11 +50,11 @@ Dim value As SmoothStreamingMediaElementState
 value = instance.CurrentState
 ```
 
-``` csharp
+```csharp
   public SmoothStreamingMediaElementState CurrentState { get; internal set; }
 ```
 
-``` c++
+```cpp
   public:
 property SmoothStreamingMediaElementState CurrentState {
     SmoothStreamingMediaElementState get ();
@@ -63,14 +62,14 @@ property SmoothStreamingMediaElementState CurrentState {
 }
 ```
 
-``` jscript
+```jscript
   function get CurrentState () : SmoothStreamingMediaElementState
 internal function set CurrentState (value : SmoothStreamingMediaElementState)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .SmoothStreamingMediaElementState](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)  
+Type: [Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElementState](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)  
 A state object.  
 
 ## Remarks
@@ -81,21 +80,21 @@ For more information and for examples, see [IIS Smooth Streaming Client 1.5](mic
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

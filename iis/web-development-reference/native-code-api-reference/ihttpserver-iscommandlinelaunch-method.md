@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::IsCommandLineLaunch Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::IsCommandLineLaunch Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 43f13c9f-116e-b51e-a520-6d6a04217869
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::IsCommandLineLaunch Method
 Tests whether the worker process was launched from the command line.  
@@ -22,7 +14,7 @@ virtual BOOL IsCommandLineLaunch(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

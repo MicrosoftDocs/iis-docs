@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::IsCombinedKey Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::IsCombinedKey Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1a7b0abb-b457-4782-4c1c-eb0990cbe93a
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::IsCombinedKey Property
 Determines whether a property is part of a multiple-attribute key for a collection.  
@@ -23,7 +15,7 @@ HRESULT get_IsCombinedKey(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfIsCombinedKey`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if the property is part of a multiple-attribute key; otherwise, `VARIANT_FALSE`.  
   

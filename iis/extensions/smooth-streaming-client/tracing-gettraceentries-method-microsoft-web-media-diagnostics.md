@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.GetTraceEntries
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetTraceEntries Method
@@ -35,7 +34,7 @@ Gets an array of trace entries.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Function GetTraceEntries ( _
@@ -49,53 +48,53 @@ Dim returnValue As TraceEntry()
 returnValue = Tracing.GetTraceEntries(flushList)
 ```
 
-``` csharp
+```csharp
   public static TraceEntry[] GetTraceEntries(
     bool flushList
 )
 ```
 
-``` c++
+```cpp
   public:
 static array<TraceEntry^>^ GetTraceEntries(
     bool flushList
 )
 ```
 
-``` jscript
+```jscript
   public static function GetTraceEntries(
     flushList : boolean
 ) : TraceEntry[]
 ```
 
-#### Parameters
+### Parameters
 
   - flushList  
-    Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
     A Boolean value that specifies whether to flush the current buffer of trace entries.  
 
-#### Return Value
+### Return Value
 
-Type: array\<[Microsoft.Web.Media.Diagnostics. . :: . .TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md)\> \[\] () \[\] \[\]  
+Type: array\<[Microsoft.Web.Media.Diagnostics.TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md)\> \[\] () \[\] \[\]  
 An array of [TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md) objects.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

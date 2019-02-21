@@ -1,5 +1,5 @@
 ---
-title: ClipPlaybackEventArgs.Progress Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ClipPlaybackEventArgs.Progress Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Progress Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs.Progress
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipplaybackeventargs.progress(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs.get_Progress
 - Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs.set_Progress
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipPlaybackEventArgs.Progress Property
@@ -40,7 +39,7 @@ Gets or sets the Progress property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Progress As ClipProgress
@@ -54,11 +53,11 @@ Dim value As ClipProgress
 value = instance.Progress
 ```
 
-``` csharp
+```csharp
 public ClipProgress Progress { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property ClipProgress Progress {
     ClipProgress get ();
@@ -70,25 +69,25 @@ property ClipProgress Progress {
 member Progress : ClipProgress with get, private set
 ```
 
-``` jscript
+```jscript
 function get Progress () : ClipProgress
 private function set Progress (value : ClipProgress)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.ClipProgress](clipprogress-enumeration-microsoft-web-media-smoothstreaming_1.md)  
 A [ClipProgress](clipprogress-enumeration-microsoft-web-media-smoothstreaming_1.md) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipPlaybackEventArgs Class](clipplaybackeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

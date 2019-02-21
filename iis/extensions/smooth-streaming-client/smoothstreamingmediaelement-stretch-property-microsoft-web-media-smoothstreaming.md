@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.Stretch Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.Stretch Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Stretch Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Stretch
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.stretch(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_Stretch
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_Stretch
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Stretch Property
@@ -39,7 +38,7 @@ Gets or sets an object that determines how to stretch the media display.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Stretch As Stretch
@@ -53,11 +52,11 @@ value = instance.Stretch
 instance.Stretch = value
 ```
 
-``` csharp
+```csharp
   public Stretch Stretch { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property Stretch Stretch {
     Stretch get ();
@@ -65,33 +64,33 @@ property Stretch Stretch {
 }
 ```
 
-``` jscript
+```jscript
   function get Stretch () : Stretch
 function set Stretch (value : Stretch)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Windows.Media. . :: . .Stretch](https://msdn.microsoft.com/en-us/library/ms635549\(v=vs.90\))  
+Type: [System.Windows.Media.Stretch](https://msdn.microsoft.com/library/ms635549)  
 An object that specifies how the media element should be stretched to fill the destination rectangle.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

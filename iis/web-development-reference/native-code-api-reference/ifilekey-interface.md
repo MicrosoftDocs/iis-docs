@@ -1,15 +1,7 @@
 ---
-title: "IFileKey Interface | Microsoft Docs"
-ms.custom: ""
+title: "IFileKey Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f99a547e-97e3-0298-09df-297719c95c20
-caps.latest.revision: 53
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IFileKey Interface
 Represents key information for accessing associated data in the global file cache.  

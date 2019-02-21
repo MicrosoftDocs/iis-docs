@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SegmentInfo.SelectStreamsAsync Method (IList\<StreamInfo\>, Object)
@@ -34,7 +33,7 @@ Initializes a new instance of the [SegmentInfo](segmentinfo-class-microsoft-web-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub SelectStreamsAsync ( _
@@ -51,14 +50,14 @@ instance.SelectStreamsAsync(selectedStreams, _
     userState)
 ```
 
-``` csharp
+```csharp
 public void SelectStreamsAsync(
     IList<StreamInfo> selectedStreams,
     Object userState
 )
 ```
 
-``` c++
+```cpp
 public:
 void SelectStreamsAsync(
     IList<StreamInfo^>^ selectedStreams, 
@@ -72,23 +71,23 @@ member SelectStreamsAsync :
         userState:Object -> unit 
 ```
 
-``` jscript
+```jscript
 public function SelectStreamsAsync(
     selectedStreams : IList<StreamInfo>, 
     userState : Object
 )
 ```
 
-#### Parameters
+### Parameters
 
   - selectedStreams  
-    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.95\))\<[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
+    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6\(v=vs.95\))\<[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
     An IList object that contains the selected streams.
 
 <!-- end list -->
 
   - userState  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
     The user can pass any state information in a standard or custom type.
 
 ## Remarks
@@ -97,17 +96,17 @@ Calling this method to change streams on a smooth streaming presentation with mu
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SegmentInfo Class](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

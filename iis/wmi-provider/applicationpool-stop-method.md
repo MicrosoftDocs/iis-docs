@@ -1,15 +1,7 @@
 ---
-title: "ApplicationPool.Stop Method1 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationPool.Stop Method1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 993e71b6-ee93-10d4-8db1-36d6d78ebb02
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationPool.Stop Method1
 Stops an application pool.  
@@ -24,7 +16,7 @@ oApplicationPool.Stop
 oApplicationPool.Stop();  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

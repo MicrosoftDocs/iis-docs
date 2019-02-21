@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CreateInstance Method (Logger)
@@ -34,7 +33,7 @@ Creates a new instance of a [Scheduler](scheduler-class-microsoft-web-media-tran
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Function CreateInstance ( _
@@ -49,13 +48,13 @@ Dim returnValue As Scheduler
 returnValue = instance.CreateInstance(logger)
 ```
 
-``` csharp
+```csharp
   public Scheduler CreateInstance(
     Logger logger
 )
 ```
 
-``` c++
+```cpp
   public:
 Scheduler^ CreateInstance(
     Logger^ logger
@@ -67,26 +66,26 @@ Scheduler^ CreateInstance(
         logger:Logger -> Scheduler 
 ```
 
-``` jscript
+```jscript
   public function CreateInstance(
     logger : Logger
 ) : Scheduler
 ```
 
-#### Parameters
+### Parameters
 
   - logger  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .Logger](logger-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.Logger](logger-class-microsoft-web-media-transformmanager.md)  
     The [Logger](logger-class-microsoft-web-media-transformmanager.md) object that is used to log scheduler details.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .Scheduler](scheduler-class-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.Scheduler](scheduler-class-microsoft-web-media-transformmanager.md)  
 A [Scheduler](scheduler-class-microsoft-web-media-transformmanager.md) object that can be used to schedule a new job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SchedulerInfo Class](schedulerinfo-class-microsoft-web-media-transformmanager.md)
 

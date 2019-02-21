@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IMonitoringService.CancelJob
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CancelJob Method
@@ -36,7 +35,7 @@ Cancels a job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Function CancelJob ( _
@@ -51,14 +50,14 @@ Dim returnValue As JobStatus
 returnValue = instance.CancelJob(jobDetails)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 JobStatus CancelJob(
     JobDetails jobDetails
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 JobStatus CancelJob(
     JobDetails^ jobDetails
@@ -71,21 +70,21 @@ abstract CancelJob :
         jobDetails:JobDetails -> JobStatus 
 ```
 
-``` jscript
+```jscript
   function CancelJob(
     jobDetails : JobDetails
 ) : JobStatus
 ```
 
-#### Parameters
+### Parameters
 
   - jobDetails  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
     An object that contains the ID of the job to cancel and the work queue name that the job is in.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
 The [JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md) object that corresponds to the action.  
 
 ## Remarks
@@ -94,7 +93,7 @@ The job can be canceled when it is either running or queued (submitted but not y
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
 

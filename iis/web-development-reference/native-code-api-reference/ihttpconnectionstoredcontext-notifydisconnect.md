@@ -1,14 +1,7 @@
 ---
-title: "IHttpConnectionStoredContext::NotifyDisconnect | Microsoft Docs"
-ms.custom: ""
+title: "IHttpConnectionStoredContext::NotifyDisconnect"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2b05dd06-6fd9-4754-b5a8-ba63427ff4dc
-caps.latest.revision: 3
-author: "shirhatti"
 ---
 # IHttpConnectionStoredContext::NotifyDisconnect
 Notifies the caller that an established connection was disconnected.  
@@ -21,7 +14,7 @@ virtual VOID NotifyDisconnect(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  None  
   
 ## Return Value  

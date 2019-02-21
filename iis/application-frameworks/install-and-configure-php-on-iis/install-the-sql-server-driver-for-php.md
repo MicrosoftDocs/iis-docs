@@ -73,7 +73,7 @@ The sqlsrv\_connect function is used to establish a connection to the server.
 
 By default, the **sqlsrv\_connect** function uses Windows authentication to establish a connection. In most scenarios, this means that the Web server's process identity or thread identity (if the Web server is using impersonation) is used to connect to the server, not a user's identity.
 
-For more details on sqlsrv\_connect, see: [SQL Server Developer Center](https://msdn.microsoft.com/en-us/library/cc296161(SQL.90).aspx).
+For more details on sqlsrv\_connect, see: [SQL Server Developer Center](https://msdn.microsoft.com/library/cc296161(SQL.90).aspx).
 
 ## Links for Further Information
 
@@ -83,8 +83,8 @@ For more details on sqlsrv\_connect, see: [SQL Server Developer Center](https://
 - [SQL Server Driver for PHP 1.1 - October 2009](https://www.microsoft.com/downloads/details.aspx?FamilyID=ccdf728b-1ea0-48a8-a84a-5052214caad9&amp;displaylang=en).
 - [Microsoft SQL Server Driver for PHP team blog](https://blogs.msdn.com/sqlphp/default.aspx).
 - [New SQL Server Driver for PHP Whitepaper](https://blogs.msdn.com/sqlphp/archive/2008/08/29/new-sql-server-driver-for-php-whitepaper-available.aspx).
-- [SQL Server Driver for PHP example application](https://msdn.microsoft.com/en-us/library/cc296196(SQL.90).aspx).
+- [SQL Server Driver for PHP example application](https://msdn.microsoft.com/library/cc296196(SQL.90).aspx).
 - [php.net](http://php.net/).
-- [Accessing SQL Server Databases with PHP](https://msdn.microsoft.com/en-us/library/cc793139(SQL.90).aspx)
+- [Accessing SQL Server Databases with PHP](https://msdn.microsoft.com/library/cc793139(SQL.90).aspx)
 - [Programming Tasks](https://technet.microsoft.com/en-us/library/cc644935(SQL.90).aspx).
-- [Introducing the SQL Server Driver for PHP](https://msdn.microsoft.com/en-us/library/cc296172(SQL.90).aspx).
+- [Introducing the SQL Server Driver for PHP](https://msdn.microsoft.com/library/cc296172(SQL.90).aspx).

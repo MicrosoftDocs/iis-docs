@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService.DeleteJobScheduler
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DeleteJobScheduler Method
@@ -36,7 +35,7 @@ Deletes a [JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Sub DeleteJobScheduler ( _
@@ -50,14 +49,14 @@ Dim jobSchedulerId As String
 instance.DeleteJobScheduler(jobSchedulerId)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 void DeleteJobScheduler(
     string jobSchedulerId
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 void DeleteJobScheduler(
     String^ jobSchedulerId
@@ -70,28 +69,28 @@ abstract DeleteJobScheduler :
         jobSchedulerId:string -> unit 
 ```
 
-``` jscript
+```jscript
   function DeleteJobScheduler(
     jobSchedulerId : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobSchedulerId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the [JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md) object to delete.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[InvalidOperationException](https://msdn.microsoft.com/en-us/library/2asft85a(v=vs.90))|The specified job scheduler is in use.|
+|[InvalidOperationException](https://msdn.microsoft.com/library/2asft85a)|The specified job scheduler is in use.|
 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

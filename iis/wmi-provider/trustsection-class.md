@@ -1,15 +1,7 @@
 ---
-title: "TrustSection Class | Microsoft Docs"
-ms.custom: ""
+title: "TrustSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4fdfb984-ac44-52c5-b709-b0dd2b08a942
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TrustSection Class
 Configures the level of code-access security that is applied to an application.  
@@ -72,8 +64,8 @@ class TrustSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.SystemWebSectionGroup.Trust](/dotnet/api/system.web.configuration.systemwebsectiongroup.trust?view=netframework-4.7.2)  
- [System.Web.Configuration.TrustSection](/dotnet/api/system.web.configuration.trustsection?view=netframework-4.7.2)
+ [System.Web.Configuration.SystemWebSectionGroup.Trust](/dotnet/api/system.web.configuration.systemwebsectiongroup.trust)  
+ [System.Web.Configuration.TrustSection](/dotnet/api/system.web.configuration.trustsection)
  [System.Web.AspNetHostingPermissionLevel Enumeration](http://go.microsoft.com/fwlink/?LinkId=69330)   
  [ASP.NET Trust Levels and Policy Files](http://go.microsoft.com/fwlink/?LinkId=69328)   
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   

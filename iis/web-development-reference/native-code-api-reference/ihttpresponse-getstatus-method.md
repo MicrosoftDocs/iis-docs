@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::GetStatus Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::GetStatus Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e18e4cf1-29cd-b4b4-51d8-72d8093a257a
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::GetStatus Method
 Retrieves the HTTP status for the response.  
@@ -29,7 +21,7 @@ virtual VOID GetStatus(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pStatusCode`  
  [OUT] A pointer to an unsigned short integer that receives the HTTP status code for the response.  
   

@@ -1,15 +1,7 @@
 ---
-title: "IUriKey::GetSiteId Method | Microsoft Docs"
-ms.custom: ""
+title: "IUriKey::GetSiteId Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 691f1a35-1d36-82b5-fae4-45641398004f
-caps.latest.revision: 35
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IUriKey::GetSiteId Method
 Returns the site identifier associated with Uniform Resource Identifier (URI) data.  
@@ -22,7 +14,7 @@ virtual DWORD GetSiteId(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

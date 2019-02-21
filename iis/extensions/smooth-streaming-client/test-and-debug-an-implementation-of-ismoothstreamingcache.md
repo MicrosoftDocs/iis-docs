@@ -49,11 +49,11 @@ You can also remove isolated-storage capacity from the Silverlight UI. The Silve
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Cache Plug-in Implementation of ISmoothStreamingCache](cache-plug-in-implementation-of-ismoothstreamingcache_1.md)
 
-#### Other Resources
+### Other Resources
 
 [System.IO.IsolatedStorage Namespace](http://go.microsoft.com/fwlink/?linkid=204798)
 

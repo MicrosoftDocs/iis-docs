@@ -1,15 +1,7 @@
 ---
-title: "IHttpUser::GetPrimaryToken Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUser::GetPrimaryToken Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7fa15aa2-ade4-b5e3-afe7-262602bad788
-caps.latest.revision: 31
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUser::GetPrimaryToken Method
 Returns the user primary token.  
@@ -22,7 +14,7 @@ virtual HANDLE GetPrimaryToken(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

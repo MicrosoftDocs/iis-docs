@@ -1,15 +1,7 @@
 ---
-title: "IAppHostChangeHandler Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostChangeHandler Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e5d96058-2b9b-381e-2bab-51514d730c0a
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostChangeHandler Interface
 Provides notifications of changes to the physical files in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration.  

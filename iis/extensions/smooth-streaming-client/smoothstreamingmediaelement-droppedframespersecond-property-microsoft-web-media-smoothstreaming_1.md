@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.DroppedFramesPerSecond Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.DroppedFramesPerSecond Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: DroppedFramesPerSecond Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DroppedFramesPerSecond
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.droppedframespersecond(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DroppedFramesPerSecond
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_DroppedFramesPerSecond
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.DroppedFramesPerSecond Property
@@ -38,7 +37,7 @@ Gets or sets the percentage of dropped frames per second.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property DroppedFramesPerSecond As Double
@@ -51,11 +50,11 @@ Dim value As Double
 value = instance.DroppedFramesPerSecond
 ```
 
-``` csharp
+```csharp
 public double DroppedFramesPerSecond { get; }
 ```
 
-``` c++
+```cpp
 public:
 property double DroppedFramesPerSecond {
     double get ();
@@ -66,28 +65,28 @@ property double DroppedFramesPerSecond {
 member DroppedFramesPerSecond : float
 ```
 
-``` jscript
+```jscript
 function get DroppedFramesPerSecond () : double
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Double](https://msdn.microsoft.com/en-us/library/643eft0t\(v=vs.95\))  
+Type: [System.Double](https://msdn.microsoft.com/library/643eft0t\(v=vs.95\))  
 A value that indicates the percentage of dropped frames per second.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

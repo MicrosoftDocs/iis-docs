@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestProperty Constructor (String, XElement)
@@ -34,7 +33,7 @@ Initializes a new instance of the [ManifestProperty](manifestproperty-class-micr
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -49,14 +48,14 @@ Dim property As XElement
 Dim instance As New ManifestProperty(ns, property)
 ```
 
-``` csharp
+```csharp
   public ManifestProperty(
     string ns,
     XElement property
 )
 ```
 
-``` c++
+```cpp
   public:
 ManifestProperty(
     String^ ns, 
@@ -70,28 +69,28 @@ ManifestProperty(
         property:XElement -> ManifestProperty
 ```
 
-``` jscript
+```jscript
   public function ManifestProperty(
     ns : String, 
     property : XElement
 )
 ```
 
-#### Parameters
+### Parameters
 
   - ns  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The namespace of the manifest property.  
 
 <!-- end list -->
 
   - property  
-    Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+    Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
     An object that contains task-specific metadata.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

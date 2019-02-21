@@ -1,15 +1,7 @@
 ---
-title: "IAppHostCollectionSchema::AddElementNames Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostCollectionSchema::AddElementNames Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1629405d-9d72-fb6f-4079-ba5354709c6f
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostCollectionSchema::AddElementNames Property
 Gets a comma-delimited list of `add` element names that are valid for the collection.  
@@ -24,7 +16,7 @@ HRESULT get_AddElementNames(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrElementName`  
  A pointer to a `BSTR` that contains a comma-delimited list of element names in a collection.  
   

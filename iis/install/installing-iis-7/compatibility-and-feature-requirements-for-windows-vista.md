@@ -139,7 +139,7 @@ NNTP is not supported on Windows Vista.
 
 You cannot use the IIS 7.0 and above user interface to create a Certificate Trust List (CTL). Follow these steps to create a CTL with IIS 7.0 or above.
 
-1. Use MakeCTL.exe to create the CTL. For more information on MakeCTL.exe, see the [MakeCTL](https://msdn.microsoft.com/en-us/library/aa386969.aspx) page on the MSDN site.   
+1. Use MakeCTL.exe to create the CTL. For more information on MakeCTL.exe, see the [MakeCTL](https://msdn.microsoft.com/library/aa386969.aspx) page on the MSDN site.   
   
  The MakeCTL.exe tool is part of the [.NET Framework SDK Version 1.1](https://go.microsoft.com/fwlink/?LinkId=50870). Once you install the SDK, MakeCTL.exe appears in the following location:   
 

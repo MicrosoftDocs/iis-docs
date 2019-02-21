@@ -1,15 +1,7 @@
 ---
-title: "DirectorySettings Class | Microsoft Docs"
-ms.custom: ""
+title: "DirectorySettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c5bc7262-5a76-4b6f-a3eb-71fa8c038b0f
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DirectorySettings Class
 Specifies code subdirectories for [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web applications.  

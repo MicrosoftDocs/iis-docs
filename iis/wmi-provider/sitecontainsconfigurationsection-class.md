@@ -1,15 +1,7 @@
 ---
-title: "SiteContainsConfigurationSection Class1 | Microsoft Docs"
-ms.custom: ""
+title: "SiteContainsConfigurationSection Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 41e78754-a0bb-4800-aaad-4c6ed9392d4d
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SiteContainsConfigurationSection Class1
 Provides a relationship between a Web site and its configuration sections.  

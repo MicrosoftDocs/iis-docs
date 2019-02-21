@@ -1,15 +1,7 @@
 ---
-title: "IHttpCompletionInfo::GetCompletionStatus Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCompletionInfo::GetCompletionStatus Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d6f1d9fb-5344-13b2-5ffe-eeba3a6a1fd8
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCompletionInfo::GetCompletionStatus Method
 Returns the status of an asynchronous operation.  
@@ -22,7 +14,7 @@ virtual HRESULT GetCompletionStatus(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

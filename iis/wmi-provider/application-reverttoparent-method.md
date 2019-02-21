@@ -1,15 +1,7 @@
 ---
-title: "Application.RevertToParent Method1 | Microsoft Docs"
-ms.custom: ""
+title: "Application.RevertToParent Method1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 18b70a15-3c52-44be-a411-7b2b89216936
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Application.RevertToParent Method1
 Reverts an application's configuration value or values to the default.  
@@ -24,7 +16,7 @@ Application.RevertToParent(PropertyName)
 Application.RevertToParent(PropertyName);  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  

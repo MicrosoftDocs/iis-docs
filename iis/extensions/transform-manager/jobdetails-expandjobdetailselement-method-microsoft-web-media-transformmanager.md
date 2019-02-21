@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.ExpandJobDetailsElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ExpandJobDetailsElement Method
@@ -36,7 +35,7 @@ Creates an XML element from a [JobDetails](jobdetails-class-microsoft-web-media-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Function ExpandJobDetailsElement As XElement
@@ -48,11 +47,11 @@ Dim returnValue As XElement
 returnValue = instance.ExpandJobDetailsElement()
 ```
 
-``` csharp
+```csharp
   public XElement ExpandJobDetailsElement()
 ```
 
-``` c++
+```cpp
   public:
 XElement^ ExpandJobDetailsElement()
 ```
@@ -61,13 +60,13 @@ XElement^ ExpandJobDetailsElement()
   member ExpandJobDetailsElement : unit -> XElement 
 ```
 
-``` jscript
+```jscript
   public function ExpandJobDetailsElement() : XElement
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 An XML element that defines a work item based on a [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) object.  
 
 ## Remarks
@@ -76,7 +75,7 @@ This method takes a [JobDetails](jobdetails-class-microsoft-web-media-transformm
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

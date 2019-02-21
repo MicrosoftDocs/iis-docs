@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::GetErrorDescription Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::GetErrorDescription Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 11e42b08-ce5d-436b-aa14-05069dc4b5a8
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::GetErrorDescription Method
 Retrieves the custom error description.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetErrorDescription(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcchDescription`  
  [OUT] A pointer to a `DWORD` value that contains the length, in characters, of the returned string.  
   

@@ -1,15 +1,7 @@
 ---
-title: "SchemaImporterExtensionsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "SchemaImporterExtensionsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2f5e9b4e-d62b-d0ea-f532-5ddd83a7c3ff
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SchemaImporterExtensionsSection Class
 Contains a collection of extensions that map XML Schema (XSD) types to [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)] types.  

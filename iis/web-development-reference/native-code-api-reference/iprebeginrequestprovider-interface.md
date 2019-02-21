@@ -1,15 +1,7 @@
 ---
-title: "IPreBeginRequestProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IPreBeginRequestProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d4ae5a10-95ec-0e4d-263b-291bc92c548b
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPreBeginRequestProvider Interface
 Provides a global-level interface for [GL_PRE_BEGIN_REQUEST](../../web-development-reference\native-code-api-reference/request-processing-constants.md) notifications.  

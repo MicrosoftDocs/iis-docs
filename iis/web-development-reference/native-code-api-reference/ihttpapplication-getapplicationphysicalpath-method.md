@@ -1,15 +1,7 @@
 ---
-title: "IHttpApplication::GetApplicationPhysicalPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpApplication::GetApplicationPhysicalPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 37b28860-40de-f634-8988-5a41dced203d
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpApplication::GetApplicationPhysicalPath Method
 Retrieves the physical path of the application for the current request.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetApplicationPhysicalPath(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

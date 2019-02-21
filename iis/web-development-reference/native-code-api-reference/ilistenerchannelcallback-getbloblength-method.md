@@ -1,15 +1,7 @@
 ---
-title: "IListenerChannelCallback::GetBlobLength Method | Microsoft Docs"
-ms.custom: ""
+title: "IListenerChannelCallback::GetBlobLength Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5fce568e-9d27-c200-719b-ef77deabe98a
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IListenerChannelCallback::GetBlobLength Method
 Returns the size of the buffered data in the listener channel.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall GetBlobLength(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcbLength`  
  A pointer to a `DWORD` that contains the size of the data in the listener channel buffer.  
   

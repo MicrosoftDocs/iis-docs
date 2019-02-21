@@ -1,15 +1,7 @@
 ---
-title: "ISendResponseProvider::SetFlags Method | Microsoft Docs"
-ms.custom: ""
+title: "ISendResponseProvider::SetFlags Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 854d8dd1-0c04-e658-3526-0baba7e36f96
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ISendResponseProvider::SetFlags Method
 Configures the flags for the current HTTP response.  
@@ -22,7 +14,7 @@ virtual VOID SetFlags(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwFlags`  
  A `DWORD` that contains the response flags to set.  
   

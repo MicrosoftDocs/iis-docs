@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertyCollection::Item Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertyCollection::Item Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5e7303e8-480b-dbd5-a48b-8435540f2ab2
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertyCollection::Item Property
 Gets the property with the requested index or property name in the collection.  
@@ -24,7 +16,7 @@ HRESULT get_Item(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `cIndex`  
  A `VARIANT` that contains the index or property name of the item to retrieve from the collection.  
   

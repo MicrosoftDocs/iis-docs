@@ -37,7 +37,7 @@ The request below would fail this rule since Foo-Header contains the '%' charact
 
 ## Rule to Block SQL injection Signatures
 
-Before we proceed any further it is important to note that this is not the recommended way to prevent SQL injection in your applications. This is only a stopgap for servers that are under a malicious attack. Such a rule would give you breathing room to go fix your application using [recommended best practices](https://msdn.microsoft.com/en-us/library/cc676512.aspx). Also a rule similar to the one below is likely to encounter false positives and fail valid application requests. Another important point to note is that the rule below does nothing to block SQL injection attempts through the request entity body.
+Before we proceed any further it is important to note that this is not the recommended way to prevent SQL injection in your applications. This is only a stopgap for servers that are under a malicious attack. Such a rule would give you breathing room to go fix your application using [recommended best practices](https://msdn.microsoft.com/library/cc676512.aspx). Also a rule similar to the one below is likely to encounter false positives and fail valid application requests. Another important point to note is that the rule below does nothing to block SQL injection attempts through the request entity body.
 
 Having said that, if we were to write a generic rule to block SQL injection we could write something like this:
 

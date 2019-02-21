@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobManager Class
@@ -33,7 +32,7 @@ Processes IIS Transform Manager jobs.
 
 ## Inheritance Hierarchy
 
-[System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
+[System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
   Microsoft.Web.Media.TransformManager..::..JobManager  
 
 **Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
@@ -41,7 +40,7 @@ Processes IIS Transform Manager jobs.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PermissionSetAttribute(SecurityAction.Demand, Name := "FullTrust")> _
 Public Class JobManager _
@@ -51,12 +50,12 @@ Public Class JobManager _
   Dim instance As JobManager
 ```
 
-``` csharp
+```csharp
 [PermissionSetAttribute(SecurityAction.Demand, Name = "FullTrust")]
 public class JobManager : IDisposable
 ```
 
-``` c++
+```cpp
 [PermissionSetAttribute(SecurityAction::Demand, Name = L"FullTrust")]
 public ref class JobManager : IDisposable
 ```
@@ -69,7 +68,7 @@ type JobManager =
     end
 ```
 
-``` jscript
+```jscript
   public class JobManager implements IDisposable
 ```
 
@@ -99,23 +98,19 @@ The JobManager type exposes the following members.
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TemplateId](jobmanager-templateid-property-microsoft-web-media-transformmanager.md)|Gets the ID of the job template that the [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) object uses.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[WatchFolder](jobmanager-watchfolder-property-microsoft-web-media-transformmanager.md)|Gets a file system folder that will be watched for files that instantiate jobs.|
 
-Top
-
 ## Methods
 
 ||Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Dispose() () () ()](jobmanager-dispose-method-microsoft-web-media-transformmanager_1.md)|Releases all resources that are used by the current instance of the JobManager class.|
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Dispose(Boolean)](jobmanager-dispose-method-boolean-microsoft-web-media-transformmanager.md)|Releases unmanaged resources and optionally releases managed resources.|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/en-us/library/4k87zsw7(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/library/zdee4b3y)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/library/dfwy45w9)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[OnShutdownComplete](jobmanager-onshutdowncomplete-method-microsoft-web-media-transformmanager.md)|Raises the [ShutdownComplete](jobmanager-shutdowncomplete-event-microsoft-web-media-transformmanager.md) event.|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-
-Top
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 
 ## Events
 
@@ -124,15 +119,13 @@ Top
 |![Public event](images/Hh125579.pubevent(en-us,VS.90).gif "Public event")|[ShutdownComplete](jobmanager-shutdowncomplete-event-microsoft-web-media-transformmanager.md)|Occurs when all transform jobs have been processed.|
 
 
-Top
-
 ## Thread Safety
 
 Any public static (Shared in Visual Basic) members of this type are thread safe. Any instance members are not guaranteed to be thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

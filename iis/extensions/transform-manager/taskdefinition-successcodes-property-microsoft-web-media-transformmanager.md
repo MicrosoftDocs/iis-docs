@@ -1,5 +1,5 @@
 ---
-title: TaskDefinition.SuccessCodes Property  (Microsoft.Web.Media.TransformManager)
+title: TaskDefinition.SuccessCodes Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SuccessCodes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.SuccessCodes
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.successcodes(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_SuccessCodes
 - Microsoft.Web.Media.TransformManager.TaskDefinition.get_SuccessCodes
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SuccessCodes Property
@@ -40,7 +39,7 @@ Gets or sets a set of codes that indicate whether the task completed successfull
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property SuccessCodes As String
@@ -56,12 +55,12 @@ value = instance.SuccessCodes
 instance.SuccessCodes = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string SuccessCodes { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ SuccessCodes {
@@ -75,14 +74,14 @@ property String^ SuccessCodes {
 member SuccessCodes : string with get, set
 ```
 
-``` jscript
+```jscript
   function get SuccessCodes () : String
 function set SuccessCodes (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A set of codes that indicate whether the task completed successfully.  
 
 ## Remarks
@@ -91,7 +90,7 @@ The SuccessCodes property provides a way to define a set of success return codes
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskDefinition Class](taskdefinition-class-microsoft-web-media-transformmanager.md)
 

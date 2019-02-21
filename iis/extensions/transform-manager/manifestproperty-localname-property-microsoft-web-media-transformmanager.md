@@ -1,5 +1,5 @@
 ---
-title: ManifestProperty.LocalName Property  (Microsoft.Web.Media.TransformManager)
+title: ManifestProperty.LocalName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LocalName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.LocalName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestproperty.localname(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.LocalName
 - Microsoft.Web.Media.TransformManager.ManifestProperty.set_LocalName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LocalName Property
@@ -40,7 +39,7 @@ Gets or sets the LocalName element of the manifest property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property LocalName As String
@@ -56,12 +55,12 @@ value = instance.LocalName
 instance.LocalName = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string LocalName { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ LocalName {
@@ -75,19 +74,19 @@ property String^ LocalName {
 member LocalName : string with get, set
 ```
 
-``` jscript
+```jscript
   function get LocalName () : String
 function set LocalName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The local name of the manifest property.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

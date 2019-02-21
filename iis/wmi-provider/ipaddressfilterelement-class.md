@@ -1,15 +1,7 @@
 ---
-title: "IPAddressFilterElement Class | Microsoft Docs"
-ms.custom: ""
+title: "IPAddressFilterElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ecb74b4d-36ab-5b4d-c096-c0490bb2cc4d
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPAddressFilterElement Class
 Allows or denies access to content based on a unique combination of the IP address, subnet mask, and domain name.  

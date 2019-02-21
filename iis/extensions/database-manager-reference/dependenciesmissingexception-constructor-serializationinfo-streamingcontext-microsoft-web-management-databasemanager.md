@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
@@ -21,7 +21,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DependenciesMissingException Constructor (SerializationInfo, StreamingContext)
@@ -33,7 +32,7 @@ Creates a new instance of the [DependenciesMissingException](dependenciesmissing
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Protected Sub New ( _
     info As SerializationInfo, _
@@ -46,14 +45,14 @@ Dim context As StreamingContext
 Dim instance As New DependenciesMissingException(info, context)
 ```
 
-``` csharp
+```csharp
 protected DependenciesMissingException(
     SerializationInfo info,
     StreamingContext context
 )
 ```
 
-``` c++
+```cpp
 protected:
 DependenciesMissingException(
     SerializationInfo^ info, 
@@ -61,32 +60,32 @@ DependenciesMissingException(
 )
 ```
 
-``` jscript
+```jscript
 protected function DependenciesMissingException(
     info : SerializationInfo, 
     context : StreamingContext
 )
 ```
 
-#### Parameters
+### Parameters
 
   - info  
-    Type: [System.Runtime.Serialization.SerializationInfo](https://msdn.microsoft.com/en-us/library/a9b6042e\(v=vs.90\))  
+    Type: [System.Runtime.Serialization.SerializationInfo](https://msdn.microsoft.com/library/a9b6042e)  
     A SerializationInfo object that contains the serialization information for the exception.  
 
 <!-- end list -->
 
   - context  
-    Type: [System.Runtime.Serialization.StreamingContext](https://msdn.microsoft.com/en-us/library/t16abws5\(v=vs.90\))  
+    Type: [System.Runtime.Serialization.StreamingContext](https://msdn.microsoft.com/library/t16abws5)  
     A StreamingContext object that contains the contextual information for the info object.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [DependenciesMissingException Class](dependenciesmissingexception-class-microsoft-web-management-databasemanager.md)
 

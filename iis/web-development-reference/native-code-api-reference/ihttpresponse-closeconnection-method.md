@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::CloseConnection Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::CloseConnection Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2f7c50a3-d8a4-445d-9201-62edf52d4051
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::CloseConnection Method
 Closes he connection and sends a reset packet to the client.  
@@ -22,7 +14,7 @@ virtual VOID CloseConnection(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method accepts no parameters.  
   
 ## Return Value  

@@ -1,15 +1,7 @@
 ---
-title: "IFileKey::GetCacheName Method | Microsoft Docs"
-ms.custom: ""
+title: "IFileKey::GetCacheName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1d0a3a67-6f6c-d0d7-f29f-19e9a40871a3
-caps.latest.revision: 53
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IFileKey::GetCacheName Method
 Returns the name of the global file cache.  
@@ -22,7 +14,7 @@ PCWSTR GetCacheName(
 ) const;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

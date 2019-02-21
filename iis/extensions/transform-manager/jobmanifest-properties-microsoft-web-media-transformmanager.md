@@ -40,11 +40,9 @@ The [JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md) typ
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[WorkFolder](jobmanifest-workfolder-property-microsoft-web-media-transformmanager.md)||
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[WorkQueueRoot](jobmanifest-workqueueroot-property-microsoft-web-media-transformmanager.md)|Gets the root work folder name.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

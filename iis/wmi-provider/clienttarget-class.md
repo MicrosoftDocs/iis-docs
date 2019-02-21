@@ -1,15 +1,7 @@
 ---
-title: "ClientTarget Class | Microsoft Docs"
-ms.custom: ""
+title: "ClientTarget Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 987b6112-75ff-8330-f1d0-4314881e0883
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ClientTarget Class
 Represents the mapping of a user agent to an alias.  
@@ -61,5 +53,5 @@ class ClientTarget : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.ClientTarget](/dotnet/api/system.web.configuration.clienttarget?view=netframework-4.7.2) 
+ [System.Web.Configuration.ClientTarget](/dotnet/api/system.web.configuration.clienttarget) 
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)

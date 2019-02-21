@@ -1,15 +1,7 @@
 ---
-title: "IHttpTraceContext Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpTraceContext Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2bd121f6-32df-4f18-9cad-b83b82dd61e2
-caps.latest.revision: 32
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpTraceContext Interface
 Provides a request-wide method for modules to raise events into the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] tracing infrastructure.  

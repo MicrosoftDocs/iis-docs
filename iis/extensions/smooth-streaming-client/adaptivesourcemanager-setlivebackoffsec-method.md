@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,20 +20,20 @@ Sets the seconds backed off from current live server time.
 
 ## Syntax
 
-``` csharp
+```csharp
 public void SetLiveBackoffSec(
 uint liveBackOffSec
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual void SetLiveBackoffSec(
 [InAttribute] unsigned int liveBackOffSec
 ) sealed
 ```
 
-``` jscript
+```jscript
 public final function SetLiveBackoffSec(
 liveBackOffSec : uint
 )

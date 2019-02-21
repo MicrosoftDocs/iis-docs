@@ -25,13 +25,13 @@ To integrate the WAG into your control panel solution, you need the following:
 
 - **Web Application Gallery Feed.**  
  This is an extended ATOM XML feed that contains all the information needed to download and install the applications available in the WAG. You can use the Microsoft® Web Platform Installer API to load and manipulate the content in the feed (recommended) or manually download and parse the feed XML content. This article provides information on the feed‘s location and XML content.
-- **Web Platform Installer API (WebPI API).** The [Web Platform Installer tool](https://www.microsoft.com/web/downloads/platform.aspx) uses a new API to access the feed content. This is a public API available to developers: [Microsoft Web Platform Installer](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.aspx). We highly recommend you use this API to access the feed‘s content instead of manipulating the feed XML directly. It provides:  
+- **Web Platform Installer API (WebPI API).** The [Web Platform Installer tool](https://www.microsoft.com/web/downloads/platform.aspx) uses a new API to access the feed content. This is a public API available to developers: [Microsoft Web Platform Installer](https://msdn.microsoft.com/library/microsoft.web.platforminstaller.aspx). We highly recommend you use this API to access the feed‘s content instead of manipulating the feed XML directly. It provides:  
 
     - Abstraction from the details of the XML elements format and semantics.
     - Intuitive classes and methods.
     - Access to the list of applications and their tags to aid classification.
     - Easy detection of missing application dependencies.
-- **Web Deployment API.** The [Web Platform Installer tool](https://www.microsoft.com/web/downloads/platform.aspx) uses a new API to manage the application packages, you can find its documentation at: [Microsoft Web Deployment](https://msdn.microsoft.com/en-us/library/microsoft.web.deployment.aspx). It is a public API available to developers. It allows your application to read and set parameter values and deploy applications including their associated database to the target servers.
+- **Web Deployment API.** The [Web Platform Installer tool](https://www.microsoft.com/web/downloads/platform.aspx) uses a new API to manage the application packages, you can find its documentation at: [Microsoft Web Deployment](https://msdn.microsoft.com/library/microsoft.web.deployment.aspx). It is a public API available to developers. It allows your application to read and set parameter values and deploy applications including their associated database to the target servers.
 - **Sample Application.**  
  A sample application, [Sample App](integrate-the-windows-web-application-gallery-into-a-control-panel/_static/integrate-the-windows-web-application-gallery-into-a-control-panel-607-sample1.zip), is provided. It uses the WebPI API to access and manipulate the WAG XML feed, and it uses the Web Deployment API to manage the application package, its parameters, and deployment.
 
@@ -120,7 +120,7 @@ Create a Web site, application pool, and custom identity to host the code for th
 
     For dependency checking in the sample application to work correctly, you must use an account that has administration privilege on the computer because dependency checking requires access to the registry and directories that is only available to administrators. Alternately, you can comment out the dependency checking code.
 12. Copy the contents of the sample application into the physical path you selected when creating the Web site.
-13. Make sure the application is running under [Full Trust](https://msdn.microsoft.com/en-us/library/tkscy493.aspx). [You can enable it in the App Web.config](https://msdn.microsoft.com/en-us/library/wyts434y.aspx) file or, if not allowed, the administrator can add it to the root Web.config file.
+13. Make sure the application is running under [Full Trust](https://msdn.microsoft.com/library/tkscy493.aspx). [You can enable it in the App Web.config](https://msdn.microsoft.com/library/wyts434y.aspx) file or, if not allowed, the administrator can add it to the root Web.config file.
 
 ## Use the Default SSL Certificate for WMSVC
 
@@ -176,11 +176,11 @@ The Gallery feed is provided as an extended ATOM feed. The [product list](https:
 
 ## Download the Application List Feed
 
-Before you can parse the feed, you must download it locally. The sample application uses the [WebClient.DownloadFile](https://msdn.microsoft.com/en-us/library/ez801hhe(VS.80).aspx) method to download the feed (see the application list URL above) and save it in a temporary file obtained through [Path.GetTempFileName](https://msdn.microsoft.com/en-us/library/system.io.path.gettempfilename.aspx). These calls are made in **GetXmlLocationFromFeed** (see **Reload** method in the file "ControlPanelAppRtwAPI\App\_Code\Packges.cs").
+Before you can parse the feed, you must download it locally. The sample application uses the [WebClient.DownloadFile](https://msdn.microsoft.com/library/ez801hhe(VS.80).aspx) method to download the feed (see the application list URL above) and save it in a temporary file obtained through [Path.GetTempFileName](https://msdn.microsoft.com/library/system.io.path.gettempfilename.aspx). These calls are made in **GetXmlLocationFromFeed** (see **Reload** method in the file "ControlPanelAppRtwAPI\App\_Code\Packges.cs").
 
 ## Use the WebPI API to Parse the Application Feed
 
-Also in **Reload**, you find calls to the [Microsoft.Web.PlatformInstaller.ProductManager](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.productmanager.aspx) class. This class provides the functionality for managing the data in the feeds (application and product lists).
+Also in **Reload**, you find calls to the [Microsoft.Web.PlatformInstaller.ProductManager](https://msdn.microsoft.com/library/microsoft.web.platforminstaller.productmanager.aspx) class. This class provides the functionality for managing the data in the feeds (application and product lists).
 
 ### Initialize the ProductManager Object
 
@@ -194,12 +194,12 @@ The following code initatiates and intializes a ProductManager object:
 
 When building your user interface, you have the choice of which fields from the ATOM feed you want to display. A minimalist approach would be to just display the applications' names, taken from the title element. You can also create a much richer UI by taking advantage of the graphic elements, such as the icon and screenshot, and incorporating other metadata from the feed.
 
-To display the application information and to create the links to each installation package, the sample application uses the [Microsoft.Web.PlatformInstaller.Installer](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.installer.aspx) object for each of the applications. (See **Reload** method for reference.)
+To display the application information and to create the links to each installation package, the sample application uses the [Microsoft.Web.PlatformInstaller.Installer](https://msdn.microsoft.com/library/microsoft.web.platforminstaller.installer.aspx) object for each of the applications. (See **Reload** method for reference.)
 
-1. Within a foreach loop, examine each [Microsoft.Web.PlatformInstaller.Product](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.product.aspx) object contained in the Microsoft.Web.PlatformInstaller.ProductManager.Products collection. Identify those that are marked as applications:  
+1. Within a foreach loop, examine each [Microsoft.Web.PlatformInstaller.Product](https://msdn.microsoft.com/library/microsoft.web.platforminstaller.product.aspx) object contained in the Microsoft.Web.PlatformInstaller.ProductManager.Products collection. Identify those that are marked as applications:  
 
     [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample14.cmd)]
-2. Still within the foreach loop, get the installer for the application and access the particular object properties needed for the user interface and installation process. The most important of them all is the [InstallerFile.InstallerUrl.AbsoluteUri](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.installerfile.installerurl.aspx), which contains the location for downloading the Web Deploy package for the application:  
+2. Still within the foreach loop, get the installer for the application and access the particular object properties needed for the user interface and installation process. The most important of them all is the [InstallerFile.InstallerUrl.AbsoluteUri](https://msdn.microsoft.com/library/microsoft.web.platforminstaller.installerfile.installerurl.aspx), which contains the location for downloading the Web Deploy package for the application:  
 
     [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample15.cmd)]
 3. You can then add each of the package objects to your own packages collections and display them in your UI.
@@ -218,7 +218,7 @@ You can access the XML from the feed directly, but this is not the recommended a
 
 ## Identifying Missing Dependencies Using the WebPI API
 
-An important step within the sample application is to identify all the missing dependencies in the target server where the application will be installed. The sample apllication collects this information and displays it as an error if the user tries to install an application package for which dependencies are missing. For this purpose, the Web.PlatformInstaller provides the [Microsoft.Web.PlatformInstaller.Product.GetMissingDependencies](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.product.getmissingdependencies.aspx) method, which returns a collection of missing products.
+An important step within the sample application is to identify all the missing dependencies in the target server where the application will be installed. The sample apllication collects this information and displays it as an error if the user tries to install an application package for which dependencies are missing. For this purpose, the Web.PlatformInstaller provides the [Microsoft.Web.PlatformInstaller.Product.GetMissingDependencies](https://msdn.microsoft.com/library/microsoft.web.platforminstaller.product.getmissingdependencies.aspx) method, which returns a collection of missing products.
 
 Before this method is called, you must create an instance of ProductManager and initialize it with the Products List feed (not the Application feed). The following code snippet is an example on how to check for missing dependencies. You can find this code in the ControlPanelAppRtwAPI\App\_Code\Package.cs file of the sample application.
 
@@ -278,7 +278,7 @@ The following code snippet illustrates how you can filter applications by their 
 [!code-console[Main](integrate-the-windows-web-application-gallery-into-a-control-panel/samples/sample24.cmd)]
 
 
-This example uses the Web.PlatformInstaller API to load the Application List feed and then list each application ordered by keyword. The [ProductManager.Keywords](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller.productmanager.keywords.aspx) collection lists all the available keywords from the loaded feed.
+This example uses the Web.PlatformInstaller API to load the Application List feed and then list each application ordered by keyword. The [ProductManager.Keywords](https://msdn.microsoft.com/library/microsoft.web.platforminstaller.productmanager.keywords.aspx) collection lists all the available keywords from the loaded feed.
 
 The following example lists all applications that have the "PHP" keyword followed by the applications that have the "ASPNET" keyword.
 
@@ -312,7 +312,7 @@ Most packages contain parameters that are required to install them in a given en
 
 ## Collecting the Parameters Defined in the Package
 
-The Web Deployment API allows you to retrieve the parameters from a package by accessing a collection within the Web Deploy [**DeploymentObject**](https://msdn.microsoft.com/en-us/library/microsoft.web.deployment.deploymentobject.aspx).
+The Web Deployment API allows you to retrieve the parameters from a package by accessing a collection within the Web Deploy [**DeploymentObject**](https://msdn.microsoft.com/library/microsoft.web.deployment.deploymentobject.aspx).
 
 The code snippet below is taken from the sample applications and shows one method of generating the parameters as a collection called "\_parameters" to be used later.
 
@@ -359,7 +359,7 @@ Some parameters have default values that can be retrieved from the **syncParamet
 
 ## Using the Parameter Validation Data
 
-There is validation data you can use to help you build the appropriate UI. Each [DeploymentSyncParameter](https://msdn.microsoft.com/en-us/library/microsoft.web.deployment.deploymentsyncparameter.aspx) has a DeploymentSyncParameterValidation object that identifies the parameter as having one or more of the following types of data:
+There is validation data you can use to help you build the appropriate UI. Each [DeploymentSyncParameter](https://msdn.microsoft.com/library/microsoft.web.deployment.deploymentsyncparameter.aspx) has a DeploymentSyncParameterValidation object that identifies the parameter as having one or more of the following types of data:
 
 - **AllowEmpty**. The parameter allows an empty value.
 - **Boolean**. The parameter only allows "true" or "false."
@@ -427,7 +427,7 @@ When the installation is complete, your control panel should provide a link to t
 
 **Microsoft® Developer Network (MSDN®):** 
 
-- [Microsoft Web Deployment namespace](https://msdn.microsoft.com/en-us/library/microsoft.web.deployment.aspx)
+- [Microsoft Web Deployment namespace](https://msdn.microsoft.com/library/microsoft.web.deployment.aspx)
 
 **Forums:** 
 

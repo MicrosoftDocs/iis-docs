@@ -1,16 +1,8 @@
 ---
-title: "IFtpAuthenticationProvider Interface (Native) | Microsoft Docs"
-ms.custom: ""
+title: "IFtpAuthenticationProvider Interface (Native)"
 ms.date: "09/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 843eaeff-6349-465d-958f-12d940763122
-caps.latest.revision: 8
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IFtpAuthenticationProvider Interface (Native)
 Provides an interface for authentication checks.  

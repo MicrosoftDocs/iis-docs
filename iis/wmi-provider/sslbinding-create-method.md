@@ -1,15 +1,7 @@
 ---
-title: "SSLBinding.Create Method1 | Microsoft Docs"
-ms.custom: ""
+title: "SSLBinding.Create Method1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b68af3fb-9509-4d3d-9787-be79438a47f2
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SSLBinding.Create Method1
 Creates a Secure Sockets Layer (SSL) binding.  
@@ -34,7 +26,7 @@ oWebAdmin.Get("SSLBinding").Create
   
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  

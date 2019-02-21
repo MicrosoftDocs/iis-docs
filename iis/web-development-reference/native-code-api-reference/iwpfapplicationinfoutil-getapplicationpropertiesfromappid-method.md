@@ -1,15 +1,7 @@
 ---
-title: "IWpfApplicationInfoUtil::GetApplicationPropertiesFromAppId Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfApplicationInfoUtil::GetApplicationPropertiesFromAppId Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d6401224-4d22-a604-2afe-18fba495f7bd
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfApplicationInfoUtil::GetApplicationPropertiesFromAppId Method
 Retrieves the virtual path and site ID for an application.  
@@ -25,7 +17,7 @@ virtual HRESULT GetApplicationPropertiesFromAppId(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszAppId`  
  A pointer to a string that contains an ID for the application. This may be a virtual path, a physical path, or a site ID.  
   

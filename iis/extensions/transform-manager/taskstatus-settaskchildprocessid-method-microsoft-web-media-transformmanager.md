@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskStatus.SetTaskChildProcessId
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SetTaskChildProcessId Method
@@ -36,7 +35,7 @@ Sets the ID of the child process of the task.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub SetTaskChildProcessId ( _
@@ -50,13 +49,13 @@ Dim childProcessId As Integer
 instance.SetTaskChildProcessId(childProcessId)
 ```
 
-``` csharp
+```csharp
   public void SetTaskChildProcessId(
     int childProcessId
 )
 ```
 
-``` c++
+```cpp
   public:
 void SetTaskChildProcessId(
     int childProcessId
@@ -68,21 +67,21 @@ void SetTaskChildProcessId(
         childProcessId:int -> unit 
 ```
 
-``` jscript
+```jscript
   public function SetTaskChildProcessId(
     childProcessId : int
 )
 ```
 
-#### Parameters
+### Parameters
 
   - childProcessId  
-    Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
     The ID of the child process.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskStatus Class](taskstatus-class-microsoft-web-media-transformmanager.md)
 

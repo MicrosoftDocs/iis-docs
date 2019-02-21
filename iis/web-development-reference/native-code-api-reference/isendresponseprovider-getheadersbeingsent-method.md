@@ -1,15 +1,7 @@
 ---
-title: "ISendResponseProvider::GetHeadersBeingSent Method | Microsoft Docs"
-ms.custom: ""
+title: "ISendResponseProvider::GetHeadersBeingSent Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 948a9a12-0ce1-9d96-c798-b3d8e6a377fa
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ISendResponseProvider::GetHeadersBeingSent Method
 Retrieves a value that indicates whether the HTTP headers are being returned.  
@@ -22,7 +14,7 @@ virtual BOOL GetHeadersBeingSent(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

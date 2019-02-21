@@ -1,5 +1,5 @@
 ---
-title: JobMetadata.TaskElement Property  (Microsoft.Web.Media.TransformManager)
+title: JobMetadata.TaskElement Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.TaskElement
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmetadata.taskelement(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobMetadata.TaskElement
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_TaskElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskElement Property
@@ -38,7 +37,7 @@ Gets the task element from the manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property TaskElement As XElement
@@ -51,11 +50,11 @@ Dim value As XElement
 value = instance.TaskElement
 ```
 
-``` csharp
+```csharp
   public XElement TaskElement { get; }
 ```
 
-``` c++
+```cpp
   public:
 virtual property XElement^ TaskElement {
     XElement^ get () sealed;
@@ -67,18 +66,18 @@ virtual property XElement^ TaskElement {
 override TaskElement : XElement
 ```
 
-``` jscript
+```jscript
   final function get TaskElement () : XElement
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 The task element.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobMetadata Class](jobmetadata-class-microsoft-web-media-transformmanager.md)
 

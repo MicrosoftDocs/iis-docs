@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.LogRetentionPeriodDisplayUnit Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.LogRetentionPeriodDisplayUnit Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogRetentionPeriodDisplayUnit Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.LogRetentionPeriodDisplayUnit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.logretentionperioddisplayunit(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_LogRetentionPeriodDisplayUnit
 - Microsoft.Web.Media.TransformManager.JobDefinition.LogRetentionPeriodDisplayUnit
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LogRetentionPeriodDisplayUnit Property
@@ -40,7 +39,7 @@ Gets or sets the unit of time that is used with the [LogRetentionPeriodMinutes](
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property LogRetentionPeriodDisplayUnit As String
@@ -56,12 +55,12 @@ value = instance.LogRetentionPeriodDisplayUnit
 instance.LogRetentionPeriodDisplayUnit = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string LogRetentionPeriodDisplayUnit { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ LogRetentionPeriodDisplayUnit {
@@ -75,14 +74,14 @@ property String^ LogRetentionPeriodDisplayUnit {
 member LogRetentionPeriodDisplayUnit : string with get, set
 ```
 
-``` jscript
+```jscript
   function get LogRetentionPeriodDisplayUnit () : String
 function set LogRetentionPeriodDisplayUnit (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A unit of time.  
 
 ## Remarks
@@ -91,7 +90,7 @@ The LogRetentionPeriodDisplayUnit property modifies the [LogRetentionPeriodMinut
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

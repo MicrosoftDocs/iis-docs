@@ -1,15 +1,7 @@
 ---
-title: "Application.Create Method1 | Microsoft Docs"
-ms.custom: ""
+title: "Application.Create Method1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 872a0adb-04f5-4d48-a53d-4abd951ac8c3
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Application.Create Method1
 Creates a Web application.  
@@ -32,7 +24,7 @@ var app = webAdmin.Get("Application").Create(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  
@@ -55,7 +47,7 @@ var app = webAdmin.Get("Application").Create(
  The following example creates a new Web application.  
   
 > [!NOTE]
->  Because the `Create` method is static, it must be called on the application class.  
+> Because the `Create` method is static, it must be called on the application class.  
   
 ```  
 ' Connect to the WMI WebAdministration namespace.  

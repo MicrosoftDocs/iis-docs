@@ -1,15 +1,7 @@
 ---
-title: "RuleElement Class | Microsoft Docs"
-ms.custom: ""
+title: "RuleElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cc574d49-ab7a-4bf9-8d38-5b20d01ff33a
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # RuleElement Class
 Maps a Web event to a health-monitoring provider.  
@@ -28,7 +20,7 @@ class RuleElement : CollectionElement
   
 |Name|Description|  
 |----------|-----------------|  
-|`Custom`|A read/write `string` value that specifies the fully qualified type of a custom class that implements the [System.Web.Management.IWebEventCustomEvaluator](/dotnet/api/system.web.management.iwebeventcustomevaluator?view=netframework-4.7.2) interface. The default is an empty string ("").<br /><br /> The type reference is formed as follows (items in brackets are not required): *Namespace*.*Typename*, *Assemblyname*[,] [Version=*x*,] [Culture=*y*,] [PublicKeyToken=*z*] (for example, "ExampleNamespace.ExampleType, Example.Assembly, Version=%ASSEMBLY_VERSION%, Culture=neutral, PublicKeyToken=%MICROSOFT_PUBLICKEY%"). **Note:**  This property is new in the [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)] version 2.0.|  
+|`Custom`|A read/write `string` value that specifies the fully qualified type of a custom class that implements the [System.Web.Management.IWebEventCustomEvaluator](/dotnet/api/system.web.management.iwebeventcustomevaluator) interface. The default is an empty string ("").<br /><br /> The type reference is formed as follows (items in brackets are not required): *Namespace*.*Typename*, *Assemblyname*[,] [Version=*x*,] [Culture=*y*,] [PublicKeyToken=*z*] (for example, "ExampleNamespace.ExampleType, Example.Assembly, Version=%ASSEMBLY_VERSION%, Culture=neutral, PublicKeyToken=%MICROSOFT_PUBLICKEY%"). **Note:**  This property is new in the [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)] version 2.0.|  
 |`EventName`|A read/write `string` value that specifies the name of an event from the [EventMappingSettings](../wmi-provider/eventmappingsettings-class.md) class.|  
 |`MaxLimit`|A read/write `sint32` value that specifies the maximum number of times that the event specified in the `EventName` property is raised. The default is 2147483647 (infinite).|  
 |`MinInstances`|A read/write `sint32` value that specifies the minimum number of occurrences of the event specified in the `EventName` property before the event is raised to the provider. The default is 1.|  

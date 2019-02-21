@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # TypeInfo Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [TypeInfo](typeinfo-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -35,11 +32,9 @@ The [TypeInfo](typeinfo-class-microsoft-web-management-databasemanager.md) type 
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](typeinfo-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name for the data type.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Tag](typeinfo-tag-property-microsoft-web-management-databasemanager.md)|Returns a generic object that is stored in the TypeInfo class.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 

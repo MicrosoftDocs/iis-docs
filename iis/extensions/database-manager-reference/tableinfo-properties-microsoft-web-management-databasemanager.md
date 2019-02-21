@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # TableInfo Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [TableInfo](tableinfo-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -26,11 +23,9 @@ The [TableInfo](tableinfo-class-microsoft-web-management-databasemanager.md) typ
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[IsMarkedForDelete](tableinfo-ismarkedfordelete-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the table information is marked for deletion.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](tableinfo-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name of the table.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [TableInfo Class](tableinfo-class-microsoft-web-management-databasemanager.md)
 

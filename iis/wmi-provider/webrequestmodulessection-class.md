@@ -1,15 +1,7 @@
 ---
-title: "WebRequestModulesSection Class | Microsoft Docs"
-ms.custom: ""
+title: "WebRequestModulesSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9b20c485-d919-5e9f-2d81-f8600961e038
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WebRequestModulesSection Class
 Contains a collection of registered Web request modules.  

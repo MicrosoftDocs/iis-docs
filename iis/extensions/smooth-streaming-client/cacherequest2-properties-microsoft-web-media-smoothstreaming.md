@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # CacheRequest2 Properties
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [CacheRequest2](cacherequest2-class-microsoft-web-media-smoothstreaming.md) type exposes the following members.
 
 ## Properties
@@ -27,11 +21,9 @@ The [CacheRequest2](cacherequest2-class-microsoft-web-media-smoothstreaming.md) 
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[WebRequest](cacherequest2-webrequest-property-microsoft-web-media-smoothstreaming.md)|Gets or sets a web request that the media element downloader uses for downloading.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheRequest2 Class](cacherequest2-class-microsoft-web-media-smoothstreaming.md)
 

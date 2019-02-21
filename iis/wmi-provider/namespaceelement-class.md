@@ -1,15 +1,7 @@
 ---
-title: "NamespaceElement Class | Microsoft Docs"
-ms.custom: ""
+title: "NamespaceElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b2e367e2-3a03-c212-a6d9-1e1775f0ec6b
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # NamespaceElement Class
 Contains a single configuration namespace reference, similar to the `Import` directive.  

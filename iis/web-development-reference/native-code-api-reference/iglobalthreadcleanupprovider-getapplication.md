@@ -1,15 +1,7 @@
 ---
-title: "IGlobalThreadCleanupProvider::GetApplication | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalThreadCleanupProvider::GetApplication"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 58b4d588-36c4-574f-f180-02d305f7b22d
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalThreadCleanupProvider::GetApplication
 Retrieves an [IHttpApplication](../../web-development-reference\native-code-api-reference/ihttpapplication-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual IHttpApplication* GetApplication(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

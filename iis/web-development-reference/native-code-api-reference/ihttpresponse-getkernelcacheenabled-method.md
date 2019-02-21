@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::GetKernelCacheEnabled Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::GetKernelCacheEnabled Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 26fd4e99-9c54-abfa-9782-86bdbee4ad05
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::GetKernelCacheEnabled Method
 Determines whether the kernel cache is enabled for the current response.  
@@ -22,7 +14,7 @@ virtual BOOL GetKernelCacheEnabled(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  
@@ -38,7 +30,7 @@ virtual BOOL GetKernelCacheEnabled(
  The following code example demonstrates how to use the `GetKernelCacheEnabled` method to create an HTTP module that determines whether kernel caching is enabled for the current response. The module then returns this information to the client.  
   
 > [!NOTE]
->  Combine this example module with the example module that is listed for the [IHttpResponse::DisableKernelCache](../../web-development-reference\native-code-api-reference/ihttpresponse-disablekernelcache-method.md) method if you want to disable caching and return the status to the client.  
+> Combine this example module with the example module that is listed for the [IHttpResponse::DisableKernelCache](../../web-development-reference\native-code-api-reference/ihttpresponse-disablekernelcache-method.md) method if you want to disable caching and return the status to the client.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpResponseGetKernelCacheEnabled#1](IHttpResponseGetKernelCacheEnabled#1)]  -->  
   

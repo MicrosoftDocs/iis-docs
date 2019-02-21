@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::NotifyCustomNotification Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::NotifyCustomNotification Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a7ed6a0f-5a56-2420-5c1d-16364a5bda73
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::NotifyCustomNotification Method
 Raises a custom request-level notification.  
@@ -23,7 +15,7 @@ virtual HRESULT NotifyCustomNotification(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pCustomOutput`  
  A pointer to an [ICustomNotificationProvider](../../web-development-reference\native-code-api-reference/icustomnotificationprovider-interface.md).  
   

@@ -1,5 +1,5 @@
 ---
-title: ClipInformation.IsSmoothStreamingSource Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ClipInformation.IsSmoothStreamingSource Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: IsSmoothStreamingSource Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.IsSmoothStreamingSource
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipinformation.issmoothstreamingsource(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.get_IsSmoothStreamingSource
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.set_IsSmoothStreamingSource
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IsSmoothStreamingSource Property
@@ -39,7 +38,7 @@ Gets or sets a Boolean value that indicates whether the media clip is in Smooth 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property IsSmoothStreamingSource As Boolean
@@ -51,11 +50,11 @@ Dim value As Boolean
 value = instance.IsSmoothStreamingSource
 ```
 
-``` csharp
+```csharp
   public bool IsSmoothStreamingSource { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property bool IsSmoothStreamingSource {
     bool get ();
@@ -63,14 +62,14 @@ property bool IsSmoothStreamingSource {
 }
 ```
 
-``` jscript
+```jscript
   function get IsSmoothStreamingSource () : boolean
 private function set IsSmoothStreamingSource (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 A Boolean value, true if the media clip is in Smooth Streaming format, otherwise false.  
 
 ## Remarks
@@ -79,17 +78,17 @@ For a complete example that uses the IsSmoothStreamingSource property, see [Sche
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipInformation Class](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)
 

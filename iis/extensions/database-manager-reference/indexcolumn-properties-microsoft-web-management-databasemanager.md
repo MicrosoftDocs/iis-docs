@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # IndexColumn Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [IndexColumn](indexcolumn-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -22,11 +19,9 @@ The [IndexColumn](indexcolumn-class-microsoft-web-management-databasemanager.md)
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Descending](indexcolumn-descending-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that indicates whether the index column is a descending index.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](indexcolumn-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name of the index column.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IndexColumn Class](indexcolumn-class-microsoft-web-management-databasemanager.md)
 

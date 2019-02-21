@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRangeAsync
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.SetPlaybackRangeAsync Method
@@ -36,7 +35,7 @@ Specifies a start position for playing media content.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub SetPlaybackRangeAsync ( _
@@ -55,7 +54,7 @@ instance.SetPlaybackRangeAsync(leftEdge, _
     rightEdge, userState)
 ```
 
-``` csharp
+```csharp
 public void SetPlaybackRangeAsync(
     TimeSpan leftEdge,
     TimeSpan rightEdge,
@@ -63,7 +62,7 @@ public void SetPlaybackRangeAsync(
 )
 ```
 
-``` c++
+```cpp
 public:
 void SetPlaybackRangeAsync(
     TimeSpan leftEdge, 
@@ -79,7 +78,7 @@ member SetPlaybackRangeAsync :
         userState:Object -> unit 
 ```
 
-``` jscript
+```jscript
 public function SetPlaybackRangeAsync(
     leftEdge : TimeSpan, 
     rightEdge : TimeSpan, 
@@ -87,22 +86,22 @@ public function SetPlaybackRangeAsync(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - leftEdge  
-    Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))  
+    Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))  
     The start position of the content.
 
 <!-- end list -->
 
   - rightEdge  
-    Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))  
+    Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))  
     Reserved for future use.
 
 <!-- end list -->
 
   - userState  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
     The user state for later retrieval.
 
 ## Remarks
@@ -113,13 +112,13 @@ The SetPlaybackRangeAsync method fails if it is called and then called again bef
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

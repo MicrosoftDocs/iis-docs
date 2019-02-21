@@ -1,15 +1,7 @@
 ---
-title: "GlobalModuleElement Class | Microsoft Docs"
-ms.custom: ""
+title: "GlobalModuleElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e1f046e1-2b3a-031f-d47b-aa0f97c2ba9f
-caps.latest.revision: 27
-author: "shirhatti"
-manager: "wpickett"
 ---
 # GlobalModuleElement Class
 Configures a native or managed code module that processes requests to the Web server.  

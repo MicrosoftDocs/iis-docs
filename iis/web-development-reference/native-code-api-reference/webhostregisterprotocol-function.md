@@ -1,15 +1,7 @@
 ---
-title: "WebhostRegisterProtocol Function | Microsoft Docs"
-ms.custom: ""
+title: "WebhostRegisterProtocol Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 85ff51f6-ffcc-ff2c-1bbf-0b7fc3a556a8
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WebhostRegisterProtocol Function
 Declares the protocol that the listener adapter supports.  
@@ -25,7 +17,7 @@ HRESULT WebhostRegisterProtocol(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ProtocolId`  
  [IN] A string that contains the protocol that this listener adapter supports.  
   

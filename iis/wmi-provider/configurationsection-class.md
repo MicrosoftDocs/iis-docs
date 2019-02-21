@@ -1,15 +1,7 @@
 ---
-title: "ConfigurationSection Class1 | Microsoft Docs"
-ms.custom: ""
+title: "ConfigurationSection Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7b785db0-a6d8-5278-b524-bdcfc0463613
-caps.latest.revision: 32
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigurationSection Class1
 Serves as a base class for classes that represent configuration sections.  

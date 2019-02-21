@@ -1,5 +1,5 @@
 ---
-title: JobManifest.InputFileNames Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.InputFileNames Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFileNames Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.InputFileNames
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.inputfilenames(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_InputFileNames
 - Microsoft.Web.Media.TransformManager.JobManifest.InputFileNames
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # InputFileNames Property
@@ -38,7 +37,7 @@ Gets a collection of input file names for a job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property InputFileNames As ICollection(Of String)
@@ -51,11 +50,11 @@ Dim value As ICollection(Of String)
 value = instance.InputFileNames
 ```
 
-``` csharp
+```csharp
   public ICollection<string> InputFileNames { get; }
 ```
 
-``` c++
+```cpp
   public:
 property ICollection<String^>^ InputFileNames {
     ICollection<String^>^ get ();
@@ -66,18 +65,18 @@ property ICollection<String^>^ InputFileNames {
   member InputFileNames : ICollection<string>
 ```
 
-``` jscript
+```jscript
   function get InputFileNames () : ICollection<String>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic. . :: . .ICollection](https://msdn.microsoft.com/en-us/library/92t2ye13\(v=vs.90\))\< (Of \< ( \<'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))\> ) \> ) \>  
+Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/library/92t2ye13)\< (Of \< ( \<'[String](https://msdn.microsoft.com/library/s1wwdcbf)\> ) \> ) \>  
 A collection of input file names for a job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

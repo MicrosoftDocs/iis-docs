@@ -1,5 +1,5 @@
 ---
-title: TableInfo.IsMarkedForDelete Property  (Microsoft.Web.Management.DatabaseManager)
+title: TableInfo.IsMarkedForDelete Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsMarkedForDelete Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.IsMarkedForDelete
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.tableinfo.ismarkedfordelete(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.TableInfo.get_IsMarkedForDelete
 - Microsoft.Web.Management.DatabaseManager.TableInfo.set_IsMarkedForDelete
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TableInfo.IsMarkedForDelete Property
@@ -39,7 +38,7 @@ Gets or sets a value that indicates whether the table information is marked for 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property IsMarkedForDelete As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.IsMarkedForDelete
 instance.IsMarkedForDelete = value
 ```
 
-``` csharp
+```csharp
 public bool IsMarkedForDelete { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool IsMarkedForDelete {
     bool get ();
@@ -63,23 +62,23 @@ property bool IsMarkedForDelete {
 }
 ```
 
-``` jscript
+```jscript
 function get IsMarkedForDelete () : boolean
 function set IsMarkedForDelete (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the table information is marked for deletion; otherwise, false.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TableInfo Class](tableinfo-class-microsoft-web-management-databasemanager.md)
 

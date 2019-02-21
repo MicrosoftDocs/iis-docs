@@ -1,15 +1,7 @@
 ---
-title: "AspCache Class | Microsoft Docs"
-ms.custom: ""
+title: "AspCache Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fa41a3b8-75e1-529f-acc0-1fcb467704f3
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AspCache Class
 Configures properties related to ASP caching.  

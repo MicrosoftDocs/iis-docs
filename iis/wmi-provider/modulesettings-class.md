@@ -1,15 +1,7 @@
 ---
-title: "ModuleSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "ModuleSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 760f4adf-3e89-4a5d-9648-ca4753f5eb65
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ModuleSettings Class
 Represents the type information for a custom [System.Net.IWebProxy](http://go.microsoft.com/fwlink/?LinkId=70961) module.  

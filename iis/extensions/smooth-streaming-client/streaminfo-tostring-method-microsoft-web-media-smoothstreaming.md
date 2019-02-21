@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.ToString
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ToString Method
@@ -35,7 +34,7 @@ Writes the [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.m
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Overrides Function ToString As String
@@ -47,41 +46,41 @@ Dim returnValue As String
 returnValue = instance.ToString()
 ```
 
-``` csharp
+```csharp
   public override string ToString()
 ```
 
-``` c++
+```cpp
   public:
 virtual String^ ToString() override
 ```
 
-``` jscript
+```jscript
   public override function ToString() : String
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A string that contains the stream information.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

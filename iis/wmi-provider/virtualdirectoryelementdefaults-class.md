@@ -1,15 +1,7 @@
 ---
-title: "VirtualDirectoryElementDefaults Class1 | Microsoft Docs"
-ms.custom: ""
+title: "VirtualDirectoryElementDefaults Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 270a77bc-b340-b5b7-05f2-d7fbc0f9f34a
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # VirtualDirectoryElementDefaults Class1
 Exposes default configuration settings for IIS virtual directories.  

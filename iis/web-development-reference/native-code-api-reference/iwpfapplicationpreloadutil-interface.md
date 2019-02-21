@@ -1,15 +1,7 @@
 ---
-title: "IWpfApplicationPreloadUtil Interface | Microsoft Docs"
-ms.custom: ""
+title: "IWpfApplicationPreloadUtil Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 180fa728-36d1-4753-8e6a-23b71ced97c8
-caps.latest.revision: 3
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfApplicationPreloadUtil Interface
 Exposes helper functions that return preload information (such as site ID) for an application and report preload failures.  

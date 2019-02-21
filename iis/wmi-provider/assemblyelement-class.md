@@ -1,15 +1,7 @@
 ---
-title: "AssemblyElement Class | Microsoft Docs"
-ms.custom: ""
+title: "AssemblyElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 186c51f7-3822-cf30-8793-1f7afd934f45
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AssemblyElement Class
 Specifies an assembly reference that is used during compilation of an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web application.  

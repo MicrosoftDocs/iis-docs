@@ -1,5 +1,5 @@
 ---
-title: TypeInfo.MaximumPrecision Property  (Microsoft.Web.Management.DatabaseManager)
+title: TypeInfo.MaximumPrecision Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: MaximumPrecision Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.MaximumPrecision
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.maximumprecision(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_MaximumPrecision
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_MaximumPrecision
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.MaximumPrecision Property
@@ -39,7 +38,7 @@ Gets or sets the maximum precision for the data type.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property MaximumPrecision As Integer
 'Usage
@@ -51,11 +50,11 @@ value = instance.MaximumPrecision
 instance.MaximumPrecision = value
 ```
 
-``` csharp
+```csharp
 public int MaximumPrecision { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property int MaximumPrecision {
     int get ();
@@ -63,14 +62,14 @@ property int MaximumPrecision {
 }
 ```
 
-``` jscript
+```jscript
 function get MaximumPrecision () : int
 function set MaximumPrecision (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The maximum precision for the data type.  
 
 ## Remarks
@@ -81,7 +80,7 @@ Maximum precision refers to the maximum number of base-10 digits that the data t
 
 The following code sample illustrates an example GetServerTypes method that returns a list of database types for an OLEDB provider.
 
-``` vb
+```vb
 
     Public Overrides Function GetServerTypes( _
             ByVal connectionString As String) _
@@ -221,7 +220,7 @@ The following code sample illustrates an example GetServerTypes method that retu
 
 ```
 
-``` csharp
+```csharp
 
         public override ICollection<TypeInfo> GetServerTypes(
             string connectionString )
@@ -362,11 +361,11 @@ The following code sample illustrates an example GetServerTypes method that retu
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 

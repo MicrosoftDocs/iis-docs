@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::CHttpModule Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::CHttpModule Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8b95c504-0a60-4676-8708-1765f91d7f6d
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::CHttpModule Method
 Initializes a new instance of the [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class.  
@@ -21,7 +13,7 @@ CHttpModule (
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Remarks  

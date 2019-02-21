@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobScheduler Constructor (FileInfo, XElement)
@@ -34,7 +33,7 @@ Initializes a new instance of the [JobScheduler](jobscheduler-class-microsoft-we
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -50,14 +49,14 @@ Dim instance As New JobScheduler(fileInfo, _
     jobSchedulerElement)
 ```
 
-``` csharp
+```csharp
   public JobScheduler(
     FileInfo fileInfo,
     XElement jobSchedulerElement
 )
 ```
 
-``` c++
+```cpp
   public:
 JobScheduler(
     FileInfo^ fileInfo, 
@@ -71,35 +70,35 @@ JobScheduler(
         jobSchedulerElement:XElement -> JobScheduler
 ```
 
-``` jscript
+```jscript
   public function JobScheduler(
     fileInfo : FileInfo, 
     jobSchedulerElement : XElement
 )
 ```
 
-#### Parameters
+### Parameters
 
   - fileInfo  
-    Type: [System.IO. . :: . .FileInfo](https://msdn.microsoft.com/en-us/library/akth6b1k\(v=vs.90\))  
-    A [FileInfo](https://msdn.microsoft.com/en-us/library/akth6b1k\(v=vs.90\)) object that is used to retrieve file details.  
+    Type: [System.IO.FileInfo](https://msdn.microsoft.com/library/akth6b1k)  
+    A [FileInfo](https://msdn.microsoft.com/library/akth6b1k) object that is used to retrieve file details.  
 
 <!-- end list -->
 
   - jobSchedulerElement  
-    Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+    Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
     The XML element that contains job scheduler details.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[ArgumentNullException](https://msdn.microsoft.com/en-us/library/27426hcy(v=vs.90))|jobSchedulerElement is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
+|[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|jobSchedulerElement is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobScheduler Class](jobscheduler-class-microsoft-web-media-transformmanager.md)
 

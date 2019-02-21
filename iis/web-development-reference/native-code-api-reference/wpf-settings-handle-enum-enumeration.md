@@ -1,15 +1,7 @@
 ---
-title: "WPF_SETTINGS_HANDLE_ENUM Enumeration | Microsoft Docs"
-ms.custom: ""
+title: "WPF_SETTINGS_HANDLE_ENUM Enumeration"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 81a84a38-c9ab-323f-f181-8379d50c26c8
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WPF_SETTINGS_HANDLE_ENUM Enumeration
 Defines the `HANDLE` values that the [IWpfSettings::GetHandleProperty](../../web-development-reference\native-code-api-reference/iwpfsettings-gethandleproperty-method.md) method returns.  

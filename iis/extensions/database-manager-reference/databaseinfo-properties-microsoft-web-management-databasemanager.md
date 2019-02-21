@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # DatabaseInfo Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [DatabaseInfo](databaseinfo-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -22,11 +19,9 @@ The [DatabaseInfo](databaseinfo-class-microsoft-web-management-databasemanager.m
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[SupportsSchemas](databaseinfo-supportsschemas-property-microsoft-web-management-databasemanager.md)|Specifies whether the database supports schemas.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [DatabaseInfo Class](databaseinfo-class-microsoft-web-management-databasemanager.md)
 

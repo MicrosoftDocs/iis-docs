@@ -1,5 +1,5 @@
 ---
-title: ITaskStatus.PercentComplete Property  (Microsoft.Web.Media.TransformManager)
+title: ITaskStatus.PercentComplete Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: PercentComplete Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ITaskStatus.PercentComplete
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.itaskstatus.percentcomplete(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ITaskStatus.PercentComplete
 - Microsoft.Web.Media.TransformManager.ITaskStatus.get_PercentComplete
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # PercentComplete Property
@@ -38,7 +37,7 @@ Gets the percentage of task completion.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   ReadOnly Property PercentComplete As Integer
@@ -51,11 +50,11 @@ Dim value As Integer
 value = instance.PercentComplete
 ```
 
-``` csharp
+```csharp
   int PercentComplete { get; }
 ```
 
-``` c++
+```cpp
   property int PercentComplete {
     int get ();
 }
@@ -65,13 +64,13 @@ value = instance.PercentComplete
   abstract PercentComplete : int
 ```
 
-``` jscript
+```jscript
   function get PercentComplete () : int
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The percentage completed.  
 
 ## Remarks
@@ -80,7 +79,7 @@ The percentage can be used to report progress in the UI.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ITaskStatus Interface](itaskstatus-interface-microsoft-web-media-transformmanager.md)
 

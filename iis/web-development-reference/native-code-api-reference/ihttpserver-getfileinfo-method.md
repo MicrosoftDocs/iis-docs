@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::GetFileInfo Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::GetFileInfo Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1c3d91fe-062b-93c1-c5ad-e0dda028d987
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::GetFileInfo Method
 Returns an [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) interface for a specific file path.  
@@ -29,7 +21,7 @@ virtual HRESULT GetFileInfo(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszPhysicalPath`  
  [IN] A pointer to a string that contains the physical path to a file.  
   

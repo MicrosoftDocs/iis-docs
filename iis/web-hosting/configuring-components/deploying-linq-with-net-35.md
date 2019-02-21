@@ -13,14 +13,14 @@ by [Walter Oliver](https://github.com/walterov)
 
 ## Overview
 
-[ASP.NET](https://msdn.microsoft.com/en-us/library/4w3ex9c2.aspx "ASP.NET Overview") is a unified Web development model that includes the services necessary to build Web applications with a minimum of coding. ASP.NET is part of the .NET Framework, and when coding ASP.NET applications you have access to classes in the .NET Framework. You can code your applications in any language compatible with the common language runtime (CLR), including Microsoft Visual Basic, C#, JScript .NET, and J#. These languages enable you to develop ASP.NET applications that benefit from the common language runtime, type safety, inheritance, and so on.
+[ASP.NET](https://msdn.microsoft.com/library/4w3ex9c2.aspx "ASP.NET Overview") is a unified Web development model that includes the services necessary to build Web applications with a minimum of coding. ASP.NET is part of the .NET Framework, and when coding ASP.NET applications you have access to classes in the .NET Framework. You can code your applications in any language compatible with the common language runtime (CLR), including Microsoft Visual Basic, C#, JScript .NET, and J#. These languages enable you to develop ASP.NET applications that benefit from the common language runtime, type safety, inheritance, and so on.
 
-[Language-Integrated Query](https://msdn.microsoft.com/en-us/library/bb397926.aspx "LINQ Overview") (LINQ) is a set of features in Visual Studio 2008 that extends powerful query capabilities to the language syntax of C# and Visual Basic. LINQ introduces standard, easily-learned patterns for querying and updating data, and the technology can be extended to support potentially any kind of data store.
+[Language-Integrated Query](https://msdn.microsoft.com/library/bb397926.aspx "LINQ Overview") (LINQ) is a set of features in Visual Studio 2008 that extends powerful query capabilities to the language syntax of C# and Visual Basic. LINQ introduces standard, easily-learned patterns for querying and updating data, and the technology can be extended to support potentially any kind of data store.
 
 > [!IMPORTANT]
 > When hosting Web Applications that use LINQ, you might have to change the policy files for code-access security.
 
-The following sections describe these settings. See [Using LINQ with ASP.NET](https://msdn.microsoft.com/en-us/library/bb907622.aspx "Using LINQ with ASP.NET") for more information.
+The following sections describe these settings. See [Using LINQ with ASP.NET](https://msdn.microsoft.com/library/bb907622.aspx "Using LINQ with ASP.NET") for more information.
 
 ## Using LINQ with Medium Trust
 

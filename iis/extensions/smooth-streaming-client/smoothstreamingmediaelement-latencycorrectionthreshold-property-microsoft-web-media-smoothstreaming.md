@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.LatencyCorrectionThreshold Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.LatencyCorrectionThreshold Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LatencyCorrectionThreshold Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LatencyCorrectionThreshold
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.latencycorrectionthreshold(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_LatencyCorrectionThreshold
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LatencyCorrectionThreshold
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LatencyCorrectionThreshold Property
@@ -39,7 +38,7 @@ Gets or sets the latency correction threshold for live playback.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property LatencyCorrectionThreshold As TimeSpan
@@ -53,11 +52,11 @@ value = instance.LatencyCorrectionThreshold
 instance.LatencyCorrectionThreshold = value
 ```
 
-``` csharp
+```csharp
   public TimeSpan LatencyCorrectionThreshold { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property TimeSpan LatencyCorrectionThreshold {
     TimeSpan get ();
@@ -65,21 +64,21 @@ property TimeSpan LatencyCorrectionThreshold {
 }
 ```
 
-``` jscript
+```jscript
   function get LatencyCorrectionThreshold () : TimeSpan
 function set LatencyCorrectionThreshold (value : TimeSpan)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\))  
+Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577)  
 The latency correction threshold.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[InvalidOperationException](https://msdn.microsoft.com/en-us/library/2asft85a(v=vs.90))|The value is smaller than the sum of the [LiveBackOff](smoothstreamingmediaelement-livebackoff-property-microsoft-web-media-smoothstreaming_1.md) value and the maximum between the [BufferingTime](smoothstreamingmediaelement-bufferingtime-property-microsoft-web-media-smoothstreaming_1.md) and the [LivePlaybackOffset](smoothstreamingmediaelement-liveplaybackoffset-property-microsoft-web-media-smoothstreaming_1.md) values.|
+|[InvalidOperationException](https://msdn.microsoft.com/library/2asft85a)|The value is smaller than the sum of the [LiveBackOff](smoothstreamingmediaelement-livebackoff-property-microsoft-web-media-smoothstreaming_1.md) value and the maximum between the [BufferingTime](smoothstreamingmediaelement-bufferingtime-property-microsoft-web-media-smoothstreaming_1.md) and the [LivePlaybackOffset](smoothstreamingmediaelement-liveplaybackoffset-property-microsoft-web-media-smoothstreaming_1.md) values.|
 
 
 ## Remarks
@@ -90,21 +89,21 @@ Avoid using B-frames in the encoded stream if you intend to use the LatencyCorre
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 
-[BufferingTime](https://msdn.microsoft.com/en-us/library/cc190360\(v=vs.90\))
+[BufferingTime](https://msdn.microsoft.com/library/cc190360)
 

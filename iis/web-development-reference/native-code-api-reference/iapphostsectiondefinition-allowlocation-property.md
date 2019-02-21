@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionDefinition::AllowLocation Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionDefinition::AllowLocation Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8b902a59-f4d5-e223-d8e0-6e5e29f9999d
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionDefinition::AllowLocation Property
 Gets or sets a value that indicates whether the configuration section allows the location attribute.  
@@ -26,7 +18,7 @@ HRESULT put_AllowLocation(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrAllowLocation`  
  A pointer to a `BSTR` that indicates whether the configuration section allows the location attribute. Valid values are "true" or "false". The default value is "true".  
   

@@ -1,15 +1,7 @@
 ---
-title: "ScheduleElement Class | Microsoft Docs"
-ms.custom: ""
+title: "ScheduleElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e9de8a29-15b2-4f63-9f61-f1e2315dc522
-caps.latest.revision: 6
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ScheduleElement Class
 Specifies the local time at which an application will be recycled.  

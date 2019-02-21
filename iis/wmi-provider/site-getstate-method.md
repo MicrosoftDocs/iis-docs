@@ -1,15 +1,7 @@
 ---
-title: "Site.GetState Method1 | Microsoft Docs"
-ms.custom: ""
+title: "Site.GetState Method1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c645f4bb-5ba5-9bcd-1edb-b64867b8663a
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Site.GetState Method1
 Returns the run-time state of a Web site.  
@@ -24,7 +16,7 @@ objSite.GetState
 var siteState = objSite.GetState();  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

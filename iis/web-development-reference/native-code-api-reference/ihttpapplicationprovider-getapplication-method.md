@@ -1,15 +1,7 @@
 ---
-title: "IHttpApplicationProvider::GetApplication Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpApplicationProvider::GetApplication Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0fe58b12-e575-f28c-028e-1235e6f2d321
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpApplicationProvider::GetApplication Method
 Retrieves an [IHttpApplication](../../web-development-reference\native-code-api-reference/ihttpapplication-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual IHttpApplication* GetApplication(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

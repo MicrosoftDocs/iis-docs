@@ -1,5 +1,5 @@
 ---
-title: JobTemplate.Properties Property  (Microsoft.Web.Media.TransformManager)
+title: JobTemplate.Properties Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Properties Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobTemplate.Properties
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobtemplate.properties(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobTemplate.Properties
 - Microsoft.Web.Media.TransformManager.JobTemplate.set_Properties
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Properties Property
@@ -40,7 +39,7 @@ Gets or sets a collection of properties that are defined for the tasks.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property Properties As ManifestPropertiesDictionary
@@ -56,12 +55,12 @@ value = instance.Properties
 instance.Properties = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public ManifestPropertiesDictionary Properties { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property ManifestPropertiesDictionary^ Properties {
@@ -75,19 +74,19 @@ property ManifestPropertiesDictionary^ Properties {
 member Properties : ManifestPropertiesDictionary with get, set
 ```
 
-``` jscript
+```jscript
   function get Properties () : ManifestPropertiesDictionary
 function set Properties (value : ManifestPropertiesDictionary)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .ManifestPropertiesDictionary](manifestpropertiesdictionary-class-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary](manifestpropertiesdictionary-class-microsoft-web-media-transformmanager.md)  
 A collection of properties that are defined for the tasks.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobTemplate Class](jobtemplate-class-microsoft-web-media-transformmanager.md)
 

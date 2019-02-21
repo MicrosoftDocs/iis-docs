@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.TransformManagerService
 - Microsoft.Web.Media.TransformManager.TransformManagerService.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TransformManagerService Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [TransformManagerService](transformmanagerserv
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New
@@ -46,11 +45,11 @@ Initializes a new instance of the [TransformManagerService](transformmanagerserv
 Dim instance As New TransformManagerService()
 ```
 
-``` csharp
+```csharp
   public TransformManagerService()
 ```
 
-``` c++
+```cpp
   public:
 TransformManagerService()
 ```
@@ -59,13 +58,13 @@ TransformManagerService()
   new : unit -> TransformManagerService
 ```
 
-``` jscript
+```jscript
   public function TransformManagerService()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

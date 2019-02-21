@@ -1,15 +1,7 @@
 ---
-title: "ConfigurationSectionWithCollection Class | Microsoft Docs"
-ms.custom: ""
+title: "ConfigurationSectionWithCollection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b0963c4c-d99f-2f45-3532-ab003df8db2c
-caps.latest.revision: 31
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigurationSectionWithCollection Class
 Serves as a base class for configuration-section classes that contain collections.  
@@ -92,7 +84,7 @@ class ConfigurationSectionWithCollection : ConfigurationSection
 |[SecurityPolicySection](../wmi-provider/securitypolicysection-class.md)|Defines a collection of mappings between security policy files and their trust-level names.|  
 |[SessionStateSection](../wmi-provider/sessionstatesection-class.md)|Configures the session state for a Web application.|  
 |[SiteMapSection](../wmi-provider/sitemapsection-class.md)|Defines configuration settings for site navigation.|  
-|[SqlCacheDependencySection](../wmi-provider/sqlcachedependencysection-class.md)|Represents a [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency?view=netframework-4.7.2)|  
+|[SqlCacheDependencySection](../wmi-provider/sqlcachedependencysection-class.md)|Represents a [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency)|  
 |[StaticContentSection](../wmi-provider/staticcontentsection-class.md)|Exposes configuration settings for static content on a Web site.|  
 |[SystemCodeDomSection](../wmi-provider/systemcodedomsection-class.md)|Specifies a collection of compilers that provide Code Document Object Model (CodeDOM) support.|  
 |[SystemDataSection](../wmi-provider/systemdatasection-class.md)|Specifies a list of installed [!INCLUDE[vstecado](../wmi-provider/includes/vstecado-md.md)] data providers.|  
@@ -113,7 +105,7 @@ class ConfigurationSectionWithCollection : ConfigurationSection
  You should be careful how you access a key property in a collection after the key property's value has changed. For example, if you change the value of a key property whose index is 4, the new index for the key property will be 0 if the `mergeAppend` attribute is `false`.  
   
 > [!NOTE]
->  You should be aware of this behavior when you create any custom schema and custom configuration files. You should not modify the `mergeAppend` attributes in the schema files that ship with [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)]. You cannot modify the `mergeAppend` attribute by using the WMI provider for [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)].  
+> You should be aware of this behavior when you create any custom schema and custom configuration files. You should not modify the `mergeAppend` attributes in the schema files that ship with [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)]. You cannot modify the `mergeAppend` attribute by using the WMI provider for [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)].  
   
  The `mergeAppend` attribute affects the following `ConfigurationSectionWithCollection` class properties that ship with [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)]. The table lists these properties and their corresponding schema files. In all these cases, the schema files that ship with [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] specify `false` for the `mergeAppend` attribute.  
   

@@ -1,15 +1,7 @@
 ---
-title: "IHttpApplication::GetAppConfigPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpApplication::GetAppConfigPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 03799acd-fcad-0c04-f840-6065198e4c97
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpApplication::GetAppConfigPath Method
 Retrieves the application configuration path.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetAppConfigPath(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

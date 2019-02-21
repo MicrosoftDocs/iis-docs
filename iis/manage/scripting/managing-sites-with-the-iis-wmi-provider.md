@@ -30,7 +30,7 @@ Tasks and sections in this article include:
 
 Many of these tasks are performed in a similar manner for other objects, like ApplicationPool. Challenge yourself at the end of this article to see whether or not you can use what you learn here to create, delete and modify ApplicationPool objects.
 
-This document makes extensive use of CIM Studio; if you're not already familiar with it, see [CIM Studio](https://msdn.microsoft.com/en-us/library/ms525342(vs.85).aspx).
+This document makes extensive use of CIM Studio; if you're not already familiar with it, see [CIM Studio](https://msdn.microsoft.com/library/ms525342(vs.85).aspx).
 
 <a id="01"></a>
 
@@ -99,7 +99,7 @@ Click **File**, **Save As...** to open the Save dialog. Find the **Save as type:
 
 [![](managing-sites-with-the-iis-wmi-provider/_static/image2.jpg)](managing-sites-with-the-iis-wmi-provider/_static/image1.jpg)
 
-Click **Start**, click the **Start Search** box, type **cmd.exe**, and then press **Enter**. Type **cd %SystemDrive%\Users\Administrator\Desktop**, then press **Enter**. Type **cscript //h:cscript**, and press **Enter**. This sets the default script host to cscript.exe which sends its output to the command window in which it was started. For more information, read [Running Scripts from Windows](https://msdn.microsoft.com/en-us/library/xazzc41b.aspx).
+Click **Start**, click the **Start Search** box, type **cmd.exe**, and then press **Enter**. Type **cd %SystemDrive%\Users\Administrator\Desktop**, then press **Enter**. Type **cscript //h:cscript**, and press **Enter**. This sets the default script host to cscript.exe which sends its output to the command window in which it was started. For more information, read [Running Scripts from Windows](https://msdn.microsoft.com/library/xazzc41b.aspx).
 
 Type **GetSite.vbs**, and press **Enter**. If your script runs without error, it means you have successfully connected to the "WebAdministration" namespace. For more information on the "winmgmts:root\WebAdministration" string, read [Constructing a Moniker String](https://msdn.microsoft.com/library/default.asp?url=/library/en-us/wmisdk/wmi/constructing_a_moniker_string.asp). We will add four more lines to our GetSite.vbs script. These four lines of script will get the Default Web Site and then confirm success by printing two of its properties.
 
@@ -117,7 +117,7 @@ To see how the "Get" works, click **Start**, **All Programs**, **WMI Tools**, an
 
 [![](managing-sites-with-the-iis-wmi-provider/_static/image4.jpg)](managing-sites-with-the-iis-wmi-provider/_static/image3.jpg)
 
-A class can have one or more "key" properties; this set of one or more keys uniquely identifies an object. Read [Describing an Instance Object Path](https://msdn.microsoft.com/en-us/library/aa389977.aspx) for more details; in effect, the string "Site.Name='Default Web Site'" is saying "get the instance of the Site object, with key property Name equal to 'Default Web Site'". If this makes sense, try something a little more difficult.
+A class can have one or more "key" properties; this set of one or more keys uniquely identifies an object. Read [Describing an Instance Object Path](https://msdn.microsoft.com/library/aa389977.aspx) for more details; in effect, the string "Site.Name='Default Web Site'" is saying "get the instance of the Site object, with key property Name equal to 'Default Web Site'". If this makes sense, try something a little more difficult.
 
 <a id="03"></a>
 
@@ -195,7 +195,7 @@ To know a general way to find out whether an object can be created, deleted, or 
 
 The object qualifiers SupportsCreate, SupportsDelete, and SupportsUpdate describe whether an object can be created, delete, or modified. Site can be created, deleted and modified, so Site has all three of these qualifiers and they are all true.
 
-Search for WorkerProcess in CIM Studio. Right-click in the property grid on the Properties tab and click **Object Qualifiers...**. The dialog below shows that the WorkerProcess object does not have these three qualifiers; the value of these qualifiers is false by default (for more information, see [Standard Qualifiers](https://msdn.microsoft.com/en-us/library/aa393650.aspx)). Therefore, the WorkerProcess object cannot be created, deleted or modified.
+Search for WorkerProcess in CIM Studio. Right-click in the property grid on the Properties tab and click **Object Qualifiers...**. The dialog below shows that the WorkerProcess object does not have these three qualifiers; the value of these qualifiers is false by default (for more information, see [Standard Qualifiers](https://msdn.microsoft.com/library/aa393650.aspx)). Therefore, the WorkerProcess object cannot be created, deleted or modified.
 
 [![](managing-sites-with-the-iis-wmi-provider/_static/image16.jpg)](managing-sites-with-the-iis-wmi-provider/_static/image15.jpg)
 
@@ -219,7 +219,7 @@ You may ask where the InstancesOf method came from, and where you can read more 
 
 [!code-console[Main](managing-sites-with-the-iis-wmi-provider/samples/sample11.cmd)]
 
-The GetObject call returns an SWbemServices object that can be used to perform operations against a namespace. This object has an InstancesOf method, as well as a number of other useful methods. To read more about InstancesOf or other available methods, see the [Platform SDK article on SWbemServices](https://msdn.microsoft.com/en-us/library/aa393854.aspx).
+The GetObject call returns an SWbemServices object that can be used to perform operations against a namespace. This object has an InstancesOf method, as well as a number of other useful methods. To read more about InstancesOf or other available methods, see the [Platform SDK article on SWbemServices](https://msdn.microsoft.com/library/aa393854.aspx).
 
 <a id="06"></a>
 

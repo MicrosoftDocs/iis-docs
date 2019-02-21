@@ -1,15 +1,7 @@
 ---
-title: "Worker Process and Protocol Manager Enumerations | Microsoft Docs"
-ms.custom: ""
+title: "Worker Process and Protocol Manager Enumerations"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2b076ecb-77cb-4c76-b96b-500d6e1d6a10
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Worker Process and Protocol Manager Enumerations
 This section describes the enumerations that are used by the interfaces and methods in the worker process framework. These enumerations are defined in the Wpframework.h header file.  

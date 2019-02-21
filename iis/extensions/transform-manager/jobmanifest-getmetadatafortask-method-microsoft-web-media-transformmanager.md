@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.GetMetadataForTask
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetMetadataForTask Method
@@ -36,7 +35,7 @@ Returns the metadata for the specified task.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Function GetMetadataForTask ( _
@@ -51,13 +50,13 @@ Dim returnValue As XElement
 returnValue = instance.GetMetadataForTask(taskId)
 ```
 
-``` csharp
+```csharp
   public XElement GetMetadataForTask(
     string taskId
 )
 ```
 
-``` c++
+```cpp
   public:
 XElement^ GetMetadataForTask(
     String^ taskId
@@ -69,26 +68,26 @@ XElement^ GetMetadataForTask(
         taskId:string -> XElement 
 ```
 
-``` jscript
+```jscript
   public function GetMetadataForTask(
     taskId : String
 ) : XElement
 ```
 
-#### Parameters
+### Parameters
 
   - taskId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the task.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 The XML element that contains the task metadata.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

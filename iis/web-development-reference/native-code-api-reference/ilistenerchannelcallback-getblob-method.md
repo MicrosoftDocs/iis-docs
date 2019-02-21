@@ -1,15 +1,7 @@
 ---
-title: "IListenerChannelCallback::GetBlob Method | Microsoft Docs"
-ms.custom: ""
+title: "IListenerChannelCallback::GetBlob Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5a264414-39bc-9cc7-dc58-04453914b7ab
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IListenerChannelCallback::GetBlob Method
 Retrieves data that the protocol manager will pass to a listener channel when the protocol manager is starting that listener channel.  
@@ -23,7 +15,7 @@ virtual HRESULT __stdcall GetBlob(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pBlob`  
  A pointer to a `BYTE` buffer that contains data that will be passed to the listener channel.  
   

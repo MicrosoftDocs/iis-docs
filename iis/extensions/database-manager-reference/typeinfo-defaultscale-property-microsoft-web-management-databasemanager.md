@@ -1,5 +1,5 @@
 ---
-title: TypeInfo.DefaultScale Property  (Microsoft.Web.Management.DatabaseManager)
+title: TypeInfo.DefaultScale Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DefaultScale Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.DefaultScale
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.defaultscale(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_DefaultScale
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_DefaultScale
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.DefaultScale Property
@@ -39,7 +38,7 @@ Gets or sets a value that specifies the default scale for the data type.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property DefaultScale As Integer
 'Usage
@@ -51,11 +50,11 @@ value = instance.DefaultScale
 instance.DefaultScale = value
 ```
 
-``` csharp
+```csharp
 public int DefaultScale { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property int DefaultScale {
     int get ();
@@ -63,14 +62,14 @@ property int DefaultScale {
 }
 ```
 
-``` jscript
+```jscript
 function get DefaultScale () : int
 function set DefaultScale (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The default scale for the data type.  
 
 ## Remarks
@@ -79,11 +78,11 @@ The numeric scale for a data type refers to the number of digits that are allowe
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 

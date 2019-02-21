@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobTemplates
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobTemplates Method
@@ -36,7 +35,7 @@ Returns all [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Function GetJobTemplates As Collection(Of JobTemplate)
@@ -48,12 +47,12 @@ Dim returnValue As Collection(Of JobTemplate)
 returnValue = instance.GetJobTemplates()
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public Collection<JobTemplate> GetJobTemplates()
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual Collection<JobTemplate^>^ GetJobTemplates() sealed
@@ -66,22 +65,22 @@ abstract GetJobTemplates : unit -> Collection<JobTemplate>
 override GetJobTemplates : unit -> Collection<JobTemplate> 
 ```
 
-``` jscript
+```jscript
   public final function GetJobTemplates() : Collection<JobTemplate>
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 A collection of [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) objects.  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .GetJobTemplates() () () ()](imanagementservice-getjobtemplates-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.GetJobTemplates() () () ()](imanagementservice-getjobtemplates-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingAsyncResult.Result Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingAsyncResult.Result Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Result Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.Result
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.result(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.set_Result
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.Result
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingAsyncResult.Result Property
@@ -40,7 +39,7 @@ Returns the result of calling [EndGetChunk(IAsyncResult)](trackinfo-endgetchunk-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Result As Object
@@ -54,11 +53,11 @@ Dim value As Object
 value = instance.Result
 ```
 
-``` csharp
+```csharp
 public Object Result { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property Object^ Result {
     Object^ get ();
@@ -70,25 +69,25 @@ property Object^ Result {
 member Result : Object with get, private set
 ```
 
-``` jscript
+```jscript
 function get Result () : Object
 private function set Result (value : Object)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
 An object that contains the result.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingAsyncResult Class](smoothstreamingasyncresult-class-microsoft-web-media-smoothstreaming.md)
 

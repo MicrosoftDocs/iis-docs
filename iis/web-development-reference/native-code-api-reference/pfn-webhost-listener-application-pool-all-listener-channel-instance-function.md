@@ -1,15 +1,7 @@
 ---
-title: "PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: pfn-webhost-listener-application-pool-all-listener-channel-instance-function
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE Function
 Notifies the listener adapter that it is possible to launch other instances of this listener channel.  
@@ -24,7 +16,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANN
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
   

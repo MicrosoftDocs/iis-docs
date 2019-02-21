@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethod Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethod Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 86f78e95-288b-4fd5-979c-33a4a0e891e9
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethod Interface
 Provides access to a custom method that is optionally supported on an [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object.  

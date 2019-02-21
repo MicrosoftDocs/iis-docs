@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManagerShutDownEventHandler
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobManagerShutDownEventHandler Delegate
@@ -40,7 +39,7 @@ Represents the method that handles the shutdown event for the job manager. This 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Delegate Sub JobManagerShutDownEventHandler ( _
@@ -52,14 +51,14 @@ Represents the method that handles the shutdown event for the job manager. This 
   Dim instance As New JobManagerShutDownEventHandler(AddressOf HandlerMethod)
 ```
 
-``` csharp
+```csharp
   public delegate void JobManagerShutDownEventHandler(
     Object sender,
     EventArgs e
 )
 ```
 
-``` c++
+```cpp
   public delegate void JobManagerShutDownEventHandler(
     Object^ sender, 
     EventArgs^ e
@@ -73,23 +72,23 @@ Represents the method that handles the shutdown event for the job manager. This 
         e:EventArgs -> unit
 ```
 
-``` jscript
+```jscript
   
 ```
 
-#### Parameters
+### Parameters
 
   - sender  
-    Type: [System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
 
 <!-- end list -->
 
   - e  
-    Type: [System. . :: . .EventArgs](https://msdn.microsoft.com/en-us/library/118wxtk3\(v=vs.90\))  
+    Type: [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "HealthMonitoringSection Class | Microsoft Docs"
-ms.custom: ""
+title: "HealthMonitoringSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8fd30064-d022-b1a0-6011-75b020d101dd
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HealthMonitoringSection Class
 Configures an application for health monitoring.  
@@ -43,7 +35,7 @@ class HealthMonitoringSection : ConfigurationSectionWithCollection
 |`BufferModes`|A [BufferModeSettings](../wmi-provider/buffermodesettings-class.md) value that configures the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] event-buffering settings for event providers.|  
 |`Enabled`|A read/write `boolean` value. `true` if health monitoring is enabled for the Web application; otherwise, `false`. The default is `true`.|  
 |`EventMappings`|A [EventMappingSettings](../wmi-provider/eventmappingsettings-class.md) value that maps friendly event names to related event types.|  
-|`HeartbeatInterval`|A read/write `datetime` value that specifies the interval between [System.Web.Management.WebHeartbeatEvent](/dotnet/api/system.web.management.webheartbeatevent?view=netframework-4.7.2) events. The default is 0, which indicates that no `WebHeartbeatEvent` event is raised.|  
+|`HeartbeatInterval`|A read/write `datetime` value that specifies the interval between [System.Web.Management.WebHeartbeatEvent](/dotnet/api/system.web.management.webheartbeatevent) events. The default is 0, which indicates that no `WebHeartbeatEvent` event is raised.|  
 |`Location`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`Path`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`Profiles`|A [ProfileSettings](../wmi-provider/profilesettings-class.md) value that specifies event profiles that determine how events are collected by [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and raised to providers.|  
@@ -71,7 +63,7 @@ class HealthMonitoringSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Management.WebHeartbeatEvent](/dotnet/api/system.web.management.webheartbeatevent?view=netframework-4.7.2)
+ [System.Web.Management.WebHeartbeatEvent](/dotnet/api/system.web.management.webheartbeatevent)
  [BufferModeSettings Class](../wmi-provider/buffermodesettings-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [EventMappingSettings Class](../wmi-provider/eventmappingsettings-class.md)   

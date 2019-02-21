@@ -1,15 +1,7 @@
 ---
-title: "LogSection Class1 | Microsoft Docs"
-ms.custom: ""
+title: "LogSection Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cc93d19f-64ef-2ee5-5266-93f14570d30c
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # LogSection Class1
 Configures the logging for a server or site.  

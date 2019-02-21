@@ -1,15 +1,7 @@
 ---
-title: "SettingsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "SettingsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 437b7c23-a582-c80c-c23d-15610b504be2
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SettingsSection Class
 Contains settings that specify how the [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)] connects to the network.  

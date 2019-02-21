@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.IncludeTraceLevel
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.IncludeTraceLevel Field
@@ -36,7 +35,7 @@ A Boolean value that indicates whether to include the trace level severity in tr
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared IncludeTraceLevel As Boolean
@@ -49,11 +48,11 @@ value = Tracing.IncludeTraceLevel
 Tracing.IncludeTraceLevel = value
 ```
 
-``` csharp
+```csharp
 public static bool IncludeTraceLevel
 ```
 
-``` c++
+```cpp
 public:
 static bool IncludeTraceLevel
 ```
@@ -62,23 +61,23 @@ static bool IncludeTraceLevel
 static val mutable IncludeTraceLevel: bool
 ```
 
-``` jscript
+```jscript
 public static var IncludeTraceLevel : boolean
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

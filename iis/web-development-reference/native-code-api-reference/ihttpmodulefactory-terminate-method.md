@@ -1,15 +1,7 @@
 ---
-title: "IHttpModuleFactory::Terminate Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpModuleFactory::Terminate Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d9fe6194-999d-df11-b41d-144d8bb1f0ed
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpModuleFactory::Terminate Method
 Terminates an [IHttpModuleFactory](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual VOID Terminate(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

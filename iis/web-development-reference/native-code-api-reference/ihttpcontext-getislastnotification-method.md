@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetIsLastNotification Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetIsLastNotification Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6e2375e4-264e-ccdb-6fee-3f07d258ca3b
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetIsLastNotification Method
 Indicates whether more notifications are pending for this request within the current module host.  
@@ -22,7 +14,7 @@ virtual BOOL GetIsLastNotification(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `status`  
  [IN] A [REQUEST_NOTIFICATION_STATUS](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) enumeration value.  
   

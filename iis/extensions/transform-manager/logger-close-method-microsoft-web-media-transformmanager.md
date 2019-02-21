@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.Logger.Close
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Close Method
@@ -36,7 +35,7 @@ Disposes logging resources if the log file exists.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub Close
@@ -47,11 +46,11 @@ Disposes logging resources if the log file exists.
 instance.Close()
 ```
 
-``` csharp
+```csharp
   public void Close()
 ```
 
-``` c++
+```cpp
   public:
 void Close()
 ```
@@ -60,7 +59,7 @@ void Close()
   member Close : unit -> unit 
 ```
 
-``` jscript
+```jscript
   public function Close()
 ```
 
@@ -70,7 +69,7 @@ The Close()()()() method calls the [Dispose](logger-dispose-method-microsoft-web
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Logger Class](logger-class-microsoft-web-media-transformmanager.md)
 

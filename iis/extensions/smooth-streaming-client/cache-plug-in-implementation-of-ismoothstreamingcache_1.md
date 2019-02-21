@@ -38,7 +38,7 @@ If [BeginPersist(CacheRequest, CacheResponse, AsyncCallback, Object)](ismoothstr
 
 The following code shows a complete implementation of the class that implements [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md). The code is discussed in sections that follow the example.
 
-``` csharp
+```csharp
     public class ISO_StorageCache : ISmoothStreamingCache
     {
         // Dictionary to track URL/filename pairs of data in cache.
@@ -145,7 +145,7 @@ The following code shows a complete implementation of the class that implements 
 
 The following code shows the implementation of [BeginRetrieve(CacheRequest, AsyncCallback, Object)](ismoothstreamingcache-beginretrieve-method-microsoft-web-media-smoothstreaming_1.md) used by this cache implementation.
 
-``` csharp
+```csharp
 public IAsyncResult BeginRetrieve(CacheRequest request, AsyncCallback callback, object state)
 {
     CacheResponse response = null;
@@ -162,7 +162,7 @@ The request parameter of the [BeginRetrieve(CacheRequest, AsyncCallback, Object)
 
 The [EndRetrieve(IAsyncResult)](ismoothstreamingcache-endretrieve-method-microsoft-web-media-smoothstreaming_1.md) method gets the URL of the request from the CacheAsyncResult instance returned by [BeginRetrieve(CacheRequest, AsyncCallback, Object)](ismoothstreamingcache-beginretrieve-method-microsoft-web-media-smoothstreaming_1.md). It is important to wait for [BeginRetrieve(CacheRequest, AsyncCallback, Object)](ismoothstreamingcache-beginretrieve-method-microsoft-web-media-smoothstreaming_1.md) to complete before processing the data, as shown by the call to ar.AsyncWaitHandle.WaitOne. If there is data, it will be returned to the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) instance. If the cache does not have the data, [EndRetrieve(IAsyncResult)](ismoothstreamingcache-endretrieve-method-microsoft-web-media-smoothstreaming_1.md) returns a [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) instance and a System.Net.HttpStatusCode.NotFound value, as shown at the end of the following implementation of [EndRetrieve(IAsyncResult)](ismoothstreamingcache-endretrieve-method-microsoft-web-media-smoothstreaming_1.md).
 
-``` csharp
+```csharp
     public CacheResponse EndRetrieve(IAsyncResult ar)
     {
         ar.AsyncWaitHandle.WaitOne();
@@ -204,7 +204,7 @@ After the code in the second if block runs, the [CacheResponse](cacheresponse-cl
 
 The [BeginPersist(CacheRequest, CacheResponse, AsyncCallback, Object)](ismoothstreamingcache-beginpersist-method-microsoft-web-media-smoothstreaming_1.md) method begins the process that adds data to the cache. When an implementation of [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md) is assigned to the [SmoothStreamingCache](smoothstreamingmediaelement-smoothstreamingcache-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object, the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object calls the [BeginPersist(CacheRequest, CacheResponse, AsyncCallback, Object)](ismoothstreamingcache-beginpersist-method-microsoft-web-media-smoothstreaming_1.md) method right after calling the [EndRetrieve(IAsyncResult)](ismoothstreamingcache-endretrieve-method-microsoft-web-media-smoothstreaming_1.md) method.
 
-``` csharp
+```csharp
     public IAsyncResult BeginPersist(CacheRequest request, CacheResponse response, AsyncCallback callback, object state)
     {
         CacheAsyncResult ar = new CacheAsyncResult();
@@ -233,7 +233,7 @@ The [EndPersist(IAsyncResult)](ismoothstreamingcache-endpersist-method-microsoft
 
 The first if condition determines whether the CacheAsyncResult contains data. If it does, the next line of code gets the System.IO.IsolatedStorage.IsolatedStorageFile object named isoFileArea with which the application persists data.
 
-``` csharp
+```csharp
     public bool EndPersist(IAsyncResult ar)
     {
         ar.AsyncWaitHandle.WaitOne();
@@ -271,7 +271,7 @@ The values in the second if block require casting to get the length of the respo
 
 ### IAsyncResult Implementation
 
-The following code shows an implementation of [IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.95\)). An instance of this class is passed from the [BeginRetrieve(CacheRequest, AsyncCallback, Object)](ismoothstreamingcache-beginretrieve-method-microsoft-web-media-smoothstreaming_1.md) method to [EndRetrieve(IAsyncResult)](ismoothstreamingcache-endretrieve-method-microsoft-web-media-smoothstreaming_1.md) and from the [BeginPersist(CacheRequest, CacheResponse, AsyncCallback, Object)](ismoothstreamingcache-beginpersist-method-microsoft-web-media-smoothstreaming_1.md) method to [EndPersist(IAsyncResult)](ismoothstreamingcache-endpersist-method-microsoft-web-media-smoothstreaming_1.md).
+The following code shows an implementation of [IAsyncResult](https://msdn.microsoft.com/library/ft8a6455\(v=vs.95\)). An instance of this class is passed from the [BeginRetrieve(CacheRequest, AsyncCallback, Object)](ismoothstreamingcache-beginretrieve-method-microsoft-web-media-smoothstreaming_1.md) method to [EndRetrieve(IAsyncResult)](ismoothstreamingcache-endretrieve-method-microsoft-web-media-smoothstreaming_1.md) and from the [BeginPersist(CacheRequest, CacheResponse, AsyncCallback, Object)](ismoothstreamingcache-beginpersist-method-microsoft-web-media-smoothstreaming_1.md) method to [EndPersist(IAsyncResult)](ismoothstreamingcache-endpersist-method-microsoft-web-media-smoothstreaming_1.md).
 
 ``` 
     public class CacheAsyncResult : IAsyncResult
@@ -313,11 +313,11 @@ The following code shows an implementation of [IAsyncResult](https://msdn.micros
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Test and Debug an Implementation of ISmoothStreamingCache](test-and-debug-an-implementation-of-ismoothstreamingcache_1.md)
 
-#### Other Resources
+### Other Resources
 
 [System.IO.IsolatedStorage Namespace](http://go.microsoft.com/fwlink/?linkid=204798)
 

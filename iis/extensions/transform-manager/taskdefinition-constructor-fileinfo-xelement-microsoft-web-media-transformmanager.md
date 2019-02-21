@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskDefinition Constructor (FileInfo, XElement)
@@ -34,7 +33,7 @@ Initializes a new instance of the [TaskDefinition](taskdefinition-class-microsof
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -50,14 +49,14 @@ Dim instance As New TaskDefinition(fileInfo, _
     taskDefinitionElement)
 ```
 
-``` csharp
+```csharp
   public TaskDefinition(
     FileInfo fileInfo,
     XElement taskDefinitionElement
 )
 ```
 
-``` c++
+```cpp
   public:
 TaskDefinition(
     FileInfo^ fileInfo, 
@@ -71,28 +70,28 @@ TaskDefinition(
         taskDefinitionElement:XElement -> TaskDefinition
 ```
 
-``` jscript
+```jscript
   public function TaskDefinition(
     fileInfo : FileInfo, 
     taskDefinitionElement : XElement
 )
 ```
 
-#### Parameters
+### Parameters
 
   - fileInfo  
-    Type: [System.IO. . :: . .FileInfo](https://msdn.microsoft.com/en-us/library/akth6b1k\(v=vs.90\))  
+    Type: [System.IO.FileInfo](https://msdn.microsoft.com/library/akth6b1k)  
     The name of the task definition XML file.  
 
 <!-- end list -->
 
   - taskDefinitionElement  
-    Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+    Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
     An object that contains the task definition.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskDefinition Class](taskdefinition-class-microsoft-web-media-transformmanager.md)
 

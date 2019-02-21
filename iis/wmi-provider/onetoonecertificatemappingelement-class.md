@@ -1,15 +1,7 @@
 ---
-title: "OneToOneCertificateMappingElement Class | Microsoft Docs"
-ms.custom: ""
+title: "OneToOneCertificateMappingElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0bacbe93-6725-b59a-6776-9f74e8de1484
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # OneToOneCertificateMappingElement Class
 Represents a one-to-one mapping of a Secure Sockets Layer (SSL) certificate to a user account.  

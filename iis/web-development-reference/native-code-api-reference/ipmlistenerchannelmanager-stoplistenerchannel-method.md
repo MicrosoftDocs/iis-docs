@@ -1,15 +1,7 @@
 ---
-title: "IPmListenerChannelManager::StopListenerChannel Method | Microsoft Docs"
-ms.custom: ""
+title: "IPmListenerChannelManager::StopListenerChannel Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f3e7d5df-2305-dc17-d52d-22e068ecf9b0
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPmListenerChannelManager::StopListenerChannel Method
 Enables the worker process framework to request that a protocol manager stop a listener channel for a protocol.  
@@ -24,7 +16,7 @@ virtual HRESULT StopListenerChannel(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `protocolId`  
  A pointer to a string that contains the protocol (for example, HTTP) to stop.  
   

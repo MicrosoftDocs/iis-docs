@@ -1,15 +1,7 @@
 ---
-title: "CgiSection Class | Microsoft Docs"
-ms.custom: ""
+title: "CgiSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b0922e9c-5e4e-7ade-410c-fc702e187d95
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CgiSection Class
 Configures Common Gateway Interface (CGI) settings.  

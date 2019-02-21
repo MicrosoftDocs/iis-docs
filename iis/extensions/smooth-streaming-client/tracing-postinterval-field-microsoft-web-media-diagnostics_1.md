@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.PostInterval
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.PostInterval Field
@@ -36,7 +35,7 @@ The interval at which to post traces.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared PostInterval As Integer
@@ -49,11 +48,11 @@ value = Tracing.PostInterval
 Tracing.PostInterval = value
 ```
 
-``` csharp
+```csharp
 public static int PostInterval
 ```
 
-``` c++
+```cpp
 public:
 static int PostInterval
 ```
@@ -62,23 +61,23 @@ static int PostInterval
 static val mutable PostInterval: int
 ```
 
-``` jscript
+```jscript
 public static var PostInterval : int
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

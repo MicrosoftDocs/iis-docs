@@ -1,15 +1,7 @@
 ---
-title: "TraceListenerSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "TraceListenerSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a3113e2b-b854-4f68-b67f-a6bfb7d18f02
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TraceListenerSettings Class
 Contains listeners that monitor trace output and produce formatted output from it.  

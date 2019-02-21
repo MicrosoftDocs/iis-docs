@@ -1,15 +1,7 @@
 ---
-title: "IProcessHostIdleAndHealthMonitor::Ping Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHostIdleAndHealthMonitor::Ping Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a5a02b12-f6e8-f8bf-40ac-153d9dea93be
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHostIdleAndHealthMonitor::Ping Method
 Performs an asynchronous ping operation.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall Ping(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pCallback`  
  An [IProcessPingCallback](../../web-development-reference\native-code-api-reference/iprocesspingcallback-interface.md) interface through which the process host can respond to an asynchronous ping operation. `pCallback` is the object on which to perform the callback function.  
   

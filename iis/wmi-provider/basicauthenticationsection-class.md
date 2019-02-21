@@ -1,15 +1,7 @@
 ---
-title: "BasicAuthenticationSection Class | Microsoft Docs"
-ms.custom: ""
+title: "BasicAuthenticationSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 55a1ded7-a01b-c38c-b661-ea61ab261400
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # BasicAuthenticationSection Class
 Configures Basic authentication.  

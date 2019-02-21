@@ -1,14 +1,7 @@
 ---
-title: "IISDirectory | Microsoft Docs"
-ms.custom: ""
+title: "IISDirectory"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cf44e587-74c7-4ed0-aa69-d7e296a713d0
-caps.latest.revision: 7
-manager: "wpickett"
 ---
 # IISDirectory
 Gets the IIS Express home directory for the current user.  
@@ -24,7 +17,7 @@ IISDirectory(
   
 ```  
   
-#### Parameters  
+### Parameters  
   
 -   [out, retval] `* pbstrDirectory`  
   

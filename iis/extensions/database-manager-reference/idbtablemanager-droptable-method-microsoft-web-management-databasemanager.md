@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbTableManager.DropTable
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbTableManager.DropTable Method
@@ -35,7 +34,7 @@ Removes a table from the database.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Sub DropTable ( _
     connectionString As String, _
@@ -52,7 +51,7 @@ instance.DropTable(connectionString, _
     schema, tableInfo)
 ```
 
-``` csharp
+```csharp
 void DropTable(
     string connectionString,
     string schema,
@@ -60,7 +59,7 @@ void DropTable(
 )
 ```
 
-``` c++
+```cpp
 void DropTable(
     String^ connectionString, 
     String^ schema, 
@@ -68,7 +67,7 @@ void DropTable(
 )
 ```
 
-``` jscript
+```jscript
 function DropTable(
     connectionString : String, 
     schema : String, 
@@ -76,16 +75,16 @@ function DropTable(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
 <!-- end list -->
 
   - schema  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the table.  
     **Note**    If schema is empty, the default schema name will be used.  
 
@@ -101,7 +100,7 @@ All database providers that implement the [IDbTableManager](idbtablemanager-inte
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider does not support deleting tables, you can use the following code sample to raise a not-implemented exception:
 
@@ -119,7 +118,7 @@ If your provider does not support deleting tables, you can use the following cod
 
 The following code sample shows how to use the DropTable method for an OLEDB connection by using the TableInfo object that the database manager provides.
 
-``` vb
+```vb
 
     Public Sub DropTable(ByVal connectionString As String, ByVal schema As String, ByVal tableInfo As Microsoft.Web.Management.DatabaseManager.TableInfo) Implements Microsoft.Web.Management.DatabaseManager.IDbTableManager.DropTable
         ' Create a connection to the database.
@@ -152,7 +151,7 @@ The following code sample shows how to use the DropTable method for an OLEDB con
 
 ```
 
-``` csharp
+```csharp
 
         public void DropTable(string connectionString, string schema, TableInfo tableInfo)
         {
@@ -197,11 +196,11 @@ The following code sample shows how to use the DropTable method for an OLEDB con
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbTableManager Interface](idbtablemanager-interface-microsoft-web-management-databasemanager.md)
 

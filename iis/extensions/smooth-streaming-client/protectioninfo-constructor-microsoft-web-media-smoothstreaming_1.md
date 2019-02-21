@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.#ctor
 - Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.ProtectionInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ProtectionInfo Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [ProtectionInfo](protectioninfo-class-microsof
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New
@@ -47,11 +46,11 @@ Public Sub New
 Dim instance As New ProtectionInfo()
 ```
 
-``` csharp
+```csharp
 public ProtectionInfo()
 ```
 
-``` c++
+```cpp
 public:
 ProtectionInfo()
 ```
@@ -60,23 +59,23 @@ ProtectionInfo()
 new : unit -> ProtectionInfo
 ```
 
-``` jscript
+```jscript
 public function ProtectionInfo()
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ProtectionInfo Class](protectioninfo-class-microsoft-web-media-smoothstreaming_1.md)
 

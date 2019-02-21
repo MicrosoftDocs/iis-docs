@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::SetUrl Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::SetUrl Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 75496bd2-a34d-a635-6e39-dbc974e92390
-caps.latest.revision: 35
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::SetUrl Method
 Modifies the request URL.  
@@ -30,7 +22,7 @@ virtual HRESULT SetUrl(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszUrl`  
  [IN] A pointer to a string that contains the URL to set.  
   
@@ -61,7 +53,7 @@ virtual HRESULT SetUrl(
 >  Unlike the [IHttpResponse::Redirect](../../web-development-reference\native-code-api-reference/ihttpresponse-redirect-method.md) method, the `SetUrl` method does not redirect a client to a new URL.  
   
 > [!NOTE]
->  You must call the `SetUrl` method before the first event in the HTTP integrated request-processing pipeline. Calling the `SetUrl` method from an OnPostBeginRequest handler results in indeterminate behavior.  
+> You must call the `SetUrl` method before the first event in the HTTP integrated request-processing pipeline. Calling the `SetUrl` method from an OnPostBeginRequest handler results in indeterminate behavior.  
   
 ## Example  
  The following code example demonstrates how to use the `SetUrl` method to change a requested URL to another URL.  

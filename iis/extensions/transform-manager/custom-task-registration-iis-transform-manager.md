@@ -195,11 +195,11 @@ The following example shows a SMIL manifest that is created for a job. It contai
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)
 
-#### Other Resources
+### Other Resources
 
 [Transform Manager Tasks Gallery](http://go.microsoft.com/fwlink/?linkid=191302)
 

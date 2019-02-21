@@ -21,11 +21,9 @@ The [StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-media-sm
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Timestamp](streamupdatedeventargs-timestamp-property-microsoft-web-media-smoothstreaming_1.md)|Optional timestamp for the StreamSelected()()()(), ChunkAdded()()()() and TracksSelected()()()() actions.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamUpdatedEventArgs Class](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # IDbBackupManager Methods
 
-Include Protected Members  
-Include Inherited Members  
-
 The [IDbBackupManager](idbbackupmanager-interface-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Methods
@@ -22,11 +19,9 @@ The [IDbBackupManager](idbbackupmanager-interface-microsoft-web-management-datab
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[CreateBackup](idbbackupmanager-createbackup-method-microsoft-web-management-databasemanager.md)|Creates a database backup.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbBackupManager Interface](idbbackupmanager-interface-microsoft-web-management-databasemanager.md)
 

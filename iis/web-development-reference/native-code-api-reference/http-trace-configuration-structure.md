@@ -1,15 +1,7 @@
 ---
-title: "HTTP_TRACE_CONFIGURATION Structure | Microsoft Docs"
-ms.custom: ""
+title: "HTTP_TRACE_CONFIGURATION Structure"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 933a2496-8b0a-256c-e75f-b0a461b58d20
-caps.latest.revision: 34
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HTTP_TRACE_CONFIGURATION Structure
 Contains tracing information for use with trace providers and consumers.  
@@ -50,7 +42,7 @@ struct HTTP_TRACE_CONFIGURATION{
 >  Because implementers are required to set only the `fProviderEnabled` member during a call to `GetTraceConfiguration`, you should access the remaining members after the method call only if `fProviderEnabled` is `true`; otherwise, these remaining members will be unchanged and invalid.  
   
 > [!NOTE]
->  You should initialize all fields to known values before calling either the `SetTraceConfiguration` or `GetTraceConfiguration` methods, because the implementation may change.  
+> You should initialize all fields to known values before calling either the `SetTraceConfiguration` or `GetTraceConfiguration` methods, because the implementation may change.  
   
 ## Example  
  The following code example demonstrates how to create a global module that listens for `GL_CACHE_OPERATION` and [GL_CACHE_CLEANUP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the [HTTP_TRACE_CONFIGURATION](../../web-development-reference\native-code-api-reference/http-trace-configuration-structure.md) information to the Event Viewer.  

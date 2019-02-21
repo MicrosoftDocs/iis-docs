@@ -1,15 +1,7 @@
 ---
-title: "AppDomain.Unload Method | Microsoft Docs"
-ms.custom: ""
+title: "AppDomain.Unload Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 79c8dac8-62d9-2d41-6948-19907d73dad5
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AppDomain.Unload Method
 Unloads an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application domain from a Web server.  
@@ -24,7 +16,7 @@ oAppDomain.Unload
 oAppDomain.Unload();  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

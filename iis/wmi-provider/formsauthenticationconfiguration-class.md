@@ -1,15 +1,7 @@
 ---
-title: "FormsAuthenticationConfiguration Class | Microsoft Docs"
-ms.custom: ""
+title: "FormsAuthenticationConfiguration Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e1965678-d4ef-61b8-159b-78ac61d663a2
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # FormsAuthenticationConfiguration Class
 Configures Forms authentication for an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application.  
@@ -54,7 +46,7 @@ class FormsAuthenticationConfiguration : EmbeddedObject
 |0|`UseUri`|Specifies that the calling feature uses the query string to store an identifier, regardless of whether the browser or device supports cookies.|  
 |1|`UseCookies`|Specifies that cookies are used to persist user data, regardless of whether the browser or device supports cookies.|  
 |2|`AutoDetect`|Specifies that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] determines whether the requesting browser or device supports cookies. If the browser or device supports cookies, the requesting feature uses cookies to persist user data; otherwise, the requesting feature uses an identifier in the query string. If the browser or device supports the cookies, but cookies are currently disabled, the requesting feature still uses cookies.|  
-|3|`UseDeviceProfile`|Specifies that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] determines whether to use cookies based on the `Cookies` property of the [System.Web.Configuration.HttpCapabilitiesBase class](/dotnet/api/system.web.configuration.httpcapabilitiesbase?view=netframework-4.7.2). If the setting indicates that the browser or device supports cookies, the requesting feature uses cookies; otherwise, the requesting feature uses an identifier in the query string.|  
+|3|`UseDeviceProfile`|Specifies that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] determines whether to use cookies based on the `Cookies` property of the [System.Web.Configuration.HttpCapabilitiesBase class](/dotnet/api/system.web.configuration.httpcapabilitiesbase). If the setting indicates that the browser or device supports cookies, the requesting feature uses cookies; otherwise, the requesting feature uses an identifier in the query string.|  
   
  The following table lists the possible values for the `Protection` property. The default is 0 (`All`).  
   
@@ -196,9 +188,9 @@ End Function
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.AuthenticationMode](/dotnet/api/system.web.configuration.authenticationmode?view=netframework-4.7.2)
- [System.Web.Configuration.FormsAuthenticationConfiguration](/dotnet/api/system.web.configuration.formsauthenticationconfiguration?view=netframework-4.7.2)
- [System.Web.Configuration.HttpCapabilitiesBase](/dotnet/api/system.web.configuration.httpcapabilitiesbase?view=netframework-4.7.2)
+ [System.Web.Configuration.AuthenticationMode](/dotnet/api/system.web.configuration.authenticationmode)
+ [System.Web.Configuration.FormsAuthenticationConfiguration](/dotnet/api/system.web.configuration.formsauthenticationconfiguration)
+ [System.Web.Configuration.HttpCapabilitiesBase](/dotnet/api/system.web.configuration.httpcapabilitiesbase)
  [AuthenticationSection Class](../wmi-provider/authenticationsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [FormsAuthenticationCredentials Class](../wmi-provider/formsauthenticationcredentials-class.md)   

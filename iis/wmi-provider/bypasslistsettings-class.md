@@ -1,15 +1,7 @@
 ---
-title: "BypassListSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "BypassListSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 25023472-de95-4b27-a96f-1aae47b47088
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # BypassListSettings Class
 Contains address information for resources that bypass the Web proxy server.  

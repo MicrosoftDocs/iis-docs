@@ -1,15 +1,7 @@
 ---
-title: "IProcessHostIdleAndHealthMonitor::IsIdle Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHostIdleAndHealthMonitor::IsIdle Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0e39f1e6-1b54-a1ec-29a3-47bfe4cbe8ee
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHostIdleAndHealthMonitor::IsIdle Method
 Checks whether the process host is idle.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall IsIdle(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfIdle`  
  A pointer to a `BOOL` that indicates the idle state of the process host. `true` to indicate that the process host is currently idle; otherwise, `false`.  
   

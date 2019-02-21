@@ -1,5 +1,5 @@
 ---
-title: TraceEntry.MediaElementId Property  (Microsoft.Web.Media.Diagnostics)
+title: TraceEntry.MediaElementId Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: MediaElementId Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.MediaElementId
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.traceentry.mediaelementid(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.get_MediaElementId
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_MediaElementId
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # MediaElementId Property
@@ -39,7 +38,7 @@ Gets or sets the MediaElementId property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property MediaElementId As String
@@ -53,11 +52,11 @@ value = instance.MediaElementId
 instance.MediaElementId = value
 ```
 
-``` csharp
+```csharp
   public string MediaElementId { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ MediaElementId {
     String^ get ();
@@ -65,33 +64,33 @@ property String^ MediaElementId {
 }
 ```
 
-``` jscript
+```jscript
   function get MediaElementId () : String
 function set MediaElementId (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A string value that specifies the media element ID.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TraceEntry Class](traceentry-class-microsoft-web-media-diagnostics_1.md)
 

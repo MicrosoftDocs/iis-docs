@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobScheduler
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobScheduler Class
@@ -33,8 +32,8 @@ Provides scheduling capabilities for incoming jobs.
 
 ## Inheritance Hierarchy
 
-[System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
-  [Microsoft.Web.Media.TransformManager. . :: . .ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md)  
+[System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
+  [Microsoft.Web.Media.TransformManager.ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md)  
     Microsoft.Web.Media.TransformManager..::..JobScheduler  
 
 **Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
@@ -42,7 +41,7 @@ Provides scheduling capabilities for incoming jobs.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <SerializableAttribute> _
 <DataContractAttribute> _
@@ -53,13 +52,13 @@ Public Class JobScheduler _
   Dim instance As JobScheduler
 ```
 
-``` csharp
+```csharp
 [SerializableAttribute]
 [DataContractAttribute]
 public class JobScheduler : ConfigurationBase
 ```
 
-``` c++
+```cpp
 [SerializableAttribute]
 [DataContractAttribute]
 public ref class JobScheduler : public ConfigurationBase
@@ -74,7 +73,7 @@ type JobScheduler =
     end
 ```
 
-``` jscript
+```jscript
   public class JobScheduler extends ConfigurationBase
 ```
 
@@ -87,8 +86,6 @@ The JobScheduler type exposes the following members.
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobScheduler() () () ()](jobscheduler-constructor-microsoft-web-media-transformmanager_1.md)|Initializes a new instance of the JobScheduler class.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobScheduler(FileInfo, XElement)](jobscheduler-constructor-fileinfo-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the JobScheduler class using the specified file information and job scheduler XML element.|
 
-
-Top
 
 ## Properties
 
@@ -116,24 +113,20 @@ Top
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[NameElement](configurationbase-nameelement-property-microsoft-web-media-transformmanager.md)|Gets or sets an XML element that contains name details. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[SchedulerType](jobscheduler-schedulertype-property-microsoft-web-media-transformmanager.md)|Gets or sets the string token that represents the scheduler type.|
 
-Top
-
 ## Methods
 
 ||Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[AddConfigurationMessage(String)](configurationbase-addconfigurationmessage-method-string-microsoft-web-media-transformmanager.md)|Adds the specified message to the IIS Transform Manager configuration. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[AddConfigurationMessage(String, ConfigurationMessageSeverity)](configurationbase-addconfigurationmessage-method-string-configurationmessageseverity-microsoft-web-media-transformmanager.md)|Adds the specified message to the IIS Transform Manager configuration using the specified severity value. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/en-us/library/4k87zsw7(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/library/zdee4b3y)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/library/dfwy45w9)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[RemoveRestartWarningMessage](configurationbase-removerestartwarningmessage-method-microsoft-web-media-transformmanager.md)|Removes the restart warning message from the IIS Transform Manager configuration. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Save](jobscheduler-save-method-microsoft-web-media-transformmanager.md)|Saves job scheduler details to a file as XML.|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-
-Top
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 
 ## Thread Safety
 
@@ -141,7 +134,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

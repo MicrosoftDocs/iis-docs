@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::RecycleProcess Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::RecycleProcess Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ca5369c7-43b2-0edf-f173-edbb1271802a
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::RecycleProcess Method
 Recycles the worker process that is handling the current request.  
@@ -22,7 +14,7 @@ virtual VOID RecycleProcess(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszReason`  
  A pointer to a string that contains the reason for recycling the process.  
   

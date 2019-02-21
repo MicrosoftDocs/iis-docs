@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMappingExtension::GetSiteIdFromSiteName Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMappingExtension::GetSiteIdFromSiteName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2653aec1-2aa6-bb86-2790-c6295e15bb17
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMappingExtension::GetSiteIdFromSiteName Method
 Gets a unique identifier for a site by using the name of the site.  
@@ -25,7 +17,7 @@ HRESULT GetSiteIdFromSiteName(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrSiteName`  
  A `BSTR` that contains the site name.  
   

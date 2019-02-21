@@ -1,15 +1,7 @@
 ---
-title: "IHttpTokenEntry::GetSid Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpTokenEntry::GetSid Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4d08a669-2c55-4cbc-afc2-20e7dc15532d
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpTokenEntry::GetSid Method
 Returns the security identifier for a user.  
@@ -22,7 +14,7 @@ virtual PSID GetSid(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

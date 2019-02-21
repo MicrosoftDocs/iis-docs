@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadTrackChanged
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.DownloadTrackChanged Event
@@ -38,7 +37,7 @@ Occurs when the track selected for download differs from the previously selected
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Event DownloadTrackChanged As EventHandler(Of TrackChangedEventArgs)
@@ -50,11 +49,11 @@ Dim handler As EventHandler(Of TrackChangedEventArgs)
 AddHandler instance.DownloadTrackChanged, handler
 ```
 
-``` csharp
+```csharp
 public event EventHandler<TrackChangedEventArgs> DownloadTrackChanged
 ```
 
-``` c++
+```cpp
 public:
  event EventHandler<TrackChangedEventArgs^>^ DownloadTrackChanged {
     void add (EventHandler<TrackChangedEventArgs^>^ value);
@@ -67,7 +66,7 @@ member DownloadTrackChanged : <EventHandler<TrackChangedEventArgs>,
     TrackChangedEventArgs>
 ```
 
-``` jscript
+```jscript
 JScript supports the use of events, but not the declaration of new ones.
 ```
 
@@ -96,17 +95,17 @@ The following example shows how to display the information that can be obtained 
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "ConnectionStringSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "ConnectionStringSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0b744a62-f9b9-3be4-b471-5aa5a6ad7ffd
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConnectionStringSettings Class
 Represents a named database connection string.  

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigFile::GetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigFile::GetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7bc68fac-0728-3141-904e-f0c5f833bf3c
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigFile::GetMetadata Method
 Gets metadata from the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
@@ -25,7 +17,7 @@ HRESULT GetMetadata(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata to return.  
   

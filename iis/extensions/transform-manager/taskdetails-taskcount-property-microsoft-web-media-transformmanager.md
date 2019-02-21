@@ -1,5 +1,5 @@
 ---
-title: TaskDetails.TaskCount Property  (Microsoft.Web.Media.TransformManager)
+title: TaskDetails.TaskCount Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskCount Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDetails.TaskCount
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdetails.taskcount(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskDetails.get_TaskCount
 - Microsoft.Web.Media.TransformManager.TaskDetails.set_TaskCount
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskCount Property
@@ -40,7 +39,7 @@ Gets or sets the task count.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property TaskCount As Integer
@@ -56,11 +55,11 @@ value = instance.TaskCount
 instance.TaskCount = value
 ```
 
-``` csharp
+```csharp
   public int TaskCount { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property int TaskCount {
     int get ();
@@ -72,19 +71,19 @@ property int TaskCount {
   member TaskCount : int with get, set
 ```
 
-``` jscript
+```jscript
   function get TaskCount () : int
 function set TaskCount (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The task count.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskDetails Structure](taskdetails-structure-microsoft-web-media-transformmanager.md)
 

@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.LicenseAcquirer Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.LicenseAcquirer Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LicenseAcquirer Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LicenseAcquirer
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.licenseacquirer(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_LicenseAcquirer
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_LicenseAcquirer
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.LicenseAcquirer Property
@@ -40,7 +39,7 @@ Gets or sets the license acquirer.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property LicenseAcquirer As LicenseAcquirer
@@ -56,11 +55,11 @@ value = instance.LicenseAcquirer
 instance.LicenseAcquirer = value
 ```
 
-``` csharp
+```csharp
 public LicenseAcquirer LicenseAcquirer { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property LicenseAcquirer^ LicenseAcquirer {
     LicenseAcquirer^ get ();
@@ -72,29 +71,29 @@ property LicenseAcquirer^ LicenseAcquirer {
 member LicenseAcquirer : LicenseAcquirer with get, set
 ```
 
-``` jscript
+```jscript
 function get LicenseAcquirer () : LicenseAcquirer
 function set LicenseAcquirer (value : LicenseAcquirer)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Windows.Media.LicenseAcquirer](https://msdn.microsoft.com/en-us/library/cc838300\(v=vs.95\))  
+Type: [System.Windows.Media.LicenseAcquirer](https://msdn.microsoft.com/library/cc838300\(v=vs.95\))  
 The license acquirer.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IWpfSettings::GetHandleProperty Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfSettings::GetHandleProperty Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c85c58b1-7996-c5b0-9f1c-c2fbae6e7f0a
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfSettings::GetHandleProperty Method
 Retrieves a `HANDLE` property from the worker process or application pool settings.  
@@ -23,7 +15,7 @@ virtual HRESULT GetHandleProperty(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `SettingId`  
  [IN] A [WPF_SETTINGS_HANDLE_ENUM](../../web-development-reference\native-code-api-reference/wpf-settings-handle-enum-enumeration.md) value that specifies which `HANDLE` property to return.  
   

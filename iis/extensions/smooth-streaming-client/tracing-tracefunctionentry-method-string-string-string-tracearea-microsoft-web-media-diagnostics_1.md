@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.TraceFunctionEntry Method (String, String, String, TraceArea)
@@ -34,7 +33,7 @@ Records the entry into a function as specified by the parameters.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Sub TraceFunctionEntry ( _
@@ -54,7 +53,7 @@ Tracing.TraceFunctionEntry(mediaElementId, _
     className, methodName, traceArea)
 ```
 
-``` csharp
+```csharp
 public static void TraceFunctionEntry(
     string mediaElementId,
     string className,
@@ -63,7 +62,7 @@ public static void TraceFunctionEntry(
 )
 ```
 
-``` c++
+```cpp
 public:
 static void TraceFunctionEntry(
     String^ mediaElementId, 
@@ -81,7 +80,7 @@ static member TraceFunctionEntry :
         traceArea:TraceArea -> unit 
 ```
 
-``` jscript
+```jscript
 public static function TraceFunctionEntry(
     mediaElementId : String, 
     className : String, 
@@ -90,22 +89,22 @@ public static function TraceFunctionEntry(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - mediaElementId  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     A string value that specifies the ID of the current media element.
 
 <!-- end list -->
 
   - className  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     A string value that specifies the class name of the calling function.
 
 <!-- end list -->
 
   - methodName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     A string value that specifies the name of the calling function.
 
 <!-- end list -->
@@ -116,17 +115,17 @@ public static function TraceFunctionEntry(
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

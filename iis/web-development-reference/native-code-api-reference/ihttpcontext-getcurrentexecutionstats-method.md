@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetCurrentExecutionStats Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetCurrentExecutionStats Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 583768f4-5b0d-25af-df8d-3f34126663ca
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetCurrentExecutionStats Method
 Retrieves the execution statistics for the current context.  
@@ -27,7 +19,7 @@ virtual HRESULT GetCurrentExecutionStats(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pdwNotification`  
  A pointer to a `DWORD` that contains the current notification.  
   

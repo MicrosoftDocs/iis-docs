@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # ManifestInfo Properties
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [ManifestInfo](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 
 ## Properties
@@ -29,11 +23,9 @@ The [ManifestInfo](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md) 
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Segments](manifestinfo-segments-property-microsoft-web-media-smoothstreaming_1.md)|List of [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) objects. There is a SegmentInfo for each <Clip> element in the manifest.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Tracing.ConfigLoaded Property  (Microsoft.Web.Media.Diagnostics)
+title: Tracing.ConfigLoaded Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: ConfigLoaded Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.Tracing.ConfigLoaded
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.configloaded(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.ConfigLoaded
 - Microsoft.Web.Media.Diagnostics.Tracing.get_ConfigLoaded
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.ConfigLoaded Property
@@ -38,7 +37,7 @@ Gets the ConfigLoaded property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared ReadOnly Property ConfigLoaded As Boolean
@@ -50,11 +49,11 @@ Dim value As Boolean
 value = Tracing.ConfigLoaded
 ```
 
-``` csharp
+```csharp
 public static bool ConfigLoaded { get; }
 ```
 
-``` c++
+```cpp
 public:
 static property bool ConfigLoaded {
     bool get ();
@@ -65,28 +64,28 @@ static property bool ConfigLoaded {
 static member ConfigLoaded : bool
 ```
 
-``` jscript
+```jscript
 static function get ConfigLoaded () : boolean
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
 A Boolean value that specifies whether tracing configuration data has been loaded.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

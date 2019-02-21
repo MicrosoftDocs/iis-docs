@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpuCores
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerCpuCores Field
@@ -36,7 +35,7 @@ Represents a constant that is used when an HPC scheduling cores element is assig
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const SchedulerCpuCores As String
@@ -47,11 +46,11 @@ Represents a constant that is used when an HPC scheduling cores element is assig
 value = JobDefinition.SchedulerCpuCores
 ```
 
-``` csharp
+```csharp
   public const string SchedulerCpuCores
 ```
 
-``` c++
+```cpp
   public:
 literal String^ SchedulerCpuCores
 ```
@@ -60,13 +59,13 @@ literal String^ SchedulerCpuCores
   static val mutable SchedulerCpuCores: string
 ```
 
-``` jscript
+```jscript
   public const var SchedulerCpuCores : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

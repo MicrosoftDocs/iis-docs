@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionDefinition::Name Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionDefinition::Name Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5f593a06-4ab5-eae0-6776-c90759fa72c9
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionDefinition::Name Property
 Gets the name of the current configuration section definition.  
@@ -23,7 +15,7 @@ HRESULT get_Name(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrName`  
  A pointer to a `BSTR` that contains the name of the current configuration section definition.  
   

@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService.DeleteCredential
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DeleteCredential Method
@@ -36,7 +35,7 @@ Deletes a [Credential](credential-class-microsoft-web-media-transformmanager.md)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Sub DeleteCredential ( _
@@ -50,14 +49,14 @@ Dim credentialId As String
 instance.DeleteCredential(credentialId)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 void DeleteCredential(
     string credentialId
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 void DeleteCredential(
     String^ credentialId
@@ -70,21 +69,21 @@ abstract DeleteCredential :
         credentialId:string -> unit 
 ```
 
-``` jscript
+```jscript
   function DeleteCredential(
     credentialId : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - credentialId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the [Credential](credential-class-microsoft-web-media-transformmanager.md) object to delete.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

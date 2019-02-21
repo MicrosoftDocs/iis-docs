@@ -1,15 +1,7 @@
 ---
-title: "IAppHostAdminManager Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostAdminManager Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2e02f13e-9999-28dd-304d-507b041f9b5b
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostAdminManager Interface
 Provides read-only access to effective data in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  

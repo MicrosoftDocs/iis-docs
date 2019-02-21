@@ -1,15 +1,7 @@
 ---
-title: "Creating Native-Code HTTP Modules | Microsoft Docs"
-ms.custom: ""
+title: "Creating Native-Code HTTP Modules"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b99e275d-5da6-452a-ab3f-88ac0c57d618
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Creating Native-Code HTTP Modules
 This section describes how to create native-code HTTP modules for use with IIS 7 and IIS 8.  

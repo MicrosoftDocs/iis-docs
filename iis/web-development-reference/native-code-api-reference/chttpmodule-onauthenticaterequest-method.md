@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnAuthenticateRequest Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnAuthenticateRequest Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9a3979bd-c471-0bad-d726-7dfb1e0e3f72
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnAuthenticateRequest Method
 Represents the method that will handle an `AuthenticateRequest` event, which occurs when IIS establishes the identity of a user.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnAuthenticateRequest(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

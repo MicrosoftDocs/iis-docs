@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigLocation Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigLocation Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 561b9314-d818-d465-9445-209aa61c44f9
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigLocation Interface
 Represents a configuration location in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  

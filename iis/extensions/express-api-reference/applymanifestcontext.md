@@ -1,14 +1,7 @@
 ---
-title: "ApplyManifestContext | Microsoft Docs"
-ms.custom: ""
+title: "ApplyManifestContext"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 13f0c1a6-4ba3-4261-8dd5-4dcf1ce4eec2
-caps.latest.revision: 5
-manager: "wpickett"
 ---
 # ApplyManifestContext
 Applies the Fusion manifest context on the calling thread, enabling the creation of COM objects that might have been declared in the manifest file for the product.  

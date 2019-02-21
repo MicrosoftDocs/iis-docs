@@ -1,15 +1,7 @@
 ---
-title: "IAppHostChildElementCollection Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostChildElementCollection Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4e64c317-e442-5738-b14c-1f252b7b6ea9
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostChildElementCollection Interface
 Represents the child configuration elements that are nested within the current element.  

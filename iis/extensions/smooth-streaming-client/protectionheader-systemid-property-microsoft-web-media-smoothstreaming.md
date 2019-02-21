@@ -1,5 +1,5 @@
 ---
-title: ProtectionHeader.SystemID Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ProtectionHeader.SystemID Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SystemID Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.SystemID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.protectionheader.systemid(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.set_SystemID
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.SystemID
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SystemID Property
@@ -39,7 +38,7 @@ Gets or sets the GUID that identifies the protection system.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property SystemID As Guid
@@ -51,11 +50,11 @@ Dim value As Guid
 value = instance.SystemID
 ```
 
-``` csharp
+```csharp
   public Guid SystemID { get; internal set; }
 ```
 
-``` c++
+```cpp
   public:
 property Guid SystemID {
     Guid get ();
@@ -63,33 +62,33 @@ property Guid SystemID {
 }
 ```
 
-``` jscript
+```jscript
   function get SystemID () : Guid
 internal function set SystemID (value : Guid)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Guid](https://msdn.microsoft.com/en-us/library/cey1zx63\(v=vs.90\))  
+Type: [System.Guid](https://msdn.microsoft.com/library/cey1zx63)  
 A GUID object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ProtectionHeader Class](protectionheader-class-microsoft-web-media-smoothstreaming_1.md)
 

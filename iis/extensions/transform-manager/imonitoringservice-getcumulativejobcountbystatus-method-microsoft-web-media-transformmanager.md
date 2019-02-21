@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IMonitoringService.GetCumulativeJobCountByStatus
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetCumulativeJobCountByStatus Method
@@ -34,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Function GetCumulativeJobCountByStatus ( _
@@ -49,14 +48,14 @@ Dim returnValue As Integer
 returnValue = instance.GetCumulativeJobCountByStatus(status)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 int GetCumulativeJobCountByStatus(
     JobStatus status
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 int GetCumulativeJobCountByStatus(
     JobStatus status
@@ -69,24 +68,24 @@ abstract GetCumulativeJobCountByStatus :
         status:JobStatus -> int 
 ```
 
-``` jscript
+```jscript
   function GetCumulativeJobCountByStatus(
     status : JobStatus
 ) : int
 ```
 
-#### Parameters
+### Parameters
 
   - status  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
 

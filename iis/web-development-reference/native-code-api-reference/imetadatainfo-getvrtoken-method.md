@@ -1,15 +1,7 @@
 ---
-title: "IMetadataInfo::GetVrToken Method | Microsoft Docs"
-ms.custom: ""
+title: "IMetadataInfo::GetVrToken Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 194a4a46-93f9-f826-8bf2-d4642b2765e9
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IMetadataInfo::GetVrToken Method
 Retrieves an [IHttpTokenEntry](../../web-development-reference\native-code-api-reference/ihttptokenentry-interface.md) interface for the impersonation account that is configured for a virtual directory.  
@@ -22,7 +14,7 @@ virtual IHttpTokenEntry* GetVrToken(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

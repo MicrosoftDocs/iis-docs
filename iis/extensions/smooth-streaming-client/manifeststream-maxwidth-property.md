@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the stream 'MaxWidth' field.
 
 ## Syntax
 
-``` csharp
+```csharp
 public uint MaxWidth { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property unsigned int MaxWidth {
 unsigned int get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get MaxWidth () : uint
 ```
 

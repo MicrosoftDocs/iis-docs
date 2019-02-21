@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnLogRequest Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnLogRequest Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0e7add72-ad38-d1a6-1682-7a6efcd5f41d
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnLogRequest Method
 Represents the method that will handle a `LogRequest` event, which occurs when IIS prepares to log the current request.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnLogRequest(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

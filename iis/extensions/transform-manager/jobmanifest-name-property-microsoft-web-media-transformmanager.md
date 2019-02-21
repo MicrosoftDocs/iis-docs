@@ -1,5 +1,5 @@
 ---
-title: JobManifest.Name Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.Name Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Name
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.name(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.set_Name
 - Microsoft.Web.Media.TransformManager.JobManifest.Name
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Name Property
@@ -40,7 +39,7 @@ Gets or sets the name of the job manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Name As String
@@ -56,11 +55,11 @@ value = instance.Name
 instance.Name = value
 ```
 
-``` csharp
+```csharp
   public string Name { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ Name {
     String^ get ();
@@ -72,19 +71,19 @@ property String^ Name {
   member Name : string with get, set
 ```
 
-``` jscript
+```jscript
   function get Name () : String
 function set Name (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The name of the job manifest.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

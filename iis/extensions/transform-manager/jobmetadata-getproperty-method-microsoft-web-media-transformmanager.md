@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobMetadata.GetProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetProperty Method
@@ -36,7 +35,7 @@ Returns the value of the specified property from the task resource description f
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Function GetProperty ( _
@@ -51,13 +50,13 @@ Dim returnValue As IManifestProperty
 returnValue = instance.GetProperty(predicate)
 ```
 
-``` csharp
+```csharp
   public IManifestProperty GetProperty(
     XName predicate
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual IManifestProperty^ GetProperty(
     XName^ predicate
@@ -71,26 +70,26 @@ override GetProperty :
         predicate:XName -> IManifestProperty 
 ```
 
-``` jscript
+```jscript
   public final function GetProperty(
     predicate : XName
 ) : IManifestProperty
 ```
 
-#### Parameters
+### Parameters
 
   - predicate  
-    Type: [System.Xml.Linq. . :: . .XName](https://msdn.microsoft.com/en-us/library/bb347810\(v=vs.90\))  
+    Type: [System.Xml.Linq.XName](https://msdn.microsoft.com/library/bb347810)  
     The name of the property to get.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .IManifestProperty](imanifestproperty-interface-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.IManifestProperty](imanifestproperty-interface-microsoft-web-media-transformmanager.md)  
 The property value.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobMetadata Class](jobmetadata-class-microsoft-web-media-transformmanager.md)
 

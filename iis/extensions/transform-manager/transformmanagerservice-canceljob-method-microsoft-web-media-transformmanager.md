@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.CancelJob
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CancelJob Method
@@ -36,7 +35,7 @@ Cancels a job that is represented by the specified job ID and work queue name.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Function CancelJob ( _
@@ -51,14 +50,14 @@ Dim returnValue As JobStatus
 returnValue = instance.CancelJob(jobDetails)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public JobStatus CancelJob(
     JobDetails jobDetails
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual JobStatus CancelJob(
@@ -75,30 +74,30 @@ override CancelJob :
         jobDetails:JobDetails -> JobStatus 
 ```
 
-``` jscript
+```jscript
   public final function CancelJob(
     jobDetails : JobDetails
 ) : JobStatus
 ```
 
-#### Parameters
+### Parameters
 
   - jobDetails  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
     An object that contains the ID of the job to cancel and the name of the work queue that the job is in.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
 The [JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md) object that corresponds to the action.  
 
-#### Implements
+### Implements
 
-[IMonitoringService. . :: . .CancelJob(JobDetails)](imonitoringservice-canceljob-method-microsoft-web-media-transformmanager.md)  
+[IMonitoringService.CancelJob(JobDetails)](imonitoringservice-canceljob-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

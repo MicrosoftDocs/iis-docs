@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::FlushKernelCache Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::FlushKernelCache Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 935f7c14-8427-1283-859c-fbb0f45dabeb
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::FlushKernelCache Method
 Flushes the kernel cache for a specific Uniform Resource Identifier (URI).  
@@ -22,7 +14,7 @@ virtual HRESULT FlushKernelCache(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszUrl`  
  [IN] A pointer to a string that contains the URI to flush.  
   

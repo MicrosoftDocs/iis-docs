@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDefinition Constructor
@@ -34,7 +33,7 @@ Initializes a new instance of the [JobDefinition](jobdefinition-class-microsoft-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New
@@ -43,11 +42,11 @@ Initializes a new instance of the [JobDefinition](jobdefinition-class-microsoft-
 Dim instance As New JobDefinition()
 ```
 
-``` csharp
+```csharp
   public JobDefinition()
 ```
 
-``` c++
+```cpp
   public:
 JobDefinition()
 ```
@@ -56,13 +55,13 @@ JobDefinition()
   new : unit -> JobDefinition
 ```
 
-``` jscript
+```jscript
   public function JobDefinition()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.ReadTraceConfig Method (XmlReader)
@@ -34,7 +33,7 @@ Reads trace configuration settings from XML data returned by the xmlReader that 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Sub ReadTraceConfig ( _
@@ -47,13 +46,13 @@ Dim xmlReader As XmlReader
 Tracing.ReadTraceConfig(xmlReader)
 ```
 
-``` csharp
+```csharp
 public static void ReadTraceConfig(
     XmlReader xmlReader
 )
 ```
 
-``` c++
+```cpp
 public:
 static void ReadTraceConfig(
     XmlReader^ xmlReader
@@ -65,31 +64,31 @@ static member ReadTraceConfig :
         xmlReader:XmlReader -> unit 
 ```
 
-``` jscript
+```jscript
 public static function ReadTraceConfig(
     xmlReader : XmlReader
 )
 ```
 
-#### Parameters
+### Parameters
 
   - xmlReader  
-    Type: [System.Xml.XmlReader](https://msdn.microsoft.com/en-us/library/b8a5e1s5\(v=vs.95\))  
-    A [XmlReader](https://msdn.microsoft.com/en-us/library/b8a5e1s5\(v=vs.95\)) object.
+    Type: [System.Xml.XmlReader](https://msdn.microsoft.com/library/b8a5e1s5\(v=vs.95\))  
+    A [XmlReader](https://msdn.microsoft.com/library/b8a5e1s5\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

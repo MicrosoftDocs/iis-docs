@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobTemplate.JobTemplate
 - Microsoft.Web.Media.TransformManager.JobTemplate.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
@@ -29,11 +29,9 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobTemplate() () () ()](jobtemplate-constructor-microsoft-web-media-transformmanager_1.md)|Initializes a new instance of the [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) class.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobTemplate(FileInfo, XElement)](jobtemplate-constructor-fileinfo-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) class using the specified file information and job template.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [JobTemplate Class](jobtemplate-class-microsoft-web-media-transformmanager.md)
 

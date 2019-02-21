@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.TotalBytesDownloaded Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.TotalBytesDownloaded Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: TotalBytesDownloaded Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.TotalBytesDownloaded
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.totalbytesdownloaded(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.TotalBytesDownloaded
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_TotalBytesDownloaded
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.TotalBytesDownloaded Property
@@ -38,7 +37,7 @@ Gets the total bytes downloaded.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property TotalBytesDownloaded As Long
@@ -51,11 +50,11 @@ Dim value As Long
 value = instance.TotalBytesDownloaded
 ```
 
-``` csharp
+```csharp
 public long TotalBytesDownloaded { get; }
 ```
 
-``` c++
+```cpp
 public:
 property long long TotalBytesDownloaded {
     long long get ();
@@ -66,28 +65,28 @@ property long long TotalBytesDownloaded {
 member TotalBytesDownloaded : int64
 ```
 
-``` jscript
+```jscript
 function get TotalBytesDownloaded () : long
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek\(v=vs.95\))  
+Type: [System.Int64](https://msdn.microsoft.com/library/6yy583ek\(v=vs.95\))  
 The number of bytes downloaded.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

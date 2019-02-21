@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::Clear Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::Clear Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a85335e5-7fe8-d504-1a18-7ca0081c7317
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::Clear Method
 Clears the response entity.  
@@ -22,7 +14,7 @@ virtual VOID Clear(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

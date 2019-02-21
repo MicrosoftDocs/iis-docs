@@ -1,15 +1,7 @@
 ---
-title: "IHttpSite::GetPerfCounterInfo Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpSite::GetPerfCounterInfo Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: abb697d2-fa6d-8441-ece4-dfb07abd4dee
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpSite::GetPerfCounterInfo Method
 Retrieves an [IHttpPerfCounterInfo](../../web-development-reference\native-code-api-reference/ihttpperfcounterinfo-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual IHttpPerfCounterInfo* GetPerfCounterInfo(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

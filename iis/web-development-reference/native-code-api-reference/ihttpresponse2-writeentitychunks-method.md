@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse2::WriteEntityChunks Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse2::WriteEntityChunks Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8a7882f2-aa37-4890-b747-57f3a91b46d9
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse2::WriteEntityChunks Method
 Appends one or more [HTTP_DATA_CHUNK](http://go.microsoft.com/fwlink/?LinkId=56011) structures to the response body for an asynchronous operation.  
@@ -30,7 +22,7 @@ virtual HRESULT WriteEntityChunks(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pDataChunks`  
  [IN] A pointer to one or more `HTTP_DATA_CHUNK` structures.  
   

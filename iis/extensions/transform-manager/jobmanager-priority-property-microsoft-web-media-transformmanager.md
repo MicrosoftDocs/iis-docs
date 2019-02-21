@@ -1,5 +1,5 @@
 ---
-title: JobManager.Priority Property  (Microsoft.Web.Media.TransformManager)
+title: JobManager.Priority Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Priority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.Priority
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.priority(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.get_Priority
 - Microsoft.Web.Media.TransformManager.JobManager.Priority
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Priority Property
@@ -38,7 +37,7 @@ Gets the priority of a job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property Priority As Integer
@@ -51,11 +50,11 @@ Dim value As Integer
 value = instance.Priority
 ```
 
-``` csharp
+```csharp
   public int Priority { get; }
 ```
 
-``` c++
+```cpp
   public:
 property int Priority {
     int get ();
@@ -66,18 +65,18 @@ property int Priority {
   member Priority : int
 ```
 
-``` jscript
+```jscript
   function get Priority () : int
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The priority of a job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

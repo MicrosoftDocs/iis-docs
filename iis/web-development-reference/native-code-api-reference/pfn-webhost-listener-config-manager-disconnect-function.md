@@ -1,15 +1,7 @@
 ---
-title: "PFN_WEBHOST_LISTENER_CONFIG_MANAGER_DISCONNECT Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_WEBHOST_LISTENER_CONFIG_MANAGER_DISCONNECT Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f0bb001d-e5fe-3e6c-b8b5-6df3baa70d28
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_WEBHOST_LISTENER_CONFIG_MANAGER_DISCONNECT Function
 Notifies the listener adapter that the Windows Process Activation Service (WAS) has disconnected.  
@@ -23,7 +15,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_CONFIG_MANAGER_DISCONNECT)(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
   

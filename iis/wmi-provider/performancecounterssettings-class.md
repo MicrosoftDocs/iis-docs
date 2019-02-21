@@ -1,15 +1,7 @@
 ---
-title: "PerformanceCountersSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "PerformanceCountersSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 597facb0-2ee7-30f0-cc86-e53a89e761cb
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PerformanceCountersSettings Class
 Determines whether performance counters are enabled.  

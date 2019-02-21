@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo::GetModuleContextContainer Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo::GetModuleContextContainer Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4a2a126b-279e-3424-ec98-2c8022343a9c
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo::GetModuleContextContainer Method
 Returns an [IHttpModuleContextContainer](../../web-development-reference\native-code-api-reference/ihttpmodulecontextcontainer-interface.md) pointer for the corresponding file.  
@@ -22,7 +14,7 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

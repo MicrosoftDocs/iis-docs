@@ -1,15 +1,7 @@
 ---
-title: "IAppHostChildElementCollection::Item Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostChildElementCollection::Item Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 882e0b49-d2ca-c629-8018-0b73afab53cd
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostChildElementCollection::Item Method
 Gets a configuration element from the collection.  
@@ -24,7 +16,7 @@ HRESULT Item(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `cIndex`  
  A `VARIANT` that contains the index of the element to return from the collection.  
   

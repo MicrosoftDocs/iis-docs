@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingErrorEventArgs.ErrorCode Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingErrorEventArgs.ErrorCode Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ErrorCode Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.ErrorCode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs.errorcode(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.get_ErrorCode
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.set_ErrorCode
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ErrorCode Property
@@ -39,7 +38,7 @@ Gets or sets the ErrorCode property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ErrorCode As Integer
@@ -53,11 +52,11 @@ value = instance.ErrorCode
 instance.ErrorCode = value
 ```
 
-``` csharp
+```csharp
   public int ErrorCode { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property int ErrorCode {
     int get ();
@@ -65,33 +64,33 @@ property int ErrorCode {
 }
 ```
 
-``` jscript
+```jscript
   function get ErrorCode () : int
 function set ErrorCode (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 An integer value that contains the error code.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingErrorEventArgs Class](smoothstreamingerroreventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

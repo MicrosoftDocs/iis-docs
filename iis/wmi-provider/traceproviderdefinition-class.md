@@ -1,15 +1,7 @@
 ---
-title: "TraceProviderDefinition Class | Microsoft Docs"
-ms.custom: ""
+title: "TraceProviderDefinition Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d800efb0-c7af-4e21-f3ad-336536b5604d
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TraceProviderDefinition Class
 Specifies a trace provider's name, GUID, and trace area enumeration.  

@@ -1,16 +1,8 @@
 ---
-title: "IFtpLogProvider::Log Method | Microsoft Docs"
-ms.custom: ""
+title: "IFtpLogProvider::Log Method"
 ms.date: "09/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0978c707-4bba-46be-8457-abdcfb930f5b
-caps.latest.revision: 9
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IFtpLogProvider::Log Method
 Performs custom logging of FTP activity for the IFtpLogProvider interface.  
@@ -23,7 +15,7 @@ HRESULT Log(
 )  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |||  
 |-|-|  

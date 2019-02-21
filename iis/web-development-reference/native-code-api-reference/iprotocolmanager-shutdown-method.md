@@ -1,15 +1,7 @@
 ---
-title: "IProtocolManager::Shutdown Method | Microsoft Docs"
-ms.custom: ""
+title: "IProtocolManager::Shutdown Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 845ce040-066f-7d89-84c7-363d144f681c
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProtocolManager::Shutdown Method
 Shuts down a protocol manager.  
@@ -22,7 +14,7 @@ virtual HRESULT Shutdown(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `fImmediate`  
  `true` to indicates that the shutdown should be immediate; otherwise, `false`.  
   

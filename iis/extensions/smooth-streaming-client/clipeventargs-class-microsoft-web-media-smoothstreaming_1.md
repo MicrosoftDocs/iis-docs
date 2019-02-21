@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipEventArgs
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipEventArgs Class
@@ -33,8 +32,8 @@ Class used by media clips to pass event argument information that contains an as
 
 ## Inheritance Hierarchy
 
- [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
-  [System.EventArgs](https://msdn.microsoft.com/en-us/library/118wxtk3\(v=vs.95\))  
+ [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
+  [System.EventArgs](https://msdn.microsoft.com/library/118wxtk3\(v=vs.95\))  
     Microsoft.Web.Media.SmoothStreaming.ClipEventArgs  
       [Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs](clipplaybackeventargs-class-microsoft-web-media-smoothstreaming_1.md)  
 
@@ -43,7 +42,7 @@ Class used by media clips to pass event argument information that contains an as
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Class ClipEventArgs _
@@ -53,11 +52,11 @@ Public Class ClipEventArgs _
 Dim instance As ClipEventArgs
 ```
 
-``` csharp
+```csharp
 public class ClipEventArgs : EventArgs
 ```
 
-``` c++
+```cpp
 public ref class ClipEventArgs : public EventArgs
 ```
 
@@ -68,7 +67,7 @@ type ClipEventArgs =
     end
 ```
 
-``` jscript
+```jscript
 public class ClipEventArgs extends EventArgs
 ```
 
@@ -81,20 +80,16 @@ The ClipEventArgs type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Context](clipeventargs-context-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Context](clipeventargs-context-property-microsoft-web-media-smoothstreaming_1.md) property.|
 
 
-Top
-
 ## Methods
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/en-us/library/4k87zsw7(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-
-Top
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/library/zdee4b3y(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/library/dfwy45w9(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 
 ## Remarks
 
@@ -102,9 +97,9 @@ For more information, see [Scheduling Media Clips](scheduling-media-clips.md).
 
 ## Examples
 
-If the user clicks on the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) surface while an inserted clip is playing, the delegate method that handles the event can access the Microsoft.Web.Media.SmoothStreaming.ClipContext from the ClipEventArgs. The [ClipInformation](clipcontext-clipinformation-property-microsoft-web-media-smoothstreaming_1.md) property contains the [Microsoft.Web.Media.SmoothStreaming.ClipInformation.ClickThroughUrl](https://msdn.microsoft.com/en-us/library/ee532602\(v=vs.95\)) that was assigned when the [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) object was initialized.
+If the user clicks on the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) surface while an inserted clip is playing, the delegate method that handles the event can access the Microsoft.Web.Media.SmoothStreaming.ClipContext from the ClipEventArgs. The [ClipInformation](clipcontext-clipinformation-property-microsoft-web-media-smoothstreaming_1.md) property contains the [Microsoft.Web.Media.SmoothStreaming.ClipInformation.ClickThroughUrl](https://msdn.microsoft.com/library/ee532602\(v=vs.95\)) that was assigned when the [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) object was initialized.
 
-The following delegate opens a new browser window for the [Microsoft.Web.Media.SmoothStreaming.ClipInformation.ClickThroughUrl](https://msdn.microsoft.com/en-us/library/ee532602\(v=vs.95\)).
+The following delegate opens a new browser window for the [Microsoft.Web.Media.SmoothStreaming.ClipInformation.ClickThroughUrl](https://msdn.microsoft.com/library/ee532602\(v=vs.95\)).
 
     void SmoothPlayer_ClipClickThrough(object sender, ClipEventArgs e)
         {
@@ -113,7 +108,7 @@ The following delegate opens a new browser window for the [Microsoft.Web.Media.S
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
@@ -123,7 +118,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

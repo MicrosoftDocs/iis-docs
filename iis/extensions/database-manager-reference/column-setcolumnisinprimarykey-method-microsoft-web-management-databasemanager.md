@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Column.SetColumnIsInPrimaryKey
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.SetColumnIsInPrimaryKey Method
@@ -35,7 +34,7 @@ Specifies the database column as part of the primary key.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Sub SetColumnIsInPrimaryKey ( _
     isInPrimaryKey As Boolean _
@@ -47,38 +46,38 @@ Dim isInPrimaryKey As Boolean
 instance.SetColumnIsInPrimaryKey(isInPrimaryKey)
 ```
 
-``` csharp
+```csharp
 public void SetColumnIsInPrimaryKey(
     bool isInPrimaryKey
 )
 ```
 
-``` c++
+```cpp
 public:
 void SetColumnIsInPrimaryKey(
     bool isInPrimaryKey
 )
 ```
 
-``` jscript
+```jscript
 public function SetColumnIsInPrimaryKey(
     isInPrimaryKey : boolean
 )
 ```
 
-#### Parameters
+### Parameters
 
   - isInPrimaryKey  
-    Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
     true to specify that the column is part of the primary key; otherwise, false.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Column Class](column-class-microsoft-web-management-databasemanager.md)
 

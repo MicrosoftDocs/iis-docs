@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnMapRequestHandler Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnMapRequestHandler Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9ed609a7-6575-a032-83dc-07a1565313c0
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnMapRequestHandler Method
 Represents the method that will handle a `MapRequestHandler` event, which occurs when IIS maps the current request to an event handler.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnMapRequestHandler(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

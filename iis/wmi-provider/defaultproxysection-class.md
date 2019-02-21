@@ -1,15 +1,7 @@
 ---
-title: "DefaultProxySection Class | Microsoft Docs"
-ms.custom: ""
+title: "DefaultProxySection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d2318b31-4a59-2850-0eb2-c8a5230a1b64
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DefaultProxySection Class
 Configures Web proxy server defaults.  

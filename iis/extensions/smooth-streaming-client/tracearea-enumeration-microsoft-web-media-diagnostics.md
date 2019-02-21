@@ -40,10 +40,10 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceArea.LiveTimeManager
 - Microsoft.Web.Media.Diagnostics.TraceArea.PerSample
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -85,7 +85,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceArea Enumeration
@@ -97,7 +96,7 @@ Enumeration that specifies the feature area from which a trace message originate
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Enumeration TraceArea
@@ -106,31 +105,31 @@ Enumeration that specifies the feature area from which a trace message originate
   Dim instance As TraceArea
 ```
 
-``` csharp
+```csharp
   public enum TraceArea
 ```
 
-``` c++
+```cpp
   public enum class TraceArea
 ```
 
-``` jscript
+```jscript
   public enum TraceArea
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
 

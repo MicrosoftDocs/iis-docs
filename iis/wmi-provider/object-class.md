@@ -1,15 +1,7 @@
 ---
-title: "Object Class1 | Microsoft Docs"
-ms.custom: ""
+title: "Object Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e0c0f720-51e6-d244-eb1a-e4551d427019
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Object Class1
 Serves as a base class from which to derive the primary namespace objects for the [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI provider.  

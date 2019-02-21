@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.EventViewer.EventIdWarning
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # EventIdWarning Field
@@ -36,7 +35,7 @@ Represents a constant that is used when warning information is written to the ev
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const EventIdWarning As Integer
@@ -47,11 +46,11 @@ Represents a constant that is used when warning information is written to the ev
 value = EventViewer.EventIdWarning
 ```
 
-``` csharp
+```csharp
   public const int EventIdWarning
 ```
 
-``` c++
+```cpp
   public:
 literal int EventIdWarning
 ```
@@ -60,13 +59,13 @@ literal int EventIdWarning
   static val mutable EventIdWarning: int
 ```
 
-``` jscript
+```jscript
   public const var EventIdWarning : int
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [EventViewer Class](eventviewer-class-microsoft-web-media-transformmanager.md)
 

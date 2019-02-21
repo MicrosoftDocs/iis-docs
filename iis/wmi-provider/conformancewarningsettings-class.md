@@ -1,15 +1,7 @@
 ---
-title: "ConformanceWarningSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "ConformanceWarningSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c30bae9a-cfb7-471e-b39e-06d04693564a
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConformanceWarningSettings Class
 Contains Web Services Interoperability (WS-I) conformance declarations.  

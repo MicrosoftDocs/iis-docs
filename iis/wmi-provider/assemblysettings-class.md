@@ -1,15 +1,7 @@
 ---
-title: "AssemblySettings Class | Microsoft Docs"
-ms.custom: ""
+title: "AssemblySettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5ecbf32a-62e2-4b86-ab40-d1d0cf90d8a7
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AssemblySettings Class
 Contains assembly references that are used during compilation of an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web application.  

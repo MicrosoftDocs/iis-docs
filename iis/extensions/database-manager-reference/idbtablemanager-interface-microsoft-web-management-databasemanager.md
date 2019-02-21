@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbTableManager
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbTableManager Interface
@@ -35,22 +34,22 @@ Represents a table manager interface for the database provider.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Interface IDbTableManager
 'Usage
 Dim instance As IDbTableManager
 ```
 
-``` csharp
+```csharp
 public interface IDbTableManager
 ```
 
-``` c++
+```cpp
 public interface class IDbTableManager
 ```
 
-``` jscript
+```jscript
 public interface IDbTableManager
 ```
 
@@ -67,8 +66,6 @@ The IDbTableManager type exposes the following members.
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetTableInfo](idbtablemanager-gettableinfo-method-microsoft-web-management-databasemanager.md)|Returns the table information for a table.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetTables](idbtablemanager-gettables-method-microsoft-web-management-databasemanager.md)|Returns a list of tables from a database.|
 
-Top
-
 ## Remarks
 
 In order to manage tables, you must implement IDbTableManager on the class that you derived from [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md). This interface allows to create, modify, and delete tables.
@@ -80,7 +77,7 @@ In order to manage tables, you must implement IDbTableManager on the class that 
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider implements the IDbTableManager interface, your provider must also implement all of the following members:
 
@@ -98,7 +95,7 @@ If your provider implements the IDbTableManager interface, your provider must al
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
 

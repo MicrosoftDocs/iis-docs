@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementCollection::CreateNewElement Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementCollection::CreateNewElement Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e1fdf112-7a39-9ed8-1a05-e143edb500a2
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementCollection::CreateNewElement Method
 Creates a new element.  
@@ -26,7 +18,7 @@ HRESULT CreateNewElement(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrElementName`  
  A `BSTR` that contains the name for the newly created element.  
   

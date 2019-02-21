@@ -1,15 +1,7 @@
 ---
-title: "CustomError Class | Microsoft Docs"
-ms.custom: ""
+title: "CustomError Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ab3c0555-268b-4148-bdcf-622be2a4c4f7
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CustomError Class
 Specifies an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] custom error message for an HTTP status code error.  

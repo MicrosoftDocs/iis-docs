@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnPostAuthorizeRequest Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnPostAuthorizeRequest Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: abd5a843-b624-76bc-4625-1e4da6295b6e
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnPostAuthorizeRequest Method
 Represents the method that will handle an `AuthorizeRequest` post-event, which occurs after IIS has verified user authorization.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostAuthorizeRequest(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

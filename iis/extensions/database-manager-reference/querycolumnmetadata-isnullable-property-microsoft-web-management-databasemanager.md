@@ -1,5 +1,5 @@
 ---
-title: QueryColumnMetadata.IsNullable Property  (Microsoft.Web.Management.DatabaseManager)
+title: QueryColumnMetadata.IsNullable Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsNullable Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.IsNullable
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.querycolumnmetadata.isnullable(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.get_IsNullable
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.set_IsNullable
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # QueryColumnMetadata.IsNullable Property
@@ -39,7 +38,7 @@ Gets or sets a value that indicates whether the column data supports nulla null 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property IsNullable As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.IsNullable
 instance.IsNullable = value
 ```
 
-``` csharp
+```csharp
 public bool IsNullable { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool IsNullable {
     bool get ();
@@ -63,14 +62,14 @@ property bool IsNullable {
 }
 ```
 
-``` jscript
+```jscript
 function get IsNullable () : boolean
 function set IsNullable (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the column data supports nulla null reference (Nothing in Visual Basic); otherwise, false.  
 
 ## Examples
@@ -82,7 +81,7 @@ The following code sample implements the [GetData](idbtabledatamanager-getdata-m
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     ' Retrieve data from a database.
     Public Function GetData( _
@@ -180,7 +179,7 @@ The following code sample implements the [GetData](idbtabledatamanager-getdata-m
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve data from a database.
         public QueryResult GetData(string connectionString, string tableName, string schema)
@@ -288,11 +287,11 @@ The following code sample implements the [GetData](idbtabledatamanager-getdata-m
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [QueryColumnMetadata Class](querycolumnmetadata-class-microsoft-web-management-databasemanager.md)
 

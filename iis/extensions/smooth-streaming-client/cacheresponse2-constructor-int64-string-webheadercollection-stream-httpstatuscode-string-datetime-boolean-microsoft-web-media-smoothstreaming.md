@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse2 Constructor (Int64, String, WebHeaderCollection, Stream, HttpStatusCode, String, DateTime, Boolean)
@@ -34,7 +33,7 @@ Initializes a new instance of the [CacheResponse2](cacheresponse2-class-microsof
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -64,7 +63,7 @@ Dim instance As New CacheResponse2(contentLength, _
     continueProcessing)
 ```
 
-``` csharp
+```csharp
 public CacheResponse2(
     long contentLength,
     string contentType,
@@ -77,7 +76,7 @@ public CacheResponse2(
 )
 ```
 
-``` c++
+```cpp
 public:
 CacheResponse2(
     long long contentLength, 
@@ -103,7 +102,7 @@ new :
         continueProcessing:bool -> CacheResponse2
 ```
 
-``` jscript
+```jscript
 public function CacheResponse2(
     contentLength : long, 
     contentType : String, 
@@ -116,63 +115,63 @@ public function CacheResponse2(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - contentLength  
-    Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek\(v=vs.95\))  
+    Type: [System.Int64](https://msdn.microsoft.com/library/6yy583ek\(v=vs.95\))  
     The final value of the [ContentLength](cacheresponse-contentlength-property-microsoft-web-media-smoothstreaming_1.md) property.
 
 <!-- end list -->
 
   - contentType  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     The final value of the [ContentType](cacheresponse-contenttype-property-microsoft-web-media-smoothstreaming_1.md) property.
 
 <!-- end list -->
 
   - headers  
-    Type: [System.Net.WebHeaderCollection](https://msdn.microsoft.com/en-us/library/1beth6ct\(v=vs.95\))  
+    Type: [System.Net.WebHeaderCollection](https://msdn.microsoft.com/library/1beth6ct\(v=vs.95\))  
     The final value of the [Headers](cacheresponse-headers-property-microsoft-web-media-smoothstreaming_1.md) property.
 
 <!-- end list -->
 
   - response  
-    Type: [System.IO.Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\))  
+    Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\))  
     The final value of the [Response](cacheresponse-response-property-microsoft-web-media-smoothstreaming_1.md) property.
 
 <!-- end list -->
 
   - statusCode  
-    Type: [System.Net.HttpStatusCode](https://msdn.microsoft.com/en-us/library/f92ssyy1\(v=vs.95\))  
+    Type: [System.Net.HttpStatusCode](https://msdn.microsoft.com/library/f92ssyy1\(v=vs.95\))  
     The final value of the [StatusCode](cacheresponse-statuscode-property-microsoft-web-media-smoothstreaming_1.md) property.
 
 <!-- end list -->
 
   - statusDescription  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     The final value of the [StatusDescription](cacheresponse-statusdescription-property-microsoft-web-media-smoothstreaming_1.md) property.
 
 <!-- end list -->
 
   - downloadTime  
-    Type: [System.DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.95\))  
+    Type: [System.DateTime](https://msdn.microsoft.com/library/03ybds8y\(v=vs.95\))  
     The time at which the response finished downloading. This value is used for computing the expiry time of the response.
 
 <!-- end list -->
 
   - continueProcessing  
-    Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
     true to continue processing to the next module in case of a cache miss; otherwise, false.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse2 Class](cacheresponse2-class-microsoft-web-media-smoothstreaming.md)
 

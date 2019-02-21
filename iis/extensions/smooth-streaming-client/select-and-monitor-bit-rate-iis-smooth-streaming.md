@@ -63,13 +63,13 @@ The lambda expression re-initializes a list of type [TrackInfo](trackinfo-class-
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Events (IIS Smooth Streaming)](events.md)
 
 [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md)
 
-#### Other Resources
+### Other Resources
 
 [IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
 

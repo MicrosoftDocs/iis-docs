@@ -1,5 +1,5 @@
 ---
-title: StreamInfo.Segment Property  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamInfo.Segment Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Segment Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Segment
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.segment(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.get_Segment
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.Segment
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.Segment Property
@@ -38,7 +37,7 @@ Gets or sets the segment for this stream.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property Segment As SegmentInfo
@@ -51,11 +50,11 @@ Dim value As SegmentInfo
 value = instance.Segment
 ```
 
-``` csharp
+```csharp
 public SegmentInfo Segment { get; }
 ```
 
-``` c++
+```cpp
 public:
 property SegmentInfo^ Segment {
     SegmentInfo^ get ();
@@ -66,11 +65,11 @@ property SegmentInfo^ Segment {
 member Segment : SegmentInfo
 ```
 
-``` jscript
+```jscript
 function get Segment () : SegmentInfo
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)  
 A [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) object.
@@ -81,17 +80,17 @@ For more information and an example that parses [SegmentInfo](segmentinfo-class-
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

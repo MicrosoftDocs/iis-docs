@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbRestoreManager
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbRestoreManager Interface
@@ -35,22 +34,22 @@ Represents a database restore manager interface.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Interface IDbRestoreManager
 'Usage
 Dim instance As IDbRestoreManager
 ```
 
-``` csharp
+```csharp
 public interface IDbRestoreManager
 ```
 
-``` c++
+```cpp
 public interface class IDbRestoreManager
 ```
 
-``` jscript
+```jscript
 public interface IDbRestoreManager
 ```
 
@@ -63,15 +62,13 @@ The IDbRestoreManager type exposes the following members.
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[RestoreBackup](idbrestoremanager-restorebackup-method-microsoft-web-management-databasemanager.md)|Restores a database backup.|
 
 
-Top
-
 ## Remarks
 
 In order to implement database restore features in your database provider, you need to implement IDbRestoreManager on the class that you derived from [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md).
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider implements the IDbRestoreManager interface, your provider must also implement all of the following members:
 
@@ -79,7 +76,7 @@ If your provider implements the IDbRestoreManager interface, your provider must 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
 

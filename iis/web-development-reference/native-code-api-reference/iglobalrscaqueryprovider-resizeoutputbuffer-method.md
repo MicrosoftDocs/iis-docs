@@ -1,15 +1,7 @@
 ---
-title: "IGlobalRSCAQueryProvider::ResizeOutputBuffer Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalRSCAQueryProvider::ResizeOutputBuffer Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0f550da6-ac62-5d76-e29c-08d5e1238762
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalRSCAQueryProvider::ResizeOutputBuffer Method
 Resizes and returns the output `BYTE` array.  
@@ -24,7 +16,7 @@ virtual HRESULT ResizeOutputBuffer(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `cbNewBuffer`  
  [IN] A `DWORD` that contains the number of bytes to allocate.  
   

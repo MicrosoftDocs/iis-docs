@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.Position Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.Position Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Position Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Position
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.position(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_Position
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_Position
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.Position Property
@@ -40,7 +39,7 @@ Gets or sets the position in the current stream.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Position As TimeSpan
@@ -56,11 +55,11 @@ value = instance.Position
 instance.Position = value
 ```
 
-``` csharp
+```csharp
 public TimeSpan Position { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property TimeSpan Position {
     TimeSpan get ();
@@ -72,14 +71,14 @@ property TimeSpan Position {
 member Position : TimeSpan with get, set
 ```
 
-``` jscript
+```jscript
 function get Position () : TimeSpan
 function set Position (value : TimeSpan)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))  
+Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))  
 The position in the current stream.
 
 ## Remarks
@@ -104,17 +103,17 @@ The following example shows a delegate that assigns the Position property. Each 
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

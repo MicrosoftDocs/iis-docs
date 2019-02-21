@@ -1,18 +1,10 @@
 ---
-title: "ConnectionManagementSection Class | Microsoft Docs"
-ms.custom: ""
+title: "ConnectionManagementSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c65d6556-228b-8d0f-fc11-280bfa69412c
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConnectionManagementSection Class
-Contains a collection that specifies the maximum number of connections to specified network hosts for [System.Net?displayProperty](/dotnet/api/system.net?view=netframework-4.7.2) APIs.  
+Contains a collection that specifies the maximum number of connections to specified network hosts for [System.Net?displayProperty](/dotnet/api/system.net) APIs.  
   
 ## Syntax  
   

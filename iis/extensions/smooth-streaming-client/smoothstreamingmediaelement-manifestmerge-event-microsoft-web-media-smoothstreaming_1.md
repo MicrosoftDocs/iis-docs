@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestMerge
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ManifestMerge Event
@@ -38,7 +37,7 @@ Occurs when the main manifest has been parsed.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Event ManifestMerge As SmoothStreamingMediaElement.ManifestMergeHandler
@@ -50,11 +49,11 @@ Dim handler As SmoothStreamingMediaElement.ManifestMergeHandler
 AddHandler instance.ManifestMerge, handler
 ```
 
-``` csharp
+```csharp
 public event SmoothStreamingMediaElement.ManifestMergeHandler ManifestMerge
 ```
 
-``` c++
+```cpp
 public:
  event SmoothStreamingMediaElement.ManifestMergeHandler^ ManifestMerge {
     void add (SmoothStreamingMediaElement.ManifestMergeHandler^ value);
@@ -67,7 +66,7 @@ member ManifestMerge : <SmoothStreamingMediaElement.ManifestMergeHandler,
     EventArgs>
 ```
 
-``` jscript
+```jscript
 JScript supports the use of events, but not the declaration of new ones.
 ```
 
@@ -79,13 +78,13 @@ If errors occur during this event, it throws an exception that will be caught an
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,5 +1,5 @@
 ---
-title: StoredProcedureParameter.IsOutputParameter Property  (Microsoft.Web.Management.DatabaseManager)
+title: StoredProcedureParameter.IsOutputParameter Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsOutputParameter Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.IsOutputParameter
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.storedprocedureparameter.isoutputparameter(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.get_IsOutputParameter
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.set_IsOutputParameter
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StoredProcedureParameter.IsOutputParameter Property
@@ -39,7 +38,7 @@ Returns a value that indicates whether the parameter for a stored procedure is a
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property IsOutputParameter As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.IsOutputParameter
 instance.IsOutputParameter = value
 ```
 
-``` csharp
+```csharp
 public bool IsOutputParameter { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool IsOutputParameter {
     bool get ();
@@ -63,23 +62,23 @@ property bool IsOutputParameter {
 }
 ```
 
-``` jscript
+```jscript
 function get IsOutputParameter () : boolean
 function set IsOutputParameter (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the parameter is an output parameter; otherwise, false.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StoredProcedureParameter Class](storedprocedureparameter-class-microsoft-web-management-databasemanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheKey Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheKey Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5aee4c82-06de-08c4-ce8d-813dfcb8c506
-caps.latest.revision: 53
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheKey Interface
 Provides key information for corresponding data that is stored in a global cache.  

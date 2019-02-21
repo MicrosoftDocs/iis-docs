@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::GetRawHttpRequest Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::GetRawHttpRequest Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fa0ce96b-acb6-5dd8-5225-08909ff40868
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::GetRawHttpRequest Method
 Returns a structure that contains the raw HTTP request.  
@@ -22,7 +14,7 @@ virtual HTTP_REQUEST* GetRawHttpRequest(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

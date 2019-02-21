@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsDecodingOnGPUProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.IsDecodingOnGPUProperty Field
@@ -36,7 +35,7 @@ Represents a dependency property that specifies the [IsDecodingOnGPU](smoothstre
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared ReadOnly IsDecodingOnGPUProperty As DependencyProperty
@@ -47,11 +46,11 @@ Dim value As DependencyProperty
 value = SmoothStreamingMediaElement.IsDecodingOnGPUProperty
 ```
 
-``` csharp
+```csharp
 public static readonly DependencyProperty IsDecodingOnGPUProperty
 ```
 
-``` c++
+```cpp
 public:
 static initonly DependencyProperty^ IsDecodingOnGPUProperty
 ```
@@ -60,19 +59,19 @@ static initonly DependencyProperty^ IsDecodingOnGPUProperty
 static val IsDecodingOnGPUProperty: DependencyProperty
 ```
 
-``` jscript
+```jscript
 public static final var IsDecodingOnGPUProperty : DependencyProperty
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

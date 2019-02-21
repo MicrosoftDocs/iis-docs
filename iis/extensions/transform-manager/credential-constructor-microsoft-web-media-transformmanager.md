@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.Credential.#ctor
 - Microsoft.Web.Media.TransformManager.Credential.Credential
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Credential Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [Credential](credential-class-microsoft-web-me
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New
@@ -46,11 +45,11 @@ Initializes a new instance of the [Credential](credential-class-microsoft-web-me
 Dim instance As New Credential()
 ```
 
-``` csharp
+```csharp
   public Credential()
 ```
 
-``` c++
+```cpp
   public:
 Credential()
 ```
@@ -59,13 +58,13 @@ Credential()
   new : unit -> Credential
 ```
 
-``` jscript
+```jscript
   public function Credential()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Credential Class](credential-class-microsoft-web-media-transformmanager.md)
 

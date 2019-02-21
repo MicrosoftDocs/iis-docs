@@ -1,15 +1,7 @@
 ---
-title: "SqlCacheDependencyDatabase Class | Microsoft Docs"
-ms.custom: ""
+title: "SqlCacheDependencyDatabase Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 51602b5f-115f-373d-a75a-339b91c9ff94
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SqlCacheDependencyDatabase Class
 Exposes configuration settings for SQL data in an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] cache.  
@@ -53,7 +45,7 @@ class SqlCacheDependencyDatabase : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency?view=netframework-4.7.2) 
+ [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency) 
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [SqlCacheDependencySection Class](../wmi-provider/sqlcachedependencysection-class.md)   
  [SqlCacheDependencyDatabaseSettings Class](../wmi-provider/sqlcachedependencydatabasesettings-class.md)

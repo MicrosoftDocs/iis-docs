@@ -38,11 +38,9 @@ The [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) type 
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskCount](jobdetails-taskcount-property-microsoft-web-media-transformmanager.md)|Gets or sets the number of tasks that are in this job.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskIndex](jobdetails-taskindex-property-microsoft-web-media-transformmanager.md)|Gets or sets the index of the current task.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

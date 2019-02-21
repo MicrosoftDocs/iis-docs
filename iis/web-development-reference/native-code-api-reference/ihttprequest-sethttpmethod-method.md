@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::SetHttpMethod Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::SetHttpMethod Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: abf2c37d-5703-8701-ad32-0f8480118d52
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::SetHttpMethod Method
 Sets the HTTP method for the request.  
@@ -22,7 +14,7 @@ virtual HRESULT SetHttpMethod(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszHttpMethod`  
  [IN] The HTTP method to set.  
   

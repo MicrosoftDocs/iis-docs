@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # ConnectionArgument Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [ConnectionArgument](connectionargument-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -25,11 +22,9 @@ The [ConnectionArgument](connectionargument-class-microsoft-web-management-datab
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](connectionargument-name-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that specifies the name of the connection argument.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Value](connectionargument-value-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that specifies the value of the connection argument.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ConnectionArgument Class](connectionargument-class-microsoft-web-management-databasemanager.md)
 

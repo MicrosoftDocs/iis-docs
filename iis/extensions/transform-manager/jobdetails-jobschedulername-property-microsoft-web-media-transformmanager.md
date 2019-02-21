@@ -1,5 +1,5 @@
 ---
-title: JobDetails.JobSchedulerName Property  (Microsoft.Web.Media.TransformManager)
+title: JobDetails.JobSchedulerName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobSchedulerName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.JobSchedulerName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.jobschedulername(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.get_JobSchedulerName
 - Microsoft.Web.Media.TransformManager.JobDetails.JobSchedulerName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobSchedulerName Property
@@ -40,7 +39,7 @@ Gets or sets the name of the job scheduler that runs this job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property JobSchedulerName As String
@@ -56,12 +55,12 @@ value = instance.JobSchedulerName
 instance.JobSchedulerName = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string JobSchedulerName { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ JobSchedulerName {
@@ -75,19 +74,19 @@ property String^ JobSchedulerName {
 member JobSchedulerName : string with get, set
 ```
 
-``` jscript
+```jscript
   function get JobSchedulerName () : String
 function set JobSchedulerName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The name of the job scheduler that runs this job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

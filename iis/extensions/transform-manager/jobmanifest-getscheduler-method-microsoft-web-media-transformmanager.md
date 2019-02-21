@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.GetScheduler
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetScheduler Method
@@ -36,7 +35,7 @@ Creates and returns a new [Scheduler](scheduler-class-microsoft-web-media-transf
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Function GetScheduler As Scheduler
@@ -48,11 +47,11 @@ Dim returnValue As Scheduler
 returnValue = instance.GetScheduler()
 ```
 
-``` csharp
+```csharp
   public Scheduler GetScheduler()
 ```
 
-``` c++
+```cpp
   public:
 virtual Scheduler^ GetScheduler() sealed
 ```
@@ -62,22 +61,22 @@ virtual Scheduler^ GetScheduler() sealed
 override GetScheduler : unit -> Scheduler 
 ```
 
-``` jscript
+```jscript
   public final function GetScheduler() : Scheduler
 ```
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .Scheduler](scheduler-class-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.Scheduler](scheduler-class-microsoft-web-media-transformmanager.md)  
 A new job scheduler object.  
 
-#### Implements
+### Implements
 
-[IJobManifest. . :: . .GetScheduler() () () ()](ijobmanifest-getscheduler-method-microsoft-web-media-transformmanager.md)  
+[IJobManifest.GetScheduler() () () ()](ijobmanifest-getscheduler-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

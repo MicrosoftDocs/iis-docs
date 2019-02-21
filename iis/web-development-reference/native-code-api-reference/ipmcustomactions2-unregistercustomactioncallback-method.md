@@ -1,15 +1,7 @@
 ---
-title: "IPmCustomActions2::UnregisterCustomActionCallback Method | Microsoft Docs"
-ms.custom: ""
+title: "IPmCustomActions2::UnregisterCustomActionCallback Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 01def2ab-12c7-44ac-bbf5-040757fda6d3
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPmCustomActions2::UnregisterCustomActionCallback Method
 Unregisters the specified custom action callback method.  
@@ -22,7 +14,7 @@ virtual HRESULT UnregisterCustomActionCallback(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszFunctionName`  
  [IN] Name of the custom action callback method to be unregistered.  
   

@@ -1,5 +1,5 @@
 ---
-title: JobManifest.Programs Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.Programs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Programs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Programs
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.programs(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_Programs
 - Microsoft.Web.Media.TransformManager.JobManifest.Programs
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Programs Property
@@ -38,7 +37,7 @@ Gets a collection of tasks that are executable program files.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property Programs As ArrayList
@@ -51,11 +50,11 @@ Dim value As ArrayList
 value = instance.Programs
 ```
 
-``` csharp
+```csharp
   public ArrayList Programs { get; }
 ```
 
-``` c++
+```cpp
   public:
 property ArrayList^ Programs {
     ArrayList^ get ();
@@ -66,11 +65,11 @@ property ArrayList^ Programs {
   member Programs : ArrayList
 ```
 
-``` jscript
+```jscript
   function get Programs () : ArrayList
 ```
 
-#### Property Value
+### Property Value
 
 Type: ArrayList  
 A collection of program tasks.  
@@ -81,7 +80,7 @@ Tasks can either be implementations of the [ITask](itask-interface-microsoft-web
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

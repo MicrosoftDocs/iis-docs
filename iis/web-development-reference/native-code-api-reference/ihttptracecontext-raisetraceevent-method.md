@@ -1,15 +1,7 @@
 ---
-title: "IHttpTraceContext::RaiseTraceEvent Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpTraceContext::RaiseTraceEvent Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 51a59c9b-7685-42ee-bab9-21d1938931f3
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpTraceContext::RaiseTraceEvent Method
 Raises a trace event for the trace context.  
@@ -22,7 +14,7 @@ virtual HRESULT RaiseTraceEvent(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Parameter|Description|  
 |---------------|-----------------|  

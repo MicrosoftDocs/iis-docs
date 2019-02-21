@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetConnection Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetConnection Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d6bf938c-60e8-5d4b-408b-916efcad9f6c
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetConnection Method
 Retrieves the connection container for the current context.  
@@ -22,7 +14,7 @@ virtual IHttpConnection* GetConnection(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

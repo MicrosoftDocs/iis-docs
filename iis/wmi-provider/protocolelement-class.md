@@ -1,15 +1,7 @@
 ---
-title: "ProtocolElement Class | Microsoft Docs"
-ms.custom: ""
+title: "ProtocolElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 15acc98e-38a6-578d-a854-3c949c8d242b
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ProtocolElement Class
 Specifies a transmission protocol that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] can use to decrypt data sent in the HTTP request from a client browser.  

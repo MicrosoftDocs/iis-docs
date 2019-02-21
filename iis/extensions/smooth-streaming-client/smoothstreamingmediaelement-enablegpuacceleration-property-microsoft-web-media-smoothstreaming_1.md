@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.EnableGPUAcceleration Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.EnableGPUAcceleration Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: EnableGPUAcceleration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.EnableGPUAcceleration
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.enablegpuacceleration(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_EnableGPUAcceleration
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_EnableGPUAcceleration
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.EnableGPUAcceleration Property
@@ -40,7 +39,7 @@ Gets or sets a value that indicates whether Global Processing Unit (GPU) acceler
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property EnableGPUAcceleration As Boolean
@@ -56,11 +55,11 @@ value = instance.EnableGPUAcceleration
 instance.EnableGPUAcceleration = value
 ```
 
-``` csharp
+```csharp
 public bool EnableGPUAcceleration { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool EnableGPUAcceleration {
     bool get ();
@@ -72,29 +71,29 @@ property bool EnableGPUAcceleration {
 member EnableGPUAcceleration : bool with get, set
 ```
 
-``` jscript
+```jscript
 function get EnableGPUAcceleration () : boolean
 function set EnableGPUAcceleration (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
 true if Global Processing Unit (GPU) acceleration is enabled; otherwise, false.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

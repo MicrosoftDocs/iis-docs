@@ -1,15 +1,7 @@
 ---
-title: "ProtocolsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "ProtocolsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0cfbaf09-12eb-5d23-d331-931f5d6cfd6a
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ProtocolsSection Class
 Contains a list of transmission protocols that [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] can use to decrypt data sent from a client browser in the HTTP request.  

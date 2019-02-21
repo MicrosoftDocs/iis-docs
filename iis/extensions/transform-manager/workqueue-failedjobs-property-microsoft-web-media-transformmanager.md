@@ -1,5 +1,5 @@
 ---
-title: WorkQueue.FailedJobs Property  (Microsoft.Web.Media.TransformManager)
+title: WorkQueue.FailedJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: FailedJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.WorkQueue.FailedJobs
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.workqueue.failedjobs(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.WorkQueue.get_FailedJobs
 - Microsoft.Web.Media.TransformManager.WorkQueue.FailedJobs
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # FailedJobs Property
@@ -38,7 +37,7 @@ Gets a collection of job details that specify jobs that have failed.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property FailedJobs As Collection(Of JobDetails)
@@ -51,11 +50,11 @@ Dim value As Collection(Of JobDetails)
 value = instance.FailedJobs
 ```
 
-``` csharp
+```csharp
   public Collection<JobDetails> FailedJobs { get; }
 ```
 
-``` c++
+```cpp
   public:
 property Collection<JobDetails^>^ FailedJobs {
     Collection<JobDetails^>^ get ();
@@ -66,18 +65,18 @@ property Collection<JobDetails^>^ FailedJobs {
   member FailedJobs : Collection<JobDetails>
 ```
 
-``` jscript
+```jscript
   function get FailedJobs () : Collection<JobDetails>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 A collection of job details that specify jobs that have failed.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [WorkQueue Class](workqueue-class-microsoft-web-media-transformmanager.md)
 

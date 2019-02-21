@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateTaskDefinition
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateTaskDefinition Method
@@ -36,7 +35,7 @@ Adds or updates the specified [TaskDefinition](taskdefinition-class-microsoft-we
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Sub UpdateTaskDefinition ( _
@@ -50,14 +49,14 @@ Dim taskDefinition As TaskDefinition
 instance.UpdateTaskDefinition(taskDefinition)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public void UpdateTaskDefinition(
     TaskDefinition taskDefinition
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual void UpdateTaskDefinition(
@@ -74,25 +73,25 @@ override UpdateTaskDefinition :
         taskDefinition:TaskDefinition -> unit 
 ```
 
-``` jscript
+```jscript
   public final function UpdateTaskDefinition(
     taskDefinition : TaskDefinition
 )
 ```
 
-#### Parameters
+### Parameters
 
   - taskDefinition  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md)  
     A [TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md) object to add or update.  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .UpdateTaskDefinition(TaskDefinition)](imanagementservice-updatetaskdefinition-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.UpdateTaskDefinition(TaskDefinition)](imanagementservice-updatetaskdefinition-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

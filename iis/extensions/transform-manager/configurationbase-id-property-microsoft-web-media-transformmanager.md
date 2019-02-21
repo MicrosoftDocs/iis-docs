@@ -1,5 +1,5 @@
 ---
-title: ConfigurationBase.Id Property  (Microsoft.Web.Media.TransformManager)
+title: ConfigurationBase.Id Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Id Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.Id
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.id(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.Id
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_Id
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Id Property
@@ -40,7 +39,7 @@ Gets or sets the XML element ID of a configuration object.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property Id As String
@@ -56,12 +55,12 @@ value = instance.Id
 instance.Id = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string Id { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ Id {
@@ -75,19 +74,19 @@ property String^ Id {
 member Id : string with get, set
 ```
 
-``` jscript
+```jscript
   function get Id () : String
 function set Id (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The XML ID of the IIS Transform Manager configuration.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

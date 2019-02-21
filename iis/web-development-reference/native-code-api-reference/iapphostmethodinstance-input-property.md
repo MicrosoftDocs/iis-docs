@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethodInstance::Input Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethodInstance::Input Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 20414c79-703f-42a8-a482-1b91cbac92c1
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethodInstance::Input Property
 Gets an [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) that may contain input parameters for a specified method instance call.  
@@ -22,7 +14,7 @@ Gets an [IAppHostElement Interface](../../web-development-reference\native-code-
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppInputElement`  
  Contains the [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) that may contain the input parameters for a specified method instance call.  
   

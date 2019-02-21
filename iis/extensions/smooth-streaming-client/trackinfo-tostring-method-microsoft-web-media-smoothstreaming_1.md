@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.ToString
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TrackInfo.ToString Method
@@ -36,7 +35,7 @@ Writes a [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) o
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Overrides Function ToString As String
@@ -48,11 +47,11 @@ Dim returnValue As String
 returnValue = instance.ToString()
 ```
 
-``` csharp
+```csharp
 public override string ToString()
 ```
 
-``` c++
+```cpp
 public:
 virtual String^ ToString() override
 ```
@@ -62,28 +61,28 @@ abstract ToString : unit -> string
 override ToString : unit -> string 
 ```
 
-``` jscript
+```jscript
 public override function ToString() : String
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
 A string that contains the [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) object as a string.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

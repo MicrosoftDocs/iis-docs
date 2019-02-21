@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo::GetAttributes Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo::GetAttributes Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4b602175-bf9b-19c7-dd9b-2313bbf30d5a
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo::GetAttributes Method
 Retrieves the attributes of the corresponding file for an [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual DWORD GetAttributes(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

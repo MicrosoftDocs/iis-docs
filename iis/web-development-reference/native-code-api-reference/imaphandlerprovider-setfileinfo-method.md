@@ -1,15 +1,7 @@
 ---
-title: "IMapHandlerProvider::SetFileInfo Method | Microsoft Docs"
-ms.custom: ""
+title: "IMapHandlerProvider::SetFileInfo Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f50a94f0-33d7-95de-65a9-345f0ab6e4e0
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IMapHandlerProvider::SetFileInfo Method
 This method is not supported.  
@@ -22,7 +14,7 @@ virtual VOID SetFileInfo(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pFileInfo`  
  Not supported.  
   

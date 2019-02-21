@@ -1,5 +1,5 @@
 ---
-title: ManifestInfo.ManifestType Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ManifestInfo.ManifestType Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ManifestType Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ManifestType
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.manifestinfo.manifesttype(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.set_ManifestType
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ManifestType
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestInfo.ManifestType Property
@@ -38,7 +37,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property ManifestType As ManifestType
@@ -52,11 +51,11 @@ Dim value As ManifestType
 value = instance.ManifestType
 ```
 
-``` csharp
+```csharp
 public ManifestType ManifestType { get; internal set; }
 ```
 
-``` c++
+```cpp
 public:
 property ManifestType ManifestType {
     ManifestType get ();
@@ -68,24 +67,24 @@ property ManifestType ManifestType {
 member ManifestType : ManifestType with get, internal set
 ```
 
-``` jscript
+```jscript
 function get ManifestType () : ManifestType
 internal function set ManifestType (value : ManifestType)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.ManifestType](manifesttype-enumeration-microsoft-web-media-smoothstreaming.md)  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

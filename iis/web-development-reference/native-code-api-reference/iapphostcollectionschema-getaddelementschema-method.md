@@ -1,15 +1,7 @@
 ---
-title: "IAppHostCollectionSchema::GetAddElementSchema Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostCollectionSchema::GetAddElementSchema Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 40da661f-b646-932b-b54a-2f38b4229bfd
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostCollectionSchema::GetAddElementSchema Method
 Gets the schema for the `add` element that has the requested name.  
@@ -25,7 +17,7 @@ HRESULT GetAddElementSchema(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrElementName`  
  A `BSTR` that contains the name of the element.  
   

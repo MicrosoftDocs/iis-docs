@@ -1,15 +1,7 @@
 ---
-title: "ListenerSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "ListenerSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3b66b900-0d98-4e5d-8aca-8723609bb1d5
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ListenerSettings Class
 Contains shared listeners that any source or trace element can reference.  

@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Gets the 'HardwareProfile' field.
 
 ## Syntax
 
-``` csharp
+```csharp
 uint HardwareProfile { get; }
 ```
 
-``` c++
+```cpp
 property unsigned int HardwareProfile {
 unsigned int get ();
 }
 ```
 
-``` jscript
+```jscript
 function get HardwareProfile () : uint
 ```
 

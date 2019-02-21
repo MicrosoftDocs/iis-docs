@@ -1,5 +1,5 @@
 ---
-title: SetPlaybackRangeCompletedEventArgs.LeftEdge Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SetPlaybackRangeCompletedEventArgs.LeftEdge Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LeftEdge Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.LeftEdge
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.setplaybackrangecompletedeventargs.leftedge(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.LeftEdge
 - Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.get_LeftEdge
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SetPlaybackRangeCompletedEventArgs.LeftEdge Property
@@ -38,7 +37,7 @@ Gets the left-most position for a seek operation.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property LeftEdge As TimeSpan
@@ -51,11 +50,11 @@ Dim value As TimeSpan
 value = instance.LeftEdge
 ```
 
-``` csharp
+```csharp
 public TimeSpan LeftEdge { get; }
 ```
 
-``` c++
+```cpp
 public:
 property TimeSpan LeftEdge {
     TimeSpan get ();
@@ -66,24 +65,24 @@ property TimeSpan LeftEdge {
 member LeftEdge : TimeSpan
 ```
 
-``` jscript
+```jscript
 function get LeftEdge () : TimeSpan
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))  
+Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))  
 The left-most position for a seek operation.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SetPlaybackRangeCompletedEventArgs Class](setplaybackrangecompletedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

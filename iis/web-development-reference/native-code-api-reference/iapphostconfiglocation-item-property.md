@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigLocation::Item Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigLocation::Item Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7e531625-e3b7-ab30-3c6a-c1a7a2977b45
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigLocation::Item Property
 Gets the requested configuration section from the current location.  
@@ -24,7 +16,7 @@ HRESULT Item(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `cIndex`  
  A `VARIANT` that contains the index of the requested configuration section. The index can contain a `BSTR` that contains the location path.  
   

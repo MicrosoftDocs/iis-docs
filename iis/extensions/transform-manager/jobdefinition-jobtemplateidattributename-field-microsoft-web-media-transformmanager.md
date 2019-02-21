@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.JobTemplateIdAttributeName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobTemplateIdAttributeName Field
@@ -36,7 +35,7 @@ Represents a constant that is used when the job template id attribute is assigne
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const JobTemplateIdAttributeName As String
@@ -47,11 +46,11 @@ Represents a constant that is used when the job template id attribute is assigne
 value = JobDefinition.JobTemplateIdAttributeName
 ```
 
-``` csharp
+```csharp
   public const string JobTemplateIdAttributeName
 ```
 
-``` c++
+```cpp
   public:
 literal String^ JobTemplateIdAttributeName
 ```
@@ -60,13 +59,13 @@ literal String^ JobTemplateIdAttributeName
   static val mutable JobTemplateIdAttributeName: string
 ```
 
-``` jscript
+```jscript
   public const var JobTemplateIdAttributeName : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

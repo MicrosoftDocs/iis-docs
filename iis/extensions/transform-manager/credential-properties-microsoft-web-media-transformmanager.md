@@ -24,11 +24,9 @@ The [Credential](credential-class-microsoft-web-media-transformmanager.md) type 
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[ServiceCredentialId](credential-servicecredentialid-property-microsoft-web-media-transformmanager.md)|Gets the value of the credential GUID that IIS Transform Manager uses to run.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[UserName](credential-username-property-microsoft-web-media-transformmanager.md)|Gets or sets a credential user name.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [Credential Class](credential-class-microsoft-web-media-transformmanager.md)
 

@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.#ctor
 - Microsoft.Web.Media.Diagnostics.TraceEntry.TraceEntry
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceEntry Constructor
@@ -36,7 +35,7 @@ Initializes and new instance of the [TraceEntry](traceentry-class-microsoft-web-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -61,7 +60,7 @@ Dim instance As New TraceEntry(mediaElementId, _
     traceLevel, text)
 ```
 
-``` csharp
+```csharp
   public TraceEntry(
     string mediaElementId,
     string className,
@@ -72,7 +71,7 @@ Dim instance As New TraceEntry(mediaElementId, _
 )
 ```
 
-``` c++
+```cpp
   public:
 TraceEntry(
     String^ mediaElementId, 
@@ -84,7 +83,7 @@ TraceEntry(
 )
 ```
 
-``` jscript
+```jscript
   public function TraceEntry(
     mediaElementId : String, 
     className : String, 
@@ -95,59 +94,59 @@ TraceEntry(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - mediaElementId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     String value that specifies the media element ID.  
 
 <!-- end list -->
 
   - className  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     String value that specifies the class name of the method that invoked the trace.  
 
 <!-- end list -->
 
   - methodName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     String value that specifies the method name of the method that invoked the trace.  
 
 <!-- end list -->
 
   - traceArea  
-    Type: [Microsoft.Web.Media.Diagnostics. . :: . .TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
+    Type: [Microsoft.Web.Media.Diagnostics.TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
     A [TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md) enumeration object.  
 
 <!-- end list -->
 
   - traceLevel  
-    Type: [Microsoft.Web.Media.Diagnostics. . :: . .TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md)  
+    Type: [Microsoft.Web.Media.Diagnostics.TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md)  
     A [TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md) enumeration object.  
 
 <!-- end list -->
 
   - text  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     String value that specifies the text description of the trace.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TraceEntry Class](traceentry-class-microsoft-web-media-diagnostics_1.md)
 

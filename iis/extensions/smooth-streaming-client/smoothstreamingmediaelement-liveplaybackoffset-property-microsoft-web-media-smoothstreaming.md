@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.LivePlaybackOffset Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.LivePlaybackOffset Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LivePlaybackOffset Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LivePlaybackOffset
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.liveplaybackoffset(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LivePlaybackOffset
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_LivePlaybackOffset
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LivePlaybackOffset Property
@@ -39,7 +38,7 @@ Gets or sets how far back from the live position, excluding [LiveBackOff](smooth
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property LivePlaybackOffset As TimeSpan
@@ -53,11 +52,11 @@ value = instance.LivePlaybackOffset
 instance.LivePlaybackOffset = value
 ```
 
-``` csharp
+```csharp
   public TimeSpan LivePlaybackOffset { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property TimeSpan LivePlaybackOffset {
     TimeSpan get ();
@@ -65,14 +64,14 @@ property TimeSpan LivePlaybackOffset {
 }
 ```
 
-``` jscript
+```jscript
   function get LivePlaybackOffset () : TimeSpan
 function set LivePlaybackOffset (value : TimeSpan)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\))  
+Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577)  
 The duration away from the live position, excluding [LiveBackOff](smoothstreamingmediaelement-livebackoff-property-microsoft-web-media-smoothstreaming_1.md), to start playback when joining a live presentation.  
 
 ## Remarks
@@ -87,17 +86,17 @@ As a result, the end-to-end latency on the client side (that is, how close playb
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

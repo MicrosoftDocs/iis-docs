@@ -1,15 +1,7 @@
 ---
-title: "IAppDomainInfoEnum::MoveNext Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppDomainInfoEnum::MoveNext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9746ee49-951d-a658-169a-9527bc1d57c8
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppDomainInfoEnum::MoveNext Method
 Moves to the next [IAppDomainInfo](../../web-development-reference\native-code-api-reference/iappdomaininfo-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall MoveNext(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfMoreItems`  
  A pointer to a `DWORD` that indicates whether `MoveNext` was successful.  
   

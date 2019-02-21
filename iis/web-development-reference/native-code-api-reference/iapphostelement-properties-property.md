@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElement::Properties Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElement::Properties Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 357d4d6b-291c-90ec-a39b-59f6de3fdd61
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElement::Properties Property
 Gets the collection of properties that are defined for the current element.  
@@ -23,7 +15,7 @@ HRESULT get_Properties(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppProperties`  
  A pointer to a pointer for an [IAppHostPropertyCollection](../../web-development-reference\native-code-api-reference/iapphostpropertycollection-interface.md) interface.  
   

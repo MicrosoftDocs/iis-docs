@@ -1,15 +1,7 @@
 ---
-title: "TraceFailedRequestsLogging Class1 | Microsoft Docs"
-ms.custom: ""
+title: "TraceFailedRequestsLogging Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8940ea70-501f-ef7a-6c59-a88b909db8e4
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TraceFailedRequestsLogging Class1
 Configures the trace logging of failed requests for a Web site.  

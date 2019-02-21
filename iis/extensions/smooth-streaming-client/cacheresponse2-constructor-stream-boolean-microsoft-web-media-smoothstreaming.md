@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse2 Constructor (Stream, Boolean)
@@ -34,7 +33,7 @@ Initializes a new instance of the [CacheResponse2](cacheresponse2-class-microsof
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -50,14 +49,14 @@ Dim instance As New CacheResponse2(stream, _
     continueProcessing)
 ```
 
-``` csharp
+```csharp
 public CacheResponse2(
     Stream stream,
     bool continueProcessing
 )
 ```
 
-``` c++
+```cpp
 public:
 CacheResponse2(
     Stream^ stream, 
@@ -71,23 +70,23 @@ new :
         continueProcessing:bool -> CacheResponse2
 ```
 
-``` jscript
+```jscript
 public function CacheResponse2(
     stream : Stream, 
     continueProcessing : boolean
 )
 ```
 
-#### Parameters
+### Parameters
 
   - stream  
-    Type: [System.IO.Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\))  
+    Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\))  
     The stream from which to deserialize.
 
 <!-- end list -->
 
   - continueProcessing  
-    Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
     true if processing is allowed for downstream cache modules; otherwise, false.
 
 ## Remarks
@@ -96,13 +95,13 @@ The CacheResponse2 instance reads from a stream that has been written using the 
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse2 Class](cacheresponse2-class-microsoft-web-media-smoothstreaming.md)
 

@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.SmoothStreamingAsyncResult
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingAsyncResult Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [SmoothStreamingAsyncResult](smoothstreamingas
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -55,7 +54,7 @@ Dim instance As New SmoothStreamingAsyncResult(callback, _
     state, callbackOnUIThread)
 ```
 
-``` csharp
+```csharp
 public SmoothStreamingAsyncResult(
     AsyncCallback callback,
     Object state,
@@ -63,7 +62,7 @@ public SmoothStreamingAsyncResult(
 )
 ```
 
-``` c++
+```cpp
 public:
 SmoothStreamingAsyncResult(
     AsyncCallback^ callback, 
@@ -79,7 +78,7 @@ new :
         callbackOnUIThread:bool -> SmoothStreamingAsyncResult
 ```
 
-``` jscript
+```jscript
 public function SmoothStreamingAsyncResult(
     callback : AsyncCallback, 
     state : Object, 
@@ -87,33 +86,33 @@ public function SmoothStreamingAsyncResult(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - callback  
-    Type: [System.AsyncCallback](https://msdn.microsoft.com/en-us/library/ckbe7yh5\(v=vs.95\))  
+    Type: [System.AsyncCallback](https://msdn.microsoft.com/library/ckbe7yh5\(v=vs.95\))  
     The callback function to invoke when [BeginGetChunk(TimeSpan, AsyncCallback, Object)](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) has completed. Used in asynchronous mode only.
 
 <!-- end list -->
 
   - state  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
     Application state information that is supplied by the caller.
 
 <!-- end list -->
 
   - callbackOnUIThread  
-    Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
     Indicates whether the callback is called on the UI thread for asynchronous completions. true if the callback is called on the UI thread for asynchronous completions; otherwise, false.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingAsyncResult Class](smoothstreamingasyncresult-class-microsoft-web-media-smoothstreaming.md)
 

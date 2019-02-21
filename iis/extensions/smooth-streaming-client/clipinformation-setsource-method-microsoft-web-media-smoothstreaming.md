@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.SetSource
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SetSource Method
@@ -35,7 +34,7 @@ Sets the source for the clip. Enables setting the clip information on the clip M
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Protected Friend Overridable Sub SetSource ( _
@@ -55,7 +54,7 @@ Me.SetSource(ssme, mediaElement, markerStringId, _
     clipLength)
 ```
 
-``` csharp
+```csharp
   protected internal virtual void SetSource(
     SmoothStreamingMediaElement ssme,
     MediaElement mediaElement,
@@ -64,7 +63,7 @@ Me.SetSource(ssme, mediaElement, markerStringId, _
 )
 ```
 
-``` c++
+```cpp
   protected public:
 virtual void SetSource(
     SmoothStreamingMediaElement^ ssme, 
@@ -74,7 +73,7 @@ virtual void SetSource(
 )
 ```
 
-``` jscript
+```jscript
  function SetSource(
     ssme : SmoothStreamingMediaElement, 
     mediaElement : MediaElement, 
@@ -83,43 +82,43 @@ virtual void SetSource(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - ssme  
-    Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)  
+    Type: [Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)  
     The [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) that will play the clip.  
 
 <!-- end list -->
 
   - mediaElement  
-    Type: [System.Windows.Controls. . :: . .MediaElement](https://msdn.microsoft.com/en-us/library/ms611595\(v=vs.90\))  
+    Type: [System.Windows.Controls.MediaElement](https://msdn.microsoft.com/library/ms611595)  
     The clip media element.  
 
 <!-- end list -->
 
   - markerStringId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     Marker string identifier of the [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md).  
 
 <!-- end list -->
 
   - clipLength  
-    Type: [System. . :: . .Int64](https://msdn.microsoft.com/en-us/library/6yy583ek\(v=vs.90\))  
+    Type: [System.Int64](https://msdn.microsoft.com/library/6yy583ek)  
     A long integer that specifies the clip length.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipInformation Class](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,5 +1,5 @@
 ---
-title: TraceEntry.Date Property  (Microsoft.Web.Media.Diagnostics)
+title: TraceEntry.Date Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Date Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.Date
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.traceentry.date(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.get_Date
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_Date
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Date Property
@@ -39,7 +38,7 @@ Gets or sets the Date property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Date As DateTime
@@ -53,11 +52,11 @@ value = instance.Date
 instance.Date = value
 ```
 
-``` csharp
+```csharp
   public DateTime Date { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property DateTime Date {
     DateTime get ();
@@ -65,33 +64,33 @@ property DateTime Date {
 }
 ```
 
-``` jscript
+```jscript
   function get Date () : DateTime
 function set Date (value : DateTime)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.90\))  
+Type: [System.DateTime](https://msdn.microsoft.com/library/03ybds8y)  
 A DateTime object that specifies the date and time of the trace entry.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TraceEntry Class](traceentry-class-microsoft-web-media-diagnostics_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "TypedElement Class | Microsoft Docs"
-ms.custom: ""
+title: "TypedElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4fc60971-e167-f204-984a-80a0eadb884f
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TypedElement Class
 Defines a filter for a trace listener.  

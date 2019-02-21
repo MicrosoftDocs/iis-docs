@@ -1,15 +1,7 @@
 ---
-title: "IWpfListenerChannelCallback::ReportStarted Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfListenerChannelCallback::ReportStarted Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8f6cbccd-addf-2518-4f9c-bad648898483
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfListenerChannelCallback::ReportStarted Method
 Notifies the worker process framework that a listener channel has started.  
@@ -22,7 +14,7 @@ virtual HRESULT ReportStarted(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

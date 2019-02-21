@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo::GetFilePath Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo::GetFilePath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3e353fe5-9c43-e137-b0e7-91c78d022f71
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo::GetFilePath Method
 Returns the physical path of the file referenced by an `IHttpFileInfo` interface.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetFilePath(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

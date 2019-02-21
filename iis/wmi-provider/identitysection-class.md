@@ -1,15 +1,7 @@
 ---
-title: "IdentitySection Class | Microsoft Docs"
-ms.custom: ""
+title: "IdentitySection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8b530f31-4cb9-0def-a2d7-b21228f0a35c
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IdentitySection Class
 Specifies whether an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application should run as the application pool identity (the default), the IIS-authenticated user identity, or a custom configured identity.  

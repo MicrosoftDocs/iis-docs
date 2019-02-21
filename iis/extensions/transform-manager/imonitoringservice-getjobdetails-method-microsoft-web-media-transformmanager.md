@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobDetails
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobDetails Method
@@ -36,7 +35,7 @@ Returns a collection of job details based on the specified filter parameters.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Function GetJobDetails ( _
@@ -61,7 +60,7 @@ returnValue = instance.GetJobDetails(status, _
     count)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 Collection<JobDetails> GetJobDetails(
     JobStatus status,
@@ -72,7 +71,7 @@ Collection<JobDetails> GetJobDetails(
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 Collection<JobDetails^>^ GetJobDetails(
     JobStatus status, 
@@ -93,7 +92,7 @@ abstract GetJobDetails :
         count:int -> Collection<JobDetails> 
 ```
 
-``` jscript
+```jscript
   function GetJobDetails(
     status : JobStatus, 
     sortField : JobDetailsField, 
@@ -103,44 +102,44 @@ abstract GetJobDetails :
 ) : Collection<JobDetails>
 ```
 
-#### Parameters
+### Parameters
 
   - status  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
     The job status that is used to filter job details.  
 
 <!-- end list -->
 
   - sortField  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetailsField](jobdetailsfield-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDetailsField](jobdetailsfield-enumeration-microsoft-web-media-transformmanager.md)  
     The field that is used to sort job detail results by.  
 
 <!-- end list -->
 
   - ascending  
-    Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
     true to specify that the job detail results are returned in ascending order; false to specify that they are returned in descending order.  
 
 <!-- end list -->
 
   - startIndex  
-    Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
     The index of the first record of sorted results to return.  
 
 <!-- end list -->
 
   - count  
-    Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
     The number of records to return.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 A collection of job details.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
 

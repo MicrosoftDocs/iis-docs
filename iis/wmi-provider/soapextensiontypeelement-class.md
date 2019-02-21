@@ -1,15 +1,7 @@
 ---
-title: "SoapExtensionTypeElement Class | Microsoft Docs"
-ms.custom: ""
+title: "SoapExtensionTypeElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c8acd16b-2eb2-4dae-a2a2-feb9f41a1ddb
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SoapExtensionTypeElement Class
 Specifies a SOAP extension used to inspect or modify a SOAP message during processing on the Web service or client.  

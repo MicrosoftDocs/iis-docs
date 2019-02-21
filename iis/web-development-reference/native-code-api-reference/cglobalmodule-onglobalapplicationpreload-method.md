@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalApplicationPreload Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalApplicationPreload Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 526c5b5d-9acf-4b5d-ac3b-ec97e57c8a7e
-caps.latest.revision: 3
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalApplicationPreload Method
 Represents a method that will handle a `GlobalApplicationPreload` event.  
@@ -20,7 +12,7 @@ Represents a method that will handle a `GlobalApplicationPreload` event.
 virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationPreload(   IN IGlobalApplicationPreloadProvider* pProvider);  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProvider`  
  [IN] A pointer to an [IGlobalApplicationPreloadProvider](../../web-development-reference\native-code-api-reference/iglobalapplicationpreloadprovider-interface.md) interface.  
   

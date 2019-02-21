@@ -1,15 +1,7 @@
 ---
-title: "IAppDomainInfoEnum::Reset Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppDomainInfoEnum::Reset Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9cfb056c-d51e-a932-9892-8d32a26d072c
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppDomainInfoEnum::Reset Method
 Initializes the [IAppDomainInfoEnum](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-interface.md) interface.  
@@ -21,7 +13,7 @@ virtual HRESULT __stdcall Reset(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

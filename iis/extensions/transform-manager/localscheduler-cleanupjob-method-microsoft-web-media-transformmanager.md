@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.LocalScheduler.CleanupJob
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CleanupJob Method
@@ -36,7 +35,7 @@ Removes scheduler artifacts for the specified job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Overrides Sub CleanupJob ( _
@@ -50,13 +49,13 @@ Dim jobInstanceId As String
 instance.CleanupJob(jobInstanceId)
 ```
 
-``` csharp
+```csharp
   public override void CleanupJob(
     string jobInstanceId
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual void CleanupJob(
     String^ jobInstanceId
@@ -70,29 +69,29 @@ override CleanupJob :
         jobInstanceId:string -> unit 
 ```
 
-``` jscript
+```jscript
   public override function CleanupJob(
     jobInstanceId : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobInstanceId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[FileLoadException](https://msdn.microsoft.com/en-us/library/99akez90(v=vs.90))|The method was unable to load a file that was created by the task scheduler when a job was submitted.|
-|[COMException](https://msdn.microsoft.com/en-us/library/02hkayhc(v=vs.90))|The method was unable to complete the transaction that was originated by the task scheduler.|
+|[FileLoadException](https://msdn.microsoft.com/library/99akez90)|The method was unable to load a file that was created by the task scheduler when a job was submitted.|
+|[COMException](https://msdn.microsoft.com/library/02hkayhc)|The method was unable to complete the transaction that was originated by the task scheduler.|
 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [LocalScheduler Class](localscheduler-class-microsoft-web-media-transformmanager.md)
 

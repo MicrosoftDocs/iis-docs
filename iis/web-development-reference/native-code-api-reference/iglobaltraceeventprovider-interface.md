@@ -1,15 +1,7 @@
 ---
-title: "IGlobalTraceEventProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalTraceEventProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2566adb1-eb89-6944-4724-f78f5277acf8
-caps.latest.revision: 31
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalTraceEventProvider Interface
 Extends the [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md) interface by providing trace events for [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes.  

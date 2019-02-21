@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ Adaptive source, single playback session.
 
 ## Syntax
 
-``` csharp
+```csharp
 [GuidAttribute(, , , , , , , , , , )]
 [VersionAttribute()]
 public interface IAdaptiveSource
 ```
 
-``` c++
+```cpp
 [GuidAttribute(, , , , , , , , , , )]
 [VersionAttribute()]
 public interface class IAdaptiveSource
 ```
 
-``` jscript
+```jscript
 public interface IAdaptiveSource
 ```
 

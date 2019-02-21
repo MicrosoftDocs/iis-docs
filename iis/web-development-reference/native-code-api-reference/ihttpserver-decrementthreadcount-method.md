@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::DecrementThreadCount Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::DecrementThreadCount Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 64ce7c5e-5eb4-74db-deba-5ad8f99b0bad
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::DecrementThreadCount Method
 Decrements the thread count for the thread pool.  
@@ -22,7 +14,7 @@ virtual VOID DecrementThreadCount(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbTableDataManager.EditRow
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbTableDataManager.EditRow Method
@@ -35,7 +34,7 @@ Modifies the data inside a table row.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Sub EditRow ( _
     connectionString As String, _
@@ -54,7 +53,7 @@ instance.EditRow(connectionString, tableName, _
     schema, columnDataInfoList)
 ```
 
-``` csharp
+```csharp
 void EditRow(
     string connectionString,
     string tableName,
@@ -63,7 +62,7 @@ void EditRow(
 )
 ```
 
-``` c++
+```cpp
 void EditRow(
     String^ connectionString, 
     String^ tableName, 
@@ -72,7 +71,7 @@ void EditRow(
 )
 ```
 
-``` jscript
+```jscript
 function EditRow(
     connectionString : String, 
     tableName : String, 
@@ -81,29 +80,29 @@ function EditRow(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
 <!-- end list -->
 
   - tableName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the table.  
 
 <!-- end list -->
 
   - schema  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the table.  
     **Note**    If schema is empty, the default schema name will be used.  
 
 <!-- end list -->
 
   - columnDataInfoList  
-    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.90\))\<[ColumnDataInfo](columndatainfo-class-microsoft-web-management-databasemanager.md)\>  
+    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6)\<[ColumnDataInfo](columndatainfo-class-microsoft-web-management-databasemanager.md)\>  
     An IList object that contains a list of [ColumnDataInfo](columndatainfo-class-microsoft-web-management-databasemanager.md) objects to modify.  
 
 ## Remarks
@@ -112,7 +111,7 @@ All database providers that implement the [IDbTableDataManager](idbtabledatamana
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider does not support modifying table data, you can use the following code sample to raise a not-implemented exception:
 
@@ -136,7 +135,7 @@ The following code sample implements the EditRow method to modify the data in a 
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     Public Sub EditRow( _
             ByVal connectionString As String, _
@@ -298,7 +297,7 @@ The following code sample implements the EditRow method to modify the data in a 
 
 ```
 
-``` csharp
+```csharp
 
 public void EditRow(string connectionString, string tableName, string schema, IList<ColumnDataInfo> columnDataInfoList)
 {
@@ -476,11 +475,11 @@ public void EditRow(string connectionString, string tableName, string schema, IL
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbTableDataManager Interface](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IHealthStatusCallback Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHealthStatusCallback Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 88486f72-a4f1-90cd-5f66-3c60f8ab8fe3
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHealthStatusCallback Interface
 Allows a protocol manager, to which this interface is passed by the worker process framework, to report its current health status.  

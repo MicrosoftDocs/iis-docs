@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PlaybackTrackChanged
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.PlaybackTrackChanged Event
@@ -38,7 +37,7 @@ Occurs when the currently playing track changes.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Event PlaybackTrackChanged As EventHandler(Of TrackChangedEventArgs)
@@ -50,11 +49,11 @@ Dim handler As EventHandler(Of TrackChangedEventArgs)
 AddHandler instance.PlaybackTrackChanged, handler
 ```
 
-``` csharp
+```csharp
 public event EventHandler<TrackChangedEventArgs> PlaybackTrackChanged
 ```
 
-``` c++
+```cpp
 public:
  event EventHandler<TrackChangedEventArgs^>^ PlaybackTrackChanged {
     void add (EventHandler<TrackChangedEventArgs^>^ value);
@@ -67,7 +66,7 @@ member PlaybackTrackChanged : <EventHandler<TrackChangedEventArgs>,
     TrackChangedEventArgs>
 ```
 
-``` jscript
+```jscript
 JScript supports the use of events, but not the declaration of new ones.
 ```
 
@@ -88,17 +87,17 @@ Bit-rate changes invoke the PlaybackTrackChanged event. Applications can monitor
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -19,11 +19,9 @@ The [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanag
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[PropertyElementName](manifestproperty-propertyelementname-field-microsoft-web-media-transformmanager.md)|The string "property".|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

@@ -1,5 +1,5 @@
 ---
-title: JobDetails.Progress Property  (Microsoft.Web.Media.TransformManager)
+title: JobDetails.Progress Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Progress Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.Progress
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.progress(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.get_Progress
 - Microsoft.Web.Media.TransformManager.JobDetails.Progress
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Progress Property
@@ -40,7 +39,7 @@ Gets or sets the percentage complete of the job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property Progress As Integer
@@ -56,12 +55,12 @@ value = instance.Progress
 instance.Progress = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public int Progress { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property int Progress {
@@ -75,19 +74,19 @@ property int Progress {
 member Progress : int with get, set
 ```
 
-``` jscript
+```jscript
   function get Progress () : int
 function set Progress (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The percentage complete.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "ObjectConfigurationAssociation Class | Microsoft Docs"
-ms.custom: ""
+title: "ObjectConfigurationAssociation Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c67f2a8d-efac-9e05-784d-82333e1017d5
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ObjectConfigurationAssociation Class
 Associates a configured object with its configuration section.  

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigLocationCollection::DeleteLocation Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigLocationCollection::DeleteLocation Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 45a0a7e3-d276-3522-a2cf-3fe99417996c
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigLocationCollection::DeleteLocation Method
 Removes a configuration location from the collection.  
@@ -22,7 +14,7 @@ HRESULT DeleteLocation(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `cIndex`  
  A `VARIANT` that contains the index of the configuration location to remove. The index can contain a `BSTR` that specifies the location path.  
   

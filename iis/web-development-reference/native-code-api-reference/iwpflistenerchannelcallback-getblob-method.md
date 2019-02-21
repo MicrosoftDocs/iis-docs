@@ -1,15 +1,7 @@
 ---
-title: "IWpfListenerChannelCallback::GetBlob Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfListenerChannelCallback::GetBlob Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 31afe7e7-b508-326a-3770-485b4429c29f
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfListenerChannelCallback::GetBlob Method
 Retrieves data that the protocol manager will pass to a listener channel when the protocol manager is starting a listener channel.  
@@ -23,7 +15,7 @@ virtual HRESULT GetBlob(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pBlob`  
  A pointer to a `BYTE` buffer that contains data that will be passed to the listener channel.  
   

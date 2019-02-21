@@ -1,15 +1,7 @@
 ---
-title: "IMapPathProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IMapPathProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e4fbca50-3c9a-35c2-a23a-55c50e650886
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IMapPathProvider Interface
 Retrieves information about a path that is being physically mapped.  

@@ -1,15 +1,7 @@
 ---
-title: "TraceAreaElement Class | Microsoft Docs"
-ms.custom: ""
+title: "TraceAreaElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 886766c8-3b3c-14f3-9633-0443a6497a9c
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TraceAreaElement Class
 Specifies criteria for generating trace events and configures the content of log file entries.  

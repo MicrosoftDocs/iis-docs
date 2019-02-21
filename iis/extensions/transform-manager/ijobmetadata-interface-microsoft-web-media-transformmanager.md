@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IJobMetadata
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IJobMetadata Interface
@@ -36,7 +35,7 @@ Represents an interface that defines an object that is passed to the task throug
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Interface IJobMetadata
@@ -45,11 +44,11 @@ Represents an interface that defines an object that is passed to the task throug
   Dim instance As IJobMetadata
 ```
 
-``` csharp
+```csharp
   public interface IJobMetadata
 ```
 
-``` c++
+```cpp
   public interface class IJobMetadata
 ```
 
@@ -57,7 +56,7 @@ Represents an interface that defines an object that is passed to the task throug
   type IJobMetadata =  interface end
 ```
 
-``` jscript
+```jscript
   public interface IJobMetadata
 ```
 
@@ -76,8 +75,6 @@ The IJobMetadata type exposes the following members.
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Status](ijobmetadata-status-property-microsoft-web-media-transformmanager.md)|Gets or sets the status of an ongoing transform.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskElement](ijobmetadata-taskelement-property-microsoft-web-media-transformmanager.md)|Gets the task element from the manifest.|
 
-Top
-
 ## Methods
 
 ||Name|Description|
@@ -86,15 +83,13 @@ Top
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[SetProperty](ijobmetadata-setproperty-method-microsoft-web-media-transformmanager.md)|Sets a property value in the task resource description framework (RDF) metadata section in the manifest.|
 
 
-Top
-
 ## Remarks
 
 This object contains the metadata that is required by the task. The [SetProperty(IManifestProperty)](ijobmetadata-setproperty-method-microsoft-web-media-transformmanager.md) and [GetProperty(XName)](ijobmetadata-getproperty-method-microsoft-web-media-transformmanager.md) methods can access metadata that is stored in the task resource description framework (RDF) metadata section in the manifest. The [TaskMetadata](jobmetadata-taskmetadata-property-microsoft-web-media-transformmanager.md) property provides read-only access to the task-specific metadata that was provided in the synchronized multimedia interface language (SMIL) manifest, which simplifies access to the task metadata stored in the manifest. This same metadata can also be accessed by reading the [Manifest](ijobmetadata-manifest-property-microsoft-web-media-transformmanager.md) property.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

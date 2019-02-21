@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheSpecificData::DecrementTTL Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheSpecificData::DecrementTTL Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 71fef368-1f35-a42d-35eb-8a053fd03bd9
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheSpecificData::DecrementTTL Method
 Decrements the Time-to-Live (TTL) setting of the cached data.  
@@ -22,7 +14,7 @@ virtual VOID DecrementTTL(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfTTLExpired`  
  [OUT] `true` to indicate that the TTL count has reached 0; otherwise, `false`.  
   

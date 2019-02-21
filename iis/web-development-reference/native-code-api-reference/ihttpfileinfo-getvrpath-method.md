@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo::GetVrPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo::GetVrPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ac22a82f-31dc-f432-2fe0-9e816e439d91
-caps.latest.revision: 28
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo::GetVrPath Method
 Returns the virtual path for the corresponding file.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetVrPath(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

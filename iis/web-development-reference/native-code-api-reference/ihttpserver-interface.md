@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6a25d9f5-f358-932f-8cc9-8edd6928761b
-caps.latest.revision: 28
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer Interface
 Represents the processing context for global-level operations.  

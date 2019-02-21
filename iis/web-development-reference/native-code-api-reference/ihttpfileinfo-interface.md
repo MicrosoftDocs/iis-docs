@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 82e00c1a-d54d-64d2-465b-581234ab0d24
-caps.latest.revision: 38
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo Interface
 Extends the [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md) interface by adding file-specific information for files that are cached on a server.  

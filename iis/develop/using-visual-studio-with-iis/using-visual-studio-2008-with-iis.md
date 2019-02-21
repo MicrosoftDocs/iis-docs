@@ -48,7 +48,7 @@ While both options allow you to create Web applications and publish them to an I
 - The Web application project option requires the source application files to be located on the local file system, or, on a network share. However, you can subsequently publish the Web application to a remote IIS Web site by using a network share, FTP, or Front Page Server Extensions.
 - The Web site project option allows you to connect directly to a local IIS Web site, or to a remote IIS Web site by using a network share, FTP, or Front Page Server Extensions. With the Web site project, you work directly with the content of your IIS Web site and there is no project file.
 
-You can find the detailed explanation of the two models and their differences in [https://msdn.microsoft.com/en-us/library/aa730880(VS.80).aspx](https://msdn.microsoft.com/en-us/library/aa730880(VS.80).aspx).
+You can find the detailed explanation of the two models and their differences in [https://msdn.microsoft.com/library/aa730880(VS.80).aspx](https://msdn.microsoft.com/library/aa730880(VS.80).aspx).
 
 > [!NOTE]
 > Visual Studio 2008 provides the options to create a New project and Open an existing project. This does not necessarily mean that you must create a new IIS Web application project or open an existing application project – you can use either of the options with an existing IIS Web application.
@@ -237,11 +237,11 @@ First, you must open the remote IIS Web site or application project using the **
 
 In order to successfully debug a remote application, you must also meet the following requirements:
 
-1. Install the Remote Debugging components on the server machine. For more information, see [How to: Set Up Remote Debugging](https://msdn.microsoft.com/en-us/library/bt727f1t.aspx).
+1. Install the Remote Debugging components on the server machine. For more information, see [How to: Set Up Remote Debugging](https://msdn.microsoft.com/library/bt727f1t.aspx).
 2. Run the Remote Debugging monitor (msvsmon.exe) on the server machine. See further notes about how to do this properly.
 3. Open the required firewall ports for remote debugging.  
 
-    When you run msvsmon.exe for the first time on the remote machine, it warns you if the ports are not open, and offers to open them automatically. If you want to configure the firewall manually or to see which ports are opened, see [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://msdn.microsoft.com/en-us/library/bb385831.aspx).
+    When you run msvsmon.exe for the first time on the remote machine, it warns you if the ports are not open, and offers to open them automatically. If you want to configure the firewall manually or to see which ports are opened, see [How to: Manually Configure the Windows Vista Firewall for Remote Debugging](https://msdn.microsoft.com/library/bb385831.aspx).
 4. If you are using a Web application project and publishing to a remote IIS server, or if you have opened the remote Web site project using the **File System** or **FTP Site** options, you must configure the Visual Studio project start options to enable debugging. To do this for a Web site project, right-click on the Web site project node, and then chose **Start Options**. In the dialog, select the **Use custom server** option and type in the base URL of your Web application on the remote server.  
 
     For a Web application project, right-click on the project node, chose **Properties**, and the click the **Web** tab. In the **Web** tab, select the **Use IIS Web server** option and type in the base URL of your Web application on the remote server.

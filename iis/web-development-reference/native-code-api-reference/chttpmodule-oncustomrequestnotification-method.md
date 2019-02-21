@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnCustomRequestNotification Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnCustomRequestNotification Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6df88fb0-5384-5777-8b7f-6cdf04c07b7e
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnCustomRequestNotification Method
 Represents the method that will handle a custom event, which occurs when a module raises a user-defined notification.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnCustomRequestNotification(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

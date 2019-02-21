@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalApplicationResolveModules Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalApplicationResolveModules Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d9983f8d-2021-1023-a44b-14239ade72a5
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalApplicationResolveModules Method
 Represents the method that will handle a `GlobalApplicationResolveModules` event, which occurs when IIS resolves the registered modules.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationResolveModules(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProvider`  
  [IN] A pointer to an [IHttpApplicationResolveModulesProvider](../../web-development-reference\native-code-api-reference/ihttpapplicationresolvemodulesprovider-interface.md) interface.  
   

@@ -30,11 +30,9 @@ The [IisNamespaces](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[TaskDefinitionNamespace](iisnamespaces-taskdefinitionnamespace-property-microsoft-web-media-transformmanager.md)|Gets the URI of an XML namespace that is related to task definitions.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[Xmlns](iisnamespaces-xmlns-property-microsoft-web-media-transformmanager.md)|Gets a URL to an XML namespace that is related to XML namespaces.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IisNamespaces Class](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 

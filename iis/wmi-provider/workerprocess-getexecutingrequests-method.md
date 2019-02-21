@@ -1,15 +1,7 @@
 ---
-title: "WorkerProcess.GetExecutingRequests Method2 | Microsoft Docs"
-ms.custom: ""
+title: "WorkerProcess.GetExecutingRequests Method2"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9eeefc8d-cb05-4481-b113-e0b623f91941
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WorkerProcess.GetExecutingRequests Method2
 Gets the requests that are currently assigned to a worker process.  
@@ -24,7 +16,7 @@ objWorkerProcess.GetExecutingRequests(RequestArray);
 objWorkerProcess.GetExecutingRequests RequestArray  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Definition|  
 |----------|----------------|  

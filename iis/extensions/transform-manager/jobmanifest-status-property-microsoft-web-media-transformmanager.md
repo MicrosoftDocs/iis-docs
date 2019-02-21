@@ -1,5 +1,5 @@
 ---
-title: JobManifest.Status Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.Status Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Status Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Status
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.status(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_Status
 - Microsoft.Web.Media.TransformManager.JobManifest.Status
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Status Property
@@ -40,7 +39,7 @@ Gets or sets the status value from the manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Status As String
@@ -56,11 +55,11 @@ value = instance.Status
 instance.Status = value
 ```
 
-``` csharp
+```csharp
   public string Status { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ Status {
     String^ get ();
@@ -72,19 +71,19 @@ property String^ Status {
   member Status : string with get, set
 ```
 
-``` jscript
+```jscript
   function get Status () : String
 function set Status (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The status value from the manifest.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

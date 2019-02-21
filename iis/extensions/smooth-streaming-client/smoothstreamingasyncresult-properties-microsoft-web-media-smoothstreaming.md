@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # SmoothStreamingAsyncResult Properties
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [SmoothStreamingAsyncResult](smoothstreamingasyncresult-class-microsoft-web-media-smoothstreaming.md) type exposes the following members.
 
 ## Properties
@@ -28,11 +22,9 @@ The [SmoothStreamingAsyncResult](smoothstreamingasyncresult-class-microsoft-web-
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[IsCompleted](smoothstreamingasyncresult-iscompleted-property-microsoft-web-media-smoothstreaming.md)|Gets a Boolean value that indicates whether the operation has completed.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Result](smoothstreamingasyncresult-result-property-microsoft-web-media-smoothstreaming.md)|Returns the result of calling [EndGetChunk(IAsyncResult)](trackinfo-endgetchunk-method-microsoft-web-media-smoothstreaming_1.md).|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingAsyncResult Class](smoothstreamingasyncresult-class-microsoft-web-media-smoothstreaming.md)
 

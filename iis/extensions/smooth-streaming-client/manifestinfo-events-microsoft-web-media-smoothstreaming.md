@@ -20,11 +20,9 @@ The [ManifestInfo](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md) 
 |![Public event](images/Ff728262.pubevent(en-us,VS.90).gif "Public event")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[SelectStreamsCompleted](manifestinfo-selectstreamscompleted-event-microsoft-web-media-smoothstreaming_1.md)|Event activated when a [SelectStreamsAsync](segmentinfo-selectstreamsasync-method-microsoft-web-media-smoothstreaming_1.md) call has completed in any of the segments contained in [Segments](manifestinfo-segments-property-microsoft-web-media-smoothstreaming_1.md).|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

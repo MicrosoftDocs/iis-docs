@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipMediaElementStyleProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ClipMediaElementStyleProperty Field
@@ -36,7 +35,7 @@ Represents a dependency property that specifies the [ClipMediaElementStyle](smoo
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared ReadOnly ClipMediaElementStyleProperty As DependencyProperty
@@ -47,11 +46,11 @@ Dim value As DependencyProperty
 value = SmoothStreamingMediaElement.ClipMediaElementStyleProperty
 ```
 
-``` csharp
+```csharp
 public static readonly DependencyProperty ClipMediaElementStyleProperty
 ```
 
-``` c++
+```cpp
 public:
 static initonly DependencyProperty^ ClipMediaElementStyleProperty
 ```
@@ -60,19 +59,19 @@ static initonly DependencyProperty^ ClipMediaElementStyleProperty
 static val ClipMediaElementStyleProperty: DependencyProperty
 ```
 
-``` jscript
+```jscript
 public static final var ClipMediaElementStyleProperty : DependencyProperty
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

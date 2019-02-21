@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.SchedulerProvider.LoadSchedulerInfoObjects
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LoadSchedulerInfoObjects Method
@@ -36,7 +35,7 @@ Loads a collection of [SchedulerInfo](schedulerinfo-class-microsoft-web-media-tr
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Sub LoadSchedulerInfoObjects ( _
@@ -49,13 +48,13 @@ Loads a collection of [SchedulerInfo](schedulerinfo-class-microsoft-web-media-tr
 SchedulerProvider.LoadSchedulerInfoObjects(schedulers)
 ```
 
-``` csharp
+```csharp
   public static void LoadSchedulerInfoObjects(
     Collection<JobScheduler> schedulers
 )
 ```
 
-``` c++
+```cpp
   public:
 static void LoadSchedulerInfoObjects(
     Collection<JobScheduler^>^ schedulers
@@ -67,28 +66,28 @@ static void LoadSchedulerInfoObjects(
         schedulers:Collection<JobScheduler> -> unit 
 ```
 
-``` jscript
+```jscript
   public static function LoadSchedulerInfoObjects(
     schedulers : Collection<JobScheduler>
 )
 ```
 
-#### Parameters
+### Parameters
 
   - schedulers  
-    Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+    Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
     A collection of [JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md) objects.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[ArgumentNullException](https://msdn.microsoft.com/en-us/library/27426hcy(v=vs.90))|schedulers is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
+|[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|schedulers is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SchedulerProvider Class](schedulerprovider-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "VirtualDirectory.RevertToParent Method2 | Microsoft Docs"
-ms.custom: ""
+title: "VirtualDirectory.RevertToParent Method2"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4cae86e8-cbbf-4e0b-a0aa-f32d32412e25
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # VirtualDirectory.RevertToParent Method2
 Reverts a virtual directory's configuration value or values to the default.  
@@ -24,7 +16,7 @@ VirtualDirectory.RevertToParent(PropertyName)
 VirtualDirectory.RevertToParent(PropertyName);  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  

@@ -1,15 +1,7 @@
 ---
-title: "AdapterElement Class | Microsoft Docs"
-ms.custom: ""
+title: "AdapterElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: aa15b851-545b-4310-8012-1caf9dc44090
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AdapterElement Class
 Maps an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] mobile control to a specific device adapter.  

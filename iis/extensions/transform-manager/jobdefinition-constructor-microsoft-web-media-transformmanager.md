@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.JobDefinition
 - Microsoft.Web.Media.TransformManager.JobDefinition.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
@@ -30,11 +30,9 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[JobDefinition(FileInfo, XElement)](jobdefinition-constructor-fileinfo-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) class using the specified file and job definition information.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

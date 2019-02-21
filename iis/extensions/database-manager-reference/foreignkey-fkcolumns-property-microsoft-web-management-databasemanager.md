@@ -1,5 +1,5 @@
 ---
-title: ForeignKey.FKColumns Property  (Microsoft.Web.Management.DatabaseManager)
+title: ForeignKey.FKColumns Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: FKColumns Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.FKColumns
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.foreignkey.fkcolumns(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.FKColumns
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.get_FKColumns
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ForeignKey.FKColumns Property
@@ -37,7 +36,7 @@ Retrieves a list of foreign key columns.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public ReadOnly Property FKColumns As IList(Of ForeignKeyColumn)
 'Usage
@@ -47,24 +46,24 @@ Dim value As IList(Of ForeignKeyColumn)
 value = instance.FKColumns
 ```
 
-``` csharp
+```csharp
 public IList<ForeignKeyColumn> FKColumns { get; }
 ```
 
-``` c++
+```cpp
 public:
 property IList<ForeignKeyColumn^>^ FKColumns {
     IList<ForeignKeyColumn^>^ get ();
 }
 ```
 
-``` jscript
+```jscript
 function get FKColumns () : IList<ForeignKeyColumn>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.90\))\<[ForeignKeyColumn](foreignkeycolumn-class-microsoft-web-management-databasemanager.md)\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6)\<[ForeignKeyColumn](foreignkeycolumn-class-microsoft-web-management-databasemanager.md)\>  
 An IList interface that contains the list of [ForeignKeyColumn](foreignkeycolumn-class-microsoft-web-management-databasemanager.md) objects.  
 
 ## Examples
@@ -76,7 +75,7 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     ' Retrieve the information about a table.
     Public Function GetTableInfo( _
@@ -296,7 +295,7 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve the information about a table.
         public TableInfo GetTableInfo(string connectionString, string tableName, string schema)
@@ -491,11 +490,11 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ForeignKey Class](foreignkey-class-microsoft-web-management-databasemanager.md)
 

@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.FlushBuffers
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.FlushBuffers Method
@@ -36,7 +35,7 @@ Flushes audio and video buffers, retaining a specified amount of content if poss
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub FlushBuffers ( _
@@ -55,7 +54,7 @@ instance.FlushBuffers(bufferToKeep, flushAudio, _
     flushVideo)
 ```
 
-``` csharp
+```csharp
 public void FlushBuffers(
     TimeSpan bufferToKeep,
     bool flushAudio,
@@ -63,7 +62,7 @@ public void FlushBuffers(
 )
 ```
 
-``` c++
+```cpp
 public:
 void FlushBuffers(
     TimeSpan bufferToKeep, 
@@ -79,7 +78,7 @@ member FlushBuffers :
         flushVideo:bool -> unit 
 ```
 
-``` jscript
+```jscript
 public function FlushBuffers(
     bufferToKeep : TimeSpan, 
     flushAudio : boolean, 
@@ -87,37 +86,37 @@ public function FlushBuffers(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - bufferToKeep  
-    Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))  
+    Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))  
     An object that specifies how much of a buffer to retain.
 
 <!-- end list -->
 
   - flushAudio  
-    Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
     true to flush the audio buffer; otherwise, false.
 
 <!-- end list -->
 
   - flushVideo  
-    Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
     true to flush the video buffer; otherwise, false.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

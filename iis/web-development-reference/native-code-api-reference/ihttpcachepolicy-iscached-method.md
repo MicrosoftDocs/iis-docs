@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy::IsCached Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy::IsCached Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c79e046a-5fd3-58d7-7962-1ff4120a06b3
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy::IsCached Method
 Returns a value that indicates whether the cache policy is enabled.  
@@ -22,7 +14,7 @@ virtual BOOL IsCached(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestPropertiesDictionary Constructor
@@ -34,7 +33,7 @@ Initializes a new instance of the [ManifestPropertiesDictionary](manifestpropert
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New
@@ -43,11 +42,11 @@ Initializes a new instance of the [ManifestPropertiesDictionary](manifestpropert
 Dim instance As New ManifestPropertiesDictionary()
 ```
 
-``` csharp
+```csharp
   public ManifestPropertiesDictionary()
 ```
 
-``` c++
+```cpp
   public:
 ManifestPropertiesDictionary()
 ```
@@ -56,13 +55,13 @@ ManifestPropertiesDictionary()
   new : unit -> ManifestPropertiesDictionary
 ```
 
-``` jscript
+```jscript
   public function ManifestPropertiesDictionary()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestPropertiesDictionary Class](manifestpropertiesdictionary-class-microsoft-web-media-transformmanager.md)
 

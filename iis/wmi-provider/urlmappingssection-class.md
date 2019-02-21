@@ -1,15 +1,7 @@
 ---
-title: "UrlMappingsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "UrlMappingsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ba5da9be-ac31-816e-6074-d3578b432a13
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # UrlMappingsSection Class
 Represents a `<urlMappings>` section that contains pairs of inbound/outbound URL mappings.  

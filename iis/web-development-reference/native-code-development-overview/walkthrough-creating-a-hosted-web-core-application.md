@@ -1,15 +1,7 @@
 ---
-title: "Walkthrough: Creating a Hosted Web Core Application | Microsoft Docs"
-ms.custom: ""
+title: "Walkthrough: Creating a Hosted Web Core Application"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d59ceebe-e5dc-4e2d-a95d-cb98ad8ca331
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Walkthrough: Creating a Hosted Web Core Application
 This walkthrough demonstrates how to create a Windows console application that uses the Hosted Web Core features that are available in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)].  
@@ -39,7 +31,7 @@ This walkthrough demonstrates how to create a Windows console application that u
 -   [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
   
 > [!NOTE]
->  You may also use Visual Studio .NET 2003 or earlier, although the walkthrough steps may not be identical.  
+> You may also use Visual Studio .NET 2003 or earlier, although the walkthrough steps may not be identical.  
   
 ## Creating a Hosted Web Core Application  
  In this part of the walkthrough, you will create a C++ console application project for your application.  
@@ -104,7 +96,7 @@ This walkthrough demonstrates how to create a Windows console application that u
  This section shows how to replace the code that was automatically added to your C++ file with code that will run the Hosted Web Core.  
   
 > [!NOTE]
->  This example looks for a file named HostedWebTest.config in your Inetsrv folder. You can modify the path and file name, but you must provide a valid configuration file. For more information about how to create a configuration file for your application, see [Walkthrough: Creating a Configuration File for Hosted Web Core](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-configuration-file-for-hosted-web-core.md).  
+> This example looks for a file named HostedWebTest.config in your Inetsrv folder. You can modify the path and file name, but you must provide a valid configuration file. For more information about how to create a configuration file for your application, see [Walkthrough: Creating a Configuration File for Hosted Web Core](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-configuration-file-for-hosted-web-core.md).  
   
 #### To add the C++ code for your application  
   
@@ -120,7 +112,7 @@ This walkthrough demonstrates how to create a Windows console application that u
  After creating and saving your C++ file, the next step is to compile and test your application.  
   
 > [!NOTE]
->  If you do not compile your application on a computer that has [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] installed, you will have to copy the HostedWebTest.exe file to a computer that has [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] installed before you test the application.  
+> If you do not compile your application on a computer that has [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] installed, you will have to copy the HostedWebTest.exe file to a computer that has [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] installed before you test the application.  
   
 #### To compile and test your application  
   

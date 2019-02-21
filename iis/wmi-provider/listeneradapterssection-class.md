@@ -1,15 +1,7 @@
 ---
-title: "ListenerAdaptersSection Class | Microsoft Docs"
-ms.custom: ""
+title: "ListenerAdaptersSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1099c91e-cb93-fa4d-c7f4-b7abfe8cb6e5
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ListenerAdaptersSection Class
 Exposes a collection of listener adapters.  

@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::NotifyCustomNotification Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::NotifyCustomNotification Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fa61640c-8bb4-fb19-c69e-7219a3260fca
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::NotifyCustomNotification Method
 Raises a custom global-level notification.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS NotifyCustomNotification(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pCustomOutput`  
  A pointer to an [ICustomNotificationProvider](../../web-development-reference\native-code-api-reference/icustomnotificationprovider-interface.md).  
   

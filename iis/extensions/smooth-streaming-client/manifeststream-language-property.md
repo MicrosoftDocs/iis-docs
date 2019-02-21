@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the stream 'Language' field.
 
 ## Syntax
 
-``` csharp
+```csharp
 public string Language { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property String^ Language {
 String^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get Language () : String
 ```
 

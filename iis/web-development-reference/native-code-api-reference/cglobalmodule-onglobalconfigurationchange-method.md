@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalConfigurationChange Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalConfigurationChange Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: efed83da-974b-a67b-9e66-86061b8629a7
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalConfigurationChange Method
 Represents the method that will handle a `GlobalConfigurationChange` event, which occurs when a change is made to a configuration file.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalConfigurationChange(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProvider`  
  [IN] A pointer to an [IGlobalConfigurationChangeProvider](../../web-development-reference\native-code-api-reference/iglobalconfigurationchangeprovider-interface.md) interface.  
   

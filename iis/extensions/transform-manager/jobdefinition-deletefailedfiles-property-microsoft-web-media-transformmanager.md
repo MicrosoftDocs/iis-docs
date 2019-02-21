@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.DeleteFailedFiles Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.DeleteFailedFiles Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: DeleteFailedFiles Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.DeleteFailedFiles
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.deletefailedfiles(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_DeleteFailedFiles
 - Microsoft.Web.Media.TransformManager.JobDefinition.DeleteFailedFiles
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DeleteFailedFiles Property
@@ -40,7 +39,7 @@ Gets or sets a value that indicates whether asset files for failed jobs should b
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property DeleteFailedFiles As Boolean
@@ -56,12 +55,12 @@ value = instance.DeleteFailedFiles
 instance.DeleteFailedFiles = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public bool DeleteFailedFiles { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property bool DeleteFailedFiles {
@@ -75,14 +74,14 @@ property bool DeleteFailedFiles {
 member DeleteFailedFiles : bool with get, set
 ```
 
-``` jscript
+```jscript
   function get DeleteFailedFiles () : boolean
 function set DeleteFailedFiles (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the asset files for failed jobs are deleted, or false if the asset files for failed jobs are retained.  
 
 ## Remarks
@@ -91,7 +90,7 @@ The [AssetRetentionPeriodMinutes](jobdefinition-assetretentionperiodminutes-prop
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

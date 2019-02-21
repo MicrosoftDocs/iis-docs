@@ -1,15 +1,7 @@
 ---
-title: "IAppDomainInfo::GetSiteId Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppDomainInfo::GetSiteId Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0ac73a5c-9e63-0b28-f2d7-235b937b2e91
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppDomainInfo::GetSiteId Method
 Retrieves the site ID of the application domain.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall GetSiteId(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pdwSiteId`  
  A pointer to a `DWORD` that contains the site ID of the application domain.  
   

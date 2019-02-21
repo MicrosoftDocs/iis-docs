@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::GetHeaderChanges Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::GetHeaderChanges Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 635f6d30-ce86-e613-cf4b-cc36320c8c2d
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::GetHeaderChanges Method
 Retrieves the changes to the server headers for the current request.  
@@ -30,7 +22,7 @@ virtual HRESULT GetHeaderChanges(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwOldChangeNumber`  
  [IN] A `DWORD` that contains the old change number.  
   

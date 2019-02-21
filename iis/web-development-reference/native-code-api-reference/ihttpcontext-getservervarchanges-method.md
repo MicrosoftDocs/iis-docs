@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetServerVarChanges Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetServerVarChanges Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f5f8d53a-43dd-2c55-8d7a-eb46d27ef001
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetServerVarChanges Method
 Retrieves the changes to the server variables for the current context.  
@@ -28,7 +20,7 @@ virtual HRESULT GetServerVarChanges(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwOldChangeNumber`  
  [IN] A `DWORD` that contains the old change number.  
   

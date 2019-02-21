@@ -18,17 +18,17 @@ The following table represents the interfaces used to develop custom playlist pr
 
 |Interface|Description|
 |--- |--- |
-|[IPlaylistProvider Interface](https://msdn.microsoft.com/en-us/library/dd146285(v=vs.90))|Serves as the root interface for a custom playlist provider. This interface provides access to initialization and shutdown routines for a provider.|
-|[IPlaylistRequestInfo Interface](https://msdn.microsoft.com/en-us/library/dd146293(v=vs.90))|Represents the current playlist request. Enables custom providers to get and set server variables, the URI of the request, and playlist file information if the playlist is file-based.|
-|[IPlaylistInfo Interface](https://msdn.microsoft.com/en-us/library/dd146255(v=vs.90))|Defines an empty playlist that contains a collection of playlist entries in the form of an IPlaylistEntryInfoCollection Interface.|
-|[IPlaylistEntryInfo Interface](https://msdn.microsoft.com/en-us/library/dd146268(v=vs.90))|Represents individual entries in a playlist.|
-|[IPlaylistEntryInfoCollection Interface](https://msdn.microsoft.com/en-us/library/dd146264(v=vs.90))|Allows a custom provider to traverse a list of playlist entries in the form of IPlaylistEntryInfo Interface info objects.|
-|[IPlaylistFileInfo Interface](https://msdn.microsoft.com/en-us/library/dd146277(v=vs.90))|Provides access to properties of file-based playlists.|
+|[IPlaylistProvider Interface](https://msdn.microsoft.com/library/dd146285)|Serves as the root interface for a custom playlist provider. This interface provides access to initialization and shutdown routines for a provider.|
+|[IPlaylistRequestInfo Interface](https://msdn.microsoft.com/library/dd146293)|Represents the current playlist request. Enables custom providers to get and set server variables, the URI of the request, and playlist file information if the playlist is file-based.|
+|[IPlaylistInfo Interface](https://msdn.microsoft.com/library/dd146255)|Defines an empty playlist that contains a collection of playlist entries in the form of an IPlaylistEntryInfoCollection Interface.|
+|[IPlaylistEntryInfo Interface](https://msdn.microsoft.com/library/dd146268)|Represents individual entries in a playlist.|
+|[IPlaylistEntryInfoCollection Interface](https://msdn.microsoft.com/library/dd146264)|Allows a custom provider to traverse a list of playlist entries in the form of IPlaylistEntryInfo Interface info objects.|
+|[IPlaylistFileInfo Interface](https://msdn.microsoft.com/library/dd146277)|Provides access to properties of file-based playlists.|
 
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [IIS Web Playlists](iis-web-playlists.md)
 

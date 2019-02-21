@@ -1,15 +1,7 @@
 ---
-title: "IGlobalRSCAQueryProvider::GetFunctionParameters Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalRSCAQueryProvider::GetFunctionParameters Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 66f47e85-f9ad-b65a-aa82-9372115f9f82
-caps.latest.revision: 27
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalRSCAQueryProvider::GetFunctionParameters Method
 Returns the parameters of the dynamic function call that caused the event.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetFunctionParameters(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

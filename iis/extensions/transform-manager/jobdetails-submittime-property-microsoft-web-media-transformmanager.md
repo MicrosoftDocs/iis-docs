@@ -1,5 +1,5 @@
 ---
-title: JobDetails.SubmitTime Property  (Microsoft.Web.Media.TransformManager)
+title: JobDetails.SubmitTime Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SubmitTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.SubmitTime
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.submittime(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.set_SubmitTime
 - Microsoft.Web.Media.TransformManager.JobDetails.get_SubmitTime
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SubmitTime Property
@@ -40,7 +39,7 @@ Gets or sets the time that the job was submitted to the scheduler.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property SubmitTime As DateTime
@@ -56,12 +55,12 @@ value = instance.SubmitTime
 instance.SubmitTime = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public DateTime SubmitTime { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property DateTime SubmitTime {
@@ -75,19 +74,19 @@ property DateTime SubmitTime {
 member SubmitTime : DateTime with get, set
 ```
 
-``` jscript
+```jscript
   function get SubmitTime () : DateTime
 function set SubmitTime (value : DateTime)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.90\))  
+Type: [System.DateTime](https://msdn.microsoft.com/library/03ybds8y)  
 The time that the job was submitted to the scheduler.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

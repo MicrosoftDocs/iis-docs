@@ -28,11 +28,9 @@ The [Tracing](tracing-class-microsoft-web-media-diagnostics_1.md) type exposes t
 |![Public field](images/Ee532524.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TraceHistoryMaxLines](tracing-tracehistorymaxlines-field-microsoft-web-media-diagnostics_1.md)|Maximum trace history size in number of lines.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

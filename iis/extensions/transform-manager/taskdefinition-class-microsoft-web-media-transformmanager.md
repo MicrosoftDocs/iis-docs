@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskDefinition
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskDefinition Class
@@ -33,8 +32,8 @@ Represents a single task that defines a transformation process.
 
 ## Inheritance Hierarchy
 
-[System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
-  [Microsoft.Web.Media.TransformManager. . :: . .ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md)  
+[System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
+  [Microsoft.Web.Media.TransformManager.ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md)  
     Microsoft.Web.Media.TransformManager..::..TaskDefinition  
 
 **Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
@@ -42,7 +41,7 @@ Represents a single task that defines a transformation process.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <SerializableAttribute> _
 <DataContractAttribute> _
@@ -53,13 +52,13 @@ Public Class TaskDefinition _
   Dim instance As TaskDefinition
 ```
 
-``` csharp
+```csharp
 [SerializableAttribute]
 [DataContractAttribute]
 public class TaskDefinition : ConfigurationBase
 ```
 
-``` c++
+```cpp
 [SerializableAttribute]
 [DataContractAttribute]
 public ref class TaskDefinition : public ConfigurationBase
@@ -74,7 +73,7 @@ type TaskDefinition =
     end
 ```
 
-``` jscript
+```jscript
   public class TaskDefinition extends ConfigurationBase
 ```
 
@@ -86,8 +85,6 @@ The TaskDefinition type exposes the following members.
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[TaskDefinition(FileInfo, XElement)](taskdefinition-constructor-fileinfo-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the TaskDefinition class by using the specified file information and task definition.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[TaskDefinition(FileInfo, XElement, XElement)](taskdefinition-constructor-fileinfo-xelement-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the TaskDefinition class by using the specified file information, task definition, and default task definition.|
-
-Top
 
 ## Properties
 
@@ -119,10 +116,8 @@ Top
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[PropertyNamespacePrefix](taskdefinition-propertynamespaceprefix-property-microsoft-web-media-transformmanager.md)|Gets or sets a prefix for the property namespace of the current task.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[SuccessCodes](taskdefinition-successcodes-property-microsoft-web-media-transformmanager.md)|Gets or sets a set of codes that indicate whether the task completed successfully.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskCodeType](taskdefinition-taskcodetype-property-microsoft-web-media-transformmanager.md)|Gets or sets the task type.|
-|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskDefinitionElement](taskdefinition-taskdefinitionelement-property-microsoft-web-media-transformmanager.md)|Gets or sets the [XElement](https://msdn.microsoft.com/en-us/library/bb340098(v=vs.90)) object container of the template file.|
+|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskDefinitionElement](taskdefinition-taskdefinitionelement-property-microsoft-web-media-transformmanager.md)|Gets or sets the [XElement](https://msdn.microsoft.com/library/bb340098) object container of the template file.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskTypeArchitecture](taskdefinition-tasktypearchitecture-property-microsoft-web-media-transformmanager.md)|Gets or sets the architecture of the task type, if the command-line executable is architecture specific.|
-
-Top
 
 ## Methods
 
@@ -130,16 +125,14 @@ Top
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[AddConfigurationMessage(String)](configurationbase-addconfigurationmessage-method-string-microsoft-web-media-transformmanager.md)|Adds the specified message to the IIS Transform Manager configuration. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[AddConfigurationMessage(String, ConfigurationMessageSeverity)](configurationbase-addconfigurationmessage-method-string-configurationmessageseverity-microsoft-web-media-transformmanager.md)|Adds the specified message to the IIS Transform Manager configuration using the specified severity value. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/en-us/library/4k87zsw7(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/library/zdee4b3y)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/library/dfwy45w9)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[RemoveRestartWarningMessage](configurationbase-removerestartwarningmessage-method-microsoft-web-media-transformmanager.md)|Removes the restart warning message from the IIS Transform Manager configuration. (Inherited from [ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Save](taskdefinition-save-method-microsoft-web-media-transformmanager.md)|Saves a task definition object to a configuration file.|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-
-Top
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 
 ## Fields
 
@@ -147,8 +140,6 @@ Top
 |--- |--- |--- |
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[idElementName](taskdefinition-idelementname-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when assigning the ID of the element that contains the input folder of the task. The value is "ID". This type/member supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[taskDefinitionElementName](taskdefinition-taskdefinitionelementname-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when assigning the taskDefinition element name of the task. The value is "taskDefinition". This type/member supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|
-
-Top
 
 ## Remarks
 
@@ -160,7 +151,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

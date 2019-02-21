@@ -1,5 +1,5 @@
 ---
-title: SSMELogReadyRoutedEventArgs.Log Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SSMELogReadyRoutedEventArgs.Log Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Log Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.Log
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventargs.log(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.Log
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.set_Log
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SSMELogReadyRoutedEventArgs.Log Property
@@ -40,7 +39,7 @@ Gets or sets an XML string in the Windows Media Log format that contains the fie
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Log As String
@@ -54,11 +53,11 @@ Dim value As String
 value = instance.Log
 ```
 
-``` csharp
+```csharp
 public string Log { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ Log {
     String^ get ();
@@ -70,29 +69,29 @@ property String^ Log {
 member Log : string with get, private set
 ```
 
-``` jscript
+```jscript
 function get Log () : String
 private function set Log (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
 A string that contains XML data.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SSMELogReadyRoutedEventArgs Class](ssmelogreadyroutedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

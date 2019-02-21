@@ -1,5 +1,5 @@
 ---
-title: ChunkDownloadedEventArgs.RequestType Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ChunkDownloadedEventArgs.RequestType Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: RequestType Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.RequestType
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.requesttype(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.set_RequestType
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.RequestType
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkDownloadedEventArgs.RequestType Property
@@ -40,7 +39,7 @@ Gets the request type being downloaded.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property RequestType As ChunkRequestType
@@ -54,11 +53,11 @@ Dim value As ChunkRequestType
 value = instance.RequestType
 ```
 
-``` csharp
+```csharp
 public ChunkRequestType RequestType { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property ChunkRequestType RequestType {
     ChunkRequestType get ();
@@ -70,25 +69,25 @@ property ChunkRequestType RequestType {
 member RequestType : ChunkRequestType with get, private set
 ```
 
-``` jscript
+```jscript
 function get RequestType () : ChunkRequestType
 private function set RequestType (value : ChunkRequestType)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.ChunkRequestType](chunkrequesttype-enumeration-microsoft-web-media-smoothstreaming.md)  
 A ChunkRequestType object that represents the request type.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkDownloadedEventArgs Class](chunkdownloadedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

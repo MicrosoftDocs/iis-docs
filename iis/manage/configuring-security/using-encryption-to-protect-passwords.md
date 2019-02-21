@@ -129,8 +129,7 @@ In this step, we create two new application pools that we isolate from one anoth
   
     [![](using-encryption-to-protect-passwords/_static/image2.jpg)](using-encryption-to-protect-passwords/_static/image1.jpg)
 6. Repeat previous steps but this time use the name **AppPool2**.
-7. You now see the following screen within the IIS Manager:  
-  
+7. You now see the following screen within the IIS   
     [![](using-encryption-to-protect-passwords/_static/image4.jpg)](using-encryption-to-protect-passwords/_static/image3.jpg)
 8. Notice how the identity for both **AppPool1** and **AppPool2** are **NetworkService**. We will change this to be the accounts we created earlier by right clicking **AppPool1** and then selecting **Advanced Settings**
 9. Under the title **Process Model**:  

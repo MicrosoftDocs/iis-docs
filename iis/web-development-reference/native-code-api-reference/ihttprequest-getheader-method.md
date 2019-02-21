@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::GetHeader Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::GetHeader Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: be6a7069-7be4-6bdc-046e-29db7ab27b1b
-caps.latest.revision: 30
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::GetHeader Method
 Returns the value of a specified HTTP header.  
@@ -28,7 +20,7 @@ virtual PCSTR GetHeader(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszHeaderName`  
  [IN] A pointer to a string that contains the name of the header to return.  
   
@@ -52,7 +44,7 @@ virtual PCSTR GetHeader(
  The `ulHeaderIndex` parameter specifies the ID of an HTTP header that is listed in the `HTTP_HEADER_ID` enumeration.  
   
 > [!NOTE]
->  The `HTTP_HEADER_ID` enumeration is defined in the Http.h header file.  
+> The `HTTP_HEADER_ID` enumeration is defined in the Http.h header file.  
   
 ## Example  
  The following code example demonstrates how to use both versions of the `GetHeader` method to create an HTTP module that retrieves the `User-Agent` and `Accept-Language` HTTP headers for the request.  

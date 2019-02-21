@@ -1,5 +1,5 @@
 ---
-title: ILogger.LogLevel Property  (Microsoft.Web.Media.TransformManager)
+title: ILogger.LogLevel Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogLevel Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ILogger.LogLevel
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.ilogger.loglevel(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ILogger.LogLevel
 - Microsoft.Web.Media.TransformManager.ILogger.get_LogLevel
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LogLevel Property
@@ -38,7 +37,7 @@ Gets the level of errors that will be logged.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   ReadOnly Property LogLevel As LogLevel
@@ -51,11 +50,11 @@ Dim value As LogLevel
 value = instance.LogLevel
 ```
 
-``` csharp
+```csharp
   LogLevel LogLevel { get; }
 ```
 
-``` c++
+```cpp
   property LogLevel LogLevel {
     LogLevel get ();
 }
@@ -65,13 +64,13 @@ value = instance.LogLevel
   abstract LogLevel : LogLevel
 ```
 
-``` jscript
+```jscript
   function get LogLevel () : LogLevel
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
 The log-level object.  
 
 ## Remarks
@@ -80,7 +79,7 @@ The log level is one of the values in the [LogLevel](loglevel-enumeration-micros
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ILogger Interface](ilogger-interface-microsoft-web-media-transformmanager.md)
 

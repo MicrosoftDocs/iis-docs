@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.TemplateId Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.TemplateId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TemplateId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.TemplateId
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.templateid(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_TemplateId
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_TemplateId
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TemplateId Property
@@ -40,7 +39,7 @@ Gets or sets the ID of the job template that the [JobDefinition](jobdefinition-c
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property TemplateId As String
@@ -56,12 +55,12 @@ value = instance.TemplateId
 instance.TemplateId = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string TemplateId { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ TemplateId {
@@ -75,19 +74,19 @@ property String^ TemplateId {
 member TemplateId : string with get, set
 ```
 
-``` jscript
+```jscript
   function get TemplateId () : String
 function set TemplateId (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The ID of the job template that the [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) object uses.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

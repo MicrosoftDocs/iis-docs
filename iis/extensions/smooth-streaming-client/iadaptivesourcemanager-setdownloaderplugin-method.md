@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ Sets the downloader plugin.
 
 ## Syntax
 
-``` csharp
+```csharp
 void SetDownloaderPlugin(
 IDownloaderPlugin pPlugin
 )
 ```
 
-``` c++
+```cpp
 void SetDownloaderPlugin(
 [InAttribute] IDownloaderPlugin^ pPlugin
 )
 ```
 
-``` jscript
+```jscript
 function SetDownloaderPlugin(
 pPlugin : IDownloaderPlugin
 )

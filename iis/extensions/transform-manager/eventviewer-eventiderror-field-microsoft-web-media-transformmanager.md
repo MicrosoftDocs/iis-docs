@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.EventViewer.EventIdError
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # EventIdError Field
@@ -36,7 +35,7 @@ Represents a constant that is used when error information is written to the even
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const EventIdError As Integer
@@ -47,11 +46,11 @@ Represents a constant that is used when error information is written to the even
 value = EventViewer.EventIdError
 ```
 
-``` csharp
+```csharp
   public const int EventIdError
 ```
 
-``` c++
+```cpp
   public:
 literal int EventIdError
 ```
@@ -60,13 +59,13 @@ literal int EventIdError
   static val mutable EventIdError: int
 ```
 
-``` jscript
+```jscript
   public const var EventIdError : int
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [EventViewer Class](eventviewer-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "ManyToOneCertificateRuleSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "ManyToOneCertificateRuleSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 00aeabf8-7eae-4729-848b-814a8033eb27
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ManyToOneCertificateRuleSettings Class
 Contains many-to-one certificate mapping rules.  

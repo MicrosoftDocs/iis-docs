@@ -1,15 +1,7 @@
 ---
-title: "SectionInformation Class | Microsoft Docs"
-ms.custom: ""
+title: "SectionInformation Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 60972c6f-9cc6-142f-8889-8ceb6548b21c
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SectionInformation Class
 Specifies override-mode and control-locking settings for a configuration section.  

@@ -55,4 +55,4 @@ The following table contains links to resources related to this scenario.
 | **Operations** | [IIS.NET](https://www.iis.net/) | [IIS Learning Center](https://www.iis.net/learn) |
 | **Tools and Settings** | Microsoft.IIs.PowerShell.Provider namespace |
 | **Community Resources** | [IIS Blogs](https://blogs.iis.net/) | [IIS Forums](https://forums.iis.net/) | [Robert McMurray's Blog](https://blogs.msdn.com/b/robert_mcmurray/) | [Scott Forsyth's Blog](https://blogs.iis.net/owscott/default.aspx) | [Steve Schofield's Blog](https://blogs.iis.net/steveschofield/default.aspx) |
-| **Related Technologies** | [ASP.NET](https://www.asp.net/) | [ASP.NET Web Projects](https://msdn.microsoft.com/en-us/library/ywdtth2f.aspx) |
+| **Related Technologies** | [ASP.NET](https://www.asp.net/) | [ASP.NET Web Projects](https://msdn.microsoft.com/library/ywdtth2f.aspx) |

@@ -134,7 +134,7 @@ First, deploy the module to the application. Here, you have several options:
 	`<PATH\_TO\_FX\_SDK>csc.exe /out:BasicAuthenticationModule.dll /target:library BasicAuthenticationModule.cs`
 
     Where &lt;PATH\_TO\_FX\_SDK&gt; is the path to the .NET Framework SDK that contains the CSC.EXE compiler.
-- Compile the module into a strongly named assembly, and register this assembly in the GAC. This is a good option if you want multiple applications on your machine to use this module. To learn more about building strongly named assemblies, see this [MSDN article](https://msdn.microsoft.com/en-us/library/xwb8f617%28VS.80%29.aspx) .
+- Compile the module into a strongly named assembly, and register this assembly in the GAC. This is a good option if you want multiple applications on your machine to use this module. To learn more about building strongly named assemblies, see this [MSDN article](https://msdn.microsoft.com/library/xwb8f617%28VS.80%29.aspx) .
 
 Before making configuration changes in the application's web.config file, we must unlock some of the configuration sections that are locked at the server level by default. Run the following from an Elevated command prompt (Start &gt; Right click on Cmd.exe and choose "Run as Administrator"):
 
@@ -203,4 +203,4 @@ Save this configuration as web.config file in the root of your application:
 
 The ASP.NET 2.0 Membership service enables applications to quickly implement credential validation and user management required by most authentication and access control schemes. Membership isolates the application code from the actual credential store implementation, and provides a number of options for integrating with existing credential stores.
 
-To take advantage of Membership for this module sample, uncomment a call to Membership.ValidateUser inside the ValidateCredentials method, and configure a Membership provider for your application. You can learn more about configuring Membership in this [MSDN article](https://msdn.microsoft.com/en-us/library/6e9y4s5t%28VS.80%29.aspx).
+To take advantage of Membership for this module sample, uncomment a call to Membership.ValidateUser inside the ValidateCredentials method, and configure a Membership provider for your application. You can learn more about configuring Membership in this [MSDN article](https://msdn.microsoft.com/library/6e9y4s5t%28VS.80%29.aspx).

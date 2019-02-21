@@ -1,15 +1,7 @@
 ---
-title: "Designing Native-Code HTTP Modules | Microsoft Docs"
-ms.custom: ""
+title: "Designing Native-Code HTTP Modules"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7af6e299-ae44-4d9b-911f-0d29f19daf2a
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Designing Native-Code HTTP Modules
 HTTP modules in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] enable developers to extend or replace core IIS functionality. For example, you could write a digest authentication module that replaces the module that is included with [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)]. Although some of the functionality provided by native-code modules may resemble functionality that was previously available with ISAPI filters, native-code modules are designed differently and provide a much richer feature set than ISAPI filters.  

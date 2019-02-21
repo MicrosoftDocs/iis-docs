@@ -1,15 +1,7 @@
 ---
-title: "DirectoryElement Class | Microsoft Docs"
-ms.custom: ""
+title: "DirectoryElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6fb3f224-6527-6967-c850-5f7448bc813d
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DirectoryElement Class
 Specifies a code subdirectory for an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web application.  

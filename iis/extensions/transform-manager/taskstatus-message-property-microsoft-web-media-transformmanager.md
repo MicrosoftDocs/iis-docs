@@ -1,5 +1,5 @@
 ---
-title: TaskStatus.Message Property  (Microsoft.Web.Media.TransformManager)
+title: TaskStatus.Message Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Message Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.Message
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskstatus.message(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskStatus.get_Message
 - Microsoft.Web.Media.TransformManager.TaskStatus.Message
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Message Property
@@ -36,7 +35,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property Message As String
@@ -49,11 +48,11 @@ Dim value As String
 value = instance.Message
 ```
 
-``` csharp
+```csharp
   public string Message { get; }
 ```
 
-``` c++
+```cpp
   public:
 virtual property String^ Message {
     String^ get () sealed;
@@ -65,21 +64,21 @@ virtual property String^ Message {
 override Message : string
 ```
 
-``` jscript
+```jscript
   final function get Message () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 
-#### Implements
+### Implements
 
-[ITaskStatus. . :: . .Message](itaskstatus-message-property-microsoft-web-media-transformmanager.md)  
+[ITaskStatus.Message](itaskstatus-message-property-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskStatus Class](taskstatus-class-microsoft-web-media-transformmanager.md)
 

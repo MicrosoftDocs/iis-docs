@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy::GetVaryByHeaders Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy::GetVaryByHeaders Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fe12d854-b4bb-4c68-bcdb-a0294bd8cffd
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy::GetVaryByHeaders Method
 Returns the custom header values for the cache policy.  
@@ -22,7 +14,7 @@ virtual PCSTR GetVaryByHeaders(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

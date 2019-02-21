@@ -1,5 +1,5 @@
 ---
-title: JobManifest.Folder Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.Folder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Folder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Folder
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.folder(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.set_Folder
 - Microsoft.Web.Media.TransformManager.JobManifest.Folder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Folder Property
@@ -40,7 +39,7 @@ Gets or sets the folder name of the manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Folder As String
@@ -56,11 +55,11 @@ value = instance.Folder
 instance.Folder = value
 ```
 
-``` csharp
+```csharp
   public string Folder { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ Folder {
     String^ get ();
@@ -72,19 +71,19 @@ property String^ Folder {
   member Folder : string with get, set
 ```
 
-``` jscript
+```jscript
   function get Folder () : String
 function set Folder (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The folder name of the manifest.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

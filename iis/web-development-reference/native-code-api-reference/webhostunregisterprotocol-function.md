@@ -1,15 +1,7 @@
 ---
-title: "WebhostUnregisterProtocol Function | Microsoft Docs"
-ms.custom: ""
+title: "WebhostUnregisterProtocol Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cbc9a189-8d5a-7611-71e3-083e7e5b08b2
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WebhostUnregisterProtocol Function
 Requests that a protocol be unregistered when a listener adapter is shutting down.  
@@ -22,7 +14,7 @@ HRESULT WebhostUnregisterProtocol(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ProtocolHandle`  
  [IN] A `DWORD` that represents the protocol to be unregistered.  
   

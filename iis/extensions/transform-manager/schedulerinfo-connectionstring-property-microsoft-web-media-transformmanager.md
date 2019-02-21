@@ -1,5 +1,5 @@
 ---
-title: SchedulerInfo.ConnectionString Property  (Microsoft.Web.Media.TransformManager)
+title: SchedulerInfo.ConnectionString Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConnectionString Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.SchedulerInfo.ConnectionString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.schedulerinfo.connectionstring(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.ConnectionString
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.get_ConnectionString
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConnectionString Property
@@ -40,7 +39,7 @@ Gets or sets the connection string that is used by this scheduler.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ConnectionString As String
@@ -56,11 +55,11 @@ value = instance.ConnectionString
 instance.ConnectionString = value
 ```
 
-``` csharp
+```csharp
   public string ConnectionString { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ ConnectionString {
     String^ get ();
@@ -72,19 +71,19 @@ property String^ ConnectionString {
   member ConnectionString : string with get, set
 ```
 
-``` jscript
+```jscript
   function get ConnectionString () : String
 function set ConnectionString (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The connection string that is used by this scheduler.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SchedulerInfo Class](schedulerinfo-class-microsoft-web-media-transformmanager.md)
 

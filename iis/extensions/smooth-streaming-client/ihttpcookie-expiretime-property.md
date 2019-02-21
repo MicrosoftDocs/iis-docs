@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Represents the HTTP cookie expire time.
 
 ## Syntax
 
-``` csharp
+```csharp
 DateTime ExpireTime { get; set; }
 ```
 
-``` c++
+```cpp
 property DateTime ExpireTime {
 DateTime get ();
 void set (DateTime value);
 }
 ```
 
-``` jscript
+```jscript
 function get ExpireTime () : DateTime
 function set ExpireTime (value : DateTime)
 ```

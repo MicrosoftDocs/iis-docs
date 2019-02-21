@@ -1,15 +1,7 @@
 ---
-title: "TraceUrlAreaSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "TraceUrlAreaSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6d9d1413-0f79-41e3-b6d5-449319de2bb9
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TraceUrlAreaSettings Class
 Contains criteria for generating trace events and configuring the content of log file entries.  

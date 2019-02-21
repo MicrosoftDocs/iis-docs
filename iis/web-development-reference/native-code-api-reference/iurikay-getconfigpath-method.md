@@ -1,15 +1,7 @@
 ---
-title: "IUriKay::GetConfigPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IUriKay::GetConfigPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fa8f2ba9-e540-45e9-8d4a-190991cac5cb
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IUriKay::GetConfigPath Method
 Retrieves the path to the configuration file.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetConfigPath(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method accepts no parameters.  
   
 ## Return Value  

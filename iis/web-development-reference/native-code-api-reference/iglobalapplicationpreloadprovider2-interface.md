@@ -1,15 +1,7 @@
 ---
-title: "IGlobalApplicationPreloadProvider2 Interface | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalApplicationPreloadProvider2 Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d9f95de2-db90-4f28-b6ba-d37b9d7972bf
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalApplicationPreloadProvider2 Interface
 Provides information about whether an application’s worker process is recycled.  

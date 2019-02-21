@@ -1,15 +1,7 @@
 ---
-title: "PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 22e77a24-aaca-c593-c46f-cbbe073e1b4a
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED Function
 Notifies the listener adapter that the application pool has been deleted from its view.  
@@ -23,7 +15,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_DELETED)(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
   

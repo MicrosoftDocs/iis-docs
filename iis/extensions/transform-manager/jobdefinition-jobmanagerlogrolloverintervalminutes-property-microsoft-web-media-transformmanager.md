@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.JobManagerLogRolloverIntervalMinutes Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.JobManagerLogRolloverIntervalMinutes Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManagerLogRolloverIntervalMinutes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.JobManagerLogRolloverIntervalMinutes
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.jobmanagerlogrolloverintervalminutes(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.JobManagerLogRolloverIntervalMinutes
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_JobManagerLogRolloverIntervalMinutes
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobManagerLogRolloverIntervalMinutes Property
@@ -40,7 +39,7 @@ Gets or sets the number of minutes of log data to collect before a new log file 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property JobManagerLogRolloverIntervalMinutes As Integer
@@ -56,12 +55,12 @@ value = instance.JobManagerLogRolloverIntervalMinutes
 instance.JobManagerLogRolloverIntervalMinutes = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public int JobManagerLogRolloverIntervalMinutes { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property int JobManagerLogRolloverIntervalMinutes {
@@ -75,19 +74,19 @@ property int JobManagerLogRolloverIntervalMinutes {
 member JobManagerLogRolloverIntervalMinutes : int with get, set
 ```
 
-``` jscript
+```jscript
   function get JobManagerLogRolloverIntervalMinutes () : int
 function set JobManagerLogRolloverIntervalMinutes (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The number of minutes of log data to collect before a new log file is created.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

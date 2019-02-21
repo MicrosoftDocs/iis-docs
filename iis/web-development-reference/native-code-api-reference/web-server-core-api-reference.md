@@ -1,16 +1,8 @@
 ---
-title: "Web Server Core API Reference | Microsoft Docs"
-ms.custom: ""
+title: "Web Server Core API Reference"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 63d6d159-14f9-0f72-8ead-5e68f5efe412
-caps.latest.revision: 11
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # Web Server Core API Reference
 This section describes the API for the Web Server Core and integrated request-processing pipeline.  

@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingErrorOccurred
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.SmoothStreamingErrorOccurred Event
@@ -38,7 +37,7 @@ Occurs when an error is raised during playback of Smooth Streaming content.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Event SmoothStreamingErrorOccurred As EventHandler(Of SmoothStreamingErrorEventArgs)
@@ -50,11 +49,11 @@ Dim handler As EventHandler(Of SmoothStreamingErrorEventArgs)
 AddHandler instance.SmoothStreamingErrorOccurred, handler
 ```
 
-``` csharp
+```csharp
 public event EventHandler<SmoothStreamingErrorEventArgs> SmoothStreamingErrorOccurred
 ```
 
-``` c++
+```cpp
 public:
  event EventHandler<SmoothStreamingErrorEventArgs^>^ SmoothStreamingErrorOccurred {
     void add (EventHandler<SmoothStreamingErrorEventArgs^>^ value);
@@ -67,7 +66,7 @@ member SmoothStreamingErrorOccurred : <EventHandler<SmoothStreamingErrorEventArg
     SmoothStreamingErrorEventArgs>
 ```
 
-``` jscript
+```jscript
 JScript supports the use of events, but not the declaration of new ones.
 ```
 
@@ -77,17 +76,17 @@ For more information, see [Events](events.md).
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

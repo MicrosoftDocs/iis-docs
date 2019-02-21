@@ -1,15 +1,7 @@
 ---
-title: "IGlobalRSCAQueryProvider::SetResult Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalRSCAQueryProvider::SetResult Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 03b046ec-abf6-1e86-0a8e-7a08bfecf54e
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalRSCAQueryProvider::SetResult Method
 Finalizes the internal buffer.  
@@ -23,7 +15,7 @@ virtual VOID SetResult(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `cbData`  
  A `DWORD` that contains the data size, in bytes, of the internal buffer.  
   

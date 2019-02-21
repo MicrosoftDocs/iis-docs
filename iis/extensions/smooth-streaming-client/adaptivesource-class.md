@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ Represents the list of opened adaptive sources.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 [ActivatableAttribute()]
 public sealed class AdaptiveSource : IAdaptiveSource
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 [ActivatableAttribute()]
 public ref class AdaptiveSource sealed : IAdaptiveSource
 ```
 
-``` jscript
+```jscript
 public final class AdaptiveSource implements IAdaptiveSource
 ```
 

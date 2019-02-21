@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationExtension
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationExtension Field
@@ -36,7 +35,7 @@ Represents a string constant that specifies the file name extension (".xml") of 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const ConfigurationExtension As String
@@ -47,11 +46,11 @@ Represents a string constant that specifies the file name extension (".xml") of 
 value = ConfigurationBase.ConfigurationExtension
 ```
 
-``` csharp
+```csharp
   public const string ConfigurationExtension
 ```
 
-``` c++
+```cpp
   public:
 literal String^ ConfigurationExtension
 ```
@@ -60,13 +59,13 @@ literal String^ ConfigurationExtension
   static val mutable ConfigurationExtension: string
 ```
 
-``` jscript
+```jscript
   public const var ConfigurationExtension : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

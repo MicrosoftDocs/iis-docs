@@ -1,5 +1,5 @@
 ---
-title: TrackInfo.Attributes Property  (Microsoft.Web.Media.SmoothStreaming)
+title: TrackInfo.Attributes Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Attributes Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.Attributes
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackinfo.attributes(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.get_Attributes
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.set_Attributes
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TrackInfo.Attributes Property
@@ -40,7 +39,7 @@ Gets or sets the attributes for a track.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Attributes As IDictionary(Of String, String)
@@ -54,11 +53,11 @@ Dim value As IDictionary(Of String, String)
 value = instance.Attributes
 ```
 
-``` csharp
+```csharp
 public IDictionary<string, string> Attributes { get; internal set; }
 ```
 
-``` c++
+```cpp
 public:
 property IDictionary<String^, String^>^ Attributes {
     IDictionary<String^, String^>^ get ();
@@ -70,29 +69,29 @@ property IDictionary<String^, String^>^ Attributes {
 member Attributes : IDictionary<string, string> with get, internal set
 ```
 
-``` jscript
+```jscript
 function get Attributes () : IDictionary<String, String>
 internal function set Attributes (value : IDictionary<String, String>)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IDictionary](https://msdn.microsoft.com/en-us/library/s4ys34ea\(v=vs.95\))\<[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\)), [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))\>  
+Type: [System.Collections.Generic.IDictionary](https://msdn.microsoft.com/library/s4ys34ea\(v=vs.95\))\<[String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\)), [String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))\>  
 An IDictionary of name/value pairs of attributes.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

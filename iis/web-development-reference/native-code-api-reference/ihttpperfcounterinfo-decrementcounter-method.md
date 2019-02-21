@@ -1,15 +1,7 @@
 ---
-title: "IHttpPerfCounterInfo::DecrementCounter Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpPerfCounterInfo::DecrementCounter Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 14e53865-885b-5406-b949-170d7e725357
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpPerfCounterInfo::DecrementCounter Method
 Decrements a performance counter by a specified amount.  
@@ -23,7 +15,7 @@ virtual VOID DecrementCounter(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwCounterIndex`  
  The performance counter to decrement.  
   

@@ -1,15 +1,7 @@
 ---
-title: "IHttpSite::GetModuleContextContainer Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpSite::GetModuleContextContainer Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1fadc558-b8c0-d63a-631c-bf5b6ecb2859
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpSite::GetModuleContextContainer Method
 Returns the context container for a site.  
@@ -22,7 +14,7 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

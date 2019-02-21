@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
@@ -21,7 +21,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ScheduleClip Method (ClipInformation, Boolean, TimeSpan, Object)
@@ -33,7 +32,7 @@ Schedules playing of a media clip.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Function ScheduleClip ( _
@@ -55,7 +54,7 @@ returnValue = instance.ScheduleClip(clipInfo, _
     pauseTimeline, startOffset, userData)
 ```
 
-``` csharp
+```csharp
   public ClipContext ScheduleClip(
     ClipInformation clipInfo,
     bool pauseTimeline,
@@ -64,7 +63,7 @@ returnValue = instance.ScheduleClip(clipInfo, _
 )
 ```
 
-``` c++
+```cpp
   public:
 ClipContext^ ScheduleClip(
     ClipInformation^ clipInfo, 
@@ -74,7 +73,7 @@ ClipContext^ ScheduleClip(
 )
 ```
 
-``` jscript
+```jscript
   public function ScheduleClip(
     clipInfo : ClipInformation, 
     pauseTimeline : boolean, 
@@ -83,33 +82,33 @@ ClipContext^ ScheduleClip(
 ) : ClipContext
 ```
 
-#### Parameters
+### Parameters
 
   - clipInfo  
-    Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)  
+    Type: [Microsoft.Web.Media.SmoothStreaming.ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)  
     A [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) object.  
 
 <!-- end list -->
 
   - pauseTimeline  
-    Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
     true to pause the timeline when starting a clip; false to specify that the timeline continues while the clip plays. During on-demand video playback, it is typical to pause; live video sources typically continue the video without pausing.  
 
 <!-- end list -->
 
   - startOffset  
-    Type: [System. . :: . .TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\))  
+    Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577)  
     The start time of the clip.  
 
 <!-- end list -->
 
   - userData  
-    Type: [System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
     An object that can contain any data needed by the application, including the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object that will play the clip.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)  
+Type: [Microsoft.Web.Media.SmoothStreaming.ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)  
 A [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) object.  
 
 ## Remarks
@@ -127,17 +126,17 @@ For more information, see [Scheduling Media Clips (IIS Smooth Streaming)](schedu
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IScriptMapInfo::GetName Method | Microsoft Docs"
-ms.custom: ""
+title: "IScriptMapInfo::GetName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9b717857-631e-9a0e-38fd-ab2b62c3d284
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IScriptMapInfo::GetName Method
 Retrieves the configured name for a request handler.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetName(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

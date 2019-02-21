@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalApplicationStop Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalApplicationStop Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ec5e525d-906d-c505-40cc-8f5788367ff0
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalApplicationStop Method
 Represents the method that will handle a `GlobalApplicationStop` event, which occurs when IIS shuts down an application.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationStop(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProvider`  
  [IN] A pointer to an [IHttpApplicationStopProvider](../../web-development-reference\native-code-api-reference/ihttpapplicationprovider-interface.md) interface.  
   
@@ -36,7 +28,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalApplicationStop(
  When a global module has registered for the [GL_APPLICATION_STOP](../../web-development-reference\native-code-api-reference/request-processing-constants.md) event notification, IIS will call the module's `OnGlobalApplicationStop` method when IIS shuts down an application.  
   
 > [!NOTE]
->  Global modules can register for the `GlobalApplicationStop` event notification by registering for `GL_APPLICATION_STOP` in the module's [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
+> Global modules can register for the `GlobalApplicationStop` event notification by registering for `GL_APPLICATION_STOP` in the module's [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function.  
   
 ## Example  
  The following code example demonstrates how to create a global-level HTTP module that registers for the `GL_APPLICATION_STOP` notification. When IIS shuts down an application, it will call the example module's `OnGlobalApplicationStop` method. This method will write an entry in the application log of the Windows Event Viewer and then exit.  

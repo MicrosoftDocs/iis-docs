@@ -18,7 +18,7 @@ The **Format** property gets the format in which playlist is requested.
 
 |||
 |--- |--- |
-|*bstrPlaylistFormat*|The returned format of the [IPlaylistRequestInfo Interface](https://msdn.microsoft.com/en-us/library/dd146293(v=vs.90)) instance.|
+|*bstrPlaylistFormat*|The returned format of the [IPlaylistRequestInfo Interface](https://msdn.microsoft.com/library/dd146293) instance.|
 
 ## Return Value
 

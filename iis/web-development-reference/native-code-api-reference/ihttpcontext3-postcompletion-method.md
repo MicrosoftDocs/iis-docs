@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext3::PostCompletion Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext3::PostCompletion Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: aac130c8-3f20-47a1-9b45-b3cf964e9909
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext3::PostCompletion Method
 Posts the completion of the asynchronous operation.  
@@ -24,7 +16,7 @@ virtual HRESULT PostCompletion(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `cbBytes`  
  [IN] The number of bytes completed.  
   

@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.EventViewer.EventSource
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # EventSource Field
@@ -36,7 +35,7 @@ Represents a constant that is used when event source information is written to t
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const EventSource As String
@@ -47,11 +46,11 @@ Represents a constant that is used when event source information is written to t
 value = EventViewer.EventSource
 ```
 
-``` csharp
+```csharp
   public const string EventSource
 ```
 
-``` c++
+```cpp
   public:
 literal String^ EventSource
 ```
@@ -60,13 +59,13 @@ literal String^ EventSource
   static val mutable EventSource: string
 ```
 
-``` jscript
+```jscript
   public const var EventSource : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [EventViewer Class](eventviewer-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer2::GetWorkerProcessFramework Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer2::GetWorkerProcessFramework Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0fde6681-e858-4593-92fe-e957f8cc6207
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer2::GetWorkerProcessFramework Method
 Retrieves the interface of the worker process framework for the server.  
@@ -22,7 +14,7 @@ virtual HRESULT GetWorkerProcessFramework(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppWorkerProcessFramework`  
  [OUT] Points to the [IWorkerProcessFramework](../../web-development-reference\native-code-api-reference/iworkerprocessframework-interface.md) for the server..  
   

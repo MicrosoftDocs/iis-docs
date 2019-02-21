@@ -1,15 +1,7 @@
 ---
-title: "ObjectContainerAssociation Class1 | Microsoft Docs"
-ms.custom: ""
+title: "ObjectContainerAssociation Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 40a82997-34e7-1626-d580-a3d6b90ce7f6
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ObjectContainerAssociation Class1
 Associates an object with its child objects.  

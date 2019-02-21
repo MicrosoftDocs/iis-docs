@@ -1,15 +1,7 @@
 ---
-title: "DynamicTypeSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "DynamicTypeSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: aad015a1-5db6-4792-aa51-300cde9889f9
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DynamicTypeSettings Class
 Specifies the MIME types that IIS serves with dynamic compression.  

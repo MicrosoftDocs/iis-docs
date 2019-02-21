@@ -1,15 +1,7 @@
 ---
-title: "PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0fcb41c3-218d-4620-c701-7095d5b17173
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED Function
 Notifies the listener adapter that the application pool for a particular application has changed.  
@@ -24,7 +16,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_APP_POOL_CHANGED)(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
   

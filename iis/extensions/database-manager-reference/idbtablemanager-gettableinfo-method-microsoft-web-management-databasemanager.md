@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbTableManager.GetTableInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbTableManager.GetTableInfo Method
@@ -35,7 +34,7 @@ Returns the table information for a table.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Function GetTableInfo ( _
     connectionString As String, _
@@ -53,7 +52,7 @@ returnValue = instance.GetTableInfo(connectionString, _
     tableName, schema)
 ```
 
-``` csharp
+```csharp
 TableInfo GetTableInfo(
     string connectionString,
     string tableName,
@@ -61,7 +60,7 @@ TableInfo GetTableInfo(
 )
 ```
 
-``` c++
+```cpp
 TableInfo^ GetTableInfo(
     String^ connectionString, 
     String^ tableName, 
@@ -69,7 +68,7 @@ TableInfo^ GetTableInfo(
 )
 ```
 
-``` jscript
+```jscript
 function GetTableInfo(
     connectionString : String, 
     tableName : String, 
@@ -77,26 +76,26 @@ function GetTableInfo(
 ) : TableInfo
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
 <!-- end list -->
 
   - tableName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the table.  
 
 <!-- end list -->
 
   - schema  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the table.  
     **Note**    If schema is empty, the default schema name will be used.  
 
-#### Return Value
+### Return Value
 
 Type: [Microsoft.Web.Management.DatabaseManager.TableInfo](tableinfo-class-microsoft-web-management-databasemanager.md)  
 A [TableInfo](tableinfo-class-microsoft-web-management-databasemanager.md) object that contains the table and column information.  
@@ -114,7 +113,7 @@ The following code sample shows how to use the GetTableInfo method to retrieve t
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     ' Retrieve the information about a table.
     Public Function GetTableInfo( _
@@ -334,7 +333,7 @@ The following code sample shows how to use the GetTableInfo method to retrieve t
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve the information about a table.
         public TableInfo GetTableInfo(string connectionString, string tableName, string schema)
@@ -529,11 +528,11 @@ The following code sample shows how to use the GetTableInfo method to retrieve t
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbTableManager Interface](idbtablemanager-interface-microsoft-web-management-databasemanager.md)
 

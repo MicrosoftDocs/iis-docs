@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.LogFolderWatchFolderManager Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.LogFolderWatchFolderManager Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogFolderWatchFolderManager Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.LogFolderWatchFolderManager
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.logfolderwatchfoldermanager(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_LogFolderWatchFolderManager
 - Microsoft.Web.Media.TransformManager.JobDefinition.LogFolderWatchFolderManager
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LogFolderWatchFolderManager Property
@@ -36,7 +35,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property LogFolderWatchFolderManager As String
@@ -49,11 +48,11 @@ Dim value As String
 value = instance.LogFolderWatchFolderManager
 ```
 
-``` csharp
+```csharp
   public string LogFolderWatchFolderManager { get; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ LogFolderWatchFolderManager {
     String^ get ();
@@ -64,17 +63,17 @@ property String^ LogFolderWatchFolderManager {
   member LogFolderWatchFolderManager : string
 ```
 
-``` jscript
+```jscript
   function get LogFolderWatchFolderManager () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

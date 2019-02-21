@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets a stream that is selected or de-selected.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IManifestStream Stream { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property IManifestStream^ Stream {
 IManifestStream^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get Stream () : IManifestStreama
 ```
 

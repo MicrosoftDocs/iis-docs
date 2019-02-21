@@ -24,11 +24,9 @@ The [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) ty
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[PlaybackDuration](clipcontext-playbackduration-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the playback duration.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipContext Class](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)
 

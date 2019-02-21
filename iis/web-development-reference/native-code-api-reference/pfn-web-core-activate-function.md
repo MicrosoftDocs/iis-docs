@@ -1,15 +1,7 @@
 ---
-title: "PFN_WEB_CORE_ACTIVATE Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_WEB_CORE_ACTIVATE Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 33897340-911a-4c64-ab92-db1fc283b332
-caps.latest.revision: 31
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_WEB_CORE_ACTIVATE Function
 Starts an instance of the Hosted Web Core.  
@@ -24,7 +16,7 @@ typedef HRESULT (*PFN_WEB_CORE_ACTIVATE)(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszAppHostConfigFile`  
  A pointer to a string that contains the path of a configuration file.  
   
@@ -50,7 +42,7 @@ typedef HRESULT (*PFN_WEB_CORE_ACTIVATE)(
  The `PFN_WEB_CORE_ACTIVATE` function is a prototype for the `WebCoreActivate` DLL entry point in Hwebcore.dll that is used to start the Hosted Web Core. The process that hosts the Web core is required to provide the path of a configuration file that contains the configuration settings for any sites, the application pool, and so on, that are to be created.  
   
 > [!NOTE]
->  The Hosted Web Core requires a configuration file that follows the design of the ApplicationHost.config file, except that Hosted Web Core supports only one application pool. For more information about how to create a configuration file for your application, see [Walkthrough: Creating a Configuration File for Hosted Web Core](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-configuration-file-for-hosted-web-core.md).  
+> The Hosted Web Core requires a configuration file that follows the design of the ApplicationHost.config file, except that Hosted Web Core supports only one application pool. For more information about how to create a configuration file for your application, see [Walkthrough: Creating a Configuration File for Hosted Web Core](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-configuration-file-for-hosted-web-core.md).  
   
  This function also requires the name of the instance of the Hosted Web Core that [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] uses when it logs events to the Event Viewer. The hosting process may optionally provide the path of a root Web.config file that contains any additional parameters.  
   

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPathMapper2 Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPathMapper2 Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4037d4c6-28dd-4c53-8f61-5d099946cf45
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPathMapper2 Interface
 Provides methods that are called by the server implementation when the server informs the client about the hierarchy mapping decisions.  

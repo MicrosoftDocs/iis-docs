@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # SSMELogReadyRoutedEventArgs Properties
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [SSMELogReadyRoutedEventArgs](ssmelogreadyroutedeventargs-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 
 ## Properties
@@ -27,11 +21,9 @@ The [SSMELogReadyRoutedEventArgs](ssmelogreadyroutedeventargs-class-microsoft-we
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[OriginalSource](ssmelogreadyroutedeventargs-originalsource-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the object that raised the event.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [SSMELogReadyRoutedEventArgs Class](ssmelogreadyroutedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

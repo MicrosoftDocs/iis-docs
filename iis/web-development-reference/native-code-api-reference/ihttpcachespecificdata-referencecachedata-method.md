@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheSpecificData::ReferenceCacheData Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheSpecificData::ReferenceCacheData Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e200bb07-9b60-ec28-fe4d-c2c24643c3de
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheSpecificData::ReferenceCacheData Method
 Increments the internal reference count for the cached data.  
@@ -22,7 +14,7 @@ virtual VOID ReferenceCacheData(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Thread Safety  

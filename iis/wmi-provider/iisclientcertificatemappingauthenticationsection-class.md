@@ -1,15 +1,7 @@
 ---
-title: "IisClientCertificateMappingAuthenticationSection Class | Microsoft Docs"
-ms.custom: ""
+title: "IisClientCertificateMappingAuthenticationSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ab36fc78-170a-754c-8128-86e05a251fac
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IisClientCertificateMappingAuthenticationSection Class
 Configures mapping for IIS client certificates.  

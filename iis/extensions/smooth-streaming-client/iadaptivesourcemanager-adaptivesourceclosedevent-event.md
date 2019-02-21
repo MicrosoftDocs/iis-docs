@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 ---
 
 # IAdaptiveSourceManager.AdaptiveSourceClosedEvent Event
@@ -19,11 +19,11 @@ Occurs when the Adaptive Source is closed.
 
 ## Syntax
 
-``` csharp
+```csharp
 event AdaptiveSourceClosedEventHandler AdaptiveSourceClosedEvent
 ```
 
-``` c++
+```cpp
 event AdaptiveSourceClosedEventHandler^ AdaptiveSourceClosedEvent {
 void add (AdaptiveSourceClosedEventHandler^ value);
 void remove (AdaptiveSourceClosedEventHandler^ value);

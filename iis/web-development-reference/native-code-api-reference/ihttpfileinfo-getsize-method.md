@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo::GetSize Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo::GetSize Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 13bdf371-111b-52bb-bc72-e633142210e3
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo::GetSize Method
 Retrieves the size of the corresponding file for an [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual VOID GetSize(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pliSize`  
  [OUT] A pointer to a [ULARGE_INTEGER](http://go.microsoft.com/fwlink/?LinkId=56061) structure.  
   

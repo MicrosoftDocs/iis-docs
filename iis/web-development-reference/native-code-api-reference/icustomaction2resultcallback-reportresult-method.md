@@ -1,15 +1,7 @@
 ---
-title: "ICustomAction2ResultCallback::ReportResult Method | Microsoft Docs"
-ms.custom: ""
+title: "ICustomAction2ResultCallback::ReportResult Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7d619d90-fa22-4203-b4b5-cd91e8a4c879
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ICustomAction2ResultCallback::ReportResult Method
 Returns the results of a `RegisterCustomAction` or `UnregisterCustomAction` operation that was requested by the [IPmCustomActions2](../../web-development-reference\native-code-api-reference/ipmcustomactions2-interface.md) interface.  
@@ -24,7 +16,7 @@ virtual HRESULT ReportResult(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `hrStatus`  
  An `HRESULT` that contains the status of the Run-Time Status and Control operation.  
   

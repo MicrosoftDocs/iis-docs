@@ -1,15 +1,7 @@
 ---
-title: "RequestCachingSection Class | Microsoft Docs"
-ms.custom: ""
+title: "RequestCachingSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 142f14bd-be2f-2ed7-a8ac-f2eae361c96e
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # RequestCachingSection Class
 Contains configuration information for request caching.  

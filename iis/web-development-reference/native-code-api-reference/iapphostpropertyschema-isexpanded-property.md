@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::IsExpanded Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::IsExpanded Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0d896c4e-ff58-b570-b77e-6a6b4687913e
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::IsExpanded Property
 Determines whether environment variables in a property value should be expanded.  
@@ -23,7 +15,7 @@ HRESULT get_IsExpanded(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfIsExpanded`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if the environment variables should be expanded; otherwise, `VARIANT_FALSE`. The default is `VARIANT_FALSE`.  
   

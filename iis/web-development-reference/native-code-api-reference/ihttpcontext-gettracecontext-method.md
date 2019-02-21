@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetTraceContext Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetTraceContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 49aa513f-da98-dd64-2aac-91abc2df844b
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetTraceContext Method
 Retrieves the trace context container for the current context.  
@@ -22,7 +14,7 @@ virtual IHttpTraceContext* GetTraceContext(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

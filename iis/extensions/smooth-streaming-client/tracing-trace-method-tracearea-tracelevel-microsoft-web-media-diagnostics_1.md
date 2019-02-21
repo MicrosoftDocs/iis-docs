@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.Trace Method (TraceArea, TraceLevel)
@@ -34,7 +33,7 @@ Traces a diagnostic message that is specified by the parameters.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Sub Trace ( _
@@ -49,14 +48,14 @@ Dim traceLevel As TraceLevel
 Tracing.Trace(traceArea, traceLevel)
 ```
 
-``` csharp
+```csharp
 public static void Trace(
     TraceArea traceArea,
     TraceLevel traceLevel
 )
 ```
 
-``` c++
+```cpp
 public:
 static void Trace(
     TraceArea traceArea, 
@@ -70,14 +69,14 @@ static member Trace :
         traceLevel:TraceLevel -> unit 
 ```
 
-``` jscript
+```jscript
 public static function Trace(
     traceArea : TraceArea, 
     traceLevel : TraceLevel
 )
 ```
 
-#### Parameters
+### Parameters
 
   - traceArea  
     Type: [Microsoft.Web.Media.Diagnostics.TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
@@ -91,17 +90,17 @@ public static function Trace(
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

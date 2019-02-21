@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigLocationCollection::AddLocation Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigLocationCollection::AddLocation Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4223693f-1a64-b222-74bc-8505955306bb
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigLocationCollection::AddLocation Method
 Adds a new configuration location to the collection.  
@@ -25,7 +17,7 @@ HRESULT AddLocation(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrLocationPath`  
  A `BSTR` that contains the path of the new configuration location.  
   

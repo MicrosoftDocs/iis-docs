@@ -1,5 +1,5 @@
 ---
-title: TypeInfo.IsBinary Property  (Microsoft.Web.Management.DatabaseManager)
+title: TypeInfo.IsBinary Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsBinary Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.IsBinary
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.isbinary(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_IsBinary
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_IsBinary
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.IsBinary Property
@@ -39,7 +38,7 @@ Gets or sets a value that indicates whether the data type is a binary data type.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property IsBinary As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.IsBinary
 instance.IsBinary = value
 ```
 
-``` csharp
+```csharp
 public bool IsBinary { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool IsBinary {
     bool get ();
@@ -63,21 +62,21 @@ property bool IsBinary {
 }
 ```
 
-``` jscript
+```jscript
 function get IsBinary () : boolean
 function set IsBinary (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the data type is a binary data type; otherwise, false.  
 
 ## Examples
 
 The following code sample illustrates an example GetServerTypes method that returns a list of database types for an OLEDB provider.
 
-``` vb
+```vb
 
     Public Overrides Function GetServerTypes( _
             ByVal connectionString As String) _
@@ -217,7 +216,7 @@ The following code sample illustrates an example GetServerTypes method that retu
 
 ```
 
-``` csharp
+```csharp
 
         public override ICollection<TypeInfo> GetServerTypes(
             string connectionString )
@@ -358,11 +357,11 @@ The following code sample illustrates an example GetServerTypes method that retu
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 

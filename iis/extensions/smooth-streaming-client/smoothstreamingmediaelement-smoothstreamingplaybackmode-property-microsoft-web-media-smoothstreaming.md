@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.SmoothStreamingPlaybackMode Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.SmoothStreamingPlaybackMode Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingPlaybackMode Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingPlaybackMode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingplaybackmode(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_SmoothStreamingPlaybackMode
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingPlaybackMode
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingPlaybackMode Property
@@ -39,7 +38,7 @@ Gets or sets the Smooth Streaming playback mode to use during main content playb
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property SmoothStreamingPlaybackMode As Nullable(Of PlaybackMode)
@@ -53,11 +52,11 @@ value = instance.SmoothStreamingPlaybackMode
 instance.SmoothStreamingPlaybackMode = value
 ```
 
-``` csharp
+```csharp
   public Nullable<PlaybackMode> SmoothStreamingPlaybackMode { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property Nullable<PlaybackMode> SmoothStreamingPlaybackMode {
     Nullable<PlaybackMode> get ();
@@ -65,14 +64,14 @@ property Nullable<PlaybackMode> SmoothStreamingPlaybackMode {
 }
 ```
 
-``` jscript
+```jscript
   function get SmoothStreamingPlaybackMode () : Nullable<PlaybackMode>
 function set SmoothStreamingPlaybackMode (value : Nullable<PlaybackMode>)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0\(v=vs.90\))\< (Of \< ( \<'[PlaybackMode](playbackmode-enumeration-microsoft-web-media-smoothstreaming_1.md)\> ) \> ) \>  
+Type: [System.Nullable](https://msdn.microsoft.com/library/b3h38hb0)\< (Of \< ( \<'[PlaybackMode](playbackmode-enumeration-microsoft-web-media-smoothstreaming_1.md)\> ) \> ) \>  
 A PlaybackMode()()()() object.  
 
 ## Remarks
@@ -86,21 +85,21 @@ This property can be set at any time, but it will not take effect until [SmoothS
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

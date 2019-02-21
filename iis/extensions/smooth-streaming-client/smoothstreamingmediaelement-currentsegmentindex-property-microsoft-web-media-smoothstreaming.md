@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.CurrentSegmentIndex Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.CurrentSegmentIndex Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CurrentSegmentIndex Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentSegmentIndex
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentsegmentindex(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentSegmentIndex
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_CurrentSegmentIndex
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CurrentSegmentIndex Property
@@ -37,7 +36,7 @@ Gets the index of the current playing segment.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property CurrentSegmentIndex As Nullable(Of Integer)
@@ -49,43 +48,43 @@ Dim value As Nullable(Of Integer)
 value = instance.CurrentSegmentIndex
 ```
 
-``` csharp
+```csharp
   public Nullable<int> CurrentSegmentIndex { get; }
 ```
 
-``` c++
+```cpp
   public:
 property Nullable<int> CurrentSegmentIndex {
     Nullable<int> get ();
 }
 ```
 
-``` jscript
+```jscript
   function get CurrentSegmentIndex () : Nullable<int>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0\(v=vs.90\))\< (Of \< ( \<'[Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))\> ) \> ) \>  
+Type: [System.Nullable](https://msdn.microsoft.com/library/b3h38hb0)\< (Of \< ( \<'[Int32](https://msdn.microsoft.com/library/td2s409d)\> ) \> ) \>  
 The index of the playing segment.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

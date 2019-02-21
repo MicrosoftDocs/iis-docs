@@ -7,7 +7,7 @@ ms:contentKeyID: 6826325
 ms.date: 03/09/2018
 mtps_version: v=VS.90
 dev_langs:
-- c++
+- "cpp"
 ---
 
 # CHttpModule::CHttpModule Method
@@ -18,12 +18,12 @@ Initializes a new instance of the [CHttpModule](chttpmodule-class.md) class.
 
 ## Syntax
 
-``` c++
+```cpp
 CHttpModule (  
 );  
 ```
 
-#### Parameters
+### Parameters
 
 This method takes no parameters.
 
@@ -35,7 +35,7 @@ The constructor for the `CHttpModule` class is `protected` to prevent the direct
 
 The following code example demonstrates how to create a request-level HTTP module that registers for the [RQ\_BEGIN\_REQUEST](request-processing-constants.md) event notification. When a request enters the integrated request-processing pipeline, IIS will call the example module's [OnBeginRequest](chttpmodule-onbeginrequest-method.md) method. This method will write an entry in the application log of the Windows Event Viewer that contains "Hello World\!" in the event data. When processing is complete, the module will exit.
 
-``` c++
+```cpp
 #define _WINSOCKAPI_
 #include <windows.h>
 #include <sal.h>
@@ -160,7 +160,7 @@ RegisterModule(
 }
 ```
 
-Your module must export the [RegisterModule](pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](https://msdn.microsoft.com/en-us/library/ms689320\(v=vs.90\)).
+Your module must export the [RegisterModule](pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](https://msdn.microsoft.com/library/ms689320).
 
 You can optionally compile the code by using the `__stdcall (/Gz)` calling convention instead of explicitly declaring the calling convention for each function.
 

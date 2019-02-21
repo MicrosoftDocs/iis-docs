@@ -1,15 +1,7 @@
 ---
-title: "ConfigurationSectionWithCollection.Remove Method | Microsoft Docs"
-ms.custom: ""
+title: "ConfigurationSectionWithCollection.Remove Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 96394dd0-a3f3-196c-f70c-7b67b8e5a3ad
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigurationSectionWithCollection.Remove Method
 Removes the specified element from a collection in a configuration section.  
@@ -24,7 +16,7 @@ ConfigurationSectionWithCollection.Remove collectionName, element;
 ConfigurationSectionWithCollection.Remove collectionName, element  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Definition|  
 |----------|----------------|  

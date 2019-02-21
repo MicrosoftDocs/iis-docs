@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheKey::GetHash Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheKey::GetHash Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4dbfc063-f7f7-d86d-f19e-2451bf72f70f
-caps.latest.revision: 38
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheKey::GetHash Method
 Returns the unique hash code of an item in the global cache.  
@@ -22,7 +14,7 @@ virtual DWORD GetHash(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

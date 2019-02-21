@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
@@ -21,7 +21,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SelectStreamsAsync Method (IList(StreamInfo), Object)
@@ -33,7 +32,7 @@ Initializes a new instance of the [SegmentInfo](segmentinfo-class-microsoft-web-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub SelectStreamsAsync ( _
@@ -50,14 +49,14 @@ instance.SelectStreamsAsync(selectedStreams, _
     userState)
 ```
 
-``` csharp
+```csharp
   public void SelectStreamsAsync(
     IList<StreamInfo> selectedStreams,
     Object userState
 )
 ```
 
-``` c++
+```cpp
   public:
 void SelectStreamsAsync(
     IList<StreamInfo^>^ selectedStreams, 
@@ -65,23 +64,23 @@ void SelectStreamsAsync(
 )
 ```
 
-``` jscript
+```jscript
   public function SelectStreamsAsync(
     selectedStreams : IList<StreamInfo>, 
     userState : Object
 )
 ```
 
-#### Parameters
+### Parameters
 
   - selectedStreams  
-    Type: [System.Collections.Generic. . :: . .IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.90\))\< (Of \< ( \<'[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)\> ) \> ) \>  
+    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6)\< (Of \< ( \<'[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)\> ) \> ) \>  
     An IList object that contains the selected streams.  
 
 <!-- end list -->
 
   - userState  
-    Type: [System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
     The user can pass any state information in a standard or custom type.  
 
 ## Remarks
@@ -90,21 +89,21 @@ Calling this method to change streams on a smooth streaming presentation with mu
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SegmentInfo Class](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "SiteMapSection Class | Microsoft Docs"
-ms.custom: ""
+title: "SiteMapSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a84bf3e2-4778-07c5-c157-c2c70d36cb18
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SiteMapSection Class
 Defines configuration settings for site navigation.  
@@ -67,7 +59,7 @@ class SiteMapSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.SiteMap](/dotnet/api/system.web.sitemap?view=netframework-4.7.2)   
- [System.Web.XmlSiteMapProvider](/dotnet/api/system.web.xmlsitemapprovider?view=netframework-4.7.2)  
+ [System.Web.SiteMap](/dotnet/api/system.web.sitemap)   
+ [System.Web.XmlSiteMapProvider](/dotnet/api/system.web.xmlsitemapprovider)  
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ProviderSettings Class](../wmi-provider/providersettings-class.md)

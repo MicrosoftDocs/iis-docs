@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManifestProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IManifestProperty Interface
@@ -36,7 +35,7 @@ Defines the interface template for the definition of a manifest property that co
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Interface IManifestProperty
@@ -45,11 +44,11 @@ Defines the interface template for the definition of a manifest property that co
   Dim instance As IManifestProperty
 ```
 
-``` csharp
+```csharp
   public interface IManifestProperty
 ```
 
-``` c++
+```cpp
   public interface class IManifestProperty
 ```
 
@@ -57,7 +56,7 @@ Defines the interface template for the definition of a manifest property that co
   type IManifestProperty =  interface end
 ```
 
-``` jscript
+```jscript
   public interface IManifestProperty
 ```
 
@@ -72,11 +71,9 @@ The IManifestProperty type exposes the following members.
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Value](imanifestproperty-value-property-microsoft-web-media-transformmanager.md)|Gets the manifest property value.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

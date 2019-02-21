@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.GetCumulativeJobCountByStatus
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetCumulativeJobCountByStatus Method
@@ -34,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Function GetCumulativeJobCountByStatus ( _
@@ -49,14 +48,14 @@ Dim returnValue As Integer
 returnValue = instance.GetCumulativeJobCountByStatus(status)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public int GetCumulativeJobCountByStatus(
     JobStatus status
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual int GetCumulativeJobCountByStatus(
@@ -73,28 +72,28 @@ override GetCumulativeJobCountByStatus :
         status:JobStatus -> int 
 ```
 
-``` jscript
+```jscript
   public final function GetCumulativeJobCountByStatus(
     status : JobStatus
 ) : int
 ```
 
-#### Parameters
+### Parameters
 
   - status  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 
-#### Implements
+### Implements
 
-[IMonitoringService. . :: . .GetCumulativeJobCountByStatus(JobStatus)](imonitoringservice-getcumulativejobcountbystatus-method-microsoft-web-media-transformmanager.md)  
+[IMonitoringService.GetCumulativeJobCountByStatus(JobStatus)](imonitoringservice-getcumulativejobcountbystatus-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "HTTP_TRACE_EVENT Structure | Microsoft Docs"
-ms.custom: ""
+title: "HTTP_TRACE_EVENT Structure"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3e72fafd-2422-eb83-1e1f-4359f65ff06e
-caps.latest.revision: 36
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HTTP_TRACE_EVENT Structure
 Contains tracing information returned from trace providers.  

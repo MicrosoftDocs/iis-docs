@@ -1,15 +1,7 @@
 ---
-title: "WPF_INTERFACE_ID_ENUM Enumeration | Microsoft Docs"
-ms.custom: ""
+title: "WPF_INTERFACE_ID_ENUM Enumeration"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4c2adfcf-2145-380a-f2e7-438113c28724
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WPF_INTERFACE_ID_ENUM Enumeration
 Defines the interfaces that the [IWorkerProcessFramework::GetWpfInterface](../../web-development-reference\native-code-api-reference/iworkerprocessframework-getwpfinterface-method.md) method supports.  

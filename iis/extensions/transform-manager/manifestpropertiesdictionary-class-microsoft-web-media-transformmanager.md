@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestPropertiesDictionary Class
@@ -33,8 +32,8 @@ Provides properties that can be used for task definitions and job templates. Thi
 
 ## Inheritance Hierarchy
 
-[System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
-  [System.Collections.Generic. . :: . .Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508\(v=vs.90\))\< (Of \< ( \<'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+[System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
+  [System.Collections.Generic.Dictionary](https://msdn.microsoft.com/library/xfhwa508)\< (Of \< ( \<'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
     Microsoft.Web.Media.TransformManager..::..ManifestPropertiesDictionary  
 
 **Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
@@ -42,7 +41,7 @@ Provides properties that can be used for task definitions and job templates. Thi
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <CollectionDataContractAttribute> _
 Public Class ManifestPropertiesDictionary _
@@ -52,12 +51,12 @@ Public Class ManifestPropertiesDictionary _
   Dim instance As ManifestPropertiesDictionary
 ```
 
-``` csharp
+```csharp
 [CollectionDataContractAttribute]
 public class ManifestPropertiesDictionary : Dictionary<string, ManifestProperty>
 ```
 
-``` c++
+```cpp
 [CollectionDataContractAttribute]
 public ref class ManifestPropertiesDictionary : public Dictionary<String^, ManifestProperty^>
 ```
@@ -70,7 +69,7 @@ type ManifestPropertiesDictionary =
     end
 ```
 
-``` jscript
+```jscript
   public class ManifestPropertiesDictionary extends Dictionary<String, ManifestProperty>
 ```
 
@@ -83,43 +82,37 @@ The ManifestPropertiesDictionary type exposes the following members.
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ManifestPropertiesDictionary() () () ()](manifestpropertiesdictionary-constructor-microsoft-web-media-transformmanager_1.md)|Initializes a new instance of the ManifestPropertiesDictionary class.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ManifestPropertiesDictionary(XElement)](manifestpropertiesdictionary-constructor-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the ManifestPropertiesDictionary class using the specified properties.|
 
-Top
-
 ## Properties
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Comparer](https://msdn.microsoft.com/en-us/library/ms132092(v=vs.90))|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Count](https://msdn.microsoft.com/en-us/library/zhcy256f(v=vs.90))|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Item](https://msdn.microsoft.com/en-us/library/9tee9ht2(v=vs.90))|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Keys](https://msdn.microsoft.com/en-us/library/yt2fy5zk(v=vs.90))|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Comparer](https://msdn.microsoft.com/library/ms132092)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Count](https://msdn.microsoft.com/library/zhcy256f)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Item](https://msdn.microsoft.com/library/9tee9ht2)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Keys](https://msdn.microsoft.com/library/yt2fy5zk)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Namespace](manifestpropertiesdictionary-namespace-property-microsoft-web-media-transformmanager.md)|Gets or sets the value from the namespace attribute of the XML element.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Prefix](manifestpropertiesdictionary-prefix-property-microsoft-web-media-transformmanager.md)|Gets or sets the value from the prefix attribute of the XML element.|
-|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Values](https://msdn.microsoft.com/en-us/library/ekcfxy3x(v=vs.90))|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-
-Top
+|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Values](https://msdn.microsoft.com/library/ekcfxy3x)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
 
 ## Methods
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Add](https://msdn.microsoft.com/en-us/library/k7z0zy8k(v=vs.90))|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Clear](https://msdn.microsoft.com/en-us/library/b5txwy7s(v=vs.90))|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ContainsKey](https://msdn.microsoft.com/en-us/library/kw5aaea4(v=vs.90))|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ContainsValue](https://msdn.microsoft.com/en-us/library/a63811ah(v=vs.90))|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/en-us/library/4k87zsw7(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetEnumerator](https://msdn.microsoft.com/en-us/library/9c6ftx8b(v=vs.90))|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|GetObjectData|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|OnDeserialization|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Remove](https://msdn.microsoft.com/en-us/library/kabs04ac(v=vs.90))|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[TryGetValue](https://msdn.microsoft.com/en-us/library/bb347013(v=vs.90))|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-
-Top
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Add](https://msdn.microsoft.com/library/k7z0zy8k)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Clear](https://msdn.microsoft.com/library/b5txwy7s)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ContainsKey](https://msdn.microsoft.com/library/kw5aaea4)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ContainsValue](https://msdn.microsoft.com/library/a63811ah)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetEnumerator](https://msdn.microsoft.com/library/9c6ftx8b)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/library/zdee4b3y)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|GetObjectData|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/library/dfwy45w9)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|OnDeserialization|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Remove](https://msdn.microsoft.com/library/kabs04ac)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[TryGetValue](https://msdn.microsoft.com/library/bb347013)|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
 
 ## Fields
 
@@ -128,35 +121,31 @@ Top
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[PropertiesElementName](manifestpropertiesdictionary-propertieselementname-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used with task definitions and job templates. The value is "properties".|
 
 
-Top
-
 ## Explicit Interface Implementations
 
 ||Name|Description|
 |--- |--- |--- |
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|ICollection< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ). . :: . .Add|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|IDictionary. . :: . .Add|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|ICollection< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ). . :: . .Contains|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|IDictionary. . :: . .Contains|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|ICollection< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ). . :: . .CopyTo|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|ICollection. . :: . .CopyTo|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|IEnumerable< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ). . :: . .GetEnumerator|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|IEnumerable. . :: . .GetEnumerator|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|IDictionary. . :: . .GetEnumerator|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary. . :: . .IsFixedSize|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|ICollection< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ). . :: . .IsReadOnly|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary. . :: . .IsReadOnly|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|ICollection. . :: . .IsSynchronized|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary. . :: . .Item|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary< (Of < <' (TKey, TValue> ) > > ). . :: . .Keys|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary. . :: . .Keys|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|ICollection< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ). . :: . .Remove|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|IDictionary. . :: . .Remove|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|ICollection. . :: . .SyncRoot|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary< (Of < <' (TKey, TValue> ) > > ). . :: . .Values|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary. . :: . .Values|(Inherited from [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.90))< (Of < ( <'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf(v=vs.90)), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
-
-Top
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|ICollection< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ).Add|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|IDictionary.Add|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|ICollection< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ).Contains|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|IDictionary.Contains|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|ICollection< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ).CopyTo|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|ICollection.CopyTo|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|IEnumerable< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ).GetEnumerator|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|IEnumerable.GetEnumerator|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|IDictionary.GetEnumerator|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary.IsFixedSize|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|ICollection< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ).IsReadOnly|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary.IsReadOnly|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|ICollection.IsSynchronized|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary.Item|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary< (Of < <' (TKey, TValue> ) > > ).Keys|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary.Keys|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|ICollection< (Of < <' (KeyValuePair< (Of < <' (TKey, TValue> ) > > )> ) > > ).Remove|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private method](images/Hh145009.privmethod(en-us,VS.90).gif "Private method")|IDictionary.Remove|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|ICollection.SyncRoot|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary< (Of < <' (TKey, TValue> ) > > ).Values|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
+|![Explicit interface implemetation](images/Ff729529.pubinterface(en-us,VS.90).gif "Explicit interface implemetation")![Private property](images/Hh125593.privproperty(en-us,VS.90).gif "Private property")|IDictionary.Values|(Inherited from [Dictionary](https://msdn.microsoft.com/library/xfhwa508)< (Of < ( <'[String](https://msdn.microsoft.com/library/s1wwdcbf), [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md)> ) > ) >.)|
 
 ## Thread Safety
 
@@ -164,7 +153,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

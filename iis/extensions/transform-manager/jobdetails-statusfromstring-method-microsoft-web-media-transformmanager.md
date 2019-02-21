@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.StatusFromString
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StatusFromString Method
@@ -36,7 +35,7 @@ Returns a [JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Function StatusFromString ( _
@@ -50,13 +49,13 @@ Dim returnValue As JobStatus
 returnValue = JobDetails.StatusFromString(status)
 ```
 
-``` csharp
+```csharp
   public static JobStatus StatusFromString(
     string status
 )
 ```
 
-``` c++
+```cpp
   public:
 static JobStatus StatusFromString(
     String^ status
@@ -68,21 +67,21 @@ static JobStatus StatusFromString(
         status:string -> JobStatus 
 ```
 
-``` jscript
+```jscript
   public static function StatusFromString(
     status : String
 ) : JobStatus
 ```
 
-#### Parameters
+### Parameters
 
   - status  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The status to get the [JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md) object for.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
 The job status.  
 
 ## Remarks
@@ -91,7 +90,7 @@ This method converts a string into a field as defined in the [JobDetails](jobdet
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

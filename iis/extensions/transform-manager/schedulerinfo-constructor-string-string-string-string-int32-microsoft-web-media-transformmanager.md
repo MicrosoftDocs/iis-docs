@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerInfo Constructor (String, String, String, String, Int32)
@@ -34,7 +33,7 @@ Initializes a new instance of the [SchedulerInfo](schedulerinfo-class-microsoft-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -56,7 +55,7 @@ Dim instance As New SchedulerInfo(id, name, _
     type, connectionString, concurrentJobs)
 ```
 
-``` csharp
+```csharp
   public SchedulerInfo(
     string id,
     string name,
@@ -66,7 +65,7 @@ Dim instance As New SchedulerInfo(id, name, _
 )
 ```
 
-``` c++
+```cpp
   public:
 SchedulerInfo(
     String^ id, 
@@ -86,7 +85,7 @@ SchedulerInfo(
         concurrentJobs:int -> SchedulerInfo
 ```
 
-``` jscript
+```jscript
   public function SchedulerInfo(
     id : String, 
     name : String, 
@@ -96,39 +95,39 @@ SchedulerInfo(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - id  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job scheduler.  
 
 <!-- end list -->
 
   - name  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the job scheduler.  
 
 <!-- end list -->
 
   - type  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The scheduler type.  
 
 <!-- end list -->
 
   - connectionString  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string that is used by this scheduler.  
 
 <!-- end list -->
 
   - concurrentJobs  
-    Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
     The number of concurrent jobs that this scheduler can run.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SchedulerInfo Class](schedulerinfo-class-microsoft-web-media-transformmanager.md)
 

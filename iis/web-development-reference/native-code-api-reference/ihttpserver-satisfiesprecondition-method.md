@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::SatisfiesPrecondition Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::SatisfiesPrecondition Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cc0beadd-fa0d-b706-02db-f4931ae6c78a
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::SatisfiesPrecondition Method
 Determines whether a specific precondition has been met for the current request.  
@@ -22,7 +14,7 @@ virtual BOOL SatisfiesPrecondition(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszPrecondition`  
  [IN] A pointer to a string that contains the precondition to test.  
   

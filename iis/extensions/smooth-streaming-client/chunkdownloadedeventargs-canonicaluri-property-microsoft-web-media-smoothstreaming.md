@@ -1,5 +1,5 @@
 ---
-title: ChunkDownloadedEventArgs.CanonicalUri Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ChunkDownloadedEventArgs.CanonicalUri Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CanonicalUri Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.CanonicalUri
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.canonicaluri(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.get_CanonicalUri
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.set_CanonicalUri
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkDownloadedEventArgs.CanonicalUri Property
@@ -40,7 +39,7 @@ Gets the canonical URI for downloading the current chunk.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property CanonicalUri As Uri
@@ -54,11 +53,11 @@ Dim value As Uri
 value = instance.CanonicalUri
 ```
 
-``` csharp
+```csharp
 public Uri CanonicalUri { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property Uri^ CanonicalUri {
     Uri^ get ();
@@ -70,25 +69,25 @@ property Uri^ CanonicalUri {
 member CanonicalUri : Uri with get, private set
 ```
 
-``` jscript
+```jscript
 function get CanonicalUri () : Uri
 private function set CanonicalUri (value : Uri)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\))  
+Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\))  
 The canonical URI.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkDownloadedEventArgs Class](chunkdownloadedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

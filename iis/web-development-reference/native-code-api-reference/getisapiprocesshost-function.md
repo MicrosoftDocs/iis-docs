@@ -1,15 +1,7 @@
 ---
-title: "GetIsapiProcessHost Function | Microsoft Docs"
-ms.custom: ""
+title: "GetIsapiProcessHost Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: df43ddf4-ec60-42a3-2dd5-f1738ffbb8ad
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # GetIsapiProcessHost Function
 Retrieves a reference to the process model host.  
@@ -23,7 +15,7 @@ HRESULT __stdcall GetIsapiProcessHost(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pFunctions`  
  A pointer to an [IProcessHostSupportFunctions](../../web-development-reference\native-code-api-reference/iprocesshostsupportfunctions-interface.md) interface.  
   

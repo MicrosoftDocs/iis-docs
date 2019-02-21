@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobCountByStatus
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobCountByStatus Method
@@ -36,7 +35,7 @@ Returns the number of jobs in each job state.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Function GetJobCountByStatus ( _
@@ -51,14 +50,14 @@ Dim returnValue As Integer
 returnValue = instance.GetJobCountByStatus(status)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 int GetJobCountByStatus(
     JobStatus status
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 int GetJobCountByStatus(
     JobStatus status
@@ -71,26 +70,26 @@ abstract GetJobCountByStatus :
         status:JobStatus -> int 
 ```
 
-``` jscript
+```jscript
   function GetJobCountByStatus(
     status : JobStatus
 ) : int
 ```
 
-#### Parameters
+### Parameters
 
   - status  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
     The state of the jobs to count.  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The number of jobs that correspond to the specified state.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
 

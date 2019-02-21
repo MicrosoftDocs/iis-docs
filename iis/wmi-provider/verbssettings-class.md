@@ -1,15 +1,7 @@
 ---
-title: "VerbsSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "VerbsSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1786330c-9084-4f84-9761-c042bdef9178
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # VerbsSettings Class
 Exposes configuration settings for HTTP verbs.  

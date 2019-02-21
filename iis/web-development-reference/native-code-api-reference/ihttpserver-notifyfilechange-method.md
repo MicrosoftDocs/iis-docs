@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::NotifyFileChange Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::NotifyFileChange Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b807132a-9aa7-73fc-06d7-ec7412ec0588
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::NotifyFileChange Method
 Triggers a notification that a file has changed.  
@@ -22,7 +14,7 @@ virtual VOID NotifyFileChange(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszFileName`  
  [IN] A pointer to a string that contains the path to a file.  
   

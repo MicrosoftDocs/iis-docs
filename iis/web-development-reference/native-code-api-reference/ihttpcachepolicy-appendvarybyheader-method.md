@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy::AppendVaryByHeader Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy::AppendVaryByHeader Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: dd9ade2d-8fe5-138d-f750-fba64f10d30d
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy::AppendVaryByHeader Method
 Appends the header value to the cache policy.  
@@ -22,7 +14,7 @@ virtual HRESULT AppendVaryByHeader(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszHeader`  
  A pointer to a null-terminated string that contains the custom header to append.  
   

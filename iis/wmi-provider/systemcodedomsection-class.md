@@ -1,15 +1,7 @@
 ---
-title: "SystemCodeDomSection Class | Microsoft Docs"
-ms.custom: ""
+title: "SystemCodeDomSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b76631cc-1f8a-0b0d-8a3a-8d15661926bb
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SystemCodeDomSection Class
 Specifies a collection of compilers that provide Code Document Object Model (CodeDOM) support.  

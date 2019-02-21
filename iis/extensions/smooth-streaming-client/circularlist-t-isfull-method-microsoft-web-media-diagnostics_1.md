@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.IsFull
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CircularList\<T\>.IsFull Method
@@ -36,7 +35,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Function IsFull As Boolean
@@ -48,11 +47,11 @@ Dim returnValue As Boolean
 returnValue = instance.IsFull()
 ```
 
-``` csharp
+```csharp
 public bool IsFull()
 ```
 
-``` c++
+```cpp
 public:
 bool IsFull()
 ```
@@ -61,14 +60,14 @@ bool IsFull()
 member IsFull : unit -> bool 
 ```
 
-``` jscript
+```jscript
 public function IsFull() : boolean
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
-Returns [Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\)). True if the list is full.
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
+Returns [Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\)). True if the list is full.
 
 ## Remarks
 
@@ -76,13 +75,13 @@ Adding a new element will cause the oldest element to be removed.
 
 ## Version Information
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CircularList\<T\> Class](circularlist-t-class-microsoft-web-media-diagnostics_1.md)
 

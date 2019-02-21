@@ -43,11 +43,11 @@ Silverlight has an out-of-the-box Media Element that can play ASX files. This fi
 
 MediaElement is the object in the Silverlight rendering engine that knows how to play back audio and video content.
 
-Adding media to a page is as simple as adding a [MediaElement](https://msdn.microsoft.com/en-us/library/bb980132.aspx) to your markup and providing a Uniform Resource Identifier (URI) to the media to play. The following example creates a MediaElement and sets its [Source](https://msdn.microsoft.com/en-us/library/bb979939.aspx) property to the URI of a video file. The MediaElement begins playing when the page loads.
+Adding media to a page is as simple as adding a [MediaElement](https://msdn.microsoft.com/library/bb980132.aspx) to your markup and providing a Uniform Resource Identifier (URI) to the media to play. The following example creates a MediaElement and sets its [Source](https://msdn.microsoft.com/library/bb979939.aspx) property to the URI of a video file. The MediaElement begins playing when the page loads.
 
 [!code-xml[Main](web-playlists-for-iis-using-playlist-with-different-media-players/samples/sample1.xml)]
 
-The MediaElement object can play Windows Media Video (WMV), Windows Media Audio (WMA), and MP3 files. For a detailed list of the formats and protocols supported, see [Supported Media Formats and Protocols](https://msdn.microsoft.com/en-us/library/bb980063.aspx).
+The MediaElement object can play Windows Media Video (WMV), Windows Media Audio (WMA), and MP3 files. For a detailed list of the formats and protocols supported, see [Supported Media Formats and Protocols](https://msdn.microsoft.com/library/bb980063.aspx).
 
 ### Using PARAM Tags in Silverlight
 
@@ -63,8 +63,8 @@ After you have read the attributes CANSKIPFORWARD, CANSKIPBACKWARD and CANSEEK, 
 
 ### Silverlight Reference
 
-- MediaElement - [https://msdn.microsoft.com/en-us/library/bb980141.aspx](https://msdn.microsoft.com/en-us/library/bb980141.aspx)
-- Attributes - [https://msdn.microsoft.com/en-us/library/bb979671.aspx](https://msdn.microsoft.com/en-us/library/bb979671.aspx)
+- MediaElement - [https://msdn.microsoft.com/library/bb980141.aspx](https://msdn.microsoft.com/library/bb980141.aspx)
+- Attributes - [https://msdn.microsoft.com/library/bb979671.aspx](https://msdn.microsoft.com/library/bb979671.aspx)
 
 <a id="Flash"></a>
 

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::Type Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::Type Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5d097082-ce21-3515-cf8c-d04aa6fb9f00
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::Type Property
 Gets the data type of the current schema.  
@@ -24,7 +16,7 @@ HRESULT get_Type(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrType`  
  A pointer to a `BSTR` that contains the type name of the current [IAppHostPropertySchema](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) interface.  
   

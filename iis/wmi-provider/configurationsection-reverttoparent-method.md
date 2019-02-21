@@ -1,15 +1,7 @@
 ---
-title: "ConfigurationSection.RevertToParent Method | Microsoft Docs"
-ms.custom: ""
+title: "ConfigurationSection.RevertToParent Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7266c221-dc31-4bc5-a895-63f78f48d52f
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigurationSection.RevertToParent Method
 Reverts configuration values in a section to their defaults.  
@@ -26,7 +18,7 @@ ConfigurationSection.RevertToParent
 ConfigurationSection.RevertToParent(PropertyName)  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Definition|  
 |----------|----------------|  

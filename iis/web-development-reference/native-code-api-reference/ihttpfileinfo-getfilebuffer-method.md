@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo::GetFileBuffer Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo::GetFileBuffer Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0518341a-f739-14e4-8440-cc31ef53d04d
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo::GetFileBuffer Method
 Returns a buffer in memory loaded from the corresponding file.  
@@ -22,7 +14,7 @@ virtual const BYTE* GetFileBuffer(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

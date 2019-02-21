@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbTableDataManager.InsertRow
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbTableDataManager.InsertRow Method
@@ -35,7 +34,7 @@ Inserts a row of data into a table.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Function InsertRow ( _
     connectionString As String, _
@@ -55,7 +54,7 @@ returnValue = instance.InsertRow(connectionString, _
     tableName, schema, columnDataInfoList)
 ```
 
-``` csharp
+```csharp
 Object[] InsertRow(
     string connectionString,
     string tableName,
@@ -64,7 +63,7 @@ Object[] InsertRow(
 )
 ```
 
-``` c++
+```cpp
 array<Object^>^ InsertRow(
     String^ connectionString, 
     String^ tableName, 
@@ -73,7 +72,7 @@ array<Object^>^ InsertRow(
 )
 ```
 
-``` jscript
+```jscript
 function InsertRow(
     connectionString : String, 
     tableName : String, 
@@ -82,34 +81,34 @@ function InsertRow(
 ) : Object[]
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
 <!-- end list -->
 
   - tableName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the table.  
 
 <!-- end list -->
 
   - schema  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the table.  
     **Note**    If schema is empty, the default schema name will be used.  
 
 <!-- end list -->
 
   - columnDataInfoList  
-    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.90\))\<[ColumnDataInfo](columndatainfo-class-microsoft-web-management-databasemanager.md)\>  
+    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6)\<[ColumnDataInfo](columndatainfo-class-microsoft-web-management-databasemanager.md)\>  
     An IList object that contains a list of [ColumnDataInfo](columndatainfo-class-microsoft-web-management-databasemanager.md) objects to insert.  
 
-#### Return Value
+### Return Value
 
-Type: array\<[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))\[\]  
+Type: array\<[System.Object](https://msdn.microsoft.com/library/e5kfa45b)\[\]  
 An object array that contains the data that was inserted and any computed values, such as identities.  
 
 ## Remarks
@@ -118,7 +117,7 @@ All database providers that implement the [IDbTableDataManager](idbtabledatamana
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider does not support inserting rows, you can use the following code sample to raise a not-implemented exception:
 
@@ -144,7 +143,7 @@ The following code sample implements the InsertRow method to insert data into a 
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     Public Function InsertRow( _
             ByVal connectionString As String, _
@@ -284,7 +283,7 @@ The following code sample implements the InsertRow method to insert data into a 
 
 ```
 
-``` csharp
+```csharp
 
         public object[] InsertRow(string connectionString, string tableName, string schema, IList<ColumnDataInfo> columnDataInfoList)
         {
@@ -445,11 +444,11 @@ The following code sample implements the InsertRow method to insert data into a 
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbTableDataManager Interface](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnPostBeginRequest Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnPostBeginRequest Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7a229eb2-2ac9-6e7e-df50-cc5aa86cc2f7
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnPostBeginRequest Method
 Represents the method that will handle a `BeginRequest` post-event, which occurs after the first event in the HTTP integrated request-processing pipeline.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostBeginRequest(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

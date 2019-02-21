@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConnectionArgument Class
@@ -32,7 +31,7 @@ Specifies a connection argument for a database connection.
 
 ## Inheritance Hierarchy
 
-[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
+[System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
   Microsoft.Web.Management.DatabaseManager.ConnectionArgument  
 
 **Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
@@ -40,22 +39,22 @@ Specifies a connection argument for a database connection.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Class ConnectionArgument
 'Usage
 Dim instance As ConnectionArgument
 ```
 
-``` csharp
+```csharp
 public class ConnectionArgument
 ```
 
-``` c++
+```cpp
 public ref class ConnectionArgument
 ```
 
-``` jscript
+```jscript
 public class ConnectionArgument
 ```
 
@@ -68,8 +67,6 @@ The ConnectionArgument type exposes the following members.
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[ConnectionArgument](connectionargument-constructor-microsoft-web-management-databasemanager.md)|Creates a new instance of the ConnectionArgument class.|
 
 
-Top
-
 ## Properties
 
 ||Name|Description|
@@ -81,26 +78,22 @@ Top
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Value](connectionargument-value-property-microsoft-web-management-databasemanager.md)|Gets or sets a value that specifies the value of the connection argument.|
 
 
-Top
-
 ## Methods
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/en-us/library/4k87zsw7(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-
-Top
+|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/library/zdee4b3y)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/library/dfwy45w9)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 
 ## Examples
 
 The following code sample illustrates an example ConnectionStringArgument property that returns the connection string arguments for a Microsoft Access database provider.
 
-``` vb
+```vb
 
     Public Overrides ReadOnly Property ConnectionStringArguments() _
             As System.Collections.Generic.ICollection( _
@@ -130,7 +123,7 @@ The following code sample illustrates an example ConnectionStringArgument proper
 
 ```
 
-``` csharp
+```csharp
 
         public override ICollection<ConnectionArgument> ConnectionStringArguments
         {
@@ -168,7 +161,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
 

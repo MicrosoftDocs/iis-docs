@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.InputIsManifest Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.InputIsManifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputIsManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.InputIsManifest
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.inputismanifest(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_InputIsManifest
 - Microsoft.Web.Media.TransformManager.JobDefinition.InputIsManifest
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # InputIsManifest Property
@@ -40,7 +39,7 @@ Gets or sets a value that indicates whether the file that initiates job creation
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property InputIsManifest As Boolean
@@ -56,12 +55,12 @@ value = instance.InputIsManifest
 instance.InputIsManifest = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public bool InputIsManifest { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property bool InputIsManifest {
@@ -75,19 +74,19 @@ property bool InputIsManifest {
 member InputIsManifest : bool with get, set
 ```
 
-``` jscript
+```jscript
   function get InputIsManifest () : boolean
 function set InputIsManifest (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the file that initiates job creation is a SMIL 2.0-compliant manifest; otherwise, false.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

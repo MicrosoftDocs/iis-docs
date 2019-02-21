@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalThreadCleanup Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalThreadCleanup Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2aaac10f-de71-71ff-5547-a098f91e717d
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalThreadCleanup Method
 Represents the method that will handle a `GlobalThreadCleanup` event, which occurs when IIS returns a thread to the thread pool.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalThreadCleanup(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProvider`  
  [IN] A pointer to an [IGlobalThreadCleanupProvider](../../web-development-reference\native-code-api-reference/iglobalthreadcleanupprovider-interface.md) interface.  
   

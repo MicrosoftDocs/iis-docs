@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy::IsUserCacheEnabled Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy::IsUserCacheEnabled Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ff83d13d-ba1d-2075-8231-df9d7877e96a
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy::IsUserCacheEnabled Method
 Returns a value that indicates whether user caching is enabled for the cache policy.  
@@ -22,7 +14,7 @@ virtual BOOL IsUserCacheEnabled(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

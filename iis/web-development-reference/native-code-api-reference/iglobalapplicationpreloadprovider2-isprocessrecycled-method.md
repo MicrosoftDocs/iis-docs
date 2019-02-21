@@ -1,15 +1,7 @@
 ---
-title: "IGlobalApplicationPreloadProvider2::IsProcessRecycled Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalApplicationPreloadProvider2::IsProcessRecycled Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1f882ddc-2a96-46ee-8b3f-1d72ed17601d
-caps.latest.revision: 6
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalApplicationPreloadProvider2::IsProcessRecycled Method
 Indicates whether the application’s worker process has recycled.  
@@ -22,7 +14,7 @@ Virtual BOOL IsProcessRecycled(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method accepts no parameters.  
   
 ## Return Value  

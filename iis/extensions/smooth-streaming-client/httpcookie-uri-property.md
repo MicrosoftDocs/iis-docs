@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,11 +20,11 @@ Gets the URI of the http cookie.
 
 ## Syntax
 
-``` csharp
+```csharp
 public Uri Uri { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property Uri^ Uri {
 Uri^ get () sealed;
@@ -32,7 +32,7 @@ void set (Uri^ value) sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get Uri () : Uri
 final function set Uri (value : Uri)
 ```

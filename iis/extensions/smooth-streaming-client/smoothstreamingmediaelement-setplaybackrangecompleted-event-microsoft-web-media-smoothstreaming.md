@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRangeCompleted
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.SetPlaybackRangeCompleted Event
@@ -38,7 +37,7 @@ Occurs when a SetPlaybackRangeAsync operation has completed.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Event SetPlaybackRangeCompleted As SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler
@@ -50,11 +49,11 @@ Dim handler As SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler
 AddHandler instance.SetPlaybackRangeCompleted, handler
 ```
 
-``` csharp
+```csharp
 public event SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler SetPlaybackRangeCompleted
 ```
 
-``` c++
+```cpp
 public:
  event SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler^ SetPlaybackRangeCompleted {
     void add (SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler^ value);
@@ -67,19 +66,19 @@ member SetPlaybackRangeCompleted : <SmoothStreamingMediaElement.SetPlaybackRange
     AsyncCompletedEventArgs>
 ```
 
-``` jscript
+```jscript
 JScript supports the use of events, but not the declaration of new ones.
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

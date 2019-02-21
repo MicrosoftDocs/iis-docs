@@ -1,15 +1,7 @@
 ---
-title: "IProcessHostSupportFunctions Interface | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHostSupportFunctions Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0e13e83c-9f64-b9a0-ff4c-0138931fb70d
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHostSupportFunctions Interface
 Provides helper functions for the process host.  

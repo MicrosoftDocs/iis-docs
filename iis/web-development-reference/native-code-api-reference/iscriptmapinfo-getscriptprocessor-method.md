@@ -1,15 +1,7 @@
 ---
-title: "IScriptMapInfo::GetScriptProcessor Method | Microsoft Docs"
-ms.custom: ""
+title: "IScriptMapInfo::GetScriptProcessor Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4e84d8be-b26d-5514-4e4d-09718d9a827d
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IScriptMapInfo::GetScriptProcessor Method
 Retrieves the script processor for a request handler.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetScriptProcessor(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcchScriptProcessor`  
  A pointer to a `DWORD` buffer that receives the length, in characters, of the request handler.  
   

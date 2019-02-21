@@ -1,15 +1,7 @@
 ---
-title: "TransactionsMachineSettingsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "TransactionsMachineSettingsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3c6e64b9-b4b9-9909-f4ec-db1d90e5e8a8
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TransactionsMachineSettingsSection Class
 Represents an XML section in a configuration file that contains settings that can be modified only at the computer level.  

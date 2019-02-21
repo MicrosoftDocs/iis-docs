@@ -1,15 +1,7 @@
 ---
-title: "TagPrefixInfo Class | Microsoft Docs"
-ms.custom: ""
+title: "TagPrefixInfo Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3e58fb0c-d2be-0f53-3524-99eedba3567f
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TagPrefixInfo Class
 Contains configuration information for custom and user controls.  

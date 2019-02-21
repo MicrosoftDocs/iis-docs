@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.ILogger
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ILogger Interface
@@ -36,7 +35,7 @@ Defines a logger that can be used by the task to write data to the job-instance 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Interface ILogger
@@ -45,11 +44,11 @@ Defines a logger that can be used by the task to write data to the job-instance 
   Dim instance As ILogger
 ```
 
-``` csharp
+```csharp
   public interface ILogger
 ```
 
-``` c++
+```cpp
   public interface class ILogger
 ```
 
@@ -57,7 +56,7 @@ Defines a logger that can be used by the task to write data to the job-instance 
   type ILogger =  interface end
 ```
 
-``` jscript
+```jscript
   public interface ILogger
 ```
 
@@ -67,10 +66,8 @@ The ILogger type exposes the following members.
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LogFile](ilogger-logfile-property-microsoft-web-media-transformmanager.md)|Gets the [StreamWriter](https://msdn.microsoft.com/en-us/library/3ssew6tk(v=vs.90)) object for the logger.|
+|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LogFile](ilogger-logfile-property-microsoft-web-media-transformmanager.md)|Gets the [StreamWriter](https://msdn.microsoft.com/library/3ssew6tk) object for the logger.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[LogLevel](ilogger-loglevel-property-microsoft-web-media-transformmanager.md)|Gets the level of errors that will be logged.|
-
-Top
 
 ## Methods
 
@@ -79,11 +76,9 @@ Top
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[WriteLine(LogLevel, String)](ilogger-writeline-method-loglevel-string-microsoft-web-media-transformmanager.md)|Writes a line to the log.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[WriteLine(LogLevel, String, Int32)](ilogger-writeline-method-loglevel-string-int32-microsoft-web-media-transformmanager.md)||
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

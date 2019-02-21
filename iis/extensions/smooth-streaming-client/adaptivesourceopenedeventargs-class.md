@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ The arguments of the adaptive source opened event.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 public sealed class AdaptiveSourceOpenedEventArgs
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 public ref class AdaptiveSourceOpenedEventArgs sealed
 ```
 
-``` jscript
+```jscript
 public final class AdaptiveSourceOpenedEventArgs
 ```
 

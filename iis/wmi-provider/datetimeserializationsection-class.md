@@ -1,15 +1,7 @@
 ---
-title: "DateTimeSerializationSection Class | Microsoft Docs"
-ms.custom: ""
+title: "DateTimeSerializationSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ad1ba074-e2d7-8528-1a35-a25053eb5106
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DateTimeSerializationSection Class
 Handles configuration settings for XML serialization of [System.DateTime](http://go.microsoft.com/fwlink/?LinkId=70919) instances.  

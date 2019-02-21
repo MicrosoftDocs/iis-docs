@@ -1,15 +1,7 @@
 ---
-title: "IWpfActions::FailWorkerProcess Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfActions::FailWorkerProcess Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c1522380-9788-c51a-a614-3ba64de563f0
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfActions::FailWorkerProcess Method
 Enables a protocol manager to request a shutdown of the worker process and to log an event to the Event Viewer.  
@@ -24,7 +16,7 @@ virtual VOID FailWorkerProcess(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszReason`  
  A pointer to a string that contains the cause of the failure to be logged to the Event Viewer.  
   

@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationMessage Constructor (String)
@@ -34,7 +33,7 @@ Initializes a new instance of the [ConfigurationMessage](configurationmessage-cl
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -47,13 +46,13 @@ Initializes a new instance of the [ConfigurationMessage](configurationmessage-cl
 Dim instance As New ConfigurationMessage(message)
 ```
 
-``` csharp
+```csharp
   public ConfigurationMessage(
     string message
 )
 ```
 
-``` c++
+```cpp
   public:
 ConfigurationMessage(
     String^ message
@@ -65,21 +64,21 @@ ConfigurationMessage(
         message:string -> ConfigurationMessage
 ```
 
-``` jscript
+```jscript
   public function ConfigurationMessage(
     message : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - message  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     An initialization message.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationMessage Class](configurationmessage-class-microsoft-web-media-transformmanager.md)
 

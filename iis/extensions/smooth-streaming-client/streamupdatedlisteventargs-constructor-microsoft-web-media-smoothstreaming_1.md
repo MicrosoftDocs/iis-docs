@@ -10,19 +10,13 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs.#ctor
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs.StreamUpdatedListEventArgs
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
 # StreamUpdatedListEventArgs Constructor
-
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
 
 Initializes a new instance of the [StreamUpdatedListEventArgs](streamupdatedlisteventargs-class-microsoft-web-media-smoothstreaming_1.md) class.
 
@@ -35,11 +29,9 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[StreamUpdatedListEventArgs(Exception, Object)](streamupdatedlisteventargs-constructor-exception-object-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [StreamUpdatedListEventArgs](streamupdatedlisteventargs-class-microsoft-web-media-smoothstreaming_1.md) class.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[StreamUpdatedListEventArgs(List<StreamUpdatedEventArgs>, Object)](streamupdatedlisteventargs-constructor-list-streamupdatedeventargs-object-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [StreamUpdatedListEventArgs](streamupdatedlisteventargs-class-microsoft-web-media-smoothstreaming_1.md) class.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamUpdatedListEventArgs Class](streamupdatedlisteventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.View.View
 - Microsoft.Web.Management.DatabaseManager.View.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # View Constructor
@@ -36,7 +35,7 @@ Creates a new instance of the [View](view-class-microsoft-web-management-databas
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Sub New
 'Usage
@@ -44,26 +43,26 @@ Public Sub New
 Dim instance As New View()
 ```
 
-``` csharp
+```csharp
 public View()
 ```
 
-``` c++
+```cpp
 public:
 View()
 ```
 
-``` jscript
+```jscript
 public function View()
 ```
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [View Class](view-class-microsoft-web-management-databasemanager.md)
 

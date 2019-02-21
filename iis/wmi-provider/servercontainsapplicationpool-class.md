@@ -1,15 +1,7 @@
 ---
-title: "ServerContainsApplicationPool Class1 | Microsoft Docs"
-ms.custom: ""
+title: "ServerContainsApplicationPool Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ca09ddf2-df30-a557-720a-8dd60e773365
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ServerContainsApplicationPool Class1
 Provides a relationship between a Web server and its application pools.  

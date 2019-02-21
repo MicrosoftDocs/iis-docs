@@ -18,12 +18,12 @@ The classes in the following namespace enable developers to create custom rewrit
 
 |Namespace|Description|
 |--- |--- |
-|[Microsoft.Web.Management.Iis.Rewrite](https://msdn.microsoft.com/en-us/library/microsoft.web.management.iis.rewrite(v=vs.90))|IIS URL Rewrite APIs.|
+|[Microsoft.Web.Management.Iis.Rewrite](https://msdn.microsoft.com/library/microsoft.web.management.iis.rewrite)|IIS URL Rewrite APIs.|
 
 
 ## See Also
 
-#### Other Resources
+### Other Resources
 
 [IIS URL Rewrite](http://go.microsoft.com/fwlink/?linkid=247908)
 

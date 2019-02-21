@@ -1,15 +1,7 @@
 ---
-title: "ICustomNotificationProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "ICustomNotificationProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c5128143-054d-e2a2-f839-2a1231e1f31e
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ICustomNotificationProvider Interface
 Provides an interface for creating custom notifications.  

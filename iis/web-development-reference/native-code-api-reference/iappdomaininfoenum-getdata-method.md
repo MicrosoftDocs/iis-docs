@@ -1,15 +1,7 @@
 ---
-title: "IAppDomainInfoEnum::GetData Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppDomainInfoEnum::GetData Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5628ffe4-1978-4c37-5973-0caa93526126
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppDomainInfoEnum::GetData Method
 Retrieves an [IAppDomainInfo](../../web-development-reference\native-code-api-reference/iappdomaininfo-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall GetData(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppAppDomainInfo`  
  The address of an `IAppDomainInfo` interface pointer.  
   

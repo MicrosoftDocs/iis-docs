@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalHealthCheck Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalHealthCheck Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fb5cd1b1-c034-55a5-bcc4-b1f66ba03498
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalHealthCheck Method
 Represents the method that will handle a `GlobalHealthCheck` event, which occurs when a health-related operation is executed.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalHealthCheck(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

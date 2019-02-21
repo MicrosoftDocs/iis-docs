@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestProperty Constructor
@@ -34,7 +33,7 @@ Initializes a new instance of the [ManifestProperty](manifestproperty-class-micr
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New
@@ -43,11 +42,11 @@ Initializes a new instance of the [ManifestProperty](manifestproperty-class-micr
 Dim instance As New ManifestProperty()
 ```
 
-``` csharp
+```csharp
   public ManifestProperty()
 ```
 
-``` c++
+```cpp
   public:
 ManifestProperty()
 ```
@@ -56,13 +55,13 @@ ManifestProperty()
   new : unit -> ManifestProperty
 ```
 
-``` jscript
+```jscript
   public function ManifestProperty()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

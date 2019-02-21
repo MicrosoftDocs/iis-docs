@@ -1,14 +1,7 @@
 ---
-title: "IISDeveloperExpressDiagnostics | Microsoft Docs"
-ms.custom: ""
+title: "IISDeveloperExpressDiagnostics"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 504dde57-cd9d-4bcf-bbb9-6ca3357a4c6b
-caps.latest.revision: 10
-manager: "wpickett"
 ---
 # IISDeveloperExpressDiagnostics
 Returns diagnostics information for web server startup failures.  

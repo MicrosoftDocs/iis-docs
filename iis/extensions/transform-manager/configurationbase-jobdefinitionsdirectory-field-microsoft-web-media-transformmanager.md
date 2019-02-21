@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.JobDefinitionsDirectory
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDefinitionsDirectory Field
@@ -36,7 +35,7 @@ Represents a string constant that specifies a configuration directory ("Job Defi
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const JobDefinitionsDirectory As String
@@ -47,11 +46,11 @@ Represents a string constant that specifies a configuration directory ("Job Defi
 value = ConfigurationBase.JobDefinitionsDirectory
 ```
 
-``` csharp
+```csharp
   public const string JobDefinitionsDirectory
 ```
 
-``` c++
+```cpp
   public:
 literal String^ JobDefinitionsDirectory
 ```
@@ -60,13 +59,13 @@ literal String^ JobDefinitionsDirectory
   static val mutable JobDefinitionsDirectory: string
 ```
 
-``` jscript
+```jscript
   public const var JobDefinitionsDirectory : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

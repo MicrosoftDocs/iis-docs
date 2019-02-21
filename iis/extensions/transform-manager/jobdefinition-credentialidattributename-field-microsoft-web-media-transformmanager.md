@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.CredentialIdAttributeName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CredentialIdAttributeName Field
@@ -36,7 +35,7 @@ Represents a constant that is used when the id attribute of the credential eleme
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const CredentialIdAttributeName As String
@@ -47,11 +46,11 @@ Represents a constant that is used when the id attribute of the credential eleme
 value = JobDefinition.CredentialIdAttributeName
 ```
 
-``` csharp
+```csharp
   public const string CredentialIdAttributeName
 ```
 
-``` c++
+```cpp
   public:
 literal String^ CredentialIdAttributeName
 ```
@@ -60,13 +59,13 @@ literal String^ CredentialIdAttributeName
   static val mutable CredentialIdAttributeName: string
 ```
 
-``` jscript
+```jscript
   public const var CredentialIdAttributeName : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

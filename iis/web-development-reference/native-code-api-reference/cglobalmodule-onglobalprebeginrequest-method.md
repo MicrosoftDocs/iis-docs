@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalPreBeginRequest Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalPreBeginRequest Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1c552a04-f229-33c5-af7f-05d28e55b9c9
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalPreBeginRequest Method
 Represents the method that will handle a `GlobalPreBeginRequest` event, which occurs before a request enters the pipeline.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalPreBeginRequest(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProvider`  
  [IN] A pointer to an [IPreBeginRequestProvider](../../web-development-reference\native-code-api-reference/iprebeginrequestprovider-interface.md) interface.  
   

@@ -9,9 +9,9 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.SelectStreamsAsync
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 ---
 
 # SelectStreamsAsync Method
@@ -28,15 +28,13 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[SelectStreamsAsync(IList< (Of < <' (StreamInfo> ) > > ), Object)](segmentinfo-selectstreamsasync-method-ilist-streaminfo-object-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) class.|
 
 
-Top
-
 ## Remarks
 
 Calling this method to change streams on a smooth streaming presentation with multiple video streams at the \<StreamIndex\> level will throw a \[NotImplementedException\].
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SegmentInfo Class](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

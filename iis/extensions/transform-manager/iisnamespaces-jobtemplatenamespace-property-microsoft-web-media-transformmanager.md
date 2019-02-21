@@ -1,5 +1,5 @@
 ---
-title: IisNamespaces.JobTemplateNamespace Property  (Microsoft.Web.Media.TransformManager)
+title: IisNamespaces.JobTemplateNamespace Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobTemplateNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.JobTemplateNamespace
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.jobtemplatenamespace(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.JobTemplateNamespace
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_JobTemplateNamespace
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobTemplateNamespace Property
@@ -38,7 +37,7 @@ Gets the URI of a media services schema document that is related to job template
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared ReadOnly Property JobTemplateNamespace As XNamespace
@@ -50,11 +49,11 @@ Gets the URI of a media services schema document that is related to job template
 value = IisNamespaces.JobTemplateNamespace
 ```
 
-``` csharp
+```csharp
   public static XNamespace JobTemplateNamespace { get; }
 ```
 
-``` c++
+```cpp
   public:
 static property XNamespace^ JobTemplateNamespace {
     XNamespace^ get ();
@@ -65,18 +64,18 @@ static property XNamespace^ JobTemplateNamespace {
   static member JobTemplateNamespace : XNamespace
 ```
 
-``` jscript
+```jscript
   static function get JobTemplateNamespace () : XNamespace
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XNamespace](https://msdn.microsoft.com/en-us/library/bb291898\(v=vs.90\))  
+Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
 The XML namespace value "http://schemas.microsoft.com/iis/media/v4/TM/JobTemplate\#".  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IisNamespaces Class](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 

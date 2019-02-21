@@ -1,15 +1,7 @@
 ---
-title: "IHttpApplication::GetApplicationId Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpApplication::GetApplicationId Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 08081804-c3f1-7971-b5f9-fc4e5e967106
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpApplication::GetApplicationId Method
 Retrieves the identifying application path for the current request.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetApplicationId(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

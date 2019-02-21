@@ -41,8 +41,7 @@ UrlScan 1.0 required manual installation for IIS. The following steps will lead 
 
 1. Copy UrlScan.dll and UrlScan.ini into a local directory on the server. While it is not required, the suggested directory is:  
  `%SystemRoot%\System32\Inetsrv\UrlScan`
-2. Open the Internet Information Services (IIS) Manager: 
-
+2. Open the Internet Information Services (IIS) 
     - Open the Windows Control Panel.
     - Double-click **Administrative Tools**.
     - Double-click **Internet Information Services**.

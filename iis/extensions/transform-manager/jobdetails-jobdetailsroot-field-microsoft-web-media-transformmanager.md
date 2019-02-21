@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsRoot
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDetailsRoot Field
@@ -36,7 +35,7 @@ Represents a constant that is used when transform jobs are sorted by the "workIt
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const JobDetailsRoot As String
@@ -47,11 +46,11 @@ Represents a constant that is used when transform jobs are sorted by the "workIt
 value = JobDetails.JobDetailsRoot
 ```
 
-``` csharp
+```csharp
   public const string JobDetailsRoot
 ```
 
-``` c++
+```cpp
   public:
 literal String^ JobDetailsRoot
 ```
@@ -60,13 +59,13 @@ literal String^ JobDetailsRoot
   static val mutable JobDetailsRoot: string
 ```
 
-``` jscript
+```jscript
   public const var JobDetailsRoot : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

@@ -1,5 +1,5 @@
 ---
-title: JobMetadata.SuccessCodes Property  (Microsoft.Web.Media.TransformManager)
+title: JobMetadata.SuccessCodes Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SuccessCodes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.SuccessCodes
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmetadata.successcodes(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobMetadata.SuccessCodes
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_SuccessCodes
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SuccessCodes Property
@@ -38,7 +37,7 @@ Gets the success codes from the task element that is contained in the manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property SuccessCodes As Integer()
@@ -51,11 +50,11 @@ Dim value As Integer()
 value = instance.SuccessCodes
 ```
 
-``` csharp
+```csharp
   public int[] SuccessCodes { get; }
 ```
 
-``` c++
+```cpp
   public:
 property array<int>^ SuccessCodes {
     array<int>^ get ();
@@ -66,18 +65,18 @@ property array<int>^ SuccessCodes {
   member SuccessCodes : int[]
 ```
 
-``` jscript
+```jscript
   function get SuccessCodes () : int[]
 ```
 
-#### Property Value
+### Property Value
 
-Type: array\<[System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))\> \[\] () \[\] \[\]  
+Type: array\<[System.Int32](https://msdn.microsoft.com/library/td2s409d)\> \[\] () \[\] \[\]  
 The success codes.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobMetadata Class](jobmetadata-class-microsoft-web-media-transformmanager.md)
 

@@ -1,5 +1,5 @@
 ---
-title: ChunkResult.Result Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ChunkResult.Result Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Result Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkResult.Result
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkresult.result(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.Result
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.set_Result
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkResult.Result Property
@@ -40,7 +39,7 @@ Gets or sets the result of call to [BeginGetChunk](trackinfo-begingetchunk-metho
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Result As ChunkResult.ChunkResultState
@@ -54,11 +53,11 @@ Dim value As ChunkResult.ChunkResultState
 value = instance.Result
 ```
 
-``` csharp
+```csharp
 public ChunkResult.ChunkResultState Result { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property ChunkResult.ChunkResultState Result {
     ChunkResult.ChunkResultState get ();
@@ -70,25 +69,25 @@ property ChunkResult.ChunkResultState Result {
 member Result : ChunkResult.ChunkResultState with get, private set
 ```
 
-``` jscript
+```jscript
 function get Result () : ChunkResult.ChunkResultState
 private function set Result (value : ChunkResult.ChunkResultState)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.ChunkResult.ChunkResultState](chunkresult-chunkresultstate-enumeration-microsoft-web-media-smoothstreaming_1.md)  
 A [ChunkResult.ChunkResultState](chunkresult-chunkresultstate-enumeration-microsoft-web-media-smoothstreaming_1.md) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkResult Class](chunkresult-class-microsoft-web-media-smoothstreaming_1.md)
 

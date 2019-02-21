@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
@@ -21,7 +21,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DependenciesMissingException Constructor (String, Exception)
@@ -33,7 +32,7 @@ Creates a new instance of the [DependenciesMissingException](dependenciesmissing
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Sub New ( _
     message As String, _
@@ -47,14 +46,14 @@ Dim instance As New DependenciesMissingException(message, _
     innerException)
 ```
 
-``` csharp
+```csharp
 public DependenciesMissingException(
     string message,
     Exception innerException
 )
 ```
 
-``` c++
+```cpp
 public:
 DependenciesMissingException(
     String^ message, 
@@ -62,32 +61,32 @@ DependenciesMissingException(
 )
 ```
 
-``` jscript
+```jscript
 public function DependenciesMissingException(
     message : String, 
     innerException : Exception
 )
 ```
 
-#### Parameters
+### Parameters
 
   - message  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The message to return with the exception.  
 
 <!-- end list -->
 
   - innerException  
-    Type: [System.Exception](https://msdn.microsoft.com/en-us/library/c18k6c59\(v=vs.90\))  
+    Type: [System.Exception](https://msdn.microsoft.com/library/c18k6c59)  
     The Exception that your provider will raise as an inner exception.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [DependenciesMissingException Class](dependenciesmissingexception-class-microsoft-web-management-databasemanager.md)
 

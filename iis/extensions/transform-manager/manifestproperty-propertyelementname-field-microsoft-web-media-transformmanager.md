@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.PropertyElementName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # PropertyElementName Field
@@ -36,7 +35,7 @@ The string "property".
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const PropertyElementName As String
@@ -47,11 +46,11 @@ The string "property".
 value = ManifestProperty.PropertyElementName
 ```
 
-``` csharp
+```csharp
   public const string PropertyElementName
 ```
 
-``` c++
+```cpp
   public:
 literal String^ PropertyElementName
 ```
@@ -60,13 +59,13 @@ literal String^ PropertyElementName
   static val mutable PropertyElementName: string
 ```
 
-``` jscript
+```jscript
   public const var PropertyElementName : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

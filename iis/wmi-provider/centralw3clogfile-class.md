@@ -1,15 +1,7 @@
 ---
-title: "CentralW3CLogFile Class1 | Microsoft Docs"
-ms.custom: ""
+title: "CentralW3CLogFile Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d74c5089-999e-e827-7ebe-f6946f52013c
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CentralW3CLogFile Class1
 Configures settings for World Wide Web Consortium (W3C) centralized logging on a server.  

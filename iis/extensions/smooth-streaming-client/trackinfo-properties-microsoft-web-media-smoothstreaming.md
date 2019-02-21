@@ -23,11 +23,9 @@ The [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) type e
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Stream](trackinfo-stream-property-microsoft-web-media-smoothstreaming_1.md)|Gets the stream for this track.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

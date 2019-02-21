@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Gets the stream 'Name' field.
 
 ## Syntax
 
-``` csharp
+```csharp
 string Name { get; }
 ```
 
-``` c++
+```cpp
 property String^ Name {
 String^ get ();
 }
 ```
 
-``` jscript
+```jscript
 function get Name () : String
 ```
 

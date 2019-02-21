@@ -1,15 +1,7 @@
 ---
-title: "ApplicationPoolElementDefaults Class1 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationPoolElementDefaults Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 53b7dc67-a6ac-ff21-3112-2a3163703fed
-caps.latest.revision: 27
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationPoolElementDefaults Class1
 Contains the default properties for the [ApplicationPool](../wmi-provider/applicationpool-class.md) class.  

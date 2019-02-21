@@ -20,7 +20,7 @@ To build Windows Store applications with the Smooth Streaming Client SDK for Win
 
 [Walkthrough: Building Your First HTML5 Smooth Streaming Player](walkthrough-building-your-first-html5-smooth-streaming-player.md)
 
-#### Other Resources
+### Other Resources
 
 [How to Build a Smooth Streaming Windows Store Application](http://go.microsoft.com/fwlink/?linkid=271647)
 

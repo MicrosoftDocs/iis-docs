@@ -1,15 +1,7 @@
 ---
-title: "RuleSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "RuleSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4e3c52f7-ade6-e250-9a65-92e6c09bacd7
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # RuleSettings Class
 Maps Web events to health-monitoring providers.  

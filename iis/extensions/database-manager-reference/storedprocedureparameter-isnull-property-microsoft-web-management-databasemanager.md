@@ -1,5 +1,5 @@
 ---
-title: StoredProcedureParameter.IsNull Property  (Microsoft.Web.Management.DatabaseManager)
+title: StoredProcedureParameter.IsNull Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsNull Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.IsNull
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.storedprocedureparameter.isnull(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.get_IsNull
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.set_IsNull
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StoredProcedureParameter.IsNull Property
@@ -39,7 +38,7 @@ Returns a value that indicates whether the parameter for a stored procedure is n
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property IsNull As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.IsNull
 instance.IsNull = value
 ```
 
-``` csharp
+```csharp
 public bool IsNull { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool IsNull {
     bool get ();
@@ -63,23 +62,23 @@ property bool IsNull {
 }
 ```
 
-``` jscript
+```jscript
 function get IsNull () : boolean
 function set IsNull (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the parameter is nulla null reference (Nothing in Visual Basic); otherwise, false.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StoredProcedureParameter Class](storedprocedureparameter-class-microsoft-web-management-databasemanager.md)
 

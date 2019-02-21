@@ -20,11 +20,9 @@ The [ClipPlaybackEventArgs](clipplaybackeventargs-class-microsoft-web-media-smoo
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Progress](clipplaybackeventargs-progress-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Progress](clipplaybackeventargs-progress-property-microsoft-web-media-smoothstreaming_1.md) property.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipPlaybackEventArgs Class](clipplaybackeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

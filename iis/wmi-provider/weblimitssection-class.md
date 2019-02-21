@@ -1,15 +1,7 @@
 ---
-title: "WebLimitsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "WebLimitsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 416bad62-0487-657f-8f78-9050d470c867
-caps.latest.revision: 32
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WebLimitsSection Class
 Specifies limits on client traffic to a Web server.  

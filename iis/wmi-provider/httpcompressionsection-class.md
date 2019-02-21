@@ -1,15 +1,7 @@
 ---
-title: "HttpCompressionSection Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpCompressionSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ce0cb6ed-e8a5-ebb7-d063-cdd80ccf6ac9
-caps.latest.revision: 27
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpCompressionSection Class
 Configures HTTP compression.  

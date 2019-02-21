@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnBeginRequest Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnBeginRequest Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: eda1ad8f-124b-7d75-0acd-b4a4d9fbdd48
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnBeginRequest Method
 Represents the method that will handle a `BeginRequest` event, which occurs as the first event in the HTTP integrated request-processing pipeline for the current request.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnBeginRequest(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   
@@ -42,7 +34,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnBeginRequest(
  IIS calls a module's `OnBeginRequest` method before authentication and authorization; this allows developers to use the `OnBeginRequest` method to process requests where the client's identity is not an issue.  
   
 > [!NOTE]
->  Not all requests enter the integrated request-processing pipeline. A request for an image file that can be satisfied from the cache will not enter the integrated request-processing pipeline; therefore, the `OnBeginRequest` method will not be called.  
+> Not all requests enter the integrated request-processing pipeline. A request for an image file that can be satisfied from the cache will not enter the integrated request-processing pipeline; therefore, the `OnBeginRequest` method will not be called.  
   
 ## Example  
  The following example demonstrates how to create a request-level HTTP module that registers for the `RQ_BEGIN_REQUEST` event and post-event notifications. When a request enters the pipeline, IIS will call the example module's `OnBeginRequest` and [OnPostBeginRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onpostbeginrequest-method.md) methods. Each method will write an entry in the application log of the Windows Event Viewer. When processing is complete, the module will exit.  

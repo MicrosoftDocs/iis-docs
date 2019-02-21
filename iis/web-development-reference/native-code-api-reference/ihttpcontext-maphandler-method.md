@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::MapHandler Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::MapHandler Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0903f587-51b1-4eb2-a38e-3c4b11c6c31a
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::MapHandler Method
 Maps a handler for the specified URL and HTTP verb on a site.  
@@ -27,7 +19,7 @@ virtual HRESULT MapHandler(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwSiteId`  
  [IN] The ID of the site that contains the URL for mapping.  
   

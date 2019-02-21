@@ -1,15 +1,7 @@
 ---
-title: "IAppHostCollectionSchema::IsMergeAppend Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostCollectionSchema::IsMergeAppend Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 22dabafd-081f-bebe-24de-c5ed61dbc6d9
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostCollectionSchema::IsMergeAppend Property
 Gets a value that determines whether local collection elements are merged after inherited elements are added.  
@@ -23,7 +15,7 @@ HRESULT get_IsMergeAppend(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfIsMergeAppend`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if local collection elements are merged after inherited elements are added; `VARIANT_FALSE` if inherited elements are merged after local collection elements are added.  
   

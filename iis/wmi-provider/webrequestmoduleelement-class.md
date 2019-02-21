@@ -1,15 +1,7 @@
 ---
-title: "WebRequestModuleElement Class | Microsoft Docs"
-ms.custom: ""
+title: "WebRequestModuleElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5336b292-a515-5615-d97c-ef14e2c9c10c
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WebRequestModuleElement Class
 Represents a Uniform Resource Identifier (URI) prefix and the associated class that creates Web requests for the prefix.  

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElement::SetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElement::SetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5d899f75-0c27-5c5a-4fb9-f023be42222d
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElement::SetMetadata Method
 Sets metadata for the current element.  
@@ -24,7 +16,7 @@ HRESULT SetMetadata(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being requested.  
   

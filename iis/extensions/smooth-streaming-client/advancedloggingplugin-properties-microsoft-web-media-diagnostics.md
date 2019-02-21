@@ -22,11 +22,9 @@ The [AdvancedLoggingPlugin](advancedloggingplugin-class-microsoft-web-media-diag
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TimerInterval](advancedloggingplugin-timerinterval-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the timer interval for periodic advanced logging posts.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [AdvancedLoggingPlugin Class](advancedloggingplugin-class-microsoft-web-media-diagnostics_1.md)
 

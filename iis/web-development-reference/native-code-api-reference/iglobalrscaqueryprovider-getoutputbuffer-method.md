@@ -1,15 +1,7 @@
 ---
-title: "IGlobalRSCAQueryProvider::GetOutputBuffer Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalRSCAQueryProvider::GetOutputBuffer Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 22f7388d-9dcc-6b6d-694d-0b5332e826fe
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalRSCAQueryProvider::GetOutputBuffer Method
 Creates a new `BYTE` array.  
@@ -23,7 +15,7 @@ virtual HRESULT GetOutputBuffer(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `cbBuffer`  
  [IN] A `DWORD` that contains the number of bytes to allocate.  
   

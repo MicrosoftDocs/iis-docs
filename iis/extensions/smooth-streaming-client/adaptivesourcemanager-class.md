@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ Represents the adaptive source single playback session.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 [StaticAttribute(typeof(IAdaptiveSourceManagerStatics), )]
 public sealed class AdaptiveSourceManager : IAdaptiveSourceManager
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 [StaticAttribute(typeof(IAdaptiveSourceManagerStatics), )]
 public ref class AdaptiveSourceManager sealed : IAdaptiveSourceManager
 ```
 
-``` jscript
+```jscript
 public final class AdaptiveSourceManager implements IAdaptiveSourceManager
 ```
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy::SetIsCached Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy::SetIsCached Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: eb65432f-c325-3cda-3c56-a8f9c1cbb4d9
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy::SetIsCached Method
 Sets a value that indicates that the data is cached.  
@@ -22,7 +14,7 @@ virtual VOID SetIsCached(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Remarks  

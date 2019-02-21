@@ -1,5 +1,5 @@
 ---
-title: ManifestInfo.LogUris Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ManifestInfo.LogUris Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LogUris Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.LogUris
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.manifestinfo.loguris(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.get_LogUris
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.LogUris
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestInfo.LogUris Property
@@ -38,7 +37,7 @@ Gets the list of logging Uri objects.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property LogUris As IList(Of Uri)
@@ -51,11 +50,11 @@ Dim value As IList(Of Uri)
 value = instance.LogUris
 ```
 
-``` csharp
+```csharp
 public IList<Uri> LogUris { get; }
 ```
 
-``` c++
+```cpp
 public:
 property IList<Uri^>^ LogUris {
     IList<Uri^>^ get ();
@@ -66,28 +65,28 @@ property IList<Uri^>^ LogUris {
 member LogUris : IList<Uri>
 ```
 
-``` jscript
+```jscript
 function get LogUris () : IList<Uri>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.95\))\<[Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\))\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6\(v=vs.95\))\<[Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\))\>  
 An IList of Uri objects.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

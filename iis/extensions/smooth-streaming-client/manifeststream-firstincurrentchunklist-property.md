@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the first chunk iterator in the current chunklist.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IChunkIter FirstInCurrentChunkList { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property IChunkIter^ FirstInCurrentChunkList {
 IChunkIter^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get FirstInCurrentChunkList () : IChunkIter
 ```
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpCompletionInfo Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCompletionInfo Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3f6d645d-aa2e-1de3-610d-104d8b775a10
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCompletionInfo Interface
 Provides information about an asynchronous completion.  

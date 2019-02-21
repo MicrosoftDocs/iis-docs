@@ -1,5 +1,5 @@
 ---
-title: ClipInformation.Duration Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ClipInformation.Duration Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Duration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.Duration
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipinformation.duration(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.get_Duration
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.set_Duration
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipInformation.Duration Property
@@ -40,7 +39,7 @@ Gets or sets the running time of the media clip.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Duration As Duration
@@ -54,11 +53,11 @@ Dim value As Duration
 value = instance.Duration
 ```
 
-``` csharp
+```csharp
 public Duration Duration { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property Duration Duration {
     Duration get ();
@@ -70,15 +69,15 @@ property Duration Duration {
 member Duration : Duration with get, private set
 ```
 
-``` jscript
+```jscript
 function get Duration () : Duration
 private function set Duration (value : Duration)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Windows.Duration](https://msdn.microsoft.com/en-us/library/ms602372\(v=vs.95\))  
-A [Duration](https://msdn.microsoft.com/en-us/library/ms602372\(v=vs.95\)) object.
+Type: [System.Windows.Duration](https://msdn.microsoft.com/library/ms602372\(v=vs.95\))  
+A [Duration](https://msdn.microsoft.com/library/ms602372\(v=vs.95\)) object.
 
 ## Remarks
 
@@ -86,13 +85,13 @@ For a complete example that uses the Duration property, see [Scheduling Media Cl
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipInformation Class](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)
 

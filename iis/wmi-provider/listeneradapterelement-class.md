@@ -1,15 +1,7 @@
 ---
-title: "ListenerAdapterElement Class | Microsoft Docs"
-ms.custom: ""
+title: "ListenerAdapterElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 36ff3ff9-7c5a-c35b-9ceb-0202ac71596b
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ListenerAdapterElement Class
 Specifies configuration settings for a listener adapter.  

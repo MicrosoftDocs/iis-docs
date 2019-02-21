@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.Utilities.GetTypeName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetTypeName Method
@@ -36,7 +35,7 @@ Returns the type name from the manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Function GetTypeName ( _
@@ -50,13 +49,13 @@ Dim returnValue As String
 returnValue = Utilities.GetTypeName(type)
 ```
 
-``` csharp
+```csharp
   public static string GetTypeName(
     string type
 )
 ```
 
-``` c++
+```cpp
   public:
 static String^ GetTypeName(
     String^ type
@@ -68,21 +67,21 @@ static String^ GetTypeName(
         type:string -> string 
 ```
 
-``` jscript
+```jscript
   public static function GetTypeName(
     type : String
 ) : String
 ```
 
-#### Parameters
+### Parameters
 
   - type  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     Job metadata that is contained in the taskCode node of the manifest.  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The type name.  
 
 ## Remarks
@@ -91,7 +90,7 @@ The type name is contained in the type element of the taskCode node of the manif
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Utilities Class](utilities-class-microsoft-web-media-transformmanager.md)
 

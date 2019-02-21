@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigException Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigException Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 09e456cc-7b93-2227-adf1-18f2287be43c
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigException Interface
 Represents an exception in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  

@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheSpecificData::DereferenceCacheData Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheSpecificData::DereferenceCacheData Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5717cb11-2b6a-bac5-4f92-4d9d83340192
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheSpecificData::DereferenceCacheData Method
 Decrements the internal reference count for the cached data.  
@@ -22,7 +14,7 @@ virtual VOID DereferenceCacheData(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Thread Safety  

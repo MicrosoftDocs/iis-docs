@@ -1,15 +1,7 @@
 ---
-title: "ISendResponseProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "ISendResponseProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bbb207ee-d0ce-5b67-a12e-e0c1085a5f01
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ISendResponseProvider Interface
 Retrieves or modifies information about the current response.  

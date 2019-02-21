@@ -1,15 +1,7 @@
 ---
-title: "IAppHostProperty::Value Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostProperty::Value Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: faa2afd0-3e3a-cf4e-7d1b-9832d325edcc
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostProperty::Value Property
 Gets or sets the value of the current property.  
@@ -26,7 +18,7 @@ HRESULT put_Value(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pVariant`  
  A pointer to a `VARIANT` that contains the current property value.  
   

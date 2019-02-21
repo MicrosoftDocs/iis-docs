@@ -1,15 +1,7 @@
 ---
-title: "IProtocolManager Interface | Microsoft Docs"
-ms.custom: ""
+title: "IProtocolManager Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ef6cac9a-055e-0b8b-7f7a-6548a6e6543b
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProtocolManager Interface
 Defines the base interface for protocol managers, and exposes methods for the worker process framework to interact with protocol managers.  

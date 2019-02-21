@@ -1,5 +1,5 @@
 ---
-title: Column.Name Property  (Microsoft.Web.Management.DatabaseManager)
+title: Column.Name Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.Name
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.column.name(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Column.get_Name
 - Microsoft.Web.Management.DatabaseManager.Column.set_Name
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.Name Property
@@ -39,7 +38,7 @@ Gets or sets a value that specifies the name of the database column.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Overridable Property Name As String
 'Usage
@@ -51,11 +50,11 @@ value = instance.Name
 instance.Name = value
 ```
 
-``` csharp
+```csharp
 public virtual string Name { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property String^ Name {
     String^ get ();
@@ -63,14 +62,14 @@ virtual property String^ Name {
 }
 ```
 
-``` jscript
+```jscript
 function get Name () : String
 function set Name (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The name of the database column.  
 
 ## Remarks
@@ -86,7 +85,7 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     ' Retrieve the information about a table.
     Public Function GetTableInfo( _
@@ -306,7 +305,7 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve the information about a table.
         public TableInfo GetTableInfo(string connectionString, string tableName, string schema)
@@ -501,11 +500,11 @@ The following code sample shows how to use the [GetTableInfo](idbtablemanager-ge
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Column Class](column-class-microsoft-web-management-databasemanager.md)
 

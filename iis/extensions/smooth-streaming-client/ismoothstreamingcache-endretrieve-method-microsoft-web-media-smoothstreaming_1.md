@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.EndRetrieve
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ISmoothStreamingCache.EndRetrieve Method
@@ -36,7 +35,7 @@ Ends an asynchronous cache response retrieval started by the [BeginRetrieve](ism
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Function EndRetrieve ( _
@@ -51,13 +50,13 @@ Dim returnValue As CacheResponse
 returnValue = instance.EndRetrieve(ar)
 ```
 
-``` csharp
+```csharp
 CacheResponse EndRetrieve(
     IAsyncResult ar
 )
 ```
 
-``` c++
+```cpp
 CacheResponse^ EndRetrieve(
     IAsyncResult^ ar
 )
@@ -68,22 +67,22 @@ abstract EndRetrieve :
         ar:IAsyncResult -> CacheResponse 
 ```
 
-``` jscript
+```jscript
 function EndRetrieve(
     ar : IAsyncResult
 ) : CacheResponse
 ```
 
-#### Parameters
+### Parameters
 
   - ar  
-    Type: [System.IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.95\))  
-    An [IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.95\)) object.
+    Type: [System.IAsyncResult](https://msdn.microsoft.com/library/ft8a6455\(v=vs.95\))  
+    An [IAsyncResult](https://msdn.microsoft.com/library/ft8a6455\(v=vs.95\)) object.
 
-#### Return Value
+### Return Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)  
-An [IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.95\)) object.
+An [IAsyncResult](https://msdn.microsoft.com/library/ft8a6455\(v=vs.95\)) object.
 
 ## Remarks
 
@@ -123,17 +122,17 @@ The following code shows an implementation of the EndRetrieve(IAsyncResult) meth
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ISmoothStreamingCache Interface](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)
 

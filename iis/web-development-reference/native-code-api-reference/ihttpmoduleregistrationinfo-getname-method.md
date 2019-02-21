@@ -1,15 +1,7 @@
 ---
-title: "IHttpModuleRegistrationInfo::GetName Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpModuleRegistrationInfo::GetName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7b712ccb-f82e-894f-18cf-4c123c78b38e
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpModuleRegistrationInfo::GetName Method
 Retrieves the module name.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetName(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

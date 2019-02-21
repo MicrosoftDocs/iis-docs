@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo::CheckIfFileHasChanged Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo::CheckIfFileHasChanged Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ea91d352-6fa5-7e85-8616-f0294cbd7bd3
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo::CheckIfFileHasChanged Method
 Returns a value that indicates whether the corresponding file has been changed since it was loaded into a file cache.  
@@ -22,7 +14,7 @@ virtual BOOL CheckIfFileHasChanged(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `hUserToken`  
  [IN] A `HANDLE` that contains the token for the user.  
   
