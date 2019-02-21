@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy::GetVaryByValue Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy::GetVaryByValue Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b97e5c3f-fc26-a90e-3115-e499693333e1
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy::GetVaryByValue Method
 Returns the variable value for the cache policy.  
@@ -22,7 +14,7 @@ virtual PCSTR GetVaryByValue(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

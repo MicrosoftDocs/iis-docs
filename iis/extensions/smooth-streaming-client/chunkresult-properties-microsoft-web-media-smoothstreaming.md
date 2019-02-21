@@ -22,11 +22,9 @@ The [ChunkResult](chunkresult-class-microsoft-web-media-smoothstreaming_1.md) ty
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Timestamp](chunkresult-timestamp-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the time stamp of the chunk in ticks.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkResult Class](chunkresult-class-microsoft-web-media-smoothstreaming_1.md)
 

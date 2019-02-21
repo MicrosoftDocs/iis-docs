@@ -1,15 +1,7 @@
 ---
-title: "IHttpCompletionInfo::GetCompletionBytes Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCompletionInfo::GetCompletionBytes Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1562904a-cf4d-50e3-802d-f11702097944
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCompletionInfo::GetCompletionBytes Method
 Returns the number of bytes completed for an asynchronous operation.  
@@ -22,7 +14,7 @@ virtual DWORD GetCompletionBytes(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

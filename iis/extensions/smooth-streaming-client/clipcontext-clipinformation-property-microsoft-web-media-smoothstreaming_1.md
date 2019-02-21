@@ -1,5 +1,5 @@
 ---
-title: ClipContext.ClipInformation Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ClipContext.ClipInformation Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipInformation Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.ClipInformation
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipcontext.clipinformation(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.get_ClipInformation
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.set_ClipInformation
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipContext.ClipInformation Property
@@ -40,7 +39,7 @@ Gets or sets the ClipInformation property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property ClipInformation As ClipInformation
@@ -54,11 +53,11 @@ Dim value As ClipInformation
 value = instance.ClipInformation
 ```
 
-``` csharp
+```csharp
 public ClipInformation ClipInformation { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property ClipInformation^ ClipInformation {
     ClipInformation^ get ();
@@ -70,12 +69,12 @@ property ClipInformation^ ClipInformation {
 member ClipInformation : ClipInformation with get, private set
 ```
 
-``` jscript
+```jscript
 function get ClipInformation () : ClipInformation
 private function set ClipInformation (value : ClipInformation)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)  
 A [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) object.
@@ -86,13 +85,13 @@ Clip information associated with the context. For more information, see [Schedul
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipContext Class](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)
 

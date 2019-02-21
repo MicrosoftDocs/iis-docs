@@ -1,15 +1,7 @@
 ---
-title: "SiteUsesSSLBinding Class1 | Microsoft Docs"
-ms.custom: ""
+title: "SiteUsesSSLBinding Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 69e2999c-5dad-e71b-afa4-677d94297146
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SiteUsesSSLBinding Class1
 Provides a relationship between an IIS Web site and a Secure Sockets Layer (SSL) binding.  

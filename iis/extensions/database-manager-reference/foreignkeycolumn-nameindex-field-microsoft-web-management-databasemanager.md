@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.ForeignKeyColumn.NameIndex
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ForeignKeyColumn.NameIndex Field
@@ -35,7 +34,7 @@ Returns the name index for a foreign key column.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Const NameIndex As Integer
 'Usage
@@ -44,16 +43,16 @@ Dim value As Integer
 value = ForeignKeyColumn.NameIndex
 ```
 
-``` csharp
+```csharp
 public const int NameIndex
 ```
 
-``` c++
+```cpp
 public:
 literal int NameIndex
 ```
 
-``` jscript
+```jscript
 public const var NameIndex : int
 ```
 
@@ -63,11 +62,11 @@ The name index of a foreign key column.
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ForeignKeyColumn Class](foreignkeycolumn-class-microsoft-web-management-databasemanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "WebhostGetVersion Function | Microsoft Docs"
-ms.custom: ""
+title: "WebhostGetVersion Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 85ef0836-7686-8e9b-d274-252714ec1c2a
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WebhostGetVersion Function
 Returns the version of the Web host.  
@@ -23,7 +15,7 @@ HRESULT WebhostGetVersion(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pMajorVersion`  
  [OUT] A pointer to a `DWORD` that contains the Web host major version number.  
   

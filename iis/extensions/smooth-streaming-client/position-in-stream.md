@@ -10,7 +10,7 @@ mtps_version: v=VS.95
 
 # Position in Stream
 
-You can assign the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) to a new position and the player will seek to the new position in the stream. Simply assign a [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\)) object to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property. The [TimeSpan](http://go.microsoft.com/fwlink/?linkid=181852) object specifies the time interval from the beginning of the stream.
+You can assign the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) to a new position and the player will seek to the new position in the stream. Simply assign a [TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\)) object to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property. The [TimeSpan](http://go.microsoft.com/fwlink/?linkid=181852) object specifies the time interval from the beginning of the stream.
 
 The current topic extends the functionality of previous examples in [Silverlight Applications](silverlight-applications.md) and [Events](events.md).
 
@@ -80,11 +80,11 @@ Add SliderBar.Value = 0 to the click event to correctly position the slider when
 
 These changes complete implementation of the slider. The user can navigate to any position in the media stream by dragging the slider thumb to a position forward or backward along its range.
 
-The topic [Timeline Markers and Events](timeline-markers-and-events.md) demonstrates how to capture [Microsoft.Web.Media.SmoothStreaming.TimelineEvent](https://msdn.microsoft.com/en-us/library/ee532619\(v=vs.95\)) markers and seek to them and/or handle the events they generate.
+The topic [Timeline Markers and Events](timeline-markers-and-events.md) demonstrates how to capture [Microsoft.Web.Media.SmoothStreaming.TimelineEvent](https://msdn.microsoft.com/library/ee532619\(v=vs.95\)) markers and seek to them and/or handle the events they generate.
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Events](events.md)
 

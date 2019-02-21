@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnReadEntity Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnReadEntity Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 97ba205d-2c55-d9e1-c0b1-36928035fd74
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnReadEntity Method
 Represents the method that will handle a `ReadEntity` event, which occurs when an operation reads data from the request buffer.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnReadEntity(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

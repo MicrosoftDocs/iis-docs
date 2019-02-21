@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbTableManager.GetTables
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbTableManager.GetTables Method
@@ -35,7 +34,7 @@ Returns a list of tables from a database.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Function GetTables ( _
     connectionString As String _
@@ -48,33 +47,33 @@ Dim returnValue As ICollection(Of Table)
 returnValue = instance.GetTables(connectionString)
 ```
 
-``` csharp
+```csharp
 ICollection<Table> GetTables(
     string connectionString
 )
 ```
 
-``` c++
+```cpp
 ICollection<Table^>^ GetTables(
     String^ connectionString
 )
 ```
 
-``` jscript
+```jscript
 function GetTables(
     connectionString : String
 ) : ICollection<Table>
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/en-us/library/92t2ye13\(v=vs.90\))\<[Table](table-class-microsoft-web-management-databasemanager.md)\>  
+Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/library/92t2ye13)\<[Table](table-class-microsoft-web-management-databasemanager.md)\>  
 An ICollection object that contains the collection of [Table](table-class-microsoft-web-management-databasemanager.md) objects.  
 
 ## Remarks
@@ -85,7 +84,7 @@ All database providers that implement the [IDbTableManager](idbtablemanager-inte
 
 The following code sample implements the GetTables method to retrieve the list of tables for an OLEDB connection by using the connection string that the database manager provides.
 
-``` vb
+```vb
 
     Public Function GetTables(ByVal connectionString As String) As System.Collections.Generic.ICollection(Of Table) Implements Microsoft.Web.Management.DatabaseManager.IDbTableManager.GetTables
         Dim tables As List(Of Table) = New List(Of Table)
@@ -129,7 +128,7 @@ The following code sample implements the GetTables method to retrieve the list o
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve the list of tables.
         public ICollection<Table> GetTables(string connectionString)
@@ -179,11 +178,11 @@ The following code sample implements the GetTables method to retrieve the list o
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbTableManager Interface](idbtablemanager-interface-microsoft-web-management-databasemanager.md)
 

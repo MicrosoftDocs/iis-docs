@@ -1,15 +1,7 @@
 ---
-title: "Web Server Core Classes | Microsoft Docs"
-ms.custom: ""
+title: "Web Server Core Classes"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bd47a47b-8d71-4094-9f49-e58971ded774
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Web Server Core Classes
 This section describes the Web Server Core and integrated request-processing pipeline classes.  

@@ -1,15 +1,7 @@
 ---
-title: "AuthorizationSection Class1 | Microsoft Docs"
-ms.custom: ""
+title: "AuthorizationSection Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cc944fcc-836f-d6e7-b78d-6539bea71054
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AuthorizationSection Class1
 Configures authorization for access to URLs.  

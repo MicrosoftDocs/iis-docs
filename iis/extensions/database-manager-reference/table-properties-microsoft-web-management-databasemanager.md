@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # Table Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [Table](table-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -23,11 +20,9 @@ The [Table](table-class-microsoft-web-management-databasemanager.md) type expose
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](table-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name for a table.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Schema](table-schema-property-microsoft-web-management-databasemanager.md)|Gets or sets the schema name for a table.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [Table Class](table-class-microsoft-web-management-databasemanager.md)
 

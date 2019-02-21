@@ -1,15 +1,7 @@
 ---
-title: "IAppDomainInfo::GetPhysicalPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppDomainInfo::GetPhysicalPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d248cfb6-55a2-3f6e-5353-e03d8baec11d
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppDomainInfo::GetPhysicalPath Method
 Retrieves the physical path of the application domain.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall GetPhysicalPath(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrPhysicalPath`  
  A pointer to a `BSTR` that contains the physical path of the application domain.  
   

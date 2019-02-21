@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementCollection::Count Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementCollection::Count Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e91d28c5-2287-b8e8-e2b0-55b81420a53f
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementCollection::Count Property
 Returns the number of elements in the current collection.  
@@ -23,7 +15,7 @@ HRESULT Count(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcElementCount`  
  A pointer to a `DWORD` that contains the number of elements.  
   

@@ -20,7 +20,7 @@ The audio param element specifies a single parameter for the audio.
 
 The following sections describe attributes, child elements, and parent elements.
 
-#### Attributes
+### Attributes
 
 |Attribute|Description|
 |--- |--- |
@@ -28,13 +28,13 @@ The following sections describe attributes, child elements, and parent elements.
 |**value**|Specifies the value of the parameter. The valid range and semantic meaning of the value is dependent upon the name of the attribute. See remarks for details. This attribute is required.|
 
 
-#### Child Elements
+### Child Elements
 
 |Element|Description|
 |--- |--- |
 |**None**|The audio param element has no child elements.|
 
-#### Parent Elements
+### Parent Elements
 
 |Element|Description|
 |--- |--- |
@@ -62,7 +62,7 @@ The following list describes the details of the relationship between the name an
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IIS Smooth Streaming Server Manifest (Live) - audio param Element](iis-smooth-streaming-server-manifest-live-audio-param-element.md)
 

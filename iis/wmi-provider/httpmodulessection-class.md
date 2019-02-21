@@ -1,15 +1,7 @@
 ---
-title: "HttpModulesSection Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpModulesSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 081d3300-b7fa-35ae-4d1a-c1b3950d28c3
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpModulesSection Class
 Contains [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] modules.  

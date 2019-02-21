@@ -1,15 +1,7 @@
 ---
-title: "IAppHostProperty::SetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostProperty::SetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 62af8bec-6065-28a8-9186-692602d536f3
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostProperty::SetMetadata Method
 Sets metadata for the current property.  
@@ -24,7 +16,7 @@ HRESULT SetMetadata(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being requested.  
   

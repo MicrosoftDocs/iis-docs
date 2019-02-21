@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # AddConfigurationMessage Method (String, ConfigurationMessageSeverity)
@@ -34,7 +33,7 @@ Adds the specified message to the IIS Transform Manager configuration using the 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub AddConfigurationMessage ( _
@@ -51,14 +50,14 @@ instance.AddConfigurationMessage(message, _
     severity)
 ```
 
-``` csharp
+```csharp
   public void AddConfigurationMessage(
     string message,
     ConfigurationMessageSeverity severity
 )
 ```
 
-``` c++
+```cpp
   public:
 void AddConfigurationMessage(
     String^ message, 
@@ -72,28 +71,28 @@ void AddConfigurationMessage(
         severity:ConfigurationMessageSeverity -> unit 
 ```
 
-``` jscript
+```jscript
   public function AddConfigurationMessage(
     message : String, 
     severity : ConfigurationMessageSeverity
 )
 ```
 
-#### Parameters
+### Parameters
 
   - message  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The message to add.  
 
 <!-- end list -->
 
   - severity  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .ConfigurationMessageSeverity](configurationmessageseverity-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity](configurationmessageseverity-enumeration-microsoft-web-media-transformmanager.md)  
     A configuration message severity value.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

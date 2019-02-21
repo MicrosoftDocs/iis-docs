@@ -42,11 +42,9 @@ The [IManagementService](imanagementservice-interface-microsoft-web-media-transf
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[UpdateJobTemplate](imanagementservice-updatejobtemplate-method-microsoft-web-media-transformmanager.md)|Adds or replaces a [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) object.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[UpdateTaskDefinition](imanagementservice-updatetaskdefinition-method-microsoft-web-media-transformmanager.md)|Adds or replaces a single task as defined in the job template.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

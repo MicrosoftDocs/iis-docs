@@ -1,5 +1,5 @@
 ---
-title: CacheResponse.StatusDescription Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse.StatusDescription Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StatusDescription Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.StatusDescription
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.statusdescription(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_StatusDescription
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.StatusDescription
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StatusDescription Property
@@ -39,7 +38,7 @@ A string that contains the status description.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property StatusDescription As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.StatusDescription
 ```
 
-``` csharp
+```csharp
   public string StatusDescription { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ StatusDescription {
     String^ get ();
@@ -63,33 +62,33 @@ property String^ StatusDescription {
 }
 ```
 
-``` jscript
+```jscript
   function get StatusDescription () : String
 private function set StatusDescription (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A string object that contains the status description.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

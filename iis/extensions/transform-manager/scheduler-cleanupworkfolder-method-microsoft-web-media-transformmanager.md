@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.Scheduler.CleanupWorkFolder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CleanupWorkFolder Method
@@ -34,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public MustOverride Sub CleanupWorkFolder ( _
@@ -48,13 +47,13 @@ Dim workFolder As String
 instance.CleanupWorkFolder(workFolder)
 ```
 
-``` csharp
+```csharp
   public abstract void CleanupWorkFolder(
     string workFolder
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual void CleanupWorkFolder(
     String^ workFolder
@@ -66,20 +65,20 @@ virtual void CleanupWorkFolder(
         workFolder:string -> unit 
 ```
 
-``` jscript
+```jscript
   public abstract function CleanupWorkFolder(
     workFolder : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - workFolder  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Scheduler Class](scheduler-class-microsoft-web-media-transformmanager.md)
 

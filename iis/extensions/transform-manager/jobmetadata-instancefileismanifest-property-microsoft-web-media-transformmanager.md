@@ -1,5 +1,5 @@
 ---
-title: JobMetadata.InstanceFileIsManifest Property  (Microsoft.Web.Media.TransformManager)
+title: JobMetadata.InstanceFileIsManifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InstanceFileIsManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.InstanceFileIsManifest
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmetadata.instancefileismanifest(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobMetadata.InstanceFileIsManifest
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_InstanceFileIsManifest
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # InstanceFileIsManifest Property
@@ -38,7 +37,7 @@ Gets a value that indicates whether the instance file is a manifest file.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property InstanceFileIsManifest As Boolean
@@ -51,11 +50,11 @@ Dim value As Boolean
 value = instance.InstanceFileIsManifest
 ```
 
-``` csharp
+```csharp
   public bool InstanceFileIsManifest { get; }
 ```
 
-``` c++
+```cpp
   public:
 virtual property bool InstanceFileIsManifest {
     bool get () sealed;
@@ -67,22 +66,22 @@ virtual property bool InstanceFileIsManifest {
 override InstanceFileIsManifest : bool
 ```
 
-``` jscript
+```jscript
   final function get InstanceFileIsManifest () : boolean
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the instance file is a manifest file; otherwise, false.  
 
-#### Implements
+### Implements
 
-[IJobMetadata. . :: . .InstanceFileIsManifest](ijobmetadata-instancefileismanifest-property-microsoft-web-media-transformmanager.md)  
+[IJobMetadata.InstanceFileIsManifest](ijobmetadata-instancefileismanifest-property-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobMetadata Class](jobmetadata-class-microsoft-web-media-transformmanager.md)
 

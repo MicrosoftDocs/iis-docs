@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.NotificationIncludeLogForFailedJob Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.NotificationIncludeLogForFailedJob Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: NotificationIncludeLogForFailedJob Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.NotificationIncludeLogForFailedJob
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.notificationincludelogforfailedjob(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_NotificationIncludeLogForFailedJob
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_NotificationIncludeLogForFailedJob
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # NotificationIncludeLogForFailedJob Property
@@ -40,7 +39,7 @@ Gets or sets a value that specifies that the log that is associated with a faile
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property NotificationIncludeLogForFailedJob As Boolean
@@ -56,12 +55,12 @@ value = instance.NotificationIncludeLogForFailedJob
 instance.NotificationIncludeLogForFailedJob = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public bool NotificationIncludeLogForFailedJob { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property bool NotificationIncludeLogForFailedJob {
@@ -75,19 +74,19 @@ property bool NotificationIncludeLogForFailedJob {
 member NotificationIncludeLogForFailedJob : bool with get, set
 ```
 
-``` jscript
+```jscript
   function get NotificationIncludeLogForFailedJob () : boolean
 function set NotificationIncludeLogForFailedJob (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the log that is associated with a failed job will be included in a failure notification POST request; otherwise, false.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

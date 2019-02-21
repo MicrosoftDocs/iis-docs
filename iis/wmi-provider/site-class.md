@@ -1,15 +1,7 @@
 ---
-title: "Site Class1 | Microsoft Docs"
-ms.custom: ""
+title: "Site Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1d576513-006e-e5ac-1356-7afad97a7787
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Site Class1
 Represents an IIS Web site.  
@@ -55,7 +47,7 @@ class Site : ConfiguredObject
  You cannot set the physical path for a Web site by using the `Site` class. Use the `PhysicalPath` property of the root [VirtualDirectory](../wmi-provider/virtualdirectory-class.md) object instead.  
   
 > [!NOTE]
->  You must set the `ApplicationPool` property on the root [Application](../wmi-provider/application-class.md) object, not on the `Site` object.  
+> You must set the `ApplicationPool` property on the root [Application](../wmi-provider/application-class.md) object, not on the `Site` object.  
   
 ## Example  
  The following example sets the physical path for the default Web site.  

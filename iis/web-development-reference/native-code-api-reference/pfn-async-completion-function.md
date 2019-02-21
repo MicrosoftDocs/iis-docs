@@ -1,15 +1,7 @@
 ---
-title: "PFN_ASYNC_COMPLETION function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_ASYNC_COMPLETION function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b67d92d6-e099-4a9a-9862-993f00ff395b
-caps.latest.revision: 3
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_ASYNC_COMPLETION function
 Defines the asynchronous completion function prototype.  
@@ -24,7 +16,7 @@ typedef REQUEST_NOTIFICATION_STATUS(WINAPI* PFN_ASYNC_COMPLETION)(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  A pointer to an [IHttpContext3](../../web-development-reference\native-code-api-reference/ihttpcontext3-interface.md) interface.  
   

@@ -1,16 +1,8 @@
 ---
-title: "Native-Code API Reference | Microsoft Docs"
-ms.custom: ""
+title: "Native-Code API Reference"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f35ce15b-af8a-4961-bd8d-5ee46ae41c87
-caps.latest.revision: 7
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # Native-Code API Reference
 This section of the IIS SDK discusses the APIs that are available to native-code developers in IIS 7 and IIS 8.  

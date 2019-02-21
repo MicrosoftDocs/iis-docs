@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
@@ -21,19 +21,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheRequest Constructor (Stream)
 
-Initializes a new instance of the [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) class from a [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\)) object.
+Initializes a new instance of the [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) class from a [Stream](https://msdn.microsoft.com/library/8f86tw9e) object.
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -46,48 +45,48 @@ Initializes a new instance of the [CacheRequest](cacherequest-class-microsoft-we
 Dim instance As New CacheRequest(stream)
 ```
 
-``` csharp
+```csharp
   public CacheRequest(
     Stream stream
 )
 ```
 
-``` c++
+```cpp
   public:
 CacheRequest(
     Stream^ stream
 )
 ```
 
-``` jscript
+```jscript
   public function CacheRequest(
     stream : Stream
 )
 ```
 
-#### Parameters
+### Parameters
 
   - stream  
-    Type: [System.IO. . :: . .Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\))  
-    A [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\)) object.  
+    Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e)  
+    A [Stream](https://msdn.microsoft.com/library/8f86tw9e) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheRequest Class](cacherequest-class-microsoft-web-media-smoothstreaming_1.md)
 

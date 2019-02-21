@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse2::Flush Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse2::Flush Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 238fa073-667c-41bd-9f25-68407b2b1f10
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse2::Flush Method
 Sends all currently buffered output of an asynchronous operation to the client.  
@@ -27,7 +19,7 @@ Virtual HRESULT Flush(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `fAsynch`  
  [IN] `true` to complete the operation asynchronously; otherwise, `false`.  
   

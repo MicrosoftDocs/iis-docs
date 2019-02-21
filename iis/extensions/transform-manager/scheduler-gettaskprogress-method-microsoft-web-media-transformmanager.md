@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.Scheduler.GetTaskProgress
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetTaskProgress Method
@@ -36,7 +35,7 @@ Returns task progress for the specified job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public MustOverride Function GetTaskProgress ( _
@@ -51,13 +50,13 @@ Dim returnValue As TaskDetails
 returnValue = instance.GetTaskProgress(jobInstanceId)
 ```
 
-``` csharp
+```csharp
   public abstract TaskDetails GetTaskProgress(
     string jobInstanceId
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual TaskDetails GetTaskProgress(
     String^ jobInstanceId
@@ -69,26 +68,26 @@ virtual TaskDetails GetTaskProgress(
         jobInstanceId:string -> TaskDetails 
 ```
 
-``` jscript
+```jscript
   public abstract function GetTaskProgress(
     jobInstanceId : String
 ) : TaskDetails
 ```
 
-#### Parameters
+### Parameters
 
   - jobInstanceId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .TaskDetails](taskdetails-structure-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.TaskDetails](taskdetails-structure-microsoft-web-media-transformmanager.md)  
 The task progress.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Scheduler Class](scheduler-class-microsoft-web-media-transformmanager.md)
 

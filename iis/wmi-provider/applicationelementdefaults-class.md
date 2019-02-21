@@ -1,15 +1,7 @@
 ---
-title: "ApplicationElementDefaults Class2 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationElementDefaults Class2"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a07c6d97-5338-8e18-a96e-ece01b6b7738
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationElementDefaults Class2
 Specifies the default application pool and enabled protocols for new applications.  

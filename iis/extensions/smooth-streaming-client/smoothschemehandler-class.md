@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ Represents the Smooth Scheme Handler.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 [ActivatableAttribute()]
 public sealed class SmoothSchemeHandler : IMediaExtension
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 [ActivatableAttribute()]
 public ref class SmoothSchemeHandler sealed : IMediaExtension
 ```
 
-``` jscript
+```jscript
 public final class SmoothSchemeHandler implements IMediaExtension
 ```
 

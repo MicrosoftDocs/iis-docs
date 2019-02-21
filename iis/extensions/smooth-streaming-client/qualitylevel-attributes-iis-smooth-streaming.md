@@ -137,7 +137,7 @@ For presentations that use content protection, the following defaults are in eff
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Stream Type, Subtype, Other Attributes (IIS Smooth Streaming)](stream-type-subtype-other-attributes.md)
 

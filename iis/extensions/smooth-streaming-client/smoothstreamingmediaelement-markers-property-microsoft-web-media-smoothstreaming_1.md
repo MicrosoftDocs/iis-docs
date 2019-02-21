@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.Markers Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.Markers Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Markers Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Markers
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.markers(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Markers
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_Markers
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.Markers Property
@@ -38,7 +37,7 @@ Gets the markers collection.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property Markers As TimelineMarkerCollection
@@ -51,11 +50,11 @@ Dim value As TimelineMarkerCollection
 value = instance.Markers
 ```
 
-``` csharp
+```csharp
 public TimelineMarkerCollection Markers { get; }
 ```
 
-``` c++
+```cpp
 public:
 property TimelineMarkerCollection^ Markers {
     TimelineMarkerCollection^ get ();
@@ -66,13 +65,13 @@ property TimelineMarkerCollection^ Markers {
 member Markers : TimelineMarkerCollection
 ```
 
-``` jscript
+```jscript
 function get Markers () : TimelineMarkerCollection
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Windows.Media.TimelineMarkerCollection](https://msdn.microsoft.com/en-us/library/cc190313\(v=vs.95\))  
+Type: [System.Windows.Media.TimelineMarkerCollection](https://msdn.microsoft.com/library/cc190313\(v=vs.95\))  
 A collection of timeline markers.
 
 ## Remarks
@@ -81,13 +80,13 @@ For more information, see [Timeline Markers and Events](timeline-markers-and-eve
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

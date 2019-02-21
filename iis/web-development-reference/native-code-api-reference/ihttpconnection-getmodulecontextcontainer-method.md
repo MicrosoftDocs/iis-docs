@@ -1,15 +1,7 @@
 ---
-title: "IHttpConnection::GetModuleContextContainer Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpConnection::GetModuleContextContainer Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: af3ebc74-5cbd-11bd-5674-50e9ab9267b2
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpConnection::GetModuleContextContainer Method
 Returns the module context container for the connection.  
@@ -22,7 +14,7 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

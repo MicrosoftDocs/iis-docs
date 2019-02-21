@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigException::PostErrorLine Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigException::PostErrorLine Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a1d4a093-133e-170f-fb48-82e1a67f3ca0
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigException::PostErrorLine Property
 Gets the contents of the line after the line in the configuration file that caused the current exception to be thrown.  
@@ -23,7 +15,7 @@ HRESULT get_PostErrorLine(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrPostErrorLine`  
  A pointer to a `BSTR` that contains the line after the line that caused the exception.  
   

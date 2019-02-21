@@ -133,7 +133,7 @@ Suppose the administrator wants to ensure that all users of a particular site mu
 
 This configuration denies access to anonymous users (\? = anonymous users, * = all users). With the lockElements="clear", you ensure that no one on a lower level can clear the inheritance of this setting. Your setting would be inherited to all applications and virtual directories of this site. It comes to a lock violation when you try to use the &lt;clear/&gt; statement at a lower level.
 
-For more information on configuration locking, see [https://msdn.microsoft.com/en-us/library/ms178693.aspx](https://msdn.microsoft.com/en-us/library/ms178693.aspx).
+For more information on configuration locking, see [https://msdn.microsoft.com/library/ms178693.aspx](https://msdn.microsoft.com/library/ms178693.aspx).
 
 You can also lock the clear element in ASP.NET Url Authorization. The problem is that ASP.NET URL Authorization evaluates authorization rules from the bottom up, i.e. it first evaluates rules in the current web.config file before it evaluates parent rules. As soon as a match is found, access is granted or denied. In the above example, you can still grant access to anonymous users by specifying &lt;add users="\?"/&gt; as an authorization rule in the secure web.config file. Because it gets evaluated first, anonymous users would be granted access.
 

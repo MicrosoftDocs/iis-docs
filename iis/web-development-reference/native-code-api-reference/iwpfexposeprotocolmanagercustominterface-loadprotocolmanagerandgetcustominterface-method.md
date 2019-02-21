@@ -7,7 +7,7 @@ ms:contentKeyID: 6824802
 ms.date: 03/09/2018
 mtps_version: v=VS.90
 dev_langs:
-- c++
+- "cpp"
 ---
 
 # IWpfExposeProtocolManagerCustomInterface::LoadProtocolManagerAndGetCustomInterface Method
@@ -18,7 +18,7 @@ Loads a specified protocol manager and retrieves an interface for that protocol 
 
 ## Syntax
 
-``` c++
+```cpp
 virtual HRESULT LoadProtocolManagerAndGetCustomInterface(  
    IN PCWSTR pProtocolManagerDll,  
    IN PCWSTR pProtocolManagerDllInitFunction,  
@@ -27,7 +27,7 @@ virtual HRESULT LoadProtocolManagerAndGetCustomInterface(
 ) = 0;  
 ```
 
-#### Parameters
+### Parameters
 
 `pProtocolManagerDll`  
 The DLL for the protocol manager to load.

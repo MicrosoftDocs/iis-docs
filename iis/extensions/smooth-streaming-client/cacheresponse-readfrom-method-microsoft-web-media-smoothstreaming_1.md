@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.ReadFrom
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,19 +24,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse.ReadFrom Method
 
-Reads the response from a [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\)) object. There is no default implementation for this method. Calling the method without implementing an override will result in a [NotSupportedException](https://msdn.microsoft.com/en-us/library/8a7a4e64\(v=vs.95\)).
+Reads the response from a [Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\)) object. There is no default implementation for this method. Calling the method without implementing an override will result in a [NotSupportedException](https://msdn.microsoft.com/library/8a7a4e64\(v=vs.95\)).
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Overridable Sub ReadFrom ( _
@@ -50,13 +49,13 @@ Dim stream As Stream
 instance.ReadFrom(stream)
 ```
 
-``` csharp
+```csharp
 public virtual void ReadFrom(
     Stream stream
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual void ReadFrom(
     Stream^ stream
@@ -70,31 +69,31 @@ override ReadFrom :
         stream:Stream -> unit 
 ```
 
-``` jscript
+```jscript
 public function ReadFrom(
     stream : Stream
 )
 ```
 
-#### Parameters
+### Parameters
 
   - stream  
-    Type: [System.IO.Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\))  
-    The [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\)) object.
+    Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\))  
+    The [Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

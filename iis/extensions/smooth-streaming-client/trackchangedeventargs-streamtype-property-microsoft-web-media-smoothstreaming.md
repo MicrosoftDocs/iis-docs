@@ -1,5 +1,5 @@
 ---
-title: TrackChangedEventArgs.StreamType Property  (Microsoft.Web.Media.SmoothStreaming)
+title: TrackChangedEventArgs.StreamType Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamType Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.StreamType
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackchangedeventargs.streamtype(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.get_StreamType
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.set_StreamType
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamType Property
@@ -39,7 +38,7 @@ Gets or sets the StreamType property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property StreamType As MediaStreamType
@@ -51,11 +50,11 @@ Dim value As MediaStreamType
 value = instance.StreamType
 ```
 
-``` csharp
+```csharp
   public MediaStreamType StreamType { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property MediaStreamType StreamType {
     MediaStreamType get ();
@@ -63,33 +62,33 @@ property MediaStreamType StreamType {
 }
 ```
 
-``` jscript
+```jscript
   function get StreamType () : MediaStreamType
 private function set StreamType (value : MediaStreamType)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Windows.Media. . :: . .MediaStreamType](https://msdn.microsoft.com/en-us/library/cc672180\(v=vs.90\))  
+Type: [System.Windows.Media.MediaStreamType](https://msdn.microsoft.com/library/cc672180)  
 A MediaStream object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackChangedEventArgs Class](trackchangedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

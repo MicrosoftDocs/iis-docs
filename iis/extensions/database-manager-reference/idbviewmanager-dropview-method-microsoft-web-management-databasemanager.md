@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbViewManager.DropView
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbViewManager.DropView Method
@@ -35,7 +34,7 @@ Removes a view from the database.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Sub DropView ( _
     connectionString As String, _
@@ -52,7 +51,7 @@ instance.DropView(connectionString, schema, _
     viewName)
 ```
 
-``` csharp
+```csharp
 void DropView(
     string connectionString,
     string schema,
@@ -60,7 +59,7 @@ void DropView(
 )
 ```
 
-``` c++
+```cpp
 void DropView(
     String^ connectionString, 
     String^ schema, 
@@ -68,7 +67,7 @@ void DropView(
 )
 ```
 
-``` jscript
+```jscript
 function DropView(
     connectionString : String, 
     schema : String, 
@@ -76,23 +75,23 @@ function DropView(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
 <!-- end list -->
 
   - schema  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the view.  
     **Note**    If schema is empty, the default schema name will be used.  
 
 <!-- end list -->
 
   - viewName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the view to drop.  
 
 ## Remarks
@@ -101,7 +100,7 @@ All database providers that implement the [IDbViewManager](idbviewmanager-interf
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider does not support deleting views, you can use the following code sample to raise a not-implemented exception:
 
@@ -122,7 +121,7 @@ public void DropView(string connectionString, string schema, string viewName)
 
 The following code sample implements the DropView method to remove a view from a database in an OLEDB data source.
 
-``` vb
+```vb
 
     ' Remove a view from the database.
     Public Sub DropView( _
@@ -146,7 +145,7 @@ The following code sample implements the DropView method to remove a view from a
 
 ```
 
-``` csharp
+```csharp
 
         // Remove a view from the database.
         public void DropView(string connectionString, string schema, string viewName)
@@ -171,11 +170,11 @@ The following code sample implements the DropView method to remove a view from a
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbViewManager Interface](idbviewmanager-interface-microsoft-web-management-databasemanager.md)
 

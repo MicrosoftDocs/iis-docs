@@ -1,15 +1,7 @@
 ---
-title: "IWpfSettings::GetUlonglongProperty Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfSettings::GetUlonglongProperty Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b4654835-6827-0db2-3669-6ea67d4f8d05
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfSettings::GetUlonglongProperty Method
 Retrieves a `ULONGLONG` value from the worker process or application pool settings.  
@@ -23,7 +15,7 @@ virtual HRESULT GetUlonglongProperty(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `SettingId`  
  [IN] A [WPF_SETTINGS_ULONGLONG_ENUM](../../web-development-reference\native-code-api-reference/wpf-settings-ulonglong-enum-enumeration.md) value that specifies which `ULONGLONG` value to return.  
   

@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnReleaseRequestState Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnReleaseRequestState Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 367d5db1-d91f-fb0a-539b-1807e705f539
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnReleaseRequestState Method
 Represents the method that will handle a `ReleaseRequestState` event, which occurs when the current state is released.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnReleaseRequestState(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

@@ -1,5 +1,5 @@
 ---
-title: ChunkDownloadedEventArgs.Chunk Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ChunkDownloadedEventArgs.Chunk Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Chunk Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.Chunk
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.chunk(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.set_Chunk
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.Chunk
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkDownloadedEventArgs.Chunk Property
@@ -40,7 +39,7 @@ Gets the chunk being downloaded.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Chunk As ChunkInfo
@@ -54,11 +53,11 @@ Dim value As ChunkInfo
 value = instance.Chunk
 ```
 
-``` csharp
+```csharp
 public ChunkInfo Chunk { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property ChunkInfo^ Chunk {
     ChunkInfo^ get ();
@@ -70,25 +69,25 @@ property ChunkInfo^ Chunk {
 member Chunk : ChunkInfo with get, private set
 ```
 
-``` jscript
+```jscript
 function get Chunk () : ChunkInfo
 private function set Chunk (value : ChunkInfo)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.ChunkInfo](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md)  
 A ChunkInfo object that represents the chunk being downloaded.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkDownloadedEventArgs Class](chunkdownloadedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

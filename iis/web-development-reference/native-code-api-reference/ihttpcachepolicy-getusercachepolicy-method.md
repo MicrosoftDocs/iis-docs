@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy::GetUserCachePolicy Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy::GetUserCachePolicy Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8d007e1a-16e6-ab44-bb60-7ce16e56f806
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy::GetUserCachePolicy Method
 Returns the cache policy for the user.  
@@ -22,7 +14,7 @@ virtual HTTP_CACHE_POLICY* GetUserCachePolicy(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

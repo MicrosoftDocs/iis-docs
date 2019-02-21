@@ -1,5 +1,5 @@
 ---
-title: JobDetails.JobDefinitionName Property  (Microsoft.Web.Media.TransformManager)
+title: JobDetails.JobDefinitionName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinitionName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.JobDefinitionName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.jobdefinitionname(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.set_JobDefinitionName
 - Microsoft.Web.Media.TransformManager.JobDetails.get_JobDefinitionName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDefinitionName Property
@@ -40,7 +39,7 @@ Gets or sets the name of the [JobDefinition](jobdefinition-class-microsoft-web-m
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property JobDefinitionName As String
@@ -56,12 +55,12 @@ value = instance.JobDefinitionName
 instance.JobDefinitionName = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string JobDefinitionName { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ JobDefinitionName {
@@ -75,19 +74,19 @@ property String^ JobDefinitionName {
 member JobDefinitionName : string with get, set
 ```
 
-``` jscript
+```jscript
   function get JobDefinitionName () : String
 function set JobDefinitionName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The name of the job definition that created this job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

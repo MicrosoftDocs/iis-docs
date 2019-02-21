@@ -1,5 +1,5 @@
 ---
-title: AdvancedLoggingPlugin.TimerInterval Property  (Microsoft.Web.Media.Diagnostics)
+title: AdvancedLoggingPlugin.TimerInterval Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TimerInterval Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.TimerInterval
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.advancedloggingplugin.timerinterval(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.set_TimerInterval
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.TimerInterval
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TimerInterval Property
@@ -39,7 +38,7 @@ Gets or sets the timer interval for periodic advanced logging posts.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property TimerInterval As TimeSpan
@@ -53,11 +52,11 @@ value = instance.TimerInterval
 instance.TimerInterval = value
 ```
 
-``` csharp
+```csharp
   public TimeSpan TimerInterval { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property TimeSpan TimerInterval {
     TimeSpan get ();
@@ -65,33 +64,33 @@ property TimeSpan TimerInterval {
 }
 ```
 
-``` jscript
+```jscript
   function get TimerInterval () : TimeSpan
 function set TimerInterval (value : TimeSpan)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\))  
-A [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\)) object.  
+Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577)  
+A [TimeSpan](https://msdn.microsoft.com/library/269ew577) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [AdvancedLoggingPlugin Class](advancedloggingplugin-class-microsoft-web-media-diagnostics_1.md)
 

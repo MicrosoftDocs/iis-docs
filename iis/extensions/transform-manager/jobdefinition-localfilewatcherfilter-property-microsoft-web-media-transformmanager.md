@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.LocalFileWatcherFilter Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.LocalFileWatcherFilter Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LocalFileWatcherFilter Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.LocalFileWatcherFilter
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.localfilewatcherfilter(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.LocalFileWatcherFilter
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_LocalFileWatcherFilter
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LocalFileWatcherFilter Property
@@ -40,7 +39,7 @@ Gets or sets a file filter value that is used to initiate job creation.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property LocalFileWatcherFilter As String
@@ -56,12 +55,12 @@ value = instance.LocalFileWatcherFilter
 instance.LocalFileWatcherFilter = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string LocalFileWatcherFilter { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ LocalFileWatcherFilter {
@@ -75,14 +74,14 @@ property String^ LocalFileWatcherFilter {
 member LocalFileWatcherFilter : string with get, set
 ```
 
-``` jscript
+```jscript
   function get LocalFileWatcherFilter () : String
 function set LocalFileWatcherFilter (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A file filter value that is used to initiate job creation.  
 
 ## Remarks
@@ -91,7 +90,7 @@ Filters can be for simple file types or for SMIL 2.0-compliant manifests. If the
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

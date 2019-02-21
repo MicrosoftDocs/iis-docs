@@ -1,5 +1,5 @@
 ---
-title: ManifestProperty.CultureInfoMoniker Property  (Microsoft.Web.Media.TransformManager)
+title: ManifestProperty.CultureInfoMoniker Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CultureInfoMoniker Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.CultureInfoMoniker
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestproperty.cultureinfomoniker(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.set_CultureInfoMoniker
 - Microsoft.Web.Media.TransformManager.ManifestProperty.get_CultureInfoMoniker
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CultureInfoMoniker Property
@@ -40,7 +39,7 @@ Gets or sets a value that represents the culture language.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property CultureInfoMoniker As String
@@ -56,12 +55,12 @@ value = instance.CultureInfoMoniker
 instance.CultureInfoMoniker = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string CultureInfoMoniker { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ CultureInfoMoniker {
@@ -75,19 +74,19 @@ property String^ CultureInfoMoniker {
 member CultureInfoMoniker : string with get, set
 ```
 
-``` jscript
+```jscript
   function get CultureInfoMoniker () : String
 function set CultureInfoMoniker (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The culture language.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IWpfActions Interface | Microsoft Docs"
-ms.custom: ""
+title: "IWpfActions Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 66a0c836-9313-85e0-936c-975987275500
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfActions Interface
 Allows a protocol manager to request that the worker process framework request a recycle or an immediate shutdown of the host process from the process manager.  

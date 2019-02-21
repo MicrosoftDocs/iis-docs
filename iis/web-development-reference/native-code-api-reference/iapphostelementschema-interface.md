@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementSchema Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementSchema Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 07dfe345-8a9f-5347-b895-839d7d1234ca
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementSchema Interface
 Represents the schema of a configuration element.  

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigLocationCollection::Count Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigLocationCollection::Count Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 263bf244-ccc9-d852-7c79-64b660fe765e
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigLocationCollection::Count Property
 Gets the number of configuration locations in the collection.  
@@ -23,7 +15,7 @@ HRESULT get_Count(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcCount`  
  A pointer to a `DWORD` that contains the number of configuration locations in the collection  
   

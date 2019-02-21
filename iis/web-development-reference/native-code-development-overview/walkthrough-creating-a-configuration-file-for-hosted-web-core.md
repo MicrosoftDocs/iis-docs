@@ -1,15 +1,7 @@
 ---
-title: "Walkthrough: Creating a Configuration File for Hosted Web Core | Microsoft Docs"
-ms.custom: ""
+title: "Walkthrough: Creating a Configuration File for Hosted Web Core"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d7d79047-cb09-4e1d-b7c8-5b48951be121
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Walkthrough: Creating a Configuration File for Hosted Web Core
 This walkthrough demonstrates how to create a configuration file for use with the Hosted Web Core features that are available in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)].  
@@ -31,7 +23,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
 -   [!INCLUDE[vsprvslong](../../wmi-provider/includes/vsprvslong-md.md)].  
   
 > [!NOTE]
->  You may also use Visual Studio .NET 2003 or earlier, although the walkthrough steps may not be identical.  
+> You may also use Visual Studio .NET 2003 or earlier, although the walkthrough steps may not be identical.  
   
 ## Creating a Configuration File  
  The steps in this part of the walkthrough will help you create a new configuration file for use with a Hosted Web Core application that contains the settings that are required to serve static content.  
@@ -200,7 +192,7 @@ This walkthrough demonstrates how to create a configuration file for use with th
     ```  
   
 > [!NOTE]
->  You can change the file paths and server bindings in the XML settings as appropriate for your application.  
+> You can change the file paths and server bindings in the XML settings as appropriate for your application.  
   
 ## Adding the \<system.webServer> Settings  
   

@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.Complete
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingAsyncResult.Complete Method
@@ -36,7 +35,7 @@ Called when the operation has completed.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub Complete ( _
@@ -52,14 +51,14 @@ Dim completedSynchronously As Boolean
 instance.Complete(result, completedSynchronously)
 ```
 
-``` csharp
+```csharp
 public void Complete(
     Object result,
     bool completedSynchronously
 )
 ```
 
-``` c++
+```cpp
 public:
 void Complete(
     Object^ result, 
@@ -73,34 +72,34 @@ member Complete :
         completedSynchronously:bool -> unit 
 ```
 
-``` jscript
+```jscript
 public function Complete(
     result : Object, 
     completedSynchronously : boolean
 )
 ```
 
-#### Parameters
+### Parameters
 
   - result  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
     The results of calling the [BeginGetChunk(TimeSpan, AsyncCallback, Object)](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) method.
 
 <!-- end list -->
 
   - completedSynchronously  
-    Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
     true to indicate that the method completed synchronously; otherwise, false.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingAsyncResult Class](smoothstreamingasyncresult-class-microsoft-web-media-smoothstreaming.md)
 

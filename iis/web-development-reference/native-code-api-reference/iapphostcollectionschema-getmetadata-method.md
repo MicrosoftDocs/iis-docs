@@ -1,15 +1,7 @@
 ---
-title: "IAppHostCollectionSchema::GetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostCollectionSchema::GetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a882b65c-25bd-3e7d-a218-f41f1d6fdc8e
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostCollectionSchema::GetMetadata Method
 Gets metadata from the collection schema.  
@@ -25,7 +17,7 @@ HRESULT GetMetadata(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata to return.  
   

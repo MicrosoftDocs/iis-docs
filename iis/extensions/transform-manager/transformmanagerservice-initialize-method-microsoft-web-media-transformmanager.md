@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.Initialize
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Initialize Method
@@ -36,7 +35,7 @@ Initializes the transform manager service.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Sub Initialize ( _
@@ -49,13 +48,13 @@ Initializes the transform manager service.
 TransformManagerService.Initialize(logger)
 ```
 
-``` csharp
+```csharp
   public static void Initialize(
     Logger logger
 )
 ```
 
-``` c++
+```cpp
   public:
 static void Initialize(
     Logger^ logger
@@ -67,21 +66,21 @@ static void Initialize(
         logger:Logger -> unit 
 ```
 
-``` jscript
+```jscript
   public static function Initialize(
     logger : Logger
 )
 ```
 
-#### Parameters
+### Parameters
 
   - logger  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .Logger](logger-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.Logger](logger-class-microsoft-web-media-transformmanager.md)  
     The [Logger](logger-class-microsoft-web-media-transformmanager.md) object that is used to provide access to task definition and job template properties.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

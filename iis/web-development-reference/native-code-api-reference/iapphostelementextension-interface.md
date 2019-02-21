@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementExtension Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementExtension Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a59b1d04-31f6-470a-9ee2-f6068b755e7f
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementExtension Interface
 Used to handle element extensions in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  

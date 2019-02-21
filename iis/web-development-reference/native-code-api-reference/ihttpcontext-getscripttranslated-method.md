@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetScriptTranslated Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetScriptTranslated Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 80a1063c-b33b-7af1-b445-1a49922cd728
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetScriptTranslated Method
 Retrieves the physical path of the current request.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetScriptTranslated(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcchScriptName`  
  A pointer to a `DWORD` that receives the length of the returned string.  
   

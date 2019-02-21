@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.TraceFunctionEntry Method (TraceArea)
@@ -34,7 +33,7 @@ Records the entry into a function as specified by the parameters.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Sub TraceFunctionEntry ( _
@@ -47,13 +46,13 @@ Dim traceArea As TraceArea
 Tracing.TraceFunctionEntry(traceArea)
 ```
 
-``` csharp
+```csharp
 public static void TraceFunctionEntry(
     TraceArea traceArea
 )
 ```
 
-``` c++
+```cpp
 public:
 static void TraceFunctionEntry(
     TraceArea traceArea
@@ -65,13 +64,13 @@ static member TraceFunctionEntry :
         traceArea:TraceArea -> unit 
 ```
 
-``` jscript
+```jscript
 public static function TraceFunctionEntry(
     traceArea : TraceArea
 )
 ```
 
-#### Parameters
+### Parameters
 
   - traceArea  
     Type: [Microsoft.Web.Media.Diagnostics.TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
@@ -79,17 +78,17 @@ public static function TraceFunctionEntry(
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

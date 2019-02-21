@@ -1,18 +1,10 @@
 ---
-title: "SqlCacheDependencySection Class | Microsoft Docs"
-ms.custom: ""
+title: "SqlCacheDependencySection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2a4b23dc-734b-7b32-bd9e-724ce3d88fb2
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SqlCacheDependencySection Class
-Represents a [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency?view=netframework-4.7.2) configuration section.  
+Represents a [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency) configuration section.  
   
 ## Syntax  
   
@@ -51,7 +43,7 @@ class SqlCacheDependencySection : ConfigurationSectionWithCollection
  This class contains no subclasses.  
   
 ## Remarks  
- This class allows data stored in an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application [System.Web.Caching.Cache](/dotnet/api/system.web.caching.cache?view=netframework-4.7.2) object to be updated when changes are made to its SQL Server data source (table or query). When the database table or query changes, the cached item is automatically deleted, and a new version of the item is added to the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] cache.  
+ This class allows data stored in an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application [System.Web.Caching.Cache](/dotnet/api/system.web.caching.cache) object to be updated when changes are made to its SQL Server data source (table or query). When the database table or query changes, the cached item is automatically deleted, and a new version of the item is added to the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] cache.  
   
 ## Inheritance Hierarchy  
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
@@ -70,8 +62,8 @@ class SqlCacheDependencySection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency?view=netframework-4.7.2)
- [System.Web.Caching.Cache](/dotnet/api/system.web.caching.cache?view=netframework-4.7.2)
+ [System.Web.Caching.SqlCacheDependency](/dotnet/api/system.web.caching.sqlcachedependency)
+ [System.Web.Caching.Cache](/dotnet/api/system.web.caching.cache)
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [SqlCacheDependencyDatabase Class](../wmi-provider/sqlcachedependencydatabase-class.md)   
  [SqlCacheDependencyDatabaseSettings Class](../wmi-provider/sqlcachedependencydatabasesettings-class.md)

@@ -1,15 +1,7 @@
 ---
-title: "VirtualDirectory Class2 | Microsoft Docs"
-ms.custom: ""
+title: "VirtualDirectory Class2"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 87c349b9-1d64-ac13-cb24-e70a5c209b6e
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # VirtualDirectory Class2
 Represents an IIS virtual directory.  

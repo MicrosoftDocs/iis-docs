@@ -1,15 +1,7 @@
 ---
-title: "IWpfSettings::GetDwordProperty Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfSettings::GetDwordProperty Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e2364a5c-543c-8434-7ad3-c4e56508f7b5
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfSettings::GetDwordProperty Method
 Retrieves a `DWORD` value from the worker process or application pool settings.  
@@ -23,7 +15,7 @@ virtual HRESULT GetDwordProperty(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `SettingId`  
  [IN] A [WPF_SETTINGS_DWORD_ENUM](../../web-development-reference\native-code-api-reference/wpf-settings-dword-enum-enumeration.md) value that specifies which `DWORD` value to return.  
   

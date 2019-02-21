@@ -1,5 +1,5 @@
 ---
-title: CacheResponse.Headers Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse.Headers Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Headers Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.Headers
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.headers(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.Headers
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_Headers
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse.Headers Property
@@ -40,7 +39,7 @@ Gets a metadata collection of responses.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Headers As WebHeaderCollection
@@ -56,11 +55,11 @@ value = instance.Headers
 instance.Headers = value
 ```
 
-``` csharp
+```csharp
 public WebHeaderCollection Headers { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property WebHeaderCollection^ Headers {
     WebHeaderCollection^ get ();
@@ -72,29 +71,29 @@ property WebHeaderCollection^ Headers {
 member Headers : WebHeaderCollection with get, set
 ```
 
-``` jscript
+```jscript
 function get Headers () : WebHeaderCollection
 function set Headers (value : WebHeaderCollection)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Net.WebHeaderCollection](https://msdn.microsoft.com/en-us/library/1beth6ct\(v=vs.95\))  
+Type: [System.Net.WebHeaderCollection](https://msdn.microsoft.com/library/1beth6ct\(v=vs.95\))  
 A System.NetWebHeaderCollection object that contains the responses.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

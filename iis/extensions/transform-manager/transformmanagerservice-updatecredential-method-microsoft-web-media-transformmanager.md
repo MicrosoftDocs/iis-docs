@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateCredential
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateCredential Method
@@ -36,7 +35,7 @@ Adds or replaces a [Credential](credential-class-microsoft-web-media-transformma
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Sub UpdateCredential ( _
@@ -50,14 +49,14 @@ Dim credential As Credential
 instance.UpdateCredential(credential)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public void UpdateCredential(
     Credential credential
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual void UpdateCredential(
@@ -74,25 +73,25 @@ override UpdateCredential :
         credential:Credential -> unit 
 ```
 
-``` jscript
+```jscript
   public final function UpdateCredential(
     credential : Credential
 )
 ```
 
-#### Parameters
+### Parameters
 
   - credential  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .Credential](credential-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.Credential](credential-class-microsoft-web-media-transformmanager.md)  
     A new or existing [Credential](credential-class-microsoft-web-media-transformmanager.md) object.  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .UpdateCredential(Credential)](imanagementservice-updatecredential-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.UpdateCredential(Credential)](imanagementservice-updatecredential-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

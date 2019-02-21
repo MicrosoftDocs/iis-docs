@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
@@ -21,7 +21,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse Constructor (Int64, String, WebHeaderCollection, Stream, HttpStatusCode, String, DateTime)
@@ -33,7 +32,7 @@ Initializes a new instance of the [CacheResponse](cacheresponse-class-microsoft-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -60,7 +59,7 @@ Dim instance As New CacheResponse(contentLength, _
     statusDescription, downloadTime)
 ```
 
-``` csharp
+```csharp
   public CacheResponse(
     long contentLength,
     string contentType,
@@ -72,7 +71,7 @@ Dim instance As New CacheResponse(contentLength, _
 )
 ```
 
-``` c++
+```cpp
   public:
 CacheResponse(
     long long contentLength, 
@@ -85,7 +84,7 @@ CacheResponse(
 )
 ```
 
-``` jscript
+```jscript
   public function CacheResponse(
     contentLength : long, 
     contentType : String, 
@@ -97,65 +96,65 @@ CacheResponse(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - contentLength  
-    Type: [System. . :: . .Int64](https://msdn.microsoft.com/en-us/library/6yy583ek\(v=vs.90\))  
+    Type: [System.Int64](https://msdn.microsoft.com/library/6yy583ek)  
     A long integer that contains the length of the response in bytes.  
 
 <!-- end list -->
 
   - contentType  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     A string object that identifies the content type.  
 
 <!-- end list -->
 
   - headers  
-    Type: [System.Net. . :: . .WebHeaderCollection](https://msdn.microsoft.com/en-us/library/1beth6ct\(v=vs.90\))  
+    Type: [System.Net.WebHeaderCollection](https://msdn.microsoft.com/library/1beth6ct)  
     A NetWebHeaderCollection.  
 
 <!-- end list -->
 
   - response  
-    Type: [System.IO. . :: . .Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\))  
-    A [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\)) object that contains the response.  
+    Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e)  
+    A [Stream](https://msdn.microsoft.com/library/8f86tw9e) object that contains the response.  
 
 <!-- end list -->
 
   - statusCode  
-    Type: [System.Net. . :: . .HttpStatusCode](https://msdn.microsoft.com/en-us/library/f92ssyy1\(v=vs.90\))  
+    Type: [System.Net.HttpStatusCode](https://msdn.microsoft.com/library/f92ssyy1)  
     An HTTPStatusCode enumeration object.  
 
 <!-- end list -->
 
   - statusDescription  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     A string that contains the status description.  
 
 <!-- end list -->
 
   - downloadTime  
-    Type: [System. . :: . .DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.90\))  
-    A [DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.90\)) object.  
+    Type: [System.DateTime](https://msdn.microsoft.com/library/03ybds8y)  
+    A [DateTime](https://msdn.microsoft.com/library/03ybds8y) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

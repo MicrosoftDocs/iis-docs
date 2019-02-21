@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.GetChunkUri
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TrackInfo.GetChunkUri Method
@@ -36,7 +35,7 @@ Gets the Uri for the chunk identified by the timestamp parameter.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Function GetChunkUri ( _
@@ -51,13 +50,13 @@ Dim returnValue As Uri
 returnValue = instance.GetChunkUri(timestamp)
 ```
 
-``` csharp
+```csharp
 public Uri GetChunkUri(
     TimeSpan timestamp
 )
 ```
 
-``` c++
+```cpp
 public:
 Uri^ GetChunkUri(
     TimeSpan timestamp
@@ -69,36 +68,36 @@ member GetChunkUri :
         timestamp:TimeSpan -> Uri 
 ```
 
-``` jscript
+```jscript
 public function GetChunkUri(
     timestamp : TimeSpan
 ) : Uri
 ```
 
-#### Parameters
+### Parameters
 
   - timestamp  
-    Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))  
+    Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))  
     A Sytem.TimeSpan object.
 
-#### Return Value
+### Return Value
 
-Type: [System.Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\))  
-A [Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\)) object.
+Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\))  
+A [Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

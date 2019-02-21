@@ -1,5 +1,5 @@
 ---
-title: QueryResult.ColumnMetadata Property  (Microsoft.Web.Management.DatabaseManager)
+title: QueryResult.ColumnMetadata Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ColumnMetadata Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryResult.ColumnMetadata
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.queryresult.columnmetadata(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.QueryResult.ColumnMetadata
 - Microsoft.Web.Management.DatabaseManager.QueryResult.get_ColumnMetadata
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # QueryResult.ColumnMetadata Property
@@ -37,7 +36,7 @@ Returns a list of column metadata for a query result.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public ReadOnly Property ColumnMetadata As IList(Of QueryColumnMetadata)
 'Usage
@@ -47,24 +46,24 @@ Dim value As IList(Of QueryColumnMetadata)
 value = instance.ColumnMetadata
 ```
 
-``` csharp
+```csharp
 public IList<QueryColumnMetadata> ColumnMetadata { get; }
 ```
 
-``` c++
+```cpp
 public:
 property IList<QueryColumnMetadata^>^ ColumnMetadata {
     IList<QueryColumnMetadata^>^ get ();
 }
 ```
 
-``` jscript
+```jscript
 function get ColumnMetadata () : IList<QueryColumnMetadata>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.90\))\<[QueryColumnMetadata](querycolumnmetadata-class-microsoft-web-management-databasemanager.md)\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6)\<[QueryColumnMetadata](querycolumnmetadata-class-microsoft-web-management-databasemanager.md)\>  
 An IList interface that contains a collection of [QueryColumnMetadata](querycolumnmetadata-class-microsoft-web-management-databasemanager.md) objects.  
 
 ## Remarks
@@ -80,7 +79,7 @@ The following code sample implements the GetData method to retrieve the data in 
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     ' Retrieve data from a database.
     Public Function GetData( _
@@ -178,7 +177,7 @@ The following code sample implements the GetData method to retrieve the data in 
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve data from a database.
         public QueryResult GetData(string connectionString, string tableName, string schema)
@@ -286,11 +285,11 @@ The following code sample implements the GetData method to retrieve the data in 
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [QueryResult Class](queryresult-class-microsoft-web-management-databasemanager.md)
 

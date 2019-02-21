@@ -1,15 +1,7 @@
 ---
-title: "HttpRequest Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpRequest Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ed8a3b96-f70d-da12-6181-5f7a4ad734fd
-caps.latest.revision: 31
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpRequest Class
 Represents an HTTP request in a worker process.  

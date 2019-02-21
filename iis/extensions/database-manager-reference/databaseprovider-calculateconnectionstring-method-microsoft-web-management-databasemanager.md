@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.CalculateConnectionString
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseProvider.CalculateConnectionString Method
@@ -35,7 +34,7 @@ Returns the calculated connection string for the database provider.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public MustOverride Function CalculateConnectionString ( _
     arguments As ICollection(Of ConnectionArgument) _
@@ -48,34 +47,34 @@ Dim returnValue As String
 returnValue = instance.CalculateConnectionString(arguments)
 ```
 
-``` csharp
+```csharp
 public abstract string CalculateConnectionString(
     ICollection<ConnectionArgument> arguments
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual String^ CalculateConnectionString(
     ICollection<ConnectionArgument^>^ arguments
 ) abstract
 ```
 
-``` jscript
+```jscript
 public abstract function CalculateConnectionString(
     arguments : ICollection<ConnectionArgument>
 ) : String
 ```
 
-#### Parameters
+### Parameters
 
   - arguments  
-    Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/en-us/library/92t2ye13\(v=vs.90\))\<[ConnectionArgument](connectionargument-class-microsoft-web-management-databasemanager.md)\>  
+    Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/library/92t2ye13)\<[ConnectionArgument](connectionargument-class-microsoft-web-management-databasemanager.md)\>  
     The ICollection object that contains a collection of [ConnectionArgument](connectionargument-class-microsoft-web-management-databasemanager.md) objects.  
 
-#### Return Value
+### Return Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The calculated database connection string.  
 
 ## Remarks
@@ -86,7 +85,7 @@ Your provider must implement the CalculateConnectionString method in order to ge
 
 The following code sample illustrates an example CalculateConnectionString method that returns the connection string for a Microsoft Access database provider.
 
-``` vb
+```vb
 
     Public Overrides Function CalculateConnectionString( _
             ByVal arguments As System.Collections.Generic.ICollection( _
@@ -111,7 +110,7 @@ The following code sample illustrates an example CalculateConnectionString metho
 
 ```
 
-``` csharp
+```csharp
 
         public override string CalculateConnectionString(
             ICollection<ConnectionArgument> arguments )
@@ -142,11 +141,11 @@ The following code sample illustrates an example CalculateConnectionString metho
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 

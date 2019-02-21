@@ -1,16 +1,8 @@
 ---
-title: "FTP Native-Code Extensibility Interfaces | Microsoft Docs"
-ms.custom: ""
+title: "FTP Native-Code Extensibility Interfaces"
 ms.date: "09/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: afa33f3c-e758-4cb2-873c-4b902276707c
-caps.latest.revision: 7
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # FTP Native-Code Extensibility Interfaces
 Describes the native-code interfaces that developers use to extend the functionality of the FTP 7.5 service for IIS 7.5.  

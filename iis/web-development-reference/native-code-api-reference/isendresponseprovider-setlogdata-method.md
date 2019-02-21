@@ -1,15 +1,7 @@
 ---
-title: "ISendResponseProvider::SetLogData Method | Microsoft Docs"
-ms.custom: ""
+title: "ISendResponseProvider::SetLogData Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9862aeef-c8c2-789f-9981-648f4b35271b
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ISendResponseProvider::SetLogData Method
 Configures logging information for the current response.  
@@ -22,7 +14,7 @@ virtual HRESULT SetLogData(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pLogData`  
  [IN] A pointer to `VOID`.  
   

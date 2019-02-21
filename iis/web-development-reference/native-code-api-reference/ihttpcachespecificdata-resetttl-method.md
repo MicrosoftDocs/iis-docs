@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheSpecificData::ResetTTL Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheSpecificData::ResetTTL Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6b8b7fce-32a3-c503-2c99-dc66de77d9ce
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheSpecificData::ResetTTL Method
 Resets the Time-to-Live (TTL) setting of the cached data.  
@@ -22,7 +14,7 @@ virtual VOID ResetTTL(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Thread Safety  

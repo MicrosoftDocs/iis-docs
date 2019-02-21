@@ -1,5 +1,5 @@
 ---
-title: TaskDefinition.Copyright Property  (Microsoft.Web.Media.TransformManager)
+title: TaskDefinition.Copyright Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Copyright Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.Copyright
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.copyright(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_Copyright
 - Microsoft.Web.Media.TransformManager.TaskDefinition.Copyright
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Copyright Property
@@ -40,7 +39,7 @@ Gets or sets the copyright string that has been supplied by the task author.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Copyright As String
@@ -56,11 +55,11 @@ value = instance.Copyright
 instance.Copyright = value
 ```
 
-``` csharp
+```csharp
   public string Copyright { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ Copyright {
     String^ get ();
@@ -72,19 +71,19 @@ property String^ Copyright {
   member Copyright : string with get, set
 ```
 
-``` jscript
+```jscript
   function get Copyright () : String
 function set Copyright (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The copyright string.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskDefinition Class](taskdefinition-class-microsoft-web-media-transformmanager.md)
 

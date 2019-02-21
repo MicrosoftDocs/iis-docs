@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,15 +20,15 @@ Gets the source manager singleton.
 
 ## Syntax
 
-``` csharp
+```csharp
 IAdaptiveSourceManager GetDefault()
 ```
 
-``` c++
+```cpp
 IAdaptiveSourceManager^ GetDefault()
 ```
 
-``` jscript
+```jscript
 function GetDefault() : IAdaptiveSourceManager
 ```
 

@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.NaturalVideoWidth Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.NaturalVideoWidth Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: NaturalVideoWidth Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalVideoWidth
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.naturalvideowidth(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalVideoWidth
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_NaturalVideoWidth
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.NaturalVideoWidth Property
@@ -38,7 +37,7 @@ Gets the width of video display at which the resource appears best.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property NaturalVideoWidth As Integer
@@ -51,11 +50,11 @@ Dim value As Integer
 value = instance.NaturalVideoWidth
 ```
 
-``` csharp
+```csharp
 public int NaturalVideoWidth { get; }
 ```
 
-``` c++
+```cpp
 public:
 property int NaturalVideoWidth {
     int get ();
@@ -66,13 +65,13 @@ property int NaturalVideoWidth {
 member NaturalVideoWidth : int
 ```
 
-``` jscript
+```jscript
 function get NaturalVideoWidth () : int
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.95\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d\(v=vs.95\))  
 The width of video display at which the resource appears best.
 
 ## Remarks
@@ -81,17 +80,17 @@ To avoid reformatting the display and to avoid unnecessary processor load, do no
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

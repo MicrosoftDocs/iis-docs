@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::SetNeedDisconnect Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::SetNeedDisconnect Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 118ce2da-ce8f-5dac-6662-d49f43ce9c9d
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::SetNeedDisconnect Method
 Resets the socket after the response is complete.  
@@ -22,7 +14,7 @@ virtual VOID SetNeedDisconnect(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

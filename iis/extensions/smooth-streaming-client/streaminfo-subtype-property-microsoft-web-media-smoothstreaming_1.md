@@ -1,5 +1,5 @@
 ---
-title: StreamInfo.Subtype Property  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamInfo.Subtype Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Subtype Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Subtype
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.subtype(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.get_Subtype
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.set_Subtype
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.Subtype Property
@@ -40,7 +39,7 @@ Gets or sets the Subtype property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Subtype As String
@@ -54,11 +53,11 @@ Dim value As String
 value = instance.Subtype
 ```
 
-``` csharp
+```csharp
 public string Subtype { get; internal set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ Subtype {
     String^ get ();
@@ -70,14 +69,14 @@ property String^ Subtype {
 member Subtype : string with get, internal set
 ```
 
-``` jscript
+```jscript
 function get Subtype () : String
 internal function set Subtype (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
 A string value that specifies the subtype.
 
 ## Remarks
@@ -86,17 +85,17 @@ For more information and an example that parses [StreamInfo](streaminfo-class-mi
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

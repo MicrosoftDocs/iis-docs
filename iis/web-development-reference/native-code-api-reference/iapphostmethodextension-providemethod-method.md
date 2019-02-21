@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethodExtension::ProvideMethod Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethodExtension::ProvideMethod Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 393c6056-eaee-4f74-b81a-8a1688e1baff
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethodExtension::ProvideMethod Method
 Provides a method for an [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) that can provide extended functionality to the element.  
@@ -24,7 +16,7 @@ HRESULT ProvideMethod(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pMethod`  
  The static [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md) object in `pElement`.  
   

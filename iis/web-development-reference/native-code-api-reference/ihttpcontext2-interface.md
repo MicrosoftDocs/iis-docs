@@ -1,16 +1,8 @@
 ---
-title: "IHttpContext2 Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext2 Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8637cfed-ff2d-43ef-aaf3-771cb1fb6c61
-caps.latest.revision: 8
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IHttpContext2 Interface
 Represents the reprocessing of an HTTP request and enables the retrieval of information about the original user during asynchronous operation.  

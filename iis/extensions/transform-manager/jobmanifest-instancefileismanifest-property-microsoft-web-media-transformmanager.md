@@ -1,5 +1,5 @@
 ---
-title: JobManifest.InstanceFileIsManifest Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.InstanceFileIsManifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InstanceFileIsManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.InstanceFileIsManifest
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.instancefileismanifest(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_InstanceFileIsManifest
 - Microsoft.Web.Media.TransformManager.JobManifest.InstanceFileIsManifest
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # InstanceFileIsManifest Property
@@ -38,7 +37,7 @@ Gets a value that indicates whether the file that initiates job creation is a SM
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property InstanceFileIsManifest As Boolean
@@ -51,11 +50,11 @@ Dim value As Boolean
 value = instance.InstanceFileIsManifest
 ```
 
-``` csharp
+```csharp
   public bool InstanceFileIsManifest { get; }
 ```
 
-``` c++
+```cpp
   public:
 property bool InstanceFileIsManifest {
     bool get ();
@@ -66,18 +65,18 @@ property bool InstanceFileIsManifest {
   member InstanceFileIsManifest : bool
 ```
 
-``` jscript
+```jscript
   function get InstanceFileIsManifest () : boolean
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the file that initiates job creation is a SMIL 2.0-compliant manifest; otherwise, false.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

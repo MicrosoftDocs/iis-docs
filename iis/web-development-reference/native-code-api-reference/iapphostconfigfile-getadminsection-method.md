@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigFile::GetAdminSection Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigFile::GetAdminSection Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 83c44f92-2b3a-ee32-3bd3-34ae9284d12d
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigFile::GetAdminSection Method
 Gets a configuration section for a given configuration section and configuration path.  
@@ -27,7 +19,7 @@ HRESULT GetAdminSection(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrSectionName`  
  A `BSTR` that contains the name of the requested section.  
   

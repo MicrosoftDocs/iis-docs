@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the alternate URI.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IVectorView<Uri> AlternateUris { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property IVectorView<Uri^>^ AlternateUris {
 IVectorView<Uri^>^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get AlternateUris () : IVectorView<Uri>
 ```
 

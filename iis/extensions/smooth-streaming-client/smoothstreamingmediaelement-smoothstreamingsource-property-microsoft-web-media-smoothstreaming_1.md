@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.SmoothStreamingSource Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.SmoothStreamingSource Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingSource Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingSource
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.smoothstreamingsource(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_SmoothStreamingSource
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_SmoothStreamingSource
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.SmoothStreamingSource Property
@@ -40,7 +39,7 @@ Gets or sets the URI of the Smooth Streaming source.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property SmoothStreamingSource As Uri
@@ -56,11 +55,11 @@ value = instance.SmoothStreamingSource
 instance.SmoothStreamingSource = value
 ```
 
-``` csharp
+```csharp
 public Uri SmoothStreamingSource { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property Uri^ SmoothStreamingSource {
     Uri^ get ();
@@ -72,14 +71,14 @@ property Uri^ SmoothStreamingSource {
 member SmoothStreamingSource : Uri with get, set
 ```
 
-``` jscript
+```jscript
 function get SmoothStreamingSource () : Uri
 function set SmoothStreamingSource (value : Uri)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\))  
+Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\))  
 The URI of the Smooth Streaming source.
 
 ## Remarks
@@ -88,17 +87,17 @@ When you call [SetSource(Stream)](smoothstreamingmediaelement-setsource-method-m
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

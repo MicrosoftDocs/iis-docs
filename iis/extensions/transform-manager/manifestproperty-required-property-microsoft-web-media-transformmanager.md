@@ -1,5 +1,5 @@
 ---
-title: ManifestProperty.Required Property  (Microsoft.Web.Media.TransformManager)
+title: ManifestProperty.Required Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Required Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.Required
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestproperty.required(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.set_Required
 - Microsoft.Web.Media.TransformManager.ManifestProperty.get_Required
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Required Property
@@ -40,7 +39,7 @@ Get or sets a value that specifies whether the manifest property is required.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property Required As Boolean
@@ -56,12 +55,12 @@ value = instance.Required
 instance.Required = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public bool Required { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property bool Required {
@@ -75,19 +74,19 @@ property bool Required {
 member Required : bool with get, set
 ```
 
-``` jscript
+```jscript
   function get Required () : boolean
 function set Required (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the manifest property is required; otherwise, false.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

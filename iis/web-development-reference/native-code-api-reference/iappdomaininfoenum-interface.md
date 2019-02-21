@@ -1,15 +1,7 @@
 ---
-title: "IAppDomainInfoEnum Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppDomainInfoEnum Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 518d5cde-6260-9f20-ae66-05cd38edcddd
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppDomainInfoEnum Interface
 Provides access to each application domain.  

@@ -1,5 +1,5 @@
 ---
-title: TypeInfo.Name Property  (Microsoft.Web.Management.DatabaseManager)
+title: TypeInfo.Name Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.Name
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.name(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_Name
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_Name
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.Name Property
@@ -39,7 +38,7 @@ Gets or sets the name for the data type.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property Name As String
 'Usage
@@ -51,11 +50,11 @@ value = instance.Name
 instance.Name = value
 ```
 
-``` csharp
+```csharp
 public string Name { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ Name {
     String^ get ();
@@ -63,14 +62,14 @@ property String^ Name {
 }
 ```
 
-``` jscript
+```jscript
 function get Name () : String
 function set Name (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The name for the data type.  
 
 ## Remarks
@@ -81,7 +80,7 @@ The name of the data type will be displayed in the Database Manager in IIS Manag
 
 The following code sample illustrates an example GetServerTypes method that returns a list of database types for an OLEDB provider.
 
-``` vb
+```vb
 
     Public Overrides Function GetServerTypes( _
             ByVal connectionString As String) _
@@ -221,7 +220,7 @@ The following code sample illustrates an example GetServerTypes method that retu
 
 ```
 
-``` csharp
+```csharp
 
         public override ICollection<TypeInfo> GetServerTypes(
             string connectionString )
@@ -362,11 +361,11 @@ The following code sample illustrates an example GetServerTypes method that retu
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 

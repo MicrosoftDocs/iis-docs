@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionGroup::Item Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionGroup::Item Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 65aea56f-d6bb-8f65-12b8-4c4e8aa07e4f
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionGroup::Item Property
 Gets the nested configuration section group at the requested index.  
@@ -24,7 +16,7 @@ HRESULT get_Item(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `varIndex`  
  A `VARIANT` that contains the index of the nested configuration section group to return from the collection.  
   

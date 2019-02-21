@@ -1,5 +1,5 @@
 ---
-title: ConnectionArgument.IsPassword Property  (Microsoft.Web.Management.DatabaseManager)
+title: ConnectionArgument.IsPassword Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsPassword Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.IsPassword
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.connectionargument.ispassword(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.get_IsPassword
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.set_IsPassword
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConnectionArgument.IsPassword Property
@@ -39,7 +38,7 @@ Gets or sets a value that indicates whether the connection argument is a passwor
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property IsPassword As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.IsPassword
 instance.IsPassword = value
 ```
 
-``` csharp
+```csharp
 public bool IsPassword { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool IsPassword {
     bool get ();
@@ -63,21 +62,21 @@ property bool IsPassword {
 }
 ```
 
-``` jscript
+```jscript
 function get IsPassword () : boolean
 function set IsPassword (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the connection argument is a password; otherwise, false.  
 
 ## Examples
 
 The following code sample illustrates an example ConnectionStringArgument property that returns the connection string arguments for a Microsoft Access database provider.
 
-``` vb
+```vb
 
     Public Overrides ReadOnly Property ConnectionStringArguments() _
             As System.Collections.Generic.ICollection( _
@@ -107,7 +106,7 @@ The following code sample illustrates an example ConnectionStringArgument proper
 
 ```
 
-``` csharp
+```csharp
 
         public override ICollection<ConnectionArgument> ConnectionStringArguments
         {
@@ -141,11 +140,11 @@ The following code sample illustrates an example ConnectionStringArgument proper
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConnectionArgument Class](connectionargument-class-microsoft-web-management-databasemanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IWebSocketContext::ReadFragment Method | Microsoft Docs"
-ms.custom: ""
+title: "IWebSocketContext::ReadFragment Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d994bce0-d3e4-4cc5-b2b6-fbd68d974b0b
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWebSocketContext::ReadFragment Method
 Reads a data fragment from an asynchronous connection.  
@@ -29,7 +21,7 @@ virtual HRESULT ReadFragment(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pData`  
  [OUT] Data fragment that was read.  
   

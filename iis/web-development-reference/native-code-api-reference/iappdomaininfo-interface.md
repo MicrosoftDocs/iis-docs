@@ -1,15 +1,7 @@
 ---
-title: "IAppDomainInfo Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppDomainInfo Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c56ab96e-4307-6959-2276-7523527d96c2
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppDomainInfo Interface
 Provides information about the application domain.  

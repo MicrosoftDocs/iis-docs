@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # ChunkDownloadedEventArgs Properties
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [ChunkDownloadedEventArgs](chunkdownloadedeventargs-class-microsoft-web-media-smoothstreaming.md) type exposes the following members.
 
 ## Properties
@@ -30,11 +24,9 @@ The [ChunkDownloadedEventArgs](chunkdownloadedeventargs-class-microsoft-web-medi
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Track](chunkdownloadedeventargs-track-property-microsoft-web-media-smoothstreaming.md)|Gets the selected track for downloading the current chunk.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkDownloadedEventArgs Class](chunkdownloadedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

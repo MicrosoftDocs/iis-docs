@@ -1,15 +1,7 @@
 ---
-title: "IGlobalRSCAQueryProvider::GetFunctionName Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalRSCAQueryProvider::GetFunctionName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c55da23c-5526-427f-6583-55b584e6ada3
-caps.latest.revision: 30
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalRSCAQueryProvider::GetFunctionName Method
 Returns the name of the dynamic function call that caused the event.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetFunctionName(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

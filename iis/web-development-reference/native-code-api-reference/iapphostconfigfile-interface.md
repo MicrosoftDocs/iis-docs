@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigFile Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigFile Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4b03fb70-e66d-226a-1bfe-5a5cd863e439
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigFile Interface
 Represents a configuration file in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  

@@ -26,11 +26,9 @@ The [ConfigurationMessage](configurationmessage-class-microsoft-web-media-transf
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[RegKeyNotFound](configurationmessage-regkeynotfound-property-microsoft-web-media-transformmanager.md)|Gets or sets a message to post when the registration key is not found.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Severity](configurationmessage-severity-property-microsoft-web-media-transformmanager.md)|Gets or set the error severity.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationMessage Class](configurationmessage-class-microsoft-web-media-transformmanager.md)
 

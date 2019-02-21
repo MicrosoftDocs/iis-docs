@@ -1,5 +1,5 @@
 ---
-title: CacheResponse.ContentLength Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse.ContentLength Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ContentLength Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ContentLength
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.contentlength(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.get_ContentLength
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_ContentLength
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ContentLength Property
@@ -39,7 +38,7 @@ The length in bytes.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ContentLength As Long
@@ -51,11 +50,11 @@ Dim value As Long
 value = instance.ContentLength
 ```
 
-``` csharp
+```csharp
   public long ContentLength { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property long long ContentLength {
     long long get ();
@@ -63,33 +62,33 @@ property long long ContentLength {
 }
 ```
 
-``` jscript
+```jscript
   function get ContentLength () : long
 private function set ContentLength (value : long)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int64](https://msdn.microsoft.com/en-us/library/6yy583ek\(v=vs.90\))  
+Type: [System.Int64](https://msdn.microsoft.com/library/6yy583ek)  
 A long integer that contains the length in bytes.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,5 +1,5 @@
 ---
-title: CacheResponse2.UsedTrack Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse2.UsedTrack Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: UsedTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse2.UsedTrack
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse2.usedtrack(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse2.set_UsedTrack
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse2.UsedTrack
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse2.UsedTrack Property
@@ -40,7 +39,7 @@ Gets or sets the track the cache plug-in uses for downloading a media chunk.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property UsedTrack As TrackInfo
@@ -56,11 +55,11 @@ value = instance.UsedTrack
 instance.UsedTrack = value
 ```
 
-``` csharp
+```csharp
 public TrackInfo UsedTrack { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property TrackInfo^ UsedTrack {
     TrackInfo^ get ();
@@ -72,12 +71,12 @@ property TrackInfo^ UsedTrack {
 member UsedTrack : TrackInfo with get, set
 ```
 
-``` jscript
+```jscript
 function get UsedTrack () : TrackInfo
 function set UsedTrack (value : TrackInfo)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)  
 A TrackInfo object that represents the track.
@@ -88,13 +87,13 @@ The UsedTrack property must be set if the cache plug-in uses a different bitrate
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse2 Class](cacheresponse2-class-microsoft-web-media-smoothstreaming.md)
 

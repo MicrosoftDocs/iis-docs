@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo::GetLastModifiedTime Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo::GetLastModifiedTime Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8bfb6d62-8091-00fd-b72d-cfb4e6d47bf2
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo::GetLastModifiedTime Method
 Retrieves the last modified time structure of the corresponding file for an [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual VOID GetLastModifiedTime(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pFileTime`  
  [OUT] A pointer to a [FILETIME](http://go.microsoft.com/fwlink/?LinkId=56060) structure.  
   

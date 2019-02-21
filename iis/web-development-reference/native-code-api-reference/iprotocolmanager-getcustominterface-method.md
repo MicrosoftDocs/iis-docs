@@ -1,15 +1,7 @@
 ---
-title: "IProtocolManager::GetCustomInterface Method | Microsoft Docs"
-ms.custom: ""
+title: "IProtocolManager::GetCustomInterface Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: beefd5ac-d536-32c9-6e96-2518c6482b1f
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProtocolManager::GetCustomInterface Method
 Retrieves a custom interface from a protocol manager.  
@@ -23,7 +15,7 @@ virtual HRESULT GetCustomInterface(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `InterfaceId`  
  The ID of the interface to return.  
   

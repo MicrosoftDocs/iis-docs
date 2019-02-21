@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IMonitoringService.DeleteJob
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DeleteJob Method
@@ -36,7 +35,7 @@ Deletes all input files, output files, and work item details of a job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Sub DeleteJob ( _
@@ -50,14 +49,14 @@ Dim jobDetails As JobDetails
 instance.DeleteJob(jobDetails)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 void DeleteJob(
     JobDetails jobDetails
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 void DeleteJob(
     JobDetails^ jobDetails
@@ -70,21 +69,21 @@ abstract DeleteJob :
         jobDetails:JobDetails -> unit 
 ```
 
-``` jscript
+```jscript
   function DeleteJob(
     jobDetails : JobDetails
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobDetails  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
     An object that contains the ID of the job to delete.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
 

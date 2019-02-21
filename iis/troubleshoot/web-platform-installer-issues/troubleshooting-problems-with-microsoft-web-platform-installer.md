@@ -109,13 +109,13 @@ The IIS setup log file is called iis6.log or iis51.log. You can open it with the
 
 ### Products installed using Windows Installer (MSI) technology
 
-You can use the [Windows Installer technology](https://msdn.microsoft.com/en-us/library/aa371366(VS.85).aspx) for Web platform components such as Microsoft® SQL Server® and Visual Web Developer 2008 Express Edition. To look at the logs, open Internet Explorer and type the following into the address bar:
+You can use the [Windows Installer technology](https://msdn.microsoft.com/library/aa371366(VS.85).aspx) for Web platform components such as Microsoft® SQL Server® and Visual Web Developer 2008 Express Edition. To look at the logs, open Internet Explorer and type the following into the address bar:
 
 
 [!code-console[Main](troubleshooting-problems-with-microsoft-web-platform-installer/samples/sample5.cmd)]
 
 
-Web PI also displays a link to the log file that failed in the summary screen; see the [detailed description of Windows Installer error codes](https://msdn.microsoft.com/en-us/library/aa372835(VS.85).aspx).
+Web PI also displays a link to the log file that failed in the summary screen; see the [detailed description of Windows Installer error codes](https://msdn.microsoft.com/library/aa372835(VS.85).aspx).
 
 ### Products installed using the Microsoft Web Deployment Tool technology
 
@@ -140,7 +140,7 @@ If IIS is configured for "Shared Configuration," Web PI cannot install most addi
 - **Applications do not work without SQL****"****Mixed mode authentication**."   
  For most Web applications, SQL Server user accounts are required in order to access a database. If only integrated or Windows authentication for SQL Server are selected, you cannot install some of the applications in the gallery.
 - **SQL Server passwords are not accepted if they do not meet strength requirements**.   
- However, Web PI does not validate passwords for strength or for other criteria. The failure to create an account with a weak password occurs during application installation, and the installation fails. Use a [strong password](https://msdn.microsoft.com/en-us/library/ms161959.aspx) according to the SQL Server policy.
+ However, Web PI does not validate passwords for strength or for other criteria. The failure to create an account with a weak password occurs during application installation, and the installation fails. Use a [strong password](https://msdn.microsoft.com/library/ms161959.aspx) according to the SQL Server policy.
 - **SQL Server user names cannot be longer than 16 characters**.   
  However, Web PI does not validate user fields for length or other criteria. The failure to create an account with a user name that is more than 16-characters long happens during application installation, and the installation fails. Use a user name that is no more than 16-characters long.
 - **Other Microsoft SQL Server issues.** Check the SQL Server log files in the following directory for more information:  

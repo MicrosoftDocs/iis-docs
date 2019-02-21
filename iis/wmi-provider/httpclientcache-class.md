@@ -1,15 +1,7 @@
 ---
-title: "HttpClientCache Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpClientCache Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: aba023d7-f6f2-0cdb-44b9-0e1e8b75db16
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpClientCache Class
 Exposes the caching configuration for an HTTP client.  

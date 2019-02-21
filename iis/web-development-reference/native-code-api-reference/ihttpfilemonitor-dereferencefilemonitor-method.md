@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileMonitor::DereferenceFileMonitor Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileMonitor::DereferenceFileMonitor Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 13610ef2-eadf-2dfe-cb84-aad275c0e8bb
-caps.latest.revision: 6
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileMonitor::DereferenceFileMonitor Method
 Releases a file monitor interface.  
@@ -22,7 +14,7 @@ virtual VOID DereferenceFileMonitor(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

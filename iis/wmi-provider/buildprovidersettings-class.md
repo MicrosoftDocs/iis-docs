@@ -1,15 +1,7 @@
 ---
-title: "BuildProviderSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "BuildProviderSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8158fe94-1afe-4ce0-b2eb-c3be4f15a3fa
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # BuildProviderSettings Class
 Contains build providers that compile custom resource files of a particular file type and generate code during compilation.  
@@ -51,6 +43,6 @@ class BuildProviderSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.CompilationSection.BuildProvider](/dotnet/api/system.web.configuration.compilationsection?view=netframework-4.7.2)   
+ [System.Web.Configuration.CompilationSection.BuildProvider](/dotnet/api/system.web.configuration.compilationsection)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)

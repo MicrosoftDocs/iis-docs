@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoHighestPlayableTrackChanged
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # VideoHighestPlayableTrackChanged Event
@@ -37,7 +36,7 @@ Occurs when the playback rate changes to the highest available rate.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Event VideoHighestPlayableTrackChanged As EventHandler(Of TrackChangedEventArgs)
@@ -49,11 +48,11 @@ Dim handler As EventHandler(Of TrackChangedEventArgs)
 AddHandler instance.VideoHighestPlayableTrackChanged, handler
 ```
 
-``` csharp
+```csharp
   public event EventHandler<TrackChangedEventArgs> VideoHighestPlayableTrackChanged
 ```
 
-``` c++
+```cpp
   public:
  event EventHandler<TrackChangedEventArgs^>^ VideoHighestPlayableTrackChanged {
     void add (EventHandler<TrackChangedEventArgs^>^ value);
@@ -61,27 +60,27 @@ AddHandler instance.VideoHighestPlayableTrackChanged, handler
 }
 ```
 
-``` jscript
+```jscript
   JScript does not support events.
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

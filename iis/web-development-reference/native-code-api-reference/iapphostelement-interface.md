@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElement Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElement Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b2e024dd-f7e3-3e43-3343-0fde1a1851d8
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElement Interface
 Represents a single element in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  

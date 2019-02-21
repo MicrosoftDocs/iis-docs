@@ -1,15 +1,7 @@
 ---
-title: "WindowsAuthenticationSection Class | Microsoft Docs"
-ms.custom: ""
+title: "WindowsAuthenticationSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ed2cdad3-5361-01cc-8350-9e215a97514e
-caps.latest.revision: 30
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WindowsAuthenticationSection Class
 Configures Integrated Windows authentication.  

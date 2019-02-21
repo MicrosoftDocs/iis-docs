@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy2::IsForceUpdateSet Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy2::IsForceUpdateSet Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 68106133-322a-4e6a-9178-b5e4496bd438
-caps.latest.revision: 6
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy2::IsForceUpdateSet Method
 Gets a value that determines if the force update flag has been set.  
@@ -22,7 +14,7 @@ virtual BOOL IsForceUpdateSet(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
   
 ## Remarks  
   

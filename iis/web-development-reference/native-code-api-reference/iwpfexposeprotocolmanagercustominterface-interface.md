@@ -1,15 +1,7 @@
 ---
-title: "IWpfExposeProtocolManagerCustomInterface Interface | Microsoft Docs"
-ms.custom: ""
+title: "IWpfExposeProtocolManagerCustomInterface Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9e69a763-bb41-3d69-c3de-d8d4498acae6
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfExposeProtocolManagerCustomInterface Interface
 Enables a protocol manager to share information with another protocol manager. For example, a protocol manager may have a dependency on another protocol manager when they share a singleton object.  

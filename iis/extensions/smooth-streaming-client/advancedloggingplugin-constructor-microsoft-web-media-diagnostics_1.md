@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.#ctor
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.AdvancedLoggingPlugin
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # AdvancedLoggingPlugin Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [AdvancedLoggingPlugin](advancedloggingplugin-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New
@@ -47,11 +46,11 @@ Public Sub New
 Dim instance As New AdvancedLoggingPlugin()
 ```
 
-``` csharp
+```csharp
 public AdvancedLoggingPlugin()
 ```
 
-``` c++
+```cpp
 public:
 AdvancedLoggingPlugin()
 ```
@@ -60,23 +59,23 @@ AdvancedLoggingPlugin()
 new : unit -> AdvancedLoggingPlugin
 ```
 
-``` jscript
+```jscript
 public function AdvancedLoggingPlugin()
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [AdvancedLoggingPlugin Class](advancedloggingplugin-class-microsoft-web-media-diagnostics_1.md)
 

@@ -56,7 +56,7 @@ For more information, see [How to: Attach to a Running Process](http://go.micros
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Silverlight Applications](silverlight-applications.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "DefaultDocumentSection Class1 | Microsoft Docs"
-ms.custom: ""
+title: "DefaultDocumentSection Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3c5d5408-af8b-8a5b-fd23-2dc89f5756de
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DefaultDocumentSection Class1
 Specifies the Web page file names to serve to clients by default.  

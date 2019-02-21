@@ -1,15 +1,7 @@
 ---
-title: "HttpProtocolSection Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpProtocolSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b106f804-8831-1080-c63f-c27203537e62
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpProtocolSection Class
 Represents an HTTP protocol configuration section.  

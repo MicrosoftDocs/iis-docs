@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.Scheduler.#ctor
 - Microsoft.Web.Media.TransformManager.Scheduler.Scheduler
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Scheduler Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [Scheduler](scheduler-class-microsoft-web-medi
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Protected Sub New
@@ -46,11 +45,11 @@ Initializes a new instance of the [Scheduler](scheduler-class-microsoft-web-medi
 Dim instance As New Scheduler()
 ```
 
-``` csharp
+```csharp
   protected Scheduler()
 ```
 
-``` c++
+```cpp
   protected:
 Scheduler()
 ```
@@ -59,13 +58,13 @@ Scheduler()
   new : unit -> Scheduler
 ```
 
-``` jscript
+```jscript
   protected function Scheduler()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Scheduler Class](scheduler-class-microsoft-web-media-transformmanager.md)
 

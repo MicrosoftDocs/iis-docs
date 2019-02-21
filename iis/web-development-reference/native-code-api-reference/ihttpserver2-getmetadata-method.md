@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer2::GetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer2::GetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 780c10e6-4cfb-4cc9-9111-24ff1591fd76
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer2::GetMetadata Method
 Retrieves metadata about a website given its name and URL.  
@@ -24,7 +16,7 @@ virtual HRESULT GetMetadata(
     ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszSiteName`  
  [IN] Name of the website.  
   

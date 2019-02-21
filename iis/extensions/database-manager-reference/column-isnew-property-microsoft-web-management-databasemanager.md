@@ -1,5 +1,5 @@
 ---
-title: Column.IsNew Property  (Microsoft.Web.Management.DatabaseManager)
+title: Column.IsNew Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsNew Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.IsNew
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.column.isnew(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Column.get_IsNew
 - Microsoft.Web.Management.DatabaseManager.Column.set_IsNew
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.IsNew Property
@@ -39,7 +38,7 @@ Gets or sets a value that indicates whether the database column is new.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property IsNew As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.IsNew
 instance.IsNew = value
 ```
 
-``` csharp
+```csharp
 public bool IsNew { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool IsNew {
     bool get ();
@@ -63,14 +62,14 @@ property bool IsNew {
 }
 ```
 
-``` jscript
+```jscript
 function get IsNew () : boolean
 function set IsNew (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the column is new; otherwise, false.  
 
 ## Examples
@@ -82,7 +81,7 @@ The following code sample implements the [EditTable](idbtablemanager-edittable-m
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     Public Sub EditTable( _
             ByVal connectionString As String, _
@@ -557,7 +556,7 @@ The following code sample implements the [EditTable](idbtablemanager-edittable-m
 
 ```
 
-``` csharp
+```csharp
 
 // Modify a table in the database.
 public void EditTable(
@@ -1255,11 +1254,11 @@ private void AddForeignKeys(
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Column Class](column-class-microsoft-web-management-databasemanager.md)
 

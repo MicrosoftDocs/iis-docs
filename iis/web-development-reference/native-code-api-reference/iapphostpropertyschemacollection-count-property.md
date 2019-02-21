@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchemaCollection::Count Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchemaCollection::Count Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8ec63dd6-3e18-4a28-af5b-7e2211fcd4d1
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchemaCollection::Count Property
 Gets the number of [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) objects in the current collection.  
@@ -23,7 +15,7 @@ Gets the number of [IAppHostPropertySchema Interface](../../web-development-refe
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcCount`  
  Contains the number of properties in the collection.  
   

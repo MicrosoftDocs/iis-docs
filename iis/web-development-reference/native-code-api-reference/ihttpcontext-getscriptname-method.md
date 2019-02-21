@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetScriptName Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetScriptName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: be5e6a7d-b4b4-adf7-6d38-8619d053a0e0
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetScriptName Method
 Retrieves the URL for the current request.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetScriptName(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcchScriptName`  
  A pointer to a DWORD value that receives the length of the returned string.  
   

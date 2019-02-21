@@ -1,15 +1,7 @@
 ---
-title: "HiddenSegmentSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "HiddenSegmentSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7f823d68-e495-4a02-88ef-668c815bd569
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HiddenSegmentSettings Class
 Contains segments whose content will not be served to the client.  

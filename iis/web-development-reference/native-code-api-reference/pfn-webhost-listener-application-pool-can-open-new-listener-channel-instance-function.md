@@ -7,7 +7,7 @@ ms:contentKeyID: 6824819
 ms.date: 03/09/2018
 mtps_version: v=VS.90
 dev_langs:
-- c++
+- "cpp"
 ---
 
 # PFN\_WEBHOST\_LISTENER\_APPLICATION\_POOL\_CAN\_OPEN\_NEW\_LISTENER\_CHANNEL\_INSTANCE Function
@@ -18,7 +18,7 @@ Notifies the listener adapter that it is possible to launch other instances of t
 
 ## Syntax
 
-``` c++
+```cpp
 typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANNEL_INSTANCE)(  
    IN VOID* pContext,  
    IN LPCWSTR AppPoolId,  
@@ -26,7 +26,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_CAN_OPEN_NEW_LISTENER_CHANN
 );  
 ```
 
-#### Parameters
+### Parameters
 
 `pContext`  
 \[IN\] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](webhostregisterprotocol-function.md).

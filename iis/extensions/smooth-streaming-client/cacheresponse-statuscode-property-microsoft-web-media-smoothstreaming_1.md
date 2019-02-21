@@ -1,5 +1,5 @@
 ---
-title: CacheResponse.StatusCode Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse.StatusCode Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StatusCode Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.StatusCode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.statuscode(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_StatusCode
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.StatusCode
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,19 +28,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse.StatusCode Property
 
-An [System.Net.HTTPStatusCode](https://msdn.microsoft.com/en-us/library/f92ssyy1\(v=vs.95\)) enumeration object.
+An [System.Net.HTTPStatusCode](https://msdn.microsoft.com/library/f92ssyy1\(v=vs.95\)) enumeration object.
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property StatusCode As HttpStatusCode
@@ -56,11 +55,11 @@ value = instance.StatusCode
 instance.StatusCode = value
 ```
 
-``` csharp
+```csharp
 public HttpStatusCode StatusCode { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property HttpStatusCode StatusCode {
     HttpStatusCode get ();
@@ -72,29 +71,29 @@ property HttpStatusCode StatusCode {
 member StatusCode : HttpStatusCode with get, set
 ```
 
-``` jscript
+```jscript
 function get StatusCode () : HttpStatusCode
 function set StatusCode (value : HttpStatusCode)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Net.HttpStatusCode](https://msdn.microsoft.com/en-us/library/f92ssyy1\(v=vs.95\))  
-An [System.Net.HTTPStatusCode](https://msdn.microsoft.com/en-us/library/f92ssyy1\(v=vs.95\)) enumeration object.
+Type: [System.Net.HttpStatusCode](https://msdn.microsoft.com/library/f92ssyy1\(v=vs.95\))  
+An [System.Net.HTTPStatusCode](https://msdn.microsoft.com/library/f92ssyy1\(v=vs.95\)) enumeration object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

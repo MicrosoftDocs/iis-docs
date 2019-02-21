@@ -1,15 +1,7 @@
 ---
-title: "ConfigurationSectionWithCollection.Clear Method | Microsoft Docs"
-ms.custom: ""
+title: "ConfigurationSectionWithCollection.Clear Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f37e0c33-fc7d-b3ce-32b4-e980b4ffff06
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigurationSectionWithCollection.Clear Method
 Clears all elements from a collection in a configuration section.  
@@ -24,7 +16,7 @@ ConfigurationSectionWithCollection.Clear(collectionName);
 ConfigurationSectionWithCollection.Clear(collectionName)  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Definition|  
 |----------|----------------|  

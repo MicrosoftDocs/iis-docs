@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.LocalScheduler.GetTaskProgress
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetTaskProgress Method
@@ -36,7 +35,7 @@ Returns the percentage complete for a job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Overrides Function GetTaskProgress ( _
@@ -51,13 +50,13 @@ Dim returnValue As TaskDetails
 returnValue = instance.GetTaskProgress(jobInstanceId)
 ```
 
-``` csharp
+```csharp
   public override TaskDetails GetTaskProgress(
     string jobInstanceId
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual TaskDetails GetTaskProgress(
     String^ jobInstanceId
@@ -71,26 +70,26 @@ override GetTaskProgress :
         jobInstanceId:string -> TaskDetails 
 ```
 
-``` jscript
+```jscript
   public override function GetTaskProgress(
     jobInstanceId : String
 ) : TaskDetails
 ```
 
-#### Parameters
+### Parameters
 
   - jobInstanceId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .TaskDetails](taskdetails-structure-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.TaskDetails](taskdetails-structure-microsoft-web-media-transformmanager.md)  
 The percentage complete.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [LocalScheduler Class](localscheduler-class-microsoft-web-media-transformmanager.md)
 

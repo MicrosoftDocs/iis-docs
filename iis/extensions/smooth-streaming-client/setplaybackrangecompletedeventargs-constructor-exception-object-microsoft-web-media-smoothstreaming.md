@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SetPlaybackRangeCompletedEventArgs Constructor (Exception, Object)
@@ -34,7 +33,7 @@ Initializes a new instance of the [SetPlaybackRangeCompletedEventArgs](setplayba
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -49,14 +48,14 @@ Dim userState As Object
 Dim instance As New SetPlaybackRangeCompletedEventArgs(error, userState)
 ```
 
-``` csharp
+```csharp
 public SetPlaybackRangeCompletedEventArgs(
     Exception error,
     Object userState
 )
 ```
 
-``` c++
+```cpp
 public:
 SetPlaybackRangeCompletedEventArgs(
     Exception^ error, 
@@ -70,34 +69,34 @@ new :
         userState:Object -> SetPlaybackRangeCompletedEventArgs
 ```
 
-``` jscript
+```jscript
 public function SetPlaybackRangeCompletedEventArgs(
     error : Exception, 
     userState : Object
 )
 ```
 
-#### Parameters
+### Parameters
 
   - error  
-    Type: [System.Exception](https://msdn.microsoft.com/en-us/library/c18k6c59\(v=vs.95\))  
+    Type: [System.Exception](https://msdn.microsoft.com/library/c18k6c59\(v=vs.95\))  
     The error that occurred.
 
 <!-- end list -->
 
   - userState  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
     A state object that represents the state.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SetPlaybackRangeCompletedEventArgs Class](setplaybackrangecompletedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

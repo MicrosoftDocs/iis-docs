@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionDefinition::Type Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionDefinition::Type Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4aeb69c1-4e84-884f-d98f-2a7d07eacfc2
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionDefinition::Type Property
 Gets the type name of a class that represents the current configuration section.  
@@ -26,7 +18,7 @@ HRESULT put_Type(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrType`  
  A pointer to a `BSTR` that contains the type name of the current configuration section.  
   
@@ -43,7 +35,7 @@ HRESULT put_Type(
 ## Remarks  
   
 > [!NOTE]
->  This property is used only when a file is opened from a class in the [System.Configuration](/dotnet/api/system.configuration?view=netframework-4.7.2) namespace.  
+>  This property is used only when a file is opened from a class in the [System.Configuration](/dotnet/api/system.configuration) namespace.  
   
 ## Requirements  
   

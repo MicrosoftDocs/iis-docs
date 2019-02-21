@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetScriptMap Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetScriptMap Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 40fada80-5a67-0c1c-d9cd-0bfedf8ffcd1
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetScriptMap Method
 Returns the script map container for the current context.  
@@ -22,7 +14,7 @@ virtual IScriptMapInfo* GetScriptMap(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

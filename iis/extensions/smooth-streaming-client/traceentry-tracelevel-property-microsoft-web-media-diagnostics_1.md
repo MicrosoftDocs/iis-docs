@@ -1,5 +1,5 @@
 ---
-title: TraceEntry.TraceLevel Property  (Microsoft.Web.Media.Diagnostics)
+title: TraceEntry.TraceLevel Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceLevel Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.TraceLevel
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.traceentry.tracelevel(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.get_TraceLevel
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_TraceLevel
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceEntry.TraceLevel Property
@@ -40,7 +39,7 @@ Gets or sets the TraceLevel property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property TraceLevel As TraceLevel
@@ -56,11 +55,11 @@ value = instance.TraceLevel
 instance.TraceLevel = value
 ```
 
-``` csharp
+```csharp
 public TraceLevel TraceLevel { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property TraceLevel TraceLevel {
     TraceLevel get ();
@@ -72,29 +71,29 @@ property TraceLevel TraceLevel {
 member TraceLevel : TraceLevel with get, set
 ```
 
-``` jscript
+```jscript
 function get TraceLevel () : TraceLevel
 function set TraceLevel (value : TraceLevel)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.Diagnostics.TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md)  
 A [TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md) enumeration object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TraceEntry Class](traceentry-class-microsoft-web-media-diagnostics_1.md)
 

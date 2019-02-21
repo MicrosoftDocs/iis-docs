@@ -23,11 +23,9 @@ The [TaskStatus](taskstatus-class-microsoft-web-media-transformmanager.md) type 
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskCount](taskstatus-taskcount-property-microsoft-web-media-transformmanager.md)|Gets the task count.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskIndex](taskstatus-taskindex-property-microsoft-web-media-transformmanager.md)|Gets the task index.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskStatus Class](taskstatus-class-microsoft-web-media-transformmanager.md)
 

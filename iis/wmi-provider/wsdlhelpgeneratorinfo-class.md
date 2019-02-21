@@ -1,15 +1,7 @@
 ---
-title: "WsdlHelpGeneratorInfo Class | Microsoft Docs"
-ms.custom: ""
+title: "WsdlHelpGeneratorInfo Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ecad8fbf-4dbe-487a-f9e6-55a06cce55d9
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WsdlHelpGeneratorInfo Class
 Specifies the XML Web service Help page (an .aspx file) that is displayed to a browser when the browser navigates directly to an .asmx (XML Web services) page.  

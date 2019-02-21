@@ -1,5 +1,5 @@
 ---
-title: Tracing.RemoteServerUri Property  (Microsoft.Web.Media.Diagnostics)
+title: Tracing.RemoteServerUri Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: RemoteServerUri Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.Tracing.RemoteServerUri
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.tracing.remoteserveruri(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.RemoteServerUri
 - Microsoft.Web.Media.Diagnostics.Tracing.set_RemoteServerUri
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,19 +28,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.RemoteServerUri Property
 
-Gets or sets the [Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\)) of the remote server.
+Gets or sets the [Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\)) of the remote server.
 
 **Namespace:**  [Microsoft.Web.Media.Diagnostics](microsoft-web-media-diagnostics-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Property RemoteServerUri As Uri
@@ -53,11 +52,11 @@ Dim value As Uri
 value = Tracing.RemoteServerUri
 ```
 
-``` csharp
+```csharp
 public static Uri RemoteServerUri { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 static property Uri^ RemoteServerUri {
     Uri^ get ();
@@ -69,29 +68,29 @@ static property Uri^ RemoteServerUri {
 static member RemoteServerUri : Uri with get, private set
 ```
 
-``` jscript
+```jscript
 static function get RemoteServerUri () : Uri
 private static function set RemoteServerUri (value : Uri)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\))  
-A [Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\)) object.
+Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\))  
+A [Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

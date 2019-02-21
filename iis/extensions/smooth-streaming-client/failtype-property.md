@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Gets the failure type.
 
 ## Syntax
 
-``` csharp
+```csharp
 public AdaptiveSourceManagerFailedType FailType { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property AdaptiveSourceManagerFailedType FailType {
 AdaptiveSourceManagerFailedType get () sealed;
 ```
 
-``` jscript
+```jscript
 final function get FailType () : AdaptiveSourceManagerFailedType
 ```
 

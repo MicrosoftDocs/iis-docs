@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IManagementService Interface
@@ -40,7 +39,7 @@ Local administrator group credentials must be used when using the IManagementSer
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <ServiceContractAttribute(Namespace := "http://schemas.microsoft.com/iis/media/v4/TM/managementservice")> _
 Public Interface IManagementService
@@ -49,12 +48,12 @@ Public Interface IManagementService
   Dim instance As IManagementService
 ```
 
-``` csharp
+```csharp
 [ServiceContractAttribute(Namespace = "http://schemas.microsoft.com/iis/media/v4/TM/managementservice")]
 public interface IManagementService
 ```
 
-``` c++
+```cpp
 [ServiceContractAttribute(Namespace = L"http://schemas.microsoft.com/iis/media/v4/TM/managementservice")]
 public interface class IManagementService
 ```
@@ -64,7 +63,7 @@ public interface class IManagementService
 type IManagementService =  interface end
 ```
 
-``` jscript
+```jscript
   public interface IManagementService
 ```
 
@@ -100,11 +99,9 @@ The IManagementService type exposes the following members.
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[UpdateJobTemplate](imanagementservice-updatejobtemplate-method-microsoft-web-media-transformmanager.md)|Adds or replaces a [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) object.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[UpdateTaskDefinition](imanagementservice-updatetaskdefinition-method-microsoft-web-media-transformmanager.md)|Adds or replaces a single task as defined in the job template.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

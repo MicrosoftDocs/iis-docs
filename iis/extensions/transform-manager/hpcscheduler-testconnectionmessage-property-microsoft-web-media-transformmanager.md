@@ -1,5 +1,5 @@
 ---
-title: HpcScheduler.TestConnectionMessage Property  (Microsoft.Web.Media.TransformManager)
+title: HpcScheduler.TestConnectionMessage Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TestConnectionMessage Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.HpcScheduler.TestConnectionMessage
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.hpcscheduler.testconnectionmessage(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.HpcScheduler.TestConnectionMessage
 - Microsoft.Web.Media.TransformManager.HpcScheduler.set_TestConnectionMessage
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TestConnectionMessage Property
@@ -40,7 +39,7 @@ Gets the connection message.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property TestConnectionMessage As String
@@ -54,11 +53,11 @@ Dim value As String
 value = instance.TestConnectionMessage
 ```
 
-``` csharp
+```csharp
   public string TestConnectionMessage { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ TestConnectionMessage {
     String^ get ();
@@ -70,19 +69,19 @@ property String^ TestConnectionMessage {
   member TestConnectionMessage : string with get, private set
 ```
 
-``` jscript
+```jscript
   function get TestConnectionMessage () : String
 private function set TestConnectionMessage (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A connection message that contains exception details.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [HpcScheduler Class](hpcscheduler-class-microsoft-web-media-transformmanager.md)
 

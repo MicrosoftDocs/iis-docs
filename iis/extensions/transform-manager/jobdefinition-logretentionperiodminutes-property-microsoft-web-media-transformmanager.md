@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.LogRetentionPeriodMinutes Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.LogRetentionPeriodMinutes Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogRetentionPeriodMinutes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.LogRetentionPeriodMinutes
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.logretentionperiodminutes(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_LogRetentionPeriodMinutes
 - Microsoft.Web.Media.TransformManager.JobDefinition.LogRetentionPeriodMinutes
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LogRetentionPeriodMinutes Property
@@ -40,7 +39,7 @@ Gets or sets the number of minutes that the log that is associated with a job is
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property LogRetentionPeriodMinutes As Integer
@@ -56,12 +55,12 @@ value = instance.LogRetentionPeriodMinutes
 instance.LogRetentionPeriodMinutes = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public int LogRetentionPeriodMinutes { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property int LogRetentionPeriodMinutes {
@@ -75,19 +74,19 @@ property int LogRetentionPeriodMinutes {
 member LogRetentionPeriodMinutes : int with get, set
 ```
 
-``` jscript
+```jscript
   function get LogRetentionPeriodMinutes () : int
 function set LogRetentionPeriodMinutes (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The number of minutes that the log that is associated with a job is retained.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

@@ -1,5 +1,5 @@
 ---
-title: CacheResponse.ExpiryTime Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse.ExpiryTime Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ExpiryTime Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ExpiryTime
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.expirytime(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.ExpiryTime
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.get_ExpiryTime
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,19 +26,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse.ExpiryTime Property
 
-A [DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.95\)) object that contains the time of response expiration.
+A [DateTime](https://msdn.microsoft.com/library/03ybds8y\(v=vs.95\)) object that contains the time of response expiration.
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property ExpiryTime As DateTime
@@ -51,11 +50,11 @@ Dim value As DateTime
 value = instance.ExpiryTime
 ```
 
-``` csharp
+```csharp
 public DateTime ExpiryTime { get; }
 ```
 
-``` c++
+```cpp
 public:
 property DateTime ExpiryTime {
     DateTime get ();
@@ -66,28 +65,28 @@ property DateTime ExpiryTime {
 member ExpiryTime : DateTime
 ```
 
-``` jscript
+```jscript
 function get ExpiryTime () : DateTime
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.95\))  
-A [DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.95\)) object.
+Type: [System.DateTime](https://msdn.microsoft.com/library/03ybds8y\(v=vs.95\))  
+A [DateTime](https://msdn.microsoft.com/library/03ybds8y\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

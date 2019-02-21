@@ -1,15 +1,7 @@
 ---
-title: "DestroyCompression Function | Microsoft Docs"
-ms.custom: ""
+title: "DestroyCompression Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a3be752e-2d92-4185-a28b-b2a0c15f28dc
-caps.latest.revision: 3
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DestroyCompression Function
 Destroys the specified compression context.  
@@ -22,7 +14,7 @@ VOID WINAPI DestroyCompression(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `context`  
  [OUT] Pointer to the compression context to destroy.  
   

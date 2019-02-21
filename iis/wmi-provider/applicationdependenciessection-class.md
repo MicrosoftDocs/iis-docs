@@ -1,15 +1,7 @@
 ---
-title: "ApplicationDependenciesSection Class1 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationDependenciesSection Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cccbd894-2b4f-607b-ed38-c9134158cc90
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationDependenciesSection Class1
 Exposes application dependency information.  

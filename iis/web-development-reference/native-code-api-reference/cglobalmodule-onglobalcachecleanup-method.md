@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalCacheCleanup Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalCacheCleanup Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 18e85b91-c3e0-c4b3-7a69-90494e21a358
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalCacheCleanup Method
 Represents the method that will handle a `GlobalCacheCleanup` event.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalCacheCleanup(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

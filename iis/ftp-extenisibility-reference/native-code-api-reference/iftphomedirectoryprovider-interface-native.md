@@ -1,16 +1,8 @@
 ---
-title: "IFtpHomeDirectoryProvider Interface (Native) | Microsoft Docs"
-ms.custom: ""
+title: "IFtpHomeDirectoryProvider Interface (Native)"
 ms.date: "09/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b7bc3cf4-96eb-4cb2-ad39-1323d581da3f
-caps.latest.revision: 8
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IFtpHomeDirectoryProvider Interface (Native)
 Provides an interface to implement returning the physical path for a user's home directory.  

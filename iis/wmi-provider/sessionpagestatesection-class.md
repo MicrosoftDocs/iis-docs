@@ -1,15 +1,7 @@
 ---
-title: "SessionPageStateSection Class | Microsoft Docs"
-ms.custom: ""
+title: "SessionPageStateSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bc5f5d1b-1025-099b-4772-d8e6429f3927
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SessionPageStateSection Class
 Configures page view-state settings for an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application.  

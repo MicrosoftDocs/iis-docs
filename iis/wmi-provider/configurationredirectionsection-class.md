@@ -1,15 +1,7 @@
 ---
-title: "ConfigurationRedirectionSection Class | Microsoft Docs"
-ms.custom: ""
+title: "ConfigurationRedirectionSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bdea9a0b-25f3-4d68-8ad1-8ec80312fb67
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigurationRedirectionSection Class
 Configures the location of the ApplicationHost.config and Administration.config files.  

@@ -22,17 +22,17 @@ The ProtectionHeader element provides a content Protection System-specific heade
 
 The following sections describe attributes, child elements, and parent elements.
 
-#### Attributes
+### Attributes
 
 |Attribute|Description|
 |--- |--- |
 |**SystemID**|(Required) Identifies the content protection system used to provide playback capability.|
 
-#### Child Elements
+### Child Elements
 
 None
 
-#### Parent Elements
+### Parent Elements
 
 |Element|Description|
 |--- |--- |
@@ -44,7 +44,7 @@ The information in each ProtectionHeader element is targeted only to the Content
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IIS Smooth Streaming Client Manifest - SmoothStreamingMedia Element](iis-smooth-streaming-client-manifest-smoothstreamingmedia-element.md)
 

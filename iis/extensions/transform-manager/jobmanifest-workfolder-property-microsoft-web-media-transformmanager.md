@@ -1,5 +1,5 @@
 ---
-title: JobManifest.WorkFolder Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.WorkFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: WorkFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.WorkFolder
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.workfolder(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_WorkFolder
 - Microsoft.Web.Media.TransformManager.JobManifest.WorkFolder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # WorkFolder Property
@@ -36,7 +35,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property WorkFolder As String
@@ -49,11 +48,11 @@ Dim value As String
 value = instance.WorkFolder
 ```
 
-``` csharp
+```csharp
   public string WorkFolder { get; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ WorkFolder {
     String^ get ();
@@ -64,17 +63,17 @@ property String^ WorkFolder {
   member WorkFolder : string
 ```
 
-``` jscript
+```jscript
   function get WorkFolder () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

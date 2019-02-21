@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ Async operation for request on the DownloaderPlugin.
 
 ## Syntax
 
-``` csharp
+```csharp
 IAsyncOperation<DownloaderResponse> RequestAsync(
 DownloaderRequest pDownloaderRequest
 )
 ```
 
-``` c++
+```cpp
 HRESULT RequestAsync(
 [in] DownloaderRequest* pDownloaderRequest, [out, retval] Windows.Foundation.IAsyncOperation<DownloaderResponse*>** ppAsyncInfo
 )
 ```
 
-``` jscript
+```jscript
 bfunction RequestAsync(
 pDownloaderRequest : DownloaderRequest
 ) : IAsyncOperation<DownloaderResponse>

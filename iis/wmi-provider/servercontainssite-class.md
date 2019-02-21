@@ -1,15 +1,7 @@
 ---
-title: "ServerContainsSite Class1 | Microsoft Docs"
-ms.custom: ""
+title: "ServerContainsSite Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bde6c297-ab07-6523-36ca-985f9d415995
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ServerContainsSite Class1
 Provides a relationship between a Web server and its Web sites.  

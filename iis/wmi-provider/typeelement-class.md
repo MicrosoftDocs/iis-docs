@@ -1,15 +1,7 @@
 ---
-title: "TypeElement Class | Microsoft Docs"
-ms.custom: ""
+title: "TypeElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8103c618-5040-16d7-3708-0b5a74b3b95e
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TypeElement Class
 Specifies a type in an array property on a Web-service-related WMI class.  

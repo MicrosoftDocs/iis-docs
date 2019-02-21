@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the HTTP response.
 
 ## Syntax
 
-``` csharp
+```csharp
 public int HttpResponse { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property int HttpResponse {
 int get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get HttpResponse () : int
 ```
 

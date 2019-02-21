@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::ReadFragmentFromCache Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::ReadFragmentFromCache Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b658cbf0-4370-930b-b692-b2b34591206f
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::ReadFragmentFromCache Method
 Retrieves a specific fragment from the cache.  
@@ -25,7 +17,7 @@ virtual HRESULT ReadFragmentFromCache(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszFragmentName`  
  [__in] A pointer to a `WCHAR` that specifies the fragment to retrieve from the cache.  
   

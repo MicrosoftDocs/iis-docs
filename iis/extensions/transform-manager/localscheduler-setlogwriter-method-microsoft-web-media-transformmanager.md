@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.LocalScheduler.SetLogWriter
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SetLogWriter Method
@@ -36,7 +35,7 @@ Sets the [Logger](logger-class-microsoft-web-media-transformmanager.md) object f
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Overrides Sub SetLogWriter ( _
@@ -50,13 +49,13 @@ Dim logger As Logger
 instance.SetLogWriter(logger)
 ```
 
-``` csharp
+```csharp
   public override void SetLogWriter(
     Logger logger
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual void SetLogWriter(
     Logger^ logger
@@ -70,21 +69,21 @@ override SetLogWriter :
         logger:Logger -> unit 
 ```
 
-``` jscript
+```jscript
   public override function SetLogWriter(
     logger : Logger
 )
 ```
 
-#### Parameters
+### Parameters
 
   - logger  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .Logger](logger-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.Logger](logger-class-microsoft-web-media-transformmanager.md)  
     The [Logger](logger-class-microsoft-web-media-transformmanager.md) object that provides access to task definition and job template properties.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [LocalScheduler Class](localscheduler-class-microsoft-web-media-transformmanager.md)
 

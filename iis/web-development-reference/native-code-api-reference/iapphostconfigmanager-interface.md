@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigManager Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigManager Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8b12b98d-1f40-32f8-9451-50b8330166fe
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigManager Interface
 Provides access to the physical configuration files in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  

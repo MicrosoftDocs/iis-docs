@@ -176,8 +176,7 @@ Each Validator implements the IValidator interface. It *must* be in the ServerVa
 
     - context: set of key-value pairs specified for this Validator in the input XML.
     - server: reserved for future use
-    - serverValidationManager: provides access to logging capabilities
-- *Validate* method. This method actually does the work of validation. Use the Reporter field on the instance of ServerValidationManager to perform logging.
+    - serverValidation- *Validate* method. This method actually does the work of validation. Use the Reporter field on the instance of ServerValidationManager to perform logging.
 
 5. Compile the DLL and place it in the same directory as ServerValidatorCommandLine.exe
 

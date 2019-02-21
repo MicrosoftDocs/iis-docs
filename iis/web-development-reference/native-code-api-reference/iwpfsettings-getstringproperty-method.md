@@ -1,15 +1,7 @@
 ---
-title: "IWpfSettings::GetStringProperty Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfSettings::GetStringProperty Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 45f47ea3-1a10-6bad-326d-45ca18b7e24c
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfSettings::GetStringProperty Method
 Retrieves a string value from the worker process or application pool settings.  
@@ -24,7 +16,7 @@ virtual HRESULT GetStringProperty(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `SettingId`  
  [IN] A [WPF_SETTINGS_STRING_ENUM](../../web-development-reference\native-code-api-reference/wpf-settings-string-enum-enumeration.md) value that specifies which string value to return.  
   

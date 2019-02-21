@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.SelectStreamsCompleted
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SelectStreamsCompleted Event
@@ -37,7 +36,7 @@ Event activated when a [SelectStreamsAsync](segmentinfo-selectstreamsasync-metho
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Event SelectStreamsCompleted As EventHandler(Of StreamUpdatedListEventArgs)
@@ -49,11 +48,11 @@ Dim handler As EventHandler(Of StreamUpdatedListEventArgs)
 AddHandler instance.SelectStreamsCompleted, handler
 ```
 
-``` csharp
+```csharp
   public event EventHandler<StreamUpdatedListEventArgs> SelectStreamsCompleted
 ```
 
-``` c++
+```cpp
   public:
  event EventHandler<StreamUpdatedListEventArgs^>^ SelectStreamsCompleted {
     void add (EventHandler<StreamUpdatedListEventArgs^>^ value);
@@ -61,7 +60,7 @@ AddHandler instance.SelectStreamsCompleted, handler
 }
 ```
 
-``` jscript
+```jscript
   JScript does not support events.
 ```
 
@@ -71,21 +70,21 @@ By convention, the list of [StreamUpdatedEventArgs](streamupdatedeventargs-class
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

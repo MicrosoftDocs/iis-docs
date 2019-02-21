@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,11 +20,11 @@ Gets the name of the http cookie.
 
 ## Syntax
 
-``` csharp
+```csharp
 public string Name { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property String^ Name {
 String^ get () sealed;
@@ -32,7 +32,7 @@ void set (String^ value) sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get Name () : String
 final function set Name (value : String)
 ```

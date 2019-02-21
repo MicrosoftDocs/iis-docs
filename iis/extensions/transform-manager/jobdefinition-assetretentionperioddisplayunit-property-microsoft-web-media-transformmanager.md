@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.AssetRetentionPeriodDisplayUnit Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.AssetRetentionPeriodDisplayUnit Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: AssetRetentionPeriodDisplayUnit Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.AssetRetentionPeriodDisplayUnit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.assetretentionperioddisplayunit(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_AssetRetentionPeriodDisplayUnit
 - Microsoft.Web.Media.TransformManager.JobDefinition.AssetRetentionPeriodDisplayUnit
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # AssetRetentionPeriodDisplayUnit Property
@@ -40,7 +39,7 @@ Gets or sets a value that indicates how long the assets that are associated with
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property AssetRetentionPeriodDisplayUnit As String
@@ -56,12 +55,12 @@ value = instance.AssetRetentionPeriodDisplayUnit
 instance.AssetRetentionPeriodDisplayUnit = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string AssetRetentionPeriodDisplayUnit { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ AssetRetentionPeriodDisplayUnit {
@@ -75,14 +74,14 @@ property String^ AssetRetentionPeriodDisplayUnit {
 member AssetRetentionPeriodDisplayUnit : string with get, set
 ```
 
-``` jscript
+```jscript
   function get AssetRetentionPeriodDisplayUnit () : String
 function set AssetRetentionPeriodDisplayUnit (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The unit of time.  
 
 ## Remarks
@@ -91,7 +90,7 @@ The unit of time is used with the [AssetRetentionPeriodMinutes](jobdefinition-as
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

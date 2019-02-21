@@ -1,15 +1,7 @@
 ---
-title: "IPmApplicationPreload::PreloadApplication | Microsoft Docs"
-ms.custom: ""
+title: "IPmApplicationPreload::PreloadApplication"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 299d95c6-8184-4dda-8a54-8bcc9ce63447
-caps.latest.revision: 3
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPmApplicationPreload::PreloadApplication
 Preloads an application into server memory given its site ID and configuration file path.  
@@ -24,7 +16,7 @@ virtual HRESULT PreloadApplication(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwSiteId`  
  [IN] The ID of the application website.  
   

@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::GetClientCertificate Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::GetClientCertificate Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e75ebc13-a6b4-968c-8f0b-729ba591a57b
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::GetClientCertificate Method
 Retrieves the client certificate associated with the request.  
@@ -23,7 +15,7 @@ HRESULT GetClientCertificate(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppClientCertInfo`  
  [OUT] A pointer to an [HTTP_SSL_CLIENT_CERT_INFO](http://go.microsoft.com/fwlink/?LinkId=63150) structure.  
   

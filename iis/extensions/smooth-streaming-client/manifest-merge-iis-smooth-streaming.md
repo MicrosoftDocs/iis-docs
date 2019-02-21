@@ -398,13 +398,13 @@ For more information, see [Timeline Markers and Events (IIS Smooth Streaming)](t
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [IIS Smooth Streaming Client 1.5](microsoft-smooth-streaming-client-2-0.md)
 
 [Timeline Markers and Events (IIS Smooth Streaming)](timeline-markers-and-events.md)
 
-#### Other Resources
+### Other Resources
 
 [IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
 

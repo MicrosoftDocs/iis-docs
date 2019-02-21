@@ -1,15 +1,7 @@
 ---
-title: "AspLimits Class | Microsoft Docs"
-ms.custom: ""
+title: "AspLimits Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7e2263ab-ad01-26b5-3846-fdf08a65f7bb
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AspLimits Class
 Configures properties related to ASP limits.  

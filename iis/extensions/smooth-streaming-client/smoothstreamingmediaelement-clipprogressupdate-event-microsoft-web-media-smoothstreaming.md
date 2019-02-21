@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipProgressUpdate
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipProgressUpdate Event
@@ -37,7 +36,7 @@ Occurs when media reaches a marker.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Event ClipProgressUpdate As EventHandler(Of ClipPlaybackEventArgs)
@@ -49,11 +48,11 @@ Dim handler As EventHandler(Of ClipPlaybackEventArgs)
 AddHandler instance.ClipProgressUpdate, handler
 ```
 
-``` csharp
+```csharp
   public event EventHandler<ClipPlaybackEventArgs> ClipProgressUpdate
 ```
 
-``` c++
+```cpp
   public:
  event EventHandler<ClipPlaybackEventArgs^>^ ClipProgressUpdate {
     void add (EventHandler<ClipPlaybackEventArgs^>^ value);
@@ -61,7 +60,7 @@ AddHandler instance.ClipProgressUpdate, handler
 }
 ```
 
-``` jscript
+```jscript
   JScript does not support events.
 ```
 
@@ -71,17 +70,17 @@ For more information, see [Timeline Markers and Events (IIS Smooth Streaming)](t
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.QueryColumnMetadata
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # QueryColumnMetadata Constructor
@@ -36,7 +35,7 @@ Creates a new instance of the [QueryColumnMetadata](querycolumnmetadata-class-mi
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Sub New
 'Usage
@@ -44,26 +43,26 @@ Public Sub New
 Dim instance As New QueryColumnMetadata()
 ```
 
-``` csharp
+```csharp
 public QueryColumnMetadata()
 ```
 
-``` c++
+```cpp
 public:
 QueryColumnMetadata()
 ```
 
-``` jscript
+```jscript
 public function QueryColumnMetadata()
 ```
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [QueryColumnMetadata Class](querycolumnmetadata-class-microsoft-web-management-databasemanager.md)
 

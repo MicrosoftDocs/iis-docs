@@ -1,15 +1,7 @@
 ---
-title: "UrlMapping Class | Microsoft Docs"
-ms.custom: ""
+title: "UrlMapping Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b3f94d7a-9c83-4a85-c066-b208ff03ea45
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # UrlMapping Class
 Maps a displayed URL to the URL of a page in a Web application.  

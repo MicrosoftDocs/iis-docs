@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheKey::GetIsPrefix Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheKey::GetIsPrefix Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 12816d70-6ae9-8035-f7d1-e4ceb2b78db0
-caps.latest.revision: 39
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheKey::GetIsPrefix Method
 Returns a value that indicates whether two [IHttpCacheKey](../../web-development-reference\native-code-api-reference/ihttpcachekey-interface.md) pointers have the same prefix.  
@@ -22,7 +14,7 @@ virtual bool GetIsPrefix(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pCacheCompareKey`  
  A pointer to an `IHttpCacheKey` to compare with the current `IHttpCacheKey`.  
   

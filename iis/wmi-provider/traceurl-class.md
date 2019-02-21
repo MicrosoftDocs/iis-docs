@@ -1,15 +1,7 @@
 ---
-title: "TraceUrl Class | Microsoft Docs"
-ms.custom: ""
+title: "TraceUrl Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c3e5f869-317e-ae63-b882-2f194e4c665a
-caps.latest.revision: 27
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TraceUrl Class
 Configures the failed-request tracing for a specific request path.  

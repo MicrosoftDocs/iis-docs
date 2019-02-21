@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.IsLive Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.IsLive Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: IsLive Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsLive
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.islive(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsLive
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_IsLive
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.IsLive Property
@@ -38,7 +37,7 @@ Gets or sets a value that indicates whether the current position is close to the
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property IsLive As Boolean
@@ -51,11 +50,11 @@ Dim value As Boolean
 value = instance.IsLive
 ```
 
-``` csharp
+```csharp
 public bool IsLive { get; }
 ```
 
-``` c++
+```cpp
 public:
 property bool IsLive {
     bool get ();
@@ -66,28 +65,28 @@ property bool IsLive {
 member IsLive : bool
 ```
 
-``` jscript
+```jscript
 function get IsLive () : boolean
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
 true if the media stream is close to live; otherwise, false.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

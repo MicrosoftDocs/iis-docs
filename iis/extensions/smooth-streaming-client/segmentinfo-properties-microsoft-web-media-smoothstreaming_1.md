@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # SegmentInfo Properties
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 
 ## Properties
@@ -28,11 +22,9 @@ The [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) ty
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[StartPosition](segmentinfo-startposition-property-microsoft-web-media-smoothstreaming_1.md)|Gets the maximum of the start times of the first audio chunk and first video chunk.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [SegmentInfo Class](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

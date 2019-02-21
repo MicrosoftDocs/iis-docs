@@ -1,15 +1,7 @@
 ---
-title: "AssertSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "AssertSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fa5f3d0e-0722-0bfb-3d98-45b5d6803df9
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AssertSettings Class
 Specifies the user-interface mode for the [System.Diagnostics.Debug.Assert](http://go.microsoft.com/fwlink/?LinkId=70960) method and the name of a message log file.  

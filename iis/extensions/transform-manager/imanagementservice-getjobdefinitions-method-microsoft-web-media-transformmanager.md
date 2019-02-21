@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService.GetJobDefinitions
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobDefinitions Method
@@ -36,7 +35,7 @@ Returns all [JobDefinition](jobdefinition-class-microsoft-web-media-transformman
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Function GetJobDefinitions As Collection(Of JobDefinition)
@@ -48,12 +47,12 @@ Dim returnValue As Collection(Of JobDefinition)
 returnValue = instance.GetJobDefinitions()
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 Collection<JobDefinition> GetJobDefinitions()
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 Collection<JobDefinition^>^ GetJobDefinitions()
 ```
@@ -63,18 +62,18 @@ Collection<JobDefinition^>^ GetJobDefinitions()
 abstract GetJobDefinitions : unit -> Collection<JobDefinition> 
 ```
 
-``` jscript
+```jscript
   function GetJobDefinitions() : Collection<JobDefinition>
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 A collection of [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) objects.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

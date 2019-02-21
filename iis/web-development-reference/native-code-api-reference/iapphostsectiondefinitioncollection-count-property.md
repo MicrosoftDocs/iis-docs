@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionDefinitionCollection::Count Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionDefinitionCollection::Count Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 631fa9c1-c313-51b0-4397-27b3c638bf97
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionDefinitionCollection::Count Property
 Gets the number of configuration section definitions in the current collection.  
@@ -23,7 +15,7 @@ HRESULT get_Count(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcCount`  
  A pointer to a `ULONG` that contains the number of configuration section definitions in the current collection.  
   

@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.WatchFolder Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.WatchFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: WatchFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.WatchFolder
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.watchfolder(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_WatchFolder
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_WatchFolder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # WatchFolder Property
@@ -40,7 +39,7 @@ Gets or sets a file system folder that will be watched for files that will insta
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property WatchFolder As String
@@ -56,12 +55,12 @@ value = instance.WatchFolder
 instance.WatchFolder = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string WatchFolder { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ WatchFolder {
@@ -75,19 +74,19 @@ property String^ WatchFolder {
 member WatchFolder : string with get, set
 ```
 
-``` jscript
+```jscript
   function get WatchFolder () : String
 function set WatchFolder (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The folder.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

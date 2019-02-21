@@ -1,5 +1,5 @@
 ---
-title: TaskDetails.TaskProgress Property  (Microsoft.Web.Media.TransformManager)
+title: TaskDetails.TaskProgress Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskProgress Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDetails.TaskProgress
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdetails.taskprogress(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskDetails.set_TaskProgress
 - Microsoft.Web.Media.TransformManager.TaskDetails.get_TaskProgress
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskProgress Property
@@ -40,7 +39,7 @@ Gets or sets the progress of a task.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property TaskProgress As Integer
@@ -56,11 +55,11 @@ value = instance.TaskProgress
 instance.TaskProgress = value
 ```
 
-``` csharp
+```csharp
   public int TaskProgress { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property int TaskProgress {
     int get ();
@@ -72,19 +71,19 @@ property int TaskProgress {
   member TaskProgress : int with get, set
 ```
 
-``` jscript
+```jscript
   function get TaskProgress () : int
 function set TaskProgress (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The progress of a task.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskDetails Structure](taskdetails-structure-microsoft-web-media-transformmanager.md)
 

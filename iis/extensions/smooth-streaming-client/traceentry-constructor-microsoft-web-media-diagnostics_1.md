@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.#ctor
 - Microsoft.Web.Media.Diagnostics.TraceEntry.TraceEntry
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceEntry Constructor
@@ -37,7 +36,7 @@ Initializes and new instance of the [TraceEntry](traceentry-class-microsoft-web-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -62,7 +61,7 @@ Dim instance As New TraceEntry(mediaElementId, _
     traceLevel, text)
 ```
 
-``` csharp
+```csharp
 public TraceEntry(
     string mediaElementId,
     string className,
@@ -73,7 +72,7 @@ public TraceEntry(
 )
 ```
 
-``` c++
+```cpp
 public:
 TraceEntry(
     String^ mediaElementId, 
@@ -95,7 +94,7 @@ new :
         text:string -> TraceEntry
 ```
 
-``` jscript
+```jscript
 public function TraceEntry(
     mediaElementId : String, 
     className : String, 
@@ -106,22 +105,22 @@ public function TraceEntry(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - mediaElementId  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     String value that specifies the media element ID.
 
 <!-- end list -->
 
   - className  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     String value that specifies the class name of the method that invoked the trace.
 
 <!-- end list -->
 
   - methodName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     String value that specifies the method name of the method that invoked the trace.
 
 <!-- end list -->
@@ -139,22 +138,22 @@ public function TraceEntry(
 <!-- end list -->
 
   - text  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     String value that specifies the text description of the trace.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TraceEntry Class](traceentry-class-microsoft-web-media-diagnostics_1.md)
 

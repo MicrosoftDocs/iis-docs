@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.EnforceFileNameCase Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.EnforceFileNameCase Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: EnforceFileNameCase Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.EnforceFileNameCase
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.enforcefilenamecase(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_EnforceFileNameCase
 - Microsoft.Web.Media.TransformManager.JobDefinition.EnforceFileNameCase
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # EnforceFileNameCase Property
@@ -40,7 +39,7 @@ Gets or sets a value that indicates whether the file names referenced in the man
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property EnforceFileNameCase As Boolean
@@ -56,12 +55,12 @@ value = instance.EnforceFileNameCase
 instance.EnforceFileNameCase = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public bool EnforceFileNameCase { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property bool EnforceFileNameCase {
@@ -75,14 +74,14 @@ property bool EnforceFileNameCase {
 member EnforceFileNameCase : bool with get, set
 ```
 
-``` jscript
+```jscript
   function get EnforceFileNameCase () : boolean
 function set EnforceFileNameCase (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the file names named in the manifest must match in case; otherwise, false.  
 
 ## Remarks
@@ -91,7 +90,7 @@ If the input file that triggers job creation is a SMIL-compliant manifest, it co
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

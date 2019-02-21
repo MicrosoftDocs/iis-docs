@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalCustomNotification Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalCustomNotification Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f029ec16-7791-d9b4-042d-b18c2a4c36d7
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalCustomNotification Method
 Represents the method that will handle a `GlobalCustomNotification` event, which occurs when a module raises a user-defined notification.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalCustomNotification(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProvider`  
  [IN] A pointer to an [ICustomNotificationProvider](../../web-development-reference\native-code-api-reference/icustomnotificationprovider-interface.md) interface.  
   

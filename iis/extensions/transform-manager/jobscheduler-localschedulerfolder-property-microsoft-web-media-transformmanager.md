@@ -1,5 +1,5 @@
 ---
-title: JobScheduler.LocalSchedulerFolder Property  (Microsoft.Web.Media.TransformManager)
+title: JobScheduler.LocalSchedulerFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LocalSchedulerFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobScheduler.LocalSchedulerFolder
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobscheduler.localschedulerfolder(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobScheduler.get_LocalSchedulerFolder
 - Microsoft.Web.Media.TransformManager.JobScheduler.LocalSchedulerFolder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LocalSchedulerFolder Property
@@ -38,7 +37,7 @@ Gets the local scheduler folder name.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared ReadOnly Property LocalSchedulerFolder As String
@@ -50,11 +49,11 @@ Gets the local scheduler folder name.
 value = JobScheduler.LocalSchedulerFolder
 ```
 
-``` csharp
+```csharp
   public static string LocalSchedulerFolder { get; }
 ```
 
-``` c++
+```cpp
   public:
 static property String^ LocalSchedulerFolder {
     String^ get ();
@@ -65,13 +64,13 @@ static property String^ LocalSchedulerFolder {
   static member LocalSchedulerFolder : string
 ```
 
-``` jscript
+```jscript
   static function get LocalSchedulerFolder () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The local scheduler folder name.  
 
 ## Remarks
@@ -80,7 +79,7 @@ The string for the local scheduler folder name is "IIS Transform Manager\\".
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobScheduler Class](jobscheduler-class-microsoft-web-media-transformmanager.md)
 

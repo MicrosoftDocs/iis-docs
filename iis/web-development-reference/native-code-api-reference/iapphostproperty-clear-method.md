@@ -1,15 +1,7 @@
 ---
-title: "IAppHostProperty::Clear Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostProperty::Clear Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 378902f7-413f-d68f-7245-dc9476bf27bd
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostProperty::Clear Method
 Removes the current property from the XML persisted by the configuration system.  
@@ -21,7 +13,7 @@ HRESULT Clear(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -1,15 +1,7 @@
 ---
-title: "HttpCookiesSection Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpCookiesSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 77afdef8-8d29-579c-e5f9-3b199fc2596f
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpCookiesSection Class
 Configures properties for cookies used by a Web application.  
@@ -37,7 +29,7 @@ class HttpCookiesSection : ConfigurationSection
 |Name|Description|  
 |----------|-----------------|  
 |`Domain`|An optional read/write `string` value that sets the cookie domain name.|  
-|`HttpOnlyCookies`|A read/write `boolean` value. `true` if output of the [System.Web.Configuration.HttpCookiesSection.HttpOnlyCookies property](/dotnet/api/system.web.configuration.httpcookiessection.httponlycookies?view=netframework-4.7.2) in Internet Explorer 6 SP1 or later is enabled; otherwise, `false`. The default is `false`.<br /><br /> This property can help mitigate cross-site scripting threats that result in stolen cookies. When a cookie that has `HttpOnlyCookies` set to `true` is received by a compliant browser, it is inaccessible to client-side script. Support for this type of cookie was added in Internet Explorer 6 SP1. For more information about possible attacks and how `HttpOnlyCookies` can help mitigate them, see [Mitigating Cross-Site Scripting with HTTP-Only Cookies](http://go.microsoft.com/fwlink/?LinkId=41580).|  
+|`HttpOnlyCookies`|A read/write `boolean` value. `true` if output of the [System.Web.Configuration.HttpCookiesSection.HttpOnlyCookies property](/dotnet/api/system.web.configuration.httpcookiessection.httponlycookies) in Internet Explorer 6 SP1 or later is enabled; otherwise, `false`. The default is `false`.<br /><br /> This property can help mitigate cross-site scripting threats that result in stolen cookies. When a cookie that has `HttpOnlyCookies` set to `true` is received by a compliant browser, it is inaccessible to client-side script. Support for this type of cookie was added in Internet Explorer 6 SP1. For more information about possible attacks and how `HttpOnlyCookies` can help mitigate them, see [Mitigating Cross-Site Scripting with HTTP-Only Cookies](http://go.microsoft.com/fwlink/?LinkId=41580).|  
 |`Location`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`Path`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`RequireSSL`|An optional read/write `boolean` value. `true` if Secure Sockets Layer (SSL) communication is required; otherwise, `false`. The default is `false`. **Note:**  This setting is overridden by any other feature that exposes the `RequireSSL` property.|  

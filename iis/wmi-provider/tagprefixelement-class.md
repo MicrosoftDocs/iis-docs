@@ -1,15 +1,7 @@
 ---
-title: "TagPrefixElement Class | Microsoft Docs"
-ms.custom: ""
+title: "TagPrefixElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 194e106d-b30e-473b-92da-3aeccdfedd07
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TagPrefixElement Class
 Contains configuration information for a custom or user control.  

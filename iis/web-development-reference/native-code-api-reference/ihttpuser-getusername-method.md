@@ -1,15 +1,7 @@
 ---
-title: "IHttpUser::GetUserName Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUser::GetUserName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a958e0e3-4166-13a2-ab9d-ff79fd8aa67a
-caps.latest.revision: 37
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUser::GetUserName Method
 Returns the user name.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetUserName(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

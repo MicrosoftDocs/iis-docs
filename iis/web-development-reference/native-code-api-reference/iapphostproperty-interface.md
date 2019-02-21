@@ -1,15 +1,7 @@
 ---
-title: "IAppHostProperty Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostProperty Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8cb03b60-3a5c-d308-1532-9f625ec1c5ec
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostProperty Interface
 Represents a property of a configuration element.  

@@ -1,14 +1,7 @@
 ---
-title: "CreateObjectFromCLSID | Microsoft Docs"
-ms.custom: ""
+title: "CreateObjectFromCLSID"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 94eaf219-d206-4f90-9eef-940a96f2d9a7
-caps.latest.revision: 8
-manager: "wpickett"
 ---
 # CreateObjectFromCLSID
 Creates a COM object using the specified class ID (CLSID).  
@@ -24,7 +17,7 @@ Creates a COM object using the specified class ID (CLSID).
   
 ```  
   
-#### Parameters  
+### Parameters  
   
 -   [in] `clsidObject`  
   

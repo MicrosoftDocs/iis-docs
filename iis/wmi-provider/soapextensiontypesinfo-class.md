@@ -1,15 +1,7 @@
 ---
-title: "SoapExtensionTypesInfo Class | Microsoft Docs"
-ms.custom: ""
+title: "SoapExtensionTypesInfo Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7a8dcc50-3f03-9c7c-23f3-a7682dbaacbc
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SoapExtensionTypesInfo Class
 Specifies SOAP extensions that inspect or modify SOAP messages.  

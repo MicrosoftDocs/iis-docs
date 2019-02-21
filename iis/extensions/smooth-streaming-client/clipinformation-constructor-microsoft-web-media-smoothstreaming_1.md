@@ -10,19 +10,13 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.#ctor
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.ClipInformation
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
 # ClipInformation Constructor
-
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
 
 Initializes a new instance of the [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) class.
 
@@ -39,11 +33,9 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ClipInformation(Boolean, Uri, Uri, Duration, ISmoothStreamingCache)](clipinformation-constructor-boolean-uri-uri-duration-ismoothstreamingcache-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) class.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipInformation Class](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)
 

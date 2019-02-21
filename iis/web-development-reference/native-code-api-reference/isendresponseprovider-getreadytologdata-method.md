@@ -1,15 +1,7 @@
 ---
-title: "ISendResponseProvider::GetReadyToLogData Method | Microsoft Docs"
-ms.custom: ""
+title: "ISendResponseProvider::GetReadyToLogData Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c3ddf072-65c5-3260-de3f-653255dc7513
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ISendResponseProvider::GetReadyToLogData Method
 Retrieves a value that indicates whether IIS is ready to write information to the logs.  
@@ -22,7 +14,7 @@ virtual BOOL GetReadyToLogData(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

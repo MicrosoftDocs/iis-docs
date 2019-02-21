@@ -1,15 +1,7 @@
 ---
-title: "Creating Hosted Web Core Applications | Microsoft Docs"
-ms.custom: ""
+title: "Creating Hosted Web Core Applications"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1959167d-1711-45d7-babd-8e3a8217a736
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Creating Hosted Web Core Applications
 This section describes how to design a Hosted Web Core. The topics in this section demonstrate how to create an application that uses the Hosted Web Core features, and how to create a custom configuration file for your application.  

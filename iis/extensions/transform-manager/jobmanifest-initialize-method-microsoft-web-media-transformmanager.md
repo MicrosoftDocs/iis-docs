@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.Initialize
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Initialize Method
@@ -36,7 +35,7 @@ Initializes member variables for a manifest that is loaded from disk instead of 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub Initialize ( _
@@ -50,13 +49,13 @@ Dim fileName As String
 instance.Initialize(fileName)
 ```
 
-``` csharp
+```csharp
   public void Initialize(
     string fileName
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual void Initialize(
     String^ fileName
@@ -70,25 +69,25 @@ override Initialize :
         fileName:string -> unit 
 ```
 
-``` jscript
+```jscript
   public final function Initialize(
     fileName : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - fileName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the manifest file.  
 
-#### Implements
+### Implements
 
-[IJobManifest. . :: . .Initialize(String)](ijobmanifest-initialize-method-microsoft-web-media-transformmanager.md)  
+[IJobManifest.Initialize(String)](ijobmanifest-initialize-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

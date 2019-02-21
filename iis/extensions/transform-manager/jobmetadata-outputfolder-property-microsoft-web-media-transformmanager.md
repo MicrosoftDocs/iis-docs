@@ -1,5 +1,5 @@
 ---
-title: JobMetadata.OutputFolder Property  (Microsoft.Web.Media.TransformManager)
+title: JobMetadata.OutputFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: OutputFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.OutputFolder
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmetadata.outputfolder(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobMetadata.OutputFolder
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_OutputFolder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # OutputFolder Property
@@ -38,7 +37,7 @@ Gets the name of the output folder for completed jobs.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property OutputFolder As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.OutputFolder
 ```
 
-``` csharp
+```csharp
   public string OutputFolder { get; }
 ```
 
-``` c++
+```cpp
   public:
 virtual property String^ OutputFolder {
     String^ get () sealed;
@@ -67,22 +66,22 @@ virtual property String^ OutputFolder {
 override OutputFolder : string
 ```
 
-``` jscript
+```jscript
   final function get OutputFolder () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The output folder name.  
 
-#### Implements
+### Implements
 
-[IJobMetadata. . :: . .OutputFolder](ijobmetadata-outputfolder-property-microsoft-web-media-transformmanager.md)  
+[IJobMetadata.OutputFolder](ijobmetadata-outputfolder-property-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobMetadata Class](jobmetadata-class-microsoft-web-media-transformmanager.md)
 

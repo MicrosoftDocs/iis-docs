@@ -1,15 +1,7 @@
 ---
-title: "IProcessHostSupportFunctions::GetApplicationProperties Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHostSupportFunctions::GetApplicationProperties Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 84b98c00-58c7-296c-7255-b47ac1d032dc
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHostSupportFunctions::GetApplicationProperties Method
 Retrieves the properties from the application's metabase.  
@@ -26,7 +18,7 @@ virtual HRESULT __stdcall GetApplicationProperties(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `appId`  
  A string that contains the unique identifier of the application.  
   

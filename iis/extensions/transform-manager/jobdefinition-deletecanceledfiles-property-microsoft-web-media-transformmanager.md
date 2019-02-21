@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.DeleteCanceledFiles Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.DeleteCanceledFiles Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: DeleteCanceledFiles Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.DeleteCanceledFiles
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.deletecanceledfiles(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_DeleteCanceledFiles
 - Microsoft.Web.Media.TransformManager.JobDefinition.DeleteCanceledFiles
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DeleteCanceledFiles Property
@@ -40,7 +39,7 @@ Gets or sets a value that indicates whether asset files for canceled jobs should
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property DeleteCanceledFiles As Boolean
@@ -56,12 +55,12 @@ value = instance.DeleteCanceledFiles
 instance.DeleteCanceledFiles = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public bool DeleteCanceledFiles { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property bool DeleteCanceledFiles {
@@ -75,14 +74,14 @@ property bool DeleteCanceledFiles {
 member DeleteCanceledFiles : bool with get, set
 ```
 
-``` jscript
+```jscript
   function get DeleteCanceledFiles () : boolean
 function set DeleteCanceledFiles (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the asset files for canceled jobs are deleted, or false if the asset files for canceled jobs are retained.  
 
 ## Remarks
@@ -91,7 +90,7 @@ The [AssetRetentionPeriodMinutes](jobdefinition-assetretentionperiodminutes-prop
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

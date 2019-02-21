@@ -1,15 +1,7 @@
 ---
-title: "IReadEntityProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IReadEntityProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 88a39d22-b9ac-9ee7-1127-57158a8a9c4c
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IReadEntityProvider Interface
 Provides an interface for retrieving or modifying the request entity.  

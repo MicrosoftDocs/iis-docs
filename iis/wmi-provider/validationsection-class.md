@@ -1,15 +1,7 @@
 ---
-title: "ValidationSection Class | Microsoft Docs"
-ms.custom: ""
+title: "ValidationSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: da81aca7-b37a-42a3-8b32-b1ae2a4966e2
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ValidationSection Class
 Enables or disables validation checks on configuration files.  

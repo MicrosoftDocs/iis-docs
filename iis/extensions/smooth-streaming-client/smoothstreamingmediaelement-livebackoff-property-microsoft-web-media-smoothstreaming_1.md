@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.LiveBackOff Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.LiveBackOff Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LiveBackOff Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LiveBackOff
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.livebackoff(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LiveBackOff
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_LiveBackOff
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.LiveBackOff Property
@@ -40,7 +39,7 @@ Gets or sets the duration of content closest to live that cannot yet be download
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property LiveBackOff As TimeSpan
@@ -56,11 +55,11 @@ value = instance.LiveBackOff
 instance.LiveBackOff = value
 ```
 
-``` csharp
+```csharp
 public TimeSpan LiveBackOff { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property TimeSpan LiveBackOff {
     TimeSpan get ();
@@ -72,14 +71,14 @@ property TimeSpan LiveBackOff {
 member LiveBackOff : TimeSpan with get, set
 ```
 
-``` jscript
+```jscript
 function get LiveBackOff () : TimeSpan
 function set LiveBackOff (value : TimeSpan)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))  
+Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))  
 The duration of content closest to live that cannot yet be downloaded.
 
 ## Remarks
@@ -96,13 +95,13 @@ As a result, the end-to-end latency on the client side (that is, how close playb
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

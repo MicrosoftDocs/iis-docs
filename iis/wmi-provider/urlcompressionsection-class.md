@@ -1,15 +1,7 @@
 ---
-title: "UrlCompressionSection Class | Microsoft Docs"
-ms.custom: ""
+title: "UrlCompressionSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 356024fc-1000-cede-ffca-553146521b7a
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # UrlCompressionSection Class
 Enables or disables dynamic or static compression.  

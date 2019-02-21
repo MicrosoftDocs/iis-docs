@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::Redirect Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::Redirect Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1260ee72-2865-b370-00db-11dfde60e0a9
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::Redirect Method
 Redirects the client to a specified URL.  
@@ -24,7 +16,7 @@ virtual HRESULT Redirect(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszUrl`  
  [IN] A pointer to a string that contains the URL for redirection.  
   
@@ -50,7 +42,7 @@ virtual HRESULT Redirect(
 >  If you do not return [RQ_NOTIFICATION_FINISH_REQUEST](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) from your module after you call the `Redirect` method, the `Redirect` method will not automatically clear the response buffer. In this situation, subsequent processing may add information to the response buffer, and you may receive unexpected results if you do not manually clear the response.  
   
 > [!NOTE]
->  The `Redirect` method does not flush the response entity to the client, and any data in the response will be removed when you call the `Redirect` method. If the response has already been flushed to the client, IIS will have sent the existing headers and data to the client, and the `Redirect` method will not redirect the client to the new URL.  
+> The `Redirect` method does not flush the response entity to the client, and any data in the response will be removed when you call the `Redirect` method. If the response has already been flushed to the client, IIS will have sent the existing headers and data to the client, and the `Redirect` method will not redirect the client to the new URL.  
   
 ## Example  
  The following code example demonstrates how to use the `Redirect` method to create an HTTP module that redirects a client to a relative URL on the Web server.  

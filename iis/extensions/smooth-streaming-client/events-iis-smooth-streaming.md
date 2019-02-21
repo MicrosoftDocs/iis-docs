@@ -41,7 +41,7 @@ The following code shows the SmoothPlayer\_MediaEnded delegate method that handl
 
 ## Position Property and Seek Completed Event
 
-You can assign the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) to a new position in the stream and the player will seek to the new position. Simply assign a [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\)) object to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property. The [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\)) object specifies the time interval from the beginning of the stream.
+You can assign the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) to a new position in the stream and the player will seek to the new position. Simply assign a [TimeSpan](https://msdn.microsoft.com/library/269ew577) object to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property. The [TimeSpan](https://msdn.microsoft.com/library/269ew577) object specifies the time interval from the beginning of the stream.
 
 To implement a button that will seek to a new position, add the following line to MainPage.xaml of the sample application implemented in the topic [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md). Add the SeekButton specification after the StopButton and before the ComboBox.
 
@@ -116,7 +116,7 @@ This handler displays the error code and message to a text block. A full applica
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md)
 
@@ -126,7 +126,7 @@ This handler displays the error code and message to a text block. A full applica
 
 [Select and Monitor Bit Rate (IIS Smooth Streaming)](select-and-monitor-bitrate.md)
 
-#### Other Resources
+### Other Resources
 
 [IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
 

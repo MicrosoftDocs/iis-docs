@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigException::ErrorString Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigException::ErrorString Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 15796ec2-a9b7-6d9b-9bca-42286cea2d1b
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigException::ErrorString Property
 Gets a description of the reason for the exception.  
@@ -23,7 +15,7 @@ HRESULT get_ErrorString(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrErrorString`  
  A pointer to a `BSTR` that contains the error string.  
   

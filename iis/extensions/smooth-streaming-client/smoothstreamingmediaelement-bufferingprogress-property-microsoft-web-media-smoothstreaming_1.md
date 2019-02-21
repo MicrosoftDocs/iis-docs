@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.BufferingProgress Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.BufferingProgress Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: BufferingProgress Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingProgress
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.bufferingprogress(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingProgress
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_BufferingProgress
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.BufferingProgress Property
@@ -38,7 +37,7 @@ Gets or sets the buffering progress. (This property is available only for Window
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property BufferingProgress As Double
@@ -51,11 +50,11 @@ Dim value As Double
 value = instance.BufferingProgress
 ```
 
-``` csharp
+```csharp
 public double BufferingProgress { get; }
 ```
 
-``` c++
+```cpp
 public:
 property double BufferingProgress {
     double get ();
@@ -66,28 +65,28 @@ property double BufferingProgress {
 member BufferingProgress : float
 ```
 
-``` jscript
+```jscript
 function get BufferingProgress () : double
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Double](https://msdn.microsoft.com/en-us/library/643eft0t\(v=vs.95\))  
+Type: [System.Double](https://msdn.microsoft.com/library/643eft0t\(v=vs.95\))  
 A value that indicates the buffering progress as a percentage.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

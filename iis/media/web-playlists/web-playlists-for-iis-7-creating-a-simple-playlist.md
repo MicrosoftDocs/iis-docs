@@ -266,7 +266,7 @@ In addition to supporting client-side playlist format asx, the Release Candidate
 
 ## For More Information
 
-- ASX Elements – [https://msdn.microsoft.com/en-us/library/ms910265.aspx](https://msdn.microsoft.com/en-us/library/ms910265.aspx)
-- PARAM Tags in ASX - [https://msdn.microsoft.com/en-us/library/bb249281(VS.85).aspx](https://msdn.microsoft.com/en-us/library/bb249281(VS.85).aspx)
-- ClientSkip Attribute for ENTRY - [https://msdn.microsoft.com/en-us/library/ms910279.aspx](https://msdn.microsoft.com/en-us/library/ms910279.aspx)
-- Logon Type - [https://msdn.microsoft.com/en-us/library/ms691229(VS.85).aspx](https://msdn.microsoft.com/en-us/library/ms691229(VS.85).aspx)
+- ASX Elements – [https://msdn.microsoft.com/library/ms910265.aspx](https://msdn.microsoft.com/library/ms910265.aspx)
+- PARAM Tags in ASX - [https://msdn.microsoft.com/library/bb249281(VS.85).aspx](https://msdn.microsoft.com/library/bb249281(VS.85).aspx)
+- ClientSkip Attribute for ENTRY - [https://msdn.microsoft.com/library/ms910279.aspx](https://msdn.microsoft.com/library/ms910279.aspx)
+- Logon Type - [https://msdn.microsoft.com/library/ms691229(VS.85).aspx](https://msdn.microsoft.com/library/ms691229(VS.85).aspx)

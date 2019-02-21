@@ -1,5 +1,5 @@
 ---
-title: Index.IsMarkedForDelete Property  (Microsoft.Web.Management.DatabaseManager)
+title: Index.IsMarkedForDelete Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsMarkedForDelete Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.IsMarkedForDelete
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.index.ismarkedfordelete(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Index.get_IsMarkedForDelete
 - Microsoft.Web.Management.DatabaseManager.Index.set_IsMarkedForDelete
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Index.IsMarkedForDelete Property
@@ -39,7 +38,7 @@ Gets or sets a value that indicates whether the index is marked for deletion.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property IsMarkedForDelete As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.IsMarkedForDelete
 instance.IsMarkedForDelete = value
 ```
 
-``` csharp
+```csharp
 public bool IsMarkedForDelete { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool IsMarkedForDelete {
     bool get ();
@@ -63,14 +62,14 @@ property bool IsMarkedForDelete {
 }
 ```
 
-``` jscript
+```jscript
 function get IsMarkedForDelete () : boolean
 function set IsMarkedForDelete (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the index is marked for deletion; otherwise, false.  
 
 ## Examples
@@ -82,7 +81,7 @@ The following code sample implements the [EditTable](idbtablemanager-edittable-m
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     Public Sub EditTable( _
             ByVal connectionString As String, _
@@ -557,7 +556,7 @@ The following code sample implements the [EditTable](idbtablemanager-edittable-m
 
 ```
 
-``` csharp
+```csharp
 
 // Modify a table in the database.
 public void EditTable(
@@ -1255,11 +1254,11 @@ private void AddForeignKeys(
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Index Class](index-class-microsoft-web-management-databasemanager.md)
 

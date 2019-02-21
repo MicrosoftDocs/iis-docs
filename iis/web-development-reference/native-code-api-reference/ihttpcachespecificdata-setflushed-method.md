@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheSpecificData::SetFlushed Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheSpecificData::SetFlushed Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d4cdb17b-f795-d42d-844b-3228571b804e
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheSpecificData::SetFlushed Method
 Sets a value indicating that the specific data is to be flushed from the cache.  
@@ -22,7 +14,7 @@ virtual VOID SetFlushed(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Thread Safety  

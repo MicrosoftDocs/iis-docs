@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertyExtension::ProvideGetProperty Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertyExtension::ProvideGetProperty Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c3b5306e-b7d7-43cd-9219-8d733046b6de
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertyExtension::ProvideGetProperty Method
 Fills a dynamic property in the specified element with a value.  
@@ -23,7 +15,7 @@ HRESULT ProvideGetProperty(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pElement`  
  Parent element of the dynamic property.  
   

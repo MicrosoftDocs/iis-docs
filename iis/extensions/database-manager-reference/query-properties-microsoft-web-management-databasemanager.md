@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # Query Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [Query](query-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -23,11 +20,9 @@ The [Query](query-class-microsoft-web-management-databasemanager.md) type expose
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Statement](query-statement-property-microsoft-web-management-databasemanager.md)|Gets or sets the SQL statement for a query.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Tag](query-tag-property-microsoft-web-management-databasemanager.md)|Returns a generic object that is stored in the Query class.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [Query Class](query-class-microsoft-web-management-databasemanager.md)
 

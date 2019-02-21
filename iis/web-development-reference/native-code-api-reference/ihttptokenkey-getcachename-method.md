@@ -1,15 +1,7 @@
 ---
-title: "IHttpTokenKey::GetCacheName Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpTokenKey::GetCacheName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b3c94361-aaff-ccae-fb26-99db535f08fa
-caps.latest.revision: 40
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpTokenKey::GetCacheName Method
 Returns the name of the global token cache.  
@@ -22,7 +14,7 @@ PCWSTR GetCacheName(
 ) const;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

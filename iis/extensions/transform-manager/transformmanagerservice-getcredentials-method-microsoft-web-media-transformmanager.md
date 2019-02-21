@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.GetCredentials
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetCredentials Method
@@ -36,7 +35,7 @@ Returns all of the [Credential](credential-class-microsoft-web-media-transformma
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Function GetCredentials As Collection(Of Credential)
@@ -48,12 +47,12 @@ Dim returnValue As Collection(Of Credential)
 returnValue = instance.GetCredentials()
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public Collection<Credential> GetCredentials()
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual Collection<Credential^>^ GetCredentials() sealed
@@ -66,22 +65,22 @@ abstract GetCredentials : unit -> Collection<Credential>
 override GetCredentials : unit -> Collection<Credential> 
 ```
 
-``` jscript
+```jscript
   public final function GetCredentials() : Collection<Credential>
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[Credential](credential-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[Credential](credential-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 The [Credential](credential-class-microsoft-web-media-transformmanager.md) objects.  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .GetCredentials() () () ()](imanagementservice-getcredentials-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.GetCredentials() () () ()](imanagementservice-getcredentials-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

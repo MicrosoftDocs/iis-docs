@@ -1,15 +1,7 @@
 ---
-title: "ICacheProvider::GetCacheKey Method | Microsoft Docs"
-ms.custom: ""
+title: "ICacheProvider::GetCacheKey Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 557ae36c-12e4-cbda-4178-67c3620067c6
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ICacheProvider::GetCacheKey Method
 Returns the cache key for the cache provider.  
@@ -22,7 +14,7 @@ virtual IHttpCacheKey* GetCacheKey(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.EndGetChunk
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # EndGetChunk Method
@@ -35,7 +34,7 @@ Method to complete the action of [BeginGetChunk](trackinfo-begingetchunk-method-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Overridable Function EndGetChunk ( _
@@ -50,34 +49,34 @@ Dim returnValue As ChunkResult
 returnValue = instance.EndGetChunk(ar)
 ```
 
-``` csharp
+```csharp
   public virtual ChunkResult EndGetChunk(
     IAsyncResult ar
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual ChunkResult^ EndGetChunk(
     IAsyncResult^ ar
 )
 ```
 
-``` jscript
+```jscript
   public function EndGetChunk(
     ar : IAsyncResult
 ) : ChunkResult
 ```
 
-#### Parameters
+### Parameters
 
   - ar  
-    Type: [System. . :: . .IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.90\))  
-    An [IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.90\)) object from [BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md).  
+    Type: [System.IAsyncResult](https://msdn.microsoft.com/library/ft8a6455)  
+    An [IAsyncResult](https://msdn.microsoft.com/library/ft8a6455) object from [BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md).  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .ChunkResult](chunkresult-class-microsoft-web-media-smoothstreaming_1.md)  
+Type: [Microsoft.Web.Media.SmoothStreaming.ChunkResult](chunkresult-class-microsoft-web-media-smoothstreaming_1.md)  
 A [ChunkResult](chunkresult-class-microsoft-web-media-smoothstreaming_1.md) object.  
 
 ## Examples
@@ -107,17 +106,17 @@ The following example loops through tracks and calls the EndGetChunk(IAsyncResul
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

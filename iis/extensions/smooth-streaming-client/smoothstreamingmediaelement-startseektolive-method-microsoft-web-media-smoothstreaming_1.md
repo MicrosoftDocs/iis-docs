@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.StartSeekToLive
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.StartSeekToLive Method
@@ -36,7 +35,7 @@ Starts a seek to a live media stream.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Function StartSeekToLive As Boolean
@@ -48,11 +47,11 @@ Dim returnValue As Boolean
 returnValue = instance.StartSeekToLive()
 ```
 
-``` csharp
+```csharp
 public bool StartSeekToLive()
 ```
 
-``` c++
+```cpp
 public:
 bool StartSeekToLive()
 ```
@@ -61,28 +60,28 @@ bool StartSeekToLive()
 member StartSeekToLive : unit -> bool 
 ```
 
-``` jscript
+```jscript
 public function StartSeekToLive() : boolean
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
 true if the seek operation succeeded; otherwise, false.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

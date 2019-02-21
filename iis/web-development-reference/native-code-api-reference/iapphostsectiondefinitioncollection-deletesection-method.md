@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionDefinitionCollection::DeleteSection Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionDefinitionCollection::DeleteSection Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2c9f1513-91bf-a8e6-1c30-3970a127c0a5
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionDefinitionCollection::DeleteSection Method
 Removes a configuration section definition from the collection.  
@@ -22,7 +14,7 @@ HRESULT DeleteSection(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `varIndex`  
  A `VARIANT` that contains the index of the configuration section definition to be removed from the current collection.  
   

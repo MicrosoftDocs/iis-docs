@@ -1,15 +1,7 @@
 ---
-title: "ApplicationDependency Class | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationDependency Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a2b235cd-4d10-8d8a-648c-311f6c9465d4
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationDependency Class
 Represents a dependency between a Web application and one or more Web service extensions.  

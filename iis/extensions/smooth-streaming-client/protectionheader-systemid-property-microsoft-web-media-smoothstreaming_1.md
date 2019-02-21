@@ -1,5 +1,5 @@
 ---
-title: ProtectionHeader.SystemID Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ProtectionHeader.SystemID Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SystemID Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.SystemID
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.protectionheader.systemid(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.set_SystemID
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.SystemID
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,19 +28,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ProtectionHeader.SystemID Property
 
-Gets or sets the [System.GUID](https://msdn.microsoft.com/en-us/library/cey1zx63\(v=vs.95\)) that identifies the protection system.
+Gets or sets the [System.GUID](https://msdn.microsoft.com/library/cey1zx63\(v=vs.95\)) that identifies the protection system.
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property SystemID As Guid
@@ -54,11 +53,11 @@ Dim value As Guid
 value = instance.SystemID
 ```
 
-``` csharp
+```csharp
 public Guid SystemID { get; internal set; }
 ```
 
-``` c++
+```cpp
 public:
 property Guid SystemID {
     Guid get ();
@@ -70,29 +69,29 @@ property Guid SystemID {
 member SystemID : Guid with get, internal set
 ```
 
-``` jscript
+```jscript
 function get SystemID () : Guid
 internal function set SystemID (value : Guid)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Guid](https://msdn.microsoft.com/en-us/library/cey1zx63\(v=vs.95\))  
-A [System.GUID](https://msdn.microsoft.com/en-us/library/cey1zx63\(v=vs.95\)) object.
+Type: [System.Guid](https://msdn.microsoft.com/library/cey1zx63\(v=vs.95\))  
+A [System.GUID](https://msdn.microsoft.com/library/cey1zx63\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ProtectionHeader Class](protectionheader-class-microsoft-web-media-smoothstreaming_1.md)
 

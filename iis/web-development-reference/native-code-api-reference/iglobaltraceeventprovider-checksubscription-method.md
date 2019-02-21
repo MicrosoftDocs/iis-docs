@@ -1,15 +1,7 @@
 ---
-title: "IGlobalTraceEventProvider::CheckSubscription Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalTraceEventProvider::CheckSubscription Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 84096bba-9d37-fafd-4b74-1f3c97651eea
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalTraceEventProvider::CheckSubscription Method
 Returns a value that indicates whether the trace event is intended for the module.  
@@ -22,7 +14,7 @@ virtual BOOL CheckSubscription(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ModuleId`  
  [IN] An `HTTP_MODULE_ID` pointer.  
   

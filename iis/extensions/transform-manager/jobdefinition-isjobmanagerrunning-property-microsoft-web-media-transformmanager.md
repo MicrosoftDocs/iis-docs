@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.IsJobManagerRunning Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.IsJobManagerRunning Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: IsJobManagerRunning Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.IsJobManagerRunning
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.isjobmanagerrunning(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_IsJobManagerRunning
 - Microsoft.Web.Media.TransformManager.JobDefinition.IsJobManagerRunning
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IsJobManagerRunning Property
@@ -40,7 +39,7 @@ Gets or sets a value that indicates whether the job manager that is associated w
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property IsJobManagerRunning As Boolean
@@ -56,12 +55,12 @@ value = instance.IsJobManagerRunning
 instance.IsJobManagerRunning = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public bool IsJobManagerRunning { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property bool IsJobManagerRunning {
@@ -75,14 +74,14 @@ property bool IsJobManagerRunning {
 member IsJobManagerRunning : bool with get, set
 ```
 
-``` jscript
+```jscript
   function get IsJobManagerRunning () : boolean
 function set IsJobManagerRunning (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the job manager that is associated with this job definition is running; otherwise, false.  
 
 ## Remarks
@@ -91,7 +90,7 @@ This type/member supports the IIS Transform Manager infrastructure and is not in
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

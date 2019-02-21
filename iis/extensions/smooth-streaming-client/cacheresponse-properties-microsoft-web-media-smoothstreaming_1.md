@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # CacheResponse Properties
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 
 ## Properties
@@ -25,18 +19,16 @@ The [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ContentLength](cacheresponse-contentlength-property-microsoft-web-media-smoothstreaming_1.md)|The length in bytes.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ContentType](cacheresponse-contenttype-property-microsoft-web-media-smoothstreaming_1.md)|A string object that identifies the content type.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[ContinueProcessing](cacheresponse-continueprocessing-property-microsoft-web-media-smoothstreaming.md)|Gets a Boolean value indicating whether cache response processing continues to the next cache module (including HTTP download) in case of a cache miss.|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ExpiryTime](cacheresponse-expirytime-property-microsoft-web-media-smoothstreaming_1.md)|A [DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y(v=vs.95)) object that contains the time of response expiration.|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ExpiryTime](cacheresponse-expirytime-property-microsoft-web-media-smoothstreaming_1.md)|A [DateTime](https://msdn.microsoft.com/library/03ybds8y(v=vs.95)) object that contains the time of response expiration.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Headers](cacheresponse-headers-property-microsoft-web-media-smoothstreaming_1.md)|Gets a metadata collection of responses.|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Response](cacheresponse-response-property-microsoft-web-media-smoothstreaming_1.md)|A [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e(v=vs.95)) object that contains the response.|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[StatusCode](cacheresponse-statuscode-property-microsoft-web-media-smoothstreaming_1.md)|An [System.Net.HTTPStatusCode](https://msdn.microsoft.com/en-us/library/f92ssyy1(v=vs.95)) enumeration object.|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Response](cacheresponse-response-property-microsoft-web-media-smoothstreaming_1.md)|A [Stream](https://msdn.microsoft.com/library/8f86tw9e(v=vs.95)) object that contains the response.|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[StatusCode](cacheresponse-statuscode-property-microsoft-web-media-smoothstreaming_1.md)|An [System.Net.HTTPStatusCode](https://msdn.microsoft.com/library/f92ssyy1(v=vs.95)) enumeration object.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[StatusDescription](cacheresponse-statusdescription-property-microsoft-web-media-smoothstreaming_1.md)|A string that contains the status description.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

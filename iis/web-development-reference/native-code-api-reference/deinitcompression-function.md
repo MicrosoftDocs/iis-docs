@@ -1,15 +1,7 @@
 ---
-title: "DeInitCompression Function | Microsoft Docs"
-ms.custom: ""
+title: "DeInitCompression Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5d51951a-cdd7-4a2b-aebf-65239963bf1d
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DeInitCompression Function
 De-initializes the compression scheme.  
@@ -22,7 +14,7 @@ VOID WINAPI DeInitCompression(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  This function takes no parameters.  
   
 ## Return Value  

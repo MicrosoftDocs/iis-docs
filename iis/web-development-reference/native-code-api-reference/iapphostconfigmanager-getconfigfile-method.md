@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigManager::GetConfigFile Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigManager::GetConfigFile Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: addd9da3-1dc3-a705-9f0f-95ffa02025de
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigManager::GetConfigFile Method
 Gets a configuration file that is represented by the requested configuration path.  
@@ -25,7 +17,7 @@ HRESULT GetConfigFile(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrConfigPath`  
  A `BSTR` that contains the configuration file path being requested.  
   

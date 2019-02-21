@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.MaintenanceTime Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.MaintenanceTime Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: MaintenanceTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceTime
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.maintenancetime(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceTime
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_MaintenanceTime
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # MaintenanceTime Property
@@ -40,7 +39,7 @@ Gets or sets a fixed time during the day to run maintenance.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property MaintenanceTime As DateTime
@@ -56,12 +55,12 @@ value = instance.MaintenanceTime
 instance.MaintenanceTime = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public DateTime MaintenanceTime { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property DateTime MaintenanceTime {
@@ -75,19 +74,19 @@ property DateTime MaintenanceTime {
 member MaintenanceTime : DateTime with get, set
 ```
 
-``` jscript
+```jscript
   function get MaintenanceTime () : DateTime
 function set MaintenanceTime (value : DateTime)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.90\))  
+Type: [System.DateTime](https://msdn.microsoft.com/library/03ybds8y)  
 A fixed time during the day to run maintenance.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

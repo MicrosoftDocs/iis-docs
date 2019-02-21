@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # IDbTableDataManager Methods
 
-Include Protected Members  
-Include Inherited Members  
-
 The [IDbTableDataManager](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Methods
@@ -24,11 +21,9 @@ The [IDbTableDataManager](idbtabledatamanager-interface-microsoft-web-management
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetData](idbtabledatamanager-getdata-method-microsoft-web-management-databasemanager.md)|Returns table data as a query result.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[InsertRow](idbtabledatamanager-insertrow-method-microsoft-web-management-databasemanager.md)|Inserts a row of data into a table.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbTableDataManager Interface](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md)
 

@@ -22,7 +22,7 @@ The audio element specifies a single track of audio data.
 
 The following sections describe attributes, child elements, and parent elements.
 
-#### Attributes
+### Attributes
 
 |Attribute|Description|
 |--- |--- |
@@ -31,13 +31,13 @@ The following sections describe attributes, child elements, and parent elements.
 |**systemLanguage**|Specifies the language of the track using an RFC-1766 identifier. This is an informative tagging scheme and distinct track names are still required in order to discriminate between tracks at the same bit rate in different languages. This attribute is optional.|
 
 
-#### Child Elements
+### Child Elements
 
 |Element|Description|
 |--- |--- |
 |**param**|The param element specifies a single parameter for an audio element.|
 
-#### Parent Elements
+### Parent Elements
 
 |Element|Description|
 |--- |--- |
@@ -73,7 +73,7 @@ This would have the same semantic meaning adding the attribute BitsPerSample="16
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IIS Smooth Streaming Server Manifest (Live) - switch Element](iis-smooth-streaming-server-manifest-live-switch-element.md)
 

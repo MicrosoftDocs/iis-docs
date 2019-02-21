@@ -1,5 +1,5 @@
 ---
-title: QueryColumnMetadata.ColumnWidth Property  (Microsoft.Web.Management.DatabaseManager)
+title: QueryColumnMetadata.ColumnWidth Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ColumnWidth Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.ColumnWidth
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.querycolumnmetadata.columnwidth(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.get_ColumnWidth
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.set_ColumnWidth
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # QueryColumnMetadata.ColumnWidth Property
@@ -39,7 +38,7 @@ Gets or sets the column width for the column metadata within a query result.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property ColumnWidth As Long
 'Usage
@@ -51,11 +50,11 @@ value = instance.ColumnWidth
 instance.ColumnWidth = value
 ```
 
-``` csharp
+```csharp
 public long ColumnWidth { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property long long ColumnWidth {
     long long get ();
@@ -63,14 +62,14 @@ property long long ColumnWidth {
 }
 ```
 
-``` jscript
+```jscript
 function get ColumnWidth () : long
 function set ColumnWidth (value : long)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek\(v=vs.90\))  
+Type: [System.Int64](https://msdn.microsoft.com/library/6yy583ek)  
 The column width for the column metadata.  
 
 ## Examples
@@ -82,7 +81,7 @@ The following code sample implements the [GetData](idbtabledatamanager-getdata-m
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     ' Retrieve data from a database.
     Public Function GetData( _
@@ -180,7 +179,7 @@ The following code sample implements the [GetData](idbtabledatamanager-getdata-m
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve data from a database.
         public QueryResult GetData(string connectionString, string tableName, string schema)
@@ -288,11 +287,11 @@ The following code sample implements the [GetData](idbtabledatamanager-getdata-m
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [QueryColumnMetadata Class](querycolumnmetadata-class-microsoft-web-management-databasemanager.md)
 

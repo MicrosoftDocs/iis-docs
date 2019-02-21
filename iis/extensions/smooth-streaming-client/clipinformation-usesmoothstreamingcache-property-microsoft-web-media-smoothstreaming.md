@@ -1,5 +1,5 @@
 ---
-title: ClipInformation.UseSmoothStreamingCache Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ClipInformation.UseSmoothStreamingCache Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: UseSmoothStreamingCache Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.UseSmoothStreamingCache
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipinformation.usesmoothstreamingcache(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.set_UseSmoothStreamingCache
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.UseSmoothStreamingCache
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # UseSmoothStreamingCache Property
@@ -39,7 +38,7 @@ Gets or sets a Boolean value that indicates whether to use the Smooth Streaming 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property UseSmoothStreamingCache As Boolean
@@ -51,11 +50,11 @@ Dim value As Boolean
 value = instance.UseSmoothStreamingCache
 ```
 
-``` csharp
+```csharp
   public bool UseSmoothStreamingCache { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property bool UseSmoothStreamingCache {
     bool get ();
@@ -63,14 +62,14 @@ property bool UseSmoothStreamingCache {
 }
 ```
 
-``` jscript
+```jscript
   function get UseSmoothStreamingCache () : boolean
 private function set UseSmoothStreamingCache (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 A Boolean value, true if Smooth Streaming cache is to be used, otherwise false.  
 
 ## Remarks
@@ -83,17 +82,17 @@ If this property is false (default), ignore [SmoothStreamingCache](clipinformati
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipInformation Class](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)
 

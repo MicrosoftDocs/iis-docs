@@ -1,15 +1,7 @@
 ---
-title: "IHttpApplicationProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpApplicationProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3aae3259-655e-382f-8fb4-6bfa24b1e3f9
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpApplicationProvider Interface
 Provides an interface for application startup notifications.  

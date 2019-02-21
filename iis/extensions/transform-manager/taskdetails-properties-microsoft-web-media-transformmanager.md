@@ -21,11 +21,9 @@ The [TaskDetails](taskdetails-structure-microsoft-web-media-transformmanager.md)
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskIndex](taskdetails-taskindex-property-microsoft-web-media-transformmanager.md)|Gets or sets the index of a task.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskProgress](taskdetails-taskprogress-property-microsoft-web-media-transformmanager.md)|Gets or sets the progress of a task.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskDetails Structure](taskdetails-structure-microsoft-web-media-transformmanager.md)
 

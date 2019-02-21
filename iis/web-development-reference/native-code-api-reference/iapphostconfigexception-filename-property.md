@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigException::FileName Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigException::FileName Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5af2e96b-cfa0-a9b9-bb28-b0665c85427e
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigException::FileName Property
 Gets the physical path of the configuration file that caused the current exception to be thrown.  
@@ -23,7 +15,7 @@ HRESULT get_FileName(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrFileName`  
  A pointer to a `BSTR` that contains the path to the configuration file.  
   

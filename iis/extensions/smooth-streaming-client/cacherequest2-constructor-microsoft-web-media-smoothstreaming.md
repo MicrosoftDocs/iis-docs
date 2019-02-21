@@ -10,19 +10,13 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest2.CacheRequest2
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest2.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
 # CacheRequest2 Constructor
-
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
 
 Initializes a new instance of the [CacheRequest2](cacherequest2-class-microsoft-web-media-smoothstreaming.md) class.
 
@@ -35,11 +29,9 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[CacheRequest2(Stream)](cacherequest2-constructor-stream-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the [CacheRequest2](cacherequest2-class-microsoft-web-media-smoothstreaming.md) class based on the specified stream.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[CacheRequest2(HttpWebRequest, IList<TrackInfo>)](cacherequest2-constructor-httpwebrequest-ilist-trackinfo-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the [CacheRequest2](cacherequest2-class-microsoft-web-media-smoothstreaming.md) class based on the specified web request and list of selectable tracks.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheRequest2 Class](cacherequest2-class-microsoft-web-media-smoothstreaming.md)
 

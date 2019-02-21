@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService.StartJobManager
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StartJobManager Method
@@ -36,7 +35,7 @@ Enables jobs to be processed using a [JobManager](jobmanager-class-microsoft-web
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Sub StartJobManager ( _
@@ -50,14 +49,14 @@ Dim jobDefinitionId As String
 instance.StartJobManager(jobDefinitionId)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 void StartJobManager(
     string jobDefinitionId
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 void StartJobManager(
     String^ jobDefinitionId
@@ -70,30 +69,30 @@ abstract StartJobManager :
         jobDefinitionId:string -> unit 
 ```
 
-``` jscript
+```jscript
   function StartJobManager(
     jobDefinitionId : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobDefinitionId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) object that will be used to process jobs.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[InvalidOperationException](https://msdn.microsoft.com/en-us/library/2asft85a(v=vs.90))|The job manager is in the process of shutting down.|
-|[InvalidOperationException](https://msdn.microsoft.com/en-us/library/2asft85a(v=vs.90))|The job manager is already running.|
-|[UnauthorizedAccessException](https://msdn.microsoft.com/en-us/library/f2y9aa54(v=vs.90))|The process was unable to create the watch folder.|
-|[IOException](https://msdn.microsoft.com/en-us/library/hccy4eyd(v=vs.90))|The process was unable to create the watch folder.|
+|[InvalidOperationException](https://msdn.microsoft.com/library/2asft85a)|The job manager is in the process of shutting down.|
+|[InvalidOperationException](https://msdn.microsoft.com/library/2asft85a)|The job manager is already running.|
+|[UnauthorizedAccessException](https://msdn.microsoft.com/library/f2y9aa54)|The process was unable to create the watch folder.|
+|[IOException](https://msdn.microsoft.com/library/hccy4eyd)|The process was unable to create the watch folder.|
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "HttpHandlersSection Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpHandlersSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6172d775-56fd-b3a6-ef47-803f372aeebd
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpHandlersSection Class
 Configures settings for [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] handlers.  

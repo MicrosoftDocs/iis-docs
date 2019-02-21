@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.SchedulerCpus Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.SchedulerCpus Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerCpus Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpus
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.schedulercpus(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_SchedulerCpus
 - Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpus
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerCpus Property
@@ -40,7 +39,7 @@ Gets or sets a CPU value based on the scheduler.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property SchedulerCpus As Integer
@@ -56,12 +55,12 @@ value = instance.SchedulerCpus
 instance.SchedulerCpus = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public int SchedulerCpus { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property int SchedulerCpus {
@@ -75,14 +74,14 @@ property int SchedulerCpus {
 member SchedulerCpus : int with get, set
 ```
 
-``` jscript
+```jscript
   function get SchedulerCpus () : int
 function set SchedulerCpus (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 A CPU value.  
 
 ## Remarks
@@ -91,7 +90,7 @@ If the scheduler is an HPC scheduler, the SchedulerCpus property informs the hea
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::ValidationType Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::ValidationType Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3cbea5c1-7476-4c2e-6df3-b8187306a268
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::ValidationType Property
 Describes the type of validation that will be performed for the current property.  
@@ -24,7 +16,7 @@ HRESULT get_ValidationType(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrValidationType`  
  A pointer to a `BSTR` that indicates the validation type. Valid values are "applicationPath", "applicationPoolName", "integerRange", "nonEmptyString", "siteName", "timeSpanRange", "requireTrimmedString" and "virtualDirectoryPath".  
   

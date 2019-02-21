@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.RestrictStreams
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SegmentInfo.RestrictStreams Method
@@ -36,7 +35,7 @@ Restricts decoder initialization to the specified list of available streams.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub RestrictStreams ( _
@@ -50,13 +49,13 @@ Dim availableStreams As IList(Of StreamInfo)
 instance.RestrictStreams(availableStreams)
 ```
 
-``` csharp
+```csharp
 public void RestrictStreams(
     IList<StreamInfo> availableStreams
 )
 ```
 
-``` c++
+```cpp
 public:
 void RestrictStreams(
     IList<StreamInfo^>^ availableStreams
@@ -68,16 +67,16 @@ member RestrictStreams :
         availableStreams:IList<StreamInfo> -> unit 
 ```
 
-``` jscript
+```jscript
 public function RestrictStreams(
     availableStreams : IList<StreamInfo>
 )
 ```
 
-#### Parameters
+### Parameters
 
   - availableStreams  
-    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.95\))\<[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
+    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6\(v=vs.95\))\<[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
     A list of streams to initialize. The list must be a subset of the current available streams. The list must contain at least one stream.
 
 ## Remarks
@@ -88,13 +87,13 @@ The RestrictStreams method can be called only once per [SegmentInfo](segmentinfo
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SegmentInfo Class](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

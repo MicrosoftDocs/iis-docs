@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # ClipEventArgs Properties
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [ClipEventArgs](clipeventargs-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 
 ## Properties
@@ -24,11 +18,9 @@ The [ClipEventArgs](clipeventargs-class-microsoft-web-media-smoothstreaming_1.md
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Context](clipeventargs-context-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Context](clipeventargs-context-property-microsoft-web-media-smoothstreaming_1.md) property.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipEventArgs Class](clipeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

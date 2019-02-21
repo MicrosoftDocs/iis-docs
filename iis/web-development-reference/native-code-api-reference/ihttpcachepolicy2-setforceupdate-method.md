@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy2::SetForceUpdate Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy2::SetForceUpdate Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 21f01a8a-79fb-4fc5-8e53-3f80664c8686
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy2::SetForceUpdate Method
 Sets a value that indicates that the cache should be updated for a specific request or request variation  
@@ -22,7 +14,7 @@ virtual VOID SetForceUpdate(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Remarks  

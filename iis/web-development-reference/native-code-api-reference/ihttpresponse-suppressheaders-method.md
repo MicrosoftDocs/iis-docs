@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::SuppressHeaders Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::SuppressHeaders Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 09879c26-c001-5d7e-6c82-e53005d55120
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::SuppressHeaders Method
 Suppresses the response status and headers.  
@@ -22,7 +14,7 @@ virtual VOID SuppressHeaders(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

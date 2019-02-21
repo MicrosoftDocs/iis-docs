@@ -298,7 +298,7 @@ Earlier versions of IIS do not have the URL Rewriter module. One of the major us
 - [IIS 7.0 Bit Rate Throttling Module Released](https://weblogs.asp.net/scottgu/archive/2008/03/18/iis-7-0-bit-rate-throttling-module-released.aspx)
 - [Bit Rate Throttling is now released](https://blogs.iis.net/vsood/archive/2008/03/15/bit-rate-throttling-is-now-released.aspx).
 - [Configuring HTTP Compression in IIS 7](https://technet.microsoft.com/en-us/library/cc771003.aspx).
-- [Build Web Server Solutions with End-To-End Extensibility](https://msdn.microsoft.com/en-us/magazine/cc164241.aspx)
+- [Build Web Server Solutions with End-To-End Extensibility](https://msdn.microsoft.com/magazine/cc164241.aspx)
 - [How to Get Started Extending Module Properties for IIS 7.0 and Above in IIS Manager](../../develop/extending-the-management-ui/how-to-get-started-extending-module-properties-for-iis-in-iis-manager.md).
 - [How to Take Advantage of the IIS 7.0 and Above Integrated Pipeline](../building-and-running-aspnet-applications/how-to-take-advantage-of-the-iis-integrated-pipeline.md)
 - [Enable Forms Authentication (IIS 7)](https://technet.microsoft.com/en-us/library/cc771077.aspx).

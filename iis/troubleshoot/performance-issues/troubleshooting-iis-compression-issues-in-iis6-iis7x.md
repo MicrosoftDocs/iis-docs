@@ -75,7 +75,7 @@ Fiddler output when compression is not working:
 
     [Using metaacl.vbs to verify and modify IIS 6 metabase ACL.](https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=4899)
 
-    [Default Metabase ACL](https://msdn.microsoft.com/en-us/library/ms524775(v=VS.90).aspx)
+    [Default Metabase ACL](https://msdn.microsoft.com/library/ms524775(v=VS.90).aspx)
 
     If the application pool identity (or the IIS\_WPG group in general) does not have Read and Write access to the metabase key W3SVC/Filters a failure condition of COMPRESSION\_DISABLED will be logged in an Enterprise Tracing for Windows (ETW) trace.
 

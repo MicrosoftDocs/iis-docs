@@ -1,15 +1,7 @@
 ---
-title: "MimeMapElement Class | Microsoft Docs"
-ms.custom: ""
+title: "MimeMapElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a7659ca3-3b28-4d7d-17ea-ed98c46ce831
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # MimeMapElement Class
 Specifies a MIME type associated with a file extension.  

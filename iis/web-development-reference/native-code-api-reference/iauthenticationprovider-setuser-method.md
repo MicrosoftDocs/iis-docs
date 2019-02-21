@@ -1,15 +1,7 @@
 ---
-title: "IAuthenticationProvider::SetUser Method | Microsoft Docs"
-ms.custom: ""
+title: "IAuthenticationProvider::SetUser Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 14f0a659-e8ed-3010-11c5-9cb134455375
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAuthenticationProvider::SetUser Method
 Sets the authenticated user on the authentication provider.  
@@ -22,7 +14,7 @@ virtual VOID SetUser(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pUser`  
  An authenticated pointer to an [IHttpUser](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md).  
   

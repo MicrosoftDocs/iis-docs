@@ -41,7 +41,7 @@ The following code shows the SmoothPlayer\_MediaEnded delegate method that handl
 
 ## Position Property and Seek Completed Event
 
-You can assign the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) to a new position in the stream and the player will seek to the new position. Simply assign a [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\)) object to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property. The [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\)) object specifies the time interval from the beginning of the stream.
+You can assign the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) to a new position in the stream and the player will seek to the new position. Simply assign a [TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\)) object to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property. The [TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\)) object specifies the time interval from the beginning of the stream.
 
 To implement a button that will seek to a new position, add the following line to MainPage.xaml of the sample application implemented in the topic [Silverlight Applications](silverlight-applications.md). Add the SeekButton specification after the StopButton and before the ComboBox.
 
@@ -87,7 +87,7 @@ This is a generic event handler that specifies the type [SeekCompletedEventArgs]
 ```
 
 > [!NOTE]  
-> <p>The topic [Timeline Markers and Events](timeline-markers-and-events.md) shows how to define [Microsoft.Web.Media.SmoothStreaming.TimelineEvent](https://msdn.microsoft.com/en-us/library/ee532619(v=vs.95)) markers in media streams and how to handle the events they generate.</p>
+> <p>The topic [Timeline Markers and Events](timeline-markers-and-events.md) shows how to define [Microsoft.Web.Media.SmoothStreaming.TimelineEvent](https://msdn.microsoft.com/library/ee532619(v=vs.95)) markers in media streams and how to handle the events they generate.</p>
 
 You can extend event functionality in many ways. For longer media streams, it may be preferable to use a slider bar instead of the seek button shown in the previous example. For an implementation of the slider bar, see [Position in Stream](position-in-stream.md).
 
@@ -114,7 +114,7 @@ This handler displays the error code and message to a text block. A full applica
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Silverlight Applications](silverlight-applications.md)
 

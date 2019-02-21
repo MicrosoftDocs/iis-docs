@@ -1,15 +1,7 @@
 ---
-title: "IScriptMapInfo::GetRequiredAccess Method | Microsoft Docs"
-ms.custom: ""
+title: "IScriptMapInfo::GetRequiredAccess Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 05d6d12c-ab7b-aa07-63ce-d3e061fe0057
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IScriptMapInfo::GetRequiredAccess Method
 Retrieves the required-access setting for the script processor.  
@@ -22,7 +14,7 @@ virtual DWORD GetRequiredAccess(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

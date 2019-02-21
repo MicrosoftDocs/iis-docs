@@ -1,5 +1,5 @@
 ---
-title: JobDetails.StatusString Property  (Microsoft.Web.Media.TransformManager)
+title: JobDetails.StatusString Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: StatusString Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.StatusString
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.statusstring(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.get_StatusString
 - Microsoft.Web.Media.TransformManager.JobDetails.StatusString
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StatusString Property
@@ -38,7 +37,7 @@ Gets a string representation of the status.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property StatusString As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.StatusString
 ```
 
-``` csharp
+```csharp
   public string StatusString { get; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ StatusString {
     String^ get ();
@@ -66,18 +65,18 @@ property String^ StatusString {
   member StatusString : string
 ```
 
-``` jscript
+```jscript
   function get StatusString () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A string representation of the status.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

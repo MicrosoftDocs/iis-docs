@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.CanPause Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.CanPause Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CanPause Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CanPause
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.canpause(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_CanPause
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_CanPause
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CanPause Property
@@ -39,7 +38,7 @@ Gets or sets a value that specifies whether the stream can be paused.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property CanPause As Boolean
@@ -53,11 +52,11 @@ value = instance.CanPause
 instance.CanPause = value
 ```
 
-``` csharp
+```csharp
   public bool CanPause { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property bool CanPause {
     bool get ();
@@ -65,33 +64,33 @@ property bool CanPause {
 }
 ```
 
-``` jscript
+```jscript
   function get CanPause () : boolean
 function set CanPause (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the media stream can be paused; otherwise, false.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

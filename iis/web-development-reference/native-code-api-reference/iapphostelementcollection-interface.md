@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementCollection Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementCollection Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 93b238c5-ad20-6322-59c6-6d61b1b120bc
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementCollection Interface
 Represents a collection of [IAppHostElement](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) interfaces.  

@@ -1,5 +1,5 @@
 ---
-title: JobManifest.JobDetails Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.JobDetails Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetails Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.JobDetails
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.jobdetails(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_JobDetails
 - Microsoft.Web.Media.TransformManager.JobManifest.JobDetails
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDetails Property
@@ -38,7 +37,7 @@ Gets a [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) ob
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property JobDetails As JobDetails
@@ -51,11 +50,11 @@ Dim value As JobDetails
 value = instance.JobDetails
 ```
 
-``` csharp
+```csharp
   public JobDetails JobDetails { get; }
 ```
 
-``` c++
+```cpp
   public:
 property JobDetails^ JobDetails {
     JobDetails^ get ();
@@ -66,18 +65,18 @@ property JobDetails^ JobDetails {
   member JobDetails : JobDetails
 ```
 
-``` jscript
+```jscript
   function get JobDetails () : JobDetails
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
 A [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) object that is based on details from the job manifest.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

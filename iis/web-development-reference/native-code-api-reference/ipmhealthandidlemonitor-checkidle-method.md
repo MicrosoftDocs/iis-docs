@@ -1,15 +1,7 @@
 ---
-title: "IPmHealthAndIdleMonitor::CheckIdle Method | Microsoft Docs"
-ms.custom: ""
+title: "IPmHealthAndIdleMonitor::CheckIdle Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cc25da61-1020-c6bb-c52d-97257629495b
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPmHealthAndIdleMonitor::CheckIdle Method
 Enables the worker process framework to request whether all the listener channels for a protocol manager are idle.  
@@ -22,7 +14,7 @@ virtual HRESULT CheckIdle(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfIdle`  
  `true` to indicate that all the protocol manger's listener channels are idle; otherwise, `false`.  
   

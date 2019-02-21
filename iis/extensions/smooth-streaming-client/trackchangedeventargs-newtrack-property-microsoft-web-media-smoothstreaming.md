@@ -1,5 +1,5 @@
 ---
-title: TrackChangedEventArgs.NewTrack Property  (Microsoft.Web.Media.SmoothStreaming)
+title: TrackChangedEventArgs.NewTrack Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: NewTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.NewTrack
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackchangedeventargs.newtrack(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.NewTrack
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.set_NewTrack
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # NewTrack Property
@@ -39,7 +38,7 @@ Gets or sets a new [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreami
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property NewTrack As TrackInfo
@@ -51,11 +50,11 @@ Dim value As TrackInfo
 value = instance.NewTrack
 ```
 
-``` csharp
+```csharp
   public TrackInfo NewTrack { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property TrackInfo^ NewTrack {
     TrackInfo^ get ();
@@ -63,33 +62,33 @@ property TrackInfo^ NewTrack {
 }
 ```
 
-``` jscript
+```jscript
   function get NewTrack () : TrackInfo
 private function set NewTrack (value : TrackInfo)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)  
+Type: [Microsoft.Web.Media.SmoothStreaming.TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)  
 A [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackChangedEventArgs Class](trackchangedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

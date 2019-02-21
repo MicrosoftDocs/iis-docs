@@ -1,15 +1,7 @@
 ---
-title: "ModuleAction Class | Microsoft Docs"
-ms.custom: ""
+title: "ModuleAction Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e00dbe6b-a97e-60a7-dd05-f4710e692b87
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ModuleAction Class
 Represents a module entry in the `<modules>` section of a configuration file.  

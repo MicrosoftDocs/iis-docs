@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalTraceEvent Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalTraceEvent Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0c551af0-1f2a-ed9f-2d2b-896771e0bb92
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalTraceEvent Method
 Represents the method that will handle a `GlobalTraceEvent` event, which occurs when a trace event is raised.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalTraceEvent(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProvider`  
  [IN] A pointer to an [IGlobalTraceEventProvider](../../web-development-reference\native-code-api-reference/iglobaltraceeventprovider-interface.md) interface.  
   

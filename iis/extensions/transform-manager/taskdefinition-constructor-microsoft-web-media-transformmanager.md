@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.#ctor
 - Microsoft.Web.Media.TransformManager.TaskDefinition.TaskDefinition
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
@@ -29,15 +29,13 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[TaskDefinition(FileInfo, XElement)](taskdefinition-constructor-fileinfo-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md) class by using the specified file information and task definition.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[TaskDefinition(FileInfo, XElement, XElement)](taskdefinition-constructor-fileinfo-xelement-xelement-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md) class by using the specified file information, task definition, and default task definition.|
 
-Top
-
 ## Remarks
 
 The calling object is responsible for loading the task definition.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskDefinition Class](taskdefinition-class-microsoft-web-media-transformmanager.md)
 

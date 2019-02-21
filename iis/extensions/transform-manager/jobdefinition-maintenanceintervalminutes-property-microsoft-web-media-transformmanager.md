@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.MaintenanceIntervalMinutes Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.MaintenanceIntervalMinutes Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: MaintenanceIntervalMinutes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceIntervalMinutes
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.maintenanceintervalminutes(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceIntervalMinutes
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_MaintenanceIntervalMinutes
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # MaintenanceIntervalMinutes Property
@@ -40,7 +39,7 @@ Gets or sets the number of minutes between maintenance-processing activities.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property MaintenanceIntervalMinutes As Integer
@@ -56,12 +55,12 @@ value = instance.MaintenanceIntervalMinutes
 instance.MaintenanceIntervalMinutes = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public int MaintenanceIntervalMinutes { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property int MaintenanceIntervalMinutes {
@@ -75,19 +74,19 @@ property int MaintenanceIntervalMinutes {
 member MaintenanceIntervalMinutes : int with get, set
 ```
 
-``` jscript
+```jscript
   function get MaintenanceIntervalMinutes () : int
 function set MaintenanceIntervalMinutes (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The number of minutes.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,20 +20,20 @@ Sets the properties of the Smooth Scheme Handler.
 
 ## Syntax
 
-``` csharp
+```csharp
 public void SetProperties(
 IPropertySet configuration|
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual void SetProperties(
 [InAttribute] IPropertySet^ configuration
 ) sealed
 ```
 
-``` jscript
+```jscript
 public final function SetProperties(
 configuration : IPropertySet
 )

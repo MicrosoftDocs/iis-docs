@@ -1,5 +1,5 @@
 ---
-title: AdvancedLoggingPlugin.SmoothStreamingMediaElement Property  (Microsoft.Web.Media.Diagnostics)
+title: AdvancedLoggingPlugin.SmoothStreamingMediaElement Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: SmoothStreamingMediaElement Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.SmoothStreamingMediaElement
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.advancedloggingplugin.smoothstreamingmediaelement(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.set_SmoothStreamingMediaElement
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.SmoothStreamingMediaElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # AdvancedLoggingPlugin.SmoothStreamingMediaElement Property
@@ -40,7 +39,7 @@ Gets or sets the that this plug-in will service.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property SmoothStreamingMediaElement As SmoothStreamingMediaElement
@@ -56,11 +55,11 @@ value = instance.SmoothStreamingMediaElement
 instance.SmoothStreamingMediaElement = value
 ```
 
-``` csharp
+```csharp
 public SmoothStreamingMediaElement SmoothStreamingMediaElement { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property SmoothStreamingMediaElement^ SmoothStreamingMediaElement {
     SmoothStreamingMediaElement^ get ();
@@ -72,12 +71,12 @@ property SmoothStreamingMediaElement^ SmoothStreamingMediaElement {
 member SmoothStreamingMediaElement : SmoothStreamingMediaElement with get, set
 ```
 
-``` jscript
+```jscript
 function get SmoothStreamingMediaElement () : SmoothStreamingMediaElement
 function set SmoothStreamingMediaElement (value : SmoothStreamingMediaElement)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)  
 
@@ -87,17 +86,17 @@ This plugin will collect advanced logs and post them to the URLs specified in [A
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [AdvancedLoggingPlugin Class](advancedloggingplugin-class-microsoft-web-media-diagnostics_1.md)
 

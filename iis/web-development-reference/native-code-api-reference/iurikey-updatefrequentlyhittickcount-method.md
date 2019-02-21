@@ -1,15 +1,7 @@
 ---
-title: "IUriKey::UpdateFrequentlyHitTickCount Method | Microsoft Docs"
-ms.custom: ""
+title: "IUriKey::UpdateFrequentlyHitTickCount Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8996d0b8-7b23-4394-aee6-a809965e0e7e
-caps.latest.revision: 3
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IUriKey::UpdateFrequentlyHitTickCount Method
 Increments a counter each time the URI is requested.  
@@ -22,7 +14,7 @@ virtual VOID UpdateFrequentlyHitTickCount(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwTicks`  
  [OUT] Ticks counter increments each time the URI is requested.  
   

@@ -44,7 +44,7 @@ The structure of the server manifest file is as follows:
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [IIS Smooth Streaming Server Manifest (Live)](iis-smooth-streaming-server-manifest-live.md)
 

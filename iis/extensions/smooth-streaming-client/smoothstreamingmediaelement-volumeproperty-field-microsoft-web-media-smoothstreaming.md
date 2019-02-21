@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VolumeProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # VolumeProperty Field
@@ -35,7 +34,7 @@ Represents a dependency property that specifies the [Volume](smoothstreamingmedi
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared ReadOnly VolumeProperty As DependencyProperty
@@ -46,16 +45,16 @@ Represents a dependency property that specifies the [Volume](smoothstreamingmedi
 value = SmoothStreamingMediaElement.VolumeProperty
 ```
 
-``` csharp
+```csharp
   public static readonly DependencyProperty VolumeProperty
 ```
 
-``` c++
+```cpp
   public:
 static initonly DependencyProperty^ VolumeProperty
 ```
 
-``` jscript
+```jscript
   public static final var VolumeProperty : DependencyProperty
 ```
 
@@ -65,21 +64,21 @@ For more information, see [IIS Smooth Streaming Client 1.5](microsoft-smooth-str
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

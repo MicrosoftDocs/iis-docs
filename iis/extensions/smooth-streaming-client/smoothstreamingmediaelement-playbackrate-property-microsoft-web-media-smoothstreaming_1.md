@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.PlaybackRate Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.PlaybackRate Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: PlaybackRate Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PlaybackRate
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.playbackrate(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PlaybackRate
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_PlaybackRate
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.PlaybackRate Property
@@ -38,7 +37,7 @@ Gets the playback rate.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property PlaybackRate As Nullable(Of Double)
@@ -51,11 +50,11 @@ Dim value As Nullable(Of Double)
 value = instance.PlaybackRate
 ```
 
-``` csharp
+```csharp
 public Nullable<double> PlaybackRate { get; }
 ```
 
-``` c++
+```cpp
 public:
 property Nullable<double> PlaybackRate {
     Nullable<double> get ();
@@ -66,28 +65,28 @@ property Nullable<double> PlaybackRate {
 member PlaybackRate : Nullable<float>
 ```
 
-``` jscript
+```jscript
 function get PlaybackRate () : Nullable<double>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0\(v=vs.95\))\<[Double](https://msdn.microsoft.com/en-us/library/643eft0t\(v=vs.95\))\>  
+Type: [System.Nullable](https://msdn.microsoft.com/library/b3h38hb0\(v=vs.95\))\<[Double](https://msdn.microsoft.com/library/643eft0t\(v=vs.95\))\>  
 A value from the [SupportedPlaybackRates](smoothstreamingmediaelement-supportedplaybackrates-property-microsoft-web-media-smoothstreaming_1.md) list.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

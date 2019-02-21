@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 ---
 
 # AdaptiveSource.AdaptiveSourceStatusUpdatedEvent Event
@@ -19,11 +19,11 @@ Occurs when the status of the adaptive source is updated.
 
 ## Syntax
 
-``` csharp
+```csharp
 public event AdaptiveSourceStatusUpdatedEventHandler AdaptiveSourceStatusUpdatedEvent
 ```
 
-``` c++
+```cpp
 public:
 virtual  event AdaptiveSourceStatusUpdatedEventHandler^ AdaptiveSourceStatusUpdatedEvent {
 void add (AdaptiveSourceStatusUpdatedEventHandler^ value);

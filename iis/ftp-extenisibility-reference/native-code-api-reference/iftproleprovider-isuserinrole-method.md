@@ -1,16 +1,8 @@
 ---
-title: "IFtpRoleProvider::IsUserInRole Method | Microsoft Docs"
-ms.custom: ""
+title: "IFtpRoleProvider::IsUserInRole Method"
 ms.date: "09/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: edb0aed7-253f-40ae-85f5-09f37fce2504
-caps.latest.revision: 8
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IFtpRoleProvider::IsUserInRole Method
 Checks to see whether a user is a member of a specific role.  
@@ -27,7 +19,7 @@ HRESULT IsUserInRole(
 )  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |||  
 |-|-|  

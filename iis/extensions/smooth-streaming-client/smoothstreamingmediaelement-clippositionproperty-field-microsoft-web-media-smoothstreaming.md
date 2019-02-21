@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipPositionProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,19 +23,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipPositionProperty Field
 
-Gets a value [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\)) object that indicates the position in the clip timeline.
+Gets a value [TimeSpan](https://msdn.microsoft.com/library/269ew577) object that indicates the position in the clip timeline.
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared ReadOnly ClipPositionProperty As DependencyProperty
@@ -46,32 +45,32 @@ Gets a value [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.
 value = SmoothStreamingMediaElement.ClipPositionProperty
 ```
 
-``` csharp
+```csharp
   public static readonly DependencyProperty ClipPositionProperty
 ```
 
-``` c++
+```cpp
   public:
 static initonly DependencyProperty^ ClipPositionProperty
 ```
 
-``` jscript
+```jscript
   public static final var ClipPositionProperty : DependencyProperty
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

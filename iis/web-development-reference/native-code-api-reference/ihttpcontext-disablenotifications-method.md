@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::DisableNotifications Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::DisableNotifications Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9014508e-a74b-8efe-bde1-426df6728b34
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::DisableNotifications Method
 Disables specific notifications that are pending for this request in the current module.  
@@ -23,7 +15,7 @@ virtual VOID DisableNotifications(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwNotifications`  
  [IN] A `DWORD` that contains a bitmask that specifies the request notifications to disable for this module.  
   
@@ -40,7 +32,7 @@ virtual VOID DisableNotifications(
 >  Notifications can be disabled only for the current request and in the current module. The only way to disable notifications that are implemented in other modules would be to return [RQ_NOTIFICATION_FINISH_REQUEST](../../web-development-reference\native-code-api-reference/request-notification-status-enumeration.md) from your module.  
   
 > [!NOTE]
->  Notifications can be disabled only for deterministic events; they cannot be disabled for nondeterministic events. For more information, see [Comparing Native-Code and Managed-Code Notifications](../../web-development-reference\native-code-development-overview\comparing-native-code-and-managed-code-notifications.md).  
+> Notifications can be disabled only for deterministic events; they cannot be disabled for nondeterministic events. For more information, see [Comparing Native-Code and Managed-Code Notifications](../../web-development-reference\native-code-development-overview\comparing-native-code-and-managed-code-notifications.md).  
   
 ## Example  
  The following example demonstrates how to use the `DisableNotifications` method to create an HTTP module that disables a pending [CHttpModule::OnPostBeginRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onpostbeginrequest-method.md) notification on the current request.  

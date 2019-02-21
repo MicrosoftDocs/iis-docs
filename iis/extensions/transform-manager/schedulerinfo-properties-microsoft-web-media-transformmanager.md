@@ -22,11 +22,9 @@ The [SchedulerInfo](schedulerinfo-class-microsoft-web-media-transformmanager.md)
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Name](schedulerinfo-name-property-microsoft-web-media-transformmanager.md)|Gets or sets the name of the [SchedulerInfo](schedulerinfo-class-microsoft-web-media-transformmanager.md) object.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[SchedulerType](schedulerinfo-schedulertype-property-microsoft-web-media-transformmanager.md)|Gets or sets the scheduler type.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [SchedulerInfo Class](schedulerinfo-class-microsoft-web-media-transformmanager.md)
 

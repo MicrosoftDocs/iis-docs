@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.CreateWorkItemElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CreateWorkItemElement Method
@@ -36,7 +35,7 @@ Creates an XML element based on the specified [JobDetails](jobdetails-class-micr
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Function CreateWorkItemElement ( _
@@ -50,13 +49,13 @@ Dim returnValue As XElement
 returnValue = JobDetails.CreateWorkItemElement(workItem)
 ```
 
-``` csharp
+```csharp
   public static XElement CreateWorkItemElement(
     JobDetails workItem
 )
 ```
 
-``` c++
+```cpp
   public:
 static XElement^ CreateWorkItemElement(
     JobDetails^ workItem
@@ -68,26 +67,26 @@ static XElement^ CreateWorkItemElement(
         workItem:JobDetails -> XElement 
 ```
 
-``` jscript
+```jscript
   public static function CreateWorkItemElement(
     workItem : JobDetails
 ) : XElement
 ```
 
-#### Parameters
+### Parameters
 
   - workItem  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
     The [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) object that defines the work item.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 An XML element that defines a work item based on a [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) object.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

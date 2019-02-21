@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.Scheduler.StartJob
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StartJob Method
@@ -36,7 +35,7 @@ Starts the specified job using the scheduler.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public MustOverride Function StartJob ( _
@@ -51,13 +50,13 @@ Dim returnValue As JobStatus
 returnValue = instance.StartJob(jobInstanceId)
 ```
 
-``` csharp
+```csharp
   public abstract JobStatus StartJob(
     string jobInstanceId
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual JobStatus StartJob(
     String^ jobInstanceId
@@ -69,26 +68,26 @@ virtual JobStatus StartJob(
         jobInstanceId:string -> JobStatus 
 ```
 
-``` jscript
+```jscript
   public abstract function StartJob(
     jobInstanceId : String
 ) : JobStatus
 ```
 
-#### Parameters
+### Parameters
 
   - jobInstanceId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job.  
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
 The status information about the job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Scheduler Class](scheduler-class-microsoft-web-media-transformmanager.md)
 

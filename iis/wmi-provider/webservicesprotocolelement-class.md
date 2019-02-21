@@ -1,15 +1,7 @@
 ---
-title: "WebServicesProtocolElement Class | Microsoft Docs"
-ms.custom: ""
+title: "WebServicesProtocolElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a9d8a894-5643-050e-f028-3af31e0202a3
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WebServicesProtocolElement Class
 Specifies a transmission protocol or protocols that are used to decrypt data sent from a client browser in an HTTP request.  

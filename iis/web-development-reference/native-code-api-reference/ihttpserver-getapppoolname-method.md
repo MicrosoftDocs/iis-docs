@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::GetAppPoolName Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::GetAppPoolName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f11a11fa-f364-d8ce-d7cb-1bc1ae4e0ad9
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::GetAppPoolName Method
 Retrieves the name of the application pool for the current request.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetAppPoolName(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

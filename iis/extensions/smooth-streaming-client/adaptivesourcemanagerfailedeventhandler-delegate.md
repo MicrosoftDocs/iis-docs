@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 ---
 
 # AdaptiveSourceManagerFailedEventHandler Delegate
@@ -19,7 +19,7 @@ The actual handler for the adaptive source manager failed event handler.
 
 ## Syntax
 
-``` csharp
+```csharp
 [GuidAttribute(, , , , , , , , , , )]
 [VersionAttribute()]
 public delegate void AdaptiveSourceManagerFailedEventHandler(
@@ -28,7 +28,7 @@ AdaptiveSourceManagerFailedEventArgs args
 )
 ```
 
-``` c++
+```cpp
 [GuidAttribute(, , , , , , , , , , )]
 [VersionAttribute()]
 public delegate void AdaptiveSourceManagerFailedEventHandler(

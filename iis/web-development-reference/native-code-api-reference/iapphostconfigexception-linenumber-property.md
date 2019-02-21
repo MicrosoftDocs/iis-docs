@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigException::LineNumber Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigException::LineNumber Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 04db1036-8a69-29a2-dcc0-490395e8c477
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigException::LineNumber Property
 Gets the number of the line in the configuration file that caused the exception to be thrown.  
@@ -23,7 +15,7 @@ HRESULT get_LineNumber(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcLineNumber`  
  A pointer to an `ULONG` that specifies the number of the line that caused the exception.  
   

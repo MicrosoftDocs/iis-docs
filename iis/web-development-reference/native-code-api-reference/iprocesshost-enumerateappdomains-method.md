@@ -1,15 +1,7 @@
 ---
-title: "IProcessHost::EnumerateAppDomains Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHost::EnumerateAppDomains Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e59e42da-ba07-2d9f-84e3-38c4bb8dc165
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHost::EnumerateAppDomains Method
 Retrieves a pointer to an [IAppDomainInfoEnum](../../web-development-reference\native-code-api-reference/iappdomaininfoenum-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall EnumerateAppDomains(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pAppDomainsInfo`  
  A pointer to the address of an `IAppDomainInfoEnum` interface.  
   

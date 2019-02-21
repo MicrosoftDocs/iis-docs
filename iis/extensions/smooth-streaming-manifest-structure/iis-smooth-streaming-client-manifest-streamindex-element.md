@@ -31,7 +31,7 @@ The StreamIndex element specifies the metadata for one type of track (audio, vid
 
 The following sections describe attributes, child elements, and parent elements.
 
-#### Attributes
+### Attributes
 
 |Element|Description|
 |--- |--- |
@@ -45,7 +45,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**Url*|Specifies the format of **QualityLevel** (track) identifiers.|
 
 
-#### Child Elements
+### Child Elements
 
 |Element|Description|
 |--- |--- |
@@ -53,7 +53,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**c**|Chunk identifier for segment of data.|
 
 
-#### Parent Elements
+### Parent Elements
 
 |Element|Description|
 |--- |--- |
@@ -61,7 +61,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IIS Smooth Streaming Client Manifest - SmoothStreamingMedia Element](iis-smooth-streaming-client-manifest-smoothstreamingmedia-element.md)
 

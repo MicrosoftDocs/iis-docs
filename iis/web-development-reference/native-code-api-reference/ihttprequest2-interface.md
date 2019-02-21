@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest2 Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest2 Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6716632d-e1a9-44a6-bdac-36075d50dadb
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest2 Interface
 Provides an interface for retrieving the channel binding token (CBT) being used for request validation.  

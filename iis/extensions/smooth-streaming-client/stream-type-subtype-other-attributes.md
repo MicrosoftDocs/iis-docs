@@ -104,7 +104,7 @@ When the value of the StreamIndex element's Type attribute is "text", the Subtyp
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [QualityLevel, Attributes](qualitylevel-attributes.md)
 

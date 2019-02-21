@@ -1,15 +1,7 @@
 ---
-title: "XmlSerializerSection Class | Microsoft Docs"
-ms.custom: ""
+title: "XmlSerializerSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 319cbd7d-bcdd-c186-eedc-68456a6070cb
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # XmlSerializerSection Class
 Handles the XML elements used to configure XML serialization.  

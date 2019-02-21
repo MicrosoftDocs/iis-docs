@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpuSockets
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerCpuSockets Field
@@ -36,7 +35,7 @@ Represents a constant that is used when an HPC scheduling CPU sockets element is
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const SchedulerCpuSockets As String
@@ -47,11 +46,11 @@ Represents a constant that is used when an HPC scheduling CPU sockets element is
 value = JobDefinition.SchedulerCpuSockets
 ```
 
-``` csharp
+```csharp
   public const string SchedulerCpuSockets
 ```
 
-``` c++
+```cpp
   public:
 literal String^ SchedulerCpuSockets
 ```
@@ -60,13 +59,13 @@ literal String^ SchedulerCpuSockets
   static val mutable SchedulerCpuSockets: string
 ```
 
-``` jscript
+```jscript
   public const var SchedulerCpuSockets : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

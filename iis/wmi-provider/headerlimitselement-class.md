@@ -1,15 +1,7 @@
 ---
-title: "HeaderLimitsElement Class | Microsoft Docs"
-ms.custom: ""
+title: "HeaderLimitsElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 83dc2e2d-1233-bd6d-9474-ff674fe00fed
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HeaderLimitsElement Class
 Specifies the permitted sizes of HTTP request headers.  

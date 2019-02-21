@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionGroup::Type Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionGroup::Type Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b3e52338-322f-a954-c6a8-e5641d214dba
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionGroup::Type Property
 Gets or sets the type name of the configuration section group.  
@@ -26,7 +18,7 @@ HRESULT put_Type(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrType`  
  A pointer to a `BSTR` that contains the name of the configuration section group.  
   

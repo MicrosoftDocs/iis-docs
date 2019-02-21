@@ -1,15 +1,7 @@
 ---
-title: "PassportAuthentication Class | Microsoft Docs"
-ms.custom: ""
+title: "PassportAuthentication Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 499ec9c2-244d-83e0-88a5-3003ef7114bd
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PassportAuthentication Class
 Configures Microsoft Passport Network authentication in [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] applications.  

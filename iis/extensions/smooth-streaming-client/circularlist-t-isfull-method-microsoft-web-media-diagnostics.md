@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.IsFull
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IsFull Method
@@ -35,7 +34,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Function IsFull As Boolean
@@ -47,23 +46,23 @@ Dim returnValue As Boolean
 returnValue = instance.IsFull()
 ```
 
-``` csharp
+```csharp
   public bool IsFull()
 ```
 
-``` c++
+```cpp
   public:
 bool IsFull()
 ```
 
-``` jscript
+```jscript
   public function IsFull() : boolean
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
-Returns [Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\)). True if the list is full.  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
+Returns [Boolean](https://msdn.microsoft.com/library/a28wyd50). True if the list is full.  
 
 ## Remarks
 
@@ -71,21 +70,21 @@ Adding a new element will cause the oldest element to be removed.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CircularList\< (Of \< ( \<'T\> ) \> ) \> Class](circularlist-t-class-microsoft-web-media-diagnostics_1.md)
 

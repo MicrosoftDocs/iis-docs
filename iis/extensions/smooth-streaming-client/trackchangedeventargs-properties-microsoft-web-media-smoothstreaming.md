@@ -22,11 +22,9 @@ The [TrackChangedEventArgs](trackchangedeventargs-class-microsoft-web-media-smoo
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Timestamp](trackchangedeventargs-timestamp-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the [Timestamp](trackchangedeventargs-timestamp-property-microsoft-web-media-smoothstreaming_1.md) property.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackChangedEventArgs Class](trackchangedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigLocation::Count Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigLocation::Count Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1f635871-55f1-9e9f-8cda-1f215cb2f40d
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigLocation::Count Property
 Gets the number of configuration sections that are configured for the current configuration location.  
@@ -23,7 +15,7 @@ HRESULT Count(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcCount`  
  A pointer to a `DWORD` that contains the number of configuration sections that are configured for the current location.  
   

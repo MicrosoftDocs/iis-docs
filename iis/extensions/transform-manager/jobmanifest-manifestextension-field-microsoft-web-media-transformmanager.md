@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.ManifestExtension
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestExtension Field
@@ -36,7 +35,7 @@ Represents a constant that is used as the job manifest file extension (".smil").
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const ManifestExtension As String
@@ -47,11 +46,11 @@ Represents a constant that is used as the job manifest file extension (".smil").
 value = JobManifest.ManifestExtension
 ```
 
-``` csharp
+```csharp
   public const string ManifestExtension
 ```
 
-``` c++
+```cpp
   public:
 literal String^ ManifestExtension
 ```
@@ -60,13 +59,13 @@ literal String^ ManifestExtension
   static val mutable ManifestExtension: string
 ```
 
-``` jscript
+```jscript
   public const var ManifestExtension : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

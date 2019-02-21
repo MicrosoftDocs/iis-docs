@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,11 +20,11 @@ Gets the expire time.
 
 ## Syntax
 
-``` csharp
+```csharp
  public DateTime ExpireTime { get; set; }
 ```
 
-``` c++
+```cpp
  public:
 virtual property DateTime ExpireTime {
 DateTime get () sealed;
@@ -32,7 +32,7 @@ void set (DateTime value) sealed;
 }
 ```
 
-``` jscript
+```jscript
  final function get ExpireTime () : DateTime
 final function set ExpireTime (value : DateTime)
 ```

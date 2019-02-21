@@ -1,15 +1,7 @@
 ---
-title: "ApplicationContainsVirtualDirectory Class2 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationContainsVirtualDirectory Class2"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f0d66fa9-7661-4f48-99e1-c14e72d3c045
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationContainsVirtualDirectory Class2
 Provides a relationship between an IIS application and its virtual directories.  

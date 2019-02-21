@@ -1,15 +1,7 @@
 ---
-title: "IProcessHost Interface | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHost Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5bfd0e30-2f05-ddd4-307f-810158e93339
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHost Interface
 Defines the set of processwide functionality that every host of the application manager must implement.  

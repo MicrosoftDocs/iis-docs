@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.ConfigurationMessage
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
@@ -31,11 +31,9 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ConfigurationMessage(String, String, String, String)](configurationmessage-constructor-string-string-string-string-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [ConfigurationMessage](configurationmessage-class-microsoft-web-media-transformmanager.md) class using the specified name, file name, message, and help link ID.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ConfigurationMessage(String, String, String, String, ConfigurationMessageSeverity)](configurationmessage-constructor-string-string-string-string-configurationmessageseverity-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [ConfigurationMessage](configurationmessage-class-microsoft-web-media-transformmanager.md) class using the specified name, file name, message, help link ID, and severity.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationMessage Class](configurationmessage-class-microsoft-web-media-transformmanager.md)
 

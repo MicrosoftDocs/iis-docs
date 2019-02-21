@@ -1,15 +1,7 @@
 ---
-title: "IScriptMapInfo::GetManagedType Method | Microsoft Docs"
-ms.custom: ""
+title: "IScriptMapInfo::GetManagedType Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 19e9c7a4-e52f-8161-3473-b7146823a658
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IScriptMapInfo::GetManagedType Method
 Retrieves the managed type for a request handler.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetManagedType(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcchManagedType`  
  A pointer to a `DWORD` buffer that receives the length, in characters, of the managed type.  
   

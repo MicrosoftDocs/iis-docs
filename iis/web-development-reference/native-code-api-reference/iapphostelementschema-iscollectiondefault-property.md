@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementSchema::IsCollectionDefault Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementSchema::IsCollectionDefault Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ecc6b08c-2abe-49e8-a2d2-2327e6942644
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementSchema::IsCollectionDefault Property
 Gets a corresponding [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object.  
@@ -23,7 +15,7 @@ Gets a corresponding [IAppHostElement Interface](../../web-development-reference
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfIsCollectionDefault`  
  Contains a Boolean value that indicates whether the corresponding [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object is a default for other [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) objects.  
   

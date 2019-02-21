@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.BufferingTime Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.BufferingTime Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: BufferingTime Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingTime
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.bufferingtime(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_BufferingTime
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_BufferingTime
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # BufferingTime Property
@@ -39,7 +38,7 @@ Gets or sets the duration of media content that will be buffered before playback
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property BufferingTime As TimeSpan
@@ -53,11 +52,11 @@ value = instance.BufferingTime
 instance.BufferingTime = value
 ```
 
-``` csharp
+```csharp
   public TimeSpan BufferingTime { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property TimeSpan BufferingTime {
     TimeSpan get ();
@@ -65,14 +64,14 @@ property TimeSpan BufferingTime {
 }
 ```
 
-``` jscript
+```jscript
   function get BufferingTime () : TimeSpan
 function set BufferingTime (value : TimeSpan)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\))  
+Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577)  
 The duration of media content that will be preloaded before streaming begins or continues.  
 
 ## Remarks
@@ -87,21 +86,21 @@ As a result, the end-to-end latency on the client side (that is, how close playb
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

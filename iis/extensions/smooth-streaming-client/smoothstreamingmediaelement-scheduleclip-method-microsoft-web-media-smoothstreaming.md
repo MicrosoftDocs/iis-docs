@@ -9,9 +9,9 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ScheduleClip
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 ---
 
 # ScheduleClip Method
@@ -30,8 +30,6 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ScheduleClip(ClipInformation, TimeSpan, Boolean, Object)](smoothstreamingmediaelement-scheduleclip-method-clipinformation-timespan-boolean-object-microsoft-web-media-smoothstreaming_1.md)|Schedules playing of a media clip.|
 
 
-Top
-
 ## Remarks
 
 The method inserts a clip that will play for its duration, after which the stream that was interrupted resumes.
@@ -47,7 +45,7 @@ For more information and for examples, see [Scheduling Media Clips (IIS Smooth S
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

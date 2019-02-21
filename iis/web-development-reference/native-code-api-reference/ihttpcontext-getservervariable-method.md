@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetServerVariable Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetServerVariable Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7771e6fa-b157-4df6-5e6b-97749a3c9fdb
-caps.latest.revision: 31
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetServerVariable Method
 Retrieves a specific server variable.  
@@ -29,7 +21,7 @@ virtual HRESULT GetServerVariable(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszVariableName`  
  A pointer to a string that contains the name of the server variable to return.  
   

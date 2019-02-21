@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigFile::Locations Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigFile::Locations Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 731ea11c-d7af-219c-4936-9bb386f71625
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigFile::Locations Property
 Returns a collection of [IAppHostConfigLocation](../../web-development-reference\native-code-api-reference/iapphostconfiglocation-interface.md) interfaces that represent location tags defined for the current configuration file.  
@@ -23,7 +15,7 @@ HRESULT get_Locations(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppLocations`  
  A pointer to a pointer for an [IAppHostConfigLocationCollection](../../web-development-reference\native-code-api-reference/iapphostconfiglocationcollection-interface.md) interface.  
   

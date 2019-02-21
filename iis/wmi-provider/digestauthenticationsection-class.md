@@ -1,15 +1,7 @@
 ---
-title: "DigestAuthenticationSection Class | Microsoft Docs"
-ms.custom: ""
+title: "DigestAuthenticationSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 68d00b36-ba1c-cf84-66da-c260729a171f
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DigestAuthenticationSection Class
 Configures Digest authentication.  

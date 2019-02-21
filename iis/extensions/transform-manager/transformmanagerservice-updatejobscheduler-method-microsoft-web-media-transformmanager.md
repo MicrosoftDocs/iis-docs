@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateJobScheduler
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateJobScheduler Method
@@ -36,7 +35,7 @@ Adds or updates the specified [JobScheduler](jobscheduler-class-microsoft-web-me
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Sub UpdateJobScheduler ( _
@@ -50,14 +49,14 @@ Dim scheduler As JobScheduler
 instance.UpdateJobScheduler(scheduler)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public void UpdateJobScheduler(
     JobScheduler scheduler
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual void UpdateJobScheduler(
@@ -74,25 +73,25 @@ override UpdateJobScheduler :
         scheduler:JobScheduler -> unit 
 ```
 
-``` jscript
+```jscript
   public final function UpdateJobScheduler(
     scheduler : JobScheduler
 )
 ```
 
-#### Parameters
+### Parameters
 
   - scheduler  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md)  
     A new or updated [JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md) object to add or update.  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .UpdateJobScheduler(JobScheduler)](imanagementservice-updatejobscheduler-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.UpdateJobScheduler(JobScheduler)](imanagementservice-updatejobscheduler-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

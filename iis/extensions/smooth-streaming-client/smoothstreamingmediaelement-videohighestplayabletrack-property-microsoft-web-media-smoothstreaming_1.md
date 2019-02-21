@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.VideoHighestPlayableTrack Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.VideoHighestPlayableTrack Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: VideoHighestPlayableTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoHighestPlayableTrack
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videohighestplayabletrack(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_VideoHighestPlayableTrack
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoHighestPlayableTrack
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.VideoHighestPlayableTrack Property
@@ -38,7 +37,7 @@ Gets the track that has the highest available bandwidth.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property VideoHighestPlayableTrack As TrackInfo
@@ -51,11 +50,11 @@ Dim value As TrackInfo
 value = instance.VideoHighestPlayableTrack
 ```
 
-``` csharp
+```csharp
 public TrackInfo VideoHighestPlayableTrack { get; }
 ```
 
-``` c++
+```cpp
 public:
 property TrackInfo^ VideoHighestPlayableTrack {
     TrackInfo^ get ();
@@ -66,28 +65,28 @@ property TrackInfo^ VideoHighestPlayableTrack {
 member VideoHighestPlayableTrack : TrackInfo
 ```
 
-``` jscript
+```jscript
 function get VideoHighestPlayableTrack () : TrackInfo
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)  
 The track.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

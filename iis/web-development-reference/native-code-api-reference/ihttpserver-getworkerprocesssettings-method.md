@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::GetWorkerProcessSettings Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::GetWorkerProcessSettings Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 37efa150-d336-b2d7-77f8-872fb5887f7f
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::GetWorkerProcessSettings Method
 Retrieves an [IWpfSettings](../../web-development-reference\native-code-api-reference/iwpfsettings-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual HRESULT GetWorkerProcessSettings(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppWorkerProcessSettings`  
  A dereferenced pointer to an [IWpfSettings](../../web-development-reference\native-code-api-reference/iwpfsettings-interface.md) interface.  
   

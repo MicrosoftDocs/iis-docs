@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbTableManager.CreateTable
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbTableManager.CreateTable Method
@@ -35,7 +34,7 @@ Creates a table in a database.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Sub CreateTable ( _
     connectionString As String, _
@@ -52,7 +51,7 @@ instance.CreateTable(connectionString, _
     schema, tableInfo)
 ```
 
-``` csharp
+```csharp
 void CreateTable(
     string connectionString,
     string schema,
@@ -60,7 +59,7 @@ void CreateTable(
 )
 ```
 
-``` c++
+```cpp
 void CreateTable(
     String^ connectionString, 
     String^ schema, 
@@ -68,7 +67,7 @@ void CreateTable(
 )
 ```
 
-``` jscript
+```jscript
 function CreateTable(
     connectionString : String, 
     schema : String, 
@@ -76,16 +75,16 @@ function CreateTable(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
 <!-- end list -->
 
   - schema  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the table.  
     **Note**    If schema is empty, the default schema name will be used.  
 
@@ -101,7 +100,7 @@ All database providers that implement the [IDbTableManager](idbtablemanager-inte
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider does not support adding tables, you can use the following code sample to raise a not-implemented exception:
 
@@ -124,7 +123,7 @@ The following code sample implements the CreateTable method for an OLEDB connect
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     Public Sub CreateTable( _
             ByVal connectionString As String, _
@@ -206,7 +205,7 @@ The following code sample implements the CreateTable method for an OLEDB connect
 
 ```
 
-``` csharp
+```csharp
 
         // Create a table in the database.
         public void CreateTable(
@@ -295,11 +294,11 @@ The following code sample implements the CreateTable method for an OLEDB connect
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbTableManager Interface](idbtablemanager-interface-microsoft-web-management-databasemanager.md)
 

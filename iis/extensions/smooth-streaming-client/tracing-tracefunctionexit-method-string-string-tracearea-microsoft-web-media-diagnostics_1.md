@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.TraceFunctionExit Method (String, String, TraceArea)
@@ -34,7 +33,7 @@ Records the exit from a function as specified by the parameters.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Sub TraceFunctionExit ( _
@@ -52,7 +51,7 @@ Tracing.TraceFunctionExit(className, _
     methodName, traceArea)
 ```
 
-``` csharp
+```csharp
 public static void TraceFunctionExit(
     string className,
     string methodName,
@@ -60,7 +59,7 @@ public static void TraceFunctionExit(
 )
 ```
 
-``` c++
+```cpp
 public:
 static void TraceFunctionExit(
     String^ className, 
@@ -76,7 +75,7 @@ static member TraceFunctionExit :
         traceArea:TraceArea -> unit 
 ```
 
-``` jscript
+```jscript
 public static function TraceFunctionExit(
     className : String, 
     methodName : String, 
@@ -84,16 +83,16 @@ public static function TraceFunctionExit(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - className  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     A string value that specifies the class name of the calling function.
 
 <!-- end list -->
 
   - methodName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     A string value that specifies the name of the calling function.
 
 <!-- end list -->
@@ -104,17 +103,17 @@ public static function TraceFunctionExit(
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

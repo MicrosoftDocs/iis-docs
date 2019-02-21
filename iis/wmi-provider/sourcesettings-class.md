@@ -1,15 +1,7 @@
 ---
-title: "SourceSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "SourceSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b0c54741-fbf8-4420-8e95-7d834aa7a218
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SourceSettings Class
 Contains trace sources that initiate tracing messages.  

@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.DependenciesMissingException
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,15 +23,14 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DependenciesMissingException Class
 
 ## Inheritance Hierarchy
 
-[System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
-  [System.Exception](https://msdn.microsoft.com/en-us/library/c18k6c59\(v=vs.90\))  
+[System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
+  [System.Exception](https://msdn.microsoft.com/library/c18k6c59)  
     Microsoft.Web.Management.DatabaseManager.DependenciesMissingException  
 
 **Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
@@ -39,7 +38,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <SerializableAttribute> _
 Public Class DependenciesMissingException _
@@ -48,17 +47,17 @@ Public Class DependenciesMissingException _
 Dim instance As DependenciesMissingException
 ```
 
-``` csharp
+```csharp
 [SerializableAttribute]
 public class DependenciesMissingException : Exception
 ```
 
-``` c++
+```cpp
 [SerializableAttribute]
 public ref class DependenciesMissingException : public Exception
 ```
 
-``` jscript
+```jscript
 public class DependenciesMissingException extends Exception
 ```
 
@@ -73,37 +72,31 @@ The DependenciesMissingException type exposes the following members.
 |![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[DependenciesMissingException(SerializationInfo, StreamingContext)](dependenciesmissingexception-constructor-serializationinfo-streamingcontext-microsoft-web-management-databasemanager.md)|Creates a new instance of the DependenciesMissingException class.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[DependenciesMissingException(String, Exception)](dependenciesmissingexception-constructor-string-exception-microsoft-web-management-databasemanager.md)|Creates a new instance of the DependenciesMissingException class.|
 
-Top
-
 ## Properties
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Data](https://msdn.microsoft.com/en-us/library/2wyfbc48(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[HelpLink](https://msdn.microsoft.com/en-us/library/71tawy4s(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Protected property](images/Ee230846.protproperty(en-us,VS.90).gif "Protected property")|[HResult](https://msdn.microsoft.com/en-us/library/sh5cw61c(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[InnerException](https://msdn.microsoft.com/en-us/library/902sca80(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Message](https://msdn.microsoft.com/en-us/library/9btwf6wk(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Source](https://msdn.microsoft.com/en-us/library/85weac5w(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[StackTrace](https://msdn.microsoft.com/en-us/library/dxzhy005(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[TargetSite](https://msdn.microsoft.com/en-us/library/2wchw354(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-
-Top
+|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Data](https://msdn.microsoft.com/library/2wyfbc48)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[HelpLink](https://msdn.microsoft.com/library/71tawy4s)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Protected property](images/Ee230846.protproperty(en-us,VS.90).gif "Protected property")|[HResult](https://msdn.microsoft.com/library/sh5cw61c)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[InnerException](https://msdn.microsoft.com/library/902sca80)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Message](https://msdn.microsoft.com/library/9btwf6wk)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Source](https://msdn.microsoft.com/library/85weac5w)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[StackTrace](https://msdn.microsoft.com/library/dxzhy005)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[TargetSite](https://msdn.microsoft.com/library/2wchw354)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
 
 ## Methods
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/en-us/library/4k87zsw7(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetBaseException](https://msdn.microsoft.com/en-us/library/49kcee3b(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetObjectData](https://msdn.microsoft.com/en-us/library/fwb1489e(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/en-us/library/44zb316t(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/en-us/library/es4y6f7e(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-
-Top
+|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetBaseException](https://msdn.microsoft.com/library/49kcee3b)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/library/zdee4b3y)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetObjectData](https://msdn.microsoft.com/library/fwb1489e)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/library/44zb316t)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/es4y6f7e)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
 
 ## Remarks
 
@@ -113,7 +106,7 @@ You can implement the [VerifyDependencies](databaseprovider-verifydependencies-m
 
 The following code sample illustrates an example VerifyDependencies method that verifies the dependencies for a sample OLEDB provider.
 
-``` vb
+```vb
 
     ' Verify the database provider dependencies.
     Public Overrides Sub VerifyDependencies()
@@ -142,7 +135,7 @@ The following code sample illustrates an example VerifyDependencies method that 
 
 ```
 
-``` csharp
+```csharp
 
         // Verify the database provider dependencies.
         public override void VerifyDependencies()
@@ -179,7 +172,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
 

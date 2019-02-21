@@ -120,7 +120,7 @@ Note: The INativeConfigurationElementCollection interface contains several infra
 
 ## See Also
 
-#### Reference
+### Reference
 
 [INativeConfigurationElement Interface \[IIS 7\]](inativeconfigurationelement-interface.md)
 

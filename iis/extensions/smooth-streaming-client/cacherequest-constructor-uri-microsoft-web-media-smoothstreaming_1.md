@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,19 +22,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheRequest Constructor (Uri)
 
-Initializes a new instance of the [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) class from a [Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\)) object.
+Initializes a new instance of the [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) class from a [Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\)) object.
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -47,13 +46,13 @@ Dim canonicalUri As Uri
 Dim instance As New CacheRequest(canonicalUri)
 ```
 
-``` csharp
+```csharp
 public CacheRequest(
     Uri canonicalUri
 )
 ```
 
-``` c++
+```cpp
 public:
 CacheRequest(
     Uri^ canonicalUri
@@ -65,31 +64,31 @@ new :
         canonicalUri:Uri -> CacheRequest
 ```
 
-``` jscript
+```jscript
 public function CacheRequest(
     canonicalUri : Uri
 )
 ```
 
-#### Parameters
+### Parameters
 
   - canonicalUri  
-    Type: [System.Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\))  
-    A [Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\)) object.
+    Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\))  
+    A [Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheRequest Class](cacherequest-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,16 +1,8 @@
 ---
-title: "IFtpLogProvider Interface (Native) | Microsoft Docs"
-ms.custom: ""
+title: "IFtpLogProvider Interface (Native)"
 ms.date: "09/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 164e8ebe-cae0-4e23-af04-34ef3f43954b
-caps.latest.revision: 9
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IFtpLogProvider Interface (Native)
 Provides an interface for logging FTP activity.  

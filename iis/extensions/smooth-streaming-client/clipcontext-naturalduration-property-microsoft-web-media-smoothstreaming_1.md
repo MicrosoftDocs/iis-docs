@@ -1,5 +1,5 @@
 ---
-title: ClipContext.NaturalDuration Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ClipContext.NaturalDuration Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: NaturalDuration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.NaturalDuration
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipcontext.naturalduration(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.NaturalDuration
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.set_NaturalDuration
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipContext.NaturalDuration Property
@@ -40,7 +39,7 @@ Gets the natural duration for the clip.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Overridable Property NaturalDuration As Duration
@@ -54,11 +53,11 @@ Dim value As Duration
 value = instance.NaturalDuration
 ```
 
-``` csharp
+```csharp
 public virtual Duration NaturalDuration { get; internal set; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property Duration NaturalDuration {
     Duration get ();
@@ -71,25 +70,25 @@ abstract NaturalDuration : Duration with get, internal set
 override NaturalDuration : Duration with get, internal set
 ```
 
-``` jscript
+```jscript
 function get NaturalDuration () : Duration
 internal function set NaturalDuration (value : Duration)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Windows.Duration](https://msdn.microsoft.com/en-us/library/ms602372\(v=vs.95\))  
-A [Duration](https://msdn.microsoft.com/en-us/library/ms602372\(v=vs.95\)) object.
+Type: [System.Windows.Duration](https://msdn.microsoft.com/library/ms602372\(v=vs.95\))  
+A [Duration](https://msdn.microsoft.com/library/ms602372\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipContext Class](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IsapiFiltersSection Class | Microsoft Docs"
-ms.custom: ""
+title: "IsapiFiltersSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2592c8b2-ade9-2569-8e44-8cca63d22c3d
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IsapiFiltersSection Class
 Configures the ISAPI filters on a Web server.  

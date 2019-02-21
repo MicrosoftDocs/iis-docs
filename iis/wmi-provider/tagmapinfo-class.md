@@ -1,15 +1,7 @@
 ---
-title: "TagMapInfo Class | Microsoft Docs"
-ms.custom: ""
+title: "TagMapInfo Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8e0bf24d-5acf-847c-89c1-51d5fa5a922e
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TagMapInfo Class
 Contains statements that remap tag types.  
@@ -51,7 +43,7 @@ class TagMapInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.TagMapInfo](/dotnet/api/system.web.configuration.tagmapinfo?view=netframework-4.7.2)  
+ [System.Web.Configuration.TagMapInfo](/dotnet/api/system.web.configuration.tagmapinfo)  
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)   
  [TagMapElement Class](../wmi-provider/tagmapelement-class.md)

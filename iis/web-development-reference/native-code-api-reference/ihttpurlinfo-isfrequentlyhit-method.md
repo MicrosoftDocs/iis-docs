@@ -1,15 +1,7 @@
 ---
-title: "IHttpUrlInfo::IsFrequentlyHit Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUrlInfo::IsFrequentlyHit Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 67fb593e-1cde-105d-652e-dc8617d99cbd
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUrlInfo::IsFrequentlyHit Method
 Returns a Boolean value that indicates whether the URL is requested frequently.  
@@ -22,7 +14,7 @@ virtual BOOL IsFrequentlyHit(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

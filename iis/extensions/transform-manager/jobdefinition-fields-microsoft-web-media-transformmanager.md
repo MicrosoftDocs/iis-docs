@@ -28,11 +28,9 @@ The [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md)
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[SchedulerUseNodeProfileAttributeName](jobdefinition-schedulerusenodeprofileattributename-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when the scheduler useNodeProfile attribute is assigned to a job definition. This type/member supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[TaskIdAttributeName](jobdefinition-taskidattributename-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when the task id attribute is assigned to a job definition. This type/member supports the IIS Transform Manager infrastructure and is not intended to be used directly from your code.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

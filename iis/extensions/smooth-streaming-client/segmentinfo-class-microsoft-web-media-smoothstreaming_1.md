@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SegmentInfo Class
@@ -33,7 +32,7 @@ Defines the information that must be exposed by any manifest parser. This class 
 
 ## Inheritance Hierarchy
 
- [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+ [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
   Microsoft.Web.Media.SmoothStreaming.SegmentInfo  
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
@@ -41,7 +40,7 @@ Defines the information that must be exposed by any manifest parser. This class 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Class SegmentInfo
@@ -50,11 +49,11 @@ Public Class SegmentInfo
 Dim instance As SegmentInfo
 ```
 
-``` csharp
+```csharp
 public class SegmentInfo
 ```
 
-``` c++
+```cpp
 public ref class SegmentInfo
 ```
 
@@ -62,7 +61,7 @@ public ref class SegmentInfo
 type SegmentInfo =  class end
 ```
 
-``` jscript
+```jscript
 public class SegmentInfo
 ```
 
@@ -78,23 +77,19 @@ The SegmentInfo type exposes the following members.
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[StartPosition](segmentinfo-startposition-property-microsoft-web-media-smoothstreaming_1.md)|Gets the maximum of the start times of the first audio chunk and first video chunk.|
 
 
-Top
-
 ## Methods
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Equals](https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Finalize](https://msdn.microsoft.com/en-us/library/4k87zsw7(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[GetHashCode](https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[GetType](https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[MemberwiseClone](https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Equals](https://msdn.microsoft.com/library/bsc2ak47(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[GetHashCode](https://msdn.microsoft.com/library/zdee4b3y(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[GetType](https://msdn.microsoft.com/library/dfwy45w9(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[RestrictStreams](segmentinfo-restrictstreams-method-microsoft-web-media-smoothstreaming.md)|Restricts decoder initialization to the specified list of available streams.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[SelectStreamsAsync(IList<StreamInfo>)](segmentinfo-selectstreamsasync-method-ilist-streaminfo-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the SegmentInfo class.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[SelectStreamsAsync(IList<StreamInfo>, Object)](segmentinfo-selectstreamsasync-method-ilist-streaminfo-object-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the SegmentInfo class.|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ToString](https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-
-Top
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 
 ## Remarks
 
@@ -142,11 +137,11 @@ The following example shows code that loops through any number of SegmentInfo ob
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
@@ -156,7 +151,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

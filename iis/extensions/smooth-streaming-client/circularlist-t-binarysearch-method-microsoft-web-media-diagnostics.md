@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.BinarySearch
 - Microsoft::Web::Media::Diagnostics::CircularList`1::BinarySearch
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 ---
 
 # BinarySearch Method
@@ -23,16 +23,14 @@ This member is overloaded. For complete information about this member, including
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[BinarySearch(T)](https://msdn.microsoft.com/en-us/library/w4e7fxsh(v=vs.90))|(Inherited from [List](https://msdn.microsoft.com/en-us/library/6sh2ey19(v=vs.90))< (Of < ( <'[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)> ) > ) >.)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[BinarySearch(T, IComparer< (Of < <' (T> ) > > ))](https://msdn.microsoft.com/en-us/library/ftfdbfx6(v=vs.90))|(Inherited from [List](https://msdn.microsoft.com/en-us/library/6sh2ey19(v=vs.90))< (Of < ( <'[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)> ) > ) >.)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[BinarySearch(Int32, Int32, T, IComparer< (Of < <' (T> ) > > ))](https://msdn.microsoft.com/en-us/library/a1s5syxa(v=vs.90))|(Inherited from [List](https://msdn.microsoft.com/en-us/library/6sh2ey19(v=vs.90))< (Of < ( <'[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)> ) > ) >.)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[BinarySearch(T)](https://msdn.microsoft.com/library/w4e7fxsh)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)> ) > ) >.)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[BinarySearch(T, IComparer< (Of < <' (T> ) > > ))](https://msdn.microsoft.com/library/ftfdbfx6)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)> ) > ) >.)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[BinarySearch(Int32, Int32, T, IComparer< (Of < <' (T> ) > > ))](https://msdn.microsoft.com/library/a1s5syxa)|(Inherited from [List](https://msdn.microsoft.com/library/6sh2ey19)< (Of < ( <'[T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)> ) > ) >.)|
 
-
-Top
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CircularList\< (Of \< ( \<'T\> ) \> ) \> Class](circularlist-t-class-microsoft-web-media-diagnostics_1.md)
 

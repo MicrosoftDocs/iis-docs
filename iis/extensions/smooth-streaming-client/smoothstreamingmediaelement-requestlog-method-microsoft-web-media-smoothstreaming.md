@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.RequestLog
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # RequestLog Method
@@ -35,7 +34,7 @@ Sends a request to generate a log that will be raised by the LogReady event.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub RequestLog
@@ -46,16 +45,16 @@ Sends a request to generate a log that will be raised by the LogReady event.
 instance.RequestLog()
 ```
 
-``` csharp
+```csharp
   public void RequestLog()
 ```
 
-``` c++
+```cpp
   public:
 void RequestLog()
 ```
 
-``` jscript
+```jscript
   public function RequestLog()
 ```
 
@@ -65,21 +64,21 @@ For more information, see [Events (IIS Smooth Streaming)](events.md).
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

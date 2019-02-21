@@ -1,15 +1,7 @@
 ---
-title: "CollectionElement Class | Microsoft Docs"
-ms.custom: ""
+title: "CollectionElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2476947b-5036-a2f4-440a-2074a7dfeb29
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CollectionElement Class
 Groups classes whose instances form part of a collection.  

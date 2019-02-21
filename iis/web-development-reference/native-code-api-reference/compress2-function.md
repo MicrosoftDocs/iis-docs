@@ -1,14 +1,7 @@
 ---
-title: "Compress2 Function | Microsoft Docs"
-ms.custom: ""
+title: "Compress2 Function"
 ms.date: "07/30/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9a3c22c0-2e3c-479f-bd4a-457ea4364c67
-caps.latest.revision: 2
-author: "shirhatti"
 ms.author: "soshir"
 ---
 # Compress2 Function
@@ -30,7 +23,7 @@ HRESULT WINAPI Compress2(
 );
 ```
 
-#### Parameters
+### Parameters
  `context`
  [IN][OUT] Pointer to the new compression context.
 

@@ -1,15 +1,7 @@
 ---
-title: "IMapPathProvider::GetUrl Method | Microsoft Docs"
-ms.custom: ""
+title: "IMapPathProvider::GetUrl Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3e34715b-0a94-dd4a-8ec0-4974e470bb5d
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IMapPathProvider::GetUrl Method
 Retrieves the relative URL for the request.  
@@ -21,7 +13,7 @@ virtual PCWSTR GetUrl(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

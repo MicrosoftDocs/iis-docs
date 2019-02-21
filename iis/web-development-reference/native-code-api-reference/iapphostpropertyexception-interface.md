@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertyException Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertyException Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b9cf27c2-261a-2dcf-30bb-3c3fd0cf32a2
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertyException Interface
 Indicates that the configuration system has thrown an exception when it validates a property against the configuration schema.  

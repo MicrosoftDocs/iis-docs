@@ -1,15 +1,7 @@
 ---
-title: "IPmCustomActions2::RegisterCustomActionCallback Method | Microsoft Docs"
-ms.custom: ""
+title: "IPmCustomActions2::RegisterCustomActionCallback Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fa176765-b774-4bd3-a155-56fcfb0886b7
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPmCustomActions2::RegisterCustomActionCallback Method
 Registers a custom callback method for actions that will result in multiple responses.  
@@ -24,7 +16,7 @@ virtual HRESULT RegisterCustomActionCallback(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszFunctionName`  
  A pointer to a string that contains the name of the custom Run-Time Status and Control action to be performed.  
   

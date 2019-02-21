@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementSchema::GetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementSchema::GetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0fcf6c69-5a84-8721-7a31-b2b2d8cefc0f
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementSchema::GetMetadata Method
 Gets metadata values from the element schema.  
@@ -25,7 +17,7 @@ HRESULT GetMetadata(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being requested.  
   

@@ -1,15 +1,7 @@
 ---
-title: "ApplicationPool.Recycle Method2 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationPool.Recycle Method2"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5a5feebf-714a-7032-b8c5-c75d6487fac9
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationPool.Recycle Method2
 Recycles an application pool.  
@@ -24,7 +16,7 @@ objApplicationPool.Recycle
 ApplicationPool.Recycle();  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

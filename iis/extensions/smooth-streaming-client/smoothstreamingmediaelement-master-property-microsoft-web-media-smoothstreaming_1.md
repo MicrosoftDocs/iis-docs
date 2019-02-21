@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.Master Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.Master Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Master Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Master
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.master(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_Master
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_Master
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.Master Property
@@ -40,7 +39,7 @@ Gets or sets the master (parent) object.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Master As SmoothStreamingMediaElement
@@ -56,11 +55,11 @@ value = instance.Master
 instance.Master = value
 ```
 
-``` csharp
+```csharp
 public SmoothStreamingMediaElement Master { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property SmoothStreamingMediaElement^ Master {
     SmoothStreamingMediaElement^ get ();
@@ -72,25 +71,25 @@ property SmoothStreamingMediaElement^ Master {
 member Master : SmoothStreamingMediaElement with get, set
 ```
 
-``` jscript
+```jscript
 function get Master () : SmoothStreamingMediaElement
 function set Master (value : SmoothStreamingMediaElement)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)  
 The master object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

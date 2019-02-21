@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the actual handler for the manifest ready event.
 
 ## Syntax
 
-``` csharp
+```csharp
 public AdaptiveSource AdaptiveSource { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property AdaptiveSource^ AdaptiveSource {
 AdaptiveSource^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get AdaptiveSource () : AdaptiveSource
 ```
 

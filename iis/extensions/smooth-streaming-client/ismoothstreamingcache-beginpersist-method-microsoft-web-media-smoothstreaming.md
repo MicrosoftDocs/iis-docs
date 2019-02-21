@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.BeginPersist
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # BeginPersist Method
@@ -35,7 +34,7 @@ Begins to persist a cache response. This function is called whenever in the cour
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Function BeginPersist ( _
@@ -57,7 +56,7 @@ returnValue = instance.BeginPersist(request, _
     response, callback, state)
 ```
 
-``` csharp
+```csharp
   IAsyncResult BeginPersist(
     CacheRequest request,
     CacheResponse response,
@@ -66,7 +65,7 @@ returnValue = instance.BeginPersist(request, _
 )
 ```
 
-``` c++
+```cpp
   IAsyncResult^ BeginPersist(
     CacheRequest^ request, 
     CacheResponse^ response, 
@@ -75,7 +74,7 @@ returnValue = instance.BeginPersist(request, _
 )
 ```
 
-``` jscript
+```jscript
   function BeginPersist(
     request : CacheRequest, 
     response : CacheResponse, 
@@ -84,34 +83,34 @@ returnValue = instance.BeginPersist(request, _
 ) : IAsyncResult
 ```
 
-#### Parameters
+### Parameters
 
   - request  
-    Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md)  
+    Type: [Microsoft.Web.Media.SmoothStreaming.CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md)  
     A [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) object.  
 
 <!-- end list -->
 
   - response  
-    Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)  
+    Type: [Microsoft.Web.Media.SmoothStreaming.CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)  
     A [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) object.  
 
 <!-- end list -->
 
   - callback  
-    Type: [System. . :: . .AsyncCallback](https://msdn.microsoft.com/en-us/library/ckbe7yh5\(v=vs.90\))  
-    A [AsyncCallback](https://msdn.microsoft.com/en-us/library/ckbe7yh5\(v=vs.90\)) delegate method to complete the operation.  
+    Type: [System.AsyncCallback](https://msdn.microsoft.com/library/ckbe7yh5)  
+    A [AsyncCallback](https://msdn.microsoft.com/library/ckbe7yh5) delegate method to complete the operation.  
 
 <!-- end list -->
 
   - state  
-    Type: [System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
-    A [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\)) that represents state for the request.  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
+    A [Object](https://msdn.microsoft.com/library/e5kfa45b) that represents state for the request.  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.90\))  
-An [IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.90\)) object.  
+Type: [System.IAsyncResult](https://msdn.microsoft.com/library/ft8a6455)  
+An [IAsyncResult](https://msdn.microsoft.com/library/ft8a6455) object.  
 
 ## Remarks
 
@@ -144,21 +143,21 @@ The following code shows an implementation of the BeginPersist(CacheRequest, Cac
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ISmoothStreamingCache Interface](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)
 

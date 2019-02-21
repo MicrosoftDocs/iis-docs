@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ Sets the buffer delay before starting, in seconds.
 
 ## Syntax
 
-``` csharp
+```csharp
 void SetBufferDelay(
 float bufferDelaySec
 )
 ```
 
-``` c++
+```cpp
 void SetBufferDelay(
 [InAttribute] float bufferDelaySec
 )
 ```
 
-``` jscript
+```jscript
 function SetBufferDelay(
 bufferDelaySec : float
 )

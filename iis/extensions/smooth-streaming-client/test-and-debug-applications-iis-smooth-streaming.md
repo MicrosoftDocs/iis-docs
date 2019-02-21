@@ -56,11 +56,11 @@ For more information, see [How to: Attach to a Running Process](http://go.micros
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md)
 
-#### Other Resources
+### Other Resources
 
 [IIS Smooth Streaming Client](http://go.microsoft.com/fwlink/?linkid=181828)
 

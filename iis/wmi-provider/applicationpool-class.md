@@ -1,15 +1,7 @@
 ---
-title: "ApplicationPool Class1 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationPool Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 73b72766-1004-e849-25e6-6984a483a6bb
-caps.latest.revision: 31
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationPool Class1
 Represents an IIS application pool.  

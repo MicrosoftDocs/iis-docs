@@ -1,15 +1,7 @@
 ---
-title: "IHttpModuleRegistrationInfo::SetRequestNotifications Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpModuleRegistrationInfo::SetRequestNotifications Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9cd93045-71ee-c3ce-fdce-33f3fb105a05
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpModuleRegistrationInfo::SetRequestNotifications Method
 Registers the request-level notifications for a module.  
@@ -24,7 +16,7 @@ virtual HRESULT SetRequestNotifications(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pModuleFactory`  
  [IN] A pointer to an [IHttpModuleFactory](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-interface.md) interface.  
   
@@ -51,7 +43,7 @@ virtual HRESULT SetRequestNotifications(
 >  Some events do not have post-event notification. Use 0 for the `dwPostRequestNotifications` parameter when you do not want notification or when post-event notification is not supported.  
   
 > [!NOTE]
->  The bitmask values for request-level notifications are defined in the Httpserv.h file.  
+> The bitmask values for request-level notifications are defined in the Httpserv.h file.  
   
  The `SetRequestNotifications` method requires a pointer to an [IHttpModuleFactory](../../web-development-reference\native-code-api-reference/ihttpmodulefactory-interface.md) interface, which IIS will use to create an instance of a `CHttpModule` class. This factory must handle creating the instance of the `CHttpModule` class and returning any error messages if the class cannot be created.  
   
@@ -69,7 +61,7 @@ virtual HRESULT SetRequestNotifications(
  The module responds to the registered notifications and writes entries to the application log in the Event Viewer.  
   
 > [!NOTE]
->  The entries in the Event Viewer will display "IISADMIN" as the event source.  
+> The entries in the Event Viewer will display "IISADMIN" as the event source.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpModuleRegistrationInfoSetRequestNotifications#1](IHttpModuleRegistrationInfoSetRequestNotifications#1)]  -->  
   

@@ -1,15 +1,7 @@
 ---
-title: "EventMappingSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "EventMappingSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ab1dcd94-ec87-e260-9828-ed4cc6c1221e
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # EventMappingSettings Class
 Contains mappings of friendly event names to related event types.  
@@ -53,7 +45,7 @@ class EventMappingSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Management.WebEventCodes](/dotnet/api/system.web.management.webeventcodes?view=netframework-4.7.2)
+ [System.Web.Management.WebEventCodes](/dotnet/api/system.web.management.webeventcodes)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [EventMappingElement Class](../wmi-provider/eventmappingelement-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   

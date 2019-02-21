@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ The DownloaderPlugin interface.
 
 ## Syntax
 
-``` csharp
+```csharp
 [GuidAttribute(, , , , , , , , , , )]
 [VersionAttribute()]
 public interface IDownloaderPlugin 
 ```
 
-``` c++
+```cpp
 [GuidAttribute(, , , , , , , , , , )]
 [VersionAttribute()]
 public interface class IDownloaderPlugin
 ```
 
-``` jscript
+```jscript
 public interface IDownloaderPlugin
 ```
 

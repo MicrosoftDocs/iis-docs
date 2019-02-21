@@ -10,15 +10,12 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.DependenciesMissingException.DependenciesMissingException
 - Microsoft.Web.Management.DatabaseManager.DependenciesMissingException.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 ---
 
 # DependenciesMissingException Constructor
-
-Include Protected Members  
-Include Inherited Members  
 
 This member is overloaded. For complete information about this member, including syntax, usage, and examples, click a name in the overload list.
 
@@ -31,11 +28,9 @@ This member is overloaded. For complete information about this member, including
 |![Protected method](images/Dd566041.protmethod(en-us,VS.90).gif "Protected method")|[DependenciesMissingException(SerializationInfo, StreamingContext)](dependenciesmissingexception-constructor-serializationinfo-streamingcontext-microsoft-web-management-databasemanager.md)|Creates a new instance of the [DependenciesMissingException](dependenciesmissingexception-class-microsoft-web-management-databasemanager.md) class.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[DependenciesMissingException(String, Exception)](dependenciesmissingexception-constructor-string-exception-microsoft-web-management-databasemanager.md)|Creates a new instance of the [DependenciesMissingException](dependenciesmissingexception-class-microsoft-web-management-databasemanager.md) class.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [DependenciesMissingException Class](dependenciesmissingexception-class-microsoft-web-management-databasemanager.md)
 

@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,14 +20,14 @@ Downloads the fragment data for the given chunk iterator through async call.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IAsyncOperation<IBuffer> DownloadFragmentAsync(
 IChunkIter pChunkIter,
 IManifestTrack pTrack
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual IAsyncOperation<IBuffer^>^ DownloadFragmentAsync(
 [InAttribute] IChunkIter^ pChunkIter,
@@ -35,7 +35,7 @@ virtual IAsyncOperation<IBuffer^>^ DownloadFragmentAsync(
 ) sealed
 ```
 
-``` jscript
+```jscript
 public final function DownloadFragmentAsync(
 pChunkIter : IChunkIter,
 pTrack : IManifestTrack

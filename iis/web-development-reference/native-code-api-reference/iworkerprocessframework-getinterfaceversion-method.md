@@ -1,15 +1,7 @@
 ---
-title: "IWorkerProcessFramework::GetInterfaceVersion Method | Microsoft Docs"
-ms.custom: ""
+title: "IWorkerProcessFramework::GetInterfaceVersion Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9484099f-c3f4-fdbb-dc24-bfd9617a3cf5
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWorkerProcessFramework::GetInterfaceVersion Method
 Returns the worker process framework version.  
@@ -23,7 +15,7 @@ virtual HRESULT GetInterfaceVersion(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pdwMajorVersion`  
  A pointer to a `DWORD` buffer that will receive the major version of the [IWorkerProcessFramework](../../web-development-reference\native-code-api-reference/iworkerprocessframework-interface.md).  
   

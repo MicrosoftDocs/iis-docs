@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementCollection::Schema Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementCollection::Schema Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 31883945-ed20-f557-ea92-e05226340a14
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementCollection::Schema Property
 Returns the schema assigned to the current collection.  
@@ -23,7 +15,7 @@ HRESULT get_Schema(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppSchema`  
  A pointer to a pointer for an [IAppHostCollectionSchema](../../web-development-reference\native-code-api-reference/iapphostcollectionschema-interface.md) interface.  
   

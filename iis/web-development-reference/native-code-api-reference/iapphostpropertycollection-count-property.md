@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertyCollection::Count Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertyCollection::Count Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e52abb61-326d-52f0-4c7c-4365e0b13785
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertyCollection::Count Property
 Gets the number of properties in the collection.  
@@ -23,7 +15,7 @@ HRESULT get_Count(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcCount`  
  A pointer to a `DWORD` that contains the number of items in the collection.  
   

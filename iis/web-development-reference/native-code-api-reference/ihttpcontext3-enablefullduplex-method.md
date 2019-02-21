@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext3::EnableFullDuplex Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext3::EnableFullDuplex Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4113c932-4bb4-4046-bc3e-28fc8cfbfb0a
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext3::EnableFullDuplex Method
 Enables an asynchronous full-duplex connection for this context.  
@@ -22,7 +14,7 @@ virtual VOID EnableFullDuplex(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method accepts no parameters.  
   
 ## Return Value  

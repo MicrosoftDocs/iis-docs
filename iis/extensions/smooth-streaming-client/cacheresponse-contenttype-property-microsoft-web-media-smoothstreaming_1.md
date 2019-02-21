@@ -1,5 +1,5 @@
 ---
-title: CacheResponse.ContentType Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse.ContentType Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ContentType Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ContentType
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.contenttype(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.get_ContentType
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_ContentType
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse.ContentType Property
@@ -40,7 +39,7 @@ A string object that identifies the content type.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property ContentType As String
@@ -56,11 +55,11 @@ value = instance.ContentType
 instance.ContentType = value
 ```
 
-``` csharp
+```csharp
 public string ContentType { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ ContentType {
     String^ get ();
@@ -72,29 +71,29 @@ property String^ ContentType {
 member ContentType : string with get, set
 ```
 
-``` jscript
+```jscript
 function get ContentType () : String
 function set ContentType (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
 A string object that identifies the content type.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

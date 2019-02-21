@@ -1,15 +1,7 @@
 ---
-title: "IsapiFilterElement Class | Microsoft Docs"
-ms.custom: ""
+title: "IsapiFilterElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ed7f5df4-a6e4-bdc5-c585-4b9e7936bbc2
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IsapiFilterElement Class
 Specifies an ISAPI filter.  

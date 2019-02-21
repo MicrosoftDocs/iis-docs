@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SetPlaybackRangeCompletedEventArgs Constructor (TimeSpan, TimeSpan, Object)
@@ -34,7 +33,7 @@ Initializes a new instance of the [SetPlaybackRangeCompletedEventArgs](setplayba
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -52,7 +51,7 @@ Dim instance As New SetPlaybackRangeCompletedEventArgs(leftEdge, _
     rightEdge, userState)
 ```
 
-``` csharp
+```csharp
 public SetPlaybackRangeCompletedEventArgs(
     TimeSpan leftEdge,
     TimeSpan rightEdge,
@@ -60,7 +59,7 @@ public SetPlaybackRangeCompletedEventArgs(
 )
 ```
 
-``` c++
+```cpp
 public:
 SetPlaybackRangeCompletedEventArgs(
     TimeSpan leftEdge, 
@@ -76,7 +75,7 @@ new :
         userState:Object -> SetPlaybackRangeCompletedEventArgs
 ```
 
-``` jscript
+```jscript
 public function SetPlaybackRangeCompletedEventArgs(
     leftEdge : TimeSpan, 
     rightEdge : TimeSpan, 
@@ -84,33 +83,33 @@ public function SetPlaybackRangeCompletedEventArgs(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - leftEdge  
-    Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))  
+    Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))  
     A TimeSpan value that represents the left-most position for a seek operation.
 
 <!-- end list -->
 
   - rightEdge  
-    Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))  
+    Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))  
     A TimeSpan value that represents the player application's expected right-most position or chunk timestamp.
 
 <!-- end list -->
 
   - userState  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
     A state object that represents the state.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SetPlaybackRangeCompletedEventArgs Class](setplaybackrangecompletedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

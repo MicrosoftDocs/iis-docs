@@ -1,15 +1,7 @@
 ---
-title: "IReferencedMetadataInfo Interface | Microsoft Docs"
-ms.custom: ""
+title: "IReferencedMetadataInfo Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 345258f4-4161-4f96-9ff1-2056d412d83b
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IReferencedMetadataInfo Interface
 Provides an interface for referencing and dereferencing context metadata.  

@@ -1,15 +1,7 @@
 ---
-title: "IWpfSettings::GetBoolProperty Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfSettings::GetBoolProperty Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0a0bdc07-acc3-f280-0cc4-efa54a76dfea
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfSettings::GetBoolProperty Method
 Retrieves a `BOOL` value from the worker process or application pool settings.  
@@ -23,7 +15,7 @@ virtual HRESULT GetBoolProperty(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `SettingId`  
  [IN] A [WPF_SETTINGS_BOOL_ENUM](../../web-development-reference\native-code-api-reference/wpf-settings-bool-enum-enumeration.md) value that specifies which `BOOL` value to return.  
   

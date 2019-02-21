@@ -1,15 +1,7 @@
 ---
-title: "IAppHostCollectionSchema::DoesAllowDuplicates Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostCollectionSchema::DoesAllowDuplicates Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a57aec87-3cc3-4734-848a-9d27ccdf40db
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostCollectionSchema::DoesAllowDuplicates Property
 Gets a Boolean value that determines whether a collection that implements the current schema allows for duplicate keys.  
@@ -23,7 +15,7 @@ HRESULT DoesAllowDuplicates(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfAllowDuplicates`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if duplicate names are allowed; otherwise, `VARIANT_FALSE`.  
   

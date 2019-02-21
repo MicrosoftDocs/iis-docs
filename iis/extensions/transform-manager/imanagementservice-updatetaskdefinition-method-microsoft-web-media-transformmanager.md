@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService.UpdateTaskDefinition
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateTaskDefinition Method
@@ -36,7 +35,7 @@ Adds or replaces a single task as defined in the job template.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Sub UpdateTaskDefinition ( _
@@ -50,14 +49,14 @@ Dim taskDefinition As TaskDefinition
 instance.UpdateTaskDefinition(taskDefinition)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 void UpdateTaskDefinition(
     TaskDefinition taskDefinition
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 void UpdateTaskDefinition(
     TaskDefinition^ taskDefinition
@@ -70,21 +69,21 @@ abstract UpdateTaskDefinition :
         taskDefinition:TaskDefinition -> unit 
 ```
 
-``` jscript
+```jscript
   function UpdateTaskDefinition(
     taskDefinition : TaskDefinition
 )
 ```
 
-#### Parameters
+### Parameters
 
   - taskDefinition  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md)  
     A [TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.md) object.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

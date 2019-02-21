@@ -1,15 +1,7 @@
 ---
-title: "AnonymousAuthenticationSection Class1 | Microsoft Docs"
-ms.custom: ""
+title: "AnonymousAuthenticationSection Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bb9b1588-672f-2a06-d1ac-9a3a1a3e3121
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AnonymousAuthenticationSection Class1
 Configures Anonymous authentication.  

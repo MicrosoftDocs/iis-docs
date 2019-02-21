@@ -1,5 +1,5 @@
 ---
-title: ManifestPropertiesDictionary.Namespace Property  (Microsoft.Web.Media.TransformManager)
+title: ManifestPropertiesDictionary.Namespace Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Namespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.Namespace
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestpropertiesdictionary.namespace(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.set_Namespace
 - Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.get_Namespace
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Namespace Property
@@ -40,7 +39,7 @@ Gets or sets the value from the namespace attribute of the XML element.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property Namespace As String
@@ -56,12 +55,12 @@ value = instance.Namespace
 instance.Namespace = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string Namespace { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ Namespace {
@@ -75,19 +74,19 @@ property String^ Namespace {
 member Namespace : string with get, set
 ```
 
-``` jscript
+```jscript
   function get Namespace () : String
 function set Namespace (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The value of the namespace attribute of the XML element.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestPropertiesDictionary Class](manifestpropertiesdictionary-class-microsoft-web-media-transformmanager.md)
 

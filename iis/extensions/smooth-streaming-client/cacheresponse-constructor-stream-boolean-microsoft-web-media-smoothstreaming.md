@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,19 +22,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse Constructor (Stream, Boolean)
 
-Initializes a new instance of the [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) class from a [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\)) object specifying whether to continue processing in case of a cache miss.
+Initializes a new instance of the [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) class from a [Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\)) object specifying whether to continue processing in case of a cache miss.
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -50,14 +49,14 @@ Dim instance As New CacheResponse(stream, _
     continueProcessing)
 ```
 
-``` csharp
+```csharp
 public CacheResponse(
     Stream stream,
     bool continueProcessing
 )
 ```
 
-``` c++
+```cpp
 public:
 CacheResponse(
     Stream^ stream, 
@@ -71,34 +70,34 @@ new :
         continueProcessing:bool -> CacheResponse
 ```
 
-``` jscript
+```jscript
 public function CacheResponse(
     stream : Stream, 
     continueProcessing : boolean
 )
 ```
 
-#### Parameters
+### Parameters
 
   - stream  
-    Type: [System.IO.Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\))  
-    A [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\)) object.
+    Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\))  
+    A [Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\)) object.
 
 <!-- end list -->
 
   - continueProcessing  
-    Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
     A Boolean value indicating whether cache response processing continues to the next cache module (including HTTP download) in case of a cache miss. true if the cache response processing continues; otherwise, false.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Dispose Method (Boolean)
@@ -34,7 +33,7 @@ Releases all resources used by the HPC scheduler and optionally releases the man
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Protected Overridable Sub Dispose ( _
@@ -47,13 +46,13 @@ Releases all resources used by the HPC scheduler and optionally releases the man
 Me.Dispose(disposing)
 ```
 
-``` csharp
+```csharp
   protected virtual void Dispose(
     bool disposing
 )
 ```
 
-``` c++
+```cpp
   protected:
 virtual void Dispose(
     bool disposing
@@ -67,16 +66,16 @@ override Dispose :
         disposing:bool -> unit 
 ```
 
-``` jscript
+```jscript
   protected function Dispose(
     disposing : boolean
 )
 ```
 
-#### Parameters
+### Parameters
 
   - disposing  
-    Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
     true to release both managed and unmanaged resources; false to release only unmanaged resources.  
 
 ## Remarks
@@ -87,7 +86,7 @@ Only unmanaged resources can be disposed.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [HpcScheduler Class](hpcscheduler-class-microsoft-web-media-transformmanager.md)
 

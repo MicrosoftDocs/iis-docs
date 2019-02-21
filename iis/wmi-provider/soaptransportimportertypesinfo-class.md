@@ -1,15 +1,7 @@
 ---
-title: "SoapTransportImporterTypesInfo Class | Microsoft Docs"
-ms.custom: ""
+title: "SoapTransportImporterTypesInfo Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0c029e04-0f20-be82-d7e1-90f2143386a6
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SoapTransportImporterTypesInfo Class
 Contains types that import SOAP transmission protocols into XML Web services.  

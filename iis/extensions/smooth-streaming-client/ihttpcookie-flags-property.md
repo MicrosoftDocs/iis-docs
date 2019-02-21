@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the flags of the h ttp cookie.
 
 ## Syntax
 
-``` csharp
+```csharp
 uint Flags { get; set; }
 ```
 
-``` c++
+```cpp
 property unsigned int Flags {
 unsigned int get ();
 void set (unsigned int value); 
 }
 ```
 
-``` jscript
+```jscript
 function get Flags () : uint
 function set Flags (value : uint) 
 ```

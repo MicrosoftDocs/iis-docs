@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDetails Class
@@ -33,7 +32,7 @@ Provides details about an IIS Transform Manager job.
 
 ## Inheritance Hierarchy
 
-[System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
+[System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
   Microsoft.Web.Media.TransformManager..::..JobDetails  
 
 **Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
@@ -41,7 +40,7 @@ Provides details about an IIS Transform Manager job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <SerializableAttribute> _
 <DataContractAttribute> _
@@ -51,13 +50,13 @@ Public Class JobDetails
   Dim instance As JobDetails
 ```
 
-``` csharp
+```csharp
 [SerializableAttribute]
 [DataContractAttribute]
 public class JobDetails
 ```
 
-``` c++
+```cpp
 [SerializableAttribute]
 [DataContractAttribute]
 public ref class JobDetails
@@ -69,7 +68,7 @@ public ref class JobDetails
 type JobDetails =  class end
 ```
 
-``` jscript
+```jscript
   public class JobDetails
 ```
 
@@ -101,8 +100,6 @@ The JobDetails type exposes the following members.
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskCount](jobdetails-taskcount-property-microsoft-web-media-transformmanager.md)|Gets or sets the number of tasks that are in this job.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskIndex](jobdetails-taskindex-property-microsoft-web-media-transformmanager.md)|Gets or sets the index of the current task.|
 
-Top
-
 ## Methods
 
 ||Name|Description|
@@ -110,17 +107,15 @@ Top
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[CreateWorkItem](jobdetails-createworkitem-method-microsoft-web-media-transformmanager.md)|Creates a JobDetails object that defines a work item based on the specified job manifest.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[CreateWorkItemElement](jobdetails-createworkitemelement-method-microsoft-web-media-transformmanager.md)|Creates an XML element based on the specified JobDetails object that defines a work item.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[CreateWorkItemFromXElement](jobdetails-createworkitemfromxelement-method-microsoft-web-media-transformmanager.md)|Creates a JobDetails object that defines a work item using the specified XML element.|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ExpandJobDetailsElement](jobdetails-expandjobdetailselement-method-microsoft-web-media-transformmanager.md)|Creates an XML element from a JobDetails object that defines a work item.|
-|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/en-us/library/4k87zsw7(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
+|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/library/zdee4b3y)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[GetJobDetailsAttribute](jobdetails-getjobdetailsattribute-method-microsoft-web-media-transformmanager.md)|Returns the attribute name of a JobDetails object.|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/library/dfwy45w9)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Hh125771.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[StatusFromString](jobdetails-statusfromstring-method-microsoft-web-media-transformmanager.md)|Returns a [JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md) object that corresponds to the specified status string.|
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-
-Top
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
 
 ## Fields
 
@@ -146,15 +141,13 @@ Top
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[JobDetailsTaskCount](jobdetails-jobdetailstaskcount-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when transform jobs are sorted by the "taskCount" field.|
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[JobDetailsTaskIndex](jobdetails-jobdetailstaskindex-field-microsoft-web-media-transformmanager.md)|Represents a constant that is used when transform jobs are sorted by the "taskIndex" field.|
 
-Top
-
 ## Thread Safety
 
 Any public static (Shared in Visual Basic) members of this type are thread safe. Any instance members are not guaranteed to be thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

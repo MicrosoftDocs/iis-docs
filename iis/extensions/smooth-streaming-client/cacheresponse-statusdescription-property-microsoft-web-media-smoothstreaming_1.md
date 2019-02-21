@@ -1,5 +1,5 @@
 ---
-title: CacheResponse.StatusDescription Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse.StatusDescription Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StatusDescription Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.StatusDescription
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.statusdescription(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_StatusDescription
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.StatusDescription
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse.StatusDescription Property
@@ -40,7 +39,7 @@ A string that contains the status description.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property StatusDescription As String
@@ -56,11 +55,11 @@ value = instance.StatusDescription
 instance.StatusDescription = value
 ```
 
-``` csharp
+```csharp
 public string StatusDescription { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ StatusDescription {
     String^ get ();
@@ -72,29 +71,29 @@ property String^ StatusDescription {
 member StatusDescription : string with get, set
 ```
 
-``` jscript
+```jscript
 function get StatusDescription () : String
 function set StatusDescription (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
 A string object that contains the status description.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerUseNodeProfileAttributeName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerUseNodeProfileAttributeName Field
@@ -36,7 +35,7 @@ Represents a constant that is used when the scheduler useNodeProfile attribute i
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const SchedulerUseNodeProfileAttributeName As String
@@ -47,11 +46,11 @@ Represents a constant that is used when the scheduler useNodeProfile attribute i
 value = JobDefinition.SchedulerUseNodeProfileAttributeName
 ```
 
-``` csharp
+```csharp
   public const string SchedulerUseNodeProfileAttributeName
 ```
 
-``` c++
+```cpp
   public:
 literal String^ SchedulerUseNodeProfileAttributeName
 ```
@@ -60,13 +59,13 @@ literal String^ SchedulerUseNodeProfileAttributeName
   static val mutable SchedulerUseNodeProfileAttributeName: string
 ```
 
-``` jscript
+```jscript
   public const var SchedulerUseNodeProfileAttributeName : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

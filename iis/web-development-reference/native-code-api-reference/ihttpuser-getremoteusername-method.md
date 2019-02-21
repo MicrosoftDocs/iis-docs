@@ -1,15 +1,7 @@
 ---
-title: "IHttpUser::GetRemoteUserName Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUser::GetRemoteUserName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1feddf04-b7c2-888b-05c4-af1e2478e411
-caps.latest.revision: 38
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUser::GetRemoteUserName Method
 Returns the remote user name.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetRemoteUserName(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

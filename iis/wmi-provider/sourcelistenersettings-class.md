@@ -1,15 +1,7 @@
 ---
-title: "SourceListenerSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "SourceListenerSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 82f8d1af-2f9d-4f39-88f4-5f965f996dae
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SourceListenerSettings Class
 Contains listeners that monitor and format trace output.  

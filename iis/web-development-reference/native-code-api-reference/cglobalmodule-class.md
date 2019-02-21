@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule Class | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fbe43040-c8ab-f991-c09c-49362d321c67
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule Class
 Defines the base class for global-level HTTP modules.  

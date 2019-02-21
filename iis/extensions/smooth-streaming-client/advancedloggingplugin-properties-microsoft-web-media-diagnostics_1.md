@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # AdvancedLoggingPlugin Properties
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [AdvancedLoggingPlugin](advancedloggingplugin-class-microsoft-web-media-diagnostics_1.md) type exposes the following members.
 
 ## Properties
@@ -28,11 +22,9 @@ The [AdvancedLoggingPlugin](advancedloggingplugin-class-microsoft-web-media-diag
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[TimerInterval](advancedloggingplugin-timerinterval-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the timer interval for periodic advanced logging posts.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [AdvancedLoggingPlugin Class](advancedloggingplugin-class-microsoft-web-media-diagnostics_1.md)
 

@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 ---
 
 # IAdaptiveSourceManager.ManifestReadyEvent Event
@@ -19,11 +19,11 @@ Adds the manifest ready event handler.
 
 ## Syntax
 
-``` csharp
+```csharp
 event ManifestReadyEventHandler ManifestReadyEvent
 ```
 
-``` c++
+```cpp
 event ManifestReadyEventHandler^ ManifestReadyEvent {
 void add (ManifestReadyEventHandler^ value);
 void remove (ManifestReadyEventHandler^ value);

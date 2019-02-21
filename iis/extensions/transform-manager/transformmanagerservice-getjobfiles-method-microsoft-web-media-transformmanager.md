@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobFiles
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobFiles Method
@@ -36,7 +35,7 @@ Returns a list of the files in the folder that is created for the specified job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Function GetJobFiles ( _
@@ -51,14 +50,14 @@ Dim returnValue As Collection(Of String)
 returnValue = instance.GetJobFiles(jobDetails)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public Collection<string> GetJobFiles(
     JobDetails jobDetails
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual Collection<String^>^ GetJobFiles(
@@ -75,30 +74,30 @@ override GetJobFiles :
         jobDetails:JobDetails -> Collection<string> 
 ```
 
-``` jscript
+```jscript
   public final function GetJobFiles(
     jobDetails : JobDetails
 ) : Collection<String>
 ```
 
-#### Parameters
+### Parameters
 
   - jobDetails  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
     A [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) object that contains the ID of the job.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[String](https://msdn.microsoft.com/library/s1wwdcbf)\> ) \> ) \>  
 A collection of file names.  
 
-#### Implements
+### Implements
 
-[IMonitoringService. . :: . .GetJobFiles(JobDetails)](imonitoringservice-getjobfiles-method-microsoft-web-media-transformmanager.md)  
+[IMonitoringService.GetJobFiles(JobDetails)](imonitoringservice-getjobfiles-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

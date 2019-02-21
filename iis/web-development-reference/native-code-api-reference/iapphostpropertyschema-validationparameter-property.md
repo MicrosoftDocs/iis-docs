@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::ValidationParameter Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::ValidationParameter Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 44cfa36d-c54d-3c23-6ca6-7509e9dfc8f4
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::ValidationParameter Property
 Provides attribute-validation parameter information for the current property.  
@@ -24,7 +16,7 @@ HRESULT get_ValidationParameter(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrValidationParameter`  
  A pointer to a `BSTR` that contains the validation parameter.  
   

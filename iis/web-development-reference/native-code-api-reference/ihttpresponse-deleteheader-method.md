@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::DeleteHeader Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::DeleteHeader Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 39de98ea-52fa-2f0c-b077-646f1995042a
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::DeleteHeader Method
 Deletes a specified HTTP header.  
@@ -26,7 +18,7 @@ virtual HRESULT DeleteHeader(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszHeaderName`  
  [IN] A pointer to a string that contains the name of the header to delete.  
   
@@ -49,12 +41,12 @@ virtual HRESULT DeleteHeader(
  The header name specified by the `pszHeaderName` parameter can be a custom header or a header defined in Request for Comments (RFC) 1945, "Hypertext Transfer Protocol -- HTTP/1.0," or RFC 2616, "Hypertext Transfer Protocol -- HTTP/1.1."  
   
 > [!NOTE]
->  The `pszHeaderName` parameter cannot be set to NULL.  
+> The `pszHeaderName` parameter cannot be set to NULL.  
   
  The `ulHeaderIndex` parameter specifies the ID of an HTTP header that is listed in the `HTTP_HEADER_ID` enumeration.  
   
 > [!NOTE]
->  The `HTTP_HEADER_ID` enumeration is defined in the Http.h header file.  
+> The `HTTP_HEADER_ID` enumeration is defined in the Http.h header file.  
   
 ## Example  
  The following code example demonstrates how to use the `DeleteHeader` method to create an HTTP module that removes the `Server` and `Location` headers from the response.  

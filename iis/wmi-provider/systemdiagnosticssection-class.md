@@ -1,15 +1,7 @@
 ---
-title: "SystemDiagnosticsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "SystemDiagnosticsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d7245c41-accd-e0ea-162b-412d8c1cdd33
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SystemDiagnosticsSection Class
 Configures system diagnostics and tracing.  

@@ -1,5 +1,5 @@
 ---
-title: IisNamespaces.Smil Property  (Microsoft.Web.Media.TransformManager)
+title: IisNamespaces.Smil Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Smil Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.Smil
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.smil(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_Smil
 - Microsoft.Web.Media.TransformManager.IisNamespaces.Smil
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Smil Property
@@ -38,7 +37,7 @@ Gets the URI of an XML based Synchronized Multimedia Integration Language (SMIL)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared ReadOnly Property Smil As XNamespace
@@ -50,11 +49,11 @@ Gets the URI of an XML based Synchronized Multimedia Integration Language (SMIL)
 value = IisNamespaces.Smil
 ```
 
-``` csharp
+```csharp
   public static XNamespace Smil { get; }
 ```
 
-``` c++
+```cpp
   public:
 static property XNamespace^ Smil {
     XNamespace^ get ();
@@ -65,18 +64,18 @@ static property XNamespace^ Smil {
   static member Smil : XNamespace
 ```
 
-``` jscript
+```jscript
   static function get Smil () : XNamespace
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XNamespace](https://msdn.microsoft.com/en-us/library/bb291898\(v=vs.90\))  
+Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
 The XML namespace value "http://www.w3.org/2001/SMIL20".  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IisNamespaces Class](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 

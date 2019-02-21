@@ -1,5 +1,5 @@
 ---
-title: ITaskStatus.Status Property  (Microsoft.Web.Media.TransformManager)
+title: ITaskStatus.Status Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Status Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ITaskStatus.Status
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.itaskstatus.status(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ITaskStatus.Status
 - Microsoft.Web.Media.TransformManager.ITaskStatus.get_Status
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Status Property
@@ -38,7 +37,7 @@ Gets the status of the task.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   ReadOnly Property Status As JobStatus
@@ -51,11 +50,11 @@ Dim value As JobStatus
 value = instance.Status
 ```
 
-``` csharp
+```csharp
   JobStatus Status { get; }
 ```
 
-``` c++
+```cpp
   property JobStatus Status {
     JobStatus get ();
 }
@@ -65,18 +64,18 @@ value = instance.Status
   abstract Status : JobStatus
 ```
 
-``` jscript
+```jscript
   function get Status () : JobStatus
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
 The task status.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ITaskStatus Interface](itaskstatus-interface-microsoft-web-media-transformmanager.md)
 

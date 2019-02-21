@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.Add
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CircularList\<T\>.Add Method
@@ -36,7 +35,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub Add ( _
@@ -50,13 +49,13 @@ Dim item As T
 instance.Add(item)
 ```
 
-``` csharp
+```csharp
 public void Add(
     T item
 )
 ```
 
-``` c++
+```cpp
 public:
 void Add(
     T item
@@ -68,13 +67,13 @@ member Add :
         item:'T -> unit 
 ```
 
-``` jscript
+```jscript
 public function Add(
     item : T
 )
 ```
 
-#### Parameters
+### Parameters
 
   - item  
     Type: [T](circularlist-t-class-microsoft-web-media-diagnostics_1.md)  
@@ -82,13 +81,13 @@ public function Add(
 
 ## Version Information
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CircularList\<T\> Class](circularlist-t-class-microsoft-web-media-diagnostics_1.md)
 

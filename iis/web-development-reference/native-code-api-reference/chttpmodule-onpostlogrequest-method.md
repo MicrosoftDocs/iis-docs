@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnPostLogRequest Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnPostLogRequest Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 23177b63-7375-2cdd-4e6b-4d676c9eed7c
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnPostLogRequest Method
 Represents the method that will handle a `LogRequest` post-event, which occurs after IIS has logged the current request.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostLogRequest(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

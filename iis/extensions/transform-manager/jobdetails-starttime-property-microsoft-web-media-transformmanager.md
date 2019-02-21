@@ -1,5 +1,5 @@
 ---
-title: JobDetails.StartTime Property  (Microsoft.Web.Media.TransformManager)
+title: JobDetails.StartTime Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: StartTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.StartTime
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.starttime(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.set_StartTime
 - Microsoft.Web.Media.TransformManager.JobDetails.StartTime
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StartTime Property
@@ -40,7 +39,7 @@ Gets or sets the date and time when the job was started by the scheduler.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property StartTime As DateTime
@@ -56,12 +55,12 @@ value = instance.StartTime
 instance.StartTime = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public DateTime StartTime { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property DateTime StartTime {
@@ -75,19 +74,19 @@ property DateTime StartTime {
 member StartTime : DateTime with get, set
 ```
 
-``` jscript
+```jscript
   function get StartTime () : DateTime
 function set StartTime (value : DateTime)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.90\))  
+Type: [System.DateTime](https://msdn.microsoft.com/library/03ybds8y)  
 The date and time when the job was started by the scheduler.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

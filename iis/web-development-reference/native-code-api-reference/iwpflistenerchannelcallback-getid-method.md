@@ -1,15 +1,7 @@
 ---
-title: "IWpfListenerChannelCallback::GetId Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfListenerChannelCallback::GetId Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 031a01fe-3958-c081-d984-dcd22411eeb0
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfListenerChannelCallback::GetId Method
 Retrieves the ID of a listener channel that needs to be started.  
@@ -22,7 +14,7 @@ virtual HRESULT GetId(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pdwListenerChannelId`  
  A pointer to a `DWORD` buffer that receives the ID of a listener channel.  
   

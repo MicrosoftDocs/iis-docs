@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the child (sparse) streams of this stream.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IVectorView<IManifestStream> ChildStreams { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property IVectorView<IManifestStream^>^ ChildStreams {
 IVectorView<IManifestStream^>^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get ChildStreams () : IVectorView<IManifestStream>
 ```
 

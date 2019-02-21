@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::IsRequired Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::IsRequired Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4e91e3d6-b4fc-ea94-2a92-95edd88fe75e
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::IsRequired Property
 Determines whether a value must be defined for a property.  
@@ -23,7 +15,7 @@ HRESULT get_IsRequired(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfIsRequired`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if a value must be defined for a property; otherwise, `VARIANT_FALSE`. The default is `VARIANT_FALSE`.  
   

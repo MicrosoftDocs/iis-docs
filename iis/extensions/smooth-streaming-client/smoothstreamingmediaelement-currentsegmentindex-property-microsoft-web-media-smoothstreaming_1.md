@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.CurrentSegmentIndex Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.CurrentSegmentIndex Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CurrentSegmentIndex Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentSegmentIndex
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.currentsegmentindex(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentSegmentIndex
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_CurrentSegmentIndex
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.CurrentSegmentIndex Property
@@ -38,7 +37,7 @@ Gets the index of the currently playing segment.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property CurrentSegmentIndex As Nullable(Of Integer)
@@ -51,11 +50,11 @@ Dim value As Nullable(Of Integer)
 value = instance.CurrentSegmentIndex
 ```
 
-``` csharp
+```csharp
 public Nullable<int> CurrentSegmentIndex { get; }
 ```
 
-``` c++
+```cpp
 public:
 property Nullable<int> CurrentSegmentIndex {
     Nullable<int> get ();
@@ -66,28 +65,28 @@ property Nullable<int> CurrentSegmentIndex {
 member CurrentSegmentIndex : Nullable<int>
 ```
 
-``` jscript
+```jscript
 function get CurrentSegmentIndex () : Nullable<int>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0\(v=vs.95\))\<[Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.95\))\>  
+Type: [System.Nullable](https://msdn.microsoft.com/library/b3h38hb0\(v=vs.95\))\<[Int32](https://msdn.microsoft.com/library/td2s409d\(v=vs.95\))\>  
 The index of the playing segment.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

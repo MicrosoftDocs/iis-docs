@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnPostEndRequest Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnPostEndRequest Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b6db2391-2411-413d-5f92-04a4ca8dbd6c
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnPostEndRequest Method
 Represents the method that will handle an `EndRequest` post-event, which occurs after the last event in the HTTP integrated request-processing pipeline for the current request.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostEndRequest(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

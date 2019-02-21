@@ -1,15 +1,7 @@
 ---
-title: "IHttpApplication2 Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpApplication2 Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0247aaa4-3854-405c-b8a8-40cb39c75866
-caps.latest.revision: 6
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpApplication2 Interface
 Provides an interface for loading a Web application into server memory and initializing it before the first HTTP request arrives.  

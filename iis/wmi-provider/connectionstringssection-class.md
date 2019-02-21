@@ -1,15 +1,7 @@
 ---
-title: "ConnectionStringsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "ConnectionStringsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b7f6b1a5-d277-08fa-f697-3a250e9e07a7
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConnectionStringsSection Class
 Specifies a collection of database connection strings for [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] applications.  

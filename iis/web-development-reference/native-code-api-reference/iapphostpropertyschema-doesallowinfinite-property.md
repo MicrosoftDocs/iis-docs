@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::DoesAllowInfinite Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::DoesAllowInfinite Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 01548b7f-4c03-4407-aac8-30916da9ae01
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::DoesAllowInfinite Property
 Gets a value that indicates whether the property supports having an infinite value set.  
@@ -23,7 +15,7 @@ Gets a value that indicates whether the property supports having an infinite val
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfAllowInfinite`  
  A pointer to a Boolean value. `TRUE` if the property supports infinite values, otherwise `FALSE`.  
   

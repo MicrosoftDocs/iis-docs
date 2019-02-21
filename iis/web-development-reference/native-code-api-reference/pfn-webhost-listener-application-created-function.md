@@ -1,15 +1,7 @@
 ---
-title: "PFN_WEBHOST_LISTENER_APPLICATION_CREATED Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_WEBHOST_LISTENER_APPLICATION_CREATED Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: feca9299-f97b-e8e8-e296-9a98b2ab6eed
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_CREATED Function
 Notifies the listener adapter that an application configured for the listener associated with this listener adapter has been created. The listener adapter can choose whether to configure this application with the listener.  
@@ -29,7 +21,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_CREATED)(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
   

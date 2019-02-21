@@ -1,15 +1,7 @@
 ---
-title: "SiteElementDefaults Class1 | Microsoft Docs"
-ms.custom: ""
+title: "SiteElementDefaults Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 62e333b7-58e0-15b1-af94-de7f6bb92567
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SiteElementDefaults Class1
 Contains the default values for IIS Web site properties.  

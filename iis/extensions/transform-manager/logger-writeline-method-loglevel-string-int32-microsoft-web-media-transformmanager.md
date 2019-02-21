@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # WriteLine Method (LogLevel, String, Int32)
@@ -32,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub WriteLine ( _
@@ -50,7 +49,7 @@ Dim eventId As Integer
 instance.WriteLine(level, value, eventId)
 ```
 
-``` csharp
+```csharp
   public void WriteLine(
     LogLevel level,
     string value,
@@ -58,7 +57,7 @@ instance.WriteLine(level, value, eventId)
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual void WriteLine(
     LogLevel level, 
@@ -78,7 +77,7 @@ override WriteLine :
         eventId:int -> unit 
 ```
 
-``` jscript
+```jscript
   public final function WriteLine(
     level : LogLevel, 
     value : String, 
@@ -86,28 +85,28 @@ override WriteLine :
 )
 ```
 
-#### Parameters
+### Parameters
 
   - level  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
 
 <!-- end list -->
 
   - value  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 
 <!-- end list -->
 
   - eventId  
-    Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 
-#### Implements
+### Implements
 
-[ILogger. . :: . .WriteLine(LogLevel, String, Int32)](ilogger-writeline-method-loglevel-string-int32-microsoft-web-media-transformmanager.md)  
+[ILogger.WriteLine(LogLevel, String, Int32)](ilogger-writeline-method-loglevel-string-int32-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Logger Class](logger-class-microsoft-web-media-transformmanager.md)
 

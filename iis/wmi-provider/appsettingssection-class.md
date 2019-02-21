@@ -1,15 +1,7 @@
 ---
-title: "AppSettingsSection Class1 | Microsoft Docs"
-ms.custom: ""
+title: "AppSettingsSection Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 351d0415-644c-cdae-4bc9-add1c923f483
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AppSettingsSection Class1
 Contains custom application settings, such as file paths, XML Web service URLs, or information that is stored in the .ini file for an application.  

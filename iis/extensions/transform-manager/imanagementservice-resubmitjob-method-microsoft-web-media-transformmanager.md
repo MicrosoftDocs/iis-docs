@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService.ResubmitJob
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ResubmitJob Method
@@ -36,7 +35,7 @@ Moves a transform job to the configuring queue, where it will be resubmitted.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Sub ResubmitJob ( _
@@ -50,14 +49,14 @@ Dim jobDetails As JobDetails
 instance.ResubmitJob(jobDetails)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 void ResubmitJob(
     JobDetails jobDetails
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 void ResubmitJob(
     JobDetails^ jobDetails
@@ -70,28 +69,28 @@ abstract ResubmitJob :
         jobDetails:JobDetails -> unit 
 ```
 
-``` jscript
+```jscript
   function ResubmitJob(
     jobDetails : JobDetails
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobDetails  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
     A [JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md) object for the job to resubmit.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[ArgumentNullException](https://msdn.microsoft.com/en-us/library/27426hcy(v=vs.90))|jobDetails is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
-|[ArgumentNullException](https://msdn.microsoft.com/en-us/library/27426hcy(v=vs.90))|The JobDefinitionId property of the jobDetails parameter is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
+|[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|jobDetails is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
+|[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|The JobDefinitionId property of the jobDetails parameter is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

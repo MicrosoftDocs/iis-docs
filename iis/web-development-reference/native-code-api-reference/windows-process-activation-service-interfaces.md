@@ -1,15 +1,7 @@
 ---
-title: "Windows Process Activation Service Interfaces | Microsoft Docs"
-ms.custom: ""
+title: "Windows Process Activation Service Interfaces"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2b3c04a0-2315-4896-b6ab-cb5e031e941d
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Windows Process Activation Service Interfaces
 This section describes the interfaces that enable process activation and monitoring of applications, listener channels, and listener adaptors.  

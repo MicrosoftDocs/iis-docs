@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.ITaskStatus
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ITaskStatus Interface
@@ -36,7 +35,7 @@ Defines an interface that is used to implement a status callback mechanism for t
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Interface ITaskStatus
@@ -45,11 +44,11 @@ Defines an interface that is used to implement a status callback mechanism for t
   Dim instance As ITaskStatus
 ```
 
-``` csharp
+```csharp
   public interface ITaskStatus
 ```
 
-``` c++
+```cpp
   public interface class ITaskStatus
 ```
 
@@ -57,7 +56,7 @@ Defines an interface that is used to implement a status callback mechanism for t
   type ITaskStatus =  interface end
 ```
 
-``` jscript
+```jscript
   public interface ITaskStatus
 ```
 
@@ -71,15 +70,11 @@ The ITaskStatus type exposes the following members.
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[PercentComplete](itaskstatus-percentcomplete-property-microsoft-web-media-transformmanager.md)|Gets the percentage of task completion.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Status](itaskstatus-status-property-microsoft-web-media-transformmanager.md)|Gets the status of the task.|
 
-Top
-
 ## Methods
 
 ||Name|Description|
 |--- |--- |--- |
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[UpdateStatus](itaskstatus-updatestatus-method-microsoft-web-media-transformmanager.md)|Updates the status of an ongoing task.|
-
-Top
 
 ## Remarks
 
@@ -87,7 +82,7 @@ Task status is reported through the [Scheduler](scheduler-class-microsoft-web-me
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

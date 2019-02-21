@@ -1,15 +1,7 @@
 ---
-title: "TraceAreaSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "TraceAreaSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d049dd7a-57e3-4231-ad0f-6a0397bf4875
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TraceAreaSettings Class
 Contains trace areas that configure trace events and trace log file entries.  

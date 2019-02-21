@@ -62,7 +62,7 @@ If you are familiar with UNIX or Linux permissions, the privileges discussed are
 | 2 | Write | 6 | Read,Write |
 | 3 | Write, Execute | 7 | Modify |
 
-See the full list of the [various user rights and their descriptions](https://msdn.microsoft.com/en-us/library/system.security.accesscontrol.filesystemrights.aspx). In addition, there is some [Internet Information Services (IIS)–specific ACL guidance](secure-content-in-iis-through-file-system-acls.md).
+See the full list of the [various user rights and their descriptions](https://msdn.microsoft.com/library/system.security.accesscontrol.filesystemrights.aspx). In addition, there is some [Internet Information Services (IIS)–specific ACL guidance](secure-content-in-iis-through-file-system-acls.md).
 
 The token anonymousAuthenticationUser is automatically compared to the ID that the Web site has configured and that will be used for anonymous authentication. As this ID is configured by the Web Site administrator, it is best to use anonymousAuthenticationUser for PHP applications and not to use setAclUser for Microsoft® ASP.NET applications (unless your application has a specific need for a user to handle file ownership).
 

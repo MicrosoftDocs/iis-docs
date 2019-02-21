@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.AudioStreamCount Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.AudioStreamCount Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AudioStreamCount Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AudioStreamCount
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.audiostreamcount(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_AudioStreamCount
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_AudioStreamCount
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.AudioStreamCount Property
@@ -40,7 +39,7 @@ Gets or sets the audio stream count. (This property is available only for Window
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property AudioStreamCount As Integer
@@ -56,11 +55,11 @@ value = instance.AudioStreamCount
 instance.AudioStreamCount = value
 ```
 
-``` csharp
+```csharp
 public int AudioStreamCount { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property int AudioStreamCount {
     int get ();
@@ -72,29 +71,29 @@ property int AudioStreamCount {
 member AudioStreamCount : int with get, set
 ```
 
-``` jscript
+```jscript
 function get AudioStreamCount () : int
 function set AudioStreamCount (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.95\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d\(v=vs.95\))  
 The audio stream count.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

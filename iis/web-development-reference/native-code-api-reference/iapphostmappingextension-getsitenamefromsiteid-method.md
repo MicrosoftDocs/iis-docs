@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMappingExtension::GetSiteNameFromSiteId Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMappingExtension::GetSiteNameFromSiteId Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4d881261-f89d-894c-4bc7-51623a7228ab
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMappingExtension::GetSiteNameFromSiteId Method
 Gets the name of a site by using the unique identifier for the site.  
@@ -25,7 +17,7 @@ HRESULT GetSiteNameFromSiteId(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwSiteId`  
  A `DWORD` that contains the site ID.  
   

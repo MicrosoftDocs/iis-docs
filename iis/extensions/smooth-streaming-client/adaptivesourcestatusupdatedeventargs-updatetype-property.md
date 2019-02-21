@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,13 +20,13 @@ Gets the update type.
 
 ## Syntax
 
-``` csharp
+```csharp
 ```
 
-``` c++
+```cpp
 ```
 
-``` jscript
+```jscript
 ```
 
 ## Property Value

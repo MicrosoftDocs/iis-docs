@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigManager::GetUniqueConfigPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigManager::GetUniqueConfigPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f4f189e2-0977-dae4-7e84-8a9b79cefab9
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigManager::GetUniqueConfigPath Method
 Gets a unique configuration path that represents the deepest path where configuration is defined.  
@@ -26,7 +18,7 @@ HRESULT GetUniqueConfigPath(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrConfigPath`  
  A `BSTR` that contains a requested configuration path.  
   

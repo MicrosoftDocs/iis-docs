@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementCollection::Clear Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementCollection::Clear Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2b5715fc-8b3b-fa21-7054-987c5b0a3968
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementCollection::Clear Method
 Removes all elements from the current collection.  
@@ -21,7 +13,7 @@ HRESULT Clear(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

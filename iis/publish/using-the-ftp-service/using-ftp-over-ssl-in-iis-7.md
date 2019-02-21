@@ -66,7 +66,7 @@ In this optional task you will create a self-signed SSL certificate that you wil
 > [!NOTE]
 > If you are setting up an FTP site for Internet-based activity, you would obtain an SSL certificate from one of the many Certification Authorities, such as VeriSign, Thawte, DigiCert, etc. For more information about Certification Authorities, see the following page on the Microsoft Developer Network Web site:
 
-[https://msdn.microsoft.com/en-us/library/bb540797(VS.85).aspx](https://msdn.microsoft.com/en-us/library/bb540797(VS.85).aspx)
+[https://msdn.microsoft.com/library/bb540797(VS.85).aspx](https://msdn.microsoft.com/library/bb540797(VS.85).aspx)
 
 1. Open the Internet Information Services (IIS 7.0) Manager.
 2. Click your computer at the top node of the **Connections** tree, then double-click the **Server Certificates** feature.  

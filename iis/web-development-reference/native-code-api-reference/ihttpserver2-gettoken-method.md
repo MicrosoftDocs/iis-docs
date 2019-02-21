@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer2::GetToken Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer2::GetToken Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 797d704e-9540-4b04-bd6a-6d01d48819a4
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer2::GetToken Method
 Retrieves an authentication token given a user name, password, and login method.  
@@ -27,7 +19,7 @@ virtual HRESULT GetToken(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszUserName`  
  [IN] Points to the user name.  
   

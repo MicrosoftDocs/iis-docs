@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalCacheOperation Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalCacheOperation Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a8c6dc27-5c45-4235-c8ce-214edf536328
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalCacheOperation Method
 Represents the method that will handle a `GlobalCacheOperation` event, which occurs when IIS performs a cache-related operation.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalCacheOperation(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProvider`  
  [IN] A pointer to an [ICacheProvider](../../web-development-reference\native-code-api-reference/icacheprovider-interface.md) interface.  
   

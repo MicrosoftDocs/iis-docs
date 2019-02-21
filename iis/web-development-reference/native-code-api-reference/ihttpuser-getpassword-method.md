@@ -1,15 +1,7 @@
 ---
-title: "IHttpUser::GetPassword Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUser::GetPassword Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a15696da-10ee-bb44-6c4e-fea7f82bb222
-caps.latest.revision: 38
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUser::GetPassword Method
 Returns the user password.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetPassword(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

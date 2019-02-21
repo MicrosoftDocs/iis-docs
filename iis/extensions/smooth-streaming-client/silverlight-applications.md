@@ -222,11 +222,11 @@ Media files for use in this example can be created from .wmv files found at the 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)
 
-#### Other Resources
+### Other Resources
 
 [Smooth Streaming Deployment Guide](http://go.microsoft.com/fwlink/?linkid=181836)
 

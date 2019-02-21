@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskStatus.UpdateStatus
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateStatus Method
@@ -36,7 +35,7 @@ Updates the status to an ongoing task by using the specified percentage complete
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub UpdateStatus ( _
@@ -55,7 +54,7 @@ instance.UpdateStatus(percentComplete, _
     status, message)
 ```
 
-``` csharp
+```csharp
   public void UpdateStatus(
     int percentComplete,
     JobStatus status,
@@ -63,7 +62,7 @@ instance.UpdateStatus(percentComplete, _
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual void UpdateStatus(
     int percentComplete, 
@@ -83,7 +82,7 @@ override UpdateStatus :
         message:string -> unit 
 ```
 
-``` jscript
+```jscript
   public final function UpdateStatus(
     percentComplete : int, 
     status : JobStatus, 
@@ -91,31 +90,31 @@ override UpdateStatus :
 )
 ```
 
-#### Parameters
+### Parameters
 
   - percentComplete  
-    Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
     The percentage completed of the task.  
 
 <!-- end list -->
 
   - status  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
     The task status.  
 
 <!-- end list -->
 
   - message  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     A message to include in the status update.  
 
-#### Implements
+### Implements
 
-[ITaskStatus. . :: . .UpdateStatus(Int32, JobStatus, String)](itaskstatus-updatestatus-method-microsoft-web-media-transformmanager.md)  
+[ITaskStatus.UpdateStatus(Int32, JobStatus, String)](itaskstatus-updatestatus-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskStatus Class](taskstatus-class-microsoft-web-media-transformmanager.md)
 

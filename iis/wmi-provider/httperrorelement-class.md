@@ -1,15 +1,7 @@
 ---
-title: "HttpErrorElement Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpErrorElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1a551d62-b9c9-0f51-921b-60bd965ffa19
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpErrorElement Class
 Configures the response to a specific HTTP error.  

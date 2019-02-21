@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetFileInfo Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetFileInfo Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a3f4a0d8-8524-95a1-d8f0-22852f72736d
-caps.latest.revision: 27
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetFileInfo Method
 Retrieves the file information container for the current context.  
@@ -22,7 +14,7 @@ virtual IHttpFileInfo* GetFileInfo(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

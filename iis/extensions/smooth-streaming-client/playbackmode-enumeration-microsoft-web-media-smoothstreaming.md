@@ -12,10 +12,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.PlaybackMode.AudioVideo
 - Microsoft.Web.Media.SmoothStreaming.PlaybackMode.VideoOnly
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -29,7 +29,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # PlaybackMode Enumeration
@@ -41,7 +40,7 @@ Enumeration that specifies the Smooth Streaming playback mode to be used during 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Enumeration PlaybackMode
@@ -50,15 +49,15 @@ Enumeration that specifies the Smooth Streaming playback mode to be used during 
   Dim instance As PlaybackMode
 ```
 
-``` csharp
+```csharp
   public enum PlaybackMode
 ```
 
-``` c++
+```cpp
   public enum class PlaybackMode
 ```
 
-``` jscript
+```jscript
   public enum PlaybackMode
 ```
 
@@ -72,17 +71,17 @@ The [SmoothStreamingPlaybackMode](smoothstreamingmediaelement-smoothstreamingpla
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

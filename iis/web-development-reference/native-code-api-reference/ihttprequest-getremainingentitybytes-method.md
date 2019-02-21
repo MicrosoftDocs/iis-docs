@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::GetRemainingEntityBytes Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::GetRemainingEntityBytes Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 290bdb6a-d69c-775f-b436-6c703a826d2b
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::GetRemainingEntityBytes Method
 Returns the number of remaining bytes to be read from the client.  
@@ -22,7 +14,7 @@ virtual DWORD GetRemainingEntityBytes(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

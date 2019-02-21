@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext2::GetOriginalUser Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext2::GetOriginalUser Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9367926f-6a54-4f85-9900-00c7d44bc6e4
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext2::GetOriginalUser Method
 Retrieves the user information associated with the original request during asynchronous operation.  
@@ -22,7 +14,7 @@ virtual IHttpUser * GetOriginalUser(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

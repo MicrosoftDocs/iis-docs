@@ -36,11 +36,9 @@ The [JobManager](jobmanager-class-microsoft-web-media-transformmanager.md) type 
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TemplateId](jobmanager-templateid-property-microsoft-web-media-transformmanager.md)|Gets the ID of the job template that the [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) object uses.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[WatchFolder](jobmanager-watchfolder-property-microsoft-web-media-transformmanager.md)|Gets a file system folder that will be watched for files that instantiate jobs.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

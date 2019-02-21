@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::SetHeader Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::SetHeader Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fda1440f-9c59-34cf-9f25-d3c632aca2b5
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::SetHeader Method
 Sets or appends the value of a specified HTTP response header.  
@@ -32,7 +24,7 @@ virtual HRESULT SetHeader(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszHeaderName`  
  [IN] A pointer to a string that contains the name of the HTTP header to set.  
   
@@ -67,17 +59,17 @@ virtual HRESULT SetHeader(
  The header name specified by the `pszHeaderName` parameter can be a custom header or a header defined in Request for Comments (RFC) 1945, "Hypertext Transfer Protocol -- HTTP/1.0," or RFC 2616, "Hypertext Transfer Protocol -- HTTP/1.1."  
   
 > [!NOTE]
->  The `pszHeaderName` parameter cannot be NULL.  
+> The `pszHeaderName` parameter cannot be NULL.  
   
  The `ulHeaderIndex` parameter specifies the ID of an HTTP header that is listed in the `HTTP_HEADER_ID` enumeration.  
   
 > [!NOTE]
->  The `HTTP_HEADER_ID` enumeration is defined in the Http.h header file.  
+> The `HTTP_HEADER_ID` enumeration is defined in the Http.h header file.  
   
  If the `fReplace` parameter is `true`, the specified header value will replace the existing header value if the header exists. If `fReplace` is `false`, the specified header value should be appended to the existing header and separated from the header itself by a comma.  
   
 > [!NOTE]
->  Other modules or handlers may call the `SetHeader` method to replace your value or append values to the value that you have specified.  
+> Other modules or handlers may call the `SetHeader` method to replace your value or append values to the value that you have specified.  
   
 ## Example  
  The following code example demonstrates how to use both overloads of the `SetHeader` method to replace the HTTP `Content-Type` and `Server` headers with custom values and set the HTTP `Refresh` header to a specific number of seconds.  

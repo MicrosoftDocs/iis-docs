@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerNodeGroupsAttributeName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerNodeGroupsAttributeName Field
@@ -36,7 +35,7 @@ Represents a constant that is used when the scheduler nodeGroups attribute is as
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const SchedulerNodeGroupsAttributeName As String
@@ -47,11 +46,11 @@ Represents a constant that is used when the scheduler nodeGroups attribute is as
 value = JobDefinition.SchedulerNodeGroupsAttributeName
 ```
 
-``` csharp
+```csharp
   public const string SchedulerNodeGroupsAttributeName
 ```
 
-``` c++
+```cpp
   public:
 literal String^ SchedulerNodeGroupsAttributeName
 ```
@@ -60,13 +59,13 @@ literal String^ SchedulerNodeGroupsAttributeName
   static val mutable SchedulerNodeGroupsAttributeName: string
 ```
 
-``` jscript
+```jscript
   public const var SchedulerNodeGroupsAttributeName : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

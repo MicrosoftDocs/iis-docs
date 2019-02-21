@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::AssociateWithThreadPool Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::AssociateWithThreadPool Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b215486a-b494-4873-044a-9d105ce7744e
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::AssociateWithThreadPool Method
 Associates an asynchronous completion operation with the thread pool.  
@@ -23,7 +15,7 @@ virtual HRESULT AssociateWithThreadPool(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `hHandle`  
  [IN] A `HANDLE` for the asynchronous operation.  
   

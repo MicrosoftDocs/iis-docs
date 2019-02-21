@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.OnApplyTemplate
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # OnApplyTemplate Method
@@ -35,7 +34,7 @@ Disconnects and connects event handlers and key properties during a template cha
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Overrides Sub OnApplyTemplate
@@ -46,36 +45,36 @@ Disconnects and connects event handlers and key properties during a template cha
 instance.OnApplyTemplate()
 ```
 
-``` csharp
+```csharp
   public override void OnApplyTemplate()
 ```
 
-``` c++
+```cpp
   public:
 virtual void OnApplyTemplate() override
 ```
 
-``` jscript
+```jscript
   public override function OnApplyTemplate()
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

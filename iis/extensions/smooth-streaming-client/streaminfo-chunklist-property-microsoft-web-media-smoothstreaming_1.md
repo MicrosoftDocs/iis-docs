@@ -1,5 +1,5 @@
 ---
-title: StreamInfo.ChunkList Property  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamInfo.ChunkList Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkList Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.ChunkList
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.chunklist(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.ChunkList
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.get_ChunkList
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.ChunkList Property
@@ -38,7 +37,7 @@ Gets the list of chunks for this stream.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property ChunkList As IList(Of ChunkInfo)
@@ -51,11 +50,11 @@ Dim value As IList(Of ChunkInfo)
 value = instance.ChunkList
 ```
 
-``` csharp
+```csharp
 public IList<ChunkInfo> ChunkList { get; }
 ```
 
-``` c++
+```cpp
 public:
 property IList<ChunkInfo^>^ ChunkList {
     IList<ChunkInfo^>^ get ();
@@ -66,13 +65,13 @@ property IList<ChunkInfo^>^ ChunkList {
 member ChunkList : IList<ChunkInfo>
 ```
 
-``` jscript
+```jscript
 function get ChunkList () : IList<ChunkInfo>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.95\))\<[ChunkInfo](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6\(v=vs.95\))\<[ChunkInfo](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
 An IList of [ChunkInfo](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md) objects.
 
 ## Examples
@@ -93,17 +92,17 @@ The following example uses the ChunkList property to get data chunks and call th
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

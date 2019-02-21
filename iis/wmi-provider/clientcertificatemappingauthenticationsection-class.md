@@ -1,15 +1,7 @@
 ---
-title: "ClientCertificateMappingAuthenticationSection Class | Microsoft Docs"
-ms.custom: ""
+title: "ClientCertificateMappingAuthenticationSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7e66399a-d6fa-5d2e-68a1-d33e4e876c6a
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ClientCertificateMappingAuthenticationSection Class
 Enables or disables client certificate mapping authentication.  

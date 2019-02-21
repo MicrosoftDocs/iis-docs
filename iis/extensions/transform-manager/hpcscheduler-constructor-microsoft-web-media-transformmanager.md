@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.HpcScheduler.HpcScheduler
 - Microsoft.Web.Media.TransformManager.HpcScheduler.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # HpcScheduler Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [HpcScheduler](hpcscheduler-class-microsoft-we
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New
@@ -46,11 +45,11 @@ Initializes a new instance of the [HpcScheduler](hpcscheduler-class-microsoft-we
 Dim instance As New HpcScheduler()
 ```
 
-``` csharp
+```csharp
   public HpcScheduler()
 ```
 
-``` c++
+```cpp
   public:
 HpcScheduler()
 ```
@@ -59,13 +58,13 @@ HpcScheduler()
   new : unit -> HpcScheduler
 ```
 
-``` jscript
+```jscript
   public function HpcScheduler()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [HpcScheduler Class](hpcscheduler-class-microsoft-web-media-transformmanager.md)
 

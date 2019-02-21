@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.EndPersist
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,19 +23,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # EndPersist Method
 
-A [AsyncCallback](https://msdn.microsoft.com/en-us/library/ckbe7yh5\(v=vs.90\)) delegate method to complete the operation started by the [BeginPersist](ismoothstreamingcache-beginpersist-method-microsoft-web-media-smoothstreaming_1.md) method.
+A [AsyncCallback](https://msdn.microsoft.com/library/ckbe7yh5) delegate method to complete the operation started by the [BeginPersist](ismoothstreamingcache-beginpersist-method-microsoft-web-media-smoothstreaming_1.md) method.
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Function EndPersist ( _
@@ -50,33 +49,33 @@ Dim returnValue As Boolean
 returnValue = instance.EndPersist(ar)
 ```
 
-``` csharp
+```csharp
   bool EndPersist(
     IAsyncResult ar
 )
 ```
 
-``` c++
+```cpp
   bool EndPersist(
     IAsyncResult^ ar
 )
 ```
 
-``` jscript
+```jscript
   function EndPersist(
     ar : IAsyncResult
 ) : boolean
 ```
 
-#### Parameters
+### Parameters
 
   - ar  
-    Type: [System. . :: . .IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.90\))  
-    An [IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.90\)) object.  
+    Type: [System.IAsyncResult](https://msdn.microsoft.com/library/ft8a6455)  
+    An [IAsyncResult](https://msdn.microsoft.com/library/ft8a6455) object.  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 Returns true if successful, otherwise false.  
 
 ## Remarks
@@ -125,21 +124,21 @@ The following code shows an implementation of the EndPersist(IAsyncResult) metho
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ISmoothStreamingCache Interface](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)
 

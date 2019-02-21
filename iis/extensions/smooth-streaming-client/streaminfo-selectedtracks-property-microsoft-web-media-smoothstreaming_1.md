@@ -1,5 +1,5 @@
 ---
-title: StreamInfo.SelectedTracks Property  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamInfo.SelectedTracks Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SelectedTracks Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.SelectedTracks
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.selectedtracks(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.SelectedTracks
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.get_SelectedTracks
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.SelectedTracks Property
@@ -38,7 +37,7 @@ Gets or sets the SelectedTracks property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property SelectedTracks As IList(Of TrackInfo)
@@ -51,11 +50,11 @@ Dim value As IList(Of TrackInfo)
 value = instance.SelectedTracks
 ```
 
-``` csharp
+```csharp
 public IList<TrackInfo> SelectedTracks { get; }
 ```
 
-``` c++
+```cpp
 public:
 property IList<TrackInfo^>^ SelectedTracks {
     IList<TrackInfo^>^ get ();
@@ -66,13 +65,13 @@ property IList<TrackInfo^>^ SelectedTracks {
 member SelectedTracks : IList<TrackInfo>
 ```
 
-``` jscript
+```jscript
 function get SelectedTracks () : IList<TrackInfo>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.95\))\<[TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6\(v=vs.95\))\<[TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
 A generic list of [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) objects.
 
 ## Remarks
@@ -111,17 +110,17 @@ The following example shows how to select tracks from [SegmentInfo](segmentinfo-
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

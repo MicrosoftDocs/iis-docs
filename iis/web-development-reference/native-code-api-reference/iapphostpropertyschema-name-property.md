@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::Name Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::Name Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e88c9316-730d-de03-4315-d6408054f0e8
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::Name Property
 Gets the name of the current schema.  
@@ -24,7 +16,7 @@ HRESULT get_Name(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrName`  
  A pointer to a `BSTR` that contains the name of the current [IAppHostPropertySchema](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) interface.  
   

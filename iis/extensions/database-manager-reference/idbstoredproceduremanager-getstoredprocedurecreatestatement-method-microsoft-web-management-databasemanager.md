@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedureCreateStatement
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbStoredProcedureManager.GetStoredProcedureCreateStatement Method
@@ -35,7 +34,7 @@ Returns the CREATE PROCEDURE template for creating a new stored procedure.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Function GetStoredProcedureCreateStatement ( _
     connectionString As String _
@@ -48,31 +47,31 @@ Dim returnValue As Query
 returnValue = instance.GetStoredProcedureCreateStatement(connectionString)
 ```
 
-``` csharp
+```csharp
 Query GetStoredProcedureCreateStatement(
     string connectionString
 )
 ```
 
-``` c++
+```cpp
 Query^ GetStoredProcedureCreateStatement(
     String^ connectionString
 )
 ```
 
-``` jscript
+```jscript
 function GetStoredProcedureCreateStatement(
     connectionString : String
 ) : Query
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
-#### Return Value
+### Return Value
 
 Type: [Microsoft.Web.Management.DatabaseManager.Query](query-class-microsoft-web-management-databasemanager.md)  
 A [Query](query-class-microsoft-web-management-databasemanager.md) object that contains the CREATE PROCEDURE template for a new stored procedure.  
@@ -83,7 +82,7 @@ All database providers that implement the [IDbStoredProcedureManager](idbstoredp
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider does not support creating stored procedures, you can use the following code sample to raise a not-implemented exception:
 
@@ -104,7 +103,7 @@ public Query GetStoredProcedureCreateStatement(string connectionString)
 
 The following code sample shows how to use the GetStoredProcedureCreateStatement method to return a stored procedure CREATE PROCEDURE SQL statement for your database provider.
 
-``` vb
+```vb
 
     Public Function GetStoredProcedureCreateStatement(ByVal connectionString As String) As Microsoft.Web.Management.DatabaseManager.Query Implements Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedureCreateStatement
         Dim query As New Query()
@@ -122,7 +121,7 @@ The following code sample shows how to use the GetStoredProcedureCreateStatement
 
 ```
 
-``` csharp
+```csharp
 
         public Query GetStoredProcedureCreateStatement(string connectionString)
         {
@@ -144,11 +143,11 @@ GO";
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbStoredProcedureManager Interface](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md)
 

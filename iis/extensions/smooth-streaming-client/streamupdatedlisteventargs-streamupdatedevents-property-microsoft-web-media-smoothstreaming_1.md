@@ -1,5 +1,5 @@
 ---
-title: StreamUpdatedListEventArgs.StreamUpdatedEvents Property  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamUpdatedListEventArgs.StreamUpdatedEvents Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamUpdatedEvents Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs.StreamUpdatedEvents
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streamupdatedlisteventargs.streamupdatedevents(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs.get_StreamUpdatedEvents
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs.StreamUpdatedEvents
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamUpdatedListEventArgs.StreamUpdatedEvents Property
@@ -38,7 +37,7 @@ Gets the list of stream updated events.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property StreamUpdatedEvents As IList(Of StreamUpdatedEventArgs)
@@ -51,11 +50,11 @@ Dim value As IList(Of StreamUpdatedEventArgs)
 value = instance.StreamUpdatedEvents
 ```
 
-``` csharp
+```csharp
 public IList<StreamUpdatedEventArgs> StreamUpdatedEvents { get; }
 ```
 
-``` c++
+```cpp
 public:
 property IList<StreamUpdatedEventArgs^>^ StreamUpdatedEvents {
     IList<StreamUpdatedEventArgs^>^ get ();
@@ -66,28 +65,28 @@ property IList<StreamUpdatedEventArgs^>^ StreamUpdatedEvents {
 member StreamUpdatedEvents : IList<StreamUpdatedEventArgs>
 ```
 
-``` jscript
+```jscript
 function get StreamUpdatedEvents () : IList<StreamUpdatedEventArgs>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.95\))\<[StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md)\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6\(v=vs.95\))\<[StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md)\>  
 An IList of [StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md) objects.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamUpdatedListEventArgs Class](streamupdatedlisteventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConstantValueCollection::Item Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConstantValueCollection::Item Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c38ab36a-6af1-4d86-9a94-cad9a8950d58
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConstantValueCollection::Item Property
 Gets the constant value at the specified index.  
@@ -23,7 +15,7 @@ Gets the constant value at the specified index.
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `cIndex`  
  A `VARIANT` that represents the constant value to retrieve. If the `VARIANT` is of type integer, the index is a zero-based index to the collection of IAppHostElement objects. If the `VARIANT` is of type string, it is the name of the constant value.  
   

@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 ---
 
 # ChunkInfo Structure
@@ -19,12 +19,12 @@ Chunk information structure.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 public struct ChunkInfo
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 public value class ChunkInfo
 ```

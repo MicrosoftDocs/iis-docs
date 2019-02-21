@@ -1,15 +1,7 @@
 ---
-title: "PFN_GET_PROTOCOL_MANAGER Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_GET_PROTOCOL_MANAGER Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ba896f3b-16b3-441e-b362-5c796e76f662
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_GET_PROTOCOL_MANAGER Function
 Defines the default entry point of the dynamic-link library (DLL) that allows worker processes to instantiate the [IProtocolManager](../../web-development-reference\native-code-api-reference/iprotocolmanager-interface.md).  
@@ -23,7 +15,7 @@ typedef HRESULT (*PFN_GET_PROTOCOL_MANAGER)(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pWpFramework`  
  The calling [IWorkerProcessFramework](../../web-development-reference\native-code-api-reference/iworkerprocessframework-interface.md) instance.  
   

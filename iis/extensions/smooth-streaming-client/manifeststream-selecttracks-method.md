@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,20 +20,20 @@ Selects the tracks in a subset of all the available tracks.
 
 ## Syntax
 
-``` csharp
+```csharp
 public void SelectTracks(
 IVectorView<IManifestTrack> pTracks
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual void SelectTracks(
 [InAttribute] IVectorView<IManifestTrack^>^ pTracks
 ) sealed
 ```
 
-``` jscript
+```jscript
 public final function SelectTracks(
 pTracks : IVectorView<IManifestTrack>
 )

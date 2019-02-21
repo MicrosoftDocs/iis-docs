@@ -1,15 +1,7 @@
 ---
-title: "Web Server Core Constants | Microsoft Docs"
-ms.custom: ""
+title: "Web Server Core Constants"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 406a10c7-f2ef-4b1d-baf6-b3a3259c2783
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Web Server Core Constants
 This section describes the Web Server Core and integrated request-processing pipeline constants.  

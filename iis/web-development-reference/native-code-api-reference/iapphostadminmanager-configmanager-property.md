@@ -1,15 +1,7 @@
 ---
-title: "IAppHostAdminManager::ConfigManager Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostAdminManager::ConfigManager Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5cca2a0c-a91a-581b-a527-f19d588353d6
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostAdminManager::ConfigManager Property
 Gets an [IAppHostConfigManager](../../web-development-reference\native-code-api-reference/iapphostconfigmanager-interface.md) interface that provides access to the physical files in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
@@ -23,7 +15,7 @@ HRESULT get_ConfigManager(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppConfigManager`  
  A pointer to a pointer for an `IAppHostConfigManager` interface.  
   

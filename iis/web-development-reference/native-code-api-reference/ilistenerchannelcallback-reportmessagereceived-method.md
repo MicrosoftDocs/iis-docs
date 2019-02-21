@@ -1,15 +1,7 @@
 ---
-title: "IListenerChannelCallback::ReportMessageReceived Method | Microsoft Docs"
-ms.custom: ""
+title: "IListenerChannelCallback::ReportMessageReceived Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5d552c6c-69a2-3ca5-0826-046d8df6fbe5
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IListenerChannelCallback::ReportMessageReceived Method
 Notifies the worker process framework that a new message was received.  
@@ -21,7 +13,7 @@ virtual HRESULT __stdcall ReportMessageReceived(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

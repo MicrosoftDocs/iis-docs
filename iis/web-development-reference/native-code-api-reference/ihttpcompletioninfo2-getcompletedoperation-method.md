@@ -1,15 +1,7 @@
 ---
-title: "IHttpCompletionInfo2::GetCompletedOperation Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCompletionInfo2::GetCompletedOperation Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 617e9eb2-9214-4ce1-9787-041454bca50d
-caps.latest.revision: 6
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCompletionInfo2::GetCompletedOperation Method
 Gets the number of bytes completed by an asynchronous operation.  
@@ -22,7 +14,7 @@ virtual DWORD GetCompletedOperation(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method accepts no parameters.  
   
 ## Return Value  

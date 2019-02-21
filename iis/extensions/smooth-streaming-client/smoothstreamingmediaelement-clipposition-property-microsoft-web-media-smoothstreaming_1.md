@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.ClipPosition Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.ClipPosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipPosition
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipposition(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_ClipPosition
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_ClipPosition
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ClipPosition Property
@@ -40,7 +39,7 @@ Gets or sets the position in a clip stream.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property ClipPosition As TimeSpan
@@ -54,11 +53,11 @@ Dim value As TimeSpan
 value = instance.ClipPosition
 ```
 
-``` csharp
+```csharp
 public TimeSpan ClipPosition { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property TimeSpan ClipPosition {
     TimeSpan get ();
@@ -70,25 +69,25 @@ property TimeSpan ClipPosition {
 member ClipPosition : TimeSpan with get, private set
 ```
 
-``` jscript
+```jscript
 function get ClipPosition () : TimeSpan
 private function set ClipPosition (value : TimeSpan)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))  
+Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))  
 The position in a clip stream.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

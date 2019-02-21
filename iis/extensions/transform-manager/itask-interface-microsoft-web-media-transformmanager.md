@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.ITask
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ITask Interface
@@ -36,7 +35,7 @@ Defines a class as a transform task for use with the IIS Transform Manager frame
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Interface ITask _
@@ -46,11 +45,11 @@ Defines a class as a transform task for use with the IIS Transform Manager frame
   Dim instance As ITask
 ```
 
-``` csharp
+```csharp
   public interface ITask : IDisposable
 ```
 
-``` c++
+```cpp
   public interface class ITask : IDisposable
 ```
 
@@ -61,7 +60,7 @@ Defines a class as a transform task for use with the IIS Transform Manager frame
     end
 ```
 
-``` jscript
+```jscript
   public interface ITask extends IDisposable
 ```
 
@@ -71,11 +70,9 @@ The ITask type exposes the following members.
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Dispose](https://msdn.microsoft.com/en-us/library/es4s3w1d(v=vs.90))|(Inherited from [IDisposable](https://msdn.microsoft.com/en-us/library/aax125c9(v=vs.90)).)|
+|![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Dispose](https://msdn.microsoft.com/library/es4s3w1d)|(Inherited from [IDisposable](https://msdn.microsoft.com/library/aax125c9).)|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Initialize](itask-initialize-method-microsoft-web-media-transformmanager.md)|Initializes the task with objects for reporting status, logging data, and getting metadata from the job manifest.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Start](itask-start-method-microsoft-web-media-transformmanager.md)|Called by the framework to start the task immediately after the [Initialize(ITaskStatus, IJobMetadata, ILogger)](itask-initialize-method-microsoft-web-media-transformmanager.md) method runs.|
-
-Top
 
 ## Remarks
 
@@ -83,7 +80,7 @@ The ITask interface implements the setter injection pattern. As parameters, the 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

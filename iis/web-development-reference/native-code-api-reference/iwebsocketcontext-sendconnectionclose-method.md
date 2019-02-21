@@ -1,15 +1,7 @@
 ---
-title: "IWebSocketContext::SendConnectionClose Method | Microsoft Docs"
-ms.custom: ""
+title: "IWebSocketContext::SendConnectionClose Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e2870934-24f9-4e42-a9eb-affe437eccc6
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWebSocketContext::SendConnectionClose Method
 Signals the close of a WebSocket connection.  
@@ -27,7 +19,7 @@ virtual HRESULT SendConnectionClose(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `fAsync`  
  [IN] `true` if the method should complete asynchronously; otherwise, `false`.  
   

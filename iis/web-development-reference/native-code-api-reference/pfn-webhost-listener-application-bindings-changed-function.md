@@ -1,15 +1,7 @@
 ---
-title: "PFN_WEBHOST_LISTENER_APPLICATION_BINDINGS_CHANGED Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_WEBHOST_LISTENER_APPLICATION_BINDINGS_CHANGED Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 118d5eb3-05f8-340b-a6b2-3c0dcdb0594a
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_BINDINGS_CHANGED Function
 Notifies the listener adapter that the bindings for a particular application have changed.  
@@ -25,7 +17,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_BINDINGS_CHANGED)(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
   

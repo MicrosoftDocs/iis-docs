@@ -1,15 +1,7 @@
 ---
-title: "IProcessPingCallback::Respond Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessPingCallback::Respond Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a93fe82a-687e-5d97-ed25-5f3facaa6ef4
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessPingCallback::Respond Method
 Provides a callback routine that responds to a ping.  
@@ -21,7 +13,7 @@ virtual HRESULT __stdcall Respond(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -1,15 +1,7 @@
 ---
-title: "IPmHealthAndIdleMonitor::CheckHealth Method | Microsoft Docs"
-ms.custom: ""
+title: "IPmHealthAndIdleMonitor::CheckHealth Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e9c579f1-b2ae-c57a-8ee3-edf3949beef5
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPmHealthAndIdleMonitor::CheckHealth Method
 Enables the worker process framework to request the health status of a protocol manager.  
@@ -22,7 +14,7 @@ virtual HRESULT CheckHealth(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pIHealthStatusCallback`  
  A pointer to an [IHealthStatusCallback](../../web-development-reference\native-code-api-reference/ihealthstatuscallback-interface.md) interface.  
   

@@ -1,14 +1,7 @@
 ---
-title: "ClearIISEnvironmentVariables | Microsoft Docs"
-ms.custom: ""
+title: "ClearIISEnvironmentVariables"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 090086c8-0b14-4087-b518-5b199557434f
-caps.latest.revision: 5
-manager: "wpickett"
 ---
 # ClearIISEnvironmentVariables
 Removes any dynamic environment variables previously injected using a call to [ApplyIISEnvironmentVariables](../../extensions/express-api-reference/applyiisenvironmentvariables.md).  

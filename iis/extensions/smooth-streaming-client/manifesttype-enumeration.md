@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ The manifest type enumeration.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 public enum ManifestType
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 public enum class ManifestType
 ```
 
-``` jscript
+```jscript
 public enum ManifestType
 ```
 

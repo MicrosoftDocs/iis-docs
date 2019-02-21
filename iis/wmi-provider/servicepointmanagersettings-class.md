@@ -1,15 +1,7 @@
 ---
-title: "ServicePointManagerSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "ServicePointManagerSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cf44f648-20cd-eb13-fbb3-c5514cf5749d
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ServicePointManagerSettings Class
 Represents the default settings used to create connections to a remote computer.  

@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.IsDecodingOnGPU Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.IsDecodingOnGPU Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: IsDecodingOnGPU Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsDecodingOnGPU
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.isdecodingongpu(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_IsDecodingOnGPU
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsDecodingOnGPU
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.IsDecodingOnGPU Property
@@ -38,7 +37,7 @@ Gets a value that indicates whether Global Processing Unit (GPU) decoding is ena
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property IsDecodingOnGPU As Boolean
@@ -51,11 +50,11 @@ Dim value As Boolean
 value = instance.IsDecodingOnGPU
 ```
 
-``` csharp
+```csharp
 public bool IsDecodingOnGPU { get; }
 ```
 
-``` c++
+```cpp
 public:
 property bool IsDecodingOnGPU {
     bool get ();
@@ -66,24 +65,24 @@ property bool IsDecodingOnGPU {
 member IsDecodingOnGPU : bool
 ```
 
-``` jscript
+```jscript
 function get IsDecodingOnGPU () : boolean
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
 true if GPU decoding is enabled; otherwise, false.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

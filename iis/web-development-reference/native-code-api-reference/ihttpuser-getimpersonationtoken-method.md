@@ -1,15 +1,7 @@
 ---
-title: "IHttpUser::GetImpersonationToken Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUser::GetImpersonationToken Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 25f33eb6-64ac-aae2-92fe-8d4e03a1142e
-caps.latest.revision: 34
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUser::GetImpersonationToken Method
 Returns the user impersonation token.  
@@ -22,7 +14,7 @@ virtual HANDLE GetImpersonationToken(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -1,16 +1,8 @@
 ---
-title: "IHttpContext3 Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext3 Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0d446756-92cf-4edb-a806-615829b55339
-caps.latest.revision: 7
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IHttpContext3 Interface
 Represents the reprocessing of an HTTP request and enables additional support for asynchronous operations.  

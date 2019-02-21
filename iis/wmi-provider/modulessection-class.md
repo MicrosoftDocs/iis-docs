@@ -1,15 +1,7 @@
 ---
-title: "ModulesSection Class | Microsoft Docs"
-ms.custom: ""
+title: "ModulesSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b3dd0504-bf13-b108-ecce-65a96fc1d014
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ModulesSection Class
 Represents the modules section in a configuration file.  

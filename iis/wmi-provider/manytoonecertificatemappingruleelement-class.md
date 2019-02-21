@@ -1,15 +1,7 @@
 ---
-title: "ManyToOneCertificateMappingRuleElement Class | Microsoft Docs"
-ms.custom: ""
+title: "ManyToOneCertificateMappingRuleElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 04fe2a42-1c6f-8e6c-c296-7c03eec6ec42
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ManyToOneCertificateMappingRuleElement Class
 Represents a many-to-one certificate mapping rule.  

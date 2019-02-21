@@ -1,15 +1,7 @@
 ---
-title: "WEBHOST_LISTENER_CALLBACKS Structure | Microsoft Docs"
-ms.custom: ""
+title: "WEBHOST_LISTENER_CALLBACKS Structure"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e8978941-3c73-cf7f-c3eb-3375e7d12b85
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WEBHOST_LISTENER_CALLBACKS Structure
 Defines a pointer to the callback structure that is passed to the [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md) function.  

@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LatencyCorrectionThresholdProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LatencyCorrectionThresholdProperty Field
@@ -35,7 +34,7 @@ Represents a dependency property that specifies the [LatencyCorrectionThreshold]
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared ReadOnly LatencyCorrectionThresholdProperty As DependencyProperty
@@ -46,32 +45,32 @@ Represents a dependency property that specifies the [LatencyCorrectionThreshold]
 value = SmoothStreamingMediaElement.LatencyCorrectionThresholdProperty
 ```
 
-``` csharp
+```csharp
   public static readonly DependencyProperty LatencyCorrectionThresholdProperty
 ```
 
-``` c++
+```cpp
   public:
 static initonly DependencyProperty^ LatencyCorrectionThresholdProperty
 ```
 
-``` jscript
+```jscript
   public static final var LatencyCorrectionThresholdProperty : DependencyProperty
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

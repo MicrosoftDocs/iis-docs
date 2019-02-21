@@ -1,15 +1,7 @@
 ---
-title: "IMapPathProvider::GetPhysicalPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IMapPathProvider::GetPhysicalPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 57fd7bef-bc47-7fac-286d-f1dec29f8732
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IMapPathProvider::GetPhysicalPath Method
 Retrieves the physical path for the current request.  
@@ -21,7 +13,7 @@ virtual PCWSTR GetPhysicalPath(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

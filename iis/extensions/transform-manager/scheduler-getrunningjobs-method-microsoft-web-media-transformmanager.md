@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.Scheduler.GetRunningJobs
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetRunningJobs Method
@@ -36,7 +35,7 @@ Returns a list of job instance IDs for jobs that are running.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public MustOverride Function GetRunningJobs As ICollection(Of String)
@@ -48,11 +47,11 @@ Dim returnValue As ICollection(Of String)
 returnValue = instance.GetRunningJobs()
 ```
 
-``` csharp
+```csharp
   public abstract ICollection<string> GetRunningJobs()
 ```
 
-``` c++
+```cpp
   public:
 virtual ICollection<String^>^ GetRunningJobs() abstract
 ```
@@ -61,18 +60,18 @@ virtual ICollection<String^>^ GetRunningJobs() abstract
   abstract GetRunningJobs : unit -> ICollection<string> 
 ```
 
-``` jscript
+```jscript
   public abstract function GetRunningJobs() : ICollection<String>
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.Generic. . :: . .ICollection](https://msdn.microsoft.com/en-us/library/92t2ye13\(v=vs.90\))\< (Of \< ( \<'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))\> ) \> ) \>  
+Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/library/92t2ye13)\< (Of \< ( \<'[String](https://msdn.microsoft.com/library/s1wwdcbf)\> ) \> ) \>  
 A list of job instance IDs.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Scheduler Class](scheduler-class-microsoft-web-media-transformmanager.md)
 

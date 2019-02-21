@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetRequest Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetRequest Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 566b6315-00a6-0d9a-17ae-e531139a4912
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetRequest Method
 Returns the HTTP request container for the current context.  
@@ -22,7 +14,7 @@ virtual IHttpRequest* GetRequest(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

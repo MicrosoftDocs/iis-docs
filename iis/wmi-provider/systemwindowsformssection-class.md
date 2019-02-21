@@ -1,15 +1,7 @@
 ---
-title: "SystemWindowsFormsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "SystemWindowsFormsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 080a1ecc-5789-57b7-b29e-fc693e1f0f11
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SystemWindowsFormsSection Class
 Stores application settings for Windows Forms applications.  

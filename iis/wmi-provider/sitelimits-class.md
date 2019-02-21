@@ -1,15 +1,7 @@
 ---
-title: "SiteLimits Class1 | Microsoft Docs"
-ms.custom: ""
+title: "SiteLimits Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3116f8b2-608a-930d-92d0-35a952e1f4aa
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SiteLimits Class1
 Exposes connection-related limits for a site.  

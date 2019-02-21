@@ -1,15 +1,7 @@
 ---
-title: "DbProviderFactorySettings Class | Microsoft Docs"
-ms.custom: ""
+title: "DbProviderFactorySettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b9c5fbd7-3305-4d2b-a637-5f3e524f6be9
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DbProviderFactorySettings Class
 Contains configuration settings for [!INCLUDE[ado_whidbey_long](../wmi-provider/includes/ado-whidbey-long-md.md)] provider factories.  

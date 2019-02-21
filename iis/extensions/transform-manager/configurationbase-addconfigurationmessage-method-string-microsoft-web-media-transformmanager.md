@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # AddConfigurationMessage Method (String)
@@ -34,7 +33,7 @@ Adds the specified message to the IIS Transform Manager configuration.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub AddConfigurationMessage ( _
@@ -48,13 +47,13 @@ Dim message As String
 instance.AddConfigurationMessage(message)
 ```
 
-``` csharp
+```csharp
   public void AddConfigurationMessage(
     string message
 )
 ```
 
-``` c++
+```cpp
   public:
 void AddConfigurationMessage(
     String^ message
@@ -66,21 +65,21 @@ void AddConfigurationMessage(
         message:string -> unit 
 ```
 
-``` jscript
+```jscript
   public function AddConfigurationMessage(
     message : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - message  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The message to add.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

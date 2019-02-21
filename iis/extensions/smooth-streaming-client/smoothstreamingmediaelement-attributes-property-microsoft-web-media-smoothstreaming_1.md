@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.Attributes Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.Attributes Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Attributes Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Attributes
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.attributes(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_Attributes
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_Attributes
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.Attributes Property
@@ -40,7 +39,7 @@ Gets or sets the attributes dictionary.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Attributes As Dictionary(Of String, String)
@@ -56,11 +55,11 @@ value = instance.Attributes
 instance.Attributes = value
 ```
 
-``` csharp
+```csharp
 public Dictionary<string, string> Attributes { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property Dictionary<String^, String^>^ Attributes {
     Dictionary<String^, String^>^ get ();
@@ -72,14 +71,14 @@ property Dictionary<String^, String^>^ Attributes {
 member Attributes : Dictionary<string, string> with get, set
 ```
 
-``` jscript
+```jscript
 function get Attributes () : Dictionary<String, String>
 function set Attributes (value : Dictionary<String, String>)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508\(v=vs.95\))\<[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\)), [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))\>  
+Type: [System.Collections.Generic.Dictionary](https://msdn.microsoft.com/library/xfhwa508\(v=vs.95\))\<[String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\)), [String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))\>  
 A dictionary object that contains name/value pairs for the attributes.
 
 ## Examples
@@ -107,17 +106,17 @@ The following example shows how to get attributes.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

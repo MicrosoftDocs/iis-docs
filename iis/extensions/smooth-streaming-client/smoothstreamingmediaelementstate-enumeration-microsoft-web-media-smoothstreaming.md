@@ -18,10 +18,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElementState.Opening
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElementState.Stopped
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -41,7 +41,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElementState Enumeration
@@ -53,7 +52,7 @@ Enumeration of possible states for the [SmoothStreamingMediaElement](smoothstrea
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Enumeration SmoothStreamingMediaElementState
@@ -62,15 +61,15 @@ Enumeration of possible states for the [SmoothStreamingMediaElement](smoothstrea
   Dim instance As SmoothStreamingMediaElementState
 ```
 
-``` csharp
+```csharp
   public enum SmoothStreamingMediaElementState
 ```
 
-``` c++
+```cpp
   public enum class SmoothStreamingMediaElementState
 ```
 
-``` jscript
+```jscript
   public enum SmoothStreamingMediaElementState
 ```
 
@@ -129,17 +128,17 @@ The logic for the **Play** and **Stop** buttons is shown in the following excerp
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

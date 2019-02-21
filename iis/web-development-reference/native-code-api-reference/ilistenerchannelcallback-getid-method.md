@@ -1,15 +1,7 @@
 ---
-title: "IListenerChannelCallback::GetId Method | Microsoft Docs"
-ms.custom: ""
+title: "IListenerChannelCallback::GetId Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2f24792d-ae4d-3788-8919-38c5ee95076d
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IListenerChannelCallback::GetId Method
 Retrieves the ID of a listener channel that needs to be started.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall GetId(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pdwListenerChannelId`  
  A pointer to a `DWORD` buffer that receives the ID of a listener channel.  
   

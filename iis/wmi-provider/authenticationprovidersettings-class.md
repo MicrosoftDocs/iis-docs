@@ -1,15 +1,7 @@
 ---
-title: "AuthenticationProviderSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "AuthenticationProviderSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b07e1d3e-6894-4ca3-b5e3-7f80e6944c12
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AuthenticationProviderSettings Class
 Contains security support providers that are used for Integrated Windows authentication.  

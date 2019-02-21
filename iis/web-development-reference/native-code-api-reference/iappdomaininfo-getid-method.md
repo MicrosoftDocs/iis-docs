@@ -1,15 +1,7 @@
 ---
-title: "IAppDomainInfo::GetId Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppDomainInfo::GetId Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6fc0b61d-8f0a-a82b-0c7f-084f35f33455
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppDomainInfo::GetId Method
 Retrieves the application domain ID.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall GetId(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrAppDomainId`  
  A pointer to a `BSTR` that contains the unique application domain ID.  
   

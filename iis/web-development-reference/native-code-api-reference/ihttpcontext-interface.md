@@ -1,16 +1,8 @@
 ---
-title: "IHttpContext Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 133e92d0-4bba-5224-6deb-f369379be302
-caps.latest.revision: 27
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IHttpContext Interface
 Defines an object that represents the processing context for request-level operations.  

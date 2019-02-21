@@ -1,15 +1,7 @@
 ---
-title: "ApplicationPoolFailureSettings Class1 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationPoolFailureSettings Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8e1aa657-4665-39cb-afee-d927d33c3f85
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationPoolFailureSettings Class1
 Exposes properties that determine the actions to be taken when an application pool or worker process fails.  

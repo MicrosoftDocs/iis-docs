@@ -1,5 +1,5 @@
 ---
-title: ConfigurationMessage.ObjectType Property  (Microsoft.Web.Media.TransformManager)
+title: ConfigurationMessage.ObjectType Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ObjectType Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.ObjectType
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationmessage.objecttype(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.get_ObjectType
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.set_ObjectType
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ObjectType Property
@@ -40,7 +39,7 @@ Gets or set the type of the configuration object.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property ObjectType As String
@@ -56,12 +55,12 @@ value = instance.ObjectType
 instance.ObjectType = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string ObjectType { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ ObjectType {
@@ -75,19 +74,19 @@ property String^ ObjectType {
 member ObjectType : string with get, set
 ```
 
-``` jscript
+```jscript
   function get ObjectType () : String
 function set ObjectType (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The type of the configuration object.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationMessage Class](configurationmessage-class-microsoft-web-media-transformmanager.md)
 

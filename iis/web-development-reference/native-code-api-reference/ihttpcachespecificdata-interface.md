@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheSpecificData Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheSpecificData Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2cdc07d4-1786-31ca-28fa-7b57db3c5f8f
-caps.latest.revision: 49
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheSpecificData Interface
 Provides information and access methods for data that is stored in a global cache.  

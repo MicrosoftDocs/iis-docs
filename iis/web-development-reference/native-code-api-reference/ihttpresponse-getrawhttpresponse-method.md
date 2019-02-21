@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::GetRawHttpResponse Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::GetRawHttpResponse Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c035a882-5efc-4597-44ec-50501cef4ca9
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::GetRawHttpResponse Method
 Retrieves a structure that contains the raw HTTP response.  
@@ -22,7 +14,7 @@ virtual HTTP_RESPONSE* GetRawHttpResponse(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

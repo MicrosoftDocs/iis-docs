@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnAsyncCompletion Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnAsyncCompletion Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b11efc80-7135-b1c5-0c2d-93cfda92f783
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnAsyncCompletion Method
 Represents the method that will handle an asynchronous completion event, which occurs after an asynchronous operation has finished processing.  
@@ -26,7 +18,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnAsyncCompletion(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

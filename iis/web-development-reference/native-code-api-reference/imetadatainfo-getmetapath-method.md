@@ -1,15 +1,7 @@
 ---
-title: "IMetadataInfo::GetMetaPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IMetadataInfo::GetMetaPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 939615c0-3b0f-3fe7-42af-ef430a251532
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IMetadataInfo::GetMetaPath Method
 Retrieves the configuration path for the current context.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetMetaPath(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

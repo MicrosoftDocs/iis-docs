@@ -1,15 +1,7 @@
 ---
-title: "Application Host Administration Interfaces | Microsoft Docs"
-ms.custom: ""
+title: "Application Host Administration Interfaces"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e222d822-4d00-431a-8fc4-e09496636681
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Application Host Administration Interfaces
 This section describes the API that provides read and write access to configuration data and read access to the configuration schema.  

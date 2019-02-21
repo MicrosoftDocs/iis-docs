@@ -1,5 +1,5 @@
 ---
-title: JobMetadata.TaskMetadata Property  (Microsoft.Web.Media.TransformManager)
+title: JobMetadata.TaskMetadata Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskMetadata Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.TaskMetadata
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmetadata.taskmetadata(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobMetadata.TaskMetadata
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_TaskMetadata
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskMetadata Property
@@ -38,7 +37,7 @@ Gets the task metadata from the task element that is contained in the manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property TaskMetadata As XElement
@@ -51,11 +50,11 @@ Dim value As XElement
 value = instance.TaskMetadata
 ```
 
-``` csharp
+```csharp
   public XElement TaskMetadata { get; }
 ```
 
-``` c++
+```cpp
   public:
 property XElement^ TaskMetadata {
     XElement^ get ();
@@ -66,18 +65,18 @@ property XElement^ TaskMetadata {
   member TaskMetadata : XElement
 ```
 
-``` jscript
+```jscript
   function get TaskMetadata () : XElement
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 The task metadata.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobMetadata Class](jobmetadata-class-microsoft-web-media-transformmanager.md)
 

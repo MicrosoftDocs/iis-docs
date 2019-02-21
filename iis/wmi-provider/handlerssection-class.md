@@ -1,15 +1,7 @@
 ---
-title: "HandlersSection Class | Microsoft Docs"
-ms.custom: ""
+title: "HandlersSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 861ed70d-87e7-7f0e-791e-ed4bd13e7234
-caps.latest.revision: 32
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HandlersSection Class
 Stores the handlers for a URL.  

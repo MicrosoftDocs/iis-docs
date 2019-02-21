@@ -1,15 +1,7 @@
 ---
-title: "IGlobalConfigurationChangeProvider::GetChangePath Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalConfigurationChangeProvider::GetChangePath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bafedfc8-9b20-cef2-48cb-de1d8d9c1938
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalConfigurationChangeProvider::GetChangePath Method
 Retrieves the path of a configuration change.  
@@ -22,7 +14,7 @@ virtual VOID GetChangePath(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppszPath`  
  [OUT] A pointer to a `PCWSTR` value.  
   

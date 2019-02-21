@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsLogFolder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDetailsLogFolder Field
@@ -34,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const JobDetailsLogFolder As String
@@ -45,11 +44,11 @@ ROBOTS: INDEX,FOLLOW
 value = JobDetails.JobDetailsLogFolder
 ```
 
-``` csharp
+```csharp
   public const string JobDetailsLogFolder
 ```
 
-``` c++
+```cpp
   public:
 literal String^ JobDetailsLogFolder
 ```
@@ -58,13 +57,13 @@ literal String^ JobDetailsLogFolder
   static val mutable JobDetailsLogFolder: string
 ```
 
-``` jscript
+```jscript
   public const var JobDetailsLogFolder : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

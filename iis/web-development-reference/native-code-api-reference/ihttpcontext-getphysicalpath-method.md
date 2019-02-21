@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetPhysicalPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetPhysicalPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 664708a6-d319-eb3f-81fa-309082bce260
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetPhysicalPath Method
 Retrieves the physical path for the current request.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetPhysicalPath(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcchPhysicalPath`  
  A pointer to a `DWORD` that will contain the length of the string returned by `GetPhysicalPath`.  
   

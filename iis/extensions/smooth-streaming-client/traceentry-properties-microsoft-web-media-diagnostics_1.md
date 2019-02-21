@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # TraceEntry Properties
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md) type exposes the following members.
 
 ## Properties
@@ -32,11 +26,9 @@ The [TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md) type exp
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[TraceLevel](traceentry-tracelevel-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the [TraceLevel](traceentry-tracelevel-property-microsoft-web-media-diagnostics_1.md) property.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [TraceEntry Class](traceentry-class-microsoft-web-media-diagnostics_1.md)
 

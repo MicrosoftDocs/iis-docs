@@ -1,5 +1,5 @@
 ---
-title: StreamUpdatedEventArgs.Action Property  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamUpdatedEventArgs.Action Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Action Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.Action
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streamupdatedeventargs.action(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.get_Action
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.set_Action
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamUpdatedEventArgs.Action Property
@@ -40,7 +39,7 @@ Gets or sets [StreamUpdatedEventArgs.StreamUpdatedAction](streamupdatedeventargs
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Action As StreamUpdatedEventArgs.StreamUpdatedAction
@@ -54,11 +53,11 @@ Dim value As StreamUpdatedEventArgs.StreamUpdatedAction
 value = instance.Action
 ```
 
-``` csharp
+```csharp
 public StreamUpdatedEventArgs.StreamUpdatedAction Action { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property StreamUpdatedEventArgs.StreamUpdatedAction Action {
     StreamUpdatedEventArgs.StreamUpdatedAction get ();
@@ -70,29 +69,29 @@ property StreamUpdatedEventArgs.StreamUpdatedAction Action {
 member Action : StreamUpdatedEventArgs.StreamUpdatedAction with get, private set
 ```
 
-``` jscript
+```jscript
 function get Action () : StreamUpdatedEventArgs.StreamUpdatedAction
 private function set Action (value : StreamUpdatedEventArgs.StreamUpdatedAction)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedAction](streamupdatedeventargs-streamupdatedaction-enumeration-microsoft-web-media-smoothstreaming_1.md)  
 A [StreamUpdatedEventArgs.StreamUpdatedAction](streamupdatedeventargs-streamupdatedaction-enumeration-microsoft-web-media-smoothstreaming_1.md) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamUpdatedEventArgs Class](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

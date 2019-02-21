@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsSubmitTime
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDetailsSubmitTime Field
@@ -36,7 +35,7 @@ Represents a constant that is used when transform jobs are sorted by the "submit
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const JobDetailsSubmitTime As String
@@ -47,11 +46,11 @@ Represents a constant that is used when transform jobs are sorted by the "submit
 value = JobDetails.JobDetailsSubmitTime
 ```
 
-``` csharp
+```csharp
   public const string JobDetailsSubmitTime
 ```
 
-``` c++
+```cpp
   public:
 literal String^ JobDetailsSubmitTime
 ```
@@ -60,13 +59,13 @@ literal String^ JobDetailsSubmitTime
   static val mutable JobDetailsSubmitTime: string
 ```
 
-``` jscript
+```jscript
   public const var JobDetailsSubmitTime : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

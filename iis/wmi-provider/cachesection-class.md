@@ -1,15 +1,7 @@
 ---
-title: "CacheSection Class | Microsoft Docs"
-ms.custom: ""
+title: "CacheSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 399f2fd6-95c6-908a-a7ea-312cca9b1107
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CacheSection Class
 Defines cache settings for an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] Web application.  

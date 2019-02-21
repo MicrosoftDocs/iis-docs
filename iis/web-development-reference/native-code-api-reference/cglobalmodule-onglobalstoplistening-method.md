@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::OnGlobalStopListening Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::OnGlobalStopListening Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 27eb8d5b-9e3b-6228-9025-0e1eb9b285ee
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::OnGlobalStopListening Method
 Represents the method that will handle a `GlobalStopListening` event, which occurs when IIS stops accepting new requests.  
@@ -22,7 +14,7 @@ virtual GLOBAL_NOTIFICATION_STATUS OnGlobalStopListening(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pProvider`  
  [IN] A pointer to an [IGlobalStopListeningProvider](../../web-development-reference\native-code-api-reference/iglobalstoplisteningprovider-interface.md) interface.  
   

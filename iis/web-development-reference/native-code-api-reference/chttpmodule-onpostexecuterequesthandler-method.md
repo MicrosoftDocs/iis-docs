@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnPostExecuteRequestHandler Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnPostExecuteRequestHandler Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 98fae259-b939-7e27-a268-b56dbc639b2f
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnPostExecuteRequestHandler Method
 Represents the method that will handle an `ExecuteRequestHandler` post-event, which occurs after IIS executes the handler for the current request.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostExecuteRequestHandler(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

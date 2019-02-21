@@ -1,15 +1,7 @@
 ---
-title: "GlobalizationSection Class | Microsoft Docs"
-ms.custom: ""
+title: "GlobalizationSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 287cc0cf-ca19-687e-ca3c-ec5a64d0a64d
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # GlobalizationSection Class
 Configures the globalization settings for a Web application.  

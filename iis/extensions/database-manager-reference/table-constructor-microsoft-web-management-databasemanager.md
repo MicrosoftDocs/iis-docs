@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Table.Table
 - Microsoft.Web.Management.DatabaseManager.Table.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Table Constructor
@@ -36,7 +35,7 @@ Creates a new instance of the [Table](table-class-microsoft-web-management-datab
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Sub New
 'Usage
@@ -44,26 +43,26 @@ Public Sub New
 Dim instance As New Table()
 ```
 
-``` csharp
+```csharp
 public Table()
 ```
 
-``` c++
+```cpp
 public:
 Table()
 ```
 
-``` jscript
+```jscript
 public function Table()
 ```
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Table Class](table-class-microsoft-web-management-databasemanager.md)
 

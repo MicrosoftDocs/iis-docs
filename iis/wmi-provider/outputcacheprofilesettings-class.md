@@ -1,15 +1,7 @@
 ---
-title: "OutputCacheProfileSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "OutputCacheProfileSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9b2f9607-0707-4ee5-b106-a69c9259778c
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # OutputCacheProfileSettings Class
 Contains values that configure output cache profiles for the pages of a Web application.  

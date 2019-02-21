@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnSendResponse Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnSendResponse Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 972128f3-0603-da95-814b-3befc92d1764
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnSendResponse Method
 Represents the method that will handle a `SendResponse` event, which occurs when IIS sends the response buffer.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnSendResponse(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

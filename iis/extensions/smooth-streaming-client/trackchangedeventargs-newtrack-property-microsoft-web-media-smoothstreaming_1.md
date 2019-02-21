@@ -1,5 +1,5 @@
 ---
-title: TrackChangedEventArgs.NewTrack Property  (Microsoft.Web.Media.SmoothStreaming)
+title: TrackChangedEventArgs.NewTrack Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: NewTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.NewTrack
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackchangedeventargs.newtrack(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.NewTrack
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.set_NewTrack
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TrackChangedEventArgs.NewTrack Property
@@ -40,7 +39,7 @@ Gets or sets a new [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreami
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property NewTrack As TrackInfo
@@ -54,11 +53,11 @@ Dim value As TrackInfo
 value = instance.NewTrack
 ```
 
-``` csharp
+```csharp
 public TrackInfo NewTrack { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property TrackInfo^ NewTrack {
     TrackInfo^ get ();
@@ -70,29 +69,29 @@ property TrackInfo^ NewTrack {
 member NewTrack : TrackInfo with get, private set
 ```
 
-``` jscript
+```jscript
 function get NewTrack () : TrackInfo
 private function set NewTrack (value : TrackInfo)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)  
 A [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackChangedEventArgs Class](trackchangedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

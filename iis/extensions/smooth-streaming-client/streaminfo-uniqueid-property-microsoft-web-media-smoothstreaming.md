@@ -1,5 +1,5 @@
 ---
-title: StreamInfo.UniqueId Property  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamInfo.UniqueId Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: UniqueId Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.UniqueId
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.uniqueid(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.set_UniqueId
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.UniqueId
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # UniqueId Property
@@ -39,7 +38,7 @@ Gets or sets the Id that identifies this stream.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property UniqueId As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.UniqueId
 ```
 
-``` csharp
+```csharp
   public string UniqueId { get; internal set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ UniqueId {
     String^ get ();
@@ -63,14 +62,14 @@ property String^ UniqueId {
 }
 ```
 
-``` jscript
+```jscript
   function get UniqueId () : String
 internal function set UniqueId (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A string value that contains the Id.  
 
 ## Remarks
@@ -79,21 +78,21 @@ For more information see the examples in [Timeline Markers and Events (IIS Smoot
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

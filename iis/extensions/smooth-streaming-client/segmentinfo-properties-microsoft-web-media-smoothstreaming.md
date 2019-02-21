@@ -22,11 +22,9 @@ The [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) ty
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[StartPosition](segmentinfo-startposition-property-microsoft-web-media-smoothstreaming_1.md)|Gets the maximum of the start times of the first audio chunk and first video chunk.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [SegmentInfo Class](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

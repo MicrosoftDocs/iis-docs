@@ -1,15 +1,7 @@
 ---
-title: "INamedContextContainer::GetNamedContext Method | Microsoft Docs"
-ms.custom: ""
+title: "INamedContextContainer::GetNamedContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 639f9b9d-8141-41ce-97cd-4e623090a602
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # INamedContextContainer::GetNamedContext Method
 Retrieves a stored context given its name.  
@@ -22,7 +14,7 @@ Virtual IHttpStoredContext * GetNamedContext(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `szName`  
  [IN] The name of the context.  
   

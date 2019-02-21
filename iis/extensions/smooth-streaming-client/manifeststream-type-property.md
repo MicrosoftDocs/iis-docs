@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Gets the manifest type.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 public sealed class ManifestStream : IManifestStream
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 public ref class ManifestStream sealed : IManifestStream
 ```
 
-``` jscript
+```jscript
 public final class ManifestStream implements IManifestStream
 ```
 

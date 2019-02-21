@@ -1,5 +1,5 @@
 ---
-title: TypeInfo.Editable Property  (Microsoft.Web.Management.DatabaseManager)
+title: TypeInfo.Editable Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Editable Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.Editable
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.editable(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_Editable
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_Editable
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.Editable Property
@@ -39,7 +38,7 @@ Gets or sets a value that indicates whether the data type can be edited.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property Editable As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.Editable
 instance.Editable = value
 ```
 
-``` csharp
+```csharp
 public bool Editable { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool Editable {
     bool get ();
@@ -63,23 +62,23 @@ property bool Editable {
 }
 ```
 
-``` jscript
+```jscript
 function get Editable () : boolean
 function set Editable (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the data type can be edited; otherwise, false.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 

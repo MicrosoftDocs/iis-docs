@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerMemoryAttributeName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerMemoryAttributeName Field
@@ -36,7 +35,7 @@ Represents a constant that is used when the scheduler memory attribute is assign
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const SchedulerMemoryAttributeName As String
@@ -47,11 +46,11 @@ Represents a constant that is used when the scheduler memory attribute is assign
 value = JobDefinition.SchedulerMemoryAttributeName
 ```
 
-``` csharp
+```csharp
   public const string SchedulerMemoryAttributeName
 ```
 
-``` c++
+```cpp
   public:
 literal String^ SchedulerMemoryAttributeName
 ```
@@ -60,13 +59,13 @@ literal String^ SchedulerMemoryAttributeName
   static val mutable SchedulerMemoryAttributeName: string
 ```
 
-``` jscript
+```jscript
   public const var SchedulerMemoryAttributeName : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

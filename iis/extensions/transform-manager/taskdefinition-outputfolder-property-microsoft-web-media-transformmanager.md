@@ -1,5 +1,5 @@
 ---
-title: TaskDefinition.OutputFolder Property  (Microsoft.Web.Media.TransformManager)
+title: TaskDefinition.OutputFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: OutputFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.OutputFolder
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.outputfolder(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.get_OutputFolder
 - Microsoft.Web.Media.TransformManager.TaskDefinition.OutputFolder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # OutputFolder Property
@@ -40,7 +39,7 @@ Gets or sets the folder name to append to the working directory in order to writ
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property OutputFolder As String
@@ -56,12 +55,12 @@ value = instance.OutputFolder
 instance.OutputFolder = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string OutputFolder { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ OutputFolder {
@@ -75,19 +74,19 @@ property String^ OutputFolder {
 member OutputFolder : string with get, set
 ```
 
-``` jscript
+```jscript
   function get OutputFolder () : String
 function set OutputFolder (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The folder name.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskDefinition Class](taskdefinition-class-microsoft-web-media-transformmanager.md)
 

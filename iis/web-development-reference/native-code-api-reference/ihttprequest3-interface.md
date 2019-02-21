@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest3 Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest3 Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2c2d3051-2747-4f8b-8c64-504b417b041c
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest3 Interface
 Provides an interface for reading the request results into a buffer.  

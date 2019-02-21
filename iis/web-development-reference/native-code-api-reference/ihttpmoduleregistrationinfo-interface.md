@@ -1,15 +1,7 @@
 ---
-title: "IHttpModuleRegistrationInfo Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpModuleRegistrationInfo Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9104bb5a-ed5c-4584-605f-fd1d2a96ee07
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpModuleRegistrationInfo Interface
 Retrieves and sets a module's registration information.  

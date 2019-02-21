@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethod::Schema Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethod::Schema Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d611032c-f7bd-43d0-ab3a-9c6cfa2ffd65
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethod::Schema Property
 Gets the schema assigned to the current method.  
@@ -23,7 +15,7 @@ HRESULT Schema(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppMethodSchema`  
  Contains the schema for the specified [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md).  
   

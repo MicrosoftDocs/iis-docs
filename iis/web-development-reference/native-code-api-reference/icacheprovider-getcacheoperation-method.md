@@ -1,15 +1,7 @@
 ---
-title: "ICacheProvider::GetCacheOperation Method | Microsoft Docs"
-ms.custom: ""
+title: "ICacheProvider::GetCacheOperation Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1ebbf591-6426-8b58-37f8-b3e428c3e45e
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ICacheProvider::GetCacheOperation Method
 Returns the cache operation for the cache provider.  
@@ -22,7 +14,7 @@ virtual CACHE_OPERATION GetCacheOperation(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

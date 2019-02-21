@@ -1,5 +1,5 @@
 ---
-title: IisNamespaces.JobDefinitionNamespace Property  (Microsoft.Web.Media.TransformManager)
+title: IisNamespaces.JobDefinitionNamespace Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinitionNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.JobDefinitionNamespace
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.jobdefinitionnamespace(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_JobDefinitionNamespace
 - Microsoft.Web.Media.TransformManager.IisNamespaces.JobDefinitionNamespace
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDefinitionNamespace Property
@@ -38,7 +37,7 @@ Gets the URI of a media services schema document that is related to job definiti
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared ReadOnly Property JobDefinitionNamespace As XNamespace
@@ -50,11 +49,11 @@ Gets the URI of a media services schema document that is related to job definiti
 value = IisNamespaces.JobDefinitionNamespace
 ```
 
-``` csharp
+```csharp
   public static XNamespace JobDefinitionNamespace { get; }
 ```
 
-``` c++
+```cpp
   public:
 static property XNamespace^ JobDefinitionNamespace {
     XNamespace^ get ();
@@ -65,18 +64,18 @@ static property XNamespace^ JobDefinitionNamespace {
   static member JobDefinitionNamespace : XNamespace
 ```
 
-``` jscript
+```jscript
   static function get JobDefinitionNamespace () : XNamespace
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XNamespace](https://msdn.microsoft.com/en-us/library/bb291898\(v=vs.90\))  
+Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
 The XML namespace value "http://schemas.microsoft.com/iis/media/v4/TM/TaskDefinition\#".  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IisNamespaces Class](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethodExtension Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethodExtension Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2018753d-8528-44f4-a4c3-dbde51b5f2ef
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethodExtension Interface
 Used to handle method extensions in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  

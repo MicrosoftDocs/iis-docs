@@ -1,15 +1,7 @@
 ---
-title: "FailureDefinition Class | Microsoft Docs"
-ms.custom: ""
+title: "FailureDefinition Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f563801a-d5fd-0f69-74bd-4be0b05c6871
-caps.latest.revision: 28
-author: "shirhatti"
-manager: "wpickett"
 ---
 # FailureDefinition Class
 Specifies the conditions under which a request trace is generated.  

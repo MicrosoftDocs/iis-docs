@@ -1,15 +1,7 @@
 ---
-title: "ConfiguredObject.GetSection Method | Microsoft Docs"
-ms.custom: ""
+title: "ConfiguredObject.GetSection Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 31cf1e5c-75cd-6fc6-ac1e-1fdf1da1061d
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfiguredObject.GetSection Method
 Retrieves the contents of a configuration section for a configured object.  
@@ -24,7 +16,7 @@ ConfiguredObject.GetSection(SectionName, Section);
 ConfiguredObject.GetSection SectionName, Section  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  

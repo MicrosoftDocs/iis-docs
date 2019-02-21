@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
@@ -21,7 +21,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SelectStreamsAsync Method (IList(StreamInfo))
@@ -33,7 +32,7 @@ Initializes a new instance of the [SegmentInfo](segmentinfo-class-microsoft-web-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub SelectStreamsAsync ( _
@@ -47,29 +46,29 @@ Dim selectedStreams As IList(Of StreamInfo)
 instance.SelectStreamsAsync(selectedStreams)
 ```
 
-``` csharp
+```csharp
   public void SelectStreamsAsync(
     IList<StreamInfo> selectedStreams
 )
 ```
 
-``` c++
+```cpp
   public:
 void SelectStreamsAsync(
     IList<StreamInfo^>^ selectedStreams
 )
 ```
 
-``` jscript
+```jscript
   public function SelectStreamsAsync(
     selectedStreams : IList<StreamInfo>
 )
 ```
 
-#### Parameters
+### Parameters
 
   - selectedStreams  
-    Type: [System.Collections.Generic. . :: . .IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.90\))\< (Of \< ( \<'[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)\> ) \> ) \>  
+    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6)\< (Of \< ( \<'[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)\> ) \> ) \>  
     An IList object that contains the selected streams.  
 
 ## Remarks
@@ -78,21 +77,21 @@ Calling this method to change streams on a smooth streaming presentation with mu
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SegmentInfo Class](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

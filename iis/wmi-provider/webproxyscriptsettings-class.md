@@ -1,15 +1,7 @@
 ---
-title: "WebProxyScriptSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "WebProxyScriptSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3e5f9462-6c46-4242-be1f-9c7c08928258
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WebProxyScriptSettings Class
 Configures Web proxy scripts.  

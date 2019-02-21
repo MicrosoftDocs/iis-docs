@@ -10,7 +10,7 @@ mtps_version: v=VS.90
 
 # Position in Stream (IIS Smooth Streaming)
 
-You can assign the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) to a new position and the player will seek to the new position in the stream. Simply assign a [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\)) object to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property. The [TimeSpan](http://go.microsoft.com/fwlink/?linkid=181852) object specifies the time interval from the beginning of the stream.
+You can assign the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) to a new position and the player will seek to the new position in the stream. Simply assign a [TimeSpan](https://msdn.microsoft.com/library/269ew577) object to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property. The [TimeSpan](http://go.microsoft.com/fwlink/?linkid=181852) object specifies the time interval from the beginning of the stream.
 
 The current topic extends the functionality of previous examples in [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md) and [Events (IIS Smooth Streaming)](events.md). You can [download a Visual Studio solution](http://go.microsoft.com/fwlink/?linkid=182167) that contains all the code.
 
@@ -84,11 +84,11 @@ The topic [Timeline Markers and Events (IIS Smooth Streaming)](timeline-markers-
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Events (IIS Smooth Streaming)](events.md)
 
-#### Other Resources
+### Other Resources
 
 [IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
 

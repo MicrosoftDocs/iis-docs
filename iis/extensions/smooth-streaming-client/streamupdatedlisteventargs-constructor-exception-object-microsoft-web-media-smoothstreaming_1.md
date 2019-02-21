@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamUpdatedListEventArgs Constructor (Exception, Object)
@@ -34,7 +33,7 @@ Initializes a new instance of the [StreamUpdatedListEventArgs](streamupdatedlist
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -49,14 +48,14 @@ Dim userState As Object
 Dim instance As New StreamUpdatedListEventArgs(error, userState)
 ```
 
-``` csharp
+```csharp
 public StreamUpdatedListEventArgs(
     Exception error,
     Object userState
 )
 ```
 
-``` c++
+```cpp
 public:
 StreamUpdatedListEventArgs(
     Exception^ error, 
@@ -70,38 +69,38 @@ new :
         userState:Object -> StreamUpdatedListEventArgs
 ```
 
-``` jscript
+```jscript
 public function StreamUpdatedListEventArgs(
     error : Exception, 
     userState : Object
 )
 ```
 
-#### Parameters
+### Parameters
 
   - error  
-    Type: [System.Exception](https://msdn.microsoft.com/en-us/library/c18k6c59\(v=vs.95\))  
+    Type: [System.Exception](https://msdn.microsoft.com/library/c18k6c59\(v=vs.95\))  
     A System.Exception,System.Object object.
 
 <!-- end list -->
 
   - userState  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
-    Use defined state [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\)).
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
+    Use defined state [Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\)).
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamUpdatedListEventArgs Class](streamupdatedlisteventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

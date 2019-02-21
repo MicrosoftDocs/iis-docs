@@ -1,15 +1,7 @@
 ---
-title: "AuthenticationModuleElement Class | Microsoft Docs"
-ms.custom: ""
+title: "AuthenticationModuleElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 56865273-994b-3555-f65b-ce89ac36a5ec
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AuthenticationModuleElement Class
 Represents the type information for an authentication module.  

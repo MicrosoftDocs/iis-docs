@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPathMapper::MapPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPathMapper::MapPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b258e39a-5c1c-761a-73d0-33e5fd237349
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPathMapper::MapPath Method
 Maps [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration paths to custom file system paths.  
@@ -28,7 +20,7 @@ HRESULT MapPath(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrConfigPath`  
  A `BSTR` that contains the configuration path.  
   

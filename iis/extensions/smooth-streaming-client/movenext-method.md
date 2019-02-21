@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,15 +20,15 @@ Move to the next chunk.
 
 ## Syntax
 
-``` csharp
+```csharp
 void MoveNext()
 ```
 
-``` c++
+```cpp
 void MoveNext()
 ```
 
-``` jscript
+```jscript
 function MoveNext()
 ```
 

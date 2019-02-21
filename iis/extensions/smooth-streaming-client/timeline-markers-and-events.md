@@ -12,11 +12,11 @@ mtps_version: v=VS.95
 
 Applications can handle timeline events that occur while a media stream plays or use markers to find specified locations in the stream. The [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) class in the [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md) client library corresponds to StreamIndex element in the XML manifest.
 
-This topic shows how to extract time and text data from StreamIndex elements and initialize [TimelineMarker](https://msdn.microsoft.com/en-us/library/cc672550\(v=vs.95\)) objects. The example extends the examples implemented in the [Silverlight Applications](silverlight-applications.md), [Events](events.md), and [Position in Stream](position-in-stream.md) topics in order to create a table of contents that specifies chapter headings.
+This topic shows how to extract time and text data from StreamIndex elements and initialize [TimelineMarker](https://msdn.microsoft.com/library/cc672550\(v=vs.95\)) objects. The example extends the examples implemented in the [Silverlight Applications](silverlight-applications.md), [Events](events.md), and [Position in Stream](position-in-stream.md) topics in order to create a table of contents that specifies chapter headings.
 
 ## Defining Timeline Events in the Manifest
 
-The client manifest file, which has the extension .ismc, uses XML to specify metadata for Smooth Streaming media. There are three types of StreamIndex elements in the manifest: Video, Audio, and Script. Each type is also identified as a member of the [MediaStreamType](https://msdn.microsoft.com/en-us/library/cc672180\(v=vs.95\)) enumeration.
+The client manifest file, which has the extension .ismc, uses XML to specify metadata for Smooth Streaming media. There are three types of StreamIndex elements in the manifest: Video, Audio, and Script. Each type is also identified as a member of the [MediaStreamType](https://msdn.microsoft.com/library/cc672180\(v=vs.95\)) enumeration.
 
 Timeline events are specified in a StreamIndex element as shown in the following example. The manifest can contain as many StreamIndex elements as are required in order to implement markers, captions, animations, or other features that are activated at time-specified locations in the media stream. (For more information about captions, see [Manifest Merge](manifest-merge.md).) Using manifest syntax, you can identify each StreamIndex element by type and attributes.
 
@@ -74,7 +74,7 @@ The TimeScale attribute (here set to 10000000) indicates the tick units by which
 
 ## Extracting Timeline Events and Assigning Markers
 
-When a [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object loads Smooth Streaming media files, the [Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AvailableStreams](https://msdn.microsoft.com/en-us/library/ee532861\(v=vs.95\)) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) contains metadata for all the streams defined by the manifest. StreamIndex elements in manifest XML correspond to [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) objects in application code.
+When a [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object loads Smooth Streaming media files, the [Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AvailableStreams](https://msdn.microsoft.com/library/ee532861\(v=vs.95\)) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) contains metadata for all the streams defined by the manifest. StreamIndex elements in manifest XML correspond to [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) objects in application code.
 
 The following example shows how to use the [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md) event and the asynchronous [BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) and [EndGetChunk](trackinfo-endgetchunk-method-microsoft-web-media-smoothstreaming_1.md) methods to add the markers and initialize the [Markers](smoothstreamingmediaelement-markers-property-microsoft-web-media-smoothstreaming_1.md) collection.
 
@@ -239,7 +239,7 @@ To implement navigation in this scenario, follow the instructions in Defining Ti
           <f>UHVsc2UgdG8gdGhlIGxpbWl0Lg==</f>
         </c>
 
-To set the value of the f element, you must convert the chapter texts to base64 encoded strings. Use the following conversion method, which is available in the [Convert](https://msdn.microsoft.com/en-us/library/dsfy6sz9\(v=vs.95\)) class.
+To set the value of the f element, you must convert the chapter texts to base64 encoded strings. Use the following conversion method, which is available in the [Convert](https://msdn.microsoft.com/library/dsfy6sz9\(v=vs.95\)) class.
 
     System.Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes("Chapter 1"));
 
@@ -378,7 +378,7 @@ The next code segment is the delegate method that gets the user's selection, if 
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Events](events.md)
 

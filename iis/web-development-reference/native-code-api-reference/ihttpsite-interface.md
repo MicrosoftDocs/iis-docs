@@ -1,15 +1,7 @@
 ---
-title: "IHttpSite Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpSite Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3cd41621-c5a7-d717-2138-b5c34abbb539
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpSite Interface
 Provides site-specific information within the current context.  

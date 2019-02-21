@@ -1,5 +1,5 @@
 ---
-title: ChunkDownloadedEventArgs.DownloadResult Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ChunkDownloadedEventArgs.DownloadResult Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: DownloadResult Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.DownloadResult
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.downloadresult(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.set_DownloadResult
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.get_DownloadResult
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkDownloadedEventArgs.DownloadResult Property
@@ -40,7 +39,7 @@ Gets the download result.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property DownloadResult As ChunkResult.ChunkResultState
@@ -54,11 +53,11 @@ Dim value As ChunkResult.ChunkResultState
 value = instance.DownloadResult
 ```
 
-``` csharp
+```csharp
 public ChunkResult.ChunkResultState DownloadResult { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property ChunkResult.ChunkResultState DownloadResult {
     ChunkResult.ChunkResultState get ();
@@ -70,25 +69,25 @@ property ChunkResult.ChunkResultState DownloadResult {
 member DownloadResult : ChunkResult.ChunkResultState with get, private set
 ```
 
-``` jscript
+```jscript
 function get DownloadResult () : ChunkResult.ChunkResultState
 private function set DownloadResult (value : ChunkResult.ChunkResultState)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.ChunkResult.ChunkResultState](chunkresult-chunkresultstate-enumeration-microsoft-web-media-smoothstreaming_1.md)  
 A ChunkResultState object that represents the download result.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkDownloadedEventArgs Class](chunkdownloadedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

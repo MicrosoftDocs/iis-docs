@@ -1,5 +1,5 @@
 ---
-title: Index.Columns Property  (Microsoft.Web.Management.DatabaseManager)
+title: Index.Columns Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Columns Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.Columns
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.index.columns(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Index.Columns
 - Microsoft.Web.Management.DatabaseManager.Index.get_Columns
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Index.Columns Property
@@ -37,7 +36,7 @@ Returns a list of columns for the index.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public ReadOnly Property Columns As IList(Of IndexColumn)
 'Usage
@@ -47,33 +46,33 @@ Dim value As IList(Of IndexColumn)
 value = instance.Columns
 ```
 
-``` csharp
+```csharp
 public IList<IndexColumn> Columns { get; }
 ```
 
-``` c++
+```cpp
 public:
 property IList<IndexColumn^>^ Columns {
     IList<IndexColumn^>^ get ();
 }
 ```
 
-``` jscript
+```jscript
 function get Columns () : IList<IndexColumn>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.90\))\<[IndexColumn](indexcolumn-class-microsoft-web-management-databasemanager.md)\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6)\<[IndexColumn](indexcolumn-class-microsoft-web-management-databasemanager.md)\>  
 An IList interface for the list of [IndexColumn](indexcolumn-class-microsoft-web-management-databasemanager.md) objects.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Index Class](index-class-microsoft-web-management-databasemanager.md)
 

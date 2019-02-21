@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethod::Name Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethod::Name Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 51ecf743-23a0-4f9d-8025-faa7543444d7
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethod::Name Property
 Gets the name of the method.  
@@ -22,7 +14,7 @@ HRESULT Name(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrName`  
  Contains the name of the method.  
   

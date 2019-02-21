@@ -1,15 +1,7 @@
 ---
-title: "IWpfApplicationPreloadUtil::ReportApplicationPreloadFailure Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfApplicationPreloadUtil::ReportApplicationPreloadFailure Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 20bb6577-7910-4878-bf32-1791784b78c2
-caps.latest.revision: 3
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfApplicationPreloadUtil::ReportApplicationPreloadFailure Method
 Reports an application preload failure given the path to the configuration file, failure code, and error string.  
@@ -24,7 +16,7 @@ virtual HRESULT ReportApplicationPreloadFailure(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszConfigPath`  
  [IN] Path to the application’s configuration file.  
   

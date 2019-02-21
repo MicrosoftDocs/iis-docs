@@ -1,15 +1,7 @@
 ---
-title: "IWpfApplicationInfoUtil Interface | Microsoft Docs"
-ms.custom: ""
+title: "IWpfApplicationInfoUtil Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e3f43d1f-cc73-1fa5-ad30-0c01d7ef98e3
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfApplicationInfoUtil Interface
 Exposes a method that retrieves the virtual path and site ID for an application.  

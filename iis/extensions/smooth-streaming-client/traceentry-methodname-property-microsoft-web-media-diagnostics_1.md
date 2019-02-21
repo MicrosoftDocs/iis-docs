@@ -1,5 +1,5 @@
 ---
-title: TraceEntry.MethodName Property  (Microsoft.Web.Media.Diagnostics)
+title: TraceEntry.MethodName Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: MethodName Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.MethodName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.traceentry.methodname(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.get_MethodName
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_MethodName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceEntry.MethodName Property
@@ -40,7 +39,7 @@ Gets or sets the MethodName property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property MethodName As String
@@ -56,11 +55,11 @@ value = instance.MethodName
 instance.MethodName = value
 ```
 
-``` csharp
+```csharp
 public string MethodName { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ MethodName {
     String^ get ();
@@ -72,29 +71,29 @@ property String^ MethodName {
 member MethodName : string with get, set
 ```
 
-``` jscript
+```jscript
 function get MethodName () : String
 function set MethodName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
 A string value that specifies the method name of the method that invoked the trace.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TraceEntry Class](traceentry-class-microsoft-web-media-diagnostics_1.md)
 

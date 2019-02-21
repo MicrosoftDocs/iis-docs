@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.#ctor
 - Microsoft.Web.Media.Diagnostics.CircularList`1.CircularList
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CircularList(T) Constructor
@@ -36,7 +35,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -49,48 +48,48 @@ ROBOTS: INDEX,FOLLOW
 Dim instance As New CircularList(maxLength)
 ```
 
-``` csharp
+```csharp
   public CircularList(
     int maxLength
 )
 ```
 
-``` c++
+```cpp
   public:
 CircularList(
     int maxLength
 )
 ```
 
-``` jscript
+```jscript
   public function CircularList(
     maxLength : int
 )
 ```
 
-#### Parameters
+### Parameters
 
   - maxLength  
-    Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
     An integer value that specifies the maximum length of this list.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CircularList\< (Of \< ( \<'T\> ) \> ) \> Class](circularlist-t-class-microsoft-web-media-diagnostics_1.md)
 

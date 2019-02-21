@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::GetHttpMethod Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::GetHttpMethod Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f9d9766f-8022-74ce-f819-daba64b93498
-caps.latest.revision: 27
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::GetHttpMethod Method
 Returns the HTTP method for the current request.  
@@ -22,7 +14,7 @@ virtual PCSTR GetHttpMethod(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.#ctor
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedEventArgs
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamUpdatedEventArgs Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [StreamUpdatedEventArgs](streamupdatedeventarg
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -55,7 +54,7 @@ Dim instance As New StreamUpdatedEventArgs(stream, _
     action, timestamp)
 ```
 
-``` csharp
+```csharp
 public StreamUpdatedEventArgs(
     StreamInfo stream,
     StreamUpdatedEventArgs.StreamUpdatedAction action,
@@ -63,7 +62,7 @@ public StreamUpdatedEventArgs(
 )
 ```
 
-``` c++
+```cpp
 public:
 StreamUpdatedEventArgs(
     StreamInfo^ stream, 
@@ -79,7 +78,7 @@ new :
         timestamp:Nullable<TimeSpan> -> StreamUpdatedEventArgs
 ```
 
-``` jscript
+```jscript
 public function StreamUpdatedEventArgs(
     stream : StreamInfo, 
     action : StreamUpdatedEventArgs.StreamUpdatedAction, 
@@ -87,7 +86,7 @@ public function StreamUpdatedEventArgs(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - stream  
     Type: [Microsoft.Web.Media.SmoothStreaming.StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)  
@@ -102,22 +101,22 @@ public function StreamUpdatedEventArgs(
 <!-- end list -->
 
   - timestamp  
-    Type: [System.Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0\(v=vs.95\))\<[TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))\>  
-    A [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\)) object.
+    Type: [System.Nullable](https://msdn.microsoft.com/library/b3h38hb0\(v=vs.95\))\<[TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))\>  
+    A [TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamUpdatedEventArgs Class](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

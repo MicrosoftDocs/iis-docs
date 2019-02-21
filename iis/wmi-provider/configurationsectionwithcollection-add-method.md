@@ -1,15 +1,7 @@
 ---
-title: "ConfigurationSectionWithCollection.Add Method | Microsoft Docs"
-ms.custom: ""
+title: "ConfigurationSectionWithCollection.Add Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ba05cc65-3f0e-35d5-f8a0-b4e3f82dc96e
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigurationSectionWithCollection.Add Method
 Adds an element to a collection in a configuration section.  
@@ -24,7 +16,7 @@ ConfigurationSectionWithCollection.Add collectionName, element;
 ConfigurationSectionWithCollection.Add collectionName, element  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Definition|  
 |----------|----------------|  

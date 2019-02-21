@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ChunkListChanged
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestInfo.ChunkListChanged Event
@@ -38,7 +37,7 @@ Event activated when the fragment info of a new text/binary chunk in a live scen
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Event ChunkListChanged As EventHandler(Of StreamUpdatedEventArgs)
@@ -50,11 +49,11 @@ Dim handler As EventHandler(Of StreamUpdatedEventArgs)
 AddHandler instance.ChunkListChanged, handler
 ```
 
-``` csharp
+```csharp
 public event EventHandler<StreamUpdatedEventArgs> ChunkListChanged
 ```
 
-``` c++
+```cpp
 public:
  event EventHandler<StreamUpdatedEventArgs^>^ ChunkListChanged {
     void add (EventHandler<StreamUpdatedEventArgs^>^ value);
@@ -67,19 +66,19 @@ member ChunkListChanged : <EventHandler<StreamUpdatedEventArgs>,
     StreamUpdatedEventArgs>
 ```
 
-``` jscript
+```jscript
 JScript supports the use of events, but not the declaration of new ones.
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

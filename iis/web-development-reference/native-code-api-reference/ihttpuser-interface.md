@@ -1,15 +1,7 @@
 ---
-title: "IHttpUser Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUser Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bf06e01f-21ea-14da-9bf5-aef117d9800c
-caps.latest.revision: 47
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUser Interface
 Provides request-specific information about a user. This information includes data such as credentials and role-based authorization.  

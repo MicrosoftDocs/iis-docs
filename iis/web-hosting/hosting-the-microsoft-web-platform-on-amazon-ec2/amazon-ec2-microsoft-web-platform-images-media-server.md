@@ -151,7 +151,7 @@ Now open the `c:\inetpub\wwwroot` directory. You will see the following files:
 
 The file extensions starting with .is\* are the Smooth Streaming files in their different bandwidths. To get started on how to create your own Smooth Streaming files please go to [https://www.iis.net/learn/media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming](../../media/on-demand-smooth-streaming/getting-started-with-iis-smooth-streaming.md).
 
-The Microsoft.Web.Media.SmoothStreaming.dll assembly represents the media player that provides [MediaElement](https://msdn.microsoft.com/en-us/library/system.windows.controls.mediaelement.aspx) capabilities and the SmoothStreamingSamplePlayer.xap file is the compilled Silverlight application that displays the Media Player. The two other files (iisstart.htm and iisstart.htm are the previous default documents in the wwwroot directory - you can delete them if you want.
+The Microsoft.Web.Media.SmoothStreaming.dll assembly represents the media player that provides [MediaElement](https://msdn.microsoft.com/library/system.windows.controls.mediaelement.aspx) capabilities and the SmoothStreamingSamplePlayer.xap file is the compilled Silverlight application that displays the Media Player. The two other files (iisstart.htm and iisstart.htm are the previous default documents in the wwwroot directory - you can delete them if you want.
 
 Now let's quickly look into default.htm. The two important pieces are the source for the Silverlight app. If you have your own Silverlight player application you want to replace it with your .xap file. The mediaSource element is the second important setting in the default.htm. It represents the Smooth Streaming media stream.
 

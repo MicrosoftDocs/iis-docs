@@ -1,15 +1,7 @@
 ---
-title: "Site.Start Method1 | Microsoft Docs"
-ms.custom: ""
+title: "Site.Start Method1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5fb2096c-75dd-1a4c-2491-a40f01e8aa98
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Site.Start Method1
 Starts an existing Web site.  
@@ -24,7 +16,7 @@ oSite.Start
 oSite.Start();  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

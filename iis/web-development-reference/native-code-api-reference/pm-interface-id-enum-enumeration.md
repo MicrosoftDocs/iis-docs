@@ -1,15 +1,7 @@
 ---
-title: "PM_INTERFACE_ID_ENUM Enumeration | Microsoft Docs"
-ms.custom: ""
+title: "PM_INTERFACE_ID_ENUM Enumeration"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d2fb6f55-6f44-12ad-09d0-be4efde7ba1c
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PM_INTERFACE_ID_ENUM Enumeration
 Defines the interfaces that the [IProtocolManager::GetPmInterface](../../web-development-reference\native-code-api-reference/iprotocolmanager-getpminterface-method.md) method supports.  

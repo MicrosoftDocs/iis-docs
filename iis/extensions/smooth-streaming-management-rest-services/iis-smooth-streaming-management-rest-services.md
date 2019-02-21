@@ -22,7 +22,7 @@ This section contains reference documentation for the IIS Smooth Streaming Manag
 
 ## See Also
 
-#### Other Resources
+### Other Resources
 
 [SMIL™ Synchronized Multimedia Integration Language](http://www.w3.org/audiovideo/overview.html)
 

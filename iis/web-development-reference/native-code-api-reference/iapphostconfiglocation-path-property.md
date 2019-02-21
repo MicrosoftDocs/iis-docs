@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigLocation::Path Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigLocation::Path Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1abfd93e-a6df-8d5e-565e-ab384be55724
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigLocation::Path Property
 Gets the path of the current configuration location.  
@@ -24,7 +16,7 @@ HRESULT get_Path(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrLocationPath`  
  A pointer to a `BSTR` that contains the path of the current location.  
   

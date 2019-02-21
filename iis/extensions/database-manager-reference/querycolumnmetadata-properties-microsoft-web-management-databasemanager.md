@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # QueryColumnMetadata Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [QueryColumnMetadata](querycolumnmetadata-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -26,11 +23,9 @@ The [QueryColumnMetadata](querycolumnmetadata-class-microsoft-web-management-dat
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Tag](querycolumnmetadata-tag-property-microsoft-web-management-databasemanager.md)|Returns a generic object that is stored in the [QueryColumnMetadata](querycolumnmetadata-class-microsoft-web-management-databasemanager.md) class.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[TypeInfo](querycolumnmetadata-typeinfo-property-microsoft-web-management-databasemanager.md)|Retrieves the type information for the query column's metadata.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [QueryColumnMetadata Class](querycolumnmetadata-class-microsoft-web-management-databasemanager.md)
 

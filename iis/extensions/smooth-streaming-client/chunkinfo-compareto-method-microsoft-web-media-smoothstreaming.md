@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkInfo.CompareTo
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CompareTo Method
@@ -35,7 +34,7 @@ Compares a chunk to another object.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Function CompareTo ( _
@@ -50,57 +49,57 @@ Dim returnValue As Integer
 returnValue = instance.CompareTo(other)
 ```
 
-``` csharp
+```csharp
   public int CompareTo(
     Object other
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual int CompareTo(
     Object^ other
 ) sealed
 ```
 
-``` jscript
+```jscript
   public final function CompareTo(
     other : Object
 ) : int
 ```
 
-#### Parameters
+### Parameters
 
   - other  
-    Type: [System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
     An \[T:System.Object.\]  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 Integer value that indicates the result of the comparison, zero if equal, less than zero if earlier in time, greater than zero if later in time.  
 
-#### Implements
+### Implements
 
-[IComparable. . :: . .CompareTo(Object)](https://msdn.microsoft.com/en-us/library/4ah99705\(v=vs.90\))  
+[IComparable.CompareTo(Object)](https://msdn.microsoft.com/library/4ah99705)  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkInfo Class](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

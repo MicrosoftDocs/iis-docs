@@ -1,15 +1,7 @@
 ---
-title: "CentralBinaryLogFile Class1 | Microsoft Docs"
-ms.custom: ""
+title: "CentralBinaryLogFile Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d4a0f006-fd94-007a-5d82-3cd577bbd014
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CentralBinaryLogFile Class1
 Configures settings for centralized binary logging on a server.  

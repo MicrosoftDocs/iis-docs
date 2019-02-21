@@ -1,15 +1,7 @@
 ---
-title: "AspSection Class1 | Microsoft Docs"
-ms.custom: ""
+title: "AspSection Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ec1156b1-7d9c-443f-2f75-f9a96f33ea5a
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AspSection Class1
 Exposes Active Server Pages (ASP) configuration settings for ASP applications.  

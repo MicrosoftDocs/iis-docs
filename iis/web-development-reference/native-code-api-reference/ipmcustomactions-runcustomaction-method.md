@@ -1,15 +1,7 @@
 ---
-title: "IPmCustomActions::RunCustomAction Method | Microsoft Docs"
-ms.custom: ""
+title: "IPmCustomActions::RunCustomAction Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1e5e7cb6-1dd9-e28e-d4c7-e94454dd1c8b
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPmCustomActions::RunCustomAction Method
 Enables the worker process framework to request support functions for Run-Time Status and Control data from a protocol manager, and reports results back by using an [ICustomActionResultCallback](../../web-development-reference\native-code-api-reference/icustomactionresultcallback-interface.md) interface.  
@@ -24,7 +16,7 @@ virtual HRESULT RunCustomAction(
 ) = 0 ;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszFunctionName`  
  A pointer to a string that contains the name of the custom Run-Time Status and Control action to be performed.  
   

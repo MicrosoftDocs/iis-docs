@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethodInstance::GetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethodInstance::GetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 209af03c-7f2c-4884-9ea2-87452cbcff7e
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethodInstance::GetMetadata Method
 Gets the metadata specified.  
@@ -23,7 +15,7 @@ Gets the metadata specified.
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrMetadataType`  
  The name of the metadata to retrieve.  
   

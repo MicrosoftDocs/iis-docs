@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.VerifyDependencies
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseProvider.VerifyDependencies Method
@@ -35,7 +34,7 @@ Verifies the database dependencies for your provider.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Overridable Sub VerifyDependencies
 'Usage
@@ -44,16 +43,16 @@ Dim instance As DatabaseProvider
 instance.VerifyDependencies()
 ```
 
-``` csharp
+```csharp
 public virtual void VerifyDependencies()
 ```
 
-``` c++
+```cpp
 public:
 virtual void VerifyDependencies()
 ```
 
-``` jscript
+```jscript
 public function VerifyDependencies()
 ```
 
@@ -65,7 +64,7 @@ You can optionally implement the VerifyDependencies method to verify any depende
 
 The following code sample illustrates an example VerifyDependencies method that verifies the dependencies for a sample OLEDB provider.
 
-``` vb
+```vb
 
     ' Verify the database provider dependencies.
     Public Overrides Sub VerifyDependencies()
@@ -94,7 +93,7 @@ The following code sample illustrates an example VerifyDependencies method that 
 
 ```
 
-``` csharp
+```csharp
 
         // Verify the database provider dependencies.
         public override void VerifyDependencies()
@@ -127,11 +126,11 @@ The following code sample illustrates an example VerifyDependencies method that 
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 

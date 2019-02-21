@@ -1,16 +1,8 @@
 ---
-title: "FTP Native-Code Extensibility Structures | Microsoft Docs"
-ms.custom: ""
+title: "FTP Native-Code Extensibility Structures"
 ms.date: "09/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bc442670-15a7-4cc2-a601-0e217173f828
-caps.latest.revision: 6
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # FTP Native-Code Extensibility Structures
 Describes the native-code structures for FTP 7.5 in IIS 7.5.  

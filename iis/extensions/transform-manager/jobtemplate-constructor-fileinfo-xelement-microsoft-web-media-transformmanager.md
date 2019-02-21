@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobTemplate Constructor (FileInfo, XElement)
@@ -34,7 +33,7 @@ Initializes a new instance of the [JobTemplate](jobtemplate-class-microsoft-web-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -50,14 +49,14 @@ Dim instance As New JobTemplate(fileInfo, _
     jobTemplateElement)
 ```
 
-``` csharp
+```csharp
   public JobTemplate(
     FileInfo fileInfo,
     XElement jobTemplateElement
 )
 ```
 
-``` c++
+```cpp
   public:
 JobTemplate(
     FileInfo^ fileInfo, 
@@ -71,28 +70,28 @@ JobTemplate(
         jobTemplateElement:XElement -> JobTemplate
 ```
 
-``` jscript
+```jscript
   public function JobTemplate(
     fileInfo : FileInfo, 
     jobTemplateElement : XElement
 )
 ```
 
-#### Parameters
+### Parameters
 
   - fileInfo  
-    Type: [System.IO. . :: . .FileInfo](https://msdn.microsoft.com/en-us/library/akth6b1k\(v=vs.90\))  
+    Type: [System.IO.FileInfo](https://msdn.microsoft.com/library/akth6b1k)  
     The file information of the job template XML file.  
 
 <!-- end list -->
 
   - jobTemplateElement  
-    Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+    Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
     An object that contains the job template.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobTemplate Class](jobtemplate-class-microsoft-web-media-transformmanager.md)
 

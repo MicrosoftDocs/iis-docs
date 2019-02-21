@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the selected streams.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IVectorView<IManifestStream> SelectedStreams { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property IVectorView<IManifestStream^>^ SelectedStreams {
 IVectorView<IManifestStream^>^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get SelectedStreams () : IVectorView<IManifestStream>
 ```
 

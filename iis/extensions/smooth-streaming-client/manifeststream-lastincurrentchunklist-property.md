@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the last chunk iterator in the current chunklist.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IChunkIter LastInCurrentChunkList { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property IChunkIter^ LastInCurrentChunkList {
 IChunkIter^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get LastInCurrentChunkList () : IChunkIter
 ```
 

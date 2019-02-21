@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ParseManifest
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestInfo.ParseManifest Method
@@ -36,7 +35,7 @@ Parses the Smooth Streaming manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Function ParseManifest ( _
@@ -53,14 +52,14 @@ returnValue = ManifestInfo.ParseManifest(manifestStream, _
     manifestUri)
 ```
 
-``` csharp
+```csharp
 public static ManifestInfo ParseManifest(
     Stream manifestStream,
     Uri manifestUri
 )
 ```
 
-``` c++
+```cpp
 public:
 static ManifestInfo^ ParseManifest(
     Stream^ manifestStream, 
@@ -74,43 +73,43 @@ static member ParseManifest :
         manifestUri:Uri -> ManifestInfo 
 ```
 
-``` jscript
+```jscript
 public static function ParseManifest(
     manifestStream : Stream, 
     manifestUri : Uri
 ) : ManifestInfo
 ```
 
-#### Parameters
+### Parameters
 
   - manifestStream  
-    Type: [System.IO.Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\))  
+    Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\))  
     A stream object that contains the manifest.
 
 <!-- end list -->
 
   - manifestUri  
-    Type: [System.Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\))  
+    Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\))  
     The Uri of the manifest.
 
-#### Return Value
+### Return Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.ManifestInfo](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)  
 A [ManifestInfo](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md) object.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

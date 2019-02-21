@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # View Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [View](view-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -23,11 +20,9 @@ The [View](view-class-microsoft-web-management-databasemanager.md) type exposes 
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](view-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name for a view.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Schema](view-schema-property-microsoft-web-management-databasemanager.md)|Gets or sets the schema name for a view.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [View Class](view-class-microsoft-web-management-databasemanager.md)
 

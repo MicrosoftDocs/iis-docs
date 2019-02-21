@@ -1,15 +1,7 @@
 ---
-title: "HttpCachePolicySettings Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpCachePolicySettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5eeb1357-ddb1-a9b2-fc3b-c34428e9b6ed
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpCachePolicySettings Class
 Represents the default HTTP cache policy for network resources.  

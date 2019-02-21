@@ -1,15 +1,7 @@
 ---
-title: "EmbeddedObject Class1 | Microsoft Docs"
-ms.custom: ""
+title: "EmbeddedObject Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0cca8529-7424-62d9-301c-e3c44fd1cd4b
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # EmbeddedObject Class1
 Serves as a base type for embedded objects.  

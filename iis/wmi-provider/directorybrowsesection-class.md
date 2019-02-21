@@ -1,15 +1,7 @@
 ---
-title: "DirectoryBrowseSection Class | Microsoft Docs"
-ms.custom: ""
+title: "DirectoryBrowseSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9bb4e71c-9b3c-7539-a6a1-33808d7698ce
-caps.latest.revision: 28
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DirectoryBrowseSection Class
 Configures directory browsing in IIS.  

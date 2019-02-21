@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetUrlInfo Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetUrlInfo Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c7f49659-be13-b8eb-d401-3f35cdf88213
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetUrlInfo Method
 Retrieves the URL information container for the current context.  
@@ -22,7 +14,7 @@ virtual IHttpUrlInfo* GetUrlInfo(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

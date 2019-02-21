@@ -1,5 +1,5 @@
 ---
-title: WorkQueue.FinishedJobs Property  (Microsoft.Web.Media.TransformManager)
+title: WorkQueue.FinishedJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: FinishedJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.WorkQueue.FinishedJobs
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.workqueue.finishedjobs(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.WorkQueue.get_FinishedJobs
 - Microsoft.Web.Media.TransformManager.WorkQueue.FinishedJobs
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # FinishedJobs Property
@@ -38,7 +37,7 @@ Gets a collection of job details that specify jobs that have finished.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property FinishedJobs As Collection(Of JobDetails)
@@ -51,11 +50,11 @@ Dim value As Collection(Of JobDetails)
 value = instance.FinishedJobs
 ```
 
-``` csharp
+```csharp
   public Collection<JobDetails> FinishedJobs { get; }
 ```
 
-``` c++
+```cpp
   public:
 property Collection<JobDetails^>^ FinishedJobs {
     Collection<JobDetails^>^ get ();
@@ -66,18 +65,18 @@ property Collection<JobDetails^>^ FinishedJobs {
   member FinishedJobs : Collection<JobDetails>
 ```
 
-``` jscript
+```jscript
   function get FinishedJobs () : Collection<JobDetails>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 A collection of job details that specify jobs that have finished.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [WorkQueue Class](workqueue-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IWebSocketContext::CloseTcpConnection Method | Microsoft Docs"
-ms.custom: ""
+title: "IWebSocketContext::CloseTcpConnection Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6361b595-0d6d-436c-a67d-d5a8f98d5b46
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWebSocketContext::CloseTcpConnection Method
 Signals the close of the TCP connection. The connection will not shut down until both sides acknowledge the close.  
@@ -22,7 +14,7 @@ virtual VOID CloseTcpConnection(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

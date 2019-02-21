@@ -1,5 +1,5 @@
 ---
-title: JobManager.SchedulerInfo Property  (Microsoft.Web.Media.TransformManager)
+title: JobManager.SchedulerInfo Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerInfo Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.SchedulerInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.schedulerinfo(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.get_SchedulerInfo
 - Microsoft.Web.Media.TransformManager.JobManager.SchedulerInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerInfo Property
@@ -38,7 +37,7 @@ Gets scheduling information about the IIS Transform Manager job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property SchedulerInfo As SchedulerInfo
@@ -51,11 +50,11 @@ Dim value As SchedulerInfo
 value = instance.SchedulerInfo
 ```
 
-``` csharp
+```csharp
   public SchedulerInfo SchedulerInfo { get; }
 ```
 
-``` c++
+```cpp
   public:
 property SchedulerInfo^ SchedulerInfo {
     SchedulerInfo^ get ();
@@ -66,18 +65,18 @@ property SchedulerInfo^ SchedulerInfo {
   member SchedulerInfo : SchedulerInfo
 ```
 
-``` jscript
+```jscript
   function get SchedulerInfo () : SchedulerInfo
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .SchedulerInfo](schedulerinfo-class-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.SchedulerInfo](schedulerinfo-class-microsoft-web-media-transformmanager.md)  
 The scheduling information about the IIS Transform Manager job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

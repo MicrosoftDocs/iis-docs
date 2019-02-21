@@ -1,15 +1,7 @@
 ---
-title: "IHttpUrlInfo::GetModuleContextContainer Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUrlInfo::GetModuleContextContainer Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a6ecf78b-415f-32f2-58f2-ee42901c8c59
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUrlInfo::GetModuleContextContainer Method
 Returns the context container for the URL-specific information.  
@@ -22,7 +14,7 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

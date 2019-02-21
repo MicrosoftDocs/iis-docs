@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CreateInstance Method
@@ -34,7 +33,7 @@ Creates a new instance of a [Scheduler](scheduler-class-microsoft-web-media-tran
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Function CreateInstance As Scheduler
@@ -46,11 +45,11 @@ Dim returnValue As Scheduler
 returnValue = instance.CreateInstance()
 ```
 
-``` csharp
+```csharp
   public Scheduler CreateInstance()
 ```
 
-``` c++
+```cpp
   public:
 Scheduler^ CreateInstance()
 ```
@@ -59,13 +58,13 @@ Scheduler^ CreateInstance()
   member CreateInstance : unit -> Scheduler 
 ```
 
-``` jscript
+```jscript
   public function CreateInstance() : Scheduler
 ```
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .Scheduler](scheduler-class-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.Scheduler](scheduler-class-microsoft-web-media-transformmanager.md)  
 A local scheduler.  
 
 ## Remarks
@@ -74,7 +73,7 @@ If you call this method overload, no information will be logged with the schedul
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SchedulerInfo Class](schedulerinfo-class-microsoft-web-media-transformmanager.md)
 

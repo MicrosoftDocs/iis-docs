@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.RestrictTracks
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # RestrictTracks Method
@@ -35,7 +34,7 @@ Replaces [AvailableTracks](streaminfo-availabletracks-property-microsoft-web-med
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub RestrictTracks ( _
@@ -49,29 +48,29 @@ Dim availableTracks As IList(Of TrackInfo)
 instance.RestrictTracks(availableTracks)
 ```
 
-``` csharp
+```csharp
   public void RestrictTracks(
     IList<TrackInfo> availableTracks
 )
 ```
 
-``` c++
+```cpp
   public:
 void RestrictTracks(
     IList<TrackInfo^>^ availableTracks
 )
 ```
 
-``` jscript
+```jscript
   public function RestrictTracks(
     availableTracks : IList<TrackInfo>
 )
 ```
 
-#### Parameters
+### Parameters
 
   - availableTracks  
-    Type: [System.Collections.Generic. . :: . .IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.90\))\< (Of \< ( \<'[TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)\> ) \> ) \>  
+    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6)\< (Of \< ( \<'[TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)\> ) \> ) \>  
     A new list of available tracks. The list must be a strict subset of current [AvailableTracks](streaminfo-availabletracks-property-microsoft-web-media-smoothstreaming_1.md).  
 
 ## Remarks
@@ -176,17 +175,17 @@ The following example restricts tracks to tracks of the same resolution.
 
 ## Version Information
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbBackupManager.CreateBackup
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbBackupManager.CreateBackup Method
@@ -35,7 +34,7 @@ Creates a database backup.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Sub CreateBackup ( _
     connectionString As String, _
@@ -50,37 +49,37 @@ instance.CreateBackup(connectionString, _
     backupPath)
 ```
 
-``` csharp
+```csharp
 void CreateBackup(
     string connectionString,
     string backupPath
 )
 ```
 
-``` c++
+```cpp
 void CreateBackup(
     String^ connectionString, 
     String^ backupPath
 )
 ```
 
-``` jscript
+```jscript
 function CreateBackup(
     connectionString : String, 
     backupPath : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
 <!-- end list -->
 
   - backupPath  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The path of the backup to create.  
 
 ## Remarks
@@ -91,7 +90,7 @@ All implementations of the [IDbBackupManager](idbbackupmanager-interface-microso
 
 The following code sample implements the CreateBackup method for an OLEDB connection that uses the connection string and backup path that the database manager provides.
 
-``` vb
+```vb
 
     ' Create a database backup.
     Public Sub CreateBackup( _
@@ -122,7 +121,7 @@ The following code sample implements the CreateBackup method for an OLEDB connec
 
 ```
 
-``` csharp
+```csharp
 
         // Create a database backup.
         public void CreateBackup(string connectionString, string backupPath)
@@ -161,11 +160,11 @@ The following code sample implements the CreateBackup method for an OLEDB connec
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbBackupManager Interface](idbbackupmanager-interface-microsoft-web-management-databasemanager.md)
 

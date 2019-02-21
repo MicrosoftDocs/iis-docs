@@ -1,5 +1,5 @@
 ---
-title: JobDetails.JobDefinitionId Property  (Microsoft.Web.Media.TransformManager)
+title: JobDetails.JobDefinitionId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinitionId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.JobDefinitionId
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.jobdefinitionid(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.set_JobDefinitionId
 - Microsoft.Web.Media.TransformManager.JobDetails.JobDefinitionId
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDefinitionId Property
@@ -40,7 +39,7 @@ Gets or sets the ID of the [JobDefinition](jobdefinition-class-microsoft-web-med
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property JobDefinitionId As String
@@ -56,12 +55,12 @@ value = instance.JobDefinitionId
 instance.JobDefinitionId = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string JobDefinitionId { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ JobDefinitionId {
@@ -75,19 +74,19 @@ property String^ JobDefinitionId {
 member JobDefinitionId : string with get, set
 ```
 
-``` jscript
+```jscript
   function get JobDefinitionId () : String
 function set JobDefinitionId (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The ID of the job definition that created this job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerInfo Constructor (JobScheduler)
@@ -34,7 +33,7 @@ Initializes a new instance of the [SchedulerInfo](schedulerinfo-class-microsoft-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -47,13 +46,13 @@ Initializes a new instance of the [SchedulerInfo](schedulerinfo-class-microsoft-
 Dim instance As New SchedulerInfo(scheduler)
 ```
 
-``` csharp
+```csharp
   public SchedulerInfo(
     JobScheduler scheduler
 )
 ```
 
-``` c++
+```cpp
   public:
 SchedulerInfo(
     JobScheduler^ scheduler
@@ -65,21 +64,21 @@ SchedulerInfo(
         scheduler:JobScheduler -> SchedulerInfo
 ```
 
-``` jscript
+```jscript
   public function SchedulerInfo(
     scheduler : JobScheduler
 )
 ```
 
-#### Parameters
+### Parameters
 
   - scheduler  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobScheduler](jobscheduler-class-microsoft-web-media-transformmanager.md)  
     A job scheduler that contains job details.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SchedulerInfo Class](schedulerinfo-class-microsoft-web-media-transformmanager.md)
 

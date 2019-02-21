@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::GetHttpVersion Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::GetHttpVersion Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f040ca7b-9b53-af66-c03f-b298d45448ea
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::GetHttpVersion Method
 Returns the HTTP version for the request.  
@@ -23,7 +15,7 @@ virtual VOID GetHttpVersion(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pMajorVersion`  
  [OUT] A pointer to a `USHORT` buffer that receives the HTTP major version.  
   

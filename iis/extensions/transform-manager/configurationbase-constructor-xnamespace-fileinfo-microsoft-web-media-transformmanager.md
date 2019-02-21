@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationBase Constructor (XNamespace, FileInfo)
@@ -34,7 +33,7 @@ Initializes a new instance of the [ConfigurationBase](configurationbase-class-mi
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -50,14 +49,14 @@ Dim instance As New ConfigurationBase(baseNamespace, _
     fileInfo)
 ```
 
-``` csharp
+```csharp
   public ConfigurationBase(
     XNamespace baseNamespace,
     FileInfo fileInfo
 )
 ```
 
-``` c++
+```cpp
   public:
 ConfigurationBase(
     XNamespace^ baseNamespace, 
@@ -71,36 +70,36 @@ ConfigurationBase(
         fileInfo:FileInfo -> ConfigurationBase
 ```
 
-``` jscript
+```jscript
   public function ConfigurationBase(
     baseNamespace : XNamespace, 
     fileInfo : FileInfo
 )
 ```
 
-#### Parameters
+### Parameters
 
   - baseNamespace  
-    Type: [System.Xml.Linq. . :: . .XNamespace](https://msdn.microsoft.com/en-us/library/bb291898\(v=vs.90\))  
+    Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
     An XML namespace.  
 
 <!-- end list -->
 
   - fileInfo  
-    Type: [System.IO. . :: . .FileInfo](https://msdn.microsoft.com/en-us/library/akth6b1k\(v=vs.90\))  
-    A [FileInfo](https://msdn.microsoft.com/en-us/library/akth6b1k\(v=vs.90\)) object that is used by IIS Transform Manager to retrieve file details.  
+    Type: [System.IO.FileInfo](https://msdn.microsoft.com/library/akth6b1k)  
+    A [FileInfo](https://msdn.microsoft.com/library/akth6b1k) object that is used by IIS Transform Manager to retrieve file details.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[ArgumentNullException](https://msdn.microsoft.com/en-us/library/27426hcy(v=vs.90))|baseNamespace is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .
+|[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|baseNamespace is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .
 -or-
 fileInfo is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

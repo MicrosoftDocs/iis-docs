@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.MaintenanceIntervalDisplayUnit Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.MaintenanceIntervalDisplayUnit Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: MaintenanceIntervalDisplayUnit Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceIntervalDisplayUnit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.maintenanceintervaldisplayunit(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_MaintenanceIntervalDisplayUnit
 - Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceIntervalDisplayUnit
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # MaintenanceIntervalDisplayUnit Property
@@ -40,7 +39,7 @@ Gets or sets the unit of time that is used with the [MaintenanceIntervalMinutes]
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property MaintenanceIntervalDisplayUnit As String
@@ -56,12 +55,12 @@ value = instance.MaintenanceIntervalDisplayUnit
 instance.MaintenanceIntervalDisplayUnit = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string MaintenanceIntervalDisplayUnit { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ MaintenanceIntervalDisplayUnit {
@@ -75,14 +74,14 @@ property String^ MaintenanceIntervalDisplayUnit {
 member MaintenanceIntervalDisplayUnit : string with get, set
 ```
 
-``` jscript
+```jscript
   function get MaintenanceIntervalDisplayUnit () : String
 function set MaintenanceIntervalDisplayUnit (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The unit of time.  
 
 ## Remarks
@@ -91,7 +90,7 @@ The MaintenanceIntervalDisplayUnit property modifies the [MaintenanceIntervalMin
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

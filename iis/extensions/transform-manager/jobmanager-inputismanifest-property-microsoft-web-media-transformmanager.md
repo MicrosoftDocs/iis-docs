@@ -1,5 +1,5 @@
 ---
-title: JobManager.InputIsManifest Property  (Microsoft.Web.Media.TransformManager)
+title: JobManager.InputIsManifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputIsManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.InputIsManifest
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.inputismanifest(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.get_InputIsManifest
 - Microsoft.Web.Media.TransformManager.JobManager.InputIsManifest
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # InputIsManifest Property
@@ -38,7 +37,7 @@ Gets a value that indicates whether the file that initiates job creation is a SM
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property InputIsManifest As Boolean
@@ -51,11 +50,11 @@ Dim value As Boolean
 value = instance.InputIsManifest
 ```
 
-``` csharp
+```csharp
   public bool InputIsManifest { get; }
 ```
 
-``` c++
+```cpp
   public:
 property bool InputIsManifest {
     bool get ();
@@ -66,18 +65,18 @@ property bool InputIsManifest {
   member InputIsManifest : bool
 ```
 
-``` jscript
+```jscript
   function get InputIsManifest () : boolean
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 A value that indicates whether the file that initiates job creation is a SMIL 2.0-compliant manifest.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "PFN_WEB_CORE_SET_METADATA_DLL_ENTRY Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_WEB_CORE_SET_METADATA_DLL_ENTRY Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 378b9c64-303b-4c09-a3e5-48507650192e
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_WEB_CORE_SET_METADATA_DLL_ENTRY Function
 Sets metadata options for a web core activation.  
@@ -23,7 +15,7 @@ typedef HRESULT(   * PFN_WEB_CORE_SET_METADATA_DLL_ENTRY)(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Parameter|Description|  
 |---------------|-----------------|  

@@ -1,15 +1,7 @@
 ---
-title: "ExpressionBuilder Class | Microsoft Docs"
-ms.custom: ""
+title: "ExpressionBuilder Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d5626c9b-c688-06c7-df5d-abe450a477a5
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ExpressionBuilder Class
 Maps an expression prefix to an expression builder type.  
@@ -76,8 +68,8 @@ class ExpressionBuilder : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Compilation.ExpressionPrefixAttribute](/dotnet/api/system.web.compilation.expressionprefixattribute?view=netframework-4.7.2)  
- [System.Web.Configuration.CompilationSection.ExpressionBuilders](/dotnet/api/system.web.configuration.compilationsection.expressionbuilders?view=netframework-4.7.2)
+ [System.Web.Compilation.ExpressionPrefixAttribute](/dotnet/api/system.web.compilation.expressionprefixattribute)  
+ [System.Web.Configuration.CompilationSection.ExpressionBuilders](/dotnet/api/system.web.configuration.compilationsection.expressionbuilders)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
  [ExpressionBuilderSettings Class](../wmi-provider/expressionbuildersettings-class.md)

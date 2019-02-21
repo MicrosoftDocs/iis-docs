@@ -1,15 +1,7 @@
 ---
-title: "IPmApplicationPreload Interface | Microsoft Docs"
-ms.custom: ""
+title: "IPmApplicationPreload Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7f5b8269-ce7f-4be7-8cb7-c59392e0816c
-caps.latest.revision: 3
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPmApplicationPreload Interface
 Enables the worker process to preload applications into server memory.  

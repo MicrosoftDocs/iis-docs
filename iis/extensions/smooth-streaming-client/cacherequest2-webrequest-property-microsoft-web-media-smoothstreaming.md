@@ -1,5 +1,5 @@
 ---
-title: CacheRequest2.WebRequest Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheRequest2.WebRequest Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: WebRequest Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheRequest2.WebRequest
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacherequest2.webrequest(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest2.set_WebRequest
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest2.get_WebRequest
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheRequest2.WebRequest Property
@@ -40,7 +39,7 @@ Gets or sets a web request that the media element downloader uses for downloadin
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property WebRequest As HttpWebRequest
@@ -56,11 +55,11 @@ value = instance.WebRequest
 instance.WebRequest = value
 ```
 
-``` csharp
+```csharp
 public HttpWebRequest WebRequest { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property HttpWebRequest^ WebRequest {
     HttpWebRequest^ get ();
@@ -72,25 +71,25 @@ property HttpWebRequest^ WebRequest {
 member WebRequest : HttpWebRequest with get, set
 ```
 
-``` jscript
+```jscript
 function get WebRequest () : HttpWebRequest
 function set WebRequest (value : HttpWebRequest)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Net.HttpWebRequest](https://msdn.microsoft.com/en-us/library/8y7x3zz2\(v=vs.95\))  
+Type: [System.Net.HttpWebRequest](https://msdn.microsoft.com/library/8y7x3zz2\(v=vs.95\))  
 An HttpWebRequest object that represents the web request.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheRequest2 Class](cacherequest2-class-microsoft-web-media-smoothstreaming.md)
 

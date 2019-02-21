@@ -1,15 +1,7 @@
 ---
-title: "ApplicationPool.RevertToParent Method1 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationPool.RevertToParent Method1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 919397d4-8c16-4d0b-83d7-b4be7052e3c9
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationPool.RevertToParent Method1
 Reverts an application pool's configuration value or values to the default.  
@@ -24,7 +16,7 @@ ApplicationPool.RevertToParent(PropertyName)
 ApplicationPool.RevertToParent(PropertyName);  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  

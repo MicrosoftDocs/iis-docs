@@ -1,15 +1,7 @@
 ---
-title: "IHttpTokenKey::GetLogonMethod Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpTokenKey::GetLogonMethod Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6afc12d7-fcec-58f8-7c75-ebd2be61eede
-caps.latest.revision: 31
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpTokenKey::GetLogonMethod Method
 Returns the `LOGON32_*` value used when the user logs on.  
@@ -22,7 +14,7 @@ virtual DWORD GetLogonMethod(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

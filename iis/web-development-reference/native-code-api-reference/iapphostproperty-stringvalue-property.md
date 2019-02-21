@@ -1,15 +1,7 @@
 ---
-title: "IAppHostProperty::StringValue Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostProperty::StringValue Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d55d3060-e34a-21db-c73f-b5f45e1f2d8c
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostProperty::StringValue Property
 Gets the persisted string value of the property that is stored in XML by the configuration system.  
@@ -23,7 +15,7 @@ HRESULT get_StringValue(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrValue`  
  A pointer to a `BSTR` that contains the string value of the property.  
   

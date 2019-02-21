@@ -1,15 +1,7 @@
 ---
-title: "VirtualDirectoryContainsConfigurationSection Class2 | Microsoft Docs"
-ms.custom: ""
+title: "VirtualDirectoryContainsConfigurationSection Class2"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8d6f5aa5-9c66-24d3-ad57-b7e368a9a218
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # VirtualDirectoryContainsConfigurationSection Class2
 Provides a relationship between a virtual directory and a configuration section.  

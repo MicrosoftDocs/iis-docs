@@ -1,15 +1,7 @@
 ---
-title: "IWorkerProcessFramework::GetWpfInterface Method | Microsoft Docs"
-ms.custom: ""
+title: "IWorkerProcessFramework::GetWpfInterface Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 04831e84-27c5-015d-1008-83b0a5ce2966
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWorkerProcessFramework::GetWpfInterface Method
 Retrieves a defined interface from the worker process framework.  
@@ -23,7 +15,7 @@ virtual HRESULT GetWpfInterface(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `WpfInterfaceId`  
  The ID of the interface to return.  
   

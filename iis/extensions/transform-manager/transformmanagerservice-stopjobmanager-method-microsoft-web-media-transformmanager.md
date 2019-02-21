@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.StopJobManager
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StopJobManager Method
@@ -36,7 +35,7 @@ Signals a [JobManager](jobmanager-class-microsoft-web-media-transformmanager.md)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Sub StopJobManager ( _
@@ -50,14 +49,14 @@ Dim jobDefinitionId As String
 instance.StopJobManager(jobDefinitionId)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public void StopJobManager(
     string jobDefinitionId
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual void StopJobManager(
@@ -74,31 +73,31 @@ override StopJobManager :
         jobDefinitionId:string -> unit 
 ```
 
-``` jscript
+```jscript
   public final function StopJobManager(
     jobDefinitionId : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobDefinitionId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) object to stop.  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .StopJobManager(String)](imanagementservice-stopjobmanager-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.StopJobManager(String)](imanagementservice-stopjobmanager-method-microsoft-web-media-transformmanager.md)  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[ArgumentNullException](https://msdn.microsoft.com/en-us/library/27426hcy(v=vs.90))|jobDetails is null Nothing nullptr unit a null reference (Nothing in Visual Basic) or the JobDefinitionId property of the jobDetails parameter is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
+|[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|jobDetails is null Nothing nullptr unit a null reference (Nothing in Visual Basic) or the JobDefinitionId property of the jobDetails parameter is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

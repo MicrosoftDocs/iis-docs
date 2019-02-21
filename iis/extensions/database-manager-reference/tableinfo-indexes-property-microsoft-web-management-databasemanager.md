@@ -1,5 +1,5 @@
 ---
-title: TableInfo.Indexes Property  (Microsoft.Web.Management.DatabaseManager)
+title: TableInfo.Indexes Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Indexes Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.Indexes
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.tableinfo.indexes(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.TableInfo.Indexes
 - Microsoft.Web.Management.DatabaseManager.TableInfo.get_Indexes
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TableInfo.Indexes Property
@@ -37,7 +36,7 @@ Returns a list of indexes within the table information.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public ReadOnly Property Indexes As IList(Of Index)
 'Usage
@@ -47,33 +46,33 @@ Dim value As IList(Of Index)
 value = instance.Indexes
 ```
 
-``` csharp
+```csharp
 public IList<Index> Indexes { get; }
 ```
 
-``` c++
+```cpp
 public:
 property IList<Index^>^ Indexes {
     IList<Index^>^ get ();
 }
 ```
 
-``` jscript
+```jscript
 function get Indexes () : IList<Index>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.90\))\<[Index](index-class-microsoft-web-management-databasemanager.md)\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6)\<[Index](index-class-microsoft-web-management-databasemanager.md)\>  
 An IList interface that contains a collection of Microsoft.Web.Management.DatabaseManager.Index objects.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TableInfo Class](tableinfo-class-microsoft-web-management-databasemanager.md)
 

@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkInfo.CompareTo
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkInfo.CompareTo Method
@@ -36,7 +35,7 @@ Compares a chunk to another object.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Function CompareTo ( _
@@ -51,13 +50,13 @@ Dim returnValue As Integer
 returnValue = instance.CompareTo(chunk)
 ```
 
-``` csharp
+```csharp
 public int CompareTo(
     Object chunk
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual int CompareTo(
     Object^ chunk
@@ -71,39 +70,39 @@ override CompareTo :
         chunk:Object -> int 
 ```
 
-``` jscript
+```jscript
 public final function CompareTo(
     chunk : Object
 ) : int
 ```
 
-#### Parameters
+### Parameters
 
   - chunk  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
 
-#### Return Value
+### Return Value
 
-Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.95\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d\(v=vs.95\))  
 Integer value that indicates the result of the comparison, zero if equal, less than zero if earlier in time, greater than zero if later in time.
 
-#### Implements
+### Implements
 
-[IComparable.CompareTo(Object)](https://msdn.microsoft.com/en-us/library/4ah99705\(v=vs.95\))  
+[IComparable.CompareTo(Object)](https://msdn.microsoft.com/library/4ah99705\(v=vs.95\))  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkInfo Class](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

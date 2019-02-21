@@ -1,14 +1,7 @@
 ---
-title: "SetupIISDirectory | Microsoft Docs"
-ms.custom: ""
+title: "SetupIISDirectory"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e9a056dc-feaa-431a-a1e6-38b917e45b3c
-caps.latest.revision: 6
-manager: "wpickett"
 ---
 # SetupIISDirectory
 Creates the IIS Express home directory for the current user by copying all relevant initial configuration and website files.  
@@ -23,7 +16,7 @@ SetupIISDirectory(
   
 ```  
   
-#### Parameters  
+### Parameters  
   
 -   [in] `fOverride`.  
   

@@ -1,5 +1,5 @@
 ---
-title: TrackInfo.CustomAttributes Property  (Microsoft.Web.Media.SmoothStreaming)
+title: TrackInfo.CustomAttributes Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CustomAttributes Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.CustomAttributes
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackinfo.customattributes(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.get_CustomAttributes
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.set_CustomAttributes
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CustomAttributes Property
@@ -39,7 +38,7 @@ Gets or sets the CustomAttributes property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property CustomAttributes As IDictionary(Of String, String)
@@ -53,11 +52,11 @@ value = instance.CustomAttributes
 instance.CustomAttributes = value
 ```
 
-``` csharp
+```csharp
   public IDictionary<string, string> CustomAttributes { get; protected set; }
 ```
 
-``` c++
+```cpp
   public:
 property IDictionary<String^, String^>^ CustomAttributes {
     IDictionary<String^, String^>^ get ();
@@ -65,33 +64,33 @@ property IDictionary<String^, String^>^ CustomAttributes {
 }
 ```
 
-``` jscript
+```jscript
   function get CustomAttributes () : IDictionary<String, String>
 protected function set CustomAttributes (value : IDictionary<String, String>)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic. . :: . .IDictionary](https://msdn.microsoft.com/en-us/library/s4ys34ea\(v=vs.90\))\< (Of \< ( \<'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\)), [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))\> ) \> ) \>  
+Type: [System.Collections.Generic.IDictionary](https://msdn.microsoft.com/library/s4ys34ea)\< (Of \< ( \<'[String](https://msdn.microsoft.com/library/s1wwdcbf), [String](https://msdn.microsoft.com/library/s1wwdcbf)\> ) \> ) \>  
 A dictionary of name-value pairs of string values.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

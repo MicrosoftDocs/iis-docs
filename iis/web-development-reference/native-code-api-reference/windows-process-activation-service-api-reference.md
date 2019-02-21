@@ -1,15 +1,7 @@
 ---
-title: "Windows Process Activation Service API Reference | Microsoft Docs"
-ms.custom: ""
+title: "Windows Process Activation Service API Reference"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e5f291e0-85be-ef5d-4b1f-983483b94f63
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Windows Process Activation Service API Reference
 This section describes the functions and interfaces that support the IIS Windows Process Activation Service (WAS).  

@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -18,18 +18,18 @@ Gets the HTTP cookie value.
 
 ## Syntax
 
-``` csharp
+```csharp
 string Value { get; set; }
 ```
 
-``` c++
+```cpp
 property String^ Value {
 String^ get ();
 void set (String^ value);
 }
 ```
 
-``` jscript
+```jscript
 function get Value () : String
 function set Value (value : String)
 ```

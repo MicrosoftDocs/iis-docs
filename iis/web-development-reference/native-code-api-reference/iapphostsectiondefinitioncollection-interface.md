@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionDefinitionCollection Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionDefinitionCollection Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8194bba0-4607-b515-3b54-0a50523dd26d
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionDefinitionCollection Interface
 Represents a collection of configuration section definitions.  

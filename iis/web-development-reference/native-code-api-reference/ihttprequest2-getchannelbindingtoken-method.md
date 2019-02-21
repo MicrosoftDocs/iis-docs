@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest2::GetChannelBindingToken Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest2::GetChannelBindingToken Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 307775f3-dc62-49a7-8237-6a48966ee980
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest2::GetChannelBindingToken Method
 Gets the channel binding token (CBT) being used for request validation.  
@@ -24,7 +16,7 @@ virtual HRESULT GetChannelBindingToken(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppToken`  
  [OUT] Pointer to the channel binding token.  
   

@@ -1,15 +1,7 @@
 ---
-title: "BindingElement Class1 | Microsoft Docs"
-ms.custom: ""
+title: "BindingElement Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 359250eb-6680-f075-7ccb-cebc4850903e
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # BindingElement Class1
 Represents a binding element for a Web site.  

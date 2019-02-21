@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionGroup::Sections Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionGroup::Sections Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 498a3d40-6c65-5d00-67d1-32ed3689d4bc
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionGroup::Sections Property
 Gets a configuration section definition collection that contains all the section definitions in the current configuration section group.  
@@ -23,7 +15,7 @@ HRESULT get_Sections(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppSections`  
  A pointer to a pointer for an [IAppHostSectionDefinitionCollection](../../web-development-reference\native-code-api-reference/iapphostsectiondefinitioncollection-interface.md) interface.  
   

@@ -1,15 +1,7 @@
 ---
-title: "IGlobalApplicationPreloadProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalApplicationPreloadProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: deddc775-1ab0-492c-bda0-b32be5d4f4cc
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalApplicationPreloadProvider Interface
 Provides a global-level interface for preloading an application into server memory.  

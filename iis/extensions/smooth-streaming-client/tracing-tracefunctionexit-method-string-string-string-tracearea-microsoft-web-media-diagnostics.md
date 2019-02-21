@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
@@ -21,7 +21,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceFunctionExit Method (String, String, String, TraceArea)
@@ -33,7 +32,7 @@ Records the exit from a function as specified by the parameters.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Sub TraceFunctionExit ( _
@@ -53,7 +52,7 @@ Tracing.TraceFunctionExit(mediaElementId, _
     className, methodName, traceArea)
 ```
 
-``` csharp
+```csharp
   public static void TraceFunctionExit(
     string mediaElementId,
     string className,
@@ -62,7 +61,7 @@ Tracing.TraceFunctionExit(mediaElementId, _
 )
 ```
 
-``` c++
+```cpp
   public:
 static void TraceFunctionExit(
     String^ mediaElementId, 
@@ -72,7 +71,7 @@ static void TraceFunctionExit(
 )
 ```
 
-``` jscript
+```jscript
   public static function TraceFunctionExit(
     mediaElementId : String, 
     className : String, 
@@ -81,47 +80,47 @@ static void TraceFunctionExit(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - mediaElementId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the current media element.  
 
 <!-- end list -->
 
   - className  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     A string value that specifies the class name of the calling function.  
 
 <!-- end list -->
 
   - methodName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     A string value that specifies the name of the calling function.  
 
 <!-- end list -->
 
   - traceArea  
-    Type: [Microsoft.Web.Media.Diagnostics. . :: . .TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
+    Type: [Microsoft.Web.Media.Diagnostics.TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
     A [TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md) enumeration object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

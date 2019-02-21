@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Gets the ‘NALUnitLength’ field.
 
 ## Syntax
 
-``` csharp
+```csharp
 uint NALUnitLength { get; }
 ```
 
-``` c++
+```cpp
 property unsigned int NALUnitLength {
 unsigned int get ();
 }
 ```
 
-``` jscript
+```jscript
 function get NALUnitLength () : uint
 ```
 

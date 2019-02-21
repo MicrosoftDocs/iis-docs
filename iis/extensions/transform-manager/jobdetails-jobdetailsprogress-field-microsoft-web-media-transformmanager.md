@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsProgress
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDetailsProgress Field
@@ -36,7 +35,7 @@ Represents a constant that is used when transform jobs are sorted by the "progre
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const JobDetailsProgress As String
@@ -47,11 +46,11 @@ Represents a constant that is used when transform jobs are sorted by the "progre
 value = JobDetails.JobDetailsProgress
 ```
 
-``` csharp
+```csharp
   public const string JobDetailsProgress
 ```
 
-``` c++
+```cpp
   public:
 literal String^ JobDetailsProgress
 ```
@@ -60,13 +59,13 @@ literal String^ JobDetailsProgress
   static val mutable JobDetailsProgress: string
 ```
 
-``` jscript
+```jscript
   public const var JobDetailsProgress : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

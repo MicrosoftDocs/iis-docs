@@ -1,15 +1,7 @@
 ---
-title: "FtpCachePolicySettings Class | Microsoft Docs"
-ms.custom: ""
+title: "FtpCachePolicySettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bcc87d56-7455-34dd-d844-bb0a439ea2d2
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # FtpCachePolicySettings Class
 Represents the default FTP cache policy for network resources.  

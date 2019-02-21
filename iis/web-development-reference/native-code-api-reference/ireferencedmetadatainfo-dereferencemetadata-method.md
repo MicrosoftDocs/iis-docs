@@ -1,15 +1,7 @@
 ---
-title: "IReferencedMetadataInfo::DereferenceMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IReferencedMetadataInfo::DereferenceMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 076fc1d6-8a46-4b82-970d-edb4de672efe
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IReferencedMetadataInfo::DereferenceMetadata Method
 Releases the referenced context metadata.  
@@ -22,7 +14,7 @@ virtual VOID DereferenceMetadata(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method accepts no parameters.  
   
 ## Return Value  

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementCollection::AddElement Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementCollection::AddElement Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 911cb1cf-c6bf-d49d-dcca-c12f135c067f
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementCollection::AddElement Method
 Adds an element to the current collection.  
@@ -24,7 +16,7 @@ HRESULT AddElement(
 )] INT cPosition);  
 ```  
   
-#### Parameters  
+### Parameters  
  `pElement`  
  A pointer to an [IAppHostElement](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) interface.  
   

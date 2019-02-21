@@ -1,5 +1,5 @@
 ---
-title: JobManager.Id Property  (Microsoft.Web.Media.TransformManager)
+title: JobManager.Id Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Id Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.Id
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.id(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.Id
 - Microsoft.Web.Media.TransformManager.JobManager.get_Id
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Id Property
@@ -38,7 +37,7 @@ Gets the XML element ID of the IIS Transform Manager configuration.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property Id As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.Id
 ```
 
-``` csharp
+```csharp
   public string Id { get; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ Id {
     String^ get ();
@@ -66,18 +65,18 @@ property String^ Id {
   member Id : string
 ```
 
-``` jscript
+```jscript
   function get Id () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The XML element ID of the IIS Transform Manager configuration.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

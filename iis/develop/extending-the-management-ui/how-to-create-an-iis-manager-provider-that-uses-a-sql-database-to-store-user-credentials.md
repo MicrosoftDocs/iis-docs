@@ -78,8 +78,7 @@ The first step is to create the SQL database that will store the usernames, pass
     - Enter the following in the **Post-build event command line** box:  
 
         [!code-console[Main](how-to-create-an-iis-manager-provider-that-uses-a-sql-database-to-store-user-credentials/samples/sample2.cmd)]
-7. OPTIONAL: Enable debugging with IIS Manager: 
-
+7. OPTIONAL: Enable debugging with IIS 
     - Click **Project**, then **SqlIisManagerDemo Properties**.
     - Click the **Debug** tab.
     - Click to select **Start External Program**, then enter the following in the text box:  

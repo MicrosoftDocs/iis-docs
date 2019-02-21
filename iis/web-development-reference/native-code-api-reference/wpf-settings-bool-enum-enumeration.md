@@ -1,15 +1,7 @@
 ---
-title: "WPF_SETTINGS_BOOL_ENUM Enumeration | Microsoft Docs"
-ms.custom: ""
+title: "WPF_SETTINGS_BOOL_ENUM Enumeration"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 530cbe9f-cf27-47d0-927a-563b795db69c
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WPF_SETTINGS_BOOL_ENUM Enumeration
 Defines the `BOOL` values that the [IWpfSettings::GetBoolProperty](../../web-development-reference\native-code-api-reference/iwpfsettings-getboolproperty-method.md) method returns.  

@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetSite Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetSite Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6f8d5532-f308-dca2-7d5a-ca62b959f801
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetSite Method
 Retrieves the site information container for the current context.  
@@ -22,7 +14,7 @@ virtual IHttpSite* GetSite(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

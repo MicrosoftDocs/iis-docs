@@ -1,15 +1,7 @@
 ---
-title: "IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ad47de99-e784-6394-0193-696bfdc3e89d
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpModuleRegistrationInfo::SetPriorityForGlobalNotification Method
 Sets the global-level priority for a module.  
@@ -23,7 +15,7 @@ virtual HRESULT SetPriorityForGlobalNotification(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwGlobalNotification`  
  [IN] A bitmask value that contains the global notifications to set for the priority level. (Defined in [Httpserv.h](../../web-development-reference\native-code-api-reference/request-processing-constants.md).)  
   
@@ -57,7 +49,7 @@ virtual HRESULT SetPriorityForGlobalNotification(
  The module responds to the registered notifications and writes entries to the application log in the Event Viewer.  
   
 > [!NOTE]
->  The entries in the Event Viewer will display "IISADMIN" as the event source.  
+> The entries in the Event Viewer will display "IISADMIN" as the event source.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpModuleRegistrationInfoSetPriorityForGlobalNotification#1](IHttpModuleRegistrationInfoSetPriorityForGlobalNotification#1)]  -->  
   

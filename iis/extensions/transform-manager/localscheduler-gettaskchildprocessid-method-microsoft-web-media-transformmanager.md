@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.LocalScheduler.GetTaskChildProcessId
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetTaskChildProcessId Method
@@ -36,7 +35,7 @@ Returns the ID of the child process of a task that is an executable, using the s
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Overrides Function GetTaskChildProcessId ( _
@@ -51,13 +50,13 @@ Dim returnValue As Integer
 returnValue = instance.GetTaskChildProcessId(jobInstanceId)
 ```
 
-``` csharp
+```csharp
   public override int GetTaskChildProcessId(
     string jobInstanceId
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual int GetTaskChildProcessId(
     String^ jobInstanceId
@@ -71,21 +70,21 @@ override GetTaskChildProcessId :
         jobInstanceId:string -> int 
 ```
 
-``` jscript
+```jscript
   public override function GetTaskChildProcessId(
     jobInstanceId : String
 ) : int
 ```
 
-#### Parameters
+### Parameters
 
   - jobInstanceId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job.  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The ID of a child process of a command-line task.  
 
 ## Remarks
@@ -94,7 +93,7 @@ If the current task is a command-line executable, the task engine creates a proc
 
 ## See Also
 
-#### Reference
+### Reference
 
 [LocalScheduler Class](localscheduler-class-microsoft-web-media-transformmanager.md)
 

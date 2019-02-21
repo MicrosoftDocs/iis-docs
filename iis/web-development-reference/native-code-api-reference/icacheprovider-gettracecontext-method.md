@@ -1,15 +1,7 @@
 ---
-title: "ICacheProvider::GetTraceContext Method | Microsoft Docs"
-ms.custom: ""
+title: "ICacheProvider::GetTraceContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 82947c97-727f-455e-b773-9fa952194dc3
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ICacheProvider::GetTraceContext Method
 Returns the trace context for the cache provider.  
@@ -22,7 +14,7 @@ virtual IHttpTraceContext* GetTraceContext(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

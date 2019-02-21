@@ -1,5 +1,5 @@
 ---
-title: ConfigurationBase.ConfigurationMessagesElement Property  (Microsoft.Web.Media.TransformManager)
+title: ConfigurationBase.ConfigurationMessagesElement Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessagesElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationMessagesElement
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.configurationmessageselement(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.get_ConfigurationMessagesElement
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_ConfigurationMessagesElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationMessagesElement Property
@@ -40,7 +39,7 @@ Gets or sets an XML element that contains configuration messages for the IIS Tra
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ConfigurationMessagesElement As XElement
@@ -56,11 +55,11 @@ value = instance.ConfigurationMessagesElement
 instance.ConfigurationMessagesElement = value
 ```
 
-``` csharp
+```csharp
   public XElement ConfigurationMessagesElement { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property XElement^ ConfigurationMessagesElement {
     XElement^ get ();
@@ -72,19 +71,19 @@ property XElement^ ConfigurationMessagesElement {
   member ConfigurationMessagesElement : XElement with get, set
 ```
 
-``` jscript
+```jscript
   function get ConfigurationMessagesElement () : XElement
 function set ConfigurationMessagesElement (value : XElement)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 An XML element that contains configuration messages.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

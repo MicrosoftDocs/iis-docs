@@ -1,15 +1,7 @@
 ---
-title: "SoapEnvelopeProcessingInfo Class | Microsoft Docs"
-ms.custom: ""
+title: "SoapEnvelopeProcessingInfo Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 05a66125-7647-f904-145a-9aae7f29272a
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SoapEnvelopeProcessingInfo Class
 Configures a time-out that helps mitigate denial of service attacks.  

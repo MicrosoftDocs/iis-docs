@@ -1,15 +1,7 @@
 ---
-title: "IWebSocketContext::GetCloseStatus Method | Microsoft Docs"
-ms.custom: ""
+title: "IWebSocketContext::GetCloseStatus Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f5db45c5-a53b-4299-9802-c87e3a58b068
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWebSocketContext::GetCloseStatus Method
 Retrieves the close status code for the connection.  
@@ -24,7 +16,7 @@ virtual HRESULT GetCloseStatus(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pStatusCode`  
  [OUT] Points to the close status code provided by the server.  
   

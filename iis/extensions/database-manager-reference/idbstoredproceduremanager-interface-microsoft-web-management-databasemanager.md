@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbStoredProcedureManager Interface
@@ -35,22 +34,22 @@ Represents a stored procedure manager interface for a database provider.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Interface IDbStoredProcedureManager
 'Usage
 Dim instance As IDbStoredProcedureManager
 ```
 
-``` csharp
+```csharp
 public interface IDbStoredProcedureManager
 ```
 
-``` c++
+```cpp
 public interface class IDbStoredProcedureManager
 ```
 
-``` jscript
+```jscript
 public interface IDbStoredProcedureManager
 ```
 
@@ -68,15 +67,13 @@ The IDbStoredProcedureManager type exposes the following members.
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetStoredProcedureParameters](idbstoredproceduremanager-getstoredprocedureparameters-method-microsoft-web-management-databasemanager.md)|Returns a collection of parameters for a stored procedure.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetStoredProcedures](idbstoredproceduremanager-getstoredprocedures-method-microsoft-web-management-databasemanager.md)|Returns a collection of stored procedures for a database.|
 
-Top
-
 ## Remarks
 
 In order to manage stored procedures, you need to implement IDbStoredProcedureManager on the class that you derived from [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md). Stored procedures are collections of SQL code that execute on the server, and are often used instead of queries. For example, you could create a stored procedure that performs a query that is based on values that are calculated from parameters that you pass to the stored procedure.
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider implements the IDbStoredProcedureManager interface, your provider must also implement all of the following members:
 
@@ -96,7 +93,7 @@ If your provider implements the IDbStoredProcedureManager interface, your provid
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
 

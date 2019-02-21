@@ -1,5 +1,5 @@
 ---
-title: TypeInfo.MinimumLength Property  (Microsoft.Web.Management.DatabaseManager)
+title: TypeInfo.MinimumLength Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: MinimumLength Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.MinimumLength
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.minimumlength(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_MinimumLength
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_MinimumLength
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.MinimumLength Property
@@ -39,7 +38,7 @@ Gets or sets the minimum length for the data type.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property MinimumLength As Integer
 'Usage
@@ -51,11 +50,11 @@ value = instance.MinimumLength
 instance.MinimumLength = value
 ```
 
-``` csharp
+```csharp
 public int MinimumLength { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property int MinimumLength {
     int get ();
@@ -63,21 +62,21 @@ property int MinimumLength {
 }
 ```
 
-``` jscript
+```jscript
 function get MinimumLength () : int
 function set MinimumLength (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The minimum length for the data type.  
 
 ## Examples
 
 The following code sample illustrates an example GetServerTypes method that returns a list of database types for an OLEDB provider.
 
-``` vb
+```vb
 
     Public Overrides Function GetServerTypes( _
             ByVal connectionString As String) _
@@ -217,7 +216,7 @@ The following code sample illustrates an example GetServerTypes method that retu
 
 ```
 
-``` csharp
+```csharp
 
         public override ICollection<TypeInfo> GetServerTypes(
             string connectionString )
@@ -358,11 +357,11 @@ The following code sample illustrates an example GetServerTypes method that retu
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 

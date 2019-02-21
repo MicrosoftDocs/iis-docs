@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementExtension::ProvideElement Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementExtension::ProvideElement Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9aed3421-f9ac-4314-ae65-dcde1088bbd8
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementExtension::ProvideElement Method
 Populates the provided configuration element.  
@@ -22,7 +14,7 @@ HRESULT ProvideElement(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pNewElement`  
  The [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object to populate.  
   

@@ -1,15 +1,7 @@
 ---
-title: "TraceAreaDefinition Class | Microsoft Docs"
-ms.custom: ""
+title: "TraceAreaDefinition Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2e7a5f92-c545-bddf-e717-433ae9baa574
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TraceAreaDefinition Class
 Specifies trace area names and their corresponding enumeration values for a trace provider.  

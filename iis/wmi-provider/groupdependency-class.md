@@ -1,15 +1,7 @@
 ---
-title: "GroupDependency Class | Microsoft Docs"
-ms.custom: ""
+title: "GroupDependency Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c02f56d9-441f-b303-142c-dd8c4508586d
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # GroupDependency Class
 Represents a Web service extension upon which one or more Web applications depend.  

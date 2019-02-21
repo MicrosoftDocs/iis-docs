@@ -1,5 +1,5 @@
 ---
-title: TableInfo.HasChanges Property  (Microsoft.Web.Management.DatabaseManager)
+title: TableInfo.HasChanges Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: HasChanges Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.HasChanges
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.tableinfo.haschanges(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.TableInfo.get_HasChanges
 - Microsoft.Web.Management.DatabaseManager.TableInfo.set_HasChanges
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TableInfo.HasChanges Property
@@ -39,7 +38,7 @@ Gets or sets a value that indicates whether the table information has changes.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property HasChanges As Boolean
 'Usage
@@ -51,11 +50,11 @@ value = instance.HasChanges
 instance.HasChanges = value
 ```
 
-``` csharp
+```csharp
 public bool HasChanges { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool HasChanges {
     bool get ();
@@ -63,23 +62,23 @@ property bool HasChanges {
 }
 ```
 
-``` jscript
+```jscript
 function get HasChanges () : boolean
 function set HasChanges (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the table information is marked as having changes; otherwise, false.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TableInfo Class](tableinfo-class-microsoft-web-management-databasemanager.md)
 

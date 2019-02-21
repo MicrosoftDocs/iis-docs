@@ -1,15 +1,7 @@
 ---
-title: "UrlSequence Class | Microsoft Docs"
-ms.custom: ""
+title: "UrlSequence Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: efdb9814-1ad9-320d-03c0-df843a5a0043
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # UrlSequence Class
 Represents a URL sequence that will be denied by request filtering.  

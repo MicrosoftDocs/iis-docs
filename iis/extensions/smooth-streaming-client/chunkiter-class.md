@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Chunk iterator class.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 public sealed class ChunkIter : IChunkIter
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 public ref class ChunkIter sealed : IChunkIter
 ```
 
-``` jscript
+```jscript
 public final class ChunkIter implements IChunkIter
 ```
 

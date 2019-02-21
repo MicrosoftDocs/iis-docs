@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementSchema::ChildElementSchemas Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementSchema::ChildElementSchemas Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5682845e-c5c1-4bf8-aaed-54c17c940214
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementSchema::ChildElementSchemas Property
 Gets the schema used for child elements that are contained in the corresponding [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object.  
@@ -23,7 +15,7 @@ Gets the schema used for child elements that are contained in the corresponding 
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppChildSchemas`  
  Contains the schema collection of the supported child [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) objects.  
   

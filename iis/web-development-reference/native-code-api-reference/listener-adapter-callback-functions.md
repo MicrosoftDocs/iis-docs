@@ -1,15 +1,7 @@
 ---
-title: "Listener Adapter Callback Functions | Microsoft Docs"
-ms.custom: ""
+title: "Listener Adapter Callback Functions"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7e786e2b-c8a6-42d0-9aaa-572e7d19b30d
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Listener Adapter Callback Functions
 This section describes the functions that support listener adapter callbacks, which enable the Windows Process Activation Service (WAS) to communicate information to a listener adapter.  

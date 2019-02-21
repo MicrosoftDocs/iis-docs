@@ -42,14 +42,12 @@ The [TaskDefinition](taskdefinition-class-microsoft-web-media-transformmanager.m
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[PropertyNamespacePrefix](taskdefinition-propertynamespaceprefix-property-microsoft-web-media-transformmanager.md)|Gets or sets a prefix for the property namespace of the current task.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[SuccessCodes](taskdefinition-successcodes-property-microsoft-web-media-transformmanager.md)|Gets or sets a set of codes that indicate whether the task completed successfully.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskCodeType](taskdefinition-taskcodetype-property-microsoft-web-media-transformmanager.md)|Gets or sets the task type.|
-|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskDefinitionElement](taskdefinition-taskdefinitionelement-property-microsoft-web-media-transformmanager.md)|Gets or sets the [XElement](https://msdn.microsoft.com/en-us/library/bb340098(v=vs.90)) object container of the template file.|
+|![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskDefinitionElement](taskdefinition-taskdefinitionelement-property-microsoft-web-media-transformmanager.md)|Gets or sets the [XElement](https://msdn.microsoft.com/library/bb340098) object container of the template file.|
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TaskTypeArchitecture](taskdefinition-tasktypearchitecture-property-microsoft-web-media-transformmanager.md)|Gets or sets the architecture of the task type, if the command-line executable is architecture specific.|
-
-Top
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskDefinition Class](taskdefinition-class-microsoft-web-media-transformmanager.md)
 

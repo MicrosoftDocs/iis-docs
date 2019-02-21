@@ -1,5 +1,5 @@
 ---
-title: JobDetails.Status Property  (Microsoft.Web.Media.TransformManager)
+title: JobDetails.Status Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Status Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.Status
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.status(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.get_Status
 - Microsoft.Web.Media.TransformManager.JobDetails.Status
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Status Property
@@ -40,7 +39,7 @@ Gets or sets the status of the job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property Status As JobStatus
@@ -56,12 +55,12 @@ value = instance.Status
 instance.Status = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public JobStatus Status { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property JobStatus Status {
@@ -75,19 +74,19 @@ property JobStatus Status {
 member Status : JobStatus with get, set
 ```
 
-``` jscript
+```jscript
   function get Status () : JobStatus
 function set Status (value : JobStatus)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.JobStatus](jobstatus-enumeration-microsoft-web-media-transformmanager.md)  
 The status of the job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

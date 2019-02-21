@@ -1,15 +1,7 @@
 ---
-title: "ServerRuntimeSection Class | Microsoft Docs"
-ms.custom: ""
+title: "ServerRuntimeSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6fd863ba-e8d4-c1c4-904b-7b52a91843f6
-caps.latest.revision: 28
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ServerRuntimeSection Class
 Configures request limits for applications on a Web server.  

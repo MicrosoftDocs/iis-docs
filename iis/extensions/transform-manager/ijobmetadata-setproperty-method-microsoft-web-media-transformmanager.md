@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IJobMetadata.SetProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SetProperty Method
@@ -36,7 +35,7 @@ Sets a property value in the task resource description framework (RDF) metadata 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Sub SetProperty ( _
@@ -50,13 +49,13 @@ Dim manifestProperty As IManifestProperty
 instance.SetProperty(manifestProperty)
 ```
 
-``` csharp
+```csharp
   void SetProperty(
     IManifestProperty manifestProperty
 )
 ```
 
-``` c++
+```cpp
   void SetProperty(
     IManifestProperty^ manifestProperty
 )
@@ -67,21 +66,21 @@ instance.SetProperty(manifestProperty)
         manifestProperty:IManifestProperty -> unit 
 ```
 
-``` jscript
+```jscript
   function SetProperty(
     manifestProperty : IManifestProperty
 )
 ```
 
-#### Parameters
+### Parameters
 
   - manifestProperty  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .IManifestProperty](imanifestproperty-interface-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.IManifestProperty](imanifestproperty-interface-microsoft-web-media-transformmanager.md)  
     An [IManifestProperty](imanifestproperty-interface-microsoft-web-media-transformmanager.md) object that has name and value members.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IJobMetadata Interface](ijobmetadata-interface-microsoft-web-media-transformmanager.md)
 

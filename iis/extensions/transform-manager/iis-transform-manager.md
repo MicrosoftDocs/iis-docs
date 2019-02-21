@@ -34,7 +34,7 @@ Transform Manager runs custom tasks by loading them inside the TaskEngine.exe pr
 
 ## See Also
 
-#### Other Resources
+### Other Resources
 
 [IIS Transform Manager (IIS.net)](http://go.microsoft.com/fwlink/?linkid=194958)
 

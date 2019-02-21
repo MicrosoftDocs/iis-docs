@@ -1,15 +1,7 @@
 ---
-title: "ResetCompression Function | Microsoft Docs"
-ms.custom: ""
+title: "ResetCompression Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8c4c5c42-9c9a-4075-b618-3b2057be2e46
-caps.latest.revision: 3
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ResetCompression Function
 Resets the compression context.  
@@ -22,7 +14,7 @@ HRESULT WINAPI ResetCompression(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `context`  
  [OUT] Pointer to the compression context to reset.  
   

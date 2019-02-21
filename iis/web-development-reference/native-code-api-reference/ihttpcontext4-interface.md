@@ -1,16 +1,8 @@
 ---
-title: "IHttpContext4 Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext4 Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fbb3e3e5-8063-41ab-a5e5-e00d63955682
-caps.latest.revision: 3
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IHttpContext4 Interface
 Represents the reprocessing of an HTTP request and enables additional support for diagnostic operations.  

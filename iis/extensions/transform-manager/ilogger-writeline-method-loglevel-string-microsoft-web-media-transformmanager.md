@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # WriteLine Method (LogLevel, String)
@@ -34,7 +33,7 @@ Writes a line to the log.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Sub WriteLine ( _
@@ -50,14 +49,14 @@ Dim value As String
 instance.WriteLine(level, value)
 ```
 
-``` csharp
+```csharp
   void WriteLine(
     LogLevel level,
     string value
 )
 ```
 
-``` c++
+```cpp
   void WriteLine(
     LogLevel level, 
     String^ value
@@ -70,23 +69,23 @@ instance.WriteLine(level, value)
         value:string -> unit 
 ```
 
-``` jscript
+```jscript
   function WriteLine(
     level : LogLevel, 
     value : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - level  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
     The level of errors that will be logged.  
 
 <!-- end list -->
 
   - value  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The value to write.  
 
 ## Remarks
@@ -95,7 +94,7 @@ The level parameter must be set to one of the values in the [LogLevel](loglevel-
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ILogger Interface](ilogger-interface-microsoft-web-media-transformmanager.md)
 

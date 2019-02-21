@@ -1,15 +1,7 @@
 ---
-title: "Ipv6Settings Class | Microsoft Docs"
-ms.custom: ""
+title: "Ipv6Settings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: eb6cfd6c-9625-0fe7-7e52-eb6291d58dd5
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Ipv6Settings Class
 Determines whether Internet Protocol version 6 (IPv6) is enabled on the local computer.  

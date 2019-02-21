@@ -1,5 +1,5 @@
 ---
-title: SegmentInfo.StartPosition Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SegmentInfo.StartPosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StartPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.StartPosition
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.segmentinfo.startposition(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.get_StartPosition
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.StartPosition
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StartPosition Property
@@ -37,7 +36,7 @@ Gets the maximum of the start times of the first audio chunk and first video chu
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property StartPosition As TimeSpan
@@ -49,43 +48,43 @@ Dim value As TimeSpan
 value = instance.StartPosition
 ```
 
-``` csharp
+```csharp
   public TimeSpan StartPosition { get; }
 ```
 
-``` c++
+```cpp
   public:
 property TimeSpan StartPosition {
     TimeSpan get ();
 }
 ```
 
-``` jscript
+```jscript
   function get StartPosition () : TimeSpan
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\))  
-A [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\)) object.  
+Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577)  
+A [TimeSpan](https://msdn.microsoft.com/library/269ew577) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SegmentInfo Class](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

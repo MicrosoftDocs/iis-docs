@@ -1,5 +1,5 @@
 ---
-title: ManifestInfo.Segments Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ManifestInfo.Segments Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Segments Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.Segments
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.manifestinfo.segments(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.Segments
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.set_Segments
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestInfo.Segments Property
@@ -40,7 +39,7 @@ List of [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Segments As IList(Of SegmentInfo)
@@ -54,11 +53,11 @@ Dim value As IList(Of SegmentInfo)
 value = instance.Segments
 ```
 
-``` csharp
+```csharp
 public IList<SegmentInfo> Segments { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property IList<SegmentInfo^>^ Segments {
     IList<SegmentInfo^>^ get ();
@@ -70,14 +69,14 @@ property IList<SegmentInfo^>^ Segments {
 member Segments : IList<SegmentInfo> with get, private set
 ```
 
-``` jscript
+```jscript
 function get Segments () : IList<SegmentInfo>
 private function set Segments (value : IList<SegmentInfo>)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.95\))\<[SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6\(v=vs.95\))\<[SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
 Generic list of [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) objects.
 
 ## Remarks
@@ -118,17 +117,17 @@ The following example shows how to get [SegmentInfo](segmentinfo-class-microsoft
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IWpfApplicationPreloadUtil::GetApplicationPreloadInfo Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfApplicationPreloadUtil::GetApplicationPreloadInfo Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7747ae93-976d-4330-8d3a-06bb82180017
-caps.latest.revision: 3
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfApplicationPreloadUtil::GetApplicationPreloadInfo Method
 Returns preload information (such as site ID and virtual path) for an application given the path to its configuration file.  
@@ -25,7 +17,7 @@ virtual HRESULT GetApplicationPreloadInfo(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszConfigPath`  
  [IN] Path to the application’s configuration file.  
   

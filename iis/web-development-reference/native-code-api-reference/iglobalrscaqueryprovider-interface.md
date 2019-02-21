@@ -1,15 +1,7 @@
 ---
-title: "IGlobalRSCAQueryProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalRSCAQueryProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b4d97a23-123d-5c77-b0f1-ccfc388d5517
-caps.latest.revision: 30
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalRSCAQueryProvider Interface
 Extends the [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md) interface by adding support for querying IIS Run-Time Status and Control information.  

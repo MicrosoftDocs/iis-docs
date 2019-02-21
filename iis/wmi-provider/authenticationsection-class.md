@@ -1,15 +1,7 @@
 ---
-title: "AuthenticationSection Class1 | Microsoft Docs"
-ms.custom: ""
+title: "AuthenticationSection Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e8860ac3-d303-c19e-a3df-f1b1456f42ba
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AuthenticationSection Class1
 Configures [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] authentication.  

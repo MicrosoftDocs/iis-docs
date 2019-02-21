@@ -10,30 +10,22 @@ mtps_version: v=VS.95
 
 # SSMEDrmSetupDecryptorCompletedEventArgs Properties
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [SSMEDrmSetupDecryptorCompletedEventArgs](ssmedrmsetupdecryptorcompletedeventargs-class-microsoft-web-media-smoothstreaming.md) type exposes the following members.
 
 ## Properties
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Cancelled](https://msdn.microsoft.com/en-us/library/hhb0kte8(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/en-us/library/2tde67e9(v=vs.95)).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Cancelled](https://msdn.microsoft.com/library/hhb0kte8(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9(v=vs.95)).)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[ChunkInfo](ssmedrmsetupdecryptorcompletedeventargs-chunkinfo-property-microsoft-web-media-smoothstreaming.md)|Gets the chunk information associated with the decryptor.|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Error](https://msdn.microsoft.com/en-us/library/zye0z486(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/en-us/library/2tde67e9(v=vs.95)).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Error](https://msdn.microsoft.com/library/zye0z486(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9(v=vs.95)).)|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[KeyId](ssmedrmsetupdecryptorcompletedeventargs-keyid-property-microsoft-web-media-smoothstreaming.md)|Gets the KeyID of the decryptor being set up.|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[UserState](https://msdn.microsoft.com/en-us/library/9b3wa0x3(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/en-us/library/2tde67e9(v=vs.95)).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[UserState](https://msdn.microsoft.com/library/9b3wa0x3(v=vs.95))|(Inherited from [AsyncCompletedEventArgs](https://msdn.microsoft.com/library/2tde67e9(v=vs.95)).)|
 
-
-Top
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SSMEDrmSetupDecryptorCompletedEventArgs Class](ssmedrmsetupdecryptorcompletedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

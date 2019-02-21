@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethodCollection::Count Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethodCollection::Count Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5cbeb65c-03dc-4ae3-879f-af2f03afded0
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethodCollection::Count Property
 Gets the number of methods in the collection.  
@@ -22,7 +14,7 @@ HRESULT Count(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcCount`  
  A pointer to a `DWORD` that contains the number of items in the collection.  
   

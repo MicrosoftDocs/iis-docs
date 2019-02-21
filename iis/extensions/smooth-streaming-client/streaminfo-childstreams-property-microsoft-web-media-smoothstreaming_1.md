@@ -1,5 +1,5 @@
 ---
-title: StreamInfo.ChildStreams Property  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamInfo.ChildStreams Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChildStreams Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.ChildStreams
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.childstreams(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.ChildStreams
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.get_ChildStreams
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.ChildStreams Property
@@ -38,7 +37,7 @@ Gets the ChildStreams property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property ChildStreams As IList(Of StreamInfo)
@@ -51,11 +50,11 @@ Dim value As IList(Of StreamInfo)
 value = instance.ChildStreams
 ```
 
-``` csharp
+```csharp
 public IList<StreamInfo> ChildStreams { get; }
 ```
 
-``` c++
+```cpp
 public:
 property IList<StreamInfo^>^ ChildStreams {
     IList<StreamInfo^>^ get ();
@@ -66,28 +65,28 @@ property IList<StreamInfo^>^ ChildStreams {
 member ChildStreams : IList<StreamInfo>
 ```
 
-``` jscript
+```jscript
 function get ChildStreams () : IList<StreamInfo>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.95\))\<[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6\(v=vs.95\))\<[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
 A generic list of [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) objects.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

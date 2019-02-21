@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigException::PreErrorLine Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigException::PreErrorLine Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d2523932-f14e-d7ff-b692-a2987f29a247
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigException::PreErrorLine Property
 Gets the contents of the line before the line in the configuration file that caused the current exception to be thrown.  
@@ -23,7 +15,7 @@ HRESULT get_PreErrorLine(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrPreErrorLine`  
  A pointer to a `BSTR` that contains the line before the line that caused the exception.  
   

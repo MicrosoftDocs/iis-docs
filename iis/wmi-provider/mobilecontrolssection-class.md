@@ -1,15 +1,7 @@
 ---
-title: "MobileControlsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "MobileControlsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9e069560-70e2-3895-a775-fec47d7f8ada
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # MobileControlsSection Class
 Exposes configuration information for mobile controls, their adapters, and device filters.  

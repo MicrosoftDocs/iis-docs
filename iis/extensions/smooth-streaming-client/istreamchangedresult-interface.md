@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ Stream changed result interface.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 [GuidAttribute(, , , , , , , , , , )]
 public interface IStreamChangedResult
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 [GuidAttribute(, , , , , , , , , , )]
 public interface class IStreamChangedResult
 ```
 
-``` jscript
+```jscript
 public interface IStreamChangedResult
 ```
 

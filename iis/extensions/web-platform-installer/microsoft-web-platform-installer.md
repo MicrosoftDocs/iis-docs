@@ -18,12 +18,12 @@ The Web Platform Installer includes a set of Application Programming Interfaces 
 
 |Namespace|Description|
 |--- |--- |
-|[Microsoft.Web.PlatformInstaller](https://msdn.microsoft.com/en-us/library/microsoft.web.platforminstaller(v=vs.90))|Web Platform Installer APIs.|
+|[Microsoft.Web.PlatformInstaller](https://msdn.microsoft.com/library/microsoft.web.platforminstaller)|Web Platform Installer APIs.|
 
 
 ## See Also
 
-#### Other Resources
+### Other Resources
 
 [Microsoft Web Platform Installer](http://go.microsoft.com/fwlink/?linkid=247915)
 

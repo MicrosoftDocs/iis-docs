@@ -1,15 +1,7 @@
 ---
-title: "IWpfListenerChannelCallback Interface | Microsoft Docs"
-ms.custom: ""
+title: "IWpfListenerChannelCallback Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 21c0150e-9250-3276-9220-7adca4453bc0
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfListenerChannelCallback Interface
 Provides notifications from protocol managers to the worker process framework regarding listener channel status changes.  

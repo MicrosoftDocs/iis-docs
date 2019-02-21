@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # QueryResult Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [QueryResult](queryresult-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -22,11 +19,9 @@ The [QueryResult](queryresult-class-microsoft-web-management-databasemanager.md)
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[ColumnMetadata](queryresult-columnmetadata-property-microsoft-web-management-databasemanager.md)|Returns a list of column metadata for a query result.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[QueryResults](queryresult-queryresults-property-microsoft-web-management-databasemanager.md)|Retrieves an array of query results.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [QueryResult Class](queryresult-class-microsoft-web-management-databasemanager.md)
 

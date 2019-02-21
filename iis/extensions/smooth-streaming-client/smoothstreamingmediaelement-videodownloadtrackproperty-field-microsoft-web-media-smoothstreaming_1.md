@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoDownloadTrackProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.VideoDownloadTrackProperty Field
@@ -36,7 +35,7 @@ Represents a dependency property that represents the [VideoDownloadTrack](smooth
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared ReadOnly VideoDownloadTrackProperty As DependencyProperty
@@ -47,11 +46,11 @@ Dim value As DependencyProperty
 value = SmoothStreamingMediaElement.VideoDownloadTrackProperty
 ```
 
-``` csharp
+```csharp
 public static readonly DependencyProperty VideoDownloadTrackProperty
 ```
 
-``` c++
+```cpp
 public:
 static initonly DependencyProperty^ VideoDownloadTrackProperty
 ```
@@ -60,23 +59,23 @@ static initonly DependencyProperty^ VideoDownloadTrackProperty
 static val VideoDownloadTrackProperty: DependencyProperty
 ```
 
-``` jscript
+```jscript
 public static final var VideoDownloadTrackProperty : DependencyProperty
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

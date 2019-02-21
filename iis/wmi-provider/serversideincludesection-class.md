@@ -1,15 +1,7 @@
 ---
-title: "ServerSideIncludeSection Class | Microsoft Docs"
-ms.custom: ""
+title: "ServerSideIncludeSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2f90a8c0-35ec-4c82-460a-03ea1f24a094
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ServerSideIncludeSection Class
 Configures server-side includes (SSI) directives.  

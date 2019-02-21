@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpuNodes
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerCpuNodes Field
@@ -36,7 +35,7 @@ Represents a constant that is used when an HPC scheduling nodes element is assig
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const SchedulerCpuNodes As String
@@ -47,11 +46,11 @@ Represents a constant that is used when an HPC scheduling nodes element is assig
 value = JobDefinition.SchedulerCpuNodes
 ```
 
-``` csharp
+```csharp
   public const string SchedulerCpuNodes
 ```
 
-``` c++
+```cpp
   public:
 literal String^ SchedulerCpuNodes
 ```
@@ -60,13 +59,13 @@ literal String^ SchedulerCpuNodes
   static val mutable SchedulerCpuNodes: string
 ```
 
-``` jscript
+```jscript
   public const var SchedulerCpuNodes : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementSchema::DoesAllowUnschematizedProperties Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementSchema::DoesAllowUnschematizedProperties Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 280ce38d-cf6a-10e4-eab5-5fdf7dd65097
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementSchema::DoesAllowUnschematizedProperties Property
 Determines whether properties that are not defined in the schema can be added to a configuration element.  
@@ -23,7 +15,7 @@ HRESULT get_DoesAllowUnschematizedProperties(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfAllowUnschematized`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if undefined properties can be added to a configuration element; otherwise, `VARIANT_FALSE`.  
   

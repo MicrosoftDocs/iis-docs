@@ -1,14 +1,7 @@
 ---
-title: "IIISVersionManager | Microsoft Docs"
-ms.custom: ""
+title: "IIISVersionManager"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 54c836ae-d188-4ea2-bc00-2729d38a5edf
-caps.latest.revision: 10
-manager: "wpickett"
 ---
 # IIISVersionManager
 Represents a COM object that enables IIS versions to be queried and manipulated.  

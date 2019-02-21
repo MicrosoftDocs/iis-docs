@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::ReleaseClonedContext Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::ReleaseClonedContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f43a4f35-dc84-d61d-09e1-cd512ee0b14a
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::ReleaseClonedContext Method
 Releases a cloned [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) instance.  
@@ -22,7 +14,7 @@ virtual HRESULT ReleaseClonedContext(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

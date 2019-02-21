@@ -1,5 +1,5 @@
 ---
-title: CacheResponse.ContentLength Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse.ContentLength Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ContentLength Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ContentLength
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.contentlength(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.get_ContentLength
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_ContentLength
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse.ContentLength Property
@@ -40,7 +39,7 @@ The length in bytes.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property ContentLength As Long
@@ -56,11 +55,11 @@ value = instance.ContentLength
 instance.ContentLength = value
 ```
 
-``` csharp
+```csharp
 public long ContentLength { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property long long ContentLength {
     long long get ();
@@ -72,29 +71,29 @@ property long long ContentLength {
 member ContentLength : int64 with get, set
 ```
 
-``` jscript
+```jscript
 function get ContentLength () : long
 function set ContentLength (value : long)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek\(v=vs.95\))  
+Type: [System.Int64](https://msdn.microsoft.com/library/6yy583ek\(v=vs.95\))  
 A long integer that contains the length in bytes.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

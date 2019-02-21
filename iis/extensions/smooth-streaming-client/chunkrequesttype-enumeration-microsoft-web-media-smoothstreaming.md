@@ -12,11 +12,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkRequestType.KeyFrame
 - Microsoft.Web.Media.SmoothStreaming.ChunkRequestType.Fragment
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -30,7 +30,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkRequestType Enumeration
@@ -42,7 +41,7 @@ The chunk type for a download request.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Enumeration ChunkRequestType
@@ -51,11 +50,11 @@ Public Enumeration ChunkRequestType
 Dim instance As ChunkRequestType
 ```
 
-``` csharp
+```csharp
 public enum ChunkRequestType
 ```
 
-``` c++
+```cpp
 public enum class ChunkRequestType
 ```
 
@@ -63,7 +62,7 @@ public enum class ChunkRequestType
 type ChunkRequestType
 ```
 
-``` jscript
+```jscript
 public enum ChunkRequestType
 ```
 
@@ -78,13 +77,13 @@ public enum ChunkRequestType
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

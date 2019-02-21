@@ -1,15 +1,7 @@
 ---
-title: "IAppDomainInfo::GetVirtualPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppDomainInfo::GetVirtualPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 24d3efb6-8bab-52b0-181f-c07eef374eca
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppDomainInfo::GetVirtualPath Method
 Retrieves the root virtual path of the application domain.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall GetVirtualPath(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrVirtualPath`  
  A pointer to a `BSTR` that contains the root virtual path of the application domain.  
   

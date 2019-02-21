@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.MaintenanceUseInterval Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.MaintenanceUseInterval Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: MaintenanceUseInterval Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceUseInterval
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.maintenanceuseinterval(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_MaintenanceUseInterval
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_MaintenanceUseInterval
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # MaintenanceUseInterval Property
@@ -40,7 +39,7 @@ Gets or sets a value that indicates that maintenance should be run at a specifie
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property MaintenanceUseInterval As Boolean
@@ -56,12 +55,12 @@ value = instance.MaintenanceUseInterval
 instance.MaintenanceUseInterval = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public bool MaintenanceUseInterval { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property bool MaintenanceUseInterval {
@@ -75,19 +74,19 @@ property bool MaintenanceUseInterval {
 member MaintenanceUseInterval : bool with get, set
 ```
 
-``` jscript
+```jscript
   function get MaintenanceUseInterval () : boolean
 function set MaintenanceUseInterval (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if maintenance should be run at a specified interval, or false if maintenance should be run at a fixed time.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

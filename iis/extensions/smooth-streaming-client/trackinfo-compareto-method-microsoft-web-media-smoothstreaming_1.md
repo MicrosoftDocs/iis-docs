@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.CompareTo
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TrackInfo.CompareTo Method
@@ -36,7 +35,7 @@ Compares a T:Microsoft.Web.Media.SmoothStreaming.TrackInfo object to an object s
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Function CompareTo ( _
@@ -51,13 +50,13 @@ Dim returnValue As Integer
 returnValue = instance.CompareTo(obj)
 ```
 
-``` csharp
+```csharp
 public int CompareTo(
     Object obj
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual int CompareTo(
     Object^ obj
@@ -71,21 +70,21 @@ override CompareTo :
         obj:Object -> int 
 ```
 
-``` jscript
+```jscript
 public final function CompareTo(
     obj : Object
 ) : int
 ```
 
-#### Parameters
+### Parameters
 
   - obj  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
-    An [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\)) to compare.
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
+    An [Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\)) to compare.
 
-#### Return Value
+### Return Value
 
-Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.95\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d\(v=vs.95\))  
 
 An integer value that specifies the result of the comparison:
 
@@ -95,23 +94,23 @@ An integer value that specifies the result of the comparison:
 
   - Greater than zero (\>0), if the event is greater than the specified object.
 
-#### Implements
+### Implements
 
-[IComparable.CompareTo(Object)](https://msdn.microsoft.com/en-us/library/4ah99705\(v=vs.95\))  
+[IComparable.CompareTo(Object)](https://msdn.microsoft.com/library/4ah99705\(v=vs.95\))  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

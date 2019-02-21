@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.InputFolderPath Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.InputFolderPath Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFolderPath Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.InputFolderPath
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.inputfolderpath(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.InputFolderPath
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_InputFolderPath
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # InputFolderPath Property
@@ -40,7 +39,7 @@ Gets or sets the input folder path. This type/member supports the IIS Transform 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property InputFolderPath As String
@@ -56,12 +55,12 @@ value = instance.InputFolderPath
 instance.InputFolderPath = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string InputFolderPath { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ InputFolderPath {
@@ -75,19 +74,19 @@ property String^ InputFolderPath {
 member InputFolderPath : string with get, set
 ```
 
-``` jscript
+```jscript
   function get InputFolderPath () : String
 function set InputFolderPath (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The input folder path.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

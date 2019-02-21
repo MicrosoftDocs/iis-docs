@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # WriteLine Method (LogLevel, String)
@@ -34,7 +33,7 @@ Writes a line to the log file.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub WriteLine ( _
@@ -50,14 +49,14 @@ Dim value As String
 instance.WriteLine(level, value)
 ```
 
-``` csharp
+```csharp
   public void WriteLine(
     LogLevel level,
     string value
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual void WriteLine(
     LogLevel level, 
@@ -74,28 +73,28 @@ override WriteLine :
         value:string -> unit 
 ```
 
-``` jscript
+```jscript
   public final function WriteLine(
     level : LogLevel, 
     value : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - level  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
     A [LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md) object that specifies the level of information that will be logged.  
 
 <!-- end list -->
 
   - value  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     A log value.  
 
-#### Implements
+### Implements
 
-[ILogger. . :: . .WriteLine(LogLevel, String)](ilogger-writeline-method-loglevel-string-microsoft-web-media-transformmanager.md)  
+[ILogger.WriteLine(LogLevel, String)](ilogger-writeline-method-loglevel-string-microsoft-web-media-transformmanager.md)  
 
 ## Remarks
 
@@ -103,7 +102,7 @@ This method writes a date/time string, the log level, and the string to the log 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Logger Class](logger-class-microsoft-web-media-transformmanager.md)
 

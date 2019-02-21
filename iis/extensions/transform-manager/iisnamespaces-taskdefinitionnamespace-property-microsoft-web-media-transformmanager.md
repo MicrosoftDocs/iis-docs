@@ -1,5 +1,5 @@
 ---
-title: IisNamespaces.TaskDefinitionNamespace Property  (Microsoft.Web.Media.TransformManager)
+title: IisNamespaces.TaskDefinitionNamespace Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskDefinitionNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.TaskDefinitionNamespace
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.taskdefinitionnamespace(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_TaskDefinitionNamespace
 - Microsoft.Web.Media.TransformManager.IisNamespaces.TaskDefinitionNamespace
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskDefinitionNamespace Property
@@ -38,7 +37,7 @@ Gets the URI of an XML namespace that is related to task definitions.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared ReadOnly Property TaskDefinitionNamespace As XNamespace
@@ -50,11 +49,11 @@ Gets the URI of an XML namespace that is related to task definitions.
 value = IisNamespaces.TaskDefinitionNamespace
 ```
 
-``` csharp
+```csharp
   public static XNamespace TaskDefinitionNamespace { get; }
 ```
 
-``` c++
+```cpp
   public:
 static property XNamespace^ TaskDefinitionNamespace {
     XNamespace^ get ();
@@ -65,18 +64,18 @@ static property XNamespace^ TaskDefinitionNamespace {
   static member TaskDefinitionNamespace : XNamespace
 ```
 
-``` jscript
+```jscript
   static function get TaskDefinitionNamespace () : XNamespace
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XNamespace](https://msdn.microsoft.com/en-us/library/bb291898\(v=vs.90\))  
+Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
 The XML namespace value "http://schemas.microsoft.com/iis/media/v4/TM/TaskDefinition\#".  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IisNamespaces Class](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 

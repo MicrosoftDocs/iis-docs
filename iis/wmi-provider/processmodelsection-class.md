@@ -1,15 +1,7 @@
 ---
-title: "ProcessModelSection Class | Microsoft Docs"
-ms.custom: ""
+title: "ProcessModelSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 84b9d2ef-bd3c-0271-4786-4eba0c08ef62
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ProcessModelSection Class
 Configures the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] process model settings on a Web server that is running IIS.  

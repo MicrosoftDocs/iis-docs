@@ -1,15 +1,7 @@
 ---
-title: "IHttpConnection::AllocateMemory Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpConnection::AllocateMemory Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 25fd377b-68aa-c2da-f21d-bddc92f71a51
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpConnection::AllocateMemory Method
 Allocates a specified amount of memory.  
@@ -22,7 +14,7 @@ virtual VOID* AllocateMemory(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `cbAllocation`  
  The number of bytes to allocate.  
   

@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # IDbRestoreManager Methods
 
-Include Protected Members  
-Include Inherited Members  
-
 The [IDbRestoreManager](idbrestoremanager-interface-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Methods
@@ -22,11 +19,9 @@ The [IDbRestoreManager](idbrestoremanager-interface-microsoft-web-management-dat
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[RestoreBackup](idbrestoremanager-restorebackup-method-microsoft-web-management-databasemanager.md)|Restores a database backup.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbRestoreManager Interface](idbrestoremanager-interface-microsoft-web-management-databasemanager.md)
 

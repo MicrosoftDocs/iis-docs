@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipInformation Class
@@ -33,7 +32,7 @@ Metadata class for scheduling and viewing a segment of audio or video media data
 
 ## Inheritance Hierarchy
 
- [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+ [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
   Microsoft.Web.Media.SmoothStreaming.ClipInformation  
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
@@ -41,7 +40,7 @@ Metadata class for scheduling and viewing a segment of audio or video media data
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Class ClipInformation
@@ -50,11 +49,11 @@ Public Class ClipInformation
 Dim instance As ClipInformation
 ```
 
-``` csharp
+```csharp
 public class ClipInformation
 ```
 
-``` c++
+```cpp
 public ref class ClipInformation
 ```
 
@@ -62,7 +61,7 @@ public ref class ClipInformation
 type ClipInformation =  class end
 ```
 
-``` jscript
+```jscript
 public class ClipInformation
 ```
 
@@ -79,36 +78,30 @@ The ClipInformation type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ClipInformation(Boolean, Uri, Uri, Duration, ISmoothStreamingCache)](clipinformation-constructor-boolean-uri-uri-duration-ismoothstreamingcache-microsoft-web-media-smoothstreaming_1.md)|Initializes a new instance of the ClipInformation class.|
 
 
-Top
-
 ## Properties
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[ClickThroughUri](clipinformation-clickthroughuri-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets a [Uri](https://msdn.microsoft.com/en-us/library/txt7706a(v=vs.95)) object that contains the Uri to additional information.|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[ClipUri](clipinformation-clipuri-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets a [Uri](https://msdn.microsoft.com/en-us/library/txt7706a(v=vs.95)) object that contains the clip source.|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[ClickThroughUri](clipinformation-clickthroughuri-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets a [Uri](https://msdn.microsoft.com/library/txt7706a(v=vs.95)) object that contains the Uri to additional information.|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[ClipUri](clipinformation-clipuri-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets a [Uri](https://msdn.microsoft.com/library/txt7706a(v=vs.95)) object that contains the clip source.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[Duration](clipinformation-duration-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the running time of the media clip.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[IsSmoothStreamingSource](clipinformation-issmoothstreamingsource-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets a Boolean value that indicates whether the media clip is in Smooth Streaming format.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[SmoothStreamingCache](clipinformation-smoothstreamingcache-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets the Smooth Streaming cache.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")|[UseSmoothStreamingCache](clipinformation-usesmoothstreamingcache-property-microsoft-web-media-smoothstreaming_1.md)|Gets or sets a Boolean value that indicates whether to use the Smooth Streaming cache.|
 
 
-Top
-
 ## Methods
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/en-us/library/4k87zsw7(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
-|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[Equals](https://msdn.microsoft.com/library/bsc2ak47(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[GetHashCode](https://msdn.microsoft.com/library/zdee4b3y(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[GetType](https://msdn.microsoft.com/library/dfwy45w9(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
+|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 |![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")|[SetSource](clipinformation-setsource-method-microsoft-web-media-smoothstreaming_1.md)|Sets the source for the clip. Enables setting the clip information on the clip MediaElement for extensibility purposes.|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.95)).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[ToString](https://msdn.microsoft.com/library/7bxwbwt2(v=vs.95))|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b(v=vs.95)).)|
 
-
-Top
 
 ## Examples
 
@@ -128,7 +121,7 @@ For more information, see [Scheduling Media Clips](scheduling-media-clips.md).
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
@@ -138,7 +131,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

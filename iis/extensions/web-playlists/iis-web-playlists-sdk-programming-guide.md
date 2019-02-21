@@ -14,12 +14,12 @@ You can use the information in the following sections to build providers that ex
 
 |Section|Description|
 |--- |--- |
-|[Getting Started with the IIS Web Playlists SDK](https://msdn.microsoft.com/en-us/library/dd146274(v=vs.90))|Discusses the steps needed to get started building custom Web Playlist providers.|
+|[Getting Started with the IIS Web Playlists SDK](https://msdn.microsoft.com/library/dd146274)|Discusses the steps needed to get started building custom Web Playlist providers.|
 
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [IIS Web Playlists SDK Programming Guide](iis-web-playlists-sdk-programming-guide.md)
 

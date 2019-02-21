@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.PipMode Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.PipMode Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: PipMode Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PipMode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.pipmode(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_PipMode
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_PipMode
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.PipMode Property
@@ -40,7 +39,7 @@ Gets or sets a value that indicates whether the media stream is in picture-in-pi
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property PipMode As Boolean
@@ -56,11 +55,11 @@ value = instance.PipMode
 instance.PipMode = value
 ```
 
-``` csharp
+```csharp
 public bool PipMode { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool PipMode {
     bool get ();
@@ -72,25 +71,25 @@ property bool PipMode {
 member PipMode : bool with get, set
 ```
 
-``` jscript
+```jscript
 function get PipMode () : boolean
 function set PipMode (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
 true if the media stream is in picture-in-picture (PIP) mode; otherwise, false.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

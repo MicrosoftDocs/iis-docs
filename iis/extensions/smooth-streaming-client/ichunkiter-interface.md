@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,7 +20,7 @@ ChunkIter interface.
 
 ## Syntax
 
-``` csharp
+```csharp
 [GuidAttribute(, , , , , , , , , , )] 
 
 [VersionAttribute()]
@@ -28,7 +28,7 @@ ChunkIter interface.
 public interface IChunkIter
 ```
 
-``` c++
+```cpp
 [GuidAttribute(, , , , , , , , , , )] 
 
 [VersionAttribute()]
@@ -36,7 +36,7 @@ public interface IChunkIter
 public interface class IChunkIter
 ```
 
-``` jscript
+```jscript
 public interface IChunkIter
 ```
 

@@ -1,5 +1,5 @@
 ---
-title: JobDetails.Priority Property  (Microsoft.Web.Media.TransformManager)
+title: JobDetails.Priority Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Priority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.Priority
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdetails.priority(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.set_Priority
 - Microsoft.Web.Media.TransformManager.JobDetails.get_Priority
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Priority Property
@@ -40,7 +39,7 @@ Gets or sets the priority of the job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property Priority As Integer
@@ -56,12 +55,12 @@ value = instance.Priority
 instance.Priority = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public int Priority { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property int Priority {
@@ -75,19 +74,19 @@ property int Priority {
 member Priority : int with get, set
 ```
 
-``` jscript
+```jscript
   function get Priority () : int
 function set Priority (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The priority of the job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

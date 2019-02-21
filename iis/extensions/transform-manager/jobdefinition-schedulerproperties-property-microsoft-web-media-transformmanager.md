@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.SchedulerProperties Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.SchedulerProperties Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerProperties Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerProperties
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.schedulerproperties(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerProperties
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_SchedulerProperties
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerProperties Property
@@ -38,7 +37,7 @@ Gets a list of additional scheduler properties.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property SchedulerProperties As Dictionary(Of String, String)
@@ -51,11 +50,11 @@ Dim value As Dictionary(Of String, String)
 value = instance.SchedulerProperties
 ```
 
-``` csharp
+```csharp
   public Dictionary<string, string> SchedulerProperties { get; }
 ```
 
-``` c++
+```cpp
   public:
 property Dictionary<String^, String^>^ SchedulerProperties {
     Dictionary<String^, String^>^ get ();
@@ -66,18 +65,18 @@ property Dictionary<String^, String^>^ SchedulerProperties {
   member SchedulerProperties : Dictionary<string, string>
 ```
 
-``` jscript
+```jscript
   function get SchedulerProperties () : Dictionary<String, String>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic. . :: . .Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508\(v=vs.90\))\< (Of \< ( \<'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\)), [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))\> ) \> ) \>  
+Type: [System.Collections.Generic.Dictionary](https://msdn.microsoft.com/library/xfhwa508)\< (Of \< ( \<'[String](https://msdn.microsoft.com/library/s1wwdcbf), [String](https://msdn.microsoft.com/library/s1wwdcbf)\> ) \> ) \>  
 A list of scheduler properties.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

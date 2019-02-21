@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbTableManager.GetPrimaryKey
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbTableManager.GetPrimaryKey Method
@@ -35,7 +34,7 @@ Returns a list of primary keys for the specified table.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Function GetPrimaryKey ( _
     connectionString As String, _
@@ -53,7 +52,7 @@ returnValue = instance.GetPrimaryKey(connectionString, _
     tableName, schema)
 ```
 
-``` csharp
+```csharp
 string[] GetPrimaryKey(
     string connectionString,
     string tableName,
@@ -61,7 +60,7 @@ string[] GetPrimaryKey(
 )
 ```
 
-``` c++
+```cpp
 array<String^>^ GetPrimaryKey(
     String^ connectionString, 
     String^ tableName, 
@@ -69,7 +68,7 @@ array<String^>^ GetPrimaryKey(
 )
 ```
 
-``` jscript
+```jscript
 function GetPrimaryKey(
     connectionString : String, 
     tableName : String, 
@@ -77,28 +76,28 @@ function GetPrimaryKey(
 ) : String[]
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
 <!-- end list -->
 
   - tableName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the table.  
 
 <!-- end list -->
 
   - schema  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the table.  
     **Note**    If schema is empty, the default schema name will be used.  
 
-#### Return Value
+### Return Value
 
-Type: array\<[System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))\[\]  
+Type: array\<[System.String](https://msdn.microsoft.com/library/s1wwdcbf)\[\]  
 The array of primary keys.  
 
 ## Remarks
@@ -107,7 +106,7 @@ All database providers that implement the [IDbTableManager](idbtablemanager-inte
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider does not support retrieving the list of primary keys, you can use the following code sample to raise a not-implemented exception:
 
@@ -120,7 +119,7 @@ If your provider does not support retrieving the list of primary keys, you can u
 
 The following code sample shows how to use the GetPrimaryKey method to retrieve the list of primary keys for an OLEDB connection by using the table name that the database manager provides.
 
-``` vb
+```vb
 
     Public Function GetPrimaryKey( _
             ByVal connectionString As String, _
@@ -148,7 +147,7 @@ The following code sample shows how to use the GetPrimaryKey method to retrieve 
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve a list of primary keys for a table.
         public string[] GetPrimaryKey(string connectionString, string tableName, string schema)
@@ -178,11 +177,11 @@ The following code sample shows how to use the GetPrimaryKey method to retrieve 
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbTableManager Interface](idbtablemanager-interface-microsoft-web-management-databasemanager.md)
 

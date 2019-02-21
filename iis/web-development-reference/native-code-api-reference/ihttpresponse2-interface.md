@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse2 Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse2 Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 926ab657-fabb-4523-8f1e-c372f6871f8a
-caps.latest.revision: 6
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse2 Interface
 Provides an interface for flushing data and writing entity data chunks for asynchronous operations.  

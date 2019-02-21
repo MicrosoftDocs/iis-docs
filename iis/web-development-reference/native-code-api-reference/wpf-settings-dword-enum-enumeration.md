@@ -1,15 +1,7 @@
 ---
-title: "WPF_SETTINGS_DWORD_ENUM Enumeration | Microsoft Docs"
-ms.custom: ""
+title: "WPF_SETTINGS_DWORD_ENUM Enumeration"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0ed59b94-24e7-5d9d-b2a6-cc24a68a1bd0
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WPF_SETTINGS_DWORD_ENUM Enumeration
 Defines the `DWORD` values that the [IWpfSettings::GetDwordProperty](../../web-development-reference\native-code-api-reference/iwpfsettings-getdwordproperty-method.md) method returns.  

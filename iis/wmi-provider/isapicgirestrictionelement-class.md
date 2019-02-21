@@ -1,15 +1,7 @@
 ---
-title: "IsapiCgiRestrictionElement Class | Microsoft Docs"
-ms.custom: ""
+title: "IsapiCgiRestrictionElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 73cb1f6b-b712-c837-845a-f1d7076b4143
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IsapiCgiRestrictionElement Class
 Represents an ISAPI or Common Gateway Interface (CGI) restriction element.  

@@ -1,15 +1,7 @@
 ---
-title: "WorkerProcess Class2 | Microsoft Docs"
-ms.custom: ""
+title: "WorkerProcess Class2"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: dd8bf382-1523-1da8-f2b6-0cceb66fec82
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WorkerProcess Class2
 Represents a Windows Process Activation Service (WAS) worker process (w3wp.exe).  

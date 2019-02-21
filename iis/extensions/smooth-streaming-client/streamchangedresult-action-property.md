@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the action of the stream.
 
 ## Syntax
 
-``` csharp
+```csharp
 public StreamChangedAction Action { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property StreamChangedAction Action {
 StreamChangedAction get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get Action () : StreamChangedAction
 ```
 

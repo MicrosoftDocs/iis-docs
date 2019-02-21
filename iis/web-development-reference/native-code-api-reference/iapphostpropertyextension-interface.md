@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertyExtension Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertyExtension Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 75096e8d-a4d9-4c5d-ab8c-b844e1b52033
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertyExtension Interface
 Used to handle property extensions in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  

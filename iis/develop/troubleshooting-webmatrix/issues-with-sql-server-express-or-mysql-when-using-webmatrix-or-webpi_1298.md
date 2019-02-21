@@ -21,7 +21,7 @@ The following article will grow to cover issues when using SQL Server Express or
 
 1. The password you entered may not match the required security settings of SQL Express or MySQL. The following articles detail the password strength requirements:
 
-    1. SQL Express: [https://msdn.microsoft.com/en-us/library/ms161959.aspx](https://msdn.microsoft.com/en-us/library/ms161959.aspx)
+    1. SQL Express: [https://msdn.microsoft.com/library/ms161959.aspx](https://msdn.microsoft.com/library/ms161959.aspx)
     2. MySQL: No complexity requirements
 2. The password that WebMatrix or WebPI has stored does not match the database you are trying to connect to
 

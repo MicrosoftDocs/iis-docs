@@ -220,9 +220,9 @@ The merged manifest data is shown in the following XML example. This data must b
       </StreamIndex>
     </SmoothStreamingMedia>
 
-After the markers specified in the previous XML are merged into the manifest, the [Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AvailableStreams](https://msdn.microsoft.com/en-us/library/ee532861\(v=vs.95\)) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) contains [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) objects that correspond to \<StreamIndex\> elements in the manifest.
+After the markers specified in the previous XML are merged into the manifest, the [Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AvailableStreams](https://msdn.microsoft.com/library/ee532861\(v=vs.95\)) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) contains [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) objects that correspond to \<StreamIndex\> elements in the manifest.
 
-The following [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md) event handler parses the data contained by the [Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AvailableStreams](https://msdn.microsoft.com/en-us/library/ee532861\(v=vs.95\)) property. This code identifies the stream that contains the markers by the stream type and attributes. The stream containing the markers is a System.Windows.Media.MediaStreamType.Script object, which is not included in by default in [SelectedStreams](segmentinfo-selectedstreams-property-microsoft-web-media-smoothstreaming_1.md). It must be selected by calling [SelectStreamsAsync](segmentinfo-selectstreamsasync-method-microsoft-web-media-smoothstreaming_1.md).
+The following [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md) event handler parses the data contained by the [Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AvailableStreams](https://msdn.microsoft.com/library/ee532861\(v=vs.95\)) property. This code identifies the stream that contains the markers by the stream type and attributes. The stream containing the markers is a System.Windows.Media.MediaStreamType.Script object, which is not included in by default in [SelectedStreams](segmentinfo-selectedstreams-property-microsoft-web-media-smoothstreaming_1.md). It must be selected by calling [SelectStreamsAsync](segmentinfo-selectstreamsasync-method-microsoft-web-media-smoothstreaming_1.md).
 
 The next step is to get the marker data from a [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) object that contains the [ChunkInfo](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md) data from which [Timeline Marker](http://go.microsoft.com/fwlink/?linkid=181858) objects can be initialized. The [Timeline Marker](http://go.microsoft.com/fwlink/?linkid=181858) class is from the System.Windows.Media class as used by Silverlight.
 
@@ -315,13 +315,13 @@ The merged Caption marker elements will raise the [MarkerReached](smoothstreamin
           TimelineMarkerRoutedEventHandler(SmoothPlayer_MarkerReached);
 ```
 
-The data from each [Microsoft.Web.Media.SmoothStreaming.TimelineEvent](https://msdn.microsoft.com/en-us/library/ee532619\(v=vs.95\)) is accessible from the Microsoft.Web.Media.SmoothStreaming.TimelineMarkerRoutedEventArgs parameter of the [MarkerReached](smoothstreamingmediaelement-markerreached-event-microsoft-web-media-smoothstreaming_1.md) delegate. To get the data from the base64 encoded string, use the [Encoding](http://go.microsoft.com/fwlink/?linkid=184080) class method [GetString](http://msdn.microsoft.com/en-us/library/05cts4c3.aspx) on the [Microsoft.Web.Media.SmoothStreaming.TimelineEvent.EventData](https://msdn.microsoft.com/en-us/library/ee532678\(v=vs.95\)) property from the Microsoft.Web.Media.SmoothStreaming.TimelineMarkerRoutedEventArgs. The data, as described above, is of the form \<Caption Id="111" Action="ADD"\>Chapter One\</Caption\>.
+The data from each [Microsoft.Web.Media.SmoothStreaming.TimelineEvent](https://msdn.microsoft.com/library/ee532619\(v=vs.95\)) is accessible from the Microsoft.Web.Media.SmoothStreaming.TimelineMarkerRoutedEventArgs parameter of the [MarkerReached](smoothstreamingmediaelement-markerreached-event-microsoft-web-media-smoothstreaming_1.md) delegate. To get the data from the base64 encoded string, use the [Encoding](http://go.microsoft.com/fwlink/?linkid=184080) class method [GetString](http://msdn.microsoft.com/en-us/library/05cts4c3.aspx) on the [Microsoft.Web.Media.SmoothStreaming.TimelineEvent.EventData](https://msdn.microsoft.com/library/ee532678\(v=vs.95\)) property from the Microsoft.Web.Media.SmoothStreaming.TimelineMarkerRoutedEventArgs. The data, as described above, is of the form \<Caption Id="111" Action="ADD"\>Chapter One\</Caption\>.
 
 Each Caption element specifies either ADD or REMOVE by its Action attribute. When the value specifies the ADD action, the code creates a new text block for the caption and formats the text. Adding the new text block to the LayoutRoot displays the caption.
 
 If the value of the Action attribute specifies REMOVE, another code block removes the Caption identified by the Id attribute value set when it was created. Any previous captions that remain because of out-of-sequence movements through the stream are identified by Tag="Caption" so that they can be removed before new captions are displayed.
 
-The following code implements the [Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.TimelineEventReached](https://msdn.microsoft.com/en-us/library/ee532784\(v=vs.95\)) delegate.
+The following code implements the [Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.TimelineEventReached](https://msdn.microsoft.com/library/ee532784\(v=vs.95\)) delegate.
 
 ``` 
     void SmoothPlayer_MarkerReached(object sender, TimelineMarkerRoutedEventArgs e)
@@ -394,7 +394,7 @@ For more information, see [Timeline Markers and Events](timeline-markers-and-eve
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Microsoft Smooth Streaming Client 2.0](microsoft-smooth-streaming-client-2-0.md)
 

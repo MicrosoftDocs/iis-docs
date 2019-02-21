@@ -1,5 +1,5 @@
 ---
-title: JobManager.OutputFolderPath Property  (Microsoft.Web.Media.TransformManager)
+title: JobManager.OutputFolderPath Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: OutputFolderPath Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.OutputFolderPath
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.outputfolderpath(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.OutputFolderPath
 - Microsoft.Web.Media.TransformManager.JobManager.get_OutputFolderPath
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # OutputFolderPath Property
@@ -38,7 +37,7 @@ Gets the output folder for a job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property OutputFolderPath As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.OutputFolderPath
 ```
 
-``` csharp
+```csharp
   public string OutputFolderPath { get; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ OutputFolderPath {
     String^ get ();
@@ -66,18 +65,18 @@ property String^ OutputFolderPath {
   member OutputFolderPath : string
 ```
 
-``` jscript
+```jscript
   function get OutputFolderPath () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The output folder for a job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

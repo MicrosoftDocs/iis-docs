@@ -1,15 +1,7 @@
 ---
-title: "CACHE_OPERATION Enumeration | Microsoft Docs"
-ms.custom: ""
+title: "CACHE_OPERATION Enumeration"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: eac89782-7b9b-1fb3-c267-712522b7c96b
-caps.latest.revision: 34
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CACHE_OPERATION Enumeration
 Defines the enumeration values for cache operations.  

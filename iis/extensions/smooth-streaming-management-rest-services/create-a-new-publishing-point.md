@@ -188,7 +188,7 @@ None.
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [SmoothStreaming Schema Reference](smoothstreaming-schema-reference.md)
 

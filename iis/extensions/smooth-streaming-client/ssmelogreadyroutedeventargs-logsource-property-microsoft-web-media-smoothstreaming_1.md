@@ -1,5 +1,5 @@
 ---
-title: SSMELogReadyRoutedEventArgs.LogSource Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SSMELogReadyRoutedEventArgs.LogSource Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LogSource Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.LogSource
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventargs.logsource(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.LogSource
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.set_LogSource
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SSMELogReadyRoutedEventArgs.LogSource Property
@@ -40,7 +39,7 @@ Gets a value that indicates why the log was generated.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property LogSource As LogSource
@@ -54,11 +53,11 @@ Dim value As LogSource
 value = instance.LogSource
 ```
 
-``` csharp
+```csharp
 public LogSource LogSource { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property LogSource LogSource {
     LogSource get ();
@@ -70,29 +69,29 @@ property LogSource LogSource {
 member LogSource : LogSource with get, private set
 ```
 
-``` jscript
+```jscript
 function get LogSource () : LogSource
 private function set LogSource (value : LogSource)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Windows.Media.LogSource](https://msdn.microsoft.com/en-us/library/dd491072\(v=vs.95\))  
+Type: [System.Windows.Media.LogSource](https://msdn.microsoft.com/library/dd491072\(v=vs.95\))  
 A string that contains the log source.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SSMELogReadyRoutedEventArgs Class](ssmelogreadyroutedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

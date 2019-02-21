@@ -1,15 +1,7 @@
 ---
-title: "IScriptMapInfo::GetPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IScriptMapInfo::GetPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 94934509-f6be-8dd3-3d06-a5505a126c56
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IScriptMapInfo::GetPath Method
 Retrieves the `path` attribute for a request handler.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetPath(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

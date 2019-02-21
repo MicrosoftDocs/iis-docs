@@ -1,15 +1,7 @@
 ---
-title: "IProcessHostIdleAndHealthMonitor Interface | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHostIdleAndHealthMonitor Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0cecacb6-0772-3d95-af9c-edf5069d30ac
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHostIdleAndHealthMonitor Interface
 Monitors the health of a worker process.  

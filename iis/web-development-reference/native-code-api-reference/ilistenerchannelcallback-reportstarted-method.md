@@ -1,15 +1,7 @@
 ---
-title: "IListenerChannelCallback::ReportStarted Method | Microsoft Docs"
-ms.custom: ""
+title: "IListenerChannelCallback::ReportStarted Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6f90fa87-e69c-556e-5a58-f85ea72ad339
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IListenerChannelCallback::ReportStarted Method
 Notifies the worker process framework that a listener channel has started.  
@@ -21,7 +13,7 @@ virtual HRESULT __stdcall ReportStarted(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -1,15 +1,7 @@
 ---
-title: "IModuleAllocator Interface | Microsoft Docs"
-ms.custom: ""
+title: "IModuleAllocator Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1e5ba946-ff20-85a7-8be2-117a3bcea494
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IModuleAllocator Interface
 Allocates memory within the current request's memory pool.  

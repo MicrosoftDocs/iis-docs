@@ -381,11 +381,11 @@ For more information about client access policy, see [Test and Debug Application
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Timeline Markers and Events](timeline-markers-and-events.md)
 
-#### Other Resources
+### Other Resources
 
 [IIS Media Services Readme](http://go.microsoft.com/fwlink/?linkid=184078)
 

@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.OutputFolderPath Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.OutputFolderPath Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: OutputFolderPath Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.OutputFolderPath
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.outputfolderpath(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.OutputFolderPath
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_OutputFolderPath
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # OutputFolderPath Property
@@ -40,7 +39,7 @@ Gets or sets the output folder path for a job. This type/member supports the IIS
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property OutputFolderPath As String
@@ -56,12 +55,12 @@ value = instance.OutputFolderPath
 instance.OutputFolderPath = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string OutputFolderPath { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ OutputFolderPath {
@@ -75,19 +74,19 @@ property String^ OutputFolderPath {
 member OutputFolderPath : string with get, set
 ```
 
-``` jscript
+```jscript
   function get OutputFolderPath () : String
 function set OutputFolderPath (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The output folder path for a job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionGroup::Name Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionGroup::Name Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 94c060aa-b3e8-6a90-aeca-f11efc16ffa4
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionGroup::Name Property
 Gets the name of the configuration section group.  
@@ -23,7 +15,7 @@ HRESULT get_Name(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrName`  
  A pointer to a `BSTR` that contains the name of the configuration section group.  
   

@@ -1,5 +1,5 @@
 ---
-title: JobManager.SchedulerId Property  (Microsoft.Web.Media.TransformManager)
+title: JobManager.SchedulerId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.SchedulerId
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.schedulerid(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.SchedulerId
 - Microsoft.Web.Media.TransformManager.JobManager.get_SchedulerId
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerId Property
@@ -38,7 +37,7 @@ Gets the ID of the scheduler that is associated with this job definition.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property SchedulerId As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.SchedulerId
 ```
 
-``` csharp
+```csharp
   public string SchedulerId { get; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ SchedulerId {
     String^ get ();
@@ -66,18 +65,18 @@ property String^ SchedulerId {
   member SchedulerId : string
 ```
 
-``` jscript
+```jscript
   function get SchedulerId () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The ID of the scheduler that is associated with this job definition.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::ReportUnhealthy Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::ReportUnhealthy Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 08546d0e-7d6c-eb00-0cd8-2bcf460e7674
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::ReportUnhealthy Method
 Reports the worker process as unhealthy.  
@@ -23,7 +15,7 @@ virtual VOID ReportUnhealthy(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszReasonString`  
  [IN] A pointer to a string that contains the cause of the unhealthy status.  
   

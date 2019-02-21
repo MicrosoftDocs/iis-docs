@@ -1,5 +1,5 @@
 ---
-title: ClipContext.HasQuartileEvents Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ClipContext.HasQuartileEvents Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: HasQuartileEvents Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.HasQuartileEvents
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipcontext.hasquartileevents(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.get_HasQuartileEvents
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.set_HasQuartileEvents
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # HasQuartileEvents Property
@@ -39,7 +38,7 @@ Gets or sets the HasQuartileEvents property. This value specifies whether the cl
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property HasQuartileEvents As Boolean
@@ -51,11 +50,11 @@ Dim value As Boolean
 value = instance.HasQuartileEvents
 ```
 
-``` csharp
+```csharp
   public bool HasQuartileEvents { get; internal set; }
 ```
 
-``` c++
+```cpp
   public:
 property bool HasQuartileEvents {
     bool get ();
@@ -63,14 +62,14 @@ property bool HasQuartileEvents {
 }
 ```
 
-``` jscript
+```jscript
   function get HasQuartileEvents () : boolean
 internal function set HasQuartileEvents (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 A Boolean value, true if the [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) has quartile events, otherwise false.  
 
 ## Remarks
@@ -79,17 +78,17 @@ Quartile markers indicate each 25 percent segment of the clip.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipContext Class](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)
 

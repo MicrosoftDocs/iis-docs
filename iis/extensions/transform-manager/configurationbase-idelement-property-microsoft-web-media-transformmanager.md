@@ -1,5 +1,5 @@
 ---
-title: ConfigurationBase.IdElement Property  (Microsoft.Web.Media.TransformManager)
+title: ConfigurationBase.IdElement Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: IdElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.IdElement
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.idelement(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.get_IdElement
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_IdElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IdElement Property
@@ -40,7 +39,7 @@ Gets or sets the XML ID element of a configuration object.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property IdElement As XElement
@@ -56,11 +55,11 @@ value = instance.IdElement
 instance.IdElement = value
 ```
 
-``` csharp
+```csharp
   public XElement IdElement { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property XElement^ IdElement {
     XElement^ get ();
@@ -72,14 +71,14 @@ property XElement^ IdElement {
   member IdElement : XElement with get, set
 ```
 
-``` jscript
+```jscript
   function get IdElement () : XElement
 function set IdElement (value : XElement)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 The XML ID element of the IIS Transform Manager configuration.  
 
 ## Remarks
@@ -88,7 +87,7 @@ This property is an XElement object whose value is the ID of this configuration 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

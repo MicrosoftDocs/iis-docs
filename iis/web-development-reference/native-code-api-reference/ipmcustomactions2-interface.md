@@ -1,15 +1,7 @@
 ---
-title: "IPmCustomActions2 Interface | Microsoft Docs"
-ms.custom: ""
+title: "IPmCustomActions2 Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 20ec2a31-666e-43de-b0a1-be2bd98f9ba6
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPmCustomActions2 Interface
 Enables the worker process to register and unregister custom actions that will result in multiple responses.  

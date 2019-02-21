@@ -1,15 +1,7 @@
 ---
-title: "HttpCompressionMimeTypeElement Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpCompressionMimeTypeElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cda3cb3f-32b6-9ee2-9dec-35f00f19fc5b
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpCompressionMimeTypeElement Class
 Specifies whether IIS will compress a particular MIME type before serving it.  

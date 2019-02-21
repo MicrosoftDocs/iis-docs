@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.VideoPlaybackTrack Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.VideoPlaybackTrack Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: VideoPlaybackTrack Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoPlaybackTrack
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.videoplaybacktrack(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VideoPlaybackTrack
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_VideoPlaybackTrack
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.VideoPlaybackTrack Property
@@ -38,7 +37,7 @@ Gets the video playback track.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property VideoPlaybackTrack As TrackInfo
@@ -51,11 +50,11 @@ Dim value As TrackInfo
 value = instance.VideoPlaybackTrack
 ```
 
-``` csharp
+```csharp
 public TrackInfo VideoPlaybackTrack { get; }
 ```
 
-``` c++
+```cpp
 public:
 property TrackInfo^ VideoPlaybackTrack {
     TrackInfo^ get ();
@@ -66,28 +65,28 @@ property TrackInfo^ VideoPlaybackTrack {
 member VideoPlaybackTrack : TrackInfo
 ```
 
-``` jscript
+```jscript
 function get VideoPlaybackTrack () : TrackInfo
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)  
 The video playback track.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "Mapping IIS 6.0 WMI Methods to IIS 7 and higher WMI Methods1 | Microsoft Docs"
-ms.custom: ""
+title: "Mapping IIS 6.0 WMI Methods to IIS 7 and higher WMI Methods1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: de857e8a-fb15-42b0-8806-da635e7c806f
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Mapping IIS 6.0 WMI Methods to IIS 7 and higher WMI Methods1
 The table below shows the IIS 6.0 WMI provider class methods mapped to the [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI provider class methods. Most of the IIS 6.0 WMI class methods do not map to [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI provider class methods because of the significant architectural changes that were implemented in [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] to improve processes and provide additional features. Use this table to help you convert your IIS 6.0 programmatic administration to use [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)] WMI provider classes and methods.  

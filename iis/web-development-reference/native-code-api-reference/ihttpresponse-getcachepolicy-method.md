@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::GetCachePolicy Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::GetCachePolicy Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ca34e089-b2d7-386a-e3f5-4c7dfa213d91
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::GetCachePolicy Method
 Retrieves the response output cache policy.  
@@ -22,7 +14,7 @@ virtual IHttpCachePolicy* GetCachePolicy(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.GetService
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseProvider.GetService Method
@@ -35,7 +34,7 @@ Returns the service object for a database provider.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Overridable Function GetService ( _
     serviceType As Type _
@@ -48,39 +47,39 @@ Dim returnValue As Object
 returnValue = instance.GetService(serviceType)
 ```
 
-``` csharp
+```csharp
 public virtual Object GetService(
     Type serviceType
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual Object^ GetService(
     Type^ serviceType
 )
 ```
 
-``` jscript
+```jscript
 public function GetService(
     serviceType : Type
 ) : Object
 ```
 
-#### Parameters
+### Parameters
 
   - serviceType  
-    Type: [System.Type](https://msdn.microsoft.com/en-us/library/42892f65\(v=vs.90\))  
+    Type: [System.Type](https://msdn.microsoft.com/library/42892f65)  
     The service type for the database provider.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
+Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
 The service object for a database provider.  
 
-#### Implements
+### Implements
 
-[IServiceProvider.GetService(Type)](https://msdn.microsoft.com/en-us/library/wacy2d1s\(v=vs.90\))  
+[IServiceProvider.GetService(Type)](https://msdn.microsoft.com/library/wacy2d1s)  
 
 ## Remarks
 
@@ -88,11 +87,11 @@ Your provider may optionally implement the GetService method to return the syste
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 

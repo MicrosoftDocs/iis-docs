@@ -1,15 +1,7 @@
 ---
-title: "ProfileSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "ProfileSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d8c0627e-0259-7d81-fc26-709f82ef2d18
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ProfileSettings Class
 Configures an event profile that determines how an event is collected by [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and raised to providers.  
@@ -51,8 +43,8 @@ class ProfileSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.ProfileSettings](/dotnet/api/system.web.configuration.profilesettings?view=netframework-4.7.2)
- [System.Web.Management.IWebEventCustomEvaluator](/dotnet/api/system.web.management.iwebeventcustomevaluator?view=netframework-4.7.2)   
+ [System.Web.Configuration.ProfileSettings](/dotnet/api/system.web.configuration.profilesettings)
+ [System.Web.Management.IWebEventCustomEvaluator](/dotnet/api/system.web.management.iwebeventcustomevaluator)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
  [ProfileElement Class](../wmi-provider/profileelement-class.md)   

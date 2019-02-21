@@ -1,15 +1,7 @@
 ---
-title: "ApplicationContainsConfigurationSection Class1 | Microsoft Docs"
-ms.custom: ""
+title: "ApplicationContainsConfigurationSection Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 437265a3-6c4a-f094-7afd-75a84fd6e982
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ApplicationContainsConfigurationSection Class1
 Provides a relationship between an IIS Web application and a configuration section.  

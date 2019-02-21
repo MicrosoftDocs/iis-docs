@@ -152,13 +152,13 @@ The defining elements and attributes of the task definition XML are specified in
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)
 
 [IJobMetadata](ijobmetadata-interface-microsoft-web-media-transformmanager.md)
 
-#### Concepts
+### Concepts
 
 [Custom Task Registration (IIS Transform Manager)](custom-task-registration-iis-transform-manager.md)
 

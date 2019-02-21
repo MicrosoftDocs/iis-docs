@@ -19,11 +19,9 @@ The [HpcScheduler](hpcscheduler-class-microsoft-web-media-transformmanager.md) t
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[TestConnectionMessage](hpcscheduler-testconnectionmessage-property-microsoft-web-media-transformmanager.md)|Gets the connection message.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [HpcScheduler Class](hpcscheduler-class-microsoft-web-media-transformmanager.md)
 

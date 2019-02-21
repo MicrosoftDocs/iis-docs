@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.Utilities.CloneElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CloneElement Method
@@ -36,7 +35,7 @@ Creates a duplicate of the provided element.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Function CloneElement ( _
@@ -53,14 +52,14 @@ returnValue = Utilities.CloneElement(element, _
     targetNamespace)
 ```
 
-``` csharp
+```csharp
   public static XElement CloneElement(
     XElement element,
     XNamespace targetNamespace
 )
 ```
 
-``` c++
+```cpp
   public:
 static XElement^ CloneElement(
     XElement^ element, 
@@ -74,39 +73,39 @@ static XElement^ CloneElement(
         targetNamespace:XNamespace -> XElement 
 ```
 
-``` jscript
+```jscript
   public static function CloneElement(
     element : XElement, 
     targetNamespace : XNamespace
 ) : XElement
 ```
 
-#### Parameters
+### Parameters
 
   - element  
-    Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+    Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
     The element to clone.  
 
 <!-- end list -->
 
   - targetNamespace  
-    Type: [System.Xml.Linq. . :: . .XNamespace](https://msdn.microsoft.com/en-us/library/bb291898\(v=vs.90\))  
+    Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
     The namespace of the element to clone.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[ArgumentNullException](https://msdn.microsoft.com/en-us/library/27426hcy(v=vs.90))|element is null Nothing nullptr unit a null reference (Nothing in Visual Basic)|
-|[ArgumentNullException](https://msdn.microsoft.com/en-us/library/27426hcy(v=vs.90))|targetNamespace is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
+|[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|element is null Nothing nullptr unit a null reference (Nothing in Visual Basic)|
+|[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|targetNamespace is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Utilities Class](utilities-class-microsoft-web-media-transformmanager.md)
 

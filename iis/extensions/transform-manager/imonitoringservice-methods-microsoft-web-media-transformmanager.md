@@ -29,11 +29,9 @@ The [IMonitoringService](imonitoringservice-interface-microsoft-web-media-transf
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetJobManifest](imonitoringservice-getjobmanifest-method-microsoft-web-media-transformmanager.md)|Returns the job manifest that IIS Transform Manager created for a job.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetRunningJobs](imonitoringservice-getrunningjobs-method-microsoft-web-media-transformmanager.md)|Returns a collection of all of the running jobs for all [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) objects.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
 

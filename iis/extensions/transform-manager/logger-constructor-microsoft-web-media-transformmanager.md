@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.Logger.#ctor
 - Microsoft.Web.Media.TransformManager.Logger.Logger
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Logger Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [Logger](logger-class-microsoft-web-media-tran
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -53,14 +52,14 @@ Dim instance As New Logger(logFileName, _
     level)
 ```
 
-``` csharp
+```csharp
   public Logger(
     string logFileName,
     LogLevel level
 )
 ```
 
-``` c++
+```cpp
   public:
 Logger(
     String^ logFileName, 
@@ -74,23 +73,23 @@ Logger(
         level:LogLevel -> Logger
 ```
 
-``` jscript
+```jscript
   public function Logger(
     logFileName : String, 
     level : LogLevel
 )
 ```
 
-#### Parameters
+### Parameters
 
   - logFileName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the log file.  
 
 <!-- end list -->
 
   - level  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
     A [LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md) object that specifies the level of information that will be logged.  
 
 ## Remarks
@@ -99,7 +98,7 @@ Each line written to a log has a [LogLevel](loglevel-enumeration-microsoft-web-m
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Logger Class](logger-class-microsoft-web-media-transformmanager.md)
 

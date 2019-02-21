@@ -1,5 +1,5 @@
 ---
-title: ConfigurationBase.ConfigurationDirectory Property  (Microsoft.Web.Media.TransformManager)
+title: ConfigurationBase.ConfigurationDirectory Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationDirectory Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationDirectory
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.configurationdirectory(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationDirectory
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_ConfigurationDirectory
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationDirectory Property
@@ -40,7 +39,7 @@ Gets or sets the configuration directory path for the IIS Transform Manager conf
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Property ConfigurationDirectory As String
@@ -55,11 +54,11 @@ value = ConfigurationBase.ConfigurationDirectory
 ConfigurationBase.ConfigurationDirectory = value
 ```
 
-``` csharp
+```csharp
   public static string ConfigurationDirectory { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 static property String^ ConfigurationDirectory {
     String^ get ();
@@ -71,19 +70,19 @@ static property String^ ConfigurationDirectory {
   static member ConfigurationDirectory : string with get, set
 ```
 
-``` jscript
+```jscript
   static function get ConfigurationDirectory () : String
 static function set ConfigurationDirectory (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The configuration directory path.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

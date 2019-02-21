@@ -1,5 +1,5 @@
 ---
-title: JobManager.WatchFolder Property  (Microsoft.Web.Media.TransformManager)
+title: JobManager.WatchFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: WatchFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.WatchFolder
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.watchfolder(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.get_WatchFolder
 - Microsoft.Web.Media.TransformManager.JobManager.WatchFolder
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # WatchFolder Property
@@ -38,7 +37,7 @@ Gets a file system folder that will be watched for files that instantiate jobs.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property WatchFolder As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.WatchFolder
 ```
 
-``` csharp
+```csharp
   public string WatchFolder { get; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ WatchFolder {
     String^ get ();
@@ -66,18 +65,18 @@ property String^ WatchFolder {
   member WatchFolder : string
 ```
 
-``` jscript
+```jscript
   function get WatchFolder () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A file system folder that will be watched for files that instantiate jobs.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

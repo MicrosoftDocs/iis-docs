@@ -1,5 +1,5 @@
 ---
-title: CacheResponse.ContinueProcessing Property  (Microsoft.Web.Media.SmoothStreaming)
+title: CacheResponse.ContinueProcessing Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ContinueProcessing Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ContinueProcessing
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.cacheresponse.continueprocessing(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.get_ContinueProcessing
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.ContinueProcessing
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse.ContinueProcessing Property
@@ -40,7 +39,7 @@ Gets a Boolean value indicating whether cache response processing continues to t
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property ContinueProcessing As Boolean
@@ -54,11 +53,11 @@ Dim value As Boolean
 value = instance.ContinueProcessing
 ```
 
-``` csharp
+```csharp
 public bool ContinueProcessing { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property bool ContinueProcessing {
     bool get ();
@@ -70,25 +69,25 @@ property bool ContinueProcessing {
 member ContinueProcessing : bool with get, private set
 ```
 
-``` jscript
+```jscript
 function get ContinueProcessing () : boolean
 private function set ContinueProcessing (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
 true if the cache response processing continues; otherwise, false.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

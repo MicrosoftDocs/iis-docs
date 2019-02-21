@@ -19,7 +19,7 @@ To learn more about ASP.NET as a programming framework, check out the [www.asp.n
 - Learn about ASP.NET [https://www.asp.net/learn/](https://www.asp.net/learn/)
 - ASP.NET whitepapers [https://www.asp.net/learn/whitepapers/](https://www.asp.net/learn/whitepapers/)
 - ASP.NET forums Forums: [https://forums.asp.net/](https://forums.asp.net/)
-- ASP.NET MSDN documentation [https://msdn.microsoft.com/en-us/library/ms644563.aspx](https://msdn.microsoft.com/en-us/library/ms644563.aspx)
+- ASP.NET MSDN documentation [https://msdn.microsoft.com/library/ms644563.aspx](https://msdn.microsoft.com/library/ms644563.aspx)
 
 There is also an active blogging community that focuses on ASP.NET, including:
 

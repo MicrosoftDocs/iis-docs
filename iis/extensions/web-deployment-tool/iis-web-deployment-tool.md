@@ -18,12 +18,12 @@ The classes in the following namespace enable developers to streamline the deplo
 
 |Namespace|Description|
 |--- |--- |
-|[Microsoft.Web.Deployment](https://msdn.microsoft.com/en-us/library/microsoft.web.deployment(v=vs.90))|Web Deploy APIs.|
+|[Microsoft.Web.Deployment](https://msdn.microsoft.com/library/microsoft.web.deployment)|Web Deploy APIs.|
 
 
 ## See Also
 
-#### Other Resources
+### Other Resources
 
 [Web Deploy](http://go.microsoft.com/fwlink/?linkid=247911)
 

@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationMessage Constructor (XElement, ConfigurationBase)
@@ -34,7 +33,7 @@ Initializes a new instance of the [ConfigurationMessage](configurationmessage-cl
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -50,14 +49,14 @@ Dim instance As New ConfigurationMessage(messageElement, _
     configurationObject)
 ```
 
-``` csharp
+```csharp
   public ConfigurationMessage(
     XElement messageElement,
     ConfigurationBase configurationObject
 )
 ```
 
-``` c++
+```cpp
   public:
 ConfigurationMessage(
     XElement^ messageElement, 
@@ -71,28 +70,28 @@ ConfigurationMessage(
         configurationObject:ConfigurationBase -> ConfigurationMessage
 ```
 
-``` jscript
+```jscript
   public function ConfigurationMessage(
     messageElement : XElement, 
     configurationObject : ConfigurationBase
 )
 ```
 
-#### Parameters
+### Parameters
 
   - messageElement  
-    Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+    Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
     The XML element that contains the message.  
 
 <!-- end list -->
 
   - configurationObject  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.ConfigurationBase](configurationbase-class-microsoft-web-media-transformmanager.md)  
     An object that represents IIS Transform Manager configuration information.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationMessage Class](configurationmessage-class-microsoft-web-media-transformmanager.md)
 

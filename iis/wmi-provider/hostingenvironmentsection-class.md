@@ -1,15 +1,7 @@
 ---
-title: "HostingEnvironmentSection Class | Microsoft Docs"
-ms.custom: ""
+title: "HostingEnvironmentSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ada5901e-b150-4cd5-4175-5d495ad6808f
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HostingEnvironmentSection Class
 Defines configuration settings that control the behavior of the application hosting environment.  

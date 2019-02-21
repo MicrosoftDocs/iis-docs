@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Dispose Method
@@ -34,7 +33,7 @@ Disposes task resources.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub Dispose
@@ -45,11 +44,11 @@ Disposes task resources.
 instance.Dispose()
 ```
 
-``` csharp
+```csharp
   public void Dispose()
 ```
 
-``` c++
+```cpp
   public:
 virtual void Dispose() sealed
 ```
@@ -59,17 +58,17 @@ virtual void Dispose() sealed
 override Dispose : unit -> unit 
 ```
 
-``` jscript
+```jscript
   public final function Dispose()
 ```
 
-#### Implements
+### Implements
 
-[IDisposable. . :: . .Dispose() () () ()](https://msdn.microsoft.com/en-us/library/es4s3w1d\(v=vs.90\))  
+[IDisposable.Dispose() () () ()](https://msdn.microsoft.com/library/es4s3w1d)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskStatus Class](taskstatus-class-microsoft-web-media-transformmanager.md)
 

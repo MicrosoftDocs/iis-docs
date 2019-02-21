@@ -1,15 +1,7 @@
 ---
-title: "CustomErrorsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "CustomErrorsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e5dc46f2-d3ae-7978-93ba-9ee594b54e70
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CustomErrorsSection Class
 Configures [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] custom error messages.  

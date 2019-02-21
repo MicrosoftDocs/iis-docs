@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigLocationCollection::Item Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigLocationCollection::Item Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7752989d-a9b4-2c37-c4a3-886923b0e5f8
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigLocationCollection::Item Property
 Gets a configuration location at the requested index from the current collection.  
@@ -24,7 +16,7 @@ HRESULT get_Item(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `varIndex`  
  A `VARIANT` that contains the index of the requested location.  
   

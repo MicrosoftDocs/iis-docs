@@ -1,15 +1,7 @@
 ---
-title: "BuildProvider Class | Microsoft Docs"
-ms.custom: ""
+title: "BuildProvider Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 86c97635-9cea-7ced-e217-276667534258
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # BuildProvider Class
 Represents a build provider that compiles custom resource files of a particular file type and generates code during compilation.  
@@ -52,7 +44,7 @@ class BuildProvider : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.CompilationSection.BuildProviders](/dotnet/api/system.web.configuration.compilationsection.buildproviders?view=netframework-4.7.2)  
+ [System.Web.Configuration.CompilationSection.BuildProviders](/dotnet/api/system.web.configuration.compilationsection.buildproviders)  
  [BuildProviderSettings Class](../wmi-provider/buildprovidersettings-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)

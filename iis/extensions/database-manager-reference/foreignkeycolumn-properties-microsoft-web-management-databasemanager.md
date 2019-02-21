@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # ForeignKeyColumn Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [ForeignKeyColumn](foreignkeycolumn-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -22,11 +19,9 @@ The [ForeignKeyColumn](foreignkeycolumn-class-microsoft-web-management-databasem
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](foreignkeycolumn-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name for a foreign key column.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ForeignKeyColumn Class](foreignkeycolumn-class-microsoft-web-management-databasemanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "HttpWebRequestSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpWebRequestSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e3c34f66-20eb-c2e1-b0ee-f3f127d8b35c
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpWebRequestSettings Class
 Configures the maximum length for response headers.  

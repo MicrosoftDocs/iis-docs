@@ -16,10 +16,10 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceDestination.Memory
 - Microsoft.Web.Media.Diagnostics.TraceDestination.Debug
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -37,7 +37,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceDestination Enumeration
@@ -49,7 +48,7 @@ Enumeration that specifies destinations for trace data.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Enumeration TraceDestination
@@ -58,31 +57,31 @@ Enumeration that specifies destinations for trace data.
   Dim instance As TraceDestination
 ```
 
-``` csharp
+```csharp
   public enum TraceDestination
 ```
 
-``` c++
+```cpp
   public enum class TraceDestination
 ```
 
-``` jscript
+```jscript
   public enum TraceDestination
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.Diagnostics Namespace](microsoft-web-media-diagnostics-namespace_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IProcessHostSupportFunctions::MapPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHostSupportFunctions::MapPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a4792b18-6e80-3b97-855b-30e5f937c80a
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHostSupportFunctions::MapPath Method
 Retrieves the physical path of a relative URL.  
@@ -24,7 +16,7 @@ virtual HRESULT __stdcall MapPath(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `appId`  
  A string that contains the application ID.  
   

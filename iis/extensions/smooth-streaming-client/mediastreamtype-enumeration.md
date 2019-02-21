@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ The media stream type enumeration.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 public enum MediaStreamType
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 public enum class MediaStreamType
 ```
 
-``` jscript
+```jscript
 public enum MediaStreamType
 ```
 

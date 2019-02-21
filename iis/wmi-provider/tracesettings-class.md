@@ -1,15 +1,7 @@
 ---
-title: "TraceSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "TraceSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 306c9960-18bb-2003-fda6-2b9a04206f6a
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TraceSettings Class
 Configures the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] trace functionality and controls how trace results are gathered, stored, and displayed.  

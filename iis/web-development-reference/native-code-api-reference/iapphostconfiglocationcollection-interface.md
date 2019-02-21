@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigLocationCollection Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigLocationCollection Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 47442932-c536-9753-0146-fab1c2973ff6
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigLocationCollection Interface
 Provides access to a collection of configuration locations in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  

@@ -1,15 +1,7 @@
 ---
-title: "IHttpModuleFactory::GetHttpModule Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpModuleFactory::GetHttpModule Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cc84322a-c40b-5296-1d42-20af0f7e4e95
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpModuleFactory::GetHttpModule Method
 Creates an instance of a [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class.  
@@ -23,7 +15,7 @@ virtual HRESULT GetHttpModule(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppModule`  
  [OUT] A dereferenced pointer to a [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class.  
   

@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::IndicateCompletion Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::IndicateCompletion Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 02555911-f488-b3e9-74d9-97a0b3bd5b89
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::IndicateCompletion Method
 Indicates the completion of asynchronous work and requests that IIS resume execution on the calling thread.  
@@ -22,7 +14,7 @@ virtual VOID IndicateCompletion(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `notificationStatus`  
  [IN] The notification status of the asyncronous operation.  
   

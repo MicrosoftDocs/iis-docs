@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer2::GetExtendedInterface Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer2::GetExtendedInterface Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 36084663-a38a-4941-bfe4-f6782594efd9
-caps.latest.revision: 3
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer2::GetExtendedInterface Method
 Retrieves the correct down-casted pointer based on version GUID (globally unique identifier) values.  
@@ -25,7 +17,7 @@ virtual HRESULT GetExtendedInterface(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `Version1`  
  [IN] GUID of the legacy instance.  
   

@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # IDbViewManager Methods
 
-Include Protected Members  
-Include Inherited Members  
-
 The [IDbViewManager](idbviewmanager-interface-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Methods
@@ -24,11 +21,9 @@ The [IDbViewManager](idbviewmanager-interface-microsoft-web-management-databasem
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[EditView](idbviewmanager-editview-method-microsoft-web-management-databasemanager.md)|Modifies the definition of a view in the database.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetViews](idbviewmanager-getviews-method-microsoft-web-management-databasemanager.md)|Retrieves a list of views in a database.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbViewManager Interface](idbviewmanager-interface-microsoft-web-management-databasemanager.md)
 

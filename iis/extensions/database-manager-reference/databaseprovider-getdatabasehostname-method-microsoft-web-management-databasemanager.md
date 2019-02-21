@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.GetDatabaseHostName
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseProvider.GetDatabaseHostName Method
@@ -35,7 +34,7 @@ Returns the host name of the computer where the database in the connection strin
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public MustOverride Function GetDatabaseHostName ( _
     connectionString As String _
@@ -48,34 +47,34 @@ Dim returnValue As String
 returnValue = instance.GetDatabaseHostName(connectionString)
 ```
 
-``` csharp
+```csharp
 public abstract string GetDatabaseHostName(
     string connectionString
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual String^ GetDatabaseHostName(
     String^ connectionString
 ) abstract
 ```
 
-``` jscript
+```jscript
 public abstract function GetDatabaseHostName(
     connectionString : String
 ) : String
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database connection.  
 
-#### Return Value
+### Return Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A string that contains the host name for the computer where the database is located.  
 
 ## Remarks
@@ -86,7 +85,7 @@ Your provider must implement the GetDatabaseHostName method in order to return t
 
 The following code sample illustrates an example GetDatabaseHostName method that returns the host name of the database.
 
-``` vb
+```vb
 
     Public Overrides Function GetDatabaseHostName( _
             ByVal connectionString As String) As String
@@ -97,7 +96,7 @@ The following code sample illustrates an example GetDatabaseHostName method that
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve the hostname for the database server.
         public override string GetDatabaseHostName( string connectionString )
@@ -110,11 +109,11 @@ The following code sample illustrates an example GetDatabaseHostName method that
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 

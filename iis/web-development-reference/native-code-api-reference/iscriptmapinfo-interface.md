@@ -1,15 +1,7 @@
 ---
-title: "IScriptMapInfo Interface | Microsoft Docs"
-ms.custom: ""
+title: "IScriptMapInfo Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cc44126f-5ba3-b432-bc2c-aea50024efaa
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IScriptMapInfo Interface
 Retrieves configuration settings for request handlers.  

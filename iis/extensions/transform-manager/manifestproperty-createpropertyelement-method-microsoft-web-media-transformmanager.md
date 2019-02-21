@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.CreatePropertyElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CreatePropertyElement Method
@@ -36,7 +35,7 @@ Creates a manifest property element.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Function CreatePropertyElement As XElement
@@ -48,11 +47,11 @@ Dim returnValue As XElement
 returnValue = instance.CreatePropertyElement()
 ```
 
-``` csharp
+```csharp
   public XElement CreatePropertyElement()
 ```
 
-``` c++
+```cpp
   public:
 XElement^ CreatePropertyElement()
 ```
@@ -61,18 +60,18 @@ XElement^ CreatePropertyElement()
   member CreatePropertyElement : unit -> XElement 
 ```
 
-``` jscript
+```jscript
   public function CreatePropertyElement() : XElement
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 The manifest property element.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

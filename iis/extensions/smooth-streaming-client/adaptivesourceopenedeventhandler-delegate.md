@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 ---
 
 # AdaptiveSourceOpenedEventHandler Delegate
@@ -19,7 +19,7 @@ The actual handler for the adaptive source opened event.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 [GuidAttribute(, , , , , , , , , , )]
 public delegate void AdaptiveSourceOpenedEventHandler(
@@ -28,7 +28,7 @@ AdaptiveSourceOpenedEventArgs args
 )
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 [GuidAttribute(, , , , , , , , , , )]
 public delegate void AdaptiveSourceOpenedEventHandler(

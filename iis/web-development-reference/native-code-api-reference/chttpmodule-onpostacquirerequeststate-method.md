@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnPostAcquireRequestState Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnPostAcquireRequestState Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ac11ea35-625a-0246-f97f-5c855a018912
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnPostAcquireRequestState Method
 Represents the method that will handle an `AcquireRequestState` post-event, which occurs after IIS has retrieved the state for the current request.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnPostAcquireRequestState(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

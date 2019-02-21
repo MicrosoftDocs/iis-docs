@@ -1,15 +1,7 @@
 ---
-title: "RedirectHeaderSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "RedirectHeaderSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 917ddf22-5bf9-480d-afd1-f0ccf716328c
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # RedirectHeaderSettings Class
 Contains redirect name/value pairs that are added to the HTTP headers in responses from the Web server.  

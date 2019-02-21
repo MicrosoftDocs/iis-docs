@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::Dispose Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::Dispose Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f5640e4c-5cf4-b7a5-8980-71b0c814b450
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::Dispose Method
 Releases all resources used by the current instance of the [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class.  
@@ -22,7 +14,7 @@ virtual VOID Dispose(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

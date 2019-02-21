@@ -37,6 +37,6 @@ To configure the registry key on the Web server, use the following:
 
 For more information, go to "IIS runs out of work items and causes RPC failures when connection to a remote UNC path" at [https://support.microsoft.com/kb/221790/](https://support.microsoft.com/kb/221790/). 
 
-For information on the length limitation of the pathname of the share (\\server\share) see [https://msdn.microsoft.com/en-us/library/cc246567.aspx](https://msdn.microsoft.com/en-us/library/cc246567.aspx)
+For information on the length limitation of the pathname of the share (\\server\share) see [https://msdn.microsoft.com/library/cc246567.aspx](https://msdn.microsoft.com/library/cc246567.aspx)
 
 For instructions to configure the File Server SMB registry keys see: [https://www.iis.net/learn/web-hosting/configuring-servers-in-the-windows-web-platform/smb-commands-registry-keys\_196](../configuring-servers-in-the-windows-web-platform/smb-commands-registry-keys_196.md)

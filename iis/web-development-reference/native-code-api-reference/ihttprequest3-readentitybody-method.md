@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest3::ReadEntityBody Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest3::ReadEntityBody Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4ae5283e-43eb-4f0c-9f42-a40c9e2bf317
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest3::ReadEntityBody Method
 Reads the request results into a specified buffer.  
@@ -29,7 +21,7 @@ virtual HRESULT ReadEntityBody(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pvBuffer`  
  [OUT] A pointer to a buffer that receives the request body.  
   

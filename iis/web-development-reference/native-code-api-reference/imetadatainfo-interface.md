@@ -1,15 +1,7 @@
 ---
-title: "IMetadataInfo Interface | Microsoft Docs"
-ms.custom: ""
+title: "IMetadataInfo Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a833d616-a815-b123-c943-df5af7c4025c
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IMetadataInfo Interface
 Retrieves metadata information for the current context.  

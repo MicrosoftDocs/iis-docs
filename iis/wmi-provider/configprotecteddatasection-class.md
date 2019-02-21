@@ -1,15 +1,7 @@
 ---
-title: "ConfigProtectedDataSection Class | Microsoft Docs"
-ms.custom: ""
+title: "ConfigProtectedDataSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e76289ee-960d-4e24-a171-d507bf839d94
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigProtectedDataSection Class
 Contains protected configuration provider information.  

@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationBase Constructor (XNamespace)
@@ -34,7 +33,7 @@ Initializes a new instance of the [ConfigurationBase](configurationbase-class-mi
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -47,13 +46,13 @@ Initializes a new instance of the [ConfigurationBase](configurationbase-class-mi
 Dim instance As New ConfigurationBase(baseNamespace)
 ```
 
-``` csharp
+```csharp
   public ConfigurationBase(
     XNamespace baseNamespace
 )
 ```
 
-``` c++
+```cpp
   public:
 ConfigurationBase(
     XNamespace^ baseNamespace
@@ -65,28 +64,28 @@ ConfigurationBase(
         baseNamespace:XNamespace -> ConfigurationBase
 ```
 
-``` jscript
+```jscript
   public function ConfigurationBase(
     baseNamespace : XNamespace
 )
 ```
 
-#### Parameters
+### Parameters
 
   - baseNamespace  
-    Type: [System.Xml.Linq. . :: . .XNamespace](https://msdn.microsoft.com/en-us/library/bb291898\(v=vs.90\))  
+    Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
     An XML namespace.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[ArgumentNullException](https://msdn.microsoft.com/en-us/library/27426hcy(v=vs.90))|baseNamespace is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
+|[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|baseNamespace is null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

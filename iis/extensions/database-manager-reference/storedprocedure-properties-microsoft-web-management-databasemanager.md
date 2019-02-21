@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # StoredProcedure Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [StoredProcedure](storedprocedure-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -23,11 +20,9 @@ The [StoredProcedure](storedprocedure-class-microsoft-web-management-databaseman
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Name](storedprocedure-name-property-microsoft-web-management-databasemanager.md)|Gets or sets the name for a stored procedure.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Schema](storedprocedure-schema-property-microsoft-web-management-databasemanager.md)|Gets or sets the schema name for a stored procedure.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [StoredProcedure Class](storedprocedure-class-microsoft-web-management-databasemanager.md)
 

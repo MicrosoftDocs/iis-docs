@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.GetTraceEntries
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.GetTraceEntries Method
@@ -36,7 +35,7 @@ Gets an array of trace entries.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Function GetTraceEntries ( _
@@ -50,13 +49,13 @@ Dim returnValue As TraceEntry()
 returnValue = Tracing.GetTraceEntries(flushList)
 ```
 
-``` csharp
+```csharp
 public static TraceEntry[] GetTraceEntries(
     bool flushList
 )
 ```
 
-``` c++
+```cpp
 public:
 static array<TraceEntry^>^ GetTraceEntries(
     bool flushList
@@ -68,36 +67,36 @@ static member GetTraceEntries :
         flushList:bool -> TraceEntry[] 
 ```
 
-``` jscript
+```jscript
 public static function GetTraceEntries(
     flushList : boolean
 ) : TraceEntry[]
 ```
 
-#### Parameters
+### Parameters
 
   - flushList  
-    Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
     A Boolean value that specifies whether to flush the current buffer of trace entries.
 
-#### Return Value
+### Return Value
 
 Type: array\<[Microsoft.Web.Media.Diagnostics.TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md)\[\]  
 An array of [TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md) objects.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

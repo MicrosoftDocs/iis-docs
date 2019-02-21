@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionGroup::DeleteSectionGroup Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionGroup::DeleteSectionGroup Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 39db83f7-5580-2e1f-07dc-cfdaa63241fd
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionGroup::DeleteSectionGroup Method
 Removes a configuration section group that is nested under the current configuration section group.  
@@ -22,7 +14,7 @@ HRESULT DeleteSectionGroup(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `varIndex`  
  A `VARIANT` that contains the index of the nested configuration section group to be removed from current configuration section group.  
   

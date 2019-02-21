@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskStatus.SetTaskIndex
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SetTaskIndex Method
@@ -36,7 +35,7 @@ Sets the index of the task to be performed by the scheduler.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub SetTaskIndex ( _
@@ -50,13 +49,13 @@ Dim taskIndex As Integer
 instance.SetTaskIndex(taskIndex)
 ```
 
-``` csharp
+```csharp
   public void SetTaskIndex(
     int taskIndex
 )
 ```
 
-``` c++
+```cpp
   public:
 void SetTaskIndex(
     int taskIndex
@@ -68,21 +67,21 @@ void SetTaskIndex(
         taskIndex:int -> unit 
 ```
 
-``` jscript
+```jscript
   public function SetTaskIndex(
     taskIndex : int
 )
 ```
 
-#### Parameters
+### Parameters
 
   - taskIndex  
-    Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
     The index of the task.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskStatus Class](taskstatus-class-microsoft-web-media-transformmanager.md)
 

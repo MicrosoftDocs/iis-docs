@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionGroup Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionGroup Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f39c8583-6e8f-e9ef-354d-2c0f8f8b795d
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionGroup Interface
 Provides access to a group of configuration section groups or configuration section definitions.  

@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,20 +20,20 @@ Restricts the tracks to a subset of all the available tracks.
 
 ## Syntax
 
-``` csharp
+```csharp
 public void RestrictTracks(
 IVectorView<IManifestTrack> pTracks
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual void RestrictTracks(
 [InAttribute] IVectorView<IManifestTrack^>^ pTracks
 ) sealed
 ```
 
-``` jscript
+```jscript
 public final function RestrictTracks(
 pTracks : IVectorView<IManifestTrack>
 )

@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetSource
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SetSource Method
@@ -35,7 +34,7 @@ Sets the source of the [SmoothStreamingMediaElement](smoothstreamingmediaelement
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub SetSource ( _
@@ -49,29 +48,29 @@ Dim stream As Stream
 instance.SetSource(stream)
 ```
 
-``` csharp
+```csharp
   public void SetSource(
     Stream stream
 )
 ```
 
-``` c++
+```cpp
   public:
 void SetSource(
     Stream^ stream
 )
 ```
 
-``` jscript
+```jscript
   public function SetSource(
     stream : Stream
 )
 ```
 
-#### Parameters
+### Parameters
 
   - stream  
-    Type: [System.IO. . :: . .Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.90\))  
+    Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e)  
     The source object.  
 
 ## Remarks
@@ -80,21 +79,21 @@ When you call SetSource(Stream) or assign the [SmoothStreamingSource](smoothstre
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

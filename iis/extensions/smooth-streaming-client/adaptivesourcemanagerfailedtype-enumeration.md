@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Represents the adaptive source manager failed type enumeration.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 public enum AdaptiveSourceManagerFailedType
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 public enum class AdaptiveSourceManagerFailedType
 ```
 
-``` jscript
+```jscript
 public enum AdaptiveSourceManagerFailedType
 ```
 

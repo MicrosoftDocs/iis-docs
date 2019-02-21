@@ -1,14 +1,7 @@
 ---
-title: "StopProcess | Microsoft Docs"
-ms.custom: ""
+title: "StopProcess"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3329bdda-a098-4d67-941b-f72c6a5486bd
-caps.latest.revision: 7
-manager: "wpickett"
 ---
 # StopProcess
 Stops the IIS Express process for the specified process ID.  
@@ -23,7 +16,7 @@ Stops the IIS Express process for the specified process ID.
   
 ```  
   
-#### Parameters  
+### Parameters  
   
 -   [in] `dwPid`  
   

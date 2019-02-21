@@ -1,5 +1,5 @@
 ---
-title: TrackInfo.Index Property  (Microsoft.Web.Media.SmoothStreaming)
+title: TrackInfo.Index Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Index Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.Index
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackinfo.index(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.get_Index
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.set_Index
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TrackInfo.Index Property
@@ -40,7 +39,7 @@ Gets or sets the Index property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Index As UInteger
@@ -56,11 +55,11 @@ value = instance.Index
 instance.Index = value
 ```
 
-``` csharp
+```csharp
 public uint Index { get; protected set; }
 ```
 
-``` c++
+```cpp
 public:
 property unsigned int Index {
     unsigned int get ();
@@ -72,29 +71,29 @@ property unsigned int Index {
 member Index : uint32 with get, set
 ```
 
-``` jscript
+```jscript
 function get Index () : uint
 protected function set Index (value : uint)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.UInt32](https://msdn.microsoft.com/en-us/library/ctys3981\(v=vs.95\))  
+Type: [System.UInt32](https://msdn.microsoft.com/library/ctys3981\(v=vs.95\))  
 An unsigned integer value that specifies the track index.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

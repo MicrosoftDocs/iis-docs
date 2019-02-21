@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConstantValue::Value Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConstantValue::Value Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a540d2e6-00a4-4578-9d83-3e643fea3a43
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConstantValue::Value Property
 Gets the integer value of the constant.  
@@ -22,7 +14,7 @@ HRESULT Value(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pdwValue`  
  Contains the integer value of the constant.  
   

@@ -1,5 +1,5 @@
 ---
-title: SetPlaybackRangeCompletedEventArgs.RightEdge Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SetPlaybackRangeCompletedEventArgs.RightEdge Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: RightEdge Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.RightEdge
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.setplaybackrangecompletedeventargs.rightedge(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.get_RightEdge
 - Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.RightEdge
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SetPlaybackRangeCompletedEventArgs.RightEdge Property
@@ -38,7 +37,7 @@ Gets the player application's expected right-most position or chunk timestamp.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property RightEdge As TimeSpan
@@ -51,11 +50,11 @@ Dim value As TimeSpan
 value = instance.RightEdge
 ```
 
-``` csharp
+```csharp
 public TimeSpan RightEdge { get; }
 ```
 
-``` c++
+```cpp
 public:
 property TimeSpan RightEdge {
     TimeSpan get ();
@@ -66,24 +65,24 @@ property TimeSpan RightEdge {
 member RightEdge : TimeSpan
 ```
 
-``` jscript
+```jscript
 function get RightEdge () : TimeSpan
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))  
+Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))  
 The player application's expected right-most position or chunk timestamp.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SetPlaybackRangeCompletedEventArgs Class](setplaybackrangecompletedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

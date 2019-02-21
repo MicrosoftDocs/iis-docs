@@ -1,15 +1,7 @@
 ---
-title: "IHttpUrlInfo Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUrlInfo Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b167da0a-aa53-2848-82a9-4d741987defc
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUrlInfo Interface
 Provides URL-specific information within the current context.  

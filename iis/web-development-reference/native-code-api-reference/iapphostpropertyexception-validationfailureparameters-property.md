@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertyException::ValidationFailureParameters Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertyException::ValidationFailureParameters Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 86a3ed6b-6bf6-c5c5-c090-2d7952e43029
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertyException::ValidationFailureParameters Property
 Gets the validation parameters that are defined in the property schema.  
@@ -23,7 +15,7 @@ HRESULT get_ValidationFailureParameters(
 )* pParameterArray);  
 ```  
   
-#### Parameters  
+### Parameters  
  `pParameterArray`  
  A pointer to a `SAFEARRAY` of `VARIANT` values that contains the validation parameters found in the property schema.  
   

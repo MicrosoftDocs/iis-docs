@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # DatabaseProvider Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -22,11 +19,9 @@ The [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasem
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[ConnectionStringArguments](databaseprovider-connectionstringarguments-property-microsoft-web-management-databasemanager.md)|Gets a collection that contains the collection of database connection arguments.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 

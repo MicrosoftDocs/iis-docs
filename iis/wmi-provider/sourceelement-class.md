@@ -1,15 +1,7 @@
 ---
-title: "SourceElement Class | Microsoft Docs"
-ms.custom: ""
+title: "SourceElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 096ddffe-341a-57e7-0b2a-29fdc0cff3ec
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SourceElement Class
 Specifies a trace source that initiates tracing messages.  

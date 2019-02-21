@@ -1,15 +1,7 @@
 ---
-title: "IMapPathProvider::SetPhysicalPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IMapPathProvider::SetPhysicalPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0c3ecda8-d86b-f299-d3c5-cee8b9b761c2
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IMapPathProvider::SetPhysicalPath Method
 Sets the physical path mapping for the current request.  
@@ -23,7 +15,7 @@ virtual HRESULT SetPhysicalPath(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszPhysicalPath`  
  [IN] A pointer to a string that contains the physical path to set.  
   

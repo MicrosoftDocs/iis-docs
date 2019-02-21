@@ -1,15 +1,7 @@
 ---
-title: "StringElement Class | Microsoft Docs"
-ms.custom: ""
+title: "StringElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e376d4dc-5ebe-6a12-b192-06cd5b8450a5
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # StringElement Class
 Contains a unique string that belongs to an array that forms a property on a class in the WMI provider for IIS.  

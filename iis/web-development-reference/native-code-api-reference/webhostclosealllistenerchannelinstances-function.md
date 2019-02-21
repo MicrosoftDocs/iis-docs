@@ -1,15 +1,7 @@
 ---
-title: "WebhostCloseAllListenerChannelInstances Function | Microsoft Docs"
-ms.custom: ""
+title: "WebhostCloseAllListenerChannelInstances Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f8fbf5d5-83ce-0e07-15fd-cf40174ea7bd
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WebhostCloseAllListenerChannelInstances Function
 Requests all instances of this listener channel to stop.  
@@ -24,7 +16,7 @@ HRESULT WebhostCloseAllListenerChannelInstances(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ProtocolHandle`  
  [IN] A `DWORD` that contains the protocol handle that represents the protocol for this listener channel.  
   

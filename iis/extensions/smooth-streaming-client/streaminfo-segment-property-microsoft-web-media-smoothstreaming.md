@@ -1,5 +1,5 @@
 ---
-title: StreamInfo.Segment Property  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamInfo.Segment Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Segment Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Segment
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.segment(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.get_Segment
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.Segment
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Segment Property
@@ -37,7 +36,7 @@ Gets or sets the segment for this stream.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property Segment As SegmentInfo
@@ -49,24 +48,24 @@ Dim value As SegmentInfo
 value = instance.Segment
 ```
 
-``` csharp
+```csharp
   public SegmentInfo Segment { get; }
 ```
 
-``` c++
+```cpp
   public:
 property SegmentInfo^ Segment {
     SegmentInfo^ get ();
 }
 ```
 
-``` jscript
+```jscript
   function get Segment () : SegmentInfo
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)  
+Type: [Microsoft.Web.Media.SmoothStreaming.SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)  
 A [SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md) object.  
 
 ## Remarks
@@ -75,21 +74,21 @@ For more information and an example that parses [SegmentInfo](segmentinfo-class-
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

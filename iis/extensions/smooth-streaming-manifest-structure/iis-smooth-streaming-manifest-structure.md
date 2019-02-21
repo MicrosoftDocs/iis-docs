@@ -22,13 +22,13 @@ The manifest reference is organized into the following technical sections.
 
 ## See Also
 
-#### Concepts
+### Concepts
 
-[IIS Smooth Streaming Client](https://msdn.microsoft.com/en-us/library/hh943091\(v=vs.90\))
+[IIS Smooth Streaming Client](https://msdn.microsoft.com/library/hh943091)
 
-[IIS Smooth Streaming Format SDK](https://msdn.microsoft.com/en-us/library/ff402318\(v=vs.90\))
+[IIS Smooth Streaming Format SDK](https://msdn.microsoft.com/library/ff402318)
 
-#### Other Resources
+### Other Resources
 
 [IIS Media Services](http://go.microsoft.com/fwlink/?linkid=251015)
 

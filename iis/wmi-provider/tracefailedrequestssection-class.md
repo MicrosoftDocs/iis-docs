@@ -1,15 +1,7 @@
 ---
-title: "TraceFailedRequestsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "TraceFailedRequestsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6730e6f8-fff8-8e3b-b50c-42e67b9cec62
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TraceFailedRequestsSection Class
 Represents a failed-request tracing configuration section.  

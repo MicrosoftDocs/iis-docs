@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::TimeSpanFormat Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::TimeSpanFormat Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ff13d198-e9fd-4e9f-8a77-dd9825ddac68
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::TimeSpanFormat Property
 Gets a string that describes how the corresponding property should be formatted if the property represents a time span.  
@@ -23,7 +15,7 @@ Gets a string that describes how the corresponding property should be formatted 
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrTimeSpanFormat`  
  Contains the format string to use for the property.  
   

@@ -23,7 +23,7 @@ The **Item** property gets an [IPlaylistEntryInfo Interface](iplaylistentryinfo-
 |||
 |--- |--- |
 |*dwEntryIndex*|A **DWORD** that contains the index of the requested item in the collection.|
-|*ppPlaylistEntry*|The returned [IPlaylistEntryInfo Interface](https://msdn.microsoft.com/en-us/library/dd146268(v=vs.90)) instance.|
+|*ppPlaylistEntry*|The returned [IPlaylistEntryInfo Interface](https://msdn.microsoft.com/library/dd146268) instance.|
 
 
 ## Return Value

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostProperty::Schema Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostProperty::Schema Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 468d6b7a-8fd3-99a4-07a8-3adf433fdfa3
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostProperty::Schema Property
 Gets the schema assigned to the current property.  
@@ -23,7 +15,7 @@ HRESULT get_Schema(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppSchema`  
  A pointer to a pointer for the [IAppHostPropertySchema](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) interface that is associated with the current property.  
   

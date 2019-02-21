@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.ClipMediaElementStyle Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.ClipMediaElementStyle Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipMediaElementStyle Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipMediaElementStyle
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.clipmediaelementstyle(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_ClipMediaElementStyle
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_ClipMediaElementStyle
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipMediaElementStyle Property
@@ -39,7 +38,7 @@ Gets or sets the style object for the window.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ClipMediaElementStyle As Style
@@ -53,11 +52,11 @@ value = instance.ClipMediaElementStyle
 instance.ClipMediaElementStyle = value
 ```
 
-``` csharp
+```csharp
   public Style ClipMediaElementStyle { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property Style^ ClipMediaElementStyle {
     Style^ get ();
@@ -65,29 +64,29 @@ property Style^ ClipMediaElementStyle {
 }
 ```
 
-``` jscript
+```jscript
   function get ClipMediaElementStyle () : Style
 function set ClipMediaElementStyle (value : Style)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Windows. . :: . .Style](https://msdn.microsoft.com/en-us/library/ms603146\(v=vs.90\))  
+Type: [System.Windows.Style](https://msdn.microsoft.com/library/ms603146)  
 A Windows style object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

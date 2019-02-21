@@ -1,15 +1,7 @@
 ---
-title: "ServerContainsSSLBinding Class | Microsoft Docs"
-ms.custom: ""
+title: "ServerContainsSSLBinding Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ef6ae9a0-9134-c320-1380-93cd00297da0
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ServerContainsSSLBinding Class
 Provides a relationship between a Secure Sockets Layer (SSL) binding and a Web server that is running IIS.  

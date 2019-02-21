@@ -1,15 +1,7 @@
 ---
-title: "IHttpModuleFactory Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpModuleFactory Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4b5ff315-35f8-c4e7-9581-562e71517a78
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpModuleFactory Interface
 Manages the creation of a [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) class.  

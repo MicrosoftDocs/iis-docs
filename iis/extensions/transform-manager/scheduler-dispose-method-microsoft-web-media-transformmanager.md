@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.Scheduler.Dispose
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Dispose Method
@@ -36,7 +35,7 @@ Releases all resources that are used by the current instance of the [Scheduler](
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public MustOverride Sub Dispose
@@ -47,11 +46,11 @@ Releases all resources that are used by the current instance of the [Scheduler](
 instance.Dispose()
 ```
 
-``` csharp
+```csharp
   public abstract void Dispose()
 ```
 
-``` c++
+```cpp
   public:
 virtual void Dispose() abstract
 ```
@@ -60,13 +59,13 @@ virtual void Dispose() abstract
   abstract Dispose : unit -> unit 
 ```
 
-``` jscript
+```jscript
   public abstract function Dispose()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Scheduler Class](scheduler-class-microsoft-web-media-transformmanager.md)
 

@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,19 +20,19 @@ Sets the downloader buffer in seconds.
 
 ## Syntax
 
-``` csharp
+```csharp
 void SetDownloadBufferSec(
 float bufferSec
 )
 ```
 
-``` c++
+```cpp
 void SetDownloadBufferSec(
 [InAttribute] float bufferSec
 )
 ```
 
-``` jscript
+```jscript
 function SetDownloadBufferSec(
 bufferSec : float
 )

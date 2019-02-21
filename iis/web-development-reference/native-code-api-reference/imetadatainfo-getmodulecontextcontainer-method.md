@@ -1,15 +1,7 @@
 ---
-title: "IMetadataInfo::GetModuleContextContainer Method | Microsoft Docs"
-ms.custom: ""
+title: "IMetadataInfo::GetModuleContextContainer Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6dbdd9f8-9202-4e2c-07c3-aea8b4729ece
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IMetadataInfo::GetModuleContextContainer Method
 Returns the context container for the metadata.  
@@ -22,7 +14,7 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

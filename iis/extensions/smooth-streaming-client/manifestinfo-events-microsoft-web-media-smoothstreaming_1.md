@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # ManifestInfo Events
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [ManifestInfo](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 
 ## Events
@@ -26,11 +20,9 @@ The [ManifestInfo](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md) 
 |![Public event](images/Ff728262.pubevent(en-us,VS.90).gif "Public event") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[SelectStreamsCompleted](manifestinfo-selectstreamscompleted-event-microsoft-web-media-smoothstreaming_1.md)|Event activated when a [SelectStreamsAsync](segmentinfo-selectstreamsasync-method-microsoft-web-media-smoothstreaming_1.md) call has completed in any of the segments contained in [Segments](manifestinfo-segments-property-microsoft-web-media-smoothstreaming_1.md).|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostWritableAdminManager::CommitChanges Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostWritableAdminManager::CommitChanges Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 88065b35-00ae-4de4-7de5-e4178b8f3ed9
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostWritableAdminManager::CommitChanges Method
 Commits configuration changes to the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
@@ -21,7 +13,7 @@ HRESULT CommitChanges(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

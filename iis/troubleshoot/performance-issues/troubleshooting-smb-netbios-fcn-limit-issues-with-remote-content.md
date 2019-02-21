@@ -92,7 +92,7 @@ ASP.NET Content
 ### Other Resources
 
 - [Common Internet File System (CIFS) File Access Protocol](https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=9492)
-- [Microsoft SMB Protocol and CIFS Protocol Overview](https://msdn.microsoft.com/en-us/library/aa365233(v=VS.85).aspx)
+- [Microsoft SMB Protocol and CIFS Protocol Overview](https://msdn.microsoft.com/library/aa365233(v=VS.85).aspx)
 - [UNC-based Caching Considerations](https://technet.microsoft.com/en-us/library/cc778350(WS.10).aspx)
 - [IIS and File Server Configuration Scenarios for SMB Scaling (IIS 6.0)](https://technet.microsoft.com/en-us/library/dd296655(WS.10).aspx)
 - [Two Minute Drill: Overview of SMB 2.0](http://blogs.technet.com/b/askperf/archive/2008/05/30/two-minute-drill-overview-of-smb-2-0.aspx)

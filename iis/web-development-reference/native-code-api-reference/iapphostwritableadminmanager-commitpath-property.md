@@ -1,15 +1,7 @@
 ---
-title: "IAppHostWritableAdminManager::CommitPath Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostWritableAdminManager::CommitPath Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f712b0e8-f424-93b7-d623-48619b02f99c
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostWritableAdminManager::CommitPath Property
 Gets or sets the configuration path where changes should be committed.  
@@ -27,7 +19,7 @@ HRESULT put_CommitPath(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrCommitPath`  
  A pointer to a `BSTR` that contains the configuration path where changes should be committed.  
   

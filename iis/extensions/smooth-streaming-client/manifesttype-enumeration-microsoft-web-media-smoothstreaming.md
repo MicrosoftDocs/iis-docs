@@ -12,11 +12,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestType.Segmented
 - Microsoft.Web.Media.SmoothStreaming.ManifestType.Standard
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -30,7 +30,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestType Enumeration
@@ -42,7 +41,7 @@ The manifest type.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Enumeration ManifestType
@@ -51,11 +50,11 @@ Public Enumeration ManifestType
 Dim instance As ManifestType
 ```
 
-``` csharp
+```csharp
 public enum ManifestType
 ```
 
-``` c++
+```cpp
 public enum class ManifestType
 ```
 
@@ -63,7 +62,7 @@ public enum class ManifestType
 type ManifestType
 ```
 
-``` jscript
+```jscript
 public enum ManifestType
 ```
 
@@ -78,13 +77,13 @@ public enum ManifestType
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

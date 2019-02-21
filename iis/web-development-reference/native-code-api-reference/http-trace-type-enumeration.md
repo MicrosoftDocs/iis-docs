@@ -1,15 +1,7 @@
 ---
-title: "HTTP_TRACE_TYPE Enumeration | Microsoft Docs"
-ms.custom: ""
+title: "HTTP_TRACE_TYPE Enumeration"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f93c5c26-edf9-4577-5ff1-6a3491e1ff84
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HTTP_TRACE_TYPE Enumeration
 Determines what data type the [HTTP_TRACE_EVENT_ITEM](../../web-development-reference\native-code-api-reference/http-trace-event-item-structure.md) structure maintains.  

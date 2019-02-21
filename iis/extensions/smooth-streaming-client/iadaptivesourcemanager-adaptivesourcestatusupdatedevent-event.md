@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 ---
 
 # IAdaptiveSourceManager.AdaptiveSourceStatusUpdatedEvent Event
@@ -19,11 +19,11 @@ Adds the status updated event handler.
 
 ## Syntax
 
-``` csharp
+```csharp
 event AdaptiveSourceStatusUpdatedEventHandler AdaptiveSourceStatusUpdatedEvent
 ```
 
-``` c++
+```cpp
 event AdaptiveSourceStatusUpdatedEventHandler^ AdaptiveSourceStatusUpdatedEvent {
 void add (AdaptiveSourceStatusUpdatedEventHandler^ value);
 void remove (AdaptiveSourceStatusUpdatedEventHandler^ value);

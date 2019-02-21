@@ -1,15 +1,7 @@
 ---
-title: "IWpfReferencedObject::Release Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfReferencedObject::Release Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 069ddfd4-c9d2-f0d0-01ee-aaa2a70973fd
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfReferencedObject::Release Method
 Decrements the reference count for the [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual ULONG Release (
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -69,7 +69,7 @@ The .NET Authorization Rules module is one of two ASP.NET modules in the Adminis
 
 [![](administration-pack/_static/image8.jpg)](administration-pack/_static/image7.jpg)  
    
-For instructions about how to lock ASP.NET Authorization Rules, see this guide &lt;link: [https://msdn.microsoft.com/en-us/library/ms178693.aspx](https://msdn.microsoft.com/en-us/library/ms178693.aspx) &gt;.
+For instructions about how to lock ASP.NET Authorization Rules, see this guide &lt;link: [https://msdn.microsoft.com/library/ms178693.aspx](https://msdn.microsoft.com/library/ms178693.aspx) &gt;.
 
 This article &lt;link: [https://learn.iis.net/page.aspx/142/understanding-iis-7-url-authorization/#Differences](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization#Differences)&gt; explains the differences between ASP.NET URL Authorization and IIS URL Authorization.
 

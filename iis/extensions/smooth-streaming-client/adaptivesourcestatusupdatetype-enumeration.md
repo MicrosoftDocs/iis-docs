@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Adaptive source update type enumeration.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 public enum AdaptiveSourceStatusUpdateType
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 public enum class AdaptiveSourceStatusUpdateType
 ```
 
-``` jscript
+```jscript
 public enum AdaptiveSourceStatusUpdateType
 ```
 

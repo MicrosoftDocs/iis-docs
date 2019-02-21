@@ -1,5 +1,5 @@
 ---
-title: SSMELogReadyRoutedEventArgs.OriginalSource Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SSMELogReadyRoutedEventArgs.OriginalSource Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: OriginalSource Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.OriginalSource
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.ssmelogreadyroutedeventargs.originalsource(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.OriginalSource
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.set_OriginalSource
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # OriginalSource Property
@@ -39,7 +38,7 @@ Gets or sets the object that raised the event.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property OriginalSource As Object
@@ -51,11 +50,11 @@ Dim value As Object
 value = instance.OriginalSource
 ```
 
-``` csharp
+```csharp
   public Object OriginalSource { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property Object^ OriginalSource {
     Object^ get ();
@@ -63,33 +62,33 @@ property Object^ OriginalSource {
 }
 ```
 
-``` jscript
+```jscript
   function get OriginalSource () : Object
 private function set OriginalSource (value : Object)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
-An [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\)) that is the source of the event.  
+Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
+An [Object](https://msdn.microsoft.com/library/e5kfa45b) that is the source of the event.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SSMELogReadyRoutedEventArgs Class](ssmelogreadyroutedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

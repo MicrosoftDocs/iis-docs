@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ParseExternalManifest
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ParseExternalManifest Method
@@ -36,7 +35,7 @@ Downloads, parses, and returns an object that represents the specified external 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub ParseExternalManifest ( _
@@ -55,7 +54,7 @@ instance.ParseExternalManifest(externalManifestUri, _
     millisecondsTimeout, externalManifest)
 ```
 
-``` csharp
+```csharp
 public void ParseExternalManifest(
     Uri externalManifestUri,
     int millisecondsTimeout,
@@ -63,7 +62,7 @@ public void ParseExternalManifest(
 )
 ```
 
-``` c++
+```cpp
 public:
 void ParseExternalManifest(
     Uri^ externalManifestUri, 
@@ -79,7 +78,7 @@ member ParseExternalManifest :
         externalManifest:Object byref -> unit 
 ```
 
-``` jscript
+```jscript
 public function ParseExternalManifest(
     externalManifestUri : Uri, 
     millisecondsTimeout : int, 
@@ -87,22 +86,22 @@ public function ParseExternalManifest(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - externalManifestUri  
-    Type: [System.Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.95\))  
+    Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a\(v=vs.95\))  
     The URI of the manifest data to parse.
 
 <!-- end list -->
 
   - millisecondsTimeout  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.95\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d\(v=vs.95\))  
     The timeout interval to avoid blocking if external data is not returned quickly.
 
 <!-- end list -->
 
   - externalManifest  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))%  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))%  
     When this method returns, contains the object that receives the external manifest data.
 
 ## Remarks
@@ -111,7 +110,7 @@ The manifest that is the result of calling this method can be passed to [MergeEx
 
 ## Examples
 
-Applications can call ParseExternalManifest only from the [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event handler. Outside the scope of this method, ParseExternalManifest throws an [InvalidOperationException](https://msdn.microsoft.com/en-us/library/2asft85a\(v=vs.95\)) exception.
+Applications can call ParseExternalManifest only from the [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event handler. Outside the scope of this method, ParseExternalManifest throws an [InvalidOperationException](https://msdn.microsoft.com/library/2asft85a\(v=vs.95\)) exception.
 
 The ParseExternalManifest method reads XML data from a source identified by the externalManifestUri parameter. To avoid blocking, the millisecondsTimeout parameter sets a timeout interval in milliseconds. The last parameter returns the new parsed data.
 
@@ -122,13 +121,13 @@ The ParseExternalManifest method reads XML data from a source identified by the 
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

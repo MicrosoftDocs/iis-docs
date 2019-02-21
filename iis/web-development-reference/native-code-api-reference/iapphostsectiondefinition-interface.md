@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionDefinition Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionDefinition Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 429518b6-f1be-413b-a98c-4cad57b3aaa4
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionDefinition Interface
 Provides access to the attributes that define the behavior of a configuration section.  

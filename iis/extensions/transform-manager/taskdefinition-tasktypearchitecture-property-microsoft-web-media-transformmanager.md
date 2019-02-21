@@ -1,5 +1,5 @@
 ---
-title: TaskDefinition.TaskTypeArchitecture Property  (Microsoft.Web.Media.TransformManager)
+title: TaskDefinition.TaskTypeArchitecture Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskTypeArchitecture Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.TaskTypeArchitecture
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.taskdefinition.tasktypearchitecture(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_TaskTypeArchitecture
 - Microsoft.Web.Media.TransformManager.TaskDefinition.TaskTypeArchitecture
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskTypeArchitecture Property
@@ -40,7 +39,7 @@ Gets or sets the architecture of the task type, if the command-line executable i
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property TaskTypeArchitecture As String
@@ -56,12 +55,12 @@ value = instance.TaskTypeArchitecture
 instance.TaskTypeArchitecture = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string TaskTypeArchitecture { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ TaskTypeArchitecture {
@@ -75,19 +74,19 @@ property String^ TaskTypeArchitecture {
 member TaskTypeArchitecture : string with get, set
 ```
 
-``` jscript
+```jscript
   function get TaskTypeArchitecture () : String
 function set TaskTypeArchitecture (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The architecture of the task type.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskDefinition Class](taskdefinition-class-microsoft-web-media-transformmanager.md)
 

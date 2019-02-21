@@ -20,7 +20,7 @@ The meta element specifies a single piece of presentation-level metadata.
 
 The following sections describe attributes, child elements, and parent elements.
 
-#### Attributes
+### Attributes
 
 |Attribute|Description|
 |--- |--- |
@@ -34,11 +34,11 @@ The following sections describe attributes, child elements, and parent elements.
 |--- |--- |
 |**title**|The content attribute specifies a title.|
 
-#### Child Elements
+### Child Elements
 
 None
 
-#### Parent Elements
+### Parent Elements
 
 |Element|Description|
 |--- |--- |
@@ -50,7 +50,7 @@ In the live manifest scenario, the clientManifestRelativePath value for the name
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IIS Smooth Streaming Server Manifest (Live) - head Element](iis-smooth-streaming-server-manifest-live-head-element.md)
 

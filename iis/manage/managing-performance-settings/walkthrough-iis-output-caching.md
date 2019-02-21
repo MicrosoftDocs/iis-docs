@@ -257,7 +257,7 @@ Use the following command to find out which content is cached in kernel mode:
 
 ### Caching Intricacies
 
-Even if you enable Output Caching, IIS does not immediately cache a request. It must be requested a few times before IIS considers a request to be "cache worthy". Cache worthiness can be configured via the ServerRuntime section described in this [MSDN article](https://msdn.microsoft.com/en-us/library/ms690574).
+Even if you enable Output Caching, IIS does not immediately cache a request. It must be requested a few times before IIS considers a request to be "cache worthy". Cache worthiness can be configured via the ServerRuntime section described in this [MSDN article](https://msdn.microsoft.com/library/ms690574).
 
 The two properties that determine cache-worthiness are frequentHitTimePeriod and frequentHitThreshold. A request is only cached if more than `<frequentHitThreshold>` requests for a cacheable URL arrive within the &lt;frequentHitTimePeriod&gt;.
 

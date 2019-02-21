@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.GetManifestElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetManifestElement Method
@@ -36,7 +35,7 @@ Returns an XML representation of the manifest metadata.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Function GetManifestElement ( _
@@ -55,7 +54,7 @@ returnValue = JobManifest.GetManifestElement(manifest, _
     localName, elementNamespace)
 ```
 
-``` csharp
+```csharp
   public static XElement GetManifestElement(
     XElement manifest,
     string localName,
@@ -63,7 +62,7 @@ returnValue = JobManifest.GetManifestElement(manifest, _
 )
 ```
 
-``` c++
+```cpp
   public:
 static XElement^ GetManifestElement(
     XElement^ manifest, 
@@ -79,7 +78,7 @@ static XElement^ GetManifestElement(
         elementNamespace:XNamespace byref -> XElement 
 ```
 
-``` jscript
+```jscript
   public static function GetManifestElement(
     manifest : XElement, 
     localName : String, 
@@ -87,27 +86,27 @@ static XElement^ GetManifestElement(
 ) : XElement
 ```
 
-#### Parameters
+### Parameters
 
   - manifest  
-    Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+    Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
     An XML element that contains the manifest.  
 
 <!-- end list -->
 
   - localName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The local name of the manifest.  
 
 <!-- end list -->
 
   - elementNamespace  
-    Type: [System.Xml.Linq. . :: . .XNamespace](https://msdn.microsoft.com/en-us/library/bb291898\(v=vs.90\))%  
+    Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)%  
     The namespace of the manifest element.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 The manifest XML element.  
 
 ## Remarks
@@ -116,7 +115,7 @@ This method returns an XML representation of the job manifest metadata. For exam
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

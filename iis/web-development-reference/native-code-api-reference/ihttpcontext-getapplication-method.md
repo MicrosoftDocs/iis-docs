@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetApplication Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetApplication Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b6785cd1-7502-24ea-1b46-e6b29e6fc72c
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetApplication Method
 Retrieves the application container for the current context.  
@@ -22,7 +14,7 @@ virtual IHttpApplication* GetApplication(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

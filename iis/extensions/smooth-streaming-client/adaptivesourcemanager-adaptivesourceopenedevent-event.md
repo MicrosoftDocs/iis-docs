@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 ---
 
 # AdaptiveSourceManager.AdaptiveSourceOpenedEvent Event
@@ -19,11 +19,11 @@ Adds or removes a subscription to AdaptiveSourceOpenedEvent events. Those events
 
 ## Syntax
 
-``` csharp
+```csharp
 public event AdaptiveSourceOpenedEventHandler AdaptiveSourceOpenedEvent
 ```
 
-``` c++
+```cpp
 public:
 virtual  event AdaptiveSourceOpenedEventHandler^ AdaptiveSourceOpenedEvent {
 void add (AdaptiveSourceOpenedEventHandler^ value);

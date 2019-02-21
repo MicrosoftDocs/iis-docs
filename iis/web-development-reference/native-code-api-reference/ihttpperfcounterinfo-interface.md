@@ -1,15 +1,7 @@
 ---
-title: "IHttpPerfCounterInfo Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpPerfCounterInfo Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3ca70926-30f4-ebc5-2148-a3b8d0a6cbbe
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpPerfCounterInfo Interface
 Provides an interface for incrementing and decrementing performance counters.  

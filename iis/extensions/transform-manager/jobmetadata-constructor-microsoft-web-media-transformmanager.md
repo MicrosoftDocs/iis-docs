@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobMetadata.#ctor
 - Microsoft.Web.Media.TransformManager.JobMetadata.JobMetadata
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobMetadata Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [JobMetadata](jobmetadata-class-microsoft-web-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -53,14 +52,14 @@ Dim instance As New JobMetadata(manifest, _
     taskIndex)
 ```
 
-``` csharp
+```csharp
   public JobMetadata(
     JobManifest manifest,
     int taskIndex
 )
 ```
 
-``` c++
+```cpp
   public:
 JobMetadata(
     JobManifest^ manifest, 
@@ -74,28 +73,28 @@ JobMetadata(
         taskIndex:int -> JobMetadata
 ```
 
-``` jscript
+```jscript
   public function JobMetadata(
     manifest : JobManifest, 
     taskIndex : int
 )
 ```
 
-#### Parameters
+### Parameters
 
   - manifest  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md)  
     The job manifest.  
 
 <!-- end list -->
 
   - taskIndex  
-    Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
     The task index.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobMetadata Class](jobmetadata-class-microsoft-web-media-transformmanager.md)
 

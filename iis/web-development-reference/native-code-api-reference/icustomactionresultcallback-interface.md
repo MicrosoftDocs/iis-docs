@@ -1,15 +1,7 @@
 ---
-title: "ICustomActionResultCallback Interface | Microsoft Docs"
-ms.custom: ""
+title: "ICustomActionResultCallback Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 66ef5a0c-0172-ae7f-5685-4cc987a8b917
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ICustomActionResultCallback Interface
 Reports the results of a Run-Time Status and Control operation that was requested by the [IPmCustomActions](../../web-development-reference\native-code-api-reference/ipmcustomactions-interface.md) interface.  

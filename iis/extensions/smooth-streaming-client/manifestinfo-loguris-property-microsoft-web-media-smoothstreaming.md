@@ -1,5 +1,5 @@
 ---
-title: ManifestInfo.LogUris Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ManifestInfo.LogUris Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LogUris Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.LogUris
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.manifestinfo.loguris(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.get_LogUris
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.LogUris
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LogUris Property
@@ -37,7 +36,7 @@ Gets the list of logging Uri objects.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property LogUris As IList(Of Uri)
@@ -49,43 +48,43 @@ Dim value As IList(Of Uri)
 value = instance.LogUris
 ```
 
-``` csharp
+```csharp
   public IList<Uri> LogUris { get; }
 ```
 
-``` c++
+```cpp
   public:
 property IList<Uri^>^ LogUris {
     IList<Uri^>^ get ();
 }
 ```
 
-``` jscript
+```jscript
   function get LogUris () : IList<Uri>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic. . :: . .IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.90\))\< (Of \< ( \<'[Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.90\))\> ) \> ) \>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6)\< (Of \< ( \<'[Uri](https://msdn.microsoft.com/library/txt7706a)\> ) \> ) \>  
 An IList of Uri objects.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestInfo Class](manifestinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

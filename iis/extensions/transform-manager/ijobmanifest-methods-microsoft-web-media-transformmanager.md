@@ -21,11 +21,9 @@ The [IJobManifest](ijobmanifest-interface-microsoft-web-media-transformmanager.m
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[Initialize](ijobmanifest-initialize-method-microsoft-web-media-transformmanager.md)|Initializes member variables for a job manifest that is loaded from disk instead of created as part of a job submission.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [IJobManifest Interface](ijobmanifest-interface-microsoft-web-media-transformmanager.md)
 

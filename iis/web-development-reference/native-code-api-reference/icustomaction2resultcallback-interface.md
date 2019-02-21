@@ -1,15 +1,7 @@
 ---
-title: "ICustomAction2ResultCallback Interface | Microsoft Docs"
-ms.custom: ""
+title: "ICustomAction2ResultCallback Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 51616d49-1f8a-4379-8dd3-8520c846b185
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ICustomAction2ResultCallback Interface
 Reports the results of a `RegisterCustomAction` or `UnregisterCustomAction` operation that was requested by the [IPmCustomActions2](../../web-development-reference\native-code-api-reference/ipmcustomactions2-interface.md) interface.  

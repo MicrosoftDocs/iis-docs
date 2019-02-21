@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.GetInputFileNames
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetInputFileNames Method
@@ -36,7 +35,7 @@ Returns a collection of input file names.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Function GetInputFileNames ( _
@@ -50,13 +49,13 @@ Dim returnValue As ICollection(Of String)
 returnValue = JobManifest.GetInputFileNames(smilManifest)
 ```
 
-``` csharp
+```csharp
   public static ICollection<string> GetInputFileNames(
     XContainer smilManifest
 )
 ```
 
-``` c++
+```cpp
   public:
 static ICollection<String^>^ GetInputFileNames(
     XContainer^ smilManifest
@@ -68,26 +67,26 @@ static ICollection<String^>^ GetInputFileNames(
         smilManifest:XContainer -> ICollection<string> 
 ```
 
-``` jscript
+```jscript
   public static function GetInputFileNames(
     smilManifest : XContainer
 ) : ICollection<String>
 ```
 
-#### Parameters
+### Parameters
 
   - smilManifest  
-    Type: [System.Xml.Linq. . :: . .XContainer](https://msdn.microsoft.com/en-us/library/bb353736\(v=vs.90\))  
+    Type: [System.Xml.Linq.XContainer](https://msdn.microsoft.com/library/bb353736)  
     An XML element that contains the manifest.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.Generic. . :: . .ICollection](https://msdn.microsoft.com/en-us/library/92t2ye13\(v=vs.90\))\< (Of \< ( \<'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))\> ) \> ) \>  
+Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/library/92t2ye13)\< (Of \< ( \<'[String](https://msdn.microsoft.com/library/s1wwdcbf)\> ) \> ) \>  
 The collection of input file names.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

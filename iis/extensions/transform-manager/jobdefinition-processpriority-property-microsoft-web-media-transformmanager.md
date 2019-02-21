@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.ProcessPriority Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.ProcessPriority Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ProcessPriority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.ProcessPriority
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.processpriority(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.ProcessPriority
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_ProcessPriority
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ProcessPriority Property
@@ -38,7 +37,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property ProcessPriority As Integer
@@ -54,12 +53,12 @@ value = instance.ProcessPriority
 instance.ProcessPriority = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public int ProcessPriority { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property int ProcessPriority {
@@ -73,18 +72,18 @@ property int ProcessPriority {
 member ProcessPriority : int with get, set
 ```
 
-``` jscript
+```jscript
   function get ProcessPriority () : int
 function set ProcessPriority (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

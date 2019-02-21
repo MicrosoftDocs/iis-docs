@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::GetTraceContext Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::GetTraceContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f1f6b14a-e7a6-948f-89f4-cdebea2b8a87
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::GetTraceContext Method
 Retrieves an [IHttpTraceContext](../../web-development-reference\native-code-api-reference/ihttptracecontext-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual IHttpTraceContext* GetTraceContext(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

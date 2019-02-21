@@ -1,5 +1,5 @@
 ---
-title: ClipContext.CurrentClipState Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ClipContext.CurrentClipState Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CurrentClipState Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.CurrentClipState
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipcontext.currentclipstate(v=VS.90)
@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.CurrentClipState
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.get_CurrentClipState
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CurrentClipState Property
@@ -37,7 +36,7 @@ Gets the CurrentClipState property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property CurrentClipState As MediaElementState
@@ -49,24 +48,24 @@ Dim value As MediaElementState
 value = instance.CurrentClipState
 ```
 
-``` csharp
+```csharp
   public MediaElementState CurrentClipState { get; }
 ```
 
-``` c++
+```cpp
   public:
 property MediaElementState CurrentClipState {
     MediaElementState get ();
 }
 ```
 
-``` jscript
+```jscript
   function get CurrentClipState () : MediaElementState
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Windows.Media. . :: . .MediaElementState](https://msdn.microsoft.com/en-us/library/cc190214\(v=vs.90\))  
+Type: [System.Windows.Media.MediaElementState](https://msdn.microsoft.com/library/cc190214)  
 State as specified by the MediaElementState()()()() enumeration.  
 
 ## Remarks
@@ -75,17 +74,17 @@ Specifies the current state of the media element playing the clip.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipContext Class](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)
 

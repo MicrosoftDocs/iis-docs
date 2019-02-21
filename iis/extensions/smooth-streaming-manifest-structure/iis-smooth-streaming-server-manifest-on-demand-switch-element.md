@@ -24,11 +24,11 @@ The switch element is a container for track information.
 
 The following sections describe attributes, child elements, and parent elements.
 
-#### Attributes
+### Attributes
 
 None
 
-#### Child Elements
+### Child Elements
 
 |Element|Description|
 |--- |--- |
@@ -37,7 +37,7 @@ None
 |**textstream**|The textstream element specifies a single track of textstream data. Text tracks are commonly used for closed captioning, script streaming and chapter markers.|
 
 
-#### Parent Elements
+### Parent Elements
 
 |Element|Description|
 |--- |--- |
@@ -49,7 +49,7 @@ A Smooth Streaming presentation must contain one or more tracks (specified by [I
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - body Element](iis-smooth-streaming-server-manifest-on-demand-body-element.md)
 

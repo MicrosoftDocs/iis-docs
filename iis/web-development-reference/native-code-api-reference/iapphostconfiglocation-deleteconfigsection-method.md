@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConfigLocation::DeleteConfigSection Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConfigLocation::DeleteConfigSection Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 98697b04-2d7a-20a5-14c5-95883eed8b2b
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConfigLocation::DeleteConfigSection Method
 Removes a configuration section from the current configuration location.  
@@ -22,7 +14,7 @@ HRESULT DeleteConfigSection(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `cIndex`  
  A `VARIANT` that contains the index of the configuration section to remove. The index can contain a `BSTR` that contains the location path.  
   

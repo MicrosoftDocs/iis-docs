@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 ---
 
 # IAdaptiveSourceManager.AdaptiveSourceManagerFailedEvent Event
@@ -19,11 +19,11 @@ Adds the adaptive source manager failed event handler.
 
 ## Syntax
 
-``` csharp
+```csharp
 event AdaptiveSourceManagerFailedEventHandler AdaptiveSourceManagerFailedEvent
 ```
 
-``` c++
+```cpp
 event AdaptiveSourceManagerFailedEventHandler^ AdaptiveSourceManagerFailedEvent {
 void add (AdaptiveSourceManagerFailedEventHandler^ value);
 void remove (AdaptiveSourceManagerFailedEventHandler^ value);

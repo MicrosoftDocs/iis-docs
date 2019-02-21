@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::ExecuteRequest Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::ExecuteRequest Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b52b477c-0e04-f8f1-4607-13ba5212f91e
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::ExecuteRequest Method
 Executes a child request.  
@@ -26,7 +18,7 @@ virtual HRESULT ExecuteRequest(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `fAsync`  
  [IN] Always `true` (specifies asynchronous execution).  
   

@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheRequest2 Constructor (Stream)
@@ -34,7 +33,7 @@ Initializes a new instance of the [CacheRequest2](cacherequest2-class-microsoft-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -47,13 +46,13 @@ Dim stream As Stream
 Dim instance As New CacheRequest2(stream)
 ```
 
-``` csharp
+```csharp
 public CacheRequest2(
     Stream stream
 )
 ```
 
-``` c++
+```cpp
 public:
 CacheRequest2(
     Stream^ stream
@@ -65,16 +64,16 @@ new :
         stream:Stream -> CacheRequest2
 ```
 
-``` jscript
+```jscript
 public function CacheRequest2(
     stream : Stream
 )
 ```
 
-#### Parameters
+### Parameters
 
   - stream  
-    Type: [System.IO.Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\))  
+    Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\))  
     The stream from which to read.
 
 ## Remarks
@@ -83,13 +82,13 @@ The CacheRequst2 instance reads from a stream that has been written using the [W
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheRequest2 Class](cacherequest2-class-microsoft-web-media-smoothstreaming.md)
 

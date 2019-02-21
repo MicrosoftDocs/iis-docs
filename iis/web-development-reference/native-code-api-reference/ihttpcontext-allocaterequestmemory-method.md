@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::AllocateRequestMemory Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::AllocateRequestMemory Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: dac3935e-c1a7-5b19-5796-7df497143217
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::AllocateRequestMemory Method
 Allocates a specified amount of memory.  
@@ -22,7 +14,7 @@ virtual VOID* AllocateRequestMemory(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `cbAllocation`  
  [IN] The number of bytes to allocate.  
   

@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::CloneContext Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::CloneContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fca3d2f4-9ebc-9615-53bc-2447fb65e301
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::CloneContext Method
 Creates a clone of the current request context.  
@@ -23,7 +15,7 @@ virtual HRESULT CloneContext(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwCloneFlags`  
  [IN] A `DWORD` that contains the clone flags.  
   

@@ -1,15 +1,7 @@
 ---
-title: "HttpGetExtendedInterface Function | Microsoft Docs"
-ms.custom: ""
+title: "HttpGetExtendedInterface Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 89120dc5-2cae-46a5-82b0-f2a06bc6a7eb
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpGetExtendedInterface Function
 Retrieves an extended HTTP interface given the HTTP server instance and the pointer to be down cast.  
@@ -25,7 +17,7 @@ HRESULT HttpGetExtendedInterface(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpServer`  
  [IN] Points to an instance of the [IHttpServer](../../web-development-reference\native-code-api-reference/ihttpserver-interface.md) interface.  
   

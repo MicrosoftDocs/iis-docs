@@ -1,5 +1,5 @@
 ---
-title: TrackChangedEventArgs.Timestamp Property  (Microsoft.Web.Media.SmoothStreaming)
+title: TrackChangedEventArgs.Timestamp Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Timestamp Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.Timestamp
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackchangedeventargs.timestamp(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.get_Timestamp
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.set_Timestamp
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Timestamp Property
@@ -39,7 +38,7 @@ Gets or sets the Timestamp property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Timestamp As TimeSpan
@@ -51,11 +50,11 @@ Dim value As TimeSpan
 value = instance.Timestamp
 ```
 
-``` csharp
+```csharp
   public TimeSpan Timestamp { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property TimeSpan Timestamp {
     TimeSpan get ();
@@ -63,33 +62,33 @@ property TimeSpan Timestamp {
 }
 ```
 
-``` jscript
+```jscript
   function get Timestamp () : TimeSpan
 private function set Timestamp (value : TimeSpan)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\))  
-A [DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.90\)) object.  
+Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577)  
+A [DateTime](https://msdn.microsoft.com/library/03ybds8y) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackChangedEventArgs Class](trackchangedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

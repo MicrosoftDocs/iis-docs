@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IMonitoringService.GetRunningJobs
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetRunningJobs Method
@@ -36,7 +35,7 @@ Returns a collection of all of the running jobs for all [JobDefinition](jobdefin
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Function GetRunningJobs As Collection(Of JobDetails)
@@ -48,12 +47,12 @@ Dim returnValue As Collection(Of JobDetails)
 returnValue = instance.GetRunningJobs()
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 Collection<JobDetails> GetRunningJobs()
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 Collection<JobDetails^>^ GetRunningJobs()
 ```
@@ -63,18 +62,18 @@ Collection<JobDetails^>^ GetRunningJobs()
 abstract GetRunningJobs : unit -> Collection<JobDetails> 
 ```
 
-``` jscript
+```jscript
   function GetRunningJobs() : Collection<JobDetails>
 ```
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.ObjectModel. . :: . .Collection](https://msdn.microsoft.com/en-us/library/ms132397\(v=vs.90\))\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
+Type: [System.Collections.ObjectModel.Collection](https://msdn.microsoft.com/library/ms132397)\< (Of \< ( \<'[JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)\> ) \> ) \>  
 The collection of running jobs.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IMonitoringService Interface](imonitoringservice-interface-microsoft-web-media-transformmanager.md)
 

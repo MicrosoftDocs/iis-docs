@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer2::GetAppPoolConfigFile Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer2::GetAppPoolConfigFile Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9c43fdc5-be61-4557-8873-5af3c4f806af
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer2::GetAppPoolConfigFile Method
 Retrieves the path of the application pool’s configuration file.  
@@ -22,7 +14,7 @@ virtual _Ret_writes_(*pcchConfigFilePath) PCWSTR GetAppPoolConfigFile(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pcchConfigFilePath`  
  [OUT] The number of characters in the path to retrieve.  
   

@@ -1,5 +1,5 @@
 ---
-title: ManifestProperty.Name Property  (Microsoft.Web.Media.TransformManager)
+title: ManifestProperty.Name Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.Name
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestproperty.name(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.Name
 - Microsoft.Web.Media.TransformManager.ManifestProperty.set_Name
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Name Property
@@ -40,7 +39,7 @@ Gets or sets the Name element of the manifest property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Name As XName
@@ -56,11 +55,11 @@ value = instance.Name
 instance.Name = value
 ```
 
-``` csharp
+```csharp
   public XName Name { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 virtual property XName^ Name {
     XName^ get () sealed;
@@ -73,23 +72,23 @@ virtual property XName^ Name {
 override Name : XName with get, set
 ```
 
-``` jscript
+```jscript
   final function get Name () : XName
 final function set Name (value : XName)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XName](https://msdn.microsoft.com/en-us/library/bb347810\(v=vs.90\))  
+Type: [System.Xml.Linq.XName](https://msdn.microsoft.com/library/bb347810)  
 The name of the manifest property.  
 
-#### Implements
+### Implements
 
-[IManifestProperty. . :: . .Name](imanifestproperty-name-property-microsoft-web-media-transformmanager.md)  
+[IManifestProperty.Name](imanifestproperty-name-property-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

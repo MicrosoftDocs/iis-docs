@@ -1,15 +1,7 @@
 ---
-title: "IReferencedMetadataInfo::ReferenceMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IReferencedMetadataInfo::ReferenceMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6c58b484-dbec-4fc2-9625-40b35ec86ce9
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IReferencedMetadataInfo::ReferenceMetadata Method
 References the metadata of the current context for later retrieval.  
@@ -22,7 +14,7 @@ virtual VOID ReferenceMetadata(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method accepts no parameters.  
   
 ## Return Value  

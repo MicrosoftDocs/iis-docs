@@ -21,11 +21,9 @@ The [ITaskStatus](itaskstatus-interface-microsoft-web-media-transformmanager.md)
 |![Public property](images/Hh125762.pubproperty(en-us,VS.90).gif "Public property")|[Status](itaskstatus-status-property-microsoft-web-media-transformmanager.md)|Gets the status of the task.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ITaskStatus Interface](itaskstatus-interface-microsoft-web-media-transformmanager.md)
 

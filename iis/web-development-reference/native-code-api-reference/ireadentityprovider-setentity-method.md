@@ -1,15 +1,7 @@
 ---
-title: "IReadEntityProvider::SetEntity Method | Microsoft Docs"
-ms.custom: ""
+title: "IReadEntityProvider::SetEntity Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 894a9196-08e5-51a6-e804-6d2f6b4c28d3
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IReadEntityProvider::SetEntity Method
 Specifies the request entity.  
@@ -24,7 +16,7 @@ virtual VOID SetEntity(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pBuffer`  
  A pointer to a void buffer that contains the request entity.  
   

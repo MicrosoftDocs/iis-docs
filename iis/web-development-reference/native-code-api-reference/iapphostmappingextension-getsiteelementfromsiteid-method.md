@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMappingExtension::GetSiteElementFromSiteId Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMappingExtension::GetSiteElementFromSiteId Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fa1c2d4d-87a7-7527-6450-3ecda7ba560d
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMappingExtension::GetSiteElementFromSiteId Method
 Gets a configuration element that represents a site by using the unique identifier for the site.  
@@ -24,7 +16,7 @@ HRESULT GetSiteElementFromSiteId(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `dwSiteId`  
  A `DWORD` that contains the site ID.  
   

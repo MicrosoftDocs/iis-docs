@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionDefinition::AllowDefinition Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionDefinition::AllowDefinition Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1b17e521-76e4-4b7b-c891-b771a83ccd6c
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionDefinition::AllowDefinition Property
 Gets or sets a value that indicates valid configuration path locations for the configuration section.  
@@ -26,7 +18,7 @@ HRESULT put_AllowDefintion(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrAllowDefinition`  
  A pointer to a `BSTR` that indicates a configuration path location. Valid values are "Everywhere", "MachineToApplication", "MachineOnly", "MachineToWebRoot", and "AppHostOnly". The default is "Everywhere".  
   

@@ -1,15 +1,7 @@
 ---
-title: "ProxySettings Class | Microsoft Docs"
-ms.custom: ""
+title: "ProxySettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f5126ff9-aa48-48ca-ff1f-e1da8eb99fc1
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ProxySettings Class
 Contains configuration settings for a Web proxy server.  

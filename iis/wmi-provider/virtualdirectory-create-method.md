@@ -1,15 +1,7 @@
 ---
-title: "VirtualDirectory.Create Method1 | Microsoft Docs"
-ms.custom: ""
+title: "VirtualDirectory.Create Method1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0e9a76f1-3fe0-cbb0-6ac5-e258c4b5df06
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # VirtualDirectory.Create Method1
 Creates a virtual directory.  
@@ -35,7 +27,7 @@ objAppSrv.Get("VirtualDirectory").Create(
 )  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  

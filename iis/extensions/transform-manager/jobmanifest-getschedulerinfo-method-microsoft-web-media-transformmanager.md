@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.GetSchedulerInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetSchedulerInfo Method
@@ -36,7 +35,7 @@ Returns scheduling information about a job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Function GetSchedulerInfo As SchedulerInfo
@@ -48,11 +47,11 @@ Dim returnValue As SchedulerInfo
 returnValue = instance.GetSchedulerInfo()
 ```
 
-``` csharp
+```csharp
   public SchedulerInfo GetSchedulerInfo()
 ```
 
-``` c++
+```cpp
   public:
 virtual SchedulerInfo^ GetSchedulerInfo() sealed
 ```
@@ -62,22 +61,22 @@ virtual SchedulerInfo^ GetSchedulerInfo() sealed
 override GetSchedulerInfo : unit -> SchedulerInfo 
 ```
 
-``` jscript
+```jscript
   public final function GetSchedulerInfo() : SchedulerInfo
 ```
 
-#### Return Value
+### Return Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .SchedulerInfo](schedulerinfo-class-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.SchedulerInfo](schedulerinfo-class-microsoft-web-media-transformmanager.md)  
 A job scheduler object that provides scheduling information about a job.  
 
-#### Implements
+### Implements
 
-[IJobManifest. . :: . .GetSchedulerInfo() () () ()](ijobmanifest-getschedulerinfo-method-microsoft-web-media-transformmanager.md)  
+[IJobManifest.GetSchedulerInfo() () () ()](ijobmanifest-getschedulerinfo-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

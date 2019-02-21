@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventHandler
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SSMELogReadyRoutedEventHandler Delegate
@@ -39,7 +38,7 @@ The event handler for the [LogReady](smoothstreamingmediaelement-logready-event-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Delegate Sub SSMELogReadyRoutedEventHandler ( _
@@ -51,49 +50,49 @@ The event handler for the [LogReady](smoothstreamingmediaelement-logready-event-
   Dim instance As New SSMELogReadyRoutedEventHandler(AddressOf HandlerMethod)
 ```
 
-``` csharp
+```csharp
   public delegate void SSMELogReadyRoutedEventHandler(
     Object sender,
     SSMELogReadyRoutedEventArgs e
 )
 ```
 
-``` c++
+```cpp
   public delegate void SSMELogReadyRoutedEventHandler(
     Object^ sender, 
     SSMELogReadyRoutedEventArgs^ e
 )
 ```
 
-``` jscript
+```jscript
   JScript does not support delegates.
 ```
 
-#### Parameters
+### Parameters
 
   - sender  
-    Type: [System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
-    The [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\)) sender.  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
+    The [Object](https://msdn.microsoft.com/library/e5kfa45b) sender.  
 
 <!-- end list -->
 
   - e  
-    Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .SSMELogReadyRoutedEventArgs](ssmelogreadyroutedeventargs-class-microsoft-web-media-smoothstreaming_1.md)  
+    Type: [Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs](ssmelogreadyroutedeventargs-class-microsoft-web-media-smoothstreaming_1.md)  
     A SSMELogReadyRoutedEventArgs object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

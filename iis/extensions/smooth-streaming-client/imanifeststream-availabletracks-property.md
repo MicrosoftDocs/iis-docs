@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Gets the available tracks in the current stream.
 
 ## Syntax
 
-``` csharp
+```csharp
 IVectorView<IManifestTrack> AvailableTracks { get; }
 ```
 
-``` c++
+```cpp
 property IVectorView<IManifestTrack^>^ AvailableTracks {
 IVectorView<IManifestTrack^>^ get ();
 }
 ```
 
-``` jscript
+```jscript
 function get AvailableTracks () : IVectorView<IManifestTrack>
 ```
 

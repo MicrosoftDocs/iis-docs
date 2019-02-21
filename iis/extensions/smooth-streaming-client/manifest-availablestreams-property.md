@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the available streams.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IVectorView<IManifestStream> AvailableStreams { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property IVectorView<IManifestStream^>^ AvailableStreams {
 IVectorView<IManifestStream^>^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get AvailableStreams () : IVectorView<IManifestStream>
 ```
 

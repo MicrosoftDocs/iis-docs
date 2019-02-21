@@ -18,14 +18,12 @@ The [Tracing](tracing-class-microsoft-web-media-diagnostics_1.md) type exposes t
 |--- |--- |--- |
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ConfigLoaded](tracing-configloaded-property-microsoft-web-media-diagnostics_1.md)|Gets the [ConfigLoaded](tracing-configloaded-property-microsoft-web-media-diagnostics_1.md) property.|
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[IsolatedStorageQuota](tracing-isolatedstoragequota-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the [IsolatedStorageQuota](tracing-isolatedstoragequota-property-microsoft-web-media-diagnostics_1.md) property.|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[RemoteServerUri](tracing-remoteserveruri-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the [Uri](https://msdn.microsoft.com/en-us/library/txt7706a(v=vs.90)) of the remote server.|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[RemoteServerUri](tracing-remoteserveruri-property-microsoft-web-media-diagnostics_1.md)|Gets or sets the [Uri](https://msdn.microsoft.com/library/txt7706a) of the remote server.|
 
-
-Top
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

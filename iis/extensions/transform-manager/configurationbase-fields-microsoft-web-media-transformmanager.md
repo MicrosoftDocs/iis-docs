@@ -22,11 +22,9 @@ The [ConfigurationBase](configurationbase-class-microsoft-web-media-transformman
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[JobTemplatesDirectory](configurationbase-jobtemplatesdirectory-field-microsoft-web-media-transformmanager.md)|Represents a string constant that specifies a configuration directory ("Job Templates") for job templates.|
 |![Public field](images/Hh125771.pubfield(en-us,VS.90).gif "Public field")![Static member](images/Hh125771.static(en-us,VS.90).gif "Static member")|[TaskDefinitionsDirectory](configurationbase-taskdefinitionsdirectory-field-microsoft-web-media-transformmanager.md)|Represents a string constant that specifies a configuration directory ("Task Definitions") for task definitions.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

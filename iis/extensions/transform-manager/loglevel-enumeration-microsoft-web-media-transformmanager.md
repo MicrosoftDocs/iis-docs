@@ -16,11 +16,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.LogLevel.Warning
 - Microsoft.Web.Media.TransformManager.LogLevel.Verbose
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -38,7 +38,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LogLevel Enumeration
@@ -50,7 +49,7 @@ Specifies the type of logging message to write to the log file.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Enumeration LogLevel
@@ -59,11 +58,11 @@ Specifies the type of logging message to write to the log file.
   Dim instance As LogLevel
 ```
 
-``` csharp
+```csharp
   public enum LogLevel
 ```
 
-``` c++
+```cpp
   public enum class LogLevel
 ```
 
@@ -71,13 +70,13 @@ Specifies the type of logging message to write to the log file.
   type LogLevel
 ```
 
-``` jscript
+```jscript
   public enum LogLevel
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

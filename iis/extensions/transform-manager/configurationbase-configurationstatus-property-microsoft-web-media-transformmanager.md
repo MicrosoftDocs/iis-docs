@@ -1,5 +1,5 @@
 ---
-title: ConfigurationBase.ConfigurationStatus Property  (Microsoft.Web.Media.TransformManager)
+title: ConfigurationBase.ConfigurationStatus Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationStatus Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationStatus
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.configurationstatus(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_ConfigurationStatus
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationStatus
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationStatus Property
@@ -40,7 +39,7 @@ Gets or sets the IIS Transform Manager configuration status.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property ConfigurationStatus As ConfigurationMessageSeverity
@@ -56,12 +55,12 @@ value = instance.ConfigurationStatus
 instance.ConfigurationStatus = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public ConfigurationMessageSeverity ConfigurationStatus { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property ConfigurationMessageSeverity ConfigurationStatus {
@@ -75,19 +74,19 @@ property ConfigurationMessageSeverity ConfigurationStatus {
 member ConfigurationStatus : ConfigurationMessageSeverity with get, set
 ```
 
-``` jscript
+```jscript
   function get ConfigurationStatus () : ConfigurationMessageSeverity
 function set ConfigurationStatus (value : ConfigurationMessageSeverity)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .ConfigurationMessageSeverity](configurationmessageseverity-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity](configurationmessageseverity-enumeration-microsoft-web-media-transformmanager.md)  
 A value that specifies the severity of a configuration message.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

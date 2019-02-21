@@ -1,14 +1,7 @@
 ---
-title: "IIISVersion | Microsoft Docs"
-ms.custom: ""
+title: "IIISVersion"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 788ea4aa-7117-4ab1-b800-00a29aeb072d
-caps.latest.revision: 6
-manager: "wpickett"
 ---
 # IIISVersion
 Returns details about an IIS product version that is installed on the current computer.  

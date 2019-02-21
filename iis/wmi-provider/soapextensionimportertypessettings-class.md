@@ -1,15 +1,7 @@
 ---
-title: "SoapExtensionImporterTypesSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "SoapExtensionImporterTypesSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 396a11ff-0fa8-4f8c-bcbc-615bb7c647bb
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SoapExtensionImporterTypesSettings Class
 Contains SOAP extension information that is used to create a Web service proxy class.  

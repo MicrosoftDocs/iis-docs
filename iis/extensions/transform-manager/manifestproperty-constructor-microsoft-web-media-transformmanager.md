@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.#ctor
 - Microsoft.Web.Media.TransformManager.ManifestProperty.ManifestProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
@@ -35,11 +35,9 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ManifestProperty(XName, String, Boolean, CultureInfo)](manifestproperty-constructor-xname-string-boolean-cultureinfo-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md) class using the specified name, value, culture, and whether the property is required.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[ManifestProperty(String, String, String, Boolean, CultureInfo)](manifestproperty-constructor-string-string-string-boolean-cultureinfo-microsoft-web-media-transformmanager.md)|Initializes a new instance of the [ManifestProperty](manifestproperty-class-microsoft-web-media-transformmanager.md) class using the specified namespace, name, value, and culture, and whether the property is required.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

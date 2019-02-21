@@ -1,15 +1,7 @@
 ---
-title: "Server.EndUpdateBatch Method | Microsoft Docs"
-ms.custom: ""
+title: "Server.EndUpdateBatch Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 49d4a5bc-0c8e-4e51-9ab6-60285a97257b
-caps.latest.revision: 6
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Server.EndUpdateBatch Method
 Ends a batch of configuration changes.  
@@ -24,7 +16,7 @@ oServer.EndUpdateBatch
 oServer.EndUpdateBatch();  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  

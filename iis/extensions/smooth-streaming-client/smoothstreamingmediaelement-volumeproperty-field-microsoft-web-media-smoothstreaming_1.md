@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.VolumeProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.VolumeProperty Field
@@ -36,7 +35,7 @@ Represents a dependency property that specifies the [Volume](smoothstreamingmedi
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared ReadOnly VolumeProperty As DependencyProperty
@@ -47,11 +46,11 @@ Dim value As DependencyProperty
 value = SmoothStreamingMediaElement.VolumeProperty
 ```
 
-``` csharp
+```csharp
 public static readonly DependencyProperty VolumeProperty
 ```
 
-``` c++
+```cpp
 public:
 static initonly DependencyProperty^ VolumeProperty
 ```
@@ -60,7 +59,7 @@ static initonly DependencyProperty^ VolumeProperty
 static val VolumeProperty: DependencyProperty
 ```
 
-``` jscript
+```jscript
 public static final var VolumeProperty : DependencyProperty
 ```
 
@@ -70,17 +69,17 @@ For more information, see [Microsoft Smooth Streaming Client 2.0](microsoft-smoo
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

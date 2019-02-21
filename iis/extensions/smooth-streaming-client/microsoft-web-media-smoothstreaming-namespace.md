@@ -9,9 +9,9 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 ---
 
 # Microsoft.Web.Media.SmoothStreaming Namespace
@@ -39,7 +39,7 @@ Smooth Streaming is an IIS Media Services extension that enables adaptive stream
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)|Defines the information that must be exposed by any manifest parser. This class corresponds to the Clip element in the composite manifest. You can extend the class with private data if a custom parser needs more information.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SmoothStreamingErrorEventArgs](smoothstreamingerroreventargs-class-microsoft-web-media-smoothstreaming_1.md)|Class to pass error event information about a Smooth Streaming operation.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SmoothStreamingException](smoothstreamingexception-class-microsoft-web-media-smoothstreaming_1.md)|Class to contain Smooth Streaming exception information.|
-|![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)|Represents a media player that provides [MediaElement](https://msdn.microsoft.com/en-us/library/ms611595(v=vs.90)) capabilities and advertising integration. The class is designed to support IIS Smooth Streaming.|
+|![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)|Represents a media player that provides [MediaElement](https://msdn.microsoft.com/library/ms611595) capabilities and advertising integration. The class is designed to support IIS Smooth Streaming.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SSMELogReadyRoutedEventArgs](ssmelogreadyroutedeventargs-class-microsoft-web-media-smoothstreaming_1.md)|Provides data for the [LogReady](smoothstreamingmediaelement-logready-event-microsoft-web-media-smoothstreaming_1.md) event.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)|Defines the basic information for each stream. This class corresponds to the StreamIndex element of the client manifest. You can extend the class to add private data per stream.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md)|Arguments for the StreamSelected()()()(), ChunkAdded()()()() and TracksSelected()()()() events.|
@@ -59,16 +59,16 @@ Smooth Streaming is an IIS Media Services extension that enables adaptive stream
 
 ||Delegate|Description|
 |--- |--- |--- |
-|![Public delegate](images/Ee532718.pubdelegate(en-us,VS.90).gif "Public delegate")|[SmoothStreamingMediaElement. . :: . .ManifestMergeHandler](smoothstreamingmediaelement-manifestmergehandler-delegate-microsoft-web-media-smoothstreaming_1.md)|Delegate method to merge data from more than one manifest.|
+|![Public delegate](images/Ee532718.pubdelegate(en-us,VS.90).gif "Public delegate")|[SmoothStreamingMediaElement.ManifestMergeHandler](smoothstreamingmediaelement-manifestmergehandler-delegate-microsoft-web-media-smoothstreaming_1.md)|Delegate method to merge data from more than one manifest.|
 |![Public delegate](images/Ee532718.pubdelegate(en-us,VS.90).gif "Public delegate")|[SSMELogReadyRoutedEventHandler](ssmelogreadyroutedeventhandler-delegate-microsoft-web-media-smoothstreaming_1.md)|The event handler for the [LogReady](smoothstreamingmediaelement-logready-event-microsoft-web-media-smoothstreaming_1.md) event.|
 
 ## Enumerations
 
 ||Enumeration|Description|
 |--- |--- |--- |
-|![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[ChunkResult. . :: . .ChunkResultState](chunkresult-chunkresultstate-enumeration-microsoft-web-media-smoothstreaming_1.md)|An enumeration that contains the possible result states during processing by the [BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) and [EndGetChunk](trackinfo-endgetchunk-method-microsoft-web-media-smoothstreaming_1.md) methods.|
+|![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[ChunkResult.ChunkResultState](chunkresult-chunkresultstate-enumeration-microsoft-web-media-smoothstreaming_1.md)|An enumeration that contains the possible result states during processing by the [BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md) and [EndGetChunk](trackinfo-endgetchunk-method-microsoft-web-media-smoothstreaming_1.md) methods.|
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[ClipProgress](clipprogress-enumeration-microsoft-web-media-smoothstreaming_1.md)|Enumeration that specifies the stages of progress through a media clip.|
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[PlaybackMode](playbackmode-enumeration-microsoft-web-media-smoothstreaming_1.md)|Enumeration that specifies the Smooth Streaming playback mode to be used during main content playback.|
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[PlaybackStartPosition](playbackstartposition-enumeration-microsoft-web-media-smoothstreaming_1.md)|Enumeration that specifies the position from which playback of a media stream begins.|
 |![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[SmoothStreamingMediaElementState](smoothstreamingmediaelementstate-enumeration-microsoft-web-media-smoothstreaming_1.md)|Enumeration of possible states for the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md).|
-|![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[StreamUpdatedEventArgs. . :: . .StreamUpdatedAction](streamupdatedeventargs-streamupdatedaction-enumeration-microsoft-web-media-smoothstreaming_1.md)|Action enumeration for the StreamSelected()()()(), ChunkAdded()()()() and TracksSelected()()()() in the [StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md) class.|
+|![Public enumeration](images/Ee532677.pubenumeration(en-us,VS.90).gif "Public enumeration")|[StreamUpdatedEventArgs.StreamUpdatedAction](streamupdatedeventargs-streamupdatedaction-enumeration-microsoft-web-media-smoothstreaming_1.md)|Action enumeration for the StreamSelected()()()(), ChunkAdded()()()() and TracksSelected()()()() in the [StreamUpdatedEventArgs](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md) class.|

@@ -17,7 +17,7 @@ From an implementation standpoint, the solution follows recommended patterns and
 
 Additional information can be found at the following sites:
 
-- [https://msdn.microsoft.com/en-us/library/ms735119.aspx](https://msdn.microsoft.com/en-us/library/ms735119.aspx)
+- [https://msdn.microsoft.com/library/ms735119.aspx](https://msdn.microsoft.com/library/ms735119.aspx)
 - [http://www.codeplex.com/servicefactory](http://www.codeplex.com/servicefactory)
 
 In the following sections, we describe each subsystem implementation in detail.
@@ -174,13 +174,13 @@ Two different hosting solutions have been implemented: IIS based hosting, and Wi
 
 Implement your own preferred hosting options by following WCF documentations for how to implement WCF Hosting:
 
-- <a id="ctl00_rs1_mainContentContainer_ctl01"></a>[Hosting in Internet Information Services](https://msdn.microsoft.com/en-us/library/ms734710.aspx)
+- <a id="ctl00_rs1_mainContentContainer_ctl01"></a>[Hosting in Internet Information Services](https://msdn.microsoft.com/library/ms734710.aspx)
 
 Or
 
-- <a id="ctl00_rs1_mainContentContainer_ctl03"></a>[Hosting in a Windows Service Application](https://msdn.microsoft.com/en-us/library/ms734781.aspx)
+- <a id="ctl00_rs1_mainContentContainer_ctl03"></a>[Hosting in a Windows Service Application](https://msdn.microsoft.com/library/ms734781.aspx)
 
-More options are available at [WCF Hosting](https://msdn.microsoft.com/en-us/library/ms729846.aspx).
+More options are available at [WCF Hosting](https://msdn.microsoft.com/library/ms729846.aspx).
 
 The following figure shows the two hosting solutions within Visual Studio.
 
@@ -190,7 +190,7 @@ The following figure shows the two hosting solutions within Visual Studio.
 
 ## Security Role Provider
 
-The sample code uses the [Windows Role Provider](https://msdn.microsoft.com/en-us/library/6b241xwt.aspx) to perform a role check in WCF on every call to verify that the caller is a member of the WindowsBuiltInRole.Administrator group. This is implemented in the file WindowsAuthorizationManager.cs within the Microsoft.Hosting.Management project, as seen in the figure below.
+The sample code uses the [Windows Role Provider](https://msdn.microsoft.com/library/6b241xwt.aspx) to perform a role check in WCF on every call to verify that the caller is a member of the WindowsBuiltInRole.Administrator group. This is implemented in the file WindowsAuthorizationManager.cs within the Microsoft.Hosting.Management project, as seen in the figure below.
 
 [![](setting-up-components/_static/image58.jpg)](setting-up-components/_static/image57.jpg)
 

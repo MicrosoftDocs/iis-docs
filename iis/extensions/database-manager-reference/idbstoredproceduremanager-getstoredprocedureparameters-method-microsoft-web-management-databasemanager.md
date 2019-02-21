@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedureParameters
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbStoredProcedureManager.GetStoredProcedureParameters Method
@@ -35,7 +34,7 @@ Returns a collection of parameters for a stored procedure.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Function GetStoredProcedureParameters ( _
     connectionString As String, _
@@ -53,7 +52,7 @@ returnValue = instance.GetStoredProcedureParameters(connectionString, _
     schema, storedProcedureName)
 ```
 
-``` csharp
+```csharp
 ICollection<StoredProcedureParameter> GetStoredProcedureParameters(
     string connectionString,
     string schema,
@@ -61,7 +60,7 @@ ICollection<StoredProcedureParameter> GetStoredProcedureParameters(
 )
 ```
 
-``` c++
+```cpp
 ICollection<StoredProcedureParameter^>^ GetStoredProcedureParameters(
     String^ connectionString, 
     String^ schema, 
@@ -69,7 +68,7 @@ ICollection<StoredProcedureParameter^>^ GetStoredProcedureParameters(
 )
 ```
 
-``` jscript
+```jscript
 function GetStoredProcedureParameters(
     connectionString : String, 
     schema : String, 
@@ -77,28 +76,28 @@ function GetStoredProcedureParameters(
 ) : ICollection<StoredProcedureParameter>
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
 <!-- end list -->
 
   - schema  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the stored procedure.  
     **Note**    If schema is empty, the default schema name will be used.  
 
 <!-- end list -->
 
   - storedProcedureName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the stored procedure.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/en-us/library/92t2ye13\(v=vs.90\))\<[StoredProcedureParameter](storedprocedureparameter-class-microsoft-web-management-databasemanager.md)\>  
+Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/library/92t2ye13)\<[StoredProcedureParameter](storedprocedureparameter-class-microsoft-web-management-databasemanager.md)\>  
 An ICollection object that contains the list of [StoredProcedureParameter](storedprocedureparameter-class-microsoft-web-management-databasemanager.md) objects.  
 
 ## Remarks
@@ -107,7 +106,7 @@ All database providers that implement the [IDbStoredProcedureManager](idbstoredp
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider does not support retrieving stored procedures, you can use the following code sample to raise a not-implemented exception:
 
@@ -121,11 +120,11 @@ public ICollection\<StoredProcedureParameter\> GetStoredProcedureParameters(stri
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbStoredProcedureManager Interface](idbstoredproceduremanager-interface-microsoft-web-management-databasemanager.md)
 

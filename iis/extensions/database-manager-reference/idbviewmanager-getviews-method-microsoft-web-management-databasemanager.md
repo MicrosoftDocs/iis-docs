@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbViewManager.GetViews
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbViewManager.GetViews Method
@@ -35,7 +34,7 @@ Retrieves a list of views in a database.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Function GetViews ( _
     connectionString As String _
@@ -48,33 +47,33 @@ Dim returnValue As ICollection(Of View)
 returnValue = instance.GetViews(connectionString)
 ```
 
-``` csharp
+```csharp
 ICollection<View> GetViews(
     string connectionString
 )
 ```
 
-``` c++
+```cpp
 ICollection<View^>^ GetViews(
     String^ connectionString
 )
 ```
 
-``` jscript
+```jscript
 function GetViews(
     connectionString : String
 ) : ICollection<View>
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/en-us/library/92t2ye13\(v=vs.90\))\<[View](view-class-microsoft-web-management-databasemanager.md)\>  
+Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/library/92t2ye13)\<[View](view-class-microsoft-web-management-databasemanager.md)\>  
 An ICollection object that contains the list of [View](view-class-microsoft-web-management-databasemanager.md) objects.  
 
 ## Remarks
@@ -83,7 +82,7 @@ All database providers that implement the [IDbViewManager](idbviewmanager-interf
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider does not support retrieving the list of views, you can use the following code sample to raise a not-implemented exception:
 
@@ -99,7 +98,7 @@ public ICollection\<View\> GetViews(string connectionString)
 
 The following code sample implements the GetViews method to retrieve a list of views from a database in an OLEDB data source.
 
-``` vb
+```vb
 
     ' Retrieve the list of views from a database.
     Public Function GetViews( _
@@ -140,7 +139,7 @@ The following code sample implements the GetViews method to retrieve a list of v
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve the list of views from a database.
         public ICollection<View> GetViews(string connectionString)
@@ -177,11 +176,11 @@ The following code sample implements the GetViews method to retrieve a list of v
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbViewManager Interface](idbviewmanager-interface-microsoft-web-management-databasemanager.md)
 

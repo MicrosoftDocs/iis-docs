@@ -1,15 +1,7 @@
 ---
-title: "AuthorizationRule Class | Microsoft Docs"
-ms.custom: ""
+title: "AuthorizationRule Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f334ec89-73af-4b83-5c45-0fc379b053fe
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AuthorizationRule Class
 Represents a rule in the authorization section of a configuration file.  
@@ -61,5 +53,5 @@ class AuthorizationRule : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.AuthorizationRule](/dotnet/api/system.web.configuration.authorizationrule?view=netframework-4.7.2)
+ [System.Web.Configuration.AuthorizationRule](/dotnet/api/system.web.configuration.authorizationrule)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)

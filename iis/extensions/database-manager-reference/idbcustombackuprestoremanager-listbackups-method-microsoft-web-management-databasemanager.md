@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbCustomBackupRestoreManager.ListBackups
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbCustomBackupRestoreManager.ListBackups Method
@@ -35,7 +34,7 @@ Retrieves a list of database backup names for a custom backup and restore module
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Function ListBackups ( _
     connectionString As String _
@@ -48,33 +47,33 @@ Dim returnValue As ICollection(Of String)
 returnValue = instance.ListBackups(connectionString)
 ```
 
-``` csharp
+```csharp
 ICollection<string> ListBackups(
     string connectionString
 )
 ```
 
-``` c++
+```cpp
 ICollection<String^>^ ListBackups(
     String^ connectionString
 )
 ```
 
-``` jscript
+```jscript
 function ListBackups(
     connectionString : String
 ) : ICollection<String>
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
-#### Return Value
+### Return Value
 
-Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/en-us/library/92t2ye13\(v=vs.90\))\<[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))\>  
+Type: [System.Collections.Generic.ICollection](https://msdn.microsoft.com/library/92t2ye13)\<[String](https://msdn.microsoft.com/library/s1wwdcbf)\>  
 An ICollection object that contains the collection of database backup names.  
 
 ## Remarks
@@ -83,11 +82,11 @@ All database providers that implement the [IDbCustomBackupRestoreManager](idbcus
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbCustomBackupRestoreManager Interface](idbcustombackuprestoremanager-interface-microsoft-web-management-databasemanager.md)
 

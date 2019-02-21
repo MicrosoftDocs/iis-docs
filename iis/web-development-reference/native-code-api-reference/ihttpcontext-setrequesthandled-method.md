@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::SetRequestHandled Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::SetRequestHandled Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e83d7e00-39ad-b989-971a-d65b62220fe4
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::SetRequestHandled Method
 Indicates that the handlers for the current request have completed.  
@@ -22,7 +14,7 @@ virtual VOID SetRequestHandled(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -1,15 +1,7 @@
 ---
-title: "TagMapElement Class | Microsoft Docs"
-ms.custom: ""
+title: "TagMapElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d7ab3ae1-eb52-436f-ae9b-8be91af32849
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TagMapElement Class
 Contains a statement that remaps a tag type.  
@@ -54,7 +46,7 @@ class TagMapElement : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.TagMapInfo](/dotnet/api/system.web.configuration.tagmapinfo?view=netframework-4.7.2)  
+ [System.Web.Configuration.TagMapInfo](/dotnet/api/system.web.configuration.tagmapinfo)  
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)   
  [TagMapInfo Class](../wmi-provider/tagmapinfo-class.md)

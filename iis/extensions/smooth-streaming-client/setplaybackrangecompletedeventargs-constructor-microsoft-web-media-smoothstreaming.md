@@ -10,19 +10,13 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.SetPlaybackRangeCompletedEventArgs
 - Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
 # SetPlaybackRangeCompletedEventArgs Constructor
-
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
 
 Initializes a new instance of the [SetPlaybackRangeCompletedEventArgs](setplaybackrangecompletedeventargs-class-microsoft-web-media-smoothstreaming.md) class for a successful or failed completion of a SetPlaybackRangeAysnc operation.
 
@@ -36,11 +30,9 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[SetPlaybackRangeCompletedEventArgs(TimeSpan, TimeSpan, Object)](setplaybackrangecompletedeventargs-constructor-timespan-timespan-object-microsoft-web-media-smoothstreaming.md)|Initializes a new instance of the [SetPlaybackRangeCompletedEventArgs](setplaybackrangecompletedeventargs-class-microsoft-web-media-smoothstreaming.md) class for a successful completion of a SetPlaybackRangeAysnc operation.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [SetPlaybackRangeCompletedEventArgs Class](setplaybackrangecompletedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

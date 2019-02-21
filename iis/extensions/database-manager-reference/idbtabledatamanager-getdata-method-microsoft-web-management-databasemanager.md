@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbTableDataManager.GetData
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbTableDataManager.GetData Method
@@ -35,7 +34,7 @@ Returns table data as a query result.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Function GetData ( _
     connectionString As String, _
@@ -53,7 +52,7 @@ returnValue = instance.GetData(connectionString, _
     tableName, schema)
 ```
 
-``` csharp
+```csharp
 QueryResult GetData(
     string connectionString,
     string tableName,
@@ -61,7 +60,7 @@ QueryResult GetData(
 )
 ```
 
-``` c++
+```cpp
 QueryResult^ GetData(
     String^ connectionString, 
     String^ tableName, 
@@ -69,7 +68,7 @@ QueryResult^ GetData(
 )
 ```
 
-``` jscript
+```jscript
 function GetData(
     connectionString : String, 
     tableName : String, 
@@ -77,26 +76,26 @@ function GetData(
 ) : QueryResult
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database.  
 
 <!-- end list -->
 
   - tableName  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the table.  
 
 <!-- end list -->
 
   - schema  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The schema name for the table.  
     **Note**    If schema is empty, the default schema name will be used.  
 
-#### Return Value
+### Return Value
 
 Type: [Microsoft.Web.Management.DatabaseManager.QueryResult](queryresult-class-microsoft-web-management-databasemanager.md)  
 A [QueryResult](queryresult-class-microsoft-web-management-databasemanager.md) object that contains the table data.  
@@ -107,7 +106,7 @@ All database providers that implement the [IDbTableDataManager](idbtabledatamana
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider does not support retrieving data, you can use the following code sample to raise a not-implemented exception:
 
@@ -133,7 +132,7 @@ The following code sample implements the GetData method to retrieve the data in 
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     ' Retrieve data from a database.
     Public Function GetData( _
@@ -231,7 +230,7 @@ The following code sample implements the GetData method to retrieve the data in 
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve data from a database.
         public QueryResult GetData(string connectionString, string tableName, string schema)
@@ -339,11 +338,11 @@ The following code sample implements the GetData method to retrieve the data in 
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IDbTableDataManager Interface](idbtabledatamanager-interface-microsoft-web-management-databasemanager.md)
 

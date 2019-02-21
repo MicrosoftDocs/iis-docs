@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.GetJobLogFile
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobLogFile Method
@@ -36,7 +35,7 @@ Returns the instance log for the specified job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Function GetJobLogFile ( _
@@ -51,14 +50,14 @@ Dim returnValue As String
 returnValue = instance.GetJobLogFile(jobDetails)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public string GetJobLogFile(
     JobDetails jobDetails
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual String^ GetJobLogFile(
@@ -75,30 +74,30 @@ override GetJobLogFile :
         jobDetails:JobDetails -> string 
 ```
 
-``` jscript
+```jscript
   public final function GetJobLogFile(
     jobDetails : JobDetails
 ) : String
 ```
 
-#### Parameters
+### Parameters
 
   - jobDetails  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobDetails](jobdetails-class-microsoft-web-media-transformmanager.md)  
     An object that contains the ID of the job.  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A job log file.  
 
-#### Implements
+### Implements
 
-[IMonitoringService. . :: . .GetJobLogFile(JobDetails)](imonitoringservice-getjoblogfile-method-microsoft-web-media-transformmanager.md)  
+[IMonitoringService.GetJobLogFile(JobDetails)](imonitoringservice-getjoblogfile-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

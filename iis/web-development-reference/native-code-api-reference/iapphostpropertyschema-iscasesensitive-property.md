@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::IsCaseSensitive Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::IsCaseSensitive Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8265b9e8-9d05-f2e7-0211-0fbe1725e7ca
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::IsCaseSensitive Property
 Gets a value that indicates whether the property value is case-sensitive.  
@@ -23,7 +15,7 @@ HRESULT get_IsCaseSensitive(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfIsCaseSensitive`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if the property value is case-sensitive; otherwise, `VARIANT_FALSE`.  
   

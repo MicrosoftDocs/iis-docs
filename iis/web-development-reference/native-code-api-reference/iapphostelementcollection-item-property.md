@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementCollection::Item Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementCollection::Item Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 551db540-404a-2a9b-3e9e-988399c52d64
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementCollection::Item Property
 Gets the element at the requested index in the current collection.  
@@ -24,7 +16,7 @@ HRESULT Item(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `cIndex`  
  A `VARIANT` that represents the index of the item to retrieve from the collection.  
   

@@ -1,15 +1,7 @@
 ---
-title: "RecyclingSettings Class1 | Microsoft Docs"
-ms.custom: ""
+title: "RecyclingSettings Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: dee0e6af-883c-f4ac-ee15-d2de53ddb010
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # RecyclingSettings Class1
 Specifies recycling settings for worker processes.  

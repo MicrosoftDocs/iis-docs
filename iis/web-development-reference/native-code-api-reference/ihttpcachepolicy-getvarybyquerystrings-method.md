@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy::GetVaryByQueryStrings Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy::GetVaryByQueryStrings Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 44714859-9692-7881-1978-662089aed17a
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy::GetVaryByQueryStrings Method
 Returns the custom query values for the cache policy.  
@@ -22,7 +14,7 @@ virtual PCSTR GetVaryByQueryStrings(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

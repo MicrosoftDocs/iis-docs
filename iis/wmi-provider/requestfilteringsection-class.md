@@ -1,15 +1,7 @@
 ---
-title: "RequestFilteringSection Class | Microsoft Docs"
-ms.custom: ""
+title: "RequestFilteringSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 73911071-57c6-2fc8-5e52-9f5cfd4595a8
-caps.latest.revision: 38
-author: "shirhatti"
-manager: "wpickett"
 ---
 # RequestFilteringSection Class
 Configures the scanning of incoming URL requests.  

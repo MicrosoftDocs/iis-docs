@@ -1,15 +1,7 @@
 ---
-title: "ExpressionBuilderSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "ExpressionBuilderSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 706dd237-4fa5-433c-8e21-5c929bdf1136
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ExpressionBuilderSettings Class
 Contains resource strings that associate prefixes with expression builder types during compilation.  
@@ -51,8 +43,8 @@ class ExpressionBuilderSettings: EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Compilation.ExpressionPrefixAttribute](/dotnet/api/system.web.compilation.expressionprefixattribute?view=netframework-4.7.2)  
- [System.Web.Configuration.CompilationSection.ExpressionBuilders](/dotnet/api/system.web.configuration.compilationsection.expressionbuilders?view=netframework-4.7.2)   
+ [System.Web.Compilation.ExpressionPrefixAttribute](/dotnet/api/system.web.compilation.expressionprefixattribute)  
+ [System.Web.Configuration.CompilationSection.ExpressionBuilders](/dotnet/api/system.web.configuration.compilationsection.expressionbuilders)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [ExpressionBuilder Class](../wmi-provider/expressionbuilder-class.md)

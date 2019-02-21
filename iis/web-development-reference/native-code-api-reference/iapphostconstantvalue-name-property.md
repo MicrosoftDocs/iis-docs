@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConstantValue::Name Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConstantValue::Name Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3549e8cc-f04c-4acd-8f3d-a938cd50083d
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConstantValue::Name Property
 Gets the name of the specified constant.  
@@ -22,7 +14,7 @@ Gets the name of the specified constant.
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrName`  
  Contains the name of the constant value.  
   

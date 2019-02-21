@@ -1,15 +1,7 @@
 ---
-title: "StaticContentSection Class | Microsoft Docs"
-ms.custom: ""
+title: "StaticContentSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0f53f631-c9e7-5eb6-5bc0-8516079ac610
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # StaticContentSection Class
 Exposes configuration settings for static content on a Web site.  

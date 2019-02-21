@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.FlushBuffers
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # FlushBuffers Method
@@ -35,7 +34,7 @@ Flushes audio and video buffers, retaining a specified amount of content if poss
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub FlushBuffers ( _
@@ -54,7 +53,7 @@ instance.FlushBuffers(bufferToKeep, flushAudio, _
     flushVideo)
 ```
 
-``` csharp
+```csharp
   public void FlushBuffers(
     TimeSpan bufferToKeep,
     bool flushAudio,
@@ -62,7 +61,7 @@ instance.FlushBuffers(bufferToKeep, flushAudio, _
 )
 ```
 
-``` c++
+```cpp
   public:
 void FlushBuffers(
     TimeSpan bufferToKeep, 
@@ -71,7 +70,7 @@ void FlushBuffers(
 )
 ```
 
-``` jscript
+```jscript
   public function FlushBuffers(
     bufferToKeep : TimeSpan, 
     flushAudio : boolean, 
@@ -79,41 +78,41 @@ void FlushBuffers(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - bufferToKeep  
-    Type: [System. . :: . .TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\))  
+    Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577)  
     An object that specifies how much of a buffer to retain.  
 
 <!-- end list -->
 
   - flushAudio  
-    Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
     true to flush the audio buffer; otherwise, false.  
 
 <!-- end list -->
 
   - flushVideo  
-    Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
     true to flush the video buffer; otherwise, false.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

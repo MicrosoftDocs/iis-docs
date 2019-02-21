@@ -1,15 +1,7 @@
 ---
-title: "CompilerSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "CompilerSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: eb08e62f-1a91-422d-265d-04fdcd47dac0
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CompilerSettings Class
 Contains compilers that are used for Web applications.  

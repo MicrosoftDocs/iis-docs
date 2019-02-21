@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElementSchema::PropertySchemas Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElementSchema::PropertySchemas Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 93560530-ef5b-4412-aad3-34ea563e7f73
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElementSchema::PropertySchemas Property
 Gets a collection of schemas for the [IAppHostProperty Interface](../../web-development-reference\native-code-api-reference/iapphostproperty-interface.md) objects contained in the corresponding [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) object.  
@@ -23,7 +15,7 @@ Gets a collection of schemas for the [IAppHostProperty Interface](../../web-deve
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppPropertySchemas`  
  Contains the collection of [IAppHostProperty Interface](../../web-development-reference\native-code-api-reference/iapphostproperty-interface.md) schema.  
   

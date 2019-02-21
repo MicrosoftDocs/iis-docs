@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobTemplate Constructor
@@ -34,7 +33,7 @@ Initializes a new instance of the [JobTemplate](jobtemplate-class-microsoft-web-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New
@@ -43,11 +42,11 @@ Initializes a new instance of the [JobTemplate](jobtemplate-class-microsoft-web-
 Dim instance As New JobTemplate()
 ```
 
-``` csharp
+```csharp
   public JobTemplate()
 ```
 
-``` c++
+```cpp
   public:
 JobTemplate()
 ```
@@ -56,13 +55,13 @@ JobTemplate()
   new : unit -> JobTemplate
 ```
 
-``` jscript
+```jscript
   public function JobTemplate()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobTemplate Class](jobtemplate-class-microsoft-web-media-transformmanager.md)
 

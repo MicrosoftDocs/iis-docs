@@ -1,15 +1,7 @@
 ---
-title: "FastCgiEnvironmentElement Class | Microsoft Docs"
-ms.custom: ""
+title: "FastCgiEnvironmentElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 29bb4657-10a8-4665-9390-f07818bab9da
-caps.latest.revision: 6
-author: "shirhatti"
-manager: "wpickett"
 ---
 # FastCgiEnvironmentElement Class
 Configures environment variables for the process executable program of an application pool.  

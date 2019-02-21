@@ -1,15 +1,7 @@
 ---
-title: "DeviceFilter Class | Microsoft Docs"
-ms.custom: ""
+title: "DeviceFilter Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 41743e11-7d57-c232-723f-e5ef3af7166f
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DeviceFilter Class
 Specifies criteria for determining mobile browser capabilities or the type of mobile device.  
@@ -103,7 +95,7 @@ class DeviceFilter : CollectionElement
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.SystemWebSectionGroup.DeviceFilters](/dotnet/api/system.web.configuration.systemwebsectiongroup.devicefilters?view=netframework-4.7.2)
+ [System.Web.Configuration.SystemWebSectionGroup.DeviceFilters](/dotnet/api/system.web.configuration.systemwebsectiongroup.devicefilters)
  [\<filter> Element](http://go.microsoft.com/fwlink/?LinkId=69324)   
  [Device-Specific Rendering](http://go.microsoft.com/fwlink/?LinkId=69323)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   

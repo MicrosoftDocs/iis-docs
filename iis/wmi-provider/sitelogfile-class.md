@@ -1,15 +1,7 @@
 ---
-title: "SiteLogFile Class1 | Microsoft Docs"
-ms.custom: ""
+title: "SiteLogFile Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 050e3616-7de7-3c97-187e-11d9fd4dc070
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SiteLogFile Class1
 Configures logging for a Web site.  

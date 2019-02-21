@@ -1,15 +1,7 @@
 ---
-title: "AccessSection Class | Microsoft Docs"
-ms.custom: ""
+title: "AccessSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8b902925-aeba-077a-a991-6bc9982a757a
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AccessSection Class
 Specifies access permissions to content protected by Secure Sockets Layer (SSL).  

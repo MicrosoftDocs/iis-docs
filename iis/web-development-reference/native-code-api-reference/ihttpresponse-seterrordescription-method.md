@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::SetErrorDescription Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::SetErrorDescription Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 65e5e9a2-0efc-4d11-af6b-c152d58d8b2b
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::SetErrorDescription Method
 Specifies the custom error description.  
@@ -24,7 +16,7 @@ virtual HRESULT SetErrorDescription(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszDescription`  
  [IN] A pointer to a string that contains the custom error description.  
   

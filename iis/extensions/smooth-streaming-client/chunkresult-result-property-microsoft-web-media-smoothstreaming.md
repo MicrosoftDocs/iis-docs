@@ -1,5 +1,5 @@
 ---
-title: ChunkResult.Result Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ChunkResult.Result Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Result Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkResult.Result
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkresult.result(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.Result
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.set_Result
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Result Property
@@ -39,7 +38,7 @@ Gets or sets the result of call to [BeginGetChunk](trackinfo-begingetchunk-metho
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Result As ChunkResult..::..ChunkResultState
@@ -51,11 +50,11 @@ Dim value As ChunkResult..::..ChunkResultState
 value = instance.Result
 ```
 
-``` csharp
+```csharp
   public ChunkResult..::..ChunkResultState Result { get; private set; }
 ```
 
-``` c++
+```cpp
   public:
 property ChunkResult..::..ChunkResultState Result {
     ChunkResult..::..ChunkResultState get ();
@@ -63,29 +62,29 @@ property ChunkResult..::..ChunkResultState Result {
 }
 ```
 
-``` jscript
+```jscript
   function get Result () : ChunkResult..::..ChunkResultState
 private function set Result (value : ChunkResult..::..ChunkResultState)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .ChunkResult. . :: . .ChunkResultState](chunkresult-chunkresultstate-enumeration-microsoft-web-media-smoothstreaming_1.md)  
+Type: [Microsoft.Web.Media.SmoothStreaming.ChunkResult.ChunkResultState](chunkresult-chunkresultstate-enumeration-microsoft-web-media-smoothstreaming_1.md)  
 A [ChunkResult..::..ChunkResultState](chunkresult-chunkresultstate-enumeration-microsoft-web-media-smoothstreaming_1.md) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkResult Class](chunkresult-class-microsoft-web-media-smoothstreaming_1.md)
 

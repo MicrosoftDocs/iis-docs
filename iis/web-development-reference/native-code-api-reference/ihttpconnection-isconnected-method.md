@@ -1,15 +1,7 @@
 ---
-title: "IHttpConnection::IsConnected Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpConnection::IsConnected Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a2b6d5e7-48d7-2eba-6fe3-1fec9586b846
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpConnection::IsConnected Method
 Determines whether a Web client is still connected to the current request.  
@@ -22,7 +14,7 @@ virtual BOOL IsConnected(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

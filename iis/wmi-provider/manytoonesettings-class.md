@@ -1,15 +1,7 @@
 ---
-title: "ManyToOneSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "ManyToOneSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3e491109-fc59-41cd-b25f-0f5eddca04cc
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ManyToOneSettings Class
 Specifies many-to-one client certificate mappings.  

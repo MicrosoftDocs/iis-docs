@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.SchedulerCpuDisplayUnit Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.SchedulerCpuDisplayUnit Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerCpuDisplayUnit Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpuDisplayUnit
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.schedulercpudisplayunit(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_SchedulerCpuDisplayUnit
 - Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerCpuDisplayUnit
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerCpuDisplayUnit Property
@@ -40,7 +39,7 @@ Gets or sets an HPC CPU unit value.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property SchedulerCpuDisplayUnit As String
@@ -56,12 +55,12 @@ value = instance.SchedulerCpuDisplayUnit
 instance.SchedulerCpuDisplayUnit = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string SchedulerCpuDisplayUnit { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ SchedulerCpuDisplayUnit {
@@ -75,14 +74,14 @@ property String^ SchedulerCpuDisplayUnit {
 member SchedulerCpuDisplayUnit : string with get, set
 ```
 
-``` jscript
+```jscript
   function get SchedulerCpuDisplayUnit () : String
 function set SchedulerCpuDisplayUnit (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 An HPC CPU unit value.  
 
 ## Remarks
@@ -91,7 +90,7 @@ Possible CPU units in HPC are "cores", "nodes", and "sockets".
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

@@ -1,5 +1,5 @@
 ---
-title: TraceEntry.ClassName Property  (Microsoft.Web.Media.Diagnostics)
+title: TraceEntry.ClassName Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: ClassName Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.ClassName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.traceentry.classname(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.get_ClassName
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_ClassName
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClassName Property
@@ -39,7 +38,7 @@ Gets or sets the ClassName property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property ClassName As String
@@ -53,11 +52,11 @@ value = instance.ClassName
 instance.ClassName = value
 ```
 
-``` csharp
+```csharp
   public string ClassName { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ ClassName {
     String^ get ();
@@ -65,33 +64,33 @@ property String^ ClassName {
 }
 ```
 
-``` jscript
+```jscript
   function get ClassName () : String
 function set ClassName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A string value that specifies the class name of the method that invoked the trace.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TraceEntry Class](traceentry-class-microsoft-web-media-diagnostics_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpCompletionInfo2 Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCompletionInfo2 Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a3fea223-0675-42cf-a11c-6664b463ea9c
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCompletionInfo2 Interface
 Provides an interface to get the number of bytes completed by an asynchronous operation.  

@@ -1,5 +1,5 @@
 ---
-title: AdvancedLoggingPlugin.ManifestLogUrls Property  (Microsoft.Web.Media.Diagnostics)
+title: AdvancedLoggingPlugin.ManifestLogUrls Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: ManifestLogUrls Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.ManifestLogUrls
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.advancedloggingplugin.manifestlogurls(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.get_ManifestLogUrls
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.ManifestLogUrls
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # AdvancedLoggingPlugin.ManifestLogUrls Property
@@ -38,7 +37,7 @@ Gets the ManifestLogUrls.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property ManifestLogUrls As IList(Of String)
@@ -51,11 +50,11 @@ Dim value As IList(Of String)
 value = instance.ManifestLogUrls
 ```
 
-``` csharp
+```csharp
 public IList<string> ManifestLogUrls { get; }
 ```
 
-``` c++
+```cpp
 public:
 property IList<String^>^ ManifestLogUrls {
     IList<String^>^ get ();
@@ -66,13 +65,13 @@ property IList<String^>^ ManifestLogUrls {
 member ManifestLogUrls : IList<string>
 ```
 
-``` jscript
+```jscript
 function get ManifestLogUrls () : IList<String>
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.95\))\<[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))\>  
+Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6\(v=vs.95\))\<[String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))\>  
 A generic IList of type string.
 
 ## Remarks
@@ -81,17 +80,17 @@ The manifest can specify a list of URLs to which advanced logs will be posted, w
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [AdvancedLoggingPlugin Class](advancedloggingplugin-class-microsoft-web-media-diagnostics_1.md)
 

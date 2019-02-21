@@ -1,15 +1,7 @@
 ---
-title: "XhtmlConformanceSection Class | Microsoft Docs"
-ms.custom: ""
+title: "XhtmlConformanceSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 05f20508-da93-46f6-3d93-a08cf6aa7b92
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # XhtmlConformanceSection Class
 Specifies the XHTML rendering mode for [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] applications.  

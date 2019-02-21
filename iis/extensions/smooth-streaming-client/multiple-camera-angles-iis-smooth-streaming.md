@@ -149,7 +149,7 @@ The following example shows how to sort [TrackInfo](trackinfo-class-microsoft-we
 
 The third foreach loop in the following code sorts the [AvailableTracks](streaminfo-availabletracks-property-microsoft-web-media-smoothstreaming_1.md) collection based on the custom attribute identified by track.CustomAttributes\["CameraAngle"\]. Finally, after the camera angles are sorted into lists, the code segment selects the tracks for camera1 by calling [SelectTracks(IList\<(Of \<\<'(TrackInfo\>)\>\>), Boolean)](streaminfo-selecttracks-method-microsoft-web-media-smoothstreaming_1.md).
 
-``` csharp
+```csharp
 List<List<TrackInfo>> _cameraAngles = new List<List<TrackInfo>>();
 
 foreach (SegmentInfo segment in SmoothPlayer.ManifestInfo.Segments)
@@ -224,7 +224,7 @@ foreach (SegmentInfo segment in SmoothPlayer.ManifestInfo.Segments)
 
 To let users change camera angles while the application is displaying video, you typically include UI such as a button and a corresponding event handler, as shown in the following example. The code uses the same loops as those shown in the previous section, but in the switch statement that checks for the CameraAngle attribute, the code adds a track to the cameraTracks list only if the CameraAngle custom attribute matches an integer variable (newCameraAngle) that identifies a single track. Each time the click event occurs, the handler increments the newCameraAngle value by 1, so the user can repeatedly click the button to cycle through the camera angles.
 
-``` csharp
+```csharp
     private void CameraAngleButton_Click(object sender, RoutedEventArgs e)
     {
         List<TrackInfo> cameraTracks = new List<TrackInfo>();
@@ -287,7 +287,7 @@ To let users change camera angles while the application is displaying video, you
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Select and Monitor Bit Rate (IIS Smooth Streaming)](select-and-monitor-bitrate.md)
 

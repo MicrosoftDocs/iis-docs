@@ -1,5 +1,5 @@
 ---
-title: JobManifest.FullFileName Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.FullFileName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: FullFileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.FullFileName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.fullfilename(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_FullFileName
 - Microsoft.Web.Media.TransformManager.JobManifest.FullFileName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # FullFileName Property
@@ -38,7 +37,7 @@ Gets the folder name and file name of the manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property FullFileName As String
@@ -51,11 +50,11 @@ Dim value As String
 value = instance.FullFileName
 ```
 
-``` csharp
+```csharp
   public string FullFileName { get; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ FullFileName {
     String^ get ();
@@ -66,18 +65,18 @@ property String^ FullFileName {
   member FullFileName : string
 ```
 
-``` jscript
+```jscript
   function get FullFileName () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The folder name and the file name of the manifest.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

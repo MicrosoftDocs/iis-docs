@@ -1,5 +1,5 @@
 ---
-title: Credential.DomainUserName Property  (Microsoft.Web.Media.TransformManager)
+title: Credential.DomainUserName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: DomainUserName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.DomainUserName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.credential.domainusername(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.Credential.get_DomainUserName
 - Microsoft.Web.Media.TransformManager.Credential.set_DomainUserName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DomainUserName Property
@@ -40,7 +39,7 @@ Gets or sets the credential domain that uses the credential user name.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property DomainUserName As String
@@ -56,12 +55,12 @@ value = instance.DomainUserName
 instance.DomainUserName = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string DomainUserName { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ DomainUserName {
@@ -75,19 +74,19 @@ property String^ DomainUserName {
 member DomainUserName : string with get, set
 ```
 
-``` jscript
+```jscript
   function get DomainUserName () : String
 function set DomainUserName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The credential domain that uses the credential user name.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Credential Class](credential-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::DisableBuffering Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::DisableBuffering Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 20bd4ed1-77a9-edd0-dae9-0cc77a1876ec
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::DisableBuffering Method
 Disables response buffering for the current request.  
@@ -22,7 +14,7 @@ virtual VOID DisableBuffering(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext3::InheritServerVariable Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext3::InheritServerVariable Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 53aec6b2-0ca9-4bc9-96bb-fd2a13a066ae
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext3::InheritServerVariable Method
 Causes the request to inherit the specified server variable.  
@@ -23,7 +15,7 @@ virtual HRESULT InheritServerVariable(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `szName`  
  [IN] Name of the server variable to inherit.  
   

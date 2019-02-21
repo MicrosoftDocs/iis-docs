@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestProperty Constructor (String, String, String, Boolean)
@@ -34,7 +33,7 @@ Initializes a new instance of the [ManifestProperty](manifestproperty-class-micr
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -54,7 +53,7 @@ Dim instance As New ManifestProperty(ns, name, _
     value, required)
 ```
 
-``` csharp
+```csharp
   public ManifestProperty(
     string ns,
     string name,
@@ -63,7 +62,7 @@ Dim instance As New ManifestProperty(ns, name, _
 )
 ```
 
-``` c++
+```cpp
   public:
 ManifestProperty(
     String^ ns, 
@@ -81,7 +80,7 @@ ManifestProperty(
         required:bool -> ManifestProperty
 ```
 
-``` jscript
+```jscript
   public function ManifestProperty(
     ns : String, 
     name : String, 
@@ -90,33 +89,33 @@ ManifestProperty(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - ns  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The namespace of the manifest property.  
 
 <!-- end list -->
 
   - name  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The name of the manifest property.  
 
 <!-- end list -->
 
   - value  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The value of the manifest property.  
 
 <!-- end list -->
 
   - required  
-    Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
     true to specify that the manifest property is required; otherwise, false.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

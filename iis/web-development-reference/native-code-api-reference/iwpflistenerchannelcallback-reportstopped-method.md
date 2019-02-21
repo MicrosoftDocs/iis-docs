@@ -1,15 +1,7 @@
 ---
-title: "IWpfListenerChannelCallback::ReportStopped Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfListenerChannelCallback::ReportStopped Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2f6912a9-9207-1a0f-1f00-6e3b44b810ed
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfListenerChannelCallback::ReportStopped Method
 Notifies the worker process framework that a listener channel has shut down.  
@@ -22,7 +14,7 @@ virtual HRESULT ReportStopped(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `hr`  
  The `HRESULT` that reports the status of the listener channel. For example, `hr` might contain the `HRESULT` error when a listener channel fails to stop.  
   

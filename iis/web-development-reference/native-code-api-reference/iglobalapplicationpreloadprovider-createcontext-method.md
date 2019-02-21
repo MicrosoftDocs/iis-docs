@@ -1,15 +1,7 @@
 ---
-title: "IGlobalApplicationPreloadProvider::CreateContext Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalApplicationPreloadProvider::CreateContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0e916878-ab72-427c-9518-9f34cd2e81a6
-caps.latest.revision: 6
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalApplicationPreloadProvider::CreateContext Method
 Creates an HTTP context and returns a pointer to the context object.  
@@ -22,7 +14,7 @@ Virtual HRESULT CreateContext(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppHttpContext`  
  [OUT] A pointer to the newly created context object that encapsulates all HTTP-specific information about an individual HTTP request.  
   

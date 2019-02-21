@@ -19,13 +19,13 @@ The smil element is the root container used by SMIL 2.0.
 
 The following sections describe attributes, child elements, and parent elements.
 
-#### Attributes
+### Attributes
 
 |Attribute|Description|
 |--- |--- |
 |xmlns|Specifies the value of the XML namespace used by the presentation. The value must be <a href="http://www.w3.org/2001/smil20/language">http://www.w3.org/2001/SMIL20/Language</a>. Instead of the default namespace, a named namespace may be used, in which case all the tags described below must have the namespace prefix that maps to this XML namespace. This attribute is required.|
 
-#### Child Elements
+### Child Elements
 
 |Element|Description|
 |--- |--- |
@@ -33,7 +33,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**body**|The body element is a container for track information and references to other media.|
 
 
-#### Parent Elements
+### Parent Elements
 
 None
 
@@ -102,13 +102,13 @@ The following is an example of an On-Demand Server Manifest.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - head Element](iis-smooth-streaming-server-manifest-on-demand-head-element.md)
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - body Element](iis-smooth-streaming-server-manifest-on-demand-body-element.md)
 
-#### Concepts
+### Concepts
 
 [IIS Smooth Streaming Server Manifest (On-Demand)](iis-smooth-streaming-server-manifest-on-demand.md)
 

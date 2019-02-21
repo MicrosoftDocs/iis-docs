@@ -1,15 +1,7 @@
 ---
-title: "IAppHostChangeHandler::OnSectionChanges Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostChangeHandler::OnSectionChanges Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d6185b17-fabc-49bc-8cb0-c79195aae3c6
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostChangeHandler::OnSectionChanges Method
 Notifies listeners when a section has changed in a physical file of the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration. All callers must implement the listener.  
@@ -25,7 +17,7 @@ HRESULT OnSectionChanges(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrSectionName`  
  A `BSTR` that contains the configuration section that changed.  
   

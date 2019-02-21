@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDefinition Constructor (FileInfo, XElement)
@@ -34,7 +33,7 @@ Initializes a new instance of the [JobDefinition](jobdefinition-class-microsoft-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -50,14 +49,14 @@ Dim instance As New JobDefinition(fileInfo, _
     jobDefinitionElement)
 ```
 
-``` csharp
+```csharp
   public JobDefinition(
     FileInfo fileInfo,
     XElement jobDefinitionElement
 )
 ```
 
-``` c++
+```cpp
   public:
 JobDefinition(
     FileInfo^ fileInfo, 
@@ -71,35 +70,35 @@ JobDefinition(
         jobDefinitionElement:XElement -> JobDefinition
 ```
 
-``` jscript
+```jscript
   public function JobDefinition(
     fileInfo : FileInfo, 
     jobDefinitionElement : XElement
 )
 ```
 
-#### Parameters
+### Parameters
 
   - fileInfo  
-    Type: [System.IO. . :: . .FileInfo](https://msdn.microsoft.com/en-us/library/akth6b1k\(v=vs.90\))  
+    Type: [System.IO.FileInfo](https://msdn.microsoft.com/library/akth6b1k)  
     An object that provides properties and instance methods for creating, copying, deleting, moving, and opening files.  
 
 <!-- end list -->
 
   - jobDefinitionElement  
-    Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+    Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
     An XML object that represents the [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) object.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[ArgumentNullException](https://msdn.microsoft.com/en-us/library/27426hcy(v=vs.90))|jobDefinitionElement is equivalent to null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
+|[ArgumentNullException](https://msdn.microsoft.com/library/27426hcy)|jobDefinitionElement is equivalent to null Nothing nullptr unit a null reference (Nothing in Visual Basic) .|
 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.IDbViewManager
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbViewManager Interface
@@ -35,22 +34,22 @@ Represents a view manager interface within a database provider.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Interface IDbViewManager
 'Usage
 Dim instance As IDbViewManager
 ```
 
-``` csharp
+```csharp
 public interface IDbViewManager
 ```
 
-``` c++
+```cpp
 public interface class IDbViewManager
 ```
 
-``` jscript
+```jscript
 public interface IDbViewManager
 ```
 
@@ -65,15 +64,13 @@ The IDbViewManager type exposes the following members.
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[EditView](idbviewmanager-editview-method-microsoft-web-management-databasemanager.md)|Modifies the definition of a view in the database.|
 |![Public method](images/Dd566041.pubmethod(en-us,VS.90).gif "Public method")|[GetViews](idbviewmanager-getviews-method-microsoft-web-management-databasemanager.md)|Retrieves a list of views in a database.|
 
-Top
-
 ## Remarks
 
 In order to manage views, you need to implement IDbViewManager on the class that you derived from [DatabaseProvider](databaseprovider-class-microsoft-web-management-databasemanager.md). This interface allows to create, modify, and delete views.
 
 ### 
 
-#### Notes for Implementers
+### Notes for Implementers
 
 If your provider implements the IDbViewManager interface, your provider must also implement all of the following members:
 
@@ -87,7 +84,7 @@ If your provider implements the IDbViewManager interface, your provider must als
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
 

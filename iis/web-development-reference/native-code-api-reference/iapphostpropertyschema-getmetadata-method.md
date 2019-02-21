@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::GetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::GetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4a41b196-e0ba-55e4-40d7-d7f0ad028418
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::GetMetadata Method
 Gets metadata values from the schema.  
@@ -25,7 +17,7 @@ HRESULT GetMetadata(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being requested.  
   

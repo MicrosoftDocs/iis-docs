@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,19 +22,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse Constructor (Stream)
 
-Initializes a new instance of the [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) class from a [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\)) object.
+Initializes a new instance of the [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) class from a [Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\)) object.
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
 **Assembly:**  Microsoft.Web.Media.SmoothStreaming (in Microsoft.Web.Media.SmoothStreaming.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -47,13 +46,13 @@ Dim stream As Stream
 Dim instance As New CacheResponse(stream)
 ```
 
-``` csharp
+```csharp
 public CacheResponse(
     Stream stream
 )
 ```
 
-``` c++
+```cpp
 public:
 CacheResponse(
     Stream^ stream
@@ -65,27 +64,27 @@ new :
         stream:Stream -> CacheResponse
 ```
 
-``` jscript
+```jscript
 public function CacheResponse(
     stream : Stream
 )
 ```
 
-#### Parameters
+### Parameters
 
   - stream  
-    Type: [System.IO.Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\))  
-    A [Stream](https://msdn.microsoft.com/en-us/library/8f86tw9e\(v=vs.95\)) object.
+    Type: [System.IO.Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\))  
+    A [Stream](https://msdn.microsoft.com/library/8f86tw9e\(v=vs.95\)) object.
 
 ## Version Information
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CacheResponse Class](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)
 

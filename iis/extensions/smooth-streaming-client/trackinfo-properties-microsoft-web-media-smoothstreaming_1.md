@@ -10,12 +10,6 @@ mtps_version: v=VS.95
 
 # TrackInfo Properties
 
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
-
 The [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) type exposes the following members.
 
 ## Properties
@@ -29,11 +23,9 @@ The [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) type e
 |![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Stream](trackinfo-stream-property-microsoft-web-media-smoothstreaming_1.md)|Gets the stream for this track.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

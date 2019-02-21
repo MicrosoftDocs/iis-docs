@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMappingExtension Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMappingExtension Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5ed0d0dd-8dfb-df88-a7a8-c0ec0e805f2c
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMappingExtension Interface
 Extends the configuration system mapping functionality.  

@@ -1,5 +1,5 @@
 ---
-title: ConfigurationBase.NameElement Property  (Microsoft.Web.Media.TransformManager)
+title: ConfigurationBase.NameElement Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: NameElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.NameElement
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.nameelement(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.get_NameElement
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.NameElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # NameElement Property
@@ -40,7 +39,7 @@ Gets or sets an XML element that contains name details.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property NameElement As XElement
@@ -56,11 +55,11 @@ value = instance.NameElement
 instance.NameElement = value
 ```
 
-``` csharp
+```csharp
   public XElement NameElement { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property XElement^ NameElement {
     XElement^ get ();
@@ -72,19 +71,19 @@ property XElement^ NameElement {
   member NameElement : XElement with get, set
 ```
 
-``` jscript
+```jscript
   function get NameElement () : XElement
 function set NameElement (value : XElement)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 The XML element that contains name details.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "Worker Process Framework API Reference | Microsoft Docs"
-ms.custom: ""
+title: "Worker Process Framework API Reference"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bdc04c8e-4d52-40f2-b9ab-0935ce372bf7
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Worker Process Framework API Reference
 The worker process framework allows protocol managers to retrieve configuration information about a worker process, and it allows worker processes to retrieve the listener-related health information from a protocol manager. The worker process framework is a set of protocol-independent interfaces that enable worker processes and protocol managers to exchange data with other protocol managers. Protocol managers are responsible for starting and stopping listener channels for a protocol and for gathering health-related information.  

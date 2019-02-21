@@ -1,5 +1,5 @@
 ---
-title: JobManifest.FileName Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.FileName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: FileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.FileName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.filename(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.FileName
 - Microsoft.Web.Media.TransformManager.JobManifest.get_FileName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # FileName Property
@@ -40,7 +39,7 @@ Gets or sets the file name of the manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property FileName As String
@@ -56,11 +55,11 @@ value = instance.FileName
 instance.FileName = value
 ```
 
-``` csharp
+```csharp
   public string FileName { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ FileName {
     String^ get ();
@@ -72,19 +71,19 @@ property String^ FileName {
   member FileName : string with get, set
 ```
 
-``` jscript
+```jscript
   function get FileName () : String
 function set FileName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The file name of the manifest.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

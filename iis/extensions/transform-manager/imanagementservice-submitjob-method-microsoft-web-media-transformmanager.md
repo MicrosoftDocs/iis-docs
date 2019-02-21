@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService.SubmitJob
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SubmitJob Method
@@ -36,7 +35,7 @@ Submits a job to the IIS Transform Manager service.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Sub SubmitJob ( _
@@ -55,7 +54,7 @@ instance.SubmitJob(jobDefinitionId, instanceFileName, _
     smilManifest)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 void SubmitJob(
     string jobDefinitionId,
@@ -64,7 +63,7 @@ void SubmitJob(
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 void SubmitJob(
     String^ jobDefinitionId, 
@@ -81,7 +80,7 @@ abstract SubmitJob :
         smilManifest:XElement -> unit 
 ```
 
-``` jscript
+```jscript
   function SubmitJob(
     jobDefinitionId : String, 
     instanceFileName : String, 
@@ -89,34 +88,34 @@ abstract SubmitJob :
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobDefinitionId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job definition to submit.  
 
 <!-- end list -->
 
   - instanceFileName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The SMIL 2.0 manifest file name.  
 
 <!-- end list -->
 
   - smilManifest  
-    Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+    Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
     A SMIL 2.0-compliant manifest that specifies the files and parameters for a job.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[IOException](https://msdn.microsoft.com/en-us/library/hccy4eyd(v=vs.90))|The file already exists.|
+|[IOException](https://msdn.microsoft.com/library/hccy4eyd)|The file already exists.|
 
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "WPF_SETTINGS_STRING_ENUM Enumeration | Microsoft Docs"
-ms.custom: ""
+title: "WPF_SETTINGS_STRING_ENUM Enumeration"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a062423c-b707-a3ed-2db0-930c4a752cef
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WPF_SETTINGS_STRING_ENUM Enumeration
 Defines the `string` values that the [IWpfSettings::GetStringProperty](../../web-development-reference\native-code-api-reference/iwpfsettings-getstringproperty-method.md) method returns.  

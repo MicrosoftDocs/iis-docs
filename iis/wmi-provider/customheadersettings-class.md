@@ -1,15 +1,7 @@
 ---
-title: "CustomHeaderSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "CustomHeaderSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 019fe3ea-ba55-4ef7-94cf-bcd64f98261b
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CustomHeaderSettings Class
 Contains name/value pairs that are added to the HTTP headers in responses from the Web server.  

@@ -9,9 +9,9 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
@@ -26,7 +26,7 @@ Smooth Streaming extensions in IIS Media Services enable adaptive streaming of m
 ||Class|Description|
 |--- |--- |--- |
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md)|The object describing the request being made.|
-|![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[CacheRequest2](cacherequest2-class-microsoft-web-media-smoothstreaming.md)|Provides an extension of the [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) class that enables creation of a CacheRequest object based on a specified stream or a specified [HttpWebRequest](https://msdn.microsoft.com/en-us/library/8y7x3zz2(v=vs.95)) object and list of selectable tracks.|
+|![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[CacheRequest2](cacherequest2-class-microsoft-web-media-smoothstreaming.md)|Provides an extension of the [CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md) class that enables creation of a CacheRequest object based on a specified stream or a specified [HttpWebRequest](https://msdn.microsoft.com/library/8y7x3zz2(v=vs.95)) object and list of selectable tracks.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md)|The object describing the response from the cache.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[CacheResponse2](cacheresponse2-class-microsoft-web-media-smoothstreaming.md)|Provides an extension of the [CacheResponse](cacheresponse-class-microsoft-web-media-smoothstreaming_1.md) class that enables creation of a CacheResponse object that is based on a specified stream or is fully finalized and ready for use.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[ChunkDownloadedEventArgs](chunkdownloadedeventargs-class-microsoft-web-media-smoothstreaming.md)|Provides arguments for the [ChunkDownloadFailed](smoothstreamingmediaelement-chunkdownloadfailed-event-microsoft-web-media-smoothstreaming.md) event for non-text chunks in main content.|
@@ -42,10 +42,10 @@ Smooth Streaming extensions in IIS Media Services enable adaptive streaming of m
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SeekCompletedEventArgs](seekcompletedeventargs-class-microsoft-web-media-smoothstreaming_1.md)|Class used to pass event argument information when a seek event completes.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SegmentInfo](segmentinfo-class-microsoft-web-media-smoothstreaming_1.md)|Defines the information that must be exposed by any manifest parser. This class corresponds to the Clip element in the composite manifest. You can extend the class with private data if a custom parser needs more information.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SetPlaybackRangeCompletedEventArgs](setplaybackrangecompletedeventargs-class-microsoft-web-media-smoothstreaming.md)|Represents event arguments for the completion of a SetPlaybackRangeAysnc operation.|
-|![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SmoothStreamingAsyncResult](smoothstreamingasyncresult-class-microsoft-web-media-smoothstreaming.md)|Provides an implementation of the [IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455(v=vs.95)) interface for the [EndGetChunk(IAsyncResult)](trackinfo-endgetchunk-method-microsoft-web-media-smoothstreaming_1.md) method.|
+|![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SmoothStreamingAsyncResult](smoothstreamingasyncresult-class-microsoft-web-media-smoothstreaming.md)|Provides an implementation of the [IAsyncResult](https://msdn.microsoft.com/library/ft8a6455(v=vs.95)) interface for the [EndGetChunk(IAsyncResult)](trackinfo-endgetchunk-method-microsoft-web-media-smoothstreaming_1.md) method.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SmoothStreamingErrorEventArgs](smoothstreamingerroreventargs-class-microsoft-web-media-smoothstreaming_1.md)|Class to pass error event information about a Smooth Streaming operation.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SmoothStreamingException](smoothstreamingexception-class-microsoft-web-media-smoothstreaming_1.md)|Class to contain Smooth Streaming exception information.|
-|![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)|Represents a media player that provides [MediaElement](https://msdn.microsoft.com/en-us/library/ms611595(v=vs.95)) capabilities and advertising integration. The class is designed to support Smooth Streaming.|
+|![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)|Represents a media player that provides [MediaElement](https://msdn.microsoft.com/library/ms611595(v=vs.95)) capabilities and advertising integration. The class is designed to support Smooth Streaming.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SSMEDrmSetupDecryptorCompletedEventArgs](ssmedrmsetupdecryptorcompletedeventargs-class-microsoft-web-media-smoothstreaming.md)|Represents event arguments for a [DrmSetupDecryptorCompleted](smoothstreamingmediaelement-drmsetupdecryptorcompleted-event-microsoft-web-media-smoothstreaming.md) event.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[SSMELogReadyRoutedEventArgs](ssmelogreadyroutedeventargs-class-microsoft-web-media-smoothstreaming_1.md)|Provides data for the [LogReady](smoothstreamingmediaelement-logready-event-microsoft-web-media-smoothstreaming_1.md) event.|
 |![Public class](images/Ee532677.pubclass(en-us,VS.90).gif "Public class")|[StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)|Defines the basic information for each stream. This class corresponds to the StreamIndex element of the client manifest. You can extend the class to add private data per stream.|

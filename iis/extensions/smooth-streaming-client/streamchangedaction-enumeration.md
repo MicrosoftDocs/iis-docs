@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Represents the Stream changed action enumeration.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 public enum StreamChangedAction
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 public enum class StreamChangedAction
 ```
 
-``` jscript
+```jscript
 public enum StreamChangedAction
 ```
 

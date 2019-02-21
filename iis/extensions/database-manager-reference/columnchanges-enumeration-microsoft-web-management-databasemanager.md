@@ -20,10 +20,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.ColumnChanges.IsIdentity
 - Microsoft.Web.Management.DatabaseManager.ColumnChanges
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -45,21 +45,20 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ColumnChanges Enumeration
 
 Defines the values for pending column changes.
 
-This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/en-us/library/dk06fkbc\(v=vs.90\)) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
 
 **Namespace:**  [Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)  
 **Assembly:**  Microsoft.Web.Management.DatabaseManager (in Microsoft.Web.Management.DatabaseManager.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <FlagsAttribute> _
 Public Enumeration ColumnChanges
@@ -67,17 +66,17 @@ Public Enumeration ColumnChanges
 Dim instance As ColumnChanges
 ```
 
-``` csharp
+```csharp
 [FlagsAttribute]
 public enum ColumnChanges
 ```
 
-``` c++
+```cpp
 [FlagsAttribute]
 public enum class ColumnChanges
 ```
 
-``` jscript
+```jscript
 public enum ColumnChanges
 ```
 
@@ -110,7 +109,7 @@ The following code sample implements the [EditTable](idbtablemanager-edittable-m
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     Public Sub EditTable( _
             ByVal connectionString As String, _
@@ -585,7 +584,7 @@ The following code sample implements the [EditTable](idbtablemanager-edittable-m
 
 ```
 
-``` csharp
+```csharp
 
 // Modify a table in the database.
 public void EditTable(
@@ -1283,7 +1282,7 @@ private void AddForeignKeys(
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Management.DatabaseManager Namespace](microsoft-web-management-databasemanager-namespace.md)
 

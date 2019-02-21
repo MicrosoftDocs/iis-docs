@@ -1,15 +1,7 @@
 ---
-title: "HttpTracingSection Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpTracingSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 038d500a-3026-be97-4539-205311ac53c3
-caps.latest.revision: 26
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpTracingSection Class
 Represents an HTTP tracing configuration section.  

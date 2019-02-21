@@ -1,15 +1,7 @@
 ---
-title: "ICacheProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "ICacheProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ab6b60bf-88e1-51e1-7c34-e28000868c6a
-caps.latest.revision: 37
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ICacheProvider Interface
 Extends the [IHttpEventProvider](../../web-development-reference\native-code-api-reference/ihttpeventprovider-interface.md) interface by adding support for retrieving cache information from a cache provider.  

@@ -1,15 +1,7 @@
 ---
-title: "IUriKey::GetSiteName Method | Microsoft Docs"
-ms.custom: ""
+title: "IUriKey::GetSiteName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c2e5a65e-b0c5-e25c-411b-5e742e1ea77c
-caps.latest.revision: 33
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IUriKey::GetSiteName Method
 Returns the site name associated with the Uniform Resource Identifier (URI) data.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetSiteName(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRate
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.SetPlaybackRate Method
@@ -36,7 +35,7 @@ Sets the playback rate of media stream.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub SetPlaybackRate ( _
@@ -50,13 +49,13 @@ Dim playbackRate As Double
 instance.SetPlaybackRate(playbackRate)
 ```
 
-``` csharp
+```csharp
 public void SetPlaybackRate(
     double playbackRate
 )
 ```
 
-``` c++
+```cpp
 public:
 void SetPlaybackRate(
     double playbackRate
@@ -68,16 +67,16 @@ member SetPlaybackRate :
         playbackRate:float -> unit 
 ```
 
-``` jscript
+```jscript
 public function SetPlaybackRate(
     playbackRate : double
 )
 ```
 
-#### Parameters
+### Parameters
 
   - playbackRate  
-    Type: [System.Double](https://msdn.microsoft.com/en-us/library/643eft0t\(v=vs.95\))  
+    Type: [System.Double](https://msdn.microsoft.com/library/643eft0t\(v=vs.95\))  
     The playback rate.
 
 ## Remarks
@@ -107,17 +106,17 @@ The following example shows how to call the SetPlaybackRate method using a value
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

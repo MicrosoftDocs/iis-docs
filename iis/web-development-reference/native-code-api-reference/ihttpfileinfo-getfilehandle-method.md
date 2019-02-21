@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo::GetFileHandle Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo::GetFileHandle Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ff010463-a9a9-4e7f-5fcd-367e09aeb1cf
-caps.latest.revision: 30
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo::GetFileHandle Method
 Returns the file handle for the corresponding file.  
@@ -22,7 +14,7 @@ virtual HANDLE GetFileHandle(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

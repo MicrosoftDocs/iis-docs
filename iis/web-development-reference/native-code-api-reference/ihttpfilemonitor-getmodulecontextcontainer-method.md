@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileMonitor::GetModuleContextContainer Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileMonitor::GetModuleContextContainer Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1106992e-ff65-d57e-683b-fadf9844efbd
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileMonitor::GetModuleContextContainer Method
 Retrieves the module context container for a file monitor interface.  
@@ -22,7 +14,7 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

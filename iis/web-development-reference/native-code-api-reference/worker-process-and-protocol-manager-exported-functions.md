@@ -1,15 +1,7 @@
 ---
-title: "Worker Process and Protocol Manager Exported Functions | Microsoft Docs"
-ms.custom: ""
+title: "Worker Process and Protocol Manager Exported Functions"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5be47a79-5e0d-47b4-9d3c-36a9b7b04c07
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Worker Process and Protocol Manager Exported Functions
 This section describes the exported functions that the worker process framework exposes. These functions are defined in the Wpframework.h header file.  

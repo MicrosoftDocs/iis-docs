@@ -1,5 +1,5 @@
 ---
-title: IisNamespaces.Rdf Property  (Microsoft.Web.Media.TransformManager)
+title: IisNamespaces.Rdf Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Rdf Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.Rdf
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.iisnamespaces.rdf(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.Rdf
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_Rdf
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Rdf Property
@@ -38,7 +37,7 @@ Gets the URI of a specific XML namespace related to Resource Description Framewo
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared ReadOnly Property Rdf As XNamespace
@@ -50,11 +49,11 @@ Gets the URI of a specific XML namespace related to Resource Description Framewo
 value = IisNamespaces.Rdf
 ```
 
-``` csharp
+```csharp
   public static XNamespace Rdf { get; }
 ```
 
-``` c++
+```cpp
   public:
 static property XNamespace^ Rdf {
     XNamespace^ get ();
@@ -65,18 +64,18 @@ static property XNamespace^ Rdf {
   static member Rdf : XNamespace
 ```
 
-``` jscript
+```jscript
   static function get Rdf () : XNamespace
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XNamespace](https://msdn.microsoft.com/en-us/library/bb291898\(v=vs.90\))  
+Type: [System.Xml.Linq.XNamespace](https://msdn.microsoft.com/library/bb291898)  
 The XML namespace value "http://www.w3.org/1999/02/22-rdf-syntax-ns\#".  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IisNamespaces Class](iisnamespaces-class-microsoft-web-media-transformmanager.md)
 

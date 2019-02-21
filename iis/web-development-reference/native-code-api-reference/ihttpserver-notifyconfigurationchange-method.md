@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::NotifyConfigurationChange Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::NotifyConfigurationChange Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: da798d70-df91-5214-1c4f-845d79ece45f
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::NotifyConfigurationChange Method
 Triggers a notification that a configuration path has changed.  
@@ -22,7 +14,7 @@ virtual VOID NotifyConfigurationChange(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszPath`  
  A pointer to a string that contains the configuration path.  
   

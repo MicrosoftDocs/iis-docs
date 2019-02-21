@@ -1,15 +1,7 @@
 ---
-title: "IAppHostCollectionSchema::ClearElementSchema Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostCollectionSchema::ClearElementSchema Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 26ff0624-64ae-f45e-8ec1-39104ee5deb4
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostCollectionSchema::ClearElementSchema Property
 Gets the schema for the element that will be used to clear all items from the collection.  
@@ -23,7 +15,7 @@ HRESULT get_ClearElementSchema(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppSchema`  
  A pointer to a pointer for an [IAppHostElementSchema](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) object.  
   

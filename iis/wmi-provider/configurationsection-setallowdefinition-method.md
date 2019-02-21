@@ -1,15 +1,7 @@
 ---
-title: "ConfigurationSection.SetAllowDefinition Method | Microsoft Docs"
-ms.custom: ""
+title: "ConfigurationSection.SetAllowDefinition Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 20e44a9a-b022-4e7b-88e6-a32bca75946e
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfigurationSection.SetAllowDefinition Method
 Sets the `allowDefinition` attribute for a configuration section.  
@@ -24,7 +16,7 @@ ConfigurationSection.SetAllowDefinition(AllowDefinition)
 ConfigurationSection.SetAllowDefinition(AllowDefinition);  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Definition|  
 |----------|----------------|  

@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.Scheduler.UpdateJobProgress
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateJobProgress Method
@@ -36,7 +35,7 @@ Updates the progress of the specified job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public MustOverride Sub UpdateJobProgress ( _
@@ -53,14 +52,14 @@ instance.UpdateJobProgress(jobInstanceId, _
     percentComplete)
 ```
 
-``` csharp
+```csharp
   public abstract void UpdateJobProgress(
     string jobInstanceId,
     int percentComplete
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual void UpdateJobProgress(
     String^ jobInstanceId, 
@@ -74,28 +73,28 @@ virtual void UpdateJobProgress(
         percentComplete:int -> unit 
 ```
 
-``` jscript
+```jscript
   public abstract function UpdateJobProgress(
     jobInstanceId : String, 
     percentComplete : int
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobInstanceId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job.  
 
 <!-- end list -->
 
   - percentComplete  
-    Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
     A value that specifies the percentage complete of a job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Scheduler Class](scheduler-class-microsoft-web-media-transformmanager.md)
 

@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.AudioStreamCount Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.AudioStreamCount Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AudioStreamCount Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AudioStreamCount
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.audiostreamcount(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_AudioStreamCount
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_AudioStreamCount
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # AudioStreamCount Property
@@ -39,7 +38,7 @@ Gets or sets the audio stream count. (This property is available only for Window
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property AudioStreamCount As Integer
@@ -53,11 +52,11 @@ value = instance.AudioStreamCount
 instance.AudioStreamCount = value
 ```
 
-``` csharp
+```csharp
   public int AudioStreamCount { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property int AudioStreamCount {
     int get ();
@@ -65,33 +64,33 @@ property int AudioStreamCount {
 }
 ```
 
-``` jscript
+```jscript
   function get AudioStreamCount () : int
 function set AudioStreamCount (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 The audio stream count.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

@@ -16,21 +16,19 @@ The [SmoothStreamingException](smoothstreamingexception-class-microsoft-web-medi
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Data](https://msdn.microsoft.com/en-us/library/2wyfbc48(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[HelpLink](https://msdn.microsoft.com/en-us/library/71tawy4s(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Protected property](images/Ee532670.protproperty(en-us,VS.90).gif "Protected property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[HResult](https://msdn.microsoft.com/en-us/library/sh5cw61c(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[InnerException](https://msdn.microsoft.com/en-us/library/902sca80(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Message](https://msdn.microsoft.com/en-us/library/9btwf6wk(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Source](https://msdn.microsoft.com/en-us/library/85weac5w(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[StackTrace](https://msdn.microsoft.com/en-us/library/dxzhy005(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TargetSite](https://msdn.microsoft.com/en-us/library/2wchw354(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Data](https://msdn.microsoft.com/library/2wyfbc48)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[HelpLink](https://msdn.microsoft.com/library/71tawy4s)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Protected property](images/Ee532670.protproperty(en-us,VS.90).gif "Protected property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[HResult](https://msdn.microsoft.com/library/sh5cw61c)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[InnerException](https://msdn.microsoft.com/library/902sca80)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Message](https://msdn.microsoft.com/library/9btwf6wk)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Source](https://msdn.microsoft.com/library/85weac5w)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[StackTrace](https://msdn.microsoft.com/library/dxzhy005)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TargetSite](https://msdn.microsoft.com/library/2wchw354)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
 
-
-Top
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingException Class](smoothstreamingexception-class-microsoft-web-media-smoothstreaming_1.md)
 

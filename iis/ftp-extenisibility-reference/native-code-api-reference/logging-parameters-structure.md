@@ -1,16 +1,8 @@
 ---
-title: "LOGGING_PARAMETERS Structure | Microsoft Docs"
-ms.custom: ""
+title: "LOGGING_PARAMETERS Structure"
 ms.date: "09/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e8a0342f-2636-492f-9fbf-f72dd1133f03
-caps.latest.revision: 9
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # LOGGING_PARAMETERS Structure
 Defines the information for FTP activity, such as user name, session ID, IP addresses for the client and server. Developers can select which logging information to use when they implement the IFtpLogProvider interface.  

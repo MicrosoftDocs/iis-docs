@@ -21,7 +21,7 @@ The **GetFileInfo** method returns information about the playlist file in file-b
 
 |||
 |--- |--- |
-|*ppPlaylistFileInfo*|The returned [IPlaylistFileInfo Interface](https://msdn.microsoft.com/en-us/library/dd146277(v=vs.90)) instance.|
+|*ppPlaylistFileInfo*|The returned [IPlaylistFileInfo Interface](https://msdn.microsoft.com/library/dd146277) instance.|
 
 
 ## Return Value

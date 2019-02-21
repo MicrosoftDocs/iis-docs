@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ISmoothStreamingCache Interface
@@ -36,7 +35,7 @@ Interface definition for writing a cache plug-in.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Interface ISmoothStreamingCache
@@ -45,11 +44,11 @@ Public Interface ISmoothStreamingCache
 Dim instance As ISmoothStreamingCache
 ```
 
-``` csharp
+```csharp
 public interface ISmoothStreamingCache
 ```
 
-``` c++
+```cpp
 public interface class ISmoothStreamingCache
 ```
 
@@ -57,7 +56,7 @@ public interface class ISmoothStreamingCache
 type ISmoothStreamingCache =  interface end
 ```
 
-``` jscript
+```jscript
 public interface ISmoothStreamingCache
 ```
 
@@ -70,12 +69,10 @@ The ISmoothStreamingCache type exposes the following members.
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[BeginPersist](ismoothstreamingcache-beginpersist-method-microsoft-web-media-smoothstreaming_1.md)|Begins to persist a cache response. This function is called whenever in the course of normal playback a Smooth Streaming object chunk, manifest, or key frame is received from the network and it might be useful to persist the item for later use.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[BeginRetrieve](ismoothstreamingcache-beginretrieve-method-microsoft-web-media-smoothstreaming_1.md)|Begins an asynchronous cache response retrieval.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[CloseMedia](ismoothstreamingcache-closemedia-method-microsoft-web-media-smoothstreaming.md)|Ends ISmoothStreamingCache operations for the specified media.|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[EndPersist](ismoothstreamingcache-endpersist-method-microsoft-web-media-smoothstreaming_1.md)|A [AsyncCallback](https://msdn.microsoft.com/en-us/library/ckbe7yh5(v=vs.95)) delegate method to complete the operation started by the [BeginPersist](ismoothstreamingcache-beginpersist-method-microsoft-web-media-smoothstreaming_1.md) method.|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[EndPersist](ismoothstreamingcache-endpersist-method-microsoft-web-media-smoothstreaming_1.md)|A [AsyncCallback](https://msdn.microsoft.com/library/ckbe7yh5(v=vs.95)) delegate method to complete the operation started by the [BeginPersist](ismoothstreamingcache-beginpersist-method-microsoft-web-media-smoothstreaming_1.md) method.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[EndRetrieve](ismoothstreamingcache-endretrieve-method-microsoft-web-media-smoothstreaming_1.md)|Ends an asynchronous cache response retrieval started by the [BeginRetrieve](ismoothstreamingcache-beginretrieve-method-microsoft-web-media-smoothstreaming_1.md) method.|
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")|[OpenMedia](ismoothstreamingcache-openmedia-method-microsoft-web-media-smoothstreaming.md)|Opens the specified media for ISmoothStreamingCache operations.|
 
-
-Top
 
 ## Remarks
 
@@ -101,17 +98,17 @@ The following example assigns the cache plug-in when the media element loads.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

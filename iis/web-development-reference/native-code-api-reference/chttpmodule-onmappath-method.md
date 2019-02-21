@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnMapPath Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnMapPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4c9cdb28-6efc-67d0-31d1-7fe043851a45
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnMapPath Method
 Represents the method that will handle a `MapPath` event, which occurs when an operation requests the physical path to be mapped for the current request.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnMapPath(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

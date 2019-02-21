@@ -1,15 +1,7 @@
 ---
-title: "IHttpStoredContext Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpStoredContext Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 55e0ddf6-4df3-87c2-ad25-2aa1b903aa76
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpStoredContext Interface
 Defines context information for stored data.  

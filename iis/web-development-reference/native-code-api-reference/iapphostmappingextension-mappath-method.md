@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMappingExtension::MapPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMappingExtension::MapPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 6daf0cdd-531a-223a-e875-8fc145223a56
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMappingExtension::MapPath Method
 Maps a site to a physical path, virtual directory, and application path by using the site name and virtual path.  
@@ -29,7 +21,7 @@ HRESULT MapPath(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrSiteName`  
  A `BSTR` that contains the site name.  
   

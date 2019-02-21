@@ -1,15 +1,7 @@
 ---
-title: "WebServicesProtocolSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "WebServicesProtocolSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 185f1e2f-20c7-450f-ae59-aac6fcfe5c91
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WebServicesProtocolSettings Class
 Specifies protocols that decrypt data sent from a client browser in an HTTP request.  

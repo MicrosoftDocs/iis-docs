@@ -1,15 +1,7 @@
 ---
-title: "CGlobalModule::Terminate Method | Microsoft Docs"
-ms.custom: ""
+title: "CGlobalModule::Terminate Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d9da74a3-e716-1785-e600-08337d75bfc5
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CGlobalModule::Terminate Method
 Represents the method that IIS calls when a global module has completed processing.  
@@ -22,7 +14,7 @@ virtual VOID Terminate(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

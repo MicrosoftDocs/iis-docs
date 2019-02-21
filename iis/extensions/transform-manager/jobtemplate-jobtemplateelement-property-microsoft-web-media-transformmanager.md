@@ -1,5 +1,5 @@
 ---
-title: JobTemplate.JobTemplateElement Property  (Microsoft.Web.Media.TransformManager)
+title: JobTemplate.JobTemplateElement Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobTemplateElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobTemplate.JobTemplateElement
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobtemplate.jobtemplateelement(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobTemplate.JobTemplateElement
 - Microsoft.Web.Media.TransformManager.JobTemplate.get_JobTemplateElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,19 +28,18 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobTemplateElement Property
 
-Gets or sets the [XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\)) container of the template file.
+Gets or sets the [XElement](https://msdn.microsoft.com/library/bb340098) container of the template file.
 
 **Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
 **Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property JobTemplateElement As XElement
@@ -56,11 +55,11 @@ value = instance.JobTemplateElement
 instance.JobTemplateElement = value
 ```
 
-``` csharp
+```csharp
   public XElement JobTemplateElement { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property XElement^ JobTemplateElement {
     XElement^ get ();
@@ -72,19 +71,19 @@ property XElement^ JobTemplateElement {
   member JobTemplateElement : XElement with get, set
 ```
 
-``` jscript
+```jscript
   function get JobTemplateElement () : XElement
 function set JobTemplateElement (value : XElement)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
-The [XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\)) container of the template file.  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
+The [XElement](https://msdn.microsoft.com/library/bb340098) container of the template file.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobTemplate Class](jobtemplate-class-microsoft-web-media-transformmanager.md)
 

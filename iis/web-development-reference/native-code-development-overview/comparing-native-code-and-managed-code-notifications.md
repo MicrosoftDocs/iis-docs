@@ -1,15 +1,7 @@
 ---
-title: "Comparing Native-Code and Managed-Code Notifications | Microsoft Docs"
-ms.custom: ""
+title: "Comparing Native-Code and Managed-Code Notifications"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7c240516-85f0-441a-8d2a-b8aebd6884a7
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Comparing Native-Code and Managed-Code Notifications
 Although the integrated request-processing pipeline in the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] Web server core enables native-code developers to write HTTP modules in C++, the event notifications that are available to native-code and managed-code developers are not identical. Developers who are migrating an HTTP module from a managed language such as C# to native code will have to address these differences when they create their new modules.  

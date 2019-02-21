@@ -1,15 +1,7 @@
 ---
-title: "UrlSequenceSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "UrlSequenceSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a0ad4140-3f63-4615-8387-930b80bd16e7
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # UrlSequenceSettings Class
 Contains URL sequences that request filtering will deny.  

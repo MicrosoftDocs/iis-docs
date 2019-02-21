@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.RestrictTracks
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.RestrictTracks Method
@@ -36,7 +35,7 @@ Replaces [AvailableTracks](streaminfo-availabletracks-property-microsoft-web-med
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub RestrictTracks ( _
@@ -50,13 +49,13 @@ Dim availableTracks As IList(Of TrackInfo)
 instance.RestrictTracks(availableTracks)
 ```
 
-``` csharp
+```csharp
 public void RestrictTracks(
     IList<TrackInfo> availableTracks
 )
 ```
 
-``` c++
+```cpp
 public:
 void RestrictTracks(
     IList<TrackInfo^>^ availableTracks
@@ -68,16 +67,16 @@ member RestrictTracks :
         availableTracks:IList<TrackInfo> -> unit 
 ```
 
-``` jscript
+```jscript
 public function RestrictTracks(
     availableTracks : IList<TrackInfo>
 )
 ```
 
-#### Parameters
+### Parameters
 
   - availableTracks  
-    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/en-us/library/5y536ey6\(v=vs.95\))\<[TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
+    Type: [System.Collections.Generic.IList](https://msdn.microsoft.com/library/5y536ey6\(v=vs.95\))\<[TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)\>  
     A new list of available tracks. The list must be a strict subset of current [AvailableTracks](streaminfo-availabletracks-property-microsoft-web-media-smoothstreaming_1.md).
 
 ## Remarks
@@ -186,17 +185,17 @@ The following example restricts tracks to tracks of the same resolution.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

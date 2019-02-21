@@ -1,15 +1,7 @@
 ---
-title: "IGlobalStopListeningProvider::DrainRequestsGracefully Method | Microsoft Docs"
-ms.custom: ""
+title: "IGlobalStopListeningProvider::DrainRequestsGracefully Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 047b08d2-bc6e-f885-038c-0bf55226a2a9
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IGlobalStopListeningProvider::DrainRequestsGracefully Method
 Indicates whether IIS will gracefully close any currently pending requests.  
@@ -22,7 +14,7 @@ virtual BOOL DrainRequestsGracefully(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -1,15 +1,7 @@
 ---
-title: "Server Class1 | Microsoft Docs"
-ms.custom: ""
+title: "Server Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 52fd13ed-2645-bc13-c04d-a5e82ca50c0f
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Server Class1
 Exposes default configuration settings for applications, application pools, Web sites, and virtual directories on a Web server running IIS.  

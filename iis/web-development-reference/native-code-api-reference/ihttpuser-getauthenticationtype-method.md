@@ -1,15 +1,7 @@
 ---
-title: "IHttpUser::GetAuthenticationType Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUser::GetAuthenticationType Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2479e617-a064-8d06-504e-c00175c6e986
-caps.latest.revision: 34
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUser::GetAuthenticationType Method
 Returns the request authentication type.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetAuthenticationType(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

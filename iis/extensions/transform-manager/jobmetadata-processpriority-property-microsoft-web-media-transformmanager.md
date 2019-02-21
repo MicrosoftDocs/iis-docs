@@ -1,5 +1,5 @@
 ---
-title: JobMetadata.ProcessPriority Property  (Microsoft.Web.Media.TransformManager)
+title: JobMetadata.ProcessPriority Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ProcessPriority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.ProcessPriority
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmetadata.processpriority(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_ProcessPriority
 - Microsoft.Web.Media.TransformManager.JobMetadata.ProcessPriority
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ProcessPriority Property
@@ -36,7 +35,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property ProcessPriority As ProcessPriorityClass
@@ -49,11 +48,11 @@ Dim value As ProcessPriorityClass
 value = instance.ProcessPriority
 ```
 
-``` csharp
+```csharp
   public ProcessPriorityClass ProcessPriority { get; }
 ```
 
-``` c++
+```cpp
   public:
 virtual property ProcessPriorityClass ProcessPriority {
     ProcessPriorityClass get () sealed;
@@ -65,21 +64,21 @@ virtual property ProcessPriorityClass ProcessPriority {
 override ProcessPriority : ProcessPriorityClass
 ```
 
-``` jscript
+```jscript
   final function get ProcessPriority () : ProcessPriorityClass
 ```
 
-#### Property Value
+### Property Value
 
 Type: ProcessPriorityClass  
 
-#### Implements
+### Implements
 
-[IJobMetadata. . :: . .ProcessPriority](ijobmetadata-processpriority-property-microsoft-web-media-transformmanager.md)  
+[IJobMetadata.ProcessPriority](ijobmetadata-processpriority-property-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobMetadata Class](jobmetadata-class-microsoft-web-media-transformmanager.md)
 

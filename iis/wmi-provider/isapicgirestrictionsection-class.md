@@ -1,15 +1,7 @@
 ---
-title: "IsapiCgiRestrictionSection Class | Microsoft Docs"
-ms.custom: ""
+title: "IsapiCgiRestrictionSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c774177c-4c4b-8d8b-bfb4-b7b7cd985b65
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IsapiCgiRestrictionSection Class
 Configures ISAPI and Common Gateway Interface (CGI) restrictions for a Web server that runs in ISAPI mode.  

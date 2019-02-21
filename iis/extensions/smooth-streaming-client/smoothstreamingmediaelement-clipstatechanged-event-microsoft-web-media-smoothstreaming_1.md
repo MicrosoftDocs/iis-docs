@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipStateChanged
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ClipStateChanged Event
@@ -38,7 +37,7 @@ Occurs when a media clip state changes.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Event ClipStateChanged As EventHandler(Of ClipEventArgs)
@@ -50,11 +49,11 @@ Dim handler As EventHandler(Of ClipEventArgs)
 AddHandler instance.ClipStateChanged, handler
 ```
 
-``` csharp
+```csharp
 public event EventHandler<ClipEventArgs> ClipStateChanged
 ```
 
-``` c++
+```cpp
 public:
  event EventHandler<ClipEventArgs^>^ ClipStateChanged {
     void add (EventHandler<ClipEventArgs^>^ value);
@@ -67,7 +66,7 @@ member ClipStateChanged : <EventHandler<ClipEventArgs>,
     ClipEventArgs>
 ```
 
-``` jscript
+```jscript
 JScript supports the use of events, but not the declaration of new ones.
 ```
 
@@ -79,13 +78,13 @@ For more information, see [Events](events.md).
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

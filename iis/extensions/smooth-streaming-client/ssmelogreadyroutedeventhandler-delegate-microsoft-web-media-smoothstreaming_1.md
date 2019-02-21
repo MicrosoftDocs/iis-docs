@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventHandler
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SSMELogReadyRoutedEventHandler Delegate
@@ -40,7 +39,7 @@ The event handler for the [LogReady](smoothstreamingmediaelement-logready-event-
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Delegate Sub SSMELogReadyRoutedEventHandler ( _
@@ -52,14 +51,14 @@ Public Delegate Sub SSMELogReadyRoutedEventHandler ( _
 Dim instance As New SSMELogReadyRoutedEventHandler(AddressOf HandlerMethod)
 ```
 
-``` csharp
+```csharp
 public delegate void SSMELogReadyRoutedEventHandler(
     Object sender,
     SSMELogReadyRoutedEventArgs e
 )
 ```
 
-``` c++
+```cpp
 public delegate void SSMELogReadyRoutedEventHandler(
     Object^ sender, 
     SSMELogReadyRoutedEventArgs^ e
@@ -73,15 +72,15 @@ type SSMELogReadyRoutedEventHandler =
         e:SSMELogReadyRoutedEventArgs -> unit
 ```
 
-``` jscript
+```jscript
 JScript supports the use of delegates, but not the declaration of new ones.
 ```
 
-#### Parameters
+### Parameters
 
   - sender  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
-    The [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\)) sender.
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
+    The [Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\)) sender.
 
 <!-- end list -->
 
@@ -91,17 +90,17 @@ JScript supports the use of delegates, but not the declaration of new ones.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostConstantValueCollection Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostConstantValueCollection Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 90e2f8f5-7b99-40c5-a911-a583abc73080
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostConstantValueCollection Interface
 Represents a collection of [IAppHostConstantValue Interface](../../web-development-reference\native-code-api-reference/iapphostconstantvalue-interface.md) objects.  

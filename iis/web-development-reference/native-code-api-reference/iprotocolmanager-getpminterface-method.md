@@ -1,15 +1,7 @@
 ---
-title: "IProtocolManager::GetPmInterface Method | Microsoft Docs"
-ms.custom: ""
+title: "IProtocolManager::GetPmInterface Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 67a82c02-b569-64ba-e808-8f6a55b336fa
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProtocolManager::GetPmInterface Method
 Retrieves a defined interface from a protocol manager.  
@@ -23,7 +15,7 @@ virtual HRESULT GetPmInterface(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `PmInterfaceId`  
  The ID of the interface to return.  
   

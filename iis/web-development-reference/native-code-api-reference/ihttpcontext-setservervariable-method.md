@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::SetServerVariable Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::SetServerVariable Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1099f28d-b795-fd21-3832-53f2531169a4
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::SetServerVariable Method
 Sets a server variable to a specified value.  
@@ -23,7 +15,7 @@ virtual HRESULT SetServerVariable(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszVariableName`  
  [IN] A pointer to a string that contains the name of the server variable to set.  
   

@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::InsertEntityBody Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::InsertEntityBody Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8e30471e-981b-9026-dc07-5dd2c1e81b02
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::InsertEntityBody Method
 Inserts a new entity body into the existing HTTP request body.  
@@ -23,7 +15,7 @@ virtual HRESULT InsertEntityBody(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pvBuffer`  
  [IN] A pointer to a `VOID` buffer that contains the request entity body.  
   

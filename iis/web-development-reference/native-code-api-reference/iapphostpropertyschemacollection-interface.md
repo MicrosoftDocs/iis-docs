@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchemaCollection Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchemaCollection Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 30c635ec-6d94-4340-9762-d50b6e6d32c1
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchemaCollection Interface
 Represents a collection of [IAppHostPropertySchema Interface](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-interface.md) objects.  

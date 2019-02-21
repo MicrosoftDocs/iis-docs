@@ -1,15 +1,7 @@
 ---
-title: "CachingProfileElement Class | Microsoft Docs"
-ms.custom: ""
+title: "CachingProfileElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5152947a-4fcf-afcc-70a5-b370b0bf7301
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CachingProfileElement Class
 Configures caching for a given request extension.  

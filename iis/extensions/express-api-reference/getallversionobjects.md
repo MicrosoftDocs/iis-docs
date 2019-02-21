@@ -1,14 +1,7 @@
 ---
-title: "GetAllVersionObjects | Microsoft Docs"
-ms.custom: ""
+title: "GetAllVersionObjects"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1a6a78bb-bbc9-4d93-8514-fb287203451e
-caps.latest.revision: 7
-manager: "wpickett"
 ---
 # GetAllVersionObjects
 Enumerates all IIS product versions that are installed on the computer.  
@@ -23,7 +16,7 @@ Enumerates all IIS product versions that are installed on the computer.
   
 ```  
   
-#### Parameters  
+### Parameters  
   
 -   [out, retval] `* pVersionsArray`  
   

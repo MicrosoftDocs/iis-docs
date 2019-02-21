@@ -1,15 +1,7 @@
 ---
-title: "SoapServerProtocolFactory Class | Microsoft Docs"
-ms.custom: ""
+title: "SoapServerProtocolFactory Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 992dd30f-5a19-bd92-1271-79114ab059d9
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SoapServerProtocolFactory Class
 Specifies the type of a class that processes XML Web service requests.  

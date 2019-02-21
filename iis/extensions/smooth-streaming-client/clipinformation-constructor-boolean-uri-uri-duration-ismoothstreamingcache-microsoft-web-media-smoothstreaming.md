@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
@@ -21,7 +21,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipInformation Constructor (Boolean, Uri, Uri, Duration, ISmoothStreamingCache)
@@ -33,7 +32,7 @@ Initializes a new instance of the [ClipInformation](clipinformation-class-micros
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -56,7 +55,7 @@ Dim instance As New ClipInformation(isSmoothStreamingSource, _
     smoothStreamingCache)
 ```
 
-``` csharp
+```csharp
   public ClipInformation(
     bool isSmoothStreamingSource,
     Uri clipUri,
@@ -66,7 +65,7 @@ Dim instance As New ClipInformation(isSmoothStreamingSource, _
 )
 ```
 
-``` c++
+```cpp
   public:
 ClipInformation(
     bool isSmoothStreamingSource, 
@@ -77,7 +76,7 @@ ClipInformation(
 )
 ```
 
-``` jscript
+```jscript
   public function ClipInformation(
     isSmoothStreamingSource : boolean, 
     clipUri : Uri, 
@@ -87,49 +86,49 @@ ClipInformation(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - isSmoothStreamingSource  
-    Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+    Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
     A Boolean value that indicates whether the clip source is Smooth Streaming media.  
 
 <!-- end list -->
 
   - clipUri  
-    Type: [System. . :: . .Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.90\))  
-    A [Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.90\)) object that contains the clip source.  
+    Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a)  
+    A [Uri](https://msdn.microsoft.com/library/txt7706a) object that contains the clip source.  
 
 <!-- end list -->
 
   - clickThroughUri  
-    Type: [System. . :: . .Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.90\))  
-    A [Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.90\)) object that contains the Uri to additional information.  
+    Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a)  
+    A [Uri](https://msdn.microsoft.com/library/txt7706a) object that contains the Uri to additional information.  
 
 <!-- end list -->
 
   - duration  
-    Type: [System.Windows. . :: . .Duration](https://msdn.microsoft.com/en-us/library/ms602372\(v=vs.90\))  
-    A [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\)) object that contains the duration of the clip in ticks.  
+    Type: [System.Windows.Duration](https://msdn.microsoft.com/library/ms602372)  
+    A [TimeSpan](https://msdn.microsoft.com/library/269ew577) object that contains the duration of the clip in ticks.  
 
 <!-- end list -->
 
   - smoothStreamingCache  
-    Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)  
+    Type: [Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)  
     An [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipInformation Class](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)
 

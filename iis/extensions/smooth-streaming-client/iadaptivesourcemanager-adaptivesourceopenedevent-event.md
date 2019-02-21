@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 ---
 
 # IAdaptiveSourceManager.AdaptiveSourceOpenedEvent Event
@@ -19,11 +19,11 @@ Specifies the adaptive source opened event handler.
 
 ## Syntax
 
-``` csharp
+```csharp
 event AdaptiveSourceOpenedEventHandler AdaptiveSourceOpenedEvent
 ```
 
-``` c++
+```cpp
 event AdaptiveSourceOpenedEventHandler^ AdaptiveSourceOpenedEvent {
 void add (AdaptiveSourceOpenedEventHandler^ value);
 void remove (AdaptiveSourceOpenedEventHandler^ value);

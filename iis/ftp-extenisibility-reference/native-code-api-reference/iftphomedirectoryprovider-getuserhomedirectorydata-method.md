@@ -1,16 +1,8 @@
 ---
-title: "IFtpHomeDirectoryProvider::GetUserHomeDirectoryData Method | Microsoft Docs"
-ms.custom: ""
+title: "IFtpHomeDirectoryProvider::GetUserHomeDirectoryData Method"
 ms.date: "09/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 36671ffa-4c66-40dc-a1c5-6ecd5309e191
-caps.latest.revision: 7
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IFtpHomeDirectoryProvider::GetUserHomeDirectoryData Method
 Returns the physical path of the home directory for a user.  
@@ -26,7 +18,7 @@ HRESULT GetUserHomeDirectoryData(
 )  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |||  
 |-|-|  

@@ -1,15 +1,7 @@
 ---
-title: "DiagnosticsSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "DiagnosticsSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: fcaedf87-b8b1-4520-1213-c8d107069ec6
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DiagnosticsSettings Class
 Specifies whether a Web service returns exceptions to the client.  

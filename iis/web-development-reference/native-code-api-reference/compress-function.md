@@ -1,15 +1,7 @@
 ---
-title: "Compress Function | Microsoft Docs"
-ms.custom: ""
+title: "Compress Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 254d5fc4-8abd-4410-84e3-d7f13ee6cd68
-caps.latest.revision: 5
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Compress Function
 Compresses data given the compression context, input buffer, output buffer, and compression level.  
@@ -29,7 +21,7 @@ HRESULT WINAPI Compress(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `context`  
  [IN][OUT] Pointer to the new compression context.  
   

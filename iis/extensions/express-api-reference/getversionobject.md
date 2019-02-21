@@ -1,14 +1,7 @@
 ---
-title: "GetVersionObject | Microsoft Docs"
-ms.custom: ""
+title: "GetVersionObject"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 98e42cf9-bcd4-4e1e-a01d-f8e44052e93d
-caps.latest.revision: 10
-manager: "wpickett"
 ---
 # GetVersionObject
 Returns the installed IIS version based on version and product type.  
@@ -25,7 +18,7 @@ Returns the installed IIS version based on version and product type.
   
 ```  
   
-#### Parameters  
+### Parameters  
   
 -   [in, string] BSTR  `bstrVersion`  
   

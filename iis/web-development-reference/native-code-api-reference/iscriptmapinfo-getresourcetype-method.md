@@ -1,15 +1,7 @@
 ---
-title: "IScriptMapInfo::GetResourceType Method | Microsoft Docs"
-ms.custom: ""
+title: "IScriptMapInfo::GetResourceType Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7889d2ef-4ca3-087e-d371-6ce2730b4bb4
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IScriptMapInfo::GetResourceType Method
 Retrieves the resource type for a request handler.  
@@ -22,7 +14,7 @@ virtual DWORD GetResourceType(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

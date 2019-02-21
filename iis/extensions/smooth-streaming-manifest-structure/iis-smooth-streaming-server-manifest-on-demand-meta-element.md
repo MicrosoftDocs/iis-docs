@@ -20,7 +20,7 @@ The meta element specifies a single piece of presentation-level metadata.
 
 The following sections describe attributes, child elements, and parent elements.
 
-#### Attributes
+### Attributes
 
 |Attribute|Description|
 |--- |--- |
@@ -36,11 +36,11 @@ The following sections describe attributes, child elements, and parent elements.
 |**clientManfiestPath**|The content attribute specifies the physical path of the client manifest relative to the server manifest.|
 
 
-#### Child Elements
+### Child Elements
 
 None
 
-#### Parent Elements
+### Parent Elements
 
 |Element|Description|
 |--- |--- |
@@ -48,7 +48,7 @@ None
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - head Element](iis-smooth-streaming-server-manifest-on-demand-head-element.md)
 

@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManagementService.DeleteJobTemplate
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DeleteJobTemplate Method
@@ -36,7 +35,7 @@ Deletes a [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.m
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <OperationContractAttribute> _
 Sub DeleteJobTemplate ( _
@@ -50,14 +49,14 @@ Dim jobTemplateId As String
 instance.DeleteJobTemplate(jobTemplateId)
 ```
 
-``` csharp
+```csharp
 [OperationContractAttribute]
 void DeleteJobTemplate(
     string jobTemplateId
 )
 ```
 
-``` c++
+```cpp
 [OperationContractAttribute]
 void DeleteJobTemplate(
     String^ jobTemplateId
@@ -70,23 +69,23 @@ abstract DeleteJobTemplate :
         jobTemplateId:string -> unit 
 ```
 
-``` jscript
+```jscript
   function DeleteJobTemplate(
     jobTemplateId : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobTemplateId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) object to delete.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[InvalidOperationException](https://msdn.microsoft.com/en-us/library/2asft85a(v=vs.90))|The specified job template is in use.|
+|[InvalidOperationException](https://msdn.microsoft.com/library/2asft85a)|The specified job template is in use.|
 
 
 ## Remarks
@@ -95,7 +94,7 @@ A [JobTemplate](jobtemplate-class-microsoft-web-media-transformmanager.md) objec
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManagementService Interface](imanagementservice-interface-microsoft-web-media-transformmanager.md)
 

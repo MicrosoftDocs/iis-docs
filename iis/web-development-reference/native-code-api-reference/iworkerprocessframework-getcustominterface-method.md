@@ -1,15 +1,7 @@
 ---
-title: "IWorkerProcessFramework::GetCustomInterface Method | Microsoft Docs"
-ms.custom: ""
+title: "IWorkerProcessFramework::GetCustomInterface Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c39f9e81-7186-b497-3d95-e44fe963a694
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWorkerProcessFramework::GetCustomInterface Method
 Retrieves a custom interface from the worker process framework.  
@@ -23,7 +15,7 @@ virtual HRESULT GetCustomInterface(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `InterfaceId`  
  The ID of the interface to return.  
   

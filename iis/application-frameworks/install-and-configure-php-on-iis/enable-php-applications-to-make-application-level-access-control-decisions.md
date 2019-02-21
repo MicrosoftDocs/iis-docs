@@ -85,7 +85,7 @@ To configure Forms Authentication:
     *Figure 3: Enabling Forms Authentication for all requests*
 11. Click **OK**. This allows the Forms Authentication module to provide authentication services for all requests, regardless of the application content being requested. This enables your PHP application to take advantage of Forms Authentication.
 
-You can edit a number of configuration options that control the behavior of the Forms Authentication module (see docs at [https://msdn.microsoft.com/en-us/library/1d3t3c61.aspx](https://msdn.microsoft.com/en-us/library/1d3t3c61.aspx)):
+You can edit a number of configuration options that control the behavior of the Forms Authentication module (see docs at [https://msdn.microsoft.com/library/1d3t3c61.aspx](https://msdn.microsoft.com/library/1d3t3c61.aspx)):
 
 - The default login page URL.
 - The timeout and automatic renewal time period for the authentication ticket.

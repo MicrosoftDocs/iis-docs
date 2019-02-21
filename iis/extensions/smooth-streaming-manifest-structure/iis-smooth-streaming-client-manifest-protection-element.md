@@ -21,17 +21,17 @@ The Protection element specifies that presentation uses tracks with a content pr
 
 The following sections describe attributes, child elements, and parent elements.
 
-#### Attributes
+### Attributes
 
 None
 
-#### Child Elements
+### Child Elements
 
 |Element|Description|
 |--- |--- |
 |**ProtectionHeader**|The ProtectionHeader element provides a content Protection System-specific header used by the client to enable playback.|
 
-#### Parent Elements
+### Parent Elements
 
 |Element|Description|
 |--- |--- |
@@ -39,7 +39,7 @@ None
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IIS Smooth Streaming Client Manifest - SmoothStreamingMedia Element](iis-smooth-streaming-client-manifest-smoothstreamingmedia-element.md)
 

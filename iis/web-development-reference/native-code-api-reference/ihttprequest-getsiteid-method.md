@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::GetSiteId Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::GetSiteId Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 672d53ab-7144-3a6b-8997-f7ab213a5f7f
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::GetSiteId Method
 Retrieves the site ID for the current HTTP request.  
@@ -22,7 +14,7 @@ virtual DWORD GetSiteId(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

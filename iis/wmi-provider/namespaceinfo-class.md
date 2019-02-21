@@ -1,15 +1,7 @@
 ---
-title: "NamespaceInfo Class | Microsoft Docs"
-ms.custom: ""
+title: "NamespaceInfo Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a8819e4f-ec68-13bd-3236-aecd0d743d23
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # NamespaceInfo Class
 Contains namespace references similar to the `Import` directive.  
@@ -54,8 +46,8 @@ class NamespaceInfo : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.NamespaceCollection](/dotnet/api/system.web.configuration.namespacecollection?view=netframework-4.7.2)   
- [System.Web.Configuration.NamespaceInfo](/dotnet/api/system.web.configuration.namespaceinfo?view=netframework-4.7.2)
+ [System.Web.Configuration.NamespaceCollection](/dotnet/api/system.web.configuration.namespacecollection)   
+ [System.Web.Configuration.NamespaceInfo](/dotnet/api/system.web.configuration.namespaceinfo)
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [NamespaceElement Class](../wmi-provider/namespaceelement-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)   

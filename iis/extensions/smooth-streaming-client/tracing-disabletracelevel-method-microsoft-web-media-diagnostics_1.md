@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.DisableTraceLevel
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.DisableTraceLevel Method
@@ -36,7 +35,7 @@ Disables the trace severity level that is specified by the tracelevel parameter.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Sub DisableTraceLevel ( _
@@ -49,13 +48,13 @@ Dim traceLevel As TraceLevel
 Tracing.DisableTraceLevel(traceLevel)
 ```
 
-``` csharp
+```csharp
 public static void DisableTraceLevel(
     TraceLevel traceLevel
 )
 ```
 
-``` c++
+```cpp
 public:
 static void DisableTraceLevel(
     TraceLevel traceLevel
@@ -67,13 +66,13 @@ static member DisableTraceLevel :
         traceLevel:TraceLevel -> unit 
 ```
 
-``` jscript
+```jscript
 public static function DisableTraceLevel(
     traceLevel : TraceLevel
 )
 ```
 
-#### Parameters
+### Parameters
 
   - traceLevel  
     Type: [Microsoft.Web.Media.Diagnostics.TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md)  
@@ -81,17 +80,17 @@ public static function DisableTraceLevel(
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

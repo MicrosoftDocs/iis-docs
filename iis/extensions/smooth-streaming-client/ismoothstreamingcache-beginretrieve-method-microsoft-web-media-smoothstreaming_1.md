@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.BeginRetrieve
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ISmoothStreamingCache.BeginRetrieve Method
@@ -36,7 +35,7 @@ Begins an asynchronous cache response retrieval.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Function BeginRetrieve ( _
@@ -56,7 +55,7 @@ returnValue = instance.BeginRetrieve(request, _
     callback, state)
 ```
 
-``` csharp
+```csharp
 IAsyncResult BeginRetrieve(
     CacheRequest request,
     AsyncCallback callback,
@@ -64,7 +63,7 @@ IAsyncResult BeginRetrieve(
 )
 ```
 
-``` c++
+```cpp
 IAsyncResult^ BeginRetrieve(
     CacheRequest^ request, 
     AsyncCallback^ callback, 
@@ -79,7 +78,7 @@ abstract BeginRetrieve :
         state:Object -> IAsyncResult 
 ```
 
-``` jscript
+```jscript
 function BeginRetrieve(
     request : CacheRequest, 
     callback : AsyncCallback, 
@@ -87,7 +86,7 @@ function BeginRetrieve(
 ) : IAsyncResult
 ```
 
-#### Parameters
+### Parameters
 
   - request  
     Type: [Microsoft.Web.Media.SmoothStreaming.CacheRequest](cacherequest-class-microsoft-web-media-smoothstreaming_1.md)  
@@ -96,19 +95,19 @@ function BeginRetrieve(
 <!-- end list -->
 
   - callback  
-    Type: [System.AsyncCallback](https://msdn.microsoft.com/en-us/library/ckbe7yh5\(v=vs.95\))  
-    A [AsyncCallback](https://msdn.microsoft.com/en-us/library/ckbe7yh5\(v=vs.95\)) delegate method to complete the operation.
+    Type: [System.AsyncCallback](https://msdn.microsoft.com/library/ckbe7yh5\(v=vs.95\))  
+    A [AsyncCallback](https://msdn.microsoft.com/library/ckbe7yh5\(v=vs.95\)) delegate method to complete the operation.
 
 <!-- end list -->
 
   - state  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
-    A [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\)) that represents state for the request.
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
+    A [Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\)) that represents state for the request.
 
-#### Return Value
+### Return Value
 
-Type: [System.IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.95\))  
-An [IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455\(v=vs.95\)) object.
+Type: [System.IAsyncResult](https://msdn.microsoft.com/library/ft8a6455\(v=vs.95\))  
+An [IAsyncResult](https://msdn.microsoft.com/library/ft8a6455\(v=vs.95\)) object.
 
 ## Examples
 
@@ -127,17 +126,17 @@ The following code shows an implementation of the BeginRetrieve(CacheRequest, As
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ISmoothStreamingCache Interface](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md)
 

@@ -1,5 +1,5 @@
 ---
-title: ManifestProperty.Value Property  (Microsoft.Web.Media.TransformManager)
+title: ManifestProperty.Value Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Value Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.Value
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.manifestproperty.value(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.set_Value
 - Microsoft.Web.Media.TransformManager.ManifestProperty.Value
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Value Property
@@ -40,7 +39,7 @@ Gets or sets the manifest property value.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property Value As String
@@ -56,12 +55,12 @@ value = instance.Value
 instance.Value = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string Value { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 virtual property String^ Value {
@@ -77,23 +76,23 @@ abstract Value : string with get, set
 override Value : string with get, set
 ```
 
-``` jscript
+```jscript
   final function get Value () : String
 final function set Value (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The value of the manifest property.  
 
-#### Implements
+### Implements
 
-[IManifestProperty. . :: . .Value](imanifestproperty-value-property-microsoft-web-media-transformmanager.md)  
+[IManifestProperty.Value](imanifestproperty-value-property-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ManifestProperty Class](manifestproperty-class-microsoft-web-media-transformmanager.md)
 

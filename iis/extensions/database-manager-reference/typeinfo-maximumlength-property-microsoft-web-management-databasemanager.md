@@ -1,5 +1,5 @@
 ---
-title: TypeInfo.MaximumLength Property  (Microsoft.Web.Management.DatabaseManager)
+title: TypeInfo.MaximumLength Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: MaximumLength Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.MaximumLength
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.typeinfo.maximumlength(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_MaximumLength
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_MaximumLength
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.MaximumLength Property
@@ -39,7 +38,7 @@ Gets or sets the maximum length for the data type.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property MaximumLength As Long
 'Usage
@@ -51,11 +50,11 @@ value = instance.MaximumLength
 instance.MaximumLength = value
 ```
 
-``` csharp
+```csharp
 public long MaximumLength { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property long long MaximumLength {
     long long get ();
@@ -63,23 +62,23 @@ property long long MaximumLength {
 }
 ```
 
-``` jscript
+```jscript
 function get MaximumLength () : long
 function set MaximumLength (value : long)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Int64](https://msdn.microsoft.com/en-us/library/6yy583ek\(v=vs.90\))  
+Type: [System.Int64](https://msdn.microsoft.com/library/6yy583ek)  
 The maximum length for the data type.  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TypeInfo Class](typeinfo-class-microsoft-web-management-databasemanager.md)
 

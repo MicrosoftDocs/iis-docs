@@ -1,15 +1,7 @@
 ---
-title: "IProcessHostSupportFunctions::GetRootWebConfigFilename Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHostSupportFunctions::GetRootWebConfigFilename Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 5f721848-d568-ca68-b70e-2df063550cd2
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHostSupportFunctions::GetRootWebConfigFilename Method
 Retrieves the physical path for the ApplicationHost.config file.  
@@ -22,7 +14,7 @@ virtual HRESULT __stdcall GetRootWebConfigFilename(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrPhysicalPath`  
  A pointer to a `BSTR` that contains the physical path to the ApplicationHost.config file.  
   

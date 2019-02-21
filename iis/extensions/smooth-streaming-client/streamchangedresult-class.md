@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Represents the results when the stream is changed.
 
 ## Syntax
 
-``` csharp
+```csharp
 [VersionAttribute()]
 public sealed class StreamChangedResult : IStreamChangedResult
 ```
 
-``` c++
+```cpp
 [VersionAttribute()]
 public ref class StreamChangedResult sealed : IStreamChangedResult
 ```
 
-``` jscript
+```jscript
 public final class StreamChangedResult implements IStreamChangedResult
 ```
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpApplicationResolveModulesProvider Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpApplicationResolveModulesProvider Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 25a6eaf7-468a-fba7-ac30-54cf1af989ec
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpApplicationResolveModulesProvider Interface
 Provides an interface for registering HTTP modules.  

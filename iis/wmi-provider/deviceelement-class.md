@@ -1,15 +1,7 @@
 ---
-title: "DeviceElement Class | Microsoft Docs"
-ms.custom: ""
+title: "DeviceElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4459d7ff-8387-7249-83b1-238540a6c636
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # DeviceElement Class
 Defines an adapter set that maps [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] mobile controls to corresponding adapters within the `<system.web>` and `<mobileControls>` sections of the Web.config configuration file.  

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertySchema::IsUniqueKey Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertySchema::IsUniqueKey Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8ab3c522-03ae-4d2f-daf4-e82086b6c1a2
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertySchema::IsUniqueKey Property
 Determines whether a property value is a unique key for a collection.  
@@ -23,7 +15,7 @@ HRESULT get_IsUniqueKey(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pfIsUniqueKey`  
  A pointer to a `VARIANT_BOOL`. `VARIANT_TRUE` if a property value is a unique key for a collection; otherwise, `VARIANT_FALSE`. The default is `VARIANT_FALSE`.  
   

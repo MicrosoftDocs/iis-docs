@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskStatus.TaskStatus
 - Microsoft.Web.Media.TransformManager.TaskStatus.#ctor
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskStatus Constructor
@@ -37,7 +36,7 @@ Initializes a new instance of the [TaskStatus](taskstatus-class-microsoft-web-me
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -53,14 +52,14 @@ Dim instance As New TaskStatus(manifest, _
     logger)
 ```
 
-``` csharp
+```csharp
   public TaskStatus(
     JobManifest manifest,
     ILogger logger
 )
 ```
 
-``` c++
+```cpp
   public:
 TaskStatus(
     JobManifest^ manifest, 
@@ -74,28 +73,28 @@ TaskStatus(
         logger:ILogger -> TaskStatus
 ```
 
-``` jscript
+```jscript
   public function TaskStatus(
     manifest : JobManifest, 
     logger : ILogger
 )
 ```
 
-#### Parameters
+### Parameters
 
   - manifest  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.JobManifest](jobmanifest-class-microsoft-web-media-transformmanager.md)  
     A job manifest that contains a [SchedulerInfo](schedulerinfo-class-microsoft-web-media-transformmanager.md) object.  
 
 <!-- end list -->
 
   - logger  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .ILogger](ilogger-interface-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.ILogger](ilogger-interface-microsoft-web-media-transformmanager.md)  
     A logger object that can be used by the task to write data to the job-instance log.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TaskStatus Class](taskstatus-class-microsoft-web-media-transformmanager.md)
 

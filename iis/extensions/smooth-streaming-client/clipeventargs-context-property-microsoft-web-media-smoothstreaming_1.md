@@ -1,5 +1,5 @@
 ---
-title: ClipEventArgs.Context Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ClipEventArgs.Context Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Context Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipEventArgs.Context
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipeventargs.context(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipEventArgs.get_Context
 - Microsoft.Web.Media.SmoothStreaming.ClipEventArgs.set_Context
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipEventArgs.Context Property
@@ -40,7 +39,7 @@ Gets or sets the Context property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Context As ClipContext
@@ -54,11 +53,11 @@ Dim value As ClipContext
 value = instance.Context
 ```
 
-``` csharp
+```csharp
 public ClipContext Context { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property ClipContext^ Context {
     ClipContext^ get ();
@@ -70,12 +69,12 @@ property ClipContext^ Context {
 member Context : ClipContext with get, private set
 ```
 
-``` jscript
+```jscript
 function get Context () : ClipContext
 private function set Context (value : ClipContext)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)  
 A [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) object.
@@ -86,13 +85,13 @@ For more information, see [Scheduling Media Clips](scheduling-media-clips.md).
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipEventArgs Class](clipeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

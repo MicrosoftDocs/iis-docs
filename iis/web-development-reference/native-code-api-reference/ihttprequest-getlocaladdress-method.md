@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::GetLocalAddress Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::GetLocalAddress Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d46b161f-c91a-77e8-51b0-7975f80284c1
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::GetLocalAddress Method
 Returns the address of the local interface for the current request.  
@@ -22,7 +14,7 @@ virtual PSOCKADDR GetLocalAddress(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

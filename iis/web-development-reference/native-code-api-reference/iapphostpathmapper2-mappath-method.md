@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPathMapper2::MapPath Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPathMapper2::MapPath Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: cb41794c-9656-47ba-92e3-b8d9af952243
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPathMapper2::MapPath Method
 Gets the details of the specific mapping decision and, optionally, can change the results in the return value.  
@@ -25,7 +17,7 @@ HRESULT MapPath(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrConfigPath`  
  The hierarchy path being mapped.  
   

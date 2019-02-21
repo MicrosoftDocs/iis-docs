@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.FormatTraceOutput
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.FormatTraceOutput Method
@@ -36,7 +35,7 @@ Formats the trace output according to the current configuration settings.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Function FormatTraceOutput ( _
@@ -50,13 +49,13 @@ Dim returnValue As String
 returnValue = Tracing.FormatTraceOutput(entry)
 ```
 
-``` csharp
+```csharp
 public static string FormatTraceOutput(
     TraceEntry entry
 )
 ```
 
-``` c++
+```cpp
 public:
 static String^ FormatTraceOutput(
     TraceEntry^ entry
@@ -68,35 +67,35 @@ static member FormatTraceOutput :
         entry:TraceEntry -> string 
 ```
 
-``` jscript
+```jscript
 public static function FormatTraceOutput(
     entry : TraceEntry
 ) : String
 ```
 
-#### Parameters
+### Parameters
 
   - entry  
     Type: [Microsoft.Web.Media.Diagnostics.TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md)  
     A [TraceEntry](traceentry-class-microsoft-web-media-diagnostics_1.md) object that specifies the entry to format.
 
-#### Return Value
+### Return Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

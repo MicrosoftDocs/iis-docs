@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.Stretch Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.Stretch Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Stretch Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Stretch
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.stretch(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_Stretch
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_Stretch
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.Stretch Property
@@ -40,7 +39,7 @@ Gets or sets an object that determines how to stretch the media display.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Stretch As Stretch
@@ -56,11 +55,11 @@ value = instance.Stretch
 instance.Stretch = value
 ```
 
-``` csharp
+```csharp
 public Stretch Stretch { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property Stretch Stretch {
     Stretch get ();
@@ -72,29 +71,29 @@ property Stretch Stretch {
 member Stretch : Stretch with get, set
 ```
 
-``` jscript
+```jscript
 function get Stretch () : Stretch
 function set Stretch (value : Stretch)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Windows.Media.Stretch](https://msdn.microsoft.com/en-us/library/ms635549\(v=vs.95\))  
+Type: [System.Windows.Media.Stretch](https://msdn.microsoft.com/library/ms635549\(v=vs.95\))  
 An object that specifies how the media element should be stretched to fill the destination rectangle.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

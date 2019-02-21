@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the headers.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IMapView<string, string> Headers { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property IMapView<String^, String^>^ Headers {
 IMapView<String^, String^>^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get Headers () : IMapView<String, String>
 ```
 

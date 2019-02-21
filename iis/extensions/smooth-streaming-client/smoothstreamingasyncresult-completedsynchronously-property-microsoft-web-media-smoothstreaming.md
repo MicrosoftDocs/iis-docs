@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingAsyncResult.CompletedSynchronously Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingAsyncResult.CompletedSynchronously Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CompletedSynchronously Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.CompletedSynchronously
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingasyncresult.completedsynchronously(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.get_CompletedSynchronously
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.set_CompletedSynchronously
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingAsyncResult.CompletedSynchronously Property
@@ -40,7 +39,7 @@ Indicates whether the operation completed synchronously on the same thread.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property CompletedSynchronously As Boolean
@@ -54,11 +53,11 @@ Dim value As Boolean
 value = instance.CompletedSynchronously
 ```
 
-``` csharp
+```csharp
 public bool CompletedSynchronously { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property bool CompletedSynchronously {
     bool get () sealed;
@@ -71,29 +70,29 @@ abstract CompletedSynchronously : bool with get, private set
 override CompletedSynchronously : bool with get, private set
 ```
 
-``` jscript
+```jscript
 final function get CompletedSynchronously () : boolean
 private final function set CompletedSynchronously (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.95\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50\(v=vs.95\))  
 true if the operation completed synchronously on the same thread; otherwise, false.
 
-#### Implements
+### Implements
 
-[IAsyncResult.CompletedSynchronously](https://msdn.microsoft.com/en-us/library/eyx2c824\(v=vs.95\))  
+[IAsyncResult.CompletedSynchronously](https://msdn.microsoft.com/library/eyx2c824\(v=vs.95\))  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingAsyncResult Class](smoothstreamingasyncresult-class-microsoft-web-media-smoothstreaming.md)
 

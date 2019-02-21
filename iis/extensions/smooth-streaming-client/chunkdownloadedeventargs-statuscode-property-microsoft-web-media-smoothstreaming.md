@@ -1,5 +1,5 @@
 ---
-title: ChunkDownloadedEventArgs.StatusCode Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ChunkDownloadedEventArgs.StatusCode Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StatusCode Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.StatusCode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.chunkdownloadedeventargs.statuscode(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.get_StatusCode
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.StatusCode
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkDownloadedEventArgs.StatusCode Property
@@ -40,7 +39,7 @@ Gets the HTTP status code.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property StatusCode As HttpStatusCode
@@ -54,11 +53,11 @@ Dim value As HttpStatusCode
 value = instance.StatusCode
 ```
 
-``` csharp
+```csharp
 public HttpStatusCode StatusCode { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property HttpStatusCode StatusCode {
     HttpStatusCode get ();
@@ -70,14 +69,14 @@ property HttpStatusCode StatusCode {
 member StatusCode : HttpStatusCode with get, private set
 ```
 
-``` jscript
+```jscript
 function get StatusCode () : HttpStatusCode
 private function set StatusCode (value : HttpStatusCode)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Net.HttpStatusCode](https://msdn.microsoft.com/en-us/library/f92ssyy1\(v=vs.95\))  
+Type: [System.Net.HttpStatusCode](https://msdn.microsoft.com/library/f92ssyy1\(v=vs.95\))  
 An HttpStatusCode object that represents the status code.
 
 ## Remarks
@@ -86,13 +85,13 @@ Status 404 can be overridden as status 412 for a browser.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ChunkDownloadedEventArgs Class](chunkdownloadedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpFileInfo::GetHttpCacheAllowed Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpFileInfo::GetHttpCacheAllowed Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a46e00e7-47ae-2359-120d-0883ee73f8a9
-caps.latest.revision: 25
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpFileInfo::GetHttpCacheAllowed Method
 Returns a value that indicates whether the corresponding file can be cached.  
@@ -22,7 +14,7 @@ virtual BOOL GetHttpCacheAllowed(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pSecondsToLive`  
  [OUT] A pointer to a `DWORD` that contains the number of seconds that the cached file will be held.  
   

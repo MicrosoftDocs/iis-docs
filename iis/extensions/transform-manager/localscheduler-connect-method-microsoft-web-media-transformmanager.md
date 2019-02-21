@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.LocalScheduler.Connect
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Connect Method
@@ -36,7 +35,7 @@ Connects to the local scheduler.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Overrides Sub Connect ( _
@@ -50,13 +49,13 @@ Dim connectionString As String
 instance.Connect(connectionString)
 ```
 
-``` csharp
+```csharp
   public override void Connect(
     string connectionString
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual void Connect(
     String^ connectionString
@@ -70,28 +69,28 @@ override Connect :
         connectionString:string -> unit 
 ```
 
-``` jscript
+```jscript
   public override function Connect(
     connectionString : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string that is used to connect to the scheduler.  
 
 ## Exceptions
 
 |Exception|Condition|
 |--- |--- |
-|[FileLoadException](https://msdn.microsoft.com/en-us/library/99akez90(v=vs.90))|The method was unable to load a file that was created by the task scheduler when a job was submitted.|
-|[COMException](https://msdn.microsoft.com/en-us/library/02hkayhc(v=vs.90))|The method was unable to complete the transaction that was originated by the task scheduler.|
+|[FileLoadException](https://msdn.microsoft.com/library/99akez90)|The method was unable to load a file that was created by the task scheduler when a job was submitted.|
+|[COMException](https://msdn.microsoft.com/library/02hkayhc)|The method was unable to complete the transaction that was originated by the task scheduler.|
 
 ## See Also
 
-#### Reference
+### Reference
 
 [LocalScheduler Class](localscheduler-class-microsoft-web-media-transformmanager.md)
 

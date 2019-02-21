@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # ColumnDataInfo Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [ColumnDataInfo](columndatainfo-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -26,11 +23,9 @@ The [ColumnDataInfo](columndatainfo-class-microsoft-web-management-databasemanag
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[Tag](columndatainfo-tag-property-microsoft-web-management-databasemanager.md)|Returns a generic object that is stored in the ColumnDataInfo class.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[TypeInfo](columndatainfo-typeinfo-property-microsoft-web-management-databasemanager.md)|Retrieves the type information for the column data.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ColumnDataInfo Class](columndatainfo-class-microsoft-web-management-databasemanager.md)
 

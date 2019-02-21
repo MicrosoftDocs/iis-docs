@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,20 +20,20 @@ Gets the chunk info of the given chunk iterator through async call.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IAsyncOperation<ChunkInfo> GetChunkInfoAsync(
 IChunkIter pChunkIter
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual IAsyncOperation<ChunkInfo>^ GetChunkInfoAsync(
 [InAttribute] IChunkIter^ pChunkIter
 ) sealed
 ```
 
-``` jscript
+```jscript
 public final function GetChunkInfoAsync(
 pChunkIter : IChunkIter
 ) : IAsyncOperation<ChunkInfo>

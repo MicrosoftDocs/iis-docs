@@ -1,15 +1,7 @@
 ---
-title: "BufferModeSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "BufferModeSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 97d41b09-44b6-aad9-fd73-bac199c58a7a
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # BufferModeSettings Class
 Contains [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] event-buffering settings for event providers.  
@@ -51,7 +43,7 @@ class BufferModeSettings : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Management.BufferedWebEventProvider.BufferMode](/dotnet/api/system.web.management.bufferedwebeventprovider.buffermode?view=netframework-4.7.2)   
+ [System.Web.Management.BufferedWebEventProvider.BufferMode](/dotnet/api/system.web.management.bufferedwebeventprovider.buffermode)   
  [BufferModeElement Class](../wmi-provider/buffermodeelement-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElement::GetElementByName Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElement::GetElementByName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1fbd772c-733f-b950-cb44-db5f3ae5ec8a
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElement::GetElementByName Method
 Gets a requested child element from the current element.  
@@ -25,7 +17,7 @@ HRESULT GetElementByName(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrSubName`  
  A `BSTR` that contains the name of the requested child element.  
   

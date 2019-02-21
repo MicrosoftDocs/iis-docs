@@ -26,7 +26,7 @@ Specifies metadata for this Smooth Streaming media presentation.
 
 The following sections describe attributes, child elements, and parent elements.
 
-#### Attributes
+### Attributes
 
 |Attribute|Description|
 |--- |--- |
@@ -39,7 +39,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**DVRWindowLength**|(Optional) Specifies the length of the trailing window for a 24/7 broadcast.|
 
 
-#### Child Elements
+### Child Elements
 
 |Element|Description|
 |--- |--- |
@@ -47,7 +47,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**Protection**|Container for content protection playback info.|
 
 
-#### Parent Elements
+### Parent Elements
 
 None
 
@@ -246,7 +246,7 @@ The following is an example of a Live Server Manifest.
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [IIS Smooth Streaming Client Manifest Format](iis-smooth-streaming-client-manifest-format.md)
 

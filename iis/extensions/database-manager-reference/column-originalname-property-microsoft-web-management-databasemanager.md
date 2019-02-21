@@ -1,5 +1,5 @@
 ---
-title: Column.OriginalName Property  (Microsoft.Web.Management.DatabaseManager)
+title: Column.OriginalName Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: OriginalName Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.OriginalName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.column.originalname(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Column.get_OriginalName
 - Microsoft.Web.Management.DatabaseManager.Column.set_OriginalName
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.OriginalName Property
@@ -39,7 +38,7 @@ Gets or sets a value that specifies the original name of the database column.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property OriginalName As String
 'Usage
@@ -51,11 +50,11 @@ value = instance.OriginalName
 instance.OriginalName = value
 ```
 
-``` csharp
+```csharp
 public string OriginalName { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ OriginalName {
     String^ get ();
@@ -63,14 +62,14 @@ property String^ OriginalName {
 }
 ```
 
-``` jscript
+```jscript
 function get OriginalName () : String
 function set OriginalName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The original name of the database column.  
 
 ## Remarks
@@ -86,7 +85,7 @@ The following code sample implements the [EditTable](idbtablemanager-edittable-m
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     Public Sub EditTable( _
             ByVal connectionString As String, _
@@ -561,7 +560,7 @@ The following code sample implements the [EditTable](idbtablemanager-edittable-m
 
 ```
 
-``` csharp
+```csharp
 
 // Modify a table in the database.
 public void EditTable(
@@ -1259,11 +1258,11 @@ private void AddForeignKeys(
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Column Class](column-class-microsoft-web-management-databasemanager.md)
 

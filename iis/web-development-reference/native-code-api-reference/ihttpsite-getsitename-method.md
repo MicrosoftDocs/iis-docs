@@ -1,15 +1,7 @@
 ---
-title: "IHttpSite::GetSiteName Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpSite::GetSiteName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 0d33c3ee-09a3-2ec5-5f4e-804074f5ed18
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpSite::GetSiteName Method
 Retrieves the name for the Web site.  
@@ -22,7 +14,7 @@ virtual PCWSTR GetSiteName(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

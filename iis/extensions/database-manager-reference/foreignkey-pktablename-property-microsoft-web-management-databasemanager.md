@@ -1,5 +1,5 @@
 ---
-title: ForeignKey.PKTableName Property  (Microsoft.Web.Management.DatabaseManager)
+title: ForeignKey.PKTableName Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: PKTableName Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.PKTableName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.foreignkey.pktablename(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.get_PKTableName
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.set_PKTableName
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ForeignKey.PKTableName Property
@@ -39,7 +38,7 @@ Gets or sets the table name of the primary key.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property PKTableName As String
 'Usage
@@ -51,11 +50,11 @@ value = instance.PKTableName
 instance.PKTableName = value
 ```
 
-``` csharp
+```csharp
 public string PKTableName { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ PKTableName {
     String^ get ();
@@ -63,14 +62,14 @@ property String^ PKTableName {
 }
 ```
 
-``` jscript
+```jscript
 function get PKTableName () : String
 function set PKTableName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The table name of the primary key.  
 
 ## Examples
@@ -82,7 +81,7 @@ The following code sample implements the [GetTableInfo](idbtablemanager-gettable
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     ' Retrieve the information about a table.
     Public Function GetTableInfo( _
@@ -302,7 +301,7 @@ The following code sample implements the [GetTableInfo](idbtablemanager-gettable
 
 ```
 
-``` csharp
+```csharp
 
         // Retrieve the information about a table.
         public TableInfo GetTableInfo(string connectionString, string tableName, string schema)
@@ -497,11 +496,11 @@ The following code sample implements the [GetTableInfo](idbtablemanager-gettable
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ForeignKey Class](foreignkey-class-microsoft-web-management-databasemanager.md)
 

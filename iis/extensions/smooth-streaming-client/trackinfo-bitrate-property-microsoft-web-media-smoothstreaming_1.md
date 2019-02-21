@@ -1,5 +1,5 @@
 ---
-title: TrackInfo.Bitrate Property  (Microsoft.Web.Media.SmoothStreaming)
+title: TrackInfo.Bitrate Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Bitrate Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.Bitrate
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackinfo.bitrate(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.get_Bitrate
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.set_Bitrate
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TrackInfo.Bitrate Property
@@ -40,7 +39,7 @@ Gets or sets the Bitrate property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Bitrate As ULong
@@ -56,11 +55,11 @@ value = instance.Bitrate
 instance.Bitrate = value
 ```
 
-``` csharp
+```csharp
 public ulong Bitrate { get; protected set; }
 ```
 
-``` c++
+```cpp
 public:
 property unsigned long long Bitrate {
     unsigned long long get ();
@@ -72,29 +71,29 @@ property unsigned long long Bitrate {
 member Bitrate : uint64 with get, set
 ```
 
-``` jscript
+```jscript
 function get Bitrate () : ulong
 protected function set Bitrate (value : ulong)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.UInt64](https://msdn.microsoft.com/en-us/library/06cf7918\(v=vs.95\))  
+Type: [System.UInt64](https://msdn.microsoft.com/library/06cf7918\(v=vs.95\))  
 An unsigned long integer.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

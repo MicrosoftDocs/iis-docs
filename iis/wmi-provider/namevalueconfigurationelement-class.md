@@ -1,15 +1,7 @@
 ---
-title: "NameValueConfigurationElement Class | Microsoft Docs"
-ms.custom: ""
+title: "NameValueConfigurationElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 73267495-b5ed-38d8-d9b0-eac32f22dbd2
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # NameValueConfigurationElement Class
 Contains a name/value pair for an HTTP response header.  

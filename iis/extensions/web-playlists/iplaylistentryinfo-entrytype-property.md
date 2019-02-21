@@ -18,7 +18,7 @@ The **EntryType**property gets an enumeration describing the location type of th
 
 |||
 |--- |--- |
-|*pType*|An [IPlaylistEntryInfo::ENTRY_TYPE Enumeration](https://msdn.microsoft.com/en-us/library/dd146290(v=vs.90)) enumeration describing the location type of the entry.|
+|*pType*|An [IPlaylistEntryInfo::ENTRY_TYPE Enumeration](https://msdn.microsoft.com/library/dd146290) enumeration describing the location type of the entry.|
 
 
 ## Return Value

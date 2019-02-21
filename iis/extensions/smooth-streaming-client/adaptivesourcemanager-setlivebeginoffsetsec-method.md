@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,20 +20,20 @@ Sets the seconds after first chunk to start playing at when tuning to left edge,
 
 ## Syntax
 
-``` csharp
+```csharp
 public void SetLiveBeginOffsetSec(
 uint liveBeginOffsetSec
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual void SetLiveBeginOffsetSec(
 [InAttribute] unsigned int liveBeginOffsetSec
 ) sealed
 ```
 
-``` jscript
+```jscript
 public final function SetLiveBeginOffsetSec(
 liveBeginOffsetSec : uint
 )

@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.Shutdown
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.Shutdown Method
@@ -36,7 +35,7 @@ Shuts down tracing facilities and flushes any pending data to its destination.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Sub Shutdown
@@ -46,11 +45,11 @@ Public Shared Sub Shutdown
 Tracing.Shutdown()
 ```
 
-``` csharp
+```csharp
 public static void Shutdown()
 ```
 
-``` c++
+```cpp
 public:
 static void Shutdown()
 ```
@@ -59,23 +58,23 @@ static void Shutdown()
 static member Shutdown : unit -> unit 
 ```
 
-``` jscript
+```jscript
 public static function Shutdown()
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

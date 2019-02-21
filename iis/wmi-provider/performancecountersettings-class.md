@@ -1,15 +1,7 @@
 ---
-title: "PerformanceCounterSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "PerformanceCounterSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 144ea09b-2b53-3264-a294-ee156ca39644
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PerformanceCounterSettings Class
 Specifies the size of the global memory shared by performance counters.  

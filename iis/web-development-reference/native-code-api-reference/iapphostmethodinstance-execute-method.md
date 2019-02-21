@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethodInstance::Execute Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethodInstance::Execute Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3b0eab75-d907-4ec5-982e-0c91d96a9358
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethodInstance::Execute Method
 Executes the specified custom method.  

@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.NodeTaskCodePathX86 Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.NodeTaskCodePathX86 Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: NodeTaskCodePathX86 Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.NodeTaskCodePathX86
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.nodetaskcodepathx86(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.NodeTaskCodePathX86
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_NodeTaskCodePathX86
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # NodeTaskCodePathX86 Property
@@ -40,7 +39,7 @@ Gets or sets a location for x86 binary files.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property NodeTaskCodePathX86 As String
@@ -56,12 +55,12 @@ value = instance.NodeTaskCodePathX86
 instance.NodeTaskCodePathX86 = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string NodeTaskCodePathX86 { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ NodeTaskCodePathX86 {
@@ -75,14 +74,14 @@ property String^ NodeTaskCodePathX86 {
 member NodeTaskCodePathX86 : string with get, set
 ```
 
-``` jscript
+```jscript
   function get NodeTaskCodePathX86 () : String
 function set NodeTaskCodePathX86 (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The location.  
 
 ## Remarks
@@ -91,7 +90,7 @@ The NodeTaskCodePathX86 property supports advanced distributed server topologies
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "IHttpConnectionStoredContext Interface | Microsoft Docs"
-ms.custom: ""
+title: "IHttpConnectionStoredContext Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f6a67d77-c255-4c59-9f05-a65552534dee
-caps.latest.revision: 3
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpConnectionStoredContext Interface
 Defines context information for connection-stored data.  

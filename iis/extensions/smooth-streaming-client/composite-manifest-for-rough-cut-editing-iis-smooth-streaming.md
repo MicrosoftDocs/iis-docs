@@ -385,11 +385,11 @@ For more information about client access policy, see [Test and Debug Application
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Timeline Markers and Events (IIS Smooth Streaming)](timeline-markers-and-events.md)
 
-#### Other Resources
+### Other Resources
 
 [Smooth Streaming Readme](http://www.iis.net/downloads/files/media/smoothstream_readme.htm)
 

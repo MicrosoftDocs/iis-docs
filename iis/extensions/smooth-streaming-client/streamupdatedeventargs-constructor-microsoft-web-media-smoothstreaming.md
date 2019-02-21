@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.#ctor
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedEventArgs
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamUpdatedEventArgs Constructor
@@ -36,7 +35,7 @@ Initializes a new instance of the [StreamUpdatedEventArgs](streamupdatedeventarg
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Sub New ( _
@@ -54,7 +53,7 @@ Dim instance As New StreamUpdatedEventArgs(stream, _
     action, timestamp)
 ```
 
-``` csharp
+```csharp
   public StreamUpdatedEventArgs(
     StreamInfo stream,
     StreamUpdatedEventArgs..::..StreamUpdatedAction action,
@@ -62,7 +61,7 @@ Dim instance As New StreamUpdatedEventArgs(stream, _
 )
 ```
 
-``` c++
+```cpp
   public:
 StreamUpdatedEventArgs(
     StreamInfo^ stream, 
@@ -71,7 +70,7 @@ StreamUpdatedEventArgs(
 )
 ```
 
-``` jscript
+```jscript
   public function StreamUpdatedEventArgs(
     stream : StreamInfo, 
     action : StreamUpdatedEventArgs..::..StreamUpdatedAction, 
@@ -79,41 +78,41 @@ StreamUpdatedEventArgs(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - stream  
-    Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)  
+    Type: [Microsoft.Web.Media.SmoothStreaming.StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)  
     A [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) object.  
 
 <!-- end list -->
 
   - action  
-    Type: [Microsoft.Web.Media.SmoothStreaming. . :: . .StreamUpdatedEventArgs. . :: . .StreamUpdatedAction](streamupdatedeventargs-streamupdatedaction-enumeration-microsoft-web-media-smoothstreaming_1.md)  
+    Type: [Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedAction](streamupdatedeventargs-streamupdatedaction-enumeration-microsoft-web-media-smoothstreaming_1.md)  
     A [StreamUpdatedEventArgs..::..StreamUpdatedAction](streamupdatedeventargs-streamupdatedaction-enumeration-microsoft-web-media-smoothstreaming_1.md) object.  
 
 <!-- end list -->
 
   - timestamp  
-    Type: [System. . :: . .Nullable](https://msdn.microsoft.com/en-us/library/b3h38hb0\(v=vs.90\))\< (Of \< ( \<'[TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\))\> ) \> ) \>  
-    A [TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.90\)) object.  
+    Type: [System.Nullable](https://msdn.microsoft.com/library/b3h38hb0)\< (Of \< ( \<'[TimeSpan](https://msdn.microsoft.com/library/269ew577)\> ) \> ) \>  
+    A [TimeSpan](https://msdn.microsoft.com/library/269ew577) object.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamUpdatedEventArgs Class](streamupdatedeventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

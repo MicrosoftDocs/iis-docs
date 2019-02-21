@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::RecycleApplication Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::RecycleApplication Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a80a7157-39a1-6c4e-ef4b-c03d6e913361
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::RecycleApplication Method
 Recycles an application.  
@@ -22,7 +14,7 @@ virtual VOID RecycleApplication(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszAppConfigPath`  
  A pointer to a string that contains the configuration path to recycle.  
   

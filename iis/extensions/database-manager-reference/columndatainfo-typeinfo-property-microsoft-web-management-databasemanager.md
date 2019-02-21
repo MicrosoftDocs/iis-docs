@@ -1,5 +1,5 @@
 ---
-title: ColumnDataInfo.TypeInfo Property  (Microsoft.Web.Management.DatabaseManager)
+title: ColumnDataInfo.TypeInfo Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: TypeInfo Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.TypeInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.management.databasemanager.columndatainfo.typeinfo(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.get_TypeInfo
 - Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.set_TypeInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ColumnDataInfo.TypeInfo Property
@@ -39,7 +38,7 @@ Retrieves the type information for the column data.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public Property TypeInfo As TypeInfo
 'Usage
@@ -49,11 +48,11 @@ Dim value As TypeInfo
 value = instance.TypeInfo
 ```
 
-``` csharp
+```csharp
 public TypeInfo TypeInfo { get; internal set; }
 ```
 
-``` c++
+```cpp
 public:
 property TypeInfo^ TypeInfo {
     TypeInfo^ get ();
@@ -61,12 +60,12 @@ property TypeInfo^ TypeInfo {
 }
 ```
 
-``` jscript
+```jscript
 function get TypeInfo () : TypeInfo
 internal function set TypeInfo (value : TypeInfo)
 ```
 
-#### Property Value
+### Property Value
 
 Type: [Microsoft.Web.Management.DatabaseManager.TypeInfo](typeinfo-class-microsoft-web-management-databasemanager.md)  
 A [TypeInfo](typeinfo-class-microsoft-web-management-databasemanager.md) class that contains the type information for the column data.  
@@ -80,7 +79,7 @@ The following code sample implements the InsertRow method to insert data into a 
 > This example also provides helper methods that perform additional database tasks.
 
 
-``` vb
+```vb
 
     Public Function InsertRow( _
             ByVal connectionString As String, _
@@ -220,7 +219,7 @@ The following code sample implements the InsertRow method to insert data into a 
 
 ```
 
-``` csharp
+```csharp
 
         public object[] InsertRow(string connectionString, string tableName, string schema, IList<ColumnDataInfo> columnDataInfoList)
         {
@@ -381,11 +380,11 @@ The following code sample implements the InsertRow method to insert data into a 
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ColumnDataInfo Class](columndatainfo-class-microsoft-web-management-databasemanager.md)
 

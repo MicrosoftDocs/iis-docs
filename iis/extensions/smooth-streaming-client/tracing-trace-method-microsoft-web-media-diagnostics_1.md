@@ -9,19 +9,13 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.Trace
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
 ---
 
 # Tracing.Trace Method
-
-Include Protected Members  
-Include Inherited Members  
-
-Include Silverlight Members  
-Include Windows Phone Members  
 
 Traces a diagnostic message.
 
@@ -41,11 +35,9 @@ This member is overloaded. For complete information about this member, including
 |![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method") ![Static member](images/Ff728153.static(en-us,VS.90).gif "Static member") ![Supported by Windows Phone](images/Ff728255.slMobile(VS.95).gif "Supported by Windows Phone")|[Trace(String, String, String, TraceArea, TraceLevel, String, array<Object[])](tracing-trace-method-string-string-string-tracearea-tracelevel-string-object%5B%5D-microsoft-web-media-diagnostics_1.md)|Traces a diagnostic message that is specified by the parameters.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

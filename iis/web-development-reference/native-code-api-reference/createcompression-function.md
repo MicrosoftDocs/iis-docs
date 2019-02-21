@@ -1,15 +1,7 @@
 ---
-title: "CreateCompression Function | Microsoft Docs"
-ms.custom: ""
+title: "CreateCompression Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4b421b62-db6b-4ed8-9dff-e9c6c1d8ad0e
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CreateCompression Function
 Creates a new compression context.  
@@ -23,7 +15,7 @@ HRESULT WINAPI CreateCompression(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `context`  
  [OUT] Pointer to the new compression context.  
   

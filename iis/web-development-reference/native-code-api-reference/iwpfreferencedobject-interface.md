@@ -1,15 +1,7 @@
 ---
-title: "IWpfReferencedObject Interface | Microsoft Docs"
-ms.custom: ""
+title: "IWpfReferencedObject Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4db5d58d-a83c-3f28-deb7-bb9b88b0baaa
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfReferencedObject Interface
 Defines the base class for the worker process framework.  

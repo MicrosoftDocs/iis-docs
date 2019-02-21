@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the CodecPrivateData.
 
 ## Syntax
 
-``` csharp
+```csharp
 public byte[] CodecPrivateData { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property array<unsigned char>^ CodecPrivateData {
 array<unsigned char>^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get CodecPrivateData () : byte[]
 ```
 

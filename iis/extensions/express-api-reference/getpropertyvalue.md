@@ -1,14 +1,7 @@
 ---
-title: "GetPropertyValue | Microsoft Docs"
-ms.custom: ""
+title: "GetPropertyValue"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 09c0dfd3-69ad-42b8-87cf-5edd6d9b858b
-caps.latest.revision: 8
-manager: "wpickett"
 ---
 # GetPropertyValue
 Queries the specified property of the IIS version.  
@@ -24,7 +17,7 @@ Queries the specified property of the IIS version.
   
 ```  
   
-#### Parameters  
+### Parameters  
   
 -   [in, string] BSTR `bstrName`  
   

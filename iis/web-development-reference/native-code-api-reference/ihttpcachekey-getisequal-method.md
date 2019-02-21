@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheKey::GetIsEqual Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheKey::GetIsEqual Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ac83971b-5092-42c7-d20f-dba89ab5dcad
-caps.latest.revision: 42
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheKey::GetIsEqual Method
 Returns a value that indicates whether two [IHttpCacheKey](../../web-development-reference\native-code-api-reference/ihttpcachekey-interface.md) pointers are equivalent.  
@@ -22,7 +14,7 @@ virtual bool GetIsEqual(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pCacheCompareKey`  
  A non-NULL `IHttpCacheKey` pointer to compare with the current `IHttpCacheKey`.  
   

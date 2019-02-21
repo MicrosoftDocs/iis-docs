@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.IMonitoringService
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # IMonitoringService Interface
@@ -36,7 +35,7 @@ Represents an interface that defines how the IIS Transform Manager monitors jobs
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <ServiceContractAttribute(Namespace := "http://schemas.microsoft.com/iis/media/v4/TM/monitoringservice")> _
 Public Interface IMonitoringService
@@ -45,12 +44,12 @@ Public Interface IMonitoringService
   Dim instance As IMonitoringService
 ```
 
-``` csharp
+```csharp
 [ServiceContractAttribute(Namespace = "http://schemas.microsoft.com/iis/media/v4/TM/monitoringservice")]
 public interface IMonitoringService
 ```
 
-``` c++
+```cpp
 [ServiceContractAttribute(Namespace = L"http://schemas.microsoft.com/iis/media/v4/TM/monitoringservice")]
 public interface class IMonitoringService
 ```
@@ -60,7 +59,7 @@ public interface class IMonitoringService
 type IMonitoringService =  interface end
 ```
 
-``` jscript
+```jscript
   public interface IMonitoringService
 ```
 
@@ -83,15 +82,13 @@ The IMonitoringService type exposes the following members.
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetJobManifest](imonitoringservice-getjobmanifest-method-microsoft-web-media-transformmanager.md)|Returns the job manifest that IIS Transform Manager created for a job.|
 |![Public method](images/Hh125771.pubmethod(en-us,VS.90).gif "Public method")|[GetRunningJobs](imonitoringservice-getrunningjobs-method-microsoft-web-media-transformmanager.md)|Returns a collection of all of the running jobs for all [JobDefinition](jobdefinition-class-microsoft-web-media-transformmanager.md) objects.|
 
-Top
-
 ## Remarks
 
 Local administrative group credentials must be used when using the IMonitoringService type. In addition, the calling application must use an elevated privilege.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

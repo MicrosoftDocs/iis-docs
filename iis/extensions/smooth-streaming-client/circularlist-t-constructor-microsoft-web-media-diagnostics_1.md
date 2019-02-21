@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.CircularList
 - Microsoft.Web.Media.Diagnostics.CircularList`1.CircularList`1
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CircularList\<T\> Constructor
@@ -38,7 +37,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Sub New ( _
@@ -51,13 +50,13 @@ Dim maxLength As Integer
 Dim instance As New CircularList(maxLength)
 ```
 
-``` csharp
+```csharp
 public CircularList(
     int maxLength
 )
 ```
 
-``` c++
+```cpp
 public:
 CircularList(
     int maxLength
@@ -69,27 +68,27 @@ new :
         maxLength:int -> CircularList
 ```
 
-``` jscript
+```jscript
 public function CircularList(
     maxLength : int
 )
 ```
 
-#### Parameters
+### Parameters
 
   - maxLength  
-    Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.95\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d\(v=vs.95\))  
     An integer value that specifies the maximum length of this list.
 
 ## Version Information
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [CircularList\<T\> Class](circularlist-t-class-microsoft-web-media-diagnostics_1.md)
 

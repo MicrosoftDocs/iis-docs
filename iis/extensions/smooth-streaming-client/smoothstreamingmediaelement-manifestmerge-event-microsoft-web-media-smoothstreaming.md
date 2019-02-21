@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestMerge
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -25,7 +25,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestMerge Event
@@ -37,7 +36,7 @@ Occurs when the main manifest has been parsed.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Event ManifestMerge As SmoothStreamingMediaElement..::..ManifestMergeHandler
@@ -49,11 +48,11 @@ Dim handler As SmoothStreamingMediaElement..::..ManifestMergeHandler
 AddHandler instance.ManifestMerge, handler
 ```
 
-``` csharp
+```csharp
   public event SmoothStreamingMediaElement..::..ManifestMergeHandler ManifestMerge
 ```
 
-``` c++
+```cpp
   public:
  event SmoothStreamingMediaElement..::..ManifestMergeHandler^ ManifestMerge {
     void add (SmoothStreamingMediaElement..::..ManifestMergeHandler^ value);
@@ -61,7 +60,7 @@ AddHandler instance.ManifestMerge, handler
 }
 ```
 
-``` jscript
+```jscript
   JScript does not support events.
 ```
 
@@ -73,17 +72,17 @@ If errors occur during this event, it throws an exception that will be caught an
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

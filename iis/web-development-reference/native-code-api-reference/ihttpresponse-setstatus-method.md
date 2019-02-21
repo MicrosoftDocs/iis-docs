@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::SetStatus Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::SetStatus Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 390a0ab8-6695-4287-4fcc-a1ef24545dcc
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::SetStatus Method
 Sets the HTTP status for the response.  
@@ -26,7 +18,7 @@ virtual HRESULT SetStatus(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `statusCode`  
  [IN] The HTTP status code to set.  
   

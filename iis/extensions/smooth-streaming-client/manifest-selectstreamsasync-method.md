@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,20 +20,20 @@ Select the streams in the current manifest.
 
 ## Syntax
 
-``` csharp
+```csharp
 public IAsyncOperation<IVectorView<IStreamChangedResult>> SelectStreamsAsync(
 IVectorView<IManifestStream> pStreams
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual IAsyncOperation<IVectorView<IStreamChangedResult^>^>^ SelectStreamsAsync(
 [InAttribute] IVectorView<IManifestStream^>^ pStreams
 ) sealed
 ```
 
-``` jscript
+```jscript
 public final function SelectStreamsAsync(
 pStreams : IVectorView<IManifestStream>
 ) : IAsyncOperation<IVectorView<IStreamChangedResult>>

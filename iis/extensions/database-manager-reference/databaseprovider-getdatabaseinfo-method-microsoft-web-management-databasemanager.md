@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.GetDatabaseInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseProvider.GetDatabaseInfo Method
@@ -35,7 +34,7 @@ Returns database-specific information for the database provider.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public MustOverride Function GetDatabaseInfo ( _
     connectionString As String _
@@ -48,32 +47,32 @@ Dim returnValue As DatabaseInfo
 returnValue = instance.GetDatabaseInfo(connectionString)
 ```
 
-``` csharp
+```csharp
 public abstract DatabaseInfo GetDatabaseInfo(
     string connectionString
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual DatabaseInfo^ GetDatabaseInfo(
     String^ connectionString
 ) abstract
 ```
 
-``` jscript
+```jscript
 public abstract function GetDatabaseInfo(
     connectionString : String
 ) : DatabaseInfo
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database connection.  
 
-#### Return Value
+### Return Value
 
 Type: [Microsoft.Web.Management.DatabaseManager.DatabaseInfo](databaseinfo-class-microsoft-web-management-databasemanager.md)  
 A [DatabaseInfo](databaseinfo-class-microsoft-web-management-databasemanager.md) object.  
@@ -86,7 +85,7 @@ Your provider must implement the GetDatabaseInfo method in order to return conne
 
 The following code sample illustrates an example GetDatabaseInfo method that returns a [DatabaseInfo](databaseinfo-class-microsoft-web-management-databasemanager.md) object that identifies the database provider for schema support.
 
-``` vb
+```vb
 
     Public Overrides Function GetDatabaseInfo( _
             ByVal connectionString As String) _
@@ -100,7 +99,7 @@ The following code sample illustrates an example GetDatabaseInfo method that ret
 
 ```
 
-``` csharp
+```csharp
 
         public override DatabaseInfo GetDatabaseInfo(
             string connectionString )
@@ -114,11 +113,11 @@ The following code sample illustrates an example GetDatabaseInfo method that ret
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 

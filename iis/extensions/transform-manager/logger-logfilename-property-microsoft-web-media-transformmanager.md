@@ -1,5 +1,5 @@
 ---
-title: Logger.LogFileName Property  (Microsoft.Web.Media.TransformManager)
+title: Logger.LogFileName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogFileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Logger.LogFileName
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.logger.logfilename(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.Logger.LogFileName
 - Microsoft.Web.Media.TransformManager.Logger.set_LogFileName
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LogFileName Property
@@ -40,7 +39,7 @@ Gets or sets the name of the log file.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property LogFileName As String
@@ -56,11 +55,11 @@ value = instance.LogFileName
 instance.LogFileName = value
 ```
 
-``` csharp
+```csharp
   public string LogFileName { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property String^ LogFileName {
     String^ get ();
@@ -72,19 +71,19 @@ property String^ LogFileName {
   member LogFileName : string with get, set
 ```
 
-``` jscript
+```jscript
   function get LogFileName () : String
 function set LogFileName (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The name of the log file.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Logger Class](logger-class-microsoft-web-media-transformmanager.md)
 

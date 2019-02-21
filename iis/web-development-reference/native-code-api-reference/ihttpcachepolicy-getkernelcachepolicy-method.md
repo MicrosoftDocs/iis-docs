@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy::GetKernelCachePolicy Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy::GetKernelCachePolicy Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b74c5e72-f193-9c6c-9651-b1c08ebb127c
-caps.latest.revision: 28
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy::GetKernelCachePolicy Method
 Returns the cache policy for the kernel.  
@@ -22,7 +14,7 @@ virtual HTTP_CACHE_POLICY* GetKernelCachePolicy(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -1,15 +1,7 @@
 ---
-title: "WildcardRedirectElement Class | Microsoft Docs"
-ms.custom: ""
+title: "WildcardRedirectElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 477bc762-755f-e0b2-604e-7a0435e64098
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WildcardRedirectElement Class
 Specifies a destination to which certain requests are redirected.  

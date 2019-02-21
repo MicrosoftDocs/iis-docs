@@ -1,15 +1,7 @@
 ---
-title: "IHttpServer::RemoveFragmentFromCache Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpServer::RemoveFragmentFromCache Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d2fcb067-d89b-e57f-4faf-8f38d79843f8
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpServer::RemoveFragmentFromCache Method
 Removes a specific fragment from the cache.  
@@ -22,7 +14,7 @@ virtual HRESULT RemoveFragmentFromCache(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszFragmentName`  
  [IN] A pointer to a `WCHAR` that specifies the fragment to be removed from the cache.  
   

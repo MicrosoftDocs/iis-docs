@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingMediaElement.PipMode Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingMediaElement.PipMode Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: PipMode Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PipMode
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingmediaelement.pipmode(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_PipMode
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_PipMode
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # PipMode Property
@@ -39,7 +38,7 @@ Gets or sets a value that indicates whether the media stream is in picture-in-pi
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property PipMode As Boolean
@@ -53,11 +52,11 @@ value = instance.PipMode
 instance.PipMode = value
 ```
 
-``` csharp
+```csharp
   public bool PipMode { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property bool PipMode {
     bool get ();
@@ -65,29 +64,29 @@ property bool PipMode {
 }
 ```
 
-``` jscript
+```jscript
   function get PipMode () : boolean
 function set PipMode (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the media stream is in picture-in-picture (PIP) mode; otherwise, false.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

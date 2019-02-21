@@ -1,15 +1,7 @@
 ---
-title: "IHttpResponse::GetHeader Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpResponse::GetHeader Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9f3c4165-0c07-f657-8d5c-852733fda9de
-caps.latest.revision: 27
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpResponse::GetHeader Method
 Returns the value of a specified HTTP header.  
@@ -28,7 +20,7 @@ virtual PCSTR GetHeader(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszHeaderName`  
  [IN] A pointer to a string that contains the name of the header to return.  
   
@@ -52,7 +44,7 @@ virtual PCSTR GetHeader(
  The `ulHeaderIndex` parameter specifies the ID of an HTTP header that is listed in the `HTTP_HEADER_ID` enumeration.  
   
 > [!NOTE]
->  The `HTTP_HEADER_ID` enumeration is defined in the Http.h header file.  
+> The `HTTP_HEADER_ID` enumeration is defined in the Http.h header file.  
   
  After you call the `GetHeader` method, the `pcchHeaderValue` parameter will contain the length of the header value in characters, not including the terminating character, or 0 if the header was not found.  
   

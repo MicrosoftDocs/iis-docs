@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,17 +20,17 @@ Gets the chunk time info.
 
 ## Syntax
 
-``` csharp
+```csharp
 public long ChunkTime
  
 ```
 
-``` c++
+```cpp
 public:
 long long ChunkTime
 ```
 
-``` jscript
+```jscript
 public var ChunkTime : long
  
 ```

@@ -1,5 +1,5 @@
 ---
-title: ConfigurationBase.DescriptionElement Property  (Microsoft.Web.Media.TransformManager)
+title: ConfigurationBase.DescriptionElement Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: DescriptionElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.DescriptionElement
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.descriptionelement(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_DescriptionElement
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.get_DescriptionElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DescriptionElement Property
@@ -40,7 +39,7 @@ Gets or set the XML element that contains the description of the IIS Transform M
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property DescriptionElement As XElement
@@ -56,11 +55,11 @@ value = instance.DescriptionElement
 instance.DescriptionElement = value
 ```
 
-``` csharp
+```csharp
   public XElement DescriptionElement { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property XElement^ DescriptionElement {
     XElement^ get ();
@@ -72,19 +71,19 @@ property XElement^ DescriptionElement {
   member DescriptionElement : XElement with get, set
 ```
 
-``` jscript
+```jscript
   function get DescriptionElement () : XElement
 function set DescriptionElement (value : XElement)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 The XML element that contains the description of the IIS Transform Manager configuration.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

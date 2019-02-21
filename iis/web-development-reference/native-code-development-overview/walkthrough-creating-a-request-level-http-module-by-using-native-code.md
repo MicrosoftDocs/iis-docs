@@ -1,15 +1,7 @@
 ---
-title: "Walkthrough: Creating a Request-Level HTTP Module By Using Native Code | Microsoft Docs"
-ms.custom: ""
+title: "Walkthrough: Creating a Request-Level HTTP Module By Using Native Code"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 175190d6-4f32-4813-8ffd-458c79d708e4
-caps.latest.revision: 30
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Walkthrough: Creating a Request-Level HTTP Module By Using Native Code
 This walkthrough demonstrates how to use C++ to create a sample request-level HTTP module that implements the new request-processing architecture in [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)]. This new architecture extends the capabilities of native-code programming when you are writing IIS applications over earlier versions of [!INCLUDE[vstecasp](../../wmi-provider/includes/vstecasp-md.md)] HTTP modules and ISAPI filters or extensions. For more information about designing HTTP modules using the new request-processing architecture, see [Designing Native-Code HTTP Modules](../../web-development-reference\native-code-development-overview\designing-native-code-http-modules.md).  

@@ -1,15 +1,7 @@
 ---
-title: "IAppHostProperty::Name Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostProperty::Name Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 07e162b1-4dfe-508b-a95d-f4dec0c939d0
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostProperty::Name Property
 Gets the name of the property.  
@@ -23,7 +15,7 @@ HRESULT get_Name(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrName`  
  A pointer to a `BSTR` that contains the name of the property.  
   

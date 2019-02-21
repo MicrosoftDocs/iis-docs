@@ -1,15 +1,7 @@
 ---
-title: "IHttpContext::GetResponse Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext::GetResponse Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c89e2994-acc9-5d9f-54c4-76d16d87f0fa
-caps.latest.revision: 24
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpContext::GetResponse Method
 Returns the HTTP response container for the current context.  
@@ -22,7 +14,7 @@ virtual IHttpResponse* GetResponse(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

@@ -1,15 +1,7 @@
 ---
-title: "ICustomNotificationProvider::QueryNotificationType Method | Microsoft Docs"
-ms.custom: ""
+title: "ICustomNotificationProvider::QueryNotificationType Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 3e9e0872-241b-ba12-14a5-80ab8de2a516
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ICustomNotificationProvider::QueryNotificationType Method
 Returns the unique identifier for a custom notification provider.  
@@ -22,7 +14,7 @@ virtual PCWSTR QueryNotificationType(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

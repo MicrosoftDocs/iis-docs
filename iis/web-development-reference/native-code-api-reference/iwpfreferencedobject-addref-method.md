@@ -1,15 +1,7 @@
 ---
-title: "IWpfReferencedObject::AddRef Method | Microsoft Docs"
-ms.custom: ""
+title: "IWpfReferencedObject::AddRef Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b3763115-f15c-2435-ed9e-6152229a696a
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IWpfReferencedObject::AddRef Method
 Increments the reference count for the [IWpfReferencedObject](../../web-development-reference\native-code-api-reference/iwpfreferencedobject-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual ULONG AddRef(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

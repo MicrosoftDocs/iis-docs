@@ -1,15 +1,7 @@
 ---
-title: "InitCompression Function | Microsoft Docs"
-ms.custom: ""
+title: "InitCompression Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 46adcc95-ab70-46a7-83d2-313a82dcef41
-caps.latest.revision: 3
-author: "shirhatti"
-manager: "wpickett"
 ---
 # InitCompression Function
 Initializes the compression scheme.  
@@ -22,7 +14,7 @@ HRESULT WINAPI InitCompression(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  This function takes no parameters.  
   
 ## Return Value  

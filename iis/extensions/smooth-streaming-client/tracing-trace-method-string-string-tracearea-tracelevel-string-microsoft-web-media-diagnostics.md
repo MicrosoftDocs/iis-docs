@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
@@ -21,7 +21,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Trace Method (String, String, TraceArea, TraceLevel, String)
@@ -33,7 +32,7 @@ Traces a diagnostic message that is specified by the parameters.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Sub Trace ( _
@@ -55,7 +54,7 @@ Tracing.Trace(className, methodName, _
     traceArea, traceLevel, line)
 ```
 
-``` csharp
+```csharp
   public static void Trace(
     string className,
     string methodName,
@@ -65,7 +64,7 @@ Tracing.Trace(className, methodName, _
 )
 ```
 
-``` c++
+```cpp
   public:
 static void Trace(
     String^ className, 
@@ -76,7 +75,7 @@ static void Trace(
 )
 ```
 
-``` jscript
+```jscript
   public static function Trace(
     className : String, 
     methodName : String, 
@@ -86,53 +85,53 @@ static void Trace(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - className  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     A string value that specifies the class name of the calling function.  
 
 <!-- end list -->
 
   - methodName  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     A string value that specifies the name of the calling function.  
 
 <!-- end list -->
 
   - traceArea  
-    Type: [Microsoft.Web.Media.Diagnostics. . :: . .TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
+    Type: [Microsoft.Web.Media.Diagnostics.TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
     A [TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md) enumeration object.  
 
 <!-- end list -->
 
   - traceLevel  
-    Type: [Microsoft.Web.Media.Diagnostics. . :: . .TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md)  
+    Type: [Microsoft.Web.Media.Diagnostics.TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md)  
     A [TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md) enumeration object.  
 
 <!-- end list -->
 
   - line  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     A string value that specifies the text of the output message.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

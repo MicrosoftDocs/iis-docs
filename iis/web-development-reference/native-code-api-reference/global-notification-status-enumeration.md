@@ -1,15 +1,7 @@
 ---
-title: "GLOBAL_NOTIFICATION_STATUS Enumeration | Microsoft Docs"
-ms.custom: ""
+title: "GLOBAL_NOTIFICATION_STATUS Enumeration"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 8b0333b8-b0cd-4846-776d-29e52fbbb214
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # GLOBAL_NOTIFICATION_STATUS Enumeration
 Defines the return values for global-level notifications.  

@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
@@ -21,7 +21,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ReadTraceConfig Method (Uri)
@@ -33,7 +32,7 @@ Reads trace configuration settings from XML data returned by the uri that is spe
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Sub ReadTraceConfig ( _
@@ -46,48 +45,48 @@ Reads trace configuration settings from XML data returned by the uri that is spe
 Tracing.ReadTraceConfig(uri)
 ```
 
-``` csharp
+```csharp
   public static void ReadTraceConfig(
     Uri uri
 )
 ```
 
-``` c++
+```cpp
   public:
 static void ReadTraceConfig(
     Uri^ uri
 )
 ```
 
-``` jscript
+```jscript
   public static function ReadTraceConfig(
     uri : Uri
 )
 ```
 
-#### Parameters
+### Parameters
 
   - uri  
-    Type: [System. . :: . .Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.90\))  
-    A [Uri](https://msdn.microsoft.com/en-us/library/txt7706a\(v=vs.90\)) object that returns XML trace configuration data.  
+    Type: [System.Uri](https://msdn.microsoft.com/library/txt7706a)  
+    A [Uri](https://msdn.microsoft.com/library/txt7706a) object that returns XML trace configuration data.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

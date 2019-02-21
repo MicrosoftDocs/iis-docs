@@ -1,15 +1,7 @@
 ---
-title: "ListenerElement Class | Microsoft Docs"
-ms.custom: ""
+title: "ListenerElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1d144054-260c-f615-00c8-76b5a51166bd
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ListenerElement Class
 Contains a listener that monitors and formats trace output.  

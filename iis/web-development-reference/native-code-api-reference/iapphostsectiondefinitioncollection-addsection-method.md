@@ -1,15 +1,7 @@
 ---
-title: "IAppHostSectionDefinitionCollection::AddSection Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostSectionDefinitionCollection::AddSection Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d6515912-4d1b-f956-ae6b-80576da89e4a
-caps.latest.revision: 15
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostSectionDefinitionCollection::AddSection Method
 Adds a new configuration section definition to the collection.  
@@ -25,7 +17,7 @@ HRESULT AddSection(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrSectionName`  
  A `BSTR` that specifies the name of the configuration section definition to be added.  
   

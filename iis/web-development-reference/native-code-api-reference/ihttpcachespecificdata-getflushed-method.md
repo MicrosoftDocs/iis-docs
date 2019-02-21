@@ -1,15 +1,7 @@
 ---
-title: "IHttpCacheSpecificData::GetFlushed Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCacheSpecificData::GetFlushed Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4cce500d-c3e2-a52c-3a15-32887e29c3dd
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCacheSpecificData::GetFlushed Method
 Returns a value indicating whether the specific data has been flushed from the cache.  
@@ -22,7 +14,7 @@ virtual BOOL GetFlushed(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

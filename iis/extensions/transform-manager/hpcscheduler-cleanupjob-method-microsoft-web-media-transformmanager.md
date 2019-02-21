@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.HpcScheduler.CleanupJob
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CleanupJob Method
@@ -36,7 +35,7 @@ Cleans up scheduler data structure artifacts.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Overrides Sub CleanupJob ( _
@@ -50,13 +49,13 @@ Dim jobInstanceId As String
 instance.CleanupJob(jobInstanceId)
 ```
 
-``` csharp
+```csharp
   public override void CleanupJob(
     string jobInstanceId
 )
 ```
 
-``` c++
+```cpp
   public:
 virtual void CleanupJob(
     String^ jobInstanceId
@@ -70,16 +69,16 @@ override CleanupJob :
         jobInstanceId:string -> unit 
 ```
 
-``` jscript
+```jscript
   public override function CleanupJob(
     jobInstanceId : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - jobInstanceId  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The ID of the job.  
 
 ## Remarks
@@ -88,7 +87,7 @@ The CleanupJob(String) method is used by the [Scheduler](scheduler-class-microso
 
 ## See Also
 
-#### Reference
+### Reference
 
 [HpcScheduler Class](hpcscheduler-class-microsoft-web-media-transformmanager.md)
 

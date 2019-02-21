@@ -1,15 +1,7 @@
 ---
-title: "IPreBeginRequestProvider::GetHttpContext Method | Microsoft Docs"
-ms.custom: ""
+title: "IPreBeginRequestProvider::GetHttpContext Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a7903ec5-eff6-383f-8728-e70eee4ea783
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPreBeginRequestProvider::GetHttpContext Method
 Retrieves an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
@@ -22,7 +14,7 @@ virtual IHttpContext* GetHttpContext(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

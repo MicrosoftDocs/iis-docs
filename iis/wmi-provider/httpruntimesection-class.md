@@ -1,15 +1,7 @@
 ---
-title: "HttpRuntimeSection Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpRuntimeSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: de71149d-7086-8952-f32a-9a233d9991ec
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpRuntimeSection Class
 Configures [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] HTTP run-time settings that determine how a request is processed for a given [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application.  
@@ -76,7 +68,7 @@ class HttpRuntimeSection : ConfigurationSection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Configuration.SystemWebSectionGroup.HttpRuntime](/dotnet/api/system.web.configuration.systemwebsectiongroup.httpruntime?view=netframework-4.7.2)  
+ [System.Web.Configuration.SystemWebSectionGroup.HttpRuntime](/dotnet/api/system.web.configuration.systemwebsectiongroup.httpruntime)  
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
  [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)

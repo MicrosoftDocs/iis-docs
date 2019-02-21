@@ -1,15 +1,7 @@
 ---
-title: "CompilationSection Class | Microsoft Docs"
-ms.custom: ""
+title: "CompilationSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c3a136d5-a102-8b61-8fa2-1b6864423c35
-caps.latest.revision: 23
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CompilationSection Class
 Configures compilation settings for [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] applications.  
@@ -80,8 +72,8 @@ class CompilationSection : ConfigurationSectionWithCollection
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [System.Web.Compilation.BuildProvider](/dotnet/api/system.web.compilation.buildprovider?view=netframework-4.7.2)
- [System.Web.Configuration.CompilationSection](/dotnet/api/system.web.configuration.compilationsection?view=netframework-4.7.2)
+ [System.Web.Compilation.BuildProvider](/dotnet/api/system.web.compilation.buildprovider)
+ [System.Web.Configuration.CompilationSection](/dotnet/api/system.web.configuration.compilationsection)
  [AssemblySettings Class](../wmi-provider/assemblysettings-class.md)   
  [BuildProviderSettings Class](../wmi-provider/buildprovidersettings-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   

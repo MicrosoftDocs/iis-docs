@@ -1,5 +1,5 @@
 ---
-title: IManifestProperty.CultureInfo Property  (Microsoft.Web.Media.TransformManager)
+title: IManifestProperty.CultureInfo Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CultureInfo Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IManifestProperty.CultureInfo
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.imanifestproperty.cultureinfo(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IManifestProperty.CultureInfo
 - Microsoft.Web.Media.TransformManager.IManifestProperty.get_CultureInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CultureInfo Property
@@ -38,7 +37,7 @@ Gets information about a specific culture.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   ReadOnly Property CultureInfo As CultureInfo
@@ -51,11 +50,11 @@ Dim value As CultureInfo
 value = instance.CultureInfo
 ```
 
-``` csharp
+```csharp
   CultureInfo CultureInfo { get; }
 ```
 
-``` c++
+```cpp
   property CultureInfo^ CultureInfo {
     CultureInfo^ get ();
 }
@@ -65,18 +64,18 @@ value = instance.CultureInfo
   abstract CultureInfo : CultureInfo
 ```
 
-``` jscript
+```jscript
   function get CultureInfo () : CultureInfo
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Globalization. . :: . .CultureInfo](https://msdn.microsoft.com/en-us/library/kx54z3k7\(v=vs.90\))  
+Type: [System.Globalization.CultureInfo](https://msdn.microsoft.com/library/kx54z3k7)  
 Information about a specific culture.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IManifestProperty Interface](imanifestproperty-interface-microsoft-web-media-transformmanager.md)
 

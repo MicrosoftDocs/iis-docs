@@ -1,15 +1,7 @@
 ---
-title: "IAppHostAdminManager::GetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostAdminManager::GetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 90d5e0f5-d4be-ac77-27f8-f7cceff48380
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostAdminManager::GetMetadata Method
 Gets metadata values from the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] configuration system.  
@@ -25,7 +17,7 @@ HRESULT GetMetadata(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being requested.  
   

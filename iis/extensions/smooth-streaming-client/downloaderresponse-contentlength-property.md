@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the content length.
 
 ## Syntax
 
-``` csharp
+```csharp
 public ulong ContentLength { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property unsigned long long ContentLength {
 unsigned long long get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get ContentLength () : ulong
 ```
 

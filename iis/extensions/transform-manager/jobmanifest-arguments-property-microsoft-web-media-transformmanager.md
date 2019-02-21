@@ -1,5 +1,5 @@
 ---
-title: JobManifest.Arguments Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.Arguments Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Arguments Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Arguments
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.arguments(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_Arguments
 - Microsoft.Web.Media.TransformManager.JobManifest.Arguments
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Arguments Property
@@ -38,7 +37,7 @@ Gets executable program task arguments that are associated with the data in the 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property Arguments As ArrayList
@@ -51,11 +50,11 @@ Dim value As ArrayList
 value = instance.Arguments
 ```
 
-``` csharp
+```csharp
   public ArrayList Arguments { get; }
 ```
 
-``` c++
+```cpp
   public:
 property ArrayList^ Arguments {
     ArrayList^ get ();
@@ -66,11 +65,11 @@ property ArrayList^ Arguments {
   member Arguments : ArrayList
 ```
 
-``` jscript
+```jscript
   function get Arguments () : ArrayList
 ```
 
-#### Property Value
+### Property Value
 
 Type: ArrayList  
 An array of arguments.  
@@ -81,7 +80,7 @@ Tasks can either be implementations of the [ITask](itask-interface-microsoft-web
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

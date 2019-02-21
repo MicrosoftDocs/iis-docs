@@ -1,5 +1,5 @@
 ---
-title: SmoothStreamingErrorEventArgs.ErrorMessage Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SmoothStreamingErrorEventArgs.ErrorMessage Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ErrorMessage Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.ErrorMessage
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.smoothstreamingerroreventargs.errormessage(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.get_ErrorMessage
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.set_ErrorMessage
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingErrorEventArgs.ErrorMessage Property
@@ -40,7 +39,7 @@ Gets or sets the ErrorMessage property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property ErrorMessage As String
@@ -56,11 +55,11 @@ value = instance.ErrorMessage
 instance.ErrorMessage = value
 ```
 
-``` csharp
+```csharp
 public string ErrorMessage { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property String^ ErrorMessage {
     String^ get ();
@@ -72,29 +71,29 @@ property String^ ErrorMessage {
 member ErrorMessage : string with get, set
 ```
 
-``` jscript
+```jscript
 function get ErrorMessage () : String
 function set ErrorMessage (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
 A string value that contains the error message.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingErrorEventArgs Class](smoothstreamingerroreventargs-class-microsoft-web-media-smoothstreaming_1.md)
 

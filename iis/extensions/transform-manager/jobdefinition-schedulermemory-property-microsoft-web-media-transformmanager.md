@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.SchedulerMemory Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.SchedulerMemory Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerMemory Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerMemory
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.schedulermemory(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_SchedulerMemory
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_SchedulerMemory
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerMemory Property
@@ -40,7 +39,7 @@ Gets or sets a memory value based on the scheduler.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property SchedulerMemory As Integer
@@ -56,12 +55,12 @@ value = instance.SchedulerMemory
 instance.SchedulerMemory = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public int SchedulerMemory { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property int SchedulerMemory {
@@ -75,14 +74,14 @@ property int SchedulerMemory {
 member SchedulerMemory : int with get, set
 ```
 
-``` jscript
+```jscript
   function get SchedulerMemory () : int
 function set SchedulerMemory (value : int)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 A memory value.  
 
 ## Remarks
@@ -91,7 +90,7 @@ If the scheduler is an HPC scheduler, the SchedulerMemory property informs the h
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

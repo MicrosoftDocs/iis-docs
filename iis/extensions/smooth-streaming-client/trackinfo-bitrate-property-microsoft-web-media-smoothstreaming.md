@@ -1,5 +1,5 @@
 ---
-title: TrackInfo.Bitrate Property  (Microsoft.Web.Media.SmoothStreaming)
+title: TrackInfo.Bitrate Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Bitrate Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.Bitrate
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.trackinfo.bitrate(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.get_Bitrate
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.set_Bitrate
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Bitrate Property
@@ -39,7 +38,7 @@ Gets or sets the Bitrate property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Bitrate As ULong
@@ -53,11 +52,11 @@ value = instance.Bitrate
 instance.Bitrate = value
 ```
 
-``` csharp
+```csharp
   public ulong Bitrate { get; protected set; }
 ```
 
-``` c++
+```cpp
   public:
 property unsigned long long Bitrate {
     unsigned long long get ();
@@ -65,33 +64,33 @@ property unsigned long long Bitrate {
 }
 ```
 
-``` jscript
+```jscript
   function get Bitrate () : ulong
 protected function set Bitrate (value : ulong)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .UInt64](https://msdn.microsoft.com/en-us/library/06cf7918\(v=vs.90\))  
+Type: [System.UInt64](https://msdn.microsoft.com/library/06cf7918)  
 An unsigned long integer.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TrackInfo Class](trackinfo-class-microsoft-web-media-smoothstreaming_1.md)
 

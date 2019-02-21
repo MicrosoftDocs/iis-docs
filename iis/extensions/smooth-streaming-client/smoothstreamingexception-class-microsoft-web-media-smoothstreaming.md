@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingException
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingException Class
@@ -32,8 +31,8 @@ Class to contain Smooth Streaming exception information.
 
 ## Inheritance Hierarchy
 
-[System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))  
-  [System. . :: . .Exception](https://msdn.microsoft.com/en-us/library/c18k6c59\(v=vs.90\))  
+[System.Object](https://msdn.microsoft.com/library/e5kfa45b)  
+  [System.Exception](https://msdn.microsoft.com/library/c18k6c59)  
     Microsoft.Web.Media.SmoothStreaming..::..SmoothStreamingException  
 
 **Namespace:**  [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md)  
@@ -41,7 +40,7 @@ Class to contain Smooth Streaming exception information.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Class SmoothStreamingException _
@@ -51,15 +50,15 @@ Class to contain Smooth Streaming exception information.
   Dim instance As SmoothStreamingException
 ```
 
-``` csharp
+```csharp
   public class SmoothStreamingException : Exception
 ```
 
-``` c++
+```cpp
   public ref class SmoothStreamingException : public Exception
 ```
 
-``` jscript
+```jscript
   public class SmoothStreamingException extends Exception
 ```
 
@@ -69,32 +68,28 @@ The SmoothStreamingException type exposes the following members.
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Data](https://msdn.microsoft.com/en-us/library/2wyfbc48(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[HelpLink](https://msdn.microsoft.com/en-us/library/71tawy4s(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Protected property](images/Ee532670.protproperty(en-us,VS.90).gif "Protected property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[HResult](https://msdn.microsoft.com/en-us/library/sh5cw61c(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[InnerException](https://msdn.microsoft.com/en-us/library/902sca80(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Message](https://msdn.microsoft.com/en-us/library/9btwf6wk(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Source](https://msdn.microsoft.com/en-us/library/85weac5w(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[StackTrace](https://msdn.microsoft.com/en-us/library/dxzhy005(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TargetSite](https://msdn.microsoft.com/en-us/library/2wchw354(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Data](https://msdn.microsoft.com/library/2wyfbc48)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[HelpLink](https://msdn.microsoft.com/library/71tawy4s)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Protected property](images/Ee532670.protproperty(en-us,VS.90).gif "Protected property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[HResult](https://msdn.microsoft.com/library/sh5cw61c)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[InnerException](https://msdn.microsoft.com/library/902sca80)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Message](https://msdn.microsoft.com/library/9btwf6wk)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Source](https://msdn.microsoft.com/library/85weac5w)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[StackTrace](https://msdn.microsoft.com/library/dxzhy005)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public property](images/Ff728140.pubproperty(en-us,VS.90).gif "Public property")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[TargetSite](https://msdn.microsoft.com/library/2wchw354)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
 
-
-Top
 
 ## Methods
 
 ||Name|Description|
 |--- |--- |--- |
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Equals](https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Finalize](https://msdn.microsoft.com/en-us/library/4k87zsw7(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[GetBaseException](https://msdn.microsoft.com/en-us/library/49kcee3b(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[GetHashCode](https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[GetObjectData](https://msdn.microsoft.com/en-us/library/fwb1489e(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[GetType](https://msdn.microsoft.com/en-us/library/44zb316t(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[MemberwiseClone](https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.90))|(Inherited from [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.90)).)|
-|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ToString](https://msdn.microsoft.com/en-us/library/es4y6f7e(v=vs.90))|(Inherited from [Exception](https://msdn.microsoft.com/en-us/library/c18k6c59(v=vs.90)).)|
-
-Top
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Equals](https://msdn.microsoft.com/library/bsc2ak47)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[Finalize](https://msdn.microsoft.com/library/4k87zsw7)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[GetBaseException](https://msdn.microsoft.com/library/49kcee3b)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[GetHashCode](https://msdn.microsoft.com/library/zdee4b3y)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[GetObjectData](https://msdn.microsoft.com/library/fwb1489e)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[GetType](https://msdn.microsoft.com/library/44zb316t)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
+|![Protected method](images/Ff728153.protmethod(en-us,VS.90).gif "Protected method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[MemberwiseClone](https://msdn.microsoft.com/library/57ctke0a)|(Inherited from [Object](https://msdn.microsoft.com/library/e5kfa45b).)|
+|![Public method](images/Ff728153.pubmethod(en-us,VS.90).gif "Public method")![Supported by Silverlight for Windows Phone](images/Ff728140.slMobile(en-us,VS.90).gif "Supported by Silverlight for Windows Phone")|[ToString](https://msdn.microsoft.com/library/es4y6f7e)|(Inherited from [Exception](https://msdn.microsoft.com/library/c18k6c59).)|
 
 ## Remarks
 
@@ -121,11 +116,11 @@ This handler displays the error code and message to a text block. You can implem
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
@@ -135,7 +130,7 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

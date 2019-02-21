@@ -1,15 +1,7 @@
 ---
-title: "IAppHostPropertyException::InvalidValue Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostPropertyException::InvalidValue Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 283ab332-f7b8-9833-72bb-d64209d3569d
-caps.latest.revision: 11
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostPropertyException::InvalidValue Method
 Gets the property value that did not meet the validation criteria.  
@@ -24,7 +16,7 @@ HRESULT get_InvalidValue(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pbstrValue`  
  A pointer to a `BSTR` that contains the value encountered during the validation process that did not meet the criteria defined in the property schema.  
   

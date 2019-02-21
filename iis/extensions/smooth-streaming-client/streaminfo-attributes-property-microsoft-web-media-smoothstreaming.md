@@ -1,5 +1,5 @@
 ---
-title: StreamInfo.Attributes Property  (Microsoft.Web.Media.SmoothStreaming)
+title: StreamInfo.Attributes Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Attributes Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Attributes
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.streaminfo.attributes(v=VS.90)
@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.get_Attributes
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.set_Attributes
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -27,7 +27,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Attributes Property
@@ -39,7 +38,7 @@ Gets or sets attributes for this stream.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property Attributes As IDictionary(Of String, String)
@@ -51,11 +50,11 @@ Dim value As IDictionary(Of String, String)
 value = instance.Attributes
 ```
 
-``` csharp
+```csharp
   public IDictionary<string, string> Attributes { get; internal set; }
 ```
 
-``` c++
+```cpp
   public:
 property IDictionary<String^, String^>^ Attributes {
     IDictionary<String^, String^>^ get ();
@@ -63,14 +62,14 @@ property IDictionary<String^, String^>^ Attributes {
 }
 ```
 
-``` jscript
+```jscript
   function get Attributes () : IDictionary<String, String>
 internal function set Attributes (value : IDictionary<String, String>)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Collections.Generic. . :: . .IDictionary](https://msdn.microsoft.com/en-us/library/s4ys34ea\(v=vs.90\))\< (Of \< ( \<'[String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\)), [String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))\> ) \> ) \>  
+Type: [System.Collections.Generic.IDictionary](https://msdn.microsoft.com/library/s4ys34ea)\< (Of \< ( \<'[String](https://msdn.microsoft.com/library/s1wwdcbf), [String](https://msdn.microsoft.com/library/s1wwdcbf)\> ) \> ) \>  
 An IDictionary object of name/value attribute pairs.  
 
 ## Examples
@@ -91,21 +90,21 @@ The following example shows the use of attributes to identify streams for select
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [StreamInfo Class](streaminfo-class-microsoft-web-media-smoothstreaming_1.md)
 

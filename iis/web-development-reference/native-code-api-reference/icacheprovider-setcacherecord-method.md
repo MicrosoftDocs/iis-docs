@@ -1,15 +1,7 @@
 ---
-title: "ICacheProvider::SetCacheRecord Method | Microsoft Docs"
-ms.custom: ""
+title: "ICacheProvider::SetCacheRecord Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ad7bd066-65fc-bd1f-4236-48762170f066
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ICacheProvider::SetCacheRecord Method
 Sets the cache-specific data on the cache provider.  
@@ -22,7 +14,7 @@ virtual VOID SetCacheRecord(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pCacheRecord`  
  A pointer to an [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md) value.  
   

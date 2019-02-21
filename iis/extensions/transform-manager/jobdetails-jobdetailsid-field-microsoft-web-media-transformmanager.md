@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsId
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDetailsId Field
@@ -36,7 +35,7 @@ Represents a constant that is used when transform jobs are sorted by the "id" fi
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Const JobDetailsId As String
@@ -47,11 +46,11 @@ Represents a constant that is used when transform jobs are sorted by the "id" fi
 value = JobDetails.JobDetailsId
 ```
 
-``` csharp
+```csharp
   public const string JobDetailsId
 ```
 
-``` c++
+```cpp
   public:
 literal String^ JobDetailsId
 ```
@@ -60,13 +59,13 @@ literal String^ JobDetailsId
   static val mutable JobDetailsId: string
 ```
 
-``` jscript
+```jscript
   public const var JobDetailsId : String
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDetails Class](jobdetails-class-microsoft-web-media-transformmanager.md)
 

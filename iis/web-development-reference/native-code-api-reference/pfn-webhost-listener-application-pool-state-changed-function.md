@@ -1,15 +1,7 @@
 ---
-title: "PFN_WEBHOST_LISTENER_APPLICATION_POOL_STATE_CHANGED Function | Microsoft Docs"
-ms.custom: ""
+title: "PFN_WEBHOST_LISTENER_APPLICATION_POOL_STATE_CHANGED Function"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 980439ce-9015-e49c-6997-3c0967d33fe6
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # PFN_WEBHOST_LISTENER_APPLICATION_POOL_STATE_CHANGED Function
 Notifies the listener adapter that the state of an application pool has changed.  
@@ -24,7 +16,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_STATE_CHANGED)(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pContext`  
  [IN] A pointer to a `VOID` context that the listener adapter passed to [WebhostRegisterProtocol](../../web-development-reference\native-code-api-reference/webhostregisterprotocol-function.md).  
   

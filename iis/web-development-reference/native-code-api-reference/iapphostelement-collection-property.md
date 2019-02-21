@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElement::Collection Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElement::Collection Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 520835fe-cff6-7dbd-5154-a827a983b734
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElement::Collection Property
 Represents a collection of elements that belongs to a collection.  
@@ -23,7 +15,7 @@ HRESULT get_Collection(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppCollection`  
  A pointer to a pointer for an [IAppHostElementCollection](../../web-development-reference\native-code-api-reference/iapphostelementcollection-interface.md) interface.  
   

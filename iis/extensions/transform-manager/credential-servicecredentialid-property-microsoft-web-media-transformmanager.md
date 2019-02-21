@@ -1,5 +1,5 @@
 ---
-title: Credential.ServiceCredentialId Property  (Microsoft.Web.Media.TransformManager)
+title: Credential.ServiceCredentialId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ServiceCredentialId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.ServiceCredentialId
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.credential.servicecredentialid(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.Credential.ServiceCredentialId
 - Microsoft.Web.Media.TransformManager.Credential.get_ServiceCredentialId
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ServiceCredentialId Property
@@ -38,7 +37,7 @@ Gets the value of the credential GUID that IIS Transform Manager uses to run.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared ReadOnly Property ServiceCredentialId As String
@@ -50,11 +49,11 @@ Gets the value of the credential GUID that IIS Transform Manager uses to run.
 value = Credential.ServiceCredentialId
 ```
 
-``` csharp
+```csharp
   public static string ServiceCredentialId { get; }
 ```
 
-``` c++
+```cpp
   public:
 static property String^ ServiceCredentialId {
     String^ get ();
@@ -65,18 +64,18 @@ static property String^ ServiceCredentialId {
   static member ServiceCredentialId : string
 ```
 
-``` jscript
+```jscript
   static function get ServiceCredentialId () : String
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 A credential GUID.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Credential Class](credential-class-microsoft-web-media-transformmanager.md)
 

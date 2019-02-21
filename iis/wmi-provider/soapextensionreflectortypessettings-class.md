@@ -1,15 +1,7 @@
 ---
-title: "SoapExtensionReflectorTypesSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "SoapExtensionReflectorTypesSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1e8f1231-c816-4b11-8019-865b42870a26
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SoapExtensionReflectorTypesSettings Class
 Contains SOAP extension information for Web services.  

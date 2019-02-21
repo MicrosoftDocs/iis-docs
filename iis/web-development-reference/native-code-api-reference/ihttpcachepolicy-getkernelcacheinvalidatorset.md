@@ -1,15 +1,7 @@
 ---
-title: "IHttpCachePolicy::GetKernelCacheInvalidatorSet | Microsoft Docs"
-ms.custom: ""
+title: "IHttpCachePolicy::GetKernelCacheInvalidatorSet"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ffaff14b-291f-4a3f-bb21-47792da9440b
-caps.latest.revision: 4
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpCachePolicy::GetKernelCacheInvalidatorSet
 Gets a value that indicates that the kernel cache is invalidated.  
@@ -22,7 +14,7 @@ virtual BOOL GetKernelCacheInvalidatorSet(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method accepts no parameters.  
   
 ## Return Value  

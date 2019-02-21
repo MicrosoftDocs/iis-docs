@@ -1,15 +1,7 @@
 ---
-title: "WorkerProcess.GetState Method2 | Microsoft Docs"
-ms.custom: ""
+title: "WorkerProcess.GetState Method2"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: b12970b0-a05e-25a1-b3bd-f6dd7df2448c
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # WorkerProcess.GetState Method2
 Returns the run-time state of a worker process.  
@@ -24,7 +16,7 @@ oWorkerProcess.GetState
 var workerProcessState = objWorkerProcess.GetState();  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

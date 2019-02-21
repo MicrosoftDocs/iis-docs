@@ -1,15 +1,7 @@
 ---
-title: "TraceProviderDefinitionsSection Class | Microsoft Docs"
-ms.custom: ""
+title: "TraceProviderDefinitionsSection Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 04176419-60ef-c98e-ef0b-38987dace521
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TraceProviderDefinitionsSection Class
 Represents the configuration section that defines trace providers.  

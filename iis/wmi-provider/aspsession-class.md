@@ -1,15 +1,7 @@
 ---
-title: "AspSession Class | Microsoft Docs"
-ms.custom: ""
+title: "AspSession Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 56b14f51-9718-e5b5-28ab-12687cb8167f
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # AspSession Class
 Configures properties related to ASP sessions.  

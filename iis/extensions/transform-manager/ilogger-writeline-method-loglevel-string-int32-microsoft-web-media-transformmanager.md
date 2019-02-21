@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # WriteLine Method (LogLevel, String, Int32)
@@ -32,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Sub WriteLine ( _
@@ -50,7 +49,7 @@ Dim eventId As Integer
 instance.WriteLine(level, value, eventId)
 ```
 
-``` csharp
+```csharp
   void WriteLine(
     LogLevel level,
     string value,
@@ -58,7 +57,7 @@ instance.WriteLine(level, value, eventId)
 )
 ```
 
-``` c++
+```cpp
   void WriteLine(
     LogLevel level, 
     String^ value, 
@@ -73,7 +72,7 @@ instance.WriteLine(level, value, eventId)
         eventId:int -> unit 
 ```
 
-``` jscript
+```jscript
   function WriteLine(
     level : LogLevel, 
     value : String, 
@@ -81,24 +80,24 @@ instance.WriteLine(level, value, eventId)
 )
 ```
 
-#### Parameters
+### Parameters
 
   - level  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
 
 <!-- end list -->
 
   - value  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 
 <!-- end list -->
 
   - eventId  
-    Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+    Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ILogger Interface](ilogger-interface-microsoft-web-media-transformmanager.md)
 

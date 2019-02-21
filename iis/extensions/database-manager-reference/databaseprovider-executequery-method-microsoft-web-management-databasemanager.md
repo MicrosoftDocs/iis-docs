@@ -9,10 +9,10 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.ExecuteQuery
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:
@@ -23,7 +23,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseProvider.ExecuteQuery Method
@@ -35,7 +34,7 @@ Returns an array of query results after executing a database query.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 Public MustOverride Function ExecuteQuery ( _
     connectionString As String, _
@@ -51,14 +50,14 @@ returnValue = instance.ExecuteQuery(connectionString, _
     query)
 ```
 
-``` csharp
+```csharp
 public abstract QueryResult[] ExecuteQuery(
     string connectionString,
     Query query
 )
 ```
 
-``` c++
+```cpp
 public:
 virtual array<QueryResult^>^ ExecuteQuery(
     String^ connectionString, 
@@ -66,17 +65,17 @@ virtual array<QueryResult^>^ ExecuteQuery(
 ) abstract
 ```
 
-``` jscript
+```jscript
 public abstract function ExecuteQuery(
     connectionString : String, 
     query : Query
 ) : QueryResult[]
 ```
 
-#### Parameters
+### Parameters
 
   - connectionString  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     The connection string for the database connection.  
 
 <!-- end list -->
@@ -85,7 +84,7 @@ public abstract function ExecuteQuery(
     Type: [Microsoft.Web.Management.DatabaseManager.Query](query-class-microsoft-web-management-databasemanager.md)  
     The [Query](query-class-microsoft-web-management-databasemanager.md) object that contains the query statement to execute.  
 
-#### Return Value
+### Return Value
 
 Type: array\<[Microsoft.Web.Management.DatabaseManager.QueryResult](queryresult-class-microsoft-web-management-databasemanager.md)\[\]  
 An array of [QueryResult](queryresult-class-microsoft-web-management-databasemanager.md) objects.  
@@ -98,7 +97,7 @@ Your provider must implement the ExecuteQuery method in order to submit database
 
 The following code sample illustrates an example ExecuteQuery method that returns an array of query results from a database query.
 
-``` vb
+```vb
 
     Public Overrides Function ExecuteQuery( _
             ByVal connectionString As String, _
@@ -159,7 +158,7 @@ The following code sample illustrates an example ExecuteQuery method that return
 
 ```
 
-``` csharp
+```csharp
 
         public override QueryResult[] ExecuteQuery(
             string connectionString,
@@ -225,11 +224,11 @@ The following code sample illustrates an example ExecuteQuery method that return
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [DatabaseProvider Class](databaseprovider-class-microsoft-web-management-databasemanager.md)
 

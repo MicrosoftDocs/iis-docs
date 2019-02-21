@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethodInstance::Output Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethodInstance::Output Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 69d9d293-d5d8-4443-8e24-e0e3a76f0721
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethodInstance::Output Property
 Gets an [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) in which output parameters may be retrieved after a specified method instance has been executed.  
@@ -22,7 +14,7 @@ Gets an [IAppHostElement Interface](../../web-development-reference\native-code-
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppOutputElement`  
  Contains the [IAppHostElement Interface](../../web-development-reference\native-code-api-reference/iapphostelement-interface.md) that represents the output parameters.  
   

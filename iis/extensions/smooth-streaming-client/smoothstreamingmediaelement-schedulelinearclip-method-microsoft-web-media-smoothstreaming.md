@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ScheduleLinearClip
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ScheduleLinearClip Method
@@ -36,7 +35,7 @@ Schedules play of a linear media clip.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Function ScheduleLinearClip ( _
@@ -56,7 +55,7 @@ returnValue = instance.ScheduleLinearClip(clipInfo, _
     manifestTimestamp, userData)
 ```
 
-``` csharp
+```csharp
 public ClipContext ScheduleLinearClip(
     ClipInformation clipInfo,
     TimeSpan manifestTimestamp,
@@ -64,7 +63,7 @@ public ClipContext ScheduleLinearClip(
 )
 ```
 
-``` c++
+```cpp
 public:
 ClipContext^ ScheduleLinearClip(
     ClipInformation^ clipInfo, 
@@ -80,7 +79,7 @@ member ScheduleLinearClip :
         userData:Object -> ClipContext 
 ```
 
-``` jscript
+```jscript
 public function ScheduleLinearClip(
     clipInfo : ClipInformation, 
     manifestTimestamp : TimeSpan, 
@@ -88,7 +87,7 @@ public function ScheduleLinearClip(
 ) : ClipContext
 ```
 
-#### Parameters
+### Parameters
 
   - clipInfo  
     Type: [Microsoft.Web.Media.SmoothStreaming.ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md)  
@@ -97,29 +96,29 @@ public function ScheduleLinearClip(
 <!-- end list -->
 
   - manifestTimestamp  
-    Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577\(v=vs.95\))  
+    Type: [System.TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\))  
     The manifest time of the main content where the clip is inserted.
 
 <!-- end list -->
 
   - userData  
-    Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
+    Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
     An object that can contain any data needed by the application, including the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object that will play the clip.
 
-#### Return Value
+### Return Value
 
 Type: [Microsoft.Web.Media.SmoothStreaming.ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)  
 A [ClipContext](clipcontext-class-microsoft-web-media-smoothstreaming_1.md) object.The method inserts a clip that will play for its duration, after which the stream that was interrupted resumes.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

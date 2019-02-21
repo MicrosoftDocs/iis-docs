@@ -1,5 +1,5 @@
 ---
-title: ProtectionHeader.ProtectionData Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ProtectionHeader.ProtectionData Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionData Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.ProtectionData
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.protectionheader.protectiondata(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.ProtectionData
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.set_ProtectionData
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ProtectionHeader.ProtectionData Property
@@ -40,7 +39,7 @@ Gets or sets the protection data relevant to the [SystemID](protectionheader-sys
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property ProtectionData As Byte()
@@ -54,11 +53,11 @@ Dim value As Byte()
 value = instance.ProtectionData
 ```
 
-``` csharp
+```csharp
 public byte[] ProtectionData { get; internal set; }
 ```
 
-``` c++
+```cpp
 public:
 property array<unsigned char>^ ProtectionData {
     array<unsigned char>^ get ();
@@ -70,29 +69,29 @@ property array<unsigned char>^ ProtectionData {
 member ProtectionData : byte[] with get, internal set
 ```
 
-``` jscript
+```jscript
 function get ProtectionData () : byte[]
 internal function set ProtectionData (value : byte[])
 ```
 
-#### Property Value
+### Property Value
 
-Type: array\<[System.Byte](https://msdn.microsoft.com/en-us/library/yyb1w04y\(v=vs.95\))\[\]  
-A [Byte](https://msdn.microsoft.com/en-us/library/yyb1w04y\(v=vs.95\)) array.
+Type: array\<[System.Byte](https://msdn.microsoft.com/library/yyb1w04y\(v=vs.95\))\[\]  
+A [Byte](https://msdn.microsoft.com/library/yyb1w04y\(v=vs.95\)) array.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ProtectionHeader Class](protectionheader-class-microsoft-web-media-smoothstreaming_1.md)
 

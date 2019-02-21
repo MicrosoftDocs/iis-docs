@@ -1,15 +1,7 @@
 ---
-title: "IHttpRequest::NegotiateClientCertificate Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpRequest::NegotiateClientCertificate Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c140602f-90ef-75b2-ce8e-676a3b8a722f
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpRequest::NegotiateClientCertificate Method
 Initiates client certificate negotiation with a Web client.  
@@ -23,7 +15,7 @@ HRESULT NegotiateClientCertificate(
 )   
 ```  
   
-#### Parameters  
+### Parameters  
  `fAsync`  
  [IN] `true` to specify that negotiation should occur asynchronously; otherwise, `false`.  
   

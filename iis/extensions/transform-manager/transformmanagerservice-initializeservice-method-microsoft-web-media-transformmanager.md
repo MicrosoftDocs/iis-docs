@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.InitializeService
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # InitializeService Method
@@ -36,7 +35,7 @@ Initializes the IIS Transform Manager service using the specified service creden
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <PrincipalPermissionAttribute(SecurityAction.Demand, Role := "Administrators")> _
 Public Function InitializeService ( _
@@ -51,14 +50,14 @@ Dim returnValue As Boolean
 returnValue = instance.InitializeService(serviceCredential)
 ```
 
-``` csharp
+```csharp
 [PrincipalPermissionAttribute(SecurityAction.Demand, Role = "Administrators")]
 public bool InitializeService(
     Credential serviceCredential
 )
 ```
 
-``` c++
+```cpp
 [PrincipalPermissionAttribute(SecurityAction::Demand, Role = L"Administrators")]
 public:
 virtual bool InitializeService(
@@ -75,29 +74,29 @@ override InitializeService :
         serviceCredential:Credential -> bool 
 ```
 
-``` jscript
+```jscript
   public final function InitializeService(
     serviceCredential : Credential
 ) : boolean
 ```
 
-#### Parameters
+### Parameters
 
   - serviceCredential  
-    Type: [Microsoft.Web.Media.TransformManager. . :: . .Credential](credential-class-microsoft-web-media-transformmanager.md)  
+    Type: [Microsoft.Web.Media.TransformManager.Credential](credential-class-microsoft-web-media-transformmanager.md)  
     The [Credential](credential-class-microsoft-web-media-transformmanager.md) object that will allow the service to start and run.  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 
-#### Implements
+### Implements
 
-[IManagementService. . :: . .InitializeService(Credential)](imanagementservice-initializeservice-method-microsoft-web-media-transformmanager.md)  
+[IManagementService.InitializeService(Credential)](imanagementservice-initializeservice-method-microsoft-web-media-transformmanager.md)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TransformManagerService Class](transformmanagerservice-class-microsoft-web-media-transformmanager.md)
 

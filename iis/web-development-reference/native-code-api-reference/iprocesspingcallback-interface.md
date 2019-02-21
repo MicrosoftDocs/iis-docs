@@ -1,15 +1,7 @@
 ---
-title: "IProcessPingCallback Interface | Microsoft Docs"
-ms.custom: ""
+title: "IProcessPingCallback Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 1dc21793-7db9-156b-9685-167462097678
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessPingCallback Interface
 Provides functionality to respond to a ping request.  

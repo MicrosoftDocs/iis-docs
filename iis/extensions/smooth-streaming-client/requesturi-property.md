@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the original request URI.
 
 ## Syntax
 
-``` csharp
+```csharp
 public Uri RequestUri { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property Uri^ RequestUri {
 Uri^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get RequestUri () : Uri
 ```
 

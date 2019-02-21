@@ -1,15 +1,7 @@
 ---
-title: "IHttpModuleRegistrationInfo::SetGlobalNotifications Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpModuleRegistrationInfo::SetGlobalNotifications Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a3d195c5-6bf1-27c5-d9a4-6be71d081161
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpModuleRegistrationInfo::SetGlobalNotifications Method
 Registers the global-level notifications for a module.  
@@ -23,7 +15,7 @@ virtual HRESULT SetGlobalNotifications(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pGlobalModule`  
  [IN] A pointer to a [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) class.  
   
@@ -47,7 +39,7 @@ virtual HRESULT SetGlobalNotifications(
  The `SetGlobalNotifications` method requires a pointer to a `CGlobalModule` class, and IIS will automatically create an instance of that class.  
   
 > [!NOTE]
->  The `CGlobalModule` class must define a [Terminate](../../web-development-reference\native-code-api-reference/cglobalmodule-terminate-method.md) method.  
+> The `CGlobalModule` class must define a [Terminate](../../web-development-reference\native-code-api-reference/cglobalmodule-terminate-method.md) method.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that uses the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function and the following methods to register a module for global-level and request-level notifications.  
@@ -63,7 +55,7 @@ virtual HRESULT SetGlobalNotifications(
  The module responds to the registered notifications and writes entries to the application log in the Event Viewer.  
   
 > [!NOTE]
->  The entries in the Event Viewer will display "IISADMIN" as the event source.  
+> The entries in the Event Viewer will display "IISADMIN" as the event source.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpModuleRegistrationInfoSetGlobalNotifications#1](IHttpModuleRegistrationInfoSetGlobalNotifications#1)]  -->  
   

@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # ForeignKey Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [ForeignKey](foreignkey-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -30,11 +27,9 @@ The [ForeignKey](foreignkey-class-microsoft-web-management-databasemanager.md) t
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[PKTableName](foreignkey-pktablename-property-microsoft-web-management-databasemanager.md)|Gets or sets the table name of the primary key.|
 |![Public property](images/Dd565931.pubproperty(en-us,VS.90).gif "Public property")|[PKTableSchema](foreignkey-pktableschema-property-microsoft-web-management-databasemanager.md)|Gets or sets the schema table name of the primary key.|
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [ForeignKey Class](foreignkey-class-microsoft-web-management-databasemanager.md)
 

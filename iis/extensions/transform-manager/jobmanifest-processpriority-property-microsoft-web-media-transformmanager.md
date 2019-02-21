@@ -1,5 +1,5 @@
 ---
-title: JobManifest.ProcessPriority Property  (Microsoft.Web.Media.TransformManager)
+title: JobManifest.ProcessPriority Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ProcessPriority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.ProcessPriority
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanifest.processpriority(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_ProcessPriority
 - Microsoft.Web.Media.TransformManager.JobManifest.ProcessPriority
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ProcessPriority Property
@@ -36,7 +35,7 @@ ROBOTS: INDEX,FOLLOW
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property ProcessPriority As Integer
@@ -49,11 +48,11 @@ Dim value As Integer
 value = instance.ProcessPriority
 ```
 
-``` csharp
+```csharp
   public int ProcessPriority { get; }
 ```
 
-``` c++
+```cpp
   public:
 property int ProcessPriority {
     int get ();
@@ -64,17 +63,17 @@ property int ProcessPriority {
   member ProcessPriority : int
 ```
 
-``` jscript
+```jscript
   function get ProcessPriority () : int
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Int32](https://msdn.microsoft.com/en-us/library/td2s409d\(v=vs.90\))  
+Type: [System.Int32](https://msdn.microsoft.com/library/td2s409d)  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManifest Class](jobmanifest-class-microsoft-web-media-transformmanager.md)
 

@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.ITask.Start
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Start Method
@@ -36,7 +35,7 @@ Called by the framework to start the task immediately after the [Initialize(ITas
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Sub Start
@@ -47,11 +46,11 @@ Called by the framework to start the task immediately after the [Initialize(ITas
 instance.Start()
 ```
 
-``` csharp
+```csharp
   void Start()
 ```
 
-``` c++
+```cpp
   void Start()
 ```
 
@@ -59,13 +58,13 @@ instance.Start()
   abstract Start : unit -> unit 
 ```
 
-``` jscript
+```jscript
   function Start()
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ITask Interface](itask-interface-microsoft-web-media-transformmanager.md)
 

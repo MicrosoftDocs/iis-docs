@@ -1,15 +1,7 @@
 ---
-title: "IProcessHost::StartApplication Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHost::StartApplication Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 37eb4762-b0a0-286e-ed01-c57f159504a2
-caps.latest.revision: 17
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHost::StartApplication Method
 Starts the specified application.  
@@ -24,7 +16,7 @@ virtual HRESULT __stdcall StartApplication(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `appId`  
  A string that contains the unique application ID.  
   

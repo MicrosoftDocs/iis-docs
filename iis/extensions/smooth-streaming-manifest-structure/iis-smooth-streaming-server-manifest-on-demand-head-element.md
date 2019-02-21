@@ -22,17 +22,17 @@ The head element is a container for presentation-level metadata.
 
 The following sections describe attributes, child elements, and parent elements.
 
-#### Attributes
+### Attributes
 
 None
 
-#### Child Elements
+### Child Elements
 
 |Element|Description|
 |--- |--- |
 |**meta**|The meta element specifies a single piece of presentation-level metadata.|
 
-#### Parent Elements
+### Parent Elements
 
 |Element|Description|
 |--- |--- |
@@ -40,7 +40,7 @@ None
 
 ## See Also
 
-#### Reference
+### Reference
 
 [IIS Smooth Streaming Server Manifest (On-Demand) - smil Element](iis-smooth-streaming-server-manifest-on-demand-smil-element.md)
 

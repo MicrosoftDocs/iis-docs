@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethodCollection::Item Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethodCollection::Item Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 20d6b0bc-5c11-44ca-bb02-91440c404d5b
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethodCollection::Item Property
 Gets the [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md) that is specified by the requested index.  
@@ -23,7 +15,7 @@ Gets the [IAppHostMethod Interface](../../web-development-reference\native-code-
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `cIndex`  
  A `VARIANT` that specifies which `IAppHostMethod` is being selected from the collection. If the `VARIANT` is of type integer, the index is a zero-based index to the collection. If the VARIANT is of type string, the index is the name of the method being accessed.  
   

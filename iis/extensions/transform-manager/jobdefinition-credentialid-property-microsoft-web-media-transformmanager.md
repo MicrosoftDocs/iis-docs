@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.CredentialId Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.CredentialId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CredentialId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.CredentialId
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.credentialid(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_CredentialId
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_CredentialId
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # CredentialId Property
@@ -40,7 +39,7 @@ Gets or sets a GUID that identifies the credential that is associated with this 
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property CredentialId As String
@@ -56,12 +55,12 @@ value = instance.CredentialId
 instance.CredentialId = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string CredentialId { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ CredentialId {
@@ -75,14 +74,14 @@ property String^ CredentialId {
 member CredentialId : string with get, set
 ```
 
-``` jscript
+```jscript
   function get CredentialId () : String
 function set CredentialId (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The GUID that identifies the credential that is associated with this job definition.  
 
 ## Remarks
@@ -91,7 +90,7 @@ The credential is used by the job manager to access resources for jobs.
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

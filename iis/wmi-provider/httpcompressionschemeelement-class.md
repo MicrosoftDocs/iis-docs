@@ -1,15 +1,7 @@
 ---
-title: "HttpCompressionSchemeElement Class | Microsoft Docs"
-ms.custom: ""
+title: "HttpCompressionSchemeElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ac61f270-669f-7a6f-08fe-88a293426d7a
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpCompressionSchemeElement Class
 Configures a compression scheme for dynamic or static content.  

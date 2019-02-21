@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 - jscript
 ---
 
@@ -20,18 +20,18 @@ Gets the manifest.
 
 ## Syntax
 
-``` csharp
+```csharp
 public Manifest Manifest { get; }
 ```
 
-``` c++
+```cpp
 public:
 virtual property Manifest^ Manifest {
 Manifest^ get () sealed;
 }
 ```
 
-``` jscript
+```jscript
 final function get Manifest () : Manifest
 ```
 

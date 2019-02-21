@@ -1,5 +1,5 @@
 ---
-title: JobManager.Template Property  (Microsoft.Web.Media.TransformManager)
+title: JobManager.Template Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Template Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.Template
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.template(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.Template
 - Microsoft.Web.Media.TransformManager.JobManager.get_Template
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Template Property
@@ -38,7 +37,7 @@ Gets the job template that defines the tasks for this job.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property Template As XElement
@@ -51,11 +50,11 @@ Dim value As XElement
 value = instance.Template
 ```
 
-``` csharp
+```csharp
   public XElement Template { get; }
 ```
 
-``` c++
+```cpp
   public:
 property XElement^ Template {
     XElement^ get ();
@@ -66,18 +65,18 @@ property XElement^ Template {
   member Template : XElement
 ```
 
-``` jscript
+```jscript
   function get Template () : XElement
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 The job template that defines the tasks for this job.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

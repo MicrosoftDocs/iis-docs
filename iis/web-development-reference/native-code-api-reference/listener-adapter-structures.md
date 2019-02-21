@@ -1,15 +1,7 @@
 ---
-title: "Listener Adapter Structures | Microsoft Docs"
-ms.custom: ""
+title: "Listener Adapter Structures"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 38a87b10-3b8b-46fd-b3ae-8a2eeae99152
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Listener Adapter Structures
 This section describes the structures that support listener adapter callbacks, which enable the Windows Process Activation Service (WAS) to communicate information to a listener adapter.  

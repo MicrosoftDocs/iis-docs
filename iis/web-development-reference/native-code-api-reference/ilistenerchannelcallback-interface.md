@@ -1,15 +1,7 @@
 ---
-title: "IListenerChannelCallback Interface | Microsoft Docs"
-ms.custom: ""
+title: "IListenerChannelCallback Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a44e1556-723f-91a8-46e5-5553b676d201
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IListenerChannelCallback Interface
 Provides listener-channel notifications from protocol handlers to the worker process framework. Also allows protocol handlers to access additional parameters, such as the ID of the listener channel.  

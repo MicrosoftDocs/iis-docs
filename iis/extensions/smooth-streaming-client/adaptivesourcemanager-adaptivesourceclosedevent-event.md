@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- c++
+- "cpp"
 ---
 
 # AdaptiveSourceManager.AdaptiveSourceClosedEvent Event
@@ -19,11 +19,11 @@ Adds or removes a subscription to AdaptiveSourceClosedEvent events. Those events
 
 ## Syntax
 
-``` csharp
+```csharp
 public event AdaptiveSourceClosedEventHandler AdaptiveSourceClosedEvent
 ```
 
-``` c++
+```cpp
 public:
 virtual  event AdaptiveSourceClosedEventHandler^ AdaptiveSourceClosedEvent {
 void add (AdaptiveSourceClosedEventHandler^ value);

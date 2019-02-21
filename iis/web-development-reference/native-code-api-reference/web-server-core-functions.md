@@ -1,15 +1,7 @@
 ---
-title: "Web Server Core Functions | Microsoft Docs"
-ms.custom: ""
+title: "Web Server Core Functions"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 2fb1a740-c0e8-4a93-b002-3b1fb735cf92
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # Web Server Core Functions
 This section describes the Web Server Core and integrated request-processing pipeline functions.  

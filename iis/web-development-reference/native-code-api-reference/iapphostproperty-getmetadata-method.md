@@ -1,15 +1,7 @@
 ---
-title: "IAppHostProperty::GetMetadata Method | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostProperty::GetMetadata Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 53ff5239-6b31-1fd2-4f9d-4779adf27628
-caps.latest.revision: 12
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostProperty::GetMetadata Method
 Gets metadata values for the current property.  
@@ -25,7 +17,7 @@ HRESULT GetMetadata(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `bstrMetadataType`  
  A `BSTR` that contains the name of the metadata being requested.  
   

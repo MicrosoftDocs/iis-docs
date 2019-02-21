@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.ReadTraceConfig Method (String)
@@ -34,7 +33,7 @@ Reads trace configuration settings from the XML data that is specified by xmlCon
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Sub ReadTraceConfig ( _
@@ -47,13 +46,13 @@ Dim xmlConfig As String
 Tracing.ReadTraceConfig(xmlConfig)
 ```
 
-``` csharp
+```csharp
 public static void ReadTraceConfig(
     string xmlConfig
 )
 ```
 
-``` c++
+```cpp
 public:
 static void ReadTraceConfig(
     String^ xmlConfig
@@ -65,31 +64,31 @@ static member ReadTraceConfig :
         xmlConfig:string -> unit 
 ```
 
-``` jscript
+```jscript
 public static function ReadTraceConfig(
     xmlConfig : String
 )
 ```
 
-#### Parameters
+### Parameters
 
   - xmlConfig  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     A string value that contains an XML configuration.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

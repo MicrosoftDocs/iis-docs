@@ -1,5 +1,5 @@
 ---
-title: TraceEntry.Date Property  (Microsoft.Web.Media.Diagnostics)
+title: TraceEntry.Date Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Date Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.Date
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.diagnostics.traceentry.date(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.get_Date
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_Date
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceEntry.Date Property
@@ -40,7 +39,7 @@ Gets or sets the Date property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Date As DateTime
@@ -56,11 +55,11 @@ value = instance.Date
 instance.Date = value
 ```
 
-``` csharp
+```csharp
 public DateTime Date { get; set; }
 ```
 
-``` c++
+```cpp
 public:
 property DateTime Date {
     DateTime get ();
@@ -72,29 +71,29 @@ property DateTime Date {
 member Date : DateTime with get, set
 ```
 
-``` jscript
+```jscript
 function get Date () : DateTime
 function set Date (value : DateTime)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.DateTime](https://msdn.microsoft.com/en-us/library/03ybds8y\(v=vs.95\))  
+Type: [System.DateTime](https://msdn.microsoft.com/library/03ybds8y\(v=vs.95\))  
 A DateTime object that specifies the date and time of the trace entry.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [TraceEntry Class](traceentry-class-microsoft-web-media-diagnostics_1.md)
 

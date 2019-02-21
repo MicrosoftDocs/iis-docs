@@ -1,15 +1,7 @@
 ---
-title: "HandlerAction Class | Microsoft Docs"
-ms.custom: ""
+title: "HandlerAction Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 68538138-fb53-ff14-d44e-d4dd82928822
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HandlerAction Class
 Exposes configuration settings for handlers.  
@@ -64,7 +56,7 @@ class HandlerAction : CollectionElement
  The following table lists the possible values for the `RequireAccess` property. The default is 3 (`Script`).  
   
 > [!NOTE]
->  Settings in the `AccessPolicy` property of the [HandlersSection](../wmi-provider/handlerssection-class.md) class determine which rights are permitted and, therefore, what handlers are allowed to execute.  
+> Settings in the `AccessPolicy` property of the [HandlersSection](../wmi-provider/handlerssection-class.md) class determine which rights are permitted and, therefore, what handlers are allowed to execute.  
   
 |Value|Keyword|Description|  
 |-----------|-------------|-----------------|  
@@ -77,7 +69,7 @@ class HandlerAction : CollectionElement
  The following table lists the possible values for the `ResourceType` property. The default is 3 (`Unspecified`).  
   
 > [!NOTE]
->  This property is labeled **Path Type** in [!INCLUDE[iismgr](../wmi-provider/includes/iismgr-md.md)].  
+> This property is labeled **Path Type** in [!INCLUDE[iismgr](../wmi-provider/includes/iismgr-md.md)].  
   
 |Value|Keyword|Description|  
 |-----------|-------------|-----------------|  
@@ -90,7 +82,7 @@ class HandlerAction : CollectionElement
  The following example adds three different categories of handlers to the `<handlers>` section: a legacy script map handler, two native module handlers, and a managed handler.  
   
 > [!NOTE]
->  Adding or removing a configuration element changes the underlying configuration section, but not the object variable in script that represents the configuration section. In order for the change to appear in your scripts, you must call the WMI `Refresh_` method on the object variable after you make the change. This will update the object variable with the latest data from the configuration store.  
+> Adding or removing a configuration element changes the underlying configuration section, but not the object variable in script that represents the configuration section. In order for the change to appear in your scripts, you must call the WMI `Refresh_` method on the object variable after you make the change. This will update the object variable with the latest data from the configuration store.  
   
 ```  
 ' Connect to the WMI WebAdministration namespace.  

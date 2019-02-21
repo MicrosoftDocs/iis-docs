@@ -9,11 +9,11 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.TransformManager.Utilities.GetAssemblyInfo
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # GetAssemblyInfo Method
@@ -36,7 +35,7 @@ Returns assembly information from the manifest.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Function GetAssemblyInfo ( _
@@ -50,13 +49,13 @@ Dim returnValue As String
 returnValue = Utilities.GetAssemblyInfo(type)
 ```
 
-``` csharp
+```csharp
   public static string GetAssemblyInfo(
     string type
 )
 ```
 
-``` c++
+```cpp
   public:
 static String^ GetAssemblyInfo(
     String^ type
@@ -68,26 +67,26 @@ static String^ GetAssemblyInfo(
         type:string -> string 
 ```
 
-``` jscript
+```jscript
   public static function GetAssemblyInfo(
     type : String
 ) : String
 ```
 
-#### Parameters
+### Parameters
 
   - type  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     Job metadata that is contained in the taskCode node of the manifest.  
 
-#### Return Value
+### Return Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 Assembly information that is contained in the type element of the taskCode node of the manifest.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Utilities Class](utilities-class-microsoft-web-media-transformmanager.md)
 

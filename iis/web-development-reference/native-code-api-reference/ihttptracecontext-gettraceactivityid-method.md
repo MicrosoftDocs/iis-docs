@@ -1,15 +1,7 @@
 ---
-title: "IHttpTraceContext::GetTraceActivityId Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpTraceContext::GetTraceActivityId Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: f3398f6c-34ce-4051-9dca-f2a1f8726395
-caps.latest.revision: 21
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpTraceContext::GetTraceActivityId Method
 Returns the trace activity identifier for the trace context.  
@@ -21,7 +13,7 @@ virtual LPCGUID GetTraceActivityId(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

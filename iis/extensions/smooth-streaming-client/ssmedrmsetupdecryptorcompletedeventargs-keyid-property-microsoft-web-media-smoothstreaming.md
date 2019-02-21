@@ -1,5 +1,5 @@
 ---
-title: SSMEDrmSetupDecryptorCompletedEventArgs.KeyId Property  (Microsoft.Web.Media.SmoothStreaming)
+title: SSMEDrmSetupDecryptorCompletedEventArgs.KeyId Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: KeyId Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs.KeyId
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.ssmedrmsetupdecryptorcompletedeventargs.keyid(v=VS.95)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs.KeyId
 - Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs.get_KeyId
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SSMEDrmSetupDecryptorCompletedEventArgs.KeyId Property
@@ -38,7 +37,7 @@ Gets the KeyID of the decryptor being set up.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public ReadOnly Property KeyId As Guid
@@ -51,11 +50,11 @@ Dim value As Guid
 value = instance.KeyId
 ```
 
-``` csharp
+```csharp
 public Guid KeyId { get; }
 ```
 
-``` c++
+```cpp
 public:
 property Guid KeyId {
     Guid get ();
@@ -66,24 +65,24 @@ property Guid KeyId {
 member KeyId : Guid
 ```
 
-``` jscript
+```jscript
 function get KeyId () : Guid
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Guid](https://msdn.microsoft.com/en-us/library/cey1zx63\(v=vs.95\))  
+Type: [System.Guid](https://msdn.microsoft.com/library/cey1zx63\(v=vs.95\))  
 The KeyID GUID.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SSMEDrmSetupDecryptorCompletedEventArgs Class](ssmedrmsetupdecryptorcompletedeventargs-class-microsoft-web-media-smoothstreaming.md)
 

@@ -13,10 +13,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedAction.StreamDeselected
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedAction.StreamSelected
 dev_langs:
-- CSharp
-- JScript
-- VB
-- c++
+- "csharp"
+- "jscript"
+- "vb"
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -31,7 +31,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamUpdatedEventArgs.StreamUpdatedAction Enumeration
@@ -43,7 +42,7 @@ Action enumeration for the StreamSelected()()()(), ChunkAdded()()()() and Tracks
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Enumeration StreamUpdatedAction
@@ -52,31 +51,31 @@ Action enumeration for the StreamSelected()()()(), ChunkAdded()()()() and Tracks
   Dim instance As StreamUpdatedEventArgs.StreamUpdatedAction
 ```
 
-``` csharp
+```csharp
   public enum StreamUpdatedAction
 ```
 
-``` c++
+```cpp
   public enum class StreamUpdatedAction
 ```
 
-``` jscript
+```jscript
   public enum StreamUpdatedAction
 ```
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.SmoothStreaming Namespace](microsoft-web-media-smoothstreaming-namespace_1.md)
 

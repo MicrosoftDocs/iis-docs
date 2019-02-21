@@ -9,11 +9,11 @@ mtps_version: v=VS.95
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SmoothStreamingSourceProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -24,7 +24,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.SmoothStreamingSourceProperty Field
@@ -36,7 +35,7 @@ Represents a dependency property that specifies the [SmoothStreamingSource](smoo
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared ReadOnly SmoothStreamingSourceProperty As DependencyProperty
@@ -47,11 +46,11 @@ Dim value As DependencyProperty
 value = SmoothStreamingMediaElement.SmoothStreamingSourceProperty
 ```
 
-``` csharp
+```csharp
 public static readonly DependencyProperty SmoothStreamingSourceProperty
 ```
 
-``` c++
+```cpp
 public:
 static initonly DependencyProperty^ SmoothStreamingSourceProperty
 ```
@@ -60,7 +59,7 @@ static initonly DependencyProperty^ SmoothStreamingSourceProperty
 static val SmoothStreamingSourceProperty: DependencyProperty
 ```
 
-``` jscript
+```jscript
 public static final var SmoothStreamingSourceProperty : DependencyProperty
 ```
 
@@ -74,17 +73,17 @@ Use this member to assign a Smooth Streaming source. For other media data that i
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [SmoothStreamingMediaElement Class](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md)
 

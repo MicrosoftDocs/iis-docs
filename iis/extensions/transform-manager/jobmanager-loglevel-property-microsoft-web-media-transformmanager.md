@@ -1,5 +1,5 @@
 ---
-title: JobManager.LogLevel Property  (Microsoft.Web.Media.TransformManager)
+title: JobManager.LogLevel Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogLevel Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.LogLevel
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobmanager.loglevel(v=VS.90)
@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.get_LogLevel
 - Microsoft.Web.Media.TransformManager.JobManager.LogLevel
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:
@@ -26,7 +26,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LogLevel Property
@@ -38,7 +37,7 @@ Gets a log level value that is contained in the log level element of the IIS Tra
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public ReadOnly Property LogLevel As LogLevel
@@ -51,11 +50,11 @@ Dim value As LogLevel
 value = instance.LogLevel
 ```
 
-``` csharp
+```csharp
   public LogLevel LogLevel { get; }
 ```
 
-``` c++
+```cpp
   public:
 property LogLevel LogLevel {
     LogLevel get ();
@@ -66,18 +65,18 @@ property LogLevel LogLevel {
   member LogLevel : LogLevel
 ```
 
-``` jscript
+```jscript
   function get LogLevel () : LogLevel
 ```
 
-#### Property Value
+### Property Value
 
-Type: [Microsoft.Web.Media.TransformManager. . :: . .LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
+Type: [Microsoft.Web.Media.TransformManager.LogLevel](loglevel-enumeration-microsoft-web-media-transformmanager.md)  
 A log level value that is contained in the log level element of the IIS Transform Manager configuration.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobManager Class](jobmanager-class-microsoft-web-media-transformmanager.md)
 

@@ -1,5 +1,5 @@
 ---
-title: JobDefinition.SchedulerUseNodeProfile Property  (Microsoft.Web.Media.TransformManager)
+title: JobDefinition.SchedulerUseNodeProfile Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerUseNodeProfile Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerUseNodeProfile
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.jobdefinition.schedulerusenodeprofile(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_SchedulerUseNodeProfile
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_SchedulerUseNodeProfile
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerUseNodeProfile Property
@@ -40,7 +39,7 @@ Gets or sets a value that determines whether the HPC scheduler should use the [S
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property SchedulerUseNodeProfile As Boolean
@@ -56,12 +55,12 @@ value = instance.SchedulerUseNodeProfile
 instance.SchedulerUseNodeProfile = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public bool SchedulerUseNodeProfile { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property bool SchedulerUseNodeProfile {
@@ -75,14 +74,14 @@ property bool SchedulerUseNodeProfile {
 member SchedulerUseNodeProfile : bool with get, set
 ```
 
-``` jscript
+```jscript
   function get SchedulerUseNodeProfile () : boolean
 function set SchedulerUseNodeProfile (value : boolean)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .Boolean](https://msdn.microsoft.com/en-us/library/a28wyd50\(v=vs.90\))  
+Type: [System.Boolean](https://msdn.microsoft.com/library/a28wyd50)  
 true if the HPC scheduler should use the [SchedulerCpus](jobdefinition-schedulercpus-property-microsoft-web-media-transformmanager.md), [SchedulerMemory](jobdefinition-schedulermemory-property-microsoft-web-media-transformmanager.md) and [SchedulerNodeGroups](jobdefinition-schedulernodegroups-property-microsoft-web-media-transformmanager.md) properties when a job is transformed; otherwise, false.  
 
 ## Remarks
@@ -93,7 +92,7 @@ HPC also enables compute nodes to be collected into node groups. If a node group
 
 ## See Also
 
-#### Reference
+### Reference
 
 [JobDefinition Class](jobdefinition-class-microsoft-web-media-transformmanager.md)
 

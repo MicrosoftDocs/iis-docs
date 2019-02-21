@@ -1,15 +1,7 @@
 ---
-title: "CHttpModule::OnEndRequest Method | Microsoft Docs"
-ms.custom: ""
+title: "CHttpModule::OnEndRequest Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 7a21aa28-ef78-c89d-c0cd-3f9f12e6aab9
-caps.latest.revision: 14
-author: "shirhatti"
-manager: "wpickett"
 ---
 # CHttpModule::OnEndRequest Method
 Represents the method that will handle an `EndRequest` event, which occurs as the last event in the HTTP integrated request-processing pipeline for the current request.  
@@ -23,7 +15,7 @@ virtual REQUEST_NOTIFICATION_STATUS OnEndRequest(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `pHttpContext`  
  [IN] A pointer to an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) interface.  
   

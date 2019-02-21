@@ -14,11 +14,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity.Error
 - Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity.MissingRequiredProperty
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -34,21 +34,20 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationMessageSeverity Enumeration
 
 Specifies how to display IIS Transform Manager configuration messages.
 
-This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/en-us/library/dk06fkbc\(v=vs.90\)) attribute that allows a bitwise combination of its member values.
+This enumeration has a [FlagsAttribute](https://msdn.microsoft.com/library/dk06fkbc) attribute that allows a bitwise combination of its member values.
 
 **Namespace:**  [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md)  
 **Assembly:**  Microsoft.Web.Media.TransformManager.Common (in Microsoft.Web.Media.TransformManager.Common.dll)
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <FlagsAttribute> _
 Public Enumeration ConfigurationMessageSeverity
@@ -57,12 +56,12 @@ Public Enumeration ConfigurationMessageSeverity
   Dim instance As ConfigurationMessageSeverity
 ```
 
-``` csharp
+```csharp
 [FlagsAttribute]
 public enum ConfigurationMessageSeverity
 ```
 
-``` c++
+```cpp
 [FlagsAttribute]
 public enum class ConfigurationMessageSeverity
 ```
@@ -72,13 +71,13 @@ public enum class ConfigurationMessageSeverity
 type ConfigurationMessageSeverity
 ```
 
-``` jscript
+```jscript
   public enum ConfigurationMessageSeverity
 ```
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Microsoft.Web.Media.TransformManager Namespace](microsoft-web-media-transformmanager-namespace.md)
 

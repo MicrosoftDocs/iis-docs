@@ -1,15 +1,7 @@
 ---
-title: "IScriptMapInfo::GetAllowedVerbs Method | Microsoft Docs"
-ms.custom: ""
+title: "IScriptMapInfo::GetAllowedVerbs Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: d3e0a65b-859d-b782-9469-4979ae0fb7bd
-caps.latest.revision: 19
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IScriptMapInfo::GetAllowedVerbs Method
 Retrieves the list of allowed verbs for a script map.  
@@ -22,7 +14,7 @@ virtual PCSTR GetAllowedVerbs(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

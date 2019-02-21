@@ -1,5 +1,5 @@
 ---
-title: ConfigurationBase.LogLevelElement Property  (Microsoft.Web.Media.TransformManager)
+title: ConfigurationBase.LogLevelElement Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogLevelElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.LogLevelElement
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.configurationbase.loglevelelement(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.get_LogLevelElement
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.LogLevelElement
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # LogLevelElement Property
@@ -40,7 +39,7 @@ Gets or sets an XML element that contains log level details.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Property LogLevelElement As XElement
@@ -56,11 +55,11 @@ value = instance.LogLevelElement
 instance.LogLevelElement = value
 ```
 
-``` csharp
+```csharp
   public XElement LogLevelElement { get; set; }
 ```
 
-``` c++
+```cpp
   public:
 property XElement^ LogLevelElement {
     XElement^ get ();
@@ -72,19 +71,19 @@ property XElement^ LogLevelElement {
   member LogLevelElement : XElement with get, set
 ```
 
-``` jscript
+```jscript
   function get LogLevelElement () : XElement
 function set LogLevelElement (value : XElement)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Xml.Linq. . :: . .XElement](https://msdn.microsoft.com/en-us/library/bb340098\(v=vs.90\))  
+Type: [System.Xml.Linq.XElement](https://msdn.microsoft.com/library/bb340098)  
 The XML element that contains log level details.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ConfigurationBase Class](configurationbase-class-microsoft-web-media-transformmanager.md)
 

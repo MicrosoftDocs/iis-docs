@@ -1,15 +1,7 @@
 ---
-title: "IPmListenerChannelManager Interface | Microsoft Docs"
-ms.custom: ""
+title: "IPmListenerChannelManager Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 044efded-da6d-ea48-0759-b8188c824be7
-caps.latest.revision: 18
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IPmListenerChannelManager Interface
 Enables the worker process framework to request that a protocol manager start or stop a listener channel.  

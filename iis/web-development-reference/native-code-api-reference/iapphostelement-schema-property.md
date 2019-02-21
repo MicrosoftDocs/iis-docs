@@ -1,15 +1,7 @@
 ---
-title: "IAppHostElement::Schema Property | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostElement::Schema Property"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 43321703-38ff-f769-26c9-5a584c4ad3cc
-caps.latest.revision: 10
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostElement::Schema Property
 Gets the schema that is assigned to the current element.  
@@ -23,7 +15,7 @@ HRESULT get_Schema(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  `ppSchema`  
  A pointer to a pointer for the [IAppHostElementSchema](../../web-development-reference\native-code-api-reference/iapphostelementschema-interface.md) interface that is assigned to the current element.  
   

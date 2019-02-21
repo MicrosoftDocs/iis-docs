@@ -1,15 +1,7 @@
 ---
-title: "KeyValueElement Class | Microsoft Docs"
-ms.custom: ""
+title: "KeyValueElement Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: a030ba4e-b37a-d066-ecdb-6a8d9bd4a708
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # KeyValueElement Class
 Contains a key/value pair that represents a setting for a Web application.  

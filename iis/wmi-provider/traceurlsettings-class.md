@@ -1,15 +1,7 @@
 ---
-title: "TraceUrlSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "TraceUrlSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: c16f8710-8787-48f5-ab0c-ada65e56d237
-caps.latest.revision: 9
-author: "shirhatti"
-manager: "wpickett"
 ---
 # TraceUrlSettings Class
 Specifies tracing for specific types of requests.  

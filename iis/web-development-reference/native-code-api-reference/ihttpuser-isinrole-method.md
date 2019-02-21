@@ -1,15 +1,7 @@
 ---
-title: "IHttpUser::IsInRole Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpUser::IsInRole Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 578b34a8-b697-0f48-20d0-4cf448388c91
-caps.latest.revision: 33
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IHttpUser::IsInRole Method
 Returns a value that indicates whether the user is authorized for a named role.  
@@ -23,7 +15,7 @@ virtual HRESULT IsInRole(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `pszRoleName`  
  [IN] A pointer to a constant null-terminated Unicode string that contains the name of the role.  
   

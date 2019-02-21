@@ -10,9 +10,6 @@ mtps_version: v=VS.90
 
 # Column Properties
 
-Include Protected Members  
-Include Inherited Members  
-
 The [Column](column-class-microsoft-web-management-databasemanager.md) type exposes the following members.
 
 ## Properties
@@ -35,11 +32,9 @@ The [Column](column-class-microsoft-web-management-databasemanager.md) type expo
 ||[TypeInfo](column-typeinfo-property-microsoft-web-management-databasemanager.md)|Retrieves the type information for a column.|
 
 
-Top
-
 ## See Also
 
-#### Reference
+### Reference
 
 [Column Class](column-class-microsoft-web-management-databasemanager.md)
 

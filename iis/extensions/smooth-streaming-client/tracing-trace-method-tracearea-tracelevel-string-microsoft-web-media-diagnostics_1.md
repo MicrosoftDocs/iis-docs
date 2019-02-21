@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - fsharp
 - jscript
 api_location:
@@ -22,7 +22,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.Trace Method (TraceArea, TraceLevel, String)
@@ -34,7 +33,7 @@ Traces a diagnostic message that is specified by the parameters.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Shared Sub Trace ( _
@@ -52,7 +51,7 @@ Tracing.Trace(traceArea, traceLevel, _
     line)
 ```
 
-``` csharp
+```csharp
 public static void Trace(
     TraceArea traceArea,
     TraceLevel traceLevel,
@@ -60,7 +59,7 @@ public static void Trace(
 )
 ```
 
-``` c++
+```cpp
 public:
 static void Trace(
     TraceArea traceArea, 
@@ -76,7 +75,7 @@ static member Trace :
         line:string -> unit 
 ```
 
-``` jscript
+```jscript
 public static function Trace(
     traceArea : TraceArea, 
     traceLevel : TraceLevel, 
@@ -84,7 +83,7 @@ public static function Trace(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - traceArea  
     Type: [Microsoft.Web.Media.Diagnostics.TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
@@ -99,22 +98,22 @@ public static function Trace(
 <!-- end list -->
 
   - line  
-    Type: [System.String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.95\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf\(v=vs.95\))  
     A string value that specifies the text of the output message.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
-#### Windows Phone
+### Windows Phone
 
 Supported in: Windows Phone OS 7.1, Windows Phone OS 7.0  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 

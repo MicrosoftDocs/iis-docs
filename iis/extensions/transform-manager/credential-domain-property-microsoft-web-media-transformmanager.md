@@ -1,5 +1,5 @@
 ---
-title: Credential.Domain Property  (Microsoft.Web.Media.TransformManager)
+title: Credential.Domain Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Domain Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.Domain
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.transformmanager.credential.domain(v=VS.90)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.Credential.Domain
 - Microsoft.Web.Media.TransformManager.Credential.set_Domain
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Domain Property
@@ -40,7 +39,7 @@ Gets or sets the credential domain.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 <DataMemberAttribute> _
 Public Property Domain As String
@@ -56,12 +55,12 @@ value = instance.Domain
 instance.Domain = value
 ```
 
-``` csharp
+```csharp
 [DataMemberAttribute]
 public string Domain { get; set; }
 ```
 
-``` c++
+```cpp
 [DataMemberAttribute]
 public:
 property String^ Domain {
@@ -75,19 +74,19 @@ property String^ Domain {
 member Domain : string with get, set
 ```
 
-``` jscript
+```jscript
   function get Domain () : String
 function set Domain (value : String)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
 The credential domain.  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Credential Class](credential-class-microsoft-web-media-transformmanager.md)
 

@@ -1,15 +1,7 @@
 ---
-title: "HttpLoggingSection Class1 | Microsoft Docs"
-ms.custom: ""
+title: "HttpLoggingSection Class1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 28d7825f-54f6-d715-c32b-13d911e6763d
-caps.latest.revision: 29
-author: "shirhatti"
-manager: "wpickett"
 ---
 # HttpLoggingSection Class1
 Configures the logging of HTTP requests.  

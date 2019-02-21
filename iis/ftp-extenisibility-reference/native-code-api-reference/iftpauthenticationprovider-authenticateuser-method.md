@@ -1,16 +1,8 @@
 ---
-title: "IFtpAuthenticationProvider::AuthenticateUser Method | Microsoft Docs"
-ms.custom: ""
+title: "IFtpAuthenticationProvider::AuthenticateUser Method"
 ms.date: "09/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: ab84c942-f9e5-4dc9-9c51-cb25906deb15
-caps.latest.revision: 8
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IFtpAuthenticationProvider::AuthenticateUser Method
 Checks to see whether a user name and password are valid.  
@@ -28,7 +20,7 @@ AuthenticateUser(
 )  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |||  
 |-|-|  

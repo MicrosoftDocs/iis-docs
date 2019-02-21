@@ -1,15 +1,7 @@
 ---
-title: "IProcessHostSupportFunctions::GetConfigToken Method | Microsoft Docs"
-ms.custom: ""
+title: "IProcessHostSupportFunctions::GetConfigToken Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 43754858-3e25-31c4-136b-686d91d75575
-caps.latest.revision: 16
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IProcessHostSupportFunctions::GetConfigToken Method
 Retrieves a Windows security token for the specified application’s root directory.  
@@ -23,7 +15,7 @@ virtual HRESULT __stdcall GetConfigToken(
 ) = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  `appId`  
  A string that contains the unique identifier of the application.  
   

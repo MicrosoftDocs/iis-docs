@@ -1,15 +1,7 @@
 ---
-title: "SqlCacheDependencyDatabaseSettings Class | Microsoft Docs"
-ms.custom: ""
+title: "SqlCacheDependencyDatabaseSettings Class"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 56136d82-beb3-4e0a-b744-e778b9af5b51
-caps.latest.revision: 8
-author: "shirhatti"
-manager: "wpickett"
 ---
 # SqlCacheDependencyDatabaseSettings Class
 Contains configuration settings for SQL data in an [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] cache.  

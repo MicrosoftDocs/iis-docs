@@ -1,15 +1,7 @@
 ---
-title: "IScriptMapInfo::GetAllowPathInfoForScriptMappings Method | Microsoft Docs"
-ms.custom: ""
+title: "IScriptMapInfo::GetAllowPathInfoForScriptMappings Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: decdb30f-9bb2-36e0-1b66-2baf79b4b1cd
-caps.latest.revision: 22
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IScriptMapInfo::GetAllowPathInfoForScriptMappings Method
 Retrieves a value that indicates whether a script map handler has the `allowPathInfo` attribute set to `true`.  
@@ -22,7 +14,7 @@ virtual BOOL GetAllowPathInfoForScriptMappings(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

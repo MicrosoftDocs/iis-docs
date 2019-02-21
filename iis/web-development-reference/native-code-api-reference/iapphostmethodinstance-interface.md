@@ -1,15 +1,7 @@
 ---
-title: "IAppHostMethodInstance Interface | Microsoft Docs"
-ms.custom: ""
+title: "IAppHostMethodInstance Interface"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: bd4b1420-4828-4fde-b0c9-5257cf408d5e
-caps.latest.revision: 7
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IAppHostMethodInstance Interface
 Provides methods that access a specific invocation instance of the corresponding [IAppHostMethod Interface](../../web-development-reference\native-code-api-reference/iapphostmethod-interface.md).  

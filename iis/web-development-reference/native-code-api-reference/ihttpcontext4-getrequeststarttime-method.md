@@ -1,16 +1,8 @@
 ---
-title: "IHttpContext4::GetRequestStartTime Method | Microsoft Docs"
-ms.custom: ""
+title: "IHttpContext4::GetRequestStartTime Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: e7af95c6-d1f5-4c0e-9a08-14374586a7c7
-caps.latest.revision: 3
-author: "shirhatti"
 ms.author: "robmcm"
-manager: "wpickett"
 ---
 # IHttpContext4::GetRequestStartTime Method
 Retrieves the start time of the request in milliseconds.  
@@ -27,7 +19,7 @@ virtual ULONGLONG GetRequestStartTime(
   
 ```  
   
-#### Parameters  
+### Parameters  
  This method accepts no parameters.  
   
 ## Return Value  

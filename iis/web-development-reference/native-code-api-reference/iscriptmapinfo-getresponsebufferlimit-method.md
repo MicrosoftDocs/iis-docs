@@ -1,15 +1,7 @@
 ---
-title: "IScriptMapInfo::GetResponseBufferLimit Method | Microsoft Docs"
-ms.custom: ""
+title: "IScriptMapInfo::GetResponseBufferLimit Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: df408156-d43c-bc1d-db9c-d1dc0dadc4ac
-caps.latest.revision: 13
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IScriptMapInfo::GetResponseBufferLimit Method
 Retrieves the response buffer limit for the script processor.  
@@ -22,7 +14,7 @@ virtual DWORD GetResponseBufferLimit(
 ) const = 0;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

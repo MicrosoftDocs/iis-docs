@@ -1,15 +1,7 @@
 ---
-title: "IUriKey::GetCacheName Method | Microsoft Docs"
-ms.custom: ""
+title: "IUriKey::GetCacheName Method"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 63be9189-08fd-0438-a200-e2813e698cbc
-caps.latest.revision: 38
-author: "shirhatti"
-manager: "wpickett"
 ---
 # IUriKey::GetCacheName Method
 Returns the name of the Uniform Resource Identifier (URI) cache.  
@@ -22,7 +14,7 @@ PCWSTR GetCacheName(
 ) const;  
 ```  
   
-#### Parameters  
+### Parameters  
  This method takes no parameters.  
   
 ## Return Value  

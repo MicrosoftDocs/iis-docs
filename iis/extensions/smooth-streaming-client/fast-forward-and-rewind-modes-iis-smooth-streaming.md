@@ -138,7 +138,7 @@ You can [download a Visual Studio solution](http://go.microsoft.com/fwlink/?link
 
 ## See Also
 
-#### Concepts
+### Concepts
 
 [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md)
 
@@ -148,7 +148,7 @@ You can [download a Visual Studio solution](http://go.microsoft.com/fwlink/?link
 
 [Timeline Markers and Events (IIS Smooth Streaming)](timeline-markers-and-events.md)
 
-#### Other Resources
+### Other Resources
 
 [IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
 

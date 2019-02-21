@@ -1,5 +1,5 @@
 ---
-title: ClipContext.Data Property  (Microsoft.Web.Media.SmoothStreaming)
+title: ClipContext.Data Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Data Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.Data
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/microsoft.web.media.smoothstreaming.clipcontext.data(v=VS.95)
@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.get_Data
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.set_Data
 dev_langs:
-- CSharp
-- JScript
-- VB
+- "csharp"
+- "jscript"
+- "vb"
 - FSharp
-- c++
+- "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -28,7 +28,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipContext.Data Property
@@ -40,7 +39,7 @@ Gets or sets the Data property.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
 Public Property Data As Object
@@ -54,11 +53,11 @@ Dim value As Object
 value = instance.Data
 ```
 
-``` csharp
+```csharp
 public Object Data { get; private set; }
 ```
 
-``` c++
+```cpp
 public:
 property Object^ Data {
     Object^ get ();
@@ -70,15 +69,15 @@ property Object^ Data {
 member Data : Object with get, private set
 ```
 
-``` jscript
+```jscript
 function get Data () : Object
 private function set Data (value : Object)
 ```
 
-#### Property Value
+### Property Value
 
-Type: [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\))  
-A [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.95\)) that contains media data.
+Type: [System.Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\))  
+A [Object](https://msdn.microsoft.com/library/e5kfa45b\(v=vs.95\)) that contains media data.
 
 ## Remarks
 
@@ -86,13 +85,13 @@ Any data passed by the player application.
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 5  
 
 ## See Also
 
-#### Reference
+### Reference
 
 [ClipContext Class](clipcontext-class-microsoft-web-media-smoothstreaming_1.md)
 

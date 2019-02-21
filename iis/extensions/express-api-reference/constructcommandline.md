@@ -1,14 +1,7 @@
 ---
-title: "ConstructCommandLine | Microsoft Docs"
-ms.custom: ""
+title: "ConstructCommandLine"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 9f3d0ab2-c083-471b-a6b1-160ab006c613
-caps.latest.revision: 7
-manager: "wpickett"
 ---
 # ConstructCommandLine
 Returns the command line that starts an IIS Express instance using the specified options.  
@@ -31,7 +24,7 @@ Returns the command line that starts an IIS Express instance using the specified
   
 ```  
   
-#### Parameters  
+### Parameters  
   
 -   [in] `bstrSite`  
   

@@ -1,15 +1,7 @@
 ---
-title: "ConfiguredObject.GetAllSections Method1 | Microsoft Docs"
-ms.custom: ""
+title: "ConfiguredObject.GetAllSections Method1"
 ms.date: "10/07/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 ms.assetid: 4c7fc67c-c762-1cc8-b9b4-6cb0a099dc57
-caps.latest.revision: 20
-author: "shirhatti"
-manager: "wpickett"
 ---
 # ConfiguredObject.GetAllSections Method1
 Retrieves all configuration sections under a configured object.  
@@ -24,7 +16,7 @@ ConfiguredObject.GetAllSections(Sections);
 ConfiguredObject.GetAllSections Sections  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Name|Description|  
 |----------|-----------------|  
@@ -45,7 +37,7 @@ ConfiguredObject.GetAllSections Sections
  Only one instance of each section is returned. The returned values are the effective configuration for the level of the [ConfiguredObject](../wmi-provider/configuredobject-class.md) that is being used. The path for all returned objects will match that of the `ConfiguredObject`.  
   
 > [!NOTE]
->  Only the objects at the level of the `ConfiguredObject` that you specify will be returned.  
+> Only the objects at the level of the `ConfiguredObject` that you specify will be returned.  
   
 ```  
 ' Connect to the WMI WebAministration namespace.  

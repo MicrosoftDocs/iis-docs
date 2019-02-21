@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- c++
+- "cpp"
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
@@ -21,7 +21,6 @@ topic_type:
 - apiref
 - kbSyntax
 product_family_name: VS
-ROBOTS: INDEX,FOLLOW
 ---
 
 # Trace Method (TraceArea, TraceLevel, String, Object\[\])
@@ -33,7 +32,7 @@ Traces a diagnostic message that is specified by the parameters.
 
 ## Syntax
 
-``` vb
+```vb
 'Declaration
 
   Public Shared Sub Trace ( _
@@ -53,7 +52,7 @@ Tracing.Trace(traceArea, traceLevel, _
     format, list)
 ```
 
-``` csharp
+```csharp
   public static void Trace(
     TraceArea traceArea,
     TraceLevel traceLevel,
@@ -62,7 +61,7 @@ Tracing.Trace(traceArea, traceLevel, _
 )
 ```
 
-``` c++
+```cpp
   public:
 static void Trace(
     TraceArea traceArea, 
@@ -72,7 +71,7 @@ static void Trace(
 )
 ```
 
-``` jscript
+```jscript
   public static function Trace(
     traceArea : TraceArea, 
     traceLevel : TraceLevel, 
@@ -81,47 +80,47 @@ static void Trace(
 )
 ```
 
-#### Parameters
+### Parameters
 
   - traceArea  
-    Type: [Microsoft.Web.Media.Diagnostics. . :: . .TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
+    Type: [Microsoft.Web.Media.Diagnostics.TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md)  
     A [TraceArea](tracearea-enumeration-microsoft-web-media-diagnostics_1.md) enumeration object.  
 
 <!-- end list -->
 
   - traceLevel  
-    Type: [Microsoft.Web.Media.Diagnostics. . :: . .TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md)  
+    Type: [Microsoft.Web.Media.Diagnostics.TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md)  
     A [TraceLevel](tracelevel-enumeration-microsoft-web-media-diagnostics_1.md) enumeration object.  
 
 <!-- end list -->
 
   - format  
-    Type: [System. . :: . .String](https://msdn.microsoft.com/en-us/library/s1wwdcbf\(v=vs.90\))  
+    Type: [System.String](https://msdn.microsoft.com/library/s1wwdcbf)  
     A string value that contains a formatting string for the parameters list.  
 
 <!-- end list -->
 
   - list  
-    Type: array\<[System. . :: . .Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\))\> \[\] () \[\] \[\]  
-    A [Object](https://msdn.microsoft.com/en-us/library/e5kfa45b\(v=vs.90\)) array that contains the parameters of the trace message.  
+    Type: array\<[System.Object](https://msdn.microsoft.com/library/e5kfa45b)\> \[\] () \[\] \[\]  
+    A [Object](https://msdn.microsoft.com/library/e5kfa45b) array that contains the parameters of the trace message.  
 
 ## Version Information
 
-#### Silverlight
+### Silverlight
 
 Supported in: 4  
 
-#### Silverlight for Windows Phone
+### Silverlight for Windows Phone
 
 Supported in: Windows Phone OS 7.0  
 
 ## Permissions
 
-  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/en-us/library/8skskf63\(v=vs.90\)).
+  - Full trust for the immediate caller. This member cannot be used by partially trusted code. For more information, see [Using Libraries from Partially Trusted Code](https://msdn.microsoft.com/library/8skskf63).
 
 ## See Also
 
-#### Reference
+### Reference
 
 [Tracing Class](tracing-class-microsoft-web-media-diagnostics_1.md)
 
