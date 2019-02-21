@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobTemplate.set_TaskDefinitions
 - Microsoft.Web.Media.TransformManager.JobTemplate.TaskDefinitions
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

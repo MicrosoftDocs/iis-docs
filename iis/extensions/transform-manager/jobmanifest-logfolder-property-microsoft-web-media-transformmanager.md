@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.LogFolder
 - Microsoft.Web.Media.TransformManager.JobManifest.set_LogFolder
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

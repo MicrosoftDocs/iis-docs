@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.InstanceFileName
 - Microsoft.Web.Media.TransformManager.JobDetails.set_InstanceFileName
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

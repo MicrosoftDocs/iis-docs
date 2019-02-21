@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_Smil20
 - Microsoft.Web.Media.TransformManager.IisNamespaces.Smil20
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

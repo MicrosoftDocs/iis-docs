@@ -18,10 +18,9 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.Index.GetChanges
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

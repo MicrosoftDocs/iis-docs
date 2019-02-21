@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_SuccessCodes
 - Microsoft.Web.Media.TransformManager.JobMetadata.SuccessCodes
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

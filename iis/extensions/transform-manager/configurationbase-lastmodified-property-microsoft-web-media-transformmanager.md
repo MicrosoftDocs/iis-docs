@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.LastModified
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_LastModified
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

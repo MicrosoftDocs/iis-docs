@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_StatusDescription
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.StatusDescription
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

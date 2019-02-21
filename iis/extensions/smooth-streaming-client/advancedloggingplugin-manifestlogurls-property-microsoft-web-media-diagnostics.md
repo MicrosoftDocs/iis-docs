@@ -20,10 +20,9 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.get_ManifestLogUrls
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.ManifestLogUrls
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

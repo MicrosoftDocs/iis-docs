@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_EndPosition
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_EndPosition
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

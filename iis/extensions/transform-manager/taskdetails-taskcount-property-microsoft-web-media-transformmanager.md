@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDetails.set_TaskCount
 - Microsoft.Web.Media.TransformManager.TaskDetails.TaskCount
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

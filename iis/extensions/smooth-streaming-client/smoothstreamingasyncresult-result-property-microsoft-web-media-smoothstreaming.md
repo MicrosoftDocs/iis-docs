@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.Result
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.set_Result
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

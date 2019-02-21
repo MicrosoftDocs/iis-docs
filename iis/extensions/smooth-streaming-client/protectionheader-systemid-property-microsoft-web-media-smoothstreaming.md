@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.set_SystemID
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.SystemID
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

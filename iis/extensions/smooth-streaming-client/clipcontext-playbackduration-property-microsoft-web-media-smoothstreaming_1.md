@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.PlaybackDuration
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.set_PlaybackDuration
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

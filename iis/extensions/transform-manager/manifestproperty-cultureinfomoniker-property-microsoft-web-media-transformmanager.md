@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.set_CultureInfoMoniker
 - Microsoft.Web.Media.TransformManager.ManifestProperty.get_CultureInfoMoniker
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

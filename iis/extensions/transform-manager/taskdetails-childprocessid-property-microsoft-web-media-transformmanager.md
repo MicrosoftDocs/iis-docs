@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDetails.get_ChildProcessId
 - Microsoft.Web.Media.TransformManager.TaskDetails.set_ChildProcessId
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

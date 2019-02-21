@@ -24,10 +24,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ForeignKeyChanges.IsNew
 - Microsoft.Web.Management.DatabaseManager.ForeignKeyChanges.None
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

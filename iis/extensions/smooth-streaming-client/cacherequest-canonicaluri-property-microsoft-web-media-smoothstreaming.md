@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest.set_CanonicalUri
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest.get_CanonicalUri
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

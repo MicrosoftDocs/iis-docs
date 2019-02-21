@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.WorkQueue.FinishedJobs
 - Microsoft.Web.Media.TransformManager.WorkQueue.get_FinishedJobs
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

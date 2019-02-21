@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_SuccessCodes
 - Microsoft.Web.Media.TransformManager.TaskDefinition.SuccessCodes
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

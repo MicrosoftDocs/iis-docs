@@ -33,10 +33,9 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.TraceDestination.RemoteServer
 - Microsoft.Web.Media.Diagnostics.TraceDestination.None
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

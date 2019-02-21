@@ -20,10 +20,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipClickThrough
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_ClipClickThrough
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

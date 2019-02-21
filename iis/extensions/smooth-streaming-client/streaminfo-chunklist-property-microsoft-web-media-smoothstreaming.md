@@ -20,10 +20,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.ChunkList
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.get_ChunkList
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

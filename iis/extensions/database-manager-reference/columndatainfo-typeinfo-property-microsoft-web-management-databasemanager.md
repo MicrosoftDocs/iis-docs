@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.TypeInfo
 - Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.set_TypeInfo
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

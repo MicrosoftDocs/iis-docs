@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManager.get_Enabled
 - Microsoft.Web.Media.TransformManager.JobManager.set_Enabled
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

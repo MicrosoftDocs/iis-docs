@@ -20,10 +20,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.get_LogUris
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.LogUris
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

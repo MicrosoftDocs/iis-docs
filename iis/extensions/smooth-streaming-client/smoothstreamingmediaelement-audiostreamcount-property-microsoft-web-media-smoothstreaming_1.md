@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_AudioStreamCount
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_AudioStreamCount
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

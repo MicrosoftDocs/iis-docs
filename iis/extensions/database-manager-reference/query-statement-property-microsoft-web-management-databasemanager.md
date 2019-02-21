@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Query.Statement
 - Microsoft.Web.Management.DatabaseManager.Query.set_Statement
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.TaskCodeType
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_TaskCodeType
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

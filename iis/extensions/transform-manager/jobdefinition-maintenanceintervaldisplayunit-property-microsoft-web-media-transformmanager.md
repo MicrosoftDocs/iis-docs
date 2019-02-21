@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceIntervalDisplayUnit
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_MaintenanceIntervalDisplayUnit
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

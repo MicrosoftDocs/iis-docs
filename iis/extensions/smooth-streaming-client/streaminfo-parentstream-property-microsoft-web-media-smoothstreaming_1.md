@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.ParentStream
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.set_ParentStream
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.Logger.LogFileName
 - Microsoft.Web.Media.TransformManager.Logger.set_LogFileName
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

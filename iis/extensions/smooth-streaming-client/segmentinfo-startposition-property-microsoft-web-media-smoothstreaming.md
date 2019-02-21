@@ -20,10 +20,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.get_StartPosition
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.StartPosition
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

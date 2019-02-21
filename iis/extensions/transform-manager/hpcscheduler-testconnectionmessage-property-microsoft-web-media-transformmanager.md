@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.HpcScheduler.set_TestConnectionMessage
 - Microsoft.Web.Media.TransformManager.HpcScheduler.TestConnectionMessage
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

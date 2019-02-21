@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MaximumLatency
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_MaximumLatency
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

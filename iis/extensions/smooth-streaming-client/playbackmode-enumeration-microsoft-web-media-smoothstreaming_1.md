@@ -25,10 +25,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.PlaybackMode.AudioOnly
 - Microsoft.Web.Media.SmoothStreaming.PlaybackMode.AudioVideo
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

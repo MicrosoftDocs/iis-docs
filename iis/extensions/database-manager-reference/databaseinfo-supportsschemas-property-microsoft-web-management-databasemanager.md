@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.DatabaseInfo.SupportsSchemas
 - Microsoft.Web.Management.DatabaseManager.DatabaseInfo.set_SupportsSchemas
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

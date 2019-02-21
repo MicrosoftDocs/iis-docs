@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.set_Attributes
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.get_Attributes
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

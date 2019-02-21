@@ -47,10 +47,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobStatus.Waiting
 - Microsoft.Web.Media.TransformManager.JobStatus.Queued
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.JobTemplateId
 - Microsoft.Web.Media.TransformManager.JobDetails.set_JobTemplateId
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

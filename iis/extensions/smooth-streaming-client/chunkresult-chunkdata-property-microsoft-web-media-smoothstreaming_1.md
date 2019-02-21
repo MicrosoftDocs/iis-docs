@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.get_ChunkData
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.set_ChunkData
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

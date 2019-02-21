@@ -40,10 +40,9 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.TraceLevel.FunctionExit
 - Microsoft.Web.Media.Diagnostics.TraceLevel.Warning
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

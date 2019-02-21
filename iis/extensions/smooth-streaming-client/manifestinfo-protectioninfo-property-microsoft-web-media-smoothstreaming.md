@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ProtectionInfo
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.set_ProtectionInfo
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

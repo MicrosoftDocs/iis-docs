@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_TaskDefinitionNamespace
 - Microsoft.Web.Media.TransformManager.IisNamespaces.TaskDefinitionNamespace
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

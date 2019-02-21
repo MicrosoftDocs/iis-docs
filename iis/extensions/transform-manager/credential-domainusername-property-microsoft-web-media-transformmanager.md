@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.Credential.get_DomainUserName
 - Microsoft.Web.Media.TransformManager.Credential.set_DomainUserName
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

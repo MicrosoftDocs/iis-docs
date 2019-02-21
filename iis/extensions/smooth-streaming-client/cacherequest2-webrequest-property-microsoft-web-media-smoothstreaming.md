@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest2.set_WebRequest
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest2.WebRequest
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

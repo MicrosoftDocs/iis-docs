@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_TraceArea
 - Microsoft.Web.Media.Diagnostics.TraceEntry.TraceArea
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

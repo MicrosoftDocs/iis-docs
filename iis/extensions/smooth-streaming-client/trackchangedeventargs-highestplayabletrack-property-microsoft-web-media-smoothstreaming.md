@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.HighestPlayableTrack
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.set_HighestPlayableTrack
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.ManifestAsString
 - Microsoft.Web.Media.TransformManager.JobManifest.set_ManifestAsString
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

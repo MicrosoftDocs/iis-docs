@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.set_TypeInfo
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.TypeInfo
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.get_Error
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.set_Error
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.get_ConnectionString
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.set_ConnectionString
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

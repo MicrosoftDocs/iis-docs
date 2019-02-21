@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.WorkQueue.get_RunningJobs
 - Microsoft.Web.Media.TransformManager.WorkQueue.RunningJobs
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

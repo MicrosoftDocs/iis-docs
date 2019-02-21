@@ -20,10 +20,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Index.Columns
 - Microsoft.Web.Management.DatabaseManager.Index.get_Columns
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

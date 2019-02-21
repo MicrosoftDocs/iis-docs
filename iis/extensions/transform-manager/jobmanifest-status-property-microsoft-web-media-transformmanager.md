@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.set_Status
 - Microsoft.Web.Media.TransformManager.JobManifest.Status
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

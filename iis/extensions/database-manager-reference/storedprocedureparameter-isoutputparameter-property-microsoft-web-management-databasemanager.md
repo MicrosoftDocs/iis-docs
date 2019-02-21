@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.IsOutputParameter
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.set_IsOutputParameter
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

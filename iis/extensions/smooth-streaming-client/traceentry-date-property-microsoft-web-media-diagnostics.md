@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.get_Date
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_Date
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

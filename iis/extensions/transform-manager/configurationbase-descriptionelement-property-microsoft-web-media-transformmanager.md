@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.get_DescriptionElement
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_DescriptionElement
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_AllowNulls
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_AllowNulls
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

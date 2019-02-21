@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.PKTableName
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.set_PKTableName
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

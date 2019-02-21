@@ -33,10 +33,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.LogLevel.Verbose
 - Microsoft.Web.Media.TransformManager.LogLevel.Warning
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

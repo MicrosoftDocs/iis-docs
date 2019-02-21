@@ -85,10 +85,9 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.TraceArea.Multicast
 - Microsoft.Web.Media.Diagnostics.TraceArea.SilverlightMSS
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 
