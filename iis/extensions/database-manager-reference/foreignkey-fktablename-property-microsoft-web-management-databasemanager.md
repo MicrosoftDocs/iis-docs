@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.get_FKTableName
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.set_FKTableName
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

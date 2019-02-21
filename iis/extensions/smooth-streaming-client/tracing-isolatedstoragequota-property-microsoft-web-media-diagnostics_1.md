@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.Tracing.IsolatedStorageQuota
 - Microsoft.Web.Media.Diagnostics.Tracing.set_IsolatedStorageQuota
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

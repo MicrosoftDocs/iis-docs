@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.IsSmoothStreamingSource
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.set_IsSmoothStreamingSource
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

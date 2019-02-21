@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Table.get_CreateDate
 - Microsoft.Web.Management.DatabaseManager.Table.set_CreateDate
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

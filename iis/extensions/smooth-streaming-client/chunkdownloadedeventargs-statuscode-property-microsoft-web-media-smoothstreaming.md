@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.set_StatusCode
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.StatusCode
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

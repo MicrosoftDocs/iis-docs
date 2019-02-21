@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.get_Data
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.set_Data
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

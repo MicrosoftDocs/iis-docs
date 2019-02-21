@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManager.get_Id
 - Microsoft.Web.Media.TransformManager.JobManager.Id
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

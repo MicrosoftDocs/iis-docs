@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_Headers
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.Headers
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

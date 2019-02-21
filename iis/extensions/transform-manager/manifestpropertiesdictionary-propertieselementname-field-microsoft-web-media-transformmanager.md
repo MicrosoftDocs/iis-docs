@@ -19,10 +19,9 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.PropertiesElementName
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.PropertyNamespacePrefix
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_PropertyNamespacePrefix
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

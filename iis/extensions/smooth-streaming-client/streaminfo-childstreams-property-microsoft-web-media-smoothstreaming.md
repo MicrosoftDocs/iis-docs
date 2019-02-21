@@ -20,10 +20,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.ChildStreams
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.get_ChildStreams
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

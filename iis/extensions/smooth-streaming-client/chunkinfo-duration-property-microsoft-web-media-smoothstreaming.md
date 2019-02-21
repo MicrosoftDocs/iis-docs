@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkInfo.set_Duration
 - Microsoft.Web.Media.SmoothStreaming.ChunkInfo.get_Duration
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

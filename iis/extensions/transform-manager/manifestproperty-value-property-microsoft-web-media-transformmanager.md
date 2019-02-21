@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.Value
 - Microsoft.Web.Media.TransformManager.ManifestProperty.set_Value
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

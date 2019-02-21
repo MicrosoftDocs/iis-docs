@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskStatus.get_PercentComplete
 - Microsoft.Web.Media.TransformManager.TaskStatus.PercentComplete
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

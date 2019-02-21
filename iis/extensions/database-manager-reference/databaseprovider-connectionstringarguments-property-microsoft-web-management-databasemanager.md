@@ -20,10 +20,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.ConnectionStringArguments
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.get_ConnectionStringArguments
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

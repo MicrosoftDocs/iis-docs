@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingProgressChanged
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_BufferingProgressChanged
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

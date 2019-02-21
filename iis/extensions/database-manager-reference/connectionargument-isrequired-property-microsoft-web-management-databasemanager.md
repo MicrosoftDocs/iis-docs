@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.IsRequired
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.set_IsRequired
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

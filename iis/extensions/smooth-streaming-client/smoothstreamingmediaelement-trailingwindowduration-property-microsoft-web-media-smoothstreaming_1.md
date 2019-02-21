@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_TrailingWindowDuration
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.TrailingWindowDuration
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

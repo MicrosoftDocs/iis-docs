@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.Credential.Id
 - Microsoft.Web.Media.TransformManager.Credential.set_Id
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

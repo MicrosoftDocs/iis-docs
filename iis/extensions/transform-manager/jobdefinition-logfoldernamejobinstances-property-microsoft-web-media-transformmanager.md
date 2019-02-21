@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_LogFolderNameJobInstances
 - Microsoft.Web.Media.TransformManager.JobDefinition.LogFolderNameJobInstances
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

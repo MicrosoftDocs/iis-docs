@@ -20,10 +20,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.QueryResult.ColumnMetadata
 - Microsoft.Web.Management.DatabaseManager.QueryResult.get_ColumnMetadata
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

@@ -20,10 +20,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.get_NaturalDuration
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.NaturalDuration
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

@@ -19,10 +19,9 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobCountByStatus
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

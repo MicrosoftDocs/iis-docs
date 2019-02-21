@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs.Progress
 - Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs.set_Progress
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

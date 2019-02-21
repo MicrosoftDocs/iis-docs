@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_AllowLength
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_AllowLength
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

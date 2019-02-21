@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.Message
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.set_Message
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

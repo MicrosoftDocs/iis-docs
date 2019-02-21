@@ -80,10 +80,9 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.TraceArea.LowLatency
 - Microsoft.Web.Media.Diagnostics.TraceArea.PerSample
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

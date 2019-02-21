@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_TaskMetadata
 - Microsoft.Web.Media.TransformManager.JobMetadata.TaskMetadata
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

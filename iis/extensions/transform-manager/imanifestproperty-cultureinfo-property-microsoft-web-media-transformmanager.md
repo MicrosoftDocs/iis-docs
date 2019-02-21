@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IManifestProperty.CultureInfo
 - Microsoft.Web.Media.TransformManager.IManifestProperty.get_CultureInfo
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

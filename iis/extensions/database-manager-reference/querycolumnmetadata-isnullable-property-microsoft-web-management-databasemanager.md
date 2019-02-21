@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.IsNullable
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.set_IsNullable
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

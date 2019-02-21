@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.TableInfo.Name
 - Microsoft.Web.Management.DatabaseManager.TableInfo.set_Name
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

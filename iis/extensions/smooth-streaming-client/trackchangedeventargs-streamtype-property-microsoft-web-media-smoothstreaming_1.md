@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.set_StreamType
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.StreamType
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

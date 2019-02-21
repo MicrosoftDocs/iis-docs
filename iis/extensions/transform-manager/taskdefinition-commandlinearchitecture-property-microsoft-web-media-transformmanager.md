@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.get_CommandLineArchitecture
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_CommandLineArchitecture
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobTemplate.ConfigurationDirectory
 - Microsoft.Web.Media.TransformManager.JobTemplate.get_ConfigurationDirectory
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

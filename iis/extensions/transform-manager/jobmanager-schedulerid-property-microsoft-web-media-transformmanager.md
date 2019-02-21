@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManager.get_SchedulerId
 - Microsoft.Web.Media.TransformManager.JobManager.SchedulerId
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

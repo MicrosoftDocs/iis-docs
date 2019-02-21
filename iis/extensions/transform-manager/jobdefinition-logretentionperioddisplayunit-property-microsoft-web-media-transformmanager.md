@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.LogRetentionPeriodDisplayUnit
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_LogRetentionPeriodDisplayUnit
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.SmoothStreamingCache
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.set_SmoothStreamingCache
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

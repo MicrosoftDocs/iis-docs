@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerNodeGroups
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_SchedulerNodeGroups
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

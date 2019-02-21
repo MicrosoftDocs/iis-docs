@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_TotalBytesDownloaded
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.TotalBytesDownloaded
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

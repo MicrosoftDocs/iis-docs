@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManager.remove_ShutdownComplete
 - Microsoft.Web.Media.TransformManager.JobManager.ShutdownComplete
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

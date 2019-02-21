@@ -19,10 +19,9 @@ api_location:
 api_name:
 - Microsoft.Web.Media.Diagnostics.CircularList`1
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

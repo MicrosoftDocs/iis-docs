@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.set_Value
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.Value
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

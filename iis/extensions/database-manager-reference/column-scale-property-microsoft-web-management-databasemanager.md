@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Column.Scale
 - Microsoft.Web.Management.DatabaseManager.Column.set_Scale
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

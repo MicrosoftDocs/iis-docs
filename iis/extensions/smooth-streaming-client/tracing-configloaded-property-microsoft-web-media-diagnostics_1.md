@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.Tracing.ConfigLoaded
 - Microsoft.Web.Media.Diagnostics.Tracing.get_ConfigLoaded
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

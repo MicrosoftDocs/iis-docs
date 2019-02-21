@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Index.IgnoreDuplicateKeys
 - Microsoft.Web.Management.DatabaseManager.Index.set_IgnoreDuplicateKeys
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

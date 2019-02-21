@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_Source
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Source
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

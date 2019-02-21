@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.View.get_Definition
 - Microsoft.Web.Management.DatabaseManager.View.set_Definition
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

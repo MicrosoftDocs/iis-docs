@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.IsCompleted
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.set_IsCompleted
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

@@ -57,10 +57,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDetailsField.TaskCount
 - Microsoft.Web.Media.TransformManager.JobDetailsField.LogFolder
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

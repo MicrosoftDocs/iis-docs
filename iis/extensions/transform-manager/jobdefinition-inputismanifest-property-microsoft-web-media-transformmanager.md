@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.InputIsManifest
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_InputIsManifest
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

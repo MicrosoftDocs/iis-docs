@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.set_ProtectionHeader
 - Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.ProtectionHeader
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

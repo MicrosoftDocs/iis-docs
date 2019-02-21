@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_TraceLevel
 - Microsoft.Web.Media.Diagnostics.TraceEntry.TraceLevel
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

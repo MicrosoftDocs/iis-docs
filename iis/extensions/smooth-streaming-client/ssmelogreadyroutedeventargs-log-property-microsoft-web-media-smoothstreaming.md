@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.Log
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.set_Log
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

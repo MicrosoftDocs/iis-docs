@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.IndexColumn.get_Descending
 - Microsoft.Web.Management.DatabaseManager.IndexColumn.set_Descending
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

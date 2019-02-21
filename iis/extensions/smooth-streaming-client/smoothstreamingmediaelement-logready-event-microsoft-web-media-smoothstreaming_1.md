@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LogReady
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_LogReady
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

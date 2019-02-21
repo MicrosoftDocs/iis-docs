@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Index.get_Clustered
 - Microsoft.Web.Management.DatabaseManager.Index.set_Clustered
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

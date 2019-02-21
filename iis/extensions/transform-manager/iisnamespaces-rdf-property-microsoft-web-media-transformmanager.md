@@ -21,10 +21,9 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_Rdf
 - Microsoft.Web.Media.TransformManager.IisNamespaces.Rdf
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

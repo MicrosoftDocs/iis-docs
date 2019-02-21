@@ -22,10 +22,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.get_Action
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.set_Action
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 

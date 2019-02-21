@@ -23,10 +23,9 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.get_Bitrate
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.set_Bitrate
 api_type:
-- Managed
+  - Assembly
 topic_type:
 - apiref
-- kbSyntax
 product_family_name: VS
 ---
 
