@@ -11,9 +11,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.get_MethodName
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_MethodName
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 - "cpp"
 api_location:

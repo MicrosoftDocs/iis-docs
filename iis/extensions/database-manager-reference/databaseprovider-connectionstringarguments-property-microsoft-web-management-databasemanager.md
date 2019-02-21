@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.ConnectionStringArguments
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.get_ConnectionStringArguments
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
-- "cpp"
+- csharp
+- jscript
+- vb
+- cpp
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:

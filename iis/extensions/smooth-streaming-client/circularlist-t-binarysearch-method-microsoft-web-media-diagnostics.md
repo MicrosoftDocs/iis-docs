@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.BinarySearch
 - Microsoft::Web::Media::Diagnostics::CircularList`1::BinarySearch
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 ---
 
 # BinarySearch Method

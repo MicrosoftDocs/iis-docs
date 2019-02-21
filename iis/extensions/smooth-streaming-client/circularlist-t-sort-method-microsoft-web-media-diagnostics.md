@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.Sort
 - Microsoft::Web::Media::Diagnostics::CircularList`1::Sort
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 ---
 
 # Sort Method

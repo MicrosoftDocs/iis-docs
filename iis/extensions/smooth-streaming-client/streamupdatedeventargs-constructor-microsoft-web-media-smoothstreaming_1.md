@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.#ctor
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedEventArgs
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:

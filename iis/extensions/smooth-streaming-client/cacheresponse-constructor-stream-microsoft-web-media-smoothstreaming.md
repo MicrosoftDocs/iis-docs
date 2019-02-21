@@ -9,7 +9,7 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- "cpp"
+- cpp
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll

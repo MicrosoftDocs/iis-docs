@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.#ctor
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.CacheResponse
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 ---
 
 # CacheResponse Constructor

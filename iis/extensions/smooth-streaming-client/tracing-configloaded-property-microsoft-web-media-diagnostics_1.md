@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.ConfigLoaded
 - Microsoft.Web.Media.Diagnostics.Tracing.get_ConfigLoaded
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 - "cpp"
 api_location:

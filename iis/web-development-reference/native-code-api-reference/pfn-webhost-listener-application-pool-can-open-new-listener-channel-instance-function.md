@@ -7,7 +7,7 @@ ms:contentKeyID: 6824819
 ms.date: 03/09/2018
 mtps_version: v=VS.90
 dev_langs:
-- "cpp"
+- cpp
 ---
 
 # PFN\_WEBHOST\_LISTENER\_APPLICATION\_POOL\_CAN\_OPEN\_NEW\_LISTENER\_CHANNEL\_INSTANCE Function

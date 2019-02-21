@@ -8,7 +8,7 @@ ms.date: 11/19/2012
 mtps_version: v=VS.90
 dev_langs:
 - csharp
-- "cpp"
+- cpp
 ---
 
 # IAdaptiveSourceManager.AdaptiveSourceManagerFailedEvent Event

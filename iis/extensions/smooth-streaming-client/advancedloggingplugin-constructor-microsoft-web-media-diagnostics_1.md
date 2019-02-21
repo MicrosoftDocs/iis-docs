@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.#ctor
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.AdvancedLoggingPlugin
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:

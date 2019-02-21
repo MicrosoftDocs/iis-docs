@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.LastIndexOf
 - Microsoft::Web::Media::Diagnostics::CircularList`1::LastIndexOf
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 ---
 
 # LastIndexOf Method

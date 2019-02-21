@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.#ctor
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.ClipInformation
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 ---
 
 # ClipInformation Constructor

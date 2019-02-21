@@ -7,7 +7,7 @@ ms:contentKeyID: 6826325
 ms.date: 03/09/2018
 mtps_version: v=VS.90
 dev_langs:
-- "cpp"
+- cpp
 ---
 
 # CHttpModule::CHttpModule Method

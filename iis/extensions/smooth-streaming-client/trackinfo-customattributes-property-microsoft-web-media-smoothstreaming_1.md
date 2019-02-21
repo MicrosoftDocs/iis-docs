@@ -11,9 +11,9 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.get_CustomAttributes
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.set_CustomAttributes
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 - "cpp"
 api_location:

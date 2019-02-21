@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.#ctor
 - Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.ManifestPropertiesDictionary
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 ---
 

@@ -10,10 +10,10 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.#ctor
 - Microsoft.Web.Media.Diagnostics.CircularList`1.CircularList
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
-- "cpp"
+- csharp
+- jscript
+- vb
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:

@@ -16,9 +16,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceDestination.Memory
 - Microsoft.Web.Media.Diagnostics.TraceDestination.Debug
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll

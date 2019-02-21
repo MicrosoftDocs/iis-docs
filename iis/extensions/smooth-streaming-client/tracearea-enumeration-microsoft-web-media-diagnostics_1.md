@@ -42,9 +42,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceArea.SilverlightMSS
 - Microsoft.Web.Media.Diagnostics.TraceArea.Multicast
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 - "cpp"
 api_location:
