@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Table.get_CreateDate
 - Microsoft.Web.Management.DatabaseManager.Table.set_CreateDate
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
-- "cpp"
+- csharp
+- jscript
+- vb
+- cpp
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:

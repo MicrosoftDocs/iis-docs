@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobManager.get_ConfiguringJobs
 - Microsoft.Web.Media.TransformManager.JobManager.ConfiguringJobs
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:

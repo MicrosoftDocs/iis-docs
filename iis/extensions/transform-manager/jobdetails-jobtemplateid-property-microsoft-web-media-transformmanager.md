@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDetails.JobTemplateId
 - Microsoft.Web.Media.TransformManager.JobDetails.set_JobTemplateId
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:

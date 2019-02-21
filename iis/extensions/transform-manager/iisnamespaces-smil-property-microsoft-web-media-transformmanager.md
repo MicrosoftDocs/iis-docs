@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_Smil
 - Microsoft.Web.Media.TransformManager.IisNamespaces.Smil
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:

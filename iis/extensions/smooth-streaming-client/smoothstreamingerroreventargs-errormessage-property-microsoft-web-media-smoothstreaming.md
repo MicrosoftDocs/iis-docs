@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.get_ErrorMessage
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.set_ErrorMessage
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
-- "cpp"
+- csharp
+- jscript
+- vb
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:

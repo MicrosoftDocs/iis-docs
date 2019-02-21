@@ -10,11 +10,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.TransformManagerService
 - Microsoft.Web.Media.TransformManager.TransformManagerService.#ctor
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.TransformManager.ServiceLibrary.dll
 api_name:

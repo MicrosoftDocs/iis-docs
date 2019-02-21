@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.get_TypeInfo
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.set_TypeInfo
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
-- "cpp"
+- csharp
+- jscript
+- vb
+- cpp
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:

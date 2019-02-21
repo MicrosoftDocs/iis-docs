@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.SetPlaybackRangeCompletedEventArgs
 - Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.#ctor
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 ---
 

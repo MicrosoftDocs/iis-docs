@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.IndexOf
 - Microsoft::Web::Media::Diagnostics::CircularList`1::IndexOf
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 ---
 
 # IndexOf Method

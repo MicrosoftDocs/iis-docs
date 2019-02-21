@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.get_DefaultValue
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.set_DefaultValue
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
-- "cpp"
+- csharp
+- jscript
+- vb
+- cpp
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:

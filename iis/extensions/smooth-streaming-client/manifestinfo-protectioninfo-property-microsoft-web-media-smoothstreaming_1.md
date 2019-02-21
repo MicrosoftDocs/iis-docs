@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ProtectionInfo
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.set_ProtectionInfo
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:

@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.ConfigurationMessage
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.#ctor
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 ---
 

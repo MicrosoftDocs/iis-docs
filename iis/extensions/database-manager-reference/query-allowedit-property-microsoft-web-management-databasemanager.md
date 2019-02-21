@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Query.get_AllowEdit
 - Microsoft.Web.Management.DatabaseManager.Query.set_AllowEdit
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
-- "cpp"
+- csharp
+- jscript
+- vb
+- cpp
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:

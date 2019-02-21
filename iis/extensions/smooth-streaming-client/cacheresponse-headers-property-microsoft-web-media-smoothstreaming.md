@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.Headers
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_Headers
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
-- "cpp"
+- csharp
+- jscript
+- vb
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:

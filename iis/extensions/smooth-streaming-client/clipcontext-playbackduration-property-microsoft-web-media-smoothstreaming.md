@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.PlaybackDuration
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.set_PlaybackDuration
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
-- "cpp"
+- csharp
+- jscript
+- vb
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:

@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.Column.get_AllowNulls
 - Microsoft.Web.Management.DatabaseManager.Column.set_AllowNulls
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
-- "cpp"
+- csharp
+- jscript
+- vb
+- cpp
 api_location:
 - Microsoft.Web.Management.DatabaseManager.dll
 api_name:

@@ -11,9 +11,9 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.HighestPlayableTrack
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.set_HighestPlayableTrack
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll

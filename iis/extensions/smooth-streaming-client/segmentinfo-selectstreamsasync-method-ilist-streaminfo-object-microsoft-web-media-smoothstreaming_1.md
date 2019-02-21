@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- "cpp"
+- cpp
 - fsharp
 - jscript
 api_location:

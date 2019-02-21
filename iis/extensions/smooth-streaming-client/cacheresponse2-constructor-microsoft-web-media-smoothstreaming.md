@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse2.#ctor
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse2.CacheResponse2
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 ---
 

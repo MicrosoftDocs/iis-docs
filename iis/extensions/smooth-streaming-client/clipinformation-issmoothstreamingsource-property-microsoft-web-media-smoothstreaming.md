@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.get_IsSmoothStreamingSource
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.set_IsSmoothStreamingSource
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
-- "cpp"
+- csharp
+- jscript
+- vb
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:

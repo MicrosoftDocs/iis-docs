@@ -11,9 +11,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.Tracing.get_IsolatedStorageQuota
 - Microsoft.Web.Media.Diagnostics.Tracing.set_IsolatedStorageQuota
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 - "cpp"
 api_location:

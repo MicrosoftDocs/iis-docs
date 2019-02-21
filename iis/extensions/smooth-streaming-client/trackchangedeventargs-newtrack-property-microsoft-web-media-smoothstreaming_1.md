@@ -11,9 +11,9 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.NewTrack
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.set_NewTrack
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 - "cpp"
 api_location:

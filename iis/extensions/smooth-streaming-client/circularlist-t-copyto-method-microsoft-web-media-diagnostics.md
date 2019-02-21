@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.CopyTo
 - Microsoft::Web::Media::Diagnostics::CircularList`1::CopyTo
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 ---
 
 # CopyTo Method

@@ -11,9 +11,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.get_TraceArea
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_TraceArea
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll

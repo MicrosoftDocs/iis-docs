@@ -12,11 +12,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ManifestType.Segmented
 - Microsoft.Web.Media.SmoothStreaming.ManifestType.Standard
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:

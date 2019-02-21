@@ -20,9 +20,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceLevel.Assertion
 - Microsoft.Web.Media.Diagnostics.TraceLevel.Warning
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 - "cpp"
 api_location:

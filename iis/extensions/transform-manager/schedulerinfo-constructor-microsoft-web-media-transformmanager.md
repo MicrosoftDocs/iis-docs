@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.SchedulerInfo
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.#ctor
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 ---
 

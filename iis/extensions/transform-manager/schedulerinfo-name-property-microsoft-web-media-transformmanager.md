@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.get_Name
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.Name
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:

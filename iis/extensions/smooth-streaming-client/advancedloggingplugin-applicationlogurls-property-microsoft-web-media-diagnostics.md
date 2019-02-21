@@ -11,10 +11,10 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.get_ApplicationLogUrls
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.set_ApplicationLogUrls
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
-- "cpp"
+- csharp
+- jscript
+- vb
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:

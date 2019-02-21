@@ -12,11 +12,11 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.ChunkRequestType.KeyFrame
 - Microsoft.Web.Media.SmoothStreaming.ChunkRequestType.Fragment
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:

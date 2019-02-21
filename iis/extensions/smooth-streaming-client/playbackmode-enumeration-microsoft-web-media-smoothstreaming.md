@@ -12,10 +12,10 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.PlaybackMode.AudioVideo
 - Microsoft.Web.Media.SmoothStreaming.PlaybackMode.VideoOnly
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
-- "cpp"
+- csharp
+- jscript
+- vb
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:

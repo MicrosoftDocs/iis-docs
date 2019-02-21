@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.#ctor
 - Microsoft.Web.Media.TransformManager.TaskDefinition.TaskDefinition
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 ---
 

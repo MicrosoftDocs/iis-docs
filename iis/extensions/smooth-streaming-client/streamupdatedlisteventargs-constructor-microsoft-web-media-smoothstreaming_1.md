@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs.#ctor
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs.StreamUpdatedListEventArgs
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 ---
 

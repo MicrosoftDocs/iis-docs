@@ -11,11 +11,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_MaintenanceIntervalDisplayUnit
 - Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceIntervalDisplayUnit
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:

@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.#ctor
 - Microsoft.Web.Media.Diagnostics.TraceEntry.TraceEntry
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 - "cpp"
 api_location:

@@ -9,9 +9,9 @@ mtps_version: v=VS.90
 f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.BeginGetChunk
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll

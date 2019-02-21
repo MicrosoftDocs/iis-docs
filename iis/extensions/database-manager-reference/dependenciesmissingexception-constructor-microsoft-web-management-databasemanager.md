@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Management.DatabaseManager.DependenciesMissingException.DependenciesMissingException
 - Microsoft.Web.Management.DatabaseManager.DependenciesMissingException.#ctor
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 ---
 
 # DependenciesMissingException Constructor

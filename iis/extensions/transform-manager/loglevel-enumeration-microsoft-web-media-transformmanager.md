@@ -16,11 +16,11 @@ f1_keywords:
 - Microsoft.Web.Media.TransformManager.LogLevel.Warning
 - Microsoft.Web.Media.TransformManager.LogLevel.Verbose
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.TransformManager.Sdk.dll
 api_name:

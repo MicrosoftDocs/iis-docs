@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.get_Stream
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.Stream
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll

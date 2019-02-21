@@ -11,9 +11,9 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.get_Timestamp
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.set_Timestamp
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - FSharp
 - "cpp"
 api_location:

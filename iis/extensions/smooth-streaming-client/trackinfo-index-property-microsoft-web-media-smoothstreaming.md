@@ -11,9 +11,9 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.get_Index
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.set_Index
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 - "cpp"
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll

@@ -10,9 +10,9 @@ f1_keywords:
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest.#ctor
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest.CacheRequest
 dev_langs:
-- "csharp"
-- "jscript"
-- "vb"
+- csharp
+- jscript
+- vb
 ---
 
 # CacheRequest Constructor
