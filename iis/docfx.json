@@ -43,10 +43,7 @@
       "searchScope": ["IIS"],
       "ms.prod": "iis",
       "ms.topic": "conceptual",
-<<<<<<< HEAD
-=======
       "author": "shirhatti",
->>>>>>> 59023a7c... migration fixes
       "ms.author": "soshir"
     },
     "fileMetadata": {
