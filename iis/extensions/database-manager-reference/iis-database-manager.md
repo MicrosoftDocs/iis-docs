@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Hh943086(v=VS.90)
 ms:contentKeyID: 46305581
 ms.date: 05/02/2012
 mtps_version: v=VS.90
+ms.topic: conceptual
 ---
 
 # IIS Database Manager
@@ -20,10 +21,8 @@ The classes in the following namespace enable developers to build a provider to 
 |--- |--- |
 |[Microsoft.Web.Management.DatabaseManager](microsoft-web-management-databasemanager-namespace.md)|IIS Database Manager APIs.|
 
-
 ## See Also
 
 ### Other Resources
 
 [IIS Database Manager](http://go.microsoft.com/fwlink/?linkid=247900)
-
