@@ -122,7 +122,7 @@ public void EditRow(string connectionString, string tableName, string schema, IL
 
 
 > [!NOTE]  
-> See the [UPDATE (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms177523.aspx) topic for more information about the UPDATE SQL statement.
+> See the [UPDATE (Transact-SQL)](https://msdn.microsoft.com/library/ms177523.aspx) topic for more information about the UPDATE SQL statement.
 
 
 ## Examples

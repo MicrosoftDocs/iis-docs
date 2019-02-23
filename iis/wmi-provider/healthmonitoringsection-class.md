@@ -70,5 +70,5 @@ class HealthMonitoringSection : ConfigurationSectionWithCollection
  [ProfileSettings Class](../wmi-provider/profilesettings-class.md)   
  [ProviderSettings Class](../wmi-provider/providersettings-class.md)   
  [RuleSettings Class](../wmi-provider/rulesettings-class.md)   
- [ASP.NET Health Monitoring Overview](http://go.microsoft.com/fwlink/?LinkId=69306)   
- [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
+ [ASP.NET Health Monitoring Overview](https://go.microsoft.com/fwlink/?LinkId=69306)   
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

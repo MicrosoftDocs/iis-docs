@@ -26,7 +26,7 @@ struct IProcessHostFactoryHelper : IUnknown
  This interface contains no derived classes.  
   
 ## Inheritance Hierarchy  
- [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IProcessHostFactoryHelper`  
   

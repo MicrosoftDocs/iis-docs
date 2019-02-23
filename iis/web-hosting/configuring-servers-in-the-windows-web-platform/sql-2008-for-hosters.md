@@ -141,7 +141,7 @@ Source code is available here: &lt;link: [http://www.codeplex.com/SQL2K5PHP](htt
 A link to this paper, &lt;link: [https://msdn.microsoft.com/library/cc793139(SQL.90).aspx](https://msdn.microsoft.com/library/cc793139(SQL.90).aspx)&gt;, explains how to load and configure the driver, and discusses how to leverage several of the features. Complete information and samples are available on the following sites:
 
 - MSDN Library &lt;link: [https://msdn.microsoft.com/library/cc296221.aspx](https://msdn.microsoft.com/library/cc296221.aspx)&gt;
-- Forums at MSDN &lt;link: [http://forums.microsoft.com/msdn/ShowForum.aspx?ForumID=2108&amp;SiteID=1](http://forums.microsoft.com/msdn/ShowForum.aspx?ForumID=2108&amp;SiteID=1)&gt;
+- Forums at MSDN &lt;link: [http://forums.microsoft.com/msdn/ShowForum.aspx?ForumID=2108&amp;SiteID=1](https://forums.microsoft.com/msdn/ShowForum.aspx?ForumID=2108&amp;SiteID=1)&gt;
 - SQL Server Driver Team Blog &lt;link: [https://blogs.msdn.com/sqlphp/](https://blogs.msdn.com/sqlphp/)&gt;
 
 <a id="tsql"></a>

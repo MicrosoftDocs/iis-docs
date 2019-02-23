@@ -35,7 +35,7 @@ class IHttpStoredContext
  When the `IHttpStoredContext` pointer is no longer needed, the `CleanupStoredContext` method is called internally, where the implementer of the `IHttpStoredContext` interface method should usually call `delete``this`.  
   
 > [!CAUTION]
->  While it may be a safe operation to downcast an `IHttpModuleContextContainer` to an `IDispensedHttpModuleContextContainer` by using the [dynamic_cast](http://go.microsoft.com/fwlink/?LinkId=57556) operator, you should avoid performing this cast. The `IDispensedHttpModuleContextContainer` interface adds only one method, [ReleaseContainer](../../web-development-reference\native-code-api-reference/idispensedhttpmodulecontextcontainer-releasecontainer-method.md), to its base interface, and this method should be called only internally.  
+>  While it may be a safe operation to downcast an `IHttpModuleContextContainer` to an `IDispensedHttpModuleContextContainer` by using the [dynamic_cast](https://go.microsoft.com/fwlink/?LinkId=57556) operator, you should avoid performing this cast. The `IDispensedHttpModuleContextContainer` interface adds only one method, [ReleaseContainer](../../web-development-reference\native-code-api-reference/idispensedhttpmodulecontextcontainer-releasecontainer-method.md), to its base interface, and this method should be called only internally.  
   
 ## Requirements  
   

@@ -39,7 +39,7 @@ class IHttpResponse
 |[SetNeedDisconnect](../../web-development-reference\native-code-api-reference/ihttpresponse-setneeddisconnect-method.md)|Resets the socket after the response is complete.|  
 |[SetStatus](../../web-development-reference\native-code-api-reference/ihttpresponse-setstatus-method.md)|Sets the HTTP status for the response.|  
 |[SuppressHeaders](../../web-development-reference\native-code-api-reference/ihttpresponse-suppressheaders-method.md)|Suppresses the response status and headers.|  
-|[WriteEntityChunkByReference](../../web-development-reference\native-code-api-reference/ihttpresponse-writeentitychunkbyreference-method.md)|Inserts or appends an [HTTP_DATA_CHUNK](http://go.microsoft.com/fwlink/?LinkId=56011) structure into the response body.|  
+|[WriteEntityChunkByReference](../../web-development-reference\native-code-api-reference/ihttpresponse-writeentitychunkbyreference-method.md)|Inserts or appends an [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=56011) structure into the response body.|  
 |[WriteEntityChunks](../../web-development-reference\native-code-api-reference/ihttpresponse-writeentitychunks-method.md)|Appends one or more `HTTP_DATA_CHUNK` structures to the response body.|  
   
 ## Derived Classes  

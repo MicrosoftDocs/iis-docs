@@ -32,7 +32,7 @@ The walkthrough illustrates the following tasks:
 
   - Either Visual Studio 2012 or Visual Studio Express 2012 for Windows 8.
 
-  - The [Microsoft Smooth Streaming Client SDK for Windows 8](http://go.microsoft.com/fwlink/?linkid=246146&clcid=0x409).
+  - The [Microsoft Smooth Streaming Client SDK for Windows 8](https://go.microsoft.com/fwlink/?linkid=246146&clcid=0x409).
 
 ## Creating a JavaScript Windows 8 Project
 
@@ -53,7 +53,7 @@ To develop a Smooth Streaming application for Windows 8, start by creating a new
 6.  If you want to support local source URLs, add "Private Network (Client & Server)" capabilities to your application. In Solution Explorer, double-click "package.appxmanifest" and then select **Capabilities**. In the **Capabilities** list, click the **Private Network (Client & Server)** check box.
     
     > [!CAUTION]  
-	> If you want to support enterprise authentication protected sources, consider adding **Enterprise Authentication** to capabilities. For more information, see [App capability declarations (Windows 8 apps)](http://msdn.microsoft.com/library/windows/apps/hh464936.aspx).
+	> If you want to support enterprise authentication protected sources, consider adding **Enterprise Authentication** to capabilities. For more information, see [App capability declarations (Windows 8 apps)](https://msdn.microsoft.com/library/windows/apps/hh464936.aspx).
 
 ## Registering a Smooth Streaming Byte Stream Handler
 

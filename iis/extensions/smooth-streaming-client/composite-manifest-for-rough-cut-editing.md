@@ -355,7 +355,7 @@ You can also use the command line option to set the GET and HEAD verbs:
 
     appcmd set config/section:handlers/[name='SmoothHandler'].verb:GET,HEAD
 
-For more information, see the [IIS Media Services Readme](http://go.microsoft.com/fwlink/?linkid=184078).
+For more information, see the [IIS Media Services Readme](https://go.microsoft.com/fwlink/?linkid=184078).
 
 ### Allow HEAD requests in the ClientAccessPolicy.xml
 
@@ -387,5 +387,5 @@ For more information about client access policy, see [Test and Debug Application
 
 ### Other Resources
 
-[IIS Media Services Readme](http://go.microsoft.com/fwlink/?linkid=184078)
+[IIS Media Services Readme](https://go.microsoft.com/fwlink/?linkid=184078)
 

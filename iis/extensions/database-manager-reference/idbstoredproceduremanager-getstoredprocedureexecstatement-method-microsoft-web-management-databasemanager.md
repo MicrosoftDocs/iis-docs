@@ -130,7 +130,7 @@ public Query GetStoredProcedureExecStatement(string connectionString, string sch
 
 
 > [!NOTE]  
-> See the [EXECUTE (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms188332.aspx) topic for more information about the EXECUTE SQL statement.
+> See the [EXECUTE (Transact-SQL)](https://msdn.microsoft.com/library/ms188332.aspx) topic for more information about the EXECUTE SQL statement.
 
 
 ## Permissions

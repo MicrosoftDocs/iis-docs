@@ -18,14 +18,14 @@ virtual HTTP_CACHE_POLICY* GetUserCachePolicy(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [HTTP_CACHE_POLICY](http://go.microsoft.com/fwlink/?LinkId=62468).  
+ A pointer to an [HTTP_CACHE_POLICY](https://go.microsoft.com/fwlink/?LinkId=62468).  
   
 ## Remarks  
  [CHttpModule](../../web-development-reference\native-code-api-reference/chttpmodule-class.md) derived classes that register for request or response events receive an [IHttpContext](../../web-development-reference\native-code-api-reference/ihttpcontext-interface.md) pointer as a parameter on the corresponding `virtual` method. Call the [IHttpContext::GetResponse](../../web-development-reference\native-code-api-reference/ihttpcontext-getresponse-method.md) method, then the [IHttpResponse::GetCachePolicy](../../web-development-reference\native-code-api-reference/ihttpresponse-getcachepolicy-method.md) method, and finally the `GetUserCachePolicy` method to retrieve an `HTTP_CACHE_POLICY` pointer.  
   
  The `GetUserCachePolicy` return value depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
- The current default implementer of the [IHttpCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private``HTTP_CACHE_POLICY` structure. During the construction of this implementer, the [Policy](http://go.microsoft.com/fwlink/?LinkId=62468) member of this structure is set to `HttpCachePolicyNocache`, and the [SecondsToLive](http://go.microsoft.com/fwlink/?LinkId=62468) member of this structure is set to 0. The `GetUserCachePolicy` method returns the address of this same `HTTP_CACHE_POLICY` structure.  
+ The current default implementer of the [IHttpCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md) interface declares a `private``HTTP_CACHE_POLICY` structure. During the construction of this implementer, the [Policy](https://go.microsoft.com/fwlink/?LinkId=62468) member of this structure is set to `HttpCachePolicyNocache`, and the [SecondsToLive](https://go.microsoft.com/fwlink/?LinkId=62468) member of this structure is set to 0. The `GetUserCachePolicy` method returns the address of this same `HTTP_CACHE_POLICY` structure.  
   
 ## Notes for Implementers  
  [IHttpCachePolicy](../../web-development-reference\native-code-api-reference/ihttpcachepolicy-interface.md) implementers are responsible for memory management with this data; therefore, `IHttpCachePolicy` implementers that use dynamic memory allocation must release or call `delete` on the `HTTP_CACHE_POLICY` pointer when it is no longer needed.  

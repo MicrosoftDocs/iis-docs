@@ -59,4 +59,4 @@ class WebServicesProtocolElement : CollectionElement
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [WebServicesProtocolSettings Class](../wmi-provider/webservicesprotocolsettings-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   
- [System.Web.Services.Configuration.WebServiceProtocols Enumeration](http://go.microsoft.com/fwlink/?LinkId=69314)
+ [System.Web.Services.Configuration.WebServiceProtocols Enumeration](https://go.microsoft.com/fwlink/?LinkId=69314)

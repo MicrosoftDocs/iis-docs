@@ -10,7 +10,7 @@ mtps_version: v=VS.90
 
 # IIS Transform Manager
 
-IIS Transform Manager provides an extensible platform for scheduling and running tasks in sequence on an IIS server using a local task scheduler. For more information and examples, see the [Transform Manager Knowledge Base](http://go.microsoft.com/fwlink/?linkid=191301).
+IIS Transform Manager provides an extensible platform for scheduling and running tasks in sequence on an IIS server using a local task scheduler. For more information and examples, see the [Transform Manager Knowledge Base](https://go.microsoft.com/fwlink/?linkid=191301).
 
 ## Licensing
 
@@ -18,7 +18,7 @@ IIS Transform Manager is designed to work with other programs, such as programs 
 
 ## Transform Manager Plug-in Model
 
-The [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md) namespace includes classes that define the plug-in model for IIS Transform Manager. Transform Manager supports a local task scheduler on a single IIS server or on the HPC Task Scheduler in a High Performance Computing (HPC) cluster. For more information about how to use Transform Manager with an HPC cluster, see [High-Performance Transcoding with IIS Transform Manager and Windows HPC Server](http://go.microsoft.com/fwlink/?linkid=217017).
+The [Microsoft.Web.Media.TransformManager](microsoft-web-media-transformmanager-namespace.md) namespace includes classes that define the plug-in model for IIS Transform Manager. Transform Manager supports a local task scheduler on a single IIS server or on the HPC Task Scheduler in a High Performance Computing (HPC) cluster. For more information about how to use Transform Manager with an HPC cluster, see [High-Performance Transcoding with IIS Transform Manager and Windows HPC Server](https://go.microsoft.com/fwlink/?linkid=217017).
 
 ### Task Engine Executable
 
@@ -36,5 +36,5 @@ Transform Manager runs custom tasks by loading them inside the TaskEngine.exe pr
 
 ### Other Resources
 
-[IIS Transform Manager (IIS.net)](http://go.microsoft.com/fwlink/?linkid=194958)
+[IIS Transform Manager (IIS.net)](https://go.microsoft.com/fwlink/?linkid=194958)
 

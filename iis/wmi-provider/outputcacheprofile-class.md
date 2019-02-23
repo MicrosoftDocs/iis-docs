@@ -71,5 +71,5 @@ class OutputCacheProfile : CollectionElement
  [OutputCacheSettingsSection Class](../wmi-provider/outputcachesettingssection-class.md)   
  [OutputCacheProfileSettings Class](../wmi-provider/outputcacheprofilesettings-class.md)   
  [SqlCacheDependencySection Class](../wmi-provider/sqlcachedependencysection-class.md)   
- [@ OutputCache](http://go.microsoft.com/fwlink/?LinkId=69307)   
- [Caching Multiple Versions of User Control Output](http://go.microsoft.com/fwlink/?LinkId=69308)
+ [@ OutputCache](https://go.microsoft.com/fwlink/?LinkId=69307)   
+ [Caching Multiple Versions of User Control Output](https://go.microsoft.com/fwlink/?LinkId=69308)

@@ -25,5 +25,5 @@ The classes in the following namespace enable developers to build a provider to 
 
 ### Other Resources
 
-[IIS Database Manager](http://go.microsoft.com/fwlink/?linkid=247900)
+[IIS Database Manager](https://go.microsoft.com/fwlink/?linkid=247900)
 

@@ -37,7 +37,7 @@ class HttpCachePolicySettings : EmbeddedObject
 |-----------|-------------|-----------------|  
 |0|`Default`|Satisfies a request for a resource either by using the cached copy of the resource or by sending a request for the resource to the server. The action taken is determined by the current cache policy and the age of the content in the cache. This is the cache level that most applications should use.|  
 |1|`BypassCache`|Satisfies a request by using the server. No entries are taken from caches, added to caches, or removed from caches between the client and server. This is the default cache behavior specified in the computer configuration file that is included with the [!INCLUDE[dnprdnshort](../wmi-provider/includes/dnprdnshort-md.md)].|  
-|2|`CacheOnly`|Satisfies a request by using the locally cached resource; does not send a request for an item that is not in the cache. When this cache policy level is specified, a [WebException](http://go.microsoft.com/fwlink/?LinkId=67062) exception is thrown if the item is not in the client cache.|  
+|2|`CacheOnly`|Satisfies a request by using the locally cached resource; does not send a request for an item that is not in the cache. When this cache policy level is specified, a [WebException](https://go.microsoft.com/fwlink/?LinkId=67062) exception is thrown if the item is not in the client cache.|  
 |3|`CacheIfAvailable`|Satisfies a request for a resource from the cache if the resource is available in the cache; otherwise, sends a request for a resource to the server. If the requested item is not available in the local cache, but it is available in a cache between the client and the server, the intermediate cache satisfies the request.|  
 |4|`Revalidate`|Satisfies a request by using the cached copy of the resource if the time stamp is the same as the time stamp of the resource on the server; otherwise, the resource is downloaded from the server, presented to the caller, and stored in the cache.|  
 |5|`Reload`|Satisfies a request by using the server. The response might be saved in the cache, depending on the settings of the `no-cache` cache control directive and the `Pragma: no-cache` header in the HTTP caching protocol.|  
@@ -115,4 +115,4 @@ End Function
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [FtpCachePolicySettings Class](../wmi-provider/ftpcachepolicysettings-class.md)   
  [RequestCachingSection Class](../wmi-provider/requestcachingsection-class.md)   
- [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

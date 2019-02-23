@@ -82,4 +82,4 @@ class RoleManagerSection : ConfigurationSectionWithCollection
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [NameTypeElement Class](../wmi-provider/nametypeelement-class.md)   
  [ProvidersSettings Class](../wmi-provider/providerssettings-class.md)   
- [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

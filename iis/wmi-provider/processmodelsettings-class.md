@@ -39,7 +39,7 @@ class ProcessModelSettings : EmbeddedObject
 ## Remarks  
  Instances of this class are contained in the `ProcessModel` property of the [ApplicationPool](../wmi-provider/applicationpool-class.md) class and the [ApplicationPoolElementDefaults](../wmi-provider/applicationpoolelementdefaults-class.md) class.  
   
- For more information on the Windows Management Instrumentation (WMI) date/time format, see [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551).  
+ For more information on the Windows Management Instrumentation (WMI) date/time format, see [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551).  
   
  The following table contains the possible values and account types for the `IdentityType` property. The default type is 2 (NetworkService).  
   

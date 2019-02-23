@@ -18,4 +18,4 @@ This section describes the classes, methods, and properties of the Windows Manag
 |[ObjectContainerAssociation](../wmi-provider/objectcontainerassociation-class.md)|Associates an object with its child objects.|  
   
 ## See Also  
- [Web Administration Development Reference](http://msdn.microsoft.com/library/91902cbb-3e44-443d-abe7-2088dc2f36a5)
+ [Web Administration Development Reference](https://msdn.microsoft.com/library/91902cbb-3e44-443d-abe7-2088dc2f36a5)

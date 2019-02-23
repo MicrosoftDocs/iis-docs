@@ -18,7 +18,7 @@ virtual HTTP_RESPONSE* GetRawHttpResponse(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [HTTP_RESPONSE](http://go.microsoft.com/fwlink/?LinkId=56009) structure.  
+ A pointer to an [HTTP_RESPONSE](https://go.microsoft.com/fwlink/?LinkId=56009) structure.  
   
 ## Remarks  
  The `GetRawHttpResponse` method retrieves the raw response and returns a pointer to an `HTTP_RESPONSE` structure that contains the current response entity.  

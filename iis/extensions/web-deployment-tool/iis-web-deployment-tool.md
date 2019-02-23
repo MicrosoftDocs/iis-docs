@@ -25,5 +25,5 @@ The classes in the following namespace enable developers to streamline the deplo
 
 ### Other Resources
 
-[Web Deploy](http://go.microsoft.com/fwlink/?linkid=247911)
+[Web Deploy](https://go.microsoft.com/fwlink/?linkid=247911)
 

@@ -40,7 +40,7 @@ class VirtualDirectory : ConfiguredObject
  This class contains no subclasses.  
   
 ## Remarks  
- The following table contains the possible values and keywords for the `LogonMethod` property. The default is 3 (`ClearText`). For more information, see the [LogonUserEx](http://go.microsoft.com/fwlink/?LinkId=60074) function.  
+ The following table contains the possible values and keywords for the `LogonMethod` property. The default is 3 (`ClearText`). For more information, see the [LogonUserEx](https://go.microsoft.com/fwlink/?LinkId=60074) function.  
   
 |Value|Keyword|Description|  
 |-----------|-------------|-----------------|  
@@ -82,4 +82,4 @@ oVDir.Put_
 ## See Also  
  [ConfiguredObject Class](../wmi-provider/configuredobject-class.md)   
  [Object Class](../wmi-provider/object-class.md)   
- [LogonUserEx](http://go.microsoft.com/fwlink/?LinkId=60074)
+ [LogonUserEx](https://go.microsoft.com/fwlink/?LinkId=60074)

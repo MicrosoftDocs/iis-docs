@@ -25,5 +25,5 @@ The classes in the following namespace enable developers to create custom rewrit
 
 ### Other Resources
 
-[IIS URL Rewrite](http://go.microsoft.com/fwlink/?linkid=247908)
+[IIS URL Rewrite](https://go.microsoft.com/fwlink/?linkid=247908)
 

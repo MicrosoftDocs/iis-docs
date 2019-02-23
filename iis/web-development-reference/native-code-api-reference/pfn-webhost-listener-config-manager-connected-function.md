@@ -28,7 +28,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED )(
   
  The listener adapter should be in a clean state (no configuration information set) when it receives this call.  
   
- You should not set the listener service status to [SERVICE_RUNNING](http://go.microsoft.com/fwlink/?LinkId=63964) from this callback function. You should set the service status to SERVICE_RUNNING only when initialization is complete and the protocol listener is listening (typically after the [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED](../../web-development-reference\native-code-api-reference/pfn-webhost-listener-config-manager-initialization-completed-function.md) notification).  
+ You should not set the listener service status to [SERVICE_RUNNING](https://go.microsoft.com/fwlink/?LinkId=63964) from this callback function. You should set the service status to SERVICE_RUNNING only when initialization is complete and the protocol listener is listening (typically after the [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED](../../web-development-reference\native-code-api-reference/pfn-webhost-listener-config-manager-initialization-completed-function.md) notification).  
   
  The Windows Process Activation Service (WAS) calls this function asynchronously and does not wait for the completion of the notification.  
   

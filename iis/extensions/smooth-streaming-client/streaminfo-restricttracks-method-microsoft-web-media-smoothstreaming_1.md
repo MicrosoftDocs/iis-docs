@@ -86,7 +86,7 @@ You can use the RestrictTracks method to enable scenarios in which multiple audi
 
 The [SelectTracks(IList\<TrackInfo\>, Boolean)](streaminfo-selecttracks-method-microsoft-web-media-smoothstreaming_1.md) method will automatically be called with the given list of available tracks. Note that [SelectedTracks](streaminfo-selectedtracks-property-microsoft-web-media-smoothstreaming_1.md) will not be updated until after the [ManifestReady](smoothstreamingmediaelement-manifestready-event-microsoft-web-media-smoothstreaming_1.md) event.
 
-RestrictTracks can be used to handle scenarios in which there may be differing support for multiple-resolution content. For example, early versions of Windows Phone do not support dynamic resolution changes. For more information, see [Supported Media Codecs for Windows Phone](http://msdn.microsoft.com/en-us/library/ff462087\(v=vs.92\).aspx).
+RestrictTracks can be used to handle scenarios in which there may be differing support for multiple-resolution content. For example, early versions of Windows Phone do not support dynamic resolution changes. For more information, see [Supported Media Codecs for Windows Phone](https://msdn.microsoft.com/library/ff462087\(v=vs.92\).aspx).
 
 The following example restricts tracks to tracks of the same resolution.
 

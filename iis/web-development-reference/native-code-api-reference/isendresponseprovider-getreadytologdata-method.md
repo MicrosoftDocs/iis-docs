@@ -26,7 +26,7 @@ virtual BOOL GetReadyToLogData(
 ## Example  
  The following code example demonstrates how to create an HTTP module that uses the `GetReadyToLogData` method to determine whether IIS is ready log information. The module completes the following steps:  
   
-1.  Uses the `GetLogData` method to retrieve an [HTTP_LOG_FIELDS_DATA](http://go.microsoft.com/fwlink/?LinkId=59280) structure.  
+1.  Uses the `GetLogData` method to retrieve an [HTTP_LOG_FIELDS_DATA](https://go.microsoft.com/fwlink/?LinkId=59280) structure.  
   
 2.  Uses this structure to retrieve the server name from the log information.  
   

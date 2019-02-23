@@ -10,7 +10,7 @@ mtps_version: v=VS.95
 
 # Position in Stream
 
-You can assign the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) to a new position and the player will seek to the new position in the stream. Simply assign a [TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\)) object to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property. The [TimeSpan](http://go.microsoft.com/fwlink/?linkid=181852) object specifies the time interval from the beginning of the stream.
+You can assign the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) to a new position and the player will seek to the new position in the stream. Simply assign a [TimeSpan](https://msdn.microsoft.com/library/269ew577\(v=vs.95\)) object to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property. The [TimeSpan](https://go.microsoft.com/fwlink/?linkid=181852) object specifies the time interval from the beginning of the stream.
 
 The current topic extends the functionality of previous examples in [Silverlight Applications](silverlight-applications.md) and [Events](events.md).
 
@@ -22,7 +22,7 @@ To implement a slider that seeks back and forth in a media stream, add a slider 
   <Slider x:Name="SliderBar" Width="200" ValueChanged="SliderBar_ValueChanged"/>
 ```
 
-The ValueChanged event of the slider shown above specifies the handler for slider movements. The Value property of the slider will require some calculation to convert the slider Value to a [TimeSpan](http://go.microsoft.com/fwlink/?linkid=181852) object that can be assigned to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md). Add the following variables to the MainPage class.
+The ValueChanged event of the slider shown above specifies the handler for slider movements. The Value property of the slider will require some calculation to convert the slider Value to a [TimeSpan](https://go.microsoft.com/fwlink/?linkid=181852) object that can be assigned to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md). Add the following variables to the MainPage class.
 
 ``` 
     // Slider seek variables.

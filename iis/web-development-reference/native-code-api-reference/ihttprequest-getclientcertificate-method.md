@@ -17,7 +17,7 @@ HRESULT GetClientCertificate(
   
 ### Parameters  
  `ppClientCertInfo`  
- [OUT] A pointer to an [HTTP_SSL_CLIENT_CERT_INFO](http://go.microsoft.com/fwlink/?LinkId=63150) structure.  
+ [OUT] A pointer to an [HTTP_SSL_CLIENT_CERT_INFO](https://go.microsoft.com/fwlink/?LinkId=63150) structure.  
   
  `pfClientCertNegotiated`  
  [OUT] `true` if the client certificate has been negotiated already; otherwise, `false`. For more information, see the Remarks section.  
@@ -41,7 +41,7 @@ HRESULT GetClientCertificate(
  For URLs that do not require a client certificate, you can call the [NegotiateClientCertificate](../../web-development-reference\native-code-api-reference/ihttprequest-negotiateclientcertificate-method.md) method before you call `GetClientCertificate` to attempt a manual loading of the client certificate.  
   
 ## Example  
- The following example demonstrates how to get a pointer to the [HTTP_SSL_CLIENT_CERT_INFO](http://go.microsoft.com/fwlink/?LinkId=63150) structure by implementing the [CHttpModule::OnBeginRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onbeginrequest-method.md) method.  
+ The following example demonstrates how to get a pointer to the [HTTP_SSL_CLIENT_CERT_INFO](https://go.microsoft.com/fwlink/?LinkId=63150) structure by implementing the [CHttpModule::OnBeginRequest](../../web-development-reference\native-code-api-reference/chttpmodule-onbeginrequest-method.md) method.  
   
 <!-- TODO: review snippet reference  [!CODE [IHttpRequestGetClientCertificate#2](IHttpRequestGetClientCertificate#2)]  -->  
   

@@ -18,7 +18,7 @@ virtual PSOCKADDR GetLocalAddress(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to a [SOCKADDR](http://go.microsoft.com/fwlink/?LinkId=55151) structure.  
+ A pointer to a [SOCKADDR](https://go.microsoft.com/fwlink/?LinkId=55151) structure.  
   
 ## Remarks  
  The `GetLocalAddress` method retrieves the address of the local interface on which the request was received and returns a pointer to a `SOCKADDR` structure.  

@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: e511b4dc-b775-3d48-f850-a3178ae6bd17
 ---
 # IHttpResponse::WriteEntityChunks Method
-Appends one or more [HTTP_DATA_CHUNK](http://go.microsoft.com/fwlink/?LinkId=56011) structures to the response body.  
+Appends one or more [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=56011) structures to the response body.  
   
 ## Syntax  
   

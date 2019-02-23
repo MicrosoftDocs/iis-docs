@@ -58,4 +58,4 @@ class SchemaImporterExtensionsSection : ConfigurationSectionWithCollection
   
 ## See Also  
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
- [\<system.xml.serialization> Element](http://go.microsoft.com/fwlink/?LinkId=71870)
+ [\<system.xml.serialization> Element](https://go.microsoft.com/fwlink/?LinkId=71870)

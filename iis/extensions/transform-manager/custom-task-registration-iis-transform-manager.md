@@ -201,9 +201,9 @@ The following example shows a SMIL manifest that is created for a job. It contai
 
 ### Other Resources
 
-[Transform Manager Tasks Gallery](http://go.microsoft.com/fwlink/?linkid=191302)
+[Transform Manager Tasks Gallery](https://go.microsoft.com/fwlink/?linkid=191302)
 
-[Transform Manager Knowledge Base](http://go.microsoft.com/fwlink/?linkid=191301)
+[Transform Manager Knowledge Base](https://go.microsoft.com/fwlink/?linkid=191301)
 
-[IIS Transform Manager (IIS.net)](http://go.microsoft.com/fwlink/?linkid=194958)
+[IIS Transform Manager (IIS.net)](https://go.microsoft.com/fwlink/?linkid=194958)
 

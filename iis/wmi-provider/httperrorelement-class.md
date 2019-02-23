@@ -59,5 +59,5 @@ class HttpErrorElement : CollectionElement
 ## See Also  
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HttpErrorsSection Class](../wmi-provider/httperrorssection-class.md)   
- [Configuring Custom Error Messages](http://go.microsoft.com/fwlink/?LinkId=61892)   
- [IIS Status Codes](http://go.microsoft.com/fwlink/?LinkId=61888)
+ [Configuring Custom Error Messages](https://go.microsoft.com/fwlink/?LinkId=61892)   
+ [IIS Status Codes](https://go.microsoft.com/fwlink/?LinkId=61888)

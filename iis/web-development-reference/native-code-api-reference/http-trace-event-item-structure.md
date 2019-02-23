@@ -37,7 +37,7 @@ struct HTTP_TRACE_EVENT_ITEM{
 >  Before performing any cast operation, always verify that the cast is correct to guarantee correct program behavior.  
   
 > [!NOTE]
->  For program clarity, consider using the [reinterpret_cast](http://go.microsoft.com/fwlink/?LinkId=57573) or [static_cast](http://go.microsoft.com/fwlink/?LinkId=57557) operators whenever possible when you perform these casts.  
+>  For program clarity, consider using the [reinterpret_cast](https://go.microsoft.com/fwlink/?LinkId=57573) or [static_cast](https://go.microsoft.com/fwlink/?LinkId=57557) operators whenever possible when you perform these casts.  
   
 ## Example  
  The following code example demonstrates how to create a global module that listens for [GL_TRACE_EVENT](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events and then writes the `HTTP_TRACE_EVENT_ITEM` information to the Event Viewer.  

@@ -106,4 +106,4 @@ WScript.Echo "LockItem: " & _
   
 ## See Also  
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [Configure Directory Browsing](http://go.microsoft.com/fwlink/?LinkId=64345)
+ [Configure Directory Browsing](https://go.microsoft.com/fwlink/?LinkId=64345)

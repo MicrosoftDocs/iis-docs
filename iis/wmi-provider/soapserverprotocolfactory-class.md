@@ -48,4 +48,4 @@ class SoapServerProtocolFactory : EmbeddedObject
  [SoapExtensionTypesInfo Class](../wmi-provider/soapextensiontypesinfo-class.md)   
  [SoapTransportImporterTypesInfo Class](../wmi-provider/soaptransportimportertypesinfo-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   
- [System.Web.Services.Protocols.SoapServerProtocolFactory Class](http://go.microsoft.com/fwlink/?LinkId=69321)
+ [System.Web.Services.Protocols.SoapServerProtocolFactory Class](https://go.microsoft.com/fwlink/?LinkId=69321)

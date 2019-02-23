@@ -18,10 +18,10 @@ virtual INativeConfigurationSystem* GetConfigObject(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [INativeConfigurationSystem](http://msdn.microsoft.com/en-us/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface.  
+ A pointer to an [INativeConfigurationSystem](https://msdn.microsoft.com/en-us/ef29f2da-90b4-be7d-e59b-83fa1799f477) interface.  
   
 ## Remarks  
- The `GetConfigObject` method retrieves a configuration object that you can use to retrieve configuration settings from a configuration file. For example, the [INativeConfigurationSystem::GetConfigSection](http://msdn.microsoft.com/en-us/ad4c47fd-a00e-eb0e-f181-0cb41e98c89d) method retrieves a [INativeConfigurationElement](http://msdn.microsoft.com/en-us/70c26f09-2188-b797-062a-b2eaca3d9ef7) interface, which is a container object for a section of the configuration settings for the current context. This container object contains several methods that you can use to retrieve or modify the configuration settings.  
+ The `GetConfigObject` method retrieves a configuration object that you can use to retrieve configuration settings from a configuration file. For example, the [INativeConfigurationSystem::GetConfigSection](https://msdn.microsoft.com/en-us/ad4c47fd-a00e-eb0e-f181-0cb41e98c89d) method retrieves a [INativeConfigurationElement](https://msdn.microsoft.com/en-us/70c26f09-2188-b797-062a-b2eaca3d9ef7) interface, which is a container object for a section of the configuration settings for the current context. This container object contains several methods that you can use to retrieve or modify the configuration settings.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that uses the [IHttpContext::GetMetadata](../../web-development-reference\native-code-api-reference/ihttpcontext-getmetadata-method.md) method to retrieve a pointer to an [IMetadataInfo](../../web-development-reference\native-code-api-reference/imetadatainfo-interface.md) interface. The module completes the following steps:  
@@ -34,7 +34,7 @@ virtual INativeConfigurationSystem* GetConfigObject(
   
 4.  Retrieves an `INativeConfigurationElement` interface for the log settings for IIS.  
   
-5.  Uses the [INativeConfigurationElement::GetBooleanProperty](http://msdn.microsoft.com/en-us/6f2c8f06-b85d-1e93-ab1b-771a6e1e3ca7) method to retrieve a value that indicates whether logging is enabled for the current request context.  
+5.  Uses the [INativeConfigurationElement::GetBooleanProperty](https://msdn.microsoft.com/en-us/6f2c8f06-b85d-1e93-ab1b-771a6e1e3ca7) method to retrieve a value that indicates whether logging is enabled for the current request context.  
   
 6.  Returns this information to a Web client and then exits.  
   

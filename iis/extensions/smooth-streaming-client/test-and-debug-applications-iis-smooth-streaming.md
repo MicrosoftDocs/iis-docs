@@ -14,15 +14,15 @@ You can test and debug a Smooth Streaming application based on Silverlight by ho
 
 ## Setup Test Environment
 
-Create a new Silverlight application from the template supported by the **New/Project** option in Visual Studio 2008 or Visual Studio Web Developer Edition. Add a reference to the Microsoft.Web.Media.SmoothStreaming.dll that is found in the installation folder with the [IIS Smooth Streaming Client](http://go.microsoft.com/fwlink/?linkid=181828) (The [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md) topic provides a basic example).
+Create a new Silverlight application from the template supported by the **New/Project** option in Visual Studio 2008 or Visual Studio Web Developer Edition. Add a reference to the Microsoft.Web.Media.SmoothStreaming.dll that is found in the installation folder with the [IIS Smooth Streaming Client](https://go.microsoft.com/fwlink/?linkid=181828) (The [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md) topic provides a basic example).
 
 To test a Smooth Streaming player application on a common domain, add the multiple-bit-rate media files and the manifest files to the default Web site on IIS. After you have built the project, copy the Silverlight .xap file and the TestPage.html file that hosts the application to the default Web site with the media files. This way the Silverlight application will run on the same domain and the same port as the Smooth Streaming media. You can test the application from any Silverlight-enabled browser.
 
-If you build and run this application from the Visual Studio development environment, the ASP.NET Development Server will host and run the Silverlight application, but a cross-domain exception will occur because the multiple-bit-rate media files and manifest are hosted on a separate domain by IIS. You can work around this issue by creating a client-access specification, but be sure to investigate the security risks if you use cross-domain access in production. For more information, see [HTTP Communication and Security with Silverlight](http://go.microsoft.com/fwlink/?linkid=181829) and the following information.
+If you build and run this application from the Visual Studio development environment, the ASP.NET Development Server will host and run the Silverlight application, but a cross-domain exception will occur because the multiple-bit-rate media files and manifest are hosted on a separate domain by IIS. You can work around this issue by creating a client-access specification, but be sure to investigate the security risks if you use cross-domain access in production. For more information, see [HTTP Communication and Security with Silverlight](https://go.microsoft.com/fwlink/?linkid=181829) and the following information.
 
 ## Domain Requirements (IIS Smooth Streaming)
 
-For security reasons, Silverlight restricts data access to sources that run on the same domain, protocol, and port as the Silverlight application. A Silverlight application cannot access Smooth Streaming media data from a separate domain unless client access policy overrides the default setting and explicitly allows cross-domain access. This restriction is implemented at the level of the Silverlight runtime. A ClientAccessPolicy.xml file in the root folder of the IIS Web site that hosts Smooth Streaming data can allow cross-domain access. Without the ClientAccessPolicy.xml file, a Silverlight application that attempts to access Smooth Streaming data on a separate domain will throw a [SecurityException](http://go.microsoft.com/fwlink/?linkid=181847).
+For security reasons, Silverlight restricts data access to sources that run on the same domain, protocol, and port as the Silverlight application. A Silverlight application cannot access Smooth Streaming media data from a separate domain unless client access policy overrides the default setting and explicitly allows cross-domain access. This restriction is implemented at the level of the Silverlight runtime. A ClientAccessPolicy.xml file in the root folder of the IIS Web site that hosts Smooth Streaming data can allow cross-domain access. Without the ClientAccessPolicy.xml file, a Silverlight application that attempts to access Smooth Streaming data on a separate domain will throw a [SecurityException](https://go.microsoft.com/fwlink/?linkid=181847).
 
 ### Client Access Policy
 
@@ -52,7 +52,7 @@ If the breakpoints you have set in the application code are disabled when you cl
 
 You will be able to step through code sequences, run to breakpoints, and examine the content of variables to analyze the running application.
 
-For more information, see [How to: Attach to a Running Process](http://go.microsoft.com/fwlink/?linkid=181849).
+For more information, see [How to: Attach to a Running Process](https://go.microsoft.com/fwlink/?linkid=181849).
 
 ## See Also
 
@@ -62,5 +62,5 @@ For more information, see [How to: Attach to a Running Process](http://go.micros
 
 ### Other Resources
 
-[IIS Smooth Streaming Client](http://go.microsoft.com/fwlink/?linkid=181828)
+[IIS Smooth Streaming Client](https://go.microsoft.com/fwlink/?linkid=181828)
 

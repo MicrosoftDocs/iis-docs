@@ -37,9 +37,9 @@ class ApplicationPoolProcessorSettings : EmbeddedObject
 |0|`NoAction`|Writes a warning to the event log, but takes no other action.|  
 |1|`KillW3WP`|Shuts down the application pool worker processes when the value of the `Limit` property is exceeded.|  
   
- For more information on date/time values in Windows Management Instrumentation (WMI), see [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551).  
+ For more information on date/time values in Windows Management Instrumentation (WMI), see [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551).  
   
- For more information on setting processor affinity, see [Set Processor Affinity](http://go.microsoft.com/fwlink/?LinkId=57554).  
+ For more information on setting processor affinity, see [Set Processor Affinity](https://go.microsoft.com/fwlink/?LinkId=57554).  
   
 ## Inheritance Hierarchy  
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  
@@ -58,4 +58,4 @@ class ApplicationPoolProcessorSettings : EmbeddedObject
 ## See Also  
  [ApplicationPool Class](../wmi-provider/applicationpool-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
- [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

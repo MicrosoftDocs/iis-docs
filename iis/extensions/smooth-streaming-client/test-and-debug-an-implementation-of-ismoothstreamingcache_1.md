@@ -10,7 +10,7 @@ mtps_version: v=VS.95
 
 # Test and Debug an Implementation of ISmoothStreamingCache
 
-Testing and debugging an implementation of [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md) requires monitoring both the data transferred from the IIS server that delivers media data and monitoring data storage on the client computer. You can use the Visual Studio debugger to get information about data transfer and storage. For more information about the debugger and related tools, see [Test and Debug Applications](test-and-debug-applications.md), [Process Explorer](http://go.microsoft.com/fwlink/?linkid=251078), and [Fiddler Web Debugging Proxy](http://go.microsoft.com/fwlink/?linkid=251077).
+Testing and debugging an implementation of [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md) requires monitoring both the data transferred from the IIS server that delivers media data and monitoring data storage on the client computer. You can use the Visual Studio debugger to get information about data transfer and storage. For more information about the debugger and related tools, see [Test and Debug Applications](test-and-debug-applications.md), [Process Explorer](https://go.microsoft.com/fwlink/?linkid=251078), and [Fiddler Web Debugging Proxy](https://go.microsoft.com/fwlink/?linkid=251077).
 
 ## Data Transfer and Storage
 
@@ -18,7 +18,7 @@ An implementation of [ISmoothStreamingCache](ismoothstreamingcache-interface-mic
 
 ### Monitoring Data Transfer
 
-To monitor the data coming from the server, you can use the [Fiddler Web Debugging Proxy tool](http://go.microsoft.com/fwlink/?linkid=251077). Fiddler registers requests made by the client to the server and responses from the server, which lets you see whether the application is getting data from the server or from the cache. It can be difficult to determine whether data is coming from the [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md) implementation or from the browser cache. To clear the browser cache, use the browser's commands for deleting temporary files. (For example, in Internet Explorer, display the **Internet Options** dialog box and use the options under **Browsing history** to clear cached data.) Alternatively, use the equivalent options in Fiddler.
+To monitor the data coming from the server, you can use the [Fiddler Web Debugging Proxy tool](https://go.microsoft.com/fwlink/?linkid=251077). Fiddler registers requests made by the client to the server and responses from the server, which lets you see whether the application is getting data from the server or from the cache. It can be difficult to determine whether data is coming from the [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md) implementation or from the browser cache. To clear the browser cache, use the browser's commands for deleting temporary files. (For example, in Internet Explorer, display the **Internet Options** dialog box and use the options under **Browsing history** to clear cached data.) Alternatively, use the equivalent options in Fiddler.
 
 ### Monitoring Data Storage
 
@@ -30,7 +30,7 @@ By watching this location as the application runs, you can verify that data is b
 
 If you are using the cache implementation of [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md) described in [Cache Plug-in Implementation of ISmoothStreamingCache](cache-plug-in-implementation-of-ismoothstreamingcache_1.md), you can use the debugger to watch the isoFileArea variable, which has public members named Quota, UsedSpace, and AvailableFreeSpace.
 
-If the application is running outside the debugger, the path to isolated storage files can be obtained by using the [Process Explorer utility](http://technet.microsoft.com/en-us/sysinternals/bb896653.aspx).
+If the application is running outside the debugger, the path to isolated storage files can be obtained by using the [Process Explorer utility](https://technet.microsoft.com/en-us/sysinternals/bb896653.aspx).
 
 The [BeginPersist(CacheRequest, CacheResponse, AsyncCallback, Object)](ismoothstreamingcache-beginpersist-method-microsoft-web-media-smoothstreaming_1.md) method gets the URL of each data chunk from the request parameter. The actual data of the request is obtained from the response parameter. The response is written to a file in isolated storage when the [EndPersist(IAsyncResult)](ismoothstreamingcache-endpersist-method-microsoft-web-media-smoothstreaming_1.md) method runs. If Fiddler is running, you can watch the requests that the application makes to the server and the results of the requests. After data has been persisted in the cache, subsequent requests to the server should not be made because the data is obtained by the [BeginRetrieve(CacheRequest, AsyncCallback, Object)](ismoothstreamingcache-beginretrieve-method-microsoft-web-media-smoothstreaming_1.md) method from the cache. As noted, the browser might cache the data. Fiddler has a **Clear-Cache** option that can be used to clear the cache, or you can use the browser's commands to delete browsing history.
 
@@ -55,5 +55,5 @@ You can also remove isolated-storage capacity from the Silverlight UI. The Silve
 
 ### Other Resources
 
-[System.IO.IsolatedStorage Namespace](http://go.microsoft.com/fwlink/?linkid=204798)
+[System.IO.IsolatedStorage Namespace](https://go.microsoft.com/fwlink/?linkid=204798)
 

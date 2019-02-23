@@ -32,7 +32,7 @@ interface IAppHostSectionGroup : IUnknown
 |[Type](../../web-development-reference\native-code-api-reference/iapphostsectiongroup-type-property.md)|Gets the type name of the configuration section group.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostSectionGroup`  
   

@@ -29,7 +29,7 @@ virtual HRESULT GetTraceConfiguration(
  Call the `GetTraceConfiguration` method to determine if an event consumer exists before you call the [RaiseTraceEvent](../../web-development-reference\native-code-api-reference/ihttptracecontext-raisetraceevent-method.md) method.  
   
 > [!NOTE]
->  While current [IHttpTraceContext](../../web-development-reference\native-code-api-reference/ihttptracecontext-interface.md) implementers return only S_OK from `GetTraceConfiguration`, you should test for success or failure by passing the returned `HRESULT` to the [SUCCEEDED](http://go.microsoft.com/fwlink/?LinkId=58226) or [FAILED](http://go.microsoft.com/fwlink/?LinkId=58235) macros, respectively, because the implementation may change.  
+>  While current [IHttpTraceContext](../../web-development-reference\native-code-api-reference/ihttptracecontext-interface.md) implementers return only S_OK from `GetTraceConfiguration`, you should test for success or failure by passing the returned `HRESULT` to the [SUCCEEDED](https://go.microsoft.com/fwlink/?LinkId=58226) or [FAILED](https://go.microsoft.com/fwlink/?LinkId=58235) macros, respectively, because the implementation may change.  
   
 ## Thread Safety  
  Most implementers of the [IHttpTraceContext](../../web-development-reference\native-code-api-reference/ihttptracecontext-interface.md) interface are thread safe if only the `GetTraceConfiguration` method is called. Calling the [SetTraceConfiguration](../../web-development-reference\native-code-api-reference/ihttptracecontext-settraceconfiguration-method.md) method is not guaranteed to be thread safe.  

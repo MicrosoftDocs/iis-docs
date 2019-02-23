@@ -50,4 +50,4 @@ class SourceElement : CollectionElement
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [SourceListenerSettings Class](../wmi-provider/sourcelistenersettings-class.md)   
  [SourceSettings Class](../wmi-provider/sourcesettings-class.md)   
- [\<source> Element](http://go.microsoft.com/fwlink/?LinkId=70916)
+ [\<source> Element](https://go.microsoft.com/fwlink/?LinkId=70916)

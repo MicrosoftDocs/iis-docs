@@ -21,7 +21,7 @@ virtual VOID* GetLogData(
  A pointer to `VOID`.  
   
 ## Remarks  
- The `GetLogData` method retrieves a `VOID` pointer, which you cast to an [HTTP_LOG_FIELDS_DATA](http://go.microsoft.com/fwlink/?LinkId=59280) structure to process log information.  
+ The `GetLogData` method retrieves a `VOID` pointer, which you cast to an [HTTP_LOG_FIELDS_DATA](https://go.microsoft.com/fwlink/?LinkId=59280) structure to process log information.  
   
 > [!NOTE]
 >  The `HTTP_LOG_FIELDS_DATA` structure is defined in the Http.h header file.  

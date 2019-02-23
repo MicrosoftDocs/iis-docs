@@ -24,7 +24,7 @@ The examples in this topic extend the sample created in the topic [Silverlight A
 
 ## Media Ended Event
 
-The [MediaEnded](smoothstreamingmediaelement-mediaended-event-microsoft-web-media-smoothstreaming_1.md) event occurs when a media stream that has been playing ends. To catch and respond to the [MediaEnded](smoothstreamingmediaelement-mediaended-event-microsoft-web-media-smoothstreaming_1.md) event, define a delegate as shown in the following code segment and add it to the MainPage() constructor of the sample in the topic [Silverlight Applications](silverlight-applications.md). The += assignment creates a new [RoutedEventHandler](http://msdn.microsoft.com/en-us/library/system.windows.routedeventhandler.aspx) and names it SmoothPlayer\_MediaEnded.
+The [MediaEnded](smoothstreamingmediaelement-mediaended-event-microsoft-web-media-smoothstreaming_1.md) event occurs when a media stream that has been playing ends. To catch and respond to the [MediaEnded](smoothstreamingmediaelement-mediaended-event-microsoft-web-media-smoothstreaming_1.md) event, define a delegate as shown in the following code segment and add it to the MainPage() constructor of the sample in the topic [Silverlight Applications](silverlight-applications.md). The += assignment creates a new [RoutedEventHandler](https://msdn.microsoft.com/library/system.windows.routedeventhandler.aspx) and names it SmoothPlayer\_MediaEnded.
 
     SmoothPlayer.MediaEnded += new RoutedEventHandler(SmoothPlayer_MediaEnded);
 

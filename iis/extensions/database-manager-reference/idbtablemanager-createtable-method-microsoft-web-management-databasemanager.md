@@ -110,7 +110,7 @@ If your provider does not support adding tables, you can use the following code 
 
 
 > [!NOTE]  
-> See the [CREATE TABLE (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms174979.aspx) topic for more information about the CREATE TABLE SQL statement.
+> See the [CREATE TABLE (Transact-SQL)](https://msdn.microsoft.com/library/ms174979.aspx) topic for more information about the CREATE TABLE SQL statement.
 
 
 ## Examples

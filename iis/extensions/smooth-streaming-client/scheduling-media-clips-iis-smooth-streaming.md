@@ -10,7 +10,7 @@ mtps_version: v=VS.90
 
 # Scheduling Media Clips (IIS Smooth Streaming)
 
-You can schedule media clips to play before, during, and after a Smooth Streaming media presentation. This topic shows an example of how to insert advertising clips during programming. A [downloadable sample](http://go.microsoft.com/fwlink/?linkid=182167) is available to accompany this topic.
+You can schedule media clips to play before, during, and after a Smooth Streaming media presentation. This topic shows an example of how to insert advertising clips during programming. A [downloadable sample](https://go.microsoft.com/fwlink/?linkid=182167) is available to accompany this topic.
 
 ## Scheduling Clips by Marker
 
@@ -40,7 +40,7 @@ To handle the [MarkerReached](smoothstreamingmediaelement-markerreached-event-mi
     SmoothPlayer.MarkerReached += 
           new TimelineMarkerRoutedEventHandler(SmoothPlayer_MarkerReached);
 
-In the [MarkerReached](smoothstreamingmediaelement-markerreached-event-microsoft-web-media-smoothstreaming_1.md) handler, identify the marker that will trigger the insertion of the media clip. The following example is from the downloadable sample. It selects a marker if the [System.Windows.Media.TimelineMarker.Text](http://go.microsoft.com/fwlink/?linkid=204790) member of the [System.Windows.Media.TimelineMarkerRoutedEventArgs](http://go.microsoft.com/fwlink/?linkid=204791) object that is passed to the event handler equals "Chapter 3" and if a UI element named InsertClipCheckbox is selected. The code uses the [ScheduleClip(ClipInformation, Boolean, Object)](smoothstreamingmediaelement-scheduleclip-method-clipinformation-boolean-object-microsoft-web-media-smoothstreaming_1.md) method to insert the clip. The method takes parameters that specify a [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) instance, a Boolean value that indicates whether to pause when the clip is finished playing, and the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object that will play the clip.
+In the [MarkerReached](smoothstreamingmediaelement-markerreached-event-microsoft-web-media-smoothstreaming_1.md) handler, identify the marker that will trigger the insertion of the media clip. The following example is from the downloadable sample. It selects a marker if the [System.Windows.Media.TimelineMarker.Text](https://go.microsoft.com/fwlink/?linkid=204790) member of the [System.Windows.Media.TimelineMarkerRoutedEventArgs](https://go.microsoft.com/fwlink/?linkid=204791) object that is passed to the event handler equals "Chapter 3" and if a UI element named InsertClipCheckbox is selected. The code uses the [ScheduleClip(ClipInformation, Boolean, Object)](smoothstreamingmediaelement-scheduleclip-method-clipinformation-boolean-object-microsoft-web-media-smoothstreaming_1.md) method to insert the clip. The method takes parameters that specify a [ClipInformation](clipinformation-class-microsoft-web-media-smoothstreaming_1.md) instance, a Boolean value that indicates whether to pause when the clip is finished playing, and the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object that will play the clip.
 
     void SmoothPlayer_MarkerReached(object sender, TimelineMarkerRoutedEventArgs e)
     {
@@ -77,7 +77,7 @@ The following implementation of ClipClickThrough shows how to open a new browser
         System.Windows.Browser.HtmlPage.Window.Navigate(e.Context.ClipInformation.ClickThroughUri, "_newWindow");
     }
 
-The marker-reached event is one method of scheduling clips. Other applications might use sparse tracks or polling for live ad insertions. For more information, see [Manifest Merge (IIS Smooth Streaming)](manifest-merge.md) and [IIS Smooth Streaming Client](http://go.microsoft.com/fwlink/?linkid=181828).
+The marker-reached event is one method of scheduling clips. Other applications might use sparse tracks or polling for live ad insertions. For more information, see [Manifest Merge (IIS Smooth Streaming)](manifest-merge.md) and [IIS Smooth Streaming Client](https://go.microsoft.com/fwlink/?linkid=181828).
 
 
 > [!NOTE]  
@@ -130,5 +130,5 @@ The following example uses the [ClipProgressUpdate](smoothstreamingmediaelement-
 
 ### Other Resources
 
-[IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
+[IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
 

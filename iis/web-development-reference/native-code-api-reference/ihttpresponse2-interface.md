@@ -18,7 +18,7 @@ class IHttpResponse2 : public IHttpResponse
 |Name|Description|  
 |----------|-----------------|  
 |Flush|Sends all currently buffered output of an asynchronous operation to the client.|  
-|WriteEntityChunks|Appends one or more [HTTP_DATA_CHUNK](http://go.microsoft.com/fwlink/?LinkId=56011) structures to the response body for an asynchronous operation.|  
+|WriteEntityChunks|Appends one or more [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=56011) structures to the response body for an asynchronous operation.|  
   
 ## Derived Classes  
  This interface contains no derived classes.  

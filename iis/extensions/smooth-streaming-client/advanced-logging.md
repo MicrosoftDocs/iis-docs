@@ -12,7 +12,7 @@ dev_langs:
 
 # Advanced Logging
 
-To monitor and test a Silverlight Smooth Streaming client, you can use [IIS Advanced Logging](http://go.microsoft.com/fwlink/?linkid=230674). IIS Advanced Logging provides rich, flexible data collection and real-time logging capabilities. You can log HTTP request and response headers, IIS server variables, and client-side fields in order to track end-user engagement for each IIS application.
+To monitor and test a Silverlight Smooth Streaming client, you can use [IIS Advanced Logging](https://go.microsoft.com/fwlink/?linkid=230674). IIS Advanced Logging provides rich, flexible data collection and real-time logging capabilities. You can log HTTP request and response headers, IIS server variables, and client-side fields in order to track end-user engagement for each IIS application.
 
 ## Advanced Logging
 
@@ -20,7 +20,7 @@ The Smooth Streaming client can use data about its interaction with media conten
 
 ### Prerequisites
 
-To use IIS Advanced Logging, you have to install the feature and configure IIS to use it. After the feature is installed, in IIS Manager, double-click the **Advanced Logging** icon, and then click **Enable Advanced Logging** in the **Actions** pane. (For more information, see [Advanced Logging for IIS 7 - Client Logging](http://go.microsoft.com/fwlink/?linkid=230676).) You can download [Smooth Streaming HD sample content](http://go.microsoft.com/fwlink/?linkid=251075) to test the Smooth Streaming client.
+To use IIS Advanced Logging, you have to install the feature and configure IIS to use it. After the feature is installed, in IIS Manager, double-click the **Advanced Logging** icon, and then click **Enable Advanced Logging** in the **Actions** pane. (For more information, see [Advanced Logging for IIS 7 - Client Logging](https://go.microsoft.com/fwlink/?linkid=230676).) You can download [Smooth Streaming HD sample content](https://go.microsoft.com/fwlink/?linkid=251075) to test the Smooth Streaming client.
 
 ### Advanced Logging Initialization
 
@@ -80,7 +80,7 @@ The following additional configuration options are available for logging:
 
 ### Configuring the Log Definition
 
-For IIS Advanced Logging to use client logging, you have to configure fields in the log definition. You can use the **Advanced Logging** user interface in IIS Manager to define the log, but an easier way to configure the log is to use the AddClientConfig.js script. You can download the script from the IIS.net Web site: [ClientConfig\_2.zip](http://go.microsoft.com/fwlink/?linkid=251073).
+For IIS Advanced Logging to use client logging, you have to configure fields in the log definition. You can use the **Advanced Logging** user interface in IIS Manager to define the log, but an easier way to configure the log is to use the AddClientConfig.js script. You can download the script from the IIS.net Web site: [ClientConfig\_2.zip](https://go.microsoft.com/fwlink/?linkid=251073).
 
 The download file contains the fields.xml file, which is an XML file that defines logging fields. Run the script a shown in the following command. The baseFileName parameter specifies the name of your log definition file. If you do not specify a baseFileName value, IIS Advanced Logging uses the default log definition name of %COMPUTERNAME%-Client.
 
@@ -182,5 +182,5 @@ The content of the fields.xml file is as follows. Change the value of the applic
 
 ### Other Resources
 
-[Advanced Logging for IIS 7 - Client Logging](http://go.microsoft.com/fwlink/?linkid=230676)
+[Advanced Logging for IIS 7 - Client Logging](https://go.microsoft.com/fwlink/?linkid=230676)
 

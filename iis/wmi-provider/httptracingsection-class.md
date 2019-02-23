@@ -86,7 +86,7 @@ Next
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Create a Tracing Rule for Failed Requests](http://go.microsoft.com/fwlink/?LinkId=64723)   
+ [Create a Tracing Rule for Failed Requests](https://go.microsoft.com/fwlink/?LinkId=64723)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [FailureDefinition Class](../wmi-provider/failuredefinition-class.md)   
