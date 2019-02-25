@@ -16,7 +16,7 @@ virtual VOID GetLastModifiedTime(
   
 ### Parameters  
  `pFileTime`  
- [OUT] A pointer to a [FILETIME](http://go.microsoft.com/fwlink/?LinkId=56060) structure.  
+ [OUT] A pointer to a [FILETIME](https://go.microsoft.com/fwlink/?LinkId=56060) structure.  
   
 ## Return Value  
  `VOID`.  
@@ -27,7 +27,7 @@ virtual VOID GetLastModifiedTime(
 > [!NOTE]
 >  The `FILETIME` structure is a 64-bit value that represents the number of 100-nanosecond intervals since January 1, 1601.  
   
- The `GetLastModifiedTime` method is similar to the [IHttpFileInfo::GetLastModifiedString](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getlastmodifiedstring-method.md) method, except that you can use the `FILETIME` structure for comparisons that use functions like [CompareFileTime](http://go.microsoft.com/fwlink/?LinkId=56058) and for calculations that use functions like [FileTimeToSystemTime](http://go.microsoft.com/fwlink/?LinkId=56057).  
+ The `GetLastModifiedTime` method is similar to the [IHttpFileInfo::GetLastModifiedString](../../web-development-reference\native-code-api-reference/ihttpfileinfo-getlastmodifiedstring-method.md) method, except that you can use the `FILETIME` structure for comparisons that use functions like [CompareFileTime](https://go.microsoft.com/fwlink/?LinkId=56058) and for calculations that use functions like [FileTimeToSystemTime](https://go.microsoft.com/fwlink/?LinkId=56057).  
   
 ## Comments  
  Your module must export the [RegisterModule](../../web-development-reference\native-code-api-reference/pfn-registermodule-function.md) function. You can export this function by creating a module definition (.def) file for your project, or you can compile the module by using the `/EXPORT:RegisterModule` switch. For more information, see [Walkthrough: Creating a Request-Level HTTP Module By Using Native Code](../../web-development-reference\native-code-development-overview\walkthrough-creating-a-request-level-http-module-by-using-native-code.md).  

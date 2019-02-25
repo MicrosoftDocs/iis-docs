@@ -33,7 +33,7 @@ class VirtualDirectoryElementDefaults : EmbeddedObject
 ## Remarks  
  Instances of this class are contained in the `VirtualDirectoryDefaults` property of the [Server](../wmi-provider/server-class.md), [Site](../wmi-provider/site-class.md), and [Application](../wmi-provider/application-class.md) classes.  
   
- The following table contains the possible values and keywords for the `LogonMethod` property. The default is 3 (ClearText). For more information, see the [LogonUserEx](http://go.microsoft.com/fwlink/?LinkId=60074) function.  
+ The following table contains the possible values and keywords for the `LogonMethod` property. The default is 3 (ClearText). For more information, see the [LogonUserEx](https://go.microsoft.com/fwlink/?LinkId=60074) function.  
   
 |Value|Keyword|Description|  
 |-----------|-------------|-----------------|  
@@ -106,4 +106,4 @@ End Function
  [Server Class](../wmi-provider/server-class.md)   
  [Site Class](../wmi-provider/site-class.md)   
  [VirtualDirectory Class](../wmi-provider/virtualdirectory-class.md)   
- [LogonUserEx](http://go.microsoft.com/fwlink/?LinkId=60074)
+ [LogonUserEx](https://go.microsoft.com/fwlink/?LinkId=60074)

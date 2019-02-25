@@ -10,9 +10,9 @@ mtps_version: v=VS.90
 
 # Position in Stream (IIS Smooth Streaming)
 
-You can assign the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) to a new position and the player will seek to the new position in the stream. Simply assign a [TimeSpan](https://msdn.microsoft.com/library/269ew577) object to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property. The [TimeSpan](http://go.microsoft.com/fwlink/?linkid=181852) object specifies the time interval from the beginning of the stream.
+You can assign the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) to a new position and the player will seek to the new position in the stream. Simply assign a [TimeSpan](https://msdn.microsoft.com/library/269ew577) object to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property. The [TimeSpan](https://go.microsoft.com/fwlink/?linkid=181852) object specifies the time interval from the beginning of the stream.
 
-The current topic extends the functionality of previous examples in [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md) and [Events (IIS Smooth Streaming)](events.md). You can [download a Visual Studio solution](http://go.microsoft.com/fwlink/?linkid=182167) that contains all the code.
+The current topic extends the functionality of previous examples in [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md) and [Events (IIS Smooth Streaming)](events.md). You can [download a Visual Studio solution](https://go.microsoft.com/fwlink/?linkid=182167) that contains all the code.
 
 ## Position from Slider Bar
 
@@ -22,7 +22,7 @@ To implement a slider that seeks back and forth in a media stream, add a slider 
   <Slider x:Name="SliderBar" Width="200" ValueChanged="SliderBar_ValueChanged"/>
 ```
 
-The ValueChanged event of the slider shown above specifies the handler for slider movements. The Value property of the slider will require some calculation to convert the slider Value to a [TimeSpan](http://go.microsoft.com/fwlink/?linkid=181852) object that can be assigned to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md). Add the following variables to the MainPage class.
+The ValueChanged event of the slider shown above specifies the handler for slider movements. The Value property of the slider will require some calculation to convert the slider Value to a [TimeSpan](https://go.microsoft.com/fwlink/?linkid=181852) object that can be assigned to the [Position](smoothstreamingmediaelement-position-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md). Add the following variables to the MainPage class.
 
 ``` 
     // Slider seek variables.
@@ -90,5 +90,5 @@ The topic [Timeline Markers and Events (IIS Smooth Streaming)](timeline-markers-
 
 ### Other Resources
 
-[IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
+[IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
 

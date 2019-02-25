@@ -20,10 +20,10 @@ class TraceSettings : EmbeddedObject
   
 |Name|Description|  
 |----------|-----------------|  
-|`AutoFlush`|A read/write `boolean` value. `true` if the trace listeners automatically flush the output buffer after every write operation; otherwise, `false`. The default is `false`. **Note:**  When the `AutoFlush` property is set to `true`, the trace listener writes to the file regardless of whether the [System.Diagnostics.Trace.Flush](http://go.microsoft.com/fwlink/?LinkId=71872) method is called.|  
-|`IndentSize`|A read/write `sint32` value that specifies the number of spaces to indent when the [System.Diagnostics.Trace.Indent](http://go.microsoft.com/fwlink/?LinkId=71871) method is called. The default is 4. **Note:**  A [System.Diagnostics.TextWriterTraceListener](http://go.microsoft.com/fwlink/?LinkId=26061) interprets this number as spaces. An [EventLogTraceListener](http://go.microsoft.com/fwlink/?LinkId=71873) ignores this value. This property is stored on per-thread, per-request basis.|  
+|`AutoFlush`|A read/write `boolean` value. `true` if the trace listeners automatically flush the output buffer after every write operation; otherwise, `false`. The default is `false`. **Note:**  When the `AutoFlush` property is set to `true`, the trace listener writes to the file regardless of whether the [System.Diagnostics.Trace.Flush](https://go.microsoft.com/fwlink/?LinkId=71872) method is called.|  
+|`IndentSize`|A read/write `sint32` value that specifies the number of spaces to indent when the [System.Diagnostics.Trace.Indent](https://go.microsoft.com/fwlink/?LinkId=71871) method is called. The default is 4. **Note:**  A [System.Diagnostics.TextWriterTraceListener](https://go.microsoft.com/fwlink/?LinkId=26061) interprets this number as spaces. An [EventLogTraceListener](https://go.microsoft.com/fwlink/?LinkId=71873) ignores this value. This property is stored on per-thread, per-request basis.|  
 |`Listeners`|A [TraceListenerSettings](../wmi-provider/tracelistenersettings-class.md) value that contains listeners that monitor and format trace output.|  
-|`UseGlobalLock`|A read/write `boolean` value. `true` if the global lock will be used; otherwise, `false`. The default is `true`. **Note:**  The global lock is always used if the trace listener is not thread safe, regardless of the value of `UseGlobalLock`. The [System.Diagnostics.TraceListener.IsThreadSafe](http://go.microsoft.com/fwlink/?LinkId=74329) property determines whether the listener is thread safe. The global lock is not used only if the value of `UseGlobalLock` is `false` and the value of `IsThreadSafe` is `true`. The default behavior is to use the global lock.|  
+|`UseGlobalLock`|A read/write `boolean` value. `true` if the global lock will be used; otherwise, `false`. The default is `true`. **Note:**  The global lock is always used if the trace listener is not thread safe, regardless of the value of `UseGlobalLock`. The [System.Diagnostics.TraceListener.IsThreadSafe](https://go.microsoft.com/fwlink/?LinkId=74329) property determines whether the listener is thread safe. The global lock is not used only if the value of `UseGlobalLock` is `false` and the value of `IsThreadSafe` is `true`. The default behavior is to use the global lock.|  
   
 ## Subclasses  
  This class contains no subclasses.  
@@ -49,8 +49,8 @@ class TraceSettings : EmbeddedObject
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [SystemDiagnosticsSection Class](../wmi-provider/systemdiagnosticssection-class.md)   
  [TraceListenerSettings Class](../wmi-provider/tracelistenersettings-class.md)   
- [System.Diagnostics.Trace.Indent Method](http://go.microsoft.com/fwlink/?LinkId=71871)   
- [System.Diagnostics.Trace.Flush Method](http://go.microsoft.com/fwlink/?LinkId=71872)   
- [System.Diagnostics.TextWriterTraceListener Class](http://go.microsoft.com/fwlink/?LinkId=26061)   
- [System.Diagnostics.EventLogTraceListener Class](http://go.microsoft.com/fwlink/?LinkId=71873)   
- [System.Diagnostics.TraceListener.IsThreadSafe Property](http://go.microsoft.com/fwlink/?LinkId=74329)
+ [System.Diagnostics.Trace.Indent Method](https://go.microsoft.com/fwlink/?LinkId=71871)   
+ [System.Diagnostics.Trace.Flush Method](https://go.microsoft.com/fwlink/?LinkId=71872)   
+ [System.Diagnostics.TextWriterTraceListener Class](https://go.microsoft.com/fwlink/?LinkId=26061)   
+ [System.Diagnostics.EventLogTraceListener Class](https://go.microsoft.com/fwlink/?LinkId=71873)   
+ [System.Diagnostics.TraceListener.IsThreadSafe Property](https://go.microsoft.com/fwlink/?LinkId=74329)

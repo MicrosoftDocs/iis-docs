@@ -20,7 +20,7 @@ virtual HRESULT AccessCheck(
  [IN] A `HANDLE` that contains the token for the user.  
   
  `pUserSid`  
- [IN] A pointer that contains the security identifier ([SID](http://go.microsoft.com/fwlink/?LinkId=63529)) for the user.  
+ [IN] A pointer that contains the security identifier ([SID](https://go.microsoft.com/fwlink/?LinkId=63529)) for the user.  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -31,13 +31,13 @@ virtual HRESULT AccessCheck(
 |E_FAIL|Indicates that the operation failed.|  
   
 ## Remarks  
- To determine whether the user can or cannot access the file, call either the [SUCCEEDED](http://go.microsoft.com/fwlink/?LinkId=58226) or [FAILED](http://go.microsoft.com/fwlink/?LinkId=58235) function, respectively, by passing the returned `HRESULT` from the `AccessCheck` method.  
+ To determine whether the user can or cannot access the file, call either the [SUCCEEDED](https://go.microsoft.com/fwlink/?LinkId=58226) or [FAILED](https://go.microsoft.com/fwlink/?LinkId=58235) function, respectively, by passing the returned `HRESULT` from the `AccessCheck` method.  
   
  The behavior of the `AccessCheck` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
 -   Most implementers return S_OK immediately if the `hUserToken` parameter is NULL.  
   
--   Most implementers return the value from calling the [HRESULT_FROM_WIN32](http://go.microsoft.com/fwlink/?LinkId=58220) function by supplying the value from the [GetLastError](http://go.microsoft.com/fwlink/?LinkId=86917) function as a parameter if there are any internal errors or if the corresponding file cannot be opened.  
+-   Most implementers return the value from calling the [HRESULT_FROM_WIN32](https://go.microsoft.com/fwlink/?LinkId=58220) function by supplying the value from the [GetLastError](https://go.microsoft.com/fwlink/?LinkId=86917) function as a parameter if there are any internal errors or if the corresponding file cannot be opened.  
   
 > [!CAUTION]
 >  Because most implementers return S_OK immediately if `hUserToken` is NULL, you should provide the user token whenever possible because the implementation may change.  

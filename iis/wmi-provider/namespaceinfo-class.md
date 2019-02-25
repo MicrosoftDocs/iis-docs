@@ -20,7 +20,7 @@ class NamespaceInfo : EmbeddedObject
   
 |Name|Description|  
 |----------|-----------------|  
-|`AutoImportVBNamespace`|A read/write `boolean` value. `true` if the [Microsoft.VisualBasic](http://go.microsoft.com/fwlink/?LinkId=69333) namespace is imported automatically; otherwise, `false`. The default is `true`. **Note:**  For [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] pages written by using Visual Basic, the `VisualBasic` namespace is imported automatically unless the `AutoImportVBNamespace` property is set to `false`.|  
+|`AutoImportVBNamespace`|A read/write `boolean` value. `true` if the [Microsoft.VisualBasic](https://go.microsoft.com/fwlink/?LinkId=69333) namespace is imported automatically; otherwise, `false`. The default is `true`. **Note:**  For [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] pages written by using Visual Basic, the `VisualBasic` namespace is imported automatically unless the `AutoImportVBNamespace` property is set to `false`.|  
 |`Namespaces`|An array of [NamespaceElement](../wmi-provider/namespaceelement-class.md) values that specify namespace references. **Note:**  No validation is performed to verify that the namespace references are valid.|  
   
 ## Subclasses  
@@ -51,4 +51,4 @@ class NamespaceInfo : EmbeddedObject
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [NamespaceElement Class](../wmi-provider/namespaceelement-class.md)   
  [PagesSection Class](../wmi-provider/pagessection-class.md)   
- [Microsoft.VisualBasic Namespace](http://go.microsoft.com/fwlink/?LinkId=69333)
+ [Microsoft.VisualBasic Namespace](https://go.microsoft.com/fwlink/?LinkId=69333)

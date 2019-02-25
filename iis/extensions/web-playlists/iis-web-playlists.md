@@ -26,5 +26,5 @@ The IIS Web Playlists SDK allows developers to extend the default behavior throu
 
 ### Other Resources
 
-[IIS Web Playlists](http://go.microsoft.com/fwlink/?linkid=247913)
+[IIS Web Playlists](https://go.microsoft.com/fwlink/?linkid=247913)
 

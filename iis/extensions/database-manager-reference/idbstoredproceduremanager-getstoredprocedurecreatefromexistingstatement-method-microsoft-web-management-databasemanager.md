@@ -117,7 +117,7 @@ public Query GetStoredProcedureCreateFromExistingStatement(string connectionStri
 
 
 > [!NOTE]  
-> See the [CREATE PROCEDURE (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms187926.aspx) topic for more information about the CREATE PROCEDURE SQL statement.
+> See the [CREATE PROCEDURE (Transact-SQL)](https://msdn.microsoft.com/library/ms187926.aspx) topic for more information about the CREATE PROCEDURE SQL statement.
 
 
 ## Permissions

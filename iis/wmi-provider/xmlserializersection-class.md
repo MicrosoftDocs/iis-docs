@@ -28,7 +28,7 @@ class XmlSerializerSection : ConfigurationSection
   
 |Name|Description|  
 |----------|-----------------|  
-|`CheckDeserializeAdvances`|A read/write `Boolean` value. `true` if the progress of the [XmlSerializer](http://go.microsoft.com/fwlink/?LinkId=70923) is checked; otherwise, `false`. The default is `false`. **Note:**  By default, the `XmlSerializer` provides an additional layer of security against potential denial of service attacks when untrusted data is deserialized. It does so by attempting to detect infinite loops during deserialization. If such a condition is detected, an exception is thrown with the following message: "Internal error: deserialization failed to advance over underlying stream." This message does not necessarily indicate that a denial of service attack is in progress. In some rare circumstances, the infinite loop detection mechanism produces a false positive and the exception is thrown for a legitimate incoming message. If you find in your particular application that legitimate messages are being rejected by this extra layer of protection, set the `CheckDeserializeAdvances` property to `false`.|  
+|`CheckDeserializeAdvances`|A read/write `Boolean` value. `true` if the progress of the [XmlSerializer](https://go.microsoft.com/fwlink/?LinkId=70923) is checked; otherwise, `false`. The default is `false`. **Note:**  By default, the `XmlSerializer` provides an additional layer of security against potential denial of service attacks when untrusted data is deserialized. It does so by attempting to detect infinite loops during deserialization. If such a condition is detected, an exception is thrown with the following message: "Internal error: deserialization failed to advance over underlying stream." This message does not necessarily indicate that a denial of service attack is in progress. In some rare circumstances, the infinite loop detection mechanism produces a false positive and the exception is thrown for a legitimate incoming message. If you find in your particular application that legitimate messages are being rejected by this extra layer of protection, set the `CheckDeserializeAdvances` property to `false`.|  
 |`Location`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`Path`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
@@ -52,4 +52,4 @@ class XmlSerializerSection : ConfigurationSection
   
 ## See Also  
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [System.Xml.Serialization.XmlSerializer Class](http://go.microsoft.com/fwlink/?LinkId=70923)
+ [System.Xml.Serialization.XmlSerializer Class](https://go.microsoft.com/fwlink/?LinkId=70923)

@@ -113,7 +113,7 @@ public void EditView(string connectionString, string schema, View view)
 
 
 > [!NOTE]  
-> See the [ALTER VIEW (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms173846.aspx) topic for more information about the ALTER VIEW SQL statement.
+> See the [ALTER VIEW (Transact-SQL)](https://msdn.microsoft.com/library/ms173846.aspx) topic for more information about the ALTER VIEW SQL statement.
 
 
 ## Examples

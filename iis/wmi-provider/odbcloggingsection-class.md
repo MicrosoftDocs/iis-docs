@@ -114,4 +114,4 @@ End Function
  [HttpLoggingSection Class](../wmi-provider/httploggingsection-class.md)   
  [LogSection Class](../wmi-provider/logsection-class.md)   
  [SiteLogFile Class](../wmi-provider/sitelogfile-class.md)   
- [How to configure ODBC logging in IIS](http://go.microsoft.com/fwlink/?LinkId=62470)
+ [How to configure ODBC logging in IIS](https://go.microsoft.com/fwlink/?LinkId=62470)

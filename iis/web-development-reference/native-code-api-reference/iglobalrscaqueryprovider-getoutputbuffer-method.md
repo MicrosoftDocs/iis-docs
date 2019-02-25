@@ -35,7 +35,7 @@ virtual HRESULT GetOutputBuffer(
   
  The `GetOutputBuffer` return value depends on implementation. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
- The `IGlobalRSCAQueryProvider` implementer declares a private `BYTE` pointer as a member variable called `buffer`; the implementer initializes `buffer` to NULL at construction. If `buffer` is not NULL when `GetOutputBuffer` is called, the [LocalFree](http://go.microsoft.com/fwlink/?LinkId=63532) function is called on `buffer`. The [LocalAlloc](http://go.microsoft.com/fwlink/?LinkId=63531) function is called to assign `buffer` to a new `BYTE` array of size `cbBuffer` on the heap. `buffer` is then returned in the dereferenced `ppbBuffer` parameter if `GetOutputBuffer` returns S_OK.  
+ The `IGlobalRSCAQueryProvider` implementer declares a private `BYTE` pointer as a member variable called `buffer`; the implementer initializes `buffer` to NULL at construction. If `buffer` is not NULL when `GetOutputBuffer` is called, the [LocalFree](https://go.microsoft.com/fwlink/?LinkId=63532) function is called on `buffer`. The [LocalAlloc](https://go.microsoft.com/fwlink/?LinkId=63531) function is called to assign `buffer` to a new `BYTE` array of size `cbBuffer` on the heap. `buffer` is then returned in the dereferenced `ppbBuffer` parameter if `GetOutputBuffer` returns S_OK.  
   
  **Important** This method is part of the [!INCLUDE[iisver](../../wmi-provider/includes/iisver-md.md)] infrastructure and is not intended to be used directly from your code.  
   

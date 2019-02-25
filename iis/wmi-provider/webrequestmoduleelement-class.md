@@ -57,4 +57,4 @@ class WebRequestModuleElement : CollectionElement
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HttpWebRequestSettings Class](../wmi-provider/httpwebrequestsettings-class.md)   
  [WebRequestModulesSection Class](../wmi-provider/webrequestmodulessection-class.md)   
- [\<add> Element for webRequestModules (Network Settings)](http://go.microsoft.com/fwlink/?LinkId=70917)
+ [\<add> Element for webRequestModules (Network Settings)](https://go.microsoft.com/fwlink/?LinkId=70917)

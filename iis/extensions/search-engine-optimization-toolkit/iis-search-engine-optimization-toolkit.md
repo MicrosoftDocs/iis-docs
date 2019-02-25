@@ -27,5 +27,5 @@ The IIS Search Engine Optimization (SEO) Toolkit contains the following extensib
 
 ### Other Resources
 
-[IIS Search Engine Optimization Toolkit](http://go.microsoft.com/fwlink/?linkid=247901)
+[IIS Search Engine Optimization Toolkit](https://go.microsoft.com/fwlink/?linkid=247901)
 

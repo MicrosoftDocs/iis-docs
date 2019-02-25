@@ -52,4 +52,4 @@ class TransactionsMachineSettingsSection : ConfigurationSection
   
 ## See Also  
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

@@ -228,4 +228,4 @@ Some firewalls try to remedy problems with data connections with built-in filter
 For information regarding Microsoft's Windows Firewall software, please see the following topics on Microsoft's web sites:
 
 - [Windows Firewall FAQ](https://www.microsoft.com/protect/computer/firewall/faq.mspx)
-- [TechNet Webcast: Windows Firewall with Advanced Security (Level 200)](http://msevents.microsoft.com/CUI/WebCastEventDetails.aspx?EventID=1032313272)
+- [TechNet Webcast: Windows Firewall with Advanced Security (Level 200)](https://msevents.microsoft.com/CUI/WebCastEventDetails.aspx?EventID=1032313272)

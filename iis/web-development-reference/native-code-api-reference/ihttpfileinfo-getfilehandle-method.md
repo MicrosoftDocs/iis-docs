@@ -23,7 +23,7 @@ virtual HANDLE GetFileHandle(
 ## Remarks  
  The returned handle must use an overlapped structure to process read requests; otherwise, the current pointer in the file handle might point to random files if multiple threads access the handle concurrently.  
   
- If the returned handle is not INVALID_HANDLE_VALUE, it will point to a valid file handle returned from a method such as the [CreateFile](http://go.microsoft.com/fwlink/?LinkId=58231) global function.  
+ If the returned handle is not INVALID_HANDLE_VALUE, it will point to a valid file handle returned from a method such as the [CreateFile](https://go.microsoft.com/fwlink/?LinkId=58231) global function.  
   
  The behavior of the `GetFileHandle` method is implementation specific. You should use the following information as a guideline, but it may not be correct in all scenarios:  
   
@@ -32,7 +32,7 @@ virtual HANDLE GetFileHandle(
 -   Implementers that reference a non-Internet file return INVALID_HANDLE_VALUE.  
   
 ## Notes for Implementers  
- [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) implementers are responsible for resource management with this data; therefore, `IHttpFileInfo` implementers must call the [CloseHandle](http://go.microsoft.com/fwlink/?LinkId=86428) function on the `HANDLE` when it is no longer needed.  
+ [IHttpFileInfo](../../web-development-reference\native-code-api-reference/ihttpfileinfo-interface.md) implementers are responsible for resource management with this data; therefore, `IHttpFileInfo` implementers must call the [CloseHandle](https://go.microsoft.com/fwlink/?LinkId=86428) function on the `HANDLE` when it is no longer needed.  
   
 ## Notes for Callers  
  `IHttpFileInfo` implementers are responsible for resource management with this data; therefore, `IHttpFileInfo` clients must not call `CloseHandle` on the returned `HANDLE` when this data is no longer needed. Furthermore, clients must not change the state of the memory referenced by this `HANDLE`; otherwise, an access violation will be thrown or the data will become invalid.  

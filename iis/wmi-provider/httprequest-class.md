@@ -104,4 +104,4 @@ Next
 ## See Also  
  [Request-Processing Constants](../web-development-reference\native-code-api-reference/request-processing-constants.md)   
  [Object Class](../wmi-provider/object-class.md)   
- [View Currently Executing Requests in a Worker Process](http://go.microsoft.com/fwlink/?LinkId=60429)
+ [View Currently Executing Requests in a Worker Process](https://go.microsoft.com/fwlink/?LinkId=60429)

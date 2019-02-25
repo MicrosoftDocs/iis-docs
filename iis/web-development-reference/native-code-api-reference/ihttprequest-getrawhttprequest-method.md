@@ -18,7 +18,7 @@ virtual HTTP_REQUEST* GetRawHttpRequest(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to an [HTTP_REQUEST](http://go.microsoft.com/fwlink/?LinkId=56010) structure.  
+ A pointer to an [HTTP_REQUEST](https://go.microsoft.com/fwlink/?LinkId=56010) structure.  
   
 ## Remarks  
  The `GetRawHttpRequest` method retrieves the raw request and returns a pointer to an `HTTP_REQUEST` structure that contains the current request entity.  

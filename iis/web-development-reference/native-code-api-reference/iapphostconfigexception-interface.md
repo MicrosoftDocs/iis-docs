@@ -29,7 +29,7 @@ Interface IAppHostConfigException : public IUnknown
 |[PreErrorLine](../../web-development-reference\native-code-api-reference/iapphostconfigexception-preerrorline-property.md)|Gets the contents of the line before the line in the configuration file that caused the current exception to be thrown.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostConfigException`  
   

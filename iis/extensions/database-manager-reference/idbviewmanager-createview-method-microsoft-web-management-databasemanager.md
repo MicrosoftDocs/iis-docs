@@ -113,7 +113,7 @@ public void CreateView(string connectionString, string schema, View view)
 
 
 > [!NOTE]  
-> See the [CREATE VIEW (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms187956.aspx) topic for more information about the CREATE VIEW SQL statement.
+> See the [CREATE VIEW (Transact-SQL)](https://msdn.microsoft.com/library/ms187956.aspx) topic for more information about the CREATE VIEW SQL statement.
 
 
 ## Examples

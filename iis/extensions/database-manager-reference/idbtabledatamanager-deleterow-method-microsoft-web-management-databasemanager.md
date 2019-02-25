@@ -124,7 +124,7 @@ public void DeleteRow(string connectionString, string tableName, string schema, 
 
 
 > [!NOTE]  
-> See the [DELETE (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms189835.aspx) topic for more information about the DELETE SQL statement.
+> See the [DELETE (Transact-SQL)](https://msdn.microsoft.com/library/ms189835.aspx) topic for more information about the DELETE SQL statement.
 
 
 ## Examples

@@ -40,7 +40,7 @@ class BasicAuthenticationSection : ConfigurationSection
  This class contains no subclasses.  
   
 ## Remarks  
- The following table contains the possible values for the `LogonMethod` property. The default is 3 (`ClearText`). For more information, see the [LogonUserEx](http://go.microsoft.com/fwlink/?LinkId=60074) function.  
+ The following table contains the possible values for the `LogonMethod` property. The default is 3 (`ClearText`). For more information, see the [LogonUserEx](https://go.microsoft.com/fwlink/?LinkId=60074) function.  
   
 |Value|Keyword|Description|  
 |-----------|-------------|-----------------|  
@@ -124,4 +124,4 @@ End Function
  [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)   
  [PassportAuthentication Class](../wmi-provider/passportauthentication-class.md)   
  [WindowsAuthenticationSection Class](../wmi-provider/windowsauthenticationsection-class.md)   
- [LogonUserEx](http://go.microsoft.com/fwlink/?LinkId=60074)
+ [LogonUserEx](https://go.microsoft.com/fwlink/?LinkId=60074)

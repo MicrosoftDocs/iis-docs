@@ -16,7 +16,7 @@ This topic describes the constants that are defined in the Httpcach.h header fil
 |URI_CACHE_NAME|L"URI"|The `IHttpCacheKey` pointer may be safely downcast to an [IUriKey](../../web-development-reference\native-code-api-reference/iurikey-interface.md) pointer.|  
   
 ## Remarks  
- Before you perform any downcast operation, always verify that the cast is correct to guarantee correct program behavior. Consider using the [dynamic_cast](http://go.microsoft.com/fwlink/?LinkId=57556) operator whenever possible when you perform a downcast operation.  
+ Before you perform any downcast operation, always verify that the cast is correct to guarantee correct program behavior. Consider using the [dynamic_cast](https://go.microsoft.com/fwlink/?LinkId=57556) operator whenever possible when you perform a downcast operation.  
   
 ## Requirements  
   

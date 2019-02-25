@@ -29,7 +29,7 @@ IAppHostMappingExtension : public IUnknown
  Developers can extend the site-mapping functionality of IIS by implementing this interface to create a custom mapping extension.  
   
 ## Inheritance Hierarchy  
- [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostMappingExtension`  
   

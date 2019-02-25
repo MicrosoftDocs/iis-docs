@@ -24,7 +24,7 @@ typedef VOID(* PFN_WEBHOST_LISTENER_APPLICATION_POOL_CREATED)(
  [IN] A pointer to a string that contains the name of the application pool where messages should be routed  
   
  `PSID`  
- [IN] A pointer to a security identifier ([SID](http://go.microsoft.com/fwlink/?LinkId=63529)) of the worker process that will support this application pool.  
+ [IN] A pointer to a security identifier ([SID](https://go.microsoft.com/fwlink/?LinkId=63529)) of the worker process that will support this application pool.  
   
 ## Return Value  
  `VOID`.  

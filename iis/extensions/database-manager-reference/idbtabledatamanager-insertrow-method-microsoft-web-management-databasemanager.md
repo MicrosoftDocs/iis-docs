@@ -130,7 +130,7 @@ public object\[\] InsertRow(string connectionString, string tableName, string sc
 
 
 > [!NOTE]  
-> See the [INSERT (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms174335.aspx) topic for more information about the INSERT SQL statement.
+> See the [INSERT (Transact-SQL)](https://msdn.microsoft.com/library/ms174335.aspx) topic for more information about the INSERT SQL statement.
 
 
 ## Examples

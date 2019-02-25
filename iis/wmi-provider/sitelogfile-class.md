@@ -102,4 +102,4 @@ class SiteLogFile : EmbeddedObject
  [LogSection Class](../wmi-provider/logsection-class.md)   
  [Site Class](../wmi-provider/site-class.md)   
  [SiteElementDefaults Class](../wmi-provider/siteelementdefaults-class.md)   
- [Log File Formats in IIS](http://go.microsoft.com/fwlink/?LinkId=62471)
+ [Log File Formats in IIS](https://go.microsoft.com/fwlink/?LinkId=62471)

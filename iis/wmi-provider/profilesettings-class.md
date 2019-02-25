@@ -48,5 +48,5 @@ class ProfileSettings : EmbeddedObject
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
  [ProfileElement Class](../wmi-provider/profileelement-class.md)   
- [System.Int32.MaxValue Field](http://go.microsoft.com/fwlink/?LinkId=69329)   
- [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
+ [System.Int32.MaxValue Field](https://go.microsoft.com/fwlink/?LinkId=69329)   
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

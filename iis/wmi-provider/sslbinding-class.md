@@ -26,8 +26,8 @@ class SSLBinding : Object
 |----------|-----------------|  
 |`BindingOwnerId`|A read/write `string` value that contains a GUID that represents the application that created the binding.|  
 |`CertificateCheckMode`|A read/write `sint32` enumeration that configures client certificate checking. The possible values are listed later in the Remarks section.|  
-|`CertificateHash`|A read/write `string` value that represents the unique identifier for the certificate. This property maps to the IIS 6.0 [SSLCertHash](http://msdn.microsoft.com/en-us/c970c1e3-e29d-4d75-8aa2-cf22027cdd6c) metabase property.|  
-|`CertificateStoreName`|A read/write `string` value that contains the name of the certificate store where the certificate is found. This property maps to the IIS 6.0 [SSLStoreName](http://msdn.microsoft.com/en-us/8b79e987-082d-451c-bce1-bcdc24ed056f) metabase property.|  
+|`CertificateHash`|A read/write `string` value that represents the unique identifier for the certificate. This property maps to the IIS 6.0 [SSLCertHash](https://msdn.microsoft.com/en-us/c970c1e3-e29d-4d75-8aa2-cf22027cdd6c) metabase property.|  
+|`CertificateStoreName`|A read/write `string` value that contains the name of the certificate store where the certificate is found. This property maps to the IIS 6.0 [SSLStoreName](https://msdn.microsoft.com/en-us/8b79e987-082d-451c-bce1-bcdc24ed056f) metabase property.|  
 |`CTLIdentifier`|A read/write `string` value that identifies a certificate trust list (CTL). A CTL is a list of trusted certification authorities (CAs) for a particular Web site.|  
 |`CTLStoreName`|A read/write `string` value that specifies the name of the certificate store that contains the CTL.|  
 |`IPAddress`|A read-only `string` value that contains the IP address for the secure binding. A key property.|  

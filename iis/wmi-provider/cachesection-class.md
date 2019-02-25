@@ -59,4 +59,4 @@ class CacheSection : ConfigurationSection
  [CachingSection Class](../wmi-provider/cachingsection-class.md)   
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [OutputCacheSection Class](../wmi-provider/outputcachesection-class.md)   
- [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

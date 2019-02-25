@@ -20,7 +20,7 @@ virtual LPCGUID GetTraceActivityId(
  A pointer to a constant GUID; otherwise, NULL.  
   
 ## Remarks  
- The behavior of this method depends on implementation. Some implementations always return NULL, while others call the [IHttpRequest::GetRawHttpRequest](../../web-development-reference\native-code-api-reference/ihttprequest-getrawhttprequest-method.md) method on an internal [IHttpRequest](../../web-development-reference\native-code-api-reference/ihttprequest-interface.md) pointer and convert the returned [HTTP_REQUEST](http://go.microsoft.com/fwlink/?LinkId=56010) pointer to a `const` GUID pointer.  
+ The behavior of this method depends on implementation. Some implementations always return NULL, while others call the [IHttpRequest::GetRawHttpRequest](../../web-development-reference\native-code-api-reference/ihttprequest-getrawhttprequest-method.md) method on an internal [IHttpRequest](../../web-development-reference\native-code-api-reference/ihttprequest-interface.md) pointer and convert the returned [HTTP_REQUEST](https://go.microsoft.com/fwlink/?LinkId=56010) pointer to a `const` GUID pointer.  
   
 > [!CAUTION]
 >  Because some implementers return NULL, always verify that the returned LPCGUID is not NULL before you perform any operations on this data.  

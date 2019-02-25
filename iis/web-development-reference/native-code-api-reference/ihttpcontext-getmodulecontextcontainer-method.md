@@ -29,7 +29,7 @@ virtual IHttpModuleContextContainer* GetModuleContextContainer(
  `GetModuleContextContainer` should not return NULL. If the internal container is NULL, set this internal container to the value on the call to [IHttpServer::DispenseContainer](../../web-development-reference\native-code-api-reference/ihttpserver-dispensecontainer-method.md), and then return this same container.  
   
 > [!NOTE]
->  Although implicit upcast operations are considered safe, consider using an explicit cast for program clarity. Also consider using the [dynamic_cast](http://go.microsoft.com/fwlink/?LinkId=57556) operator whenever possible.  
+>  Although implicit upcast operations are considered safe, consider using an explicit cast for program clarity. Also consider using the [dynamic_cast](https://go.microsoft.com/fwlink/?LinkId=57556) operator whenever possible.  
   
 ## Notes for Callers  
  `IHttpContext` implementers are responsible for memory management with this data; therefore, `IHttpContext` clients must not release, call `delete` on, or attempt to downcast and call `IDispensedHttpModuleContextContainer::ReleaseContainer` on the returned `IHttpModuleContextContainer` pointer when this data is no longer needed.  

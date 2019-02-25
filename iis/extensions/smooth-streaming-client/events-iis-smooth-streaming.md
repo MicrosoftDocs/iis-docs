@@ -20,11 +20,11 @@ This topic demonstrates the use of three events.
 
   - [SmoothStreamingErrorOccurred](smoothstreamingmediaelement-smoothstreamingerroroccurred-event-microsoft-web-media-smoothstreaming_1.md)
 
-The examples in this topic extend the sample created in the topic [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md). Other event scenarios are demonstrated in the topics linked at the bottom of the page. You can [download a Visual Studio solution](http://go.microsoft.com/fwlink/?linkid=182167) that contains all the code.
+The examples in this topic extend the sample created in the topic [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md). Other event scenarios are demonstrated in the topics linked at the bottom of the page. You can [download a Visual Studio solution](https://go.microsoft.com/fwlink/?linkid=182167) that contains all the code.
 
 ## Media Ended Event
 
-The [MediaEnded](smoothstreamingmediaelement-mediaended-event-microsoft-web-media-smoothstreaming_1.md) event occurs when a media stream that has been playing ends. To catch and respond to the [MediaEnded](smoothstreamingmediaelement-mediaended-event-microsoft-web-media-smoothstreaming_1.md) event, define a delegate as shown in the following code segment and add it to the MainPage() constructor of the sample in the topic [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md). The += assignment creates a new [RoutedEventHandler](http://msdn.microsoft.com/en-us/library/system.windows.routedeventhandler.aspx) and names it SmoothPlayer\_MediaEnded.
+The [MediaEnded](smoothstreamingmediaelement-mediaended-event-microsoft-web-media-smoothstreaming_1.md) event occurs when a media stream that has been playing ends. To catch and respond to the [MediaEnded](smoothstreamingmediaelement-mediaended-event-microsoft-web-media-smoothstreaming_1.md) event, define a delegate as shown in the following code segment and add it to the MainPage() constructor of the sample in the topic [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md). The += assignment creates a new [RoutedEventHandler](https://msdn.microsoft.com/library/system.windows.routedeventhandler.aspx) and names it SmoothPlayer\_MediaEnded.
 
     SmoothPlayer.MediaEnded += new RoutedEventHandler(SmoothPlayer_MediaEnded);
 
@@ -128,5 +128,5 @@ This handler displays the error code and message to a text block. A full applica
 
 ### Other Resources
 
-[IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
+[IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
 

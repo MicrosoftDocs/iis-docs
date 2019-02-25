@@ -97,4 +97,4 @@ class SessionStateSection : ConfigurationSectionWithCollection
  [System.Web.SessionState.SessionStateMode](/dotnet/api/system.web.sessionstate.sessionstatemode)
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [ProviderSettings Class](../wmi-provider/providersettings-class.md)   
- [Fast, Scalable, and Secure Session State Management for Your Web Applications](http://go.microsoft.com/fwlink/?LinkId=69309)
+ [Fast, Scalable, and Secure Session State Management for Your Web Applications](https://go.microsoft.com/fwlink/?LinkId=69309)

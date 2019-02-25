@@ -71,4 +71,4 @@ class HttpRuntimeSection : ConfigurationSection
  [System.Web.Configuration.SystemWebSectionGroup.HttpRuntime](/dotnet/api/system.web.configuration.systemwebsectiongroup.httpruntime)  
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [CompilationSection Class](../wmi-provider/compilationsection-class.md)   
- [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

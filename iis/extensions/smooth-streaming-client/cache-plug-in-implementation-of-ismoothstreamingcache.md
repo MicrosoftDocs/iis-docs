@@ -18,7 +18,7 @@ The cache implementation is independent of any particular codec requirements. Th
 
 ## Implementation of ISmoothStreamingCache
 
-This topic shows how to create an class that implements the [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md) interface for IIS Smooth Streaming Client offline scenarios. A downloadable version of this code is available from the IIS.net Web site: [Silverlight IIS Smooth Streaming Offline Cache Sample](http://go.microsoft.com/fwlink/?linkid=204769). The application persists data in an instance of System.IO.IsolatedStorage.IsolatedStorage and uses URL/file name pairs in the IsolatedStorageSettings.ApplicationSettings object to track manifests and data chunks that have been saved to the cache. The URL/file name pairs stored in the IsolatedStorageSettings.ApplicationSettings object are read into a dictionary object when the cache is instantiated, and the dictionary pairs are used to identify data files in the cache.
+This topic shows how to create an class that implements the [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md) interface for IIS Smooth Streaming Client offline scenarios. A downloadable version of this code is available from the IIS.net Web site: [Silverlight IIS Smooth Streaming Offline Cache Sample](https://go.microsoft.com/fwlink/?linkid=204769). The application persists data in an instance of System.IO.IsolatedStorage.IsolatedStorage and uses URL/file name pairs in the IsolatedStorageSettings.ApplicationSettings object to track manifests and data chunks that have been saved to the cache. The URL/file name pairs stored in the IsolatedStorageSettings.ApplicationSettings object are read into a dictionary object when the cache is instantiated, and the dictionary pairs are used to identify data files in the cache.
 
 The sample demonstrates implementations of the four methods of [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md):
 
@@ -311,7 +311,7 @@ The following code shows an implementation of [IAsyncResult](https://msdn.micros
         }
 ```
 
-For the complete application that demonstrates how to use this implementation of [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md), you can download the [Silverlight IIS Smooth Streaming Offline Cache Sample](http://code.msdn.microsoft.com/smoothstreaming/release/projectreleases.aspx?releaseid=3867) from the Code Gallery Web site.
+For the complete application that demonstrates how to use this implementation of [ISmoothStreamingCache](ismoothstreamingcache-interface-microsoft-web-media-smoothstreaming_1.md), you can download the [Silverlight IIS Smooth Streaming Offline Cache Sample](https://code.msdn.microsoft.com/smoothstreaming/release/projectreleases.aspx?releaseid=3867) from the Code Gallery Web site.
 
 ## See Also
 
@@ -321,5 +321,5 @@ For the complete application that demonstrates how to use this implementation of
 
 ### Other Resources
 
-[System.IO.IsolatedStorage Namespace](http://go.microsoft.com/fwlink/?linkid=204798)
+[System.IO.IsolatedStorage Namespace](https://go.microsoft.com/fwlink/?linkid=204798)
 

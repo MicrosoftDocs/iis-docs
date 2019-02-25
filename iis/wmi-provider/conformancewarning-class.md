@@ -53,4 +53,4 @@ class ConformanceWarning : CollectionElement
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [ConformanceWarningSettings Class](../wmi-provider/conformancewarningsettings-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   
- [Basic Profile Version 1.1 (WS-I)](http://go.microsoft.com/fwlink/?LinkId=69313)
+ [Basic Profile Version 1.1 (WS-I)](https://go.microsoft.com/fwlink/?LinkId=69313)

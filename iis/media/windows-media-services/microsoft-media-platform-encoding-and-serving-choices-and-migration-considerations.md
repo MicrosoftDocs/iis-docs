@@ -55,7 +55,7 @@ The following encoding and conversion technologies are available from Microsoft:
 - [Expression Encoder 4 with Service Pack 2](https://www.microsoft.com/en-us/download/details.aspx?id=27870) : Expression Encoder is a video-encoding and live-broadcasting application. A free version is available. The [Expression Encoder 4 Pro](https://go.microsoft.com/fwlink/?LinkID=149601) version is necessary for H.264 encoding. Some SP2 features, such as GPU encoding and live template support, are also available only in Expression Encoder 4 Pro.
 
 > [!NOTE]
-> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](http://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](http://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](http://harmonicinc.com/), [Elemental](http://www.elementaltechnologies.com/), and [Envivio](http://www.envivio.com/).
+> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](https://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](http://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](http://harmonicinc.com/), [Elemental](http://www.elementaltechnologies.com/), and [Envivio](http://www.envivio.com/).
 
 
 - Windows Azure Media Encoding Services: Incorporates the technologies of Transform Manager and Expression Encoder into the Windows Azure cloud. Going forward, the latest versions of these technologies will continue to be developed in the Windows Azure Media Services cloud.
@@ -162,10 +162,10 @@ When migrating from Windows Media Services to IIS Media Services, a phased, grad
 <a id="Toc343780155"></a>
 ### 1) Change the Encoder
 
-The [mainstream support end date for Windows Media Encoder](https://support.microsoft.com/lifecycle/?LN=en-ie&amp;C2=7761) was 12/01/2010, so if you are currently using Windows Media Encoder, switch to either using the stand-alone [Expression Encoder](http://expression.microsoft.com/en-us/cc136533) tool or a third-party encoder.
+The [mainstream support end date for Windows Media Encoder](https://support.microsoft.com/lifecycle/?LN=en-ie&amp;C2=7761) was 12/01/2010, so if you are currently using Windows Media Encoder, switch to either using the stand-alone [Expression Encoder](https://expression.microsoft.com/en-us/cc136533) tool or a third-party encoder.
 
 > [!NOTE]
-> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](http://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](http://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](http://harmonicinc.com/), [Elemental](http://www.elementaltechnologies.com/), and [Envivio](http://www.envivio.com/).
+> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](https://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](http://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](http://harmonicinc.com/), [Elemental](http://www.elementaltechnologies.com/), and [Envivio](http://www.envivio.com/).
 
 
 Replacing the encoder is the first step because the encoder is perhaps the easiest of components to replace. Expression Encoder can create content for both Windows Media Services and IIS Media Services.
@@ -235,11 +235,11 @@ If your goal is to stream to mobile devices, it is recommended that you choose H
 To do the re-encoding, Microsoft offers three choices:
 
 - The format conversion facilities of [Windows Azure Media Services](https://www.windowsazure.com/en-us/home/features/media-services/)
-- [Transform Manager](https://www.microsoft.com/en-us/download/details.aspx?id=29890) with [Expression Encoder](http://expression.microsoft.com/en-us/cc136533) (note that re-encoding the AVC (H.264/MPEG-4) format requires the [Pro version of Expression Encoder 4](https://go.microsoft.com/fwlink/?LinkID=149601))
+- [Transform Manager](https://www.microsoft.com/en-us/download/details.aspx?id=29890) with [Expression Encoder](https://expression.microsoft.com/en-us/cc136533) (note that re-encoding the AVC (H.264/MPEG-4) format requires the [Pro version of Expression Encoder 4](https://go.microsoft.com/fwlink/?LinkID=149601))
 - Expression Encoder, if you have only a few files to convert
 
 > [!NOTE]
-> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](http://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](http://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](http://harmonicinc.com/), [Elemental](http://www.elementaltechnologies.com/), and [Envivio](http://www.envivio.com/).
+> Expression Encoder 4 Pro will be unavailable for purchase after 12/31/2013. For more information, see [Microsoft Expression Changes](https://expression.microsoft.com/en-us/cc136533). Additional encoders are available from Microsoft partners such as [Telestream](http://www.telestream.net/), [Digital Rapids](http://www.digitalrapids.com/), [Harmonic](http://harmonicinc.com/), [Elemental](http://www.elementaltechnologies.com/), and [Envivio](http://www.envivio.com/).
 
 
 Windows Azure Media Encoder puts the functionality of Expression Encoder into the Windows Azure Media Services cloud. Going forward, the encoding technology in Windows Azure is the one that Microsoft will continue to develop.
@@ -480,7 +480,7 @@ Delivering content as a multicast stream: [https://technet.microsoft.com/library
 
 Digital Video Player-Ad Interface Definitions (VPAID) Compliance: [http://www.iab.net/iab\_products\_and\_industry\_services/508676/compliance/679310](http://www.iab.net/iab_products_and_industry_services/508676/compliance/679310)
 
-Expression Encoder: [http://expression.microsoft.com/en-us/cc136533](http://expression.microsoft.com/en-us/cc136533)
+Expression Encoder: [http://expression.microsoft.com/en-us/cc136533](https://expression.microsoft.com/en-us/cc136533)
 
 Expression Encoder 4 with Service Pack 2: [https://www.microsoft.com/en-us/download/details.aspx?id=27870](https://www.microsoft.com/en-us/download/details.aspx?id=27870)
 

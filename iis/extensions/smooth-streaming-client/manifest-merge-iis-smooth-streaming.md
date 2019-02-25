@@ -14,7 +14,7 @@ The [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-we
 
 
 > [!NOTE]  
-> The examples in this topic extend features demonstrated in other topics in [IIS Smooth Streaming Client 1.5](microsoft-smooth-streaming-client-2-0.md). All the code is available for download in the [IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167).
+> The examples in this topic extend features demonstrated in other topics in [IIS Smooth Streaming Client 1.5](microsoft-smooth-streaming-client-2-0.md). All the code is available for download in the [IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167).
 
 
 ## ManifestMerge
@@ -65,7 +65,7 @@ The following implementation of the SmoothPlayer\_ManifestMerge delegate include
 
 ### ParseExternalManifest
 
-Applications can call [ParseExternalManifest](smoothstreamingmediaelement-parseexternalmanifest-method-microsoft-web-media-smoothstreaming_1.md) only from the [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event handler. Outside the scope of the method [ParseExternalManifest](smoothstreamingmediaelement-parseexternalmanifest-method-microsoft-web-media-smoothstreaming_1.md), applications will throw an [InvalidOperationException](http://go.microsoft.com/fwlink/?linkid=184079).
+Applications can call [ParseExternalManifest](smoothstreamingmediaelement-parseexternalmanifest-method-microsoft-web-media-smoothstreaming_1.md) only from the [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event handler. Outside the scope of the method [ParseExternalManifest](smoothstreamingmediaelement-parseexternalmanifest-method-microsoft-web-media-smoothstreaming_1.md), applications will throw an [InvalidOperationException](https://go.microsoft.com/fwlink/?linkid=184079).
 
 The [ParseExternalManifest](smoothstreamingmediaelement-parseexternalmanifest-method-microsoft-web-media-smoothstreaming_1.md) method reads XML data from a source identified by the first parameter. To avoid application blocking, the second parameter sets a time-out interval in milliseconds. The third parameter is an out parameter that returns the parsed manifest data.
 
@@ -76,7 +76,7 @@ The [ParseExternalManifest](smoothstreamingmediaelement-parseexternalmanifest-me
 
 ### MergeExternalManifest
 
-Applications can call [MergeExternalManifest](smoothstreamingmediaelement-mergeexternalmanifest-method-microsoft-web-media-smoothstreaming_1.md) only from the [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event handler. Outside the scope of the method \[M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MergeExternalManifest(System.Object),applications\] will throw an [InvalidOperationException](http://go.microsoft.com/fwlink/?linkid=184079).
+Applications can call [MergeExternalManifest](smoothstreamingmediaelement-mergeexternalmanifest-method-microsoft-web-media-smoothstreaming_1.md) only from the [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event handler. Outside the scope of the method \[M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MergeExternalManifest(System.Object),applications\] will throw an [InvalidOperationException](https://go.microsoft.com/fwlink/?linkid=184079).
 
 The [MergeExternalManifest](smoothstreamingmediaelement-mergeexternalmanifest-method-microsoft-web-media-smoothstreaming_1.md) method integrates data in the client manifest with new XML data identified by the first parameter, which is the parsed data obtained from a previous call to [ParseExternalManifest](smoothstreamingmediaelement-parseexternalmanifest-method-microsoft-web-media-smoothstreaming_1.md).
 
@@ -86,7 +86,7 @@ The [MergeExternalManifest](smoothstreamingmediaelement-mergeexternalmanifest-me
 
 ## Supplementary Manifest Data
 
-The data to be merged during the [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event must be formatted as an XML StreamIndex element, which can be defined as needed for application use. For example, the following supplementary data defines captions for display at timed intervals while the media stream plays. As in the original client manifest, an XML \<SmoothStreamingMedia\> element contains the data. In this case the data in the supplementary \<StreamIndex\> element is a list of captions. XML c elements contain each data fragment with number n and timestamp t attributes. As in the client manifest, the data fragments f are formatted as base64 strings. For more information about how to format base64 strings, see the [Encoding](http://msdn.microsoft.com/en-us/library/system.text.encoding.aspx) class.
+The data to be merged during the [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) event must be formatted as an XML StreamIndex element, which can be defined as needed for application use. For example, the following supplementary data defines captions for display at timed intervals while the media stream plays. As in the original client manifest, an XML \<SmoothStreamingMedia\> element contains the data. In this case the data in the supplementary \<StreamIndex\> element is a list of captions. XML c elements contain each data fragment with number n and timestamp t attributes. As in the client manifest, the data fragments f are formatted as base64 strings. For more information about how to format base64 strings, see the [Encoding](https://msdn.microsoft.com/library/system.text.encoding.aspx) class.
 
     <?xml version="1.0" encoding="utf-8"?>
     <!--Created with Expression Encoder version 3.0.1332.0-->
@@ -178,7 +178,7 @@ The supplementary manifest implemented above will be merged during the [Manifest
 
 ### Initialize Markers
 
-The merged manifest data is shown in the following XML example. This data must be added to the [Markers](smoothstreamingmediaelement-markers-property-microsoft-web-media-smoothstreaming_1.md) collection. Each member of the collection is a [TimeLineMarker](http://msdn.microsoft.com/en-us/library/system.windows.media.timelinemarker\(vs.95\).aspx) object that will raise the [MarkerReached](smoothstreamingmediaelement-markerreached-event-microsoft-web-media-smoothstreaming_1.md) event. The following \<StreamIndex\> data was merged into the client manifest in the [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) delegate as described above in the heading "ManifestMerge."
+The merged manifest data is shown in the following XML example. This data must be added to the [Markers](smoothstreamingmediaelement-markers-property-microsoft-web-media-smoothstreaming_1.md) collection. Each member of the collection is a [TimeLineMarker](https://msdn.microsoft.com/library/system.windows.media.timelinemarker\(vs.95\).aspx) object that will raise the [MarkerReached](smoothstreamingmediaelement-markerreached-event-microsoft-web-media-smoothstreaming_1.md) event. The following \<StreamIndex\> data was merged into the client manifest in the [ManifestMerge](smoothstreamingmediaelement-manifestmerge-event-microsoft-web-media-smoothstreaming_1.md) delegate as described above in the heading "ManifestMerge."
 
     <?xml version="1.0" encoding="utf-8"?>
     <SmoothStreamingMedia
@@ -226,9 +226,9 @@ After the markers specified in the previous XML are merged into the manifest, th
 
 The following [MediaOpened](smoothstreamingmediaelement-mediaopened-event-microsoft-web-media-smoothstreaming_1.md) event handler parses the data contained by the AvailableStreams()()()() property. This code identifies the stream that contains the markers by the stream type and attributes. The stream containing the markers is a Script object, which is not included in by default in [SelectedStreams](segmentinfo-selectedstreams-property-microsoft-web-media-smoothstreaming_1.md). It must be selected by calling [SelectStreamsAsync](segmentinfo-selectstreamsasync-method-microsoft-web-media-smoothstreaming_1.md).
 
-The next step is to get the marker data from a [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) object that contains the [ChunkInfo](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md) data from which [Timeline Marker](http://go.microsoft.com/fwlink/?linkid=181858) objects can be initialized. The [Timeline Marker](http://go.microsoft.com/fwlink/?linkid=181858) class is from the System.Windows.Media class as used by Silverlight.
+The next step is to get the marker data from a [TrackInfo](trackinfo-class-microsoft-web-media-smoothstreaming_1.md) object that contains the [ChunkInfo](chunkinfo-class-microsoft-web-media-smoothstreaming_1.md) data from which [Timeline Marker](https://go.microsoft.com/fwlink/?linkid=181858) objects can be initialized. The [Timeline Marker](https://go.microsoft.com/fwlink/?linkid=181858) class is from the System.Windows.Media class as used by Silverlight.
 
-The following code calls [BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md). with an [AsyncCallback](http://msdn.microsoft.com/en-us/library/system.asynccallback.aspx), name AddMarkers, that will extract the data from each chunk.
+The following code calls [BeginGetChunk](trackinfo-begingetchunk-method-microsoft-web-media-smoothstreaming_1.md). with an [AsyncCallback](https://msdn.microsoft.com/library/system.asynccallback.aspx), name AddMarkers, that will extract the data from each chunk.
 
     void SmoothPlayer_MediaOpened(object sender, RoutedEventArgs e)
         {
@@ -319,13 +319,13 @@ The merged Caption marker elements will raise the [MarkerReached](smoothstreamin
           TimelineMarkerRoutedEventHandler(SmoothPlayer_MarkerReached);
 ```
 
-The data from each TimelineEvent is accessible from the TimelineMarkerRoutedEventArgs parameter of the [MarkerReached](smoothstreamingmediaelement-markerreached-event-microsoft-web-media-smoothstreaming_1.md) delegate. To get the data from the base64 encoded string, use the [Encoding](http://go.microsoft.com/fwlink/?linkid=184080) class method [GetString](http://msdn.microsoft.com/en-us/library/05cts4c3.aspx) on the EventData()()()() property from the TimelineMarkerRoutedEventArgs. The data, as described above, is of the form \<Caption Id="111" Action="ADD"\>Chapter One\</Caption\>.
+The data from each TimelineEvent is accessible from the TimelineMarkerRoutedEventArgs parameter of the [MarkerReached](smoothstreamingmediaelement-markerreached-event-microsoft-web-media-smoothstreaming_1.md) delegate. To get the data from the base64 encoded string, use the [Encoding](https://go.microsoft.com/fwlink/?linkid=184080) class method [GetString](https://msdn.microsoft.com/library/05cts4c3.aspx) on the EventData()()()() property from the TimelineMarkerRoutedEventArgs. The data, as described above, is of the form \<Caption Id="111" Action="ADD"\>Chapter One\</Caption\>.
 
 Each Caption element specifies either ADD or REMOVE by its Action attribute. When the value specifies the ADD action, the code creates a new text block for the caption and formats the text. Adding the new text block to the LayoutRoot displays the caption.
 
 If the value of the Action attribute specifies REMOVE, another code block removes the Caption identified by the Id attribute value set when it was created. Any previous captions that remain because of out-of-sequence movements through the stream are identified by Tag="Caption" so that they can be removed before new captions are displayed.
 
-The following code implements the TimelineEventReached()()()() delegate. (All the code in this example is available for download with the [IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167).)
+The following code implements the TimelineEventReached()()()() delegate. (All the code in this example is available for download with the [IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167).)
 
 ``` 
     void SmoothPlayer_MarkerReached(object sender, TimelineMarkerRoutedEventArgs e)
@@ -406,5 +406,5 @@ For more information, see [Timeline Markers and Events (IIS Smooth Streaming)](t
 
 ### Other Resources
 
-[IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
+[IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
 

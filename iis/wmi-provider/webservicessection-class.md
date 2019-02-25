@@ -43,7 +43,7 @@ class WebServicesSection : ConfigurationSectionWithCollection
 |`SoapExtensionImporterTypes`|A [SoapExtensionImporterTypesSettings](../wmi-provider/soapextensionimportertypessettings-class.md) value that specifies the SOAP extensions to run when a service description for a Web service in the scope of the configuration file is accessed to create a proxy class.|  
 |`SoapExtensionReflectorTypes`|A [SoapExtensionReflectorTypesSettings](../wmi-provider/soapextensionreflectortypessettings-class.md) value that specifies the SOAP extensions to run when a service description is generated for all Web services in the scope of the configuration file.|  
 |`SoapExtensionTypes`|A [SoapExtensionTypesInfo](../wmi-provider/soapextensiontypesinfo-class.md) value that specifies the SOAP extensions to run with all Web services in the scope of the configuration file.|  
-|`SoapServerProtocolFactory`|A [SoapServerProtocolFactory](../wmi-provider/soapserverprotocolfactory-class.md) value that sets a [System.Web.Services.Configuration.TypeElement](http://go.microsoft.com/fwlink/?LinkId=70958) object that corresponds to the protocol that is used to call the Web service.|  
+|`SoapServerProtocolFactory`|A [SoapServerProtocolFactory](../wmi-provider/soapserverprotocolfactory-class.md) value that sets a [System.Web.Services.Configuration.TypeElement](https://go.microsoft.com/fwlink/?LinkId=70958) object that corresponds to the protocol that is used to call the Web service.|  
 |`SoapTransportImporterTypes`|A [SoapTransportImporterTypesInfo](../wmi-provider/soaptransportimportertypesinfo-class.md) value that contains  [SoapTransportImporterTypeElement](../wmi-provider/soaptransportimportertypeelement-class.md) instances that import SOAP transmission protocols into Web services.|  
 |`WsdlHelpGenerator`|A [WsdlHelpGeneratorInfo](../wmi-provider/wsdlhelpgeneratorinfo-class.md) value that specifies the Web service Help page (an .aspx file) that is displayed to a browser when the user browses to an .asmx page.|  
   
@@ -84,4 +84,4 @@ class WebServicesSection : ConfigurationSectionWithCollection
  [WebServicesProtocolSettings Class](../wmi-provider/webservicesprotocolsettings-class.md)   
  [IIS 7.0: WebServicesSection Class](../wmi-provider/webservicessection-class.md)   
  [WsdlHelpGeneratorInfo Class](../wmi-provider/wsdlhelpgeneratorinfo-class.md)   
- [System.Web.Services.Description.SoapTransportImporter](http://go.microsoft.com/fwlink/?LinkId=70959)
+ [System.Web.Services.Description.SoapTransportImporter](https://go.microsoft.com/fwlink/?LinkId=70959)

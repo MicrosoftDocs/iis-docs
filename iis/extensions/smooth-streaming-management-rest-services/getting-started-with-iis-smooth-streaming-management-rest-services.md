@@ -14,7 +14,7 @@ The IIS Smooth Streaming Management REST Services Application Programming Interf
 
 The Smooth Streaming Management REST Services API provides programmatic access to much of the functionality available through the Live Smooth Streaming Publishing Points icon in the Media Services area of IIS Manager. Using the Smooth Streaming Management REST Services API, you can create or delete publishing points; enumerate the publishing points on a Web site; query the setting, state, or statistics of a publishing point; or update the state of a publishing point.
 
-XML elements that form the request body and response body of Smooth Streaming REST Services publishing point management are defined in the SmoothStreaming schema, [SmoothStreaming.xsd](http://go.microsoft.com/fwlink/?linkid=231871). For more information see the [SmoothStreaming Schema Reference](smoothstreaming-schema-reference.md).
+XML elements that form the request body and response body of Smooth Streaming REST Services publishing point management are defined in the SmoothStreaming schema, [SmoothStreaming.xsd](https://go.microsoft.com/fwlink/?linkid=231871). For more information see the [SmoothStreaming Schema Reference](smoothstreaming-schema-reference.md).
 
 ## Using the IIS Smooth Streaming Management REST Services
 

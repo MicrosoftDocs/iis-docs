@@ -113,7 +113,7 @@ public void DropView(string connectionString, string schema, string viewName)
 
 
 > [!NOTE]  
-> See the [DROP VIEW (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms173492.aspx) topic for more information about the DROP VIEW SQL statement.
+> See the [DROP VIEW (Transact-SQL)](https://msdn.microsoft.com/library/ms173492.aspx) topic for more information about the DROP VIEW SQL statement.
 
 
 ## Examples

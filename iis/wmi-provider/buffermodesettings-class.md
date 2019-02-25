@@ -47,4 +47,4 @@ class BufferModeSettings : EmbeddedObject
  [BufferModeElement Class](../wmi-provider/buffermodeelement-class.md)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
- [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

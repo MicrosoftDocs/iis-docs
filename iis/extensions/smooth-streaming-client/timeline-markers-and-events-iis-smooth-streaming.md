@@ -12,7 +12,7 @@ mtps_version: v=VS.90
 
 Applications can handle timeline events that occur while a media stream plays or use markers to find specified locations in the stream. The [StreamInfo](streaminfo-class-microsoft-web-media-smoothstreaming_1.md) class in the [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md) client library corresponds to StreamIndex element in the XML manifest.
 
-This topic shows how to extract time and text data from StreamIndex elements and initialize [TimelineMarker](https://msdn.microsoft.com/library/cc672550) objects. The example extends the examples implemented in the [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md), [Events (IIS Smooth Streaming)](events.md), and [Position in Stream (IIS Smooth Streaming)](position-in-stream.md) topics in order to create a table of contents that specifies chapter headings. A downloadable sample is available that contains all the code: [Download](http://go.microsoft.com/fwlink/?linkid=182167).
+This topic shows how to extract time and text data from StreamIndex elements and initialize [TimelineMarker](https://msdn.microsoft.com/library/cc672550) objects. The example extends the examples implemented in the [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md), [Events (IIS Smooth Streaming)](events.md), and [Position in Stream (IIS Smooth Streaming)](position-in-stream.md) topics in order to create a table of contents that specifies chapter headings. A downloadable sample is available that contains all the code: [Download](https://go.microsoft.com/fwlink/?linkid=182167).
 
 ## Defining Timeline Events in the Manifest
 
@@ -171,7 +171,7 @@ The previous code example calls the [BeginGetChunk](trackinfo-begingetchunk-meth
 
 ## Creating a Timeline Event Handler
 
-After the [TimeLineMarker](http://go.microsoft.com/fwlink/?linkid=181858) objects are initialized in the [Markers](smoothstreamingmediaelement-markers-property-microsoft-web-media-smoothstreaming_1.md) collection, application code can catch and respond to timeline events identified by markers
+After the [TimeLineMarker](https://go.microsoft.com/fwlink/?linkid=181858) objects are initialized in the [Markers](smoothstreamingmediaelement-markers-property-microsoft-web-media-smoothstreaming_1.md) collection, application code can catch and respond to timeline events identified by markers
 
 To do this, assign a delegate to handle the [MarkerReached](smoothstreamingmediaelement-markerreached-event-microsoft-web-media-smoothstreaming_1.md) event as shown in the following example:
 
@@ -180,7 +180,7 @@ To do this, assign a delegate to handle the [MarkerReached](smoothstreamingmedia
       new TimelineMarkerRoutedEventHandler(SmoothPlayer_MarkerReached);
 ```
 
-Implement the delegate that will run when the event occurs. The following code shows how to write both the timeline position in ticks and the text of the marker to a Silverlight [TextBlock](http://go.microsoft.com/fwlink/?linkid=181864) object.
+Implement the delegate that will run when the event occurs. The following code shows how to write both the timeline position in ticks and the text of the marker to a Silverlight [TextBlock](https://go.microsoft.com/fwlink/?linkid=181864) object.
 
 ``` 
   void SmoothPlayer_MarkerReached(object sender, TimelineMarkerRoutedEventArgs e)
@@ -210,7 +210,7 @@ Set the enabled property of the ChapterSeekButton object to false in MainPage.xa
 
 When a user clicks **Chapter**, the code uses the markers represented by the [Markers](smoothstreamingmediaelement-markers-property-microsoft-web-media-smoothstreaming_1.md) property of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) object to navigate through the stream.
 
-Application code can seek to positions in a stream from [TimeLineMarker](http://go.microsoft.com/fwlink/?linkid=181858) objects. When a user clicks **Chapter**, the following code finds the next marker and advances the media stream from the current position to the marker position. (Later in this document, you will modify this code in order to implement a navigation window that contains chapter headings.)
+Application code can seek to positions in a stream from [TimeLineMarker](https://go.microsoft.com/fwlink/?linkid=181858) objects. When a user clicks **Chapter**, the following code finds the next marker and advances the media stream from the current position to the marker position. (Later in this document, you will modify this code in order to implement a navigation window that contains chapter headings.)
 
 ``` 
     private void ChaptersSeekButton_Click(object sender, RoutedEventArgs e)
@@ -249,9 +249,9 @@ In the Silverlight application, parse the [StreamInfo](streaminfo-class-microsof
 
 ### Creating a Child Window Table of Contents
 
-There are many ways to display these timeline markers to the user. The following example shows how to create a [Silverlight child window](http://go.microsoft.com/fwlink/?linkid=181860) that displays a list box of chapter headings as navigable options.
+There are many ways to display these timeline markers to the user. The following example shows how to create a [Silverlight child window](https://go.microsoft.com/fwlink/?linkid=181860) that displays a list box of chapter headings as navigable options.
 
-Add a [Silverlight child window](http://msdn.microsoft.com/en-us/library/system.windows.controls.childwindow\(vs.95\).aspx) to the project by using the template provided by the Visual Studio **Add New Item** option. The following example names the child window ChapterSeekWindow and adds the XAML for it.
+Add a [Silverlight child window](https://msdn.microsoft.com/library/system.windows.controls.childwindow\(vs.95\).aspx) to the project by using the template provided by the Visual Studio **Add New Item** option. The following example names the child window ChapterSeekWindow and adds the XAML for it.
 
     <controls:ChildWindow x:Class="Silverlight_SmoothStreaming.ChapterSeekWindow"
                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
@@ -277,7 +277,7 @@ Add a [Silverlight child window](http://msdn.microsoft.com/en-us/library/system.
         </Grid>
     </controls:ChildWindow>
 
-To pass the [Markers](smoothstreamingmediaelement-markers-property-microsoft-web-media-smoothstreaming_1.md) collection to the child window, add a ChapterSeekWindow constructor to the window's partial class definition that includes a parameter for the [TimelineMarkerCollection](http://go.microsoft.com/fwlink/?linkid=181862) object, as shown in the following example. This code uses the collection argument to populate the ChaptersList list box in the child window. You also must have the members (shown before the constructor in the following code) in order to keep the markers collection in scope and to return results from the child window to the main page.
+To pass the [Markers](smoothstreamingmediaelement-markers-property-microsoft-web-media-smoothstreaming_1.md) collection to the child window, add a ChapterSeekWindow constructor to the window's partial class definition that includes a parameter for the [TimelineMarkerCollection](https://go.microsoft.com/fwlink/?linkid=181862) object, as shown in the following example. This code uses the collection argument to populate the ChaptersList list box in the child window. You also must have the members (shown before the constructor in the following code) in order to keep the markers collection in scope and to return results from the child window to the main page.
 
 ``` 
     TimelineMarkerCollection markersCollection;
@@ -388,5 +388,5 @@ The next code segment is the delegate method that gets the user's selection, if 
 
 ### Other Resources
 
-[IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
+[IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
 

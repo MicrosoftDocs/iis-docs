@@ -4,7 +4,7 @@ ms.date: "10/07/2016"
 ms.assetid: 1b72f5c0-780b-61af-9796-7bdb5f2017ad
 ---
 # IHttpServer::AddFragmentToCache Method
-Adds an [HTTP_DATA_CHUNK](http://go.microsoft.com/fwlink/?LinkId=56011) structure to the cache.  
+Adds an [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=56011) structure to the cache.  
   
 ## Syntax  
   

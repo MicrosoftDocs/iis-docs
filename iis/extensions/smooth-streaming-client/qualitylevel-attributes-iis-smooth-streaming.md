@@ -107,13 +107,13 @@ If the Type of track is audio the following additional attributes are required:
 
   - AudioTag: \[Required\] Specifies the audio format type.
 
-  - CodecPrivateData: \[Required\] Specifies the extra codec-specific information appended to the end of the [WAVEFORMATEX](http://go.microsoft.com/fwlink/?linkid=204792) structure. This value is base16 encoded.
+  - CodecPrivateData: \[Required\] Specifies the extra codec-specific information appended to the end of the [WAVEFORMATEX](https://go.microsoft.com/fwlink/?linkid=204792) structure. This value is base16 encoded.
 
   - FourCC: \[Optional\] Specifies the FourCC code for the audio codec.
 
 The FourCC attribute indicates the audio codec used. Supported values are:
 
-  - WMA, which represents WMA with no version-specific information. For more information, see [WAVEFORMATEX](http://go.microsoft.com/fwlink/?linkid=204792) structure.
+  - WMA, which represents WMA with no version-specific information. For more information, see [WAVEFORMATEX](https://go.microsoft.com/fwlink/?linkid=204792) structure.
 
   - WMAP, which represents WMA Pro.
 

@@ -57,4 +57,4 @@ class TraceUrl : CollectionElement
  [TraceProviderDefinition Class](../wmi-provider/traceproviderdefinition-class.md)   
  [TraceProviderDefinitionsSection Class](../wmi-provider/traceproviderdefinitionssection-class.md)   
  [TraceUrlAreaSettings Class](../wmi-provider/traceurlareasettings-class.md)   
- [Create a Tracing Rule for Failed Requests](http://go.microsoft.com/fwlink/?LinkId=64723)
+ [Create a Tracing Rule for Failed Requests](https://go.microsoft.com/fwlink/?LinkId=64723)

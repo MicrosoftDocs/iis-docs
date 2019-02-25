@@ -29,7 +29,7 @@ virtual HRESULT GetFileInfo(
  [IN] A `HANDLE` that contains the token for the impersonation user; otherwise, NULL.  
   
  `pSid`  
- [IN] A pointer to a security identifier ([SID](http://go.microsoft.com/fwlink/?LinkId=63529)) that contains the security ID for the impersonation user; otherwise, NULL.  
+ [IN] A pointer to a security identifier ([SID](https://go.microsoft.com/fwlink/?LinkId=63529)) that contains the security ID for the impersonation user; otherwise, NULL.  
   
  `pszVrPath`  
  [IN] A pointer to a string that contains the virtual path to register for change notifications; otherwise, NULL.  

@@ -77,7 +77,7 @@ The Statement property contains the SQL syntax for the [Query](query-class-micro
 
 
 > [!NOTE]  
-> For information about the SQL syntax that is available for the Statement property, see the [Transact-SQL Reference](http://msdn.microsoft.com/en-us/library/bb510741.aspx) topic on the Microsoft MSDN Web site.
+> For information about the SQL syntax that is available for the Statement property, see the [Transact-SQL Reference](https://msdn.microsoft.com/library/bb510741.aspx) topic on the Microsoft MSDN Web site.
 
 
 ## Examples

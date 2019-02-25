@@ -28,7 +28,7 @@ virtual HANDLE GetPrimaryToken(
  For more information on downcast rules, see [ICacheProvider::GetCacheRecord](../../web-development-reference\native-code-api-reference/icacheprovider-getcacherecord-method.md).  
   
 ## Notes for Implementers  
- `IHttpTokenEntry` implementers are responsible for resource management with this data; therefore, `IHttpTokenEntry` implementers must call [CloseHandle](http://go.microsoft.com/fwlink/?LinkId=60019) on the handle when it is no longer needed.  
+ `IHttpTokenEntry` implementers are responsible for resource management with this data; therefore, `IHttpTokenEntry` implementers must call [CloseHandle](https://go.microsoft.com/fwlink/?LinkId=60019) on the handle when it is no longer needed.  
   
 ## Notes for Callers  
  `IHttpTokenEntry` implementers are responsible for resource management with this data; therefore, `IHttpTokenEntry` clients must not call `CloseHandle` on the returned handle when this data is no longer needed. Furthermore, clients must not change the state of the memory that this handle references, because an access violation will be thrown or the data will become invalid.  

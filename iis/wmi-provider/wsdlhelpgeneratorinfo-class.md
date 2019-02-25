@@ -45,4 +45,4 @@ class WsdlHelpGeneratorInfo : EmbeddedObject
 ## See Also  
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   
- [\<wsdlHelpGenerator> Element](http://go.microsoft.com/fwlink/?LinkId=69320)
+ [\<wsdlHelpGenerator> Element](https://go.microsoft.com/fwlink/?LinkId=69320)

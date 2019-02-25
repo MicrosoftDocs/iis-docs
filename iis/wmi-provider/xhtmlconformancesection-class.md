@@ -63,4 +63,4 @@ class XhtmlConformanceSection : ConfigurationSection
   
 ## See Also  
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [xhtmlConformance Element (ASP.NET Settings Schema)](http://go.microsoft.com/fwlink/?LinkId=67196)
+ [xhtmlConformance Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67196)

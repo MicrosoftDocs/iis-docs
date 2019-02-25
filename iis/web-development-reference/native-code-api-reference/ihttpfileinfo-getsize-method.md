@@ -16,7 +16,7 @@ virtual VOID GetSize(
   
 ### Parameters  
  `pliSize`  
- [OUT] A pointer to a [ULARGE_INTEGER](http://go.microsoft.com/fwlink/?LinkId=56061) structure.  
+ [OUT] A pointer to a [ULARGE_INTEGER](https://go.microsoft.com/fwlink/?LinkId=56061) structure.  
   
 ## Return Value  
  `VOID`.  
