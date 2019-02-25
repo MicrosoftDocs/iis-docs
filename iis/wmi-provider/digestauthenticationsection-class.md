@@ -66,4 +66,4 @@ class DigestAuthenticationSection : ConfigurationSection
  [IisClientCertificateMappingAuthenticationSection Class](../wmi-provider/iisclientcertificatemappingauthenticationsection-class.md)   
  [PassportAuthentication Class](../wmi-provider/passportauthentication-class.md)   
  [WindowsAuthenticationSection Class](../wmi-provider/windowsauthenticationsection-class.md)   
- [Configure Digest Authentication](http://go.microsoft.com/fwlink/?LinkId=69318)
+ [Configure Digest Authentication](https://go.microsoft.com/fwlink/?LinkId=69318)

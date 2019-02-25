@@ -25,5 +25,5 @@ The Web Platform Installer includes a set of Application Programming Interfaces 
 
 ### Other Resources
 
-[Microsoft Web Platform Installer](http://go.microsoft.com/fwlink/?linkid=247915)
+[Microsoft Web Platform Installer](https://go.microsoft.com/fwlink/?linkid=247915)
 

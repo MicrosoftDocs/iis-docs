@@ -45,5 +45,5 @@ class ConnectionManagementElement : CollectionElement
   
 ## See Also  
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [\<connectionManagement> Element (Network Settings)](http://go.microsoft.com/fwlink/?LinkId=70910)   
- [.NET Framework Regular Expressions](http://go.microsoft.com/fwlink/?LinkId=70911)
+ [\<connectionManagement> Element (Network Settings)](https://go.microsoft.com/fwlink/?LinkId=70910)   
+ [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/?LinkId=70911)

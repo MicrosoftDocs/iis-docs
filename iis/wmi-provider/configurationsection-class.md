@@ -48,7 +48,7 @@ class ConfigurationSection
 |[ConfigurationHistorySection](../wmi-provider/configurationhistorysection-class.md)|Configures the configuration history settings of the ApplicationHost Helper Service.|  
 |[ConfigurationRedirectionSection](../wmi-provider/configurationredirectionsection-class.md)|Configures the location of the ApplicationHost.config and Administration.config files.|  
 |[ConfigurationSectionWithCollection](../wmi-provider/configurationsectionwithcollection-class.md)|Serves as a base class for configuration-section classes that contain collections.|  
-|[DateTimeSerializationSection](../wmi-provider/datetimeserializationsection-class.md)|Handles configuration settings for XML serialization of [System.DateTime](http://go.microsoft.com/fwlink/?LinkId=70919) instances.|  
+|[DateTimeSerializationSection](../wmi-provider/datetimeserializationsection-class.md)|Handles configuration settings for XML serialization of [System.DateTime](https://go.microsoft.com/fwlink/?LinkId=70919) instances.|  
 |[DigestAuthenticationSection](../wmi-provider/digestauthenticationsection-class.md)|Configures Digest authentication.|  
 |[DirectoryBrowseSection](../wmi-provider/directorybrowsesection-class.md)|Configures directory browsing in IIS.|  
 |[GlobalizationSection](../wmi-provider/globalizationsection-class.md)|Configures the globalization settings for a Web application.|  

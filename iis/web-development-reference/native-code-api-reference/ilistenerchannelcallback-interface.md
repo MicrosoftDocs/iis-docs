@@ -34,7 +34,7 @@ struct IListenerChannelCallback : IUnknown
  Use the `pBlob` parameter in the `GetBlob` method to communicate changes of listener channel data after the listener channel starts.  
   
 ## Inheritance Hierarchy  
- [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IListenerChannelCallback`  
   

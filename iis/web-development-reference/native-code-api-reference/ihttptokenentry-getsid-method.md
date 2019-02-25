@@ -18,7 +18,7 @@ virtual PSID GetSid(
  This method takes no parameters.  
   
 ## Return Value  
- A pointer to a security identifier ([SID](http://go.microsoft.com/fwlink/?LinkId=63529)).  
+ A pointer to a security identifier ([SID](https://go.microsoft.com/fwlink/?LinkId=63529)).  
   
 ## Remarks  
  [CGlobalModule](../../web-development-reference\native-code-api-reference/cglobalmodule-class.md) derived classes that register for [GL_CACHE_OPERATION](../../web-development-reference\native-code-api-reference/request-processing-constants.md) events receive an [ICacheProvider](../../web-development-reference\native-code-api-reference/icacheprovider-interface.md) pointer as a parameter on the [CGlobalModule::OnGlobalCacheOperation](../../web-development-reference\native-code-api-reference/cglobalmodule-onglobalcacheoperation-method.md)`virtual` method. You can retrieve an [IHttpCacheSpecificData](../../web-development-reference\native-code-api-reference/ihttpcachespecificdata-interface.md) pointer by calling the [ICacheProvider::GetCacheRecord](../../web-development-reference\native-code-api-reference/icacheprovider-getcacherecord-method.md) method and, in some cases, you can downcast this `IHttpCacheSpecificData` pointer to an [IHttpTokenEntry](../../web-development-reference\native-code-api-reference/ihttptokenentry-interface.md) pointer. You can then retrieve the security identifier by calling the `GetSid` method.  

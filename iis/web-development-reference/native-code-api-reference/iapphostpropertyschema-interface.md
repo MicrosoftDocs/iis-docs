@@ -36,7 +36,7 @@ IAppHostPropertySchema : public IUnknown
 |[ValidationType](../../web-development-reference\native-code-api-reference/iapphostpropertyschema-validationtype-property.md)|Describes the type of validation that will be performed for the current property.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostPropertySchema`  
   

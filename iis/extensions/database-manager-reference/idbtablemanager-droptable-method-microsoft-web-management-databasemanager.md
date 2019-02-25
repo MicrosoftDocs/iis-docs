@@ -110,7 +110,7 @@ If your provider does not support deleting tables, you can use the following cod
 
 
 > [!NOTE]  
-> See the [DROP TABLE (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms173790.aspx) topic for more information about the DROP TABLE SQL statements.
+> See the [DROP TABLE (Transact-SQL)](https://msdn.microsoft.com/library/ms173790.aspx) topic for more information about the DROP TABLE SQL statements.
 
 
 ## Examples

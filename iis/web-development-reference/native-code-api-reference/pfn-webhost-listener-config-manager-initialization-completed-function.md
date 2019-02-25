@@ -22,7 +22,7 @@ typedef VOID(
  `VOID`.  
   
 ## Remarks  
- This call marks the point after which a listener adapter should activate listening and begin processing requests. If the listener adapter processes requests prior to this call, it will have incomplete configuration information and could misroute requests. This call also notifies the listener adapter that the service status can be set to [SERVICE_RUNNING](http://go.microsoft.com/fwlink/?LinkId=63964). After this function is called, no more configuration data will be passed until the listener adapter is notified by a change-notification callback function.  
+ This call marks the point after which a listener adapter should activate listening and begin processing requests. If the listener adapter processes requests prior to this call, it will have incomplete configuration information and could misroute requests. This call also notifies the listener adapter that the service status can be set to [SERVICE_RUNNING](https://go.microsoft.com/fwlink/?LinkId=63964). After this function is called, no more configuration data will be passed until the listener adapter is notified by a change-notification callback function.  
   
  The WAS calls this function asynchronously and does not wait for the completion of this notification.  
   

@@ -90,5 +90,5 @@ Next
  [HeaderLimitsElement Class](../wmi-provider/headerlimitselement-class.md)   
  [HeaderLimitsSettings Class](../wmi-provider/headerlimitssettings-class.md)   
  [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   
- [\<requestLimits>](http://msdn.microsoft.com/library/2464898f-f4aa-4955-919e-ed7492ad2b78)   
+ [\<requestLimits>](https://msdn.microsoft.com/library/2464898f-f4aa-4955-919e-ed7492ad2b78)   
  [VerbsSettings Class](../wmi-provider/verbssettings-class.md)

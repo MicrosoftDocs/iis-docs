@@ -17,7 +17,7 @@ class IHttpServer
   
 |Name|Description|  
 |----------|-----------------|  
-|[AddFragmentToCache](../../web-development-reference\native-code-api-reference/ihttpserver-addfragmenttocache-method.md)|Adds an [HTTP_DATA_CHUNK](http://go.microsoft.com/fwlink/?LinkId=56011) structure to the cache.|  
+|[AddFragmentToCache](../../web-development-reference\native-code-api-reference/ihttpserver-addfragmenttocache-method.md)|Adds an [HTTP_DATA_CHUNK](https://go.microsoft.com/fwlink/?LinkId=56011) structure to the cache.|  
 |[AssociateWithThreadPool](../../web-development-reference\native-code-api-reference/ihttpserver-associatewiththreadpool-method.md)|Associates an asynchronous completion operation with the thread pool.|  
 |[DecrementThreadCount](../../web-development-reference\native-code-api-reference/ihttpserver-decrementthreadcount-method.md)|Decrements the thread count for the thread pool.|  
 |[DispenseContainer](../../web-development-reference\native-code-api-reference/ihttpserver-dispensecontainer-method.md)|Returns a context container that may be dispensed.|  

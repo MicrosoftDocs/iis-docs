@@ -52,7 +52,7 @@ virtual HRESULT GetCurrentExecutionStats(
  Three of the return parameters, `pdwModuleStartTickCount`, `pdwNotificationStartTickCount`, and `pdwAsyncNotificationStartTickCount`, respectively, contain the tick counts for the start of the module and the start of the current synchronous and asynchronous notifications.  
   
 > [!NOTE]
->  The tick count is the number of milliseconds that have elapsed since the system was started. For more information about retrieving tick counts, see the [GetTickCount](http://go.microsoft.com/fwlink/?LinkId=63276) method.  
+>  The tick count is the number of milliseconds that have elapsed since the system was started. For more information about retrieving tick counts, see the [GetTickCount](https://go.microsoft.com/fwlink/?LinkId=63276) method.  
   
 ## Example  
  The following code example demonstrates how to create an HTTP module that performs the following tasks:  

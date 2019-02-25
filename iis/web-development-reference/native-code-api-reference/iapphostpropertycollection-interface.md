@@ -29,7 +29,7 @@ interface IAppHostPropertyCollection : IUnknown
 <!-- TODO: review snippet reference  [!CODE [IAppHostAdminLibrary#5](IAppHostAdminLibrary#5)]  -->  
   
 ## Inheritance Hierarchy  
- [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostPropertyCollection`  
   

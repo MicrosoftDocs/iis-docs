@@ -13,7 +13,7 @@ dev_langs:
 
 # Advanced Logging (IIS Smooth Streaming)
 
-To monitor and test a Silverlight Smooth Streaming client, you can use [IIS Advanced Logging](http://go.microsoft.com/fwlink/?linkid=230674). IIS Advanced Logging provides rich, flexible data collection and real-time logging capabilities. You can log HTTP request and response headers, IIS server variables, and client-side fields in order to track end-user engagement for each IIS application.
+To monitor and test a Silverlight Smooth Streaming client, you can use [IIS Advanced Logging](https://go.microsoft.com/fwlink/?linkid=230674). IIS Advanced Logging provides rich, flexible data collection and real-time logging capabilities. You can log HTTP request and response headers, IIS server variables, and client-side fields in order to track end-user engagement for each IIS application.
 
 ## Advanced Logging
 
@@ -21,7 +21,7 @@ The Smooth Streaming client can use data about its interaction with media conten
 
 ### Prerequisites
 
-To use IIS Advanced Logging, you have to install the feature and configure IIS to use it. After the feature is installed, in IIS Management Console, double-click the **Advanced Logging** icon, and then click **Enable Advanced Logging** in the **Actions** pane. (For more information, see [Advanced Logging for IIS 7 - Client Logging](http://go.microsoft.com/fwlink/?linkid=230676).) You can download sample media content to test the Smooth Streaming client from [Getting Started with IIS Smooth Streaming](http://go.microsoft.com/fwlink/?linkid=230677) on the IIS.net Web site.
+To use IIS Advanced Logging, you have to install the feature and configure IIS to use it. After the feature is installed, in IIS Management Console, double-click the **Advanced Logging** icon, and then click **Enable Advanced Logging** in the **Actions** pane. (For more information, see [Advanced Logging for IIS 7 - Client Logging](https://go.microsoft.com/fwlink/?linkid=230676).) You can download sample media content to test the Smooth Streaming client from [Getting Started with IIS Smooth Streaming](https://go.microsoft.com/fwlink/?linkid=230677) on the IIS.net Web site.
 
 ### Advanced Logging Initialization
 
@@ -189,5 +189,5 @@ The content of the fields.xml file is as follows. Change the value of the applic
 
 ### Other Resources
 
-[Advanced Logging for IIS 7 - Client Logging](http://go.microsoft.com/fwlink/?linkid=230676)
+[Advanced Logging for IIS 7 - Client Logging](https://go.microsoft.com/fwlink/?linkid=230676)
 

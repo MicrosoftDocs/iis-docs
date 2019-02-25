@@ -53,4 +53,4 @@ class BufferModeElement : CollectionElement
  [BufferModeSettings Class](../wmi-provider/buffermodesettings-class.md)   
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [HealthMonitoringSection Class](../wmi-provider/healthmonitoringsection-class.md)   
- [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

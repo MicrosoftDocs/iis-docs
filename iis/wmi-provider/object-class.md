@@ -32,7 +32,7 @@ class Object
 |[WorkerProcess](../wmi-provider/workerprocess-class.md)|Represents a Windows Process Activation Service (WAS) worker process (w3wp.exe).|  
   
 ## Remarks  
- Although the `Object` class is not directly useful for scripting, it enables the WMI CIM Studio tool to conveniently group `WebAdministration` classes. CIM Studio is a utility that you can use to view WMI classes, properties, qualifiers, and instances. It is available from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=72615) as part of WMITools.exe suite of WMI Administrative Tools.  
+ Although the `Object` class is not directly useful for scripting, it enables the WMI CIM Studio tool to conveniently group `WebAdministration` classes. CIM Studio is a utility that you can use to view WMI classes, properties, qualifiers, and instances. It is available from the [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=72615) as part of WMITools.exe suite of WMI Administrative Tools.  
   
 ## Requirements  
   

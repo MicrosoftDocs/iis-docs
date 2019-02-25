@@ -28,7 +28,7 @@ class HttpLoggingSection : ConfigurationSection
   
 |Name|Description|  
 |----------|-----------------|  
-|`DontLog`|A read/write `boolean` value. `true` if logging is disabled for successful requests; `false` if successful requests are logged. A request is considered successful if its status code is less than 400. The default is `false`. **Note:**  This property is the same as the [DontLog](http://go.microsoft.com/fwlink/?LinkId=73544) metabase property in IIS 6.0.|  
+|`DontLog`|A read/write `boolean` value. `true` if logging is disabled for successful requests; `false` if successful requests are logged. A request is considered successful if its status code is less than 400. The default is `false`. **Note:**  This property is the same as the [DontLog](https://go.microsoft.com/fwlink/?LinkId=73544) metabase property in IIS 6.0.|  
 |`Location`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`Path`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`SectionInformation`|(Inherited from `ConfigurationSection`.)|  
@@ -119,4 +119,4 @@ End Function
  [OdbcLoggingSection Class](../wmi-provider/odbcloggingsection-class.md)   
  [LogSection Class](../wmi-provider/logsection-class.md)   
  [SiteLogFile Class](../wmi-provider/sitelogfile-class.md)   
- [DontLog Metabase Property (IIS 6.0)](http://go.microsoft.com/fwlink/?LinkId=73544)
+ [DontLog Metabase Property (IIS 6.0)](https://go.microsoft.com/fwlink/?LinkId=73544)

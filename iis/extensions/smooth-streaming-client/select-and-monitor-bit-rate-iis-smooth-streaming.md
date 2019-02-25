@@ -12,7 +12,7 @@ mtps_version: v=VS.90
 
 The bit rate of Smooth Streaming media automatically adjusts to the bandwidth capacity of the network and client processors. Applications can monitor the bit rate and apply limits that are based on commercial or security requirements.
 
-This example uses the events [PlaybackTrackChanged](smoothstreamingmediaelement-playbacktrackchanged-event-microsoft-web-media-smoothstreaming_1.md) and [ManifestReady](smoothstreamingmediaelement-manifestready-event-microsoft-web-media-smoothstreaming_1.md) to demonstrate a simple performance monitor and implementation of bandwidth limits according to customer account privileges. You can [download a Visual Studio solution](http://go.microsoft.com/fwlink/?linkid=182167) that contains all the code.
+This example uses the events [PlaybackTrackChanged](smoothstreamingmediaelement-playbacktrackchanged-event-microsoft-web-media-smoothstreaming_1.md) and [ManifestReady](smoothstreamingmediaelement-manifestready-event-microsoft-web-media-smoothstreaming_1.md) to demonstrate a simple performance monitor and implementation of bandwidth limits according to customer account privileges. You can [download a Visual Studio solution](https://go.microsoft.com/fwlink/?linkid=182167) that contains all the code.
 
 ## Playback Track Changed Event
 
@@ -71,5 +71,5 @@ The lambda expression re-initializes a list of type [TrackInfo](trackinfo-class-
 
 ### Other Resources
 
-[IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
+[IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
 

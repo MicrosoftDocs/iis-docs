@@ -10,16 +10,16 @@ mtps_version: v=VS.95
 
 # Silverlight Applications
 
-You can build a Silverlight application that displays and interacts with Smooth Streaming media content by using the [Microsoft® Silverlight® 5 SDK](http://go.microsoft.com/fwlink/?linkid=251020) and Microsoft Visual Studio® or Visual Studio Web Developer Edition®. The media client for this type of application is an instance of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) class. Interaction with the data stream uses other classes from the [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md) namespace. The DLL that contains the libraries is installed with the [Smooth Streaming Client](http://go.microsoft.com/fwlink/?linkid=248540). [Internet Information Services® (IIS)](http://go.microsoft.com/fwlink/?linkid=230682) and [IIS Media Services](http://go.microsoft.com/fwlink/?linkid=230683) must be installed on the Web server computer.
+You can build a Silverlight application that displays and interacts with Smooth Streaming media content by using the [Microsoft® Silverlight® 5 SDK](https://go.microsoft.com/fwlink/?linkid=251020) and Microsoft Visual Studio® or Visual Studio Web Developer Edition®. The media client for this type of application is an instance of the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md) class. Interaction with the data stream uses other classes from the [Microsoft.Web.Media.SmoothStreaming](microsoft-web-media-smoothstreaming-namespace_1.md) namespace. The DLL that contains the libraries is installed with the [Smooth Streaming Client](https://go.microsoft.com/fwlink/?linkid=248540). [Internet Information Services® (IIS)](https://go.microsoft.com/fwlink/?linkid=230682) and [IIS Media Services](https://go.microsoft.com/fwlink/?linkid=230683) must be installed on the Web server computer.
 
 ## Development Environment
 
 To get a Smooth Streaming client application running, turn on Internet Information Services (IIS) from the Control Panel of your development computer and add the multiple-bitrate files and the manifest files of the Smooth Streaming content to the default Web site in IIS. After you have built the project shown in this topic, copy the Silverlight .xap file and the TestPage.html file that hosts the application to the default Web site that contains the Smooth Streaming files. This enables the Silverlight application to run in the same domain and on the same port as the Smooth Streaming media.
 
-For basic information about installing Silverlight and the Microsoft Web Platform, see [Get Started with Silverlight](http://go.microsoft.com/fwlink/?linkid=181839). You can create Smooth Streaming content with [Expression Encoder®](http://go.microsoft.com/fwlink/?linkid=230685) or other tools that are provided by [Smooth Streaming Partners](http://go.microsoft.com/fwlink/?linkid=230686).
+For basic information about installing Silverlight and the Microsoft Web Platform, see [Get Started with Silverlight](https://go.microsoft.com/fwlink/?linkid=181839). You can create Smooth Streaming content with [Expression Encoder®](https://go.microsoft.com/fwlink/?linkid=230685) or other tools that are provided by [Smooth Streaming Partners](https://go.microsoft.com/fwlink/?linkid=230686).
 
 > [!NOTE]  
-> <p>Setting up the development environment for a Smooth Streaming client requires attention to the domain requirements of Silverlight applications. A Silverlight application that uses Smooth Streaming media data will not run on the Visual Studio ASP.NET development server without cross-domain configuration. (For information about running cross-domain applications, see [HTTP Communication and Security with Silverlight](http://go.microsoft.com/fwlink/?linkid=181829) and [Test and Debug Applications](test-and-debug-applications.md). The example in the current topic does not require cross-domain configuration unless you have to run the sample with the ASP.NET development server.</p>
+> <p>Setting up the development environment for a Smooth Streaming client requires attention to the domain requirements of Silverlight applications. A Silverlight application that uses Smooth Streaming media data will not run on the Visual Studio ASP.NET development server without cross-domain configuration. (For information about running cross-domain applications, see [HTTP Communication and Security with Silverlight](https://go.microsoft.com/fwlink/?linkid=181829) and [Test and Debug Applications](test-and-debug-applications.md). The example in the current topic does not require cross-domain configuration unless you have to run the sample with the ASP.NET development server.</p>
 
 ## Project Workspace
 
@@ -40,7 +40,7 @@ When the template completes and the project opens, you should see a display that
 
 ## Smooth Streaming Media Element
 
-Silverlight supports both the [System.Windows.Controls.MediaElement](http://go.microsoft.com/fwlink/?linkid=230687) and [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md). To use Smooth Streaming, add a reference to the Microsoft.Web.Media.SmoothStreaming.dll. You can find the DLL in the folder where the Smooth Streaming Client is installed. All other libraries needed for this application are supplied by the Visual Studio Silverlight template.
+Silverlight supports both the [System.Windows.Controls.MediaElement](https://go.microsoft.com/fwlink/?linkid=230687) and [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft-web-media-smoothstreaming_1.md). To use Smooth Streaming, add a reference to the Microsoft.Web.Media.SmoothStreaming.dll. You can find the DLL in the folder where the Smooth Streaming Client is installed. All other libraries needed for this application are supplied by the Visual Studio Silverlight template.
 
 Add the following line to MainPage.xaml to include the N:Microsoft.Web.Media.SmoothStreaming namespace.
 
@@ -218,7 +218,7 @@ The selection-changed event occurs when the user clicks an option in the combo b
 
 With these controls on the page, the user can select from four options to play Smooth Streaming media sources and to start, stop, or pause the playback and adjust the volume of the audio playback.
 
-Media files for use in this example can be created from .wmv files found at the [WMV HD Content Showcase](http://go.microsoft.com/fwlink/?linkid=181843) by using Expression Encoder.
+Media files for use in this example can be created from .wmv files found at the [WMV HD Content Showcase](https://go.microsoft.com/fwlink/?linkid=181843) by using Expression Encoder.
 
 ## See Also
 
@@ -228,11 +228,11 @@ Media files for use in this example can be created from .wmv files found at the 
 
 ### Other Resources
 
-[Smooth Streaming Deployment Guide](http://go.microsoft.com/fwlink/?linkid=181836)
+[Smooth Streaming Deployment Guide](https://go.microsoft.com/fwlink/?linkid=181836)
 
-[Getting Started with IIS Smooth Streaming](http://go.microsoft.com/fwlink/?linkid=230688)
+[Getting Started with IIS Smooth Streaming](https://go.microsoft.com/fwlink/?linkid=230688)
 
-[Getting Started with IIS Live Smooth Streaming](http://go.microsoft.com/fwlink/?linkid=181835)
+[Getting Started with IIS Live Smooth Streaming](https://go.microsoft.com/fwlink/?linkid=181835)
 
-[Building your first Smooth Streaming Player using SSME](http://go.microsoft.com/fwlink/?linkid=181845)
+[Building your first Smooth Streaming Player using SSME](https://go.microsoft.com/fwlink/?linkid=181845)
 

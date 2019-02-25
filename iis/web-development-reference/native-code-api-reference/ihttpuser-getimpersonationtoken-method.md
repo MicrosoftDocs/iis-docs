@@ -24,7 +24,7 @@ virtual HANDLE GetImpersonationToken(
  The [SupportsIsInRole](../../web-development-reference\native-code-api-reference/ihttpuser-supportsisinrole-method.md) and [IsInRole](../../web-development-reference\native-code-api-reference/ihttpuser-isinrole-method.md) methods return FALSE and E_NOTIMPL, respectively, from the default implementation. Therefore, use the handle that is returned from either the `GetImpersonationToken` or [GetPrimaryToken](../../web-development-reference\native-code-api-reference/ihttpuser-getprimarytoken-method.md) method for role-based authorization.  
   
 ## Notes for Implementers  
- [IHttpUser](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md) implementers are responsible for resource management with this data; therefore, `IHttpUser` implementers must call [CloseHandle](http://go.microsoft.com/fwlink/?LinkId=60019) on the handle when it is no longer needed.  
+ [IHttpUser](../../web-development-reference\native-code-api-reference/ihttpuser-interface.md) implementers are responsible for resource management with this data; therefore, `IHttpUser` implementers must call [CloseHandle](https://go.microsoft.com/fwlink/?LinkId=60019) on the handle when it is no longer needed.  
   
 ## Notes for Callers  
  `IHttpUser` implementers are responsible for resource management with this data; therefore, `IHttpUser` clients must not call `CloseHandle` on the returned handle when this data is no longer needed. Furthermore, clients must not change the state of the memory referenced by this handle, because an access violation will be thrown or the data will become invalid.  

@@ -26,6 +26,6 @@ This section describes the functions that support listener adapter callbacks, wh
 |[PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED](../../web-development-reference\native-code-api-reference/pfn-webhost-listener-config-manager-initialization-completed-function.md)|Notifies the listener adapter that the Windows Process Activation Service (WAS) has completed passing all configuration information.|  
   
 ## Reference  
- [IIS Development](http://msdn.microsoft.com/library/6c07a4d0-1bf0-45d3-8178-25df76e6740c)  
+ [IIS Development](https://msdn.microsoft.com/library/6c07a4d0-1bf0-45d3-8178-25df76e6740c)  
   
  [Listener Adapter API Reference](../../web-development-reference\native-code-api-reference/listener-adapter-api-reference.md)

@@ -64,7 +64,7 @@ class TraceAreaDefinition : CollectionElement
   
 ## See Also  
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [Create a Tracing Rule for Failed Requests](http://go.microsoft.com/fwlink/?LinkId=64723)   
+ [Create a Tracing Rule for Failed Requests](https://go.microsoft.com/fwlink/?LinkId=64723)   
  [FailureDefinition Class](../wmi-provider/failuredefinition-class.md)   
  [HttpTracingSection Class](../wmi-provider/httptracingsection-class.md)   
  [TraceAreaElement Class](../wmi-provider/traceareaelement-class.md)   

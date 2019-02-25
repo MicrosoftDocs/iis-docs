@@ -45,7 +45,7 @@ class HttpCompressionMimeTypeElement : CollectionElement
   
 ## See Also  
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
- [Compression Modules](http://go.microsoft.com/fwlink/?LinkId=64721)   
+ [Compression Modules](https://go.microsoft.com/fwlink/?LinkId=64721)   
  [DynamicTypeSettings Class](../wmi-provider/dynamictypesettings-class.md)   
  [HttpCompressionSchemeElement Class](../wmi-provider/httpcompressionschemeelement-class.md)   
  [HttpCompressionSection Class](../wmi-provider/httpcompressionsection-class.md)   

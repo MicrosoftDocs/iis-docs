@@ -110,7 +110,7 @@ If your provider does not support editing tables, you can use the following code
 
 
 > [!NOTE]  
-> See the [ALTER TABLE (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms190273.aspx) topic for more information about the ALTER TABLE SQL statement.
+> See the [ALTER TABLE (Transact-SQL)](https://msdn.microsoft.com/library/ms190273.aspx) topic for more information about the ALTER TABLE SQL statement.
 
 
 ## Examples

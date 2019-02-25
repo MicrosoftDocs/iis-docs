@@ -26,7 +26,7 @@ virtual HRESULT SetLogData(
 |S_OK|Indicates that the operation was successful.|  
   
 ## Remarks  
- You can use the `SetLogData` method to modify values that IIS will write to a log file. To use this method in an HTTP module, your module should first call the [ISendResponseProvider::GetReadyToLogData](../../web-development-reference\native-code-api-reference/isendresponseprovider-getreadytologdata-method.md) method to verify that IIS is ready to log information, and then call the [ISendResponseProvider::GetLogData](../../web-development-reference\native-code-api-reference/isendresponseprovider-getlogdata-method.md) method to retrieve a `VOID` pointer that you will cast to an [HTTP_LOG_FIELDS_DATA](http://go.microsoft.com/fwlink/?LinkId=59280) structure.  
+ You can use the `SetLogData` method to modify values that IIS will write to a log file. To use this method in an HTTP module, your module should first call the [ISendResponseProvider::GetReadyToLogData](../../web-development-reference\native-code-api-reference/isendresponseprovider-getreadytologdata-method.md) method to verify that IIS is ready to log information, and then call the [ISendResponseProvider::GetLogData](../../web-development-reference\native-code-api-reference/isendresponseprovider-getlogdata-method.md) method to retrieve a `VOID` pointer that you will cast to an [HTTP_LOG_FIELDS_DATA](https://go.microsoft.com/fwlink/?LinkId=59280) structure.  
   
 > [!NOTE]
 >  The `HTTP_LOG_FIELDS_DATA` structure is defined in the Http.h header file.  

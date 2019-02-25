@@ -60,4 +60,4 @@ class AppSettingsSection : ConfigurationSectionWithCollection
 ## See Also  
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [KeyValueElement Class](../wmi-provider/keyvalueelement-class.md)   
- [add Element for appSettings (General Settings Schema)](http://go.microsoft.com/fwlink/?LinkId=70918)
+ [add Element for appSettings (General Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=70918)

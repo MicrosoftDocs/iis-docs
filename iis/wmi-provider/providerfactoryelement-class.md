@@ -21,7 +21,7 @@ class ProviderFactoryElement : CollectionElement
 |Name|Description|  
 |----------|-----------------|  
 |`Description`|A read/write `string` value that contains the verbose name of the data provider specified in the `Name` and `Invariant` properties (for example, ".NET Framework Data Provider for ODBC").|  
-|`Invariant`|A read/write `string` value that contains the invariant name of the provider that is specified in the `Description` and `Name` properties (for example, "System.Data.Odbc"). The invariant name can be passed to the [System.Data.Common.DBProviderFactories.GetFactory](http://go.microsoft.com/fwlink/?LinkId=70912) method to obtain a [System.Data.Common.DBProviderFactory](http://go.microsoft.com/fwlink/?LinkId=70913) object for the provider.|  
+|`Invariant`|A read/write `string` value that contains the invariant name of the provider that is specified in the `Description` and `Name` properties (for example, "System.Data.Odbc"). The invariant name can be passed to the [System.Data.Common.DBProviderFactories.GetFactory](https://go.microsoft.com/fwlink/?LinkId=70912) method to obtain a [System.Data.Common.DBProviderFactory](https://go.microsoft.com/fwlink/?LinkId=70913) object for the provider.|  
 |`Name`|A required unique read/write `string` value that contains the name of a data provider (for example, "ODBC Data Provider"). The key property.|  
 |`Type`|A read/write `string` value that specifies the type for the provider specified in the `Name`, `Description`, and `Invariant` properties (for example, "System.Data.Odbc.OdbcFactory, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089").|  
   
@@ -49,4 +49,4 @@ class ProviderFactoryElement : CollectionElement
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [DbProviderFactorySettings Class](../wmi-provider/dbproviderfactorysettings-class.md)   
  [SystemDataSection Class](../wmi-provider/systemdatasection-class.md)   
- [ADO.NET 2.0 Feature Matrix](http://go.microsoft.com/fwlink/?LinkId=70915)
+ [ADO.NET 2.0 Feature Matrix](https://go.microsoft.com/fwlink/?LinkId=70915)

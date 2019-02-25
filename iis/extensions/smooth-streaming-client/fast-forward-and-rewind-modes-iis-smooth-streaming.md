@@ -134,7 +134,7 @@ If the [SmoothStreamingMediaElement](smoothstreamingmediaelement-class-microsoft
         }
 ```
 
-You can [download a Visual Studio solution](http://go.microsoft.com/fwlink/?linkid=182167) that demonstrates the code shown in this topic.
+You can [download a Visual Studio solution](https://go.microsoft.com/fwlink/?linkid=182167) that demonstrates the code shown in this topic.
 
 ## See Also
 
@@ -150,5 +150,5 @@ You can [download a Visual Studio solution](http://go.microsoft.com/fwlink/?link
 
 ### Other Resources
 
-[IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
+[IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
 

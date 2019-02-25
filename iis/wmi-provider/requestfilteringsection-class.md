@@ -164,7 +164,7 @@ Next
  [FileExtensionsSettings Class](../wmi-provider/fileextensionssettings-class.md)   
  [HeaderLimitsSettings Class](../wmi-provider/headerlimitssettings-class.md)   
  [HiddenSegmentSettings Class](../wmi-provider/hiddensegmentsettings-class.md)   
- [\<requestFiltering>](http://msdn.microsoft.com/library/23af9c9d-50d3-4db8-918c-6214259aa59c)   
+ [\<requestFiltering>](https://msdn.microsoft.com/library/23af9c9d-50d3-4db8-918c-6214259aa59c)   
  [RequestLimitsElement Class](../wmi-provider/requestlimitselement-class.md)   
  [UrlSequence Class](../wmi-provider/urlsequence-class.md)   
  [UrlSequenceSettings Class](../wmi-provider/urlsequencesettings-class.md)   

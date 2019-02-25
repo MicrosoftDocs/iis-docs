@@ -119,7 +119,7 @@ public Query GetStoredProcedureEditStatement(string connectionString, string sch
 
 
 > [!NOTE]  
-> See the [ALTER PROCEDURE (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms189762.aspx) topic for more information about the ALTER PROCEDURE SQL statement.
+> See the [ALTER PROCEDURE (Transact-SQL)](https://msdn.microsoft.com/library/ms189762.aspx) topic for more information about the ALTER PROCEDURE SQL statement.
 
 
 ## Permissions

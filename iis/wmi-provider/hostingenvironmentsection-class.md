@@ -54,5 +54,5 @@ class HostingEnvironmentSection : ConfigurationSection
   
 ## See Also  
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
- [hostingEnvironment Element (ASP.NET Settings Schema)](http://go.microsoft.com/fwlink/?LinkId=67199)   
- [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
+ [hostingEnvironment Element (ASP.NET Settings Schema)](https://go.microsoft.com/fwlink/?LinkId=67199)   
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

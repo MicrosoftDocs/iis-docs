@@ -27,7 +27,7 @@ IAppHostSectionDefinition : public IUnknown
 |[Type](../../web-development-reference\native-code-api-reference/iapphostsectiondefinition-type-property.md)|Gets the type name of a class that represents the current configuration section.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostSectionDefinition`  
   

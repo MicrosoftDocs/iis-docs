@@ -29,7 +29,7 @@ interface IAppHostSectionDefinitionCollection : IUnknown
 |[Item](../../web-development-reference\native-code-api-reference/iapphostsectiondefinitioncollection-item-property.md)|Gets the configuration section definition at the requested index from the current collection.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostSectionDefinitionCollection`  
   

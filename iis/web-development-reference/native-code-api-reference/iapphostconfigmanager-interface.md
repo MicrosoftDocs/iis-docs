@@ -24,7 +24,7 @@ interface IAppHostConfigManager : IUnknown
  This interface contains no properties.  
   
 ## Inheritance Hierarchy  
- [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostConfigManager`  
   

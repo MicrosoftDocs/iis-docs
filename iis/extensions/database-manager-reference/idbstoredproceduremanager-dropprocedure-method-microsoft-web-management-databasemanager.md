@@ -113,7 +113,7 @@ public void DropProcedure(string connectionString, string schema, string procedu
 
 
 > [!NOTE]  
-> See the [DROP PROCEDURE (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms174969.aspx) topic for more information about the DROP PROCEDURE SQL statement.
+> See the [DROP PROCEDURE (Transact-SQL)](https://msdn.microsoft.com/library/ms174969.aspx) topic for more information about the DROP PROCEDURE SQL statement.
 
 
 ## Permissions

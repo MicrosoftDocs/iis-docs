@@ -24,7 +24,7 @@ typedef VOID(* FN_WEBHOST_LISTENER_APPLICATION_POOL_IDENTITY_CHANGED)(
  [IN] A pointer to a string that contains the application pool with the changed identity.  
   
  `PSID`  
- [IN] A pointer to a security identifier ([SID](http://go.microsoft.com/fwlink/?LinkId=63529)) value that contains the new identity of the worker processes.  
+ [IN] A pointer to a security identifier ([SID](https://go.microsoft.com/fwlink/?LinkId=63529)) value that contains the new identity of the worker processes.  
   
 ## Return Value  
  `VOID`.  

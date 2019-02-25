@@ -65,4 +65,4 @@ class ServerRuntimeSection : ConfigurationSection
  [HttpCompressionSection Class](../wmi-provider/httpcompressionsection-class.md)   
  [HttpRequest Class](../wmi-provider/httprequest-class.md)   
  [RequestFilteringSection Class](../wmi-provider/requestfilteringsection-class.md)   
- [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

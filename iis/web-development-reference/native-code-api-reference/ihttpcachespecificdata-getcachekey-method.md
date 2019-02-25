@@ -33,7 +33,7 @@ virtual IHttpCacheKey* GetCacheKey(
 >  Before you perform any downcast operation, always verify that the cast is valid to guarantee correct program behavior.  
   
 > [!NOTE]
->  Consider using the [dynamic_cast](http://go.microsoft.com/fwlink/?LinkId=57556) operator whenever possible when you perform a downcast operation.  
+>  Consider using the [dynamic_cast](https://go.microsoft.com/fwlink/?LinkId=57556) operator whenever possible when you perform a downcast operation.  
   
 ## Notes for Implementers  
  `IHttpCacheSpecificData` implementers are responsible for memory management with this data; therefore, `IHttpCacheSpecificData` implementers that use dynamic memory allocation must release or call `delete` on the `IHttpCacheKey` pointer when it is no longer needed.  

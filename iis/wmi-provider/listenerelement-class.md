@@ -65,4 +65,4 @@ class ListenerElement : TypedElement
  [ListenerSettings Class](../wmi-provider/listenersettings-class.md)   
  [SourceListenerSettings Class](../wmi-provider/sourcelistenersettings-class.md)   
  [TypedElement Class](../wmi-provider/typedelement-class.md)   
- [System.Diagnostics.TraceEventCache Properties](http://go.microsoft.com/fwlink/?LinkId=71875)
+ [System.Diagnostics.TraceEventCache Properties](https://go.microsoft.com/fwlink/?LinkId=71875)

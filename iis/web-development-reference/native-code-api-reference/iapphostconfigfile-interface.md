@@ -33,7 +33,7 @@ interface IAppHostConfigFile: IUnknown
 |[RootSectionGroup](../../web-development-reference\native-code-api-reference/iapphostconfigfile-rootsectiongroup-property.md)|Returns the root configuration section group for the current configuration file.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostConfigFile`  
   

@@ -51,5 +51,5 @@ class ProfileElement : CollectionElement
  [System.Web.Management.IWebEventCustomEvaluator](/dotnet/api/system.web.management.iwebeventcustomevaluator)
  [CollectionElement Class](../wmi-provider/collectionelement-class.md)   
  [ProfileSettings Class](../wmi-provider/profilesettings-class.md)   
- [System.Int32.MaxValue Field](http://go.microsoft.com/fwlink/?LinkId=69329)   
- [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551)
+ [System.Int32.MaxValue Field](https://go.microsoft.com/fwlink/?LinkId=69329)   
+ [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551)

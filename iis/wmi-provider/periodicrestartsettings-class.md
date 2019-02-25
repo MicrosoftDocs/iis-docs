@@ -32,7 +32,7 @@ class PeriodicRestartSettings : EmbeddedObject
 ## Remarks  
  Instances of this class are contained in the `PeriodicRestart` property of the [RecyclingSettings](../wmi-provider/recyclingsettings-class.md) class.  
   
- For more information about the Windows Management Instrumentation (WMI) date/time format, see [CIM_DATETIME](http://go.microsoft.com/fwlink/?LinkId=57551).  
+ For more information about the Windows Management Instrumentation (WMI) date/time format, see [CIM_DATETIME](https://go.microsoft.com/fwlink/?LinkId=57551).  
   
 ## Inheritance Hierarchy  
  [EmbeddedObject](../wmi-provider/embeddedobject-class.md)  

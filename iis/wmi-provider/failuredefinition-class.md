@@ -58,7 +58,7 @@ class FailureDefinition : EmbeddedObject
 |MOF file|WebAdministration.mof|  
   
 ## See Also  
- [Create a Tracing Rule for Failed Requests](http://go.microsoft.com/fwlink/?LinkId=64723)   
+ [Create a Tracing Rule for Failed Requests](https://go.microsoft.com/fwlink/?LinkId=64723)   
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [TraceAreaElement Class](../wmi-provider/traceareaelement-class.md)   
  [TraceAreaDefinition Class](../wmi-provider/traceareadefinition-class.md)   

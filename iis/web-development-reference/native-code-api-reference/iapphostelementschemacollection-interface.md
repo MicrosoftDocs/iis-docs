@@ -21,7 +21,7 @@ interface IAppHostElementSchemaCollection : IUnknown
 |[Item](../../web-development-reference\native-code-api-reference/iapphostelementschemacollection-item-property.md)|Gets the element schema at the requested index in the current collection.|  
   
 ## Inheritance Hierarchy  
- [IUnknown](http://go.microsoft.com/fwlink/?LinkId=55951)  
+ [IUnknown](https://go.microsoft.com/fwlink/?LinkId=55951)  
   
  `IAppHostElementSchemaCollection`  
   

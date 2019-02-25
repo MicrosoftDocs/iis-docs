@@ -20,7 +20,7 @@ class SoapEnvelopeProcessingInfo : EmbeddedObject
   
 |Name|Description|  
 |----------|-----------------|  
-|`ReadTimeout`|A read/write `sint32` value that specifies the time, in milliseconds, that the XML Web service waits before it terminates requests to the [System.Xml.XmlReader.Read](http://go.microsoft.com/fwlink/?LinkId=70965) and [System.Xml.XmlReader.MoveToContent](http://go.microsoft.com/fwlink/?LinkId=70966) methods. The default is 2147483647.<br /><br /> The time-out period is checked on every call to `Read` and `MoveToContent` and is used to mitigate denial of service attacks.|  
+|`ReadTimeout`|A read/write `sint32` value that specifies the time, in milliseconds, that the XML Web service waits before it terminates requests to the [System.Xml.XmlReader.Read](https://go.microsoft.com/fwlink/?LinkId=70965) and [System.Xml.XmlReader.MoveToContent](https://go.microsoft.com/fwlink/?LinkId=70966) methods. The default is 2147483647.<br /><br /> The time-out period is checked on every call to `Read` and `MoveToContent` and is used to mitigate denial of service attacks.|  
 |`Strict`|A read/write `boolean` value. `true` if the Web service serializer throws an exception if it encounters unexpected elements or attributes; otherwise, `false`. The default is `false`.|  
   
 ## Subclasses  
@@ -29,7 +29,7 @@ class SoapEnvelopeProcessingInfo : EmbeddedObject
 ## Remarks  
  Instances of this class are exposed as members of the `SoapEnvelopeProcessing` property on the [WebServicesSection](../wmi-provider/webservicessection-class.md) class.  
   
- Set the `Strict` property to `true` in order to help debug interoperation scenarios. In general, when the [System.Xml.Serialization.XmlSerializer](http://go.microsoft.com/fwlink/?LinkId=70923) class encounters an element or attribute that it does not expect, it raises an [UnknownNode](http://go.microsoft.com/fwlink/?LinkId=70964) event and continues processing. Setting the `Strict` property to `true` instructs the Web service run-time functions to handle that event and throw an [InvalidOperationException](http://go.microsoft.com/fwlink/?LinkId=66612) that contains a list of the expected elements and attributes.  
+ Set the `Strict` property to `true` in order to help debug interoperation scenarios. In general, when the [System.Xml.Serialization.XmlSerializer](https://go.microsoft.com/fwlink/?LinkId=70923) class encounters an element or attribute that it does not expect, it raises an [UnknownNode](https://go.microsoft.com/fwlink/?LinkId=70964) event and continues processing. Setting the `Strict` property to `true` instructs the Web service run-time functions to handle that event and throw an [InvalidOperationException](https://go.microsoft.com/fwlink/?LinkId=66612) that contains a list of the expected elements and attributes.  
   
 > [!NOTE]
 >  Because exceptions are not thrown for all unexpected elements and attributes, you should not rely on the `Strict` property except as a debugging aid. For example, unexpected `xml:lang` and `xml:space` attributes may not cause an exception.  
@@ -51,9 +51,9 @@ class SoapEnvelopeProcessingInfo : EmbeddedObject
 ## See Also  
  [EmbeddedObject Class](../wmi-provider/embeddedobject-class.md)   
  [WebServicesSection Class](../wmi-provider/webservicessection-class.md)   
- [InvalidOperationException](http://go.microsoft.com/fwlink/?LinkId=66612)   
- [System.Web.Services.Configuration.SoapEnvelopeProcessingElement Properties](http://go.microsoft.com/fwlink/?LinkId=70967)   
- [System.Xml.XmlReader.MoveToContent Method](http://go.microsoft.com/fwlink/?LinkId=70966)   
- [System.Xml.XmlReader.Read Method](http://go.microsoft.com/fwlink/?LinkId=70965)   
- [System.Xml.Serialization.XmlSerializer Class](http://go.microsoft.com/fwlink/?LinkId=70923)   
- [System.Xml.Serialization.XmlSerializer.UnknownNode Event](http://go.microsoft.com/fwlink/?LinkId=70964)
+ [InvalidOperationException](https://go.microsoft.com/fwlink/?LinkId=66612)   
+ [System.Web.Services.Configuration.SoapEnvelopeProcessingElement Properties](https://go.microsoft.com/fwlink/?LinkId=70967)   
+ [System.Xml.XmlReader.MoveToContent Method](https://go.microsoft.com/fwlink/?LinkId=70966)   
+ [System.Xml.XmlReader.Read Method](https://go.microsoft.com/fwlink/?LinkId=70965)   
+ [System.Xml.Serialization.XmlSerializer Class](https://go.microsoft.com/fwlink/?LinkId=70923)   
+ [System.Xml.Serialization.XmlSerializer.UnknownNode Event](https://go.microsoft.com/fwlink/?LinkId=70964)

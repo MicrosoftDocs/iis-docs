@@ -98,4 +98,4 @@ Next
   
 ## See Also  
  [Object Class](../wmi-provider/object-class.md)   
- [Configuring Application Pools in IIS 7.0](http://go.microsoft.com/fwlink/?LinkId=64323)
+ [Configuring Application Pools in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=64323)

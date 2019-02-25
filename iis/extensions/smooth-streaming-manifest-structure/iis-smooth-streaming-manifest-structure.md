@@ -30,5 +30,5 @@ The manifest reference is organized into the following technical sections.
 
 ### Other Resources
 
-[IIS Media Services](http://go.microsoft.com/fwlink/?linkid=251015)
+[IIS Media Services](https://go.microsoft.com/fwlink/?linkid=251015)
 

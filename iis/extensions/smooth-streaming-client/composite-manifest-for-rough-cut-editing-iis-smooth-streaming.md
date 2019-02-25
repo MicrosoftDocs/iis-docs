@@ -22,7 +22,7 @@ When the Smooth Streaming Media Element uses a composite manifest as its source,
 
 
 > [!NOTE]  
-> The examples in this topic extend features that are demonstrated in the topic [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md). You can download all the code with the [IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167). For more information, see all topics under [IIS Smooth Streaming Client 1.5](microsoft-smooth-streaming-client-2-0.md).
+> The examples in this topic extend features that are demonstrated in the topic [Silverlight Applications (IIS Smooth Streaming)](silverlight-applications.md). You can download all the code with the [IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167). For more information, see all topics under [IIS Smooth Streaming Client 1.5](microsoft-smooth-streaming-client-2-0.md).
 
 
 ## Composite Manifest Structure
@@ -114,7 +114,7 @@ The audio chunk’s time stamp is calculated exactly in the same way as the vide
     t of 3rd audio chunk t[2] = t[1]+d[1] = 15000000+18000000 = 33000000;
     …
 
-It is evident from these examples that implementation of composite manifests requires repetitious calculations with long integers. You can [download a tool that does the calculations](http://go.microsoft.com/fwlink/?linkid=230680).
+It is evident from these examples that implementation of composite manifests requires repetitious calculations with long integers. You can [download a tool that does the calculations](https://go.microsoft.com/fwlink/?linkid=230680).
 
 After you calculate the start times, t, from the .ismc manifest, combine the Clip elements in the composite .csm manifest. The following example shows three Clip elements in a complete implementation of the composite manifest.
 
@@ -359,7 +359,7 @@ You can also use the command line option to set the GET and HEAD verbs:
 
     appcmd set config/section:handlers/[name='SmoothHandler'].verb:GET,HEAD
 
-For more information, see the [Smooth Streaming Readme](http://go.microsoft.com/fwlink/?linkid=184078).
+For more information, see the [Smooth Streaming Readme](https://go.microsoft.com/fwlink/?linkid=184078).
 
 ### Allow HEAD requests in the ClientAccessPolicy.xml
 
@@ -393,5 +393,5 @@ For more information about client access policy, see [Test and Debug Application
 
 [Smooth Streaming Readme](http://www.iis.net/downloads/files/media/smoothstream_readme.htm)
 
-[IIS Smooth Streaming Sample Application](http://go.microsoft.com/fwlink/?linkid=182167)
+[IIS Smooth Streaming Sample Application](https://go.microsoft.com/fwlink/?linkid=182167)
 

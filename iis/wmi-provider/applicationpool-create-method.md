@@ -33,7 +33,7 @@ var apppool = oWebAdmin.Get("Application").Create(
  This method does not return a value.  
   
 ## Remarks  
- The `Create` method supplants previous methods of creating IIS application pools. To create an application pool in IIS 6.0, you called `SpawnInstance_` on the [IIsApplicationPoolSetting](http://msdn.microsoft.com/en-us/10d03bfa-e2e9-46c1-abee-dbfc8c1c9079) class, assigned a name to the new application pool, and then called `Put_` to save the result to the metabase. Although this procedure will still work in [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)], the new `Create` method performs the same task in one step.  
+ The `Create` method supplants previous methods of creating IIS application pools. To create an application pool in IIS 6.0, you called `SpawnInstance_` on the [IIsApplicationPoolSetting](https://msdn.microsoft.com/en-us/10d03bfa-e2e9-46c1-abee-dbfc8c1c9079) class, assigned a name to the new application pool, and then called `Put_` to save the result to the metabase. Although this procedure will still work in [!INCLUDE[iisver](../wmi-provider/includes/iisver-md.md)], the new `Create` method performs the same task in one step.  
   
 ## Example  
  The following example creates a new application pool.  

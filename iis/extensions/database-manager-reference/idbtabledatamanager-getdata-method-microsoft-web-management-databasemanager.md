@@ -119,7 +119,7 @@ public QueryResult GetData(string connectionString, string tableName, string sch
 
 
 > [!NOTE]  
-> See the [SELECT Clause (Transact-SQL)](http://msdn.microsoft.com/en-us/library/ms176104.aspx) topic for more information about the SELECT SQL statement.
+> See the [SELECT Clause (Transact-SQL)](https://msdn.microsoft.com/library/ms176104.aspx) topic for more information about the SELECT SQL statement.
 
 
 ## Examples

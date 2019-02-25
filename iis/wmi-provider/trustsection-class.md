@@ -28,7 +28,7 @@ class TrustSection : ConfigurationSection
   
 |Name|Description|  
 |----------|-----------------|  
-|`Level`|A required read/write `string` value that specifies the trust level under which the Web application will run. Each trust level is mapped to an individual XML policy file by using a [TrustLevel](../wmi-provider/trustlevel-class.md) configuration element. The policy file lists the set of permissions that are granted by each trust level. For more information about [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and policy files, see [ASP.NET Trust Levels and Policy Files](http://go.microsoft.com/fwlink/?LinkId=69328).<br /><br /> The `Level` property can contain a user-defined value if there is a matching security policy mapping defined in a `T``rustLevel` element in the [SecurityPolicySection](../wmi-provider/securitypolicysection-class.md) class, or it can contain one of the possible values listed later in the Remarks section.|  
+|`Level`|A required read/write `string` value that specifies the trust level under which the Web application will run. Each trust level is mapped to an individual XML policy file by using a [TrustLevel](../wmi-provider/trustlevel-class.md) configuration element. The policy file lists the set of permissions that are granted by each trust level. For more information about [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and policy files, see [ASP.NET Trust Levels and Policy Files](https://go.microsoft.com/fwlink/?LinkId=69328).<br /><br /> The `Level` property can contain a user-defined value if there is a matching security policy mapping defined in a `T``rustLevel` element in the [SecurityPolicySection](../wmi-provider/securitypolicysection-class.md) class, or it can contain one of the possible values listed later in the Remarks section.|  
 |`Location`|(Inherited from `ConfigurationSection`.) A key property.|  
 |`OriginUrl`|An optional read/write `string` value that specifies a URL for use with the `WebPermission` permission that is granted in `High` and `Medium` trust. If present, this can be used for some permissions, such as `WebRequest`, that allow connectivity only to specific URLs that are specified by a `WebPermission`.|  
 |`Path`|(Inherited from `ConfigurationSection`.) A key property.|  
@@ -43,10 +43,10 @@ class TrustSection : ConfigurationSection
   
 |Value|Description|  
 |-----------|-----------------|  
-|`Full`|Specifies unrestricted permissions. Grants the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application permissions to access any resource that is subject to operating system security. All privileged operations are supported. This setting is named `Unrestricted` in the [System.Web.AspNetHostingPermissionLevel](http://go.microsoft.com/fwlink/?LinkId=69330) enumeration.|  
+|`Full`|Specifies unrestricted permissions. Grants the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application permissions to access any resource that is subject to operating system security. All privileged operations are supported. This setting is named `Unrestricted` in the [System.Web.AspNetHostingPermissionLevel](https://go.microsoft.com/fwlink/?LinkId=69330) enumeration.|  
 |`High`|Specifies a high level of code access security, which means that the application cannot do any of the following things:<br /><br /> -   Call unmanaged code.<br />-   Call serviced components.<br />-   Write to the event log.<br />-   Access Microsoft Windows Message Queuing queues.<br />-   Access ODBC, OLE DB, or Oracle data sources.|  
 |`Medium`|Specifies a medium level of code access security, which means that, in addition to the restrictions for `High`, the [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] application cannot do any of the following things:<br /><br /> -   Access files outside the application directory.<br />-   Access the registry.|  
-|`Low`|Specifies a low level of code access security, which means that, in addition to the restrictions for `Medium`, the application cannot do any of the following things:<br /><br /> -   Write to the file system.<br />-   Call the [System.Security.CodeAccessPermission.Assert](http://go.microsoft.com/fwlink/?LinkId=69334) method to expand permissions to resources.|  
+|`Low`|Specifies a low level of code access security, which means that, in addition to the restrictions for `Medium`, the application cannot do any of the following things:<br /><br /> -   Write to the file system.<br />-   Call the [System.Security.CodeAccessPermission.Assert](https://go.microsoft.com/fwlink/?LinkId=69334) method to expand permissions to resources.|  
 |`Minimal`|Specifies a minimal level of code access security, which means that the application has only execute permission.|  
   
 ## Inheritance Hierarchy  
@@ -66,9 +66,9 @@ class TrustSection : ConfigurationSection
 ## See Also  
  [System.Web.Configuration.SystemWebSectionGroup.Trust](/dotnet/api/system.web.configuration.systemwebsectiongroup.trust)  
  [System.Web.Configuration.TrustSection](/dotnet/api/system.web.configuration.trustsection)
- [System.Web.AspNetHostingPermissionLevel Enumeration](http://go.microsoft.com/fwlink/?LinkId=69330)   
- [ASP.NET Trust Levels and Policy Files](http://go.microsoft.com/fwlink/?LinkId=69328)   
+ [System.Web.AspNetHostingPermissionLevel Enumeration](https://go.microsoft.com/fwlink/?LinkId=69330)   
+ [ASP.NET Trust Levels and Policy Files](https://go.microsoft.com/fwlink/?LinkId=69328)   
  [ConfigurationSection Class](../wmi-provider/configurationsection-class.md)   
  [TrustLevel Class](../wmi-provider/trustlevel-class.md)   
- [System.Net.WebPermission Class](http://go.microsoft.com/fwlink/?LinkId=69331)   
- [System.Net.WebRequest Class](http://go.microsoft.com/fwlink/?LinkId=69332)
+ [System.Net.WebPermission Class](https://go.microsoft.com/fwlink/?LinkId=69331)   
+ [System.Net.WebRequest Class](https://go.microsoft.com/fwlink/?LinkId=69332)

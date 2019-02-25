@@ -45,7 +45,7 @@ HRESULT WebhostRegisterProtocol(
   
  You should set a time-out for the listener adapter to wait for the `PFN_WEBHOST_LISTENER_CONFIG_MANAGER_CONNECTED` callback function. If the time-out expires, you should stop the listener adapter service and mark it as failed. A successful return from this call indicates that the client library is waiting for the Windows Process Activation Service and will connect when possible.  
   
- You should not set the listener service status to [SERVICE_RUNNING](http://go.microsoft.com/fwlink/?LinkId=63964) from this callback function. You should set the service status to SERVICE_RUNNING only when initialization is complete and the protocol listener is listening (typically after the [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED](../../web-development-reference\native-code-api-reference/pfn-webhost-listener-config-manager-initialization-completed-function.md) notification).  
+ You should not set the listener service status to [SERVICE_RUNNING](https://go.microsoft.com/fwlink/?LinkId=63964) from this callback function. You should set the service status to SERVICE_RUNNING only when initialization is complete and the protocol listener is listening (typically after the [PFN_WEBHOST_LISTENER_CONFIG_MANAGER_INITIALIZATION_COMPLETED](../../web-development-reference\native-code-api-reference/pfn-webhost-listener-config-manager-initialization-completed-function.md) notification).  
   
  The `pContext` parameter is passed to the listener adapter whenever a callback function is invoked. It can be used when multiple protocols that use the same callback structure are implemented.  
   

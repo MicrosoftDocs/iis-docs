@@ -43,7 +43,7 @@ class SecurityPolicySection : ConfigurationSectionWithCollection
 ## Remarks  
  This class is valid only in a site-level configuration (Web.config) file.  
   
- For information about [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and policy files, see [ASP.NET Trust Levels and Policy Files](http://go.microsoft.com/fwlink/?LinkId=69328) and [Administering Security Policy](http://go.microsoft.com/fwlink/?LinkId=69326).  
+ For information about [!INCLUDE[vstecasp](../wmi-provider/includes/vstecasp-md.md)] and policy files, see [ASP.NET Trust Levels and Policy Files](https://go.microsoft.com/fwlink/?LinkId=69328) and [Administering Security Policy](https://go.microsoft.com/fwlink/?LinkId=69326).  
   
 ## Inheritance Hierarchy  
  [ConfigurationSection](../wmi-provider/configurationsection-class.md)  
@@ -65,5 +65,5 @@ class SecurityPolicySection : ConfigurationSectionWithCollection
  [ConfigurationSectionWithCollection Class](../wmi-provider/configurationsectionwithcollection-class.md)   
  [TrustLevel Class](../wmi-provider/trustlevel-class.md)   
  [TrustSection Class](../wmi-provider/trustsection-class.md)   
- [ASP.NET Trust Levels and Policy Files](http://go.microsoft.com/fwlink/?LinkId=69328)   
- [Administering Security Policy](http://go.microsoft.com/fwlink/?LinkId=69326)
+ [ASP.NET Trust Levels and Policy Files](https://go.microsoft.com/fwlink/?LinkId=69328)   
+ [Administering Security Policy](https://go.microsoft.com/fwlink/?LinkId=69326)
