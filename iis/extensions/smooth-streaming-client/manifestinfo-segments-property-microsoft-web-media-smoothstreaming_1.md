@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestInfo.Segments Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Segments Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.Segments
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.set_Segments
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.Segments
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestInfo.Segments Property

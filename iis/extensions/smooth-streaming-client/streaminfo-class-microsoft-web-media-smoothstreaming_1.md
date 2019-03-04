@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamInfo Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamInfo Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.StreamInfo
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo Class

@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.FlushBuffers Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: FlushBuffers Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.FlushBuffers(System.TimeSpan,System.Boolean,System.Boolean)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.FlushBuffers
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # FlushBuffers Method

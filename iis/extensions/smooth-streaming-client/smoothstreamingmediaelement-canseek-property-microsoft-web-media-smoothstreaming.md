@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.CanSeek Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CanSeek Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CanSeek
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_CanSeek
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_CanSeek
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CanSeek Property

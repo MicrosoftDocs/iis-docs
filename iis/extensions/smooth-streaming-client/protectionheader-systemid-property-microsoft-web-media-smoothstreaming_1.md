@@ -1,4 +1,4 @@
----
+﻿---
 title: ProtectionHeader.SystemID Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SystemID Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.SystemID
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.set_SystemID
 - Microsoft.Web.Media.SmoothStreaming.ProtectionHeader.SystemID
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ProtectionHeader.SystemID Property

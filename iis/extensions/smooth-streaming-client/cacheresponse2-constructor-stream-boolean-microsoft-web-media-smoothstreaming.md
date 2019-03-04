@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheResponse2 Constructor (Stream, Boolean) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheResponse2 Constructor (Stream, Boolean)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheResponse2.#ctor(System.IO.Stream,System.Boolean)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse2..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse2 Constructor (Stream, Boolean)

@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskDefinition.InputFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.InputFolder
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.InputFolder
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_InputFolder
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # InputFolder Property

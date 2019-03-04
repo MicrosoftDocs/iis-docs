@@ -1,4 +1,4 @@
----
+﻿---
 title: SetPlaybackRangeCompletedEventArgs Constructor (TimeSpan, TimeSpan, Object) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SetPlaybackRangeCompletedEventArgs Constructor (TimeSpan, TimeSpan, Object)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.#ctor(System.TimeSpan,System.TimeSpan,System.Object)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SetPlaybackRangeCompletedEventArgs Constructor (TimeSpan, TimeSpan, Object)

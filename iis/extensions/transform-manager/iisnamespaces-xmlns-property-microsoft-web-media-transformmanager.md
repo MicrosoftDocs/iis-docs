@@ -1,4 +1,4 @@
----
+﻿---
 title: IisNamespaces.Xmlns Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Xmlns Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.Xmlns
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_Xmlns
 - Microsoft.Web.Media.TransformManager.IisNamespaces.Xmlns
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Xmlns Property

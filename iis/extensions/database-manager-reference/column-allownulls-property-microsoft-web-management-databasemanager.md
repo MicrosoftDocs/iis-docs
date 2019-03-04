@@ -1,4 +1,4 @@
----
+﻿---
 title: Column.AllowNulls Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: AllowNulls Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.AllowNulls
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Column.get_AllowNulls
 - Microsoft.Web.Management.DatabaseManager.Column.set_AllowNulls
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.AllowNulls Property

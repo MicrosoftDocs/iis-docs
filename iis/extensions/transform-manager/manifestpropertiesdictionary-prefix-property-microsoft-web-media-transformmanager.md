@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestPropertiesDictionary.Prefix Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Prefix Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.Prefix
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.Prefix
 - Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.set_Prefix
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Prefix Property

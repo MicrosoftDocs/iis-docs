@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipInformation.Duration Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Duration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.Duration
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.get_Duration
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.set_Duration
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipInformation.Duration Property

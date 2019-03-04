@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.ScheduleClip Method (ClipInformation, ClipContext, Object) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ScheduleClip Method (ClipInformation, ClipContext, Object)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ScheduleClip(Microsoft.Web.Media.SmoothStreaming.ClipInformation,Microsoft.Web.Media.SmoothStreaming.ClipContext,System.Object)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ScheduleClip
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ScheduleClip Method (ClipInformation, ClipContext, Object)

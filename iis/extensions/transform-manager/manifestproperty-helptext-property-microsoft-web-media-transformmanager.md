@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestProperty.HelpText Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: HelpText Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.HelpText
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.set_HelpText
 - Microsoft.Web.Media.TransformManager.ManifestProperty.HelpText
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # HelpText Property

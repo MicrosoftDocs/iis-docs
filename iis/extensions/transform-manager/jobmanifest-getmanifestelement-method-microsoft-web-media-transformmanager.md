@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManifest.GetManifestElement Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetManifestElement Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.GetManifestElement(System.Xml.Linq.XElement,System.String,System.Xml.Linq.XNamespace@)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.GetManifestElement
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # GetManifestElement Method

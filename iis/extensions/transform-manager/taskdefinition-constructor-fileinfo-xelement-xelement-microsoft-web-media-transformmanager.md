@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskDefinition Constructor (FileInfo, XElement, XElement) (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskDefinition Constructor (FileInfo, XElement, XElement)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskDefinition.#ctor(System.IO.FileInfo,System.Xml.Linq.XElement,System.Xml.Linq.XElement)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TaskDefinition..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskDefinition Constructor (FileInfo, XElement, XElement)

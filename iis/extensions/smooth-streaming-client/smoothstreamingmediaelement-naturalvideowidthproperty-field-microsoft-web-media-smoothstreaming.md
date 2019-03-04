@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.NaturalVideoWidthProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: NaturalVideoWidthProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalVideoWidthProperty
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalVideoWidthProperty
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # NaturalVideoWidthProperty Field

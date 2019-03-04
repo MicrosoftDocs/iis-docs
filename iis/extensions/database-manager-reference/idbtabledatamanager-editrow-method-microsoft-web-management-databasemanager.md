@@ -1,4 +1,4 @@
----
+﻿---
 title: IDbTableDataManager.EditRow Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: EditRow Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableDataManager.EditRow(System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Web.Management.DatabaseManager.ColumnDataInfo})
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.IDbTableDataManager.EditRow
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbTableDataManager.EditRow Method

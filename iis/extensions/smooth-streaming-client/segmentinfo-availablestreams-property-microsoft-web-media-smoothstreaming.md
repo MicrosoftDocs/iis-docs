@@ -1,4 +1,4 @@
----
+﻿---
 title: SegmentInfo.AvailableStreams Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AvailableStreams Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.AvailableStreams
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.AvailableStreams
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.get_AvailableStreams
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # AvailableStreams Property

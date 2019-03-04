@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestProperty.PropertyElementName Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: PropertyElementName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.ManifestProperty.PropertyElementName
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.PropertyElementName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # PropertyElementName Field

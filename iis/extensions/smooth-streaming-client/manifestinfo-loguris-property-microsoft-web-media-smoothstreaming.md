@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestInfo.LogUris Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LogUris Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.LogUris
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.get_LogUris
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.LogUris
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LogUris Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.MergeExternalManifest Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: MergeExternalManifest Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MergeExternalManifest(System.Object)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MergeExternalManifest
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.MergeExternalManifest Method

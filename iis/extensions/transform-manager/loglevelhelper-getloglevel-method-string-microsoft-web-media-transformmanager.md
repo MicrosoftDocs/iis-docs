@@ -1,4 +1,4 @@
----
+﻿---
 title: LogLevelHelper.GetLogLevel Method (String) (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetLogLevel Method (String)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LogLevelHelper.GetLogLevel(System.String)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.LogLevelHelper.GetLogLevel
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # GetLogLevel Method (String)

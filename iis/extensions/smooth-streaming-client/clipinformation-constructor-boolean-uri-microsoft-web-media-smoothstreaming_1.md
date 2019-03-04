@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipInformation Constructor (Boolean, Uri) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipInformation Constructor (Boolean, Uri)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ClipInformation.#ctor(System.Boolean,System.Uri)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipInformation Constructor (Boolean, Uri)

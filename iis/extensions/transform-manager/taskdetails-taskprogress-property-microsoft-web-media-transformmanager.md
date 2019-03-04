@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskDetails.TaskProgress Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskProgress Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDetails.TaskProgress
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDetails.set_TaskProgress
 - Microsoft.Web.Media.TransformManager.TaskDetails.TaskProgress
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskProgress Property

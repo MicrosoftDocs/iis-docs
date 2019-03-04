@@ -1,4 +1,4 @@
----
+﻿---
 title: IManifestProperty Interface (Microsoft.Web.Media.TransformManager)
 TOCTitle: IManifestProperty Interface
 ms:assetid: T:Microsoft.Web.Media.TransformManager.IManifestProperty
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.IManifestProperty
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IManifestProperty Interface

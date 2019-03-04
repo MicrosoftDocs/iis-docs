@@ -1,4 +1,4 @@
----
+﻿---
 title: TypeInfo Class (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: TypeInfo Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.TypeInfo
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo Class

@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManifest.FileName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: FileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.FileName
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_FileName
 - Microsoft.Web.Media.TransformManager.JobManifest.set_FileName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # FileName Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetails.Progress Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Progress Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.Progress
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.Progress
 - Microsoft.Web.Media.TransformManager.JobDetails.set_Progress
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Progress Property

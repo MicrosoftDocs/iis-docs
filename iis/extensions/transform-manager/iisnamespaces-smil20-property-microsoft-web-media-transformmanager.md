@@ -1,4 +1,4 @@
----
+﻿---
 title: IisNamespaces.Smil20 Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Smil20 Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.Smil20
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_Smil20
 - Microsoft.Web.Media.TransformManager.IisNamespaces.Smil20
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Smil20 Property

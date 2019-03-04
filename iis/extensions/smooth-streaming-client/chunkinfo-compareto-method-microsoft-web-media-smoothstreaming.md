@@ -1,4 +1,4 @@
----
+﻿---
 title: ChunkInfo.CompareTo Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CompareTo Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ChunkInfo.CompareTo(System.Object)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkInfo.CompareTo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CompareTo Method

@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManifest.JobDefinitionId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinitionId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.JobDefinitionId
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_JobDefinitionId
 - Microsoft.Web.Media.TransformManager.JobManifest.JobDefinitionId
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDefinitionId Property

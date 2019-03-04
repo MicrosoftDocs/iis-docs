@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.MaintenanceTime Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: MaintenanceTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceTime
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceTime
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_MaintenanceTime
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # MaintenanceTime Property

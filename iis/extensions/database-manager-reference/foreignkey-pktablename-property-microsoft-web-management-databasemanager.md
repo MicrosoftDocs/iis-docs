@@ -1,4 +1,4 @@
----
+﻿---
 title: ForeignKey.PKTableName Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: PKTableName Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.PKTableName
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.PKTableName
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.set_PKTableName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ForeignKey.PKTableName Property

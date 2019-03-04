@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestProperty.Value Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Value Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.Value
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.Value
 - Microsoft.Web.Media.TransformManager.ManifestProperty.set_Value
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Value Property

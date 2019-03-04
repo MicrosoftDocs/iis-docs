@@ -1,4 +1,4 @@
----
+﻿---
 title: Tracing.DisableTraceDestination Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: DisableTraceDestination Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.DisableTraceDestination(Microsoft.Web.Media.Diagnostics.TraceDestination)
@@ -13,16 +13,18 @@ dev_langs:
 - jscript
 - vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.Diagnostics.Tracing.DisableTraceDestination
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.DisableTraceDestination Method

@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskDefinition.idElementName Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: idElementName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.TaskDefinition.idElementName
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.idElementName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # idElementName Field

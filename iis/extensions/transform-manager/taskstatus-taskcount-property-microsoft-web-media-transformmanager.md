@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskStatus.TaskCount Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskCount Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.TaskCount
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskStatus.get_TaskCount
 - Microsoft.Web.Media.TransformManager.TaskStatus.TaskCount
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskCount Property

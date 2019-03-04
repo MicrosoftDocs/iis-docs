@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.LivePosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LivePosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LivePosition
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_LivePosition
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LivePosition
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LivePosition Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.AudioStreamIndex Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AudioStreamIndex Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AudioStreamIndex
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_AudioStreamIndex
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_AudioStreamIndex
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.AudioStreamIndex Property

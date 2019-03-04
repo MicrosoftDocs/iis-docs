@@ -1,4 +1,4 @@
----
+﻿---
 title: TableInfo.ForeignKeys Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ForeignKeys Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TableInfo.ForeignKeys
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.TableInfo.ForeignKeys
 - Microsoft.Web.Management.DatabaseManager.TableInfo.get_ForeignKeys
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TableInfo.ForeignKeys Property

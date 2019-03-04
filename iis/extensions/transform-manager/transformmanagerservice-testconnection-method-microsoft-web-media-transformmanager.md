@@ -1,4 +1,4 @@
----
+﻿---
 title: TransformManagerService.TestConnection Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: TestConnection Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.TestConnection(Microsoft.Web.Media.TransformManager.JobScheduler,Microsoft.Web.Media.TransformManager.Credential)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.TestConnection
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TestConnection Method

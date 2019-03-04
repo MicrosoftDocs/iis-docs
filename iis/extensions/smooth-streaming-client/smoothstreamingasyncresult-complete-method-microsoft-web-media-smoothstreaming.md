@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingAsyncResult.Complete Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Complete Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.Complete(System.Object,System.Boolean)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.Complete
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingAsyncResult.Complete Method

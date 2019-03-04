@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.SetJobTemplates Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetJobTemplates Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDefinition.SetJobTemplates(System.Collections.ObjectModel.Collection{Microsoft.Web.Media.TransformManager.JobTemplate})
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.SetJobTemplates
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SetJobTemplates Method

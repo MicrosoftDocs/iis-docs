@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheResponse.Headers Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Headers Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.Headers
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_Headers
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.Headers
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse.Headers Property

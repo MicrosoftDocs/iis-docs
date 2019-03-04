@@ -1,4 +1,4 @@
----
+﻿---
 title: SchedulerInfo.CreateInstance Method (Logger) (Microsoft.Web.Media.TransformManager)
 TOCTitle: CreateInstance Method (Logger)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.SchedulerInfo.CreateInstance(Microsoft.Web.Media.TransformManager.Logger)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.CreateInstance
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CreateInstance Method (Logger)

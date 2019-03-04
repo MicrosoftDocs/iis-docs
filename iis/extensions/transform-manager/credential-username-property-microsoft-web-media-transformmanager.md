@@ -1,4 +1,4 @@
----
+﻿---
 title: Credential.UserName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: UserName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.UserName
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.Credential.set_UserName
 - Microsoft.Web.Media.TransformManager.Credential.UserName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # UserName Property

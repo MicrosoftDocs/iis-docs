@@ -1,4 +1,4 @@
----
+﻿---
 title: CircularList(T) Class (Microsoft.Web.Media.Diagnostics)
 TOCTitle: CircularList(T) Class
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.CircularList`1
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.Diagnostics.CircularList`1
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CircularList(T) Class

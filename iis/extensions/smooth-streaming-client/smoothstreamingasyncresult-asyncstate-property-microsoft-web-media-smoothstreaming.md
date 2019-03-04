@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingAsyncResult.AsyncState Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AsyncState Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.AsyncState
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.get_AsyncState
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.set_AsyncState
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingAsyncResult.AsyncState Property

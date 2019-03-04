@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetails.StartTime Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: StartTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.StartTime
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.set_StartTime
 - Microsoft.Web.Media.TransformManager.JobDetails.StartTime
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StartTime Property

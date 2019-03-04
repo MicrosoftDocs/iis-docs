@@ -1,4 +1,4 @@
----
+﻿---
 title: StoredProcedureParameter.IsNull Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsNull Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.IsNull
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.IsNull
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.set_IsNull
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StoredProcedureParameter.IsNull Property

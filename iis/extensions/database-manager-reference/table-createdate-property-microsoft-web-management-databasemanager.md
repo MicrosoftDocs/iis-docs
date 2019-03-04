@@ -1,4 +1,4 @@
----
+﻿---
 title: Table.CreateDate Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: CreateDate Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Table.CreateDate
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Table.get_CreateDate
 - Microsoft.Web.Management.DatabaseManager.Table.set_CreateDate
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Table.CreateDate Property

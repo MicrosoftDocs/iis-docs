@@ -1,4 +1,4 @@
----
+﻿---
 title: ForeignKey.OriginalName Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: OriginalName Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.OriginalName
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.OriginalName
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.set_OriginalName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ForeignKey.OriginalName Property

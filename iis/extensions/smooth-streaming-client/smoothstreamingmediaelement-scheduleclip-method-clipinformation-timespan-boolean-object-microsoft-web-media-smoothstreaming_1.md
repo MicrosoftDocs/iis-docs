@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.ScheduleClip Method (ClipInformation, TimeSpan, Boolean, Object) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ScheduleClip Method (ClipInformation, TimeSpan, Boolean, Object)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ScheduleClip(Microsoft.Web.Media.SmoothStreaming.ClipInformation,System.TimeSpan,System.Boolean,System.Object)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ScheduleClip
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ScheduleClip Method (ClipInformation, TimeSpan, Boolean, Object)

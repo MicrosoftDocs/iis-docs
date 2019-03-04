@@ -1,4 +1,4 @@
----
+﻿---
 title: TransformManagerService.ResubmitJob Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: ResubmitJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.ResubmitJob(Microsoft.Web.Media.TransformManager.JobDetails)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.ResubmitJob
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ResubmitJob Method

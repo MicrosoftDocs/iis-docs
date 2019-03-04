@@ -1,4 +1,4 @@
----
+﻿---
 title: ChunkDownloadedEventArgs.Track Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Track Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.Track
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.set_Track
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.Track
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkDownloadedEventArgs.Track Property

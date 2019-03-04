@@ -1,4 +1,4 @@
----
+﻿---
 title: SegmentInfo.RestrictStreams Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: RestrictStreams Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.RestrictStreams(System.Collections.Generic.IList{Microsoft.Web.Media.SmoothStreaming.StreamInfo})
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.RestrictStreams
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SegmentInfo.RestrictStreams Method

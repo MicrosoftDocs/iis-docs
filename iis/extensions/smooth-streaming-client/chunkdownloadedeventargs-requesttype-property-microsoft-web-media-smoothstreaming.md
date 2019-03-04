@@ -1,4 +1,4 @@
----
+﻿---
 title: ChunkDownloadedEventArgs.RequestType Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: RequestType Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.RequestType
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.RequestType
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.set_RequestType
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkDownloadedEventArgs.RequestType Property

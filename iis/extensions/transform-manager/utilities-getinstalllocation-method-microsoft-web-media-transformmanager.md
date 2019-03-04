@@ -1,4 +1,4 @@
----
+﻿---
 title: Utilities.GetInstallLocation Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetInstallLocation Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.GetInstallLocation
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.Utilities.GetInstallLocation
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # GetInstallLocation Method

@@ -1,4 +1,4 @@
----
+﻿---
 title: Logger.WriteLine Method (LogLevel, String, Int32) (Microsoft.Web.Media.TransformManager)
 TOCTitle: WriteLine Method (LogLevel, String, Int32)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Logger.WriteLine(Microsoft.Web.Media.TransformManager.LogLevel,System.String,System.Int32)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.Logger.WriteLine
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # WriteLine Method (LogLevel, String, Int32)

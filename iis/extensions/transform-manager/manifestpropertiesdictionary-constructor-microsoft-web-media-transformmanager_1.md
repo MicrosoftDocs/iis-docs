@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestPropertiesDictionary Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestPropertiesDictionary Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.#ctor
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestPropertiesDictionary Constructor

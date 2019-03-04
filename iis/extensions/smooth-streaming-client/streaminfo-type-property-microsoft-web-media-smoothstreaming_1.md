@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamInfo.Type Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Type Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Type
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.set_Type
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.Type
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.Type Property

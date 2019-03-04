@@ -1,4 +1,4 @@
----
+﻿---
 title: LocalScheduler.SetTaskIndex Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetTaskIndex Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.SetTaskIndex(System.String,System.Int32)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.LocalScheduler.SetTaskIndex
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SetTaskIndex Method

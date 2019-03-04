@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.Priority Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Priority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.Priority
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_Priority
 - Microsoft.Web.Media.TransformManager.JobDefinition.Priority
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Priority Property

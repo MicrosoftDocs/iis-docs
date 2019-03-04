@@ -1,4 +1,4 @@
----
+﻿---
 title: Credential.DomainUserName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: DomainUserName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.DomainUserName
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.Credential.get_DomainUserName
 - Microsoft.Web.Media.TransformManager.Credential.set_DomainUserName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DomainUserName Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: TransformManagerService.UpdateJobScheduler Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateJobScheduler Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateJobScheduler(Microsoft.Web.Media.TransformManager.JobScheduler)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateJobScheduler
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateJobScheduler Method

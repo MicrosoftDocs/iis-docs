@@ -1,4 +1,4 @@
----
+﻿---
 title: TransformManagerService.UpdateJobDefinition Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateJobDefinition Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateJobDefinition(Microsoft.Web.Media.TransformManager.JobDefinition)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateJobDefinition
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateJobDefinition Method

@@ -1,4 +1,4 @@
----
+﻿---
 title: JobScheduler.ConnectionString Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConnectionString Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobScheduler.ConnectionString
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobScheduler.get_ConnectionString
 - Microsoft.Web.Media.TransformManager.JobScheduler.set_ConnectionString
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConnectionString Property

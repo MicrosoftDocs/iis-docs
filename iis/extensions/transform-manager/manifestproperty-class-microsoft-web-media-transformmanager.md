@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestProperty Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestProperty Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ManifestProperty
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ManifestProperty
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestProperty Class

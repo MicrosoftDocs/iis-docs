@@ -1,4 +1,4 @@
----
+﻿---
 title: ChunkResult.ChunkData Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkData Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkResult.ChunkData
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.get_ChunkData
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.set_ChunkData
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkResult.ChunkData Property

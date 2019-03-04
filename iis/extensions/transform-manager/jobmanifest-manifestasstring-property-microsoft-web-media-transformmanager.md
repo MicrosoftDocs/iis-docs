@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManifest.ManifestAsString Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestAsString Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.ManifestAsString
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.ManifestAsString
 - Microsoft.Web.Media.TransformManager.JobManifest.set_ManifestAsString
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestAsString Property

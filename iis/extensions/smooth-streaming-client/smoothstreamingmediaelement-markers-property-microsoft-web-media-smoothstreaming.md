@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.Markers Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Markers Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Markers
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_Markers
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Markers
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Markers Property

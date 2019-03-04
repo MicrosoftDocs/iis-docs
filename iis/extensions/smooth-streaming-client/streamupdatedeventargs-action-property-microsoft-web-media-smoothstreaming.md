@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamUpdatedEventArgs.Action Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Action Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.Action
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.get_Action
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.set_Action
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Action Property

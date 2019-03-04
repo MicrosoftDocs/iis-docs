@@ -1,4 +1,4 @@
----
+﻿---
 title: TransformManagerService.CancelJobById Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CancelJobById Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.CancelJobById(System.String)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.CancelJobById
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CancelJobById Method

@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipProgress Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipProgress Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ClipProgress
@@ -30,10 +30,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipProgress.Midpoint
 - Microsoft.Web.Media.SmoothStreaming.ClipProgress.Unknown
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipProgress Enumeration

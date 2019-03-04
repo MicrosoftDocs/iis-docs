@@ -1,4 +1,4 @@
----
+﻿---
 title: SchedulerInfo.ConcurrentJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConcurrentJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.SchedulerInfo.ConcurrentJobs
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.get_ConcurrentJobs
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.set_ConcurrentJobs
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConcurrentJobs Property

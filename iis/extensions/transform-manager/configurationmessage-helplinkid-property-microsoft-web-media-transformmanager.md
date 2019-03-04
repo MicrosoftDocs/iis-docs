@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationMessage.HelpLinkId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: HelpLinkId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.HelpLinkId
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.HelpLinkId
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.set_HelpLinkId
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # HelpLinkId Property

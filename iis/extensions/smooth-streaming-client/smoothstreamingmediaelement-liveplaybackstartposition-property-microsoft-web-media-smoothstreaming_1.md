@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.LivePlaybackStartPosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LivePlaybackStartPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LivePlaybackStartPosition
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LivePlaybackStartPosition
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_LivePlaybackStartPosition
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.LivePlaybackStartPosition Property

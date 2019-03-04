@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheResponse Constructor (Stream) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheResponse Constructor (Stream)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheResponse.#ctor(System.IO.Stream)
@@ -16,10 +16,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse Constructor (Stream)

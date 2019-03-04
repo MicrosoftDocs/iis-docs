@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipEventArgs.Context Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Context Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipEventArgs.Context
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipEventArgs.get_Context
 - Microsoft.Web.Media.SmoothStreaming.ClipEventArgs.set_Context
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipEventArgs.Context Property

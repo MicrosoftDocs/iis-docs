@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskDefinition.CommandLine Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CommandLine Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.CommandLine
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.get_CommandLine
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_CommandLine
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CommandLine Property

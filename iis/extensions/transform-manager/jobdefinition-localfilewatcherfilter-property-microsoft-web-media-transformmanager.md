@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.LocalFileWatcherFilter Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LocalFileWatcherFilter Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.LocalFileWatcherFilter
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.LocalFileWatcherFilter
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_LocalFileWatcherFilter
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LocalFileWatcherFilter Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheResponse Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheResponse Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.CacheResponse
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse Class

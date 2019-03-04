@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipContext.NaturalDuration Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: NaturalDuration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.NaturalDuration
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.NaturalDuration
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.set_NaturalDuration
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipContext.NaturalDuration Property

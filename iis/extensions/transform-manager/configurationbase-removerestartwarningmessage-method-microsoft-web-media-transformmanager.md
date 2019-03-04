@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationBase.RemoveRestartWarningMessage Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: RemoveRestartWarningMessage Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationBase.RemoveRestartWarningMessage
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.RemoveRestartWarningMessage
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # RemoveRestartWarningMessage Method

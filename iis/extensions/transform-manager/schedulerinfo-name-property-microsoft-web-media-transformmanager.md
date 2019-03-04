@@ -1,4 +1,4 @@
----
+﻿---
 title: SchedulerInfo.Name Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.SchedulerInfo.Name
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.Name
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.set_Name
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Name Property

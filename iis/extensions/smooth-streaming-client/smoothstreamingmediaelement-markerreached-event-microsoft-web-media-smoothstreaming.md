@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.MarkerReached Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: MarkerReached Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MarkerReached
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MarkerReached
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_MarkerReached
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # MarkerReached Event

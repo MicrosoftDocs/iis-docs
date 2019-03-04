@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.MaintenanceIntervalMinutes Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: MaintenanceIntervalMinutes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceIntervalMinutes
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_MaintenanceIntervalMinutes
 - Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceIntervalMinutes
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # MaintenanceIntervalMinutes Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.JobManagerLogRolloverIntervalDisplayUnit Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManagerLogRolloverIntervalDisplayUnit Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.JobManagerLogRolloverIntervalDisplayUnit
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_JobManagerLogRolloverIntervalDisplayUnit
 - Microsoft.Web.Media.TransformManager.JobDefinition.JobManagerLogRolloverIntervalDisplayUnit
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobManagerLogRolloverIntervalDisplayUnit Property

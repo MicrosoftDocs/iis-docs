@@ -1,4 +1,4 @@
----
+﻿---
 title: IManagementService.UpdateCredential Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateCredential Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.UpdateCredential(Microsoft.Web.Media.TransformManager.Credential)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.IManagementService.UpdateCredential
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateCredential Method

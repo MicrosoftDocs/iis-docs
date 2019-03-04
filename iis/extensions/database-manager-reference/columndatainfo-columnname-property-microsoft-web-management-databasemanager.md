@@ -1,4 +1,4 @@
----
+﻿---
 title: ColumnDataInfo.ColumnName Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ColumnName Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.ColumnName
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.get_ColumnName
 - Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.set_ColumnName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ColumnDataInfo.ColumnName Property

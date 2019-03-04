@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetails.EndTime Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: EndTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.EndTime
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.get_EndTime
 - Microsoft.Web.Media.TransformManager.JobDetails.set_EndTime
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # EndTime Property

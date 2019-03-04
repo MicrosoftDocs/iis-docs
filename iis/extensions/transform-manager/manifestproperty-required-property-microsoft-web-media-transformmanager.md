@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestProperty.Required Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Required Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.Required
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.Required
 - Microsoft.Web.Media.TransformManager.ManifestProperty.set_Required
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Required Property

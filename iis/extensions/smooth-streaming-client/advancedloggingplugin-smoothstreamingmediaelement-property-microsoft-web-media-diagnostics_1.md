@@ -1,4 +1,4 @@
----
+﻿---
 title: AdvancedLoggingPlugin.SmoothStreamingMediaElement Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: SmoothStreamingMediaElement Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.SmoothStreamingMediaElement
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.set_SmoothStreamingMediaElement
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.SmoothStreamingMediaElement
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # AdvancedLoggingPlugin.SmoothStreamingMediaElement Property

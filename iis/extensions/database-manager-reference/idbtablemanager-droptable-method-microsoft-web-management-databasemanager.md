@@ -1,4 +1,4 @@
----
+﻿---
 title: IDbTableManager.DropTable Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DropTable Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableManager.DropTable(System.String,System.String,Microsoft.Web.Management.DatabaseManager.TableInfo)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.IDbTableManager.DropTable
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbTableManager.DropTable Method

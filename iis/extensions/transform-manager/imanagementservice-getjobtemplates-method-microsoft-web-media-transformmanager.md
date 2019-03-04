@@ -1,4 +1,4 @@
----
+﻿---
 title: IManagementService.GetJobTemplates Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobTemplates Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.GetJobTemplates
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.IManagementService.GetJobTemplates
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobTemplates Method

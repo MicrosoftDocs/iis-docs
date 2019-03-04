@@ -1,4 +1,4 @@
----
+﻿---
 title: SegmentInfo.SelectedStreams Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SelectedStreams Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.SelectedStreams
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.get_SelectedStreams
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.SelectedStreams
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SegmentInfo.SelectedStreams Property

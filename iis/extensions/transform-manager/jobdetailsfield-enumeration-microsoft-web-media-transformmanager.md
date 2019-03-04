@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetailsField Enumeration (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsField Enumeration
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobDetailsField
@@ -57,10 +57,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDetailsField.TaskCount
 - Microsoft.Web.Media.TransformManager.JobDetailsField.LogFolder
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDetailsField Enumeration

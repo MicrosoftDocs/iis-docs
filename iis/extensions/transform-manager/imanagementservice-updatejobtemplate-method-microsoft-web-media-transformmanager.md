@@ -1,4 +1,4 @@
----
+﻿---
 title: IManagementService.UpdateJobTemplate Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateJobTemplate Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.UpdateJobTemplate(Microsoft.Web.Media.TransformManager.JobTemplate)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.IManagementService.UpdateJobTemplate
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateJobTemplate Method

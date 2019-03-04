@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheResponse.ContentType Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ContentType Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ContentType
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_ContentType
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.get_ContentType
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ContentType Property

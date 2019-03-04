@@ -1,4 +1,4 @@
----
+﻿---
 title: Tracing.TraceFunctionEntry Method (String, String, String, TraceArea) (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceFunctionEntry Method (String, String, String, TraceArea)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionEntry(System.String,System.String,System.String,Microsoft.Web.Media.Diagnostics.TraceArea)
@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- "cpp"
+- cpp
 - fsharp
 - jscript
 api_location:
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionEntry
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.TraceFunctionEntry Method (String, String, String, TraceArea)

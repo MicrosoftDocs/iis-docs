@@ -1,4 +1,4 @@
----
+﻿---
 title: TransformManagerService.DeleteCredential Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: DeleteCredential Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.DeleteCredential(System.String)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.DeleteCredential
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DeleteCredential Method

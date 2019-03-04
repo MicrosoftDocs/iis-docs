@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipInformation.SetSource Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SetSource Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ClipInformation.SetSource(Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement,System.Windows.Controls.MediaElement,System.String,System.Int64)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.SetSource
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipInformation.SetSource Method

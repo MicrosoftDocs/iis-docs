@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestProperty Constructor (String, String, String, Boolean, CultureInfo) (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestProperty Constructor (String, String, String, Boolean, CultureInfo)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestProperty.#ctor(System.String,System.String,System.String,System.Boolean,System.Globalization.CultureInfo)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ManifestProperty..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestProperty Constructor (String, String, String, Boolean, CultureInfo)

@@ -1,4 +1,4 @@
----
+﻿---
 title: DependenciesMissingException Class (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DependenciesMissingException Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.DependenciesMissingException
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.DependenciesMissingException
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DependenciesMissingException Class

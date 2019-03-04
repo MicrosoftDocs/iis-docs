@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetails.SubmitTime Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SubmitTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.SubmitTime
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.set_SubmitTime
 - Microsoft.Web.Media.TransformManager.JobDetails.SubmitTime
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SubmitTime Property

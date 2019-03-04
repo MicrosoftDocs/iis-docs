@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.SeekCompleted Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SeekCompleted Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SeekCompleted
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_SeekCompleted
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SeekCompleted
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.SeekCompleted Event

@@ -1,4 +1,4 @@
----
+﻿---
 title: DatabaseInfo.SupportsSchemas Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: SupportsSchemas Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.DatabaseInfo.SupportsSchemas
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.DatabaseInfo.SupportsSchemas
 - Microsoft.Web.Management.DatabaseManager.DatabaseInfo.set_SupportsSchemas
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseInfo.SupportsSchemas Property

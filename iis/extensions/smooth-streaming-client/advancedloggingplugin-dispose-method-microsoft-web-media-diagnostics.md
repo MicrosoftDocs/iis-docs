@@ -1,4 +1,4 @@
----
+﻿---
 title: AdvancedLoggingPlugin.Dispose Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Dispose Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.Dispose
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.Dispose
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # AdvancedLoggingPlugin.Dispose Method

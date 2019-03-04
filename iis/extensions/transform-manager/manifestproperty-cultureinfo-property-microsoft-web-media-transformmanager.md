@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestProperty.CultureInfo Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CultureInfo Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.CultureInfo
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.get_CultureInfo
 - Microsoft.Web.Media.TransformManager.ManifestProperty.set_CultureInfo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CultureInfo Property

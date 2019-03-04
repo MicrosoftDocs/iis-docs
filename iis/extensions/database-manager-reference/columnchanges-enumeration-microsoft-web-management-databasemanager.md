@@ -1,4 +1,4 @@
----
+﻿---
 title: ColumnChanges Enumeration (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ColumnChanges Enumeration
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.ColumnChanges
@@ -40,10 +40,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ColumnChanges.Scale
 - Microsoft.Web.Management.DatabaseManager.ColumnChanges.Type
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ColumnChanges Enumeration

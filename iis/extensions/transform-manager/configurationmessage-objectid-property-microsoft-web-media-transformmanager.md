@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationMessage.ObjectId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ObjectId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.ObjectId
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.ObjectId
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.set_ObjectId
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ObjectId Property

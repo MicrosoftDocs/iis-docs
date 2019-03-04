@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.PipModeProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: PipModeProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PipModeProperty
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PipModeProperty
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.PipModeProperty Field

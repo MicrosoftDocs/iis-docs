@@ -1,4 +1,4 @@
----
+﻿---
 title: SchedulerInfo Constructor (JobScheduler) (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerInfo Constructor (JobScheduler)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.SchedulerInfo.#ctor(Microsoft.Web.Media.TransformManager.JobScheduler)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerInfo Constructor (JobScheduler)

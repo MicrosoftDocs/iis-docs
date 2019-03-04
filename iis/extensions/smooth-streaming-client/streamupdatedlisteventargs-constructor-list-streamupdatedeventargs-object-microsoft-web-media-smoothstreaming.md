@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamUpdatedListEventArgs Constructor (List(StreamUpdatedEventArgs), Object) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamUpdatedListEventArgs Constructor (List(StreamUpdatedEventArgs), Object)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs.#ctor(System.Collections.Generic.List{Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs},System.Object)
@@ -16,10 +16,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedListEventArgs..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamUpdatedListEventArgs Constructor (List(StreamUpdatedEventArgs), Object)

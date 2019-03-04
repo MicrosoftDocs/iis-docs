@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.CanPause Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CanPause Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CanPause
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_CanPause
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_CanPause
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CanPause Property

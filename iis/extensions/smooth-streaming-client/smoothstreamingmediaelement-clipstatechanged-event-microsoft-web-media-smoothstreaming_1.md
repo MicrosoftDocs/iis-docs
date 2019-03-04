@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.ClipStateChanged Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipStateChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipStateChanged
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipStateChanged
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_ClipStateChanged
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ClipStateChanged Event

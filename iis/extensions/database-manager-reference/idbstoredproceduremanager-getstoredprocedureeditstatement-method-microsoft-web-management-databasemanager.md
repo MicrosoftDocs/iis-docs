@@ -1,4 +1,4 @@
----
+﻿---
 title: IDbStoredProcedureManager.GetStoredProcedureEditStatement Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetStoredProcedureEditStatement Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedureEditStatement(System.String,System.String,System.String)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedureEditStatement
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbStoredProcedureManager.GetStoredProcedureEditStatement Method

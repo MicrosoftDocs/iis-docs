@@ -1,4 +1,4 @@
----
+﻿---
 title: ForeignKey.FKColumns Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: FKColumns Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.FKColumns
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.FKColumns
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.get_FKColumns
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ForeignKey.FKColumns Property

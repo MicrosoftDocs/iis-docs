@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamInfo.AvailableTracks Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AvailableTracks Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.AvailableTracks
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.AvailableTracks
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.get_AvailableTracks
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.AvailableTracks Property

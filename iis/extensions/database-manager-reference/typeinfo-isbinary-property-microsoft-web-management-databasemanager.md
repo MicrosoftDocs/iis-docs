@@ -1,4 +1,4 @@
----
+﻿---
 title: TypeInfo.IsBinary Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsBinary Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.IsBinary
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.IsBinary
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_IsBinary
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.IsBinary Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: TraceDestination Enumeration (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceDestination Enumeration
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.TraceDestination
@@ -19,7 +19,7 @@ dev_langs:
 - csharp
 - jscript
 - vb
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -32,10 +32,12 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.TraceDestination.RemoteServer
 - Microsoft.Web.Media.Diagnostics.TraceDestination.None
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceDestination Enumeration

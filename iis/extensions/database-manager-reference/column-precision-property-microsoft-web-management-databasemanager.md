@@ -1,4 +1,4 @@
----
+﻿---
 title: Column.Precision Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Precision Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.Precision
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Column.Precision
 - Microsoft.Web.Management.DatabaseManager.Column.set_Precision
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.Precision Property

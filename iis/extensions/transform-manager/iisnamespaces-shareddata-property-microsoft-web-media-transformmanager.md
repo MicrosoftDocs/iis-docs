@@ -1,4 +1,4 @@
----
+﻿---
 title: IisNamespaces.SharedData Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SharedData Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.SharedData
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_SharedData
 - Microsoft.Web.Media.TransformManager.IisNamespaces.SharedData
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SharedData Property

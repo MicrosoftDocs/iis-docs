@@ -1,4 +1,4 @@
----
+﻿---
 title: ILogger Interface (Microsoft.Web.Media.TransformManager)
 TOCTitle: ILogger Interface
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ILogger
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ILogger
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ILogger Interface

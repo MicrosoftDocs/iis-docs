@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetails.JobDetailsProgress Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsProgress Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsProgress
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsProgress
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDetailsProgress Field

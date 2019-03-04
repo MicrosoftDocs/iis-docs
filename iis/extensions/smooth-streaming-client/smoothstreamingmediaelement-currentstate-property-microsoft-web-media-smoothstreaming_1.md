@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.CurrentState Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CurrentState Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentState
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_CurrentState
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_CurrentState
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.CurrentState Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestType Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ManifestType Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ManifestType
@@ -25,10 +25,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ManifestType.Segmented
 - Microsoft.Web.Media.SmoothStreaming.ManifestType.Standard
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestType Enumeration

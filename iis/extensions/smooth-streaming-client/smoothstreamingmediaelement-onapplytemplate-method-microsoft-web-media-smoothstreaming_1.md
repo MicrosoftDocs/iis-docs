@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.OnApplyTemplate Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: OnApplyTemplate Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.OnApplyTemplate
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.OnApplyTemplate
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.OnApplyTemplate Method

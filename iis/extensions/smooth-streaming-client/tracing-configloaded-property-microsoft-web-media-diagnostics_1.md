@@ -1,4 +1,4 @@
----
+﻿---
 title: Tracing.ConfigLoaded Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: ConfigLoaded Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.Tracing.ConfigLoaded
@@ -14,17 +14,19 @@ dev_langs:
 - jscript
 - vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.Diagnostics.Tracing.ConfigLoaded
 - Microsoft.Web.Media.Diagnostics.Tracing.get_ConfigLoaded
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.ConfigLoaded Property

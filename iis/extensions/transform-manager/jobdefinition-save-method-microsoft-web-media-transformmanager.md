@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.Save Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Save Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDefinition.Save(System.Boolean)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.Save
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Save Method

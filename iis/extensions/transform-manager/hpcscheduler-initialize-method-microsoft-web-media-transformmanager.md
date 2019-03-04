@@ -1,4 +1,4 @@
----
+﻿---
 title: HpcScheduler.Initialize Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Initialize Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.Initialize(System.String,Microsoft.Web.Media.TransformManager.Credential,System.String,System.Int32,System.Collections.Generic.Dictionary{System.String,System.String})
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.HpcScheduler.Initialize
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Initialize Method

@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamUpdatedEventArgs.Stream Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Stream Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.Stream
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.set_Stream
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.Stream
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Stream Property

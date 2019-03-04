@@ -1,4 +1,4 @@
----
+﻿---
 title: IisNamespaces.TaskDefinitionNamespace Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskDefinitionNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.TaskDefinitionNamespace
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_TaskDefinitionNamespace
 - Microsoft.Web.Media.TransformManager.IisNamespaces.TaskDefinitionNamespace
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskDefinitionNamespace Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: Column.InPrimaryKey Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: InPrimaryKey Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.InPrimaryKey
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Column.InPrimaryKey
 - Microsoft.Web.Management.DatabaseManager.Column.set_InPrimaryKey
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.InPrimaryKey Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestProperty Constructor (XName, String) (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestProperty Constructor (XName, String)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestProperty.#ctor(System.Xml.Linq.XName,System.String)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ManifestProperty..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestProperty Constructor (XName, String)

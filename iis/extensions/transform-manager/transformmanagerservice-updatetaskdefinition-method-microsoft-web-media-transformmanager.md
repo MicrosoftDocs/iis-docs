@@ -1,4 +1,4 @@
----
+﻿---
 title: TransformManagerService.UpdateTaskDefinition Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateTaskDefinition Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateTaskDefinition(Microsoft.Web.Media.TransformManager.TaskDefinition)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.UpdateTaskDefinition
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateTaskDefinition Method

@@ -1,4 +1,4 @@
----
+﻿---
 title: StoredProcedureParameter.Name Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Name Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.Name
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.Name
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.set_Name
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StoredProcedureParameter.Name Property

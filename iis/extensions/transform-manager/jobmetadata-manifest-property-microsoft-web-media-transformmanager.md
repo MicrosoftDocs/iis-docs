@@ -1,4 +1,4 @@
----
+﻿---
 title: JobMetadata.Manifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Manifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.Manifest
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_Manifest
 - Microsoft.Web.Media.TransformManager.JobMetadata.Manifest
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Manifest Property

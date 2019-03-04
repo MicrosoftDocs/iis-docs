@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.NotificationUrl Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: NotificationUrl Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.NotificationUrl
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_NotificationUrl
 - Microsoft.Web.Media.TransformManager.JobDefinition.NotificationUrl
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # NotificationUrl Property

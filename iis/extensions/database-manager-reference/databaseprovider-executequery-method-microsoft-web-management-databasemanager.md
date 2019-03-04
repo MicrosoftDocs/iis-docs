@@ -1,4 +1,4 @@
----
+﻿---
 title: DatabaseProvider.ExecuteQuery Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ExecuteQuery Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.ExecuteQuery(System.String,Microsoft.Web.Management.DatabaseManager.Query)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.ExecuteQuery
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseProvider.ExecuteQuery Method

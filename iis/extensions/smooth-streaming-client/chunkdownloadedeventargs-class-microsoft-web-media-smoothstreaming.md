@@ -1,4 +1,4 @@
----
+﻿---
 title: ChunkDownloadedEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkDownloadedEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkDownloadedEventArgs Class

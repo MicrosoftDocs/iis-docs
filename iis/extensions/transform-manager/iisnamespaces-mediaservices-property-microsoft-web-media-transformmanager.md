@@ -1,4 +1,4 @@
----
+﻿---
 title: IisNamespaces.MediaServices Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: MediaServices Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.MediaServices
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_MediaServices
 - Microsoft.Web.Media.TransformManager.IisNamespaces.MediaServices
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # MediaServices Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: ProtectionInfo.ProtectionHeader Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionHeader Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.ProtectionHeader
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.set_ProtectionHeader
 - Microsoft.Web.Media.SmoothStreaming.ProtectionInfo.ProtectionHeader
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ProtectionInfo.ProtectionHeader Property

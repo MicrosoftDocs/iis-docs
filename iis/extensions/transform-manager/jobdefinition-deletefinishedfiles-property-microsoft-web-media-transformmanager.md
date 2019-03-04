@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.DeleteFinishedFiles Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: DeleteFinishedFiles Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.DeleteFinishedFiles
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_DeleteFinishedFiles
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_DeleteFinishedFiles
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DeleteFinishedFiles Property

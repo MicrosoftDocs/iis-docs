@@ -1,4 +1,4 @@
----
+﻿---
 title: TrackInfo.Bitrate Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Bitrate Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.Bitrate
@@ -14,7 +14,7 @@ dev_langs:
 - csharp
 - jscript
 - vb
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.get_Bitrate
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.set_Bitrate
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Bitrate Property

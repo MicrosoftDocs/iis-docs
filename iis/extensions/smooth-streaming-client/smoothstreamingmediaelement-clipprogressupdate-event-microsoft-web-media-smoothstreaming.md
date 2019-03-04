@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.ClipProgressUpdate Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipProgressUpdate Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipProgressUpdate
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipProgressUpdate
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_ClipProgressUpdate
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipProgressUpdate Event

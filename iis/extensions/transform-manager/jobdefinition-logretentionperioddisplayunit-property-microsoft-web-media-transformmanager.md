@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.LogRetentionPeriodDisplayUnit Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogRetentionPeriodDisplayUnit Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.LogRetentionPeriodDisplayUnit
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.LogRetentionPeriodDisplayUnit
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_LogRetentionPeriodDisplayUnit
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LogRetentionPeriodDisplayUnit Property

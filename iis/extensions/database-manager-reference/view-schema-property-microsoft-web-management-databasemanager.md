@@ -1,4 +1,4 @@
----
+﻿---
 title: View.Schema Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Schema Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.View.Schema
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.View.Schema
 - Microsoft.Web.Management.DatabaseManager.View.set_Schema
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # View.Schema Property

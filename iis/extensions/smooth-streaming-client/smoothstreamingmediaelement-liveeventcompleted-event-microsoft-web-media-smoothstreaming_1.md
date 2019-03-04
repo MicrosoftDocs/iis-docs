@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.LiveEventCompleted Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LiveEventCompleted Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LiveEventCompleted
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LiveEventCompleted
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_LiveEventCompleted
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.LiveEventCompleted Event

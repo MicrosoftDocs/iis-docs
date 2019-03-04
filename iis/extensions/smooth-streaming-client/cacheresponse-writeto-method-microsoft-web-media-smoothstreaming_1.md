@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheResponse.WriteTo Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: WriteTo Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheResponse.WriteTo(System.IO.Stream)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.WriteTo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse.WriteTo Method

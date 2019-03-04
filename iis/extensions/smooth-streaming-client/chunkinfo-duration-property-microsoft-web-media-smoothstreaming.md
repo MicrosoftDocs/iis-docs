@@ -1,4 +1,4 @@
----
+﻿---
 title: ChunkInfo.Duration Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Duration Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkInfo.Duration
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkInfo.set_Duration
 - Microsoft.Web.Media.SmoothStreaming.ChunkInfo.get_Duration
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Duration Property

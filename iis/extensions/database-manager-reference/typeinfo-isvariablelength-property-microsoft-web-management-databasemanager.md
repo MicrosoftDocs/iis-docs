@@ -1,4 +1,4 @@
----
+﻿---
 title: TypeInfo.IsVariableLength Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsVariableLength Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.IsVariableLength
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.IsVariableLength
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_IsVariableLength
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.IsVariableLength Property

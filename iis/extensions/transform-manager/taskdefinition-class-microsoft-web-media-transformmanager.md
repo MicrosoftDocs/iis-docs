@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskDefinition Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskDefinition Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.TaskDefinition
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TaskDefinition
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskDefinition Class

@@ -1,4 +1,4 @@
----
+﻿---
 title: Scheduler Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Scheduler Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Scheduler.#ctor
@@ -20,10 +20,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.Scheduler..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Scheduler Constructor

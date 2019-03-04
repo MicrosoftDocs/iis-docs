@@ -1,4 +1,4 @@
----
+﻿---
 title: Logger.Dispose Method (Boolean) (Microsoft.Web.Media.TransformManager)
 TOCTitle: Dispose Method (Boolean)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Logger.Dispose(System.Boolean)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.Logger.Dispose
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Dispose Method (Boolean)

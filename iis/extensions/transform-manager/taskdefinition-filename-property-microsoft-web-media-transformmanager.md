@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskDefinition.FileName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: FileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.FileName
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.get_FileName
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_FileName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # FileName Property

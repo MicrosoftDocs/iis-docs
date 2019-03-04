@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationMessage.RegKeyFound Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: RegKeyFound Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.RegKeyFound
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.RegKeyFound
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.set_RegKeyFound
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # RegKeyFound Property

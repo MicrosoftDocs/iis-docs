@@ -1,4 +1,4 @@
----
+﻿---
 title: Index.IndexType Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IndexType Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.IndexType
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Index.IndexType
 - Microsoft.Web.Management.DatabaseManager.Index.set_IndexType
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Index.IndexType Property

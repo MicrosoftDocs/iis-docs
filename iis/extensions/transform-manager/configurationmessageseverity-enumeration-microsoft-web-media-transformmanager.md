@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationMessageSeverity Enumeration (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessageSeverity Enumeration
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity
@@ -29,10 +29,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity.None
 - Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity.Warning
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationMessageSeverity Enumeration

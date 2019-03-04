@@ -1,4 +1,4 @@
----
+﻿---
 title: HpcScheduler.SubmitJob Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SubmitJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.SubmitJob(Microsoft.Web.Media.TransformManager.JobManifest)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.HpcScheduler.SubmitJob
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SubmitJob Method

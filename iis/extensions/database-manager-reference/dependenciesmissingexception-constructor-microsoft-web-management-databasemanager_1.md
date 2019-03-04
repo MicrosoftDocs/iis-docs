@@ -1,4 +1,4 @@
----
+﻿---
 title: DependenciesMissingException Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DependenciesMissingException Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DependenciesMissingException.#ctor
@@ -16,10 +16,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.DependenciesMissingException..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DependenciesMissingException Constructor

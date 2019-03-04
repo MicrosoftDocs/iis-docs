@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.SetPlaybackRangeAsync Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SetPlaybackRangeAsync Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRangeAsync(System.TimeSpan,System.TimeSpan,System.Object)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRangeAsync
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.SetPlaybackRangeAsync Method

@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationMessage Constructor (String, String, String, String, ConfigurationMessageSeverity) (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessage Constructor (String, String, String, String, ConfigurationMessageSeverity)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationMessage.#ctor(System.String,System.String,System.String,System.String,Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationMessage Constructor (String, String, String, String, ConfigurationMessageSeverity)

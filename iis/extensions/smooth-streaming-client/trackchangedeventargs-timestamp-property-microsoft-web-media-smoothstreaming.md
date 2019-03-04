@@ -1,4 +1,4 @@
----
+﻿---
 title: TrackChangedEventArgs.Timestamp Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Timestamp Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.Timestamp
@@ -14,7 +14,7 @@ dev_langs:
 - csharp
 - jscript
 - vb
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.set_Timestamp
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs.Timestamp
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Timestamp Property

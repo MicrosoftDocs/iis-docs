@@ -1,4 +1,4 @@
----
+﻿---
 title: ChunkResult.ChunkResultState Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkResult.ChunkResultState Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ChunkResult.ChunkResultState
@@ -25,10 +25,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.ChunkResultState.TimedOut
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.ChunkResultState.Succeeded
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkResult.ChunkResultState Enumeration

@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.MediaOpened Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: MediaOpened Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MediaOpened
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MediaOpened
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_MediaOpened
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.MediaOpened Event

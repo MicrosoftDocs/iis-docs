@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.PlaybackTrackChanged Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: PlaybackTrackChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PlaybackTrackChanged
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.PlaybackTrackChanged
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_PlaybackTrackChanged
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.PlaybackTrackChanged Event

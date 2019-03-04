@@ -1,4 +1,4 @@
----
+﻿---
 title: TypeInfo.Editable Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Editable Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.Editable
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_Editable
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_Editable
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.Editable Property

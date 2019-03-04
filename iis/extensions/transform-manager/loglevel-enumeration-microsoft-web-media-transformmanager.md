@@ -1,4 +1,4 @@
----
+﻿---
 title: LogLevel Enumeration (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogLevel Enumeration
 ms:assetid: T:Microsoft.Web.Media.TransformManager.LogLevel
@@ -33,10 +33,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.LogLevel.Verbose
 - Microsoft.Web.Media.TransformManager.LogLevel.Warning
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LogLevel Enumeration

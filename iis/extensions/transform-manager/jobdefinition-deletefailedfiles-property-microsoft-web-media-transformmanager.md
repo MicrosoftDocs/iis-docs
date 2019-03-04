@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.DeleteFailedFiles Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: DeleteFailedFiles Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.DeleteFailedFiles
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_DeleteFailedFiles
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_DeleteFailedFiles
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DeleteFailedFiles Property

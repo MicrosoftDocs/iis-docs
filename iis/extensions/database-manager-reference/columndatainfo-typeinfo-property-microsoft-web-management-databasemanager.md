@@ -1,4 +1,4 @@
----
+﻿---
 title: ColumnDataInfo.TypeInfo Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: TypeInfo Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.TypeInfo
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.TypeInfo
 - Microsoft.Web.Management.DatabaseManager.ColumnDataInfo.set_TypeInfo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ColumnDataInfo.TypeInfo Property

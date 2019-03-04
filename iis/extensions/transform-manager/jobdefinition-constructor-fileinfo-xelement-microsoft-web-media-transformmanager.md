@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition Constructor (FileInfo, XElement) (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDefinition Constructor (FileInfo, XElement)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDefinition.#ctor(System.IO.FileInfo,System.Xml.Linq.XElement)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDefinition Constructor (FileInfo, XElement)

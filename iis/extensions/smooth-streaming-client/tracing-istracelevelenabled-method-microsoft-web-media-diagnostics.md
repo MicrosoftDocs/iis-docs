@@ -1,4 +1,4 @@
----
+﻿---
 title: Tracing.IsTraceLevelEnabled Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IsTraceLevelEnabled Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.IsTraceLevelEnabled(Microsoft.Web.Media.Diagnostics.TraceLevel)
@@ -12,16 +12,18 @@ dev_langs:
 - csharp
 - jscript
 - vb
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.Diagnostics.Tracing.IsTraceLevelEnabled
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IsTraceLevelEnabled Method

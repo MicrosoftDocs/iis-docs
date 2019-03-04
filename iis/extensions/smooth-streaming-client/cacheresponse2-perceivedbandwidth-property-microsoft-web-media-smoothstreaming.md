@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheResponse2.PerceivedBandwidth Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: PerceivedBandwidth Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse2.PerceivedBandwidth
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse2.PerceivedBandwidth
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse2.set_PerceivedBandwidth
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse2.PerceivedBandwidth Property

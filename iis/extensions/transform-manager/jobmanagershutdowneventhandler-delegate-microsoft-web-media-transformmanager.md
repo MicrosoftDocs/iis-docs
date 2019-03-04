@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManagerShutDownEventHandler Delegate (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManagerShutDownEventHandler Delegate
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobManagerShutDownEventHandler
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManagerShutDownEventHandler.EndInvoke
 - Microsoft.Web.Media.TransformManager.JobManagerShutDownEventHandler.Invoke
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobManagerShutDownEventHandler Delegate

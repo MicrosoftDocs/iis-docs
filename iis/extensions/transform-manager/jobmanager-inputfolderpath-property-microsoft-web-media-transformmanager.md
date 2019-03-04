@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManager.InputFolderPath Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFolderPath Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.InputFolderPath
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManager.get_InputFolderPath
 - Microsoft.Web.Media.TransformManager.JobManager.InputFolderPath
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # InputFolderPath Property

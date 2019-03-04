@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.Notifications Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Notifications Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.Notifications
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.Notifications
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_Notifications
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Notifications Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipInformation.UseSmoothStreamingCache Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: UseSmoothStreamingCache Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.UseSmoothStreamingCache
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.set_UseSmoothStreamingCache
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.UseSmoothStreamingCache
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # UseSmoothStreamingCache Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: TypeInfo.MaximumPrecision Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: MaximumPrecision Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.MaximumPrecision
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.MaximumPrecision
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_MaximumPrecision
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.MaximumPrecision Property

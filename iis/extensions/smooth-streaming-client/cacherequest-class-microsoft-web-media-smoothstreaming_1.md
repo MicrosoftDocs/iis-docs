@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheRequest Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheRequest Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.CacheRequest
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheRequest Class

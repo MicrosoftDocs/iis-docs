@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetails.StatusFromString Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: StatusFromString Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDetails.StatusFromString(System.String)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.StatusFromString
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StatusFromString Method

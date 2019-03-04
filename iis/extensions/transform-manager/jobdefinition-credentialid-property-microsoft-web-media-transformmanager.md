@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.CredentialId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CredentialId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.CredentialId
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_CredentialId
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_CredentialId
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CredentialId Property

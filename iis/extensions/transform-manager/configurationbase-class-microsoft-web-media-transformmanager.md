@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationBase Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationBase Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ConfigurationBase
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationBase Class

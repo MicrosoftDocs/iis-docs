@@ -1,4 +1,4 @@
----
+﻿---
 title: SSMELogReadyRoutedEventArgs.Log Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Log Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.Log
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.Log
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventArgs.set_Log
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SSMELogReadyRoutedEventArgs.Log Property

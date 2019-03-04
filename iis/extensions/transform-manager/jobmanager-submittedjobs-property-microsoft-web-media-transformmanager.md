@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManager.SubmittedJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SubmittedJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.SubmittedJobs
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManager.get_SubmittedJobs
 - Microsoft.Web.Media.TransformManager.JobManager.SubmittedJobs
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SubmittedJobs Property

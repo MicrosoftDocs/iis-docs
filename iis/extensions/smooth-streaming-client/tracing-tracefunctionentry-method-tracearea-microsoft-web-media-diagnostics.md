@@ -1,4 +1,4 @@
----
+﻿---
 title: Tracing.TraceFunctionEntry Method (TraceArea) (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceFunctionEntry Method (TraceArea)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionEntry(Microsoft.Web.Media.Diagnostics.TraceArea)
@@ -9,17 +9,19 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- "cpp"
+- cpp
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionEntry
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceFunctionEntry Method (TraceArea)

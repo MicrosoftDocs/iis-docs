@@ -1,4 +1,4 @@
----
+﻿---
 title: Tracing.PostInterval Field (Microsoft.Web.Media.Diagnostics)
 TOCTitle: PostInterval Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.PostInterval
@@ -12,16 +12,18 @@ dev_langs:
 - csharp
 - jscript
 - vb
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.Diagnostics.Tracing.PostInterval
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # PostInterval Field

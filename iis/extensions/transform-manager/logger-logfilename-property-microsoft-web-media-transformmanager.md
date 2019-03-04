@@ -1,4 +1,4 @@
----
+﻿---
 title: Logger.LogFileName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogFileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Logger.LogFileName
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.Logger.LogFileName
 - Microsoft.Web.Media.TransformManager.Logger.set_LogFileName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LogFileName Property

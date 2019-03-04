@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.Master Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Master Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Master
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Master
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_Master
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.Master Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManager.ShutdownComplete Event (Microsoft.Web.Media.TransformManager)
 TOCTitle: ShutdownComplete Event
 ms:assetid: E:Microsoft.Web.Media.TransformManager.JobManager.ShutdownComplete
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManager.remove_ShutdownComplete
 - Microsoft.Web.Media.TransformManager.JobManager.ShutdownComplete
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ShutdownComplete Event

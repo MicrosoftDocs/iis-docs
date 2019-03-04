@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManifest.GetSchedulerInfo Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetSchedulerInfo Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.GetSchedulerInfo
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.GetSchedulerInfo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # GetSchedulerInfo Method

@@ -1,4 +1,4 @@
----
+﻿---
 title: DatabaseProvider.GetDatabaseHostName Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetDatabaseHostName Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.GetDatabaseHostName(System.String)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.GetDatabaseHostName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseProvider.GetDatabaseHostName Method

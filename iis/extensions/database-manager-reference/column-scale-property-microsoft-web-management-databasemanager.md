@@ -1,4 +1,4 @@
----
+﻿---
 title: Column.Scale Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Scale Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.Scale
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Column.Scale
 - Microsoft.Web.Management.DatabaseManager.Column.set_Scale
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.Scale Property

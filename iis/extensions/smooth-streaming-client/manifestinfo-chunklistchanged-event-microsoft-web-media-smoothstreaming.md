@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestInfo.ChunkListChanged Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkListChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ChunkListChanged
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ChunkListChanged
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.remove_ChunkListChanged
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkListChanged Event

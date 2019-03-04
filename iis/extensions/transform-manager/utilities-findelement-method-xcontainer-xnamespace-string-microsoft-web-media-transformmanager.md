@@ -1,4 +1,4 @@
----
+﻿---
 title: Utilities.FindElement Method (XContainer, XNamespace, String) (Microsoft.Web.Media.TransformManager)
 TOCTitle: FindElement Method (XContainer, XNamespace, String)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.FindElement(System.Xml.Linq.XContainer,System.Xml.Linq.XNamespace,System.String)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.Utilities.FindElement
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # FindElement Method (XContainer, XNamespace, String)

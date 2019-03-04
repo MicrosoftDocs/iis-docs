@@ -1,4 +1,4 @@
----
+﻿---
 title: CircularList(T).Add Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Add Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.CircularList`1.Add(`0)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.Diagnostics.CircularList`1.Add
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Add Method

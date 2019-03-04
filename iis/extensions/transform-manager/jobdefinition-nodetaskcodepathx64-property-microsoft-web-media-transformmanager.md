@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.NodeTaskCodePathX64 Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: NodeTaskCodePathX64 Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.NodeTaskCodePathX64
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_NodeTaskCodePathX64
 - Microsoft.Web.Media.TransformManager.JobDefinition.NodeTaskCodePathX64
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # NodeTaskCodePathX64 Property

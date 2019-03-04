@@ -1,4 +1,4 @@
----
+﻿---
 title: WorkQueue.ConfiguringJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfiguringJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.WorkQueue.ConfiguringJobs
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.WorkQueue.ConfiguringJobs
 - Microsoft.Web.Media.TransformManager.WorkQueue.get_ConfiguringJobs
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfiguringJobs Property

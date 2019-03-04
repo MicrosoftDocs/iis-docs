@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamInfo.ParentStream Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ParentStream Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.ParentStream
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.ParentStream
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.set_ParentStream
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ParentStream Property

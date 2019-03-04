@@ -1,4 +1,4 @@
----
+﻿---
 title: ISmoothStreamingCache.BeginRetrieve Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: BeginRetrieve Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.BeginRetrieve(Microsoft.Web.Media.SmoothStreaming.CacheRequest,System.AsyncCallback,System.Object)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.BeginRetrieve
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ISmoothStreamingCache.BeginRetrieve Method

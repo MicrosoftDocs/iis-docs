@@ -1,4 +1,4 @@
----
+﻿---
 title: ITaskStatus.PercentComplete Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: PercentComplete Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ITaskStatus.PercentComplete
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ITaskStatus.get_PercentComplete
 - Microsoft.Web.Media.TransformManager.ITaskStatus.PercentComplete
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # PercentComplete Property

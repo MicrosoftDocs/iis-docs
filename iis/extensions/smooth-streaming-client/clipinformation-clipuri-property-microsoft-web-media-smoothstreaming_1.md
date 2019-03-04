@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipInformation.ClipUri Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipUri Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.ClipUri
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.set_ClipUri
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.get_ClipUri
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipInformation.ClipUri Property

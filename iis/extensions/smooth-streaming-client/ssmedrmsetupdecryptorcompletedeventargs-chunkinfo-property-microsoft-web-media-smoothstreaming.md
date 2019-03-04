@@ -1,4 +1,4 @@
----
+﻿---
 title: SSMEDrmSetupDecryptorCompletedEventArgs.ChunkInfo Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkInfo Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs.ChunkInfo
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs.get_ChunkInfo
 - Microsoft.Web.Media.SmoothStreaming.SSMEDrmSetupDecryptorCompletedEventArgs.set_ChunkInfo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SSMEDrmSetupDecryptorCompletedEventArgs.ChunkInfo Property

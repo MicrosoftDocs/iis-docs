@@ -1,4 +1,4 @@
----
+﻿---
 title: ChunkInfo.TimeStamp Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: TimeStamp Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkInfo.TimeStamp
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkInfo.set_TimeStamp
 - Microsoft.Web.Media.SmoothStreaming.ChunkInfo.TimeStamp
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkInfo.TimeStamp Property

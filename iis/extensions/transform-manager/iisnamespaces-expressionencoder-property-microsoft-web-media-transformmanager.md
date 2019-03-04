@@ -1,4 +1,4 @@
----
+﻿---
 title: IisNamespaces.ExpressionEncoder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ExpressionEncoder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.ExpressionEncoder
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.ExpressionEncoder
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_ExpressionEncoder
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ExpressionEncoder Property

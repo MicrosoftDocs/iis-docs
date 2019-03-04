@@ -1,4 +1,4 @@
----
+﻿---
 title: IMonitoringService.GetJobManifest Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobManifest Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobManifest(Microsoft.Web.Media.TransformManager.JobDetails)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobManifest
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobManifest Method

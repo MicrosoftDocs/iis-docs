@@ -1,4 +1,4 @@
----
+﻿---
 title: IDbTableDataManager.GetData Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetData Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableDataManager.GetData(System.String,System.String,System.String)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.IDbTableDataManager.GetData
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbTableDataManager.GetData Method

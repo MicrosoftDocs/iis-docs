@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipContext.ClipInformation Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipInformation Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.ClipInformation
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.get_ClipInformation
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.set_ClipInformation
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipContext.ClipInformation Property

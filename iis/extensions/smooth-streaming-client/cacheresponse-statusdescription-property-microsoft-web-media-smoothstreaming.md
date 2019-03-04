@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheResponse.StatusDescription Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StatusDescription Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.StatusDescription
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_StatusDescription
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.StatusDescription
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StatusDescription Property

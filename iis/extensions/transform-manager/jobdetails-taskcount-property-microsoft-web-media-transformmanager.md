@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetails.TaskCount Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskCount Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.TaskCount
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.set_TaskCount
 - Microsoft.Web.Media.TransformManager.JobDetails.TaskCount
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskCount Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: TypeInfo.AllowLength Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: AllowLength Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.AllowLength
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_AllowLength
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_AllowLength
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.AllowLength Property

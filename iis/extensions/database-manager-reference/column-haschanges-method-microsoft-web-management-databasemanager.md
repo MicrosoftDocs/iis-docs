@@ -1,4 +1,4 @@
----
+﻿---
 title: Column.HasChanges Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: HasChanges Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.Column.HasChanges(Microsoft.Web.Management.DatabaseManager.ColumnChanges)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.Column.HasChanges
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.HasChanges Method

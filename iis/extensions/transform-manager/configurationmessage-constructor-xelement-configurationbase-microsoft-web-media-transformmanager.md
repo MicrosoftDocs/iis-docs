@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationMessage Constructor (XElement, ConfigurationBase) (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessage Constructor (XElement, ConfigurationBase)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationMessage.#ctor(System.Xml.Linq.XElement,Microsoft.Web.Media.TransformManager.ConfigurationBase)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationMessage Constructor (XElement, ConfigurationBase)

@@ -1,4 +1,4 @@
----
+﻿---
 title: JobStatus Enumeration (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobStatus Enumeration
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobStatus
@@ -47,10 +47,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobStatus.Waiting
 - Microsoft.Web.Media.TransformManager.JobStatus.Queued
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobStatus Enumeration

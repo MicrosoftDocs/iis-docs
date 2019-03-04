@@ -1,4 +1,4 @@
----
+﻿---
 title: IndexColumn.NameIndex Field (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: NameIndex Field
 ms:assetid: F:Microsoft.Web.Management.DatabaseManager.IndexColumn.NameIndex
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.IndexColumn.NameIndex
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IndexColumn.NameIndex Field

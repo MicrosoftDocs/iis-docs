@@ -1,4 +1,4 @@
----
+﻿---
 title: TraceEntry.TraceArea Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceArea Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.TraceArea
@@ -14,7 +14,7 @@ dev_langs:
 - csharp
 - jscript
 - vb
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_TraceArea
 - Microsoft.Web.Media.Diagnostics.TraceEntry.TraceArea
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceArea Property

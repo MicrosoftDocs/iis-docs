@@ -1,4 +1,4 @@
----
+﻿---
 title: Credential.ServiceCredentialId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ServiceCredentialId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.ServiceCredentialId
@@ -18,13 +18,15 @@ dev_langs:
 api_location:
 - Microsoft.Web.Media.TransformManager.Common.dll
 api_name:
-- Microsoft.Web.Media.TransformManager.Credential.ServiceCredentialId
 - Microsoft.Web.Media.TransformManager.Credential.get_ServiceCredentialId
+- Microsoft.Web.Media.TransformManager.Credential.ServiceCredentialId
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ServiceCredentialId Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationBase.BaseNamespace Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: BaseNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.BaseNamespace
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.get_BaseNamespace
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_BaseNamespace
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # BaseNamespace Property

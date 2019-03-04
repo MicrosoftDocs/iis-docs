@@ -1,4 +1,4 @@
----
+﻿---
 title: IMonitoringService.GetJobCountByStatus Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobCountByStatus Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobCountByStatus(Microsoft.Web.Media.TransformManager.JobStatus)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.IMonitoringService.GetJobCountByStatus
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobCountByStatus Method

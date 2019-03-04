@@ -1,4 +1,4 @@
----
+﻿---
 title: TransformManagerService.Initialize Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Initialize Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.Initialize(Microsoft.Web.Media.TransformManager.Logger)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.Initialize
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Initialize Method

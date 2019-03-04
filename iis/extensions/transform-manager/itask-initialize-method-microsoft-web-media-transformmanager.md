@@ -1,4 +1,4 @@
----
+﻿---
 title: ITask.Initialize Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: Initialize Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ITask.Initialize(Microsoft.Web.Media.TransformManager.ITaskStatus,Microsoft.Web.Media.TransformManager.IJobMetadata,Microsoft.Web.Media.TransformManager.ILogger)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ITask.Initialize
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Initialize Method

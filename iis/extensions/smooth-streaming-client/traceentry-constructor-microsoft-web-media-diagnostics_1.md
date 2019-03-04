@@ -1,4 +1,4 @@
----
+﻿---
 title: TraceEntry Constructor  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceEntry Constructor
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.TraceEntry.#ctor(System.String,System.String,System.String,Microsoft.Web.Media.Diagnostics.TraceArea,Microsoft.Web.Media.Diagnostics.TraceLevel,System.String)
@@ -14,16 +14,18 @@ dev_langs:
 - jscript
 - vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.Diagnostics.TraceEntry..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceEntry Constructor

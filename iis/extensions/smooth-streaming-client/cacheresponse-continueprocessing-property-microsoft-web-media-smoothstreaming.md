@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheResponse.ContinueProcessing Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ContinueProcessing Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.ContinueProcessing
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.get_ContinueProcessing
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_ContinueProcessing
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse.ContinueProcessing Property

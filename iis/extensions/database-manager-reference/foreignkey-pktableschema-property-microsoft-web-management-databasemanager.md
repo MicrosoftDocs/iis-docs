@@ -1,4 +1,4 @@
----
+﻿---
 title: ForeignKey.PKTableSchema Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: PKTableSchema Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.PKTableSchema
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.PKTableSchema
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.set_PKTableSchema
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ForeignKey.PKTableSchema Property

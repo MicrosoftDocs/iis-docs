@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.Source Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Source Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Source
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_Source
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Source
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.Source Property

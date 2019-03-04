@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.BufferingProgress Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: BufferingProgress Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingProgress
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingProgress
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_BufferingProgress
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.BufferingProgress Property

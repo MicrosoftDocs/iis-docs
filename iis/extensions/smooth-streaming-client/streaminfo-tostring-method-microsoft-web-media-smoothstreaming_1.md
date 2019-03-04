@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamInfo.ToString Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ToString Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.StreamInfo.ToString
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.ToString
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.ToString Method

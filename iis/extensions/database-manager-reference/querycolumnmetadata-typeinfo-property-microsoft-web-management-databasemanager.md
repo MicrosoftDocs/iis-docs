@@ -1,4 +1,4 @@
----
+﻿---
 title: QueryColumnMetadata.TypeInfo Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: TypeInfo Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.TypeInfo
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.set_TypeInfo
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.TypeInfo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # QueryColumnMetadata.TypeInfo Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestPropertiesDictionary.Namespace Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Namespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.Namespace
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.Namespace
 - Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary.set_Namespace
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Namespace Property

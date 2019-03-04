@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetails.JobTemplateName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobTemplateName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.JobTemplateName
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.JobTemplateName
 - Microsoft.Web.Media.TransformManager.JobDetails.set_JobTemplateName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobTemplateName Property

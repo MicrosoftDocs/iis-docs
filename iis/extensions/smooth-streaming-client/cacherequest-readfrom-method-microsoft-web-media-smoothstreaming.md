@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheRequest.ReadFrom Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ReadFrom Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheRequest.ReadFrom(System.IO.Stream)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest.ReadFrom
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ReadFrom Method

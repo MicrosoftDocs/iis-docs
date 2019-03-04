@@ -1,4 +1,4 @@
----
+﻿---
 title: TrackInfo.CompareTo Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CompareTo Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.TrackInfo.CompareTo(System.Object)
@@ -12,16 +12,18 @@ dev_langs:
 - csharp
 - jscript
 - vb
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.CompareTo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CompareTo Method

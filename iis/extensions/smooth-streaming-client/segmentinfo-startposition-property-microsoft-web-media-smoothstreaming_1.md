@@ -1,4 +1,4 @@
----
+﻿---
 title: SegmentInfo.StartPosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StartPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.StartPosition
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.get_StartPosition
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.StartPosition
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SegmentInfo.StartPosition Property

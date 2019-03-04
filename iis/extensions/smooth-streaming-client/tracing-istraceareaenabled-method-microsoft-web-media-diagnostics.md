@@ -1,4 +1,4 @@
----
+﻿---
 title: Tracing.IsTraceAreaEnabled Method  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: IsTraceAreaEnabled Method
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.IsTraceAreaEnabled(Microsoft.Web.Media.Diagnostics.TraceArea)
@@ -12,16 +12,18 @@ dev_langs:
 - csharp
 - jscript
 - vb
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.Diagnostics.Tracing.IsTraceAreaEnabled
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IsTraceAreaEnabled Method

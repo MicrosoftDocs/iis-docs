@@ -1,4 +1,4 @@
----
+﻿---
 title: SchedulerInfo.ConnectionString Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConnectionString Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.SchedulerInfo.ConnectionString
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.get_ConnectionString
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.set_ConnectionString
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConnectionString Property

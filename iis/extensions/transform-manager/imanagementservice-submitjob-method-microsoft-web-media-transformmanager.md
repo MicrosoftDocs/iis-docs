@@ -1,4 +1,4 @@
----
+﻿---
 title: IManagementService.SubmitJob Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SubmitJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.SubmitJob(System.String,System.String,System.Xml.Linq.XElement)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.IManagementService.SubmitJob
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SubmitJob Method

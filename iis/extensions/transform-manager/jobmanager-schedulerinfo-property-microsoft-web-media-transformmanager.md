@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManager.SchedulerInfo Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerInfo Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.SchedulerInfo
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManager.get_SchedulerInfo
 - Microsoft.Web.Media.TransformManager.JobManager.SchedulerInfo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerInfo Property

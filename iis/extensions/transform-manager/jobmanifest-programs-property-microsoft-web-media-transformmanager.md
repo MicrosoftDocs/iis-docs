@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManifest.Programs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Programs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.Programs
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_Programs
 - Microsoft.Web.Media.TransformManager.JobManifest.Programs
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Programs Property

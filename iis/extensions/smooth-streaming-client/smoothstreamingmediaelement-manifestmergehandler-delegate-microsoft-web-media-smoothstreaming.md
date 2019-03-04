@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.ManifestMergeHandler Delegate (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingMediaElement.ManifestMergeHandler Delegate
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestMergeHandler
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ManifestMergeHandler.EndInvoke
 - Microsoft.Web.Media.SmoothStreaming.ManifestMergeHandler.Invoke
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ManifestMergeHandler Delegate

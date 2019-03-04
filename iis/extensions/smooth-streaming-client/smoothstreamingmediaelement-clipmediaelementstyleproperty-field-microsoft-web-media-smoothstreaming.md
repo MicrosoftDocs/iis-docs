@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.ClipMediaElementStyleProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipMediaElementStyleProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipMediaElementStyleProperty
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipMediaElementStyleProperty
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipMediaElementStyleProperty Field

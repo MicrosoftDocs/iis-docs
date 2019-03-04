@@ -1,4 +1,4 @@
----
+﻿---
 title: SchedulerInfo Constructor (String, String, String, String, Int32) (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerInfo Constructor (String, String, String, String, Int32)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.SchedulerInfo.#ctor(System.String,System.String,System.String,System.String,System.Int32)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerInfo Constructor (String, String, String, String, Int32)

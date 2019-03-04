@@ -1,4 +1,4 @@
----
+﻿---
 title: SegmentInfo.EndPosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: EndPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SegmentInfo.EndPosition
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.EndPosition
 - Microsoft.Web.Media.SmoothStreaming.SegmentInfo.get_EndPosition
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # EndPosition Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.CookieContainer Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CookieContainer Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CookieContainer
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_CookieContainer
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_CookieContainer
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.CookieContainer Property

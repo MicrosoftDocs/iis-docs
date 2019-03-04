@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationBase.LastModified Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LastModified Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.LastModified
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.LastModified
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_LastModified
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LastModified Property

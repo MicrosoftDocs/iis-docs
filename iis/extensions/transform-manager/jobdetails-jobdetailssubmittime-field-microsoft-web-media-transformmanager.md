@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetails.JobDetailsSubmitTime Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsSubmitTime Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsSubmitTime
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsSubmitTime
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDetailsSubmitTime Field

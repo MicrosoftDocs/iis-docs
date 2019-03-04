@@ -1,4 +1,4 @@
----
+﻿---
 title: Query.Statement Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Statement Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Query.Statement
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Query.Statement
 - Microsoft.Web.Management.DatabaseManager.Query.set_Statement
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Query.Statement Property

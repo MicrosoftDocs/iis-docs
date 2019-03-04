@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.SetPlaybackRangeCompleted Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SetPlaybackRangeCompleted Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRangeCompleted
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_SetPlaybackRangeCompleted
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRangeCompleted
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.SetPlaybackRangeCompleted Event

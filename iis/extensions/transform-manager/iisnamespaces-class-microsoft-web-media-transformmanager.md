@@ -1,4 +1,4 @@
----
+﻿---
 title: IisNamespaces Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: IisNamespaces Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.IisNamespaces
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.IisNamespaces
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IisNamespaces Class

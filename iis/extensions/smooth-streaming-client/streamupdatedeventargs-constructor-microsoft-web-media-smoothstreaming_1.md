@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamUpdatedEventArgs Constructor  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamUpdatedEventArgs Constructor
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.#ctor(Microsoft.Web.Media.SmoothStreaming.StreamInfo,Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedAction,System.Nullable{System.TimeSpan})
@@ -20,10 +20,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamUpdatedEventArgs Constructor

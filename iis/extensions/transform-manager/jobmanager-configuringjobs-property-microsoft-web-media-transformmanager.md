@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManager.ConfiguringJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfiguringJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.ConfiguringJobs
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManager.ConfiguringJobs
 - Microsoft.Web.Media.TransformManager.JobManager.get_ConfiguringJobs
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfiguringJobs Property

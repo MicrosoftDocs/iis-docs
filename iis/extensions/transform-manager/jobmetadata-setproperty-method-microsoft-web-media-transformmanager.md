@@ -1,4 +1,4 @@
----
+﻿---
 title: JobMetadata.SetProperty Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetProperty Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobMetadata.SetProperty(Microsoft.Web.Media.TransformManager.IManifestProperty)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobMetadata.SetProperty
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SetProperty Method

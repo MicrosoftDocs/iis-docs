@@ -1,4 +1,4 @@
----
+﻿---
 title: TrackInfo.ToString Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ToString Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.TrackInfo.ToString
@@ -13,16 +13,18 @@ dev_langs:
 - jscript
 - vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.ToString
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TrackInfo.ToString Method

@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingErrorEventArgs.ErrorMessage Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ErrorMessage Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.ErrorMessage
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.get_ErrorMessage
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingErrorEventArgs.set_ErrorMessage
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingErrorEventArgs.ErrorMessage Property

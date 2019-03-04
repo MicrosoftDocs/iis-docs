@@ -1,4 +1,4 @@
----
+﻿---
 title: Utilities.GetAssemblyInfo Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetAssemblyInfo Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.GetAssemblyInfo(System.String)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.Utilities.GetAssemblyInfo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # GetAssemblyInfo Method

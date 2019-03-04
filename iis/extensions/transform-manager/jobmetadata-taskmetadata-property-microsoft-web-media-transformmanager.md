@@ -1,4 +1,4 @@
----
+﻿---
 title: JobMetadata.TaskMetadata Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskMetadata Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.TaskMetadata
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_TaskMetadata
 - Microsoft.Web.Media.TransformManager.JobMetadata.TaskMetadata
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskMetadata Property

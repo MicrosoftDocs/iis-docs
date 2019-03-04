@@ -1,4 +1,4 @@
----
+﻿---
 title: TraceEntry.Date Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: Date Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.Date
@@ -14,7 +14,7 @@ dev_langs:
 - csharp
 - jscript
 - vb
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.get_Date
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_Date
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Date Property

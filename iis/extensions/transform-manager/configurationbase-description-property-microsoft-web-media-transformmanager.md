@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationBase.Description Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Description Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.Description
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.get_Description
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_Description
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Description Property

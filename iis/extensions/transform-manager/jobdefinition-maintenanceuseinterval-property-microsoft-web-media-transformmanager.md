@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.MaintenanceUseInterval Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: MaintenanceUseInterval Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceUseInterval
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_MaintenanceUseInterval
 - Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceUseInterval
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # MaintenanceUseInterval Property

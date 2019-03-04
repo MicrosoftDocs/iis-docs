@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.DownloadProgressProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: DownloadProgressProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgressProperty
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgressProperty
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.DownloadProgressProperty Field

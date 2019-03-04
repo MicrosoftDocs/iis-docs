@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetails.JobDetailsId Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobDetailsId Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsId
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.JobDetailsId
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobDetailsId Field

@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestProperty.LocalName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LocalName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.LocalName
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.LocalName
 - Microsoft.Web.Media.TransformManager.ManifestProperty.set_LocalName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LocalName Property

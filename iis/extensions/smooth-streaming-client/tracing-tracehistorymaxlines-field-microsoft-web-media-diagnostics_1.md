@@ -1,4 +1,4 @@
----
+﻿---
 title: Tracing.TraceHistoryMaxLines Field (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceHistoryMaxLines Field
 ms:assetid: F:Microsoft.Web.Media.Diagnostics.Tracing.TraceHistoryMaxLines
@@ -13,16 +13,18 @@ dev_langs:
 - jscript
 - vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.Diagnostics.Tracing.TraceHistoryMaxLines
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.TraceHistoryMaxLines Field

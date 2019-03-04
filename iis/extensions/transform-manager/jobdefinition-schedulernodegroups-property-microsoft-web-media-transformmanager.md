@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.SchedulerNodeGroups Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerNodeGroups Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerNodeGroups
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerNodeGroups
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_SchedulerNodeGroups
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerNodeGroups Property

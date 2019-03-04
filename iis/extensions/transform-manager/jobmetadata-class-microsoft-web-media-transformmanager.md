@@ -1,4 +1,4 @@
----
+﻿---
 title: JobMetadata Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobMetadata Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.JobMetadata
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobMetadata
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobMetadata Class

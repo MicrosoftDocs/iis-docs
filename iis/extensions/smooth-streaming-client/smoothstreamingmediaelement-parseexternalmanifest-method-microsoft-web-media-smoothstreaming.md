@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.ParseExternalManifest Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ParseExternalManifest Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ParseExternalManifest(System.Uri,System.Int32,System.Object@)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ParseExternalManifest
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ParseExternalManifest Method

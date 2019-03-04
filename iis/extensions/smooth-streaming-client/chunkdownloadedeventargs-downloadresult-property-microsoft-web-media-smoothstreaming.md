@@ -1,4 +1,4 @@
----
+﻿---
 title: ChunkDownloadedEventArgs.DownloadResult Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: DownloadResult Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.DownloadResult
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.get_DownloadResult
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.set_DownloadResult
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkDownloadedEventArgs.DownloadResult Property

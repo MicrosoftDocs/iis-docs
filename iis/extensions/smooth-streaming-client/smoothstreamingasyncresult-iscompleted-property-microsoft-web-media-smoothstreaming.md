@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingAsyncResult.IsCompleted Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: IsCompleted Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.IsCompleted
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.IsCompleted
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.set_IsCompleted
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingAsyncResult.IsCompleted Property

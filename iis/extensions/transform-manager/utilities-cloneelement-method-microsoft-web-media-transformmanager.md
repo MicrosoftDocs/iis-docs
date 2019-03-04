@@ -1,4 +1,4 @@
----
+﻿---
 title: Utilities.CloneElement Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CloneElement Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.Utilities.CloneElement(System.Xml.Linq.XElement,System.Xml.Linq.XNamespace)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.Utilities.CloneElement
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CloneElement Method

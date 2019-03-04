@@ -1,4 +1,4 @@
----
+﻿---
 title: SchedulerInfo.SchedulerType Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerType Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.SchedulerInfo.SchedulerType
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.SchedulerType
 - Microsoft.Web.Media.TransformManager.SchedulerInfo.set_SchedulerType
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerType Property

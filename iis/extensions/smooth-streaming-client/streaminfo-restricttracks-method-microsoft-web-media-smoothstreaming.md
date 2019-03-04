@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamInfo.RestrictTracks Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: RestrictTracks Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.StreamInfo.RestrictTracks(System.Collections.Generic.IList{Microsoft.Web.Media.SmoothStreaming.TrackInfo})
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.RestrictTracks
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # RestrictTracks Method

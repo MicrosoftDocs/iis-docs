@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.ManifestInfo Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ManifestInfo Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestInfo
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_ManifestInfo
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestInfo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ManifestInfo Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamInfo.Segment Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Segment Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Segment
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.get_Segment
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.Segment
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.Segment Property

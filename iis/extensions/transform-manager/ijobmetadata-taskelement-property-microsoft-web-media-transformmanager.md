@@ -1,4 +1,4 @@
----
+﻿---
 title: IJobMetadata.TaskElement Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.TaskElement
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IJobMetadata.get_TaskElement
 - Microsoft.Web.Media.TransformManager.IJobMetadata.TaskElement
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskElement Property

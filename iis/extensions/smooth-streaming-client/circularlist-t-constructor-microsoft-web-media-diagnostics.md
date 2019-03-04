@@ -1,4 +1,4 @@
----
+﻿---
 title: CircularList(T) Constructor  (Microsoft.Web.Media.Diagnostics)
 TOCTitle: CircularList(T) Constructor
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.CircularList`1.#ctor(System.Int32)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.Diagnostics.CircularList`1..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CircularList(T) Constructor

@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskStatus.Status Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Status Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.Status
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskStatus.get_Status
 - Microsoft.Web.Media.TransformManager.TaskStatus.Status
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Status Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.BufferingProgressChanged Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: BufferingProgressChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingProgressChanged
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.BufferingProgressChanged
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_BufferingProgressChanged
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # BufferingProgressChanged Event

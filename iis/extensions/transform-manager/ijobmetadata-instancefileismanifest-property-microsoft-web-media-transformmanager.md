@@ -1,4 +1,4 @@
----
+﻿---
 title: IJobMetadata.InstanceFileIsManifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InstanceFileIsManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IJobMetadata.InstanceFileIsManifest
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IJobMetadata.get_InstanceFileIsManifest
 - Microsoft.Web.Media.TransformManager.IJobMetadata.InstanceFileIsManifest
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # InstanceFileIsManifest Property

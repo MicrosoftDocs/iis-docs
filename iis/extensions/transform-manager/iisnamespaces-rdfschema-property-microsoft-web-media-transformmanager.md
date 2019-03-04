@@ -1,4 +1,4 @@
----
+﻿---
 title: IisNamespaces.RdfSchema Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: RdfSchema Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.RdfSchema
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_RdfSchema
 - Microsoft.Web.Media.TransformManager.IisNamespaces.RdfSchema
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # RdfSchema Property

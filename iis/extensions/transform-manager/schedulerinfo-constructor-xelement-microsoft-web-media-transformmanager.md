@@ -1,4 +1,4 @@
----
+﻿---
 title: SchedulerInfo Constructor (XElement) (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerInfo Constructor (XElement)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.SchedulerInfo.#ctor(System.Xml.Linq.XElement)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.SchedulerInfo..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerInfo Constructor (XElement)

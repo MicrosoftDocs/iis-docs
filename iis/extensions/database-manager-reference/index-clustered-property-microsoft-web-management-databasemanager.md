@@ -1,4 +1,4 @@
----
+﻿---
 title: Index.Clustered Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Clustered Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Index.Clustered
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Index.get_Clustered
 - Microsoft.Web.Management.DatabaseManager.Index.set_Clustered
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Index.Clustered Property

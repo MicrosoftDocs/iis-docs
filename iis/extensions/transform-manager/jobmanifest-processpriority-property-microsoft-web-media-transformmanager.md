@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManifest.ProcessPriority Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ProcessPriority Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.ProcessPriority
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_ProcessPriority
 - Microsoft.Web.Media.TransformManager.JobManifest.ProcessPriority
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ProcessPriority Property

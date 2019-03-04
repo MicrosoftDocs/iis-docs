@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipContext.HasQuartileEvents Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: HasQuartileEvents Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.HasQuartileEvents
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.HasQuartileEvents
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.set_HasQuartileEvents
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # HasQuartileEvents Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheRequest2.SelectableTracks Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SelectableTracks Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheRequest2.SelectableTracks
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest2.SelectableTracks
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest2.set_SelectableTracks
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheRequest2.SelectableTracks Property

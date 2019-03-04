@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskDetails.TaskIndex Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskIndex Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDetails.TaskIndex
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDetails.set_TaskIndex
 - Microsoft.Web.Media.TransformManager.TaskDetails.TaskIndex
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskIndex Property

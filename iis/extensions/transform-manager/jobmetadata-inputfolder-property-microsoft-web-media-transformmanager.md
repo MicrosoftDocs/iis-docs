@@ -1,4 +1,4 @@
----
+﻿---
 title: JobMetadata.InputFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.InputFolder
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_InputFolder
 - Microsoft.Web.Media.TransformManager.JobMetadata.InputFolder
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # InputFolder Property

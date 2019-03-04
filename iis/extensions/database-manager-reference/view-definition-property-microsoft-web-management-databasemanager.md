@@ -1,4 +1,4 @@
----
+﻿---
 title: View.Definition Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Definition Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.View.Definition
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.View.get_Definition
 - Microsoft.Web.Management.DatabaseManager.View.set_Definition
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # View.Definition Property

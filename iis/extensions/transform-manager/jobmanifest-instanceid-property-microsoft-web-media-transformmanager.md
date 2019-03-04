@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManifest.InstanceId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InstanceId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.InstanceId
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.InstanceId
 - Microsoft.Web.Media.TransformManager.JobManifest.set_InstanceId
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # InstanceId Property

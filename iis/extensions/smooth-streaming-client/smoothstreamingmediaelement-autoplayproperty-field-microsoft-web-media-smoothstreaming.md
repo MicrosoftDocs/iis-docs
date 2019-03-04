@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.AutoPlayProperty Field (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AutoPlayProperty Field
 ms:assetid: F:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AutoPlayProperty
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.AutoPlayProperty
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # AutoPlayProperty Field

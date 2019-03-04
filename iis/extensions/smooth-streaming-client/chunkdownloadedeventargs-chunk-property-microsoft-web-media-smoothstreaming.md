@@ -1,4 +1,4 @@
----
+﻿---
 title: ChunkDownloadedEventArgs.Chunk Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Chunk Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.Chunk
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.get_Chunk
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.set_Chunk
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkDownloadedEventArgs.Chunk Property

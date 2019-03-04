@@ -1,4 +1,4 @@
----
+﻿---
 title: QueryResult Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryResult Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.QueryResult.#ctor
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.QueryResult..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # QueryResult Constructor

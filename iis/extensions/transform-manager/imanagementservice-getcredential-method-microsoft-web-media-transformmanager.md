@@ -1,4 +1,4 @@
----
+﻿---
 title: IManagementService.GetCredential Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetCredential Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.GetCredential(System.String)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.IManagementService.GetCredential
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # GetCredential Method

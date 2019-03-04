@@ -1,4 +1,4 @@
----
+﻿---
 title: QueryColumnMetadata.IsNullable Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsNullable Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.IsNullable
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.IsNullable
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.set_IsNullable
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # QueryColumnMetadata.IsNullable Property

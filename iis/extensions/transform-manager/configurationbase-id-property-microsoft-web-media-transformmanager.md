@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationBase.Id Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Id Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.Id
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.Id
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_Id
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Id Property

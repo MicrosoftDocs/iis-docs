@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestInfo.ProtectionInfo Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ProtectionInfo Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ProtectionInfo
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.ProtectionInfo
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.set_ProtectionInfo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ProtectionInfo Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationBase.NameElement Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: NameElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.NameElement
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.NameElement
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_NameElement
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # NameElement Property

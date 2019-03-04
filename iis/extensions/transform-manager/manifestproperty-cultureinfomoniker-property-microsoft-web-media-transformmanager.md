@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestProperty.CultureInfoMoniker Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CultureInfoMoniker Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ManifestProperty.CultureInfoMoniker
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.set_CultureInfoMoniker
 - Microsoft.Web.Media.TransformManager.ManifestProperty.get_CultureInfoMoniker
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CultureInfoMoniker Property

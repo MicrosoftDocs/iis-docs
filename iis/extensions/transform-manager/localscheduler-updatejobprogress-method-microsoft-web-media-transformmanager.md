@@ -1,4 +1,4 @@
----
+﻿---
 title: LocalScheduler.UpdateJobProgress Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: UpdateJobProgress Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.LocalScheduler.UpdateJobProgress(System.String,System.Int32)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.LocalScheduler.UpdateJobProgress
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # UpdateJobProgress Method

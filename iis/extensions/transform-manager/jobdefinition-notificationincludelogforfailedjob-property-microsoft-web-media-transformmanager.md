@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.NotificationIncludeLogForFailedJob Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: NotificationIncludeLogForFailedJob Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.NotificationIncludeLogForFailedJob
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.NotificationIncludeLogForFailedJob
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_NotificationIncludeLogForFailedJob
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # NotificationIncludeLogForFailedJob Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: SetPlaybackRangeCompletedEventArgs.RightEdge Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: RightEdge Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.RightEdge
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.get_RightEdge
 - Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventArgs.RightEdge
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SetPlaybackRangeCompletedEventArgs.RightEdge Property

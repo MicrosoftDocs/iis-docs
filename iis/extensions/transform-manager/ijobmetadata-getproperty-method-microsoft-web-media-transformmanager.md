@@ -1,4 +1,4 @@
----
+﻿---
 title: IJobMetadata.GetProperty Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetProperty Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IJobMetadata.GetProperty(System.Xml.Linq.XName)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.IJobMetadata.GetProperty
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # GetProperty Method

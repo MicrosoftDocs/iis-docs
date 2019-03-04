@@ -1,4 +1,4 @@
----
+﻿---
 title: QueryColumnMetadata.IsComputed Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsComputed Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.IsComputed
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.IsComputed
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.set_IsComputed
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # QueryColumnMetadata.IsComputed Property

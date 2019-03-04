@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManager.WatchFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: WatchFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.WatchFolder
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManager.get_WatchFolder
 - Microsoft.Web.Media.TransformManager.JobManager.WatchFolder
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # WatchFolder Property

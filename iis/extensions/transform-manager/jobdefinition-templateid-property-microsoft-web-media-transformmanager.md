@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.TemplateId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TemplateId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.TemplateId
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_TemplateId
 - Microsoft.Web.Media.TransformManager.JobDefinition.TemplateId
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TemplateId Property

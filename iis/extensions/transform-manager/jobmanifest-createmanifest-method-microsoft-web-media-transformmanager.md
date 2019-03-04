@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManifest.CreateManifest Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CreateManifest Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.CreateManifest(Microsoft.Web.Media.TransformManager.JobDefinition,System.String,Microsoft.Web.Media.TransformManager.SchedulerInfo,System.Xml.Linq.XElement,System.Collections.Generic.ICollection{System.Xml.Linq.XElement},System.String,System.String)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.CreateManifest
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CreateManifest Method

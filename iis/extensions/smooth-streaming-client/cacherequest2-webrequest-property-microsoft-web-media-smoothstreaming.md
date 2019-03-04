@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheRequest2.WebRequest Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: WebRequest Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheRequest2.WebRequest
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest2.set_WebRequest
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest2.WebRequest
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheRequest2.WebRequest Property

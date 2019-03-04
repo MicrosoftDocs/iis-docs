@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationMessage.Message Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Message Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.Message
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.Message
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.set_Message
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Message Property

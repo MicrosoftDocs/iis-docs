@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetails.QueueTime Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: QueueTime Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.QueueTime
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.QueueTime
 - Microsoft.Web.Media.TransformManager.JobDetails.set_QueueTime
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # QueueTime Property

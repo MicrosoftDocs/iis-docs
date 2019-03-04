@@ -1,4 +1,4 @@
----
+﻿---
 title: IDbTableManager.GetTables Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetTables Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbTableManager.GetTables(System.String)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.IDbTableManager.GetTables
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbTableManager.GetTables Method

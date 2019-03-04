@@ -1,4 +1,4 @@
----
+﻿---
 title: JobTemplate.ConfigurationDirectory Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationDirectory Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobTemplate.ConfigurationDirectory
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobTemplate.ConfigurationDirectory
 - Microsoft.Web.Media.TransformManager.JobTemplate.get_ConfigurationDirectory
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationDirectory Property

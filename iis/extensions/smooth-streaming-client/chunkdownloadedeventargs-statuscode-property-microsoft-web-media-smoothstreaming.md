@@ -1,4 +1,4 @@
----
+﻿---
 title: ChunkDownloadedEventArgs.StatusCode Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StatusCode Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.StatusCode
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.set_StatusCode
 - Microsoft.Web.Media.SmoothStreaming.ChunkDownloadedEventArgs.StatusCode
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkDownloadedEventArgs.StatusCode Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: TypeInfo.DefaultPrecision Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DefaultPrecision Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.DefaultPrecision
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_DefaultPrecision
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_DefaultPrecision
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.DefaultPrecision Property

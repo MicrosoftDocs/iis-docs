@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipInformation.ClickThroughUri Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClickThroughUri Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.ClickThroughUri
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.get_ClickThroughUri
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.set_ClickThroughUri
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipInformation.ClickThroughUri Property

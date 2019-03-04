@@ -1,4 +1,4 @@
----
+﻿---
 title: IisNamespaces.JobSchedulerNamespace Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobSchedulerNamespace Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.IisNamespaces.JobSchedulerNamespace
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.IisNamespaces.get_JobSchedulerNamespace
 - Microsoft.Web.Media.TransformManager.IisNamespaces.JobSchedulerNamespace
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobSchedulerNamespace Property

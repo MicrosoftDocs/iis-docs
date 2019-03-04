@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.CurrentLinearClipContext Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CurrentLinearClipContext Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.CurrentLinearClipContext
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_CurrentLinearClipContext
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_CurrentLinearClipContext
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.CurrentLinearClipContext Property

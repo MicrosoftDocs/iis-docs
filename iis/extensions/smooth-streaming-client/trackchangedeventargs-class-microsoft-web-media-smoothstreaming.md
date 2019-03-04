@@ -1,4 +1,4 @@
----
+﻿---
 title: TrackChangedEventArgs Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: TrackChangedEventArgs Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs
@@ -12,16 +12,18 @@ dev_langs:
 - csharp
 - jscript
 - vb
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.TrackChangedEventArgs
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TrackChangedEventArgs Class

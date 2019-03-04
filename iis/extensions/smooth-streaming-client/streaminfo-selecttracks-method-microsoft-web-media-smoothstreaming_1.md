@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamInfo.SelectTracks Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SelectTracks Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.StreamInfo.SelectTracks(System.Collections.Generic.IList{Microsoft.Web.Media.SmoothStreaming.TrackInfo},System.Boolean)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.SelectTracks
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.SelectTracks Method

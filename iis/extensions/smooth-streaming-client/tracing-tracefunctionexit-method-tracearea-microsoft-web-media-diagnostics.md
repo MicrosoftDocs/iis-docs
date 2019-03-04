@@ -1,4 +1,4 @@
----
+﻿---
 title: Tracing.TraceFunctionExit Method (TraceArea) (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceFunctionExit Method (TraceArea)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionExit(Microsoft.Web.Media.Diagnostics.TraceArea)
@@ -9,17 +9,19 @@ mtps_version: v=VS.90
 dev_langs:
 - vb
 - csharp
-- "cpp"
+- cpp
 - jscript
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.Diagnostics.Tracing.TraceFunctionExit
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceFunctionExit Method (TraceArea)

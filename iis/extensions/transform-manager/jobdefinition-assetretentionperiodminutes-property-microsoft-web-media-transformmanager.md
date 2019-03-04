@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.AssetRetentionPeriodMinutes Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: AssetRetentionPeriodMinutes Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.AssetRetentionPeriodMinutes
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_AssetRetentionPeriodMinutes
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_AssetRetentionPeriodMinutes
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # AssetRetentionPeriodMinutes Property

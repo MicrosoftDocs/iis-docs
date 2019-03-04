@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskDefinition.TaskCodeType Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskCodeType Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.TaskCodeType
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.TaskCodeType
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_TaskCodeType
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskCodeType Property

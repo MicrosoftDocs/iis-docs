@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationMessage Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessage Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ConfigurationMessage
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationMessage Class

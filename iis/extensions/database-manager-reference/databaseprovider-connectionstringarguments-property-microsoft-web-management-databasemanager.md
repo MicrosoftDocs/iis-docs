@@ -1,4 +1,4 @@
----
+﻿---
 title: DatabaseProvider.ConnectionStringArguments Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ConnectionStringArguments Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.ConnectionStringArguments
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.ConnectionStringArguments
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.get_ConnectionStringArguments
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseProvider.ConnectionStringArguments Property

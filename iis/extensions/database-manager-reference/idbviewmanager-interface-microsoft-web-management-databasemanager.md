@@ -1,4 +1,4 @@
----
+﻿---
 title: IDbViewManager Interface (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IDbViewManager Interface
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.IDbViewManager
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.IDbViewManager
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbViewManager Interface

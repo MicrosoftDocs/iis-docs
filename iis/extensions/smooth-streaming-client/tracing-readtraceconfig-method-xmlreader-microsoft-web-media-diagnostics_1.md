@@ -1,4 +1,4 @@
----
+﻿---
 title: Tracing.ReadTraceConfig Method (XmlReader) (Microsoft.Web.Media.Diagnostics)
 TOCTitle: ReadTraceConfig Method (XmlReader)
 ms:assetid: M:Microsoft.Web.Media.Diagnostics.Tracing.ReadTraceConfig(System.Xml.XmlReader)
@@ -9,7 +9,7 @@ mtps_version: v=VS.95
 dev_langs:
 - vb
 - csharp
-- "cpp"
+- cpp
 - fsharp
 - jscript
 api_location:
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.Diagnostics.Tracing.ReadTraceConfig
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Tracing.ReadTraceConfig Method (XmlReader)

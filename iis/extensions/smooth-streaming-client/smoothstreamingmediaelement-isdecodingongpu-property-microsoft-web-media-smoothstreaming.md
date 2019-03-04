@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.IsDecodingOnGPU Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: IsDecodingOnGPU Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsDecodingOnGPU
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_IsDecodingOnGPU
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.IsDecodingOnGPU
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.IsDecodingOnGPU Property

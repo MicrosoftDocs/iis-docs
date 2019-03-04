@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.MaximumLatency Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: MaximumLatency Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MaximumLatency
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.MaximumLatency
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_MaximumLatency
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # MaximumLatency Property

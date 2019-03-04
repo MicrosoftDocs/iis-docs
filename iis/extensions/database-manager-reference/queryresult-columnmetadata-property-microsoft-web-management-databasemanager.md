@@ -1,4 +1,4 @@
----
+﻿---
 title: QueryResult.ColumnMetadata Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ColumnMetadata Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryResult.ColumnMetadata
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.QueryResult.ColumnMetadata
 - Microsoft.Web.Management.DatabaseManager.QueryResult.get_ColumnMetadata
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # QueryResult.ColumnMetadata Property

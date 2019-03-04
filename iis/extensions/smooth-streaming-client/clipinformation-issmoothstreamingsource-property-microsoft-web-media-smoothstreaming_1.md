@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipInformation.IsSmoothStreamingSource Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: IsSmoothStreamingSource Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipInformation.IsSmoothStreamingSource
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.IsSmoothStreamingSource
 - Microsoft.Web.Media.SmoothStreaming.ClipInformation.set_IsSmoothStreamingSource
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipInformation.IsSmoothStreamingSource Property

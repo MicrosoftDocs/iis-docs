@@ -1,4 +1,4 @@
----
+﻿---
 title: Column.DefaultValue Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DefaultValue Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.DefaultValue
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Column.get_DefaultValue
 - Microsoft.Web.Management.DatabaseManager.Column.set_DefaultValue
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.DefaultValue Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: TransformManagerService Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: TransformManagerService Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.TransformManagerService
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TransformManagerService
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TransformManagerService Class

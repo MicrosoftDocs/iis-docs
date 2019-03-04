@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheResponse.Response Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Response Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheResponse.Response
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.set_Response
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse.Response
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Response Property

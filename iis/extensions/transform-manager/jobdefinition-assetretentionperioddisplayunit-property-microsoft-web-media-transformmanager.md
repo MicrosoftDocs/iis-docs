@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.AssetRetentionPeriodDisplayUnit Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: AssetRetentionPeriodDisplayUnit Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.AssetRetentionPeriodDisplayUnit
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_AssetRetentionPeriodDisplayUnit
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_AssetRetentionPeriodDisplayUnit
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # AssetRetentionPeriodDisplayUnit Property

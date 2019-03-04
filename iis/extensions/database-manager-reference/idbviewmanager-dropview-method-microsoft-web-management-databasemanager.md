@@ -1,4 +1,4 @@
----
+﻿---
 title: IDbViewManager.DropView Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DropView Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbViewManager.DropView(System.String,System.String,System.String)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.IDbViewManager.DropView
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbViewManager.DropView Method

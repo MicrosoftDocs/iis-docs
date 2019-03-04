@@ -1,4 +1,4 @@
----
+﻿---
 title: StoredProcedureParameter.IsOutputParameter Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsOutputParameter Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.IsOutputParameter
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.IsOutputParameter
 - Microsoft.Web.Management.DatabaseManager.StoredProcedureParameter.set_IsOutputParameter
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StoredProcedureParameter.IsOutputParameter Property

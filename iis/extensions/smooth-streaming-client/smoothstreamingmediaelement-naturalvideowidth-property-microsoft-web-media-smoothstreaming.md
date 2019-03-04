@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.NaturalVideoWidth Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: NaturalVideoWidth Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalVideoWidth
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_NaturalVideoWidth
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.NaturalVideoWidth
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # NaturalVideoWidth Property

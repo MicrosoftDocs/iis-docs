@@ -1,4 +1,4 @@
----
+﻿---
 title: Credential.Password Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Password Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.Password
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.Credential.Password
 - Microsoft.Web.Media.TransformManager.Credential.set_Password
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Password Property

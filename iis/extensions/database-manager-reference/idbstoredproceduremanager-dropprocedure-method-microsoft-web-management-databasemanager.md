@@ -1,4 +1,4 @@
----
+﻿---
 title: IDbStoredProcedureManager.DropProcedure Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DropProcedure Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.DropProcedure(System.String,System.String,System.String)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.DropProcedure
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbStoredProcedureManager.DropProcedure Method

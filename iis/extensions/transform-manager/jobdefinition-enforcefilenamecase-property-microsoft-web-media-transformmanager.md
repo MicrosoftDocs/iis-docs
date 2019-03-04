@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.EnforceFileNameCase Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: EnforceFileNameCase Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.EnforceFileNameCase
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_EnforceFileNameCase
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_EnforceFileNameCase
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # EnforceFileNameCase Property

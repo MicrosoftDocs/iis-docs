@@ -1,4 +1,4 @@
----
+﻿---
 title: DatabaseProvider.CalculateConnectionString Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: CalculateConnectionString Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseProvider.CalculateConnectionString(System.Collections.Generic.ICollection{Microsoft.Web.Management.DatabaseManager.ConnectionArgument})
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.DatabaseProvider.CalculateConnectionString
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseProvider.CalculateConnectionString Method

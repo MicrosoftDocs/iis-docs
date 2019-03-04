@@ -1,4 +1,4 @@
----
+﻿---
 title: IDbCustomBackupRestoreManager.ListBackups Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ListBackups Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbCustomBackupRestoreManager.ListBackups(System.String)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.IDbCustomBackupRestoreManager.ListBackups
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbCustomBackupRestoreManager.ListBackups Method

@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManager.SchedulerId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.SchedulerId
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManager.get_SchedulerId
 - Microsoft.Web.Media.TransformManager.JobManager.SchedulerId
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerId Property

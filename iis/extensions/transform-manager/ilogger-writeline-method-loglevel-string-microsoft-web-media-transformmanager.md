@@ -1,4 +1,4 @@
----
+﻿---
 title: ILogger.WriteLine Method (LogLevel, String) (Microsoft.Web.Media.TransformManager)
 TOCTitle: WriteLine Method (LogLevel, String)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ILogger.WriteLine(Microsoft.Web.Media.TransformManager.LogLevel,System.String)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ILogger.WriteLine
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # WriteLine Method (LogLevel, String)

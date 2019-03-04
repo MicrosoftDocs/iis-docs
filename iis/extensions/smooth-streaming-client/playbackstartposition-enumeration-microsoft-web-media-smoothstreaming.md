@@ -1,4 +1,4 @@
----
+﻿---
 title: PlaybackStartPosition Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: PlaybackStartPosition Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.PlaybackStartPosition
@@ -24,10 +24,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.PlaybackStartPosition.End
 - Microsoft.Web.Media.SmoothStreaming.PlaybackStartPosition.PausedPosition
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # PlaybackStartPosition Enumeration

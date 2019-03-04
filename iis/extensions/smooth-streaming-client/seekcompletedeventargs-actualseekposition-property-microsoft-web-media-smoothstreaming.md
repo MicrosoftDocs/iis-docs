@@ -1,4 +1,4 @@
----
+﻿---
 title: SeekCompletedEventArgs.ActualSeekPosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ActualSeekPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs.ActualSeekPosition
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs.get_ActualSeekPosition
 - Microsoft.Web.Media.SmoothStreaming.SeekCompletedEventArgs.set_ActualSeekPosition
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ActualSeekPosition Property

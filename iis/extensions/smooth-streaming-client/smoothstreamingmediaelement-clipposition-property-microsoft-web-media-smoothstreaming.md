@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.ClipPosition Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ClipPosition Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ClipPosition
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.get_ClipPosition
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_ClipPosition
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ClipPosition Property

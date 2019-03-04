@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManager.LastModified Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LastModified Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.LastModified
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManager.get_LastModified
 - Microsoft.Web.Media.TransformManager.JobManager.LastModified
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LastModified Property

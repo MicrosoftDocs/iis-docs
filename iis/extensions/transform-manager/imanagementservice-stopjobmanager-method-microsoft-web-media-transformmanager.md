@@ -1,4 +1,4 @@
----
+﻿---
 title: IManagementService.StopJobManager Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: StopJobManager Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.IManagementService.StopJobManager(System.String)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.IManagementService.StopJobManager
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StopJobManager Method

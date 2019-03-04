@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationBase.ConfigurationMessages Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationMessages Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationMessages
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.get_ConfigurationMessages
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_ConfigurationMessages
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationMessages Property

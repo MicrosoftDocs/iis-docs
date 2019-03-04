@@ -1,4 +1,4 @@
----
+﻿---
 title: Query.AllowEdit Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: AllowEdit Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Query.AllowEdit
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Query.set_AllowEdit
 - Microsoft.Web.Management.DatabaseManager.Query.get_AllowEdit
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Query.AllowEdit Property

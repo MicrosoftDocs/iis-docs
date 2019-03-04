@@ -1,4 +1,4 @@
----
+﻿---
 title: TypeInfo.HasPrecision Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: HasPrecision Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.HasPrecision
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.HasPrecision
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_HasPrecision
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.HasPrecision Property

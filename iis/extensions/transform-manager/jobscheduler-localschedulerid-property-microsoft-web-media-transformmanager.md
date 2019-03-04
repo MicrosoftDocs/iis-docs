@@ -1,4 +1,4 @@
----
+﻿---
 title: JobScheduler.LocalSchedulerId Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LocalSchedulerId Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobScheduler.LocalSchedulerId
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobScheduler.get_LocalSchedulerId
 - Microsoft.Web.Media.TransformManager.JobScheduler.LocalSchedulerId
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LocalSchedulerId Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: JobTemplate.SetTaskDefinitions Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: SetTaskDefinitions Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobTemplate.SetTaskDefinitions(System.Collections.ObjectModel.Collection{Microsoft.Web.Media.TransformManager.TaskDefinition})
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobTemplate.SetTaskDefinitions
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SetTaskDefinitions Method

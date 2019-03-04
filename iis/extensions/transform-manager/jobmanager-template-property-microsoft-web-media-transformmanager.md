@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManager.Template Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Template Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManager.Template
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManager.get_Template
 - Microsoft.Web.Media.TransformManager.JobManager.Template
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Template Property

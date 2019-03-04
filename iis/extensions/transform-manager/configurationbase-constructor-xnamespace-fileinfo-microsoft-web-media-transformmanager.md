@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationBase Constructor (XNamespace, FileInfo) (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationBase Constructor (XNamespace, FileInfo)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationBase.#ctor(System.Xml.Linq.XNamespace,System.IO.FileInfo)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationBase Constructor (XNamespace, FileInfo)

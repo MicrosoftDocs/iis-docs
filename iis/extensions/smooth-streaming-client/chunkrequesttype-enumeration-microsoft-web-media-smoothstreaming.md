@@ -1,4 +1,4 @@
----
+﻿---
 title: ChunkRequestType Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ChunkRequestType Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.ChunkRequestType
@@ -25,10 +25,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkRequestType.FragmentInfo
 - Microsoft.Web.Media.SmoothStreaming.ChunkRequestType.KeyFrame
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkRequestType Enumeration

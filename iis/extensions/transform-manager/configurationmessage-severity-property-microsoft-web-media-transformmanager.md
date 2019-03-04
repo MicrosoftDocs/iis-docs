@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationMessage.Severity Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Severity Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationMessage.Severity
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.set_Severity
 - Microsoft.Web.Media.TransformManager.ConfigurationMessage.Severity
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Severity Property

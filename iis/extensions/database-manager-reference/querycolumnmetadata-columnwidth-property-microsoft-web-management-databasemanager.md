@@ -1,4 +1,4 @@
----
+﻿---
 title: QueryColumnMetadata.ColumnWidth Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ColumnWidth Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.ColumnWidth
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.get_ColumnWidth
 - Microsoft.Web.Management.DatabaseManager.QueryColumnMetadata.set_ColumnWidth
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # QueryColumnMetadata.ColumnWidth Property

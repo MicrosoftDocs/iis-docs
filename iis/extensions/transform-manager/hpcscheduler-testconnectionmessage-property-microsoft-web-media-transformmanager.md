@@ -1,4 +1,4 @@
----
+﻿---
 title: HpcScheduler.TestConnectionMessage Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: TestConnectionMessage Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.HpcScheduler.TestConnectionMessage
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.HpcScheduler.set_TestConnectionMessage
 - Microsoft.Web.Media.TransformManager.HpcScheduler.TestConnectionMessage
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TestConnectionMessage Property

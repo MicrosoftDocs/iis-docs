@@ -1,4 +1,4 @@
----
+﻿---
 title: SchedulerProvider Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerProvider Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.SchedulerProvider
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.SchedulerProvider
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerProvider Class

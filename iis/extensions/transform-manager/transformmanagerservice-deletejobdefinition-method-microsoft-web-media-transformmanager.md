@@ -1,4 +1,4 @@
----
+﻿---
 title: TransformManagerService.DeleteJobDefinition Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: DeleteJobDefinition Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TransformManagerService.DeleteJobDefinition(System.String)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TransformManagerService.DeleteJobDefinition
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DeleteJobDefinition Method

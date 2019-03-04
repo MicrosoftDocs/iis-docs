@@ -1,4 +1,4 @@
----
+﻿---
 title: WorkQueue.FailedJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: FailedJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.WorkQueue.FailedJobs
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.WorkQueue.FailedJobs
 - Microsoft.Web.Media.TransformManager.WorkQueue.get_FailedJobs
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # FailedJobs Property

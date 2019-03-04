@@ -1,4 +1,4 @@
----
+﻿---
 title: TraceEntry Class (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceEntry Class
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.TraceEntry
@@ -13,16 +13,18 @@ dev_langs:
 - jscript
 - vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.Diagnostics.TraceEntry
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceEntry Class

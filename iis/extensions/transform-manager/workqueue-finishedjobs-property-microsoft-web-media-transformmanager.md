@@ -1,4 +1,4 @@
----
+﻿---
 title: WorkQueue.FinishedJobs Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: FinishedJobs Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.WorkQueue.FinishedJobs
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.WorkQueue.FinishedJobs
 - Microsoft.Web.Media.TransformManager.WorkQueue.get_FinishedJobs
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # FinishedJobs Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: AdvancedLoggingPlugin.ManifestLogUrls Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: ManifestLogUrls Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.ManifestLogUrls
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.get_ManifestLogUrls
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin.ManifestLogUrls
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestLogUrls Property

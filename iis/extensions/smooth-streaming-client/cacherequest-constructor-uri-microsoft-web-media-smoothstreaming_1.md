@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheRequest Constructor (Uri) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheRequest Constructor (Uri)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheRequest.#ctor(System.Uri)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheRequest Constructor (Uri)

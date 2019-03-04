@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElementState Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingMediaElementState Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElementState
@@ -37,10 +37,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElementState.Playing
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElementState.Stopped
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElementState Enumeration

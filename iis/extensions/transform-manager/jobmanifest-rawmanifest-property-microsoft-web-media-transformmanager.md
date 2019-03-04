@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManifest.RawManifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: RawManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.RawManifest
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.get_RawManifest
 - Microsoft.Web.Media.TransformManager.JobManifest.RawManifest
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # RawManifest Property

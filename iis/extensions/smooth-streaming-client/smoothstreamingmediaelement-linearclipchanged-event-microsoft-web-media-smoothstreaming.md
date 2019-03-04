@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.LinearClipChanged Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: LinearClipChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LinearClipChanged
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.LinearClipChanged
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_LinearClipChanged
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.LinearClipChanged Event

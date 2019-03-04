@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.Position Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Position Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Position
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.Position
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.set_Position
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.Position Property

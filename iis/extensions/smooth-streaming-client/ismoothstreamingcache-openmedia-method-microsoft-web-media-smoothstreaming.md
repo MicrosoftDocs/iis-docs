@@ -1,4 +1,4 @@
----
+﻿---
 title: ISmoothStreamingCache.OpenMedia Method  (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: OpenMedia Method
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.OpenMedia(System.Uri)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.ISmoothStreamingCache.OpenMedia
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ISmoothStreamingCache.OpenMedia Method

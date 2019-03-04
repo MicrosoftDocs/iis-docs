@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.DownloadProgressChanged Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: DownloadProgressChanged Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgressChanged
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.DownloadProgressChanged
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_DownloadProgressChanged
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DownloadProgressChanged Event

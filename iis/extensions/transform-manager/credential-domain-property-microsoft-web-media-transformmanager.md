@@ -1,4 +1,4 @@
----
+﻿---
 title: Credential.Domain Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Domain Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Credential.Domain
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.Credential.get_Domain
 - Microsoft.Web.Media.TransformManager.Credential.set_Domain
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Domain Property

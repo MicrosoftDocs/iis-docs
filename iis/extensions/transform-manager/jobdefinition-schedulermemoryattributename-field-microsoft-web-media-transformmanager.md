@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.SchedulerMemoryAttributeName Field (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerMemoryAttributeName Field
 ms:assetid: F:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerMemoryAttributeName
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerMemoryAttributeName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerMemoryAttributeName Field

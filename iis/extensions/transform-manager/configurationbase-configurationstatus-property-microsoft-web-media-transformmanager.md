@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationBase.ConfigurationStatus Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: ConfigurationStatus Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.ConfigurationStatus
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.get_ConfigurationStatus
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_ConfigurationStatus
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConfigurationStatus Property

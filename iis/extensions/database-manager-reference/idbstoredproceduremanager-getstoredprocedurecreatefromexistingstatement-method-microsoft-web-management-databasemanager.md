@@ -1,4 +1,4 @@
----
+﻿---
 title: IDbStoredProcedureManager.GetStoredProcedureCreateFromExistingStatement Method  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: GetStoredProcedureCreateFromExistingStatement Method
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedureCreateFromExistingStatement(System.String,System.String,System.String)
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.IDbStoredProcedureManager.GetStoredProcedureCreateFromExistingStatement
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IDbStoredProcedureManager.GetStoredProcedureCreateFromExistingStatement Method

@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingAsyncResult.CompletedSynchronously Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CompletedSynchronously Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.CompletedSynchronously
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.get_CompletedSynchronously
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.set_CompletedSynchronously
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingAsyncResult.CompletedSynchronously Property

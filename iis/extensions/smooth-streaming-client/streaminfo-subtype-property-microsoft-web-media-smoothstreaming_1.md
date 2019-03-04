@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamInfo.Subtype Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Subtype Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.Subtype
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.set_Subtype
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.Subtype
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.Subtype Property

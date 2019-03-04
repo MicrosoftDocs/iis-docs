@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamUpdatedEventArgs.StreamUpdatedAction Enumeration (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: StreamUpdatedEventArgs.StreamUpdatedAction Enumeration
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedAction
@@ -26,10 +26,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedAction.ChunkRemoved
 - Microsoft.Web.Media.SmoothStreaming.StreamUpdatedEventArgs.StreamUpdatedAction.StreamDeselected
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamUpdatedEventArgs.StreamUpdatedAction Enumeration

@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestProperty.CreatePropertyElement Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CreatePropertyElement Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ManifestProperty.CreatePropertyElement
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ManifestProperty.CreatePropertyElement
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CreatePropertyElement Method

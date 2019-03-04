@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskStatus.Message Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: Message Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskStatus.Message
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskStatus.get_Message
 - Microsoft.Web.Media.TransformManager.TaskStatus.Message
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Message Property

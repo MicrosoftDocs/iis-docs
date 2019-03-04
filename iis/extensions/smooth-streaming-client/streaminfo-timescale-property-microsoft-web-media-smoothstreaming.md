@@ -1,4 +1,4 @@
----
+﻿---
 title: StreamInfo.Timescale Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Timescale Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.StreamInfo.TimeScale
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.set_TimeScale
 - Microsoft.Web.Media.SmoothStreaming.StreamInfo.TimeScale
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # StreamInfo.Timescale Property

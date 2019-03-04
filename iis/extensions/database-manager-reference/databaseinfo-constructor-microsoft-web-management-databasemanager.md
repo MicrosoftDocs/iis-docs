@@ -1,4 +1,4 @@
----
+﻿---
 title: DatabaseInfo Constructor  (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: DatabaseInfo Constructor
 ms:assetid: M:Microsoft.Web.Management.DatabaseManager.DatabaseInfo.#ctor
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.DatabaseInfo..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # DatabaseInfo Constructor

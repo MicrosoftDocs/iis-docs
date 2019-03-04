@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipPlaybackEventArgs.Progress Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Progress Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs.Progress
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs.Progress
 - Microsoft.Web.Media.SmoothStreaming.ClipPlaybackEventArgs.set_Progress
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Progress Property

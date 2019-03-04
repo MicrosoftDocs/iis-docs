@@ -1,4 +1,4 @@
----
+﻿---
 title: Logger Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: Logger Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.Logger
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.Logger
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Logger Class

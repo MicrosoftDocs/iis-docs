@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheRequest2 Constructor (Stream) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheRequest2 Constructor (Stream)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheRequest2.#ctor(System.IO.Stream)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest2..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheRequest2 Constructor (Stream)

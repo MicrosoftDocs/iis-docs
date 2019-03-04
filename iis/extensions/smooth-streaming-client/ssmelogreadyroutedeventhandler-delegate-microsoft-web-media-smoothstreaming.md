@@ -1,4 +1,4 @@
----
+﻿---
 title: SSMELogReadyRoutedEventHandler Delegate (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SSMELogReadyRoutedEventHandler Delegate
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventHandler
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventHandler.Invoke
 - Microsoft.Web.Media.SmoothStreaming.SSMELogReadyRoutedEventHandler.BeginInvoke
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SSMELogReadyRoutedEventHandler Delegate

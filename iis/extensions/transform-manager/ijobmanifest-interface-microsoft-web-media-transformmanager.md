@@ -1,4 +1,4 @@
----
+﻿---
 title: IJobManifest Interface (Microsoft.Web.Media.TransformManager)
 TOCTitle: IJobManifest Interface
 ms:assetid: T:Microsoft.Web.Media.TransformManager.IJobManifest
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.IJobManifest
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IJobManifest Interface

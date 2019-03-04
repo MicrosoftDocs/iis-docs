@@ -1,4 +1,4 @@
----
+﻿---
 title: Column.IsIdentity Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsIdentity Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.IsIdentity
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Column.IsIdentity
 - Microsoft.Web.Management.DatabaseManager.Column.set_IsIdentity
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.IsIdentity Property

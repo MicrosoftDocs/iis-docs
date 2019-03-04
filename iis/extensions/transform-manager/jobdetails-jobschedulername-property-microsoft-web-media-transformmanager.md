@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetails.JobSchedulerName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobSchedulerName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDetails.JobSchedulerName
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.JobSchedulerName
 - Microsoft.Web.Media.TransformManager.JobDetails.set_JobSchedulerName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobSchedulerName Property

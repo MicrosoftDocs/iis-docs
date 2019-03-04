@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.LogFolderNameJobInstances Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogFolderNameJobInstances Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.LogFolderNameJobInstances
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.get_LogFolderNameJobInstances
 - Microsoft.Web.Media.TransformManager.JobDefinition.LogFolderNameJobInstances
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LogFolderNameJobInstances Property

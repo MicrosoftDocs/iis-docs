@@ -1,4 +1,4 @@
----
+﻿---
 title: AdvancedLoggingPlugin Class (Microsoft.Web.Media.Diagnostics)
 TOCTitle: AdvancedLoggingPlugin Class
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.Diagnostics.AdvancedLoggingPlugin
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # AdvancedLoggingPlugin Class

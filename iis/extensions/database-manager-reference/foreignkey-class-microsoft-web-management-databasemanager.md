@@ -1,4 +1,4 @@
----
+﻿---
 title: ForeignKey Class (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: ForeignKey Class
 ms:assetid: T:Microsoft.Web.Management.DatabaseManager.ForeignKey
@@ -18,10 +18,12 @@ api_location:
 api_name:
 - Microsoft.Web.Management.DatabaseManager.ForeignKey
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ForeignKey Class

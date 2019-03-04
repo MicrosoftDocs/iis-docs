@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingException Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingException Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingException
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingException
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingException Class

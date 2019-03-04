@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.SchedulerMemory Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: SchedulerMemory Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerMemory
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_SchedulerMemory
 - Microsoft.Web.Media.TransformManager.JobDefinition.SchedulerMemory
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SchedulerMemory Property

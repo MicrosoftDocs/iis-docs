@@ -1,4 +1,4 @@
----
+﻿---
 title: QueryResult.QueryResults Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: QueryResults Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.QueryResult.QueryResults
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.QueryResult.get_QueryResults
 - Microsoft.Web.Management.DatabaseManager.QueryResult.QueryResults
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # QueryResult.QueryResults Property

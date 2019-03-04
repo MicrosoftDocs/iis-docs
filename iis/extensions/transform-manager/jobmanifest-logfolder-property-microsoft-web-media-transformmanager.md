@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManifest.LogFolder Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogFolder Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobManifest.LogFolder
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.LogFolder
 - Microsoft.Web.Media.TransformManager.JobManifest.set_LogFolder
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LogFolder Property

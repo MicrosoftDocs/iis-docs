@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.JobManagerLogLevel Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: JobManagerLogLevel Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.JobManagerLogLevel
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.JobManagerLogLevel
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_JobManagerLogLevel
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # JobManagerLogLevel Property

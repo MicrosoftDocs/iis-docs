@@ -1,4 +1,4 @@
----
+﻿---
 title: Logger.LogLevel Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogLevel Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.Logger.LogLevel
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.Logger.LogLevel
 - Microsoft.Web.Media.TransformManager.Logger.set_LogLevel
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LogLevel Property

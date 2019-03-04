@@ -1,4 +1,4 @@
----
+﻿---
 title: JobManifest.GetInputFileNames Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetInputFileNames Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobManifest.GetInputFileNames(System.Xml.Linq.XContainer)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobManifest.GetInputFileNames
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # GetInputFileNames Method

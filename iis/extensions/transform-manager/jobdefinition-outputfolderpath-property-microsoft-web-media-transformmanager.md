@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.OutputFolderPath Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: OutputFolderPath Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.OutputFolderPath
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.OutputFolderPath
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_OutputFolderPath
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # OutputFolderPath Property

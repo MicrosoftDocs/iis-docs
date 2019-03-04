@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheRequest.CanonicalUri Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CanonicalUri Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.CacheRequest.CanonicalUri
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest.set_CanonicalUri
 - Microsoft.Web.Media.SmoothStreaming.CacheRequest.get_CanonicalUri
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CanonicalUri Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestInfo.SelectStreamsCompleted Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SelectStreamsCompleted Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.ManifestInfo.SelectStreamsCompleted
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.remove_SelectStreamsCompleted
 - Microsoft.Web.Media.SmoothStreaming.ManifestInfo.SelectStreamsCompleted
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SelectStreamsCompleted Event

@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationBase.LogLevelElement Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: LogLevelElement Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.ConfigurationBase.LogLevelElement
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.LogLevelElement
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.set_LogLevelElement
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # LogLevelElement Property

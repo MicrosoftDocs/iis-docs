@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskDefinition.CommandLineArchitecture Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: CommandLineArchitecture Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.CommandLineArchitecture
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.get_CommandLineArchitecture
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_CommandLineArchitecture
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CommandLineArchitecture Property

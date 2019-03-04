@@ -1,4 +1,4 @@
----
+﻿---
 title: CacheResponse2 Constructor (Int64, String, WebHeaderCollection, Stream, HttpStatusCode, String, DateTime, Boolean) (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CacheResponse2 Constructor (Int64, String, WebHeaderCollection, Stream, HttpStatusCode, String, DateTime, Boolean)
 ms:assetid: M:Microsoft.Web.Media.SmoothStreaming.CacheResponse2.#ctor(System.Int64,System.String,System.Net.WebHeaderCollection,System.IO.Stream,System.Net.HttpStatusCode,System.String,System.DateTime,System.Boolean)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.CacheResponse2..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CacheResponse2 Constructor (Int64, String, WebHeaderCollection, Stream, HttpStatusCode, String, DateTime, Boolean)

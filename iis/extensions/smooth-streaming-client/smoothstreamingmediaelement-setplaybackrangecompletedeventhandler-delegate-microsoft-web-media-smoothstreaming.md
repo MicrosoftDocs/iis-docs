@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler Delegate (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler Delegate
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventHandler.Invoke
 - Microsoft.Web.Media.SmoothStreaming.SetPlaybackRangeCompletedEventHandler.EndInvoke
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.SetPlaybackRangeCompletedEventHandler Delegate

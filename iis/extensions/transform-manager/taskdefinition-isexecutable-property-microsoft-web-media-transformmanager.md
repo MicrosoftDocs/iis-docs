@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskDefinition.IsExecutable Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: IsExecutable Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.TaskDefinition.IsExecutable
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.TaskDefinition.IsExecutable
 - Microsoft.Web.Media.TransformManager.TaskDefinition.set_IsExecutable
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # IsExecutable Property

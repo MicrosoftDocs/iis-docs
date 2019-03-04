@@ -1,4 +1,4 @@
----
+﻿---
 title: TraceEntry.TraceLevel Property (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceLevel Property
 ms:assetid: P:Microsoft.Web.Media.Diagnostics.TraceEntry.TraceLevel
@@ -15,7 +15,7 @@ dev_langs:
 - jscript
 - vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.TraceEntry.set_TraceLevel
 - Microsoft.Web.Media.Diagnostics.TraceEntry.TraceLevel
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceEntry.TraceLevel Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: Column.Tag Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Tag Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.Tag
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Column.Tag
 - Microsoft.Web.Management.DatabaseManager.Column.set_Tag
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.Tag Property

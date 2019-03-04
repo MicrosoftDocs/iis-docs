@@ -1,4 +1,4 @@
----
+﻿---
 title: ClipContext.CurrentClipState Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: CurrentClipState Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ClipContext.CurrentClipState
@@ -20,10 +20,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.CurrentClipState
 - Microsoft.Web.Media.SmoothStreaming.ClipContext.get_CurrentClipState
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CurrentClipState Property

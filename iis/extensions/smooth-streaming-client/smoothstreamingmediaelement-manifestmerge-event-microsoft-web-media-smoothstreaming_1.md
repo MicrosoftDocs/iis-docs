@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingMediaElement.ManifestMerge Event (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: ManifestMerge Event
 ms:assetid: E:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestMerge
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.ManifestMerge
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingMediaElement.remove_ManifestMerge
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingMediaElement.ManifestMerge Event

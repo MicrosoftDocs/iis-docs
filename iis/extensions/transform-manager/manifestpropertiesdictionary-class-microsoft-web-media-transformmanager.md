@@ -1,4 +1,4 @@
----
+﻿---
 title: ManifestPropertiesDictionary Class (Microsoft.Web.Media.TransformManager)
 TOCTitle: ManifestPropertiesDictionary Class
 ms:assetid: T:Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ManifestPropertiesDictionary
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ManifestPropertiesDictionary Class

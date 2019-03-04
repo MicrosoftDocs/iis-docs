@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.MaintenanceCommand Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: MaintenanceCommand Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceCommand
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.MaintenanceCommand
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_MaintenanceCommand
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # MaintenanceCommand Property

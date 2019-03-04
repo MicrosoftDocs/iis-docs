@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDetails.GetJobDetailsAttribute Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobDetailsAttribute Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.JobDetails.GetJobDetailsAttribute(Microsoft.Web.Media.TransformManager.JobDetailsField)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.JobDetails.GetJobDetailsAttribute
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobDetailsAttribute Method

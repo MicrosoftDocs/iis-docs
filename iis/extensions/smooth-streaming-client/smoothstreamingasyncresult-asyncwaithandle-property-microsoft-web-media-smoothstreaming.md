@@ -1,4 +1,4 @@
----
+﻿---
 title: SmoothStreamingAsyncResult.AsyncWaitHandle Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: AsyncWaitHandle Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.AsyncWaitHandle
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.AsyncWaitHandle
 - Microsoft.Web.Media.SmoothStreaming.SmoothStreamingAsyncResult.get_AsyncWaitHandle
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # SmoothStreamingAsyncResult.AsyncWaitHandle Property

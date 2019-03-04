@@ -1,4 +1,4 @@
----
+﻿---
 title: HpcScheduler.GetJobStatus Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: GetJobStatus Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.GetJobStatus(System.String)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.HpcScheduler.GetJobStatus
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # GetJobStatus Method

@@ -1,4 +1,4 @@
----
+﻿---
 title: ForeignKey.FKTableName Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: FKTableName Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ForeignKey.FKTableName
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.get_FKTableName
 - Microsoft.Web.Management.DatabaseManager.ForeignKey.set_FKTableName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ForeignKey.FKTableName Property

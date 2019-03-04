@@ -1,4 +1,4 @@
----
+﻿---
 title: TrackInfo.Index Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Index Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.TrackInfo.Index
@@ -15,7 +15,7 @@ dev_langs:
 - jscript
 - vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.Index
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo.set_Index
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TrackInfo.Index Property

@@ -1,4 +1,4 @@
----
+﻿---
 title: JobMetadata.InstanceFileName Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InstanceFileName Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobMetadata.InstanceFileName
@@ -21,10 +21,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobMetadata.get_InstanceFileName
 - Microsoft.Web.Media.TransformManager.JobMetadata.InstanceFileName
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # InstanceFileName Property

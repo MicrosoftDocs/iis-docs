@@ -1,4 +1,4 @@
----
+﻿---
 title: Column.Changes Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: Changes Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.Column.Changes
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.Column.get_Changes
 - Microsoft.Web.Management.DatabaseManager.Column.set_Changes
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # Column.Changes Property

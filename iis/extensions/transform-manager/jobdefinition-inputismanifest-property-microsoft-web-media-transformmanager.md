@@ -1,4 +1,4 @@
----
+﻿---
 title: JobDefinition.InputIsManifest Property (Microsoft.Web.Media.TransformManager)
 TOCTitle: InputIsManifest Property
 ms:assetid: P:Microsoft.Web.Media.TransformManager.JobDefinition.InputIsManifest
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.TransformManager.JobDefinition.InputIsManifest
 - Microsoft.Web.Media.TransformManager.JobDefinition.set_InputIsManifest
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # InputIsManifest Property

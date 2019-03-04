@@ -1,4 +1,4 @@
----
+﻿---
 title: HpcScheduler.CleanupJob Method  (Microsoft.Web.Media.TransformManager)
 TOCTitle: CleanupJob Method
 ms:assetid: M:Microsoft.Web.Media.TransformManager.HpcScheduler.CleanupJob(System.String)
@@ -19,10 +19,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.HpcScheduler.CleanupJob
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # CleanupJob Method

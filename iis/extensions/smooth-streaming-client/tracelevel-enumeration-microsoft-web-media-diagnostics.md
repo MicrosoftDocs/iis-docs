@@ -1,4 +1,4 @@
----
+﻿---
 title: TraceLevel Enumeration (Microsoft.Web.Media.Diagnostics)
 TOCTitle: TraceLevel Enumeration
 ms:assetid: T:Microsoft.Web.Media.Diagnostics.TraceLevel
@@ -23,7 +23,7 @@ dev_langs:
 - csharp
 - jscript
 - vb
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
@@ -40,10 +40,12 @@ api_name:
 - Microsoft.Web.Media.Diagnostics.TraceLevel.FunctionExit
 - Microsoft.Web.Media.Diagnostics.TraceLevel.Warning
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TraceLevel Enumeration

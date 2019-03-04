@@ -1,4 +1,4 @@
----
+﻿---
 title: TaskStatus Constructor  (Microsoft.Web.Media.TransformManager)
 TOCTitle: TaskStatus Constructor
 ms:assetid: M:Microsoft.Web.Media.TransformManager.TaskStatus.#ctor(Microsoft.Web.Media.TransformManager.JobManifest,Microsoft.Web.Media.TransformManager.ILogger)
@@ -20,10 +20,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.TaskStatus..ctor
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TaskStatus Constructor

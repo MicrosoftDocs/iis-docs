@@ -1,4 +1,4 @@
----
+﻿---
 title: TrackInfo Class (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: TrackInfo Class
 ms:assetid: T:Microsoft.Web.Media.SmoothStreaming.TrackInfo
@@ -13,16 +13,18 @@ dev_langs:
 - jscript
 - vb
 - FSharp
-- "cpp"
+- cpp
 api_location:
 - Microsoft.Web.Media.SmoothStreaming.dll
 api_name:
 - Microsoft.Web.Media.SmoothStreaming.TrackInfo
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TrackInfo Class

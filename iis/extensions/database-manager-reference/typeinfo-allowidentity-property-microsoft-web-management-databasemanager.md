@@ -1,4 +1,4 @@
----
+﻿---
 title: TypeInfo.AllowIdentity Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: AllowIdentity Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.TypeInfo.AllowIdentity
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.get_AllowIdentity
 - Microsoft.Web.Management.DatabaseManager.TypeInfo.set_AllowIdentity
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # TypeInfo.AllowIdentity Property

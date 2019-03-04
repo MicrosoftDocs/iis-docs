@@ -1,4 +1,4 @@
----
+﻿---
 title: ConfigurationBase.AddConfigurationMessage Method (String, ConfigurationMessageSeverity) (Microsoft.Web.Media.TransformManager)
 TOCTitle: AddConfigurationMessage Method (String, ConfigurationMessageSeverity)
 ms:assetid: M:Microsoft.Web.Media.TransformManager.ConfigurationBase.AddConfigurationMessage(System.String,Microsoft.Web.Media.TransformManager.ConfigurationMessageSeverity)
@@ -17,10 +17,12 @@ api_location:
 api_name:
 - Microsoft.Web.Media.TransformManager.ConfigurationBase.AddConfigurationMessage
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # AddConfigurationMessage Method (String, ConfigurationMessageSeverity)

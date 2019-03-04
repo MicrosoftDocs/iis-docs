@@ -1,4 +1,4 @@
----
+﻿---
 title: ChunkResult.Error Property (Microsoft.Web.Media.SmoothStreaming)
 TOCTitle: Error Property
 ms:assetid: P:Microsoft.Web.Media.SmoothStreaming.ChunkResult.Error
@@ -23,10 +23,12 @@ api_name:
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.get_Error
 - Microsoft.Web.Media.SmoothStreaming.ChunkResult.set_Error
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ChunkResult.Error Property

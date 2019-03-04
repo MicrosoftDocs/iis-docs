@@ -1,4 +1,4 @@
----
+﻿---
 title: ConnectionArgument.IsRequired Property (Microsoft.Web.Management.DatabaseManager)
 TOCTitle: IsRequired Property
 ms:assetid: P:Microsoft.Web.Management.DatabaseManager.ConnectionArgument.IsRequired
@@ -22,10 +22,12 @@ api_name:
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.IsRequired
 - Microsoft.Web.Management.DatabaseManager.ConnectionArgument.set_IsRequired
 api_type:
-  - Assembly
+- Managed
 topic_type:
 - apiref
+- kbSyntax
 product_family_name: VS
+ROBOTS: INDEX,FOLLOW
 ---
 
 # ConnectionArgument.IsRequired Property
