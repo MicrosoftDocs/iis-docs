@@ -1,13 +1,10 @@
 ---
-title: "New Features Introduced  in IIS 10.0 Version 1709"
-author: shirhatti
+title: "New Features Introduced in IIS 10.0 Version 1709"
 description: "The article introduces native HTTP Strict Transport Security (HSTS) support in IIS 10.0 version 1709."
-ms.author: soshir
 ms.date: 10/24/2017
 msc.type: authoredcontent
 ---
-New Features Introduced  in IIS 10.0 Version 1709
-=================================================
+# New Features Introduced in IIS 10.0 Version 1709
 
 IIS 10.0 Version 1709 is the latest version of Internet Information Services
 (IIS) which shipped with Windows 10 Fall Creators Update and Window Server 2016

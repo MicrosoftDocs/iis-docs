@@ -1,15 +1,12 @@
 ---
 title: "Access Protection"
-author: shirhatti
 description: "Safeguard your web server from malicious requests and unauthorized access with URL authorization rules and built-in request filtering."
-ms.author: soshir
-ms.date: 3/6/2018
+ms.date: 03/06/2018
 msc.type: authoredcontent
 ---
 
 # Access Protection
 
------------------
 Safeguard your web server from malicious requests and unauthorized access with URL authorization rules and built-in request filtering.
 
 IIS provides a secure, reliable, platform for web application and services hosting. Support for URL authorization and request filtering rules give administrators fine-grained control over access of site content.
