@@ -1,13 +1,10 @@
 ---
 title: "IIS Server Variables"
-author: shirhatti
 description: "IIS Server Variables provide information about the server"
-ms.author: soshir
 ms.date: 03/11/2008
 msc.type: authoredcontent
 ---
-IIS Server Variables
-====================
+# IIS Server Variables
 
 IIS Server Variables provide information about the server, the connection with 
 the client, and the current request on the connection. Additionally, inbound
@@ -15,7 +12,6 @@ URL rewrite rules can be used to set custom server variables.
 
 > [!NOTE]
 > Not all server variables listed in this document are available in versions of IIS prior to IIS 8.5.
-
 
 | Server Variable       | Description                                           |
 |-----------------------|-------------------------------------------------------|

@@ -1,13 +1,10 @@
 ---
 title: "Dynamic Caching and Compression"
-author: shirhatti
 description: "Speed up your Web site through built-in dynamic caching and enhanced compression."
-ms.author: soshir
-ms.date: 3/6/2018
+ms.date: 03/06/2018
 msc.type: authoredcontent
 ---
-Dynamic Caching and Compression
--------------------------------
+# Dynamic Caching and Compression
 
 Speed up your Web site through built-in dynamic caching and enhanced compression.
 

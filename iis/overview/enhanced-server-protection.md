@@ -1,13 +1,10 @@
 ---
 title: "Enhanced Server Protection"
-author: shirhatti
 description: "IIS maximizes Web server security by default with minimal Web server footprint and automatic application isolation."
-ms.author: soshir
-ms.date: 3/6/2018
+ms.date: 03/06/2018
 msc.type: authoredcontent
 ---
-Enhanced Server Protection
---------------------------
+# Enhanced Server Protection
 
 IIS maximizes Web server security by default with minimal Web server footprint and automatic application isolation.
 
