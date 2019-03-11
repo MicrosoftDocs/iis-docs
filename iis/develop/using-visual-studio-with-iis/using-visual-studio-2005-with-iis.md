@@ -66,7 +66,7 @@ You can find the detailed explanation of the two models and their differences in
 **To publish the project to an IIS Web site:** 
 
 1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool.  
- For more information, see [http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true) . Alternatively, use an existing IIS Web site.
+ For more information, see [http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true](https://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true) . Alternatively, use an existing IIS Web site.
 2. In Visual Studio, use the "Build \ Publish" option to publish the contents of your Web application to an IIS Web site.  
 
     [![](using-visual-studio-2005-with-iis/_static/image4.png)](using-visual-studio-2005-with-iis/_static/image3.png)
@@ -106,7 +106,7 @@ You can find the detailed explanation of the two models and their differences in
 
 **To create a new project using the Web site project option:** 
 
-1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool. For more information, see [http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true](http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true). Alternatively, use an existing IIS Web site.
+1. Create the IIS Web site using IIS Manager, AppCmd, or another configuration tool. For more information, see [http://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true](https://technet2.microsoft.com/windowsserver2008/en/library/f6c26eb7-ad7e-4fe2-9239-9f5aa4ff44ce1033.mspx?mfr=true). Alternatively, use an existing IIS Web site.
 2. In Visual Studio, use the "File menu \ New \ Web Site …" option to create a new Web site project using the IIS Web site you created.  
 
     In the "New Web Site" dialog, select one of the Visual Studio Web site templates, such as the ASP.NET Web Site.

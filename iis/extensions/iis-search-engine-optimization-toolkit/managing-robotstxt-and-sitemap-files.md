@@ -134,7 +134,7 @@ Your Robots.txt file will look similar to the following:
 
 In addition to adding the sitemap location to the Robots.txt file, it is recommended that you submit your sitemap location URL to the major search engines. This will allow you to obtain useful status and statistics about your Web site from the search engine's webmasters tools.
 
-- To submit a sitemap to **bing.com,** use the [Bing Webmasters Tools](http://www.bing.com/webmaster)
+- To submit a sitemap to **bing.com,** use the [Bing Webmasters Tools](https://www.bing.com/webmaster)
 - To submit a sitemap to **google.com,** use the [Google Webmasters Tools](https://www.google.com/webmasters/)
 
 ## Summary
