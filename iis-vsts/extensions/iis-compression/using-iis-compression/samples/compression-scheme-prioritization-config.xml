@@ -1,0 +1,2 @@
+<scheme name="br" dll="%ProgramFiles%\IIS\IIS Compression\iisbrotli.dll" />
+<scheme name="gzip" dll="%ProgramFiles%\IIS\IIS Compression\iiszlib.dll" />
