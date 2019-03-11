@@ -7,8 +7,8 @@ ms.assetid: dbf635a5-921f-4488-99a2-bd1c2d1c0402
 msc.legacyurl: /learn/manage/configuring-security/how-to-set-up-ssl-on-iis
 msc.type: authoredcontent
 ---
-How to Set Up SSL on IIS 7
-====================
+# How to Set Up SSL on IIS 7
+
 by [Saad Ladki](https://twitter.com/saadladki)
 
 ## Introduction
@@ -39,7 +39,7 @@ This article contains the following sections:
 
 ## SSL Configuration
 
-Whether you are running your web site on your own server, or [in the cloud](https://www.windowsazure.com/en-us/documentation/services/web-sites/), using SSL to secure your site is probably extremely important to you, as many websites are turning to it to protect user's privacy. If you need to configure SSL on your server, it's important to realize that the implementation of SSL changed from IIS 6.0 to IIS 7 and above. In IIS 6.0 on Windows Server 2003, all SSL configuration was stored in the IIS metabase, and encryption/decryption occured in User mode (requiring a lot of kernel/user mode transitions). In IIS 7 and above, HTTP.sys handles SSL encryption/decryption in kernel mode, resulting in up to 20% better performance for secure connections in IIS 7 and above than that experienced in IIS 6.0.
+Whether you are running your web site on your own server, or [in the cloud](https://www.windowsazure.com/en-us/documentation/services/web-sites/), using SSL to secure your site is probably extremely important to you, as many websites are turning to it to protect user's privacy. If you need to configure SSL on your server, it's important to realize that the implementation of SSL changed from IIS 6.0 to IIS 7 and above. In IIS 6.0 on Windows Server 2003, all SSL configuration was stored in the IIS metabase, and encryption/decryption occurred in User mode (requiring a lot of kernel/user mode transitions). In IIS 7 and above, HTTP.sys handles SSL encryption/decryption in kernel mode, resulting in up to 20% better performance for secure connections in IIS 7 and above than that experienced in IIS 6.0.
 
 Using SSL in kernel mode requires storing SSL binding information in two places. First, the binding is stored in %*windir*%\System32\inetsrv\config\applicationHost.config for your site. When the site starts, IIS sends the binding to HTTP.sys, and HTTP.sys starts listening for requests on the specified IP:Port (this works for all bindings). Second, the SSL configuration associated with the binding is stored in the HTTP.sys configuration. Use the **netsh** command at a command prompt to view SSL binding configuration stored in HTTP.sys as in the following example:
 
@@ -65,21 +65,17 @@ Self-signed certificates are certificates created on your computer. They're usef
 
 ## Using AppCmd
 
-You cannnot request or create a certificate by using AppCmd.exe. You also cannot use AppCmd.exe to create an SSL binding.
+You cannot request or create a certificate by using AppCmd.exe. You also cannot use AppCmd.exe to create an SSL binding.
 
 ### Configure SSL Settings
 
 You can use AppCmd.exe to configure a site to accept only server HTTPS connections by modifying the **sslFlags** attribute in the Access section. For example, you can configure this setting for the "Default Web Site" in the ApplicationHost.config file (for example, commitPath:APPHOST) by using the following command:
 
-
 [!code-console[Main](how-to-set-up-ssl-on-iis/samples/sample2.cmd)]
-
 
 If successful, the following message is displayed:
 
-
 [!code-console[Main](how-to-set-up-ssl-on-iis/samples/sample3.cmd)]
-
 
 > [!NOTE]
 > To require 128-bit SSL, change the sslFlags value to **Ssl128**.
@@ -151,13 +147,12 @@ The default settings for a new binding are set to HTTP on port 80. Select **http
 Now you have a new SSL binding on your site and all that remains is to verify that it works.  
 [![](how-to-set-up-ssl-on-iis/_static/image13.jpg)](how-to-set-up-ssl-on-iis/_static/image12.jpg)
 
-
 ### Verify the SSL Binding
 
 In the Actions pane, under Browse Web Site, click the link associated with the binding you just created.  
 [![](how-to-set-up-ssl-on-iis/_static/image15.jpg)](how-to-set-up-ssl-on-iis/_static/image14.jpg)
 
-Internet Explorere (IE) 7 and above will display an error page because the self-signed certificate was issued by your computer, not by a trusted Certificate Authority (CA). IE 7 and above will trust the certificate if you add it to the list of Trusted Root Certification Authorities in the certificates store it on the local computer, or in Group Policy for the domain.   
+Internet Explorer (IE) 7 and above will display an error page because the self-signed certificate was issued by your computer, not by a trusted Certificate Authority (CA). IE 7 and above will trust the certificate if you add it to the list of Trusted Root Certification Authorities in the certificates store it on the local computer, or in Group Policy for the domain.
 Click **Continue to this website (not recommended)**.  
 [![](how-to-set-up-ssl-on-iis/_static/image17.jpg)](how-to-set-up-ssl-on-iis/_static/image16.jpg)
 

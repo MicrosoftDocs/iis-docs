@@ -1,18 +1,16 @@
 ---
 title: "New Features Introduced in IIS 10.0"
-author: shirhatti
 description: "This article discusses several of the new features which were introduced in Internet Information Services (IIS) which shipped with Windows 10 and Windows Ser..."
 ms.date: 11/22/2016
 ms.assetid: 6bbabad1-8ad9-4f64-893b-b375115cd7a9
 msc.legacyurl: /learn/get-started/whats-new-in-iis-10/new-features-introduced-in-iis-100
 msc.type: authoredcontent
 ---
-New Features Introduced in IIS 10.0
-====================
+# New Features Introduced in IIS 10.0
+
 by [Sourabh Shirhatti](https://github.com/shirhatti)
 
 > IIS 10.0 is the latest version of Internet Information Services (IIS) which shipped with Windows 10 and Windows Server 2016. This article describes the new functionality of IIS on Windows 10 and Windows Server 2016 and provides links to resources to learn more about these features.
-
 
 ## HTTP/2
 
@@ -36,13 +34,13 @@ Get started with [IIS base images available on Docker Hub](https://hub.docker.co
 
 With the advent of Nano Server and Windows Containers, IIS now provides a better management story for all environments running (including those without a GUI).
 
-#### Microsoft IIS Administration ([https://manage.iis.net](https://manage.iis.net))
+### Microsoft IIS Administration ([https://manage.iis.net](https://manage.iis.net))
 
 Microsoft IIS Administration is a REST API which allows you to configure and monitor your IIS instance, and it is an [open-source project that is under active development on GitHub](https://github.com/Microsoft/IIS.Administration). With this API users can take advantage of the new IIS Web Manager that is available at [https://manage.iis.net](https://manage.iis.net). This browser based application consumes the IIS Administration API to provide a familiar management experience. Microsoft IIS Administration supports IIS 7.5 and above.
 
 Learn more: [Microsoft IIS Administration Preview](https://blogs.iis.net/adminapi/microsoft-iis-administration-api-preview) or [watch the Channel 9 video](https://channel9.msdn.com/Blogs/Seth-Juarez/Microsoft-IIS-Administration-A-new-way-to-manage-IIS).
 
-#### IIS Administration PowerShell cmdlets
+### IIS Administration PowerShell cmdlets
 
 IIS 10.0 adds a new, simplified PowerShell module for managing IIS which scales better and offers superior pipelining support than existing WebAdministration cmdlets. The new module gives you direct access to the ServerManager object allowing for greater control over the configuration system.
 

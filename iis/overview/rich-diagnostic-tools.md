@@ -1,13 +1,10 @@
 ---
 title: "Rich Diagnostic Tools"
-author: shirhatti
 description: "Minimize downtime and rapidly diagnose server and application issues with the built-in diagnostic tools."
-ms.author: soshir
-ms.date: 3/6/2018
+ms.date: 03/06/2018
 msc.type: authoredcontent
 ---
-Rich Diagnostic Tools
----------------------
+# Rich Diagnostic Tools
 
 Minimize downtime and rapidly diagnose server and application issues with the built-in diagnostic tools.
 

@@ -7,13 +7,11 @@ ms.assetid: 25568a97-1a8b-4569-a49b-20c752d83e07
 msc.legacyurl: /learn/web-hosting/configuring-components/powershell-scripts
 msc.type: authoredcontent
 ---
-C# and PowerShell Scripts Samples
-====================
-by [Walter Oliver](https://github.com/walterov)
-
-## Introduction
+# C# and PowerShell Scripts Samples
 
 This article provides a summary of the PowerShell and C# Sample scripts mentioned throughout the Hosting Guidance. They can be used for deployment, configuration, migration, and provisioning tasks.
+
+by [Walter Oliver](https://github.com/walterov)
 
 ## Deployment Scripts -Shared Hosting
 
