@@ -1,7 +1,0 @@
-<configSections> 
-    ...
-    <sectionGroup name="system.webServer"> 
-        <section name="simpleLogging"/> 
-        ...
-    </sectionGroup> 
-</configSections>

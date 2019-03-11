@@ -1,1 +1,0 @@
-%windir%\system32\inetsrv\appcmd set config "<sitename>" -section:compilation -tempDirectory:%systemdrive%\inetpub\tempcompilation\aspnettemp\site%1 /commit:webroot

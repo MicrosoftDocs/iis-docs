@@ -1,6 +1,0 @@
-<requestFiltering>
-   <verbs applyToWebDAV="false">
-      <add verb="DELETE" allowed="false" />
-      <add verb="PUT" allowed="false" />
-   </verbs>
-</requestFiltering>

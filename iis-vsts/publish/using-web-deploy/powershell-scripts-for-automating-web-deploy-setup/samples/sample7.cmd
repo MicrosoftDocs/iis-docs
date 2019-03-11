@@ -1,1 +1,0 @@
-.\CreateMySqlDatabase.ps1

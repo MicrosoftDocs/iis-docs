@@ -1,1 +1,0 @@
-VDIR object "MySite/app1/vdir1" added

@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.ftpServer/serverRuntime /hostNameSupport.useDomainNameAsHostName:"True" /commit:apphost

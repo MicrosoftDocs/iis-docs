@@ -1,1 +1,0 @@
-(Get-ItemProperty IIS:\Sites\DemoSite -Name bindings).Collection

@@ -1,1 +1,0 @@
-PS C:\> .\Deploy-Application.ps1

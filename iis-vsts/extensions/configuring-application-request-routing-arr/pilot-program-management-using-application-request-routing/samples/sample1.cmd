@@ -1,1 +1,0 @@
-appcmd.exe set config  -section:system.webServer/rewrite/globalRules /+"[name='ARR_pilotSiteServers_loadbalance'].conditions.[input='{HTTP_USER_AGENT}',pattern='*MSIE*']" /commit:apphost

@@ -1,9 +1,0 @@
-<rules>
-    <rule name="Rewrite Rule">
-        <match url=".*" />
-        <conditions>
-            <add input="{StaticRewrites:{REQUEST_URI}}" pattern="(.+)" />
-        </conditions>
-        <action type="Rewrite" url="{C:1}" />
-    </rule>
-</rules>

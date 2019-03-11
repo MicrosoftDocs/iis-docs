@@ -1,3 +1,0 @@
-<handlers>
-    <add name="StaticFile" path="*" verb="GET,HEAD"  modules="StaticFileModule" resourceType="Either" requireAccess="Read"/>
-</handlers>

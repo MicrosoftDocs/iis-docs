@@ -1,1 +1,0 @@
-Netdom join %computername% /domain:<domain> /userd:<domain>\<username> /password:*

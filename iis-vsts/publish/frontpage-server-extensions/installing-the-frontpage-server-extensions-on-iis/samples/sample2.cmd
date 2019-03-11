@@ -1,1 +1,0 @@
-owsadm.exe –o install –p <port> -u <username>

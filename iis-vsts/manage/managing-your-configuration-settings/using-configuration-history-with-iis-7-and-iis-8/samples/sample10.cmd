@@ -1,1 +1,0 @@
-Appcmd set config -section:configHistory –path:"%systemdrive%MyWebHistory"

@@ -1,1 +1,0 @@
-PS C:\Data> get-childitem Pow*

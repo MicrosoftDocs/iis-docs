@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.applicationHost/sites /siteDefaults.ftpServer.messages.bannerMessage:"Welcome!" /siteDefaults.ftpServer.messages.allowLocalDetailedErrors:"True" /commit:apphost

@@ -1,7 +1,0 @@
-<rule name="Fail bad requests">
-  <match url=".*"/>
-  <conditions>
-	<add input="{HTTP_HOST}" pattern="localhost" negate="true" />
-  </conditions>
-  <action type="AbortRequest" />
-</rule>

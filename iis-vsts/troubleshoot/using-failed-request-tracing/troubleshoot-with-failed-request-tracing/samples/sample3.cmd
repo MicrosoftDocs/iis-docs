@@ -1,1 +1,0 @@
-%windir%\system32\inetsrv\appcmd.exe list traces "<name of your site>" /text:*

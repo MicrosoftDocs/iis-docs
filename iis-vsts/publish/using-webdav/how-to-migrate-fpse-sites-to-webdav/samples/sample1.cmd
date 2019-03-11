@@ -1,1 +1,0 @@
-cd "%CommonProgramFiles%\Microsoft Shared\Web Server Extensions\50\bin"

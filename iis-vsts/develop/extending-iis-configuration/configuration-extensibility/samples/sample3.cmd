@@ -1,1 +1,0 @@
-icacls %systemdrive%\inetpub\logs\simpleLogs /grant BUILTIN\IIS_IUSRS:RW

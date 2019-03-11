@@ -1,7 +1,0 @@
-<modules> 
-     <add name="FormsAuthentication" type="System.Web.Security.FormsAuthenticationModule" 
-             preCondition="managedHandler" />
-     <add name="UrlAuthorization" type="System.Web.Security.UrlAuthorizationModule" 
-             preCondition="managedHandler" />
-    ...
-</modules>

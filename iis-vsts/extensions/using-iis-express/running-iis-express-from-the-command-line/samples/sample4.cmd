@@ -1,1 +1,0 @@
-/systray:false

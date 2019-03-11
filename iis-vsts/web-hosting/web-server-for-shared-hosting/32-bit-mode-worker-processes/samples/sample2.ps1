@@ -1,1 +1,0 @@
-set-itemproperty iis:\ -name applicationPoolDefaults.enable32BitAppOnWin64 -value true

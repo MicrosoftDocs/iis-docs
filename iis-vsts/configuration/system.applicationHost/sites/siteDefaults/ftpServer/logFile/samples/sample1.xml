@@ -1,5 +1,0 @@
-<siteDefaults>
-   <ftpServer serverAutoStart="true">
-      <logFile period="Daily" enabled="true" />
-   </ftpServer>
-</siteDefaults>

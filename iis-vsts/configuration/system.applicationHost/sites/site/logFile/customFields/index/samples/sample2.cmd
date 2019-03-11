@@ -1,1 +1,0 @@
-appcmd.exe set config  -section:system.applicationHost/sites /+"[name='ContosoSite'].logFile.customFields.[logFieldName='ContosoField',sourceName='ContosoSource',sourceType='ServerVariable']" /commit:apphost

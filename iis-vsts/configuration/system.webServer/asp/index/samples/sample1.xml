@@ -1,7 +1,0 @@
-<location path="Contoso">
-   <system.webServer>
-      <asp enableParentPaths="false" bufferingOn="true">
-         <session allowSessionState="true" />
-      </asp>
-   </system.webServer>
-</location>

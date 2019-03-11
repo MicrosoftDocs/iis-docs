@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.applicationHost/sites /[name='ftp.example.com'].ftpServer.security.authentication.anonymousAuthentication.enabled:"False" /commit:apphost

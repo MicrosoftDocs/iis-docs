@@ -1,1 +1,0 @@
->add-iissite –name <siteName> -computer <serverName> -credential <credential> -bindings <array-of-bindings> –homepath <path> -autostart

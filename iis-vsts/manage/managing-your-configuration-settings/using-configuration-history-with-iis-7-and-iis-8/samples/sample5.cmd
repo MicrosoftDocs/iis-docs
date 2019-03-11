@@ -1,1 +1,0 @@
-cscript //nologo configHst.vbs

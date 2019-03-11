@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.applicationHost/sites /+"siteDefaults.ftpServer.security.commandFiltering.[command='SYST',allowed='False']" /commit:apphost

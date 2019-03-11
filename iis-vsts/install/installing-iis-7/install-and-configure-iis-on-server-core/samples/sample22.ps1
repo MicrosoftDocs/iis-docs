@@ -1,1 +1,0 @@
-get-command –pssnapin WebAdministration

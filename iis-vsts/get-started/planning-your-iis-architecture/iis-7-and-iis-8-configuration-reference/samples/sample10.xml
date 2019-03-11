@@ -1,6 +1,0 @@
-<flags  [Can be used together to form combinations, unlike enums] 
-
-    name=""  [String, Required] [Friendly name of the flag]
-    value="" [int in powers of 2, Required] [Numeric value]  
-
-/>

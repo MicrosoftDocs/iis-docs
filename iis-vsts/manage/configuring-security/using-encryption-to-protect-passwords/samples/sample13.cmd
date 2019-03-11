@@ -1,2 +1,0 @@
-createProvider.exe App1Key RsaKeyForAppPool1 Rsa_app1
-createProvider.exe App2Key RsaKeyForAppPool2 Rsa_app2

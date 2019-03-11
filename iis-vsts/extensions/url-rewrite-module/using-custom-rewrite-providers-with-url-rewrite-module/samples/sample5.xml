@@ -1,7 +1,0 @@
-<rule name="FileMapProviderTest" stopProcessing="true">
-    <match url="(.*)" />
-    <conditions>
-        <add input="{FileMap:{R:1}}" pattern="(.+)" />
-    </conditions>
-    <action type="Redirect" url="{C:1}" />
-</rule>

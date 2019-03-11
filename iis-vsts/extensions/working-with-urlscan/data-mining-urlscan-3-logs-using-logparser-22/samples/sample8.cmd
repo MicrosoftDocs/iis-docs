@@ -1,1 +1,0 @@
-logparser "SELECT DISTINCT c-ip FROM UrlScan.*.log" -i:w3c

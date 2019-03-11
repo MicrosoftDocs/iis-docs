@@ -1,3 +1,0 @@
-appcmd.exe set config "Default Web Site" -section:system.webServer/security/dynamicIpSecurity /denyAction:"Unauthorized" /enableProxyMode:"True" /enableLoggingOnlyMode:"True"  /commit:apphost
-appcmd.exe set config "Default Web Site" -section:system.webServer/security/dynamicIpSecurity /denyByConcurrentRequests.enabled:"True" /denyByConcurrentRequests.maxConcurrentRequests:"10" /commit:apphost
-appcmd.exe set config "Default Web Site" -section:system.webServer/security/dynamicIpSecurity /denyByRequestRate.enabled:"True" /denyByRequestRate.maxRequests:"25" /denyByRequestRate.requestIntervalInMilliseconds:"210"  /commit:apphost

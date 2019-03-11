@@ -1,1 +1,0 @@
-net user ConfigUser1 ConfigPass1 /add

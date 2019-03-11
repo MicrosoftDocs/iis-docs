@@ -1,7 +1,0 @@
-<modules>
-
-    <add name="AnonymousAuthenticationModule" />
-
-    <add name="StaticFileModule" />
-
-</modules>

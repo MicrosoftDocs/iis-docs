@@ -1,1 +1,0 @@
-GACUTIL /l imageCopyrightUI

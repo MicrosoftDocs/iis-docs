@@ -1,5 +1,0 @@
-<membership defaultProvider="AspNetReadOnlyXmlMembershipProvider"> 
-  <providers> 
-    <add name="AspNetReadOnlyXmlMembershipProvider" type="AspNetReadOnlyXmlMembershipProvider" description="Read-only XML membership provider" xmlFileName="~/App_Data/MembershipUsers.xml"/> 
-  </providers> 
-</membership>

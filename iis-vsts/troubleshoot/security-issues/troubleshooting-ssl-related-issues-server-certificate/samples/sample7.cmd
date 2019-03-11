@@ -1,1 +1,0 @@
-IIS 7/7.5: netsh http show iplisten

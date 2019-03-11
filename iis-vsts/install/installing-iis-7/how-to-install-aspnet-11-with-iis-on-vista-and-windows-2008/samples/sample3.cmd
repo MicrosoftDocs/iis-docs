@@ -1,1 +1,0 @@
-appcmd add apppool /name:"NewPool"  /managedRuntimeVersion:"v1.1"

@@ -1,1 +1,0 @@
-PS IIS:\Sites\MyNewWebSite> Enable-WebRequestTracing

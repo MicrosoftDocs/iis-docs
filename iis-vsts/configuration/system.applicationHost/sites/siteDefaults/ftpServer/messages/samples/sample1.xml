@@ -1,5 +1,0 @@
-<siteDefaults>
-     <ftpServer>
-      <messages bannerMessage="Welcome!" allowLocalDetailedErrors="true" />
-     </ftpServer>
-</siteDefaults>

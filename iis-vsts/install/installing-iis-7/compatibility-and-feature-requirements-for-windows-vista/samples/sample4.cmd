@@ -1,1 +1,0 @@
-adsutil.vbs set w3svc/1/SslCtlIdentifier <Name of CTL>

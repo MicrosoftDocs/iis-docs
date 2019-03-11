@@ -1,8 +1,0 @@
-<rule name="Back-references with trackAllCaptures set to true">
- <match url="^article\.aspx" >
- <conditions trackAllCaptures="true">
-    <add input="{QUERY_STRING}" pattern="p1=([0-9]+)" />
-    <add input="{QUERY_STRING}" pattern="p2=([a-z]+)" />  
- </conditions>
- <action type="Rewrite" url="article.aspx/{C:1}/{C:2}" /> <!-- rewrite action uses back-references to both conditions -->
-</rule>

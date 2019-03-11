@@ -1,9 +1,0 @@
-<configuration>
-   <system.webServer>
-      <caching enabled="true" enableKernelCache="true">
-         <profiles>
-            <add extension=".asp" policy="CacheUntilChange" kernelCachePolicy="CacheUntilChange" />
-         </profiles>
-      </caching>
-   </system.webServer>
-</configuration>

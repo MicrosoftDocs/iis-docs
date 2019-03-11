@@ -1,8 +1,0 @@
-<sectionSchema name="system.webServer/defaultDocument"> 
-    <attribute name="enabled" type="bool" defaultValue="true" /> 
-    <element name="files"> 
-      <collection addElement="add" clearElement="clear" removeElement="remove" mergeAppend="false"> 
-        <attribute name="value" type="string" isUniqueKey="true"/> 
-      </collection> 
-    </element> 
-</sectionSchema>

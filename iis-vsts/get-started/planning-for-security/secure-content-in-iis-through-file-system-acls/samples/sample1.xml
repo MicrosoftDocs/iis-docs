@@ -1,1 +1,0 @@
-<setAcl path="MyApp" setAclAccess="ReadAndExecute, Write" setAclUser="Foo" />

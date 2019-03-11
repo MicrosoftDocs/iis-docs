@@ -1,1 +1,0 @@
-appcmd.exe set config "Contoso" -section:system.webServer/modules /+"[name='CartHeader',type='Contoso.ShoppingCart.Header',preCondition='managedHandler']"

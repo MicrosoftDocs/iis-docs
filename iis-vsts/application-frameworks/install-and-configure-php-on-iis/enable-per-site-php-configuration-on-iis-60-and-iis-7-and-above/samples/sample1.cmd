@@ -1,1 +1,0 @@
-cscript fcgiconfig.js -add -section:"PHP website1.com" -extension:php -path:<php_path> -site:<site_id> cscript fcgiconfig.js -add -section:"PHP website2.com" -extension:php -path:<php_path> -site:<site_id>

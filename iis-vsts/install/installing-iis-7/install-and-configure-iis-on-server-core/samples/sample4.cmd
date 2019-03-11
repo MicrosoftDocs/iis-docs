@@ -1,1 +1,0 @@
-netdom renamecomputer <Current Computer name> /NewName:<NewComputerName>

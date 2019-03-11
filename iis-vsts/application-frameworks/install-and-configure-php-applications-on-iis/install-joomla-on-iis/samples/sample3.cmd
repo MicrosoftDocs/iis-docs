@@ -1,1 +1,0 @@
-C:\inetpub\wwwroot\Joomla>icacls tmp /grant BUILTIN\IIS_IUSRS:(OI)(CI)(M)

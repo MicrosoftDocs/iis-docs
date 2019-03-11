@@ -1,9 +1,0 @@
-<rules>
-   <rule name="UrlDecode example">
-      <match url="default.aspx" />
-      <conditions>
-         <add input="{UrlDecode:{QUERY_STRING}}" pattern="résumé" />
-      </conditions>
-      <action type="Rewrite" url="default.aspx?type=resume" />
-   </rule>
-</rules>

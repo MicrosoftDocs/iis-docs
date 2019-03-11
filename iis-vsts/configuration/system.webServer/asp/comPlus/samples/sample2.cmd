@@ -1,2 +1,0 @@
-appcmd.exe set config "Default Web Site" -section:system.webServer/asp /comPlus.trackThreadingModel:"True" /commit:apphost
-appcmd.exe set config "Default Web Site" -section:system.webServer/asp /comPlus.executeInMta:"True" /commit:apphost

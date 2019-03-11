@@ -1,1 +1,0 @@
-%localappdata%\Microsoft\Web Platform Installer\logs\install

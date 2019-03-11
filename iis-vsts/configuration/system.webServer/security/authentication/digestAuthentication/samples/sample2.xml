@@ -1,6 +1,0 @@
-<security>
-   <authentication>
-      <anonymousAuthentication enabled="false" />
-      <digestAuthentication enabled="true" />
-   </authentication>
-</security>

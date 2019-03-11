@@ -1,1 +1,0 @@
-appcmd.exe install module /name:ImageCopyrightModule /image:%windir%\system32\inetsrv\imageCopyrightModule.dll

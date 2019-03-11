@@ -1,1 +1,0 @@
-Backup-WDMySQLDatabase -Database 'Server=localhost;Database=MyDb;Uid=MyDbUser;pwd=MyPassword’

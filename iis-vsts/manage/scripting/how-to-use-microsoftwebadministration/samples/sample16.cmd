@@ -1,1 +1,0 @@
-Configuration config = serverManager.GetWebConfiguration("Default Web Site");

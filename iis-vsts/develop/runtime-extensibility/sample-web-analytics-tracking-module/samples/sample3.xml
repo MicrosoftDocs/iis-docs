@@ -1,1 +1,0 @@
-<add name="WebAnalytics" type="WebAnalyticsModule.WebAnalyticsProvider, WebAnalyticsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c6b7132bcfe43312" />

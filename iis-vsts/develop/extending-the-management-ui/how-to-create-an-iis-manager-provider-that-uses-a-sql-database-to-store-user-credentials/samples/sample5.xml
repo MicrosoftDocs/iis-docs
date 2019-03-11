@@ -1,6 +1,0 @@
-<authentication defaultProvider="ConfigurationAuthenticationProvider">
-   <providers>
-      <add name="ConfigurationAuthenticationProvider"
-         type="Microsoft.Web.Management.Server.ConfigurationAuthenticationProvider, Microsoft.Web.Management, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
-   </providers>
-</authentication>

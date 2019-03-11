@@ -1,8 +1,0 @@
-<configSchema> 
-    <sectionSchema name="system.applicationHost/sites"> 
-        <collection addElement="site"> 
-            <attribute name="owner" type="string" /> 
-            <attribute name="ownerEmail" type="string" /> 
-        </collection> 
-    </sectionSchema> 
-</configSchema>

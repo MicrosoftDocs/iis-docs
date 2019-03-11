@@ -1,1 +1,0 @@
-%windir%\system32\inetsrv\appcmd.exe list requests /elapsed:1000

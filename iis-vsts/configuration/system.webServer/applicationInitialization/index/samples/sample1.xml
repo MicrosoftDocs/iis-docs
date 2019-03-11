@@ -1,8 +1,0 @@
-<system.webServer>
-   <applicationInitialization
-      doAppInitAfterRestart="true"
-      skipManagedModules="true"
-      remapManagedRequestsTo="filename.htm">
-      <add initializationPage="/default.aspx" hostName="myhost"/>
-   </applicationInitialization>
-</system.webServer>

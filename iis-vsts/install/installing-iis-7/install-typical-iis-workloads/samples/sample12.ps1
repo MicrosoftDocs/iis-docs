@@ -1,1 +1,0 @@
-ServerManagerCmd -install Web-Server -a

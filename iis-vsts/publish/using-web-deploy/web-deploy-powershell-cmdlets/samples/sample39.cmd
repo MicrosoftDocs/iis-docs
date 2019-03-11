@@ -1,1 +1,0 @@
-Sync-WDApp "Default Web Site/drupal" "site1/drupal"

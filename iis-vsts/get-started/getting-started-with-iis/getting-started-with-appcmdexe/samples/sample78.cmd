@@ -1,1 +1,0 @@
-%systemroot%\system32\inetsrv\APPCMD set config /section:asp /?

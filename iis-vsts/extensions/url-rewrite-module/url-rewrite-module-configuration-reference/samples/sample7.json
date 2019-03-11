@@ -1,3 +1,0 @@
-{ToLower:DEFAULT.HTM}
-{UrlDecode:{REQUEST_URI}}
-{UrlEncode:{R:1}.aspx?p=[résumé]}

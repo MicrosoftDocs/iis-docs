@@ -1,1 +1,0 @@
-get-webconfiguration //* | where {$_.psbase.SectionPath -like "*" -and $_.psbase.SectionPath.length -gt 0} | select SectionPath

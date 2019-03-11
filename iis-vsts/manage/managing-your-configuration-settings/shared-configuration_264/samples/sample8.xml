@@ -1,6 +1,0 @@
-<configuration> 
-    <configSections> 
-        <section name="configurationRedirection" /> 
-    </configSections> 
-    <configurationRedirection enabled="true" path="\\machinename\centralconfig$\" userName="ConfigUser1 or domain\user" password="ConfigPass1 or domainPassword" /> 
-</configuration>

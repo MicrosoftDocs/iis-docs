@@ -1,1 +1,0 @@
-add-webconfigurationproperty /system.webServer/defaultDocument -name files -value @{value="foo.html"}

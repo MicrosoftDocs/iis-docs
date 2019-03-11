@@ -1,2 +1,0 @@
-<add name="httpPlatformHandler" image="%SystemRoot%\system32\inetsrv\httpPlatformHandler.dll" />
-</globalModules>

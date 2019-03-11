@@ -1,7 +1,0 @@
-<rule name="FileContainsProviderTest" stopProcessing="true">
-    <match url=".*" />
-    <conditions>
-        <add input="{FileContains:{HTTP_USER_AGENT}}" pattern=".+" />
-    </conditions>
-    <action type="AbortRequest" />
-</rule>

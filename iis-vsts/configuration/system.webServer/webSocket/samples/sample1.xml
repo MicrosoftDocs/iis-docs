@@ -1,7 +1,0 @@
-<system.webServer>
-   <webSocket
-      enabled="true" 
-      receiveBufferLimit="4194304"
-      pingInterval="00:01:00">
-   </webSocket>
-</system.webServer>

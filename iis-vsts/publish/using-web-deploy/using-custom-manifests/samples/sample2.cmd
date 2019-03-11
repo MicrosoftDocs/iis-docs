@@ -1,1 +1,0 @@
-msdeploy.exe -verb:sync -source:manifest=Custom.xml -dest:package=c:\CustomPackage.zip > WebDeployPackage.log

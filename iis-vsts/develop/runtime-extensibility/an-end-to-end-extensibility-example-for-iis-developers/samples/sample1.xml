@@ -1,7 +1,0 @@
-<configSchema>
-    <sectionSchema name="system.webServer/imageCopyright">
-        <attribute name="enabled" type="bool" defaultValue="false" />
-        <attribute name="message" type="string" defaultValue="Your Copyright Message" />
-        <attribute name="color" type="string" defaultValue="Red"/> 
-   </sectionSchema>
-</configSchema>

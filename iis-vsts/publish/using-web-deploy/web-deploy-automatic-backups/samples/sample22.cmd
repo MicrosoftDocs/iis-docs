@@ -1,1 +1,0 @@
-msdeploy.exe -verb:sync -source:backupmanager -dest:backupmanager=<siteName>,uselatst=true -skip:xpath=dirPath[@path='App_Data']

@@ -1,9 +1,0 @@
-<configuration>
-   <system.webServer>
-      <defaultDocument enabled="true">
-         <files>
-            <add value="home.html" />
-         </files>
-      </defaultDocument>
-   </system.webServer>
-</configuration>

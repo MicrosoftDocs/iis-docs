@@ -1,4 +1,0 @@
-<rule name="set server variables">
-    <match url="^article/(\d+)$" />
-    <action type="Rewrite" url="article.aspx?id={R:1}" logRewrittenUrl="true" />
-</rule>

@@ -1,9 +1,0 @@
-<siteDefaults>
-   <ftpServer>
-      <security>
-         <commandFiltering>
-            <add command="SYST" allowed="false" />
-         </commandFiltering>
-      </security>
-   </ftpServer>
-</siteDefaults>

@@ -1,1 +1,0 @@
-C:\Windows\SysWOW64\inetsrv\ftpext.tlb

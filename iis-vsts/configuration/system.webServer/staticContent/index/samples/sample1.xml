@@ -1,6 +1,0 @@
-<configuration>
-   <system.webServer>
-      <staticContent enableDocFooter="true"
-         defaultDocFooter="The information in this web site is copyrighted." />
-   </system.webServer>
-</configuration>

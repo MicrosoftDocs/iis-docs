@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.webServer/globalModules /+"[name='ImageCopyrightModule',image='%windir%\system32\inetsrv\imageCopyrightModule.dll']" /commit:apphost

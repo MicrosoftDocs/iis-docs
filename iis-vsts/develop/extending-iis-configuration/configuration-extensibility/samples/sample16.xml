@@ -1,3 +1,0 @@
-<system.webServer> 
-    <simpleLogging logfileDirectory="%systemdrive%\inetpub\logs\simpleLogs" /> 
-</system.webServer>

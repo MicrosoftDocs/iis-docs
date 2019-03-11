@@ -1,1 +1,0 @@
-Cscript %windir%\system32\SCRegEdit.wsf /ar 0

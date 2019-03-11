@@ -1,9 +1,0 @@
-<system.webServer>
-  <modules runAllManagedModulesForAllRequests="True" >
-    ...
-    <add name="MyUrlRewrite" 
-         type="SomeNamespace.MyModules.UrlRewrite, SomeNamespace.MyModules" 
-         preCondition="ManagedHandler" />
-    ...
-  </modules>
-<system.webServer>

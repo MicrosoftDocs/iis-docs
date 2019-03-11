@@ -1,1 +1,0 @@
-SimpleLoggingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=652a8d02f48e4288, processorArchitecture=MSIL

@@ -1,1 +1,0 @@
-appcmd.exe set config  -section:webFarms /+"[name='myServerFarm'].applicationRequestRouting.affinity.[name='www.contoso.com',servers='2']" /commit:apphost

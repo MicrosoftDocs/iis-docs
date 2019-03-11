@@ -1,8 +1,0 @@
-<configuration>
-   <system.webServer>
-      <staticContent>
-         <mimeMap fileExtension=".syx" mimeType="application/octet-stream" />
-         <mimeMap fileExtension=".tab" mimeType="text/plain" />
-      </staticContent>
-   </system.webServer>
-</configuration>

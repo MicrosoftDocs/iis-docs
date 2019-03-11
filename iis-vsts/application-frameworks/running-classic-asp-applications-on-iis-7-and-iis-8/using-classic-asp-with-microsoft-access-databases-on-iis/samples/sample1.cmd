@@ -1,1 +1,0 @@
-%windir%\syswow64\odbcad32.exe

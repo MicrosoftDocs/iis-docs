@@ -1,9 +1,0 @@
-<rewrite>
- <rewriteMaps>
-  <rewriteMap name="StaticRewrites" defaultValue="">
-    <add key="/diagnostics" value="/default.aspx?tabid=2&amp;subtabid=29" />
-    <add key="/webcasts" value="/default.aspx?tabid=2&amp;subtabid=24" />
-    <add key="/php" value="/default.aspx?tabid=7116" />
-  </rewriteMap>
- </rewriteMaps>
-</rewrite>

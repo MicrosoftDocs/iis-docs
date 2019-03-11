@@ -1,9 +1,0 @@
-<siteDefaults>
-   <ftpServer>
-      <security>
-         <customAuthorization>
-            <provider name="MyProvider" enabled="true" />
-         </customAuthorization>
-      </security>
-   </ftpServer>
-</siteDefaults>

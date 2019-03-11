@@ -1,1 +1,0 @@
-%WINDIR%\system32\inetsrv\appcmd.exe set config -section:system.webServer/security/dynamicIpSecurity /denyByRequestRate.enabled:"True" /denyByRequestRate.maxRequests:"5" /denyByRequestRate.requestIntervalInMilliseconds:"5000" /commit:apphost

@@ -1,1 +1,0 @@
-mydomain\machine1$

@@ -1,5 +1,0 @@
-<siteDefaults>
-   <ftpServer>
-      <firewallSupport externalIp4Address="169.254.10.10" />
-   </ftpServer>
-</siteDefaults>

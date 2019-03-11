@@ -1,1 +1,0 @@
-UTProcessName == "w3wp.exe (<pid>)" AND ProtocolName == "WINHTTP_MicrosoftWindowsWinHttp"

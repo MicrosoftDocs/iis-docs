@@ -1,1 +1,0 @@
-%windir%\system32\inetsrv\appcmd.exe list modules /app.name:"Default Web Site"

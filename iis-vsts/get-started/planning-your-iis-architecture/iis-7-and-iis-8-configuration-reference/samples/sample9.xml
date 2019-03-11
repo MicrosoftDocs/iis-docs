@@ -1,6 +1,0 @@
-<ENUM
-
-    name=""  [String, Required] [Friendly name of the enumerator] 
-    value="" [int, Required] [Numeric value]
-
-/>

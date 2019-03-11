@@ -1,1 +1,0 @@
-$folderList = @(‘\\app_data’)

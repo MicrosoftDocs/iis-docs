@@ -1,1 +1,0 @@
-%systemroot%\system32\inetsrv\APPCMD list sites /serverAutoStart:false /state:Stopped

@@ -1,2 +1,0 @@
-REM Enable logging by default with daily log file rollover.
-appcmd.exe set config -section:system.applicationHost/sites /siteDefaults.ftpServer.logFile.period:"Daily" /siteDefaults.ftpServer.logFile.enabled:"True" /commit:apphost

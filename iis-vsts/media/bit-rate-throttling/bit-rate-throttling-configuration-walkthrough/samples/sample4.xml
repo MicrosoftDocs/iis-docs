@@ -1,4 +1,0 @@
-<connectionLimitGroups>
-	<add name="VideoFiles" connectionLimit="5000" />
-	<add name="AudioFiles" connectionLimit="0" />
-</connectionLimitGroups>

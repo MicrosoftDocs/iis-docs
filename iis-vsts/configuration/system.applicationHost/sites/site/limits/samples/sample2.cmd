@@ -1,3 +1,0 @@
-appcmd.exe set config -section:system.applicationHost/sites "/[name='Default Web Site'].limits.maxBandwidth:65536" /commit:apphost
-appcmd.exe set config -section:system.applicationHost/sites "/[name='Default Web Site'].limits.maxConnections:1024" /commit:apphost
-appcmd.exe set config -section:system.applicationHost/sites "/[name='Default Web Site'].limits.connectionTimeout:00:01:00" /commit:apphost

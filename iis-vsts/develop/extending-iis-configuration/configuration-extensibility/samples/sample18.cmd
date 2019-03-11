@@ -1,1 +1,0 @@
-sn.exe /k keyFile.snk

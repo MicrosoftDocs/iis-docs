@@ -1,1 +1,0 @@
-mysql>CREATE DATABASE my_DB;

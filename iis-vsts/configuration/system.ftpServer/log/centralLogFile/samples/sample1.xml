@@ -1,5 +1,0 @@
-<system.ftpServer>
-   <log centralLogFileMode="Central">
-      <centralLogFile enabled="true" />
-   </log>
-</system.ftpServer>

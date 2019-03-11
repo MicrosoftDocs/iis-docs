@@ -1,1 +1,0 @@
-Backup-WDServer -SourcePublishSettings c:\profiles\myserver.publishsettings -ConfigOnly

@@ -1,1 +1,0 @@
-AppCmd set config "Default Web Site/" /section:system.webServer/webdav/authoringRules /defaultMimeType:"text/plain" /commit:apphost

@@ -1,8 +1,0 @@
-<site name="Racing Site" id="2" serverAutoStart="true"> 
-    <application path="/"> 
-        <virtualDirectory path="/" physicalPath="d:\racing" /> 
-    </application> 
-    <bindings> 
-        <binding protocol="http" bindingInformation=":8080:" /> 
-    </bindings> 
-</site>

@@ -1,1 +1,0 @@
-Backup-WDMySqlDatabase –SourcePublishSettings d:\mysqldb.publishsettings

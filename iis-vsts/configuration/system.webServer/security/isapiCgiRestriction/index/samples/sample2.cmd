@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.webServer/security/isapiCgiRestriction /+"[path='C:\Inetpub\www.contoso.com\wwwroot\isapi\custom.dll',allowed='True',groupId='ContosoGroup',description='Contoso Extension']" /commit:apphost

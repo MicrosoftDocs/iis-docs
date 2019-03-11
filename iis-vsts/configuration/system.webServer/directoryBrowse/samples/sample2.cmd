@@ -1,1 +1,0 @@
-appcmd.exe set config "Contoso" -section:system.webServer/directoryBrowse /enabled:"True" /showFlags:"Date, Time, Size, Extension"

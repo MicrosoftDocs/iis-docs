@@ -1,1 +1,0 @@
-md %systemdrive%\perftest

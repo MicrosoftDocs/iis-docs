@@ -1,1 +1,0 @@
-%windir%\system32\inetsrv\appcmd set config -section:anonymousAuthentication /username:"" --password

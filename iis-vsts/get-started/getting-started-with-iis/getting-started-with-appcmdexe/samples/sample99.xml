@@ -1,3 +1,0 @@
-<site name="Default Web Site" id="1">
-  <bindings>
-        <binding protocol="HTTP" bindingInformation="*:80:" />

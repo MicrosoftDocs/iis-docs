@@ -1,1 +1,0 @@
-appcmd.exe set config "Default Web Site" -section:system.webServer/tracing/traceFailedRequests /+"[path='*'].traceAreas.[provider='WWW Server',areas='Rewrite,RequestRouting',verbosity='Verbose']"

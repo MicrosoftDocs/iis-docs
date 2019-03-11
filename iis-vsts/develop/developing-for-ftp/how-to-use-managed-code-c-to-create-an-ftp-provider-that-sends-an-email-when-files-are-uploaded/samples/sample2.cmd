@@ -1,1 +1,0 @@
-C:\Program Files\Reference Assemblies\Microsoft\IIS

@@ -1,4 +1,0 @@
-<moduleProviders>
-  <add name="ExtensibilityDemo" type="ExtensibilityDemo.DemoModuleProvider, ExtensibilityDemo, 
-                          Version=1.0.0.0, Culture=neutral, PublicKeyToken=bed679b1975c7f97" />
-<moduleProviders>

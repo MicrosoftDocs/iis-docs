@@ -1,9 +1,0 @@
-<configuration>
-   <system.webServer>
-      <httpTracing>
-         <traceUrls>
-            <add value="/iisstart.htm" />
-         </traceUrls>
-      </httpTracing>
-   </system.webServer>
-</configuration>

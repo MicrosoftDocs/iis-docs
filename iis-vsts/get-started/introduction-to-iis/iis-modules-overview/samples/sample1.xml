@@ -1,7 +1,0 @@
-<globalModules>
-	<addname="DefaultDocumentModule"image="%windir%\system32\inetsrv\defdoc.dll"/>
-	<addname="DirectoryListingModule"image="%windir%\system32\inetsrv\dirlist.dll"/>
-	<add name="StaticFileModule"image="%windir%\system32\inetsrv\static.dll"/>
-	...
-
-</globalModules>

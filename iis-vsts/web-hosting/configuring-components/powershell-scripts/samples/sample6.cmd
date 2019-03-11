@@ -1,1 +1,0 @@
-CreateIISVDirOntoApplication "C:\Content\Logs" "/App1/VDir" "DAP1Site1" "/App1"

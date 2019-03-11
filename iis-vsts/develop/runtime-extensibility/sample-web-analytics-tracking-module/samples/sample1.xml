@@ -1,3 +1,0 @@
-<modules>
-	<add name="WebAnalytics" type="WebAnalyticsModule.WebAnalyticsHttpModule" />
-</modules>

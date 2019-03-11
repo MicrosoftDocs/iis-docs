@@ -1,5 +1,0 @@
-<configuration>
-   <system.webServer>
-      <urlCompression doStaticCompression="true" doDynamicCompression="false" />
-   </system.webServer>
-</configuration>

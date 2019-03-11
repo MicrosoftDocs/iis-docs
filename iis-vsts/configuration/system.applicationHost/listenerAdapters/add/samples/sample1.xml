@@ -1,7 +1,0 @@
-<system.applicationHost>
-   <listenerAdapters>
-      <add name="gopher"
-         protocolManagerDll="%SystemRoot%\system32\inetsrv\gophersvc.dll"
-         protocolManagerDllInitFunction="GopherInit" />
-   </listenerAdapters>
-</system.applicationHost>

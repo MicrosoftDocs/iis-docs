@@ -1,8 +1,0 @@
-<rewrite>
-    <rules>
-        <rule name="Rewrite to new folder">
-            <match url="^Images/(.+)$" />
-            <action type="Rewrite" url="NewImages/{R:1}" />
-        </rule>
-    </rules>
-</rewrite>

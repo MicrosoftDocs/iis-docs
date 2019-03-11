@@ -1,1 +1,0 @@
-%windir%\Microsoft.NET\Framework\v1.1.4322\aspnet_regiis -enable

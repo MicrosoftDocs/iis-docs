@@ -1,1 +1,0 @@
-call "%VS80COMNTOOLS%\vsvars32.bat" > NULL

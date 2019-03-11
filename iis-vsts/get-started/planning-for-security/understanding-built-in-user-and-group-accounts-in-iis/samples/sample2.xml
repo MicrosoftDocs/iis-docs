@@ -1,5 +1,0 @@
-<applicationPools>
-    <add name="DefaultAppPool">
-        <processModel manualGroupMembership="true" />
-    </add>
-</applicationPools >

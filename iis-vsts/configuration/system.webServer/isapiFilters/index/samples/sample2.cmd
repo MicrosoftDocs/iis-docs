@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.webServer/isapiFilters /+"[name='SalesQueryIsapi',path='c:\Inetpub\www.contoso.com\filters\SalesQueryIsapi.dll',enabled='True',enableCache='True']" /commit:apphost

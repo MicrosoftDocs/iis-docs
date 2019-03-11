@@ -1,1 +1,0 @@
-appcmd.exe set apppool "DefaultAppPool" -processModel.idleTimeout:"00:00:00" /commit:apphost

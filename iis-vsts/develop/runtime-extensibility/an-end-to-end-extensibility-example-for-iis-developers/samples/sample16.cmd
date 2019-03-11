@@ -1,1 +1,0 @@
-appcmd recycle AppPool DefaultAppPool

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<msdeploy.iisApp>
-  <iisApp path="Vacation Pictures" />
-  <setAcl path="Vacation Pictures/App_Data" setAclAccess="Write, ReadAndExecute" />
-  <dbFullSql path="CreateDBAndUser.sql" />
-  <dbFullSql path="VacPicDBSchema.sql" />
-</msdeploy.iisApp>

@@ -1,1 +1,0 @@
-start /w ocsetup MicrosoftWindowsPowerShell

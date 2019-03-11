@@ -1,1 +1,0 @@
-%systemroot%\system32\inetsrv\APPCMD add vdir /app.name:"MySite/app1" /path:/vdir1 /physicalPath:C:\inetpub\mysite\app1\vdir1

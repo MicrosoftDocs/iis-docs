@@ -1,1 +1,0 @@
-PS IIS:\> New-WebBinding -Name "Default Web Site" -IP "*" -Port 443 -Protocol https

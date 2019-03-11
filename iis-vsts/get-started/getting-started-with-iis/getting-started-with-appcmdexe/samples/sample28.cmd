@@ -1,1 +1,0 @@
-Restored configuration from backup "MyBackup"

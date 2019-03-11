@@ -1,2 +1,0 @@
-Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST'  -filter "system.applicationHost/sites/siteDefaults/ftpServer/security/customAuthorization/provider" -name "name" -value "MyCustomProvider"
-Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST'  -filter "system.applicationHost/sites/siteDefaults/ftpServer/security/customAuthorization/provider" -name "enabled" -value "True"

@@ -1,1 +1,0 @@
-Accept-Language: en-us

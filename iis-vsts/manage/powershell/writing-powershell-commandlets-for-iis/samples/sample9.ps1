@@ -1,1 +1,0 @@
->$global:iiscredential = new-object System.Management.Automation.PsCredential "Administrator",$(convertto-securestring "password" -asplaintext -force)

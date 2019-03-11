@@ -1,7 +1,0 @@
-<configSchema> 
-  <sectionSchema name="system.webServer/simpleLogging"> 
-    <element name="logfile"> 
-      <attribute name="fileLocation" type="string" /> 
-    </element> 
-  </sectionSchema> 
-</configSchema>

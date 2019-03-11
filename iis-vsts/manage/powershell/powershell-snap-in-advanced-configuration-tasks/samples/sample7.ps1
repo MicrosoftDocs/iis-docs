@@ -1,1 +1,0 @@
-get-webconfiguration system.webServer/caching | select -exp Attributes | select Name

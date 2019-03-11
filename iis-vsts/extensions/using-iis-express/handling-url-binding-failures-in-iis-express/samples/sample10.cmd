@@ -1,1 +1,0 @@
-httpcfg delete urlacl /u http://myhostname:8080/

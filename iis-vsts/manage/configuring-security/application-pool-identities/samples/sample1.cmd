@@ -1,1 +1,0 @@
-%windir%\system32\inetsrv\appcmd.exe set AppPool <your AppPool> -processModel.identityType:ApplicationPoolIdentity

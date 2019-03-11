@@ -1,7 +1,0 @@
-<siteDefaults>
-   <ftpServer>
-      <security>
-         <ssl controlChannelPolicy="SslAllow" dataChannelPolicy="SslAllow" serverCertHash="57686f6120447564652c2049495320526f636b73"/>
-      </security>
-   </ftpServer>
-</siteDefaults>

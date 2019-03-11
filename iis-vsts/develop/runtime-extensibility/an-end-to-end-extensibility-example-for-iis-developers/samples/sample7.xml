@@ -1,3 +1,0 @@
-<system.webServer> 
-	<imageCopyright enabled="true" message="Copyright (C) Contoso.COM" color="yellow" />
-</system.webServer>

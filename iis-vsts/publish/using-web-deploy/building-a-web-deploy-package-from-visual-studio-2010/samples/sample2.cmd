@@ -1,1 +1,0 @@
-msbuild {project file} /t:Package

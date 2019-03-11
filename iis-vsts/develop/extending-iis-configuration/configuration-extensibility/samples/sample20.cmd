@@ -1,1 +1,0 @@
-gacutil.exe /i SimpleLoggingModule.dll

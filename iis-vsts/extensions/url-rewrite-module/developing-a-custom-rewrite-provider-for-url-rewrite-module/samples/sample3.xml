@@ -1,6 +1,0 @@
-<rules>
-    <rule name="ReplaceProviderTest" stopProcessing="true">
-        <match url="_" />
-        <action type="Redirect" url="{ReplaceProvider:{URL}}" />
-    </rule>
-</rules>

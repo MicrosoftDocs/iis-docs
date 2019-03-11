@@ -1,5 +1,0 @@
-<pre>
-<?php
-print_r(wincache_fcache_fileinfo());
-?>
-</pre>

@@ -1,1 +1,0 @@
-netsh advfirewall set global StatefulFtp enable

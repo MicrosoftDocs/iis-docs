@@ -1,3 +1,0 @@
-<applicationInitialization skipManagedModules="true" >
-  <add initializationPage="/default.aspx" />
-</applicationInitialization>

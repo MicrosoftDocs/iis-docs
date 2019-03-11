@@ -1,9 +1,0 @@
-<globalModules>
-
-    <!--several modules omitted -->
-
-    <add name="BasicAuthenticationModule" image="…\authbas.dll" />
-
-    <add name="WindowsAuthenticationModule" image="…\authsspi.dll" />
-
-</globalModules>

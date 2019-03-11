@@ -1,1 +1,0 @@
-appcmd.exe set config  -section:system.webServer/externalCache/diskCache /[name='ARRCache'].path:"\\wonyoo-w2k8-3\IISShared" /[name='ARRCache'].userName:"redmond\wonyoo" /[name='ARRCache'].password:"********"  /commit:apphost

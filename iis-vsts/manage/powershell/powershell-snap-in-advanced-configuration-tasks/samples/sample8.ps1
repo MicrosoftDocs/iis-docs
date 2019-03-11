@@ -1,1 +1,0 @@
-get-webconfiguration //* | where {$_.psbase.SectionPath -like "*" -and $_.psbase.SectionPath.length -gt 0} | foreach {$_.SectionPath.ToUpper();get-webconfiguration $_.SectionPath | select -exp Attributes | select Name;"`n"} | more

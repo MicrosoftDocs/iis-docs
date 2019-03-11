@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.applicationHost/sites /+"[name='ftp.example.com'].ftpServer.customFeatures.providers.[name='CustomLoggingModule',enabled='True']" /commit:apphost

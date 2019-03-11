@@ -1,1 +1,0 @@
-Cscript.exe GetState.vbs

@@ -1,1 +1,0 @@
-netsh http delete urlacl url=http://myhostname:8080/

@@ -1,3 +1,0 @@
-<system.webServer>
-   <httpRedirect enabled="true" destination="http://www.contoso.com/" />
-</system.webServer>

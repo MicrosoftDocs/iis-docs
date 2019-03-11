@@ -1,3 +1,0 @@
-<preCondition name="IsHTML">
-    <add input="{RESPONSE_CONTENT_TYPE}" pattern="^text/html" />
-</preCondition>

@@ -1,9 +1,0 @@
-<ftpServer>
-    <security>
-        <authentication>
-            <anonymousAuthentication enabled="false" userName="IUSR" />
-            <basicAuthentication enabled="true" />
-        </authentication>
-        <ssl serverCertHash="" controlChannelPolicy="SslRequire" dataChannelPolicy="SslRequire" />
-    </security>
-</ftpServer>

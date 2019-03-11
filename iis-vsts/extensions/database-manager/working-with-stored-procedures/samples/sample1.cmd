@@ -1,1 +1,0 @@
-@Username VARCHAR(50)

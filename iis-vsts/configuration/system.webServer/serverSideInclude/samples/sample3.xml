@@ -1,5 +1,0 @@
-<location path="Default Web Site">
-   <system.webServer>
-      <serverSideInclude ssiExecDisable="true" />
-   </system.webServer>
-</location>

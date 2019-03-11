@@ -1,1 +1,0 @@
-private CanonicalDomainModuleServiceProxy _serviceProxy;

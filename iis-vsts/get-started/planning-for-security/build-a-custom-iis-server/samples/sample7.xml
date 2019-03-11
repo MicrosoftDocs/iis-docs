@@ -1,6 +1,0 @@
-<handlers>
-    <!-- certain details omitted -->
-    <add name="CGI-exe" path="*.exe" verb="*" modules="CgiModule" ... />
-    <add name="ISAPI-dll" path="*.dll" verb="*" modules="IsapiModule" ... />
-    <add name="ASPClassic" path="*.asp" verb="GET,HEAD,POST"  modules="IsapiModule" ... />
-</handlers>

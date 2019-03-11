@@ -1,1 +1,0 @@
-%systemroot%\system32\inetsrv\APPCMD add site /name:MySite /id:2 /bindings:http/*:81: /physicalPath:C:\inetpub\mysite

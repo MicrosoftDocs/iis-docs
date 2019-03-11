@@ -1,1 +1,0 @@
-msdeploy -verb:sync  -source:apphostconfig="Default Web Site" -dest:package=c:\site1.zip

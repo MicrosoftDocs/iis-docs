@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.applicationHost/listenerAdapters /+"[name='gopher',protocolManagerDll='%SystemRoot%\system32\inetsrv\gophersvc.dll',protocolManagerDllInitFunction='GopherInit']" /commit:apphost

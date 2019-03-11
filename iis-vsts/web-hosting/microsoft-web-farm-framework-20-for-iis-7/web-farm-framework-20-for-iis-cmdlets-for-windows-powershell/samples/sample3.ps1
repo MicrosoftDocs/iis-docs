@@ -1,1 +1,0 @@
-Get-Command WebFarmSnapin\*

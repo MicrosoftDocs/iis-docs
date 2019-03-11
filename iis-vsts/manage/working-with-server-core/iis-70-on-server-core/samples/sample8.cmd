@@ -1,1 +1,0 @@
-Net localgroup Administrators /add <domain>\<username>

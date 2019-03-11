@@ -1,1 +1,0 @@
-cd "%WinDir%\System32\InetSrv"

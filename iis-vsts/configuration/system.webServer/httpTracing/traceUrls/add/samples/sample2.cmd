@@ -1,1 +1,0 @@
-appcmd.exe set config "Contoso" -section:system.webServer/httpTracing /+"traceUrls.[value='/iisstart.htm']" /commit:apphost

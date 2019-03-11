@@ -1,1 +1,0 @@
-%systemroot%\system32\inetsrv\APPCMD add apppool /name:MyAppPool

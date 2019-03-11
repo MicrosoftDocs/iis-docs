@@ -1,1 +1,0 @@
-w3svc/filters/compression/parameters

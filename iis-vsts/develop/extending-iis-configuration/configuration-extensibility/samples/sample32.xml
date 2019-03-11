@@ -1,8 +1,0 @@
-<configSchema> 
-    <sectionSchema name="system.webServer/simpleLogging"> 
-        <attribute name="logfileDirectory" type="string" 
-            defaultValue="c:\inetpub\logs\simpleLogs\" expanded="true" encrypted="false" />
-        <attribute name="logfileCount" type="int" extension="ConfigurationExtensibility.SimpleLoggingExtension" /> 
-        <method name="deleteLogs" extension="ConfigurationExtensibility.SimpleLoggingExtension" /> 
-    </sectionSchema> 
-</configSchema>

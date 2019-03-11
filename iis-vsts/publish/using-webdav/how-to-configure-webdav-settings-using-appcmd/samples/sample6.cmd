@@ -1,1 +1,0 @@
-AppCmd list apppool

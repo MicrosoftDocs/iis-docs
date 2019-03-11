@@ -1,5 +1,0 @@
-<configuration>
-   <system.webServer>
-      <caching enabled="true" enableKernelCache="true" maxCacheSize="1000" maxResponseSize="512000"/>
-   </system.webServer>
-</configuration>

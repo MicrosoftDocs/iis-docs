@@ -1,5 +1,0 @@
-<configuration>
-   <system.webServer>
-      <directoryBrowse enabled="true" showFlags="Date,Time,Extension,Size" />
-   </system.webServer>
-</configuration>

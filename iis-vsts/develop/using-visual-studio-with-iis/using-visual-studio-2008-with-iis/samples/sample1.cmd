@@ -1,1 +1,0 @@
-> "%CommonProgramFiles%\Microsoft Shared\Web Server Extensions\50\bin\owsadm.exe" -o install -p LM/W3SVC/<SITEID> -u <USERNAME>

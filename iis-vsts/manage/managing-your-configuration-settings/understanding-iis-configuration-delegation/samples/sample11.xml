@@ -1,7 +1,0 @@
-<location path="Developer Site"> 
-	<defaultDocument enabled="true" > 
-		<files> 
-			<add value="basic.htm" lockItem="true"/> 
-		</files> 
-	</defaultDocument> 
-</location>

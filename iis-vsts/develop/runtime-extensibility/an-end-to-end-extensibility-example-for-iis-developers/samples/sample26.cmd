@@ -1,1 +1,0 @@
-"%vs80comntools%\vsvars32.bat

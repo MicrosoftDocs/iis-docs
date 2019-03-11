@@ -1,1 +1,0 @@
-This is a sample page served by the static file handler (native code).

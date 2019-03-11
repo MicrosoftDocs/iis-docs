@@ -1,1 +1,0 @@
-%windir%\system32\inetsrv>AppCmd set config "Default Web Site" -commitPath:APPHOST -section:access -sslFlags:Ssl

@@ -1,1 +1,0 @@
-Restore-WDDatabase c:\dbbackup.zip –DatabaseConnectionStringParam1 "server=.\sqlexpress;integrated security=SSPI;database=customers_copy"

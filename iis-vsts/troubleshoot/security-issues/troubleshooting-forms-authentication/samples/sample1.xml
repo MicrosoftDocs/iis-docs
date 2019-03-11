@@ -1,3 +1,0 @@
-<httpModule> 
-	<add name="FormsAuthentication" type="System.Web.Security.FormsAuthenticationModule" />            
-</httpModule>

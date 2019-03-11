@@ -1,1 +1,0 @@
-appcmd set config "Default Web Site/mypictures/" -section:handlers /+[name='BMP-imageCopyrightHandler',path='*.bmp',verb='GET',type='IIS7Demos.imageCopyrightHandler']

@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.applicationHost/sites "/[name='Default Web Site'].applicationDefaults.applicationPool:DefaultAppPool" /commit:apphost

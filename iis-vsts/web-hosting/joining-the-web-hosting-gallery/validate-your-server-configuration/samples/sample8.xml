@@ -1,8 +1,0 @@
-<Validation
-  id="CheckWDeployInstalled"
-  type="WebPIInstalledProductValidator"
-  productId="WDeploy"
-  category="product"
-  description="Check if Web Deploy 2.0 is installed"
-  detailsUrlBase="http://go.microsoft.com/fwlink/?LinkId=206559"
-/>

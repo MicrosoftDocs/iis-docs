@@ -1,1 +1,0 @@
-Appcmd list config –section:configHistory –config:*

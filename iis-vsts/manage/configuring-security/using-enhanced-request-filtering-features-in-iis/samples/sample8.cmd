@@ -1,1 +1,0 @@
-appcmd.exe set config "Default Web Site" -section:system.webServer/security/requestFiltering /+"filteringRules.[name='BlockSqlCommands',scanQueryString='True'].appliesTo.[fileExtension='.asp']"

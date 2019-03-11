@@ -1,1 +1,0 @@
-set-webconfigurationproperty /system.webServer/security/authentication/anonymousAuthentication -name userName -value ""

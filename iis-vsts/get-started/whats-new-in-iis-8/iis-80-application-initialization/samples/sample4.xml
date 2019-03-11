@@ -1,5 +1,0 @@
-<applicationInitialization
-    remapManagedRequestsTo="Startup.htm" 
-    skipManagedModules="true" >
-  <add initializationPage="/default.aspx" />
-</applicationInitialization>

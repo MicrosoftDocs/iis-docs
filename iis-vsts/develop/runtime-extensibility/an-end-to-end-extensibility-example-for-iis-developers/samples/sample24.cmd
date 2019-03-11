@@ -1,5 +1,0 @@
-Connection.ConfigurationPath.SiteName,
-
-Connection.ConfigurationPath.ApplicationPath+
-
-Connection.ConfigurationPath.FolderPath

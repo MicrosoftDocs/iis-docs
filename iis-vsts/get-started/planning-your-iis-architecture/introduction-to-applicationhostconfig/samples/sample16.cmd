@@ -1,2 +1,0 @@
-validationType="trimWhiteSpaceString"
-validationParameter=""

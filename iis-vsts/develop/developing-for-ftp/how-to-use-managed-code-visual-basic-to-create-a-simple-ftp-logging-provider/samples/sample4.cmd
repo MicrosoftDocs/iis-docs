@@ -1,1 +1,0 @@
-AppCmd set site "Default Web Site" /+ftpServer.customFeatures.providers.[name='FtpLoggingDemo',enabled='true'] /commit:apphost

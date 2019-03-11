@@ -1,1 +1,0 @@
-%systemroot%\system32\inetsrv\APPCMD list apps /site.name:"Default Web Site"

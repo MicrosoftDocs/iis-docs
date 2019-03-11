@@ -1,1 +1,0 @@
-APPCMD <OBJECT> /?

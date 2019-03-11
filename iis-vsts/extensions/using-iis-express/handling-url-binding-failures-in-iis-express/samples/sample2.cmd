@@ -1,1 +1,0 @@
-httpcfg set urlacl /u http://localhost:80/ /a D:(A;;GX;;;WD)

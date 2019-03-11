@@ -1,1 +1,0 @@
-%systemroot%\system32\inetsrv\APPCMD set config /section:system.webServer/modules /[name='FormsAuthentication'].type:System.Web.Security.FormsAuthenticationModule

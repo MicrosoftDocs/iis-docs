@@ -1,1 +1,0 @@
-APPCMD SET <OBJECT> <ID> [ /property:value ]*

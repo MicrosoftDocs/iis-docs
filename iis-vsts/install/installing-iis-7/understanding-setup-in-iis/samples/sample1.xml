@@ -1,8 +1,0 @@
-<xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State"> 
-        name="Microsoft-Windows-Foundation-Package" 
-        version="6.0.5308.6" 
-        language="neutral" 
-        processorArchitecture="x86" 
-        publicKeyToken="31bf3856ad364e35" 
-        versionScope="nonSxS" 
-/>

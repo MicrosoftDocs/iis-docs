@@ -1,2 +1,0 @@
-%windir%\Microsoft.NET\Framework\v2.0.50727\csc.exe /t:library SimpleLoggingModule.cs /r:System.Web.dll 
-                   /r:%windir%\system32\inetsrv\Microsoft.Web.Administration.dll /keyfile:keyFile.snk

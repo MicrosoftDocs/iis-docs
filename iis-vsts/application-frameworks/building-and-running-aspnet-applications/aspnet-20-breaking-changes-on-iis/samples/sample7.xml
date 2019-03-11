@@ -1,5 +1,0 @@
-<system.webServer>
-	<security>
-		<requestFiltering allowDoubleEscaping="true" />
-	</security>
-</system.webServer>

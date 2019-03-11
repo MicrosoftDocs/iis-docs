@@ -1,1 +1,0 @@
-slmgr.vbs –ato

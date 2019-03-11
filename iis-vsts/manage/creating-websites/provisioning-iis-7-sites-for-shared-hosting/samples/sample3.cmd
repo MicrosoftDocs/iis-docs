@@ -1,1 +1,0 @@
-"%windir%\Microsoft.NET\Framework\{version}\Temporary ASP.NET Files"

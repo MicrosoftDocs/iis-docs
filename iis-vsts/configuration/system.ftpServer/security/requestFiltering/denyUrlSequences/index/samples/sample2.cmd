@@ -1,1 +1,0 @@
-appcmd.exe set config "Default Web Site" -section:system.ftpServer/security/requestFiltering /+"denyUrlSequences.[sequence='bin']" /commit:apphost

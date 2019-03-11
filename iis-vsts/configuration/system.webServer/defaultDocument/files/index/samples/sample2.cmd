@@ -1,1 +1,0 @@
-appcmd.exe set config "Contoso" /section:defaultDocument /enabled:true /+files.[value='home.html']

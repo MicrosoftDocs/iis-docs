@@ -1,7 +1,0 @@
-<authorizationRules>
-   <scope path="/Default Web Site">
-      <add name="Contoso" />
-      <add name="COMPUTER01\Test Group" isRole="true" />
-      <add name="COMPUTER01\Contoso2" />
-   </scope>
-</authorizationRules>

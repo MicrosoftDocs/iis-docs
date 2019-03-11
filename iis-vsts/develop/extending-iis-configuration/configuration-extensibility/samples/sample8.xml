@@ -1,9 +1,0 @@
-<collection 
-addElement="" [String] [Name of Add directive, if supported] 
-removeElement="" [String] [Name of Remove directive, if supported] 
-clearElement="" [String] [Name of Clear directive, if supported] 
-defaultElement="" [applicationDefaults|applicationPoolDefaults|siteDefaults|virtualDirectoryDefaults] 
-mergeAppend="true" [bool] [Indicates whether or not deepest set values are appended] 
-allowDuplicates="false" [bool] [Indicates if multiple elements may have the same key] 
-allowUnrecognizedAttributes="false" [bool] [Indicates if non-schema attributes are ok] 
-/>

@@ -1,1 +1,0 @@
-appcmd.exe set config "Default Web Site" -section:system.webServer/serverSideInclude /ssiExecDisable:"True" /commit:apphost

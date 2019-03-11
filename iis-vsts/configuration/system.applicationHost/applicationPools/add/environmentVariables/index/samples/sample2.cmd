@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.applicationHost/applicationPools /+"[name='Contoso'].environmentVariables.[name='foo',value='bar']" /commit:apphost

@@ -1,1 +1,0 @@
-Appcmd.exe list modules [/app.name:APPLICATION_NAME]

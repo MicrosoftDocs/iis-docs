@@ -1,1 +1,0 @@
-netsh interface ipv4 add dnsserver name="Local Area Connection" address=<IPAddress of DNS>

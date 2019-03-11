@@ -1,1 +1,0 @@
-PS IIS:\Sites\DemoSite\DemoApp> Get-WebConfigurationProperty -filter //defaultDocument/files -name Collection[value="index*"] | select value

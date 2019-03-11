@@ -1,1 +1,0 @@
-%windir%\system32\inetsrv\appcmd list config -section:system.webServer/imageCopyright

@@ -1,1 +1,0 @@
-PS C:\Program Files\IIS\Microsoft Web Deploy V2\Scripts> .\CreateSqlDatabase.ps1 -databaseName UserADb -databaseUserName UserADbUser -databaseUserPassword Passw0rdA -databaseAdminUser sa -databaseAdminPassword Passw0rd -sqlServerInstanceName .\SQLExpress -publishSettingSavePath C:\profiles -publishSettingFileName UserA.PublishSettings

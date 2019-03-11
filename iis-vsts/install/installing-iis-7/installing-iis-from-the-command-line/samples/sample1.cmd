@@ -1,1 +1,0 @@
-Start /w pkgmgr.exe /iu:update1;update2…

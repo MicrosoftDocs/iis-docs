@@ -1,4 +1,0 @@
-<demoManifest>
-  <iisApp path="Site1" />
-  <dbfullsql path="server=.\sqlexpress;integrated security=SSPI;database=customers" />
-</demoManifest>

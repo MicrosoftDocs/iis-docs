@@ -1,1 +1,0 @@
-rename %SystemDrive%\PHP\PHP.INI-Recommended %SystemDrive%\PHP\PHP.INI

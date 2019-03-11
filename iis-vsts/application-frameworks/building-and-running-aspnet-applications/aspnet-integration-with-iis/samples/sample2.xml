@@ -1,3 +1,0 @@
-<system.webServer> 
-	<validation validateIntegratedModeConfiguration="false" />    
-</system.webServer>

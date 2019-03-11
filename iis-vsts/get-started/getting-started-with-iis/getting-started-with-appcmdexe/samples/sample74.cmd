@@ -1,1 +1,0 @@
-%systemroot%\system32\inetsrv\APPCMD set config "http://localhost/app1" /section:asp /appAllowClientDebug:false

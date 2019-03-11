@@ -1,1 +1,0 @@
-net stop HTTP /y

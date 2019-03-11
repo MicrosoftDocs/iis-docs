@@ -1,1 +1,0 @@
-httpcfg set ssl -i 0.0.0.0:443 -h <thumbprint>

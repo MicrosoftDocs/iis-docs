@@ -1,1 +1,0 @@
-New-NanoServerImage -MediaPath f:\ -BasePath .\Base -TargetPath .\Nano1.vhd -GuestDrivers -Packages Microsoft-NanoServer-IIS-Package

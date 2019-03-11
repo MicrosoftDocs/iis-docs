@@ -1,1 +1,0 @@
-<add name="Watermark" type="WatermarkServer.WatermarkModuleProvider, Watermarkserver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5f6f8f3f74d67fe4" />

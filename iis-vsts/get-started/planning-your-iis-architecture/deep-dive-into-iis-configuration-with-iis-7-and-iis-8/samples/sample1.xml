@@ -1,3 +1,0 @@
-<location path=".">   <system.webServer>     <defaultDocument enabled="false"/>   </system.webServer> </location>
-<location path="MySite">   <system.webServer>     <defaultDocument enabled="true"/>   </system.webServer> </location>
-<location path="MySite/YourApp/images">   <system.webServer>     <defaultDocument enabled="false"/>   </system.webServer> </location>

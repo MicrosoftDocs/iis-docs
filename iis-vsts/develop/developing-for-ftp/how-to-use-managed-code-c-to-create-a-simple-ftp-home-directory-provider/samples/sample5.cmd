@@ -1,1 +1,0 @@
-AppCmd set site "Default Web Site" /ftpServer.userIsolation.mode:Custom

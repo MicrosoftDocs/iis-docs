@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.applicationHost/serviceAutoStartProviders /+"[name='MyAutostartProvider',type='MyAutostartProvider, MyAutostartProvider, version=1.0.0.0, Culture=neutral, PublicKeyToken=426f62526f636b73']" /commit:apphost

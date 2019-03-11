@@ -1,1 +1,0 @@
-mofcomp webadministration.mof

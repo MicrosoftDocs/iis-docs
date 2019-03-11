@@ -1,1 +1,0 @@
-PS IIS:\> New-Item 'IIS:\Sites\Default Web Site\DemoApp' -physicalPath c:\test -type Application

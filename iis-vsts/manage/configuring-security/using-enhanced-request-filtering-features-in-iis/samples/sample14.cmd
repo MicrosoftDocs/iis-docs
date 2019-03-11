@@ -1,1 +1,0 @@
-appcmd.exe set config "Default Web Site" -section:system.webServer/security/requestFiltering /+"alwaysAllowedQueryStrings.[queryString='Allow=true']"

@@ -1,1 +1,0 @@
-reg add HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\w3svc\Parameters /v FastCGIUtf8ServerVariables /t REG_MULTI_SZ /d REQUEST_URI\0PATH_INFO

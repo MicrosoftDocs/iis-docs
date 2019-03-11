@@ -1,1 +1,0 @@
-appcmd.exe set config -section:system.applicationHost/sites /siteDefaults.ftpServer.fileHandling.keepPartialUploads:"False" /commit:apphost.ftpServer.logFile.enabled:"True" /commit:apphost

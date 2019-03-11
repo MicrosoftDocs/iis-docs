@@ -1,1 +1,0 @@
-cd /d %SystemDrive%\inetpub\wwwroot
