@@ -23,10 +23,10 @@ This article is intended to provide links to Quick Guides on deployment, configu
 
 The following links provide valuable information on configuring and deploying.various applications:
 
-- [Installing and Configuring DNS Servers](https://technet2.microsoft.com/windowsserver2008/en/library/f0e5d191-727c-44d9-976f-1b748f3f78761033.mspx).
-- Installing [Dynamic Host Configuration Protocol (DHCP)](https://technet2.microsoft.com/windowsserver2008/en/library/f4b5d8bd-46b0-41da-a7a7-2bea1233c1461033.mspx).
+- Installing and Configuring DNS Servers.
+- Installing Dynamic Host Configuration Protocol (DHCP).
 - Guide for Installing [Active Directory DS Forest](../installing-infrastructure-components/active-directory-ds-forest.md). Contains guides for installing though the User Windows Interface, Command Line, and Answer File.
-- [Preparation Activities for WDS](../installing-infrastructure-components/preparation-activities-for-wds.md). Contains a reference to [Windows Deployment Services Role Step-by-Step Guide](https://technet2.microsoft.com/windowsserver2008/en/library/7d837d88-6d8e-420c-b68f-a5b4baeb52481033.mspx?mfr=true).
+- Preparation Activities for WDS](../installing-infrastructure-components/preparation-activities-for-wds.md). Contains a reference to [Windows Deployment Services Role Step-by-Step Guide.
 - [Quick Guide for Shared Hosting Deployment](../configuring-servers-in-the-windows-web-platform/quick-guide-for-shared-hosting-deployment.md). Includes the Web Server Role.
 - [Install and Configure FastCGI](../web-server-for-shared-hosting/fastcgi-with-php.md)
 - [SQL Server 2005 Deployment Guidance for Web Hosting Environments](https://www.microsoft.com/technet/prodtechnol/sql/bestpractice/sql2005dgwhe.mspx "SQL 2005 Guide")

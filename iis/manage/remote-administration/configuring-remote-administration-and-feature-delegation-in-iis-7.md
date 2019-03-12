@@ -86,7 +86,7 @@ In addition to the Management Service settings that were configured in the above
 
 ## Configure IP and Domain Restrictions for the Management Service
 
-By default, the Management Service accepts all requests made to its configured IP address and port, and users are allowed to connect when they are added to IIS Manager (as explained in the next section). However, you can configure the service to deny access for unspecified requests and instead add specific allow rules so that only requests made from a specific IP address or domain are accepted. For more information about allowing or denying requests from IP addresses or domains, see the procedures under [Configuring Remote Management](https://technet2.microsoft.com/WindowsServer/en/library/fd7b1818-2b54-49ba-8d8f-c4a0c3dbb1e41033.mspx) on Microsoft TechNet.
+By default, the Management Service accepts all requests made to its configured IP address and port, and users are allowed to connect when they are added to IIS Manager (as explained in the next section). However, you can configure the service to deny access for unspecified requests and instead add specific allow rules so that only requests made from a specific IP address or domain are accepted. For more information about allowing or denying requests from IP addresses or domains, see the procedures under Configuring Remote Management on Microsoft TechNet.
 
 ## Configuring Users and Permissions for IIS Manager
 
