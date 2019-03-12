@@ -5,5 +5,5 @@
   regValueKind="DWord"
   regValueData="1"
   description="Check if tracing for Web Management Service (wmsvc) is enabled"
-  detailsUrlBase="http://go.microsoft.com/fwlink/?LinkId=206559"
+  detailsUrlBase="https://go.microsoft.com/fwlink/?LinkId=206559"
   />

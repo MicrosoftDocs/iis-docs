@@ -3,5 +3,5 @@
  type="WebPIInstalledProductValidator"
  category="appgalleryapplications"
  description="Check if dependencies for all applications in Microsoft Web Application Gallery are installed"
- detailsUrlBase="http://go.microsoft.com/fwlink/?LinkId=206559"
+ detailsUrlBase="https://go.microsoft.com/fwlink/?LinkId=206559"
 />
