@@ -41,7 +41,7 @@ Before configuring permissions on the file server, you must join the Web server 
 
     [!code-console[Main](quick-guide-for-shared-hosting-deployment/samples/sample3.cmd)]
 5. Configure [Default Documents](../web-server-for-shared-hosting/default-documents.md) at the server level in IIS Manager.
-6. [Select W3C Fields to Log](http://technet2.microsoft.com/windowsserver2008/en/library/844c691d-ea3d-49d8-aa53-874f401915261033.mspx?mfr=true) at the server level in IIS Manager.
+6. [Select W3C Fields to Log](https://technet2.microsoft.com/windowsserver2008/en/library/844c691d-ea3d-49d8-aa53-874f401915261033.mspx?mfr=true) at the server level in IIS Manager.
 7. Configure the [dynamicIdleThreshold](../web-server-for-shared-hosting/dynamicidlethreshold.md) property.
 8. Configure [Dynamic Compression](../web-server-for-shared-hosting/dynamic-compression.md).
 9. Enable [Remote Web Service Management](../../manage/remote-administration/remote-administration-for-iis-manager.md) in IIS Manager. 
