@@ -38,6 +38,7 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/iis/breadcrumb/toc.json",
+	  "extendBreadcrumb": "true",
       "_navPath": "/foo",
       "_navRel": "/foo",
       "searchScope": ["IIS"],
